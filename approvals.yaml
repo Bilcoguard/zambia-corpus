@@ -1,7 +1,7 @@
 phases:
   phase_0_source_map:
-    approved: false
-    complete: false
+    approved: true
+    complete: true
   phase_1_schema:
     approved: false
     complete: false
