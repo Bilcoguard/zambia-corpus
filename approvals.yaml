@@ -6,7 +6,7 @@ phases:
     approved: true
     complete: true
   phase_2_pilot_statute:
-    approved: false
+    approved: true
     complete: false
     target: companies-act-2017
   phase_3_pilot_judgment:
