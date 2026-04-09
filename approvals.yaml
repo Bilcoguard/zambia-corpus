@@ -10,7 +10,7 @@ phases:
     complete: true
     target: companies-act-2017
   phase_3_pilot_judgment:
-    approved: false
+    approved: true
     complete: false
   phase_4_bulk:
     approved: false
