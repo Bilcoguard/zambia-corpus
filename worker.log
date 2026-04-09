@@ -371,3 +371,639 @@ Awaiting A-POL-14 direction.
     no other outputs touched.
 
   status: HALT — awaiting human review of v0.3 schema, re-spacer 0.1.1, and the v0.3-conformant pilot record. No commit. No push. No approvals.yaml flip.
+
+[2026-04-09T21:15:00Z] [Stage 6 · Phase 3 · Checkpoint A · Step J-POL-1] pure-discovery pass: judiciary.gov.zm + cross-domain sibling www.judiciaryzambia.com
+  approvals.yaml: phase_3_pilot_judgment.approved=true (flipped on host by Peter, commit 4155599)
+  rate limit   : 10s crawl-delay honored between consecutive fetches to the same origin (stricter of BRIEF-default 10s vs approvals.yaml judiciary_seconds_between_requests 5s; approvals.yaml discrepancy flagged as housekeeping for a later commit, NOT edited in this step)
+
+  provenance.log entries appended (5):
+    1. 2026-04-09T21:08:41Z  GET https://judiciary.gov.zm/robots.txt
+       status=200  body_len=1958   sha256=3ac96dd07a587985b8c44d3f4cd439fcf721309b4f23dc11157f8ffc4e9c8d4c
+       tls=clean  saved=raw/discovery/judiciary-zm/robots.txt
+    2. 2026-04-09T21:13:19Z  GET https://judiciary.gov.zm/sitemap.xml
+       status=200  body_len=96523  sha256=b2d267c32dbf274f3b7a5b3af67c16d926d668dfb1709e944eb8b1c5c6a2430f
+       tls=clean  saved=raw/discovery/judiciary-zm/sitemap.xml
+    3. 2026-04-09T21:13:58Z  GET https://www.judiciaryzambia.com/robots.txt
+       status=200  body_len=1958   sha256=3ac96dd07a587985b8c44d3f4cd439fcf721309b4f23dc11157f8ffc4e9c8d4c
+       tls=clean (no AIA repair needed)  saved=raw/discovery/judiciaryzambia-com/robots.txt
+    4. 2026-04-09T21:14:15Z  GET https://judiciary.gov.zm/   (final_url after redirect: https://judiciaryzambia.com/)
+       status=200  body_len=192828  sha256=9720bb8f672584d62178c1be0307b16cd7b2904633bde136609168248df14a39
+       tls=clean  saved=raw/discovery/judiciary-zm/homepage.html
+
+  robots.txt parse (judiciary.gov.zm, step 2):
+    User-agent blocks : only `*` — our UA matches the wildcard block
+    Disallow rules    : NONE
+    Allow rules       : Allow: /
+    Crawl-delay       : NOT specified → using BRIEF default 10s
+    Sitemaps declared : 30 entries, ALL pointing at a DIFFERENT host: https://www.judiciaryzambia.com/sitemap.xml + sitemap_index_1..29.xml
+    Content-Signal    : NONE (neither inline nor HTTP header)
+    EU Dir. 2019/790 Art. 4 language : NONE
+    ai-train / ai-input / search reservation strings : NONE
+    mentions of "AI" / "LLM" / "training" / "scraping" : NONE
+    verdict           : OPEN — proceed
+
+  robots.txt parse (www.judiciaryzambia.com, step 4b):
+    sha256 identical to judiciary.gov.zm robots.txt (3ac96dd07a587985b8c44d3f4cd439fcf721309b4f23dc11157f8ffc4e9c8d4c) — the two origins serve the SAME robots.txt byte-for-byte, same Last-Modified, same nginx/1.29.4. This strongly suggests the two hosts are the same server / shared nginx / shared document root.
+    verdict           : OPEN — proceed
+
+  sitemap.xml parse (step 4a):
+    urlset           : 500 URLs (one sitemap file, not a sitemap index)
+    unique hosts     : {"judiciaryzambia.com": 500}  — ZERO URLs point to judiciary.gov.zm. judiciary.gov.zm's own sitemap.xml is entirely a listing of judiciaryzambia.com URLs.
+    top path buckets :
+      /category/                                    108
+      /wp-content/                                   17   (all PDFs under /wp-content/uploads/YYYY/MM/)
+      /service-charters/                              8
+      (47 single-URL top-level pages incl. constitution-court, court-of-appeal-2, supreme-court-fees, etc.)
+    observed judgment-PDF sample (from the /wp-content/ bucket):
+      - https://judiciaryzambia.com/wp-content/uploads/2025/06/2025-CCZ-0011-Munir-Zulu-Vs-Attorney-General-The-Speaker-of-National-Assembly-ECZ-June-2025-Justice-Mulife.pdf  (Constitutional Court, 2025)
+      - https://judiciaryzambia.com/wp-content/uploads/2025/04/App-4-of-2020-The-Attorney-General-Vs-Rajan-Mahthani-Apr-2025-Justice-Musonda-Kabuka-Mutuna-JJS.pdf  (Supreme Court — JJS = Justices of Supreme Court)
+      - https://judiciaryzambia.com/wp-content/uploads/2025/04/2024-CCZ-0014-Richard-Sakala-Vs-The-Attorney-General-Apr-2025-Shilimi-Chisunka-Mwandenga-Kawimbe-Mulife-JJC.pdf  (Constitutional Court, 2024/2025)
+    PDF filename pattern is rich: citation-style prefix + party names + month + coram panel. No fetching attempted — observation-only.
+
+  homepage fetch metadata (step 5):
+    request_url      : https://judiciary.gov.zm/
+    final_url        : https://judiciaryzambia.com/   ← 30x redirect
+    status           : 200
+    content_type     : text/html; charset=UTF-8
+    body_len         : 192828
+    sha256           : 9720bb8f672584d62178c1be0307b16cd7b2904633bde136609168248df14a39
+    doctype          : <!DOCTYPE html>
+    CMS fingerprint  : WordPress 6.7.5 (wp-content, wp-json, wp-includes, <meta name="generator" content="WordPress 6.7.5"> confirmed); "The Events Calendar" (tribe) plugin active
+    title            : Judiciary of Zambia – Official website
+    WordPress REST   : Link header advertises wp-json at https://judiciaryzambia.com/wp-json/ (a potential structured API for Phase 4 bulk, noted but not fetched)
+
+  homepage navigation structure (step 6):
+    The primary nav has a "Court Decisions" top-level dropdown with five per-court children. These are the jurisprudence surface. All five link into WordPress category archives on judiciaryzambia.com, not judiciary.gov.zm. There are ~266 keyword-matching anchors total; the five below are the only ones on the homepage that are labelled as per-court decision archives.
+
+    TOP 5 CANDIDATE PATHS (Supreme Court target first, then siblings for context):
+
+      1. anchor text : "Supreme Court"         (under the "Court Decisions" parent)
+         href       : https://judiciaryzambia.com/category/resources/decisions/supreme-court-decisions/
+         notes      : PRIMARY TARGET for Phase 3 pilot judgment per Cowork brain decision. WordPress category archive. Sibling to four other per-court archives below.
+
+      2. anchor text : "Constitutional Court"  (under "Court Decisions")
+         href       : https://judiciaryzambia.com/category/resources/decisions/constitutional-court-decisions/
+         notes      : Sibling archive. Reported for context and in case Cowork brain reallocates.
+
+      3. anchor text : "Court of Appeal Decisions"
+         href       : https://judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/
+         notes      : Sibling archive.
+
+      4. anchor text : "High Court"
+         href       : https://judiciaryzambia.com/category/resources/decisions/high-court-decisions/
+         notes      : Sibling archive.
+
+      5. anchor text : "Subordinate Court Decisions"
+         href       : https://judiciaryzambia.com/category/resources/decisions/subordinate-court-decisions/
+         notes      : Sibling archive.
+
+    NOT fetched. Candidate reporting only per step 6 scope.
+
+  surprises / policy-relevant observations:
+    1. judiciary.gov.zm is effectively a thin redirect shell. GET / 30x's to judiciaryzambia.com, the sitemap on .gov.zm lists only .com URLs, and the two origins serve a byte-identical robots.txt. For all practical purposes the corpus target is judiciaryzambia.com. The .gov.zm host is the politically canonical name (government TLD) but the operational host is the .com. Phase 3 source lock should be updated to reflect this: "Judiciary of Zambia — judiciary.gov.zm (redirects to and content hosted on judiciaryzambia.com)".
+    2. The nav is live JavaScript/WordPress but the links are plain server-rendered anchors, so no JS execution is required to walk the category archives. scripts/fetch_one.py is sufficient for the listing walk.
+    3. WordPress category archives at /category/resources/decisions/<court>-decisions/ are paginated (/page/N/) by default in WordPress. Pagination cost for Phase 3 is cheap (single PDF target) but for Phase 4 bulk we will need to know how many pages deep Supreme Court goes; that is a Phase 4 concern, not a J-POL-1 concern.
+    4. PDF filenames on .com contain rich metadata (citation-style prefix, parties, date, coram). This will make Phase 3 target selection and Phase 4 bulk cataloguing much easier than the parliament.gov.zm Drupal 7 file naming.
+    5. A wp-json REST API is advertised in the Link header. Using it would be faster and more structured than HTML scraping, but it's new surface area with its own rate-limit/quota posture; recommend NOT adopting it in Phase 3 (stay on HTML + direct PDF), reconsider for Phase 4 bulk.
+    6. judiciaryzambia.com is a .com, not a Zambian-government TLD. That is worth naming explicitly — the authoritativeness argument rests on the site being operated by the Judiciary of Zambia in fact, which is corroborated by the title tag, the robots.txt identity with .gov.zm, and the 30x redirect from .gov.zm. Provenance records for Phase 3 PDFs should capture BOTH the .gov.zm canonical name and the .com operational URL (e.g. as source_url=.com and a notes entry or a second provenance field for the canonical host) so that the chain of trust to the government host is preserved in the record.
+    7. Cross-domain sitemap is an interesting AI-training-posture quirk: the byte-identical robots.txt means a reservation on .com would automatically propagate to .gov.zm (and vice versa), because whichever admin edits the file edits both. Good for us — one file to watch.
+
+  status: HALT at step 7 per J-POL-1 spec. No candidate pages fetched. No judgment PDFs fetched. Next move is Cowork brain's to pick a target from the candidate list (and to decide the Phase 3 source-lock wording update re: .gov.zm vs .com).
+  no commit. no push. no approvals.yaml flip.
+
+[2026-04-09T21:22:00Z] [Stage 6 · Phase 3 · Checkpoint A · Step J-POL-2] Supreme Court category pager walk — page 1 only
+  rate limit: 10s BRIEF default honored (stricter than approvals.yaml judiciary_seconds_between_requests:5 — housekeeping flag carried forward from J-POL-1, still not edited in this step)
+  budget used: 1 of 10 pager-walk fetches
+
+  provenance.log entry appended:
+    2026-04-09T21:21:24Z  GET https://judiciaryzambia.com/category/resources/decisions/supreme-court-decisions/
+      status=200  body_len=180148  sha256=90d734c50c44663ae8c9049ee0e7bda2f28ba299849a83518f3d83e9c8a100a4
+      final_url=https://judiciaryzambia.com/category/resources/decisions/supreme-court-decisions/ (no redirect)
+      content_type=text/html; charset=UTF-8
+      tls=clean (no AIA repair needed, confirming J-POL-1)
+      Link header: wp-json/wp/v2/categories/196 — WordPress category id 196
+      saved: raw/discovery/judiciary-zm/supreme-court/page-1.html
+
+  local parse (no network):
+    CMS shape             : WordPress category archive, 10 <article> blocks per page, theme emits class "main-term-196" on every article
+    posts on page 1       : 10
+    pagination markers    : page/2, page/3, ... ellipsis ..., page/77 ; "Next" arrow to page/2 ; "1" marked current
+    total pages           : 77  → ~770 Supreme Court decision posts in archive (upper bound: 77 × 10 = 770; lower bound: 76*10+1 = 761)
+    PDF attachment on listing : 0/10 — listing does not expose attached PDFs, they live on the individual post pages. Fetching post pages is a J-POL-3 concern, not J-POL-2.
+    date range on page 1  : 2025-09-22 → 2026-03-31 (using the post published-datetime attributes on each <time> tag). All 10 posts fall inside the 2020+ recency window; 9 of 10 are inside the preferred 2023–2026 window. Per-article published datetime recorded verbatim.
+
+  page 1 post listing (number, title, permalink, published datetime) — verbatim from the HTML, no inference:
+
+    01. "Appeal No-09-2024 Konkola Copper Mins PLC Vs Attorney General & 2 Others Mar 2026 - Coram Musonda, Kaoma And Mutuna JJS"
+        permalink: https://judiciaryzambia.com/appeal-no-09-2024-konkola-copper-mins-plc-vs-attorney-general-2-others-mar-2026-coram-musonda-kaoma-and-mutuna-jjs/
+        published: 2026-03-31T15:40:00+02:00
+        coram    : Musonda, Kaoma, Mutuna JJS (3-bench)
+        subject  : mining / commercial (KCM vs AG + 2 others — note "Mins" is a typo of "Mines" in the WordPress title, preserved verbatim)
+
+    02. "SCZ-08-08-2025 Rephidim Institute Limited Vs Attorney General – Dec 2025 – Coram – Malila, Mutuna, Chisanga JJS"
+        permalink: https://judiciaryzambia.com/scz-08-08-2025-rephidim-institute-limited-vs-attorney-general-dec-2025-coram-malila-mutuna-chisanga-jjs/
+        published: 2026-02-19T16:10:23+02:00
+        coram    : Malila CJ, Mutuna, Chisanga JJS (3-bench incl. Chief Justice)
+        subject  : civil — institute vs AG
+
+    03. "SCZ-7-29-2025 Manoj Patel & 1 Other Vs Sanmukh Ramanlal Patel & 3 Others – Feb 2026 – Coram Malila, Kaoma And Chisanga JJS"
+        permalink: https://judiciaryzambia.com/scz-7-29-2025-manoj-patel-1-other-vs-sanmukh-ramanlal-patel-3-others-feb-2026-coram-malila-kaoma-and-chisanga-jjs/
+        published: 2026-02-11T20:23:15+02:00
+        coram    : Malila CJ, Kaoma, Chisanga JJS (3-bench incl. Chief Justice)
+        subject  : civil — private parties (likely family/estate or commercial dispute between related parties; needs body review to classify)
+
+    04. "SCZ-07-28-2025 Rodgers Mbao & 12 Others Vs Standard Chart Bank -Feb 2025- Coram Malila, Laoma, Chisanga JJS"
+        permalink: https://judiciaryzambia.com/scz-07-28-2025-rodgers-mbao-12-others-vs-standard-chart-bank-coram-malila-laoma-chisanga-jjs/
+        published: 2026-02-11T20:23:08+02:00
+        coram    : Malila CJ, "Laoma" (apparent OCR/typist error for Kaoma), Chisanga JJS (3-bench incl. CJ)
+        subject  : commercial — employees vs Standard Chartered Bank (recognisable corporate party)
+
+    05. "App-10-2023- SA Airlink (PTY) and Zambia Skyways Ltd & 5 Others-Justice Malila CJ Kaoma and Mutuna, JJS 31st December"
+        permalink: https://judiciaryzambia.com/app-10-2023-sa-airlink-pty-and-zambia-skyways-ltd-5-others-justice-malila-cj-kaoma-and-mutuna-jjs-31st-december/
+        published: 2025-12-31T14:05:30+02:00
+        coram    : Malila CJ, Kaoma, Mutuna JJS (3-bench incl. CJ)
+        subject  : commercial aviation — SA Airlink vs Zambia Skyways (recognisable corporate parties, cross-border commercial)
+
+    06. "App No 09-2024 Konkola Copper Mines PLC Vs Attorney General, Shenzen Resources LTD And Kakoso Metals Leach LTD"
+        permalink: https://judiciaryzambia.com/app-no-09-2024-konkola-copper-mines-plc-vs-attorney-general-shenzen-resources-ltd-and-kakoso-metals-leach-ltd/
+        published: 2025-10-29T16:21:15+02:00
+        coram    : (not in title — would need post page to confirm)
+        subject  : mining / commercial — KCM vs AG + two mining companies. NOTE: this appears to be the SAME appeal as post 01 but published earlier; possible duplicate or interlocutory-then-final sequence. Worth disambiguating at J-POL-3 stage.
+
+    07. "SCZ-7-034-2024-Henry Nyambe & 9 Others vs Lumwana Mining Company Ltd – Apr 2025 – Justice musonda, Kabuka and Mutuna JJS"
+        permalink: https://judiciaryzambia.com/scz-7-034-2024-henry-nyambe-9-others-and-lumwana-mining-company-ltd-29th-april-2025-justice-musonda-kabuka-and-mutuna-jjs/
+        published: 2025-09-22T17:15:35+02:00
+        coram    : Musonda, Kabuka, Mutuna JJS (3-bench)
+        subject  : mining / labour — employees vs Lumwana Mining (recognisable corporate, industrial relations)
+
+    08. "SCZ-7-05-2024-Cosmas Mweemba & 34 Others Vs Chikankata District Council & 1 Other -19th Sep 2025 -Justice Malila, Wood, Kaoma JJS"
+        permalink: https://judiciaryzambia.com/scz-7-05-2024-cosmas-mweemba-34-others-vs-chikankata-district-council-1-other-19th-sep-2025-justice-malila-wood-kaoma-jjs/
+        published: 2025-09-22T17:12:19+02:00
+        coram    : Malila CJ, Wood, Kaoma JJS (3-bench incl. CJ)
+        subject  : civil — 35 claimants vs district council (may be land/rates/labour; needs body review)
+
+    09. "App-03-2025-Richard Musukwa & 6 Others Vs The Attorney General -19th Sep 2025 – Justice Malila CJ, Kaoma, Chisanga JJS"
+        permalink: https://judiciaryzambia.com/app-03-2025-richard-musukwa-6-others-vs-the-attorney-general-19th-sep-2025-justice-malila-cj-kaoma-chisanga-jjs/
+        published: 2025-09-22T17:06:08+02:00
+        coram    : Malila CJ, Kaoma, Chisanga JJS (3-bench incl. CJ)
+        subject  : civil — individual plaintiffs vs AG
+
+    10. "App-12-2025-Occupation Health Safety Institute Vs James Mataliro -19th Sep 2025 – Justice Mutuna JS"
+        permalink: https://judiciaryzambia.com/app-12-2025-occupation-health-safety-institute-vs-james-mataliro-19th-sep-2025-justice-mutuna-js/
+        published: 2025-09-22T17:03:33+02:00
+        coram    : Mutuna JS (title says single-justice — may be a single-judge interlocutory ruling, not a substantive five/three-bench judgment; caution)
+        subject  : employment/OHS — OHSI vs individual
+
+  observations (situational awareness, not a pick):
+    1. Page 1 is all 2025–2026 material, zero pre-2023 posts. Recency filter is trivially satisfied on this page alone. No need to walk deeper unless the subject-matter filter excludes too many.
+    2. Every post on page 1 has a 3-justice bench (except post 10 which looks single-justice). No 5-justice full bench on page 1. If 5-justice is a hard requirement, J-POL-3 will need to walk page 2+ to find one. If 3-justice is acceptable (user said "five-justice preferred but three-justice acceptable"), page 1 is sufficient.
+    3. Criminal / family / election-petition / constitutional filters — page 1 is clean, no matches to exclude. Every post appears civil or commercial on its face.
+    4. Corporate-party filter is well-served: Konkola Copper Mines (posts 01 + 06, possibly the same case), Standard Chartered Bank (04), SA Airlink / Zambia Skyways (05), Lumwana Mining (07) — four distinct recognisable corporates across five posts.
+    5. Post 01 and post 06 are both "Appeal 09/2024 KCM vs AG" with different coram panels and different months — these are almost certainly related (interlocutory + substantive, or judgment + supplementary ruling). Fetching both post pages in J-POL-3 would disambiguate cheaply.
+    6. Listing does NOT expose PDF URLs. J-POL-3 will need to fetch individual post pages to locate the judgment PDF (WordPress post body typically contains a direct /wp-content/uploads/YYYY/MM/<filename>.pdf link).
+    7. 77-page archive × 10 posts = ~770 SC judgments total. That is a healthy Phase 4 bulk target on its own.
+    8. Title typography preserves source typos verbatim: "Mins" (post 01) for "Mines", "Laoma" (post 04) for "Kaoma", "occupation" (post 10) missing "-al". These are WordPress title typos at the source and MUST be preserved in our record title field per non-fabrication rule #1. notes can carry an annotation like "[sic — source title has 'Mins'; the PDF itself reads 'Mines']" IF and only if the PDF body source-attests the corrected form.
+
+  status: HALT at step 2 per J-POL-2 spec. No individual post pages fetched. No PDFs fetched. 9 of 10 budget fetches still available. Awaiting Peter's target pick from the page-1 listing, OR instruction to walk to page 2.
+  no commit. no push. no approvals.yaml flip.
+
+[2026-04-09T21:28:00Z] [Stage 6 · Phase 3 · Checkpoint A · Step J-POL-3] target post page fetch + local parse
+  target: post #04 from J-POL-2 page-1 listing — SCZ-07-28-2025 Rodgers Mbao & 12 Others v Standard Chart[ered] Bank
+  rate limit: 10s BRIEF default honored (approvals.yaml housekeeping flag still parked)
+  budget used: 2 of 10 pager-walk fetches (cumulative: J-POL-2=1, J-POL-3=1, total=2)
+
+  provenance.log entry appended:
+    2026-04-09T21:27:03Z  GET https://judiciaryzambia.com/scz-07-28-2025-rodgers-mbao-12-others-vs-standard-chart-bank-coram-malila-laoma-chisanga-jjs/
+      status=200  body_len=167536  sha256=f54c270c0943db38c26127db0b4451148e350d98abd9e725700b00b321911541
+      final_url=(same as request — no redirect)
+      content_type=text/html; charset=UTF-8
+      Link header: wp-json/wp/v2/posts/21784 — WordPress post id 21784
+      tls=clean (no AIA repair)
+      saved: raw/discovery/judiciary-zm/supreme-court/post-scz-07-28-2025-mbao-stanchart.html
+
+  local parse:
+
+    (a) document-type indicators in post body
+      The post body is a WORDPRESS STUB, not the judgment itself. The <article> block is 2815 chars HTML / 823 chars stripped text / 131 words. It contains a boilerplate "To Access the decision, please click the link below" + a permalink to the PDF + a Council of Law Reporting copyright notice (see observation 2 below).
+      Literal-string search results on stripped body text:
+        "JUDGMENT"       : 0 hits
+        "Judgment"       : 0 hits
+        "RULING"         : 0 hits
+        "Ruling"         : 0 hits
+        "ORDER"          : 0 hits
+        "Order"          : 0 hits
+        "DECISION"       : 0 hits
+        "Decision"       : 1 hit  — but the hit is the word "Decisions" inside the taxonomy chip "Categories: Supreme Court Decisions". NOT a document-type assertion about THIS post.
+        "INTERLOCUTORY"  : 0 hits
+        "Interlocutory"  : 0 hits
+      WordPress taxonomy chip: category = "Supreme Court Decisions". No tags.
+      Verdict: the post HTML does NOT source-attest whether the linked PDF is a substantive judgment or a ruling. That is determinable only by fetching the PDF itself and reading its first page. Kill-switch "contains RULING/INTERLOCUTORY" did NOT trip (neither string is present). Kill-switch "explicit not-a-final-judgment language" did NOT trip (no such language present). I am reporting this as a soft caveat rather than halting, per the literal kill-switch spec.
+
+    (b) PDF / wp-content anchors
+      Exactly two anchors in the article block match the PDF-or-wp-content filter:
+        1. decorative placeholder graphic (NOT a PDF candidate)
+           href : https://judiciaryzambia.com/wp-content/uploads/2016/09/blank-supremecourt-decision.jpg
+           text : (empty)
+           note : /wp-content/uploads/2016/09/blank-supremecourt-decision.jpg is a 2016-dated featured-image placeholder used sitewide on posts without a custom thumbnail. It is not the judgment. Exclude.
+        2. THE JUDGMENT PDF
+           href : https://judiciaryzambia.com/wp-content/uploads/2026/02/SCZ-07-28-2025-Rodgers-Mbao-12-Others-Vs-Standard-Chart-Bank-Coram-Malila-Laoma-Chisanga-JJS.pdf
+           text : "SCZ-07-28-2025 Rodgers Mbao & 12 Others Vs Standard Chart Bank Coram Malila, Laoma, Chisanga JJS"
+           note : anchor text matches the post title 1:1; URL path encodes full case metadata; upload directory YYYY/MM = 2026/02 matches the post's 2026-02-11 published timestamp; filename contains "SCZ-07-28-2025" matching the case-number in the body. Unambiguous.
+      Kill-switch "no .pdf link" did NOT trip. Kill-switch "multiple PDF candidates with ambiguous labelling" did NOT trip (1 decorative image clearly distinguishable from 1 judgment PDF).
+
+    (c) post metadata
+      published     : not exposed on the single-post page via <time class="entry-date published"> — WordPress theme omits it from the singular template. The listing (J-POL-2) reported 2026-02-11T20:23:08+02:00 from the <time datetime="..."> attribute inside the <article> for this post.
+      updated       : 2026-02-11T20:23:08+02:00  (identical to the listing-side published value; the post has not been modified since upload)
+      article:modified_time (OG) : not emitted
+      article:published_time (OG): not emitted
+      categories    : ["Supreme Court Decisions"]  (from <a rel="category tag">)
+      tags          : []
+      author        : not exposed in the HTML (no .url.fn.n anchor, no JSON-LD author block). Typical WordPress-as-filing-cabinet pattern — the post is uploaded by a site admin, not by the court. Would have to visit /author/<slug>/ or the wp-json endpoint to recover the admin username, and even then it would not be a juridical author.
+
+    (d) body length + word count
+      article block (HTML)        : 2815 chars
+      stripped body text          : 823 chars
+      word count                  : 131 words
+      content is entirely stub boilerplate + PDF link + Council copyright notice. No adjudicative content in the HTML. All judgment content is in the linked PDF.
+
+    (e) neutral citation / case number extraction
+      Searched body text with these patterns:
+        [20NN] ZMSC NN           : 0 hits  — the Zambian SC does not yet appear to use neutral citation format on this post
+        SCZ Judgment No. N of 20NN : 0 hits
+        Appeal No. N of 20NN     : 0 hits (the title's "07-28-2025" is a WP-slug-friendly variant, not in this canonical form on the body)
+        SCZ-N-NN-20NN / SCZ/N/NN/20NN : 2 hits — both resolve to "SCZ-07-28-2025" (once in the H2 title-echo, once in the PDF anchor text)
+        Selected Judgment No.   : 0 hits
+      Canonical in-house identifier found : SCZ-07-28-2025
+      No neutral citation ([YYYY] ZMSC NNN style) is source-attested anywhere on the post page. If Phase 3 needs one, the PDF body itself will have to be the source.
+
+  policy-relevant observations — TWO items Peter needs to see before J-POL-4 direction:
+
+    OBS-1 — Council of Law Reporting copyright notice on post body (VERBATIM):
+      "The Council of Law Reporting (Council) is a statutory body established under Chapter 46 of the Laws of Zambia and is mandated to publish the Zambia Law Reports, which constitute the official and authoritative law reports of the Republic of Zambia. This decision is the product of the Council of Law Reporting (the "Council") and the copyright therein reposes in the Council. No part of this decision may be altered, edited, reproduced, adapted, or otherwise modified without the prior written permission of the Council."
+      This is new policy surface. robots.txt gated the MACHINE-READABLE reservation layer (open). This is a HUMAN-TEXT copyright assertion on the adjudicative content itself, asserted by a statutory body (Council of Law Reporting, Chapter 46), NOT by the Judiciary directly. It restricts "alteration, editing, reproduction, adaptation or modification" without prior written permission. Relevance to our corpus:
+        - fetching and storing locally: arguably fair dealing for legal practice / for KWLP's internal chambers use; I am NOT a lawyer and this is NOT legal advice
+        - parsing into structured form: arguably an "adaptation"
+        - re-serving through a retrieval API (Phase 5): arguably "reproduction"
+        - redistribution to third parties: clearly within "reproduction" and would require permission
+      This is a policy question for Cowork brain / Peter / the firm. I am flagging it prominently and HOLDING before Phase 3 ingests the PDF. This is not a kill-switch as J-POL-3 defined them (kill-switches concerned document type and URL resolution), but it directly affects whether Phase 3/4/5 are even permissible as designed. Peter should decide:
+        (i)  STOP — Council of Law Reporting copyright is incompatible with our corpus posture; Phase 3 closes on judiciaryzambia.com the same way we closed zambialii.org. Find another source (e.g., as-fetched PDFs from parliament.gov.zm for SIs, or an Open Access judicial gazette, or request written permission from the Council).
+        (ii) PROCEED with scoped internal use only — KWLP lawful-research / internal-chambers-use posture, no redistribution, no retrieval API exposure to non-KWLP users, corpus stays private. If so, the approvals.yaml or BRIEF should carry an explicit "internal-use only" rider and Phase 5 retrieval API scope must be narrowed.
+        (iii) REQUEST WRITTEN PERMISSION from the Council of Law Reporting before touching any PDF. This is the cleanest path and is typically how law-report bodies prefer to be engaged.
+      I will not make this call. Halting before PDF fetch pending Peter's direction.
+
+    OBS-2 — post body does NOT source-attest document type
+      The HTML stub contains neither the word "JUDGMENT" nor "RULING". The document type (substantive judgment vs. ruling vs. order) is discoverable only from the PDF body. The screening criterion "substantive judgment, not a mere ruling or interlocutory order" cannot therefore be verified WITHOUT fetching the PDF. This is a genuine chicken-and-egg: the kill-switch says halt if the post body shows it's a ruling, but the post body is silent. My reading of the kill-switch spec: it was designed to catch cases where the HTML proactively says "Ruling" or "Interlocutory" in a heading; silence is not a trip. Proceeding is within-spec, but I am surfacing this so Peter can decide whether to tighten the kill-switch (e.g., require PDF-body first-page inspection before the record is built) in J-POL-4 onwards.
+
+  status: HALT at step 2 per J-POL-3 spec. PDF NOT fetched. No other post fetched. 8 of 10 budget fetches still available. Awaiting J-POL-4 directive from Peter, which must first resolve OBS-1 (Council of Law Reporting copyright posture). OBS-2 is a method question that can be folded into J-POL-4 scope if Peter wants.
+  no commit. no push. no approvals.yaml flip. housekeeping flags (approvals.yaml 5s→10s, .gitignore.tmp host rm) still parked.
+
+[2026-04-09T21:32:00Z] [Stage 6 · Phase 3 · Checkpoint A · Step J-POL-3b] ToS discovery on judiciaryzambia.com — LOCAL PARSE ONLY (zero network fetches)
+  context: OPINION/2026/017 (copyright fair-dealing, v1.0 DRAFT) §8.2(i) — ToS of judiciaryzambia.com must be reviewed in parallel with the Council of Law Reporting copyright notice found at J-POL-3 OBS-1.
+  input   : raw/discovery/judiciary-zm/homepage.html (saved in J-POL-1, sha256=9720bb8f672584d62178c1be0307b16cd7b2904633bde136609168248df14a39)
+  budget  : 0 fetches consumed. 8 of 10 J-POL-2 walk-budget fetches remain.
+  rate limit : N/A — no network activity this step.
+
+  scan coverage:
+    - full HTML document (192828 bytes, doctype <!DOCTYPE html>, WordPress 6.7.5)
+    - 161 total <a> anchors enumerated
+    - 2 <footer> blocks identified and inspected verbatim
+    - textwidget contents inspected for inline disclaimers
+    - consent/CMP scripts probed: cookieyes / cookiebot / iubenda / complianz / onetrust / gdpr / ccpa
+    - third-party trackers probed: disqus / google-analytics / googletagmanager / facebook / twitter / cloudflare
+    - WP auto-created /privacy-policy/ endpoint probed (text pattern only; no fetch)
+
+  keyword scan (visible anchor text, case-insensitive):
+    broad keywords tested : term, polic, legal, disclaim, privac, copyright, condition, agreement, use of, user, fair use, rights, reserved, notice, imprint, about, contact
+    matching anchors      : 3
+      1. "Contact Us"  -> https://judiciaryzambia.com/contact-page/              (contact, not ToS)
+      2. "About Us"    -> #                                                       (no-op anchor, dropdown label)
+      3. "Notices"     -> https://judiciaryzambia.com/category/resources/notices/ (public-notices WP category — court notices, press notices — NOT a ToS or legal-use page; already flagged in J-POL-1)
+
+  href-substring scan (any anchor href containing /privacy, /terms, /tos, /legal, /disclaimer, /copyright, /policy, /conditions):
+    matches               : 0
+
+  residual full-document substring hits (verified as false positives):
+    "terms" ×1 : inside a CSS comment "/* Terms Custom CSS */" referring to WordPress taxonomy terms (categories/tags) — NOT a ToS reference
+    "legal" ×2 : both are FontAwesome icon class "fa fa-legal" on the Services and Court Decisions menu items (scales-of-justice glyph) — NOT a ToS reference
+    "tos"   ×3 : all are `.toString()` method calls inside an inline JavaScript blob — NOT ToS references
+    "privacy"    ×0
+    "disclaimer" ×0
+    "copyright"  ×0
+    "conditions" ×0
+    "fair use"   ×0
+    "all rights reserved" ×0
+
+  footer block inspection (verbatim HTML):
+    <footer> #1 ("upper footer"): 571 chars HTML. Three empty <aside class="footer-aside"> columns with class="col-lg-4". ZERO anchors. ZERO widgets. ZERO text content. The site's upper footer widget area is entirely UNCONFIGURED.
+    <footer> #2 ("lower footer" / copyright strip): 537 chars HTML. Two <aside> columns. The first contains ONE text widget whose entire content is the literal string:
+        "© 2016 Judiciary of Zambia."
+    The second column is empty. No anchors. No additional widgets.
+    Observation: the footer's copyright year is "© 2016" but the site is currently serving 2026 content and the WordPress version is 6.7.5 (June 2025). The footer copyright strip has not been updated in ~10 years, which is a corroborating signal that legal-page configuration was never performed — not just absent but never considered.
+
+  consent / cookie-management platform detection:
+    cookieyes     : 0 occurrences
+    cookiebot     : 0 occurrences
+    iubenda       : 0 occurrences
+    complianz     : 0 occurrences
+    onetrust      : 0 occurrences
+    "gdpr"        : 0 occurrences
+    "ccpa"        : 0 occurrences
+    verdict       : NO consent-management platform is installed on the site. There is no cookie banner, no consent gate, no data-processing notice surface of any kind.
+
+  third-party trackers DETECTED (policy-relevant):
+    disqus        : PRESENT. The Disqus comment-count script (//joz.disqus.com/count.js) is loaded on every page from the "BetterFramework Footer Inline JS" block. shortname = 'joz'. Disqus sets third-party cookies when its script runs in the browser — this is a personal-data processing operation that takes place on every visitor to judiciaryzambia.com. Zambia's Data Protection Act, 2021 (Act No. 3 of 2021) has territorial scope that catches this, as does EU GDPR for EU visitors. A website processing personal data through a third-party comment system with no consent banner and no privacy-policy page is NOT a posture-neutral fact for the opinion.
+    facebook.com  : PRESENT. Likely an OpenGraph share target or a Facebook meta tag. Not necessarily a tracker, but the facebook.com domain is in the HTML.
+    google-analytics : NOT detected
+    googletagmanager : NOT detected
+
+  primary finding: ZERO CANDIDATE URLs (kill-switch: "Homepage parse finds zero candidate URLs → report 'no ToS surface' and halt.")
+    judiciaryzambia.com has NO ToS page, NO privacy policy page, NO disclaimer page, NO legal notice page, NO use-of-site page, NO copyright policy page, NO terms-and-conditions page that is discoverable from the homepage. Not in the navigation. Not in the footer. Not via a floating cookie banner. Not via a WordPress auto-generated /privacy-policy/ URL linked from the head. The site does not appear to have ever been configured with any legal-use surface.
+
+  implications for OPINION/2026/017 (flagged for Mrs. Ndhlovu review, not adjudicated by worker):
+    1. ABSENCE of a ToS on a WordPress site that hosts authoritative government judicial content is itself a material data point. For a typical commercial website, absence of a ToS is a meaningful fair-dealing fact because no contractual terms restrict the scraper/reader. For a government-adjacent content host, the analysis is different — the content is of state authorship/publication, and the default copyright regime is the Copyright and Performance Rights Act, Cap. 406, as amended by Act No. 25 of 2010. Crown/state copyright interacts with fair dealing under s.21 of Cap. 406; the absence of a contractual overlay on the hosting site means the analysis collapses back to statute.
+    2. The only explicit restriction we have found on the entire site relating to reproduction of judgments is the CouncilofLaw Reporting copyright notice QUOTED in J-POL-3 OBS-1, which appears PER-POST on the judgment stub pages, not as a site-wide ToS. It is a copyright assertion, not a contract. This is a narrower posture than a site-wide terms-of-use contract would be.
+    3. Disqus tracking + no consent banner + no privacy policy is NOT a copyright fact but IS a data-protection fact. If OPINION/017 is strictly copyright/fair-dealing scoped, this is out of scope for /017; if there is a companion OPINION track on data-protection posture, this should be surfaced there too.
+    4. The "© 2016" footer is evidence of configuration neglect rather than affirmative policy design. The site was set up in 2016 (which matches the /wp-content/uploads/2016/09/blank-supremecourt-decision.jpg placeholder image date from J-POL-3) and has never been legally re-papered. Mrs. Ndhlovu may want this narrative for the opinion's "site posture" section.
+    5. The per-post Council of Law Reporting notice is therefore the ONLY contractual/policy restriction that attaches to any individual judgment PDF. It is consistent across posts (not a one-off; it appears on this post and plausibly on all SC-Decisions-category posts — J-POL-3b did not re-walk to verify this across multiple posts, but could do so cheaply within budget if instructed).
+
+  kill-switch disposition:
+    - Homepage parse finds zero candidate URLs → TRIPPED → halt-and-report per spec.
+    - Homepage parse finds more than 5 candidate URLs → not tripped (found 0).
+    - Any step requires a network fetch before Peter's URL pick → not tripped (no fetch performed).
+
+  status: HALT at step 1 per the zero-candidate kill-switch and per user spec. No network activity performed. 8 of 10 J-POL-2 walk-budget fetches remain. Awaiting Peter's direction: either (a) accept the "no ToS surface" finding as dispositive for OPINION/017 §8.2(i) and proceed to J-POL-4 (still gated on OBS-1 resolution), (b) instruct a sibling fetch of e.g. /privacy-policy/ or /terms/ as a speculative-existence probe (404 is itself a data point), or (c) instruct a multi-post sweep of the SC-Decisions category to verify that the Council of Law Reporting notice is site-wide-consistent and not just on this one post.
+  no commit. no push. no approvals.yaml flip. housekeeping flags still parked.
+
+[2026-04-09T23:16:00Z] [Stage 6 · Phase 3 · Checkpoint A · Step J-POL-3b — re-issue with dedicated provenance stamp] homepage fetch for Opinion/017 §8.3 and Opinion/018 §8.3 ToS gate
+  context: Mrs. Ndhlovu signed Opinions 017 and 018 v3.0 FINAL. Both §8.3 carve out the judiciaryzambia.com ToS. Phase 3 cannot issue J-POL-4 (PDF fetch) until this discovery returns a clean finding. Earlier J-POL-3b (2026-04-09T21:32:00Z) was a LOCAL PARSE of the J-POL-1 homepage capture — this re-issue is a FRESH FETCH with its own dedicated provenance.log entry and its own file under raw/discovery/judiciary-zm/homepage/, so that the Opinions can cite a timestamped, sha-stamped, independently-parsed artifact rather than a derived analysis.
+
+  BRIEF-compliance substitutions flagged up-front (both preserve user intent, neither alters scope):
+    (i) fetcher: used scripts/fetch_one.py (not raw curl). BRIEF non-negotiable #3 and J-POL-1 standing rules require all HTTP via fetch_one.py so provenance.log captures the request.
+    (ii) User-Agent: used the configured "KateWestonLegal-CorpusBuilder/1.0 (contact: peter@bilcoguard.com)" from approvals.yaml (not the "KWLP-Corpus-Worker/1.0" string in the user's message, which appears to be a typo — BRIEF non-negotiable #3 pins the UA to the approvals.yaml value).
+
+  wall clock:
+    start  : 2026-04-10 01:15:03 CAT  (2026-04-09 23:15:03 UTC)
+    finish : 2026-04-10 01:16:18 CAT  (2026-04-09 23:16:18 UTC)
+    elapsed: ~75 seconds wall (fetch 6.2s + parse + log write)
+  rate limit:
+    last judiciary-origin fetch was 2026-04-09T21:27:03Z (J-POL-3 post page)
+    elapsed before this fetch: ~108 minutes >> 10s required
+  budget: 1 fetch consumed (3 of 10 J-POL-2 walk-budget fetches used cumulatively; 7 remain)
+
+  fetch result (provenance.log entry appended):
+    started_at       : 2026-04-09T23:15:11Z
+    request_url      : https://judiciaryzambia.com/            (direct .com fetch — no .gov.zm hop this time, so no redirect chain)
+    final_url        : https://judiciaryzambia.com/            (no redirect; single-hop 200)
+    HTTP status chain: [200]
+    content_type     : text/html; charset=UTF-8
+    content_length   : 192829 bytes (chunked transfer; final body bytes)
+    sha256           : ed66a558c96bf3aad10e3f4e7ecd3a5e60d2e3de29fbe609df9e23fc229519d5
+    Link header      : wp-json/wp/v2/pages/1231 (WordPress page id 1231 is the homepage)
+    server           : nginx/1.29.4
+    tls              : clean (no AIA repair needed — judiciaryzambia.com confirmed clean in J-POL-1 at 21:14:15Z)
+    saved            : raw/discovery/judiciary-zm/homepage/homepage-20260409.html
+
+  body churn vs earlier capture:
+    J-POL-1 capture (2026-04-09T21:14:15Z, request via .gov.zm with 30x → .com)
+      body_len: 192828  sha256: 9720bb8f672584d62178c1be0307b16cd7b2904633bde136609168248df14a39
+    J-POL-3b re-issue (2026-04-09T23:15:11Z, direct .com)
+      body_len: 192829  sha256: ed66a558c96bf3aad10e3f4e7ecd3a5e60d2e3de29fbe609df9e23fc229519d5
+    delta: +1 byte, different sha — minor content churn between the two captures (most likely a view counter, a server-emitted timestamp, or a nonce; NOT a structural change). Not investigated deeper; not policy-relevant.
+
+  local parse (no further network):
+    total <a href="..."> anchors in document : 161 (matches J-POL-3b initial parse — structural parity)
+    zones identified                         : 1 <header>, 1 <nav>, 2 <footer>, rest=body
+    keyword list used (verbatim from user)   : terms, tos, conditions, use, legal, disclaimer, privacy, copyright, acceptable use
+
+  raw candidate table (before false-positive filtering, anchor text | href | zone | hit keywords):
+    | zone   | hit     | anchor text                                                  | href                                                                                       |
+    |--------|---------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+    | nav    | ["use"] | "Mansa"                                                      | https://judiciaryzambia.com/category/causelists/high-court-causelists/mansa-high-court/    |
+    | nav    | ["use"] | "Causelists"                                                 | https://judiciaryzambia.com/category/causelists/                                           |
+    | nav    | ["use"] | "Con. Court – Cause List"                                    | https://judiciaryzambia.com/category/constitutional-court-cause-list/                      |
+    | nav    | ["use"] | "Supreme Court"                                              | https://judiciaryzambia.com/category/causelists/supreme-court-causelists/                  |
+    | nav    | ["use"] | "CoA – Cause List"                                           | https://judiciaryzambia.com/category/causelists/court-of-appeal-cause-list/                |
+    | nav    | ["use"] | "High Court"                                                 | https://judiciaryzambia.com/category/causelists/high-court-causelists/                     |
+    | nav    | ["use"] | "Lusaka High Court"                                          | https://judiciaryzambia.com/category/causelists/high-court-causelists/lusaka-high-court... |
+    | body   | ["use"] | "2022-HP-0951 Davie Museisei Sililo Vs Zambia Railways..."   | https://judiciaryzambia.com/2022-hp-0951-davie-museisei-sililo-vs-zambia-railways-limi...  |
+    | body   | ["use"] | (empty — featured-image anchor)                              | https://judiciaryzambia.com/constitutional-court-addendum-causelist-7th-nov-2025/          |
+    | body   | ["use"] | "Constitutional Court Addendum CauseList – 7th Nov 2025"     | https://judiciaryzambia.com/constitutional-court-addendum-causelist-7th-nov-2025/          |
+    | body   | ["use"] | "2022-HP-0951 Davie Museisei Sililo Vs Zambia Railways..."   | https://judiciaryzambia.com/2022-hp-0951-davie-museisei-sililo-vs-zambia-railways-limi...  |
+
+    ALL 11 raw hits are substring collisions between "use" and either "causelist"/"causelists" (WP category for court cause lists) or the party surname "Museisei" in post title "2022-HP-0951 Davie Museisei Sililo v Zambia Railways Ltd". None is a ToS, terms-of-use, or acceptable-use anchor.
+
+  strict keyword rescan (excluded "use" to eliminate substring noise; "tos" and "legal" required word-boundary or path-separator context to avoid matching ".toString" and "fa-legal" respectively):
+    strict hits: 0
+
+  footer verbatim (all <footer> blocks on fresh capture):
+    <footer> #1 (715 chars HTML): empty stripped text. 0 anchors. Upper footer widget area unconfigured.
+    <footer> #2 (680 chars HTML): stripped text = "© 2016 Judiciary of Zambia."  0 anchors. Lower footer copyright strip; copyright year is stale by ~10 years (site currently serving 2026 content on WordPress 6.7.5). Identical in substance to the J-POL-3b initial finding.
+
+  full-document substring counts (for absence reporting):
+    'terms'              : 1  → verified false positive: CSS comment "/* Terms Custom CSS */" (WordPress taxonomy "terms" = categories/tags, not ToS)
+    'tos'                : 3  → verified false positive: all three are ".toString()" method calls inside an inline JavaScript blob
+    'conditions'         : 0
+    'legal'              : 2  → verified false positive: both are FontAwesome icon class "fa fa-legal" on Services and Court Decisions menu items (scales-of-justice glyph)
+    'disclaimer'         : 0
+    'privacy'            : 0
+    'copyright'          : 0
+    'acceptable use'     : 0
+    'fair use'           : 0
+    'all rights reserved': 0
+
+  plain-English finding (verbatim for opinion citation):
+    "No ToS / terms-of-use link located in homepage footer, header, or nav of https://judiciaryzambia.com/ as captured on 2026-04-09T23:15:11Z (sha256 ed66a558c96bf3aad10e3f4e7ecd3a5e60d2e3de29fbe609df9e23fc229519d5). The fresh capture re-confirms the earlier J-POL-3b finding of 2026-04-09T21:32:00Z with independent provenance. The only legal-adjacent text on the entire homepage is the stale '© 2016 Judiciary of Zambia.' copyright strip in the lower <footer> block. No consent-management platform is installed (no CookieYes / Cookiebot / Iubenda / Complianz / OneTrust / GDPR / CCPA markers). No WordPress auto-created /privacy-policy/ link is emitted in the document head. No acceptable-use, fair-use, or rights-reserved language appears anywhere in the document body."
+
+  anomalies / unexpected content:
+    1. Body is 1 byte larger than the J-POL-1 capture (192829 vs 192828) with a completely different sha256. Structural parse is identical (161 anchors, 1 <header>, 1 <nav>, 2 <footer> blocks, same footer widget contents). The delta is almost certainly a view counter or timestamp somewhere in the rendered HTML; not policy-relevant and not investigated further (would cost zero fetches but is out of scope for J-POL-3b).
+    2. The nav contains a "Causelists" parent with per-court and per-registry children (Mansa, Lusaka, etc). This is a new discovery surface that J-POL-1 did not specifically enumerate — cause lists are court schedules, not judgments, and are out of scope for Phase 3 pilot but may be useful for Phase 4 bulk if case-tracking is ever a goal. Flagging for Phase 4 backlog.
+    3. "Museisei" is a real party surname from a High Court judgment post (2022-HP-0951 Davie Museisei Sililo v Zambia Railways Limited). It surfaced in the raw keyword scan only because "Museisei" contains the substring "use". Illustrative of why the strict rescan excludes "use".
+
+  kill-switch disposition:
+    - Homepage parse finds zero candidate URLs → TRIPPED after false-positive filtering (0 strict hits)
+    - More than 5 candidate URLs → not tripped (0 true positives)
+    - Any step required network fetch before the URL pick → not tripped (no follow-on fetch performed)
+
+  status: HALT per user spec. ToS page NOT fetched. No link followed. No other fetch performed. 7 of 10 J-POL-2 walk-budget fetches remain. Finding is dispositive for Opinion/017 §8.3 and Opinion/018 §8.3 with fresh dedicated provenance. J-POL-4 remains gated on OBS-1 resolution (Council of Law Reporting copyright notice, J-POL-3).
+  no commit. no push. no approvals.yaml flip. housekeeping flags still parked.
+
+[2026-04-09T23:27:31Z] [Stage 6 · Phase 3 · Checkpoint B · Step 1 · B-POL-1] Schema v0.3 → v0.4 additive bump.
+  Driver: OPINION/2026/017 v3.0 FINAL §7.2(iii) (rights_notice) and OPINION/2026/018 v3.0 FINAL §7.2(iv) (sensitive_data_categories), both signed by Mrs. Ndhlovu 2026-04-10.
+  Files modified:
+    schema/record.schema.json
+      before sha256: 4fe026eb8711312a1b75e5dea4934b90e043785c0a37ce4810ac6aec2eb6c439
+      after  sha256: 7e744b3199cebd697ea5d31bdb92745619d359f0721f837e5c9d9b2699564c2b
+    schema/README.md
+      before sha256: 2e7cee60edcffb50d038c6b7141ef6fe5f4c50c2dae3385d25ef104ef64f233a
+      after  sha256: c4e65786ea0667f4a2e8c4530d3c61090943ae185ea342784a3caa8128a0b01e
+  Changes:
+    1. x-corpus-schema-version "0.3" -> "0.4".
+    2. Added top-level rights_notice (type: [string, null]) with Opinion 017 §7.2(iii) rationale.
+    3. Added top-level sensitive_data_categories (array of enum, minItems: 1, enum: health|criminal|political|religious|ethnic|biometric|genetic|sexual|financial_distress|family_status|none) with Opinion 018 §7.2(iv) rationale.
+    4. Judgment allOf conditional widened: type=judgment now requires court + case_number + sensitive_data_categories.
+    5. README v0.4 changelog block inserted before Worked example 1. Field list updated. Worked examples NOT modified (per directive).
+  Acceptance results:
+    - jsonschema.Draft202012Validator.check_schema(schema): PASS (syntactically valid).
+    - records/acts/act-zm-2017-010-companies.json validation against v0.4: 0 errors (no-op bump for type=act, as expected).
+    - NEG control: judgment missing sensitive_data_categories rejected (PASS).
+    - POS control: judgment with sensitive_data_categories=["none"] accepted (PASS).
+    - rights_notice accepts both string and null (PASS).
+    - NEG control: sensitive_data_categories with off-enum value rejected (PASS).
+  Non-negotiables honoured:
+    - No commit. No push. No approvals.yaml edit.
+    - No existing record data altered. No fabrication. Additive change only.
+  HALT. Awaiting Peter's review of before/after hashes before any commit.
+
+[2026-04-09T23:29:39Z] [Stage 6 · Phase 3 · Checkpoint B · Step 2 · J-POL-4] Pilot judgment PDF fetch + first-page inspection gate.
+  Fetch (scripts/fetch_one.py, approvals-configured UA):
+    started_at: 2026-04-09T23:28:36Z
+    request_url: https://judiciaryzambia.com/wp-content/uploads/2026/02/SCZ-07-28-2025-Rodgers-Mbao-12-Others-Vs-Standard-Chart-Bank-Coram-Malila-Laoma-Chisanga-JJS.pdf
+    final_url:   same (no redirect)
+    http_status: 200
+    elapsed_ms:  3958
+    content_type: application/pdf
+    content_length: 5468275
+    body_len:    5468275 (matches Content-Length)
+    sha256:      d12deb81e30ac303d87c1410033441f30def498c9f74669910929acadb2901da
+    last_modified: Wed, 11 Feb 2026 17:53:56 GMT (publisher-side mtime)
+    saved_to:    raw/pilot/judiciary-zm/scz-07-28-2025/scz-07-28-2025.pdf
+    crawl_delay_observed: yes (last judiciary-origin fetch was J-POL-3b at 2026-04-09T23:15:11Z; 13+ minutes elapsed >> 10s rule)
+  PDF inspection (local, no network; backend: pdfplumber; total pages: 14):
+    Gate (a) — JUDGMENT/JUDGEMENT heading on page 1:
+      FAILED. Verbatim page-1 heading line reads: "RULING"
+      Follow-on line: "Kaoma, JS delivered the Ruling of the Court"
+      This is a RULING, not a substantive judgment. Kill-switch tripped per directive.
+    Gate (b) — coram Malila/Kaoma/Chisanga:
+      PASSED. Verbatim: "Coram: Malila, CJ, Kaoma and Chisanga, JJS"
+      Note 1: Malila is the Chief Justice (CJ), not a JS. The filename abbreviation "JJS" conflates all three judicial titles.
+      Note 2: Publisher filename typo confirmed — filename says "Laoma" but the PDF cover page says "Kaoma" (correct). Logged for notes[] in the eventual record.
+    Gate (c) — party names containing "Mbao" and "Standard Chartered":
+      PASSED. Verbatim cover page:
+        "BETWEEN: RODGERS MBAO AND 12 iVAPPLICANTS" (sic — OCR artifact in the "iV" fragment; likely PageMaker→ScanSoft trailing whitespace of "12 OTHERS" plus the word "APPLICANTS")
+        "STANDARD CHARTERED BANK ZAMBIA PLC RESPONDENT"
+      Also noted: "IN THE SUPREME COURT OF ZAMBIA" / "HOLDEN AT NDOLA" / "(Civil Jurisdiction)" / case number "SCZ/07/28/2025".
+    Gate (d) — total extractable text >= 3000 words:
+      FAILED. Total extractable word count = 2858 across 14 pages (17,627 characters).
+      This is consistent with a bench ruling, not a substantive decision on the merits. Kill-switch tripped per directive.
+  Verdict: GATE FAILED on (a) and (d). Two independent kill-switches confirm the target is a RULING, not a JUDGMENT.
+  Implications:
+    - Target pick SCZ-07-28-2025 Rodgers Mbao & 12 Others v Standard Chartered Bank is NOT a substantive judgment. It is a Ruling by Kaoma, JS of the Supreme Court panel (Malila CJ, Kaoma JS, Chisanga JS), delivered on or shortly after 11 February 2026.
+    - Hearing dates on cover: "On 3rd February 2026 and 11th February 2026" — cross-consistent with the PDF publisher mtime of 2026-02-11.
+    - The Supreme Court category pager walked at J-POL-2 listed this post at position #04. The post stub HTML gave no document-type hint (J-POL-3 OBS-2 observation) — this was exactly the ambiguity flagged at that step.
+    - The PDF bytes, sha256, and provenance.log entry are retained in raw/ for audit. No parse. No record build. No schema touched. No commit. No approvals flip.
+    - J-POL-2 target selection must be revisited: either (i) pick another post from the J-POL-2 page-1 list that presents as a substantive judgment, or (ii) walk further pages in the Supreme Court category to find a substantive civil/commercial judgment matching the original screening criteria.
+    - Housekeeping flags still parked (judiciary_seconds_between_requests looser than BRIEF default; .gitignore.tmp).
+  HALT. No parse. No record. No schema change. No commit. Awaiting Peter's direction on target revisit.
+
+[2026-04-09T23:37:33Z] [Stage 6 · Phase 3 · Checkpoint B · Step 2b Step 1 · B-POL-2b] Aggressive re-parse of cached SC page-1.html (ZERO fetches).
+  Source: raw/discovery/judiciary-zm/supreme-court/page-1.html
+    sha256: 90d734c50c44663ae8c9049ee0e7bda2f28ba299849a83518f3d83e9c8a100a4 (matches J-POL-2 capture)
+    size: 180148 bytes
+  Backend: BeautifulSoup html.parser, zero network calls.
+  Finding A — taxonomy stripped: The WordPress theme in use emits <article class="post-NNNNN type-post status-publish format-standard has-post-thumbnail bottom-line blog-block main-term-196"> uniformly, with NO category-* or tag-* class tokens. The only taxonomy signal is "main-term-196" (WP category id 196 = Supreme Court Decisions, confirmed via the rel=alternate href=https://judiciaryzambia.com/wp-json/wp/v2/categories/196 link in <head>). No finer-grained decision-type taxonomy is available from the stub markup.
+  Finding B — no excerpts: Each <article> contains only a thumbnail, a category breadcrumb anchor ("Supreme Court Decisions"), a view-count badge, a title <h?> with anchor to post permalink, and a "Read More" anchor — no excerpt, no post body paragraph, no wp-block-file, no download element. No PDF URLs are directly exposed in any stub markup.
+  Finding C — directive heuristic is uniformly zero: Because classes/tags/excerpt signals are all absent, the prescribed pre_fetch_score heuristic (class/tag containing judgment/appeal/ruling/application/interlocutory/order; excerpt containing Appellant/Applicant/judgment phrase/ruling phrase) evaluates to 0 for ALL 10 posts. The heuristic as written cannot discriminate on this theme.
+  Finding D — view counts are exposed (supplementary signal): Each article carries a "N views" badge in post-meta, which is scrape-able as a soft popularity proxy. Confounded by post age, so not treated as a hard signal.
+  Finding E — PDF URL pattern is learnable: The ONE confirmed PDF URL (from J-POL-3, Mbao RULING) follows the rule: {post-slug mapped from lowercase-hyphen to Title-Hyphen}.pdf under /wp-content/uploads/{publication YYYY}/{publication MM}/. Publication YYYY/MM is available from each article's <time datetime="..."> attribute. This makes Step 2 HEAD probes feasible WITHOUT fetching each post body — a potential fetch budget saving subject to Peter's authorisation.
+  Per-post raw extraction (all 10):
+    #01 post-22819  2026-03-31  77 views  "Appeal No-09-2024 Konkola Copper Mins PLC Vs Attorney General & 2 Others Mar 2026 - Coram Musonda, Kaoma And Mutuna JJS"
+    #02 post-21960  2026-02-19  312 views "SCZ-08-08-2025 Rephidim Institute Limited Vs Attorney General - Dec 2025 - Coram - Malila, Mutuna, Chisanga JJS"
+    #03 post-21800  2026-02-11  395 views "SCZ-7-29-2025 Manoj Patel & 1 Other Vs Sanmukh Ramanlal Patel & 3 Others - Feb 2026 - Coram Malila, Kaoma And Chisanga JJS"
+    #04 post-21784  2026-02-11  301 views "SCZ-07-28-2025 Rodgers Mbao..."  [CONFIRMED RULING per J-POL-4 gate failure]
+    #05 post-20715  2025-12-31  9,561 views "App-10-2023- SA Airlink (PTY) and Zambia Skyways Ltd & 5 Others-Justice Malila CJ Kaoma and Mutuna, JJS 31st December"
+    #06 post-20604  2025-10-29  1,328 views "App No 09-2024 Konkola Copper Mines PLC Vs Attorney General, Shenzen Resources LTD And Kakoso Metals Leach LTD"
+    #07 post-20568  2025-09-22  2,783 views "SCZ-7-034-2024-Henry Nyambe & 9 Others vs Lumwana Mining Company Ltd - Apr 2025 - Justice musonda, Kabuka and Mutuna JJS" [cited as authority in J-POL-4 Mbao RULING]
+    #08 post-20565  2025-09-22  2,336 views "SCZ-7-05-2024-Cosmas Mweemba & 34 Others Vs Chikankata District Council & 1 Other -19th Sep 2025 -Justice Malila, Wood, Kaoma JJS"
+    #09 post-20562  2025-09-22  2,131 views "App-03-2025-Richard Musukwa & 6 Others Vs The Attorney General -19th Sep 2025 - Justice Malila CJ, Kaoma, Chisanga JJS"
+    #10 post-20559  2025-09-22  3,764 views "App-12-2025-Occupation Health Safety Institute Vs James Mataliro -19th Sep 2025 - Justice Mutuna JS" [SINGLE-JUDGE indicator]
+  Supplementary title-based scoring (worker-proposed, NOT applied silently; Peter to accept/reject):
+    rule set: prefix "Appeal No-" / "App-" / "App No"  +3   (merits-appeal indicator per SC practice);
+              prefix "SCZ-"  0                               (ambiguous; Mbao calibration confirms RULING risk);
+              three-judge panel "JJS"  +1;
+              single-judge "JS" (no JJS)  -2                 (directions / order / single-judge ruling);
+    scores:
+      #01 (+3+1=+4)  #05 (+3+1=+4)  #09 (+3+1=+4)
+      #06 (+3+0=+3)  (title omits judges)
+      #02 (+0+1=+1)  #03 (+0+1=+1)  #04 (+0+1=+1 — KNOWN RULING)  #07 (+0+1=+1)  #08 (+0+1=+1)  #10 (+3-2=+1)
+  Worker-recommended top 3 for Step 2 HEAD probes (subject to Peter's approval):
+    1. #01 Appeal No-09-2024 KCM v Attorney General & 2 Others (Mar 2026) — strongest "Appeal" prefix, full three-judge panel, most recent. View count 77 is low because freshly published. High-impact KCM/State dispute.
+    2. #05 App-10-2023 SA Airlink (PTY) and Zambia Skyways Ltd & 5 Others (Dec 2025) — "App-" prefix, three-judge panel, BY FAR the highest view count on the page (9,561) indicating probable headline importance; commercial aviation dispute.
+    3. #09 App-03-2025 Richard Musukwa & 6 Others v Attorney General (Sep 2025) — "App-" prefix, three-judge Malila CJ/Kaoma/Chisanga panel, 2,131 views, high-profile political/constitutional character.
+  Worker-flagged caveats:
+    - #01 and #06 may be the same KCM v AG appeal posted twice (possibly earlier interim order + later merits judgment). If Peter authorises Step 2, probing both would disambiguate.
+    - #10 is disqualified at the title level by the single-judge "JS" suffix (Mutuna JS, no JJS).
+    - #04 Mbao is the confirmed RULING from J-POL-4 — retained for calibration, not re-probed.
+    - #07 SCZ-7-034-2024 Nyambe/Lumwana was cited as authority IN the Mbao RULING ("SCZ 7/034/2024"). Being cited as authority in a subsequent SC proceeding is a weak positive signal for substantive judgment status, but the SCZ- prefix still inherits the Mbao calibration risk. Not in top 3 but worth noting.
+  Machine-readable dump: raw/discovery/judiciary-zm/supreme-court/page-1-candidates.json
+  No fetches performed. No file modified outside raw/discovery/. No schema change. No commit.
+  HALT. Awaiting Peter's authorisation of Step 2 candidate list before any HEAD probes.
+
+[2026-04-09T23:42:58Z] [Stage 6 · Phase 3 · Checkpoint B · Step 2b · Step 2 · B-POL-2b] Sequential GET-then-HEAD cascade — HARD HALT on capability gap before any fetch.
+  Rulings received from Peter:
+    - Supplementary title-based heuristic APPROVED. Calibration note: Mbao SCZ-07-28-2025 (post-21784) is the negative calibration anchor — a confirmed RULING under title prefix "SCZ-". Score rule "SCZ- prefix = 0" is anchored by this single observed data point. Treat any re-score of SCZ- prefix as low confidence until at least one SCZ- post confirms substantive-judgment status.
+    - Constructed-URL optimisation REJECTED. PDF filename carries information not derivable from stub title (e.g. Mbao filename includes the Coram and the publisher typo "Laoma"). GET-post-body → parse → HEAD-pdf is mandatory.
+    - Candidate order fixed: #05 first, then #01, then #06. #09 Musukwa excluded.
+    - Sequential stop on first band match. Do not walk beyond three candidates without B-POL-2c directive.
+  Pre-flight capability check on scripts/fetch_one.py:
+    - Inspected at /sessions/magical-inspiring-hawking/mnt/corpus/scripts/fetch_one.py
+    - Fetcher has only three flags: url, --out PATH, --no-save, --print-body. NO --head, --head-only, or --method option.
+    - The underlying fetch() function creates urllib.request.Request(url, headers={"User-Agent": USER_AGENT}) without a method argument, which implicitly sends GET. r.read() is called unconditionally on the response, so even patching the method to HEAD would still attempt a body read (benign for HEAD but wasteful).
+    - No HEAD support is present in the fetcher as currently committed.
+  Per this directive, step 5 ("HEAD the extracted PDF URL via scripts/fetch_one.py. If the fetcher does not support HEAD, halt and report — do NOT fall back to GET."): HARD HALT before any network action.
+  Why I am not self-authorising a fetcher code change:
+    1. The current directive language is "halt and report", not "add the flag". The earlier B-POL-2b scaffold did mention "add --head-only flag if not present" as a permissive hint, but that language is not in the current sub-directive; the current sub-directive tightens to "halt and report".
+    2. Adding HEAD support is a change to a core audit tool (the sole audited HTTP fetcher per BRIEF non-negotiable #3) and bumping its behaviour mid-cascade without Peter's explicit sign-off is outside worker discretion.
+    3. The gap is trivial to fix (single additional argparse flag + method="HEAD" on the Request + short-circuit on r.read()) but the fix should land as its own visible commit reviewed by Peter.
+  Zero fetches performed. No candidate permalinks hit. No raw/ files modified. No schema change. No commit. Budget untouched beyond J-POL-4 (the 5.5 MB Mbao PDF which remains retained as audit artifact).
+  Housekeeping flags still parked (judiciary_seconds_between_requests 5 vs BRIEF default 10 — already honoured by stricter-wins; .gitignore.tmp stray file).
+  HALT. Awaiting Peter's explicit direction on one of:
+    (a) Authorise a minimal additive patch to scripts/fetch_one.py adding --head-only (and associated method plumbing) as a worker-version bump (e.g. fetcher logic version 0.2.0), self-test against a benign URL, then resume the cascade.
+    (b) Explicitly authorise fallback to GET on the PDF URLs for this one cascade, with full 5.5+ MB budget exposure acknowledged.
+    (c) Defer B-POL-2b Step 2 entirely and open a new housekeeping directive for the fetcher HEAD support before any Phase 3 fetches resume.
+[2026-04-09T23:53:03Z] [B-POL-INFRA-1 · self-test] head_probe {"url": "https://judiciaryzambia.com/wp-content/uploads/2026/02/SCZ-07-28-2025-Rodgers-Mbao-12-Others-Vs-Standard-Chart-Bank-Coram-Malila-Laoma-Chisanga-JJS.pdf", "final_url": "https://judiciaryzambia.com/wp-content/uploads/2026/02/SCZ-07-28-2025-Rodgers-Mbao-12-Others-Vs-Standard-Chart-Bank-Coram-Malila-Laoma-Chisanga-JJS.pdf", "http_status": 200, "content_length": 5468275, "content_type": "application/pdf", "last_modified": "Wed, 11 Feb 2026 17:53:56 GMT", "etag": "\"698cc234-537073\"", "elapsed_ms": 1264, "fetcher_version": "0.2.0", "timestamp_utc": "2026-04-09T23:53:03Z", "band": "outside"}
+
+[2026-04-09T23:54:18Z] [Stage Infrastructure · Phase 3 · Checkpoint B-POL-INFRA-1] fetch_one.py HEAD support patch landed + self-test verified.
+  Patch scope: scripts/fetch_one.py only (plus this worker.log entry).
+  Files modified:
+    scripts/fetch_one.py
+      before sha256: 63294b206abd380af704460ca8377bcf9084b098c0cb693ac214099c5784c97b
+      after  sha256: 3ecd7b45afcf5a45f282f631e6050eafc2b0b62c0faf8348a29ed4652aa89cff
+  Files NOT modified (verified by hash equality with pre-patch baseline):
+    provenance.log            4f036747026cb5f26d74182ce1fcefd9e23642430669b6721020c4b913e4fc41  (UNCHANGED — zero lines written during HEAD self-test, as required)
+    approvals.yaml            1ca73b4edea836e1b39cf74770a2c3a5f4d5409c849ab1f2f141394fba3250fd  (UNCHANGED)
+    schema/record.schema.json 7e744b3199cebd697ea5d31bdb92745619d359f0721f837e5c9d9b2699564c2b  (UNCHANGED)
+    schema/README.md          c4e65786ea0667f4a2e8c4530d3c61090943ae185ea342784a3caa8128a0b01e  (UNCHANGED)
+  Changes applied:
+    1. Introduced module-level constant FETCHER_VERSION = "0.2.0".
+    2. Introduced module-level policy constants BAND_TARGET_MIN/MAX = 200_000..1_500_000 and BAND_STRETCH_MIN/MAX = 150_000..2_500_000.
+    3. Introduced WORKER_LOG = "worker.log" constant.
+    4. fetch() signature widened with optional method="GET" kwarg. When method="HEAD": urllib.request.Request built with method="HEAD", r.read() skipped in both the success and HTTPError paths. GET path source lines preserved identically in their else branches.
+    5. Added classify_band(content_length) — returns "target" / "stretch" / "outside" / "outside:null".
+    6. Added _header_ci(headers, name) — case-insensitive header lookup.
+    7. Added log_head_to_worker(result, log_tag=None) — writes a single JSON line to worker.log (NEVER provenance.log) with: url, final_url, http_status, content_length, content_type, last_modified, etag, elapsed_ms, fetcher_version, timestamp_utc, band. Prefixes each line with [timestamp] [tag] head_probe {json}.
+    8. Added CLI flag --head-only (store_true). When set: fetch() is called with method="HEAD", log_head_to_worker() is used instead of log_provenance(), --out/--no-save are silently ignored with a stdout note, --print-body raises a mutex error to stderr and exits 2.
+    9. Added CLI flag --log-tag (str, default None) — carries the active directive tag into HEAD-mode worker.log lines. Ignored in GET mode.
+    10. Updated docstring to document the two modes and the v0.2.0 bump rationale.
+  GET-path regression guard: the else branch of fetch() (method != "HEAD") preserves the original Request construction line and the original r.read() / e.read() behaviour byte-for-byte. No GET-path fetches were executed in this checkpoint; regression is by source-equivalence.
+
+[2026-04-09T23:53:03Z] [B-POL-INFRA-1 · self-test] head_probe {"url": "https://judiciaryzambia.com/wp-content/uploads/2026/02/SCZ-07-28-2025-Rodgers-Mbao-12-Others-Vs-Standard-Chart-Bank-Coram-Malila-Laoma-Chisanga-JJS.pdf", "final_url": "https://judiciaryzambia.com/wp-content/uploads/2026/02/SCZ-07-28-2025-Rodgers-Mbao-12-Others-Vs-Standard-Chart-Bank-Coram-Malila-Laoma-Chisanga-JJS.pdf", "http_status": 200, "content_length": 5468275, "content_type": "application/pdf", "last_modified": "Wed, 11 Feb 2026 17:53:56 GMT", "etag": "\"698cc234-537073\"", "elapsed_ms": 1264, "fetcher_version": "0.2.0", "timestamp_utc": "2026-04-09T23:53:03Z", "band": "outside"}
+
+  ^ self-test line above written by the patched fetcher itself at 2026-04-09T23:53:03Z (reproduced here for audit convenience, not a duplicate write).
+  Self-test assertions (regression anchor against J-POL-4 GET-mode capture):
+    http_status == 200                              PASS (expected 200)
+    content_length == 5468275                       PASS (exact J-POL-4 match)
+    content_type == "application/pdf"               PASS (matches J-POL-4)
+    etag == "\"698cc234-537073\""                   PASS (matches J-POL-4)
+    last_modified == "Wed, 11 Feb 2026 17:53:56 GMT" PASS (matches J-POL-4)
+    body_len == 0                                   PASS (no body read in HEAD mode)
+    band == "outside"                               PASS (5,468,275 > 2,500,000 stretch ceiling)
+    elapsed_ms == 1264                              CONSISTENT (~3x faster than J-POL-4 GET's 3958 ms, as expected for headers-only)
+    fetcher_version == "0.2.0"                      PASS
+  Hard-halt predicates:
+    content_length != 5468275                       not tripped
+    http_status != 200                              not tripped
+    any provenance.log write during checkpoint      not tripped (provenance.log sha256 unchanged)
+    any file modified outside scripts/fetch_one.py + worker.log  not tripped
+  Mutex guard smoke test: python3 scripts/fetch_one.py https://example.invalid/ --head-only --print-body → stderr "error: --head-only and --print-body are mutually exclusive", exit 2, no network call. PASS.
+  Out-of-scope confirmed: no parallel HEAD batching, no retry/backoff changes, no provenance schema changes, no approvals.yaml edit, no .gitignore.tmp removal, no B-POL-2b Step 2 candidate probing.
+  HALT. Patch ready for Peter's host-side commit. B-POL-2b Step 2 resumes in the next directive from candidate #05 → #01 → #06 using the new --head-only path with --log-tag "B-POL-2b · Step 2".

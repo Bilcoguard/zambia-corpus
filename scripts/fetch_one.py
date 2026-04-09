@@ -3,20 +3,27 @@
 Single audited HTTP fetch for the Zambian Authorities Corpus worker.
 
 Usage:
-    python3 scripts/fetch_one.py <url> [--out PATH] [--no-save]
+    python3 scripts/fetch_one.py <url> [--out PATH] [--no-save] [--print-body]
+    python3 scripts/fetch_one.py <url> --head-only [--log-tag TAG]
 
 Behaviour:
 - Uses the configured User-Agent from approvals.yaml.
 - Captures full response: status, final URL after redirects, headers, body bytes.
-- Computes sha256 of the body bytes.
-- Appends a structured entry to provenance.log (one JSON line per fetch).
-- If --out is given, writes the body bytes to that path.
+- Computes sha256 of the body bytes (GET mode only).
+- Appends a structured entry to provenance.log (GET mode only; HEAD-mode
+  probes are screening actions and are logged to worker.log instead, since
+  they carry no body to hash or cite).
+- If --out is given, writes the body bytes to that path (GET mode only).
 - Prints a human summary to stdout.
 - Does NOT respect rate limits internally — the caller must pace requests.
 - Does NOT obey robots.txt — the caller is responsible for that check first.
 
 This script is deliberately simple. It is NOT a crawler. It performs exactly
 one HTTP request per invocation so every fetch is auditable.
+
+v0.2.0 (B-POL-INFRA-1): adds --head-only mode for Content-Length band
+screening, a FETCHER_VERSION constant, and a band classifier used by the
+HEAD-mode worker.log writer. The default GET path is unchanged.
 """
 
 import argparse
@@ -33,7 +40,17 @@ from datetime import datetime, timezone
 
 USER_AGENT = "KateWestonLegal-CorpusBuilder/1.0 (contact: peter@bilcoguard.com)"
 PROVENANCE_LOG = "provenance.log"
+WORKER_LOG = "worker.log"
+FETCHER_VERSION = "0.2.0"
 EXTRA_CERTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "certs")
+
+# Content-Length bands (bytes) for substantive-judgment screening, per
+# B-POL-2b. HEAD-mode probes classify responses into target / stretch /
+# outside. These bands are policy constants and are NOT used in GET mode.
+BAND_TARGET_MIN = 200_000
+BAND_TARGET_MAX = 1_500_000
+BAND_STRETCH_MIN = 150_000
+BAND_STRETCH_MAX = 2_500_000
 
 
 def build_ssl_context():
@@ -67,10 +84,15 @@ def utc_now_iso():
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def fetch(url, timeout=30):
+def fetch(url, timeout=30, method="GET"):
     started_at = utc_now_iso()
     t0 = time.monotonic()
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    if method == "HEAD":
+        req = urllib.request.Request(
+            url, method="HEAD", headers={"User-Agent": USER_AGENT}
+        )
+    else:
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     error = None
     status = None
     final_url = None
@@ -81,12 +103,14 @@ def fetch(url, timeout=30):
             status = r.status
             final_url = r.geturl()
             headers = {k: v for k, v in r.getheaders()}
-            body = r.read()
+            if method != "HEAD":
+                body = r.read()
     except urllib.error.HTTPError as e:
         status = e.code
         final_url = e.url if hasattr(e, "url") else url
         headers = {k: v for k, v in (e.headers.items() if e.headers else [])}
-        body = e.read() if hasattr(e, "read") else b""
+        if method != "HEAD":
+            body = e.read() if hasattr(e, "read") else b""
         error = f"HTTPError {e.code} {e.reason}"
     except Exception as e:
         error = f"{type(e).__name__}: {e}"
@@ -102,8 +126,71 @@ def fetch(url, timeout=30):
         "body_len": len(body),
         "sha256": sha256,
         "error": error,
+        "method": method,
         "_body_bytes": body,
     }
+
+
+def _header_ci(headers, name):
+    """Case-insensitive header lookup. Returns the first match or None."""
+    target = name.lower()
+    for k, v in headers.items():
+        if k.lower() == target:
+            return v
+    return None
+
+
+def classify_band(content_length):
+    """Classify a Content-Length (int or None) into target / stretch /
+    outside bands per B-POL-2b.
+
+    - target:  BAND_TARGET_MIN  <= cl <= BAND_TARGET_MAX
+    - stretch: BAND_STRETCH_MIN <= cl <  BAND_TARGET_MIN
+               OR BAND_TARGET_MAX < cl <= BAND_STRETCH_MAX
+    - outside: everything else
+    - "outside:null" when content_length is None (header absent)
+    """
+    if content_length is None:
+        return "outside:null"
+    if BAND_TARGET_MIN <= content_length <= BAND_TARGET_MAX:
+        return "target"
+    if BAND_STRETCH_MIN <= content_length < BAND_TARGET_MIN:
+        return "stretch"
+    if BAND_TARGET_MAX < content_length <= BAND_STRETCH_MAX:
+        return "stretch"
+    return "outside"
+
+
+def log_head_to_worker(result, log_tag=None):
+    """Append a single HEAD-probe line to worker.log. Never writes to
+    provenance.log. Returns the structured entry dict for caller use."""
+    headers = result.get("headers") or {}
+    cl_raw = _header_ci(headers, "Content-Length")
+    try:
+        content_length = int(cl_raw) if cl_raw is not None else None
+    except (TypeError, ValueError):
+        content_length = None
+    entry = {
+        "url": result.get("request_url"),
+        "final_url": result.get("final_url"),
+        "http_status": result.get("status"),
+        "content_length": content_length,
+        "content_type": _header_ci(headers, "Content-Type"),
+        "last_modified": _header_ci(headers, "Last-Modified"),
+        "etag": _header_ci(headers, "ETag"),
+        "elapsed_ms": result.get("elapsed_ms"),
+        "fetcher_version": FETCHER_VERSION,
+        "timestamp_utc": result.get("started_at"),
+        "band": classify_band(content_length),
+    }
+    tag_str = f"[{log_tag}] " if log_tag else ""
+    line = (
+        f"[{entry['timestamp_utc']}] {tag_str}head_probe "
+        f"{json.dumps(entry, ensure_ascii=False)}"
+    )
+    with open(WORKER_LOG, "a", encoding="utf-8") as f:
+        f.write(line + "\n")
+    return entry
 
 
 def log_provenance(result):
@@ -122,7 +209,43 @@ def main():
                     help="Do not save body to disk regardless of --out.")
     ap.add_argument("--print-body", action="store_true",
                     help="Print the response body to stdout (text only, decoded utf-8).")
+    ap.add_argument("--head-only", action="store_true",
+                    help="Issue an HTTP HEAD request instead of GET. "
+                         "No body is read. Response is logged to worker.log, "
+                         "not provenance.log. --out / --no-save / --print-body "
+                         "are incompatible or ignored in this mode.")
+    ap.add_argument("--log-tag", default=None,
+                    help="Directive tag to prefix HEAD-mode worker.log lines "
+                         "(e.g. \"B-POL-2b · Step 2\"). Ignored in GET mode.")
     args = ap.parse_args()
+
+    if args.head_only and args.print_body:
+        sys.stderr.write(
+            "error: --head-only and --print-body are mutually exclusive\n"
+        )
+        sys.exit(2)
+
+    if args.head_only:
+        result = fetch(args.url, method="HEAD")
+        entry = log_head_to_worker(result, log_tag=args.log_tag)
+        print(f"fetcher_version: {FETCHER_VERSION}")
+        print(f"mode: HEAD")
+        print(f"started_at: {result['started_at']}")
+        print(f"request_url: {result['request_url']}")
+        print(f"final_url: {result['final_url']}")
+        print(f"status: {result['status']}")
+        print(f"elapsed_ms: {result['elapsed_ms']}")
+        if result['error']:
+            print(f"error: {result['error']}")
+        print(f"content_length: {entry['content_length']}")
+        print(f"content_type: {entry['content_type']}")
+        print(f"last_modified: {entry['last_modified']}")
+        print(f"etag: {entry['etag']}")
+        print(f"band: {entry['band']}")
+        print(f"body_len: {result['body_len']}  (expected 0 in HEAD mode)")
+        if args.out or args.no_save:
+            print("note: --out / --no-save ignored in HEAD mode")
+        return
 
     result = fetch(args.url)
     log_provenance(result)
