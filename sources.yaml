@@ -1,0 +1,374 @@
+schema_version: "0.1"
+
+# Zambian Authorities Corpus — Source Map
+# Phase 0 deliverable. Planning only — no remote fetches performed.
+# Every field marked "TBD — verify in Phase 2" must be confirmed by a live fetch
+# under Phase 2 before being relied on. Non-negotiable rule #1 (no fabrication)
+# applies: do not replace a TBD with a guess.
+#
+# Rate limits sourced from approvals.yaml:
+#   default_seconds_between_requests: 2
+#   zambialii_seconds_between_requests: 5
+#   judiciary_seconds_between_requests: 5
+
+sources:
+
+  # ---------------------------------------------------------------------------
+  # PRIMARY SOURCES (priority: high)
+  # ---------------------------------------------------------------------------
+
+  - id: parliament-zm
+    name: Parliament of Zambia
+    base_url: https://www.parliament.gov.zm
+    robots_txt_url: https://www.parliament.gov.zm/robots.txt
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - acts
+      - bills
+      - hansard
+      - constitution
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: pdf
+    rate_limit_seconds: 2
+    priority: high
+    notes: >
+      Authoritative for as-enacted Acts and Bills. Most outputs are expected to
+      be PDFs; a small number of listing pages may be HTML. Confirm whether
+      Acts are published as single PDFs or split by part. Check for a
+      downloads index / publications page. Hansard is useful for legislative
+      intent but is lower priority than Acts.
+
+  - id: moj-laws-zm
+    name: Ministry of Justice — Laws of Zambia (Cap compilation)
+    base_url: "TBD — verify in Phase 2"
+    robots_txt_url: "TBD — verify in Phase 2"
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - acts
+      - constitution
+      - consolidated_laws
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: pdf
+    rate_limit_seconds: 2
+    priority: high
+    notes: >
+      Canonical source for the Laws of Zambia Cap numbering system used in
+      most judgment citations. Phase 2 must identify the authoritative host
+      (Ministry of Justice or Government Printer). Do not assume a URL.
+
+  - id: zambialii
+    name: ZambiaLII
+    base_url: https://zambialii.org
+    robots_txt_url: https://zambialii.org/robots.txt
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - acts
+      - sis
+      - judgments
+      - constitution
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: html
+    rate_limit_seconds: 5
+    priority: high
+    notes: >
+      Likely the richest single source — consolidated Acts, SIs, and case
+      law in one place. Rate limit is deliberately conservative (5s) out of
+      respect for a non-profit LII. In Phase 2, check whether a public API or
+      bulk dump (e.g. Akoma Ntoso / JSON) is offered before scraping HTML.
+      Prefer structured endpoints over HTML parsing where available.
+
+  - id: judiciary-zm
+    name: Judiciary of Zambia
+    base_url: https://judiciary.gov.zm
+    robots_txt_url: https://judiciary.gov.zm/robots.txt
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - judgments
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: pdf+ocr
+    rate_limit_seconds: 5
+    priority: high
+    notes: >
+      Covers Supreme Court (SCZ), Court of Appeal (CAZ), and High Court
+      judgments. Expect PDFs, some scanned — OCR fallback will be needed.
+      Confirm how judgments are indexed (by court / year / case number).
+      Cross-check coverage against ZambiaLII to avoid double-ingesting the
+      same judgment under two different IDs.
+
+  - id: government-gazette
+    name: Zambia Government Gazette
+    base_url: "TBD — verify in Phase 2"
+    robots_txt_url: "TBD — verify in Phase 2"
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - sis
+      - gazette
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: pdf+ocr
+    rate_limit_seconds: 2
+    priority: high
+    notes: >
+      Needed for Statutory Instruments not yet mirrored on ZambiaLII. Phase 2
+      must first identify the authoritative host (Government Printer /
+      Ministry of Justice / a Gazette portal). Historical gazettes are likely
+      scanned and will require OCR. Do NOT assume a URL — confirm by direct
+      inspection before any ingest.
+
+  # ---------------------------------------------------------------------------
+  # REGULATOR SOURCES (priority: medium)
+  # Subsidiary legislation, guidelines, directives. Base URLs deliberately
+  # left TBD to avoid fabricating domains. Phase 2 opens each site from a
+  # trusted starting point (e.g. gov.zm directory or a known brief) and then
+  # captures the verified base URL and robots.txt.
+  # ---------------------------------------------------------------------------
+
+  - id: pacra
+    name: Patents and Companies Registration Agency (PACRA)
+    base_url: "TBD — verify in Phase 2"
+    robots_txt_url: "TBD — verify in Phase 2"
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - guidelines
+      - directives
+      - forms
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: html
+    rate_limit_seconds: 2
+    priority: medium
+    notes: >
+      Primary interest: company / business name / IP registration guidelines
+      and any subsidiary legislation or practice directions issued by PACRA.
+      Cross-reference with the Companies Act 2017 (Phase 2 pilot target).
+
+  - id: zra
+    name: Zambia Revenue Authority (ZRA)
+    base_url: "TBD — verify in Phase 2"
+    robots_txt_url: "TBD — verify in Phase 2"
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - guidelines
+      - directives
+      - practice_notes
+      - sis
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: pdf
+    rate_limit_seconds: 2
+    priority: medium
+    notes: >
+      Tax practice notes, rulings, and SI notices. Likely a mix of HTML
+      landing pages and PDF downloads. Watch for superseded practice notes —
+      use the schema's amended_by / repealed_by fields carefully.
+
+  - id: boz
+    name: Bank of Zambia (BoZ)
+    base_url: "TBD — verify in Phase 2"
+    robots_txt_url: "TBD — verify in Phase 2"
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - directives
+      - circulars
+      - guidelines
+      - sis
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: pdf
+    rate_limit_seconds: 2
+    priority: medium
+    notes: >
+      Banking and financial services directives and circulars. Confirm
+      whether BoZ maintains a dedicated "legislation" or "directives" index.
+      Keep an eye on forex / AML-related instruments.
+
+  - id: pia
+    name: Pensions and Insurance Authority (PIA)
+    base_url: "TBD — verify in Phase 2"
+    robots_txt_url: "TBD — verify in Phase 2"
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - directives
+      - guidelines
+      - sis
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: pdf
+    rate_limit_seconds: 2
+    priority: medium
+    notes: >
+      Pensions and insurance regulatory instruments. Phase 2 must confirm
+      the authority's official domain — there is more than one body in
+      Zambia with a similar acronym; do not assume.
+
+  - id: sec-zm
+    name: Securities and Exchange Commission (SEC) Zambia
+    base_url: "TBD — verify in Phase 2"
+    robots_txt_url: "TBD — verify in Phase 2"
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - directives
+      - guidelines
+      - sis
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: pdf
+    rate_limit_seconds: 2
+    priority: medium
+    notes: >
+      Capital markets rules and guidelines. Disambiguate from the US SEC
+      when resolving the base URL in Phase 2.
+
+  - id: zppa
+    name: Zambia Public Procurement Authority (ZPPA)
+    base_url: "TBD — verify in Phase 2"
+    robots_txt_url: "TBD — verify in Phase 2"
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - directives
+      - guidelines
+      - sis
+      - circulars
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: pdf
+    rate_limit_seconds: 2
+    priority: medium
+    notes: >
+      Public procurement circulars and thresholds. Values change often —
+      be careful about versioning; use amended_by rather than overwrite.
+
+  - id: zema
+    name: Zambia Environmental Management Agency (ZEMA)
+    base_url: "TBD — verify in Phase 2"
+    robots_txt_url: "TBD — verify in Phase 2"
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - directives
+      - guidelines
+      - sis
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: pdf
+    rate_limit_seconds: 2
+    priority: medium
+    notes: >
+      Environmental impact assessment regulations, licensing conditions,
+      and related SIs. Useful overlap with the mining priority queue in
+      phase_4_bulk.
+
+  - id: odpc
+    name: Office of the Data Protection Commissioner (ODPC)
+    base_url: "TBD — verify in Phase 2"
+    robots_txt_url: "TBD — verify in Phase 2"
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - directives
+      - guidelines
+      - sis
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: html
+    rate_limit_seconds: 2
+    priority: medium
+    notes: >
+      Data Protection Act 2021 subsidiary legislation, codes of practice,
+      and enforcement notices. Sits on the phase_4_bulk
+      sis_data_protection priority. Confirm whether the ODPC publishes its
+      own site or shares the Ministry of Technology and Science domain.
+
+  - id: napsa
+    name: National Pension Scheme Authority (NAPSA)
+    base_url: "TBD — verify in Phase 2"
+    robots_txt_url: "TBD — verify in Phase 2"
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - directives
+      - guidelines
+      - sis
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: pdf
+    rate_limit_seconds: 2
+    priority: medium
+    notes: >
+      Social security contributions, thresholds, and compliance notices.
+      Watch for overlap with PIA on pension-related instruments.
+
+  - id: hpcz
+    name: Health Professions Council of Zambia (HPCZ)
+    base_url: "TBD — verify in Phase 2"
+    robots_txt_url: "TBD — verify in Phase 2"
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - directives
+      - guidelines
+      - sis
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: pdf
+    rate_limit_seconds: 2
+    priority: medium
+    notes: >
+      Registration and practice rules for health professionals, codes of
+      ethics, and disciplinary procedures. Disambiguate from other health
+      regulators (ZAMRA, GNCZ) when resolving the base URL.
+
+  - id: zamra
+    name: Zambia Medicines Regulatory Authority (ZAMRA)
+    base_url: "TBD — verify in Phase 2"
+    robots_txt_url: "TBD — verify in Phase 2"
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - directives
+      - guidelines
+      - sis
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: pdf
+    rate_limit_seconds: 2
+    priority: medium
+    notes: >
+      Medicines, allied substances, and clinical trials regulation.
+      Guidance documents are often versioned — use amended_by rather than
+      overwrite.
+
+  - id: ccpc
+    name: Competition and Consumer Protection Commission (CCPC)
+    base_url: "TBD — verify in Phase 2"
+    robots_txt_url: "TBD — verify in Phase 2"
+    robots_txt_status: "unknown — to verify in Phase 2"
+    content_types:
+      - directives
+      - guidelines
+      - sis
+    url_patterns:
+      listing: "TBD — verify in Phase 2"
+      document: "TBD — verify in Phase 2"
+    parser_strategy: pdf
+    rate_limit_seconds: 2
+    priority: medium
+    notes: >
+      Merger notifications, competition guidelines, consumer protection
+      directives, and published decisions. Decisions may also be useful as
+      quasi-judgments for the case-law index — flag in Phase 2.
