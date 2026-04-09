@@ -4,7 +4,7 @@ phases:
     complete: true
   phase_1_schema:
     approved: true
-    complete: false
+    complete: true
   phase_2_pilot_statute:
     approved: false
     complete: false
