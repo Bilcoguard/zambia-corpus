@@ -3,7 +3,7 @@ phases:
     approved: true
     complete: true
   phase_1_schema:
-    approved: false
+    approved: true
     complete: false
   phase_2_pilot_statute:
     approved: false
