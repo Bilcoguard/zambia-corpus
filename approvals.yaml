@@ -1,0 +1,56 @@
+phases:
+  phase_0_source_map:
+    approved: false
+    complete: false
+  phase_1_schema:
+    approved: false
+    complete: false
+  phase_2_pilot_statute:
+    approved: false
+    complete: false
+    target: companies-act-2017
+  phase_3_pilot_judgment:
+    approved: false
+    complete: false
+  phase_4_bulk:
+    approved: false
+    complete: false
+    batch_size: 50
+    priority_order:
+      - acts_in_force
+      - sis_corporate
+      - sis_tax
+      - sis_employment
+      - case_law_scz
+      - sis_data_protection
+      - sis_mining
+      - sis_family
+  phase_5_retrieval_api:
+    approved: false
+    complete: false
+  phase_6_integration_brief:
+    approved: false
+    complete: false
+  phase_7_nightly_reverify:
+    approved: false
+    complete: false
+    sample_rate: 0.01
+
+rate_limits:
+  default_seconds_between_requests: 2
+  zambialii_seconds_between_requests: 5
+  judiciary_seconds_between_requests: 5
+
+budgets:
+  max_fetches_per_day: 2000
+  max_tokens_per_day: 1000000
+  stop_if_exceeded: true
+
+paths:
+  workspace: /Users/peterndhlovu/KateWestonCorpus/corpus
+  raw_local: /Users/peterndhlovu/KateWestonCorpus/corpus/raw
+  raw_remote: b2raw:kwlp-corpus-raw
+
+worker:
+  contact: peter@bilcoguard.com
+  user_agent: "KateWestonLegal-CorpusBuilder/1.0 (contact: peter@bilcoguard.com)"

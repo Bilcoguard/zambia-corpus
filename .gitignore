@@ -1,0 +1,10 @@
+raw/
+*.pyc
+__pycache__/
+.DS_Store
+worker.log.tmp
+error-reports/*.tmp
+.env
+.venv/
+venv/
+*.log.tmp
