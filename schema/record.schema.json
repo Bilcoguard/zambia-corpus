@@ -1,0 +1,268 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kateweston.legal/schemas/zambia-corpus/record.schema.json",
+  "title": "Zambian Authorities Corpus Record",
+  "description": "A single citation-grade record of a Zambian primary legal authority (Act, Statutory Instrument, judgment, constitution, regulation, guideline, directive, or gazette notice). Every record MUST be reproducible from its source_url + source_hash.",
+  "type": "object",
+  "additionalProperties": false,
+
+  "required": [
+    "id",
+    "type",
+    "jurisdiction",
+    "title",
+    "citation",
+    "source_url",
+    "source_hash",
+    "fetched_at",
+    "parser_version"
+  ],
+
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable, human-readable slug. Lowercase, hyphen-separated. Must be unique across the corpus.",
+      "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$",
+      "minLength": 3,
+      "maxLength": 128
+    },
+
+    "type": {
+      "type": "string",
+      "description": "Authority type. Drives downstream rendering and citation format.",
+      "enum": [
+        "act",
+        "si",
+        "judgment",
+        "constitution",
+        "regulation",
+        "guideline",
+        "directive",
+        "gazette_notice"
+      ]
+    },
+
+    "jurisdiction": {
+      "type": "string",
+      "description": "ISO 3166-1 alpha-2 country code. Always 'ZM' for this corpus.",
+      "const": "ZM"
+    },
+
+    "title": {
+      "type": "string",
+      "description": "Official short title as published. Do not paraphrase.",
+      "minLength": 1
+    },
+
+    "citation": {
+      "type": "string",
+      "description": "Canonical citation string as it would appear in a legal pleading (e.g. 'Act No. 10 of 2017', 'SI No. 84 of 2018', '[2021] ZMSC 12').",
+      "minLength": 1
+    },
+
+    "enacted_date": {
+      "type": ["string", "null"],
+      "description": "Date the instrument was enacted/passed/decided. ISO 8601 calendar date (YYYY-MM-DD).",
+      "format": "date",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+
+    "commencement_date": {
+      "type": ["string", "null"],
+      "description": "Date the instrument came into force. May differ from enacted_date. ISO 8601 calendar date.",
+      "format": "date",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+
+    "in_force": {
+      "type": ["boolean", "null"],
+      "description": "True if currently in force as of fetched_at. False if repealed or expired. Null if unknown."
+    },
+
+    "amended_by": {
+      "type": "array",
+      "description": "IDs of records that amend this one. Each ID must resolve to another record in the corpus (integrity check).",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+      },
+      "default": []
+    },
+
+    "repealed_by": {
+      "type": ["string", "null"],
+      "description": "ID of the record that repealed this one, if any. Must resolve to another record in the corpus.",
+      "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+    },
+
+    "sections": {
+      "type": "array",
+      "description": "Structured sections, used for Acts, SIs, regulations, the constitution, and any instrument that is divided by section/article number.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["number", "text"],
+        "properties": {
+          "number": {
+            "type": "string",
+            "description": "Section number as published, including any letter suffix (e.g. '1', '12A', '12(2)(b)')."
+          },
+          "heading": {
+            "type": ["string", "null"],
+            "description": "Section heading / marginal note, if any."
+          },
+          "text": {
+            "type": "string",
+            "description": "Verbatim section text. No paraphrasing. No interpolation."
+          },
+          "subsections": {
+            "type": "array",
+            "description": "Optional nested subsections, same shape as the parent.",
+            "items": { "$ref": "#/properties/sections/items" },
+            "default": []
+          }
+        }
+      },
+      "default": []
+    },
+
+    "paragraphs": {
+      "type": "array",
+      "description": "Structured paragraphs, used for judgments. Numbered as published in the judgment.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["number", "text"],
+        "properties": {
+          "number": {
+            "type": "string",
+            "description": "Paragraph number as published (e.g. '1', '12.1')."
+          },
+          "text": {
+            "type": "string",
+            "description": "Verbatim paragraph text."
+          }
+        }
+      },
+      "default": []
+    },
+
+    "court": {
+      "type": ["string", "null"],
+      "description": "For judgments only. Court that issued the decision.",
+      "enum": [
+        null,
+        "Supreme Court of Zambia",
+        "Constitutional Court of Zambia",
+        "Court of Appeal of Zambia",
+        "High Court of Zambia",
+        "Industrial Relations Court",
+        "Subordinate Court",
+        "Local Court",
+        "Other"
+      ]
+    },
+
+    "case_number": {
+      "type": ["string", "null"],
+      "description": "For judgments only. Court file / case number as published."
+    },
+
+    "parties": {
+      "type": "object",
+      "description": "For judgments only. Named parties to the action.",
+      "additionalProperties": false,
+      "properties": {
+        "appellant": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": []
+        },
+        "respondent": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": []
+        },
+        "applicant": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": []
+        },
+        "plaintiff": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": []
+        },
+        "defendant": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": []
+        }
+      }
+    },
+
+    "judges": {
+      "type": "array",
+      "description": "For judgments only. Names of judges on the panel, in the order printed.",
+      "items": { "type": "string" },
+      "default": []
+    },
+
+    "cited_authorities": {
+      "type": "array",
+      "description": "For judgments only. IDs of other corpus records (statutes, judgments) that this judgment cites. Each ID must resolve.",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+      },
+      "default": []
+    },
+
+    "source_url": {
+      "type": "string",
+      "description": "Canonical URL the raw bytes were fetched from. Must be the URL on the authoritative host, not a mirror or cache.",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+
+    "source_hash": {
+      "type": "string",
+      "description": "sha256 of the raw fetched bytes, prefixed with 'sha256:'. Used for re-verification (Phase 7).",
+      "pattern": "^sha256:[a-f0-9]{64}$"
+    },
+
+    "fetched_at": {
+      "type": "string",
+      "description": "Time the raw bytes were fetched. ISO 8601 UTC with 'Z' suffix. No fractional seconds.",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$"
+    },
+
+    "parser_version": {
+      "type": "string",
+      "description": "Semantic version of the parser that produced this record. Bump on any parsing-logic change.",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    }
+  },
+
+  "allOf": [
+    {
+      "if": { "properties": { "type": { "const": "judgment" } }, "required": ["type"] },
+      "then": {
+        "required": ["court", "case_number"],
+        "description": "Judgments must include court and case_number."
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": { "enum": ["act", "si", "constitution", "regulation"] }
+        },
+        "required": ["type"]
+      },
+      "then": {
+        "required": ["sections"],
+        "description": "Statutory instruments must carry a sections array (may be empty only for stub records explicitly flagged in gaps.md)."
+      }
+    }
+  ]
+}
