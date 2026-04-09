@@ -1,0 +1,11 @@
+2026-04-09T17:02:00Z phase-0 HALT
+  commit 1 (sources.yaml) succeeded: 354c288
+  commit 2 (approvals.yaml complete:true) BLOCKED: cannot remove stale .git/index.lock on mount (Operation not permitted from sandbox)
+  approvals.yaml IS edited on disk (complete: true) but NOT yet committed
+  action required: on host mac, run:
+    cd /Users/peterndhlovu/KateWestonCorpus/corpus
+    rm -f .git/index.lock .git/HEAD.lock .git/objects/maintenance.lock
+    git add approvals.yaml
+    git commit -m "phase-0: mark complete"
+    git push
+  note: identity env vars used for commit 1 were Peter Ndhlovu <peter@bilcoguard.com>
