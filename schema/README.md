@@ -36,9 +36,9 @@ If any of those four fields is missing, the record is invalid by definition.
 `source_hash`, `fetched_at`, `parser_version`.
 
 **Optional but defined:**
-`enacted_date`, `commencement_date`, `in_force`, `amended_by`, `repealed_by`,
-`sections`, `paragraphs`, `court`, `case_number`, `parties`, `judges`,
-`cited_authorities`.
+`date_of_assent`, `commencement_date`, `in_force`, `version_type`,
+`consolidated_as_of`, `amended_by`, `repealed_by`, `sections`, `paragraphs`,
+`court`, `case_number`, `parties`, `judges`, `cited_authorities`, `notes`.
 
 **Conditional:**
 - Records of type `judgment` MUST include `court` and `case_number`.
@@ -66,6 +66,106 @@ If any of those four fields is missing, the record is invalid by definition.
 - **`parser_version`** — semver. Bump on any parsing change, even if the
   output happens to be byte-identical.
 
+### `version_type` and `consolidated_as_of` (v0.2)
+
+For statutory instruments — `act`, `si`, `constitution`, `regulation` —
+the corpus distinguishes between three textually distinct artefacts that
+all share a single official title:
+
+- **`as_enacted`** — the text exactly as published when the instrument
+  was first enacted. Sourced from the authoritative publisher (Parliament
+  of Zambia / Government Printer / Government Gazette).
+- **`consolidated`** — a later compilation that folds in subsequent
+  amendments up to a stated cut-off date. Sourced from compilers such as
+  ZambiaLII or the Ministry of Justice Laws of Zambia.
+- **`amendment`** — a standalone amending instrument that exists in its
+  own right (e.g. "The Companies (Amendment) Act, 2022").
+
+The `version_type` field captures which artefact a record represents.
+The enum is `[null, "as_enacted", "consolidated", "amendment", "unknown"]`.
+Null is permitted for records where the distinction does not apply
+(judgments, gazette notices) or is genuinely unknown at ingest time.
+`unknown` should be used sparingly and reviewed in `gaps.md`.
+
+If `version_type` is `consolidated`, the record MUST also carry
+`consolidated_as_of` — the ISO 8601 calendar date up to which amendments
+are incorporated. The schema enforces this with a conditional rule.
+
+**Source preference rule.** Where both as-enacted and consolidated
+versions exist, the as-enacted text from the authoritative publisher is
+canonically preferred for citation. Consolidated versions are useful for
+research but should always be cross-referenced to the as-enacted record.
+
+**Known v0.2 gap (deferred to v0.3).** There is currently no explicit
+back-link field on a consolidated record pointing at its corresponding
+as-enacted record (or vice versa). For now, the relationship is tracked
+implicitly via shared `title` and `citation` and noted in `gaps.md`.
+v0.3 will add a `prior_version` / `as_enacted_id` field once we have
+ingested at least one as-enacted record from Parliament and know what
+the link target should look like in practice.
+
+## v0.3 changelog
+
+v0.3 is an additive bump driven by the Phase 2 pilot ingest of the
+Companies Act, 2017 (Act No. 10 of 2017). Building a real record
+against v0.2 surfaced four shape mismatches that would have forced us
+to drop genuine, source-attestable provenance to fit the schema. Per
+non-negotiable rule #1 (no fabrication), the right move is to widen
+the schema rather than coerce the record. The changes are strictly
+additive — every v0.2-conformant record remains v0.3-conformant after
+the field renames are applied.
+
+1. **`x-corpus-schema-version`** bumped `0.2` → `0.3`.
+
+2. **`enacted_date` → `date_of_assent`** (top level). Zambian
+   constitutional practice distinguishes three textually distinct
+   dates: enactment (Parliament passes the Bill), assent (the
+   President signs), and commencement (an SI is published appointing
+   the operative date). The Government Printer copies stamp "Date of
+   Assent" on the cover page; that is what we record. Conflating any
+   two of these into a single `enacted_date` field invites
+   fabrication. The rename makes the field's meaning unambiguous and
+   the new description spells out the distinction.
+
+3. **`notes`** (top level, nullable string). Pilot records carry
+   genuinely useful provenance that does not fit the structured
+   fields: source typo annotations preserved verbatim, pilot-record
+   qualifications, commencement-SI deferrals, bound-volume vs PDF page
+   discrepancies, and observed-but-not-source-asserted amendment
+   chains. The schema explicitly notes that anything written in
+   `notes` MUST be source-attestable in the same way as the rest of
+   the record — `notes` is provenance overflow, not editorial colour.
+
+4. **`sections` items widened** from
+   `{number, heading, text, subsections}` to
+   `{number, title, part, part_title, page_start, body, subsections}`
+   with `additionalProperties: false` retained.
+   - `heading` → `title` (Zambian and Commonwealth statutory drafting
+     conventions both call this the section title; "heading" is the
+     Part heading, not the section's marginal note).
+   - `text` → `body`, **now nullable**. Skeleton parses (Phase 2
+     pilot, Phase 4 bulk first pass) carry null bodies and populate
+     them in later phases. A null body is not a missing body — it is
+     a deliberate "not yet parsed" marker.
+   - **`part`** (nullable string) — the Roman numeral of the
+     containing Part (e.g. `"I"`, `"XVII"`), or `null` if the
+     instrument is not divided into Parts.
+   - **`part_title`** (nullable string) — the verbatim Part heading,
+     source typos preserved (e.g. `"PRELIMINARY PROVISONS"` — sic).
+   - **`page_start`** (nullable positive integer) — 1-indexed PDF
+     page where the section begins in the source PDF. Null only when
+     a skeleton entry failed cross-reference and is logged in
+     `gaps.md`.
+
+`in_force` was already declared `["boolean", "null"]` in v0.2; no
+change was required for the pilot's "commencement SI not yet
+discovered → in_force unknown → in_force: null" pattern.
+
+The conditional `allOf` rules are unchanged: judgments still require
+`court` and `case_number`; statutory instruments still require a
+`sections` array; consolidated records still require
+`consolidated_as_of`.
+
 ## Worked example 1 — an Act
 
 ```json
@@ -75,27 +175,38 @@ If any of those four fields is missing, the record is invalid by definition.
   "jurisdiction": "ZM",
   "title": "Example Placeholder Act, 2099",
   "citation": "Example Act No. 0 of 2099",
-  "enacted_date": "2099-01-01",
+  "date_of_assent": "2099-01-01",
   "commencement_date": "2099-01-15",
   "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
   "amended_by": [],
   "repealed_by": null,
   "sections": [
     {
       "number": "1",
-      "heading": "Short title",
-      "text": "This Act may be cited as the Example Placeholder Act, 2099.",
+      "title": "Short title",
+      "part": "I",
+      "part_title": "PRELIMINARY PROVISIONS",
+      "page_start": 13,
+      "body": "This Act may be cited as the Example Placeholder Act, 2099.",
       "subsections": []
     },
     {
       "number": "2",
-      "heading": "Interpretation",
-      "text": "In this Act, unless the context otherwise requires— ...",
+      "title": "Interpretation",
+      "part": "I",
+      "part_title": "PRELIMINARY PROVISIONS",
+      "page_start": 14,
+      "body": "In this Act, unless the context otherwise requires— ...",
       "subsections": [
         {
           "number": "2(1)",
-          "heading": null,
-          "text": "\"Minister\" means the Minister responsible for example matters;",
+          "title": "Minister",
+          "part": "I",
+          "part_title": "PRELIMINARY PROVISIONS",
+          "page_start": 14,
+          "body": "\"Minister\" means the Minister responsible for example matters;",
           "subsections": []
         }
       ]
@@ -104,7 +215,8 @@ If any of those four fields is missing, the record is invalid by definition.
   "source_url": "https://example.invalid/acts/0-of-2099.pdf",
   "source_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
   "fetched_at": "2099-01-20T10:00:00Z",
-  "parser_version": "0.1.0"
+  "parser_version": "0.1.0",
+  "notes": "Illustrative example only — not a real Act. Demonstrates the v0.3 record shape including date_of_assent, sections with part/part_title/page_start, and the notes field itself."
 }
 ```
 
@@ -126,7 +238,7 @@ Notes on this example:
   "jurisdiction": "ZM",
   "title": "Example Placeholder v Another Example Placeholder",
   "citation": "[2099] EXAMPLE-ZMSC 0",
-  "enacted_date": "2099-03-15",
+  "date_of_assent": "2099-03-15",
   "commencement_date": null,
   "in_force": null,
   "amended_by": [],
@@ -168,9 +280,10 @@ Notes on this example:
 Notes on this example:
 - `type: "judgment"` triggers the conditional requirement that `court` and
   `case_number` be present.
-- `enacted_date` is repurposed for the date of decision; this is intentional
-  so that "when did this authority come into existence" has a single field
-  across types.
+- `date_of_assent` is repurposed for the date of decision; the schema
+  description explicitly notes that for non-Acts the field captures the
+  date the instrument was issued or decided, so that "when did this
+  authority come into existence" has a single field across types.
 - `cited_authorities` references `example-act-xxx-2099` from the previous
   example. In a real corpus, the integrity check would resolve that ID to a
   real Act record. Here, both records are placeholders, so they only resolve

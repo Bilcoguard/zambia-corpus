@@ -1,6 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://kateweston.legal/schemas/zambia-corpus/record.schema.json",
+  "x-corpus-schema-version": "0.3",
   "title": "Zambian Authorities Corpus Record",
   "description": "A single citation-grade record of a Zambian primary legal authority (Act, Statutory Instrument, judgment, constitution, regulation, guideline, directive, or gazette notice). Every record MUST be reproducible from its source_url + source_hash.",
   "type": "object",
@@ -60,9 +61,9 @@
       "minLength": 1
     },
 
-    "enacted_date": {
+    "date_of_assent": {
       "type": ["string", "null"],
-      "description": "Date the instrument was enacted/passed/decided. ISO 8601 calendar date (YYYY-MM-DD).",
+      "description": "Date the instrument was assented to (Presidential signature) or, for non-Acts, the date it was issued/decided. ISO 8601 calendar date (YYYY-MM-DD). For Zambian Acts, this is the date stamped 'Date of Assent' on the Government Printer copy. Distinct from commencement (which is the date the SI appointing operation is published) and from enactment (which is the date Parliament passed the Bill).",
       "format": "date",
       "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
     },
@@ -77,6 +78,21 @@
     "in_force": {
       "type": ["boolean", "null"],
       "description": "True if currently in force as of fetched_at. False if repealed or expired. Null if unknown."
+    },
+
+    "version_type": {
+      "type": ["string", "null"],
+      "description": "For acts, sis, constitution, and regulations: whether this record captures the as-enacted text, a later consolidation, a standalone amendment, or is uncharacterised. Null permitted for records where the distinction does not apply (e.g. judgments, gazette notices) or is genuinely unknown.",
+      "enum": [null, "as_enacted", "consolidated", "amendment", "unknown"],
+      "default": null
+    },
+
+    "consolidated_as_of": {
+      "type": ["string", "null"],
+      "description": "For records with version_type = consolidated: the date up to which amendments are incorporated (i.e. the consolidation cut-off). ISO 8601 calendar date.",
+      "format": "date",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "default": null
     },
 
     "amended_by": {
@@ -101,19 +117,32 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["number", "text"],
+        "required": ["number", "title"],
         "properties": {
           "number": {
             "type": "string",
             "description": "Section number as published, including any letter suffix (e.g. '1', '12A', '12(2)(b)')."
           },
-          "heading": {
-            "type": ["string", "null"],
-            "description": "Section heading / marginal note, if any."
-          },
-          "text": {
+          "title": {
             "type": "string",
-            "description": "Verbatim section text. No paraphrasing. No interpolation."
+            "description": "Section title / marginal heading as published. v0.3 rename of v0.2 'heading'. Verbatim from source — typos preserved."
+          },
+          "part": {
+            "type": ["string", "null"],
+            "description": "Roman numeral of the Part this section belongs to (e.g. 'I', 'XVII'), or null if the instrument is not divided into Parts."
+          },
+          "part_title": {
+            "type": ["string", "null"],
+            "description": "Title of the containing Part, verbatim from source (e.g. 'PRELIMINARY PROVISONS' — sic). Source typos preserved."
+          },
+          "page_start": {
+            "type": ["integer", "null"],
+            "description": "1-indexed PDF page number where this section begins in the source PDF. Null if the section was not located on a body page (skeleton entries that failed cross-reference).",
+            "minimum": 1
+          },
+          "body": {
+            "type": ["string", "null"],
+            "description": "Verbatim section body text. v0.3 rename of v0.2 'text', now nullable. Skeleton parses (Phase 2 pilot) carry null bodies and populate them in Phase 4 bulk parse. Golden sections and Phase-4-parsed sections carry the full text. No paraphrasing. No interpolation."
           },
           "subsections": {
             "type": "array",
@@ -241,6 +270,11 @@
       "type": "string",
       "description": "Semantic version of the parser that produced this record. Bump on any parsing-logic change.",
       "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+
+    "notes": {
+      "type": ["string", "null"],
+      "description": "Free-form provenance and editorial notes. Used for: source typo annotations preserved verbatim; pilot-record qualifications; commencement-SI deferrals; bound-volume vs PDF page count discrepancies; observed-but-not-source-asserted amendment chains. Not validated for structure — but everything written here MUST be source-attestable in the same way as the rest of the record (no fabrication, no interpolation)."
     }
   },
 
@@ -262,6 +296,16 @@
       "then": {
         "required": ["sections"],
         "description": "Statutory instruments must carry a sections array (may be empty only for stub records explicitly flagged in gaps.md)."
+      }
+    },
+    {
+      "if": {
+        "properties": { "version_type": { "const": "consolidated" } },
+        "required": ["version_type"]
+      },
+      "then": {
+        "required": ["consolidated_as_of"],
+        "description": "Consolidated records must declare the date up to which amendments are incorporated."
       }
     }
   ]

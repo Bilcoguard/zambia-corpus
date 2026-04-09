@@ -61,27 +61,13 @@ sources:
       (Ministry of Justice or Government Printer). Do not assume a URL.
 
   - id: zambialii
-    name: ZambiaLII
-    base_url: https://zambialii.org
-    robots_txt_url: https://zambialii.org/robots.txt
-    robots_txt_status: "unknown — to verify in Phase 2"
-    content_types:
-      - acts
-      - sis
-      - judgments
-      - constitution
-    url_patterns:
-      listing: "TBD — verify in Phase 2"
-      document: "TBD — verify in Phase 2"
-    parser_strategy: html
-    rate_limit_seconds: 5
     priority: high
-    notes: >
-      Likely the richest single source — consolidated Acts, SIs, and case
-      law in one place. Rate limit is deliberately conservative (5s) out of
-      respect for a non-profit LII. In Phase 2, check whether a public API or
-      bulk dump (e.g. Akoma Ntoso / JSON) is offered before scraping HTML.
-      Prefer structured endpoints over HTML parsing where available.
+    status: blocked
+    robots_txt_status: reserved_content_signal
+    reservation: "Content-Signal: ai-input=no; EU Directive 2019/790 Art. 4 reservation"
+    reservation_observed_at: "2026-04-09"
+    reservation_source: "raw/discovery/zambialii/robots.txt"
+    notes: "Closed to KWLP corpus builder per Phase 2 Checkpoint A policy decision 2026-04-09. Do not fetch. Revisit only if ZambiaLII publishes a revised rights reservation."
 
   - id: judiciary-zm
     name: Judiciary of Zambia

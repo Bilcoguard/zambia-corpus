@@ -22,3 +22,352 @@
     cd /Users/peterndhlovu/KateWestonCorpus/corpus
     rm -f .git/index.lock .git/HEAD.lock .git/objects/maintenance.lock
   then tell me to retry — I will re-run validation and re-issue both commits under kwlp-worker identity
+
+2026-04-09T16:41:30Z phase-2 CHECKPOINT A — partial halt for direction
+  source picked: parliament-zm (priority 1 per brief)
+  fetch 1: http://cacerts.rapidssl.com/RapidSSLTLSRSACAG1.crt -> 200 (out-of-band AIA intermediate; needed because parliament.gov.zm sends a broken cert chain — leaf signed by RapidSSL TLS RSA CA G1, server omits intermediate)
+  fetch 2: https://www.parliament.gov.zm/robots.txt -> 200, 2189 bytes, sha256=278e83bcf567badfebcdea4d5d20ca9898e4449fe4eb2e3b5a08227b4ca9b762 (Drupal 7 stock robots; Crawl-delay: 10 for User-agent: *; honoring 10s instead of approvals.yaml default 2s per non-negotiable rule #3)
+  fetch 3: https://www.parliament.gov.zm/sitemap.xml -> 404 (no sitemap module installed)
+  state: no listing page identified yet. Halting before guessing further URLs.
+  awaiting user direction: (a) try homepage / as discovery step, (b) fall back to zambialii, (c) user provides listing URL
+
+[2026-04-09T16:52:30Z] phase-2 CHECKPOINT A part 2 — HALT FOR DIRECTION
+A-ZLII-1 fetched https://zambialii.org/robots.txt successfully:
+  status=200 sha256=fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0 body_len=2022
+  saved to raw/discovery/zambialii/robots.txt
+Findings (material to non-negotiable rule #3 "Respect sources"):
+  1. Crawl-delay: 5  — matches approvals.yaml zambialii_seconds_between_requests
+  2. User-agent: *   Allow: /
+     Disallow: /search/, /en/search/, /fr/search/, /pt/search/, /sw/search/, /api/
+     Disallow: /akn/zm/judgment/         <-- judgments BLOCKED for *
+     Disallow: /akn/zm/officialGazette/  <-- gazette BLOCKED for *
+  3. Content-Signal: ai-train=no, search=yes, ai-input=no
+     The file states these signals are "EXPRESS RESERVATIONS OF RIGHTS UNDER
+     ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT".
+     ai-input=no = do not input content into AI models for RAG/grounding,
+     which is exactly what the KWLP corpus is being built for.
+  4. Named UA blocks (full Disallow:/) for: AhrefsBot, Amazonbot, anthropic-ai,
+     Applebot-Extended, ChatGPT-User, ClaudeBot, Claude-Web, cohere-ai,
+     Google-Extended, GPTBot, ImagesiftBot, meta-externalagent, SemrushBot.
+     Our UA "KateWestonLegal-CorpusBuilder/1.0" is NOT in this list, so the
+     User-agent: * rules apply to us by literal robots.txt semantics.
+Implication for Phase 2 (Companies Act 2017):
+  - Acts live under /akn/zm/act/ which is NOT in the * Disallow list.
+    Literal robots.txt parsing => /akn/zm/act/... is permitted for our UA
+    at Crawl-delay 5s.
+  - However the Content-Signal "ai-input=no" applies site-wide and
+    reads as a positive reservation against the KWLP corpus's intended use.
+  - Judgments and gazette notices are *explicitly* off-limits for our UA
+    via literal Disallow lines, regardless of Content-Signal interpretation.
+HALT before A-ZLII-2 (sitemap fetch). User direction needed on:
+  (1) Whether the literal robots.txt allowance for /akn/zm/act/ is the
+      controlling signal, or whether the Content-Signal ai-input=no must
+      also be honoured (in which case ZambiaLII is not a usable source for
+      ANY content type and Phase 2 cannot proceed via ZambiaLII at all).
+  (2) Confirmation that ZambiaLII judgments and gazette notices are now
+      considered closed sources for this corpus (literal Disallow), and
+      sources.yaml should be amended to reflect that.
+No further fetches performed. provenance.log updated. Awaiting decision.
+
+[2026-04-09 · Stage 6 · Phase 2 · Checkpoint A · Policy]
+ZambiaLII closed to KWLP corpus per human decision. Content-Signal
+ai-input=no + EU 2019/790 Art. 4 reservation treated as binding. Firm
+compliance posture requires respecting express machine-readable rights
+reservations at face value. ZambiaLII entries in sources.yaml to be marked
+status=blocked, robots_txt_status=reserved_content_signal. Phase 3 judgment
+source deferred to Phase 3 kickoff.
+
+[2026-04-09T17:10Z · Stage 6 · Phase 2 · Checkpoint A · A-POL-4/5]
+parliament.gov.zm homepage fetched: HTTP 200, 50681 bytes,
+sha256=15ad3da56cc1cbe5aafc4d675855495dd6b66197e8a7ebb7eccf3abc4993b747,
+saved to raw/discovery/parliament-zm/homepage.html. Drupal 7 confirmed
+(X-Generator). Used SSL chain repair via baked-in scripts/certs/*.pem
+loader; logged. fetch_one.py upgraded to load extra trust certs as
+standing infrastructure per Phase 2 Checkpoint A policy.
+Link extraction (204 <a> total, 11 keyword-matching candidates):
+  /acts-of-parliament              text: "Acts"
+  /acts-of-parliament/             text: "| Archives"
+  /acts/volumes                    text: "Laws of Zambia"
+  /publications/bills-list         text: "Bills"
+  /publications/bills-list/        text: "| Archives"
+  /publications/unpresented-bills  text: "Bills - Not Presented"
+  /committees/all-reports/bills    text: "Bills"
+  /node/12917                      text: "The Teaching Profession Act,2026"
+  /node/4834                       text: "Constitution Amendment Act 2016"
+  /node/12953                      text: "The National Health Research and
+                                          Training Institute (Amendment) Bill, 2026"
+  /locationmap                     text: "Contact Us"  (false positive — "loCATion")
+Per-document URL shape observed: /node/<id> (Drupal default).
+Halt. No further fetches. Awaiting next-fetch direction from human.
+
+[2026-04-09T17:20Z · Stage 6 · Phase 2 · Checkpoint A · A-POL-6/7]
+acts-of-parliament index fetched: HTTP 200, 38327 bytes,
+sha256=61b43563ea7a86fdbae2106d89a2e6c289dee47f7ee34b4a36df33e9ae89ff27,
+saved to raw/discovery/parliament-zm/acts-of-parliament.html.
+Page is page 0 of a paginated Drupal view: pager observed
+?page=1..47 + "last »" = 48 pages total. ~25 Acts per page (reverse
+chronological); Act detail pages are /node/<id>. Page 0 contains 2026
++ 2025 Acts only.
+COMPANIES ACT HITS on page 0:
+  /node/12826 — "The Companies (Amendment) Act,2025 ( Act No. 23 of 2025)"
+  (this is the 2025 amendment, NOT the 2017 principal Act)
+The 2017 Companies Act (Act No. 10 of 2017) is NOT on page 0. It is
+somewhere in the paginated archive. Will require either:
+  - sequential pager walk (potentially several pages × 10s delay), or
+  - a year/keyword filter if the Drupal view exposes one (not yet
+    inspected — would need to look at GET params or a search form)
+Halt. No further fetches. Awaiting direction.
+
+[2026-04-09T17:27Z · A-POL-9 · pager walk]
+page=8 → 200, 38599b, sha256=6bd8898d40ce331df9f0d67486406cea5e94ba11a2451c7d0a92df2cebe4c37f
+  20 Acts, year range 2020-2021. No Companies Act. No 2017 Acts.
+  Decision: forward → page=9. Fetches consumed: 1/15.
+page=9 → 200, 38663b, sha256=54cd8b0340fe76e87e40c7e20520b0aac1e83df1ce6c46f03c10c2b92d792c63
+  20 Acts, year range 2019-2020. Companies hits: /node/8635 (2020 amend),
+  /node/8570 (PACRA 2020). Neither is the 2017 principal. No 2017 Acts.
+  Decision: forward → page=10. Fetches consumed: 2/15.
+page=10 → 200, 38579b, sha256=00b9b8e94f8a605c82b1d03e1de824a39060ebe09ce9c42e547cf55909262f38
+  20 Acts, year range 2018-2019. No Companies. No 2017.
+  Decision: forward → page=11. Fetches consumed: 3/15.
+page=11 → 200, 38392b, sha256=be9c1794038105ba5fbcdb8a383ada0d75e4795a1633598e6f8092f4aa67043a
+  20 Acts, all year 2018. No Companies. No 2017.
+  Decision: forward → page=12. Fetches consumed: 4/15.
+page=12 → 200, 38108b, sha256=4a59e11dffd646ba2e9c8743fa47b335862a7f59e3ffc098d52642acb4a8b63a
+  20 Acts, all year 2017 (Acts No. 3-22 of 2017). HIT:
+  /node/7264 — "The Companies ( Act No. 10 of 2017)" — Act No. 10 of 2017
+  Companion: /node/7268 — Corporate Insolvency Act No. 9 of 2017
+  Decision: HALT pager walk. Fetches consumed: 5/15 (10 remaining).
+
+[2026-04-09T17:33Z · A-POL-10/11 · Companies Act 2017 landing page]
+GET /node/7264 → 200, 32525 bytes,
+sha256=05dc5fb448828513edddd7670e41cc0dbed331d901c49d0690a3c143aa8ebaa9
+saved to raw/pilot/parliament-zm/companies-act-2017/node-7264.html
+no redirect, content-type text/html; charset=utf-8, Drupal 7.
+Inspection findings:
+  title:    "The Companies | National Assembly of Zambia"
+  h1:       "The Companies"
+  act_no:   "No.10 of 2017" (field-name-field-act-number)
+  volume:   "Acts of Parliament (Post 1997)" (field-name-field-volume)
+  body:     1378 chars — the long-title/preamble only, NOT the full Act text
+            opens "Date of Assent: 17th November, 2017 An Act to promote..."
+  date_of_assent: "17th November, 2017" (parsed from body)
+  commencement_date: NOT PRESENT on page
+  gazette ref:       NOT PRESENT on page
+  chapter:           NOT PRESENT on page
+  version label:     NOT PRESENT (no "as enacted"/"consolidated"/"amended" string)
+                     by source convention this is as-enacted (Parliament publishes
+                     the original enacted text; it does not republish consolidations)
+  attachment:        ONE direct PDF
+    https://www.parliament.gov.zm/sites/default/files/documents/acts/Companies%20Act%2C%202017.pdf
+    link text: "Companies Act, 2017.pdf"
+  related links:     /node/6565 "The Companies Bill, 2017" (the bill that became
+                     the Act — provenance ancestor, not the Act itself)
+  Insolvency Act ref: NONE — page does NOT cross-link /node/7268
+  amendment links:    NONE
+  head metadata:      2 <meta>, 3 <link>; no Dublin Core, no schema.org, no
+                      citation_*, no og:*. Just canonical+shortlink to /node/7264.
+HALT. No PDF fetch. Awaiting A-POL-12 direction.
+
+[2026-04-09T17:39Z · A-POL-12/13 · Companies Act 2017 PDF]
+GET sites/default/files/documents/acts/Companies%20Act%2C%202017.pdf
+  → 200, 925084 bytes (903 KiB),
+  sha256=5e6acc13c0b47ba52314b8f47d9cf4093de31a2315996480f0926e33ee520fe3
+  Content-Type: application/pdf, no redirect, Last-Modified: 2021-03-31
+  saved to raw/pilot/parliament-zm/companies-act-2017/companies-act-2017.pdf
+PDF integrity:
+  magic bytes: %PDF- ✓
+  PDF version: 1.4
+  %%EOF: present, count=1 (clean trailer, no incremental updates)
+  not encrypted, not linearized, no JavaScript, no AcroForm fields
+  page count: 240
+  page size: 595 x 842 pt (A4)
+PDF /Info dictionary:
+  Title:        "F:\\Companies Act 2  2017.pmd"
+  Author:       "compedit"
+  Creator:      "F:\\Companies Act 2  2017.pmd"
+  Producer:     "ScanSoft PDF Create! 7"
+  CreationDate: D:20171124154051+02'00'  (24 Nov 2017 15:40:51 CAT)
+  ModDate:      D:20171124154051+02'00'  (same)
+  No XMP packet (no /Metadata in document catalog)
+Provenance interpretation of /Info:
+  - Source document was Adobe PageMaker (.pmd) — typesetter format
+  - "compedit" = compositor account, almost certainly Government Printer
+  - Compiled to PDF on a Windows machine (F:\ drive) using ScanSoft PDF
+    Create! 7 (a ~2007-era PDF generator)
+  - PDF was sealed 7 days after the Date of Assent (17 Nov 2017) — clean
+    timeline consistent with first official publication
+  - ModDate == CreationDate → file never re-edited
+  - This is a born-digital compositor PDF, NOT a scan
+Page 1 text-layer sanity:
+  page 1 extracted text: 1159 chars (1083 raw chars from text objects)
+  page 1 image count: 0
+  pages 2-5 text lengths: 1390, 1248, 1529, 1355 chars (consistent)
+  → text layer present and consistent across early pages → no OCR needed
+Page 1 structural sketch:
+  Running header: "Companies [No.10of 2017 393"
+    NOTE: "393" indicates this Act was originally typeset for the bound
+    annual volume "Acts of Parliament 2017" starting at page 393 of that
+    volume. The PDF page numbers (1-240) do NOT match the publication
+    pagination (which starts at 393). This needs to be carried into the
+    record as "publication_first_page": 393 if such a field is added later.
+  Title line: "THE COMPANIES ACT, 2017"
+  "ARRANGEMENT OF SECTIONS" — page 1 is the start of the ToC, NOT the
+  operative text. Operative text begins later in the PDF.
+  Visible Part I "PRELIMINARY PROVISIONS" header + sections 1-21+ in the
+  ARRANGEMENT
+Text-layer quirk to flag for parser:
+  Spaces are systematically stripped between words within section titles:
+  "Shorttitleandcommencement", "ApplicationofAct", "Definitioninotherlaws".
+  This is a PageMaker → ScanSoft PDF Create! conversion artifact (kerning
+  preserved visually, discrete space characters lost in the text layer).
+  Parse strategy must account for this — likely dictionary-based word
+  splitting, OR fall back to a different extraction tool that uses glyph
+  positions instead of the embedded text stream.
+Cross-check with landing page:
+  Date of Assent on landing page: "17 November 2017"
+  Date of Assent in PDF text:    NOT YET VERIFIED — preamble section is
+  later in the PDF (after the ARRANGEMENT OF SECTIONS), confirmation is
+  Checkpoint C work, not B
+HALT. No text extraction beyond first 5 pages. No record construction.
+Awaiting A-POL-14 direction.
+
+2026-04-09T19:55:00Z [Stage 6 · Phase 2 · Checkpoint B · A-POL-14] structural scan complete
+  target: raw/pilot/parliament-zm/companies-act-2017/companies-act-2017.pdf
+  sha256: 5e6acc13c0b47ba52314b8f47d9cf4093de31a2315996480f0926e33ee520fe3
+  total_pages: 240
+  P_act: 13   (enacting formula + bracketed date "[20thNovember,2017")
+  P_s1:  13   (section 1 starts same page as enacting formula; marginal heading)
+  P_sched: 197  (FIRST SCHEDULE)
+  P_end: 196  (last operative section page before First Schedule)
+  parts_detected: 17  (I, II, III, IV, V, VI, VII, VIII, IX, X, XI, XII, XIII, XIV, XV, XVI, XVII)
+  schedules_detected: 4  (FIRST p197, SECOND p218, THIRD p228, FOURTH p239)
+  bv_page_range: 393-634  (parsable on 240/240 pages; 242 publication pages vs 240 PDF pages — minor discrepancy noted)
+  commencement: NOT a fixed date — section 1 says Act "shall come into operation on a date that the Minister may appoint by statutory instrument"; deferred to a separate SI ingestion pass
+  chapter_number: not found  (no Cap. assigned to Companies Act 2017 in this PDF; the Cap. references found are to OTHER Acts cited inside the body)
+  cap_refs_to_other_acts: ['1','30','82','87','88','213','360','388','415']
+  gazette_references: 9 procedural refs in operative text (Registrar publication duties); NO commencement-gazette reference. Bracketed date [20th November, 2017] on P_act likely the gazette publication date (3 days after assent 17 Nov 2017).
+  repeal: section in body references repeal of "Companies Act, 1994"; definitions section flags "Cap. 388" as the old consolidated Cap of the 1994 Act
+  surprises:
+    - section 1 shares the page with the enacting formula (P_act == P_s1 == 13)
+    - marginal-heading layout: section titles fragmented in text stream and interleaved with body — will require dedicated parser handling
+    - PageMaker → ScanSoft whitespace-stripping bug active throughout (e.g. "Shorttitleandcommencement", "No.10of 2017")
+    - typo in original typesetting on P_act: "PRELIMINARY PROVISONS"
+    - 4 schedules (not 1) — increases parse surface area
+    - 240 PDF pages vs 242 publication pages — flag for parse strategy
+  status: HALT — awaiting A-POL-15 parse strategy decision. Do NOT begin full-text extraction, section parsing, or record construction.
+
+2026-04-09T20:35:00Z [Stage 6 · Phase 2 · Checkpoint C · A-POL-15] parse + build + validate
+  scripts authored:
+    scripts/respace_pdf_text.py     (parser_version 0.1.0)
+    scripts/parse_companies_act_2017.py (parser_version 0.1.0)
+  re-spacing pass:
+    vocabulary: pyspellchecker English (~160k full forms) + LEGAL_EXTRAS (Zambian/legal terms incl. typo "provisons") + zipf>=4.5 backstop. hunspell .dic alone was insufficient (stem-only; missing "conversion","injunction" etc.).
+    self-test: 11/11 passed (Short title and commencement; Application of Act; In this Act,unless the context...; Date of Assent:17th November,2017; PRELIMINARY PROVISONS; Privatecompanies; repealedAct; CompaniesAct; subsidiariesoftheholdingcompany; statutoryinstrument; Companies[No.10of 2017)
+    full PDF: raw chars 455,278 -> respaced chars 495,871 (+40,593 chars, +8.9%)
+    output: raw/pilot/parliament-zm/companies-act-2017/companies-act-2017.{raw,respaced}.txt (gitignored under raw/)
+  skeleton parse (ARRANGEMENT OF SECTIONS, PDF pages 1-12):
+    Parts: 17 (I .. XVII, in document order)
+    Sections: 377 (1 .. 377)
+    per-Part counts:
+      I=5  II=16  III=14  IV=12  V=8  VI=26  VII=41  VIII=16  IX=69
+      X=17  XI=21  XII=36  XIII=15  XIV=20  XV=3   XVI=10  XVII=48
+    Part I title preserved verbatim as "PRELIMINARY PROVISONS" (source typo, not corrected).
+    cross-ref scan: 377/377 sections matched to a body page_start via forward-walking <num>. <Capital> regex on respaced body pages 13-196.
+  golden section:
+    chosen: s.3 "Interpretation"
+    rationale: longest definitional section in the Act (~12 PDF pages), highest structural complexity (defined-term blocks, paragraph (a)/(b)/(c) sub-structure, marginal "Act No. X of YYYY" annotations interleaved), best stress-test of the re-spacing pipeline.
+    extracted body chars: 23,057
+    extraction range: PDF pages 14 .. mid-26 (between "3. In this Act" and "4. In this Act" boundaries)
+  record built:
+    file: records/acts/act-zm-2017-010-companies.json
+    sha256: d3831062c32772f5aa39c2cd3bb8f34e67492c6e0515ee93014cbc4f33595687
+    size: 104,427 bytes
+    fields populated per A-POL-15 spec: id, type, jurisdiction, title, citation, version_type, consolidated_as_of, court, date_of_assent, commencement_date, in_force, amended_by, sections (377), source_url, source_hash, fetched_at, parser_version, notes
+  validation: FAIL
+    validator: jsonschema Draft202012Validator against schema/record.schema.json (x-corpus-schema-version 0.2)
+    total errors: 755
+    error groups (verbatim):
+      [/]            "Additional properties are not allowed ('date_of_assent', 'notes' were unexpected)"
+      [/sections/N]  "Additional properties are not allowed ('body', 'page_start', 'part', 'part_title', 'title' were unexpected)"   x 377
+      [/sections/N]  "'text' is a required property"                                                                                 x 377
+    root cause: A-POL-15 spec field set diverges from schema v0.2 in three ways:
+      (a) top-level: spec uses "date_of_assent" + "notes"; schema declares "enacted_date" and does NOT declare "notes" (additionalProperties:false at top level).
+      (b) sections[*]: spec uses {number,title,part,part_title,body,page_start}; schema declares only {number,heading,text,subsections} with additionalProperties:false.
+      (c) sections[*]: schema marks "text" as required (not nullable); spec leaves body=null on all but the golden section, which cannot satisfy the required-text constraint.
+    not patched: schema is locked at v0.2 for Phase 2 per A-POL-15 step 5. record left on disk in user-spec shape for inspection.
+  housekeeping:
+    Stray scratch file ".gitignore.tmp" was accidentally created in the corpus root and the sandbox refuses to delete it. It contains a comment marker only (no functional content). Please delete on host: `rm /Users/peterndhlovu/KateWestonCorpus/corpus/.gitignore.tmp`
+  status: HALT — awaiting Checkpoint C resolution. Two paths per A-POL-15 step 5:
+    (a) adjust the record shape to fit schema v0.2 (requires lossy mapping; lose part/part_title/page_start unless tunneled into "heading" string), OR
+    (b) ship schema v0.3 as a separate Checkpoint (additive: rename date_of_assent->enacted_date OR add date_of_assent alongside; widen sections[*] to allow {title,part,part_title,page_start,body}; relax sections[*].text requirement to allow null for skeleton entries; allow top-level "notes")
+  no commit. no push. no approvals.yaml flip.
+
+[2026-04-09T20:55:00Z] [Stage 6 · Phase 2 · Checkpoint C · Step A-POL-16] schema v0.3 additive bump + re-spacer 0.1.1 + pilot record re-build
+  decision: option (b) — ship schema v0.3 as additive bump (per Peter A-POL-16). Rationale: coercing the pilot record into v0.2's {number, heading, text} shape would drop genuinely source-attestable provenance (per-section page_start, Part roman numerals + verbatim part_title preserving the source typo "PRELIMINARY PROVISONS", date_of_assent, and the SI-deferred commencement note). Dropping provenance to fit a schema violates non-negotiable rule #1 in spirit. Schema v0.3 is small and tractable.
+
+  PART 1 — schema v0.3:
+    file: schema/record.schema.json
+      - x-corpus-schema-version: "0.2" -> "0.3"
+      - rename top-level enacted_date -> date_of_assent (description spells out the Zambian distinction between enactment / assent / commencement)
+      - add top-level "notes" (string, nullable, no maxLength; description: must be source-attestable, no fabrication)
+      - sections[*] items widened from {number, heading, text, subsections} to {number, title, part, part_title, page_start, body, subsections}; additionalProperties: false retained; required: ["number","title"]; body now nullable; page_start nullable positive integer
+      - in_force already declared ["boolean","null"] in v0.2 — no edit required
+      - allOf branches unchanged (judgments still require court+case_number; statutory instruments still require sections; consolidated still requires consolidated_as_of)
+    file: schema/README.md
+      - added "## v0.3 changelog" section documenting the four changes with rationale (pilot-driven reality check)
+      - updated worked example 1 (Act) to v0.3 shape: date_of_assent, notes, sections with {number, title, part, part_title, page_start, body, subsections}
+      - updated worked example 2 (judgment) to use date_of_assent (with the for-non-Acts repurposing note)
+      - updated optional-fields summary list
+
+  PART 2 — re-spacer punctuation post-pass:
+    file: scripts/respace_pdf_text.py
+      - bumped PARSER_VERSION 0.1.0 -> 0.1.1
+      - added insert_post_punct_spaces(): inserts a single space after `,` `;` `:` when next char is letter/digit, with two carve-outs:
+        * comma flanked on both sides by digits is preserved (thousands separator: "1,000")
+        * colon flanked on both sides by digits is preserved (time-of-day style: "12:30")
+        * period (`.`) is intentionally untouched (ambiguous between sentence terminator, abbreviation, section enumerator, decimal point)
+      - respace() pipeline now: respace_text -> insert_letter_digit_spaces -> insert_post_punct_spaces
+      - idempotent: verified by applying twice to full PDF text and asserting equality
+      - 3 new self-tests added: ("Act,2010" -> "Act, 2010"), ("Act,unless" -> "Act, unless"), ("1,000 kwacha" -> "1,000 kwacha")
+      - 4 existing self-tests updated to reflect the new post-pass behaviour:
+        * "InthisAct,unlessthecontextotherwiserequires" -> "In this Act, unless the context otherwise requires" (was "...Act,unless...")
+        * "DateofAssent:17thNovember,2017" -> "Date of Assent: 17th November, 2017" (was "...Assent:17th November,2017")
+        * "CompaniesAct,1994" -> "Companies Act, 1994" (was "Companies Act,1994")
+      - self-test result: 14/14 PASS
+    re-run on full PDF (240 pages):
+      raw chars      : 448216
+      respaced chars : 491676
+      delta          : +43460 chars (+9.70%)
+      v0.1.0 baseline: +40593 chars (+8.91%)
+      post-pass added: ~2867 spaces (commas, colons, semicolons across 240 pages)
+      idempotent     : True
+
+  PART 3 — pilot record re-build under v0.3:
+    file: scripts/parse_companies_act_2017.py
+      - bumped PARSER_VERSION 0.1.0 -> 0.1.1
+      - in_force: True -> None (the appointing SI is not source-discovered, so operative status cannot be source-asserted from the four corners of the as-enacted instrument; will be source-asserted in Phase 4)
+      - notes updated to add the in_force-null explanation alongside the existing commencement-SI-deferral note
+      - section item shape unchanged (parser already emitted v0.3 shape — that is what made v0.2 reject it)
+    re-run:
+      total sections : 377
+      parts found    : 17 (I-XVII, all present)
+      cross-ref hits : 377/377
+      golden s.3 body chars: 23155 (was 23057 in v0.1.0; +98 chars from post-pass spaces)
+      first 60 chars: "3. In this Act, unless the context otherwise requires—"
+    record re-validation against v0.3:
+      validator: jsonschema.Draft202012Validator
+      schema   : schema/record.schema.json (x-corpus-schema-version 0.3)
+      record   : records/acts/act-zm-2017-010-companies.json
+      errors   : 0
+      result   : VALID
+    new record:
+      path  : records/acts/act-zm-2017-010-companies.json
+      size  : 104820 bytes
+      sha256: ab0bb7fc4afd91e87ecb6c2b850eb2bffd131485aed0905f4737ac0d68372b60
+
+  PART 4 — housekeeping:
+    .gitignore.tmp: still cannot be removed in-sandbox (Operation not permitted). The file is harmless (a single comment line), but please delete on host:
+      rm /Users/peterndhlovu/KateWestonCorpus/corpus/.gitignore.tmp
+    no other outputs touched.
+
+  status: HALT — awaiting human review of v0.3 schema, re-spacer 0.1.1, and the v0.3-conformant pilot record. No commit. No push. No approvals.yaml flip.
