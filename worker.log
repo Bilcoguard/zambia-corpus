@@ -9,3 +9,16 @@
     git commit -m "phase-0: mark complete"
     git push
   note: identity env vars used for commit 1 were Peter Ndhlovu <peter@bilcoguard.com>
+
+2026-04-09T18:25:00Z phase-1 HALT (same lockfile-on-mount issue as phase-0)
+  validation: schema check_schema OK, example 1 OK, example 2 OK (Draft202012Validator, jsonschema 4.26.0)
+  commit 1 (phase-1 schema lock) BLOCKED: cannot remove stale .git/index.lock from sandbox (Operation not permitted)
+  staged content is intact in /sessions/magical-inspiring-hawking/mnt/corpus working tree:
+    schema/record.schema.json
+    schema/README.md
+    corpus/{acts,sis,judgments,constitution,regulations,guidelines,gazette}/.gitkeep
+  approvals.yaml not yet edited for this phase (still complete: false)
+  action required: on host mac, run:
+    cd /Users/peterndhlovu/KateWestonCorpus/corpus
+    rm -f .git/index.lock .git/HEAD.lock .git/objects/maintenance.lock
+  then tell me to retry — I will re-run validation and re-issue both commits under kwlp-worker identity
