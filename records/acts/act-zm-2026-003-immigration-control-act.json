@@ -1,0 +1,566 @@
+{
+  "id": "act-zm-2026-003-immigration-control-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Immigration Control Act, 2026",
+  "citation": "Act No. 3 of 2026",
+  "version_type": "as_enacted",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "Short title and commencement",
+      "body": null,
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "2",
+      "title": "Interpretation",
+      "body": "PART II\nTHE IMMIGRATION DEPARTMENT",
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "3",
+      "title": "Continuation of Immigration Department",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "4",
+      "title": "Functions of Department",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "5",
+      "title": "Director-General, Deputy Director-General, immigration",
+      "body": "officers and other staff",
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "6",
+      "title": "Immigration border guards",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "7",
+      "title": "Delegation of functions by Director-General",
+      "body": "PART III\nENTRY INTO AND DEPARTURE FROM THE REPUBLIC",
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "8",
+      "title": "Entry and remaining in Republic",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "9",
+      "title": "Application for visa",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "10",
+      "title": "Duty to appear before immigration officer on arrival in",
+      "body": "Republic",
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "11",
+      "title": "Examination of entrant",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "12",
+      "title": "Departure from Republic",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "13",
+      "title": "Duties and liabilities of carriers",
+      "body": "PART IV\nIMMIGRATION PERMITS",
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "14",
+      "title": "Non-application of Part",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "15",
+      "title": "Residence permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "16",
+      "title": "Employment permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "17",
+      "title": "Investor’s permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "18",
+      "title": "Spouse permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "19",
+      "title": "Dependant permit",
+      "body": "Single Copies of this Act can be obtained from the Government Printer,\nP.O. Box 30136, 10101, Lusaka, Price K104.00 each\n50 No. 3 of 2026 Immigration Control",
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "20",
+      "title": "Diplomatic permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "21",
+      "title": "Study permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "22",
+      "title": "Cross-border permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "23",
+      "title": "Asylum seeker’s permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "24",
+      "title": "Refugee self-employed permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "25",
+      "title": "Visiting days or business days",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "26",
+      "title": "Visiting permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "27",
+      "title": "Business permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "28",
+      "title": "Temporary employment permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "29",
+      "title": "Transit permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "30",
+      "title": "Transit days",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "31",
+      "title": "Border pass",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "32",
+      "title": "Seasonal employment permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "33",
+      "title": "Temporary permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "34",
+      "title": "Variation of permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "35",
+      "title": "Validity of permits",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "36",
+      "title": "Prohibition from engaging in activity not specified on permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "37",
+      "title": "Renewal of permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "38",
+      "title": "Duplicate permit",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "39",
+      "title": "Revocation of permit",
+      "body": "PART V\nREGISTRATION OF IMMIGRATION CONSULTANTS",
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "40",
+      "title": "Prohibition of offering immigration consultant services",
+      "body": "without registration",
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "41",
+      "title": "Invitation to offer immigration consultancy services",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "42",
+      "title": "Application for registration as immigration consultant",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "43",
+      "title": "Validity of certificate of registration",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "44",
+      "title": "Renewal of certificate of registration",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "45",
+      "title": "Variation of particulars on certificate of registration",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "46",
+      "title": "Duplicate certificate of registration",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "47",
+      "title": "Suspension or cancellation of certificate of registration",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "48",
+      "title": "Register of immigration consultants",
+      "body": "Immigration Control [No. 3 of 2026 51\nPART VI\nPROHIBITED IMMIGRANTS, ILLEGAL IMMIGRANTS AND FOREIGNERS\nWHO ARE LIKELY TO BE A DANGER TO PEACE IN THE REPUBLIC",
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "49",
+      "title": "Prohibition of prohibited immigrant and illegal immigrant",
+      "body": "from entry into Republic",
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "50",
+      "title": "Detention of suspected prohibited immigrant or illegal",
+      "body": "immigrant",
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "51",
+      "title": "Deportation of prohibited immigrant",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "52",
+      "title": "Deportation or removal of foreigner from Republic",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "53",
+      "title": "Notice to leave Republic",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "54",
+      "title": "Order of detention, deportation, removal or release from",
+      "body": "prison or correctional centre",
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "55",
+      "title": "Interpretation",
+      "body": "PART VII\nOBLIGATIONS RELATING TO EMPLOYERS, EDUCATION\nINSTITUTIONS, HIGHER EDUCATION INSTITUTIONS AND\nACCOMMODATION ESTABLISHMENTS",
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "56",
+      "title": "Obligations of employer",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "57",
+      "title": "Obligations of educational institution and higher education",
+      "body": "institution",
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "58",
+      "title": "Obligations of operator of accommodation establishment",
+      "body": "PART VIII\nENFORCEMENT",
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "59",
+      "title": "Authorised officer",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "60",
+      "title": "Powers of authorised officer",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "61",
+      "title": "Seizure of property",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "62",
+      "title": "Power to use firearm",
+      "body": "PART IX\nGENERAL PROVISIONS",
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "63",
+      "title": "Immigration Integrity Committee",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "64",
+      "title": "Designation of immigration holding facility",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "65",
+      "title": "Notice to appear before immigration officer",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "66",
+      "title": "Proof of status",
+      "body": "52 No. 3 of 2026 Immigration Control",
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "67",
+      "title": "Evidence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "68",
+      "title": "Trafficking and smuggling in persons",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "69",
+      "title": "Aiding and abetting prohibited immigrant or illegal immigrant",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "70",
+      "title": "Immigration bond and bail",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "71",
+      "title": "General offences",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "72",
+      "title": "General penalty",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "73",
+      "title": "Offence by principal officer, shareholder or partner of body",
+      "body": "corporate or unincorporate body",
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "74",
+      "title": "Summary imposition of penalty",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "75",
+      "title": "Appeal",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "76",
+      "title": "Guidelines",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "77",
+      "title": "Regulations",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "78",
+      "title": "Repeal of Cap.123 and savings and transitional provisions",
+      "body": "SCHEDULES\nImmigration Control [No. 3 of 2026 53\nGOVERNMENT OF ZAMBIA\nACT\nNo. 3 of 2026\nDate of Assent: 31st March, 2026\nAn Act to continue the existence of the Immigration\nDepartment and re-define its functions; provide for the\nappointment of immigration border guards and provide\nfor their functions; regulate the entry of persons into, and\ndeparture of persons from, the Republic; regulate the\nremaining of immigrants within the Republic; repeal and\nreplace the Immigration and Deportation Act, Cap. 123\nand provide for matters connected with, or incidental to,\nthe foregoing.\n[8th April, 2026\nENACTED by the Parliament of Zambia. Enactment\nPART I\nPRELIMINARY PROVISIONS",
+      "page_start": 1,
+      "part": "PART IX"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Immigration%20Control%20Act%2C%202026.pdf",
+  "source_hash": "sha256:e83676cd9a163bfdbfe2006da893f76be9b4a97bf13239d305f56999b40b5ee0",
+  "fetched_at": "2026-04-10T22:40:07Z",
+  "parser_version": "0.3.0",
+  "notes": "Fetched from parliament.gov.zm node/13008. Phase 4 batch 0018."
+}

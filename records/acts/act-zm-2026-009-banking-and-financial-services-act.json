@@ -1,0 +1,1518 @@
+{
+  "id": "act-zm-2026-009-banking-and-financial-services-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Banking and Financial Services Act, 2026",
+  "citation": "Act No. 9 of 2026",
+  "version_type": "as_enacted",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "Short title and commencement",
+      "body": null,
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "2",
+      "title": "Interpretation",
+      "body": null,
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "3",
+      "title": "Application of Act",
+      "body": "PART II\nADMINISTRATION",
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "4",
+      "title": "Administration of Act",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "5",
+      "title": "Functions of Bank",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "6",
+      "title": "Delegation of functions",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "7",
+      "title": "Appointment of Registrar and Deputy Registrar",
+      "body": "PART III\nLICENSING OF FINANCIAL SERVICE PROVIDERS",
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "8",
+      "title": "Power to determine licensing criteria for financial service",
+      "body": "provider",
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "9",
+      "title": "Types of licences",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "10",
+      "title": "Prohibition of conducting banking business or providing",
+      "body": "financial service without licence",
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "11",
+      "title": "Name clearance",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "12",
+      "title": "Application for licence to conduct banking business or",
+      "body": "provide financial service",
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "13",
+      "title": "Grant of application for licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "14",
+      "title": "Rejection of application for licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "15",
+      "title": "Validity of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "16",
+      "title": "Display of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "17",
+      "title": "Transfer, pledge, assignment or encumbrance of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "18",
+      "title": "Variation of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "19",
+      "title": "Amendment of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "20",
+      "title": "Surrender of licence",
+      "body": "Single Copies of this Act can be obtained from the Government Printer,\nP.O. Box 30136, 10101, Lusaka, Price K248.00 each\n294 No. 9 of 2026 Banking and Financial Services",
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "21",
+      "title": "Suspension or cancellation of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "22",
+      "title": "Duplicate licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "23",
+      "title": "Moratorium",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "24",
+      "title": "Prohibition for opening or closing of service centre, branch,",
+      "body": "subsidiary, etc.",
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "25",
+      "title": "Application to open or close service centre, branch,",
+      "body": "subsidiary, etc.",
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "26",
+      "title": "Representative office",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "27",
+      "title": "Register of financial service providers",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "28",
+      "title": "Publication of financial service providers",
+      "body": "PART IV\nOWNERSHIP AND CONTROL OF FINANCIAL SERVICE PROVIDERS",
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "29",
+      "title": "Prohibition of acquiring shares, beneficial interest, become",
+      "body": "beneficial owner, etc. without approval",
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "30",
+      "title": "Application for approval to acquire shares, beneficial",
+      "body": "interest, become beneficial owner, etc.",
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "31",
+      "title": "Ownership of shares in financial service provider by",
+      "body": "nominee shareholder",
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "32",
+      "title": "Notification of adverse information on shareholder or party",
+      "body": "with controlling interest",
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "33",
+      "title": "Charge, use of shares as collateral or encumbrance by",
+      "body": "beneficial owner",
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "34",
+      "title": "Limit on voting control",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "35",
+      "title": "Voting control limits for financial business",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "36",
+      "title": "Restriction on ownership of shares by trusts",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "37",
+      "title": "Prohibition of effecting corporate restructuring transaction",
+      "body": "without approval",
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "38",
+      "title": "Corporate restructuring transaction",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "39",
+      "title": "Application for approval to effect corporate restructuring",
+      "body": "transaction",
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "40",
+      "title": "Effect of corporate restructuring transaction",
+      "body": "PART V\nCORPORATE GOVERNANCE",
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "41",
+      "title": "Responsibilities of directors",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "42",
+      "title": "Board meetings initiated by Bank",
+      "body": "Banking and Financial Services [No. 9 of 2026 295",
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "43",
+      "title": "Qualifications for appointment as director or senior officer",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "44",
+      "title": "Independent non-executive directors to be in majority",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "45",
+      "title": "Composition of board of financial business",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "46",
+      "title": "Balance of skills, diversity and expertise of director",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "47",
+      "title": "Reporting obligations of board and directors",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "48",
+      "title": "Conduct of director or senior officer",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "49",
+      "title": "Disclosure of interest",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "50",
+      "title": "Suspension or dismissal of director or senior officer by",
+      "body": "Bank and removal of shareholders",
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "51",
+      "title": "Fit and proper requirements for shareholder, director or",
+      "body": "senior officer",
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "52",
+      "title": "Corporate governance standards and practices",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "53",
+      "title": "Environmental, social and governance practices",
+      "body": "PART VI\nBUSINESS OPERATIONS OF FINANCIAL SERVICE PROVIDERS",
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "54",
+      "title": "Principal administrative office",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "55",
+      "title": "Change of physical address of principal administrative office",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "56",
+      "title": "Use and alteration of name",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "57",
+      "title": "Business hours",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "58",
+      "title": "Bank holiday",
+      "body": "PART VII\nPRUDENTIAL REGULATION AND SUPERVISION",
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "59",
+      "title": "Minimum capital requirements",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "60",
+      "title": "Capital conservation buffer",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "61",
+      "title": "Counter-cyclical capital buffer",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "62",
+      "title": "Designation of bank or financial institution as systemically",
+      "body": "important",
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "63",
+      "title": "Systemically important capital buffer",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "64",
+      "title": "Prohibition of payment of dividend by bank or financial",
+      "body": "institution without approval",
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "65",
+      "title": "Application for approval to pay dividend by bank or financial",
+      "body": "institution\n296 No. 9 of 2026 Banking and Financial Services",
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "66",
+      "title": "Capital distribution constraints",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "67",
+      "title": "Leverage ratio",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "68",
+      "title": "Loan to deposit ratio",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "69",
+      "title": "Loan to value of assets ratio and loan to income ratio",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "70",
+      "title": "Revision of risk weights",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "71",
+      "title": "Liquidity coverage ratio and net stable funding ratio",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "72",
+      "title": "Maintenance of liquidity",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "73",
+      "title": "Additional liquidity",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "74",
+      "title": "Constraints on contracts with associated person, insider or",
+      "body": "related party",
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "75",
+      "title": "Submission of information and returns",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "76",
+      "title": "Consolidated supervision",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "77",
+      "title": "Affiliates and cross border supervision and resolution",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "78",
+      "title": "Unsafe and unsound practice",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "79",
+      "title": "Supervisory action",
+      "body": "PART VIII\nRESTRICTIONS ON TRANSACTIONS OF FINANCIAL SERVICE\nPROVIDERS",
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "80",
+      "title": "Secured borrowing",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "81",
+      "title": "Limitations on granting credit facilities",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "82",
+      "title": "Restriction on trade",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "83",
+      "title": "Restriction on equity investments",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "84",
+      "title": "Restriction on lease or other interest in real property",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "85",
+      "title": "Dealings with shell bank",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "86",
+      "title": "Limits and restrictions on financial business and financial",
+      "body": "service provider offering alternative financial services",
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "87",
+      "title": "Exemption of alternative financial services",
+      "body": "PART IX\nFINANCIAL STATEMENTS AND ACCOUNTABILITY",
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "88",
+      "title": "Annual financial statements",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "89",
+      "title": "Presentation of annual financial statement to shareholders",
+      "body": "Banking and Financial Services [No. 9 of 2026 297",
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "90",
+      "title": "Reserve for bad and doubtful debts",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "91",
+      "title": "Approval of annual financial statements",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "92",
+      "title": "Publication of financial statements",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "93",
+      "title": "Appointment of external auditor",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "94",
+      "title": "Disqualification for appointment as external auditor",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "95",
+      "title": "Responsibilities of external auditor",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "96",
+      "title": "Duties of external auditor",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "97",
+      "title": "Information by external auditor to Bank",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "98",
+      "title": "Access to information and auditor’s report",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "99",
+      "title": "Termination of appointment of external auditor",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "100",
+      "title": "Statement on resignation of external auditor",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "101",
+      "title": "Termination of appointment of external auditor by financial",
+      "body": "service provider\nPART X\nFINANCIAL CONSUMER PROTECTION AND MARKET CONDUCT",
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "102",
+      "title": "Regulation and supervision on financial consumer protection",
+      "body": "and market conduct",
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "103",
+      "title": "Anti-competitive practices",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "104",
+      "title": "Prohibition of anti-competitive practices",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "105",
+      "title": "Collateral contracts",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "106",
+      "title": "Coercive behavior",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "107",
+      "title": "Misconduct during debt collection",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "108",
+      "title": "Prohibition of barriers to switch",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "109",
+      "title": "Fair treatment of consumers and charter",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "110",
+      "title": "Disclosure of interest rates and charges",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "111",
+      "title": "Prohibition of introducing new charge or increasing existing",
+      "body": "charge for consumers",
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "112",
+      "title": "Application for introducing new charge or increasing existing",
+      "body": "charge for consumers",
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "113",
+      "title": "Publication of fees, rates, terms and conditions",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "114",
+      "title": "Responsible finance",
+      "body": "298 No. 9 of 2026 Banking and Financial Services",
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "115",
+      "title": "Right to rescind contract",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "116",
+      "title": "Unfair contract or unfair contract term",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "117",
+      "title": "Prepayment of credit transactions",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "118",
+      "title": "Prohibition against penal interest",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "119",
+      "title": "Recoverable amounts on non-performing loan",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "120",
+      "title": "Disclosure of information",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "121",
+      "title": "Control of advertisements",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "122",
+      "title": "Data protection and disclosure of information",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "123",
+      "title": "Open finance",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "124",
+      "title": "Complaints procedure for consumers",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "125",
+      "title": "Consumer protection and market conduct returns",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "126",
+      "title": "Monitoring of market",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "127",
+      "title": "Arrangement or assistance for vulnerable consumer",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "128",
+      "title": "Financial ombudsperson for financial service providers",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "129",
+      "title": "Actions by Bank on contravention of Part",
+      "body": "PART XI\nRESOLUTION",
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "130",
+      "title": "Bank as resolution authority",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "131",
+      "title": "Functions of Bank as resolution authority",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "132",
+      "title": "Placing bank or financial institution in resolution",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "133",
+      "title": "Power to take possession",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "134",
+      "title": "Notice of resolution",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "135",
+      "title": "Appointment of resolution manager",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "136",
+      "title": "Petition to Minister to constitute Tribunal",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "137",
+      "title": "Powers and duties of Bank on resolution",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "138",
+      "title": "Statement of affairs",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "139",
+      "title": "Resolution options",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "140",
+      "title": "Restructuring or reorganisation",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "141",
+      "title": "Establishment and winding-up of bridge institution",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "142",
+      "title": "Bail-in",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "143",
+      "title": "Back-stop funding for resolution",
+      "body": "Banking and Financial Services [No. 9 of 2026 299",
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "144",
+      "title": "Creditor safeguards",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "145",
+      "title": "Impediments in orderly resolution of bank or financial",
+      "body": "institution",
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "146",
+      "title": "Effects of resolution",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "147",
+      "title": "Restriction on execution of judgment against assets of bank",
+      "body": "or financial institution in resolution",
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "148",
+      "title": "Recovery of expenses",
+      "body": "PART XII\nINSOLVENCY, DISSOLUTION AND LIQUIDATION OF FINANCIAL\nSERVICE PROVIDERS",
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "149",
+      "title": "Grounds for liquidation",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "150",
+      "title": "Restrictions of bank or financial institution",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "151",
+      "title": "Restriction of action by third parties",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "152",
+      "title": "Resolution to voluntarily wind-up financial service provider",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "153",
+      "title": "Duties of financial service provider on voluntary winding-up",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "154",
+      "title": "Notice of voluntary winding-up",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "155",
+      "title": "Rights of depositors or creditors to payments, funds and other",
+      "body": "property",
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "156",
+      "title": "Distribution of assets on voluntary winding-up",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "157",
+      "title": "Powers of Bank where assets are insufficient, or completion",
+      "body": "unduly delayed",
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "158",
+      "title": "Powers of Bank in compulsory winding-up",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "159",
+      "title": "Powers of Bank as liquidator",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "160",
+      "title": "Immunity of Bank against depositor, creditor or bailor claims",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "161",
+      "title": "Limitation on filing of claims",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "162",
+      "title": "Objection to liquidation schedule",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "163",
+      "title": "Priority of creditors",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "164",
+      "title": "Reserve account for wound-up financial service provider",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "165",
+      "title": "Debt restructuring or write-off for wound-up financial service",
+      "body": "provider",
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "166",
+      "title": "Final distribution in compulsory winding-up",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "167",
+      "title": "Undistributed funds",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "168",
+      "title": "Power of Bank in relation to insolvent financial business",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "169",
+      "title": "Termination of liquidation process",
+      "body": "300 No. 9 of 2026 Banking and Financial Services\nPART XIII\nANTI-MONEY LAUNDERING AND COUNTERING TERRORISM FINANCING\nAND PROLIFERATION FINANCING",
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "170",
+      "title": "Anti-money laundering and countering terrorism financing",
+      "body": "and proliferation financing supervision",
+      "page_start": 1,
+      "part": "PART XIII"
+    },
+    {
+      "number": "171",
+      "title": "Anti-money laundering and countering financing of",
+      "body": "terrorism supervision sanctions\nPART XIV\nREPORTING OBLIGATIONS",
+      "page_start": 1,
+      "part": "PART XIII"
+    },
+    {
+      "number": "172",
+      "title": "Records to be kept and maintained",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIV"
+    },
+    {
+      "number": "173",
+      "title": "Credit documentation",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIV"
+    },
+    {
+      "number": "174",
+      "title": "Manner of keeping records",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIV"
+    },
+    {
+      "number": "175",
+      "title": "Retention of records",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIV"
+    },
+    {
+      "number": "176",
+      "title": "Maintenance of records",
+      "body": "PART XV\nAPPEALS",
+      "page_start": 1,
+      "part": "PART XIV"
+    },
+    {
+      "number": "177",
+      "title": "Reasons for decisions and rights to be heard",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XV"
+    },
+    {
+      "number": "178",
+      "title": "Right of appeal",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XV"
+    },
+    {
+      "number": "179",
+      "title": "Constitution of tribunal",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XV"
+    },
+    {
+      "number": "180",
+      "title": "Decisions of tribunal",
+      "body": "PART XVI\nEXAMINATIONS AND INVESTIGATIONS",
+      "page_start": 1,
+      "part": "PART XV"
+    },
+    {
+      "number": "181",
+      "title": "Examination of financial service providers",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVI"
+    },
+    {
+      "number": "182",
+      "title": "Obstruction of examination",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVI"
+    },
+    {
+      "number": "183",
+      "title": "Investigations",
+      "body": "PART XVII\nGENERAL PROVISIONS",
+      "page_start": 1,
+      "part": "PART XVI"
+    },
+    {
+      "number": "184",
+      "title": "Regulation of lending interest rates",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "185",
+      "title": "Netting of claims",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "186",
+      "title": "Enforceability of close-out netting agreements",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "187",
+      "title": "Financial inclusion",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "188",
+      "title": "Authorised activities of banks",
+      "body": "Banking and Financial Services [No. 9 of 2026 301",
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "189",
+      "title": "Access to documents",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "190",
+      "title": "Offences committed partly in and partly out of Republic",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "191",
+      "title": "Use of word “bank”",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "192",
+      "title": "Restriction on use of name of financial service provider",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "193",
+      "title": "Validity of certain acts by financial service provider",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "194",
+      "title": "Power to summon officer, director or shareholder",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "195",
+      "title": "Submission of information and documents to Bank",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "196",
+      "title": "Protection of persons providing information under Act",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "197",
+      "title": "Authorisation to provide alternative financial service",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "198",
+      "title": "Publication of information",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "199",
+      "title": "Extension of period to furnish document or information",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "200",
+      "title": "False document",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "201",
+      "title": "Money circulation schemes",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "202",
+      "title": "Utilisation of collateral for settlement of certain obligations",
+      "body": "of financial service provider",
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "203",
+      "title": "Special reserve account, insurance and commitment",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "204",
+      "title": "Unclaimed funds and personal property",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "205",
+      "title": "Industry reports",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "206",
+      "title": "Continuing acts or offences",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "207",
+      "title": "Offences by principal officers of body corporate or",
+      "body": "unincorporated body",
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "208",
+      "title": "General penalty",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "209",
+      "title": "Administrative penalty",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "210",
+      "title": "Immunity",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "211",
+      "title": "Exemption",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "212",
+      "title": "Regulatory statements",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "213",
+      "title": "Regulations",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "214",
+      "title": "Repeal of Cap. 387 and Cap. 398 and savings and",
+      "body": "transitional provisions\nBanking and Financial Services [No. 9 of 2026 303\nGOVERNMENT OF ZAMBIA\nACT\nNo. 9 of 2026\nDate of Assent: 31st March, 2026\nAn Act to provide for the regulation and supervision of\nfinancial service providers; provide for ownership and\ncontrol of financial service providers; provide for the\nincorporation of standards, principles and concepts of\nenvironmental, social and corporate governance in\nsystems and structures of financial service providers;\nprovide for the resolution powers of the Bank in relation\nto a failed bank or financial institution; provide for\ninnovative and inclusive financial services; provide for\nfinancial reporting and accountability of financial service\nproviders; provide for market conduct and financial\nconsumer protection mechanisms; provide for the winding-\nup process for financial service providers; provide for\nmonitoring compliance with anti-money laundering and\ncountering of terrorism financing and proliferation\nfinancing among financial service providers; provide for\nthe enforceability of close-out netting of transactions;\nrepeal and replace the Banking and Financial Services\nAct, Cap. 387; repeal the Money-lenders Act, Cap. 398;\nand to provide for matters connected with, or incidental\nto, the foregoing.\n[8th April, 2026\nENACTED by the Parliament of Zambia. Enactment\nPART I\nPRELIMINARY PROVISIONS",
+      "page_start": 1,
+      "part": "PART XVII"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Banking%20and%20Finance%20Act%2C%202026.pdf",
+  "source_hash": "sha256:9b9baf44e4ecd683e536bca9877874f0c65d435e60716b317bd8a92c902eee56",
+  "fetched_at": "2026-04-10T22:42:33Z",
+  "parser_version": "0.3.0",
+  "notes": "Fetched from parliament.gov.zm node/13012. Phase 4 batch 0018."
+}

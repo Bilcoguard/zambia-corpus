@@ -1,0 +1,1091 @@
+{
+  "id": "act-zm-2026-005-national-payment-system-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The National Payment System Act, 2026",
+  "citation": "Act No. 5 of 2026",
+  "version_type": "as_enacted",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "Short title and commencement",
+      "body": null,
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "2",
+      "title": "Interpretation",
+      "body": null,
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "3",
+      "title": "Application",
+      "body": "PART II\nADMINISTRATION",
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "4",
+      "title": "Administration of Act",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "5",
+      "title": "Functions of Bank",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "6",
+      "title": "Delegation to agent",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "7",
+      "title": "Appointment of Registrar and Deputy Registrar",
+      "body": "PART III\nTHE NATIONAL PAYMENT SYSTEM",
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "8",
+      "title": "National Payment System",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "9",
+      "title": "Participation of Bank in National Payment System",
+      "body": "PART IV\nLICENSING AND AUTHORISATION OF PAYMENT SERVICE PROVIDERS",
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "10",
+      "title": "Payment services",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "11",
+      "title": "Prohibition of providing payment service without licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "12",
+      "title": "Name clearance",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "13",
+      "title": "Application for licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "14",
+      "title": "Grant of application for licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "15",
+      "title": "Rejection of application for licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "16",
+      "title": "Withdrawal of application for licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "17",
+      "title": "Validity of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "18",
+      "title": "Display of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "19",
+      "title": "Variation of terms and conditions of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "20",
+      "title": "Amendment of licence on change of name of licensee",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "21",
+      "title": "Surrender of licence",
+      "body": "Single Copies of this Act can be obtained from the Government Printer,\nP.O. Box 30136, 10101, Lusaka, Price K160.00 each\n108 No. 5 of 2026 National Payment System",
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "22",
+      "title": "Transfer or assignment of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "23",
+      "title": "Suspension or cancellation of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "24",
+      "title": "Duplicate licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "25",
+      "title": "Commencement of business to provide payment service",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "26",
+      "title": "Authorisation to provide payment service by Bank",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "27",
+      "title": "Opening or closing of branch or subsidiary",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "28",
+      "title": "Representative office",
+      "body": "PART V\nDESIGNATION OF PAYMENT SERVICE PROVIDERS",
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "29",
+      "title": "Designation of payment service providers",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "30",
+      "title": "Notice of designation",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "31",
+      "title": "Variation or withdrawal of designation",
+      "body": "PART VI\nCHANGES TO PAYMENT SERVICES, GOVERNANCE STRUCTURES,\nOPERATIONS AND SERVICE CHARGES",
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "32",
+      "title": "Prohibition of introducing or making changes to payment",
+      "body": "services, governance structures or operations without\nauthorisation",
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "33",
+      "title": "Application for authorisation to introduce or make changes",
+      "body": "to payment services, governance structures or operations",
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "34",
+      "title": "Approval of service charges",
+      "body": "PART VII\nCORPORATE GOVERNANCE",
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "35",
+      "title": "Functions of board",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "36",
+      "title": "Meetings of board initiated by Bank",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "37",
+      "title": "Appointment of director or senior officer",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "38",
+      "title": "Reporting obligations of board or director",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "39",
+      "title": "Annual declaration of material interests and material",
+      "body": "relationships",
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "40",
+      "title": "Disclosure of interest or relationship by director or senior",
+      "body": "officer in contract",
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "41",
+      "title": "Suspension or dismissal of director or senior officer by",
+      "body": "Bank",
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "42",
+      "title": "False or misleading statement or obstruction",
+      "body": "National Payment System [No. 5 of 2026 109",
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "43",
+      "title": "Fit and proper test requirements for shareholder, director",
+      "body": "or senior officer",
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "44",
+      "title": "Removal of shareholder",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "45",
+      "title": "Corporate governance charter",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "46",
+      "title": "Ownership of shares by trusts",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "47",
+      "title": "Ownership and voting control limits",
+      "body": "PART VIII\nFINANCIAL CONSUMER PROTECTION AND MARKET CONDUCT",
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "48",
+      "title": "Anti-competitive practices",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "49",
+      "title": "Prohibition of anti-competitive practices",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "50",
+      "title": "Anti-competitive agreement or arrangement",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "51",
+      "title": "Collateral contracts",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "52",
+      "title": "Coercive behaviour",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "53",
+      "title": "Prohibition of imposing barriers to switch",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "54",
+      "title": "Fair treatment of consumers and charter",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "55",
+      "title": "Disclosure of charges and other information",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "56",
+      "title": "Regulation of charges or fees",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "57",
+      "title": "Data protection and disclosure of information",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "58",
+      "title": "Sharing of customer data",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "59",
+      "title": "Complaints procedure for consumers",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "60",
+      "title": "Ombudsperson for consumer protection",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "61",
+      "title": "Control of advertisements",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "62",
+      "title": "Prohibition of unfair business practices",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "63",
+      "title": "Unfair contract or unfair contractual term",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "64",
+      "title": "Consumer protection and market conduct returns",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "65",
+      "title": "Monitoring of market conduct",
+      "body": "PART IX\nPRESENTMENT AND ELECTRONIC TRANSMISSION OF CHEQUES IN THE\nPROVISION OF PAYMENT SERVICES",
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "66",
+      "title": "Presentment of cheque for payment",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "67",
+      "title": "Alternative methods of presentment of cheque for payment",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "68",
+      "title": "Admissibility of cheque",
+      "body": "110 No. 5 of 2026 National Payment System\nPART X\nPAYMENT, CLEARING, NETTING AND SETTLEMENT",
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "69",
+      "title": "Payment system rules",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "70",
+      "title": "Settlement arrangement",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "71",
+      "title": "Payment instruction or settlement instruction finality or",
+      "body": "correction",
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "72",
+      "title": "Failure to settle arrangement",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "73",
+      "title": "Collateral",
+      "body": null,
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "74",
+      "title": "Manner and form of participation in payment system with",
+      "body": "adequate assets as collateral\nPART XI\nELECTRONIC MONEY",
+      "page_start": 1,
+      "part": "PART X"
+    },
+    {
+      "number": "75",
+      "title": "Electronic money issuance and circulation",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "76",
+      "title": "Purchase or redemption of electronic money by agent",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "77",
+      "title": "Offence under Part",
+      "body": "PART XII\nPAYMENT AGGREGATION",
+      "page_start": 1,
+      "part": "PART XI"
+    },
+    {
+      "number": "78",
+      "title": "Provision of payment aggregation service",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "79",
+      "title": "Offence under Part",
+      "body": "PART XIII\nMONEY TRANSFER",
+      "page_start": 1,
+      "part": "PART XII"
+    },
+    {
+      "number": "80",
+      "title": "Provision of money transfer service",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIII"
+    },
+    {
+      "number": "81",
+      "title": "Sending or withdrawal of money by agent",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIII"
+    },
+    {
+      "number": "82",
+      "title": "Offence under Part",
+      "body": "PART XIV\nCORPORATE RESTRUCTURING TRANSACTION INVOLVING A PAYMENT\nSERVICE PROVIDER",
+      "page_start": 1,
+      "part": "PART XIII"
+    },
+    {
+      "number": "83",
+      "title": "Prohibition of effecting corporate restructuring transaction",
+      "body": "without approval",
+      "page_start": 1,
+      "part": "PART XIV"
+    },
+    {
+      "number": "84",
+      "title": "Corporate restructuring transaction",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIV"
+    },
+    {
+      "number": "85",
+      "title": "Application for approval to effect corporate restructuring",
+      "body": "transaction",
+      "page_start": 1,
+      "part": "PART XIV"
+    },
+    {
+      "number": "86",
+      "title": "Effect of corporate restructuring transaction",
+      "body": "National Payment System [No. 5 of 2026 111\nPART XV\nCAPITAL REQUIREMENTS AND SUPERVISORY ACTION",
+      "page_start": 1,
+      "part": "PART XIV"
+    },
+    {
+      "number": "87",
+      "title": "Minimum capital requirements",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XV"
+    },
+    {
+      "number": "88",
+      "title": "Undercapitalised payment service provider",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XV"
+    },
+    {
+      "number": "89",
+      "title": "Payment service provider incurring large losses",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XV"
+    },
+    {
+      "number": "90",
+      "title": "Payment of dividend by undercaptialised payment service",
+      "body": "provider or payment service provider incurring large losses",
+      "page_start": 1,
+      "part": "PART XV"
+    },
+    {
+      "number": "91",
+      "title": "Supervisory action by Bank",
+      "body": "PART XVI\nPOSSESSION OF PAYMENT SERVICE PROVIDER BY THE BANK",
+      "page_start": 1,
+      "part": "PART XV"
+    },
+    {
+      "number": "92",
+      "title": "Grounds for possession of payment service provider by",
+      "body": "Bank",
+      "page_start": 1,
+      "part": "PART XVI"
+    },
+    {
+      "number": "93",
+      "title": "Notice of taking possession",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVI"
+    },
+    {
+      "number": "94",
+      "title": "Appointment of possession manager",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVI"
+    },
+    {
+      "number": "95",
+      "title": "Petition to Minister to constitute tribunal",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVI"
+    },
+    {
+      "number": "96",
+      "title": "Powers and duties of Bank on taking possession",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVI"
+    },
+    {
+      "number": "97",
+      "title": "Statement of affairs",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVI"
+    },
+    {
+      "number": "98",
+      "title": "Resolution options",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVI"
+    },
+    {
+      "number": "99",
+      "title": "Establishment of Resolution Fund",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVI"
+    },
+    {
+      "number": "100",
+      "title": "Effects of possession",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVI"
+    },
+    {
+      "number": "101",
+      "title": "Restructuring or reorganisation as resolution option",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVI"
+    },
+    {
+      "number": "102",
+      "title": "Restriction on execution of judgment on payment service",
+      "body": "provider\nPART XVII\nWINDING-UP, INSOLVENCY OR RECEIVERSHIP OF PAYMENT SERVICE\nPROVIDERS",
+      "page_start": 1,
+      "part": "PART XVI"
+    },
+    {
+      "number": "103",
+      "title": "Voluntary winding-up",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "104",
+      "title": "Surrender of licence, notification and repayment after",
+      "body": "approval of voluntary winding-up",
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "105",
+      "title": "Notification of insolvency proceedings, receivership or",
+      "body": "business rescue proceedings",
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "106",
+      "title": "Insolvency, winding-up or receivership of payment service",
+      "body": "provider\n112 No. 5 of 2026 National Payment System",
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "107",
+      "title": "Insolvency, winding-up or receivership of electronic money",
+      "body": "institution",
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "108",
+      "title": "Payment instruction, netting or settlement on insolvency,",
+      "body": "winding-up or receivership of payment service provider",
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "109",
+      "title": "Lodgment of declaration of insolvency, winding-up order",
+      "body": "or order of receivership with Bank",
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "110",
+      "title": "Winding-up of payment service provider by Bank",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "111",
+      "title": "Bank as liquidator",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "112",
+      "title": "Customer’s statement and filing of claims",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "113",
+      "title": "Objection to liquidation schedule",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "114",
+      "title": "Payment of claims",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "115",
+      "title": "Priority ranking of claims",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "116",
+      "title": "Insufficient funds for payment of claims",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "117",
+      "title": "Reserve account for wound-up payment service provider",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "118",
+      "title": "Final distribution in winding-up",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "119",
+      "title": "Undistributed funds",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "120",
+      "title": "Immunity of Bank against customer or creditor claims",
+      "body": "PART XVIII\nINVESTIGATIONS AND INSPECTIONS",
+      "page_start": 1,
+      "part": "PART XVII"
+    },
+    {
+      "number": "121",
+      "title": "Investigations",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVIII"
+    },
+    {
+      "number": "122",
+      "title": "Inspection of payment service providers",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XVIII"
+    },
+    {
+      "number": "123",
+      "title": "Obstruction of investigation or inspection",
+      "body": "PART XIX\nGENERAL PROVISIONS",
+      "page_start": 1,
+      "part": "PART XVIII"
+    },
+    {
+      "number": "124",
+      "title": "Protection of customer funds",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "125",
+      "title": "Safeguarding unclaimed customer funds or dormant",
+      "body": "customer funds",
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "126",
+      "title": "Unsafe or unsound practices",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "127",
+      "title": "Identification documentation for customer due diligence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "128",
+      "title": "Duty to notify",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "129",
+      "title": "Duty to report cyber security incidents",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "130",
+      "title": "Restriction on use of name or symbol or false representation",
+      "body": "National Payment System [No. 5 of 2026 113",
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "131",
+      "title": "Dishonoured cheque or direct debit instruction",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "132",
+      "title": "Validity of transactions by payment service provider",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "133",
+      "title": "Retention of records",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "134",
+      "title": "Documents",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "135",
+      "title": "Guidelines for financial innovation",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "136",
+      "title": "Guidelines for regulation, supervision and oversight of",
+      "body": "financial market infrastructure",
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "137",
+      "title": "Returns",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "138",
+      "title": "Continuing acts or offences",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "139",
+      "title": "Offences by principal officers of body corporate or",
+      "body": "unincorporate body",
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "140",
+      "title": "General penalty",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "141",
+      "title": "Administrative penalty",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "142",
+      "title": "Immunity",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "143",
+      "title": "Moratorium",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "144",
+      "title": "Exemption",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "145",
+      "title": "Disputes between payment service providers",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "146",
+      "title": "Decision of Bank and right to be heard",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "147",
+      "title": "Right of appeal",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "148",
+      "title": "Constitution of tribunal",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "149",
+      "title": "Decision of tribunal",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "150",
+      "title": "Register of payment service providers",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "151",
+      "title": "Regulatory statements",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "152",
+      "title": "Regulations",
+      "body": null,
+      "page_start": 1,
+      "part": "PART XIX"
+    },
+    {
+      "number": "153",
+      "title": "Repeal of Cap. 359 and savings and transitional provisions",
+      "body": "National Payment System [No. 5 of 2026 115\nGOVERNMENT OF ZAMBIA\nACT\nNo. 5 of 2026\nDate of Assent: 31st March, 2026\nAn Act to provide for licensing, designation and authorisation\nof payment service providers; provide for the\nincorporation of standards, principles and concepts of\ncorporate governance in institutional systems and\nstructures of payment service providers; provide for\nsound business practices, consumer protection\nmechanisms and market conduct in the provision of\npayment services; provide for the regulation and operation\nof the payment system, clearing systems and settlement\nsystems for purposes of promoting efficiency, stability and\nsafety of the National Payment System; provide for\ncorporate restructuring transactions involving payment\nservice providers for purposes of ensuring the operational\ncontinuity of the payment system; provide for rules,\nprocedures and supervisory action for payment service\nproviders on winding-up, insolvency or receivership;\nrepeal and replace the National Payment Systems Act,\nCap. 359; and provide for matters connected with, or\nincidental to, the foregoing.\n[8th April, 2026\nENACTED by the Parliament of Zambia. Enactment\nPART I\nPRELIMINARY PROVISIONS",
+      "page_start": 1,
+      "part": "PART XIX"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/National%20Payment%20System%20Act%20No.%205%20of%202026.pdf",
+  "source_hash": "sha256:dac92c5d4b57373480020a4a6c6b93a8485ca4bee0262db90f8dac2e1b407b7c",
+  "fetched_at": "2026-04-10T22:40:53Z",
+  "parser_version": "0.3.0",
+  "notes": "Fetched from parliament.gov.zm node/13015. Phase 4 batch 0018."
+}

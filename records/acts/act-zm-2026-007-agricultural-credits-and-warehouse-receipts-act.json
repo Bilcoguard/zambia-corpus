@@ -1,0 +1,615 @@
+{
+  "id": "act-zm-2026-007-agricultural-credits-and-warehouse-receipts-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Agricultural Credits and Warehouse Receipts Act, 2026",
+  "citation": "Act No. 7 of 2026",
+  "version_type": "as_enacted",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "Short title and commencement",
+      "body": null,
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "2",
+      "title": "Interpretation",
+      "body": "PART II\nTHE WAREHOUSE LICENSING AUTHORITY",
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "3",
+      "title": "Continuation of Warehouse Licensing Authority",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "4",
+      "title": "Functions of Authority",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "5",
+      "title": "Board of Authority",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "6",
+      "title": "Functions of Board",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "7",
+      "title": "Director, Registrar, Secretary and other staff",
+      "body": "PART III\nLICENSING OF WAREHOUSES",
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "8",
+      "title": "Prohibition of operating warehouse that issues warehouse",
+      "body": "receipts without licence",
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "9",
+      "title": "Application for licence to operate warehouse",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "10",
+      "title": "Financial security for licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "11",
+      "title": "Insurance relating to warehouse licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "12",
+      "title": "Validity of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "13",
+      "title": "Display of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "14",
+      "title": "Variation of terms and conditions of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "15",
+      "title": "Renewal of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "16",
+      "title": "Transfer of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "17",
+      "title": "Surrender of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "18",
+      "title": "Suspension or cancellation of licence",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "19",
+      "title": "Re-registration",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "20",
+      "title": "Duplicate licence",
+      "body": "Single copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K112.00 each.\n212 No. 7 of 2026] Agricultural Credits and Warehouse\nReceipts\nPART IV\nELECTRONIC WAREHOUSE RECEIPT SYSTEM AND WAREHOUSE RECEIPTS",
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "21",
+      "title": "Electronic Warehouse Receipt System",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "22",
+      "title": "Deposit of agricultural commodities for storage",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "23",
+      "title": "Deposit of agricultural commodities for purposes other than storage",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "24",
+      "title": "Issuance and lodgement of warehouse receipts",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "25",
+      "title": "Negotiable and non-negotiable warehouse receipts",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "26",
+      "title": "Negotiating negotiable warehouse receipt",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "27",
+      "title": "Rights acquired after negotiation of negotiable warehouse receipt",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "28",
+      "title": "Transfer of negotiable warehouse receipt without negotiation",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "29",
+      "title": "Rights of transferee of negotiable warehouse receipt",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "30",
+      "title": "Alteration of warehouse receipt",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "31",
+      "title": "Rights of purchaser of altered warehouse receipt against warehouse",
+      "body": "operator",
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "32",
+      "title": "Lost, stolen or destroyed warehouse receipt",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "33",
+      "title": "Duplicate warehouse receipt",
+      "body": "PART V\nRIGHTS AND OBLIGATIONS OF WAREHOUSE OPERATORS",
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "34",
+      "title": "Right of warehouse operator to sell or pledge warehouse receipt",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "35",
+      "title": "Warehouse operator’s right to lien",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "36",
+      "title": "Enforcement of lien",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "37",
+      "title": "Lien on perishable and hazardous agricultural commodities",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "38",
+      "title": "Warehouse operator’s lien not to preclude other remedies",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "39",
+      "title": "Loss of lien",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "40",
+      "title": "Obligation of warehouse operator to deliver agricultural commodities",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "41",
+      "title": "Liability for damages caused by warehouse operator’s failure to deliver",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "42",
+      "title": "Liability for delivery to person not entitled to delivery",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "43",
+      "title": "Ascertaining valid titles to agricultural commodities",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "44",
+      "title": "Liability for failure to cancel or mark warehouse receipt after delivery",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "45",
+      "title": "Warehouse operator’s duty of care",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "46",
+      "title": "Duty to keep agricultural commodities separately",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "47",
+      "title": "Commingling of fungible agricultural commodities",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "48",
+      "title": "Termination of storage at warehouse operator’s option",
+      "body": "Agricultural Credits and Warehouse [No. 7 of 2026 213\nReceipts\nPART VI\nCONTRACTS FOR ADVANCE",
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "49",
+      "title": "Entry into contract for advance",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "50",
+      "title": "Lodgement of contract for advance",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "51",
+      "title": "Effects of contract of advance",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "52",
+      "title": "Rights and obligations of lender",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "53",
+      "title": "Duties of warehouse operator in relation to contract of advance",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "54",
+      "title": "Discharge of security",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "55",
+      "title": "Lodgement of disclosure schedule",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "56",
+      "title": "Application to correct material error in disclosure schedule",
+      "body": "PART VII\nAGRICULTURAL CHARGES",
+      "page_start": 1,
+      "part": "PART VI"
+    },
+    {
+      "number": "57",
+      "title": "Types of agricultural charges",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "58",
+      "title": "Agricultural charges on farming stock and assets",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "59",
+      "title": "Registration of agricultural charge",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "60",
+      "title": "Effect of fixed agricultural charge",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "61",
+      "title": "Sale of property subject to agricultural charge",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "62",
+      "title": "Effect of floating agricultural charge",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "63",
+      "title": "Notice of agricultural charge",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "64",
+      "title": "Restriction on publication of agricultural charges",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "65",
+      "title": "Fraud",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "66",
+      "title": "Supplementary provisions in respect of agricultural charges",
+      "body": "PART VIII\nENFORCEMENT",
+      "page_start": 1,
+      "part": "PART VII"
+    },
+    {
+      "number": "67",
+      "title": "Inspectors",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "68",
+      "title": "Honorary inspector",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "69",
+      "title": "Powers of inspector",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "70",
+      "title": "Compliance order",
+      "body": null,
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "71",
+      "title": "Closure of warehouse",
+      "body": "PART IX\nGENERAL PROVISIONS",
+      "page_start": 1,
+      "part": "PART VIII"
+    },
+    {
+      "number": "72",
+      "title": "Dispute resolution",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "73",
+      "title": "Registers",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "74",
+      "title": "Publication of copies of register",
+      "body": "214 No. 7 of 2026] Agricultural Credits and Warehouse\nReceipts",
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "75",
+      "title": "Disclosure protection",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "76",
+      "title": "Appeals",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "77",
+      "title": "Immunity from execution of judgment against Authority’s assets",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "78",
+      "title": "General offences",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "79",
+      "title": "General penalty",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "80",
+      "title": "Administrative penalty",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "81",
+      "title": "Offence by principal officers of body corporate or unincorporated body",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "82",
+      "title": "Prohibition of publication or disclosure of information to unauthorised person",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "83",
+      "title": "Guidelines",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "84",
+      "title": "Regulations",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IX"
+    },
+    {
+      "number": "85",
+      "title": "Repeal of Cap.224, and savings and transitional provisions",
+      "body": "SCHEDULES\nAgricultural Credits and Warehouse [No. 7 of 2026 215\nReceipts\nGOVERNMENT OF ZAMBIA\nACT\nNo. 7 of 2026\nDate of Assent: 31st March, 2026\nAn act to continue the existence of the Warehouse\nLicensing Authority and re-define its functions;\nreconstitute the Board of the Warehouse Licensing\nAuthority and re-define its functions; establish the\nElectronic Warehouse Receipt System and provide for\nits management; regulate warehouses that issue\nwarehouse receipts in the Republic; provide for the rights\nand obligations of warehouse operators, depositors of\nagricultural commodities, holders of warehouse receipts,\nholders of agricultural charges and lenders under\ncontracts of advance; regulate contracts of advance and\nagricultural charges as security for agricultural\ncommodities; repeal and replace the Agricultural Credits\nAct, Cap. 224; and provide for matters connected with,\nor incidental, to the foregoing.\n[8th April, 2026\nENACTED by the Parliament of Zambia. Enactment\nPART I\nPRELIMINARY PROVISIONS",
+      "page_start": 1,
+      "part": "PART IX"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/THE%20AGRICULTURAL%20CREDITS%20AND%20WAREHOUSE%20RECEIPTSACT%20No.%207%20OF%202026%2C.pdf",
+  "source_hash": "sha256:f0f5932c1b5cf2cfc9c4195077711458f4e08eabdf78027dec3a5fc029297dc9",
+  "fetched_at": "2026-04-10T22:41:40Z",
+  "parser_version": "0.3.0",
+  "notes": "Fetched from parliament.gov.zm node/13014. Phase 4 batch 0018."
+}

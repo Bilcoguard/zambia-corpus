@@ -147,3 +147,7 @@ inventory.
 - **act-zm-2022-029-the-mines-and-minerals-development-amendment-act-2022** (2 sections): Brief act; verify completeness.
 - **act-zm-2022-030-the-appropriation-act-2022** (2 sections): Brief act; verify completeness.
 - 2022 Acts No. 1-22 still to ingest in future batches.
+
+## Batch 0018 — 2026-04-10T22:43:52Z — Parse quality flags (≤ 5 sections)
+
+- **act-zm-2026-004-criminal-procedure-code-amendment-act** (4 sections): Criminal Procedure Code (Amendment) Act 2026 — low section count; brief amendment act. Verify all amendment clauses captured.
