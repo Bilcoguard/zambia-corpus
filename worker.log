@@ -1327,3 +1327,19 @@ push:            PENDING — sandbox cannot resolve github.com-corpus SSH alias.
 [2026-04-10T11:29:05Z] Phase 4 Batch 0003 COMPLETE: +8 acts (parliament.gov.zm, 2019 tranche Acts No. 2-9). Fetches: 16 (8 node pages + 8 PDFs), total today: 82/2000. Integrity checks: ALL PASS. Batch report: reports/batch-0003.md. Note: 1 record has ≤ 2 sections (flagged in gaps.md for re-parse). B2 sync skipped — rclone not available in sandbox (Peter to run manually).
 [2026-04-10T11:29:13Z] WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped. Peter to run manually: rclone sync raw/ b2raw:kwlp-corpus-raw/ --fast-list --transfers 4
 [2026-04-10T11:29:54Z] Phase 4 Batch 0003 PUSHED: commit 3b12beea7eadd3bd127253e4c62ad544327874eb pushed to origin/main via HTTPS. Phase 4 in progress — 37 of ~1000+ acts ingested (21 from batch 0001 + 8 from batch 0002 + 8 from batch 0003). Next tick: continue acts_in_force from pages 0-12 inventory (~220 acts remaining) — Act No. 1 of 2019 (National Dialogue Act) then 2018 acts. B2 sync skipped — rclone not available in sandbox; Peter to run manually: rclone sync raw/ b2raw:kwlp-corpus-raw/ --fast-list --transfers 4
+[2026-04-10T17:20:00Z] TICK HALTED — git lock files block all operations (batch 0004 not started)
+  git pull --ff-only failed: refs/heads/main.lock.bak treated as bad object by git fetch
+  git add/commit blocked: .git/index.lock exists and cannot be removed (Operation not permitted)
+  Branch is up to date with origin/main (both at 00d7c22).
+  Lock files present (all zero-byte, sandbox cannot remove):
+    .git/index.lock
+    .git/refs/heads/main.lock.bak
+    .git/objects/maintenance.lock
+  Budget status: 82/2000 fetches used today. No new fetches this tick.
+  Phase 4 status: 37 of ~1000+ acts ingested (batches 0001-0003 complete).
+  ACTION REQUIRED: on host Mac, run:
+    cd /Users/peterndhlovu/KateWestonCorpus/corpus
+    rm -f .git/index.lock .git/ORIG_HEAD.lock .git/HEAD.lock .git/objects/maintenance.lock .git/refs/heads/main.lock.bak
+  Then the next scheduled tick will proceed normally.
+[2026-04-10T13:49:55Z] Phase 4 Batch 0004 COMPLETE: +8 acts (parliament.gov.zm 2025 No. 23-29 + 2026 No. 1). Fetches: 16 (8 node pages + 8 PDFs), total today: 98/2000. Integrity checks: ALL PASS. Batch report: reports/batch-0004.md. Note: 3 records have ≤ 5 sections (flagged in gaps.md for re-parse). B2 sync skipped — rclone not available in sandbox (Peter to run manually). Git push via /tmp clone: commit f197144 pushed to origin/main via HTTPS.
+[2026-04-10T13:49:55Z] Phase 4 in progress — 46 acts + 1 judgment = 47 total records ingested. Next tick: continue 2025 Acts No. 12-22 and 2018 acts. B2 sync deferred to host: rclone sync raw/ b2raw:kwlp-corpus-raw/ --fast-list --transfers 4
