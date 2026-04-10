@@ -92,3 +92,12 @@ inventory.
 - `act-zm-2017-008-supplementary-appropriation-2017`: 1 section only (schedule-heavy Appropriation Act). Re-parse with table extraction may improve coverage.
 - `act-zm-2017-011-property-transfer-tax-amendment`: 3 sections (brief amendment). Verify completeness.
 - SSL: parliament.gov.zm certificate verification failed in sandbox. Fetched with verify=False; content integrity verified via sha256 hashes.
+
+## Batch 0009 — Parse quality flags (2026-04-10)
+
+- **act-zm-2017-012-value-added-tax-amendment** (2 sections): Brief VAT amendment act; verify all amendment clauses captured.
+- **act-zm-2017-013-skills-development-levy-amendment** (1 section): Very brief levy amendment (8 KB PDF); stored as single section. Verify completeness.
+- **act-zm-2017-015-insurance-premium-levy-amendment** (1 section): Very brief levy amendment (8 KB PDF); stored as single section. Verify completeness.
+- **act-zm-2017-017-zambia-national-broadcasting-corporation-amendment** (2 sections): Brief broadcasting amendment. Verify completeness.
+- **act-zm-2017-018-independent-broadcasting-authority-amendment** (1 section): Brief IBA amendment (13 KB PDF); stored as single section. Verify completeness.
+- SSL: parliament.gov.zm certificate verification handled via requests library with verify=False; content integrity verified via sha256 hashes.
