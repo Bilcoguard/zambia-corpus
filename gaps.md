@@ -68,3 +68,8 @@ inventory.
 - **act-zm-2025-028-appropriation-act** (2 sections): Appropriation Act is schedule-heavy; bulk of content is in schedules not captured by section parser. Needs schedule-aware re-parse.
 - **act-zm-2025-027-betting-act** (5 sections): May have schedules or subsidiary definitions not captured. Verify completeness.
 - **act-zm-2025-024-registration-of-business-names-amendment-act** (5 sections): Brief amendment act; 5 sections may be complete. Verify.
+
+## Batch 0005 — Parse quality flags (2026-04-10)
+
+- **act-zm-2025-012-superior-courtsnumber-of-judgesact** (4 sections): Brief amending Act — short form expected. Likely complete.
+- **act-zm-2025-019-value-added-tax-amendment-act** (2 sections): VAT Amendment Act — likely schedule-heavy or very brief amendment. Needs schedule-aware re-parse to verify completeness.

@@ -1,0 +1,28 @@
+{
+  "id": "act-zm-2025-019-value-added-tax-amendment-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Value Added Tax (Amendment) Act,2025",
+  "citation": "Act No. 19 of 2025",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "(1) This Act may be cited as the Value Added Tax Short title",
+      "text": "and commen- (Amendment) Act, 2025, and shall be read as one with the Value cement Added Tax Act, in this Act referred to as the principal Act. Cap. 331 (2) This Act shall come into operation on 1st January, 2026."
+    },
+    {
+      "number": "2",
+      "heading": "Section 19 of the principal Act is amended by the— Amendment",
+      "text": "of section 19 (a) deletion of subsection (1A) and the substitution therefor of the following: (1A) The Minister may, on the recommendation of the Commissioner-General, by statutory instrument, remit the whole, or part of any, tax, fine or interest due and which is not recoverable under this Act where the liabilities meet the following conditions: (a) the taxable supplier is deceased and the estate is insufficient to meet the tax debt; (b) the tax account of the taxable supplier is inactive for a period of ten years; (c) the taxable supplier is insolvent; Single copies of this Act may be obtained from the Government Printer, P.O. Box 30136, 10101 Lusaka, Price K 4.00 each. 306 No. 19 of 2025] Value Added Tax (Amendment) (d) in the case of a privatised company, the debt was incurred before privatisation, unless the contract of sale stipulates that the company’s liabilities are to be carried over by the new owners; or (e) where— (i) a tax debt is outstanding for a period of ten years; (ii) the cost of collection of that tax debt is higher than the amount to be collected; and (iii) the tax debt is less than two hundred kwacha.; and (b) insertion of the following new subsection immediately after subsection (1A): (1B) The Commissioner-General may, for purposes of subsection (1A), request for documentary evidence as the Commissioner-General may determine."
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/node/12767",
+  "source_hash": "sha256:f82dc47c468adc62ec0e966b300cd48cd5045cbbfefa2528c37883b12bcb257a",
+  "fetched_at": "2026-04-10T13:58:56Z",
+  "parser_version": "0.2.0"
+}
