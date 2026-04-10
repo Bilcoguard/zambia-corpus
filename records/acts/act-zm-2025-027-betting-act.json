@@ -1,0 +1,50 @@
+{
+  "id": "act-zm-2025-027-betting-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Betting Act,2025",
+  "citation": "Act No. 27 of 2025",
+  "version_type": "as_enacted",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Betting Levy Act, 2025, and Short title",
+      "body": "shall come into operation on 1st January, 2026. and commen-\ncement",
+      "page_start": 1
+    },
+    {
+      "number": "2",
+      "title": "In this Act, unless the context otherwise requires— Interpretation",
+      "body": "“betting” has the meaning assigned to the word in the Customs Cap. 322\nand Excise Act;\n“betting company” means a person licensed under the Betting Cap. 155\nControl Act or any other written law to provide betting\nservices in the Republic;\n“brick and mortar betting” means a betting activity conducted\nat a physical premise where a customer places a bet in\nperson through cash, electronic means or any other payment\nmethod;\n“Commissioner-General” means the person appointed as\nCommissioner-General under the Zambia Revenue Cap. 321\nAuthority Act;\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101, Lusaka, Price K8.00 each\n394 No. 27 of 2025] Betting Levy\n“customer gaming account” means an account maintained\nby a betting company for a customer in which deposits,\nbets, winnings and withdrawals are recorded;\n“deposits” means monies credited to a customer’s gaming\naccountant for purposes of enabling that customer to place\na bet or participate in a betting activity, through cash,\nelectronic means or any other payments method, but does\nnot include winnings credited from previous bets placed\nusing funds already in the account;\n“levy” means a betting levy charged under section 5;\n“withdrawals” means monies paid out from a customer’s\ngaming account, by a betting company, to the customer\nthrough electronic means or any other payment method;\nand\n“Zambia Revenue Authority” means the Zambia Revenue\nCap. 321 Authority established under the Zambia Revenue Authority\nAct.\nAdministration 3. This Act shall be administered by the Zambia Revenue\nof Act Authority.\nPowers of 4. The Commissioner-General shall, for the purposes of\nCommissioner enforcing the provisions of this Act, have all the powers conferred\n- General\non the Commissioner-General by the Zambia Revenue Authority\nCap. 321\nCap. 323 Act and the Income Tax Act.\nImposition of 5. (1) Subject to the provisions of this Act, a betting levy at\nlevy the rate of 5 percent shall be charged, levied, collected and paid by\na betting company.\n(2) The levy shall be calculated on all deposits made to a\ncustomer’s gaming account and on all withdrawals from a\ncustomer’s gaming account.\n(3) A betting company shall, within ten days after the end of\neach month—\n(a) submit a return of the levy collected to the Commissioner-\nGeneral in the manner determined by the Commissioner-\nGeneral; and\n(b) remit the total levies collected for that month to the\nCommissioner-General.\nBetting Levy [No. 27 of 2025 395\n(4) The Commissioner-General may appoint a person as an\nagent to withhold a levy before facilitating any payments to, or\nfrom, a betting company.\n(5) A betting company that contravenes subsection (3) is\nliable to pay to the Commissioner-General a penalty of three hundred\nthousand penalty units for each month or part thereof during which\nthat contravention continues.\n(6) The Commissioner-General may waive the whole, or part,\nof the penalty due under subsection (5) of this section.",
+      "page_start": 1
+    },
+    {
+      "number": "6",
+      "title": "(1) Brick and mortar betting companies are exempt from Exemptions",
+      "body": "payment of a levy. from\npayment of\n(2) The Minister may, by statutory instrument, exempt a person levy\nfrom payment of a levy.",
+      "page_start": 3
+    },
+    {
+      "number": "7",
+      "title": "(1) A betting company shall keep and maintain a record of Records of",
+      "body": "the betting company’s operations for a period of six years. betting\noperations\n(2) A betting company shall maintain electronic records of all\ndeposits and withrawals, which shall include—\n(a) a customer’s gaming account number;\n(b) date and time of a transation;\n(c) transaction amounts; and\n(d) the levy calculated and deducted.\n(3) A betting company shall ensure that the system used for\npurpose of maintaing the electronic records referred to under\nsubsection (2) is capable of intergration with the systems used by\nused by the Zambia Revenue Authority for automated reporting\nand verification purposes.\n(4) Despite subsection (1), the Commissioner-General may,\nbefore the expiry of the period referred to under subsection (1),\nby notice in writing, extend the period of keeping and maintaining\na record of operations by a betting company.\n(5) A betting company that contravenes subsection (1) is liable\nto pay the Commissioner-General a penalty of three hundred\nthousand penalty units.\n(6) The Commissioner-General may waive the whole, or part,\nof the penalty due under subsection (3).\n396 No. 27 of 2025] Betting Levy\nInspection of 8. (1) The Commissioner-General may, for the purposes of\nbetting\nenforcing the provisions of this Act, at any reasonable time, without\noperations\nprior notice, enter any premises that the Commissioner-General\nhas reasonable grounds to believe is used contrary to the provisions\nof this Act, and—\n(a) inspect any records, article or document of a betting\ncompany that has a bearing on an inspection;\n(b) verify the returns submitted in accordance with section\n5(3); or\n(c) require a betting company to submit any other information\nthat the Commissioner-General may consider necessary.\nAdministrative 9. The Commissioner-General may issue administrative Rules\nRules relating to—\n(a) the keeping of books of account for betting operations;\n(b) the making of returns; and\n(c) any other matter necessary for the administration of this\nAct by the Commissioner-General.",
+      "page_start": 3
+    },
+    {
+      "number": "10",
+      "title": "The Minister may, by statutory instrument, make",
+      "body": "Regulations Regulations for the better carrying out of the provisions of this\nAct.",
+      "page_start": 4
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2027%20of%202025%2C%20The%20Betting%20Act.pdf",
+  "source_hash": "sha256:0f4978ae60d54558e2fe8a14ea8c3fb7764b21d975fac5bd0e5791e25dc77062",
+  "fetched_at": "2026-04-10T13:46:17Z",
+  "parser_version": "0.3.0",
+  "notes": "Fetched from parliament.gov.zm node/12777. Phase 4 batch 0004."
+}
