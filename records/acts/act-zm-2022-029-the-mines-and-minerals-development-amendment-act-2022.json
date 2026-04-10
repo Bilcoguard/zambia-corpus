@@ -1,0 +1,28 @@
+{
+  "id": "act-zm-2022-029-the-mines-and-minerals-development-amendment-act-2022",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Mines and Minerals Development (Amendment) Act, 2022",
+  "citation": "Act No. 29 of 2022",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "1) This Act may be cited as the Mines and Minerals Short title and",
+      "text": "1. (1) This Act may be cited as the Mines and Minerals Short title and\ncommence-\nDevelopment (Amendment) Act, 2022, and shall be read as one\nment\nwith the Mines and Minerals Development Act, 2015, in this Act Act No. 11\nreferred to as the principal Act. of 2015\n(2) This Act shall come into operation on 1st January, 2023."
+    },
+    {
+      "number": "2",
+      "heading": "Section 89 of the principal Act is amended by the deletion Amendment",
+      "text": "2. Section 89 of the principal Act is amended by the deletion Amendment\nof subsection (2) and the substitution therefor of the following: of Section\n89\n(2) Where the base metal produced or recoverable under\nthe licence is copper, the mineral royalty payable shall be\napplied at an incremental value in each price range at the\nrate of —\n(a) four percent of the norm value when the norm price\nof copper is less than four thousand United States\ndollars per tonne;\n(b) six point five percent of the norm value when the\nnorm price of copper is four thousand United\nStates dollars or higher per tonne but less than\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K 4.00 each.\n562 No. 29 of 2022] The Mines and Minerals Development\n(Amendment)\nfive thousand United States dollars per tonne;\n(c) eight point five percent of the norm value when the\nnorm price of copper is five thousand United\nStates dollars or higher per tonne but less than\nseven thousand United States dollars per tonne;\nand\n(d) ten percent of the norm value when the norm price\nof copper is seven thousand United States dollars\nor higher per tonne."
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2029%20The%20Mines%20and%20Mineral%20Act%2C%202022.pdf",
+  "source_hash": "sha256:a2bdc30d55d2f0bc2a397888a9413e1f5edcacc095b09aab8c98678dd8454664",
+  "fetched_at": "2026-04-10T22:29:58Z",
+  "parser_version": "0.1.0"
+}

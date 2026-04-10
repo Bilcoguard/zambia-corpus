@@ -1,0 +1,38 @@
+{
+  "id": "act-zm-2022-026-the-value-added-tax-amendment-act-2022",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Value Added Tax (Amendment) Act, 2022",
+  "citation": "Act No. 26 of 2022",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "1) This Act may be cited as the Value Added Tax (Amend- Short title and",
+      "text": "1. (1) This Act may be cited as the Value Added Tax (Amend- Short title and\ncommence-\nment) Act, 2022, and shall be read as one with the Value Added\nment\nTax Act, in this Act referred to as the principal Act. Cap. 331\n(2) This Act shall come into operation on 1st January, 2023."
+    },
+    {
+      "number": "2",
+      "heading": "Section 2 of the principal Act is amended by the deletion of Amendment",
+      "text": "2. Section 2 of the principal Act is amended by the deletion of Amendment\nof section 2\nthe definition of “commercial property” and the substitution therefor\nof the following:\n“commercial property” means a building that is used for\ncommercial purposes, or land designated or sold for\ncommercial purposes, and includes an office building, an\nindustrial building, a health facility, hotel, shopping mall, retail\nstore, shopping centre, warehouse, garage, recreation\ncentre, dwelling house used for commercial purposes and\nmulti facility building;."
+    },
+    {
+      "number": "3",
+      "heading": "Section 7A of the principal Act is amended by the deletion Amendment",
+      "text": "3. Section 7A of the principal Act is amended by the deletion Amendment\nof section 7A\nof the marginal note and the substitution therefor of the following:\nRecord of sales."
+    },
+    {
+      "number": "4",
+      "heading": "Section 18 of the principal Act is amended by the deletion Amendment",
+      "text": "4. Section 18 of the principal Act is amended by the deletion Amendment\nof subsection (4) and the substitution therefor of the following: of section 18\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K 4.00 each.\nValue Added Tax\n554 No. 26 of 2022] (Amendment)\n(4) Input tax shall not be deducted or credited after a\nperiod of ninety days from the date of the relevant tax invoice\nor other evidence referred to in subsection (3) to the date of\nsubmitting the return, except in circumstances as the\nCommissioner-General may by rule, specify.\nAmendment 5. Section 44 (1) of the principal Act is amended by the\nof section 44\ndeletion of the words “thirty thousand penalty units” and the\nsubstitution therefor of the words “three hundred thousand penalty\nunits”."
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/ACT%20No.%2026%20The%20Value%20Added%20Tax%20Act%2C%202022-2.pdf",
+  "source_hash": "sha256:f0a32e287f6d06414a90980bd27c31604c2b3ec0a2a0e295db9919d80750d085",
+  "fetched_at": "2026-04-10T22:30:12Z",
+  "parser_version": "0.1.0"
+}

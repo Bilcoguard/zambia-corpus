@@ -138,3 +138,12 @@ inventory.
 ## Batch 0014 — Parse quality flags (2026-04-10T20:05:49Z)
 
 - **act-zm-2020-005-the-landlord-and-tenant-business-premises-amendment-act-2020** (2 sections): The Landlord and Tenant (Business Premises) (Amendment Act), 2020 — brief act or parse issue; verify completeness.
+
+## Batch 0017 — Parse quality flags (2026-04-10T22:32:15Z)
+
+- **act-zm-2022-026-the-value-added-tax-amendment-act-2022** (4 sections): Brief act; verify completeness.
+- **act-zm-2022-027-the-property-transfer-tax-amendment-act-2022** (2 sections): Brief act; verify completeness.
+- **act-zm-2022-028-the-pension-scheme-regulation-amendment-act-2022** (2 sections): Brief act; verify completeness.
+- **act-zm-2022-029-the-mines-and-minerals-development-amendment-act-2022** (2 sections): Brief act; verify completeness.
+- **act-zm-2022-030-the-appropriation-act-2022** (2 sections): Brief act; verify completeness.
+- 2022 Acts No. 1-22 still to ingest in future batches.
