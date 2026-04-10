@@ -1,0 +1,1008 @@
+{
+  "id": "act-zm-2017-007-banking-and-financial-services",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Banking and Financial Services",
+  "citation": "Act No. 7 of 2017",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Shorttitleandcommencement",
+      "text": "1. Shorttitleandcommencement"
+    },
+    {
+      "number": "2",
+      "heading": "Interpretation",
+      "text": "2. Interpretation"
+    },
+    {
+      "number": "3",
+      "heading": "ApplicationofAct",
+      "text": "3. ApplicationofAct"
+    },
+    {
+      "number": "4",
+      "heading": "RelationshipwithotherActs",
+      "text": "4. RelationshipwithotherActs\nPART II\nLICENSINGOFFINANCIALSERVICEPROVIDERS"
+    },
+    {
+      "number": "5",
+      "heading": "Typesof licences",
+      "text": "5. Typesof licences"
+    },
+    {
+      "number": "6",
+      "heading": "Providingbankingbusiness,financialbusinessorfinancial",
+      "text": "6. Providingbankingbusiness,financialbusinessorfinancial\nserviceswithoutlicence"
+    },
+    {
+      "number": "7",
+      "heading": "Application for banking, financial business or financial",
+      "text": "7. Application for banking, financial business or financial\ninstitutionlicence"
+    },
+    {
+      "number": "8",
+      "heading": "Grantoflicence",
+      "text": "8. Grantoflicence"
+    },
+    {
+      "number": "9",
+      "heading": "Displayoflicence",
+      "text": "9. Displayoflicence"
+    },
+    {
+      "number": "10",
+      "heading": "Rejectionofapplicationforlicence",
+      "text": "10. Rejectionofapplicationforlicence"
+    },
+    {
+      "number": "11",
+      "heading": "Validityoflicence",
+      "text": "11. Validityoflicence"
+    },
+    {
+      "number": "12",
+      "heading": "Authorisedactivitiesofbanks",
+      "text": "12. Authorisedactivitiesofbanks"
+    },
+    {
+      "number": "13",
+      "heading": "Transfer,pledge,assignment,encumbranceoflicence",
+      "text": "13. Transfer,pledge,assignment,encumbranceoflicence"
+    },
+    {
+      "number": "14",
+      "heading": "Variationoflicence",
+      "text": "14. Variationoflicence"
+    },
+    {
+      "number": "15",
+      "heading": "Amendmentoflicence",
+      "text": "15. Amendmentoflicence"
+    },
+    {
+      "number": "16",
+      "heading": "Surrenderoflicence",
+      "text": "16. Surrenderoflicence"
+    },
+    {
+      "number": "17",
+      "heading": "Suspensionorcancellationoflicence",
+      "text": "17. Suspensionorcancellationoflicence"
+    },
+    {
+      "number": "18",
+      "heading": "Lossor damage oflicence",
+      "text": "18. Lossor damage oflicence"
+    },
+    {
+      "number": "19",
+      "heading": "Openingbranches,subsidiariesandotherestablishments",
+      "text": "19. Openingbranches,subsidiariesandotherestablishments"
+    },
+    {
+      "number": "20",
+      "heading": "Representative office",
+      "text": "20. Representative office"
+    },
+    {
+      "number": "21",
+      "heading": "Registeroffinancialserviceproviders",
+      "text": "21. Registeroffinancialserviceproviders"
+    },
+    {
+      "number": "22",
+      "heading": "Publicationoffinancialserviceproviders",
+      "text": "22. Publicationoffinancialserviceproviders"
+    },
+    {
+      "number": "23",
+      "heading": "AppointmentofRegistrarandDeputyRegistrars",
+      "text": "23. AppointmentofRegistrarandDeputyRegistrars"
+    },
+    {
+      "number": "24",
+      "heading": "Financialinclusion",
+      "text": "24. Financialinclusion\nSinglecopiesofthisActmaybeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka,PriceK184.00each.\n182 No. 7 of 2017] Banking and Financial Services\nPART III\nOWNERSHIPANDCONTROLOFFINANCIALSERVICEPROVIDERS"
+    },
+    {
+      "number": "25",
+      "heading": "Limitonvotingcontrol",
+      "text": "25. Limitonvotingcontrol"
+    },
+    {
+      "number": "26",
+      "heading": "Divestmentofcontrol",
+      "text": "26. Divestmentofcontrol"
+    },
+    {
+      "number": "27",
+      "heading": "Ownership",
+      "text": "27. Ownership"
+    },
+    {
+      "number": "28",
+      "heading": "Prohibitionofownershipofsharesbytrusts",
+      "text": "28. Prohibitionofownershipofsharesbytrusts"
+    },
+    {
+      "number": "29",
+      "heading": "Corporaterestructuringtransactions",
+      "text": "29. Corporaterestructuringtransactions"
+    },
+    {
+      "number": "30",
+      "heading": "Requirementsforcorporaterestructuringtransaction",
+      "text": "30. Requirementsforcorporaterestructuringtransaction"
+    },
+    {
+      "number": "31",
+      "heading": "Effectofcorporaterestructuringtransaction",
+      "text": "31. Effectofcorporaterestructuringtransaction\nPART IV\nCORPORATEGOVERNANCE"
+    },
+    {
+      "number": "32",
+      "heading": "ResponsibilitiesofDirectors",
+      "text": "32. ResponsibilitiesofDirectors"
+    },
+    {
+      "number": "33",
+      "heading": "Boardmeetings",
+      "text": "33. Boardmeetings"
+    },
+    {
+      "number": "34",
+      "heading": "Qualifications of directors, chief executive officers, chief",
+      "text": "34. Qualifications of directors, chief executive officers, chief\nfinancialofficers"
+    },
+    {
+      "number": "35",
+      "heading": "Non-executivedirectorstobeinmajority",
+      "text": "35. Non-executivedirectorstobeinmajority"
+    },
+    {
+      "number": "36",
+      "heading": "ReportingobligationsofBoardanddirectors",
+      "text": "36. ReportingobligationsofBoardanddirectors"
+    },
+    {
+      "number": "37",
+      "heading": "Conductofdirectors,chiefexecutiveofficers,chieffinancial",
+      "text": "37. Conductofdirectors,chiefexecutiveofficers,chieffinancial\nofficers and managers"
+    },
+    {
+      "number": "38",
+      "heading": "Disclosureofinterest",
+      "text": "38. Disclosureofinterest"
+    },
+    {
+      "number": "39",
+      "heading": "Falsestatementandobstructionofexaminations",
+      "text": "39. Falsestatementandobstructionofexaminations"
+    },
+    {
+      "number": "40",
+      "heading": "Suspensionordismissalofdirectorsandseniorofficersby",
+      "text": "40. Suspensionordismissalofdirectorsandseniorofficersby\nBankandremovalofshareholders"
+    },
+    {
+      "number": "41",
+      "heading": "Fitandproperrequirements",
+      "text": "41. Fitandproperrequirements"
+    },
+    {
+      "number": "42",
+      "heading": "Corporate governance",
+      "text": "42. Corporate governance\nPART V\nBUSINESS OPERATIONS"
+    },
+    {
+      "number": "43",
+      "heading": "Principaladministrativeoffice",
+      "text": "43. Principaladministrativeoffice"
+    },
+    {
+      "number": "44",
+      "heading": "Useandalterationofname",
+      "text": "44. Useandalterationofname"
+    },
+    {
+      "number": "45",
+      "heading": "Businesshours",
+      "text": "45. Businesshours"
+    },
+    {
+      "number": "46",
+      "heading": "Bankholiday",
+      "text": "46. Bankholiday"
+    },
+    {
+      "number": "47",
+      "heading": "Recordstoberegistered andmaintained",
+      "text": "47. Recordstoberegistered andmaintained"
+    },
+    {
+      "number": "48",
+      "heading": "Creditdocumentation",
+      "text": "48. Creditdocumentation"
+    },
+    {
+      "number": "49",
+      "heading": "Mannerofkeepingrecords",
+      "text": "49. Mannerofkeepingrecords"
+    },
+    {
+      "number": "50",
+      "heading": "Retentionofrecords",
+      "text": "50. Retentionofrecords"
+    },
+    {
+      "number": "51",
+      "heading": "Maintenance of records",
+      "text": "51. Maintenance of records\nBanking and Financial Services [No. 7 of 2017 183\nPART VI\nPRUDENTIALREGULATIONANDSUPERVISION"
+    },
+    {
+      "number": "52",
+      "heading": "Minimumcapitalrequirements",
+      "text": "52. Minimumcapitalrequirements"
+    },
+    {
+      "number": "53",
+      "heading": "Capitalconservationbuffer",
+      "text": "53. Capitalconservationbuffer"
+    },
+    {
+      "number": "54",
+      "heading": "Countercyclicalcapitalbuffer",
+      "text": "54. Countercyclicalcapitalbuffer"
+    },
+    {
+      "number": "55",
+      "heading": "Restrictiononpaymentofdividends",
+      "text": "55. Restrictiononpaymentofdividends"
+    },
+    {
+      "number": "56",
+      "heading": "Leverage ratio",
+      "text": "56. Leverage ratio"
+    },
+    {
+      "number": "57",
+      "heading": "Maintenanceofliquidity",
+      "text": "57. Maintenanceofliquidity"
+    },
+    {
+      "number": "58",
+      "heading": "Constraintsoncontractswithassociatedperson",
+      "text": "58. Constraintsoncontractswithassociatedperson"
+    },
+    {
+      "number": "59",
+      "heading": "Examinationoffinancialserviceprovider",
+      "text": "59. Examinationoffinancialserviceprovider"
+    },
+    {
+      "number": "60",
+      "heading": "Submissionofreturns",
+      "text": "60. Submissionofreturns"
+    },
+    {
+      "number": "61",
+      "heading": "Consolidatedsupervision",
+      "text": "61. Consolidatedsupervision"
+    },
+    {
+      "number": "62",
+      "heading": "Affiliatesandcrossbordersupervision",
+      "text": "62. Affiliatesandcrossbordersupervision"
+    },
+    {
+      "number": "63",
+      "heading": "Unsafe and unsoundpractices",
+      "text": "63. Unsafe and unsoundpractices"
+    },
+    {
+      "number": "64",
+      "heading": "Supervisoryactions",
+      "text": "64. Supervisoryactions"
+    },
+    {
+      "number": "65",
+      "heading": "Financialserviceprovidersufferinglargelosses",
+      "text": "65. Financialserviceprovidersufferinglargelosses"
+    },
+    {
+      "number": "66",
+      "heading": "Under-capitalisedfinancialserviceprovider",
+      "text": "66. Under-capitalisedfinancialserviceprovider"
+    },
+    {
+      "number": "67",
+      "heading": "Significantlyunder-capitalisedfinancialserviceprovider",
+      "text": "67. Significantlyunder-capitalisedfinancialserviceprovider"
+    },
+    {
+      "number": "68",
+      "heading": "Correctiveactionsagainstfinancialbusinesses",
+      "text": "68. Correctiveactionsagainstfinancialbusinesses"
+    },
+    {
+      "number": "69",
+      "heading": "Modification, cancellation and upholding of regulatory",
+      "text": "69. Modification, cancellation and upholding of regulatory\nstatement"
+    },
+    {
+      "number": "70",
+      "heading": "Noticeoftakingpossession",
+      "text": "70. Noticeoftakingpossession"
+    },
+    {
+      "number": "71",
+      "heading": "PowersanddutiesofBankontakingpossession",
+      "text": "71. PowersanddutiesofBankontakingpossession"
+    },
+    {
+      "number": "72",
+      "heading": "Statement of affairs of assets and liabilities on taking",
+      "text": "72. Statement of affairs of assets and liabilities on taking\npossession"
+    },
+    {
+      "number": "73",
+      "heading": "Actionswherefinancialserviceproviderissolvent",
+      "text": "73. Actionswherefinancialserviceproviderissolvent"
+    },
+    {
+      "number": "74",
+      "heading": "Actionswherefinancialserviceproviderisinsolvent",
+      "text": "74. Actionswherefinancialserviceproviderisinsolvent"
+    },
+    {
+      "number": "75",
+      "heading": "ApplicationtoCourtforterminationofpossession",
+      "text": "75. ApplicationtoCourtforterminationofpossession"
+    },
+    {
+      "number": "76",
+      "heading": "Effects of possession",
+      "text": "76. Effects of possession"
+    },
+    {
+      "number": "77",
+      "heading": "Restructuringandreorganisation",
+      "text": "77. Restructuringandreorganisation"
+    },
+    {
+      "number": "78",
+      "heading": "Refusalofrestructuringorreorganisation",
+      "text": "78. Refusalofrestructuringorreorganisation"
+    },
+    {
+      "number": "79",
+      "heading": "Restrictiononexecutionofjudgment",
+      "text": "79. Restrictiononexecutionofjudgment"
+    },
+    {
+      "number": "80",
+      "heading": "Recovery of expenses",
+      "text": "80. Recovery of expenses\n184 No. 7 of 2017] Banking and Financial Services\nPART VII\nRESTRICTIONSONTRANSACTIONSOFFINANCIALSERVICESPROVIDERS"
+    },
+    {
+      "number": "81",
+      "heading": "Securedborrowing",
+      "text": "81. Securedborrowing"
+    },
+    {
+      "number": "82",
+      "heading": "Limitationsongrantingcreditfacilities",
+      "text": "82. Limitationsongrantingcreditfacilities"
+    },
+    {
+      "number": "83",
+      "heading": "Restrictionontrade",
+      "text": "83. Restrictionontrade"
+    },
+    {
+      "number": "84",
+      "heading": "Restrictiononequityinvestments",
+      "text": "84. Restrictiononequityinvestments"
+    },
+    {
+      "number": "85",
+      "heading": "Restrictiononleaseorotherinterestinrealproperty",
+      "text": "85. Restrictiononleaseorotherinterestinrealproperty"
+    },
+    {
+      "number": "86",
+      "heading": "Limits,restrictionsandprohibitiononfinancialbusinessand",
+      "text": "86. Limits,restrictionsandprohibitiononfinancialbusinessand\nalternativefinancialservices"
+    },
+    {
+      "number": "87",
+      "heading": "Exemptionofalternativefinancialservices",
+      "text": "87. Exemptionofalternativefinancialservices\nPART VIII\nFINANCIALSTATEMENTSANDACCOUNTABILITY"
+    },
+    {
+      "number": "88",
+      "heading": "Annualfinancialstatement",
+      "text": "88. Annualfinancialstatement"
+    },
+    {
+      "number": "89",
+      "heading": "Presentationofannualfinancialstatementtoshareholders",
+      "text": "89. Presentationofannualfinancialstatementtoshareholders"
+    },
+    {
+      "number": "90",
+      "heading": "Reserveforbadanddoubtfuldebts",
+      "text": "90. Reserveforbadanddoubtfuldebts"
+    },
+    {
+      "number": "91",
+      "heading": "Approvalofannualfinancialstatements",
+      "text": "91. Approvalofannualfinancialstatements"
+    },
+    {
+      "number": "92",
+      "heading": "Publicationofannualfinancialstatements",
+      "text": "92. Publicationofannualfinancialstatements"
+    },
+    {
+      "number": "93",
+      "heading": "Appointmentofexternalauditor",
+      "text": "93. Appointmentofexternalauditor"
+    },
+    {
+      "number": "94",
+      "heading": "Responsibilitiesofexternalauditor",
+      "text": "94. Responsibilitiesofexternalauditor"
+    },
+    {
+      "number": "95",
+      "heading": "InformationbyexternalauditortoBank",
+      "text": "95. InformationbyexternalauditortoBank"
+    },
+    {
+      "number": "96",
+      "heading": "Disqualificationofexternalauditor",
+      "text": "96. Disqualificationofexternalauditor"
+    },
+    {
+      "number": "97",
+      "heading": "Accesstoinformationandauditor’sreport",
+      "text": "97. Accesstoinformationandauditor’sreport"
+    },
+    {
+      "number": "98",
+      "heading": "Terminationofappointmentofexternalauditor",
+      "text": "98. Terminationofappointmentofexternalauditor"
+    },
+    {
+      "number": "99",
+      "heading": "Statementonresignationofexternalauditor",
+      "text": "99. Statementonresignationofexternalauditor"
+    },
+    {
+      "number": "100",
+      "heading": "Terminationofappointmentofexternalauditorbyfinancial",
+      "text": "100. Terminationofappointmentofexternalauditorbyfinancial\nserviceprovider\nPART IX\nANTI-COMPETITIVEACTIVITIESANDCONSUMERPROTECTION"
+    },
+    {
+      "number": "101",
+      "heading": "Collusiveconduct",
+      "text": "101. Collusiveconduct"
+    },
+    {
+      "number": "102",
+      "heading": "Collateralcontracts",
+      "text": "102. Collateralcontracts"
+    },
+    {
+      "number": "103",
+      "heading": "Coercivebehaviour",
+      "text": "103. Coercivebehaviour"
+    },
+    {
+      "number": "104",
+      "heading": "Misconductduringdebtcollection",
+      "text": "104. Misconductduringdebtcollection"
+    },
+    {
+      "number": "105",
+      "heading": "Determinationofbenchmarkbaserate",
+      "text": "105. Determinationofbenchmarkbaserate"
+    },
+    {
+      "number": "106",
+      "heading": "Disclosureof interest ratesandcharges",
+      "text": "106. Disclosureof interest ratesandcharges"
+    },
+    {
+      "number": "107",
+      "heading": "Increase in service charges",
+      "text": "107. Increase in service charges\nBanking and Financial Services [No. 7 of 2017 185"
+    },
+    {
+      "number": "108",
+      "heading": "Responsiblelending",
+      "text": "108. Responsiblelending"
+    },
+    {
+      "number": "109",
+      "heading": "Prohibitionagainstpenalinterest",
+      "text": "109. Prohibitionagainstpenalinterest"
+    },
+    {
+      "number": "110",
+      "heading": "Recoverableamountsonnon-performingloan",
+      "text": "110. Recoverableamountsonnon-performingloan"
+    },
+    {
+      "number": "111",
+      "heading": "Dataprotectionanddisclosureofinformation",
+      "text": "111. Dataprotectionanddisclosureofinformation"
+    },
+    {
+      "number": "112",
+      "heading": "Prohibitionofanti-competitivepractice",
+      "text": "112. Prohibitionofanti-competitivepractice"
+    },
+    {
+      "number": "113",
+      "heading": "Complaintsprocedureforcustomers",
+      "text": "113. Complaintsprocedureforcustomers"
+    },
+    {
+      "number": "114",
+      "heading": "Ombudspersonforfinancialserviceproviders",
+      "text": "114. Ombudspersonforfinancialserviceproviders"
+    },
+    {
+      "number": "115",
+      "heading": "Controlofadvertisements",
+      "text": "115. Controlofadvertisements"
+    },
+    {
+      "number": "116",
+      "heading": "Prohibitionofunfairbusinesspractices",
+      "text": "116. Prohibitionofunfairbusinesspractices"
+    },
+    {
+      "number": "117",
+      "heading": "Prohibitionofchargesonprepayment",
+      "text": "117. Prohibitionofchargesonprepayment"
+    },
+    {
+      "number": "118",
+      "heading": "Unfaircontractterms",
+      "text": "118. Unfaircontractterms"
+    },
+    {
+      "number": "119",
+      "heading": "Recognitionofotherlaws",
+      "text": "119. Recognitionofotherlaws\nPART X\nINSOLVENCY,DISSOLUTIONANDLIQUIDATIONOFFINANCIAL\nSERVICEPROVIDERS"
+    },
+    {
+      "number": "120",
+      "heading": "Acceptance of deposits by insolvent financial service",
+      "text": "120. Acceptance of deposits by insolvent financial service\nproviders"
+    },
+    {
+      "number": "121",
+      "heading": "Resolutiontovoluntarilywind-upordissolvefinancialservice",
+      "text": "121. Resolutiontovoluntarilywind-upordissolvefinancialservice\nprovider"
+    },
+    {
+      "number": "122",
+      "heading": "Dutiesoffinancialserviceprovideronvoluntarywinding-",
+      "text": "122. Dutiesoffinancialserviceprovideronvoluntarywinding-\nupordissolution"
+    },
+    {
+      "number": "123",
+      "heading": "Noticeofvoluntarywinding-upordissolution",
+      "text": "123. Noticeofvoluntarywinding-upordissolution"
+    },
+    {
+      "number": "124",
+      "heading": "Rightsofdepositorsandcreditors",
+      "text": "124. Rightsofdepositorsandcreditors"
+    },
+    {
+      "number": "125",
+      "heading": "Distributionofassetsonvoluntarywinding-upordissolution",
+      "text": "125. Distributionofassetsonvoluntarywinding-upordissolution"
+    },
+    {
+      "number": "126",
+      "heading": "Powers of Bank where assets insufficient or completion",
+      "text": "126. Powers of Bank where assets insufficient or completion\nundulydelayed"
+    },
+    {
+      "number": "127",
+      "heading": "PowersofBankincompulsorywinding-upordissolution",
+      "text": "127. PowersofBankincompulsorywinding-upordissolution"
+    },
+    {
+      "number": "128",
+      "heading": "Powersofliquidator",
+      "text": "128. Powersofliquidator"
+    },
+    {
+      "number": "129",
+      "heading": "ImmunityofBankagainstdepositororcreditorclaims",
+      "text": "129. ImmunityofBankagainstdepositororcreditorclaims"
+    },
+    {
+      "number": "130",
+      "heading": "Limitationoffilingofclaims",
+      "text": "130. Limitationoffilingofclaims"
+    },
+    {
+      "number": "131",
+      "heading": "Objectiontoliquidationschedule",
+      "text": "131. Objectiontoliquidationschedule"
+    },
+    {
+      "number": "132",
+      "heading": "Priorityofcreditors",
+      "text": "132. Priorityofcreditors"
+    },
+    {
+      "number": "133",
+      "heading": "Undistributedfunds",
+      "text": "133. Undistributedfunds"
+    },
+    {
+      "number": "134",
+      "heading": "Finaldistributionincompulsorywinding-upordissolution",
+      "text": "134. Finaldistributionincompulsorywinding-upordissolution"
+    },
+    {
+      "number": "135",
+      "heading": "Restrictionofactionbythirdparties",
+      "text": "135. Restrictionofactionbythirdparties"
+    },
+    {
+      "number": "136",
+      "heading": "PowerofBankinrelationtoinsolventfinancialbusiness",
+      "text": "136. PowerofBankinrelationtoinsolventfinancialbusiness\n186 No. 7 of 2017] Banking and Financial Services\nPART XI\nCOMPLAINTSANDAPPEALSPROCESS"
+    },
+    {
+      "number": "137",
+      "heading": "Reasonsfordecisionsandrighttobeheard",
+      "text": "137. Reasonsfordecisionsandrighttobeheard"
+    },
+    {
+      "number": "138",
+      "heading": "Rightofappeal",
+      "text": "138. Rightofappeal"
+    },
+    {
+      "number": "139",
+      "heading": "Appointmentandconveningoftribunal",
+      "text": "139. Appointmentandconveningoftribunal"
+    },
+    {
+      "number": "140",
+      "heading": "Powersoftribunal",
+      "text": "140. Powersoftribunal"
+    },
+    {
+      "number": "141",
+      "heading": "Decisionsoftribunal",
+      "text": "141. Decisionsoftribunal\nPART XII\nGENERALPROVISIONS"
+    },
+    {
+      "number": "142",
+      "heading": "Investigations",
+      "text": "142. Investigations"
+    },
+    {
+      "number": "143",
+      "heading": "Access to documents",
+      "text": "143. Access to documents"
+    },
+    {
+      "number": "144",
+      "heading": "OffencescommittedpartlyinandpartlyoutofZambia",
+      "text": "144. OffencescommittedpartlyinandpartlyoutofZambia"
+    },
+    {
+      "number": "145",
+      "heading": "Continuingactsoroffences",
+      "text": "145. Continuingactsoroffences"
+    },
+    {
+      "number": "146",
+      "heading": "ActionsbyBankonconvictionforoffence",
+      "text": "146. ActionsbyBankonconvictionforoffence"
+    },
+    {
+      "number": "147",
+      "heading": "Useofword“bank”",
+      "text": "147. Useofword“bank”"
+    },
+    {
+      "number": "148",
+      "heading": "Restrictiononuseofnametoindicatebankingorfinancial",
+      "text": "148. Restrictiononuseofnametoindicatebankingorfinancial\nbusinessorfinancialserviceprovider"
+    },
+    {
+      "number": "149",
+      "heading": "Validityofcertainactsbyfinancialserviceproviders",
+      "text": "149. Validityofcertainactsbyfinancialserviceproviders"
+    },
+    {
+      "number": "150",
+      "heading": "Powertosummonofficers,directorsandshareholders",
+      "text": "150. Powertosummonofficers,directorsandshareholders"
+    },
+    {
+      "number": "151",
+      "heading": "SubmissionofinformationanddocumentstoBank",
+      "text": "151. SubmissionofinformationanddocumentstoBank"
+    },
+    {
+      "number": "152",
+      "heading": "Alternativefinancialservices",
+      "text": "152. Alternativefinancialservices"
+    },
+    {
+      "number": "153",
+      "heading": "Publicationofinformation",
+      "text": "153. Publicationofinformation"
+    },
+    {
+      "number": "154",
+      "heading": "Extensionoftimelimits",
+      "text": "154. Extensionoftimelimits"
+    },
+    {
+      "number": "155",
+      "heading": "Falsedocument",
+      "text": "155. Falsedocument"
+    },
+    {
+      "number": "156",
+      "heading": "Immunityofofficer,agentoremployeeofBank",
+      "text": "156. Immunityofofficer,agentoremployeeofBank"
+    },
+    {
+      "number": "157",
+      "heading": "Moneycirculationschemes",
+      "text": "157. Moneycirculationschemes"
+    },
+    {
+      "number": "158",
+      "heading": "Utilisationofcollateralforsettlementofcertainobligations",
+      "text": "158. Utilisationofcollateralforsettlementofcertainobligations"
+    },
+    {
+      "number": "159",
+      "heading": "Specialreserveorliabilityinsurance",
+      "text": "159. Specialreserveorliabilityinsurance"
+    },
+    {
+      "number": "160",
+      "heading": "Unclaimedfundsandpersonalproperty",
+      "text": "160. Unclaimedfundsandpersonalproperty"
+    },
+    {
+      "number": "161",
+      "heading": "Delegatedsupervision",
+      "text": "161. Delegatedsupervision"
+    },
+    {
+      "number": "162",
+      "heading": "Exemptions",
+      "text": "162. Exemptions"
+    },
+    {
+      "number": "163",
+      "heading": "Generalpenalty",
+      "text": "163. Generalpenalty"
+    },
+    {
+      "number": "164",
+      "heading": "Offencebybodycorporateorunincorporatedbody",
+      "text": "164. Offencebybodycorporateorunincorporatedbody"
+    },
+    {
+      "number": "165",
+      "heading": "Administrativepenalties",
+      "text": "165. Administrativepenalties"
+    },
+    {
+      "number": "166",
+      "heading": "Industryreports",
+      "text": "166. Industryreports"
+    },
+    {
+      "number": "167",
+      "heading": "Regulatorystatements",
+      "text": "167. Regulatorystatements"
+    },
+    {
+      "number": "168",
+      "heading": "Rules",
+      "text": "168. Rules"
+    },
+    {
+      "number": "169",
+      "heading": "Regulations",
+      "text": "169. Regulations"
+    },
+    {
+      "number": "170",
+      "heading": "RepealofCap.387",
+      "text": "170. RepealofCap.387"
+    },
+    {
+      "number": "171",
+      "heading": "Savingsandtransitionalprovisions",
+      "text": "171. Savingsandtransitionalprovisions\nBanking and Financial Services [No. 7 of 2017 187\nGOVERNMENT OF ZAMBIA\nACT\nNo. 7 of 2017\nDateofAssent12thApril,2017:\nAn Act to provide for a licensing system for the conduct of\nbanking or financial business and provision of financial\nservices; to provide for the incorporation of standards,\nprinciples and concepts of corporate governance in insti-\ntutional systems and structures of banks and financial in-\nstitutions; to provide for sound business practices and\nconsumerprotectionmechanisms;toprovidefortheregu-\nlation and supervision of banking and financial services;\nto repeal and replace the Banking and Financial Services\nAct,1994; and to provide for matters connected with, or\nincidental to, the foregoing.\n[13thApril,2017\nENACTEDbytheParliament of Zambia. Enactment\nPART I\nPRELIMINARYPROVISIONS"
+    },
+    {
+      "number": "1",
+      "heading": "ThisActmaybecitedastheBankingandFinancialServices ShortTitle",
+      "text": "1. ThisActmaybecitedastheBankingandFinancialServices ShortTitle\nand\nAct,2017andshallcomeintooperationonthedateappointedby\nCommence-\ntheMinisterbystatutoryinstrument. ment\n2. (1) InthisAct,unlessthecontextotherwiserequires— Interpretation\n“ advance ” means—\n(a) any direct or indirect payment of monies, a loan or an\nextensionofcredittoapersonorcommonenterprise—\n(i)madeonthebasisofanobligationofthatperson\norcommonenterpriserepayingthefunds;or\n(ii)repayablefromspecificpropertypledgedby,or\nonbehalfof,apersonorcommonenterprise;\n188 No. 7 of 2017] Banking and Financial Services\n(b)thecreditrisksarisingfromactualclaims,potentialclaims\nandcreditsubstitutes;or\n(c)acommitmenttoextendcreditoracquireadebtsecurity\norotherrighttopaymentofasumofmoney;\n“ alternative financial service ” means a financial service\nthat applies specific regulatory rules based on religious\nprinciples;\n“ associatedperson ” means—\n(a)acompanyinwhichapersonisamanagerordirector;\n(b) each person that beneficially owns shares in the same\ncompany;\n(c) a third person that owns or exercises, or is capable of\nexercising,directlyorindirectly,significantcontrolover\na company or person referred to in paragraph (a) or\n(b);\n(d)personsthat are inapartnership;\n(e)personsthat are bothmembersofa votingtrustor other\narrangementrelatingtoshares,exceptthatthisparagraph\ndoesnotapplytoafinancialbusinesswhere—\n(i)twoor morepersonsare affiliatedifthepersons\narecompanies thatarecontrolledbythesame\nperson;and\n(ii)acompanyisthesubsidiaryofanothercompany\nandifmorethanfiftypercentoftheissuedvoting\nshares of the company, other than qualifying\ndirectors’shares,areowneddirectlyorindirectly\nbytheothercompany;or\n(f)thespouse,parent,child,brotherorsisterofaperson,or\noftheperson’sparent,child,brotherorsister;and\n“associateandassociation”shallbeconstruedaccordingly;\n“ articles of association ” has the meaning assigned to the\nActNo. of termintheCompaniesAct,2017;\n2017\n“ bank ” means a company authorised to conduct banking\nbusinessinaccordancewiththisAct;\n“Bank”meanstheBankofZambiaestablishedinaccordance\nCap.1 withtheConstitution;\n“bankinglicence”meansalicencespecifiedinsection5and\ngrantedinaccordancewithsection8;\n“bankingbusiness”means—\nBanking and Financial Services [No. 7 of 2017 189\n(a)receiving deposits, includingchequeingand current ac-\ncount deposits, and the use of the deposits, either in\nwhole orinpart,for theaccount andatthe riskof the\npersoncarryingonthebusinesstomakeloans,advances\norinvestments;\n(b)providingfinancialservices;and\n(c)anycustom,practiceoractivity,prescribedinrulesissued\nbytheBank,asbankingbusiness;\n“beneficialowner”meansanindividualwho—\n(a)exercisescontroloverafinancialserviceprovider,legal\npersonorarrangement; or\n(b)ownsorcontrolsacustomerorthepersononwhosebehalf\na transaction is conducted and, where two or more\npersonsareassociatedthroughthebeneficialownership\nofshares inthe samecompany,eachpersonshallbe a\nbeneficialowneroftheaggregatenumberofsharesof\nthecompany;\n“ board ” means the governing body of a financial service\nprovider;\n“bodycorporate”hasthe meaningassignedtothewordin\ntheCompaniesAct,2017; ActNo. of\n2017\n“ borrower ” includes a person who becomes indebted to a\nfinancialserviceproviderduetoaguaranteemadeforthe\nrepaymentofanamountowedbyanotherperson;\n“branch”meansthepermanentpremises,otherthanthehead\noffice, at which a financial service provider conducts\nbusinessinoroutsideZambia;\n“branchlessbanking”meanstheprovisionofbankingservices\norfinancialserviceswithoutrelyingonphysicalbranches;\n“bridgebank”meansaninstitutioncreatedbytheBankto\ntemporarilyoperateafailedbankorfinancial institution\nuntilabuyerisfoundforitsoperations;\n“ capital adequacy ” means the legal capital prescribed by\ntheBankintermsofmoneyorassetsinvestedoravailable\nfor investment in the business that is sufficient for the\nsustainabilityofthefinancialserviceprovider;\n“capitalconservationbuffer”meansthemandatorycapital\nthatfinancialinstitutionsarerequiredtohold,inadditionto\nminimumcapitalrequirements,asprescribed,tobedrawn\ndownwhenlossesareincurredduringperiodsofstress;\n190 No. 7 of 2017] Banking and Financial Services\n“chief executive officer” means the person engaged by a\nfinancial service provider who is responsible, under the\nimmediateauthorityoftheboard,fortheconductofbanking\nbusiness or financial services for the financial service\nprovider;\n“ chief financial officer ” means a person responsible for\nmaintaining the accounts and accounting records of a\nfinancialserviceprovider;\n“chiefriskofficer”meansasenioremployeeofafinancial\nservice provider with distinct responsibility for risk\nmanagementfunctionsandthefinancialserviceprovider’s\nenterprise-wideriskmanagement framework;\n“ company ” has the meaning assigned to the word in the\nAct No. of CompaniesAct,2017;\n2017\n“commonenterprise”meansanundertakingoftwoormore\npersonswithanequalrighttodirectandbenefitfromthe\nundertakingandwherethenegligenceofanyofthepersons\nmaybeimputedtotheothers;\n“commonequitytierone”meansthesumofthefollowing:\n(a)paid-"
+    },
+    {
+      "number": "5",
+      "heading": "The following licences shall be issued by the Bank in Types of",
+      "text": "5. The following licences shall be issued by the Bank in Types of\naccordancewiththisAct: Licences\n(a) a banking licence, which shall authorise a licensee to\nconductabankingbusiness;\n(b) a financial business licence, which shall authorise a\nlicenseetoconductafinancialbusiness;and\n(c) a financial institution licence, which shall authorise a\nlicenseetoprovideafinancialservice.\n6. (1) Acompanyshallnotconductabankingbusinesswithout Providing\nbanking\nabankinglicence.\nbusiness,\n(2) A body corporate shall not conduct a financial business financial\nbusinessor\nwithoutafinancialbusinesslicence,orprovideafinancialservice\nfinancial\nwithoutafinancialinstitutionlicence. services\nwithout\n(3) Apersonthatcontravenesthissectioncommitsanoffence licence\nandisliable,uponconviction,toafinenotexceedingfivehundred\nthousandpenaltyunitsortoimprisonmentforatermnotexceeding\nfouryears,ortoboth.\n200 No. 7 of 2017] Banking and Financial Services\nApplication 7. (1) Anapplicationforabankinglicence,financialinstitu-\nforbanking, tionlicenceorfinancialbusinesslicenceshallbemadeinthepre-\nfinancial\nbusinessor scribedmannerandform.\nfinancial\n(2) An application for a licence, specified in subsection (1),\ninstitution\nlicence shall beaccompaniedbytheprescribedapplicationfee andshall\nhaveattachedtoitorcontainthefollowing:\n(a)articlesofassociationorotherconstitutivedocuments;\n(b)physicalandpostaladdressesoftheprincipaladministrative\noffice;\n(c)permanentresidentialaddressesoftheapplicant’sdirectors,\nchiefexecutiveofficer,managers;\n(d) name and permanent residential address of every\nsubscriber for any class or series of shares issued by\ntheapplicant;\n(e) addresses of each branch proposed to be opened by the\napplicant and, in the case of a mobile office, the area\nproposedtobeserved;\n(f)fullparticularsofthebusinessitproposestoconduct;\n(g)amountoftheapplicant’s capital;and\n(h)namesof the applicant’sassociatesandaffiliates.\n(3) An applicant may withdrawan application for a licence,\nby notice in writing to the Bank, in the prescribed manner and\nform,atanytimebeforethelicenceisgrantedortheapplicationis\nrejected.\n(4) TheBankshall,inconsideringanapplicationforalicence,\nmadeinaccordancewithsubsection(1),have regardtothe\n(a)capitaladequacyoftheapplicant;\n(b)financialcondition,resourcesandhistoryoftheapplicant;\n(c)applicant’sassociatesandaffiliates;\n(d) transparency of the legal, operational, managerial,\ngovernanceandownershipstructures;\n(e) character and experience of the directors, significant\nshareholders,beneficialowners, foundersor persons\nproposing to be concerned in the management of the\nbankingbusiness,financialbusinessorfinancialservice;\n(f)convenienceandneedsofthe communityintendedtobe\nservedbythebankingorfinancialbusinessorprovision\nofafinancialservice;and\n(g) prospects for the profitable operation of the banking or\nfinancialservicebusiness.\nBanking and Financial Services [No. 7 of 2017 201\n8. (1) WhereanapplicantmeetstherequirementsofthisAct, Grant of\ntheBankshall,withinonehundredandtwentydaysofreceiptof licence\nan application for a licence made in accordance with section 7,\ngrant a licence.\n(2) Abankinglicence,financialbusinesslicenceorfinancial\ninstitutionlicence for a subsidiaryof a foreign companymay be\ngrantedif—\n(a)theforeigncompanyisafinancialserviceproviderandis\nauthorisedtoengageinbankingbusinessinthecountry\nwhereitsprincipalplaceofbusinessislocated;and\n(b) the Bank determines that the foreign financial service\nprovider is adequately supervised by competent\nauthoritiesinthecountryofincorporation.\n(3) A licence granted in accordance with subsection (1) or\n(2),may—\n(a) contain terms and conditions that the Bank may deter-\nmineinrelationtothebusinessasspecifiedinthisAct;\n(b)provideforthepaymentofannualorotherperiodicfees\nthatmaybeprescribed;and\n(c)require the financial service provider to allow the Bank\naccess to the offices, records, documents and\ninformation of the financial service provider whether\ninsideoroutsideZambia.\n(4) Afinancial service provider shall not provide or offer to\nprovide banking or financial services in breach of the terms and\nconditionsofthelicence."
+    },
+    {
+      "number": "9",
+      "heading": "Afinancialserviceprovidershalldisplaythelicenceissued Display of",
+      "text": "9. Afinancialserviceprovidershalldisplaythelicenceissued Display of\ntothefinancialserviceproviderinaprominentplaceatitsbusiness licence\npremises.\n10. (1) The Bank shall reject an application for a licence Rejectionof\nwhere— application\nforlicence\n(a)anapplicantdoesnotmeettherequirementsofthisAct;\n(b) a licence previously held by an applicant has been\ncancelledbytheBank;\n(c)anapplicant submits false informationinrelation tothe\napplication;or\n(d)thenamethatafinancialserviceproviderisproposingto\nberegisteredis—\n(i) identical with that of another financial service\nprovider;or\n(ii)resemblesthenameofanotherfinancialservice\nproviderandislikelytodeceivethepublic.\n202 No. 7 of 2017] Banking and Financial Services\n(2) Where the Bank rejects an application for a licence, the\nBankshallinformtheapplicantofitsdecision,inwriting,within\nseven days of makingthe decisionandshall give reasonsfor the\nrejection.\nValidityof 11. A licence shall remain valid unless surrendered by the\nlicence financialserviceproviderorcancelledbytheBank.\nAuthorised 12. (1) Abanking licence may, subject to the conditions of\nactivitiesof\nthelicence,authoriseabanktoengageinthefollowingactivitiesin\nbanks\nadditiontobankingbusiness:\n(a) grant loans and extend credit, whether unsecured or on\nthesecurityofpropertyofanykind;\n(b)dealasaprincipaloranagentinthecurrencyofZambia\nand,subjecttotherulesandregulatorystatements,made\ninaccordancewiththisAct,inthecurrencyofanyother\ncountry, foreign exchange transactions, gold, silver,\nplatinum,bullionorcoins;\n(c) provide moneytransfer or transmission services from a\ncustomer’s account;\n(d)issueandadminister payment,creditordebit cardsand,\nincooperationwithotherprescribedserviceproviders,\nthe operation of payment, credit card and debit card\nsystems;\n(e)actasatrustee,executororadministratorofanestateor\ninanyfiduciarycapacityforanyperson;\n(f)actas a financial agent foranyperson;\n(g)providesafekeepingandcustodialservicesforfinancial\nassets andsecurities;\n(h) provide merchant banking services, including the\narrangementandunderwritingofshares,tradefinancing,\ncorporatefinancingandprovisionoffinancialadvice;\n(i)dealasa principaloragentforitscustomersinfinancial\nderivatives;and\n(j)providebranchlessbankingservices.\n(2) The Bank may prescribe other authorised activities that\nmay be undertaken by financial service providers which are not\ninconsistentwiththisAct.\nTransfer, 13. (1) Subjecttosubsection(2),alicencemay,withtheprior\npledge, writtenapprovaloftheBank,betransferred,pledged,assignedor\nassignment,\nencumberance encumberedintheeventofacorporaterestructuringtransaction.\noflicence\nBanking and Financial Services [No. 7 of 2017 203\n(2) An application for a transfer, pledge, assignment or\nencumberanceofalicence,asspecifiedinsubsection(1),shallbe\nmadetotheBankintheprescribedmannerandform.\n(3) TheBankmay,withinthirtydaysofreceiptofanapplication\nmadeinaccordancewithsubsection(2)—\n(a)approvetheapplicationonsuchtermsandconditionsas\ntheBankmaydetermine;or\n(b)rejecttheapplicationandgivereasonsfortherejection.\n14. (1) Subject to subsection (2), the Bank may, on the Variationof\napplicationofalicenseeorbyitsownmotion,varythetermsand licence\nconditionsofalicence.\n(2) TheBankshall,beforevaryingthetermsandconditionsof\nalicence,inaccordancewithsubsection(1),givenotice,inwriting,\nto the licensee of the Bank’s intention to make variations in the\nmannerspecifiedinthenotice.\n(3) Thelicenseemay,withinthirtydaysofreceiptofthewritten\nnotice,specifiedinsubsection(2),makewrittenrepresentationto\ntheBankontheproposedvariation.\n(4) TheBankshall,indecidingwhethertovaryalicence,have\nregardtosection7.\n(5) The Bankshall,on varyinga licence in accordance with\nthissection,notifythelicenseeofthevariation,inwriting,andthe\nnoticeshallstatetheeffectivedateofthevariation.\n(6) CompensationshallnotbepayablebytheBanktoafinancial\nservice provider for a variation to a licence made in accordance\nwiththissection.\n15. (1) The Bank may, on application by a licensee, and on Amendment\npayment of a prescribedfee,amend a licence where— oflicence\n(a)apersonhassucceededtitletotheinterestinthelicence,\nbysubstitutingthenameofthesuccessorintitle;or\n(b)thenameofafinancialserviceprovider haschanged,by\nsubstitutingthenamesochanged.\n(2) TheBankshall,beforeamendingalicenceasspecifiedin\nsubsection(1),notifythepublicbypublishinganoticeintheGazette\nandinadailynewspaperofgeneralcirculationorothermedia in\nZambia.\n16. (1) A licensee that intends to surrender a licence shall Surrenderof\nnotifytheBank,inwriting,intheprescribedmannerandformofits licence\nintentiontodoso.\n204 No. 7 of 2017] Banking and Financial Services\n(2) A licensee shall agree with the Bank on the terms and\nconditionswithrespecttoasurrenderofalicence,withparticular\nreference to any benefit obtained or liability incurred due to the\nlicenceortherequirementsofanyotherrelevantlaw.\n(3) Where a licence is surrendered, in accordance with\nsubsection(1),andtheBankissatisfiedthatallliabilitiesareorwill\nActNo.of besatisfiedandtherequirements"
+    },
+    {
+      "number": "22",
+      "heading": "TheRegistrarshallpublish,annually,intheGazette— Publication",
+      "text": "22. TheRegistrarshallpublish,annually,intheGazette— Publication\noffinancial\n(a) the licences issued to, and the names of, the financial service\nproviders\nserviceproviders;and\n(b) a list of licences suspended or cancelled in accordance\nwiththisAct.\n23. (1) TheBankshall,inwriting,andsubjecttosuchterms Appointment\nand conditions as it may determine, appoint a suitably qualified ofRegistrar\nand Deputy\nofficer of theBankas Registrar.\nRegistrars\n(2) The Bankmay designate officers of the Bank as Deputy\nRegistrarswhoshallbesubjecttothecontrolanddirectionofthe\nRegistrarandshallexercisethepowersandperformthefunctions\ndirectedordelegatedbytheRegistrar.\n(3) The Registrar and Deputy Registrars, specified in\nsubsections(1)and(2),shalleachholdofficeforaperiodoffive\nyearsandshallbeeligibleforreappointmentforafurtherperiodof\nfive years."
+    },
+    {
+      "number": "24",
+      "heading": "The Bank may authorise a financial service provider to Financial",
+      "text": "24. The Bank may authorise a financial service provider to Financial\nprovidebankingandfinancialserviceswithoutrelyingonphysical inclusion\nbranches in order to promote accessibility by unserved areas to\nbankingandfinancialservices.\nPART III\nOWNERSHIPANDCONTROLOFFINANCIALSERVICEPROVIDERS\n25. (1) Subject tosubsection(2),apersonshallnotwithout Limiton\npriorapprovaloftheBank,inwriting— voting\ncontrol\n(a) acquire any beneficial interest in the voting shares of a\nfinancialserviceprovider;or\n(b) enter into any voting arrangement or other agreement\nthatwouldenablethatpersonoranotherpersontocontrol\nmorethantwenty-fivepercentofthetotalvotesthatcould\nbecastatameetingofthefinancialserviceprovider.\n(2) Subjecttosection27(3),whereapersonintendsto—\n(a)acquirebeneficialinterestinthevotingsharesofafinancial\nserviceprovider;or\n(b)enterintoavotingarrangementtrustorotheragreement;\nthat would enable that person to control more than twenty-five\npercent of the total votes that may be cast on a resolution at a\nmeeting of the financial service provider, the financial service\nprovidershallobtainthepriorwritten approvaloftheBank.\n208 No. 7 of 2017] Banking and Financial Services\n(3) Whereafinancialserviceproviderreferredtoinsubsection\n(1)ispubliclytraded,thefinancialserviceprovidershallnotifythe\nBank as soon as it becomes aware that a person has become a\nsignificantshareholderinthefinancialserviceprovider.\n(4) The Bankshall, within sixty days of receipt of a request\nforapprovalasspecifiedinsubsection(2),grantorrejecttherequest.\n(5) Where the Bank rejects a request for approval, made in\naccordancewithsubsection(2),theBankshallinformtherequester,\ninwriting,ofthereasonsfortherejectionwithinfourteendaysof\nsuchrejection.\n(6) Subsection (1) does not apply to a company which has\nmore than fifty-one percent of its shares publicly traded on a\nsecurities exchange, whether within Zambia or outside Zambia,\nacceptable to the Bank.\n(7) Despitesubsection(1),theBankmayprescribeadifferent\nlimitofvotingcontrolforfinancialbusinesses.\n(8) The Bankmaysuspend the exercise of votingrights that\nareinexcessofthelimitofvotingcontrolspecifiedinsubsection\n(1)orprescribedinaccordancewithsubsection(7).\n(9) Abeneficialowner shall,inpersonor byproxy,exercise\nonly the voting rights on a voting share that is registered, in the\nnameofthebeneficialowner,ontheshare registerofa financial\nserviceprovider.\n(10) Apersonthatcontravenesthissectioncommitsanoffence\nandisliable,uponconviction,toafinenotexceedingfourhundred\nthousandpenaltyunitsortoimprisonmentforatermnotexceeding\nfouryears,ortoboth.\nDivestment 26. (1) Whereafinancialserviceprovidercontravenessection\nofcontrol 25,theBankshall,onreceivingnotification,fromanyperson,of\nthe contravention, direct the financial service provider, in the\nprescribedmannerandform,todisposeofthebeneficialinterestin\nthevoting sharesorterminateormodifythevotingtrustorother\narrangementtoreducetheperson’scontroltotheextentpermissible\nbyorinaccordancewiththisAct.\n(2) A financial service provider directed to dispose of a\nbeneficialinterestinvotingshares,orterminateormodifythevoting\ntrustorotherarrangement,shalldosowithinthirtydaysofreceiving\nthedirectionfromtheBank.\n(3) TheBankmay,forpurposesofensuringcompliancewith\nsubsection(1),directafinancialserviceprovidertosubmittothe\nBanka planofactionwithregardtothe reductionofcontroland\ntheBankmaygivedirections,inwriting,fortheimplementationof\ntheplan.\nBanking and Financial Services [No. 7 of 2017 209\n27. (1) Abeneficialownershallnotownsharesinthecapital Ownership\nof,oracquireormaintaincontrolin,morethanonefinancialservice\nprovider,withoutthepriorwrittenapprovaloftheBank.\n(2) Anomineemayholdsharesinafinancialserviceprovider\nonlyifthebeneficialownerisidentifiableandcomplieswiththis\nAct.\n(3) A beneficial owner shall not transfer to another person\nanysharesor other formofownershipinafinancial servicepro-\nviderthatconstitutesasignificantshareholding,withouttheprior\nwrittenapprovaloftheBank.\n(4) Thissectiondoesnotpreventapersonfromacquiringall\nthevotingsharesinthecapitalofafinancialserviceproviderfor\nthepurposeofimplementingacorporaterestructuringtransaction\nin accordance with thisAct, except that the person shall comply\nwith section 25 at the completion of the corporate restructuring\ntransaction.\n(5) Arequest for the writtenapprovalofthe Bank,madefor\npurposes of this section, shall be made in the prescribed manner\nandform.\n(6) A beneficial owner of the shares of a financial service\nprovidershallnotcharge,useascollateralorencumberthoseshares.\n(7) Apersonthatcontravenesthissectioncommitsanoffence\nandisliable,uponconviction,toafinenotexceedingfourhundred\nthousandpenaltyunitsortoimprisonmentforatermnotexceeding\nfouryears,ortoboth."
+    },
+    {
+      "number": "28",
+      "heading": "Atrust or person that controls another person’s property Prohibition",
+      "text": "28. Atrust or person that controls another person’s property Prohibition\nof\normoneyunderanarrangementoragreement,shallnotownshares\nownership\nin a financial service provider, unless the beneficial owner and ofsharesby\ntrusts\npersons that control the trust, arrangement or agreement are\nidentifiableandcomplywiththisActandanyotherrelevantwritten\nlaw.\n29. (1) Subjecttosection30,afinancialserviceprovidermay Corporate\nrestructuring\neffectacorporaterestructuringtransactionwithanothercompany,\ntransactions\nthat is not a financial service provider, if the transaction is in\nfurtheranceofthebusinessofthefinancialserviceprovider.\n(2) A bank or financial institution may effect a corporate\nrestructuringtransactionwithafinancialbusinessiftherestructured\ncompanyshallbeabankorfinancialinstitution.\n210 No. 7 of 2017] Banking and Financial Services\nRequire- 30. (1) Despite any other written law, a financial service\nments for\nprovidershallnoteffectacorporaterestructuringtransactionwithout\ncorporate\nrestructuring thepriorwrittenapprovaloftheBank.\ntransaction\n(2) Afinancialserviceprovidershallapply,intheprescribed\nmanner and form, to the Bank for approval to effect a corporate\nrestructuring transaction, in accordance with section 29,\nspecifying—\n(a)thenameofeachfinancial service providerorcompany\ninvolved in the proposed corporate restructuring\ntransaction;\n(b) a statement of the nature of the transactionproposed to\nbeenteredinto;\n(c)thematerialdocumentsintendedtoevidenceorimplement\nthecorporaterestructuringtransaction;and\n(d)suchotherinformationastheBankmayrequire.\n(3) TheBankshall,inconsideringanapplicationforapproval\nofacorporaterestructuringtransaction,haveregardtothe—\n(a) capital adequacy of each applicant in relation to the\ntransaction;\n(b)generalfinancialcondition,resourcesandhistoryofeach\napplicant;\n(c) character and experience of the directors and persons\nconcerned in the management of the company\nconcerned;\n(d)prospectsof profitabilityof the company’s operation,if\nthetransactionisapproved;\n(e) probable effect of the transaction on competition in the\nfinancialsector;\n(f)requirementsoftheCompetitionandConsumerProtection\nAct,2010;and\n(g)transparencyofthelegal,financial,operational,managerial,\ngovernance and ownership structure of the proposed\nrestructuredfinancialserviceprovider.\n(4) The Bankshall, where it grants approval for a corporate\nrestructuring transaction, specify a date on which the corporate\nrestructuringtransactionshalltakeeffect.\nBanking and Financial Services [No. 7 of 2017 211\n(5) TheBankshall,whereitrejectsanapplicationforapproval Effectof\ncorporate\nforacorporaterestructuringtransaction,informtheapplicantwithin restructuring\ntransaction\nsevendaysofthedecisionandgivereasonsfortherejection.\n31. (1) In this section—\n“newentity”meansafinancialserviceproviderformedbya\ncorporaterestructuringtransaction;and\n“ old entity ” means the financial service provider existing\npriortothecorporaterestructuringtransaction.\n(2) Where a corporate restructuring transaction takes effect\ninaccordancewiththisAct—\n(a)theassetsandliabilitiesoftheoldentityor,inthecaseof\natransferofassetsandliabilities,theassetsandliabilities\nagreedtobetransferred,shallvestinthenewentity;\n(b) the new entity shall submit a written statement to the\nBank,confirmingthattheassetsandliabilitiesoftheold\nentity have been transferred in accordance with the\napprovedrestructuringproposal;\n(c)thenewentityshall have thesame rights andbesubject\ntothesameobligationsaswere,immediatelybeforethe\ntransactiontookeffect,bindingontheoldentityor,in\nthecaseofatransferofassetsandliabilities,thesame\nrightsandobligationsaswereapplicabletotheoldentity\nwithrespecttotheassetsandliabilitiessotransferred;\n(d)theagreements,appointments, transactionsanddocuments\nrelatingtotransactionsoftheoldentity,thatwerevalid\nimmediately before the corporate restructuring\ntransaction took effect, shall continue to be valid and\nshallbedeemedtohavebeenenteredintowiththenew\nentity;and\n(e)amortgage,bond,pledge,guaranteeorotherinstrument\nrelatingtothecorporaterestructuringtransactiongiven\nto secure past, present and future advances, facilities\nor services by the old entity, shall be deemed to be a\nmortgage,bond,pledge,guaranteeorinstrumentgiven\nto,orinfavourof,thenewentity.\n212 No. 7 of 2017] Banking and Financial Services\n(3) TheRegistrarofCompaniesandaRegistrarofLandsand\nDeeds shallmake endorsementsandalterations inthe respective\nregisters,soastorecordthetransferofthepropertyandanyrights\norliabilitiesinthepropertyarisingfromacorporaterestructuring\ntransaction where the Registrar of Companies and the Registrar\nof Lands andDeeds are satisfied that —\n(a) the Bank has approved the corporate restructuring\ntransaction;and\n(b) the transaction has been duly effected through a deed,\ninstrument,mortgageorotherdocument.\n(4) Thissectiondoesnotaffecttherightsofanycreditor,except\ntotheextentspecifiedinthissectionandthedocumentsrelatingto\nthecorporaterestructuringtransaction.\nPART IV\nCORPORATE GOVERNANCE\nResponsibili-"
+    },
+    {
+      "number": "49",
+      "heading": "A register or record that a financial service provider is Manner of",
+      "text": "49. A register or record that a financial service provider is Manner of\nkeeping\nrequiredtoestablishandmaintaininaccordancewiththisActshall\nrecords\nbe—\n(a)boundinlooseleaforphotographicfilmform;\n(b) entered or recorded by any system of mechanical or\nelectronicdataprocessingoranyotherdeviceorprocess\ncapable of reproducing the information in intelligible\nwrittenformwithinareasonabletime;and\n(c)ifkeptinanyoneform,becapableofconversiontoany\notherform.\n50. (1) Afinancialserviceprovidershallretainaregisteror Retention of\nrecordfora periodoftenyears. records\n(2) TheBankmayrequireafinancialserviceprovidertoretain\nrecordsforalongerperiodthanspecifiedinsubsection(1).\n51. (1) Afinancialserviceprovidershall,withrespecttoa\nMaintenance\nregister or record— ofrecords\n(a)preventlossorunauthoriseddestruction;\n(b)preventfalsificationofentries;\n(c) facilitate the detection and correction of inaccuracies;\nand\n(d)preventtheuseoraccessofinformationbyanunauthorised\nperson.\n(2) A financial service provider may destroy a register or\nrecord, kept in accordance with this Act, at any time after the\nregister orrecordhasbeenconvertedtoanother form.\n(3) Apersonshallnot—\n(a)destroy,alter,mutilateorfalsifyanybook,document,valu-\nable security or account, which belongs toa financial\nservice provider or customer, or any entry in such a\nbook,document,oraccount,orbeprivytoanysuchact;\n(b)makeorbeprivytothemakingofafalseentryinabook,\ndocumentoraccount;or\n222 No. 7 of 2017] Banking and Financial Services\n(c) omit or be privy to an omission of a material particular\nfromabook,documentoraccount.\n(4) A person who contravenes subsection (3) commits an\noffenceandis liable,uponconviction,toafinenotexceedingtwo\nhundredthousandpenaltyunitsortoimprisonmentforatermnot\nexceedingtwoyears,ortoboth.\nPART VI\nPRUDENTIALREGULATIONANDSUPERVISION\nMinimum 52. (1) TheBankshallprescribetheminimumpaidupcapital,\ncapital minimumcommonequitytierone,minimumprimarycapitaland\nrequirements\nminimum regulatory capital requirements for financial service\nproviders.\n(2) Afinancialserviceprovider shallcomputeitsregulatory\ncapitalinthemannerprescribedbytheBank.\n(3) A financial service provider shall commence operations\nwiththeminimumpaidupcapitalprescribedbytheBank.\n(4) Afinancialserviceprovidershallmaintaintheminimum\ncommonequitytierone,primarycapitalandregulatorycapitalratios\nprescribedbytheBank.\n(5) Despite subsection (4), the Bank may require a bank or\nfinancialinstitutiontomaintaincommonequitytieroneandprimary\nandregulatorycapitalratios,inexcessoftheprescribedamounts,\nwhereabankorfinancialinstitution—\n(a)has been operatingfor less thanthree years;\n(b)hasbeenorisexpectedtohavelossesresultingincapital\ndeficiencies;\n(c) has significant exposure to risk, whether credit,\nconcentrationofcredit,interestrisk,liquidity,operational\nor any other serious weaknesses in the quality of its\nassets or earnings;\n(d)hasahighorseverevolumeofpoorqualityassets;\n(e)isgrowingrapidly,internallyorthroughacquisitions;\n(f)maybeadverselyaffectedbytheactivitiesorconditions\nofitsholdingcompany,subsidiaryorassociates;\n(g) has deficiencies in its ownership or management,\nshareholdingstructure,composition,qualificationsofits\ndirectorsorseniorofficersorriskmanagementpolicies\nandprocedures; or\nBanking and Financial Services [No. 7 of 2017 223\n(h) may be adversely exposed in any other circumstance\ndeterminedorprescribedbytheBank.\n(6) Afinancialserviceprovidershallnotissueanyshareinits\ncapitalorothersecurityotherthanabonusshareorashareinlieu\nofdividendorotherprescribedsecurityunlessitreceivesthefullface\nvaluethereofinZambianKwacha.\n53. (1) A financial service provider shall build up a capital Capital\nconservationbuffer. conservation\nbuffer\n(2) The capital conservation buffer shall be in the form of\ncommonequitytieroneasprescribedbytheBank.\n(3) TheBankmayprescribedifferentbufferrequirementsfor\ndifferentcategoriesoffinancialserviceproviders.\n(4) Afinancialserviceprovidershallnotdeclare,creditorpay\nanydividends,ormakeotherdiscretionarypaymentsormakeany\ntransferfromretainedearnings,ifdoingsowouldresultinfailure\ntoprovidefor,ormaintain,therequiredcapitalconservationbuffer.\n54. (1) Subjecttosubsection(3),theBankmayrequirebanks Counter-\nandfinancialinstitutionstomaintainacounter-cyclicalcapitalbuffer cyclical\ncapital\nin their riskweighted assets and forms of commonequitycapital buffer\ntierone.\n(2) WheretheBankadjuststhecounter-cyclicalcapitalbuffer,\ntheBankshallannouncethedecisionatleastthirtydaysinadvance\nof the effective date,except that a decision to decrease the level\nofthecountercyclicalcapitalbuffershalltakeeffectimmediately.\n(3) Acounter-cyclicalcapitalbuffershallnotberequiredwhere\ntheBankdeterminesthatthecapitalreleasedshallhelptoabsorb\nlossesinabankorfinancialinstitutionthatposearisktofinancial\nstability.\n55. (1) Abankorfinancialinstitutionthatintendstodeclarea Restriction\ndividendshallapplytotheBank,forapprovaloftheamountproposed on payment\nofdividends\nto be declared.\n(2) TheBankmay,havingregardtotheimpactonthecapit"
+    },
+    {
+      "number": "71",
+      "heading": "TheBankshall,ontakingpossessionofafinancialservice Powersand",
+      "text": "71. TheBankshall,ontakingpossessionofafinancialservice Powersand\nprovider,bevestedwithfullandexclusivepowersofmanagement dutiesof\nBankon\nandcontrolofthefinancialserviceproviderandshallhavethepower\ntaking\nto— possession\n(a)dissolvetheboard;\n(b)continueordiscontinueanyoperations;\n(c)borrowmoney,onthesecurityoftheassetsofthefinancial\nserviceproviderornotonsuchsecurity;\n(d)suspendthepaymentofanyobligation,includinginterest;\n(e)employ,reemploy,retaininemployment,orterminatethe\nemploymentofasenior officer,otheremployeeofthe\nfinancialserviceproviderorprofessionaladvisor,where\ntheBankconsidersnecessary;\n(f)executeaninstrumentinthenameofthebankorfinancial\ninstitution and conduct in the name of the bank or\nfinancialinstitutionanyactionorlegalproceeding;\n(g) terminate the interests of shareholders and refer the\ndeterminationofthevalueoftheinteresttotheCourtor\nanarbitrator;\n(h) enforce the personal liability of the directors and\nshareholdersofthefinancialserviceproviderincurred\nintheordinarycourseofbusinessandonunpaidshares;\nand\n(i)takeanyotherappropriateactionspecifiedinthisAct."
+    },
+    {
+      "number": "72",
+      "heading": "TheBankshall,ontakingpossessionofafinancialservice Statement of",
+      "text": "72. TheBankshall,ontakingpossessionofafinancialservice Statement of\naffairsof\nprovider,prepareastatementofaffairsoftheassetsandliabilities\nassets and\nofthefinancialserviceprovider,withinninetydaysfromtheeffective liabilities on\ntaking\ndateoftakingpossession,inordertodeterminewhetherthefinancial\npossession\nserviceproviderissolventorinsolvent."
+    },
+    {
+      "number": "73",
+      "heading": "Whereastatementofaffairsoftheassetsandliabilitiesof Actions",
+      "text": "73. Whereastatementofaffairsoftheassetsandliabilitiesof Actions\na financial serviceprovider,made inaccordancewith section 72 where\nfinancial\nshowsthefinancialserviceproviderissolvent,theBankshall— service\nprovideris\n(a)restructureorreorganisethefinancialserviceprovider; solvent\n(b)sellthefinancialserviceproviderasagoingconcern;\n(c)closethefinancialserviceprovider;\n(d)transferallorpartofthebusinessofthefinancialservice\nprovidertoabridgebank;\n234 No. 7 of 2017] Banking and Financial Services\n(e)initiateapurchaseandassumptiontransaction;\n(f) dispose of some of the assets of the financial service\nprovider;or\n(g)takeanactionthattheBankconsidersnecessarytoenable\ntheBank carryoutitsfunctionsinaccordancewiththis\nAct.\nActions 74. (1) Whereastatementofaffairsoftheassetsandliabilities,\nwhere madeinaccordancewithsection72,showsthatthefinancialservice\nfinancial\nservice providerisinsolvent,theBankshalltakethefollowingactions:\nprovideris\ninsolvent (a) place the financial service provider under compulsory\nliquidation;\n(b)exerciseanyofthepowersinsection73;or\n(c)withrespecttoafinancialbusiness,revokethefinancial\nbusiness licence and recommend to the appropriate\nauthoritytoplacethefinancialbusiness,intoliquidation.\n(2) Despitetheprovisionsofsubsection(1),whereafinancial\nserviceproviderissystemicallyimportant,theBankinconsultation\nwiththeMinister,mayplacetheinstitutionundertemporarypublic\ncontrol.\nApplication 75. Afinancialserviceprovideroranyinterestedpersonacting\ntoCourtfor onits behalfmay,withintwentyone daysafter thedateonwhich\ntermination\nofpossession theBanktakespossessionofthefinancialserviceprovider,institute\nproceedingsinCourtto requiretheBanktoshowcausewhythe\npossessionofthefinancialserviceprovidershouldnotbeterminated.\nEffectsof 76. (1) WheretheBanktakespossessionofafinancialservice\npossession provider—\n(a)despitetheprovisionsofanyotherrelevantlawrelatingto\nextension of time, any term, whether statutory or\ncontractual,ontheexpirationofwhichaclaimorright\nof the financial service provider would expire or be\nextinguished,shallbeextendedbysixmonthsfromthe\ndateofsuchexpiration;\n(b) an attachment or lien, except for an attachment or lien\nexistingtwelvemonthspriortothetakingpossessionof\nthefinancialserviceprovider,shallbevacated;\n(c)anattachmentorlienshallnotattachtoassetsorproperty\nofthefinancialserviceproviderduringtheperiodthat\nthepossessioncontinues,exceptanattachmentorlien\ncreated—\nBanking and Financial Services [No. 7 of 2017 235\n(i) bytheBankincarryingoutitsroleoflenderof\nlastresort;or\n(ii) in favour of a payment system, settlement\nsystem or settlement in netting or gross\nsettlementarrangement;\n(d) everypayment or transfer of an asset or propertyof the\nfinancial service providermade withintenttoeffect a\npreferenceoftherecipientovertheothercreditorsofa\nfinancialserviceprovideroratlessthantheappraised\nbook value, shall be void, if made within a period of\ntwelvemonthsbeforetheBanktakespossessionofthe\nfinancialserviceprovider;\n(e)agratuitoustransferofanyassetofthefinancialservice\nprovider made within twelve months before the\npossessionbytheBankshallbevoidandallassets shall\nbesurrenderedtotheBank;and\n(f) any lending to a senior officer, other employee of the\nfinancial service provider, director or any associated\npersononpreferentialtermsorwithoutadequatesecurity\nmade withinsixmonths prior to the possession of the\nfinancial service provider may be rescinded and that\nsenior officer,other employee of the financial service\nproviderorassociatedpersonshallimmediatelyrefund\nthe moneys advanced and interest accrued, at the\nprevailingrateatthetimeofpossession,tothefinancial\nserviceprovider.\n(2) Whereapaymentortransfer,referredtoinsubsection(1)(d),\nhas the effect of preferring the recipient, it shall be presumed to\nhavebeenmadewiththatintent,exceptinthecaseofa—\n(a) payment made to a creditor in the ordinary course of\nbusinesstodischargeinwholeorinpartadebtorother\nliabilityofthefinancialserviceprovidertothecreditor;\nor\n(b)transferofanassetorpropertymadeinacurrentexchange\nforvaluableconsiderationequaltothefairmarketvalue\noftheassetorpropertytransferred.\n77. (1) WheretheBank,actinginaccordancewithsection73 Restructuring\n(a) commences a restructuring or reorganisation, or both, of a and\nreorganisation\nfinancialserviceprovider,theBankshall,aftergrantingareasonable\nopportunityforahearingtoallinterestedparties,developandsend\nacopyoftherestructuringorreorganisationplantoeachdepositor\nandanyothercreditorwho,undertheplan,wouldnotreceivefull\npayment.\n236 No. 7 of 2017] Banking and Financial Services\n(2) Acopyofarestructuringorreorganisationplan,specified\ninsubsection(1),shallbeaccompaniedbyanoticestatingthatthe\nBankshallproceedtocarryouttherestructuringorreorganisation,\niftheplanisnotrejected,inwriting,withinthirtydays—\n(a) by persons holding at least one third of the aggregate\namountofthedeposits;\n(b) creditors comprising at least onethird in value of the\naggregate of the claims of creditors, other than\nsubordinatedcreditors;or\n(c)ifwithint"
+    },
+    {
+      "number": "96",
+      "heading": "Afinancialserviceprovidershallnotappointapersonas",
+      "text": "96. Afinancialserviceprovidershallnotappointapersonas\nDisqualification\nof external anexternalauditorofthatfinancialproviderifthatpersonis—\nauditor\n(a)adirector,seniorofficerorotheremployeeofthefinancial\nserviceproviderorofanypersonassociatedoraffiliated\nwiththefinancialserviceprovider;\n(b)anassociateof adirectororseniorofficer;\n(c)abodycorporate;or\n(d)apersonwhopersonally,orthroughthatperson’spartner\noremployee,regularlyperformsthedutiesofsecretary\norbookkeepertothefinancialserviceprovider.\nAccessto 97. (1) Anexternalauditorofafinancialserviceproviderhas\ninformation therightofaccesstoallbooks,accountsandrecordsofafinancial\nand auditor’s\nreport serviceproviderandisentitledtorequirefromitsdirectors,senior\nofficers and agents such information and explanations that the\nexternal auditor requires toperformthe external auditor’s duties\nandresponsibilitiesasprovidedinthisActandanyotherrelevant\nlaw.\n(2) AreportmadeforthepurposesofthisActbyanexternal\nauditorshall—\n(a) express whether, in the external auditor’s opinion, the\nfinancialserviceprovidermadeavailableallinformation\nnecessary for the external auditor to comply with the\nrequirementsofthisActorotherrelevantlaw;\n(b)statewhether,intheexternalauditor’sopinion,anyofthe\nstatementsintheannualfinancialstatement—\nBanking and Financial Services [No. 7 of 2017 245\n(i)isfully,fairlyandproperlydrawnup;\n(ii)exhibitsatrueandfairstatement\nof the financial service provider’s financial\ncondition;and\n(iii)requiresanexplanationorinformationfromthe\nboard, senior officer or agent of the financial\nserviceproviderorasatisfactoryresponsehas\nbeenreceived;\n(c)statewhetherintheexternalauditor’sopinionthefinancial\nservice provider has complied with the provisions,\nregulations,rules,regulatorystatementsspecifiedinor\nunderthisActandanyotherrelevantlaw;and\n(d)statethetransactionsorconditionsthathavecometothe\nattention of the auditor affecting the wellbeing of the\nfinancial service provider that, in the opinion of the\nexternal auditor, are not satisfactory and require\nrectificationincluding—\n(i) anytransactionof the financial service provider\nthat has come to the attention of the external\nauditorandwhich,intheopinionoftheexternal\nauditor,hasnotbeenwithinthepowers ofthe\nfinancialserviceproviderorwhichwascontrary\ntothisActoranyotherlaw;and\n(ii) a non-performing loan that is outstanding, has\nbeen restructured or the terms of repayment\nhavebeenextended,iftheprincipalamountof\ntheloanisfivepercentormoreoftheregulatory\ncapitalofthefinancialserviceprovider.\n(3) Aboardshall submit acopyofthereportof theexternal\nauditor,togetherwithacopyoftheannualfinancialstatement,to\nthe Bank and each shareholder of the financial service provider,\nwithinaperiodofthreemonthsfromtheendofafinancialyear.\n98. (1) TheBankmaycausethedismissalofanexternalauditor Termination\nto a financial service provider for failure to perform duties and of\nappointment\nresponsibilities,inaccordancewiththisAct,orauditingstandards\nof external\napprovedbytheZambiaInstituteofCharteredAccountants. auditor\n(2) Whereanexternalauditortoafinancialserviceprovideris\ndismissed,inaccordancewithsubsection(1),thefinancialservice\nprovidershallappointanotherexternalauditor,subjecttomeeting\ntheconditionsprescribedbytheBank.\n246 No. 7 of 2017] Banking and Financial Services\n(3) Where a financial service provider fails to comply with\nsubsection(2),the Bankshall order thedismissalof theexternal\nauditor.\nStatement on 99. Whereanexternalauditorofafinancialserviceprovider\nresignation resigns,theexternalauditorshallprepareanddelivertotheBank,\nof external\nauditor awrittenstatementspecifyingthereasonsfortheresignation,within\ntendays aftersubmissiontothe financial service provider of the\nauditor’sresignation.\nTermination 100. (1) Where a financial service provider terminates the\nof appointmentofanexternalauditor,thefinancialserviceprovider\nappointment\nof external shallsubmittotheBankandtheexternalauditor,withintendaysof\nauditor by thedecisiontoterminatetheappointment,awrittenstatementsetting\nfinancial\nservice outthereasonsforthetermination.\nprovider\n(2) Anexternalauditormay,withintendaysofreceivingthe\nstatementreferredtoinsubsection(1),submittotheBankandthe\nfinancial service provider a written statement responding to the\nreasonssetoutbythefinancialserviceprovider.\nPART IX\nANTI-COMPETITIVEACTIVITIESANDCONSUMERPROTECTION\nCollusive 101. (1) Subjecttosubsection(3),afinancialserviceprovider\nconduct shallnotmakeanagreementorarrangementwithanotherfinancial\nserviceproviderwithrespecttothe—\n(a)rateofinteresttobeleviedonadeposit;\n(b)rateofinterestorchargeleviedonacreditfacility;\n(c)amountofachargefortheprovisionofafinancialservice;\n(d)provisionof,orrefusaltoprovide,bankingor financial\nservicestoa person;\n(e)divisionofmarketsbyallocatingcustomers;or\n(f)provisionofbankingorfinancialservicesinamannerthat\nrestrictscompetitioninthefinancialsector.\n(2) Afinancial service provider that contravenes subsection\n(1)commitsanoffenceandisliable,uponconviction,toafinenot\nexceedingthreehundred"
+    },
+    {
+      "number": "103",
+      "heading": "Afinancialserviceprovidershallnotcompelacustomer Coercive",
+      "text": "103. Afinancialserviceprovidershallnotcompelacustomer Coercive\ntousethefinancialserviceprovider’schoiceofasupplierofany behaviour\nserviceorgoods.\n104 (1) Afinancialserviceprovidershallnotharass,oppress Misconduct\norabuseapersoninthecollectionofadebt. duringdebt\ncollection\n(2) Afinancialserviceprovidershallnotusefalse,deceptive\normisleadingrepresentationormeanswhencollectingadebt."
+    },
+    {
+      "number": "105",
+      "heading": "TheBankmayprescribethebenchmarkinterestratethat Determination",
+      "text": "105. TheBankmayprescribethebenchmarkinterestratethat Determination\nafinancialserviceprovidershallchargecustomers. of\nbenchmark\nbase rate\n106. (1) Afinancialserviceprovidershall,atthetimeofopening Disclosure\na newaccount for acustomer,providea customer witha written of interest\nrates and\nstatementofthe— charges\n(a) charges for maintaining, and accessing funds on the\naccount;\n248 No. 7 of 2017] Banking and Financial Services\n(b)interest,ifany,tobepaidtothecustomerbythefinancial\nserviceprovider;and\n(c)mannerinwhichthefinancialserviceprovidershallinform\nthecustomerofnewchargesorchangesinthecharges\norinterestspecified.\n(2) Afinancialserviceproviderthatagreestomakealoanor\ncreditavailabletoapersonshall,beforemakingtheloanorcredit,\ndisclosethecostofborrowingtothepersoninwriting.\n(3) TheMinister,inconsultationwiththeBank,mayprescribe\nthe manner andform, and content of information,required to be\ndisclosedbyafinancialserviceproviderunderthissection.\nIncreasein 107. Afinancialserviceprovidershall,beforeintroducinga\nservice newcharge,orincreasingtherateofanexistingcharge forretail\ncharges\ncustomersormicro,smallandmediumscaleenterprises,applyfor\nthepriorwrittenapprovaloftheBank.\nResponsible 108. (1) Afinancialserviceprovidershall,beforeadvancinga\nlending creditfacilitytoacustomer,assessanddeterminethecustomer’s\nabilitytopaythecredit,basedonthecustomer’scurrentandexpected\nincome, current obligations, employment status, other financial\nresourcesorassetstobegivenassecurity.\n(2) A financial service provider shall not advance a credit\nfacilitytoacustomerwhosetotalmonthlydebtsdueonoutstanding\nobligations,includingamountsundercreditfacility,exceedalimit\nprescribedbytheBank.\n(3) Afinancialserviceproviderthatcontravenesthissection\ncommitsanoffence.\nProhibition 109. (1) A financial service provider shall not impose on a\nagainst borrowerachargeorpenaltyasaresultofthefailurebytheborrower\npenal\ntorepayorpayinaccordancewiththecontractgoverningtheloan\ninterest\notherthan—\n(a)interestonanoverduepaymentonaloan;\n(b)legalcostsincurredincollectingorattemptingtocollecta\npaymentonaloan;or\n(c) costs, including legal costs, incurred in protecting or\nrealisingthesecurityonaloan.\n(2) Afinancial service provider that contravenes subsection\n(1)commitsanoffence.\nBanking and Financial Services [No. 7 of 2017 249\n110. (1) Afinancialserviceprovidershallrecoverthefollowing Recoverable\namountsfromaborroweronanon-performingcreditfacility: amountson\nnon-\n(a)theprincipalamountowingwhenthecreditfacilitybecomes performing\nloan\nnon-performing;\n(b)anyinterestinarrearsdue inaccordancewiththe credit\nfacilityagreementbutnotexceedingtheprincipalamount\nowingwhentheloanbecomesnon-performing;and\n(c)expensesincurredintherecoveryof amountsowedbythe\nborrower.\n(2) Thissectiondoesnotapplytointerestawardedintermsof\na Court order or judgment and accruing after the making of the\norderorjudgment."
+    },
+    {
+      "number": "111",
+      "heading": "SubjecttotheFinancialIntelligenceAct,2010,afinancial Data",
+      "text": "111. SubjecttotheFinancialIntelligenceAct,2010,afinancial Data\nserviceprovidershallmaintaintheconfidentialityofinformation protection\nand\nobtainedintheprovisionofaservicetoacustomerandshallnot disclosureof\ndivulgeanyinformationexcept— information\nActNo.46\n(a)inaccordancewiththeexpressconsentofacustomer; of2010\n(b)incompliancewithacourtorder;\n(c)wheretheinterestofthefinancialserviceproviderrequires\ndisclosure;\n(d)wheretheinformationrequestediscustomeridentification\ndatarequiredbyanotherfinancialserviceproviderfor\nthepurposeofconductingaduediligence;or\n(e) where the Bank, in the performance of its functions as\nprovidedinthisAct,sorequestsordirects.\n112. (1) Afinancialserviceprovidershallnotengageinanti- Prohibition\ncompetitivepractices. ofanti-\ncompetitive\npractice\n(2) Afinancialserviceproviderthatentersintoanagreement,\nor makes a decision or engages into a concerted practice whose\nobjectiveoreffectistoprevent,restrictordistortcompetitiontoan\nappreciableextentinthefinancialsectorshallbeconsideredtohave\nengagedinanunsafeandunsoundpractice."
+    },
+    {
+      "number": "113",
+      "heading": "Afinancialserviceprovidershall— Complaints",
+      "text": "113. Afinancialserviceprovidershall— Complaints\nprocedurefor\n(a)establishandmakeavailable,inwriting,toeachcustomer, customers\nintheportionofeachbranchthatthepublichasaccess\nto, proceduresfordealingwithcomplaints madebya\ncustomer;\n250 No. 7 of 2017] Banking and Financial Services\n(b) designate a senior officer or other employee to be a\ncustomerservice officerresponsibleforimplementing\nandadministeringtheproceduresspecifiedinparagraph\n(a);and\n(c)createandmaintainfortwoyears,orsuchlongerperiod\nas the Bank may prescribe, a record stating the\ncomplaintsreceived,whenandhowtheyweredealtwith\nordisposedof.\nOmbudsperson 114. (1) TheBankmaydesignateorappointasuitablyqualified\nfor financial personasaFinancialOmbudspersontodealwithmattersrelating\nservice\nproviders toconsumerprotectioninbankingandfinancialservicesunderthis\nAct.\n(2) The Bank may, prescribe the manner of dealing with\ncomplaintsagainstfinancialserviceprovidersbytheircustomers.\nControlof 115. (1) TheBankmaymakerulesinrespectofthepublication,\nadvertisements formandcontentofadvertisementsrelatingtoafinancialservice\nprovider.\n(2) Rulesmadeinaccordancewithsubsection(1)may—\n(a) prohibit the publication of advertisements of any\ndescription, whetherbyreferencetotheircontents,to\nthepersonsbywhomtheyarepublishedorotherwise;\n(b)makeprovisionastothematterswhichshouldorshould\nnotbeincludedinsuchadvertisements;\n(c)provideforanyexemptionsfromanyrequirementimposed\nbythisAct;and\n(d)provideforoffences andpenalties for the breachofany\nrequirementoftherules.\n(3) TheBankshallgivesuchdirectivestothepersonwhohas\npublishedorcausedtobepublishedtheadvertisementasitconsiders\nappropriateinthecircumstances,whereitappearstotheBankthat\nanadvertisementmadeinaccordancewiththissection—\n(a)failstocomplywithanyrequirementimposedintherules\nmadeintermsofthissection;or\n(b)isfalseormisleading.\n(4) Adirectivegiven,intermsofsubsection(1),mayrequire—\n(a)apersontomodifytheadvertisement,inwholeorinpart;\nor\n(b)thepublicationoftheadvertisementtocease.\nBanking and Financial Services [No. 7 of 2017 251\n(5) Nothinginthissectionshallprejudiceanyremedythatan\naggrievedpersonmayhaveagainstapersonwhopublishedorcaused\ntobepublishedanadvertisement contrarytotherequirements of\ntherulesmadeinaccordancewiththissection.\n(6) Apersonwhocontravenesthissectioncommitsanoffence\nandisliable,uponconviction,toafinenotexceedingfivehundred\nthousandpenaltyunitsorimprisonmentforatermnotexceeding\nfiveyears,ortoboth.\n116. (1) Afinancialserviceprovidershallnotengageinanunfair Prohibition\nbusinesspractices. ofunfair\nbusiness\n(2) For purposes of this section, “unfair business practice” practices\nmeans—\n(a)a practice thatislikelytomisleadconsumers inmaking\ndecisions;\n(b)apracticethatcompromisesthestandardofhonestyand\ngood faith which a financial service provider can\nreasonablybeexpectedtomeet;or\n(c)apracticewhichplacespressureonconsumersanddistorts\ntheirdecisions,byuseofharassmentorcoercion.\n117. (1) Afinancialserviceprovidershallnotimposeacharge Prohibition\norpenaltyonaborrowerformakingaprepaymentoftheprincipal of charges\noraninstalmentoftheprincipalbeforeitsduedatewhere— on\nprepayment\n(a) the amount of repayment exceeds an amount to be\ndeterminedbytheBank orextinguishesthedebt;\n(b)aloanismadetoanaturalperson;and\n(c)theloanisnotsecuredbyamortgageonrealproperty.\n(2) Afinancial service provider that contravenes subsection\n(1)commitsanoffence.\n118. (1) Anunfairterminacontractconcludedwithacustomer Unfair\nbyafinancialserviceprovidershallnotbebindingonthecustomer. contract\nterms\n(2) Acontractualtermshallberegardedasunfairif—\n(a)ithasnotbeenindividuallynegotiated;and\n(b) contrary to the requirement of good faith, it causes a\nsignificantimbalanceintheparties’rightsandobligations\narising under the contract, to the detriment of the\ncustomer."
+    },
+    {
+      "number": "119",
+      "heading": "TheprovisionsofthisPartarewithoutprejudicetoany Recognition",
+      "text": "119. TheprovisionsofthisPartarewithoutprejudicetoany Recognition\nother law in force on the promotion of competition, consumer ofotherlaws\nprotectionandfairtrade.\n252 No. 7 of 2017] Banking and Financial Services\nPARTX\nINSOLVENCY,DISSOLUTIONANDLIQUIDATIONOFFINANCIAL\nSERVICE PROVIDERS\nAcceptance 120. (1) Despite the Corporate InsolvencyAct, 2017, or any\nofdeposits otherlaw,aninsolventfinancialserviceprovidershallnot—\nbyinsolvent\nfinancial\n(a)receivedeposits;or\nservice\nproviders (b)enterintoanynew,orcontinuetoconductexisting,banking\nActNo.of\n2017 or financial service business, except that which is\nnecessary or incidental to the orderly realisation,\nconservationandpreservationoftheassetsofafinancial\nserviceprovider.\n(2) Atransactionwithadepositororacreditorandasettlement\ninanettingorgrosssettlementarrangementinaccordancewitha\nsystemofsettlementapprovedbytheBank,orprovidedforinany\nother law shall not be treated as prohibited in accordance with\nsubsection (1) by reason only that the insolvency transaction or\nsettlementtookplacepriorto—\n(a)aresolutiontoliquidatethefinancialserviceprovider;or\n(b)theappointmentofareceiverorthetakingpossessionof\nthefinancialserviceproviderbytheBank.\n(3) Adirector,seniorofficerorotheremployeeofafinancial\nserviceproviderwhoknowsor,intheproperperformanceofduties,\ncould reasonably be expected to know of the insolvency of the\nfinancialserviceproviderandwhocausesorpermitsanyactcontrary\ntothissection,commitsanoffenceandis liable,uponconviction,\ntoafinenotexceedingfivehundredthousandpenaltyunits orto\nimprisonmentforatermnotexceedingfiveyears,ortoboth.\nResolutionto 121. (1) Afinancialserviceprovidershallnot,exceptwiththe\nvoluntarily writtenapproval of the Bank,pass a resolutionfor the voluntary\nwind-upor\ndissolve winding-up or dissolution of the financial service provider in\nfinancial accordancewiththe CorporateInsolvencyAct,2017,oranyother\nservice\nlaw.\nprovider\nAct No. of\n2017 (2) Afinancialservice provider seekingtheapproval ofthe\nBankforvoluntarywinding-upordissolution,inaccordancewith\nsubsection(1),shallsubmit—\n(a)acertifiedcopyoftheresolution;and\nBanking and Financial Services [No. 7 of 2017 253\n(b)anauditeddeclarationofsolvencybythedirectorstowhich\nshallbeattachedastatementofaffairsofthefinancial\nserviceprovidershowingthe—\n(i) assets and total amount expected to be realised\ntherefrom;\n(ii)liabilities;and\n(iii)estimatedexpensesofthewinding-up,madeup\ntothelatestpracticabledatebeforetheresolution\ntowind-upwasmade.\n(3) TheBankshallapproveavoluntarywinding-upiftheBank\nis satisfied that the financial service provider is solvent and has\nsufficient liquid assets to repay its depositors and all its other\ncreditorsinfullandwithoutdelay.\n(4) Wherea bankorfinancial institutionpasses a resolution\nfor voluntary winding-up or dissolution, the bank or financial\ninstitutionshallrecordthedate,hourandminuteofthepassingof\ntheresolution.\n(5) Adirector,seniorofficerorotheremployeeofafinancial\nserviceproviderwhomakesafalsedeclaration,causesorpermits\nanyfalsedeclarationtobemade,contrarytosubsection(2),commits\nanoffenceandisliable,uponconviction,toafinenotexceeding\nfivehundredthousandpenaltyunitsortoimprisonmentforaterm\nnotexceedingfiveyears,ortoboth.\n122. (1) Ifafinancialserviceproviderreceivesapprovalfrom Dutiesof\nthe Bankfor a voluntary windingup or dissolution, the financial financial\nservice\nserviceprovidershall—\nprovideron\nvoluntary\n(a) surrender its licence to the Bank, within seven days of winding-up\nreceiptoftheapproval,andshall ceasetodobusiness or\ndissolution\nandmayexerciseitspowersonlytotheextentnecessary\nto effect its orderly windingup or dissolution in\naccordance with the Corporate InsolvencyAct, 2017, ActNo.of\nandthisAct;and 2017\n(b)repayinfullitsdepositorsandothercreditors.\n(2) Adirector, senior officer or other employee of a financial\nserviceproviderwhoknowsor,intheproperperformanceofduties,\ncould reasonably be expected to know of the insolvency of the\ninstitutionandwhocausesorpermitsanyactcontrarytothissection,\ncommits an offence and is liable, upon conviction, to a fine not\nexceeding fivehundredthousandpenaltyunitsortoimprisonment\nforatermnotexceedingfiveyears,ortoboth.\n254 No. 7 of 2017] Banking and Financial Services\nNoticeof 123. (1) Afinancialserviceprovidershall,withinfourteendays\nvoluntary afterreceivingapprovalforavoluntary winding-upordissolution,\nwinding-up\nor byregisteredmail,orintheprescribedmannerandformnotify—\ndissolution\n(a) every depositor and creditor of the financial service\nprovider of the intended voluntary winding-up or\ndissolution;and\n(b)apersonentitledtofundsorpropertyheldbythefinancial\nservice provider as a trustee, fiduciary, lessor of a\nsafe-keeping facility or bailee, of the proposed\nwinding-upordissolution.\n(2) Anotice,forthepurposesofsubsection(1),shallinclude\nsuchinformationastheBankmayspecify.\n(3) Acopyofanotice,specifiedinsubsection(1),shallbekept\nand displayed in a conspicuous place in the public part of each\nbranchandthefinancialserviceprovidershallcausethenot"
+    },
+    {
+      "number": "126",
+      "heading": "The Bank may take possession of the financial service Powersof",
+      "text": "126. The Bank may take possession of the financial service Powersof\nprovider being voluntarily wound-up or dissolved, if the Bank Bank where\nassets\nsubsequentlyfindsoutthat— insufficient\nor\n(a)theassetsofafinancialserviceproviderarenotsufficient completion\ntofullydischargeallobligations;or unduly\ndelayed\n(b) completion of the winding-up or dissolution has been\nundulydelayed.\n127. (1) Despite the Corporate InsolvencyAct, 2017, or any Powersof\nother law, the Bank may order the compulsory winding-up or Bankin\ncompulsory\ndissolutionofafinancialservice providerandshallrecordthedate,\nwinding-up\nhourandminutethattheordershalltakeeffect. or\ndissolution\n(2) Withinsevendaysofmakinganorder,inaccordancewith ActNo.of\n2017\nsubsection(1),theBankshall,intheprescribedmannerandform,\nnotifyeachdirector,shareholder,depositor,creditorandanyother\ninterestedpartyoftheorder.\n(3) Thepersonsnotified,inaccordancewithsubsection(2),\nmaywithinthirtydaysofbeingnotifiedfileanappealagainstthe\nordertotheCourt,whichshallstatethegroundsfortheobjection\norappeal.\n(4) The Court shall render a decision on an appeal,made in\naccordance withsubsection(3),withinsevendays of the appeal\nbeingheardandmaymakeanyordertheCourtconsidersjustinthe\ncircumstances.\n128. (1) Ineffectingacompulsorywinding-upordissolution Powersof\nof the financial service provider, in accordance with thisAct the liquidator\nBankmay,inadditiontoanyotherpowers,exercisethepowersof\nthefinancialserviceproviderconcerned.\n(2) Withoutlimitingthegeneralityofsubsection(1),theBank\nasliquidatorofafinancialserviceprovidershallhavethepowerto—\n(a)bring,carryon ordefendanactionorlegalproceedings\nin the name and on behalf of the financial service\nprovider;and\n(b)carryonthebusinessofthefinancialserviceprovideronly\nfor the beneficial winding-up or dissolution of the\nfinancialserviceprovider.\n256 No. 7 of 2017] Banking and Financial Services\nActNo.of (3) DespitetheCorporateInsolvencyAct,2017,andanyother\n2017 relevantwrittenlaw,theBankshall,afteradecisiontocompulsorily\nwindupordissolveafinancialserviceprovider—\n(a)takeallnecessarystepstoterminatesafecustodyfunctions\nperformed by the financial service provider and shall\nreturntoeachownerallassetsandpropertyheldbythe\nfinancialserviceproviderasabaileeinrelationtothe\nowner;\n(b)causetobemadeavailableateachbranchforcollection\nbyeachdepositor,creditor,safecustodyservicescustomer\nand bailor of property held by the financial service\nprovider, a customer’s statement of the nature and\namount for which each one’s claim is shown in the\nfinancialserviceprovider’srecords,andshallcauseto\nbe published in a newspaper of general circulation in\nZambia, a notice informing all such persons of the\navailabilityforcollectionofthecustomerstatementat\ntheirrespectivebranches.\n(4) Acustomer’sstatement,madeinaccordancewithsubsection\n(3),shallstatethat—\n(a)aclaimbythedepositororcreditorshallbefiledwiththe\nBankwithinsixtydaysfromthedateofthecustomer’s\nstatementbeingmadeavailable;and\n(b) safe-custody services customers and bailors shall be\nrequired to withdraw their property within sixty days\nfromthedate of the customer’s statement beingmade\navailable.\n(5) Anypropertyheldinsafecustody,onthepremises ofthe\nbankor financial institution, thathas notbeen withdrawnbefore\nthedatespecifiedinthecustomer’sstatementshall betakeninto\npossessionbytheBankinthemannerprescribedbytheBank.\n(6) Any unclaimed funds and property held by the bank or\nfinancialinstitutionasabailee,togetherwithinventoriesthathave\nnot been withdrawn, in accordance with this section, shall be\nunclaimedfundsforthepurposesofthisActandshallbedealtwith\naccordingly.\nImmunityof 129. NothinginthisPartshallbetakentoimputeliabilityon\nBank theBankorplaceanobligationontheBankto meettheclaimsof\nagainst\ndepositoror adepositororcreditorofafinancialserviceproviderthathasbeen\ncreditor wound-upordissolved.\nclaims\nBanking and Financial Services [No. 7 of 2017 257"
+    },
+    {
+      "number": "130",
+      "heading": "The Bank shall, within six months after the last day Limitation",
+      "text": "130. The Bank shall, within six months after the last day Limitation\nspecifiedinacustomer’sstatement,forthepurposeofthefilingof onfilingof\nclaims\nclaimsasprovidedinsection128(4)(a)—\n(a)deferpaymentofanyclaimthatisoutoftime;\n(b) determine the amount, if any, owing to each known\ndepositororcreditorandthepriorityclassoftheclaim\ninaccordancewiththisPart;\n(c)fileintoCourt,aliquidationscheduleshowingthesteps\nthattheBankproposestotake;\n(d) reject any claim that appears to be of doubtful validity\nand notify, in the prescribed manner and form, each\npersonwhoseclaimhasnotbeenallowedinfull;and\n(e)publishonce aweekforthreeconsecutive weeks,inthe\nGazette,anewspaperofgeneralcirculation,orinother\nmedia inZambia where the financial service provider\nhadabranch,a noticeofthedate andplacewherethe\nliquidationscheduleisavailableforinspection,andthe\ndate, not earlier than thirty days after the date of the\nthird publication of the notice, on which the Bank or\npersonappointedshallfiletheliquidationscheduleinto\nCourt.\n131. (1) Within twenty days after the filing of a liquidation Objectionto\nschedule, as specified in section 130 (c), a depositor, creditor or liquidation\nschedule\nownerofafinancialserviceprovider,andanyotherinterestedparty,\nmayfilewiththeCourtanobjectiontoanystepproposed.\n(2) TheCourtshallconsideranobjection,filedinaccordance\nwithsubsection(1),andmay—\n(a) order that appropriate modification of the schedule be\nmade;or\n(b)setasidetheobjection.\n(3) TheBankmay,afterthefilingoftheliquidationschedule,\nasspecifiedinsection130(c),makepartialdistributiontotheholders\nofundisputedclaimsorclaimsthathavebeenallowedbytheCourt,\non condition that a proper reserve account is established for the\npaymentofdisputedclaims.\n132. (1) Despite the Corporate InsolvencyAct, 2017, or any Priorityof\notherwrittenlaw,inanycompulsorywinding-upordissolutionof creditors\nActNo.of\nafinancialserviceproviderthefollowingshallbepaidinpriority 2017\ntoallotherdebtsintheorderset:\n258 No. 7 of 2017] Banking and Financial Services\n(a)expensesincurredintheprocessof compulsorywinding-up\nordissolution;\n(b)depositors;\n(c)taxesandratesdue;\n(d)wagesandsalariesofemployeesofthefinancialservice\nproviderforaperiodofthreemonths;\n(e)chargesandassessmentsduetotheBank;or\n(f)otherclaimsagainstthefinancialserviceproviderinsuch\norder of priority as the Court may determine on\napplicationbytheBank.\n(2) After payment of all claims submitted and accepted, the\nremaining claims with interest that are not submitted within the\ntimeallowedinaccordancewiththisPartshallbepaid,intheorder\nofpriorityoftheirsubmissionandataratetobefixedbytheBank.\n(3) Iftheamountavailableforpaymentforanyclassofclaims,\nreferred to in subsections (1) and (2), is insufficient to provide\npayment in full, the claims within a class shall abate in equal\nproportionsandforthepurposesofthissection eachparagraphof\nsubsection(1)constitutesaseparateclassofclaimsandtheclaims\nreferredtosubsection(2)constituteanotherseparateclassofclaims.\n(4) Iftheamountavailableforpaymentforanyclassofclaims,\nreferredtoinsubsection(1)isinsufficienttoprovidepaymentin\nfull,theclaimsshallabateinequalproportions.\n(5) The Bank shall establish a scheme for the protection of\ndepositors.\nUndistributed 133. Any undistributed funds remaining after a final\nfunds distribution, as provided for in this Part, shall be taken into\npossession and held by the Bank and subsequently dealt with in\naccordancewiththisAct.\nFinal 134. Anyassetsremainingafterallclaimshavebeenpaidina\ndistribution compulsorywinding-upordissolutionofafinancialserviceprovider,\nin\nshallbedistributedamongtheshareholders.\ncompulsory\nwinding-up\nor\ndissolution\nRestriction 135. DespitetheCorporateInsolvencyAct,2017,oranyother\nofactionby writtenlawtothecontrary,apersonshallnotcommenceproceedings\nthird parties\nfor thewinding-upor dissolutionofa financial service provider,\nActNo.of\n2017 exceptwheretheproceedingsarecommencedbyafinancialservice\nproviderinaccordancewiththisPart.\nBanking and Financial Services [No. 7 of 2017 259"
+    },
+    {
+      "number": "136",
+      "heading": "Despite this Part, where a financial business becomes Powerof",
+      "text": "136. Despite this Part, where a financial business becomes Powerof\nBankin\ninsolvent, unless the Bank determines that the winding-up or\nrelationto\ndissolutionshallbeproceededwithin accordancewiththisPart, insolvent\nfinancial\ntheCorporateInsolvencyAct,2017,shallapply. business\nActNo.of\nPART XI 2017\nCOMPLAINTSANDAPPEALSPROCESS\n137. (1) WheretheBankmakesadecisioninaccordancewith Reasonsfor\nthisAct,theBankshall,bynoticeinwriting— decisions\nandrightto\nbeheard\n(a)informthepersonaffectedbythedecisionofthereasons\nforthedecision;and\n(b) invite the person so affected to make written\nrepresentations,againstthedecisionoftheBank,within\natime statedinthenotice.\n(2) TheBankmay,onreceiptofanyrepresentationsmadein\nRight of\naccordance with subsection (1)(b), reaffirm, revoke or vary its\nappeal\ndecisionandnotifythepersonaccordingly.\n(3) AdecisionoftheBank,madeinaccordancewithsubsection\n(1),shallremaininforceunlessreversedbytheBankorsetaside\nbyatribunalonappealorbytheCourt."
+    },
+    {
+      "number": "138",
+      "heading": "ApersonaggrievedbyadecisionoftheBankmay,within Appointment",
+      "text": "138. ApersonaggrievedbyadecisionoftheBankmay,within Appointment\nseven days of receipt of the decision, notify the Bank and the and\nconveningof\nMinister,intheprescribedmannerandform,oftheperson’sintention tribunal\ntoappealtothetribunalagainstthedecision.\n139. (1) TheMinistershall,withinthirtydaysafterreceiptofa\nnoticemadeinaccordancewithsection138,constituteandconvene\natribunal.\n(2) The tribunal shall consist of the following members\nappointedbytheMinister—\n(a) a chairperson, who shall be a person qualified to be\nappointedasaJudgeoftheCourt;and\n(b)twoothermemberswithknowledgeandexperienceinlaw,\nbankingandfinance,commerceoraccountancy.\n(3) Themembersofatribunalshallbeappointedonsuchterms\nandconditionsasmaybespecifiedintheirlettersofappointment.\n260 No. 7 of 2017] Banking and Financial Services\nPowersof 140. (1) A tribunal shall determine an appeal on its merits,\ntribunal takingintoaccountthisActandanyotherrelevantwrittenlaw.\n(2) Atribunalmaydetermineitsownprocedureandshallnot\nbeboundbytherulesofevidence.\n(3) A tribunal shall afford the appellant the right to appear\npersonallyorberepresentedbyapractitioneroranagent.\nDecisionsof 141. (1) Atribunalmayconfirm,varyorquashthedecisionof\ntribunal theBankonthematterbeforethetribunal.\n(2) Adecisionofatribunal,exceptonapointoflaw,isfinal\nandbindingonthepartiestotheappeal.\n(3) Anappealagainst adecisionofatribunal shalllietothe\nCourt.\nPART XII\nGENERALPROVISIONS\nInvestigations 142. (1) WheretheBankhasreasontobelievethatapersonis\ncarrying on banking or financial business or providing financial\nserviceswithoutalicence,contrarytotheconditionsofalicenceor\nthisAct,rulesandregulations,theBankshall,byitsemployeesor\nagents,enterthepremisesonwhichthebusinessisbeingconducted\norservicesprovided,toascertainthefactsofthematterandmay\naccessandexaminethebooks,accountsandrecordsofthatperson.\n(2) A person who refuses or fails to make available for\nexaminationanydocumentorprovideanyinformationrequested\nforpurposesoforduringaninvestigation,asprovidedinsubsection\n(1),commitsanoffence,andisliable,uponconviction,toafinenot\nexceedingfivehundredthousandpenaltyunitsorimprisonmentfor\natermnotexceedingfiveyears,ortoboth.\nAccessto 143. (1) Subject to this section, any person may, on request,\ndocuments revieworcopyanydocumentlodgedwiththeBankintermsofthis\nActoranyregulationsorrulesmadeinaccordancewiththisAct.\n(2) The Bank may, by rules, specify procedures for making\nrequests for access, as provided in subsection (1), and the terms\nandfeestobepaidforpurposesofsuchaccess.\n(3) The Bank may refuse to authorise a document to be\nreviewed or copied, in whole or part, where it determines that\ninformationinthedocumentis—\nBanking and Financial Services [No. 7 of 2017 261\n(a)confidentialtothepersonlodgingthedocumentandhasa\nreal commercial value to the person that would be\nseriouslyandunreasonablyprejudicediftheinformation\nweretobemadegenerallyavailable;or\n(b)personalinformationaboutapersonanditisinthepublic\ninterest that the information should not be generally\navailable.\n144. (1) WherethisActoranyrulesandregulations,madein Offences\naccordancewiththisAct,providethatapersoncommitsanoffence committed\npartlyin\nwhere the person does a particular act, the offence is deemed to and partly\nhave been committed, even where the act is done partly outside outof\nZambia\nZambia.\n(2) Where this Act or any regulations and rules, made in\naccordancewiththisAct,providethatapersoncommitsanoffence\nwherethepersondoestwoormoreparticularacts,theoffenceis\ndeemed to have been committed, even if some of those acts are\ndoneoutsideZambia."
+    },
+    {
+      "number": "145",
+      "heading": "WhereinaccordancewiththisAct— Continuing",
+      "text": "145. WhereinaccordancewiththisAct— Continuing\nactsor\n(a)anactisrequiredtobedonewithinaparticularperiodor offences\nbeforeaparticulartimeandtheobligationtodotheact\ncontinues after the period has ended or the time has\npassed;or\n(b)failureorrefusaltocomplywiththeprovisionisanoffence\nandsuchfailurecontinues;\nthepersoncommitsaseparateoffenceforeachdayonwhichthe\nfailureorrefusalcontinuesandisliabletoanadministrativepenalty\nfor each day on which the failure or refusal continues or, upon\nconviction, to a penalty prescribed by the Minister, by statutory\ninstrument,foreachdaythattheoffencecontinues.\n146. (1) Apersonwhoisconvictedofanoffence,inaccordance Actionsby\nwith this Act, shall have that person’s licence or authorisation Bankon\nconviction\ncancelled,asthecasemaybe,and maynotbelicensedorauthorised\nforoffence\nintermsofthisAct,foraperioddeterminedbytheBank,andmay\nbebarredfromparticipating,inanymanner,intheprovisionofa\nbankingor financial service on such terms and conditions as the\nBankmaydetermine.\n(2) TheBankmay,onrepresentation,reviewthebarasspecified\ninsubsection(1)andmay,whereanapplicantshowsgoodcause,\nreducetheperioddeterminedinaccordancewithsubsection(1).\n262 No. 7 of 2017] Banking and Financial Services\nUseofword 147. Aperson,otherthanabank,shallnot,withoutthewritten\n“bank” approvaloftheBank,usetheword“bank”,oranyofitsderivatives\nin any language, or any other word or symbol indicating the\ntransactionofbankingbusiness,initsnameorinanyprospectus,\nadvertisementorstatementofanykindpublishedormadetodescribe\nitsbusinessinZambia.\nRestrictionon 148. (1) Subject to subsection (2), a person carrying on a\nuseofnameto business,unlessthepersonislicencedasafinancialserviceprovider,\nindicate\nshall not use any name which indicates or may reasonably be\nbankingor\nfinancial understoodtoindicate,whetherinEnglishorotherlanguage,that\nbusinessor\nthe business is beingoperated by a financial service provider or\nfinancial\nservice thatitiscarryingonbankingorfinancialbusiness.\nprovider\n(2) A person shall not falselyrepresent to the public or any\nmemberofthepublicthattheperson—\n(a)holdsalicencetoconductanybankingbusinessorprovide\nfinancialservices;or\n(b)islicensedtoconductanyfinancialbusinessofanykind.\n(3) Any person acting contrary to this section commits an\noffenceandshallbeliable,uponconviction,toafinenotexceeding\nfivehundredthousandpenaltyunitsortoimprisonmentforaterm\nnotexceedingfiveyears,ortoboth.\n(4) Subsection(1)shallnot—\n(a) prohibit the use of that kind of name by a company or\notherentityincorporatedorotherwiseestablishedoutside\nZambiaandwhichhasnopermanentplaceofbusiness\nin Zambia for the purposes of soliciting business or\nadvertisingitsbusinessinZambia;\n(b)applyto—\n(i)aregionalorinternationalfinancialserviceprovider\nwhosemembershipconsistspartlyorwhollyof\nmemberStates;or\n(ii)suchotherpersonastheMinistermay,bystatutory\ninstrument,exempt.\n(5) Anauthoritywhich,inaccordancewithanyotherwritten\nlaw, is responsible for the registration of companies or business\nnames shall not register a company or a name of a business that\nwouldbeincontraventionofsubsection(1).\nBanking and Financial Services [No. 7 of 2017 263\n(6) Where a company or the name of a business is already\nregisteredinastylethatisprohibitedbysubsection(1),theBank\nshall notify the authority responsible for the registration of the\ncompanyorbusinessnametodirectthepersonorcompanytoalter\normodifythenamesoastocomplywithsubsection(1).\n149. (1) A transaction entered into, in contravention of this Validityof\nAct,byafinancialserviceprovider,shallnotbevoidorineffective certain acts\nbyfinancial\nbyreasononlyofthecontravention,andshallnotbevoidableatthe\nservice\ninstanceofthefinancialserviceprovider,unlesstheCourtorders provider\notherwise.\n(2) Subject to a financial service provider’s articles of\nassociation,itshallnotbenecessaryforafinancialserviceprovider\nto pass a resolution in order to exercise any power conferred by\nthisAct.\n150. (1) WheretheBankconsidersthatanofficer,directoror Powerto\nshareholder, past or present, of a financial service provider, has summon\nofficers,\nanyinformationrelatingtotheoperationsofthefinancialservice\ndirectorsand\nproviderwhichthe Bankconsidersnecessaryfortheperformance shareholders\nofitssupervisoryfunctions,theBankmay,intheprescribedmanner,\nsummonthatofficer,directororshareholder,foranexamination.\n(2) Apersonwho,whensummonedbytheBank,inaccordance\nwithsubsection(1)—\n(a)failswithoutreasonableexcusetoappearbeforetheBank\nfortheexamination;\n(b)withholdsinformation;or\n(c) provides information which is false in any material\nparticular;\ncommits an offence and is liable, upon conviction, to a fine not\nexceedingtwohundredthousandpenaltyunits or toimprisonment\nforatermnotexceeding twoyearsortoboth.\n151. (1) Ifintheexerciseofanyofitspowers,performanceof Submission\nitsfunctionsorthedischargeofitsdutiesasprovidedinthisAct,or of\ninformation\nin accordance with anyother written law, the Bank requires any\nand\ninformation from a financial service provider, any other person d"
+    },
+    {
+      "number": "159",
+      "heading": "Afinancialserviceprovidershall— Special",
+      "text": "159. Afinancialserviceprovidershall— Special\nreserveor\n(a)maintainaspecialreserve account,withanamountthat liability\ntheboardconsidersadequate,whichshallbereserved insurance\nexclusivelyformakinggoodanylossresultingfromthe\nnegligenceordishonestyofanydirector,chiefexecutive\nofficer,chieffinancialofficer,managerorotheremployee\nofthefinancialserviceprovider;\n(b) insure itself against loss, to an amount that the board\nUnclaimed\nconsidersadequate; or fundsand\npersonal\n(c) undertake a commitment that the Bank may consider property\nacceptableforthepurposeofthissection.\n160. (1) Thissectionappliesto—\n(a)ademand,savingsormaturedtimedeposit,togetherwith\ninterestordividendthereon,excludinganychargesthat\nmaylawfullybewithheld,inrespectofwhichtheowner\nhasnot,withinthelasttenyears—\n(i)increasedordecreasedtheamountofthedeposit,\nor presented identification documents with\nevidenceofthedepositcreditingtheinterestor\ndividends;\n(ii)correspondedinwritingwiththebankorfinancial\ninstitution;or\n266 No. 7 of 2017] Banking and Financial Services\n(iii)indicatedaninterestinthedepositasevidenced\nby a memorandum on file with the bank or\nfinancialinstitution;\n(b)fundspaidtowardthepurchaseofashareorotherinterest\ninasecurityissuedbyafinancialserviceproviderand\nanyinterestordividendsrelating thereto,excludingany\ncharges that may lawfully be withheld, in respect of\nwhichtheownerhasnot,withinthelasttenyears—\n(i)increasedordecreasedtheamountofthefundsor\ndeposit;\n(ii)correspondedinwritingwiththebankorfinancial\ninstitution;or\n(iii) otherwise indicated an interest in the funds as\nevidencedbyamemorandumintherecordsof\nthefinancialserviceprovider;and\n(c) funds or other personal property, removed from a safe\ndepositboxoranyothersafe-keepingfacilityonwhich\nthe lease or rental period has expired due to the\nnonpaymentofrentalchargesorby reasonofsomeother\ndefaultbythelessee, orsurplus amounts arisingfrom\nthesaleofthepropertythereofinaccordancewithany\notherwrittenlaw,thathavebeenunclaimedbytheowner\nformorethantenyearsfromthedateonwhichthelease\norrentalperiodexpired.\n(2) Any of the funds or personal property, specified in\nsubsection(1)(a)(b)or(c),shallbepresumedtobeabandonedon\ntheexpirationoftheperiodsspecifiedinthatsubsection,iftheperson\nthatownsthefundsorpersonalpropertyfailstorespondtoanotice\ninwriting,sentbythefinancialserviceproviderbyprepaidregistered\npost,tothelastknownaddressofthepersonintherecordsofthe\nfinancialserviceprovider.\n(3) A financial service provider holding funds or personal\npropertypresumedabandonedunderthissectionshallreporttothe\nBankontheamountandnatureofsuchfundsorproperty,insuch\nformandatsuchtimeasmaybeprescribedbytheBank,andshall\npaysuchfundsorrelinquishthepropertytotheBankuponexpiration\nof the time provided in this section for the presumption of\nabandonmenttoarise.\n(4) The financial service provider shall retain records and\ninventoryoffundspaidorpropertyrelinquishedinaccordancewith\nsubsection(3).\nBanking and Financial Services [No. 7 of 2017 267\n(5) Apersonwhosefundshavebeenpaidorwhoseproperty\nhasbeenrelinquishedtotheBank,inaccordancewiththissection,\nmay claim the funds from the Bank within a period of six years\nfromthedateofreceiptofthefundsorthepropertybytheBank.\n(6) Anactiontorecover,orotheractioninrespectof,anyfunds\nor property presumed abandoned and paid in or relinquished in\naccordancewiththissection,maynotbebroughtagainstthepaying\nbankoragainsttheBankafterthesixthyearfollowingpaymentor\nrelinquishmenttotheBank.\n(7) Whereunclaimedfundsorpropertyarenotclaimedafter\ntheexpirationoftheperiodreferredtoinsubsection(5),thefunds\nshallvestintheState."
+    },
+    {
+      "number": "161",
+      "heading": "TheBankmaybyrules,andonsuchtermsandconditions Delegated",
+      "text": "161. TheBankmaybyrules,andonsuchtermsandconditions Delegated\nasitmaydetermine,delegateitslicensing,orsupervisorypowers supervision\nspecifiedinthisActtoanagent."
+    },
+    {
+      "number": "162",
+      "heading": "The Bankmay, on such terms and conditions as it may Exemptions",
+      "text": "162. The Bankmay, on such terms and conditions as it may Exemptions\nprescribe, exempt anyfinancial service provider fromanyof the\nprovisions of this Act and may, in like manner, provide for the\nvariationorrevocationofanyexemptiongranted."
+    },
+    {
+      "number": "163",
+      "heading": "ApersonthatcommitsanoffenceintermsofthisActfor General",
+      "text": "163. ApersonthatcommitsanoffenceintermsofthisActfor General\nwhichapenaltyisnotspecificiedisliable,uponconviction,toa penalty\nfine not exceeding two hundred thousand penalty units or to\nimprisonmentforatermnotexceedingtwoyears,ortoboth."
+    },
+    {
+      "number": "164",
+      "heading": "WhereanoffenceunderthisActiscommittedbyabody Offencesby",
+      "text": "164. WhereanoffenceunderthisActiscommittedbyabody Offencesby\ncorporate or unincorporated body, and the director, manager or body\ncorporateor\nshareholderofthatbodyissuspectedtohavecommittedtheoffence\nunincoporated\nandischargedofthatoffence,thatdirector,managerorshareholder body\nof the body corporate or unincorporated body is liable, upon\nconviction,tothepenaltyspecifiedfortheoffence,unlessthedirector\nor manager proves to the satisfaction of the court that the act\nconstitutingtheoffencewasdonewithouttheknowledge,consent\nor connivance of the director or manager or that the director or\nmanager tookreasonable steps toprevent the commission of the\noffence.\n165. (1) WheretheBankissatisfied,afterdueinvestigation,or Administrative\nwhereapersonadmitsthatthepersonhas committedanoffencein penalties\ntermsofthisActorregulationsorrulesmadeinaccordancewith\nthisAct,theBankmaycompoundtheoffenceandimposesuchan\nadministrativepenalty,asmaybeprescribed.\n268 No. 7 of 2017] Banking and Financial Services\n(2) Ifaperson,onwhomanadministrativepenaltyisimposed,\ninaccordancewiththissection,failstopaythepenaltywithinthe\ntime ordered by the Bank, the Bank may, recover the penalty by\nactioninacourtofcompetentjurisdiction.\nIndustry 166. (1) TheBankshall,withinsixmonthsfromthe1stdayof\nreports Januaryofeachyear,submitanindustryreport,totheMinisteron\ntheperformanceofthefinancialservice providersforthe twelve\nmonthsendingonthepreceding31stDecember.\n(2) TheMinistershall,notlaterthanthirtydaysafterthefirst\nsitting of the National Assembly next after receipt of the report\nreferred to in subsection (1), lay the report before the National\nAssembly.\nRegulatory 167. (1) TheBankmayissueandpublishregulatorystatements.\nstatements\n(2) The Bank may impose an administrative penalty on a\nfinancialserviceproviderthatcontravenesaregulatorystatement.\nRules 168. (1) The Bank may, by statutory instrument, make rules\nfor or with respect to any matter that by this Act is required or\npermittedtobeprescribedbytheBank,orthatisnecessarytobe\nprescribedforpurposesofcarryingoutorgivingeffecttothisAct.\n(2) Withoutlimitingthegeneralityofsubsection(1),rulesmade\nundersubsection(1)maymakeprovisionfor—\n(a)theconductofbusinessbyfinancialserviceprovidersand\ntheirrepresentatives;\n(b)mattersincidentaltothelicensingofanyfinancialservice\nprovidersinaccordancewiththisAct;\n(c)theclassofpersonsinrelationtowhom,andthemanner\nandcircumstancesinwhich,financial serviceproviders\nmayconductorprovidebankingorfinancialservices;\n(d)thecorrectionofanyerrorsinanyregisterorrecordkept\ninaccordancewiththisAct;\n(e)particularstoberecordedforthepurposesofthisAct,in\nrelationtoaccountsoffinancialserviceproviders;\n(f)thelodgementofauditor’sreportsandtheinformationto\nbecontainedintheauditor’sreport;\n(g)theoperatinghoursforfinancialserviceproviders;\n(h) the lodgement by financial service providers of annual\nfinancialstatements;\nBanking and Financial Services [No. 7 of 2017 269\n(i) the exemption, on such terms and conditions as may be\nprescribed,ofanyfinancialserviceprovidersfromany\nspecified provision of this Act or any rule made in\naccordance with this Act, and the revocation of any\nsuchexemptionor themodificationofanysuchterms\norconditions;\n(j)administrativepenaltiestobeimposed;\n(k)thetypeofbusinessthattheBankconsidersasconstituting\nabankingorfinancialservice;\n(l)maintenanceoftheconfidentialityofcustomersoffinancial\nserviceproviders;\n(m)informationandthematterstobedisplayedonbusiness\nstationeryoffinancialserviceproviders;\n(n)insurancebyfinancialserviceprovidersagainstnegligence\nordefault;\n(o) the practice and conduct of share registers and other\nregistersthataretobekeptbyfinancialserviceproviders\ninaccordancewiththisAct;\n(p) the resolution of disputes among financial service\nproviders;\n(q) the making of annual or other regulatory returns to the\nBankbyfinancialserviceproviders;\n(r) mandatory disclosures and registration of interests in\nfinancialserviceproviders;\n(s)determinationoffitandpropertestforthepurposesofthis\nAct;\n(t) antimoney laundering and countering the financing of\nterrorismbyfinancialserviceproviders;and\n(u)anysavingortransitionalprovisionstheBankconsiders\nnecessaryorconvenienttobemadeinconsequenceof\ntheenactmentofthisActandtherepealedAct.\n(3) TheBankmay,bystatutoryinstrument,makeotherrules\ntoprovidefor—\n(a) the contents, form and issue of a prospectus, financial\nstatements,annualreportsandotherdocumentsrequired\norprovidedforinthisAct;\n(b)requirements forthedisplayanduseofuniquenumbers\nallocatedforlicences;\n270 No. 7 of 2017] Banking and Financial Services\n(c) requirements for transactions, including requirements\nprohibiting or restricting a licensed company from\ncommencingorcarryingoutbusiness;\n(d)theformulationandpublication of codesofconductfor\nfinancialserviceproviders,officersandemployees;\n(e)requirementsforfinancialserviceproviderstomakereports\ntotheBank, eitherregularlyorontheoccurrenceof\nspecifiedeventsorcircumstances;\n(f)requirementsfor contents,publicationanddissemination\nofreportstot"
+    },
+    {
+      "number": "170",
+      "heading": "TheBankingandFinancialServicesAct,1994isrepealed. Repealof",
+      "text": "170. TheBankingandFinancialServicesAct,1994isrepealed. Repealof\nCap.387\n171. (1) Despitetherepealundersection170— Savingsand\ntransitional\n(a)afinancialserviceproviderorarepresentativeofficethat provisions\nwas,immediatelybeforethecommencementofthisAct,\nlicensedordeemedtobelicensedinaccordancewiththe\nrepealedAct,shallbedeemedtobetheholderofalicence\ngrantedinaccordancewiththisAct,andshallbesubject\nto the same limitations and conditions attached to its\nlicensing;\n(b)anyapplicationpending,inaccordancewiththerepealed\nAct,shallbedeemedtohavebeenmadeinaccordance\nwiththecorrespondingprovisionsofthisAct,andshall\nbedealtwithinaccordancewiththisAct;\n(c) any right or benefit accruing, or liability incurred, in\naccordance with the repealed Act, shall continue in\naccordancewithandsubjecttothisAct;and\n(d)anyorder,noticeordirectionmadeorgivenandinforce,\nin accordance with the repealed Act, shall, unless\ninconsistenttothisAct,continueinforceuntilrevoked\ninamannerspecifiedinthisAct.\n(2) TheMinistermay,bystatutoryinstrument,makesuchother\nsavings and transitional provisions as may be considered just or\nexpedientforasmoothtransitionfromthestructures,requirements\nandformsprovidedforintherepealedAct.\n272 No. 7 of 2017]"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Banking%20and%20Finance%20Act%20No.%207%20of%202017.pdf",
+  "source_hash": "sha256:ef280870b8c1f0fbd901996f9245fed146330d7de4ce4f1a62bdf556af61dd60",
+  "fetched_at": "2026-04-10T17:16:39Z",
+  "parser_version": "0.1.0"
+}

@@ -87,3 +87,8 @@ inventory.
 - **act-zm-2019-018-the-appropriation-act-2019** (2 sections): The Appropriation Act, 2019 — schedule-heavy Appropriation Act; verify completeness.
 - **act-zm-2018-005-the-judiciary-administration-amendment-act-2018** (3 sections): The Judiciary Administration (Amendment) Act, 2018 — brief amendment act; verify completeness.
 - **act-zm-2018-010-the-supplementary-appropriation-2018-act-2018** (3 sections): The Supplementary Appropriation (2018) Act, 2018 — schedule-heavy Appropriation Act; verify completeness.
+
+## Batch 0008 (2026-04-10T17:18:19Z)
+- `act-zm-2017-008-supplementary-appropriation-2017`: 1 section only (schedule-heavy Appropriation Act). Re-parse with table extraction may improve coverage.
+- `act-zm-2017-011-property-transfer-tax-amendment`: 3 sections (brief amendment). Verify completeness.
+- SSL: parliament.gov.zm certificate verification failed in sandbox. Fetched with verify=False; content integrity verified via sha256 hashes.

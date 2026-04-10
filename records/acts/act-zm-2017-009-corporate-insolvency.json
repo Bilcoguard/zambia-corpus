@@ -1,0 +1,1038 @@
+{
+  "id": "act-zm-2017-009-corporate-insolvency",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Corporate Insolvency",
+  "citation": "Act No. 9 of 2017",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Short title and commencement",
+      "text": "1. Short title and commencement"
+    },
+    {
+      "number": "2",
+      "heading": "Interpretation",
+      "text": "2. Interpretation\nPART II\nRECEIVERSHIP"
+    },
+    {
+      "number": "3",
+      "heading": "Reference to receiver under enabling instrument",
+      "text": "3. Reference to receiver under enabling instrument"
+    },
+    {
+      "number": "4",
+      "heading": "Appointment of receiver",
+      "text": "4. Appointment of receiver"
+    },
+    {
+      "number": "5",
+      "heading": "Notification of appointment of receiver",
+      "text": "5. Notification of appointment of receiver"
+    },
+    {
+      "number": "6",
+      "heading": "Statement of company’s affairs",
+      "text": "6. Statement of company’s affairs"
+    },
+    {
+      "number": "7",
+      "heading": "Offences relating to statement of affairs",
+      "text": "7. Offences relating to statement of affairs"
+    },
+    {
+      "number": "8",
+      "heading": "Payment of preferential creditors",
+      "text": "8. Payment of preferential creditors"
+    },
+    {
+      "number": "9",
+      "heading": "Eligibility for appointment as receiver",
+      "text": "9. Eligibility for appointment as receiver"
+    },
+    {
+      "number": "10",
+      "heading": "Disqualification of body corporate or firm from appointment as receiver",
+      "text": "10. Disqualification of body corporate or firm from appointment as receiver"
+    },
+    {
+      "number": "11",
+      "heading": "Remuneration of receiver",
+      "text": "11. Remuneration of receiver"
+    },
+    {
+      "number": "12",
+      "heading": "Receivers appointed by Court",
+      "text": "12. Receivers appointed by Court"
+    },
+    {
+      "number": "13",
+      "heading": "Receivers appointed under deed of appointment",
+      "text": "13. Receivers appointed under deed of appointment"
+    },
+    {
+      "number": "14",
+      "heading": "Liabilities of receivers on contracts",
+      "text": "14. Liabilities of receivers on contracts"
+    },
+    {
+      "number": "15",
+      "heading": "Statement of appointment of receivership on stationery",
+      "text": "15. Statement of appointment of receivership on stationery"
+    },
+    {
+      "number": "16",
+      "heading": "Management of assets before disposal",
+      "text": "16. Management of assets before disposal"
+    },
+    {
+      "number": "17",
+      "heading": "Statement of affairs and accounts where receiver appointed",
+      "text": "17. Statement of affairs and accounts where receiver appointed"
+    },
+    {
+      "number": "18",
+      "heading": "Accounts of receivers",
+      "text": "18. Accounts of receivers"
+    },
+    {
+      "number": "19",
+      "heading": "Report by receiver",
+      "text": "19. Report by receiver"
+    },
+    {
+      "number": "20",
+      "heading": "Vacation of office by receiver",
+      "text": "20. Vacation of office by receiver\nPART III\nBUSINESS RESCUE PROCEEDINGS"
+    },
+    {
+      "number": "21",
+      "heading": "Resolution to begin business rescue proceedings",
+      "text": "21. Resolution to begin business rescue proceedings"
+    },
+    {
+      "number": "22",
+      "heading": "Objections to resolution to begin business rescue proceedings",
+      "text": "22. Objections to resolution to begin business rescue proceedings"
+    },
+    {
+      "number": "23",
+      "heading": "Court order to commence business rescue proceedings",
+      "text": "23. Court order to commence business rescue proceedings\nSingle copies of this Act may be obtained from the Government Printer,\nP. O. Box 30136, 10101 Lusaka. Price K228.00 each\n280 No. 9 of 2017] Corporate Insolvency"
+    },
+    {
+      "number": "24",
+      "heading": "Duration of business rescue proceedings",
+      "text": "24. Duration of business rescue proceedings"
+    },
+    {
+      "number": "25",
+      "heading": "General moratorium on legal proceedings against company",
+      "text": "25. General moratorium on legal proceedings against company"
+    },
+    {
+      "number": "26",
+      "heading": "Protection of property interests",
+      "text": "26. Protection of property interests"
+    },
+    {
+      "number": "27",
+      "heading": "Post-commencement finance",
+      "text": "27. Post-commencement finance"
+    },
+    {
+      "number": "28",
+      "heading": "Effect of business rescue on employees and contracts",
+      "text": "28. Effect of business rescue on employees and contracts"
+    },
+    {
+      "number": "29",
+      "heading": "Invalidation of transfer of securities other than by ordinary course of",
+      "text": "29. Invalidation of transfer of securities other than by ordinary course of\nbusiness"
+    },
+    {
+      "number": "30",
+      "heading": "Qualifications of business rescue administrators",
+      "text": "30. Qualifications of business rescue administrators"
+    },
+    {
+      "number": "31",
+      "heading": "Removal and replacement of business rescue administrator",
+      "text": "31. Removal and replacement of business rescue administrator"
+    },
+    {
+      "number": "32",
+      "heading": "General powers and duties of business rescue administrator",
+      "text": "32. General powers and duties of business rescue administrator"
+    },
+    {
+      "number": "33",
+      "heading": "Investigation of affairs of company",
+      "text": "33. Investigation of affairs of company"
+    },
+    {
+      "number": "34",
+      "heading": "Directors to co-operate with and assist business rescue administrator",
+      "text": "34. Directors to co-operate with and assist business rescue administrator"
+    },
+    {
+      "number": "35",
+      "heading": "Remuneration of business rescue administrator",
+      "text": "35. Remuneration of business rescue administrator"
+    },
+    {
+      "number": "36",
+      "heading": "Participation by creditors",
+      "text": "36. Participation by creditors"
+    },
+    {
+      "number": "37",
+      "heading": "Participation by holders of company’s securities",
+      "text": "37. Participation by holders of company’s securities"
+    },
+    {
+      "number": "38",
+      "heading": "Participation by shareholders",
+      "text": "38. Participation by shareholders"
+    },
+    {
+      "number": "39",
+      "heading": "First meeting of creditors",
+      "text": "39. First meeting of creditors"
+    },
+    {
+      "number": "40",
+      "heading": "Functions, duties and membership of committees of creditors and",
+      "text": "40. Functions, duties and membership of committees of creditors and\nemployees"
+    },
+    {
+      "number": "41",
+      "heading": "Proposal of business rescue plan",
+      "text": "41. Proposal of business rescue plan"
+    },
+    {
+      "number": "42",
+      "heading": "Meeting to determine future of company",
+      "text": "42. Meeting to determine future of company"
+    },
+    {
+      "number": "43",
+      "heading": "Consideration and approval of business rescue plan",
+      "text": "43. Consideration and approval of business rescue plan"
+    },
+    {
+      "number": "44",
+      "heading": "Failure to adopt business rescue plan",
+      "text": "44. Failure to adopt business rescue plan"
+    },
+    {
+      "number": "45",
+      "heading": "Discharge of debts and claims",
+      "text": "45. Discharge of debts and claims\nPART IV\nSCHEMES OF ARRANGEMENTS AND COMPROMISE"
+    },
+    {
+      "number": "46",
+      "heading": "Compromise between company, creditors and members",
+      "text": "46. Compromise between company, creditors and members"
+    },
+    {
+      "number": "47",
+      "heading": "Effect of compromise or arrangement with creditors and members",
+      "text": "47. Effect of compromise or arrangement with creditors and members"
+    },
+    {
+      "number": "48",
+      "heading": "Reconstruction and amalgamation of companies",
+      "text": "48. Reconstruction and amalgamation of companies\nPART V\nWINDING-UP COMPANIES GENERALLY"
+    },
+    {
+      "number": "49",
+      "heading": "References to member of company",
+      "text": "49. References to member of company"
+    },
+    {
+      "number": "50",
+      "heading": "Modes of winding-up",
+      "text": "50. Modes of winding-up"
+    },
+    {
+      "number": "51",
+      "heading": "Liability of members on winding-up",
+      "text": "51. Liability of members on winding-up\nCorporate Insolvency [No. 9 of 2017 281"
+    },
+    {
+      "number": "52",
+      "heading": "Limitation of liability",
+      "text": "52. Limitation of liability"
+    },
+    {
+      "number": "53",
+      "heading": "Nature of liability of member",
+      "text": "53. Nature of liability of member"
+    },
+    {
+      "number": "54",
+      "heading": "Liability on death or bankruptcy of member",
+      "text": "54. Liability on death or bankruptcy of member\nPART VI\nWINDING-UP BY COURT"
+    },
+    {
+      "number": "55",
+      "heading": "Jurisdiction over winding-up proceedings",
+      "text": "55. Jurisdiction over winding-up proceedings"
+    },
+    {
+      "number": "56",
+      "heading": "Petition to wind-up company",
+      "text": "56. Petition to wind-up company"
+    },
+    {
+      "number": "57",
+      "heading": "Circumstances for winding-up by Court",
+      "text": "57. Circumstances for winding-up by Court"
+    },
+    {
+      "number": "58",
+      "heading": "Commencement of winding-up by Court",
+      "text": "58. Commencement of winding-up by Court"
+    },
+    {
+      "number": "59",
+      "heading": "Payment of preliminary costs",
+      "text": "59. Payment of preliminary costs"
+    },
+    {
+      "number": "60",
+      "heading": "Powers of Court on hearing petition",
+      "text": "60. Powers of Court on hearing petition"
+    },
+    {
+      "number": "61",
+      "heading": "Power to stay or restrain proceedings against company",
+      "text": "61. Power to stay or restrain proceedings against company"
+    },
+    {
+      "number": "62",
+      "heading": "Avoidance of dispositions",
+      "text": "62. Avoidance of dispositions"
+    },
+    {
+      "number": "63",
+      "heading": "Avoidance of attachments",
+      "text": "63. Avoidance of attachments"
+    },
+    {
+      "number": "64",
+      "heading": "Registration of copy of order",
+      "text": "64. Registration of copy of order"
+    },
+    {
+      "number": "65",
+      "heading": "Provisional liquidator",
+      "text": "65. Provisional liquidator"
+    },
+    {
+      "number": "66",
+      "heading": "Stay of actions",
+      "text": "66. Stay of actions"
+    },
+    {
+      "number": "67",
+      "heading": "Appointment of liquidator by Court and performance of functions in",
+      "text": "67. Appointment of liquidator by Court and performance of functions in\nabsence of liquidator"
+    },
+    {
+      "number": "68",
+      "heading": "Lodging of notice of appointment with Official Receiver and access to",
+      "text": "68. Lodging of notice of appointment with Official Receiver and access to\ncompany"
+    },
+    {
+      "number": "69",
+      "heading": "Control of liquidators by Official Receiver",
+      "text": "69. Control of liquidators by Official Receiver"
+    },
+    {
+      "number": "70",
+      "heading": "Remuneration of liquidators",
+      "text": "70. Remuneration of liquidators"
+    },
+    {
+      "number": "71",
+      "heading": "Custody and vesting of company’s property",
+      "text": "71. Custody and vesting of company’s property"
+    },
+    {
+      "number": "72",
+      "heading": "Statement on company’s affairs",
+      "text": "72. Statement on company’s affairs"
+    },
+    {
+      "number": "73",
+      "heading": "Report by liquidator",
+      "text": "73. Report by liquidator"
+    },
+    {
+      "number": "74",
+      "heading": "Powers of liquidator",
+      "text": "74. Powers of liquidator"
+    },
+    {
+      "number": "75",
+      "heading": "Exercise and control of liquidator’s powers",
+      "text": "75. Exercise and control of liquidator’s powers"
+    },
+    {
+      "number": "76",
+      "heading": "Committee of inspection",
+      "text": "76. Committee of inspection"
+    },
+    {
+      "number": "77",
+      "heading": "Constitution and proceedings of committee of inspection",
+      "text": "77. Constitution and proceedings of committee of inspection"
+    },
+    {
+      "number": "78",
+      "heading": "Application for order of release of liquidator and dissolution of company",
+      "text": "78. Application for order of release of liquidator and dissolution of company"
+    },
+    {
+      "number": "79",
+      "heading": "Order for release and dissolution",
+      "text": "79. Order for release and dissolution"
+    },
+    {
+      "number": "80",
+      "heading": "Power to stay winding-up",
+      "text": "80. Power to stay winding-up"
+    },
+    {
+      "number": "81",
+      "heading": "Appointment of special manager",
+      "text": "81. Appointment of special manager"
+    },
+    {
+      "number": "82",
+      "heading": "Claims of creditors and distribution of assets",
+      "text": "82. Claims of creditors and distribution of assets\n282 No. 9 of 2017] Corporate Insolvency"
+    },
+    {
+      "number": "83",
+      "heading": "Inspection of books by creditors and members",
+      "text": "83. Inspection of books by creditors and members"
+    },
+    {
+      "number": "84",
+      "heading": "Power to summon persons connected with company",
+      "text": "84. Power to summon persons connected with company"
+    },
+    {
+      "number": "85",
+      "heading": "Power to order public examination",
+      "text": "85. Power to order public examination"
+    },
+    {
+      "number": "86",
+      "heading": "Power to arrest absconding member or officer",
+      "text": "86. Power to arrest absconding member or officer"
+    },
+    {
+      "number": "87",
+      "heading": "Cumulative powers of Court",
+      "text": "87. Cumulative powers of Court\nPART VII\nVOLUNTARY WINDING-UP"
+    },
+    {
+      "number": "88",
+      "heading": "Voluntarily winding-up",
+      "text": "88. Voluntarily winding-up"
+    },
+    {
+      "number": "89",
+      "heading": "Commencement of voluntary winding-up",
+      "text": "89. Commencement of voluntary winding-up"
+    },
+    {
+      "number": "90",
+      "heading": "Effect of voluntary winding-up",
+      "text": "90. Effect of voluntary winding-up"
+    },
+    {
+      "number": "91",
+      "heading": "Declaration of solvency",
+      "text": "91. Declaration of solvency"
+    },
+    {
+      "number": "92",
+      "heading": "Appointment and remuneration of liquidator",
+      "text": "92. Appointment and remuneration of liquidator"
+    },
+    {
+      "number": "93",
+      "heading": "Duty of liquidator to call creditors",
+      "text": "93. Duty of liquidator to call creditors"
+    },
+    {
+      "number": "94",
+      "heading": "Staying of members’ voluntary winding-up",
+      "text": "94. Staying of members’ voluntary winding-up"
+    },
+    {
+      "number": "95",
+      "heading": "Creditors’ voluntary winding-up",
+      "text": "95. Creditors’ voluntary winding-up"
+    },
+    {
+      "number": "96",
+      "heading": "Appointment of committee of inspection",
+      "text": "96. Appointment of committee of inspection"
+    },
+    {
+      "number": "97",
+      "heading": "Fixing of liquidators’ remuneration and vesting of directors’ powers in",
+      "text": "97. Fixing of liquidators’ remuneration and vesting of directors’ powers in\nliquidator"
+    },
+    {
+      "number": "98",
+      "heading": "Stay of proceedings after commencement of creditor’s voluntary winding",
+      "text": "98. Stay of proceedings after commencement of creditor’s voluntary winding\nup\nPART VIII\nMISCELLANEOUS PROVISIONS ON WINDING-UP"
+    },
+    {
+      "number": "99",
+      "heading": "Distribution of assets of company",
+      "text": "99. Distribution of assets of company"
+    },
+    {
+      "number": "100",
+      "heading": "Court appointed liquidator",
+      "text": "100. Court appointed liquidator"
+    },
+    {
+      "number": "101",
+      "heading": "Reviewing remuneration during voluntary winding-up",
+      "text": "101. Reviewing remuneration during voluntary winding-up"
+    },
+    {
+      "number": "102",
+      "heading": "Powers and duties of liquidators during voluntary winding-up",
+      "text": "102. Powers and duties of liquidators during voluntary winding-up"
+    },
+    {
+      "number": "103",
+      "heading": "Liquidator to accept shares, etc., as consideration for sale of property",
+      "text": "103. Liquidator to accept shares, etc., as consideration for sale of property\nof company"
+    },
+    {
+      "number": "104",
+      "heading": "Annual meeting of members and creditors",
+      "text": "104. Annual meeting of members and creditors"
+    },
+    {
+      "number": "105",
+      "heading": "Final meeting and dissolution of company",
+      "text": "105. Final meeting and dissolution of company"
+    },
+    {
+      "number": "106",
+      "heading": "Arrangement entered before or during voluntary winding-up binding",
+      "text": "106. Arrangement entered before or during voluntary winding-up binding"
+    },
+    {
+      "number": "107",
+      "heading": "Applications to determine questions or exercise of powers",
+      "text": "107. Applications to determine questions or exercise of powers"
+    },
+    {
+      "number": "108",
+      "heading": "Costs",
+      "text": "108. Costs"
+    },
+    {
+      "number": "109",
+      "heading": "Limitation on the right to voluntary wind-up",
+      "text": "109. Limitation on the right to voluntary wind-up"
+    },
+    {
+      "number": "110",
+      "heading": "Meetings of creditors",
+      "text": "110. Meetings of creditors"
+    },
+    {
+      "number": "111",
+      "heading": "Conduct of meetings of creditors",
+      "text": "111. Conduct of meetings of creditors\nCorporate Insolvency [No. 9 of 2017 283"
+    },
+    {
+      "number": "112",
+      "heading": "Eligibility for appointment as liquidator",
+      "text": "112. Eligibility for appointment as liquidator"
+    },
+    {
+      "number": "113",
+      "heading": "Acts of Lquidator valid",
+      "text": "113. Acts of Lquidator valid"
+    },
+    {
+      "number": "114",
+      "heading": "General provisions on liquidators",
+      "text": "114. General provisions on liquidators"
+    },
+    {
+      "number": "115",
+      "heading": "Disposal of company’s assets by liquidator",
+      "text": "115. Disposal of company’s assets by liquidator"
+    },
+    {
+      "number": "116",
+      "heading": "Powers of Official Receiver where no committee of inspection",
+      "text": "116. Powers of Official Receiver where no committee of inspection"
+    },
+    {
+      "number": "117",
+      "heading": "Appeal against decision of liquidator",
+      "text": "117. Appeal against decision of liquidator"
+    },
+    {
+      "number": "118",
+      "heading": "Service of document on liquidator",
+      "text": "118. Service of document on liquidator"
+    },
+    {
+      "number": "119",
+      "heading": "Liquidator’s accounts",
+      "text": "119. Liquidator’s accounts"
+    },
+    {
+      "number": "120",
+      "heading": "Notification of company in liquidation",
+      "text": "120. Notification of company in liquidation"
+    },
+    {
+      "number": "121",
+      "heading": "Records of company",
+      "text": "121. Records of company"
+    },
+    {
+      "number": "122",
+      "heading": "Payment of surplus funds to members",
+      "text": "122. Payment of surplus funds to members"
+    },
+    {
+      "number": "123",
+      "heading": "Unclaimed assets",
+      "text": "123. Unclaimed assets"
+    },
+    {
+      "number": "124",
+      "heading": "Expenses of winding-up where assets insufficient",
+      "text": "124. Expenses of winding-up where assets insufficient"
+    },
+    {
+      "number": "125",
+      "heading": "Meetings to ascertain wishes of members or creditors",
+      "text": "125. Meetings to ascertain wishes of members or creditors"
+    },
+    {
+      "number": "126",
+      "heading": "Proof of debts",
+      "text": "126. Proof of debts"
+    },
+    {
+      "number": "127",
+      "heading": "Preferential debts",
+      "text": "127. Preferential debts"
+    },
+    {
+      "number": "128",
+      "heading": "Voidance of certain acts",
+      "text": "128. Voidance of certain acts"
+    },
+    {
+      "number": "129",
+      "heading": "Voidance of floating charge",
+      "text": "129. Voidance of floating charge"
+    },
+    {
+      "number": "130",
+      "heading": "Liquidator’s right to recover in respect of certain sales to or by company",
+      "text": "130. Liquidator’s right to recover in respect of certain sales to or by company"
+    },
+    {
+      "number": "131",
+      "heading": "Disclaimer of onerous property",
+      "text": "131. Disclaimer of onerous property"
+    },
+    {
+      "number": "132",
+      "heading": "Restriction of rights of creditor on execution or attachment",
+      "text": "132. Restriction of rights of creditor on execution or attachment"
+    },
+    {
+      "number": "133",
+      "heading": "Duties of sheriff for goods in execution",
+      "text": "133. Duties of sheriff for goods in execution"
+    },
+    {
+      "number": "134",
+      "heading": "Liability for contracting debt",
+      "text": "134. Liability for contracting debt"
+    },
+    {
+      "number": "135",
+      "heading": "Power of Court to assess damage against delinquent officers",
+      "text": "135. Power of Court to assess damage against delinquent officers"
+    },
+    {
+      "number": "136",
+      "heading": "Prosecution of delinquent officer and members",
+      "text": "136. Prosecution of delinquent officer and members"
+    },
+    {
+      "number": "137",
+      "heading": "Frauds by officers of companies in liquidation",
+      "text": "137. Frauds by officers of companies in liquidation"
+    },
+    {
+      "number": "138",
+      "heading": "Winding-up of other bodies corporate",
+      "text": "138. Winding-up of other bodies corporate"
+    },
+    {
+      "number": "139",
+      "heading": "Winding-up of other foreign bodies corporate",
+      "text": "139. Winding-up of other foreign bodies corporate\nPART IX\nINSOLVENCY PRACTITIONERS"
+    },
+    {
+      "number": "140",
+      "heading": "Insolvency practitioners",
+      "text": "140. Insolvency practitioners"
+    },
+    {
+      "number": "141",
+      "heading": "Qualifications for appointment as insolvency practitioners",
+      "text": "141. Qualifications for appointment as insolvency practitioners"
+    },
+    {
+      "number": "142",
+      "heading": "Accreditation of insolvency practitioner",
+      "text": "142. Accreditation of insolvency practitioner"
+    },
+    {
+      "number": "143",
+      "heading": "Register of Insolvency Practitioners",
+      "text": "143. Register of Insolvency Practitioners"
+    },
+    {
+      "number": "144",
+      "heading": "Insolvency practitioner acting in foreign State",
+      "text": "144. Insolvency practitioner acting in foreign State"
+    },
+    {
+      "number": "145",
+      "heading": "Eligibilty for accreditation",
+      "text": "145. Eligibilty for accreditation\n284 No. 9 of 2017] Corporate Insolvency\nPART X\nCROSS BORDER INSOLVENCY"
+    },
+    {
+      "number": "146",
+      "heading": "Application",
+      "text": "146. Application"
+    },
+    {
+      "number": "147",
+      "heading": "Court to have jurisdiction",
+      "text": "147. Court to have jurisdiction"
+    },
+    {
+      "number": "148",
+      "heading": "Public policy exceptions",
+      "text": "148. Public policy exceptions"
+    },
+    {
+      "number": "149",
+      "heading": "Additional assistance under other laws",
+      "text": "149. Additional assistance under other laws"
+    },
+    {
+      "number": "150",
+      "heading": "Limited jurisdiction",
+      "text": "150. Limited jurisdiction"
+    },
+    {
+      "number": "151",
+      "heading": "Access of foreign representative to Court",
+      "text": "151. Access of foreign representative to Court"
+    },
+    {
+      "number": "152",
+      "heading": "Application for recognition of foreign proceedings",
+      "text": "152. Application for recognition of foreign proceedings"
+    },
+    {
+      "number": "153",
+      "heading": "Recognition of foreign proceeding by the Court",
+      "text": "153. Recognition of foreign proceeding by the Court"
+    },
+    {
+      "number": "154",
+      "heading": "Subsequent information",
+      "text": "154. Subsequent information"
+    },
+    {
+      "number": "155",
+      "heading": "Interim relief during proceedings for recognition",
+      "text": "155. Interim relief during proceedings for recognition"
+    },
+    {
+      "number": "156",
+      "heading": "Relief granted upon recognition of foreign proceeding",
+      "text": "156. Relief granted upon recognition of foreign proceeding"
+    },
+    {
+      "number": "157",
+      "heading": "Co-operation and communication between insolvency administrator",
+      "text": "157. Co-operation and communication between insolvency administrator\nand foreign representatives"
+    },
+    {
+      "number": "158",
+      "heading": "Forms of co-operation",
+      "text": "158. Forms of co-operation"
+    },
+    {
+      "number": "159",
+      "heading": "Communication of proceedings in Zambia after recognition of foreign",
+      "text": "159. Communication of proceedings in Zambia after recognition of foreign\nmain proceeding"
+    },
+    {
+      "number": "160",
+      "heading": "Co-ordination in concurrent proceedings",
+      "text": "160. Co-ordination in concurrent proceedings"
+    },
+    {
+      "number": "161",
+      "heading": "Payment in concurrent proceedings",
+      "text": "161. Payment in concurrent proceedings"
+    },
+    {
+      "number": "162",
+      "heading": "Regulations on cross-border insolvency",
+      "text": "162. Regulations on cross-border insolvency\nPART XI\nMISCELLANEOUS PROVISIONS"
+    },
+    {
+      "number": "163",
+      "heading": "Electronic transactions and processes",
+      "text": "163. Electronic transactions and processes"
+    },
+    {
+      "number": "164",
+      "heading": "Netting off",
+      "text": "164. Netting off"
+    },
+    {
+      "number": "165",
+      "heading": "Exercise of discretionary power",
+      "text": "165. Exercise of discretionary power"
+    },
+    {
+      "number": "166",
+      "heading": "Request for information",
+      "text": "166. Request for information"
+    },
+    {
+      "number": "167",
+      "heading": "Registration of documents",
+      "text": "167. Registration of documents"
+    },
+    {
+      "number": "168",
+      "heading": "Extension of time",
+      "text": "168. Extension of time"
+    },
+    {
+      "number": "169",
+      "heading": "Documents to be in official language",
+      "text": "169. Documents to be in official language"
+    },
+    {
+      "number": "170",
+      "heading": "Administrative penalties",
+      "text": "170. Administrative penalties"
+    },
+    {
+      "number": "171",
+      "heading": "Offences by officers of companies relating to winding-up or other",
+      "text": "171. Offences by officers of companies relating to winding-up or other\nproceedings"
+    },
+    {
+      "number": "172",
+      "heading": "Inducement relating to insolvency practitioner",
+      "text": "172. Inducement relating to insolvency practitioner"
+    },
+    {
+      "number": "173",
+      "heading": "Destruction, alteration, mutilation or falsifying of book, etc",
+      "text": "173. Destruction, alteration, mutilation or falsifying of book, etc\nCorporate Insolvency [No. 9 of 2017 285"
+    },
+    {
+      "number": "174",
+      "heading": "Liability where proper accounts not kept",
+      "text": "174. Liability where proper accounts not kept"
+    },
+    {
+      "number": "175",
+      "heading": "Responsibility for fraudulent trading",
+      "text": "175. Responsibility for fraudulent trading"
+    },
+    {
+      "number": "176",
+      "heading": "Offence by body corporate and principal officer or shareholders of",
+      "text": "176. Offence by body corporate and principal officer or shareholders of\nbody corporate or unincorporated body"
+    },
+    {
+      "number": "177",
+      "heading": "General penalty",
+      "text": "177. General penalty"
+    },
+    {
+      "number": "178",
+      "heading": "Rules by Chief Justice",
+      "text": "178. Rules by Chief Justice"
+    },
+    {
+      "number": "179",
+      "heading": "Regulations",
+      "text": "179. Regulations"
+    },
+    {
+      "number": "180",
+      "heading": "Transitional provisions",
+      "text": "180. Transitional provisions\nCorporate Insolvency [No. 9 of 2017 287\nGOVERNMENT OF ZAMBIA\nACT\nNo. 9 of 2017\nI hereby signify my assent to the Bill\nDate of Assent: 17th November, 2017\nAn Act to provide for corporate receiverships, appointment\nof receivers and the duties and responsibilities of\nreceivers; business rescue, appointment, duties and\nresponsibilities of business rescue administrators, rights\nof affected persons during business rescue proceedings\nand business rescue plans; schemes of arrangements or\ncompromise with creditors; winding up of companies,\nappointment of liquidators and the duties and\nresponsibilities of liquidators, committees of inspection,\nspecial managers and the Official Receiver; insolvency\npractitioners and the duties and responsibilities of\ninsolvency practitioners; cross-border insolvency; and\nmatters connected with, or incidental to, the foregoing.\n[20th November, 2017\nENACTED by the Parliament of Zambia Enactment\nPART I\nPRELIMINARY PROVISIONS"
+    },
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Corporate Insolvency Act, Short title",
+      "text": "1. This Act may be cited as the Corporate Insolvency Act, Short title\n2017, and shall come into operation on the date appointed by the and\nMinister for the coming into operation of the Companies Act, 2017. commencement\n2. (1) In this Act, unless the context otherwise requires— Interpretation\n“accounts” means the financial statements of a company or\ngroup of companies together with accompanying notes,\nexcluding the auditors’ report or annual report of the\ncompany;\n288 No. 9 of 2017] Corporate Insolvency\n“ account fairly stated ” means the annual accounts stated in\na manner that ensures sufficient disclosure, reasonable\ndetail and absence of bias;\n“ accounting records ” include—\n(a) invoices, receipts, orders for the payment of money,\nbills of exchange, cheques, promissory notes,\nvouchers and other documents of prime entry; and\n(b) such working papers and other documents as are\nnecessary to explain the methods and calculations\nby which the accounts are made up;\n“ affected person ” includes a regulator, shareholder, member,\ndirector, creditor or an employee, a former employee of a\ncompany, registered trade union representing employees\nof the company and the Registrar;\n“ Agency ” means the Patents and Companies Registration\nAgency established in accordance with the Patents and\nAct No. 15 Companies Registration Agency Act, 2010;\nof 2010\n“ agent of the company ” includes any banker or legal\npractitioner of the company and any person appointed by\nthe company as auditor;\n“ annual accounts ” means the annual financial statements of\na company that give a true and fair view of the financial\nperformance, financial position and cash flows of the\ncompany, including the consolidated financial statements\nfor a group of companies that give a true and fair view of\nthe group of companies’ financial performance, financial\nposition and cash flows;\n“ auditor ” has the meaning assigned to the word in the\nAct No.13 Accountants Act, 2008;\nof 2008\n“ bailiff ” means an officer appointed in accordance with the\nCap. 37 Sheriffs Act;\n“ bank ” has the meaning assigned to the word in the Banking\nAct No. 7 of and Financial Services Act, 2017;\n2017\n“ beneficial owner ” has the meaning assigned to the word in\nAct No. 10 the Companies Act, 2017;\nof 2017\n“ body corporate ” has the meaning assigned to the word in\nAct No. 10 the Companies Act, 2017;\nof 2017\n“ book ” has the meaning assigned to the word in the\nAct No. 10 Companies Act, 2017;\nof 2017\nCorporate Insolvency [No. 9 of 2017 289\n“ board of directors ” means the board of directors of a\ncompany and “ board ” shall be construed accordingly;\n“ business ” includes a trade or profession;\n“ business rescue administrator ” means a person qualified in\naccordance with section 30 and appointed as an\nadministrator for purposes of business rescue proceedings;\n“ business rescue plan ” means a plan provided for in\naccordance with section 41;\n“ business rescue proceedings ” means the process of\nfacilitating the rehabilitation of a company that is financially\ndistressed by providing for —\n(a) the temporary supervision of the company and\nmanagement of its affairs, business and property;\n(b) a temporary moratorium on the rights of claimants\nagainst the company or in respect of property in\nits possession; or\n(c) the development and implementation, if approved in\naccordance with this Act, of a plan to rescue the\ncompany by restructuring its affairs, business,\nproperty, debt and other liabilities and equity in a\nmanner that maximises the likelihood of the\ncompany continuing in existence on a solvent basis\nor, if it is not possible for the company to so continue\nin existence, results in a better return for the\ncompany’s creditors or shareholders than would\nresult if the company was to be liquidated;\n“ charge ” has the meaning assigned to the word in the\nCompanies Act, 2017; Act No. 10\nof 2017\n“ committee of inspection ” means a committee of inspection\nappointed in the course of a winding up in accordance with\nthis Act;\n“ company ” has the meaning assigned to the word in the\nCompanies Act, 2017; Act No. 10\n“ contingent creditor ” means a prospective or anticipated of 2017\ncreditor;\n“ control ” means the control of a company by a person who—\n(a) beneficially owns more than twenty-five percent of\nthe issued share capital of the company;\n(b) is entitled to vote a majority of the votes that may be\ncast at a general meeting of the company, or has\nthe ability to control the voting of a majority of\nthose votes, either directly or through a controlled\nentity of that person;\n290 No. 9 of 2017] Corporate Insolvency\n(c) is able to appoint or to veto the appointment of a\nmajority of the directors of the company;\n(d) is a holding company and the company is a subsidiary\nAct No. 10 of that company as provided for in the Companies\nof 2017 Act, 2017;\n(e) in the case of a company that is a trust, has the\nability to control the majority of the votes of the\ntrustees, to appoint the majority of the trustees or\nto appoint or change"
+    },
+    {
+      "number": "8",
+      "heading": "Where a receiver is appointed on behalf of the holder or",
+      "text": "8. Where a receiver is appointed on behalf of the holder or\nPayment of\ntrustee of any debenture of a company that is secured by a floating preferential\ncharge, or possession is taken by or on behalf of the holder or creditors\ntrustee of the debenture of property comprised in or subject to the\ncharge, if the company is not at the time in the course of being\nwound-up, the debts which in every winding-up are to be paid in\npriority to all other debts, as provided in this Act, shall—\n(a) be paid out of any assets coming into the hands of the\nreceiver or the person taking possession in priority to\nany claim for principal or interest in respect of the\ndebentures; and\n(b) the date of the appointment of the receiver or of possession\nbeing taken, shall be considered to be the date of\ncommencement of the winding-up.\n9. (1) An individual is eligible for appointment as a receiver if Eligibility\nthat individual has been practicing as a chartered accountant or a for\nappointment\nlegal practitioner for a period of at least seven years and is\nas receiver\naccredited by the Registrar as an insolvency practitioner.\n(2) An individual who wishes to perform the function of a\nreceiver shall apply for accreditation in the prescribed manner and\nform and pay the prescribed fee.\n300 No. 9 of 2017] Corporate Insolvency\n(3) An individual shall not be appointed, act or continue to act\nas a receiver of the property or undertaking of a company if the\nindividual is—\n(a) by reason of a mental disability incapable of performing\nthe functions;\n(b) prohibited or disqualified from so acting by any order of a\ncourt of competent jurisdiction;\n(c) a mortgagee or chargee of the company;\n(d) an undischarged bankrupt;\n(e) a person who is, or has been within the previous two\nyears, a director or officer of the company or any related\nbody corporate, except with the leave of the court;\n(f) a trustee under any trust deed for the benefit of debenture\nholders of the company, except with the leave of the\ncourt;\n(g) a person who has been convicted, within the previous\nfive years, of an offence involving fraud or dishonesty;\nor\n(h) a person who has been removed, within the previous five\nyears, from an office of trust by order of a court of\ncompetent jurisdiction.\n(4) Accreditation as a receiver is valid for a period of one year\nfrom the date of accreditation and is subject to renewal in the\nprescribed manner and form and upon payment of the prescribed\nfees.\n(5) Accreditation that is not renewed in accordance with\nsubsection (4) is void.\n(6) A person who acts or continues to act as a receiver, contrary\nto this Act, commits an offence and is liable, on conviction, to a fine\nnot exceeding two hundred thousand penalty units or to imprisonment\nfor a period not exceeding two years, or to both.\nDisqualification 10. (1) Subject to subsection (2), a body corporate or firm is\nof body not qualified for appointment as a receiver and a body corporate or\ncorporate or\nfirm which acts as such is liable to a fine not exceeding two hundred\nfirm from\nappointment thousand penalty units.\nas receiver\n(2) This section does not apply to the Official Receiver.\nRemuneration 11. (1) Subject to subsection (2), a receiver is entitled to the\nof receiver payment of a fee which shall be a percentage of the proceeds of\nthe receivership.\nCorporate Insolvency [No. 9 of 2017 301\n(2) Despite the generality of subsection (1), the fee payable to\na receiver shall not exceed an amount that may be prescribed by\nstatutory instrument.\n(3) Despite subsections (1) and (2), the Court may, on the\napplication of a company, liquidator or receiver by order, fix the\namount to be paid by way of remuneration to a receiver and may,\non application made by the company, or liquidator or receiver, vary\nor amend the order.\n(4) The power of the Court as specified in subsection (3) shall —\n(a) extend to fixing the remuneration for any period before\nthe making of the order or the application therefor, where\nthe Court is satisfied that there are special circumstances\nmaking it proper to do so;\n(b) be exercisable despite the receiver dying or ceasing to be\nthe receiver before the making of the order or the\napplication therefor; and\n(c) extend to requiring the receiver or the personal\nrepresentatives of the receiver to account for any\namount that the receiver may have been paid or retained\nfor remuneration, before the making of the order, that is\nin excess of the remuneration fixed for that period.\n(5) A receiver who collects a fee in excess of the prescribed\nfees, shall be personally liable, to reimburse the amount of the excess\nfees so collected or to a fine not exceeding one hundred thousand\npenalty units or to imprisonment for a period not exceeding one\nyear, or to both."
+    },
+    {
+      "number": "12",
+      "heading": "A receiver appointed by the Court shall be an officer of Receivers",
+      "text": "12. A receiver appointed by the Court shall be an officer of Receivers\nthe Court and shall be considered, in relation to the property or appointed\nby Court\nundertaking, not to be an officer of the company, and shall act in\naccordance with the directions and instructions of the Court.\n13. (1) A receiver appointed under a deed of appointment Receivers\nshall, subject to section 14, be considered to be an agent and officer appointed\nof the company, and not an agent of the persons by or on behalf of under deed\nof\nwhom the receiver is appointed, and the receiver shall act in\nappointment\naccordance with the deed of appointment under which the receiver\nis appointed, and with any directions of the Court specified in an\norder of the Court.\n(2) The Court may, on the application of a receiver, make such\norder as it considers necessary to provide direction, in any matter\nrelating to the performance of the receiver’s functions or declaring\nthe rights of persons before the Court or otherwise.\n302 No. 9 of 2017] Corporate Insolvency\n14. (1) Where a contract was entered into by a receiver in\nLiabilities of\nreceivers on the proper performance of the receiver’s functions, the receiver\ncontracts has, subject to the rights of any prior encumbrances, an indemnity\nin respect of any liability relating to the property.\n(2) Where the receiver was appointed under a deed of\nappointment, and a contract was entered into by the receiver with\nthe express or implied authority of the person appointing the receiver,\nthe receiver is indemnified from liability, to the extent to which the\nreceiver is unable to recover on any assets under a charge, in\naccordance with the deed of appointment.\n(3) A receiver is personally liable on any contract entered into\nby the receiver in contravention of this Act.\nStatement of 15. (1) Where a receiver has been appointed, every invoice,\nappointment order or business letter issued by or on behalf of the company or\nof\nreceiver, being a document on or in which the name of the company\nreceivership\non stationery appears, shall contain a statement that a receiver has been\nappointed.\n(2) If the company fails to comply with this section, the company,\nreceiver or any officer concerned, commits an offence and is liable,\non conviction, to a fine not exceeding three thousand penalty units\nfor each document not containing the statement.\nManagement 16. (1) A receiver shall, before disposing of any asset under\nof assets a charge, manage the asset so as to realise the monies owed to the\nbefore\nsecured creditor without disposing the asset by sale, unless the\ndisposal\nmanagement of the asset shall be further depleted or not satisfy\nthe debts owed to the secured creditor.\n(2) Subject to subsection (1), a receiver shall, where the receiver\ndecides to dispose of an asset under a charge by sale, dispose of\nthe asset at the highest possible amount and shall, after satisfying\nthe secured creditor’s debt and the receiver’s fees, pay the\ndifference to the company.\n(3) A receiver shall, unless directed by the Court or by a\nresolution of creditors or members passed at a general meeting or\nby a committee of inspection—\n(a) dispose of an asset under a charge by public tender or by\nthe most transparent manner in the circumstances; and\n(b) not less than 21 days before the disposal, notify the\nRegistrar in the prescribed manner and form, of the\nintention to dispose of the asset.\n(4) A receiver who contravenes this section commits an offence\nand is liable, on conviction, to a fine not exceeding fifty thousand\npenalty units.\nCorporate Insolvency [No. 9 of 2017 303"
+    },
+    {
+      "number": "17",
+      "heading": "Where a receiver is appointed of the whole, or substantially Statement of",
+      "text": "17. Where a receiver is appointed of the whole, or substantially Statement of\nthe whole of the undertaking of a company, on behalf of the holders affairs and\naccounts\nof any debentures secured by a floating charge, sections 73, 118\nwhere\nand 126 apply as if the company had been ordered to be wound-up receiver\nappointed\nand the receiver had been appointed liquidator.\n18. (1) Except where section 17 applies, a receiver shall within Accounts of\nreceivers\nthirty days, or such longer period as the Registrar may allow—\n(a) after the end of the period of six months from the date of\nthe receiver’s appointment, and of every subsequent\nperiod of three months until the receiver ceases to act,\nlodge simultaneously with the Registrar and Official\nReceiver an abstract showing the receiver’s receipts\nand payments during that period of three months; and\n(b) within thirty days, or such longer period as the Registrar\nmay allow, after ceasing to be receiver, lodge with the\nRegistrar an abstract showing the receiver’s receipts\nand payments during the twelve month period from the\nlast abstract, if any, and the total of the receipts and\npayments during the whole period of the receiver’s\nappointment.\n(2) The Registrar may require a receiver to produce any\ndocument, or information concerning the affairs of the company.\n(3) A receiver who contravenes this section commits an offence\nand is liable, on conviction, to a fine not exceeding one thousand\npenalty units for each day that the failure continues.\n19. (1) A receiver shall, as soon as is practicable, report the Report by\nmatter, in writing, to the Registrar or official Receiver, where the receiver\nreceiver, in the course of performing the functions and duties of a\nreceiver determines that—\n(a) there is a contravention of, or failure to comply with, any\nof the provisions of this Act by any person; and\n(b) the circumstances are such that the matter has not been\nor will not be adequately dealt with by bringing the matter\nto the notice of the directors of the company or, if the\ncompany is a subsidiary, of the directors of the holding\ncompany.\n(2) The Court may, on its own motion, or on the application of\nthe Registrar or Official Receiver, or of any person interested in\nthe appointment of the receiver, require the receiver to submit a\nreport, to the Registrar or Official Receiver, on any matter relating\nto the company in which the receiver has information.\n304 No. 9 of 2017] Corporate Insolvency\nVacation of 20. (1) The office of a receiver becomes vacant where the\noffice by receiver—\nreceiver\n(a) dies;\n(b) becomes ineligible for appointment as specified in section\n9;\n(c) is removed by order of the Court; or\n(d) is removed from the Register of Insolvency Practitioners\nin accordance with section 143.\n(2) A receiver may resign from office by giving one month’s\nnotice, in writing, to the appointing authority or the Court, of the\nreceiver’s intention to resign.\n(3) A receiver may be removed by the Court, on application to\nthe Court by the holder of a charge by virtue of which the receiver\nwas appointed, or by revocation of the deed of appointment.\n(4) Where a receiver vacates office—\n(a) the receiver’s remuneration and any expenses properly\nincurred by the receiver; and\n(b) any indemnity to which the receiver is entitled out of the\nproperty of the company;\nshall be paid out of the property of the company which is subject to\na charge and such remuneration shall have priority in accordance\nwith this Act as a secured creditor.\n(5) Where a receiver ceases to be receiver or is removed by\nthe Court, the holder of the charge by virtue of which the receiver\nwas appointed shall, within fourteen days of the cessation of the\nreceivership or removal of the receiver, notify the Registrar and\nOfficial Receiver in the prescribed form and manner of the cessation\nor removal and the Registrar shall enter the notice in the Register\nof Receivers.\n(6) If, by the expiry of a period of thirty days following the\nremoval of a receiver or the cessation of a receivership and no\nother receiver is appointed, the deed by virtue of which the receiver\nwas appointed shall cease to attach to the property.\n(7) A person who contravenes this section commits an offence\nand is liable, upon conviction, to a fine not exceeding one hundred\nthousand penalty units or to imprisonment for a period not exceeding\none year, or to both.\nCorporate Insolvency [No. 9 of 2017 305\nPART III\nBUSINESS RESCUE PROCEEDINGS\n21. (1) Subject to subsection (2) (a), the member may by Resolution\nspecial resolutions, resolve that the company voluntarily begins to begin\nbusiness\nbusiness rescue proceedings and place the company under\nrescue\nsupervision, if the board has reasonable grounds to believe that—\nproceedings\n(a) the company is financially distressed; and\n(b) there appears to be a reasonable prospect of rescuing the\ncompany;\nand there is need to—\n(i) maintain the company as a going concern;\n(ii) achieve a better outcome for the company’s creditors"
+    },
+    {
+      "number": "38",
+      "heading": "A shareholder is during the business rescue proceedings, Participation",
+      "text": "38. A shareholder is during the business rescue proceedings, Participation\nentitled to— by\nshareholders\n(a) a notice of each Court proceeding, decision, meeting or\nother relevant event concerning the business rescue\nproceedings;\n(b) participate in any Court proceedings arising during the\nbusiness rescue proceedings;\n(c) participate in business rescue proceedings to the extent\nprovided for in this Part;\n(d) vote to approve or reject a proposed business rescue plan\nas provided in this Part, if the plan would alter the rights\nassociated with the class of shares held by that person;\n(e) where the business rescue plan is rejected –\n(i) propose the development of an alternative plan, as\nprovided in this Part, or\n(ii) present an offer to acquire the interests of any or\nall of the creditors or other holders of the\ncompany’s securities as provided for in this Part.\n39. (1) A business rescue administrator shall, within thirty First meeting\ndays, after being appointed, convene and preside over a first meeting of creditors\nof creditors, at which—\n(a) the business rescue administrator—\n(i) shall inform the creditors on whether a reasonable\nprospect of rescuing the company exists; and\n(ii) may receive proof of claims by creditors; and\n(b) the creditors may appoint a committee of creditors.\n320 No. 9 of 2017] Corporate Insolvency\n(2) A business rescue administrator shall give seven days’ notice\nof the convening of the first meeting of creditors to every creditor\nwhose name and address is known or can reasonably be obtained\nsetting out the—\n(a) date, time and place of the meeting; and\n(b) agenda for the meeting.\n(3) At a meeting of creditors, other than a meeting convened\nin accordance with section 42, a decision shall be passed by a\nsimple majority vote of the independent creditors’ voting on a matter.\nFunctions, 40. (1) A committee of creditors, appointed in accordance\nduties and with this Part—\nmembership\n(a) may consult with the business rescue administrator on\nof\nany matter relating to the business rescue proceedings,\ncommittees\nof creditors but shall not direct or instruct the business rescue\nand administrator on any matter related to the proceedings;\nemployees\n(b) shall, on behalf of the general body of creditors receive\nand consider reports relating to the business rescue\nproceedings; and\n(c) shall act independently of the business rescue administrator\nto ensure fair and unbiased representation of creditors’\ninterests.\n(2) A person may be a member of a committee of creditors if\nthat person is—\n(a) an independent creditor of the company;\n(b) an agent, proxy or attorney of an independent creditor or\nother person acting under a general power of attorney;\nor\n(c) authorised in writing by an independent creditor to be a\nmember.\nProposal of 41. (1) A business rescue administrator shall, after consulting\nbusiness the creditors, the management of the company, and where\nrescue plan applicable, shareholders, prepare a business rescue plan for\nconsideration and possible adoption at a meeting held in accordance\nwith section 42.\n(2) A business rescue plan shall contain all the information\nreasonably required to assist the affected persons in making the\ndecision to accept or reject the plan, which plan shall be divided\ninto three Parts as follows:\n(a) Part A shall contain background information and shall\ninclude—\nCorporate Insolvency [No. 9 of 2017 321\n(i) a complete list of all the material assets of the company, indicating\nwhich assets were held as security at the commencement of\nthe business rescue proceedings;\n(ii) a complete list of creditors at the commencement of the business\nrescue proceedings and a categorisation of creditors as\nsecured, statutory preferential creditors, concurrent or\nunsecured;\n(iii) the probable dividend that would be received by creditors, in\ntheir specific classes, if the company were to be placed in\nliquidation;\n(iv) a complete list of the holders of the company’s issued securities;\n(v) a copy of the written agreement relating to the business rescue\nadministrator’s remuneration;\n(vi) a statement as to whether the business rescue plan includes a\nproposal made informally by a creditor; and\n(vii) a statement as to the basis for the business rescue\nadministrator’s remuneration;\n(b) Part B shall include the following proposals:\n(i) the nature and duration of any moratorium for which the business\nrescue plan makes provision;\n(ii) the extent to which the company is to be released from the\npayment of its debts, and the extent to which any debt is\nproposed to be converted to equity in the company or another\ncompany;\n(iii) the ongoing role of the company, and the treatment of any\nexisting agreements;\n(iv) the property of the company that is to be available to pay\ncreditors’ claims in terms of the business rescue plan;\n(v) the order of preference in which the proceeds of the property\nof the company shall be applied to pay creditors if the business\nrescue plan is adopted;\n(vi) the benefits of adopting the busin"
+    },
+    {
+      "number": "50",
+      "heading": "The winding-up of a company in accordance with this Part Modes of",
+      "text": "50. The winding-up of a company in accordance with this Part Modes of\nshall be by any of the following modes: winding-up\n(a) winding-up by the Court; or\n(b) voluntary winding-up, being a—\n(i) members’ voluntary winding-up; or\n(ii) creditors’ voluntary winding-up.\n51. (1) This section applies to a company limited by guarantee, Liability of\nan unlimited company and a company having shares which are not members on\nwinding-up\nfully paid up.\n(2) Where a company is wound-up, every member at the time\nof the commencement of the winding-up shall, subject to section\n40, be liable to contribute to the assets of the company an amount\nsufficient for payment of its debts and liabilities and the costs,\ncharges and expenses of the winding-up and for the adjustment of\nthe rights of the members among themselves.\n(3) A sum due to a member by way of dividends or otherwise—\n(a) shall not be regarded as a debt of the company payable to\nthat member in a case of competition between the\nmember and any other creditor who is not a member;\nand\n(b) may be taken into account for the purpose of the final\nadjustment of the rights of the members among\nthemselves.\n52. (1) Despite any other provision in this Act, in the case of Limitation of\na public company or a private company limited by shares, a member liability\nis not required to make a contribution exceeding the amount, if any,\nunpaid on the shares in respect of which the person is liable as a\nmember.\n(2) Despite any other provision in this Act, in the case of a\ncompany limited by guarantee, a member is not required to make\na contribution exceeding the amount that the member undertook, in\nthe declaration of guarantee, to contribute to the assets of the\ncompany in the event of its being wound-up."
+    },
+    {
+      "number": "53",
+      "heading": "The liability of a member shall create a specially accruing Nature of",
+      "text": "53. The liability of a member shall create a specially accruing Nature of\ndebt due from that member at the time when the member’s liability liability of\ncommenced, but payable at the times when calls are made for member\nenforcing the liability.\n54. (1) Where a member dies, whether before or after the Liability on\nmember is placed on the list of persons liable to contribute to the death or\nbankruptcy\nassets of a company, that member’s personal representative is liable\nof member\nin the due course of administration and, if that representative fails\n332 No. 9 of 2017] Corporate Insolvency\nto pay any money ordered to be paid, proceedings may be taken\nfor administering the estate of the deceased member and for\ncompelling payment from the estate of the money due.\n(2) If a member becomes bankrupt, before or after the member\nis placed on the list of persons liable to contribute to the assets of a\ncompany—\n(a) the member’s trustee in bankruptcy shall represent that\nmember for purposes of the winding-up and is liable to\ncontribute accordingly; and\n(b) there may be proved against the estate of the\nbankrupt the estimated value of the member’s liability\nto future calls as well as to calls already made.\nPART VI\nWINDING-UP BY COURT\nJurisdiction 55. The Court has jurisdiction to wind-up in accordance with\nover winding this Act, a body corporate incorporated in—\nup\n(a) Zambia; and\nproceedings\n(b) a foreign country and—\n(i) registered as a foreign company in Zambia; or\n(ii) having any business, undertaking or assets in\nZambia.\nPetition to 56. (1) Subject to this section, a company may be wound-up\nwind-up by the Court on the petition of—\ncompany\n(a) the company;\n(b) a creditor, including a contingent or prospective creditor\nof the company;\n(c) a member;\n(d) a person who is the personal representative of a\ndeceased member;\n(e) the trustee in bankruptcy of a bankrupt member;\n(f) a liquidator of the company appointed in a voluntary\nliquidation; or\n(g) the Registrar or Official Receiver.\n(2) In the case of a public company or a private company limited\nby shares, a member is not entitled to present a winding-up petition\nunless the member’s shares, or some of them—\n(a) were originally allotted to the member;\n(b) have been held by the member and registered in that\nmember’s name for at least six months; or\nCorporate Insolvency [No. 9 of 2017 333\n(c) have devolved on the member by operation of law.\n(3) The Court shall not hear a winding-up petition presented by\na contingent or prospective creditor until-\n(a) the creditor gives security for costs as the Court\nconsiders reasonable; and\n(b) a prima facie case for winding-up has been established\nto the satisfaction of the Court.\n(4) Where a company is being wound-up voluntarily, the Court\nshall not make a winding-up order, if it determines that the voluntary\nwinding-up cannot be continued with due respect to the interests\nof the creditors or members.\n57. (1) The Court may order the winding-up of a company Circumstances\non the petition of a person other than the Official Receiver if— for winding-\nup by Court\n(a) the company has by special resolution resolved that it be\nwound-up by the Court ;\n(b) the company is unable to pay its debts;\n(c) the period, if any, fixed for the duration of the company by\nthe articles expires, or an event occurs in respect of\nwhich the articles provide that the company is to be\ndissolved;\n(d) the number of members is reduced below two;\n(e) the company was formed for an unlawful purpose;\n(f) the incorporation of the company was obtained fraudulently;\nor\n(g) in the opinion of the Court, it is just and equitable that the\ncompany should be wound-up.\n(2) The Court may order the winding-up of a company on the\npetition of the Registrar or the Official Receiver on the grounds\nspecified in subsection (1) (b), (d), (e) or (f) or on the ground that\nthe company has persistently failed to comply with any of the\nprovisions of this Act.\n(3) For purposes of this section, a company is unable to pay its\ndebts if—\n(a) there is due, from the company to any creditor, including\na creditor by assignment, a prescribed fee, and—\n(i) the creditor has, more than thirty days previously,\nserved on the company a written demand\nrequiring the company to pay the amount due;\nand\n334 No. 9 of 2017] Corporate Insolvency\n(ii) the company has failed to pay the sum or to\nsecure or compound it to the reasonable\nsatisfaction of the creditor;\n(b) execution or other process issued on a judgment, decree\nor order of any Court in favour of a creditor of the\ncompany is returned unsatisfied in whole or in part; or\n(c) the company is unable to pay its debts as they fall due.\n(4) The Court shall, in determining whether a company is unable\nto pay its debts, take into account the contingent and prospective\nliabilities of the company.\nCommencement 58. (1) Where, before the presentation of the petition for the\nof winding- winding-up of a company by the Court, a “special” resolution is\nup by Court\npassed by the compa"
+    },
+    {
+      "number": "61",
+      "heading": "A person referred to in section 56 (1) may, after the Power to",
+      "text": "61. A person referred to in section 56 (1) may, after the Power to\npresentation of a winding-up petition of a company and before a stay or\nrestrain\nwinding-up order is made, where an action or proceeding against\nproceedings\nthe company is pending, apply to the Court to stay or restrain further\nagainst\nproceedings in the action or proceeding, and the Court may stay or company\nrestrain the proceedings on such terms as it considers appropriate\nin the matter."
+    },
+    {
+      "number": "62",
+      "heading": "A disposition of the property of a company, including things Avoidance of",
+      "text": "62. A disposition of the property of a company, including things Avoidance of\nin action, and any transfer of shares or alteration in the status of dispositions\nmembers of the company, made after the commencement of a\nwinding-up by the Court, is void unless the Court otherwise orders."
+    },
+    {
+      "number": "63",
+      "heading": "An attachment, sequestration, distress or execution put in Avoidance of",
+      "text": "63. An attachment, sequestration, distress or execution put in Avoidance of\nforce against the estate or assets of a company after the attachments\ncommencement of a winding-up by the Court is void.\n64. (1) A petitioner shall, within fourteen days after the Registration\nmaking of a winding-up order— of copy of\norder\n(a) lodge a copy of the order with the Registrar;\n336 No. 9 of 2017] Corporate Insolvency\n(b) cause a copy of the order to be served on the secretary\nof the company or on such other person, in such manner\nas the Court directs;\n(c) deliver a copy of the order to the Official Receiver, if the\nOfficial Receiver has not been appointed as liquidator\nor if no liquidator has been appointed; and\n(d) deliver a copy to the liquidator, if any, with a statement\nthat the requirements of this subsection have been\ncomplied with.\n(2) The Registrar shall, on receipt of a copy of a winding-up\norder lodged in accordance with subsection (1), as soon as it is\nreasonably practicable, cause a notice of the order to be published\nin the Gazette.\n(3) A petitioner who fails to comply with subsection (1) commits\nan offence and is liable, on conviction, to a fine not exceeding three\nhundred and fifty penalty units for each day that the failure\ncontinues.\nProvisional 65. (1) The Court may provisionally appoint the Official\nliquidator Receiver or any other person to be the liquidator after the\npresentation of a winding-up petition and before the making of a\nwinding-up order.\n(2) A provisional liquidator shall have and may exercise all the\npowers and perform the function of a liquidator subject to such\nlimitations and restrictions as may be prescribed, or as the Court\nspecifies in the appointing order.\n(3) A provisional liquidator, except the Official Receiver, shall\nbe a person accredited by the Registrar in accordance with this\nAct.\nStay of 66. Where a winding-up order is made or a provisional liquidator\nactions is appointed, an action or proceeding shall not be proceeded with,\nor commenced against, a company except by leave of the Court\nand subject to such terms and conditions as the Court may impose.\nAppointment 67. (1) The Court may, in a winding-up order, appoint an\nof liquidator individual who is accredited by the Registrar, in accordance with\nby Court\nthis Act, as liquidator or may give directions as to the appointment\nand\nof a liquidator by the members or creditors of a company.\nperformance\nof functions (2) Where a winding-up order makes no direction as to the\nin absence of appointment of a liquidator, the Official Receiver shall be the\nliquidator\nliquidator of the company.\n(3) A provisional liquidator shall continue to exercise the powers\nand perform the functions of a liquidator until the appointment of a\nliquidator.\nCorporate Insolvency [No. 9 of 2017 337\n(4) Where a provisional liquidator is not appointed, the Official\nReceiver shall be the provisional liquidator until the appointment of\na liquidator.\n(5) The Official Receiver shall be the liquidator during any\nvacancy in the office of liquidator.\n(6) A vacancy in the office of liquidator may be filled by the\nCourt.\n(7) A liquidator may resign or, on cause shown, be removed by\nthe Court.\n(8) A liquidator shall be described, except the Official Receiver,\nas “the Liquidator” and not by individual name.\n(9) The Official Receiver when appointed liquidator may be\ndescribed as “ the Official Receiver and Liquidator ”.\n(10) Where more than one liquidator is appointed by the Court,\nthe Court shall declare whether anything by this Act required or\nauthorised to be done by the liquidator is to be done by all or any\none or more of the persons appointed.\n(11) The Registrar shall cause the name, business address and\ndetails of the appointment or release of the liquidator to be notified\nin the Gazette.\n68. (1) Where a person, other than the Official Receiver, is Lodging of\nappointed liquidator by the Court, that person shall— notice of\nappointment\n(a) act as liquidator if the person lodges a notice of the\nwith Official\nappointment with the Official Receiver and gives security Receiver and\nas may be directed by the Court or by Official Receiver; access to\ncompany\nand\n(b) give the Official Receiver information and access to\nfacilities of the company for the inspection of the books\nand documents of the company, and generally give such\naid as may be requisite to enable the Official Receiver\nto perform the functions specified in this Act.\n69. (1) In a winding-up of a company by the Court, the Official Control of\nReceiver shall inquire into the matter, and take such action as the liquidators\nby Official\nOfficial Receiver considers appropriate—\nReceiver\n(a) if the liquidator is not faithfully performing the functions\nof liquidator; or\n(b) where a complaint has been made to the Official Receiver\nby a creditor or member of the company relating to the\nwinding-up.\n(2) The Official Receiver may, require a liquidator appointed\nby the Court to answer any inquiry in relation to the winding-up\n33"
+    },
+    {
+      "number": "83",
+      "heading": "The Court may, after making a winding-up order, make Inspection",
+      "text": "83. The Court may, after making a winding-up order, make Inspection\nany order for inspection of the records of the company by creditors of books by\ncreditors and\nand members that the Court considers necessary in the\nmembers\ncircumstances of the matter, and any records in the possession of\nthe company may be inspected by creditors or members in\naccordance with the order.\n84. (1) The Court may cause appearance by summons, of an Power to\nofficer of a company or person known or suspected to be in summon\npossession of any property of the company, or indebted to the persons\nconnected\ncompany or of any other person whom the Court considers capable\nwith\nof giving information concerning the promotion, formation, trade,\ncompany\ndealings, affairs or property of the company.\n(2) The Court may examine an officer of a company or other\nperson, on oath, concerning the matters referred to in subsection\n(1), orally or by written interrogatories, and may reduce the oral\nanswers in writing and require the officer or other person to sign\nthem and which may be used in evidence in any legal proceedings\nagainst the officer or person.\n(3) The Court may require an officer of a company or other\nperson to produce any books and papers in the officer’s or person’s\ncustody or power relating to the company, except that where the\nofficer or other person claims a lien on any book or paper, the\nproduction shall be without prejudice to the lien, and the Court shall\nhave jurisdiction to determine questions relating to the lien.\n(4) An examination made in accordance with this section may,\nif the Court so directs, be held before the Registrar of the High\nCourt.\n(5) A person summoned for examination in accordance with\nthis section may, at that person’s own cost, engage a legal\npractitioner.\n(6) Where a person who is summoned as provided in this section\nand after being provided with a reasonable sum for that person’s\nexpenses, refuses to appear before the Court at the time appointed,\nnot having a lawful excuse made known to the Court at the time of\nthe sitting as approved by the Court, the Court may cause that\nperson to be apprehended and brought before the Court for\nexamination.\n350 No. 9 of 2017] Corporate Insolvency\nPower to 85. (1) Where a liquidator makes a report stating that—\norder public (a) a fraud has been committed in the company;\nexamination\n(b) any material fact has been suppressed or concealed by\nany person in the promotion or formation of the company\nor by any officer in relation to the company;\n(c) any officer of the company has acted dishonestly or has\nbeen guilty of any impropriety or recklessness in relation\nto the affairs of the company;\nthe Court may, after considering the report, direct that—\n(i) the person or officer of the company;\n(ii) any other person who was previously an officer\nof the company, is known or suspected to be\nin possession of any property of the company,\nor is or is supposed to be indebted to the\ncompany; or\n(iii) any person whom the Court considers capable\nof giving information concerning the promotion,\nformation, trade, dealings, affairs or property\nof the company;\nattend before the Court on a day appointed and be examined\nand, in the case of an officer or former officer of the company, as\nto that officer’s conduct and dealings related or relating to the\ncompany.\n(2) A liquidator, creditor or member may take part in the\nexamination, specified in this section, personally or represented by\na legal practitioner.\n(3) The Court may put or allow to be put such questions to the\nperson examined as the Court considers appropriate in the matter.\n(4) A person examined, in accordance with this section, shall\nbe examined on oath and shall answer questions put by the Court\nor otherwise put to the person during the proceedings.\n(5) Where a person is ordered to attend before the Court, as\nprovided in this section, applies to the Court from any charge made\nor suggested against that person to be dropped, the liquidator shall\nappear on the hearing of the application and call the attention of\nthe Court to any matter which appears to the liquidator to be relevant,\nand if the Court, after hearing any evidence given or witnesses\ncalled by the liquidator, grants the application, the Court may allow\nthe applicant such costs as it considers appropriate in the case.\n(6) A person ordered to be examined, as specified in this\nsection—\nCorporate Insolvency [No. 9 of 2017 351\n(a) shall, before the examination, be furnished with a\ncopy of the liquidator’s report; and\n(b) may, at that person’s own cost, engage a legal practitioner.\n(7) An examination undertaken in accordance with this\nsection—\n(a) shall be recorded and reduced in writing;\n(b) shall be read over to and signed by the person being\nexamined; and\n(c) may be used in evidence in any legal proceedings\nrelating to the winding-up or against the person.\n(8) The written transcript of the examination, undertaken in\naccordance with this section, shall at all reasonable times, be open\nt"
+    },
+    {
+      "number": "87",
+      "heading": "Any power conferred on the Court, by this Act shall be in Cumulative",
+      "text": "87. Any power conferred on the Court, by this Act shall be in Cumulative\naddition to, and not in derogation of, any power of instituting powers of\nproceedings against any member or debtor of a company or estate court\nof a member or debtor for the recovery of any debt or other sum.\n352 No. 9 of 2017] Corporate Insolvency\nPART VII\nVOLUNTARY WINDING-UP\nVoluntarily 88. (1) Subject to subsection (2), a company may be wound-\nwinding-up up voluntarily by special resolution of the members or creditors.\n(2) Where the period fixed by the articles of association for the\nduration of the company has expired, or an event for the dissolution\nof the company has occurred, the company shall stand dissolved.\n(3) Where a special resolution for a voluntary winding-up has\nbeen passed in accordance with subsection (1), the company shall,\nwithin fourteen days after the passing of the resolution lodge a\ncopy of the resolution with the Registrar and the Registrar shall,\nwithin seven days after the lodgment, cause notice of the resolution\nto be published in the Gazette.\n(4) If a company fails to comply with subsection (3), the\ncompany, and each officer in default, commits an offence and shall\nbe liable, on conviction, to a fine not exceeding three hundred penalty\nunits for each day that the failure continues.\nCommencement 89. For the purposes of this Act, a voluntary winding-up\nof voluntary commences at the time of the passing of the special resolution for\nwinding-up\nvoluntary winding-up, made in accordance with section 88.\nEffect of 90. (1) A company shall from the commencement of winding-\nvoluntary up, as provided in section 89, cease to carry on its business, except\nwinding-up as the liquidator considers necessary for the effective and efficient\nwinding-up of the company.\n(2) After the commencement of the winding-up, the shares of\nmembers shall not be transferred or altered without the approval\nof the liquidator.\n(3) A transfer or alteration of shares in contravention of\nsubsection (3) is void.\nDeclaration 91. (1) The directors may declare in writing that a full inquiry\nof solvency has been made into the affairs of the company and that they are\nsatisfied that the company meets the solvency test before issuing a\nnotice for a meeting to wind up the company voluntarily as provided\nin section 88.\n(2) The directors shall attach to a declaration made in\naccordance with subsection (1), a statement relating to the affairs\nof the company showing the—\n(a) assets of the company and the total amount expected to\nbe realised from the assets, therefrom;\n(b) liabilities of the company; and\nCorporate Insolvency [No. 9 of 2017 353\n(c) the estimated expenses of winding-up, as of the date\nbefore the making of the declaration.\n(3) A declaration, made in accordance with subsection (1), shall\nonly have effect for the purposes of this Act if it is—\n(a) made at a meeting of directors referred to in subsection\n(1);\n(b) made at least thirty days before the passing of the\nresolution for voluntary winding-up, as specified in\nsubsection (1); and\n(c) lodged with the Registrar on or before the date on which\nthe notice, referred to in subsection (1), is issued.\n(4) A director who makes a written declaration, in accordance\nwith this section, knowing that the company does not satisfy the\nsolvency test commits an offence and is liable, on conviction, to a\nfine not exceeding fifty thousand penalty units or to imprisonment\nfor a period not exceeding six months, or to both.\n92. (1) After the commencement of the winding-up of the Appointment\ncompany, the company shall, by special resolution, appoint one or and\nremuneration\nmore liquidators and fix the remuneration to be paid to the liquidator.\nof liquidator\n(2) Where a liquidator has been appointed, the powers of the\ndirectors shall cease, unless the liquidator, or the members, by\nordinary resolution, with the consent of the liquidator, appropriate\ncontinued exercise of the powers in specified circumstances\napproved by the liquidator.\n(3) The company shall, within fourteen days of appointing the\nliquidator, lodge a certified copy of the ordinary resolution with the\nRegistrar upon payment of the prescribed fee and the Registrar\nshall cause a notice to be published in a daily newspaper of general\ncirculation in Zambia.\n(4) The company may, by special resolution, of which the\nrequisite notice has been given to the members, creditors and\nliquidators, remove the liquidator, subject to any direction of the\nCourt on the application of a member, creditor or liquidator.\n(5) Where a liquidator dies, resigns, is removed from office or\notherwise vacates the office, the company may, by ordinary\nresolution, passed at a general meeting, fill the vacancy.\n(6) The company shall, within fourteen days of filling the vacancy\nspecified in subsection (4), lodge a certified copy of the ordinary\nresolution with the Registrar upon payment of the prescribed fee,\nand the Registrar shall cause a notice to be published in a daily\nnewspaper of gener"
+    },
+    {
+      "number": "99",
+      "heading": "Subject to this Act and any other law relating to preferential Distribution",
+      "text": "99. Subject to this Act and any other law relating to preferential Distribution\npayments, the assets of a company shall, on its voluntary winding- of assets of\ncompany\nup, be distributed in equal priority in satisfaction of the Company’s\nliabilities, and shall be distributed among the members according to\ntheir rights and interests in the company as specified in the articles.\n100. (1) If for any reason, there is no liquidator in a voluntary Court\nwinding-up, the Court may appoint a liquidator. appointed\nliquidator\n(2) The Court may, on cause shown, during a voluntary winding-\nup, remove a liquidator and appoint another liquidator."
+    },
+    {
+      "number": "101",
+      "heading": "A member, creditor or liquidator may, during a voluntary Reviewing",
+      "text": "101. A member, creditor or liquidator may, during a voluntary Reviewing\nwinding-up, apply to the Court to review the remuneration of the remuneration\nduring\nliquidator.\nvoluntary\nwinding-up\n102. (1) A liquidator may, during a voluntary winding-up— Powers and\nduties of\n(a) in the case of a members’ voluntary winding-up approved\nliquidators\nby a resolution of the company exercise the liquidator’s during\npowers under this Act in a winding-up by the Court’; voluntary\nwinding-up\n(b) in the case of a creditors’ voluntary winding-up, by leave\nof the Court or approval of the committee of inspection\nexercise the powers given by this Act to a liquidator in a\nwinding-up by the Court; and\n(c) convene meetings of the company for the purpose of\nobtaining the sanction of the company in respect of any\nmatter or for any other purpose the liquidator considers\nnecessary.\n(2) When several liquidators are appointed during a voluntary\nwinding-up, a power given by this Act may be exercised by one or\nmore of the liquidators as determined at the time of appointment,\nor in default of such determination, by any number of liquidators\nbeing not less than two.\n103. (1) Where a liquidator determines that the whole Liquidator to\nor part of the business or property of a company be transferred or accept\nshares, etc.,\nsold to another corporate, the liquidator may with the—\nas\n(a) special resolution of the company, in the case of a consideration\nmembers’ voluntary winding-up; for sale of\nproperty of\n(b) leave of the Court; or\ncompany\n(c) approval of the committee of inspection, in the case\nof a creditors’ voluntary winding-up;\n358 No. 9 of 2017] Corporate Insolvency\ntransfer or sell the business or property of a company\nand, in compensation or part compensation for the\ntransfer or sale of the business or property of the\ncompany—\n(i) receive fully paid shares, cash, debentures or other like\ninterests in the corporate for distribution among the\nmembers; or\n(ii) in lieu of shares, cash, debentures or other like interests,\nenter into any other arrangement where the members\nmay participate in the profits of, or receive any other\nbenefit from, the corporate.\n(2) If, within one year of the commencement of a voluntary\nwinding-up, the winding-up becomes a winding-up by the Court,\nthe transfer or sale of the business or property of a company shall\nnot be valid unless approved by the Court.\n(3) A transfer or sale of the business or property of a company,\nas specified in this section, is binding on the company and the\nmembers and each member shall be considered to have agreed\nwith the other corporate to accept the fully-paid shares, debentures\nor other like interests to which the member is entitled.\n(4) A special resolution, passed in accordance with this section,\nis not valid unless it is passed before or concurrently with a\nresolution for voluntary winding-up.\n(5) Nothing in this section shall authorise a variation or\nabrogation of the rights of a creditor or member.\nAnnual 104. (1) Where a voluntary winding-up continues for more\nmeeting of than one year, the liquidator shall—\nmembers and\n(a) in the case of a members’ voluntary winding-up\ncreditors\nconvene a general meeting of the company; and\n(b) in the case of a creditors’ voluntary winding-up, convene\nseparate meetings of the creditors and the company;\nwithin fifteen months after the commencement of the winding-\nup and in each succeeding year, and shall lay before every such\nmeeting an account of the liquidator’s acts, dealings and conduct\nof the winding-up during the preceding year.\n(2) In the case of a creditors’ voluntary winding-up, the meeting\nof the company shall be held within one month after the meeting of\ncreditors.\n(3) A liquidator who fails to comply with this section commits\nan offence and is liable, on conviction, to a fine not exceeding three\nhundred penalty units for each day that the failure continues.\nCorporate Insolvency [No. 9 of 2017 359\n105. (1) As soon as the affairs of a company are fully wound- Final\nup, the liquidator shall make up a report showing how the voluntary meeting and\nwinding-up was conducted and the assets of the company disposed dissolution\nof company\nof for the purpose of laying before the meeting the report and\ngiving any explanation of the report and thereupon shall —\n(a) in the case of a members’ voluntary winding-up, convene\na general meeting of the company; and\n(b) in the case of a creditors’ voluntary winding-up, convene\na meeting of the creditors of the company.\n(2) In the case of a creditors’ voluntary winding-up, the meeting\nof the company shall be held within one month after the meeting of\ncreditors.\n(3) A notice of the meetings, required to be convened in this\nsection, shall be published at least one month before each meeting,\nin the Gazette and in a newspaper of general circulation in Zambia\nor other media, which notice shall specify the time, place and object\nof each meeting.\n(4) The quorum at a meeting of a company for both members\nand creditors sh"
+    },
+    {
+      "number": "115",
+      "heading": "A liquidator shall— Disposal of",
+      "text": "115. A liquidator shall— Disposal of\ncompany’s\n(a) dispose of the assets of the company by public tender or\nassets by\nthe most transparent manner in the circumstances; and\nliquidator\n(b) not less than seven days before the disposal, furnish the\nRegistrar with a notice, in the prescribed manner and\nform, upon payment of a prescribed fee, of the intention\nto dispose of an asset.\n116. (1) Where a person, other than the Official Receiver, is Powers of\nthe liquidator and there is no committee of inspection, the Official Official\nReceiver may, on the application of the liquidator, do any act or Receiver\nwhere no\nthing or give any direction or permission which is by this Act\ncommittee of\nauthorised or required to be done or given by a committee of\ninspection\ninspection.\n(2) Where the Official Receiver is the liquidator and there is\nno committee of inspection, the Official Receiver may, do any act\nor thing which is by this Act required to be done by, or subject to,\nany direction or permission given by the committee."
+    },
+    {
+      "number": "117",
+      "heading": "A person aggrieved by an act or a decision of the liquidator Appeal",
+      "text": "117. A person aggrieved by an act or a decision of the liquidator Appeal\nmay apply to the Court, which may confirm, reverse, or modify the against\ndecision of\nact or decision complained of and make such order as it considers\nliquidator\njust.\n118. (1) A liquidator shall, within twenty-one days after being Service of\nappointed, lodge with the Registrar and the Official Receiver a document on\nnotice of the appointment and the location of the liquidator’s office liquidator\nand postal address and if the location and postal address changes\nwithin twenty-one days, lodge a notification with the Registrar and\nthe Official Receiver.\n(2) It shall be good service on the liquidator and company if\nservice is made by leaving a document at the office of the liquidator\nor by sending it in a properly addressed and prepaid registered\nletter to the postal address stated in a notice, lodged and specified\nin subsection (1).\n(3) A liquidator who fails to comply with this section, commits\nan offence and is liable, on conviction, to a fine not exceeding three\npenalty hundred units for each day that the failure continues.\n119. (1) A liquidator shall, within thirty days after— Liquidator’s\n(a) the end of the period of six months from the date of accounts\nbeing appointed;\n364 No. 9 of 2017] Corporate Insolvency\n(b) the end of every subsequent period of six months; and\n(c) ceasing to be liquidator or obtaining an order of release;\nlodge with the Registrar and, if the liquidator is not the Official\nReceiver, with the Official Receiver, accounts of the liquidator’s\nreceipts and payments, or a statement of the company‘ s position\nat the winding-up, verified by a statutory declaration.\n(2) The Official Receiver may cause the accounts of a liquidation\nto be audited by an auditor approved by the Official Receiver, and\nfor the purpose of the audit, the liquidator shall furnish the auditor\nwith such vouchers and information as the auditor requires, and\nthe auditor may require the production of and inspection of any\nbooks or accounts kept by the liquidator.\n(3) A copy of the accounts whether audited or not shall be kept\nby the liquidator at the liquidator’s office and shall be open for\ninspection by a member of the company, creditor or any other\ninterested person.\n(4) The liquidator shall, when forwarding accounts of liquidator’s\nreceipts and payments or a statement, made in accordance with\nsubsection (1), to the creditors and members of the company—\n(a) give notice to every member and creditor stating that the\naccounts have been prepared; and\n(b) inform members and creditors that the accounts may be\ninspected at the liquidator’s office and stating the times\nduring which inspections may be made.\n(5) The cost of an audit undertaking, as required in this section,\nshall be fixed by the Official Receiver and be part of the expenses\nof winding-up.\n(6) A liquidator, other than the Official Receiver, who fails to\nlodge with the Registrar receipts, payments and a statement of the\nposition of the winding-up, verified by a statutory declaration\ncommits an offence and is liable to a fine not exceeding five hundred\nthousand penalty units or to imprisonment for a period not exceeding\nfive years, or to both.\nNotification 120. (1) After the commencement of the winding-up of a\nof company company every document issued from the company on which the\nin liquidation\nname of the company appears, shall have the words, “in liquidation”\nadded after the name of the company.\n(2) If a company fails to comply with subsection (1), the company,\nand each officer in default, commits an offence, and is liable, on\nconviction, to a fine not exceeding three hundred penalty units in\nrespect of each document.\nCorporate Insolvency [No. 9 of 2017 365\n121. (1) Subject to this section and any other law, when a Records of\ncompany has been dissolved, the liquidator shall keep the records company\nof the company for a period of ten years from the date of dissolution\nof the company unless the Court on application by the liquidator,\norders otherwise.\n(2) A liquidator who fails to comply with subsection (1) commits\nan offence, and is liable on conviction to a fine not exceeding five\nhundred penalty units.\n122. (1) Where a committee of inspection is satisfied that a Payment of\ncompany in liquidation has surplus funds, the committee of inspection surplus\nmay direct the liquidator to pay the members, unless the Court on funds to\nmembers\napplication by a creditor, orders otherwise.\n(2) Where the liquidator is satisfied that a company in liquidation\nhas surplus funds and the company does not have a committee of\ninspection, the liquidator may pay the members, unless the Court\non application of a creditor orders otherwise.\n123. (1) Where a company is in liquidation, the liquidator shall Unclaimed\ndeposit in the Company‘s Liquidation Account any— assets\n(a) funds or dividends that have not been claimed for more\nthan six months from the date that funds or dividends\nbecame payable;\n(b) funds arising fro"
+    },
+    {
+      "number": "129",
+      "heading": "A floating charge on property of a company, created Voidance of",
+      "text": "129. A floating charge on property of a company, created Voidance of\nwithin one year before the commencement of the winding-up, is floating\nvoid, unless it is proved that the company, immediately after the charge\ncreation of the charge, was solvent.\n130. (1) Where the acquisition of property or an undertaking\nLiquidator’s\nby a company, within the period of two years before the right to\ncommencement of the winding-up, from— recover in\nrespect of\n(a) a person who, at the time of the acquisition was a director\ncertain sales\nof the company; or to or by\ncompany\n(b) another company which, at the time of the acquisition,\nhad a director who was also a director of the first\ncompany;\nand a valuation report shows that the consideration given in\nrespect of the acquisition exceeded the value of the property, the\nliquidator shall recover the difference from the director or company.\n(2) The value of the property, business or undertaking stated in\nsubsection (1) includes the value of goodwill or profits that have\nbeen made by the business or undertaking, and any similar\nconsideration.\n131. (1) Where the property of a company consists of— Disclaimer\nof onerous\n(a) an estate or interest in land which is encumbered with\nproperty\nonerous covenants;\n370 No. 9 of 2017] Corporate Insolvency\n(b) shares in a corporate that are subject to restrictions on\ntransfer;\n(c) unprofitable contracts; or\n(d) property that cannot be sold, or is not readily saleable, by\nreason of binding the possessor to the performance of\nan onerous act, or to the payment of a sum of money;\nthe liquidator may with the leave of the Court or the consent of\ncommittee of inspection in writing, disclaim the property at any\ntime within twelve months after the—\n(i) commencement of the winding-up; or\n(ii) property in question came to the knowledge of\nthe liquidator, if not within one month after the\ncommencement of the winding-up; or within\nsuch extended period as allowed by the Court.\n(2) From the date of disclaimer, the disclaimer shall operate to\ndetermine, the rights, interests and liabilities of the company, in\nrespect of the property disclaimed, but shall not, except so far as is\nnecessary for releasing the company and the property of the\ncompany from liability, alter the rights or liabilities of any interested\nperson.\n(3) The Court or committee of inspection, may before, or on\ngranting leave or consent to disclaim as specified in subsection (1),\nrequire notices to be given to persons interested in the property of\na company, and impose terms as a condition for granting leave or\nconsent, and may make other orders as the Court or committee\nconsiders it necessary.\n(4) The liquidator shall not disclaim property where—\n(a) an application in writing, has been made to the liquidator\nby a person interested in the property, requiring the\nliquidator to decide whether or not property will be\ndisclaimed; and\n(b) the liquidator has not, within twenty-eight days after the\nreceipt of the application, informed the applicant that\nthe liquidator intends to apply to the Court or the\ncommittee for leave or consent to disclaim.\n(5) If the liquidator does not disclaim the contract, after an\napplication referred to in subsection (4), within twenty-eight days\nof the application, the liquidator shall be deemed to have adopted\nthe contract.\n(6) On the application of a person who is entitled to the benefit\nor subject to a burden of a contract made in accordance with\nCorporate Insolvency [No. 9 of 2017 371\nsubsection (5), the Court may make an order rescinding the contract\non such terms as to payment of damages for the non-performance\nof the contract, and any damages payable in accordance with the\norder may be proved as a debt in the winding-up.\n(7) On the application of a person who claims an interest in a\ndisclaimed property, or, is under a liability not discharged in respect\nof a disclaimed property, the Court may, on such terms as the Court\nconsiders necessary, make an order for the vesting of the property\nin—\n(a) a person entitled to the property;\n(b) a person entitled to compensation for a liability in\naccordance with this section; or\n(c) a trustee for such a person.\n(8) A copy of an order made in accordance with subsection (7),\nshall be lodged with the—\n(a) Registrar;\n(b) Official Receiver; and\n(c) Registrar of Lands and Deeds, if the order relates to land.\n(9) Where the property disclaimed is held under a lease, the\nCourt shall not make a vesting order in favour of a person claiming\nfrom the company, whether as sub-lessee or as mortgagee, except\nwhere the Court, makes the mortgagee or sub-lessee, subject to\nthe same liabilities and obligations as those to which the company\nwas subject under the lease at the commencement of the winding-\nup.\n(10) A mortgagee or sub-lessee who declines a vesting order\non the terms and obligations referred to in subsection (9), shall be\nexcluded from the interests in, and security on the property.\n(11) Where a person making a claim in accordance with\ns"
+    },
+    {
+      "number": "147",
+      "heading": "The functions referred to in this Part relating to recognition Court to",
+      "text": "147. The functions referred to in this Part relating to recognition Court to\nof foreign proceedings and co-operation with foreign courts shall have\nbe performed by the Court, or by such other persons as the Court jurisdiction\nmay direct.\n148. (1) Nothing in this Part shall prevent the Court from Public\nrefusing to act or participate in a matter governed by this Part if policy\nthe action is contrary to the public policy of Zambia. exceptions\n(2) Before the Court refuses to act or participate, as provided in\nsubsection (1), the Court shall make an order on whether it is\nnecessary for the Attorney-General to appear and be heard on the\nquestion of the public policy of Zambia."
+    },
+    {
+      "number": "149",
+      "heading": "Nothing in this Part limits the power of the Court or an Additional",
+      "text": "149. Nothing in this Part limits the power of the Court or an Additional\nassistance\ninsolvency practitioner from providing assistance to a foreign\nunder other\nrepresentative in accordance with other laws of Zambia. laws"
+    },
+    {
+      "number": "150",
+      "heading": "A foreign representative or the foreign assets and affairs Limited",
+      "text": "150. A foreign representative or the foreign assets and affairs Limited\nof a debtor shall not be subject to the jurisdiction of the Court for jurisdiction\nany purpose other than an application commenced in accordance\nwith this Part.\n151. (1) In an insolvency proceeding undertaken in Access of\naccordance with this Part, a creditor or foreign representative shall foreign\nrepresentative\nnot have direct access to, or commence or participate in proceedings\nto Court\nbefore, the Court.\n380 No. 9 of 2017] Corporate Insolvency\n(2) For purposes of subsection (1), a creditor or foreign\nrepresentative shall appoint an insolvency practitioner for purposes\nof such proceedings.\n(3) A creditor or foreign representative shall only participate in\nan insolvency proceeding with leave of the Court.\n(4) Subsection (2) shall not affect the ranking of claims in a\nproceeding undertaken in accordance with this Act or any other\nlaw, or the exclusion of foreign tax and social security claims.\nApplication 152. (1) An insolvency practitioner may apply to the Court,\nfor in the prescribed manner, for an order for recognition of a foreign\nrecognition proceeding.\nof foreign\n(2) An application for an order for recognition of a foreign\nproceedings\nproceeding shall be accompanied by an order of the foreign Court\nconfirming the—\n(a) existence of the foreign proceeding before\nthe foreign court; and\n(b) appointment of the foreign representative.\n(3) An application for recognition, as specified in this section,\nshall be accompanied by a statement, made in the prescribed manner,\nof all foreign proceedings in respect of a debtor that are known to\nthe foreign representative.\n(4) All documents produced in support of an application for\nrecognition shall be in English, and if not in English, shall be translated\nand certified as an accurate translation.\nRecognition 153. A foreign proceeding shall be recognised by the Court as a—\nof foreign\n(a) foreign main proceeding if it is taking place in the State\nproceeding\nwhere the debtor has the centre of its main interests; or\nby Court\n(b) foreign non-main proceeding if the debtor is incorporated\nand registered in accordance with the laws of another\nState.\nSubsequent 154 An insolvency practitioner appointed for purposes of this\ninformation Part shall, within seven days of the appointment, inform the Court\nof any—\n(a) substantial change in the status of a foreign proceeding or\nappointment of a foreign representative; and\n(b) other foreign proceedings regarding the debtor;\nthat becomes known to the insolvency practitioner.\nInterim relief 155. (1) Where relief is urgently needed to protect the assets\nduring of a debtor or the interests of creditors, the Court may, on the\nproceedings application of an insolvency practitioner, appointed for purposes of\nfor\nthis Part, grant any interim relief the Court considers just, including,\nrecognition\nan order—\nCorporate Insolvency [No. 9 of 2017 381\n(a) staying the execution of a debtor’s assets;\n(b) entrusting to the liquidator or insolvency practitioner, the\nadministration or realisation of all or part of the debtor’s\nassets located in Zambia; or\n(c) for the protection and preservation of assets that are\nperishable, susceptible to devaluation or in jeopardy.\n(2) The Court may refuse to grant the relief specified in\nsubsection (1), if such relief would interfere with the administration\nof a foreign main proceeding.\n156. (1) Where the Court makes an order of recognition Relief\nof a foreign proceeding in accordance with this Part, an insolvency granted upon\nrecognition\npractitioner, appointed for purposes of this Part, may apply to the\nof foreign\nCourt for an order—\nproceeding\n(a) staying an individual action or proceeding concerning the\nassets, rights, obligations or liabilities of a debtor;\n(b) staying execution against a debtor’s assets;\n(c) suspending a right to transfer, encumber, or dispose of\nany assets of a debtor;\n(d) providing for the examination of witnesses, the taking of\nevidence, or the delivery of information concerning a\ndebtor’s assets, affairs, rights, obligations or liabilities\noutside Zambia;\n(e) entrusting the administration or realisation of all or part of\nthe debtor’s assets located in Zambia to an insolvency\npractitioner appointed for purposes of this Part; or\n(f) entrusting the distribution of all or part of the debtor’s\nassets, located in Zambia, to the insolvency practitioner,\nprovided that the Court is satisfied that the interests of\ncreditors in Zambia are adequately protected.\n(2) In granting relief in accordance with subsection (1), the\nCourt shall be satisfied that the relief relates to assets that, in\naccordance with the Laws of Zambia, shall be administered in the\nforeign non-main proceeding or concerns information required in\nthat proceeding.\n(3) The Court may, on the application of an insolvency\npractitioner, debtor or other interested person, make an order, subject\nto such conditions as the Court considers appropriate in the matter,\nthat the "
+    },
+    {
+      "number": "160",
+      "heading": "Where a foreign proceeding and an insolvency",
+      "text": "160. Where a foreign proceeding and an insolvency\nCo-\nproceeding, undertaken in accordance with this Act, are taking ordination in\nplace concurrently regarding the same debtor, the Court shall seek concurrent\nproceedings\ncooperation and coordination in accordance with this Part, and the\nfollowing shall apply:\n(a) when an insolvency proceeding is taking place at the time\nthe application for recognition of the foreign proceeding\nis lodged, any relief granted in accordance with this Part,\nshall be consistent with the insolvency proceedings; and\n(b) when an insolvency proceeding is commenced after\nrecognition or after the filing of the application for\nrecognition of the foreign proceeding—\n(i) any relief granted by the Court in accordance with\nthis Part, shall be reviewed by the Court and\nshall be modified or terminated if inconsistent\nwith the insolvency proceedings; and\n(ii) if the foreign proceeding is a foreign main\nproceeding, a stay or suspension, made in\naccordance with this Part, shall be modified or\nterminated, if inconsistent with the insolvency\nproceedings; and\n(c) in granting, extending, or modifying relief granted in\naccordance with this Part, the Court shall be satisfied\nthat the relief relates to assets that, under any other\nlaw, should be administered in the foreign proceedings\nor concerns information required in the proceeding."
+    },
+    {
+      "number": "161",
+      "heading": "A creditor who has received part payment in respect of Payment in",
+      "text": "161. A creditor who has received part payment in respect of Payment in\nits claim in a foreign proceeding, may not receive payment for the concurrent\nsame claim in an insolvency proceeding undertaken in accordance proceedings\nwith this Act regarding the same debtor, unless the payment to the\nother creditors of the same class is proportionately less than the\npayment the creditor has already received.\n162. (1) The Minister may, by statutory instrument, make Regulations\nregulations for the better carrying out of the provisions of this Part. on cross-\nborder\n(2) Without limiting the generality of subsection (1), regulations\ninsolvency\nmade in accordance with this section may provide for—\n(a) notification to foreign creditors of proceedings relating to\ninsolvency;\n(b) requirements for applications for recognition of foreign\nproceedings;\n(c) requirements for recognition and notifications of foreign\nproceedings;\n384 No. 9 of 2017] Corporate Insolvency\n(d) cooperation between the Court and other competent\nauthorities in Zambia and foreign states involved in cases\nof cross-border insolvency;\n(e) greater legal certainty for trade and investment;\n(f) fair and efficient administration of cross-border insolvencies\nand acts that protect the interests of creditors and other\ninterested persons, including debtors;\n(g) protection and maximisation of the value of the debtor’s\nassets;\n(h) procedures for intervention by foreign representatives in\nproceedings in Zambia;\n(i) cooperation and direct communication between the\ninsolvency practitioner and foreign representative;\n(j) coordination of more than one foreign proceeding; and\n(k) facilitation of the business rescue proceedings, for purposes\nof this Part, to protect investment and preserve\nemployment.\nPART XI\nMISCELLANEOUS PROVISIONS\nElectronic 163. (1) A document authorised or required to be lodged\ntransactions with, or delivered to, the Registrar as specified in this Act, may be\nand\nlodged or delivered by electronic means.\nprocesses\n(2) Electronic means may be used for the compliance of a\nprocess or transaction.\n(3) An electronic register of shares and debentures may be\nestablished and ownership of shares and debentures which are\nregistered electronically shall be recognised for all purposes relating\nto such matters.\n(4) A document or certificate required to be signed, granted,\nissued or kept by the Registrar, may be signed, granted, issued or\nkept in electronic form.\nNetting off 164. An unperformed obligation arising out of an agreement\nin respect of an asset which has been transferred for purposes of\ncollateral security shall, on sequestrations of the estate, of either\nparty to such agreement, terminate automatically at the date of\nsequestration and the value of the obligations shall be calculated at\nmarket value as at that date and shall be netted off and the net\namount shall be paid.\nExercise of 165. Subject to this Act, where any discretionary or other\ndiscretionary power is given to the Registrar, the Registrar shall not exercise\npower\nCorporate Insolvency [No. 9 of 2017 385\nthat power adversely or arbitrarily and a person challenging a\ndecision of the Registrar shall have the right to apply to the Court."
+    },
+    {
+      "number": "166",
+      "heading": "Subject to this Act, the Registrar shall, on the request of Request for",
+      "text": "166. Subject to this Act, the Registrar shall, on the request of Request for\nany person and on payment of the prescribed fee, or furnish a information\ncertificate in respect of the document or copies of any document,\nwhich is open to public inspection and which is lodged in the Register\nor any other register, maintained in accordance with this Act.\n167. (1) Where this Act requires a document or particulars Registration\nto be lodged with the Registrar, the Registrar shall register them in of documents\nthe form and manner prescribed or, if no manner is prescribed for\nthe document or particulars, the Registrar shall determine the\nmanner and form of lodgement.\n(2) For purposes of this Act, a document or particulars shall be\ntaken not to have been lodged with the Registrar until a fee,\nprescribed in accordance with this Act, has been paid to the Registrar.\n(3) Subject to this Act, where this Act requires a document or\nparticulars to be lodged, a company shall lodge a separate document\nor set of particulars.\n(4) Where the Registrar considers that a document or particulars\nlodged with the Registrar—\n(a) contain matter which is contrary to any written law;\n(b) by reason of an error, omission or misdescription, have\nnot been duly completed;\n(c) are insufficiently legible;\n(d) are written on material insufficiently durable; or\n(e) otherwise do not comply with the requirements of this\nAct;\nthe Registrar may refuse to register the document or particulars\nin that state and direct that they be amended or completed in a\nspecified manner and re-submitted.\n(7) Where the Registrar gives a direction, as specified in\nsubsection (4), the document or particulars shall be considered not\nto have been lodged.\n(8) The Registrar may require a document or a fact stated in a\ndocument, lodged with the Registrar, to be verified by statutory\ndeclaration.\n(9) Where the Registrar is required or permitted by this Act to\ncause a copy or particulars of a document lodged, with the Registrar,\nto be published in the Gazette or in a daily newspaper of general\ncirculation in Zambia, the Registrar may require the lodgement,\nwith the Registrar, of any such document in duplicate or the provision\n386 No. 9 of 2017] Corporate Insolvency\nof any such particulars, and may withhold registration of the\ndocument until the requirement has been complied with.\n(10) Where this Act provides that a document to be lodged\nshall be “ in the prescribed form ”, the Registrar shall accept for\nlodgement and registration a document that contains all the\ninformation required and varies from the prescribed form inessential\nrespects only.\nExtension of 168. (1) The Registrar may, before the end of the period fixed\ntime for lodgement of a document or particulars, at the request of the\nperson concerned, extend the period for lodgement by such period,\nand on such terms as the Registrar considers reasonable in the\ncircumstances.\n(2) Subject to this section, where a document or particulars are\nlodged with the Registrar, after the end of the period fixed for their\nlodgement, the Registrar shall accept the document or particulars\nfor registration on payment of such additional fee as may be\nprescribed.\n(3) The Registrar may reduce or waive an additional fee\nimposed, in terms of subsection (2), if the Registrar is satisfied that\nthe failure to lodge the document or particulars was caused or\ncontinued solely through administrative oversight and that no person\nis likely to have suffered damage or to have been prejudiced as a\nresult of the failure.\nDocuments 169. (1) Subject to this Act, where this Act requires a\nto be in document or register to be prepared, kept, maintained or lodged,\nofficial the document shall be in English.\nlanguage\n(2) Where the Registrar approves the lodgement of a document\nwhich, or part of which, is in a language other than English, the\nRegistrar may require a certified translation into English to be\nannexed to it.\nAdministrative 170. (1) The Registrar may impose an administrative penalty\npenalties on a person for any failure to comply with this Act.\n(2) An administrative penalty, referred to in subsection (1), shall\nnot exceed the amount prescribed by the Minister for each day\nduring which such failure continues.\n(3) An administrative penalty, imposed in accordance with\nsubsection (1), shall be paid to the Agency within the period specified\nby the Registrar.\n(4) If any person fails to pay an administrative penalty, within\nthe period specified in subsection (2), the Registrar may, by way of\ncivil action in a competent court, recover the amount of the\nadministrative penalty from such person as an amount due and\nowing to the Agency.\nCorporate Insolvency [No. 9 of 2017 387\n171. (1) A past or present officer of a company who— Offences by\nofficers of\n(a) fails to disclose to an insolvency practitioner when, how,\ncompanies\nto whom and for what consideration the company\nrelating to\ndisposed of any movable or immovable property, except winding up\nsuch part as has been dis"
+    },
+    {
+      "number": "180",
+      "heading": "A person who was a receiver or liquidator of a company Transitional",
+      "text": "180. A person who was a receiver or liquidator of a company Transitional\nat the coming into operation of this Act shall continue as a receiver Provisions\nor liquidator as if accredited in accordance with this Act."
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Corporate%20Insolvency%20Act%202017.pdf",
+  "source_hash": "sha256:f4d61bd552e4c442bd4a7f8549c79ca7cc14049afc661960a91424131ad45a1a",
+  "fetched_at": "2026-04-10T17:16:39Z",
+  "parser_version": "0.1.0"
+}
