@@ -1,0 +1,570 @@
+{
+  "id": "act-zm-2020-010-national-council-for-construction-act-2020",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The National Council for Construction Act, 2020",
+  "citation": "Act No. 10 of 2020",
+  "year": 2020,
+  "act_number": 10,
+  "enacted_date": "2020",
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Short title and commencement",
+      "text": "Short title and commencement"
+    },
+    {
+      "number": "2",
+      "heading": "Interpretation",
+      "text": "Interpretation"
+    },
+    {
+      "number": "3",
+      "heading": "Principles governing regulation of construction industry",
+      "text": "Principles governing regulation of construction industry"
+    },
+    {
+      "number": "4",
+      "heading": "Continuation of National Council for Construction",
+      "text": "Continuation of National Council for Construction"
+    },
+    {
+      "number": "5",
+      "heading": "Functions of Council",
+      "text": "Functions of Council"
+    },
+    {
+      "number": "6",
+      "heading": "Provision of standards for construction",
+      "text": "Provision of standards for construction"
+    },
+    {
+      "number": "7",
+      "heading": "Board of Council",
+      "text": "Board of Council"
+    },
+    {
+      "number": "8",
+      "heading": "Functions of Board",
+      "text": "Functions of Board"
+    },
+    {
+      "number": "9",
+      "heading": "Executive Director and other staff",
+      "text": "Executive Director and other staff"
+    },
+    {
+      "number": "10",
+      "heading": "Prohibition from carrying on business as contractor without registration",
+      "text": "Prohibition from carrying on business as contractor without registration"
+    },
+    {
+      "number": "11",
+      "heading": "Application for registration as contractor",
+      "text": "Application for registration as contractor"
+    },
+    {
+      "number": "12",
+      "heading": "Registration of contractors",
+      "text": "Registration of contractors"
+    },
+    {
+      "number": "13",
+      "heading": "Grant of temporary certificate of registration to contractor",
+      "text": "Grant of temporary certificate of registration to contractor"
+    },
+    {
+      "number": "14",
+      "heading": "Grading and classification of contractors",
+      "text": "Grading and classification of contractors"
+    },
+    {
+      "number": "15",
+      "heading": "Renewal of certification of registration and annual fee",
+      "text": "Renewal of certification of registration and annual fee"
+    },
+    {
+      "number": "16",
+      "heading": "Changes in detail of contractor",
+      "text": "Changes in detail of contractor"
+    },
+    {
+      "number": "17",
+      "heading": "Suspension and cancellation of registration",
+      "text": "Suspension and cancellation of registration"
+    },
+    {
+      "number": "18",
+      "heading": "Re-registration",
+      "text": "Re-registration"
+    },
+    {
+      "number": "19",
+      "heading": "Best practice contractor recognition scheme",
+      "text": "Best practice contractor recognition scheme"
+    },
+    {
+      "number": "20",
+      "heading": "Monitoring compliance with standards for construction materials by",
+      "text": "Monitoring compliance with standards for construction materials by"
+    },
+    {
+      "number": "21",
+      "heading": "Application for registration as manufacturer or supplier of construction",
+      "text": "Application for registration as manufacturer or supplier of construction"
+    },
+    {
+      "number": "22",
+      "heading": "Registration of manufacturer or supplier of construction material",
+      "text": "Registration of manufacturer or supplier of construction material"
+    },
+    {
+      "number": "23",
+      "heading": "Prohibition of manufacture, supply or sale of substandard construction",
+      "text": "Prohibition of manufacture, supply or sale of substandard construction"
+    },
+    {
+      "number": "24",
+      "heading": "Change in details of manufacturer or supplier",
+      "text": "Change in details of manufacturer or supplier"
+    },
+    {
+      "number": "25",
+      "heading": "Regulations for registration of manufacturer or supplier",
+      "text": "Regulations for registration of manufacturer or supplier"
+    },
+    {
+      "number": "26",
+      "heading": "Deemed grant of application",
+      "text": "Deemed grant of application"
+    },
+    {
+      "number": "27",
+      "heading": "Prohibition of transfer of certificate of registration",
+      "text": "Prohibition of transfer of certificate of registration"
+    },
+    {
+      "number": "28",
+      "heading": "Duplicate certificate of registration",
+      "text": "Duplicate certificate of registration"
+    },
+    {
+      "number": "29",
+      "heading": "Certificate of status",
+      "text": "Certificate of status"
+    },
+    {
+      "number": "30",
+      "heading": "Surrender of certificate of registration as contractor, manufacturer or",
+      "text": "Surrender of certificate of registration as contractor, manufacturer or"
+    },
+    {
+      "number": "31",
+      "heading": "Registration of construction projects",
+      "text": "Registration of construction projects"
+    },
+    {
+      "number": "32",
+      "heading": "Best practice project assessment scheme",
+      "text": "Best practice project assessment scheme"
+    },
+    {
+      "number": "33",
+      "heading": "Registers",
+      "text": "Registers"
+    },
+    {
+      "number": "34",
+      "heading": "Publication of copies of register",
+      "text": "Publication of copies of register"
+    },
+    {
+      "number": "35",
+      "heading": "Registration of National Construction School",
+      "text": "Registration of National Construction School"
+    },
+    {
+      "number": "36",
+      "heading": "Inspectors",
+      "text": "Inspectors"
+    },
+    {
+      "number": "37",
+      "heading": "Additional powers of inspector",
+      "text": "Additional powers of inspector"
+    },
+    {
+      "number": "38",
+      "heading": "Report by inspector",
+      "text": "Report by inspector"
+    },
+    {
+      "number": "39",
+      "heading": "Bidding documents for procurement of construction works",
+      "text": "Bidding documents for procurement of construction works"
+    },
+    {
+      "number": "40",
+      "heading": "Prohibition of unregistered contractor bidding for construction works",
+      "text": "Prohibition of unregistered contractor bidding for construction works"
+    },
+    {
+      "number": "41",
+      "heading": "Technical specifications, etc",
+      "text": "Technical specifications, etc"
+    },
+    {
+      "number": "42",
+      "heading": "Citizen participation in construction works",
+      "text": "Citizen participation in construction works"
+    },
+    {
+      "number": "43",
+      "heading": "Joint ventures with citizens",
+      "text": "Joint ventures with citizens"
+    },
+    {
+      "number": "44",
+      "heading": "Subcontracting to small or medium scale registered contractor",
+      "text": "Subcontracting to small or medium scale registered contractor"
+    },
+    {
+      "number": "45",
+      "heading": "Reasons for decisions and right to be heard",
+      "text": "Reasons for decisions and right to be heard"
+    },
+    {
+      "number": "46",
+      "heading": "Appointment and convening of appeals tribunal",
+      "text": "Appointment and convening of appeals tribunal"
+    },
+    {
+      "number": "47",
+      "heading": "Powers of appeals tribunal",
+      "text": "Powers of appeals tribunal"
+    },
+    {
+      "number": "48",
+      "heading": "Decisions of tribunal",
+      "text": "Decisions of tribunal"
+    },
+    {
+      "number": "49",
+      "heading": "Tribunal rules",
+      "text": "Tribunal rules"
+    },
+    {
+      "number": "50",
+      "heading": "Appeals",
+      "text": "Appeals"
+    },
+    {
+      "number": "51",
+      "heading": "Code of conduct and ethics for construction industry",
+      "text": "Code of conduct and ethics for construction industry"
+    },
+    {
+      "number": "52",
+      "heading": "Guidelines and practice codes",
+      "text": "Guidelines and practice codes"
+    },
+    {
+      "number": "53",
+      "heading": "Monitoring and evaluation of projects, and programming for regulatory",
+      "text": "Monitoring and evaluation of projects, and programming for regulatory"
+    },
+    {
+      "number": "54",
+      "heading": "Capacity building and professional development",
+      "text": "Capacity building and professional development"
+    },
+    {
+      "number": "55",
+      "heading": "Research and development",
+      "text": "Research and development"
+    },
+    {
+      "number": "56",
+      "heading": "Information management and dissemination",
+      "text": "Information management and dissemination"
+    },
+    {
+      "number": "57",
+      "heading": "Offences relating to registered contractor, manufacturer or supplier of",
+      "text": "Offences relating to registered contractor, manufacturer or supplier of"
+    },
+    {
+      "number": "58",
+      "heading": "General offences",
+      "text": "General offences"
+    },
+    {
+      "number": "59",
+      "heading": "Offences committed partly in and partly out of Republic",
+      "text": "Offences committed partly in and partly out of Republic"
+    },
+    {
+      "number": "60",
+      "heading": "Power of Council to compound certain offences",
+      "text": "Power of Council to compound certain offences"
+    },
+    {
+      "number": "61",
+      "heading": "Administrative penalties",
+      "text": "Administrative penalties"
+    },
+    {
+      "number": "62",
+      "heading": "Offence by principal officer, shareholder or partner of body corporate or",
+      "text": "Offence by principal officer, shareholder or partner of body corporate or"
+    },
+    {
+      "number": "63",
+      "heading": "Regulations",
+      "text": "Regulations"
+    },
+    {
+      "number": "64",
+      "heading": "Repeal of Act No. 13 of 2003",
+      "text": "Repeal of Act No. 13 of 2003"
+    },
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the National Council for Short title and",
+      "text": "This Act may be cited as the National Council for Short title and"
+    },
+    {
+      "number": "2",
+      "heading": "In this Act, unless the context otherwise requires\u2014 Interpretation",
+      "text": "In this Act, unless the context otherwise requires\u2014 Interpretation"
+    },
+    {
+      "number": "5",
+      "heading": "Subject to any other written law, functions of the Council Functions",
+      "text": "Subject to any other written law, functions of the Council Functions"
+    },
+    {
+      "number": "8",
+      "heading": "The Board shall, subject to the provisions of this Act\u2014 Functions of",
+      "text": "The Board shall, subject to the provisions of this Act\u2014 Functions of"
+    },
+    {
+      "number": "12",
+      "heading": "(1) The Council shall, within fourteen days of the approval Registration of",
+      "text": "(1) The Council shall, within fourteen days of the approval Registration of"
+    },
+    {
+      "number": "15",
+      "heading": "(1) A registered contractor may, three months before the Renewal of",
+      "text": "(1) A registered contractor may, three months before the Renewal of"
+    },
+    {
+      "number": "16",
+      "heading": "A registered contractor under this Act shall notify the Changes in",
+      "text": "A registered contractor under this Act shall notify the Changes in"
+    },
+    {
+      "number": "17",
+      "heading": "(1) Subject to other provisions of this Act, the Council may Suspension",
+      "text": "(1) Subject to other provisions of this Act, the Council may Suspension"
+    },
+    {
+      "number": "19",
+      "heading": "The Council shall establish a best practice contractor",
+      "text": "The Council shall establish a best practice contractor"
+    },
+    {
+      "number": "21",
+      "heading": "(1) A person shall apply to the Council for registration as a Application",
+      "text": "(1) A person shall apply to the Council for registration as a Application"
+    },
+    {
+      "number": "22",
+      "heading": "(1) The Council shall, within fourteen days of the approval Registration of",
+      "text": "(1) The Council shall, within fourteen days of the approval Registration of"
+    },
+    {
+      "number": "23",
+      "heading": "(1) A person registered under this Act shall not Prohibition",
+      "text": "(1) A person registered under this Act shall not Prohibition"
+    },
+    {
+      "number": "29",
+      "heading": "(1) A person may apply to the Executive Director for a Certificate of",
+      "text": "(1) A person may apply to the Executive Director for a Certificate of"
+    },
+    {
+      "number": "30",
+      "heading": "(1) Where a registered contractor or a registered Surrender of",
+      "text": "(1) Where a registered contractor or a registered Surrender of"
+    },
+    {
+      "number": "31",
+      "heading": "(1) The Minister may, in consultation with the Council, Registration",
+      "text": "(1) The Minister may, in consultation with the Council, Registration"
+    },
+    {
+      "number": "32",
+      "heading": "(1) The Council shall establish a best practice project Best",
+      "text": "(1) The Council shall establish a best practice project Best"
+    },
+    {
+      "number": "35",
+      "heading": "(1) The Construction School established under the repealed Registration",
+      "text": "(1) The Construction School established under the repealed Registration"
+    },
+    {
+      "number": "36",
+      "heading": "(1) The Council may appoint a suitably qualified person to Inspectors",
+      "text": "(1) The Council may appoint a suitably qualified person to Inspectors"
+    },
+    {
+      "number": "42",
+      "heading": "The Council may advise a procuring entity or private body Citizen",
+      "text": "The Council may advise a procuring entity or private body Citizen"
+    },
+    {
+      "number": "43",
+      "heading": "(1) Subject to this Act, a foreign contractor shall participate Joint",
+      "text": "(1) Subject to this Act, a foreign contractor shall participate Joint"
+    },
+    {
+      "number": "44",
+      "heading": "(1) A registered foreign contractor or a large scale Subcontracting",
+      "text": "(1) A registered foreign contractor or a large scale Subcontracting"
+    },
+    {
+      "number": "49",
+      "heading": "The Chief Justice shall prescribe rules of procedure for Tribunal",
+      "text": "The Chief Justice shall prescribe rules of procedure for Tribunal"
+    },
+    {
+      "number": "50",
+      "heading": "A person aggrieved with a decision of the Council may, Appeals",
+      "text": "A person aggrieved with a decision of the Council may, Appeals"
+    },
+    {
+      "number": "51",
+      "heading": "(1) The Minister may, by statutory instrument, on the Code of",
+      "text": "(1) The Minister may, by statutory instrument, on the Code of"
+    },
+    {
+      "number": "52",
+      "heading": "(1) The Council may, in the exercise of its functions under Guidelines",
+      "text": "(1) The Council may, in the exercise of its functions under Guidelines"
+    },
+    {
+      "number": "53",
+      "heading": "(1) The Council shall ensure that projects of a prescribed Monitoring",
+      "text": "(1) The Council shall ensure that projects of a prescribed Monitoring"
+    },
+    {
+      "number": "55",
+      "heading": "The Council may, in collaboration with the School and other Research and",
+      "text": "The Council may, in collaboration with the School and other Research and"
+    },
+    {
+      "number": "56",
+      "heading": "(1) The Council may develop and implement systems for Information",
+      "text": "(1) The Council may develop and implement systems for Information"
+    },
+    {
+      "number": "60",
+      "heading": "Subject to written consent of the Director of Public",
+      "text": "Subject to written consent of the Director of Public"
+    },
+    {
+      "number": "61",
+      "heading": "(1) Subject to this Act, where the Council is satisfied, or Administrative",
+      "text": "(1) Subject to this Act, where the Council is satisfied, or Administrative"
+    },
+    {
+      "number": "63",
+      "heading": "(1) The Minister may, in consultation with the Council, by",
+      "text": "(1) The Minister may, in consultation with the Council, by"
+    },
+    {
+      "number": "1",
+      "heading": "(1) Subject to the other provisions of this Act, a member of Tenure of",
+      "text": "(1) Subject to the other provisions of this Act, a member of Tenure of"
+    },
+    {
+      "number": "2",
+      "heading": "(1) The seal of the Council shall be a device that may be Seal of",
+      "text": "(1) The seal of the Council shall be a device that may be Seal of"
+    },
+    {
+      "number": "3",
+      "heading": "(1) Subject to the other provisions of this Act, the Board",
+      "text": "(1) Subject to the other provisions of this Act, the Board"
+    },
+    {
+      "number": "4",
+      "heading": "(1) The Board may, for the purpose of performing its Committees",
+      "text": "(1) The Board may, for the purpose of performing its Committees"
+    },
+    {
+      "number": "5",
+      "heading": "A member of the Board or a committee of the Board shall Emoluments",
+      "text": "A member of the Board or a committee of the Board shall Emoluments"
+    },
+    {
+      "number": "6",
+      "heading": "(1) A person who is present at a meeting of the Board or Disclosure",
+      "text": "(1) A person who is present at a meeting of the Board or Disclosure"
+    },
+    {
+      "number": "10",
+      "heading": "The financial year of the Council shall be a period of",
+      "text": "The financial year of the Council shall be a period of"
+    },
+    {
+      "number": "11",
+      "heading": "(1) The Council shall cause to be kept proper books of Accounts",
+      "text": "(1) The Council shall cause to be kept proper books of Accounts"
+    },
+    {
+      "number": "12",
+      "heading": "(1) As soon as is practicable, but not later than ninety Annual",
+      "text": "(1) As soon as is practicable, but not later than ninety Annual"
+    },
+    {
+      "number": "1",
+      "heading": "In this Schedule, \u201c former Council \u201d means the Council",
+      "text": "In this Schedule, \u201c former Council \u201d means the Council"
+    },
+    {
+      "number": "2",
+      "heading": "(1) A person who, before the commencement of this Act,",
+      "text": "(1) A person who, before the commencement of this Act,"
+    },
+    {
+      "number": "4",
+      "heading": "(1) Any legal proceedings or application of the former",
+      "text": "(1) Any legal proceedings or application of the former"
+    },
+    {
+      "number": "5",
+      "heading": "In this Part of the Schedule, \u201c former school \u201d means the",
+      "text": "In this Part of the Schedule, \u201c former school \u201d means the"
+    },
+    {
+      "number": "6",
+      "heading": "(1) A person who, before the commencement of this Act,",
+      "text": "(1) A person who, before the commencement of this Act,"
+    },
+    {
+      "number": "7",
+      "heading": "(1) On or after the commencement of this Act, there shall Transfer of",
+      "text": "(1) On or after the commencement of this Act, there shall Transfer of"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20National%20Council%20for%20Construction%20Act%20No%2010%2C%202020.pdf",
+  "source_hash": "sha256:9847b6791d8e7b13",
+  "fetched_at": "2026-04-10T20:37:51.900237Z",
+  "parser_version": "parliament-pdf-v1.2",
+  "cited_authorities": []
+}

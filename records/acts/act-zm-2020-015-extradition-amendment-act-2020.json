@@ -1,0 +1,30 @@
+{
+  "id": "act-zm-2020-015-extradition-amendment-act-2020",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Extradition (Amendment) Act, 2020",
+  "citation": "Act No. 15 of 2020",
+  "year": 2020,
+  "act_number": 15,
+  "enacted_date": "2020",
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Extradition (Amendment) Short title",
+      "text": "This Act may be cited as the Extradition (Amendment) Short title"
+    },
+    {
+      "number": "2",
+      "heading": "Section 6 of the principal Act is amended by Amendment",
+      "text": "Section 6 of the principal Act is amended by Amendment"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/The%20Extradiction%20%28Amendment%29%20Act%20No.%2015%20of%202020.pdf",
+  "source_hash": "sha256:9524ee07676e6e90",
+  "fetched_at": "2026-04-10T20:37:51.900237Z",
+  "parser_version": "parliament-pdf-v1.2",
+  "cited_authorities": []
+}

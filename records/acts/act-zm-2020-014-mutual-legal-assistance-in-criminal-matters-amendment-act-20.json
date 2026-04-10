@@ -1,0 +1,30 @@
+{
+  "id": "act-zm-2020-014-mutual-legal-assistance-in-criminal-matters-amendment-act-20",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Mutual Legal Assistance in Criminal Matters (Amendment) Act, 2020",
+  "citation": "Act No. 14 of 2020",
+  "year": 2020,
+  "act_number": 14,
+  "enacted_date": "2020",
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Mutual Legal Assistance in Short title",
+      "text": "This Act may be cited as the Mutual Legal Assistance in Short title"
+    },
+    {
+      "number": "2",
+      "heading": "Section 10 of the principal Act is amended by the insertion Amendment",
+      "text": "Section 10 of the principal Act is amended by the insertion Amendment"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Mutual%20Legal%20Assistance%20in%20Criminal%20Matters%20Amendment%2C%202020.pdf",
+  "source_hash": "sha256:fa634586487c096f",
+  "fetched_at": "2026-04-10T20:37:51.900237Z",
+  "parser_version": "parliament-pdf-v1.2",
+  "cited_authorities": []
+}

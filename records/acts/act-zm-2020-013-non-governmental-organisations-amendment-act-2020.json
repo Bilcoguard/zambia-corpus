@@ -1,0 +1,35 @@
+{
+  "id": "act-zm-2020-013-non-governmental-organisations-amendment-act-2020",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Non-Governmental Organisations (Amendment) Act, 2020",
+  "citation": "Act No. 13 of 2020",
+  "year": 2020,
+  "act_number": 13,
+  "enacted_date": "2020",
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Non-Governmental Short title",
+      "text": "This Act may be cited as the Non-Governmental Short title"
+    },
+    {
+      "number": "2",
+      "heading": "Section 4 of the Principal Act is amended by the insertion Amendment",
+      "text": "Section 4 of the Principal Act is amended by the insertion Amendment"
+    },
+    {
+      "number": "3",
+      "heading": "Section 7 of the principal Act is amended by the\u2014 Amendment",
+      "text": "Section 7 of the principal Act is amended by the\u2014 Amendment"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Non-Governmental%20Organisation%20Act%20No.pdf",
+  "source_hash": "sha256:7133d9ed00d4d03d",
+  "fetched_at": "2026-04-10T20:37:51.900237Z",
+  "parser_version": "parliament-pdf-v1.2",
+  "cited_authorities": []
+}

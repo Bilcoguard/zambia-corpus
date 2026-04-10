@@ -1,0 +1,30 @@
+{
+  "id": "act-zm-2020-012-companies-amendment-act-2020",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Companies (Amendment) Act, 2020",
+  "citation": "Act No. 12 of 2020",
+  "year": 2020,
+  "act_number": 12,
+  "enacted_date": "2020",
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Companies (Amendment) Short title",
+      "text": "This Act may be cited as the Companies (Amendment) Short title"
+    },
+    {
+      "number": "2",
+      "heading": "Section 2 of the principal Act is amended by the\u2014 Amendment",
+      "text": "Section 2 of the principal Act is amended by the\u2014 Amendment"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Companies%20%28Amendment%29%20Act%2012%20of.pdf",
+  "source_hash": "sha256:bc5fb904bb25c673",
+  "fetched_at": "2026-04-10T20:37:51.900237Z",
+  "parser_version": "parliament-pdf-v1.2",
+  "cited_authorities": []
+}
