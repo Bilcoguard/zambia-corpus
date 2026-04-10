@@ -13,7 +13,7 @@ phases:
     approved: true
     complete: true
   phase_4_bulk:
-    approved: false
+    approved: true
     complete: false
     batch_size: 50
     priority_order:
