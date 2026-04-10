@@ -1,0 +1,688 @@
+{
+  "$schema_note": "This is the rich intermediate parse artefact for B-POL-3 Step 2. It is NOT validated against record.schema.json — that is the job of the cherry-picked record built in Step 3. parse.json is the unabridged audit trail of what the parser saw.",
+  "parser": {
+    "name": "scripts/parse_konkola_pilot.py",
+    "version": "0.2.0",
+    "calibration": "single-document, calibrated to Konkola SCZ Appeal No. 09 of 2024 only",
+    "run_at_utc": "2026-04-10T00:55:08Z"
+  },
+  "proposed_record_identity": {
+    "id": "judgment-zm-2026-scz-09-konkola-v-ag",
+    "title": "Konkola Copper Mines PLC v Attorney General, Shenzen Resources Limited and Kakoso Metals Leach Limited",
+    "citation": "Appeal No. 09 of 2024",
+    "type": "judgment",
+    "jurisdiction_country": "ZM"
+  },
+  "court": "Supreme Court of Zambia",
+  "court_division": "Civil Jurisdiction",
+  "holden_at": "Lusaka",
+  "case_number_verbatim_p1": "APPEAL NO. 09/2024",
+  "case_number_normalised": "Appeal No. 09 of 2024",
+  "proceeding_type": "judgment",
+  "parties_struct": {
+    "appellants": [
+      {
+        "ordinal": 1,
+        "name": "Konkola Copper Mines PLC"
+      }
+    ],
+    "respondents": [
+      {
+        "ordinal": 1,
+        "name": "Attorney General"
+      },
+      {
+        "ordinal": 2,
+        "name": "Shenzen Resources Limited"
+      },
+      {
+        "ordinal": 3,
+        "name": "Kakoso Metals Leach Limited"
+      }
+    ]
+  },
+  "parties_flat_for_record": {
+    "appellant": [
+      "Konkola Copper Mines PLC"
+    ],
+    "respondent": [
+      "Attorney General",
+      "Shenzen Resources Limited",
+      "Kakoso Metals Leach Limited"
+    ],
+    "applicant": [],
+    "plaintiff": [],
+    "defendant": []
+  },
+  "coram_struct": [
+    {
+      "name": "Musonda",
+      "title": "DCJ",
+      "honorific": "SC",
+      "long_title": "Deputy Chief Justice"
+    },
+    {
+      "name": "Kaoma",
+      "title": "JS",
+      "honorific": null,
+      "long_title": "Supreme Court Judge",
+      "initials": "R. M. C."
+    },
+    {
+      "name": "Mutuna",
+      "title": "JS",
+      "honorific": null,
+      "long_title": "Supreme Court Judge"
+    }
+  ],
+  "judges_flat_for_record": [
+    "Musonda DCJ",
+    "Kaoma JS",
+    "Mutuna JS"
+  ],
+  "delivered_by": {
+    "name": "Mutuna",
+    "title": "JS",
+    "source_quote": "Mutuna, JS delivered the judgment of the Court."
+  },
+  "hearing_dates_iso": [
+    "2026-02-04"
+  ],
+  "delivery_date_iso": "2026-03-31",
+  "hearing_dates_source_quote": "On 4th February, 2026 and 31st March, 2026",
+  "hearing_date_interpretation_note": "Two sitting dates listed in the coram block. By Zambian SC convention the earlier date is the hearing and the later date is delivery. Recorded as hearing 2026-02-04, delivery 2026-03-31. Closing signature block does not carry a separate date stamp; delivery date is taken from the coram line.",
+  "counsel": {
+    "for_the_appellant": {
+      "names": [
+        "Mr. T. Chibeleka",
+        "Ms C. Mukuka",
+        "Mr. G. Chipoya",
+        "Mr. N. Chaleka"
+      ],
+      "firms": [
+        "Messrs ECB Legal Practitioners (Chibeleka, Mukuka)",
+        "Konkola Copper Mines PLC In-House Counsel (Chipoya, Chaleka)"
+      ]
+    },
+    "for_the_1st_respondent": {
+      "names": [
+        "Mr. M. Muchende SC (Solicitor General)",
+        "Mr. P. S. Phiri",
+        "Mr. Mundia Mukelebai",
+        "Ms Mudenda Hamasamo"
+      ],
+      "firms": [
+        "Attorney General's Chambers"
+      ]
+    },
+    "for_the_2nd_and_3rd_respondents": {
+      "names": [
+        "Mr. R. Musumali",
+        "Mrs. S. Phiri-Hinji",
+        "Ms M. V. Chilembo"
+      ],
+      "firms": [
+        "Messrs SLM Legal Practitioners (Musumali)",
+        "Messrs Chifumu Banda and Associates (Phiri-Hinji)",
+        "Messrs T. S. Chilembo Chambers (Chilembo)"
+      ]
+    }
+  },
+  "counsel_source_quote": "For the Appellant: Mr. T. Chibeleka and Ms C. Mukuka of Messrs ECB Legal Practitioners; Mr. G. Chipoya and Mr. N. Chaleka, In-House Counsel Konkola Copper Mines PLC. For the 1st Respondent: Mr. M. Muchende SC - Solicitor General, Mr. P. S. Phiri, Mr. Mundia Mukelebai and Ms Mudenda Hamasamo of the Attorney General's Chambers. For the 2nd and 3rd Respondents: Mr. R. Musumali of Messrs SLM Legal Practitioners; Mrs. S. Phiri-Hinji of Messrs Chifumu Banda and Associates; Ms M. V. Chilembo of Messrs T. S. Chilembo Chambers.",
+  "section_headings": [
+    {
+      "number": null,
+      "title": "Introduction",
+      "first_paragraph": "1"
+    },
+    {
+      "number": null,
+      "title": "Background",
+      "first_paragraph": "4"
+    },
+    {
+      "number": null,
+      "title": "The matter in the High Court",
+      "first_paragraph": "7"
+    },
+    {
+      "number": null,
+      "title": "Decision by the Learned High Court Judge",
+      "first_paragraph": "10"
+    },
+    {
+      "number": null,
+      "title": "Decision of the Court of Appeal",
+      "first_paragraph": null
+    },
+    {
+      "number": null,
+      "title": "Appeal to this Court and arguments by parties",
+      "first_paragraph": null
+    },
+    {
+      "number": null,
+      "title": "Consideration and decision of the Court",
+      "first_paragraph": "42"
+    },
+    {
+      "number": null,
+      "title": "Conclusion",
+      "first_paragraph": "56"
+    }
+  ],
+  "paragraphs_count": 56,
+  "paragraphs": [
+    {
+      "number": "1",
+      "text": "Konkola Copper Mines PLC v Rephidim Mining and Technical Supplies\nLimited and Others - CAZ Appeal No. 74 of 2018"
+    },
+    {
+      "number": "2",
+      "text": "Konkola Copper Mines PLC v Sensele Enterprises Limited - CAZ Appeal No.\n133 of 2018"
+    },
+    {
+      "number": "3",
+      "text": "Chikuta v Chipata Rural Council (1974) ZR 241 (SC)"
+    },
+    {
+      "number": "4",
+      "text": "New Plast Industries v Commissioner of Lands and Attorney General (2001)\nZR 51 (SC)"
+    },
+    {
+      "number": "5",
+      "text": "Kalymnos Processing Limited & Another v Konkola Copper Mines — CAZ\n\nAppeal No. 74 of 2023"
+    },
+    {
+      "number": "6",
+      "text": "Antonio Ventriglia and Emmanuela Ventriglia v Finsbury Investments\nLimited - SCZ Appeal No. 2 of 2019\n\nLegislation referred to:\n1) The Mines and Minerals Development Act, No. 11 of 2013\n2) Rules of the Supreme Court 1965\n3) The Lands and Deeds Registry Act, Chapter 185 of the Laws of Zambia.\n\nIntroduction\n\n1) In the recent past a number of disputes have been brought to\nour courts which arise from allocation of mining rights by the\nMinistry of Mines and Minerals Development (the Ministry) over\nareas subject to other mining rights. The disputes almost\nalways involve the appellant as one of the parties which has a\n\nnumber of mining rights and it alleges trespass or unlawful\n\n\f\n2)\n\n3)\n\nallocation of mining rights against entities granted consent by\n\nthe Ministry to conduct mining activities on its properties.\n\nThe main issue that arises in these disputes is the mode of\ncommencement of the actions. It is usually contended that\nwhere the appellant is aggrieved by the actions of the Ministry\nin relation to allocation of mining rights to third parties over its\nmining rights, recourse lies in appealing to the Minister and\nthence the Mining Appeals Tribunal in accordance with\nsections 97 and 98 of the Mines and Minerals Development\n\nAct, (the Act).\n\nThe dispute in this appeal is one such disputes which questions\nthe mode of commencement of the action by the appellant\nagainst the second and third respondents in the High Court. It\narises from a decision of the Court of Appeal setting aside the\ndecision of a High Court Judge as determined that she had\njurisdiction to deal with the matter as it was properly\n\ncommenced.\n\n\f\nBackground\n\n4)\n\n5)\n\n6)\n\nThe appellant is the registered proprietor of the land where\nKakoso Tailing Dump (the Dump) is located and it has a largescale mining licence over the Dump granted to it by the\n\nMinistry.\n\nIn or about 2010, the second respondent expressed an interest\nin conducting mining activities in the Dump by way of a joint\nventure with the third respondent and engaged the Ministry for\nthis purpose. The engagement resulted in the Ministry granting\nthe second respondent a mineral processing licence for a period\nof fifteen years. Later, the Director Mining Cadastre gave the\nsecond respondent consent to conduct mining activities on the\n\nDump after the appellant declined to grant its consent.\n\nThe appellant was not notified of the grant of the consent to the\nsecond respondent over the Dump by the Director Mining\nCadastre. The appellant later took out an action in the High\nCourt against the second and third respondents after it\ndiscovered that the two were conducting mining activities on the\n\nDump. The first respondent was joined to the action later.\n\n\f\ne\n\nThe matter in the High Court"
+    },
+    {
+      "number": "7",
+      "text": ""
+    },
+    {
+      "number": "8",
+      "text": "The appellant commenced the action in the High Court by way\nof writ of summons and statement of claim. It claimed for: a\ndeclaration that the respondents had no rights over the Dump\nand that the appellant was the rightful owner of the Dump;\nalternatively, a declaration that the respondents had no right to\nenter upon the Dump without its prior consent; a declaration\nthat the appellant had reasonable grounds to withhold its\nconsent in respect of access to the Dump by the second\nrespondent; an injunction restraining the respondents from\ncrossing the appellant’s surface and mining rights entered upon\nor carrying on any activities thereon; damages for interference\n\nwith the appellant’s operations and trespass; and costs.\n\nAfter the appellant commenced the action and served process\nupon the respondents, the first respondent filed a preliminary\nobjection pursuant to Order 14A rule 1 as read with Order 33\nof the Rules of the Supreme Court 1965 (white book). It\n\ncontended that the appellant had wrongly commenced the"
+    },
+    {
+      "number": "9",
+      "text": "action and the court, therefore, had no jurisdiction to entertain\n\nit.\n\nThe basis of the objection was that since the appellant was\naggrieved with the decision of the Director Mining Cadastre\ngranting consent to the second respondent to access and carry\nout mining activities on the Dump, it ought to have appealed\nagainst that decision and not commenced an action in the High\n\nCourt.\n\nDecision by the Learned High Court Judge"
+    },
+    {
+      "number": "10",
+      "text": ""
+    },
+    {
+      "number": "11",
+      "text": "Following the hearing of the motion for the preliminary\nobjection, the Learned High Court Judge (Patel, i as she then\nwas) identified the issue for determination as being whether the\naction was properly before her. Put differently, she asked herself\n\nif she had jurisdiction to determine the matter.\n\nIn arriving at her decision, the Learned High Court Judge began\nby considering the pleadings filed by the appellant and relief\nsought. She also considered decisions of the Court of Appeal\n\nwhich raised a similar issue as the one before her, in particular\n\n\f\nthe decision in the case of Konkola Copper Mines Plc v\nRephidim Mining and Technical Supplies Limited and\n\nOthers!."
+    },
+    {
+      "number": "12",
+      "text": "The Judge concluded that the law is settled that she could\nentertain the action before her as an action in tort on the ground\nof trespass. She, therefore, held that she had jurisdiction to\nhear the matter and dismissed the preliminary objection. The\nrespondents were aggrieved by the decision of the Learned High\n\nCourt Judge and appealed to the Court of Appeal.\n\nDecision of the Court of Appeal"
+    },
+    {
+      "number": "13",
+      "text": "After the Court of Appeal heard the appeal, it held that the\nmatter before the High Court was wrongly commenced because\nthe appellant should have appealed against the decision of the\nDirector Mining Cadastre granting aca to the second\nrespondent in accordance with section 97 of the Act. The basis\nof the court’s decision was that the action as it then stood for\ntrespass could not be sustained because the Director Mining\n\nCadastre had granted consent to the second respondent to\n\n\f\nconduct the mining activities after the appellant unreasonably\n\nwithheld its consent."
+    },
+    {
+      "number": "14",
+      "text": "As a consequence of the facts in the preceding paragraph, the\ncourt held further that the second respondent was not a\ntrespasser and for that reason, the case before it could be\ndistinguished from its earlier decisions in the cases of Konkola\nCopper Mines Plc v Sensele Enterprises Limited? and\nKonkola Copper Mines Pile v Rephidim Mining and\nTechnical Supplies Limited and Others!. The court\nconcluded that the Learned High Court Judge had no\njurisdiction to entertain the matter because it contravened the\nprinciples set out in our decisions in the cases of Chikuta v\nChipata Rural Council? and New Plast Industries v\nCommissioner. of Lands and Attorney General* on\ncommencement of actions. It accordingly set aside the decision\n\nof the Learned High Court Judge.\n\nAppeal to this Court and arguments by parties"
+    },
+    {
+      "number": "15",
+      "text": "The appellant appealed against the decision of the Court of\n\nAppeal and advanced four grounds as follows:\n\n\f\n15.1)\n\n15.2)\n\n15.3)\n\nThe Court of Appeal erred in law and fact when it held\nthat the second respondent commenced mining\nactivities on Kakosa Tailings Dump as a licensee having\nobtained consent from the Director Mining Cadastre.\nThe Director Mining Cadastre has no authority under\nthe Mines and Minerals Development Act to grant\nconsent to a party to enter upon another person’s land\neven in circumstances where the person had initially\n\nwithheld his consent;\n\nThe Court of Appeal erred in fact and law when it held\nthat the Director Mining Cadastre can give consent to a\nholder of a mining right where it has been denied by a\nsurface rights holder without giving the circumstances\nand law under which such powers are exercisable with\n\nfar reaching consequences of compulsory acquisition;\n\nConsequent to the above, the Court of Appeal erred in\nlaw and fact when it ruled that the appellant ought to\n\nhave appealed against the Director’s decision to the\n\n\f\nMinister as prescribed by section 97(1) of the Mines\nand Minerals Development Act. The court did not\naddress its mind to section 56 of the Act which provides\nfor procedure that may be undertaken by the Director\nMining Cadastre when there is a dispute as to consent\n\nto conduct mining activities over surface rights; and,\n\n15.4) The Court of Appeal erred in law and in fact when it ruled\nthat the High Court had no jurisdiction to hear the\nmatter. The court erred in not drawing a distinction\nbetween surface rights held by a title holder (by virtue of\nthe Lands and Deeds Registry Act) who can lawfully\ncommence an action for trespass and mining rights\nexercised pursuant to the Mines and Minerals\n\nDevelopment Act."
+    },
+    {
+      "number": "16",
+      "text": "The dispute which is defined by these grounds of appeal is\nbeyond the issue which is the subject of this appeal, namely,\ndid the appellant adopt the correct mode of commencement of\nthe action in the High Court? Apart from enlarging the dispute\n\nbefore us, the grounds of appeal also invite us to delve into the"
+    },
+    {
+      "number": "17",
+      "text": ""
+    },
+    {
+      "number": "18",
+      "text": "dispute which is before the High Court arising from the manner\n\nin which the Court of Appeal determined the appeal before it.\n\nIn our determination of this appeal, we have considered only the\nissue which we have defined in the preceding paragraph and\nhave restricted our consideration of the parties’ arguments to\nthose arguments which address the issue. For this reason and\nfor purposes of contextualising the dispute before us, at the\nhearing of the appeal, we posed certain questions to counsel for\nthe parties which we have referred to later in this judgment\n\nalong with the undisputed facts as we see them.\n\nIn advancing the appellant’s arguments in support of the\nappeal, counsel for the appellant argued grounds 2 and 3 of the\nappeal together. They began by setting out the facts leading up\nto the dispute which were that after the second respondent\nobtained its mining licence, it applied to the appellant for its\nconsent to conduct mining activities on the Dump. The\nappellant declined to grant its consent which prompted the\nsecond respondent to seek consent from the Director Mining\n\nCadastre which was granted."
+    },
+    {
+      "number": "19",
+      "text": ""
+    },
+    {
+      "number": "20",
+      "text": "Counsel argued that after the Court of Appeal considered these\nbackground facts, it held that the second respondent’s presence\non the Dump was not as a trespasser but in accordance with\nthe Act which permitted the Director Mining Cadastre to issue\nconsent to an entity with a mining licence to conduct mining\nactivities in an area which is already subject to mining rights.\nThis holding, according to counsel, was a misdirection on the\npart of the Court of Appeal because there is no provision in the\nAct which empowers the Director Mining Cadastre to grant\nconsent where it was withheld by the person or entity with\n\nmining rights over the property in issue.\n\nTo reinforce their argument counsel submitted that the Court\nof Appeal, while endorsing the argument by the second\nrespondent that it was lawfully conducting mining activities on\nthe Dump because of the Director’s consent, did not cite any\nprovision of the Act to support its decision. Counsel submitted\nthat the section in the Act which deals with consent is section\n52 and that it does not give power to the Director Mining\n\nCadastre to grant such consent. According to counsel, the effect"
+    },
+    {
+      "number": "21",
+      "text": ""
+    },
+    {
+      "number": "22",
+      "text": "of section 52 of the Act is that a mineral rights holder must\nfirst seek the consent from a surface rights holder where there\nis one, alternatively from an appropriate authority that is in\n\ncharge of the area where the mineral right has been given.\n\nAdvancing their arguments, counsel submitted that the only\nrole which the Director Mining Cadastre plays is under section\n52(2) to arrange for arbitration as a means of resolving any\ndispute relating to the consent which has been withheld. This\nfunction, counsel argued, is not mandatory because the section\n\nuses the word “may” and not “shall”.\n\nThe next limb of counsel’s arguments addressed the effect of\nsections 96 and 97 of the Act. They argued that section 96\nobliges the Minister, Committee or any Director making a\ndecision which affects a holder or applicant of a mining right, to\ninform such holder or applicant of the decision, the reasons\nthereof and the right to appeal against such decision. As for\nsection 97, counsel argued that it grants any person aggrieved\nby a decision of the Committee or Director the right to appeal to\n\nthe Minister within 30 days."
+    },
+    {
+      "number": "23",
+      "text": ""
+    },
+    {
+      "number": "24",
+      "text": "Regarding the form which the notice under section 96 should\ntake, counsel contended that it must be in writing, set out the\nreasons for the decision and inform the affected person of their\nright to appeal. They argued that there are no documents that\nhave been presented by the respondents which prove the\nMinistry complied with the requirements under section 96\n\nwhen it granted consent to them.\n\nComing to grounds 1 and 4 of the appeal, we would like to state\nfrom the outset that it is not our intention to summarise the\narguments relating to ground 1 as presented by the appellant\nbecause they relate to the main dispute which is before the High\nCourt. The question of whether or not the second respondent’s\npresence on the Dump is legitimate pursuant to the consent\ngranted or trespass is for the High Court to determine if we\nuphold this appeal. So is the question whether the Director\nMining Cadastre has power under the Act to grant consent to\nexercise mining rights over an area already subject to mining\n\nrights. Our task, as earlier stated, is limited to determining"
+    },
+    {
+      "number": "25",
+      "text": ""
+    },
+    {
+      "number": "26",
+      "text": ""
+    },
+    {
+      "number": "27",
+      "text": "whether the mode of commencement of the action in the High\n\nCourt was the correct one.\n\nUnder ground 4 of the appeal, counsel’s argument merely\nemphasised the appellant’s contention that the second\nrespondent was a trespasser, therefore, the action against it lay\n\nin tort which is commenced by way of a writ of summons.\n\nThe first respondent’s arguments as they related to ground 1 of\nthe appeal mirrored those of the appellant as they also\naddressed the main dispute before the High Court. We have,\n\ntherefore, not summarised them.\n\nAs for ground 2 of the appeal, the Learned Solicitor General, Mr.\nM. Muchende SC began by quoting at great length passages\nfrom the decision of the Court of Appeal in the case of\nKalymnos Processing Limited and Another v Konkola\nCopper Mines Limited’. The court in that case held that\nrecourse to courts of law can only be had after the grievance\nprocedure set out under section 97 of the Act has been\n\nexhausted. Further, section 98 clearly provides for complaints"
+    },
+    {
+      "number": "28",
+      "text": ""
+    },
+    {
+      "number": "29",
+      "text": "by aggrieved parties in relation to decisions on mining rights to\nlie to the Director within the Ministry, thereafter, to the Tribunal\n\nand finally to the courts of law.\n\nMr. M. Muchende SC went on to argue that the Court of Appeal\nconcluded that the appellant in that matter, having been denied\nconsent, should not have trespassed upon the mineral rights\nholder’s land but rather raise a complaint of unreasonable\nwithholding of consent to the Director Mining Cadastre.\nApplying the foregoing principles to this case, he argued that\nsince the second respondent only commenced mining activities\nafter it had been granted consent, it had complied with the law\nand the Court of Appeal was, therefore, on firm ground when it\nheld that the High Court lacked jurisdiction to adjudicate upon\n\nthe matter.\n\nIn respect of ground 3 of the appeal, Mr. M. Muchende SC\nrepeated the arguments on the effect of section 97 of the Act.\nHe went on to state that while section 56 of the Act does\nprovide for mechanisms for addressing disputes over surface\n\nrights, it is not intended as an alternative avenue for challenging"
+    },
+    {
+      "number": "30",
+      "text": ""
+    },
+    {
+      "number": "31",
+      "text": "the decision of a Director arising from powers conferred by the\n\nAct.\n\nAs for ground 4 of the appeal, Mr. M. Muchende SC submitted\nthat the decision of the Court of Appeal is firmly rooted in the\nstatutory framework and supported by judicial precedent.\nTherefore, the appellant’s arguments fail to properly account for\nboth the legislative intent and the judicial interpretations which\nclearly demarcate the respective roles of administrative and\njudicial forums in resolving disputes. Mr. M. Muchende SC\nconcluded by drawing our attention to the decision in the case\nof Antonio Ventriglia and Emmanuela Ventriglia v Finsbury\nInvestments Limited® in which we said jurisdiction is\neverything, without it, a court has no power to adjudicate upon\n\na matter.\n\nIn opening the arguments for the second and third respondents,\nMr. Musumali, dealt with ground 1 of the appeal first. He began\nby see nine the effect of section 16 of the Act which he said\nsets out the steps which should be taken by a mineral right\n\nholder prior to entering upon a mineral right held by someone"
+    },
+    {
+      "number": "32",
+      "text": ""
+    },
+    {
+      "number": "33",
+      "text": ""
+    },
+    {
+      "number": "34",
+      "text": "else. According to counsel, the second respondent had complied\nwith the provisions of section 16 because it first sought the\nconsent of the appellant and once the consent was denied it\n\napproached the Director Mining Cadastre who granted it.\n\nCounsel went on to submit that once the consent was granted\nthe recourse open to the appellant was to appeal to the Minister\nin accordance with section 97(1) of the Act. He submitted that\nat appeal stage the question for determination by the Minister\nis whether or not the consent from the mineral rights holder\n\nwas reasonably withheld.\n\nAs for ground 2 of the appeal, the arguments by counsel focused\non the powers of the Director Mining Cadastre pursuant to\nsection 52(2) and (3) of the Act. We have not summarised these\n\narguments because they are not relevant to the issue before us.\n\nCounsel’s arguments in respect of ground 3 of the appeal\nfocused on negating the appellant’s arguments in respect of\nsection 56 of the Act which provides for arbitration as one of\n\nthe means of resolving disputes arising from the Act. They"
+    },
+    {
+      "number": "35",
+      "text": ""
+    },
+    {
+      "number": "36",
+      "text": "argued that since the decision which is the subject of this\ndispute was given on 13t December, 2010 before the enactment\nof the Act, it is not subject to the Act but rather the Mines and\nMinerals Development Act No. 7 of 2008 (Act No. 7 of 2008)\nwhich preceded it. Therefore, the proper course for the appellant\nto take in challenging the decision was to appeal to an\nappropriate authority which includes the Minster or such\npublic officer as the Minister may authorise to give the requisite\n\nconsent in accordance with section 127 of Act No. 7 of 2008.\n\nAs for ground 4 of the appeal, counsel’s arguments focused on\nemphasising the fact that what is at stake here are the\nappellant’s mineral rights which have no bearing on its\nownership of the Dump or its surface rights. To this end, they\ndrew our attention to the fact that the certificate of title from\nwhich a person derives ownership of land, while vesting surface\nrights in that person, excludes all minerals, oils and precious\n\nstones situate upon or under such property.\n\nThe appellant’s arguments in response in so far as they were\n\nrelevant to the dispute before us were as follows:\n\n\f\n36.1) Section 97(1) of the Act must be read with section 96\nwhich requires the Director, Committee or other officer\nto inform the holder or applicant affected by a decision\n\nsubject to appeal;\n\n36.2) Arising from 36.1 above, the first respondent has not\nreferred this court to any evidence showing that the\nappellant was notified when the Director Mining\n\nCadastre granted the consent; and,\n\n36.3) The letter of 13s December, 2010, which the second and\nthird respondents allege constitutes the consent, has not\ncomplied with the provisions of section 96 of the Act\nwhich require a holder to be notified of a decision of the\nMinister, Director or Committee, its reasons and the\n\nright of appeal."
+    },
+    {
+      "number": "37",
+      "text": "At the hearing, we invited counsel to confirm that the gist of the\nappellant’s grievance is that it was not notified when the\nDirector Mining Cadastre granted consent to the second\n\nrespondent to exercise mining rights over the Dump. They all"
+    },
+    {
+      "number": "38",
+      "text": ""
+    },
+    {
+      "number": "39",
+      "text": "confirmed this fact, which is also captured in the notes of the\nproceedings at the stage permission to appeal was being sought\n\nfrom a single Judge of this court.\n\nHaving established the undisputed fact in the preceding\nparagraph, we invited counsel to address us on the effect of\nsections 16 and 97 of the Act, and any other provisions of the\n\nAct, on that undisputed fact.\nFor the appellant Mr. T. Chibeleka responded as follows:\n\n39.1) In considering this appeal, the court should also\nconsider when the Director Mining Cadastre granted his\nconsent because this affects which law is applicable to\n\nthe dispute. Is it the Act No. 7 of 2008 or the Act?\n\n39.2) There has been no decision made by the Director Mining\nCadastre granting consent to the second respondent\n\nwhich was communicated to the appellant;\n\n39.3) Since no notice was given to the appellant regarding the\n\ndecision of the Director Mining Cadastre granting"
+    },
+    {
+      "number": "40",
+      "text": "39.4)\n\nconsent to the second respondent, the procedure set out\n\nin section 97 of the Act could not be invoked; and,\n\nThe action commenced by the appellant is rooted in\ntrespass, therefore, the appellant was on firm ground\nwhen it commenced the action in the High Court in the\n\nmanner it did.\n\nThe response by Mr. M. Muchende SC for the first respondent\n\nwas as follows:\n\n40.1)\n\n40.2)\n\nThe dispute in this matter as contained in the\ncorrespondence passing between the Minister and the\nparties reveals that it started prior to the enactment of\nthe Act but the appellant’s cause of action arose after\nenactment of the Act. Therefore, the dispute is governed\n\nby the Act and not its fore-runner, Act No. 7 of 2008;\n\nThe provisions of section 16 of the Act do not apply to\nthis dispute because it refers to mining rights as\nopposed to mineral processing or non-mining rights\n\nwhich are the issue in this appeal;\n\n\f\n\n40.3)\n\n40.4)\n\n40.5)\n\n40.6)\n\nIn terms of section 16 of the Act, it was the second\nrespondent which should have applied to the appellant\n\nfor consent and not the Minister;\n\nThe correspondence on record reveals that the Ministry\nwas attempting to broker a deal between the second\n\nrespondent and appellant;\n\nWhere an applicant has no consent from the mineral\nrights holder or the Director Mining Cadastre or other\nauthority, a mineral rights holder can commence an\naction in tort against such applicant if he undertakes\n\nany mining activity;\n\nThe dispute with which we are engaged involves a\nsituation whereby the mineral rights holder withheld its\nconsent which prompted the director Mining Cadastre or\nappropriate authority to give consent in accordance with\n\nsection 52(2) of the Act;"
+    },
+    {
+      "number": "41",
+      "text": "40.7)\n\n40.8)\n\nSection 96 of the Act requires the Minister, Committee,\nDirector or an authorised officer to notify the holder or\nan applicant for mineral rights of any decision they make\nwhich may affect the holder or applicant. Where a holder\nof a mineral right has not been informed of any such\n\ndecision there is an infraction; and,\n\nWhere there is failure by the Minister or other authority\nto notify the holder of mineral rights, recourse lies in\n\ninvoking the right of appeal under section 97 of the Act.\n\nThe response by Mr. Musumali for the second and third\n\nrespondents was as follows:\n\n41.1)\n\n41.2)\n\nIn both Act No. 7 of 2008 and the Act, the procedure is\nthat whenever a person is aggrieved by the decision of\nthe Director, the remedy open to such a person is by way\n\nof an appeal;\n\nWhere there is failure by the Ministry to comply with the\n\nprovisions of section 96 of the Act to notify the holder\n\n\f\n\nor applicant affected by the decision, the remedy lies in\n\nappealing against such a decision; and,\n\n41.3) The holder or applicant’s right of appeal arises at the\npoint when he becomes aware of the decision,\nnotwithstanding the expiry of thirty days limit for\n\nappealing prescribed in section 97.\n\nConsideration and decision of the Court"
+    },
+    {
+      "number": "42",
+      "text": ""
+    },
+    {
+      "number": "43",
+      "text": "In our consideration of this appeal, we will begin by determining\nwhich of the two Acts is applicable to the dispute. The position\ntaken by the appellant is that the dispute falls under Act No. 7\nof 2008 while the first respondent contends that it is the Act.\nThe second and third respondents do not appear to have taken\n\na position on the matter.\n\nA perusal of the statement of claim reveals that the appellant’s\ngrievance began with the grant of the mineral processing licence\nto the second respondent by the Ministry. The appellant was\nalso aggrieved by the fact that after the grant of the said mineral\nprocessing licence, the Director Mining Cadastre granted the"
+    },
+    {
+      "number": "44",
+      "text": "second respondent consent to conduct mining activities on the\nDump. It contends that the Director Mining Cadastre has no\npower to grant such consent. This consent, which the appellant\ndid not initially know about, is what prompted the second\nrespondent to enter upon the appellant’s mining right and\n\nproperty.\n\nThe facts we have set out in the preceding paragraph which\nform the appellant’s cause of action are revealed in paragraphs\n16 and 17 of the statement of claim which state in part as\n\nfollows:\n\n44.1) “The (second respondent) was purportedly granted\nmineral processing licence ... in respect of copper and\ncobalt. The said licence was issued on 27 March, 2018\n\nfor a period of 15 years from 6% of January, 2010...”\n\n44.2) ‘The said purported processing licence (for the second\nrespondent) ... was given by the Ministry of Mines in\n\ncontravention [of] ... the rights of the (appellant) over the"
+    },
+    {
+      "number": "45",
+      "text": ""
+    },
+    {
+      "number": "46",
+      "text": "said area and ... there was no written consent sought\n\nfrom or given by the (appellant) aed\n\nIn view of what we have said in the two preceding paragraphs,\nwe must agree with the argument by the Learned Solicitor\nGeneral that it is the Act and not Act No. 7 of 2008 which is\napplicable to this dispute. The appellant’s cause of action\nhaving arisen from the Ministry’s act of granting the licence on\n27th March, 2018 (as endorsed in the statement of claim) and\nthe grant of the consent the dispute is governed by the Act.\nHere, we must state that although counsel suggested that the\napplicable Act was an issue in dispute, in articulating their\nrespective positions, they anchored their arguments on the\nprovisions of the Act and not Act No. 7 of 2008. This, in itself,\nis an affirmation that they knew that the applicable law was the\n\nAct.\n\nHaving held that it is the Act which is the governing legislation\nover the dispute, sections 96 and 97 thereof were applicable to\nthe steps to be taken after the grant of the consent to the second\n\nrespondent. That is to say, there was an obligation on the part"
+    },
+    {
+      "number": "47",
+      "text": "of the Director Mining Cadastre in granting the consent to\n\nadhere to those provisions. This is crucial to the determination\n\nof the sole issue which falls for determination in this dispute\n\nwhich we have identified at paragraph 16 hereof.\n\nAt this juncture, it is imperative that we set out what the two\n\nsections state and their effect in so far as they relate to the issue\n\nin dispute.\n\n47.1)\n\n47.2)\n\nSection 96 states as follows: “Whenever the Minister,\nthe Committee, any of the Directors or an authorised\nofficer makes a decision against which an appeal lies\nby virtue of a provision of this part, the holder or\napplicant affected by the decision shall be informed\nof the decision and the reasons for the decision by\nnotice, in writing, and the notice shall, inform the\n\nperson notified of that person’s right of appeal.”\n\nOn the other hand, Section 97(1) states as follows: “A\nperson who is aggrieved by a decision of the Director\n\nof Mining Cadastre, Director of Mines Safety,"
+    },
+    {
+      "number": "48",
+      "text": ""
+    },
+    {
+      "number": "49",
+      "text": "Director of Mines, Director of Geological Survey or\nthe Committee under this Act may, within thirty\ndays of receipt of the decision, appeal to the Minister\n\nin the prescribed manner and form.”\n\nThe interpretation we have given to section 96 is that it compels\nthe Minister, Committee, Director or authorised officer of the\nMinistry, to communicate any decision made on mineral rights\nto the affected mineral rights holder or an applicant. This\nsertaumieation should be in writing, giving the reasons for the\ndecision and informing the affected person of their right to\n\nappeal.\n\nOn the other hand, section 97(1) which takes effect after the\nsteps in section 96 have been taken, gives the person who is\naggrieved by the decision of any Director, Committee or\nauthorised officer in the Ministry, the option to appeal sbaiint\nsuch decision within thirty days of receipt of the decision. Both\nsections require the decision maker to notify the affected\nperson of the decision. This is for purposes of such person\n\nmaking a decision whether or not to appeal. Absent such"
+    },
+    {
+      "number": "50",
+      "text": ""
+    },
+    {
+      "number": "51",
+      "text": "notification, the Ministry will have committed an infraction or\ncontravened the two sections as the Learned Solicitor General\n\nmagnanimously conceded.\n\nFurther, where such notice has not been given, the aggrieved\nperson will not only have been denied his right under section\n96 to an explanation for the decision by the Ministry to arm him\nwith the capacity to appropriately craft his appeal, but also the\nright to exercise this very right of appeal as he will have been\n\nunaware of the decision.\n\nThe facts of this case reveal that the Director Mining Cadastre\ndid not take the steps set out in section 96. Therefore, there is\nno way the appellant could have invoked the appeal procedure\nunder section 97. It came to know about the Director’s decision\nwell after the prescribed thirty days when it discovered that the\nsecond respondent had commenced mining activities on its\nproperty. According to Mr. Musumali, at this stage it should\nthen have invoked the appeal procedure set out in section 97\n\nand not commenced the proceedings in the High Court."
+    },
+    {
+      "number": "52",
+      "text": ""
+    },
+    {
+      "number": "53",
+      "text": "We do not agree with Mr. Musumali’s argument because even\nassuming its discovery was within the thirty days’ period of\nappeal, it had no basis of appealing because the decision by the\nDirector had not been formally communicated to it nor were\nreasons furnished to enable it competently exercise this right.\nAt paragraph 50 hereof we have explained the rationale for the\nnotice of the decision and the need for reasons to be furnished.\nThese were not given and, consequently, there was nothing\n\navailable to the appellant to enable it exercise its right of appeal.\n\nThe question which was before the Court of Appeal was whether\n{ike appellant properly commenced the action which is before\nthe High Court. This question mirrors the issue we have\nidentified as falling for determination at paragraph 16 of this\njudgment. In moving the motion in the High Court and\nprosecuting the appeal before the Court of Appeal, the first\nrespondent, in concert with the other two respondents\ncontended that since the appellant was aggrieved by the\ndecision of the Director Mining Cadastre, it should have\n\nappealed and not commenced the matter in the High Court."
+    },
+    {
+      "number": "54",
+      "text": ""
+    },
+    {
+      "number": "55",
+      "text": "In agreeing with the first respondent, the Court of Appeal went\nto great length at determining the status of the second\nrespondent’s presence at the appellant’s Dump and concluded\nthat since it had obtained the consent of the Director it was not\na trespasser. Therefore, the appellant should have challenged\nthe decision of the Director Mining Cadastre granting consent\nby way of appeal. The Court of Appeal was not called upon to\ndetermine the dispute which is before the High Court i.e. of\n\ntrespass.\n\nIn view of what we have said in paragraphs 50 and 51 of this\njudgment, we hold that the Court of Appeal misdirected itself.\nThe basis upon which it arrived at its decision was flawed\nbecause the question as to whether the second respondent is a\ntrespasser is a question to be determined by the High Court and\nnot the Court of Appeal. Its mandate was limited to determining\nthe correctness or otherwise of the mode of commencement of\n\nthe action by the appellant in the High Court.\n\n\f\n\nConclusion"
+    },
+    {
+      "number": "56",
+      "text": "We accordingly allow the appeal and set aside the decision of\nthe Court of Appeal. In doing so, we remit the matter back to\nthe High Court for determination of the dispute properly\ndeployed before it. The appellant will have its costs, in this and\n\nCourt of Appeal, which will be taxed in default of agreement."
+    }
+  ],
+  "disposition": {
+    "paragraph_number": "56",
+    "verbatim": "We accordingly allow the appeal and set aside the decision of\nthe Court of Appeal. In doing so, we remit the matter back to\nthe High Court for determination of the dispute properly\ndeployed before it. The appellant will have its costs, in this and\n\nCourt of Appeal, which will be taxed in default of agreement.",
+    "summary_of_orders": [
+      "Appeal allowed.",
+      "Decision of the Court of Appeal set aside.",
+      "Matter remitted to the High Court for determination of the dispute.",
+      "Costs to the appellant in this Court and in the Court of Appeal, to be taxed in default of agreement."
+    ],
+    "source_quote": "We accordingly allow the appeal and set aside the decision of the Court of Appeal. In doing so, we remit the matter back to the High Court for determination of the dispute properly deployed before it. The appellant will have its costs, in this and Court of Appeal, which will be taxed in default of agreement."
+  },
+  "cases_cited_freetext": [
+    {
+      "index": 1,
+      "verbatim": "Konkola Copper Mines PLC v Rephidim Mining and Technical Supplies Limited and Others - CAZ Appeal No. 74 of 2018",
+      "court": "Court of Appeal of Zambia",
+      "case_number": "CAZ Appeal No. 74 of 2018"
+    },
+    {
+      "index": 2,
+      "verbatim": "Konkola Copper Mines PLC v Sensele Enterprises Limited - CAZ Appeal No. 133 of 2018",
+      "court": "Court of Appeal of Zambia",
+      "case_number": "CAZ Appeal No. 133 of 2018"
+    },
+    {
+      "index": 3,
+      "verbatim": "Chikuta v Chipata Rural Council (1974) ZR 241 (SC)",
+      "court": "Supreme Court of Zambia",
+      "reporter": "(1974) ZR 241"
+    },
+    {
+      "index": 4,
+      "verbatim": "New Plast Industries v Commissioner of Lands and Attorney General (2001) ZR 51 (SC)",
+      "court": "Supreme Court of Zambia",
+      "reporter": "(2001) ZR 51"
+    },
+    {
+      "index": 5,
+      "verbatim": "Kalymnos Processing Limited & Another v Konkola Copper Mines - CAZ Appeal No. 74 of 2023",
+      "court": "Court of Appeal of Zambia",
+      "case_number": "CAZ Appeal No. 74 of 2023"
+    },
+    {
+      "index": 6,
+      "verbatim": "Antonio Ventriglia and Emmanuela Ventriglia v Finsbury Investments Limited - SCZ Appeal No. 2 of 2019",
+      "court": "Supreme Court of Zambia",
+      "case_number": "SCZ Appeal No. 2 of 2019"
+    }
+  ],
+  "statutes_cited_freetext": [
+    {
+      "index": 1,
+      "verbatim": "The Mines and Minerals Development Act, No. 11 of 2013",
+      "title": "Mines and Minerals Development Act",
+      "act_number": "No. 11 of 2013",
+      "sections_referenced_in_body": [
+        "16",
+        "52(2)",
+        "96",
+        "97",
+        "97(1)",
+        "98"
+      ]
+    },
+    {
+      "index": 2,
+      "verbatim": "Rules of the Supreme Court 1965",
+      "title": "Rules of the Supreme Court (white book)",
+      "year": 1965,
+      "sections_referenced_in_body": [
+        "Order 14A rule 1",
+        "Order 33"
+      ]
+    },
+    {
+      "index": 3,
+      "verbatim": "The Lands and Deeds Registry Act, Chapter 185 of the Laws of Zambia.",
+      "title": "Lands and Deeds Registry Act",
+      "chapter": "Cap. 185"
+    }
+  ],
+  "sensitive_data_scan": {
+    "summary": {
+      "health": "no matches",
+      "criminal": "no matches",
+      "political": "no matches",
+      "religious": "no matches",
+      "ethnic": "no matches",
+      "biometric": "no matches",
+      "genetic": "no matches",
+      "sexual": "no matches",
+      "financial_distress": "no matches",
+      "family_status": "no matches"
+    },
+    "details": {
+      "health": [],
+      "criminal": [],
+      "political": [],
+      "religious": [],
+      "ethnic": [],
+      "biometric": [],
+      "genetic": [],
+      "sexual": [],
+      "financial_distress": [],
+      "family_status": []
+    },
+    "worker_recommendation": [
+      "none"
+    ],
+    "worker_rationale": "Commercial mining-rights dispute between a corporate appellant (Konkola Copper Mines PLC) and the state plus two corporate respondents (Shenzen Resources Limited, Kakoso Metals Leach Limited). No natural persons appear as parties. The judgment turns on statutory interpretation of sections 16, 52(2), 96 and 97 of the Mines and Minerals Development Act, 2013. No health, criminal, political-affiliation, religious, ethnic, biometric, genetic, sexual-life, family-status, or personal financial-distress data is disclosed on the face of the judgment. Worker recommends [\"none\"]; human operator ratifies."
+  },
+  "source_metadata": {
+    "url": "https://judiciaryzambia.com/wp-content/uploads/2026/03/Appeal-No-09-2024-Konkola-Copper-Mins-PLC-Vs-Attorney-General-2-Others-Mar-2026-Coram-Musonda-Kaoma-And-Mutuna-JJS.pdf",
+    "publisher": "judiciaryzambia.com",
+    "sha256": "2f790701cc6c882bd58881ad3e1b760a407d34a35b0231e2f70c45f81ceaa0ee",
+    "content_length": 16120363,
+    "pdf_pages": 33,
+    "last_modified": "Tue, 31 Mar 2026 13:38:18 GMT",
+    "etag": "\"69cbce4a-f5fa2b\"",
+    "fetched_at": "2026-04-10T00:23:55Z",
+    "fetcher_version": "0.2.0",
+    "retrieved_under_policy": "B-POL-2c (revised content-length envelope, 500 KB-50 MB for judiciaryzambia.com Supreme Court PDFs); fetch authorised under B-POL-2d fallback to candidate #01",
+    "post_html_path": "raw/discovery/judiciary-zm/supreme-court/posts/post-01-konkola-appeal-09-2024.html",
+    "post_html_sha256": "2b27bc3c10d195093ec3c1d2df8ed726b826248c87815924aafea15cac8623ef"
+  },
+  "ocr_metadata": {
+    "ocr_engine": "tesseract 4.1.1",
+    "ocr_engine_wrapper": "pytesseract 0.3.13",
+    "pdf_renderer": "pdftoppm 22.02.0 (poppler) via pdf2image",
+    "ocr_render_dpi_page1": 300,
+    "ocr_render_dpi_body": 200,
+    "ocr_languages": [
+      "eng"
+    ],
+    "ocr_word_count_raw": 5763,
+    "ocr_char_count_raw": 33739,
+    "ocr_word_count_clean": 5761,
+    "ocr_char_count_clean": 33735,
+    "ocr_pages_processed": 33,
+    "ocr_run_provenance": "B-POL-2d gate (d) full-document OCR; cached at /tmp/konkola01-full.txt and re-loaded for parse",
+    "text_layer_present_in_source_pdf": false
+  },
+  "cleanup_log_applied": [
+    {
+      "pattern": "RPEAL NO.",
+      "replacement": "APPEAL NO.",
+      "count": 1,
+      "reason": "Leading-A glyph truncation on docket line",
+      "calibration_source": "B-POL-2d page-1 OCR excerpt",
+      "regex": false
+    },
+    {
+      "pattern": "AYPELLANT",
+      "replacement": "APPELLANT",
+      "count": 1,
+      "reason": "Leading-A truncation + glyph corruption on appellant designation",
+      "calibration_source": "B-POL-2d page-1 OCR excerpt",
+      "regex": false
+    },
+    {
+      "pattern": "PL¢ ib",
+      "replacement": "PLC",
+      "count": 1,
+      "reason": "PLC glyph corruption to 'PL¢ ib' on cover party block",
+      "calibration_source": "B-POL-2d page-1 OCR excerpt",
+      "regex": false
+    },
+    {
+      "pattern": "Ple v",
+      "replacement": "PLC v",
+      "count": 2,
+      "reason": "PLC glyph corruption to 'Ple' in case citations (Konkola Copper Mines Ple)",
+      "calibration_source": "Calibration extension: same KCM party name as cover page",
+      "regex": false
+    },
+    {
+      "pattern": "KAKOSA METALS LEACH LIMITED",
+      "replacement": "KAKOSO METALS LEACH LIMITED",
+      "count": 1,
+      "reason": "Cover page 'KAKOSA' OCR variant; post title spells 'Kakoso'",
+      "calibration_source": "Post title and B-POL-2d nomenclature analysis",
+      "regex": false
+    },
+    {
+      "pattern": "Kakosa Tailing Dump",
+      "replacement": "Kakoso Tailing Dump",
+      "count": 1,
+      "reason": "Body 'Kakosa' OCR variant of 'Kakoso' tailing dump (third respondent's licensed area)",
+      "calibration_source": "Post title; consistent with cover-page correction",
+      "regex": false
+    },
+    {
+      "pattern": "38D RESPONDENT",
+      "replacement": "3RD RESPONDENT",
+      "count": 1,
+      "reason": "Glyph '38D' → '3RD' on cover party block",
+      "calibration_source": "Visual context: ordinal sequence 1ST/2ND/3RD",
+      "regex": false
+    },
+    {
+      "pattern": "Ist Respondent",
+      "replacement": "1st Respondent",
+      "count": 1,
+      "reason": "Glyph 'Ist' → '1st' in counsel block",
+      "calibration_source": "Visual context: ordinal sequence",
+      "regex": false
+    },
+    {
+      "pattern": "374 Respondents",
+      "replacement": "3rd Respondents",
+      "count": 1,
+      "reason": "Glyph '374' → '3rd' in counsel block",
+      "calibration_source": "Visual context: '2nd and 3rd Respondents'",
+      "regex": false
+    },
+    {
+      "pattern": "([a-z])-\\n([a-z])",
+      "replacement": "\\1\\2",
+      "count": 1,
+      "reason": "Hyphenated line-break collapse for words split across line wraps",
+      "calibration_source": "Universal OCR cleanup; calibration set notes 'large-scale' → keep but 'appel-\\nlant' → 'appellant'",
+      "regex": true
+    }
+  ],
+  "cleanup_log_not_applied": [
+    {
+      "raw": "Patel, i as she then was",
+      "candidate": "Patel, J as she then was",
+      "reason": "Likely 'J' (Justice) → 'i' OCR error, but not in calibration set; left raw to honour 'no introduced content' rule"
+    },
+    {
+      "raw": "{ike appellant",
+      "candidate": "the appellant",
+      "reason": "Likely '{ike' is an OCR garble of 'the', but inferential; left raw"
+    },
+    {
+      "raw": "sertaumieation should be in writing",
+      "candidate": "communication should be in writing",
+      "reason": "OCR garble; inferential; left raw"
+    },
+    {
+      "raw": "appeal sbaiint such decision",
+      "candidate": "appeal against such decision",
+      "reason": "OCR garble; inferential; left raw"
+    },
+    {
+      "raw": "fora company",
+      "candidate": "for a company",
+      "reason": "Common OCR space loss; not in cover-page calibration set; left raw"
+    }
+  ],
+  "ambiguities_flagged_for_human": [
+    {
+      "field": "title",
+      "issue": "How to render the case title for the schema 'title' field — full party list vs short form 'Konkola Copper Mines PLC v Attorney General & Others'",
+      "worker_proposal": "Konkola Copper Mines PLC v Attorney General, Shenzen Resources Limited and Kakoso Metals Leach Limited (full)"
+    },
+    {
+      "field": "hearing_dates vs delivery_date",
+      "issue": "The coram block lists two sitting dates (4 Feb 2026 and 31 Mar 2026). No separate date stamp on the signature block. Convention is that the second date is delivery; the first is hearing.",
+      "worker_proposal": "hearing 2026-02-04, delivery 2026-03-31. delivery_date populates schema field date_of_assent (per schema field description repurposing for non-Acts)."
+    },
+    {
+      "field": "Musonda DCJ honorific 'SC'",
+      "issue": "Signature block reads 'M. MUSONDA, SC / DEPUTY CHIEF JUSTICE'. 'SC' here is State Counsel (a Zambian designation), not Senior Counsel. Worth recording but no schema slot.",
+      "worker_proposal": "Carry in parse.json coram_struct only; flatten to 'Musonda DCJ' for schema judges array."
+    },
+    {
+      "field": "cited_authorities (corpus IDs)",
+      "issue": "Schema cited_authorities requires corpus IDs that resolve. Corpus has only the Companies Act, which is not cited. So cited_authorities = []. Free-text case and statute lists live in parse.json only.",
+      "worker_proposal": "Final record cited_authorities = []. Parse.json carries cases_cited and statutes_cited as audit trail."
+    },
+    {
+      "field": "rights_notice",
+      "issue": "Per B-POL-3 directive Step 3, populate with the proposed text from the directive (Cap. 406 fair-dealing). The publisher source page itself carries no copyright notice (J-POL-3b finding). Schema permits null where no notice is present.",
+      "worker_proposal": "Populate with proposed text from directive. Alternative: leave null because publisher asserts no notice. Awaiting human ruling at Step 3 (record build)."
+    },
+    {
+      "field": "OCR garble not in calibration set",
+      "issue": "Several inferential corrections were NOT applied to body_text_clean (Patel J vs Patel i; '{ike' vs 'the'; 'sertaumieation' vs 'communication'; 'sbaiint' vs 'against'). These are listed in cleanup_log_not_applied for audit. Re-OCR at higher DPI or human transcription would likely resolve them.",
+      "worker_proposal": "Leave raw in body_text_clean. Phase 4 may apply a higher-DPI re-OCR pass."
+    }
+  ],
+  "body_text_raw_chars": 33739,
+  "body_text_clean_chars": 33735,
+  "body_text_raw": "«3\n\nIN THE SUPREME COURT OF ZAMBIA\nHOLDEN AT LUSAKA\n(Civil Jurisdiction)\n\nRPEAL NO. 09/2024\n\n   \n\nBETWEEN:\nKONKOLA COPPER MINES PL¢ ib AYPELLANT\nAND\nATTORNEY GENERAL 1ST RESPONDENT\nSHENZEN RESOURCES LIMITED 2ND RESPONDENT\nKAKOSA METALS LEACH LIMITED 38D RESPONDENT\nCoram : Musonda, DCJ, Kaoma and Mutuna, JJS\nOn 4th February, 2026 and 31st March, 2026\nFor the Appellant - Mr. T. Chibeleka and Ms C. Mukuka of\nMessrs ECB Legal Practitioners\nMr. G. Chipoya and Mr. N. Chaleka, In-House\nCounsel Konkola Copper Mines PLC\nFor the Ist Respondent : . Mr. M. Muchende SC - Solicitor General, Mr. P. S.\nPhiri, Mr. Mundia Mukelebai and Ms Mudenda\nHamasamo of the Attorney General’s Chambers.\nFor the 2nd\nand 374 Respondents : Mr. R. Musumali of Messrs. SLM Legal\n\nPractitioners\n\nMrs. S. Phiri — Hinji of Messrs Chifumu Banda and\nAssociates :\n\nMs M. V. Chilembo of Messrs T. S. Chilembo\nChambers.\n\n \n\nJUDGMENT\n\n \n\nMutuna, JS delivered the judgment of the Court.\n\f\n \n\nCases referred to:\n1) Konkola Copper Mines Ple v Rephidim Mining and Technical Supplies\nLimited and Others - CAZ Appeal No. 74 of 2018\n\n2) Konkola Copper Mines Ple v Sensele Enterprises Limited - CAZ Appeal No.\n133 of 2018\n\n3) Chikuta v Chipata Rural Council (1974) ZR 241 (SC)\n\n4) New Plast Industries v Commissioner of Lands and Attorney General (2001)\nZR 51 (SC)\n\n5) Kalymnos Processing Limited & Another v Konkola Copper Mines — CAZ\n\nAppeal No. 74 of 2023\n6) Antonio Ventriglia and Emmanuela Ventriglia v Finsbury Investments\nLimited - SCZ Appeal No. 2 of 2019\n\nLegislation referred to:\n1) The Mines and Minerals Development Act, No. 11 of 2013\n2) Rules of the Supreme Court 1965\n3) The Lands and Deeds Registry Act, Chapter 185 of the Laws of Zambia.\n\nIntroduction\n\n1) In the recent past a number of disputes have been brought to\nour courts which arise from allocation of mining rights by the\nMinistry of Mines and Minerals Development (the Ministry) over\nareas subject to other mining rights. The disputes almost\nalways involve the appellant as one of the parties which has a\n\nnumber of mining rights and it alleges trespass or unlawful\n\n~J2~\n\f\n2)\n\n3)\n\nallocation of mining rights against entities granted consent by\n\nthe Ministry to conduct mining activities on its properties.\n\nThe main issue that arises in these disputes is the mode of\ncommencement of the actions. It is usually contended that\nwhere the appellant is aggrieved by the actions of the Ministry\nin relation to allocation of mining rights to third parties over its\nmining rights, recourse lies in appealing to the Minister and\nthence the Mining Appeals Tribunal in accordance with\nsections 97 and 98 of the Mines and Minerals Development\n\nAct, (the Act).\n\nThe dispute in this appeal is one such disputes which questions\nthe mode of commencement of the action by the appellant\nagainst the second and third respondents in the High Court. It\narises from a decision of the Court of Appeal setting aside the\ndecision of a High Court Judge as determined that she had\njurisdiction to deal with the matter as it was properly\n\ncommenced.\n\n~J3~\n\f\nBackground\n\n4)\n\n5)\n\n6)\n\nThe appellant is the registered proprietor of the land where\nKakosa Tailing Dump (the Dump) is located and it has a large-\nscale mining licence over the Dump granted to it by the\n\nMinistry.\n\nIn or about 2010, the second respondent expressed an interest\nin conducting mining activities in the Dump by way of a joint\nventure with the third respondent and engaged the Ministry for\nthis purpose. The engagement resulted in the Ministry granting\nthe second respondent a mineral processing licence for a period\nof fifteen years. Later, the Director Mining Cadastre gave the\nsecond respondent consent to conduct mining activities on the\n\nDump after the appellant declined to grant its consent.\n\nThe appellant was not notified of the grant of the consent to the\nsecond respondent over the Dump by the Director Mining\nCadastre. The appellant later took out an action in the High\nCourt against the second and third respondents after it\ndiscovered that the two were conducting mining activities on the\n\nDump. The first respondent was joined to the action later.\n\n~J4~\n\f\ne\n\nThe matter in the High Court\n\n7)\n\n8)\n\nThe appellant commenced the action in the High Court by way\nof writ of summons and statement of claim. It claimed for: a\ndeclaration that the respondents had no rights over the Dump\nand that the appellant was the rightful owner of the Dump;\nalternatively, a declaration that the respondents had no right to\nenter upon the Dump without its prior consent; a declaration\nthat the appellant had reasonable grounds to withhold its\nconsent in respect of access to the Dump by the second\nrespondent; an injunction restraining the respondents from\ncrossing the appellant’s surface and mining rights entered upon\nor carrying on any activities thereon; damages for interference\n\nwith the appellant’s operations and trespass; and costs.\n\nAfter the appellant commenced the action and served process\nupon the respondents, the first respondent filed a preliminary\nobjection pursuant to Order 14A rule 1 as read with Order 33\nof the Rules of the Supreme Court 1965 (white book). It\n\ncontended that the appellant had wrongly commenced the\n\n~J5~\n\f\n9)\n\naction and the court, therefore, had no jurisdiction to entertain\n\nit.\n\nThe basis of the objection was that since the appellant was\naggrieved with the decision of the Director Mining Cadastre\ngranting consent to the second respondent to access and carry\nout mining activities on the Dump, it ought to have appealed\nagainst that decision and not commenced an action in the High\n\nCourt.\n\nDecision by the Learned High Court Judge\n\n10)\n\n11)\n\nFollowing the hearing of the motion for the preliminary\nobjection, the Learned High Court Judge (Patel, i as she then\nwas) identified the issue for determination as being whether the\naction was properly before her. Put differently, she asked herself\n\nif she had jurisdiction to determine the matter.\n\nIn arriving at her decision, the Learned High Court Judge began\nby considering the pleadings filed by the appellant and relief\nsought. She also considered decisions of the Court of Appeal\n\nwhich raised a similar issue as the one before her, in particular\n\n~ J6~\n\f\nthe decision in the case of Konkola Copper Mines Plc v\nRephidim Mining and Technical Supplies Limited and\n\nOthers!.\n\n12) The Judge concluded that the law is settled that she could\nentertain the action before her as an action in tort on the ground\nof trespass. She, therefore, held that she had jurisdiction to\nhear the matter and dismissed the preliminary objection. The\nrespondents were aggrieved by the decision of the Learned High\n\nCourt Judge and appealed to the Court of Appeal.\n\nDecision of the Court of Appeal\n\n13) After the Court of Appeal heard the appeal, it held that the\nmatter before the High Court was wrongly commenced because\nthe appellant should have appealed against the decision of the\nDirector Mining Cadastre granting aca to the second\nrespondent in accordance with section 97 of the Act. The basis\nof the court’s decision was that the action as it then stood for\ntrespass could not be sustained because the Director Mining\n\nCadastre had granted consent to the second respondent to\n\n~J7~\n\f\nconduct the mining activities after the appellant unreasonably\n\nwithheld its consent.\n\n14) As a consequence of the facts in the preceding paragraph, the\ncourt held further that the second respondent was not a\ntrespasser and for that reason, the case before it could be\ndistinguished from its earlier decisions in the cases of Konkola\nCopper Mines Plc v Sensele Enterprises Limited? and\nKonkola Copper Mines Pile v Rephidim Mining and\nTechnical Supplies Limited and Others!. The court\nconcluded that the Learned High Court Judge had no\njurisdiction to entertain the matter because it contravened the\nprinciples set out in our decisions in the cases of Chikuta v\nChipata Rural Council? and New Plast Industries v\nCommissioner. of Lands and Attorney General* on\ncommencement of actions. It accordingly set aside the decision\n\nof the Learned High Court Judge.\n\nAppeal to this Court and arguments by parties\n15) The appellant appealed against the decision of the Court of\n\nAppeal and advanced four grounds as follows:\n\n~ J8 ~\n\f\n15.1)\n\n15.2)\n\n15.3)\n\nThe Court of Appeal erred in law and fact when it held\nthat the second respondent commenced mining\nactivities on Kakosa Tailings Dump as a licensee having\nobtained consent from the Director Mining Cadastre.\nThe Director Mining Cadastre has no authority under\nthe Mines and Minerals Development Act to grant\nconsent to a party to enter upon another person’s land\neven in circumstances where the person had initially\n\nwithheld his consent;\n\nThe Court of Appeal erred in fact and law when it held\nthat the Director Mining Cadastre can give consent to a\nholder of a mining right where it has been denied by a\nsurface rights holder without giving the circumstances\nand law under which such powers are exercisable with\n\nfar reaching consequences of compulsory acquisition;\n\nConsequent to the above, the Court of Appeal erred in\nlaw and fact when it ruled that the appellant ought to\n\nhave appealed against the Director’s decision to the\n\n~J9~\n\f\nMinister as prescribed by section 97(1) of the Mines\nand Minerals Development Act. The court did not\naddress its mind to section 56 of the Act which provides\nfor procedure that may be undertaken by the Director\nMining Cadastre when there is a dispute as to consent\n\nto conduct mining activities over surface rights; and,\n\n15.4) The Court of Appeal erred in law and in fact when it ruled\nthat the High Court had no jurisdiction to hear the\nmatter. The court erred in not drawing a distinction\nbetween surface rights held by a title holder (by virtue of\nthe Lands and Deeds Registry Act) who can lawfully\ncommence an action for trespass and mining rights\nexercised pursuant to the Mines and Minerals\n\nDevelopment Act.\n\n16) The dispute which is defined by these grounds of appeal is\nbeyond the issue which is the subject of this appeal, namely,\ndid the appellant adopt the correct mode of commencement of\nthe action in the High Court? Apart from enlarging the dispute\n\nbefore us, the grounds of appeal also invite us to delve into the\n\n~J10~\n\f\n17)\n\n18)\n\ndispute which is before the High Court arising from the manner\n\nin which the Court of Appeal determined the appeal before it.\n\nIn our determination of this appeal, we have considered only the\nissue which we have defined in the preceding paragraph and\nhave restricted our consideration of the parties’ arguments to\nthose arguments which address the issue. For this reason and\nfor purposes of contextualising the dispute before us, at the\nhearing of the appeal, we posed certain questions to counsel for\nthe parties which we have referred to later in this judgment\n\nalong with the undisputed facts as we see them.\n\nIn advancing the appellant’s arguments in support of the\nappeal, counsel for the appellant argued grounds 2 and 3 of the\nappeal together. They began by setting out the facts leading up\nto the dispute which were that after the second respondent\nobtained its mining licence, it applied to the appellant for its\nconsent to conduct mining activities on the Dump. The\nappellant declined to grant its consent which prompted the\nsecond respondent to seek consent from the Director Mining\n\nCadastre which was granted.\n\n~J11~\n\f\n19)\n\n20)\n\nCounsel argued that after the Court of Appeal considered these\nbackground facts, it held that the second respondent’s presence\non the Dump was not as a trespasser but in accordance with\nthe Act which permitted the Director Mining Cadastre to issue\nconsent to an entity with a mining licence to conduct mining\nactivities in an area which is already subject to mining rights.\nThis holding, according to counsel, was a misdirection on the\npart of the Court of Appeal because there is no provision in the\nAct which empowers the Director Mining Cadastre to grant\nconsent where it was withheld by the person or entity with\n\nmining rights over the property in issue.\n\nTo reinforce their argument counsel submitted that the Court\nof Appeal, while endorsing the argument by the second\nrespondent that it was lawfully conducting mining activities on\nthe Dump because of the Director’s consent, did not cite any\nprovision of the Act to support its decision. Counsel submitted\nthat the section in the Act which deals with consent is section\n52 and that it does not give power to the Director Mining\n\nCadastre to grant such consent. According to counsel, the effect\n\n~J12 ~\n\f\n21)\n\n22)\n\nof section 52 of the Act is that a mineral rights holder must\nfirst seek the consent from a surface rights holder where there\nis one, alternatively from an appropriate authority that is in\n\ncharge of the area where the mineral right has been given.\n\nAdvancing their arguments, counsel submitted that the only\nrole which the Director Mining Cadastre plays is under section\n52(2) to arrange for arbitration as a means of resolving any\ndispute relating to the consent which has been withheld. This\nfunction, counsel argued, is not mandatory because the section\n\nuses the word “may” and not “shall”.\n\nThe next limb of counsel’s arguments addressed the effect of\nsections 96 and 97 of the Act. They argued that section 96\nobliges the Minister, Committee or any Director making a\ndecision which affects a holder or applicant of a mining right, to\ninform such holder or applicant of the decision, the reasons\nthereof and the right to appeal against such decision. As for\nsection 97, counsel argued that it grants any person aggrieved\nby a decision of the Committee or Director the right to appeal to\n\nthe Minister within 30 days.\n\n~J13 ~\n\f\n \n\n23)\n\n24)\n\nRegarding the form which the notice under section 96 should\ntake, counsel contended that it must be in writing, set out the\nreasons for the decision and inform the affected person of their\nright to appeal. They argued that there are no documents that\nhave been presented by the respondents which prove the\nMinistry complied with the requirements under section 96\n\nwhen it granted consent to them.\n\nComing to grounds 1 and 4 of the appeal, we would like to state\nfrom the outset that it is not our intention to summarise the\narguments relating to ground 1 as presented by the appellant\nbecause they relate to the main dispute which is before the High\nCourt. The question of whether or not the second respondent’s\npresence on the Dump is legitimate pursuant to the consent\ngranted or trespass is for the High Court to determine if we\nuphold this appeal. So is the question whether the Director\nMining Cadastre has power under the Act to grant consent to\nexercise mining rights over an area already subject to mining\n\nrights. Our task, as earlier stated, is limited to determining\n\n~ J14 ~\n\n \n\f\n25)\n\n26)\n\n27)\n\nwhether the mode of commencement of the action in the High\n\nCourt was the correct one.\n\nUnder ground 4 of the appeal, counsel’s argument merely\nemphasised the appellant’s contention that the second\nrespondent was a trespasser, therefore, the action against it lay\n\nin tort which is commenced by way of a writ of summons.\n\nThe first respondent’s arguments as they related to ground 1 of\nthe appeal mirrored those of the appellant as they also\naddressed the main dispute before the High Court. We have,\n\ntherefore, not summarised them.\n\nAs for ground 2 of the appeal, the Learned Solicitor General, Mr.\nM. Muchende SC began by quoting at great length passages\nfrom the decision of the Court of Appeal in the case of\nKalymnos Processing Limited and Another v Konkola\nCopper Mines Limited’. The court in that case held that\nrecourse to courts of law can only be had after the grievance\nprocedure set out under section 97 of the Act has been\n\nexhausted. Further, section 98 clearly provides for complaints\n\n~J15 ~\n\f\n28)\n\n29)\n\n \n\nby aggrieved parties in relation to decisions on mining rights to\nlie to the Director within the Ministry, thereafter, to the Tribunal\n\nand finally to the courts of law.\n\nMr. M. Muchende SC went on to argue that the Court of Appeal\nconcluded that the appellant in that matter, having been denied\nconsent, should not have trespassed upon the mineral rights\nholder’s land but rather raise a complaint of unreasonable\nwithholding of consent to the Director Mining Cadastre.\nApplying the foregoing principles to this case, he argued that\nsince the second respondent only commenced mining activities\nafter it had been granted consent, it had complied with the law\nand the Court of Appeal was, therefore, on firm ground when it\nheld that the High Court lacked jurisdiction to adjudicate upon\n\nthe matter.\n\nIn respect of ground 3 of the appeal, Mr. M. Muchende SC\nrepeated the arguments on the effect of section 97 of the Act.\nHe went on to state that while section 56 of the Act does\nprovide for mechanisms for addressing disputes over surface\n\nrights, it is not intended as an alternative avenue for challenging\n\n~J16~\n\f\n30)\n\n31)\n\nthe decision of a Director arising from powers conferred by the\n\nAct.\n\nAs for ground 4 of the appeal, Mr. M. Muchende SC submitted\nthat the decision of the Court of Appeal is firmly rooted in the\nstatutory framework and supported by judicial precedent.\nTherefore, the appellant’s arguments fail to properly account for\nboth the legislative intent and the judicial interpretations which\nclearly demarcate the respective roles of administrative and\njudicial forums in resolving disputes. Mr. M. Muchende SC\nconcluded by drawing our attention to the decision in the case\nof Antonio Ventriglia and Emmanuela Ventriglia v Finsbury\nInvestments Limited® in which we said jurisdiction is\neverything, without it, a court has no power to adjudicate upon\n\na matter.\n\nIn opening the arguments for the second and third respondents,\nMr. Musumali, dealt with ground 1 of the appeal first. He began\nby see nine the effect of section 16 of the Act which he said\nsets out the steps which should be taken by a mineral right\n\nholder prior to entering upon a mineral right held by someone\n\n~J17 ~\n\f\n32)\n\n33)\n\n34)\n\nelse. According to counsel, the second respondent had complied\nwith the provisions of section 16 because it first sought the\nconsent of the appellant and once the consent was denied it\n\napproached the Director Mining Cadastre who granted it.\n\nCounsel went on to submit that once the consent was granted\nthe recourse open to the appellant was to appeal to the Minister\nin accordance with section 97(1) of the Act. He submitted that\nat appeal stage the question for determination by the Minister\nis whether or not the consent from the mineral rights holder\n\nwas reasonably withheld.\n\nAs for ground 2 of the appeal, the arguments by counsel focused\non the powers of the Director Mining Cadastre pursuant to\nsection 52(2) and (3) of the Act. We have not summarised these\n\narguments because they are not relevant to the issue before us.\n\nCounsel’s arguments in respect of ground 3 of the appeal\nfocused on negating the appellant’s arguments in respect of\nsection 56 of the Act which provides for arbitration as one of\n\nthe means of resolving disputes arising from the Act. They\n\n~J18 ~\n\f\n35)\n\n36)\n\nargued that since the decision which is the subject of this\ndispute was given on 13t December, 2010 before the enactment\nof the Act, it is not subject to the Act but rather the Mines and\nMinerals Development Act No. 7 of 2008 (Act No. 7 of 2008)\nwhich preceded it. Therefore, the proper course for the appellant\nto take in challenging the decision was to appeal to an\nappropriate authority which includes the Minster or such\npublic officer as the Minister may authorise to give the requisite\n\nconsent in accordance with section 127 of Act No. 7 of 2008.\n\nAs for ground 4 of the appeal, counsel’s arguments focused on\nemphasising the fact that what is at stake here are the\nappellant’s mineral rights which have no bearing on its\nownership of the Dump or its surface rights. To this end, they\ndrew our attention to the fact that the certificate of title from\nwhich a person derives ownership of land, while vesting surface\nrights in that person, excludes all minerals, oils and precious\n\nstones situate upon or under such property.\n\nThe appellant’s arguments in response in so far as they were\n\nrelevant to the dispute before us were as follows:\n\n~J19 ~\n\f\n36.1) Section 97(1) of the Act must be read with section 96\nwhich requires the Director, Committee or other officer\nto inform the holder or applicant affected by a decision\n\nsubject to appeal;\n\n36.2) Arising from 36.1 above, the first respondent has not\nreferred this court to any evidence showing that the\nappellant was notified when the Director Mining\n\nCadastre granted the consent; and,\n\n36.3) The letter of 13s December, 2010, which the second and\nthird respondents allege constitutes the consent, has not\ncomplied with the provisions of section 96 of the Act\nwhich require a holder to be notified of a decision of the\nMinister, Director or Committee, its reasons and the\n\nright of appeal.\n\n37) At the hearing, we invited counsel to confirm that the gist of the\nappellant’s grievance is that it was not notified when the\nDirector Mining Cadastre granted consent to the second\n\nrespondent to exercise mining rights over the Dump. They all\n\n~ J20 ~\n\f\n38)\n\n39)\n\nconfirmed this fact, which is also captured in the notes of the\nproceedings at the stage permission to appeal was being sought\n\nfrom a single Judge of this court.\n\nHaving established the undisputed fact in the preceding\nparagraph, we invited counsel to address us on the effect of\nsections 16 and 97 of the Act, and any other provisions of the\n\nAct, on that undisputed fact.\nFor the appellant Mr. T. Chibeleka responded as follows:\n\n39.1) In considering this appeal, the court should also\nconsider when the Director Mining Cadastre granted his\nconsent because this affects which law is applicable to\n\nthe dispute. Is it the Act No. 7 of 2008 or the Act?\n\n39.2) There has been no decision made by the Director Mining\nCadastre granting consent to the second respondent\n\nwhich was communicated to the appellant;\n\n39.3) Since no notice was given to the appellant regarding the\n\ndecision of the Director Mining Cadastre granting\n\n~ J21 ~\n\f\n40)\n\n39.4)\n\nconsent to the second respondent, the procedure set out\n\nin section 97 of the Act could not be invoked; and,\n\nThe action commenced by the appellant is rooted in\ntrespass, therefore, the appellant was on firm ground\nwhen it commenced the action in the High Court in the\n\nmanner it did.\n\nThe response by Mr. M. Muchende SC for the first respondent\n\nwas as follows:\n\n40.1)\n\n40.2)\n\nThe dispute in this matter as contained in the\ncorrespondence passing between the Minister and the\nparties reveals that it started prior to the enactment of\nthe Act but the appellant’s cause of action arose after\nenactment of the Act. Therefore, the dispute is governed\n\nby the Act and not its fore-runner, Act No. 7 of 2008;\n\nThe provisions of section 16 of the Act do not apply to\nthis dispute because it refers to mining rights as\nopposed to mineral processing or non-mining rights\n\nwhich are the issue in this appeal;\n\n~ J22 ~\n\f\n \n\n40.3)\n\n40.4)\n\n40.5)\n\n40.6)\n\nIn terms of section 16 of the Act, it was the second\nrespondent which should have applied to the appellant\n\nfor consent and not the Minister;\n\nThe correspondence on record reveals that the Ministry\nwas attempting to broker a deal between the second\n\nrespondent and appellant;\n\nWhere an applicant has no consent from the mineral\nrights holder or the Director Mining Cadastre or other\nauthority, a mineral rights holder can commence an\naction in tort against such applicant if he undertakes\n\nany mining activity;\n\nThe dispute with which we are engaged involves a\nsituation whereby the mineral rights holder withheld its\nconsent which prompted the director Mining Cadastre or\nappropriate authority to give consent in accordance with\n\nsection 52(2) of the Act;\n\n~ J23 ~\n\f\n \n\n41)\n\n40.7)\n\n40.8)\n\nSection 96 of the Act requires the Minister, Committee,\nDirector or an authorised officer to notify the holder or\nan applicant for mineral rights of any decision they make\nwhich may affect the holder or applicant. Where a holder\nof a mineral right has not been informed of any such\n\ndecision there is an infraction; and,\n\nWhere there is failure by the Minister or other authority\nto notify the holder of mineral rights, recourse lies in\n\ninvoking the right of appeal under section 97 of the Act.\n\nThe response by Mr. Musumali for the second and third\n\nrespondents was as follows:\n\n41.1)\n\n41.2)\n\nIn both Act No. 7 of 2008 and the Act, the procedure is\nthat whenever a person is aggrieved by the decision of\nthe Director, the remedy open to such a person is by way\n\nof an appeal;\n\nWhere there is failure by the Ministry to comply with the\n\nprovisions of section 96 of the Act to notify the holder\n\n~ J24 ~\n\f\n \n\nor applicant affected by the decision, the remedy lies in\n\nappealing against such a decision; and,\n\n41.3) The holder or applicant’s right of appeal arises at the\npoint when he becomes aware of the decision,\nnotwithstanding the expiry of thirty days limit for\n\nappealing prescribed in section 97.\n\nConsideration and decision of the Court\n\n42)\n\n43)\n\nIn our consideration of this appeal, we will begin by determining\nwhich of the two Acts is applicable to the dispute. The position\ntaken by the appellant is that the dispute falls under Act No. 7\nof 2008 while the first respondent contends that it is the Act.\nThe second and third respondents do not appear to have taken\n\na position on the matter.\n\nA perusal of the statement of claim reveals that the appellant’s\ngrievance began with the grant of the mineral processing licence\nto the second respondent by the Ministry. The appellant was\nalso aggrieved by the fact that after the grant of the said mineral\nprocessing licence, the Director Mining Cadastre granted the\n\n~ J25 ~\n\f\n \n\n44)\n\nsecond respondent consent to conduct mining activities on the\nDump. It contends that the Director Mining Cadastre has no\npower to grant such consent. This consent, which the appellant\ndid not initially know about, is what prompted the second\nrespondent to enter upon the appellant’s mining right and\n\nproperty.\n\nThe facts we have set out in the preceding paragraph which\nform the appellant’s cause of action are revealed in paragraphs\n16 and 17 of the statement of claim which state in part as\n\nfollows:\n\n44.1) “The (second respondent) was purportedly granted\nmineral processing licence ... in respect of copper and\ncobalt. The said licence was issued on 27 March, 2018\n\nfor a period of 15 years from 6% of January, 2010...”\n\n44.2) ‘The said purported processing licence (for the second\nrespondent) ... was given by the Ministry of Mines in\n\ncontravention [of] ... the rights of the (appellant) over the\n\n~ J26 ~\n\f\n \n\n45)\n\n46)\n\nsaid area and ... there was no written consent sought\n\nfrom or given by the (appellant) aed\n\nIn view of what we have said in the two preceding paragraphs,\nwe must agree with the argument by the Learned Solicitor\nGeneral that it is the Act and not Act No. 7 of 2008 which is\napplicable to this dispute. The appellant’s cause of action\nhaving arisen from the Ministry’s act of granting the licence on\n27th March, 2018 (as endorsed in the statement of claim) and\nthe grant of the consent the dispute is governed by the Act.\nHere, we must state that although counsel suggested that the\napplicable Act was an issue in dispute, in articulating their\nrespective positions, they anchored their arguments on the\nprovisions of the Act and not Act No. 7 of 2008. This, in itself,\nis an affirmation that they knew that the applicable law was the\n\nAct.\n\nHaving held that it is the Act which is the governing legislation\nover the dispute, sections 96 and 97 thereof were applicable to\nthe steps to be taken after the grant of the consent to the second\n\nrespondent. That is to say, there was an obligation on the part\n\n~ J27 ~\n\f\n47)\n\nof the Director Mining Cadastre in granting the consent to\n\nadhere to those provisions. This is crucial to the determination\n\nof the sole issue which falls for determination in this dispute\n\nwhich we have identified at paragraph 16 hereof.\n\nAt this juncture, it is imperative that we set out what the two\n\nsections state and their effect in so far as they relate to the issue\n\nin dispute.\n\n47.1)\n\n47.2)\n\nSection 96 states as follows: “Whenever the Minister,\nthe Committee, any of the Directors or an authorised\nofficer makes a decision against which an appeal lies\nby virtue of a provision of this part, the holder or\napplicant affected by the decision shall be informed\nof the decision and the reasons for the decision by\nnotice, in writing, and the notice shall, inform the\n\nperson notified of that person’s right of appeal.”\n\nOn the other hand, Section 97(1) states as follows: “A\nperson who is aggrieved by a decision of the Director\n\nof Mining Cadastre, Director of Mines Safety,\n\n~ J28 ~\n\f\n48)\n\n49)\n\nDirector of Mines, Director of Geological Survey or\nthe Committee under this Act may, within thirty\ndays of receipt of the decision, appeal to the Minister\n\nin the prescribed manner and form.”\n\nThe interpretation we have given to section 96 is that it compels\nthe Minister, Committee, Director or authorised officer of the\nMinistry, to communicate any decision made on mineral rights\nto the affected mineral rights holder or an applicant. This\nsertaumieation should be in writing, giving the reasons for the\ndecision and informing the affected person of their right to\n\nappeal.\n\nOn the other hand, section 97(1) which takes effect after the\nsteps in section 96 have been taken, gives the person who is\naggrieved by the decision of any Director, Committee or\nauthorised officer in the Ministry, the option to appeal sbaiint\nsuch decision within thirty days of receipt of the decision. Both\nsections require the decision maker to notify the affected\nperson of the decision. This is for purposes of such person\n\nmaking a decision whether or not to appeal. Absent such\n\n~ J29 ~\n\f\n50)\n\n51)\n\nnotification, the Ministry will have committed an infraction or\ncontravened the two sections as the Learned Solicitor General\n\nmagnanimously conceded.\n\nFurther, where such notice has not been given, the aggrieved\nperson will not only have been denied his right under section\n96 to an explanation for the decision by the Ministry to arm him\nwith the capacity to appropriately craft his appeal, but also the\nright to exercise this very right of appeal as he will have been\n\nunaware of the decision.\n\nThe facts of this case reveal that the Director Mining Cadastre\ndid not take the steps set out in section 96. Therefore, there is\nno way the appellant could have invoked the appeal procedure\nunder section 97. It came to know about the Director’s decision\nwell after the prescribed thirty days when it discovered that the\nsecond respondent had commenced mining activities on its\nproperty. According to Mr. Musumali, at this stage it should\nthen have invoked the appeal procedure set out in section 97\n\nand not commenced the proceedings in the High Court.\n\n~ J30 ~\n\f\n52)\n\n53)\n\nWe do not agree with Mr. Musumali’s argument because even\nassuming its discovery was within the thirty days’ period of\nappeal, it had no basis of appealing because the decision by the\nDirector had not been formally communicated to it nor were\nreasons furnished to enable it competently exercise this right.\nAt paragraph 50 hereof we have explained the rationale for the\nnotice of the decision and the need for reasons to be furnished.\nThese were not given and, consequently, there was nothing\n\navailable to the appellant to enable it exercise its right of appeal.\n\nThe question which was before the Court of Appeal was whether\n{ike appellant properly commenced the action which is before\nthe High Court. This question mirrors the issue we have\nidentified as falling for determination at paragraph 16 of this\njudgment. In moving the motion in the High Court and\nprosecuting the appeal before the Court of Appeal, the first\nrespondent, in concert with the other two respondents\ncontended that since the appellant was aggrieved by the\ndecision of the Director Mining Cadastre, it should have\n\nappealed and not commenced the matter in the High Court.\n\n~J31 ~\n\f\n54)\n\n55)\n\nIn agreeing with the first respondent, the Court of Appeal went\nto great length at determining the status of the second\nrespondent’s presence at the appellant’s Dump and concluded\nthat since it had obtained the consent of the Director it was not\na trespasser. Therefore, the appellant should have challenged\nthe decision of the Director Mining Cadastre granting consent\nby way of appeal. The Court of Appeal was not called upon to\ndetermine the dispute which is before the High Court i.e. of\n\ntrespass.\n\nIn view of what we have said in paragraphs 50 and 51 of this\njudgment, we hold that the Court of Appeal misdirected itself.\nThe basis upon which it arrived at its decision was flawed\nbecause the question as to whether the second respondent is a\ntrespasser is a question to be determined by the High Court and\nnot the Court of Appeal. Its mandate was limited to determining\nthe correctness or otherwise of the mode of commencement of\n\nthe action by the appellant in the High Court.\n\n~ J32 ~\n\f\n \n\nConclusion\n56) We accordingly allow the appeal and set aside the decision of\nthe Court of Appeal. In doing so, we remit the matter back to\nthe High Court for determination of the dispute properly\ndeployed before it. The appellant will have its costs, in this and\n\nCourt of Appeal, which will be taxed in default of agreement.\n\n \n\nM. MUSONDA, SC\nDEPUTY CHIEF JUSTICE\n\n   \n\nR. M. C. KAOMA\nSUPREME COURT JUDGE\n\nSUPREME COURT JUDGE\n\n   \n\n~ J33 ~\n\f",
+  "body_text_clean": "«3\n\nIN THE SUPREME COURT OF ZAMBIA\nHOLDEN AT LUSAKA\n(Civil Jurisdiction)\n\nAPPEAL NO. 09/2024\n\n   \n\nBETWEEN:\nKONKOLA COPPER MINES PLC APPELLANT\nAND\nATTORNEY GENERAL 1ST RESPONDENT\nSHENZEN RESOURCES LIMITED 2ND RESPONDENT\nKAKOSO METALS LEACH LIMITED 3RD RESPONDENT\nCoram : Musonda, DCJ, Kaoma and Mutuna, JJS\nOn 4th February, 2026 and 31st March, 2026\nFor the Appellant - Mr. T. Chibeleka and Ms C. Mukuka of\nMessrs ECB Legal Practitioners\nMr. G. Chipoya and Mr. N. Chaleka, In-House\nCounsel Konkola Copper Mines PLC\nFor the 1st Respondent : . Mr. M. Muchende SC - Solicitor General, Mr. P. S.\nPhiri, Mr. Mundia Mukelebai and Ms Mudenda\nHamasamo of the Attorney General’s Chambers.\nFor the 2nd\nand 3rd Respondents : Mr. R. Musumali of Messrs. SLM Legal\n\nPractitioners\n\nMrs. S. Phiri — Hinji of Messrs Chifumu Banda and\nAssociates :\n\nMs M. V. Chilembo of Messrs T. S. Chilembo\nChambers.\n\n \n\nJUDGMENT\n\n \n\nMutuna, JS delivered the judgment of the Court.\n\f\n \n\nCases referred to:\n1) Konkola Copper Mines PLC v Rephidim Mining and Technical Supplies\nLimited and Others - CAZ Appeal No. 74 of 2018\n\n2) Konkola Copper Mines PLC v Sensele Enterprises Limited - CAZ Appeal No.\n133 of 2018\n\n3) Chikuta v Chipata Rural Council (1974) ZR 241 (SC)\n\n4) New Plast Industries v Commissioner of Lands and Attorney General (2001)\nZR 51 (SC)\n\n5) Kalymnos Processing Limited & Another v Konkola Copper Mines — CAZ\n\nAppeal No. 74 of 2023\n6) Antonio Ventriglia and Emmanuela Ventriglia v Finsbury Investments\nLimited - SCZ Appeal No. 2 of 2019\n\nLegislation referred to:\n1) The Mines and Minerals Development Act, No. 11 of 2013\n2) Rules of the Supreme Court 1965\n3) The Lands and Deeds Registry Act, Chapter 185 of the Laws of Zambia.\n\nIntroduction\n\n1) In the recent past a number of disputes have been brought to\nour courts which arise from allocation of mining rights by the\nMinistry of Mines and Minerals Development (the Ministry) over\nareas subject to other mining rights. The disputes almost\nalways involve the appellant as one of the parties which has a\n\nnumber of mining rights and it alleges trespass or unlawful\n\n~J2~\n\f\n2)\n\n3)\n\nallocation of mining rights against entities granted consent by\n\nthe Ministry to conduct mining activities on its properties.\n\nThe main issue that arises in these disputes is the mode of\ncommencement of the actions. It is usually contended that\nwhere the appellant is aggrieved by the actions of the Ministry\nin relation to allocation of mining rights to third parties over its\nmining rights, recourse lies in appealing to the Minister and\nthence the Mining Appeals Tribunal in accordance with\nsections 97 and 98 of the Mines and Minerals Development\n\nAct, (the Act).\n\nThe dispute in this appeal is one such disputes which questions\nthe mode of commencement of the action by the appellant\nagainst the second and third respondents in the High Court. It\narises from a decision of the Court of Appeal setting aside the\ndecision of a High Court Judge as determined that she had\njurisdiction to deal with the matter as it was properly\n\ncommenced.\n\n~J3~\n\f\nBackground\n\n4)\n\n5)\n\n6)\n\nThe appellant is the registered proprietor of the land where\nKakoso Tailing Dump (the Dump) is located and it has a largescale mining licence over the Dump granted to it by the\n\nMinistry.\n\nIn or about 2010, the second respondent expressed an interest\nin conducting mining activities in the Dump by way of a joint\nventure with the third respondent and engaged the Ministry for\nthis purpose. The engagement resulted in the Ministry granting\nthe second respondent a mineral processing licence for a period\nof fifteen years. Later, the Director Mining Cadastre gave the\nsecond respondent consent to conduct mining activities on the\n\nDump after the appellant declined to grant its consent.\n\nThe appellant was not notified of the grant of the consent to the\nsecond respondent over the Dump by the Director Mining\nCadastre. The appellant later took out an action in the High\nCourt against the second and third respondents after it\ndiscovered that the two were conducting mining activities on the\n\nDump. The first respondent was joined to the action later.\n\n~J4~\n\f\ne\n\nThe matter in the High Court\n\n7)\n\n8)\n\nThe appellant commenced the action in the High Court by way\nof writ of summons and statement of claim. It claimed for: a\ndeclaration that the respondents had no rights over the Dump\nand that the appellant was the rightful owner of the Dump;\nalternatively, a declaration that the respondents had no right to\nenter upon the Dump without its prior consent; a declaration\nthat the appellant had reasonable grounds to withhold its\nconsent in respect of access to the Dump by the second\nrespondent; an injunction restraining the respondents from\ncrossing the appellant’s surface and mining rights entered upon\nor carrying on any activities thereon; damages for interference\n\nwith the appellant’s operations and trespass; and costs.\n\nAfter the appellant commenced the action and served process\nupon the respondents, the first respondent filed a preliminary\nobjection pursuant to Order 14A rule 1 as read with Order 33\nof the Rules of the Supreme Court 1965 (white book). It\n\ncontended that the appellant had wrongly commenced the\n\n~J5~\n\f\n9)\n\naction and the court, therefore, had no jurisdiction to entertain\n\nit.\n\nThe basis of the objection was that since the appellant was\naggrieved with the decision of the Director Mining Cadastre\ngranting consent to the second respondent to access and carry\nout mining activities on the Dump, it ought to have appealed\nagainst that decision and not commenced an action in the High\n\nCourt.\n\nDecision by the Learned High Court Judge\n\n10)\n\n11)\n\nFollowing the hearing of the motion for the preliminary\nobjection, the Learned High Court Judge (Patel, i as she then\nwas) identified the issue for determination as being whether the\naction was properly before her. Put differently, she asked herself\n\nif she had jurisdiction to determine the matter.\n\nIn arriving at her decision, the Learned High Court Judge began\nby considering the pleadings filed by the appellant and relief\nsought. She also considered decisions of the Court of Appeal\n\nwhich raised a similar issue as the one before her, in particular\n\n~ J6~\n\f\nthe decision in the case of Konkola Copper Mines Plc v\nRephidim Mining and Technical Supplies Limited and\n\nOthers!.\n\n12) The Judge concluded that the law is settled that she could\nentertain the action before her as an action in tort on the ground\nof trespass. She, therefore, held that she had jurisdiction to\nhear the matter and dismissed the preliminary objection. The\nrespondents were aggrieved by the decision of the Learned High\n\nCourt Judge and appealed to the Court of Appeal.\n\nDecision of the Court of Appeal\n\n13) After the Court of Appeal heard the appeal, it held that the\nmatter before the High Court was wrongly commenced because\nthe appellant should have appealed against the decision of the\nDirector Mining Cadastre granting aca to the second\nrespondent in accordance with section 97 of the Act. The basis\nof the court’s decision was that the action as it then stood for\ntrespass could not be sustained because the Director Mining\n\nCadastre had granted consent to the second respondent to\n\n~J7~\n\f\nconduct the mining activities after the appellant unreasonably\n\nwithheld its consent.\n\n14) As a consequence of the facts in the preceding paragraph, the\ncourt held further that the second respondent was not a\ntrespasser and for that reason, the case before it could be\ndistinguished from its earlier decisions in the cases of Konkola\nCopper Mines Plc v Sensele Enterprises Limited? and\nKonkola Copper Mines Pile v Rephidim Mining and\nTechnical Supplies Limited and Others!. The court\nconcluded that the Learned High Court Judge had no\njurisdiction to entertain the matter because it contravened the\nprinciples set out in our decisions in the cases of Chikuta v\nChipata Rural Council? and New Plast Industries v\nCommissioner. of Lands and Attorney General* on\ncommencement of actions. It accordingly set aside the decision\n\nof the Learned High Court Judge.\n\nAppeal to this Court and arguments by parties\n15) The appellant appealed against the decision of the Court of\n\nAppeal and advanced four grounds as follows:\n\n~ J8 ~\n\f\n15.1)\n\n15.2)\n\n15.3)\n\nThe Court of Appeal erred in law and fact when it held\nthat the second respondent commenced mining\nactivities on Kakosa Tailings Dump as a licensee having\nobtained consent from the Director Mining Cadastre.\nThe Director Mining Cadastre has no authority under\nthe Mines and Minerals Development Act to grant\nconsent to a party to enter upon another person’s land\neven in circumstances where the person had initially\n\nwithheld his consent;\n\nThe Court of Appeal erred in fact and law when it held\nthat the Director Mining Cadastre can give consent to a\nholder of a mining right where it has been denied by a\nsurface rights holder without giving the circumstances\nand law under which such powers are exercisable with\n\nfar reaching consequences of compulsory acquisition;\n\nConsequent to the above, the Court of Appeal erred in\nlaw and fact when it ruled that the appellant ought to\n\nhave appealed against the Director’s decision to the\n\n~J9~\n\f\nMinister as prescribed by section 97(1) of the Mines\nand Minerals Development Act. The court did not\naddress its mind to section 56 of the Act which provides\nfor procedure that may be undertaken by the Director\nMining Cadastre when there is a dispute as to consent\n\nto conduct mining activities over surface rights; and,\n\n15.4) The Court of Appeal erred in law and in fact when it ruled\nthat the High Court had no jurisdiction to hear the\nmatter. The court erred in not drawing a distinction\nbetween surface rights held by a title holder (by virtue of\nthe Lands and Deeds Registry Act) who can lawfully\ncommence an action for trespass and mining rights\nexercised pursuant to the Mines and Minerals\n\nDevelopment Act.\n\n16) The dispute which is defined by these grounds of appeal is\nbeyond the issue which is the subject of this appeal, namely,\ndid the appellant adopt the correct mode of commencement of\nthe action in the High Court? Apart from enlarging the dispute\n\nbefore us, the grounds of appeal also invite us to delve into the\n\n~J10~\n\f\n17)\n\n18)\n\ndispute which is before the High Court arising from the manner\n\nin which the Court of Appeal determined the appeal before it.\n\nIn our determination of this appeal, we have considered only the\nissue which we have defined in the preceding paragraph and\nhave restricted our consideration of the parties’ arguments to\nthose arguments which address the issue. For this reason and\nfor purposes of contextualising the dispute before us, at the\nhearing of the appeal, we posed certain questions to counsel for\nthe parties which we have referred to later in this judgment\n\nalong with the undisputed facts as we see them.\n\nIn advancing the appellant’s arguments in support of the\nappeal, counsel for the appellant argued grounds 2 and 3 of the\nappeal together. They began by setting out the facts leading up\nto the dispute which were that after the second respondent\nobtained its mining licence, it applied to the appellant for its\nconsent to conduct mining activities on the Dump. The\nappellant declined to grant its consent which prompted the\nsecond respondent to seek consent from the Director Mining\n\nCadastre which was granted.\n\n~J11~\n\f\n19)\n\n20)\n\nCounsel argued that after the Court of Appeal considered these\nbackground facts, it held that the second respondent’s presence\non the Dump was not as a trespasser but in accordance with\nthe Act which permitted the Director Mining Cadastre to issue\nconsent to an entity with a mining licence to conduct mining\nactivities in an area which is already subject to mining rights.\nThis holding, according to counsel, was a misdirection on the\npart of the Court of Appeal because there is no provision in the\nAct which empowers the Director Mining Cadastre to grant\nconsent where it was withheld by the person or entity with\n\nmining rights over the property in issue.\n\nTo reinforce their argument counsel submitted that the Court\nof Appeal, while endorsing the argument by the second\nrespondent that it was lawfully conducting mining activities on\nthe Dump because of the Director’s consent, did not cite any\nprovision of the Act to support its decision. Counsel submitted\nthat the section in the Act which deals with consent is section\n52 and that it does not give power to the Director Mining\n\nCadastre to grant such consent. According to counsel, the effect\n\n~J12 ~\n\f\n21)\n\n22)\n\nof section 52 of the Act is that a mineral rights holder must\nfirst seek the consent from a surface rights holder where there\nis one, alternatively from an appropriate authority that is in\n\ncharge of the area where the mineral right has been given.\n\nAdvancing their arguments, counsel submitted that the only\nrole which the Director Mining Cadastre plays is under section\n52(2) to arrange for arbitration as a means of resolving any\ndispute relating to the consent which has been withheld. This\nfunction, counsel argued, is not mandatory because the section\n\nuses the word “may” and not “shall”.\n\nThe next limb of counsel’s arguments addressed the effect of\nsections 96 and 97 of the Act. They argued that section 96\nobliges the Minister, Committee or any Director making a\ndecision which affects a holder or applicant of a mining right, to\ninform such holder or applicant of the decision, the reasons\nthereof and the right to appeal against such decision. As for\nsection 97, counsel argued that it grants any person aggrieved\nby a decision of the Committee or Director the right to appeal to\n\nthe Minister within 30 days.\n\n~J13 ~\n\f\n \n\n23)\n\n24)\n\nRegarding the form which the notice under section 96 should\ntake, counsel contended that it must be in writing, set out the\nreasons for the decision and inform the affected person of their\nright to appeal. They argued that there are no documents that\nhave been presented by the respondents which prove the\nMinistry complied with the requirements under section 96\n\nwhen it granted consent to them.\n\nComing to grounds 1 and 4 of the appeal, we would like to state\nfrom the outset that it is not our intention to summarise the\narguments relating to ground 1 as presented by the appellant\nbecause they relate to the main dispute which is before the High\nCourt. The question of whether or not the second respondent’s\npresence on the Dump is legitimate pursuant to the consent\ngranted or trespass is for the High Court to determine if we\nuphold this appeal. So is the question whether the Director\nMining Cadastre has power under the Act to grant consent to\nexercise mining rights over an area already subject to mining\n\nrights. Our task, as earlier stated, is limited to determining\n\n~ J14 ~\n\n \n\f\n25)\n\n26)\n\n27)\n\nwhether the mode of commencement of the action in the High\n\nCourt was the correct one.\n\nUnder ground 4 of the appeal, counsel’s argument merely\nemphasised the appellant’s contention that the second\nrespondent was a trespasser, therefore, the action against it lay\n\nin tort which is commenced by way of a writ of summons.\n\nThe first respondent’s arguments as they related to ground 1 of\nthe appeal mirrored those of the appellant as they also\naddressed the main dispute before the High Court. We have,\n\ntherefore, not summarised them.\n\nAs for ground 2 of the appeal, the Learned Solicitor General, Mr.\nM. Muchende SC began by quoting at great length passages\nfrom the decision of the Court of Appeal in the case of\nKalymnos Processing Limited and Another v Konkola\nCopper Mines Limited’. The court in that case held that\nrecourse to courts of law can only be had after the grievance\nprocedure set out under section 97 of the Act has been\n\nexhausted. Further, section 98 clearly provides for complaints\n\n~J15 ~\n\f\n28)\n\n29)\n\n \n\nby aggrieved parties in relation to decisions on mining rights to\nlie to the Director within the Ministry, thereafter, to the Tribunal\n\nand finally to the courts of law.\n\nMr. M. Muchende SC went on to argue that the Court of Appeal\nconcluded that the appellant in that matter, having been denied\nconsent, should not have trespassed upon the mineral rights\nholder’s land but rather raise a complaint of unreasonable\nwithholding of consent to the Director Mining Cadastre.\nApplying the foregoing principles to this case, he argued that\nsince the second respondent only commenced mining activities\nafter it had been granted consent, it had complied with the law\nand the Court of Appeal was, therefore, on firm ground when it\nheld that the High Court lacked jurisdiction to adjudicate upon\n\nthe matter.\n\nIn respect of ground 3 of the appeal, Mr. M. Muchende SC\nrepeated the arguments on the effect of section 97 of the Act.\nHe went on to state that while section 56 of the Act does\nprovide for mechanisms for addressing disputes over surface\n\nrights, it is not intended as an alternative avenue for challenging\n\n~J16~\n\f\n30)\n\n31)\n\nthe decision of a Director arising from powers conferred by the\n\nAct.\n\nAs for ground 4 of the appeal, Mr. M. Muchende SC submitted\nthat the decision of the Court of Appeal is firmly rooted in the\nstatutory framework and supported by judicial precedent.\nTherefore, the appellant’s arguments fail to properly account for\nboth the legislative intent and the judicial interpretations which\nclearly demarcate the respective roles of administrative and\njudicial forums in resolving disputes. Mr. M. Muchende SC\nconcluded by drawing our attention to the decision in the case\nof Antonio Ventriglia and Emmanuela Ventriglia v Finsbury\nInvestments Limited® in which we said jurisdiction is\neverything, without it, a court has no power to adjudicate upon\n\na matter.\n\nIn opening the arguments for the second and third respondents,\nMr. Musumali, dealt with ground 1 of the appeal first. He began\nby see nine the effect of section 16 of the Act which he said\nsets out the steps which should be taken by a mineral right\n\nholder prior to entering upon a mineral right held by someone\n\n~J17 ~\n\f\n32)\n\n33)\n\n34)\n\nelse. According to counsel, the second respondent had complied\nwith the provisions of section 16 because it first sought the\nconsent of the appellant and once the consent was denied it\n\napproached the Director Mining Cadastre who granted it.\n\nCounsel went on to submit that once the consent was granted\nthe recourse open to the appellant was to appeal to the Minister\nin accordance with section 97(1) of the Act. He submitted that\nat appeal stage the question for determination by the Minister\nis whether or not the consent from the mineral rights holder\n\nwas reasonably withheld.\n\nAs for ground 2 of the appeal, the arguments by counsel focused\non the powers of the Director Mining Cadastre pursuant to\nsection 52(2) and (3) of the Act. We have not summarised these\n\narguments because they are not relevant to the issue before us.\n\nCounsel’s arguments in respect of ground 3 of the appeal\nfocused on negating the appellant’s arguments in respect of\nsection 56 of the Act which provides for arbitration as one of\n\nthe means of resolving disputes arising from the Act. They\n\n~J18 ~\n\f\n35)\n\n36)\n\nargued that since the decision which is the subject of this\ndispute was given on 13t December, 2010 before the enactment\nof the Act, it is not subject to the Act but rather the Mines and\nMinerals Development Act No. 7 of 2008 (Act No. 7 of 2008)\nwhich preceded it. Therefore, the proper course for the appellant\nto take in challenging the decision was to appeal to an\nappropriate authority which includes the Minster or such\npublic officer as the Minister may authorise to give the requisite\n\nconsent in accordance with section 127 of Act No. 7 of 2008.\n\nAs for ground 4 of the appeal, counsel’s arguments focused on\nemphasising the fact that what is at stake here are the\nappellant’s mineral rights which have no bearing on its\nownership of the Dump or its surface rights. To this end, they\ndrew our attention to the fact that the certificate of title from\nwhich a person derives ownership of land, while vesting surface\nrights in that person, excludes all minerals, oils and precious\n\nstones situate upon or under such property.\n\nThe appellant’s arguments in response in so far as they were\n\nrelevant to the dispute before us were as follows:\n\n~J19 ~\n\f\n36.1) Section 97(1) of the Act must be read with section 96\nwhich requires the Director, Committee or other officer\nto inform the holder or applicant affected by a decision\n\nsubject to appeal;\n\n36.2) Arising from 36.1 above, the first respondent has not\nreferred this court to any evidence showing that the\nappellant was notified when the Director Mining\n\nCadastre granted the consent; and,\n\n36.3) The letter of 13s December, 2010, which the second and\nthird respondents allege constitutes the consent, has not\ncomplied with the provisions of section 96 of the Act\nwhich require a holder to be notified of a decision of the\nMinister, Director or Committee, its reasons and the\n\nright of appeal.\n\n37) At the hearing, we invited counsel to confirm that the gist of the\nappellant’s grievance is that it was not notified when the\nDirector Mining Cadastre granted consent to the second\n\nrespondent to exercise mining rights over the Dump. They all\n\n~ J20 ~\n\f\n38)\n\n39)\n\nconfirmed this fact, which is also captured in the notes of the\nproceedings at the stage permission to appeal was being sought\n\nfrom a single Judge of this court.\n\nHaving established the undisputed fact in the preceding\nparagraph, we invited counsel to address us on the effect of\nsections 16 and 97 of the Act, and any other provisions of the\n\nAct, on that undisputed fact.\nFor the appellant Mr. T. Chibeleka responded as follows:\n\n39.1) In considering this appeal, the court should also\nconsider when the Director Mining Cadastre granted his\nconsent because this affects which law is applicable to\n\nthe dispute. Is it the Act No. 7 of 2008 or the Act?\n\n39.2) There has been no decision made by the Director Mining\nCadastre granting consent to the second respondent\n\nwhich was communicated to the appellant;\n\n39.3) Since no notice was given to the appellant regarding the\n\ndecision of the Director Mining Cadastre granting\n\n~ J21 ~\n\f\n40)\n\n39.4)\n\nconsent to the second respondent, the procedure set out\n\nin section 97 of the Act could not be invoked; and,\n\nThe action commenced by the appellant is rooted in\ntrespass, therefore, the appellant was on firm ground\nwhen it commenced the action in the High Court in the\n\nmanner it did.\n\nThe response by Mr. M. Muchende SC for the first respondent\n\nwas as follows:\n\n40.1)\n\n40.2)\n\nThe dispute in this matter as contained in the\ncorrespondence passing between the Minister and the\nparties reveals that it started prior to the enactment of\nthe Act but the appellant’s cause of action arose after\nenactment of the Act. Therefore, the dispute is governed\n\nby the Act and not its fore-runner, Act No. 7 of 2008;\n\nThe provisions of section 16 of the Act do not apply to\nthis dispute because it refers to mining rights as\nopposed to mineral processing or non-mining rights\n\nwhich are the issue in this appeal;\n\n~ J22 ~\n\f\n \n\n40.3)\n\n40.4)\n\n40.5)\n\n40.6)\n\nIn terms of section 16 of the Act, it was the second\nrespondent which should have applied to the appellant\n\nfor consent and not the Minister;\n\nThe correspondence on record reveals that the Ministry\nwas attempting to broker a deal between the second\n\nrespondent and appellant;\n\nWhere an applicant has no consent from the mineral\nrights holder or the Director Mining Cadastre or other\nauthority, a mineral rights holder can commence an\naction in tort against such applicant if he undertakes\n\nany mining activity;\n\nThe dispute with which we are engaged involves a\nsituation whereby the mineral rights holder withheld its\nconsent which prompted the director Mining Cadastre or\nappropriate authority to give consent in accordance with\n\nsection 52(2) of the Act;\n\n~ J23 ~\n\f\n \n\n41)\n\n40.7)\n\n40.8)\n\nSection 96 of the Act requires the Minister, Committee,\nDirector or an authorised officer to notify the holder or\nan applicant for mineral rights of any decision they make\nwhich may affect the holder or applicant. Where a holder\nof a mineral right has not been informed of any such\n\ndecision there is an infraction; and,\n\nWhere there is failure by the Minister or other authority\nto notify the holder of mineral rights, recourse lies in\n\ninvoking the right of appeal under section 97 of the Act.\n\nThe response by Mr. Musumali for the second and third\n\nrespondents was as follows:\n\n41.1)\n\n41.2)\n\nIn both Act No. 7 of 2008 and the Act, the procedure is\nthat whenever a person is aggrieved by the decision of\nthe Director, the remedy open to such a person is by way\n\nof an appeal;\n\nWhere there is failure by the Ministry to comply with the\n\nprovisions of section 96 of the Act to notify the holder\n\n~ J24 ~\n\f\n \n\nor applicant affected by the decision, the remedy lies in\n\nappealing against such a decision; and,\n\n41.3) The holder or applicant’s right of appeal arises at the\npoint when he becomes aware of the decision,\nnotwithstanding the expiry of thirty days limit for\n\nappealing prescribed in section 97.\n\nConsideration and decision of the Court\n\n42)\n\n43)\n\nIn our consideration of this appeal, we will begin by determining\nwhich of the two Acts is applicable to the dispute. The position\ntaken by the appellant is that the dispute falls under Act No. 7\nof 2008 while the first respondent contends that it is the Act.\nThe second and third respondents do not appear to have taken\n\na position on the matter.\n\nA perusal of the statement of claim reveals that the appellant’s\ngrievance began with the grant of the mineral processing licence\nto the second respondent by the Ministry. The appellant was\nalso aggrieved by the fact that after the grant of the said mineral\nprocessing licence, the Director Mining Cadastre granted the\n\n~ J25 ~\n\f\n \n\n44)\n\nsecond respondent consent to conduct mining activities on the\nDump. It contends that the Director Mining Cadastre has no\npower to grant such consent. This consent, which the appellant\ndid not initially know about, is what prompted the second\nrespondent to enter upon the appellant’s mining right and\n\nproperty.\n\nThe facts we have set out in the preceding paragraph which\nform the appellant’s cause of action are revealed in paragraphs\n16 and 17 of the statement of claim which state in part as\n\nfollows:\n\n44.1) “The (second respondent) was purportedly granted\nmineral processing licence ... in respect of copper and\ncobalt. The said licence was issued on 27 March, 2018\n\nfor a period of 15 years from 6% of January, 2010...”\n\n44.2) ‘The said purported processing licence (for the second\nrespondent) ... was given by the Ministry of Mines in\n\ncontravention [of] ... the rights of the (appellant) over the\n\n~ J26 ~\n\f\n \n\n45)\n\n46)\n\nsaid area and ... there was no written consent sought\n\nfrom or given by the (appellant) aed\n\nIn view of what we have said in the two preceding paragraphs,\nwe must agree with the argument by the Learned Solicitor\nGeneral that it is the Act and not Act No. 7 of 2008 which is\napplicable to this dispute. The appellant’s cause of action\nhaving arisen from the Ministry’s act of granting the licence on\n27th March, 2018 (as endorsed in the statement of claim) and\nthe grant of the consent the dispute is governed by the Act.\nHere, we must state that although counsel suggested that the\napplicable Act was an issue in dispute, in articulating their\nrespective positions, they anchored their arguments on the\nprovisions of the Act and not Act No. 7 of 2008. This, in itself,\nis an affirmation that they knew that the applicable law was the\n\nAct.\n\nHaving held that it is the Act which is the governing legislation\nover the dispute, sections 96 and 97 thereof were applicable to\nthe steps to be taken after the grant of the consent to the second\n\nrespondent. That is to say, there was an obligation on the part\n\n~ J27 ~\n\f\n47)\n\nof the Director Mining Cadastre in granting the consent to\n\nadhere to those provisions. This is crucial to the determination\n\nof the sole issue which falls for determination in this dispute\n\nwhich we have identified at paragraph 16 hereof.\n\nAt this juncture, it is imperative that we set out what the two\n\nsections state and their effect in so far as they relate to the issue\n\nin dispute.\n\n47.1)\n\n47.2)\n\nSection 96 states as follows: “Whenever the Minister,\nthe Committee, any of the Directors or an authorised\nofficer makes a decision against which an appeal lies\nby virtue of a provision of this part, the holder or\napplicant affected by the decision shall be informed\nof the decision and the reasons for the decision by\nnotice, in writing, and the notice shall, inform the\n\nperson notified of that person’s right of appeal.”\n\nOn the other hand, Section 97(1) states as follows: “A\nperson who is aggrieved by a decision of the Director\n\nof Mining Cadastre, Director of Mines Safety,\n\n~ J28 ~\n\f\n48)\n\n49)\n\nDirector of Mines, Director of Geological Survey or\nthe Committee under this Act may, within thirty\ndays of receipt of the decision, appeal to the Minister\n\nin the prescribed manner and form.”\n\nThe interpretation we have given to section 96 is that it compels\nthe Minister, Committee, Director or authorised officer of the\nMinistry, to communicate any decision made on mineral rights\nto the affected mineral rights holder or an applicant. This\nsertaumieation should be in writing, giving the reasons for the\ndecision and informing the affected person of their right to\n\nappeal.\n\nOn the other hand, section 97(1) which takes effect after the\nsteps in section 96 have been taken, gives the person who is\naggrieved by the decision of any Director, Committee or\nauthorised officer in the Ministry, the option to appeal sbaiint\nsuch decision within thirty days of receipt of the decision. Both\nsections require the decision maker to notify the affected\nperson of the decision. This is for purposes of such person\n\nmaking a decision whether or not to appeal. Absent such\n\n~ J29 ~\n\f\n50)\n\n51)\n\nnotification, the Ministry will have committed an infraction or\ncontravened the two sections as the Learned Solicitor General\n\nmagnanimously conceded.\n\nFurther, where such notice has not been given, the aggrieved\nperson will not only have been denied his right under section\n96 to an explanation for the decision by the Ministry to arm him\nwith the capacity to appropriately craft his appeal, but also the\nright to exercise this very right of appeal as he will have been\n\nunaware of the decision.\n\nThe facts of this case reveal that the Director Mining Cadastre\ndid not take the steps set out in section 96. Therefore, there is\nno way the appellant could have invoked the appeal procedure\nunder section 97. It came to know about the Director’s decision\nwell after the prescribed thirty days when it discovered that the\nsecond respondent had commenced mining activities on its\nproperty. According to Mr. Musumali, at this stage it should\nthen have invoked the appeal procedure set out in section 97\n\nand not commenced the proceedings in the High Court.\n\n~ J30 ~\n\f\n52)\n\n53)\n\nWe do not agree with Mr. Musumali’s argument because even\nassuming its discovery was within the thirty days’ period of\nappeal, it had no basis of appealing because the decision by the\nDirector had not been formally communicated to it nor were\nreasons furnished to enable it competently exercise this right.\nAt paragraph 50 hereof we have explained the rationale for the\nnotice of the decision and the need for reasons to be furnished.\nThese were not given and, consequently, there was nothing\n\navailable to the appellant to enable it exercise its right of appeal.\n\nThe question which was before the Court of Appeal was whether\n{ike appellant properly commenced the action which is before\nthe High Court. This question mirrors the issue we have\nidentified as falling for determination at paragraph 16 of this\njudgment. In moving the motion in the High Court and\nprosecuting the appeal before the Court of Appeal, the first\nrespondent, in concert with the other two respondents\ncontended that since the appellant was aggrieved by the\ndecision of the Director Mining Cadastre, it should have\n\nappealed and not commenced the matter in the High Court.\n\n~J31 ~\n\f\n54)\n\n55)\n\nIn agreeing with the first respondent, the Court of Appeal went\nto great length at determining the status of the second\nrespondent’s presence at the appellant’s Dump and concluded\nthat since it had obtained the consent of the Director it was not\na trespasser. Therefore, the appellant should have challenged\nthe decision of the Director Mining Cadastre granting consent\nby way of appeal. The Court of Appeal was not called upon to\ndetermine the dispute which is before the High Court i.e. of\n\ntrespass.\n\nIn view of what we have said in paragraphs 50 and 51 of this\njudgment, we hold that the Court of Appeal misdirected itself.\nThe basis upon which it arrived at its decision was flawed\nbecause the question as to whether the second respondent is a\ntrespasser is a question to be determined by the High Court and\nnot the Court of Appeal. Its mandate was limited to determining\nthe correctness or otherwise of the mode of commencement of\n\nthe action by the appellant in the High Court.\n\n~ J32 ~\n\f\n \n\nConclusion\n56) We accordingly allow the appeal and set aside the decision of\nthe Court of Appeal. In doing so, we remit the matter back to\nthe High Court for determination of the dispute properly\ndeployed before it. The appellant will have its costs, in this and\n\nCourt of Appeal, which will be taxed in default of agreement.\n\n \n\nM. MUSONDA, SC\nDEPUTY CHIEF JUSTICE\n\n   \n\nR. M. C. KAOMA\nSUPREME COURT JUDGE\n\nSUPREME COURT JUDGE\n\n   \n\n~ J33 ~\n\f"
+}

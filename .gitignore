@@ -1,4 +1,28 @@
-raw/
+# raw/ is host-only by default for fetch byproducts (HTML caches,
+# OCR scratch, transient probes). Specific audit artefacts that are
+# referenced by committed records — the source bytes whose sha256 is
+# in the record's source_hash field, the parse.json sibling, and the
+# discovery HTML that proves the URL extraction chain — are explicitly
+# tracked via narrow negations below. Add a new negation each time a
+# new pilot record lands. Never use `git add -f` to bypass this policy.
+raw/*
+!raw/pilot/
+raw/pilot/*
+!raw/pilot/judiciary-zm/
+raw/pilot/judiciary-zm/*
+!raw/pilot/judiciary-zm/appeal-no-09-2024-konkola-copper-mins-plc-vs-attorney-general-2-others-mar-2026-coram-musonda-kaoma-and-mutuna-jjs/
+raw/pilot/judiciary-zm/appeal-no-09-2024-konkola-copper-mins-plc-vs-attorney-general-2-others-mar-2026-coram-musonda-kaoma-and-mutuna-jjs/*
+!raw/pilot/judiciary-zm/appeal-no-09-2024-konkola-copper-mins-plc-vs-attorney-general-2-others-mar-2026-coram-musonda-kaoma-and-mutuna-jjs/Appeal-No-09-2024-Konkola-Copper-Mins-PLC-Vs-Attorney-General-2-Others-Mar-2026-Coram-Musonda-Kaoma-And-Mutuna-JJS.pdf
+!raw/pilot/judiciary-zm/appeal-no-09-2024-konkola-copper-mins-plc-vs-attorney-general-2-others-mar-2026-coram-musonda-kaoma-and-mutuna-jjs/parse.json
+!raw/discovery/
+raw/discovery/*
+!raw/discovery/judiciary-zm/
+raw/discovery/judiciary-zm/*
+!raw/discovery/judiciary-zm/supreme-court/
+raw/discovery/judiciary-zm/supreme-court/*
+!raw/discovery/judiciary-zm/supreme-court/posts/
+raw/discovery/judiciary-zm/supreme-court/posts/*
+!raw/discovery/judiciary-zm/supreme-court/posts/post-01-konkola-appeal-09-2024.html
 *.pyc
 __pycache__/
 .DS_Store
@@ -8,3 +32,4 @@ error-reports/*.tmp
 .venv/
 venv/
 *.log.tmp
+seeds/

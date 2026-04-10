@@ -1,0 +1,35 @@
+{
+  "id": "judgment-zm-2026-scz-09-konkola-v-ag",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Konkola Copper Mines PLC v Attorney General, Shenzen Resources Limited and Kakoso Metals Leach Limited",
+  "citation": "Appeal No. 09 of 2024",
+  "date_of_assent": "2026-03-31",
+  "court": "Supreme Court of Zambia",
+  "case_number": "Appeal No. 09 of 2024",
+  "parties": {
+    "appellant": [
+      "Konkola Copper Mines PLC"
+    ],
+    "respondent": [
+      "Attorney General",
+      "Shenzen Resources Limited",
+      "Kakoso Metals Leach Limited"
+    ]
+  },
+  "judges": [
+    "Musonda DCJ",
+    "Kaoma JS",
+    "Mutuna JS"
+  ],
+  "cited_authorities": [],
+  "source_url": "https://judiciaryzambia.com/wp-content/uploads/2026/03/Appeal-No-09-2024-Konkola-Copper-Mins-PLC-Vs-Attorney-General-2-Others-Mar-2026-Coram-Musonda-Kaoma-And-Mutuna-JJS.pdf",
+  "source_hash": "sha256:2f790701cc6c882bd58881ad3e1b760a407d34a35b0231e2f70c45f81ceaa0ee",
+  "fetched_at": "2026-04-10T00:23:55Z",
+  "parser_version": "0.2.0",
+  "notes": "[Retrieval policy provenance]\nRaw bytes retrieved from judiciaryzambia.com under the B-POL-2c revised content-length envelope (500 KB-50 MB band for Supreme Court PDFs on this publisher). Fetch authorised under the B-POL-2d fallback after candidate #06 (App-No-09-2024) failed the judgment heading gate as a ruling. The post HTML was retrieved first (raw/discovery/judiciary-zm/supreme-court/posts/post-01-konkola-appeal-09-2024.html, sha256 2b27bc3c10d195093ec3c1d2df8ed726b826248c87815924aafea15cac8623ef), the single embedded PDF URL extracted, then fetched via scripts/fetch_one.py (fetcher_version 0.2.0). The upstream Last-Modified header was Tue, 31 Mar 2026 13:38:18 GMT; the upstream ETag was \"69cbce4a-f5fa2b\". The natural-experiment pair (Appeal-No-09-2024 judgment vs App-No-09-2024 ruling, same parties, same panel, five months apart) confirmed the filename prefix as a reliable proceeding-class signal on this publisher.\n\n[OCR pipeline]\nSource PDF carries no text layer. Full-document OCR was performed via pdftoppm 22.02.0 (poppler) through pdf2image at 200 DPI for the 33-page body, with the cover page separately re-rendered at 300 DPI for close-read calibration, then processed through tesseract 4.1.1 via pytesseract 0.3.13 (eng). Raw OCR output was 5,763 words / 33,739 characters. A calibrated cleanup set of ten substitutions was applied (anchored in the page-1 OCR excerpt and the publisher post title) to produce clean text of 5,761 words / 33,735 characters. Paragraph structure (1-56) was recovered via a numbered-paragraph header regex. The full audit trail — including both applied and not-applied cleanup entries and the body text in both raw and clean forms — is held in the parse.json sibling file under raw/pilot/judiciary-zm/.\n\n[Editorial rulings — date interpretation]\nCoram line lists two sitting dates (4 February 2026 and 31 March 2026). By Zambian Supreme Court convention the earlier is the hearing date and the later is the delivery date; the closing signature block carries no separate date stamp. Delivery date taken from the coram line.\n\n[Editorial rulings — judicial designation]\nMusonda DCJ also holds the designation State Counsel (SC) per the signature block; recorded in parse.json coram_struct, not in the record judges array.\n\n[Editorial rulings — rights notice]\nPublisher source page (judiciaryzambia.com) displays no copyright notice; publisher-asserted rights are silent, not absent. The rights_notice field records Kate Weston Legal Practitioners' own fair-dealing basis under Cap. 406, not a reproduction of any publisher notice.\n\n[Editorial rulings — OCR garble not applied]\nFive inferential OCR corrections were identified during parse but NOT applied to the clean text (see parse.json cleanup_log_not_applied). Raw OCR output is preserved in body_text_clean pending Phase 4 re-OCR at 300 DPI or human transcription.\n\n[Neutral-citation gap]\nThe judgment as published carries a docket citation ('APPEAL NO. 09/2024') but no neutral citation in the form '[YYYY] ZMSC NN' on the face of the document. No authoritative neutral-citation scheme was observable on the publisher source page. The record 'citation' field captures the docket citation verbatim in its normalised form ('Appeal No. 09 of 2024').",
+  "rights_notice": "Publisher source page (judiciaryzambia.com) displays no copyright notice. Retention and re-use by Kate Weston Legal Practitioners is under the fair-dealing exceptions of the Copyright and Performance Rights Act, Cap. 406 of the Laws of Zambia, for the purposes of legal research and professional commentary. Judgments of the Supreme Court of Zambia are public acts of the state and are cited for their legal authority only.",
+  "sensitive_data_categories": [
+    "none"
+  ]
+}
