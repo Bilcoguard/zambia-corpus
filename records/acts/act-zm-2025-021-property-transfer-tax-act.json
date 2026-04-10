@@ -1,0 +1,37 @@
+{
+  "id": "act-zm-2025-021-property-transfer-tax-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Property Transfer Tax (Amendment) Act, 2025",
+  "citation": "Act No. 21 of 2025",
+  "year": 2025,
+  "act_number": 21,
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "(1) This Act may be cited as the Property Transfer Tax Short title",
+      "text": "(1) This Act may be cited as the Property Transfer Tax Short title\n(Amendment) Act, 2025, and shall be read as one with the Property and commen-\ncement\nTransfer Tax Act, in this Act referred to as the principal Act. Cap. 340\n(2) This Act shall come into operation on 1st January, 2026."
+    },
+    {
+      "number": "2",
+      "heading": "Section 5 of the principal Act is amended by the deletion of Amendment",
+      "text": "Section 5 of the principal Act is amended by the deletion of Amendment\nsubsection (2B) and the substitution therefor of the following: of section 5\n(2B) Despite subsection (2A), where the Commissioner-\nGeneral is satisfied that a transfer of shares is made for the\npurposes of a group reorganisation, the Commissioner-General\nmay determine a nil value for that transfer, except that this\nsubsection shall only apply where the company transferring\nthe shares and the company receiving the shares has been\npart of the group of companies, which is subject of the group\nreorganisation, for three years or more preceding the transfer."
+    },
+    {
+      "number": "3",
+      "heading": "Section 6 (1) of the principal Act is amended by the deletion Amendment",
+      "text": "Section 6 (1) of the principal Act is amended by the deletion Amendment\nof paragraph (h) and the substitution therefor of the following: of section 6\nCopies of this Statutory Instrument can be obtained from the Government Printer,\nP.O. Box 30136, 10101, Lusaka, Price K4.00 each\n310 No. 21 of 2025] Property Transfer Tax (Amendment)\n(h) the surrender or forfeiture of shares for no consideration\nwhere the Commissioner-General is satisfied that the\nsurrender or forfeiture is not intended to avoid property\ntransfer tax, except that a subsequent transfer to a\ndifferent person shall be liable to property transfer tax."
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2021%20of%202025%2C%20The%20Property%20Transfer%20Tax%20%28Amendment%29%20Act.pdf",
+  "source_hash": "sha256:023ddcbfd15176ee9b6fab18646181022ad89831aad803b15e8ee8ad2623e691",
+  "fetched_at": "2026-04-10T14:06:04Z",
+  "parser_version": "0.2.0",
+  "node_url": "https://www.parliament.gov.zm/node/12768",
+  "pdf_size_bytes": 282212
+}

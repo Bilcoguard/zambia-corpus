@@ -73,3 +73,11 @@ inventory.
 
 - **act-zm-2025-012-superior-courtsnumber-of-judgesact** (4 sections): Brief amending Act — short form expected. Likely complete.
 - **act-zm-2025-019-value-added-tax-amendment-act** (2 sections): VAT Amendment Act — likely schedule-heavy or very brief amendment. Needs schedule-aware re-parse to verify completeness.
+
+## Batch 0006 — Parse quality flags (2026-04-10)
+
+- **act-zm-2025-020-zambia-revenue-authority-act** (3 sections): Brief ZRA amendment Act; likely complete.
+- **act-zm-2025-021-property-transfer-tax-act** (3 sections): Brief PTT amendment; likely complete.
+- **act-zm-2025-022-mobile-money-transaction-levy-act** (3 sections): Brief MoMo Levy amendment; likely complete.
+- **act-zm-2018-003-rent-act** (2 sections): Rent Amendment Act — very brief (8 KB PDF). Verify all clauses captured.
+- **act-zm-2018-004-subordinate-courts-act** (3 sections): Short amending Act (13 KB). Verify completeness.

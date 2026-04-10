@@ -1,0 +1,37 @@
+{
+  "id": "act-zm-2025-022-mobile-money-transaction-levy-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Mobile Money Transaction Levy (Amendment) Act, 2025",
+  "citation": "Act No. 22 of 2025",
+  "year": 2025,
+  "act_number": 22,
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Mobile Money Transaction Short title",
+      "text": "This Act may be cited as the Mobile Money Transaction Short title\nLevy (Amendment) Act, 2025, and shall be read as one with the and commen-\ncement\nMobile Money Transaction Levy Act, 2024, in this Act referred to\nas the principal Act. Act No. 25\nof 2024\n(2) This Act shall come into operation on 1st January, 2026."
+    },
+    {
+      "number": "2",
+      "heading": "Section 2 of the principal Act is amended by the deletion of Amendment",
+      "text": "Section 2 of the principal Act is amended by the deletion of Amendment\nthe definitions of “betting” and “person to person transfer” and the of section 2\nsubstitution therefor of the following:\n“betting “ has the meaning assigned to the word in the Customs Cap. 322\nand Excise Act; and\n“person to person transfer” means a transfer of electronic\nmoney from one person to another person or to that same\nperson."
+    },
+    {
+      "number": "3",
+      "heading": "The principal Act is amended by the repeal of the Schedule Repeal and",
+      "text": "The principal Act is amended by the repeal of the Schedule Repeal and\nand the substitution therefor of the Schedule set out in the Appendix. replacement\nof Schedule\nCopies of this Statutory Instrument can be obtained from the Government Printer,\nP.O. Box 30136, 10101, Lusaka, Price K4.00 each\n312 No. 22 of 2025] Mobile Money Transaction\nLevy (Amendment)\nAPPENDIX\n(Section 3)\nSCHEDULE\n(Section 5(1))\nCHARGEABLE RATES\nAmount range (ZMW) Levy (ZMW)\nFrom 0 to 150 0.32\nAbove 150 to 300 0.40\nAbove 300 to 500 0.80\nAbove 500 to 1000 2.00\nAbove 1000 to 3000 4.00\nAbove 3000 to 5000 7.50\nAbove 5000 to 10000 8.00\nAbove 10000 10"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2022%20of%202025%20The%20Mobile%20Money%20Transaction%20Levy%20%28Amendment%29..pdf",
+  "source_hash": "sha256:71eaea33f76b785efef01885c36924a7e479136a3fb04555ed59222e6f28d87c",
+  "fetched_at": "2026-04-10T14:06:09Z",
+  "parser_version": "0.2.0",
+  "node_url": "https://www.parliament.gov.zm/node/12916",
+  "pdf_size_bytes": 289635
+}

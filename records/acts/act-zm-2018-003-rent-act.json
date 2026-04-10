@@ -1,0 +1,32 @@
+{
+  "id": "act-zm-2018-003-rent-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Rent (Amendment) Act, 2018",
+  "citation": "Act No. 3 of 2018",
+  "year": 2018,
+  "act_number": 3,
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "(1) ThisAct may be cited as the Rent (Amendment)Act, ShortTitle",
+      "text": "(1) ThisAct may be cited as the Rent (Amendment)Act, ShortTitle\n2018,andshallbereadasonewiththeRentAct,inthisActreferred Cap.206\ntoastheprincipalAct."
+    },
+    {
+      "number": "2",
+      "heading": "Section2oftheprincipalActisamendedbythedeletionof Amendment",
+      "text": "Section2oftheprincipalActisamendedbythedeletionof Amendment\nthe definition of “Court” and the substitution therefor of the ofsection2\nfollowing:\n“court” means—\n(a) in relation to premises for which the rent demanded\nexceeds one hundered thousand kwacha per year, the\nHighCourt;and\n(b)inrelationtoallotherpermises,asubordinatecourtofthe\nfirstclass;\nSinglecopiesofthisActmaybeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka,PriceK4.00each.\n94"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Rent%20%28Amendment%29%20Bill%2C%202018.pdf",
+  "source_hash": "sha256:c057653b96c9e48cf6b72ffe5a2c296025302148dc9d645738c7910c0d75b3a1",
+  "fetched_at": "2026-04-10T14:06:31Z",
+  "parser_version": "0.2.0",
+  "node_url": "https://www.parliament.gov.zm/node/7515",
+  "pdf_size_bytes": 8464
+}
