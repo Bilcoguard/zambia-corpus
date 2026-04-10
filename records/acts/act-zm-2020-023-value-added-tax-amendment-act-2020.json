@@ -1,0 +1,45 @@
+{
+  "id": "act-zm-2020-023-value-added-tax-amendment-act-2020",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Value Added Tax (Amendment) Act, 2020",
+  "citation": "Act No. 23 of 2020",
+  "year": 2020,
+  "act_number": 23,
+  "enacted_date": "2020",
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "(1) This Act may be cited as the Value Added Tax Short title",
+      "text": "(1) This Act may be cited as the Value Added Tax Short title (Amendment) Act, 2020, and shall be read as one with the Value and commence- Added Tax Act, in this Act referred to as the principal Act. ment Cap. 331 (2) This Act shall come into operation on 1st January 2021."
+    },
+    {
+      "number": "2",
+      "heading": "Section 11 of the principal Act is amended by the deletion Amendment",
+      "text": "Section 11 of the principal Act is amended by the deletion Amendment of subsection (1) and the substitution therefor of the following: of section 11 (1) Goods shall be regarded, for taxation purposes, as being supplies in Zambia if— (a) the goods are exported from Zambia; (b) the goods are supplied within Zambia; (c) the supply of the goods involve entry into Zambia; and (d) the supply involves installation or assembly of the goods at a place in Zambia."
+    },
+    {
+      "number": "3",
+      "heading": "Section 19 of the principal Act is amended by the— Amendment",
+      "text": "Section 19 of the principal Act is amended by the— Amendment of section 19 (a) deletion of subsection (1A); and (b) renumbering of subsection (1B) as subsection (1A)."
+    },
+    {
+      "number": "4",
+      "heading": "Section 21 of the principal Act is amended by the deletion Amendment",
+      "text": "Section 21 of the principal Act is amended by the deletion Amendment of subsection (6) and substitution therefor of the following: of section 21 (6) Despite the other provisions of this section, an assessment based on an incorrect or inadequate return is void if it is made two years after the Commissioner-General concludes an audit which revealed that incorrect or inadequate return. Single copies of this Act may be obtained from the Government Printer, P.O. Box 30136, 10101 Lusaka, Price K4.00 each. Value Added Tax 348 No. 23 of 2020] (Amendment) Amendment 5. Section 34 of the principal Act is amended by the deletion of section 34 of subsection (2). Insertion of 6. The principal Act is amended by the insertion of the following section 42C new section immediately after section 42B: Use of 42C. (1) A taxable supplier shall provide an electronic electronic payment machine at a point of sale for use as a mode of payment payment for the customer. machine (2) A taxable supplier who contravenes subsection (1), commits an offence and is liable, on conviction, to a fine not exceeding ninety thousand penalty units. Repeal and 7. The principal Act is amended by the repeal of section 43 replacement and the substitution therefor of the following: of section 43"
+    },
+    {
+      "number": "43",
+      "heading": "Any person who, in relation to a particular tax period",
+      "text": "Any person who, in relation to a particular tax period False returns and makes a return or other declaration, furnishes any document statements or information or makes any statement, whether in writing or otherwise, that is false in any material particular commits an offence and is liable, on conviction in respect of that tax period, in the case of— (a) first offence, to a fine not exceeding sixty thousand penalty units; (b) second offence, to a fine not exceeding one hundred and twenty thousand penalty units; (c) third offence, to a fine not exceeding two hundred and forty thousand penalty units; and (d) for any subsequent offence, to a fine not exceeding three hundred thousand penalty units or to imprisonment for a term not exceeding three years, or to both. Amendment 8. Section 44(2) of the principal Act is amended by deletion of of section 44 the word “thirty” and substitution therefor of the words “three hundred”."
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/The%20Value%20Added%20Tax%20%28Amendment%29%20Act%20No.%2023%20of%202020.pdf",
+  "source_hash": "sha256:83df74b511734b91",
+  "fetched_at": "2026-04-10T22:24:30.499259+00:00",
+  "parser_version": "parliament-pdf-v1.2",
+  "cited_authorities": []
+}

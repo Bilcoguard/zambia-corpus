@@ -1,0 +1,30 @@
+{
+  "id": "act-zm-2020-024-skills-development-levy-amendment-act-2020",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Skills Development Levy (Amendment) Act, 2020",
+  "citation": "Act No. 24 of 2020",
+  "year": 2020,
+  "act_number": 24,
+  "enacted_date": "2020",
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Skills Development Levy Short title",
+      "text": "This Act may be cited as the Skills Development Levy Short title (Amendment) Act, 2020, and shall be read as one with the Skills Act No. 46 of 2016 Development Levy Act, 2016, in this Act referred to as the principal Act."
+    },
+    {
+      "number": "2",
+      "heading": "Section 4 of the principal Act is amended by the deletion Amendment",
+      "text": "Section 4 of the principal Act is amended by the deletion Amendment of subsection (3) and the substitution therefor of the following: of section 4 (3) A levy payable by an employer shall not be deducted from the emoluments of an employee. Single copies of this Act may be obtained from the Government Printer, P.O. Box 30136, 10101 Lusaka, Price K4.00 each. 350"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/The%20Skills%20Development%20Levy%20%28Amendment%29%20Act%20No.%2024%20of%202020.pdf",
+  "source_hash": "sha256:966825e257ac241a",
+  "fetched_at": "2026-04-10T22:24:30.499259+00:00",
+  "parser_version": "parliament-pdf-v1.2",
+  "cited_authorities": []
+}
