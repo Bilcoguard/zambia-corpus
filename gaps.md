@@ -51,3 +51,10 @@ The full parliament.gov.zm acts listing has 48 pages. Pages 0–12 are cached an
 were used for Batch 0001. Pages 13–47 contain an estimated 700+ additional acts
 (pre-2017 era). These will be walked in future batches to complete the acts_in_force
 inventory.
+
+## Batch 0002 — 2026-04-10 — Parse quality flags (≤ 2 sections)
+
+- **act-zm-2019-017-supplementary-appropriation-2019-no-2-act-2019** (2 sections): Supplementary Appropriation Act — schedule-heavy format, expected low section count; verify full schedule is captured.
+- **act-zm-2019-013-property-transfer-tax-amendment-act-2019** (1 section): Brief amendment Act; re-parse recommended to confirm all amendment clauses captured.
+- **act-zm-2019-014-value-added-tax-amendment-act-2019** (3 sections): Short amendment; section count plausible but verify completeness.
+

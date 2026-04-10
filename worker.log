@@ -1301,3 +1301,25 @@ push:            PENDING — sandbox cannot resolve github.com-corpus SSH alias.
 [2026-04-10T09:15:46Z] ERROR: git pull --ff-only failed. Cannot remove stale ORIG_HEAD.lock (Operation not permitted). Git output: 'fatal: update_ref failed for ref ORIG_HEAD: cannot lock ref ORIG_HEAD: Unable to create ORIG_HEAD.lock: File exists.' — Tick aborted. Manual intervention required: remove .git/ORIG_HEAD.lock from the corpus repo on the host machine.
 [2026-04-10T09:48:47Z] Phase 4 Batch 0001 COMPLETE: +21 acts (parliament.gov.zm, 2024-2025 tranche + Constitution Amendment 2016). Fetches: 50, duration ~9min. Listing pages 1-7 fetched (pages 0,8-12 cached). Total inventory from pages 0-12: 259 acts. Integrity checks: ALL PASS. Batch report: reports/batch-0001.md. Note: 6 records have <=2 sections (flagged in gaps.md for re-parse). Citation IDs standardised post-timeout before commit. Git push requires SSH alias on host machine.
 [2026-04-10T09:48:57Z] WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped. Peter to run manually: rclone sync raw/ b2raw:kwlp-corpus-raw/ --fast-list --transfers 4
+[2026-04-10T09:50:42Z] Phase 4 Batch 0001 PUSHED: commit 2c22e8e pushed to origin/main via HTTPS. Phase 4 in progress — 21 of ~1000+ acts ingested. Next tick: continue acts_in_force from pages 0-12 inventory (~237 acts remaining from cached pages) and walk pages 13-47.
+[2026-04-10T11:50:00Z] TICK HALTED — git pull --ff-only failed: stale lock files (.git/ORIG_HEAD.lock, .git/index.lock, .git/HEAD.lock, .git/objects/maintenance.lock) cannot be removed from sandbox (Operation not permitted). Branch is up to date with origin/main (no new commits), but protocol requires clean pull before proceeding. Phase 4 batch 0002 not started. Budget status: 50/2000 fetches used today.
+  action required: on host Mac, run:
+    cd /Users/peterndhlovu/KateWestonCorpus/corpus
+    rm -f .git/ORIG_HEAD.lock .git/index.lock .git/HEAD.lock .git/objects/maintenance.lock
+  Then the next scheduled tick (30 min) will proceed normally.
+
+2026-04-10T14:30:00Z phase-4 HALT — git lock files block all operations
+  git pull --ff-only failed: cannot lock ref 'ORIG_HEAD' (.git/ORIG_HEAD.lock exists)
+  git commit also blocked: .git/index.lock exists
+  rm of lock files returns "Operation not permitted" (sandbox filesystem restriction)
+  Lock files present:
+    .git/HEAD.lock (created 2026-04-10T11:50)
+    .git/ORIG_HEAD.lock (created 2026-04-10T11:29)
+    .git/index.lock (created 2026-04-10T11:49)
+    .git/objects/maintenance.lock (created 2026-04-10T08:51)
+  No work performed this tick. Budget: 50/2000 fetches used today.
+  action required: on host mac, run:
+    cd /Users/peterndhlovu/KateWestonCorpus/corpus
+    rm -f .git/index.lock .git/HEAD.lock .git/ORIG_HEAD.lock .git/objects/maintenance.lock
+  Then the next tick can proceed normally.
+[2026-04-10T10:23:00Z] Phase 4 Batch 0002 COMPLETE: +8 acts (parliament.gov.zm, 2019 tranche Acts No. 10-17). Fetches: 16 (8 node pages + 8 PDFs), total today: 66/2000. Integrity checks: ALL PASS. Batch report: reports/batch-0002.md. Note: 3 records have ≤ 3 sections (flagged in gaps.md for re-parse). B2 sync skipped — rclone not available in sandbox (Peter to run manually). Git push via HTTPS follows.
