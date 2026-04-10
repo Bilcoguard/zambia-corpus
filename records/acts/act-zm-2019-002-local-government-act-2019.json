@@ -1,0 +1,804 @@
+{
+  "id": "act-zm-2019-002-local-government-act-2019",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Local Government Act, 2019",
+  "citation": "Act No. 2 of 2019",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Shorttitle",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "Interpretation",
+      "text": "PART II ESTABLISHMENTANDCONSTITUTIONOFCOUNCILS"
+    },
+    {
+      "number": "3",
+      "heading": "Establishmentofcouncils",
+      "text": ""
+    },
+    {
+      "number": "4",
+      "heading": "Cities",
+      "text": ""
+    },
+    {
+      "number": "5",
+      "heading": "Changesaffectingdistricts",
+      "text": ""
+    },
+    {
+      "number": "6",
+      "heading": "Incorporationoflocalauthority",
+      "text": ""
+    },
+    {
+      "number": "7",
+      "heading": "Corporatenameofcouncil",
+      "text": ""
+    },
+    {
+      "number": "8",
+      "heading": "Seal",
+      "text": ""
+    },
+    {
+      "number": "9",
+      "heading": "Functionsofmayororcouncilchairperson",
+      "text": ""
+    },
+    {
+      "number": "10",
+      "heading": "Election of deputymayor or deputycouncil chairperson",
+      "text": "and vacancy"
+    },
+    {
+      "number": "11",
+      "heading": "Tenure of office of deputy mayor or deputy council",
+      "text": "chairperson"
+    },
+    {
+      "number": "12",
+      "heading": "Oaths",
+      "text": ""
+    },
+    {
+      "number": "13",
+      "heading": "Discharge of functions of mayor or council chairperson",
+      "text": "during vacancy or absence"
+    },
+    {
+      "number": "14",
+      "heading": "Validityofdischargeoffunctions",
+      "text": ""
+    },
+    {
+      "number": "15",
+      "heading": "Meetingsandproceedingsofcouncil",
+      "text": "PART III FUNCTIONS"
+    },
+    {
+      "number": "16",
+      "heading": "Functionsoflocalauthority",
+      "text": ""
+    },
+    {
+      "number": "17",
+      "heading": "Generalprovisionwithrespecttodischargeoffunctions",
+      "text": ""
+    },
+    {
+      "number": "18",
+      "heading": "PowerofMinistertoconferadditionalfunctionsonlocal",
+      "text": "authority"
+    },
+    {
+      "number": "19",
+      "heading": "Contracts",
+      "text": "SinglecopiesofthisActmaybeobtainedfromtheGovernmentPrinter, P.O.Box30136,10101Lusaka,PriceK112.00each. 22 No. 2 of 2019] Local Government"
+    },
+    {
+      "number": "20",
+      "heading": "Standingorders",
+      "text": ""
+    },
+    {
+      "number": "21",
+      "heading": "Acquisitionofland",
+      "text": ""
+    },
+    {
+      "number": "22",
+      "heading": "Acceptance ofgiftsofproperty",
+      "text": ""
+    },
+    {
+      "number": "23",
+      "heading": "Disposalofproperty",
+      "text": ""
+    },
+    {
+      "number": "24",
+      "heading": "Grantsandloansbylocalauthority",
+      "text": ""
+    },
+    {
+      "number": "25",
+      "heading": "Impositionoflevies",
+      "text": ""
+    },
+    {
+      "number": "26",
+      "heading": "Proceduresandcriteriaforlicensing",
+      "text": ""
+    },
+    {
+      "number": "27",
+      "heading": "Impositionofotherfeesandcharges",
+      "text": ""
+    },
+    {
+      "number": "28",
+      "heading": "Allowances",
+      "text": ""
+    },
+    {
+      "number": "29",
+      "heading": "Alderman",
+      "text": ""
+    },
+    {
+      "number": "30",
+      "heading": "Freeman",
+      "text": "PART IV FUNCTIONSOFTHENATIONALGOVERNMENTINRELATIONTO LOCALGOVERNMENT"
+    },
+    {
+      "number": "31",
+      "heading": "FunctionsofNationalGovernment",
+      "text": ""
+    },
+    {
+      "number": "32",
+      "heading": "Functionsatprovinciallevel",
+      "text": ""
+    },
+    {
+      "number": "33",
+      "heading": "Technicalsupport",
+      "text": ""
+    },
+    {
+      "number": "34",
+      "heading": "GuidancebyMinistertolocalauthority",
+      "text": ""
+    },
+    {
+      "number": "35",
+      "heading": "LocalauthoritytofurnishMinisterwithinformation",
+      "text": "PART V WARDDEVELOPMENT COMMITTEES"
+    },
+    {
+      "number": "36",
+      "heading": "EstablishmentofWardDevelopmentCommittee",
+      "text": ""
+    },
+    {
+      "number": "37",
+      "heading": "FunctionsofWardDevelopmentCommittee",
+      "text": ""
+    },
+    {
+      "number": "38",
+      "heading": "WardDevelopmentExecutiveCommittee",
+      "text": ""
+    },
+    {
+      "number": "39",
+      "heading": "DissolutionofWardDevelopmentCommittee",
+      "text": "PART VI FINANCE"
+    },
+    {
+      "number": "40",
+      "heading": "Financialyear",
+      "text": ""
+    },
+    {
+      "number": "41",
+      "heading": "Budget",
+      "text": ""
+    },
+    {
+      "number": "42",
+      "heading": "Generalandspecialfunds",
+      "text": ""
+    },
+    {
+      "number": "43",
+      "heading": "Bank accounts",
+      "text": ""
+    },
+    {
+      "number": "44",
+      "heading": "Accounts",
+      "text": ""
+    },
+    {
+      "number": "45",
+      "heading": "AnnualReport",
+      "text": "Local Government [No. 2 of 2019 23"
+    },
+    {
+      "number": "46",
+      "heading": "Investmentoffunds",
+      "text": ""
+    },
+    {
+      "number": "47",
+      "heading": "AdministrationofEqualisationFund",
+      "text": ""
+    },
+    {
+      "number": "48",
+      "heading": "Authoritytoborrowandmodesofborrowing",
+      "text": ""
+    },
+    {
+      "number": "49",
+      "heading": "Authorityforborrowingandreceiptoffund",
+      "text": ""
+    },
+    {
+      "number": "50",
+      "heading": "Securityforborrowingandprioritiesofsecurities",
+      "text": ""
+    },
+    {
+      "number": "51",
+      "heading": "Suspensionofrepaymentofsumsborrowed",
+      "text": ""
+    },
+    {
+      "number": "52",
+      "heading": "Lendersrelievedfromcertaininquiries",
+      "text": "PART VII CIVICDUTIESANDRESPONSIBILITIES"
+    },
+    {
+      "number": "53",
+      "heading": "Civicdutiesandresponsibilities",
+      "text": ""
+    },
+    {
+      "number": "54",
+      "heading": "ConstitutionofTribunal",
+      "text": ""
+    },
+    {
+      "number": "55",
+      "heading": "Declaration of assets",
+      "text": ""
+    },
+    {
+      "number": "56",
+      "heading": "Suspensionofcouncilors",
+      "text": ""
+    },
+    {
+      "number": "57",
+      "heading": "Revocationofappointmentorder",
+      "text": "PART VIII BY-LAWSANDREGULATIONS"
+    },
+    {
+      "number": "58",
+      "heading": "Power to make by-laws",
+      "text": ""
+    },
+    {
+      "number": "59",
+      "heading": "Languageof by-laws",
+      "text": ""
+    },
+    {
+      "number": "60",
+      "heading": "Penalties",
+      "text": ""
+    },
+    {
+      "number": "61",
+      "heading": "Noticeofby-lawsandobjectionthereto",
+      "text": ""
+    },
+    {
+      "number": "62",
+      "heading": "Confirmationofby-laws",
+      "text": ""
+    },
+    {
+      "number": "63",
+      "heading": "PowerofMinistertoamendorrevokeby-laws",
+      "text": ""
+    },
+    {
+      "number": "64",
+      "heading": "Powertomakeregulations",
+      "text": ""
+    },
+    {
+      "number": "65",
+      "heading": "Applicationofregulations",
+      "text": ""
+    },
+    {
+      "number": "66",
+      "heading": "Regulationstoprevailoverby-lawsorstandingorders",
+      "text": ""
+    },
+    {
+      "number": "67",
+      "heading": "Reference in other laws",
+      "text": "PART IX GENERALPROVISIONS"
+    },
+    {
+      "number": "68",
+      "heading": "ProvincialLocalGovernmentOfficer",
+      "text": ""
+    },
+    {
+      "number": "69",
+      "heading": "General offences",
+      "text": ""
+    },
+    {
+      "number": "70",
+      "heading": "Inspectionofdocuments",
+      "text": ""
+    },
+    {
+      "number": "71",
+      "heading": "Publicnotice",
+      "text": "24 No. 2 of 2019] Local Government"
+    },
+    {
+      "number": "72",
+      "heading": "Serviceofdocuments",
+      "text": ""
+    },
+    {
+      "number": "73",
+      "heading": "Legalproceedings",
+      "text": ""
+    },
+    {
+      "number": "74",
+      "heading": "Evidence",
+      "text": ""
+    },
+    {
+      "number": "75",
+      "heading": "Power of arrest",
+      "text": ""
+    },
+    {
+      "number": "76",
+      "heading": "Validityofdischargeoffunctionsbyofficersandemployees",
+      "text": "ofcouncil"
+    },
+    {
+      "number": "77",
+      "heading": "PowersofMinistertoapprove,confirmordeterminematters",
+      "text": ""
+    },
+    {
+      "number": "78",
+      "heading": "Inquiries",
+      "text": ""
+    },
+    {
+      "number": "79",
+      "heading": "Authoritytoissueguidelines",
+      "text": ""
+    },
+    {
+      "number": "80",
+      "heading": "Regulations",
+      "text": ""
+    },
+    {
+      "number": "81",
+      "heading": "Repeal of Cap.281",
+      "text": ""
+    },
+    {
+      "number": "82",
+      "heading": "Savingsandtransitionalprovisions",
+      "text": "FIRST SCHEDULE SECOND SCHEDULE THIRD SCHEDULE FOURTH SCHEDULE FIFTH SCHEDULE Local Government [No. 2 of 2019 25 GOVERNMENT OF ZAMBIA ACT No. 2 of 2019 DateofAssent:11thApril,2019 An Act to provide for an integrated local government system; give effect to the decentralisation of functions, responsibilities and services at all levels of local government; ensure democratic participation in, and controlof,decisionmakingbythepeopleatthelocallevel; revise the functions of local authorities; provide for the reviewoftariffs,chargesandfeeswithintheareaofalocal authority; provide for the proceedings of the council and committees; provide for the role of traditional leadership in democratic governance; repeal and replace the Local GovernmentAct,1991;andprovideformattersconnected with, or incidental to, the foregoing [11thApril,2019 ENACTEDbytheParliamentof Zambia Enactment PART I PRELIMINARY"
+    },
+    {
+      "number": "1",
+      "heading": "ThisActmaybecitedastheLocalGovernmentAct,2019. Shorttitle",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "InthisAct,unlessthecontextotherwiserequires— Interpretation",
+      "text": "“area”inrelationtoacouncil,meansthedistrictforwhich acouncilhasbeenestablishedunderthisAct; “ authorised officer” means a principal officer, a health inspector, police officeror anyother officer for the time being discharging the functions of the chief executive officerofalocalauthority “ bank account ” has the meaning assigned tothe words in thePublicFinanceManagementAct,2018; Act No. 1 of 2018 “building”includesanystructure,whetherofapermanent ortemporarynature,andapartofabuildingorstructure; 26 No. 2 of 2019] Local Government “ business ” has the meaning assigned to the word in the Act No. 16 RegistrationofBusinessNamesAct,2011; of2011 “ chief ” has the meaning assigned to the word in the Cap.1 Constitution; “city”meansacityproclaimedundersection4; “citycouncil”meansacitycouncilestablishedunderthisAct; “committee”meansacommitteeofacouncil; “council ” has the meaning assigned to the word in the Cap.1 Constitution; “ councillor ” has the meaningassignedtothe word inthe Cap.1 Constitution; “court”meansacourtofcompetentjurisdiction;“district” Cap.1 hasthemeaningassignedtothewordinthe Constitution; “EmolumentsCommission”hasthemeaningassignedtothe Cap.1 wordsintheConstitution; “employee”inrelationtoacouncil,meansapersonemployed byalocalauthority,otherthananofficer; “establish”inrelationtothefunctionsofacouncil,includes acquire,build,construct,name,hire,equipandfurnish; “ Equalisation Fund ” means the Local Government Cap.1 EqualisationFundestablishedundertheConstitution; “extensionofficer”meansapublicofficeroperatingwithin a ward; “generalelection”hasthemeaningassignedtothewordsin Cap.1 theConstitution; Cap.184 “ land” has the meaningassigned tothe wordin the Lands Act; “ levy ”meansalevyimposedunderthisAct; “ licence ” has the meaning assigned to the word in the Act No. 3 of BusinessRegulatoryAct,2014; 2014 “ licensing ” has the meaning assigned to the word in the Act No. 3 of BusinessRegulatoryAct,2014; 2014 “localauthority”has themeaningassignedtothewordsin Cap.1 theConstitution; “municipalcouncil”meansamunicipalcouncilestablished underthisAct; Local Government [No. 2 of 2019 27 “municipality”meansadistrictforwhichamunicipalcouncil isestablishedunderthisAct; “officer”inrelationtoacouncil,meansapersonemployed inthepermanentestablishmentofacounciloronprobation; “ permit ” has the meaning assigned to the word in the BusinessRegulatoryAct,2014; Act No. 3 of 2014 “premises”includespassages,buildings,landandsegment ineverytenure; “ principal officer ” means the chief executive officer of a council,includinganypersonforthetimebeingdischarging thefunctionofthechiefexecutiveofficer; “ property ” has the meaning assigned to the word in the Constitution; Cap.1 “ public office ” has the meaning assigned to the words in theConstitution; Cap.1 “publicofficer”hasthemeaningassignedtothewordsin theConstitution; Cap.1 “publicstreet”means— (a) a street entered in a register of streets and roads compiledandmaintainedbyacouncil;and (b) a street which is taken over by a council and designatedasapublicstreet; “repealedAct”meanstheLocalGovernmentAct,1991; Cap.281 “ street ” includes any bridge, road, avenue, lane, sanitary lane,footwayorcausewayandanypavementorfootwalk formingpartthereof; “thepublic”inrelationtomeetingsofacouncilorcommittee, includesrepresentativesofthepress; “towncouncil”meansatowncouncilestablishedunderthis Act; “transferandvesting order”meansastatutoryordermade undersection5; “ Ward ” has the meaning assigned to the word in the Constitution; Cap.1 “ Ward Development Committee ” means a Ward DevelopmentCommitteeestablishedundersection36; “WardDevelopmentExecutiveCommittee”meansaWard Development Executive Committee established under section38; 28 No. 2 of 2019] Local Government “water-course” includes a canal anda canoe channel; “water main” includes conduits, pipelines, valves, valve chambers, meters, meter houses, break pressure tanks, scourchambers,scourpipes,culverts,cuts,bridges,tunnels andallotherthingsnecessaryinconnectionwithanywater main; “waterworks” includes streams, springs, weirs, boreholes, dams, pumping stations, reservoirs, tanks, sluices, machinery,buildings,landsandallotherworksandthings necessary for taking, impounding, discharging, storing, treatingandfilteringwater;and “zone”hasthemeaningassignedtothewords“pollingdistrict” ActNo.35of under theElectoralProcessAct,2016. 2016 PART II ESTABLISHMENTANDCONSTITUTIONOFCOUNCILS Establishment 3. (1) TheMinistermay,bystatutoryorder,establishforany ofcouncils district,acitycouncil,municipalcouncilortowncouncilandthe nameofthecouncilshallincludethenameofthedistrict. (2) Subject to subsection (1), the Minister shall, on the recommendationoftheappropriatecitycouncil,municipalcouncil ortowncouncil,establishamanagementboard. (3) TheMinister,maybystatutoryorder, confer onatown councilestablishedundersubsection(1),thestatusofamunicipal councilandshalldeterminethenameofthatmunicipalcouncil. (4) On and after the date on which a statutory order under thissectionhaseffect,areferenceinanywrittenlaw,contractor otherinstrumentordocumenttothenameofthetowncouncilto which the order relates shall be construed as a reference to the nameofthemunicipalcouncilasdeterminedbytheorder. Cities 4. (1) The President, may by proclamation confer on a municipalcouncilestablishedundersection3thestatusofacity andcitycouncilandshalldeterminethenamebywhichthatcity andcitycouncilshallbeknown. Local Government [No. 2 of 2019 29 (2) Onandafterthedateonwhichaproclamationunderthis sectioncomesintooperation,areferenceinanywrittenlaw,contract orotherinstrumentordocumenttothenameofthemunicipalityor municipal council to which the proclamation relates shall be construedasareferencetothenameofthecityorcitycouncil,as determinedbytheproclamation. 5. (1) The Ministermay,bystatutoryorder,inthisActreferred Changes affecting toas a transfer andvestingorder, make provisionsset out inthe districts Second Schedule for changes that are necessary or appropriate asregardstheconstitution,property,rights,obligationandstaffof, andanyothermatterrelatingto,anycouncilaffectedbyachange initsarea,anynewcounciloranycouncilestablishedforadistrict whichceasestoexist,whereasaconsequenceofastatutoryorder madebythePresidentundertheProvincialandDistrictBoundaries Cap.286 Act— (a)anewdistrictisestablished; (b)thearea of adistrictisaltered; or (c)a districtceases to exist. (2) Where a district ceases to exist, a transfer and vesting order made in respect of the council established for that district shallincludeprovisionforthedisestablishmentofthecouncil. (3) Where the nameof adistrict is changed,thename ofthe councilestablishedforthatdistrictshallbe changedtoconformto thatofthedistrict."
+    },
+    {
+      "number": "6",
+      "heading": "A local authority is a body corporate with perpetual Incorporation",
+      "text": "oflocal successionandacommonseal,capableofsuingand beingsuedin authority its corporate name, and with power, subject to the provisions of thisActandofanyotherwrittenlaw,todoallotheractsandthings that a bodycorporate maydobylawand as are necessaryfor, or incidentalto,thecarryingoutofitsfunctionsandpowerssetoutin thisAct. 7. (1) Subjecttosection3(1)and(2),thecorporatenameofa Corporate councilisthename assignedtothatcouncilinthestatutoryorder nameof council establishingthecouncil. (2) Subject to subsection (1),the Minister may,by statutory order,andafterconsultationwithacouncil,alterthecorporatename ofthatcouncil. 30 No. 2 of 2019] Local Government Seal 8. (1) The seal of the council is a device that may be determinedbythecouncilandkeptbytheprincipalofficer. (2) Subject to section 14, the affixing of the seal shall be authenticatedbythemayorordeputymayororcouncilchairperson ordeputycouncilchairpersonandtheprincipalofficeroranyother personauthorisedinthatbehalfbyaresolutionofthecouncil. (3) Acontractorinstrumentwhich,if enteredintoorexecuted byapersonnotbeingabodycorporate,would notberequiredto beundertheseal,maybeenteredintoorexecutedwithoutsealon behalf of the councilbythe principal officer or anyother person generallyorspecificallyauthorisedinthatbehalfbythecouncil. (4) Adocumentpurportingtobeunderthesealofthecouncil orissuedonbehalfofthecouncilshallbereceivedinevidenceand shallbeconsideredtobesoexecuted,asthecasemaybe,without furtherproof,unless thecontraryisproved. Functionsof 9. (1) Amayororcouncilchairpersonisheadofacouncil. mayor or (2) Thefunctionsofamayororcouncilchairpersonareto— council chairperson (a)oversee the implementation ofthe council decisions or resolutions; (b)presideovercouncilmeetings; (c)attendtocivicandceremonialfunctions;and (d) promote public engagement and participation in local governance. Electionof 10. A deputy mayor or deputy council chairperson shall be deputy elected— mayor or deputy (a)Whenacouncilfirstsitsafter— council (i)ageneralelection;or chairperson andvacancy (ii)thecouncilisestablished;and (b) subject to this Act, at the first ordinary meeting of the councilheldimmediatelyafter— (i) the expiry of the term of two and a half years fromthedateofthelastgeneralelection;or (ii)avacancyoccursintheofficeofthedeputymayor ordeputycouncilchairperson. (2) Theofficeofdeputymayorordeputycouncilchairperson becomes vacant if the— (a) deputy mayor or deputycouncil chairperson resigns by giving notice in writing to the mayor or council chairperson; Local Government [No. 2 of 2019 31 (b)deputymayorordeputycouncilchairpersonceasestobe acouncillorasprovidedintheConstitution;or Cap.1 (c) ward, in respect of which the deputy mayor or deputy council chairperson is councillor, becomes part of anothercouncil. (3) Adeputymayor ordeputycouncilchairperson whoresigns fromofficeisnoteligibleforre-electionasdeputymayorordeputy councilchairpersonforthereamainderofthetermofthatcouncil. (4) where avacancyoccursintheofficeofdeputymayor or deputycouncilchairperson,anelectionshallbeheldinaccordance withsubsection(1)(b)(ii). 11. (1) Subjecttotheotherprovisionsofthissection,adeputy Tenureof mayoror deputycouncilchairpersonshallholdofficeforatermof officeof deputy twoandahalfyearsandmaybere-electedforonefurthertermof mayor or twoand a half years. deputy council (2) Adeputymayor ordeputycouncilchairpersonelectedin chairperson accordancewithsection10(4)shallservefortheunexpiredterm ofthatofficeandisdeemed— (a) to have served a full term as deputy mayor or deputy councilchairpersonif,atthedateonwhichthedeputy mayor or deputycouncil chairpersonassumedoffice, at least one anda half years remainbeforethe date of thenextelectionsfordeputymayorsanddeputycouncil chairpersons;or (b)nottohaveservedafulltermasdeputymayoror deputy councilchairpersonif,atthedateonwhichthedeputy mayor or deputycouncil chairpersonassumedoffice, lessthanoneandahalfyearsremainbeforethedateof thenextelectionsfordeputymayorsanddeputycouncil chairpersons. (3) A deputy mayor or deputy chairperson elected in accordancewithsection10(1) (a)(ii)isdeemed— (a) to have served a full term as deputy mayor or deputy councilchairpersonif,atthedateonwhichthedeputy mayor or deputycouncil chairpersonassumedoffice, at least one anda half years remainbeforethe date of thenextelectionsfordeputymayorsanddeputycouncil chairpersons;or (b)nottohaveservedafulltermasdeputymayoror deputy councilchairpersonif,atthedateonwhichthedeputy mayor or deputycouncil chairpersonassumedoffice, lessthanoneandahalfyearsremainbeforethedateof thenextelectionsfordeputymayorsanddeputycouncil chairpersons. 32 No. 2 of 2019] Local Government Oaths 12. A councillor shall, before assuming office take and subscribe an oath before a Magistrate on the form set out in the OfficialOathsAct. Dischargeof 13. The functions of the office of the mayor or council functionsof chairpersonofacouncilshall,whenevertheofficeofthemayoror mayor or councilchairpersonofacouncilisvacantorthemayororcouncil council chairperson chairpersonisabsentorisforanyothercausepreventedfrom,or during incapableof,carryingoutthefunctionsofoffice,becarriedout— vacancyor absence (a)bythedeputymayorordeputycouncilchairpersonofthe council;or (b) in the absence of the deputy mayor or deputy council chairperson,byacouncillorelectedbythecouncil. Validityof 14. The validity of any functions carried out by a person discharge purportingtoholdordischargethefunctionsoftheofficeofmayor, of deputymayor,councilchairpersonordeputycouncilchairpersonof functions a council shall not be affected by any defect in appointment by reasonthatthepersonwasnotqualifiedtodoso. Meetings 15. TheThirdScheduleapplies tomeetings andproceedings and ofacouncil. proceedings ofcouncil PART III FUNCTIONS Functionsof 16. (1) A local authority shall discharge functions conferred local on it by thisAct within the area of that local authority, and may, authority withthe approval of the Minister discharge that functionoutside theareaofthatlocalauthority. Cap.1 (2) Without prejudice to the Constitution, the functions of a localauthoritywithinan areaareassetoutintheFirstSchedule. 17. (1) Whenever bythisAct a power is conferredon a local General authoritytoestablishandmaintainanundertaking,serviceorfacility, provision thelocalauthoritymay— with respect todischarge (a)controltheundertaking,serviceorfacilityandregulateits offunctions usebythepublicoranyclassofthepublic; (b)joinwiththeGovernment,anotherlocalauthorityor,with theapprovaloftheMinister,anyotherpersonorauthority inestablishingandmaintainingtheundertaking,service orfacility;or (c)abolishordiscontinuetheundertaking,serviceorfacility. Local Government [No. 2 of 2019 33 (2) Alocalauthorityshalldischargeafunctionconferredonit bythisAct,subjecttoanyotherwrittenlawrelatingtothedischarge ofthatfunctionbythelocalauthority."
+    },
+    {
+      "number": "18",
+      "heading": "SubjecttotheConstitution,theMinistermay,bystatutory Powerof",
+      "text": "order,conferonalocalauthoritypowernototherwiseconferredon Minister to confer thelocalauthoritybythisActoranyotherwrittenlaw,whichthe additional functionson Ministerconsidersnecessaryintheinterestsorforthewellbeing local of the inhabitants in, or for the good rule and governance of, the authority Cap.1 areaofthatlocalauthority. 19. (1) A local authority may enter into contracts necessary Contracts forthedischargeofanyofthelocalauthority’sfunctions. (2) A contract made by a local authority shall be made in accordancewiththestandingordersofthelocalauthority,thisAct or any other written law and, in the case of contracts for the executionofworksorthesupplyofgoodsormaterials,thestanding ordersshall— (a)requirethat,exceptasotherwiseprovidedbyorunderthe standing orders, a notice of the intention of the local authoritytoenterintothecontractshallbepublishedand tendersinvited;and (b)regulatethemannerinwhichthatnoticeshallbepublished andtendersinvited. (3) Apersonwhoentersintoacontractwithalocalauthority is not bound to inquire whether the standing orders of the local authoritywhichapplytothecontracthavebeencompliedwith,and thecontractenteredintobyalocalauthority,ifotherwisevalid,has effect despite the standing orders applicable to that contract not havingbeencompliedwith. 20. (1) Subject to the provisions of thisAct, a local authority Standing may, with the approval of the Minister, make standing orders for orders regulatingthe— (a)proceedingsandbusinessforpreservingorder,atmeetings ofthecouncil,acommitteeorasubcommittee;and (b)enteringintocontractsbythelocalauthority. (2) A contract entered into by a local authority shall be in conformitywiththePublicProcurementAct,2008,andanyother Act No. 12 writtenlaw. of 2008 34 No. 2 of 2019] Local Government (3) Thestandingordersunderthissectionmayprovideforthe exclusionofacouncillorormemberofacommitteeorsubcommittee fromameetingofthecouncil,committeeorsubcommittee— (a)ifit isnecessaryforpreservingorder atthemeeting;or (b)whilstanycontract,proposedcontractorothermatterin whichthecouncillorormemberhasadirectorindirect pecuniaryinterestisunderconsideration. Acquisition 21. (1) A local authority may acquire land by agreement ofland whetherbywayofpurchase,lease,exchangeor gift. (2) Where the acquisition by a local authority of land under the powers conferred under subsection (1) is being hindered by reason of the inability of the parties to agree on the terms of the acquisitionoranyothercause,thePresidentmay,onanapplication bythelocalauthorityandonbeingsatisfiedthatthelandislandto Cap.189 whichtheLandsAcquisitionActappliesandthatitsacquisitionby thelocalauthorityisnecessaryorexpedientacquireland— (a)intheinterestofpublicsafety,publicorder,publicmorality, publichealthorurbanandregionalplanning;or (b)inordertosecurethedevelopmentorutilisationofthator otherlandforapurposebeneficialtotheinhabitantsof theareaofthelocalauthority. (3) Allexpensesandcompensationincurredasaresultofthe acquisitionshallbepaidbythelocalauthority intotheConsolidated Fundand,onpaymentbeingmade,theestateofanylandsoacquired bythePresidentshallbetransferredtothelocalauthority. Acceptance 22. (1) SubjecttotheAnti-CorruptionAct,2012,alocalauthority ofgiftsof mayaccept,holdandadministeranygiftofpropertyforanylocal property publicpurpose,orforthebenefitoftheinhabitantsoftheareaor ActNo.3of 2012 any part of the area of the local authority, and may execute any works,includingworksofmaintenanceorimprovement,incidental totheexerciseofthepowersconferredbythissection. (2) Wherethepurposesofthegiftarepurposesforwhichthe localauthorityisempoweredtoexpendmoneyraisedfromarate, the local authority may, subject to any condition or restriction attachingtotheexerciseofthatpowerdefrayexpenditureincurred in the exercise of the powers conferred by subsection (1) out of moniessoraised. Local Government [No. 2 of 2019 35 Disposal of 23. (1) Subjecttosubsection(3),alocalauthoritymaysell,let property orotherwisedisposeofanypropertybelongingtothelocalauthority. (2) Wherethelocalauthorityintendstosellpropertybelonging tothelocalauthority,thelocalauthorityshall,beforethesale,cause avaluationofthelandorbuildingtobecarriedoutbytheDepartment responsibleforvaluationorbyaValuationSurveyorapprovedby theMinister. (3) Alocalauthorityshallnotsellorletforaperiodoffourteen yearsormore,orotherwisedisposeof,anypropertybelongingto thelocalauthority,exceptwiththepriorapprovaloftheMinister. Grants and 24. (1) Alocalauthoritymay,withtheapprovaloftheMinister, loans by makegrantsorloansofmoney— local authority (a) towards the establishment or maintenance of the institutions,notbeingofaprivatecharacter,namely— (i)hospitals,libraries,artgalleries,museums,parks, recreation facilities and musical or scientific institutions; (ii)highereducationinstitutionsand schools; (iii)institutionsprovidingaccommodationfortheaged, destitute,infirm,orfororphans;or (iv) other institutions that the local authority may determine; (b)topersonsforeducationalpurposes;or (c)toofficersoremployeesofthelocalauthorityforapurpose thattheMinistermaydetermine. (2) Alocalauthority may,withtheapprovaloftheMinister, makeagrantofmoneytoanyassociationoflocalauthoritiesformed for the purposes of consultations as to the common interest of thoselocalauthorities. Cap.1 (3) SubjecttotheConstitution,alocalauthoritymay,withthe approvaloftheMinister,provideloansormonies— (a)toanotherlocalauthority;or (b) to a person or authority for the construction, purchase and maintenance of buildings for use as dwellings or clubsand,whereitisinthepublicinterest,forbusiness orprofessionalpurposes. 36 No. 2 of 2019] Local Government Imposition 25. (1) SubjecttotheConstitutionandtheBusinessRegulatory oflevies Act,2014,alocalauthoritymaymakeby-lawstoimposealevyon— Cap.1 ActNo.3of (a)leviablepersonsowningoroccupyingpropertyorpremises 2014 situatedwithintheareaofthelocalauthority; (b) leviable persons carrying on a business, trade or occupationwithintheareaofthelocalauthority;or (c) the purchase or sale of a commodity within the area of thelocalauthority. (2) By-lawsimposingalevymaymake— (a) different provision with respect to different classes of property or premises, different classes of businesses, trade or occupations and different classes of commodities;and (b)providefor— (i)the manner and times at which and the persons bywhomalevyispayableandcollected; (ii)exemptionsfromalevy;or (iii)suspensionofalevy,inwholeorinpart. (3) Theproceedsofalevyaccruetothelocalauthority. (4) Theamountof anylevywhichis not paidisrecoverable bythelocalauthorityasacivildebt. (5) Inthissection,“leviableperson”means— (a)a person whoiseighteen years or above;and (b)abodyofpersons,corporateorunincorporate. Procedures 26. A proposed by law or council resolution introducing a andcriteria licencepermitorcertificateunderthisAct,shallbesubjecttothe forlicensing licensing procedure and criteria under the Business Regulatory Act No. 3 of Act,2014. 2014 Imposition 27. (1) SubjecttotheBusinessRegulatoryAct,2014,alocal ofotherfees authoritymayimposefeesorchargespayable tothelocalauthority— andcharges ActNo.3 (a)foralicenceorpermitissuedunderanyregulationorby- of2014 lawmadeunderthisAct; (b)foraserviceorfacilityprovidedorgoodsordocuments supplied by the local authority in pursuance of or in connectionwiththeperformanceofanyfunctionofthe localauthority. Local Government [No. 2 of 2019 37 (2) Subjecttosubsection(3),fees andchargesimposedbya localauthority undersubsection(1)shallberegulatedbyby-laws or,ifnotsoregulated,maybeimposedbyresolutionofthecouncil. (3) Alocalauthorityshallnotimposeanyfees orcharges in respectofownersratesandpersonallevy withoutthepriorapproval oftheMinister."
+    },
+    {
+      "number": "28",
+      "heading": "Acouncillorshallbepaidallowancesasdeterminedbythe Allowances",
+      "text": "EmolumentsCommission. 29. (1) Acitycouncil,municipalcouncilortown councilmay Alderman appointtothedignityofaldermananypersonwhohasheldoffice asacouncillorofthatcouncilforaperiodorperiodsamountingin the aggregate to not less than ten years. (2) Ifacitycouncil,municipalcouncilortown councilconsiders thatapersonappointedtothedignityofaldermanhas subsequently ceasedtobeworthyofthedignity,thecitycouncil,municipalcouncil ortown councilshall revoketheappointment. (3) Where the number of persons who are appointed as aldermenequalsorexceedsonethirdofthecouncillors,nofurther appointmentofaldermenmaybemade. (4) Analdermanisentitledwhether or not the aldermanis a councillor,toretainthetitleofalderman. (5) Apersonwhoimmediatelybeforethecoming intooperation ofthisAct,wasanaldermanofacitycouncilormunicipalcouncil shallbedeemedtohavebeenappointedtothatdignityunderthis Act. (6) Analdermanmayattendameetingofthecouncil. 30. (1) Acitycouncil,municipalcouncilortown councilmay Freeman admittothestatusofhonoraryfreemanofthecity,municipalityor town apersonofdistinctionwhohasrenderedeminentservicesto thecityormunicipality. (2) Subjecttosubsection(4),ifacitycouncil,municipalcouncil ortown councilconsidersthatapersonadmittedtothe statusof honoraryfreemanofthecity,municipalityortownhassubsequently ceasedtobeworthyofthestatus,thecitycouncil,municipalcouncil or town council shall annul the admission of the person to that status. 38 No. 2 of 2019] Local Government (3) The power of admittingor annulling the admission of a persontothestatusofhonoraryfreemanofacity,municipalityor townshallnotbeexercisedexceptbyresolutionofthecitycouncil, municipal council or towncouncil supported bythe votes of not lessthantwo-thirdsofthecouncillors. (4) Theprincipalofficerofacitycouncil,municipalcouncilor town council shallkeepalist,tobestyledthehonoraryfreemen’s roll,inwhichthenamesofpersonsadmittedtothestatusofhonorary freemanof thecity, municipalityor townareinscribedandfrom whichshallberemovedthenameofanypersonwhoseadmission tothatstatushasbeenannulled. PART IV FUNCTIONSOFTHENATIONALGOVERNMENT INRELATIONTOLOCAL GOVERNMENT Functionsof 31. TheNationalGovernmentshall,inrelationtothepowers National andfunctionsofalocalauthority conferredbythisAct— Government (a)facilitatetheexerciseofthosepowersandthedischarge ofthosefunctionsinamannerthatgivesduerecognition totheautonomyoflocalauthority; (b) formulate national policies, regulatory frameworks, guidelinesandservicedeliveryminimumstandardsfor thelocal governmentsystem; (c)ensurecompliancewithnationalpolicies,guidelinesand standards; (d)developpoliciesandprovideforregulatoryframework; (e)providethenecessarytechnicalsupportor assistanceto localauthority forthedevelopmentofrespectivesectors inthedistrictswithintheareaofalocalauthority; (f) assist in the implementation of resolutions of the local authority relating to the national government’s developmentagenda; (g) recognise and enhance the role of local government authoritiesintheprovisionofservicesandsupervision ofnational governmentdevelopmentactivitieswithin areas; (h)financelocalauthority inordertoexecutetheirdevolved functions; Local Government [No. 2 of 2019 39 (i)inspect and audit the books of accounts, records, any otherrelevantdocuments,andtheservicesandgoods providedbylocalauthority; (j)collect,consolidate,analyseanddisseminatedatafroma local authority to facilitate decision making at both national and local level, as well as to improve transparencyandaccountability;and (k)providemechanismswherenecessary,forconsultations betweennationalgovernmentandlocalauthority."
+    },
+    {
+      "number": "32",
+      "heading": "AProvincialMinistershall,inrelationtothepowersand Functionsat",
+      "text": "functions of a local authority, monitor the performance of the provincial level functionsattheprovinciallevelforthepurposesofensuringthe implementation of the concurrent functions of the Province and exclusivefunctionsofthelocalauthorities."
+    },
+    {
+      "number": "33",
+      "heading": "SubjecttotheConstitution,aMinistryshallforthepurpose Technical",
+      "text": "ofensuringimplementationofnationalpoliciesandadherenceto support Cap.1 performance standards on the part of a local authority, provide technical advice, support and training within that Ministry’s respective sector. 34. (1) TheMinistershall,inconsultationwiththeProvincial Guidanceby Minister to Minister,ifsatisfiedonreceiptofareportonalocalauthority,that local a function of a local authority is being exercised improperly or authority inefficientlymanner,causeameetingofthe counciltobecalled and point out the irregularities and give the local authority the necessary guidance, and the Provincial Minister shall, in consultationwiththeMinister,monitortheimplementationofthat guidancewithintheProvince. (2) The Minister shall, in consultation with the Provincial Minister,wheretheMinisterconsidersthatthematterisofagrave nature, institute an ad hoc committee to investigate the matter andprepareareportwithrecommendationsonappropriateactions tobe taken. 35. (1) AlocalauthorityshallontherequestoftheMinister, Local authority to furnish information necessary for the performance of the furnish Minister’sfunctionsunderthisAct. Minister with (2) The informationunder subsection (1) shallbe copied to information theProvincialMinisterwhereappropriate. 40 No. 2 of 2019] Local Government PART V WARDDEVELOPMENT COMMITTEES Establishment 36. (1) ThereisestablishedineachwardaWardDevelopment of Ward Committeeintheareaofalocalauthorityconsistingofthefollowing Development Committee part time members appointed by the Town Clerk or Council Secretary: (a)anelectedzonal representativefromeachzone; (b)anextensionofficerfromthedepartmentresponsiblefor agriculture,fisheriesand livestockoreconomicsectors appointedbasedontheeconomicactivity predominant inthewardasdeterminedbythelocalauthority; (c)anextensionofficerfromthedepartmentresponsiblefor education; (d)anextensionofficerfromthedepartmentresponsiblefor health; (e)anextensionofficerfromthedepartmentresponsiblefor communitydevelopment; (f) arepresentativefromalocalnongovernmentalorganisation inaward; (g)arepresentativeoftheZambiaAgencyforPersonswith Disabilities; (h)arepresentativefromamarginalisedgroup; (i) arepresentativeoftheChief inthe ward; (j)WardCouncillor; (k)atrusteefromthelocalauthority; (l) ayouth,sportsandrecreationfocalpointperson;and (m)agenderfocalpointperson. (2) The members under subsection (1) (b), (c), (d) (e), (k),(l)and(m)shallbeappointedasex-officiomembers. (3) The members under subsection (1) (b),(e), (f), (g), (h), (i),(j)and(l)shallbenominatedbytheirrespectiveinstitutionsor organisations. (4) AWardDevelopment Committee mayinvitea person to attendandparticipateinthedeliberationofameetingoftheWard DevelopmentCommitteebutthatpersonshallhavenovote. Local Government [No. 2 of 2019 41 (5) The local authority is responsible for conducting zonal electionsinitsareaandshall— (a)setthedateandtimeofelectionsinthedistrict;and (b)carryoutregistrationofvotersinthezone. (6) TheMinistershallissueguidelinesonthe— (a) establishment, management, and operation of a Ward DevelopmentCommittee;and (b)conductingofzonalelections. (7) The Town Clerk or Council Secretary is responsible for theestablishmentofWardDevelopmentCommitteesintheareaof alocalauthority. (8) The Fourth Schedule applies to a Ward Development Committee."
+    },
+    {
+      "number": "37",
+      "heading": "ThefunctionsofaWardDevelopmentCommitteeareto— Functionsof",
+      "text": "Ward (a)prepareannualwarddevelopmentplans; Development Committee (b) collect revenue, levies and fees on behalf of a local authorityonappointmentbyresolutionofthecouncil; (c)monitorandevaluatewarddevelopmentprojects; (d) promote community engagement in ward development planning; (e)formulateandsubmitprojectlistandbudgetproposalsto the Constituency Development Fund Committee establishedundertheConstituencyDevelopmentFund Act,2018; Act No. 11 of2018 (f) supportresearchonanareaofstudyfortheadvancement ofthelocalcommunity; (g)facilitatetheidentificationofpotentialareasofinvestment andpromotesustainablelocaleconomicdevelopment; (h)promoteandparticipateinthecomanagementofnatural andtrans-boundaryresourcesbetweenoramongwards; (i)provide a forum for dialogue and coordination on ward developmentissues; (j)identifyareasforcapacitybuildingwithintheward; (k) promote and encourage village regrouping and urban renewalactivities; 42 No. 2 of 2019] Local Government (l)identify in the ward, and submit to the local authority, potentialareasofrevenue sourceslikelytobroadenthe revenuebaseofthelocalauthority; (m)prudentlymanageresourcesallocatedtothewardbythe localauthorityinlinewithprinciplesofpublicfinancial management; (n) manage and keep a record of resources allocated to the WardDevelopmentCommittee; (o)preparequarterlyreportsondevelopmentalactivitieswithin the ward to the appropriate committee of the local authority;and (p) develop and maintain a ward based database as guided bythelocalauthority. Ward 38. (1) There is established a Ward Development Executive Development Committee elected from among the Members of the Ward Executive Committee Development Committee consisting of the following part time members: (a) a Chairperson, who shall be elected from among the electedmembersfromzones; (b)theViceChairpersonwhoshallbeelectedbythemembers fromamongthemselves; (c) secretary; (d) treasurer; and (e)four committee members. (2) AWardDevelopmentExecutiveCommitteeshallperform theexecutivefunctionsofaWardDevelopmentCommittee. Dissolution 39. (1) Alocal authoritymay dissolve a Ward Development ofWard Committeeon— Development Committee (a)theexpiryofitstenureofoffice; (b)aresolutionofthecouncil; (c)theresignationofmorethanonethirdofitsmembers;and (d)avoteofnoconfidencecastbytwothirdsofthemembers of the ward. (2) A local authority may, subject to the approval of the Minister,suspendordissolveaWardDevelopmentCommittee. Local Government [No. 2 of 2019 43 PART VI FINANCE"
+    },
+    {
+      "number": "40",
+      "heading": "Thefinancialyearofalocalauthorityshallbetheperiod Financial",
+      "text": "oftwelvemonthsendingon31stDecemberineachyear. year"
+    },
+    {
+      "number": "41",
+      "heading": "A local authority shall cause to be prepared an annual Budget",
+      "text": "budgetinaccordancewiththeNationalPlanningandBudgetAct, ActNo. of 2018. 2018"
+    },
+    {
+      "number": "42",
+      "heading": "Subject to the Constitution and the Public Finance Generaland",
+      "text": "ManagementAct,2018,theMinisterresponsibleforfinance,may specialfunds Cap.1 inconsultationwithalocalauthority,makeregulationsforthe— ActNo.1of (a) administration and management of a general or special 2018 fund; (b)activitiesthatthosefundsshallfinanceandthemannerof financing;and (c) any other matter necessary for the efficient operation, administrationandmanagementofthefunds. 43. (1) Alocalauthorityshallopenandmaintainabankaccount. Bank accounts (2) Inthissection,“bankaccount”hasthemeaningassigned tothewordsinthePublicFinanceManagementAct,2018. ActNo.1of 2018 44. (1) Alocalauthorityshallcause tobekept properbooks Accounts ofaccountsandotherrecordsrelatingtotheaccountsofthelocal authority. (2) Theaccountsofthelocalauthorityshallbeauditedannually by the Auditor-General or an auditor appointed by the Auditor- General. (3) The accounts of a local authority , shall be open for inspectionbymembersofthepublicduringnormalofficehourson the payment ofa prescribedfee. 45. (1) Assoonaspracticable,butnotlaterthanthreemonths Annual afterthefinancialyear,alocalauthorityshallsubmittotheMinister Report a report concerningthe activities of a local authority duringthe financialyear. (2) The report referred to in subsection (1) shall include informationonthefinancialaffairsofalocalauthorityandthere shallbeappendedtothatreport— (a)anauditedstatementoffinancialposition; (b)anauditedstatementofcomprehensiveincome;and (c)otherinformationthattheMinistermayrequire. 44 No. 2 of 2019] Local Government (3) TheMinistershall,notlaterthansevendaysafterthefirst sitting of the NationalAssembly next after receipt of the report referred to in subsection (1), lay the report before the National Assembly. (4) Theauditors’feesshallbepaidbyalocalauthority. Investmentof 46. Subject to the Public Finance ManagementAct, 2018, a funds localauthoritymay,withtheapprovaloftheMinisterresponsible Act No. 1 of 2018 for finance invest the funds of a local authority that it does not immediatelyrequire. Administration 47. (1) The Minister responsible for finance may, in of consultationwiththeMinister,makeregulationsforthe— Equalisation Fund (a)administrationandmanagementoftheEqualisationFund; (b)theactivitiesthattheFundshallfinanceandthemanner offinancingactivities;and (c) any other matter necessary for the efficient operation, administration and management of the Equalisation Fund. (2) A local authorityshall use at least twentypercent of the fundsreceivedbyalocalauthorityfromtheEqualisationFund,in anyfinancialyear,tofinancecapitalexpenditure. (3) A balance in the Equalisation Fund at the close of each financialyearshallberetainedbytheEqualisationFundandany deficiencyrealisedinanyyearshall,subjecttotheapprovalofthe Minister responsible for finance, be offset against the realised surplus. (4) TheMinistershallcauseanannualreporttobeprepared on the operations of the Equalisation Fund and laid before the NationalAssembly. (5) Despite the establishment of the Equalisation Fund, the Minister responsible for finance shall, in consultation with the Minister,makeadditionalfundsand grantstoalocalauthorityfor anyadditionalfunctionsthatmaybedevolvedtoalocalauthority. Local Government [No. 2 of 2019 45"
+    },
+    {
+      "number": "48",
+      "heading": "Subject tothe Public Finance ManagementAct,2018,a",
+      "text": "Authority to localauthoritymayborrowsumsofmoneythatitmayrequirefor borrowand modesof thepurposeofcarryingoutitsfunctionsbywayof— borrowing ActNo.1of (a)aloanundersection24; 2018 (b)theissueofstockorbonds; (c) a mortgage; (d)atemporaryloanoroverdraftfromabankorothersource; or (e)a loanfromanyothersource."
+    },
+    {
+      "number": "49",
+      "heading": "Despite section 48, a local authority shall not borrow Authority",
+      "text": "moneyorreceiveanymoneybywayofagrantordonationfroma forborrowing and receipt sourceoutsidetheRepublicwithoutpriorapprovaloftheMinister. offund 50. (1) Moniesborrowedbyalocalauthority shallbeacharge Securityfor on the general fundof the local authority andall securities of a borrowing andpriorities localauthority shallrankinaccordancewiththeprovisionsofthe ofsecurities ActNo.13 MovableProperty(SecurityInterest)Act,2016oranyotherwritten of2016 law. (2) Theinterestsforthetimebeingpayableinrespectofany moniesborrowedbyalocalauthority isa chargeonthegeneral fundofalocalauthority."
+    },
+    {
+      "number": "51",
+      "heading": "Whereasumofmoneyisborrowedbyalocalauthority, Suspension",
+      "text": "of thatlocalauthority may,subjecttotheconsentofalender,suspend repayment anannualprovisionfortherepaymentofthesumsoborrowedfor of sums borrowed aperiodnotexceedingfiveyearsastheMinistermaydetermine."
+    },
+    {
+      "number": "52",
+      "heading": "Apersonlendingmoneytoa localauthorityshallnotbe Lenders",
+      "text": "boundto inquire whether theborrowingof the money is or was relievedfrom certain legalorregular,orwhetherthemoneyraisedwasproperlyapplied, inquiries andshallnotbeprejudicedbyanillegalityorirregularityinthese mattersorbythemisapplicationofthatmoney. PART VII CIVICDUTIESANDRESPONSIBILITIES"
+    },
+    {
+      "number": "53",
+      "heading": "Acouncillorshallperformcivicdutiesandresponsibilities Civicduties",
+      "text": "and withdignityandintegrityinaccordancewiththecodeofethicsset responsibilities outintheFifthSchedule. 46 No. 2 of 2019] Local Government Constitution 54. TheChiefJusticeshall,wherearecommendationismade of Tribunal for a councillor to vacate office, constitute an ad hoc Local GovernmentCodeofEthicsTribunal."
+    },
+    {
+      "number": "55",
+      "heading": "A councillor shall submit to a Magistrate in the area a",
+      "text": "Declarationof assets declarationofassets,liabilitiesandincome,asprescribed. Suspensionof 56. The Minister may, by reason of the refusal, failure or Councilors inabilityofacounciltoadequatelyperformalloranyofitsfunctions, bystatutoryorder— (a) appoint a public officer to be the Local Government Administratorforthatcouncil;and (b)suspendallcouncillorsofthecouncilfromperformingall oftheirfunctionsascouncillorsandempowertheLocal GovernmentAdministratortodischargeallthefunctions ofthecouncil. (2) Any functions of the council discharged by a Local GovernmentAdministratorundersubsection(1)shallbedeemed to have been discharged by the council in accordance with this Act. (3) TheLocalGovernmentAdministratorshallrelinquishoffice ontheliftingofthesuspension. Revocationof 57. (1) AnordermadebytheMinisterundersection56shall, appointment unlessrevoked,expireafterninetydaysofthedateofmakingthe order Cap.1 order, except that the Minister may, in the interest of local administration,extendtheorderforfurtherperiodsofninetydays at atime. (2) WheretheMinisterrevokestheorderappointingtheLocal GovernmentAdministrator made under section 56, of the Local GovernmentAdministratorshallceasetoperformthefunctionsof thecouncil,andthefunctionsshallbevestedandperformedbythe councilthatisconstitutedunderArticle153(2)oftheConstitution. PART VIII BY-LAWSANDREGULATIONS Power to 58. (1) Alocalauthoritymay,subjecttotheConstitutionand make by- thisAct,makeby-laws. laws Cap.1 Local Government [No. 2 of 2019 47 (2) Withoutlimitingthegeneralityofsubsection(1)thecouncil maymake by-laws for— (a)controllinganyofthethingswhich,andanyofthepersons whom,itisempoweredbyorunderthisActtocontrol; (b)prohibitinganyofthethingswhichitisempoweredbyor underthisActtoprohibit; (c) requiring or compelling the doing of any of the things whichitisempoweredbyorunderthisActtorequire orcompel; (d) providing for the issue or supply of licences, permits, certificatesandotherinstrumentsanddocuments; (e) require acts or things to be performed or done to the satisfactionofanofficer oragentofthelocalauthority andmayempoweranofficeroragentofthecouncilto issuedirectionstoanypersonrequiringactsorthings to be performed or done, imposing conditions and prescribingperiodsanddateson,withinorbeforewhich actsorthingsaretobeperformedordoneorconditions arefulfilled;and (f) confer on the officers and agents of the local authority powers of entry, inspection, inquiryand execution of works that are reasonably necessary for the proper carryingoutorenforcement ofthepowers."
+    },
+    {
+      "number": "59",
+      "heading": "Aby-lawmadebyalocalauthorityunderthisActshallbe Language of",
+      "text": "intheEnglishlanguageexceptthatnothinginthissectionshallbe by-laws construed as precluding the use of another language as well as English to bring the content of any such by-law to the notice of anyperson concerned. 60. (1) Despitesection56,abylawmadebyalocalauthority Penalties under thisAct may prescribe penalties for any contravention of thatby-law,notexceeding (a)afineoffiftythousandpenaltyunitsorimprisonmentfor atermnotexceeding sixmonths,ortoboth;and (b)inthe caseofacontinuingcontraventionofa by-law,a fineofsixthousandpenaltyunitsforeachdaythatthe contraventioncontinues. 48 No. 2 of 2019] Local Government (2) A by-law made by a local authority under this Act may providethatinadditionto,orinsubstitutionforanypenaltyprescribed foracontraventionofthatby-law,anyexpensesincurredbyalocal authorityinconsequenceofthatcontraventionorintheexecution ofanyworkdirectedbyorunderthatby-lawtobeexecutedbyany personandnotexecutedbythatperson,shallbepaidbythatperson. (3) Whereapersonisconvictedofcontraveningacondition ofalicenceorpermitissuedunderthisAct,thecourtwhichconvicts thatperson may,inadditiontoorinsubstitutionfor,anypenalty prescribedforacontraventionofaby-laworregulation,revokethe licenceorpermitinrespectofwhichthatoffencewascommitted. (4) Subject to the written consent of the Director of Public Prosecutions and where a local authority is satisfied after an investigation, or where a person admits that that person has committed an offence under this Act, a local authority may compoundtheofffencebycollectingfromthatpersonsuchsumof moneyasthetownclerkorCouncilsecretaryconsidersappropriate, butnotexceedingfiftypercentofthemaximumamountofthefine towhichthatpersonwouldhavebeenliableonconviction,anda personhavingmadesuchpaymentshallnotbethereafterprosecuted inrelationtotheoffencesocompounded. Noticeof 61. (1) A local authority shall, at least thirty days before an by-laws and applicationismadetotheMinisterforapprovalofaby-law,publish objection a copyof the by-lawinanewspaperof generalcirculationinthe thereto areaofthelocalauthorityandinanyothermannerthattheMinister mayapproveanddeposit acopyat theoffice ofalocal authority forinspectionbymembersofthepublicduringnormalofficehours onpayment of aprescribedfee. (2) Theprincipalofficerofalocalauthorityshall,atleastthirty daysbeforeapplicationismadeforapprovalofaby-law,givepublic noticeof— (a)theintentiontoapplyforconfirmationoftheby-law; (b)thedepositoftheby-lawrequiredbythissectionandthe righttoinspectthatby-law;and (c)theprocedureforlodgingobjectionstotheby-law. (3) A personmay,atanytimebeforeapplicationismadefor confirmationoftheby-law,lodgeanobjectionwiththeprincipal officerofalocalauthorityintheprescribedmannerandformon payment of a prescribed fee. (4) Theprincipalofficerofalocalauthorityshall,onreceiptof anobjection,furnishtheMinisterwithacopyoftheobjection. Local Government [No. 2 of 2019 49 62. (1) Aby-lawmadebyalocalauthorityunderthisActshall Confirmation nothavetheforceoflawbeforeithasbeenapprovedbytheMinister. of by-laws (2) An application by a local authority for the approval of a by-lawbytheMinistershallbeaccompaniedby— (a)threeauthenticatedcopies ofthebylaw; (b)anauthenticatedcopyoftheminutesofthemeetingofa localauthorityatwhichthebylawwasmade; (c) a certificate, signed bythe principal officer of the local authority, that the provisions of section 61 have been compliedwith; (d)thecommentsofalocalauthorityonany objectionslodged; and (e) submissions received from the Ward Development Committeeonthebylaw. (3) The Minster shall,after consideringthe applicationbya localauthority— (a)approve thebylaw; (b)refuse toapprovethe bylaw; or (c) approve the by law in part, with the necessary modifications. 63. (1) SubjecttotheConstitution,theMinistermay,subject Powerof totheprovisionsofthissection,bystatutoryorder,amendorrevoke Minister to amendor anyby-lawbyalocalauthorityunderthisAct. revokeby- laws (2) TheMinistershall,beforeexercisingthepowersconferred Cap.1 bysubsection (1),give a local authorityreasonable notice of the Minister’sintentionandshallaffordalocalauthorityanopportunity tomakerepresentationstotheMinisterontheby-law. 64. (1) The Minister may, by statutory instrument, make Power to regulations for anypurpose for which, and tothe same extent to make which,alocalauthorityisempoweredbyorunderthisActtomake regulations by-lawsorStandingorders. (2) Regulationsmadeundersubsection(1)shallhavetheforce of law only in the areas to which they are applied and, if any regulations so applied to any area are amended or revoked by subsequentregulationsmadeundersubsection(1),thesubsequent regulations shall have the force of law in that area only to the extentthattheyareapplied inaccordancewiththisAct. 50 No. 2 of 2019] Local Government Application 65. The Minister may, by statutory order, after consultation of withalocalauthority— regulations (a)applyalloranyregulationsmadeundersection65tothe wholeoranypartoftheareaofthelocalauthority;or (b)withdrawtheapplicationofany regulationssoapplied. Regulations 66. In so far as regulations made under section 64 which toprevail applyintheareaofalocalauthorityconflictwithorderogatefrom over by- theprovisionsofanyby-lawsorstandingordersmadebyalocal lawsor Standing authorityunderthisAct,theregulationsshallprevail. orders Referencein 67. Areferenceinanyotherlawtoby-lawsorstandingorders other laws madebyalocalauthorityunderthisActshall,unlessthecontext otherwise requires, be construed as including a reference to regulations made under section 65 which apply in the area of a localauthority. PART IX GENERALPROVISIONS Provincial 68. (1) The CivilServiceCommissionshall appointforeach Local province a Provincial Local Government Officer who shall be a Government publicofficer. Officer (2) AProvincialLocalGovernmentOfficershall,withinthe province for which the Provincial Local Government Officer is appointed— (a)performfunctionsthattheMinister,under theStatutory Functions Act and this Act may delegate to the ProvincialLocalGovernmentOfficer;and (b) perform other functions that may be conferred on the Provincial Local Government Officer or under any writtenlaw. 69. (1) Apersoncommits anoffence if that person— General offences (a)wilfullyobstructsanyofficer,employeeoragentofalocal authorityinthedischargeoftheperson’sfunctions; (b)beingthe occupier of anypremises,prevents the owner of that premises from executing any work which is required by or under this Act to be executed, or otherwise prevents the owner of that premises from complyingwithanyofthelawfulrequirementsofalocal authorityorofanofficer,employeeoragentofalocal authority;or Local Government [No. 2 of 2019 51 (c)beingtheoccupierofanypremises,ondemandmadeby anofficer,employeeoragentofalocalauthority,refuses or wilfully misstates the name of the owner of that premises. (2) Apersonconvictedofanoffenceundersubsection(1),is liable to a fine not exceeding fifty thousand penalty units or to imprisonmentforatermnotexceedingsixmonths,ortoboth. 70. (1) Where, by or under this Act, it is provided that a Inspection documentisopentotheinspectionbyanypersonorclassofpersons, of documents thatpersonorclassofpersonsmayinspectormakeacopyofthe document onpayment ofa prescribedfee. (2) Adocumentmaybeopenforinspectionbyanypersonor classofpersonsduringthenormalofficehoursofthelocalauthority."
+    },
+    {
+      "number": "71",
+      "heading": "Apublicnoticerequiredtobemadebya localauthorityor Publicnotice",
+      "text": "byanofficerofalocalauthorityshallbe madebypublicationof thenoticeinanewspaperofgeneralcirculationintheareaofthe localauthorityorinanyothermannerthattheMinistermayapprove."
+    },
+    {
+      "number": "72",
+      "heading": "DespitethisActoranyotherwrittenlaw,adocumentmay Serviceof",
+      "text": "documents beservedonalocalauthorityby— (a)personallyservingaprincipalofficerofthelocalauthority oranyotherpersonempoweredbytheprincipalofficer toacceptserviceonbehalfofthelocalauthority;or (b) delivery of the document to the registered office of the localauthority. (2) Whereserviceinthemannerspecifiedinsubsection(1)is notpossible,adocumentmaybeservedonthelocalauthorityby registeredorelectronicmail. 73. (1) SubjecttotheNationalProsecutionAuthorityAct,2010, Legal a local authoritymayinstitute criminal proceedings against any proceedings ActNo.34 personallegedtohavecontravenedthisActoraby-lawofalocal of2010 authoritybeforeacourtinrespectofacontraventionofthisActor anyby-lawofthelocalauthoritywithinitsarea. (2) Where a local authority considers it expedient for the promotion or protection of the interests of the inhabitants of its area,itmayinstituteordefendanycivilproceedings. 52 No. 2 of 2019] Local Government Evidence 74. (1) The minutes of a meeting of a council or committee purportingtobesignedasprovidedbythisAct,andanycopyofor extract of the minutes duly authenticated shall be prima facie evidence in any proceedings of the facts set out in the minutes withoutproofofthe— (a)signatureofthepersonpresidingatthemeeting; (b) meetingto which the minutes refer was dulyconvened orheld;or (c) people attending that meeting were councillors or membersofthecommittee. (2) Thebooksandregistersofalocalauthorityandanycopy oforextractfromthebooksorregistersdulyauthenticatedshall, inanyproceedings fortherecoveryof anyamount allegedtobe duetothelocalauthority,beprimafacieevidenceoftheamounts sodue. Powerof 75. (1) An authorised officer of a local authority may, with arrest theapprovaloftheInspectorGeneralofthePolice, Commissioner ofthePoliceorAssistantCommissionerofthePolicearrestwithout warrantanypersononreasonablesuspicionofthepersonhaving committedacontraventionofthisAct withintheareaofthelocal authority and may detain that person until that person can be deliveredintothecustodyofapoliceofficer. (2) Apersonshallnotbearrestedordetainedwithoutwarrant under this section unless reasonable grounds exist for believing that, except bythe arrest of the person, that person could not be foundormadeanswerabletojusticewithoutunduedelay. Validityof 76. A function carried out by a person purporting to be an dischargeof officeroremployeeofalocalauthorityshallnotbeinvalidatedby functions reasononlyofadefectafterwardsdiscoveredintheappointment byofficers orqualificationsofthatofficeroremployee. and employees ofcouncil Powers of 77. (1) Whenever the Minister is authorised to approve, Minister to confirmordetermineanymatterforthepurposesofthisAct,then approve, unlessthecontextotherwiserequires,theMinistermay— confirmor determine (a) approve, confirm or determine the matter generally or matters specificallyandsubjecttoconditionsandlimitationsthat may be specified in the approval, confirmation or determination;or (b) withdraw or alter any approval, confirmation or determination so given or made, except that, no withdrawaloralterationshallaffectanythinglawfully done in pursuance of that approval, confirmation or determination. Local Government [No. 2 of 2019 53 (2) Any approval, confirmation or determination or the withdrawal or alteration of any approval, confirmation or determinationbytheMinisterunderthisActshallbebya— (a)statutoryorder; or (b) notice inwritingaddressed to the principal officer of a localauthorityconcerned. 78. (1) TheMinistermay,forthebettercarryingoutofanyof Inquiries theMinister’sfunctionsunderthisAct,appointapersonorpersons toinquireintoanymatterrelatingtothedischargeofthosefunctions and, on the completion of the inquiry, to report and make recommendationsonthemattertotheMinister. (2) TheprovisionsoftheInquiriesActapplyinrelationtoany Cap. 41 person appointed under this section as if those persons were commissionersappointedbyacommissionissuedunderthatAct and references in that Act to commissioners and a commission shallbeconstruedaccordingly. (3) Nothinginthissectionshallbeconstruedas requiringthe Minister,inthecarryingoutoftheMinister’s functionsunderthis Act,togiveeffecttoanyrecommendationsmadetotheMinister undersubsection(1). 79. (1) Inthe exerciseofitsfunctions under thisAct,a local Authority to authority may make guidelines that are necessary for the better issue guidelines carryingoutoftheprovisionsofthisAct. (2) Alocalauthorityshallpublishtheguidelinesissuedunder thisActintheGazetteandmaypublishthisinadailynewspaper ofgeneralcirculationintheRepublic,andtheguidelinesshallnot takeeffectuntiltheyaresopublished. (3) TheguidelinesissuedbythelocalauthorityunderthisAct shallbindallpersonsregulatedunderthisAct. 80. (1) The Minister may, by statutory instrument make Regulations regulationsprescribinganythingwhichmaybeprescribedunder thisActorgenerallyforthebettercarryingoutoftheprovisionsof thisAct. (2) Despitethegeneralityofsubsection(1),theMinistermay, bystatutoryinstrument— (a)establishafireauthorityforanyarea; (b)alter the areaofanyfire authority; 54 No. 2 of 2019] Local Government (c) require a local authority to carry out the functions of a fireauthority; (d) require a fire authority to enter into arrangements with otherfireauthoritiesorotherorganisationsformutual co-operationandassistance; (e)prescribethepowersandfunctionsofafireauthority; (f) regulatetheoperationsofanyfirebrigade; (g) regulate the standards for providing, maintaining and operatingbyanypersonof— (i)adequatefirefightingequipment; (ii)fire-preventionequipmentorservice; (iii)fire-escapefacilitiesinanypremises; (h) provide for the inspection of any premises by fire inspectorsorfireofficers;and (i)provideforthepowersandfunctionsoffireinspectorsor fireofficerstobepublishedintheGazette;and (j)providefortraderegulations. Repealof 81. TheLocalGovernmentAct,1991,is repealed. Cap.281 Savingsand 82. (1) OnorafterthecommencementofthisAct,theMinister transitional shall,byatransferandvestingorderundertheSecondSchedule provisions transferto,orvestinalocalauthority,property,rightsandobligations ofacouncilestablishedforadistrictbytherepealedAct. (2) OnthecommencementofthisAct,acouncilshallcontinue toexistasifestablishedunderthisAct. Cap.1 (3) SubjecttotheConstitution,thecomingintooperationof thisActdoesnotaffectthetenureofofficeofadeputymayoror deputycouncilchairpersoninofficeimmediatelybeforethecoming intooperationofthisAct. Local Government [No. 2 of 2019 55 FIRST SCHEDULE (Section 16(2)) FUNCTIONSOFLOCALAUTHORITY"
+    },
+    {
+      "number": "1",
+      "heading": "Alocalauthorityshall,inrelationtogeneraladministration— General",
+      "text": "(a)establishandmaintainofficesandbuildingsforthepurpose Administration oftransactingthebusinessofthecouncilandforpublic meetingsandassemblies; (b)insureagainstlosses,damages,risksandliabilitieswhich thecouncilmayincur;and (c)maintainlawandorderandensurelocal securityandthe goodadministrationofthecouncil."
+    },
+    {
+      "number": "2",
+      "heading": "Alocalauthorityshall,inrelationtoadvertisements,regulate Advertise-",
+      "text": "theerectionanddisplayofadvertisementsandadvertisingdevises ments in,orinviewof,streetsandotherpublicplaces."
+    },
+    {
+      "number": "3",
+      "heading": "Alocalauthorityshall,inrelationtoagriculture— Agriculture",
+      "text": "(a)establishandmaintainfarmsandallotmentgardens; (b) take and cause the taking of measures for the— (i)storage, market and preservation of agricultural produce; (ii)conservationofnaturalresources;and (iii)preventionofsoilerosion,includingtheprohibition andcontrolofcultivation; (c) take and cause the taking of measures for the control of grassweedsandwildvegetationandforthesuppression andcontrolofplantandinsectpestsanddiseases; (d)maintain,protectandcontrollocalforestsandwoodlands; (e)controlthekeepingandmovementoflivestock; (f)establishandmaintainponds; (g)establishandmaintaingrazinggrounds; (h)takemeasuresforthedestructionandcontrolofbeesand ofdangerousanimalsandreptiles; (i)control the slaughtering of animals where the meat is intendedforhumanconsumption; (j)controlthesaleofmeatundersubparagraph(i); (k) require the disposal of diseased animals and carcasses whosemeatisunfitforhumanconsumption; 56 No. of 2019] Local Government (l) establishandmaintainabattoirs,coldstoragefacilitiesand plansfortheprocessingofby-productsfromabattoirs; and (m)controlthemovementofthecarcassesofanimals. Publicstreet 4. A local authority shall, in relation to a public street and and street street— (a)establishandmaintainroads; (b) exercise general control, care and maintenance of all publicroads,streets,avenues,lanes,sanitarylanesand footwalksformingpartthereof,bridges,squares,ferries and water courses and to remove all obstacles therefrom; (c)prohibitandcontroltheerectionandlayingin,underor over, and the removal from, streets and other public placesof— (i)posts, wires, pipes, conduits, cable and other apparatus; (ii)temporaryplatforms,seatsandotherstructures; and (iii)streetdecorations; (d)controltrafficandtheparkingofvehicles andestablish and maintain parking meters and premisses for the parkingofvehicles;and (e)take measuresfor thepromotionof roadsafety. Community 5. A local authority shall, in relation to community development development— (a) prepare and administer schemes for the encouragement ofandparticipationin,communitydevelopment; (b)establishandmaintainasystemoflightinginstreetand otherpublicplaces; (c)establishandmaintainfirefightingandpreventionservices, and take and cause the taking of measures for the protectionoflife,propertyandnaturalresourcesfrom damagesbyfire; (d)controlpersonsandpremisesengagedinorusedforthe manufacture, preparation, storage, handling, sale or distributionofitemsoffoodordrink; Local Government [No. of 2019 57 (e)establishandmaintainpremisesforthesaleoffoodand drink,includingbeerandotherintoxicatingliquorfor consumptiononoroffthepremises; (f) establishandmaintaincateringservices; (g)erect,purchaseandmaintainbuildingsusedasdwellings or clubsand, whereit is in the public interest,for use forbusinessorprofessionalpurposes; (h)erect,purchaseandmaintainbuildingsandfacilitiesand encourage the erection of dwellings needed for the accommodationofpersonsresidingwithintheareathe localauthority;and (i)prohibitandcontrolthedevelopmentanduseoflandand buildingsandtheerectionofbuildings,intheinterests ofpublichealth,publicsafety,andtheproperandorderly developmentoftheareaofthelocalauthority; (j)controlthedemolitionandremovalofbuildingandrequire thealteringdemolitionandremovalofbuildingswhich— (i)do not conform to plans and specifications in respect of those buildings approved by the council;or (ii)areadangertopublichealthorpublicsafety; (k)requirethestatutoryleaseholderoroccupieroflandto (i)remove, lower or trim to the satisfaction of the council anytree shrubor hedge over hanging orinterferingwithtrafficinanystreetorwith anywires,orwithworksof localauthority; (ii)removeanydilapidatedfenceorstructureabutting onanypublicorplace; (iii)paint,dis-temper,whitewashorcolourwashthe outside walls or roof of anybuildingforming partof the premises;and (iv)tidythepremises; (l)removefromthepremisesanyunsightly debris,including derelictvehicles; (m)providespaceonwhichdebrisandderelictvehiclemay bedeposited; 58 No. 2 of 2019] Local Government (n)prohibit,controlandrequirethefencingoflandtocontrol the use of barbed wire and other dangerous materials forfencing; (o)intheeventofthestatutoryleaseholderoroccupierfailing tocomplywithanoticefromthelocalauthorityrequiring thestatutoryleaseholderoroccupiertotoperformany oftheactsspecifiedinsubparagraph(k),toundertake theworkandchargethestatutoryleaseholderoroccupier withthecostthereof;and (p)assignnamestolocalities,andnumberstopremiseswhich shallbedisplayedatthepremises. Public 6. Alocalauthorityshall,inrelationtopublicamenities— amenities (a) establish and maintain parks, zoos, gardens, pleasure grounds, camping grounds, caravan sites and open spaces; (b)plant,trimandremovetrees,shrubsandplantsinstreets and other public places, and prohibit and control the planting camping, destruction and removal of trees, shrubs,andplantsinstreetsandotherpublicplaces; (c)establishandmaintainswimmingbathsandbathingplaces; (d)establishandmaintainartgalleries,libraries,museumand filmservices; (e) establish and maintain social and recreational facilities andpublicentertainments;and (f)establishandmaintainapublictransportservice. Publichealth 7. Alocalauthorityshall,inrelationtopublichealth— (a)establishandmaintainenvironmentalhealthservices; (b) establish and maintain cemeteries, cemetoria and mortuaries, and otherwise provide for and control of the dead, and destitute persons whodie inthe area of thelocalauthority; (c)controlthemanufacture,storage,saleanduseofpetroleum, fireworks, gas and other combustible or dangerous substances,andtoestablishandmaintainmagazinesand otherfacilitiesforthestoragethereof;and (d)takeandrequirethetakingofmeasuresforthepreservation and improvement of public health and the prevention andabatementofnuisances,includingmeasuresforthe exterminationofmosquitoesandotherinsectsrats,mice andothervermin. Local Government [No. 2 of 2019 59"
+    },
+    {
+      "number": "8",
+      "heading": "Alocalauthorityshall,inrelationtopublicorder— Publicorder",
+      "text": "(a)controlpersons,premisesandlandengagedinorusedfor theholdingofany faircircus,feteorotherentertainment, recreationorassemblytowhichthepublicareentitled or permitted to have access, whether on payment or otherwise; (b)prohibitorcontrolthecollectionofmoneyfromdoorto doorandinstreetsandotherpublicplaces; (c)preservepublic decency; (d)preventdamageandtrespasstoproperty,whetherpublic orprivate; (e)establishandmaintainpublicinformationservices;and (f)advertiseandgivepublicitytotheadvantagesandamenities oftheareaofthelocalauthority."
+    },
+    {
+      "number": "9",
+      "heading": "Alocalauthorityshall,inrelationtoregistration,keepand Registration",
+      "text": "maintainthe— (a) enumeration and registration of persons or propertyfor any purpose connected with the administration of the areaofthelocalauthority; (b)registerofbirths,marriagesanddeaths; (c)registerofclubs;and (d) register of transaction in connection with land charges thatmaybeprescribeinanywrittenlawrelatingtoland charges."
+    },
+    {
+      "number": "10",
+      "heading": "A local authority shall, in relation to sanitation and Sanitation",
+      "text": "drainage— anddrainage (a)establishandmaintainsanitaryconvenienceandablution facilities and require, whenever necessary, the establishmentandmaintenanceofthosefacilities; (b)establishandmaintainsanitaryservicesfortheremoval anddestructionof,orotherwisedealingwith,allkinds of refuse and effluent, and compel the use of those services; (c)establish andmaintain drains, sewers and works for the disposal ofsewerage andrefuse; (d)takeandrequirethetakingofmeasuresforthedrainage of water; (e) require and control the provision of drains and sewers and compel the connection of any drains and sewers establishedbythelocalauthority; 60 No. 2 of 2019] Local Government (f) prohibitandcontrolthecarryingonofoffensive,unhealthy or dangerous trade; (g)establishandmaintainweighingmachines; (h)sellproductsandbyproductsresultingfromthecarrying on of any of the undertakings or services of the local authority; (i)establishandmaintainthebusinessof (i)manufacture; (ii)wholesale;and (iii)retailer; (j)undertakeminingoperationsandcontrol; (k) provide and maintain supplies of water and, for that purpose,establishandmaintainwaterworksandwater mains;and (l)take and require the taking of measures for the conservation and the prevention of the pollution of suppliesofwater."
+    },
+    {
+      "number": "11",
+      "heading": "Alocalauthorityshallalso— Additional",
+      "text": "devolved (a) carry out communication services with the approval of functionsof the Zambia Information Communication Technology alocal Authority; authority (b)establishandmaintainpostalserviceswiththeapproval oftheDirectorofPostal Services; (c)establishandmaintaintwintowncontacts; (d)providemunicipalpublicworksonlyinrespectoftheneeds ofmunicipalityinthedischargeoftheirresponsibilities toadministerfunctionsspecificallyassignedtothelocal authority under the Constitution or any other written law; Cap.1 (e) pontoons, ferries, jetties, piers and harbours, excluding theregulationofinternationaland nationalshippingand matters related thereto; (f)manage storm water management systems in built up areas; (g)developtradingregulations; (h) manage museums; (i)establishand maintainfacilities forthe accommodation, careandburialofanimals;and (j)manage refuse removal, refuse dumps and disposal of solidwaste. Local Government [No. 2 of 2019 61 SECOND SCHEDULE (Sections 5 and 82) TRANSFERANDVESTINGORDERS"
+    },
+    {
+      "number": "1",
+      "heading": "InthisSchedule— Interpretation",
+      "text": "“predecessor”meansacouncilestablishedundertherepealed Act,or a council establishedunder thisActfor a district whichhasceasedtoexistorwhoseareahasbeendecreased bychangesintheareaofthedistrict;and “successor”meansacouncilestablishedunderthisActfor thesamedistrictasacouncilestablishedundertherepealed Act or for a district which has ceased to exist or whose areas has been increased by changes in the area of the district."
+    },
+    {
+      "number": "2",
+      "heading": "Atransferandvestingordermaymake provisionsfor— Vestingorder",
+      "text": "(a) the transfer to the successor of the funds, accounts investmentsandotherpropertyofthepredecessor; (b)thetransfertothesuccessorofanyrights,liabilitiesofthe predecessor,except that inanycasewhere anorder is made as a result of a change in the areas of the predecessorandthesuccessor,anytransferofthekind mentionedinparagraph(a)or(b)shallbecommensurate withthechangesinvolved; (c) the substitution of the successor for the predecessor in anylegalproceedings; (d)inanycaseinwhichbothpredecessorandsuccessorare continuingcouncils,thepaymentofcompensation,orof anycontribution,by the successor to the predecessor, orthegivingofguaranteesbytheonetotheother; (e) the transfer of staff and provisions for the transfer of superannuationbenefits;and (f) the preservation and transfer into proper custody of the recordofacouncil. (2) In the case of a transfer and vesting order made under section 5 the order may also provide for the alteration of the constitutionofthecouncilconcerned. 62 No. 2 of 2019] Local Government THIRD SCHEDULE (Section 15) PROCEEDINGSOFCOUNCIL Ordinaryand 1. (1) A council shall hold an ordinary meeting for the special transaction of business at least once in every three months at a meetings place,onadayandatatimethatthecouncilmayappoint. (2) Despite subparagraph (1), a newly established council shallholditsfirstordinarymeetingwithinthreemonthsfromthe dateofitsestablishment. (3) Amayororcouncilchairpersonmay,withtheapprovalof theProvincialLocalGovernmentOfficer,conveneaspecialmeeting of the council at any time, and shall convene a special meeting withintwentyonedays,oralesserperiodthatmaybeprescribed bythe standingordersofthe council,after the mayorreceives a writtenrequestforameetingsignedbynotlessthanonethirdof thecouncillorsandstatingthereasonsforthespecialmeeting. Noticeof 2. (1) Theprincipalofficerofacouncilshall,atleasttwenty meetings fourhoursbeforethetimeappointedfortheholdingofameeting ofacouncil,notifyeverycouncillor,inwriting,oftheplace,day and time of the meeting and of the business proposed to be transactedat the meeting. (2) Nobusinessshallbetransactedataspecialmeetingofa councilotherthanthatspecifiedinthenotice relatingthereto. Quorum 3. (1) Subjecttotheprovisionsofthisparagraph— (a)atanordinarymeetingofacouncil,onehalfofthewhole numberofcouncillorsofwhichthecouncilconsistsshall formaquorum;or (b)ataspecialmeetingofacouncil,twothirdsofthewhole numberofcouncillorsofwhichthecouncilconsistsshall formaquorum. (2) Where,owingto— (a)vacanciesinthemembershipofacouncil; (b)adeclarationofinterestunderparagraph6;or Local Government [No. 2 of 2019 63 (c) a combination of the circumstances referred to in subparagraphs (a) and (b), less than two thirds of the councillorsareatthesametimeabletotakepartinthe considerationordiscussionof,ortovoteon,anyquestion, thequorumofthecouncilinanyproceedingsrelatingto that question shall be determined by the councillors holdingofficeandwhohavenotdeclaredinterestunder paragraph6andnotallthecouncillorsofthatcouncil."
+    },
+    {
+      "number": "4",
+      "heading": "Thereshallpresideatanymeetingofacouncil— Presidingin",
+      "text": "council (a)themayororcouncilchairperson; (b) in the absence of the mayor or council chairperson, the deputymayorordeputycouncilchairperson;or (c)intheabsenceofthemayorandthedeputymayororthe councilchairpersonandthedeputycouncilchairperson, acouncillorthatthecouncilmayelectatthatmeeting."
+    },
+    {
+      "number": "5",
+      "heading": "Adecisionofacouncilonanyquestionshallbebyamajority Votingin",
+      "text": "ofthecouncillorspresentandvotingatameeting,andintheevent council of an equalityof votes, the person presidingat the meetingshall haveacastingvote,inadditiontothatperson’sdeliberativevote. 6. (1) Ifacouncillorhasanypecuniaryinterest,directorindirect, Declaration inanycontract,proposedcontractorofothermatter,andispresent ofinterest atameetingofthecouncilatwhichthecontractorothermatteris thesubjectofconsideration,thecouncillorshall,atthe meeting,as soon as is practicable after the commencement thereof, disclose thefact,andshallnottakepartintheconsiderationordiscussion of, or vote on anyquestion with respect to, the contract or other matter,exceptthat, thisparagraphshallnotapplytoaninterestin a contract or other matter which a councillor may have as an occupier of a house owned by the council or as a rate payer or inhabitantoftheareaofthecouncilorasanordinaryconsumerof electricityorwater,or to aninterest in anymatter relatingtothe termsonwhichtherighttoparticipateinanyservice,includingthe supplyofgoods,isofferedtothepublic. (2) Forthepurposesofthisparagraph,apersonshallbetreated ashavingindirectlyapecuniaryinterestinacontractorothermatter, if— (a)thepersonoranynomineeofthepersonisa memberor director of a company or other body with which the contract is made or is proposed to be made or which has a direct pecuniary interest in the matter under consideration;or 64 No. 2 of 2019] Local Government (b)thepersonisapartner,orisintheemployment,ofaperson with whom the contract is made or is proposed to be madeorwhohasadirectpecuniaryinterestintheother matterunderconsideration,exceptthat— (i)thissub-paragraphshallnotapplytomembership of, or employment under, any statutory corporation; (ii)amemberordirectorofa companyorbodyshall not,byreasononlyofthepersonsmembership ordirectorship, betreatedasbeingsointerested ifthepersonisnotbeneficiallyinterestedinany sharesof thatcompanyorother body. (3) Whereacouncillorhasindirectlyapecuniaryinterestina contractorothermatterandwouldnotfalltobetreatedashaving aninterestbutforthefactthatthecouncillorhasabeneficialinterest in shares of a company or other body then, if the total nominal value of these shares does not exceed one hundredth of the total nominalvalueoftheissuedsharecapitalofthecompanyorbody, somuchofsubparagraph(1)asprohibitsthatpersonfromtaking partintheconsiderationordiscussionof,andfromvotingonany questionwithrespectto,thecontractorothermattershallnotapply totheperson,withoutprejudice,however,tothedutyofdisclosure imposedbysubparagraph(1),exceptthat,wheretheshareofthe companyorotherbodyisofmorethanoneclass,thissubparagraph shallnotapplyifthetotalnominalvalueofallthesharesofanyone class in which the person has a beneficial interest exceeds one- hundredthpartofthetotalissuedsharecapitalofthatclassofthe companyorotherbody. (4) Inthecaseofmarriedpersons,theinterestofonespouse shall, if known to the other be deemed for the purpose of this paragraphtobealsoaninterestofthatotherspouse. (5) Ageneralnoticegiveninwritingtotheprincipalofficerof a council by a councillor to the effect that the councillor or the councillor’sspouseisamemberordirectororintheemployment ofaspecifiedcompanyorotherbody,orthatthecouncillororthe councillor’sspouseisapartnerorintheemploymentofaspecified person,shall,unlessanduntilthenoticeiswithdrawn,bedeemed to be a sufficient disclosure of the councillor’s interest in any contract,proposedcontractorothermatterrelatingtothatcompany or other body or to that person which may be the subject of considerationafterthedateofthenotice. Local Government [No. 2 of 2019 65 (6) Theprincipalofficerofacouncilshallrecordinabookto bekeptforthatpurpose,particularsofanydisclosuremadeunder sub-paragraph (1), and of any notice given under sub-paragraph (5), and the book shall be open at all reasonable times to the inspectionofanycouncillor. (7) If any person fails to comply with the provisions of sub paragraph (1), the person shall for each offence be liable, on conviction,toa imprisonment for a termnot exceedingfourteen years. (8) Noprosecutionshallbeinstitutedagainstanypersonfor an offence under this paragraph except by or on behalf of the DirectorofPublicProsecutions. (9) TheMinistermay,subjecttoconditionsthattheMinister maythinkfittoimpose,removeanydisabilityimposedbythissection inanycaseinwhichthenumberof councillorsodisabledatany onetimewouldbesogreataproportionofthewholeastoimpede thetransactionofbusiness,orinanyothercaseinwhichitappears to the Minister that it is in the interests ofthe inhabitants of the areaofcouncilthatthedisabilityshouldberemoved. (10) Inthisregulation,theexpression“shares”includesstock andtheexpression“sharecapital”shallbeconstruedaccordingly. 7. (1) Acouncilmayadjournanymeetingofthecouncilfrom Adjournment ofmeetings timetotimeandfromplacetoplace. (2) Ifatanymeetingofacouncilaquorumisnotpresent,the councillorspresentor,iftherearenocouncillorspresent,theprincipal officerofthecouncilshalladjournthemeetingandmayappoint for the adjourned meeting place, day and time that may be consideredsuitable. 8. (1) Subject to the provisions of sub-paragraph (2), all Admission ofpublicto meetingsofacounciloracommitteeshallbeopentothepublic. meetings (2) Acouncil or committee may, by resolution, exclude the publicfromameetingwheneverpublicitywouldbeprejudicialto thepublicinterestbyreasonoftheconfidentialnatureofthebusiness tobetransactedorforotherspecialreasonsstatedintheresolution andarisingfromthenatureofthatbusinessoroftheproceedings. 66 No. 2 of 2019] Local Government (3) Theprovisionofthisparagraphshallbewithoutprejudice to any power of exclusion conferred by the standing orders of a councilforpreservingorderatmeetingsofthecouncilandnothing inthissectioncontainedshallbe construedasrequiringacouncil topermitthetakingofphotographsofanyproceedings,ortheuse of any means to enable persons not present to see or hear any proceedingsorthemakingofanyoralreportonanyproceedings as they take place. Minutes 9. (1) AcouncilshallcauseminutestobekeptintheEnglish language of the proceedings at everymeetingof the council and shall cause to be recorded therein the names of the councillors presentat thatmeeting. (2) The minutes of the proceedings of a council shall, after amendment if necessary, be confirmed by the council as a true recordoftheproceedingsandsignedbythepersonpresidingatthe sameorthenextmeetingofthecouncil. (3) Withinonemonthaftertheminutesofanyproceedingsof acouncilhavebeenconfirmedandsigned,thereshallbefurnished tothe Minister a number of copiesthereof that the Ministermay determine. (4) The minutes of the proceedings of a council, other than proceedingsfromwhichthepublichavebeenexcludedinpursuance ofaresolutionadoptedunderparagraph(2),shall,atallreasonable times,beopentotheinspectionofanyinterestedperson. 10. (1) A council may establish standing and occasional Standingand committees consisting of a number of members that the council occasional committee maydetermine,forthepurposeofexaminingandreportingonany matterandofdischarginganyfunctions ofthecouncildelegated tothemunderthisAct. (2) Acouncilconsistingofmorethansixcouncillorsshallin theexerciseofthepowersconferredbysubsection(1),establisha standingcommitteeforthepurposeof— (a)advisingthecouncilonfinancialmatters;and (b) discharging functions of the council relating to finance thatmaybedelegatedtoitunderthisActorasmaybe conferredorimposedonitbyorunderanyotherwritten law. Local Government [No. 2 of 2019 67 (3) Acouncilmayabolishanycommittee,establishedbyitunder thissection,exceptthestandingcommittee. 11. (1) Themembersofacommitteeshallbeappointedbythe Membership councilfromamongstpersonswhoarecouncillorsorarequalified of committees forelectionascouncillors,exceptthat— (a)apersonotherthanacouncillorshallnotbeamemberof thestandingcommittee; (b)not less thantwothirdsof the membersof a committee, otherthanthestandingcommittee,shallbecouncillors. (2) Apersonshallceasetobeamemberofacommitteeif— (a)beingacouncilloratthetimeoftheperson’sappointment, thepersonceasestobeacouncillor;or (b)notbeingacouncilloratthetimeofthepersonappointment, the person ceases to be qualified for election as a councillor;or (c)theperson’sappointmentisrevokedbythecouncil. (3) Thereshallbeachairpersonofeverycommittee,whoshall be elected by the committee from among the members of the committee who are councillors and who shall hold office until a timethatthechairperson— (a) ceases to be a member of the committee; or (b)isremovedfromofficebythecommittee,exceptthat,in the exercise of its powers under this subsection, a committee shall act in accordance withanydirections ofthecouncil. 12. (1) Meetingsofacommitteeshallbeheldasrequiredand Proceedings maybeadjournedfromtimetotimeandfromplacetoplace. of committees (2) Themeetingsofthecouncilshallbeopentothepublic. (3) Thequorumatameetingofacommitteeshallbeanumber ofmembersthatmaybeprescribedbythe standingordersofthe councilor,ifnoquorumissoprescribed,twomembers. (4) Thereshallpresideatanymeetingofacommittee (a)thechairperson; or (b) in the absence of the chairperson, a member of the committeethatthecommitteemayelectforthatmeeting. 68 No. 2 of 2019] Local Government (5) Anyquestionproposedfordecisionbyacommitteeshall bedeterminedbyamajorityofthevotesofthememberspresent and voting at a meeting of the committee at which a quorum is present. (6) Atallmeetingsofacommittee,eachmemberpresentshall haveonevoteonaquestionproposedfordecisionbythecommittee and,intheeventofanequalityofvotes,thepersonpresidingatthe meetingshallhave,inadditiontoadeliberativevote,acastingvote. (7) subparagraph 6 applies in respect of members of a committeewiththenecessarymodifications. Minutes 13. (1) A committee shall cause minutes to be kept in the English language of the proceedings at every meeting of the committeeandshallcausetoberecordedthereinthenamesofthe membersofthecommitteepresent atthatmeeting. (2) Theminutesoftheproceedingsofacommitteeshall,after amendmentifnecessary,beconfirmedbythe committeeasatrue record of the proceedings and signed by the person presiding at thesameorthenext meetingof thecommittee. (3) Withinonemonthaftertheminutesofanyproceedingsof acommitteeareconfirmedandsigned,thereshallbefurnishedto the Minister a number of copies thereof as the Minister may determine. (4) Theminutesofproceedings ata meetingofacommittee thatrelatetothedischargeoffunctionsdelegatedtoitbythecouncil shall, at all reasonable times, be open to the inspection of any interestedperson,except that, theprovisionsof this subsection shallnotapplytotheminutesofanyproceedingsthedisclosureof whichisdeemedbythecommitteetobeprejudicialtothepublic interest. Delegation 14. (1) Subject to the other provisions of this paragraph, a ofmeetings council may delegate, either absolutely or conditionally, to a ofcouncils to committeeortoanyofficerofthecouncilthepowertodischarge committee anyfunctionofthecouncilonbehalfofthecouncil. (2) Alocalauthorityshallnot— (a) delegate the power to discharge any functions of the counciltoacommitteewhichincludespersonswhoare notcouncillors;or Local Government [No. 2 of 2019 69 (b)delegate toanycommittee the powerto— (i)levyarate; (ii)adoptestimatesofthe revenuesandexpenditure ofthecouncil; (iii)borrowmoney; (iv)imposefees andcharges; (v)tomakebylaws; or (vi)inthecaseofacitycouncilormunicipalcouncil, tomakeappointmentstothedignityofalderman ortoadmitorannultheadmissionofaperson to the status of honorary freeman of the city ormunicipality. (3) A council may withdraw or alter any delegation to a committee,butthewithdrawaloralterationshallnotaffectanything doneinpursuanceofanydecisionlawfullytakenbythecommittee. (4) Anyfunction discharged bya committee in the exercise ofpowersdelegatedtoitunderthisparagraphshallbedeemedto havebeendischargedbythecouncil."
+    },
+    {
+      "number": "15",
+      "heading": "Atoneofthenexttwoordinarymeetingsofacouncilheld Reports by",
+      "text": "afterameetingofacommittee,theproceedingsatthemeetingof committees thecommitteeshallbereportedtothecouncilforitsconsideration or, in the case of proceedings which relate to the discharge of functionsdelegatedtothecommittee,foritsinformation. 16. (1) Acommittee may, from among its members, appoint Sub- sub-committeesforthepurposeofexaminingandreportingonany committees matter. (2) Subjecttotheprovisionsofthestandingorderssofacouncil, asub-committeeshalldetermineitsownprocedure. (3) Asub-committeeshallnotdischargeanyfunctionsofthe council which have been delegatedtothe committee by which it wasappointed."
+    },
+    {
+      "number": "17",
+      "heading": "Anofficeroremployeeofacouncilisnotpersonallyliable Immunity",
+      "text": "in respect of anyact done bythe person inthe execution of this Act or any other law and within the scope of the person’s employment,ifthepersondidthatactinthehonestbeliefthatthe person’s dutyunder thisAct or that law requiredor entitledthe persontodoit,except,thatnothinginthissectionshallbeconstrued as relieving a council from any liability in respect of acts of its officersoremployees. 70 No. 2 of 2019] Local Government FOURTH SCHEDULE (Section 36 (8)) WARDDEVELOPMENTCOMMITTEE Proceedings 1. (1) A Ward Development Committee shall meet at least ofWard once everyquarter of eachfinancial year. Development Committee (2) Subject to the other provisions of this Act, the Ward meetings DevelopmentCommitteemayregulateitsownprocedure. Tenureof 2. (1) AmemberoftheWardDevelopmentCommittee shall officefor hold office for a term of two and a half years and may be re- Ward appointed for one further termof two and a half years on terms Development Committee and conditions that may be specified in the instrument of andvacancy appointment. (2) On the expiration of the terms for which a member is appointed,themembershallcontinuetoholdofficeuntilanother member is appointed, but in no case shall any extension of the periodexceedthreemonths. (3) TheelectionofaWardDevelopmentCommitteeshallbe heldwithintwomonthsafterthegeneralelections. (4) The office of a member of a Ward Development Committeeshallbevacantifamember— (a)dies; (b)islegallydisqualifiedfromdischargingthefunctionsof office; (c)isremovedbytheCouncilformisconduct; (d)resigns; (e) ceases to be a resident of a ward; and (f)otherthanacouncillor,engagesinactivepolitics. (5) ThetenureofawardDevelopmentCommitteeshalllapse onthedissolutionoftheNationalAssembly. By-elections 3. Where a vacancy occurs in the office of a Ward DevelopmentCommittee,a by-electionshall be heldat thenext meetingoftheCommittee. No 4. AmemberofaWardDevelopmentCommitteewhoattends remuneration meetingsandactivitiesoftheWardDevelopmentCommitteeshall for the attendthatmeetingoractivityonavoluntarybasisandshallnotbe membersof ward entitledtopaymentofanyallowancesorfees. development committees Local Government [No. 2 of 2019 71 5. (1) Acommitteemay,fromamongitsmembers,appointsub Sub- committeesforthepurposeofexaminingandreportingonanymatter. committees (2) Subjecttotheprovisionsofthestandingordersofacouncil, asub-committeeshalldetermineitsownprocedure. (3) A sub-committee shall not perform any functions of the council which have been delegatedtothe committee by which it wasappointed. 72 No. 2 of 2019] Local Government FIFTH SCHEDULE (Section 53) CODE OF ETHICS Paragraph"
+    },
+    {
+      "number": "1",
+      "heading": "Interpretation",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "Application",
+      "text": ""
+    },
+    {
+      "number": "3",
+      "heading": "Compliancewithwrittenlaw",
+      "text": ""
+    },
+    {
+      "number": "4",
+      "heading": "Fundamentalrightsandfreedoms",
+      "text": ""
+    },
+    {
+      "number": "5",
+      "heading": "Professionalism",
+      "text": ""
+    },
+    {
+      "number": "6",
+      "heading": "Councillorcivildutiesandresponsibilities",
+      "text": ""
+    },
+    {
+      "number": "7",
+      "heading": "Councilmeetings",
+      "text": ""
+    },
+    {
+      "number": "8",
+      "heading": "Confidentiality",
+      "text": ""
+    },
+    {
+      "number": "9",
+      "heading": "Councillornottoacquirepecuniaryadvantage",
+      "text": ""
+    },
+    {
+      "number": "10",
+      "heading": "Declarationofassets,liabilitiesandincome",
+      "text": ""
+    },
+    {
+      "number": "11",
+      "heading": "Registrationofdeclarationsofinterestandofassets",
+      "text": ""
+    },
+    {
+      "number": "12",
+      "heading": "Collectiveresponsibilityofcouncillors",
+      "text": ""
+    },
+    {
+      "number": "13",
+      "heading": "Declarationdeemedtobestatutorydeclarations",
+      "text": ""
+    },
+    {
+      "number": "14",
+      "heading": "Complaintsagainstcouncillor",
+      "text": ""
+    },
+    {
+      "number": "15",
+      "heading": "Appealbycouncillor",
+      "text": ""
+    },
+    {
+      "number": "16",
+      "heading": "LocalGovernmentCodeofEthicsTribunal",
+      "text": ""
+    },
+    {
+      "number": "17",
+      "heading": "Payment of fees, remunerationor expenses",
+      "text": "SCHEDULE—Offences and Penalties Local Government [No. 2 of 2019 73"
+    },
+    {
+      "number": "1",
+      "heading": "InthisCode,unlessthecontextotherwiserequires— Interpretation",
+      "text": "“ Code”meanstheCodeofEthics; “ Principal Officer ” means the chief executive officer of a councilincludinganypersonforthetimebeingdischarging thefunctionsofachiefexecutiveofficer;and “Tribunal”meansaTribunalconstitutedundersection55of theAct."
+    },
+    {
+      "number": "2",
+      "heading": "SubjecttotheConstitution,thisCodeapplies tocouncillors. Application",
+      "text": "Cap.1"
+    },
+    {
+      "number": "3",
+      "heading": "AcouncillorshallcomplywiththisCode,theActandany Compliance",
+      "text": "otherapplicablelaw. with written law 4. (1) Acouncillorshall,incarryingoutduties,respect,protect Fundamental andpromotethefundamentalrightsandfreedomsofpersonswithout rightsand freedoms discriminationonthebasisofrace,tribe,politicalopinions,colour, creed,sex,disability,socialstatusorculture. (2) Acouncillorshallnotbeamemberofanorganisationthat promotes or practices discrimination on a basis set out in sub paragraph (1). 5. (1) A councillor who is a member of a professional body Professionalism shall,inadditiontothisCode,maintaintheprofessionalcompetence andethicsofthatcouncillor’sresponsibleprofessionalbody. (2) Acouncillorshallnotbehaveinamannerlikelytosuggest thatthecouncillorcanbeimproperlyinfluenced."
+    },
+    {
+      "number": "6",
+      "heading": "Acouncillorshall,intheexerciseofthecouncillor’scivic Councillor",
+      "text": "dutiesandresponsibilities civilduties and responsibilities (a)actingoodfaith; (b)behave inanhonest and transparentmanner; (c)actinthebestinterestofalocalauthorityandupholdthe integrityandcredibilityofthelocalauthority;and (d) ensure that official duties take precedence over other duties."
+    },
+    {
+      "number": "7",
+      "heading": "Acouncillorshallattendcouncilmeetingsandcommittee Council",
+      "text": "meetings meetingswhereacouncillorisamember. 8. (1) A councillor shall maintain the confidentiality of Confidentiality informationconcerningcouncilproperty,stafforlegalmatters. 74 No. 2 of 2019] Local Government (2) Acouncillorshallnotdiscloseconfidentialinformationfor thatcouncillor’scouncil,exceptasmayberequiredbylaw. Councillor 9. Acouncillorshallnot,intheexerciseofthatcouncillor’s notto duties,acquire pecuniaryadvantage,orassistintheacquisitionof acquire pecuniary pecuniaryadvantagebyanotherperson. advantage Declaration 10. (1) AcouncillorshalldeclaretoaChiefResidentMagistrate of assets, in the area, on assuming office and on an annual basis that liabilities councillor’s— andincome (a)shareholdinginacompany; (b)interestinany trust; (c)directorshipsheldinacompany; (d)existingpartnerships; (e)beneficialownershipinabodycorporate; (f)annual incomefromeachsource;and (g)valueofassetsandliabilityasatthe declarationdate. (2) Thedeclarationshallcovertheperiodcommencingtwelve monthspriortothecurrenttermofoffice. (3) Acouncillorshallnotifythe Principal Officerwherethe detailsundersubparagraph(1)change. ActNo.3of (4) SubjecttotheAnti-CorruptionAct,2012,acouncillorshall 2012 declare to the Chief Resident Magistrate, gifts received by a councillorintheperformanceofthatcouncillor’sduties. Registration 11. (1) The Chief Resident Magistrate shall on receiving a of declaration of interest and assets under paragraph 11 cause the declarations particularsofthedeclarationtobeenteredinaRegister. ofinterest andof (2) The Register shall be kept and maintained by the Chief assets ResidentMagistrateintheprescribedmannerandformandshall be available for inspection by members of the public at all reasonable times at a prescribed fee. Collective 12. Acouncillorshallnotdoanythingthatisinconsistentwith responsibility theprincipleofthecollectiveresponsibilityofcouncillorsforthe of conductofcouncilaffairs,andinparticularshallnot— Councillors (a) publicly contradict or disassociate oneself from any resolutionadoptedbyCouncil; (b)issuepublicstatementscriticisinganothercouncillor;or (c) make unauthorised disclosures of council discussions, resolutionsordocuments. Local Government [No. 2 of 2019 75"
+    },
+    {
+      "number": "13",
+      "heading": "A declaration made under paragraph 11 is a statutory",
+      "text": "Declaration declarationforthepurposesoftheConstitutionandtheAct. deemedtobe statutory declarations Cap.1 14. (1) Apersonwhohasreasonablegroundstobelievethata Complaint councillorhas breachedthisCodemaylodgeacomplaintwiththe against councillor PrincipalOfficer. (2) The Principal Officer shall, on receipt of a complaint submittedunderthisparagraphreferthecomplainttothecouncil. (3) The council shall constitute an ad hoc committee to investigatetheallegedbreachofthisCodebyacouncillorandpresent a report withinninetydays of the date of constitutingthe adhoc committee. (4) Iftheadhoccommitteefindsthatacouncillorbreacheda provision of this Code, the committee may recommend the impositionofpenaltiesassetoutintheSchedule. (5) Arecommendationtoremoveacouncillorfromofficeshall bereferredtoaTribunalappointedbytheChiefJustice. 15. (1) A councillor who is aggrieved by the decision of the Appeal by council, may within fourteen days of the decision appeal to the councillor Minister. (2) TheMinistershalldeterminetheappealwithinthirtydays ofreceiptoftheappeal. (3) Where a councillor is aggrieved by the decision of the Tribunal, the councillor may appeal to the Local Government ElectionsTribunal."
+    },
+    {
+      "number": "16",
+      "heading": "The Chief Justice shall make rules for the functions, Local",
+      "text": "composition,appointmentofmembers,tenureofofficeofmembers, Government Codeof proceduresandjurisdictionoftheadhocLocalGovernmentCode Ethics ofEthicsTribunal. Tribunal"
+    },
+    {
+      "number": "17",
+      "heading": "Anyfees,remunerationorexpensespayableinrespectof Payment of",
+      "text": "theTribunalunderthisActshallbepaidoutofthefundsappropriated fees, remuneration byParliamentforthepurposesofenforcementofthisCode. orexpenses 76 No. 2 of 2019] Local Government SCHEDULEOFOFFENCESANDPENALTIES (Paragraph14(4)) No. Offence Penalty 1st 2nd 3rd"
+    },
+    {
+      "number": "1",
+      "heading": "Failuretoattendmeetings Reprimand Severereprimand RefertoTribunal",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "Failuretoattendfullsessionof Forfeitsittingand Forfeitsittingand Suspensionuptoa",
+      "text": "meetings subsistenceallowance subsistenceallowance maximumofsixmonths andreprimand"
+    },
+    {
+      "number": "3",
+      "heading": "Violentbehaviorinmeetings Suspensionuptomaximum RefertoTribunal",
+      "text": "ofsixmonths"
+    },
+    {
+      "number": "4",
+      "heading": "Disregardingrulingofthe Ejectionfrommeetingand Ejectionfrommeeting Suspensionupto",
+      "text": "Chairperson nosittingandsubsistence with reprimandandno maximumofsixmonths allowance sittingandsubsistence andnon-paymentof allowance monthlyallowance"
+    },
+    {
+      "number": "5",
+      "heading": "Abusivelanguageinameeting Suspensionuptomaximum RefertoTribunal",
+      "text": "ofsixmonths"
+    },
+    {
+      "number": "6",
+      "heading": "Failuretoparticipatein Reprimand Severereprimand Suspensionupto",
+      "text": "Nationalandcouncilprograms maximumofsixmonth"
+    },
+    {
+      "number": "7",
+      "heading": "Failuretodiscloseinterestina RefertoTribunal-vacation",
+      "text": "matterbeforeameeting ofoffice"
+    },
+    {
+      "number": "8",
+      "heading": "Failuretoregisterfinancial RefertoTribunal-vacation",
+      "text": "interests ofoffice"
+    },
+    {
+      "number": "9",
+      "heading": "Abuseofpositionorprivileges Suspension RefertoTribunal-",
+      "text": "vacationofoffice"
+    },
+    {
+      "number": "10",
+      "heading": "Disclosureofconfidential Severereprimand Suspensionupto RefertoTribunal-",
+      "text": "information maximumofsixmonths vacationofoffice"
+    },
+    {
+      "number": "11",
+      "heading": "Gainingpecuniaryadvantage Severereprimand Suspensionupto RefertoTribunal-",
+      "text": "maximumofsixmonths vacationofoffice"
+    },
+    {
+      "number": "12",
+      "heading": "Acceptingbribes,commissions, RefertoTribunal-vacation",
+      "text": "fees,advances,gifts,rewards ofoffice"
+    },
+    {
+      "number": "13",
+      "heading": "Misuseofcouncilproperty Reprimand Suspensionupto",
+      "text": "maximumofsixmonths"
+    },
+    {
+      "number": "14",
+      "heading": "Dishonestandunethical Reprimand Suspensionupto",
+      "text": "behaviour maximumofsixmonths"
+    },
+    {
+      "number": "15",
+      "heading": "Loweringtheintegrityofa Reprimand Suspensionupto",
+      "text": "localauthority maximumofsixmonths"
+    },
+    {
+      "number": "16",
+      "heading": "Biasorimpartialservice Reprimand Suspensionupto",
+      "text": "maximumofsixmonths"
+    },
+    {
+      "number": "17",
+      "heading": "Disrespectto councillorsand Reprimand Suspensionupto",
+      "text": "staffs maximumofsixmonths"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Local%20Government%20Act%20No.%202%20of%20%202019.pdf",
+  "source_hash": "sha256:5cff8ca32232141e2486e124a814dc603b4bc7f7b758e4e3dbfa5e7150b3592d",
+  "node_url": "https://www.parliament.gov.zm/node/7947",
+  "fetched_at": "2026-04-10T11:28:05Z",
+  "parser_version": "0.3.0"
+}

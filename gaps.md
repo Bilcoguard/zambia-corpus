@@ -58,3 +58,7 @@ inventory.
 - **act-zm-2019-013-property-transfer-tax-amendment-act-2019** (1 section): Brief amendment Act; re-parse recommended to confirm all amendment clauses captured.
 - **act-zm-2019-014-value-added-tax-amendment-act-2019** (3 sections): Short amendment; section count plausible but verify completeness.
 
+
+## Batch 0003 — 2026-04-10 — Parse quality flags (≤ 2 sections)
+
+- **act-zm-2019-008-supplementary-appropriation-2019-act-2019** (2 sections): The Supplementary Appropriation (2019) Act, 2019 — Supplementary Appropriation Act, schedule-heavy; section count expected to be low.
