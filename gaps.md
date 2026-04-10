@@ -134,3 +134,7 @@ inventory.
 - **act-zm-2021-030-the-chartered-institute-of-logistics-and-transport-amendment-act-2021** (1 section): The Chartered Institute of Logistics and Transport (Amendment) Act, 2021 — brief amendment act; verify completeness.
 - **act-zm-2021-031-the-zambia-institute-of-tourism-and-hospitality-studies-amendment-act-2021** (1 section): The Zambia Institute of Tourism and Hospitality Studies (Amendment) Act, 2021 — brief amendment act; verify completeness.
 - **act-zm-2021-032-electoral-process-amendment-act-2021** (2 section): Electoral Process (Amendment) Act, 2021 — brief amendment act; verify completeness.
+
+## Batch 0014 — Parse quality flags (2026-04-10T20:05:49Z)
+
+- **act-zm-2020-005-the-landlord-and-tenant-business-premises-amendment-act-2020** (2 sections): The Landlord and Tenant (Business Premises) (Amendment Act), 2020 — brief act or parse issue; verify completeness.

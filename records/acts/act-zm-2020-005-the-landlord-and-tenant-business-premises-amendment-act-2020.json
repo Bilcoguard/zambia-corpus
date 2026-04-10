@@ -1,0 +1,30 @@
+{
+  "id": "act-zm-2020-005-the-landlord-and-tenant-business-premises-amendment-act-2020",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Landlord and Tenant (Business Premises) (Amendment Act), 2020",
+  "citation": "Act No. 5 of 2020",
+  "year": 2020,
+  "act_number": 5,
+  "enacted_date": "2020",
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "ThisActmaybecitedastheLandlordandTenant(Business Shorttitle",
+      "text": "ThisActmaybecitedastheLandlordandTenant(Business Shorttitle\nPremises)(Amendment)Act,2020 andshallbereadasonewith\nthe Landlord and Tenant (Business Premises) Act, in this Act\nreferredtoastheprincipalAct. Cap.193"
+    },
+    {
+      "number": "2",
+      "heading": "Section2oftheprincipalActisamendedbythedeletionof Amendment",
+      "text": "Section2oftheprincipalActisamendedbythedeletionof Amendment\nthedefinitionof “court”andthesubstitutionthereforofthefollowing: of\nSection2\n“court”means—\n(a)inrelationtopremisesforwhichtherentdemandedexceeds\nonehundredthousandkwachaperyear,theHighCourt;\nor\n(b)inrelationtoallotherpremises,asubordinatecourtofthe\nfirstclass.\nSinglecopiesofthisActmaybeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka,PriceK4.00each."
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Landlord%20and%20Tenant%20Amendment%20Bill%20for%20Signature%202020.pdf",
+  "source_hash": "sha256:430d51f795bd27b96ea8601ed20ac040e9396d4a63a41ee86c6aa5ddde90bf55",
+  "fetched_at": "2026-04-10T20:04:08Z",
+  "parser_version": "0.2.0",
+  "node_url": "https://www.parliament.gov.zm/node/8572"
+}
