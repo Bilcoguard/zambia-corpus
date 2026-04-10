@@ -1,0 +1,33 @@
+{
+  "id": "act-zm-2023-027-the-value-added-tax-amendment-act-2023-act-no-27-of-2023",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Value Added Tax (Amendment) Act, 2023( Act No. 27 of  2023)",
+  "citation": "Act No. 27 of 2023",
+  "version_type": "as_enacted",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "(1) This Act may be cited as the Value Added Tax Short title",
+      "body": null,
+      "page_start": 1,
+      "part": null
+    },
+    {
+      "number": "2",
+      "title": "Section 2 of the principal Act is amended by the\u2014 Amendment",
+      "body": null,
+      "page_start": 1,
+      "part": null
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2027%20of%202023%2C%20The%20Value%20Added%20Tax%20%28Amendment%29.pdf",
+  "source_hash": "sha256:1e92fc88396fa1cb80fe2c9b3c03af840a5fdf9c4f0b1f6bd0aaadad43383cbd",
+  "fetched_at": "2026-04-10T23:07:07Z",
+  "parser_version": "0.3.0"
+}

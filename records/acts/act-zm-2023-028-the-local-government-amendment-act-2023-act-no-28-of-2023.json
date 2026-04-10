@@ -1,0 +1,33 @@
+{
+  "id": "act-zm-2023-028-the-local-government-amendment-act-2023-act-no-28-of-2023",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Local Government (Amendment) Act, 2023( Act No. 28 of  2023)",
+  "citation": "Act No. 28 of 2023",
+  "version_type": "as_enacted",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "(1) This Act may be cited as the Local Government Short title and",
+      "body": null,
+      "page_start": 1,
+      "part": null
+    },
+    {
+      "number": "2",
+      "title": "Section 47 of the principal Act is amended by the\u2014 Amendment",
+      "body": null,
+      "page_start": 1,
+      "part": null
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/ACt%20No.%2028%20of%202023%2C%20The%20Local%20Government%20%28Amendment%29.pdf",
+  "source_hash": "sha256:e3ab61200e1a90a1e712f6fd8c9ea524b1e948c0c89bda6d0b3bb724478fc8f7",
+  "fetched_at": "2026-04-10T23:07:12Z",
+  "parser_version": "0.3.0"
+}

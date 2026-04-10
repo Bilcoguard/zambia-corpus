@@ -151,3 +151,9 @@ inventory.
 ## Batch 0018 — 2026-04-10T22:43:52Z — Parse quality flags (≤ 5 sections)
 
 - **act-zm-2026-004-criminal-procedure-code-amendment-act** (4 sections): Criminal Procedure Code (Amendment) Act 2026 — low section count; brief amendment act. Verify all amendment clauses captured.
+
+### Batch 0019 — Low section count records (2026-04-11)
+- **Act No. 26 of 2023** (Zambia Revenue Authority Amendment) — 3 sections. Amendment act, low count expected. Verify completeness on re-parse.
+- **Act No. 27 of 2023** (Value Added Tax Amendment) — 2 sections. Amendment act, low count expected.
+- **Act No. 28 of 2023** (Local Government Amendment) — 2 sections. Amendment act, low count expected.
+- **Act No. 29 of 2023** (Appropriation Act) — 2 sections. Appropriation act, low count expected.

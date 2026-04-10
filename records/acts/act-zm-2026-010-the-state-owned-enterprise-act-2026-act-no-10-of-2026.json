@@ -1,0 +1,565 @@
+{
+  "id": "act-zm-2026-010-the-state-owned-enterprise-act-2026-act-no-10-of-2026",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The State-Owned Enterprise Act, 2026( Act No. 10 of  2026)",
+  "citation": "Act No. 10 of 2026",
+  "version_type": "as_enacted",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "Short title and commencement",
+      "body": null,
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "2",
+      "title": "Interpretation",
+      "body": null,
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "3",
+      "title": "Non-application",
+      "body": null,
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "4",
+      "title": "Guiding principles",
+      "body": null,
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "5",
+      "title": "Government Investment Department",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "6",
+      "title": "Director and other staff",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "7",
+      "title": "Incorporation of state-owned enterprise",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "8",
+      "title": "Incorporation, privatisation and winding up of",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "9",
+      "title": "Cessation of state shareholding",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "10",
+      "title": "Rights of shareholder in state-owned enterprise",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "11",
+      "title": "Ownership rights of Minister in state-owned",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "12",
+      "title": "Shareholding and ownership of state-owned",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "13",
+      "title": "Holding company",
+      "body": null,
+      "page_start": 1,
+      "part": "PART IV"
+    },
+    {
+      "number": "14",
+      "title": "Responsibilities of Minister in governance of state-",
+      "body": null,
+      "page_start": 1,
+      "part": "PART V"
+    },
+    {
+      "number": "15",
+      "title": "Board of state-owned enterprise",
+      "body": null,
+      "page_start": 2,
+      "part": "PART V"
+    },
+    {
+      "number": "16",
+      "title": "Functions of board",
+      "body": null,
+      "page_start": 2,
+      "part": "PART V"
+    },
+    {
+      "number": "17",
+      "title": "Remuneration of directors",
+      "body": null,
+      "page_start": 2,
+      "part": "PART V"
+    },
+    {
+      "number": "18",
+      "title": "Chief executive officer",
+      "body": null,
+      "page_start": 2,
+      "part": "PART V"
+    },
+    {
+      "number": "19",
+      "title": "Secretary and other staff",
+      "body": null,
+      "page_start": 2,
+      "part": "PART V"
+    },
+    {
+      "number": "20",
+      "title": "Terms and conditions of appointment and remuneration",
+      "body": null,
+      "page_start": 2,
+      "part": "PART V"
+    },
+    {
+      "number": "21",
+      "title": "Financial year",
+      "body": null,
+      "page_start": 2,
+      "part": "PART VI"
+    },
+    {
+      "number": "22",
+      "title": "Accounts and audit",
+      "body": null,
+      "page_start": 2,
+      "part": "PART VI"
+    },
+    {
+      "number": "23",
+      "title": "Financial reporting",
+      "body": null,
+      "page_start": 2,
+      "part": "PART VI"
+    },
+    {
+      "number": "24",
+      "title": "Quarterly reports",
+      "body": null,
+      "page_start": 2,
+      "part": "PART VI"
+    },
+    {
+      "number": "25",
+      "title": "Publication of information",
+      "body": null,
+      "page_start": 2,
+      "part": "PART VI"
+    },
+    {
+      "number": "26",
+      "title": "Request for information",
+      "body": null,
+      "page_start": 2,
+      "part": "PART VI"
+    },
+    {
+      "number": "27",
+      "title": "Recapitalisation of state-owned enterprise",
+      "body": null,
+      "page_start": 2,
+      "part": "PART VII"
+    },
+    {
+      "number": "28",
+      "title": "Recapitalisation of subsidiary",
+      "body": null,
+      "page_start": 2,
+      "part": "PART VII"
+    },
+    {
+      "number": "29",
+      "title": "Restructuring",
+      "body": null,
+      "page_start": 2,
+      "part": "PART VII"
+    },
+    {
+      "number": "30",
+      "title": "Investment policy",
+      "body": null,
+      "page_start": 2,
+      "part": "PART VII"
+    },
+    {
+      "number": "31",
+      "title": "Dividends and distributable annual net profit",
+      "body": null,
+      "page_start": 2,
+      "part": "PART VII"
+    },
+    {
+      "number": "32",
+      "title": "Public interest service obligation",
+      "body": null,
+      "page_start": 2,
+      "part": "PART VIII"
+    },
+    {
+      "number": "33",
+      "title": "Transition to commercial viability",
+      "body": null,
+      "page_start": 2,
+      "part": "PART VIII"
+    },
+    {
+      "number": "34",
+      "title": "Non-discrimination and preferential treatment",
+      "body": null,
+      "page_start": 2,
+      "part": "PART IX"
+    },
+    {
+      "number": "35",
+      "title": "Financing by Government",
+      "body": null,
+      "page_start": 2,
+      "part": "PART IX"
+    },
+    {
+      "number": "36",
+      "title": "Exemption relating to non-discrimination and",
+      "body": null,
+      "page_start": 2,
+      "part": "PART IX"
+    },
+    {
+      "number": "37",
+      "title": "Strategic and business plan of state-owned enterprise",
+      "body": null,
+      "page_start": 3,
+      "part": "PART X"
+    },
+    {
+      "number": "38",
+      "title": "Performance contract",
+      "body": null,
+      "page_start": 3,
+      "part": "PART X"
+    },
+    {
+      "number": "39",
+      "title": "Annual operating plan",
+      "body": null,
+      "page_start": 3,
+      "part": "PART X"
+    },
+    {
+      "number": "40",
+      "title": "Monitoring and evaluation of performance contract",
+      "body": null,
+      "page_start": 3,
+      "part": "PART X"
+    },
+    {
+      "number": "41",
+      "title": "Dissolution of board",
+      "body": null,
+      "page_start": 3,
+      "part": "PART XI"
+    },
+    {
+      "number": "42",
+      "title": "Contraction of debt by state-owned enterprise",
+      "body": null,
+      "page_start": 3,
+      "part": "PART XI"
+    },
+    {
+      "number": "43",
+      "title": "Exemption from provision of Act",
+      "body": null,
+      "page_start": 3,
+      "part": "PART XI"
+    },
+    {
+      "number": "44",
+      "title": "Register",
+      "body": null,
+      "page_start": 3,
+      "part": "PART XI"
+    },
+    {
+      "number": "45",
+      "title": "Publication of copies of register",
+      "body": null,
+      "page_start": 3,
+      "part": "PART XI"
+    },
+    {
+      "number": "46",
+      "title": "Immunity",
+      "body": null,
+      "page_start": 3,
+      "part": "PART XI"
+    },
+    {
+      "number": "47",
+      "title": "Offence by principal officers of body corporate or",
+      "body": null,
+      "page_start": 3,
+      "part": "PART XI"
+    },
+    {
+      "number": "48",
+      "title": "General offences",
+      "body": null,
+      "page_start": 3,
+      "part": "PART XI"
+    },
+    {
+      "number": "49",
+      "title": "Guidelines",
+      "body": null,
+      "page_start": 3,
+      "part": "PART XI"
+    },
+    {
+      "number": "50",
+      "title": "Regulations",
+      "body": null,
+      "page_start": 3,
+      "part": "PART XI"
+    },
+    {
+      "number": "51",
+      "title": "Repeal of Cap. 408 and savings and transitional",
+      "body": null,
+      "page_start": 3,
+      "part": "PART XI"
+    },
+    {
+      "number": "1",
+      "title": "This Act may be cited as the State-owned Enterprises Act, Short title",
+      "body": null,
+      "page_start": 5,
+      "part": "PART I"
+    },
+    {
+      "number": "2",
+      "title": "In this Act, unless the context otherwise requires\u2014 Interpretation",
+      "body": null,
+      "page_start": 5,
+      "part": "PART I"
+    },
+    {
+      "number": "3",
+      "title": "(1) This Act shall not apply to a\u2014 Non-",
+      "body": null,
+      "page_start": 11,
+      "part": "PART I"
+    },
+    {
+      "number": "4",
+      "title": "The following principles shall be applied in achieving the Guiding",
+      "body": null,
+      "page_start": 11,
+      "part": "PART I"
+    },
+    {
+      "number": "6",
+      "title": "(1) The Civil Service Commission shall appoint as a public Director and",
+      "body": null,
+      "page_start": 13,
+      "part": "PART II"
+    },
+    {
+      "number": "7",
+      "title": "(1) Subject to subsection (3), a state-owned enterprise shall Incorporation",
+      "body": null,
+      "page_start": 13,
+      "part": "PART III"
+    },
+    {
+      "number": "10",
+      "title": "Subject to the Companies Act and sections 8 and 9, the Rights of",
+      "body": null,
+      "page_start": 17,
+      "part": "PART IV"
+    },
+    {
+      "number": "11",
+      "title": "The ownership rights of the Minister in a state-owned Ownership",
+      "body": null,
+      "page_start": 17,
+      "part": "PART IV"
+    },
+    {
+      "number": "13",
+      "title": "(1) The Minister may exercise the rights of a shareholder, Holding",
+      "body": null,
+      "page_start": 19,
+      "part": "PART IV"
+    },
+    {
+      "number": "17",
+      "title": "(1) The Emoluments Commission may, on the recommendation Remuneration",
+      "body": null,
+      "page_start": 23,
+      "part": "PART V"
+    },
+    {
+      "number": "23",
+      "title": "(1) A state-owned enterprise shall cause to be prepared a Financial",
+      "body": null,
+      "page_start": 27,
+      "part": "PART VI"
+    },
+    {
+      "number": "24",
+      "title": "(1) A board of a state-owned enterprise other than a Quarterly",
+      "body": null,
+      "page_start": 29,
+      "part": "PART VI"
+    },
+    {
+      "number": "31",
+      "title": "(1) The shareholders of a state-owned enterprise shall, on Dividends",
+      "body": null,
+      "page_start": 35,
+      "part": "PART VII"
+    },
+    {
+      "number": "33",
+      "title": "(1) A state-owned enterprise providing a public interest Transition",
+      "body": null,
+      "page_start": 37,
+      "part": "PART VIII"
+    },
+    {
+      "number": "34",
+      "title": "(1) The Government shall\u2014 Non-",
+      "body": null,
+      "page_start": 37,
+      "part": "PART IX"
+    },
+    {
+      "number": "38",
+      "title": "(1) The shareholders, or Minister, where the Minister has",
+      "body": null,
+      "page_start": 38,
+      "part": "PART X"
+    },
+    {
+      "number": "39",
+      "title": "(1) A board shall, prior to the commencement of a financial Annual",
+      "body": null,
+      "page_start": 39,
+      "part": "PART X"
+    },
+    {
+      "number": "44",
+      "title": "(1) The Department shall keep and maintain a register of Register",
+      "body": null,
+      "page_start": 41,
+      "part": "PART XI"
+    },
+    {
+      "number": "45",
+      "title": "(1) The Director shall, cause copies of a register, and any Publication",
+      "body": null,
+      "page_start": 41,
+      "part": "PART XI"
+    },
+    {
+      "number": "46",
+      "title": "An action or other proceedings shall not lie or be instituted Immunity",
+      "body": null,
+      "page_start": 41,
+      "part": "PART XI"
+    },
+    {
+      "number": "47",
+      "title": "Where an offence under this Act is committed by a body Offence by",
+      "body": null,
+      "page_start": 41,
+      "part": "PART XI"
+    },
+    {
+      "number": "48",
+      "title": "(1) A person commits an offence if that person\u2014 General",
+      "body": null,
+      "page_start": 41,
+      "part": "PART XI"
+    },
+    {
+      "number": "2",
+      "title": "(1) Subject to the other provisions of this Act, a board may Proceedings",
+      "body": null,
+      "page_start": 47,
+      "part": "PART XI"
+    },
+    {
+      "number": "3",
+      "title": "(1) A person who is present at a meeting of a board or any Disclosure",
+      "body": null,
+      "page_start": 47,
+      "part": "PART XI"
+    },
+    {
+      "number": "4",
+      "title": "(1) A person shall not, without the consent, in writing, given Prohibition",
+      "body": null,
+      "page_start": 47,
+      "part": "part i"
+    },
+    {
+      "number": "1",
+      "title": "(1) A person who, before the commencement of this Act, Staff of",
+      "body": null,
+      "page_start": 49,
+      "part": "part i"
+    },
+    {
+      "number": "2",
+      "title": "(1) A person who immediately before the commencement Director of",
+      "body": null,
+      "page_start": 49,
+      "part": "part i"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20State-Owned%20Enterprise%20Act%2C%202026.pdf",
+  "source_hash": "sha256:fef3b1ed9fa31f951824c081f1cfc7351feaaf0a48c5d08718b3b52a1940d35e",
+  "fetched_at": "2026-04-10T23:06:41Z",
+  "parser_version": "0.3.0"
+}

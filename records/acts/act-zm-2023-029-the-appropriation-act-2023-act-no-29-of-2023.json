@@ -1,0 +1,33 @@
+{
+  "id": "act-zm-2023-029-the-appropriation-act-2023-act-no-29-of-2023",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Appropriation Act, 2023( Act No. 29 of  2023)",
+  "citation": "Act No. 29 of 2023",
+  "version_type": "as_enacted",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Appropriation Act, 2023. Short title",
+      "body": null,
+      "page_start": 1,
+      "part": null
+    },
+    {
+      "number": "2",
+      "title": "(1) On the authority of a warrant issued by the President, Appropriation",
+      "body": null,
+      "page_start": 1,
+      "part": null
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2029%20of%202023%2C%20The%20Appropriation%20Act%2C%202023.pdf",
+  "source_hash": "sha256:d2f3a29310663daa445693d6446c7f8f955354c5de4f11f80395966f443b42cb",
+  "fetched_at": "2026-04-10T23:07:17Z",
+  "parser_version": "0.3.0"
+}

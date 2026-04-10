@@ -1,0 +1,460 @@
+{
+  "id": "act-zm-2023-024-the-access-to-information-act-2023-act-no-24-of-2023",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Access to Information Act, 2023( Act No. 24 of  2023)",
+  "citation": "Act No. 24 of 2023",
+  "version_type": "as_enacted",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "Short title and commencement",
+      "body": null,
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "2",
+      "title": "Interpretation",
+      "body": null,
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "3",
+      "title": "General principles governing the right to access information",
+      "body": null,
+      "page_start": 1,
+      "part": "PART I"
+    },
+    {
+      "number": "4",
+      "title": "Oversight of access to information",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "5",
+      "title": "Functions of Commission",
+      "body": null,
+      "page_start": 1,
+      "part": "PART II"
+    },
+    {
+      "number": "6",
+      "title": "Right to access information",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "7",
+      "title": "Duty to keep information",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "8",
+      "title": "Publication of certain information",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "9",
+      "title": "Appointment or designation of information officer",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "10",
+      "title": "Request to access information",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "11",
+      "title": "Transfer of request",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "12",
+      "title": "Grant or refusal of request",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "13",
+      "title": "Extension of time",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "14",
+      "title": "Deemed refusal of request",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "15",
+      "title": "Deferral of access",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "16",
+      "title": "Unavailable information",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "17",
+      "title": "Preservation of information",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "18",
+      "title": "Forms of access",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "19",
+      "title": "Language and format of access",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "20",
+      "title": "Notification of third parties",
+      "body": null,
+      "page_start": 1,
+      "part": "PART III"
+    },
+    {
+      "number": "21",
+      "title": "General limitation on right to access information",
+      "body": null,
+      "page_start": 2,
+      "part": "PART IV"
+    },
+    {
+      "number": "22",
+      "title": "Disclosure of information in public interest",
+      "body": null,
+      "page_start": 2,
+      "part": "PART IV"
+    },
+    {
+      "number": "23",
+      "title": "Personal information",
+      "body": null,
+      "page_start": 2,
+      "part": "PART IV"
+    },
+    {
+      "number": "24",
+      "title": "Commercial information of information holder or third",
+      "body": null,
+      "page_start": 2,
+      "part": "PART IV"
+    },
+    {
+      "number": "25",
+      "title": "Information that endangers life or safety of individuals or",
+      "body": null,
+      "page_start": 2,
+      "part": "PART IV"
+    },
+    {
+      "number": "26",
+      "title": "Information relating to law enforcement or other legal",
+      "body": null,
+      "page_start": 2,
+      "part": "PART IV"
+    },
+    {
+      "number": "27",
+      "title": "Privileged information",
+      "body": null,
+      "page_start": 2,
+      "part": "PART IV"
+    },
+    {
+      "number": "28",
+      "title": "Information relating to national security",
+      "body": null,
+      "page_start": 2,
+      "part": "PART IV"
+    },
+    {
+      "number": "29",
+      "title": "Information relating to national economy and ongoing",
+      "body": null,
+      "page_start": 2,
+      "part": "PART IV"
+    },
+    {
+      "number": "30",
+      "title": "Information prejudicial to policy formulation",
+      "body": null,
+      "page_start": 2,
+      "part": "PART IV"
+    },
+    {
+      "number": "31",
+      "title": "Frivolous and vexatious request",
+      "body": null,
+      "page_start": 2,
+      "part": "PART IV"
+    },
+    {
+      "number": "32",
+      "title": "Severability",
+      "body": null,
+      "page_start": 2,
+      "part": "PART IV"
+    },
+    {
+      "number": "33",
+      "title": "Appeal",
+      "body": null,
+      "page_start": 2,
+      "part": "PART V"
+    },
+    {
+      "number": "34",
+      "title": "Reports by information holder",
+      "body": null,
+      "page_start": 2,
+      "part": "PART V"
+    },
+    {
+      "number": "35",
+      "title": "Administration penalty",
+      "body": null,
+      "page_start": 2,
+      "part": "PART V"
+    },
+    {
+      "number": "36",
+      "title": "Offences",
+      "body": null,
+      "page_start": 2,
+      "part": "PART V"
+    },
+    {
+      "number": "37",
+      "title": "Immunity",
+      "body": null,
+      "page_start": 2,
+      "part": "PART V"
+    },
+    {
+      "number": "38",
+      "title": "Guidelines",
+      "body": null,
+      "page_start": 2,
+      "part": "PART V"
+    },
+    {
+      "number": "39",
+      "title": "Rules",
+      "body": null,
+      "page_start": 2,
+      "part": "PART V"
+    },
+    {
+      "number": "40",
+      "title": "Regulations",
+      "body": null,
+      "page_start": 2,
+      "part": "PART V"
+    },
+    {
+      "number": "41",
+      "title": "Savings and transitional provisions",
+      "body": null,
+      "page_start": 2,
+      "part": "PART V"
+    },
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Access to Information Act, Short title",
+      "body": null,
+      "page_start": 3,
+      "part": "PART I"
+    },
+    {
+      "number": "2",
+      "title": "(1) In this Act, unless the context otherwise requires\u2014 Interpretation",
+      "body": null,
+      "page_start": 3,
+      "part": "PART I"
+    },
+    {
+      "number": "4",
+      "title": "(1) The Human Rights Commission established under the Oversight of",
+      "body": null,
+      "page_start": 5,
+      "part": "PART II"
+    },
+    {
+      "number": "5",
+      "title": "The functions of the Commission are to\u2014 Functions of",
+      "body": null,
+      "page_start": 5,
+      "part": "PART II"
+    },
+    {
+      "number": "12",
+      "title": "(1) Subject to subsection (2), an information holder that Grant or",
+      "body": null,
+      "page_start": 9,
+      "part": "PART III"
+    },
+    {
+      "number": "13",
+      "title": "(1) Subject to subsection (2), an information holder to which Extension of",
+      "body": null,
+      "page_start": 9,
+      "part": "PART III"
+    },
+    {
+      "number": "16",
+      "title": "(1) Where the information requested cannot be found or Unavailable",
+      "body": null,
+      "page_start": 11,
+      "part": "PART III"
+    },
+    {
+      "number": "17",
+      "title": "An information holder that receives a request shall take Preservation",
+      "body": null,
+      "page_start": 11,
+      "part": "PART III"
+    },
+    {
+      "number": "18",
+      "title": "(1) An information holder may give access to information Forms of",
+      "body": null,
+      "page_start": 11,
+      "part": "PART III"
+    },
+    {
+      "number": "22",
+      "title": "(1) Despite any other provision of this Act, an information Disclosure of",
+      "body": null,
+      "page_start": 13,
+      "part": "PART IV"
+    },
+    {
+      "number": "23",
+      "title": "(1) Subject to subsection (2), an information holder shall Personal",
+      "body": null,
+      "page_start": 13,
+      "part": "PART IV"
+    },
+    {
+      "number": "25",
+      "title": "(1) An information holder shall not grant a request if the Information",
+      "body": null,
+      "page_start": 15,
+      "part": "PART IV"
+    },
+    {
+      "number": "26",
+      "title": "An information holder may not grant a request if the\u2014 Information",
+      "body": null,
+      "page_start": 15,
+      "part": "PART IV"
+    },
+    {
+      "number": "29",
+      "title": "An information holder may not grant a request if the",
+      "body": null,
+      "page_start": 18,
+      "part": "PART IV"
+    },
+    {
+      "number": "31",
+      "title": "An information holder may not grant a request if\u2014 Frivolous and",
+      "body": null,
+      "page_start": 19,
+      "part": "PART IV"
+    },
+    {
+      "number": "32",
+      "title": "An information holder shall, where a request relates to Severability",
+      "body": null,
+      "page_start": 19,
+      "part": "PART IV"
+    },
+    {
+      "number": "33",
+      "title": "(1) A person who is aggrieved by a decision of an",
+      "body": null,
+      "page_start": 19,
+      "part": "PART V"
+    },
+    {
+      "number": "37",
+      "title": "An action or other proceedings shall not lie or be instituted Immunity",
+      "body": null,
+      "page_start": 21,
+      "part": "Part IV"
+    },
+    {
+      "number": "38",
+      "title": "(1) The Commission may, in consultation with the Ministry Guidelines",
+      "body": null,
+      "page_start": 21,
+      "part": "Part IV"
+    },
+    {
+      "number": "39",
+      "title": "The Chief Justice may, by statutory instrument, make Rules",
+      "body": null,
+      "page_start": 21,
+      "part": "Part IV"
+    },
+    {
+      "number": "1",
+      "title": "(1) An information holder shall progressively comply with Period for",
+      "body": null,
+      "page_start": 23,
+      "part": "Part IV"
+    },
+    {
+      "number": "2",
+      "title": "An information holder shall facilitate appropriate training Training of",
+      "body": null,
+      "page_start": 23,
+      "part": "Part IV"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2024%20of%202023%2C%20The%20Access%20to%20Information%20Act%2C%202023.pdf",
+  "source_hash": "sha256:7bb8455323a90f9b3865c2974123543bebbc304a68bbf82af23739f0f6e0acbb",
+  "fetched_at": "2026-04-10T23:06:52Z",
+  "parser_version": "0.3.0"
+}
