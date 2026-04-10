@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-2021-019-national-heritage-conservation-commission-amendment-act-2021",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "National Heritage Conservation Commission (Amendment) Act, 2021",
+  "citation": "Act No. 19 of 2021",
+  "enacted_date": "2021-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the National Heritage Shorttitle",
+      "text": "ConservationCommission(Amendment)Act,2021, and shall be\nread as onewiththe NationalHeritageConservationCommission Cap.173\nAct,inthisActreferredtoas the principalAct."
+    },
+    {
+      "number": "2",
+      "heading": "Section5(1)oftheprincipalActisamendedbythedeletion Amendment",
+      "text": "ofparagraph(b)andthesubstitutionthereforofthefollowing: of section5\n(b)arepresentativeoftheministryresponsibleforheritage;.\n206"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2019%20%20of%202021%20The%20National%20Heritage%20Conservation%20Commission%20Amendment.pdf",
+  "source_hash": "sha256:e5e6327700d38a97e95979c6b788d4b3e4131571a3f33b160cf9404be5b72afe",
+  "fetched_at": "2026-04-10T18:03:43Z",
+  "parser_version": "0.2.0",
+  "node_url": "https://www.parliament.gov.zm/node/8854"
+}

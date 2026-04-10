@@ -101,3 +101,15 @@ inventory.
 - **act-zm-2017-017-zambia-national-broadcasting-corporation-amendment** (2 sections): Brief broadcasting amendment. Verify completeness.
 - **act-zm-2017-018-independent-broadcasting-authority-amendment** (1 section): Brief IBA amendment (13 KB PDF); stored as single section. Verify completeness.
 - SSL: parliament.gov.zm certificate verification handled via requests library with verify=False; content integrity verified via sha256 hashes.
+
+## Batch 0010 — Parse quality flags (2026-04-10)
+
+- **act-zm-2021-021-health-professions-amendment-act-2021** (3 sections): Brief Health Professions amendment; verify completeness.
+- **act-zm-2021-020-rural-electrification-amendment-act-2021** (3 sections): Brief Rural Electrification amendment; verify completeness.
+- **act-zm-2021-019-national-heritage-conservation-commission-amendment-act-2021** (2 sections): Brief NHCC amendment; verify completeness.
+- **act-zm-2021-018-examination-council-of-zambia-amendment-act-2021** (2 sections): Brief ECZ amendment; verify completeness.
+- **act-zm-2021-017-zambia-law-development-commission-amendment-act-2021** (3 sections): Brief ZLDC amendment; verify completeness.
+- **act-zm-2021-016-zambia-institute-of-advanced-legal-education-amendment-act-2021** (3 sections): Brief ZIALE amendment; verify completeness.
+- **act-zm-2021-015-zambia-revenue-authority-amendment-act-2021** (2 sections): Brief ZRA amendment; verify completeness.
+- **act-zm-2021-022-public-private-partnership-amendment-act-2021**: PDF NOT FOUND on node page https://www.parliament.gov.zm/node/8834 — needs manual retrieval or alternative source (ZambiaLII).
+- SSL: parliament.gov.zm certificate verification handled via requests library with verify=False; content integrity verified via sha256 hashes.

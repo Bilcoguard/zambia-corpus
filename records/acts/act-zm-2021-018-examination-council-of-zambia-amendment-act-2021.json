@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-2021-018-examination-council-of-zambia-amendment-act-2021",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Examination Council of Zambia (Amendment) Act, 2021",
+  "citation": "Act No. 18 of 2021",
+  "enacted_date": "2021-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Examinations Council of Shorttitle",
+      "text": "Zambia(Amendment)Act,2021,andshallbereadasonewiththe Cap.137\nExaminations Council of ZambiaAct, in this Act referred to as\nthe principalAct."
+    },
+    {
+      "number": "2",
+      "heading": "Section5(1)oftheprincipalActisamendedbythedeletion Amendment",
+      "text": "of paragraphs (b) and (c) and the substitution therefor of the ofSection5\nfollowing:\n(b) a representative of the ministry responsible for general\neducation;and\n(c) a representative of the ministry responsible for higher\neducation;.\nSinglecopiesofthisActmaybeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka,PriceK4.00each.\n204"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2018%20of%202021%20The%20Examinations%20Council%20of%20Zambia%20Amendment.pdf",
+  "source_hash": "sha256:95862df919f230ac39c393fd5e24f497d521be60571a20ee7a6971cedaca7f91",
+  "fetched_at": "2026-04-10T18:03:43Z",
+  "parser_version": "0.2.0",
+  "node_url": "https://www.parliament.gov.zm/node/8851"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "act-zm-2021-021-health-professions-amendment-act-2021",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Health Professions (Amendment) Act, 2021",
+  "citation": "Act No. 21 of 2021",
+  "enacted_date": "2021-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "The Act may be cited as the Health Professions Shorttitle",
+      "text": "(Amendment)Act,2021,andshallbe readasonewith theHealth ActNo.24\nProfessionsAct, 2009,in thisActreferredtoastheprincipalAct. of2009"
+    },
+    {
+      "number": "2",
+      "heading": "Section4oftheprincipalActisamendedbytheinsertionof Amendment",
+      "text": "thefollowingnewsubsectionsimmediatelyaftersubsection2: ofsection4\n(3) TheMinistermaygivetheCouncilgeneralorspecific\ndirectionsrelatingtotheperformanceofitsfunctionsand\ntheCouncilshallgiveeffecttothesedirectionstotheextent\nthatthedirectionsarenotinconsistentwiththisAct.\n(4) TheMinistermayenterintoperformancecontractswith\ntheCouncilforaspecifiedperiodwhichshallbeconsistent\nwiththeprovisionsofthisAct."
+    },
+    {
+      "number": "3",
+      "heading": "Paragraph1oftheFirstScheduleisamendedbythedeletion Amendment",
+      "text": "ofsubparagraph(b)andthesubstitutionthereforofthefollowing: of\nFirst\n(b) arepresentativeoftheministryresponsibleforhealth;. Schedule\nSinglecopiesofthisActmaybeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka,PriceK4.00each.\n210"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/ACT%20NO.%2021%20%20OF%202021%20THE%20HEALTH%20PROFESSIONS%20%28AMENDMENT%29.pdf",
+  "source_hash": "sha256:bf0a24b0910e183265afc86e36a68c42f9175a50e310f54aa2886816d8f4895e",
+  "fetched_at": "2026-04-10T18:03:43Z",
+  "parser_version": "0.2.0",
+  "node_url": "https://www.parliament.gov.zm/node/8833"
+}

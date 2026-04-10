@@ -1,0 +1,34 @@
+{
+  "id": "act-zm-2021-017-zambia-law-development-commission-amendment-act-2021",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Zambia Law Development Commission (Amendment) Act, 2021",
+  "citation": "Act No. 17 of 2021",
+  "enacted_date": "2021-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "The Act may be cited as the Zambia Law Development Shorttitle",
+      "text": "Commission (Amendment) Act, 2021, and shall be read as one\nwiththe ZambiaLaw Development CommissionAct,inthisAct Cap. 32\nreferredtoastheprincipalAct."
+    },
+    {
+      "number": "2",
+      "heading": "Section4oftheprincipalActisamendedbytheinsertionof Amendment",
+      "text": "ofsection4\nthefollowingnewsubsectionsimmediatelyaftersubsection2:\n(3) TheMinistermaygivetheCommissiongeneral\nor specific directions relating to the performance of its\nfunctions and the Commission shall give effect to these\ndirections to the extent that the directions are not\ninconsistentwiththisAct.\n(4) The Minister may enter into performance\ncontractswiththeCommissionforaspecifiedperiodwhich\nshallbeconsistentwiththeprovisionsofthisAct."
+    },
+    {
+      "number": "3",
+      "heading": "Section5(1)(b)oftheprincipalActisamendedbythedeletion Amendment",
+      "text": "ofsection5\nofsubparagraph(ii)andsubstitutionthereforofthefollowing:\n(ii) NationalArtsCouncil;.\nSinglecopiesofthisActmaybeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka,PriceK4.00each.\n202"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2017%20of%202021%20%20The%20Zambia%20Law%20Development%20Commission%20Amendment.pdf",
+  "source_hash": "sha256:4f683135eb15c515e61d145330c5baa5c4946bdf4ce1e87029f1007f5ec74f89",
+  "fetched_at": "2026-04-10T18:03:43Z",
+  "parser_version": "0.2.0",
+  "node_url": "https://www.parliament.gov.zm/node/8850"
+}

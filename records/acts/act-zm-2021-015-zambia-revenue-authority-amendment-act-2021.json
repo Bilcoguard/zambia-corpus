@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-2021-015-zambia-revenue-authority-amendment-act-2021",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Zambia Revenue Authority (Amendment) Act, 2021",
+  "citation": "Act No. 15 of 2021",
+  "enacted_date": "2021-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Actmay be cited as the ZambiaRevenue Authority Shorttitle",
+      "text": "(Amendment)Act,2021,and shall beread asonewiththe Zambia Cap.321\nRevenueAuthorityAct,inthisActreferredtoasthe principalAct."
+    },
+    {
+      "number": "2",
+      "heading": "Section10(1)oftheprincipalActisamendedbythe Amendment",
+      "text": "deletionofparagraphs(a)and(b)andthesubstitutionthereforof of\nsection10\nthefollowing:\n(a) a representative of the Secretary to the Treasury; and\n(b) arepresentativeoftheAttorney-General.\nSinglecopiesofthisActmaybeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka,PriceK4.00each.\n198"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/ACT%20NO.%2015%20OF%202021%20THE%20ZAMBIA%20REVENUE%20AUTHORITY%20%28AMENDMENT%29.pdf",
+  "source_hash": "sha256:55f61b02fcaaaf425aa89b12ddb8becbd2154d954d6e02ca684eb9314597c060",
+  "fetched_at": "2026-04-10T18:04:36Z",
+  "parser_version": "0.2.0",
+  "node_url": "https://www.parliament.gov.zm/node/8848"
+}
