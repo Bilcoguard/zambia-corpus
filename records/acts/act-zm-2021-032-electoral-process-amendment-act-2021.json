@@ -1,0 +1,39 @@
+{
+  "id": "act-zm-2021-032-electoral-process-amendment-act-2021",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Electoral Process (Amendment) Act, 2021",
+  "citation": "Act No. 32 of 2021",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Electoral Process Short title",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": "(Amendment) Act, 2021, and shall be read as one with the Electoral\nProcess Act, 2016, in this Act referred to as the principal Act. Act No. 35\nof 2016\n2. Section 2 of the principal Act is amended by the insertion of Amendment\nthe following new definitions in the appropriate places in alphabetical of section 2\norder:\n“ correctional centre” has the meaning assigned to the words\nin the Zambia Correctional Service Act, 2021; Act No. 37\nof 2021\n“correctional officer” has the meaning assigned to the words\nin the Zambia Correctional Service Act, 2021; Act No. 37\nof 2021\n“inmate” has the meaning assigned to the word in the Zambia Act No. 37\nCorrectional Service Act, 2021; of 2021\n“legally disqualified” means the absence of legal capacity as\nprovided in section 4 of the Mental Health Act; Act No. 6 of\n2019\n“officer-in-charge” has the meaning assigned to the word in\nthe Zambia Correctional Service Act, 2021; Act No. 37\nof 2021\n“prison” has the meaning assigned to the word in the Zambia Act No. 37\nCorrectional Service Act, 2021;; and of 2021\n“State institution” has the meaning assigned to the words in\nthe Constitution;. Cap. 1\n3. The principal Act is amended by the repeal of section 9 and Repeal and\nreplacement\nthe substitution therefor of the following:\nof section 9\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K8.00 each.",
+      "subsections": []
+    },
+    {
+      "number": "7",
+      "title": "Section 89(1) of the principal Act is amended by the Amendment",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": "insertion of the following new paragraph immediately after of section 89\nparagraph (n):\n(o) without lawful authority announce and declare the results\nof an election.\n8. Section 125(2) of the principal Act is amended by the — Amendment\nof section\n(a) insertion of the following new paragraph immediately after 125\nparagraph (w):\n(x) the electoral processes at prisons and correctional\ncentres; and\n(b) renumbering of paragraph (x) as paragraph (y).",
+      "subsections": []
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Act%20No.%2032%20of%202021%2C%20Electoral%20Process%20Amendment.pdf",
+  "source_hash": "sha256:5b2a1825b401861f8d3aa9c960710d9a6ccf7de19180dd3cb675b0be0df66dbf",
+  "fetched_at": "2026-04-10T19:35:25Z",
+  "parser_version": "0.3.0",
+  "notes": "Fetched from parliament.gov.zm node/9002. SSL verification disabled in sandbox (content integrity verified via sha256 hash). 2 section(s) extracted."
+}

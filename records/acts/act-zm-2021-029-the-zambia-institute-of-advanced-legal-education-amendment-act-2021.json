@@ -1,0 +1,30 @@
+{
+  "id": "act-zm-2021-029-the-zambia-institute-of-advanced-legal-education-amendment-act-2021",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Zambia Institute of Advanced Legal Education (Amendment) Act, 2021",
+  "citation": "Act No. 29 of 2021",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Zambia Institute of Advanced Short title",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": "Legal Education (Amendment) Act, 2021, and shall be read as one\nwith the Zambia Institute of Advanced Legal Education Act, in this Cap. 49\nAct referred to as the principal Act.\n2. Section 2 of the principal Act is amended by the insertion of Amendment\nthe following new definition in the appropriate place in alphabetical of\nsection 2\norder:\n“Zambia Qualifications Authority” means the Zambia\nQualifications Authority established under the Zambia Act No. 13\nQualifications Authority Act, 2011. of 2011\n3. Section 4 (2) of the principal Act is amended by the — Amendment\n(a) deletion of paragraph (e); of\nsection 4\n(b) deletion of paragraph (f) and the substitution therefor\nof the following:\n(f) recommend to the Zambia Qualifications Authority,\naccreditation and recognition of minimum\nrequired courses to be completed as part of\nqualifications of foreign students who wish to\nbe enrolled as students of the Institute;; and\n(c) renumbering of paragraphs (f), (g), (h), (i), (j), (k), (l)\nand (m) as paragraphs (e), (f), (g), (h), (i), (j), (k) and\n(l), respectively.\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K4.00 each.",
+      "subsections": []
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/ACT%20No.%2029%20of%202021%2C%20THE%20ZAMBIA%20INSTITUTE%20OF%20LEGAL%20ADVANCED%20EDUCATION%20%28AMENDMENT%29pdf_0.pdf",
+  "source_hash": "sha256:f6a4c9045eb2c8b11b93e114532f64ae85c867651af8992da9e10e411ccb6697",
+  "fetched_at": "2026-04-10T19:35:25Z",
+  "parser_version": "0.3.0",
+  "notes": "Fetched from parliament.gov.zm node/8998. SSL verification disabled in sandbox (content integrity verified via sha256 hash). 1 section(s) extracted."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "act-zm-2021-026-the-health-professions-amendment-act-2021",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Health Professions (Amendment) Act, 2021",
+  "citation": "Act No. 26 of 2021",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Health Professions Shorttitle",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": "(Amendment) Act, 2021, and shall be read as one with the\nHealth Professions Act, 2009, in this Act referred to as the ActNo.24\nprincipalAct. of 2009\n2. Section2oftheprincipalActis amendedbytheinsertion Amendment\nofsection2\nof the following new definitions in the appropriate places in\nalphabeticalorder:\n“HigherEducationAuthority”means theHigher Education\nAuthority established under the Higher Education Act, Act No. 4 of\n2013\n2013;and\n“Zambia Qualifications Authority” means the Zambia\nQualifications Authority established under the Zambia Act No. 13\nof2011\nQualificationsAuthorityAct,2011.\n3. Section8oftheprincipalActis amendedbythedeletionof Amendment\nof section8\nsubsection(7)andthesubstitutionthereforofthefollowing:\n(7) The Minister may, by statutory instrument, on the\nrecommendation of the Council, prescribe the scope of practice\nforhealthpractitionersregisteredunderthisAct.\nSinglescopiesofthisActmaybeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka.PriceK4.00each",
+      "subsections": []
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2026%20of%202021%2C%20The%20Health%20Professions%20%20%28Amendment%29%20Act%202021%20%281%29.pdf",
+  "source_hash": "sha256:21795ce8c9acac456ef4e0dc85c1ddcd0716f6e04667acac6ef5b888da28113c",
+  "fetched_at": "2026-04-10T19:35:25Z",
+  "parser_version": "0.3.0",
+  "notes": "Fetched from parliament.gov.zm node/8995. SSL verification disabled in sandbox (content integrity verified via sha256 hash). 1 section(s) extracted."
+}

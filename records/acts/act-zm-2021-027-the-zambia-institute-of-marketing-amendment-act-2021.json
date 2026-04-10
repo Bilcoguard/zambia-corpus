@@ -1,0 +1,30 @@
+{
+  "id": "act-zm-2021-027-the-zambia-institute-of-marketing-amendment-act-2021",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Zambia Institute of Marketing (Amendment) Act, 2021",
+  "citation": "Act No. 27 of 2021",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "ThisActmaybecitedastheZambiaInstituteofMarketing Shorttitle",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": "(Amendment)Act,2021,andshallbereadasonewiththeZambia ActNo.14\nInstitute of Marketing Act, 2003, in this Act referred to as the of2003\nprincipalAct.\n2. Section2oftheprincipalActis amendedbytheinsertion Amendment\nof the following new definitions in the appropriate places in of\nsection2\nalphabeticalorder:\n“HigherEducationAuthority” means the Higher Education\nAuthorityestablishedundertheHigherEducationAct,\nAct No. 4 of\n2013;;and 2013\n“Zambia Qualifications Authority” means the Zambia\nQualificationsAuthorityestablishedundertheZambia ActNo.13\nQualificationsAuthorityAct,2011. of2011\n3. Section4oftheprincipalActisamendedbythedeletionof Amendment\nparagraph(c)andthesubstitutionthereforofthefollowing: of\nsection4\n(c) conduct training programs accredited by the Higher\nEducationAuthorityofpersonsinmarketing;.\n4. Section8(3)oftheprincipalActisamendedbytheinsertion Amendment\nof the words “accredited and recognised by the Zambia ofsection8\nQualificationsAuthority” immediately after the word\n“qualifications”.\nSinglecopiesofthisActmaybeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka,PriceK4.00each.",
+      "subsections": []
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2027%20of%202021%2C%20The%20Zambia%20Institute%20of%20Marketing%20Amendment.pdf",
+  "source_hash": "sha256:4b87a3a1b4ae3148df673da79db8b6be91f7efa63cc405db3f6d9c2f0babc17f",
+  "fetched_at": "2026-04-10T19:35:25Z",
+  "parser_version": "0.3.0",
+  "notes": "Fetched from parliament.gov.zm node/8996. SSL verification disabled in sandbox (content integrity verified via sha256 hash). 1 section(s) extracted."
+}

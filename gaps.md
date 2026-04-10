@@ -124,3 +124,13 @@ inventory.
 - Act No. 12 of 2021: only 2 sections (brief amendment act, may need re-parse)
 - Act No. 13 of 2021: only 2 sections (brief amendment act, may need re-parse)
 - Act No. 14 of 2021: only 2 sections (brief amendment act, may need re-parse)
+
+## Batch 0013 — Parse quality flags (2026-04-10T19:37:30Z)
+
+- **act-zm-2021-026-the-health-professions-amendment-act-2021** (1 section): The Health Professions (Amendment) Act, 2021 — brief amendment act; verify completeness.
+- **act-zm-2021-027-the-zambia-institute-of-marketing-amendment-act-2021** (1 section): The Zambia Institute of Marketing (Amendment) Act, 2021 — brief amendment act; verify completeness.
+- **act-zm-2021-028-the-engineering-institution-of-zambia-amendment-act-2021** (1 section): The Engineering Institution of Zambia (Amendment) Act, 2021 — brief amendment act; verify completeness.
+- **act-zm-2021-029-the-zambia-institute-of-advanced-legal-education-amendment-act-2021** (1 section): The Zambia Institute of Advanced Legal Education (Amendment) Act, 2021 — brief amendment act; verify completeness.
+- **act-zm-2021-030-the-chartered-institute-of-logistics-and-transport-amendment-act-2021** (1 section): The Chartered Institute of Logistics and Transport (Amendment) Act, 2021 — brief amendment act; verify completeness.
+- **act-zm-2021-031-the-zambia-institute-of-tourism-and-hospitality-studies-amendment-act-2021** (1 section): The Zambia Institute of Tourism and Hospitality Studies (Amendment) Act, 2021 — brief amendment act; verify completeness.
+- **act-zm-2021-032-electoral-process-amendment-act-2021** (2 section): Electoral Process (Amendment) Act, 2021 — brief amendment act; verify completeness.

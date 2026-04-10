@@ -1,0 +1,30 @@
+{
+  "id": "act-zm-2021-028-the-engineering-institution-of-zambia-amendment-act-2021",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Engineering Institution of Zambia (Amendment) Act, 2021",
+  "citation": "Act No. 28 of 2021",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Engineering Institution of Shorttitle",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": "Zambia(Amendment)Act,2021,andshallbereadasonewiththe\nEngineeringInstitutionofZambiaAct,2010,inthisActreferredto ActNo.17\nastheprincipalAct. of 2010\n2. Section2oftheprincipalActisamendedbytheinsertion Amendment\nof the following new definitions in the appropriate places in ofsection2\nalphabeticalorder:\n“HigherEducationAuthority”means theHigher Education\nAuthorityestablishedundertheHigherEducationAct,2013; Act No. 4 of\nand 2013\n“Zambia Qualifications Authority” means the Zambia\nQualifications Authority established under the Zambia Act No. 13\nQualificationsAuthorityAct,2011;. of2011\n3. Section4oftheprincipalActisamended— Amendment\nof section4\n(a)insubsection(1)bythe—\n(i)deletionofparagraph(m);and\n(ii) renumbering of paragraphs (n), (o), and (p) as\nparagraphs (m),(n)and (o), respectively; and",
+      "subsections": []
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2028%20of%202021%2C%20The%20Engineering%20Institution%20of%20Zambia%20%28Amendment%29%202021_0.pdf",
+  "source_hash": "sha256:95dd7820628cde8a3abe19fc97b535e10cfe3e7c7de1ea9f9063487bde3b40b8",
+  "fetched_at": "2026-04-10T19:35:25Z",
+  "parser_version": "0.3.0",
+  "notes": "Fetched from parliament.gov.zm node/8997. SSL verification disabled in sandbox (content integrity verified via sha256 hash). 1 section(s) extracted."
+}
