@@ -1,0 +1,473 @@
+{
+  "id": "act-zm-2025-001-plant-health-2025",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Plant Health Act ,2025",
+  "citation": "Act No. 1 of 2025",
+  "version_type": "as_enacted",
+  "in_force": null,
+  "amended_by": [],
+  "sections": [
+    {
+      "number": "1",
+      "title": "Short title and commencement",
+      "body": null,
+      "page_start": 1
+    },
+    {
+      "number": "2",
+      "title": "Interpretation",
+      "body": "PART II\nTHE PLANT QUARANTINE AND PHYTOSANITARY SERVICE DEPARTMENT",
+      "page_start": 1
+    },
+    {
+      "number": "3",
+      "title": "Plant Quarantine and Phytosanitary Service Department",
+      "body": null,
+      "page_start": 1
+    },
+    {
+      "number": "4",
+      "title": "Director, inspectors and other staff",
+      "body": null,
+      "page_start": 1
+    },
+    {
+      "number": "5",
+      "title": "Delegation of powers and duties of inspectors to customs",
+      "body": "officer or authorised person\nPART III\nREGISTRATION OF PEST CONTROLLERS",
+      "page_start": 1
+    },
+    {
+      "number": "6",
+      "title": "Prohibition of employment or engagement as pest controller",
+      "body": "without registration",
+      "page_start": 1
+    },
+    {
+      "number": "7",
+      "title": "Application for registration as pest controller",
+      "body": "PART IV\nREGISTRATION OF PLANT RELATED STRUCTURES",
+      "page_start": 1
+    },
+    {
+      "number": "8",
+      "title": "Prohibition of operating plant health related structure without",
+      "body": "registration",
+      "page_start": 1
+    },
+    {
+      "number": "9",
+      "title": "Registration of plant related structure",
+      "body": null,
+      "page_start": 1
+    },
+    {
+      "number": "10",
+      "title": "Requirements for registered laboratory",
+      "body": null,
+      "page_start": 1
+    },
+    {
+      "number": "11",
+      "title": "Inspection of plant related structure",
+      "body": "PART V\nIMPORTATION OF A PLANT, PLANT PRODUCT AND ARTICLE",
+      "page_start": 1
+    },
+    {
+      "number": "12",
+      "title": "Prohibition of importation of plant, plant product or article",
+      "body": "without plant import permit and phytosanitary certificate",
+      "page_start": 1
+    },
+    {
+      "number": "13",
+      "title": "Application for plant import permit",
+      "body": null,
+      "page_start": 1
+    },
+    {
+      "number": "14",
+      "title": "Suspension or revocation of plant import permit",
+      "body": "Single copies of this Act may be obtained from the Government Printer,\nP. O. Box 30136, 10101 Lusaka. Price K176.00 each\n2 No. 1 of 2025] Plant Health",
+      "page_start": 1
+    },
+    {
+      "number": "15",
+      "title": "Obligation of owner, master, passenger, captain or agent of",
+      "body": "conveyance",
+      "page_start": 2
+    },
+    {
+      "number": "16",
+      "title": "Duty of customs officer or other relevant officer",
+      "body": null,
+      "page_start": 2
+    },
+    {
+      "number": "17",
+      "title": "Importation for scientific or research purposes",
+      "body": null,
+      "page_start": 2
+    },
+    {
+      "number": "18",
+      "title": "Seizure, detention and destruction of infested imported",
+      "body": "consignment",
+      "page_start": 2
+    },
+    {
+      "number": "19",
+      "title": "Prohibition, restriction and regulation of import of plant, plant",
+      "body": "product or article",
+      "page_start": 2
+    },
+    {
+      "number": "20",
+      "title": "Costs for treatment, removal and destruction of infected",
+      "body": "imported consignement\nPART VI\nEXPORTATION OR RE-EXPORTATION OF PLANT, PLANT PRODUCT AND\nARTICLE",
+      "page_start": 2
+    },
+    {
+      "number": "21",
+      "title": "Prohibition of export or re-export of plant, plant product or",
+      "body": "article without phytosanitary certificate",
+      "page_start": 2
+    },
+    {
+      "number": "22",
+      "title": "Application for phytosanitary certificate",
+      "body": null,
+      "page_start": 2
+    },
+    {
+      "number": "23",
+      "title": "Suspension or revocation of phytosanitary certificate",
+      "body": null,
+      "page_start": 2
+    },
+    {
+      "number": "24",
+      "title": "Pre-clearance of plant, plant product or article to be exported",
+      "body": "PART VII\nTRANSIT OF PLANT, PLANT PRODUCT OR ARTICLE",
+      "page_start": 2
+    },
+    {
+      "number": "25",
+      "title": "Prohibition of transit of plant, plant product or article without",
+      "body": "transit permit",
+      "page_start": 2
+    },
+    {
+      "number": "26",
+      "title": "Application for transit permit",
+      "body": null,
+      "page_start": 2
+    },
+    {
+      "number": "27",
+      "title": "Suspension or revocation of transit permit",
+      "body": "PART VIII\nCONTAINMENT AND ERADICATION OF PESTS",
+      "page_start": 2
+    },
+    {
+      "number": "28",
+      "title": "Notification of presence of pest by owner or occupier of",
+      "body": "premises or local authorities",
+      "page_start": 2
+    },
+    {
+      "number": "29",
+      "title": "Declaration of quarantine land, premises or area",
+      "body": null,
+      "page_start": 2
+    },
+    {
+      "number": "30",
+      "title": "Designation of quarantine station",
+      "body": null,
+      "page_start": 2
+    },
+    {
+      "number": "31",
+      "title": "Declaration of infested land, premises or area",
+      "body": null,
+      "page_start": 2
+    },
+    {
+      "number": "32",
+      "title": "Duty of owner to eradicate pest",
+      "body": null,
+      "page_start": 2
+    },
+    {
+      "number": "33",
+      "title": "Seizure and detention of plant, plant product or article from",
+      "body": "infested or quarantine land, premises or area",
+      "page_start": 2
+    },
+    {
+      "number": "34",
+      "title": "Destruction of plant from infested or quarantine land, premises",
+      "body": "or area\nPlant Health [No. 1 of 2025 3",
+      "page_start": 2
+    },
+    {
+      "number": "35",
+      "title": "Lifting of declaration of quarantine",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "36",
+      "title": "Declaration of pest free land, premises or area",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "37",
+      "title": "Declaration of low pest prevalence area",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "38",
+      "title": "Prevention of introduction of invasive alien species",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "39",
+      "title": "Regulatory powers to eradicate pest",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "40",
+      "title": "Declaration of phytosanitary emergency",
+      "body": "PART IX\nINSPECTION",
+      "page_start": 3
+    },
+    {
+      "number": "41",
+      "title": "Inspectors",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "42",
+      "title": "Powers of inspectors",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "43",
+      "title": "Inspection of imported plant, plant product or article",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "44",
+      "title": "Inspection of in transit plant, plant product, article or conveyance",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "45",
+      "title": "Detention, seizure, destruction, etc. of imported plant, plant product or article",
+      "body": "unlawfully imported",
+      "page_start": 3
+    },
+    {
+      "number": "46",
+      "title": "Detention of conveyance",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "47",
+      "title": "Seizure of plant, plant product or article",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "48",
+      "title": "Disposal of seized plant, plant product or article",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "49",
+      "title": "Disposal of abandoned plant, plant product or article",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "50",
+      "title": "Obstruction of inspector",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "51",
+      "title": "Arrest without warrant",
+      "body": "PART X\nGENERAL PROVISIONS",
+      "page_start": 3
+    },
+    {
+      "number": "52",
+      "title": "Suspension or cancellation of certificate of registration",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "53",
+      "title": "Re-registration",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "54",
+      "title": "Transfer of plant, import permit, phytosanitary certificate or certificate of",
+      "body": "registration",
+      "page_start": 3
+    },
+    {
+      "number": "55",
+      "title": "Cessation of business",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "56",
+      "title": "Change of details",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "57",
+      "title": "Duplicate certificate of registration, plant import permit or phytosanitary",
+      "body": "certificate",
+      "page_start": 3
+    },
+    {
+      "number": "58",
+      "title": "Compliance order",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "59",
+      "title": "Detention order",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "60",
+      "title": "Cost order",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "61",
+      "title": "Compliance audit",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "62",
+      "title": "Offence by principal officers of body corporate or unincorporate body",
+      "body": null,
+      "page_start": 3
+    },
+    {
+      "number": "63",
+      "title": "Administrative penalty",
+      "body": "4 No. 1 of 2025] Plant Health",
+      "page_start": 3
+    },
+    {
+      "number": "64",
+      "title": "Guidelines",
+      "body": null,
+      "page_start": 4
+    },
+    {
+      "number": "65",
+      "title": "Prohibition of publication or disclosure of information to unauthorised persons",
+      "body": null,
+      "page_start": 4
+    },
+    {
+      "number": "66",
+      "title": "Immunity",
+      "body": null,
+      "page_start": 4
+    },
+    {
+      "number": "67",
+      "title": "Appeals",
+      "body": "68 General offences\n69 Regulations",
+      "page_start": 4
+    },
+    {
+      "number": "70",
+      "title": "Repeal of Plant Pests and Diseases Act, and Savings and Transitional",
+      "body": "Provisions\nPlant Health [No. 1 of 2025 5\nGOVERNMENT OF ZAMBIA\nACT\nNo. 1 of 2025\nDate of Assent: 8th April, 2025\nAn Act to protect plant resources; provide the functions of\nthe Plant Quarantine and Phytosanitary Service\nDepartment; provide for the registration of pest\ncontrollers and plant related structures; regulate imports\nand exports to prevent the introduction or spread of a\npest; give effect to the International Plant Protection\nConvention established in 1952; repeal the Plant Pests\nand Diseases Act, 1958; and provide for matters\nconnected with, or incidental to, the foregoing.\n[15th April, 2025\nENACTED by the Parliament of Zambia.\nEnactment\nPART I\nPRELIMINARY PROVISIONS",
+      "page_start": 4
+    },
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Plant Health Act 2025, and Short title",
+      "body": "shall come into operation on the date appointed by the Minister, and\ncommencement\nby statutory instrument.",
+      "page_start": 5
+    },
+    {
+      "number": "2",
+      "title": "In this Act, unless the context otherwise requires— Interpretation",
+      "body": "“area of low pest prevalence” means an area in the Republic\nin which a specific pest occurs at low levels and which\nis subject to surveillance, control or eradication measures;\n“article” means a storage place, packaging, container, soil\nand organism, object or material capable of harbouring a\npest;\n6 No. 1 of 2025] Plant Health\n“beneficial organism” means an organism, fungi, bacteria,\nvirus, virus-like organism and invertebrate or other animal\nwhich is declared by the Minister to be beneficial to flora\nor agricultural production;\n“certificate of registration” means a certificate of registration\nissued under sections 7 and 9;\n“Civil Service Commission” means the Civil Service\nCap. 1 Commission established by the Constitution;\n“Commission on Phytosanitary Measures” means the\nCommission on Phytosanitary Measures established under\nArticle XI of the International Plant Protection\nConvention;\n“Commissioner-General” means the person appointed as\nCap.321 Commissioner-General under the Zambia Revenue\nAuthority Act;\n“competent plant health authority” means an official entity,\nagency, department or organisation established in a\ncountry to discharge the functions specified by the law\ngoverning phytosanitary measures in that country;\n“compliance audit” means a systematic review and evaluation\nconducted by the Department of a pest controller or plant\nrelated structure’s adherence to the provisions of this Act,\nguidelines, standards and policies;\n“consignment” means a quantity of plants, plant products or\narticles moved from one country to another;\n“contain” means to apply phytosanitary measures in and\naround an infested area to prevent the spread of a pest;\n“container” means a box, bag or receptacle used for the\npurpose of transporting a plant, plant product or article;\n“control” means to suppress, contain or eradicate a pest\npopulation;\n“conveyance” means a vessel, aircraft, train, vehicle, cart,\ncontainer, animal or anything capable of conveying a plant,\nplant product, pest, beneficial organism or article from\none place to another;\n“country of origin” means a country where a plant, plant\nproduct or article originates from;\n“customs officer” means a person appointed by the\nCommissioner-General, or declared by the Commissioner-\nGeneral to be an officer, for the purposes of the Customs\nand Excise Act, whether at the time of appointment or\nCap.322\notherwise;\nPlant Health [No. 1 of 2025 7\n“Department” means the Plant Quarantine and Phytosanitary\nService Department referred to under section 3;\n“detain” means to keep a consignment in custody for\nphytosanitary purposes, and the word “detention” shall\nbe construed accordingly;\n“Director” means the person appointed as Director under\nsection 4;\n“entry” means the movement of a pest into an area where it\nis not yet present, or is present but not widely distributed,\nand is being officially controlled;\n“eradicate” means to apply phytosanitary measures to\neliminate a pest from an area or in relation to any noxious\nweed, to dig up and burn, or employ any other method\nof destruction which may be authorised either generally\nor specifically by the Director, and the word “eradication”\nshall be construed accordingly;\n“establishment” means the perpetuation, for the foreseeable\nfuture, of a pest within an area after entry;\n“exporter” means a person who is an owner, consignor, agent,\nbroker or otherwise is in possession, or entitled to the\ncustody, of a plant, plant product, pest, beneficial organism\nor article to be conveyed from the Republic to another\ncountry;\n“germplasm” means a plant intended for use in a breeding\nor conservation program;\n“grower” means a person that grows a particular type of\ncrop;\n“immigration officer” has the meaning assigned to the words\nin the Immigration and Deportation Act, 2010; Act No. 18\nof 2010\n“importer” means a person who is an owner, consignee,\nagent, broker or otherwise is in possession, or entitled to\nthe custody or control, of a plant, plant product, pest,\nbeneficial organism or article landed or likely to be landed\nin the Republic from another country;\n“infested” means infested or affected with a pest and the\nword “infestation” shall be construed accordingly;\n“inspection” means the visual examination of a plant, plant\nproduct or article to determine if a pest is present or to\ndetermine compliance with phytosanitary measures;\n“inspector” means a person appointed as inspector under\nsection 4;\n8 No. 1 of 2025] Plant Health\n“introduction” means the entry of a pest resulting in its\nestablishment in the Republic;\n“invasive alien species” means species introduced intentionally\nor unintentionally outside their natural habitats into an area\nwhere they have the ability to establish themselves,\novercome native species and affect the environment;\n“law enforcement officer” means a police officer or an\nimmigration officer;\n“local authority” has the meaning assigned to the words in\nCap. 1 the Constitution;\n“nursery stock” means plants grown or cultivated for the\npurpos … [truncated]",
+      "page_start": 5
+    },
+    {
+      "number": "5",
+      "title": "Subject to the duties of the Director under this Act, the Delegation of",
+      "body": "Director may, in writing, delegate all or any of the powers and powers and\nduties of\nduties of an inspector to a customs officer or other authorised\ninspectors to\nperson in an area of the Republic. customs\nofficer or\nauthorised\nperson\nPART III\nREGISTRATION OF PEST CONTROLLERS\n6. (1) A person shall not be employed or engaged as a pest Prohibition\ncontroller unless that person is registered under this Act. of\nemployment\n(2) A person who contravenes subsection (1) commits an or\nengagement\noffence and is liable, on conviction, to a fine not exceeding five\nas pest\nhundred thousand penalty units or to imprisonment for a term not controller\nwithout\nexceeding five years, or to both.\nregistration\n7. (1) A person who intends to be employed or engaged as a Application\npest controller shall apply to the Director in the prescribed manner for\nregistration\nand form on payment of a prescribed fee.\nas pest\n(2) The Director shall, within thirty days of receipt of an controller\napplication under subsection (1), grant or reject the application.\n(3) The Director shall grant an application in accordance with\nsubsection (2) if a person meets the prescribed requirements.\n(4) The Director shall, where the Director grants an application\nin accordance with subsections (2) and (3), issue the applicant\nwith a certificate of registration as a pest controller as prescribed.\n(5) The Director shall, where the Director rejects an\napplication under subsection (2), issue the applicant with a notice\nof rejection in the prescribed form, stating the reasons for the\nrejection.\n(6) An application made under subsection (1) shall, where\nthe Director fails to inform the applicant of the Director’s decision\non the application within the period specified under subsection (2),\nbe deemed to have been granted.\n(7) A certificate of registration issued under this section shall\nhave unlimited validity unless suspended or cancelled under this\nAct.\n(8) The Director shall, in accordance with section 61, conduct\na compliance audit on a holder of a certificate of registration issued\nunder this section.\n14 No. 1 of 2025] Plant Health\nPART IV\nREGISTRATION OF PLANT RELATED STRUCTURES\nProhibition 8. (1) A person shall not operate the following plant health\nof operating related structures without a certificate of registration issued under\nplant heath\nthis Part:\nrelated\nstructure (a) a laboratory for phytosanitary diagnostic service for\nwithout purposes of phytosanitary certification;\nregistration\n(b) a production site for an agricultural crop;\n(c) a pack house for agricultural produce;\n(d) a processing facility that exports agricultural commodities;\n(e) a plant nursery;\n(f) a wood packaging material treatment facility; or\n(g) a warehouse for an agricultural commodity.\n(2) A person who contravenes subsection (1) commits an\noffence and is liable, on conviction, to a fine not exceeding five\nhundred thousand penalty units or to imprisonment for a term not\nexceeding five years, or to both.\nRegistration 9. (1) A person who intends to operate a plant related structure\nof plant shall apply for registration of that plant related structure to the\nrelated Director in a prescribed manner and form on payment of a\nstructure\nprescribed fee.\n(2) The Director shall, within thirty days of receipt of an\napplication under subsection (1), grant or reject the application.\n(3) The Director shall, where the Director approves an\napplication under subsection (2), issue the applicant with a certificate\nof registration as prescribed.\n(4) The Director shall issue a certificate of registration in\naccordance with subsection (3) if the applicant meets the prescribed\nrequirements.\n(5) The Director shall, where the Director rejects an\napplication under subsection (2), notify the applicant in the\nprescribed form, stating the reasons for the rejection.\n(6) An application made under subsection (1) shall, where\nthe Director fails to inform the applicant of the Director’s decision\non the application within the period specified under subsection (2),\nbe deemed to have been granted.\n(7) A certificate of registration issued under this section shall\nhave an unlimited period of validity unless suspended or cancelled\nby the Director under this Act.\nPlant Health [No. 1 of 2025 15\n(8) The Director shall, in accordance with section 61, conduct a\ncompliance audit on a holder of a certificate of registration issued\nunder this section.",
+      "page_start": 13
+    },
+    {
+      "number": "10",
+      "title": "A registered laboratory shall be adequately equipped to Requirements",
+      "body": "carry out phytosanitary analysis and diagnostic tests for the for\npurposes of safe— registered\nlaboratory\n(a) movement of a plant, plant product or article within the\nRepublic; and\n(b) transit, import and export of a plant, plant product or\narticle within and outside the Republic.\n11. (1) An inspector shall inspect a registered plant health Inspection\nrelated structure to ensure compliance with the conditions of the of plant\ncertificate of registration and this Act. related\nstructure\n(2) An inspector shall, after an inspection is carried out in\naccordance with subsection (1), submit a report to the Director.\n(3) The Director may, where an inspection is carried out in\naccordance with subsection (1) and on the basis of the report\nreferred to under subsection (2)—\n(a) impose additional conditions that the Director may\nconsider necessary for the enforcement of the\nrequirements of this Act;\n(b) vary the conditions of a certificate of registration; or\n(c) suspend or cancel a certificate of registration, where\nthe inspection reveals that the registered plant health\nrelated structure is being operated contrary to the\nconditions set out in the certificate of registration or\ncontrary to this Act.\n(4) The Director shall, before varying the conditions of a\ncertificate of registration in accordance with subsection (3)(b),\nnotify the holder of the certificate of registration, in writing, of the\nDirector’s decision.\nPART V\nIMPORTATION OF A PLANT, PLANT PRODUCT AND ARTICLE\n12. (1) A person shall not import a plant, plant product or Prohibition of\narticle without a plant import permit issued under this Part and a importation\nphytosanitary certificate from the exporting country. of plant,\nplant product\n(2) A phytosanitary certificate referred to under subsection\nor article\n(1) shall be issued by a competent plant health authority from the without plant\nexporting country. import\npermit and\n(3) Despite subsection (1), a plant, plant product or article\nphytosanitatry\nshall not require a phytosanitary certificate from the exporting certificate\n16 No. 1 of 2025] Plant Health\ncountry where the Director is satisfied that the plant, plant product\nor article has no phytosanitary risk.\n(4) A person who imports a plant, plant product or article\nshall use a designated port of entry in accordance with the\nCap. 322 Customs and Excise Act.\n(5) A person who contravenes subsection (1) commits an\noffence and is liable, on conviction, to a fine not exceeding five\nhundred thousand penalty units or to imprisonment for a term not\nexceeding five years, or to both.\nApplication 13. (1) A person who intends to import a plant, plant product\nfor plant or article into the Republic shall apply to the Director for a plant\nimport import permit in a prescribed manner and form on payment of a\npermit\nprescribed fee.\n(2) The Director shall, within five days of the receipt of an\napplication under subsection (1), grant or reject the application.\n(3) The Director shall not issue a plant import permit in\naccordance with this section if the—\n(a) applicant fails to meet the prescribed requirements for\nthe grant of a plant import permit;\n(b) grant of a plant import permit would lead to the introduction\nor spread of a pest;\n(c) applicant has been convicted of an offence under this\nAct;\n(d) applicant has been convicted of an offence relating to a\npest in another country; or\n(e) applicant has had a plant import permit issued in another\ncountry previously withdrawn by a competent plant\nhealth authority.\n(4 ) The Director shall, where an application is rejected under\nsubsection (2), inform the applicant in the prescribed form, stating\nthe reasons for the rejection.\n(5) An application made under subsection (1) shall, where\nthe Director fails to inform an applicant of the Director’s decision\nwithin the period specified under subsection (2), be deemed to\nhave been granted.\n(6) The Director shall, where an application is granted under\nsubsection (2), issue the applicant with a plant import permit in a\nprescribed form on conditions that the Director may determine.\n(7) A plant import permit issued by the Director under this\nsection shall be valid for a period of six months.\nPlant Health [No. 1 of 2025 17\n14. (1) Subject to this Act, the Director may suspend or Suspension\nrevoke a plant import permit if the holder of a plant import permit— or\nrevocation of\n(a) obtained the plant import permit on the basis of fraud, plant\nmisrepresentation or concealment of a material fact; import\npermit\n(b) fails to comply with any phytosanitary measure;\n(c) fails to comply with a term or condition of the plant\nimport permit;\n(d) is convicted of an offence under this Act or any other\nwritten law and sentenced to a term of imprisonment\nexceeding six months without the option of a fine; or\n(e) contravenes a provision of this Act or any other relevant\nwritten law.\n(2) The Director shall, not less than thirty days before\nsuspending or revoking a plant import permit, notify the holder of a\nplant impo … [truncated]",
+      "page_start": 15
+    },
+    {
+      "number": "17",
+      "title": "The Minister may, on the recommendation of the Director, Importation",
+      "body": "authorise, in writing, the entry of a plant, plant product or article for scientific\nor research\ninto the Republic for scientific or research purposes, subject to\npurposes\nterms and conditions that the Minister may consider appropriate.\n18. (1) An inspector shall seize and detain a plant, plant Seizure,\nproduct or article on giving written notice to an importer, where an detention\nand\nimported plant, plant product or article—\ndestruction\n(a) fails to meet the phytosanitary measures at a port of entry, of infested\nimported\nin accordance with this Act; or\nconsignment\n(b) is infested with a pest or presents a risk for the introduction\nor spread of a pest.\n(2) An inspector may, where the inspector detains a\nconsignment under subsection (1), order the importer to—\n(a) treat the consignment in a manner that the inspector\nmay consider appropriate to remove the risk;\n(b) return the consignment to the country of origin; or\n(c) take the consignment into quarantine to a quarantine area\nor another area that the inspector may determine.\n(3) An inspector may, on giving notice to the importer, destroy,\nwithout compensation, an imported plant, plant product or article\n(a) which on inspection is found to be infected with a\nquarantine pest;\n(b) where the pest is of immediate or potential danger to the\nenvironment, or plant, animal or human health;\n20 No. 1 of 2025] Plant Health\n(c) where any disinfection is impracticable or would not be a\ncomplete safeguard; or\n(d) where the delay caused by disinfection would result in\nthe risk of the introduction or spread of a pest.\n(4 ) An inspector may waive the giving of a notice required\nunder subsection (3) where the inspector determines that the\ndestruction of the imported plant, plant product or article is urgently\nrequired to prevent harm to the environment, plant, animal or human\nhealth, and the giving of the notice would be impracticable.\nProhibition, 19. (1) The Minister may, on the recommendation of the\nrestriction Director, by statutory instrument, provide for the prohibition,\nand restriction and regulation of the importation of a plant, plant product\nregulation of\nor article into the Republic.\nimport of\nplant, plant (2) Despite the generality of subsection (1), the Minister may\nproduct or by regulation—\narticle\n(a) provide for the disinfection, fumigation or treatment of\nany imported plant, plant product or article, or their\ncontainers;\n(b) designate a port of entry, routes and methods of\ntransport for the plant, plant product or article;\n(c) provide for the detention of an imported plant, plant\nproduct or article and the measures to be taken during\nthe detention;\n(d) provide for the disposal of an imported plant, plant product\nor article in respect of which prescribed fees are not\npaid, and of the proceeds resulting from their disposal;\nand\n(e) provide for the declaration of beneficial organisms.\nCosts for 20. (1) The costs and responsibility for the destruction, re-\ntreatment, exportation, treatment or any action taken under this Part shall be\nremoval and\nborne by the importer.\ndestruction\nof infected (2) A plant, plant product or article shall, where an importer\nimported\ndoes not pay for a cost or fee for inspection, treatment or other\nconsignment\nmeasure required under this Act, be forfeited to the State and\ndisposed of as the court may determine.\n(3) The costs charged for the purposes of this section shall be\npaid in a prescribed manner.\n(4) The Director shall not bear any liability for the destruction\nor disposal of a plant, plant product or article imported in\ncontravention of this Act.\nPlant Health [No. 1 of 2025 21\nPART VI\nEXPORTATION OR RE-EXPORTATION OF PLANT, PLANT PRODUCT OR\nARTICLE\n21. (1) Subject to any other written law, a person shall not Prohibition\nexport or re-export a plant, a plant product or article from the of export or\nre-export of\nRepublic without a phytosanitary certificate issued under this Part.\nplant, plant\n(2) A plant, plant product or article shall be inspected at its product or\narticle\nplace of origin or an appropriate place as an inspector may permit\nwithout\nbefore it can be exported or re-exported from the Republic. phytosanitatry\ncertificate\n(3) A person who contravenes subsection (1) commits an\noffence and is liable, on conviction, to a fine not exceeding five\nhundred thousand penalty units or to imprisonment for a term not\nexceeding five years, or to both.\n22. (1) A person who intends to export or re-export a plant, Application\nplant product or article from the Republic shall apply to the Director for\nfor a phytosanitary certificate in a prescribed manner and form on phytosanitary\ncertificate\npayment of a prescribed fee.\n(2) The Director shall, within three days of receipt of an\napplication under subsection (1), grant or reject the application.\n(3) The Director shall not issue a phytosanitary certificate\nunder this section if—\n(a) the applicant fails to meet the prescribed requirements\nfor the grant of a phytosanitary certificate;\n(b) the … [truncated]",
+      "page_start": 19
+    },
+    {
+      "number": "56",
+      "title": "A holder of a certificate of registration, plant import permit Change in",
+      "body": "or phytosanitary certificate shall notify the Department of any details\nchange in the particulars relating to the certificate of registration,\nplant import permit or phytosanitary certificate within seven days\nof the change.\n57. (1) A person whose certificate of registration, plant Duplicate\nimport permit or phytosanitary certificate is destroyed or lost certificate of\nmay apply to the Director for a duplicate certificate of registration, registration,\nplant import\nplant import permit or phytosanitary certificate in a prescribed\npermit or\nmanner and form on payment of a prescribed fee.\nphytosanitary\n(2) The Director may, on receipt of an application under certificate\nsubsection (1), issue to the applicant a duplicate certificate of\nregistration, plant import permit or phytosanitary certificate.\n58. (1) The Director may, where the Director has reasonable Compliance\ngrounds to believe that a condition of a plant import permit or order\nphytosanitary certificate issued under this Act has been breached,\nserve a compliance order on the holder of a plant import permit or\nphytosanitary certificate requiring the holder to remedy the breach\nwithin a period specified under the compliance order.\n(2) A compliance order issued under subsection (1) may—\n(a) suspend the plant import permit or phytosanitary\ncertificate with immediate effect if the Director\nconsiders that the suspension is necessary to prevent\nor mitigate the significant spread of a regulated pest;\nor\n(a) require a person to take measures to prevent or\nmitigate the significant spread of a regulated pest.\n(3) The Director may, where a person fails to comply with a\ncompliance order issued under this section—\n(a) take the necessary steps to remedy the breach and\nrecover the cost of remedying the breach from that\nperson;\n40 No. 1 of 2025] Plant Health\n(b) vary the conditions of the plant import permit or\nphytosanitary certificate; or\n(c) revoke the plant import permit or phytosanitary certificate.\n(4) A person who is served with a compliance order shall\ncomply with the requirements of the compliance order on the\ndate specified in the compliance order and if the date is not specified,\nthe person shall comply with the compliance order immediately.\n(5) Despite subsection (3), a person who fails to comply with\na compliance order issued under this section within the period\nspecified in accordance with subsection (4) commits an offence\nand is liable, on conviction, to a fine not exceeding three hundred\nthousand penalty units or to imprisonment for a term not exceeding\nthree years, or to both.\nDetention 59. (1) The Director may, where a person fails to comply\norder with a phytosanitary measure specified in a plant import permit\nissued under this Act, instruct an inspector to issue a detention\norder.\n(2) An inspector who issues a detention order may—\n(a) recommend treatment measures;\n(b) require a person to return a plant, plant product or article\nto its country of origin; or\n(c) destroy a plant, plant product or article.\n(3) A person who contravenes a condition of a detention order\ncommits an offence and is liable, on conviction, to a fine not\nexceeding three hundred thousand penalty units or to imprisonment\nfor a term not exceeding three years, or to both.\nCost order 60. (1) The Director may, where a person fails to comply\nwith the conditions in a plant import permit or phytosanitary\ncertificate issued under this Act, require that person to reimburse\nthe Government for the cost of taking the measures to mitigate the\nnon-compliance with a plant import permit or phytosanitary\ncertificate.\n(2) The cost order shall be enforced as if it were an order of\ncourt where no application for the review of the cost order is\nmade.\n(3) A person that is aggrieved with a cost order made under\nthis section shall apply to the Minister for the review of the cost\norder.\n(4) The Minister shall, within thirty days of an application for\nreview made under subsection (3), make a final order in relation to\nthe cost order.\n61. (1) The Director shall conduct a compliance audit in a\nCompliance\naudit prescribed manner on payment of a prescribed fee.\nPlant Health [No. 1 of 2025 41\n(2) Despite subsection (1), a pest controller or operator of a\nplant health related structure shall apply for a compliance audit in a\nprescribed manner and form on payment of a prescribed fee.\n(3) Where a pest controller or an operator of a plant health\nrelated structure does not comply with a compliance audit, a\ncertificate of registration may be suspended or cancelled in\naccordance with section 52.",
+      "page_start": 39
+    },
+    {
+      "number": "62",
+      "title": "Where an offence under this Act is committed by a body Offence by",
+      "body": "corporate or unincorporate body, with the knowledge consent or principal\nofficers of\nconnivance of the director, manager, partner or shareholder of that\nbody\nbody corporate or unicorporate body, that director, manager, partner corporate or\nor shareholder commits the same offence as the body corporate or unincorporate\nbody\nunincorporate body and is liable, on conviction, to the penalty specified\nfor that offence under this Act.\n63. (1) The Director may impose an administrative penalty\nAmistrative\non a person for a failure to comply with a provision of this Act penalty\nwhich is not an offence.\n(2) An administrative penalty shall not exceed the amount\nprescribed by the Minister for each day during which such failure\ncontinues.\n(3) An administrative penalty is payable to the Director within\nthe period specified by the Director.\n(4) If any person fails to pay an administrative penalty, within\nthe period specified in subsection (3), The Director may, by way of\ncivil action in a competent court, recover the amount of the\nadministrative penalty from that person as an amount due and owing\nto the Department.\n64. (1) The Department may, in the performance of the Guidelines\nDepartment’s functions under this Act, issue guidelines that are\nnecessary for the better carrying out of the provisions of this Act.\n(2) The Department shall publish the guidelines issued under\nthis Act by notice in the Gazette or in a manner that the Department\nmay determine, and the guidelines shall not take effect until they\nare so published.\n(3) The guidelines issued by the Department under this Act shall\nbind all persons regulated under this Act.",
+      "page_start": 41
+    },
+    {
+      "number": "65",
+      "title": "A person shall not, without the consent, in writing, given Prohibition",
+      "body": "by or on behalf of the Director or otherwise permitted by any of\npublication\nwritten law, publish or disclose to a person, other than in the course or disclosure\nof that person’s duties, the contents of a document, of\ninformation\ncommunication or information, which relates to, or which has to\nunauthorised\ncome to, that person’s knowledge in the course of that person’s\npersons\nduties under this Act.\n42 No. 1 of 2025] Plant Health\n(2) A person who contravenes subsection (1) commits an\noffence and is liable, on conviction, to a fine not exceeding two\nhundred thousand penalty units or to imprisonment for a term not\nexceeding two years, or to both.\n(3) A person who, having any information which to the\nknowledge of that person has been published or disclosed in\ncontravention of subsection (1), unlawfully publishes or\ncommunicates the information to another person commits an\noffence and is liable, on conviction, to a fine not exceeding two\nhundred thousand penalty units or to imprisonment for a term not\nexceeding two years, or to both.\nImmunity 66. An action or other proceeding shall not lie or be instituted\nagainst the Director, inspector or other staff of the Department\nfor, or in respect of, an act or thing done or omitted to be done in\ngood faith in the exercise or performance of any of the powers,\nfunctions or duties conferred under this Act.\nAppeals 67. (1) A person who is aggrieved with a decision of the\nDirector may, within thirty days of the receipt of the Director’s\ndecision, appeal to the Minister, in writing.\n(2) A person aggrieved with a decision of the Minister may,\nwithin thirty days of the receipt of the Minister’s decision, appeal\nto the High Court.\nGeneral 68. (1) A person commits an offence if that person—\noffences\n(a) assaults, resists, intimidates, wilfully obstructs, impedes\nor hinders an inspector in the carrying out of the\ninspector’s duties under this Act;\n(b) contravenes or fails to comply with a provision of this\nAct, regulations or any order or notice made or issued\nin terms of this Act;\n(c) without reasonable cause contravenes or fails to comply\nwith any condition of a plant import permit or\nphytosanitary certificate issued under this Act;\n(d) intentionally introduces or causes the introduction or spread\nof a pest;\n(e) on being required to do so, fails or refuses to produce to\nan inspector, a customs officer or an authorised person\nreferred to under section 7, a plant import permit or\nphytosanitary certificate or other document relevant\nfor the purpose of this Act;\nPlant Health [No. 1 of 2025 43\n(f)fails or refuses without reasonable cause, to give\ninformation to an inspector, a customs officer or an\nauthorised person referred to under section 7, when\nrequired to do so under this Act;\n(g) knowingly or recklessly gives false or incomplete\ninformation for purposes of obtaining a plant import\npermit or phytosanitary certificate under this Act;\n(h) wilfully or recklessly gives to an inspector false or\nmisleading information with respect to a material fact\nwhich the inspector requires for the purposed of this\nAct;\n(i)grows, possesses, sells, offers for sale, transports or\ndistributes in any manner any plant, plant product or\narticle knowing that the plant, plant product or article is\ninfested with a regulated pest;\n(j)tampers with any specimen taken for purposes of this Act;\n(k) intentionally fails to safeguard the phytosanitary security\nof a consignment after issuance of phytosanitary\ndocuments;\n(l)alters or defaces a certificate, permit or other document\nissued under this Act; or\n(m) writes or causes to be published whether by print or\nelectronic media, any material on the occurrence of a\nquarantine pest, without the prior approval of the\nDirector.\n(2) A person convicted of an offence under subsection (1) is\nliable to a fine not exceeding five hundred thousand penalty units\nor to imprisonment for a term not exceeding five years, or to both.\n69. (1) The Minister may, in consultation with the Director, Regulations\nby statutory instrument, make regulations for the better carrying\nout of the provisions of this Act.\n(2) Despite the generality of subsection (1), the regulations\nmay make provision for—\n(a) the form and manner in which applications for certificates\nand permits are to be made under this Act, and the fees\nto be paid in respect of an application;\n(b) conditions of a certificate or permit issued under this\nAct;\n(c) the procedures to be followed by inspectors in the exercise\nof their powers under this Act;\n(d) conditions for the import of a plant, plant product or article\ninto the Republic;\n44 No. 1 of 2025] Plant Health\n(e) the ports of entry for the import and export of a plant,\nplant product or article;\n(f)the movement of a plant, plant product or article within\nthe Republic and the fees payable;\n(g) the procedure of auditing the systems applied for the\nexport, or production for export, of a plant, plant product\nor article;\n(h) a list of regulated pests;\n(i) procedures and guidelin … [truncated]",
+      "page_start": 41
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Acts%20No.%201%20of%202025%2C%20The%20Plant%20Health.pdf",
+  "source_hash": "sha256:00b777f2c14c5ba70b752e2021e47511fc21ed591ab8cde2a84496f751f2a85e",
+  "fetched_at": "2026-04-10T09:42:00Z",
+  "parser_version": "0.3.0",
+  "notes": "Phase 4 Batch 001. Node URL: https://www.parliament.gov.zm/node/12316. PDF size: 227786 bytes."
+}

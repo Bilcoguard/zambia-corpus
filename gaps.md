@@ -27,3 +27,27 @@ alternative sources: (1) Judiciary of Zambia official site
 where judgments are gazetted, (3) Parliament of Zambia if any judgments
 are hosted there. All three require discovery work. Deferred to Phase 3
 kickoff.
+
+## [2026-04-10] Phase 4 Batch 0001 — low-section records flagged for re-parse
+
+The generic section extractor (parser_version 0.3.0) extracted ≤ 2 sections from
+the following records. These are likely amendment stubs or schedule-heavy acts where
+the section heading regex did not match the PDF's typography. A targeted re-parse
+pass is needed:
+
+- act-zm-2024-023-value-added-tax-2024 (2 sections extracted, PDF 13KB — very short amendment)
+- act-zm-2024-026-revenue-authority-2024 (2 sections, 283KB — likely section headings not matched)
+- act-zm-2024-027-property-transfer-tax-2024 (2 sections, 13KB — short amendment)
+- act-zm-2024-028-insurance-premium-levy-2024 (2 sections, 284KB — section headings not matched)
+- act-zm-2024-029-appropriation-2024 (1 section, 336KB — Appropriation Acts are schedule-heavy; section "1" only extracted)
+- act-zm-2025-009-supplementary-appropriation2025-2025 (2 sections, 18KB)
+
+To close: inspect the raw PDFs in raw/bulk/parliament-zm/node-* and adjust the
+section heading regex, or implement a pdfplumber layout-based extractor.
+
+## [2026-04-10] Phase 4 Batch 0001 — listing pages 13-47 not yet walked
+
+The full parliament.gov.zm acts listing has 48 pages. Pages 0–12 are cached and
+were used for Batch 0001. Pages 13–47 contain an estimated 700+ additional acts
+(pre-2017 era). These will be walked in future batches to complete the acts_in_force
+inventory.

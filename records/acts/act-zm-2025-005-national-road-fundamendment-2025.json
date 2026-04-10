@@ -1,0 +1,35 @@
+{
+  "id": "act-zm-2025-005-national-road-fundamendment-2025",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The National Road Fund(Amendment) Act, 2025",
+  "citation": "Act No. 5 of 2025",
+  "version_type": "as_enacted",
+  "in_force": null,
+  "amended_by": [],
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as National Road Fund (Amendment) Short title",
+      "body": "Act, 2025, and shall be read as one with the National Road Fund Act No. 13\nAct, 2002, in this Act referred to as the principal Act. of 2002",
+      "page_start": 1
+    },
+    {
+      "number": "2",
+      "title": "The principal Act is amended by the insertion of the Insertion of",
+      "body": "following new section immediately after section 21: section 21A",
+      "page_start": 1
+    },
+    {
+      "number": "21A",
+      "title": "Despite anything to the contrary contained in any Immunity",
+      "body": "other written law, where a judgment or order is obtained from\nexecution\nagainst the Agency, no execution, attachment, or process of of\nany nature shall be issued against the Agency or against the judgement\nor order\nproperty of the Agency, but the Director shall cause to be\npaid out of the revenue of the Agency, such amounts of money\nas may, by judgment or order, be awarded against the Agency\nto the person entitled to the money.\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101, Lusaka, Price K4.00 each\n124",
+      "page_start": 1
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%205%20of%202025%2C%20The%20National%20Road%20Fund%5B1%5D.pdf",
+  "source_hash": "sha256:6d8ebf506dc416a39267b973ce672a1ecf8960118d6fd9b8a903e34cae819559",
+  "fetched_at": "2026-04-10T09:40:30Z",
+  "parser_version": "0.3.0",
+  "notes": "Phase 4 Batch 001. Node URL: https://www.parliament.gov.zm/node/12515. PDF size: 12113 bytes."
+}

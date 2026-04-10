@@ -1,0 +1,35 @@
+{
+  "id": "act-zm-2025-006-building-societies-2025",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Building Societies (Amendment) Act, 2025",
+  "citation": "Act No. 6 of 2025",
+  "version_type": "as_enacted",
+  "in_force": null,
+  "amended_by": [],
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Building Societies Short title",
+      "body": "(Amendment) Act, 2025, and shall be read as one with the Building Cap. 412\nSocieties Act, in this Act referred to as the principal Act.",
+      "page_start": 1
+    },
+    {
+      "number": "2",
+      "title": "The principal Act is amended by the repeal of section 130 Repeal and",
+      "body": "replacement\nand substitution therefor of the following:\nof section\n130",
+      "page_start": 1
+    },
+    {
+      "number": "130",
+      "title": "The financial year of a building society shall be a Financial",
+      "body": "period of twelve months, ending on 31st December in each year\nyear.\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K 4.00 each.\n126",
+      "page_start": 1
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%206%20The%20Building%20Societies%20Act%2C%202025.pdf",
+  "source_hash": "sha256:5c4c0432c25f5d546e502aaa8606f3d629ca6f7efda454a16069a3f86a4fefa7",
+  "fetched_at": "2026-04-10T09:40:08Z",
+  "parser_version": "0.3.0",
+  "notes": "Phase 4 Batch 001. Node URL: https://www.parliament.gov.zm/node/12516. PDF size: 11577 bytes."
+}

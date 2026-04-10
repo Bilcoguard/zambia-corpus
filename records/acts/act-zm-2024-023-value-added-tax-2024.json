@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-2024-023-value-added-tax-2024",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Value Added Tax (Amendment) Act, 2024",
+  "citation": "Act No. 23 of 2024",
+  "version_type": "as_enacted",
+  "in_force": null,
+  "amended_by": [],
+  "sections": [
+    {
+      "number": "2",
+      "title": "Section 7A of the principal Act is amended by the deletion of Amendment",
+      "body": "of section\nsubsection (2) and the substitution therefor of the following:\n7A\n(2) Despite subsection (1), the Commissioner-General\nmay, on prescribed conditions, approve the use of a document,\ndevice or equipment, other than an electronic invoicing system,\nby a taxable supplier.",
+      "page_start": 1
+    },
+    {
+      "number": "3",
+      "title": "Section 8(6) of the principal Act is amended by the deletion Amendment",
+      "body": "of section 8\nof paragraph (c) and the substitution therefor of the following:\n(c) services supplied are not under the prescribed scope of\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K4.00 each.\n370 No. 23 of 2024] Value Added Tax (Amendment)\ncross-border electronic services.\nAmendment 4. Section 18 (3) of the principal Act is amended by the—\nof section 18\n(a) deletion of paragraphs (a) and (b);\n(b) deletion of paragraph (c) and the substitution therefor of\nthe following:\n(c) an invoice issued from the electronic invoicing\nsystem or an invoice issued, as prescribed, by\na taxable supplier who is exempt from the use\nof the electronic invoicing system under section\n7A(2);;and\n(c) renumbering of paragraphs (c), (d) and (e) as paragraphs\n(a), (b) and (c), respectively.\nAmendment 5. Section 38A of the principal Act is amended—\nof section\n38A (a) in subsection (1) by the deletion of the words “Assistant\nCommissioner” and the substitution therefor of the words\n“Assistant Director”; and\n(b) in subsection (2) by the deletion of the words “Assistant\nCommissioner” and the substitution therefor of the words\n“Assistant Director”.",
+      "page_start": 1
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No%2023%20of%202024%20Value%20Added%20Tax.pdf",
+  "source_hash": "sha256:582c1a170a342763ff5fa2ef09aa42c172c7c22f1ec8f73f59ccae3dbc74a1cd",
+  "fetched_at": "2026-04-10T09:44:56Z",
+  "parser_version": "0.3.0",
+  "notes": "Phase 4 Batch 001. Node URL: https://www.parliament.gov.zm/node/12087. PDF size: 12992 bytes. Parse notes: WARN: only 2 section headings found — parse may be incomplete"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-2024-027-property-transfer-tax-2024",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Property Transfer Tax (Amendment) Act, 2024",
+  "citation": "Act No. 27 of 2024",
+  "version_type": "as_enacted",
+  "in_force": null,
+  "amended_by": [],
+  "sections": [
+    {
+      "number": "2",
+      "title": "Section 2 of the principal Act is amended by the— Amendment",
+      "body": "of section 2\n(a) deletion of the definition of “intellectual property” and the\nsubstitution therefor of the following definition:\n“intellectual property” includes a—\n(a) patent granted for an invention under the Act No. 40\nPatents Act, 2016; of 2016\n(b) design registered under the Industrial Designs Act No.22 of\nAct, 2016; 2016\n(c) trade mark registered under the Trade Marks Act No. 11 of\nAct, 2023; and 2023\n(d) copyright in a work registered under the Copy Cap. 406\nRight and Performance Rights Act; and\n(b) insertion of the following new definitions in the appropriate\nplaces in alphabetical order:\nSingles copies of this Act may be obtained from the Government Printer,\nP. O. Box 30136, 10101 Lusaka. Price K4.00 each\n402 No. 27 of 2024 Property Transfer Tax (Amendment)\n“building society” has the meaning\nCap. 412 assigned to the words in the Building\nSocieties Act; and\n“money-lender” has the meaning assigned\nCap. 398 to the words in the Money-Lenders\nAct;.",
+      "page_start": 1
+    },
+    {
+      "number": "3",
+      "title": "Section 4 of the principal Act is amended by the deletion of",
+      "body": "Amendment\nof section 4 subsection (2) and the substitution therefor of the following:\n(2) The rate of tax is—\n(a) ten percent of the realised value in respect of\na mining right for a mining licence;\n(b) eight percent of the realised value in respect\nof a mining right for an exploration licence;\n(c) ten percent of the realised value in respect of\na mineral processing licence;\n(d) eight percent of the realised value in respect\nof land;\n(e) eight percent of the realised value in respect\nof shares; and\n(f) eight percent of the realised value in respect of\nintellectual property.\nAmendment 4. Section 5 of the principal Act is amended by the deletion of\nof section 5 subsection (5A) and the substitution therefor of the following:\n(5A) Where a financial service provider, building society\nor money-lender transfers a foreclosed property, the realised\nvalue of the foreclosed property shall be the actual price, if\nany, received by the financial service provider, building society\nor money-lender.",
+      "page_start": 2
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2027%20-%20The%20Property%20Tax%20%28Amendment%29%20Act%2C%202024%20.pdf",
+  "source_hash": "sha256:e335c70a541f23329a8c9f4cd562d603c81b2ee6714bd9958e20885dd18b7711",
+  "fetched_at": "2026-04-10T09:43:28Z",
+  "parser_version": "0.3.0",
+  "notes": "Phase 4 Batch 001. Node URL: https://www.parliament.gov.zm/node/12078. PDF size: 13234 bytes. Parse notes: WARN: only 2 section headings found — parse may be incomplete"
+}

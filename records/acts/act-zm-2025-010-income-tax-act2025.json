@@ -1,0 +1,47 @@
+{
+  "id": "act-zm-2025-010-income-tax-act2025",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Income Tax (Amendment) Act,2025",
+  "citation": "Act No. 10 of 2025",
+  "version_type": "as_enacted",
+  "in_force": null,
+  "amended_by": [],
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Income Tax (Amendment) Short title",
+      "body": "Act, 2025, and shall be read as one with the Income Tax Act, in this\nCap. 323\nAct referred to as the principal Act.",
+      "page_start": 1
+    },
+    {
+      "number": "2",
+      "title": "Section 2 of the principal Act is amended by the insertion of Amendment",
+      "body": "the following new definition in the appropriate place: of section 2\n“minimum alternative tax” means the tax payable by a person\nor partnership under section 14A;.",
+      "page_start": 1
+    },
+    {
+      "number": "3",
+      "title": "The principal Act is amended by the insertion of the following Insertion of",
+      "body": "new section immediately after section 14: section 14A\n14A. (1) Despite the other provisions of this Act, a person Minimum\nor partnership shall, in addition to the maximum rate of tax on alternative\ntax\nincome received by a person or partnership, be liable to pay\nminimum alternative tax to be calculated on the total turnover\nof the person or partnership.\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K 4.00 each.\n168 No. 10 of 2025] Income Tax (Amendment)\n(2)The minimum alternative tax referred to under\nsubsection (1) shall be charged at a rate specified in the\nCharging Schedule.\n(3) Subject to the other provisions of this Act, the amount\nof tax which would be charged in respect of income received\nby a person or partnership in a charge year shall be reduced\nby the amount of the minimum alternative tax paid, as a credit.\n(4) The credit referred to in subsection (3) shall not be\ncarried forward beyond five subsequent charge years after\nthe charge year in which the credit is accrued.\n(5) This section shall not apply to a person or partnership\nthat is liable to pay presumptive tax or turnover tax under this\nAct.\n(6) The Minister shall make regulations for the\nadministration, assessment, collection and recovery of\nminimum alternative tax under this section.",
+      "page_start": 1
+    },
+    {
+      "number": "4",
+      "title": "The Charging Schedule to the principal Act is amended—",
+      "body": "Amendment\nof Charging\nSchedule (a) in paragraph 7, by the—\n(i) deletion of item (ix) and the substitution therefor\nof the following:\n(ix) tax required to be deducted from the\npayment of interest to a non resident, shall\nbe at the rate of twenty percent.;\n(ii) insertion of the following new item immediately\nafter item (x):\n(xi) tax required to be deducted from the\npayment of interest on Treasury Bills and\nGovernment bonds shall be at the rate of\ntwenty percent;; and\n(iii) re-numbering of items (xi) and (xii) as items (xii)\nand (xiii), respectively;\n(b) by the insertion of the following new paragraph\nimmediately after paragraph 7:",
+      "page_start": 2
+    },
+    {
+      "number": "8",
+      "title": "The maximum rate of tax chargeable under",
+      "body": "Rate of tax\nchargeable section 14A shall be one percent per annum.; and\nfor minimum\nalternative (c) by the re-numbering of paragraph 8 as paragraph 9.\ntax",
+      "page_start": 2
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2010%20of%202025%20-%20The%20Income%20Tax%20%28Amendment%29-Act.pdf",
+  "source_hash": "sha256:c72349804631de97b7548d7cb2e26a0005c81bd5afe820ed434fd3d19facacb3",
+  "fetched_at": "2026-04-10T09:38:42Z",
+  "parser_version": "0.3.0",
+  "notes": "Phase 4 Batch 001. Node URL: https://www.parliament.gov.zm/node/12514. PDF size: 13309 bytes."
+}
