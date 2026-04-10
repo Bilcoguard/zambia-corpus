@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-2021-012-the-service-commissions-amendment-act-2021",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Service Commissions (Amendment) Act, 2021",
+  "citation": "Act No. 12 of 2021",
+  "enacted_date": "2021-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Service Commissions Shorttitle",
+      "text": "(Amendment)Act,2021,andshallbereadasonewiththeService ActNo.10\nof2016\nCommissionsAct,2016,inthisActreferredtoastheprincipalAct."
+    },
+    {
+      "number": "2",
+      "heading": "Section5(1)oftheprincipalActisamendedbythedeletion Amendment",
+      "text": "ofsection5\nofparagraph(d)andthesubstitutionthereforofthefollowing:\n(d) a representative of the Public Service Management\nDivisionfromCabinetOffice;.\nSinglecopiesofthisActmaybeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka,PriceK4.00each.\n192"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/ACT%20NO.%2012%20OF%202021%20THE%20SERVICE%20COMMISSIONS%20%28AMENDMENT%29.pdf",
+  "source_hash": "sha256:4c23b49ce3fd70243e01c5a8ada8ae3e5333eaca4b1b09850f80605e67308e63",
+  "fetched_at": "2026-04-10T18:38:00Z",
+  "parser_version": "0.2.0",
+  "node_url": "https://www.parliament.gov.zm/node/8844"
+}

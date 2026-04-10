@@ -113,3 +113,14 @@ inventory.
 - **act-zm-2021-015-zambia-revenue-authority-amendment-act-2021** (2 sections): Brief ZRA amendment; verify completeness.
 - **act-zm-2021-022-public-private-partnership-amendment-act-2021**: PDF NOT FOUND on node page https://www.parliament.gov.zm/node/8834 — needs manual retrieval or alternative source (ZambiaLII).
 - SSL: parliament.gov.zm certificate verification handled via requests library with verify=False; content integrity verified via sha256 hashes.
+
+## Batch 0011 (2026-04-10T18:39:27Z)
+
+- Act No. 7 of 2021: only 2 sections (brief amendment act, may need re-parse)
+- Act No. 8 of 2021: only 3 sections (brief amendment act, may need re-parse)
+- Act No. 9 of 2021: only 3 sections (brief amendment act, may need re-parse)
+- Act No. 10 of 2021: only 3 sections (brief amendment act, may need re-parse)
+- Act No. 11 of 2021: only 3 sections (brief amendment act, may need re-parse)
+- Act No. 12 of 2021: only 2 sections (brief amendment act, may need re-parse)
+- Act No. 13 of 2021: only 2 sections (brief amendment act, may need re-parse)
+- Act No. 14 of 2021: only 2 sections (brief amendment act, may need re-parse)

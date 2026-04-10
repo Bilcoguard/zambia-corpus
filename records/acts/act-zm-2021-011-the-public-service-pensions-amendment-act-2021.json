@@ -1,0 +1,34 @@
+{
+  "id": "act-zm-2021-011-the-public-service-pensions-amendment-act-2021",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Public Service Pensions (Amendment) Act, 2021",
+  "citation": "Act No. 11 of 2021",
+  "enacted_date": "2021-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Public Service Pensions Shorttitle",
+      "text": "(Amendment)Act,2021,and shall bereadasonewiththePublic Cap.260\nServicePensionsAct,inthis Actreferredtoas the principalAct."
+    },
+    {
+      "number": "2",
+      "heading": "Section 4(1)oftheprincipal Actisamended bythedeletion Amendment",
+      "text": "of paragraphs (a) and (b) and the substitution therefor of the of\nsection4\nfollowing:\n(a) a representative of the ministry responsible for labour\nandsocialsecurity;and\n(b) a representative of the Public Service Management\nDivision,CabinetOffice;."
+    },
+    {
+      "number": "3",
+      "heading": "Section7oftheprincipalAct isamendedbytheinsertion Amendment",
+      "text": "of— ofsection7\n(a) the figure “(1)” between the figure “7” and the word\n“The”;and\n(b) thefollowingnewsubsections:\n(2) TheMinistermaygivetheBoardgeneral\norspecificdirectionsrelatingtotheperformance\nofitsfunctionsandtheBoardshallgiveeffectto\nthese directions to the extent that the directions\narenotinconsistentwiththisAct.\n(3) TheMinistermayenterintoperformance\ncontracts with the Board for a specified period\nwhich shall be consistent with the provisions of\nthisAct\nSinglecopiesofthisActmaybeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka,PriceK4.00each.\n190"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2011%20of%202021%20The%20%20Public%20Service%20Pensions%20Amendment.pdf",
+  "source_hash": "sha256:17ddd65f7c233f27cbc887019d847c55f9a517eaf0d4745c2c4882106e710024",
+  "fetched_at": "2026-04-10T18:37:56Z",
+  "parser_version": "0.2.0",
+  "node_url": "https://www.parliament.gov.zm/node/8843"
+}
