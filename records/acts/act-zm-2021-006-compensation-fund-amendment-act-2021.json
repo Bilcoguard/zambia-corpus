@@ -1,0 +1,34 @@
+{
+  "id": "act-zm-2021-006-compensation-fund-amendment-act-2021",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Compensation Fund (Amendment) Act, 2021",
+  "citation": "Act No. 6 of 2021",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Compensation Fund Shorttitle",
+      "text": "(Amendment) Act, 2021, and shall be read as one with the\n5 CompensationFundAct,2016,inthisActreferredtoastheprincipal ActNo.43of\nAct. 2016"
+    },
+    {
+      "number": "2",
+      "heading": "Section2ofthePrincipalActisamendedbythedeletionof Amendment",
+      "text": "thedefinitionof “PermanentSecretary” ofsection2"
+    },
+    {
+      "number": "3",
+      "heading": "Section4(2)oftheprincipalActisamendedbythedeletion Amendment",
+      "text": "ofparagraph(a)andthesubstitutionthereforofthefollowing: ofsection4\n(a)the Chairperson;.\nSinglecopiesofthisActmaybeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka,PriceK4.00each.\n180"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%206%20of%202021%20The%20Compensation%20Fund%20Amendment.pdf",
+  "source_hash": "sha256:91d7f22fa03185c44599b8d0077a475010f6600dc70d39804a64b1a5b1ff79c8",
+  "fetched_at": "2026-04-10T19:07:13Z",
+  "parser_version": "0.1.0",
+  "node_url": "https://www.parliament.gov.zm/node/8836"
+}
