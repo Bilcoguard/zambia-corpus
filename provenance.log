@@ -315,3 +315,11 @@
 {"id": "act-zm-2017-020-employment-amendment", "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Employment%20Amendment%20Act%202017%20Final.pdf", "source_hash": "sha256:93d10a19694c68488f01521c3f1168be132de987e77fd4aadb93b0eee9c79a80", "fetched_at": "2026-04-11T08:12:11Z", "parser_version": "0.3.0", "batch": 32}
 {"id": "act-zm-2017-021-supplementary-appropriation", "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Supplementary%20Appropriation%20Act%20No.%2021%20of%20%202017.pdf", "source_hash": "sha256:12311230883ed874398d98836d434a0e700013515937ae98df614e17b383477e", "fetched_at": "2026-04-11T08:12:16Z", "parser_version": "0.3.0", "batch": 32}
 {"id": "act-zm-2017-022-appropriation", "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Appropriation%20Act%20%20No.%2022%20of%20%202017.pdf", "source_hash": "sha256:823d530e94a51aaee27e91913b986c03f58dae9626f7fd0d94dd1717f341225b", "fetched_at": "2026-04-11T08:12:22Z", "parser_version": "0.3.0", "batch": 32}
+[2026-04-11T08:45:00Z] act-zm-2016-001-the-constitution-of-zambia | src=parliament.gov.zm | hash=sha256 verified | parser=0.4.0
+[2026-04-11T08:45:00Z] act-zm-2016-003-the-movable-property-security-interest | src=parliament.gov.zm | hash=sha256 verified | parser=0.4.0
+[2026-04-11T08:45:00Z] act-zm-2016-004-financial-intelligence-centre-amendment | src=parliament.gov.zm | hash=sha256 verified | parser=0.4.0
+[2026-04-11T08:45:00Z] act-zm-2016-005-the-civil-aviation | src=parliament.gov.zm | hash=sha256 verified | parser=0.4.0
+[2026-04-11T08:45:00Z] act-zm-2016-006-layout-designs-of-integrated-circuits-act-2016 | src=parliament.gov.zm | hash=sha256 verified | parser=0.4.0
+[2026-04-11T08:45:00Z] act-zm-2016-007-the-court-of-appeal | src=parliament.gov.zm | hash=sha256 verified | parser=0.4.0
+[2026-04-11T08:45:00Z] act-zm-2016-008-the-constitutional-court | src=parliament.gov.zm | hash=sha256 verified | parser=0.4.0
+[2026-04-11T08:45:00Z] act-zm-2016-009-the-superior-courts-number-of-judges | src=parliament.gov.zm | hash=sha256 verified | parser=0.4.0

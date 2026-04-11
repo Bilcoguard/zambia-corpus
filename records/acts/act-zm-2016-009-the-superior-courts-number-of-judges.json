@@ -1,0 +1,24 @@
+{
+  "id": "act-zm-2016-009-the-superior-courts-number-of-judges",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Superior Courts (Number of Judges), 2016",
+  "citation": "Act No. 9 of 2016",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "The Superior Courts (Number of Judges)",
+      "text": "Empty PDF"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/N.A.A%209-2016%20-%20Superior%20Courts%20%28Number%20of%20Judges%29%20.pdf",
+  "source_hash": "sha256:5dd273fe7ed77cb43462d9d34b1ae29743c1ac07b22ebc15cc956a7a9d88c966",
+  "fetched_at": "2026-04-11T08:38:14Z",
+  "parser_version": "0.4.0",
+  "node_url": "https://www.parliament.gov.zm/node/5172"
+}

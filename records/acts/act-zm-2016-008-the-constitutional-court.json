@@ -1,0 +1,24 @@
+{
+  "id": "act-zm-2016-008-the-constitutional-court",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Constitutional Court, 2016",
+  "citation": "Act No. 8 of 2016",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "The Constitutional Court",
+      "text": "Empty PDF"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/N.A.A%208-2018-Constitutional%20Court%2C%20Act.pdf",
+  "source_hash": "sha256:5de9bd0d7845ea518952f855272cd976b2ab37fc4f6223433180c74fbcbd8a7f",
+  "fetched_at": "2026-04-11T08:38:14Z",
+  "parser_version": "0.4.0",
+  "node_url": "https://www.parliament.gov.zm/node/5174"
+}
