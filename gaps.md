@@ -175,3 +175,7 @@ inventory.
 
 - **Act No. 6 of 2022** (The Judges (Conditions of Service) Act, 2022.): 5 sections — brief act, may need re-parse
 - **Act No. 7 of 2022** (The Supplementary Appropriation (2022) Act, 2022.): 2 sections — brief act, may need re-parse
+
+### Batch 0027 — Low section count records (2026-04-11T03:35:52Z)
+- **Act No. 20 of 2022** (4 sections): National Pension Scheme (Amendment) Act. Amendment act, low count expected.
+- **Act No. 22 of 2022** (8 sections): Criminal Procedure Code (Amendment) Act. Amendment act, low count expected.
