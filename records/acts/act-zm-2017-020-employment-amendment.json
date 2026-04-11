@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-2017-020-employment-amendment",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Employment (Amendment), 2017",
+  "citation": "Act No. 20 of 2017",
+  "enacted_date": "2017",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "(1) ThisActmaybecitedastheEmployment (Amendment) ShortTitle",
+      "text": "1. (1) ThisActmaybecitedastheEmployment (Amendment) ShortTitle\nandComme-\nAct,2017,andshall bereadas onewiththeEmploymentAct,in\nncement\nthisActreferredtoastheprincipalAct. Cap.268\n(2)ThisActshallcomeintooperationon1st January,2018."
+    },
+    {
+      "number": "2",
+      "heading": "Section25oftheprincipalActisamended bytheinsertion Amendment",
+      "text": "2. Section25oftheprincipalActisamended bytheinsertion Amendment\nofsection\nofthefollowingsubsectionimmediatelyaftersubsection(2):\n25\n(3) A person who contravens this section commits an\noffence.\nCopiesofthisActcanbeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka.PriceK4each.\n680"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Employment%20Amendment%20Act%202017%20Final.pdf",
+  "source_hash": "sha256:93d10a19694c68488f01521c3f1168be132de987e77fd4aadb93b0eee9c79a80",
+  "fetched_at": "2026-04-11T08:12:11Z",
+  "parser_version": "0.3.0",
+  "node_url": "https://www.parliament.gov.zm/node/7328"
+}
