@@ -1,0 +1,27 @@
+{
+  "id": "act-zm-2014-002-the-service-commissions-amendment-act-2014-act-no-2-of-2014",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Service Commissions (Amendment) Act 2014( Act No. 2 of  2014)",
+  "citation": "Act No. 2 of 2014",
+  "year": 2014,
+  "act_number": 2,
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Full text",
+      "text": ""
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Services%20Commissions%28Amendment%29%20Act%202014.PDF",
+  "source_hash": "sha256:25aced2aa6b48878d28859a1f0afb8c192ebb3378f719f27970029a4561e6fd5",
+  "fetched_at": "2026-04-11T13:40:10Z",
+  "parser_version": "0.3.0",
+  "node_url": "https://www.parliament.gov.zm/node/3164",
+  "pdf_size_bytes": 158307
+}

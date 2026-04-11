@@ -206,3 +206,24 @@ inventory.
 - **Act No. 18 of 2015** (The Electronic Communications and Transactions Act): No PDF found on parliament.gov.zm
 - **Act No. 19 of 2015** (The Public-Private Partnership Act): No PDF found on parliament.gov.zm
 - **Act No. 20 of 2015** (The Planning and Budgeting Act): No PDF found on parliament.gov.zm
+
+## Batch 0043 — 2026-04-11 — 2014 Acts missing PDFs
+
+The following 2014 Acts have node pages on parliament.gov.zm but no PDF attachments.
+These need to be sourced from an alternative location (ZambiaLII TDM reservation applies;
+consider Government Gazette or direct MMMD/MoJ request).
+
+- **Act No. 6 of 2014** — The Excess Expenditure Appropriation (2011) Act (node/2826)
+- **Act No. 7 of 2014** — The Income Tax (Amendment) Act 2014 (node/2938)
+- **Act No. 8 of 2014** — The Customs and Excise (Amendment) Act 2014 (node/2920)
+- **Act No. 9 of 2014** — The Property Transfer Tax (Amendment) Act 2014 (node/2884)
+- **Act No. 10 of 2014** — The Zambia Revenue Authority (Amendment) / Value Added Tax (Amendment) Act 2014 (node/2907, node/2941)
+- **Act No. 11 of 2014** — The Mines and Minerals Development (Amendment) Act 2014 (node/2925)
+- **Act No. 12 of 2014** — The Local Government (Amendment) Act 2014 (node/2911)
+
+## Batch 0043 — 2026-04-11 — Parse quality flags
+
+- **act-zm-2014-002** (1 section): Service Commissions Amendment — short amendment, may be complete; verify.
+- **act-zm-2014-003** (1 section): Business Regulatory Act — 8.6MB PDF (likely scanned). Only 1 section extracted. Needs OCR re-parse.
+- **act-zm-2015-023** (2 sections): Appropriation Act — schedule-heavy, expected low count.
+- **act-zm-2014-005** (2 sections): Supplementary Appropriation Act — schedule-heavy, expected low count.

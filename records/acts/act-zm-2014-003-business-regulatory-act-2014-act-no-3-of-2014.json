@@ -1,0 +1,27 @@
+{
+  "id": "act-zm-2014-003-business-regulatory-act-2014-act-no-3-of-2014",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Business Regulatory Act ( 2014)( Act No. 3 of  2014)",
+  "citation": "Act No. 3 of 2014",
+  "year": 2014,
+  "act_number": 3,
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Full text",
+      "text": ""
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Business%20Regulatory%20Act%20No.%203%20of%202014.pdf",
+  "source_hash": "sha256:9c97e2ca9cc5b501b14e31ee73567231f2f1f79985a65bcefbc5f1e7ada46473",
+  "fetched_at": "2026-04-11T13:40:48Z",
+  "parser_version": "0.3.0",
+  "node_url": "https://www.parliament.gov.zm/node/4781",
+  "pdf_size_bytes": 8644803
+}
