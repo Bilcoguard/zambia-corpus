@@ -1,0 +1,20 @@
+{
+  "id": "act-zm-2010-048-value-added-tax-amendment",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Value Added Tax (Amendment)",
+  "citation": "Act No. 48 of 2010",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Value%20Added%20Tax%20%28Amendment%29%202010A.PDF",
+  "source_hash": "sha256:93ac71b692bf1abd69321cb2239176445892aff10fdc1f440118b08f586e3c86",
+  "fetched_at": "2026-04-11T18:06:47Z",
+  "parser_version": "0.4.0",
+  "notes": "Fetched from parliament.gov.zm. 0 sections parsed. Scanned/image PDF — needs OCR re-parse."
+}

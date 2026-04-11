@@ -255,3 +255,10 @@ consider Government Gazette or direct MMMD/MoJ request).
 ## Batch 0050 (2026-04-11T17:39:55Z)
 - act-zm-2011-008-the-supreme-court-amendment-act-2011: 0 sections parsed — likely scanned PDF, needs OCR re-parse
 - act-zm-2011-009-the-zambia-institute-of-advanced-legal-education-amendment-act-2011: 0 sections parsed — scanned PDF (1.2MB), needs OCR re-parse
+
+### Batch 0051 — 2011/2010 Acts gaps (2026-04-11T18:08:21Z)
+- act-zm-2010-050-property-transfer-tax-amendment: 0 sections parsed — scanned/image PDF, needs OCR re-parse
+- act-zm-2010-049-income-tax-amendment: 0 sections parsed — scanned/image PDF, needs OCR re-parse
+- act-zm-2010-048-value-added-tax-amendment: 0 sections parsed — scanned/image PDF, needs OCR re-parse
+- act-zm-2010-047-customs-and-excise-amendment: 0 sections parsed — scanned/image PDF, needs OCR re-parse
+- act-zm-2010-046-financial-intelligence-centre-2010: 0 sections parsed — scanned/image PDF, needs OCR re-parse

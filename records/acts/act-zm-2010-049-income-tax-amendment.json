@@ -1,0 +1,20 @@
+{
+  "id": "act-zm-2010-049-income-tax-amendment",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Income Tax (Amendment)",
+  "citation": "Act No. 49 of 2010",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Income%20Tax%20%28Amendment%29%202010A_0.PDF",
+  "source_hash": "sha256:0b7e654adeed895cbb613cc11ffe71e771241377d033fc47120562c19a71609a",
+  "fetched_at": "2026-04-11T18:06:43Z",
+  "parser_version": "0.4.0",
+  "notes": "Fetched from parliament.gov.zm. 0 sections parsed. Scanned/image PDF — needs OCR re-parse."
+}
