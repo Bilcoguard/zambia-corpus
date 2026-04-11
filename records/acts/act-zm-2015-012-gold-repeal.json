@@ -1,0 +1,33 @@
+{
+  "id": "act-zm-2015-012-gold-repeal",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Gold (Repeal)",
+  "citation": "Act No. 12 of 2015",
+  "enacted_date": "2015",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Gold Trade (Repeal) Act, Short title",
+      "text": "2015."
+    },
+    {
+      "number": "2",
+      "heading": "In this Act, unless the context otherwise requires\u2014 Interpretation",
+      "text": "\u201c Director \u201d means the Director of Mines appointed under\nthe Mines and Minerals Development Act, 2015; and Act No. 11\nof 2015\n\u201c repealed Act \u201d means the Gold Trade Act. Cap. 396"
+    },
+    {
+      "number": "3",
+      "heading": "(1) The Gold Trade Act, 1912, is hereby repealed. Repeal of",
+      "text": "Cap. 396\n(2) Notwithstanding subsection (1), a person who, at the\ncommencement of this Act, is a holder of a licence or permit issued\nunder the repealed Act shall, within six months after such Cap. 396\ncommencement, apply to the Director for a licence, except that\nthe Director shall only grant a permit for the unexpired period for\nwhich it was granted under the repealed Act. Cap. 369\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K2.00 each.\n246"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Gold%20Repeal%20Act%2C%202015.pdf",
+  "source_hash": "sha256:c1669e8de1267750772806f515340cdbdf28909ea2fd2cd9e4e02e952cb7cd52",
+  "fetched_at": "2026-04-11T12:35:44Z",
+  "parser_version": "0.4.0"
+}

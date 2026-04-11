@@ -1,0 +1,28 @@
+{
+  "id": "act-zm-2015-005-referendum",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Referendum",
+  "citation": "Act No. 5 of 2015",
+  "enacted_date": "2015",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Referendum (Amendment) Short title",
+      "text": "Act, 2015, and shall be read as one with the Referendum Act, in Cap. 14\nthis Act referred to as the principal Act."
+    },
+    {
+      "number": "2",
+      "heading": "The principal Act is amended by the insertion of the following Insertion of",
+      "text": "new section\nnew section:\n1A\n1A. In this Act unless the context otherwise requires\u2014 Interepreta-\ntion\n\u201c Commission \u201d means the Electoral Commission\nestablished by the Constitution; Cap. 1\n\u201cDirector\u201d means the Director appointed under the\nElectoral Commission Act; and Cap. 17\n\u201creferendum officer\u201d means a person appointed by\nthe Commission to be\u2014\n(a) a district referendum officer;\n(b) a returning officer;\n(c) a presiding officer;\n(d) a polling assistant; or\n(e) a counting assistant;\nand includes a person appointed by a\nreferendum officer under subsection (2) of\nsection eight or the Director where functions\nare conferred on the Director under this Act, in\nrespect of a refereundum.\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K2.00 each.\n142 No. 5 of 2015] Referendum (Amendment)\nAmendment 3. Section three of the principal Act is amended\u2014\nof section 3\n(a) in subsection (1), by the deletion of the word \u201cAll\u201d and\nthe substitution therefor of the words \u201cSubject to\nsubsection (2), all\u201d;\n(b) by the insertion, immediately after subsection (1), of the\nfollowing new subsection:\n(2) Any question put to a referendum under\nArticle 79 of the Constitution shall be voted on\nby not less than fifty percent of persons entitled\nto be registered as voters for the purposes of\nPresidential and Parliamentary elections.; and\n(c) by the consequential renumbering of subsections (2) and\n(3) as (3) and (4), respectively.\nRepeal and 4. The principal Act is amended by the repeal of section four\nreplacement\nand the substitution therefor of the following:\nof section 4\nAdministra- 4. The Commission shall be responsible for the\ntion of Act administration of this Act and for supervising a referendum\nand\nsupervision held pursuant to section two.\nof\nreferendum\nRepeal of 5. The principal Act is amended by the repeal of section five.\nsection 5\nRepeal and 6. The principal Act is amended by the repeal of section six\nreplacement and the substitution therefor of the following:\nof section 6\nProcedure of 6. Section eight of the Electoral Commision Act applies to\nCommission\nthe Commission.\nCap. 17\nAmendment 7. Section eight of the principal Act is amended by the deletion\nof section 8\nof subsection (6).\nGeneral 8. The principal Act is amended by the deletion of the words\namendment \u201cDirector of Elections\u201d wherever they appear and the substitution\ntherefor of the word \u201cDirector\u201d"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Referendum%20Act%2C%202015.pdf",
+  "source_hash": "sha256:0eae808016d8e62902bb47e6c867866db0c1551e8e74b765cf3986515e74909e",
+  "fetched_at": "2026-04-11T12:35:14Z",
+  "parser_version": "0.4.0"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "act-zm-2015-006-income-tax-amendment",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Income Tax (Amendment)",
+  "citation": "Act No. 6 of 2015",
+  "enacted_date": "2015",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "(1) ThisActmaybecitedastheIncomeTax(Amendment) Shorttitleand",
+      "text": "Act, 2015, and shall be read as one with the IncomeTaxAct, in commence-\nment\nthisActreferredtoastheprincipalAct. Cap.323\n(2) ThisActshallcomeintooperationon1st July,2015."
+    },
+    {
+      "number": "2",
+      "heading": "Section twooftheprincipalActisamendedbythedeletion, Amendment",
+      "text": "in subsection (1), of the definitions of \u201cmining operations\u201d and ofsection2\n\u201cmineralprocessing\u201d andthesubstitutionthereforofthefollowing:\n\u201cminingoperations\u201dmeansanoperationcarriedoutundera\nminingright, excludinganoperationcarriedoutunder a\nmineralprocessinglicenceonlyoranexplorationlicence;\n\u201cmineralprocessing\u201dhasthemeaningassignedtoitinthe\nMinesandMineralsDevelopmentAct,2015. ActNo.11\nof2015"
+    },
+    {
+      "number": "3",
+      "heading": "TheprincipalActisamendedbytheinsertion,immediately Insertionof",
+      "text": "section22A\naftersectiontwenty-two,ofthefollowingnewsection:\n22A. The Commissioner-General may, for the Assessable\nincome\npurposes of determining assessable income relating to\nmineralprocessingandminingoperationsforthecharge\nyear2015,determinetheappropriateapportionmentbasis."
+    },
+    {
+      "number": "4",
+      "heading": "The principal Act is amended by the deletion of section Repeal and",
+      "text": "replacement\nthirtyandthesubstitutionthereforofthefollowing:\nof section 30\nSinglecopiesofthisActmaybeobtainedfromtheGovernmentPrinter\nP.O.Box30136,10101Lusaka.PriceK4.00\n144 No. 6 of 2015] The Income Tax (Amendment)\nLosses 30. (1) A loss incurred by a person in a charge year\nfrom\u2014\n(a)a source other than a miningoperation,shall be\ndeducted from that person\u2019s income from the\nsame source on which the loss was incurred;\nand\n(b) aminingoperation,shallbedeductedfromfifty\npercent of the income of the person from the\nminingoperation.\n(2) Where aloss referredtoin\u2014\n(a)paragraph(a)ofsubsection(1)exceedsthe\nincomeofapersonforachargeyear,the\nexcessshall,asfaraspossible,bededucted\nfromthatperson\u2019sincomefromthesame\nsourceonwhichthelosswasincurredin\nthefollowingchargeyear;and\n(b)paragraph(b)ofsubsection(1)exceedsfifty\npercent of the income from a mining\noperation for a charge year, the excess\nshall,asfaraspossible,bedeductedfrom\nfiftypercentofthatperson\u2019sincomefrom\nthe mining operation in the following\ncharge year.\n(3) Subjecttosubsection(1)and(2),alossincurred\nby a person \u2014\n(a)carryingonaminingoperationorhydroand\nthermo power generation, shall not be\ncarried forward beyond ten subsequent\ncharge years after the charge year in\nwhichthelossisincurred;and\n(b)inanyothercaseshallnotbecarriedforward\nbeyond five subsequent years after the\nchargeyearinwhichthelosswasincurred.\n(4) Losses brought forwardas at31st March, 1997,\nshallbedeemedtohavebeenincurredinthechargeyear\nending31stMarch,1997.\n(5) Whereonthedeathofanindividual,interestina\nbusinesspassestothatindividual\u2019sspouse,anyundeducted\nlossattributabletothatinterestshallbedeductedfromthe\nspouse\u2019s income from that business in accordance with\nsubsection(2).\nThe Income Tax (Amendment) [No. 6 of 2015 145"
+    },
+    {
+      "number": "5",
+      "heading": "TheChargingScheduletotheprincipalActisamendedby Amendment",
+      "text": "the deletion of subparagraphs (e), (f) and (g) of paragraph 3 and to Charging\nSchedule\nthesubstitutionthereforofthefollowing:\n(e)onincomefrommineralprocessing,attherateofthirty-\nfive percent;\n(f)wherethe incomefromaminingoperationdoesnotexceed\neight percent of the gross sales, at the rate of thirty\npercent;and\n(g)wheretheincomefroma miningoperationexceedseight\npercent of the gross sales, at the rate determined in\naccordancewiththefollowingformula:\nY=30% + [a \u2013 (ab/c)]\nWhere \u2013\nY=thetaxratetobeappliedperannum;\na= 15%\nb= 8%; and\nc= the percentage ratio of the assessable\nincome to gross sales\n146"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/The%20Income%20Tax%20%28Amendment%29%20%20Act%20No.%206%20of%202015.pdf",
+  "source_hash": "sha256:9c85c2ac1bc1617d892fe6dd7e59ef58e2efeab5d49bd95f4c78e6401458f323",
+  "fetched_at": "2026-04-11T12:35:19Z",
+  "parser_version": "0.4.0"
+}
