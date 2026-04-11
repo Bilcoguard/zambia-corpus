@@ -189,3 +189,7 @@ inventory.
 - **The Income Tax (Amendment)** (3 sections): Amendment act, low count expected.
 - **The Mines and Minerals Development (Amendment)** (3 sections): Amendment act, low count expected.
 - **The Local Government (Amendment)** (3 sections): Amendment act, low count expected.
+
+### Batch 0035 — 2016 Acts gap (2026-04-11)
+- Could not find 2016 Acts No. 18+ on parliament.gov.zm listing pages 15-19
+- May need to check different page range or alternative URL pattern
