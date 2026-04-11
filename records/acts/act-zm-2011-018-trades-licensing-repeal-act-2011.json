@@ -1,0 +1,28 @@
+{
+  "id": "act-zm-2011-018-trades-licensing-repeal-act-2011",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Trades Licensing (Repeal) Act 2011",
+  "citation": "Act No. 18 of 2011",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Trades Licensing (Repeal)",
+      "text": "This Act may be cited as the Trades Licensing (Repeal)\nShort title\nAct, 2011."
+    },
+    {
+      "number": "2",
+      "heading": "The Trades Licensing Act, 1968, is hereby repealed.",
+      "text": "The Trades Licensing Act, 1968, is hereby repealed.\nRepeal of\nCap. 393\nAct No. 41\nof 1968\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 1010 Lusaka Price K1,000 each\n228"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Trades%20Licensing%20%20Act%2C%202011.pdf",
+  "source_hash": "sha256:2759b79172ff014ba81ddb59a35828bae1d8783004234a4328c43605418cc0cf",
+  "fetched_at": "2026-04-11T17:05:17Z",
+  "parser_version": "0.5.0"
+}

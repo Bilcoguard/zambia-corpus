@@ -1,0 +1,563 @@
+{
+  "id": "act-zm-2011-022-the-fisheries-act-2011",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Fisheries Act 2011",
+  "citation": "Act No. 22 of 2011",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Short title",
+      "text": "Short title"
+    },
+    {
+      "number": "2",
+      "heading": "Interpretation",
+      "text": "Interpretation\nPART II\nDEPARTMENT OF FISHERIES"
+    },
+    {
+      "number": "3",
+      "heading": "Director of Fisheries and other staff",
+      "text": "Director of Fisheries and other staff"
+    },
+    {
+      "number": "4",
+      "heading": "Functions of Department",
+      "text": "Functions of Department"
+    },
+    {
+      "number": "5",
+      "heading": "Honorary fisheries officers",
+      "text": "Honorary fisheries officers"
+    },
+    {
+      "number": "6",
+      "heading": "Powers of authorised officers",
+      "text": "Powers of authorised officers"
+    },
+    {
+      "number": "7",
+      "heading": "Power to carry out tests and to take statistics",
+      "text": "Power to carry out tests and to take statistics"
+    },
+    {
+      "number": "8",
+      "heading": "Release, seizure and destruction",
+      "text": "Release, seizure and destruction"
+    },
+    {
+      "number": "9",
+      "heading": "Arrest without warrant",
+      "text": "Arrest without warrant"
+    },
+    {
+      "number": "10",
+      "heading": "Obstruction of authorised officer or honorary fisheries officer",
+      "text": "Obstruction of authorised officer or honorary fisheries officer"
+    },
+    {
+      "number": "11",
+      "heading": "Immunity",
+      "text": "Immunity"
+    },
+    {
+      "number": "12",
+      "heading": "General principles of management",
+      "text": "General principles of management"
+    },
+    {
+      "number": "13",
+      "heading": "Fisheries development measures",
+      "text": "Fisheries development measures"
+    },
+    {
+      "number": "14",
+      "heading": "Fisheries management measures",
+      "text": "Fisheries management measures\nPART III\nPROTECTION OF FISH"
+    },
+    {
+      "number": "15",
+      "heading": "Prohibited methods of fishing",
+      "text": "Prohibited methods of fishing"
+    },
+    {
+      "number": "16",
+      "heading": "Fish processing and storage vessels",
+      "text": "Fish processing and storage vessels"
+    },
+    {
+      "number": "17",
+      "heading": "Importation of fishing gear",
+      "text": "Importation of fishing gear"
+    },
+    {
+      "number": "18",
+      "heading": "Power to restrict methods of fishing",
+      "text": "Power to restrict methods of fishing"
+    },
+    {
+      "number": "19",
+      "heading": "Restriction on introduction of fish",
+      "text": "Restriction on introduction of fish\nCopies of this Act can be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka. Price K20,000 each.\n380 [ No. 22 of 2011 Fisheries"
+    },
+    {
+      "number": "20",
+      "heading": "Power to control introduction and spread of fish disease",
+      "text": "Power to control introduction and spread of fish disease"
+    },
+    {
+      "number": "21",
+      "heading": "Offences related to fish disease",
+      "text": "Offences related to fish disease"
+    },
+    {
+      "number": "22",
+      "heading": "Emergency measures",
+      "text": "Emergency measures"
+    },
+    {
+      "number": "23",
+      "heading": "Import of fish or fish product",
+      "text": "Import of fish or fish product"
+    },
+    {
+      "number": "24",
+      "heading": "Importation for scientific, educational or research purposes",
+      "text": "Importation for scientific, educational or research purposes"
+    },
+    {
+      "number": "25",
+      "heading": "Export of fish or fish product",
+      "text": "Export of fish or fish product\nPART IV\nFISHERIES MANAGEMENT AREAS"
+    },
+    {
+      "number": "26",
+      "heading": "Declaration of fisheries management area",
+      "text": "Declaration of fisheries management area"
+    },
+    {
+      "number": "27",
+      "heading": "Restriction on fishing in fisheries management area",
+      "text": "Restriction on fishing in fisheries management area"
+    },
+    {
+      "number": "28",
+      "heading": "Fisheries management plan",
+      "text": "Fisheries management plan"
+    },
+    {
+      "number": "29",
+      "heading": "Fisheries management committee",
+      "text": "Fisheries management committee"
+    },
+    {
+      "number": "30",
+      "heading": "Functions of fisheries management committee",
+      "text": "Functions of fisheries management committee"
+    },
+    {
+      "number": "31",
+      "heading": "Misuse of money of committee",
+      "text": "Misuse of money of committee"
+    },
+    {
+      "number": "32",
+      "heading": "Submission of report and minutes",
+      "text": "Submission of report and minutes"
+    },
+    {
+      "number": "33",
+      "heading": "Zone and village fisheries management committee",
+      "text": "Zone and village fisheries management committee\nPART V\nSPECIAL FISHING AREAS"
+    },
+    {
+      "number": "34",
+      "heading": "Prescribed areas",
+      "text": "Prescribed areas"
+    },
+    {
+      "number": "35",
+      "heading": "Special fishing licence",
+      "text": "Special fishing licence\nPART VI\nCOMMERCIAL FISHING"
+    },
+    {
+      "number": "36",
+      "heading": "Declaration of commercial fishing area",
+      "text": "Declaration of commercial fishing area"
+    },
+    {
+      "number": "37",
+      "heading": "Registration of boats",
+      "text": "Registration of boats"
+    },
+    {
+      "number": "38",
+      "heading": "Boat identification marks",
+      "text": "Boat identification marks"
+    },
+    {
+      "number": "39",
+      "heading": "Declaration of fisheries reserves",
+      "text": "Declaration of fisheries reserves\nPART VII\nAQUACULTURE"
+    },
+    {
+      "number": "40",
+      "heading": "Prohibition of engaging in aquaculture without licence",
+      "text": "Prohibition of engaging in aquaculture without licence"
+    },
+    {
+      "number": "41",
+      "heading": "Application for licence",
+      "text": "Application for licence"
+    },
+    {
+      "number": "42",
+      "heading": "Aquaculture licence",
+      "text": "Aquaculture licence"
+    },
+    {
+      "number": "43",
+      "heading": "Conditions of aquaculture licence",
+      "text": "Conditions of aquaculture licence\nFisheries [ No. 22 of 2011 381"
+    },
+    {
+      "number": "44",
+      "heading": "Restriction on transfer of licence",
+      "text": "Restriction on transfer of licence"
+    },
+    {
+      "number": "45",
+      "heading": "Environmental impact assessment",
+      "text": "Environmental impact assessment"
+    },
+    {
+      "number": "46",
+      "heading": "Inspection of proposed site for aquacutlure",
+      "text": "Inspection of proposed site for aquacutlure"
+    },
+    {
+      "number": "47",
+      "heading": "Prohibition of interfering with aquaculture facility",
+      "text": "Prohibition of interfering with aquaculture facility"
+    },
+    {
+      "number": "48",
+      "heading": "Restriction on use of chemicals, etc. in aquaculture facility",
+      "text": "Restriction on use of chemicals, etc. in aquaculture facility"
+    },
+    {
+      "number": "49",
+      "heading": "Cancellation and suspension of licence",
+      "text": "Cancellation and suspension of licence"
+    },
+    {
+      "number": "50",
+      "heading": "Appeal against suspension or cancellation of licence",
+      "text": "Appeal against suspension or cancellation of licence"
+    },
+    {
+      "number": "51",
+      "heading": "Aquaculture Development Plan",
+      "text": "Aquaculture Development Plan"
+    },
+    {
+      "number": "52",
+      "heading": "Aquaculture regulations",
+      "text": "Aquaculture regulations\nPART VIII\nTHE FISHERIES AND AQUACULTURE DEVELOPMENT FUND"
+    },
+    {
+      "number": "53",
+      "heading": "Establishment of Fisheries and Aquaculture Development Fund",
+      "text": "Establishment of Fisheries and Aquaculture Development Fund"
+    },
+    {
+      "number": "54",
+      "heading": "Administration of Fund",
+      "text": "Administration of Fund"
+    },
+    {
+      "number": "55",
+      "heading": "Application of moneys of Fund",
+      "text": "Application of moneys of Fund"
+    },
+    {
+      "number": "56",
+      "heading": "Statement of income and expenditure",
+      "text": "Statement of income and expenditure\nPART IX\nGENERAL PROVISIONS"
+    },
+    {
+      "number": "57",
+      "heading": "Mutual legal assistance",
+      "text": "Mutual legal assistance"
+    },
+    {
+      "number": "58",
+      "heading": "Offences committed outside Zambia",
+      "text": "Offences committed outside Zambia"
+    },
+    {
+      "number": "59",
+      "heading": "Extraditable offences",
+      "text": "Extraditable offences"
+    },
+    {
+      "number": "60",
+      "heading": "General offences",
+      "text": "General offences"
+    },
+    {
+      "number": "61",
+      "heading": "General penalty",
+      "text": "General penalty"
+    },
+    {
+      "number": "62",
+      "heading": "Offences by body corporate or unincorporate body",
+      "text": "Offences by body corporate or unincorporate body"
+    },
+    {
+      "number": "63",
+      "heading": "Forfeiture provisions on conviction",
+      "text": "Forfeiture provisions on conviction"
+    },
+    {
+      "number": "64",
+      "heading": "Cancellation of licence or permit by court order",
+      "text": "Cancellation of licence or permit by court order"
+    },
+    {
+      "number": "65",
+      "heading": "Conduct of prosecution",
+      "text": "Conduct of prosecution"
+    },
+    {
+      "number": "66",
+      "heading": "Trespass upon private property",
+      "text": "Trespass upon private property"
+    },
+    {
+      "number": "67",
+      "heading": "Regulations",
+      "text": "Regulations"
+    },
+    {
+      "number": "68",
+      "heading": "Repeal of Cap. 200",
+      "text": "Repeal of Cap. 200\nSCHEDULE\nFisheries [ No. 22 of 2011 383\nGOVERNMENT OF ZAMBIA\nACT\nNo. 22 of 2011\nDate of Assent: 15th April, 2011\nAn Act to provide for the appointment of the Director of\nFisheries and fisheries officers and provide for their\npowers and functions; promote the sustainable\ndevelopment of fisheries and a precautionary approach in\nfisheries management, conservation, utilisation and\ndevelopment; establish fisheries management areas and\nfisheries management committees; provide for the\nregulation of commercial fishing and aquaculture; establish\nthe Fisheries and Aquacuture Development Fund; repeal\nand replace the Fisheries Act, 1974; and provide for\nmatters connected with, or incidental to, the foregoing\n[18th April, 2011\nENACTED by the Parliament of Zambia. Enactment\nPART I\nPRELIMINARY"
+    },
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Fisheries Act, 2011. Short title",
+      "text": "This Act may be cited as the Fisheries Act, 2011. Short title"
+    },
+    {
+      "number": "2",
+      "heading": "In this Act, unless the context otherwise requires\u2014 Interpretation",
+      "text": "In this Act, unless the context otherwise requires\u2014 Interpretation\n\u201c aquaculture \u201d means the cultivation, propagation or farming\nof fish, aquatic vegetation, or other living aquatic resources\nwhether from eggs, spawn, spat or seed or by rearing fish\nlawfully taken from the wild or lawfully imported into the\ncountry, or by other similar process;\n\u201c Aquaculture Development Plan \u201d means the Plan prepared\nunder section fifty-one;\n\u201c aquaculture facility \u201d means any equipment,construction,\nenclosure, place or area, whether on land or in water, in\nwhich aquaculture is conducted;\n384 [ No. 22 of 2011 Fisheries\n\u201c authorised officer \u201d means the Director, an officer of the\nDepartment of Fisheries authorised by the Director and\nany other person authorised, in writing, by the Director;\n\u201c boat \u201d means any water craft, whether powered or\nunpowered, used for, or in connection with, commercial\nfishing, but does not include a canoe;\n\u201c commercial fishing \u201d means fishing which is undertaken in\na commercial fishing area as a regular or occasional\noccupation for the supply of fish to any market or industry;\n\u201c committee \u201d means a fisheries management committee\nconstituted under section twenty-nine;\n\u201c community resources board \u201d has the meaning assigned to\nAct No. 12 it in the Zambia Wildlife Act, 1998;\nof 1998\n\u201c conveyance \u201d means an aircraft, ship, boat, vessel, train,\nvehicle, carriage, cart or other conveyance of whatever\nkind, including the fittings and equipment of the conveyance;\n\u201c Department \u201d means the Department of Fisheries;\n\u201c Director \u201d means the person appointed as such under section\nthree;\n\u201c disease \u201d means a deviation from the state of complete\nphysical or social well being of an organism involving a\nwell defined set of symptoms and ichthyology that leads to\nan impairment of the organism\u2019s normal function;\n\u201c ecologically sustainable development \u201d means using,\nconserving and enhancing the fisheries resources and fish\nhabitats so that\u2014\n(a) the ecological processes on which life depends\nare maintained; and\n(b) the total quality of life, both now and in the\nfuture, can be improved;\n\u201c Environmental Management Agency \u201d has the meaning\nAct No.12 assigned to it in the Environmental Management Act, 2011;\nof 2011\n\u201cenvironmental impact assessment\u201d has the meaning assigned\nAct No. 12 to it in the EnvironmentalManagement Act, 2011;\nof 2011\n\u201c fish \u201d means any vertebrate fish alive or dead and any part\nthereof, whether or not preserved in any form, and includes\nfin, shell fish, the young and eggs but does not include a\ngenetically modified organism;\nFisheries [ No. 22 of 2011 385\n\u201c fish product \u201d means any product or part thereof, including\noil, obtained by fish processing and intended for use as\nhuman food, animal feed or raw material ingredient in the\nmanufacture of other commodities of commercial or\nornamental value;\n\u201c fishing \u201d includes any act directed at or intended for the\nharvesting, taking, killing or injuring of any fish;\n\u201c fishing gear \u201d means any instrument, equipment, net, cork,\nbuoy or other article including any part thereof used for\npurposes of fish finding, congregating fish or fishing;\n\u201c fisheries management area \u201d means any fishery waters or\npart thereof or any geographical area, whether or not\nconnected to any fishery water, declared to be a fisheries\nmanagement area under section twenty-six;\n\u201c fisheries management plan \u201d means a plan for the\nmanagement and development of a fisheries management\narea prepared pursuant to section twenty-eight;\n\u201c fishery waters \u201d means water in any river, stream,\nwatercourse, lake, lagoon, swamp, pond,dam or reservoir,\nwhether natural or man-made, but does not include water\nin aquaria or ornamental ponds unconnected with any\nnatural water;\n\u201c Fund \u201d means the Fisheries and Aquaculture Development\nFund established under section fifty-three;\n\u201c game management area \u201d has the meaning assigned to it in\nthe Zambia Wildlife Act, 1998; Act No. 12\nof 1998\n\u201c genetically modified organisms\u201d has the meaning assigned\nto it in the Biosafety Act, 2007 Act No. 7\nof 2007\n\u201c honorary fisheries officer \u201d means any person appointed\nas such under section five;\n\u201c Local Forest \u201d has the meaning assigned to it in the Forests Cap. 199\nAct;\n\u201c National Forest \u201d has the meaning assigned to it in the\nForests Act; Cap. 199\n\u201c National Park \u201d has the meaning assigned to it in the Zambia\nWildlife Act, 1998; Act No. 12\nof 1998\n\u201c precautionary approach \u201d means the principle that, if there\nis a threat of serious or irreversible environmental damage,\nlack of scientific certainty should not be used as a reason\nto postpone measures to prevent environmental degradation,\nor possible environmental degradation, because of the\nthreat;\n386 [ No. 22 of 2011 Fisheries\n\u201c prescribed area \u201d means such area as may be prescribed\nby the Minister for the purpose of this Act; and\n\u201c weir \u201d means any fence, bank or similar obstruction erected\nin or across water for the purpose of taking fish, obstruction\nof free fish movement or migration,"
+    },
+    {
+      "number": "6",
+      "heading": "(1) Subject to, and for the purposes of, this Act, an authorised Powers of",
+      "text": "(1) Subject to, and for the purposes of, this Act, an authorised Powers of\nofficer may\u2014 authorised\nofficers\n(a) at any reasonable time, enter upon and inspect any land,\ntent, conveyance, fish processing establishment,\naquaculture facility, building or premises where any fish\nor fish product may be found or processed, or where\nany traps, weirs, stakes, fences or other contrivances\nmay be found for the purposes of inspection and data\ncollection;\n(b) open and examine any container, conveyance, package\nor wrapping suspected to contain any fish or fish product,\nto ensure sanitary compliance;\n(c) inspect any fish or fish product destined for import into or\nexport from Zambia to determine whether the\nconsignment is sanitary compliant;\n(d) inspect and examine any conveyance which the authorised\nofficer has reasonable grounds to believe is transporting\nany fish or fish product to ensure sanitary compliance;\n(e) require the person in charge of any conveyance entering\nin Zambia to furnish a list of the names of all persons in\nthe conveyance and such other prescribed information\nas it is within the power of such person to furnish;\n(f) search any person whom the authorised officer has\nreasonable grounds to believe is carrying any fish or\nfish product or carrying out activities contrary to this\nAct;\n(g) require any person to produce for inspection any fish, fish\nproduct, net, trap, line, poison, document, explosive,\nappliance, article, device or anything in relation to or in\nconnection with which, the authorised officer has reason\nto believe, an offence has been committed or is likely to\nbe committed;\n390 [ No. 22 of 2011 Fisheries\n(h) seize any fish, fish product, net, trap, line, poison, explosive,\nappliance, equipment, device or material in connection\nwith which an offence appears to have been committed;\n(i)apply or order the application of measures which are\nnecessary or prescribed for the control or prevention of\nthe spread of a disease;\n(j) destroy or order the destruction at any time of any fish or\nfish product which is diseased, moved or used contrary\nto the provisions of this Act;\n(k) order the adoption of measures prescribed to ensure the\nprotection of fish; and\n(l) seize or order the seizure of a conveyance carrying any\nfish or fish product in contravention of this Act or any\nother law.\n(2) An owner of any land, building or premises or of any\nconveyance shall afford an authorised officer access thereto and\nshall give such information and provide such reasonable assistance\nas the authorised officer may require for the purposes of data\ncollection and carrying out an inspection.\n(3) An authorised officer may, in the performance of any\nfunctions under this section, be accompanied and assisted by a\npolice officer.\n(4) An authorised officer may, in the course of an inspection\ncarried out under this section\u2014\n(a) seize, re-call, destroy, detain, or otherwise dispose of any\nfish or fish product or order that any such action be\ntaken, at the expense of the owner;\n(b) obtain any sample of any fish or fish product as the\nauthorised officer considers necessary;\n(c) order any person to produce for inspection, or for purposes\nof obtaining extracts or copies, any book, document or\nother information concerning any matter relevant to the\nadministration of this Act;\n(d) suspend one or more activities or temporarily, partially or\ncompletely close an inspected premises; and\n(e) suspend or withdraw any permit or licence issued under\nthis Act.\nFisheries [ No. 22 of 2011 391\n(5) Where an authorised officer detains, disposes of or destroys\nany fish or fish product under subsection (1) or (4), the authorised\nofficer shall, as soon as is practicable, notify in writing, the owner\nof the fish or fish products of the steps taken and the reasons\ntherefor.\n(6) Where\u2014\n(a) at any place within Zambia, any fish, fish product or\nconveyance is infected or is suspected of being infected\nwith any disease; or\n(b) any fish, fish product or conveyance has been introduced\ninto any place in Zambia without the permit required for\nsuch introduction, or having been introduced under a\npermit is moved or dealt with otherwise than in\naccordance with such permit;\nan authorised officer may make such order as the authorised officer\nconsiders necessary for all or any of the following purposes:\n(i) to direct that such fish, fish product or conveyance be\nseized or detained;\n(ii) to direct that such fish, fish product or conveyance be\ndisposed of or destroyed, as the case may be; or\n(iii) to direct that such fish, fish product or conveyance be\ndealt with in such manner as is considered necessary\nto prevent the spread of any disease.\n(7) A person who contravenes an order made pursuant to this\nsection commits an offence and is liable, upon conviction, to a fine\nnot exceeding three hundred thousand penalty units or to\nimprisonment for a period not exceeding three years, or to both.\n(8) Where a person fails or refuses to do anything which that\nperson is required to do un"
+    },
+    {
+      "number": "10",
+      "heading": "A person who\u2014 Obstruction",
+      "text": "A person who\u2014 Obstruction\nof authorised\n(a) wilfully delays or obstructs an authorised officer or an officer or\nhonorary fisheries officer in the carrying out of their honorary\nfisheries\nduties; officer\n(b) knowingly or negligently gives an authorised officer or an\nhonorary fisheries officer false or misleading information\norally, in writing or otherwise; or\n(c) impersonates or falsely represents oneself to be an\nauthorised officer, or to be a person acting under an\nauthorised officer\u2019s orders;\ncommits an offence and is liable, upon conviction, to a fine not\nexceeding one hundred thousand penalty units or to imprisonment\nfor a period not exceeding one year, or to both."
+    },
+    {
+      "number": "11",
+      "heading": "An action shall not lie against an authorised officer or an Immunity",
+      "text": "An action shall not lie against an authorised officer or an Immunity\nhonorary fisheries officer in respect of any act done by the authorised\nofficer or honorary fisheries officer in good faith and without\nnegligence in the execution of the powers vested in them under\nthis Act."
+    },
+    {
+      "number": "12",
+      "heading": "In exercising powers under and in relation to this Act, the General",
+      "text": "In exercising powers under and in relation to this Act, the General\nprinciples of\nMinister, Director or persons to whom the Minister or Director, as\nmanagement\nthe case may be, has delegated their responsibilities under this Act,\nshall have regard to\u2014\n(a) the principle that the country\u2019s aquatic environment shall\nbe managed as an asset for succeeding generations;\n(b) the need to apply the precautionary approach to the\nutilisation, management, development and conservation\nof the fisheries resources and waters taking into account\nthe best scientific evidence available;\n(c) the utilisation of the country\u2019s fisheries resources and\naquaculture development to achieve a sound ecological\nbalance;\n(d) any relevant obligations under applicable rules of\ninternational law or international agreements;\n(e) the need to achieve optimum utilisation and ecologically\nsustainable development of fisheries resources;\n(f) the need to conserve fisheries living resources for both\npresent and future generations;\n394 [ No. 22 of 2011 Fisheries\n(g) the need to utilise fisheries living resources to achieve\neconomic growth, human resource development,\ncapacity building within fisheries, employment creation\nand a sound ecological balance;\n(h) the need to protect the ecosystem as a whole, including\nspecies which are not targeted for exploitation;\n(i) the need to preserve biodiversity in fishery waters;\n(j) the need to minimise pollution of fishery waters; and\n(k) the need to achieve to the extent practicable a broad and\naccountable participation in the decision-making\nprocesses provided for in this Act.\nFisheries 13. The Director shall, in co-operation with other appropriate\ndevelopment agencies and other departments of Government, promote the\nmeasures\ndevelopment of fisheries, fish culture and related industries\nthrough\u2014\n(a) providing extension and training services;\n(b) conducting research and surveys;\n(c) promoting co-operation among fishermen;\n(d) providing infrastructure facilities; and\n(e) stocking waters with fish and supplying fish for stocking.\nFisheries 14. (1) The Minister may, by notice in the Gazette, impose any\nmanagement of the following measures:\nmeasures\n(a) closed seasons for designated areas, species of fish or\nmethods of fishing;\n(b) prohibited fishing areas for all or designated species of\nfish or methods of fishing;\n(c) limitations on the methods or fishing gear, including mesh\nsizes of nets, that may be used for fishing;\n(d) limitations on the amount, size, age and other\ncharacteristics and species or composition of species of\nfish that may be caught, landed or traded;\n(e) regulate the landing of fish and provide for the management\nof fish landing areas;\n(f) control the introduction into, or harvesting or removal from\nany fishery waters of any acquatic plant; and\n(g) any other measures that are necessary for the proper\nmanagement of fishery.\nFisheries [ No. 22 of 2011 395\n(2) Where the use of any fishing gear is prohibited in any area,\nthe Minister may, by notice in the Gazette, prohibit the possession\nof the fishing gear in that area.\n(3) A person who contravenes the provisions of a notice issued\nunder this section commits an offence and is liable, upon conviction,\nto a fine not exceeding two hundred thousand penalty units or to\nimprisonment for a period not exceeding two years, or to both.\nPART III\nPROTECTION OF FISH"
+    },
+    {
+      "number": "15",
+      "heading": "(1) A person shall not\u2014 Prohibited",
+      "text": "(1) A person shall not\u2014 Prohibited\nmethods of\n(a) use, or have in that person\u2019s possession, any explosive\nfishing\nor firearm for fishing;\n(b) possess, use, attempt or cause to be used for fishing, any\ntrawl net or bottom drag net or other fishing net of similar\nnature;\n(c) alter or interfere with the natural configuration of the terrain\nor cause any such alteration or interference in such a\nmanner as to enable the isolation from the main water\nof any fish in subsidiary water, whether or not such\nisolation takes place immediately or through the natural\nrise or fall of the water;\n(d) fish by means of any net towed through the water behind\nor between boats, or by driving or directing fish towards\na stationary net;\n(e) set any net across the width of any river, channel or lagoon,\nmeasured from bank to bank;\n(f) permit to be used, use, or attempt to use any poison or\nother noxious substance for the purpose of killing,\nstunning, injuring, disabling or catching fish, or in any\nway rendering fish more easily caught;\n(g) carry or have in that person\u2019s possession or control any\nexplosive, firearm, poison, chemical or other noxious\nsubstance in circumstances indicating an intention of\nusing such substance for any of the purposes referred\nto in paragraph (f);\n(h) use any electrical device for fishing or carry or have in\nthat person\u2019s possession or control, or have on board\nany conveyance, an electrical device in circumstances\nwhich indicate an intention to use it for fishing;\n396 [ No. 22 of 2011 Fisheries\n(i) use equipment for fishing which does not conform to any\nstandard prescribed for that type of fishing equipment,\nincluding any net or trap the mesh size of which does\nnot conform to the prescribed minimum mesh size for\nthat type of net or trap either generally or in a prescribed\narea;\n(j) use any weir or fishing equipment which is prohibited under\nthis Act; or\n(k) use for fishing, fishing nets that are of a number and size\nexceeding that which is permitted under this Act.\n(2) Any explosive, firearm, poison, chemical or other noxious\nsubstance found in or on any person, fishing boat, or fishing\nequipment in a commercial fishing area shall be presumed, unless\nthe contrary is proved, to be intended for the purposes referred to\nin subsection (1).\n(3) A person who contravenes this section commits an offence\nand is liable, upon conviction, to a fine not exceeding three hundred\nthousand penalty units or to imprisonment for a period not exceeding\nthree years, or to both.\nFish 16. (1) A person shall not permit to be anchored a fish processing\nprocessing and storage vessel which does not conform to the sanitary standards\nand storage\nfor vessels used for such purposes in any commercial fishing area.\nvessels\n(2) A person who contravenes subsection (1) commits an\noffence and is liable, upon conviction, to a fine not exceeding two\nhundred thousand penalty units or to imprisonment for a period not\nexceeding two years, or to both.\nImportation 17. (1) A person shall not import, manufacture or trade in\nof fishing any fishing gear or equipment which is prohibited by this Act.\ngear\n(2) A person who contravenes subsection (1) commits an\noffence and is liable, upon conviction, to a fine not exceeding two\nhundred thousand penalty units or to imprisonment for a period not\nexceeding two years, or to both.\nPower to 18. The Minister may, where it appears to the Minister that\nrestrict any method of fishing is likely to prove unduly destructive under\nmethods of\nany circumstances, by order, in respect of any area, for a period to\nfishing\nbe stated in such order\u2014\n(a) prohibit the use of such method; or\n(b) subject the use of such method to such conditions as the\nMinister may consider appropriate.\nFisheries [ No. 22 of 2011 397\n19.(1) A person shall not without the written permission of Restriction\nthe Director\u2014 on\nintroduction\n(a) introduce or cause to be introduced into any water any of fish\nfish of a species not native either to the water into which\nit is introduced or to other waters naturally connected\ntherewith;\n(b) import into the Republic any live fish;\n(c) stock, cause to be stocked or attempt to stock any fishery\nwaters or any part thereof with live fish;\n(d) translocate, transfer, cause to be translocated or attempt\nto translocate live fish from one fishery area to another\nor from one place to another; or\n(e) land fish or attempt to land fish at any site other than at\nthe designated landing site.\n(2) A person who contravenes subsection (1) commits an\noffence and is liable, upon conviction, to a fine not exceeding five\nhundred thousand penalty units or to imprisonment for a period not\nexceeding five years, or to both."
+    },
+    {
+      "number": "20",
+      "heading": "Where at any place within or outside Zambia there exists, Power to",
+      "text": "Where at any place within or outside Zambia there exists, Power to\nor is suspected to exist, any disease which is likely to affect fish in control\nintroduction\nZambia, the Minister or Director may make such order as the and spread of\nMinister or Director considers necessary for all or any of the fish disease\nfollowing purposes:\n(a) to prohibit or prevent the introduction of the disease from\nsuch place into Zambia or any part of Zambia;\n(b) to prohibit or regulate the entry and movement of any\nfish, fish product or conveyance within or out of any\npart of Zambia named in the order;\n(c) to regulate the quarantine, isolation, disinfection or\ntreatment of any fish, fish product or conveyance in any\npart of Zambia named in the order;\n(d) to prohibit or regulate the sale of any fish or fish product\nand control agricultural show grounds, stock markets\nor sale yards in any area specified in the order; or\n(e) to provide for the establishment of check points on roads\nand such other areas as may be necessary to control\ndiseases.\n398 [ No. 22 of 2011 Fisheries\nOffences 21. A person who\u2014\nrelated to fish\n(a) unlawfully communicates a disease to live fisheries\ndisease\nresources or fish habitat;\n(b) unlawfully sells any fish or fish product knowing the fish\nor fish product is infected with or contains a disease;\n(c) leaves any fish or fish product in a place knowing the fish\nor fish product is infected with or contains a disease;\n(d) unlawfully brings any fish or fish product into the Republic\nknowing the fish or fish product is infected with or\ncontains a disease;\ncommits an offence and is liable, upon conviction, to a fine not\nexceeding five hundred thousand penalty units or to imprisonment\nfor a period not exceeding five years, or to both.\nEmergency 22. The Director may, where an emergency occurs that\nmeasures endangers or may endanger stocks of fish or aquatic life, or any\nspecies or class of fish or aquatic life in any fishery or part of a\nfishery\u2014\n(a) suspend all or any of the fishing in that fishery or any\nspecified part of it;\n(b) restrict the number of boats fishing in that fishery;\n(c) restrict the mass of fish which may be taken from that\nfishery; or\n(d) specify or order the taking of such measures as may be\nnecessary.\nImport of 23. (1) A person shall not import any fish or fish product without\nfish or fish an import permit issued by the Director.\nproduct\n(2) The Minister may, by statutory instrument, provide for the\nprohibition, restriction and regulation of the importation of any fish\nand fish product.\n(3) Without derogating from the generality of subsection (1),\nthe Minister may, by regulation\u2014\n(a) provide for the disinfection or treatment of any imported\nfish or fish product, or their containers;\n(b) designate ports of entry, routes and methods of\ntransportation;\n(c) provide for the detention of any fish or fish product which\nis imported and the measures to be taken during the\ndetention;\nFisheries [ No. 22 of 2011 399\n(d) provide for the imposition and recovery of fees for\ndisinfecting or treating any fish or fish product, which is\nimported; and\n(e) provide for the disposal of any imported fish or fish product\nin respect of which prescribed fees are not paid and of\nthe proceeds resulting from their disposal."
+    },
+    {
+      "number": "24",
+      "heading": "The Minister may, in consultation with the Director, authorise Importation",
+      "text": "The Minister may, in consultation with the Director, authorise Importation\nfor\nthe entry of any fish or fish product for scientific or research\nscientific,\npurposes, subject to such terms and conditions as the Minister may educational\nor research\nconsider necessary. purposes"
+    },
+    {
+      "number": "25",
+      "heading": "(1) A person shall not export any fish or fish product Export of",
+      "text": "(1) A person shall not export any fish or fish product Export of\nwithout an export permit issued by the Director. fish or fish\nproduct\n(2) The Minister may, by statutory instrument, prohibit the export\nof any fish or fish product from Zambia, or any part of Zambia, in\ngeneral or to one or more designated countries of destination, unless\nand until all regulations with regard to their export have been\ncomplied with.\n(3) The Minister may, by statutory instrument, make regulations\nfor the purposes of regulating and controlling the export of any fish\nor fish product from Zambia or any part of Zambia and prescribing\nthe fees to be paid.\n(4) The Minister shall take into account, in the regulations\nprescribed under subsections (2) and (3), the requirement to fulfill\ninternational treaties and agreements and the requirements of the\ncountries of destination.\nPART IV\nFISHERIES MANAGEMENT AREAS"
+    },
+    {
+      "number": "26",
+      "heading": "(1) The Minister may, after consultation with the Minister Declaration",
+      "text": "(1) The Minister may, after consultation with the Minister Declaration\nresponsible for environmental protection and management, national of fisheries\nmanagement\nheritage conservation and management and wildlife management\narea\nand with the Director and the local riparian community, by statutory\norder, declare any area of water to be a fisheries management\narea for the management and sustainable utilisation of such species\nof fish as may be specified in the order.\n(2) The Minister may, in like manner, define, alter or extend\nthe boundaries of a fisheries management area or order the area to\ncease to be a fisheries management area.\n400 [ No. 22 of 2011 Fisheries\n(3) Where a fisheries management area is in a Local Forest,\nNational Forest or National Park, the exercise or enjoyment of any\nfishing right or interest in the area shall be consistent with sustainable\nforest management or wildlife conservation and management, as\nthe case may be.\nRestriction 27. Except as otherwise provided by this Act, any person who,\non fishing in without a fishing licence, fishes in any fisheries management area\nfisheries commits an offence and is liable, upon conviction, to a fine not\nmanagement exceeding three hundred thousand penalty units or to imprisonment\narea\nfor a period not exceeding three years, or to both.\nFisheries 28. (1) The Director shall, in consultation with a committee\nmanagement appointed under section twenty-nine, prepare a fisheries\nplan\nmanagement plan for the conservation and management of fish\nand the development of the fisheries management area.\n(2) A fisheries management plan shall\u2014\n(a) identify the fishery to which it relates and state its\ncharacteristics and its current state of exploitation;\n(b) specify the objectives to be achieved in the conservation,\nmanagement and development of the fisheries\nmanagement area;\n(c) specify the strategies to be adopted for the effective\nmanagement and development of the fishery;\n(d) determine fishing quotas, the amount of fish which may\nbe harvested and the number of fishing licences which\nmay be issued in respect of the fishery, in any fishing\nseason;\n(e) identify any possible adverse effects that fishing activities\nin the fishery may cause to the environment and provide\nsolutions for the management of those effects in\nAct No. of accordance with the provisions of the Environmental\n2011 Management Act, 2011;\n(f) specify the statistical and other data to be submitted by\nthe committee to the Director for purposes of monitoring\nthe management and development of the fishery; and\n(g) where necessary, identify and recommend any international\ncooperation that may be needed to achieve the\nmanagement and development objectives of the fishery.\n(3) The Director shall, during the preparation of a fisheries\nmanagement plan, consult as appropriate, with other Government\ndepartments and agencies affected by the fisheries management\nplan.\nFisheries [ No. 22 of 2011 401\n(4) Where a fisheries management area includes any waters\nwhere any fish endemic in the Republic are found, the Director\nshall, before preparing a fisheries management plan for the area\u2014\n(a) consult with any Government or other relevant authority\nconcerned with general conservation and biodiversity\nmatters; and\n(b) shall give due regard to any advice given by the authorities\nreferred to in paragraph (a) in relation to the endemic\nfish.\n(5) A fisheries management plan shall be reviewed and revised\nas necessary.\n(6) A fisheries management plan and any revision thereof shall\nbe submitted to the Minister for approval, and shall only enter into\nforce when such approval is given."
+    },
+    {
+      "number": "29",
+      "heading": "(1) The Minister may, by statutory instrument, appoint a Fisheries",
+      "text": "(1) The Minister may, by statutory instrument, appoint a Fisheries\ncommittee for a fisheries management area declared under section management\ncommittee\ntwenty-six:\nProvided that where the fisheries management area is\nin a game management area, the Minister shall appoint the\ncommittee in consultation with the community resources\nboard for that area.\n(2) A committee appointed under subsection (1) shall\ncomprise\u2014\n(a) six representatives from the local riparian fishing\ncommunity who shall be elected by the local community;\n(b) a representative of the local authority in the fisheries\nmanagement area;\n(c) one representative of the chief:\nProvided that where a fisheries management\narea covers two or more chiefdoms, each chief\nshall nominate a representative to the committee;\n(d) one representative of a non-governmental organisation\noperating in the fisheries management area;\n(e) one representative of the commercial fishing operators in\nthe area;\n(f) one representative from the acquaculture industry; and\n(g) two other persons.\n402 [ No. 22 of 2011 Fisheries\n(3) The Minister shall appoint the Chairperson and Vice-\nChairperson of a committee from among the members of the\ncommittee.\n(4) Subject to the other provisions of this Act, a member of a\ncommittee shall hold office for a period of three years and may be\nre-appointed for one further period of three years.\n(5) The office of a member shall become vacant\u2014\n(a) if without reasonable excuse that member is absent from\nthree consecutive meetings of the committee of which\nthe member had notice;\n(b) upon the member\u2019s death;\n(c) if the member is adjudged bankrupt;\n(d) if the member becomes mentally or physically incapable\nof performing the duties of a member of the committee;\nor\n(f) if the member is convicted of an offence under this Act or\nany other written law and sentenced therefor to\nimprisonment for a period of six months or more without\nthe option of a fine.\n(6) The Minister shall, on such terms and conditions as the\nMinister may determine, appoint an officer of the Department of\nFisheries to be the secretary to a committee.\n(7) The Minister may dissolve a committee constituted under\nsubsection (1) if satisfied that the committee\u2014\n(a) has mismanaged the natural resources in the fisheries\nmanagement area; or\n(b) has engaged in activities which are inconsistent with their\nfunctions.\n(8) Where the Minister dissolves a committee under subsection\n(7), the assets of the committee shall become the property of the\nState and;\n(9) The provisions of the Schedule apply to a committee.\nFunctions of 30. (1) The functions of a committee are to promote and develop\nfisheries an integrated approach to the management and sustainable utilisation\nmanagement\ncommittee of natural and fisheries resources in a fisheries management area\nunder its jurisdiction.\n(2) Without prejudice to the generality of subsection (1), a\ncommittee shall have power to\u2014\nFisheries [ No. 22 of 2011 403\n(a) negotiate, in conjunction with the Director, co-management\nagreements with industrial fishing companies operating\nin the fisheries management area under its jurisdiction;\n(b) manage the fisheries resources under its jurisdiction, within\nfishing quotas specified by the fisheries management\nplan;\n(c) in consultation with the Director, develop and implement\nmanagement plans which reconcile the various uses of\nwater in the fisheries management area under its\njurisdiction;\n(d) cooperate with the Department in the management of the\nfisheries management area under its jurisdiction;\n(e) facilitate the involvement of non-governmental\norganisations providing support to fisheries management\nand conservation efforts in the fisheries management\narea under its jurisdiction;\n(f) recommend to the Director the measures, plans and\nprogrammes required for fisheries development in the\nfisheries management area under its jurisdiction;\n(g) monitor the development of aquaculture in the fisheries\nmanagement area under its jurisdiction;\n(h) submit to the Director, on a regular basis, reports on the\nstatus of the fisheries management area under its\njurisdiction; and\n(i) perform such other functions as the Minister may direct.\n(3) A committee shall prepare and implement the fisheries\nmanagement plan referred to in section twenty-eight in accordance\nwith such regulations as the Minister may, by statutory instrument,\nprescribe."
+    },
+    {
+      "number": "31",
+      "heading": "A person who misuses or misappropriates any money Misuse of",
+      "text": "A person who misuses or misappropriates any money Misuse of\nbelonging to a committee\u2014 money of\ncommittee\n(a) is liable to a surcharge; and\n(b) commits an offence and is liable, upon conviction, to a\nfine not exceeding one hundred thousand penalty units\nor to imprisonment for a period not exceeding twelve\nmonths, or to both.\n404 [ No. 22 of 2011 Fisheries\nSubmission of 32. A committee shall submit\u2014\nreport and\n(a) to the Director, minutes of each meeting of the committee;\nminutes\nand\n(b) to the Minister, an annual report of its activities; within\ntwo weeks after such minutes or report are adopted by\nthe committee.\nZone and 33. (1) The Director may, under a fisheries management\nvillage fisheries committee, appoint a zone and village fisheries management\nmanagement committee for the purpose of fisheries and aquaculture development\ncommittee\nin the area.\n(2) The Minister may, by statutory instrument, provide for\u2014\n(a) the composition, functions and procedure of the zone and\nvillage fisheries management committees; or\n(b) any other matters necessary for purposes of the zone and\nvillage fisheries management committees.\nPART V\nSPECIAL FISHING AREAS"
+    },
+    {
+      "number": "34",
+      "heading": "(1) The Minister may, for the purposes of recreational,",
+      "text": "(1) The Minister may, for the purposes of recreational,\nPrescribed\nareas subsistence or research fishing, by statutory order, declare any\narea of water to be a prescribed area and shall in such order specify\nfor which of the purposes the area is so declared.\n(2) The Minister may, in respect of any area designated as a\nprescribed area under subsection (1), regulate the method of fishing\nto be used in the prescribed area and may prohibit the use of nets."
+    },
+    {
+      "number": "35",
+      "heading": "(1) Notwithstanding the provisions of this Act, the Director",
+      "text": "(1) Notwithstanding the provisions of this Act, the Director\nSpecial\nfishing may, upon such conditions as the Director may consider necessary,\nlicence and upon payment of such fee as may be prescribed, grant to any\nperson, or persons collectively, a special fishing licence which shall\nauthorise the holder thereof to fish in any specified area or specified\nwaters for any of the following purposes:\n(a) scientific research or the collection of specimens for\naquaria, museums and similar institutions;\n(b) collecting live fish for stocking specified waters;\n(c) the supply of food in cases of emergency if no other\nadequate food supply is available; or\n(d) experiment subject to the direction of the Director.\n(2) A special fishing licence may authorise the holder to fish\nby any means or method of fishing subject to such conditions as\nthe Director may consider necessary to impose.\nFisheries [ No. 22 of 2011 405\nPART VI\nCOMMERCIAL FISHING"
+    },
+    {
+      "number": "36",
+      "heading": "(1) The Minister may, by statutory order, declare any area Declaration",
+      "text": "(1) The Minister may, by statutory order, declare any area Declaration\nof water to be a commercial fishing area. of\ncommercial\n(2) The Minister may, in respect of any commercial fishing area fishing area\ndeclared as such under subsection (1), make regulations\u2014\n(a) prohibiting, restricting or regulating fishing;\n(b) controlling the methods of fishing;\n(c) prescribing that during any period of the year it shall be an\noffence to fish whether generally or for any particular\nspecies of fish;\n(d) prescribing the licences to be held by any person fishing\nin a commercial fishing area; and\n(e) prescribing the records to be kept, and the information to\nbe provided, by any person fishing in a commercial\nfishing area."
+    },
+    {
+      "number": "37",
+      "heading": "(1) A person shall apply to the Director for the registration Registration",
+      "text": "(1) A person shall apply to the Director for the registration Registration\nof the boat intended to be used by the person for the purpose of of boats\ncommercial fishing in the prescribed manner and form upon payment\nof a prescribed fee.\n(2) A person who fails to register a boat commits an offence\nand is liable, upon conviction, to a fine not exceeding two hundred\nthousand penalty units or to imprisonment for a period not exceeding\ntwo years, or to both."
+    },
+    {
+      "number": "38",
+      "heading": "(1) A boat registered under the provisions of this Act shall Boat",
+      "text": "(1) A boat registered under the provisions of this Act shall Boat\nbe allocated a number or identification mark corresponding to the identification\nnumber or identification mark entered in the register. marks\n(2) The number or identification mark of a boat shall be clearly\npainted on the hull of such boat in such manner as the Minister\nmay prescribe."
+    },
+    {
+      "number": "39",
+      "heading": "(1) The Minister may, in consultation with the Director, a",
+      "text": "(1) The Minister may, in consultation with the Director, a\nDeclaration\ncommittee, a local authority and the chief, by notice in the Gazette, of fisheries\ndeclare any area of a commercial fishing area as a fisheries reserve reserves\nif the Minister considers that special measures are necessary to\u2014\n(a) preserve the aquatic environment;\n406 [ No. 22 of 2011 Fisheries\n(b) protect, preserve or rehabilitate the fish habitat, related\necosystems including wetlands, lakes, lagoons, nursery\nand spawning areas, which are essential to maintaining\nthe integrity of an ecosystem, species or assemblages\nof species;\n(c) promote re-generation of fish stocks; or\n(d) protect fisheries resources and their environment from\ndestruction, degradation, pollution and any other adverse\nimpacts through human activities that threaten their\nhealth and viability.\n(2) A person shall not, in a fisheries reserve declared under\nsubsection (1), without the written permission of the Director\u2014\n(a) engage in any activity for fishing; or\n(b) dredge or extract any material or discharge or deposit\nany waste or other polluting matter or in any other way\ndestroy, disturb or interfere with the natural environment\nof fish and related ecosystems.\n(3) The Minister may, where the sustainable utilisation of fish\nis threatened, by notice in the Gazette, prohibit or limit the number\nof licences that may be issued in respect of any one or both types\nof regulated fishing gear either in general or in respect of a particular\narea or for a specified period.\nPART VII\nAQUACULTURE\nProhibition 40. (1) Subject to section forty one, a person shall not engage\nof engaging in in aquaculture except in accordance with this Act and under the\naquaculture authority of a licence issued under this Act.\nwithout\nlicence (2) A person who contravenes subsection (1) commits an\noffence and is liable, upon conviction, to a fine not exceeding\nthree hundred thousand penalty units or to imprisonment for a period\nnot exceeding three years, or to both.\nApplication 41. (1) An application for a licence to engage in aquaculture\nfor licence shall be made to the Director or such other officer designated for\nthat purpose by the Director in the prescribed manner and form\nand shall be accompanied by a prescribed fee, an environmental\nimpact assessment report prepared pursuant to section forty-five\nand such other information as may be prescribed.\nFisheries [ No. 22 of 2011 407\n(2) The Director shall, within sixty days of receiving an\napplication, reject the application if the application does not meet\nthe requirements of this Act and shall notify the applicant stating\nthe reasons for the rejection.\n(3) An applicant for a licence who is aggrieved by a decision\nof a Director not to grant the licence under subsection (2) may\nappeal to the Minister, subject to a further appeal to the High\nCourt within thirty days of receiving the notification."
+    },
+    {
+      "number": "42",
+      "heading": "(1) The Director shall, within thirty days of receiving an Aquaculture",
+      "text": "(1) The Director shall, within thirty days of receiving an Aquaculture\napplication for a licence under section forty-one, issue a licence, licence\nsubject to any condition specified under section forty-three.\n(2) Subject to section forty-three, a licence issued under this\nsection shall be valid for such period as may be specified therein.\n(3) An aquaculture licence confers on the holder thereof\nexclusive rights to harvest the products of the aquaculture facility\nnamed in the licence within the area specified in the licence.\n(4) A holder of an aquaculture licence may, at least three months\nbefore its expiry, apply for the renewal of the licence."
+    },
+    {
+      "number": "43",
+      "heading": "An aquaculture licence may contain conditions\u2014 Conditions",
+      "text": "An aquaculture licence may contain conditions\u2014 Conditions\nof\n(a) relating to the siting, design, equipment and materials to aquaculture\nlicence\nbe used in the construction of the aquaculture facility;\n(b) relating to the control of the species of aquatic life that\nmay be introduced into the aquaculture facility;\n(c) intended to promote sanitary conditions in the handling of\nfish and in the preparation and processing of fisheries\nand fish products;\n(d) to prevent the escape of fish from an aquaculture facility;\n(e) to prevent and control the spread of diseases of fish;\n(f) to regulate the marketing of fish and fish products of an\naquaculture facility;\n(g) stipulating measures to be taken to minimise the escape\nof waste products and the pollution of the water in, or\nthe land surrounding, an aquaculture facility;\n(h) regulating the disposal of dead fish or waste from an\naquaculture facility operated by the licensee including\nconsents and notifications required in respect thereof;\n408 [ No. 22 of 2011 Fisheries\n(i) respecting the control and monitoring of the water quality\nin the aquaculture facility;\n(j) prohibiting or controlling the use of any chemical or\npharmaceutical preparation, drug or antibiotic, in an\naquaculture facility; or\n(k) prescribed by regulations under section fifty-two.\nRestriction 44. An aquaculture licence shall not be transferred without\non transfer\nthe prior written approval of the Director:\nof licence\nProvided that the Director may authorise the transfer\nof a licence on such conditions as the Director may\ndetermine.\nEnvironmental 45. A person who intends to engage in aquaculture shall conduct\nimpact\nan environmental impact assessment in accordance with the\nassessment\nAct No. of provisions of the Environmental Management Act, 2011, and\n2011\nprepare a report thereon for the purposes of this Act.\nInspection 46. An authorised officer may inspect any site proposed for\nof\nthe establishment of an aquaculture facility to determine the\nproposed\nsite for suitability or otherwise of such site for use as an aquaculture facility\naquaculture\nupon payment of such inspection fee as the Minister may, by\nregulations, prescribe.\nProhibition 47. (1) A person shall not\u2014\nof\ninterfering (a) interfere with or harvest the products of an aquaculture\nwith\naquaculture facility without the authority of the licensee;\nfacility\n(b) place any object in the water of an aquaculture facility, or\npromote or undertake any activity in a manner so as to\nobstruct an aquaculture operation being carried out by\nanother person;\n(c) destroy, damage, displace or alter the position of any\nequipment lawfully deployed in connection with an\naquaculture facility; or\n(d) without lawful excuse, cause the release of any product\nof an aquaculture facility.\n(2) A person who contravenes subsection (1) commits an\noffence and is liable, upon conviction, to a fine not exceeding two\nhundred thousand penalty units or to imprisonment for a period not\nexceeding two years, or to both.\nFisheries [ No. 22 of 2011 409"
+    },
+    {
+      "number": "48",
+      "heading": "(1) A person shall not use any drug, chemical or substance Restriction",
+      "text": "(1) A person shall not use any drug, chemical or substance Restriction\non use of\nfor the treatment of fish diseases or for the enhancement of fish chemicals,\netc. in\ngrowth in an aquaculture facility or for the disinfection of any\naquaculture\nequipment used in an aquaculture facility, except a drug, chemical facility\nor substance approved by the Director for such purpose in\nconsultation with the Environmental Management Agency.\n(2) A person who contravenes subsection (1) commits an\noffence and is liable, upon conviction, to a fine not exceeding one\nhundred thousand penalty units or to imprisonment for a period not\nexceeding one year, or to both."
+    },
+    {
+      "number": "49",
+      "heading": "(1) The Director may cancel or suspend an aquaculture Cancellation",
+      "text": "(1) The Director may cancel or suspend an aquaculture Cancellation\nand\nlicence where\u2014\nsuspension\nof licence\n(a) it is necessary to do so in order to give effect to this Part\nor any programme specified in a fisheries management\nplan; or\n(b) the licence holder has contravened any provision of this\nAct or any conditions of the licence.\n(2) The Director shall, before suspending or cancelling a licence\nunder this section, notify the licence holder of the intention to suspend\nor cancel the licence giving reasons for such intention and inviting\nthe licence holder to make representations to the Director within\nsuch period as may be specified in the notice.\n(3) Where a licence is suspended or cancelled on the grounds\nspecified in paragraph (a) of subsection (1), the fees or such\nproportion of the fees paid for the licence representing the unexpired\nperiod of that licence shall be reimbursed to the licence holder\nwithin sixty days of such suspension or cancellation."
+    },
+    {
+      "number": "50",
+      "heading": "Any licence holder who is aggrieved by a decision of the Appeal",
+      "text": "Any licence holder who is aggrieved by a decision of the Appeal\nagainst\nDirector to suspend or cancel the licence under section forty-nine suspension\nmay appeal to the Minister, subject to a further appeal to the High or\ncancellation\nCourt, within thirty days of receiving the notification of the suspension of licence\nor cancellation of the licence."
+    },
+    {
+      "number": "51",
+      "heading": "(1) The Director shall, in consultation with a committee, Aquaculture",
+      "text": "(1) The Director shall, in consultation with a committee, Aquaculture\nDevelopment\nprepare an Aquaculture Development Plan for the sustainable\nPlan\ndevelopment of aquaculture in Zambia, for the approval of the\nMinister.\n(2) The Aquaculture Development Plan shall be for a period\nof three years and shall be designed to promote the sustainable\ndevelopment of aquaculture in accordance with sound principles\nof fisheries management.\n410 [ No. 22 of 2011 Fisheries\n(3) The Aquaculture Development Plan shall include\u2014\n(a) a statement of the objectives of the plan and a strategy\nfor achieving those objectives;\n(b) performance indicators to monitor the extent to which the\nobjectives of the plan are being attained;\n(c) an evaluation of the implementation of the aquaculture\nplan that preceded it;\n(d) a description or identification of any area of water which\nis suitable for aquaculture and the type of aquaculture\nfor which the area is suitable;\n(e) a description of suitable methods for undertaking any type\nof aquaculture;\n(f) the identification of suitable or unsuitable species of fish\nfor aquaculture; and\n(g) any other matter concerning aquaculture which the\nDirector considers appropriate.\nAquaculture 52. The Minister may, by statutory instrument, make regulations\nregulations to\u2014\n(a) prescribe the forms to be used for an application for an\naquaculture licence under this Part;\n(b) prescribe the fees to be paid by an applicant for a licence\nunder this Part;\n(c) provide for the control, management and improvement of\nany aquaculture facility;\n(d) prescribe matters to be considered in determining\napplications under this Part;\n(e) prescribe the duration and other conditions of an aquaculture\nlicence; and\n(f) make or give any direction generally for the better carrying\nout of the purposes of this Part.\nFisheries [ No. 22 of 2011 411\nPART VIII\nTHE FISHERIES AND AQUACULTURE DEVELOPMENT FUND"
+    },
+    {
+      "number": "53",
+      "heading": "(1) There is hereby established a Fisheries and Aquaculture Establishment",
+      "text": "(1) There is hereby established a Fisheries and Aquaculture Establishment\nof Fisheries\nDevelopment Fund.\nand\nAquaculture\n(2) The Fund shall consist of \u2014 Development\nFund\n(a) such monies as may be appropriated by Parliament for\nthe purposes of the Fund;\n(b) fifty percent of the monies collected from fishing and\naquaculture licences and other fees payable under this\nAct; and\n(c) such moneys as may accrue to or vest in the Fund."
+    },
+    {
+      "number": "54",
+      "heading": "The Fund shall be vested in the Minister responsible for Administration",
+      "text": "The Fund shall be vested in the Minister responsible for Administration\nfinance and shall be managed and administered by the Minister of Fund\nresponsible for fisheries."
+    },
+    {
+      "number": "55",
+      "heading": "The Ministers referred to in section fifty-four shall apply Application",
+      "text": "The Ministers referred to in section fifty-four shall apply Application\nof\nthe moneys of the Fund for the purposes of developing the fisheries\nmoneys of\nand aquaculture sector and facilitating a community-based approach Fund\nto fisheries management and development."
+    },
+    {
+      "number": "56",
+      "heading": "The Ministers referred to in section fifty-four shall cause Statement of",
+      "text": "The Ministers referred to in section fifty-four shall cause Statement of\nan annual statement of income and expenditure relating to the Fund income and\nto be prepared and laid before the National Assembly. expenditure\nPART IX\nGENERAL PROVISIONS"
+    },
+    {
+      "number": "57",
+      "heading": "The Mutual Legal Assistance in Criminal Matters Act Mutual legal",
+      "text": "The Mutual Legal Assistance in Criminal Matters Act Mutual legal\napplies to offences under this Act, except where the provisions of assistance\nthat Act are inconsistent with this Act. Cap. 98"
+    },
+    {
+      "number": "58",
+      "heading": "(1) This Act shall have effect within as well as outside Offences",
+      "text": "(1) This Act shall have effect within as well as outside Offences\ncommitted\nZambia and notwithstanding where any offence is committed by\noutside\nany person, that person may be dealt with in respect of such offence Zambia\nas if it has been committed within Zambia.\n(2) Any proceedings against any person under this section\nwhich would be a bar to subsequent proceedings against such person\nfor the same offence, if such offence had been committed in\nZambia, shall be a bar to further proceedings against that person\nunder any written law for the time being in force relating to the\nextradition of persons, in respect of the same offence outside\nZambia.\n412 [ No. 22 of 2011 Fisheries\nExtraditable 59. An offence under this Act shall be deemed to be an\noffences\nCap. 94 extraditable offence under the provisions of the Extradition Act."
+    },
+    {
+      "number": "60",
+      "heading": "A person who\u2014",
+      "text": "A person who\u2014\nGeneral\noffences\n(a) without reasonable excuse has in that person\u2019s possession\nor deals in any fish or fish product taken contrary to the\nprovisions of this Act;\n(b) contravenes any restriction, condition or order made under\nthis Act;\n(c) transfers any licence or permit issued under this Act\nwithout the prior written consent of the Director;\n(d) casts adrift or otherwise interferes with any fishing\nequipment or aquaculture facility;\n(e) places any object in any fishery waters or aquaculture\nfacility, or undertakes any activity in a manner so as to\nobstruct a valid fishing or aquaculture operation being\ncarried out by another person;\n(f) destroys, damages, displaces or alters the position of any\nfishing equipment, aquaculture facility or any buoy, float\nor other marker attached to it;\n(g) removes fish from any fishing equipment belonging to\nsome other person without the consent of that person;\n(h) dumps or allows to enter or permits to be dumped or\ndischarged in fishery waters anything which is or may\nbe injurious to fish, or which may disturb or alter the\necological balance in such waters, or hinders the catching\nof fish;\n(i) without reasonable excuse, fails to furnish any information\nrequired under this Act or provides false or misleading\ninformation;\n(j) conceals or destroys any fish, fish product, fishing\nequipment and aquaculture equipment, explosive,\nfirearm, poison, noxious substance, chart, log, document\nor other thing with intent to avoid the seizure thereof or\nthe detection of any offence under this Act; or\n(k) alters or defaces any licence or permit issued under this\nAct;\ncommits an offence and is liable, upon conviction, to a fine not\nexceeding two hundred thousand penalty units or to imprisonment\nfor a period not exceeding two years, or to both.\nFisheries [ No. 22 of 2011 413"
+    },
+    {
+      "number": "61",
+      "heading": "A person who is convicted of an offence under the provisions General",
+      "text": "A person who is convicted of an offence under the provisions General\nof this Act is, unless some other penalty is specifically provided penalty\ntherefor, liable to a fine not exceeding one hundred thousand penalty\nunits or to imprisonment for a period not exceeding one year, or to\nboth."
+    },
+    {
+      "number": "62",
+      "heading": "Where an offence under this Act is committed by a body Offences by",
+      "text": "Where an offence under this Act is committed by a body Offences by\nbody\ncorporate or unincorporate body, every director or manager of the\ncorporate or\nbody corporate or unincorporate body shall be liable, upon conviction, unincorporate\nbody\nas if the director or manager has personally committed the offence,\nunless the director or manager proves to the satisfaction of the\ncourt that the act constituting the offence was done without the\nknowledge, consent or connivance of the director or manager or\nthat the director or manager took reasonable steps to prevent the\ncommission of the offence."
+    },
+    {
+      "number": "63",
+      "heading": "(1) Upon the conviction of any person of an offence",
+      "text": "(1) Upon the conviction of any person of an offence\nForfeiture\nunder this Act, the court may, in addition to any other penalty provisions\nimposed, declare the fish, fish products, net, trap, line, poison, on\nconviction\nexplosive, firearm, appliance or device or subject to subsections\n(2) to (8), any conveyance with which the offence was committed,\nor which was used in, or for the purpose of, or in relation to, or in\nconnection with, the commission of the offence, to be forfeited to\nthe State without compensation and shall order the same to be\ndisposed of as the State considers fit.\n(2) Where the prosecution requests a declaration of forfeiture\nin respect of any conveyance, the court shall make an order, to the\neffect that unless any person other than the convicted party claims,\nunder this section, any right of ownership in the conveyance within\nthree months of the date referred to in subsection (5), the prosecution\nmay apply to the court, ex parte, for a declaration for forfeiture\nunder subsection (1), and the court shall make the declaration.\n(3) Upon the making of an order under subsection (2), the\nDirector shall, within one month thereafter, cause to be published\nin the Gazette and in at least one daily newspaper of general\ncirculation in the place where the offence was committed, a notice\nof the making of the order, which notice shall be in the prescribed\nform, or if no such form is prescribed, in a form approved by the\ncourt.\n(4) If under any written law requiring the registration of any\nconveyance referred to in subsections (1) and (2), the conveyance\nis registered in Zambia in the name of any person other than the\nperson convicted, the Director shall, within seven days after\n414 [ No. 22 of 2011 Fisheries\npublication of the notice in the Gazette, cause a copy to be sent by\nregistered post in a sealed envelope addressed to the person at the\naddress appearing on the register, and the registration of the letter\nshall be conclusive evidence of service of the notice upon such\nperson.\n(5) Any person who claims any right of a conveyance may,\nwithin three months after the making of the order referred to in\nsubsection (2), serve upon the Director and lodge with the clerk of\nthe court an application in writing for the discharge of the order\nsetting out the claim of ownership in the conveyance, whereupon\nthe clerk of the court shall fix a date, not less than one month after\nthe lodgement of the application for a hearing and shall, within\nseven days after the lodgement, cause notice of the hearing of the\napplication to be served upon the Director.\n(6) In any proceedings brought under subsection (5), the burden\nof proof shall be on the applicant and no order discharging the\norder shall be made unless the applicant has adduced evidence and\nproved to the satisfaction of the court that the applicant was not in\nany way privy to the offence and that the conveyance was, at the\ntime of the commission of the offence, being used for such purpose\nwithout the knowledge or consent of the applicant and without any\nnegligent disregard on the part of the applicant, of its use by the\nconvicted person.\n(7) Where, upon an application made under subsection (5),\nthe court is satisfied that the conveyance is owned jointly by the\nclaimant and the convicted party, or is the subjectmatter of a\nhirepurchase agreement between the claimant and the convicted\nparty, and the claimant has discharged the burden of proof referred\nto under subsection (6), the court shall declare forfeited all of the\nestate or interest of the convicted person in and to the conveyance,\nor all of the rights therein accrued to that person under the hire\nCap. 399 purchase agreement or pursuant to the Hire Purchase Act and\norder the estate, or interest or rights to be disposed of as the State\nmay consider fit.\n(8) Except with the consent of the State, any right vested in\nany claimant under any hirepurchase agreement or pursuant to the\nCap. 399 Hire Purchase Act to repossess any conveyance which is subject\nto an order made under subsection (2), shall be suspended pending\nthe determination of any application brought under subsection (5),\nand in the event of the court declaring the rights therein accrued to\nthe convicted party to be forfeited, the accrued right to repossess\nthe conveyance shall not be exercisable against the State.\nFisheries [ No. 22 of 2011 415"
+    },
+    {
+      "number": "64",
+      "heading": "Where a person is convicted of an offence under this Act, Cancellation",
+      "text": "Where a person is convicted of an offence under this Act, Cancellation\nof licence or\nthe court may order that any licence or permit held by such person\npermit by\nunder the provisions of this Act be cancelled and that such person court order\nshall not be issued with any further licence or permit for such period\nnot exceeding six months as it may deem fit."
+    },
+    {
+      "number": "65",
+      "heading": "The Director or any authorised officer may, subject to the Conduct of",
+      "text": "The Director or any authorised officer may, subject to the Conduct of\ndirections of the Director of Public Prosecutions, conduct a prosecution\nprosecution for an offence under this Act and shall for that purpose\nhave the powers of a prosecutor appointed under the National\nAct No. 34\nProsecution Authority Act, 2010. of 2010"
+    },
+    {
+      "number": "66",
+      "heading": "Nothing contained in this Act shall affect the liability in",
+      "text": "Nothing contained in this Act shall affect the liability in\nTrespass\ntrespass of any person who enters upon the land of another person upon private\nfor the purpose of fishing without the permission of the owner or property\noccupier thereof."
+    },
+    {
+      "number": "67",
+      "heading": "(1) The Minister may, by statutory instrument, make Regulations",
+      "text": "(1) The Minister may, by statutory instrument, make Regulations\nregulations for the better carrying into effect of the provisions of\nthis Act.\n(2) Without prejudice to the generality of subsection (1),\nregulations under that subsection may make provision for\u2014\n(a) anything which by this Act may or is required to be\nprescribed;\n(b) the registration of boats used for commercial fishing;\n(c) the procedure to be followed and the records to be kept\nby a committee;\n(d) the methods of fishing in any prescribed area;\n(e) the control, management and improvement of any\ncommercial fishing area;\n(f) the methods of curing, preserving, processing or storing of\nfish at any commercial fishing area;\n(g) the fees to be paid for anything to be done under this Act;\n(h) the trade in and the sale and export of fish;\n(i) the forms to be used for any application, permit, licence or\nother document issued or kept under the provisions of\nthis Act;\n(j) the keeping of records of fish taken under licence or\nremoved from the Republic or exported;\n416 [ No. 22 of 2011 Fisheries\n(k) the regulation and control of aquaculture;\n(l) the regulation and control of aquaculture, sport fishing\nand fishing for ornamental purposes;\n(m) placing limits on the amounts of fish to be caught or the\nnumber of licences, permits or other document to be\nissued in respect of a fisheries management area;\n(n) the keeping of records or requiring the provision of\nstatistical and other information relating to a fisheries\nmanagement area by a committee or any person\nauthorised to carry on any activity under this Act;\n(o) establishing and regulating community-based or other\ndecentralised fisheries management and any aspect of\ntheir operation;\n(p) financial management and the granting or delegating of\npower to any person, class or group of persons to enforce\nor implement regulations relating to fisheries\nconservation and management;\n(q) the control, development and management of any fisheries\nmanagement area including the development,\nestablishment and implementation of integrated\ncommunity projects among communities within fisheries\nmanagement areas; and\n(r) making or giving any order or direction generally for the\nbetter carrying out of the purposes of this Act.\n(3) Any regulations made under this section may provide that\nany person who contravenes or fails to comply with such regulations\ncommits an offence under this Act and is liable, upon conviction, to\na fine not exceeding three hundred thousand penalty units or to\nimprisonment for a period not exceeding three years, or to both.\nRepeal of 68. (1) The Fisheries Act, 1974, is hereby repealed.\nCap. 200\nAct No. 21 of (2) Notwithstanding subsection (1), any permit or licence issued\n1974 under the repealed Act shall be valid for a period of six months\nafter which the holder thereof shall apply for a permit or licence,\nas the case may be, in accordance with the provisions of this Act.\nFisheries [ No. 22 of 2011 417\nSCHEDULE\n(Section 29(8))\nADMINISTRATION"
+    },
+    {
+      "number": "1",
+      "heading": "(1) Subject to the other provisions of this Act, a committee Proceedings of",
+      "text": "(1) Subject to the other provisions of this Act, a committee Proceedings of\nmay regulate its own procedure. committee\n(2) A committee shall meet for the transaction of business at\nsuch places and at such times as the Chairperson may determine:\nProvided that the first meeting of a committee shall be\ncalled by notice given and at a place determined by the\nDirector.\n(3) Upon giving notice of not less than fourteen days, a meeting\nof a committee may be called by the Chairperson and shall be\ncalled if not less than one- third of the members so request in\nwriting:\nProvided that if the urgency of any particular matter\ndoes not permit the giving of such notice, a special meeting\nmay be called upon giving a shorter notice.\n(4) The quorum at any meeting of a committee shall be seven\nmembers.\n(5) There shall preside at any meeting of a committee\u2014\n(a) the Chairperson;\n(b) in the absence of the Chairperson, the Vice-Chairperson;\nor\n(c) in the absence of both the Chairperson and the Vice-\nChairperson, such member as the members present may\nelect from amongst their number for the purpose of that\nmeeting.\n(6) A decision of a committee on any question shall be by a\nmajority of the members present and voting at the meeting and, in\nthe event of an equality of votes, the person presiding at the meeting\nshall have a casting vote in addition to the deliberative vote.\n(7) A committee may invite any person whose presence in its\nopinion is desirable to attend and to participate in the deliberations\nof a meeting of the committee but such person shall have no vote.\n(8) The validity of any proceedings, act or decision of a\ncommittee shall not be affected by any vacancy in the membership\nof the committee or by any defect in the appointment of any member\nor by reason that any person not entitled so to do, took part in the\nproceedings.\n418 [ No. 22 of 2011 Fisheries\n(9) A committee shall cause minutes to be kept of the\nproceedings of every meeting of the committee."
+    },
+    {
+      "number": "2",
+      "heading": "(1) A committee shall establish a fund to enhance the",
+      "text": "(1) A committee shall establish a fund to enhance the\nFinancial\nprovisions economic and social well being of the local riparian community\nrelating to within a fisheries management area.\nFund\n(2) There shall be paid into the fund of a committee referred\nto in subparagraph (1)\u2014\n(a) such moneys from the revenues payable in respect of\nfishing and aquaculture licences issued under this Act\nand services rendered from the use of fisheries\nresources within a fisheries management area as the\nMinister may, after consultation with the Minister\nresponsible for finance by regulations prescribe; and\n(b) such moneys as the committee may, with the approval of\nthe Minister, accept by way of grants and donations\nfrom any source within or outside Zambia.\n(3) A committee shall cause to be kept proper books of\naccounts and other records relating to its accounts.\n(4) The accounts referred to in subparagraph (3) shall be open\nfor inspection by the Director or any member of the local riparian\ncommunity concerned.\n(5) The financial year of a committee shall be a period of twelve\nmonths ending on 31st December.\n(6) A committee shall, not later than ninety days after the end\nof the financial year submit to the Minister\u2014\n(a) an audited balance sheet;\n(b) an audited statement of income and expenditure; and\n(c) a report concerning its activities during the financial year."
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Fisheries%20%20Act%2C%20%202011.pdf",
+  "source_hash": "sha256:8fd3e9db842da07972e450825e08f0869dacd6f127ea7d55b4d1aad6b02e931c",
+  "fetched_at": "2026-04-11T17:05:17Z",
+  "parser_version": "0.5.0"
+}
