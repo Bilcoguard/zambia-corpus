@@ -239,3 +239,10 @@ consider Government Gazette or direct MMMD/MoJ request).
 ### Batch 0046 — 2012 Acts gaps (2026-04-11 15:37 UTC)
 - Act No. 9 of 2012 (Customs and Excise Amendment): No PDF on node page /node/3178
 - Acts No. 6, 7, 8, 10, 11 of 2012: Scanned PDFs, OCR re-parse needed
+
+### Batch 0047 — 2012/2011 Acts gaps (2026-04-11T16:08:46Z)
+- No PDF on node page for 2012 Act No. 14 (https://www.parliament.gov.zm/node/3191)
+- No PDF on node page for 2011 Act No. 24 (https://www.parliament.gov.zm/node/3368)
+- No PDF on node page for 2011 Act No. 25 (https://www.parliament.gov.zm/node/3371)
+- No PDF on node page for 2011 Act No. 26 (https://www.parliament.gov.zm/node/3414)
+- No PDF on node page for 2011 Act No. 28 (https://www.parliament.gov.zm/node/3424)

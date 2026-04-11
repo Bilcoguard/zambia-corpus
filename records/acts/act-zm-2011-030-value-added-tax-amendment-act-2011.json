@@ -1,0 +1,39 @@
+{
+  "id": "act-zm-2011-030-value-added-tax-amendment-act-2011",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Value Added Tax (Amendment) Act (2011)",
+  "citation": "Act No. 30 of 2011",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": null,
+  "version_type": "amendment",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "(1) This Act may be cited as the Value Added Tax Short title",
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "body": "and\n(Amendment) Act, 2011, and shall be read as one with the Value commencement\nAdded Tax Act, in this Act referred to as the principal Act. Cap. 331\n(2) This Act shall come into operation on 1st January, 2012.",
+      "subsections": []
+    },
+    {
+      "number": "2",
+      "title": "Section two of the principal Act is amended by the deletion Amendment",
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "body": "of the definition of “ accounting year” and the substitution therefor of section 2\nof the following:\n“ accounting year” means a period of twelve months ending on\n31st December or such other period as the Commissioner-\nGeneral may prescribe.”\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K 1,000 each.",
+      "subsections": []
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Value%20Added%20%20Tax%20%28Amendment%29%20Act%2C%202011.pdf",
+  "source_hash": "sha256:0ce5425ec16f2b9b2b9a38b1f27f92a60996a39b20b44eec8aa6ee08f4234397",
+  "fetched_at": "2026-04-11T16:07:15Z",
+  "parser_version": "0.3.0",
+  "notes": "Parsed from parliament.gov.zm. 2 sections extracted."
+}

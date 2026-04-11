@@ -1,0 +1,39 @@
+{
+  "id": "act-zm-2011-029-zambia-development-agency-amendment-act-2011",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Zambia Development Agency (Amendment) Act (2011)",
+  "citation": "Act No. 29 of 2011",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": null,
+  "version_type": "amendment",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Zambia Development Agency Short title",
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "body": "(Amendment) Act, 2011, and shall be read as one with the Zambia\nDevelopment Agency Act, 2006, in this Act referred to as the Act No. 11\nprincipal Act. of 2006",
+      "subsections": []
+    },
+    {
+      "number": "2",
+      "title": "The principal Act is amended by the repeal of section fifty- Repeal of",
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "body": "eight. section 58\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K 1,000 each.\n518",
+      "subsections": []
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/The%20Zambia%20Development%20Agency%20%28Amendment%29%20Act%202011.pdf",
+  "source_hash": "sha256:cd055b8bce725f83e0bdc9b5e0be845cd03439eb92e2c752331f358003fd6979",
+  "fetched_at": "2026-04-11T16:07:11Z",
+  "parser_version": "0.3.0",
+  "notes": "Parsed from parliament.gov.zm. 2 sections extracted."
+}
