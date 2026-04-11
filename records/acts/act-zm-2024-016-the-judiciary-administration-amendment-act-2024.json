@@ -1,0 +1,32 @@
+{
+  "id": "act-zm-2024-016-the-judiciary-administration-amendment-act-2024",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Judiciary Administration (Amendment) Act, 2024",
+  "citation": "Act No. 16 of 2024",
+  "year": 2024,
+  "act_number": 16,
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Judiciary Administration Short title",
+      "text": "This Act may be cited as the Judiciary Administration Short title\n(Amendment) Act, 2024, and shall be read as one with the Judiciary Act No. 23\nAdministration Act, 2016, in this Act referred to as the principal of 2016\nAct."
+    },
+    {
+      "number": "2",
+      "heading": "Section 23 (2) of the principal Act is amended by the Amendment",
+      "text": "Section 23 (2) of the principal Act is amended by the Amendment\ndeletion of paragraph (g). of section 23\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K 4.00 each.\n230"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2016%20of%202024%2C%20The%20Judiciary%20Administration.pdf",
+  "source_hash": "sha256:9875544d09561d4c1bd625c262cc22a51192ac433d1f5173daa33c9e2504d529",
+  "fetched_at": "2026-04-11T05:37:44Z",
+  "parser_version": "0.4.0",
+  "node_url": "https://www.parliament.gov.zm/node/12076"
+}

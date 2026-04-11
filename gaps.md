@@ -179,3 +179,8 @@ inventory.
 ### Batch 0027 — Low section count records (2026-04-11T03:35:52Z)
 - **Act No. 20 of 2022** (4 sections): National Pension Scheme (Amendment) Act. Amendment act, low count expected.
 - **Act No. 22 of 2022** (8 sections): Criminal Procedure Code (Amendment) Act. Amendment act, low count expected.
+
+### Batch 0030 — Low section count records (2026-04-11T05:38:28Z)
+- **Act No. 9 of 2024** (Supplementary Appropriation) — 2 sections. Appropriation act, low count expected.
+- **Act No. 15 of 2024** (ZNPHI Amendment) — 3 sections. Amendment act, low count expected.
+- **Act No. 16 of 2024** (Judiciary Administration Amendment) — 2 sections. Amendment act, low count expected.
