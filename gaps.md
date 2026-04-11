@@ -157,3 +157,11 @@ inventory.
 - **Act No. 27 of 2023** (Value Added Tax Amendment) — 2 sections. Amendment act, low count expected.
 - **Act No. 28 of 2023** (Local Government Amendment) — 2 sections. Amendment act, low count expected.
 - **Act No. 29 of 2023** (Appropriation Act) — 2 sections. Appropriation act, low count expected.
+
+## Batch 0021 — Act No. 12 of 2023 connection error (2026-04-11)
+
+- **Act No. 12 of 2023** (The Defence (Amendment) Act, 2023): Node page /node/11534 returned connection error (RemoteDisconnected). Retry in next batch.
+
+### Batch 0021 — Low section count records (2026-04-11)
+- **Act No. 10 of 2023** (Supplementary Appropriation) — 2 sections. Appropriation act, low count expected.
+- **Act No. 15 of 2023** (Zambia Institute of Marketing Amendment) — 2 sections. Amendment act, low count expected.
