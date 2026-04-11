@@ -1,0 +1,552 @@
+{
+  "id": "act-zm-2024-019-zambia-institute-of-quantity-surveyors-act-2024",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Zambia Institute of Quantity Surveyors Act, 2024",
+  "citation": "Act No. 19 of 2024",
+  "year": 2024,
+  "act_number": 19,
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Short title and commencement",
+      "text": "1. Short title and commencement"
+    },
+    {
+      "number": "2",
+      "heading": "Interpretation",
+      "text": "2. Interpretation\nPART II\nTHE ZAMBIA INSTITUTE OF QUANTITY SURVEYORS"
+    },
+    {
+      "number": "3",
+      "heading": "Continuation and renaming of the Quantity Surveyors Registration",
+      "text": "3. Continuation and renaming of the Quantity Surveyors Registration\nBoard"
+    },
+    {
+      "number": "4",
+      "heading": "Functions of Institute",
+      "text": "4. Functions of Institute"
+    },
+    {
+      "number": "5",
+      "heading": "Constitution of Institute",
+      "text": "5. Constitution of Institute"
+    },
+    {
+      "number": "6",
+      "heading": "President, Vice-President and other office bearers",
+      "text": "6. President, Vice-President and other office bearers"
+    },
+    {
+      "number": "7",
+      "heading": "Meetings of Institute",
+      "text": "7. Meetings of Institute"
+    },
+    {
+      "number": "8",
+      "heading": "Council of Institute",
+      "text": "8. Council of Institute"
+    },
+    {
+      "number": "9",
+      "heading": "Functions of Council",
+      "text": "9. Functions of Council"
+    },
+    {
+      "number": "10",
+      "heading": "Registrar and other staff",
+      "text": "10. Registrar and other staff\nPART III\nQUANTITY SURVEYORS REGISTRATION BOARD"
+    },
+    {
+      "number": "11",
+      "heading": "Establishment of Quantity Surveyors Registration Board",
+      "text": "11. Establishment of Quantity Surveyors Registration Board"
+    },
+    {
+      "number": "12",
+      "heading": "Functions of Board",
+      "text": "12. Functions of Board\nPART IV\nMEMBERSHIP, REGISTRATION AND PRACTISING CERTIFICATE"
+    },
+    {
+      "number": "13",
+      "heading": "Prohibition of person practising without registration",
+      "text": "13. Prohibition of person practising without registration"
+    },
+    {
+      "number": "14",
+      "heading": "Application for registration",
+      "text": "14. Application for registration"
+    },
+    {
+      "number": "15",
+      "heading": "Determination of application for registration as quantity surveying",
+      "text": "15. Determination of application for registration as quantity surveying\nprofessional"
+    },
+    {
+      "number": "16",
+      "heading": "Certificate of registration",
+      "text": "16. Certificate of registration"
+    },
+    {
+      "number": "17",
+      "heading": "Disqualification from registration",
+      "text": "17. Disqualification from registration"
+    },
+    {
+      "number": "18",
+      "heading": "Title for registered quantity surveying professional",
+      "text": "18. Title for registered quantity surveying professional"
+    },
+    {
+      "number": "19",
+      "heading": "Change in details",
+      "text": "19. Change in details\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K72.00 each.\n316 No. 19 of 2024 Zambia Institute of Quantity Surveyors"
+    },
+    {
+      "number": "20",
+      "heading": "Suspension and cancellation of registration",
+      "text": "20. Suspension and cancellation of registration"
+    },
+    {
+      "number": "21",
+      "heading": "Re-registration",
+      "text": "21. Re-registration"
+    },
+    {
+      "number": "22",
+      "heading": "Prohibition of practising without practising certificate",
+      "text": "22. Prohibition of practising without practising certificate"
+    },
+    {
+      "number": "23",
+      "heading": "Practising certificate",
+      "text": "23. Practising certificate"
+    },
+    {
+      "number": "24",
+      "heading": "Renewal of practising certificate",
+      "text": "24. Renewal of practising certificate"
+    },
+    {
+      "number": "25",
+      "heading": "Suspension and cancellation of practising certificate",
+      "text": "25. Suspension and cancellation of practising certificate"
+    },
+    {
+      "number": "26",
+      "heading": "Maintenance of non-practising quantity surveying professional on register",
+      "text": "26. Maintenance of non-practising quantity surveying professional on register"
+    },
+    {
+      "number": "27",
+      "heading": "Prohibition of transfer of certificate of registration or practising",
+      "text": "27. Prohibition of transfer of certificate of registration or practising\ncertificate"
+    },
+    {
+      "number": "28",
+      "heading": "Duplicate certificate of registration or practising certificate",
+      "text": "28. Duplicate certificate of registration or practising certificate"
+    },
+    {
+      "number": "29",
+      "heading": "Surrender of cancelled certificate of registration or practising certificate",
+      "text": "29. Surrender of cancelled certificate of registration or practising certificate"
+    },
+    {
+      "number": "30",
+      "heading": "Prohibition of quantity surveying organisation or quantity surveying unit",
+      "text": "30. Prohibition of quantity surveying organisation or quantity surveying unit\npractising without registration"
+    },
+    {
+      "number": "31",
+      "heading": "Application by quantity surveying organisation or quantity surveying unit",
+      "text": "31. Application by quantity surveying organisation or quantity surveying unit\nfor registration"
+    },
+    {
+      "number": "32",
+      "heading": "Foreign quantity surveying organisation providing quantity surveying",
+      "text": "32. Foreign quantity surveying organisation providing quantity surveying\nservices"
+    },
+    {
+      "number": "33",
+      "heading": "Register",
+      "text": "33. Register"
+    },
+    {
+      "number": "34",
+      "heading": "Publication of copies of register",
+      "text": "34. Publication of copies of register"
+    },
+    {
+      "number": "35",
+      "heading": "Offences relating to registration, etc.",
+      "text": "35. Offences relating to registration, etc.\nPART V\nDISCIPLINARY MATTERS"
+    },
+    {
+      "number": "36",
+      "heading": "Code of ethics",
+      "text": "36. Code of ethics"
+    },
+    {
+      "number": "37",
+      "heading": "Professional misconduct",
+      "text": "37. Professional misconduct"
+    },
+    {
+      "number": "38",
+      "heading": "Initiation of disciplinary action",
+      "text": "38. Initiation of disciplinary action"
+    },
+    {
+      "number": "39",
+      "heading": "Disciplinary Committee",
+      "text": "39. Disciplinary Committee"
+    },
+    {
+      "number": "40",
+      "heading": "Functions of Disciplinary Committee",
+      "text": "40. Functions of Disciplinary Committee"
+    },
+    {
+      "number": "41",
+      "heading": "Proceedings of Disciplinary Committee",
+      "text": "41. Proceedings of Disciplinary Committee"
+    },
+    {
+      "number": "42",
+      "heading": "Powers of Disciplinary Committee",
+      "text": "42. Powers of Disciplinary Committee"
+    },
+    {
+      "number": "43",
+      "heading": "Sanctions for professional misconduct by Disciplinary Committee",
+      "text": "43. Sanctions for professional misconduct by Disciplinary Committee"
+    },
+    {
+      "number": "44",
+      "heading": "Report by Disciplinary Committee",
+      "text": "44. Report by Disciplinary Committee"
+    },
+    {
+      "number": "45",
+      "heading": "Rules relating to disciplinary proceedings",
+      "text": "45. Rules relating to disciplinary proceedings\nZambia Institute of Quantity Surveyors [No. 19 of 2024 317\nPART VI\nINSPECTORATE"
+    },
+    {
+      "number": "46",
+      "heading": "Inspectors",
+      "text": "46. Inspectors"
+    },
+    {
+      "number": "47",
+      "heading": "Powers of inspectors",
+      "text": "47. Powers of inspectors\nPART VII\nGENERAL PROVISIONS"
+    },
+    {
+      "number": "48",
+      "heading": "Enforcement notice",
+      "text": "48. Enforcement notice"
+    },
+    {
+      "number": "49",
+      "heading": "Professional fees",
+      "text": "49. Professional fees"
+    },
+    {
+      "number": "50",
+      "heading": "False or misleading statement",
+      "text": "50. False or misleading statement"
+    },
+    {
+      "number": "51",
+      "heading": "Appeals",
+      "text": "51. Appeals"
+    },
+    {
+      "number": "52",
+      "heading": "Jurisdiction over acts committed outside Republic",
+      "text": "52. Jurisdiction over acts committed outside Republic"
+    },
+    {
+      "number": "53",
+      "heading": "Prohibition of publication or disclosure of information to unauthorised person",
+      "text": "53. Prohibition of publication or disclosure of information to unauthorised person"
+    },
+    {
+      "number": "54",
+      "heading": "Offence by principal officers of body corporate or unincorporate body",
+      "text": "54. Offence by principal officers of body corporate or unincorporate body"
+    },
+    {
+      "number": "55",
+      "heading": "Administrative penalty",
+      "text": "55. Administrative penalty"
+    },
+    {
+      "number": "56",
+      "heading": "Immunity",
+      "text": "56. Immunity"
+    },
+    {
+      "number": "57",
+      "heading": "Guidelines",
+      "text": "57. Guidelines"
+    },
+    {
+      "number": "58",
+      "heading": "General penalty",
+      "text": "58. General penalty"
+    },
+    {
+      "number": "59",
+      "heading": "Regulations",
+      "text": "59. Regulations"
+    },
+    {
+      "number": "60",
+      "heading": "Repeal of Act No. 37 of 1995 and savings and transitional provisions",
+      "text": "60. Repeal of Act No. 37 of 1995 and savings and transitional provisions\nSCHEDULES\nZambia Institute of Quantity Surveyors [No. 19 of 2024 319\nGOVERNMENT OF ZAMBIA\nACT\nNo. 19 of 2024\nDate of Assent: 20th December, 2024\nAn Act to provide for the registration of quantity surveying\nprofessionals, quantity surveying organisations and\nquantity surveying units and regulate their practice and\nprofessional conduct; continue the existence of the\nquantity Surveyors Registration Board and re-name it as\nthe Zambia Institute of Quantity Surveyors and re-define\nits functions; repeal and replace the Quantity Surveyors\nAct, 1995; and provide for matters connected with, or\nincidental to, the foregoing.\n[ 20th December, 2024\nENACTED by the Parliament of Zambia. Enactment\nPART I\nPRELIMINARY PROVISIONS"
+    },
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Zambia Institute of Quantity Short title",
+      "text": "1. This Act may be cited as the Zambia Institute of Quantity Short title\nand\nSurveyors Act, 2024, and shall come into operation on a date\ncommence-\nappointed by the Minister by statutory instrument. ment"
+    },
+    {
+      "number": "2",
+      "heading": "In this Act, unless the context otherwise requires— Inter-",
+      "text": "2. In this Act, unless the context otherwise requires— Inter-\npretation\n“associate” has the meaning assigned to the word in the Act No. 3 of\nAnti-Corruption Act, 2012; 2012\n“Board” means the Quantity Surveyors Registration Board\nestablished under section 11;\n“built environment” means human-made infrastructure which\nsupports livelihood;\n“Chairperson” means the person appointed Chairperson of\nthe Disciplinary Committee under section 39;\n“code of ethics” means the code of ethics adopted and\npublished by the Institute for the purposes of this Act;\n320 No. 19 of 2024 Zambia Institute of Quantity Surveyors\n“constitution” means the constitution of the Institute adopted\nin accordance with section 5;\n“Council” means the Council of the Institute constituted under\nsection 8;\n“council member” means a person elected as a council\nmember under section 8;\n“Disciplinary Committee” means the Disciplinary Committee\nof the Institute constituted under section 39;\n“foreign quantity surveying organisation” means a firm or\ncompany whether corporate or unincorporate, that is\nregistered outside the Republic, which specialises in\nproviding quantity surveying services for construction and\nbuilt environment;\n“Higher Education Authority” means the Higher Education\nAct No. 4 of Authority established under the Higher Education Act, 2013;\n2013\n“higher education institution” has the meaning assigned to\nAct No. 4 of the words in the Higher Education Act, 2013;\n2013\n“inspector” means a person appointed as an inspector under\nsection 46;\n“Institute” means the Zambia Institute of Quantity Surveyors\nestablished under section 3;\n“Law Association of Zambia” means the Law Association of\nCap. 31 Zambia established under the Law Association of Zambia\nAct;\n“legal practitioner” has the meaning assigned to the word\nCap. 30 “practitioner” in the Legal Practitioner’s Act;\n“legally disqualified” means the absence of legal capacity as\nAct No. 6 provided under section 4 of the Mental Health Act, 2019;\nof 2019\n“member” means a person registered as a member of the\nInstitute in accordance with the provisions of the constitution\nand “membership” shall be construed accordingly;\n“practising certificate” means a certificate issued under\nsection 23;\n“President” means a person elected as President of the\nInstitute under section 6;\n“professional misconduct” means the conduct referred to\nunder section 37;\n“quantity surveying” means the application of scientific,\nfinancial and economics knowledge in the built environment\nZambia Institute of Quantity Surveyors [No. 19 of 2024 321\nto construction and infrastructure development through\nmeasurements, estimating, procurement, cost and contract\nformulation, administration and management;\n“quantity surveying organisation” means a statutory\ncorporation, a company, a firm, a partnership, an association\nor other body, whether corporate or unincorporate, that\nspecialises in providing quantity surveying services;\n“quantity surveying professional” means a person who is\ntrained and possesses experience in quantity surveying and\nis registered in accordance with this Act, and “quantity\nsurveying profession” shall be construed accordingly;\n“quantity surveying unit” means an operational entity of a\nnon-quantity surveying organisation that is specialised in\nproviding quantity surveying services internally, in support\nof that nonquantity surveying organisation’s core operations\nor activities;\n“register” means the register of the Institute referred to under\nsection 33;\n“Registrar” means a person appointed as Registrar under\nsection 10;\n“relative” has the meaning assigned to the word in the Anti- Act No. 3\nof 2012\nCorruption Act, 2012;\n“repealed Act” means the Quantity Surveyors Act, 1995; Cap. 438\n“Vice-Chairperson” means the person appointed as Vice-\nChairperson of the Disciplinary Committee under section\n39;\n“Vice-President” means the person elected as Vice-President\nof the Institute under section 6; and\n“Zambia Qualifications Authority” means the Zambia\nQualifications Authority established under the Zambia Act No. 8\nof 2024\nQualifications Authority Act, 2024.\n322 No. 19 of 2024 Zambia Institute of Quantity Surveyors\nPART II\nTHE ZAMBIA INSTITUTE OF QUANTITY SURVEYORS\nContinuation 3. (1) The Quantity Surveyors Registration Board established\nand renaming\nunder the repealed Act is continued as if established under this Act\nof\nQuantity and is renamed as the Zambia Institute of Quantity Surveyors.\nSurveyors\nRegistration (2) The Institute is a body corporate with perpetual succession\nBoard\nand a common seal, capable of suing and being sued in its corporate\nname and with power, subject to the provisions of this Act, to do or\nperform all acts and things that a body corporate may, by law, do or\nperform.\n(3) The First Schedule applies to the Institute.\nFunctions of 4. The functions of the Institute are to—\nInstitute\na) advance the quantity surveying profession and promote its\ninterests;\n(b) register and regulate quantity surveying professionals,\nquantity surveying organisations and quantity surveying\nunits;\n(c) issue practising certificates to eligible members;\n(d) set and enforce professional standards of quantity\nsurveying practice;\n(e) develop, promote and enforce internationally comparable\nquantity surveying practice standards in the Republic;\n(f) providecontinuous professional development to quantity\nsurveying professionals;\n(g) investigate cases of professional misconduct under this\nAct;\n(h) undertake research and development into matters affecting\nthe quantity surveying profession;\n(i)promote public awareness in matters relating to the quantity\nsurveying profession;\n(j)recommend to the Higher Education Authority, the\ndevelopment and maintenance of appropriate standards\nfor quantity surveying training and education;\n(k) collaborate with higher education institutions, Government\ndepartments and other international institutions to\nenhance the interest and improve the quality of the\nquantity surveying profession in the Republic;\nZambia Institute of Quantity Surveyors [No. 19 of 2024 323\n(l)promote technological improvements and advancement in\nthe quantity surveying profession;\n(m) protect and assist the public in all matters relating to the\npractice of quantity surveying; and\n(n) advise Government on matters relating to the quantity\nsurveying profession."
+    },
+    {
+      "number": "5",
+      "heading": "(1) The Institute shall, by a vote of at least two-thirds of the Constitution",
+      "text": "5. (1) The Institute shall, by a vote of at least two-thirds of the Constitution\nmembers voting at a general meeting of the Institute, adopt a of Institute\nconstitution and may, in the like manner, amend it.\n(2) Subject to this Act, the constitution shall regulate the conduct\nof the affairs of the Institute.\n(3) The constitution may provide for —\n(a) the meetings of the Institute, including the delivery of\nnotices of the meetings, the quorum, voting, adjournments\nand other matters of procedure or conduct of the\nmeetings;\n(b) the election, qualifications and tenure of office of the\nPresident, Vice-President and other office bearers of\nthe Institute;\n(c) the composition, functions, powers and procedures of the\ncommittees of the Institute;\n(d) the categories of registration and classes of membership\nand their rights, privileges and obligations; and\n(e) the any other matter that the membership may determine."
+    },
+    {
+      "number": "6",
+      "heading": "The members shall elect the President, Vice-President and President,",
+      "text": "6. The members shall elect the President, Vice-President and President,\nother office bearers of the Institute in accordance with the provisions Vice-\nPresident\nof the constitution. and other\noffice\nbearers"
+    },
+    {
+      "number": "7",
+      "heading": "(1) Subject to this Act, the Institute may regulate its own Meetings of",
+      "text": "7. (1) Subject to this Act, the Institute may regulate its own Meetings of\nprocedure. Institute\n(2) The meetings of the Institute shall be conducted in\naccordance with the provisions of the constitution.\n(3) The validity of any proceedings, acts or decisions of the\nInstitute shall not be affected by a person’s absence from a meeting\nof the Institute or by reason that a person not entitled to do so took\npart in the proceedings of a meeting of the Institute."
+    },
+    {
+      "number": "8",
+      "heading": "(1) There is constituted the Council of the Institute which is Council of",
+      "text": "8. (1) There is constituted the Council of the Institute which is Council of\nInstitute\nresponsible for the management and control of the affairs of the\nInstitute.\n324 No. 19 of 2024 Zambia Institute of Quantity Surveyors\n(2) The Council consists of the following part-time council\nmembers nominated or elected in accordance with the provisions\nof the constitution:\n(a) the President;\n(b) the Vice-President;\n(c) the Honorary Secretary;\n(d) the Treasurer;\n(e) five members; and\n(f) the immediate past President as ex-officio.\n(3) A person shall not be nominated or elected as a council\nmember if that person is—\n(a) found guilty of professional misconduct under this Act;\n(b) convicted of an offence under this Act;\n(c) an undischarged bankrupt;\n(d) legally disqualified;\n(e) convicted of an offence involving fraud or dishonesty; or\n(f) an employee of the Institute.\n(4) The First Schedule applies to the Council.\nFunctions of 9. (1) The functions of the Council are to perform the functions\nCouncil\nof the Institute.\n(2) Despite the generality of subsection (1), the functions of the\nCouncil are to—\n(a) develop rules and guidelines for members of the Institute;\n(b) refer a matter to the Disciplinary Committee in accordance\nwith Part V;\n(c) make recommendations relating to the quantity surveying\nprofession to the general meeting of the Institute;\n(d) set, establish and monitor standards for members employed\nin quantity surveying;\n(e) approve the policies, programmes and strategic plans of\nthe Institute;\n(f) approve the annual work plan, action plans, activities and\nreports of the Institute;\nZambia Institute of Quantity Surveyors [No. 19 of 2024 325\n(g) approve the annual budget estimates and financial\nstatements of the Institute;\n(h) monitor and evaluate the performance of the Institute\nagainst budgets and plans; and\n(i) advise the Minister on matters relating to the quantity\nsurveying profession.\n(3) The Council may, by direction, in writing, and on conditions\nthat the Council considers necessary, delegate to the Registrar any\nof the Council’s functions under this Act."
+    },
+    {
+      "number": "10",
+      "heading": "(1) The Council shall appoint a Registrar, on terms and Registrar and",
+      "text": "10. (1) The Council shall appoint a Registrar, on terms and Registrar and\nconditions that the Council may determine, who shall be— other staff\n(a)the chief executive officer of the Institute and Secretary\nto the Council; and\n(b) responsible for the day-to-day administration of the\nInstitute.\n(2) The Registrar shall attend meetings of the Council or a\ncommittee of the Council and may address those meetings, but\nshall have no vote.\n(3) The Council shall appoint other staff of the Institute that\nthe Council considers necessary for the performance of the functions\nof the Institute.\n(4) The Council shall determine the conditions of service and\nemoluments of the Registrar and other staff of the Institute.\nPART III\nQUANTITY SURVEYORS REGISTRATION BOARD"
+    },
+    {
+      "number": "11",
+      "heading": "(1) There is established the Quantity Surveyors Registration Establishment",
+      "text": "11. (1) There is established the Quantity Surveyors Registration Establishment\nBoard which consists of the following members appointed by the of Quantity\nSurveyors\nCouncil: Registration\nBoard\n(a) a representative of the Ministry responsible for\ninfrastructure;\n(b) two representatives of quantity surveying units;\n(c) two representatives from quantity surveying organisations;\n(d) a representative of a construction company;\n(e) a representative of a higher education institution; and\n(f) a representative of the Law Association of Zambia as\nex-officio.\n326 No. 19 of 2024 Zambia Institute of Quantity Surveyors\n(2) The members referred to under subsection (1) (a), (b),\n(c), (d) and (e) shall be quantity surveying professionals.\n(3) The institutions or organisations referred to under subsection\n(1) shall nominate their representatives for appointment by the\nCouncil.\n(4) The Board may, for purposes of performing its functions\nunder this Act, establish such committees as the Board may\ndetermine and may delegate to the committees any of its functions\nas it considers necessary.\n(5) The Minister may, on the recommendation of the Council,\nby statutory instrument, make regulations to provide for the tenure\nof office of a member of the Board, procedure of meetings and\nquorum of the Board.\n(6) Subject to any specific or general direction of the Council,\nthe Board may regulate its own procedure.\nFunctions of 12. (1) Except as otherwise provided in this Act, the function\nBoard\nof the Board shall be to perform the registration functions of the\nInstitute.\n(2) The Council may give general or specific directions to the\nBoard relating to registration under this Act.\nPART IV\nMEMBERSHIP, REGISTRATION AND PRACTISING CERTIFICATE\nProhibition 13. (1) A person shall not be employed or practise as a quantity\nof person\nsurveying professional unless that person is registered as a quantity\npractising\nwithout surveying professional in accordance with this Act.\nregistration\n(2) A person who contravenes subsection (1) commits an offence\nand is liable, on conviction, to a fine not exceeding three hundred\nthousand penalty units or to imprisonment for a term not exceeding\nthree years, or to both.\nApplication 14. (1) A person who intends to be employed or to practise as\nfor\na quantity surveying professional shall apply to the Board for\nregistration\nregistration in the prescribed manner and form on payment of the\nprescribed fee.\n(2) The Board may determine different fees for different\ncategories of quantity surveying professionals.\nZambia Institute of Quantity Surveyors [No. 19 of 2024 327\n(3) The Board may, within thirty days of receipt of an\napplication under subsection (1), grant or reject the application.\n(4) The Board shall, where the Board rejects an application\nunder subsection (3), inform the applicant of the decision, in writing,\nand give reasons for the decision."
+    },
+    {
+      "number": "15",
+      "heading": "(1) The Board shall, in considering an application made Determination",
+      "text": "15. (1) The Board shall, in considering an application made Determination\nunder section 14, register an applicant as a quantity surveying of\napplication\nprofessional if the Board is satisfied that the applicant— for\nregistration\n(a) possesses knowledge, training and experience as as quantity\nprescribed; surveying\nprofessional\n(b) holds a qualification recognised and validated by the\nZambia Qualifications Authority;\n(c) is of good professional standing;\n(d) is a citizen or is resident in the Republic and has an\nestablished office or appointment in the Republic in the\nquantity surveying profession; and\n(e) meets other requirements that the Minister may, on the\nrecommendation of the Board prescribe by statutory\ninstrument.\n(2) The Board shall register a quantity surveying professional\nin accordance with the categories of registration prescribed in the\nconstitution."
+    },
+    {
+      "number": "16",
+      "heading": "(1) The Board shall, where the Board grants an application Certificate of",
+      "text": "16. (1) The Board shall, where the Board grants an application Certificate of\nunder section 14, issue a quantity surveying professional with a registration\ncertificate of registration in the prescribed form showing the quantity\nsurveying professional’s category of registration.\n(2) A certificate of registration shall remain the property of the\nInstitute and shall have an unlimited period of validity, unless\nsuspended or cancelled under this Act."
+    },
+    {
+      "number": "17",
+      "heading": "A person shall not qualify for registration as a quantity Disqualification",
+      "text": "17. A person shall not qualify for registration as a quantity Disqualification\nfrom\nsurveying professional if that person is—\nregistration\n(a) convicted of an offence involving fraud or dishonesty under\nthis Act or any other written law in the preceding five\nyears prior to the registration;\n(b) legally disqualified;\n(c) an undischarged bankrupt; or\n(d) found guilty of professional misconduct by the Disciplinary\nCommittee and the Disciplinary Committee orders the\ncancellation of the certificate of registration of a quantity\nsurveying professional.\n328 No. 19 of 2024 Zambia Institute of Quantity Surveyors\nTitle for 18. A registered quantity surveying professional shall use the\nregistered\ntitle or designation as provided in the constitution.\nquantity\nsurveying\nprofessional\nChange in 19. A quantity surveying professional registered under this Act\ndetails shall notify the Registrar, in writing, of any change in the particulars\nrelating to the registration within seven days of the change.\nSuspension 20. (1) Subject to this Act, the Board may suspend or cancel\nand\nthe registration of a quantity surveying professional of registration\ncancellation\nof if—\nregistration\n(a) the Board has reasonable grounds to believe that the\nregistration was obtained through fraud,\nmisrepresentation or concealment of a material fact;\n(b) the quantity surveying professional is found guilty of\nprofessional misconduct under this Act or the code of\nethics and the Disciplinary Committee orders the\nsuspension or cancellation of the quantity surveying\nprofessional’s certificate of registration;\n(c) the quantity surveying professional is convicted of an\noffence under this Act or any other written law and\nsentenced to imprisonment for a term exceeding six\nmonths without the option of a fine; or\n(d) since the registration, circumstances have arisen\ndisqualifying the quantity surveying professional from\nregistration.\n(2) The Board shall, before suspending or cancelling the\nregistration under subsection (1), give the quantity surveying\nprofessional an opportunity to be heard.\n(3) The Board may, before cancelling the registration of a\nquantity surveying professional, suspend the quantity surveying\nprofessional for a specified period and on terms and conditions that\nthe Board may determine.\n(4) The name of the quantity surveying professional shall be\nremoved from the register and shall not be restored except where\nthe Board cancels the registration of a quantity surveying\nprofessional under this section on conditions that may be prescribed.\n(5) The practising certificate of the holder of the certificate of\nregistration shall be void where a certificate of registration is\ncancelled under this section.\nZambia Institute of Quantity Surveyors [No. 19 of 2024 329"
+    },
+    {
+      "number": "21",
+      "heading": "A person may, where a certificate of registration is Re-",
+      "text": "21. A person may, where a certificate of registration is Re-\nregistration\ncancelled under this Act, apply to the Board for re-registration in\nthe prescribed manner and form on payment of a prescribed fee,\nsubject to the terms and conditions that the Board may determine."
+    },
+    {
+      "number": "22",
+      "heading": "(1) A person shall not practice as a quantity surveying Prohibition",
+      "text": "22. (1) A person shall not practice as a quantity surveying Prohibition\nof practising\nprofessional without a valid practising certificate issued to that\nwithout\nperson by the Board under this Act. practising\ncertificate\n(2) A person shall not offer employment to a person as a\nquantity surveying professional who does not hold a valid practising\ncertificate issued under this Act.\n(3) A person who contravenes subsection (1) or (2) commits\nan offence and is liable, on conviction, to a fine not exceeding\nseven hundred thousand penalty units or to imprisonment for a\nterm not exceeding seven years, or to both."
+    },
+    {
+      "number": "23",
+      "heading": "(1) A registered quantity surveying professional shall apply Practising",
+      "text": "23. (1) A registered quantity surveying professional shall apply Practising\nto the Board for a practising certificate in the prescribed manner certificate\nand form on payment of a prescribed fee.\n(2) The Board shall, within thirty days of the receipt of an\napplication under subsection (1), issue the applicant with a practising\ncertificate in the prescribed form where the applicant meets the\nrequirements of this Act.\n(3) The Minister may, by statutory instrument, and on the\nrecommendation of the Board, make Regulations to provide for—\n(a) the terms and conditions for the issuance of a practising\ncertificate;\n(b) the type of continuous professional development and\ntraining and any other information required for the\nissuance of a practising certificate; and\n(c) any other matter that is necessary for the purposes of this\nsection."
+    },
+    {
+      "number": "24",
+      "heading": "(1) A practising certificate shall be renewed annually in Renewal of",
+      "text": "24. (1) A practising certificate shall be renewed annually in Renewal of\npractising\nthe prescribed manner and form on payment of a prescribed fee.\ncertificate\n(2) A practising certificate that is not renewed in accordance\nwith subsection (1) is void.\n(3) A quantity surveying professional who practices quantity\nsurveying or provides any quantity surveying service during any\nperiod in which a practising certificate is void commits an offence\nand is liable, on conviction, to a fine not exceeding five hundred\nthousand penalty units or to imprisonment for a term not exceeding\nfive years, or to both.\n330 No. 19 of 2024 Zambia Institute of Quantity Surveyors\nSuspension 25. (1) Subject to this Act, the Board may suspend or cancel\nand\na practising certificate if the holder—\ncancellation\nof practising\n(a) is found guilty of professional misconduct and the\ncertificate\nDisciplinary Committee orders the suspension or\ncancellation of the practising certificate;\n(b) is convicted of an offence under this Act or any other\nwritten law and sentenced to imprisonment for a term\nexceeding six months without the option of a fine;\n(c) becomes legally disqualified;\n(d) is an undischarged bankrupt;\n(e) obtained the practising certificate through fraud,\nmisrepresentation or concealment of a material fact; or\n(f) is de-registered under this Act.\n(2) The Board shall, before suspending or cancelling the\npractising certificate of a quantity surveying professional under\nthis section, give the quantity surveying professional an opportunity\nto be heard.\n(3) The Board may, before cancelling the practising certificate\nof a quantity surveying professional, suspend the quantity surveying\nprofessional for a specified period and on terms and conditions that\nthe Board may determine.\nMaintenance 26. (1) A quantity surveying professional who does not intend\nof non-\nto practice quantity surveying for a specified period of time shall\npractising\nquantity notify the Board, in writing, of that quantity surveying professional’s\nsurveying\nintention.\nprofessional\non register\n(2) The Board may, where a quantity surveying professional\nnotifies the Board in accordance with subsection (1), maintain the\nname of the quantity surveying professional on the register, in a\nnon-practising category, for that period of time.\nProhibition 27. A certificate of registration or practising certificate issued\nof transfer\nunder this Part shall not be transferred to a third party.\nof certificate\nof\nregistration\nor practising\ncertificate\nZambia Institute of Quantity Surveyors [No. 19 of 2024 331"
+    },
+    {
+      "number": "28",
+      "heading": "(1) A quantity surveying professional whose certificate of Duplicate",
+      "text": "28. (1) A quantity surveying professional whose certificate of Duplicate\ncertificate of\nregistration or practising certificate is destroyed or lost may apply\nregistration\nto the Registrar for a duplicate certificate of registration or or practising\ncertificate\npractising certificate in the prescribed manner and form on payment\nof a prescribed fee.\n(2) The Registrar may, within fourteen days of receipt of an\napplication under subsection (1), issue a duplicate certificate of\nregistration or practising certificate to the quantity surveying\nprofessional."
+    },
+    {
+      "number": "29",
+      "heading": "A quantity surveying professional whose certificate of Surrender of",
+      "text": "29. A quantity surveying professional whose certificate of Surrender of\ncancelled\nregistration or practising certificate is cancelled shall, within seven\ncertificate of\ndays of being notified of the cancellation, surrender the certificate registration\nor practising\nof registration and practising certificate to the Board.\ncertificate"
+    },
+    {
+      "number": "30",
+      "heading": "(1) A quantity surveying organisation or quantity surveying Prohibition",
+      "text": "30. (1) A quantity surveying organisation or quantity surveying Prohibition\nof quantity\nunit shall not provide quantity surveying services if the quantity\nsurveying\nsurveying organisation or quantity surveying unit is not registered organisation\nor quantity\nin accordance with this Act.\nsurveying\nunit\n(2) A quantity surveying organisation or quantity surveying unit\npractising\nthat contravenes subsection (1) commits an offence and is liable, without\non conviction, to a fine not exceeding nine million penalty units. registration"
+    },
+    {
+      "number": "31",
+      "heading": "(1) A quantity surveying organisation or quantity surveying Application",
+      "text": "31. (1) A quantity surveying organisation or quantity surveying Application\nby quantity\nunit that intends to provide quantity surveying services shall apply\nsurveying\nto the Board for registration in the prescribed manner and form on organisation\npayment of a prescribed fee. or quantity\nsurveying\n(2) The Board shall, within thirty days of receipt of an unit for\nregistration\napplication made under subsection (1), grant or reject the application.\n(3) The Board shall, where it rejects an application in\naccordance with subsection (2), inform the applicant and give the\nreasons for the rejection.\n(4) The Minister may, by statutory instrument, on the\nrecommendation of the Institute, make regulations to provide for—\n(a) the terms and conditions for the issuance of a certificate\nof registration as a quantity surveyingorganisation or\nquantity surveying unit;\n(b) the manner and form of applications and the fees payable;\n(c) the circumstances on which the registration under this\nsection may be renewed, suspended or cancelled; and\n(d) any other matter necessary for the purposes of this section.\n332 No. 19 of 2024 Zambia Institute of Quantity Surveyors\nForeign 32. A foreign quantity surveying organisation that intends to\nquantity provide quantity surveying services in the Republic shall enter into\nsurveying\norganisation a joint venture with a surveying organisation or quantity surveying\nproviding unit registered under this Act and shall comply with the prescribed\nquantity\nsurveying conditions.\nservices\nRegister 33. (1) The Institute shall keep and maintain a registered\nregister of—\n(a) quantity surveying professionals;\n(b) the holders of practising certificates and persons whose\npractising certificates are cancelled;\n(c) quantity surveying organisations and quantity surveying\nunits;\n(d) the applications rejected and reasons for the rejection;\nand\n(e) any other information that the Board may determine.\n(2) The register referred to under subsection (1) shall contain\nparticulars that may be prescribed.\n(3) The register shall be kept in the custody of the Registrar at\nthe offices of the Institute and shall be open for inspection to\nmembers of the public during normal office hours on payment of a\nfee that the Institute may determine.\n(4) The Registrar shall, on an application by any person, issue\nto the person a certified extract from the registers or a copy of a\ncertificate of registration or practising certificate, on payment of a\nfee that the Institute may determine.\nPublication 34. (1) The Registrar shall, on the direction of the Board, cause\nof copies of copies of the register, including alterations of, or additions to the\nregister\nregister, to be printed and published in a manner and form that the\nBoard may direct.\n(2) Subject to this Act, a copy of the last published and printed\nregister shall be prima facie evidence in legal proceedings of what\nis contained in that register, and the absence of the name of a\nquantity surveying professional, quantity surveying organisation or\nquantity surveying unit from that copy is prima facie evidence\nthat a quantity surveying professional, quantity surveying organisation\nor quantity surveying unit is not registered.\nOffences 35. (1) A person shall not—\nrelating to\nregistration, (a) make or cause to be made, an unauthorised entry, alteration\netc. or erasure on a register, certificate of registration or\npractising certificate, or on a certified copy of a register,\ncertificate of registration or practising certificate;\nZambia Institute of Quantity Surveyors [No. 19 of 2024 333\n(b) procure or attempt to procure registration under this Act\nby fraud, misrepresentation or the concealment of a\nmaterial fact;\n(c) impersonate a quantity surveying professional, quantity\nsurveying organisation or quantity surveying unit or use\nthe title or designation of a quantity surveying\nprofessional, quantity surveying organisation or quantity\nsurveying unit while not registered as a quantity\nsurveying professional, quantity surveying organisation\nor quantity surveying unit under this Act; or\n(d) forge a certificate of registration, practising certificate or\nother document issued under this Act.\n(2) A person who contravenes subsection (1) commits an\noffence and is liable, on conviction, to a fine not exceeding five\nhundred thousand penalty units or to imprisonment for a term not\nexceeding five years, or to both.\nPART V\nDISCIPLINARY MATTERS"
+    },
+    {
+      "number": "36",
+      "heading": "The Council shall adopt and publish a code of ethics for Code of",
+      "text": "36. The Council shall adopt and publish a code of ethics for Code of\nethics\nquantity surveying professionals which shall bind quantity surveying\nprofessionals registered under this Act."
+    },
+    {
+      "number": "37",
+      "heading": "A quantity surveying professional commits professional Professional",
+      "text": "37. A quantity surveying professional commits professional Professional\nmisconduct if the quantity surveying professional— misconduct\n(a) contravenes a provision of this Act;\n(b) unlawfully discloses or uses to the quantity surveying\nprofessional’s advantage any information acquired in\nthe practice of the quantity surveying professional;\n(c) engages in conduct that is dishonest, fraudulent or deceitful;\nor\n(d) breaches the code of ethics or encourages another quantity\nsurveying professional to breach or disregard the code\nof ethics."
+    },
+    {
+      "number": "38",
+      "heading": "(1) A person may lodge a complaint with the Institute Initiation of",
+      "text": "38. (1) A person may lodge a complaint with the Institute Initiation of\ndisciplinary\nagainst a quantity surveying professional where that person alleges\naction\nthat the quantity surveying professional has committed professional\nmisconduct.\n334 No. 19 of 2024 Zambia Institute of Quantity Surveyors\n(2) The Institute may initiate disciplinary action under this\nsection where the Institute has reasonable grounds to believe that\na quantity surveying professional has contravened the code of ethics\nor any provision of this Act.\n(3) A complaint or allegation shall be made to the Registrar in\nthe prescribed manner and form.\nDisciplinary 39. (1) The Council shall constitute a Disciplinary Committee\nCommittee\nconsisting of the following part-time members:\n(a) the Chairperson;\n(b) the Vice-Chairperson;\n(c) four quantity surveying professionals, who are not\nmembers of the Council; and\n(d) a legal practitioner nominated by the Law Association of\nZambia.\n(2) The Registrar shall be the Secretary to the Disciplinary\nCommittee but shall not vote on any matter before the Disciplinary\nCommittee.\n(3) A person qualifies to be appointed as Chairperson or Vice-\nChairperson of the Disciplinary Committee if that person is\nregistered as a fellow with a minimum of fifteen years’ experience\nin quantity surveying.\n(4) A person shall not be appointed as a member of the\nDisciplinary Committee if that person—\n(a) is legally disqualified;\n(b) is an undischarged bankrupt;\n(c) is found guilty of professional misconduct under this Act;\n(d) in the case of a member referred to under subsection\n(1)(a), (b) and (c), has not been on the register of quantity\nsurveying professionals for at least ten years preceding\nthe appointment; or\n(e) is convicted of an offence under any other written law\nand sentenced to imprisonment for a term exceeding\nsix months without the option of a fine.\n(5) A member of the Disciplinary Committee shall hold office\nfor a term of three years and may be re-appointed for a further\nand final term of three years.\nZambia Institute of Quantity Surveyors [No. 19 of 2024 335\n(6) A member of the Disciplinary Committee shall, on expiration\nof the term for which the member is appointed continue to hold\noffice until another member is appointed but in no case shall an\nextension of the period exceed three months.\n(7) The office of a member of the Disciplinary Committee\nbecomes vacant if the member—\n(a) dies;\n(b) is adjudged bankrupt under any written law;\n(c) is absent from three consecutive meetings of the\nDisciplinary Committee of which the member has notice,\nwithout the prior approval of the Disciplinary Committee;\n(d) resigns by notice, in writing, to the Council;\n(e) is legally disqualified from performing the functions of a\nmember of the Disciplinary Committee;\n(f) is found guilty of professional misconduct;\n(g) is de-registered under this Act or any other written law;\nor\n(h) is convicted of an offence under any other written law\nand sentenced to imprisonment for a term exceeding\nsix months without the option of a fine.\n(8) The Council shall, where there is a vacancy in the\nmembership of the Disciplinary Committee before the expiry of\nthe term of office, appoint another person to replace the member\nwho vacates office but that person shall only hold office for the\nremainder of the term."
+    },
+    {
+      "number": "40",
+      "heading": "(1) The functions of the Disciplinary Committee are to Functions of",
+      "text": "40. (1) The functions of the Disciplinary Committee are to Functions of\nDisciplinary\nhear and determine a—\nCommittee\n(a) disciplinary action initiated by the Institute against a\nquantity surveying professional that has contravened the\ncode of ethics or this Act; or\n(b) complaint or allegation of professional misconduct made\nby a person against a quantity surveying professional.\n(2) The Disciplinary Committee may publicise as the\nDisciplinary Committee considers appropriate, the facts relating to\na quantity surveying professional who is found guilty of, and punished\nfor, professional misconduct.\n336 No. 19 of 2024 Zambia Institute of Quantity Surveyors\nProceedings 41. (1) Subject to the other provisions of this Act, the Disciplinary\nof\nCommittee may regulate its own procedure.\nDisciplinary\nCommittee\n(2) Five members of the Disciplinary Committee shall form a\nquorum at a meeting or sitting of the Disciplinary Committee.\n(3) The Chairperson, or in the absence of the Chairperson,\nthe Vice-Chairperson shall preside at a meeting or sitting of the\nDisciplinary Committee.\n(4) A question at a meeting or sitting of the Disciplinary\nCommittee shall be decided by a majority of the members present\nat the meeting or sitting of the Disciplinary Committee and in the\nevent of an equality of votes, the person presiding at the meeting or\nsitting shall have a casting vote in addition to that person’s deliberative\nvote.\n(5) The proceedings of the Disciplinary Committee shall be in\ncamera.\n(6) A party to a hearing of the Disciplinary Committee may\nappear in person or be represented by a legal practitioner or, if the\nparty so elects, by any other person.\n(7) A decision of the Disciplinary Committee shall be in the\nform of a reasoned judgment and a copy of the judgment shall be\nsupplied to each party to the proceedings and to every person\naffected by the decision.\n(8) If a person is present at a meeting or sitting of the\nDisciplinary Committee at which any matter is the subject of\nconsideration, and in which matter that person or that person’s\nrelative or associate is directly or indirectly interested in a private\ncapacity, that person shall, as soon as is practicable after the\ncommencement of the meeting or sitting, disclose the interest and\nshall not, unless the Disciplinary Committee otherwise directs, take\npart in any consideration or discussion of, or vote on, any question\nrelating to that matter.\n(9) A disclosure of interest made under this section shall be\nrecorded in the minutes of the meeting at which it is made.\n(10) The Disciplinary Committee shall cause to be kept a record\nof its proceedings.\nPowers of 42. (1) The Disciplinary Committee may, for the purposes of\nDisciplinary\na hearing, hear and receive evidence and may—\nCommittee\n(a) under the hand of the Chairperson or the Registrar,\nsummon witnesses and require the production of a book,\nrecord, document, electronic record or anything required\nfor the purposes of the proceeding; and\nZambia Institute of Quantity Surveyors [No. 19 of 2024 337\n(b) through the Chairperson or Vice-Chairperson, administer\nan oath to a witness.\n(2) A person summoned to attend before the Disciplinary\nCommittee shall not—\n(a) refuse or fail to attend at the time and place specified in\nthe summons or, having attended, leave without the\npermission of the Disciplinary Committee;\n(b) having attended, refuse to be sworn or to affirm;\n(c) refuse, without lawful excuse, to answer fully and\nsatisfactorily to the best of that person’s knowledge and\nbelief, a question lawfully put to that person; or\n(d) refuse to produce a book, record, document or thing which\nthat person has been required by summons to produce.\n(3) A person who contravenes subsection (2) commits an\noffence and is liable, on conviction, for that refusal or failure, to a\nfine not exceeding two hundred thousand penalty units.\n(4) Despite subsection (2), a person shall not be compelled to\nanswer any question or produce any book, record or document\nwhich that person would not be compelled to answer or produce\non the trial of an action in the High Court.\n(5) A hearing before the Disciplinary Committee shall, for the\npurposes of Chapter XI of the Penal Code, be deemed to be a Cap. 87\njudicial proceeding.\n(6) A finding of fact which is shown to have been made by a\ncourt in the Republic shall, in any hearing before the Disciplinary\nCommittee, be conclusive evidence of the fact so found.\n(7) The Disciplinary Committee shall, where the Disciplinary\nCommittee has reasonable cause to believe that a quantity surveying\nprofessional is legally disqualified, refer the matter for determination\nin accordance with the Mental Health Act, 2019. Act No. 6 of\n2019\n(8) The Disciplinary Committee shall, where a determination\nis made in accordance with the Mental Health Act, 2019, that a Act No. 6 of\n2019\nquantity surveying professional is legally disqualified, suspend the\npractising certificate of the quantity surveying professional.\n(9) The Disciplinary Committee shall, where the Disciplinary\nCommittee finds, after due inquiry, that a quantity surveying\nprofessional is not guilty of professional misconduct, record a finding\nthat the quantity surveying professional is not guilty of the conduct\nto which the charge relates and dismiss the charge.\n338 No. 19 of 2024 Zambia Institute of Quantity Surveyors\n(10) The Disciplinary Committee may, for the purpose of any\nproceedings, use assessors or experts as the Disciplinary\nCommittee considers necessary.\nSanctions 43. The Disciplinary Committee shall, where the Disciplinary\nby Committee finds a quantity surveying professional guilty of\nDisciplinary\nprofessional misconduct, after due inquiry, impose one or more of\nCommittee\nfor the following penalties:\nprofessional\nmisconduct (a) order the cancellation of the quantity surveying\nprofessional’s certificate of registration or practising\ncertificate;\n(b) order the suspension of the certificate of registration or\npractising certificate for a specified period and on\nconditions as determined by the Disciplinary Committee;\n(c) censure the quantity surveying professional;\n(d) caution the quantity surveying professional;\n(e) impose an administrative penalty, not exceeding one\nhundred thousand penalty units, to be paid to the\nInstitute;\n(f) order that the quantity surveying professional be re-trained;\n(g) order the quantity surveying professional to pay to the\nInstitute or to a party to the hearing the costs of, or\nincidental to, the proceedings; or\n(h) order the quantity surveying professional to pay any party\nto the hearing or any other person, as restitution, the\namount of loss caused by that person’s negligence.\nReport by 44. The Disciplinary Committee shall, within sixty days of\nDisciplinary receipt of a complaint, hear and determine the complaint and submit\nCommittee\nto the Council a report of the proceedings together with a copy of\nthe record."
+    },
+    {
+      "number": "45",
+      "heading": "(1) The Chief Justice may, by statutory instrument and on",
+      "text": "45. (1) The Chief Justice may, by statutory instrument and on\nRules\nrelating to the recommendation of the Council, make rules relating to the—\ndisciplinary\nproceedings (a) manner and form for lodging of complaints under this\nPart;\n(b) mode of summoning persons before the Disciplinary\nCommittee;\n(c) manner and form of service of a summons requiring the\nattendance of a witness before the Disciplinary\nCommittee and the production of a book, record,\ndocument or thing;\nZambia Institute of Quantity Surveyors [No. 19 of 2024 339\n(d) procedure to be followed and rules of evidence to be\nobserved in proceedings before the Disciplinary\nCommittee; and\n(e) functions of assessors and experts to the Disciplinary\nCommittee.\n(2) Rules made under subsection (1) may provide—\n(a) that before a matter is referred to the Disciplinary\nCommittee it shall be investigated by the Institute;\n(b) for securing notices for the proceedings and specifying\nthe time and manner of the proceedings; and\n(c) for securing that a party to the proceedings shall, if that\nperson requires, be entitled to be heard by the\nDisciplinary Committee.\nPART VI\nINSPECTORATE"
+    },
+    {
+      "number": "46",
+      "heading": "(1) The Council shall appoint suitably qualified persons as Inspectors",
+      "text": "46. (1) The Council shall appoint suitably qualified persons as Inspectors\ninspectors to ensure compliance with this Act.\n(2) The Council shall provide an inspector with an identification\ncard which shall be prima facie evidence of the inspector’s\nappointment as inspector.\n(3) An inspector shall, in performing a function under this\nAct—\n(a) be in possession of the identification card referred to in\nsubsection (2); and\n(b) show the identification card to a person who requests to\nsee the identification card or is the subject of an\ninvestigation under this Act."
+    },
+    {
+      "number": "47",
+      "heading": "(1) An inspector may, for the purpose of enforcing the Powers of",
+      "text": "47. (1) An inspector may, for the purpose of enforcing the Powers of\nprovisions of this Act, at any reasonable time, without prior notice, inspectors\nand on the authority of a warrant, enter any premises that the\ninspector has reasonable grounds to believe is used for the\ncommission of an offence or contrary to the provisions of this Act,\nand—\n(a) search the premises;\n(b) search any person on the premises if the inspector has\nreasonable grounds to believe that the person has\npossession of an article, document or record that has a\nbearing on an inspection or investigation, except that a\nperson shall only be searched by a person of the same\nsex;\n340 No. 19 of 2024 Zambia Institute of Quantity Surveyors\n(c) take extracts from, or make copies of, any book, document\nor record that is on the premises and that has a bearing\non an inspection or investigation;\n(d) demand the production of, and inspect, relevant\ncertificates; and\n(e) make inquiries that may be necessary to ascertain whether\nthe provisions of this Act or any other law on which an\ninspection or investigation is based, have been complied\nwith.\n(2) A court may issue a warrant on application by an inspector\nif it appears from written information given by that inspector, on\noath or affirmation, that there are reasonable grounds to believe\nthat this Act has been or is likely to be contravened.\n(3) An inspector who removes anything from any premises\nshall—\n(a) issue a receipt for anything removed to the owner or the\nperson in control of the premises; and\n(b) return anything removed as soon as practicable after the\nthing removed has served the purpose for which it was\nremoved.\n(4) A person commits an offence if that person—\n(a) delays or obstructs an inspector in the performance of\nthe inspector’s functions under this Act;\n(b) refuses to give an inspector reasonable assistance as the\ninspector may require for the purpose of performing\nthe inspector’s functions;\n(c) impersonates an inspector or presents oneself to be an\ninspector; or\n(d) wilfully gives an inspector false or misleading information\nin answer to an inquiry made by the inspector.\n(5) A person who contravenes subsection (4) is liable, on\nconviction, to a fine not exceeding three hundred thousand penalty\nunits or to imprisonment for a term not exceeding three years, or\nto both.\n(6) An inspector shall furnish the Council with a written report\nand any other information relating to an inspection.\nZambia Institute of Quantity Surveyors [No. 19 of 2024 341\nPART VII\nGENERAL PROVISIONS"
+    },
+    {
+      "number": "48",
+      "heading": "(1) The Institute may, where a quantity surveying Enforcement",
+      "text": "48. (1) The Institute may, where a quantity surveying Enforcement\nprofessional is practising or a quantity surveying organisation or notice\nquantity surveying unit is operating in contravention of this Act, by\nnotice served on the quantity surveying professional, quantity\nsurveying organisation or quantity surveying unit, direct the quantity\nsurveying professional, quantity serving organisation or quantity\nsurveying unit to take, within a period that may be specified in the\nnotice, measures or steps that the Board may direct.\n(2) The Institute shall, within seven days after serving the notice\nunder subsection (1), publish the notice in a daily newspaper of\ngeneral circulation in the Republic.\n(3) The Institute may, where a quantity surveying professional,\nquantity surveying organisation or quantity surveying unit fails,\nwithout reasonable cause, to comply with an enforcement notice\nunder this section—\n(a) suspend or cancel the certificate of registration of the\nquantity surveying professional, quantity surveying\norganisation or quantity surveying unit; or\n(b) suspend or cancel the practising certificate of a quantity\nsurveying professional."
+    },
+    {
+      "number": "49",
+      "heading": "A quantity surveying professional shall, for professional Professional",
+      "text": "49. A quantity surveying professional shall, for professional Professional\nfees\nservices rendered, charge fees that the Institute may, with the\napproval of the Minister, by statutory instrument, prescribe."
+    },
+    {
+      "number": "50",
+      "heading": "(1) A person shall not knowingly or recklessly make a False or",
+      "text": "50. (1) A person shall not knowingly or recklessly make a False or\nmisleading\nfalse or misleading statment or orally or in writing to the Institute\nstatement\nor Disciplinary Committee with the intention that it be acted on by\nthe Institute or Disciplinary Committee.\n(2) A person who contravenes subsection (1) commits an\noffence and is liable, on conviction, to a fine not exceeding five\nhundred thousand penalty units or to imprisonment for a term not\nexceeding five years, or to both."
+    },
+    {
+      "number": "51",
+      "heading": "(1) A person aggrieved with a decision of the make a Appeals",
+      "text": "51. (1) A person aggrieved with a decision of the make a Appeals\nfalse or misleading statement, orally or in writing, to Board may,\nwithin thirty days of receipt of the decision, appeal to the Council.\n342 No. 19 of 2024 Zambia Institute of Quantity Surveyors\n(2) A person aggrieved with a decision of the Council may,\nwithin thirty days of receipt of the decision, appeal to the High\nCourt.\n(3) A person aggrieved with a decision of the Disciplinary\nCommittee may appeal to the High Court within thirty days of\nreceipt of the decision.\n(4) A decision of the Disciplinary Committee shall not take\neffect until the expiration of the time for lodging an appeal against\nthe decision or, if an appeal is lodged, until the time the appeal is\ndisposed of, withdrawn or struck out for want of prosecution.\n(5) The proceedings of the Disciplinary Committee shall not\nbe set aside by reason only of some irregularity in those proceedings\nif that irregularity did not occasion a substantial miscarriage of\njustice.\nJurisdiction 52. (1) A court shall have jurisdiction over a quantity surveying\nover acts\nprofessional for any act committed outside the Republic which, if\ncommitted\noutside it had been committed in the Republic, would have been an offence\nRepublic of professional misconduct under this Act.\n(2) Any proceedings against a quantity surveying professional\nunder this section which would be a bar to subsequent proceedings\nagainst that quantity surveying professional, for the same offence,\nif the offence had been committed in the Republic, shall be a bar\nto further proceedings against the quantity surveying professional\nunder any written law relating to the extradition of persons, in\nrespect of the same offence outside the Republic.\n(3) The Mutual Legal Assistance in Criminal Matters Act\nCap. 98\napplies to proceedings under this section.\nProhibition 53. (1) A person shall not, without the consent in writing given\nof by, or on behalf of, the Institute publish or disclose to a person,\npublication other than in the course of duties of that person, the contents of a\nor\ndocument, communication or information which relates to, or which\ndisclosure\nhas come to the knowledge of that person in the course of that\nof\ninformation person’s duties under this Act.\nto\n(2) A person who contravenes subsection (1) commits an\nunauthorised\nperson offence and is liable, on conviction, to a fine not exceeding two\nhundred thousand penalty units, or to imprisonment for a term not\nexceeding two years, or to both.\n(3) A person who, having information which to that person’s\nknowledge has been published or disclosed in contravention of\nsubsection (1), unlawfully publishes or communicates the\ninformation to another person, commits an offence and is liable, on\nconviction, to a fine not exceeding two hundred thousand penalty\nunits or to imprisonment for a term not exceeding two years, or to\nboth.\nZambia Institute of Quantity Surveyors [No. 19 of 2024 343"
+    },
+    {
+      "number": "54",
+      "heading": "Where an offence under this Act is committed by a body Offence by",
+      "text": "54. Where an offence under this Act is committed by a body Offence by\nprincipal\ncorporate or an unincorporate body, with the knowledge, consent\nofficers of\nor connivance of the director, manager, shareholder or partner of body\ncorporate or\nthe body corporate or an unincorporate body, that director, manager,\nunincorporate\nshareholder or partner commits the same offence as the body body\ncorporate or unincorporate body and is liable, on conviction, to the\npenalty specified for that offence under this Act."
+    },
+    {
+      "number": "55",
+      "heading": "(1) The Institute may impose an administrative penalty on Administrative",
+      "text": "55. (1) The Institute may impose an administrative penalty on Administrative\na person for a failure to comply with a provision of this Act which penalty\nis not an offence.\n(2) An administrative penalty shall not exceed the amount\nprescribed by the Minister by statutory instrument for each day\nduring which the failure continues.\n(3) An administrative penalty shall be paid to the Institute within\nthe period prescribed by the Minister.\n(4) The Institute may, where a person fails to pay an\nadministrative penalty within the stipulated period under subsection\n(3), by way of civil action in a competent court, recover the amount\nof the administrative penalty for that person as an amount due and\nowing to the Institute."
+    },
+    {
+      "number": "56",
+      "heading": "An action or other proceeding shall not lie or be instituted Immunity",
+      "text": "56. An action or other proceeding shall not lie or be instituted Immunity\nagainst a council member, a member of a committee of the Council,\na member of the Disciplinary Committee and a member of staff of\nthe Institute for, or in respect of, an act or thing done or omitted to\nbe done in good faith in the exercise or performance of a power or\nfunction conferred under this Act."
+    },
+    {
+      "number": "57",
+      "heading": "(1) The Institute may, in the exercise of its functions Guidelines",
+      "text": "57. (1) The Institute may, in the exercise of its functions Guidelines\nunder this Act, issue guidelines as are necessary for the better\ncarrying out of the provisions of this Act.\n(2) The Institute shall publish the guidelines issued under this\nAct in a daily newspaper of general circulation in the Republic and\nin the Gazette, and the guidelines shall take effect on the date of\npublication.\n(3) The guidelines issued by the Institute under this Act shall\nbind the persons regulated under this Act."
+    },
+    {
+      "number": "58",
+      "heading": "A person who contravenes a provision of this Act for which General",
+      "text": "58. A person who contravenes a provision of this Act for which General\na specific penalty is not provided, is liable, on conviction, to a fine Penalty\nnot exceeding two hundred thousand penalty units or to\nimprisonment for a term not exceeding two years, or to both.\n344 No. 19 of 2024 Zambia Institute of Quantity Surveyors\nRegulations 59. (1) The Minister may, by statutory instrument, on the\nrecommendation of the Council, make regulations for the better\ncarrying out of the provisions of this Act.\n2) Despite the generality of subsection (1), regulations under\nthat subsection may make provision for the—\n(a) manner and form of applications and the fees payable;\n(b) particulars to be entered on the register;\n(c) form of the certificate of registration and the conditions\nof the certificate of registration;\n(d) additional qualifications for registration as a quantity\nsurveying professional;\n(e) form of the practising certificate and the conditions of\nthe practising certificate;\n(f) code of ethics to which members shall subscribe;\n(g) continuous professional development of quantity surveying\nprofessionals; and\n(h) fixing of fees for quantity surveying services and other\nfees which are required to be prescribed.\nRepeal of 60. (1) The Quantity Surveyors Act, 1995, is repealed.\nAct No. 37\nof 1995 (2) Despite subsection (1), the Second Schedule applies to\nand savings\nthe matters specified in that Second Schedule.\nand\ntransitional\nprovisions\nZambia Institute of Quantity Surveyors [No. 19 of 2024 345\nFIRST SCHEDULE\n(Sections 3(3) and 8(4))\nZAMBIA INSTITUTE OF QUANTITY SURVEYORS\nPART I\nADMINISTRATION OF COUNCIL"
+    },
+    {
+      "number": "1",
+      "heading": "(1) The seal of the Institute shall be a device that the Council Seal of",
+      "text": "1. (1) The seal of the Institute shall be a device that the Council Seal of\nInstitute\nmay determine and shall be kept by the Registrar.\n(2) The affixing of the seal shall be authenticated by the\nPresident or Vice-President and the Registrar or any other person\nauthorised in that behalf by a resolution of the Council.\n(3) A contract or instrument which, if entered into or executed\nby a person not being a body corporate, would not be required to\nbe under seal, may be entered into or executed without seal on\nbehalf of the Institute by the Registrar or any other person generally\nor specifically authorised by the Council in that behalf.\n(4) A document purporting to be a document under the seal of\nthe Institute or issued on behalf of the Institute shall be received in\nevidence and shall be deemed to be so executed or issued without\nfurther proof, unless the contrary is proved."
+    },
+    {
+      "number": "2",
+      "heading": "(1) A council member shall, subject to the other provisions Tenure of",
+      "text": "2. (1) A council member shall, subject to the other provisions Tenure of\noffice and\nof this Act, hold office for a term of three years and may be re-\nvacancy of\nelected for a further and final term of three years. council\nmembers\n(2) A council member shall, on the expiration of the term for\nwhich the member is elected, continue to hold office until another\nmember is elected but in no case shall the extension of the term\nexceed three months.\n(3) The office of council member becomes vacant if that\ncouncil member—\n(a) dies;\n(b) is adjudged bankrupt under any written law;\n(c) resigns by notice, in writing, to the Institute;\n(d) is legally disqualified from performing the functions of a\ncouncil member;\ne) is disqualified from being a council member in accordance\nwith section 8 (3);\n346 No. 19 of 2024 Zambia Institute of Quantity Surveyors\n(f) ceases to be a member of the Institute;\n(g) is found guilty of professional misconduct;\n(h) is absent, from three consecutive meetings of the Council\nof which the council member had notice without the\nprior approval of the Council; or\n(i) is convicted of an offence under any other written law\nand sentenced to imprisonment for a term of six months\nwithout the option of a fine.\nProceedings 3. (1) Subject to the other provisions of this Act,the Council\nof Council\nmay regulate its own procedure.\n(2) The Council shall meet at least once in every three months\nfor the transaction of business at a place and time as the President\nmay determine.\n(3) The President may call a meeting of the Council on giving\nnotice of not less than fourteen days or where one third of the\ncouncil members so request, in writing, except that if the urgency\nof a particular matter does not permit the giving of notice, a special\nmeeting may be called on giving a shorter notice.\n(4) Five council members shall form a quorum at a meeting of\nthe Council.\n(5) There shall preside at a meeting of the Council—\n(a) the President;\n(b) in the absence of the President, the Vice-President; or\n(c) in the absence of both the President and Vice-President,\nanother council member that the council members\npresent shall elect for the purpose of that meeting.\n(6) A decision of the Council on any question shall be by a\nmajority of the council members present and voting at the meeting,\nand in the event of an equality of votes, the person presiding at the\nmeeting shall have a casting vote in addition to that person’s\ndeliberative vote.\n(7) The Council may invite a person whose presence is in the\nCouncil’s opinion desirable to attend and participate in the\ndeliberations of the meeting, but that person shall have no vote.\n(8) The validity of any proceedings, acts or decisions of the\nCouncil shall not be affected by a vacancy in the membership of\nthe Council or any defect in the appointment of a council member\nor by reason that a person not entitled to do so took part in the\nproceedings.\nZambia Institute of Quantity Surveyors [No. 19 of 2024 347\n(9) The Council shall cause minutes to be kept of the\nproceedings of every meeting of the Council and of any committee\nestablished by the Council."
+    },
+    {
+      "number": "4",
+      "heading": "(1) The Council may, for the purposes of performing its Committees",
+      "text": "4. (1) The Council may, for the purposes of performing its Committees\nfunctions under this Act, constitute committees that the Council\nconsiders necessary and may delegate to those committees any of\nthe Council’s functions.\n(2) The Council may appoint as members of a committee\npersons who are or are not members of the Council, except that at\nleast one member of the Council shall be a member of the\ncommittee.\n(3) A member of a committee shall hold office for a term as\nthe Council may determine.\n(4) Subject to any specific or general direction of the Council,\na committee may regulate its own procedure."
+    },
+    {
+      "number": "5",
+      "heading": "The Institute shall pay to a Council member or a member Allowances",
+      "text": "5. The Institute shall pay to a Council member or a member Allowances\nof a committee of the Council an allowance that the Council may\ndetermine."
+    },
+    {
+      "number": "6",
+      "heading": "(1) A person who is present at a meeting of the Council or Disclosure",
+      "text": "6. (1) A person who is present at a meeting of the Council or Disclosure\nof interest\na committee of the Council at which any matter is the subject of\nconsideration, and in which matter that person or that person’s\nrelative or associate is directly or indirectly interested in a private\ncapacity, shall as soon as is practicable after the commencement\nof the meeting, disclose the interest and shall not, unless the Council\nor the committee of the Council otherwise directs, take part in any\nconsideration or discussion of, or vote on, any question relating to\nthat matter.\n(2) A disclosure of interest made under this paragraph shall\nbe recorded in the minutes of the meeting at which the disclosure\nis made."
+    },
+    {
+      "number": "7",
+      "heading": "(1) A person shall not, without the consent, in writing, given Prohibition",
+      "text": "7. (1) A person shall not, without the consent, in writing, given Prohibition\nof\nby or on behalf of the Institute, publish or disclose to a person,\npublication\notherwise than in the course of that person’s duties, the contents or\nof a document, communication or information which relates to, disclosure\nof\nand which comes to that person’s knowledge in the course of that\ninformation\nperson’s duties under this Act. to\nunauthorised\n(2) A person who contravenes subparagraph (1) commits an persons\noffence and is liable, on conviction, to a fine not exceeding two\nhundred thousand penalty units or to imprisonment for a term not\nexceeding two years, or to both.\n348 No. 19 of 2024 Zambia Institute of Quantity Surveyors\n(3) A person who, having information which to the knowledge\nof that person has been published or disclosed in contravention of\nsubparagraph (1), unlawfully publishes or communicates the\ninformation to another person, commits an offence and is liable, on\nconviction, to a fine not exceeding two hundred thousand penalty\nunits or to imprisonment for a period not exceeding two years, or to\nboth.\nPART II\nFINANCIAL PROVISIONS\nFunds of 8. (1) The funds of the Institute consists of monies that may—\nInstitute\n(a) be paid to the Institute by way of subscription fees, grants\nor donations; or\n(b) vest in or accrue to the Institute.\n(2) The Institute may—\n(a) accept monies by way of grants or donations from any\nsource in or outside the Republic;\n(b) raise by way of loans or otherwise, monies that the Institute\nmay require for the discharge of its functions; or\n(c) in accordance with the regulations made under this Act,\ncharge and collect fees for services provided by the\nInstitute.\n(3) There shall be paid from the funds of the Institute—\n(a) the salaries, allowances and loans of members of staff of\nthe Institute;\n(b) reasonable travelling, transport and subsistence allowances\nfor Council members or any member of a committee\nwhen engaged in the business of the Institute at the rates\napproved by the Council; and\n(c) any other expenses incurred by the Council or a committee\nin the performance of the functions under this Act.\n(4) The Council may invest, in a manner the Council considers\nnecessary, funds that the Institute does not immediately require for\nthe performance of the Institute’s functions.\nFinancial 10. The financial year of the Institute shall be the period of\nyear\ntwelve months ending on 31st December in each year.\nZambia Institute of Quantity Surveyors [No. 19 of 2024 349"
+    },
+    {
+      "number": "11",
+      "heading": "(1) The Institute shall cause to be kept proper books of Accounts",
+      "text": "11. (1) The Institute shall cause to be kept proper books of Accounts\nand audit\naccounts and other records relating to the Institute’s accounts.\n(2) The accounts of the Institute for each financial year shall\nbe audited by an auditor appointed by the Council.\n(3) The auditor’s fees shall be paid by the Institute.\nSECOND SCHEDULE\n(Section 60(2))\nSAVINGS AND TRANSITIONAL PROVISIONS"
+    },
+    {
+      "number": "1",
+      "heading": "In this Schedule, “former Board” means the Quantity Interpretation",
+      "text": "1. In this Schedule, “former Board” means the Quantity Interpretation\nSurveyors Registration Board, established under the repealed Act."
+    },
+    {
+      "number": "2",
+      "heading": "(1) A quantity surveyor registered under the repealed Act Registration",
+      "text": "2. (1) A quantity surveyor registered under the repealed Act Registration\nand\nshall continue to be registered as if registered under this Act.\nappointment\nunder\n(2) The registration under subparagraph (1) shall be modified\nrepealed\nin accordance with this Act where necessary. Act\n(3) After the commencement of this Act, the former Board\nshall continue to perform the function of the Council of the Institute\nunder this Act until a new Council is constituted in accordance with\nthis Act.\n(4) A register maintained under the repealed Act and subsisting\nimmediately before the commencement of this Act shall, until\nreplaced, be considered to be a register maintained under this Act."
+    },
+    {
+      "number": "3",
+      "heading": "(1) For the avoidance of doubt, a person who, before the Staff of",
+      "text": "3. (1) For the avoidance of doubt, a person who, before the Staff of\nformer\ncommencement of this Act, was an employee of the former Board,\nBoard\nshall continue to be an employee of the Institute as if employed\nunder this Act.\n(2) The service of the persons referred to in subparagraph (1)\nshall be treated as continuous service.\n(3) Nothing in this Act affects the rights and liabilities of any\nemployee employed by the former Board before the commencement\ndate of this Act."
+    },
+    {
+      "number": "4",
+      "heading": "(1) On or after the commencement of this Act, there shall be Transfer of",
+      "text": "4. (1) On or after the commencement of this Act, there shall be Transfer of\ntransferred to, vest in and subsist against the Institute by virtue of assets and\nliabilities\nthis Act and without further assurance, all assets, rights and\nobligations which immediately before that date were the assets,\nrights, liabilities and obligations of the former Board.\n350 No. 19 of 2024 Zambia Institute of Quantity Surveyors\n(2) Subject to subparagraph (1), every deed, bond and agreement,\nother than an agreement for personnel service, to which the former\nBoard, was a party immediately before the commencement of this\nAct whether or not of such a nature that rights, liabilities and\nobligations could be assigned, shall, unless its subject matter or terms\nmake it impossible that it should have effect as modified, as provided\nunder this paragraph, have effect as if—\n(a) the Institute had been party to it;\n(b) for any reference to the former Board there were\nsubstituted, with respect to anything falling to be done\non or after the commencement of this Act, a reference\nto the Institute; or\n(c) for any reference to any officer of the former Board not\nbeing a party to it and beneficially interested, there were\nsubstituted, as respects anything falling to be done on or\nafter the commencement of this Act, a reference to such\nofficer of the Institute, as the Institute shall designate.\n(3) Where under this Act, any assets, rights, liabilities and\nobligations of the former Board, are deemed to be transferred to\nthe Institute, in respect of which transfer a written law provides for\nregistration, the Institute shall make an application in writing to the\nappropriate registration authority for registration of the transfer.\n(4) The registration authority, referred to in subparagraph (3),\nshall make such entries in the appropriate register as shall give\neffect to the transfer and, where applicable, issue to the transferee\nconcerned a certificate of title in respect of the property or make\nnecessary amendments to the register and shall endorse the deeds\nrelating to the title, right or obligation concerned and no registration\nfees or other duties shall be payable in respect of the transaction.\nLegal 5. (1) Any legal proceedings pending immediately before the\nproceedings commencement of this Act by or against the former Board, may be\ncontinued by or against the Institute.\n(2) After the commencement of this Act, proceedings in respect\nof any right, liability or obligation which was vested in, held, enjoyed,\nincurred or suffered by the former Board, may be instituted by or\nagainst the Institute."
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Acts%20No.%2019%20for%202024%2C%20The%20Zambia%20Institute%20of%20Quantity%20Surveyors%2Cpdf.pdf",
+  "source_hash": "sha256:23090304f107e26168820358d43f1f24e81eb1130c97f94c832baeea972d615e",
+  "fetched_at": "2026-04-11T07:04:48Z",
+  "parser_version": "0.4.0",
+  "node_url": "https://www.parliament.gov.zm/node/12091"
+}
