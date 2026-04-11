@@ -227,3 +227,11 @@ consider Government Gazette or direct MMMD/MoJ request).
 - **act-zm-2014-003** (1 section): Business Regulatory Act — 8.6MB PDF (likely scanned). Only 1 section extracted. Needs OCR re-parse.
 - **act-zm-2015-023** (2 sections): Appropriation Act — schedule-heavy, expected low count.
 - **act-zm-2014-005** (2 sections): Supplementary Appropriation Act — schedule-heavy, expected low count.
+
+## Batch 0045 (2026-04-11)
+- Act No. 8 of 2013: not found on parliament.gov.zm index (may not exist or not uploaded)
+- Act No. 9 of 2013: not found on parliament.gov.zm index (may not exist or not uploaded)
+- Act No. 10 of 2013: not found on parliament.gov.zm index (may not exist or not uploaded)
+- Act No. 11 of 2013: not found on parliament.gov.zm index (may not exist or not uploaded)
+- Act No. 17 of 2013: not found on parliament.gov.zm index (may not exist or not uploaded)
+- Act No. 18 of 2013: not found on parliament.gov.zm index (may not exist or not uploaded)

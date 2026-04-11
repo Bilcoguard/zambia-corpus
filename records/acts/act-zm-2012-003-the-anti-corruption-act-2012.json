@@ -1,0 +1,23 @@
+{
+  "id": "act-zm-2012-003-the-anti-corruption-act-2012",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Anti-Corruption Act 2012",
+  "citation": "Act No. 3 of 2012",
+  "enacted_date": "2012",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Full text",
+      "text": "[Empty PDF or scanned image - OCR needed]"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Anti%20Corruption%20Act%2C%202012.PDF",
+  "source_hash": "sha256:bf37a5b2cda75c50e2ecebcf3a0ffe6321b8595fd07994d1ab1bcc33f5935f1f",
+  "fetched_at": "2026-04-11T15:13:25Z",
+  "parser_version": "0.1.0"
+}

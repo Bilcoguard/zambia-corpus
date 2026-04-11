@@ -1,0 +1,23 @@
+{
+  "id": "act-zm-2013-015-the-value-added-tax-amendment-2013",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Value Added Tax (Amendment) 2013",
+  "citation": "Act No. 15 of 2013",
+  "enacted_date": "2013",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Full text",
+      "text": "[Empty PDF or scanned image - OCR needed]"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Value%20Added%20Tax%20%28Amendment%29%20Act%202013.PDF",
+  "source_hash": "sha256:59c9246832693255bb29b0ded7d572f2a2c2a0fdf8a13743f816df8d94d1af39",
+  "fetched_at": "2026-04-11T15:13:25Z",
+  "parser_version": "0.1.0"
+}

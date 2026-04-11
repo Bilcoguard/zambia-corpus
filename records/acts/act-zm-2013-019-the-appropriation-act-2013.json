@@ -1,0 +1,23 @@
+{
+  "id": "act-zm-2013-019-the-appropriation-act-2013",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Appropriation Act 2013",
+  "citation": "Act No. 19 of 2013",
+  "enacted_date": "2013",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Full text",
+      "text": "[Empty PDF or scanned image - OCR needed]"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Appropriation%20Act%202013.PDF",
+  "source_hash": "sha256:94164b82d406f0bb92fbca829a9269d2152d42d1c7d96afab8286aeea54226ce",
+  "fetched_at": "2026-04-11T15:13:25Z",
+  "parser_version": "0.1.0"
+}

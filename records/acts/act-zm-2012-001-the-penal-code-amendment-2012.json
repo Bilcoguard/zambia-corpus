@@ -1,0 +1,33 @@
+{
+  "id": "act-zm-2012-001-the-penal-code-amendment-2012",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Penal Code (Amendment) (2012)",
+  "citation": "Act No. 1 of 2012",
+  "enacted_date": "2012",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Penal Code (Amendment) Act, Short title",
+      "text": "1. This Act may be cited as the Penal Code (Amendment) Act, Short title\n2012, and shall be read as one with the Penal Code Act, in this Act Cap. 87\nreferred to as the principal Act."
+    },
+    {
+      "number": "2",
+      "heading": "The principal Act is amended by the repeal of section ninety- Repeal and",
+      "text": "2. The principal Act is amended by the repeal of section ninety- Repeal and\nnine and the substitution therefor of the following: replacement\nof section 99"
+    },
+    {
+      "number": "99",
+      "heading": "A prosecution for an offence under sections ninety- Consent of",
+      "text": "99. A prosecution for an offence under sections ninety- Consent of\nseven or ninety-eight shall not be instituted except by, or Director of\nPublic\nwith, the sanction of the Director of Public Prosecutions. Prosecutions\nSingle copies of this Act may be obtained from the Government Printer\nP.O. Box 30136, 10101 Lusaka. Price K1,000\n2"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Penal%20Code%28Amendment%29%20Act%202012.pdf",
+  "source_hash": "sha256:661bcfa6d3fde310b38eccd39b1740432892131051158b6dbd4ee6c4c01272ad",
+  "fetched_at": "2026-04-11T15:13:25Z",
+  "parser_version": "0.1.0"
+}
