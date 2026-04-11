@@ -1,0 +1,33 @@
+{
+  "id": "act-zm-2013-001-the-bank-of-zambia-amendment-2013",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Bank of Zambia (Amendment), 2013",
+  "citation": "Act No. 1 of 2013",
+  "enacted_date": "2013-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Bank of Zambia (Amendment) Short title",
+      "text": "Act, 2013, and shall be read as one with the Bank of Zambia Act, Cap. 360\nin this Act referred to as the principal Act."
+    },
+    {
+      "number": "2",
+      "heading": "The principal Act is amended by the insertion, immediately Insertion of",
+      "text": "new section\nafter section forty, of the following new section:\n40A\n40A. The Bank may, to promote the efficient operation of Monitoring\nof balance of\nthe foreign exchange system, take measures to monitor\u2014\npayments\n(a) foreign exchange inflows and outflows and amounts\nremitted;\n(b) imports and exports of goods and other inflows and\noutflows;\n(c) international transactions in services;\n(d) international transfers to or from non-residents;\n(e) profits or dividends received in respect of investments\nabroad;\n(f) borrowings and trade credits from non-residents;\n(g) investment in the form of equity and debt securities\nabroad;\n(h) receipts of both principal and interest on loans to\nnon-residents; and\n(i) international money transfers into and out of Zambia."
+    },
+    {
+      "number": "3",
+      "heading": "The principal Act is amended by the insertion, immediately Insertion of",
+      "text": "after section forty-four, of the following new section: new section\n44A\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K 1.00 each.\n2 No. 1 of 2013] Bank of Zambia (Amendment)\nInterest rates 44A.The Bank may, in support of price and financial system\nand other\nstability, regulate the rate of interest and other charges that\ncharges by\nfinancial financial service providers may impose on a banking\nservice transaction.\nproviders\nInsertion of 4. The principal Act is amended by the insertion, immediately\nnew section after section fifty-six, of the following new section:\n56A\nGeneral 56A. A person who commits an offence under this Act for\npenalty which no penalty is specifically provided is liable, upon\nconviction, to a fine not exceeding three million penalty units\nor to imprisonment for a term not exceeding five years, or to\nboth."
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/The%20Bank%20of%20Zambia%20Act%202013.pdf",
+  "source_hash": "sha256:7878594766f9409bb4142197ada7df3f356f8be4d1b3e257dfc6c9fc91b89996",
+  "fetched_at": "2026-04-11T14:57:08Z",
+  "parser_version": "0.1.0"
+}
