@@ -1,0 +1,34 @@
+{
+  "id": "act-zm-2024-006-matrimonial-causes-amendment-act-2024",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Matrimonial Causes (Amendment) Act, 2024",
+  "citation": "Act No. 6 of 2024",
+  "version_type": "as_enacted",
+  "in_force": null,
+  "amended_by": [],
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Matrimonial Causes Short title",
+      "body": "(Amendment) Act, 2024, and shall be read as one with the\nMatrimonial Causes Act, 2007, in this Act referred to as the principal Act No. 20\nof 2007\nAct.",
+      "page_start": 1
+    },
+    {
+      "number": "2",
+      "title": "Section 2(1) is amended by the insertion of the following",
+      "body": "Amendment\nnew definition in the appropriate place: of section 2\n“child” has the meaning assigned to the word in the Cap. 1\nConstitution;.",
+      "page_start": 1
+    },
+    {
+      "number": "3",
+      "title": "Section 27(1)(a) of the principal Act is amended by the Amendment",
+      "body": "of section 27\ndeletion of paragraph (ii) and the substitution therefor of the following:\n(ii) either party to the marriage was a child at the time the\nmarriage was celebrated;.\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K4.00 each.\n72",
+      "page_start": 1
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Matrimonial%20Causes%20Act%20No.%206%20of%202024.pdf",
+  "source_hash": "sha256:3b05ad7701931a83c5b2e6c95adcbbc856a5926d89fcc2969c235826735bab2e",
+  "fetched_at": "2026-04-11T05:04:45Z",
+  "parser_version": "0.3.0"
+}

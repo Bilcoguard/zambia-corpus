@@ -1,0 +1,28 @@
+{
+  "id": "act-zm-2024-005-zambia-institute-of-advanced-legal-education-amendment-act-2024",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Zambia Institute of Advanced Legal Education (Amendment) Act, 2024",
+  "citation": "Act No. 5 of 2024",
+  "version_type": "as_enacted",
+  "in_force": null,
+  "amended_by": [],
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Zambia Institute of Advanced Short title",
+      "body": "Legal Education (Amendment) Act, 2024, and shall be read as one\nwith the Zambia Institute of Advanced Legal Education Act, in Cap. 49\nthis Act referred to as the principal Act.",
+      "page_start": 1
+    },
+    {
+      "number": "2",
+      "title": "Section 4 (2) of the principal Act is amended by the — Amendment",
+      "body": "of Section 4\n(a) deletion of paragraph (g); and\n(b) renumbering of paragraphs (h), (i), (j), (k), (l), and (m) as\n(g), (h), (i), (j), (k), and (l), respectively.\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K 4.00 each.\n70",
+      "page_start": 1
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20ZIALE%20%28Amendment%29%2C%202024.pdf",
+  "source_hash": "sha256:4c00903aa9448f3dd449121c81c57b866e43291955c6ce9f500852b4caa7c15a",
+  "fetched_at": "2026-04-11T05:04:45Z",
+  "parser_version": "0.3.0"
+}

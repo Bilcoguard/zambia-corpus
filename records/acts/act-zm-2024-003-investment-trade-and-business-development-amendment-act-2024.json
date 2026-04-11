@@ -1,0 +1,34 @@
+{
+  "id": "act-zm-2024-003-investment-trade-and-business-development-amendment-act-2024",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Investment, Trade and Business Development (Amendment) Act, 2024",
+  "citation": "Act No. 3 of 2024",
+  "version_type": "as_enacted",
+  "in_force": null,
+  "amended_by": [],
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Investment, Trade and Business Short title",
+      "body": "Development (Amendment) Act, 2024, and shall be read as one\nwith the Investment, Trade and Business Development Act, 2022, Act No. 18\nin this Act referred to as the principal Act. of 2022",
+      "page_start": 1
+    },
+    {
+      "number": "2",
+      "title": "Section 2 of the principal Act is amended by — Amendment",
+      "body": "of section 2\n(a) the deletion of the definition of “rural area”; and\n(b) the insertion of the following new definition in the\nappropriate place:\n“expansion project’’ means a planned initiative for the\npurposes of increasing the size, capacity, scope or reach\nof business operations facilities or infrastructure;.",
+      "page_start": 1
+    },
+    {
+      "number": "3",
+      "title": "Section 30 of the principal Act is amended by the deletion Amendment",
+      "body": "of subsection (1) and the substitution therefor of the following: of section 30\n(1) An investor shall be eligible for incentives under this Act\nif that investor invests in a new project or expansion project in a\nspecial economic zone, priority sector, rural area or farm block.\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K4.00 each.\n48",
+      "page_start": 1
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/ACT%20No.%203%20OF%202024%2C%20THE%20INVESTMENT%2C%20TRADE%20AND%20BUSINESS%20DEVELOPMENT%20%28AMENDMENT%29.pdf",
+  "source_hash": "sha256:be6b656f83dd33914c3f712abe300fc0bcd7f7ca405128682d4c75abcfb133df",
+  "fetched_at": "2026-04-11T05:04:45Z",
+  "parser_version": "0.3.0"
+}
