@@ -1,0 +1,38 @@
+{
+  "id": "act-zm-2018-015",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Value Added Tax (Amendment) Act, 2018",
+  "citation": "Act No. 15 of 2018",
+  "year": 2018,
+  "act_number": 15,
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "(1) This Act may be cited as the Value Added Tax Shorttitle",
+      "text": "(Amendment)Act,2018,andshallbereadasonewiththeValue and\nCommence-\nAddedTaxAct,inthisActreferredtoastheprincipalAct. ment\n(2) ThisActshallcomeintooperationon1st January,2019. Cap.331"
+    },
+    {
+      "number": "2",
+      "heading": "Section2oftheprincipalActisamendedbythe— Amendment",
+      "text": "ofsection2\n(a)deletionofthedefinitionof“fiscalcashregister”;and\n(b)insertion of the following definitions in the appropriate\nplaces:\n“electronicfiscaldevice”meansanelectronicdevice,\napprovedbytheCommissioner-General,which\nhasafiscalmemorycapableofgeneratingand\nstoringfiscalinformationandhasthecapacity\nto generate or record tax invoices and other\nreports and is capable of transmitting invoice\ndatainrealtimetothetaxinvoicemanagement\nsystemoftheAuthority,andincludesafiscalised\nelectronic register, an electronic fiscal printer\nandanelectronicsignaturedevice;\n“electronicfiscalprinter”meansanelectronicdevice,\napprovedbytheCommissioner-General,which\niscapableofbeingconnectedtoapointofsale\ndevice to enable it to capture information for\ntaxpurposesandprintinginvoicesorotherfiscal\ninformationandallowthetransmission ofthe\ntransactiondatatotheAuthority;\nSinglecopiesofthisActmaybeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka,PriceK8.00each.\n314 No.15of 2018] Value Added Tax (Amendment)\n“electronic signature device” means an electronic\ndevice,approvedbytheCommissioner-General,\nwhichassignsauniqueelectronicsignatureand\ninvoicenumbertoatransactionissuedbyapoint\nof sale or related system and is capable of\ntransmittingthetransactionstotheAuthorityin\nrealtime;\n“fiscal memory” means a programmable read-only\nmemory permanently built into a fiscalised\nelectronic register or device to store tax\ninformation at the time of sale and is only\naccessed by the Authority or an authorised\nperson;and\n“fiscalisedelectronic register” means an electronic\ndevice,approvedbytheCommissioner-General,\nwhich has a fiscal memory to record and\ncalculate transactions for purposes of tax at a\npointofsaleandsecuresthetransactionsagainst\nunauthorisedmanipulationanddeletionandis\ncapableoftransmittingthetransactionsinreal\ntime or, where transactions cannot be\ntransmittedinrealtime,inbatchestotheinvoice\nmanagementsystemoftheAuthority;\nAmendment 3. Section10oftheprincipalActisamendedbytheinsertion\nofsection10 ofthefollowingnewsubsectionimmediatelyaftersubsection(7):\n(8) ForthepurposesofthisAct,thetaxablevalue—\n(a)whereacashdiscountisgranted,meansthevalueofthe\ntaxascertainablebasedontheundiscountedcashvalue;\nand\n(b)whereatradediscountisgranted,meansthevalueofthe\ntaxascertainablebasedonthediscountedprice.\nInsertionof 4. TheprincipalActisamendedbytheinsertionofthefollowing\nnewsection\nnewsectionimmediatelyaftersection46:\n46A\nOffences by 46A. WhereanoffenceunderthisActiscommittedbya\nprincipal bodycorporateorabodyunincorporate,withtheknowledge,\nofficers,\npartners or consent or connivance of the director, manager, partner or\nshareholders shareholderofthatbodycorporateorunincorporatebody,that\nofbodies\ncorporateor director,manager,partnerorshareholdercommitsanoffence\nbodies and is liable, on conviction, to the penalty or term of\nunincorporate\nimprisonmentspecifiedforthatoffence.\nValue Added Tax (Amendment) [No.15of 2018 315"
+    },
+    {
+      "number": "5",
+      "heading": "TheprincipalActisamendedbythedeletionofthewords General",
+      "text": "amendment\n“fiscal cash register” wherever they appear and the substitution\nthereforofthewords“electronicfiscaldevice”.\n316"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Value%20Added%20Tax%20%28Amendment%29%20Act%20No.%2015%20of%202018.pdf",
+  "source_hash": "sha256:33d615dbe6d706786ff7fb68e457f2419883d5a5640635ece6d00a785cca167d",
+  "fetched_at": "2026-04-11T11:35:54Z",
+  "parser_version": "0.4.0",
+  "raw_file": "act-zm-2018-015-the-value-added-tax-amendment-act-2018.pdf",
+  "node_url": "https://www.parliament.gov.zm/node/7847",
+  "batch": 39
+}
