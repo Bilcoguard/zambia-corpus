@@ -246,3 +246,8 @@ consider Government Gazette or direct MMMD/MoJ request).
 - No PDF on node page for 2011 Act No. 25 (https://www.parliament.gov.zm/node/3371)
 - No PDF on node page for 2011 Act No. 26 (https://www.parliament.gov.zm/node/3414)
 - No PDF on node page for 2011 Act No. 28 (https://www.parliament.gov.zm/node/3424)
+
+### Batch 0048 — 2011/2010/2009 Acts gaps (2026-04-11T16:36:29Z)
+- No PDF on node page for 2011 Excess Expenditure Appropriation Act
+- No PDF on node page for 2011 Mines and Minerals Development (Amendment) Act
+- 4 duplicate IDs detected and cleaned (slug variation with/without 'the-' prefix)

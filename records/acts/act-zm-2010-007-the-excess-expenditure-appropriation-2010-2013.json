@@ -1,0 +1,23 @@
+{
+  "id": "act-zm-2010-007-the-excess-expenditure-appropriation-2010-2013",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Excess Expenditure Appropriation (2010) (2013)",
+  "citation": "Act No. 7 of 2010",
+  "enacted_date": "2010-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "full",
+      "heading": "The Excess Expenditure Appropriation (2010) (2013)",
+      "text": "(scanned PDF \u2014 OCR required)"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Excess%20Expenditure%20Appropriation%20%282010%29%20Act.PDF",
+  "source_hash": "sha256:3c83d38b3d890678d76892851c98835f9fbb7dfa667ad9c7cd55f19cf6e00570",
+  "fetched_at": "2026-04-11T16:34:28Z",
+  "parser_version": "0.4.0"
+}
