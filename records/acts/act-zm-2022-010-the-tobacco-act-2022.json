@@ -1,0 +1,501 @@
+{
+  "id": "act-zm-2022-010-the-tobacco-act-2022",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Tobacco Act, 2022",
+  "citation": "Act No. 10 of 2022",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "1. Short title",
+      "text": "1. Short title"
+    },
+    {
+      "number": "2",
+      "heading": "2. Interpretation",
+      "text": "2. Interpretation"
+    },
+    {
+      "number": "3",
+      "heading": "3. Continuation of Tobacco Board of Zambia",
+      "text": "3. Continuation of Tobacco Board of Zambia"
+    },
+    {
+      "number": "4",
+      "heading": "4. Functions of Tobacco Board of Zambia",
+      "text": "4. Functions of Tobacco Board of Zambia"
+    },
+    {
+      "number": "5",
+      "heading": "5. Establishment of Board",
+      "text": "5. Establishment of Board"
+    },
+    {
+      "number": "6",
+      "heading": "6. Functions of Board",
+      "text": "6. Functions of Board"
+    },
+    {
+      "number": "7",
+      "heading": "7. Delegation of functions",
+      "text": "7. Delegation of functions"
+    },
+    {
+      "number": "8",
+      "heading": "8. Executive Director, Secretary and other staff",
+      "text": "8. Executive Director, Secretary and other staff"
+    },
+    {
+      "number": "9",
+      "heading": "9. Prohibition of growing tobacco without certificate",
+      "text": "9. Prohibition of growing tobacco without certificate"
+    },
+    {
+      "number": "10",
+      "heading": "10. Registration of growers",
+      "text": "10. Registration of growers"
+    },
+    {
+      "number": "11",
+      "heading": "11. Certificate of Registration",
+      "text": "11. Certificate of Registration"
+    },
+    {
+      "number": "12",
+      "heading": "12. Allotment of registered number to grower",
+      "text": "12. Allotment of registered number to grower"
+    },
+    {
+      "number": "13",
+      "heading": "13. Prohibition against disclosure of allotment number",
+      "text": "13. Prohibition against disclosure of allotment number"
+    },
+    {
+      "number": "14",
+      "heading": "14. Suspension or revocation of registration",
+      "text": "14. Suspension or revocation of registration"
+    },
+    {
+      "number": "15",
+      "heading": "15. Duration of certificate of registration",
+      "text": "15. Duration of certificate of registration"
+    },
+    {
+      "number": "16",
+      "heading": "16. Returns by grower",
+      "text": "16. Returns by grower"
+    },
+    {
+      "number": "17",
+      "heading": "17. Register of growers",
+      "text": "17. Register of growers"
+    },
+    {
+      "number": "18",
+      "heading": "18. Prohibition to grade, buy or use premises to sell tobacco",
+      "text": "18. Prohibition to grade, buy or use premises to sell tobacco"
+    },
+    {
+      "number": "19",
+      "heading": "19. Application to operate as grader, buyer or use premises",
+      "text": "19. Application to operate as grader, buyer or use premises"
+    },
+    {
+      "number": "20",
+      "heading": "20. Suspension or revocation of licence",
+      "text": "20. Suspension or revocation of licence"
+    },
+    {
+      "number": "21",
+      "heading": "21. Period of validity of licence",
+      "text": "21. Period of validity of licence"
+    },
+    {
+      "number": "22",
+      "heading": "22. Renewal of licence",
+      "text": "22. Renewal of licence"
+    },
+    {
+      "number": "23",
+      "heading": "23. Exemption to use sales floor without licence",
+      "text": "23. Exemption to use sales floor without licence"
+    },
+    {
+      "number": "24",
+      "heading": "24. Prohibition of buying or selling at unlicensed sales floor",
+      "text": "24. Prohibition of buying or selling at unlicensed sales floor"
+    },
+    {
+      "number": "26",
+      "heading": "26. Holder of sales floor licence to sell tobacco of grower",
+      "text": "26. Holder of sales floor licence to sell tobacco of grower"
+    },
+    {
+      "number": "27",
+      "heading": "27. Delivery in excess of marketing quota",
+      "text": "27. Delivery in excess of marketing quota"
+    },
+    {
+      "number": "28",
+      "heading": "28. Import of saleable tobacco for sale in Republic",
+      "text": "28. Import of saleable tobacco for sale in Republic"
+    },
+    {
+      "number": "29",
+      "heading": "29. Duties of holder of licence of sales floor on sale of",
+      "text": "29. Duties of holder of licence of sales floor on sale of"
+    },
+    {
+      "number": "30",
+      "heading": "30. Sale of saleable tobacco grown in earlier season",
+      "text": "30. Sale of saleable tobacco grown in earlier season"
+    },
+    {
+      "number": "31",
+      "heading": "31. Saleable tobacco to be sold on sales days in the selling",
+      "text": "31. Saleable tobacco to be sold on sales days in the selling"
+    },
+    {
+      "number": "32",
+      "heading": "32. Weighing, selling and commission charges of holder",
+      "text": "32. Weighing, selling and commission charges of holder"
+    },
+    {
+      "number": "33",
+      "heading": "33. Deductions from purchase price of saleable tobacco",
+      "text": "33. Deductions from purchase price of saleable tobacco"
+    },
+    {
+      "number": "34",
+      "heading": "34. Notice to remove tobacco from licensed sales floor",
+      "text": "34. Notice to remove tobacco from licensed sales floor"
+    },
+    {
+      "number": "35",
+      "heading": "35. Tobacco Board of Zambia to dispose of surplus or",
+      "text": "35. Tobacco Board of Zambia to dispose of surplus or"
+    },
+    {
+      "number": "36",
+      "heading": "36. Appointment and functions of sales supervisors",
+      "text": "36. Appointment and functions of sales supervisors"
+    },
+    {
+      "number": "37",
+      "heading": "37. Saleable tobacco by auction",
+      "text": "37. Saleable tobacco by auction"
+    },
+    {
+      "number": "38",
+      "heading": "38. Prohibition against manufacture or keeping of saleable",
+      "text": "38. Prohibition against manufacture or keeping of saleable"
+    },
+    {
+      "number": "39",
+      "heading": "39. Variety of tobacco to be grown or sold",
+      "text": "39. Variety of tobacco to be grown or sold"
+    },
+    {
+      "number": "40",
+      "heading": "40. Prohibition against growing or selling tobacco not of",
+      "text": "40. Prohibition against growing or selling tobacco not of"
+    },
+    {
+      "number": "41",
+      "heading": "41. Inspectors",
+      "text": "41. Inspectors"
+    },
+    {
+      "number": "42",
+      "heading": "42. Powers of Inspectors",
+      "text": "42. Powers of Inspectors"
+    },
+    {
+      "number": "43",
+      "heading": "43. Arrest without warrant",
+      "text": "43. Arrest without warrant"
+    },
+    {
+      "number": "44",
+      "heading": "44. Seizure of property",
+      "text": "44. Seizure of property"
+    },
+    {
+      "number": "45",
+      "heading": "45. Restoration of property",
+      "text": "45. Restoration of property"
+    },
+    {
+      "number": "46",
+      "heading": "46. Leviable tobacco",
+      "text": "46. Leviable tobacco"
+    },
+    {
+      "number": "47",
+      "heading": "47. Imposition of levy",
+      "text": "47. Imposition of levy"
+    },
+    {
+      "number": "48",
+      "heading": "48. Payment of levy",
+      "text": "48. Payment of levy"
+    },
+    {
+      "number": "49",
+      "heading": "49. Collection and remittance of levy",
+      "text": "49. Collection and remittance of levy"
+    },
+    {
+      "number": "50",
+      "heading": "50. Establishment of Fund",
+      "text": "50. Establishment of Fund"
+    },
+    {
+      "number": "51",
+      "heading": "51. Administration of Fund and accounts",
+      "text": "51. Administration of Fund and accounts"
+    },
+    {
+      "number": "52",
+      "heading": "52. Annual report",
+      "text": "52. Annual report"
+    },
+    {
+      "number": "53",
+      "heading": "53. Appeals",
+      "text": "53. Appeals"
+    },
+    {
+      "number": "54",
+      "heading": "54. Establishment of pool",
+      "text": "54. Establishment of pool"
+    },
+    {
+      "number": "55",
+      "heading": "55. General offences",
+      "text": "55. General offences"
+    },
+    {
+      "number": "56",
+      "heading": "56. General penalty",
+      "text": "56. General penalty"
+    },
+    {
+      "number": "57",
+      "heading": "57. Regulations",
+      "text": "57. Regulations"
+    },
+    {
+      "number": "58",
+      "heading": "58. Repeal of Cap. 237 and 238",
+      "text": "58. Repeal of Cap. 237 and 238"
+    },
+    {
+      "number": "1",
+      "heading": "1. This Act may be cited as the Tobacco Act, 2022. Short title",
+      "text": "1. This Act may be cited as the Tobacco Act, 2022. Short title"
+    },
+    {
+      "number": "2",
+      "heading": "2. In this Act, unless the context otherwise requires— Interpretation",
+      "text": "2. In this Act, unless the context otherwise requires— Interpretation"
+    },
+    {
+      "number": "5",
+      "heading": "5. (1) There is constituted a Board of the Tobacco Board of Establishment",
+      "text": "5. (1) There is constituted a Board of the Tobacco Board of Establishment"
+    },
+    {
+      "number": "8",
+      "heading": "8. (1) The Board shall appoint an Executive Director who Executive",
+      "text": "8. (1) The Board shall appoint an Executive Director who Executive"
+    },
+    {
+      "number": "9",
+      "heading": "9. (1) A person shall not grow tobacco for purposes of sale Prohibition",
+      "text": "9. (1) A person shall not grow tobacco for purposes of sale Prohibition"
+    },
+    {
+      "number": "10",
+      "heading": "10. (1) Subject to the provisions of this section, a person Registration",
+      "text": "10. (1) Subject to the provisions of this section, a person Registration"
+    },
+    {
+      "number": "13",
+      "heading": "13. (1) A person shall not disclose to another person the",
+      "text": "13. (1) A person shall not disclose to another person the"
+    },
+    {
+      "number": "14",
+      "heading": "14. (1) Subject to this Act or any other written law, the Suspension",
+      "text": "14. (1) Subject to this Act or any other written law, the Suspension"
+    },
+    {
+      "number": "18",
+      "heading": "18. (1) A person shall not carry on business as a grader, Prohibition",
+      "text": "18. (1) A person shall not carry on business as a grader, Prohibition"
+    },
+    {
+      "number": "19",
+      "heading": "19. (1) A person who intends to carry on business as a grader, Application",
+      "text": "19. (1) A person who intends to carry on business as a grader, Application"
+    },
+    {
+      "number": "21",
+      "heading": "21. A licence issued by the Tobacco Board of Zambia under Period of",
+      "text": "21. A licence issued by the Tobacco Board of Zambia under Period of"
+    },
+    {
+      "number": "22",
+      "heading": "22. (1) A holder of a licence issued under this Part may, Renewal of",
+      "text": "22. (1) A holder of a licence issued under this Part may, Renewal of"
+    },
+    {
+      "number": "23",
+      "heading": "23. (1) The Tobacco Board of Zambia may use any Exemption to",
+      "text": "23. (1) The Tobacco Board of Zambia may use any Exemption to"
+    },
+    {
+      "number": "24",
+      "heading": "24. (1) A person shall not sell or buy saleable tobacco on an Prohibition of",
+      "text": "24. (1) A person shall not sell or buy saleable tobacco on an Prohibition of"
+    },
+    {
+      "number": "29",
+      "heading": "29. (1) A holder of a sales floor licence or an agent of a Duties of",
+      "text": "29. (1) A holder of a sales floor licence or an agent of a Duties of"
+    },
+    {
+      "number": "30",
+      "heading": "30. (1) A grower who holds a permit issued under section Sale of",
+      "text": "30. (1) A grower who holds a permit issued under section Sale of"
+    },
+    {
+      "number": "33",
+      "heading": "33. (1) A buyer of saleable tobacco on a licensed sales floor Deductions",
+      "text": "33. (1) A buyer of saleable tobacco on a licensed sales floor Deductions"
+    },
+    {
+      "number": "34",
+      "heading": "34. (1) The Tobacco Board of Zambia may give notice, in Notice to",
+      "text": "34. (1) The Tobacco Board of Zambia may give notice, in Notice to"
+    },
+    {
+      "number": "35",
+      "heading": "35. (1) The Tobacco Board of Zambia shall, where a grower",
+      "text": "35. (1) The Tobacco Board of Zambia shall, where a grower"
+    },
+    {
+      "number": "37",
+      "heading": "37. The Minister shall, by statutory instrument, prescribe the Saleable",
+      "text": "37. The Minister shall, by statutory instrument, prescribe the Saleable"
+    },
+    {
+      "number": "38",
+      "heading": "38. (1) A person shall not, without the authority, in writing, Prohibition",
+      "text": "38. (1) A person shall not, without the authority, in writing, Prohibition"
+    },
+    {
+      "number": "39",
+      "heading": "39. (1) Subject to the Plant Variety and Seeds Act, the Variety of",
+      "text": "39. (1) Subject to the Plant Variety and Seeds Act, the Variety of"
+    },
+    {
+      "number": "40",
+      "heading": "40. (1) A person commits an offence if that person grows Prohibition",
+      "text": "40. (1) A person commits an offence if that person grows Prohibition"
+    },
+    {
+      "number": "46",
+      "heading": "46. The Minister may, in consultation with the Tobacco Board Leviable",
+      "text": "46. The Minister may, in consultation with the Tobacco Board Leviable"
+    },
+    {
+      "number": "47",
+      "heading": "47. Subject to the provisions of this Act, a levy shall be Imposition",
+      "text": "47. Subject to the provisions of this Act, a levy shall be Imposition"
+    },
+    {
+      "number": "48",
+      "heading": "48. (1) Subject to subsection (3), a grower shall pay to the Payment of",
+      "text": "48. (1) Subject to subsection (3), a grower shall pay to the Payment of"
+    },
+    {
+      "number": "51",
+      "heading": "51. (1) The Minister may, by statutory instrument, on the",
+      "text": "51. (1) The Minister may, by statutory instrument, on the"
+    },
+    {
+      "number": "52",
+      "heading": "52. (1) As soon as practicable, but not later than ninety days Annual",
+      "text": "52. (1) As soon as practicable, but not later than ninety days Annual"
+    },
+    {
+      "number": "56",
+      "heading": "56. A person who commits an offence under this Act for which General",
+      "text": "56. A person who commits an offence under this Act for which General"
+    },
+    {
+      "number": "57",
+      "heading": "57. (1) The Minister may, by statutory instrument, make Regulations",
+      "text": "57. (1) The Minister may, by statutory instrument, make Regulations"
+    },
+    {
+      "number": "58",
+      "heading": "58. (1) The Tobacco Act, 1967 and the Tobacco Levy Act, Repeal of",
+      "text": "58. (1) The Tobacco Act, 1967 and the Tobacco Levy Act, Repeal of"
+    },
+    {
+      "number": "2",
+      "heading": "2. (1) A member of the Board shall, subject to the other",
+      "text": "2. (1) A member of the Board shall, subject to the other"
+    },
+    {
+      "number": "3",
+      "heading": "3. (1) Subject to the other provisions of this Act, the Board Proceedings",
+      "text": "3. (1) Subject to the other provisions of this Act, the Board Proceedings"
+    },
+    {
+      "number": "8",
+      "heading": "8. (1) A person shall not, without the consent in writing",
+      "text": "8. (1) A person shall not, without the consent in writing"
+    },
+    {
+      "number": "9",
+      "heading": "9. (1) The Funds of the Tobacco Board of Zambia shall Funds of",
+      "text": "9. (1) The Funds of the Tobacco Board of Zambia shall Funds of"
+    },
+    {
+      "number": "1",
+      "heading": "1. In this Schedule “former Tobacco Board of Zambia”",
+      "text": "1. In this Schedule “former Tobacco Board of Zambia”"
+    },
+    {
+      "number": "2",
+      "heading": "2. (1) For the avoidance of doubt, a person who, before",
+      "text": "2. (1) For the avoidance of doubt, a person who, before"
+    },
+    {
+      "number": "3",
+      "heading": "3. (1) On or after this Act comes into force, there shall be",
+      "text": "3. (1) On or after this Act comes into force, there shall be"
+    },
+    {
+      "number": "4",
+      "heading": "4. (1) Any legal proceedings or applications of the former Legal",
+      "text": "4. (1) Any legal proceedings or applications of the former Legal"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/ACT%20No.%2010%20OF%202022%2C%20THE%20TOBACCO%20ACT.pdf",
+  "source_hash": "sha256:0656812b133d237f4e85bf5f17a298a2762494270550afde08ed310cd2117d24",
+  "fetched_at": "2026-04-11T03:04:48Z",
+  "parser_version": "0.4.0",
+  "notes": null
+}

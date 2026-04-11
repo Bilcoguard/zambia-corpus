@@ -1,0 +1,2301 @@
+{
+  "id": "act-zm-2022-012-the-childrens-code-act-2022",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Children’s Code Act, 2022",
+  "citation": "Act No. 12 of 2022",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "1. Short title",
+      "text": "1. Short title"
+    },
+    {
+      "number": "2",
+      "heading": "2. Interpretation",
+      "text": "2. Interpretation"
+    },
+    {
+      "number": "3",
+      "heading": "3. Best interest of child",
+      "text": "3. Best interest of child"
+    },
+    {
+      "number": "4",
+      "heading": "4. Principles in achieving children’s rights",
+      "text": "4. Principles in achieving children’s rights"
+    },
+    {
+      "number": "5",
+      "heading": "5. Right to survival and development",
+      "text": "5. Right to survival and development"
+    },
+    {
+      "number": "6",
+      "heading": "6. Right to expression",
+      "text": "6. Right to expression"
+    },
+    {
+      "number": "7",
+      "heading": "7. Prohibition of discrimination against child",
+      "text": "7. Prohibition of discrimination against child"
+    },
+    {
+      "number": "8",
+      "heading": "8. Right to name and nationality",
+      "text": "8. Right to name and nationality"
+    },
+    {
+      "number": "9",
+      "heading": "9. Right to parental care",
+      "text": "9. Right to parental care"
+    },
+    {
+      "number": "10",
+      "heading": "10. Right to education",
+      "text": "10. Right to education"
+    },
+    {
+      "number": "11",
+      "heading": "11. Right to health care",
+      "text": "11. Right to health care"
+    },
+    {
+      "number": "12",
+      "heading": "12. Right to social protection and social services",
+      "text": "12. Right to social protection and social services"
+    },
+    {
+      "number": "13",
+      "heading": "13. Protection from child labour",
+      "text": "13. Protection from child labour"
+    },
+    {
+      "number": "14",
+      "heading": "14. Protection from armed conflict",
+      "text": "14. Protection from armed conflict"
+    },
+    {
+      "number": "15",
+      "heading": "15. Child with disability",
+      "text": "15. Child with disability"
+    },
+    {
+      "number": "16",
+      "heading": "16. Protection of child on move",
+      "text": "16. Protection of child on move"
+    },
+    {
+      "number": "17",
+      "heading": "17. Protection from maltreatment and other forms of exploitation",
+      "text": "17. Protection from maltreatment and other forms of exploitation"
+    },
+    {
+      "number": "18",
+      "heading": "18. Protection from female genital mutilation, child marriage, etc.",
+      "text": "18. Protection from female genital mutilation, child marriage, etc."
+    },
+    {
+      "number": "19",
+      "heading": "19. Protection from sexual exploitation",
+      "text": "19. Protection from sexual exploitation"
+    },
+    {
+      "number": "20",
+      "heading": "20. Protection from hallucinogens, alcohol, tobacco products, drugs and",
+      "text": "20. Protection from hallucinogens, alcohol, tobacco products, drugs and"
+    },
+    {
+      "number": "21",
+      "heading": "21. Right to leisure and recreation",
+      "text": "21. Right to leisure and recreation"
+    },
+    {
+      "number": "22",
+      "heading": "22. Protection from corporal punishment",
+      "text": "22. Protection from corporal punishment"
+    },
+    {
+      "number": "23",
+      "heading": "23. Protection from torture and deprivation of liberty",
+      "text": "23. Protection from torture and deprivation of liberty"
+    },
+    {
+      "number": "24",
+      "heading": "24. Right to privacy",
+      "text": "24. Right to privacy"
+    },
+    {
+      "number": "25",
+      "heading": "25. Rights of child witness or child victim",
+      "text": "25. Rights of child witness or child victim"
+    },
+    {
+      "number": "26",
+      "heading": "26. Duties and responsibilities of child",
+      "text": "26. Duties and responsibilities of child"
+    },
+    {
+      "number": "27",
+      "heading": "27. Sanction for infringement of rights of child",
+      "text": "27. Sanction for infringement of rights of child"
+    },
+    {
+      "number": "28",
+      "heading": "28. Enforcement of rights of child",
+      "text": "28. Enforcement of rights of child"
+    },
+    {
+      "number": "29",
+      "heading": "29. Child Development Department",
+      "text": "29. Child Development Department"
+    },
+    {
+      "number": "30",
+      "heading": "30. Director of Child Development, child development officers and other staff",
+      "text": "30. Director of Child Development, child development officers and other staff"
+    },
+    {
+      "number": "31",
+      "heading": "31. Functions of Director of Child Development",
+      "text": "31. Functions of Director of Child Development"
+    },
+    {
+      "number": "32",
+      "heading": "32. Social Welfare Department",
+      "text": "32. Social Welfare Department"
+    },
+    {
+      "number": "33",
+      "heading": "33. Director of Social Welfare, child welfare inspectors and probation officers",
+      "text": "33. Director of Social Welfare, child welfare inspectors and probation officers"
+    },
+    {
+      "number": "34",
+      "heading": "34. Functions of Director of Social Welfare",
+      "text": "34. Functions of Director of Social Welfare"
+    },
+    {
+      "number": "35",
+      "heading": "35. Powers of child development officer and child welfare inspector",
+      "text": "35. Powers of child development officer and child welfare inspector"
+    },
+    {
+      "number": "36",
+      "heading": "36. National Coordination Committee for Children",
+      "text": "36. National Coordination Committee for Children"
+    },
+    {
+      "number": "37",
+      "heading": "37. Immunity",
+      "text": "37. Immunity"
+    },
+    {
+      "number": "38",
+      "heading": "38. Parental responsibility",
+      "text": "38. Parental responsibility"
+    },
+    {
+      "number": "39",
+      "heading": "39. Person with parental responsibility",
+      "text": "39. Person with parental responsibility"
+    },
+    {
+      "number": "40",
+      "heading": "40. Acquisition of parental responsibility by father",
+      "text": "40. Acquisition of parental responsibility by father"
+    },
+    {
+      "number": "41",
+      "heading": "41. Parental responsibility agreement",
+      "text": "41. Parental responsibility agreement"
+    },
+    {
+      "number": "42",
+      "heading": "42. Transmission of parental responsibility",
+      "text": "42. Transmission of parental responsibility"
+    },
+    {
+      "number": "43",
+      "heading": "43. Extension of parental responsibility beyond nineteenth birthday",
+      "text": "43. Extension of parental responsibility beyond nineteenth birthday"
+    },
+    {
+      "number": "44",
+      "heading": "44. Failure to exercise parental responsibility",
+      "text": "44. Failure to exercise parental responsibility"
+    },
+    {
+      "number": "45",
+      "heading": "45. Age of criminal responsibility of child",
+      "text": "45. Age of criminal responsibility of child"
+    },
+    {
+      "number": "46",
+      "heading": "46. Rights of child during apprehension",
+      "text": "46. Rights of child during apprehension"
+    },
+    {
+      "number": "47",
+      "heading": "47. Apprehension of child",
+      "text": "47. Apprehension of child"
+    },
+    {
+      "number": "48",
+      "heading": "48. Apprehension by person",
+      "text": "48. Apprehension by person"
+    },
+    {
+      "number": "49",
+      "heading": "49. Apprehension and arrest by law enforcement officer",
+      "text": "49. Apprehension and arrest by law enforcement officer"
+    },
+    {
+      "number": "50",
+      "heading": "50. Information of arrest of child",
+      "text": "50. Information of arrest of child"
+    },
+    {
+      "number": "51",
+      "heading": "51. Issuance of warrant of arrest",
+      "text": "51. Issuance of warrant of arrest"
+    },
+    {
+      "number": "52",
+      "heading": "52. Notification of reason for arrest or substance of warrant",
+      "text": "52. Notification of reason for arrest or substance of warrant"
+    },
+    {
+      "number": "53",
+      "heading": "53. Search of arrested child",
+      "text": "53. Search of arrested child"
+    },
+    {
+      "number": "54",
+      "heading": "54. Caution by law enforcement officer",
+      "text": "54. Caution by law enforcement officer"
+    },
+    {
+      "number": "55",
+      "heading": "55. Interview of child",
+      "text": "55. Interview of child"
+    },
+    {
+      "number": "56",
+      "heading": "56. Recognisance",
+      "text": "56. Recognisance"
+    },
+    {
+      "number": "57",
+      "heading": "57. Custody of child",
+      "text": "57. Custody of child"
+    },
+    {
+      "number": "58",
+      "heading": "58. Diversion option",
+      "text": "58. Diversion option"
+    },
+    {
+      "number": "59",
+      "heading": "59. Conditions of diversion",
+      "text": "59. Conditions of diversion"
+    },
+    {
+      "number": "60",
+      "heading": "60. Failure to comply with diversion option",
+      "text": "60. Failure to comply with diversion option"
+    },
+    {
+      "number": "61",
+      "heading": "61. Requirements for diversion programme",
+      "text": "61. Requirements for diversion programme"
+    },
+    {
+      "number": "62",
+      "heading": "62. Prohibition of provision of diversion programme without accreditation",
+      "text": "62. Prohibition of provision of diversion programme without accreditation"
+    },
+    {
+      "number": "63",
+      "heading": "63. Application for accreditation of diversion programme",
+      "text": "63. Application for accreditation of diversion programme"
+    },
+    {
+      "number": "64",
+      "heading": "64. Suspension or revocation of accreditation of diversion programme",
+      "text": "64. Suspension or revocation of accreditation of diversion programme"
+    },
+    {
+      "number": "65",
+      "heading": "65. Constitution of juvenile court",
+      "text": "65. Constitution of juvenile court"
+    },
+    {
+      "number": "66",
+      "heading": "66. Jurisdiction of juvenile court",
+      "text": "66. Jurisdiction of juvenile court"
+    },
+    {
+      "number": "67",
+      "heading": "67. Jurisdiction of Children’s Court",
+      "text": "67. Jurisdiction of Children’s Court"
+    },
+    {
+      "number": "68",
+      "heading": "68. Sittings of juvenile court or Children’s Court",
+      "text": "68. Sittings of juvenile court or Children’s Court"
+    },
+    {
+      "number": "69",
+      "heading": "69. Prohibition of other courts hearing charge or matter against child",
+      "text": "69. Prohibition of other courts hearing charge or matter against child"
+    },
+    {
+      "number": "70",
+      "heading": "70. Remission of child to Children’s Court",
+      "text": "70. Remission of child to Children’s Court"
+    },
+    {
+      "number": "71",
+      "heading": "71. Presumption and determination of age",
+      "text": "71. Presumption and determination of age"
+    },
+    {
+      "number": "72",
+      "heading": "72. Guarantees to child in conflict with the law",
+      "text": "72. Guarantees to child in conflict with the law"
+    },
+    {
+      "number": "73",
+      "heading": "73. Appearance of child in a juvenile court or children’s Court and bail",
+      "text": "73. Appearance of child in a juvenile court or children’s Court and bail"
+    },
+    {
+      "number": "74",
+      "heading": "74. Procedure in court",
+      "text": "74. Procedure in court"
+    },
+    {
+      "number": "75",
+      "heading": "75. Remand of apprehended child during trial",
+      "text": "75. Remand of apprehended child during trial"
+    },
+    {
+      "number": "76",
+      "heading": "76. Social welfare report of child",
+      "text": "76. Social welfare report of child"
+    },
+    {
+      "number": "77",
+      "heading": "77. Parent, guardian to give security",
+      "text": "77. Parent, guardian to give security"
+    },
+    {
+      "number": "78",
+      "heading": "78. Evidence of child",
+      "text": "78. Evidence of child"
+    },
+    {
+      "number": "79",
+      "heading": "79. Methods of dealing with child in conflict with law",
+      "text": "79. Methods of dealing with child in conflict with law"
+    },
+    {
+      "number": "80",
+      "heading": "80. Payment of fine by parent, guardian or person having parental responsibility",
+      "text": "80. Payment of fine by parent, guardian or person having parental responsibility"
+    },
+    {
+      "number": "81",
+      "heading": "81. General principles with regard to proceedings in a juvenile court or",
+      "text": "81. General principles with regard to proceedings in a juvenile court or"
+    },
+    {
+      "number": "82",
+      "heading": "82. Presence of child welfare inspector or authorised officer",
+      "text": "82. Presence of child welfare inspector or authorised officer"
+    },
+    {
+      "number": "83",
+      "heading": "83. Reports",
+      "text": "83. Reports"
+    },
+    {
+      "number": "84",
+      "heading": "84. Programmes for combating crime and rendering probation services",
+      "text": "84. Programmes for combating crime and rendering probation services"
+    },
+    {
+      "number": "85",
+      "heading": "85. Functions of probation officer",
+      "text": "85. Functions of probation officer"
+    },
+    {
+      "number": "86",
+      "heading": "86. Powers of probation officer",
+      "text": "86. Powers of probation officer"
+    },
+    {
+      "number": "87",
+      "heading": "87. Probation order",
+      "text": "87. Probation order"
+    },
+    {
+      "number": "88",
+      "heading": "88. Contents of probation order",
+      "text": "88. Contents of probation order"
+    },
+    {
+      "number": "89",
+      "heading": "89. Submission of child to treatment of mental condition",
+      "text": "89. Submission of child to treatment of mental condition"
+    },
+    {
+      "number": "90",
+      "heading": "90. Copies of orders",
+      "text": "90. Copies of orders"
+    },
+    {
+      "number": "91",
+      "heading": "91. Failure of probationer to comply with probation order",
+      "text": "91. Failure of probationer to comply with probation order"
+    },
+    {
+      "number": "92",
+      "heading": "92. Commission of further offences by probationer",
+      "text": "92. Commission of further offences by probationer"
+    },
+    {
+      "number": "93",
+      "heading": "93. Effect of finding of guilty where probation order made",
+      "text": "93. Effect of finding of guilty where probation order made"
+    },
+    {
+      "number": "94",
+      "heading": "94. Amendment of probation order",
+      "text": "94. Amendment of probation order"
+    },
+    {
+      "number": "95",
+      "heading": "95. Discharge of probation orders",
+      "text": "95. Discharge of probation orders"
+    },
+    {
+      "number": "96",
+      "heading": "96. Reform children",
+      "text": "96. Reform children"
+    },
+    {
+      "number": "97",
+      "heading": "97. Probation Committee",
+      "text": "97. Probation Committee"
+    },
+    {
+      "number": "98",
+      "heading": "98. Establishment of child approved centre",
+      "text": "98. Establishment of child approved centre"
+    },
+    {
+      "number": "99",
+      "heading": "99. Child reformatory centre and child transit centre",
+      "text": "99. Child reformatory centre and child transit centre"
+    },
+    {
+      "number": "100",
+      "heading": "100. Child approved centre order and reformatory centre order",
+      "text": "100. Child approved centre order and reformatory centre order"
+    },
+    {
+      "number": "101",
+      "heading": "101. Contents of child approved centre order and child reformatory centre",
+      "text": "101. Contents of child approved centre order and child reformatory centre"
+    },
+    {
+      "number": "102",
+      "heading": "102. Conveyance to child approved centre and child reformatory centre",
+      "text": "102. Conveyance to child approved centre and child reformatory centre"
+    },
+    {
+      "number": "103",
+      "heading": "103. Duration of custody in child approved centre or child reformatory centre",
+      "text": "103. Duration of custody in child approved centre or child reformatory centre"
+    },
+    {
+      "number": "104",
+      "heading": "104. Extension of period of custody in child approved centre or child",
+      "text": "104. Extension of period of custody in child approved centre or child"
+    },
+    {
+      "number": "105",
+      "heading": "105. Harbouring or concealing child",
+      "text": "105. Harbouring or concealing child"
+    },
+    {
+      "number": "106",
+      "heading": "106. Penalty for escape or absence from child approved centre, child",
+      "text": "106. Penalty for escape or absence from child approved centre, child"
+    },
+    {
+      "number": "107",
+      "heading": "107. Separation of incorrigibles",
+      "text": "107. Separation of incorrigibles"
+    },
+    {
+      "number": "108",
+      "heading": "108. Power to release on permit",
+      "text": "108. Power to release on permit"
+    },
+    {
+      "number": "109",
+      "heading": "109. Revocation or forfeiture of permit",
+      "text": "109. Revocation or forfeiture of permit"
+    },
+    {
+      "number": "110",
+      "heading": "110. Supervision after expiration of term of custody",
+      "text": "110. Supervision after expiration of term of custody"
+    },
+    {
+      "number": "111",
+      "heading": "111. Contributions for maintenance of child",
+      "text": "111. Contributions for maintenance of child"
+    },
+    {
+      "number": "112",
+      "heading": "112. Production of child",
+      "text": "112. Production of child"
+    },
+    {
+      "number": "113",
+      "heading": "113. Expunge of record of finding of guilty and order",
+      "text": "113. Expunge of record of finding of guilty and order"
+    },
+    {
+      "number": "114",
+      "heading": "114. International reciprocity",
+      "text": "114. International reciprocity"
+    },
+    {
+      "number": "115",
+      "heading": "115. Appeal against child approved centre order or child reformatory centre",
+      "text": "115. Appeal against child approved centre order or child reformatory centre"
+    },
+    {
+      "number": "116",
+      "heading": "116. Application by child’s mother",
+      "text": "116. Application by child’s mother"
+    },
+    {
+      "number": "117",
+      "heading": "117. Application by party to void marriage",
+      "text": "117. Application by party to void marriage"
+    },
+    {
+      "number": "118",
+      "heading": "118. Application by child",
+      "text": "118. Application by child"
+    },
+    {
+      "number": "119",
+      "heading": "119. Corroboration of evidence",
+      "text": "119. Corroboration of evidence"
+    },
+    {
+      "number": "120",
+      "heading": "120. Order of unfitness for custody",
+      "text": "120. Order of unfitness for custody"
+    },
+    {
+      "number": "121",
+      "heading": "121. Equal status of children",
+      "text": "121. Equal status of children"
+    },
+    {
+      "number": "122",
+      "heading": "122. Presumption of parenthood of child born during marriage",
+      "text": "122. Presumption of parenthood of child born during marriage"
+    },
+    {
+      "number": "123",
+      "heading": "123. Recognition of paternity in case of succession",
+      "text": "123. Recognition of paternity in case of succession"
+    },
+    {
+      "number": "124",
+      "heading": "124. Evidence and proof of paternity",
+      "text": "124. Evidence and proof of paternity"
+    },
+    {
+      "number": "125",
+      "heading": "125. Filing of instruments of acknowledgement",
+      "text": "125. Filing of instruments of acknowledgement"
+    },
+    {
+      "number": "126",
+      "heading": "126. Use of paternity test",
+      "text": "126. Use of paternity test"
+    },
+    {
+      "number": "127",
+      "heading": "127. Consent for taking of samples",
+      "text": "127. Consent for taking of samples"
+    },
+    {
+      "number": "128",
+      "heading": "128. Impersonating another person for purpose of paternity test",
+      "text": "128. Impersonating another person for purpose of paternity test"
+    },
+    {
+      "number": "129",
+      "heading": "129. Presumptions regarding maintenance of children",
+      "text": "129. Presumptions regarding maintenance of children"
+    },
+    {
+      "number": "130",
+      "heading": "130. Maintenance of affiliated child",
+      "text": "130. Maintenance of affiliated child"
+    },
+    {
+      "number": "131",
+      "heading": "131. Types of maintenance orders",
+      "text": "131. Types of maintenance orders"
+    },
+    {
+      "number": "132",
+      "heading": "132. Matters for consideration when making maintenance order",
+      "text": "132. Matters for consideration when making maintenance order"
+    },
+    {
+      "number": "133",
+      "heading": "133. Financial provision by step-parent of child",
+      "text": "133. Financial provision by step-parent of child"
+    },
+    {
+      "number": "134",
+      "heading": "134. Duration of maintenance order",
+      "text": "134. Duration of maintenance order"
+    },
+    {
+      "number": "135",
+      "heading": "135. Variation or discharge of maintenance order",
+      "text": "135. Variation or discharge of maintenance order"
+    },
+    {
+      "number": "136",
+      "heading": "136. Persons to whom payments may be made",
+      "text": "136. Persons to whom payments may be made"
+    },
+    {
+      "number": "137",
+      "heading": "137. Maintenance of child of family",
+      "text": "137. Maintenance of child of family"
+    },
+    {
+      "number": "138",
+      "heading": "138. Application for maintenance order",
+      "text": "138. Application for maintenance order"
+    },
+    {
+      "number": "139",
+      "heading": "139. Other maintenance provisions",
+      "text": "139. Other maintenance provisions"
+    },
+    {
+      "number": "140",
+      "heading": "140. Order for payments to person other than applicant",
+      "text": "140. Order for payments to person other than applicant"
+    },
+    {
+      "number": "141",
+      "heading": "141. Custody order",
+      "text": "141. Custody order"
+    },
+    {
+      "number": "142",
+      "heading": "142. Restriction on removal of child",
+      "text": "142. Restriction on removal of child"
+    },
+    {
+      "number": "143",
+      "heading": "143. Custody and access",
+      "text": "143. Custody and access"
+    },
+    {
+      "number": "144",
+      "heading": "144. Factors taken into consideration in making custody order",
+      "text": "144. Factors taken into consideration in making custody order"
+    },
+    {
+      "number": "145",
+      "heading": "145. Supervision of child in custody",
+      "text": "145. Supervision of child in custody"
+    },
+    {
+      "number": "146",
+      "heading": "146. Disputes between joint custodial parents",
+      "text": "146. Disputes between joint custodial parents"
+    },
+    {
+      "number": "147",
+      "heading": "147. Interim custody order",
+      "text": "147. Interim custody order"
+    },
+    {
+      "number": "148",
+      "heading": "148. Custody agreement",
+      "text": "148. Custody agreement"
+    },
+    {
+      "number": "149",
+      "heading": "149. Maintenance order where custody order made",
+      "text": "149. Maintenance order where custody order made"
+    },
+    {
+      "number": "150",
+      "heading": "150. Registration of High Court order",
+      "text": "150. Registration of High Court order"
+    },
+    {
+      "number": "151",
+      "heading": "151. Registration of subordinate court order",
+      "text": "151. Registration of subordinate court order"
+    },
+    {
+      "number": "152",
+      "heading": "152. Effect of registration",
+      "text": "152. Effect of registration"
+    },
+    {
+      "number": "153",
+      "heading": "153. Prohibition of multiple registration",
+      "text": "153. Prohibition of multiple registration"
+    },
+    {
+      "number": "154",
+      "heading": "154. Enforcement of registered order",
+      "text": "154. Enforcement of registered order"
+    },
+    {
+      "number": "155",
+      "heading": "155. Variation of orders registered in subordinate courts",
+      "text": "155. Variation of orders registered in subordinate courts"
+    },
+    {
+      "number": "156",
+      "heading": "156. Cancellation of registration",
+      "text": "156. Cancellation of registration"
+    },
+    {
+      "number": "157",
+      "heading": "157. Enforcement of maintenance order",
+      "text": "157. Enforcement of maintenance order"
+    },
+    {
+      "number": "158",
+      "heading": "158. Rights of surviving parent to guardianship and power of court",
+      "text": "158. Rights of surviving parent to guardianship and power of court"
+    },
+    {
+      "number": "159",
+      "heading": "159. Appointment of guardian",
+      "text": "159. Appointment of guardian"
+    },
+    {
+      "number": "160",
+      "heading": "160. Appointment of testamentary guardian",
+      "text": "160. Appointment of testamentary guardian"
+    },
+    {
+      "number": "161",
+      "heading": "161. Appointment of guardian by court",
+      "text": "161. Appointment of guardian by court"
+    },
+    {
+      "number": "162",
+      "heading": "162. Guardian’s revocation and disclaimer",
+      "text": "162. Guardian’s revocation and disclaimer"
+    },
+    {
+      "number": "163",
+      "heading": "163. Duration of appointment of guardian",
+      "text": "163. Duration of appointment of guardian"
+    },
+    {
+      "number": "164",
+      "heading": "164. Dispute between guardians",
+      "text": "164. Dispute between guardians"
+    },
+    {
+      "number": "165",
+      "heading": "165. Powers of guardian",
+      "text": "165. Powers of guardian"
+    },
+    {
+      "number": "166",
+      "heading": "166. Offences by guardian",
+      "text": "166. Offences by guardian"
+    },
+    {
+      "number": "167",
+      "heading": "167. Child in need of care, support and protection",
+      "text": "167. Child in need of care, support and protection"
+    },
+    {
+      "number": "168",
+      "heading": "168. Conveyance to place of safety",
+      "text": "168. Conveyance to place of safety"
+    },
+    {
+      "number": "169",
+      "heading": "169. Proceedings in respect of child in need of care and protection",
+      "text": "169. Proceedings in respect of child in need of care and protection"
+    },
+    {
+      "number": "170",
+      "heading": "170. Powers of Court",
+      "text": "170. Powers of Court"
+    },
+    {
+      "number": "171",
+      "heading": "171. Intervention by ministry or place of safety",
+      "text": "171. Intervention by ministry or place of safety"
+    },
+    {
+      "number": "172",
+      "heading": "172. Medical care",
+      "text": "172. Medical care"
+    },
+    {
+      "number": "173",
+      "heading": "173. Hearing of parent or guardian",
+      "text": "173. Hearing of parent or guardian"
+    },
+    {
+      "number": "174",
+      "heading": "174. Application of trust for maintenance of child",
+      "text": "174. Application of trust for maintenance of child"
+    },
+    {
+      "number": "175",
+      "heading": "175. Cruelty to, or neglect of, child",
+      "text": "175. Cruelty to, or neglect of, child"
+    },
+    {
+      "number": "176",
+      "heading": "176. Warrant to search for and remove child",
+      "text": "176. Warrant to search for and remove child"
+    },
+    {
+      "number": "177",
+      "heading": "177. Orders for protection of children",
+      "text": "177. Orders for protection of children"
+    },
+    {
+      "number": "178",
+      "heading": "178. Supervision order",
+      "text": "178. Supervision order"
+    },
+    {
+      "number": "179",
+      "heading": "179. Care order",
+      "text": "179. Care order"
+    },
+    {
+      "number": "180",
+      "heading": "180. Arrangements for access to child in care",
+      "text": "180. Arrangements for access to child in care"
+    },
+    {
+      "number": "181",
+      "heading": "181. Intensive family support",
+      "text": "181. Intensive family support"
+    },
+    {
+      "number": "182",
+      "heading": "182. Accreditation to provide intensive family support",
+      "text": "182. Accreditation to provide intensive family support"
+    },
+    {
+      "number": "183",
+      "heading": "183. Application to foster child",
+      "text": "183. Application to foster child"
+    },
+    {
+      "number": "184",
+      "heading": "184. Persons qualified to foster children",
+      "text": "184. Persons qualified to foster children"
+    },
+    {
+      "number": "185",
+      "heading": "185. Duration of foster care",
+      "text": "185. Duration of foster care"
+    },
+    {
+      "number": "186",
+      "heading": "186. Procedure before placement in foster care",
+      "text": "186. Procedure before placement in foster care"
+    },
+    {
+      "number": "187",
+      "heading": "187. Religion",
+      "text": "187. Religion"
+    },
+    {
+      "number": "188",
+      "heading": "188. Cultural background",
+      "text": "188. Cultural background"
+    },
+    {
+      "number": "189",
+      "heading": "189. Undertaking by foster parents",
+      "text": "189. Undertaking by foster parents"
+    },
+    {
+      "number": "190",
+      "heading": "190. Medical examination",
+      "text": "190. Medical examination"
+    },
+    {
+      "number": "191",
+      "heading": "191. Visits during placement",
+      "text": "191. Visits during placement"
+    },
+    {
+      "number": "192",
+      "heading": "192. Prohibition to remove child without leave",
+      "text": "192. Prohibition to remove child without leave"
+    },
+    {
+      "number": "193",
+      "heading": "193. Illness",
+      "text": "193. Illness"
+    },
+    {
+      "number": "194",
+      "heading": "194. Death",
+      "text": "194. Death"
+    },
+    {
+      "number": "195",
+      "heading": "195. Termination of placement",
+      "text": "195. Termination of placement"
+    },
+    {
+      "number": "196",
+      "heading": "196. Records",
+      "text": "196. Records"
+    },
+    {
+      "number": "197",
+      "heading": "197. Principles relating to adoption",
+      "text": "197. Principles relating to adoption"
+    },
+    {
+      "number": "198",
+      "heading": "198. Types of adoption",
+      "text": "198. Types of adoption"
+    },
+    {
+      "number": "199",
+      "heading": "199. Adoptable children",
+      "text": "199. Adoptable children"
+    },
+    {
+      "number": "200",
+      "heading": "200. Persons who may adopt",
+      "text": "200. Persons who may adopt"
+    },
+    {
+      "number": "201",
+      "heading": "201. Confidentiality",
+      "text": "201. Confidentiality"
+    },
+    {
+      "number": "202",
+      "heading": "202. Medical examination of child prior to adoption",
+      "text": "202. Medical examination of child prior to adoption"
+    },
+    {
+      "number": "203",
+      "heading": "203. Prohibition of two adoption orders simultaneously",
+      "text": "203. Prohibition of two adoption orders simultaneously"
+    },
+    {
+      "number": "204",
+      "heading": "204. General prohibitions relating to adoption",
+      "text": "204. General prohibitions relating to adoption"
+    },
+    {
+      "number": "205",
+      "heading": "205. Procedure before adoption",
+      "text": "205. Procedure before adoption"
+    },
+    {
+      "number": "206",
+      "heading": "206. Visits during placement",
+      "text": "206. Visits during placement"
+    },
+    {
+      "number": "207",
+      "heading": "207. Contact between prospective parent and child’s parent in domestic",
+      "text": "207. Contact between prospective parent and child’s parent in domestic"
+    },
+    {
+      "number": "208",
+      "heading": "208. Termination of placement",
+      "text": "208. Termination of placement"
+    },
+    {
+      "number": "209",
+      "heading": "209. Prohibition to remove child without leave during placement",
+      "text": "209. Prohibition to remove child without leave during placement"
+    },
+    {
+      "number": "210",
+      "heading": "210. Illness during placement in domestic adoption",
+      "text": "210. Illness during placement in domestic adoption"
+    },
+    {
+      "number": "211",
+      "heading": "211. Application to adopt child",
+      "text": "211. Application to adopt child"
+    },
+    {
+      "number": "212",
+      "heading": "212. Power to dispense with consent",
+      "text": "212. Power to dispense with consent"
+    },
+    {
+      "number": "213",
+      "heading": "213. Death",
+      "text": "213. Death"
+    },
+    {
+      "number": "214",
+      "heading": "214. Guardian ad litem for the child",
+      "text": "214. Guardian ad litem for the child"
+    },
+    {
+      "number": "215",
+      "heading": "215. Interim orders",
+      "text": "215. Interim orders"
+    },
+    {
+      "number": "216",
+      "heading": "216. Conversion from open to closed adoption order",
+      "text": "216. Conversion from open to closed adoption order"
+    },
+    {
+      "number": "217",
+      "heading": "217. Functions of central authority in Republic",
+      "text": "217. Functions of central authority in Republic"
+    },
+    {
+      "number": "218",
+      "heading": "218. Communication between central authorities",
+      "text": "218. Communication between central authorities"
+    },
+    {
+      "number": "219",
+      "heading": "219. Conditions for inter-country adoption by State of origin",
+      "text": "219. Conditions for inter-country adoption by State of origin"
+    },
+    {
+      "number": "220",
+      "heading": "220. Conditions for inter-country adoption by receiving State",
+      "text": "220. Conditions for inter-country adoption by receiving State"
+    },
+    {
+      "number": "221",
+      "heading": "221. Applicants for inter-country adoption",
+      "text": "221. Applicants for inter-country adoption"
+    },
+    {
+      "number": "222",
+      "heading": "222. Procedure before adoption of child from Republic",
+      "text": "222. Procedure before adoption of child from Republic"
+    },
+    {
+      "number": "223",
+      "heading": "223. Visitation during, and termination of, placement in inter-country adoption",
+      "text": "223. Visitation during, and termination of, placement in inter-country adoption"
+    },
+    {
+      "number": "224",
+      "heading": "224. Prohibition to remove child without leave during placement",
+      "text": "224. Prohibition to remove child without leave during placement"
+    },
+    {
+      "number": "225",
+      "heading": "225. Illness during placement in inter-country adoption",
+      "text": "225. Illness during placement in inter-country adoption"
+    },
+    {
+      "number": "226",
+      "heading": "226. Application for adoption",
+      "text": "226. Application for adoption"
+    },
+    {
+      "number": "227",
+      "heading": "227. Withdrawal of approval by Republic",
+      "text": "227. Withdrawal of approval by Republic"
+    },
+    {
+      "number": "228",
+      "heading": "228. Application to adopt child from other State by person in Republic",
+      "text": "228. Application to adopt child from other State by person in Republic"
+    },
+    {
+      "number": "229",
+      "heading": "229. Transfer of adopted child to Republic",
+      "text": "229. Transfer of adopted child to Republic"
+    },
+    {
+      "number": "230",
+      "heading": "230. Registration of birth and recording of adoption of child born outside",
+      "text": "230. Registration of birth and recording of adoption of child born outside"
+    },
+    {
+      "number": "231",
+      "heading": "231. Removal of adopted child from adoptive parent",
+      "text": "231. Removal of adopted child from adoptive parent"
+    },
+    {
+      "number": "232",
+      "heading": "232. Death, illness or injury of child before transfer to receiving State",
+      "text": "232. Death, illness or injury of child before transfer to receiving State"
+    },
+    {
+      "number": "233",
+      "heading": "233. Conversion of open adoption order to closed adoption order in inter-country",
+      "text": "233. Conversion of open adoption order to closed adoption order in inter-country"
+    },
+    {
+      "number": "234",
+      "heading": "234. Contact between prospective parent and child’s parent in inter-country",
+      "text": "234. Contact between prospective parent and child’s parent in inter-country"
+    },
+    {
+      "number": "235",
+      "heading": "235. Translation of documents",
+      "text": "235. Translation of documents"
+    },
+    {
+      "number": "236",
+      "heading": "236. Rejection of application for adoption",
+      "text": "236. Rejection of application for adoption"
+    },
+    {
+      "number": "237",
+      "heading": "237. Effect of adoption on parental rights",
+      "text": "237. Effect of adoption on parental rights"
+    },
+    {
+      "number": "238",
+      "heading": "238. Orders and agreements in respect of child born outside marriage",
+      "text": "238. Orders and agreements in respect of child born outside marriage"
+    },
+    {
+      "number": "239",
+      "heading": "239. Devolution of property on adoption",
+      "text": "239. Devolution of property on adoption"
+    },
+    {
+      "number": "240",
+      "heading": "240. Supplementary provisions on intestacy and testamentary disposition",
+      "text": "240. Supplementary provisions on intestacy and testamentary disposition"
+    },
+    {
+      "number": "241",
+      "heading": "241. Effect of inter-country adoption",
+      "text": "241. Effect of inter-country adoption"
+    },
+    {
+      "number": "242",
+      "heading": "242. Post adoption reports",
+      "text": "242. Post adoption reports"
+    },
+    {
+      "number": "243",
+      "heading": "243. Power to appoint guardian post-adoption",
+      "text": "243. Power to appoint guardian post-adoption"
+    },
+    {
+      "number": "244",
+      "heading": "244. Revocation of adoption order",
+      "text": "244. Revocation of adoption order"
+    },
+    {
+      "number": "245",
+      "heading": "245. Adoption order in respect of children previously adopted",
+      "text": "245. Adoption order in respect of children previously adopted"
+    },
+    {
+      "number": "246",
+      "heading": "246. Amendment of adoption order",
+      "text": "246. Amendment of adoption order"
+    },
+    {
+      "number": "247",
+      "heading": "247. Register of available children for adoption",
+      "text": "247. Register of available children for adoption"
+    },
+    {
+      "number": "248",
+      "heading": "248. Child case record",
+      "text": "248. Child case record"
+    },
+    {
+      "number": "249",
+      "heading": "249. Registration of adoption orders",
+      "text": "249. Registration of adoption orders"
+    },
+    {
+      "number": "250",
+      "heading": "250. Adopted children Register",
+      "text": "250. Adopted children Register"
+    },
+    {
+      "number": "251",
+      "heading": "251. Additional register",
+      "text": "251. Additional register"
+    },
+    {
+      "number": "252",
+      "heading": "252. Functions of adoption agency",
+      "text": "252. Functions of adoption agency"
+    },
+    {
+      "number": "253",
+      "heading": "253. Prohibition of adoption service without certificate of accreditation",
+      "text": "253. Prohibition of adoption service without certificate of accreditation"
+    },
+    {
+      "number": "254",
+      "heading": "254. Application for accreditation as adoption agency",
+      "text": "254. Application for accreditation as adoption agency"
+    },
+    {
+      "number": "255",
+      "heading": "255. Accreditation of adoption agency",
+      "text": "255. Accreditation of adoption agency"
+    },
+    {
+      "number": "256",
+      "heading": "256. Changes in detail",
+      "text": "256. Changes in detail"
+    },
+    {
+      "number": "257",
+      "heading": "257. Suspension or revocation of accreditation",
+      "text": "257. Suspension or revocation of accreditation"
+    },
+    {
+      "number": "258",
+      "heading": "258. Surrender of certificate of accreditation",
+      "text": "258. Surrender of certificate of accreditation"
+    },
+    {
+      "number": "259",
+      "heading": "259. Publication of accredited adoption agency",
+      "text": "259. Publication of accredited adoption agency"
+    },
+    {
+      "number": "260",
+      "heading": "260. Display of certificate of accreditation",
+      "text": "260. Display of certificate of accreditation"
+    },
+    {
+      "number": "261",
+      "heading": "261. Prohibition of transfer of certificate of accreditation",
+      "text": "261. Prohibition of transfer of certificate of accreditation"
+    },
+    {
+      "number": "262",
+      "heading": "262. Duplicate certificate of accreditation",
+      "text": "262. Duplicate certificate of accreditation"
+    },
+    {
+      "number": "263",
+      "heading": "263. Reporting requirements for accredited adoption agency",
+      "text": "263. Reporting requirements for accredited adoption agency"
+    },
+    {
+      "number": "264",
+      "heading": "264. Register of accredited adoption agency",
+      "text": "264. Register of accredited adoption agency"
+    },
+    {
+      "number": "265",
+      "heading": "265. Confidential information",
+      "text": "265. Confidential information"
+    },
+    {
+      "number": "266",
+      "heading": "266. Authorisation of foreign accredited adoption bodies",
+      "text": "266. Authorisation of foreign accredited adoption bodies"
+    },
+    {
+      "number": "267",
+      "heading": "267. Adoption working agreement",
+      "text": "267. Adoption working agreement"
+    },
+    {
+      "number": "268",
+      "heading": "268. Prohibition of establishment of child care facility without approval",
+      "text": "268. Prohibition of establishment of child care facility without approval"
+    },
+    {
+      "number": "269",
+      "heading": "269. Child care facility",
+      "text": "269. Child care facility"
+    },
+    {
+      "number": "270",
+      "heading": "270. Suspension or cancellation of approval",
+      "text": "270. Suspension or cancellation of approval"
+    },
+    {
+      "number": "271",
+      "heading": "271. Reception of child in child care facility",
+      "text": "271. Reception of child in child care facility"
+    },
+    {
+      "number": "272",
+      "heading": "272. Maintenance of child in child care facility",
+      "text": "272. Maintenance of child in child care facility"
+    },
+    {
+      "number": "273",
+      "heading": "273. Monitoring of progress of child",
+      "text": "273. Monitoring of progress of child"
+    },
+    {
+      "number": "274",
+      "heading": "274. Inspection of child care facility or other premises",
+      "text": "274. Inspection of child care facility or other premises"
+    },
+    {
+      "number": "275",
+      "heading": "275. Child care facility regulations",
+      "text": "275. Child care facility regulations"
+    },
+    {
+      "number": "276",
+      "heading": "276. Measures on child safeguarding in institution or organisation",
+      "text": "276. Measures on child safeguarding in institution or organisation"
+    },
+    {
+      "number": "277",
+      "heading": "277. Reception of child in institution or organisation",
+      "text": "277. Reception of child in institution or organisation"
+    },
+    {
+      "number": "278",
+      "heading": "278. Maintenance of child in institution or organisation",
+      "text": "278. Maintenance of child in institution or organisation"
+    },
+    {
+      "number": "279",
+      "heading": "279. Monitoring of progress of child in institution or organisation",
+      "text": "279. Monitoring of progress of child in institution or organisation"
+    },
+    {
+      "number": "280",
+      "heading": "280. Inspection of institution or organisation",
+      "text": "280. Inspection of institution or organisation"
+    },
+    {
+      "number": "281",
+      "heading": "281. Regulations on child safeguarding",
+      "text": "281. Regulations on child safeguarding"
+    },
+    {
+      "number": "282",
+      "heading": "282. Interpretation for Part XVIII",
+      "text": "282. Interpretation for Part XVIII"
+    },
+    {
+      "number": "283",
+      "heading": "283. Child wrongfully removed from or retained in Republic",
+      "text": "283. Child wrongfully removed from or retained in Republic"
+    },
+    {
+      "number": "284",
+      "heading": "284. Cooperation between central authorities",
+      "text": "284. Cooperation between central authorities"
+    },
+    {
+      "number": "285",
+      "heading": "285. Application to return child",
+      "text": "285. Application to return child"
+    },
+    {
+      "number": "286",
+      "heading": "286. Commencement of legal proceedings",
+      "text": "286. Commencement of legal proceedings"
+    },
+    {
+      "number": "287",
+      "heading": "287. Limitation of powers of court",
+      "text": "287. Limitation of powers of court"
+    },
+    {
+      "number": "288",
+      "heading": "288. Harbouring or concealing child",
+      "text": "288. Harbouring or concealing child"
+    },
+    {
+      "number": "289",
+      "heading": "289. Escape from child care facility or place of safety",
+      "text": "289. Escape from child care facility or place of safety"
+    },
+    {
+      "number": "290",
+      "heading": "290. Appeals",
+      "text": "290. Appeals"
+    },
+    {
+      "number": "291",
+      "heading": "291. Evidence of wages",
+      "text": "291. Evidence of wages"
+    },
+    {
+      "number": "292",
+      "heading": "292. Professional services in adoption",
+      "text": "292. Professional services in adoption"
+    },
+    {
+      "number": "293",
+      "heading": "293. General penalty",
+      "text": "293. General penalty"
+    },
+    {
+      "number": "294",
+      "heading": "294. Offences by principal officers of body corporate or unincorporate",
+      "text": "294. Offences by principal officers of body corporate or unincorporate"
+    },
+    {
+      "number": "295",
+      "heading": "295. Regulations",
+      "text": "295. Regulations"
+    },
+    {
+      "number": "296",
+      "heading": "296. Rules",
+      "text": "296. Rules"
+    },
+    {
+      "number": "297",
+      "heading": "297. Repeal of Acts",
+      "text": "297. Repeal of Acts"
+    },
+    {
+      "number": "298",
+      "heading": "298. Savings and transitional provisions",
+      "text": "298. Savings and transitional provisions"
+    },
+    {
+      "number": "3",
+      "heading": "3. (1) A child’s best interest is the primary consideration in a Best interest",
+      "text": "3. (1) A child’s best interest is the primary consideration in a Best interest"
+    },
+    {
+      "number": "5",
+      "heading": "5. A child has an inherent right to life, dignity and respect and Right to",
+      "text": "5. A child has an inherent right to life, dignity and respect and Right to"
+    },
+    {
+      "number": "6",
+      "heading": "6. A child who is capable of forming that child’s own views Right to",
+      "text": "6. A child who is capable of forming that child’s own views Right to"
+    },
+    {
+      "number": "7",
+      "heading": "7. (1) A person shall not discriminate against or punish a child Prohibition",
+      "text": "7. (1) A person shall not discriminate against or punish a child Prohibition"
+    },
+    {
+      "number": "8",
+      "heading": "8. (1) A child has a right, from birth, to a name and nationality Right to",
+      "text": "8. (1) A child has a right, from birth, to a name and nationality Right to"
+    },
+    {
+      "number": "9",
+      "heading": "9. (1) A child has a right to live with, and to be protected and Right to",
+      "text": "9. (1) A child has a right to live with, and to be protected and Right to"
+    },
+    {
+      "number": "12",
+      "heading": "12. A child has a right to social protection and social services. Right to",
+      "text": "12. A child has a right to social protection and social services. Right to"
+    },
+    {
+      "number": "13",
+      "heading": "13. (1) A person shall not subject a child to economic Protection",
+      "text": "13. (1) A person shall not subject a child to economic Protection"
+    },
+    {
+      "number": "14",
+      "heading": "14. (1) A child shall not take part in hostilities or be recruited Protection",
+      "text": "14. (1) A child shall not take part in hostilities or be recruited Protection"
+    },
+    {
+      "number": "15",
+      "heading": "15. A child with a disability has the right to be treated with Child with",
+      "text": "15. A child with a disability has the right to be treated with Child with"
+    },
+    {
+      "number": "16",
+      "heading": "16. A child on the move is entitled to appropriate protection Protection of",
+      "text": "16. A child on the move is entitled to appropriate protection Protection of"
+    },
+    {
+      "number": "17",
+      "heading": "17. (1) A child is entitled to protection from maltreatment and Protection",
+      "text": "17. (1) A child is entitled to protection from maltreatment and Protection"
+    },
+    {
+      "number": "18",
+      "heading": "18. (1) A person shall not subject a girl child to female genital Protection",
+      "text": "18. (1) A person shall not subject a girl child to female genital Protection"
+    },
+    {
+      "number": "26",
+      "heading": "26. (1) Subject to the Constitution and the provisions of this Duties and",
+      "text": "26. (1) Subject to the Constitution and the provisions of this Duties and"
+    },
+    {
+      "number": "27",
+      "heading": "27. Except as otherwise provided in any other written law, a Sanction for",
+      "text": "27. Except as otherwise provided in any other written law, a Sanction for"
+    },
+    {
+      "number": "28",
+      "heading": "28. A person who alleges that a provision of this Act is being Enforcement",
+      "text": "28. A person who alleges that a provision of this Act is being Enforcement"
+    },
+    {
+      "number": "30",
+      "heading": "30. (1) The Civil Service Commission shall appoint as a public Director of",
+      "text": "30. (1) The Civil Service Commission shall appoint as a public Director of"
+    },
+    {
+      "number": "31",
+      "heading": "31. The Director of Child Development shall, despite the Functions",
+      "text": "31. The Director of Child Development shall, despite the Functions"
+    },
+    {
+      "number": "32",
+      "heading": "32. (1) The Social Welfare Department in the ministry Social Welfare",
+      "text": "32. (1) The Social Welfare Department in the ministry Social Welfare"
+    },
+    {
+      "number": "33",
+      "heading": "33. (1) The Civil Service Commission, shall appoint as a public Director of",
+      "text": "33. (1) The Civil Service Commission, shall appoint as a public Director of"
+    },
+    {
+      "number": "34",
+      "heading": "34. The Director of Social Welfare shall, despite the generality Functions of",
+      "text": "34. The Director of Social Welfare shall, despite the generality Functions of"
+    },
+    {
+      "number": "39",
+      "heading": "39. (1) A child’s mother and father, whether married to each Persons with",
+      "text": "39. (1) A child’s mother and father, whether married to each Persons with"
+    },
+    {
+      "number": "41",
+      "heading": "41. (1) A parental responsibility agreement shall be made in Parental",
+      "text": "41. (1) A parental responsibility agreement shall be made in Parental"
+    },
+    {
+      "number": "42",
+      "heading": "42. (1) Where the mother and father of a child are married to Transmission",
+      "text": "42. (1) Where the mother and father of a child are married to Transmission"
+    },
+    {
+      "number": "44",
+      "heading": "44. A person who wilfully fails or refuses to exercise parental",
+      "text": "44. A person who wilfully fails or refuses to exercise parental"
+    },
+    {
+      "number": "47",
+      "heading": "47. (1) A law enforcement officer or other person shall, in Apprehension",
+      "text": "47. (1) A law enforcement officer or other person shall, in Apprehension"
+    },
+    {
+      "number": "48",
+      "heading": "48. (1) Subject to section 45 and the Criminal Procedure Code, Apprehension",
+      "text": "48. (1) Subject to section 45 and the Criminal Procedure Code, Apprehension"
+    },
+    {
+      "number": "49",
+      "heading": "49. (1) A law enforcement officer may apprehend a child Apprehension",
+      "text": "49. (1) A law enforcement officer may apprehend a child Apprehension"
+    },
+    {
+      "number": "52",
+      "heading": "52. (1) A law enforcement officer effecting an arrest of a Notification",
+      "text": "52. (1) A law enforcement officer effecting an arrest of a Notification"
+    },
+    {
+      "number": "53",
+      "heading": "53. (1) A child may, where a child is arrested under section Search of",
+      "text": "53. (1) A child may, where a child is arrested under section Search of"
+    },
+    {
+      "number": "56",
+      "heading": "56. (1) A child under arrest shall be released by a law Recognisance",
+      "text": "56. (1) A child under arrest shall be released by a law Recognisance"
+    },
+    {
+      "number": "57",
+      "heading": "57. (1) A child shall not be taken into custody— Custody of",
+      "text": "57. (1) A child shall not be taken into custody— Custody of"
+    },
+    {
+      "number": "59",
+      "heading": "59. A child may be diverted from the formal criminal justice Conditions",
+      "text": "59. A child may be diverted from the formal criminal justice Conditions"
+    },
+    {
+      "number": "60",
+      "heading": "60. (1) A child welfare inspector or probation officer shall, Failure to",
+      "text": "60. (1) A child welfare inspector or probation officer shall, Failure to"
+    },
+    {
+      "number": "64",
+      "heading": "64. (1) The Director of Social Welfare may suspend or revoke Suspension",
+      "text": "64. (1) The Director of Social Welfare may suspend or revoke Suspension"
+    },
+    {
+      "number": "68",
+      "heading": "68. (1) A juvenile court or Children’s Court shall sit in a Sittings of",
+      "text": "68. (1) A juvenile court or Children’s Court shall sit in a Sittings of"
+    },
+    {
+      "number": "70",
+      "heading": "70. (1) Where a child appears before a court of competent Remission of",
+      "text": "70. (1) Where a child appears before a court of competent Remission of"
+    },
+    {
+      "number": "71",
+      "heading": "71. (1) Where a person, whether charged with an offence or Presumption",
+      "text": "71. (1) Where a person, whether charged with an offence or Presumption"
+    },
+    {
+      "number": "72",
+      "heading": "72. (1) A child in conflict with the law shall— Rights of",
+      "text": "72. (1) A child in conflict with the law shall— Rights of"
+    },
+    {
+      "number": "74",
+      "heading": "74. (1) A charge sheet or information shall be translated in a Procedure in",
+      "text": "74. (1) A charge sheet or information shall be translated in a Procedure in"
+    },
+    {
+      "number": "75",
+      "heading": "75. (1) A juvenile court or Children’s Court may, where a child Remand of",
+      "text": "75. (1) A juvenile court or Children’s Court may, where a child Remand of"
+    },
+    {
+      "number": "77",
+      "heading": "77. (1) A juvenile court or Children’s Court may, where a child Parent,",
+      "text": "77. (1) A juvenile court or Children’s Court may, where a child Parent,"
+    },
+    {
+      "number": "79",
+      "heading": "79. (1) A juvenile court or Children’s Court may deal with a Methods of",
+      "text": "79. (1) A juvenile court or Children’s Court may deal with a Methods of"
+    },
+    {
+      "number": "81",
+      "heading": "81. (1) Subject to section 4, where a juvenile court or Children’s General",
+      "text": "81. (1) Subject to section 4, where a juvenile court or Children’s General"
+    },
+    {
+      "number": "82",
+      "heading": "82. A juvenile court or Children’s Court shall ensure that a Presence of",
+      "text": "82. A juvenile court or Children’s Court shall ensure that a Presence of"
+    },
+    {
+      "number": "83",
+      "heading": "83. (1) A juvenile court or Children’s Court may, in considering Reports",
+      "text": "83. (1) A juvenile court or Children’s Court may, in considering Reports"
+    },
+    {
+      "number": "86",
+      "heading": "86. (1) A probation officer shall, apply to a juvenile court or Powers of",
+      "text": "86. (1) A probation officer shall, apply to a juvenile court or Powers of"
+    },
+    {
+      "number": "88",
+      "heading": "88. (1) A probation order shall name the district in which the Contents of",
+      "text": "88. (1) A probation order shall name the district in which the Contents of"
+    },
+    {
+      "number": "90",
+      "heading": "90. A juvenile court or Children’s Court by which a probation Copies of",
+      "text": "90. A juvenile court or Children’s Court by which a probation Copies of"
+    },
+    {
+      "number": "91",
+      "heading": "91. (1) Subject to subsection (2), at any time during the",
+      "text": "91. (1) Subject to subsection (2), at any time during the"
+    },
+    {
+      "number": "92",
+      "heading": "92. (1) Subject to Part V, where a juvenile court or Children’s Commission",
+      "text": "92. (1) Subject to Part V, where a juvenile court or Children’s Commission"
+    },
+    {
+      "number": "94",
+      "heading": "94. (1) Subject to the other provisions of this section, where, Amendment",
+      "text": "94. (1) Subject to the other provisions of this section, where, Amendment"
+    },
+    {
+      "number": "95",
+      "heading": "95. A juvenile court or Children’s Court may, on an application Discharge of",
+      "text": "95. A juvenile court or Children’s Court may, on an application Discharge of"
+    },
+    {
+      "number": "99",
+      "heading": "99. (1) The Minister responsible for correctional centres may, Child",
+      "text": "99. (1) The Minister responsible for correctional centres may, Child"
+    },
+    {
+      "number": "100",
+      "heading": "100. (1) Where a finding of guilty is made against a child and Child",
+      "text": "100. (1) Where a finding of guilty is made against a child and Child"
+    },
+    {
+      "number": "103",
+      "heading": "103. (1) Where a juvenile court or Children’s Court makes a Duration of",
+      "text": "103. (1) Where a juvenile court or Children’s Court makes a Duration of"
+    },
+    {
+      "number": "104",
+      "heading": "104. (1) The Director of Social Welfare may, if the Director Extension of",
+      "text": "104. (1) The Director of Social Welfare may, if the Director Extension of"
+    },
+    {
+      "number": "107",
+      "heading": "107. (1) Despite anything in this Part, where a child in custody Separation",
+      "text": "107. (1) Despite anything in this Part, where a child in custody Separation"
+    },
+    {
+      "number": "108",
+      "heading": "108. (1) The Director of Social Welfare may discharge a child",
+      "text": "108. (1) The Director of Social Welfare may discharge a child"
+    },
+    {
+      "number": "109",
+      "heading": "109. (1) A permit issued under section 108 may be revoked at Revocation or",
+      "text": "109. (1) A permit issued under section 108 may be revoked at Revocation or"
+    },
+    {
+      "number": "111",
+      "heading": "111. (1) Where a juvenile court or Children’s Court makes an Contributions",
+      "text": "111. (1) Where a juvenile court or Children’s Court makes an Contributions"
+    },
+    {
+      "number": "112",
+      "heading": "112. (1) A juvenile court or Children’s Court shall issue Production",
+      "text": "112. (1) A juvenile court or Children’s Court shall issue Production"
+    },
+    {
+      "number": "114",
+      "heading": "114. (1) The Minister may enter into an agreement with International",
+      "text": "114. (1) The Minister may enter into an agreement with International"
+    },
+    {
+      "number": "120",
+      "heading": "120. Where a court makes an affiliation order, it may include Order of",
+      "text": "120. Where a court makes an affiliation order, it may include Order of"
+    },
+    {
+      "number": "121",
+      "heading": "121. A child born to a mother and father, whether married to Equal status",
+      "text": "121. A child born to a mother and father, whether married to Equal status"
+    },
+    {
+      "number": "122",
+      "heading": "122. (1) Subject to subsections (2) and (3), a child born to a Presumption",
+      "text": "122. (1) Subject to subsections (2) and (3), a child born to a Presumption"
+    },
+    {
+      "number": "125",
+      "heading": "125. (1) An instrument of acknowledgement of parentage or Filing of",
+      "text": "125. (1) An instrument of acknowledgement of parentage or Filing of"
+    },
+    {
+      "number": "128",
+      "heading": "128. (1) A person shall not, with intent to falsify the result of Impersonating",
+      "text": "128. (1) A person shall not, with intent to falsify the result of Impersonating"
+    },
+    {
+      "number": "129",
+      "heading": "129. The following presumptions apply with regard to the Presumptions",
+      "text": "129. The following presumptions apply with regard to the Presumptions"
+    },
+    {
+      "number": "133",
+      "heading": "133. (1) A court may order financial provision to be made by Financial",
+      "text": "133. (1) A court may order financial provision to be made by Financial"
+    },
+    {
+      "number": "134",
+      "heading": "134. (1) Subject to subsection (3), a maintenance order shall Duration of",
+      "text": "134. (1) Subject to subsection (3), a maintenance order shall Duration of"
+    },
+    {
+      "number": "137",
+      "heading": "137. (1) The court may make a maintenance order in respect Maintenance",
+      "text": "137. (1) The court may make a maintenance order in respect Maintenance"
+    },
+    {
+      "number": "141",
+      "heading": "141. (1) A custody order may be made in respect of a— Custody",
+      "text": "141. (1) A custody order may be made in respect of a— Custody"
+    },
+    {
+      "number": "142",
+      "heading": "142. (1) Where an application for a custody order in respect Restriction",
+      "text": "142. (1) Where an application for a custody order in respect Restriction"
+    },
+    {
+      "number": "144",
+      "heading": "144. (1) A court may request a report from a child welfare Factors",
+      "text": "144. (1) A court may request a report from a child welfare Factors"
+    },
+    {
+      "number": "147",
+      "heading": "147. A court may make an interim custody order and may",
+      "text": "147. A court may make an interim custody order and may"
+    },
+    {
+      "number": "148",
+      "heading": "148. (1) A father and mother of a child may enter into a Custody",
+      "text": "148. (1) A father and mother of a child may enter into a Custody"
+    },
+    {
+      "number": "149",
+      "heading": "149. A court may, on varying or discharging a custody order, Maintenance",
+      "text": "149. A court may, on varying or discharging a custody order, Maintenance"
+    },
+    {
+      "number": "150",
+      "heading": "150. (1) A person entitled to receive payments under a Registration",
+      "text": "150. (1) A person entitled to receive payments under a Registration"
+    },
+    {
+      "number": "151",
+      "heading": "151. (1) A person entitled to receive payments under",
+      "text": "151. (1) A person entitled to receive payments under"
+    },
+    {
+      "number": "153",
+      "heading": "153. Subject to this Part, a maintenance order which is Prohibition of",
+      "text": "153. Subject to this Part, a maintenance order which is Prohibition of"
+    },
+    {
+      "number": "154",
+      "heading": "154. (1) Subject to the provisions of this section, a registered Enforcement",
+      "text": "154. (1) Subject to the provisions of this section, a registered Enforcement"
+    },
+    {
+      "number": "157",
+      "heading": "157. A person, including a child in whose favour a maintenance Enforcement",
+      "text": "157. A person, including a child in whose favour a maintenance Enforcement"
+    },
+    {
+      "number": "158",
+      "heading": "158. (1) Subject to the provisions of this Act, the surviving Rights of",
+      "text": "158. (1) Subject to the provisions of this Act, the surviving Rights of"
+    },
+    {
+      "number": "159",
+      "heading": "159. (1) A guardian may be appointed in respect of a child Appointment",
+      "text": "159. (1) A guardian may be appointed in respect of a child Appointment"
+    },
+    {
+      "number": "161",
+      "heading": "161. A court may, in addition to the court’s powers to appoint Appointment",
+      "text": "161. A court may, in addition to the court’s powers to appoint Appointment"
+    },
+    {
+      "number": "167",
+      "heading": "167. Guardian’s 162. (1) An appointment of a testamentary guardian in a will",
+      "text": "167. Guardian’s 162. (1) An appointment of a testamentary guardian in a will"
+    },
+    {
+      "number": "164",
+      "heading": "164. (1) Where two or more persons act as joint guardians Dispute",
+      "text": "164. (1) Where two or more persons act as joint guardians Dispute"
+    },
+    {
+      "number": "165",
+      "heading": "165. A guardian appointed under section 159 has the same Powers of",
+      "text": "165. A guardian appointed under section 159 has the same Powers of"
+    },
+    {
+      "number": "166",
+      "heading": "166. (1) A guardian of a child commits an offence if that Offences by",
+      "text": "166. (1) A guardian of a child commits an offence if that Offences by"
+    },
+    {
+      "number": "170",
+      "heading": "170. (1) A court shall, if the court considers that it is in the Powers of",
+      "text": "170. (1) A court shall, if the court considers that it is in the Powers of"
+    },
+    {
+      "number": "171",
+      "heading": "171. (1) The ministry responsible for social welfare shall Intervention",
+      "text": "171. (1) The ministry responsible for social welfare shall Intervention"
+    },
+    {
+      "number": "172",
+      "heading": "172. (1) An officer responsible for a place of safety or an Medical care",
+      "text": "172. (1) An officer responsible for a place of safety or an Medical care"
+    },
+    {
+      "number": "176",
+      "heading": "176. (1) A court may, on information on oath by a person Warrant to",
+      "text": "176. (1) A court may, on information on oath by a person Warrant to"
+    },
+    {
+      "number": "177",
+      "heading": "177. (1) A court may, in addition to the orders under section Orders for",
+      "text": "177. (1) A court may, in addition to the orders under section Orders for"
+    },
+    {
+      "number": "179",
+      "heading": "179. (1) A court may make a care order in respect of a child Care order",
+      "text": "179. (1) A court may make a care order in respect of a child Care order"
+    },
+    {
+      "number": "181",
+      "heading": "181. (1) The ministry responsible for child development and Intensive",
+      "text": "181. (1) The ministry responsible for child development and Intensive"
+    },
+    {
+      "number": "182",
+      "heading": "182. (1) A social service provider that intends to provide Accreditation",
+      "text": "182. (1) A social service provider that intends to provide Accreditation"
+    },
+    {
+      "number": "183",
+      "heading": "183. (1) A person who intends to foster a child shall notify Application",
+      "text": "183. (1) A person who intends to foster a child shall notify Application"
+    },
+    {
+      "number": "185",
+      "heading": "185. A child may be placed under foster care for a period that Duration of",
+      "text": "185. A child may be placed under foster care for a period that Duration of"
+    },
+    {
+      "number": "186",
+      "heading": "186. (1) A child welfare inspector appointed under section Procedure",
+      "text": "186. (1) A child welfare inspector appointed under section Procedure"
+    },
+    {
+      "number": "191",
+      "heading": "191. (1) A child welfare inspector shall visit the foster family Visits during",
+      "text": "191. (1) A child welfare inspector shall visit the foster family Visits during"
+    },
+    {
+      "number": "194",
+      "heading": "194. (1) A foster parent shall, where a foster child dies — Death",
+      "text": "194. (1) A foster parent shall, where a foster child dies — Death"
+    },
+    {
+      "number": "195",
+      "heading": "195. (1) A foster child shall not be allowed to remain with a Termination",
+      "text": "195. (1) A foster child shall not be allowed to remain with a Termination"
+    },
+    {
+      "number": "196",
+      "heading": "196. (1) The Director of Social Welfare shall maintain a Records",
+      "text": "196. (1) The Director of Social Welfare shall maintain a Records"
+    },
+    {
+      "number": "198",
+      "heading": "198. (1) The following types of adoption shall apply: Types of",
+      "text": "198. (1) The following types of adoption shall apply: Types of"
+    },
+    {
+      "number": "201",
+      "heading": "201. (1) Subject to the provisions of this Act, the following Confidentiality",
+      "text": "201. (1) Subject to the provisions of this Act, the following Confidentiality"
+    },
+    {
+      "number": "202",
+      "heading": "202. (1) A child shall be placed with a prospective parent if Medical",
+      "text": "202. (1) A child shall be placed with a prospective parent if Medical"
+    },
+    {
+      "number": "205",
+      "heading": "205. (1) A person who intends to adopt a child may, three Procedure for",
+      "text": "205. (1) A person who intends to adopt a child may, three Procedure for"
+    },
+    {
+      "number": "206",
+      "heading": "206. (1) A child welfare inspector shall visit the prospective Visits during",
+      "text": "206. (1) A child welfare inspector shall visit the prospective Visits during"
+    },
+    {
+      "number": "209",
+      "heading": "209. (1) A prospective parent shall not remove a child from",
+      "text": "209. (1) A prospective parent shall not remove a child from"
+    },
+    {
+      "number": "211",
+      "heading": "211. (1) A person who intends to adopt a child shall apply Application",
+      "text": "211. (1) A person who intends to adopt a child shall apply Application"
+    },
+    {
+      "number": "213",
+      "heading": "213. (1) Where a child dies during placement, the Death",
+      "text": "213. (1) Where a child dies during placement, the Death"
+    },
+    {
+      "number": "216",
+      "heading": "216. (1) An open adoption order may be converted to a closed Conversion",
+      "text": "216. (1) An open adoption order may be converted to a closed Conversion"
+    },
+    {
+      "number": "220",
+      "heading": "220. An inter-country adoption shall take place if a central Conditions",
+      "text": "220. An inter-country adoption shall take place if a central Conditions"
+    },
+    {
+      "number": "221",
+      "heading": "221. (1) Subject to section 200, where the Republic is the Applicants",
+      "text": "221. (1) Subject to section 200, where the Republic is the Applicants"
+    },
+    {
+      "number": "224",
+      "heading": "224. A prospective parent shall not remove a child from the",
+      "text": "224. A prospective parent shall not remove a child from the"
+    },
+    {
+      "number": "227",
+      "heading": "227. (1) A central authority of the Republic may withdraw Withdrawal",
+      "text": "227. (1) A central authority of the Republic may withdraw Withdrawal"
+    },
+    {
+      "number": "228",
+      "heading": "228. (1) A person resident in the Republic who intends to Application",
+      "text": "228. (1) A person resident in the Republic who intends to Application"
+    },
+    {
+      "number": "229",
+      "heading": "229. (1) Where an adoption order is granted on an Transfer of",
+      "text": "229. (1) Where an adoption order is granted on an Transfer of"
+    },
+    {
+      "number": "232",
+      "heading": "232. An inter-country adoption order shall, before a transfer Death,",
+      "text": "232. An inter-country adoption order shall, before a transfer Death,"
+    },
+    {
+      "number": "233",
+      "heading": "233. (1) An open adoption order may, where an adoption Conversion",
+      "text": "233. (1) An open adoption order may, where an adoption Conversion"
+    },
+    {
+      "number": "234",
+      "heading": "234. (1) A child’s parent, guardian or person having parental Contact",
+      "text": "234. (1) A child’s parent, guardian or person having parental Contact"
+    },
+    {
+      "number": "235",
+      "heading": "235. (1) The central authority of the Republic shall, where Translation",
+      "text": "235. (1) The central authority of the Republic shall, where Translation"
+    },
+    {
+      "number": "214",
+      "heading": "214. (2) Despite subsection (1), the Children’s Court may make an",
+      "text": "214. (2) Despite subsection (1), the Children’s Court may make an"
+    },
+    {
+      "number": "237",
+      "heading": "237. (1) Where an adoption order is made the —",
+      "text": "237. (1) Where an adoption order is made the —"
+    },
+    {
+      "number": "240",
+      "heading": "240. (1) An administrator or executor of an estate may Supplementary",
+      "text": "240. (1) An administrator or executor of an estate may Supplementary"
+    },
+    {
+      "number": "241",
+      "heading": "241. (1) Where a child has been adopted outside the Effect of",
+      "text": "241. (1) Where a child has been adopted outside the Effect of"
+    },
+    {
+      "number": "249",
+      "heading": "249. (1) Where the Children’s Court makes an adoption Registration",
+      "text": "249. (1) Where the Children’s Court makes an adoption Registration"
+    },
+    {
+      "number": "251",
+      "heading": "251. The Registrar-General shall keep such other register Additional",
+      "text": "251. The Registrar-General shall keep such other register Additional"
+    },
+    {
+      "number": "252",
+      "heading": "252. (1) An adoption agency shall provide adoption services. Functions of",
+      "text": "252. (1) An adoption agency shall provide adoption services. Functions of"
+    },
+    {
+      "number": "255",
+      "heading": "255. (1) The Director of Social Welfare shall, within Accreditation",
+      "text": "255. (1) The Director of Social Welfare shall, within Accreditation"
+    },
+    {
+      "number": "256",
+      "heading": "256. An adoption agency accredited under this Act shall notify Changes in",
+      "text": "256. An adoption agency accredited under this Act shall notify Changes in"
+    },
+    {
+      "number": "257",
+      "heading": "257. (1) Subject to this Act, the Director of Social Welfare Suspension",
+      "text": "257. (1) Subject to this Act, the Director of Social Welfare Suspension"
+    },
+    {
+      "number": "259",
+      "heading": "259. The Director of Social Welfare shall publish annually in Publication",
+      "text": "259. The Director of Social Welfare shall publish annually in Publication"
+    },
+    {
+      "number": "260",
+      "heading": "260. An adoption agency shall display a certificate of Display of",
+      "text": "260. An adoption agency shall display a certificate of Display of"
+    },
+    {
+      "number": "261",
+      "heading": "261. A certificate of accreditation issued under this Part shall Prohibition",
+      "text": "261. A certificate of accreditation issued under this Part shall Prohibition"
+    },
+    {
+      "number": "262",
+      "heading": "262. (1) An adoption agency whose certificate of Duplicate",
+      "text": "262. (1) An adoption agency whose certificate of Duplicate"
+    },
+    {
+      "number": "263",
+      "heading": "263. (1) An adoption agency shall report to the Director of Reporting",
+      "text": "263. (1) An adoption agency shall report to the Director of Reporting"
+    },
+    {
+      "number": "264",
+      "heading": "264. (1) The Director of Social Welfare shall keep and Register of",
+      "text": "264. (1) The Director of Social Welfare shall keep and Register of"
+    },
+    {
+      "number": "266",
+      "heading": "266. (1) A foreign adoption body may provide adoption Authorisation",
+      "text": "266. (1) A foreign adoption body may provide adoption Authorisation"
+    },
+    {
+      "number": "267",
+      "heading": "267. (1) An adoption agency accredited under this Part to Adoption",
+      "text": "267. (1) An adoption agency accredited under this Part to Adoption"
+    },
+    {
+      "number": "268",
+      "heading": "268. (1) A person shall not establish a child care facility Prohibition",
+      "text": "268. (1) A person shall not establish a child care facility Prohibition"
+    },
+    {
+      "number": "269",
+      "heading": "269. (1) A person who intends to establish a child care Child care",
+      "text": "269. (1) A person who intends to establish a child care Child care"
+    },
+    {
+      "number": "271",
+      "heading": "271. (1) A child shall be received in the care of a child Reception of",
+      "text": "271. (1) A child shall be received in the care of a child Reception of"
+    },
+    {
+      "number": "275",
+      "heading": "275. The Minister may, by statutory instrument, make Child care",
+      "text": "275. The Minister may, by statutory instrument, make Child care"
+    },
+    {
+      "number": "278",
+      "heading": "278. An institution or organisation in which a child is received Maintenance",
+      "text": "278. An institution or organisation in which a child is received Maintenance"
+    },
+    {
+      "number": "279",
+      "heading": "279. The Director of Social Welfare shall — Monitoring",
+      "text": "279. The Director of Social Welfare shall — Monitoring"
+    },
+    {
+      "number": "280",
+      "heading": "280. (1) A child welfare inspector may inspect an institution Inspection of",
+      "text": "280. (1) A child welfare inspector may inspect an institution Inspection of"
+    },
+    {
+      "number": "284",
+      "heading": "284. The central authority in the Republic shall cooperate Cooperation",
+      "text": "284. The central authority in the Republic shall cooperate Cooperation"
+    },
+    {
+      "number": "287",
+      "heading": "287. (1) The court shall not order the return of a child if — Limitation of",
+      "text": "287. (1) The court shall not order the return of a child if — Limitation of"
+    },
+    {
+      "number": "290",
+      "heading": "290. (1) A person aggrieved with a decision of the Director Appeals",
+      "text": "290. (1) A person aggrieved with a decision of the Director Appeals"
+    },
+    {
+      "number": "291",
+      "heading": "291. In any proceedings under this Act, a copy of an entry in Evidence of",
+      "text": "291. In any proceedings under this Act, a copy of an entry in Evidence of"
+    },
+    {
+      "number": "292",
+      "heading": "292. Nothing in this Act prohibits the rendering of professional Professional",
+      "text": "292. Nothing in this Act prohibits the rendering of professional Professional"
+    },
+    {
+      "number": "293",
+      "heading": "293. A person who contravenes a provision of this Act, where General",
+      "text": "293. A person who contravenes a provision of this Act, where General"
+    },
+    {
+      "number": "294",
+      "heading": "294. Where an offence under this Act is committed by a body Offences by",
+      "text": "294. Where an offence under this Act is committed by a body Offences by"
+    },
+    {
+      "number": "297",
+      "heading": "297. (1) The Legitimacy Act, 1929, the Juveniles Act, 1956, Repeal of",
+      "text": "297. (1) The Legitimacy Act, 1929, the Juveniles Act, 1956, Repeal of"
+    },
+    {
+      "number": "298",
+      "heading": "298. (1) A reference in a written law or document to a Savings and",
+      "text": "298. (1) A reference in a written law or document to a Savings and"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/ACT%20No.%2012%20OF%202022%2CThe%20Children%27s%20Code%20FINAL.pdf",
+  "source_hash": "sha256:3981c8c7ded50e466347acfe56010adc1e965cadcf9ea319269b1633066dae4c",
+  "fetched_at": "2026-04-11T03:05:06Z",
+  "parser_version": "0.4.0",
+  "notes": null
+}

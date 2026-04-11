@@ -1,0 +1,436 @@
+{
+  "id": "act-zm-2022-015-public-debt-management-act-2022",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Public Debt Management Act, 2022",
+  "citation": "Act No. 15 of 2022",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "1. Short title",
+      "text": "1. Short title"
+    },
+    {
+      "number": "2",
+      "heading": "2. Interpretation",
+      "text": "2. Interpretation"
+    },
+    {
+      "number": "3",
+      "heading": "3. Government debt management objectives",
+      "text": "3. Government debt management objectives"
+    },
+    {
+      "number": "4",
+      "heading": "4. Medium Term Debt Strategy",
+      "text": "4. Medium Term Debt Strategy"
+    },
+    {
+      "number": "5",
+      "heading": "5. Establishment of Debt Management Office",
+      "text": "5. Establishment of Debt Management Office"
+    },
+    {
+      "number": "6",
+      "heading": "6. Functions of Debt Management Office",
+      "text": "6. Functions of Debt Management Office"
+    },
+    {
+      "number": "7",
+      "heading": "7. Director and other staff",
+      "text": "7. Director and other staff"
+    },
+    {
+      "number": "8",
+      "heading": "8. Annual borrowing plan",
+      "text": "8. Annual borrowing plan"
+    },
+    {
+      "number": "9",
+      "heading": "9. Review of annual borrowing plan",
+      "text": "9. Review of annual borrowing plan"
+    },
+    {
+      "number": "10",
+      "heading": "10. Update on implementation of annual borrowing plan",
+      "text": "10. Update on implementation of annual borrowing plan"
+    },
+    {
+      "number": "11",
+      "heading": "11. Power to raise loans",
+      "text": "11. Power to raise loans"
+    },
+    {
+      "number": "12",
+      "heading": "12. Purpose of loans",
+      "text": "12. Purpose of loans"
+    },
+    {
+      "number": "13",
+      "heading": "13. Methods of raising loans",
+      "text": "13. Methods of raising loans"
+    },
+    {
+      "number": "14",
+      "heading": "14. Suspension of approval by National Assembly in state of emergency",
+      "text": "14. Suspension of approval by National Assembly in state of emergency"
+    },
+    {
+      "number": "15",
+      "heading": "15. Establishment of Special Deposit Account",
+      "text": "15. Establishment of Special Deposit Account"
+    },
+    {
+      "number": "16",
+      "heading": "16. Application and deposit of loan proceeds",
+      "text": "16. Application and deposit of loan proceeds"
+    },
+    {
+      "number": "17",
+      "heading": "17. Supplier’s credit, export credit and finance lease agreement",
+      "text": "17. Supplier’s credit, export credit and finance lease agreement"
+    },
+    {
+      "number": "18",
+      "heading": "18. Repayment, conversion and consolidation of loans",
+      "text": "18. Repayment, conversion and consolidation of loans"
+    },
+    {
+      "number": "19",
+      "heading": "19. Debt charge",
+      "text": "19. Debt charge"
+    },
+    {
+      "number": "20",
+      "heading": "20. Agents to issue or raise bonds, stock or treasury bills",
+      "text": "20. Agents to issue or raise bonds, stock or treasury bills"
+    },
+    {
+      "number": "21",
+      "heading": "21. Power to grant loans out of Consolidated Fund",
+      "text": "21. Power to grant loans out of Consolidated Fund"
+    },
+    {
+      "number": "22",
+      "heading": "22. Borrowing by public body",
+      "text": "22. Borrowing by public body"
+    },
+    {
+      "number": "23",
+      "heading": "23. Loans by public body requiring National Assembly approval",
+      "text": "23. Loans by public body requiring National Assembly approval"
+    },
+    {
+      "number": "24",
+      "heading": "24. Reporting requirements for public body",
+      "text": "24. Reporting requirements for public body"
+    },
+    {
+      "number": "25",
+      "heading": "25. Establishment of sinking funds for redemption of bonds or stock",
+      "text": "25. Establishment of sinking funds for redemption of bonds or stock"
+    },
+    {
+      "number": "26",
+      "heading": "26. Establishment of sinking funds in other cases",
+      "text": "26. Establishment of sinking funds in other cases"
+    },
+    {
+      "number": "27",
+      "heading": "27. Contribution to sinking fund",
+      "text": "27. Contribution to sinking fund"
+    },
+    {
+      "number": "28",
+      "heading": "28. Withdrawal of money from sinking fund",
+      "text": "28. Withdrawal of money from sinking fund"
+    },
+    {
+      "number": "29",
+      "heading": "29. Deficiency in sinking fund to be charged on Consolidated Fund",
+      "text": "29. Deficiency in sinking fund to be charged on Consolidated Fund"
+    },
+    {
+      "number": "30",
+      "heading": "30. Regulations for sinking funds",
+      "text": "30. Regulations for sinking funds"
+    },
+    {
+      "number": "31",
+      "heading": "31. Power to give guarantees",
+      "text": "31. Power to give guarantees"
+    },
+    {
+      "number": "32",
+      "heading": "32. Approval of guarantee by National Assembly",
+      "text": "32. Approval of guarantee by National Assembly"
+    },
+    {
+      "number": "33",
+      "heading": "33. Payment of guarantee fee",
+      "text": "33. Payment of guarantee fee"
+    },
+    {
+      "number": "34",
+      "heading": "34. Maximum amount of guarantees",
+      "text": "34. Maximum amount of guarantees"
+    },
+    {
+      "number": "35",
+      "heading": "35. Beneficiary to reimburse all costs",
+      "text": "35. Beneficiary to reimburse all costs"
+    },
+    {
+      "number": "36",
+      "heading": "36. Indemnities",
+      "text": "36. Indemnities"
+    },
+    {
+      "number": "37",
+      "heading": "37. Guarantees and indemnities to be paid out of the Consolidated Fund",
+      "text": "37. Guarantees and indemnities to be paid out of the Consolidated Fund"
+    },
+    {
+      "number": "38",
+      "heading": "38. Power to raise grants",
+      "text": "38. Power to raise grants"
+    },
+    {
+      "number": "39",
+      "heading": "39. Purpose of grants",
+      "text": "39. Purpose of grants"
+    },
+    {
+      "number": "40",
+      "heading": "40. Debt sustanability analysis",
+      "text": "40. Debt sustanability analysis"
+    },
+    {
+      "number": "41",
+      "heading": "41. Debt statistical bulletin",
+      "text": "41. Debt statistical bulletin"
+    },
+    {
+      "number": "42",
+      "heading": "42. Annual public debt, guarantees and grants execution report",
+      "text": "42. Annual public debt, guarantees and grants execution report"
+    },
+    {
+      "number": "43",
+      "heading": "43. General restriction on raising of loans",
+      "text": "43. General restriction on raising of loans"
+    },
+    {
+      "number": "44",
+      "heading": "44. Minister and other person not responsible for fulfilment of trusts",
+      "text": "44. Minister and other person not responsible for fulfilment of trusts"
+    },
+    {
+      "number": "45",
+      "heading": "45. Minister may delegate functions to public officer",
+      "text": "45. Minister may delegate functions to public officer"
+    },
+    {
+      "number": "46",
+      "heading": "46. Financial misconduct by public officer or controlling body",
+      "text": "46. Financial misconduct by public officer or controlling body"
+    },
+    {
+      "number": "47",
+      "heading": "47. Disciplinary proceedings",
+      "text": "47. Disciplinary proceedings"
+    },
+    {
+      "number": "48",
+      "heading": "48. Offence by principal officer, shareholder or partner of body corporate",
+      "text": "48. Offence by principal officer, shareholder or partner of body corporate"
+    },
+    {
+      "number": "49",
+      "heading": "49. Regulations",
+      "text": "49. Regulations"
+    },
+    {
+      "number": "50",
+      "heading": "50. Repeal of Cap. 366 and Cap. 350 and Savings and transitional",
+      "text": "50. Repeal of Cap. 366 and Cap. 350 and Savings and transitional"
+    },
+    {
+      "number": "1",
+      "heading": "1. This Act may be cited as the Public Debt Management Short title",
+      "text": "1. This Act may be cited as the Public Debt Management Short title"
+    },
+    {
+      "number": "2",
+      "heading": "2. In this Act, unless the context otherwise requires — Interpretation",
+      "text": "2. In this Act, unless the context otherwise requires — Interpretation"
+    },
+    {
+      "number": "3",
+      "heading": "3. The Government shall, in the management of debt over Government",
+      "text": "3. The Government shall, in the management of debt over Government"
+    },
+    {
+      "number": "4",
+      "heading": "4. (1) The Minister shall cause the preparation of a Medium Medium",
+      "text": "4. (1) The Minister shall cause the preparation of a Medium Medium"
+    },
+    {
+      "number": "8",
+      "heading": "8. (1) The Debt Management Office shall prepare and submit Annual",
+      "text": "8. (1) The Debt Management Office shall prepare and submit Annual"
+    },
+    {
+      "number": "9",
+      "heading": "9. The Minister shall review the annual borrowing plan where Review of",
+      "text": "9. The Minister shall review the annual borrowing plan where Review of"
+    },
+    {
+      "number": "10",
+      "heading": "10. The Minister shall submit, on a bi-annual basis, to the",
+      "text": "10. The Minister shall submit, on a bi-annual basis, to the"
+    },
+    {
+      "number": "12",
+      "heading": "12. (1) The Minister may raise a loan under section 11 to— Purpose of",
+      "text": "12. (1) The Minister may raise a loan under section 11 to— Purpose of"
+    },
+    {
+      "number": "13",
+      "heading": "13. (1) Subject to the provisions of this Act, a loan may be Methods of",
+      "text": "13. (1) Subject to the provisions of this Act, a loan may be Methods of"
+    },
+    {
+      "number": "14",
+      "heading": "14. (1) Where a state of public emergency, war or threatened Suspension",
+      "text": "14. (1) Where a state of public emergency, war or threatened Suspension"
+    },
+    {
+      "number": "17",
+      "heading": "17. (1) Subject to this Act, the Minister may enter into a",
+      "text": "17. (1) Subject to this Act, the Minister may enter into a"
+    },
+    {
+      "number": "19",
+      "heading": "19. (1) A debt charge arising from the raising of a loan under Debt charge",
+      "text": "19. (1) A debt charge arising from the raising of a loan under Debt charge"
+    },
+    {
+      "number": "20",
+      "heading": "20. (1) The Bank of Zambia shall act as the agent of the Agents to",
+      "text": "20. (1) The Bank of Zambia shall act as the agent of the Agents to"
+    },
+    {
+      "number": "21",
+      "heading": "21. (1) A loan shall not be granted out of the Consolidated Power to",
+      "text": "21. (1) A loan shall not be granted out of the Consolidated Power to"
+    },
+    {
+      "number": "25",
+      "heading": "25. (1) The Minister shall establish a sinking fund for the Establishment",
+      "text": "25. (1) The Minister shall establish a sinking fund for the Establishment"
+    },
+    {
+      "number": "26",
+      "heading": "26. The Minister may establish a sinking fund for the purpose Establishment",
+      "text": "26. The Minister may establish a sinking fund for the purpose Establishment"
+    },
+    {
+      "number": "27",
+      "heading": "27. Where a sinking fund is established under section 25 or 26, Contribution",
+      "text": "27. Where a sinking fund is established under section 25 or 26, Contribution"
+    },
+    {
+      "number": "28",
+      "heading": "28. (1) Money shall not be withdrawn from a sinking fund for Withdrawal",
+      "text": "28. (1) Money shall not be withdrawn from a sinking fund for Withdrawal"
+    },
+    {
+      "number": "29",
+      "heading": "29. Where a sinking fund established under this Part is Deficiency",
+      "text": "29. Where a sinking fund established under this Part is Deficiency"
+    },
+    {
+      "number": "30",
+      "heading": "30. The Minister may, by statutory instrument, prescribe the Regulations",
+      "text": "30. The Minister may, by statutory instrument, prescribe the Regulations"
+    },
+    {
+      "number": "34",
+      "heading": "34. (1) The total contingent liability for guarantees issued under Maximum",
+      "text": "34. (1) The total contingent liability for guarantees issued under Maximum"
+    },
+    {
+      "number": "35",
+      "heading": "35. (1) A beneficiary shall, where the beneficiary defaults Beneficiary",
+      "text": "35. (1) A beneficiary shall, where the beneficiary defaults Beneficiary"
+    },
+    {
+      "number": "40",
+      "heading": "40. (1) The Minister shall cause a debt sustainability analysis",
+      "text": "40. (1) The Minister shall cause a debt sustainability analysis"
+    },
+    {
+      "number": "41",
+      "heading": "41. (1) The Minister shall, once every quarter, cause to be",
+      "text": "41. (1) The Minister shall, once every quarter, cause to be"
+    },
+    {
+      "number": "42",
+      "heading": "42. (1) The Minister shall, within three months after the end Annual",
+      "text": "42. (1) The Minister shall, within three months after the end Annual"
+    },
+    {
+      "number": "47",
+      "heading": "47. (1) A charge of financial misconduct against a public Disciplinary",
+      "text": "47. (1) A charge of financial misconduct against a public Disciplinary"
+    },
+    {
+      "number": "48",
+      "heading": "48. Where an offence under this Act is committed by a body Offence by",
+      "text": "48. Where an offence under this Act is committed by a body Offence by"
+    },
+    {
+      "number": "49",
+      "heading": "49. The Minister may, by statutory instrument, make Regulations",
+      "text": "49. The Minister may, by statutory instrument, make Regulations"
+    },
+    {
+      "number": "50",
+      "heading": "50. (1) The Loans and Guarantees (Authorisation) Act, 1969, Repeal of",
+      "text": "50. (1) The Loans and Guarantees (Authorisation) Act, 1969, Repeal of"
+    },
+    {
+      "number": "1",
+      "heading": "1. A body corporate established by an Act of Parliament.",
+      "text": "1. A body corporate established by an Act of Parliament."
+    },
+    {
+      "number": "2",
+      "heading": "2. A local authority established under the Local Government Act, 2019, (Act",
+      "text": "2. A local authority established under the Local Government Act, 2019, (Act"
+    },
+    {
+      "number": "3",
+      "heading": "3. A public utility.",
+      "text": "3. A public utility."
+    },
+    {
+      "number": "4",
+      "heading": "4. A body corporate in which shares are held by or on behalf of the Government.",
+      "text": "4. A body corporate in which shares are held by or on behalf of the Government."
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/ACT%20No.%2015%20OF%202022%2C%20The%20Public%20Debt%20Management_0.pdf",
+  "source_hash": "sha256:0807a646f36740106b260486993aaf7c272d6c9c597d25a12a29ad5e4e547436",
+  "fetched_at": "2026-04-11T03:05:22Z",
+  "parser_version": "0.4.0",
+  "notes": null
+}

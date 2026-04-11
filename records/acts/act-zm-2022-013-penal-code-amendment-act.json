@@ -1,0 +1,36 @@
+{
+  "id": "act-zm-2022-013-penal-code-amendment-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Penal Code (Amendment) Act",
+  "citation": "Act No. 13 of 2022",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "1. This Act may be cited as the Penal Code (Amendment) Short title",
+      "text": "1. This Act may be cited as the Penal Code (Amendment) Short title"
+    },
+    {
+      "number": "2",
+      "heading": "2. The principal Act is amended by the repeal of section 14 Repeal and",
+      "text": "2. The principal Act is amended by the repeal of section 14 Repeal and"
+    },
+    {
+      "number": "14",
+      "heading": "14. A child under the age of twelve years is not criminally Age of",
+      "text": "14. A child under the age of twelve years is not criminally Age of"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Penal%20Code%20Amendment%20Act%20No.%2013%20of%202022.pdf",
+  "source_hash": "sha256:838802ba17ab00735b2209c5e51b6dc3e2efc56dcaa60716f35626755c135387",
+  "fetched_at": "2026-04-11T03:05:11Z",
+  "parser_version": "0.4.0",
+  "notes": "Amendment act"
+}
