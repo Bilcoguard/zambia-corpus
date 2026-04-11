@@ -1,0 +1,23 @@
+{
+  "id": "act-zm-2012-011-the-medical-levy-repeal-act-2012",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Medical Levy (Repeal) Act 2012",
+  "citation": "Act No. 11 of 2012",
+  "enacted_date": "2012",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Full text (OCR needed)",
+      "text": "(Scanned PDF \u2014 text extraction failed)"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Medical%20Levy%20%28Repeal%29.PDF",
+  "source_hash": "sha256:bf8b700729d7670707ba7724a38f9f0e0996a8f6f05ac6c763625b81af7a1edd",
+  "fetched_at": "2026-04-11T15:36:33Z",
+  "parser_version": "0.1.0"
+}

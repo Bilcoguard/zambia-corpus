@@ -1,0 +1,23 @@
+{
+  "id": "act-zm-2012-010-the-income-tax-amendment-act-2012",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Income Tax (Amendment) Act (2012)",
+  "citation": "Act No. 10 of 2012",
+  "enacted_date": "2012",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Full text (OCR needed)",
+      "text": "(Scanned PDF \u2014 text extraction failed)"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Income%20tax%20act%2C%202012.PDF",
+  "source_hash": "sha256:0b4beba74ec46eb8ef6892b83f7bcfadc2a14f30592bd89a363445d02ae71166",
+  "fetched_at": "2026-04-11T15:36:29Z",
+  "parser_version": "0.1.0"
+}

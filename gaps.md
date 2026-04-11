@@ -235,3 +235,7 @@ consider Government Gazette or direct MMMD/MoJ request).
 - Act No. 11 of 2013: not found on parliament.gov.zm index (may not exist or not uploaded)
 - Act No. 17 of 2013: not found on parliament.gov.zm index (may not exist or not uploaded)
 - Act No. 18 of 2013: not found on parliament.gov.zm index (may not exist or not uploaded)
+
+### Batch 0046 — 2012 Acts gaps (2026-04-11 15:37 UTC)
+- Act No. 9 of 2012 (Customs and Excise Amendment): No PDF on node page /node/3178
+- Acts No. 6, 7, 8, 10, 11 of 2012: Scanned PDFs, OCR re-parse needed
