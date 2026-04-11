@@ -184,3 +184,8 @@ inventory.
 - **Act No. 9 of 2024** (Supplementary Appropriation) — 2 sections. Appropriation act, low count expected.
 - **Act No. 15 of 2024** (ZNPHI Amendment) — 3 sections. Amendment act, low count expected.
 - **Act No. 16 of 2024** (Judiciary Administration Amendment) — 2 sections. Amendment act, low count expected.
+
+### Batch 0034 — Low section count records (2026-04-11T09:06:47Z)
+- **The Income Tax (Amendment)** (3 sections): Amendment act, low count expected.
+- **The Mines and Minerals Development (Amendment)** (3 sections): Amendment act, low count expected.
+- **The Local Government (Amendment)** (3 sections): Amendment act, low count expected.

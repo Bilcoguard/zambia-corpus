@@ -1,0 +1,34 @@
+{
+  "id": "act-zm-2016-011-the-income-tax-amendment",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Income Tax (Amendment)",
+  "citation": "Act No. 11 of 2016",
+  "enacted_date": "2016",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Income Tax (Amendment) Short title and",
+      "text": "Act, 2016, and shall be read as one with the Income Tax Act, in commence-\nment\nthis Act referred to as the principal Act.\nCap. 323\n(2) This Act shall come into operation on 1st June, 2016."
+    },
+    {
+      "number": "2",
+      "heading": "The Ninth Schedule to the principal Act is amended by the Amendment",
+      "text": "deletion of Part I and the substitution therefor of the new Part set of Ninth\nSchedule\nout in the Appendix."
+    },
+    {
+      "number": "3",
+      "heading": "The Charging Schedule to the principal Act is amended in Amendment",
+      "text": "paragraph 3 by— to\nCharging\n(a) the deletion of subparagraphs (f) and (g) and the substitution Schedule\ntherefor of the following:\n(f) on income from mining operations, at the rate of\nthirty percent; and\n(b) by the re-numbering of paragraph (h) as paragraph (g).\nSingle copies of this Act may be obtained from the Government Printer\nP.O. Box 30136, 10101 Lusaka. Price K4.00\n400 No. 11 of 2016] The Income Tax (Amendment)\nAPPENDIX I\nPRESUMPTIVE TAX\nPART I\nType of Vehicle Amount of tax per Vehicle\n(Seating Capacity) (Per annum)\n64 seater and above K7,200.00\n50 - 63 seater K6,000.00\n36 - 49 seater K4,800.00\n22 - 35 seater K3,600.00\n18 - 21 seater K2,400.00\n12 - 17 seater K1,200.00\nBelow 12 seater (including taxis) K600.00"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/The%20Income%20Tax%20%28Amendment%29%20%20Act%2C%202016.pdf",
+  "source_hash": "sha256:01d7034a9b82fc205efcdf63850cf30a7c0081a6296ad4c6262fc0f44bf98e77",
+  "fetched_at": "2026-04-11T09:05:11Z",
+  "parser_version": "0.3.0",
+  "node_url": "https://www.parliament.gov.zm/node/5209"
+}
