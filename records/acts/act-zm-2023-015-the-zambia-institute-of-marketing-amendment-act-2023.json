@@ -4,36 +4,30 @@
   "jurisdiction": "ZM",
   "title": "The Zambia Institute of Marketing (Amendment) Act, 2023",
   "citation": "Act No. 15 of 2023",
-  "date_of_assent": null,
+  "date_of_assent": "2023-12-22",
   "commencement_date": null,
   "in_force": true,
-  "version_type": "amendment",
-  "consolidated_as_of": null,
   "amended_by": [],
   "repealed_by": null,
   "sections": [
     {
+      "number": "2022",
+      "heading": "26th December, 2023",
+      "text": "ENACTED by the Parliament of Zambia. Enactment"
+    },
+    {
       "number": "1",
-      "title": "This Act may be cited as the Zambia Institute of Marketing Short title",
-      "part": null,
-      "part_title": null,
-      "page_start": 1,
-      "body": "(Amendment) Act, 2023, and shall be read as one with the Zambia Act No. 2 of\nInstitute of Marketing Act, 2022, in this Act referred to as the 2022\nprincipal Act.",
-      "subsections": []
+      "heading": "This Act may be cited as the Zambia Institute of Marketing Short title",
+      "text": "(Amendment) Act, 2023, and shall be read as one with the Zambia Act No. 2 of\nInstitute of Marketing Act, 2022, in this Act referred to as the 2022\nprincipal Act."
     },
     {
       "number": "2",
-      "title": "Section 2 of the principal Act is amended by the deletion Amendment",
-      "part": null,
-      "part_title": null,
-      "page_start": 1,
-      "body": "of the definition of “marketing” and the substitution therefor of the of section 2\nfollowing:\n“marketing”means a societal process by which individuals\nand groups obtain what they need and want through\ncreating, offering and freely exchanging products and\nservices of value with others and includes advertising, sales\nmanagement, personal selling, marketing communications,\npublicity, sales promotions, exhibitions, branding, packaging,\nmerchandising, distribution, warehousing, wholesaling,\nfranchising, retailing, social marketing, digital marketing,\ninternational marketing, marketing research, marketing\nconsultancy, business development, customer service,\ncustomer care and service marketing;.\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K4.00 each.\n276",
-      "subsections": []
+      "heading": "Section 2 of the principal Act is amended by the deletion Amendment",
+      "text": "of the definition of “marketing” and the substitution therefor of the of section 2\nfollowing:\n“marketing”means a societal process by which individuals\nand groups obtain what they need and want through\ncreating, offering and freely exchanging products and\nservices of value with others and includes advertising, sales\nmanagement, personal selling, marketing communications,\npublicity, sales promotions, exhibitions, branding, packaging,\nmerchandising, distribution, warehousing, wholesaling,\nfranchising, retailing, social marketing, digital marketing,\ninternational marketing, marketing research, marketing\nconsultancy, business development, customer service,\ncustomer care and service marketing;.\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K4.00 each.\n276"
     }
   ],
   "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2015%20of%202023%2C%20The%20Zambia%20Institute%20of%20Marketing%20%28Amendment%29.pdf",
   "source_hash": "sha256:9f5550bcc8339e9158840827d61a9e27fd80455038e491ee9296afa370939913",
-  "fetched_at": "2026-04-11T00:06:33Z",
-  "parser_version": "0.4.0",
-  "notes": "Fetched from parliament.gov.zm /node/11538. Batch 21."
+  "fetched_at": "2026-04-11T08:06:40Z",
+  "parser_version": "0.2.0"
 }

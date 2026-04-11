@@ -4,72 +4,45 @@
   "jurisdiction": "ZM",
   "title": "The Marriage (Amendment) Act, 2023",
   "citation": "Act No. 13 of 2023",
-  "date_of_assent": null,
+  "date_of_assent": "2023-12-22",
   "commencement_date": null,
   "in_force": true,
-  "version_type": "amendment",
-  "consolidated_as_of": null,
   "amended_by": [],
   "repealed_by": null,
   "sections": [
     {
       "number": "1",
-      "title": "This Act may be cited as the Marriage (Amendment) Act, Short title",
-      "part": null,
-      "part_title": null,
-      "page_start": 1,
-      "body": "2023, and shall be read as one with the Marriage Act, in this Act\nCap. 50\nreferred to as the principal Act.",
-      "subsections": []
+      "heading": "This Act may be cited as the Marriage (Amendment) Act, Short title",
+      "text": "2023, and shall be read as one with the Marriage Act, in this Act\nCap. 50\nreferred to as the principal Act."
     },
     {
       "number": "2",
-      "title": "The principal Act is amended in section 2 by the insertion Amendment",
-      "part": null,
-      "part_title": null,
-      "page_start": 1,
-      "body": "of the following new definition in the appropriate place: of section 2\n“child” has the meaning assigned to the word in the\nConstitution;.\nCap. 1",
-      "subsections": []
+      "heading": "The principal Act is amended in section 2 by the insertion Amendment",
+      "text": "of the following new definition in the appropriate place: of section 2\n“child” has the meaning assigned to the word in the\nConstitution;.\nCap. 1"
     },
     {
       "number": "3",
-      "title": "The principal Act is amended by the repeal of section 33 Repeal and",
-      "part": null,
-      "part_title": null,
-      "page_start": 1,
-      "body": "and the substitution therefor of the following: replacement\nof section 33",
-      "subsections": []
+      "heading": "The principal Act is amended by the repeal of section 33 Repeal and",
+      "text": "and the substitution therefor of the following: replacement\nof section 33"
     },
     {
       "number": "33",
-      "title": "A marriage between persons either of whom is a",
-      "part": null,
-      "part_title": null,
-      "page_start": 1,
-      "body": "Void marriage\nchild, is void.",
-      "subsections": []
+      "heading": "A marriage between persons either of whom is a",
+      "text": "Void marriage\nchild, is void."
     },
     {
       "number": "4",
-      "title": "The principal Act is amended by the repeal of section 34 Repeal and",
-      "part": null,
-      "part_title": null,
-      "page_start": 1,
-      "body": "and the substitution therefor of the following: replacement\nof section 34",
-      "subsections": []
+      "heading": "The principal Act is amended by the repeal of section 34 Repeal and",
+      "text": "and the substitution therefor of the following: replacement\nof section 34"
     },
     {
       "number": "34",
-      "title": "(1) Nothing contained in this Act shall affect the Marriage",
-      "part": null,
-      "part_title": null,
-      "page_start": 1,
-      "body": "validity of any marriage contracted under or in accordance under African\nCustomary\nwith any African customary law, or in any manner apply to law\nmarriages so contracted.\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K4.00 each.\n260 No. 13 of 2023] Marriage (Amendment)\n(2) Despite subsection (1), section 33 shall apply to a\nmarriage contracted under or in accordance with any\nAfrican customary law.\n(3) Any person who is married under this Act or whose\nmarriage is declared by this Act to be valid, shall be\nincapable, during the continuance of such marriage, of\ncontracting a valid marriage under any African Customary\nlaw.",
-      "subsections": []
+      "heading": "1) Nothing contained in this Act shall affect the Marriage",
+      "text": "validity of any marriage contracted under or in accordance under African\nCustomary\nwith any African customary law, or in any manner apply to law\nmarriages so contracted.\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K4.00 each.\n260 No. 13 of 2023] Marriage (Amendment)\n(2) Despite subsection (1), section 33 shall apply to a\nmarriage contracted under or in accordance with any\nAfrican customary law.\n(3) Any person who is married under this Act or whose\nmarriage is declared by this Act to be valid, shall be\nincapable, during the continuance of such marriage, of\ncontracting a valid marriage under any African Customary\nlaw."
     }
   ],
   "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2013%20of%202023%2C%20The%20Marriage%20%28Amendment%29%20Act.pdf",
   "source_hash": "sha256:83eb7dea1030db63b043d6f39fc733157937d76ef91e994f689c105737d20494",
-  "fetched_at": "2026-04-11T00:06:24Z",
-  "parser_version": "0.4.0",
-  "notes": "Fetched from parliament.gov.zm /node/11536. Batch 21."
+  "fetched_at": "2026-04-11T08:06:34Z",
+  "parser_version": "0.2.0"
 }
