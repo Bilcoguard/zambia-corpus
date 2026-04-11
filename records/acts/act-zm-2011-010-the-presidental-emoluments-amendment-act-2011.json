@@ -1,0 +1,39 @@
+{
+  "id": "act-zm-2011-010-the-presidental-emoluments-amendment-act-2011",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Presidental (Emoluments) (Amendment) Act, 2011",
+  "citation": "Act No. 10 of 2011",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Presidential Short title",
+      "body": "This Act may be cited as the Presidential Short title\n(Emoluments) (Amendment) Act, 2011, and shall be read\nCap. 261\nas one with the Presidential (Emoluments) Act, in this Act\n5 referred to as the principal Act.",
+      "page_start": 2
+    },
+    {
+      "number": "2",
+      "title": "The principal Act is amended by the repeal of section Repeal and",
+      "body": "The principal Act is amended by the repeal of section Repeal and\nthree and the substitution therefor of the following: replacement\nof section 3",
+      "page_start": 2
+    },
+    {
+      "number": "3",
+      "title": "(1) A person who has held the office of",
+      "body": "(1) A person who has held the office of\nGratuity\nPresident shall, upon the expiration of a term of office\n10 or upon ceasing to be President, be paid a gratuity\nequal to one hundred percent of the aggregate amount\nof emoluments paid or payable to the person in respect\nof the period spent in office.\n(2) Where a person who holds office of President\n15 ceases to hold office—\n(a) by reason of death; or\n(b) when a new President assumes office after\nan election following the dissolution of Par-\nliament before its full term;\n20 that person shall be deemed to have served as President\nfor the purpose of this section.\nN.A.B. 11, 2011",
+      "page_start": 2
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Bills%20-Presidential%20%28Emoluments%29%28Amendment%29%202011.pdf",
+  "source_hash": "sha256:2258077f64cb88811197c2e6cbbf95cbdcecdbcc0479ee54fe175e159dcc25df",
+  "fetched_at": "2026-04-11T17:38:31Z",
+  "parser_version": "0.4.0",
+  "notes": "Fetched from parliament.gov.zm node page. 3 sections parsed. PDF 13463 bytes."
+}

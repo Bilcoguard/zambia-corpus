@@ -1,0 +1,39 @@
+{
+  "id": "act-zm-2011-007-the-high-court-amendment-act-2011",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The High Court (Amendment) Act (2011)",
+  "citation": "Act No. 7 of 2011",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the High Court (Amendment) Short title",
+      "body": "This Act may be cited as the High Court (Amendment) Short title\nAct, 2011, and shall be read as one with the High Court Act, in this\nAct referred to as the principal Act. Cap. 27\n5 2. The principal Act is amended by the deletion of section Repeal and\nreplacement\nten and the substitution therefor of the following:\nof section 10",
+      "page_start": 1
+    },
+    {
+      "number": "2",
+      "title": "(1) The jurisdiction vested in the Court shall, as regards Practice and",
+      "body": "(1) The jurisdiction vested in the Court shall, as regards Practice and\nprocedure\npractice and procedure, be exercised in the manner provided\nby this Act, the Criminal Procedure Code, the Matrimonial Cap. 88\nAct No. 20\n10 Causes Act, 2007, or any other written law, or by such rules,\nof 2007\norders or directions of the Court as may be made under this\nAct, the Criminal Procedure Code, the Matrimonial Causes Cap. 88\nAct, 2007, or such written law, and in default thereof in Act No. 20\nof 2007\nsubstantial conformity with the Supreme Court Practice, 1999\n15 (White Book) of England and subject to subsection (2), the\nlaw and practice applicable in England in the High Court of\nJustice up to 31st December, 1999.\n(2) The Civil Court Practice, 1999 (Green Book) of\nEngland and any civil court practice rules issued in England\n20 after 31st December, 1999, shall not apply to Zambia.",
+      "page_start": 1
+    },
+    {
+      "number": "3",
+      "title": "Section eleven of the principal Act is amended— Amendment",
+      "body": "Section eleven of the principal Act is amended— Amendment\nof section\n(a) by the deletion of subsection (1); and 11\n(b) by the renumbering of subsections (2), (3), (4) and (5) as\nsubsections (1), (2), (3) and (4), respectively.\nN.A.B. 8, 2011\nCopies of this Act can be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka. Price K2,000 each.\n76",
+      "page_start": 1
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/The%20High%20Court%20Amendment%20Act%2C%20%202011.pdf",
+  "source_hash": "sha256:d275342576806cee0fae14ac00e4bf2d829a58716c13e1d1d79d0ff8e686962b",
+  "fetched_at": "2026-04-11T17:38:15Z",
+  "parser_version": "0.4.0",
+  "notes": "Fetched from parliament.gov.zm node page. 3 sections parsed. PDF 16090 bytes."
+}

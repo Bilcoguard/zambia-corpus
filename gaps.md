@@ -251,3 +251,7 @@ consider Government Gazette or direct MMMD/MoJ request).
 - No PDF on node page for 2011 Excess Expenditure Appropriation Act
 - No PDF on node page for 2011 Mines and Minerals Development (Amendment) Act
 - 4 duplicate IDs detected and cleaned (slug variation with/without 'the-' prefix)
+
+## Batch 0050 (2026-04-11T17:39:55Z)
+- act-zm-2011-008-the-supreme-court-amendment-act-2011: 0 sections parsed — likely scanned PDF, needs OCR re-parse
+- act-zm-2011-009-the-zambia-institute-of-advanced-legal-education-amendment-act-2011: 0 sections parsed — scanned PDF (1.2MB), needs OCR re-parse

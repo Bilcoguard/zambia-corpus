@@ -1,0 +1,33 @@
+{
+  "id": "act-zm-2011-011-day-nurseries-repeal-act-2011",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Day_Nurseries_(Repeal) Act, 2011",
+  "citation": "Act No. 11 of 2011",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "3",
+      "title": "(1) The Day Nurseries Act, 1957, is hereby repealed. Repeal of",
+      "body": "(1) The Day Nurseries Act, 1957, is hereby repealed. Repeal of\nCap 313\nNotwithstanding subsection (1), a certificate of registration\nissued under the repealed Act shall be valid for a period of six Act No. 63\nmonths after which the holder thereof shall apply for registration of 1957\nin accordance with the provisions of the Education Act, 2011. Act No. 23\nof 2011\nNotwithstanding subsection (1), any existing rights\nconferred on a person under the repealed Act shall continue to be Cap 313\nheld by the person as if conferred under the Education Act, 2011, Act No. 23\nof 211\nand for the purposes of the Education Act, 2011.\nAct No. 23\nof 2011",
+      "page_start": 1
+    },
+    {
+      "number": "4",
+      "title": "(1) Any legal proceedings pending immediately before the Legal",
+      "body": "(1) Any legal proceedings pending immediately before the Legal\npublication of this Act by or against a local authority may be proceedings\ncontinued by or against the Government.\n(2) After the publication of this Act, proceedings in respect of\nany right, liability or obligation which was vested in, held, enjoyed,\nincurred or suffered by a local authority, may be instituted by or\nagainst the Government.\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K1,000 each.\n86\n1",
+      "page_start": 1
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Day_Nurseries_%28Repeal%29%2C_Act%2C%20No.%2011%20of%202011.pdf",
+  "source_hash": "sha256:162fffea1406b9f06832e9c03b59af4150a1d61e7c8993b3f50a55312bfa9eb1",
+  "fetched_at": "2026-04-11T17:38:37Z",
+  "parser_version": "0.4.0",
+  "notes": "Fetched from parliament.gov.zm node page. 2 sections parsed. PDF 359934 bytes."
+}
