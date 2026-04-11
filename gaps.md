@@ -196,3 +196,13 @@ inventory.
 
 ### Batch 0040 — 2015 Act No. 2 no PDF
 - **Act No. 2 of 2015** (Anti-Terrorism (Amendment) Act, 2015): No PDF on https://www.parliament.gov.zm/node/4542
+
+### Batch 0042 — 2015 Acts gaps
+- **Act No. 10 of 2015** (The Zambia Wildlife Act): No PDF found on parliament.gov.zm
+- **Act No. 14 of 2015** (The Appropriation Act): No PDF found on parliament.gov.zm
+- **Act No. 15 of 2015** (The Zambia Institute of Chartered Accountants Act): No PDF found on parliament.gov.zm
+- **Act No. 16 of 2015** (The National Health Insurance Act): No PDF found on parliament.gov.zm
+- **Act No. 17 of 2015** (The Cyber Security and Cyber Crimes Act): No PDF found on parliament.gov.zm
+- **Act No. 18 of 2015** (The Electronic Communications and Transactions Act): No PDF found on parliament.gov.zm
+- **Act No. 19 of 2015** (The Public-Private Partnership Act): No PDF found on parliament.gov.zm
+- **Act No. 20 of 2015** (The Planning and Budgeting Act): No PDF found on parliament.gov.zm

@@ -1,0 +1,28 @@
+{
+  "id": "act-zm-2015-020-lands-amendment-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Lands (Amendment) Act",
+  "citation": "Act No. 20 of 2015",
+  "enacted_date": "2015",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "ThisActmaybecitedastheLands (Amendment)Act, Shorttitle",
+      "text": "and\n2015, and shall be read as one with the Lands Act, in this Act\ncommencement\nreferredtoastheprincipalAct. Cap.184\n(2) ThisActshallcomeintooperationon1stJanuary,2016."
+    },
+    {
+      "number": "2",
+      "heading": "SectionfouroftheprincipalActisamended— Amendment",
+      "text": "of section4\n(a) by the deletion of subsection (1) and the substitution\nthereforofthefollowing:\n(1) ThePresidentshallnotalienatelandunder\nsubsection(2)or(3)ofsectionthreewithoutreceiving\nconsideration,inmoney,forsuchalienationandground\nrentforsuchlandexceptwherethe alienationisfor\napublicpurpose.;and\n(b)insubsection(2)—\n(i)bytheinsertioninparagraph(g),immediatelyafter\nthe word “purposes”, of the words “by the\nGovernment”;and\n(ii) by the insertion in paragraph (h), immediately\nafter the word “resources”, of the words “by\ntheGovernment”.\nSinglecopiesofthisActmaybeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka,PriceK2.00each.\n452 No.20 of 2015] Lands (Amendment)\nAmendment 3. SectionsixteenoftheprincipalActisamendedinparagraph\nof\nsection16 (b)of subsection(2) bythe deletion of the words “seventy-five”\nandthesubstitutionthereforofthewords“twenty-five”."
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/The%20Lands%20Amendment%20Act%20No.%2020%20of%202015.pdf",
+  "source_hash": "sha256:4605c1b6448411a4231bbb8412176840cfd2b73503c701e547d6ae9e99b2707f",
+  "fetched_at": "2026-04-11T13:14:05Z",
+  "parser_version": "0.4.0"
+}
