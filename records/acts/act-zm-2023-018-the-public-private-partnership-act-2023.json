@@ -1,0 +1,885 @@
+{
+  "id": "act-zm-2023-018-the-public-private-partnership-act-2023",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Public-Private Partnership Act, 2023",
+  "citation": "Act No. 18 of 2023",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "Short title and commencement",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "2",
+      "title": "Interpretation",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "3",
+      "title": "Application",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "4",
+      "title": "Continuation and renaming of Public-Private Partnership Unit",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "5",
+      "title": "Functions of Public-Private Partnership Office",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "6",
+      "title": "Director-General and other staff",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "7",
+      "title": "Establishment of Council",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "8",
+      "title": "Functions of Council",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "9",
+      "title": "Continuation of Technical Committee",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "10",
+      "title": "Functions of Technical Committee",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "11",
+      "title": "Project identification and conceptualisation",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "12",
+      "title": "Submission of project list",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "13",
+      "title": "Conceptualisation of project by contacting authority",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "14",
+      "title": "Project identification and conceptualisation by Public-Private Partnership",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "15",
+      "title": "Variation of project list",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "16",
+      "title": "Feasibility study",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "17",
+      "title": "Appraisal and approval of feasibility study report and project proposal",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "18",
+      "title": "Request for expression of interest",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "19",
+      "title": "Pre-selection proceedings",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "20",
+      "title": "Participation of consortia",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "21",
+      "title": "Qualification of bidder of consortium",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "22",
+      "title": "Evaluation committee",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "23",
+      "title": "Disqualification of bidder",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "24",
+      "title": "Approval of evaluation report by Public-Private Partnership Office",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "25",
+      "title": "Request for proposals under single stage procedure",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "26",
+      "title": "Request for proposals under two-stage procedures",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "27",
+      "title": "Content of request for proposal",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "28",
+      "title": "Bid securities",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "29",
+      "title": "Clarifications and modifications",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "30",
+      "title": "Evaluation criteria",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "31",
+      "title": "Evaluation of proposal",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "32",
+      "title": "Negotiations",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "33",
+      "title": "Approval of negotiation report by Council",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "34",
+      "title": "Notification of approval of public-private partnership agreement",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "35",
+      "title": "Execution of public-private partnership agreement",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "36",
+      "title": "Notice of award",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "37",
+      "title": "Confidentiality",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "38",
+      "title": "Record of selection and award proceedings",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "39",
+      "title": "Termination or cancellation of procurement proceedings",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "40",
+      "title": "Submission of unsolicited proposal",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "41",
+      "title": "Preliminary approval of unsolicited proposal",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "42",
+      "title": "Inspection of project site",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "43",
+      "title": "Evaluation of unsolicited proposals",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "44",
+      "title": "Preliminary approval",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "45",
+      "title": "Due diligence",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "46",
+      "title": "Procurement of unsolicited proposal",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "47",
+      "title": "Conditions for changing unsolicited bidding to solicited bidding",
+      "part": null,
+      "part_title": null,
+      "page_start": 2,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "48",
+      "title": "Circumstances authorising award without competitive procedures",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "49",
+      "title": "Procedure for direct procurement",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "50",
+      "title": "Prohibition of inappropriate influence on evaluation and other matters",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "51",
+      "title": "Standard solicitation documents",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "52",
+      "title": "Special purpose vehicle",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "53",
+      "title": "Technical expertise of contracting authority",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "54",
+      "title": "Standards and procedures",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "55",
+      "title": "Contents and implementation of public-private partnership agreement",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "56",
+      "title": "Factors in determining duration of public-private partnership agreement",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "57",
+      "title": "Extension of concession period or agreement",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "58",
+      "title": "Property and assets under public-private partnership agreement",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "59",
+      "title": "Public-Private Partnership model",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "60",
+      "title": "Subcontracting",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "61",
+      "title": "Fiscal commitment",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "62",
+      "title": "Ownership of assets",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "63",
+      "title": "Acquisition of rights related to project site",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "64",
+      "title": "Compulsory acquisition of land",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "65",
+      "title": "Easement",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "66",
+      "title": "Collection of prescribed fees or levies",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "67",
+      "title": "Security interest",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "68",
+      "title": "Assignment of public-private partnership agreement",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "69",
+      "title": "Transfer of controlling interest in concessionaire",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "70",
+      "title": "Use of infrastructure, asset, facility or other service",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "71",
+      "title": "Revision of concessionaire agreement",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "72",
+      "title": "Takeover of project",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "73",
+      "title": "Substitution of concessionaire",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "74",
+      "title": "Winding-up and handback",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "75",
+      "title": "Duties of contracting authority",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "76",
+      "title": "Project implementation",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "77",
+      "title": "Contract manager",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "78",
+      "title": "Inspection",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "79",
+      "title": "Financial management and reporting",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "80",
+      "title": "Small and medium scale public-private-partnerships",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "81",
+      "title": "Small and medium scale public-private-partnerships agreement",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "82",
+      "title": "Establishment of Public-Private Partnership Project Development Support",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "83",
+      "title": "Purpose of Fund",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "84",
+      "title": "Remission of funds",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "85",
+      "title": "Management of Fund",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "86",
+      "title": "Accounts and audit of Fund",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "87",
+      "title": "Annual report of Fund",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "88",
+      "title": "Regulations relating to Fund",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "89",
+      "title": "Recoverable project development cost",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "90",
+      "title": "Appeals",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "91",
+      "title": "Local content",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "92",
+      "title": "Registers",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "93",
+      "title": "Offences and penalties",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "94",
+      "title": "Participation in tenders under Act",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "95",
+      "title": "Regulations",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "96",
+      "title": "Repeal of Act No. 14 of 2009, and savings and transitional provisions",
+      "part": null,
+      "part_title": null,
+      "page_start": 4,
+      "body": null,
+      "subsections": []
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2018%20of%202023%2C%20The%20Public-Private%20Partnership.pdf",
+  "source_hash": "sha256:b1e0b873eb648873305a9d826ff76af318a5cdac3ad2d4cfadcd676898b9f218",
+  "fetched_at": "2026-04-11T01:06:19Z",
+  "parser_version": "0.4.0",
+  "notes": "Ingested in Phase 4 batch 0022."
+}

@@ -1,0 +1,75 @@
+{
+  "id": "act-zm-2023-022-the-income-tax-amendment-act-2023",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The  Income Tax (Amendment) Act, 2023",
+  "citation": "Act No. 22 of 2023",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "(1) This Act may be cited as the Income Tax (Amendment) Short title",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "2",
+      "title": "Section 2(1) of the principal Act is amended by the— Amendment",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "6",
+      "title": "Section 56 of the principal Act is amended by the insertion Amendment",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "7",
+      "title": "Section 82A of the principal Act is amended by the deletion Amendment",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "8",
+      "title": "Section 97A of the principal Act is amended by the insertion Amendment",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "9",
+      "title": "Section 100(1)(e) of the principal Act is amended by the— Amendment",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2022%20of%202023%2C%20The%20Income%20Tax%20%28Amendment%29.pdf",
+  "source_hash": "sha256:d56e7afe1374549d16d57c5f578a247a5d76b28381dde085caf470924e0a2a79",
+  "fetched_at": "2026-04-11T01:06:45Z",
+  "parser_version": "0.4.0",
+  "notes": "Ingested in Phase 4 batch 0022."
+}

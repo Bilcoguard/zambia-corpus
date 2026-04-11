@@ -1,0 +1,57 @@
+{
+  "id": "act-zm-2023-019-the-criminal-procedure-code-amendment-act-2023",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Criminal Procedure Code (Amendment) Act, 2023",
+  "citation": "Act No. 19 of 2023",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Criminal Procedure Code Short title",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "2",
+      "title": "The principal Act is amended by the insertion of the Amendment",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "3",
+      "title": "Section 11 of the principal Act is amended by the deletion Amendment",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "4",
+      "title": "Section 123(1) of the principal Act is amended by the Amendment",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2019%20of%202023%2C%20The%20Criminal%20Procedure%20Code%20%28Amendment%29.pdf",
+  "source_hash": "sha256:3435e36b9a85bc70f5438288bb8c09220b0eeade2009a78f8f661bd1b9b066b2",
+  "fetched_at": "2026-04-11T01:06:26Z",
+  "parser_version": "0.4.0",
+  "notes": "Ingested in Phase 4 batch 0022."
+}

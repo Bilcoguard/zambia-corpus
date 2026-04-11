@@ -1,0 +1,102 @@
+{
+  "id": "act-zm-2023-012-the-defence-amendment-act-2023",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Defence (Amendment) Act, 2023",
+  "citation": "Act No. 12 of 2023",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Defence (Amendment) Act, Short title",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "2",
+      "title": "Section 29 (1) of the principal Act is amended by the deletion Amendment",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "3",
+      "title": "Section 30 (1) of the principal Act is amended by the deletion Amendment",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "4",
+      "title": "Section 36(1) of the principal Act is amended by the deletion Amendment",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "5",
+      "title": "Section 37(b)(i) of the principal Act is amended by the Amendment",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "6",
+      "title": "The principal Act is amended by the repeal of section 71 Repeal and",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "71",
+      "title": "A person subject to military law under this Act Attempt to",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "17",
+      "title": "Section 137(2) of the principal Act is amended by the Amendment",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "18",
+      "title": "The principal Act is amended by the repeal of section 145. Repeal of",
+      "part": null,
+      "part_title": null,
+      "page_start": 3,
+      "body": null,
+      "subsections": []
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2012%20of%202023%2C%20The%20Defence%20%28Amendment%29.pdf",
+  "source_hash": "sha256:b54dc0a1dc66c556f8d0e81200488103e44e457332e6eb3d41504291874df1ef",
+  "fetched_at": "2026-04-11T01:06:05Z",
+  "parser_version": "0.4.0",
+  "notes": "Ingested in Phase 4 batch 0022."
+}

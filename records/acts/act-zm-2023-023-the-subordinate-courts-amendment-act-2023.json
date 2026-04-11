@@ -1,0 +1,39 @@
+{
+  "id": "act-zm-2023-023-the-subordinate-courts-amendment-act-2023",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Subordinate Courts (Amendment) Act, 2023",
+  "citation": "Act No. 23 of 2023",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Subordinate Courts Short title",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "2",
+      "title": "The principal Act is amended by the insertion of the Insertion of",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2023%20of%202023%2C%20The%20SubordinateCourt%20%28Amendment%29.pdf",
+  "source_hash": "sha256:90dec6318784898150b9cc55e951ab3f9809d3eed2619ee8f7e8db8e80d994bc",
+  "fetched_at": "2026-04-11T01:06:50Z",
+  "parser_version": "0.4.0",
+  "notes": "Ingested in Phase 4 batch 0022."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "act-zm-2023-020-the-penal-code-amendment-act-2023",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Penal Code (Amendment) Act, 2023",
+  "citation": "Act No. 20 of 2023",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": true,
+  "version_type": "as_enacted",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "This Act may be cited as the Penal Code (Amendment) Short title",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "2",
+      "title": "The principal Act is amended by the repeal of section 275. Repeal of",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    },
+    {
+      "number": "3",
+      "title": "The principal Act is amended by the insertion of the Insertion of",
+      "part": null,
+      "part_title": null,
+      "page_start": 1,
+      "body": null,
+      "subsections": []
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2020%20of%202023%2C%20The%20Penal%20Code%20%28Amendment%29.pdf",
+  "source_hash": "sha256:74b7923a19efa0556b8a35092e19e9d3739fb8f340c00fc06afbbe581b21ac01",
+  "fetched_at": "2026-04-11T01:06:32Z",
+  "parser_version": "0.4.0",
+  "notes": "Ingested in Phase 4 batch 0022."
+}

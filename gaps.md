@@ -165,3 +165,8 @@ inventory.
 ### Batch 0021 — Low section count records (2026-04-11)
 - **Act No. 10 of 2023** (Supplementary Appropriation) — 2 sections. Appropriation act, low count expected.
 - **Act No. 15 of 2023** (Zambia Institute of Marketing Amendment) — 2 sections. Amendment act, low count expected.
+
+### Batch 0022 — Low section count records (2026-04-11T01:07:47Z)
+- **Act No. 19 of 2023** (4 sections): The Criminal Procedure Code (Amendment) Act, 2023. Amendment act, low count expected.
+- **Act No. 20 of 2023** (3 sections): The Penal Code (Amendment) Act, 2023. Amendment act, low count expected.
+- **Act No. 23 of 2023** (2 sections): The Subordinate Courts (Amendment) Act, 2023. Amendment act, low count expected.
