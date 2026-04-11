@@ -170,3 +170,8 @@ inventory.
 - **Act No. 19 of 2023** (4 sections): The Criminal Procedure Code (Amendment) Act, 2023. Amendment act, low count expected.
 - **Act No. 20 of 2023** (3 sections): The Penal Code (Amendment) Act, 2023. Amendment act, low count expected.
 - **Act No. 23 of 2023** (2 sections): The Subordinate Courts (Amendment) Act, 2023. Amendment act, low count expected.
+
+## Batch 0024 — 2026-04-11
+
+- **Act No. 6 of 2022** (The Judges (Conditions of Service) Act, 2022.): 5 sections — brief act, may need re-parse
+- **Act No. 7 of 2022** (The Supplementary Appropriation (2022) Act, 2022.): 2 sections — brief act, may need re-parse
