@@ -193,3 +193,6 @@ inventory.
 ### Batch 0035 — 2016 Acts gap (2026-04-11)
 - Could not find 2016 Acts No. 18+ on parliament.gov.zm listing pages 15-19
 - May need to check different page range or alternative URL pattern
+
+### Batch 0040 — 2015 Act No. 2 no PDF
+- **Act No. 2 of 2015** (Anti-Terrorism (Amendment) Act, 2015): No PDF on https://www.parliament.gov.zm/node/4542
