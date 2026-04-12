@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-2009-003-value-added-tax-amendment",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Value Added Tax (Amendment)",
+  "citation": "Act No. 3 of 2009",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "3",
+      "heading": "Section ten of the principal Act is amended by the insertion Amendment",
+      "text": "3. Section ten of the principal Act is amended by the insertion Amendment\nimmediately after subsection (4) of the following new subsections: of section 10\n(5) Where specified supplies that are listed in the Third\nSchedule are supplied locally by a taxable supplier, the taxable value\nof the supplies shall be the greater of—\nthe taxable value ascertained in accordance with\nsubsection (1); or\nthe amount by which the recommended retail price\nexceeds the tax payable in respect of the supply.\n(6) Where the specified supplies are imported, the taxable\nvalue of such supplies shall be the greater of\nSingle copies of this Act may be obtained from the Government Printer\nP 0. Box 30136, 10101, Lusaka. Price K2000\n30 No. 3 of 2009] Value Added Tax (Amendment)\nthe taxable value ascertained in accordance with\nsubsection (3); or\nthe amount by which the recommended retail price\nexceeds the tax payable in respect of the supply.\n(7) Every taxable supplier involved in the supply of goods\nand services listed in the Third Schedule shall submit to the\nCommissioner-General a schedule of the recommended retail\nprices, in such manner and form as the Commissioner-General\nmay, by administrative rule, prescribe.\nAmendment of Section forty-two of the principal Act is amended by\nsection 42 the deletion of subsection (1) and the substitution therefor of\nthe following subsection:\n( I ) A taxable supplier shall keep, in the English language,\nsuch records relating to the business carried on by the taxable\nsupplier, and preserve them for a period of six years or such\nlonger period as the Commissioner-General may, by notice in\nwriting, require in any particular case.\nInsertion of The principal Act is amended by the insertion of the\nnew Third Third Schedule set out in the Appendix to this Act.\nSchedule\nValue Added Tax (Amendment) [No. 3 of 2009 31\nAPPENDIX\n(Section 6)\nTHIRD SCHEDULE\n(Section 10)\nSPECIFIED SUPPLIES\nBulk and bagged cement (local and imported)\nCarbonated drinks (local and imported)\nNon-carbonated drinks (local and imported)\nMaheu products\nClear beer (local and imported, bottled and canned)\nOpaque beer (bulk and packed)\nCigarettes (local and imported)\nAir time"
+    },
+    {
+      "number": "9",
+      "heading": "Mineral water (local and imported)",
+      "text": "9. Mineral water (local and imported)\n32"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Value%20Added%20Tax%20%28Amendment%29%20Act%2C%202009.PDF",
+  "source_hash": "sha256:290ef45e6c3dac80c2efc048bd36cd1ee74c648cafeccef81f435701e254471f",
+  "fetched_at": "2026-04-12T16:35:28Z",
+  "parser_version": "0.3.0",
+  "node_url": "https://www.parliament.gov.zm/node/3475"
+}
