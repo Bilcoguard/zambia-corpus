@@ -273,3 +273,5 @@ consider Government Gazette or direct MMMD/MoJ request).
 
 - 2010 Act No. 26: No PDF on node page (https://www.parliament.gov.zm/node/3365)
 - 2010 Act No. 23: No PDF on node page (https://www.parliament.gov.zm/node/3356)
+### Batch 0055 — Gaps (2026-04-12T14:45:12Z)
+- Act No. 1 of 2010 (The Zambia Development Agency): Scanned PDF, needs OCR re-parse. 0 chars extracted.
