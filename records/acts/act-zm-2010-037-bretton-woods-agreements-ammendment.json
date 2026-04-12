@@ -1,0 +1,36 @@
+{
+  "id": "act-zm-2010-037-bretton-woods-agreements-ammendment",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Bretton Woods Agreements (Ammendment)",
+  "citation": "Act No. 37 of 2010",
+  "enacted_date": "2010",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Bretton Woods Agreement Short title",
+      "text": "(Amendment) Act, 2010, and shall be read as one with the Bretton\nWoods Agreement Act, in this Act referred to as the principal Act. Cap. 367"
+    },
+    {
+      "number": "2",
+      "heading": "Section two of the principal Act is amended by the insertion, Amendment",
+      "text": "in the appropriate place, of the following new definition: of section 2\n“ approved amendments of 2008 ” means the amendments to\nthe Fund Agreement approved by the Board of Governors\nof the Fund in Resolution 63-2 of 28th April, 2008, and\nResolution 63-3 of 5th May, 2008"
+    },
+    {
+      "number": "3",
+      "heading": "Section three of the principal Act is amended— Amendment",
+      "text": "of\n(a) in paragraph (c), by the deletion of the word “and” after section 3\nthe semi-colon;\n(b) in paragraph (d), by the deletion of the full-stop at the end\nof that paragraph and the substitution therefor of a semi-\ncolon and the word “and”; and\n(c) by the insertion, immediately after paragraph (d), of the\nfollowing new paragraph:\n(e) to accept the approved amendments of 2008 and\nto execute and deposit with the Fund, an\ninstrument stating that the Government of\nZambia has accepted the proposed amendment\nof the Articles of Agreement of the Fund to\nenhance voice and participation in the Fund and\nexpand the investment authority of the Fund.\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K1,000 each\n554"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/The%20Bretton%20Woods%20Agreements%20%28Amendment%29%20Act%20-%202010.pdf",
+  "source_hash": "sha256:39becfaf22443b5c623799b3a8a6181bb23808ac5717cb083615ee92d9285c69",
+  "fetched_at": "2026-04-12T11:42:11.058913+00:00",
+  "parser_version": "0.4.0",
+  "node_url": "https://www.parliament.gov.zm/node/3412",
+  "section_count": 3,
+  "full_text_chars": 1633
+}

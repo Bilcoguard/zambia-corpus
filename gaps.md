@@ -262,3 +262,11 @@ consider Government Gazette or direct MMMD/MoJ request).
 - act-zm-2010-048-value-added-tax-amendment: 0 sections parsed — scanned/image PDF, needs OCR re-parse
 - act-zm-2010-047-customs-and-excise-amendment: 0 sections parsed — scanned/image PDF, needs OCR re-parse
 - act-zm-2010-046-financial-intelligence-centre-2010: 0 sections parsed — scanned/image PDF, needs OCR re-parse
+
+### Batch 0052 — gaps (2026-04-12T11:42:11.107764+00:00)
+- act-zm-2010-045-veterinary-and-veterinary-para-professions-2010: 0 sections — scanned PDF, needs OCR
+- act-zm-2010-044-prohibition-and-prevention-of-money-laundering-amendment: 0 sections — scanned PDF, needs OCR
+- act-zm-2010-043-citizens-economic-empowerement-amendment: 0 sections — scanned PDF, needs OCR
+- act-zm-2010-041-lands-amendment: 0 sections — scanned PDF, needs OCR
+- act-zm-2010-040-lands-and-deeds-registry-amendment: 0 sections — scanned PDF, needs OCR
+- act-zm-2010-039-lands-tribunal-2010: 0 sections — scanned PDF, needs OCR

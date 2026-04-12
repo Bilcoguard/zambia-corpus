@@ -1,0 +1,766 @@
+{
+  "id": "act-zm-2010-038-anti-corruption-2010",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Anti Corruption 2010",
+  "citation": "Act No. 38 of 2010",
+  "enacted_date": "2010",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Short title and commencement",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "Application",
+      "text": ""
+    },
+    {
+      "number": "3",
+      "heading": "Interpretation",
+      "text": "PART II\nTHE ANTI-CORRUPTION COMMISSION"
+    },
+    {
+      "number": "4",
+      "heading": "Continuation of Commission",
+      "text": ""
+    },
+    {
+      "number": "5",
+      "heading": "Autonomy of Commission",
+      "text": ""
+    },
+    {
+      "number": "6",
+      "heading": "Functions of Commission",
+      "text": ""
+    },
+    {
+      "number": "7",
+      "heading": "Instructions by Commission",
+      "text": ""
+    },
+    {
+      "number": "8",
+      "heading": "Reports and recommendation by Commission",
+      "text": ""
+    },
+    {
+      "number": "9",
+      "heading": "Director-General",
+      "text": ""
+    },
+    {
+      "number": "10",
+      "heading": "Tenure of office of Director-General",
+      "text": ""
+    },
+    {
+      "number": "11",
+      "heading": "Powers of Director-General",
+      "text": ""
+    },
+    {
+      "number": "12",
+      "heading": "Deputy Director-General",
+      "text": ""
+    },
+    {
+      "number": "13",
+      "heading": "Investigating officers, Secretary and other staff of Commission",
+      "text": ""
+    },
+    {
+      "number": "14",
+      "heading": "Declaration of assets",
+      "text": ""
+    },
+    {
+      "number": "15",
+      "heading": "Identity card",
+      "text": ""
+    },
+    {
+      "number": "16",
+      "heading": "Prohibition of disclosure of information to unauthorised persons",
+      "text": ""
+    },
+    {
+      "number": "17",
+      "heading": "Immunity of staff",
+      "text": ""
+    },
+    {
+      "number": "18",
+      "heading": "Impersonation and procurement of officer",
+      "text": "PART III\nCORRUPTION PRACTICES"
+    },
+    {
+      "number": "19",
+      "heading": "Corrupt practices by, or with, public officers",
+      "text": ""
+    },
+    {
+      "number": "20",
+      "heading": "Corrupt transactions by, or with, private bodies",
+      "text": ""
+    },
+    {
+      "number": "21",
+      "heading": "Corrupt use of official power",
+      "text": ""
+    },
+    {
+      "number": "22",
+      "heading": "Corrupt transactions by, or with, agents",
+      "text": ""
+    },
+    {
+      "number": "23",
+      "heading": "Corruption of members of public or private bodies with regard to meetings",
+      "text": ""
+    },
+    {
+      "number": "24",
+      "heading": "Corruption of witness",
+      "text": ""
+    },
+    {
+      "number": "25",
+      "heading": "Corrupt practices by, or with, foreign public officials",
+      "text": ""
+    },
+    {
+      "number": "26",
+      "heading": "Corruption in relation to sporting events",
+      "text": ""
+    },
+    {
+      "number": "27",
+      "heading": "Conflict of interest",
+      "text": ""
+    },
+    {
+      "number": "28",
+      "heading": "Gratification for giving assistance, etc. with regard to contracts",
+      "text": "Single copies of this Act may be obtained from the Government Printer\nP.O. Box 30136, 10101 Lusaka. Price K25,000\n556 No. 38 of 2010] Anti-Corruption"
+    },
+    {
+      "number": "29",
+      "heading": "Gratification for procuring withdrawal of tender",
+      "text": ""
+    },
+    {
+      "number": "30",
+      "heading": "Obstruction of justice",
+      "text": ""
+    },
+    {
+      "number": "31",
+      "heading": "Gratification with regard to bidding at auction sale",
+      "text": ""
+    },
+    {
+      "number": "32",
+      "heading": "Coercion of investor",
+      "text": ""
+    },
+    {
+      "number": "33",
+      "heading": "Corrupt aquisition of public property and revenue",
+      "text": ""
+    },
+    {
+      "number": "34",
+      "heading": "Electoral corruption",
+      "text": ""
+    },
+    {
+      "number": "35",
+      "heading": "Concealment of property",
+      "text": ""
+    },
+    {
+      "number": "36",
+      "heading": "Dealing with, using and concealing gratification",
+      "text": ""
+    },
+    {
+      "number": "37",
+      "heading": "Concealment of offence",
+      "text": ""
+    },
+    {
+      "number": "38",
+      "heading": "Public officer’s duty to report",
+      "text": ""
+    },
+    {
+      "number": "39",
+      "heading": "Attempts and conspiracies",
+      "text": ""
+    },
+    {
+      "number": "40",
+      "heading": "General penalty",
+      "text": ""
+    },
+    {
+      "number": "41",
+      "heading": "Restitution",
+      "text": ""
+    },
+    {
+      "number": "42",
+      "heading": "Recovery of gratification by distress, etc",
+      "text": ""
+    },
+    {
+      "number": "43",
+      "heading": "Recovery of gratification corruptly received by agent",
+      "text": ""
+    },
+    {
+      "number": "44",
+      "heading": "Certification of Government valuation officer or other specialist valuer",
+      "text": ""
+    },
+    {
+      "number": "45",
+      "heading": "Effect of conviction",
+      "text": ""
+    },
+    {
+      "number": "46",
+      "heading": "Offences by body corporate or unincorporate body",
+      "text": "PART IV\nINVESTMENT OF CORRUPTION PRACTICES"
+    },
+    {
+      "number": "47",
+      "heading": "Lodging of complaint",
+      "text": ""
+    },
+    {
+      "number": "48",
+      "heading": "Consideration of complaint",
+      "text": ""
+    },
+    {
+      "number": "49",
+      "heading": "Power to require attendance before Director-General",
+      "text": ""
+    },
+    {
+      "number": "50",
+      "heading": "Search without warrant",
+      "text": ""
+    },
+    {
+      "number": "51",
+      "heading": "Search with warrant",
+      "text": ""
+    },
+    {
+      "number": "52",
+      "heading": "Inspection of banker’s books",
+      "text": ""
+    },
+    {
+      "number": "53",
+      "heading": "Power of arrest",
+      "text": ""
+    },
+    {
+      "number": "54",
+      "heading": "Seizure of property",
+      "text": ""
+    },
+    {
+      "number": "55",
+      "heading": "Custody and release of seized property",
+      "text": ""
+    },
+    {
+      "number": "56",
+      "heading": "Restriction on disposal of property",
+      "text": ""
+    },
+    {
+      "number": "57",
+      "heading": "Restriction on disposal of property by third party",
+      "text": ""
+    },
+    {
+      "number": "58",
+      "heading": "General offences",
+      "text": "PART V\nPOWERS OF THE DIRECTOR OF PUBLIC PROSECUTIONS"
+    },
+    {
+      "number": "59",
+      "heading": "Consent of Director of Public Prosecutions",
+      "text": ""
+    },
+    {
+      "number": "60",
+      "heading": "Bail where suspect or accused person about to leave Zambia",
+      "text": "Anti-Corruption [No. 38 of 2010 557\nPART VI\nEVIDENCE, PRESUMPTIONS AND OTHER MATTERS"
+    },
+    {
+      "number": "61",
+      "heading": "Presumption of Corrupt Intention",
+      "text": ""
+    },
+    {
+      "number": "62",
+      "heading": "Grant of Indemnity by Director of Public Prosecutions",
+      "text": ""
+    },
+    {
+      "number": "63",
+      "heading": "Protection of whistleblowers",
+      "text": ""
+    },
+    {
+      "number": "64",
+      "heading": "Absence of power, authority or opportunity, no defence",
+      "text": ""
+    },
+    {
+      "number": "65",
+      "heading": "Corrupt practices coming to notice of Commission, body or tribunal",
+      "text": ""
+    },
+    {
+      "number": "66",
+      "heading": "Affidavit evidence",
+      "text": ""
+    },
+    {
+      "number": "67",
+      "heading": "False, frivolous or groundless complaints or allegaitons",
+      "text": ""
+    },
+    {
+      "number": "68",
+      "heading": "Forfeiture of proceeds or property corruptly acquired",
+      "text": ""
+    },
+    {
+      "number": "69",
+      "heading": "Tampering with seized and forfeited property",
+      "text": ""
+    },
+    {
+      "number": "70",
+      "heading": "Alternative conviction of accused person",
+      "text": "PART VII\nGENERAL PROVISIONS"
+    },
+    {
+      "number": "71",
+      "heading": "Procedure for commencement of application",
+      "text": ""
+    },
+    {
+      "number": "72",
+      "heading": "Register of gifts",
+      "text": ""
+    },
+    {
+      "number": "73",
+      "heading": "Mutual legal assistance",
+      "text": ""
+    },
+    {
+      "number": "74",
+      "heading": "Supremacy of Act",
+      "text": ""
+    },
+    {
+      "number": "75",
+      "heading": "Defence",
+      "text": ""
+    },
+    {
+      "number": "76",
+      "heading": "Offences committed outside Zambia",
+      "text": ""
+    },
+    {
+      "number": "77",
+      "heading": "Extraditable offences",
+      "text": ""
+    },
+    {
+      "number": "78",
+      "heading": "Rules",
+      "text": ""
+    },
+    {
+      "number": "79",
+      "heading": "Regulations",
+      "text": ""
+    },
+    {
+      "number": "80",
+      "heading": "Repeal of Cap 91",
+      "text": ""
+    },
+    {
+      "number": "81",
+      "heading": "Staff of former Commission",
+      "text": "SCHEDULE\nAnti-Corruption [No. 38 of 2010 559\nGOVERNMENT OF ZAMBIA\nACT\nNo. 38 of 2010\nDate of Assent: 14th November, 2010\nAn Act to continue the existence of the Anti-Corruption\nCommission and provide for its powers and functions;\nprovide for the prevention, detection, investigation,\nprosecution and punishment of corrupt practices and\nrelated offences; bring the law into conformity with the\nprovisions of the regional and international conventions\nto which Zambia is a State party; repeal and replace the\nAnti-Corruption Commission Act, 1996; and provide for\nmatters connected with, or incidental to, the foregoing.\n[19th November, 2010\nENACTED by the Parliament of Zambia. Enactment\nPART I\nPRELIMINARY"
+    },
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Anti-Corruption Act, 2010, and Short title",
+      "text": "shall come into operation on such date as the President may, by and\ncommence-\nstatutory instrument, appoint.\nment"
+    },
+    {
+      "number": "2",
+      "heading": "All offences under this Act shall be enquired into, tried and Application",
+      "text": "otherwise dealt with in accordance with the Criminal Procedure\nCode and any other written law. Cap. 88"
+    },
+    {
+      "number": "3",
+      "heading": "In this Act, unless the context otherwise requires— Interpretation",
+      "text": "“agent” means a person employed by, or acting for, another\nand includes an officer of a public body or private body\nwho acts for, or on behalf of, a public body or a private\nbody or any other person, a trustee, an executor or an\nadministrator of an estate of a deceased person;\n“appropriate authority” means a person or institution to whom\na recommendation is made under section eight;\n“associate”, in relation to a person, means—\n(a) a person who is a nominee or an employee of\nthat person;\n(b) a person who manages the affairs of that person;\n(c) a firm of which that person, or that person’s\nnominee, is a partner or a person in charge or in\ncontrol of its business or affairs;\n(d) a company in which that person or that person’s\nnominee, is a director or is in charge or in control\n560 No. 38 of 2010] Anti-Corruption\nof its business or affairs, or in which that person,\nalone or together with that person’s nominee,\nholds a controlling interest or shares amounting\nto more than thirty percent of the total share\ncapital; or\n(e) the trustee of a trust, where —\n(i) the trust has been created by that\nperson; or\n(ii) the total value of the assets contributed\nby that person before or after the\ncreation of the trust, amounts, at any\ntime, to not less than twenty percent of\nthe total value of the assets of the trust;\n“Board” means the Board of the Commission constituted under\nparagraph 2 of the Schedule;\n“casual gift” means any conventional hospitality, on a modest\nscale or unsolicited gift of modest value, offered to a person\nin recognition or appreciation of that person’s services, or\nas a gesture of goodwill towards that person, and includes\nany inexpensive seasonal gift offered to staff or associates\nby a public or private body or a private individual on festive\nor other special occasions, which is not in any way\nconnected with the performance of a person’s official duty\nso as to constitute an offence under Part III;\n“Chairperson” means the person appointed as Chairperson\nunder paragraph 2 of the First Schedule;\n“Commission” means the Anti-Corruption Commission\nreferred to in section four;\n“Commissioner” means a person appointed as Commissioner\nunder paragraph 2 of the Schedule;\n“corrupt” means the soliciting, accepting, obtaining, giving,\npromising or offering of a gratification by way of a bribe\nor other personal temptation or inducement, or the misuse\nor abuse of a public office for private advantage or benefit\ncontrary to section ninety-nine of the Penal Code and Cap. 87\n“corruption” shall be construed accordingly;\n“Deputy Director-General” means a person appointed as\nDeputy Director-General under section twelve;\n“Director-General” means the person appointed as such under\nsection nine; Cap. 1\n“Director of Public Prosecutions” means the person appointed\nas such under the Constitution;\n“document”means any device by means of which information\nis recorded or stored, and includes—\n(a) anything on which there is writing;\nAnti-Corruption [No. 38 of 2010 561\n(b) anything in which there are marks, figures, symbols\nor perforations having meaning for persons\nqualified to interpret them;\n(c) anything from which sounds, images or writing\ncan be produced, with or without the aid of\nanything else; or\n(d) any of the things referred to in paragraphs (a) to\n(c) kept or maintained in electronic form;\n“foreign public official” means—\n(a) a person holding any legislative,administrative or\njudicial office at any level of the government of\na foreign State;\n(b) any person performing public functions for a\nforeign State, or any board, commission,\ncorporation or other body or authority performing\na duty or function on behalf of the foreign State;\nor\n(c) an official or agent of a public international\norganisation formed by two or more States or\ntwo or more public international organisations;\n“foreign State” means any country other than Zambia;\n“former Commission” means the Anti-Corruption Commission\nCap. 91 established under the repealed Act;\n“Government” includes any Ministry, department, Service or\nundertaking of the Government;\n“gratification” means any corrupt payment, whether in cash\nor in kind, any rebate, bonus, deduction or material gain,\nbenefit, amenity, facility, concession or favour of any\ndescription and any loan, fee, reward, advantage or gift, or\nany other thing obtained as a result of the corrupt misuse\nor abuse of public funds or property, other than a casual\ngift;\n“illegal activity” means an activity carried out which, under\nany written law in the Republic, amounts to a crime;\nCap. 281 “local authority” has the meaning assigned to it in the Local\nGovernment Act;\n“officer” means a person appointed under section thirteen;\n“parastatal” means any company, association, statutory\ncorporation, body or board or any institution of learning, in\nwhich the State has a financial interest;\n“police officer” means a member of the Zambia Police Force;\n“principal” includes an employer, beneficiary under a trust,\nand a trust estate as though it were a person, and any\nperson beneficially interested in the estate of a deceased\n562 No. 38 of 2010] Anti-Corruption\nperson as though the estate were a person, and, in relation to\na public officer, the authority or body of persons in which\nthe public office is held;\n“private body” means any person or organisation not being a\npublic body, a voluntary organisation, non-governmental\norganisation, charitable institution, company, partnership or\na club;\n“public body” means the Government, any Ministry or\ndepartment of the Government, the National Assembly, a\nlocal authority, parastatal, board, council, authority,\ncommission or other body appointed by the Government,\nor established by, or under, any written law;\nAct No. 15 “public funds” has the meaning assigned to it in the Public\nof 2004 Finance Act, 2004 and includes funds donated to a non-\ngovernmental organisation;\n“public officer” means any person who is a member of, or\nholds office in, or is employed in the service of, a public\nbody, whether such membership, office or employment is\npermanent or temporary, whole or part-time, paid or unpaid,\nincludes a member of Parliament, and “public office” shall\nbe construed accordingly;\n“relative” in relation to a person, means—\n(a) a spouse of that person; and\n(b) a brother, sister, nephew, niece, uncle, aunt, grand\nparent or cousin of that person or that person’s\nspouse;\nCap. 91 “repealed Act” means the Anti-Corruption Commission Act;\n“Secretary” means the person appointed Secretary under\nsection thirteen;\n“seizure” means temporarily prohibiting the transfer,\nconversion, disposition or movement of any property or\ntemporarily assuming the custody or control of property\non the basis of an order issued by a court or a notice by the\nDirector-General;\n“sporting event” means an event or contest in any sport,\nbetween individuals or teams, or in which an animal\ncompetes, and which is usually attended by the public and\nis governed by rules of any sporting body or regulatory\nbody;\n“staff” means the staff of the Commission appointed under\nsection thirteen; and\n“valuable security” means any document —\nAnti-Corruption [No. 38 of 2010 563\n(a) creating, transferring, surrendering or releasing\nany right to, in or over property;\n(b) authorising the payment of money or delivery of\nany property; or\n(c) evidencing the creation, transfer, surrender or\nrelease of any right, the payment of moneys or\ndelivery of any property or the satisfaction ofany\nobligation.\nPART II\nTHE ANTI-CORRUPTION COMMISSION"
+    },
+    {
+      "number": "4",
+      "heading": "(1) The Anti-Corruption Commission established under the Continuation",
+      "text": "repealed Act shall continue to exist as if established under this Act, of\nCommission\nand shall be a body corporate with perpetual succession and a Cap. 91\ncommon seal, capable of suing and of being sued in its corporate\nname and with power, subject to this Act, to do all such acts and\nthings as a body corporate may, by law, do or perform.\n(2) The provisions of the State Proceedings Act shall apply to Cap. 71\ncivil proceedings by, or against, the Commission as if, for a reference\nto the State there were substituted a reference to the Commission.\n(3) The provisions of the Schedule apply to the Commission."
+    },
+    {
+      "number": "5",
+      "heading": "Except as otherwise provided in this Act, the Commission Autonomy",
+      "text": "shall not, in the performance of its functions, be subject to the of\nCommission\ndirection or control of any person or authority."
+    },
+    {
+      "number": "6",
+      "heading": "(1) The functions of the Commission are to— Functions of",
+      "text": "(a) prevent and take necessary and effective measures for the Commission\nprevention of corruption in public and private bodies,\nincluding, in particular, measures for—\n(i) examining the practices and procedures of public\nand private bodies in order to facilitate the\ndiscovery of opportunities of corrupt practices\nand secure the revision of methods of work or\nprocedures which in the opinion of the\nCommission, may be prone or conducive to\ncorrupt practices;\n(ii) advising public bodies and private bodies on ways\nand means of preventing corrupt practices, and\non changes in methods of work or procedures\nof such public bodies and private bodies\ncompatible with the effective performance of\ntheir duties, which the Commission considers\nnecessary to reduce the likelihood of the\noccurrence of corrupt practices;\n564 No. 38 of 2010] Anti-Corruption\n(iii) disseminating information on the evil and\ndangerous effects of corrupt practices on\nsociety;\n(iv) creation of committees in institutions for\nmonitoring corruption in the institution; and\n(v) enlisting and fostering public confidence and\nsupport against corrupt practices;\n(b) initiate, receive and investigate complaints of alleged or\nsuspected corrupt practices, and, subject to the directions\nof the Director of Public Prosecutions, prosecute\n(i) offences under this Act; and\n(ii) such other offence under any other written law\nas may have come to the notice of the\nCommission during the investigation of an\noffence under this Act:\nProvided that nothing in this paragraph shall\nbe considered as precluding any public\nprosecutor from prosecuting, subject to the\ndirections of the Director of Public\nProsecutions, any offence under this Act\nwhich has come to the notice of the police\nduring investigation of an offence under any\nwritten law;\n(c) investigate any conduct of any public officer which, in the\nopinion of the Commission, may be connected with or\nconducive to corrupt practices;\n(d) be the lead agency in matters of corruption;\n(e) co-operate with other institutions authorised to investigate,\nprosecute, prevent and combat corrupt practices so as\nto implement an integrated approach to the eradication\nof corruption;\n(f) consult, co-operate and exchange information with\nappropriate bodies of other countries that are authorised\nto conduct inquiries or investigations in relation to corrupt\npractices; and\n(g) do all such things as are incidental or conducive to the\nattainment of its functions.\n(2) The Commission may establish specialised units to\ninvestigate and deal with such matters as the Commission considers\nappropriate.\nInstructions 7. (1) The Commission may instruct a public body on practices\nby and procedures that are necessary to prevent, reduce or eliminate\nCommission\nthe occurrence of corrupt practices.\n(2) A public body shall, not later than ninety days from the\nreceipt of the instructions from the Commission pursuant to\nsubsection (1), effect the necessary changes in its practices and\nprocedures.\nAnti-Corruption [No. 38 of 2010 565\n(3) A public body which considers that the changes in practices\nand procedures contained in the instructions from the Commission\nshall be impracticable or otherwise disadvantageous to the effective\ndischarge of its functions shall, within thirty days of the receipt of\nthe instructions, make representations to the Director-General in\nwriting.\n(4) The Commission may, after considering the representations\nof a public body made under subsection (3), confirm, vary or cancel\nthe instruction given to the public body.\n(5) The head of a public body which fails to comply with the\ninstructions of the Commission commits an offence and is liable,\nupon conviction, to a fine not exceeding one hundred thousand\npenalty units or to imprisonment for a period not exceeding one\nyear, or to both.\n(6) In addition to the penalty prescribed in subsection (5), the\nhead of the public body which fails to comply with the instructions\nof the Commission shall be subject to disciplinary action including\ndismissal from office by the relevant authority."
+    },
+    {
+      "number": "8",
+      "heading": "(1) The Commission may, after an investigation into an offence Reports and",
+      "text": "under this Act, depending on the findings made, make such recomme-\nndation by\nrecommendation as it considers necessary to an appropriate Commission\nauthority.\n(2) An appropriate authority shall, within thirty days from the\ndate of receipt of the recommendation of the Commission under\nsubsection (1), make a report to the Commission on the action\ntaken by the appropriate authority."
+    },
+    {
+      "number": "9",
+      "heading": "(1) There shall be a Director-General of the Commission Director-",
+      "text": "who shall be the chief executive officer of the Commission. General\n(2) The Director-General shall be appointed by the President,\nsubject to ratification by the National Assembly, on such terms and\nconditions as the President may determine.\n(3) A person is not qualified to be appointed as Director-General\nunless the person is qualified to be appointed judge of the High\nCourt.\n(4) The Director-General shall be responsible for —\n(a) the control, direction, management\nand administration of the Commission; and\n(b) the implementation of any policy matters referred to the\nDirector-General by the Board.\n(5) The Director-General may, subject to any specific or general\ndirection of the Board, make standing orders providing for—\n(a) the control, direction and administration of the Commission;\n566 No. 38 of 2010] Anti-Corruption\n(b) the discipline, training, classification and promotion of\nofficers of the Commission;\n(c) the duties of officers of the Commission; and\n(d) such other matters as the Director-General may consider\nnecessary or expedient for preventing the abuse of\npower or neglect of duty by officers or other staff.\n(6) The Director-General shall not, while holding the office of\nDirector-General, discharge the duties of any other office of\nemolument in the Republic.\nTenure of 10. (1) Subject to subsection (2), a person appointed Director-\noffice of General shall vacate that office on attaining the age of sixty-five\nDirector-\nyears:\nGeneral\nProvided that the President may permit a person who\nhas attained that age to continue in office for such period\nas may be necessary to enable that person to do anything\nin relation to proceedings that were commenced before\nthe person attained that age.\n(2) A person appointed Director-General may be removed from\noffice for inability to perform the functions of office, whether arising\nfrom infirmity of body or mind or from any other cause, or for\nmisbehaviour.\n(3) If the President considers that the question of removing a\nperson holding the office of Director-General from office ought to\nbe investigated, then—\n(a) the President shall appoint a tribunal which shall consist\nof a Chairperson and not less than two other members,\nwho hold or have held high judicial office;\n(b) the tribunal shall inquire into the matter and report on the\nfacts thereof to the President and advise the President\nwhether the person holding the office of Director-\nGeneral ought to be removed from office under this\nsection for incompetence or inability or for misbehaviour.\n(4) Where a tribunal appointed under subsection (2) advises the\nPresident that a person holding the office of Director-General ought\nto be removed from office for incompetence or inability or for\nmisbehaviour, the President shall remove the person from office.\n(5) If the question of removing a person holding the office of\nDirector-General from office has been referred to a tribunal under\nthis section, the President may suspend that person from performing\nthe functions of the person’s office, and any such suspension may\nat any time be revoked by the President and shall in any case\ncease to have effect if the tribunal advises that the person ought\nnot to be removed from office.\nAnti-Corruption [No. 38 of 2010 567\n(6) The Director-General may resign by giving three months’\nnotice, in writing, to the President, of the Director-General’s intention\nto resign.\n(7) The Director-General shall, before taking office, take an\noath or affirmation before the President in the prescribed manner\nand form."
+    },
+    {
+      "number": "11",
+      "heading": "(1) The Director-General may, for the performance of the Powers of",
+      "text": "Commission’s functions under this Act— Director-\nGeneral\n(a) authorise, in writing, any officer of the Commission to\nconduct an inquiry or investigation into alleged or\nsuspected offences under this Act;\n(b) require the head, chairperson, manager, chief executive\nofficer or person in charge of any public body, to produce\nor furnish within such time as may be specified by the\nDirector-General, any document or a certified true copy\nof any document which is in that person’s possession or\nunder that person’s control and which the Director-\nGeneral considers necessary for the conduct of an\ninvestigation into alleged or suspected offences under\nthis Act:\nProvided that if the document is classified or falls\nunder the State Security Act, the Commission Cap. 111\nmay apply to a judge in chambers to determine\nwhether the document is likely to —\n(i) prejudice the security, defence or\ninternational relations of the Republic; or\n(ii) involve the disclosure of any matter or\ndeliberations of a secret or confidential\nnature of the Government; or\n(c) require any person to answer, to the best of that person’s\nknowledge and belief, questions with respect to the\nwhereabouts or existence of any documents or records\nthat may be relevant to an investigation.\n(2) In determining an application under paragraph (b) of\nsubsection (1), the court may —\n(a) order the release of the document; or\n(b) confirm that the release of the document will prejudice\nthe security, defence or international relations of the\nRepublic or involve the disclosure of a confidential matter\nof Government.\n(3) Notwithstanding any written law to the contrary, the Director-\nGeneral may, where the Director-General has reasonable grounds\nto believe that a person who is the subject of an investigation in\nrespect of an offence under this Act is likely to leave Zambia,\n568 No. 38 of 2010] Anti-Corruption\nrequire such person to surrender their travel document or any other\ndocument in that person’s possession.\n(4) The Commission shall, where a person surrenders that\nperson’s travel document pursuant to subsection (1), return the\ndocument after the investigation of the offence is completed, and if\nno criminal proceedings are to be instituted.\n(5) A person who is aggrieved with the decision of the Director-\nGeneral made pursuant to subsection (1) may apply to the High\nCourt.\n(6) The High Court may, upon hearing an application made under\nsubsection (3), reverse, vary or dismiss the application or make\nsuch other order as the court considers appropriate.\n(7) A person who fails to comply with the decision of the\nDirector-General under subsection (1) commits an offence and is\nliable, upon conviction, to imprisonment for a period not exceeding\ntwo years.\nDeputy 12. (1) The President shall appoint a Deputy Director-General\nDirector- on such terms and conditions as the President may determine.\nGeneral (2) The Deputy Director-General shall assist the Director-\nGeneral in performing the Director-General’s duties under this Act.\n(3) A person shall not qualify for appointment as Deputy Director-\nGeneral unless the person is qualified to be appointed judge of the\nHigh Court.\n(4) If the office of the Director-General is vacant or the Director-\nGeneral is absent from duty or unable for any other reason to\nperform the functions of that office, the Deputy Director-General\nshall, save where the President otherwise directs, act as Director-\nGeneral.\n(5) If both the Director-General and the Deputy Director-\nGeneral are absent from duty or unable for any other reason to\nperform the functions of their offices, the President shall appoint\nanother person to act as Director-General.\n(6) The Deputy Director-General may resign by giving three\nmonths’ notice, in writing, to the President, of the Deputy Director-\nGeneral’s intention to resign.\n(7) The Deputy Director-General shall, on appointment, take an\noath or affirmation before the President in the prescribed manner\nand form.\nInvestigating 13. (1) The Commission may appoint investigating officers,\nofficers, the Secretary and such other staff of the Commission, on such\nSecretary and\nother staff of terms and conditions as the Commission may determine, to assist\nCommission the Director-General in the performance of the Director-General’s\nfunctions under this Act.\nAnti-Corruption [No. 38 of 2010 569\n(2) The Secretary shall be in charge of the general administration\nand shall keep the records of the Commission.\n(3) An officer shall have such powers, functions and duties as\nprovided for, or as delegated to the officer, by the Director-General\nunder this Act.\n(4) The Director-General may, if satisfied that it is in the best\ninterest of the Commission, terminate the appointment of any officer\nof the Commission and shall assign the reasons therefor, subject to\nany directions by the Commission.\n(5) A person aggrieved with the decision of the Director-General\nto terminate that person’s employment pursuant to subsection (3)\nmay appeal against that decision to the Board.\n(6) The Commission may, in the exercise of its functions, engage\nthe services of such advisors and experts as it considers necessary.\n(7) The Secretary, advisors, experts and other members of\nstaff of the Commission shall, on appointment, take an oath or\naffirmation before the Director-General in the prescribed manner\nand form."
+    },
+    {
+      "number": "14",
+      "heading": "(1) The Director-General, Deputy Director-General, officers Declaration",
+      "text": "of assets\nand Secretary shall, before taking office under this Act —\n(a) in the case of the Director-General, Deputy Director-\nGeneral and Secretary, submit to the Chief Justice a\nwritten declaration, in the prescribed form, of all the\nassets they own or liabilities owed to them; and\n(b) in the case of the other staff of the Commission, submit to\na magistrate a written declaration, in the prescribed form,\nof all the assets they own or liabilities owed to them."
+    },
+    {
+      "number": "15",
+      "heading": "(1) The Director-General shall issue to an officer of the Identity card",
+      "text": "Commission an identity card which shall be prima facie evidence\nof the officer’s appointment as such.\n(2) An officer shall, in performing any function under this Act—\n(a) be in possession of the identity card referred to in\nsubsection (1); and\n(b) show the identity card to any person who requests to see\nit or is subject to an investigation under this Act."
+    },
+    {
+      "number": "16",
+      "heading": "(1) A person shall not, without the consent in writing given Prohibition",
+      "text": "of disclosure\nby, or on behalf of, the Commission, publish or disclose to any\nof\nperson otherwise than in the course of such person’s duties, the information\ncontents of any document, communication or information which to\nunauthorised\nrelates to, or which has come to that person’s knowledge in the persons\ncourse of that person’s duties under this Act.\n(2) A person who contravenes subsection (1) commits an offence\nand is liable, upon conviction, to a fine not exceeding two hundred\n570 No. 38 of 2010] Anti-Corruption\nthousand penalty units or to imprisonment for a period not exceeding\ntwo years, or to both.\n(3) A person who having information which to that person’s\nknowledge has been published or disclosed in contravention of\nsubsection (1), unlawfully publishes or communicates such\ninformation to any other person, commits an offence and is liable,\nupon conviction, to a fine not exceeding two hundred thousand\npenalty units or to imprisonment for a period not exceeding two\nyears, or to both.\nImmunity of 17. (1) No proceedings, civil or criminal, shall lie against an\nstaff\nofficer or member of staff of the Commission for anything done in\ngood faith in the exercise of the officer’s or member of staff’s\nfunctions under this Act.\n(2) For the avoidance of any doubt, nothing in this section shall\nprotect any officer or member of staff for anything done outside\nthe functions of office.\n(3) An officer or member of staff of the Commission who\ncommits an offence under this Act or any other written law is\nliable to prosecution for that offence.\n(4) An officer of the Zambia Police Force, the Drug Enforcement\nCommission or any other law enforcement agency may, where an\nofficer or a member of staff of the Commission commits an offence\nunder this Act or any other written law, investigate the offence."
+    },
+    {
+      "number": "18",
+      "heading": "A person who pretends to—",
+      "text": "Impersonation\nand (a) be an officer of the Commission or to have any of the\nprocurement\npowers of an officer under this Act, or under any\nof officer\nauthorisation or warrant issued under this Act; or\n(b) be able to procure an officer of the Commission to do or\nrefrain from doing anything in connection with the duties\nof such officer;\ncommits an offence and is liable, upon conviction, to imprisonment\nfor a period of not less than two years.\nPART III\nCORRUPT PRACTICES\nCorrupt 19. (1) A public officer who, by oneself, or by, or in conjunction\npractices by, with, any other person, corruptly solicits, accepts or obtains, or\nor with,\npublic agrees to accept or attempts to receive or obtain, from any person\nofficers for oneself or for any other person, any gratification as an\ninducement or reward for doing or forbearing to do, or for having\ndone or forborne to do, anything in relation to any matter or\ntransaction, actual or proposed, with which any public body is or\nmay be concerned, commits an offence.\nAnti-Corruption [No. 38 of 2010 571\n(2) A person who, by oneself, or by, or in conjunction with, any\nother person, corruptly gives, promises or offers any gratification\nto any public officer, whether for the benefit of that public officer\nor of any other public officer, as an inducement or reward for\ndoing or forbearing to do, anything in relation to any matter or\ntransaction, actual or proposed, with which any public body is or\nmay be concerned, commits an offence."
+    },
+    {
+      "number": "20",
+      "heading": "(1) A person who, by oneself, or by, or in conjunction with, Corrupt",
+      "text": "any other person, corruptly solicits, accepts or obtains, or agrees to transactions\nby, or with,\naccept or attempts to receive or obtain, from any person for oneself private bodies\nor for any other person, any gratification as an inducement or reward\nfor doing or forbearing to do, or for and having done or forborne to\ndo, anything in relation to any matter or transaction actual or\nproposed, with which any private body is or may be concerned,\ncommits an offence.\n(2) A person who, by oneself, or by, or in conjunction with, any\nother person, corruptly gives, promises or offers any gratification\nto any person, whether for the benefit of that person or of any\nother person, as an inducement or reward for doing or forbearing\nto do, or for having done or forborne to do, anything in relation to\nany matter or transaction, actual or proposed, with which any private\nbody is or may be concerned, commits an offence."
+    },
+    {
+      "number": "21",
+      "heading": "(1) A public officer who, being concerned with any matter Corrupt use",
+      "text": "or transaction falling within, or connected with, that public officer’s of official\npower\njurisdiction, powers, duties or functions, corruptly solicits, accepts\nor obtains, or agrees to accept or attempts to receive or obtain for\noneself or for any other person any gratification in relation to such\nmatter or transaction, commits an offence.\n(2) A person who, being concerned with any matter or transaction\nfalling within the scope of authority, or connected with the\njurisdiction, powers, duties or functions of any public officer, by\noneself, or by, or in conjunction with, any other person, corruptly\ngives, promises or offers any gratification, whether directly or\nindirectly, to such public officer either for oneself or for any other\nperson, commits an offence."
+    },
+    {
+      "number": "22",
+      "heading": "(1) An agent who corruptly solicits, accepts or obtains, or Corrupt",
+      "text": "agrees to accept or attempts to receive or obtain, from any person transactions\nby, or with,\nfor oneself or for any other person, any gratification as an\nagents\ninducement or reward for doing or forbearing to do, or for having\ndone or forborne to do, anything in relation to the principal’s affairs\nor business, or for showing or having shown favour or disfavour to\nany person in relation to the principal’s affairs or business, commits\nan offence.\n572 No. 38 of 2010] Anti-Corruption\n(2) A person who corruptly gives, promises or offers any\ngratification to an agent as an inducement or reward for doing or\nforbearing to do, or for having done or forborne to do, anything in\nrelation to the principal’s affairs or business, or for showing or\nhaving shown favour or disfavour to any person in relation to the\nprincipal’s affairs or business, commits an offence.\n(3) A person who gives to an agent, or any agent who, with\nintent to deceive the principal, uses any receipt, account or other\ndocument in respect of which the principal is interested or which\nrelates to the principal’s affairs or business and which contains any\nstatement which is false or erroneous or defective in any material\nparticular, and which to the agent’s knowledge or belief is intended\nto mislead the principal, commits an offence.\nCorruption 23. (1) A person who being a member of any public or private\nof members body by oneself, or by, or in conjunction with, any other person,\nof public or\ncorruptly solicits, accepts or obtains, or agrees to accept or attempts\nprivate\nbodies with to receive or obtain, from any person for oneself or for any other\nregard to person, any gratification as an inducement or reward for—\nmeetings\n(a) that person’s voting or abstaining from voting at any\nmeeting of such public or private body in favour of, or\nagainst, any measure, matter, resolution or question\nsubmitted to such public or private body;\n(b) that person’s performing or abstaining from performing,\nor for that person’s aid in procuring, expediting, delaying,\nhindering or preventing the performance of, any official\nact by such public or private body; or\n(c) that person’s aid in procuring or preventing the passing of\nany vote or the granting of any contract or advantage\nin favour of any person;\ncommits an offence.\n(2) A person who, by oneself or by, or in conjunction with, any\nother person, corruptly gives, promises or offers any gratification\nto a member of any public or private body in any circumstance\nreferred to in subsection (1), commits an offence.\nCorruption 24. (1) A person who, directly or indirectly, corrupts a witness\nof witness so as to induce false testimony from the witness in a trial, hearing\nor other proceeding before any court, tribunal, judicial officer,\ncommittee, commission or any officer authorised by law to hear\nevidence or take testimony commits an offence and is liable, upon\nconviction, to imprisonment for a term not exceeding five years.\n(2) A person who, by oneself, or by, or in conjunction with, any\nother person, corruptly promises, offers or gives any gratification\nto any witness whether for the benefit of that witness or any other\nperson, with intent to influence the witness to be absent from trial,\nto give false testimony or withhold testimony, commits an offence\nand is liable, upon conviction, to imprisonment for a period not\nexceeding five years.\nAnti-Corruption [No. 38 of 2010 573\n(3) A witness who, by oneself or by, or in conjunction with, any\nother person, corruptly solicits, accepts or receives, or agrees to\naccept or attempts to receive or obtain, from any person for oneself\nor another person, any gratification as an inducement or reward\nwhether for the witness’s benefit or any other person, in order for\nthe witness to be absent from trial or to give false testimony or\nwithhold testimony, commits an offence and is liable, upon conviction,\nto imprisonment for a period not exceeding five years."
+    },
+    {
+      "number": "25",
+      "heading": "(1) A person who, by oneself or by, or in conjunction with, Corrupt",
+      "text": "practices by,\nany other person, corruptly promises, offers or gives any gratification\nor with,\nto any foreign public official, whether for the benefit of that foreign foreign\npublic official or any other person, as an inducement or reward for public\nofficial\ndoing or forbearing to do, or for having done or forborne to do,\nanything in relation to any matter or transaction, actual or proposed,\nwith which any foreign public body is or may be concerned, commits\nan offence.\n(2) A foreign public official who, by oneself or by, or in conjunction\nwith, any other person corruptly solicits, accepts or obtains, or\nagrees to accept or attempts to receive or obtain, from any person\nfor oneself or for any other person, any gratification as an\ninducement or reward for doing or forbearing to do, or for having\ndone or forbone to do, anything in relation to any matter or\ntransaction, actual or proposed, with which any foreign public body\nis or may be concerned, commits an offence."
+    },
+    {
+      "number": "26",
+      "heading": "A person who, directly or indirectly, corruptly — Corruption",
+      "text": "(a) solicits or accepts or agrees to accept any gratification, in relation to\nsporting\nwhether for the benefit of that person or any other\nevents\nperson, as an inducement or reward for a person\ninfluencing or having influenced the run of play or the\noutcome of any sporting event; or\n(b) offers or gives or agrees to give to any other person any\ngratification as an inducement to influence or as a reward\nfor influencing or having influenced the run of play or\nthe outcome of a sporting event;\ncommits an offence."
+    },
+    {
+      "number": "27",
+      "heading": "(1) Where a public body in which a public officer is a member, Conflict of",
+      "text": "director, employee or is otherwise engaged proposes to deal with interest\nany person or company, partnership or other undertaking in which\nthat public officer has a direct or indirect private or personal interest,\nthat public officer shall forthwith disclose, in writing to that public\nbody, the nature of such interest.\n(2) Where a public officer or a relative or associate of such\npublic officer has a personal interest in a decision to be taken by a\npublic body, that public officer shall not vote or take part in any\nproceedings or process of that public body relating to such decision.\n574 No. 38 of 2010] Anti-Corruption\n(3) A public officer who contravenes subsection (1) or (2)\ncommits an offence and is liable, upon conviction, to imprisonment\nfor a period not exceeding three years.\nGratification 28. (1) A public officer who, directly or indirectly, by oneself,\nfor giving\nor by, or in conjunction with, any other person, corruptly solicits,\nassistance,\netc., with accepts or obtains, or agrees to accept or attempts to receive or\nregard to obtain, from any person for oneself or for any other person, any\ncontracts\ngratification as an inducement or reward for or otherwise on account\nof, that public officer giving assistance or using influence in, or\nhaving given assistance or used influence in—\n(a) the promotion, execution or procurement of—\n(i) any contract with a public body or private body\nfor the performance of any work, the provision\nof any service, the doing of anything or the\nsupplying of any article, material or substance;\nor\n(ii) any sub-contract to perform any work, provide\nany service, do anything or supply any article,\nmaterial or substance required to be performed,\nprovided, done or supplied under any contract\nwith a public body or private body; or\n(b) the payment of the price, consideration or other moneys\nstipulated or otherwise provided for in any contract or\nsub-contract;\ncommits an offence.\n(2) A person who corruptly gives, promises or offers any\ngratification to any public officer as an inducement or reward for,\nor otherwise on account of, such public officer giving assistance or\nusing influence in, or having given assistance or used influence\nin—\n(a) the promotion, execution or procurement of; or\n(b) the payment of the price, consideration or other moneys\nstipulated or otherwise provided for in;\nany contract or sub-contract commits an offence.\nGratification 29. (1) A person who, directly or indirectly, by oneself, or by, or\nfor procuring in conjunction with, any other person, corruptly solicits, accepts or\nwithdrawal\nof tender obtains, or agrees to accept or attempts to receive or obtain from\nany person for oneself or for any other person, any gratification as\nan inducement or reward for or otherwise on account of, the\nwithdrawal of a tender, or the refraining from the making of a\ntender, for any contract with a public body or private body for the\nperformance of any work, the provision of any service, the doing\nof anything or the supplying of any article, material or substance,\ncommits an offence.\nAnti-Corruption [No. 38 of 2010 575\n(2) A person who corruptly gives, promises or offers any\ngratification to any other person as an inducement or reward for,\nor otherwise on account of, the withdrawal of a tender, or the\nrefraining from making of a tender, for a contract commits an\noffence."
+    },
+    {
+      "number": "30",
+      "heading": "(1) A person who, by use of corrupt means interferes with Obstruction",
+      "text": "of justice\nthe exercise of official duties by a judge, magistrate, judicial officer\nor any other arbiter or law enforcement officer, commits an offence\nand is liable, upon conviction, to imprisonment for a period not\nexceeding two years.\n(2) A person who accepts or obtains, agrees to accept or attempts\nto obtain, or offers or gives, a gratification for oneself or for any\nother person in consideration of that person —\n(a) concealing an offence;\n(b) shielding any other person from legal proceedings for an\noffence;\n(c) not proceeding against any other person in relation to an\nalleged offence; or\n(d) abandoning or withdrawing, or obtaining or endeavoring\nto obtain the withdrawal of, a prosecution against any\nother person;\ncommits an offence and is liable, upon conviction, to imprisonment\nfor a period not exceeding two years."
+    },
+    {
+      "number": "31",
+      "heading": "(1) A person who, directly or indirectly by oneself, or by, or Gratification",
+      "text": "in conjunction with, any other person, corruptly solicits, accepts or with regard to\nbidding at\nobtains, or agrees to accept or attempts to receive or obtain, from auction sale\nany person for oneself or for any other person, any gratification as\nan inducement or reward for or otherwise on account of, that person\nrefraining or having refrained from bidding at any sale by auction\nconducted by, or on behalf of, any public body or private body,\ncommits an offence.\n(2) A person who corruptly gives, promises or offers any\ngratification to any other person as an inducement or reward for,\nor otherwise on account of, that other person’s refraining or having\nrefrained from bidding at an auction commits an offence."
+    },
+    {
+      "number": "32",
+      "heading": "A public officer who — Coercion of",
+      "text": "(a) performs or abstains from performing any act in that public investor\nofficer’s capacity as a public officer;\n(b) expedites, delays, hinders or prevents the performance of\nany act; or\n(c) assists, favours, hinders or delays any person in the\ntransaction of any business with a public body;\n576 No. 38 of 2010] Anti-Corruption\nin order that an investor or potential investor is coerced, compelled\nor induced to abandon the investment or induced to abandon the\ninvestment to the advantage of another person, commits an offence\nand is liable, upon conviction, to a fine of not less than two hundred\nthousand penalty units or to imprisonment for a period not exceeding\ntwo years, or to both.\nCorrupt 33. (1) A person who fraudulently or unlawfully —\nacquisition (a) acquires public property or a public service or benefit;\nof public\n(b) diverts any public property for that person’s or another\nproperty\nand revenue person’s benefit;\n(c) mortgages, charges or disposes of any public property; or\n(d) obtains any exemption, remission, reduction or abatement\nfrom payment of any tax, fee, levy or charge required\nto be paid under any law;\ncommits an offence.\n(2) A person whose functions concern the administration, custody,\nmanagement, receipt or use of any part of public revenue or public\nproperty commits an offence if that person —\n(a) fraudulently makes payment from the public revenue\nfor—\n(i) goods not supplied or not supplied in full; or\n(ii) services not rendered or not adequately rendered;\nor\n(b) willfully fails to comply with any law or applicable\nprocedures or guidelines relating to the procurement,\nallocation, sale or disposal of property, tendering of\ncontracts, management of funds or incurring of public\nexpenditures.\n(3) A person who commits an offence under this section is\nliable, upon conviction, to imprisonment for a period not exceeding\nfive years.\n(4) For the purposes of this section, “public property” means\nreal or personal property, including public funds or money of a\npublic body or under the control of, or consigned or due to, a public\nbody.\nElectoral 34. The Commission has jurisdiction to investigate and prosecute\ncorruption\nany offence of bribery prescribed under the Electoral Act, 2006.\nAct No. 12\nof 2006\nConcealment 35. A person who —\nof\n(a) converts, transfers or disposes of property, knowing that\nproperty\nsuch property is the proceeds of corruption or related\noffences for the purpose of concealing or disguising the\nillicit origin of the property or of helping any other person\nwho is involved in the commission of the offence to\nevade the consequences of that person’s action;\nAnti-Corruption [No. 38 of 2010 577\n(b) conceals or disguises the true nature, source, location,\ndisposition, movement or ownership of or rights with\nrespect to property which is from the proceeds of\ncorruption or related offences; or\n(c) acquires, possesses or uses any property with the\nknowledge at the time of receipt, that such property is\nfrom the proceeds of corruption or related offences;\ncommits an offence and is liable, upon conviction, to imprisonment\nfor a period not exceeding two years."
+    },
+    {
+      "number": "36",
+      "heading": "A person who, directly or indirectly, whether on that Dealing with,",
+      "text": "using and\nperson’s behalf or any other person, knowingly uses or causes to\nconcealing\nbe used, or receives, holds, controls or conceals any property or gratification\nany part thereof, which was obtained as gratification, or derived\nfrom the proceeds of crime obtained in the commission of an offence\nunder this Part commits an offence."
+    },
+    {
+      "number": "37",
+      "heading": "A person commits an offence who with intent to defraud or Concealment",
+      "text": "to conceal the commission of an offence under this Part or to of offence\nobstruct an officer in the investigation of any offence—\n(a) destroys, alters, mutilates or falsifies any book, document,\nvaluable security, account, computer system, disk,\ncomputer printout or other electronic device which\nbelongs to or is in the possession of or has been received\nby that person or that person’s employer, or any entry in\nsuch book, document, account or electronic device, or\nis privy to any such act;\n(b) makes or is privy to the making of any false entry in any\nbook, document, account or electronic device; or\n(c) omits or is privy to the omission of any information from\nany book, document, account or electronic device."
+    },
+    {
+      "number": "38",
+      "heading": "(1) A public officer to whom any gratification is corruptly Public",
+      "text": "given, promised or offered shall make a full report of the officer’s duty\nto report\ncircumstances of the case to an officer of the Commission or a\npolice officer within twenty-four hours of the occurrence of the\nevent, and if the public officer fails to do so without reasonable\ncause, commits an offence and is liable, upon conviction, to a fine\nnot exceeding two hundred thousand penalty units or to\nimprisonment for a period not exceeding two years, or to both.\n(2) An officer of the Commission or a police officer may arrest\nwithout warrant any person in respect of whom a report is made\nunder subsection (1).\n(3) An officer of the Commission or a police officer may search\nany person arrested for an offence under this Act and take possession\nof all the articles found upon that person which the police officer or\n578 No. 38 of 2010] Anti-Corruption\nofficer of the Commission believes upon reasonable grounds to\nconstitute evidence of the commission of an offence by that person\nunder this Part:\nProvided that a person shall not be searched except\nby a police officer, or officer of the Commission or by any\nperson authorised in that behalf by a police officer or officer\nof the Commission, of the same sex.\nAttempts 39. (1) A person who aids, abets or counsels or conspires\nand with any person to commit an offence under this Part, commits an\nconspiracies\noffence and is liable, upon conviction, to a sentence as if that person\ncommitted the offence.\n(2) A person who attempts to commit an offence under this Act\ncommits an offence and is liable, upon conviction, to a sentence as\nif that person committed the offence.\nGeneral 40. A person who is convicted of an offence under this Part,\npenalty\nfor which no penalty is provided, is liable—\n(a) upon conviction, to imprisonment for a period not exceeding\nten years;\n(b) upon a second or subsequent conviction, to imprisonment\nfor a term of not less than five years but not exceeding\nten years; and\n(c) in addition to any other penalty imposed under this Act, to\nforfeiture to the State of any pecuniary resource,\nproperty, advantage, profit or gratification received in\nthe commission of an offence under this Act.\nRestitution 41. Where a person is convicted of an offence under this Part,\nthe court may, in addition to the sentence that it may impose under\nsection forty, order the convicted person to pay to the rightful owner\nthe amount or value, as determined by the court, of any gratification\nactually received by that person, and such order shall be deemed\nto form part of the sentence:\nProvided that where, after reasonable inquiry, the\nrightful owner cannot be ascertained or traced, or where\nthe rightful owner is implicated in the giving of the\ngratification, the court shall order that the amount or value\nthereof be paid into the general revenues of the Republic.\nRecovery of 42. Any fine imposed under the provisions of this Part and the\ngratification amount or value of any gratification ordered to be paid under section\nby distress,\netc. forty-five may be recovered in accordance with the provisions of\nsections three hundred and eight and three hundred and nine of\nCap. 88 the Criminal Procedure Code by distress and sale of the movable\nand immovable property of the person sentenced.\nAnti-Corruption [No. 38 of 2010 579"
+    },
+    {
+      "number": "43",
+      "heading": "(1) Where a person gives gratification to, or for, or on Recovery of",
+      "text": "account of, an agent in contravention of any provision of this Act, gratification\ncorruptly\nthe principal may recover, as a civil debt, the amount or value of received by\nsuch gratification from the agent, and the acquittal of the agent or agent\nsuch person in respect of an offence under this Part shall not operate\nas a bar to any proceedings for such recovery.\n(2) Nothing in subsection (1) shall be deemed to prejudice or\naffect any right which any principal may have under any written\nlaw or rule to recover from the agent any money or property."
+    },
+    {
+      "number": "44",
+      "heading": "In any proceedings under this Act, a certificate by a Certificate of",
+      "text": "Government\nGovernment valuation officer or other specialist valuer with respect\nvaluation\nto the value of any gratification or of any movable or immovable officer or\nother\nproperty shall be sufficient proof of such value, unless the contrary\nspecialist\nis proved. valuer"
+    },
+    {
+      "number": "45",
+      "heading": "A person convicted of an offence under this Part shall, by Effect of",
+      "text": "reason of such conviction, be disqualified for a period of ten years conviction\nfrom the date of such conviction, from being elected or appointed\nto, or from holding or continuing to hold, any office or position in\nany public body."
+    },
+    {
+      "number": "46",
+      "heading": "Where an offence under this Act is committed by a body Offences by",
+      "text": "corporate or unincorporate body, every director or manager of the body\ncorporate or\nbody corporate or unincorporate body shall be liable, upon conviction, unincorporate\nas if the director or manager had personally committed the offence, body\nunless the director or manager proves to the satisfaction of the\ncourt that the act constituting the offence was done without the\nknowledge, consent or connivance of the director or manager or\nthat the director or manager took reasonable steps to prevent the\ncommission of the offence.\nPART IV\nINVESTIGATION OF CORRUPT PRACTICES"
+    },
+    {
+      "number": "47",
+      "heading": "(1) A person who alleges that another person has engaged Lodging of",
+      "text": "or is about to engage in a corrupt practice may lodge a complaint complaint\nwith the Commission in the prescribed manner and form.\n(2) The Commission may investigate a matter under this Act on\nreceipt of a complaint or on its own initiative.\n(3) The Commission may refer any offence that comes to its\nnotice in the course of an investigation under subsection (2) to any\nother appropriate investigation authority or agency."
+    },
+    {
+      "number": "48",
+      "heading": "(1) The Director-General shall, upon receipt of a complaint Consideration",
+      "text": "under section forty-six, examine each alleged corrupt practice and of complaint\ndecide whether or not an investigation in relation to the allegation is\nwarranted.\n580 No. 38 of 2010] Anti-Corruption\n(2) The Director-General may, in deciding whether to investigate\nan alleged corrupt practice, consider —\n(a) the seriousness of the conduct or involvement to which\nthe allegation relates;\n(b) whether or not the allegation is frivolous or vexatious;\n(c) whether or not the conduct or involvement to which the\nallegation relates is or has been the subject of an\ninvestigation or other action by any other appropriate\nauthority under any other written law; and\n(d) whether or not, in all the circumstances, the carrying out\nof an investigation for the purpose of this Act in relation\nto the allegation will disclose the commission or likelihood\nof the commission of an offence under this Act.\n(3) The Director-General shall, where the Director-General\ndetermines that an investigation into an allegation is warranted,\ndecide whether the Commission shall carry out the investigation or\nwhether the allegation should be referred to another appropriate\nauthority for investigation or action.\n(4) The Director-General may, for purposes of performing the\nfunctions under this section—\n(a) make such preliminary inquiry as the Director-General\nconsiders necessary; and\n(b) consult any other appropriate authority.\n(5) The Director-General shall inform the complainant, in writing,\nof the decision of the Commission in relation to the allegation.\nPower to 49. (1) The Director-General may, by notice, in writing, require\nrequire any person whose affairs are being investigated or any other person\nattendance\nbefore who the Director-General has reason to believe may have\nDirector- information or documents relevant to an investigation to—\nGeneral\n(a) attend before the Director-General as may be specified\nin the notice;\n(b) answer questions with respect to any matter or supply\nany information that may be relevant to the investigation;\nor\n(c) produce for inspection any documents which are specified\nin the notice.\n(2) Subsection (1) shall apply without prejudice to a person’s\nrights under any other law relating to privilege.\nSearch 50. (1) An officer may, without a warrant, enter and search\nwithout\nany premises, other than a private dwelling except if the private\nwarrant\ndwelling is used for business purposes, for the purpose of attaching\nand removing, if necessary, any record, return, report, document\nor article, if the owner, occupier of the premises or other person in\ncontrol of the premises consents to the entry, search, seizure and\nAnti-Corruption [No. 38 of 2010 581\nremoval of the record, return, book, document or article.\n(2) An officer exercising any power under this section shall,\nbefore entering and searching any premises, ensure that the owner,\noccupier or person in control of the premises is present."
+    },
+    {
+      "number": "51",
+      "heading": "(1) The Director-General, the Deputy Director-General or Search with",
+      "text": "an officer of the Commission, in the performance of their duties, warrant\nmay apply for a warrant to a judge or a magistrate.\n(2) A judge or magistrate to whom an application for a warrant\nis made under subsection (1) may issue the warrant where—\n(a) there are reasonable grounds to believe that —\n(i) a person has failed to produce the documents\nrequired for purposes of this Act;\n(ii) a person has failed to answer any questions asked\nfor purposes of an investigation or that any\nanswer given to any question is false or\nmisleading in a material particular or is\nincomplete;\n(iii) it is not practicable to serve a notice on a person\nby reason of the fact that the person cannot be\nlocated or is absent from Zambia, or that the\nservice of a notice might prejudice an\ninvestigation; or\n(b) there are reasonable grounds to believe that any document\nor other thing relevant to an investigation or that may be\nevidence of an offence under this Act is placed,\ndeposited or concealed in the premises to which the\nwarrant relates.\n(3) A warrant issued under subsection (2) shall confer on the\nDirector-General, the Deputy Director-General or an officer of\nthe Commission power to —\n(a) access all the books, records, returns, reports and other\ndocuments relating to the work of any public or private\nbody;\n(b) enter and search, at any time, the premises of any public\nor private body or any vessel, boat, aircraft or other\nconveyance, where the Director-General, Deputy\nDirector-General or officer has reasonable grounds to\nbelieve that any property or thing corruptly acquired has\nbeen placed, deposited or concealed therein;\n(c) search for and remove any document or other thing that\nmay be relevant to an investigation or may be evidence\nof an offence;\n(d) where necessary, take copies of any document or extracts\nfrom documents that the person executing the warrant\n582 No. 38 of 2010] Anti-Corruption\nbelieves on reasonable grounds may be relevant to an\ninvestigation; and\n(e) where necessary, to require any person to reproduce, or\nto assist to reproduce, in usable form, any information\nrecorded or stored in any documents.\n(4) In the exercise of powers of entry and search conferred\nunder paragraph (b) of subsection (3), the Director-General, the\nDeputy Director-General or other officer of the Commission, may\nuse such reasonable force as is necessary and justifiable in the\ncircumstances, and may be accompanied or assisted by such other\npersons as they consider necessary to assist them to enter into, or\nupon, any premises, or upon any vessel, boat, aircraft or other\nconveyance, as the case may be.\n(5) A person who accompanies or assists the Director-General,\nthe Deputy Director-General or other officer of the Commission to\nenter into or upon any premises or upon any vessel, boat, aircraft\nor other conveyance, as the case may be, shall, during the period\nof such accompaniment or assistance, enjoy the same immunity\nas is conferred under section seventeen upon an officer of the\nCommission.\nInspection 52. (1) The Director-General or an officer may, with a court\nof banker’s order, investigate any bank account, share account, purchase\nbooks\naccount, expense account or any other account or safe deposit box\nin any bank.\n(2) An order made under subsection (1) shall be sufficient for\nthe disclosure or production by any person of all or any information,\naccount, document or article that may be required by an officer of\nthe Commission so authorised.\nPower of 53. (1) The Director-General, the Deputy Director-General or\narrest an officer of the Commission authorised in that behalf by the\nDirector-General may arrest a person, without warrant, if the officer\nhas reasonable grounds to believe that such person has committed\nor is about to commit an offence under this Act.\n(2) Where a person is arrested without warrant under\nsubsection (1), such person may, at any time before appearing in\ncourt, while the person is in custody, be admitted to bail upon\nproviding surety or sureties sufficient, in the opinion of the Director-\nGeneral, Deputy Director-General or an officer authorised in that\nbehalf by the Director-General, to secure that person’s appearance\nbefore court, or the person may be released upon that person’s\nown recognizance on such conditions as the officer thinks fit.\n(3) A bail bond issued under this section shall be dealt with in\nCap 88 accordance with the provisions of the Criminal Procedure Code.\nAnti-Corruption [No. 38 of 2010 583"
+    },
+    {
+      "number": "54",
+      "heading": "(1) Where in the course of an investigation into an offence Seizure of",
+      "text": "under this Act, an officer has reasonable grounds to suspect that property\nany movable or immovable property which is derived or acquired\nfrom corrupt practices, is the subject matter of an offence or is\nevidence relating to an offence, the officer shall, with a warrant,\nseize the property.\n(2) An officer who seizes any property pursuant to subsection\n(1) shall prepare and sign a list of all the movable or immovable\nproperty seized under that subsection and of the places in which\nthe property is found.\n(3) An officer shall serve a copy of the list referred to in\nsubsection (2) on the owner of the property or on the person from\nwhom the property was seized, not later than thirty days from the\ndate of seizure.\n(4) For the purpose of this section, “property” means real or\npersonal property of any description, and includes money and any\ninterest in the real or personal property."
+    },
+    {
+      "number": "55",
+      "heading": "(1) An officer shall effect a seizure by removing the Custody and",
+      "text": "release of\nmovable property from the custody or control of the person from\nseized\nwhom it is seized and placing it under the custody of such other property\nperson or authority and at such place as the officer may determine.\n(2) An officer shall, where it is not practicable or otherwise\nnot desirable to effect the removal of any property under subsection\n(1), leave it at the premises in which it is seized under the custody\nof such person as the officer may determine.\n(3) An officer shall, where property is seized under subsection\n(2), make a record, in writing, specifying in detail the circumstances\nof, and the reason for, the seizure of the property and subsequent\nleaving of the property at the premises."
+    },
+    {
+      "number": "56",
+      "heading": "(1) The Director-General may, by written notice to a person Restriction",
+      "text": "who is the subject of an investigation in respect of an offence on disposal\nof property\nalleged or suspected to have been committed under this Act, or\nagainst whom a prosecution for an offence has been instituted,\ndirect that such person shall not dispose of, or otherwise deal with,\nany property specified in such notice without the consent of the\nDirector-General.\n(2) A notice issued under subsection (1) may be served by\ndelivering it personally to the person to whom it is addressed or\nmay, where the Director-General is satisfied that that person cannot\nbe found, or is not in the Republic, be served on or brought to the\nknowledge of, that person in such other manner as the Director-\nGeneral may direct.\n(3) A notice issued under subsection (1) shall have effect from\nthe time of service and shall continue in force for a period of nine\n584 No. 38 of 2010] Anti-Corruption\nmonths or until cancelled by the Director-General, whichever is\nearlier:\nProvided that the Director-General may issue a fresh\nnotice upon the expiry of the previous one for such further\nfinal term of six months to facilitate the conclusion of an\ninvestigation.\n(4) A person who, having been served with, or having knowledge\nof a notice issued under subsection (1), disposes of or otherwise\ndeals with, any property specified in the notice other than in\naccordance with the consent of the Director-General, commits an\noffence, and is liable, upon conviction, to imprisonment for a term\nnot exceeding five years.\n(5) A person aggrieved with the directive of the Director-General\nissued under subsection (1) may apply to the High Court for an\norder to reverse or vary the directive.\n(6) An application made under subsection (5) shall give notice\nto the Director-General of the day appointed for the hearing of the\napplication as a judge of the High Court may order.\n(7) The High Court may, on the hearing of an application under\nsubsection (5)—\n(a) confirm the directive;\n(b) reverse the directive and consent to the disposal of, or\nother dealing with, any property specified in the notice,\nsubject to such terms and conditions as it thinks fit; or\n(c) vary the directive as it thinks fit.\nRestriction 57. (1) The Commission may, where it has reasonable grounds\non disposal to believe that a third party is holding any property, including money\nof property\nby third in a bank account for, or on behalf of, or to the order of, a person\nparty who is under investigation, by notice, in writing, under the hand of\nthe Director-General, serve a notice on the third party directing\nthat the third party shall not dispose of, or otherwise deal with, any\nproperty specified in the notice.\n(2) A notice issued under subsection (1) shall be served on the\nthird party to whom it is directed and on the person being\ninvestigated.\n(3) The Commission may, in issuing a notice under this section\nimpose such conditions as it may determine.\n(4) A notice issued under subsection (1) shall have effect from\nthe time of service upon the person to whom it is addressed and\nshall continue in force for a period of twelve months unless cancelled\nor varied by the Director-General:\nProvided that the Director-General may issue a fresh\nnotice upon the expiry of the previous one for such further\nfinal term of six months to facilitate the conclusion of an\ninvestigation.\nAnti-Corruption [No. 38 of 2010 585\n(5) A third party on whom a notice is served under subsection\n(1) who disposes of, or deals with, the property specified in the\nnotice without the consent of the Director-General commits an\noffence and is liable, upon conviction, to imprisonment for a period\nnot exceeding five years.\n(6) A third party on whom a notice is served under this section\nshall not dispose of, or otherwise deal with, the property specified\nin the notice except in accordance with the terms of the notice.\n(7) Subsections (5), (6) and (7) of section fifty-five apply to\nthis section."
+    },
+    {
+      "number": "58",
+      "heading": "A person who— General",
+      "text": "(a) knowingly makes, or causes to be made, to the Commission, offences\nfalse testimony or a false report in any material particular\non any offence or matter under investigation;\n(b) destroys, alters, conceals or removes any books,\ndocument, record or evidence that the person believes\nmay be relevant to an investigation or proceeding under\nthis Act;\n(c) destroys, alters, mutilates or falsifies any valuable security,\naccount, computer system, disk, computer printout or\nother electronic device or any entry in any book,\ndocument, account or electronic device;\n(d) knowingly misleads the Director-General, the Deputy\nDirector- General or any other officer of the Commission\nby giving any false information or statement or making\na false allegation;\n(e) obstructs, insults, assaults, hinders or delays an officer of\nthe Commission in the lawful exercise of the powers\nconferred on the officer under this Act;\n(f) refuses or fails, without reasonable cause, to give to the\nDirector-General or an officer of the Commission on\nrequest, any document or information required for\npurposes of this Act;\n(g) fails to comply with any lawful demand of the Director-\nGeneral, Deputy Director-General or an officer of the\nCommission under this Act;\n(h) fails to produce, conceals or attempts to conceal any\nproperty, document or book in relation to which there\nare reasonable grounds to believe is used to commit an\noffence or is a proceed of an offence under this Act; or\n(i) destroys anything to prevent the seizure of any property or\ndocument or securing of the property or documents;\ncommits an offence and is liable, upon conviction, to imprisonment\nfor a period not exceeding two years.\n586 No. 38 of 2010] Anti-Corruption\nPART V\nPOWERS OF THE DIRECTOR OF PUBLIC PROSECUTIONS\nConsent of 59. (1) A prosecution for an offence under Part III shall not be\nDirector of instituted except by, or with, the consent of the Director of Public\nPublic\nProsecutions Prosecutions.\n(2) Notwithstanding subsection (1), a person may be charged\nwith an offence under Part III and may be arrested, or a warrant\nfor that person’s arrest may be issued and executed, and the person\nmay be remanded by the court in custody or on bail notwithstanding\nthat the written consent of the Director of Public Prosecutions to\nthe institution of a prosecution for the offence with which that\nperson ischarged has not been obtained.\n(3) Where a person is brought before a court before the written\nconsent of the Director of Public Prosecutions to the institution of\na prosecution against that person is obtained, the charge shall be\nexplained to the accused person but the accused person shall not\nbe called upon to plead.\nBail where 60. (1) If any person, against whom investigations or\nsuspect or proceedings for an offence under Part III are pending, is preparing\naccused\nperson about or about to leave Zambia, whether temporarily or permanently, the\nto leave Director of Public Prosecutions or any officer authorised in that\nZambia\nbehalf, may apply to any court for an order requiring such person\nto furnish bail in any sum, or, if already admitted to bail, in such\ngreater sum and on such additional conditions, as the case may be,\nwith or without sureties, and in any such application the court may\nmake such order as it considers appropriate.\n(2) An order made under this section, whether originally or on\nreview, shall be reviewed within thirty days by the court which\nmade the order.\nPART VI\nEVIDENCE, PRESUMPTIONS AND OTHER MATTERS\nPresumption 61. (1) Where, in any proceeding under this Act, it is proved that\nof corrupt any gratification has been received by any person with the\nintention\nknowledge and acquiescence or consent of the accused person,\nand the court is satisfied, having regard to that person’s relationship\nto the accused person or to any other circumstances that such\nperson has received the gratification for or on behalf of the accused\nperson, or otherwise on account of, or in connection with, the office\nor duties of the accused person, the gratification in the absence of\na satisfactory explanation, shall be presumed to have been received\nby the accused person.\nAnti-Corruption [No. 38 of 2010 587\n(2) Where, in any proceedings for an offence under Part III ,\nit is proved that any person solicited, accepted or obtained or agreed\nto accept or attempted to receive or obtain any payment in any of\nthe circumstances set out in the relevant section under which that\nperson is charged, then such payment shall, in the absence of a\nsatisfactory explanation be presumed to have been solicited,\naccepted or obtained or agreed to be accepted, received or obtained\ncorruptly.\n(3) For the purposes of subsection (2), “payment” means any\ncorrupt payment, whether in cash or in kind."
+    },
+    {
+      "number": "62",
+      "heading": "(1) Subject to the Plea Negotiations and Agreements Act, Grant of",
+      "text": "2010, the Director of Public Prosecutions may, at any time, with a indemnity\nby Director\nview to obtaining at a trial the evidence of any person directly or of Public\nindirectly concerned with or privy to an offence under Part III, Prosecutions\nAct No. 20\ntender indemnity to such person on condition that the person makes\nof 2010\na full and true disclosure of all facts or circumstances within that\nperson’s knowledge relating to the offence and to every other person\ninvolved in the commission thereof, whether as principal or in any\nother capacity, together with the delivery up of any document or\nthing constituting evidence or corroboration of the commission of\nthe offence by the person to be charged or the accused person, as\nthe case may be.\n(2) The court shall record in the manner prescribed by the\nCriminal Procedure Code the evidence on oath of every person Cap. 88\naccepting indemnity under subsection (1) and shall transmit the\nrecord of such evidence to the Director of Public Prosecutions.\n(3) A person accepting indemnity under this section shall be\nexamined as a witness at the trial.\n(4) Where a person who has accepted indemnity under this\nsection has, either by wilfully concealing anything material to the\ncase, or by giving false evidence, not complied with the condition\non which the indemnity was made, that person may be prosecuted\nfor the offence in respect of which the indemnity was tendered or\nfor any other offence of which the person appears to have been\nguilty in connection with the same matter.\n(5) A person to whom indemnity has been made under\nsubsection (1), who in the opinion of the court, has made a true\nand full disclosure of all things as to which that person is lawfully\nexamined, shall be entitled to receive a certificate of indemnity\nunder the hand of the Director of Public Prosecutions stating that\nthe person has made a true and full disclosure of all things as to\nwhich the person was examined, and such certificate shall be a bar\nto all legal proceedings against that person in respect of all such\nthings as aforesaid.\n588 No. 35 of 2010] Anti-Corruption"
+    },
+    {
+      "number": "63",
+      "heading": "The provisions of the Public Interest Disclosure (Protection",
+      "text": "Protection\nof of Whistleblowers) Act, 2010, shall apply in relation to the protection\nwhistleblowers\nAct No. 4 of of whistleblowers and other related matters.\n2010\nAbsence of 64. Where a public officer has corruptly solicited, accepted,\npower, obtained or agreed to accept or attempted to receive or obtain any\nauthority or\ngratification, it shall not be a defence in any trial in respect of an\nopportunity,\nno defence offence under Part III that —\n(a) the appointment, nomination or election of such person\nor any other person as a public officer was invalid or\nvoid; or\n(b) the public officer or any other public officer did not have\nthe power, authority or opportunity of doing, or of\nforbearing from doing, the act, favour or disfavour to\nwhich the gratification related.\nCorrupt 65. Where any commission, body or tribunal established by or\npractices under the Constitution, or appointed under the Inquiries Act, in the\ncoming to\nnotice of course, or upon conclusion, of any proceedings before it, is of the\ncommission, opinion that the conduct of any person appears to constitute an\nbody or\ntribunal offence under this Act and ought to be inquired into for the purposes\nCap. 1 of this Act, the commission, body or tribunal concerned shall, subject\nto any prohibition, restriction or restraint imposed upon it by, or\nCap. 41\nCap. 1 under, the Constitution or any other written law, communicate its\nopinion to the Director-General, together with the particulars of\nthe person concerned and such other facts of the case as the\ncommission, body or tribunal may consider necessary.\nAffidavit 66. For the purposes of any proceedings in respect of an\nevidence offence under this Act, the court may, at any stage of the proceedings,\ndirect that any specified fact may be proved at the trial by affidavit:\nProvided that the deponent may be summoned for cross\nexamination.\nFalse, 67. (1)Where, at the conclusion of the trial of a person charged\nfrivolous or\nwith an offence under Part III, the court is of the opinion that any\ngroundless\ncomplaints person has wilfully, and with intent to harm or injure the accused\nor allegations person in any manner made a false, frivolous or groundless complaint\nor allegation against the accused person, the court shall certify that\nopinion in writing and shall transmit it together with a certified copy\nof the record of the proceedings to the Director of Public\nProsecutions.\n(2) Any person who, in the opinion of the court certified under\nsubsection (1) has made a false, frivolous or groundless complaint\nor allegation to the effect that any person has committed or\nattempted to commit, or aided, abetted or counselled the commission\nof, or conspired with any other person to commit, any offence\nunder Part III, commits an offence and is liable, upon conviction, to\nAnti-Corruption [No. 38 of 2010 589\nimprisonment for a term not exceeding ten years or to a fine not\nexceeding ten thousand penalty units, or to both."
+    },
+    {
+      "number": "68",
+      "heading": "The provisions of the Forfeiture of Proceeds of Crime Act, Forfeiture of",
+      "text": "2010, shall apply in relation to the seizure and forfeiture of any proceeds or\nproperty\nproceeds or property corruptly acquired by any person and any corruptly\nother related matters. acquired\nAct No. 19 of\n2010"
+    },
+    {
+      "number": "69",
+      "heading": "A person who tampers with any property that is seized or",
+      "text": "Tampering\nforfeited under this Act commits an offence and is liable, upon with seized\nand forfeited\nconviction, to imprisonment for a period not exceeding three years.\nproperty"
+    },
+    {
+      "number": "70",
+      "heading": "(1) If, on the trial of a person who has committed an offence Alternative",
+      "text": "under Part III, it is not proved that the accused person committed conviction of\naccused\nthe offence charged but it is proved that the accused person\nperson\ncommitted some other offence under this Act, the accused person\nmay, notwithstanding the absence of the written consent of the\nDirector of Public Prosecutions in respect of such other offence,\nbe convicted of such other offence, and be liable to be dealt with\naccordingly.\n(2) If, on the trial of any person for any offence under Part\nIII, there is any material variance between the particulars of the\noffence charged and the evidence adduced in support thereof, such\nvariance shall not, of itself, entitle the accused person to an acquittal\nof the offence charged if, in the opinion of the court, there is prima\nfacie evidence of the commission of that offence.\n(3) Subject to subsection (2), notwithstanding the absence of\nthe written consent of the Director of Public Prosecutions in respect\nof the particulars supported by the evidence adduced, the court\nmay make the necessary amendment to the particulars and shall\nthereupon read and explain the same to the accused person and\nthe accused person shall be called to plead to the amended particulars\nand the parties shall be allowed to recall and examine, on matters\nrelevant to such amendment, any witness who may have been\nexamined and to call any further witness.\n(4) If an amendment is made under subsection (3) after the\nprosecution’s case is closed, no further witness shall be called by\nthe prosecution other than a witness on such matters only as it\nwould, apart from the provisions of this subsection, be permissible\nto call and put in evidence in rebuttal.\n590 No. 38 of 2010] Anti Corruption\nPART VII\nGENERAL PROVISIONS\nProcedure 71. Except where otherwise specifically provided for, all\nfor applications under this Act shall be commenced by way of originating\ncommencement\nof summons.\napplication\nRegister of 72. (1) A public body shall keep a register of gifts which shall\ngifts be administered by the controlling officer or chief executive officer\nof the public body, as the case may be.\n(2) The Commission may, by statutory instrument, make rules\nrelating to the management of the register of gifts.\nMutual legal 73. The Mutual Legal Assistance in Criminal Matters Act\nassistance applies to offences under this Act, except where the provisions of\nCap. 98\nthat Act are inconsistent with this Act.\nSupremacy 74. Subject to the Constitution, where there is any inconsistency\nof Act between the provisions of this Act and those of any other written\nCap.1\nlaw relating to corrupt practices, the provisions of this Act shall\nprevail to the extent of the inconsistency.\nDefence 75. In any proceedings for an offence under this Act it shall be\na valid defence that the gratification offered or accepted is an\nentertainment or a casual gift.\nOffences 76. (1) This Act shall have effect within as well as outside\ncommitted\nZambia and notwithstanding where any offence is committed by\noutside\nZambia any person, that person may be dealt with in respect of such offence\nas if it has been committed within Zambia.\n(2) Any proceedings against any person under this section\nwhich would be a bar to subsequent proceedings against such person\nfor the same offence, if such offence had been committed in\nZambia, shall be a bar to further proceedings against that person\nunder any written law for the time being in force relating to the\nextradition of persons, in respect of the same offence outside\nZambia.\nExtraditable 77. An offence under this Act shall be deemed to be an\noffences extraditable offence under the provisions of the Extradition Act.\nCap. 94\nRules 78. The Commission may, by statutory instrument, make rules\nfor the—\n(a) appointment, including the power to confirm appointments\nof persons, to any office in respect of which the\nCommission is charged with the responsibility under this\nAct;\nAnti-Corruption [No. 38 of 2010 591\n(b) disciplinary control of persons holding or acting in any\noffice;\n(c) termination of appointments and the removal of persons\nfrom office; and\n(d) practice and procedure of the Commission in the exercise\nof its functions under this Act."
+    },
+    {
+      "number": "79",
+      "heading": "(1)The President may, in consultation with the Commission, Regulations",
+      "text": "make regulations for the better carrying out of the provisions of\nthis Act.\n(2) Without prejudice to the generality of subsection (1), the\nregulations made under that subsection may provide for —\n(a) the prevention of corruption generally;\n(b) the disclosure by public officers of interest in contracts or\nproposed contracts;\n(c) the control and maintenance of the register of gifts;\n(d) the creation and keeping of registers for the recording of\nassets and information, the powers, functions and duties\nof the controlling officers;\n(e) protection to informers, whistle- blowers and complainants;\n(f) the procedure for lodging and dealing with complaints;\n(g) the procedure for declaring of interest and assets by\nofficers of the Commission;\n(h) the disposal of recovered gratification;\n(i) anti-corruption strategies in private and public bodies;\n(j) the form of oaths to be declared under this Act;\n(k) the establishment, composition, tenure, procedure and any\nother matters in respect of committees; and\n(l) generally the carrying into effect of the purposes of this\nAct."
+    },
+    {
+      "number": "80",
+      "heading": "(1) The Anti-Corruption Commission Act, 1996, is hereby Repeal of",
+      "text": "repealed. Cap. 91\n(2) Notwithstanding subsection (1), all the investigations,\nprosecutions and other legal proceedings, instituted or commenced\nunder the repealed Act, and pending immediately before the Cap. 91\ncommencement of this Act by or against the former Commission,\nmay be continued by or against the Commission.\n(3) Notwithstanding subsection (1), all the property, assets,\nrights, liabilities and obligations of the former Commission existing\nimmediately before the commencement of this Act, shall vest and\ncontinue to vest in, and subsist against the Commission, together\nwith the rights, liabilities and obligations arising out of any contract\nor otherwise, as if this Act had not come into force.\n592 No. 38 of 2010] Anti-Corruption\n(4) Subject to the other provisions of this Act, a person who,\nimmediately before the commencementof this Act, held office as a\nCommissioner of the former Commission shall continue to hold\nsuch office as a Commissioner until the expiry of the term, after\nwhich the Commissioners shall be appointed in accordance with\nthe provisions of this Act.\n(5) Notwithstanding subsection (1), any rules, regulations,\norders, notices, prescriptions and other instruments or directives\nissued under the Act hereby repealed and in existence immediately\nbefore the commencement of this Act, shall continue in operation\nuntil their expiration or until their express repeal or revocation.\nStaff of 81. A person who, before the commencement of this Act, was\nformer an officer or member of staff of the former Commission, shall\nCommission\ncontinue to be an officer or member of staff of the Commission, as\nthe case may be, as if appointed or employed under this Act.\nSCHEDULE\n(Section 4 (3))\nADMINISTRATION OF COMMISSION\nPART I\nTHE BOARD OF THE COMMISSION\nSeal of 1. (1) The seal of the Commission shall be such device as may\nCommission be determined by the Board and shall be kept by the Secretary.\n(2) The affixing of the seal shall be authenticated by the\nChairperson or any other person authorised in that behalf by a\nresolution of the Board.\n(3) Any document purporting to be under the seal of the\nCommission or issued on behalf of the Commission shall be received\nin evidence and shall be deemed to be so executed or issued, as the\ncase may be, without further proof, unless the contrary is proved.\nBoard of 2. (1) There is hereby constituted a Board of Commissioners\nCommission\nwhich shall be the governing body of the Commission.\n(2) The Board shall consist of the following Commissioners:\n(a) the Chairperson, who shall be a person who has held, or\nis qualified to hold, high judicial office;\n(b) the Vice-Chairperson; and\n(c) three other persons.\n(3) The Commissioners shall be appointed by the President,\nsubject to ratification by the National Assembly.\nAnti-Corruption [No. 38 of 2010 593\n(4) A person is eligible to be appointed as a Commissioner if\nthat person —\n(a) is a citizen of Zambia;\n(b) is permanently resident in Zambia;\n(c) is of high integrity; and\n(d) has served with distinction at a senior level in a\nGovernment office or a registered profession or\nvocation.\n(5) A person shall not be appointed as a Commissioner if that\nperson —\n(a) holds office in, or is an employee of, any political party; or\n(b) has been convicted of an offence involving fraud or\ndishonesty, or any other offence under this Act or any\nother written law and sentenced therefor to a term of\nimprisonment of six months or more without the option\nof a fine."
+    },
+    {
+      "number": "3",
+      "heading": "(1) A Commissioner shall, subject to the other provisions of Tenure of",
+      "text": "this Schedule, hold office for a term of three years and may be office of\nCommissioner\nappointed for a further period of three years:\nProvided that a Commissioner shall only hold office for two\nterms.\n(2) A Commissioner may resign upon giving one month’s notice\nin writing to the President.\n(3) The office of a Commissioner shall become vacant —\n(a) if the Commissioner is absent, without reasonable excuse\nfrom three consecutive meetings of the Commission of\nwhich the Commissioner has had notice;\n(b) if the Commissioner is adjudged bankrupt;\n(c) if the Commissioner is convicted of an offence under this\nAct or any other written law and sentenced therefor to\nimprisonment for a term of six months or more, without\nthe option of a fine;\n(d) if the Commissioner is declared to be of unsound mind;\nor\n(e) upon the Commissioner’s death."
+    },
+    {
+      "number": "4",
+      "heading": "A Commissioner shall not take up office unless the Declaration",
+      "text": "Commissioner furnishes a declaration of assets and liabilities to the of assets\nChief Justice in the prescribed form."
+    },
+    {
+      "number": "5",
+      "heading": "(1) Subject to the other provisions of this Act, the Board may Proceedings",
+      "text": "regulate its own procedures. of Board\n594 No. 38 of 2010] Anti-Corruption\n(2) The Board shall meet for the transaction of business at least\nonce in every three months at such places and times as the Board\nmay determine.\n(3) A meeting of the Board may be called by the Chairperson\nupon giving notice of not less than fourteen days, and shall be called\nby the Chairperson if not less than one third of the members so\nrequest in writing:\nProvided that if the urgency of any particular matter\ndoes not permit the giving of such notice, a special meeting\nmay be called upon a shorter notice given by three members\nof the Board.\n(4) The Chairperson with two other Commissioners shall\nconstitute a quorum at any meeting of the Board.\n(5) There shall preside at any meeting of the Board —\n(a) the Chairperson;\n(b) in the absence of the Chairperson, the Vice-Chairperson;\nor\n(c) in the absence of both the Chairperson and the Vice-\nChairperson, such other Commissioner as the\nCommissioners present may elect for the purpose of\nthat meeting.\n(6) A decision of the Board on any question shall be by a\nmajority of the Commissioners present and voting at the meeting\nand in the event of an equality of votes, the person presiding at the\nmeeting shall have a casting vote, in addition to that person’s\ndeliberative vote.\n(7) The Board may invite any person, whose presence is in its\nopinion desirable, to attend and to participate in the deliberations of\na meeting of the Board, but such person shall have no vote.\n(8) The validity of any proceedings, acts or decisions of the\nBoard shall not be affected by any vacancy in the membership of\nthe Board or by any defect in the appointment of any Commissioner\nor by reason that any person not entitled to do so, took part in the\nproceedings.\nCommittees 6. (1) The Board may, for the purpose of performing its functions\nof Board under this Act, establish such committees as it considers necessary\nand delegate to any of those committees such of its functions as it\nconsiders fit.\n(2) Subject to subparagraph (1), the Board may appoint as\nmembers of a committee persons who are, or are not,\nCommissioners, except that at least one member of a committee\nshall be a Commissioner.\nAnti-Corruption [No. 38 of 2010 595\n(3) A person serving as a member of a committee shall hold\noffice for such period as the Board may determine.\n(4) Subject to any specific or general direction of the Board, a\ncommittee may regulate its own procedure."
+    },
+    {
+      "number": "7",
+      "heading": "There shall be paid to a Commissioner or a member of a Remuneration",
+      "text": "committee such remuneration and allowances as the Board may and\nallowances of\ndetermine with the approval of the President. Commissioners"
+    },
+    {
+      "number": "8",
+      "heading": "(1) If any person is present at a meeting of the Board or any Disclosure",
+      "text": "committee at which any matter is the subject of consideration, and of interest\nin which matter that person or that person’s spouse, relative,friend\nor associate is directly or indirectly interested in a private capacity,\nthat person shall, as soon as is practicable after the commencement\nof the meeting, declare such interest and shall not, unless the Board\nor the committee otherwise directs, take part in any consideration\nor discussion of, or vote on, any question relating to that matter.\n(2) A disclosure of interest made under subparagraph (1) shall\nbe recorded in the minutes of the meeting at which it is made."
+    },
+    {
+      "number": "9",
+      "heading": "(1) A person shall not, without the consent in writing given by, Prohibition",
+      "text": "or on behalf of, the Commission, publish or disclose to any of\nunauthorised person, otherwise than in the course of duties of that publication\nof, or\nperson, the contents of any document, communication or information\ndisclosure\nwhatsoever, which relates to or which has come to the knowledge\nof,\nof that person in the course of that person’s duties under this Act. information\nto\n(2) A person who contravenes subparagraph (1) commits an\nunauthorised\noffence and is liable, upon conviction, to a fine not exceeding two\npersons\nhundred thousand penalty units or to imprisonment for a period not\nexceeding two years, or to both.\n(3) A person who, having any information which to the\nknowledge of that person has been published or disclosed in\ncontravention of sub-paragraph (1), unlawfully publishes or\ncommunicates the information to any other person, commits an\noffence and is liable, upon conviction, to a fine not exceeding two\nhundred thousand penalty units or to imprisonment for a period not\nexceeding two years, or to both."
+    },
+    {
+      "number": "10",
+      "heading": "An action or other proceeding shall not lie or be instituted Immunity",
+      "text": "against a Commissioner or a member of a committee of the\nCommission for, or in respect of, any act or thing done or omitted\nto be done in good faith in the exercise of or performance, or\npurported exercise or performance of any of the powers, functions\nor duties conferred under this Act.\n596 No. 38 of 2010] Anti Corruption\nPART II\nFINANCIAL PROVISIONS\nFunds of 11. (1) The funds of the Commission shall consist of such monies\nCommission as may —\n(a) be appropriated to the Commission by Parliament for the\npurposes of the Commission;\n(b) be paid to the Commission by way of grants or donations;\nand\n(c) otherwise vest in or accrue to the Commission.\n(2)The Commission may, subject to the approval of the\nPresident—\n(a) accept monies by way of grants or donations from any\nsource within or outside Zambia; and\n(b) raise by way of loans or otherwise, such monies as it may\nrequire for the discharge of its functions.\n(3) There shall be paid from the funds of the Commission—\n(a) the salaries, allowances, pensions and loans of the\nmembers of staff of the Commission;\n(b) such reasonable travelling and other allowances for the\nCommissioners and the members of any committee\nwhen engaged on the business of the Commission, at\nsuch rates as the Board may determine; and\n(c) any other expenses incurred by the Commission in the\nperformance of its functions under this Act.\n(4) The Board may invest in such manner as it considers\nappropriate such funds of the Commission which it does not\nimmediately require for the performance of its functions.\nFinancial 12. The financial year of the Commission shall be a period of\nyear twelve months ending on 31st December in each year.\nAccounts 13. (1) The Commission shall cause to be kept proper books\nof account and other records relating to its accounts.\n(2) The accounts of the Commission shall be audited annually\nby the Auditor-General or an auditor appointed by the Auditor-\nGeneral.\n(3) The Auditor-General’s fees shall be paid by the Commission.\nAnnual 14. (1) As soon as practicable, but not later than ninety days\nreport after the end of the financial year, the Commission shall submit to\nthe President a report concerning its activities during the financial\nyear.\nAnti-Corruption [No. 38 of 2010 597\n(2) The report referred to in subparagraph (1) shall include\ninformation on the financial affairs of the Commission and there\nshall be appended to the report —\n(a) an audited balance sheet;\n(b) an audited statement of income and expenditure; and\n(c)such other information as the President may require.\n(3) The President shall, not later than seven days after the first\nsitting of the National Assembly next after receipt of the report\nreferred to in subparagraph (1), lay the report before the National\nAssembly.\nValue Added Tax (Amendment) [No. 48 of 2010 711\nGOVERNMENT OF ZAMBIA\nACT\nNo. 48 of 2010\nDate of Assent: 7th December, 2010\nAn Act to amend the Value Added Tax Act.\n[10th December, 2010\nENACTED by the Parliament of Zambia. Enactment"
+    },
+    {
+      "number": "1",
+      "heading": "(1) This Act may be cited as the Value Added Tax Short title",
+      "text": "(Amendment) Act, 2010, and shall be read as one with the Value and\ncommence-\nAdded Tax Act, in this Act referred to as the principal Act.\nment\n(2) This Act shall come into operation on 1st January, 2011. Cap. 331"
+    },
+    {
+      "number": "2",
+      "heading": "The principal Act is amended in section two — Amendment",
+      "text": "(a) by the deletion of — of section 2\n(i) the definition of “commercial property” and the\nsubstitution therefor of the following:\n“commercial property” means a\nbuilding that is used for commercial\npurposes, and includes an office building,\nan industrial building, a health facility, a\nhotel, a shopping mall, a retail store, a\nshopping centre, a warehouse, a garage,\na recreation centre, a dwelling house and\na multi-facility dwelling apartment;; and\n(ii) the definition of “Tribunal” and the substitution\ntherefor of the following:\n“Tribunal” means the Revenue Appeals Act No. 11\nTribunal established under the Revenue of 1998\nAppeals Tribunal Act, 1998;; and\n(b) by the insertion in the appropriate places of the following\nnew definitions:\n“accounting year” means a period of\ntwelve months ending on 30th June or such\nother period as the Commissioner-General\nmay prescribe; and\n“health facility” has the meaning\nassigned to it in the Health Professions Act No. 24\nAct, 2009;. of 2009"
+    },
+    {
+      "number": "3",
+      "heading": "The principal Act is amended in subsection (2) of section Amendment",
+      "text": "thirty-four by the deletion of the words “Commissioner of Value of section 34\nAdded Tax” and the substitution therefor of the words\n“Commissioner of Domestic Taxes”.\nSingle copies of this Act may be obtained from the Government Printer\nP.O. Box 30136, 10101 Lusaka. Price K1,000\n712 No. 48 of 2010] Value Added Tax (Amendment)\nAmendment 4. The principal Act is amended —\nof principal (a) by the deletion of the words “Commissioner of Value Added\nAct\nTax” wherever they appear and the substitution therefor\nof the words “Commissioner of Domestic Taxes”;\n(b) by the deletion of the words “Value Added Tax Division”\nwherever they appear and the substitution therefor of\nthe words “Domestic Taxes Division”; and\n(c) by the deletion of the words “Value Added Tax Appeals\nTribunal” wherever they appear and the substitution\ntherefor of the words “Revenue Appeals Tribunal”.\nTHE PROPERTY TRANSFER TAX (AMENDMENT) BILL, 2010\nMEMORANDUM\nThe object of this Bill is to amend the Property Transfer Tax Act so as to—\n(a) increase the property transfer tax rate from three percent to five per-\ncent;\n(b) prohibit the avoidance of payment of property transfer tax; and\n(c) provide for matters connected with, or incidental to, the foregoing.\nM. M. KONDOLO,\nSolicitor-General\nN.A.B. 57, 2010\n7th October, 2010\nProperty Transfer Tax (Amendment) [No. 50 of 2010 717\nGOVERNMENT OF ZAMBIA\nACT\nNo. 50 of 2010\nDate of Assent: 7th December, 2010\nAn Act to amend the Property Transfer Tax Act.\n[10th December, 2010\nENACTED by the Parliament of Zambia. Enactment"
+    },
+    {
+      "number": "1",
+      "heading": "(1) This Act may be cited as the Property Transfer Tax Short title",
+      "text": "and\n(Amendment) Act, 2010, and shall be read as one with the Property\ncommence-\nment\nTransfer Tax Act, in this Act referred to as the principal Act.\nCap. 340\n(2) This Act shall come into operation on 1st April, 2011, and\nsubject to any provisions to the contrary, shall have effect in relation\nto the charge of tax for the charge year ending on 31st March,\n2012, and in relation to each subsequent charge year."
+    },
+    {
+      "number": "2",
+      "heading": "Section four of the principal Act is amended in subsection Amendment",
+      "text": "of\n(2) by the deletion of the words “three percent” and the\nsection 4\nsubstitution therefor of the words “five percent”."
+    },
+    {
+      "number": "3",
+      "heading": "The principal Act is amended by the insertion immediately Insertion of",
+      "text": "after section nine A of the following new section: new\nsection 9B\n9B. (1) Where the Commissioner-General has reasonable Transactions\ngrounds to believe that the main purpose or one of the main purposes designed to\navoid tax\nfor which any transaction was effected was the avoidance or\nliability\nreduction of liability to tax for any charge year, or that the main\nbenefit which might have been expected to accrue from the\ntransaction within the three years immediately following the\ncompletion thereof, was the avoidance or reduction of liability to\ntax, the Commissioner-General may, if the Commissioner-General\ndetermines it to be just and reasonable, direct that such adjustments\nshall be made as respects liability to tax as the Commissioner-\nGeneral considers appropriate to counteract the avoidance or\nreduction of liability to tax which would otherwise be effected by\nthe transaction.\n(2) Without prejudice to the generality of the powers conferred\nby subsection (1), the powers conferred thereby extend to—\n(a) the charging with tax the income of persons who, but for\nthe adjustments, would not be chargeable with any tax\nor would not be chargeable to the same extent; and\nSingle copies of this Act may be obtained from the Government Printer\nP.O. Box 30136, 10101 Lusaka. Price K1,000\n718 No. 50 of 2010] Property Transfer Tax (Amendment)\n(b) the charging of a greater amount of tax than would be chargeable but\nfor the adjustments.\n(3) Any direction of the Commissioner-General under this section shall specify\nthe transaction giving rise to the direction and adjustments as respects liability to\ntax which the Commissioner-General considers appropriate.\nRoad Traffic (Amendment) [No. 51 of 2010 719\nGOVERNMENT OF ZAMBIA\nACT\nNo. 51 of 2010\nDate of Assent: 7th December, 2010\nAn Act to amend the Road Traffic Act, 2002.\n[ 10th December, 2010\nENACTED by the Parliament of Zambia. Enactment"
+    },
+    {
+      "number": "1",
+      "heading": "(1) This Act may be cited as the Road Traffic (Amendment) Short title",
+      "text": "and\nAct, 2010, and shall be read as one with the Road Traffic Act,\ncommence-\n2002, in this Act referred to as the principal Act. ment\nAct No. 11\nof 2002\n(2) This Act shall come into operation on 1st January, 2011."
+    },
+    {
+      "number": "2",
+      "heading": "The principal Act is amended by the repeal of the Second Repeal and",
+      "text": "Schedule and the substitution therefor of the Second Schedule set replacement\nof Second\nout in the Appendix. Schedule\nSingle copies of this Act may be obtained from the Government Printer\nP.O. Box 30136, 10101 Lusaka. Price K1,000\n720 No. 51 of 2010 Road Traffic (amendment)\nAPPENDIX\n(Section 2)\nSECOND SCHEDULE\n(Section 42)\nTAXES PAYABLE PER ANNUM FOR MOTOR VEHICLE AND TRAILER LICENCES\nItem Fee Units"
+    },
+    {
+      "number": "1",
+      "heading": "Motor vehicles owned by the Government 0",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "For every hand-cart per wheel 11",
+      "text": ""
+    },
+    {
+      "number": "3",
+      "heading": "For every motor-cycle 167",
+      "text": ""
+    },
+    {
+      "number": "4",
+      "heading": "For every motor vehicle, if the manufacturer’s permitted gross weight—",
+      "text": "(a) does not exceed 800kg 1,000\n(b) exceeds 800kg but does not exceed 1,000kg 1,166.7\n(c) exceeds 1,000kg but does not exceed 1,200kg 1,333.3\n(d) exceeds 1,200kg but does not exceed 1,400kg 1,500\n(e) exceeds 1,400kg but does not exceed 1,600kg 1,666.7\n(f)exceeds 1,600kg but does not exceed 2,000kg 1,833.3\n(g) exceeds 2,000kg but does not exceed 4,000kg 2,083.3\n(h) exceeds 4,000kg but does not exceed 6,000kg 2,333.3\n(i) exceeds 6,000kg but does not exceed 9,000kg 2,666.7\n(j) exceeds 9,000kg but does not exceed 12,000kg 3,000\n(k) exceeds 12,000kg but does not exceed 15,000kg 3,333.3\n(l) exceeds 15,000kg but does not exceed 17,000kg 4,166.7\n(m) exceeds 17,000kg but does not exceed 20,000kg 5,416.7\n(n) exceeds 20,000kg 12,500"
+    },
+    {
+      "number": "5",
+      "heading": "For each motor dealer’s licence 5,556",
+      "text": ""
+    },
+    {
+      "number": "6",
+      "heading": "For each identification number included in a motor dealer’s licence 833",
+      "text": ""
+    },
+    {
+      "number": "7",
+      "heading": "For every farm vehicle licence 556",
+      "text": ""
+    },
+    {
+      "number": "8",
+      "heading": "For every farm vehicle tractor on a road otherwise than in accordance with a farm",
+      "text": "vehicle licence 833\nNote:"
+    },
+    {
+      "number": "1",
+      "heading": "Where any licence is issued in respect of the period 1st January to 30th June or 1st July to",
+      "text": "31st December, fiftyfive per centum of the above mentioned taxes shall be payable."
+    },
+    {
+      "number": "2",
+      "heading": "For every quarterly licence thirty per centum of the above taxes shall be payable.",
+      "text": ""
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Anti%20Corruption%20Act%202010.pdf",
+  "source_hash": "sha256:4ec2249f48840f978850d9a5019b4412b6045b8a5f6af96d53d3df3737ccf535",
+  "fetched_at": "2026-04-12T11:42:05.343207+00:00",
+  "parser_version": "0.4.0",
+  "node_url": "https://www.parliament.gov.zm/node/3427",
+  "section_count": 149,
+  "full_text_chars": 103135
+}
