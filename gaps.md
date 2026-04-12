@@ -275,3 +275,7 @@ consider Government Gazette or direct MMMD/MoJ request).
 - 2010 Act No. 23: No PDF on node page (https://www.parliament.gov.zm/node/3356)
 ### Batch 0055 — Gaps (2026-04-12T14:45:12Z)
 - Act No. 1 of 2010 (The Zambia Development Agency): Scanned PDF, needs OCR re-parse. 0 chars extracted.
+
+### Batch 0056 — Gaps (2026-04-12T16:50:00Z)
+- Act No. 26 of 2010 (Independent Broadcasting Authority Amendment): No PDF on node page (https://www.parliament.gov.zm/node/3365) — confirmed again
+- act-zm-2009-030-appropriation: 0 sections — scanned PDF, needs OCR re-parse
