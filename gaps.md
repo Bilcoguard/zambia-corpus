@@ -270,3 +270,6 @@ consider Government Gazette or direct MMMD/MoJ request).
 - act-zm-2010-041-lands-amendment: 0 sections — scanned PDF, needs OCR
 - act-zm-2010-040-lands-and-deeds-registry-amendment: 0 sections — scanned PDF, needs OCR
 - act-zm-2010-039-lands-tribunal-2010: 0 sections — scanned PDF, needs OCR
+
+- 2010 Act No. 26: No PDF on node page (https://www.parliament.gov.zm/node/3365)
+- 2010 Act No. 23: No PDF on node page (https://www.parliament.gov.zm/node/3356)
