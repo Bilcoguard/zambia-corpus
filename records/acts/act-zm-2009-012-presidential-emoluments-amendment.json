@@ -1,0 +1,24 @@
+{
+  "id": "act-zm-2009-012-presidential-emoluments-amendment",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Presidential Emoluments (Amendment)",
+  "citation": "Act No. 12 of 2009",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "2",
+      "heading": "(1) The President shall be paid a salary and allowances at Salary and",
+      "text": "allowances\nsuch rate as the Minister responsible for finance may prescribe, by\nstatutory instrument, in consultation with the Standing Orders\nCommittee of the National Assembly.\n(2) For the avoidance of doubt, the President shall continue to\nreceive the salary and allowances applicable until the coming into\noperation of such statutory instrument as the Minister responsible\nfor finance may prescribe under subsection (1).\nCopies of this Act can be obtained from the Government Printer,\nP O. Box 30136,10101, Lusaka, Price K1,000 each"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Presidential_Emoluments%28Amendment%29_Act_No._12_2009.PDF",
+  "source_hash": "sha256:b69c5f0c15905bc3b601c7cb0c8bc1fa2d3d3f3ba141d00ce3db215bda444e6a",
+  "fetched_at": "2026-04-12T16:06:28Z",
+  "parser_version": "0.3.0",
+  "node_url": "https://www.parliament.gov.zm/node/3607"
+}

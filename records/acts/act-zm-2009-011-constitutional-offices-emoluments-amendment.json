@@ -1,0 +1,34 @@
+{
+  "id": "act-zm-2009-011-constitutional-offices-emoluments-amendment",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Constitutional Offices (Emoluments) (Amendment)",
+  "citation": "Act No. 11 of 2009",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "2",
+      "heading": "(1 )There shall be paid to the holder of an office specified Salary and",
+      "text": "allowances\nin the Schedule, a salary and allowances at such rate as the\nMinister responsible for finance may prescribe, by statutory\ninstrument, in consultation with the Standing Orders\nCommittee of the National Assembly.\n(2) Notwithstanding the repeal of the Schedule to this Act,\na holder of an office to whom subsection (1) applies, shall\ncontinue to receive the salaries and allowances applicable\nuntil the coming into operation of such statutory instrument\nas the Minister responsible for finance may prescribe under\nsubsection (1)."
+    },
+    {
+      "number": "3",
+      "heading": "The principal Act is amended by the repeal of the Schedule Repeal and",
+      "text": "thereto and the substitution therefor of the Schedule set out in the replacement\nof schedule\nAppendix to this Act.\nCopies of this Act can be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka. Price K1,000 each.\nConstitutional Offices\n70 No. 11 of 2009]\n(Emoluments)(Amendment)\nAPPENDIX\nSCHEDULE\n(Section 2)\nCONSTITUTIONAL OFFICE HOLDERS\nI . Secretary to the Cabinet\nAttorney-General\nInvestigator-General\nAuditor-General\nSolicitor-General"
+    },
+    {
+      "number": "6",
+      "heading": "Director of Public Prosecutions",
+      "text": ""
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Constitutional%20Offices%20%28Emoluments%29Act%20No.%2011%202009.PDF",
+  "source_hash": "sha256:29a868bc0a60152c3b4889e37a31139106fe4727426707cf234df51f718a111f",
+  "fetched_at": "2026-04-12T16:06:33Z",
+  "parser_version": "0.3.0",
+  "node_url": "https://www.parliament.gov.zm/node/3604"
+}

@@ -279,3 +279,11 @@ consider Government Gazette or direct MMMD/MoJ request).
 ### Batch 0056 — Gaps (2026-04-12T16:50:00Z)
 - Act No. 26 of 2010 (Independent Broadcasting Authority Amendment): No PDF on node page (https://www.parliament.gov.zm/node/3365) — confirmed again
 - act-zm-2009-030-appropriation: 0 sections — scanned PDF, needs OCR re-parse
+
+## [2026-04-12] Phase 4 Batch 0057 — 2009 Acts gaps
+
+- **Act No. 21 of 2009** (Electronic Communications and Transactions Act): No PDF link on parliament.gov.zm node /node/3581. May need alternative source.
+- **Act No. 13 of 2009** (Ministerial and Parliamentary Offices (Emoluments) (Amendment)): No PDF link on parliament.gov.zm node /node/3637. May need alternative source.
+- **act-zm-2009-020-constitution-of-zambia-amendment**: 1 section extracted — scanned PDF, needs OCR re-parse.
+- **act-zm-2009-018-zambia-law-development-commission-amendment-act-2009**: 1 section extracted — scanned PDF, needs OCR re-parse.
+- **act-zm-2009-012-presidential-emoluments-amendment**: 1 section extracted — scanned PDF, needs OCR re-parse.

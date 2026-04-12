@@ -1,0 +1,24 @@
+{
+  "id": "act-zm-2009-020-constitution-of-zambia-amendment",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Constitution of Zambia (Amendment)",
+  "citation": "Act No. 20 of 2009",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "118A",
+      "heading": "Parliament shall enact budgeting and planning legislation",
+      "text": "Planning and\nBudgeting which shall provide for matters that relate to the annual Budget\nLegislation\nand to medium and long-term development plans."
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Constitution_of_Zambia_%28Amendment%29_Act%2C_2009.PDF",
+  "source_hash": "sha256:4b979ee7f62475e88a78ecfac5b323988234fc56a87114fe0904a1af1a817634",
+  "fetched_at": "2026-04-12T16:05:35Z",
+  "parser_version": "0.3.0",
+  "node_url": "https://www.parliament.gov.zm/node/3599"
+}
