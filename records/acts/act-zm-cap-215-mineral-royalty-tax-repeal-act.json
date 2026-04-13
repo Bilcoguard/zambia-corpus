@@ -1,0 +1,30 @@
+{
+  "id": "act-zm-cap-215-mineral-royalty-tax-repeal-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Mineral Royalty Tax (Repeal) Act",
+  "citation": "Cap. 215",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "(1) This Act may be cited as the Mineral Royalty (Repeal) Act, 1997, and shall Short title and",
+      "text": "1. (1) This Act may be cited as the Mineral Royalty (Repeal) Act, 1997, and shall Short title and\ncome into operation on 1st April, 1997. commencement"
+    },
+    {
+      "number": "2",
+      "heading": "The Mineral Royalty Act is hereby repealed. Repeal of",
+      "text": "2. The Mineral Royalty Act is hereby repealed. Repeal of\nCap. 215\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Mineral%20Royalty%20Tax%20%28Repeal%29%20Act.pdf",
+  "node_url": "https://www.parliament.gov.zm/node/1007",
+  "source_hash": "sha256:93ed202110ad8b0dca60f82ce466c4f541078cd6956aec826ca83e91880313f7",
+  "fetched_at": "2026-04-13T08:35:00Z",
+  "parser_version": "0.1.0",
+  "needs_ocr": false
+}

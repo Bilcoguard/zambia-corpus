@@ -1,0 +1,785 @@
+{
+  "id": "loz-food-reserve-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Food Reserve Act",
+  "citation": "Food Reserve Act",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "S hort title",
+      "text": "1. S hort title"
+    },
+    {
+      "number": "2",
+      "heading": "I nterpretation",
+      "text": "2. I nterpretation\nPART II\nTHE FOOD RESERVE AGENCY"
+    },
+    {
+      "number": "3",
+      "heading": "E stablishment of Agency",
+      "text": "3. E stablishment of Agency"
+    },
+    {
+      "number": "4",
+      "heading": "F unctions of Agency",
+      "text": "4. F unctions of Agency\nPART III\nTHE NATIONAL FOOD RESERVE\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "5",
+      "heading": "N ational Food Reserve",
+      "text": "5. N ational Food Reserve"
+    },
+    {
+      "number": "6",
+      "heading": "D esignation of commodities",
+      "text": "6. D esignation of commodities"
+    },
+    {
+      "number": "7",
+      "heading": "P urchase and importation of designated commodities",
+      "text": "7. P urchase and importation of designated commodities"
+    },
+    {
+      "number": "8",
+      "heading": "S ale of designated commodities",
+      "text": "8. S ale of designated commodities"
+    },
+    {
+      "number": "9",
+      "heading": "R eceipt of designated commodity and non designated commodity.",
+      "text": "9. R eceipt of designated commodity and non designated commodity.\nPART IV\nMARKET INFORMATION SYSTEM FOR DESIGNATED COMMODITIES"
+    },
+    {
+      "number": "10",
+      "heading": "M arket information system",
+      "text": "10. M arket information system"
+    },
+    {
+      "number": "11",
+      "heading": "C ollection and dissemination of market information",
+      "text": "11. C ollection and dissemination of market information\nPART V\nWEIGHING AND GRADING STANDARDS FOR DESIGNATED COMMODITIES"
+    },
+    {
+      "number": "12",
+      "heading": "S tandard of designated commodity",
+      "text": "12. S tandard of designated commodity"
+    },
+    {
+      "number": "13",
+      "heading": "O ffence and penalty for misrepresenting a grade",
+      "text": "13. O ffence and penalty for misrepresenting a grade\nPART VI\nREGISTRATION OF TRADERS AND PROCESSORS"
+    },
+    {
+      "number": "14",
+      "heading": "R egistration as a dealer",
+      "text": "14. R egistration as a dealer"
+    },
+    {
+      "number": "15",
+      "heading": "R egistration fees",
+      "text": "15. R egistration fees\nSection"
+    },
+    {
+      "number": "16",
+      "heading": "S tandards of conduct of traders and processors",
+      "text": "16. S tandards of conduct of traders and processors"
+    },
+    {
+      "number": "17",
+      "heading": "R eports by traders and processors",
+      "text": "17. R eports by traders and processors"
+    },
+    {
+      "number": "18",
+      "heading": "P enalty for failing to register or comply with standards of conduct",
+      "text": "18. P enalty for failing to register or comply with standards of conduct"
+    },
+    {
+      "number": "19",
+      "heading": "P ower to inspect records",
+      "text": "19. P ower to inspect records"
+    },
+    {
+      "number": "20",
+      "heading": "P enalties for disregarding registered charges or lien",
+      "text": "20. P enalties for disregarding registered charges or lien\nPART VII\nNATIONAL FOOD EMERGENCY"
+    },
+    {
+      "number": "21",
+      "heading": "D eclaration of national food emergency",
+      "text": "21. D eclaration of national food emergency"
+    },
+    {
+      "number": "22",
+      "heading": "V esting of Agency functions",
+      "text": "22. V esting of Agency functions\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nPART VIII\nGENERAL"
+    },
+    {
+      "number": "23",
+      "heading": "T ransitional provision",
+      "text": "23. T ransitional provision"
+    },
+    {
+      "number": "24",
+      "heading": "V esting of assets and transfer of liabilities",
+      "text": "24. V esting of assets and transfer of liabilities"
+    },
+    {
+      "number": "25",
+      "heading": "R egistration of property to be transferred",
+      "text": "25. R egistration of property to be transferred"
+    },
+    {
+      "number": "26",
+      "heading": "L egal proceedings",
+      "text": "26. L egal proceedings"
+    },
+    {
+      "number": "27",
+      "heading": "R egulations",
+      "text": "27. R egulations"
+    },
+    {
+      "number": "28",
+      "heading": "R epeal of Act No. 19 of 1989",
+      "text": "28. R epeal of Act No. 19 of 1989\nSCHEDULE\nADMINISTRATION OF AGENCY\nPART I"
+    },
+    {
+      "number": "1",
+      "heading": "S eal of the Agency",
+      "text": "1. S eal of the Agency"
+    },
+    {
+      "number": "2",
+      "heading": "C omposition of the Agency",
+      "text": "2. C omposition of the Agency"
+    },
+    {
+      "number": "3",
+      "heading": "T enure of office and vacancy",
+      "text": "3. T enure of office and vacancy"
+    },
+    {
+      "number": "4",
+      "heading": "P roceedings of the Agency",
+      "text": "4. P roceedings of the Agency"
+    },
+    {
+      "number": "5",
+      "heading": "C ommittees of the Agency",
+      "text": "5. C ommittees of the Agency"
+    },
+    {
+      "number": "6",
+      "heading": "D isclosure of interest",
+      "text": "6. D isclosure of interest"
+    },
+    {
+      "number": "7",
+      "heading": "F inancial disclosure report",
+      "text": "7. F inancial disclosure report"
+    },
+    {
+      "number": "8",
+      "heading": "S taff Agency",
+      "text": "8. S taff Agency"
+    },
+    {
+      "number": "9",
+      "heading": "P rohibition of disclosure of information",
+      "text": "9. P rohibition of disclosure of information\nPART II\nFINANCIAL PROVISIONS\nSection"
+    },
+    {
+      "number": "10",
+      "heading": "F unds of the Agency",
+      "text": "10. F unds of the Agency"
+    },
+    {
+      "number": "11",
+      "heading": "F inancial year",
+      "text": "11. F inancial year"
+    },
+    {
+      "number": "12",
+      "heading": "A ccounts",
+      "text": "12. A ccounts"
+    },
+    {
+      "number": "13",
+      "heading": "A nnual Report",
+      "text": "13. A nnual Report\nCHAPTER 225\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nFOOD RESERVE Act No.\n12 of 1995\nStatutory Instrument\n105 of 1995\nAn Act to establish the Food Reserve Agency and define its powers and functions;\nto establish a national food reserve; to transfer to the Government certain\nassets, rights, liabilities and obligations of Nitrogen Chemicals of Zambia\nLimited and Zambia Co-operative Federation Limited; to repeal the National\nAgricultural Marketing Act 1989; and to provide for matters connected with or\nincidental to the foregoing.\n[28th April, 1995\nPART I\nPRELIMINARY"
+    },
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Food Reserve Act, Short title",
+      "text": "1. This Act may be cited as the Food Reserve Act, Short title"
+    },
+    {
+      "number": "2",
+      "heading": "In this Act, unless the context otherwise requires- Interpretation",
+      "text": "2. In this Act, unless the context otherwise requires- Interpretation\n\"Agency\" means the Food Reserve Agency established by section three;\n\"Chairperson\" means the person elected as Chairperson of the Agency under\nparagraph two of the Schedule;\n\"Committee\" means a committee established under paragraph five of the\nSchedule;\n\"Company\" means Nitrogen Chemicals of Zambia Limited, a company registered Cap. 388\nunder the Companies Act;\n\"Director\" means the person appointed as Director under paragraph eight of the\nSchedule;\n\"designated commodity\" means any cereal, oilseed, stockfeed and other\nagricultural food commodity designated under section six as essential for\nthe food security of the country;\n\"Federation\" means Zambia Co-operative Federation Limited registered under the\nCo-operative Societies Act;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n\"marketing season\" means the period from the 1st May in one year to the 30th\nApril of the succeeding year;\n\"member\" means a member of the Agency, or a committee;\n\"national food reserve\" means the national food reserve established under section\nfive;\n\"Processor\" means a person who converts or transforms, on a commercial scale,\nany designated commodity into a finished or semi-finished product;\n\"producer\" means a person who grows a designated commodity;\n\"property\" means movable or immovable assets;\n\"purchaser\" means a person who directly or indirectly purchases for himself, or for\nanother person a designated commodity;\n\"repealed act\" means the National Agricultural Marketing Act; Act No.\n19 of 1989\n\"trader\" means a person who, as broker, dealer, marketing company, or other\npurchaser, acquires any designated commodity from a producer or any\nother person through purchases or otherwise, for the purpose of resale;\n\"Vice Chairperson\" means the person elected as Vice-Chairperson of the Agency\nunder paragraph two of the Schedule.\nPART II\nTHE FOOD RESERVE AGENCY"
+    },
+    {
+      "number": "3",
+      "heading": "(1) There is hereby established the Food Reserve Agency, which shall be a body Establishment of the",
+      "text": "3. (1) There is hereby established the Food Reserve Agency, which shall be a body Establishment of the\ncorporate with perpetual succession and a common seal, capable of suing and of being Agency\nsued in its corporate name, and shall, subject to the provisions of this Act, have power to\ndo all such acts and things as a body corporate may by law do or perform.\n(2) The provisions of the Schedule shall apply to the Agency."
+    },
+    {
+      "number": "4",
+      "heading": "(1) The functions of the Agency shall be to do all such things as are necessary Functions of the",
+      "text": "4. (1) The functions of the Agency shall be to do all such things as are necessary Functions of the\nfor the administration of this Act. Agency\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(2) Notwithstanding the generality of subsection (1) the Agency shall-\n(a) administer the national food reserve;\n(b) establish and operate a market information system for agricultural food\ncommodities and agricultural inputs;\n(c) promote the use of the weighing and grading standards approved under the Cap. 403\nWeights and Measures Act and the Standards Act for designated Cap. 404\ncommodities;\n(d) establish and conduct a programme under which storage facilities owned by\nthe Government may be leased or sold;\n(e) establish a programme under which traders and processors shall register\nand report, for statistical purposes, information on the stocks of agricultural\ncommodities handled or held by them;\n(f) a ssess storage requirements for marketing a designated commodity and\nplan for their establishment as needed; and\n(g) undertake such other functions as the Minister may assign to the Agency.\n(3) The Agency may by resolution delegate any of the powers and functions of the\nAgency to any person in the Agency or to any committee established by the Agency or,\nwith the consent of the Minister, to any other person.\n(4) Except for such actions as may be necessary to administer the national food\nreserve, the Agency shall not purchase, import, sell, or trade in any agricultural\ncommodity.\n(5) Notwithstanding any provision of any other law, the Agency may enter into a\ncontract with any person for the purpose of performing any of its functions under this Act.\nPART III\nTHE NATIONAL FOOD RESERVE"
+    },
+    {
+      "number": "5",
+      "heading": "(1) There shall be a national food reserve which shall, subject to this Act, be National food reserve",
+      "text": "5. (1) There shall be a national food reserve which shall, subject to this Act, be National food reserve\nadministered by the Agency.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(2) The purpose of the national food reserve shall be to-\n(a) ensure a reliable supply of designated commodities for the country;\n(b) meet local shortfalls in the supply of a designated commodity;\n(c) meet such other food emergencies caused by drought or flood, or by such\nother natural disaster, for the purposes of this Act, as may be declared by\nthe President;\n(d) correct problems relating to the supply of designated commodities which\nresult from the manipulation of prices or monopolistic trading practices."
+    },
+    {
+      "number": "6",
+      "heading": "(1) The Minister shall designate, prior to October 31st of each year, any cereal, Designation of",
+      "text": "6. (1) The Minister shall designate, prior to October 31st of each year, any cereal, Designation of\noilseed, stockfeed and any other agricultural food commodity that he considers essential commodities\nfor the food security of the country.\n(2) In the case of the marketing season in which this Act comes into force, the\nMinister shall make the designation referred to in subsection (1), not later than thirty days\nafter the coming into force of this Act."
+    },
+    {
+      "number": "7",
+      "heading": "(1) Subject to subsection (2), the Agency may purchase from the domestic Purchase and",
+      "text": "7. (1) Subject to subsection (2), the Agency may purchase from the domestic Purchase and\nmarket or import any designated commodity for the purposes of the national food reserve. importation of\ndesignated\ncommodities\n(2) The Agency shall not purchase any designated commodity unless it announces\nin the Gazette and the print media, prior to the 1st of May of each year, its plan for\npurchases of each designated commodity in the following marketing year.\n(3) The plan referred to in subsection (2) shall include the-\n(a) quantity of the designated commodity the Agency plans to purchase;\n(b) method of procurement and payment for the designated commodity by the\nAgency; and\n(c) places at which the Agency plans to make such purchases.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(4) The Agency shall announce and publish in the Gazette and the print media prior\nto the 31st of October of each year, the procedure to be followed in buying a designated\ncommodity which it needs to import or when buying locally for the next twelve months; and\ndifferent procedures may be published for different areas."
+    },
+    {
+      "number": "8",
+      "heading": "(1) Subject to subsection (2), the Agency may sell any designated commodity in Sale of designated",
+      "text": "8. (1) Subject to subsection (2), the Agency may sell any designated commodity in Sale of designated\nthe national food reserve to meet- commodities\n(a) local shortfalls in the supply of the commodity;\n(b) other food emergencies caused by drought, flood, or other natural disaster.\n(2) Subject to subsection (3), the Agency shall not sell any designated commodity in\nthe national food reserve unless it publishes in the Gazette and in the print media, prior to\nthe 31st of October of each year, the procedure to be followed during the following twelve\nmonths in selling any designated commodity held in the national food reserve; and\ndifferent procedures may be published for different areas.\n(3) Whenever a designated commodity is stored as part of the national food reserve,\nthe Agency may sell, quantities of the designated commodity in different places to the\nextent necessary to properly handle, rotate, distribute, and position the designated\ncommodity as part of the national food reserve.\n(4) Subject to subsection (3) any purchase to offset a sale of a designated\ncommodity shall be made as soon as possible following the sale."
+    },
+    {
+      "number": "9",
+      "heading": "The Agency may receive any designated commodity or any commodity not Receipt of designated",
+      "text": "9. The Agency may receive any designated commodity or any commodity not Receipt of designated\ndesignated under this Act as part of the national food reserve donated by any person, commodity and\nbody, Government or institution: non-designated\ncommodity\nProvided that the Agency may sell any commodity not designated under this Act as a\ndesignated commodity and shall purchase quantities of the designated commodity to\nproperly rotate, distribute and position the designated commodity as part of the national\nfood reserve.\nPART IV\nMARKET INFORMATION SYSTEM FOR DESIGNATED COMMODITIES\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "10",
+      "heading": "(1) There shall be a market information system for each designated commodity Market information",
+      "text": "10. (1) There shall be a market information system for each designated commodity Market information\noperated by the Agency for the benefit of the consumer and any person engaged in the system\nproduction, marketing, and processing of that commodity.\n(2) The Agency in establishing the market information system, shall consult with and\nobtain the advice of, a representative of the consumer, producer, trader, processor, and\nany person, engaged in the production, marketing and processing of a designated\ncommodity."
+    },
+    {
+      "number": "11",
+      "heading": "The Agency shall collect and disseminate marketing information, including Collection and",
+      "text": "11. The Agency shall collect and disseminate marketing information, including Collection and\ninformation on domestic and export sales of a designated commodity, for the purpose of dissemination of\nmeeting the requirements of the consumer, producer, trader, processor and any other market information\nperson engaged in the production, marketing and processing of such commodity.\nPART V\nWEIGHING AND GRADING STANDARDS FOR DESIGNATED\nCOMMODITIES"
+    },
+    {
+      "number": "12",
+      "heading": "The Agency shall consult the Zambia Bureau of Standards, as provided for Standard of",
+      "text": "12. The Agency shall consult the Zambia Bureau of Standards, as provided for Standard of\nunder the Weights and Measures Act and Standards Act, in developing and improving designated commodity\nstandards of quality, condition, quantity and grade of a designated commodity, so as to Cap. 403\nCap. 404\nencourage uniformity and consistency."
+    },
+    {
+      "number": "13",
+      "heading": "(1) Any person who knowingly misrepresents the grade of a designated Offence and penalty",
+      "text": "13. (1) Any person who knowingly misrepresents the grade of a designated Offence and penalty\ncommodity contrary to established standards shall be guilty of an offence and shall be for misrepresenting\nliable, upon conviction, to a fine not exceeding ten penalty units. grade\n(2) Any person who fails to pay the fine under subsection (1) shall in addition to that\npenalty be prohibited from participating in the marketing or processing of any designated\ncommodity for a period not exceeding three years.\nPART VI\nREGISTRATION OF TRADERS AND PROCESSORS"
+    },
+    {
+      "number": "14",
+      "heading": "(1) Every trader and processor shall register annually as a dealer in a Registration as a",
+      "text": "14. (1) Every trader and processor shall register annually as a dealer in a Registration as a\ndesignated commodity. dealer\n(2) The Agency shall keep a register of traders and processors.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "15",
+      "heading": "(1) A trader and a processor shall pay such annual registration fees as the Registration fees",
+      "text": "15. (1) A trader and a processor shall pay such annual registration fees as the Registration fees\nMinister may, by statutory instrument, prescribe.\n(2) Notwithstanding any other law to the contrary, the registration fees collected by\nthe Agency shall form part of the revenue of the Agency."
+    },
+    {
+      "number": "16",
+      "heading": "The Minister may, by statutory instrument, and after consultation with the Standards of conduct",
+      "text": "16. The Minister may, by statutory instrument, and after consultation with the Standards of conduct\nAgency, establish rules and regulations regarding the standards of conduct of every of traders and\nregistered trader and processor in relation to the trade in any designated commodity. processors"
+    },
+    {
+      "number": "17",
+      "heading": "(1) A trader or a processor registered as a dealer in a designated commodity Reports by traders and",
+      "text": "17. (1) A trader or a processor registered as a dealer in a designated commodity Reports by traders and\nshall provide to the Agency information regarding the price and stock of a designated processors\ncommodity handled or held by him during the period designated by the Agency.\n(2) A report under this section shall be-\n(a) in such form as may be prescribed by the Agency;\n(b) approved by the Minister; and\n(c) submitted by a trader or a processor within such time as may be prescribed\nby the Agency."
+    },
+    {
+      "number": "18",
+      "heading": "(1) A trader or a processor who fails to register, or who, if registered, fails to Penalty for failing to",
+      "text": "18. (1) A trader or a processor who fails to register, or who, if registered, fails to Penalty for failing to\ncomply with the standards of conduct established by the Minister shall be guilty of an register or comply with\noffence and shall be liable upon conviction to a fine not exceeding ten penalty units. standards of conduct\n(2) Any person who fails to pay the fine under subsection (1) shall in addition to that\npenalty be prohibited from participating in the marketing or processing of any designated\ncommodity for a period not exceeding three years."
+    },
+    {
+      "number": "19",
+      "heading": "Subject to the Agricultural Credits Act, the Agency shall, prior to purchasing a Power to inspect",
+      "text": "19. Subject to the Agricultural Credits Act, the Agency shall, prior to purchasing a Power to inspect\ndesignated commodity, inspect all relevant records to determine if the trader or processor records\nselling the designated commodity has previously pledged the commodity as security or Cap. 224\nwhether a charge or lien has been registered under that Act."
+    },
+    {
+      "number": "20",
+      "heading": "Any registered trader and processor who sells any designated commodity in Penalties for",
+      "text": "20. Any registered trader and processor who sells any designated commodity in Penalties for\ndisregard of a registered charge or lien on the designated commodity referred to in section disregarding\nnineteen shall be guilty of an offence and shall be liable to a penalty under the Agriculture registered charge or\nlien\nCredits Act.\nCap. 224\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nPART VII\nNATIONAL FOOD EMERGENCY"
+    },
+    {
+      "number": "21",
+      "heading": "The President may declare a national food emergency if, in his opinion, there is Declaration of national",
+      "text": "21. The President may declare a national food emergency if, in his opinion, there is Declaration of national\na major shortfall in the domestic production or availability of a designated commodity. food emergency"
+    },
+    {
+      "number": "22",
+      "heading": "(1) Subject to subsection (2), whenever the President declares a national food Vesting of Agency",
+      "text": "22. (1) Subject to subsection (2), whenever the President declares a national food Vesting of Agency\nemergency under section twenty-one, the powers of the Agency under this Act shall vest functions\nin the Minister.\n(2) The Minister shall exercise the powers of the Agency, during the existence of the\nnational food emergency and for not more than thirty days after the end of the emergency\nas declared by the President, and shall consult the Agency in the selection of bidders for\nthe supply of a designated commodity purchased for the national food reserve.\n(3) Where the Minister exercises the powers referred to in subsection (2), the\nAgency shall, after the appointed date be an advisory committee to the Minister.\nPART VIII\nGENERAL"
+    },
+    {
+      "number": "23",
+      "heading": "The Minister may exercise the powers of the Agency under this Act until such Transitional period",
+      "text": "23. The Minister may exercise the powers of the Agency under this Act until such Transitional period\ntime as the members of the Agency are appointed."
+    },
+    {
+      "number": "24",
+      "heading": "(1) On the appointed date, there shall be transferred to, and shall vest in and be Vesting of assets and",
+      "text": "24. (1) On the appointed date, there shall be transferred to, and shall vest in and be Vesting of assets and\nowned by the Government without further assurance all property, rights, liabilities and transfer of liabilities\nobligations, excluding fertilizer, transferred under the repealed Act which, immediately\nbefore the appointed date, were the property, rights, liabilities and obligations of the\nCompany or Federation by virtue of the repealed Act.\n(2) The Minister shall by statutory instrument provide for the transfer of any\nproperty, right, liability or obligation to the Agency without further assurance on such terms\nand conditions as may be specified in the statutory instrument.\n(3) The property, rights, liability or obligation specified in the statutory instrument\nmade under subsection (2) shall, on the coming into force of the statutory instrument, vest\nin or, as the case may be, subsists against the Agency.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(4) The provisions of section twenty-five shall apply, with the necessary\nmodifications, to the Agency on the coming into force of the statutory instrument."
+    },
+    {
+      "number": "25",
+      "heading": "(1) Whenever in pursuance of this Act any property, right, liabilities or Registration of",
+      "text": "25. (1) Whenever in pursuance of this Act any property, right, liabilities or Registration of\nobligations, of the Federation or Company are transferred to the Government in respect of property to be\nwhich transfer a written law provides for registration, the Government shall make an transferred\napplication in writing to the proper officer or the appropriate registration authority for the\nregistration of the transfer.\n(2) The officer referred to in subsection (1) shall make such entries in the\nappropriate register as shall give effect to the transfer and, where appropriate, issue the\ntransferee concerned with a certificate of title in respect of the property or make necessary\namendments to the register, as the case may be, and shall make endorsement on the\ndeeds relating to the title, right or obligation concerned.\n(3) No registration fees or duty shall be payable in respect of any transfer effected\nunder this Part."
+    },
+    {
+      "number": "26",
+      "heading": "(1) Without prejudice to the other provisions of this Act, where any right, liability Legal Proceedings",
+      "text": "26. (1) Without prejudice to the other provisions of this Act, where any right, liability Legal Proceedings\nor obligation vests in the company or Federation by virtue of the repealed Act, the\nGovernment or Agency, as the case may be, and all other persons shall, as from the\ncommencement of this Act, have the same rights, powers and remedies (and in particular\nthe same rights as to the instituting or defending of legal proceedings or the making or\nresisting of applications to any authority) for ascertaining, perfecting or enforcing those\nrights, liabilities or obligations as they would have had if it had at all times been a right,\nliability or obligation of the Government or the Agency under the repealed Act.\n(2) Any legal proceedings or application to any authority pending immediately before\nthe commencement of this Act by or against the Federation or Company in relation to the\nassets transferred to the Government or the Agency, as the case may be, may be\ncontinued by or against the Government or Agency.\n(3) After the commencement of this Act proceedings in respect of any right or\nobligation which was vested in, held, enjoyed, incurred or suffered by the Federation or\nCompany may be instituted by, or against the Government or Agency."
+    },
+    {
+      "number": "27",
+      "heading": "The Minister may, by statutory instrument, and in consultation with the Agency, Regulations",
+      "text": "27. The Minister may, by statutory instrument, and in consultation with the Agency, Regulations\nprescribe-\n(a) anything which by this Act is required or permitted to be prescribed;\n(b) any forms for the purposes of this Act;\n(c) any fees payable in respect of any service provided by the Agency;\n(d) any other matters as are necessary or conducive to the better carrying out\nof the purposes of this Act.\n(e) to describe different procedures for different areas.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "28",
+      "heading": "The National Agricultural Marketing Act is hereby repealed. Repeal of Act No.",
+      "text": "28. The National Agricultural Marketing Act is hereby repealed. Repeal of Act No.\n19 of 1989\nSCHEDULE\n(Section 3(2))\nPART I\nADMINISTRATION OF AGENCY"
+    },
+    {
+      "number": "1",
+      "heading": "(1) The seal of the Agency shall be such device as may be determined by the Seal of the Agency",
+      "text": "1. (1) The seal of the Agency shall be such device as may be determined by the Seal of the Agency\nAgency and shall be kept by the Secretary.\n(2) The affixing of the seal shall be authenticated by the Chairperson or the\nVice-Chairperson or any other person authorised in that behalf by a resolution of the\nAgency.\n(3) Any contract or instrument which, if entered into or executed by a person not\nbeing a body corporate, would not be required to be under seal, may be entered into or\nexecuted without seal on behalf of the Agency by the Secretary or any other person\nauthorised by the Agency in that behalf.\n(4) Any document purporting to be under the seal of the Agency or issued on behalf\nof the Agency shall be received in evidence and shall be deemed to be so executed or\nissued, as the case may be, without further proof, unless the contrary is proved."
+    },
+    {
+      "number": "2",
+      "heading": "(1) The Agency shall consist of the following members who shall be appointed by Composition of the",
+      "text": "2. (1) The Agency shall consist of the following members who shall be appointed by Composition of the\nthe Minister: Agency\n(a) a senior official from the Ministry responsible for-\n(i) a griculture;\n(ii) commerce; and\n(iii) f inance.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(b) a representative of-\n(i) s mall-scale farmers;\n(ii) commercial farmers;\n(iii) p ersons engaged in the processing of agricultural food commodities;\nand\n(iv) t he Bankers' Association of Zambia;\n(c) one person associated with the transportation and haulage of agricultural\ncommodities; and\n(d) two other persons from the private sector.\n(2) The members referred to in clause (b) of subparagraph (1) shall be nominated\nby their respective organisations.\n(3) The Chairperson and the Vice-Chairperson shall be elected by the Agency from\namongst its members:\nProvided that the members referred to in clause (a) of subparagraph (1) shall not be\nelected as Chairperson or Vice-Chairperson."
+    },
+    {
+      "number": "3",
+      "heading": "(1) A member of the Agency, except a member referred to in clause (a) of Tenure of office and",
+      "text": "3. (1) A member of the Agency, except a member referred to in clause (a) of Tenure of office and\nsubparagraph (1) of paragraph 2- vacancy\n(a) shall hold office for a period of three years from the date of appointment\nand shall be eligible for re-appointment for a further term of three years;\n(b) may resign upon giving one month's notice, in writing, to the organisation\nwhich nominated him and to the Minister.\n(2) The office of a member, shall become vacant-\n(a) upon his death;\n(b) if he is absent, without reasonable excuse, from three consecutive\nmeetings of the Agency of which he has had notice;\n(c) on ceasing to be a representative of the organisation which nominated him;\nor\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(d) if he is an undischarged bankrupt."
+    },
+    {
+      "number": "4",
+      "heading": "(1) Subject to the other provisions of this Act, the Agency may regulate its own Proceedings of the",
+      "text": "4. (1) Subject to the other provisions of this Act, the Agency may regulate its own Proceedings of the\nprocedure. Agency\n(2) The Agency shall meet for the transaction of business at least once every three\nmonths at such places and times as the Chairperson may determine.\n(3) The Chairperson may at any time call a meeting of the Agency and shall call a\nspecial meeting to be held within fourteen days of receipt of a written request addressed\nto him by at least five members of the Agency.\n(4) If the urgency of any particular matter does not permit the giving of such notice\nas is required under subparagraph (3), a special meeting may be called by the\nChairperson, upon giving a shorter notice.\n(5) Two-thirds of the members shall form a quorum at any meeting of the Agency.\n(6) There shall preside at any meeting of the Agency-\n(a) the Chairperson;\n(b) in the absence of the Chairperson the Vice-Chairperson the\nVice-Chairperson; or\n(c) in the absence of both the Chairperson and the Vice-Chairperson, such\nmember as the members present may elect for the purpose of that meeting.\n(7) A decision of the Agency on any question shall be by a majority of the members\npresent and voting at the meeting and in the event of an equality of votes, the person\npresiding at the meeting shall have a casting vote in addition to his deliberative vote.\n(8) The Agency may invite any person, whose presence is in its opinion desirable, to\nattend and to participate in the deliberations of the meeting of the Agency, but such\nperson shall have no vote.\n(9) The validity of any proceedings, acts or decisions of the Agency shall not be\naffected by any vacancy in the membership of the Agency or by any defect in the\nappointment of any member or by reason that any person not entitled to do so took part in\nthe proceedings.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "5",
+      "heading": "(1) The Agency may, for the purpose of performing its functions under this Act, Committees of the",
+      "text": "5. (1) The Agency may, for the purpose of performing its functions under this Act, Committees of the\nestablish such committees as it considers necessary and delegate to any of those Agency\ncommittees such of its functions as it considers fit.\n(2) Subject to sub-paragraph (3), the Agency may appoint as members of a\ncommittee, persons who are, or are not, members of the Agency, except that at least one\nmember of a committee shall be a member of the Agency.\n(3) A committee established for the purpose of purchasing designated commodities\nfor the national food reserve under Part III of the Act shall be composed entirely of\nmembers of the Agency.\n(4) A person serving as a member of a committee shall hold office for such period\nas the Agency may determine.\n(5) Subject to any specific or general direction of the Agency, a committee may\nregulate its own procedure.\n(6) A member of a committee shall be paid such allowances for the member's\nnecessary travel and other expenses when actually engaged in the performance of such\nduties as the Agency may determine with the approval of the Minister."
+    },
+    {
+      "number": "6",
+      "heading": "(1) If any person is present at a meeting of the Agency or any committee at Disclosure of interest",
+      "text": "6. (1) If any person is present at a meeting of the Agency or any committee at Disclosure of interest\nwhich any matter is the subject of consideration and in which matter that person or his\nspouse is directly or indirectly interested in a private capacity, that person shall as soon as\nis practicable after the commencement of the meeting, declare such interest and shall not,\nunless the Agency or the committee otherwise directs, take part in any consideration or\ndiscussion of, or vote on, any question touching that matter.\n(2) A declaration of interest made under this section shall be recorded in the\nminutes of the meeting at which it is made."
+    },
+    {
+      "number": "7",
+      "heading": "(1) A member shall within thirty days of becoming a member submit a financial Financial disclosure",
+      "text": "7. (1) A member shall within thirty days of becoming a member submit a financial Financial disclosure\ndisclosure report to the Minister. report\n(2) The report referred to in subsection (1) shall disclose-\n(a) the income earned by the member from crop production, marketing,\nprocessing or financing, during the year before his appointment;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(b) the personal liabilities owned by the member in relation to crop production,\nmarketing, processing or financing before his appointment; and\n(c) such other information as the Minister may require.\n(3) A member shall file a supplementary financial disclosure report with the Minister\nif during any calendar year there is any change in the member's financial interests or\npersonal liabilities.\n(4) The Minister may grant such extension of time for the submitting of reports under\nthis section as he considers appropriate.\n(5) The Minister shall within fifteen days after a report is submitted under this\nsection, make the report available for inspection by members of the public at reasonable\nhours.\n(6) A person who knowingly falsifies any information or fails to submit a report as\nrequired under this section shall be guilty of an offence and shall be liable upon conviction\nto a fine not exceeding ten penalty units."
+    },
+    {
+      "number": "8",
+      "heading": "(1) The Agency shall, on such terms and conditions as it may determine, appoint Staff of Agency",
+      "text": "8. (1) The Agency shall, on such terms and conditions as it may determine, appoint Staff of Agency\na Director who shall be the Chief Executive Officer of the Agency, and who shall be\nresponsible for the administration of the Agency and the implementation of the decisions\nof the Agency.\n(2) There shall be a Secretary to the Agency who shall be appointed on such terms\nand conditions as the Agency may determine.\n(3) The Secretary shall be responsible for the day-today affairs of the Agency under\nthe general supervision of the Director.\n(4) The Agency may appoint on such terms and conditions as it may determine,\nsuch other staff as it considers necessary for the performance of its functions under this\nAct.\n(5) Notwithstanding any other law, the Director or the employees of the Agency shall\nnot be considered as public officers."
+    },
+    {
+      "number": "9",
+      "heading": "(1) A person shall not, without the consent in writing given by, or on behalf of, the Prohibition of",
+      "text": "9. (1) A person shall not, without the consent in writing given by, or on behalf of, the Prohibition of\nAgency, publish or disclose to any person otherwise than in the course of his duties, the disclosure of\ncontents of any documents, communication, or information which relates to, and which information\nhas come to his knowledge in the course of his duties under this Act.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(2) Any person who knowingly contravenes the provisions of subsection (1) shall be\nguilty of an offence and shall be liable, upon conviction, to a fine not exceeding five\nhundred penalty units.\nPART II\nFINANCIAL PROVISIONS"
+    },
+    {
+      "number": "10",
+      "heading": "(1) The funds of the Agency shall consist of such moneys as may- Funds of the Agency",
+      "text": "10. (1) The funds of the Agency shall consist of such moneys as may- Funds of the Agency\n(a) be appropriated by the National Assembly for the purposes of administering\nthe national food reserve;\n(b) be paid to the Agency by way of grants or donations;\nand\n(c) vest in or accrue to the Agency.\n(2) The Agency may-\n(a) accept money by way of grants or donations;\n(b) raise by way of loans or otherwise from any source in Zambia, and subject\nto the approval of the Minister, from any source outside Zambia, such\nmoney as it may require for the discharge of its functions;\n(c) charge and collect fees in respect of programmes, publications, seminars,\nconsultancy and other services provided by the Agency.\n(3) There shall be paid from the funds of the Agency-\n(a) salaries, allowances, loans, gratuities and pensions of staff of the Agency\nand other payments for the recruitment and retention of staff;\n(b) such reasonable travelling and subsistence allowances for members of any\ncommittee of the Agency when engaged on the business of the Agency and\nat such rates as the Agency may determine; and\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(c) any other expenses incurred by the Agency in the performance of its\nfunctions.\n(4) The Agency may after the approval of the Minister invest in such manner as it\nthinks fit such of its funds as it does not immediately require for the discharge of its\nfunctions."
+    },
+    {
+      "number": "11",
+      "heading": "The financial year of the Agency shall be the period of twelve months ending Financial year",
+      "text": "11. The financial year of the Agency shall be the period of twelve months ending Financial year\non 31st March in each year."
+    },
+    {
+      "number": "12",
+      "heading": "(1) The Agency shall cause to be kept proper books of account and other Accounts",
+      "text": "12. (1) The Agency shall cause to be kept proper books of account and other Accounts\nrecords relating to its accounts.\n(2) The books and the records referred to in sub-paragraph (1) shall contain three\nseparate accounts of-\n(a) the Agency's administration of the national food reserve;\n(b) the Agency's administration of the lease or sale of storage facilities and the\nmaintenance, repair, rehabilitation or construction of any storage facility;\nand\n(c) the Agency's other operations.\n(3) The accounts of the Agency shall be audited annually by independent auditors\nappointed by the Agency, subject to the approval of the Minister.\n(4) The Auditor's fees shall be paid by the Agency."
+    },
+    {
+      "number": "13",
+      "heading": "(1) As soon as practicable, but not later than ninety days after the end of the Annual report",
+      "text": "13. (1) As soon as practicable, but not later than ninety days after the end of the Annual report\nfinancial year, the Agency shall submit to the Minister a report concerning its activities\nduring the financial year.\n(2) The report referred to in subsection (1) shall include information on the financial\naffairs of the Agency and there shall be appended to the report-\n(a) an audited balance sheet;\n(b) an audited statement of the income and expenditure;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(c) information on the marketing of any designated commodity; and\n(d) such other information as the Minister may require.\n(3) The Minister shall not later than seven days after the first sitting of the National\nAssembly next after receipt of the report referred to in sub-paragraph (1), lay the report\nbefore the National Assembly.\nSUBSIDIARY LEGISLATION\n(SECTION 15 OF THE INTERPRETATION AND GENERAL PROVISIONS ACT) Statutory Instruments\n296 of 1969\n329 of 1969\nCAP. 2\nTHE GRAIN MARKETING (ACCEPTANCE STANDARDS) REGULATIONS"
+    },
+    {
+      "number": "1",
+      "heading": "These Regulations may be cited as the Grain Marketing (Acceptance Title",
+      "text": "1. These Regulations may be cited as the Grain Marketing (Acceptance Title\nStandards) Regulations."
+    },
+    {
+      "number": "2",
+      "heading": "In these Regulations, unless the context otherwise requires- Interpretation",
+      "text": "2. In these Regulations, unless the context otherwise requires- Interpretation\n\"Federation\" means the Zambia Cooperative Federation Limited;\n\"broken shells\", in relation to unshelled groundnuts, means the shells or cortices of\nunshelled groundnuts which are broken or cracked in such a way as to\nadmit air to the kernels;\n\"bushel weight\" means weight per Imperial bushel;\n\"chipped grain\", in relation to maize, means maize which has been cracked or\nchipped beyond the pericarp and horny endosperm or in the embryo area\nand will not pass through a No. 5 sieve;\n\"cotton lint\" means the white fluff consisting of a mass of unicellular hairs which\ngrow attached to the cotton seed;\n\"cotton seed\" means the new generation in the life of the cotton plant;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n\"damaged grain\" means-\n(a) in relation to maize or shelled groundnuts, grain and pieces of grain\nwhich will pass, with thorough shaking, through a No. 5 sieve;\n(b) in relation to Canadian wonder beans, haricot beans, mixed beans,\nsugar beans, velvet beans, cowpeas, soya beans, sunflower seed,\nand sunnhemp, grain which is heat damaged, sprouted, frosted,\nbadly weather damaged, mouldy, diseased, or materially damaged\nby insects, birds, rodents or any other agency;\n(c) in relation to sorghum, grain and pieces of grain which will not\nreadily pass through a No. 4 sieve or a No. 3 sieve, and which are\nnot whole threshed sorghum with a complete pericarp:\n\"defective grain\" has the meaning assigned thereto in regulation 3;\n\"dirty grain\" means grain which is discoloured by soil or any other foreign agent,\nbut does not include grain which is discoloured due to heating caused by\nfermentation, moulds, weathering or disease;\n\"discoloured grain\" means grain which is discoloured due to heating caused by\nfermentation, moulds, weathering or disease, but does not include other\ncoloured varieties of the same grain;\n\"diseased grain\" means grain which is obviously rotted by the species diplodia;\n\"diseased kernels\" means groundnut kernels which are affected by a fungus or\nmould;\n\"extraneous matter\" has the meaning assigned thereto in regulation 4;\n\"germinated grain\" means sprouted grain or grain in which the process of\ngermination is visible within the embryo;\n\"grain\" means maize, shelled groundnuts or unshelled groundnuts, Canadian\nwonder beans, haricot beans, mixed beans, sugar beans, velvet beans,\ncowpeas, sorghum, soya beans, sunflower seed and sunnhemp;\n\"immature grain\" means grain which has indications of lack of maturity or full\ndevelopment;\n\"immature lint\" means the undeveloped condition of the lint which is found during\nthe first four days after the opening of the cotton bolls;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n\"insect-damaged grain\" means grain which has been attacked and damaged by\nany insect or animal pest;\n\"new sack\" means a grain sack which is new, clean, strong, sound and of not less\nthan two and a half pounds in weight, without holes or tears and not\nstained, patched or otherwise repaired;\n\"No. 1 sieve\" means a grading sieve, the baseplate of which is perforated with\nround holes 3/64 of an inch in diameter;\n\"No. 2 sieve\" means a grading sieve, the baseplate of which is perforated with\nround holes 4/64 of an inch in diameter;\n\"No. 3 sieve\" means a grading sieve, the baseplate of which is perforated with\nround holes 6/64 of an inch in diameter;\n\"No. 4 sieve\" means a grading sieve, the baseplate of which is perforated with\nround holes 12/64 of an inch in diameter;\n\"No. 5 sieve\" means a grading sieve, the baseplate of which is perforated with\nround holes 16/64 of an inch in diameter;\n\"No. 6 sieve\" means a grading sieve, the baseplate of which is perforated with\nslotted holes 3/4 of an inch by 17/64 of an inch in size;\n\"No. 7 sieve\" means a grading sieve, the baseplate of which is perforated with\nslotted holes 3/4 of an inch by 19/64 of an inch in size;\n\"No. 8 sieve\" means a grading sieve, the baseplate of which is perforated with\nslotted holes 3/4 of an inch by 21/64 of an inch in size;\n\"other coloured grain\"-\n(a) in relation to maize, means coloured or partly coloured maize\npresent in white maize, or maize of any colour other than yellow\npresent in yellow maize;\n(b) in relation to mixed beans, beans of varying colour shall not be\nregarded as other coloured grain;\n(c) in relation to \"S\" grade sorghum, grain of varying colour shall not be\nregarded as other coloured, provided that it is of a variety included\nin the list of varieties acceptable as \"S\" grade;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n\"other grain\" means grain of another controlled product, except that in the case of\nmixed beans, beans of another variety or type shall not be regarded as\nother grain;\n\"other varieties\", in relation to sorghum, means sorghum of the variety or type\nother than those varieties listed as acceptable as \"S\" grade;\n\"seed cotton\" means the white fluffy material produced by the cotton plant and\nconsisting of the cotton seed and the cotton lint;\n\"shelled groundnuts\" means the kernels or seeds of groundnuts;\n\"shrivelled grain\" means grain which is shrivelled over its entire surface and not\nover the embryo area only;\n\"smutty grain\" means grain which has an unmistakable odour of smut or which\ncontains balls, portions of balls or spores of smut;\n\"split grain\" means, in the case of-\n(a) shelled groundnuts-\n(i) of which the testae are visibly loose or cracked and break off\nreadily; and\n(ii) which have lost their testae over more than half their surface;\nand\n(iii) separate cotyledons of shelled groundnuts and parts of such\ncotyledons which will not pass through a No. 5 sieve;\n(b) Canadian wonder beans, haricot beans, mixed beans, sugar beans, velvet\nbeans, cowpeas, soya beans, sunflower seed and sunnhemp, grain which\nis split, but which is otherwise not damaged, dirty or immature;\n\"stained grain\" means grain which is discoloured by soil or any other foreign agent,\nbut does not include grain which is discoloured due to heating caused by\nfermentation, moulds, weathering or disease;\n\"stained lint\" means the discoloration of the cotton lint through the action of\npathogens or insects resulting in the weakening of the cotton lint;\n\"standard bag\" means-\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(a) in relation to maize or maize meal, Canadian wonder beans, haricot\nbeans, mixed beans, sugar beans, velvet beans, cowpeas,\nsorghum, soya beans and sunnhemp, a quantity of 90 kg, net\nweight;\n(b) in relation to shelled groundnuts, a quantity of 180 lb. net weight;\n(c) in relation to unshelled groundnuts, a quantity of 65 lb. net weight;\n(d) in relation to sunflower seed, a quantity of 150 lb. net weight;\n\"trash\" means-\n(a) in relation to maize, any vegetable matter, other than maize, which\nwill not pass through a No. 5 sieve;\n(b) in relation to seed cotton, all foreign matter of vegetable origin that\ncan be found in seed cotton;\n\"undeveloped grain\" means grain which is thin and papery in appearance, but not\ntip and butt grain which is small and unwrinkled;\n\"unshelled groundnuts\" means groundnuts from which the shells or cortices have\nnot been removed;\n\"unthreshed grain\" means grain to which stalks, or other parts of the parent body\nare adhering, but does not include, in relation to unshelled groundnuts,\nshells or cortices forming an integral part of the grain;\n\"used sack\" means a grain sack which is clean, strong, sound and of not less than\ntwo and a 1.3 kg weight, without holes or tears and not thin with wear,\nstained, patched or otherwise repaired;\n\"white maize\" means maize of which the endosperm is white in colour and the\npericarp of the grain is uniformly white or cream in colour, and does not\ninclude maize of which the endosperm is white and the seed coat or grain\ntip is any colour other than white or cream;\n\"woolpack\" means a sack which is either new or used, clean, strong, sound and of\nnot less than ten pounds in weight;\n\"yellow maize\" means maize of which the endosperm is yellow in colour and the\npericarp is generally yellow in colour.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "3",
+      "heading": "(1) Subject to the provisions of this regulation, for the purposes of these Defective grain",
+      "text": "3. (1) Subject to the provisions of this regulation, for the purposes of these Defective grain\nRegulations, any grain which falls within one or other of the following categories shall be\ndefective grain:\n(a) damaged grain;\n(b) discoloured grain;\n(c) diseased grain;\n(d) germinated grain;\n(e) other coloured grain;\n(f) s hrivelled grain;\n(g) smutty grain;\n(h) stained grain;\n(i) u ndeveloped grain;\n(j) u nthreshed grain.\n(2) In the case of unshelled groundnuts, shelled groundnuts shall not be regarded\nas defective grain."
+    },
+    {
+      "number": "4",
+      "heading": "(1) Subject to the provisions of this regulation, for the purposes of these Extraneous matter",
+      "text": "4. (1) Subject to the provisions of this regulation, for the purposes of these Extraneous matter\nRegulations, extraneous matter shall, in relation to any grain, be any matter other than the\ngrain itself, including other grain, grain flour, plant debris, weed seeds and dust.\n(2) In the case of unshelled groundnuts, extraneous matter shall include pieces of\nshell, in addition to any matter of the nature described in sub-regulation (1).\n(3) In the case of seed cotton, extraneous matter shall be any matter other than the\nseed cotton itself, including other grain, grain flour, plant debris, trash, weed seeds and\ndust.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "5",
+      "heading": "All controlled products accepted by the Agency shall be classified as follows: Standards of",
+      "text": "5. All controlled products accepted by the Agency shall be classified as follows: Standards of\nclassification\n(a) maize shall be classified as Class A, Class B, Class C or Class D in\naccordance with the standards of classification prescribed in Part I of the\nFirst Schedule;\n(b) shelled groundnuts shall be classified as Class A or Class B in accordance\nwith the standards of classification prescribed in Part II of the First\nSchedule;\n(c) unshelled groundnuts shall be classified as Class A or Class B in\naccordance with the standards of classification prescribed in Part III of the\nFirst Schedule;\n(d) seed cotton shall be classified as Class A, Class B or Class C in\naccordance with the standards of classification prescribed in Part IV of the\nFirst Schedule:\nProvided that where seed cotton of more than one class is packed in one\ncontainer, the contents of such container shall be classified according to the\nlowest quality of seed cotton therein;\n(e) Canadian wonder beans, haricot beans, mixed beans, sugar beans, velvet\nbeans, cowpeas, soya beans, sunflower seed and sunnhemp shall be\nclassified as Class A in accordance with the standards of classification\nprescribed in Part V of the First Schedule;\n(f) s orghum shall be classified as Class S, Class A or Class B in accordance\nwith the standards of classification prescribed in Part VI of the First\nSchedule."
+    },
+    {
+      "number": "6",
+      "heading": "(1) Subject to the provisions of this regulation, the standards of quality and Standards of quality",
+      "text": "6. (1) Subject to the provisions of this regulation, the standards of quality and Standards of quality\nmoisture content of controlled products which may be accepted by the agency shall be- and moisture\n(a) in respect of maize, the standard of quality and moisture content prescribed\nfor maize classified as Class C;\n(b) in respect of shelled groundnuts, the standard of quality and moisture\ncontent prescribed for shelled groundnuts classified as Class B;\n(c) in respect of unshelled groundnuts, the standard of quality and moisture\ncontent prescribed for unshelled groundnuts classified as Class B;\n(d) in respect of seed cotton, the standard of quality and moisture content\nprescribed for seed cotton classified as Class C;\n(e) in respect of sorghum, the standard of quality and moisture content\nprescribed for sorghum as Class B;\n(f) in respect of Canadian wonder beans, haricot beans, mixed beans, soya\nbeans, sugar beans, velvet beans, cowpeas, sunflower seed and\nsunnhemp seed, the standard of quality and moisture content prescribed for\nthese products as Class A.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(2) In addition to the standards of quality referred to in subregulation (1), the\nfollowing further standards of quality for controlled products which may be accepted by the\nAgency are hereby prescribed:\n(a) in the case of any controlled product, that-\n(i) i t does not contain any extraneous, poisonous or deleterious matter\nrendering it unfit for human or animal consumption;\n(ii) it is not obviously rotted by the species diplodia in excess of 2 per\ncentum;\n(iii) i t is not affected by fusarium or other fungal disease;\n(b) in the case of shelled groundnuts or unshelled groundnuts, that it does not\ncontain stones and that the kernels are not affected by a fungus or mould;\n(c) in the case of seed cotton, that it does not contain extraneous matter\ncapable of causing damage to ginning and allied machinery or constituting\na fire hazard during the process of grinning or is in any other respect\nunsuitable for ginning; in which case, it shall not be accepted by the Agency\nand shall be returned to the producer thereof at his own expense."
+    },
+    {
+      "number": "7",
+      "heading": "(1) For the purposes of- Grading and disputes",
+      "text": "7. (1) For the purposes of- Grading and disputes\non classification\n(a) determining whether any controlled product surrendered to the Agency\ncomplies with the standards prescribed by these Regulations; and\n(b) classifying controlled products accepted by the Federation in accordance\nwith the provisions of these Regulations:\nevery such controlled product shall be graded in the manner prescribed in the Second\nSchedule by persons appointed by the Agency. Seed cotton shall be classified in the\nmanner prescribed in Part IV of the First Schedule.\n(2) If, after grading in terms of sub-regulation (1), a controlled product is accepted\nby the Federation, the classification thereof shall be signified on the receipt issued\ntherefor by the Agency to the person who surrendered the controlled product.\n(3) Any person wishing to dispute the classification of a controlled product\nsurrendered by him to and accepted by the Board shall-\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(a) give notice in writing to the Federation at the receiving depot to which such\nproduct was delivered of his intention to do so in accordance with the\nfollowing provisions:\n(i) i n the case of any such product which was delivered to the Agency\nby rail, the notice shall be given so as to be delivered at such\nreceiving depot not later than the close of business on the seventh\nday after the day on which the receipt for such product was issued\nby the Agency, or, in case such seventh day is not a working day,\nthen not later than the close of business on the next ensuing\nworking day thereafter;\n(ii) in the case of any such product which was delivered to the Agency\nin any manner other than by rail, the notice shall be given so as to\nbe delivered at such receiving depot not later than the close of\nbusiness on the first working day following the delivery of such\nproduct; and\n(b) within ten days after he has given notice as aforesaid, deposit with the\nAgency a sum calculated at the rate of two kwacha for each 100 standard\nbags or one wool-pack of such product or part thereof in respect of which\nnotice as aforesaid has been given, subject to a maximum of ten kwacha.\n(4) On receipt of a notice given in terms of sub-regulation (3), the Agency shall\ncause the controlled product of which the classification is disputed to be regraded in the\nmanner prescribed in the First Schedule in respect of seed cotton and the Second\nSchedule in respect of other controlled products by a person appointed by the Minister for\nthe purpose.\n(5) Where, after regrading in terms of sub-regulation (4)-\n(a) the original classification of the controlled product is confirmed, the sum\ndeposited in terms of sub-regulation (3) shall be forfeited to the Agency;\n(b) the original classification of the controlled product is not confirmed-\n(i) i f a classification inferior to the original classification is determined,\nthe sum deposited in terms of sub-regulation (3) shall be forfeited to\nthe Agency;\n(ii) if a classification superior to the original classification is determined,\nthe sum deposited in terms of sub-regulation (3) shall be returned to\nthe person who made such deposit."
+    },
+    {
+      "number": "8",
+      "heading": "(1) The standards of packing of controlled products which may be accepted by Standards of packing",
+      "text": "8. (1) The standards of packing of controlled products which may be accepted by Standards of packing\nthe Agency shall be as prescribed in this regulation.\n(2) Controlled products shall be packed in sacks or woolpacks, being either new\nsacks or woolpacks or used sacks or woolpacks:\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nProvided that the Agency may, at its discretion, accept maize which is not packed in\nsacks, at such time, at such place and in such quantities as the Agency directs.\n(3) Sacks or woolpacks containing any controlled products shall be properly sewn at\nthe mouth without lugs in one or other of the following manners, that is to say:\n(a) hand-sewn with double jute twine of good quality, the stitches being through\nthe hem at a distance apart of not more than one inch; or\n(b) machine-sewn with cotton thread not inferior to 14 count thread of three\ncables each consisting of three strands, the stitches being approximately\nfour to the inch and between one inch and two and a half inches from the\nmouth of the sack.\n(4) Without derogation from the rights conferred on the Agency by subsection (5) of\nsection twenty-two of the Act, if the federation declines to accept any controlled product\nsurrendered to it by reason that the standard of packing does not comply with the\nprovisions of this regulation, it may, at the expense of the person surrendering it, arrange\nfor the sack or woolpack in which the controlled product is contained to be re-sewn or for\nthe controlled product to be packed in another sack or woolpack and for that other sack or\nwoolpack to be properly sewn.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nFIRST SCHEDULE\n(Regulation 5)\nSTANDARDS OF CLASSIFICATION, QUALITY AND MOISTURE CONTENT\nPART I\nMAIZE\nC lass A Class B C lass C C lass D\nW hite or W hite or White or White or\nC olour of Grain Yellow Yellow Y ellow Y ellow\nu nmixed u nmixed\nMaximum percentage moisture . . 12.5 1 2.5 1 2.5 12.5\nMaximum percentage extraneous\nmatter . . . . . . 0.5 0.75 1.0 1.0\nMaximum percentage trash . . 0.05 0.05 0.125 0.125\nMaximum percentage extraneous\nmatter and trash aggregate. . 0.5 0.75 1.0 1.0\nMaximum percentage chipped grain 8.0 - - -\nMaximum percentage insect-damaged\ngrain . . . . . . 3.0 5.0 2 5 2 5\nMaximum percentage defective grain 5.0 1 0.0 2 0 4 0\nMaximum percentage other coloured\ngrain included with defective grain 2.0 4.0 1 0 1 0\nMaximum percentage diseased grain\nincluded with defective grain . . 2.0 2.0 2.0 -\nMinimum bushel weight (white maize\nonly) in lb. at 12.5 per cent\nmoisture content. . . . 54 52 5 0 5 0\nCondition . . . . . . F resh F resh F it for M arket-\nand and h uman able\np lump p lump con-\ns umption\n(As amended by No. 329 of 1969)\nPART II\nSHELLED GROUNDNUTS\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nC lass A C lass B\nMaximum percentage moisture . . . . . . . . 6.5 6.5\nMaximum percentage extraneous matter . . . . . . 1.5 1.5\nMaximum percentage unshelled nuts . . . . . . 8 8\nMaximum percentage split grain . . . . . . 2 0 25\nMaximum percentage insect-damaged grain . . . . . . 1 0 20\nMaximum percentage defective grain . . . . . . 2 5 30\nNo diseased kernels permitted.\nCondition . . . . . . . . . . . . Fresh Fit for\nhuman\ncon-\nsumption\nPART III\nUNSHELLED GROUNDNUTS\nClass A C lass B\nMaximum percentage moisture . . . . . . 6.5 6.5\nMaximum percentage extraneous matter . . . . . . 1.5 1.5\nMaximum percentage with broken shells . . . . 2 0 -\nMaximum percentage shelled groundnuts . . . . 3 -\nMinimum percentage kernels . . . . . . . . 6 6 66\nMaximum percentage split grain . . . . . . 2 0 -\nMaximum percentage insect-damaged grain . . . . . . 1 0 20\nMaximum percentage defective grain . . . . . . 2 5 30\nNo diseased kernels permitted.\nCondition . . . . . . . . . . . . Fresh Fit for\nhuman\ncon-\nsumption\nPART IV\nSEED COTTON\nClass A: Clean white mature seed cotton. Occasional small flecks of staining and small amounts of cotton leaf trash and\nextraneous matter are tolerated. No other impurities are permitted. Immature or weak lint, even though clean and\nwhite, is not permissible.\nClass B: Seed cotton containing obvious but not substantial amounts of weak, stained or discoloured cotton and leaf trash\nand extraneous matter. No obvious stick or other plant parts are permissible.\nClass C: Seed cotton which contains substantial but not excessive amounts of stained or discoloured cotton, leaf trash and\nextraneous matter, and damaged seed.\nIn all instances, the maximum percentage of moisture content of seed cotton permitted is eight per centum.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nSEED COTTON-MACHINE PICKED\nA representative sample of 100 grammes of seed cotton shall be obtained from each woolpack and passed through an\nair-operated Frictionator. The percentage of the resultant extraneous matter and trash extracted from the sample shall then\nbe determined by weight by means of the Ohaus 4-in-1 Grading Scale.\nIn all instances the maximum percentage of moisture content of seed cotton permitted is eight per centum, and the\nmaximum percentage of extraneous matter or trash permitted is seven per centum. Seed cotton within these tolerances is\nthen graded visually in accordance with the Acceptance Standards for hand-picked cotton.\nWhere the proportion of extraneous matter or trash amounts to more than seven per centum, the weight of the seed\ncotton shall be deemed to be reduced by the same percentage in excess of seven per centum, provided, however, that\nwhere such extraneous matter or trash exceeds 121/2 per centum, it shall be rejected.\nPART V\nCANADIAN WONDER BEANS, HARICOT BEANS, MIXED BEANS, SUGAR BEANS, VELVET BEANS, COWPEAS,\nSOYA BEANS, SUNFLOWER SEED AND SUNHEMP\nC lass A\nMaximum percentage moisture . . . . . . . . . . 10\nMaximum percentage extraneous matter . . . . . . . . 1\nMaximum percentage damaged grain . . . . . . . . 1\nMaximum percentage dirty grain .. . . . . . . . . 1\nMaximum percentage immature grain . . . . . . . . 1\nMaximum percentage damaged, dirty and immature grain . . . . 2\nMaximum percentage other coloured grain . . . . . . 1\nMaximum percentage split grain . . . . . . . . 10\nCondition . . . . . . . . . . . . . . F resh\nPART VI\nSORGHUM\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nClass S C lass A C lass B\nMaximum percentage moisture. . . . 1 2.5 12.5 12.5\nMaximum percentage extraneous matter . . 1 1 1.5\nMaximum percentage insect-damaged sorghum 5 5 1 5\nMaximum percentage other varieties . . . . 5 - -\nMaximum percentage defective sorghum . . 1 0 1 0 1 0\nConditions . . . . . . . . Fresh Fresh Fresh\nand a nd a nd\nplump p lump p lump\nVariety or type (Class \"S\" only): Sorghum Caffrorum, Variety Radar, or Sorghum Caffrorum, Variety Barnards Red, or\nSorghum Caydatum, Variety Framida, or Hybrid No. 36 or Hybrid No. 39, or Hybrid NK.222, NK.300, DC.55, or Lindsay\n788A.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nSECOND SCHEDULE\n(Regulation 7)\nMANNER OF GRADING CONTROLLED PRODUCTS\nPART I\nALL CONTROLLED PRODUCTS"
+    },
+    {
+      "number": "1",
+      "heading": "The determination of the moisture content of grain shall be ascertained by means of the Marconi electrical Moistur",
+      "text": "1. The determination of the moisture content of grain shall be ascertained by means of the Marconi electrical Moistur\nresistance method calibrated to the standard Brown-Duval method or such other method, no less accurate, as the Board content\nmay approve. The determination shall be made with a minimum of delay either from a representative sample taken from\nthe load of the grain concerned or from a sample contained in an airtight container which shall be opened immediately\nbefore the test."
+    },
+    {
+      "number": "2",
+      "heading": "Except in the determination of the moisture content of a grain, all percentages shall be determined by weight by Percen",
+      "text": "2. Except in the determination of the moisture content of a grain, all percentages shall be determined by weight by Percen\nmeans of the Ohaus 4-in-1 Grading Scale or such other method, no less accurate, as the Board may approve. by wei"
+    },
+    {
+      "number": "3",
+      "heading": "For the purpose of obtaining a representative sample necessary for grading, the following procedure shall be Repres",
+      "text": "3. For the purpose of obtaining a representative sample necessary for grading, the following procedure shall be Repres\nfollowed: sample\n(a) in the case of a load of grain which is packed in sacks, the representative sample shall be obtained by taking\nequal portions of grain from evenly distributed parts of the load, so that-\n(i) where the grain in a load is packed in five sacks or less, the contents of every sack are sampled;\n(ii) where the grain in a load is packed in more than five sacks but less than 100 sacks, the contents of not\nless than five sacks are sampled;\n(iii) where the grain in a load is packed in 100 sacks or more, the contents of not less than ten sacks are\nsampled:\nProvided that-\nA. where the quality of the grain contained in any one sack in a load of grain differs from the average quality\nof the grain in the load as a whole, the grain contained in that sack shall be graded separately;\nB. where seed cotton of more than one class is packed in one container, the contents of such container shall\nbe classified according to the lowest quality of seed cotton therein;\nC. should otherwise undetectable trash due to mechanical harvesting or other cause be suspected, the\nwhole contents of the requisite proportion of sacks shall be employed to determine the percentage of trash;\n(b) in the case of a load of grain which is not packed in sacks, the representative sample shall be obtained by\ninserting a long probe or by thrusting the hand into the bulk of the load in several places so as fairly to\nrepresent the bulk. A minimum of seven uniformly distributed parts of the bulk shall be sampled. Individual\nbulk samples may be taken from a load to determine whether the grain is uniform in quality."
+    },
+    {
+      "number": "4",
+      "heading": "A working sample shall be obtained by thoroughly mixing and quartering a representative sample obtained in the Workin",
+      "text": "4. A working sample shall be obtained by thoroughly mixing and quartering a representative sample obtained in the Workin\nmanner described in paragraph 3. For this purpose diagonally opposed quarters of the representative sample shall be sample\nrejected by means of an efficient mechanical divider until a working sample of the requisite weight has been obtained."
+    },
+    {
+      "number": "5",
+      "heading": "For the purpose of determining the standards of quality and classification of a load of grain, the procedure described Order o",
+      "text": "5. For the purpose of determining the standards of quality and classification of a load of grain, the procedure described Order o\nin the Part appropriate to the grain concerned shall be carried out in the sequence indicated. grading\nproced\nPART II\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nMAIZE"
+    },
+    {
+      "number": "6",
+      "heading": "A representative sample weighing not less than 1kg shall be taken in the manner described in paragraph 3. Repres",
+      "text": "6. A representative sample weighing not less than 1kg shall be taken in the manner described in paragraph 3. Repres\nsample"
+    },
+    {
+      "number": "7",
+      "heading": "From the representative sample so obtained, a working sample weighing not less than 200 grammes shall then be Workin",
+      "text": "7. From the representative sample so obtained, a working sample weighing not less than 200 grammes shall then be Workin\nobtained in the manner described in paragraph 4, and the precise weight of the working sample shall be determined. sample"
+    },
+    {
+      "number": "8",
+      "heading": "Extraneous matter shall then be removed from the working sample and weighed. Extrane",
+      "text": "8. Extraneous matter shall then be removed from the working sample and weighed. Extrane\nmatter"
+    },
+    {
+      "number": "9",
+      "heading": "The trash content shall be determined by either of the following methods:",
+      "text": "9. The trash content shall be determined by either of the following methods:\nTrash\n(a) in normal circumstances trash shall be removed from the working sample and weighed; content\n(b) when the trash content cannot be reliably determined by the use of the working sample, the whole contents of\nthe number of bags prescribed in paragraph 3 shall be weighted on a duly assized bag scale. The trash shall\nthen be removed from the contents of the bags and weighed on an Ohaus 4-in-1 Grading Scale, and the\npercentage shall be determined accordingly."
+    },
+    {
+      "number": "10",
+      "heading": "Chipped grain shall then be removed from the working sample with the use of a No. 5 sieve and weighed. Chippe",
+      "text": "10. Chipped grain shall then be removed from the working sample with the use of a No. 5 sieve and weighed. Chippe\ngrain"
+    },
+    {
+      "number": "11",
+      "heading": "Insect-damaged grain shall then be removed from the working sample and weighed. Insect-",
+      "text": "11. Insect-damaged grain shall then be removed from the working sample and weighed. Insect-\ngrain"
+    },
+    {
+      "number": "12",
+      "heading": "Defective grain shall then be removed from the working sample and weighed. Defecti",
+      "text": "12. Defective grain shall then be removed from the working sample and weighed. Defecti\ngrain"
+    },
+    {
+      "number": "13",
+      "heading": "Other coloured grain shall then be removed from the defective grain referred to in paragraph 12 and weighed. Other",
+      "text": "13. Other coloured grain shall then be removed from the defective grain referred to in paragraph 12 and weighed. Other\ncoloure\ngrain"
+    },
+    {
+      "number": "14",
+      "heading": "Diseased grain shall then be removed from the defective grain referred to in paragraph 12 and weighed. Diseas",
+      "text": "14. Diseased grain shall then be removed from the defective grain referred to in paragraph 12 and weighed. Diseas\ngrain"
+    },
+    {
+      "number": "15",
+      "heading": "A special sample shall be taken from the representative sample and all extraneous matter shall be removed from Bushel",
+      "text": "15. A special sample shall be taken from the representative sample and all extraneous matter shall be removed from Bushel\nit. The bushel weight shall then be determined by testing the special sample by means of the Ohaus 4-in-1 Grading Scale weight\nor such other method, no less accurate, as the Board may approve."
+    },
+    {
+      "number": "16",
+      "heading": "Wherever detailed examination is necessary, at least two replicate tests shall be made and the average taken, the Replica",
+      "text": "16. Wherever detailed examination is necessary, at least two replicate tests shall be made and the average taken, the Replica\nlimit of variation in respect of the percentages of defective grain when comparing and averaging duplicate tests being tests\ncalculated in accordance with the following table:\nL imit of\nPercentage of Defective Grain V ariation\nUp to 5 per cent . . . . . . . . . . . . ± 1 per cent\nOver 5 per cent and up to 10 per cent . . . . . . ± 1.5 per cent\nOver 10 per cent and up to 15 per cent x. . . . . . ± 2 per cent\nOver 15 per cent and up to 20 per cent . . . . . . ± 2.5 per cent\nPART III\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nSHELLED GROUNDNUTS"
+    },
+    {
+      "number": "17",
+      "heading": "A representative sample weighing not less than 1 kg shall be taken in the manner described in paragraph 3. Repres",
+      "text": "17. A representative sample weighing not less than 1 kg shall be taken in the manner described in paragraph 3. Repres\nsample"
+    },
+    {
+      "number": "18",
+      "heading": "From the representative sample so obtained, a working sample weighing not less than 200 grammes shall be Workin",
+      "text": "18. From the representative sample so obtained, a working sample weighing not less than 200 grammes shall be Workin\nobtained in the manner described in paragraph 4, and the precise weight of the working sample shall be determined. sample"
+    },
+    {
+      "number": "19",
+      "heading": "Extraneous matter shall then be removed from the working sample and weighed. Extrane",
+      "text": "19. Extraneous matter shall then be removed from the working sample and weighed. Extrane\nmatter"
+    },
+    {
+      "number": "20",
+      "heading": "Unshelled nuts shall then be removed from the working sample and weighed. Unshel",
+      "text": "20. Unshelled nuts shall then be removed from the working sample and weighed. Unshel\nnuts"
+    },
+    {
+      "number": "21",
+      "heading": "Split grain shall then be removed from the working sample and weighed. Split gr",
+      "text": "21. Split grain shall then be removed from the working sample and weighed. Split gr"
+    },
+    {
+      "number": "22",
+      "heading": "Insect-damaged grain shall then be removed from the working sample and weighed. Insect-",
+      "text": "22. Insect-damaged grain shall then be removed from the working sample and weighed. Insect-\ngrain"
+    },
+    {
+      "number": "23",
+      "heading": "Defective grain shall then be removed from the working sample and weighed. Defecti",
+      "text": "23. Defective grain shall then be removed from the working sample and weighed. Defecti\ngrain"
+    },
+    {
+      "number": "24",
+      "heading": "Wherever detailed examination is necessary, at least two replicate tests shall be made and the average taken, the Replica",
+      "text": "24. Wherever detailed examination is necessary, at least two replicate tests shall be made and the average taken, the Replica\nlimit of variation in respect of the percentage of defective grain when comparing and averaging duplicate tests being tests\ncalculated in accordance with the following table:\nL imit of\nPercentage of Defective Grain Variation\nUp to 5 per cent . . . . . . . . . . . . ± 1 per cent\nOver 5 per cent and up to 10 per cent . . . . . . ± 1.5 per cent\nOver 10 per cent and up to 15 per cent . . . . . . ± 2 per cent\nOver 15 per cent and up to 20 per cent .x . . . . . ± 2.5 per cent\nOver 20 per cent and up to 25 per cent . . . . . . ± 3 per cent\nPART IV\nUNSHELLED GROUNDNUTS"
+    },
+    {
+      "number": "25",
+      "heading": "A representative sample weighing not less than 2.5 kg shall be taken in the manner described in paragraph 3 and Repres",
+      "text": "25. A representative sample weighing not less than 2.5 kg shall be taken in the manner described in paragraph 3 and Repres\nweighed. sample"
+    },
+    {
+      "number": "26",
+      "heading": "For the purposes of determining the percentage of extraneous matter, the extraneous matter, including any such Extrane",
+      "text": "26. For the purposes of determining the percentage of extraneous matter, the extraneous matter, including any such Extrane\nmatter which may be adhering to the shells or cortices, shall then be removed from the representative sample and matter\nweighed."
+    },
+    {
+      "number": "27",
+      "heading": "For the purposes of determining the percentage of shelled groundnuts, the shelled groundnuts shall then be Shelled",
+      "text": "27. For the purposes of determining the percentage of shelled groundnuts, the shelled groundnuts shall then be Shelled\nremoved from the representative sample, weighed and discarded. ground"
+    },
+    {
+      "number": "28",
+      "heading": "For the purposes of determining the percentage of groundnuts with broken shells, such groundnuts shall then be Broken",
+      "text": "28. For the purposes of determining the percentage of groundnuts with broken shells, such groundnuts shall then be Broken\nremoved from the representative sample and weighed. shells\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "29",
+      "heading": "For the purposes of determining the percentage of kernels, the shells or cortices shall then be removed from the Kernels",
+      "text": "29. For the purposes of determining the percentage of kernels, the shells or cortices shall then be removed from the Kernels\nkernels of the groundnuts in the representative sample and shall be weighed and shall then be discarded."
+    },
+    {
+      "number": "30",
+      "heading": "From the kernels obtained from the representative sample referred to in paragraph 29, a working sample weighing Workin",
+      "text": "30. From the kernels obtained from the representative sample referred to in paragraph 29, a working sample weighing Workin\nnot less than 200 grammes shall then be obtained in the manner described in paragraph 4, and the precise weight of the sample\nworking sample shall be determined."
+    },
+    {
+      "number": "31",
+      "heading": "Split grain shall then be removed from the working sample and weighed. Split gr",
+      "text": "31. Split grain shall then be removed from the working sample and weighed. Split gr"
+    },
+    {
+      "number": "32",
+      "heading": "Insect-damaged grain shall then be removed from the working sample and weighed. Insect-",
+      "text": "32. Insect-damaged grain shall then be removed from the working sample and weighed. Insect-\ngrain"
+    },
+    {
+      "number": "33",
+      "heading": "Defective grain shall then be removed from the working sample and weighed. Defecti",
+      "text": "33. Defective grain shall then be removed from the working sample and weighed. Defecti\ngrain"
+    },
+    {
+      "number": "34",
+      "heading": "Wherever detailed examination is necessary, at least two replicate tests shall be made and the average taken, the Replica",
+      "text": "34. Wherever detailed examination is necessary, at least two replicate tests shall be made and the average taken, the Replica\nlimit of variation in respect of the percentages of defective grain when comparing and averaging duplicate tests being tests\ncalculated in accordance with the following table:\nL imit of\nPercentage of Defective Grain Variation\nUp to 5 per cent . . . . . . . . . . . . ± 1 per cent\nOver 5 per cent and up to 10 per cent . . . . . . ± 1.5 per cent\nOver 10 per cent and up to 15 per cent . . . . . . ± 2 per cent\nOver 15 per cent and up to 20 per cent . . . . . . ± 2.5 per cent\nOver 20 per cent and up to 25 per cent . . . . . . ± 3 per cent\nPART V\nCANADIAN WONDER BEANS, HARICOT BEANS, MIXED BEANS, SUGAR BEANS, VELVET BEANS, COWPEAS,\nSOYA BEANS, SUNFLOWER SEED AND SUNNHEMP"
+    },
+    {
+      "number": "35",
+      "heading": "A representative sample weighing not less than 2 lb. shall be taken in the manner described in paragraph 3. Repres",
+      "text": "35. A representative sample weighing not less than 2 lb. shall be taken in the manner described in paragraph 3. Repres\nsample"
+    },
+    {
+      "number": "36",
+      "heading": "From the representative sample so obtained, a working sample weighing not less than 200 grammes shall then be Workin",
+      "text": "36. From the representative sample so obtained, a working sample weighing not less than 200 grammes shall then be Workin\nobtained in the manner described in paragraph 4, and the precise weight of the working sample shall be determined. sample"
+    },
+    {
+      "number": "37",
+      "heading": "Extraneous matter as defined in regulation 4 shall then be removed from the working sample and weighed. Extrane",
+      "text": "37. Extraneous matter as defined in regulation 4 shall then be removed from the working sample and weighed. Extrane\nmatter"
+    },
+    {
+      "number": "38",
+      "heading": "Damaged grain shall then be removed from the working sample and weighed. Damag",
+      "text": "38. Damaged grain shall then be removed from the working sample and weighed. Damag\ngrain"
+    },
+    {
+      "number": "39",
+      "heading": "Dirty grain shall then be removed from the working sample and weighed. Dirty gr",
+      "text": "39. Dirty grain shall then be removed from the working sample and weighed. Dirty gr"
+    },
+    {
+      "number": "40",
+      "heading": "Immature grain shall then be removed from the working sample and weighed. Immatu",
+      "text": "40. Immature grain shall then be removed from the working sample and weighed. Immatu\ngrain"
+    },
+    {
+      "number": "41",
+      "heading": "Other coloured grain shall then be removed from the working sample and weighed. Other",
+      "text": "41. Other coloured grain shall then be removed from the working sample and weighed. Other\ncoloure\ngrain\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "42",
+      "heading": "Split grain shall then be removed from the working sample and weighed. Split gr",
+      "text": "42. Split grain shall then be removed from the working sample and weighed. Split gr"
+    },
+    {
+      "number": "43",
+      "heading": "Wherever detailed examination is necessary, at least two replicate tests shall be made and the average taken, the Replica",
+      "text": "43. Wherever detailed examination is necessary, at least two replicate tests shall be made and the average taken, the Replica\nlimit of variation in respect of the percentage of defective grain when comparing and averaging duplicate tests being tests\ncalculated in accordance with the following table:\nL imit of\nPercentage of Defective Grain Variation\nUp to 5 per cent . . . . . . . . . . . . ± 1 per cent\nOver 5 per cent and up to 10 per cent . . . . . . ± 1.5 per cent\nOver 10 per cent and up to 15 per cent . . . . . . ± 2 per cent\nOver 15 per cent and up to 20 per cent . . . . . . ± 2.5 per cent\nPART VI\nSORGHUM"
+    },
+    {
+      "number": "44",
+      "heading": "A representative sample weighing not less than 1 kg shall be taken in the manner described in paragraph 3. Repres",
+      "text": "44. A representative sample weighing not less than 1 kg shall be taken in the manner described in paragraph 3. Repres\nsample"
+    },
+    {
+      "number": "45",
+      "heading": "From the representative sample so obtained, a working sample weighing not less than 50 grammes shall be Workin",
+      "text": "45. From the representative sample so obtained, a working sample weighing not less than 50 grammes shall be Workin\nobtained in the manner described in paragraph 4, and the precise weight of the working sample shall be determined. sample"
+    },
+    {
+      "number": "46",
+      "heading": "Extraneous matter as defined in regulation 4 (3) shall then be removed from the working sample and weighed. Extrane",
+      "text": "46. Extraneous matter as defined in regulation 4 (3) shall then be removed from the working sample and weighed. Extrane\nmatter"
+    },
+    {
+      "number": "47",
+      "heading": "Insect-damaged sorghum shall then be removed from the working sample and weighed. Insect-",
+      "text": "47. Insect-damaged sorghum shall then be removed from the working sample and weighed. Insect-\nsorghu"
+    },
+    {
+      "number": "48",
+      "heading": "Other varieties shall then be removed from the working sample and weighed. Other",
+      "text": "48. Other varieties shall then be removed from the working sample and weighed. Other\nvarietie"
+    },
+    {
+      "number": "49",
+      "heading": "Defective sorghum as defined in regulation 3 shall then be removed and weighed. Defecti",
+      "text": "49. Defective sorghum as defined in regulation 3 shall then be removed and weighed. Defecti\nsorghu"
+    },
+    {
+      "number": "50",
+      "heading": "Wherever detailed examination is necessary, at least two replicate tests shall be made and the average taken, the Replica",
+      "text": "50. Wherever detailed examination is necessary, at least two replicate tests shall be made and the average taken, the Replica\nlimit of variation in respect of the percentages of defective sorghum when comparing and averaging duplicate tests being tests\ncalculated in accordance with the following table:\nL imit of\nPercentage of Defective Sorghum V ariation\nUp to 5 per cent . . . . . . . . . . . . ± 2 per cent\nOver 5 per cent and up to 10 per cent . . . . . . ± 2.5 per cent\nOver 10 per cent and up to 15 per cent . . . . . . ± 3 per cent\nOver 15 per cent and up to 20 per cent . . . . . . ± 3.5 per cent\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nTHE GRAIN MARKETING (CONTROLLED PRODUCTS DECLARATION) ORDER Statutory Instrument\n290 of 1969"
+    },
+    {
+      "number": "1",
+      "heading": "This Order may be cited as the Grain Marketing (Controlled Products Title",
+      "text": "1. This Order may be cited as the Grain Marketing (Controlled Products Title\nDeclaration) Order."
+    },
+    {
+      "number": "2",
+      "heading": "In this Order, unless the context otherwise requires- \"shelled groundnuts\" Interpretation",
+      "text": "2. In this Order, unless the context otherwise requires- \"shelled groundnuts\" Interpretation\nmeans the kernels or seeds of groundnuts;\n\"unshelled groundnuts\" means groundnuts from which the shells or cortices have\nnot been removed."
+    },
+    {
+      "number": "3",
+      "heading": "Maize, maize meal, shelled groundnuts, unshelled groundnuts, Canadian Controlled products.",
+      "text": "3. Maize, maize meal, shelled groundnuts, unshelled groundnuts, Canadian Controlled products.\nwonder beans, haricot beans, mixed beans, sugar beans, velvet beans, cowpeas, First Schedule\nsunnhemp, sunflower seed, sorghum, soya beans and seed cotton shall be controlled\nproducts in all areas described in the First Schedule."
+    },
+    {
+      "number": "4",
+      "heading": "Maize, maize meal, shelled groundnuts, unshelled groundnuts and seed cotton Controlled products.",
+      "text": "4. Maize, maize meal, shelled groundnuts, unshelled groundnuts and seed cotton Controlled products.\nshall be controlled products in the area described in the Second Schedule. Second Schedule"
+    },
+    {
+      "number": "5",
+      "heading": "Shelled groundnuts and unshelled groundnuts shall be controlled products in the Controlled products.",
+      "text": "5. Shelled groundnuts and unshelled groundnuts shall be controlled products in the Controlled products.\narea described in the Third Schedule. Third Schedule\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nFIRST SCHEDULE\n(Paragraph 3)\nPRESCRIBED AREAS\n1 . The Copperbelt Province.\n2 . The Central Province.\n3 . The following Districts:\nL ivingstone;\nK alomo;\nC homa;\nG wenbe;\nM azabuka.\nSECOND SCHEDULE\n(Paragraph 4)\nPRESCRIBED AREA\nThe Eastern Province.\nTHIRD SCHEDULE\n(Paragraph 5)\nPRESCRIBED AREA\nThe North-Western Province.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nSECTION 16-THE FOOD RESERVE (DESIGNATED COMMODITIES) (STANDARD OF Statutory Instrument\nCONDUCT) REGULATIONS 94 of 1996"
+    },
+    {
+      "number": "1",
+      "heading": "These Regulations may be cited as the Food Reserve (Designated Title",
+      "text": "1. These Regulations may be cited as the Food Reserve (Designated Title\nCommodities) Standard of Conduct) Regulations."
+    },
+    {
+      "number": "2",
+      "heading": "A registered trader or processor shall, prior to purchasing a designated Power to inspect",
+      "text": "2. A registered trader or processor shall, prior to purchasing a designated Power to inspect\ncommodity, inspect all relevant records to determine if- records\n(a) the farmer, trader of processor selling the designated commodity has\npreviously pledged the commodity as security;or\n(b) a charge or lien has been registered under the Agricutural Credits Act."
+    },
+    {
+      "number": "3",
+      "heading": "A trader or a processor, registered as a dealer in a designated commodity, shall Records by traders",
+      "text": "3. A trader or a processor, registered as a dealer in a designated commodity, shall Records by traders\non a monthly basis provide to the Food Reserve Agency information regarding the stock of and processors\na designated commodity handled or held by him during the period commencing 1st May,\n1996 to 30th April, 1997."
+    },
+    {
+      "number": "4",
+      "heading": "The information referred to in Regulation (3) above, shall be provided in the Prescribed forms",
+      "text": "4. The information referred to in Regulation (3) above, shall be provided in the Prescribed forms\nforms set out in the Schedule to these Regulations.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nSCHEDULE\n(Regulation 4)\nFOOD RESERVE AGENCY\nFood Reserve Unit\nMONTHLY REPORT ON TRADING ACTIVITIES FOR TRADERS IN DESIGNATED COMMODITIES\nReporting period: ..............................\nTraders who deal in designated commodities are required to complete this form at the end of the month and send it to\none of the addresses below.\nReports on trading activities are required for statistical purposes only, to enable the Food Reserve Agency to collect,\nanalyse and disseminate marketing information for the benefit of producers, traders, processors and other market\nparticipants, and the help plan the Agency's own marketing activities. The information provided will remain confidential.\nAny statistics that are publicised will be in the form of aggregated data.\nYour cooperation is greatly appreciated.\nNOTES:\n-When filling in the forms, please provide data for the operating period only.\n-Please specify the unit of measurement when indicating quantities (50 kg or 90 kg bags, or metric tonnes).\nName of organisation: ................................................................................................................................................................\nFood Reserve Agency registration number: ..............................................................................................................................\nAddress (physical location): ........................................................................................................................................................\nP.O. Box: _______________________________________Tel. and Fax No: ..........................................................................\n-Food Reserve Agency\n-P.O. Box 34054, Lusaka\n-Temporary Address: NRDC-Maize and Fertilizer Storage Project, Lusaka\n-Choma, Regional Property Officer, offices at CIDA sheds, P.O. Box 630006\n-Chipata, Regional Property Officer, PWD building, P.O. Box 510161\n-Mkushi, Regional Property Officer, offices at CIDA sheds, P.O. Box 840170\n-Kitwe, Regional Property Officer, offices at Kitwe silos, P.O. Box 20630\n-Kasama, Regional Property Officer, offices at CIDA sheds, P.O. Box 410501\n-Isoka, Regional Property Officer, offices at CIDA sheds, P.O. Box 440034\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nFORM 1\n(Regulation 4)"
+    },
+    {
+      "number": "1",
+      "heading": "Crop Purchases",
+      "text": "1. Crop Purchases\nPlease indicate the quanities of designated commodities that your organisation purchased and the respective areas of\npurchase (province, district, country):\nCommodity Area of Purchase Quantity purchased"
+    },
+    {
+      "number": "2",
+      "heading": "Storage",
+      "text": "2. Storage\nPlease indicate the quantities and location of designated commodities that you currently have in storage:\nCommodity"
+    },
+    {
+      "number": "3",
+      "heading": "Sales",
+      "text": "3. Sales\nPlease indicate the quantities of designated commodities that you have marketed, and the type of buyer (e.g. industrial\nmill, hammer mill, international grain trader, local grain trader, brewery, stockfeed producer):\nCommodity Type of buyer Quantity sold\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "4",
+      "heading": "Processing",
+      "text": "4. Processing\nIf applicable, please indicate the approximate quantities of designated commodities that you have processed/milled during\nthe reporting period.\nCommodity End product Quantity processed\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Food%20Reserve%20Act.pdf",
+  "node_url": "https://www.parliament.gov.zm/node/1023",
+  "source_hash": "sha256:e576c1f8964882c18b9953c7205bb32e611bbc91c0a9c357a090957231d32582",
+  "fetched_at": "2026-04-13T08:35:00Z",
+  "parser_version": "0.1.0",
+  "needs_ocr": false
+}
