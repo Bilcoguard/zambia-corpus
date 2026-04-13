@@ -1,0 +1,33 @@
+{
+  "id": "act-zm-2002-002-value-added-tax-amendment-act-no-2-of-2002",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Value Added Tax (Amendment)( Act No. 2 of  2002)",
+  "citation": "Act No. 2 of 2002",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "(1) This Act may be cited as the Value Added Tax (Amend\u00ad Title and",
+      "text": "ment) Act, 2002, and shall be read as one with the Value Added commence\u00ad\nment\nTax Act, in this Act referred to as the principal Act. Cap.331\n(2) This Act shall come into operation on the 1st April, 2002."
+    },
+    {
+      "number": "2",
+      "heading": "Section eighteen of the principal Act is amended by the Amendment",
+      "text": "deletion of subsection (4) and the substitution therefor of the of section 18\nfollowing new subsection:\n(4) Input tax may not be deducted or credited after a\nperiod of one year from the date of the relevant tax invoice\nor other evidence referred to in subsection (3), except in\nsuch circumstances as may be allowed by administrative\nrules made by the Commissioner-General."
+    },
+    {
+      "number": "3",
+      "heading": "Section twenty of the principal Act is amended by\u2014 Amendment",
+      "text": "(a) the deletion of subsection (2), and of section 20\n(b) the re-numbering of subsections (3) and (4) as (2), and\n(3) respectively.\nSingle copies of this Act may be obtained/mm the Government Printer,\nP. O. Box 30136,10101 Lusaka, Price K500 each."
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Value%20Added%20Tax%20%28Amendment%29%20Act%2C%20No.%202%20of%202002.pdf",
+  "source_hash": "sha256:7707d0427437cd983676afc50bda2a88da75a76435765d2c1cb6ddee7b21cd42",
+  "fetched_at": "2026-04-13T04:36:36Z",
+  "parser_version": "0.3.0"
+}

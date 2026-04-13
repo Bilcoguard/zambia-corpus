@@ -291,3 +291,11 @@ consider Government Gazette or direct MMMD/MoJ request).
 ### Batch 0060 — Gaps (2026-04-13T04:31:34Z)
 - act-zm-2007-024-zambia-tourism-board: scanned PDF, needs OCR
 - 2008 Acts: No. 1-5, 8, 11, 13+ not discoverable on parliament.gov.zm. Need ZambiaLII or Gazette sources.
+
+### Batch 0061 — Gaps (2026-04-13T06:45:00Z)
+- act-zm-2001-009-the-customs-and-excise-amendment-act-no-9-of-2001: 0 sections — scanned PDF, needs OCR
+- act-zm-2001-008-the-income-tax-amendment-act-no-8-of-2001: 0 sections — scanned PDF, needs OCR
+- act-zm-2000-020-the-penal-code-amendment-act-no-20-of-2000: 0 sections — scanned PDF, needs OCR
+- act-zm-2000-007-excess-expenditure-appropriation-1994-act-no-7-of-2000: 0 sections — scanned PDF, needs OCR
+- act-zm-2000-006-the-value-added-tax-amendment-act-no-6-of-2000: 0 sections — scanned PDF, needs OCR
+- Discovery pages 27-34 contain many navigation links mixed with act links; actual act yield ~8 per 8 pages
