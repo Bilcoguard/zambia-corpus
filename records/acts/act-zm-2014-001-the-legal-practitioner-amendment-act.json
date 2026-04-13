@@ -1,0 +1,18 @@
+{
+  "id": "act-zm-2014-001-the-legal-practitioner-amendment-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Legal Practitioner (Amendment) Act",
+  "citation": "Act No. 1 of 2014",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Legal%20Practitioners%20Act%202014.PDF",
+  "source_hash": "sha256:3bafd582afc62cb18f865b39312dccac9c66f4bebba3f5ea500b525dfd0d9b80",
+  "fetched_at": "2026-04-13T07:10:30Z",
+  "parser_version": "0.4.0",
+  "needs_ocr": true
+}

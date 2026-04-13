@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-2002-016-high-court-amendment",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "High Court (Amendment)",
+  "citation": "Act No. 16 of 2002",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "(1) This Act may be cited as the High Court (Amendment) Act, Short title",
+      "text": "(1) This Act may be cited as the High Court (Amendment) Act, Short title\n2002, and shall be read as one with the High Court Act, in this Act Cap. 27\nreferred to as the principal Act."
+    },
+    {
+      "number": "2",
+      "heading": "The principal Act is amended in section ten, by\u2014 Amendment",
+      "text": "The principal Act is amended in section ten, by\u2014 Amendment\nof section 10\n(a) the deletion of the full stop at the end of the section and the\nsubstitution therefor of a colon; and\n(b) the insertion after the section of the following new proviso:\nProvided that the Civil Court Practice 1999 (The\nGreen Book) of England or any other civil court practice\nrules issued after 1999 in England shall not apply to\nZambia unless they relate to matrimonial causes.\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136,10101 Lusaka. Price K500 each"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/High%20Court%20%28Amendment%29%20%20Act%20No.%2016%20of%202002.pdf",
+  "source_hash": "sha256:721a888acd08282d0a206446b0ed5b2535e16f49305d04e31bc6841ee77f2b30",
+  "fetched_at": "2026-04-13T07:10:48Z",
+  "parser_version": "0.4.0",
+  "needs_ocr": false
+}

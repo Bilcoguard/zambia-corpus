@@ -310,3 +310,9 @@ consider Government Gazette or direct MMMD/MoJ request).
 - Constitution Amendment Act 2016: duplicate of act-zm-2016-002, removed
 - Lands Act: duplicate of act-zm-cap-184-lands-act (same hash), removed
 - 5 Laws of Zambia chapter acts have no extractable Cap. number (tagged loz-*): need manual Cap. assignment from Laws of Zambia index
+
+## Batch 0065 (2026-04-13T07:12:12Z)
+
+- Anti-Terrorism (Amendment) Act, 2015: no PDF link on node page (https://www.parliament.gov.zm/node/4542)
+- The Zambia Revenue Authority (Amendment): no PDF link on node page (https://www.parliament.gov.zm/node/2907)
+- The Companies (Amendment) Act (2011): no PDF link on node page (https://www.parliament.gov.zm/node/3368)
