@@ -1,0 +1,25 @@
+{
+  "id": "act-zm-2008-012-the-public-procurement",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Public Procurement",
+  "citation": "Act No. 12 of 2008",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "full_text",
+      "heading": "(scanned PDF - needs OCR)",
+      "text": ""
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/node/3202",
+  "source_hash": "sha256:3836758f5d704744731b069931bcf5ebc9294bad67485f348a0a40727df58770",
+  "fetched_at": "2026-04-12T17:07:33Z",
+  "parser_version": "0.1.0",
+  "_node_url": "https://www.parliament.gov.zm/node/3202",
+  "_needs_ocr": true
+}
