@@ -316,3 +316,14 @@ consider Government Gazette or direct MMMD/MoJ request).
 - Anti-Terrorism (Amendment) Act, 2015: no PDF link on node page (https://www.parliament.gov.zm/node/4542)
 - The Zambia Revenue Authority (Amendment): no PDF link on node page (https://www.parliament.gov.zm/node/2907)
 - The Companies (Amendment) Act (2011): no PDF link on node page (https://www.parliament.gov.zm/node/3368)
+
+### Batch 0066 — Laws of Zambia Cap. gaps (2026-04-13T08:09:53Z)
+- **About Parliament**: No PDF on https://www.parliament.gov.zm/node/108
+- **Parliament Buildings History**: No PDF on https://www.parliament.gov.zm/node/111
+- **Departments**: No PDF on https://www.parliament.gov.zm/node/159
+- **Visiting parliament**: No PDF on https://www.parliament.gov.zm/node/110
+- **Committee System**: No PDF on https://www.parliament.gov.zm/node/109
+- **Attendance Guidlines**: No PDF on https://www.parliament.gov.zm/node/91
+- **Submission Procedure**: No PDF on https://www.parliament.gov.zm/node/444
+- **Committee Submission**: No PDF on https://www.parliament.gov.zm/node/210
+- **Up Coming Events**: No PDF on https://www.parliament.gov.zm/node/12899

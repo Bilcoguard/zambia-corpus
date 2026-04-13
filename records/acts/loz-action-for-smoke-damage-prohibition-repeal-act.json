@@ -1,0 +1,28 @@
+{
+  "id": "loz-action-for-smoke-damage-prohibition-repeal-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Action for Smoke Damage (Prohibition) (Repeal) Act",
+  "citation": "Laws of Zambia",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Actions for Smoke Damage (Prohibition) (Repeal) Short title",
+      "text": "Act."
+    },
+    {
+      "number": "2",
+      "heading": "The Actions for Smoke Damage (Prohibition) Act is hereby repealed. Repeal of Cap. 327 of",
+      "text": "the old edition\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Action%20for%20Smoke%20Damage%20%28Prohibition%29%20%28Repeal%29%20Act.pdf",
+  "source_hash": "sha256:72c836cda1337206b72b9fc2df3adba0729ec210049ac466b08e575f92230a1d",
+  "fetched_at": "2026-04-13T08:09:53Z",
+  "parser_version": "0.4.0"
+}
