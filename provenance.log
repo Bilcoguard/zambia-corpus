@@ -655,3 +655,11 @@
 {"id": "act-zm-2000-020-the-penal-code-amendment-act-no-20-of-2000", "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/No20_2000.pdf", "source_hash": "sha256:3e297e22d0d707b19b1a59e351e26e9968a5a8232a2d0a5d4fcfb84f89f4a7a1", "fetched_at": "2026-04-13T04:36:59Z", "parser_version": "0.3.0", "sections_extracted": 0}
 {"id": "act-zm-2000-007-excess-expenditure-appropriation-1994-act-no-7-of-2000", "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/No.7_2000.pdf", "source_hash": "sha256:9b7f8d7d468d9395b12d7b0e536756a602e2e70316173b798eb3a214d146a772", "fetched_at": "2026-04-13T04:37:06Z", "parser_version": "0.3.0", "sections_extracted": 0}
 {"id": "act-zm-2000-006-the-value-added-tax-amendment-act-no-6-of-2000", "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/No.6_2000.pdf", "source_hash": "sha256:bf58d8fbc2b7faff6283a2d988482ae6b142c41cf9e4576cce3a7df180cee95e", "fetched_at": "2026-04-13T04:37:14Z", "parser_version": "0.3.0", "sections_extracted": 0}
+{"id": "act-zm-cap-184-lands-act", "batch": 62, "fetched_at": "2026-04-13T05:40:40Z", "parser_version": "0.3.0"}
+{"id": "act-zm-cap-185-lands-and-deeds-registry-act", "batch": 62, "fetched_at": "2026-04-13T05:40:40Z", "parser_version": "0.3.0"}
+{"id": "act-zm-cap-188-land-survey-act", "batch": 62, "fetched_at": "2026-04-13T05:40:40Z", "parser_version": "0.3.0"}
+{"id": "act-zm-cap-189-lands-acquisition-act", "batch": 62, "fetched_at": "2026-04-13T05:40:40Z", "parser_version": "0.3.0"}
+{"id": "act-zm-cap-153-hotels-act", "batch": 62, "fetched_at": "2026-04-13T05:40:40Z", "parser_version": "0.3.0"}
+{"id": "act-zm-cap-166-betting-control-act", "batch": 62, "fetched_at": "2026-04-13T05:40:40Z", "parser_version": "0.3.0"}
+{"id": "act-zm-cap-167-liquor-licensing-act", "batch": 62, "fetched_at": "2026-04-13T05:40:40Z", "parser_version": "0.3.0"}
+{"id": "act-zm-cap-199-forests-act", "batch": 62, "fetched_at": "2026-04-13T05:40:40Z", "parser_version": "0.3.0"}

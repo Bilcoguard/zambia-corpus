@@ -299,3 +299,8 @@ consider Government Gazette or direct MMMD/MoJ request).
 - act-zm-2000-007-excess-expenditure-appropriation-1994-act-no-7-of-2000: 0 sections — scanned PDF, needs OCR
 - act-zm-2000-006-the-value-added-tax-amendment-act-no-6-of-2000: 0 sections — scanned PDF, needs OCR
 - Discovery pages 27-34 contain many navigation links mixed with act links; actual act yield ~8 per 8 pages
+
+## Batch 0062 — Strategy note (2026-04-13T05:40:40Z)
+- Pages 35+ of parliament.gov.zm listing contain Laws of Zambia (Chapter Acts) without year/number in titles
+- Successfully extracting Cap. numbers from PDF first pages
+- Remaining Cap. Acts from pages 35-36 for next tick: Tourism Act, Water Act, National Heritage Conservation Commission Act, Rating Act, National Housing Authority Act, Agricultural Lands Act, ZNBC Act, Landlord and Tenant Act, Housing (Statutory) Act, and more

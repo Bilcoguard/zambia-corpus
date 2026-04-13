@@ -1,0 +1,909 @@
+{
+  "id": "act-zm-cap-167-liquor-licensing-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Liquor Licensing Act",
+  "citation": "Cap. 167 of the Laws of Zambia",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "S hort title",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "I nterpretation",
+      "text": ""
+    },
+    {
+      "number": "3",
+      "heading": "N on-application",
+      "text": "PART II TYPES OF LICENCESPART II\nTYPES OF LICENCES\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "4",
+      "heading": "T ypes of licences",
+      "text": ""
+    },
+    {
+      "number": "5",
+      "heading": "W holesale liquor licence",
+      "text": ""
+    },
+    {
+      "number": "6",
+      "heading": "R etail liquor licence",
+      "text": ""
+    },
+    {
+      "number": "7",
+      "heading": "B ar licence",
+      "text": ""
+    },
+    {
+      "number": "8",
+      "heading": "H otel liquor licence",
+      "text": ""
+    },
+    {
+      "number": "9",
+      "heading": "P rivate hotel liquor licence",
+      "text": ""
+    },
+    {
+      "number": "10",
+      "heading": "R estaurant licence",
+      "text": ""
+    },
+    {
+      "number": "11",
+      "heading": "R ailway restaurant car licence",
+      "text": ""
+    },
+    {
+      "number": "12",
+      "heading": "P assenger vessel licence",
+      "text": ""
+    },
+    {
+      "number": "13",
+      "heading": "A irport licence",
+      "text": ""
+    },
+    {
+      "number": "14",
+      "heading": "T heatre licence",
+      "text": ""
+    },
+    {
+      "number": "15",
+      "heading": "T emporary licence",
+      "text": "15A. C lub licence"
+    },
+    {
+      "number": "16",
+      "heading": "R estricted licences",
+      "text": "16A. P rohibition of the grant of licences\nPART III ESTABLISHMENT AND POWERS OF LICENSING BOARDSPART III\nESTABLISHMENT AND POWERS OF LICENSING BOARDS"
+    },
+    {
+      "number": "17",
+      "heading": "G rant and renewal of licences",
+      "text": "17A. P rohibition of grant of licences"
+    },
+    {
+      "number": "18",
+      "heading": "E stablishment of Boards and procedure at meetings",
+      "text": ""
+    },
+    {
+      "number": "19",
+      "heading": "R estrictions upon grant of licences",
+      "text": "Section"
+    },
+    {
+      "number": "20",
+      "heading": "A pplication for grant or renewal of licence",
+      "text": ""
+    },
+    {
+      "number": "21",
+      "heading": "N otice of intention to object",
+      "text": ""
+    },
+    {
+      "number": "22",
+      "heading": "G rounds for refusal of licences",
+      "text": "22A. P ower of President to revoke licences"
+    },
+    {
+      "number": "23",
+      "heading": "P rovisional grant of licence",
+      "text": ""
+    },
+    {
+      "number": "24",
+      "heading": "A pplication to lapse in certain circumstances",
+      "text": ""
+    },
+    {
+      "number": "25",
+      "heading": "R enewal of licences",
+      "text": ""
+    },
+    {
+      "number": "26",
+      "heading": "N otification of grounds of refusal, etc.",
+      "text": ""
+    },
+    {
+      "number": "27",
+      "heading": "E xtension of permitted hours",
+      "text": "PART IV TRANSFER AND REMOVAL OF LICENCESPART IV\nTRANSFER AND REMOVAL OF LICENCES\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "28",
+      "heading": "T ransfer of licences",
+      "text": ""
+    },
+    {
+      "number": "29",
+      "heading": "P ower to carry on business after death, etc., of licensee",
+      "text": ""
+    },
+    {
+      "number": "30",
+      "heading": "P rotection order",
+      "text": ""
+    },
+    {
+      "number": "31",
+      "heading": "R emoval of licence",
+      "text": "PART V LICENCE REGISTERSPART V\nLICENCE REGISTERS"
+    },
+    {
+      "number": "32",
+      "heading": "R egister of licences",
+      "text": ""
+    },
+    {
+      "number": "33",
+      "heading": "R egistration of owner",
+      "text": ""
+    },
+    {
+      "number": "34",
+      "heading": "R egister to be evidence",
+      "text": ""
+    },
+    {
+      "number": "35",
+      "heading": "R egard to be had to register",
+      "text": ""
+    },
+    {
+      "number": "36",
+      "heading": "I nspection of register",
+      "text": "PART VI APPEALSPART VI\nAPPEALS"
+    },
+    {
+      "number": "37",
+      "heading": "E stablishment of Tribunal",
+      "text": ""
+    },
+    {
+      "number": "38",
+      "heading": "A ppeal to Tribunal",
+      "text": ""
+    },
+    {
+      "number": "39",
+      "heading": "A ppeal to High Court",
+      "text": "PART VII GENERAL PROVISIONS REGULATING SALE OF INTOXICATING\nLIQUORPART VII\nGENERAL PROVISIONS REGULATING SALE OF INTOXICATING LIQUOR\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "40",
+      "heading": "S elling liquor without licence",
+      "text": "Section"
+    },
+    {
+      "number": "41",
+      "heading": "P rohibition of sale, etc., of liquor except during permitted hours",
+      "text": ""
+    },
+    {
+      "number": "42",
+      "heading": "L iquor of kind not authorised by licence not to be kept on premises",
+      "text": ""
+    },
+    {
+      "number": "43",
+      "heading": "D elivery of liquor",
+      "text": ""
+    },
+    {
+      "number": "44",
+      "heading": "B reach of terms of off-licence",
+      "text": ""
+    },
+    {
+      "number": "45",
+      "heading": "P ersons under eighteen years not to be employed in bars",
+      "text": ""
+    },
+    {
+      "number": "46",
+      "heading": "R estriction on sale, etc., of liquor to children",
+      "text": ""
+    },
+    {
+      "number": "47",
+      "heading": "R estriction on sale of liquor to young persons for consumption on premises",
+      "text": ""
+    },
+    {
+      "number": "48",
+      "heading": "R estriction on credit sales",
+      "text": ""
+    },
+    {
+      "number": "49",
+      "heading": "C ommunication between licensed premises and places of public resort",
+      "text": ""
+    },
+    {
+      "number": "50",
+      "heading": "C onsent of Board for certain alterations",
+      "text": ""
+    },
+    {
+      "number": "51",
+      "heading": "P articulars to be affixed to premises, etc.",
+      "text": ""
+    },
+    {
+      "number": "52",
+      "heading": "L icensee not to permit drunkenness, etc.",
+      "text": ""
+    },
+    {
+      "number": "53",
+      "heading": "P rocuring drink for drunken persons",
+      "text": ""
+    },
+    {
+      "number": "54",
+      "heading": "P ower to exclude drunkards, etc., from licensed premises",
+      "text": ""
+    },
+    {
+      "number": "55",
+      "heading": "P ermitting licensed premises to be a brothel",
+      "text": ""
+    },
+    {
+      "number": "56",
+      "heading": "P ermitting licensed premises to be resort of prostitutes",
+      "text": ""
+    },
+    {
+      "number": "57",
+      "heading": "G aming on licensed premises",
+      "text": ""
+    },
+    {
+      "number": "58",
+      "heading": "O ffences in relation to police officers",
+      "text": "PART VIII SPECIAL PROVISIONS REGARDING PASSENGER VESSEL LICENCES ON\nLAKE KARIBAPART VIII\nSPECIAL PROVISIONS REGARDING PASSENGER VESSEL LICENCES ON LAKE KARIBA"
+    },
+    {
+      "number": "59",
+      "heading": "I nterpretation for purposes of Part VIII",
+      "text": ""
+    },
+    {
+      "number": "60",
+      "heading": "A pplication of Part VIII",
+      "text": ""
+    },
+    {
+      "number": "61",
+      "heading": "L icensing authority for Lake Kariba",
+      "text": ""
+    },
+    {
+      "number": "62",
+      "heading": "R estrictions upon the grant, renewal or transfer of passenger vessel licences",
+      "text": ""
+    },
+    {
+      "number": "63",
+      "heading": "G rounds for refusal of licences",
+      "text": ""
+    },
+    {
+      "number": "64",
+      "heading": "C onditions",
+      "text": ""
+    },
+    {
+      "number": "65",
+      "heading": "P ermitted hours and places under a passenger vessel licence",
+      "text": ""
+    },
+    {
+      "number": "66",
+      "heading": "B reach of conditions of passenger vessel licence",
+      "text": ""
+    },
+    {
+      "number": "67",
+      "heading": "R ight to go aboard and inspect vessels",
+      "text": ""
+    },
+    {
+      "number": "68",
+      "heading": "A pplication and modification of sections 20, 28, 30, 41, 45, 47, Part VII,",
+      "text": "sections 69, 76, 80 and 81\nPART IX SUPPLEMENTALPART IX\nSUPPLEMENTAL\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nSection"
+    },
+    {
+      "number": "69",
+      "heading": "C losing of premises in case of riot",
+      "text": ""
+    },
+    {
+      "number": "70",
+      "heading": "F orfeiture of licence by the Minister",
+      "text": ""
+    },
+    {
+      "number": "71",
+      "heading": "D isposal of stock in hand where a licence is forfeited",
+      "text": ""
+    },
+    {
+      "number": "72",
+      "heading": "P ower to require structural alterations",
+      "text": ""
+    },
+    {
+      "number": "73",
+      "heading": "R estrictions on carrying on other business",
+      "text": ""
+    },
+    {
+      "number": "74",
+      "heading": "S ale of tobacco, etc.",
+      "text": ""
+    },
+    {
+      "number": "75",
+      "heading": "P roof of licences, etc.",
+      "text": ""
+    },
+    {
+      "number": "76",
+      "heading": "E vidence of sale, etc.",
+      "text": ""
+    },
+    {
+      "number": "77",
+      "heading": "R ight of police officers to enter premises",
+      "text": ""
+    },
+    {
+      "number": "78",
+      "heading": "S earch warrant",
+      "text": ""
+    },
+    {
+      "number": "79",
+      "heading": "O ffences and forfeitures",
+      "text": ""
+    },
+    {
+      "number": "80",
+      "heading": "N otice of conviction of licensee to be given to owner",
+      "text": ""
+    },
+    {
+      "number": "81",
+      "heading": "T emporary licence pending appeal",
+      "text": ""
+    },
+    {
+      "number": "82",
+      "heading": "P owers of Minister",
+      "text": ""
+    },
+    {
+      "number": "83",
+      "heading": "( Repealed by No. 47 of 1970)",
+      "text": "SCHEDULE-Prescribed fees\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nCHAPTER 167 1 of 1959\n19 of 1959\n35 of 1960\nLIQUOR LICENSING\n45 of 1961\n26 of 1963\nAn Act to make provision for the regulation of the sale and supply of intoxicating 57 of 1964\n69 of 1965\nliquors; and to provide for matters incidental thereto and connected therewith.\n17 of 1967\n6 of 1968\n[16th January, 1959] 53 of 1968\n25 of 1969\n47 of 1970\n62 of 1970\n40 of 1971\n20 of 1972\nGovernment Notices\n304 of 1964\n497 of 1964\n502 of 1964\nStatutory Instrument\n91 of 1965\nAct No.\n53 of 1968\n20 of 1970\n34 of 1970\n47 of 1970\n4 of 1971\n20 of 1972\n7 of 1973\n12 of 1975\n8 of 1976\n11 of 1976\n2 of 1977\n24 of 1977\n6 of 1983\n5 of 1988\n34 of 1990\n6 of 1992\n8 of 1993\n7 of 1994\n13 of 1994\nPART I PRELIMINARYPART I\nPRELIMINARY"
+    },
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Liquor Licensing Act. Short title",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "In this Act, unless the context otherwise requires- Interpretation",
+      "text": "\"appropriate fee\", in relation to any matter, means the fee specified in respect of\nsuch matter in the Schedule;\n\"authorised officer\" means an Administrative Officer or a police officer not below\nthe rank of Sub Inspector;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n\"bar\", in relation to any licensed premises, means any open drinking bar or any\npart of such premises exclusively or mainly used for the sale and\nconsumption of intoxicating liquor;\n\"Board\" means a Provincial Licensing Board established under the provisions of\nsection eighteen;\n\"denatured spirits\" means an intoxicating liquor which by the addition of some\nsubstance has been rendered unfit for use as a beverage;\n\"hotel\" includes a boarding-house and any building or premises used for the Cap. 153\naccommodation of the public in which lodgings are provided and provisions\nare supplied by the keeper or manager thereof, but does not include any\nGovernment rest house nor any school nor any premises exempted from\nthe provisions of the Hotels Act;\n\"intoxicating liquor\" includes any spirits, wine, ale, beer, porter, cider, perry, or Cap. 168\nother potable liquor containing more than three per centum of proof spirits,\nbut does not include traditional beer as defined in the Traditional Beer Act;\n\"licence\" means a licence, other than a provisional licence, granted under the\nprovisions of this Act;\n\"licensed premises\" means any premises, including a railway restaurant car, and a\npassenger vessel in respect of which a licence is in force;\n\"licensee\" means the holder of a licence;\n\"licensing authority\" means a Board or a licensing officer;\n\"licensing officer\", in relation to any District, means the senior Administrative\nOfficer for the time being present at the administrative headquarters of such\nDistrict;\n\"local authority\" means-\n(a) in the area of a municipal council, township council, mine township\nboard or rural council, such council or board;\n(b) in any other area, th"
+    },
+    {
+      "number": "3",
+      "heading": "(1) Nothing in this Act shall apply to- Non-application",
+      "text": "(a) any qualified medical practitioner or registered pharmacist administering or\nselling for purely medical purposes any bona fide medicine containing\nintoxicating liquor;\n(b) any person selling any spirituous or distilled perfume or perfumery, or\nmedicated or methylated or otherwise denatured spirits or any medicated\nwine;\n(c) the sale of intoxicating liquor on any aircraft in flight over the Republic in the\ncourse of a normal passenger service.\n(2) The provisions of this Act shall not apply to-\n(a) the sale of intoxicating liquor by any person acting under the order of a\ncourt or selling any such liquor forfeited to the Government;\n(b) the sale of intoxicating liquor by an executor or administrator or trustee in\nbankruptcy when such liquor forms part of the estate of a deceased or\nbankrupt person who was not a licensee;\n(c) the sale by private arrangement of intoxicating liquor being the residue of a\nreasonable stock held for private consumption by a person about to leave\nthe Republic;\n(d) the sale of intoxicating liquor to members of the Defence Force by any bona\nfide organisation engaged in supplying food or drink solely to such\nmembers and approved as such by the Minister;\n(e) the sale of intoxicating liquor, in any canteen approved for such purpose by\nthe Minister, to members of the Zambia Police Force, Defence Force or\nZambia Prison Service.\n(As amended by S.I. No. 91 of 1965 and 11 of 1976)\nPART II TYPES OF LICENCESPART II\nTYPES OF LICENCES"
+    },
+    {
+      "number": "4",
+      "heading": "(1) The following licences may be granted under the provisions of this Act: Types of licences",
+      "text": "(a) a wholesale liquor licence;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(b) a retail liquor licence;\n(c) a bar licence;\n(d) an hotel liquor licence;\n(e) a private hotel liquor licence;\n(f) a restaurant licence;\n(g) a railway restaurant car licence;\n(h) a passenger vessel licence;\n(i) a n airport licence;\n(j) a theatre licence;\n(k) a temporary licence;\n(l) a club licence.\n(2) Subject to the provisions of this Act, a licence, other than a temporary licence,\nshall continue in force until the 31st December next following the date of issue thereof.\n(As amended by No. 45 of 1961 and Act No. 12 of 1975)"
+    },
+    {
+      "number": "5",
+      "heading": "(1) A wholesale liquor licence shall authorise the sale, on the licensed premises Wholesale liquor",
+      "text": "for resale or consumption off such premises, of intoxicating liquor- licence\n(a) in the case of whisky, brandy or gin, in any quantity of not less than two\ngallons;\n(b) in the case of wine, ale, beer, porter, cider or perry, in any quantity of not\nless than two gallons;\n(c) in the case of any other intoxicating liquor, in any quantity of not less than\ntwo gallons;\nsold and delivered at any one time to any one person:\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nProvided that such licence shall not authorise the sale of intoxicating liquor otherwise\nthan in casks or in sealed bottles or other sealed vessels.\n(2) Subject to the provisions of any other written law, intoxicating liquor may only be\nsold under a wholesale liquor licence between the hours of seven o'clock in the morning\nand six o'clock in the evening.\n(As amended by No. 26 of 1963)"
+    },
+    {
+      "number": "6",
+      "heading": "(1) A retail liquor licence shall authorise the sale, on the licensed premises for Retail liquor licence",
+      "text": "consumption off such premises, of intoxicating liquor in any quantity:\nProvided that such licence shall not authorise the sale of intoxicating liquor otherwise\nthan in casks or in sealed bottles or other sealed vessels.\n(2) Subject to the provisions of any other written law, intoxicating liquor may only be\nsold under a retail liquor licence between the hours of seven o'clock in the morning and\nsix o'clock in the evening."
+    },
+    {
+      "number": "7",
+      "heading": "(1) A bar licence shall authorise the sale on the licensed premises of intoxicating Bar licence",
+      "text": "liquor, in any quantity, to be consumed in or upon such premises.\n(2) Intoxicating liquor may only be sold under a bar licence between the hours of ten\no'clock in the morning and half-past ten o'clock in the evening."
+    },
+    {
+      "number": "8",
+      "heading": "(1) An hotel liquor licence shall authorise the sale, on the premises of an hotel for Hotel liquor licence",
+      "text": "consumption in or upon such premises, of intoxicating liquor in any quantity-\n(a) to persons lodging at the hotel, at any hour of the day or night;\n(b) to persons taking a meal in the hotel, at any hour of the day or night if such\nliquor is consumed at such meal; and\n(c) to any other person, between the hours of ten o'clock in the morning and\nhalf-past eleven o'clock in the evening.\n(2) An hotel liquor licence shall authorise the sale, on the premises of the hotel at\nany hour of the day or night to a person who is lodging at the hotel and who is about to\nmake a journey of not less than thirty-two kilometres, of intoxicating liquor for consumption\nduring such journey by such person or his family or both.\n(As amended by No. 26 of 1963)\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "9",
+      "heading": "(1) A private hotel liquor licence shall authorise the sale, on the premises of an Private hotel liquor",
+      "text": "hotel for consumption in or upon such premises, of intoxicating liquor in any quantity- licence\n(a) to persons lodging at the hotel, at any hour of the day or night;\n(b) to persons taking a meal in the hotel, at any hour of the day or night, if such\nliquor is consumed at such meal.\n(2) A private hotel liquor licence shall authorise the sale, on the premises of a\nprivate hotel at any hour of the day or night to a person who is lodging at the private hotel\nand who is about to make a journey of not less than thirty-two kilometres, of intoxicating\nliquor for consumption during such journey by such guest or his family or both.\n(No. 45 of 1961 as amended by No. 26 of 1963)"
+    },
+    {
+      "number": "10",
+      "heading": "A restaurant licence shall authorise the sale, on the licensed premises, of Restaurant licence",
+      "text": "intoxicating liquor in any quantity to any person taking a meal in such premises at any\nhour of the day or night if such liquor is consumed at such meal."
+    },
+    {
+      "number": "11",
+      "heading": "A railway restaurant car licence shall authorise the sale, on the car so licensed, Railway restaurant car",
+      "text": "of intoxicating liquor in any quantity for consumption on the train at any time in the day or licence\nnight to any bona fide passenger on such train."
+    },
+    {
+      "number": "12",
+      "heading": "(1) A passenger vessel licence shall authorise the sale, on the ship or other Passenger vessel",
+      "text": "vessel so licensed while engaged in carrying passengers, of intoxicating liquor in any licence\nquantity, for consumption on such ship or vessel, at any hour of the day or night.\n(2) Notwithstanding any other provision of this Act, no licence shall be required for\nthe sale on a passenger vessel of intoxicating liquor for consumption on the vessel while\nin the waters or ports of the Republic, if a licence for the sale of intoxicating liquor on such\nvessel granted under the laws of any other Government is in force."
+    },
+    {
+      "number": "13",
+      "heading": "An airport licence shall authorise- Airport licence",
+      "text": "(a) the sale, on premises forming part of an airport or aerodrome for\nconsumption on such premises, of intoxicating liquor in any quantity-\n(i) t o any person arriving at or departing from such airport or\naerodrome by air or lawfully using the same for purposes connected\nwith air travel, at any hour of the day or night; and\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(ii) to any other person, between the hours of six o'clock in the morning Cap. 322\nand half-past ten o'clock in the evening;\n(b) the sale, at any hour of the day or night, of intoxicating liquor for\nconsumption off the premises to any person who is a bona fide passenger\nin transit through or departing from the Republic on an international flight, if\nthe said intoxicating liquor is sold on such part of licensed premises forming\npart of an international aerodrome as is designated for such purpose by the\nMinister responsible for finance pursuant to section one hundred and ninety\nof the Customs and Excise Act, and if it is sold in such quantities and under\nsuch conditions as the Minister responsible for finance, pursuant to the said\nsection of the said Act, may have prescribed.\n(No. 6 of 1968)"
+    },
+    {
+      "number": "14",
+      "heading": "A theatre licence shall authorise the sale, in any cinema or in any other place Theatre licence",
+      "text": "or building of which a portion is used as a place of entertainment, of intoxicating liquor for\nconsumption on the licensed premises to members of the audience, the staff and the\nplayers from one half-hour before to one half-hour after any performance."
+    },
+    {
+      "number": "15",
+      "heading": "A temporary licence shall authorise the sale, on the premises specified in the Temporary licence",
+      "text": "licence, of intoxicating liquor in any quantity for consumption on the premises, at any place\nof recreation or public amusement or other assembly for the period, not exceeding three\ndays, during which such recreation, amusement or assembly continues or for any less\nperiod specified in the licence, subject to such restrictions and conditions as to the hours\nduring which intoxicating liquor may be supplied or otherwise as may be inserted in the\nlicence.\n15A. (1) A club licence shall authorise the sale on club premises of intoxicating Club licence\nliquor in any quantity to the members of the club or their guests for consumption on or off\nthe club premises:\nProvided that the Minister may, by statutory instrument, prescribe the hours during\nwhich intoxicating liquor may be sold on any day of the week.\n(As amended by Act No. 12 of 1975)"
+    },
+    {
+      "number": "16",
+      "heading": "(1) Any person applying for a licence other than a wholesale liquor licence may, Restricted licences",
+      "text": "at his request and subject to the provisions of this Act, be granted a restricted licence\nwhich shall not authorise the sale of spirits but which shall otherwise have the effect of a\nlicence of the type granted.\n(2) Notwithstanding the provisions of subsection (1), no restricted licence other than\na restricted hotel liquor licence, a restricted private hotel liquor licence or a restricted\npassenger vessel licence shall be issued to any person who is not an employee of, or\nauthorised by, a local authority unless the Minister has, by statutory notice, declared that\nthe provisions of the said subsection have been applied to the area in which such\npremises are situate.\n(As amended by No. 45 of 1961 and G.N. No. 304 of 1964)\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n16A. (1) A Board shall not grant a licence where the application for the grant of the Prohibition of the grant\nlicence is in respect of premises within an area declared as a prescribed area for that type of licences\nof licence.\n(2) In this section and in section eighteen 'prescribed area\" means any area\ndeclared by the Minister under section seventy-four to be a prescribed area for one or\nmore types of licences mentioned in paragraphs (a) to (k), both inclusive, of subsection (1)\nof section four:\nProvided that where the Minister has given the Board a direction in writing to\nconsider such an application, the Board may consider the application and grant a licence.\n(As amended by Act 4 of 1971 and 20 of 1972)\nPART III ESTABLISHMENT AND POWERS OF LICENSING BOARDSPART III\nESTABLISHMENT AND POWERS OF LICENSING BOARDS"
+    },
+    {
+      "number": "17",
+      "heading": "(1) Subject to the provisions of this Act and upon payment of the appropriate Grant and renewal of",
+      "text": "fees, licences may be granted, renewed, transferred or removed- licences\n(a) in the case of a passenger vessel licence, by the licensing officer of the\nDistrict in which any port at which the vessel concerned calls is situate;\n(b) in the case of a temporary licence, by the licensing officer of the District in\nwhich the premises concerned are situate;\n(c) in the case of a railway restaurant car licence, by the Board of the Central\nProvince; and\n(d) in any other case, by the Board of the Province in which the premises\nconcerned are situate.\n(2) The Minister may in any case or class of case, by Gazette notice, remit the\nwhole or any part of any appropriate fee due under this Act.\n17A. (1) A Board shall not grant a licence where the application for the grant of the Prohibition of grant of\nlicence is in respect of premises within an area declared as a prescribed area for that type licences\nof licence:\nProvided that where the Minister has given the Board a direction in writing to\nconsider such an application, the Board may consider the application and grant a licence.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(2) In this section, \"prescribed area\" means any area declared by the Minister under\nsection eighty-two to be a prescribed area for one or more types of licences mentioned in\nparagraphs (a) to (k), both inclusive, of subsection (1) of section four.\n(No. 40 of 1971 as amended by No. 20 of 1972)"
+    },
+    {
+      "number": "18",
+      "heading": "(1) There shall be established for each Province a Provincial Licensing Board Establishment of",
+      "text": "consisting of such persons, not exceeding five in number, as the Minister may from time to Boards and procedure\ntime, by Gazette notice, appoint. at meetings\n(2) The Minister may nominate one of the members of a Board to be the chairman\nthereof, but in the absence of such chairman from any meeting of a Board the members\npresent at such meeting shall choose a chairman for that meeting from their number.\n(3) Three members of a Board shall form a quorum and the chairman at any\nmeeting shall have a casting as well as a deliberative vote.\n(4) The Minister may appoint a person to be the secretary to a Board.\n(5) The chairman at any meeting of a Board is hereby empowered to administer any\noath required by any of the provisions of this Act relating to the giving of evidence before\nsuch Board."
+    },
+    {
+      "number": "19",
+      "heading": "(1) No licence shall be granted to- Restrictions upon",
+      "text": "grant of licences\n(a) any person who is under the age of twenty-one years; or\n(b) a sheriff's officer or any other officer entrusted with the execution of the\nlegal process of any court; or\n(c) any person who has been convicted of forging a licence or of making use of\na forged licence knowing it to have been forged; or\n(d) any person who has been convicted, whether under this Act or otherwise, of\npermitting to be kept, or keeping, as a brothel premises for which at the\ntime of such conviction he held a licence; or\n(e) any person who has been disqualified by a court from holding a licence\nwhile such disqualification remains in force.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(2) No licence shall, without the consent of the Minister, be granted or transferred\nto-\n(a) any person who does not reside wihin the Republic; or\n(b) any person whose licence has been forfeited until after the expiration of five\nyears after the date of such forfeiture; or\n(c) any person who has been convicted of an offence relating to the sale of\nintoxicating liquor without a licence until after the expiration of five years\nafter the date of such conviction; or\n(d) any person who has at any time been sentenced to imprisonment for any\nperiod exceeding six months.\n(3) No licence shall be granted or renewed to a company, society, partnership or\nother association of persons:\nProvided that nothing in this subsection shall be deemed to prevent the grant or\nrenewal of any licence to a person in the employ of such company, society, partnership or\nassociation, and if any such employee to whom any such licence was granted or renewed\nceases to be employed in a position in which he is required to hold such licence, his\nemployer may take such steps for the transfer of the licence to some other employee, as a\nlicensee may take under the provisions of this Act for the transfer of his licence to some\nother person.\n(4) No temporary licence shall be issued in res"
+    },
+    {
+      "number": "20",
+      "heading": "(1) Every application for the grant of a licence shall be made in the prescribed Application for grant or",
+      "text": "form to the appropriate licensing authority. renewal of licence\n(2) Every application for the renewal of a licence shall be made-\n(a) on or before the 30th October in each year; and\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(b) to the licensing authority which granted the original licence; and\n(c) in the form prescribed, signed by the licensee concerned:\nProvided that a licensing authority may in its discretion consider an application for\nthe renewal of a licence made after the 30th October where the licensing authority is\nsatisfied that the delay in submitting the application was not due to the wilful or negligent\ndefault of the applicant.\n(3) Any person making or causing to be made any false statement in any application\nmade under the provisions of this section shall be guilty of an offence and shall be liable to\na fine not exceeding three thousand penalty units.\n(4) A Board shall not consider an application for the grant or renewal of a licence,\nother than a railway resturant car licence, unless it is satisfied that the applicant has given\nat least twenty-one days' notice of his intention to make such application.\n(5) A Board shall not consider an application for the grant of an on-licence unless\nthe applicant has, not less than fourteen days before the application is made, lodged with\nthe secretary to the Board a plan of the premises in respect of which the application is\nmade, together with a certificate from the local authority that the said plans have received\nits approval.\n(6) The notice referred to in subsection (4) shall be made in the prescribed form,\nshall include an address at which service of notices and other documents may be made,\nand shall be published in the Gazette and in two consecutive issues of a newspaper\ncirculating in the area where the premises concerned are situate, and the period of\ntwenty-one days mentioned in subsection (4) shall be calculated from the date of the last\npublication of su"
+    },
+    {
+      "number": "21",
+      "heading": "Any person who intends to oppose an application for the grant, renewal, Notice of intention to",
+      "text": "transfer or removal of a licence shall give notice in writing of his intention to the applicant object\nand to the licensing authority concerned, specifying in general terms the grounds of his\nopposition, and including an address at which service of notices and other documents\nmay be made, not later than fourteen days after the last publication of the notice referred\nto in subsection (4) of section twenty, and unless such notice of intention has been so\ngiven the licensing authority shall not entertain such objection.\n(As amended by No. 35 of 1960 and No. 45 of 1961)\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "22",
+      "heading": "(1) Subject to the provisions of section nineteen- Grounds for refusal of",
+      "text": "licences\n(a) a railway restaurant car licence or a passenger vessel licence shall be\ngranted or renewed as of right upon due application being made; and\n(b) the grant of a temporary licence shall be in the uncontrolled discretion of\nthe licensing officer concerned, and no appeal, whether under this Act or\notherwise, shall lie from a refusal to issue such licence.\n(2) A Board may refuse to grant or renew any licence, other than a licence\nmentioned in subsection (1), upon any of the following grounds:\n(a) that the premises concerned do not comply with the provisions of any law\nfor the time being in force; or\n(b) that the grant or renewal of the licence would conflict with any approved or\nproposed town plan or zoning area; or\n(c) that the grant or renewal of such licence is calculated to cause nuisance or\nannoyance to persons residing in the neighbourhood of the premises\nconcerned; or\n(d) that the applicant is not a fit and proper person to hold a licence;\n(e) in the case of a bar license-\n(i) t hat, upon evidence given by the police, the Board is satisfied that\nthe granting or renewal of such licence would be detrimental to\npublic order; or\n(ii) where the application is for a new licence, that the applicant has not\nsatisfied the Board that, having regard to all the circumstances of\nthe case including the number of existing on-licences in the area\nconcerned, there is a public need for such licence; or\n(f) in the case of an hotel liquor licence or a private hotel liquor licence- Cap. 153\n(i) t hat the hotel is not licensed under the provisions of the Hotels Act;\n(ii) that the premises in respect of which the application is made do not\ninclude at least ten bedrooms for the accommodation of guests\nwhere such premises are situate within a municipality or a township,\nor at least five such bedrooms where such premises are situate\nelsewhere; or\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(g) in the case of a restaurant licence-"
+    },
+    {
+      "number": "23",
+      "heading": "(1) Where a Board is satisfied, on application made by any person interested in Provisional grant of",
+      "text": "any premises about to be constructed or in the course of construction for the purposes of licence\nbeing used as licensed premises, that such premises would, if completed in accordance\nwith the plans deposited under this Act, be such that the Board would have granted a\nlicence of the type required in respect of such premises, the Board may make a\nprovisional grant of such licence for such premises.\n(2) The provisions of this section shall not apply to a railway restaurant car.\n(3) The provisional grant of a licence-\n(a) shall have effect for a period of twelve months from the date upon which\nsuch grant was made; and\n(b) shall not be valid until the Board concerned has declared it final.\n(4) A Board shall, when an application for that purpose is made to it within the\nperiod of twelve months referred to in paragraph (a) of subsection (3), declare such grant\nfinal on being satisfied-\n(a) that the premises have been completed in accordance with the plans\ndeposited; and\n(b) that the holder of the provisional licence is not disqualified by this or any\nother written law from holding a licence.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(5) No fee shall be payable upon the provisional grant of a licence but the\nappropriate fee for the licence shall be paid upon the declaration of such provisional grant\nas final.\n(As amended by No. 26 of 1963)"
+    },
+    {
+      "number": "24",
+      "heading": "Where on an application the Board has decided to grant or renew a licence Application to lapse in",
+      "text": "and the appropriate fee for such grant or renewal has not been paid within thirty days from certain circumstances\nthe date upon which the Board has notified the applicant of its decision, such application\nshall lapse.\n(No. 35 of 1960)"
+    },
+    {
+      "number": "25",
+      "heading": "(1) For the purposes of this Act, the renewal of a licence shall mean renewal Renewal of licences",
+      "text": "subject to the same conditions as the original licence and subject to any further conditions\nwhich may be imposed under the provisions of this Act at the time of such renewal.\n(2) On any application for the renewal of an on-licence, the Board concerned may\nrequire a plan of the premises to be deposited with the secretary to the Board together\nwith a certificate from the local authority that the said plan has received its approval.\n(3) Evidence given on an application for the renewal of a licence shall be given on\noath."
+    },
+    {
+      "number": "26",
+      "heading": "A licensing authority shall, at the request of an applicant other than an Notification of grounds",
+      "text": "applicant for a temporary licence, inform such applicant of the grounds on which the grant of refusal, etc.\nor renewal of a licence has been refused or conditions have been imposed."
+    },
+    {
+      "number": "27",
+      "heading": "(1) A licensing officer may, in special circumstances and upon payment of the Extension of permitted",
+      "text": "appropriate fee, grant an extension of the hours during which intoxicating liquor may be hours\nsold on the premises of a licence holder.\n(2) No extension shall be granted under the provisions of this section in respect of\nmore than one period of twenty-four hours at any one time.\nPART IV TRANSFER AND REMOVAL OF LICENCESPART IV\nTRANSFER AND REMOVAL OF LICENCES"
+    },
+    {
+      "number": "28",
+      "heading": "(1) For the purposes of this Act, the transfer of a licence means the substitution, Transfer of licences",
+      "text": "upon payment of the appropriate fee, of some other person as licensee of premises in\nplace of the person who holds or has held a licence for such premises.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(2) A person applying for the transfer of a licence shall, not less than fourteen days\nbefore such application is made, give notice in writing of his intention to make such\napplication to-\n(a) the licensee where such application is not made by such licensee; and\n(b) the officer in charge of police in the area in which the licensed premises are\nsituate.\n(3) The transfer of a licence shall not be granted except in the following cases and\nto the following persons, that is to say:\n(a) where the licensee has died, to his representative or the new tenant or\noccupier of the premises;\n(b) where the licensee is incapable, through illness or other infirmity, of carrying\non business under the licence, to his assigns or the new tenant or occupier\nof the premises;\n(c) where the licensee is adjudged bankrupt, or a trustee is appointed in\npursuance of a composition scheme to administer the property or manage\nthe business of the licensee, or a trustee is appointed under a deed of\narrangement for the benefit of the creditors of the licensee, to his trustee or\nthe new tenant or occupier of the premises;\n(d) where the licensee has, or his representatives have, given up occupation of\nthe licensed premises, to the new tenant or occupier of such premises or to\nthe person to whom the representatives or assigns have, for sale or\notherwise, bona fide, conveyed or made over the interest in the premises;\n(e) where the occupier of the licensed premises, being about to quit them, has\nwilfully omitted or neglected to apply for a renewal of the licence, to the new\ntenant or occupier of such premises;\n(f) w here the owner of such licensed premises or some person on his behalf\nhas been granted a protection order under the provisions of section thirty,\nto"
+    },
+    {
+      "number": "29",
+      "heading": "(1) Where a licensee dies, or is adjudged bankrupt, or a trustee is appointed in Power to carry on",
+      "text": "pursuance of a composition or scheme to administer the property or manage the business business after death,\nof a licensee, or a trustee is appointed under a deed of arrangement for the benefit of the etc., of licensee\ncreditors of a licensee, section forty shall not prohibit the sale of intoxicating liquor by the\npersonal representatives or the trustee, as the case may be, during a period of three\nmonths after such death, adjudication or appointment:\nProvided that this section shall not exempt from the prohibition imposed by the said\nsection a sale that would not have been authorised if the licence had been transferred to\nthe representatives or the trustee.\n(2) Where an application is made for a transfer of a licence affected by the\nprovisions of subsection (1) within the period of three months mentioned in subsection (1)\nand the licensing authority adjourns consideration of the application, the said period of\nthree months shall, if necessary, be extended to the date of the hearing of the application."
+    },
+    {
+      "number": "30",
+      "heading": "(1) Where a person proposes to apply for the transfer of a licence to him, the Protection order",
+      "text": "licensing officer of the District in which the licensed premises are situate may, upon the\napplication of such person and if such officer is satisfied that the applicant is a person to\nwhom the transfer of the licence could be granted under the provisions of this Act, grant\nhim authority (hereinafter referred to as a protection order) to sell intoxicating liquor as if\nhe were the holder of the licence concerned.\n(2) Where-\n(a) a licence is forfeited under any of the provisions of this Act; or\n(b) a licence holder becomes disqualified under the provisions of section\nnineteen for holding a licence;\na licensing officer may grant a protection order to any owner of the licensed premises or to\nany other person authorised by such owner, notwithstanding the forfeiture or the previous\nlicence holder's disqualification:\nProvided that a protection order shall not be granted to the person whose licence\nhas been forfeited or who has become disqualified.\n(3) The provisions of this Act relating to the regulation, government or control of\nlicensees shall, while a protection order is in force, apply to the person to whom the order\nhas been granted as they apply to a licensee.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(4) A protection order shall remain in force for a period of three months:\nProvided that, where application is made for the transfer of the licence affected\nwithin the said period of three months and the licensing authority adjourns consideration of\nsuch application, the said period shall, if necessary, be extended to the date of the hearing\nof such application.\n(5) A licensing officer to whom application is made for a protection order may\nexamine on oath the applicant or any person giving evidence before him.\n(6) A protection order shall not be granted unless the applicant has, not less than\nforty-eight hours before the application, given notice in writing to the officer in charge of\npolice in the area in which the lic"
+    },
+    {
+      "number": "31",
+      "heading": "(1) For the purposes of this Act, the removal of a licence means taking the Removal of licence",
+      "text": "licence from the premises for which it is in force and endorsing it for other premises within\nthe same Province.\n(2) An application for the removal of a licence shall be made in the prescribed form\nby the person wishing to hold the licence after removal, and the provisions of section\nnineteen, subsections (3) to (6), inclusive, of section twenty, and section twenty-two shall\napply to any such application as they apply to an application for the grant or renewal of a\nlicence.\n(3) Without prejudice to any other power of a Board to refuse to grant the removal of\na licence, a Board shall not grant any such removal unless it is satisfied that no objection\nis made thereto by the person or persons owning and having control of the business\ncarried on in the licensed premises from which it is sought to remove such licence or by\nthe licensee.\n(4) There shall be payable, upon the grant of a removal of a licence, the appropriate\nfee.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(5) A Board may make a provisional grant of removal of a licence to premises about\nto be constructed or in the course of construction, and the provisions of section\ntwenty-three shall apply to such a provisional grant as they apply to the provisional grant\nof a licence.\n(6) The provisions of this section shall not apply to a railway restaurant car licence,\na passenger vessel licence or to a temporary licence.\nPART V LICENCE REGISTERSPART V\nLICENCE REGISTERS"
+    },
+    {
+      "number": "32",
+      "heading": "(1) A licensing authority shall cause to be kept a register of licences, in the Register of licences",
+      "text": "prescribed form, containing particulars of all licences granted by the authority, the\npremises for which they were granted, the names of the owners of those premises and the\nnames of the licensees.\n(2) A licensing authority shall cause to be entered in the register of licences notice\nof any conviction of any licensee entered in such register of an offence committed by him\nas such, including any offence against the provisions of any written law relating to the\nadulteration of drink, and the clerk of the court by which any such licensee is so convicted\nshall forthwith send notice of such conviction to the licensing authority concerned."
+    },
+    {
+      "number": "33",
+      "heading": "(1) Every person applying for the grant, renewal or removal of a licence shall Registration of owner",
+      "text": "state the name of the person for the time being entitled to receive, either on his own\naccount or as mortgagee or other encumbrancer in possession, the rack-rent of the\npremises in respect of which the application is made, and the licensing authority shall\ncause such name to be entered in the register as the name of the owner of such premises\nand such name shall be endorsed on the licence.\n(2) A licensing authority shall also, on the application of any person whose name is\nnot entered under subsection (1) in the register, and who has an estate or interest in the\npremises concerned, whether as owner, lessee or mortgagee, prior or paramount to that\nof the occupier, enter such person's name in the register as an owner of the premises:\nProvided that, where any such estate or interest is vested in two or more persons\njointly, one only of such persons shall be registered as representing that estate or interest.\n(3) Any reference in this Act to the registered owner of the premises shall be\nconstrued as a reference to any person whose name is for the time being entered in the\nregister under the provisions of this section.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "34",
+      "heading": "(1) Any register shall be received in evidence of the matters required by this or Register to be",
+      "text": "any other written law to be entered therein. evidence\n(2) Any document purporting to be certified by a licensing officer or by the secretary\nto a Board to be a true copy of an entry in a register shall be received as evidence of the\nmatters contained in such entry."
+    },
+    {
+      "number": "35",
+      "heading": "On any application for the grant, renewal, transfer or removal of a licence, the Regard to be had to",
+      "text": "licensing authority concerned shall have regard to any entries in the register relating to the register\nperson by whom or the premises for which the licence is to be held."
+    },
+    {
+      "number": "36",
+      "heading": "Any register shall be open to inspection by members of the public at all Inspection of register",
+      "text": "reasonable times upon payment of the appropriate fee:\nProvided that no public officer shall be required to pay any fee for inspection of a\nregister.\nPART VI APPEALSPART VI\nAPPEALS"
+    },
+    {
+      "number": "37",
+      "heading": "(1) The Minister shall appoint an Appeal Tribunal consisting of a chairman and Establishment of",
+      "text": "two other members for the purpose of hearing appeals under the provisions of this Act. Tribunal\n(2) The Minister may appoint a person to be secretary of the Tribunal.\n(3) The chairman of the Tribunal is hereby empowered to administer any oath\nrequired by any of the provisions of this Act relating to the giving of evidence before the\nTribunal.\n(As amended by S.I. No. 91 of 1965)"
+    },
+    {
+      "number": "38",
+      "heading": "(1) Any person who, being an applicant for- Appeal to Tribunal",
+      "text": "(a) the grant of a licence, other than a temporary licence; or\n(b) the provisional grant of a licence; or\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(c) the renewal, transfer or removal of a licence;\nis aggrieved by the decision of a licensing authority thereon, by any condition attached to\nthe grant, renewal, transfer or removal of a licence, or by any order made under the\nprovisions of section seventy-two, may appeal to the Tribunal.\n(2) Notice of any appeal under the provisions of this section shall be given to the\nTribunal within thirty days of the decision appealed against:\nProvided that the chairman of the Tribunal may in his discretion extend the time for\ngiving notice of appeal.\n(3) Upon the entry of any appeal under the provisions of this section, the appellant\nshall pay the appropriate fee and a notice of appeal shall not be deemed to have been\ngiven to the Tribunal until such fee has been received by the secretary to the Tribunal.\n(4) In any appeal under the provisions of this section, the parties thereto shall be the\nappellant, any person who has validly taken objection to the original application and who\nwishes to appear on such appeal, and the licensing authority concerned, and no other\nperson shall be entitled to be heard on such appeal.\n(5) An appellant in any appeal under the provisions of this section shall serve on all\npersons who, by virtue of subsection (4), may be respondents to such appeal copies of his\nnotice and grounds of appeal.\n(6) Any party to an appeal before the Tribunal may appear in person or by counsel,\nand a Board may appear by counsel or by a member of the Board nominated for such\npurpose by the chairman of the Board.\n(7) Where a licensing authority is a party to an appeal before the Tribunal, such\nauthority may, in lieu of appearing before the Tribunal, send to the secretary thereof and\nto the appellant a statement of the reasons why such authority considers that the appeal\nshould"
+    },
+    {
+      "number": "39",
+      "heading": "(1) Any party to an appeal who is dissatisfied with the decision of the Tribunal Appeal to High Court",
+      "text": "may appeal to the High Court on a question of law but not on a question of fact, and notice\nof any such appeal shall be given to the High Court within thirty days of the decision of the\nTribunal.\n(2) On the hearing of any appeal under the provisions of this section, the High Court\nmay allow the appeal and direct the licensing authority concerned accordingly, or may\ndismiss the appeal, or may refer the matter back to the Tribunal or the licensing authority\nfor rehearing in accordance with the directions of the High Court.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nPART VII GENERAL PROVISIONS REGULATING SALE OF INTOXICATING\nLIQUORPART VII\nGENERAL PROVISIONS REGULATING SALE OF INTOXICATING LIQUOR"
+    },
+    {
+      "number": "40",
+      "heading": "(1) Subject to the provisions of this Act, if any person- Selling liquor without",
+      "text": "licence\n(a) sells any intoxicating liquor without holding a licence authorising him to sell\nsuch liquor; or\n(b) being a licensee, sells any intoxicating liquor except in the licensed\npremises concerned;\nhe shall be guilty of an offence.\n(2) A person convicted of an offence under the provisions of subsection (1) shall be\nliable-\n(a) on a first conviction, to a fine not exceeding three thousand penalty units or\nto imprisonment for a period not exceeding three months, or to both.\n(b) on a second conviction, to a fine not exceeding six thousand penalty units\nor to imprisonment for a period not exceeding six months, or to both;\n(c) on a third or subsequent conviction, to a fine not exceeding six thousand\npenalty units or to imprisonment for a period not exceeding twelve months,\nor to both.\n(3) A licensee shall, on his second or subsequent conviction under the provisions of\nthis section, forfeit his licence.\n(4) The court by which a person is convicted of an offence under the provisions of\nthis section committed after a previous conviction of such an offence may order him to be\ndisqualified for holding a licence-\n(a) on a second conviction, for a period not exceeding five years;\n(b) on a third or subsequent conviction, for any term of years or for life.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(5) The court by which a licensee is convicted of an offence under the provisions of\nthis section may declare all intoxicating liquor found in his possession, and the vessels\ncontaining it, to be forfeited.\n(As amended by Act No. 13 of 1994)"
+    },
+    {
+      "number": "41",
+      "heading": "(1) Subject to the provisions of this Act, no person shall- Prohibition of sale,",
+      "text": "etc., of liquor except\nduring permitted hours\n(a) except during the permitted hours, himself, or by his servant or agent, sell\nor supply to any person in any licensed premises any intoxicating liquor to\nbe consumed either on or off the licensed premises; or\n(b) except during the permitted hours, consume in, or take from, or permit any\nperson to consume in or take from, any such premises any intoxicating\nliquor:\nProvided that intoxicating liquor sold during the per-mitted hours may\nbe consumed on the licensed premises up to-\n(i) f ifteen minutes after the conclusion of the permitted hours in the\ncase of intoxicating liquor sold under a bar licence; and\n(ii) half an hour after the conclusion of the permitted hours in the case\nof intoxicating liquor sold under an hotel liquor licence.\n(2) Nothing in subsection (1) shall prohibit or restrict-\n(a) the sale or supply to, or consumption by, any person of intoxicating liquor in\nany premises where he is residing, or the supply of intoxicating liquor for\nconsumption on the premises of a licensed hotel or a licensed private hotel\nto any private friends of any person lodging therein and bona fide\nentertained by him at his own expense, or the consumption of intoxicating\nliquor by persons so supplied;\n(b) the supply of intoxicating liquor for consumption on licensed premises to\nany private friends of the licensee bona fide entertained by him at his own\nexpense, or the consumption of intoxicating liquor by persons so supplied.\n(3) If any person contravenes the provisions of this section, he shall be guilty of an\noffence and shall be liable to a fine not exceeding one thousand five hundred penalty\nunits.\n(As amended by No. 45 of 1961 and Act No. 13 of 1994)\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "42",
+      "heading": "If the holder of a restricted licence has in his possession on the licensed Liquor of kind not",
+      "text": "premises any spirits without reasonable excuse, he shall be guilty of an offence and shall authorised by licence\nbe liable, on a first conviction, to a fine not exceeding three hundred penalty units and, on not to be kept on\npremises\na subsequent conviction, to a fine not exceeding six hundred penalty units, and in either\ncase shall forfeit such spirits and the vessels containing it."
+    },
+    {
+      "number": "43",
+      "heading": "(1) A person shall not, in pursuance of a sale by him of intoxicating liquor, Delivery of liquor",
+      "text": "deliver that liquor, either himself or by his servant or agent, from any van, barrow, basket\nor other vehicle or receptacle unless the person delivering the liquor carries a delivery\nbook or invoice in which there has been entered, before the liquor was despatched, the\nquantity, description and price of the liquor and the name and address of the person to\nwhom it was to be supplied.\n(2) A person shall not, himself or by his servant or agent-\n(a) carry in any van, barrow, basket or other vehicle or receptacle while in use\nfor the delivery of intoxicating liquor in pursuance of a sale by that person\nany intoxicating liquor that is not entered in a delivery book or invoice under\nthe provisions of subsection (1);\n(b) deliver in pursuance of a sale by him any intoxicating liquor at any address\nnot entered as aforesaid.\n(3) A person shall not, by himself or by his servant or agent, refuse to allow a police\nofficer to examine any van, barrow, basket or other vehicle or receptacle while in use for\nthe distribution or delivery of any intoxicating liquor or to examine any delivery book or\ninvoice carried under the provisions of subsection (1).\n(4) A licensee shall not be guilty of an offence under this section committed by his\nservant or agent if he proves that such offence was committed without his knowledge or\nconsent.\n(5) Nothing in this section shall prohibit or restrict the delivery of intoxicating liquor to\na trader for the purposes of his trade.\n(6) Any person guilty of an offence under the provisions of this section shall be liable\nto a fine not exceeding nine hundred penalty units.\n(As amended by Act No. 13 of 1994)"
+    },
+    {
+      "number": "44",
+      "heading": "(1) Where a person, having purchased intoxicating liquor from premises Breach of terms of",
+      "text": "licensed under an off-licence, drinks such liquor- off-licence\n(a) in the licensed premises; or\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(b) in premises adjoining or near the licensed premises that belong to the\nlicence holder or are under his control or used by his permission; or\n(c) on a highway adjoining such premises;\nthen, if the drinking is with the privity of the licensee, such licensee shall be guilty of an\noffence.\n(2) If the holder of an off-licence with intent to evade the terms and conditions of or\nattaching to such licence, takes, or suffers any person to take, any intoxicating liquor from\nthe licensed premises for the purpose of its being sold on his account or for his benefit or\nprofit, he shall be guilty of an offence.\n(3) For the purposes of subsection (2), if liquor is taken for the purpose of its being\ndrunk in any house, tent, shed or other building belonging to the licensee, or hired, used\nor occupied by him, the burden of proving that he did not intend to evade the terms and\nconditions of or attaching to his licence shall lie upon him.\n(4) Any person guilty of an offence under the provisions of this section shall be\nliable, on a first conviction, to a fine not exceeding three hundred penalty units and, upon\na subsequent conviction, to a fine not exceeding six hundred penalty units.\n(As amended by Act No. 13 of 1994)"
+    },
+    {
+      "number": "45",
+      "heading": "(1) If any person who is under the age of eighteen years or whose licence has Persons under",
+      "text": "been forfeited under section seventy is employed in any bar of licensed premises at a time eighteen years not to\nwhen the bar is open for the sale or consumption of intoxicating liquor, the licensee shall be employed in bars\nbe guilty of an offence and shall be liable, on a first conviction, to a fine not exceeding one\nhundred and fifty penalty units and, on a subsequent conviction, to a fine not exceeding\nsix hundred penalty units.\n(2) For the purposes of this section, a person shall not be deemed to be employed\nin a bar by reason only that in the course of his employment in some other part of the\npremises he enters the bar for the purpose of giving or receiving any message or of\npassing to or from some other part of the premises, not being a bar, being a part to or\nfrom which there is no other convenient means of access or egress.\n(3) For the purposes of this section, a person shall be deemed to be employed by\nthe person for whom he works notwithstanding that he receives no wages for his work.\n(4) Where in any proceedings under the provisions of this section it is alleged that a\nperson was at any time under the age of eighteen years, and he appears to the court then\nto have been under such age, for the purposes of such proceedings he shall be deemed\nto have been then under that age unless the contrary be shown.\n(As amended by No. 17 of 1967 and Act No. 13 of 1994)\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "46",
+      "heading": "(1) A licensee shall not knowingly sell or deliver, or allow any other person to Restriction on sale,",
+      "text": "sell or deliver, intoxicating liquor to a person under the age of fourteen years: etc., of liquor to\nchildren\nProvided that this subsection shall not prohibit the sale or delivery of intoxicating\nliquor to any such person-\n(a) at the residence or working place of the purchaser; or\n(b) in sealed vessels in quantities not less than 1.75 reputed litres for\nconsumption off the premises only.\n(2) A person shall not knowingly send any person under the age of fourteen years to\nany place where intoxicating liquor is sold or delivered in pursuance of a sale for the\npurpose of obtaining intoxicating liquor except for the purpose of obtaining it in sealed\nvessels in quantities not less than one reputed pint for consumption off the premises only.\n(3) This section shall not prohibit a licensee from delivering intoxicating liquor to a\nperson under the age of fourteen years who is a member of his family or his servant or\napprentice and is employed as a messenger to deliver intoxicating liquor, or the sending of\nsuch a person to the licensed premises to obtain intoxicating liquor.\n(4) If any person contravenes any of the provisions of this section, he shall be guilty\nof an offence and shall be liable, on a first conviction, to a fine not exceeding sixty penalty\nunits and on a subsequent conviction, to a fine not exceeding one hundred and fifty\npenalty units.\n(As amended by Act No. 13 of 1994)"
+    },
+    {
+      "number": "47",
+      "heading": "(1) A licensee shall not knowingly sell, or allow any other person to sell, and a Restriction on sale of",
+      "text": "servant of a licensee shall not knowingly sell, intoxicating liquor to be consumed on the liquor to young\npremises to a person under the age of eighteen years. persons for\nconsumption on\npremises\n(2) A person under the age of eighteen years shall not buy or attempt to buy in\nlicensed premises intoxicating liquor to be consumed by him on the premises.\n(3) Nothing in subsections (1) and (2) shall prohibit the sale to or purchase by a\nperson who has attained the age of sixteen years of intoxicating liquor, other than spirits,\nfor consumption at a meal in a part of the premises usually set apart for the service of\nmeals that is not a bar.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(4) A licensee, or any servant of a licensee, shall not knowingly-\n(a) allow any person under the age of eighteen years to consume intoxicating\nliquor in any bar in the premises;\n(b) allow any person under the age of sixteen years to enter or remain in any\nsuch bar:\nProvided that this paragraph shall not apply to any child under the Cap. 168\napparent age of three years, and actually carried by some other person,\nwho is in any place where traditional beer, as defined in the Traditional Beer\nAct, is sold.\n(5) No person shall buy or attempt to buy intoxicating liquor for consumption in a bar\nin any licensed premises by a person under the age of eighteen years.\n(6) If any person contravenes the provisions of this section, he shall be guilty of an\noffence and shall be liable, on a first conviction, to a fine not exceeding thirty penalty units\nand, on a subsequent conviction, to a fine not exceeding sixty penalty units.\n(As amended by No. 45 of 1961 and Act No. 13 of 1994)"
+    },
+    {
+      "number": "48",
+      "heading": "(1) No person shall- Restriction on credit",
+      "text": "sales\n(a) himself or by his servant or agent, sell in any licensed premises intoxicating\nliquor to be consumed on the premises; or\n(b) consume intoxicating liquor on any such premises;\nunless it is paid for before or at the time when it is sold:\nProvided that-\n(i) i f the liquor is sold or consumed at a meal supplied at the same time and is\nconsumed with the meal, and the liquor is paid for together with the meal;\nor\n(ii) if the liquor is supplied to the order of any person actually boarding or\nresiding in the premises;\nno offence shall be committed under this subsection.\n(2) If any person contravenes the provisions of this section, he shall be guilty of an\noffence and shall be liable to a fine not exceeding nine hundred penalty units.\n(As amended by Act No. 13 of 1994)\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "49",
+      "heading": "(1) If any person makes or uses, or allows to be made or used, any internal Communication",
+      "text": "communication between licensed premises and any premises, other than licensed between licensed\npremises, used as a place of public resort or as a refreshment house, he shall be guilty of premises and places\nof public resort\nan offence, and shall be guilty of a further offence for every day on which the\ncommunication remains open.\n(2) A person guilty of an offence under the provisions of this section shall be liable\nto a fine not exceeding three hundred penalty units and, if he is a licensee, he shall on\nconviction forfeit his licence.\n(As amended by Act No. 13 of 1994)"
+    },
+    {
+      "number": "50",
+      "heading": "(1) No alteration shall be made to premises for which an on-licence is in force if Consent of Board for",
+      "text": "the alteration- certain alterations\n(a) gives increased facilities for drinking; or\n(b) conceals from observation any part of the premises used for drinking; or\n(c) affects the communication between the part of the premises where\nintoxicating liquor is sold and any other part of the premises or any street or\nother public way;\nunless the Board of the Province in which such premises are situate has consented in\nwriting to such alteration and the appropriate fee has been paid by the licensee or such\nalteration is required by order of some lawful authority.\n(2) Before considering an application for consent under the provisions of this\nsection, a Board may require plans of the proposed alteration to be deposited with the\nsecretary to the Board at such time as it may determine, together with a certificate from\nthe local authority that the said plans have received its approval.\n(3) Where any alteration is made to licensed premises in contravention of the\nprovisions of subsection (1), the licensee shall be guilty of an offence and shall be liable to\na fine not exceeding three hundred penalty units, and the court by whom such licensee is\nconvicted may declare the licence to be forfeited or direct that within a time fixed by the\norder the premises shall be restored to its original condition, and any person who fails to\ncomply with any such order shall be guilty of an offence under this section.\n(As amended by Act No. 13 of 1994)"
+    },
+    {
+      "number": "51",
+      "heading": "(1) Every licensee, other than the holder of a temporary licence, shall- Particulars to be",
+      "text": "affixed to premises,\netc.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(a) keep painted on or affixed to the licensed premises in a conspicuous place\nhis name and after the name the word \"licensed\" followed by words\nsufficient to express the business for which the licence is granted; and\n(b) display, or cause to be displayed, his licence in a prominent position in the\nlicensed premises.\n(2) A person shall not have on his premises words or letters importing that he is\nauthorised, as licensee, to sell any intoxicating liquor that he is not authorised to sell.\n(3) If any person contravenes the provisions of this section, he shall be liable, on a\nfirst conviction, to a fine not exceeding three hundred penalty units and, on a subsequent\nconviction to a fine not, exceeding one hundred and sixty penalty units.\n(As amended by Act No. 13 of 1994)"
+    },
+    {
+      "number": "52",
+      "heading": "(1) Any licensee who permits drunkenness or any violent, quarrelsome or Licensee not to permit",
+      "text": "riotous conduct to take place on the licensed premises shall be guilty of an offence. drunkenness, etc.\n(2) If a licensee is charged under subsection (1) with permitting drunkenness, and it\nis proved that any person was drunk in the licensed premises, the burden of proving that\nthe licensee and the persons employed by him took all reasonable steps for preventing\ndrunkenness in the premises shall lie upon him.\n(3) Any licensee who sells intoxicating liquor to a drunken person shall be guilty of\nan offence.\n(4) Any person guilty of an offence under the provisions of this section shall be\nliable, on a first conviction, to a fine not exceeding six hundred penalty units and, on a\nsubsequent conviction, to a fine not exceeding one thousand five hundred penalty units\nand to forfeiture of his licence.\n(As amended by Act No. 13 of 1994)"
+    },
+    {
+      "number": "53",
+      "heading": "(1) Any person who, in licensed premises, procures or attempts to procure any Procuring drink for",
+      "text": "intoxicating liquor for consumption by a drunken person shall be guilty of an offence. drunken persons\n(2) Any person who aids a drunken person in obtaining or consuming intoxicating\nliquor in licensed premises shall be guilty of an offence.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(3) Any person guilty of an offence under the provisions of this section shall be liable\nto a fine not exceeding one thousand and five hundred penalty units or to imprisonment\nfor a period not exceeding one month, or to both."
+    },
+    {
+      "number": "54",
+      "heading": "(1) Without prejudice to any other right to refuse a person admission to Power to exclude",
+      "text": "premises or to expel a person from premises, a licensee or his servant or agent may drunkards, etc., from\nrefuse to admit to, or may expel from, the licensed premises any person who is drunken, licensed premises\nviolent, quarrelsome or disorderly, or whose presence in his premises would subject the\nlicensee to a penalty under this Act or any other written law.\n(2) If any person liable to be expelled from licensed premises under the provisions\nof this section, when requested by the licensee or his servant or agent or any police officer\nto leave the premises, fails to do so, he shall be guilty of an offence and liable to a fine not\nexceeding one hundred and fifty penalty units.\n(3) Any police officer shall, on the demand of a licence holder or his servant or\nagent, help to expel from the licensed premises any person liable to be expelled therefrom\nunder the provisions of this section, and may use such force as may be required for such\npurpose."
+    },
+    {
+      "number": "55",
+      "heading": "(1) If a licensee permits the licensed premises to be a brothel, he shall be guilty Permitting licensed",
+      "text": "of an offence and shall be liable to a fine not exceeding six hundred penalty units. premises to be a\nbrothel\n(2) If a licensee is convicted, whether under this section or under any other\nenactment, of permitting his premises to be a brothel, he shall forfeit his licence.\n(As amended by Act No. 13 of 1994)"
+    },
+    {
+      "number": "56",
+      "heading": "(1) A licensee shall not knowingly allow the licensed premises to be the habitual Permitting licensed",
+      "text": "resort or place of meeting of reputed prostitutes, whether the object of their so resorting or premises to be resort\nmeeting is or is not prostitution: of prostitutes\nProvided that this section shall not prohibit his allowing any such persons to remain\nin the premises for the purpose of obtaining reasonable refreshment for such time as is\nnecessary for that purpose.\n(2) If a licensee contravenes the provisions of this section, he shall be guilty of an\noffence and shall be liable, on a first conviction, to a fine not exceeding three hundred\npenalty units and, on a subsequent conviction, to a fine not exceeding six hundred penalty\nunits.\n(As amended by Act No. 13 of 1994)\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "57",
+      "heading": "(1) If a licensee suffers any unlawful game to be carried on in his premises, he Gaming on licensed",
+      "text": "shall be guilty of an offence and shall be liable, on a first conviction, to a fine not premises\nexceeding three hundred penalty units and, on a subsequent conviction, to a fine not\nexceeding six hundred penalty units.\n(2) The conviction of a licensee of opening, keeping or using his premises, or of\nsuffering his premises to be opened, kept or used as a gaming house under any other\nenactment shall be deemed to be a conviction under this section.\n(As amended by Act No. 13 of 1994)"
+    },
+    {
+      "number": "58",
+      "heading": "If a licensee- Offences in relation to",
+      "text": "police officers\n(a) knowingly suffers to remain on his premises any police officer during any\npart of the time appointed for such police officer's being on duty, except for\nthe execution of such duty; or\n(b) knowingly supplies any liquor or refreshment, whether by way of gift or sale,\nto any police officer on duty except by authority of a superior officer of such\npolice officer; or\n(c) bribes or attempts to bribe any police officer;\nhe shall be guilty of an offence and shall be liable, on a first conviction, to a fine not\nexceeding three hundred penalty units and, on a subsequent conviction, to a fine not\nexceeding six hundred penalty units.\n(As amended by Act No. 13 of 1994)\nPART VIII PART VIII\nSPECIAL PROVISIONS REGARDING PASSENGER VESSEL LICENCES ON LAKE KARIBA"
+    },
+    {
+      "number": "59",
+      "heading": "For the purposes of this Part, unless the context otherwise requires- Interpretation for",
+      "text": "purposes of Part VIII\n(No. 45 of 1961)\n\"crew\" includes any person employed in a passenger vessel;\n\"Lake Kariba\" means the area of water formed by the construction of the dam at\nKariba Gorge;\n\"licensed passenger vessel\" means a passenger vessel in respect of which there is\nin force a licence granted under the provisions of this Act or a currently\nvalid licence for the sale of intoxicating liquor on a passenger vessel\ngranted under the laws of Southern Rhodesia;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n\"master\" means any person having for the time being command or charge of a\npassenger vessel;\n\"open water\" means that area of Lake Kariba which is not within one hundred\nyards of the shore of Lake Kariba."
+    },
+    {
+      "number": "60",
+      "heading": "(1) This Part shall apply only to vessels while on Lake Kariba. Application of Part VIII",
+      "text": "(2) The provisions of this Part shall be in addition to and not in derogation of any\nprovisions of any other Part of this Act except so far as those provisions are inconsistent\nwith the provisions of this Part, and if any provision of any other Part is inconsistent with\nany provision of this Part, then the provision of this Part shall prevail and the provision of\nthat other Part shall to the extent of the inconsistency be of no effect."
+    },
+    {
+      "number": "61",
+      "heading": "(1) Licenses for passenger vessels on Lake Kariba may be granted, renewed, Licensing authority for",
+      "text": "or transferred by the Board for the Southern Province. Lake Kariba\n(2) A temporary licence in respect of a passenger vessel on Lake Kariba may be\ngranted by the licensing officer of the Gwembe District."
+    },
+    {
+      "number": "62",
+      "heading": "(1) No passenger vessel licence shall be granted or transferred to any person Restrictions upon the",
+      "text": "other than the master of a passenger vessel. grant, renewal or\ntransfer of passenger\nvessel licenses\n(2) No passenger vessel licence shall be granted or renewed in respect of any\npassenger vessel unless it complies with the provisions of any law for the time being in\nforce relating to the registration of vessels or the licensing of vessels to carry passengers.\n(3) No passenger vessel licence or restricted passenger vessel licence shall be\ngranted if an application for a similar licence by the applicant or in respect of the same\nvessel has been refused by the appropriate licensing authority under the Liquor Act, 1953,\nof Southern Rhodesia, as amended from time to time by subsequent Acts, within a period\nof twelve months before the date on which application is made for such first mentioned\nlicence.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "63",
+      "heading": "The Board for the Southern Province may refuse to grant or renew any Grounds for refusal of",
+      "text": "passenger vessel licence upon any of the following grounds: licences\n(a) that the applicant is not a fit and proper person to hold a licence; or\n(b) that, upon evidence given by the police, the Board for the Southern\nProvince is satisfied that the granting or renewal of such licence would be\ndetrimental to public order; or\n(c) where the application is for a new licence, that the applicant has not\nsatisfied the Board for the Southern Province that, having regard to all the\ncircumstances of the case including the number of existing licensed\npassenger vessels on Lake Kariba, there is a public need for such licence."
+    },
+    {
+      "number": "64",
+      "heading": "A passenger vessel licence shall be subject to such conditions as to the Conditions",
+      "text": "standards in the quality of the services to be provided in the passenger vessel as the\nBoard for the Southern Province may think fit to insert in the licence."
+    },
+    {
+      "number": "65",
+      "heading": "A passenger vessel licence issued under this Part shall authorise the sale of Permitted hours and",
+      "text": "intoxicating liquor on a licensed passenger vessel- places under a\npassenger vessel\n(a) to any bona fide passenger or any member of the crew- licence\n(i) at any hour of the day or night, at the discretion of the master, while such\nvessel is in open water at a place not within 1.6 kilometres of\nlicensed premises other than another licensed passenger vessel or\nany licensed premises in respect of which an off-licence is held;\n(ii) between the hours of ten o'clock in the morning and half-past ten o'clock\nin the evening while such vessel is not in open water or is at a place\nwithin 1.6 kilometres of licensed premises other than another\nlicensed passenger vessel or any premises in respect of which an\noff-licence is in force;\n(b) to any other person approved by the master between the hours of ten\no'clock in the morning and half-past ten o'clock in the evening while such\nvessel is in open water or is at a prescribed place."
+    },
+    {
+      "number": "66",
+      "heading": "(1) If the holder of a passenger vessel licence contravenes any condition of or Breach of conditions of",
+      "text": "attaching to that licence, he shall be guilty of an offence. passenger vessel\nlicence\n(2) Any person guilty of an offence under the provisions of this section shall be\nliable, on a first conviction, to a fine not exceeding three hundred penalty units and, upon\na subsequent conviction, to a fine not exceeding six hundred penalty units.\n(As amended by Act No. 13 of 1994)"
+    },
+    {
+      "number": "67",
+      "heading": "(1) For the purposes of this section- Right to go aboard and",
+      "text": "inspect vessels\n\"inspecting officer\" means an Administrative Officer, a police officer of or above the\nrank of Sub Inspector and any person authorised to enter premises under\nthe provisions of the Liquor Act, 1953, of Southern Rhodesia, as amended\nfrom time to time by subsequent Acts.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(2) An inspecting officer, while any vessel is in open water, and a police officer or\nAdministrative Officer while any vessel is not in open water, may at all reasonable times\ngo on board and inspect that vessel for the purpose of ascertaining whether the provisions\nof this Act or of the Liquor Act, 1953, of Southern Rhodesia, as amended from time to time\nby subsequent Acts, are being or have been contravened.\n(3) If any person hinders or prevents any inspecting officer in pursuance of this\nsection from going on board or impedes him in carrying out any inspection under this\nsection, he shall be guilty of an offence and shall be liable, on a first conviction to a fine\nnot exceeding seven hundred and fifty penalty units and, on a subsequent conviction, to a\nfine not exceeding one thousand five hundred penalty units.\n(As amended by G.N. No. 502 of 1964, No. 24 of 1977 and\nAct No. 13 of 1994)"
+    },
+    {
+      "number": "68",
+      "heading": "In the application of Lake Kariba of- Application and",
+      "text": "modification of\n(a) subsection (6) of section twenty, there shall for the words \"circulating in the sections 20, 28, 30,\narea where the premises concerned are situate\" be read the words 41, 45, 47, Part VII,\n\"circulating in the Southern Province\"; sections 69, 76, 80\nand 81\n(b) paragraph (b) of subsection (2) of section twenty-eight, there shall for the\nwords \"in the area in which the licensed premises are situate\" be read the\nwords \"in the Southern division\";\n(c) subsection (1) of section thirty, there shall for the words \"the licensing\nofficer of the District in which the licensed premises are situate\" be read the\nwords \"the licensing officer of the Gwembe District\";\n(d) subsection (1) of section forty-one, there shall for the proviso to paragraph\n(b) thereof be read the following:\nProvided that intoxicating liquor sold during the permitted hours may\nbe consumed on a licensed passenger vessel up to half an hour after the\nconclusion of the permitted hours;\n(e) sections forty-five and forty-seven, there shall for the words \"under the age\nof eighteen years\", wherever they occur, be read the words \"under the age\nof nineteen years\";\n(f) P art VII and sections sixty-nine, seventy-six, eighty and eighty-one,\n\"licence\" shall include a currently valid licence for the sale of intoxicating\nliquor on a passenger vessel granted under the laws of Southern Rhodesia\nand \"licence\" and \"licensed premises\" shall be construed accordingly.\nPART IX SUPPLEMENTALPART IX\nSUPPLEMENTAL\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "69",
+      "heading": "(1) Where any riot or tumult occurs or is expected to occur in any place, an Closing of premises in",
+      "text": "authorised officer may order any licensed premises in or near such place to be closed case of riot\nduring such time as he may think fit, and any person carrying out such order may use\nsuch force as may be reasonably necessary for closing such premises.\n(2) Any person who resists or obstructs the execution of any order given under the\nprovisions of subsection (1), and any licensee who sells intoxicating liquor in contravention\nof such order, shall be guilty of an offence and shall be liable to a fine not exceeding one\nthousand five hundred penalty units, and any such licensee so convicted shall also be\nliable to suffer the forfeiture of his licence.\n(As amended by Act No. 13 of 1994)"
+    },
+    {
+      "number": "70",
+      "heading": "(1) When the Minister is satisfied that a license is or has engaged in or permits Forfeiture of licence by",
+      "text": "any activity on the licensed premises which is detrimental to the security of the Republic or the Minister\nto public order he may, by order, forfeit the licence of the licensee and a copy of the order\nof forfeiture shall be served on the licensee.\n(2) An order of forfeiture shall take effect when the copy thereof is served on the\nlicensee.\n(3) An order of forfeiture shall, on its production in any proceedings or application\nbefore any court or licensing authority or the Tribunal, be conclusive evidence of the fact\nof forfeiture.\n(4) No appeal shall lie to any court against an order of forfeiture of a licence under\nthis section.\n(5) Neither an order of forfeiture of a licence under this section nor the grounds for\nsuch a forfeiture shall be questioned or be subject to review by any court or licensing\nauthority or the Tribunal in any proceedings or application before it.\n(No. 17 of 1967)"
+    },
+    {
+      "number": "71",
+      "heading": "Where a licence is forfeited under any provision of this Act, the licensing officer Disposal of stock in",
+      "text": "of the District in which the licensed premises concerned are situate or, in the case of a hand where a licence\npassenger vessel licence, the licensing officer of the District in which any port at which the is forfeited\nvessel concerned calls is situate, shall, upon the application of the licensee whose licence\nis forfeited, in writing permit the licensee to dispose of his stock in hand at the date the\nforfeiture takes effect during the period of one month from that date, and thereupon the\nprovisions of this Act relating to the regulation, government or control of licensees shall,\nduring that period, apply to the person so permitted as they apply to a licensee.\n(No. 17 of 1967)\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "72",
+      "heading": "(1) A Board, upon the grant, renewal or removal of a licence, may, subject to Power to require",
+      "text": "the prior approval of the local authority, order that, within a time fixed by the order, such structural alterations\nstructural alterations shall be made by the licensee in the public rooms of the licensed\npremises where intoxicating liquor is sold or consumed as the Board thinks reasonably\nnecessary to ensure the suitability of such rooms for the sale of intoxicating liquor and for\nthe accommodation of the public therein.\n(2) The secretary to a Board shall serve on the registered owner of the licensed\npremises notice of any order made under the provisions of this section.\n(3) Where any order made under the provisions of this section is complied with, the\nBoard shall not, without the written consent of the Minister, make any other such order in\nrespect of the same premises within five years following the date of the first-mentioned\norder.\n(4) If a licensee makes default in complying with the requirements of an order made\nunder the provisions of this section, he shall be guilty of an offence and shall be liable to a\nfine not exceeding seven hundred and fifty penalty units and to a further fine not\nexceeding one hundred and fifty penalty units for every day such default continues after\nthe expiration of the time fixed by such order.\n(As amended by Act No. 13 of 1994)"
+    },
+    {
+      "number": "73",
+      "heading": "The holder of an on-licence shall not, except with the written consent of the Restrictions on",
+      "text": "licensing authority concerned, carry on any other business on his licensed premises carrying on other\nexcept that connected with the conduct of an hotel or restaurant or the sale of light business\nrefreshments or of tobacco, tobacco products, mineral waters and matches, and any\nlicensee who carries on any business in contravention of the provisions of this section\nshall be guilty of an offence and shall be liable to a fine not exceeding three hundred\npenalty units.\n(As amended by Act No. 13 of 1994)"
+    },
+    {
+      "number": "74",
+      "heading": "Notwithstanding the provisions of any written law for the time being in force Sale of tobacco, etc.",
+      "text": "relating to trading licences, the holder of any licence for the sale of liquor for consumption\non the premises may, on those premises and during the permitted hours, carry on the\nbusiness of the sale of tobacco, tobacco products, mineral waters, chocolates, sweets and\nmatches without a trading licence."
+    },
+    {
+      "number": "75",
+      "heading": "(1) Any document purporting to be a licence and signed by a licensing officer or Proof of licences, etc.",
+      "text": "by the secretary to a Board shall be received in evidence.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(2) Any document purporting to be a copy of a licence certified under the hand of\nthe licensing officer, or the secretary to the Board, issuing the original licence to be a true\ncopy shall be received in evidence on an application for the renewal, transfer or removal\nof the licence, or on application for a protection order, if the licensing authority to whom\nthe application is made is satisfied by evidence that the original licence is lost or unlawfully\nwithheld.\n(3) Any memorandum made under the provisions of sub-section (7) of section thirty\nshall be received in evidence."
+    },
+    {
+      "number": "76",
+      "heading": "(1) Evidence that a transaction in the nature of a sale of intoxicating liquor took Evidence of sale, etc.",
+      "text": "place shall, in any proceedings relating to an offence under the provisions of this Act, be\nevidence of the sale of such liquor without proof that money passed.\n(2) Evidence that consumption of intoxicating liquor was about to take place shall, in\nany such proceedings as aforesaid, be evidence of the consumption of intoxicating liquor\nwithout proof of actual consumption.\n(3) Evidence that any person, other than the occupier of licensed premises or a\nservant employed in licensed premises, consumed or intended to consume intoxicating\nliquor in such premises shall be evidence that the liquor was sold by or on behalf of the\nlicensee to that person."
+    },
+    {
+      "number": "77",
+      "heading": "(1) A police officer may at any time enter licensed premises for the purpose of Right of police officers",
+      "text": "preventing or detecting the commission of any offence against this Act. to enter premises\n(2) If any person, himself or by any person in his employment or acting with his\nconsent, obstructs or fails to admit a police officer who demands entry to premises in\npursuance of this section, he shall be guilty of an offence and shall be liable, on a first\nconviction, to a fine not exceeding seven hundred and fifty penalty units and on a\nsubsequent conviction, to a fine not exceeding one thousand five hundred penalty units.\n(As amended by Act No. 13 of 1994)"
+    },
+    {
+      "number": "78",
+      "heading": "(1) If a magistrate is satisfied by information on oath that there is reasonable Search warrant",
+      "text": "ground for believing that any intoxicating liquor is sold by retail at any place, being a place\nwhere that liquor may not lawfully be sold by retail, he may issue a search warrant under\nhis hand to a police officer of or above the rank of Sub-Inspector authorising him at any\ntime or times within one month from the date of the warrant to enter that place, which shall\nbe named in the warrant, by force if need be, and search the place for intoxicating liquor\nand seize and remove any intoxicating liquor that the police officer has reasonable ground\nfor supposing to be in the place for the purpose of unlawful sale there or elsewhere, and\nthe vessels containing such liquor.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(2) If the owner or occupier of the place from which any intoxicating liquor has been\nremoved under subsection (1) is convicted of selling by retail any intoxicating liquor that\nhe is not authorised to sell by retail, or is convicted of having in his possession intoxicating\nliquor that he is not authorised to sell, any intoxicating liquor so removed, and the vessels\ncontaining it, shall be forfeited.\n(3) Where a police officer seizes any intoxicating liquor in pursuance of a warrant\nissued under the provisions of this section, any person found in the place at which such\nliquor was seized shall, unless he proves that he is there for a lawful purpose, be guilty of\nan offence and liable to a fine not exceeding sixty penalty units.\n(4) Where a police officer seizes any liquor as aforesaid, and any person so found,\non being asked by a police officer for his name and address-\n(a) refuses to give them; or\n(b) gives a false name or address; or\n(c) gives a name or address that the police officer has reasonable grounds for\nthinking to be false, and refuses to answer satisfactorily any questions put\nby such officer to ascertain the correctness of the name or address;\nshall be guilty of an offence and liable to a fine not "
+    },
+    {
+      "number": "79",
+      "heading": "(1) For the purposes of any provisions of this Act imposing a penalty or Offences and",
+      "text": "forfeiture on a second or subsequent conviction, any conviction that took place more than forfeitures\nfive years previously shall be disregarded.\n(2) Liquor or vessels forfeited under the provisions of this Act shall be sold or\notherwise disposed of as the court imposing the forfeiture may direct, and the proceeds\nshall be applied as if they were a fine."
+    },
+    {
+      "number": "80",
+      "heading": "(1) Where the conviction of a licensee is entered in a register under the Notice of conviction of",
+      "text": "provisions of subsection (2) of section thirty-two, the person making such entry shall serve licensee to be given to\nnotice of the conviction on the registered owner of the premises. owner\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(2) A notice served under the provisions of subsection (1) may be served by\nregistered post and in such case shall be deemed to be properly addressed if it is\naddressed to any place that the owner has specified to the authority keeping such register\nas his address or, if the owner has not specified any such place, that the person serving\nthe notice believes to be the owner's address."
+    },
+    {
+      "number": "81",
+      "heading": "(1) Where on conviction of an offence a licence is forfeited, and the person Temporary licence",
+      "text": "convicted appeals against such conviction, the convicting court may, in its discretion and pending appeal\non such conditions, if any, as it thinks just, grant a temporary licence, without payment of\nfee, to be in force until the appeal is determined or ceases to be prosecuted.\n(2) A temporary licence granted under the provisions of subsection (1) shall be of\nthe same type and, in addition to any conditions imposed under subsection (1), be subject\nto the same conditions as the licence which is forfeited."
+    },
+    {
+      "number": "82",
+      "heading": "The Minister may from time to time, by statutory instrument, prescribe any Powers of Minister",
+      "text": "matter which he may deem necessary or expedient to prescribe for the purpose of giving\neffect to the objects of this Act, and in particular, but without derogating from the\ngenerality of the foregoing, declare any area to be a prescribed area and exempt any\nperson or class of persons from the application of any provision of this Act or from the\npayment of all or any part of the appropriate fee.\n(As amended by Act 53 of 1968, 47 of 1970 and 6 of 1983)\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nSCHEDULE\n(Section 2)\nPRESCRIBED FEES"
+    },
+    {
+      "number": "1",
+      "heading": "Fees for the grant or renewal of a-",
+      "text": "F ee units\nWholesale liquor licence 1,200\nRetail liquor licence 8 00\nBar licence 800\nAirport licence 6 00\nHotel liquor licence 1,000\nPrivate hotel liquor licence 800\nRestaurant licence 600\nRailway restaurant car licence 150\nPassenger vessel licence 3 00\nTheatre licence 4 00\nClub licence 400\nTemporary licence: per twenty-four hours or part thereof 5 00\nRestricted licence: one half of the fee prescribed above for\nthe appropriate full licence\nWhere any licence is granted on or after 1st July, one-half of the appropriate fee prescribed above shall be payable\nin respect of the period to the 31st December, next following."
+    },
+    {
+      "number": "2",
+      "heading": "For extension of the permitted hours under the provisions of section twenty-seven of the Act, there shall be paid a",
+      "text": "fee of one thousand fee units in respect of every hour or part thereof by which the permitted hours are extended."
+    },
+    {
+      "number": "3",
+      "heading": "Fees for-",
+      "text": "F ee units\nTransfer of licence, other than a restricted passenger vessel\nlicence, Lake Kariba and other lakes 1 00\nTransfer of a restricted passenger vessel licence for\nvessels on Lake Kariba and other lakes 30\nRemoval licence 1 00\nInspection of a register 1 0\nConsent of a Board under section fifty of the Act 2 0\nA protection order 1 00"
+    },
+    {
+      "number": "4",
+      "heading": "The fee payable upon an appeal to the tribunal shall be 400",
+      "text": "(As amended by Act Nos 7 and 13 of 1994)\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nSUBSIDIARY LEGISLATION\nLIQUOR LICENSING CAP. 167\nSECTION 16 (2)-RESTRICTED LICENCES Government Notice\n328 of 1961\nNotice by the Minister\nIt is hereby declared that the provisions of subsection (1) of section sixteen of the\nAct shall apply to all areas of Zambia, other than-\n(a) the City of Lusaka, the City of Kitwe and the City of Ndola;\n(b) all municipalities;\n(c) all townships;\n(d) obsolete;\n(e) any area within fifteen kilometres of the boundary of the City of Lusaka, the\nCity of Kitwe or the City of Ndola, any municipality, any township or any\nmine township.\nSECTIONS 17A AND 82-THE LIQUOR LICENSING (PROHIBITION) REGULATIONS Statutory Instrument\n75 of 1972\nRegulations by the Minister"
+    },
+    {
+      "number": "1",
+      "heading": "These Regulations may be cited as the Liquor Licensing (Prohibition) Title",
+      "text": "Regulations."
+    },
+    {
+      "number": "2",
+      "heading": "The area mentioned in the First Schedule is hereby declared as the prescribed Prohibition of grant of",
+      "text": "area under section seventeen A of the Act for the types of licences mentioned in the certain types of\nSecond Schedule. licences\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nFIRST SCHEDULE\n(Regulation 2)\nTHE PRESCRIBED AREA\nThe whole of Zambia\nSECOND SCHEDULE\n(Regulation 2)\nTYPES OF NEW LICENCES PROHIBITED"
+    },
+    {
+      "number": "1",
+      "heading": "A retail liquor licence",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "A bar licence",
+      "text": "Copyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nSECTION 82-THE LIQUOR (PRESCRIBED AREAS) REGULATIONS Statutory Instrument\n437 of 1968\nRegulations by the Minister"
+    },
+    {
+      "number": "1",
+      "heading": "These Regulations may be cited as the Liquor (Prescribed Areas) Regulations. Title",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "Each of the several areas described in the Schedule is hereby declared to be a Prescribed areas",
+      "text": "prescribed area.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nSCHEDULE\n(Regulation 2)\nPRESCRIBED AREAS\nCHINGOLA\nStarting at the intersection of the centre line of Kabundi Road and the centre line of Fifth\nAvenue, the boundary follows the centre line of Fifth Avenue in a northerly direction to a point\nequidistant from the centre line of Kwacha Street and the centre line of 13th Street; thence in an\neasterly direction to its intersection with the centre line of Kitwe Road at a point equidistant from the\ncentre line of 13th Street and the centre line of Kwacha Street; thence in a southerly direction along\nthe centre line of Kitwe Road to its intersection with the centre line of Kwacha Street; thence in an\neasterly direction along the centre line of Kwacha Street to a point opposite the north-western corner\nof Stand No. 162; thence in a southerly direction along the western boundary of Stand No. 162 and\nthe boundary between Stands Nos. 181 and 182 to the centre line of Kabundi Road; thence in an\neasterly direction along the centre line of Kabundi Road to its intersection with the centre line of Kitwe\nRoad; thence in a southerly direction along the centre line of Kitwe Road to a point opposite the\nsouth-east corner of Stand No. 208; thence following the southern and western boundaries of Stand\nNo. 208 to a point opposite the south-east corner of Stand No. 526; thence along the southern\nboundaries of Stands Nos. 526 and 1418 to the south-west corner of Stand No. 514; thence following\nthe western, north-western and northern boundaries of Stand No. 514 to a point opposite the\nintersection of the centre line of Kabundi Road and Fifth Avenue, the point of starting.\nCHOMA\nStands Nos. ME.1, ME.3-ME.7, ME.43-ME.46, ME.54, 37, 38, 41, 42, 133, 134, 286-288, 337.\nKABWE\nStarting at the intersection of the centre line of Machile Street with the centre line of Freedom\nWay, the boundary follows the centre line of Freedom Way to its inter"
+    },
+    {
+      "number": "16",
+      "heading": "(1) Any person applying for a licence other than a wholesale liquor licence may, at his request and subject to the Restric",
+      "text": "provisions of this Act, be granted a restricted licence which shall not authorise the sale of spirits but which shall otherwise licence\nhave the effect of a licence of the type granted.\n(2) Notwithstanding the provisions of subsection (1), no restricted licence other than a restricted hotel liquor licence,\na restricted private hotel liquor licence or a restricted passenger vessel licence shall be issued to any person who is not an\nemployee of, or authorised by, a local authority unless the Minister has, by statutory notice, declared that the provisions of\nthe said subsection have been applied to the area in which such premises are situate."
+    },
+    {
+      "number": "19",
+      "heading": "(1) No licence shall be granted to- Restric",
+      "text": "upon\n(a) any person who is under the age of twenty-one years; or\ngrant o\n(b) a sheriff's officer or any other officer entrusted with the execution of the legal process of any court; or licence\n(c) any person who has been convicted of forging a licence or of making use of a forged licence knowing it to have Cap. 16\nbeen forged; or\n(d) any person who has been convicted, whether under this Act or otherwise, of permitting to be kept, or keeping, as\na brothel premises for which at the time of such conviction he held a licence; or\n(e) any person who has been disqualified by a court from holding a licence while such disqualification remains in\nforce.\n(2) No licence shall, without the consent of the Minister, be granted or transferred to-\n(a) any person who does not reside within the Republic; or\n(b) any person whose licence has been forfeited until after the expiration of five years after the date of such\nforfeiture; or\n(c) any person who has been convicted of an offence relating to the sale of intoxicating liquor without a licence until\nafter the expiration of five years after the date of such conviction; or\n(d) any person who has at any time been sentenced to imprisonment for any period exceeding six months.\n(3) No licence shall be granted or renewed to a company, society, partnership or other association of persons:\nProvided that nothing in this subsection shall be deemed to prevent the grant or renewal of any licence to a person\nin the employ of such company, society, partnership or association, and if any such employee to whom any such licence\nwas granted or renewed ceases to be employed in a position in which he is required to hold such licence, his employer\nmay take such steps for the transfer of the licence to some other employee, as a licensee may take under the provisions of\nthis Act for the transfer of his licence to some other person.\n(4) No temporary licence shall be issued in respect of the premises of a club registered under the Clubs' Registration\nAct excep"
+    },
+    {
+      "number": "19",
+      "heading": "(1) No licence shall be granted to- Restric",
+      "text": "upon\n(a) any person who is under the age of twenty-one years; or\ngrant o\n(b) a sheriff's officer or any other officer entrusted with the execution of the legal process of any court; or licence\nCap. 16\n(c) any person who has been convicted of forging a licence or of making use of a forged licence knowing it to have\nbeen forged; or\n(d) any person who has been convicted, whether under this Act or otherwise, of permitting to be kept, or keeping, as\na brothel premises for which at the time of such conviction he held a licence; or\n(e) any person who has been disqualified by a court from holding a licence while such disqualification remains in\nforce.\n(2) No licence shall, without the consent of the Minister, be granted or transferred to-\n(a) any person who does not reside within the Republic; or\n(b) any person whose licence has been forfeited until after the expiration of five years after the date of such\nforfeiture; or\n(c) any person who has been convicted of an offence relating to the sale of intoxicating liquor without a licence until\nafter the expiration of five years after the date of such conviction; or\n(d) any person who has at any time been sentenced to imprisonment for any period exceeding six months.\n(3) No licence shall be granted or renewed to a company, society, partnership or other association of persons:\nProvided that nothing in this subsection shall be deemed to prevent the grant or renewal of any licence to a person\nin the employ of such company, society, partnership or association, and if any such employee to whom any such licence\nwas granted or renewed ceases to be employed in a position in which he is required to hold such licence, his employer\nmay take such steps for the transfer of the licence to some other employee, as a licensee may take under the provisions of\nthis Act for the transfer of his licence to some other person.\n(4) No temporary licence shall be issued in respect of the premises of a club registered under the Clubs' Registration\nAct excep"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Liquor%20Licensing%20Act.pdf",
+  "source_hash": "sha256:51d0c3d0ea69a6183da1207588cac5a50828787a948f2cd9fc4429a080c272e7",
+  "fetched_at": "2026-04-13T05:39:05Z",
+  "parser_version": "0.3.0",
+  "needs_ocr": false
+}
