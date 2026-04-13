@@ -287,3 +287,7 @@ consider Government Gazette or direct MMMD/MoJ request).
 - **act-zm-2009-020-constitution-of-zambia-amendment**: 1 section extracted — scanned PDF, needs OCR re-parse.
 - **act-zm-2009-018-zambia-law-development-commission-amendment-act-2009**: 1 section extracted — scanned PDF, needs OCR re-parse.
 - **act-zm-2009-012-presidential-emoluments-amendment**: 1 section extracted — scanned PDF, needs OCR re-parse.
+
+### Batch 0060 — Gaps (2026-04-13T04:31:34Z)
+- act-zm-2007-024-zambia-tourism-board: scanned PDF, needs OCR
+- 2008 Acts: No. 1-5, 8, 11, 13+ not discoverable on parliament.gov.zm. Need ZambiaLII or Gazette sources.

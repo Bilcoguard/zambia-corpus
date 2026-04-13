@@ -1,0 +1,414 @@
+{
+  "id": "act-zm-2005-016-ionising-radiation-protection",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Ionising Radiation Protection",
+  "citation": "Act No. 16 of 2005",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Short title and commencement",
+      "text": "Short title and commencement"
+    },
+    {
+      "number": "2",
+      "heading": "Interpretation",
+      "text": "Interpretation"
+    },
+    {
+      "number": "3",
+      "heading": "Application",
+      "text": "Application"
+    },
+    {
+      "number": "4",
+      "heading": "Exemptions",
+      "text": "Exemptions\nPART n\nRADIATION PROTECTION AUTHORITY"
+    },
+    {
+      "number": "5",
+      "heading": "Establishment of Authority",
+      "text": "Establishment of Authority"
+    },
+    {
+      "number": "6",
+      "heading": "Constitution of Board",
+      "text": "Constitution of Board"
+    },
+    {
+      "number": "7",
+      "heading": "Functions of Authority",
+      "text": "Functions of Authority"
+    },
+    {
+      "number": "8",
+      "heading": "Decisions of Board to prevail",
+      "text": "Decisions of Board to prevail"
+    },
+    {
+      "number": "9",
+      "heading": "Tenure of office and vacancy",
+      "text": "Tenure of office and vacancy"
+    },
+    {
+      "number": "10",
+      "heading": "Filling of casual vacancy",
+      "text": "Filling of casual vacancy"
+    },
+    {
+      "number": "11",
+      "heading": "Proceedings of Board",
+      "text": "Proceedings of Board"
+    },
+    {
+      "number": "12",
+      "heading": "Committees of Board",
+      "text": "Committees of Board"
+    },
+    {
+      "number": "13",
+      "heading": "Allowances of members",
+      "text": "Allowances of members"
+    },
+    {
+      "number": "15",
+      "heading": "Immunity of member",
+      "text": "Immunity of member"
+    },
+    {
+      "number": "15",
+      "heading": "Prohibition or disclosure",
+      "text": "Prohibition or disclosure"
+    },
+    {
+      "number": "17",
+      "heading": "Seal of Authority",
+      "text": "Seal of Authority\nPART in\nSECRETARIAT"
+    },
+    {
+      "number": "18",
+      "heading": "Constitution of secretarial and definition of its functions",
+      "text": "Constitution of secretarial and definition of its functions"
+    },
+    {
+      "number": "19",
+      "heading": "Executive Director",
+      "text": "Executive Director"
+    },
+    {
+      "number": "20",
+      "heading": "Secretary and other staff",
+      "text": "Secretary and other staff\nPART rv\nLICENCES"
+    },
+    {
+      "number": "21",
+      "heading": "Appl ication for 1 icence",
+      "text": "Appl ication for 1 icence"
+    },
+    {
+      "number": "22",
+      "heading": "Refusal to issue licence",
+      "text": "Refusal to issue licence"
+    },
+    {
+      "number": "23",
+      "heading": "Appeal against refusal to issue licence",
+      "text": "Appeal against refusal to issue licence"
+    },
+    {
+      "number": "24",
+      "heading": "Amendment of licence",
+      "text": "Amendment of licence"
+    },
+    {
+      "number": "25",
+      "heading": "Transfer of licence",
+      "text": "Transfer of licence"
+    },
+    {
+      "number": "26",
+      "heading": "Responsibility of licence",
+      "text": "Responsibility of licence"
+    },
+    {
+      "number": "27",
+      "heading": "Decommissioning of radioactive device",
+      "text": "Decommissioning of radioactive device"
+    },
+    {
+      "number": "28",
+      "heading": "Enforcement notices",
+      "text": "Enforcement notices"
+    },
+    {
+      "number": "29",
+      "heading": "Suspension or cancellation of licence",
+      "text": "Suspension or cancellation of licence\nCopies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, Lusaka 10101. Price K6.500 each.\n82 No. 16 of 2005] Ionising Radiation Protection\nPARTV\nFINANCIAL PROVISIONS"
+    },
+    {
+      "number": "30",
+      "heading": "Funds of Authority",
+      "text": "Funds of Authority"
+    },
+    {
+      "number": "31",
+      "heading": "Investment of Funds",
+      "text": "Investment of Funds"
+    },
+    {
+      "number": "32",
+      "heading": "Financial year",
+      "text": "Financial year"
+    },
+    {
+      "number": "33",
+      "heading": "Accounts",
+      "text": "Accounts"
+    },
+    {
+      "number": "34",
+      "heading": "Annual Reports",
+      "text": "Annual Reports"
+    },
+    {
+      "number": "35",
+      "heading": "Radiation safety officer",
+      "text": "Radiation safety officer"
+    },
+    {
+      "number": "36",
+      "heading": "Powers of radiation safety officer",
+      "text": "Powers of radiation safety officer"
+    },
+    {
+      "number": "37",
+      "heading": "Duty of radiation safety officer to report to Board",
+      "text": "Duty of radiation safety officer to report to Board\nPART VI\nGENERAL PROVISIONS"
+    },
+    {
+      "number": "38",
+      "heading": "Offences and penalties",
+      "text": "Offences and penalties"
+    },
+    {
+      "number": "39",
+      "heading": "Prohibition of disclosure of information by employee",
+      "text": "Prohibition of disclosure of information by employee"
+    },
+    {
+      "number": "40",
+      "heading": "References to radiation board and chief radiation officer",
+      "text": "References to radiation board and chief radiation officer"
+    },
+    {
+      "number": "41",
+      "heading": "Dissolution of radiation protection board",
+      "text": "Dissolution of radiation protection board"
+    },
+    {
+      "number": "42",
+      "heading": "Vesting of assets of Radiation Protection Board",
+      "text": "Vesting of assets of Radiation Protection Board"
+    },
+    {
+      "number": "43",
+      "heading": "Registration of property to be transferred by Government",
+      "text": "Registration of property to be transferred by Government"
+    },
+    {
+      "number": "44",
+      "heading": "Legal proceedings",
+      "text": "Legal proceedings"
+    },
+    {
+      "number": "45",
+      "heading": "Staff of radiation protection board",
+      "text": "Staff of radiation protection board"
+    },
+    {
+      "number": "46",
+      "heading": "Regulations",
+      "text": "Regulations"
+    },
+    {
+      "number": "47",
+      "heading": "Repeal of section 74 of Environmental Protection and Pollution Control",
+      "text": "Repeal of section 74 of Environmental Protection and Pollution Control\nAct"
+    },
+    {
+      "number": "48",
+      "heading": "Repeal of Ionising Radiation Act and Savings",
+      "text": "Repeal of Ionising Radiation Act and Savings\nIonising Radiation Protection [No. 16 of 2005 83\nGOVERNMENT OF ZAMBIA\nACT\nNo. 16 of 2005\nDate of Assent: 28th September, 2005\nAn Act to establish the Radiation Protection Authority and to\ndefine its functions and powers; to provide for the protection\nof the public, workers and the environment from hazards\narising from the use of devices or materials capable of\nproducing ionising radiation; to repeal and replace the\nIonising Radiation Act, 1972; and to provide for matters\nconnected with or incidental to the foregoing.\nEnactment\n[ 7th October, 2005\nENACTED by the Parliament of Zambia\nPARTI\nPRELIMINARY Short title\nand"
+    },
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Ionising Radiation Protection",
+      "text": "This Act may be cited as the Ionising Radiation Protection\ncommence­\nAct, 2005, and shall come into operation on such date as the Minister ment\nmay, by statutory instrument, appoint.\nInterpretation"
+    },
+    {
+      "number": "2",
+      "heading": "(1) In this Act, unless the context otherwise requires-",
+      "text": "(1) In this Act, unless the context otherwise requires-\n\"Authority \" means the Radiation Protection Authority\nestablished by section five;\n\"authorisation \" means a permission granted in writing by\nthe Board to a person who has submitted an application to\ncarry out a practice or any other action authorised under\nthis Act and includes a registration or licence;\n\"Board \" means the Radiation Protection\nAuthority Board constituted under section six;\n\"Chairperson \" means the person appointed\nas Chairperson of the Board under section six;\n\"clearance \" means removal of radioactive materials or\nradiation devices within authorised practices from any\nfurther control by the Board;\n\"clearance levels \" means values established by the Board\nand expressed in terms of activity concentration or total\nactivity, at or below which sources of radiation may be\nreleased from regulatory control;\n\"committee \" means a committee constituted by the Board\nunder section twelve^\n\"disease \" includes injury and bodily or mental deficiency or\nabnomality;\n84 No. 16 of 2005] Ionising Radiation Protection\n\"dose limit \" means the value of the effective dose or the\nequivalent dose to individuals from controlled practices that\nshall not be exceeded;\n\"emergency \" means a sudden situation\nassociated with an incident arising from the exposure of\nthe public or the environment to the harmful effects of\nionising radiation;\n\"environment\" means the total terrestrial,\natmospheric and aquatic environs but does not include the\narea within the boundaries of prescribed installations\nhandling radioactive material or radiation sources;\n\"Environmental Council of Zambia \" means the\nCouncil establishment under section three of the\nEnvironmental Protection and Pollution Control Act;\n\"Executive director\" means the person\nCap. 204 appointed as Executive Director under section nineteen.\n\"exposure \" means the act or condition of being\nsubject to irradiation and includes external exposure from\nsources outside the body or internal exposure from sources\ninside the body;\n\"facility \" means an assembly of devices,\nequipment, structures or natural features whether simple\nor complex which serves some specific purpose or performs\nsome specific functions;\n\"former Board \" means the Radiation Protection\nBoard established by section five of the Ionising Radiation\nAct;\n\"harmful ionizing radiation \" means ionizing\nCap. 311 radiation of sufficient intensity as to entail significant risk\nof disability or disease as a result of exposure;\n\"ionizing radiation \" for the purpose of\nradiation protection, means radiation capable of producing\nion pairs in biological materials;\n\"limit\" means the value of a quantity used in certain specified\nactivities or circumstances that must not be exceeded;\n\"member \" means a member of the Board;\n\"practice \" means any human activity that introduces additional\nsources of exposure to additional people or modifies the\nIonising Radiation Protection [No. 16 of 2005 85\nnetwork of exposure pathways from existing sources, so as\nto increase the exposure or likelihood of exposure of people\nor the number of people exposed;\n\"qualified expert \" means an individual who, by virtue of\ncertification by appropriate boards or societies, professional\nlicenses or academic qualifications and experience, is duly\nrecognised as having expertise in a relevant field of\nspecialisation;\n\"Radiation Safety Officer\" means a Radiation Safety Officer\nappointed under section thirty-five;\n\"radioactive material \"means any material emitting ionizing\nradiation including neutrons as to entail significant risk of\ndisability or disease as a result of exposure;\n\"radionuclide \" means a nuclide that is radioactive;\n\"Secretariat \" means the Secretariat of the Authority\nconstituted under section eighteen;\n\"source \" means anything that may cause radiation exposure\nby emitting ionising radiation or releasing radioactive\nsubstances or materials;\n\"Vice-chairperson \" means the person elected as Vice-\nchairperson of the Board under section six; and\n\"worker \" includes a temporary employee."
+    },
+    {
+      "number": "3",
+      "heading": "(1) The provisions of this Act shall apply to ionising radiation",
+      "text": "(1) The provisions of this Act shall apply to ionising radiation\nrelating to practices and sources.\n(2) Unless otherwise provided in this Act or in regulations made APPlicatior\nunder it, radioactive material shall not be considered to be harmful\nif it contains radioactivity which is below the exemption levels."
+    },
+    {
+      "number": "4",
+      "heading": "(1) The Minister may, on the recommendation of the Board",
+      "text": "(1) The Minister may, on the recommendation of the Board\n(which may set higher limits for exemption in the case of material\nknown to contain only less dangerous radionuclides), by statutory Exemption\norder, exempt any material which contains radioactive matter of\nless than specified limits from the provisions of this Act.\n(2) Sources of radioactive materials which are within authorised\npractices may be exempted from some of the provisions of this Act\nor of regulations made under it if they comply with the clearance\nlevels approved by the Board.\n86 No. 16 of 2005] Ionising Radiation Protection\n(3) Any exposure to radiation which is part of the natural\nenvironment and is due to cosmic rays at the ground level or to\nnatural radioactivity in the body shall be exempt from control as\nprovided in this Act.\nPART II\nTHE RADIATION PROTECTION AUTHORITY\nEstablishment 5. There is hereby established the Radiation Protection Authority\nof which shall be a body corporate with perpetual succession and a\nAuthority\ncommon seal, capable of suing and of being sued in its corporate\nname, and with power, subject to the provisions of this Act, to do\nall such acts and things as a body corporate may by law do or\nperform.\nConstitution 6. (1) There is hereby constituted the Radiation Protection\nof\nAuthority Board which shall, subject to the provisions of this Act,\nBoard\nperform the functions of the Authority under this Act.\n(2) The Board shall consist of the following part-time members\nappointed by the Minister:\n(a) a medical practitioner who has specialised in ionising\nradiation nominated by the Medical Council of Zambia;\n(b) a scientist nominated by the Vice-Chancellor of a public\nuniversity;\n(c) a representative of the National Institute of Scientific and\nIndustrial Research;\n(d) a representative of the Zambia Chambers of Commerce\nand Industry;\n(e) a representative of the ministry responsible for health;\n(f) a representative of the ministry responsible for mines;\n(g) a representative of the ministry responsible for defence;\n(h) a representative of the ministry responsible for tourism,\nenvironment and natural resources;\n(i) a representative of the ministry responsible for agriculture;\n(j) a representative of the ministry responsible for transport\nand communications;\n(k) a representative of the ministry responsible for labour;\n(I) a representative of the ministry responsible for home affairs;\nIonising Radiation Protection [No. 16 of 2005 87\n(m) a representative of the ministry responsible for science\nand technology;\n(n) a representative of the ministry responsible for finance\nand national planning;\n(o) a representative of the Attorney-General;\n(p) a representative of the Environmental Council of Zambia;\n(q) a representative of Occupational Health Research Bureau;\n(r) a representative of a trade union representing workers in\nthe ionising radiation sector; and\n(s) one other person.\n(3) The Chairperson shall be appointed by the Minister from\namong the members.\n(4) The Vice-Chairperson shall be elected by the members of the\nBoard from among their number.\n(5) A person shall not be appointed as a member of the Board if\nthe person —\n(a) is an undischarged bankrupt;\n(b) has been convicted of an offence involving fraud or\ndishonesty; or\n(c) has been convicted of an offence under any other written\nFunctions of\nlaw and sentenced to a term of imprisonment of not less Authority\nthan six months, without the option of a fine. <\"ap\""
+    },
+    {
+      "number": "7",
+      "heading": "(1) Notwithstanding Part IX of the Environmental",
+      "text": "(1) Notwithstanding Part IX of the Environmental\nProtection and Pollution Control Act, the functions of the\nAuthority shall be to —\n(a) advise the Government on policies, measures and matters\nrelating to ionising radiation;\n(b) implement the policies of the Government related to the\nprotection of the public, workers and the environment\nfrom harmful effects of ionising radiation;\n(c) establish facilities for the collection and dissemination of\nscientific and technical information on ionising radiation;\n(d) collect and disseminate information on the work of the\nAuthority through publications, seminars, workshops and\nthe print or electronic media;\n(e) liase with the Environmental Council of Zambia or any\nother regional or international organisation and institution\non matters relating to the promotion of the safe use of\nionising radiation in Zambia;\n88 No. 16 of 2005] Ionising Radiation Protection\n(f) initiate policy formulation and implement the provisions\nof this Act and, when so required by the Minister or if\nthe Board otherwise thinks it necessary, draw up and\nsubmit to the Minister proposals for amending it or\nregulations to be made under it;\n(g) ensure the protection and safety of the public in the event\nof an accidental release of harmful ionising radiation or\nother emergency;\n(h) respond to, and coordinate responses to radiological\nincidences and emergencies;\n(i) investigate any alleged breach of the provisions of this Act;\n(j) make recommendations to the Minister on all matters\nconcerning —\n(i) the assurance that all activities involving the use\nof devices or materials capable of producing\ndangerous amounts of ionising radiation are\ncarried out in such a manner as to avoid dangers\nto the public or to workers concerned or limit\nrisks to those acceptable as a matter of public\npolicy; and\n(ii) the allocation of priorities and coordination of\nactivities in connection with maintenance of\nsafety in the use of devices or materials\nproducing ionising radiation and associated\nmatters to make the best use of available\nresources, taking into account the needs of the\ncountry and alternative methods of achieving\nequivalent results;\n(k) issue licences and authorisations; and\n(I) carry out such other activities as are necessary or conducive\nto the better performance of its functions under this Act.\n(2) Notwithstanding subsection (1), the Board may, by direction\nin writing and subject to such conditions as it considers fit, delegate\nto any member, Committee or the Executive Director any of the\nAuthority's functions under this Act.\nDecisions of 8. Where any decision of the Board made under the provisions\nBoard to f j Act conflicts with any decision of the Environmental Council\n0 m s\nprevail ^ 2 \\i taken by the Council in the exercise of the it's functions\nQ i3m)a\nunder section Seventy-two of the Environmental Protection and\nCap. 204 Pollution Control Act, the decision of the Board shall prevail.\nIonising Radiation Protection [No. 16 of 2005 89"
+    },
+    {
+      "number": "9",
+      "heading": "(1) Subject to the other provisions ofthis Act, a member of Tenure of",
+      "text": "(1) Subject to the other provisions ofthis Act, a member of Tenure of\nthe Board shall hold office for a period of three years from the date office and\nof appointment and shall be eligible for re-appointment for one vacancy\nfurther term of three years.\n(2)The office of the member shall become vacant —\n(a) upon the member's death;\n(b) if the member is absent without reasonable excuse from\nthree consecutive meetings of the Board of which the\nmember has had notice;\n(c) on ceasing to be a representative of the organisation which\nnominated the member;\n(d) if the member becomes mentally or physically incapable\nof performing the duties of a member of the Board;\n(e) if the member is declared bankrupt;\n(j) if the member is convicted of an offence involving fraud or\ndishonesty; or\n(g) if the member is convicted of an offence against any other\nwritten law and is sentenced to a term of imprisonment\nof not less than six months without the option of a fine.\n(3) On the expiration of the period for which a member is\nappointed the member shall continue to hold office until a successor\nhas been appointed but in no case shall the further period exceed\nthree months."
+    },
+    {
+      "number": "10",
+      "heading": "Whenever the office of a member becomes vacant before",
+      "text": "Whenever the office of a member becomes vacant before\nFilling of\nthe expiry of the term of office, the Minister may appoint another casual\nvacancy\nmember in place of the member who vacates office but that member\nshall hold office only for the unexpired part of the term."
+    },
+    {
+      "number": "11",
+      "heading": "(1) Subject to the other provisions of this Act, the Board Proceedings",
+      "text": "(1) Subject to the other provisions of this Act, the Board Proceedings\nmay regulate its own procedure. of Board\n(2) The Board shall meet for the transaction of business at least\nevery three months at such places and times as the Chairperson\nmay determine.\n(3) The Chairperson may, upon giving notice of not less than\nfourteen days, call a meeting of the Board and shall call a special\nmeeting to be held within fourteen days of receipt of a written request\nto the Chairperson by at least five members of the Board.\n(4) If the urgency of any particular matter does not permit the\ngiving of such notice as is required under subsection (3), a special\nmeeting may be called by the Chairperson, upon giving a shorter\nnotice.\n90 No. 16of 2005J Ionising Radiation Protection\n(5) Nine members of the Board shall form a quorum at any meeting\nof the Board.\n(6) There shall preside at any meeting of the Board—\n(a) the Chairperson;\n(b) in the absence of the Chairperson, the Vice-Chairperson;\nor\n(c) in the absence of the Chairperson and the Vice-Chairperson\nsuch member as the members present may elect for the\npurpose of that meeting.\n(7) A decision of the Board on any question shall be by a majority\nof the members present and voting at the meeting and in the event of\nan equality of votes, the person presiding at the meeting shall have\na casting vote in addition to the deliberative vote.\n(8) The Board may invite any person, whose presence is in its\nopinion desirable, to attend and to participate in the deliberations of\nthe meeting of the Board but such person shall have no vote.\n(9) The validity of any proceedings, act or decision of the Board\nshall not be affected by any vacancy in the membership of the Board\nor by any defect in the appointment of any member or by reason\nthat any person not entitled to do so took part in the proceedings.\nCommittees 12. (1) The Board may, for the purpose of performing its\nfunctions under this Act, constitute such committees as it considers\nnecessary and may delegate to any committee such of its functions\nas it considers fit.\n(2) The Board may appoint as members of a committee, persons\nwho are, or are not, members of the Board, except that at least one\nmember of a committee shall be a member of the Board.\n(3) A person serving as a member of a committee shall hold\noffice for such period as the Board may determine.\n(4) Subject to any specific or general directions of the Board, a\ncommittee may regulate its own procedure.\nAllowances 13. The members of the Board or any committee shall be paid\nof such allowance as the Board may, with the approval of the Minister,\nmembers determine.\nDisclosure 14. (1) If a member or person is present at a meeting of the\nof interest Board or any committee of the Board at which any matter is subject\nof consideration and in which matter the member or person or the\nmember or person's spouse is directly or indirectly interested in a\nIonising Radiation Protection [No. 16 of 2005 91\nprivate capacity, the member or person shall as soon as is practicable\nafter the commencement of the meeting, declare such interest and\nshall not, unless the Board or the committee otherwise directs, take\npart in any consideration or discussion of, or vote on, any question\ntouching that matter.\n(2) A declaration of interest made under subsection (1) shall be\nrecorded in the minutes of the meeting at which it is made."
+    },
+    {
+      "number": "15",
+      "heading": "No action or other proceedings shall lie or be instituted Immunity of",
+      "text": "No action or other proceedings shall lie or be instituted Immunity of\nagainst any member or member of a committee for or in respect of members\nany act or thing done or omitted to be done in good faith in the\nexercise or purported exercise of that member or committee\nmember's functions under this Act."
+    },
+    {
+      "number": "16",
+      "heading": "(1) A person shall not without the consent in writing given Prohibition",
+      "text": "(1) A person shall not without the consent in writing given Prohibition\nby, or on behalf of, the Board, publish or disclose to any person of\nother than in the course of duties, the contents of any document, publication\ncommunication, or information which relates to, and which has come or\nto the person's knowledge in the course of the person's duties under disclosure\nthis Act.\n(2) Any person who knowingly contravenes the provisions of\nsubsection (1) commits an offence and shall be liable, upon\nconviction, to a fine not exceeding three thousand penalty units or\nto imprisonment for a term not exceeding three months, or to both."
+    },
+    {
+      "number": "17",
+      "heading": "(1) The seal of the Authority shall be such device as may Seal of",
+      "text": "(1) The seal of the Authority shall be such device as may Seal of\nbe determined by the Board and shall be kept by the Secretary. Authority\n(2) The affixing of the seal shall be authenticated by the\nChairperson or the Vice-Chairperson and the Secretary or any other\nperson authorised in that behalf by a resolution of the Board.\n(3) Any contract or instrument which, if entered into or executed\nby a person not being a body corporate, would not be required to be\nunder seal, may be entered into or executed without seal on behalf\nof the Authority by the Secretary or any other person generally or\nspecifically authorised by the Board in that behalf.\n(4) Any document purporting to be a document under the seal of\nthe Authority shall be received in evidence and shall be deemed to\nbe so executed or issued, as the case may be, without further proof,\nunless the contrary is proved.\nPART III\nSECRETARIAT"
+    },
+    {
+      "number": "18",
+      "heading": "(1) There is hereby constituted the Secretariat of the Constitution",
+      "text": "(1) There is hereby constituted the Secretariat of the Constitution\nAuthority which shall have the function of implementing the decisions of Secretariat\nof the Board. and definition\nof its\n(2) Without prejudice to the generality of subsection (1) the\nfunctions\nSecretariat shall—\n92 No. 16 of 2005] Ionising Radiation Protection\n(a) determine the extent of exposure to ionising radiation of\nthe public and of workers and, subject to the provisions\nof this Act, determine the degree of risk or disability\nattached to such exposure;\n(b) be responsible for examining, as may be considered\nnecessary by the Executive Director, all premises in\nrespect of which a licence to use radiation is in force and\nall places of disposal for radioactive material and wastes;\n(c) advise the Board of the extent of radiation exposure to\npersons in Zambia; and\n(d) advise and recommend to licence holders steps desirable\nto reduce exposure to acceptable limits.\n(3) The Secretariat shall maintain a personnel radiation dosimetry\nservice —\n(a) to provide personal radiation measuring devices to be worn\nby an individual likely to be exposed to radiation;\n(b) to provide a reporting service by means of which it will\nmaintain adequate records of personal radiation exposure\nmeasurements and shall render to the licensee and to the\nBoard reports, at intervals to be determined by the Board,\nof the information contained in the records;\n(c) in collaboration with the Environmental Council of Zambia,\nprovide information and warn and protect the public, in\ncase of actual or potential public exposure to radioactive\nmaterial or ionising radiation;\n(d) warn individuals who have been or are likely to be subject\nto over exposure;\n(e) monitor imported and local food stuff to detect any potential\ncontamination with radioactive material;\n(f) prevent and monitor illegal importation of radioactive\nmaterial and sources of ionising radiation into Zambia;\n(g) conduct assessments of radioactivity in underground mines\nand facilities and in by-products of mining activities;\n(h) monitor for radioactivity in building and construction\nmaterials;\n(i) undertake monitoring activities in any place or facility to\nensure the adequate protection and safety of the public\nfrom sources and materials capable of emitting ionising\nradiation; and\nIonising Radiation Protection [No. 16 of 2005 93\n(j) perform such other functions as may be assigned to it by\nthe Board.\n(4) The personal radiation dosimetry service referred to in\nsubsection (3) may, subject to the approval of the Board, at the\ndirection of the Executive Director, be provided without charge or\nfor such fee as may be prescribed if the Board so determines on the\nrequest of a licensee, and its use may be included as a necessary\ncondition of a particular licence."
+    },
+    {
+      "number": "19",
+      "heading": "(1) The Board shall, with the approval of the Minister, Executive",
+      "text": "(1) The Board shall, with the approval of the Minister, Executive\nappoint an Executive Director who shall be the chief executive Director\nofficer of the Authority and the Secretariat and who shall, subject\nto the control and direction of the Board, be responsible for the\nimplementation of the decisions of the Board and the day to day\nadministration of the Authority.\n(2) The Board shall, with the approval of the Minister, determine\nthe terms and conditions of service of the Executive Director.\n(3) The Executive Director shall be appointed for a term of four\nyears and shall be eligible for re-appointment.\n(4) The Executive Director shall attend meetings of the Board\nand may attend meetings of any committee of the Board and may\naddress the meetings, but shall have no vote."
+    },
+    {
+      "number": "20",
+      "heading": "(1) The Executive Director shall be the Secretary to the Secretary",
+      "text": "(1) The Executive Director shall be the Secretary to the Secretary\nBoard. and other\nstaff\n(2) The Board may appoint such other staff of the Authority as it\nconsiders necessary for the performance of its functions under this\nAct.\n(3) The Board shall, with the approval of the Minister, determine\nthe terms and conditions of service of the staff of the Authority.\nPART IV\nLICENCES"
+    },
+    {
+      "number": "21",
+      "heading": "(1) Any person who intends to import, process, mine, export, Application",
+      "text": "(1) Any person who intends to import, process, mine, export, Application\nfor\npossess, transport, use, dispose of, or undertake any other activity\nlicence\nrelating to, radioactive material or any other source of harmful\nionising radiation shall apply to the Board, in the prescribed form,\nfor an appropriate licence.\n(2) The Board shall, within sixty days of receipt of an application\nfor a licence under subsection (1), issue a licence, subject to any\ncondition specified under subsection (3), if the application is in\naccordance with the provisions of this Act.\n94 No. 16 of 2005] Ionising Radiation Protection\n(3) A licence issued under this section—\n(a) shall be in the prescribed form;\n(b) shall be accompanied by a prescribed fee;\n(c) shall be issued by the Board to a person as owner or as the\nappropriate responsible officer of an institution,\npartnership, cooperation or Government body;\n(d) may contain such conditions as the Board may consider\nnecessary to impose for the safe conduct of the proposed\noperations, process or facility and for the safe disposal\nof all radioactive wastes and radioactive material\nresulting from the proposed operation, process or facility;\n(e) shall specify the process of operation or facility;\n(f) shall authorise the purchase or acquisition by other means,\nthe importation, production, possession, transportation,\nstorage, use and disposal as required, by specified\nquantities and kinds of radioactive material or other\nsource of harmful ionising radiation required for the\noperation, process or facility specified;\n(g) may cover the separate acquisition or importation of diverse\nor repeated lots of radioactive material if they are all\nlisted on the licence and are to be used solely in the\nlicenced process, operation or facility.\n(4) The conditions referred to in paragraph (d) of subsection (3)\nmay be specific or take the form of general requirements to meet\nprescribed standards or codes of practice published pursuant to\nthis Act, or standards or codes of practice published by\ninternationally recognised bodies including the International\nCommission on Radiological Protection and the International Atomic\nEnergy Agency or any combination of such conditions.\nRefusal to 22. (1) The Board may refuse to issue a licence under this Part\nissue licence if—\n(a) the applicant fails to comply with any prescribed condition\nprecedent to the issue of such licence;\n(b) any licence formerly issued to the applicant under this Act\nhas been revoked by the Board; or\n(c) the applicant has been convicted of an offence under this\nAct.\n(2) Where the Board refuses to issue a licence under subsection\n(I), it shall, within sixty days from the receipt of the application,\nnotify the applicant in writing of the refusal to issue the licence to\nthe applicant and shall state the reasons for the refusal.\nIonising Radiation Protection [No. 16 of 2005 95"
+    },
+    {
+      "number": "23",
+      "heading": "(1) Any person aggrieved by any refusal of the Board to Appeal",
+      "text": "(1) Any person aggrieved by any refusal of the Board to Appeal\nissue a licence to that person may appeal to the Minister not later against\nthan thirty days after the notification of such refusal. refusal to\nissue\n(2) Where an appeal is made under subsection (1), the Minister\nlicence\n5 may give such directions to the Board as the\nMinister considers necessary to enable the Minister to determine\nthe appeal.\n(3) The Minister in determining the appeal may direct the Board\nto issue the licence to the applicant or uphold the decision of the\n10 Board and notify the appellant accordingly.\n(4) Any person who is aggrieved by the decision of the Minister\nto uphold the Board's decision under subsection (3) may appeal to\nthe High Court within thirty days of the receipt of the notification\nof the Minister's decision.\n15 24. A licence issued under this Act may, by notice in writing to Amendment\nthe applicant, be amended by the Board if the Board considers the of licence\namendment necessary for the protection and safety of the public,\nthe workers or the environment."
+    },
+    {
+      "number": "25",
+      "heading": "(1) A licence shall not be transferred to a third party, directly Transfer of",
+      "text": "(1) A licence shall not be transferred to a third party, directly Transfer of\n20 or indirectly, without the prior approval of the Board. licence\n(2) Every application for approval to transfer a licence shall be\nmade to the Board and the Board may, within thirty days of the\nreceipt of the application, approve or disapprove the application in\naccordance with this Act.\n25 26. (1) The licensee shall ensure that any operation, condition Responsibility\nof storage, transport, disposal or other practice shall not result of\ndirectly or indirectly in exposure to ionising radiation in such an licensee\namount as is likely to cause harmful effects to the public, the\nemployees, other workers or the environment, or to any property.\n30 (2) Any owner or user of radioactive material or source of harmful\nionising radiation for which the person holds no valid licence shall\nbe answerable for any harmful effects arising from the possession,\nstorage, transport, use or disposal of such radioactive material or\nsource of harmful ionising radiation, and such answerability shall\n35 continue with regard to any such material after it has been seized,\nimpounded, stored or disposed off by the Executive Director or\nany radiation safety officer.\n(3) The radiation safety requirements prescribed by this Act—\n(a) do not extend to patients undergoing medical treatment by\n40 exposure to radiation by or under the supervision of a\nmedical practitioner if such treatment is in accordance\nwith an approved code of practice established by the\nrelevant medical professional bodies;\n96 No. 16 of 2005] Ionising Radiation Protection\n(b) do apply to the safety of medical and technical staff working\nwith the radioactive material or source of harmful\nionising radiation and to the protection of all other\npersons, other than the patient undergoing treatment.\n(4) Every licensee shall appoint a competent person as radiation\nprotection officer, who shall liaise with the Secretariat to ensure\ncompliance with the Act.\n(5) Whenever a physical or mental disability appears—\n(a) in a person which medical opinion competent in the field\nof biological effects ascribed to ionising radiation\nexposure, it shall be presumed that the disability arose\ndue to radiation exposure;\n(b) that could have arisen either from radiation or from other\ncauses in the course of duty, the following criteria shall\nbe applied to discern the cause of such disability, namely:\n(i) if a disability of a nature known to be caused either\nby ionising radiation or that can arise from other\npossible causes appears in a person for whom a\npersonal radiation exposure record exists,\nindicating that exposure in excess of\nrecommended dose limits have occurred in a\nperson as a result of such radiation exposure;\n(ii) if a disability of a nature known to be caused either\nby ionising radiation or that can arise from other\npossible causes appears in a person for whom a\npersonal exposure record has been maintained\nto a standard approved by the Board, it shall be\npresumed that such disability occurred as a result\nof such radiation exposure.\nDicom- 27. Where a licensee intends to decommission an ionising\nmissioning radiation device the licensee shall, at least six months before\nof decommissioning the device, inform the Executive Director of the\nradioactive impending decommissioning, and seek the Board's approval\ndevice\nconcerning how the device will be stored in the interim period pending\nits final disposal.\nEnforcement 28. (1) Where the Board is satisfied that a licensee is\nnotices contravening or is likely to contravene any provision of this Act, or\na directive issued by the Board in the performance of the Authority's\nfunctions under this Act or any other condition of the licence, the\nBoard shall serve an enforcement notice on that licensee.\nIonising Radiation Protection [No. 16 of 2002 97\n(2) An enforcement notice issued under subsection (1) shall—\n(a) state the contravention or the likely contravention of the\nAct, directive or any other condition of the licence and\nthe matters constituting the contravention or making it\nlikely that the contravention will arise;\n(b) specify the steps that have to be taken to remedy the\ncontravention or avoid the contravention, as the case may\nbe;\n(c) specify the effective date of the notice and the time limit\nwithin which the steps described under paragraph (b)\nmust be taken.\n(3) The Board, if it considers it necessary for the safety of the\npublic or the workers —\n(a) may require the suspension of the work with the radioactive\nmaterial or other source of harmful ionising radiation\nand its storage in a safe place or under conditions\npreventing exposure of the public or workers to\npotentially harmful radiation; and\n(b) shall require the licensee to take such measures as are\nneeded to abate the adverse effects, if any, of the failure\nto comply with the conditions of the licence."
+    },
+    {
+      "number": "29",
+      "heading": "(1) Subject to the other provisions of this Act, the Board Suspension",
+      "text": "(1) Subject to the other provisions of this Act, the Board Suspension\nmay suspend or cancel any licence if the licensee— or\ncancellation\n(a) obtained the licence by fraud or deliberate or negligent\nof licence\nsubmission of false information;\n(b) transfers or otherwise assigns a licence without the prior\napproval of the Board;\n(c) fails to comply with the conditions of the licence or\ncontravenes any of the provisions of this Act or any\nregulations made under it; or\n(d) fails, without reasonable cause, to comply with the terms\nand conditions of an enforcement notice issued under\nsection twenty-eight.\n(2) The Board shall, before suspending or cancelling a licence\nunder subsection (1), give notice in writing to the licensee of its\nintention to suspend or cancel the licence and specify the grounds\nfor the impending suspension or cancellation and require the licensee\nto show cause, within a period of thirty days, why the licence should\nnot be suspended or cancelled.\n98 No. 16 of 2005) Ionising Radiation Protection\n(3) The Board shall not suspend or cancel a licence under this\nsection if the licensee takes remedial measures to the satisfaction\nof the Board, within the period specified in subsection (2).\n(4) If the licensee who is notified under subsection (2), fails to\nshow cause, or does not take remedial measures, to the satisfaction\nof the Board, within the period specified in that subsection, the\nBoard may suspend or cancel the licence.\n(5) Any person aggrieved by any decision of the Board to suspend\nor cancel a licence may appeal to the Minister not later than thirty\ndays after the notification of such suspension or cancellation.\n(6) Where an appeal is made under subsection (5), the Minister\nmay give such directions to the Board as theMinister considers\nnecessary to enable the Minister to determine the appeal.\n(7) The Minister in determining the appeal may confirm, vary or\nset aside the decision of the Board and shall notify the appellant\naccordingly.\n(8) Any person who is aggrieved by the decision of the Minister\nto confirm the Board's decision under subsection (7) may appeal to\nthe High Court within thirty days of the receipt of the notification\nof the Minister's decision.\n(9) Where a licence is suspended by the Board under this section\nthe licensee shall take such steps as the Board may direct to ensure\nthat no radiation hazards occur during the period of suspension.\n(10) Any person who continues to permit the use of radioactive\nmaterial or other source of harmful radiation while the licence is\nsuspended commits an offence and shall be liable, on conviction, to\na fine not exceeding fifty thousand penalty units or imprisonment\nfor a term not exceeding three years, or to both.\nPART V\nFINANCIAL PROVISIONS\nFunds of 30. (1) The funds of the Authority shall consist of such money\nAuthority as may—\n(a) be appropriated by Parliament for the purposes of\nAuthority;\n(b) be paid to the Authority by way of loans, grants or\ndonations; and\n(c) vest in or accrue to the Authority.\n(2) The Authority may—\n(a) accept moneys by way of grants or donations from any\nsource in Zambia; and\nIonising Radiation Protection [No. 16 of 2005 99\n(b) subject to the approval of the Minister, raise by way of\nloans or otherwise, such moneys as it may require for\nthe discharge of its functions.\n(3) There shall be paid from the funds of the Authority—\n(a) the salaries, allowances, loans, gratuities and pensions of\nstaff of the Authority and other payments for the\nrecruitment and retention of staff;\n(b) such reasonable travelling and subsistance allowances\nfor members or members ofany committee of the Board\nwhen engaged on the business of the Authority at such\nrates as the Board may, with the approval of the Minister,\ndetermine; and\n(c) any other expenses incurred by the Board in the\nperformance of its functions."
+    },
+    {
+      "number": "31",
+      "heading": "The Board may invest in such manner as it considers Investment",
+      "text": "The Board may invest in such manner as it considers Investment\nnecessary any of the funds of the Authority which the Board does of funds\nnot immediately require for the performance of the Authority's\nfunctions."
+    },
+    {
+      "number": "32",
+      "heading": "The financial year of the Authority shall be the period of Financial",
+      "text": "The financial year of the Authority shall be the period of Financial\ntwelve months ending on 31sl December in each year. vear"
+    },
+    {
+      "number": "33",
+      "heading": "(1) The Board shall cause to be kept proper books of Accounts",
+      "text": "(1) The Board shall cause to be kept proper books of Accounts\naccounts and other records relating to its accounts.\n(2) The accounts of the Authority shall be audited annually by\nindependent auditors appointed by the Board.\n(3) The Auditor's fees shall be paid by the Authority."
+    },
+    {
+      "number": "34",
+      "heading": "(1) As soon as is practicable, but not later than ninety days Annual",
+      "text": "(1) As soon as is practicable, but not later than ninety days Annual\nafter the end of the financial year, the Board shall submit to the report\nMinister a report concerning its activities during such financial\nyear.\n(2) The report referred to in subsection (1) shall include\ninformation on the financial affairs of the Authority and there shall\nbe appended to the report—\n(a) an audited balance sheet;\n(b) an audited statement of income and expenditure; and\n(c) such other information as the Minister may require.\n(4) The Minister shall, not later than seven days after the first\nsitting of the National Assembly next after receipt of the report\nreferred to in subsection (1), lay it before the National Assembly.\n100 No. 16 of 2005] Ionising Radiation Protection\nPART VI\nINSPECTIONS\nRadiation 35. (1) In order to ensure compliance with the provisions of\nsafety this Act, the Board shall appoint radiation safety officers to monitor,\nofficers inspect and enforce the provisions of this Act and the regulations\nmade under it.\n(2) The Executive Director shall issue an identity card to each\nradiation safety officer which shall be prima facie evidence of the\nradiation safety officer's appointment as such.\n(3) Any radiation safety officer carrying out any function under\nthis Act shall on demand by any person affected by the radiation\nsafety officer's exercise of powers, produce for inspection the\ncertificate referred to in subsection (2).\n(4) Each radiation safety officer shall be under the direction of\nthe Executive Director and shall perform such duties as may be\nspecified in the radiation safety officer's letter of appointment.\nPowers of 36. (1) A radiation safety officer shall, for purposes of\nradiation enforcing the provisions of this Act, have power -\nsafety\nofficers (a) at all reasonable times to enter, inspect and examine any\npremises or any part of such premises, vehicle, vessel,\nboat, aircraft or any carriage of any description in or\nupon which the officer has reasonable cause to believe\nthat radioactive material or any source of harmful\nionising radiation is stored, used transported or disposed\nof but no entry shall be made on a private dwelling house\nexcept under the authority of a court warrant;\n(b) to require the production of any licence authorising the\nuse of radioactive material or sources of harmful\nradiation and any register, certificate, notice or document\nkept under the provisions of this Act and to inspect,\nexamine or take a copy of such register, certificate, notice\nor document;\n(c) to take samples of radioactive material and make such\nexaminations and inquiries as may be necessary to\nascertain whether the provisions of this Act are being\ncomplied with;\n(d) to examine, either alone or in the presence of any other\nperson as the officer thinks fit, any person with respect\nto matters under this Act or to require such person to be\nexamined:\nProvided that no person shall be compelled to answer any\nquestions or give evidence tending to incriminate that\nperson;\nIonising Radiation Protection [No. 16 of 2002 97\n(2) An enforcement notice issued under subsection (1) shall—\n(a) state the contravention or the likely contravention of the\nAct, directive or any other condition of the licence and\nthe matters constituting the contravention or making it\nlikely that the contravention will arise;\n(b) specify the steps that have to be taken to remedy the\ncontravention or avoid the contravention, as the case may\nbe;\n(c) specify the effective date of the notice and the time limit\nwithin which the steps described under paragraph (b)\nmust be taken.\n(3) The Board, if it considers it necessary for the safety of the\npublic or the workers —\n(a) may require the suspension of the work with the radioactive\nmaterial or other source of harmful ionising radiation\nand its storage in a safe place or under conditions\npreventing exposure of the public or workers to\npotentially harmful radiation; and\n(b) shall require the licensee to take such measures as are\nneeded to abate the adverse effects, if any, of the failure\nto comply with the conditions of the licence."
+    },
+    {
+      "number": "29",
+      "heading": "(1) Subject to the other provisions of this Act, the Board Suspension",
+      "text": "(1) Subject to the other provisions of this Act, the Board Suspension\nmay suspend or cancel any licence if the licensee— or\ncancellation\n(a) obtained the licence by fraud or deliberate or negligent\nof licence\nsubmission of false information;\n(b) transfers or otherwise assigns a licence without the prior\napproval of the Board;\n(c) fails to comply with the conditions of the licence or\ncontravenes any of the provisions of this Act or any\nregulations made under it; or\n(d) fails, without reasonable cause, to comply with the terms\nand conditions of an enforcement notice issued under\nsection twenty-eight.\n(2) The Board shall, before suspending or cancelling a licence\nunder subsection (1), give notice in writing to the licensee of its\nintention to suspend or cancel the licence and specify the grounds\nfor the impending suspension or cancellation and require the licensee\nto show cause, within a period of thirty days, why the licence should\nnot be suspended or cancelled.\n98 No. 16 of 2005] Ionising Radiation Protection\n(3) The Board shall not suspend or cancel a licence under this\nsection if the licensee takes remedial measures to the satisfaction\nof the Board, within the period specified in subsection (2).\n(4) If the licensee who is notified under subsection (2), fails to\nshow cause, or does not take remedial measures, to the satisfaction\nof the Board, within the period specified in that subsection, the\nBoard may suspend or cancel the licence.\n(5) Any person aggrieved by any decision of the Board to suspend\nor cancel a licence may appeal to the Minister not later than thirty\ndays after the notification of such suspension or cancellation.\n(6) Where an appeal is made under subsection (5), the Minister\nmay give such directions to the Board as theMinister considers\nnecessary to enable the Minister to determine the appeal.\n(7) The Minister in determining the appeal may confirm, vary or\nset aside the decision of the Board and shall notify the appellant\naccordingly.\n(8) Any person who is aggrieved by the decision of the Minister\nto confirm the Board's decision under subsection (7) may appeal to\nthe High Court within thirty days of the receipt of the notification\nof the Minister's decision.\n(9) Where a licence is suspended by the Board under this section\nthe licensee shall take such steps as the Board may direct to ensure\nthat no radiation hazards occur during the period of suspension.\n(10) Any person who continues to permit the use of radioactive\nmaterial or other source of harmful radiation while the licence is\nsuspended commits an offence and shall be liable, on conviction, to\na fine not exceeding fifty thousand penalty units or imprisonment\nfor a term not exceeding three years, or to both.\nPARTV\nFINANCIAL PROVISIONS\nFunds of 30. (1) The funds of the Authority shall consist of such money\nAuthority as may-\nfa) be appropriated by Parliament for the purposes of\nAuthority;\n(b) be paid to the Authority by way of loans, grants or\ndonations; and\n(c) vest in or accrue to the Authority.\n(2) The Authority may—\n(a) accept moneys by way of grants or donations from any\nsource in Zambia; and\nIonising Radiation Protection [No. 16 of 2005 99\n(b) subject to the approval of the Minister, raise by way of\nloans or otherwise, such moneys as it may require for\nthe discharge of its functions.\n(3) There shall be paid from the funds of the Authority—\n(a) the salaries, allowances, loans, gratuities and pensions of\nstaff of the Authority and other payments for the\nrecruitment and retention of staff;\n(b) such reasonable travelling and subsistance allowances\nfor members or members ofany committee of the Board\nwhen engaged on the business of the Authority at such\nrates as the Board may, with the approval of the Minister,\ndetermine; and\n(c) any other expenses incurred by the Board in the\nperformance of its functions."
+    },
+    {
+      "number": "31",
+      "heading": "The Board may invest in such manner as it considers Investment",
+      "text": "The Board may invest in such manner as it considers Investment\nnecessary any of the funds of the Authority which the Board does of funds\nnot immediately require for the performance of the Authority's\nfunctions."
+    },
+    {
+      "number": "32",
+      "heading": "The financial year of the Authority shall be the period of Financial",
+      "text": "The financial year of the Authority shall be the period of Financial\ntwelve months ending on 3151 December in each year. year"
+    },
+    {
+      "number": "33",
+      "heading": "(1) The Board shall cause to be kept proper books of Accounts",
+      "text": "(1) The Board shall cause to be kept proper books of Accounts\naccounts and other records relating to its accounts.\n(2) The accounts of the Authority shall be audited annually by\nindependent auditors appointed by the Board.\n(3) The Auditor's fees shall be paid by the Authority."
+    },
+    {
+      "number": "34",
+      "heading": "(1) As soon as is practicable, but not later than ninety days Annual",
+      "text": "(1) As soon as is practicable, but not later than ninety days Annual\nafter the end of the financial year, the Board shall submit to the report\nMinister a report concerning its activities during such financial\nyear.\n(2) The report referred to in subsection (1) shall include\ninformation on the financial affairs of the Authority and there shall\nbe appended to the report—\n(a) an audited balance sheet;\n(b) an audited statement of income and expenditure; and\n(c) such other information as the Minister may require.\n(4) The Minister shall, not later than seven days after the first\nsitting of the National Assembly next after receipt of the report\nreferred to in subsection (1), lay it before the National Assembly.\n100 No. 16 of 2005] Ionising Radiation Protection\nPART VI\nINSPECTIONS\nRadiation 35. (1) In order to ensure compliance with the provisions of\nsafety this Act, the Board shall appoint radiation safety officers to monitor,\nofficers inspect and enforce the provisions of this Act and the regulations\nmade under it.\n(2) The Executive Director shall issue an identity card to each\nradiation safety officer which shall be prima facie evidence of the\nradiation safety officer's appointment as such.\n(3) Any radiation safety officer carrying out any function under\nthis Act shall on demand by any person affected by the radiation\nsafety officer's exercise of powers, produce for inspection the\ncertificate referred to in subsection (2).\n(4) Each radiation safety officer shall be under the direction of\nthe Executive Director and shall perform such duties as may be\nspecified in the radiation safety officer's letter of appointment.\nPowers of 36. (1) A radiation safety officer shall, for purposes of\nradiation enforcing the provisions of this Act, have power -\nsafety\nofficers (a) at all reasonable times to enter, inspect and examine any\npremises or any part of such premises, vehicle, vessel,\nboat, aircraft or any carriage of any description in or\nupon which the officer has reasonable cause to believe\nthat radioactive material or any source of harmful\nionising radiation is stored, used transported or disposed\nof but no entry shall be made on a private dwelling house\nexcept under the authority of a court warrant;\n(b) to require the production of any licence authorising the\nuse of radioactive material or sources of harmful\nradiation and any register, certificate, notice or document\nkept under the provisions of this Act and to inspect,\nexamine or take a copy of such register, certificate, notice\nor document;\n(c) to take samples of radioactive material and make such\nexaminations and inquiries as may be necessary to\nascertain whether the provisions of this Act are being\ncomplied with;\n(d) to examine, either alone or in the presence of any other\nperson as the officer thinks fit, any person with respect\nto matters under this Act or to require such person to be\nexamined:\nProvided that no person shall be compelled to answer any\nquestions or give evidence tending to incriminate that\nperson;\nIonising Radiation Protection [No. 16 of 2005 101\n(e) to require the medical examination of, or if the radiation\nsafety officer is a medical practitioner to carry out such\nmedical examinations of, any person whom the officer\nhas reasonable cause to believe is contaminated with or\nhas been exposed to radioactive material or is unlawfully\nin possession of ar.y source of harmful ionising radiation;\n(f) to seize any radioactive material or ionising radiation source\nwhich the officer has reasonable ground to believe the\nperson in whose possession it is has no authorisation;\nand\n(g) to exercise such other powers as are necessary for carrying\nthe provisions of this Act into effect.\n(2) The owner of any radioactive material or any source of\nharmful ionising radiation, the agent, employee or servant of such\nowner shall furnish the means required by the radiation safety officer\nas may be necessary for entry, inspection, examination, inquiry, the\ntaking of samples or otherwise for the exercise of the officer's powers\nunder this Act.\n(3) Any person who obstructs a radiation safety officer in the\nexercise of that officer's duty under this Act commits an offence\nand shall be liable upon conviction to a fine not exceeding fifty\nthousand penalty units or to imprisonment for a term not exceeding\nthree years or to both.\n(4) A radiation safety officer shall treat as confidential the source\nof any complaint bringing to the officer's notice any contravention\nof the provisions of this Act and shall not give information to the\nowner or the representative of the owner that a visit of inspection\nwas made in consequence of such complaint.\n(5) A radiation safety officer who contravenes subsection (3)\ncommits an offence and shall be liable on conviction to imprisonment\nfor a term of not less than five years but not exceeding fifteen years."
+    },
+    {
+      "number": "37",
+      "heading": "Each radiation safety officer shall furnish the Board with Duty of",
+      "text": "Each radiation safety officer shall furnish the Board with Duty of\nsuch reports and other information relating to an inspection as the radiation\nBoard may direct. safety\nofficer to\nPART VI report to\nBoard\nGENERAL PROVISIONS"
+    },
+    {
+      "number": "38",
+      "heading": "(1) A person who imports, processes, mines, exports, Offences and",
+      "text": "(1) A person who imports, processes, mines, exports, Offences and\npossesses, transports, uses or disposes of radioactive material or penalties\nother source of harmful ionising radiation without a licence issued\nunder this Act commits an offence and shall be liable, on conviction,\nto imprisonment for a term of not less than fifteen years but not\nexceeding twenty-five years.\n102 No. 16 of 2005] Ionising Radiation Protection\n(2) In addition to the penalties provided in subsection (1), the\nradioactive material or other source of harmful ionising radiation\nshall be liable on the order of the court, to seizure, impoundment,\nsealing, seizure of operation, destruction or disposal in such manner\nas the court may consider necessary to protect the public and the\nenvironment and may only be returned to the original owner on the\norder of the court and under such conditions set out in the licence\nissued under this Act.\n(3) Any act or omission, which if done by an individual shall be\nan offence under this Act or any regulations made under it, shall, if\ndone by a body corporate, be deemed an offence committed by every\ndirector, secretary or manager, unless the director, secretary or\nmanager proves that the offence was committed without their consent\nor connivance and that the director, secretary or manager exercised\nall such diligence to prevent the commission of the offence as the\ndirector, secretary or manager ought to have exercised, having regard\nto the nature of the director, secretary or manager's functions and\nall the circumstances of the case.\nProhibition 39. Every person employed by the Authority shall treat as\nof disclosure confidential any information of a type normally considered subject\nof\nto professional, commercial, trade or industrial secrecy, the\ninformation\nby employee revelation of which is not necessary for the implementation of this\nAct, and any person who discloses such information to any other\nperson in contravention of this section, whether such person has\nceased to be employed by the Authority commits an offence and\nshall be liable on conviction to imprisonment for a term of not less\nthan five years but not exceeding fifteen years.\nReferences 40. (1) On the appointed date, reference in any written law or\nto Radiation any other legal document to the Radiation Protection Board shall\nProtection be read and construed as references to the Radiation Protection\nBoard and\nAuthority established by section five of this Act.\nChief\nRadiation (2) On or after the appointed date, any reference in any written\nOfficer law or any other legal document to the Chief Radiation Officer\nshall be read and construed as references to the Executive Director\nappointed under section sixteen of this Act.\nDissolution 41. The Radiation Protection Board constituted pursuant to\nof Radiation section five of the Ionising Radiation Act shall, pending the\nprotection\nBoard appointment of the Board under this Act, continue in office for a\nCap. 311\nperiod of three months from the appointed date.\nVesting of 42. (1) On or after the appointed date, there shall be transferred\nassets of to, and vest in, or subsist against, the Authority by virtue of this Act\nRadiation\nProtection and without further assurance—\nBoard\nIonising Radiation Protection [No. 16 of 2005 103\n(a) the affairs of the Radiation Protection Board; and\n(b) subject to this Act, all property, rights and obligations\nwhich immediately before the appointed date were the\nproperty, rights and obligations of the Radiation\nProtection Board.\n(2) Except as provided in this Act, every deed, bond and agreement\n(other than an agreement for personal service) to which the\nGovernment was a party immediately before the commencement of\nthis Act in respect of the Radiation Protection Board, whether in\nwriting or not, and whether or not of such a nature that rights,\nliabilities and obligations thereunder could be assigned, shall, unless\nits subject-matter or terms make it impossible that it should have\neffect as modified in the manner provided by this subsection, have\neffect as from the date of the assignment thereof, as if -\n(a) the Authority had been a party thereto;\n(b) for any reference to the Government there were substituted,\nas respects anything falling to be done on or after the\nappointed date, a reference to the Authority; and\n(c ) for any reference to any employee of the Radiation\nProtection Board not being a party thereto and\nbeneficially interested therein there were substituted, as\nrespects anything falling to be done on or after\ncommencement of this Act, or reference to such employee\nof the Authority as the Authority shall designate.\n(3) Subject to the provisions of subsection (2), documents, other\nthan those referred to therein, which refer specifically or generally\nto the Radiation Protection Board shall be construed in accordance\nwith subsection (2) as far as applicable."
+    },
+    {
+      "number": "43",
+      "heading": "(1) Whenever in pursuance of this Act, any property, rights, Registration",
+      "text": "(1) Whenever in pursuance of this Act, any property, rights, Registration\nof\nliabilities and obligations of the Government through the Radiation\nroperty to\nProtection Board are deemed transferred to the Authority in respect e\nof which transfer a written law provides for registration, the transferred\nAuthority shall make an application in writing to the appropriate\nGovernment\nauthority for registration of the transfer.\n(2) The registration authority referred to in sub-paragraph (1)\nshall make such entries in the appropriate register as shall give\neffect to such transfer and, where applicable, issue the transferee\nconcerned with a certificate of title in respect of the property or\nmake necessary amendments to the register, as the case may be,\nand shall make endorsement on the deeds relating to the title, right\nor obligation concerned; and no registration fees, stamp duty or\nother duties shall be payable in respect thereof.\n104 No. 16 of 2005] Ionising Radiation Protection\nLegal 44. (1) Without prejudice to the other provisions of this Act,\nproceedings where any right, liability or obligations vest in the Authority by\nvirtue of this Act, the Authority and all other persons shal 1, as from\nthe commencement of this Act, have the same right, powers and\nremedies (and in particular the same rights as to the instituting or\ndefending of legal proceedings or the making or resisting of\napplications to any authority) for ascertaining, perfecting that right,\nliability or obligation as they would have had if it had at all times\nbeen a right, liability or obligation of the Authority.\n(2) Any legal proceedings or application of any authority pending\nimmediately before the commencement of this Act by or against the\nGovernment in respect of the Radiation Protection Board may be\ncontinued by or against the Authority.\n(3) After the commencement of this Act, proceedings in respect\nof any right, liability or obligation which was vested in, held, enjoyed,\nincurred or suffered by the Government in respect of the Radiation\nProtection Board may be instituted by or against the Authority.\nStaff of 45. (1) On or after the appointed date, the Board shall on such\nRadiation terms and conditions as it may, with the approval of the Minister,\nProtection\ndetermine appoint as officers of the Authority such number of public\nBoard\nofficers from the Radiation Protection Board as may be necessary\nfor the performance of the functions of the Authority.\n(2) Where an employee of the Radiation Protection Board is\nappointed to the service of the Authority—\n(a) the terms and conditions of service with the Authority shall\nnot be less favourable than those the officer enjoyed in\nthe Public Service; and\nAct No. 35 (b) the employee shall be deemed to have retired under section\nof 1996 thirty-nine of the Public Service Pensions Act.\n(3) On or after the appointed date employees of the Radiation\nProtection Board who are not engaged by the Authority under\nsubsection (2) shall be retained by the Government and shall—\n(a) be redeployed in the service of the Government; or\nAct No. 35 (b) be retired under section thirty-nine of the Public Service\nof 1996 Pensions Act.\nRegulations 46. (1) The Minister may, on the recommendation of the Board,\nby statutory instrument, make regulations for the better carrying\nout of the provisions of this Act.\n(2) In particular and without prejudice to the generality of\nsubsection (1), the regulations made under this section may—\nIonising Radiation Protection [No. 16 of 2005 105\n(a) prescribe the application and licence forms to be used\nunder this Act;\n^ limit the use of radioactive material or equipment producing\nharmful ionising radiation for any specified purpose,\nincluding use for medical or dental purposes;\n(c) prescribe fees for services rendered by the Authority; and\n(d) prescribe anything required to be prescribed under this\nAct."
+    },
+    {
+      "number": "47",
+      "heading": "Section seventy-four of the Environmental Protection and Repeal of",
+      "text": "Section seventy-four of the Environmental Protection and Repeal of\nsection 74 of\nPollution Control Act is hereby repealed.\nEnvironmental\nProtection\nand\nPollution\nControl Act\nCap. 204"
+    },
+    {
+      "number": "48",
+      "heading": "(1) The Ionising Radiation Act, 1972 is hereby repealed. Repeal of",
+      "text": "(1) The Ionising Radiation Act, 1972 is hereby repealed. Repeal of\nIonising\n(2) Notwithstanding subsection (1), any licence or authorisation Radiation\nAct and\ngiven by the former Board shall unless earlier revoked or suspended savings\nCap. 311\ncontinue to be valid as though issued under this Act.\n106"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Ionising%20Radiation%20Protection%2C%202005.pdf",
+  "source_hash": "sha256:1ce25177ee294ee45f66cacd3ec623a831e81e3cf95d33196a8f4b0178c3a115",
+  "fetched_at": "2026-04-13T04:30:29Z",
+  "parser_version": "0.1.0",
+  "needs_ocr": false
+}
