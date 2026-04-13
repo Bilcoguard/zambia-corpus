@@ -304,3 +304,9 @@ consider Government Gazette or direct MMMD/MoJ request).
 - Pages 35+ of parliament.gov.zm listing contain Laws of Zambia (Chapter Acts) without year/number in titles
 - Successfully extracting Cap. numbers from PDF first pages
 - Remaining Cap. Acts from pages 35-36 for next tick: Tourism Act, Water Act, National Heritage Conservation Commission Act, Rating Act, National Housing Authority Act, Agricultural Lands Act, ZNBC Act, Landlord and Tenant Act, Housing (Statutory) Act, and more
+
+## [2026-04-13] Phase 4 Batch 0064 — Gaps
+
+- Constitution Amendment Act 2016: duplicate of act-zm-2016-002, removed
+- Lands Act: duplicate of act-zm-cap-184-lands-act (same hash), removed
+- 5 Laws of Zambia chapter acts have no extractable Cap. number (tagged loz-*): need manual Cap. assignment from Laws of Zambia index
