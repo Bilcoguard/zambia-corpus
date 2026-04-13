@@ -1,0 +1,585 @@
+{
+  "id": "loz-coffee-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Coffee Act",
+  "citation": "Coffee Act",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "preamble",
+      "heading": "Preamble",
+      "text": "The Laws of Zambia\nREPUBLIC OF ZAMBIA\nTHE COFFEE ACT\nCHAPTER 228 OF THE LAWS OF ZAMBIA\nCHAPTER 228 THE COFFEE ACT\nTHE COFFEE ACT\nARRANGEMENT OF SECTIONS\nPART I PRELIMINARYPART I\nPRELIMINARY\nSection\n"
+    },
+    {
+      "number": "1",
+      "heading": "S hort title",
+      "text": "1. S hort title\n"
+    },
+    {
+      "number": "2",
+      "heading": "I nterpretation",
+      "text": "2. I nterpretation\nPART II COFFEE BOARD OF ZAMBIAPART II\nCOFFEE BOARD OF ZAMBIA\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n"
+    },
+    {
+      "number": "3",
+      "heading": "E stablishment of Board",
+      "text": "3. E stablishment of Board\n"
+    },
+    {
+      "number": "4",
+      "heading": "C omposition of Board",
+      "text": "4. C omposition of Board\n"
+    },
+    {
+      "number": "5",
+      "heading": "F illing of casual vancancy",
+      "text": "5. F illing of casual vancancy\n"
+    },
+    {
+      "number": "6",
+      "heading": "S ecretary",
+      "text": "6. S ecretary\n"
+    },
+    {
+      "number": "7",
+      "heading": "F unctions of Board",
+      "text": "7. F unctions of Board\n"
+    },
+    {
+      "number": "8",
+      "heading": "S eal of Board",
+      "text": "8. S eal of Board\n"
+    },
+    {
+      "number": "9",
+      "heading": "P roceedings of Board",
+      "text": "9. P roceedings of Board\n"
+    },
+    {
+      "number": "10",
+      "heading": "D isclosure of interest",
+      "text": "10. D isclosure of interest\n"
+    },
+    {
+      "number": "11",
+      "heading": "I mmunity",
+      "text": "11. I mmunity\n"
+    },
+    {
+      "number": "12",
+      "heading": "P rohibition of publication or disclosure of information to unauthorised persons",
+      "text": "12. P rohibition of publication or disclosure of information to unauthorised persons\n"
+    },
+    {
+      "number": "13",
+      "heading": "C offee Licensing Committee",
+      "text": "13. C offee Licensing Committee\n"
+    },
+    {
+      "number": "14",
+      "heading": "F unctions of the Coffee Licensing Committee",
+      "text": "14. F unctions of the Coffee Licensing Committee\n"
+    },
+    {
+      "number": "15",
+      "heading": "A ppeals Classification Committee",
+      "text": "15. A ppeals Classification Committee\n"
+    },
+    {
+      "number": "16",
+      "heading": "F unctions of the Appeals Classification Committee",
+      "text": "16. F unctions of the Appeals Classification Committee\nPART III PRODUCTION, CURING, CLASSIFICATION, MARKETING AND EXPORT OF\nCOFFEEPART III\nPRODUCTION, CURING, CLASSIFICATION, MARKETING AND\nEXPORT OF COFFEE\n"
+    },
+    {
+      "number": "17",
+      "heading": "A rabica Coffee to be grown in Zambia",
+      "text": "17. A rabica Coffee to be grown in Zambia\n"
+    },
+    {
+      "number": "18",
+      "heading": "F unctions of Association",
+      "text": "18. F unctions of Association\n"
+    },
+    {
+      "number": "19",
+      "heading": "P rohibition on growing or curing coffee without a certificate",
+      "text": "19. P rohibition on growing or curing coffee without a certificate\n"
+    },
+    {
+      "number": "20",
+      "heading": "C ertificates",
+      "text": "20. C ertificates\n"
+    },
+    {
+      "number": "21",
+      "heading": "A pplication for, renewal and refusal of, certificates",
+      "text": "21. A pplication for, renewal and refusal of, certificates\n"
+    },
+    {
+      "number": "22",
+      "heading": "A pplication for certificates by co-operative society",
+      "text": "22. A pplication for certificates by co-operative society\nSection\n"
+    },
+    {
+      "number": "23",
+      "heading": "C onditions of certificates",
+      "text": "23. C onditions of certificates\n"
+    },
+    {
+      "number": "24",
+      "heading": "R egister of land planted with coffee, coffee growers and registered curing",
+      "text": "24. R egister of land planted with coffee, coffee growers and registered curing\nestablishment owners\n"
+    },
+    {
+      "number": "25",
+      "heading": "C uring of coffee",
+      "text": "25. C uring of coffee\n"
+    },
+    {
+      "number": "26",
+      "heading": "C lassification of coffee",
+      "text": "26. C lassification of coffee\n"
+    },
+    {
+      "number": "27",
+      "heading": "A ppeals against classification",
+      "text": "27. A ppeals against classification\n"
+    },
+    {
+      "number": "28",
+      "heading": "C offee to be delivered to Association",
+      "text": "28. C offee to be delivered to Association\n"
+    },
+    {
+      "number": "29",
+      "heading": "E xport of coffee",
+      "text": "29. E xport of coffee\nPART IV DISTINGUISHING MARKSPART IV\nDISTINGUISHING MARKS\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n"
+    },
+    {
+      "number": "30",
+      "heading": "A pproval of distinguishing mark",
+      "text": "30. A pproval of distinguishing mark\n"
+    },
+    {
+      "number": "31",
+      "heading": "R egistration of distinguishing mark",
+      "text": "31. R egistration of distinguishing mark\n"
+    },
+    {
+      "number": "32",
+      "heading": "R efusal to approve distinguishing mark",
+      "text": "32. R efusal to approve distinguishing mark\n"
+    },
+    {
+      "number": "33",
+      "heading": "R egister of distinguishing marks",
+      "text": "33. R egister of distinguishing marks\n"
+    },
+    {
+      "number": "34",
+      "heading": "U se of distingushing marks",
+      "text": "34. U se of distingushing marks\n"
+    },
+    {
+      "number": "35",
+      "heading": "M arking of receptacle",
+      "text": "35. M arking of receptacle\nPART V LICENSINGPART V\nLICENSING\n"
+    },
+    {
+      "number": "36",
+      "heading": "P rohibition in dealing in coffee without a licence",
+      "text": "36. P rohibition in dealing in coffee without a licence\n"
+    },
+    {
+      "number": "37",
+      "heading": "L icences",
+      "text": "37. L icences\n"
+    },
+    {
+      "number": "38",
+      "heading": "A pplications for, renewal and refusal of, licences",
+      "text": "38. A pplications for, renewal and refusal of, licences\n"
+    },
+    {
+      "number": "39",
+      "heading": "C onditions of licences",
+      "text": "39. C onditions of licences\n"
+    },
+    {
+      "number": "40",
+      "heading": "R egister to be kept by licence holder",
+      "text": "40. R egister to be kept by licence holder\n"
+    },
+    {
+      "number": "41",
+      "heading": "C ancellation of licences",
+      "text": "41. C ancellation of licences\n"
+    },
+    {
+      "number": "42",
+      "heading": "L icences held by co-operative society",
+      "text": "42. L icences held by co-operative society\n"
+    },
+    {
+      "number": "43",
+      "heading": "A ppeals relating to licences",
+      "text": "43. A ppeals relating to licences\nPART VI FINANCEPART VI\nFINANCE\n"
+    },
+    {
+      "number": "44",
+      "heading": "L evies",
+      "text": "44. L evies\n"
+    },
+    {
+      "number": "45",
+      "heading": "C offee Pool Fund",
+      "text": "45. C offee Pool Fund\n"
+    },
+    {
+      "number": "46",
+      "heading": "P ower to borrow on security of Coffee Pool Fund",
+      "text": "46. P ower to borrow on security of Coffee Pool Fund\n"
+    },
+    {
+      "number": "47",
+      "heading": "F inancial year",
+      "text": "47. F inancial year\nSection\n"
+    },
+    {
+      "number": "48",
+      "heading": "A ccounts",
+      "text": "48. A ccounts\n"
+    },
+    {
+      "number": "49",
+      "heading": "A udit of accounts",
+      "text": "49. A udit of accounts\n"
+    },
+    {
+      "number": "50",
+      "heading": "A nnual report",
+      "text": "50. A nnual report\nPART VII MISCELLANEOUSPART VII\nMISCELLANEOUS\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n"
+    },
+    {
+      "number": "51",
+      "heading": "I nspectors",
+      "text": "51. I nspectors\n"
+    },
+    {
+      "number": "52",
+      "heading": "P owers of inspectors and police officers",
+      "text": "52. P owers of inspectors and police officers\n"
+    },
+    {
+      "number": "53",
+      "heading": "I nspection of records of Association",
+      "text": "53. I nspection of records of Association\n"
+    },
+    {
+      "number": "54",
+      "heading": "C ancellation of certificate or licence by court order",
+      "text": "54. C ancellation of certificate or licence by court order\n"
+    },
+    {
+      "number": "55",
+      "heading": "G eneral penalty",
+      "text": "55. G eneral penalty\n"
+    },
+    {
+      "number": "56",
+      "heading": "R egulations",
+      "text": "56. R egulations\nCHAPTER 228\nCOFFEE ACT Act No.24 of 198913\nof 1994\nAn Act to establish the Coffee Board of Zambia; to define the functions and powers\nof the Coffee Board of Zambia and those of the Zambia Coffee Growers\nAssociation Limited; to regulate the coffee industry; to control the production\nand marketing of coffee; and to provide for matters connected with or\nincidental to the foregoing.\n[29th December, 1989\nPART I PRELIMINARYPART I\nPRELIMINARY\n"
+    },
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Coffee Act. Short Title",
+      "text": "1. This Act may be cited as the Coffee Act. Short Title\n"
+    },
+    {
+      "number": "2",
+      "heading": "In this Act unless the context otherwise requires- Interpretation",
+      "text": "2. In this Act unless the context otherwise requires- Interpretation\n\"Appeals Classification Committee\" means the body constituted by section fifteen;\n\"Association\" means the Zambia Coffee Growers Association Limited, a company Cap. 388\nlimited by guarantee and registered under the Companies Act;\n\"Board\" means the Coffee Board of Zambia established by section three;\n\"Chairman\" means the person designated chairman of the Board under section\nfour;\n\"cherry\" means the fresh fruit of the coffee tree;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n\"classified coffee\" means coffee which has been classified by the Association\nunder section twenty-six;\n\"coffee\" means the commodity derived from the fruit of the rubiaceous plant known\nas the coffee tree, and includes cherry, dried cherry, parchment coffee,\ncured coffee, roasted coffee and prepared coffee;\n\"Coffee Licensing Committee\" means the Committee constituted under section\nthirteen;\n\"Committee\" means the Coffee Licensing Committee or the Appeals Classification\nCommittee as the case may be;\n\"crop year\" means the period from the 1st April to the 31st March of the following\nyear unless otherwise changed by the Board;\n\"cured coffee\" means coffee beans after removal of dried cherry skin or parchment\nskin and \"cleaning\", \"clean coffee\" or \"green coffee\" shall be construed\naccordingly;\n\"curing\" means the process of removing dried cherry skin or parchment skin by\nmechanical means, for commercial purposes, and \"cured\" shall be\nconstrued accordingly;\n\"curing establishment\" means any place where dried cherry or parchment coffee is\ncured;\n\"depulping\" means the process of removing the cherry skin by mechanical means\nand \"depulp\" shall be construed accordingly;\n\"dried cherry\" means the fruit of the coffee tree dried whole and not depulped;\n\"licence holder\" means a person holding a licence issued under section\nthirty-seven;\n\"member\" means a member of the Board;\n\"parchment coffee\" means coffee after depulping but before curing;\n\"prepared coffee\" means coffee which is brewed for commercial purposes;\n\"registered coffee grower\" means a person holding a coffee growers certificate,\nissued under section twenty;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n\"registered curing establishment owner\" means a person holding a coffee curing\nestablishment certificate issued under section twenty;\n\"roasted coffee\" means cured coffee roasted to any degree whether whole or\nground to powder;\n\"Vice-Chairman\" means the person elected Vice-Chairman of the Board under\nsection four.\nPART II COFFEE BOARD OF ZAMBIAPART II\nCOFFEE BOARD OF ZAMBIA\n"
+    },
+    {
+      "number": "3",
+      "heading": "There is hereby established the Coffee Board of Zambia which shall be a body Establishment of",
+      "text": "3. There is hereby established the Coffee Board of Zambia which shall be a body Establishment of\ncorporate with perpetual sucession and a common seal, capable of suing and being sued Board\nin its corporate name and with power, subject to the provisions of this Act, to do all such\nacts and things as a body corporate may lawfully do or perform.\n"
+    },
+    {
+      "number": "4",
+      "heading": "(1) The Board shall consist of the following members: Composition of Board",
+      "text": "4. (1) The Board shall consist of the following members: Composition of Board\n(a) the Permanent Secretary in the Ministry responsible for agriculture, who\nshall be Chairman;\n(b) not more than seven persons appointed by the Minister of whom-\n(i) o ne shall be a representative of the Ministry responsible for finance;\n(ii) one shall be a nominee of an establishment concerned with\nresearch in coffee;\n(iii) o ne shall be a nominee of holders of coffee roasting licenses issued\nunder section thirty-seven;\n(iv) f our shall be from persons who the Minister thinks should be\nrepresented on the Board; and\n(c) five persons appointed by the Association.\n(2) There shall be a Vice-Chairman who shall be elected by the Board from\namongst its members.\n(3) A member referred to in paragraphs (b) and (c) of subsection (1) shall hold office\nfor a period of four years, but shall be eligible for reappointment.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(4) A member referred to in paragraphs (b) and (c) of subsection (1) may resign\nupon giving one month's notice in writing to the Minister or Association, as the case may\nbe, and may be removed at any time.\n"
+    },
+    {
+      "number": "5",
+      "heading": "Whenever the office of a member becomes vacant before the expiry of the term Filling of casual",
+      "text": "5. Whenever the office of a member becomes vacant before the expiry of the term Filling of casual\nprovided in section four the Minister or the Association, as the case may be, may appoint vacancy\nanother person to be a member:\nProvided that such other person shall hold office only for the unexpired term of office\nof the person who vacated the office.\n"
+    },
+    {
+      "number": "6",
+      "heading": "The Board may appoint a Secretary to the Board on such terms and conditions Secretary",
+      "text": "6. The Board may appoint a Secretary to the Board on such terms and conditions Secretary\nas the Board may determine.\n"
+    },
+    {
+      "number": "7",
+      "heading": "(1) The functions of the Board shall be to- Functions of Board",
+      "text": "7. (1) The functions of the Board shall be to- Functions of Board\n(a) regulate the coffee industry for the Republic;\n(b) advise the Government on policies and measures relating to the coffee\nindustry;\n(c) promote the sale of coffee;\n(d) encourage the production of good quality coffee;\n(e) implement the Government's policies relating to the coffee industry;\n(f) a ct as the agent of the Government in matters relating to the coffee\nindustry;\n(g) co-operate, within the framework of any international organization or\nagreement, for the promotion, control of production, or marketing, of coffee;\n(h) arrange, when so requested by the Government, for the representation of\nZambia, on any international organization dealing with coffee, or at any\ninternational conference relating to coffee;\n(i) e xperiment, investigate and conduct research in areas relating to coffee;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(j) i n consultation with the Association-\n(i) s et out licensing criteria for use by the Coffee Licensing Committee;\n(ii) lay down conditions for the control of coffee production;\n(iii) l ay down conditions for the propagation of coffee seedlings;\n(iv) l ay down conditions under which Arabica Coffee shall be grown in\nZambia;\n(v) lay down terms and conditions for the importation and sourcing of\ncoffee seed;\n(vi) e stablish a coffee classification system;\n(k) carry out such other activities as are necessary or conducive to the better\nperformance of its functions.\n(2) The Board may, by directions in writing, and subject to such terms and\nconditions as it considers necessary, delegate to the Secretary any of its functions under\nthis Act.\n"
+    },
+    {
+      "number": "8",
+      "heading": "(1) The seal of the Board shall be such device as may be determined by the Seal of Board",
+      "text": "8. (1) The seal of the Board shall be such device as may be determined by the Seal of Board\nBoard and may be kept by the Secretary.\n(2) The Board may use a wafer or rubber stamp in lieu of the seal.\n(3) The affixing of the seal shall be authenticated by the Chairman or the\nVice-Chairman, and the Secretary or one other person authorised in that behalf by a\nresolution of the Board.\n(4) Any contract or instrument which, if entered into or executed by a person not\nbeing a body corporate would not be required to be under seal, may be entered into or\nexecuted without seal on behalf of the Board by the Secretary or any other person\nauthorised in that behalf by a resolution of the Board.\n(5) Any document purporting to be a document under the seal of the Board or\nissued on behalf of the Board shall be received in evidence and shall be deemed to be so\nexecuted or issued, as the case may be, without further proof, unless the contrary is\nproved.\n"
+    },
+    {
+      "number": "9",
+      "heading": "(1) Subject to the other provisions of this Act, the Board may regulate its own Proceedings of Board",
+      "text": "9. (1) Subject to the other provisions of this Act, the Board may regulate its own Proceedings of Board\nprocedure.\n(2) The Board shall meet for the transaction of business at least once every three\nmonths at such places and at such times as the Chairman may decide.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(3) Upon giving notice of not less than fourteen days, a meeting of the Board may\nbe called by the Chairman and shall be called if not less than five members so request in\nwriting:\nProvided that if the urgency of any particular matter does not permit the giving of\nsuch notice, a special meeting may be called upon the giving of shorter notice.\n(4) Seven members shall form a quorum at any meeting of the Board.\n(5) There shall preside at any meeting of the Board-\n(a) the Chairman; or\n(b) in the absence of the Chairman, the Vice-Chairman; or\n(c) in the absence of the Chairman and the Vice-Chairman, such member as\nthe members present may elect for the purpose of that meeting.\n(6) A decision of the Board on any question shall be by a majority of the members\npresent and voting at a meeting and, in the event of an equality of votes, the person\npresiding at the meeting shall have a casting vote in addition to his deliberative vote.\n(7) Where the member referred to in paragraph (a) of subsection (1) of section four\nis for any reasonable cause unable to attend any meeting of the Board, he may, in writing,\nnominate another person to attend such meeting in his stead and such person shall be\ndeemed to be a member for the purpose of that meeting.\n(8) The Board may invite any person, whose presence is in its opinion desirable, to\nattend and to participate in the deliberations of a meeting of the Board but that person\nshall have no vote.\n(9) The validity of any proceedings, act or decision of the Board shall not be affected\nby any vacancy in the membership of the Board or by any defect in the appointment of\nany member or by reason that any person not entitled so to do took part in the\nproceedings.\n(10) The Board shall cause minutes to be kept of the proceedings of every meeting\nof the Board.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n"
+    },
+    {
+      "number": "10",
+      "heading": "(1) If a person is present at a meeting of the Board or of the Coffee Licensing Disclosure of interest",
+      "text": "10. (1) If a person is present at a meeting of the Board or of the Coffee Licensing Disclosure of interest\nCommittee or Appeals Classification Committee at which any matter is the subject of\nconsideration and in which the person or his spouse is directly or indirectly interested in a\nprivate capacity, he shall, as soon as practicable after the commencement of the meeting\ndisclose such interest and shall not, unless the Board or the Coffee Licensing Committee\nor the Appeals Classification Committee directs, take part in any consideration or\ndiscussion of, or vote on, any question touching the matter.\n(2) A disclosure of interest made under this section shall be recorded in the minutes\nof the meeting at which it is made.\n"
+    },
+    {
+      "number": "11",
+      "heading": "No action or other proceedings shall lie or be instituted against any member or Immunity",
+      "text": "11. No action or other proceedings shall lie or be instituted against any member or Immunity\nmember of the Coffee Licensing Committee or the Appeals Classification Committee for or\nin respect of any act or thing done or omitted to be done in good faith in the exercise or\npurported exercise of his functions under this Act.\n"
+    },
+    {
+      "number": "12",
+      "heading": "(1) No person shall, without the consent in writing given by or on behalf of the Prohibition of",
+      "text": "12. (1) No person shall, without the consent in writing given by or on behalf of the Prohibition of\nBoard, publish or disclose to any person, otherwise than in the course of his duties, the publication or\ncontents of any document, communication or information whatsoever, which relates to, disclosure or\ninformation to\nand which has come to his knowledge in the course of, his duties under this Act.\nunauthorised persons\n(2) Any person who knowingly contravenes subsection (1) shall be guilty of an\noffence and shall be liable, upon conviction, to a fine not exceeding one thousand two\nhundred and fifty penalty units or to imprisonment for a term not exceeding three years, or\nto both.\n(3) If any person having information which to his knowledge has been published or\ndisclosed in contravention of subsection (1) unlawfully publishes or communicates any\nsuch information to any other person, he shall be liable, upon conviction, to a fine not\nexceeding one thousand two hundred and fifty penalty units or to imprisonment for a term\nnot exceeding three years, or to both.\n(As amended by Act No. 13 of 1994)\n"
+    },
+    {
+      "number": "13",
+      "heading": "(1) There is hereby constituted the Coffee Licensing Committee which shall Coffee Licensing",
+      "text": "13. (1) There is hereby constituted the Coffee Licensing Committee which shall Coffee Licensing\nconsist of- Committee\n(a) a Chairman who shall be a member of the Board and who shall be elected\nby the Board;\n(b) three members of the Board who shall be appointed by the Chairman of the\nCommittee after consulting the Chairman of the Board; and\n(c) three persons holding certificates issued under section twenty who shall be\nelected annually by the members of the Association.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(2) A member of the Committee, other than the Chairman of the Committee, shall\nhold office for one year.\n(3) The Chairman of the Committee shall hold office for a period of two years and\nshall be eligible for re-election for another period of one year.\n(4) A member of the Committee may resign upon giving one month's notice in\nwriting to the Board and may be removed by the Board at any time.\n(5) Subject to any specific or general direction of the Board the Committee may\nregulate its own procedure.\n"
+    },
+    {
+      "number": "14",
+      "heading": "(1) Subject to the control and directions of the Board, the functions of the Functions of the",
+      "text": "14. (1) Subject to the control and directions of the Board, the functions of the Functions of the\nCommittee shall, on behalf of the Board be to- Coffee Licensing\nCommittee\n(a) issue certificates and licenses in accordance with this Act;\n(b) approve distinguishing marks;\n(c) maintain a register of land planted with coffee, registered coffee growers,\nregistered curing establishment owners and distinguishing marks.\n(2) The Board may delegate to the Committee such other of its functions as it may\nconsider necessary.\n"
+    },
+    {
+      "number": "15",
+      "heading": "(1) There is hereby constituted the Appeals Classification Committee which Appeals Classification",
+      "text": "15. (1) There is hereby constituted the Appeals Classification Committee which Appeals Classification\nshall consist of not more than five members who shall be appointed by the Board. Committee\n(2) A member of the Committee shall hold office for one year.\n(3) A member of the Committee may resign upon giving one month's notice in\nwriting to the Board and may be removed by the Board at any time.\n(4) Subject to any specific or general direction of the Board the Committee may\nregulate its own procedure.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n"
+    },
+    {
+      "number": "16",
+      "heading": "(1) The functions of the Committee shall, on behalf of the Board, be to hear and Functions of the",
+      "text": "16. (1) The functions of the Committee shall, on behalf of the Board, be to hear and Functions of the\ndetermine appeals from aggrieved registered coffee growers on the classification, by the Appeals Classification\nAssociation, of their coffee. Committee\n(2) The Committee may request the Association to submit to it any samples or\ninformation the Committee considers necessary to help it determine the appeal.\n(3) The Committee may-\n(a) confirm the classification made by the Association; or\n(b) set aside the classification made by the Association and direct the\nAssociation to re-classify the coffee.\nPART III PRODUCTION, CURING, CLASSIFICATION, MARKETING AND EXPORT OF\nCOFFEEPART III\nPRODUCTION, CURING, CLASSIFICATION, MARKETING AND\nEXPORT OF COFFEE\n"
+    },
+    {
+      "number": "17",
+      "heading": "(1) No coffee other than Arabica Coffee shall be grown in Zambia. Arabica Coffee to be",
+      "text": "17. (1) No coffee other than Arabica Coffee shall be grown in Zambia. Arabica Coffee to be\ngrown in Zambia\n(2) Any person who contravenes subsection (1) shall be guilty of an offence and\nliable, upon conviction, to the general penalty imposed under section fifty-five.\n"
+    },
+    {
+      "number": "18",
+      "heading": "Subject to the general and specific control and direction of the Board, the Functions of",
+      "text": "18. Subject to the general and specific control and direction of the Board, the Functions of\nAssociation may- Association\n(a) regulate the production and curing of coffee;\n(b) collect, store, process, pack and market coffee;\n(c) negotiate, on behalf of registered coffee growers, the best price for coffee;\n(d) pay registered coffee growers for coffee sold by the Association on their\nbehalf; and\n(e) appoint agents to assist the Association in the performance of any of its\nfunctions.\n"
+    },
+    {
+      "number": "19",
+      "heading": "No person shall grow or cure coffee without a valid certificate issued under this Prohibition on growing",
+      "text": "19. No person shall grow or cure coffee without a valid certificate issued under this Prohibition on growing\nPart. or curing coffee\nwithout a certificate\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n"
+    },
+    {
+      "number": "20",
+      "heading": "Subject to the other provisions of this Act, the Coffee Licensing Committee Certificates",
+      "text": "20. Subject to the other provisions of this Act, the Coffee Licensing Committee Certificates\nmay issue the following certificates:\n(a) a coffee growers certificate which shall authorise the holder to grow coffee\nin such area or areas as may be specified in the certificate;\n(b) a coffee curing establishment certificate which shall authorise the holder to\ncure such description of coffee, by means of such machinery, and in such\nmanner, as may be specified in the certificate.\n"
+    },
+    {
+      "number": "21",
+      "heading": "(1) Every application for a certificate or renewal of a certifcate shall be made to Application for,",
+      "text": "21. (1) Every application for a certificate or renewal of a certifcate shall be made to Application for,\nthe Coffee Licensing Committee in the prescribed form and shall be accompanied by the renewal and refusal of,\nprescribed fee. certificates\n(2) Where an application is made for a renewal of a certificate, the Coffee Licensing\nCommittee may on application of the applicant, vary the conditions specified in the\ncertificate.\n(3) The Coffee Licensing Committee may refuse to issue a certificate to an applicant\nif it is satisfied that the applicant or a person employed by the applicant does not have\nsufficient knowledge or experience in the growing of coffee or the curing of coffee, as the\ncase may be.\n(4) The Coffee Licensing Committee may refuse to issue a coffee curing\nestablishment certificate if the curing establishment is not properly equipped or if the\ninstalled machinery is not adequate or suitable for processing coffee to the standards set\nby the Association or is not in conformity with the laws relating to factories.\n"
+    },
+    {
+      "number": "22",
+      "heading": "(1) Where an application for a certificate or renewal of a certificate is made by a Application for",
+      "text": "22. (1) Where an application for a certificate or renewal of a certificate is made by a Application for\nco-operative society, registered under the Co-operative Societies Act, it shall submit to the certificates by\nCoffee Licensing Committee together with the prescribed form and fee- co-operative society\nCap. 397\n(a) a schedule specifying the names of the members of the co-operative\nsociety; and\n(b) if the application relates to growing coffee, the description and acreage of\nthe land on which each member may plant coffee;\nand each member shall be deemed to be registered as a coffee grower or an owner of a\ncuring establishment except that a certificate shall be issued to the co-operative society.\n"
+    },
+    {
+      "number": "23",
+      "heading": "A certificate issued under this Part shall be subject to the following conditions- Conditions of",
+      "text": "23. A certificate issued under this Part shall be subject to the following conditions- Conditions of\ncertificates\n(a) unless earlier cancelled it shall remain in force-\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(i) i n the case of a first certificate issued to a person who is planting\ncoffee for the first time, for three years following the date of issue\nand shall thereafter be renewable annually;\n(ii) in the case of a certificate issued to a person who already has coffee\nunder cultivation and which is mature, for one year following the\ndate of issue and shall thereafter be renewable annually;\n(iii) i n the case of a coffee curing establishment certificate, for one year\nfollowing the date of issue and shall thereafter be renewable\nannually;\n(b) it shall not be transferable;\n(c) the holder shall not carry on any business related to coffee on any premises\nor place except those stipulated in the licence; and\n(d) such other conditions as the Minister may, by statutory order, impose.\n"
+    },
+    {
+      "number": "24",
+      "heading": "(1) The Coffee Licensing Committee shall maintain a register of all land planted Register of land",
+      "text": "24. (1) The Coffee Licensing Committee shall maintain a register of all land planted Register of land\nwith coffee, registered coffee growers and registered curing establishment owners. planted with coffee,\ncoffee growers and\nregistered curing\nestablishment owners\n(2) For the purpose of the register a registered coffee grower and a registered\ncuring establishment owner shall, upon request in writing by the Committee, submit to the\nCommittee, a return containing such particulars as the Minister may, by statutory order,\nprescribe and the particulars shall be entered in the register.\n(3) Any registered coffee grower or registered curing establishment owner who-\n(a) fails or refuses to make a return when requested to do so; or\n(b) makes or causes to be made a return which to his knowledge is false in any\nparticular;\nshall be guilty of an offence and shall be liable, upon conviction, to a fine not exceeding\nfive thousand penalty units.\n(As amended by Act No. 13 of 1994)\n"
+    },
+    {
+      "number": "25",
+      "heading": "(1) No person shall cure coffee in any place other than in a curing Curing of coffee",
+      "text": "25. (1) No person shall cure coffee in any place other than in a curing Curing of coffee\nestablishment.\n(2) Any person who intends to operate a curing establishment shall obtain the\nauthority of the Coffee Licensing Committee before he obtains any machinery for that\npurpose:\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nProvided that the Minister may, by statutory order, prescribe the conditions under\nwhich any machinery obtained, before the commencement of this Act, shall continue to be\nused and shall prescribe a time period in which-\n(a) the conditions shall be complied with; or\n(b) if the conditions cannot be complied with, the machinery shall no longer be\nused.\n(3) Any person who contravenes subsections (1) and (2) shall be guilty of an offence\nand shall be liable, upon conviction, to the general penalty imposed under section\nfifty-five.\n(4) Every curing establishment that buys or receives dried cherry or parchment\ncoffee from any person shall report to the Association-\n(a) the place where the coffee was grown; and\n(b) the quantity of coffee received.\n"
+    },
+    {
+      "number": "26",
+      "heading": "(1) The Association or its authorised agents shall be the sole classifiers of Classification of coffee",
+      "text": "26. (1) The Association or its authorised agents shall be the sole classifiers of Classification of coffee\ncoffee in Zambia.\n(2) Every registered curing establishment owner shall send or cause to be sent to\nthe Association, for purposes of classification, a sample of the coffee cured by him.\n(3) The Association shall, in accordance with the classification system established\nby the Board, classify all coffee samples sent for classification under subsection (2).\n(4) The Association shall, within fourteen days after receiving the coffee samples for\nclassification, classify the coffee and notify the registered coffee grower and the registered\ncuring establishment owner of the class in which the coffee has been classified.\n"
+    },
+    {
+      "number": "27",
+      "heading": "Any registered coffee grower who is not satisfied with the class in which his Appeals against",
+      "text": "27. Any registered coffee grower who is not satisfied with the class in which his Appeals against\ncoffee has been classified may, within twenty-one days of receipt of the notification given classification\nunder section twenty-six, appeal in writing against the classification to the Appeals\nClassification Committee.\n"
+    },
+    {
+      "number": "28",
+      "heading": "(1) No registered coffee grower shall sell, deliver for sale or otherwise dispose Coffee to be delivered",
+      "text": "28. (1) No registered coffee grower shall sell, deliver for sale or otherwise dispose Coffee to be delivered\nof any cured coffee to any person other than to the Association. to Association\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(2) No person, other than the Association, shall market any cured coffee processed\nin Zambia.\n(3) Subject to the other provisions of this Act, the Association shall, on such terms\nand conditions as it may lay down in regard to handling and delivery, accept all classified\ncoffee and sell it on behalf of a registered coffee grower.\n(4) Nothing in subsection (2) shall apply to-\n(a) the purchase or acquisition by a licence holder of cured coffee from the\nAssociation;\n(b) the purchase or acquisition of roasted coffee from a retail seller for\nconsumption.\n(5) Any person who contravenes subsections (1) or (2) shall be quilty of an offence\nand shall be liable, upon conviction, to the general penalty imposed under section\nfifty-five.\n"
+    },
+    {
+      "number": "29",
+      "heading": "The Association or its authorised agents shall be the sole exporters of coffee. Export of coffee",
+      "text": "29. The Association or its authorised agents shall be the sole exporters of coffee. Export of coffee\nPART IV DISTINGUISHING MARKSPART IV\nDISTINGUISHING MARKS\n"
+    },
+    {
+      "number": "30",
+      "heading": "Every registered coffee grower shall submit a copy of his distinguishing mark to Approval of",
+      "text": "30. Every registered coffee grower shall submit a copy of his distinguishing mark to Approval of\nthe Coffee Licensing Committee for approval. distinguishing mark\n"
+    },
+    {
+      "number": "31",
+      "heading": "Where the Coffee Licensing Committee approves a mark submitted to it under Registration of",
+      "text": "31. Where the Coffee Licensing Committee approves a mark submitted to it under Registration of\nsection thirty, it shall register the mark and shall issue to the registered coffee grower a distinguishing mark\ncertificate in the prescribed form.\n"
+    },
+    {
+      "number": "32",
+      "heading": "(1) The Coffee Licensing Committee may refuse to approve a mark and may Refusal to approve",
+      "text": "32. (1) The Coffee Licensing Committee may refuse to approve a mark and may Refusal to approve\nrequire the applicant to submit an alternative mark for its approval. distinguishing mark\n(2) Where the Committee refuses to approve a distinguishing mark it shall give\nreasons for so refusing.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(3) Any person aggrieved by a decision of the Committee may appeal to the Board\nwho may either confirm the decision of the Committee or request the Committee to\nreconsider the submission made by the applicant.\n"
+    },
+    {
+      "number": "33",
+      "heading": "(1) The Coffee Licensing Committee shall keep a register of approved Register of",
+      "text": "33. (1) The Coffee Licensing Committee shall keep a register of approved Register of\ndistinguishing marks. distinguishing mark\n(2) The Board shall publish in the Gazette details of all registered distinguishing\nmarks.\n"
+    },
+    {
+      "number": "34",
+      "heading": "(1) No person, other than the holder of a certificate issued in relation to that Use of distinguishing",
+      "text": "34. (1) No person, other than the holder of a certificate issued in relation to that Use of distinguishing\ndistinguishing mark, shall use that mark. mark\n(2) Any person who contravenes subsection (1) shall be guilty of an offence and\nshall be liable, upon conviction, to the general penalty provided under section fifty-five.\n"
+    },
+    {
+      "number": "35",
+      "heading": "(1) A registered coffee grower shall not part with possession of any coffee Marking of receptacle",
+      "text": "35. (1) A registered coffee grower shall not part with possession of any coffee Marking of receptacle\nunless each bag or receptacle in which the coffee is contained has been clearly marked\non it the registered distinguishing mark of the registered coffee grower.\n(2) For the purposes of this section, a bag or receptacle in which coffee is contained\nshall be clearly marked if the registered distinguishing mark is either-\n(a) made on a cloth tag firmly sewn on the bag or receptacle in letters or\nfigures which are easily distinguishable; or\n(b) stencilled on the bag or receptacle in letters or figures which are easily\ndistinguishable.\nPART V LICENSINGPART V\nLICENSING\n"
+    },
+    {
+      "number": "36",
+      "heading": "Subject to section twenty-eight, no person shall buy, roast, warehouse, export Prohibition in dealing",
+      "text": "36. Subject to section twenty-eight, no person shall buy, roast, warehouse, export Prohibition in dealing\nor otherwise deal in any coffee, for commercial purposes, without a valid licence issued in coffee without a\nunder this Part. licence\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n"
+    },
+    {
+      "number": "37",
+      "heading": "Subject to the other provisions of this Act, the Coffee Licensing Committee Licenses",
+      "text": "37. Subject to the other provisions of this Act, the Coffee Licensing Committee Licenses\nmay issue the following licences:\n(a) a coffee dealer's licence which shall authorise the holder, being an\nauthorised agent of the Association, to purchase, sell or otherwise deal in\ncoffee or coffee of a description specified in the licence;\n(b) a coffee roasting licence which shall authorise the holder to roast coffee for\nwholesale;\n(c) a coffee warehouse licence which shall authorise the holder to conduct the\nbusiness of a coffee warehouseman;\n(d) a seedling propagating licence which shall authorise the holder to\npropagate coffee seedlings.\n"
+    },
+    {
+      "number": "38",
+      "heading": "(1) Every application for a licence, or a renewal of a licence, shall be made to Applications for,",
+      "text": "38. (1) Every application for a licence, or a renewal of a licence, shall be made to Applications for,\nthe Coffee Licensing Committee in the prescribed form and shall be accompanied by the renewal and refusal of,\nprescribed fee. licences\n(2) The Committee may refuse to issue a coffee roasting licence or a coffee\nwarehouse licence if the works or premises are not properly equipped or if the installed\nmachinery is not adequate or suitable for producing roasted coffee of good quality, or the\npremises are not in conformity with the law relating to factories.\n(3) The Committee shall not issue a licence to any person if it is satisfied that the\napplicant or a person employed by him does not have sufficient knowledge or experience\nin the coffee trade.\n"
+    },
+    {
+      "number": "39",
+      "heading": "A licence issued under this Part shall be subject to the following conditions: Conditions of Licences",
+      "text": "39. A licence issued under this Part shall be subject to the following conditions: Conditions of Licences\n(a) unless earlier cancelled, it shall remain in force for one year following the\ndate of issue;\n(b) it shall not be transferable;\n(c) the holder shall not carry on any business related to coffee on any premises\nor place except those stipulated in the licence; and\n(d) such other conditions as the Minister may, by statutory order, impose.\n"
+    },
+    {
+      "number": "40",
+      "heading": "(1) A licence holder shall at all times maintain, on his premises, a register in Register to be kept by",
+      "text": "40. (1) A licence holder shall at all times maintain, on his premises, a register in Register to be kept by\nwhich shall be recorded, as applicable to his licence- licence holder\n(a) all purchases, sales or movement of coffee;\n(b) the quantity of coffee processed;\n(c) the name and address of the owner, vendor or purchaser, of the coffee;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(d) the date of each transaction.\n(2) A register maintained in accordance with subsection (1) shall be open to\ninspection, at all reasonable times, by the Board or by an inspector appointed by the\nBoard.\n(3) Any licence holder who contravenes subsection (1) or (2) shall be guilty of an\noffence and liable, upon conviction, to a fine not exceeding five thousand penalty units.\n(As amended by Act No. 13 of 1994)\n"
+    },
+    {
+      "number": "41",
+      "heading": "(1) Subject to subsection (2) the Coffee Licensing Committee may cancel a Cancellation of",
+      "text": "41. (1) Subject to subsection (2) the Coffee Licensing Committee may cancel a Cancellation of\nlicence issued under this Part if the licence holder has contravened, or failed to comply licences\nwith, any of the conditions subject to which his licence was issued.\n(2) The Committee shall, before cancelling any licence issued under this part, give\nthe licence holder thirty days notice of its intention to cancel the licence if the holder does\nnot take such measures as the Committee may specify in the notice.\n(3) A licence holder may, within fourteen days of receiving the notice issued under\nsubsection (2), make representations to the Committee giving the reasons why he has\ncontravened or failed to comply with the conditions of his licence and shall inform the\nCommittee of any remedial measures taken by him.\n(4) If after the expiry of the thirty days notice and if the Committee is not satisfied\nwith the representations made by the licence holder and where the Committee is not\nsatisfied with any remedial measures taken, it may cancel the licence.\n(5) Where a licence is cancelled under this section, the Coffee Licensing Committee\nshall inform the licence holder of the reasons for the cancellation.\n"
+    },
+    {
+      "number": "42",
+      "heading": "(1) Where any licence is issued to a co-operative society registered under the Licences held by",
+      "text": "42. (1) Where any licence is issued to a co-operative society registered under the Licences held by\nCo-operative Societies Act, there shall be attached to the licence a schedule specifying co-operative society\nthe names of members of the society. Cap. 397\n(2) Each member of the co-operative society shall be deemed to be a licence holder\nfor the purposes of this Act.\n"
+    },
+    {
+      "number": "43",
+      "heading": "(1) Any person aggrieved by- Appeals relating to",
+      "text": "43. (1) Any person aggrieved by- Appeals relating to\nlicences\n(a) the refusal of the Coffee Licensing Committee to issue or renew a licence;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(b) the cancellation of his licence;\n(c) any restrictions imposed on his licence;\nmay, within thirty days of the receipt of the notification to him of the issue, refusal or\ncancellation, as the case may be, appeal in writing to the Board.\n(2) On any appeal made under subsection (1), the Board may confirm, set aside or\nvary the decision of the Coffee Licensing Committee.\nPART VI FINANCEPART VI\nFINANCE\n"
+    },
+    {
+      "number": "44",
+      "heading": "(1) Subject to subsection (3), the Association may, by notice in the Gazette, on Levies",
+      "text": "44. (1) Subject to subsection (3), the Association may, by notice in the Gazette, on Levies\nthe recommendation of the Board, impose such levies as it may consider necessary and,\nin particular, shall impose the following levies:\n(a) growers Levy which shall be levied on the basis of hectarage under coffee\nwhich is mature;\n(b) coffee Levy which shall be levied on all clean coffee delivered to the\nAssociation during that crop year:\nProvided that the Association may classify the coffee levy into more than one class.\n(2) The rates payable for each levy or class of levy shall be determined by the\nAssociation and approved by the Board.\n(3) Notwithstanding subsection (1), the Association shall not impose any levy on\ncoffee samples of a quantity to be determined by the Association.\n(4) A levy imposed under this section shall be a debt due to the association and\nshall be paid within a period determined by the Association or the Association may\nrecover the levy owing by deducting it from any monies which may be due to that person\nfrom the Association.\n"
+    },
+    {
+      "number": "45",
+      "heading": "(1) There is hereby established a Coffee Pool Fund which shall be under the Coffee Pool Fund",
+      "text": "45. (1) There is hereby established a Coffee Pool Fund which shall be under the Coffee Pool Fund\ncontrol of the Association and which shall consist of all monies derived from-\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(a) the sale of coffee by the Association;\n(b) payments made to the Association for administering the sale of coffee on\nbehalf of registered coffee growers;\n(c) levies imposed by the Association; and\n(d) such other monies as may vest in or accrue to the Association.\n(2) There shall be paid from the Coffee Pool Fund the following:\n(a) payments due to registered coffee growers for their coffee;\n(b) payments for insurance, transport, storage, brokerage, commission and any\nother charges and expenses incurred by the Board or Association in the\nadministration of this Act;\n(c) the remuneration of officers, servants and agents employed by the Board or\nthe Association, for the performance of their functions under this Act;\n(d) such reasonable travelling and subsistence allowances for members of the\nBoard or Association or members of a Committee, when performing their\nfunctions under this Act, at such rates as the Board may approve;\n(e) the cost of measures promoting agriculture, research or consumption of\ncoffee.\n(3) The Board may direct the Association to apply certain monies from the Coffee\nPool Fund for such other purposes as it may consider necessary.\n(4) The Association may create reserve funds for such purposes as it may consider\nnecessary.\n"
+    },
+    {
+      "number": "46",
+      "heading": "The Association may, for purposes for which it is authorised to expend money Power to borrow on",
+      "text": "46. The Association may, for purposes for which it is authorised to expend money Power to borrow on\nunder this Act, borrow money on the security of the Coffee Pool Fund. security of Coffee Pool\nFund\n"
+    },
+    {
+      "number": "47",
+      "heading": "The financial year of the Board shall be from the 1st October to the 30th Financial year",
+      "text": "47. The financial year of the Board shall be from the 1st October to the 30th Financial year\nSeptember of the following year.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n"
+    },
+    {
+      "number": "48",
+      "heading": "The Association shall cause to be kept proper books of account and other Accounts",
+      "text": "48. The Association shall cause to be kept proper books of account and other Accounts\nrecords relating to its accounts.\n"
+    },
+    {
+      "number": "49",
+      "heading": "(1) The Board shall appoint auditors to examine the accounts of the Association Audit of accounts",
+      "text": "49. (1) The Board shall appoint auditors to examine the accounts of the Association Audit of accounts\nat the end of each financial year.\n(2) The expenses of any audit shall be borne and paid by the Association out of the\nCoffee Pool Fund.\n"
+    },
+    {
+      "number": "50",
+      "heading": "(1) As soon as practicable, but not later than six months after the expiry of each Annual report",
+      "text": "50. (1) As soon as practicable, but not later than six months after the expiry of each Annual report\nfinancial year, the Board shall submit to the Minister a report concerning its activities and\nthe activities of the Association during that financial year.\n(2) The report referred to in subsection (1) shall include information on the financial\naffairs of the Board and the Association and there shall be appended to the report-\n(a) an audited balance sheet;\n(b) an audited statement of income and expenditure; and\n(c) any other information the Minister may require.\n(3) The Minister shall lay the report referred to in subsection (1) before the National\nAssembly not later than seven days after the first sitting of the National Assembly next\nafter the receipt of the report.\nPART VI MISCELLANEOUSPART VI\nMISCELLANEOUS\n"
+    },
+    {
+      "number": "51",
+      "heading": "(1) In order to ensure compliance with the provisions of this Act, the Board may Inspectors",
+      "text": "51. (1) In order to ensure compliance with the provisions of this Act, the Board may Inspectors\nappoint such inspectors as it may consider necessary.\n(2) Every inspector shall be provided with a certificate of appointment which shall be\nprima facie evidence of the inspector's appointment as such.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(3) An inspector shall, on demand by any person affected by the exercise of an\ninspector's powers under this Act, produce for inspection the certificate referred to in\nsubsection (2).\n"
+    },
+    {
+      "number": "52",
+      "heading": "(1) In the performance of his duties, an inspector or a police officer shall have Powers of inspectors",
+      "text": "52. (1) In the performance of his duties, an inspector or a police officer shall have Powers of inspectors\npower- and police officers\n(a) with a warrant, to enter and search any premises upon which he has reason\nto believe there is coffee in respect of which an offence under this Act is\nbeing or has been committed, and seize and remove any coffee found on\nthe premises which he has reasonable cause to believe may provide\nevidence of the offence:\nProvided that, before removing any coffee under this paragraph, the person\nremoving it shall furnish the person in whose custody or possession the\ncoffee is, at the time of removal, with a written receipt of the coffee;\n(b) to stop, search and detain any vehicle or other conveyance which he has\nreason to believe is being or has been used for conveying any coffee in\nrespect of which an offence is being or has been committed;\n(c) with a warrant, to inspect all books, records, returns, reports and other\ndocuments relating to coffee or to any purchase or sale of coffee;\n(d) to seize machinery or material which he has reason to believe an offence\nagainst this Act appears to have been or is likely to be committed;\n(e) without warrant, to arrest and detain any person who he has reason to\nbelieve has committed an offence under this Act; and\n(f) t o require any person connected with the coffee business to supply any\ninformation relating to the purchase, sale or export of coffee.\n(2) Any person detained or anything seized under this section shall forthwith be\ntaken before a court to be dealt with according to law, and where it is not practicable to\nremove from its location any apparently unlawful means of processing or producing\ncoffee, such means may forthwith be rendered inoperative.\n(3) An inspector or a police officer may request any person whom he sees doing an\nact for which a licence or certificate is required under this Act to produce his licence or\ncertificate.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(4) Any person who obstructs an inspector or police officer in the execution of his\nduties under this Act or who, without reasonable excuse, fails to comply with a request\nmade under subsection (3) shall be guilty of an offence and shall be liable upon conviction\nto a fine not exceeding five thousand penalty units:\nProvided that where such person is on demand unable to produce any licence, or\ncertificate issued under this Act, he shall not be guilty of an offence under this subsection-\n(a) if he produces the licence, or certificate within a reasonable time, not\nexceeding twenty-one days, to an inspector, a police officer or the\nAssociation; and\n(b) explains to the inspector, police officer or the Association that the licence or\ncertificate is produced in compliance with the demands of an inspector or\npolice officer and names the place where the demand was made.\n(As amended by Act No. 13 of 1994)\n"
+    },
+    {
+      "number": "53",
+      "heading": "Any registered coffee grower or paid up member of the Association may, Inspection of records",
+      "text": "53. Any registered coffee grower or paid up member of the Association may, Inspection of records\nsubject to any conditions as may be prescribed, inspect the records maintained by the of Association\nAssociation and may, on payment of the prescribed fee, obtain copies of any proceedings\nor documents of the Board or of a Committee.\n"
+    },
+    {
+      "number": "54",
+      "heading": "Where any person is convicted of an offence under this Act, the court may Cancellation of",
+      "text": "54. Where any person is convicted of an offence under this Act, the court may Cancellation of\norder the cancellation of any certificate or licence held by that person with effect from such certificate or licence by\ndate as the court may consider reasonable to enable him to dispose of any stocks of court order\ncoffee in his possession; and may further order that the person shall not be issued with\nany further certificate or licence for such period as the court thinks fit.\n"
+    },
+    {
+      "number": "55",
+      "heading": "(1) Any person who is convicted of an offence under this Act for which no General penalty",
+      "text": "55. (1) Any person who is convicted of an offence under this Act for which no General penalty\nspecific penalty has been provided shall be liable to a fine not exceeding twenty five\nthousand penalty unit or to imprisonment for a period not exceeding three years, or to\nboth.\n(2) Where any person is convicted of an offence under this Act, the court may order,\nin addition to any other punishment that it may impose, that any coffee or machinery in\nrespect of which the effence was comitted be forfeited.\n(As amended by Act No. 13 of 1994)\n"
+    },
+    {
+      "number": "56",
+      "heading": "(1) The Minister may, by statutory instrument, make regulations for the better Regulations",
+      "text": "56. (1) The Minister may, by statutory instrument, make regulations for the better Regulations\ncarrying out of the purposes of this Act.\n(2) Without prejudice to the generality of subsection (1), the Minister may after\nconsultation with the Board make regulations prescribing-\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(a) anything which may be or is required to be prescribed under this Act;\n(b) the fees to be paid for anything to be done under this Act;\n(c) the forms of certificates and licences issued under this Act and the manner\nfor applying for registration or licences under this Act;\n(d) the condition in which premises specified in a certificate or licence shall be\nkept;\n(e) the manner in which coffee shall be stored;\n(f) t he books and registers which shall be kept, the inspection of such registers\nand how returns under this Act shall be made;\n(h) the manner in which any levy imposed under this Act shall be collected;\n(i) t he forms to be used and the procedures to be followed on any appeal\nunder this Act.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\n\n"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Coffee%20Act.pdf",
+  "source_hash": "sha256:b4f91f4ac1ca30904c13e122edda07588e6a5a9d2e2a7fb227c9b8e19ab1cee7",
+  "fetched_at": "2026-04-13T09:11:11Z",
+  "parser_version": "0.1.0",
+  "raw_file": "raw/Coffee_Act.pdf",
+  "needs_ocr": false
+}
