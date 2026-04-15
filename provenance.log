@@ -790,3 +790,10 @@
 {"batch": "0078", "id": "act-zm-1968-018-calculation-of-taxes-act", "source_url": "https://zambialii.org/akn/zm/act/1968/18/eng@1996-12-31", "source_hash": "sha256:981c4860717dc2114a30b15b7567252304bded808394a067b73905f38941a102", "fetched_at": "2026-04-15T09:08:50Z", "parser_version": "0.4.2", "section_count": 3}
 {"batch": "0078", "id": "act-zm-1968-059-carriage-by-air-act", "source_url": "https://zambialii.org/akn/zm/act/1968/59/eng@1996-12-31", "source_hash": "sha256:a7ffc4ed7cbff2332b432e1f41f4ed87f4bcf28101667f386be675a3217ab945", "fetched_at": "2026-04-15T09:08:50Z", "parser_version": "0.4.2", "section_count": 25}
 {"batch": "0078", "id": "act-zm-1964-007-central-african-civil-air-transport-act", "source_url": "https://zambialii.org/akn/zm/act/1964/7/eng@1996-12-31", "source_hash": "sha256:6b7af6d623b2d37211d76c6b19cfd6f3e4723d34af12cca019d391f9e2d01795", "fetched_at": "2026-04-15T09:08:50Z", "parser_version": "0.4.2", "section_count": 24}
+
+# Batch 0079 — 2026-04-15T09:41:28Z
+# Phase 4 bulk ingestion — C acts continuation via ZambiaLII
+# Records: act-zm-1992-013-casino-act-1992, act-zm-1963-064-central-african-power-corporation-financial-provis, act-zm-1981-003-central-committee-members-ministerial-and-parliame, act-zm-1959-005-cheques-act-1959, act-zm-1965-067-chiefs-act-1965, act-zm-1940-012-civil-courts-attachment-of-debts-act-1940, act-zm-1926-020-clubs-registration-act-1926, act-zm-2004-013-computer-misuse-and-crimes-act-2004
+# Fetches: 10 (8 HTML + 2 PDF), fetch_n: 89-98
+# Integrity: ALL PASS
+# Parser: 0.4.2
