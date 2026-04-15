@@ -1,0 +1,1336 @@
+{
+  "id": "act-zm-2016-005-civil-aviation-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Civil Aviation Act, 2016",
+  "year": 2016,
+  "act_number": 5,
+  "citation": "Act No. 5 of 2016",
+  "enacted_date": "2016-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Short title and commencement",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "Interpretation",
+      "text": ""
+    },
+    {
+      "number": "3",
+      "heading": "Application of Act, Chicago Convention and Conventions",
+      "text": ""
+    },
+    {
+      "number": "4",
+      "heading": "Territorial limits designation of country of jurisdiction and",
+      "text": "exercise of function"
+    },
+    {
+      "number": "5",
+      "heading": "Aircraft in flight and aircraft in service",
+      "text": ""
+    },
+    {
+      "number": "6",
+      "heading": "Supremacy over other aviation laws",
+      "text": ""
+    },
+    {
+      "number": "7",
+      "heading": "Act to bind Republic",
+      "text": ""
+    },
+    {
+      "number": "8",
+      "heading": "Functions of Minister and Authority",
+      "text": "PART II AERODROMES"
+    },
+    {
+      "number": "9",
+      "heading": "Licensing and registration of aerodromes",
+      "text": ""
+    },
+    {
+      "number": "10",
+      "heading": "Classification of aerodromes",
+      "text": ""
+    },
+    {
+      "number": "11",
+      "heading": "International airport",
+      "text": ""
+    },
+    {
+      "number": "12",
+      "heading": "Use of aerodromes",
+      "text": ""
+    },
+    {
+      "number": "13",
+      "heading": "Acquisition of land and interests for aerodromes",
+      "text": ""
+    },
+    {
+      "number": "14",
+      "heading": "Permission to use land for aerodromes",
+      "text": ""
+    },
+    {
+      "number": "15",
+      "heading": "Construction, maintenance and use of aerodrome infrastructure",
+      "text": "PART III ZAMBIA AIRPORTS CORPORATION LIMITED"
+    },
+    {
+      "number": "16",
+      "heading": "Interpretation",
+      "text": ""
+    },
+    {
+      "number": "17",
+      "heading": "Transfer of designed airports, functions, assets and liabilities",
+      "text": ""
+    },
+    {
+      "number": "18",
+      "heading": "Functions of Company",
+      "text": ""
+    },
+    {
+      "number": "19",
+      "heading": "Power of Company to determine charges, fees, etc.",
+      "text": ""
+    },
+    {
+      "number": "20",
+      "heading": "Power to construct drains",
+      "text": ""
+    },
+    {
+      "number": "21",
+      "heading": "Registration of property to be transferred by GRZ to",
+      "text": "Company Single copies of this Act may be obtained from the Government Printer P.O. Box 30136, 10101 Lusaka. Price K108.00 188 No. 5 of 2016] Civil Aviation"
+    },
+    {
+      "number": "22",
+      "heading": "Agreements, etc., to be assumed by Company",
+      "text": ""
+    },
+    {
+      "number": "23",
+      "heading": "Transfer of service of employees",
+      "text": ""
+    },
+    {
+      "number": "24",
+      "heading": "Legal proceedings",
+      "text": ""
+    },
+    {
+      "number": "25",
+      "heading": "Immunity of Company",
+      "text": ""
+    },
+    {
+      "number": "26",
+      "heading": "Regulations relating to designed airports and Company",
+      "text": "PART IV Air Services"
+    },
+    {
+      "number": "27",
+      "heading": "Non application of Part",
+      "text": ""
+    },
+    {
+      "number": "28",
+      "heading": "Air services permits",
+      "text": ""
+    },
+    {
+      "number": "29",
+      "heading": "Application for air services permit",
+      "text": ""
+    },
+    {
+      "number": "30",
+      "heading": "Publication of application for air services permit",
+      "text": ""
+    },
+    {
+      "number": "31",
+      "heading": "Objections",
+      "text": ""
+    },
+    {
+      "number": "32",
+      "heading": "Reference of application to committee",
+      "text": ""
+    },
+    {
+      "number": "33",
+      "heading": "Committee for hearing objections and other matters",
+      "text": ""
+    },
+    {
+      "number": "34",
+      "heading": "Inquires by committee",
+      "text": ""
+    },
+    {
+      "number": "35",
+      "heading": "Matters for committee to consider",
+      "text": ""
+    },
+    {
+      "number": "36",
+      "heading": "Procedure after inquiry",
+      "text": ""
+    },
+    {
+      "number": "37",
+      "heading": "Grant of air services permit",
+      "text": ""
+    },
+    {
+      "number": "38",
+      "heading": "Air services permits open to inspection",
+      "text": ""
+    },
+    {
+      "number": "39",
+      "heading": "Temporary and provisional air services permit",
+      "text": ""
+    },
+    {
+      "number": "40",
+      "heading": "Revocation, suspension and variation of air services permit",
+      "text": ""
+    },
+    {
+      "number": "41",
+      "heading": "Action after inquiry",
+      "text": ""
+    },
+    {
+      "number": "42",
+      "heading": "Renewal, transfer and amendment",
+      "text": ""
+    },
+    {
+      "number": "43",
+      "heading": "Requirements for air service own use",
+      "text": ""
+    },
+    {
+      "number": "44",
+      "heading": "Regulations on air services and air traffic services",
+      "text": "PART V AVIATION SAFETY"
+    },
+    {
+      "number": "45",
+      "heading": "State Safety Program",
+      "text": ""
+    },
+    {
+      "number": "46",
+      "heading": "Accountable Manager",
+      "text": ""
+    },
+    {
+      "number": "47",
+      "heading": "Functions of Authority relating to aviation safety",
+      "text": "Civil Aviation [No. 5 of 2016 189 PART VI AIRCRAFT ACCIDENTS INVESTIGATION"
+    },
+    {
+      "number": "48",
+      "heading": "Establishment of Aircraft Accident Investigation Board",
+      "text": ""
+    },
+    {
+      "number": "49",
+      "heading": "Composition of Aircraft Accident Investigation Board and",
+      "text": "tenure of office"
+    },
+    {
+      "number": "50",
+      "heading": "Disqualification from appointment and removal from office",
+      "text": ""
+    },
+    {
+      "number": "51",
+      "heading": "Functions of Aircraft Accident Investigation Board",
+      "text": ""
+    },
+    {
+      "number": "52",
+      "heading": "Powers of Aircraft Accident Investigation Board",
+      "text": ""
+    },
+    {
+      "number": "53",
+      "heading": "Delegation of functions and powers of Aircraft Accident",
+      "text": "Investigation Board"
+    },
+    {
+      "number": "54",
+      "heading": "Director of Investigations and investigators of Aircraft",
+      "text": "Accident Investigation Board"
+    },
+    {
+      "number": "55",
+      "heading": "Guidelines by Minister",
+      "text": ""
+    },
+    {
+      "number": "56",
+      "heading": "Investigation of aircraft accidents and serious aircraft",
+      "text": "incidents"
+    },
+    {
+      "number": "57",
+      "heading": "Public inquiry and judicial inquest",
+      "text": ""
+    },
+    {
+      "number": "58",
+      "heading": "Powers of public inquiry, judicial inquest relating to on-board",
+      "text": "recording"
+    },
+    {
+      "number": "59",
+      "heading": "Access by Aircraft Accident Investigation Board",
+      "text": ""
+    },
+    {
+      "number": "60",
+      "heading": "Use of on-board recording by Aircraft Accident Investigation",
+      "text": "Board"
+    },
+    {
+      "number": "61",
+      "heading": "Access to on-board recording for investigations",
+      "text": ""
+    },
+    {
+      "number": "62",
+      "heading": "Power of judicial inquest",
+      "text": ""
+    },
+    {
+      "number": "63",
+      "heading": "When use of on-board recording prohibited",
+      "text": ""
+    },
+    {
+      "number": "64",
+      "heading": "Privilege for on-board recording",
+      "text": ""
+    },
+    {
+      "number": "65",
+      "heading": "Contested request for production and discovery of statement",
+      "text": ""
+    },
+    {
+      "number": "66",
+      "heading": "Use of statement prohibited",
+      "text": ""
+    },
+    {
+      "number": "67",
+      "heading": "Certain information privileged",
+      "text": ""
+    },
+    {
+      "number": "68",
+      "heading": "Use of report made under voluntary reporting system",
+      "text": "prohibited 190 No. 5 of 2016] Civil Aviation"
+    },
+    {
+      "number": "69",
+      "heading": "Appearance of investigator as witness",
+      "text": ""
+    },
+    {
+      "number": "70",
+      "heading": "Opinions inadmissible",
+      "text": ""
+    },
+    {
+      "number": "71",
+      "heading": "Rules",
+      "text": ""
+    },
+    {
+      "number": "72",
+      "heading": "Regulations on aviation accidents and serious aircraft",
+      "text": "incidents PART VII AVIATION SECURITY"
+    },
+    {
+      "number": "73",
+      "heading": "Aviation security",
+      "text": ""
+    },
+    {
+      "number": "74",
+      "heading": "Threat to safety and security",
+      "text": "PART VIII FACILITATION"
+    },
+    {
+      "number": "75",
+      "heading": "National Facilitation Programme",
+      "text": ""
+    },
+    {
+      "number": "76",
+      "heading": "National Facilitation Committee",
+      "text": ""
+    },
+    {
+      "number": "77",
+      "heading": "National contingency plan for outbreak of diseases",
+      "text": ""
+    },
+    {
+      "number": "78",
+      "heading": "Orders and other requirements on facilitation",
+      "text": ""
+    },
+    {
+      "number": "79",
+      "heading": "Regulations on facilitation",
+      "text": "PART IX OFFENCES COMMITTED ON BOARD CIVIL AIRCRAFT IN FLIGHT AND PROTECTIVE MEASURES"
+    },
+    {
+      "number": "80",
+      "heading": "Offences on-board civil aircraft in flight",
+      "text": ""
+    },
+    {
+      "number": "81",
+      "heading": "Duties of Pilot-in-Command",
+      "text": ""
+    },
+    {
+      "number": "82",
+      "heading": "Powers of Pilot-in-Command",
+      "text": ""
+    },
+    {
+      "number": "83",
+      "heading": "Assistance with restraint",
+      "text": ""
+    },
+    {
+      "number": "84",
+      "heading": "Emergency measures",
+      "text": ""
+    },
+    {
+      "number": "85",
+      "heading": "Disembarking person",
+      "text": ""
+    },
+    {
+      "number": "86",
+      "heading": "Report to authorities",
+      "text": ""
+    },
+    {
+      "number": "87",
+      "heading": "Termination of restraint",
+      "text": ""
+    },
+    {
+      "number": "88",
+      "heading": "Continuation of restraint",
+      "text": ""
+    },
+    {
+      "number": "89",
+      "heading": "Duty of authority taking custody",
+      "text": ""
+    },
+    {
+      "number": "90",
+      "heading": "Offences by Pilot-in-Command",
+      "text": ""
+    },
+    {
+      "number": "91",
+      "heading": "Jurisdiction of High Court",
+      "text": "Civil Aviation [No. 5 of 2016 191"
+    },
+    {
+      "number": "92",
+      "heading": "Offences committed outside Zambia",
+      "text": ""
+    },
+    {
+      "number": "93",
+      "heading": "Consent of Director of Public Prosecutions",
+      "text": ""
+    },
+    {
+      "number": "94",
+      "heading": "Disposition of witness",
+      "text": "PART X ENVIRONMENTAL PROTECTION"
+    },
+    {
+      "number": "95",
+      "heading": "Environmental protection measures",
+      "text": ""
+    },
+    {
+      "number": "96",
+      "heading": "Regulations on environmental protection",
+      "text": "PART XI AIRPORT SERVICES"
+    },
+    {
+      "number": "97",
+      "heading": "Airport services and airport service charges",
+      "text": ""
+    },
+    {
+      "number": "98",
+      "heading": "Provision of airport services",
+      "text": ""
+    },
+    {
+      "number": "99",
+      "heading": "Required number of airport service providers",
+      "text": ""
+    },
+    {
+      "number": "100",
+      "heading": "Self service handling by airport users",
+      "text": ""
+    },
+    {
+      "number": "101",
+      "heading": "Use and restrictions of centralised infrastructure",
+      "text": ""
+    },
+    {
+      "number": "102",
+      "heading": "Access to airport infrastructure and space",
+      "text": ""
+    },
+    {
+      "number": "103",
+      "heading": "Constraint of available space or capacity for airport",
+      "text": "services"
+    },
+    {
+      "number": "104",
+      "heading": "Selection of providers of airport services",
+      "text": ""
+    },
+    {
+      "number": "105",
+      "heading": "Requirements for grant of airport services permit",
+      "text": ""
+    },
+    {
+      "number": "106",
+      "heading": "Application for airport services permit",
+      "text": ""
+    },
+    {
+      "number": "107",
+      "heading": "Publication of application for airport services permit",
+      "text": ""
+    },
+    {
+      "number": "108",
+      "heading": "Representation and objections",
+      "text": ""
+    },
+    {
+      "number": "109",
+      "heading": "Commencement of airport services and grant of airport",
+      "text": "services permit"
+    },
+    {
+      "number": "110",
+      "heading": "Reasons for refusal to grant, amend or impose conditions",
+      "text": ""
+    },
+    {
+      "number": "111",
+      "heading": "Suspension, revocation or variation of airport services",
+      "text": "permit"
+    },
+    {
+      "number": "112",
+      "heading": "Consultations",
+      "text": ""
+    },
+    {
+      "number": "113",
+      "heading": "Discrimination of citizen providers of airport services",
+      "text": ""
+    },
+    {
+      "number": "114",
+      "heading": "Exclusivity",
+      "text": "192 No. 5 of 2016] Civil Aviation PART XII AIR NAVIGATION SERVICES"
+    },
+    {
+      "number": "115",
+      "heading": "Provision of air navigation services and certificate of",
+      "text": "competency"
+    },
+    {
+      "number": "116",
+      "heading": "Charges for air navigation services",
+      "text": ""
+    },
+    {
+      "number": "117",
+      "heading": "Financing of air navigation services providers",
+      "text": ""
+    },
+    {
+      "number": "118",
+      "heading": "Air traffic management services",
+      "text": ""
+    },
+    {
+      "number": "119",
+      "heading": "Organisation and use of Zambian airspace",
+      "text": ""
+    },
+    {
+      "number": "120",
+      "heading": "Rules and requirements of systems interoperability",
+      "text": ""
+    },
+    {
+      "number": "121",
+      "heading": "Scope of activities of air navigation services",
+      "text": ""
+    },
+    {
+      "number": "122",
+      "heading": "Technical facilities, equipment, devices and objects",
+      "text": ""
+    },
+    {
+      "number": "123",
+      "heading": "Programme on provision of air navigation services",
+      "text": ""
+    },
+    {
+      "number": "124",
+      "heading": "Insurance",
+      "text": ""
+    },
+    {
+      "number": "125",
+      "heading": "Duties of air navigation services provider during strike",
+      "text": ""
+    },
+    {
+      "number": "126",
+      "heading": "Prohibition and control in aviation facilities and air",
+      "text": "navigation facilities PART XIII ENFORCEMENT, OFFENCES AND PENALTIES"
+    },
+    {
+      "number": "127",
+      "heading": "Power to access and inspect aerodromes, aircraft and",
+      "text": "operator’s premises"
+    },
+    {
+      "number": "128",
+      "heading": "Authority to prevent flight",
+      "text": ""
+    },
+    {
+      "number": "129",
+      "heading": "Detention of aircraft and closing of facility by authorised",
+      "text": "officer"
+    },
+    {
+      "number": "130",
+      "heading": "Prohibition from exercising privileges of certificate, permit,",
+      "text": "licence or authorisation"
+    },
+    {
+      "number": "131",
+      "heading": "Search, seizure and arrest by authorised person",
+      "text": ""
+    },
+    {
+      "number": "132",
+      "heading": "Harmful articles",
+      "text": ""
+    },
+    {
+      "number": "133",
+      "heading": "Seizure or retention of harmful articles",
+      "text": ""
+    },
+    {
+      "number": "134",
+      "heading": "Powers of arrest of authorised person",
+      "text": ""
+    },
+    {
+      "number": "135",
+      "heading": "Call for identification",
+      "text": "Civil Aviation [No. 5 of 2016 193"
+    },
+    {
+      "number": "136",
+      "heading": "Interference with operation of aircraft or aerodrome",
+      "text": ""
+    },
+    {
+      "number": "137",
+      "heading": "Threats, attempts conspiracies and false information",
+      "text": ""
+    },
+    {
+      "number": "138",
+      "heading": "False information",
+      "text": ""
+    },
+    {
+      "number": "139",
+      "heading": "Nuisance, disorderly or indecent act on board aircraft",
+      "text": ""
+    },
+    {
+      "number": "140",
+      "heading": "Obstruction of, or interference with staff or member",
+      "text": ""
+    },
+    {
+      "number": "141",
+      "heading": "Illegal practices in connection with aircraft",
+      "text": ""
+    },
+    {
+      "number": "142",
+      "heading": "Illegal practices in connection with cargo, baggage, mail or",
+      "text": "other goods"
+    },
+    {
+      "number": "143",
+      "heading": "Offences on aircraft in service and endangering safety",
+      "text": ""
+    },
+    {
+      "number": "144",
+      "heading": "Prohibition and control in restricted areas",
+      "text": ""
+    },
+    {
+      "number": "145",
+      "heading": "Reporting offences",
+      "text": ""
+    },
+    {
+      "number": "146",
+      "heading": "General penalties",
+      "text": ""
+    },
+    {
+      "number": "147",
+      "heading": "Administrative penalty",
+      "text": "PART XIV GENERAL PROVISIONS"
+    },
+    {
+      "number": "148",
+      "heading": "Procedures for identifying and notifying of differences",
+      "text": ""
+    },
+    {
+      "number": "149",
+      "heading": "Marshalling Signals, interception manoeuvres and orders",
+      "text": ""
+    },
+    {
+      "number": "150",
+      "heading": "Complaints to, and investigations by, DirectorGeneral",
+      "text": ""
+    },
+    {
+      "number": "151",
+      "heading": "Designation of agent for service",
+      "text": ""
+    },
+    {
+      "number": "152",
+      "heading": "Appeal against decision of officer or authorised person",
+      "text": ""
+    },
+    {
+      "number": "153",
+      "heading": "Delegation of powers",
+      "text": ""
+    },
+    {
+      "number": "154",
+      "heading": "Promulgation of Zambia Civil Aviation Requirements",
+      "text": ""
+    },
+    {
+      "number": "155",
+      "heading": "Power to erect tents and graze animals",
+      "text": ""
+    },
+    {
+      "number": "156",
+      "heading": "Power to construct drains",
+      "text": ""
+    },
+    {
+      "number": "157",
+      "heading": "Discharge of storm water on to aerodrome prohibited",
+      "text": ""
+    },
+    {
+      "number": "158",
+      "heading": "Trespass, nuisance and responsibility for damage and",
+      "text": "insurance by registered owners"
+    },
+    {
+      "number": "159",
+      "heading": "Postal provisions",
+      "text": ""
+    },
+    {
+      "number": "160",
+      "heading": "Exemption from seizure of certain aircraft on patent claims",
+      "text": "194 No. 5 of 2016] Civil Aviation"
+    },
+    {
+      "number": "161",
+      "heading": "Aerial works",
+      "text": ""
+    },
+    {
+      "number": "162",
+      "heading": "Sports flights",
+      "text": ""
+    },
+    {
+      "number": "163",
+      "heading": "Documents to be carried on board a civil aircraft",
+      "text": ""
+    },
+    {
+      "number": "164",
+      "heading": "Safe take off and landing",
+      "text": ""
+    },
+    {
+      "number": "165",
+      "heading": "Operating minima",
+      "text": ""
+    },
+    {
+      "number": "166",
+      "heading": "Search and rescue",
+      "text": ""
+    },
+    {
+      "number": "167",
+      "heading": "Regulations",
+      "text": ""
+    },
+    {
+      "number": "168",
+      "heading": "Repeal and savings",
+      "text": "FIRST SCHEDULE SECOND SCHEDULE Civil Aviation [No. 5 of 2016 195 GOVERNMENT OF ZAMBIA ACT No. 5 of 2016 Date of Assent: 5th April, 2016 An Act to provide for the control, regulation and orderly development of civil aviation in Zambia; to provide for the grant of permits for air services and airport services; provide for the implementation of a State Safety Programme in compliance with Annex 19 to the Chicago Convention; to provide for the establishment of an independent Aircraft Accident Investigation Board in compliance with Annex 13 to the Chicago Convention; to provide for security for civil aviation and a National Aviation Security Programme in compliance with Annex 17 to the Chicago Convention; to provide for air services, airport services and air navigation services in compliance with Annex 14 to the Chicago Convention; to provide for the transportation of dangerous goods by air in compliance with Annex 18 to the Chicago Convention; to promote the safe, secure and efficient use of civil aviation; to give effect to the International Convention on Civil Aviation signed in Chicago on 7th of December, 1944 and all international agreements on civil aviation to which Zambia has acceded and is a State party; to consolidate the various laws on aviation and repeal the Aviation Act, 1995, Safety of Civil Aviation Act, 1989, Air Services Act, 1964, and Tokyo Convention Act, 1971; provide for the functions of the Zambia Airports Corporation Limited and the renaming of designated airports; and to provide for matters connected with or incidental to the foregoing. [ 6th April, 2016 196 No. 5 of 2016] Civil Aviation Enactment ENACTED by the Parliament of Zambia. PART I PRELIMINARY Short title and 1. This Act may be cited as the Civil Aviation Act, 2016, and commence- shall come into operation on such date as the Minister may appoint, ment by statutory instrument. Interpretation 2. (1) In this Act, unless the context otherwise requires— “ accident site ” means a place associat"
+    },
+    {
+      "number": "4",
+      "heading": "(1) In this Act, except where the context otherwise requires, Territorial",
+      "text": "any reference to a country or the territorial jurisdiction of that country limits, designation shall be construed as including the territory, territorial waters and of country of jurisdiction airspace over such territory or water, if any, of the country. and exercise of function (2) Subject to subsection (3), this Act extends to acts, commissions, matters and things outside Zambia, unless the provision otherwise provides or intends. (3) Subject to this Act, the functions and powers specified in this Act relating to civil aircraft, air services or air navigation services shall only be exercised in relation to— (a) air services conducted in, to and from Zambia; (b) between or among other States and Zambia; (c) a referral of power by another State; (d) giving effect to an international agreement, treaty or convention; or (e) matters of international concern. (4) Where an airline operator or other agency operates a civil aircraft between two or more countries it shall— (a) designate for each civil aircraft, the country among them which shall exercise the jurisdiction and have the attributes of the State of Registry for that aircraft; and (b) give notice of the designation to the Authority and ICAO."
+    },
+    {
+      "number": "5",
+      "heading": "(1) For the purposes of this Act, an aircraft is regarded to Aircraft in",
+      "text": "flight and be in flight— aircraft in service (a) from the moment when all its external doors are closed following embarkation until the moment when the doors are opened for disembarkation; (b) if the aircraft makes a forced landing, until the moment when the competent authorities of the country in which the forced landing took place take over the responsibility for the aircraft and the persons and property on board; 212 No. 5 of 2016] Civil Aviation (c) in the case of an unmanned aircraft, from the time the aircraft is ready to move with the purpose of flight until such time as it comes to rest at the end of the flight and the primary propulsion system is shut down; or (d) during any period when it is on the surface of the sea or land but not within the territorial limits of any country. (2) For the purposes of this Act, an aircraft is regarded to be in service from the start of the pre-flight preparation of the aircraft by ground personnel or flight crew members for a specific flight, until twenty-four hours after the landing. Supremacy 6. This Act prevails over any other civil aviation law to the over other extent of any inconsistency. aviation laws Act to bind 7. (1) This Act shall bind the Republic. Republic (2) Notwithstanding subsection (1), this Act does not make the Republic liable to be prosecuted for an offence. Functions of 8. (1) Subject to this Act, the Minister shall be responsible for Minister and the implementation of this Act, the Chicago Convention, the Transit Authority Agreement and Conventions. (2) Whenever the Minister is satisfied that it is necessary or desirable, in the public interest, to exercise the powers conferred by this Act, the Minister may— (a) by statutory notice, declare that Zambia or any portion of Zambia shall be a restricted area for the purposes of this Act; (b) in the statutory notice, referred to in paragraph (a), issue orders and instructions in respect of a restricted area or part of the area— (i) regulating, restricting "
+    },
+    {
+      "number": "9",
+      "heading": "A place or building shall not be used as a public aerodrome Licensing",
+      "text": "and if it has not been registered and licensed by the Authority. registration of aerodromes"
+    },
+    {
+      "number": "10",
+      "heading": "(1) An aerodrome may be classified as civil, military or Classification",
+      "text": "combined civil and military. of aerodromes (2) An aerodrome shall, according to its purpose, be classified as— (a) a public aerodrome; (b) an aerodrome to be used mainly for sports flights; (c) an aerodrome for air services for own use; and (d) a heliport. 214 No. 5 of 2016] Civil Aviation (3) Aerodromes shall be divided into classes according to the physical, constructional engineering and traffic performances of the main runway and taxiways and into categories according to the level of air navigation aids and instruments used for aircraft approach, landing, manoeuvering and take off. International 11. (1) The Minister may, by statutory instrument, designate airport an aerodrome at which facilities are available for clearance of, or compliance with, customs, immigration, quarantine and other formalities and for arrivals in, or departures from, Zambia as an International airport. (2) Subject to any exception as the Minister may prescribe, by statutory instrument— (a) a civil aircraft arriving in Zambia from a place outside Zambia shall land at an international airport; and (b) a civil aircraft departing from Zambia for a place outside Zambia shall takeoff from an international airport. (3) Where a civil aircraft, to which subsection (2) applies, lands or takesoff in contravention of that subsection, the operator or pilotincommand commits an offence and shall be liable, on conviction, to a fine not exceeding fifty thousand penalty units or to imprisonment for a term not exceeding two years, or to both. (4) Subsection (3) shall not apply if the pilotincommand had reasonable cause to land or takeoff at an aerodrome not designated as an international airport. Use of 12. (1) An aerodrome or airfield may be used for air traffic aerodromes operations if it meets the prescribed ICAO Annex 14 requirements for aviation safety, design, construction and reconstruction and is certified or licenced by the Authority. (2) An aerodrome shall not be used for international operations "
+    },
+    {
+      "number": "14",
+      "heading": "(1) Subject to the Constitution, Mines and Minerals Permission",
+      "text": "Development Act, 2015, the Environmental Management Act, 2011, to use land for and the Water Resources Management Act, 2011, the Minister aerodromes responsible for mines may permit the use of land held under any Cap. 1 Act No. 11 reconnaissance, exploration licence, mining licence or permission of 2015 for the establishment of aerodromes. Act No. 12 of 2011 (2) The Minister responsible for mines shall, before granting Act No. 21 of 2011 permission, under subsection (1), for the use of land held under any reconnaissance, exploration licence, mining licence or permission for the establishment of aerodromes or landing places for aircraft, consult with the Minister and all interested parties."
+    },
+    {
+      "number": "15",
+      "heading": "(1) An aerodrome shall be constructed as to satisfy the Construction,",
+      "text": "requirements for safe take off, landing and stay of all or specified maintenance and use of types of aircraft. aerodrome infrastructure (2) The Minister shall prescribe special requirements for planning, design, construction and reconstruction of an aerodrome. PART III ZAMBIA AIRPORTS CORPORATION LIMITED"
+    },
+    {
+      "number": "16",
+      "heading": "In this Part unless the context otherwise requires— Interpretation",
+      "text": "“ Company ” means the Zambia Airports Corporation Limited, a company limited by shares and registered under the Companies Act; Cap. 388 “ designated airport ” means Kenneth Kaunda International Airport, Simon Mwansa Kapwepwe International Airport, Harry Mwaanga Nkumbula International Airport, Mfuwe International Airport, and any other airport which the Minister may designate by statutory instrument; 216 No. 5 of 2016] Civil Aviation “ designated aerodrome ” means any aerodrome designated by the Minister, by statutory instrument, to be owned, managed and administered, by a designated company; “ designated company ” means any company designated by the Minister, by statutory instrument, to own, manage and administer any designated aerodrome and to carry out specific functions relating to the aerodromes; and “ specific functions ” means any function transferred to a designated company by virtue of this Act. Transfer of 17. There is vested in the Company— designated airports, (a) designated airports; functions, assets and (b) subject to any conditions which may be imposed by the liabilities Minister, those functions which prior to the commencement of the Company were functions exercised by the Government in relation to designated airports; and (c) all property, rights, liabilities and obligations which immediately before 11th September 1989, the commencement date of the Company, were property, rights, liabilities and obligations of the Government relating to designated airports. Functions of 18. (1) The functions of the Company, as an airport operator, Company shall be— (a) functions referred to in paragraph (b) of section seventeen; (b) subject to the direction of the Minister, to provide air traffic control service throughout the Republic; (c) to provide aircraft services at designated airports; (d) to provide fire and rescue services at designated airports and if directed by the Minister provide fire and rescue services at other airports; (e) to provide and maintain n"
+    },
+    {
+      "number": "19",
+      "heading": "(1) The Company may, with the approval of the Minister, Power of",
+      "text": "determine— Company to determine charges, (a) landing hangar, parking and other charges and fees for fees, etc. any service rendered by the company to aircraft, passengers, cargo and the public at designated airports; and (b) overflying charges throughout the Republic. (2) The charges determined under subsection (1) shall be published in the Gazette. (3) Despite subsection (2), the Company may, in relation to special circumstances of any particular case, determine the charges and fees applicable to such case in respect of any services to aircraft, passengers, cargo, and the public provided by it and the charges and fees shall have immediate effect in relation to such case, except that such conditions, charges, and fees shall as soon as practicable after such determination, be published in the Gazette. (4) The Company may determine and charge rentals at designated airports."
+    },
+    {
+      "number": "20",
+      "heading": "(1) The Company may construct any drains which may Power to",
+      "text": "construct be necessary for the purpose of leading storm water, which would drains otherwise naturally gather or impinge on any designated airport or any radio or electronic apparatus or equipment which has been installed as a communication or navigation aid, to its nearest natural drainage. (2) If as a result of the construction of any such drain such storm water causes damage to any property, the Company shall pay reasonable compensation to any person aggrieved. 218 No. 5 of 2016] Civil Aviation (3) In the event of any dispute as to the cause of the damage or the amount of compensation, the matter shall be referred to Act No. 19 arbitration in accordance with the Arbitration Act, 2000. of 2000 Registration 21. (1) Whenever in pursuance of this Part any property, rights, of property liabilities or obligations, of the Government are deemed transferred to be transferred in respect of which transfer a written law provides for registration, by the Company shall make an application in writing to the proper Government officer of the appropriate registration authority for the registration to Company of the transfer. (2) The officer referred to in subsection (1) shall make such entries in the appropriate register as shall give effect to the transfer and, where appropriate, issue the transferee concerned a certificate of title in respect of the property or make necessary amendments to the register, as the case may be and shall make endorsement on the deeds relating to the title, right or obligation concerned; and no registration fees, stamp duty or other duties shall be payable. Agreements, 22. (1) On and after 11th September 1989 except as provided etc., to be in this Part, every deed, bond and agreement (other than an assumed by Company agreement for personal service) to which the Government was a party immediately before the commencement of the Company, relating to designated airports and functions referred to in section eighteen, whether in writing or not, and whether or"
+    },
+    {
+      "number": "23",
+      "heading": "(1) Where any person who was in the service of the Transfer of",
+      "text": "Government at designated airports or was performing functions service of employees referred to in section eighteen, immediately before the commencement of the Company, voluntarily transfers from that service to the service of the Company, his terms and conditions of service with the Company shall be no less favourable than those he enjoyed while in the service of the Government and his previous service with the Government shall be treated as service under the Company for the purposes of determining his rights, to or eligibility for, pension, gratuity, leave or other benefits. (2) A person to whom subsection (1) applies shall bedeemed to have voluntarily transferred his services to the Company unless within three months from the commencement of this Part he gives notice in writing to the Government with a copy to the Company stating his intention not to transfer from the service of the Government."
+    },
+    {
+      "number": "24",
+      "heading": "(1) Without prejudice to the other provisions of this Part, Legal",
+      "text": "where any right, liability or obligation vests in the Company by proceedings virtue of the Part, the Company and all other persons shall, as from the commencement of the Company, have the same rights, powers and remedies (and in particular the same rights as to the instituting or defending of legal proceedings or the making or resisting of applications to any authority) for ascertaining, perfecting or enforcing that right, liability or obligation as they would have had if it had at all times been a right, liability or obligation of the Company. (2) Any legal proceedings or application to any authority pending immediately before the commencement of the Company by or against the Government in relation to the assets and functions transferred to the Company may be continued by or against the Company. (3) After the commencement of the Company, proceedings in respect of any right or obligation which was vested in, held, enjoyed, incurred or suffered by the Government relating to the designated airports and functions transferred to the Company, may be instituted by, or against the Company. 220 No. 5 of 2016] Civil Aviation Immunity of 25. No suit, prosecution or other legal proceeding shall lie Company against the Company or any member or any officer or any employee or any agent of the Company for anything which is in good faith done or intended to be done in pursuance of this Part or of any rule or regulation made thereunder or for damage sustained by any aircraft or vehicle or for loss of life or personal injury in consequence of any defect in any of the designated airports or other things belonging to or under the control of the Company except where such damage, loss, loss of life or injury or personal injury is caused by want of reasonable care, diligence or skill on the part of the Company or any member or any officer or any employee or any agent. Regulations 26. (1) The Minister may, after consultation with the Company, relating to make regulations to provide for mat"
+    },
+    {
+      "number": "28",
+      "heading": "(1) A person shall not provide air services to, from or Air services",
+      "text": "within Zambia— permits (a) without an air services permit granted by the Minister in accordance with this Part; or (b) whilst the air services permit is suspended. (2) A person who contravenes subsection (1) commits an offence and shall be liable, on conviction, to a fine not exceeding fifty thousand penalty units or to a term of imprisonment not exceeding two years, or to both."
+    },
+    {
+      "number": "29",
+      "heading": "(1) An application for an air services permit shall be made Application",
+      "text": "to the Minister in a prescribed form and shall be accompanied with for air services such fees as may be prescribed in accordance with section forty- permit four. (2) An application for an air services permit shall— (a) state in the application the— (i) particulars of the air service to be provided; (ii)proposed areas and air routes; (iii) number and type of aircraft to be used; and 222 No. 5 of 2016] Civil Aviation (iv) the tariff to be charged for carriage; (b) supply any other information, in connection with the application, as the Minister may require; and (c) comply with sections fifty-three, fifty-four, fifty-eight and Act No. 7 of fifty-nine of the Civil Aviation Authority Act, 2012. 2012 Publication 30. (1) An applicant for an air services permit shall, unless of the applicant applies for the grant of a temporary or provisional application for air permit in accordance with section thirty-nine, publish, at the services applicants own expense, particulars of the application in the Gazette permit and in a daily newspaper of general circulation in Zambia. (2) An application, for an air services permit made in accordance with subsection (1), and any information supplied in connection with the application, other than information of a secret or confidential nature, shall be open to inspection by persons providing air services to, from or within Zambia, at the offices of the Ministry responsible for transport during the period of twenty one days beginning on the date of the publication referred to in subsection (1). (3) The Minister shall consult with the Director-General on all matters relevant to an application for an air services permit. Objections 31. (1) A person who provides an air service to, from or within Zambia may object to an application for the grant, renewal, transfer or amendment of an air services permit made in accordance with section twenty-nine and forty-two. (2) An objection to an application for the grant, renewal, transfer or amendment of an air"
+    },
+    {
+      "number": "32",
+      "heading": "As soon as may be practicable, after the expiry of the Reference of",
+      "text": "application period of the twenty-eight days referred to in subsection (2) of to committee section thirty-one, the Minister— (a) shall, if an objection has been made; or (b) may, if an objection has not been made; refer the matter to be dealt with by a committee."
+    },
+    {
+      "number": "33",
+      "heading": "(1) The Minister may, for purposes of hearing objections Committee",
+      "text": "for hearing made under section thirty-one or matters referred to the committee, objections as specified under section thirty, constitute a committee. and other matters (2) A committee constituted in accordance with subsection (1), shall consist of an officer in the public service and such number of assessors, appointed by the Minister. (3)A committee may be appointed generally for any period or periods or specifically for the purpose of dealing with objections for a particular application or matter. (4) The powers, rights and privileges of a committee shall be the same as those conferred upon commissioners by the Inquiries Act, and sections seven, thirteen, fourteen and seventeen of that Act shall, with the necessary modifications, apply in respect of a committee constituted under this section. (5)An assessor shall be entitled to such allowances as the Minister may determine."
+    },
+    {
+      "number": "34",
+      "heading": "(1) A committee constituted in accordance with section Inquiries by",
+      "text": "committee thirty-three shall give, to the applicant for an air services permit and any objector to an application for an air services permit or other matter, not less than fourteen days’ notice of the date and place at which an inquiry is to be undertaken by the committee. (2) At an inquiry, the applicant for an air services permit or an objector to an application for an air services permit or other matter may appear in person or be represented by a legal practitioner. (3) An applicant for an air services permit or an objector to an application for an air services permit or other matter shall have the right to make representations in support of the application or the objection, as the case may be."
+    },
+    {
+      "number": "35",
+      "heading": "A committee shall, when undertaking an inquiry, take into Matters for",
+      "text": "committee to account the following: consider 224 No. 5 of 2016] Civil Aviation (a) whether the grant or refusal of an application for an air services permit is expedient in the public interest in relation to aviation, security and Zambia’s international relations; (b) the need for air services in the area to be served by the proposed air service; (c) the existence and efficiency of air services serving the air routes or the areas in or through which the proposed air service is to be provided; (d) whether there will be a wide area that will be served under the proposed air service; (e) the availability of capacity on scheduled international air services taking into account allocation of capacity on international air services; (f) the need to create employment and investment in, and general development of, the aviation industry; (g) uneconomic duplication or overlapping of air services which the proposed air service might cause; (h) the financial resources of the applicant and— (i) if the application is for the grant of an air services permit, the likelihood of the applicant being able to provide an air service which is satisfactory with regard to safety, regularity, efficiency, frequency of operation and reasonableness of charges or tariffs for carriage; or (ii)if the application is for the renewal, or amendment or transfer of an air services permit, whether or not the applicant’s existing air service is satisfactory with regard to safety, efficiency, regularity, frequency of operation and reasonableness of charges or tariffs for carriage; (i) whether or not the aircraft proposed to be used and the air service proposed to be provided are suited to the aerodromes and the aerodrome facilities to be used in relation to the proposed air service; Civil Aviation [No. 5 of 2016 225 (j) the promotion of trade and tourism to and from Zambia; (k) any objection to the application for the air services permit; (l) any other matter which the committee considers to be relevant to t"
+    },
+    {
+      "number": "36",
+      "heading": "(1) As soon as may be practicable, after the conclusion Procedure",
+      "text": "of an inquiry, the committee shall submit a report on the application after inquiry for an air services permit or other matter, together with its recommendations, to the Minister. (2)The Minister may, on receipt of the report submitted in accordance with subsection (1), after due consideration of the committee’s recommendations and without further reference to the applicant or objector— (a) grant the application for an air services permit, subject to such conditions, if any, to be endorsed on the permit, and for such period as the Minister considers appropriate in the circumstances; (b) reject the application for an air services permit giving reasons for such rejection; or (c) refer the application back to the committee with instructions, which the committee shall comply with, to reopen the inquiry, as the Minister may consider necessary. (3) A report or recommendations submitted by the committee as provided under this section shall not be open to inspection by the applicant or an objector for an air services permit."
+    },
+    {
+      "number": "37",
+      "heading": "As soon as may be practicable after the expiration of the Grant of air",
+      "text": "period of twenty-eight days, referred to in subsection (2) of section services permit thirty-one, the Minister shall, where there is no objection to the grant of an air services permit and the application for an air services permit has not been referred to a committee in accordance with section thirty-two, grant the air services permit, subject to such conditions, if any, as may be endorsed on the permit and for such period as the Minister may consider appropriate in the circumstances. 226 No. 5 of 2016] Civil Aviation Air services 38. The Minister shall ensure that copies of all air services permit open permits granted under this Part are kept at the offices of the Ministry to inspection responsible for transport and be open for inspection by an applicant for an air services permit or person providing an air service to, from or within Zambia. Temporary 39. Notwithstanding sections twenty-eight and twenty-nine, and a person may apply for, and the Minister may grant— provisional air services (a) a temporary air services permit which shall be valid for a permit period not exceeding twenty-one days; or (b) a provisional air services permit which shall be valid for the period required for the determination of an application for a permit: subject to such conditions as the Minister may consider expedient in the public interest. Revocation, 40. (1) The Minister may vary, suspend or revoke an air suspension services permit if the Minister is satisfied that— and variation of air (a) the holder of the permit has failed to comply with a condition services permit of the permit; (b) the holder of the permit or that person’s servant or agent has been convicted of an offence under this Act or any other offence, wherever committed, which is of such a nature as makes the holder of the permit, servant or agent no longer a fit or proper person to provide or assist in providing the air service to which the permit relates; (c) there has been substantial change in any of the matters to w"
+    },
+    {
+      "number": "41",
+      "heading": "(1) As soon as may be practicable after the conclusion Action after",
+      "text": "inquiry of an inquiry of a matter referred to a committee in accordance with section thirty-four, the committee shall submit a report on the matter to the Minister who may, after due consideration of the committee’s advice, without further reference to the holder of the air services permit— (a) revoke the permit; (b) suspend the permit for such period as the Minister considers necessary; (c) vary the permit in such manner as the Minister considers appropriate; or (d) refer the matter back to the committee with any instructions which the committee shall comply with. (2) A report submitted to the Minister, in accordance with subsection (1), shall not be open to inspection by the holder of an air services permit."
+    },
+    {
+      "number": "42",
+      "heading": "(1) A holder of an air services permit may apply to the Renewal,",
+      "text": "Minister for a renewal, transfer or amendment of the permit. transfer and amendment (2) An applicant who intends to renew, transfer or amend an air services permit shall— 228 No. 5 of 2016] Civil Aviation (a) state in the application— (i) the particulars of the permit to be renewed, transferred or amended; or (ii)the period of renewal or nature of the transfer or amendment; and (b)supply any further information, in connection with the application, as the Minister may require. (3) An application for a renewal, transfer or amendment of an air services permit may be referred to a committee constituted in accordance with section thirty-three. (4) Sections thirty-two, thirty-three, thirty-four, thirty-five, thirty-six, thirty-seven and thirty-eight shall apply to an application for a renewal, transfer or amendment of an air services permit with the necessary modifications. (5) If a holder of an air services permit applies for a renewal of the permit before the lapse of the period of validity, the permit shall be treated as being in force until the holder is notified, by the Minister, in writing, that the application has been refused or the permit has been renewed. Requirements 43. A person may undertake, as prescribed, air services for for air the person’s own use provided that the person has aircraft and service own equipment and satisfies special requirements necessary for safe use and regular operations as prescribed. Regulations 44. (1) The Minister may, by statutory instrument, make on air regulations for, or in relation to, the following: services and air traffic (a)fees for air services permits issued under this Part; services (b)air services and air traffic services; (c)payment of expenses incurred in the implementation of this Part; (d)the establishment, maintenance, operation and use of aerodromes; (e)the imposition of penalties not exceeding three thousand penalty units for a contravention of, or failure to, comply with a provision of a direction or instructio"
+    },
+    {
+      "number": "45",
+      "heading": "(1) The Authority shall be responsible for the development, State Safety",
+      "text": "implementation and maintenance of the State Safety Programme. Programme (2) Sections thirty-four to thirty-six of the Civil Aviation Act No. 7 of Authority Act, 2012, and the provisions of Annex 19 apply for the 2012 purposes of this Act."
+    },
+    {
+      "number": "46",
+      "heading": "The Director-General shall be responsible and Accountable",
+      "text": "accountable, for the State Safety Programme. manager"
+    },
+    {
+      "number": "47",
+      "heading": "(1) Notwithstanding the Civil Aviation Authority Act, the Functions of",
+      "text": "functions of the Authority shall be to ensure and improve aviation Authority relating to safety as provided under this Act and as may be prescribed. aviation safety (2) The Director-General shall— Act No. 7 of 2012 (a) constitute the National Aviation Safety Committee for the proper management of aviation safety; (b) appoint aviation safety personnel and assign responsibilities and accountabilities to aviation safety personnel; (c) establish mechanisms to ensure effective monitoring of the Eight Critical Elements of Safety Oversight as prescribed in Annex 19; (d) establish mechanisms to ensure that the identification of hazards and the management of aviation safety risks by service providers follow established regulatory controls, requirements, specific operating regulations and implementation policies; 230 No. 5 of 2016] Civil Aviation (e) establish mechanisms to ensure the capture and storage of data on aviation safety hazards and safety risks at both individual and aggregate state level; (f) establish mechanisms to develop information from stored data and actively exchange aviation safety information with service providers or others as appropriate; (g) establish procedures to prioritise inspections, audits and surveys towards those areas of greater safety concern or need as identified by analysis of data on hazards, their consequences in operations and assessed safety risks; (h) ensure the provision of training; and (i) foster awareness and two way communication of aviation safety, relevant information to support aviation organisations and the development of an organisational culture that fosters an effective and efficient State Safety Program. PART VI AIRCRAFT ACCIDENT INVESTIGATION BOARD Establishment 48. (1) There is established the Aircraft Accident Investigation of Aircraft Board which shall be a body corporate with perpetual succession Accident Investigation and a common seal, capable of suing and being sued in its corporate Board name and with power, subje"
+    },
+    {
+      "number": "50",
+      "heading": "(1) A person shall not be appointed as a member of the Disqualification",
+      "text": "Aircraft Accident Investigation Board if the person— from appointment (a) is not permanently resident in Zambia; and removal from office (b) is a member of Parliament or a councillor; (c)has a direct or indirect financial interest in the aviation industry; (d) is an undischarged bankrupt; (e) is under any written law, adjudged or declared to be of unsound mind; and (f) has been convicted of an offence under this Act or any other law. 232 No. 5 of 2016] Civil Aviation (2) Subject to subsection (3), a member of the Aircraft Accident Investigation Board may be removed from office on account of— (a) misconduct; (b) inability to perform the duties of the member’s office efficiently; (c) bankruptcy; (d) absence from three consecutive meetings of the Aircraft Accident Investigation Board which the member has had notice, without the permission of the Chairperson of the Aircraft Accident Investigation Board, except on good cause shown; (e) the member becoming disqualified in terms of subsection (1). (3) A member of the Aircraft Accident Investigation Board may be removed, from office by the Minister. Functions of 51. (1) The functions of the Aircraft Accident Investigation Aircraft Board shall be to advance safety of civil aviation by — Accident Investigation (a) exercising on behalf of the Minister, the responsibility of Board the Minister under subsection (3) of section forty-three Act No. 7 of of the Civil Aviation Authority Act, 2012, relating to the 2012 investigation of civil aircraft accidents and serious aircraft incidents; (b) independently investigating civil aircraft accidents and serious aircraft incidents in compliance with Annex 13; (c) discharging all functions and obligations in compliance with the provisions and procedures of Annex 13; (d) cooperating with relevant authorities and agencies outside Zambia in the exercise of its functions under this section; (e) establishing policies with regard to the classes of civil aircraft accidents and serious aircraft i"
+    },
+    {
+      "number": "52",
+      "heading": "(1) The Aircraft Accident Investigation Board may do all Powers of",
+      "text": "that is necessary or expedient to perform its functions effectively Aircraft Accident which includes the power to— Investigation Board (a) obtain, the services of any person for the performance of any specific act or function; (b) delegate the investigation of any civil aircraft accident or serious aircraft incident to any other Contracting State, in accordance with Annex 13; (c) collect and disseminate relevant information relating to its investigations and requirements; (d) re-open any investigation in compliance with Annex 13; (e) establish a civil aircraft accident and serious aircraft incident reporting system in compliance with Annex 13 to facilitate the collection of information on actual or potential safety deficiencies; (f) conduct investigations on behalf of another Contracting State at the request of that State; and (g) do anything that is incidental to the performance of any of its functions and to the exercise of its powers. (2) If a civil aircraft accident or serious aircraft incident occurs within Zambia, the Aircraft Accident Investigation Board shall have the power to— 234 No. 5 of 2016] Civil Aviation (a) summon and examine witnesses under oath and to call for the production and inspection of books, logs, certificates, licences, medical records and other documents and may authorise the inspection of such documents; and (b) summon any person to give evidence before it or to produce any official document or other information or object as may be necessary for the performance of the functions of the Aircraft Accident Investigation Board. (3) The Aircraft Accident Investigation Board may make rules in relation to the investigation and reporting of civil aircraft accidents and serious aircraft incidents and the conduct and procedures for its investigations, including the participation of accredited representatives, advisers, experts and observers in compliance with Annex 13. (4) The Aircraft Accident Investigation Board may authorise any of its members t"
+    },
+    {
+      "number": "54",
+      "heading": "(1) The Aircraft Accident Investigation Board shall, in Director of",
+      "text": "consultation with the Civil Service Commission, appoint a public Investigations and officer as the Director of Investigations and other investigators investigators that the Board considers necessary for purposes of this Act. of Aircraft Accident (2) The Director of Investigations shall, under the directions Investigation Board of the Aircraft Accident Investigation Board, be responsible for the management of, and administrative control over, the affairs of the Accident Investigation Board. (3) The Minister shall second from the public service such number of public officers to assist the Aircraft Accident Investigation Board in the performance of its functions under this Act."
+    },
+    {
+      "number": "55",
+      "heading": "The Minister may issue such guidelines to the Aircraft Guidelines",
+      "text": "Accident Investigation Board relating to the coordination of by Minister activities between the Aircraft Accident Investigation Board and the Authority with respect to civil aircraft accidents and serious aircraft incidents."
+    },
+    {
+      "number": "56",
+      "heading": "(1) The Aircraft Accident Investigation Board shall Investigation",
+      "text": "investigate a civil aircraft accident or serious aircraft incident in or of aircraft accidents and over— serious aircraft (a) Zambia; incidents (b) any place that is within the territorial jurisdiction of Zambia; or (c) any other place, if (i) Zambia is requested to investigate the aircraft accident or serious aircraft incident by an appropriate authority in terms of the Chicago Convention; or (ii)the aircraft accident or serious aircraft incident involves a civil aircraft registered in Zambia or operated by a person to whom an air services permit, licence or certificate or other authorisation has been issued. (2) The performance of the function under this section shall be subject to such restrictions in the interests of national security Cap. 106 as provided in the Defence Act or as prescribed by the Minister by statutory instrument. 236 No. 5 of 2016] Civil Aviation (3) The Aircraft Accident Investigation Board shall not apportion blame or liability, whether civil or criminal, in any report following the investigation of a civil aircraft accident or serious aircraft incident. (4) A finding of the Aircraft Accident Investigation Board shall not be construed as assigning fault or determining civil or criminal liability. (5) The Aircraft Accident Investigation Board shall, in investigating any civil aircraft accident or serious aircraft incident, fully report on the causes and contributing factors of the accident. (6) The findings of, or the evidence before, the Aircraft Accident Investigation Board shall not be binding on the parties to any legal, disciplinary or other proceedings and may not be used in any civil, criminal or disciplinary proceedings against persons giving such evidence. (7) Where the causes and contributing factors of any civil aircraft accident or serious aircraft incident is known to the Aircraft Accident Investigation Board, the Aircraft Accident Investigation Board may not investigate that aircraft accident or serious aircraft incident. (8) The"
+    },
+    {
+      "number": "58",
+      "heading": "Notwithstanding any other provision in this Act, where, in Powers of",
+      "text": "any proceedings before a judicial inquest or a person designated to public inquiry, conduct a public inquiry into a civil aircraft accident or serious judicial aircraft incident, a request for the production and discovery of an inquest relating to onboard recording is made, the judicial inquest or a person on-board recording designated to conduct a public inquiry into a civil aircraft accident or serious aircraft incident under this Act, shall— (a) cause a notice of the request to be made to the Aircraft Accident Investigation Board; or (b) in camera, examine the on-board recording and give the Aircraft Accident Investigation Board a reasonable opportunity to make representations with regard to it; and (c)if the judicial inquest or person designated to conduct a public inquiry concludes in the circumstances of the case, that the proper administration of justice outweighs the privilege attached to the on-board recording by virtue of this section, order the production and discovery of the on-board recording, subject to such restrictions or conditions as the judicial inquest or person designated to conduct a public inquiry considers appropriate, and may require any person to give evidence that relates to the on-board recording. 238 No. 5 of 2016] Civil Aviation Access by 59. Notwithstanding section sixty-four, any on-board recording Aircraft that relates to a civil aircraft accident or serious aircraft incident Accident being investigated under this Act shall be released to the Accident Investigation Board Investigation Board on request for purposes of identification of accident deficiency. Use of on- 60. Notwithstanding section fifty-nine, the Aircraft Accident board Investigation Board may make use of any on-board recording recording by obtained under this Act as it considers necessary in the interests of Aircraft Accident civil aviation safety, but shall not knowingly communicate or permit Investigation it to be communicated to anyone that is unrelated to the causes"
+    },
+    {
+      "number": "63",
+      "heading": "An on-board recording may not be used against any of When use of",
+      "text": "the following persons in disciplinary proceedings, legal or other on-board recording proceedings or proceedings relating to the capacity or competence prohibited of an officer or employee to perform the officer’s or employee’s functions: (a) flight crew members; (b) airport vehicle operators; (c) flight service station specialists; or (d) persons who relay messages with respect to air traffic control or related matters."
+    },
+    {
+      "number": "64",
+      "heading": "(1) Every on-board recording is privileged and, except as Privilege for",
+      "text": "provided in this Act, a person shall not— on-board recordings (a) knowingly communicate an on-board recording or permit it to be communicated to any other person; or (b) be required to produce an on-board recording or give evidence relating to it in any legal, disciplinary or other proceedings."
+    },
+    {
+      "number": "65",
+      "heading": "Where, in any proceedings before a judicial inquest or a Contested",
+      "text": "request for person designated to conduct a public inquiry into a civil aircraft production accident or serious aircraft incident a request for the production and discovery of and discovery of a statement is contested on the ground that it is statement privileged, the coroner or person designated to conduct a public inquiry shall— (a) in camera, examine the statement; and (b) if the coroner, or person designated to conduct a public inquiry concludes in the circumstances of the case that the public interest and the proper administration of justice outweighs the privilege attached to the statement, order the production and discovery of the statement, subject to such restrictions or conditions as the coroner or person designated to conduct a public inquiry considers appropriate."
+    },
+    {
+      "number": "66",
+      "heading": "A statement produced, as specified in section sixty-five, Use of",
+      "text": "shall not be used in any legal, disciplinary or other proceedings statement prohibited against the person who made it except in a prosecution for perjury, giving contradictory evidence or a prosecution. 240 No. 5 of 2016] Civil Aviation Certain 67. Where the identity of a person who has made a report to information the Aircraft Accident Investigation Board is protected, information privileged that could reasonably be expected to reveal that identity is privileged and a person shall not— (a) knowingly communicate that information or permit it to be communicated to any other person; or (b) be required to produce the information or give evidence relating to it in any legal, disciplinary or other proceedings. Use of 68. A report made to the Aircraft Accident Investigation Board report made under a voluntary reporting system, established by rules issued under voluntary under this Part, shall not be used against the person who made the report report in any legal, disciplinary or other proceedings if the person’s system prohibited identity is protected. Appearance 69. Except for proceedings before, or investigations by, judicial of inquest, an investigator is not competent or compellable to appear investigator as witness as a witness in any proceedings, unless the coroner before whom the proceedings are conducted so orders for special cause. Opinions 70. An opinion of a member of the Aircraft Accident inadmissible Investigation Board or an investigator is not admissible in evidence in any legal, disciplinary or other proceedings. Rules 71. (1) The Aircraft Accident Investigation Board may make rules for the establishment and administration of systems for the mandatory or voluntary reporting to the Aircraft Accident Investigation Board of civil aircraft accidents or serious aircraft incidents. (2) The Aircraft Accident Investigation Board may make use of any report or other document specified in rules made in accordance with subsection (1), as it considers necessary for the"
+    },
+    {
+      "number": "72",
+      "heading": "The Minister may, by statutory instrument, make regulations Regulations",
+      "text": "on aviation regarding— accidents and serious (a) the investigation of aircraft accidents and serious aircraft aircraft incidents; incidents (b) the notification of aircraft accidents or serious aircraft incidents to the Minister and Aircraft Accident Investigation Board; (c) the coordination of investigations and remedial actions; (d) compatible procedures and practices amongst various authorities regarding the investigation and reporting of aircraft accidents and serious aircraft incidents; (e) powers of the Director of Investigations; (f) the designation and powers of investigators; (g) search and seizure by investigators; (h) the power to test items seized at an accident site relating to the civil aircraft concerned with, or impacting on, the investigation of the civil aircraft accident or serious aircraft incident; (i) any certificates or documents to be produced; (j) the attendance and removal of observers during investigations; (k) the rights of affected parties, making representations during an investigation; (l) the manner of dealing with representations made during investigations; (m) the notification of findings and recommendations arising from an investigation; (n) matters related to on-board recordings, communication records and privileged statements; (o) the use of on-board recording by the Aircraft Accident Investigation Board; and (p) the access to on-board recordings during inquests, court proceedings or public inquiries and other investigations. 242 No. 5 of 2016] Civil Aviation PART VII AVIATION SECURITY Aviation 73. (1) Sections nineteen to thirty-three of the Civil Aviation security Authority Act, 2012, and Annex 17 shall apply for the purposes of Act No. 7 of this Act. 2012 (2) Notwithstanding the generality of subsection (1), the Authority shall be responsible for— (a) compilation, revision and development of the National Aviation Security Programme (NASP) in compliance with Annex 17; (b) the establishment, production, promulgation and review o"
+    },
+    {
+      "number": "74",
+      "heading": "(1) If the Director-General, after consultation with the Threat to",
+      "text": "National Civil Aviation Security Committee established in safety and security accordance with section twenty-one of the Civil Aviation Authority Act No. 7 of Act, 2012, is satisfied that an action by a person or group of persons 2012 is of such a nature that the safety or security of any person, aircraft, aerodrome or aviation facility is being seriously and immediately threatened, the Director-General or an authorised person may issue such orders as may be considered necessary to counter such action. (2) An authorised person may take such steps as the authorised person considers necessary to ensure that an order referred to in subsection (1) is complied with. (3) A person who fails or who refuses to give effect to an order issued in accordance with subsection (1) commits an offence and is liable, upon conviction, to a fine not exceeding forty thousand penalty units or to a term of imprisonment not exceeding five years, or to both. 244 No. 5 of 2016] Civil Aviation PART VIII FACILITATION National 75. (1) The Chicago Convention and Annex 9 shall apply for Facilitation the purposes of this Part. Programme (2) Notwithstanding the generality of subsection (1), the Authority shall be responsible for the— (a) compilation, revision and development of the National Facilitation Programme (NFP) in compliance with Annex 9; (b) establishment, production, promulgation and review of the NFP to ensure it continues to meet Zambia’s obligations and is consistent with the policy of the Government; (c) defining and allocating of tasks for implementation of the NFP; and (d) establishment and promulgation of technical criteria to be met by those responsible for implementing facilitation measures under the NFP. National 76. The NFP shall make provision for the establishment of— Facilitation Committee (a) a National Facilitation Committee to coordinate the activities of the NFP; and (b) airport facilitation programmes at all international airports. National 77. The Authority shall establi"
+    },
+    {
+      "number": "80",
+      "heading": "A person who, on board a civil aircraft in flight— Offences on-",
+      "text": "board civil (a) unlawfully, by force or threat or by any other form of aircraft in intimidation, seizes or exercises control of that civil flight aircraft or attempts to perform any such act; (b) is an accomplice of a person who performs or attempts to perform any act specified in paragraph (a); (c) communicates information which that person knows to be false, thereby endangering the safety of a civil aircraft in flight; or (d) performs an act of violence against any person on board a civil aircraft in flight, if that act is likely to endanger the safety of the aircraft; commits an offence and is liable, upon conviction, to a fine not exceeding forty thousand penalty units or to a term of imprisonment not exceeding two years, or to both."
+    },
+    {
+      "number": "81",
+      "heading": "A pilot-in-command of a civil aircraft shall take all measures",
+      "text": "Duties of that the pilot-in-command considers reasonable to— pilot-in- command (a) protect the safety of the civil aircraft and of persons and property on board the civil aircraft; and (b) maintain good order and discipline on board the civil aircraft."
+    },
+    {
+      "number": "82",
+      "heading": "If a pilot-in-command of a civil aircraft in flight is of the Powers of",
+      "text": "opinion that any person on board the civil aircraft— pilot-in- command (a) has done or is about to do any act on the civil aircraft, which appears likely to jeopardise— (i) the safety of the civil aircraft, persons or property on board the civil aircraft; or (ii) good order and discipline on board the civil aircraft; or (b) has done an act on the civil aircraft which the pilot- in- command considers a serious offence under any law in the State of Registry; the pilot-in-command may take such measures, including restraint of that person, as the pilot-in-command considers to be reasonable. 246 No. 5 of 2016] Civil Aviation Assistance 83. A flight crew member of a civil aircraft in flight who is with authorised or requested by the pilot-in-command, shall render restraint assistance in restraining a person whom the pilot-in-command considers should be restrained. Emergency 84. Despite section eighty-three, at any time, when a civil measures aircraft is in flight, a flight crew member or any other person, if that person has reasonable grounds to believe that measures are immediately necessary for the protection of the safety of the civil aircraft, any person or property on board the civil aircraft, the person may take necessary measures, including restraint of a person, prior to obtaining the authority of the pilot-in-command. Disembarking 85. A pilot-in-command of a civil aircraft may disembark any person person on board the civil aircraft, in any country in which that aircraft may be, if the pilot-in-command believes it is necessary to do so in order to— (a) protect the safety of the civil aircraft, persons or property on board the aircraft; or (b) maintain good order and discipline on board the civil aircraft. Report to 86. (1) A pilot-in-command of a civil aircraft shall, before authorities disembarking any person in accordance with section eighty-five, make a report, giving reasons for doing so, to a law enforcement officer or an immigration officer in the country of"
+    },
+    {
+      "number": "89",
+      "heading": "A law enforcement officer or immigration officer who takes Duty of",
+      "text": "custody of a person who has been disembarked by a pilot-in- authority taking command shall— custody (a) notify the appropriate diplomatic or consular officer of the country of nationality of the person so disembarked as soon as is reasonably possible; and (b) keep the person so disembarked in custody until criminal or extradition proceedings have been instituted."
+    },
+    {
+      "number": "90",
+      "heading": "A pilot-in-command who, without reasonable cause, fails Offences by",
+      "text": "to comply with sections eighty-one and eighty-six commits an pilot-in- command offence and shall be liable, on conviction, to a fine not exceeding five hundred penalty units or to imprisonment for a term not exceeding six months, or to both."
+    },
+    {
+      "number": "91",
+      "heading": "(1) The High Court has jurisdiction over an offence Jurisdiction",
+      "text": "committed on board a civil aircraft in the following circumstances: of High Court (a) where the offence is committed on board a civil aircraft that is registered in Zambia; (b) where the civil aircraft on board which the offence is committed lands in Zambia with the alleged offender on board the aircraft; or (c) where the offence is committed on board a civil aircraft that has been leased without crew to a lessee who has a principal place of business in Zambia or, if the lessee has no such place of business, is permanently resident in Zambia. (2) Nothing in this section shall exclude the exercise by the High Court of any criminal jurisdiction in accordance with any other law."
+    },
+    {
+      "number": "92",
+      "heading": "(1) An act or omission taking place on board a Zambian Offences",
+      "text": "civil aircraft in flight elsewhere, other than in or over Zambia, which committed outside act or omission would constitute an offence under the law in force Zambia in Zambia, that act or omission shall constitute an offence. (2) Subsection (1) shall apply to an act or omission which is expressly or impliedly authorised by or under that law if it takes place outside Zambia. 248 No. 5 of 2016] Civil Aviation Consent of 93. (1) No proceedings for an offence committed on board a Director of civil aircraft in flight elsewhere than in, or over Zambia, except as Public Prosecutions provided in this Act, shall be instituted in Zambia, without the consent of the Director of Public Prosecutions. (2) Subsection (1) shall not prevent the arrest of, or the issue of a warrant of arrest for, any person in respect of any offence or the remand in custody or the release on bail of any person charged with an offence. Deposition 94. (1) Where in proceedings before a court for an offence of witness committed on board a civil aircraft in flight, the testimony of a person is required and the court is satisfied that the person in question cannot be found in Zambia, there shall be admissible in evidence, any deposition relating to the subject matter of those proceedings previously made on oath by that person which was so made— (a) in the presence of the person charged with the offence; and (b) before a judge, magistrate or consular officer of the country before whom the deposition was made or before a consular officer of the Republic of Zambia. (2) A deposition made, in accordance with subsection (1), shall be authenticated by the signature of the judge, magistrate or consular officer before whom it was made, who shall certify that the person charged with the offence was present at the taking of the deposition. (3) It shall not be necessary in proceedings to prove the signature or official character of the person appearing to have authenticated a deposition or to have given a certificate an"
+    },
+    {
+      "number": "96",
+      "heading": "The Minister, in consultation with the Minister responsible Regulations",
+      "text": "on for the environment, may by statutory instrument, make regulations environmental for, or in relation to, environmental protection relating to the aviation protection industry. PART XI AIRPORT SERVICES"
+    },
+    {
+      "number": "97",
+      "heading": "(1) Airport services shall be provided under the auspices Airport",
+      "text": "of an airport operator and in accordance with this Part, except services and airport that no agency or employment relationship shall be created between service the airport operator and any entity providing airport services by charges virtue of this subsection. (2) The Authority shall regulate airport services, rates and charges for airport services in order to— (a) promote the interest of the users of the airport services; (b) promote the efficient, economic and profitable operation of such airport services; (c) ensure that the rates, charges and services offered by providers of airport services are competitive; (d) ensure that providers of airport services encourage the development of a diverse and competitive industry within the general and specific policies set out by the Government; and (e) ensure that users of airport services get their money’s worth from the use of airport services."
+    },
+    {
+      "number": "98",
+      "heading": "(1) Subject to this Act, providers of airport services shall Provision",
+      "text": "offer competitive services. of airport services (2) The Authority may impose on a provider of airport services such conditions as it considers desirable in the interest of the environment, safety, security and airport operations or to prevent uneconomic competition. 250 No. 5 of 2016] Civil Aviation (3) An airport operator shall ensure that fire fighting services, rescue and medical protection services are provided at an aerodrome, as may be prescribed. (4) The supply of fuel or oil of jet and piston engine aircraft shall be provided (a) at an airport in accordance with applicable quality standards prescribed by the Minister, by statutory instrument; and (b) the stock minimum shall be for a period of at least three days, depending on the intended scope of air traffic at the airport. (5) In case of force majeure or other emergency event, the provider of fuel and lubricants to a civil aircraft shall notify, without delay, the operator, airport operator, Authority and air traffic controller of such circumstances. (6) Subject to sections ninety-nine and one hundred and three, the number of airport services providers shall not be limited for each category of airport services. (7) At least one of the airport services providers shall not be directly or indirectly controlled by— (a) an airport operator; (b) an airport user who has carried more than twentyfive percent of the passengers or cargo recorded at that airport in the year in which the providers of airport services commenced operations; or (c) a body controlling or controlled directly or indirectly by an airport operator or other airport user. (8) In a case where the number of providers of airport services is limited, no airport user may be prevented from having the choice between at least two providers of airport services with respect to each category of airport service, subject to restrictions or conditions specified under this section. Required 99. The Authority may limit the number of airport services number of p"
+    },
+    {
+      "number": "100",
+      "heading": "(1) Despite section ninety-eight, airport users may Self-service",
+      "text": "provide airport services to themselves, as self-service providers handling by airport users on such conditions as the airport operator and the Authority may determine, except that where an airport receives more than one million passengers annually, this section shall not apply and self- service handling is prohibited. (2) An airport services provider shall be considered for self- handling option— (a) where there is no licensed airport services provider for the particular services at the airport for which the air services provider applies; (b) where the seating capacity of a civil aircraft to be handled is seven seats or below; or (c) on any other condition as may be determined by the Authority. (3) Airport services provided, in accordance with subsection (1), may be performed by at least two self-service providers selected on the basis of relevance, objectivity, transparency and non-discrimination, for the following categories of airport services: (a) ground handling of baggage; (b) ground handling of aircrafts on the apron; (c) supply of fuel and lubricants; and (d) ground handling of cargo and mail, whether incoming, outgoing or transfer between the cargo terminal and the aircraft."
+    },
+    {
+      "number": "101",
+      "heading": "(1) An airport operator shall manage centralised Use and",
+      "text": "infrastructure for the supply of airport services whose complexity, restrictions of costs or environmental impact do not allow division or duplication centralised of systems such as for baggage sorting, water purification and infrastructure distribution. (2) The use of centralised infrastructure is compulsory for the providers of airport services and self-service handling. 252 No. 5 of 2016] Civil Aviation (3) The management of centralised infrastructure shall be transparent, objective and non discriminatory and shall not hinder the access of providers of airport services and selfservice handling providers. Access to 102. (1) A provider of airport services and an airport user airport providing self-service handling shall have access to airport infrastructure and space infrastructure installations, including the centralised infrastructure, to the extent necessary for them to carry out their activities. (2) The space available for providing airport services shall be divided among various providers of airport services and self-services providers including new entrants, to the extent necessary for them to provide the airport services and to allow fair and effective competition. Constraint of 103. (1) If an airport has specific constraints relating to available available space or capacity arising in particular from congestion or space or capacity for area utilisation, the Authority may by instrument in writing— airport services (a) limit the number of providers for one or more categories of airport services; (b) approve the provision of one or more airport services to a single provider of the airport services; (c) restrict self-provision of services to a limited number of airport users in one or more categories of airport services; or (d) ban or reverse self-provision of airport services in one or more categories of airport services. (2) The Authority shall, when limiting, approving, banning, reversing or restricting the provision of airport services, in accordance with "
+    },
+    {
+      "number": "104",
+      "heading": "(1) Subject to subsection (2), and (3), an airport operator",
+      "text": "Selection of shall establish and implement selection procedures for providers of providers of airport airport services at the airport. services (2) The selection procedure established under subsection (1), shall comply with the following: (a) in cases when the providers of the airport services need to meet appropriate standards, conditions and technical specifications, the standards, conditions and specifications shall be established in liaison with the Authority; (b) the selection criteria laid down in any standards, conditions or technical specifications shall be relevant, objective, transparent and non-discriminatory; and (c) if the provider of airport services ceases activities before the end of the period for which the provider was contracted, a new provider of airport services shall be selected using the same procedure specified in this section. (3) An airport operator, when selecting an airport services provider, shall comply with selection procedures based on the following principles: (a) established standard conditions or technical specifications which are relevant, objective, transparent, nondiscriminatory and includes proof of— (i) the applicant having been licensed; (ii)the financial strength of the applicant; (iii) the availability of equipment appropriate to the requirements of the airport in question; (iv) a statement on intended service level for its customers; (v)the technical competence of the applicant; and 254 No. 5 of 2016] Civil Aviation (vi) sufficient insurance cover to the security and safety of installations, aircraft, equipment and persons as well as environmental protection and compliance with the relevant legislation; and (b) consultation with airport users before the tendering process. (4) The Authority may issue any additional principles, conditions or specifications to be applied in the selection of an airport services provider. (5) If the number of providers of airport services is limited in accordance with sections ninety-eight or n"
+    },
+    {
+      "number": "106",
+      "heading": "(1) An application for an airport services permit shall be Application",
+      "text": "for airport made to the Authority, in a prescribed form. services permit (2) An application for an airport services permit shall be signed by a person duly authorised in that behalf by the corporate body, partner of a partnership or a proprietor. (3) An application for an airport services permit shall be lodged with the Authority at least sixty days before the date of determination by the Board of the Authority. (4) A copy of every application for an airport services permit shall be available for inspection at the office of the Authority but in no case shall any information on the financial resources of the applicant be available for inspection. (5) An applicant for an airport services permit shall demonstrate to the satisfaction of the Authority that the applicant will meet its— (a) actual and potential obligations, established under realistic assumptions, for a period of three years from the start of operations; and (b) fixed and operational costs incurred from operations according to its business plan, established under realistic assumptions, for a period of six months from the start of operations without taking into account any income from its operations. (6) For the purpose of subsection (5), each applicant shall submit a feasibility study showing the viability of the project for provision of airport services and a business plan for the first three years of operation which shall also detail the applicant’s financial links with other commercial activities in which the applicant is engaged, either directly or through related undertakings."
+    },
+    {
+      "number": "107",
+      "heading": "(1) The Authority shall, within seven days after the",
+      "text": "Publication deadline set for submissions of applications for airport services of application permits, cause to be published in the Gazette and a daily newspaper for airport of general circulation in Zambia, a notice containing the particulars services permit of all applications for airport services permits as follows: (a) the name, mailing and physical address of the applicants; and 256 No. 5 of 2016] Civil Aviation (b) such other details as to enable the identification of airport services applied for and the location of the intended operations. (2) The notice specified in subsection (1), shall invite comments, representations or objections to the applications for airport services permits and shall be made to the Authority not less than fourteen days after publication of the notice. Representations 108. (1) An objection or representation to an application for and an airport services permit shall— objections (a) be in writing; (b) state the specific grounds on which it is based; (c) specify any conditions which must be attached to the permit if granted; and (d) be signed by the objector or the person making the representation. (2) If the objection or representation is sent by a corporate body or partnership, it shall be signed by a person duly authorised in that behalf by the corporate body or partner of the partnership. (3) A copy of every objection or representation shall be sent by the person making the objection or representation to the applicant for the permit at the same time as it is sent to the Authority. Commencement 109. (1) An applicant for an airport services permit shall not of airport commence providing airport services prior to the granting of an services and grant of airport services permit. airport services (2) The Authority shall grant an airport services permit to the permit applicant if it is satisfied that the provisions of this Act in relation to the grant of the permit have been complied with. (3) The Authority shall not grant an airport servic"
+    },
+    {
+      "number": "111",
+      "heading": "(1) The Board of the Authority may, where the Board Suspension,",
+      "text": "revocation or considers it to be in the public interest, suspend, pending further variation of investigations, an airport services permit or any other authorisation airport granted, or having effect under this part. services permit (2) The Board of the Authority may, upon the completion of an investigation which shows sufficient ground, to the satisfaction of the Board, revoke, suspend or vary an airport services permit or any other authorisation granted under this Part. (3) A holder or any person having possession or custody of an airport services permit or any other authorisation granted under this Part which has been revoked, suspended or varied under this Part, shall surrender it to the Authority within fourteen days from the date of revocation, suspension or variation. (4) The breach of any condition subject to which an airport services permit or any other authorisation is granted under this Part shall render the permit or authorisation invalid during the continuance of the breach. (5) Where an airport services permit or other authorisation under this Part has been suspended, revoked or varied, the Authority shall cause to be published a notice in the Gazette and a daily newspaper of general circulation in Zambia of the suspension, revocation or variation including the date from which revocation, suspension or variation takes effect and, in the case of a suspension, the period of suspension. (6) The Authority may revoke an airport services permit if the airport services provider no longer meets the conditions specified in sections one hundred and five and one hundred and six."
+    },
+    {
+      "number": "112",
+      "heading": "(1) The Authority, the airport operator and providers of Consultations",
+      "text": "the airport services, shall meet at least once a year to ensure the better application of this Part. (2) The discussions at the meetings shall include the cost of airport services. (3) The Authority shall, in writing, inform the Minister the outcome of the consultative process as soon as is practically possible. 258 No. 5 of 2016] Civil Aviation Discrimination 113. If the Minister, in consultation with the Authority, of citizen determines that other countries have not provided providers of providers of airport airport services who are citizens of Zambia with— services (a) the same treatment that providers of airport services of those countries have in Zambia; or (b) the same treatment received by providers of airport services from third parties; the Minister shall wholly or partially cease the obligations arising from those countries. Exclusivity 114. In the case where exclusivity is required for airport services at a particular airport, the Authority shall conduct an inquiry into the matter, before granting such exclusivity. PART XII AIR NAVIGATION SERVICES Provision of 115. (1) The Civil Aviation Authority Act, 2012, and the relevant air ICAO Annexes to the Chicago Convention apply for purposes of navigation services and this Part. certificate of competency (2) Air navigation services shall be provided within the Zambian Act No. 7 of airspace to ensure safe, regular and efficient air traffic operations 2012 in accordance with international standards which are binding on Zambia. (3) Air navigation services shall be provided by an air navigation services provider, which is a statutory body or an entity registered Cap. 388 as a company in accordance with the Companies Act. Charges for 116. (1) A charge for the use of air navigation services provided air within the Zambian airspace consists of a charge for financing the navigation services costs for overflight services, terminal services and other services and shall be paid by the operator. (2) A charge for the costs "
+    },
+    {
+      "number": "117",
+      "heading": "An air navigation services provider shall be financed by— Financing of",
+      "text": "air navigation (a) a portion of the charge collected for air navigation services services as may be prescribed in accordance with ICAO provider guidelines and recommendations; (b) fees from air navigation services training, consultancy and any other services; and (c) charges, levies, loans, credits, donations, government grants and other financial and technical support."
+    },
+    {
+      "number": "118",
+      "heading": "Air traffic management services may be provided beyond Air-traffic",
+      "text": "the flight information region boundaries or within certain portions management services of the flight information region and may be delegated to other international subjects or entities under international standards which are binding on Zambia."
+    },
+    {
+      "number": "119",
+      "heading": "(1) The use of the Zambian airspace shall be prescribed. Organisation",
+      "text": "and use of (2) The Government of Zambia shall establish a joint civil and Zambian military committee that shall be responsible for the management of airspace the Zambian airspace. (3) The committee established in accordance with subsection (2) shall consist of representatives of the Ministry responsible for defence, the Authority and the air navigation services provider. (4) The Authority shall coordinate the affairs of the committee."
+    },
+    {
+      "number": "120",
+      "heading": "The rules and requirements with respect to systems inter- Rules and",
+      "text": "operability, their components and related procedures for the provision requirements of systems of air navigation services with other air traffic management inter- networks shall be prescribed. operability"
+    },
+    {
+      "number": "121",
+      "heading": "The scope of activities of the air navigation services Scope of",
+      "text": "provider shall be— activities of air (a) air traffic management services as follows: navigation services (i) air traffic control services provided to civil aircraft through clearances and instructions granted by the air traffic control component to ensure safe, regular and smooth flow of air service operation; (ii)publication of information useful for safe conduct of flights; (iii) publication needed for search and rescue through notification and coordination of competent entities; 260 No. 5 of 2016] Civil Aviation (iv) services provided to ensure maximum utilisation of the capacity of the air traffic control and volume of air services operation; and (v) services provided to ensure maximum and flexible utilisation of the Zambian airspace among all users; (b) aeronautical information service as follows: (i) the provision, processing and distribution of aeronautical information or data; (ii) urgent notifications; and (iii) provision of aeronautical information publications, aeronautical charts and flight procedures; (c) facilitation of distribution of meteorological services such as the provision, processing and distribution of meteorological information, meteorological forecast, meteorological reports, meteorological warnings; and (d) installation, operation, maintenance, inspection and monitoring of technical facilities, devices and equipment for the provision of air navigation services as follows: (i) preventative and corrective maintenance; (ii)setting, calibration, monitoring, supervision, management, appointing and introduction to operation; and (iii) development and modification of procedures and instruction for operating and maintaining technical operations for safe and regular air traffic operations. Technical 122. (1) An air navigation services provider shall administer facilities, technical facilities, equipment, devices and objects for the provision equipment, devices and of air navigation services. objects (2) The air navigation services provider shall in"
+    },
+    {
+      "number": "123",
+      "heading": "(1) An air navigation services provider shall, on an annual Programme",
+      "text": "on provision basis, develop and adopt a programme on the provision of safe, of air secure, regular and smooth air navigation services in accordance navigation services with ICAO Standards and Recommended Practices. (2) The programme, referred to in subsection (1), with the annual financial plan containing data on revenues and expenditures for the next year, audit and financial report of the previous year, and the anticipated capital and operational expenditures for the next year, made during the current year, shall be approved by the Authority . (3) The air navigation services provider shall once in every year, submit a report on its activities and achievements to the Authority. (4) The Authority shall submit the report referred to in subsection (3) to the Minister."
+    },
+    {
+      "number": "124",
+      "heading": "(1) An air navigation services provider shall effect Insurance",
+      "text": "insurance at least for third party liability. (2) The air navigation services provider shall provide a risk assessment and mitigation system for the risks present during the provision of air navigation services according to accepted international standards."
+    },
+    {
+      "number": "125",
+      "heading": "(1) An air navigation services provider shall, during an Duties of air",
+      "text": "navigation industrial action, ensure safe air traffic operations in accordance services with this Act. provider during strike (2) The air navigation services provider referred to in subsection (1) shall, during an industrial action, ensure the following: (a) operation of aircraft engaged in search and rescue missions; (b)operation of aircraft engaged in humanitarian missions; and (c) operation of state aircraft and operational flights of a security nature. 262 No. 5 of 2016] Civil Aviation Prohibition 126. (1) An air navigation services provider may grant and control permission to a person for access to an aviation facility or air in aviation navigation facility subject to such conditions as the air navigation facilities and air services provider may stipulate. navigation facilities (2) The air navigation services provider may refuse access to any person, personal effects and goods if the air navigation services provider is satisfied that— (a) the person may, while that person is at or within the aviation facility or air navigation facility, perform or attempt to perform an act which may jeopardise the safety of the aviation facility or air navigation facility, any of its contents, or interfere with its operation; or (b) an occurrence may arise if access is granted, which may jeopardise the safety of the aviation facility or air navigation facility or any of its contents. (3) Any person who contravenes or who fails to comply with this section or who fails to comply with any condition subject to which a permission was granted commits an offence, and is liable, upon conviction, to a fine not exceeding three hundred thousand penalty units or to a term of imprisonment not exceeding three years, or to both. PART XIII ENFORCEMENT, OFFENCES AND PENALTIES Power to 127. (1) The Director-General or a person authorised in that access and behalf, shall have free, unrestricted and unobstructed access at all inspect aerodromes, times to civil aerodrome and civil aircraft operatin"
+    },
+    {
+      "number": "129",
+      "heading": "(1) In addition to any specific power granted to, or duty Detention of",
+      "text": "aircraft and imposed on an authorised officer under this Act, the authorised closing of officer may, if the officer reasonably believes that any civil aircraft facility by authorised is intended or likely to be flown under circumstances where the officer flight would involve a contravention of this Act, regulation, rule, order, notice, circular, requirement or directive issued under this Act, or any other law administered by or applicable to the Authority (a) detain the aircraft; or (b) close any aviation facility. (2) If a civil aircraft has been detained or any aviation facility has been closed in accordance with subsection (1), the civil aircraft shall not be operated or the aviation facility shall not be opened until the Director -General is satisfied that this Act, regulation, order, notice, circular, requirement or directive issued under this Act, or any other law administered by the Authority— (a) is complied with and the Authority approves the lifting of the detention order or closure; or (b) any alterations or repairs have been effected which the Director-General considers necessary to render the civil aircraft fit for flight."
+    },
+    {
+      "number": "130",
+      "heading": "(1) If it appears to an authorised officer, on reasonable Prohibition",
+      "text": "grounds, that an aircraft is intended or likely to be flown in from exercising circumstances where— privileges of certificate, (a) the flight would involve a contravention of this Act, any permit, regulation, order, notice, circular, requirement or directive licence or authorisation issued under this Act or any other law administered by or applicable to the Authority; or (b) there is an imminent danger to persons on the aircraft or to persons or property on the ground; 264 No. 5 of 2016] Civil Aviation the officer may prohibit, in the prescribed manner, the holder of any certificate, licence, permit or authorisation from exercising the privileges of the certificate, licence, permit or authorisation. (2) A prohibition imposed, under subsection (1), may be withdrawn when the authorised officer is satisfied that the cause for the prohibition has ceased to exist. Search, 131. (1) An authorised person may, in the interest of aviation seizure and security, without a warrant, search any person, baggage, vehicle, arrest by authorised personal effects, cargo or goods, before or after boarding, persons disembarking, loading or offloading the civil aircraft, as the case may be. (2) The Director-General shall direct the operator of any aerodrome or an air carrier to ensure the search of all persons, baggage, vehicles, personal effects, cargo or goods before loading or after offloading. (3) A person who fails to comply with a directive issued under subsection (2) commits an offence and is liable, upon conviction, to a fine not exceeding two hundred thousand penalty units or to a term of imprisonment not exceeding two years, or to both. (4) An air carrier shall not transport a person or that person’s baggage, personal effects, cargo or goods if that person refuses to be searched or to have that person’s baggage, personal effects, cargo or goods searched as specified under subsection (1). (5) If an airport operator believes, on reasonable grounds, that it is necessary for the secu"
+    },
+    {
+      "number": "132",
+      "heading": "(1) A person shall not, at an aerodrome, board or attempt",
+      "text": "Harmful to board, or be on, a civil aircraft if that person has in their possession articles or under their control any harmful article, unless the operator of the civil aircraft has granted written permission for that person to board the civil aircraft with the harmful article. 266 No. 5 of 2016] Civil Aviation (2) A person who wishes to consign any harmful article by civil aircraft shall consign the article in the manner required, and in accordance with the conditions stipulated, by the operator of the civil aircraft, except where the Minister has, by statutory instrument, prescribed the manner in which and the conditions subject to which a harmful article shall be consigned, such provisions shall prevail over any condition stipulated by the operator. (3) An air carrier may refuse to transport a person, personal effects, baggage, mail, cargo or other goods if the carrier believes on reasonable grounds that— (a) the person may, while on board, perform or attempt to perform any act which may jeopardise the safety of the civil aircraft or interfere with the flight of the aircraft; or (b) an occurrence which may jeopardise the safety of the civil aircraft or which may interfere with the flight of the civil aircraft may arise from the transportation of such person, personal effects, baggage, mail, cargo or other goods. (4) A person who contravenes or fails to comply with this section or fails to comply with any condition of a permission granted, commits an offence and is liable, upon conviction, to a fine not exceeding three hundred thousand penalty units or imprisonment for a period not exceeding three years, or to both. Seizure or 133. (1) An authorised person may seize any harmful article retention of found during a search carried out under section one hundred harmful articles and thirty-one or retain such article for safe custody while the person in whose possession, custody or control the article was found remains on the civil aircraft, in the restricted area or i"
+    },
+    {
+      "number": "135",
+      "heading": "(1) An authorised person, or a person in control of an Call for",
+      "text": "aviation facility, may, if that person considers it necessary in the identification interest of security, call upon any person at, in or on any aerodrome or air navigation facility to furnish that person, with their full names, address and other identification or contact information. (2) A person who fails to furnish their full names, address and other identification or contact information or who furnishes false or incorrect information to a person, specified in subsection (1), commits an offence and is liable, upon conviction, to a fine not exceeding fifty thousand penalty units or to a term of imprisonment not exceeding six months, or to both."
+    },
+    {
+      "number": "136",
+      "heading": "A person who— Interference",
+      "text": "with (a) on-board any civil aircraft— operation of aircraft or (i) by force or threat of force or by any other form aerodrome of intimidation and without lawful reason seizes, or exercises control of, that aircraft; (ii)commits an act of violence, including an assault or threat, whether of a physical or verbal nature, against any person, including a flight crew member, which is likely to endanger the safety of the aircraft; or (iii) interferes with any member of the crew of the civil aircraft in the performance of the persons duties; (b) destroys a civil aircraft in service or causes damage to the aircraft, which renders it incapable of flight or causes damage to it, which is likely to endanger its safety; (c) places on a civil aircraft in service, by any means whatsoever, a device or substance which is likely to destroy the aircraft or to cause damage to it, render it incapable of flight or endanger its safety; (d) destroys or damages air navigation facilities or wilfully interferes with their operation, which interference is likely to endanger the safety of civil aircraft; 268 No. 5 of 2016] Civil Aviation (e) communicates information which that person knows to be false, thereby endangering the safety of a civil aircraft in service; (f) places at or in an aerodrome or air navigation facility any device or substance which is calculated to endanger, injure or kill any person, or to endanger, damage, destroy,disrupt, render useless or unserviceable or put out of action any property, vehicle, civil aircraft, building, equipment or air navigation facility or part thereof, thereby endangering safety at such aerodrome or air navigation facility; (g) with the intention to jeopardise the operation of an air carrier, the safety or security of an aerodrome, civil aircraft in service, persons or property, contaminates any aviation fuel; (h) commits an act at an aerodrome, which causes or is likely to cause serious injury or death; (i) destroys or seriously damages the facilit"
+    },
+    {
+      "number": "138",
+      "heading": "A person who communicates information which that False",
+      "text": "person knows to be false or incorrect and thereby interferes with information or may interfere with the operation of an air carrier or aerodrome, commits an offence and is liable, upon conviction, to a fine not exceeding seven hundred thousand penalty units or to a term of imprisonment not exceeding seven years, or to both."
+    },
+    {
+      "number": "139",
+      "heading": "A person who on board a civil aircraft— Nuisance,",
+      "text": "disorderly or (a) commits any nuisance, disorderly or indecent act; or indecent act on board (b) behaves in a violent manner towards any person, including aircraft a flight crew member which is likely to endanger the safety or security of a civil aircraft or of any person on board the civil aircraft; commits an offence and is liable, upon conviction, to a fine not exceeding one thousand five hundred penalty units or to a term of imprisonment not exceeding one year, or to both."
+    },
+    {
+      "number": "140",
+      "heading": "(1) A person who— Obstruction",
+      "text": "of, or (a) resists or willfully hinders or obstructs the Director- interference General, a member of the Aircraft Accident Investigation with staff or Board, staff or member of the Authority in the exercise member of that person’s powers or the performance of that person’s duties or functions; (b) threatens the use of violence against, or restraint upon, the Director-General, member or staff of the Civil Aviation Authority; or (c)threatens damage to the property of the Director-General, a member of the Aircraft Accident Investigation Board, staff or member of the Authority; commits an offence and is liable, upon conviction, to a fine not exceeding two hundred thousand penalty units or to a term of imprisonment not exceeding two years, or to both. (2) A person who— (a) conspires with, induces or attempts to induce the Director- General, a member of the Aircraft Accident Investigation Board, staff or member of the Authority not to perform a duty or do an act which is in conflict with that persons duty; or 270 No. 5 of 2016] Civil Aviation (b) assists, incites or is a party to, the commission of any act whereby any lawful instruction or directive given under this Act may be evaded; commits an offence and is liable, upon conviction, to a fine not exceeding two hundred thousand penalty units or to a term of imprisonment not exceeding two years, or to both."
+    },
+    {
+      "number": "141",
+      "heading": "A person who on board a civil aircraft—",
+      "text": "Illegal practices in connection (a) smokes in the aircraft; with aircraft (b) tampers with a smoke detector or other safety-related device on board the aircraft; (c) operates a portable electronic device when the operation of such a device is prohibited; or (d) refuses to obey a lawful instruction given by the pilot-in- command or, given on behalf of the pilot-in-command or a flight crew member for the purpose of ensuring the safety of the aircraft or of any person or property on board the aircraft or for the purpose of maintaining good order and discipline on board the aircraft; commits an offence and is liable, upon conviction, to a fine not exceeding two hundred thousand penalty units or to a term of imprisonment not exceeding two years, or to both."
+    },
+    {
+      "number": "142",
+      "heading": "A person who is within an aerodrome and without due",
+      "text": "Illegal authority— practices in connection (a) willfully tampers with, opens, damages, takes, destroys with cargo, or interferes with the conveyance of, cargo, baggage, baggage, mail or other mail or other goods; goods (b) detains or keeps any cargo, baggage, mail or other goods which ought to have been delivered to another person; or (c) by false pretence or misstatement induces any person to deliver or dispose of cargo, baggage, mail or other goods to any other person who is not the intended addressee or recipient of it; commits an offence and is liable, upon conviction, to a fine not exceeding two hundred thousand penalty units or to a term of imprisonment not exceeding two years, or to both. Civil Aviation [No. 5 of 2016 271"
+    },
+    {
+      "number": "143",
+      "heading": "A person who—",
+      "text": "Offences on aircraft in (a) causes damage to a civil aircraft in service or which is service and likely to endanger its safety in flight; endangering safety (b) places or causes to be placed on a civil aircraft in service, by any means whatsoever, a device or substance which is likely to damage or destroy a civil aircraft or endanger its safety in flight; (c) does an act to a civil aircraft which is likely to endanger its safety in flight; or (d) aids, abets or is an accomplice of a person who performs or attempts to perform any of the acts specified in this section; commits an offence and is liable, upon conviction to a fine not exceeding seven hundred thousand penalty units or to a term of imprisonment not exceeding seven years, or to both."
+    },
+    {
+      "number": "144",
+      "heading": "(1) A person shall not enter, attempt to enter or be within Prohibition",
+      "text": "and control any restricted area if that person has in that person’s possession in restricted or under that person’s control any harmful article, unless that person areas is— (a) an authorised person; (b) authorised in writing by the airport operator to be in that restricted area; or (c) a passenger or flight crew member who arrived by aircraft and is in that restricted area for the purpose of taking possession of baggage containing the harmful article, except that before the passenger or flight crew member collects the baggage, that person shall declare the harmful article to a customs officer who is on duty in the restricted area or, where such an officer is not available, to an authorised person. (2) An authorised person may refuse entry into a restricted area to a person, baggage, personal effects, mail, cargo, vehicle or other goods if the authorised officer is satisfied that— (a) the person may, within the restricted area, perform or attempt to perform any act which may jeopardise the safety of the aerodrome, any aircraft, aviation facility, air traffic service unit or interfere with the operation of air services; or 272 No. 5 of 2016] Civil Aviation (b) an occurrence may arise which may jeopardise the safety of the aerodrome, any aircraft, aviation facility, air traffic service unit or interfere with the operation of air services. (3) A person to whom, and a person who has a legal interest in, any baggage, personal effects, mail, cargo, vehicle or goods which entry into a restricted area has been refused, as specified in subsection (2), may forthwith request any person in authority, over the authorised person concerned, or the airport operator to review the refusal by the authorised person and such person in authority or the airport operator may confirm the refusal or grant the permission required, on such terms and conditions as that person may consider necessary. (4) A person who contravenes, or who fails to comply with this section or who fails to comply wi"
+    },
+    {
+      "number": "146",
+      "heading": "(1) A person who commits an offence under this Act for",
+      "text": "penalties which no penalty is provided is liable, upon conviction, in the case of a first offence, to a fine not exceeding two hundred thousand penalty units or to imprisonment for a term not exceeding two years or both and in the case of a second or subsequent offence, to a fine not exceeding seven hundred thousand penalty units or to imprisonment for a term not exceeding seven years, or to both. (2) Where a person who is a holder of a licence, certificate or rating issued under this Act, commits an offence under this Act, the court convicting that person may, in addition to any penalty which may be imposed, cancel or suspend for a specified period, or order the endorsement of, the licence, certificate or rating. Civil Aviation [No. 5 of 2016 273 (3) The penalties provided in this Act are in addition to, and not in substitution of, any penalties imposed under any laws on customs, import or export of goods and persons entering or leaving Zambia by aircraft."
+    },
+    {
+      "number": "147",
+      "heading": "(1) The Director-General may, in addition to taking any Administrative",
+      "text": "step under this Act, impose an administrative penalty as provided penalty under the Civil Aviation Authority Act, 2012, on any person for any Act No. 7 of 2012 failure to comply with this Act which does not amount to offence. (2) An administrative penalty, referred to in subsection (1), may not exceed the amount prescribed by the Minister for each day during which such failure continues. (3) An administrative penalty, imposed under subsection (1), shall be paid to the Civil Aviation Authority within the period specified by the Director-General. (4) If any person fails to pay an administrative penalty, within the period specified under subsection (2), the Authority may, by way of civil action in a competent court, recover the amount of the administrative penalty from such person as an amount due and owing to the Authority. PART XIV GENERAL PROVISIONS"
+    },
+    {
+      "number": "148",
+      "heading": "The procedures for identifying and notifying of differences Procedures",
+      "text": "shall be prescribed in accordance with Article 38 of the Chicago for identifying Convention. and notifying of differences"
+    },
+    {
+      "number": "149",
+      "heading": "(1) The pilot in command of a civil aircraft, when Marshalling",
+      "text": "signals, intercepted, shall comply with the Standards in Annex 2 to the interception Chicago Convention, interpreting and responding to visual signals manoeuvers and orders as specified thereunder. (2) The provisions of Article 3 of the Chicago Convention shall apply in the interception of civil aircraft for the purpose of this Act. (3) The pilot-in-command of a Zambian registered aircraft that is subject to interception in another State shall be required to report such interception to the Authority and shall be liable to appropriate administrative action to be determined by the Authority. 274 No. 5 of 2016] Civil Aviation Complaints 150. (1) A person may file a complaint with the Director- to, and General in writing, with respect to any act done or omitted to be investigations done by any person in contravention of any provision of this Act or by Director- regulation, order, notice, circular, requirement or directive issued General in accordance with this Act. (2) The Minister shall prescribe the form of, and procedure for, submitting and hearing complaints and the manner in which investigations may be carried out under this Act. Designation 151. (1) An air operator and each foreign air operator operating of agent for in Zambia shall designate, in writing, an agent in Zambia upon whom service service of any notice, process, order, decision, directives and requirement under this Act may be made for, and on behalf of, the air operator or foreign air operator and shall lodge such designation with the Director-General. (2) Any service of a notice, process, order, circular, requirement or directive made under this Act may be effected by serving upon the agent, designated in accordance with subsection (1), at operator’s registered office in Zambia or place of residence in Zambia and shall have the same effect as personal service. (3) If an agent, designated in accordance with subsection (1), is in default or is absent, service of any notice or other process in proceeding"
+    },
+    {
+      "number": "153",
+      "heading": "(1) The Minister shall, subject to any conditions, delegate Delegation of",
+      "text": "in writing, any of the powers conferred upon the Minister under powers this Act to the Director-General, except the power to make statutory instruments. (2) A power delegated to the Director-General shall not be further delegated by the Director-General to any person under the Director-General’s control or to an authorised person. (3) The Minister may revoke any delegation made in accordance with subsection (1) and no delegation of any power shall prevent the exercise of that power by the Minister."
+    },
+    {
+      "number": "154",
+      "heading": "The Director-General shall promulgate the Zambia Civil Promulgation",
+      "text": "Aviation Requirements (ZCARs). of Zambia Civil Aviation Requirements"
+    },
+    {
+      "number": "155",
+      "heading": "Any person who is duly authorised by the Director- Power to",
+      "text": "General may, in a restricted area, place that persons’ vehicle, erect erect tents a tent, hut, or temporary buildings on any site convenient to that and graze animals person and graze, for such period as may be necessary on all adjoining natural and unenclosed pasture lands, that person’s animals."
+    },
+    {
+      "number": "156",
+      "heading": "(1) An airport operator shall construct such drainage as Power to",
+      "text": "may be necessary for the purpose of leading storm water, which construct drains would otherwise naturally gather or impinge on an aerodrome or any radio, electronic apparatus or equipment which has been installed as a communication or navigation aid, to the nearest natural drainage. (2) If, as a result of the construction of a drainage, storm water causes damage to property, the airport operator shall pay reasonable compensation to an aggrieved person. 276 No. 5 of 2016] Civil Aviation (3) In the event of any dispute as to the cause of damage or the amount of compensation to be paid, as provided in subsection (2), the matter shall be referred to arbitration in accordance with the Act No. 19 of Arbitration Act, 2000. 2000 Discharge of 157. An owner or occupier of land adjoining an aerodrome, storm water electronic apparatus, a radio or equipment which has been installed on to aerodrome as a communication or navigation aid, shall not cause or permit prohibited storm water to discharge from drainage, or contour ridges constructed on that owner or occupiers land on to the aerodrome, electronic apparatus, radio or equipment."
+    },
+    {
+      "number": "158",
+      "heading": "(1) An action does not lie in respect of trespass or nuisance",
+      "text": "Trespass, nuisance, by reason only of the flight of civil aircraft over any property at a responsibility height, which, having regard to wind, weather and other for damage and circumstances of the case is reasonable and in compliance with insurance by this Act, the Chicago Convention, Conventions and the Transit registered owners Agreement. (2) Where material damage or loss is caused by— (a) a civil aircraft which is in flight, taking off or landing; (b) a person in a civil aircraft; or (c) an article falling from a civil aircraft on a person or property on land or water: damages may be recovered from the registered owner of the aircraft with respect to the damage or loss, without proof of negligence, intention or other cause of action as though the damage or loss had been caused by the registered owner’s willful act, neglect or default. (3) Subsection (2) shall not apply where the damage or loss was caused or contributed to by the negligence or willful act of the person by whom it was suffered. (4) Where damages are recovered from a registered owner of a civil aircraft in accordance with subsection (2) which were as a result of damage or loss caused by the wrongful or negligent action or omission of a person, other than the registered owner, the registered owner shall be entitled to recover the amount of the damages from that person. (5) A registered owner of a civil aircraft shall take out insurance, as prescribed, for damage or loss that may be caused by the civil aircraft to any person or property on land or water. Civil Aviation [No. 5 of 2016 277"
+    },
+    {
+      "number": "159",
+      "heading": "Mail shall not be carried by any civil aircraft without the Postal",
+      "text": "provisions consent, in writing, of the Zambia Information and Communications Technology Authority, and in compliance with the Postal Services Act No. 22 of Act, 2009. 2009"
+    },
+    {
+      "number": "160",
+      "heading": "(1) A lawful entry into Zambia or lawful transit across Exemption",
+      "text": "Zambia, with or without landing of a civil aircraft, shall not entail from seizure of certain seizure or detention of the civil aircraft or proceedings being brought aircraft on against the operator or other interference, by or on behalf of a patent claims person in Zambia, on the ground that the construction, mechanism, parts, accessories, or operation of the civil aircraft is or are an infringement of a patent, design, or model. (2) The importation into, and storage in, Zambia of spare parts or spare equipment for civil aircraft and the use and installation of such spare parts or spare equipment in the aircraft, shall not entail seizure or detention of the civil aircraft, the spare parts or spare equipment or proceedings being brought against the operator or the owner of the spare parts or spare equipment or other interference with the civil aircraft, by or on behalf of a person in Zambia, on the ground that the spare parts or spare equipment or their installation is or are an infringement of a patent, design, or model except that this subsection shall not apply in relation to spare parts or spare equipment which are sold or distributed in Zambia or are exported from Zambia. (3) A person, referred to in subsection (1), that satisfies the requirements to undertake air services for own use shall be granted an appropriate operating certificate by the Authority. (4) A person who fails to satisfy the requirements, referred to in subsection (1), shall not be granted an operating certificate by the Authority. (5) The Authority shall suspend the operating certificate of person, who has ceased to meet the requirements referred to in subsection (1), for a period not exceeding sixty days during which the person shall satisfy the prescribed requirements necessary for safe and regular operations. (6) If a person fails to meet the requirements in the period specified in subsection (4), the Authority shall revoke the person’s operating certificate. (7) The form, content, manner "
+    },
+    {
+      "number": "163",
+      "heading": "A civil aircraft engaged in air traffic operation shall carry Documents",
+      "text": "on board during the flight, the permits, licences, books and other to be carried on board a documents as may be prescribed. civil aircraft"
+    },
+    {
+      "number": "164",
+      "heading": "(1) An airport operator shall, subject to the approval of Safe take off",
+      "text": "the Authority for each aerodrome operated by the airport operator, and landing establish procedures and requirements for safe take off and landing of aircraft. (2) An airport operator shall cause the procedures and requirements, specified in subsection (1), to be published in the Aeronautical Information Publication."
+    },
+    {
+      "number": "165",
+      "heading": "An airport operator shall specify the operating minima Operating",
+      "text": "for each aerodrome used for takeoff and landing of aircraft, which minima may not be lower than the operating minima established by the Authority."
+    },
+    {
+      "number": "166",
+      "heading": "(1) The Minister shall cause to be undertaken search and Search and",
+      "text": "rescue operations in accordance with the provisions of the standards rescue and recommended practices of the ICAO Annex 12 and other relevant ICAO Annexes and Manuals. (2) The Minister may issue regulations relating to search and rescue operations and designate roles and responsibilities to various authorities in relation to the search and rescue operations."
+    },
+    {
+      "number": "167",
+      "heading": "(1) The Minister may make regulations for the better Regulations",
+      "text": "carrying out of the provisions of this Act. (2) Without prejudice to the generality of subsection (1), regulations made under that subsection may provide for — (a) the carrying out of, or the giving effect to, the Chicago Convention, Conventions, International Agreements, and Transit Agreements; (b) the powers or the duties of the Director-General, including the issue, amendment or withdrawal of technical standards for civil aviation and the determination of the matters in respect of which such standards may be issued; 280 No. 5 of 2016] Civil Aviation (c) the qualifications, powers or duties of authorised officers, inspectors and authorised persons; (d) the designation of medical examiners for the purposes of this Act, including— (i) the manner in which, and the persons by whom, such designation may take place; (ii) the conditions, requirements or qualifications for such designation; and (iii) the certificates issued by examiners and the conditions or the requirements for such issue; (iv) the suspension or the withdrawal of such designation; (e) the designation of a body or bodies or an institution or institutions for the purposes of this Act— (i) to exercise control over medical examinations, tests and persons performing such examinations or tests; (ii) to determine standards for medical examinations, tests and the training of persons; (iii) to issue, amend, suspend or withdraw medical certificates and to keep all books or documents regarding medical examinations or tests; and (iv) to advise the Director-General on any matter connected with medical examinations, tests or persons and on the training of persons specified in the regulations and any other medical matters as they may be necessary; (f) the designation of a body or bodies, an institution or institutions for the purposes of this Act to— (i) exercise control over training, courses, tests or verifications of skill or proficiency specified in the regulations, and over the persons conducting such training cou"
+    },
+    {
+      "number": "168",
+      "heading": "(1) Subject to subsection (2), the Aviation Act, Safety of Repeal and",
+      "text": "savings Civil Aviation Act, Air Services Act and the Tokyo Convention Act, Cap. 444 are repealed. Cap. 445 Cap. 446 (2) Notwithstanding subsection (1) the Second Schedule shall Cap. 449 apply with respect to savings and transitional matters related to the repealed Acts. 290 No. 5 of 2016] Civil Aviation FIRST SCHEDULE (Section 48 (1)) PART 1 ADMINISTRATION OF THE AIRCRAFT ACCIDENT INVESTIGATION BOARD Seal of 1. (1) The seal of the Aircraft Accident Investigation Board Aircraft shall be such device as may be determined by the Board and shall Investigation Board be kept by the Secretary. (2) The affixing of the seal shall be authenticated by the Chairperson or the ViceChairperson and the Secretary or any other person authorised in that behalf by a resolution of the Aircraft Accident Investigation Board. (3) Any contract or instrument which, if entered into or executed by a person not being a body corporate, would not be required to be under seal, may be entered into or executed without seal on behalf of the Aircraft Accident Investigation Board by the Secretary or any other person generally or specifically authorised by the Board in that behalf. (4) Any document purporting to be a document under the seal of the Aircraft Accident Investigation Board or issued on behalf of the Board shall be received in evidence and shall be deemed to be so executed or issued, as the case may be, without further proof, unless the contrary is proved. Proceedings 2. (1) Subject to this Act, the Aircraft Accident Investigation and Board may regulate its own procedure. meetings of Aviation (2) The Aircraft Accident Investigation Board shall meet for Accident Investigation the transaction of business at least once in every three months at Board such places and times as the Chairperson may determine. (3) The Chairperson may, upon giving notice of not less than fourteen days, call a meeting of the Aircraft Accident Investigation Board and shall call a special meeting to be held within fourteen"
+    },
+    {
+      "number": "3",
+      "heading": "(1) The members of the Aircraft Accident Investigation Allowances",
+      "text": "and Board shall be paid such allowances as may be determined by the expenses of members of Minister. Board (2) A member of an Aircraft Investigation Board shall be entitled to be paid reasonable travel and subsistence expenses incurred by the member in the course of the member’s duties under this Act. 292 No. 5 of 2016] Civil Aviation Disclosure 4. (1) Where any written law provides for the disclosure of and non- information or prohibits the disclosure of, or access to, information, disclosure of information a person shall disclose such information or allow such access to the information, in accordance with a law allowing access to information, where the public interest in the disclosure of the information or access to the information outweighs the harm to the interest protected. (2) Subsection (1) shall have effect notwithstanding any obligation as to secrecy or other restriction on the disclosure of, or access to, information imposed under this Act, except as applies to critical data. Disclosure 5. (1) If a member or any person is present at a meeting of of interest the Aircraft Accident Investigation Board or the or any committee of the Board at which any matter is the subject of consideration and in which matter the member or that person, or the member’s or that person’s spouse is directly or indirectly interested in a private capacity, the member or person shall, as soon as is practicable after the commencement of the meeting, declare such interest and shall not, unless the Board committee otherwise directs, take part in any consideration or discussion of, or vote on, any question touching that matter. (2) A declaration of interest made under subsection (1) shall be recorded in the minutes of the meeting at which it is made. Conflict of 6. A member of the Aircraft Accident Investigation Board interest may not, directly or indirectly, as owner, shareholder, director, officer, partner or otherwise— (a) be engaged in an aviation undertaking or business; or (b) hav"
+    },
+    {
+      "number": "8",
+      "heading": "An action or other proceeding shall not lie or be instituted Immunity of",
+      "text": "member and against a member of the Aircraft Accident Investigation Board or staff a committee of the Board, or a member of staff of the Board for or in respect of any act or thing done or omitted to be done in good faith in the exercise or performance, or purported exercise or performance, of any of the powers, functions or duties conferred under this Act. PART II FINANCIAL PROVISIONS"
+    },
+    {
+      "number": "9",
+      "heading": "(1) The funds of the Aircraft Accident Investigation Board Funds of",
+      "text": "Aircraft shall consist of such moneys as may— Accident Investigation (a) be appropriated to the Board by Parliament for the purposes Board of the Aircraft Accident Investigation Board; (b) be paid to the Board by way of fees, charges, tariffs, grants or donations; and (c) otherwise vest in or accrue to the Board. (2) The Aircraft Accident Investigation Board may— (a) accept moneys by way of grants or donations from any source in Zambia and subject to the approval of the Minister, from any source outside Zambia; (b) subject to the approval of the Minister, raise by way of loans or otherwise, such moneys as it may require for the discharge of its functions; and (c) in accordance with the regulations made under this Act, charge fees for services provided by the Board. 294 No. 5 of 2016] Civil Aviation (3) There shall be paid from the funds of the Aircraft Accident Investigation Board— (a) salaries, allowances, loans, gratuities and pensions of staff of the Board and other payments for the recruitment and retention of staff; (b) such reasonable travelling and subsistence allowances for members and members of any committee of the Board when engaged on the business of the Board at such rates as the Board may, with the approval of the Minister, determine; and (c) any other expenses incurred by the Board in the performance of its functions. (4) The Aircraft Accident Investigation Board may, after the approval of the Minister, invest in such manner as it thinks fit such of its funds as it does not immediately require for the discharge of its functions. (5) The Aircraft Accident Investigation Board shall perform its functions in accordance with sound financial principles and shall ensure as far as possible that its revenue is sufficient to meet expenditure properly chargeable to its revenue. Annual 13. (1) As soon as practicable, but not later than ninety days Report after the end of the financial year, the Aircraft Accident Investigation Board shall submit to the Minister a "
+    },
+    {
+      "number": "1",
+      "heading": "(1) The enactment of this Act shall not affect any Matters",
+      "text": "proceedings instituted, in terms of any of the repealed Acts, which pending under were pending in a court of law, immediately before the previous commencement of this Act, and such proceedings shall be disposed Acts Cap. 44 of in the court in question as if this Act had not been enacted. Cap. 445 Cap. 446 (2) Any criminal proceedings instituted as specified in Cap. 449 subsection (1) shall be regarded as having been pending if the person concerned had pleaded to the charge in question. (3) Any administrative investigation or board of inquiry Cap. 44 instituted in accordance with any of the repealed Acts, which was Cap. 445 Cap. 446 pending shall be disposed of as if this Act had not been enacted. Cap. 449 (4) All disciplinary proceedings which, immediately before the commencement of this Act, were underway or pending under any of the repealed Acts shall be concluded as if this Act had not been enacted. (5) All appeal processes which, immediately before the commencement of this Act, were underway or pending under any of the repealed Acts shall proceed as if this Act had not been passed."
+    },
+    {
+      "number": "2",
+      "heading": "(1) Notwithstanding section one hundred and sixty-eight, licences,",
+      "text": "any licence, permit or certificate subsisting or issued under any of permits, certificate, the repealed Acts shall continue to be valid for a period of one rights and year from the commencement of this Act or until its expiry in privileges accordance with its terms, whichever is the earlier. (2) Every licence, permit or certificate to be issued in accordance with any of the repealed Acts after the commencement of this Act shall be issued in accordance with this Act or the Civil Aviation Authority Act, 2012. Act No. 7 of 2012 (3) Every person claiming any existing right or privilege subsisting under any of the repealed Acts shall notify the Authority of the right or privilege within six months of the commencement of this Act and if the person entitled to the right or privilege fails to notify the Authority such right or privilege shall terminate at the expiry of the six months period. 296"
+    }
+  ],
+  "section_count": 263,
+  "source_url": "https://zambialii.org/akn/zm/act/2016/5/eng@2016-01-06/source.pdf",
+  "source_hash": "sha256:aad4f05b4f8c93b2245f25def44ae7e790334758827bad3097f016c95220140f",
+  "fetched_at": "2026-04-15T10:07:39Z",
+  "parser_version": "0.4.2"
+}

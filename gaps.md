@@ -354,3 +354,8 @@ consider Government Gazette or direct MMMD/MoJ request).
 
 ## Batch 0075 — Notes (2026-04-15T07:43:47Z)
 - Access to Information Act 2023, Agricultural Credits Act 2010, Agricultural Institute of Zambia Act 2017, Animal Health Act 2010: HTML pages had 0 AKN sections; fell back to PDF source successfully.
+
+## act-zm-2006-009-citizens-economic-empowerment-act (Batch 0080)
+- Source: https://zambialii.org/akn/zm/act/2006/9/eng@2006-05-19/source.pdf
+- Issue: Scanned PDF — 0 extractable text sections. Needs OCR or alternative source.
+- Logged: 2026-04-15T00:00:00Z
