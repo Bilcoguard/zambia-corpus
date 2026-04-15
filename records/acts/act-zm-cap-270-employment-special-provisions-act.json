@@ -1,0 +1,75 @@
+{
+  "id": "act-zm-cap-270-employment-special-provisions-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Employment (Special Provisions) Act, 1966",
+  "citation": "Act No. 29 of 1966 (Cap. 270)",
+  "date_of_assent": null,
+  "commencement_date": "1966-07-29",
+  "in_force": true,
+  "version_type": null,
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "title": "Short title",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "2",
+      "title": "Interpretation",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "3",
+      "title": "Application",
+      "body": "Provisions have effect only during State of Emergency",
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "4",
+      "title": "Regulations with respect to employment",
+      "body": "President may make regulations",
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "5",
+      "title": "Repugnancy with other enactments",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "6",
+      "title": "Republic not bound",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1966/29/eng@1996-12-31",
+  "source_hash": "sha256:6cee0cde24768868a31e0961b1c028c08d59570ac18ed2a3fb09d5241e4d9b16",
+  "fetched_at": "2026-04-15T04:50:00Z",
+  "parser_version": "0.1.0",
+  "notes": null
+}

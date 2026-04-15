@@ -1,0 +1,84 @@
+{
+  "id": "act-zm-cap-275-apprenticeship-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Apprenticeship Act, 1964",
+  "citation": "Act No. 36 of 1964 (Cap. 275)",
+  "date_of_assent": null,
+  "commencement_date": "1965-09-03",
+  "in_force": true,
+  "version_type": null,
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1-3",
+      "title": "Preliminary",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "4-6",
+      "title": "Repealed",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "7",
+      "title": "Controller of Apprenticeship",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "8",
+      "title": "Designation of trades",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "9-18",
+      "title": "Contract registration, transfer, suspension, rescission",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "19-22",
+      "title": "Appeals, inspectors, secrecy",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "23-28",
+      "title": "Regulations, offences, savings",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1964/36/eng@1996-12-31",
+  "source_hash": "sha256:3354b3d86861c9b0b74fd14d28af60a34e1eaa8acc0a06c57fd3fdc29e381d88",
+  "fetched_at": "2026-04-15T04:50:00Z",
+  "parser_version": "0.1.0",
+  "notes": null
+}

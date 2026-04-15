@@ -1,0 +1,57 @@
+{
+  "id": "act-zm-1994-035-parliamentary-and-ministerial-code-of-conduct-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Parliamentary and Ministerial Code of Conduct Act, 1994",
+  "citation": "Act No. 35 of 1994",
+  "date_of_assent": null,
+  "commencement_date": "1994-10-21",
+  "in_force": true,
+  "version_type": null,
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1-2",
+      "title": "Preliminary",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "3-7",
+      "title": "Code for Members",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "8-12",
+      "title": "Code for Ministers",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "13-20",
+      "title": "Complaints and tribunal",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1994/35/eng@1996-12-31",
+  "source_hash": "sha256:cd93b9b6446d08b75befd6dbc6a3793e556878b0163188b9ebcead2a08970e08",
+  "fetched_at": "2026-04-15T04:50:00Z",
+  "parser_version": "0.1.0",
+  "notes": null
+}

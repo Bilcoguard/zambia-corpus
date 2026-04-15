@@ -1,0 +1,66 @@
+{
+  "id": "act-zm-cap-274-employment-of-young-persons-and-children-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Employment of Young Persons and Children Act, 1933",
+  "citation": "Act No. 10 of 1933 (Cap. 274)",
+  "date_of_assent": null,
+  "commencement_date": "1933-04-13",
+  "in_force": true,
+  "version_type": null,
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1-2",
+      "title": "Preliminary",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "3-5",
+      "title": "Employment of Children",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "6-11",
+      "title": "Employment of Young Persons",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "12-17",
+      "title": "Repealed",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "17A-20",
+      "title": "Miscellaneous",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1933/10/eng@1996-12-31",
+  "source_hash": "sha256:400dd6134bf47f695b6df378fb646d8ee66a3f6b7533cab3967d628b82bdfc9f",
+  "fetched_at": "2026-04-15T04:50:00Z",
+  "parser_version": "0.1.0",
+  "notes": null
+}

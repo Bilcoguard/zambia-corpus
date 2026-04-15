@@ -1,0 +1,75 @@
+{
+  "id": "act-zm-cap-470-postal-services-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Postal Services Act, 1994",
+  "citation": "Act No. 24 of 1994 (Cap. 470)",
+  "date_of_assent": null,
+  "commencement_date": "1994-06-03",
+  "in_force": true,
+  "version_type": null,
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1-2",
+      "title": "Preliminary",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "3-4",
+      "title": "Postal Services Corporation",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "5-21",
+      "title": "Postage and Postal Services",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "22-24",
+      "title": "Money Orders",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "25-27",
+      "title": "Telegrams",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    },
+    {
+      "number": "28-48",
+      "title": "Miscellaneous",
+      "body": null,
+      "part": null,
+      "part_title": null,
+      "page_start": null,
+      "subsections": []
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1994/24/eng@1996-12-31",
+  "source_hash": "sha256:590fc200d0bac0800125e94399625e65f9278f3b3e8b08ad67ffcac79ec2dc97",
+  "fetched_at": "2026-04-15T04:50:00Z",
+  "parser_version": "0.1.0",
+  "notes": null
+}
