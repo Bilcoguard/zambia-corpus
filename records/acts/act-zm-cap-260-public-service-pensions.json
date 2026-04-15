@@ -1,0 +1,922 @@
+{
+  "id": "act-zm-cap-260-public-service-pensions",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Public Service Pensions",
+  "citation": "Cap. 260",
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "S hort title",
+      "text": "1. S hort title"
+    },
+    {
+      "number": "2",
+      "heading": "I nterpretation",
+      "text": "2. I nterpretation\nPART II\nPUBLIC SERVICE PENSIONS FUND BOARD"
+    },
+    {
+      "number": "3",
+      "heading": "E stablishment of Public Service Pensions Fund Board",
+      "text": "3. E stablishment of Public Service Pensions Fund Board"
+    },
+    {
+      "number": "4",
+      "heading": "D irectors of Board",
+      "text": "4. D irectors of Board"
+    },
+    {
+      "number": "5",
+      "heading": "P roceedings of Board",
+      "text": "5. P roceedings of Board"
+    },
+    {
+      "number": "6",
+      "heading": "S ecretary",
+      "text": "6. S ecretary"
+    },
+    {
+      "number": "7",
+      "heading": "F unctions of Board",
+      "text": "7. F unctions of Board"
+    },
+    {
+      "number": "8",
+      "heading": "P owers of Board",
+      "text": "8. P owers of Board\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nPART III\nPUBLIC SERVICE PENSIONS FUND"
+    },
+    {
+      "number": "9",
+      "heading": "E stablishment of Public Service Pensions Fund",
+      "text": "9. E stablishment of Public Service Pensions Fund"
+    },
+    {
+      "number": "10",
+      "heading": "M embership of Fund",
+      "text": "10. M embership of Fund"
+    },
+    {
+      "number": "11",
+      "heading": "V esting of Fund",
+      "text": "11. V esting of Fund"
+    },
+    {
+      "number": "12",
+      "heading": "C hief Executive",
+      "text": "12. C hief Executive"
+    },
+    {
+      "number": "13",
+      "heading": "Q ualifications of Chief Executive",
+      "text": "13. Q ualifications of Chief Executive"
+    },
+    {
+      "number": "14",
+      "heading": "F unctions of Chief Executive",
+      "text": "14. F unctions of Chief Executive"
+    },
+    {
+      "number": "15",
+      "heading": "O ther Staff",
+      "text": "15. O ther Staff"
+    },
+    {
+      "number": "16",
+      "heading": "O bjectives of Fund",
+      "text": "16. O bjectives of Fund"
+    },
+    {
+      "number": "17",
+      "heading": "R eports to Parliament",
+      "text": "17. R eports to Parliament\nPART IV\nFINANCE AND MANAGEMENT OF FUND\nSection"
+    },
+    {
+      "number": "18",
+      "heading": "D issolution of existing fund and repeal of enabling legislation",
+      "text": "18. D issolution of existing fund and repeal of enabling legislation"
+    },
+    {
+      "number": "19",
+      "heading": "T ransfer of assets",
+      "text": "19. T ransfer of assets"
+    },
+    {
+      "number": "20",
+      "heading": "P roperty of Fund",
+      "text": "20. P roperty of Fund"
+    },
+    {
+      "number": "21",
+      "heading": "P ayments",
+      "text": "21. P ayments"
+    },
+    {
+      "number": "22",
+      "heading": "P rotection of member's account",
+      "text": "22. P rotection of member's account"
+    },
+    {
+      "number": "23",
+      "heading": "A pplication of Fund",
+      "text": "23. A pplication of Fund"
+    },
+    {
+      "number": "24",
+      "heading": "A ppointment of actuary",
+      "text": "24. A ppointment of actuary"
+    },
+    {
+      "number": "25",
+      "heading": "A ctuarial valuation of Fund",
+      "text": "25. A ctuarial valuation of Fund"
+    },
+    {
+      "number": "26",
+      "heading": "A ction on actuarial report",
+      "text": "26. A ction on actuarial report"
+    },
+    {
+      "number": "27",
+      "heading": "F inancial year",
+      "text": "27. F inancial year"
+    },
+    {
+      "number": "28",
+      "heading": "A ccounts and audit",
+      "text": "28. A ccounts and audit"
+    },
+    {
+      "number": "29",
+      "heading": "I nvestment of Fund",
+      "text": "29. I nvestment of Fund\nPART V\nCONTRIBUTIONS"
+    },
+    {
+      "number": "30",
+      "heading": "Persons required to contribute and rates of contribution",
+      "text": "30. Persons required to contribute and rates of contribution"
+    },
+    {
+      "number": "31",
+      "heading": "Voluntary contributions for previous service",
+      "text": "31. Voluntary contributions for previous service"
+    },
+    {
+      "number": "32",
+      "heading": "Method of payment of contributions",
+      "text": "32. Method of payment of contributions\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nPART VI\nAGE OF RETIREMENT"
+    },
+    {
+      "number": "33",
+      "heading": "A ge of retirement",
+      "text": "33. A ge of retirement"
+    },
+    {
+      "number": "34",
+      "heading": "D eath after twenty years service",
+      "text": "34. D eath after twenty years service"
+    },
+    {
+      "number": "35",
+      "heading": "Service after retirement",
+      "text": "35. Service after retirement\nPART VII\nBENEFITS ON RESIGNATION, DISCHARGE OR DISMISSAL"
+    },
+    {
+      "number": "36",
+      "heading": "B enefits on resignation",
+      "text": "36. B enefits on resignation"
+    },
+    {
+      "number": "37",
+      "heading": "B enefits on discharge",
+      "text": "37. B enefits on discharge"
+    },
+    {
+      "number": "38",
+      "heading": "B enefits on dismissal",
+      "text": "38. B enefits on dismissal\nPART VIII\nBENEFITS ON RETIREMENT\nSection"
+    },
+    {
+      "number": "39",
+      "heading": "B enefits for officers retiring on abolition of post or to effect greater efficiency or",
+      "text": "39. B enefits for officers retiring on abolition of post or to effect greater efficiency or\neconomy"
+    },
+    {
+      "number": "40",
+      "heading": "B enefits for officers retiring on grounds of ill health",
+      "text": "40. B enefits for officers retiring on grounds of ill health"
+    },
+    {
+      "number": "41",
+      "heading": "Benefits for officers retiring on grounds not otherwise described",
+      "text": "41. Benefits for officers retiring on grounds not otherwise described\nPART IX\nBENEFITS FOR SPOUSES AND CHILDREN OF DECEASED PENSIONERS"
+    },
+    {
+      "number": "42",
+      "heading": "Benefits on death of probationer",
+      "text": "42. Benefits on death of probationer"
+    },
+    {
+      "number": "43",
+      "heading": "Benefits on death of officer",
+      "text": "43. Benefits on death of officer"
+    },
+    {
+      "number": "44",
+      "heading": "Special death gratuity",
+      "text": "44. Special death gratuity"
+    },
+    {
+      "number": "45",
+      "heading": "Pensions for spouses",
+      "text": "45. Pensions for spouses"
+    },
+    {
+      "number": "46",
+      "heading": "P ensions for children",
+      "text": "46. P ensions for children\nPART X\nMISCELLANEOUS\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "47",
+      "heading": "Information relevant to payment of benefits to be furnished",
+      "text": "47. Information relevant to payment of benefits to be furnished"
+    },
+    {
+      "number": "48",
+      "heading": "Circumstances when benefits may be withheld, suspended or reduced",
+      "text": "48. Circumstances when benefits may be withheld, suspended or reduced"
+    },
+    {
+      "number": "49",
+      "heading": "Termination or reduction of pension to spouse",
+      "text": "49. Termination or reduction of pension to spouse"
+    },
+    {
+      "number": "50",
+      "heading": "Pensions in relation to spouse and children of polygamous marriage",
+      "text": "50. Pensions in relation to spouse and children of polygamous marriage"
+    },
+    {
+      "number": "51",
+      "heading": "Medical examination or treatment of certain pensioners",
+      "text": "51. Medical examination or treatment of certain pensioners"
+    },
+    {
+      "number": "52",
+      "heading": "Resumption of duty by officer retired on grounds of ill health",
+      "text": "52. Resumption of duty by officer retired on grounds of ill health"
+    },
+    {
+      "number": "53",
+      "heading": "Computation of pensions",
+      "text": "53. Computation of pensions"
+    },
+    {
+      "number": "54",
+      "heading": "Transitional provisions and conditions of service",
+      "text": "54. Transitional provisions and conditions of service"
+    },
+    {
+      "number": "55",
+      "heading": "Regulations",
+      "text": "55. Regulations"
+    },
+    {
+      "number": "56",
+      "heading": "Act to bind the Republic",
+      "text": "56. Act to bind the Republic\nFIRST SCHEDULE-Transitional provisions\nSECOND SCHEDULE-Conditions of service relating to death or injury in the course of\nduty\nTHIRD SCHEDULE-Commutation Table\nCHAPTER 260\nPUBLIC SERVICE PENSIONS Act No. 35 of 1996\nStatutory Instrument\n31 of 1997\nAn Act to consolidate the law relating to pensions and other benefits for persons\nemployed in the Public Service; and to provide for matters connected\ntherewith or incidental to such consolidation.\n[12th December, 1996\nPART I\nPRELIMINARY"
+    },
+    {
+      "number": "1",
+      "heading": "(1) This Act may cited as the Public Service Pensions Act. Short title",
+      "text": "1. (1) This Act may cited as the Public Service Pensions Act. Short title"
+    },
+    {
+      "number": "2",
+      "heading": "In this Act, unless the context otherwise requires- Interpretation",
+      "text": "2. In this Act, unless the context otherwise requires- Interpretation\n\"appropriate authority\", in any case, means the authority charged by the\nConstitution or other written law with the power to appoint. to exercise\ndisciplinary control over and to remove from office the person to whom that\ncase relates;\n\"Board\" means the Public Service Pensions Fund Board established by section\nfour;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n\"Child\" in relation to any person entitled to a benefit by or under the provisions of\nthis Act, means a child born in, or out of marriage, step-child, adopted child,\nand a posthumus child of that person, under the age of eighteen years;\n\"dependent\", in relation to any person entitled to a benefit by or under the\nprovisions of this Act, means his spouse, child or such other relative\ndependent on the person for maintenance, as the Permanent Secretary,\nresponsible for personnel management may recognise for the purposes of\nthis Act;\n\"due notice\" means three months notice given in writing;\n\"existing fund\" means the Civil Service (Local Conditions) Pensions Fund which Cap. 48,\nwas established by the Zambia Civil Service (Local Conditions) Contributory 1965 edition\nPensions Act and continued in being by the Civil Service (Local Conditions) Cap. 410,\nCap. 131,\nPensions Act, and the Pension funds established under the Defence Act\nCap. 231,\nand the African Education Act;\n1972 edition\n\"Fund\" means the Public Service Pensions Fund established by section nine;\n\"officer\" means a person serving on pensionable terms in the Public Service who\nhas been confirmed in his appointment;\n\"pension\", means an annual pension payable during the lifetime of the recipient;\n\"pensionable emoluments\" means salary or wages, and any special personal\naddition to salary or wages granted without any condition that it shall not\ncount for the purpose of calculating pension;\n\"pensionable service\" means the aggregate of continuous service, if any, in\nrespect of which contributions have been paid under Part V;\n\"Public Service\" means the Judicial Service, the Civil Service, the Defence Forces,\nthe Police and Prisons Service, the Teaching Service, the Zambia Security\nand Intelligence Service, and any other Government Service prescribed by\nthe President.\n\"qualifying continuous Service\" means service for a period of at least ten years for\nwhich an officer makes contributions under this Act.\nPART II\nPUBLIC SERVICE PENSIONS FUND BOARD\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "3",
+      "heading": "There is hereby established the Public Service Pensions Fund Board which Establishment of",
+      "text": "3. There is hereby established the Public Service Pensions Fund Board which Establishment of\nshall be a body corporate with perpetual succession and a common seal, capable of suing public service\nPensions Fund Board\nand being sued in its corporate name, and with power to acquire, hold, charge and\nalienate, property, real or personal, and, subject to the provisions of this Act, with power to\ndo all such acts or things as are necessary or incidental to the performance of the duties\nand the exercise of the powers imposed or conferred upon it by or under the provisions of\nthis Act."
+    },
+    {
+      "number": "4",
+      "heading": "(1) The Directors of the Board shall be- Directors",
+      "text": "4. (1) The Directors of the Board shall be- Directors\n(a) the Permanent Secretary in the Ministry responsible for Labour;\n(b) Permanent Secretary, responsible for personnel management;\n(c) the Director of Budget, Ministry of Finance;\n(d) a representative of the Attorney-General;\n(e) the National Secretary of the Pensioners Association representing persons\nwho have retired under this Act;\n(f) t he General Secretary Of the Civil Servants Union of Zambia;\n(g) the General Secretary of the National Union of Teachers;\n(h) a representative of the Defence Forces;\n(i) a representative of the Security Forces;\n(j) a representative of the Chamber of Commerce;\n(k) a representative of the Lusaka Stock Exchange; and\n(l) t wo persons appointed by the President;\n(2) The President shall appoint the Chairman of the Board from the members of the\nBoard.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(3) A member referred to in subsection (l) may resign upon giving one month's\nnotice in writing to the President and may be removed by the President upon giving like\nnotice.\n(4) The Office of a member shall become vacant-\n(a) if the member is declared to be of unsound mind;\n(b) if the member is adjudged bankrupt;\n(c) if the member is lawfully detained, or the member's freedom of movement is\nrestricted under any law in force in Zambia for a period in excess of six\nmonths;\n(d) if the member is sentenced to a term of imprisonment for a period in excess\nof six months;\n(e) upon the expiration of not less that one month's notice given in writing by\nthe member to the President of the member's intention to resign from the\nBoard;\n(f) u pon the expiration of not less than one month's notice given in writing by\nthe President to the member terminating the member's appointment."
+    },
+    {
+      "number": "5",
+      "heading": "(1) Subject to the other provisions of this Act, the Board may regulate its own Proceedings of Board",
+      "text": "5. (1) Subject to the other provisions of this Act, the Board may regulate its own Proceedings of Board\nprocedure.\n(2) The Board shall meet for the transaction of business at least three times every\ntwelve months at such places and at such times as the Chairman may decide.\n(3) Upon giving notice of not less than fourteen days, a meeting of the Board may\nbe called by the Chairman and shall be called if not less than five members so request in\nwriting:\nProvided that if the urgency of any particular matter does not permit the giving of\nfourteen days notice, a special meeting may be called, upon giving a shorter notice.\n(4) Seven members shall form a quorum at any meeting of the Board.\n(5) There shall preside at any meeting of the Board-\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(a) the Chairman; or\n(b) in the absence of the Chairman, such member as the members present\nmay elect for the purpose of that meeting.\n(6) A decision of the Board on any question shall be by a majority of the members\npresent and voting at the meeting and, in the event of an equality of votes, the person\npresiding at the meeting shall have a casting vote in addition to his deliberative vote.\n(7) The Board may invite any person, whose presence is in its opinion desirable, to\nattend and to participate in the deliberations of a meeting of the Commission but that\nperson shall have no vote.\n(8) The validity of any proceedings, act or decision of the Board shall not be affected\nby any vacancy in the membership of the Board or by any defect in the appointment of\nany member or by reason that any person not entitled to do so took part in the\nproceedings."
+    },
+    {
+      "number": "6",
+      "heading": "The Chief Executive shall be the Secretary of the Board. Secretary",
+      "text": "6. The Chief Executive shall be the Secretary of the Board. Secretary"
+    },
+    {
+      "number": "7",
+      "heading": "The functions of the Board shall be to- Functions of Board",
+      "text": "7. The functions of the Board shall be to- Functions of Board\n(a) control and administer the Fund in accordance with sound business\npractices and in the best interest of the members of the Fund, subject to the\nprovisions of this Act;\n(b) establish a scheme for home ownership by the members of the Fund and to\ngrant, on such terms and conditions as the Board shall determine, loans to\nthe members of the Fund for the purpose of building or purchasing their\nown residential property; and\n(c) do all such other acts and things as may be conveniently combined or\ncarried out together with any function conferred upon the Board by or under\nthis Act or are incidental to or connected with the carrying out of any such\nfunction."
+    },
+    {
+      "number": "8",
+      "heading": "In the performance of its functions, the Board shall have power to- Powers of Board",
+      "text": "8. In the performance of its functions, the Board shall have power to- Powers of Board\n(a) cause to be carried out actuarial assessment of the Fund in accordance\nwith the provisions of this Act;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(b) co-opt any suitably qualified persons to any committee for such period as\nthe Board may determine;\n(c) give such direction as it may deem fit regarding the operation of the Fund;\nand\n(d) do all such other acts and things as are necessary to give effect to the\nprovisions of this Act.\nPART III\nPUBLIC SERVICE PENSIONS FUND"
+    },
+    {
+      "number": "9",
+      "heading": "(1) As from a date to be fixed by the President by statutory instrument, in Public Service",
+      "text": "9. (1) As from a date to be fixed by the President by statutory instrument, in Public Service\nconsultation with the Board, there shall be constituted the Public Service Pensions Fund. Pensions Fund\n(2) Without further assurance the existing fund shall be transferred to the Public\nService Pensions Fund."
+    },
+    {
+      "number": "10",
+      "heading": "The Fund shall comprise the following members: Members of Fund",
+      "text": "10. The Fund shall comprise the following members: Members of Fund\n(a) the members of the existing fund; and\n(b) such other persons, being employees of public service, as the Board may\nprescribe."
+    },
+    {
+      "number": "11",
+      "heading": "(1) The Fund shall be vested in the Board which shall, subject to the provisions Vesting of Fund and",
+      "text": "11. (1) The Fund shall be vested in the Board which shall, subject to the provisions Vesting of Fund and\nof this Act, have the sole management and control of the affairs of the Fund. transitional provisions\n(2) The law to be applied with respect to any pension benefits that will have accrued\nto the credit of any member of the existing fund, on the commencement of this Act, shall\nbe the law applicable to the existing fund.\n(3) The formula to be applied to the contributions and benefits of a member of the\nFund as from the day after the commencement of this Act, shall be the formula set out in\nParts V to XI of this Act as adjusted in accordance with the provisions of subsection (4).\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(4) The contribution and benefit structure set out in Parts V to IX shall, on the\ncommencement of this Act, be subject to adjustment by the President, in consultation with\nthe Board, by statutory instrument, in accordance with an actuarial valuation conducted to\nascertain the viability of the Fund."
+    },
+    {
+      "number": "12",
+      "heading": "There shall be a Chief Executive of the Fund who shall be appointed by the Chief Executive",
+      "text": "12. There shall be a Chief Executive of the Fund who shall be appointed by the Chief Executive\nBoard on such terms and conditions of service as the Board may determine."
+    },
+    {
+      "number": "13",
+      "heading": "A person shall not be qualified for appointment as Chief Executive unless the Qualifications of Chief",
+      "text": "13. A person shall not be qualified for appointment as Chief Executive unless the Qualifications of Chief\nBoard is satisfied that he has the academic attainments and experience relevant to the Executive\nmanagement of pension schemes."
+    },
+    {
+      "number": "14",
+      "heading": "The Chief Executive shall, subject to the provisions of this Act and to the Functions of Chief",
+      "text": "14. The Chief Executive shall, subject to the provisions of this Act and to the Functions of Chief\ngeneral directions of the Board, be responsible to the Board for the direction of persons Executive\nserving in the Fund and for the management of the Fund and in particular for-\n(a) the collection of contributions and other moneys due to the Fund under the\nprovisions of this Act and the payment thereof into the Fund;\n(b) the payment out of the Fund of benefits and claims under this Act and of\nthe expenditure necessary for the administration of the Fund;\n(c) the investment of surplus funds in accordance with the provisions of this\nAct;\n(d) accounting for all moneys received, paid out or invested under this Act; and\n(e) carrying out such other functions as the Board may direct."
+    },
+    {
+      "number": "15",
+      "heading": "The Board may appoint such other staff as it may consider necessary for the Other staff",
+      "text": "15. The Board may appoint such other staff as it may consider necessary for the Other staff\nperformance of the functions of the Fund."
+    },
+    {
+      "number": "16",
+      "heading": "The Fund shall be based on the social insurance principle of pooling resources Objectives of Fund",
+      "text": "16. The Fund shall be based on the social insurance principle of pooling resources Objectives of Fund\nand sharing risks and shall pursue the following objectives:\n(a) the Fund shall not undertake any business or make any financial\ncommitment which is inconsistent with the basic objectives of the Fund and\nthe interests of the members of the Fund;\n(b) the Fund shall appreciate the concepts of the financing of pensions, the\nneed to take account of long-term liabilities, and the linkage between higher\nbenefits and higher contributions;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(c) the Fund shall maintain a distinction between employment conditions of\nservice (such as those relating to retrenchment and early retirement) and\neligibility for pension benefits;\n(d) the Fund shall endeavour to maintain the real value of benefits;\n(e) the Fund shall make adequate arrangements for the transfer or\npreservation of pension rights;\n(f) t he Fund shall maintain a realistic contribution structure;\n(g) the Fund shall make adequate arrangements to avoid noncompliance;\n(h) the Fund shall avoid delays and other constraints to the effective provision\nof adequate benefits under the Fund;\n(i) t he Fund shall maintain current records for members and contributions; and\n(j) t he Fund shall curb excessive administrative costs and shall ensure\nprudential management of the Fund."
+    },
+    {
+      "number": "17",
+      "heading": "The Board shall submit to Parliament annually a comprehensive report Reports to Parliament",
+      "text": "17. The Board shall submit to Parliament annually a comprehensive report Reports to Parliament\ncovering the operations of the Fund.\nPART IV\nFINANCE AND MANAGEMENT OF FUND"
+    },
+    {
+      "number": "18",
+      "heading": "As from the date mentioned in section nine, the existing fund shall be dissolved Dissolution of existing",
+      "text": "18. As from the date mentioned in section nine, the existing fund shall be dissolved Dissolution of existing\nand the enabling legislation relating thereto shall stand repealed. fund and repeal of\nenabling legislation"
+    },
+    {
+      "number": "19",
+      "heading": "When the existing fund is dissolved pursuant to section eighteen, all property, Transfer of assets",
+      "text": "19. When the existing fund is dissolved pursuant to section eighteen, all property, Transfer of assets\nreal or personal, and all rights and liabilities of the existing fund, and all property, real or\npersonal, held by any person on behalf of the existing fund, shall, on the date mentioned\nin section eighteen, vest in the Board without any conveyance or other instrument or the\nauthority of any court."
+    },
+    {
+      "number": "20",
+      "heading": "The Fund shall consist of- Property of Fund",
+      "text": "20. The Fund shall consist of- Property of Fund\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(a) the assets vested in the Board under the provisions of section nineteen;\n(b) contributions and interest paid into the Fund in accordance with the\nprovisions of this Act;\n(c) income and capital appreciation derived from the holding of the assets of\nthe Fund in any form; and\n(d) any other sums or assets accruing or granted to the Fund."
+    },
+    {
+      "number": "21",
+      "heading": "(1) All contributions shall be paid into the Fund. Payments",
+      "text": "21. (1) All contributions shall be paid into the Fund. Payments\n(2) There shall be paid into the Fund each month from the general revenues of the\nRepublic-\n(a) the amount equal to the sum of the contributions paid into the Fund during\nthat month or such other amount calculated with regard to those\ncontributions as may be fixed by the President in consultation with the\nBoard following the advice of an actuary appointed by the Board;\n(b) the sum of all payments made during that month to persons who have been\nrequired to retire-\n(i) o n abolition of their posts;\n(ii) to facilitate an improvement, by which greater efficiency or economy\ncould be effected in the organisation of the parts of the service to\nwhich they belonged; or\n(iii) i n the public interest;\n(c) the sum of all payments made during that month to persons who retired on\nthe grounds of their age or length of service, if that retirement was by virtue\nof an election, made as provided under section thirty-five, to retain a date of\nretirement which is earlier than the date of retirement otherwise provided:\nProvided that this paragraph shall not apply to any payment made in relation to a\nperiod after the date on which an officer, had he not retired earlier, would have been\nrequired under the provisions of this Act to retire.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(3) Upon the retirement of any person in respect of whom a payment is made to the\nFund by virtue of paragraph (b), of subsection (2), there shall be paid from the Fund to the\ngeneral revenues of the Republic an amount equal to the sum of the aggregate of the\nperson's contribution and the aggregate of the payments to the Fund in relation to him\nwhich were made under paragraph (a) of subsection (2).\n(4) There shall be paid into the Fund from the general revenues of the Republic the\nsum of the amounts by which the interest on the investments of the Fund in any year is\nless than five per centum of the mean balance of the Fund in that year."
+    },
+    {
+      "number": "22",
+      "heading": "(1) Subject to the provisions of subsection (2), the sum standing to the credit of Protection of",
+      "text": "22. (1) Subject to the provisions of subsection (2), the sum standing to the credit of Protection of\na member's account in the Fund shall, until paid out in accordance with the provisions of member's account\nthis Act, remain the property of the Board and shall not form part of the assets of a\nmember in the event of his bankruptcy or insolvency, or be liable to attachment in\nsatisfaction of his debts; and any security, pledge or assignment given before or after the\ncommencement of this Act which purports to include any such or part thereof shall, to that\nextent, be void.\n(2) A pension or other benefit granted under this Act shall not be assignable or\ntransferable except for the purposes of satisfying-\n(a) a debt due to the Fund or the Government; or\n(b) an order of any court for the periodic payment of sums of money towards\nthe maintenance of the spouse or former spouse or child or other\ndependant under any written law."
+    },
+    {
+      "number": "23",
+      "heading": "There shall be charged on, and discharged from, the Fund- Application of Fund",
+      "text": "23. There shall be charged on, and discharged from, the Fund- Application of Fund\n(a) the payment of benefits in accordance with the provisions of this Act;\n(b) the whole of the expenses incurred in connection with, or incidental to the\nmanagement and administration of the Fund, including the cost of staff and\nthe audit and actuarial assessment of the Fund;\n(c) any losses incurred on the realisation, or decrease in the value of any\nassets of the Fund; and\n(d) any other payments authorised to be made out of the Fund under the\nprovisions of this Act or regulations made thereunder."
+    },
+    {
+      "number": "24",
+      "heading": "The Board shall appoint an actuary, who shall be a person holding Appointment of",
+      "text": "24. The Board shall appoint an actuary, who shall be a person holding Appointment of\ninternationally recognised qualifications, to carry out the duties and exercise the powers actuary\nimposed or conferred upon him by the provisions of this Act.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "25",
+      "heading": "(1) The Fund shall be valued by an actuary as may be required by the Board: Acturial valuation of",
+      "text": "25. (1) The Fund shall be valued by an actuary as may be required by the Board: Acturial valuation of\nFund\nProvided that the Fund shall be valued at intervals not exceeding three years.\n(2) The actuary shall, upon any valuation of the Fund, prepare a report on the state\nof the Fund and, in regard to any surplus or deficiency revealed, the actuary shall\nrecommend therein what action should be taken.\n(3) The actuary shall submit any report prepared by him under subsection (2) to the\nBoard which shall forthwith forward a copy to the President."
+    },
+    {
+      "number": "26",
+      "heading": "(1) The Board shall pay due regard to any recommendations made by the Action on acturial",
+      "text": "26. (1) The Board shall pay due regard to any recommendations made by the Action on acturial\nactuary and, in doing so, may cause the rates of the contribution payable in respect of report\nmembers to be increased or decreased."
+    },
+    {
+      "number": "27",
+      "heading": "The financial year of the fund shall be the period of twelve months ending on Financial year",
+      "text": "27. The financial year of the fund shall be the period of twelve months ending on Financial year\nthe 31st December in each year."
+    },
+    {
+      "number": "28",
+      "heading": "(1) The Board shall cause to be kept proper accounts in which shall be Accounts and audit",
+      "text": "28. (1) The Board shall cause to be kept proper accounts in which shall be Accounts and audit\nrecorded all the financial transactions of the Fund and shall cause the books and accounts\nof the Fund to be audited as at the end of each Financial year and shall cause statements\nof income and expenditure, together with a balance sheet, to be prepared.\n(2) The Board shall appoint an auditor for each financial year.\n(3) The auditor appointed under subsection (2) shall audit the accounts of the Fund\nfor the financial year for which the auditor was appointed, and shall make a report to the\nBoard on the accounts and other documents examined, and such report shall state-\n(a) whether or not the provisions of this Act have been complied with;\n(b) whether or not the auditor has obtained all the information and explanations\nwhich was required;\n(c) whether, in the opinion of the auditor, according to the information and the\nexplanations given to the auditor and as shown in the books relating to the\nFund, the balance sheet for the year concerned is properly drawn up so as\nto exhibit a true and correct view of the state of the Fund; and\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(d) whether the expenses of the Board incurred in the year concerned in\nconnection with or incidental to the management and administration of the\nFund are excessive.\n(4) As soon as the accounts of the Fund have been audited, the Board shall send a\ncopy of the balance sheet and statement of the transactions of the Fund referred to in\nsubsection (1) to the President together with a copy of the report made by the auditor\nunder subsection (3), and shall keep copies of such balance sheet and statement\navailable for inspection by any member of the Fund."
+    },
+    {
+      "number": "29",
+      "heading": "(1) The investment of any moneys of the Fund not required to meet the current Investment of moneys",
+      "text": "29. (1) The investment of any moneys of the Fund not required to meet the current Investment of moneys\ncharges upon the Fund shall, subject to this section, be of the discretion of the Board of fund\nwhich is hereby empowered to invest such moneys in any of the following ways:\n(a) in any interest bearing accounts of any bank or institution which is governed\nby any written law of Zambia;\n(b) in stocks, securities or funds issued by or on behalf of the Government or in\nstocks, securities or funds guaranteed by the Government; and\n(c) in such other investment as may be approved generally or specifically by\nthe Board.\n(2) The Board shall not invest assets in excess of twenty per centum of its net asset\nvalue in any one form of investment.\nPART V\nCONTRIBUTIONS"
+    },
+    {
+      "number": "30",
+      "heading": "(1) Subject to the other provisions of this section, an officer or probationer shall Persons required to",
+      "text": "30. (1) Subject to the other provisions of this section, an officer or probationer shall Persons required to\ncontribute at the rate of seven and one quarter per centum of his pensionable emoluments contribute and rates of\ncontribution\nor at such other rate as the President may fix by statutory order in consultation with the\nBoard following the advice of an actuary appointed by the Board.\n(2) An officer or probationer shall not contribute in respect of any period of service-\n(a) prior to his attaining the age of eighteen years; or\n(b) after attaining the age of his retirement under the provisions of this Act.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(3) If the initial contribution of an officer or probationer would be in respect of a\nperiod commencing after the officer has attained the age of forty-five years, such officer or\nprobationer shall not contribute.\n(4) Subject to subsection (5), where an officer or probationer is, during any period of\nthe officer's or probationer's service, absent from duty with or without leave of absence,\nthe officer or probationer shall contribute at the rate appropriate to the officer's or\nprobationer's full pensionable emoluments during that absence whether the officer or\nprobationer receives such emoluments or not.\n(5) Notwithstanding the provisions of subsection (4)-\n(a) the appropriate authority may direct that any period during which an officer\nor probationer is absent from duty without leave of absence shall not count\nas pensionable service; or\n(b) an officer or probationer may elect that any period of absence exceeding\nthirty days which is granted to the officer or probationer on reduced\npensionable emoluments or without pensionable emoluments shall not be\ncounted as pensionable service; and, in either case, the period to which\nsuch direction or election relates shall not be counted as pensionable\nservice and no contributions shall be paid in respect of it."
+    },
+    {
+      "number": "31",
+      "heading": "(1) An officer or probationer who, immediately prior to being appointed as such Voluntary contributions",
+      "text": "31. (1) An officer or probationer who, immediately prior to being appointed as such Voluntary contributions\nofficer or probationer, was a temporary employee may, with the consent of the appropriate for previous service\nauthority, elect to contribute in respect of all or any past continuous service as temporary\nemployee-\n(a) which was service approved by the appropriate authority for the purposes of\nthis section;\n(b) which was immediately followed by service as an officer or probationer; and\n(c) in respect of which contributions would have been payable under section\nthirty if such service had been as an officer or probationer.\n(2) The emoluments on which contributions shall be calculated following an election\nmade under this section shall be the emoluments determined by the Permanent\nSecretary, responsible for personnel management.\n(3) An election made under subsection (1) shall not be valid unless made within one\nmonth of the date when the officer or probationer is advised by the Permanent Secretary,\nresponsible for personnel management, that he may make such election, and any such\nelection shall be irrevocable.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(4) Contributions which an officer or probationer elects to make under this section\nshall become payable on the date of his election."
+    },
+    {
+      "number": "32",
+      "heading": "(1) Contributions payable under this Part shall be payable monthly in arrears Method of payment of",
+      "text": "32. (1) Contributions payable under this Part shall be payable monthly in arrears Method of payment of\nand shall ordinarily be effected by deduction from any pensionable emoluments payable to contributions\nthe officer or probationer and, in calculating the amount of any contribution, any fraction of\nthe Kwacha shall be taken as one Kwacha.\n(2) An officer or probationer who-\n(a) proceeds on leave with reduced pensionable emoluments or without\npensionable emoluments; and\n(b) has made no election under subsection (5) of section thirty:\nmay elect to defer the payment of contributions in respect of the period of his leave until\nthe expiration of that leave.\n(3) Unless paid within one month from the date when they become payable, any\ncontributions which are deferred under subsection (2) or become payable under section\nthirty-one shall be paid with interest at the ruling Central Bank deposit rate in such manner\nas the Board shall determine.\n(4) Any contributions. including interest thereon, due under this Part which remain\nunpaid when any pension or other benefit becomes payable under this Act in respect of\nthe officer or probationer from whom the contributions are due shall be deducted in such\nmanner as the Board may determine from such pension or other benefit.\nPART VI\nAGE OF RETIREMENT"
+    },
+    {
+      "number": "33",
+      "heading": "Subject to the other provisions of this section or any other written law, an Age of retirement",
+      "text": "33. Subject to the other provisions of this section or any other written law, an Age of retirement\nofficer shall retire on the fifty-fifth anniversary of the date of his birth:\nProvided that-\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(i) a ny member of the Defence Forces, or an officer of or below the rank of\nChief Inspector in the Police Force, or an officer of or below the rank of\nChief Officer III in the Prisons Service, may, on giving due notice, retire on\nor after attaining the age of forty-five years or after completing twenty years\nservice whichever is the earlier;\n(ii) the appropriate authority may, in consultation with the Board, prescribe\nearlier or later dates for the retirement of all or any of its officers."
+    },
+    {
+      "number": "34",
+      "heading": "(1) An officer who dies after completing twenty years service shall be deemed Death after twenty",
+      "text": "34. (1) An officer who dies after completing twenty years service shall be deemed Death after twenty\nto have retired immediately before the date of his death. years services\n(2) The estate of an officer to whom subsection (1) applies shall be entitled to the\ncommutation of two thirds of the pension payable in lump sum."
+    },
+    {
+      "number": "35",
+      "heading": "No service by any officer after the date for his retirement by or under this Service after",
+      "text": "35. No service by any officer after the date for his retirement by or under this Service after\nsection shall be taken into account in calculating any pension or lump sum payment under retirement\nthis Act.\nPART VII\nBENEFITS ON RESIGNATION, DISCHARGE OR DISMISSAL"
+    },
+    {
+      "number": "36",
+      "heading": "(1) Subject to the provisions of Part XI and of subsection (3), an officer or Benefits on resignation",
+      "text": "36. (1) Subject to the provisions of Part XI and of subsection (3), an officer or Benefits on resignation\nprobationer who resigns shall be entitled to a lump sum calculated as follows:\nS C + (SC x I x Y);\nwhere SC = the sum of the officer's contributions;\nI = interest at current Central Bank deposit rate; and\nY = the number of completed years in respect of which the officer has\ncontributed.\n(2) If a person who is entitled to a lump sum under subsection (1) resigns without\ndue notice, the appropriate authority may, deduct from that payment such sum as that\nauthority may determine, being not more than the pensionable emoluments of the person,\nfor that period of notice.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "37",
+      "heading": "A probationer who is discharged shall be refunded the sum of the contributions Benefits on discharge",
+      "text": "37. A probationer who is discharged shall be refunded the sum of the contributions Benefits on discharge\nthe officer made plus interest at the ruling Central Bank deposit rate."
+    },
+    {
+      "number": "38",
+      "heading": "Any officer or probationer who is dismissed shall be refunded the sum of the Benefits on dismissal",
+      "text": "38. Any officer or probationer who is dismissed shall be refunded the sum of the Benefits on dismissal\ncontributions the officer made plus interest at the ruling Central Bank deposit rate.\nPART VIII\nBENEFITS ON RETIREMENT"
+    },
+    {
+      "number": "39",
+      "heading": "(1) Subject to the provisions of Part XI and of subsection (2), an officer who Benefits for officers",
+      "text": "39. (1) Subject to the provisions of Part XI and of subsection (2), an officer who Benefits for officers\nretires on the abolition of his post or to facilitate an improvement by which greater retiring on abolition of\npost or to effect\nefficiency or economy could be effected in the organisation of the part of the service to\ngreater efficiency or\nwhich the officer belongs shall be entitled with effect from the date of the officer's\neconomy\nretirement to receive a pension calculated as follows:\nKA x B + KA x D ;\nC 60\nwhere KA = his pensionable emoluments;\nB = the number of completed months of his pensionable service;\nC = the age at which he retires, expressed in complete months;\nD = the number of completed periods of three years in his pensionable\nservice, to a maximum of ten.\n(2) A pension payable under subsection (1) shall not exceed-\n(a) the pension, calculated with reference to the salary scale on which the\nofficer was serving at the time of retirement, to which the officer would have\nbeen entitled if the officer had continued to hold the post the officer held at\nthe date of retirement until the date on which the officer would otherwise\nhave retired under the provisions of this Act having received all scale\nincrements for which the officer would have been eligible by that date; or\n(b) two-thirds of the highest annual rate of pensionable emoluments received\nby the officer at any time during the officer's pensionable service.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "40",
+      "heading": "(l) Subject to the provisions of Part XI, an officer who retires on medical Benefits for officers",
+      "text": "40. (l) Subject to the provisions of Part XI, an officer who retires on medical Benefits for officers\nevidence to the satisfaction of the appropriate authority that he is incapable by reason of retiring on grounds of\nill health\ninfirmity of mind or body of discharging the duties of his office and that such infirmity is\nlikely to be permanent shall, with effect from the date of the officer's retirement, be\nentitled-\n(a) if the officer's pensionable service amounts to less than ten years, to a\nlump sum, calculated as follows:\nSC + (SC x I x Y); and\n(b) if the officer's pensionable service amounts to ten years or more, to a\npension calculated as follows:\n(i) i n the case where the officer's infirmity is, in the opinion of the\nappropriate authority, due to or occasioned by the officer's own\ndefault-\nKA x B\nC\n(ii) in the case where the officer's infirmity is not, in the opinion of the\nappropriate authority, due to or occasioned by the officer's own\ndefault-\nKA x B + KA x D x 7\nC 7,200\n(2) For the purposes of the calculations set out in subsection (l)-\nKA = pensionable emoluments;\nB = the number of completed months of pensionable service;\nC = the age at which an officer retires, expressed in complete months;\nD = the number of complete months remaining from the officer's retirement\nuntil the date on which he would otherwise have retired under the\nprovisions of this Act;\nSC = the sum of the officer's contributions;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nI = interest at current Central Bank deposit rate;\nY = the number of completed years in respect of which the officer has\ncontributed."
+    },
+    {
+      "number": "41",
+      "heading": "Subject to the provisions of Part X, an officer who retires under section Benefits for officers",
+      "text": "41. Subject to the provisions of Part X, an officer who retires under section Benefits for officers\nthirty-three on grounds other than those described in sections thirty-nine and forty shall, retiring on grounds not\notherwise described\nwith effect from the date of the officer's retirement, be entitled-\n(a) if the officer's pensionable service amounts to less than ten years, to a\nlump sum calculated as follows:\nSC + (SC x l x Y); or\n(b) if the officer's pensionable service amounts to ten years or more, to a\npension calculated as follows:\nKA x B ;\nC\nwhere KA = the officer's pensionable emoluments;\nB = the number of completed months of the officer's pensionable service;\nC = the age at which the officer retires expressed in complete months;\nSC = the sum of the officer's contributions;\nI = interest at current Central Bank deposit rate;\nY = the number of completed years in respect of which the officer has contributed.\nPART IX\nBENEFITS FOR SPOUSES AND CHILDREN OF DECEASED PENSIONERS"
+    },
+    {
+      "number": "42",
+      "heading": "(1) Subject to the provisions of Part X, if a probationer dies, there shall be paid Benefits on death of",
+      "text": "42. (1) Subject to the provisions of Part X, if a probationer dies, there shall be paid Benefits on death of\nthe gratuity which would have been payable to the officer under section thirty-six had the probationer\nofficer resigned on the date of the officer's death and such lump sum payment shall be in\naddition to any benefit payable under Part X.\n(2) A lump sum payable under subsection (1) shall be paid in accordance with-\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(a) the will left by the deceased; or\n(b) where the deceased has not left a will, the mode of distribution specified in Cap. 59\nthe Intestate Succession Act."
+    },
+    {
+      "number": "43",
+      "heading": "(1) Subject to the provisions of Part X, if an officer dies and no pension, other Benefits on death of",
+      "text": "43. (1) Subject to the provisions of Part X, if an officer dies and no pension, other Benefits on death of\nthan a pension payable in respect of injury or death, is payable to any remaining spouse officer\nor child, there shall be paid a lump sum equal to the sum which would have been payable\nto the officer under section thirty-six had the officer resigned on the date of his death.\n(2) A lump sum payable under subsection (1) shall be paid in accordance with-\n(a) the will left by the deceased; or\n(b) where the deceased has not left a will, the mode of distribution specified in Cap. 59\nthe Intestate Succession Act."
+    },
+    {
+      "number": "44",
+      "heading": "(1) Subject to the provisions of Part X, a gratuity shall be paid in respect of an Special death gratuity",
+      "text": "44. (1) Subject to the provisions of Part X, a gratuity shall be paid in respect of an Special death gratuity\nofficer who dies, and whose death, in the opinion of the appropriate authority, was not\ncaused by any wrongful act or omission on the part of such officer in discharging the\nofficer's official duties.\n(2) A gratuity payable under this section shall be equal to the officer's annual\npensionable emoluments at the date of the officer's death and shall be paid-\n(a) in accordance with the will left by the deceased; or\n(b) where the deceased has not left a will, in accordance with the mode of Cap. 59\ndistribution specified in the Intestate Succession Act."
+    },
+    {
+      "number": "45",
+      "heading": "(1) Subject to the provisions of Part X, if an officer whose pensionable service Pensions for spouses",
+      "text": "45. (1) Subject to the provisions of Part X, if an officer whose pensionable service Pensions for spouses\namounts to ten years or more dies and leaves a spouse, there shall be paid to the spouse\na pension calculated as follows:\nKA x B + KA x C x 7\n1,800 18,000\nwhere KA = the officer's pensionable emoluments at the date of the officer's\ndeath;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nB = the number of months of pensionable service completed by the officer\nat the date of the officer's death; and\nC = the number of complete months remaining from the date of the officer's\ndeath to the fifty-fifth anniversary of the officer's birth.\n(2) Subject to the provisions of Part XI, if a retired person who, on the date of the\nofficer's retirement-\n(a) was entitled to a pension under Part XIII of this Act; and\n(b) had pensionable service amounting to ten years or more;\ndies and leaves a spouse, there shall be paid to the spouse a pension calculated by\nmeans of the formula set out in subsection (1) as though the deceased officer had died on\nthe last day of the officer's pensionable service.\n(3) Any pension payable under this section shall be paid with effect from the date\nfollowing the death of the deceased."
+    },
+    {
+      "number": "46",
+      "heading": "(1) Subject to the provisions of Part X, this section shall have effect where- Pensions for children",
+      "text": "46. (1) Subject to the provisions of Part X, this section shall have effect where- Pensions for children\n(a) an officer whose pensionable service or total service, as the case may be,\namounts to ten years; or more;\n(b) a retired person who at the date of the officer's retirement was-\n(i) a person described in paragraph (a); and\n(ii) entitled to a pension under Part VIII of this Act;\ndies and leaves children.\n(2) In the case where a person described in subsection (1) leaves a spouse, there\nshall be paid in respect of the person's children a pension proportionate to the pension\npayable to the spouse in accordance with section forty-five and calculated as follows:\n(a) for one child twenty-five per centum;\n(b) for two children forty per centum;\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(c) for three children fifty per centum;\n(d) for four children sixty per centum;\n(e) for five children or more sixty-six and two thirds per centum.\n(3) In the case where a person described in subsection (1) leaves no spouse, there\nshall be paid in respect of the person's children a pension proportionate to the pension\nwhich would have been payable to the person's spouse in accordance with section\nforty-five had the person left one, and calculate as follows:\n(a) for one child fifty per centum;\n(b) for two children eighty per centum;\n(c) for three children one hundred per centum;\n(d) for four children one hundred and twenty per centum;\n(e) for five or more children one hundred and thirty-three and one third per\ncentum.\n(4) A pension payable under this section shall be recalculated whenever there is any\nchange in the number of children in respect of whom it is payable.\n(5) A pension payable under this section shall be paid with effect from the day\nfollowing the death of the deceased to such persons.\nPART X\nMISCELLANEOUS"
+    },
+    {
+      "number": "47",
+      "heading": "(1) The Board may require any officer or probationer to furnish such particulars Information relevant to",
+      "text": "47. (1) The Board may require any officer or probationer to furnish such particulars Information relevant to\nrelating to himself and his family, and proof of those particulars, as the Board may specify. payment of benefits to\nbe furnished\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(2) The Board may require any claimant or recipient of any benefit payable under\nthis Act upon the death of a person described in sub section (1) to furnish such particulars\nrelating to that person and his family, and proof of those particulars, as the Board may\nspecify.\n(3) The Board may require any person described in subsection (1) or the recipient of\nany benefit payable under this Act upon the death of that person to notify the Board of any\nfuture occurrence relating to that person or his family which the Board may specify and to\nfurnish the Board with proof of that occurrence.\n(4) For the purposes of this section-\n(a) \"claimant\" and \"recipient\" shall include, respectively, any person claiming or\nreceiving for the benefit of any child or other dependant of a person\ndescribed in subsection (1); and\n(b) \"proof\" shall be proof to the satisfaction of the Board."
+    },
+    {
+      "number": "48",
+      "heading": "(1) The Board may, with the concurrence of the appropriate authority, withhold Circumstances when",
+      "text": "48. (1) The Board may, with the concurrence of the appropriate authority, withhold Circumstances when\nthe payment of any benefit, or any portion thereof, otherwise payable under this Act in benefits may be\nwithheld, suspended\nrespect of any person described in subsection (1) of section forty-seven, if any particulars\nor reduced\nor notification relevant to the payment of that benefit and the proof thereof have not been\nfurnished in accordance with a requirement made under that section.\n(2) If any person, in the opinion of the Board wilfully fails to comply with a\nrequirement made under section forty-seven or, in complying with that requirement,\nknowingly makes any false representation of fact, any benefit or portion thereof otherwise\npayable under this Act the payment of which may be affected-\n(a) as to amount;\n(b) as to the date in relation to which it shall commence or terminate; or\n(c) as to the person or persons to whom it shall be made;\nby such failure or such representation, shall be liable to be suspended or reduced at the\ndiscretion of and in accordance with the directions of the Board.\n(3) If a person becoming entitled to or in receipt of a pension under this Act is\nconvicted of an offence involving-\n(a) the misappropriation of public moneys or property; or\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(b) the making of a false representation for the purposes of obtaining a\npension, knowing that representation to be false or not believing it to be\ntrue;\nthe person's pension shall be withheld, suspended or reduced, as the case may be, at the\ndiscretion and in accordance with the directions of the Board.\n(4) Where a probationer is discharged or an officer or probationer is dismissed, the\nappropriate authority may cause to be set off against the sum otherwise payable to him\nunder Part VII the amount of any loss which, in the opinion of the appropriate authority,\nwas sustained by the Government by reason of the conduct of the officer or probationer\non account of which he was discharged or dismissed.\n(5) Where an officer is prematurely retired in order to enable him to take up an\nappointment with a recognised authority, the pension of such officer shall be paid with\neffect from the date of such premature retirement."
+    },
+    {
+      "number": "49",
+      "heading": "If a person to whom a pension is otherwise payable under this Act fails to Termination or",
+      "text": "49. If a person to whom a pension is otherwise payable under this Act fails to Termination or\nmaintain, deserts or abandons any child of a deceased officer entitled to a pension that reduction of pension to\nspouse\npension may be reduced by such proportion as the Board may direct, and that proportion\nshall be paid to such person as the Board may determine for the benefit of such child."
+    },
+    {
+      "number": "50",
+      "heading": "(1) Where a person dies and is survived by more than one spouse of a Pensions in relation to",
+      "text": "50. (1) Where a person dies and is survived by more than one spouse of a Pensions in relation to\npolygamous marriage and a pension or other benefit is payable to a spouse under this spouse and children of\npolygamous\nAct, Then that pension or other benefit shall be calculated as if there had been only one\nmarriageMedical\nspouse and shall be divided equally into the same number of parts as the number of\nexamination or\nspouses surviving at the date of that person's death and each surviving spouse shall be\ntreatment of certain\npaid one such part. pensioners\n(2) A pension payable to a spouse in accordance with subsection (1) shall cease on\nthe date on which such spouse remarries or dies and the pension of the remaining spouse\nor spouses shall not be increased.\n(3) Subject to subsection (4), when a person dies and is survived by more than one\nspouse of a polygamous marriage and a pension is payable under this Act in respect of\nthe children of the deceased, then that pension shall be calculated on the pension payable\nas if there had been one spouse.\n(4) Where a person dies and is survived by a widower of a polygamous marriage,\nthirty per centum of the benefits shall be paid to the widower while the rest shall be\ndistributed equally amongst the issue of the biological children of the deceased.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "51",
+      "heading": "Any person who is in receipt of a pension or allowance on the grounds of ill Medical examination",
+      "text": "51. Any person who is in receipt of a pension or allowance on the grounds of ill Medical examination\nhealth or any person retiring in consequence of injury may be subsection, the person's or treatment of certain\npensioners\npension or allowance shall be restored-\n(a) in the case where the person's pension or allowance was payable in\nconsequence of injury, with effect from the date the person submits to that\nexamination or undergoes that treatment; or\n(b) in any other case, if the person is certified unfit to resume duty or is not\nrequired to resume duty, with effect from the date on which it was withheld."
+    },
+    {
+      "number": "52",
+      "heading": "(1) If any person who is in receipt of a pension on the grounds of ill health is Resumption of duty by",
+      "text": "52. (1) If any person who is in receipt of a pension on the grounds of ill health is Resumption of duty by\nwithin two years of the date of the person's retirement and before the date on which the officer retired on\ngrounds of ill health\nperson would otherwise retire under section thirty-three, certified by a medical board to be\nfit to resume duty in the person's former or in any other post, the person may, subject to\nthe provisions of subsection (2), be required by the appropriate authority to resume duty in\nthe person's former or in another post.\n(2) The pension of the person who, without reasonable cause, fails to comply with a\nrequirement made under subsection (1) may, at the discretion of the appropriate authority,\nbe withheld with effect from the date on which the person is required to resume duty:\nProvided that a pension so withheld shall, unless the appropriate authority otherwise\ndirects, be restored with effect from the fifty-fifth anniversary of the birth of that person.\n(3) The following provisions shall apply in relation to any person required to resume\nduty under subsection (1)-\n(a) the pensionable emoluments attached to the post to which the person is to\nbe appointed shall not, without the person's consent, be less than the\npensionable emoluments received by him immediately before the date of\nthe person's retirement;\n(b) the person shall not, without the person's consent, be appointed to a post\nother than the person's former post unless, in the opinion of the appropriate\nauthority, the duties thereof correspond to those which the person could\nhave been called upon to perform before the date of the person's\nretirement;\n(c) the pension which the person was receiving on the grounds of ill health\nshall cease with effect from the date of the person's resumption of duty;\n(d) the person's continuous service shall be deemed not to have been\ninterrupted by the period during which the person was receiving that\npension but that period shall not form part of the person's pensionable\nservice or total service; and\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(e) any gratuity paid on the person's earlier retirement shall be recovered in the\nmanner determined by the appropriate authority from any pension or\ngratuity payable to the person under this Act on the person's final\nretirement."
+    },
+    {
+      "number": "53",
+      "heading": "(1) An officer who is entitled to a pension may elect before the payment of Commutation of",
+      "text": "53. (1) An officer who is entitled to a pension may elect before the payment of Commutation of\npension commences, to receive in lieu of either one-third or two-thirds of that pension, a pensions\nlump sum calculated by multiplying the amount of pension to be commuted by the factor\nobtained from the Third Schedule appropriate to the officer's age on the officer's last day\nof pensionable service or total service as the case may be:\nProvided that if the portion of the pension not so commuted is less than fifty\nthousand kwacha, the Board may commute the whole pension at the election of the\nofficer.\n(2) An officer who retires may opt to commute either one-third or two-thirds of the\nofficer's pension for a lump sum, calculated in accordance with the commutation factors\nas set out in the Third Schedule.\n(3) Nothing in this section authorises the commutation of any pension or part of a\npension payable in respect of injury or death."
+    },
+    {
+      "number": "54",
+      "heading": "There shall be a review of pensions at such intervals as the Board may Review of pension",
+      "text": "54. There shall be a review of pensions at such intervals as the Board may Review of pension\ndetermine."
+    },
+    {
+      "number": "55",
+      "heading": "The transitional provisions and conditions of service relating to death or injury Transitional provisions",
+      "text": "55. The transitional provisions and conditions of service relating to death or injury Transitional provisions\nin the course of duty are provided for in the First and Second Schedules respectively. and conditions of\nservice"
+    },
+    {
+      "number": "56",
+      "heading": "The Minister may, after consultation with the Board, by statutory instrument, Regulations",
+      "text": "56. The Minister may, after consultation with the Board, by statutory instrument, Regulations\nmake regulations for the better carrying into effect of the provisions of this Act."
+    },
+    {
+      "number": "57",
+      "heading": "This Act shall bind The Republic. Act to bind the",
+      "text": "57. This Act shall bind The Republic. Act to bind the\nRepublic"
+    },
+    {
+      "number": "58",
+      "heading": "The Civil Service (Local Conditions) Pensions Act, Cap. 410, is hereby Repeal of Civil service",
+      "text": "58. The Civil Service (Local Conditions) Pensions Act, Cap. 410, is hereby Repeal of Civil service\nrepealed. (Local Conditions)\nPensions Act 1972\nedition\nFIRST SCHEDULE\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(Section 55)\nTRANSITIONAL PROVISIONS\nARRANGEMENT OF SECTIONS\nPART I\nBENEFITS ON RETIREMENT OF OFFICERS TRANSFERRED FROM A\nRECOGNISED AUTHORITY OR FROM LOCAL CONDITIONS\nSection"
+    },
+    {
+      "number": "1",
+      "heading": "Application of Part I",
+      "text": "1. Application of Part I"
+    },
+    {
+      "number": "2",
+      "heading": "Benefits for officers transferred from a recognised authority on abolition of post or to effect greater efficiency",
+      "text": "2. Benefits for officers transferred from a recognised authority on abolition of post or to effect greater efficiency\non economy"
+    },
+    {
+      "number": "3",
+      "heading": "Benefits for officers transferred from a recognised authority retiring on grounds of ill health",
+      "text": "3. Benefits for officers transferred from a recognised authority retiring on grounds of ill health"
+    },
+    {
+      "number": "4",
+      "heading": "Benefits for officers transferred from a recognised authority retiring on grounds not otherwise described",
+      "text": "4. Benefits for officers transferred from a recognised authority retiring on grounds not otherwise described"
+    },
+    {
+      "number": "5",
+      "heading": "Further pension for certain transferred Federal officers",
+      "text": "5. Further pension for certain transferred Federal officers"
+    },
+    {
+      "number": "6",
+      "heading": "Increase in pension for certain officers transferred from a recognised authority",
+      "text": "6. Increase in pension for certain officers transferred from a recognised authority"
+    },
+    {
+      "number": "7",
+      "heading": "Benefits for persons transferred from local conditions",
+      "text": "7. Benefits for persons transferred from local conditions"
+    },
+    {
+      "number": "8",
+      "heading": "Further pension for certain persons transferred from Division I or II",
+      "text": "8. Further pension for certain persons transferred from Division I or II"
+    },
+    {
+      "number": "9",
+      "heading": "Emoluments factor",
+      "text": "9. Emoluments factor"
+    },
+    {
+      "number": "10",
+      "heading": "Transferred persons",
+      "text": "10. Transferred persons"
+    },
+    {
+      "number": "11",
+      "heading": "Payments",
+      "text": "11. Payments"
+    },
+    {
+      "number": "12",
+      "heading": "Application of Fund",
+      "text": "12. Application of Fund"
+    },
+    {
+      "number": "13",
+      "heading": "Age of retirement",
+      "text": "13. Age of retirement"
+    },
+    {
+      "number": "14",
+      "heading": "Benefits on resignation",
+      "text": "14. Benefits on resignation"
+    },
+    {
+      "number": "15",
+      "heading": "Benefits on dismissal",
+      "text": "15. Benefits on dismissal"
+    },
+    {
+      "number": "16",
+      "heading": "Pensions for spouses",
+      "text": "16. Pensions for spouses"
+    },
+    {
+      "number": "17",
+      "heading": "Pensions for children",
+      "text": "17. Pensions for children"
+    },
+    {
+      "number": "18",
+      "heading": "Special pension for spouse, children and dependants or certain transferred officers",
+      "text": "18. Special pension for spouse, children and dependants or certain transferred officers"
+    },
+    {
+      "number": "19",
+      "heading": "Revival of special pension which ceased on remarriage",
+      "text": "19. Revival of special pension which ceased on remarriage"
+    },
+    {
+      "number": "20",
+      "heading": "Officer's deemed to be in Division IV",
+      "text": "20. Officer's deemed to be in Division IV"
+    },
+    {
+      "number": "21",
+      "heading": "Commutation of pensions",
+      "text": "21. Commutation of pensions"
+    },
+    {
+      "number": "22",
+      "heading": "Certain benefits to be granted or increased retrospectively Cap. 48 of 1965 Edition",
+      "text": "22. Certain benefits to be granted or increased retrospectively Cap. 48 of 1965 Edition"
+    },
+    {
+      "number": "23",
+      "heading": "Increase of certain pensions",
+      "text": "23. Increase of certain pensions"
+    },
+    {
+      "number": "24",
+      "heading": "Definitions",
+      "text": "24. Definitions\nSECOND SCHEDULE\n(Section 54)\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nCONDITIONS OF SERVICE RELATING TO DEATH OR INJURY IN THE COURSE OF DUTY\nSection"
+    },
+    {
+      "number": "1",
+      "heading": "Sick leave for injured persons",
+      "text": "1. Sick leave for injured persons"
+    },
+    {
+      "number": "2",
+      "heading": "Benefits following injury",
+      "text": "2. Benefits following injury"
+    },
+    {
+      "number": "3",
+      "heading": "Benefits following death in consequence of injury",
+      "text": "3. Benefits following death in consequence of injury"
+    },
+    {
+      "number": "4",
+      "heading": "Reimbursement of medical and other expenses of injured persons",
+      "text": "4. Reimbursement of medical and other expenses of injured persons"
+    },
+    {
+      "number": "5",
+      "heading": "Definitions",
+      "text": "5. Definitions\nAPPENDIX I\nAPPENDIX II\nTHIRD SCHEDULE\nFIRST SCHEDULE\n(Section 55)\nTRANSITIONAL PROVISIONS\nPART I\nBENEFITS ON RETIREMENT OF OFFICERS TRANSFERRED FROM A\nRECOGNISED AUTHORITY OR FROM LOCAL CONDITIONS"
+    },
+    {
+      "number": "4",
+      "heading": "Subject to the provisions of this Act, an officer transferred from a recognised authority who retires under section Benefit",
+      "text": "4. Subject to the provisions of this Act, an officer transferred from a recognised authority who retires under section Benefit\nthirteen of this Schedule on grounds other than those described in sections two and three of this Schedule shall, with effect officers\nfrom the date of his retirement, be entitled- transfe\nfrom a\n(a) in the case of a transferred Federal officer or an officer whose total service amounts to ten years or more, to a\nrecogn\npension calculated as follows:\nauthori\nKA x B x C ; and retiring\nC ground\notherw\n(b) in any other case, to a gratuity calculated as follows:\ndescrib\nKA x B x C ;\n144\nProvided that if the officer was transferred from service in Zambia, the gratuity shall be calculated as follows:\nK A x B x C\n120\nwhere KA = his average pensionable emoluments;\nB = the number of completed months of his total service;\nC = his emoluments factor; and\nD = the age at which an officer retires, expressed in complete months\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "5",
+      "heading": "(1) Subject to the provisions of this Act, a transferred Federal officer who retires on any ground other than the Further",
+      "text": "5. (1) Subject to the provisions of this Act, a transferred Federal officer who retires on any ground other than the Further\nabolition of his post or to facilitate an improvement by which greater efficiency or economy could be effected in the service pension\nto which he belongs, shall, in addition to any other pension payable under this Act, be entitled, with effect from the date of certain\nhis retirement, to a further pension calculated as follows: transfe\nFedera\nK A 2 (KA x B) ;\nofficers\n8\nwhere KA = the additional abolition of office pension, determined by the Central African Pension Agency, to\nwhich he would have been entitled under the Federation of Rhodesia and Nyasaland (Dissolution)\nOrder in Council, 1963, if he had retired from the service of the Government of the former Federation\nof Rhodesia and Nyasaland on the day before his transfer and if he had not been offered an\nappointment in the service of any of the Territorial Governments of that former Federation; and\nB = the number of completed years of his pensionable service after the fourth anniversary of the date of his\ntransfer.\n(2) A further pension granted under subsection (1) shall not exceed the difference between the sum of any other\npensions granted in respect of service on local conditions and with a recognised authority (but not including a pension\ngranted in respect of injury or death) and two-thirds of the highest annual rate of pensionable emoluments paid to the\nofficer at any time during his pensionable service."
+    },
+    {
+      "number": "6",
+      "heading": "(1) Subject to the provisions of this Act, where an officer who was transferred from service in Zambia retires and Increas",
+      "text": "6. (1) Subject to the provisions of this Act, where an officer who was transferred from service in Zambia retires and Increas\nthe sum of- pension\ncertain\n(a) the pension payable to him under this Part; and\ntransfe\n(b) the pension or pensions payable to him under the appropriate law; from a\nrecogn\nis less than the pension or the sum of the pensions which would have been payable to him with effect from the date of his\nauthori\nretirement had he not been transferred, the pension payable to him under this Part shall be increased by an amount equal\nto the difference.\n(2) The pension or pensions which, for the purposes of subsection (1), would have been payable to an officer had\nhe not been transferred shall be calculated with reference to the emoluments which, in the opinion of the Permanent\nSecretary, responsible for personnel management,would have been payable to him if his period of service on local\nconditions had been the same period of service in Zambia and he had received during such service in Zambia the same\npromotions, if any, as he received during his service on local conditions.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nBenefit"
+    },
+    {
+      "number": "7",
+      "heading": "(1) Any person who has been transferred from local conditions and who-",
+      "text": "7. (1) Any person who has been transferred from local conditions and who-\nperson\n(a) is required to retire under the Non-Designated Expatriate Officers (Retiring Benefits) Act; transfe\nfrom lo\n(b) is required to retire on the abolition of his post or to facilitate an improvement by which greater efficiency or\ncondidi\neconomy could be effected in the organisation of the part of the service to which he belongs, in circumstances\nin which he is eligible for a pension or gratuity from the recognised authority with which he is serving at the\ndate of the retirement; or\n(c) retires on completion of total service amounting to ten years or more in circumstances in which he is eligible\nfor a pension or gratuity from the recognised authority with which he is serving at the date of his retirement;\nshall be entitled with effect from the date of his retirement, to a pension calculated as follows:\nK A x B x C ;\nD\nwhere KA = the annual pensionable emoluments taken by the recognised authority for the purpose of\ncalculating his pension or gratuity;\nB = the number of completed months of his total service;\nC = his emoluments factor; and\nD = the age at which he retires expressed in completed months.\n(2) A person-\n(a) who has transferred from local conditions;\n(b) who retires under circumstances in which he is eligible for a pension or gratuity from the recognised authority\nwith which he is serving at the date of his retirement;\n(c) whose total service amounts to less than ten years; and\n(d) who is not entitled to a pension under subsection (1);\nshall be entitled to a gratuity calculated as follows:\nKA x B x C ;\n144\nwhere KA = the annual pensionable emoluments taken by the recognised authority for the purpose of\ncalculating his pension or gratuity;\nB = the number of completed months of his total service; and\nC = his emoluments factor.\n(3) A female person-\n(a) who transferred from Division I, II or III;\n(b) who, at the time of her retirement, is eligible to retire on the grounds of her age or length of service:\nshall be entitled-\n(i) i f her total service amounts to ten years or more, to a pension calculated in the manner set out in subsection\n(1); and\n(ii) if her total service amounts to less than ten years to a gratuity calculated in the manner set out in subsection\n(2).\n(4) A female person-\n(a) who was transferred from local conditions;\n(b) who is not entitled to a pension or gratuity;\nshall be entitled to a gratuity calculated as follows:\n(i) i f the date of her retirement is less than twenty years after the date of commencement of her total\nservice-\nK A 2 KA x B ; and\n50\n(ii) if the date of her retirement is less than twenty years after the date of commencement of her total\nservice-\n2 x KA ;\n(iii) i f the date of her retirement is twenty-five years or more after the date of the commencement of her\ntotal service-\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "8",
+      "heading": "(1) Subject to subsection (2), a person- Further",
+      "text": "8. (1) Subject to subsection (2), a person- Further\npension\n(a) who was a federal officer transferred to Division I or II;\ncertain\n(b) who subsequently transferred from Division I or II to service in Zambia; person\ntransfe\n(c) who thereafter has completed the prescribed period of resident service as defined in section two of the Non\nfrom D\nDesignated Expatriate Officers (Retiring Benefits) Act;\nor II\n(d) who then retires under the Non-Designated Expatriate Officers (Retiring benefits) Act; and Cap. 28\nCap. 28\n(e) whose additional pension, if any, payable under section nine of the said Act is less than the further pension to\nwhich he would have been entitled at the date of his retirement had he not been transferred;\nshall be entitled with effect from the date of retirement, to a further pension equal to the difference between the further\npension to which he would have been entitled had he not been transferred and the additional pension, if any, which he\nreceived under section nine of the said Act.\n(2) No further pension shall be payable under subsection (1) in respect of a person who, pursuant to section nine of\nthe Non Designated Expatriate Officers (Retiring Benefits) Act,\nelects to receive a gratuity in lieu of an additional pension payable under that section."
+    },
+    {
+      "number": "9",
+      "heading": "The \"Emoluments factor\" shall be calculated as follows: Emolum",
+      "text": "9. The \"Emoluments factor\" shall be calculated as follows: Emolum\nfactor\nKA ;\nKA + KB\nwhere KA = aggregate emoluments during pensionable service;\nKB = aggregate emoluments from one or more recognised authorities during an officer's service forming part\nof his total service;\nProvided that where under this Act only part of a person's service is included in his pensionable or total service, as\nthe case may be, a proportionate part only of the aggregate emoluments paid during the service so divided shall be taken\ninto account in determining KA or KB."
+    },
+    {
+      "number": "10",
+      "heading": "For the purposes of this part, Transfe",
+      "text": "10. For the purposes of this part, Transfe\nperson\n\"transferred\" means\n(a) appointed from the service of a recognised authority to service on local conditions; or\n(b) appointed from service on local conditions to a post in the service of a recognised authority or so appointed\nand thereafter appointed from the service of one recognised authority to a post in the service of another;\nunder arrangements recognised by the Government whereby it is agreed that the service of the person concerned shall be\ntreated as continuous for pension purposes.\nPART II\nGENERAL\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "11",
+      "heading": "(1) There shall be paid into the Fund each month from the general revenues of the republic- Payme",
+      "text": "11. (1) There shall be paid into the Fund each month from the general revenues of the republic- Payme\n(a) the sum of all payments of further pensions and increases in pensions made during that month under the\nprovisions of this Act;\n(b) the sum of all payments of special pensions made to dependants during that month under the provisions of\nthis Act;\n(c) the sum of all payments of pensions made during that month to persons who were dismissed after becoming\ntransferred Federal officers;\n(d) the sum of all payments made during that month under the provisions of this Act to retired persons who were\ntransferred from Division I, II or III;\n(e) The sum of all payments made under this Act during that month to persons who retired from Division I, II or III-\n(i) o n the grounds of their age or length of service, if that retirement was by virtue of an election, made as\nprovided under this Act, to retain a date of retirement which is earlier than the date of retirement\notherwise provided;\n(ii) in the case of transferred Federal officers, within five years of transfer:\nProvided that this paragraph shall not apply to any payment made in relation to a period after the\ndate on which an officer, had he not retired earlier, would have been required under the provisions of\nthis Act to retire;\n(f) t he sum, relating to the payments made during the month under this Act (other than in respect of injury or\ndeath) to persons retired from Division I, II or III following service in Division IV of the amounts calculated in\nrespect of every such payment as follows:\nKA x B ;\nC\nwhere KA = the payment made to the person during the month in question;\nB = the number of completed months of his pensionable service in Division IV; and\nC = the total number of completed months of his pensionable service.\n(2) Unless paid within one month from the date when they become payable, all payments under this section and\nsection twelve shall be with interest at the commercial rate."
+    },
+    {
+      "number": "12",
+      "heading": "All benefits payable under this Act- Applica",
+      "text": "12. All benefits payable under this Act- Applica\nFund\n(a) in respect of injury or death; or\n(b) in respect of persons all of whose service on local conditions was in Division IV;\nshall be paid from the general revenues of the Republic."
+    },
+    {
+      "number": "13",
+      "heading": "(1) A transferred Federal officer in Division I, II or III who was entitled under his terms and conditions of service Age of",
+      "text": "13. (1) A transferred Federal officer in Division I, II or III who was entitled under his terms and conditions of service Age of\nwhile in the service of the Government of the former Federation of Rhodesia and Nyasaland to retire at the age of fifty-five retirem\nyears and who has elected in writing, within six months of the date of his transfer or before attaining the age of fifty years,\nwhichever first occurs, to retain that age of retirement shall retire on the fifty-fifth anniversary of the date of his birth.\n(2) An officer in division I, II or III who-\n(a) was transferred from service in Zambia;\n(b) is eligible on his retirement to receive a pension or gratuity under the appropriate law; and\n(c) within five years of the date of his transfer or before attaining the age of fifty years, whichever first occurs,\nelects in writing to retain the rules that applied to his age of retirement immediately before his transfer;\nshall retire on the fifty-fifth anniversary of his birth.\n(3) For the purposes of this section, \"appropriate law\" means the Constitution, the Service Commissions Act, the\nEuropean Officers' Pension Act, the African Civil Servants' Pensions Regulations, the Subordinate Police (Pensions)\nRegulations, the Police Act, the Defence Act, the National Service Act, the Education Act, the African Education Act and\nthe Technical Education and Vocational Training Act.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "14",
+      "heading": "Subject to the provisions of this Act, a transferred officer or probationer who resigns shall be entitled to a gratuity Benefit",
+      "text": "14. Subject to the provisions of this Act, a transferred officer or probationer who resigns shall be entitled to a gratuity Benefit\ncalculated as follows: resigna\n(a) if his total service amounts to less than twenty years-\nKA = KA x 19 ;\n400\n(b) if his total service amounts to twenty years or more but less than twenty-five years-\n2 x KA;\n(c) if his total service amounts to twenty-five years or more-\n(2 x KA) 1 KA x B\n25\nwhere KA = the sum of his contributions; and\nB = the number of completed years in respect of which he has contributed."
+    },
+    {
+      "number": "15",
+      "heading": "Notwithstanding anything to the contrary contained in this Act, a Federal officer who was transferred to division I Benefit",
+      "text": "15. Notwithstanding anything to the contrary contained in this Act, a Federal officer who was transferred to division I Benefit\nor II and is dismissed shall thereupon, in addition to a refund of his contributions, be entitled to a pension equal to the dismiss\npension, if any (but not the additional abolition of office pension), calculated as at the date of his transfer in accordance\nwith Part III of the Second Schedule to the Federation of Rhodesia and Nyasaland (Dissolution) Order in Council, 1963, as\nthough he were a person to whom that Part applied."
+    },
+    {
+      "number": "16",
+      "heading": "(1) Subject to the provisions of this Act, if a transferred officer in Division I or II or a person transferred from Pensio",
+      "text": "16. (1) Subject to the provisions of this Act, if a transferred officer in Division I or II or a person transferred from Pensio\nDivision I or II- spouse\n(a) whose total service amounts to ten years or more; or\n(b) who is a transferred Federal Officer; dies and leaves a spouse, there shall be paid to the spouse a pension\ncalculated as follows:\nKA x B x D 1 KA x C x D x 7\n1,800 18,000\nwhere KA = his pensionable emoluments or the annual pensionable emoluments taken by the recognised\nauthority for the purpose of calculating pension, as the case may be, at the date of his death;\nB = the number of months of total service completed by him at the date of his death;\nC = the number of completed months remaining from the date of the officer's death to the fifty-fifth\nanniversary of his birth; and\nD = his emoluments factor.\n(2) Subject to the provisions of this Act, if a retired person who on the date of his retirement-\n(a) was entitled to a pension under this Act, other than a pension payable in respect of injury or death;\n(b) was a transferred officer in Division I or II or a person transferred from Division I or II in the service of a\nrecognised authority; and\n(c) had pensionable service of total service, as the case may be, amounting to ten years or more or was a\ntransferred Federal officer serving in Division I or II;\ndies and leaves a spouse, there shall be paid to the spouse a pension calculated by means of the formula set out in\nsubsection (1) as though that person had died on the date of his retirement.\nPensio"
+    },
+    {
+      "number": "17",
+      "heading": "Subject to the provisions of this Act, pensions for children shall be payable where-",
+      "text": "17. Subject to the provisions of this Act, pensions for children shall be payable where-\nfor child\n(a) a person in the service of a recognised auzthority who has transferred from local conditions whose total\nservice amounts to ten years or more; or\n(b) a transferred Federal officer serving on local conditions;\ndies and leaves one or more children.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nSpecia"
+    },
+    {
+      "number": "18",
+      "heading": "(1) This section applies only in relation to the spouse, children or dependants of-",
+      "text": "18. (1) This section applies only in relation to the spouse, children or dependants of-\npension\n(a) transferred Federal officers who were appointed to the service of the Government of one of the former spouse\nProtectorates of Northern Rhodesia and Nyasaland; children\ndepend\n(b) retired persons to whom paragraph (a) applied immediately before their retirement;\ncertain\n(c) officers who were transferred from service in Zambia to local conditions; and transfe\nofficers\n(d) retired persons to whom paragraph (c) applied immediately before their retirement.\n(2) Subject to the provisions of this Act, if a person described in subsection (1) dies and-\n(a) there remains a spouse;\n(b) no special pension is payable under this section to a spouse and there remains any child of the deceased; or\n(c) no special pension is payable or continues to be payable under this section to a spouse or in respect of any\nchild and there remains any dependant of the deceased;\nthere shall be payable, in addition to any pension payable under the provisions of this Act, the special pension, if any, Cap. 27\ncalculated under subsection (3). Cap. 59\n(3) A special pension payable under subsection (2) shall be calculated as follows:\nKA 2 (B 1 C 1 D);\nwhere KA = the pension which would have been payable under the widows and Orphans Pension Act and\nthe person described in subsection (1) died immediately before the date of his appointment to the\nservice of the Government of the former Federation of Rhodesia and Nyasaland or of his transfer from\nservice in Zambia, as the case may be;\nB = the pension which is payable under the Widows and Orphans Pension Act in respect of the person\ndescribed in subsection (1) or which would have been so payable had that person not voluntarily\ncontinued to contribute under that Act in respect of the period after his appointment to the service of\nthe Government of the former Federation of Rhodesia and Nyasaland or of his transfer from service in\nZambia, as the case may be;\nC = the pension. if any, payable under the provisions of this Act to the spouse of the person described in\nsubsection (1); and\nD = the pension, if any, payable under the provisions of this Act in respect of the children of a person\ndescribed in subsection (1).\n(4) A special pension calculated under subsection (3) shall be recalculated whenever any circumstance arises\nwhich results in any change in the factors B, C or D set out in that subsection.\n(5) Any special pension payable under this section shall be in accordance with-\n(a) the will left by the deceased; or\n(b) where the deceased has not left a will, the mode of distribution specified in the Intestate Succession Act.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nReviva"
+    },
+    {
+      "number": "19",
+      "heading": "(1) the special pension of a spouse-",
+      "text": "19. (1) the special pension of a spouse-\nspecial\n(a) to whom that special pension was payable under the provisions of this Act; pension\nwhich\n(b) whose special pension ceased on remarriage;\ncased o\n(c) whose subsequent spouse dies; and remarri\nCap. 59\n(d) who is not entitled to a pension under this Act in respect of any service with the Government by the\nsubsequent spouse:\nshall be restored to the spouse as from the date-\n(i) o f the death of the subsequent spouse; or\n(ii) when the last special pension payable in respect of any child or dependant of the previous spouse,\nceases to be so payable:\nwhichever is the later.\n(2) A spouse-\n(a) to whom a special pension was payable under the provisions of this Act;\n(b) whose special pension ceased on remarriage;\n(c) whose subsequent spouse has died; and\n(d) who is entitled to a pension under this Act in respect of any service with the Government by the subsequent\nspouse;\nmay, subject to subsection (3) and on the election of such spouse, instead of the pension to which such spouse is entitled\nin respect of the subsequent spouse, be paid the special pension which ceased on remarriage.\n(3) The provisions of subsection (2) shall be effective-\n(a) if a special pension is payable under this Act in respect of any child or previous spouse, when the last such\npension ceases to be so payable; and\n(b) in any other case, upon the death of the subsequent spouse.\n(4) In the event of a spouse making an election in accordance with subsection (2) to receive the special pension\nwhich ceased on remarriage, the pension to which such spouse became entitled in respect of the subsequent spouse shall\nbe paid for the benefit of all or any remaining children or dependants of the subsequent spouse in accordance with-\n(a) the will left by the deceased; or\n(b) where the deceased officer has not left a will, the mode of distribution specified in the Intestate Succession\nAct."
+    },
+    {
+      "number": "20",
+      "heading": "(1) Subject to the provisions of subsection (2), any person who was serving in the Junior Division of the former Officers",
+      "text": "20. (1) Subject to the provisions of subsection (2), any person who was serving in the Junior Division of the former Officers\nProtectorate of Northern Rhodesia on the 31st October 1961, shall, for the purposes of this Act, be deemed to have been deeme\nan officer in Division IV throughout such of his continuous service as preceded the 1st November, 1961, and shall not be be in\nentitled to any benefits under the African Civil Servants Pensions Regulations. Division\n(2) Subsection (1) shall not apply to persons who on the 31st October, 1961 held the post of District Messenger,\nSenior District Messenger, Second District Messenger, Head District Messenger or any Scheduled post.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "21",
+      "heading": "(1) An officer who is entitled to a pension may elect before the payment of pension commences, to receive in Commu",
+      "text": "21. (1) An officer who is entitled to a pension may elect before the payment of pension commences, to receive in Commu\nlieu of either one third or two-thirds of that pension a gratuity calculated by multiplying the amount of pension to be of pens\ncommuted by the factor obtained from the Fourth Schedule appropriate to the officer's age on his last day of pensionable\nservice or total service as the case may be:\nProvided that if the portion of the pension not so commuted is less than K50,000, the Board may commute the whole\npension at the election of the officer.\n(2) In the case of a transferred Federal officer who is granted a further pension under the provisions of this Act his\npension for the purpose of subsection (1) shall be the aggregate of his pension and further pension:\nProvided that, in calculating the amount of the single payment to be paid by way of commutation in such cases, the\nBoard shall apply in respect of so much of the amount of pension to be commuted as does not exceed the amount of the\nfurther pension, a factor not less than the factor which would have been applied had the recipient retired on the day\nimmediately before the date he was transferred to local conditions.\n(3) An officer who was transferred from service in Zambia may, provided he so elects in writing before the date of\nhis retirement, elect that subsection (1) shall not apply to him and that instead his pension shall be reduced by an amount,\nnot exceeding one-quarter of that pension, determined by him on that election and that he shall be paid a gratuity equal to\ntwelve and one-half times the amount by which his pension is so reduced.\n(4) An officer who retires may opt to commute either one-third or two-thirds of his pension for a lump sum,\ncalculated in accordance with the commutation factors as set out in the Third Schedule.\n(5) Nothing in this section authorises the commutation of any pension or part of a pension payable in respect of\ninjury or death."
+    },
+    {
+      "number": "22",
+      "heading": "(1) Where any benefit which has been or is payable under the Zambia Civil Service (Local Conditions) Certain",
+      "text": "22. (1) Where any benefit which has been or is payable under the Zambia Civil Service (Local Conditions) Certain\nContributory Pensions Act, to or in respect of any person is less than the equivalent benefit which would have been benefit\npayable if at the date with respect to which the benefit is calculated the provisions of this Act had been in operation, there be gran\nshall be paid to or in respect of that person with effect from that date an additional benefit equal to the difference. or\nincreas\n(2) Where prior to the commencement of the said Act and after the 31st October, 1961, there existed circumstances retrosp\nin which- Cap. 4\n1965\n(a) no benefit was payable under the said Act to any person;\nEdition\n(b) a benefit would have been payable had this Act been in operation at the appropriate time:\nthere shall be paid to or in respect of that person the benefit which would have been payable had this Act been in\noperation at the appropriate time:\nProvided that this subsection shall not apply in any case in which a payment was made ex gratia or under the\nappropriate law in relation to the circumstances and the person described."
+    },
+    {
+      "number": "23",
+      "heading": "(1) With effect from the specified date- Increas",
+      "text": "23. (1) With effect from the specified date- Increas\ncertain\n(a) any pension payable under this Act which does not exceed ten kwacha per month shall be increased to fifteen\npension\nkwacha per month;\n(b) any pension payable under this Act which exceeds ten kwacha per month but does not exceed fifty thousand\nkwacha per month shall be increased by seven thousand kwacha;\n(c) any pension payable under this Act which exceeds fifty thousand kwacha per month but does not exceed\neighty thousand kwacha per month shall be increased so as to amount to eighty thousand kwacha per month.\n(2) For the purposes of this section, \"specified date\" means the first day of January, 1977.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "24",
+      "heading": "For the purposes of this Schedule- Definiti",
+      "text": "24. For the purposes of this Schedule- Definiti\nCap. 26\n\"Division I, II, III, or IV\", as the case may be, in relation to any person, means belonging of the four Divisions into\nCap. 13\nwhich persons serving on local conditions were divided;\n\"Federal\", in relation to any officer, means in the service of the Government of the former Federation of Rhodesia\nand Nyasaland immediately before his transfer to local conditions on or after the 1st October, 1963;\n\"local conditions\" means-\n(a) in respect of any period before the 24th October, 1964, the terms and conditions of civil service,\nincluding service in the Police Force and Prisons Service, which were known as Local Conditions and\nwere introduced with effect from the 1st November, 1961, by the Government; and\n(b) in respect of any period after the 23rd October, 1964, the terms and conditions of the Public Service,\nincluding service in the Police Force and Prisons Service, which are known as Local Conditions and\nare issued by the Government from time to time for public officers who are citizens of Zambia;\n\"pensionable service\", in respect of any person, means the aggregate of-\n(a) his continuous service, if any, in respect of which contributions have been paid;\n(b) his qualifying service if any, in a scheduled post; and\n(c) in the case of a person who has served in Division III or IV in a scheduled post or has both so\ncontributed and so served, half his qualifying service, if any, in any post other than a scheduled post:\nProvided that for the purpose of determining whether such person has completed ten years pensionable\nservice, the whole of his continuous service in Division III or IV shall be deemed to be pensionable\nservice; less any period of absence from duty which is not counted as pensionable service;\n\"qualifying service\" means-\n(a) in the case of a person whose service commenced before the 1st January, 1946, continuous service\nin Division III or IV; and\n(b) in the case of a person whose service commenced after the 31st December, 1945, continuous service\nin Division III or IV after he attains the age of twenty years;\nless any period of temporary suspension arising from misconduct and any period of leave without salary\nwhich was not granted on the grounds of public policy with the approval of the Permanent Secretary,\nresponsible for Personnel Management;\n\"recognised authority\" means-\n(a) any government or administration included in the Schedule made under regulation (17) of the\nRegulations set out in the Third Schedule to the European Officers' Pensions Act;\n(b) any other government or administration which the President may, by statutory order, declare to be a\nrecognised authority;\n(c) in relation to service in the Public Service other than on local conditions, the Government;\n(d) the Unified African Teaching Service and the Teaching Service created under the African Education\nAct, and any service replacing those services;\n(e) the Zambia Defence Force; and\n(f) a ny public corporation or public organisation which the President may, by statutory order, declare to\nbe a recognised authority;\n\"scheduled post\" means a post described in the Appendix to this Schedule;\n\"service in Zambia\" means service prior to a transfer to local conditions which is pensionable in accordance with the\nappropriate law.\nAPPENDIX\nTO FIRST SCHEDULE\n(Section 24 of First Schedule)\nSCHEDULED POSTS\nFish Guard\nSenior Fish Guard\nHead Fish Guard\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nSECOND SCHEDULE\n(Section 54)\nCONDITIONS OF SERVICE RELATING TO\nDEATH OR INJURY IN THE COURSE OF DUTY\nARRANGEMENT OF SECTIONS\nSection"
+    },
+    {
+      "number": "1",
+      "heading": "Sick leave for injured persons",
+      "text": "1. Sick leave for injured persons"
+    },
+    {
+      "number": "2",
+      "heading": "Benefits following injury",
+      "text": "2. Benefits following injury"
+    },
+    {
+      "number": "3",
+      "heading": "Benefits following death in consequence of injury",
+      "text": "3. Benefits following death in consequence of injury"
+    },
+    {
+      "number": "4",
+      "heading": "Reimbursement of medical and other expenses of injured persons",
+      "text": "4. Reimbursement of medical and other expenses of injured persons"
+    },
+    {
+      "number": "5",
+      "heading": "Definition",
+      "text": "5. Definition\nAPPENDIX I-DEGREE OF DISABLEMENT OF AN INJURED PERSON\nAPPENDIX II-CALCULATION OF SINGLE PAYMENT TO DISABLED PERSONS\nSECOND SCHEDULE\n(Section 54)\nCONDITIONS OF SERVICE RELATING TO DEATH OR INJURY IN THE\nCOURSE OF DUTY\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "1",
+      "heading": "(1) Subject to the provisions of subsection (4), the Permanent Secretary, responsible for Personnel Sick lea",
+      "text": "1. (1) Subject to the provisions of subsection (4), the Permanent Secretary, responsible for Personnel Sick lea\nManagement, may, on production of a medical certificate by any medical practitioner or dentist or, if the Permanent for inju\nSecretary, responsible for Personnel Management, so stipulates, by a Government medical officer, grant sick leave not person\nexceeding ninety days in aggregate to a person serving on local conditions who sustains an injury in the course of duty.\n(2) Subject to the provisions of subsection (4), the Permanent Secretary, responsible for Personnel Management,\nmay, on production of a medical certificate by a Government medical officer or, if the Permanent Secretary, responsible for\nPersonnel Management, so stipulates, by a medical board, grant further sick leave not exceeding ninety days in aggregate\nto a person who has been granted the maximum period of sick leave under subsection (1).\n(3) Subject to subsection (4), the Permanent Secretary, responsible for Personnel Management, may, on the\nrecommendation of a medical board, grant further sick leave not exceeding one hundred and eighty days in aggregate to a\nperson who has been granted the maximum period of sick leave under subsections (l) and (2).\n(4) No period of leave shall be granted under this section-\n(a) if the appropriate authority, after considering the report of a medical board, is satisfied that the person\nconcerned will be permanently unfit to perform his work and deems his degree of disablement to have reached\na final and stationary condition; or\n(b) which is less than the period of sick leave recommended in a medical certificate or by a medical board, except\nwith the concurrence of the appropriate authority.\n(5) Sick leave granted under this section shall be on full salary.\n(6) Any sick leave which may be granted under the rules and instructions relating to persons serving on local\nconditions shall be-\n(a) in addition to sick leave granted under this section and shall be taken after such leave; and\n(b) granted under those rules and instructions as they applied on the person's injury.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "2",
+      "heading": "(1) A person who, in consequence of an injury sustained in the course of duty, suffers any disability shall, in Benefit",
+      "text": "2. (1) A person who, in consequence of an injury sustained in the course of duty, suffers any disability shall, in Benefit\naddition to any other benefit provided for in this Act, be entitled- followin\ninjury\n(a) with effect from the date of his injury until such a time as his disability is deemed by the appropriate authority\nto have reached a final and stationary condition, to a temporary allowance calculated under subsection (3),\naccording to his percentage disability as assessed from time to time; and\n(b) with effect from the date when his disability is deemed by the appropriate authority to have reached a final and\nstationary condition-\n(i) t o a pension calculated under subsection (3); or\n(ii) with his consent and the concurrence of the appropriate authority, to a single payment calculated as\nprovided in Appendix II to this Schedule.\n(2) In any case where, in consequence of an injury sustained in the course of duty, a person who is eligible for any\nbenefit under subsection (1) has retired or his probationary appointment or his agreement has been determined, there\nshall be paid during his life time, with effect from the last day of his continuous service, in respect of that person's children,\nto such persons and in such proportions as the appropriate authority may determine, an allowance at an annual rate equal\nto the sum of-\n(a) the product of his percentage disability and one forty-eighth of the annual rate of his emoluments immediately\nbefore the date of his injury, for his first child; and\n(b) the product of his percentage disability and one sixtieth of the annual rate of his emoluments immediately\nbefore the date of his injury, for each additional child;\nand such allowance shall be recalculated whenever there is any change in the percentage disability of that person or in the\nnumber of his children.\n(3) The annual rate of a temporary allowance or pension payable to a person under subsection (1) shall be\ncalculated as follows:\nA ; x 2/3B 1 1/3C\n100\nwhere A = his percentage disability;\nB = the annual rate of his emoluments immediately before the date of his injury, not exceeding (K1,300); and\nC = the annual rate of his emoluments immediately before the date of his injury, if any, in excess of (K1,300)\nbut not exceeding (K3,040);\nand, except in relation to a single payment made under subsection (1), shall be recalculated whenever any circumstance\narises which results in any change in the factor A, B, or C.\n(4) If the appropriate authority considers the percentage disability of a person entitled under subsection (1) to any\nbenefit to be inadequate by reason of the particular consequences of his disability in relation to the special nature of his\noccupation, it may increase his percentage disability to such figure not exceeding one hundred as it considers equitable in\nthe circumstances:\nProvided that, if there is any material improvement in the earning capacity of the person concerned, the appropriate\nauthority may reduce his percentage disability to a figure not lower than that before such increase.\n(5) If, in the opinion of a medical board the percentage disability or any person in receipt of a pension under\nsubsection (1) has varied by more than five since that pension become payable, the appropriate authority may at any time\nvary the percentage disability of that person.\n(6) For the purposes of this section, if the date of a person's injury is not established to the satisfaction of the\nappropriate authority, that authority shall determine a date in relation to the injury and the date so determined shall be\ndeemed to be the date of that person's injury.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "3",
+      "heading": "(1) Subject to the provisions of this Act, the benefits set out in this section shall become payable following the Benefit",
+      "text": "3. (1) Subject to the provisions of this Act, the benefits set out in this section shall become payable following the Benefit\ndeath of a person in consequence of an injury sustained in the course of duty and such benefits- followin\ndeath i\n(a) shall be in addition to any other benefits provided for in this Act;\nconseq\n(b) shall be paid- of injur\n(i) i n the case of a pension which becomes payable to the children of the deceased only when the\npension payable to his spouse ceases, with effect from the day following the day when the pension of\nthe spouse so ceases; and\n(ii) in any other case, with effect from the day following the death of the deceased; and\n(c) shall, when payable in respect of the children of the deceased, be recalculated whenever there is any change\nin the number of such children remaining.\n(2) There shall be paid to the spouse if any, of the deceased a pension equal to two-thirds of the pension which\nwould have been payable to the deceased under the provisions of this Act had he suffered a percentage disability of one\nhundred.\n(3) Subject to subsection (4), there shall be paid, in respect of any children of the deceased, to such persons and in such\nproportions as the appropriate authority may determine, a pension equal to the sum of-\n(a) one twenty-fourth of the annual rate of the deceased person Ôs emoluments immediately before the date of\nhis injury or (K120) per annum,which ever is the greater, for the first child; and\n(b) one-fortieth of the annual rate of the deceased person's emoluments immediately before the date of his injury\nor (K72) per annum, whichever is the greater for each additional child:\nProvided that where any children of different marriages live in any household other than that of the spouse, the\npension may, at the discretion of the appropriate authority, be calculated at the rates appropriate as if the children in each\nsuch household had been the only children of the deceased.\n(4) If no pension is payable under subsection (2) or such pension ceases to be payable on the marriage or death of\nthe spouse, there shall be paid, in respect of the children of the deceased, to such persons and in such proportions as the\nappropriate authority may determine, a pension additional to the pension payable under subsection (3) and equal to the\nsum of one-fifteenth of the annual rate of the deceased person's emoluments immediately before the date of his injury or\n(K 192) per annum, whichever is the greater, for each such child.\n(5) where an accident arising out of and in the course of duty of any officer, probationer, or other person called upon\nto perform any function or undertake any task in, the service of the Government happens and results in the death of such\nofficer, probationer or other person, his spouse, children or other dependants shall, in addition to any other benefits\npayable under this Act, become entitled to compensation in the manner following, that is to say-\n(a) a lump sum payment equal to five times the basic annual salary of such officer, probationer, or other person,\nat the time of death; or\n(b) a lump sum payment of K75,000 where the person aforesaid has no basic salary-\n(6) For the purpose of this section, if the date of a person's injury is not established to the satisfaction of the\nappropriate authority, that authority shall determine a date in relation to that injury and the date so determined shall be\ndeemed to be the date of that person's injury.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "4",
+      "heading": "(1) When it is necessary for any person who sustains an injury while serving, on local conditions to make a Reimbu",
+      "text": "4. (1) When it is necessary for any person who sustains an injury while serving, on local conditions to make a Reimbu\njourney for the purpose of undergoing medical examination or treatment in connection with his injury, the Permanent of med\nSecretary, responsible for Personnel Management, shall, unless the appropriate authority otherwise directs, authorise the and oth\npayment of subsistence allowance and transport costs at such rates and subject to such conditions as he may determine: expens\ninjured\nProvided that no subsistences allowance shall be payable in respect of any period during which a person is an person\nin-patient at an institution or hospital the cost of which is repaid in whole or in part under subsection (2).\n(2) A person who sustains an injury while serving on local conditions shall be entitled to the repayment of such\nexpenses in respect of dental, medical, surgical, hospital or other treatment, including the supply of appliances and\nartificial limbs, as the appropriate authority considers to have been reasonably incurred by that person.\nProvided that-\n(i) w here his expenses exceed (K500) in aggregate, any such repayment thereof shall be made only if the\nappropriate authority, after considering the recommendations of the Permanent Secretary, responsible for\nhealth so directs;\n(ii) where those expenses are in respect of any aggravation to a material extent of ill health, physical or mental\nunfitness, physical or mental incapacity or personal injury, such proportion only of those expenses shall be\nrepayable as, in the opinion of the Permanent Secretary, responsible for health is due to that aggravation.\n(3) In any case where a person incurs unavoidable expenses, of a nature other than that described under\nsubsections (1) and (2), which the appropriate authority considers to be directly attributable to his undergoing medical\nexamination or treatment in respect of his injury while on local conditions, the Permanent Secretary, responsible for\nPersonnel Management, shall, for the period during which that person is undergoing examination, treatment and travelling\nin connection therewith, unless the appropriate authority otherwise directs authorise-\n(a) in the case of a person in receipt of a temporary allowance or pension, an increase in that allowance or\npension, together with any allowance in respect of children payable under that section; or\n(b) in the case of a person not in receipt of a temporary allowance or pension, a temporary allowance together\nwith allowances in respect of any children of that person;\nto such amount not exceeding that which would have been payable had the person's percentage disability been one\nhundred, as the Permanent Secretary, responsible for Personnel Management, thinks fit.\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia"
+    },
+    {
+      "number": "5",
+      "heading": "For the purposes of this Schedule-",
+      "text": "5. For the purposes of this Schedule-\n\"aggravation to a material extent\", in relation to a person's ill health, unfitness or incapacity, or personal injury,\nmeans an increase in that person's percentage disability-\n(a) in the case where his percentage disability is less than twenty, or more than five and of not less than\nhalf that percentage disability; and\n(b) in any other case, of not less than ten;\n\"ill health\" means physical or mental unfitness or incapacity, or personal injury which, in the opinion of the\nappropriate authority, is caused by or due to a person's work without any wrongful act or omission on his part\nand includes an aggravation to a material extent of such ill health, physical or mental unfitness or incapacity,\nor personal injury;\n\"percentage disability\" means\n(a) in the case of any disability described in Appendix I to this Schedule, the appropriate percentage\ntherein set out; and\n(b) in the case of any other disability, the percentage assessed by a medical board by comparing the\ncondition of the person concerned with the condition of a normal healthy person of the same age and\nsex without reference to earning capacity:\nProvided that-\n(i) w here the person concerned suffers more than one disability in consequence of one or more injuries, his\npercentage shall be the sum of the appropriate percentages or one hundred, whichever is the less;\n(ii) where the appropriate authority varies the percentage disability of a person under the provisions of this Act, his\npercentage disability shall be so varied;\n\"total service\" means the aggregate of pensionable service including service with a recognised authority taken into\naccount for the purpose of computing pension:\nProvided that, in the case of a transferred Federal officer, total service shall include any service which would\nhave been regarded as counting for pension had the officer retired from the service of the Government of the\nformer Federation of Rhodesia and Nyasaland immediately before his transfer.\nAPPENDIX I\nTO SECOND SCHEDULE\n(Section 5 of Second Schedule)\nDEGREE OF DISABLEMENT OF AN INJURED PERSON\nItem Nature of disablement D egree of\nd isablement\np er centum\nGENERAL"
+    },
+    {
+      "number": "1",
+      "heading": "Loss of hand and foot above site of Syme's Amputation 1 00",
+      "text": "1. Loss of hand and foot above site of Syme's Amputation 1 00"
+    },
+    {
+      "number": "2",
+      "heading": "Injury resulting in the injured person being permanently bedridden 1 00",
+      "text": "2. Injury resulting in the injured person being permanently bedridden 1 00\nINJURY TO UPPER LIMB"
+    },
+    {
+      "number": "3",
+      "heading": "Loss of both hands or both arms at higher sites 1 00",
+      "text": "3. Loss of both hands or both arms at higher sites 1 00"
+    },
+    {
+      "number": "4",
+      "heading": "Loss of remaining arm by injured person who has previously lost",
+      "text": "4. Loss of remaining arm by injured person who has previously lost\no ne arm 1 00"
+    },
+    {
+      "number": "5",
+      "heading": "Loss of arm at shoulder or below shoulder with stump of less than",
+      "text": "5. Loss of arm at shoulder or below shoulder with stump of less than\n8 inches from tip of acromion 70"
+    },
+    {
+      "number": "6",
+      "heading": "Loss of arm from 8 inches below tip of acromion to less than 4 and",
+      "text": "6. Loss of arm from 8 inches below tip of acromion to less than 4 and\nh alf inches below tip of olecranon 6 8"
+    },
+    {
+      "number": "7",
+      "heading": "Loss of arm 4 and half inches below the tip of olecranon 6 5",
+      "text": "7. Loss of arm 4 and half inches below the tip of olecranon 6 5\n8 Lossofhandatwrist 60\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nTHIRD SCHEDULE\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\n(Section 52)\nCOMMUTATION TABLE\nSingle case payment in commutation of pension K1 (one kwacha) per annum.\nHalf-age C ash payment Half-age Cash payment\nUp to 20 3 5.66 48 2 8.76\n20.5 35.58 48.5 28.56\n21 3 5.48 49 2 8.38\n21.5 35.40 49.5 28.18\n22 3 5.30 50 2 8.00\n22.5 35.22 50.5 27.80\n23 3 5.12 51 2 7.60\n23.5 35.04 51.5 27.38\n24 3 4.94 52 2 7.18\n24.5 34.86 52.5 26.96\n25 3 3.76 53 2 6.74\n25.5 34.66 53.5 26.52\n26 3 4.56 54 2 6.30\n26.5 34.46 54.5 26.06\n27 3 4.36 55 2 5.84\n27.5 34.26 55.5 25.58\n28 3 4.16 56 2 5.34\n28.5 34.06 56.5 25.10\n29 3 3.96 57 2 4.84\n29.5 33.86 57.5 24.60\n30 3 3.74 58 2 4.34\n30.5 33.64 58.5 24.06\n31 3 3.54 59 2 3.80\n31.5 33.42 59.5 23.52\n32 3 3.30 60 2 3.26\n32.5 33.20 60.5 22.98\n33 3 3.08 61 2 2.70\n33.5 32.96 61.5 22.40\n34 3 2.84 62 2 2.12\n34.5 32.72 62.5 21.82\n35 3 2.60 63 2 1.52\n355 3248 635 2122\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia\nThe Laws of Zambia\nCopyright Ministry of Legal Affairs, Government of the Republic of Zambia"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Public%20Service%20Pensions.pdf",
+  "source_hash": "sha256:18fc32d386a8eb6c4771340bb967e8538ab32f0d8338c512f34b60766d64c4de",
+  "fetched_at": "2026-04-15T04:25:19Z",
+  "parser_version": "0.1.0",
+  "node_url": "https://www.parliament.gov.zm/node/1213"
+}
