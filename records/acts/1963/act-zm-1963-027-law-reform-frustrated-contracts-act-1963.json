@@ -1,0 +1,39 @@
+{
+  "id": "act-zm-1963-027-law-reform-frustrated-contracts-act-1963",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Law Reform (Frustrated Contracts) Act, 1963",
+  "citation": "Act No. 27 of 1963",
+  "enacted_date": "1963-12-31",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Law Reform (Frustrated Contracts) Act."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "In this Act, unless the context otherwise requires—\n\"\ncourt\n\" means, in relation to any matter, the court or arbitrator by or before whom the matter falls to be determined."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "Where a contract which is governed as to its essential validity by the law of Zambia has become impossible of performance or been otherwise frustrated, and the parties thereto have for that reason been discharged from the further performance of the contract, the following provisions of this section shall, subject to the provisions of section four, have effect in relation thereto."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "This Act shall apply to contracts, whether made before or after the commencement of this Act, as respects which the time of discharge is on or after the said commencement but not to contracts as respects which the time of discharge is before the said commencement."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1963/27/eng@1996-12-31",
+  "source_hash": "sha256:69e6fded3782d4c1066f5d998218a8cdc11bf91f1401cfa0fcf4b7783e248f59",
+  "fetched_at": "2026-04-15T18:37:22Z",
+  "parser_version": "0.5.0"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "act-zm-1963-075-international-bank-loan-act-1963",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "International Bank Loan Act, 1963",
+  "citation": "Act No. 75 of 1963",
+  "enacted_date": "1963-12-31",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the International Bank Loan Act."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "In this Act, the expression \"the loan\" means the loan made by the International Bank for Reconstruction and Development to the former Federation of Rhodesia and Nyasaland in an aggregate principal amount equivalent to nineteen million dollars pursuant to a loan agreement dated the 16th June, 1958, between the former Federation of Rhodesia and Nyasaland and the International Bank of Reconstruction and Development."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The Government hereby assumes one-half of the obligation of the former Federation of Rhodesia and Nyasaland to pay principal, interest and other charges and premium, if any, in respect of the loan."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "One-half of the principal, interest and other charges and premium, if any, in respect of the loan are hereby charged on and shall be payable out of the general revenues and assets of the Republic."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Notwithstanding anything contained in any other written law, the Government is hereby authorised to issue such instruments, including bonds, as may be necessary for the purpose of any agreement which may have been entered into or may after the commencement of this Act be entered into by the Government with the International Bank for Reconstruction and Development in respect of the obligation assumed under section three."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1963/75/eng@1996-12-31",
+  "source_hash": "sha256:2c80e294f5e791a642169101a4e85bbc0571a59633cc834b3a53a20dbb8d1482",
+  "fetched_at": "2026-04-15T18:37:41Z",
+  "parser_version": "0.5.0"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "act-zm-1962-047-human-tissue-act-1962",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Human Tissue Act, 1962",
+  "citation": "Act No. 47 of 1962",
+  "enacted_date": "1962-12-31",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Human Tissue Act."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "If any person, either in writing at any time or orally in the presence of two or more witnesses during his last illness, has expressed a request that after his death his body or any specified part of his body be used for therapeutic purposes or be examined or used for purposes of medical education or research, the person lawfully in possession of his body after his death may, unless he has reason to believe that the request was subsequently withdrawn, authorise the examination or use of the body or of the specified part, in accordance with the request, and for that purpose may authorise the removal from the body of any part or, as the case may be, the specified part, for such examination or use."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "an inquest may be required to be held on a body; or"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "No examination of, or of a part of, a body in accordance with an authority given under section two shall be carried out otherwise than by or in accordance with the instructions of a medical practitioner, who must have satisfied himself by a personal examination of the body that life is extinct."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Nothing in this Act shall be construed as rendering unlawful any dealing with, or with any part of, the body of a deceased person which is lawful apart from this Act."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1962/47/eng@1996-12-31",
+  "source_hash": "sha256:733491ce2d702b60305fb457e07c945a51b4e8b06bfb30c84be709bd7ac957dd",
+  "fetched_at": "2026-04-15T18:37:04Z",
+  "parser_version": "0.5.0"
+}

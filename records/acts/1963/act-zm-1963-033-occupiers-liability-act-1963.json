@@ -1,0 +1,54 @@
+{
+  "id": "act-zm-1963-033-occupiers-liability-act-1963",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Occupiers' Liability Act, 1963",
+  "citation": "Act No. 33 of 1963",
+  "enacted_date": "1963-12-31",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Occupiers' Liability Act."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "The rules enacted by the two next following subsections shall have effect, in place of the rules of the common law, to regulate the duty which an occupier of premises owes to his visitors in respect of dangers due to the state of the premises or to things done or omitted to be done on them."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "An occupier of premises owes the same duty, the \"common duty of care\", to all his visitors, except in so far as he is free to and does extend, restrict, modify or exclude his duty to any visitor or visitors by agreement or otherwise."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "Where an occupier of premises is bound by contract to permit persons who are strangers to the contract to enter or use the premises, the duty of care which he owes to them as his visitors cannot be restricted or excluded by that contract, but (subject to any provision of the contract to the contrary) shall include the duty to perform his obligations under the contract, whether undertaken for their protection or not, in so far as those obligations go beyond the obligations otherwise involved in that duty."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "Where premises are occupied by any person under a tenancy which puts on the landlord an obligation to that person for the maintenance or repair of the premises, the landlord shall owe to all persons who or whose goods may from time to time be lawfully on the premises the same duty, in respect of dangers arising from any default by him in carrying out that obligation as if he were an occupier of the premises and those persons or their goods were there by his invitation or permission (but without any contract)."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "Where persons enter or use, or bring or send goods to, any premises in exercise of a right conferred by contract with a person occupying or having control of the premises, the duty he owes them in respect of dangers due to the state of the premises or to things done or omitted to be done on them, in so far as the duty depends on a term to be implied in the contract by reason of its conferring that right, shall be the common duty of care."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act shall bind the Republic but, as regards the liability of the Republic in tort, shall not bind the Republic further than the Republic is made liable in tort by the State Proceedings Act and that Act, and in particular section four thereof, shall apply in relation to duties under sections three to five of this Act as statutory duties.\n[Cap 71]\n[No. 27 of 1965]"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1963/33/eng@1996-12-31",
+  "source_hash": "sha256:cf414d32604d53388482ba3cdec68722daae81f05731d82c6d770ad0b288d0c0",
+  "fetched_at": "2026-04-15T18:37:28Z",
+  "parser_version": "0.5.0"
+}
