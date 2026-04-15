@@ -359,3 +359,8 @@ consider Government Gazette or direct MMMD/MoJ request).
 - Source: https://zambialii.org/akn/zm/act/2006/9/eng@2006-05-19/source.pdf
 - Issue: Scanned PDF — 0 extractable text sections. Needs OCR or alternative source.
 - Logged: 2026-04-15T00:00:00Z
+
+## Batch 0082 — ZambiaLII Connectivity Failure (2026-04-15T14:30:00Z)
+- All 8 targets failed due to SSL errors (UNEXPECTED_EOF_WHILE_READING) — zambialii.org appears to be experiencing infrastructure issues.
+- Council of Law Reporting Act, 1967 returned HTTP 500.
+- Targets deferred to next tick: Constitution of Zambia Act 1991, Constitution of Zambia Act 1996, Consular Conventions Act 1951, Control of Goods Act 1954, Copperbelt University Act 1987, Council of Law Reporting Act 1967, Dangerous Drugs Act 1967, Debtors Act 1938.
