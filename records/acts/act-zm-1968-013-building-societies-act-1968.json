@@ -1,0 +1,39 @@
+{
+  "id": "act-zm-1968-013-building-societies-act-1968",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Building Societies Act, 1968",
+  "citation": "Act No. 13 of 1968",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "1. Short title This Act may be cited as the Financial Institutions (Validation of Acts) Act."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "2. Interpretation (1)In this Act, unless the context otherwise requires—\"declared day\" means a day specified, by reference to its date, inthe statutory instrument;\"financial institution\" means an institution which, being entitled to do so, closed its place of business to members of the public on eachdeclared day;\"the operative date\" means the date upon whichthe statutory instrumentwas published in theGazette;\"the statutory instrument\" means the statutory instrument made by the Minister responsible for finance under section twenty of Bank of Zambia Act.[Cap. 360] (2)Any reference in this Act to an act done shall be deemed to include a reference to an omission made."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "3. Validation of acts Any act done by afinancial institutionon or afterthe operative datewhich would have been validly done if at the time of the doing thereof each of the declared days had been declared to be a public holiday, shall be deemed to have been validly done."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "4. No liability in respect of actions (1)Nofinancial institutionshall be subject to any liability, action, claim or demand whatsoever for or in respect of any act deemed to have been validly done under the provisions of section three. (2)The provisions of this section shall apply—(a)to any liability incurred or claim or demand made before or after the commencement of this Act;(b)to any action whether commenced before or after the commencement of this Act;(c)for the purpose of determining any appeal from a judgment entered before the commencement of this Act."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1968/13/eng@1996-12-31",
+  "source_hash": "sha256:7bc59b26e4ec6f3c33dd6f403bbde65d3ba549e84ee63af82cc5573f3f0c050a",
+  "fetched_at": "2026-04-15T07:36:39Z",
+  "parser_version": "0.1.0"
+}
