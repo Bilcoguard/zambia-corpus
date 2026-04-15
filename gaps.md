@@ -435,3 +435,8 @@ consider Government Gazette or direct MMMD/MoJ request).
 - HASH MISMATCH: act-zm-1985-016-appropriation-act-1985
 - Logged: 2026-04-15T13:40:50Z
 
+
+## 2026-04-15 Batch 0094 — PDF-only acts (0 sections from HTML)
+
+- **High Court Act (Cap. 27)** — Act No. 41 of 1960: ZambiaLII HTML page is a landing stub. Full text in PDF (307.5 KB). URL: https://zambialii.org/akn/zm/act/1960/41/eng@1996-12-31. Record created with 0 sections. Needs PDF re-parse.
+- **Judgments Act (Cap. 81)** — Act No. 10 of 1961: ZambiaLII HTML page is a landing stub. Full text in PDF (146.7 KB). URL: https://zambialii.org/akn/zm/act/1961/10/eng@1996-12-31. Record created with 0 sections. Needs PDF re-parse.
