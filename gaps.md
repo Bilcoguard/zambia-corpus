@@ -364,3 +364,15 @@ consider Government Gazette or direct MMMD/MoJ request).
 - All 8 targets failed due to SSL errors (UNEXPECTED_EOF_WHILE_READING) — zambialii.org appears to be experiencing infrastructure issues.
 - Council of Law Reporting Act, 1967 returned HTTP 500.
 - Targets deferred to next tick: Constitution of Zambia Act 1991, Constitution of Zambia Act 1996, Consular Conventions Act 1951, Control of Goods Act 1954, Copperbelt University Act 1987, Council of Law Reporting Act 1967, Dangerous Drugs Act 1967, Debtors Act 1938.
+
+## Batch 0083 — Issues (2026-04-15T12:37:07Z)
+- act-zm-1951-026-consular-conventions-act-1951: HTTP unknown
+  URL: https://zambialii.org/akn/zm/act/1951/26/eng@1996-12-31
+- act-zm-1954-015-control-of-goods-act-1954: HTTP unknown
+  URL: https://zambialii.org/akn/zm/act/1954/15/eng@1996-12-31
+- act-zm-1987-019-copperbelt-university-act-1987: HTTP unknown
+  URL: https://zambialii.org/akn/zm/act/1987/19/eng@1996-12-31
+- act-zm-1967-007-council-of-law-reporting-act-1967: HTTP unknown
+  URL: https://zambialii.org/akn/zm/act/1967/7/eng@1996-12-31
+- act-zm-1938-001-debtors-act-1938: HTTP unknown
+  URL: https://zambialii.org/akn/zm/act/1938/1/eng@1996-12-31
