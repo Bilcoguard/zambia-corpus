@@ -327,3 +327,24 @@ consider Government Gazette or direct MMMD/MoJ request).
 - **Submission Procedure**: No PDF on https://www.parliament.gov.zm/node/444
 - **Committee Submission**: No PDF on https://www.parliament.gov.zm/node/210
 - **Up Coming Events**: No PDF on https://www.parliament.gov.zm/node/12899
+
+## Batch 73 — Workers' Compensation Act, 1999
+- act-zm-cap-271-workers-compensation-act: 404 at https://zambialii.org/akn/zm/act/1999/10/eng@2005-12-31 — may need alternative AKN path
+
+## Batch 73 — Factories Act, 1966
+- act-zm-cap-441-factories-act: 404 at https://zambialii.org/akn/zm/act/1966/17/eng@1996-12-31 — may need alternative AKN path
+
+## Batch 73 — Public Holidays Act, 1965
+- act-zm-cap-272-public-holidays-act: 404 at https://zambialii.org/akn/zm/act/1965/3/eng@1996-12-31 — may need alternative AKN path
+
+## Batch 73 — Transferred Federal Officers (Pensions) Act, 1964
+- act-zm-cap-266-transferred-federal-officers-pensions-act: 404 at https://zambialii.org/akn/zm/act/1964/62/eng@1996-12-31 — may need alternative AKN path
+
+## Batch 73 — European Officers (Pensions) Act, 1964
+- act-zm-cap-267-european-officers-pensions-act: 404 at https://zambialii.org/akn/zm/act/1964/63/eng@1996-12-31 — may need alternative AKN path
+
+## Batch 73 — Public Officers (Change of Titles) Act, 1964
+- act-zm-cap-265-public-officers-change-of-titles-act: 404 at https://zambialii.org/akn/zm/act/1964/5/eng@1996-12-31 — may need alternative AKN path
+
+## Batch 73 — Employment (Exchange) Act, 1970
+- act-zm-cap-273-employment-exchange-act: 404 at https://zambialii.org/akn/zm/act/1970/20/eng@1996-12-31 — may need alternative AKN path

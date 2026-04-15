@@ -1,0 +1,38 @@
+{
+  "id": "act-zm-cap-268-employment-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Employment Act, 1965",
+  "citation": "Act No. 32 of 1965 (Cap. 268)",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1)A person shall not be guilty of contempt of court on the ground that he has published any matter calculated to interfere with the course of justice in connection with any proceedings pending or imminent at the time of publication if at that time (having taken all reasonable care) he did not know and had no reason to suspect that the proceedings were pending, or that such proceedings were imminent, as the case may be."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1)The publication of information relating to proceedings before any court sitting in private shall not of itself be contempt of court except in the following cases, that is to say:(a)where the proceedings relate to the wardship or adoption of an infant or wholly or mainly to the guardianship, custody, maintenance or upbringing of an infant, or rights of access to an infant;(b)where the proceedings are brought under the law for the time being in force in Zambia with respect to the control, care "
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1)It shall not be lawful to print or publish or cause or procure to be printed or published—(a)in relation to any judicial proceedings, any indecent matter or indecent medical, surgical or physiological details being matter or details the publication of which would be calculated to injure public morals;(b)in relation to any judicial proceedings for dissolution of marriage, for nullity of marriage, or for judicial separation, or for restitution of conjugal rights, any particulars other than the "
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1)Subject to the provisions of this section, an appeal shall lie under this section from any order or decision of a court in the exercise of jurisdiction to punish for contempt of court (including criminal contempt); and in relation to any such order or decision, the provisions of this section shall have effect in substitution for any other written law relating to appeals in civil or criminal proceedings."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1965/32/eng@1996-12-31",
+  "source_hash": "sha256:a040fe440c7ca73e9b4865798b19b882f9ad7035b9305157f8f547d0ed88c8c2",
+  "fetched_at": "2026-04-15T04:51:30Z",
+  "parser_version": "0.1.0"
+}
