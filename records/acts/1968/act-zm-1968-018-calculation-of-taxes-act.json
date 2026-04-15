@@ -1,0 +1,33 @@
+{
+  "id": "act-zm-1968-018-calculation-of-taxes-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Calculation of Taxes (Consequential Provisions) Act, 1968",
+  "citation": "Chapter 339",
+  "enacted_date": "1968",
+  "commencement_date": "1968-01-16",
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Short title and commencement This Act",
+      "text": "may be cited as the Calculation of Taxes (Consequential Provisions) Act, shall be deemed to have come into operation on the 16th January, 1968, and shall be read as one with the Taxation law."
+    },
+    {
+      "number": "2",
+      "heading": "Interpretation In",
+      "text": "this Act, unless the context otherwise requires\u2014 \"Taxation law\" means the law of the Republic or the former Protectorate of Northern Rhodesia or the former Federation of Rhodesia and Nyasaland relating to taxation of incomes and profits which is in force or has effect in the Republic in relation to the year of assessment or charge year in respect of which tax is calculated and computed in pursuance of section three; \"tax\" means any tax as defined in the Taxation law and includes any interest or addition for non-payment of tax payable under the Taxation law in respect of unpaid tax."
+    },
+    {
+      "number": "3",
+      "heading": "Calculation and computation of tax Any",
+      "text": "tax chargeable, leviable or collectable in respect of any year of assessment or charge year prior to and including the charge year ending on the 31st March, 1968, shall be calculated and computed in kwacha and ngwee in pursuance of the Bank of Zambia Act, save that where a rate of tax referred to in the Taxation law relating to the year of assessment or charge year in question includes an amount of money which, prior to the 16th January, 1968, was expressed or determined in pence, the amount of tax shall be calculated and computed on the basis that each penny included in that rate of tax is equal to five-sixths of an ngwee. [ Cap. 360 ]"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1968/18/eng@1996-12-31",
+  "source_hash": "sha256:981c4860717dc2114a30b15b7567252304bded808394a067b73905f38941a102",
+  "fetched_at": "2026-04-15T09:08:50Z",
+  "parser_version": "0.4.2"
+}
