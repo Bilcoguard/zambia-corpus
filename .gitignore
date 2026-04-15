@@ -33,3 +33,4 @@ error-reports/*.tmp
 venv/
 *.log.tmp
 seeds/
+corpus.sqlite
