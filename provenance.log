@@ -841,3 +841,11 @@
 2026-04-15T14:10:00Z batch=0086 id=act-zm-1992-017-appropriation-act-1992 source=https://zambialii.org/akn/zm/act/1992/17/eng@1992-04-01/source.pdf hash=sha256:a83730304422a982 parser=0.4.2
 2026-04-15T14:10:00Z batch=0086 id=act-zm-1993-022-appropriation-act-1993 source=https://zambialii.org/akn/zm/act/1993/22/eng@1993-04-30/source.pdf hash=sha256:ca0662bfe3ba35ce parser=0.4.2
 2026-04-15T14:10:00Z batch=0086 id=act-zm-1994-005-appropriation-act-1994 source=https://zambialii.org/akn/zm/act/1994/5/eng@1994-03-25/source.pdf hash=sha256:1899b7d5c286f9e4 parser=0.4.2
+2026-04-15T15:11:03Z | act-zm-1912-016-gold-trade-act-1912 | https://zambialii.org/akn/zm/act/1912/16/eng@1996-12-31/source.pdf | sha256:c950ce61b3d852ce2af96e22b4d433b9ca69d3f2634e30e6ea92be9d69a07c18 | 0.5.0
+2026-04-15T15:11:03Z | act-zm-1914-015-lands-and-deeds-registry-act-1914 | https://zambialii.org/akn/zm/act/1914/15/eng@1996-12-31/source.pdf | sha256:4ae4e3802e74f22d311de7952d12193210181f382a461a4e1fe22d3e8e344dc1 | 0.5.0
+2026-04-15T15:11:03Z | act-zm-1914-004-cotton-act-1914 | https://zambialii.org/akn/zm/act/1914/4/eng@1996-12-31/source.pdf | sha256:406c1c919cbae6ad168175626f9c5bbf0d9eb7adab06d33afe70ed5ae3e6badf | 0.5.0
+2026-04-15T15:11:03Z | act-zm-1915-023-plumage-birds-protection-act-1915 | https://zambialii.org/akn/zm/act/1915/23/eng@1996-12-31/source.pdf | sha256:11489dde84be51e24e752d016cbda49872cce68873c9413dc5b308711dfa967a | 0.5.0
+2026-04-15T15:11:03Z | act-zm-1918-010-marriage-act-1918 | https://zambialii.org/akn/zm/act/1918/10/eng@2023-12-26/source.pdf | sha256:3a5b886064f3e2f86f2fd8d1346a7a929d5c027247340aee7e2fb6267bddb696 | 0.5.0
+2026-04-15T15:11:03Z | act-zm-1920-020-prevention-of-cruelty-to-animals-act-1920 | https://zambialii.org/akn/zm/act/1920/20/eng@1996-12-31/source.pdf | sha256:0d7fa47e93a1468a75057a99d8d270833588ca83156698c73937723991a8d162 | 0.5.0
+2026-04-15T15:11:03Z | act-zm-1921-020-maintenance-orders-enforcement-act-1921 | https://zambialii.org/akn/zm/act/1921/20/eng@1996-12-31/source.pdf | sha256:38c96ac566bf06ebbd8384561cdd97ac3d700b65162608aadbcbe67d57d0f04c | 0.5.0
+2026-04-15T15:11:03Z | act-zm-1922-007-mashona-railway-company-limited-act-1922 | https://zambialii.org/akn/zm/act/1922/7/eng@1996-12-31/source.pdf | sha256:be2e8a1f8028993a487f810faacf1eed8a84291d77fa53a6cedc6cd7141fb777 | 0.5.0

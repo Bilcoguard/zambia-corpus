@@ -1,0 +1,33 @@
+{
+  "id": "act-zm-1914-004-cotton-act-1914",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Cotton Act, 1914",
+  "citation": "Act No. 4 of 1914",
+  "enacted_date": "1914-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Short title",
+      "text": "This Act may be cited as the Cotton Act."
+    },
+    {
+      "number": "2",
+      "heading": "Regulations",
+      "text": "The Minister may, by statutory instrument, make regulations as to the following matters and may declare that such regulations or any of them shall apply to the whole of Zambia or to any part or parts thereof, namely:\n(a)\nto deal with diseases affecting cotton;\n(b)\nto regulate the importation of cotton seed;\n(c)\ngenerally for the protection and control of the cotton industry.\n[As amended by No. 47 of 1963 and G.N. No. 319 of 1964]"
+    },
+    {
+      "number": "3",
+      "heading": "Penalties",
+      "text": "Such regulations may provide penalties for their breach, attempted breach or non-observance, not exceeding imprisonment with or without hard labour for a term of three months or a fine of seven hundred and fifty penalty units, or both and, in addition to such penalties, may provide that any seed cotton or implement in respect of which a breach, attempted breach or non-observance of any regulation has been committed shall be confiscated or otherwise dealt with, with or without compensation; and where no penalty is imposed by regulation, then the breach or attempted breach or non-observance of any regulation shall be punishable to the extent aforesaid.\n[As amended by Act\nNo. 13 of 1994\n]"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1914/4/eng@1996-12-31/source.pdf",
+  "source_hash": "sha256:406c1c919cbae6ad168175626f9c5bbf0d9eb7adab06d33afe70ed5ae3e6badf",
+  "fetched_at": "2026-04-15T15:06:54Z",
+  "parser_version": "0.5.0"
+}
