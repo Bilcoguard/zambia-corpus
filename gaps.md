@@ -418,3 +418,20 @@ consider Government Gazette or direct MMMD/MoJ request).
 - Issue: Both HTML and PDF fetch failed.
 - Logged: 2026-04-15T13:06:04Z
 
+
+## Batch 0085 — Listing fetch failed
+- URL: https://zambialii.org/legislation/act
+- Error: Acts listing returned 404
+- Logged: 2026-04-15T13:35:38Z
+
+
+## Batch 0085 — Integrity check failures
+- HASH MISMATCH: act-zm-1995-005-affiliation-and-maintenance-of-children-act-1995
+- HASH MISMATCH: act-zm-1980-009-appropriation-act-1980
+- HASH MISMATCH: act-zm-1981-012-appropriation-act-1981
+- HASH MISMATCH: act-zm-1982-015-appropriation-act-1982
+- HASH MISMATCH: act-zm-1983-014-appropriation-act-1983
+- HASH MISMATCH: act-zm-1984-013-appropriation-act-1984
+- HASH MISMATCH: act-zm-1985-016-appropriation-act-1985
+- Logged: 2026-04-15T13:40:50Z
+
