@@ -351,3 +351,6 @@ consider Government Gazette or direct MMMD/MoJ request).
 
 ## Batch 74 — Arbitration Act, 2000
 - act-zm-2000-019-arbitration-act-2000: PDF is scanned images (no extractable text). Needs OCR or alternative source.
+
+## Batch 0075 — Notes (2026-04-15T07:43:47Z)
+- Access to Information Act 2023, Agricultural Credits Act 2010, Agricultural Institute of Zambia Act 2017, Animal Health Act 2010: HTML pages had 0 AKN sections; fell back to PDF source successfully.
