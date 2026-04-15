@@ -376,3 +376,45 @@ consider Government Gazette or direct MMMD/MoJ request).
   URL: https://zambialii.org/akn/zm/act/1967/7/eng@1996-12-31
 - act-zm-1938-001-debtors-act-1938: HTTP unknown
   URL: https://zambialii.org/akn/zm/act/1938/1/eng@1996-12-31
+## act-zm-2017-013 — Compulsory Standards Act, 2017 (Batch 0084)
+- HTML: https://zambialii.org/akn/zm/act/2017/13/eng@2017-07-07 → status 404
+- PDF: https://zambialii.org/akn/zm/act/2017/13/eng@2017-07-07/source.pdf → status 404
+- Issue: Both HTML and PDF fetch failed.
+- Logged: 2026-04-15T13:04:59Z
+
+## act-zm-2018-011 — Constituency Development Fund Act, 2018 (Batch 0084)
+- HTML: https://zambialii.org/akn/zm/act/2018/11/eng@2018-08-17 → status 404
+- PDF: https://zambialii.org/akn/zm/act/2018/11/eng@2018-08-17/source.pdf → status 404
+- Issue: Both HTML and PDF fetch failed.
+- Logged: 2026-04-15T13:05:10Z
+
+## act-zm-2023-029 — Consumer Credit Act, 2023 (Batch 0084)
+- HTML: https://zambialii.org/akn/zm/act/2023/29/eng@2023-08-28 → status 404
+- PDF: https://zambialii.org/akn/zm/act/2023/29/eng@2023-08-28/source.pdf → status 404
+- Issue: Both HTML and PDF fetch failed.
+- Logged: 2026-04-15T13:05:21Z
+
+## act-zm-1964-047 — Control of Dogs Act, 1964 (Batch 0084)
+- HTML: https://zambialii.org/akn/zm/act/1964/47/eng@1996-12-31 → status 404
+- PDF: https://zambialii.org/akn/zm/act/1964/47/eng@1996-12-31/source.pdf → status 404
+- Issue: Both HTML and PDF fetch failed.
+- Logged: 2026-04-15T13:05:32Z
+
+## act-zm-2017-009 — Corporate Insolvency Act, 2017 (Batch 0084)
+- HTML: https://zambialii.org/akn/zm/act/2017/9/eng@2017-07-07 → status 404
+- PDF: https://zambialii.org/akn/zm/act/2017/9/eng@2017-07-07/source.pdf → status 404
+- Issue: Both HTML and PDF fetch failed.
+- Logged: 2026-04-15T13:05:43Z
+
+## act-zm-2021-037 — Correctional Service Act, 2021 (Batch 0084)
+- HTML: https://zambialii.org/akn/zm/act/2021/37/eng@2021-12-31 → status 404
+- PDF: https://zambialii.org/akn/zm/act/2021/37/eng@2021-12-31/source.pdf → status 404
+- Issue: Both HTML and PDF fetch failed.
+- Logged: 2026-04-15T13:05:54Z
+
+## act-zm-2005-021 — Cotton Act, 2005 (Batch 0084)
+- HTML: https://zambialii.org/akn/zm/act/2005/21/eng@2005-12-31 → status 404
+- PDF: https://zambialii.org/akn/zm/act/2005/21/eng@2005-12-31/source.pdf → status 404
+- Issue: Both HTML and PDF fetch failed.
+- Logged: 2026-04-15T13:06:04Z
+

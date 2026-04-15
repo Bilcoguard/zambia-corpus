@@ -810,3 +810,26 @@
 2026-04-15T12:39:53Z act-zm-1991-001-constitution-of-zambia-act-1991 source=zambialii.org parser=0.4.3 method=pdf/pdfplumber sections=33
 2026-04-15T12:39:53Z act-zm-2016-002-constitution-of-zambia-amendment-act-2016 source=zambialii.org parser=0.4.3 method=pdf/pdfplumber sections=127
 2026-04-15T12:39:53Z act-zm-1967-041-dangerous-drugs-act-1967 source=zambialii.org parser=0.4.3 method=html/akn sections=82
+
+# Batch 0084 — 2026-04-15T13:06:21Z
+# Phase 4 bulk ingestion via ZambiaLII
+# Records: act-zm-2016-007-court-of-appeal-act-2016
+# Fetches: 15, fetch_n: 143-157
+# Integrity: ALL PASS
+# Parser: 0.4.3
+{"id": "act-zm-2016-007-court-of-appeal-act-2016", "title": "Court of Appeal Act, 2016", "source_url": "https://zambialii.org/akn/zm/act/2016/7/eng@2016-05-03", "source_hash": "sha256:3cedb9cc6da6d8daae2326ed6ae2a54eb213cedd5083f3c5bb991397a236e002", "fetched_at": "2026-04-15T13:06:15Z", "parser_version": "0.4.3", "batch": "0084", "sections": 47}
+
+# Batch 0084 — 2026-04-15T13:10:57Z
+# Phase 4 bulk ingestion via ZambiaLII
+# Records: act-zm-2017-003-compulsory-standards-act-2017, act-zm-2018-011-constituency-development-fund-act-2018, act-zm-1994-039-common-leasehold-schemes-act-1994, act-zm-1951-002-consular-conventions-act-1951, act-zm-1965-032-contempt-of-court-miscellaneous-provisions-act-1965, act-zm-1929-017-control-of-dogs-act-1929, act-zm-2017-009-corporate-insolvency-act-2017, act-zm-2005-021-cotton-act-2005
+# Fetches: 12
+# Integrity: ALL PASS
+# Parser: 0.4.3
+{"id": "act-zm-2017-003-compulsory-standards-act-2017", "title": "Compulsory Standards Act, 2017", "source_url": "https://zambialii.org/akn/zm/act/2017/3/eng@2017-04-13/source.pdf", "source_hash": "sha256:0c1f3698e9494c8df37d4fd64dea2455a8644cfa079d63b331b2b53337758552", "fetched_at": "2026-04-15T13:10:57Z", "parser_version": "0.4.3", "batch": "0084", "sections": 55}
+{"id": "act-zm-2018-011-constituency-development-fund-act-2018", "title": "Constituency Development Fund Act, 2018", "source_url": "https://zambialii.org/akn/zm/act/2018/11/eng@2018-12-26/source.pdf", "source_hash": "sha256:5d3f2c355e6da42cfeabd741f0b77feb0e70b78857bfd7726c894943ec65a5b9", "fetched_at": "2026-04-15T13:11:10Z", "parser_version": "0.4.3", "batch": "0084", "sections": 55}
+{"id": "act-zm-1994-039-common-leasehold-schemes-act-1994", "title": "Common Leasehold Schemes Act, 1994", "source_url": "https://zambialii.org/akn/zm/act/1994/39/eng@1996-12-31", "source_hash": "sha256:8a5c1dbe75bc97878b79411baee136e0cc537ddbd40d71e0f32da50565db90b1", "fetched_at": "2026-04-15T13:11:23Z", "parser_version": "0.4.3", "batch": "0084", "sections": 44}
+{"id": "act-zm-1951-002-consular-conventions-act-1951", "title": "Consular Conventions Act, 1951", "source_url": "https://zambialii.org/akn/zm/act/1951/2/eng@1996-12-31", "source_hash": "sha256:b6eb5cf673ed7a403b4c2a8a67a9cc2be478ffc102672ebb4946cb57001d35fd", "fetched_at": "2026-04-15T13:11:29Z", "parser_version": "0.4.3", "batch": "0084", "sections": 4}
+{"id": "act-zm-1965-032-contempt-of-court-miscellaneous-provisions-act-1965", "title": "Contempt of Court (Miscellaneous Provisions) Act, 1965", "source_url": "https://zambialii.org/akn/zm/act/1965/32/eng@1996-12-31", "source_hash": "sha256:3aa8bfe7643424623de76c7047dfd4128bc29d486e17d967a6463bcb0119afdb", "fetched_at": "2026-04-15T13:11:34Z", "parser_version": "0.4.3", "batch": "0084", "sections": 5}
+{"id": "act-zm-1929-017-control-of-dogs-act-1929", "title": "Control of Dogs Act, 1929", "source_url": "https://zambialii.org/akn/zm/act/1929/17/eng@1996-12-31", "source_hash": "sha256:5f7a9cff6ebd48c134751eee24e27e2847f1727b52c796adf44dfd045f9f726e", "fetched_at": "2026-04-15T13:11:40Z", "parser_version": "0.4.3", "batch": "0084", "sections": 4}
+{"id": "act-zm-2017-009-corporate-insolvency-act-2017", "title": "Corporate Insolvency Act, 2017", "source_url": "https://zambialii.org/akn/zm/act/2017/9/eng@2017-11-20/source.pdf", "source_hash": "sha256:f4d61bd552e4c442bd4a7f8549c79ca7cc14049afc661960a91424131ad45a1a", "fetched_at": "2026-04-15T13:11:46Z", "parser_version": "0.4.3", "batch": "0084", "sections": 275}
+{"id": "act-zm-2005-021-cotton-act-2005", "title": "Cotton Act, 2005", "source_url": "https://zambialii.org/akn/zm/act/2005/21/eng@2005-10-07/source.pdf", "source_hash": "sha256:22fc68e5252c2c1a38b109840c6ed140d2bc20c2d17fdc46ecab41cf86712590", "fetched_at": "2026-04-15T13:12:01Z", "parser_version": "0.4.3", "batch": "0084", "sections": 65}
