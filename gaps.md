@@ -348,3 +348,6 @@ consider Government Gazette or direct MMMD/MoJ request).
 
 ## Batch 73 — Employment (Exchange) Act, 1970
 - act-zm-cap-273-employment-exchange-act: 404 at https://zambialii.org/akn/zm/act/1970/20/eng@1996-12-31 — may need alternative AKN path
+
+## Batch 74 — Arbitration Act, 2000
+- act-zm-2000-019-arbitration-act-2000: PDF is scanned images (no extractable text). Needs OCR or alternative source.
