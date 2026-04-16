@@ -1,0 +1,838 @@
+{
+  "id": "act-zm-1968-047-extradition-act-1968",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Extradition Act, 1968",
+  "citation": "Act No. 47 of 1968",
+  "year": 1968,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Short title and commencement .......................................................................................................................................................... 1",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "Interpretation .........................................................................................................................................................................................",
+      "text": "Part II \u2013 Extradition to and from foreign countries ............................................................................................................................... 3\nA \u2013 Application of this Part ...................................................................................................................................................................... 3"
+    },
+    {
+      "number": "3",
+      "heading": "Application of Part II ....................................................................................................................................................................... 3",
+      "text": ""
+    },
+    {
+      "number": "4",
+      "heading": "Extraditable offences ....................................................................................................................................................................... 3",
+      "text": "B \u2013 Extradition to foreign countries ..................................................................................................................................................... 4"
+    },
+    {
+      "number": "5",
+      "heading": "Obligation to extradite ................................................................................................................................................................... 4",
+      "text": ""
+    },
+    {
+      "number": "6",
+      "heading": "Request for extradition ................................................................................................................................................................... 4",
+      "text": ""
+    },
+    {
+      "number": "7",
+      "heading": "Documents to support request ..................................................................................................................................................... 4",
+      "text": ""
+    },
+    {
+      "number": "8",
+      "heading": "Warrant of arrest ............................................................................................................................................................................... 4",
+      "text": ""
+    },
+    {
+      "number": "9",
+      "heading": "Provisional warrant ........................................................................................................................................................................... 5",
+      "text": ""
+    },
+    {
+      "number": "10",
+      "heading": "Committal or discharge of person whose extradition is requested ............................................................................. 5",
+      "text": ""
+    },
+    {
+      "number": "11",
+      "heading": "Lapse of time before surrender ................................................................................................................................................ 6",
+      "text": ""
+    },
+    {
+      "number": "12",
+      "heading": "Surrender of prisoner under warrant of Attorney-General .............................................................................................. 6",
+      "text": "C \u2013 Extradition to Zambia from foreign countries ........................................................................................................................... 7"
+    },
+    {
+      "number": "13",
+      "heading": "Definition ........................................................................................................................................................................................... 7",
+      "text": ""
+    },
+    {
+      "number": "14",
+      "heading": "Request to foreign country may be made by Attorney-General .................................................................................... 7",
+      "text": ""
+    },
+    {
+      "number": "15",
+      "heading": "Person surrendered may be brought to the Republic ....................................................................................................... 7",
+      "text": "Part III \u2013 Extradition to and from declared Commonwealth countries ........................................................................................... 7\nA \u2013 Application of this Part ...................................................................................................................................................................... 7"
+    },
+    {
+      "number": "16",
+      "heading": "Application of Part III in relation to Commonwealth countries .................................................................................... 7",
+      "text": ""
+    },
+    {
+      "number": "17",
+      "heading": "Extraditable offences under this Part ..................................................................................................................................... 7",
+      "text": "B \u2013 Extradition to declared Commonwealth countries .................................................................................................................. 8"
+    },
+    {
+      "number": "18",
+      "heading": "Liability of person claimed to be surrendered and request for his surrender .......................................................... 8",
+      "text": ""
+    },
+    {
+      "number": "19",
+      "heading": "Restrictions on power of Attorney-General ........................................................................................................................... 8",
+      "text": ""
+    },
+    {
+      "number": "20",
+      "heading": "Notices by Attorney-General ...................................................................................................................................................... 9",
+      "text": ""
+    },
+    {
+      "number": "21",
+      "heading": "Issue of warrants ............................................................................................................................................................................ 9",
+      "text": ""
+    },
+    {
+      "number": "22",
+      "heading": "Proceedings after arrest ............................................................................................................................................................. 10",
+      "text": ""
+    },
+    {
+      "number": "23",
+      "heading": "Power of magistrate or court to discharge or to postpone surrender ...................................................................... 11",
+      "text": ""
+    },
+    {
+      "number": "24",
+      "heading": "Surrender of person claimed to Commonwealth country ............................................................................................. 12",
+      "text": "C \u2013 Extradition to Zambia from declared Commonwealth countries ...................................................................................... 12"
+    },
+    {
+      "number": "25",
+      "heading": "Definition ......................................................................................................................................................................................... 12",
+      "text": "ii"
+    },
+    {
+      "number": "26",
+      "heading": "Request to commonwealth country to be made by Attorney-General ...................................................................... 13",
+      "text": ""
+    },
+    {
+      "number": "27",
+      "heading": "Person surrendered may be brought to the Republic ..................................................................................................... 13",
+      "text": "Part IV \u2013 General provisions on extradition ........................................................................................................................................... 13"
+    },
+    {
+      "number": "28",
+      "heading": "Application of Part IV ........................................................................................................................................................................ 13",
+      "text": ""
+    },
+    {
+      "number": "29",
+      "heading": "Seizure and handing over of property ........................................................................................................................................ 13",
+      "text": ""
+    },
+    {
+      "number": "30",
+      "heading": "General power of Attorney-General to release ........................................................................................................................ 14",
+      "text": ""
+    },
+    {
+      "number": "31",
+      "heading": "Political offences ................................................................................................................................................................................. 14",
+      "text": ""
+    },
+    {
+      "number": "32",
+      "heading": "Race, religion or nationality ........................................................................................................................................................... 15",
+      "text": ""
+    },
+    {
+      "number": "33",
+      "heading": "Military offences .................................................................................................................................................................................. 15",
+      "text": ""
+    },
+    {
+      "number": "34",
+      "heading": "Zambian citizens ................................................................................................................................................................................. 15",
+      "text": ""
+    },
+    {
+      "number": "35",
+      "heading": "Place of commission .......................................................................................................................................................................... 15",
+      "text": ""
+    },
+    {
+      "number": "36",
+      "heading": "Pending proceedings for the same offence ............................................................................................................................... 15",
+      "text": ""
+    },
+    {
+      "number": "37",
+      "heading": "Discharge of person claimed if not conveyed out of the Republic ................................................................................... 15",
+      "text": ""
+    },
+    {
+      "number": "38",
+      "heading": "Postponement of surrender ............................................................................................................................................................. 16",
+      "text": ""
+    },
+    {
+      "number": "39",
+      "heading": "Non bis in idem ................................................................................................................................................................................... 16",
+      "text": ""
+    },
+    {
+      "number": "40",
+      "heading": "Lapse of time ........................................................................................................................................................................................ 1",
+      "text": ""
+    },
+    {
+      "number": "41",
+      "heading": "Capital punishment ............................................................................................................................................................................ 16",
+      "text": ""
+    },
+    {
+      "number": "42",
+      "heading": "Rule of speciality ................................................................................................................................................................................ 16",
+      "text": ""
+    },
+    {
+      "number": "43",
+      "heading": "Re-extradition to a third country .................................................................................................................................................. 17",
+      "text": ""
+    },
+    {
+      "number": "44",
+      "heading": "Conflicting requests ........................................................................................................................................................................... 18",
+      "text": "Part V \u2013 Reciprocal backing of warrants .................................................................................................................................................. 18"
+    },
+    {
+      "number": "45",
+      "heading": "Application of Part V ......................................................................................................................................................................... 18",
+      "text": ""
+    },
+    {
+      "number": "46",
+      "heading": "Backing of warrant issued in another country ......................................................................................................................... 18",
+      "text": ""
+    },
+    {
+      "number": "47",
+      "heading": "Provisional warrant ............................................................................................................................................................................. 18",
+      "text": ""
+    },
+    {
+      "number": "48",
+      "heading": "Search warrant ..................................................................................................................................................................................... 19",
+      "text": ""
+    },
+    {
+      "number": "49",
+      "heading": "Proceedings after arrest .................................................................................................................................................................... 19",
+      "text": ""
+    },
+    {
+      "number": "50",
+      "heading": "Power of magistrate to order discharge or to postpone surrender of person ............................................................... 20",
+      "text": ""
+    },
+    {
+      "number": "51",
+      "heading": "Review of order of magistrate ....................................................................................................................................................... 20",
+      "text": ""
+    },
+    {
+      "number": "52",
+      "heading": "Restrictions on return of person ................................................................................................................................................... 21",
+      "text": ""
+    },
+    {
+      "number": "53",
+      "heading": "Discharge of prisoner ........................................................................................................................................................................ 21",
+      "text": "Part VI \u2013 Miscellaneous provisions relating to surrender and return ............................................................................................ 22\nA \u2013 Evidence and authenticated documents ................................................................................................................................... 22"
+    },
+    {
+      "number": "54",
+      "heading": "Evidence and authenticated documents ............................................................................................................................. 22",
+      "text": "B \u2013 Miscellaneous ...................................................................................................................................................................................... 23"
+    },
+    {
+      "number": "55",
+      "heading": "Escape ............................................................................................................................................................................................... 2",
+      "text": "iii"
+    },
+    {
+      "number": "56",
+      "heading": "Conditions of imprisonment ..................................................................................................................................................... 23",
+      "text": ""
+    },
+    {
+      "number": "57",
+      "heading": "Rule of speciality re a person surrendered to the Republic ......................................................................................... 23",
+      "text": ""
+    },
+    {
+      "number": "58",
+      "heading": "Transit ............................................................................................................................................................................................... ",
+      "text": "Part VII \u2013 Offences committed abroad by zambian citizens ............................................................................................................. 24"
+    },
+    {
+      "number": "59",
+      "heading": "Offences committed abroad by zambian citizens ................................................................................................................... 24",
+      "text": "Part VIII \u2013 Forms, regulations, rules .......................................................................................................................................................... 24"
+    },
+    {
+      "number": "60",
+      "heading": "Prescribed forms .................................................................................................................................................................................. 24",
+      "text": ""
+    },
+    {
+      "number": "61",
+      "heading": "Regulations ............................................................................................................................................................................................",
+      "text": ""
+    },
+    {
+      "number": "62",
+      "heading": "Rules of court ....................................................................................................................................................................................... 2",
+      "text": ""
+    },
+    {
+      "number": "63",
+      "heading": "Official seal ..........................................................................................................................................................................................",
+      "text": "Part IX \u2013 Interim provisions ......................................................................................................................................................................... 25"
+    },
+    {
+      "number": "64",
+      "heading": "Power to implement Part II pending commencement .......................................................................................................... 25",
+      "text": ""
+    },
+    {
+      "number": "65",
+      "heading": "Power to implement Part III pending commencement ......................................................................................................... 25",
+      "text": ""
+    },
+    {
+      "number": "66",
+      "heading": "Provisions relating to sections 64 and 65 ................................................................................................................................. 25",
+      "text": "Part X \u2013 Repeals ................................................................................................................................................................................................ 25"
+    },
+    {
+      "number": "67",
+      "heading": "Repeals and savings ........................................................................................................................................................................... 25",
+      "text": "First Schedule (Sections 17 and 25) .......................................................................................................................................................... 26\nSecond Schedule ................................................................................................................................................................................................ 27\nThird Schedule .................................................................................................................................................................................................... 31\niv\nExtradition Act, 1968 (Act 47 of 1968) Zambia\nZambia\nExtradition Act, 1968\nAct 47 of 1968\nPublished on 25 October 1968\nThere are multiple commencements\nProvisions Status\nPart I (section 1\u20132); Part II (section 3\u201315); Part III commenced on 25 October 1968.\n(section 16\u201327); Part IV (section 28\u201344); Part V\n(section 45\u201353); Part VI (section 54\u201358); Part VII\n(section 59); Part VIII (section 60\u201363); Part IX\n(section 64\u201366)\nPart X (section 67) commenced on (unknown date).\nNote: not in operation pending statutory order by the\nAttorney-General.\n[This is the version of this document at 31 December 1996.]\n[This legislation has been revised and consolidated by the Ministry of Legal Affairs of the\nGovernment of the Republic of Zambia. This version is up-to-date as at 31st December 1996.\nAll subsequent amendments have been researched and applied by Laws.Africa for ZAMBIALII.]\n[Statutory Instrument 8 of 1983; 47 of 1968]\nAn Act to amend and consolidate the law relating to extradition to and from foreign and Commonwealth\ncountries; to provide for the reciprocal backing of warrants; to repeal the Extradition and Fugitive\nOffenders Act and the Fugitive Offenders (Interim Provision) Act; and also to repeal the Fugitive\nOffenders Act, 1881, and the Extradition Acts, 1870 to 1906, of the United Kingdom, in their application\nto the Republic; and to provide for matters connected with and related to the foregoing.\nPart I \u2013 Preliminary"
+    },
+    {
+      "number": "1",
+      "heading": "Short title and commencement",
+      "text": "(1) This Act may be cited as the Extradition Act.\n(2) The provisions of Parts II to VIII inclusive, and of Part X shall, respectively, come into operation on\nsuch date, or on such different dates, as the Attorney-General may, by statutory order, appoint."
+    },
+    {
+      "number": "2",
+      "heading": "Interpretation",
+      "text": "(1) In this Act, unless the context otherwise requires\u2014\n\"act\" includes omission;\n\"authenticated\", when used in relation to any document submitted by a foreign or Commonwealth\ncountry for purposes of any request or application made by such country pursuant to this Act or for\nthe purpose of any proceedings under this Act, has the meaning attributed to it by subsection (3) of\nsection fifty-four;\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 1\nExtradition Act, 1968 (Act 47 of 1968) Zambia\n\"conviction\" and \"convicted\" do not include or refer to a conviction which under the law of some\nother country is a conviction for contumacy, but the term \"accused person\" includes a person\nconvicted of contumacy;\n\"date of commencement\", in relation to Parts I and IX, means the 25th October, 1968, and, in\nrelation to Parts II to VIII and Part X, respectively, means the date appointed by the Attorney-\nGeneral in respect of each such Part pursuant to subsection (2) of section one;\n\"declared Commonwealth country\" means a country declared by an order made under section\nsixteen to be a Commonwealth country in relation to which Part III applies;\n\"detention order\", in relation to another country, means any order involving deprivation of liberty\nwhich has been made by a criminal court in that country in addition to or instead of a prison\nsentence;\n\"diplomatic agent\" means an ambassador extraordinary and plenipotentiary, envoy extraordinary\nand minister plenipotentiary or charge d'affaires and includes a consular representative of a country\nfor which no ambassador, envoy, minister or charge d'affaires has been accredited to the Republic;\n\"external warrant\" means a judicial or other document issued under the law of, or of a part of,\na country other than the Republic and authorising the apprehension of a person, and includes a\nwarrant referred to in section forty-six;\n\"extraditable crime\" means an offence against the law of the Republic for which extradition may\nbe sought by the Republic\u2014\n(a) from any foreign country under any extradition agreement or under reciprocal facilities\npursuant to Part II; or\n(b) from any declared Commonwealth country pursuant to Part III;\n\"extraditable offence\" means\u2014\n(a) an offence against the law of any foreign country for which extradition may be sought from\nthe Republic under any extradition agreement or under reciprocal facilities pursuant to Part\nII; or\n(b) an offence that is described in the First Schedule and for which extradition may be granted to\na declared Commonwealth country pursuant to Part III;\n\"extradition\" means the surrender of a person under the provisions of Part II or of Part III to or by a\ncountry in relation to which one of such Parts respectively applies;\n\"extradition agreement\" has the meaning assigned to it by subsection (1) of section three;\n\"extradition provisions\" means the provisions of an extradition agreement or of an order under\nsection three applying Part II otherwise than in pursuance of an extradition agreement; or of an\norder under section sixteen applying Part III in relation to a declared Commonwealth country;\n\"foreign country\" means any State outside the Republic other than a Commonwealth country, and\nincludes every constituent part, colony or dependency of such State;\n(2) This Act applies, except where otherwise provided, in relation to an offence whether committed or\nalleged to have been committed before or after the commencement of this Act.\n(3) Where a person, who has been arrested in pursuance of the provisions of this Act, is brought before\na magistrate who has no power to exercise jurisdiction under this Act, that magistrate shall have\npower to order such person to be brought before some magistrate having such jurisdiction and to\nremand or admit such person to bail, and effect shall be given to any such order.\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 2\nExtradition Act, 1968 (Act 47 of 1968) Zambia\nPart II \u2013 Extradition to and from foreign countries\nA \u2013 Application of this Part"
+    },
+    {
+      "number": "3",
+      "heading": "Application of Part II",
+      "text": "(1) Where by any international agreement or convention to which the Republic is a party an\narrangement (in this Act referred to as an \"extradition agreement\") is made with a foreign country\nfor the surrender by each country to the other of persons wanted for prosecution or punishment or\nwhere the President is satisfied that reciprocal facilities to that effect will be afforded by a foreign\ncountry, the President may, by statutory order, apply this Part in relation to that country.\n(2) Where the Republic is a party to an arrangement amending an extradition agreement, the President\nmay, by statutory order, so declare and the extradition agreement shall thereupon have effect as so\namended.\n(3) An order relating to an extradition agreement or an amendment thereof shall recite or embody the\nterms of the agreement or amendment and shall be evidence of the making of the agreement or\namendment and of its terms.\n(4) An order applying this Part in relation to any country otherwise than in pursuance of an extradition\nagreement may be made subject to such conditions, exceptions and qualifications as to its\napplication as may be specified in the order.\n(5) Every extradition agreement and every order applying this Part otherwise than in pursuance of an\nextradition agreement shall, subject to the provisions of this Part and of Part IV, have the force of\nlaw in accordance with its terms.\n(6) The President may, by statutory order, revoke or amend any order made under this section.\n(7) On the revocation of an order applying this Part in relation to any country, this Part shall cease to\napply in relation to that country.\n(8) Every order made under this section shall be laid before the National Assembly as soon as may be\nafter the making thereof."
+    },
+    {
+      "number": "4",
+      "heading": "Extraditable offences",
+      "text": "(1) Subject to subsection (2), extradition under this Part shall be granted only in respect of an offence\nwhich is punishable under the laws of the requesting country and of the Republic by imprisonment\nfor a maximum period of not less than one year or by a more severe penalty or for which, if there\nhas been a conviction and sentence in the requesting country, imprisonment for a period of not less\nthan four months or a more severe penalty has been imposed.\n(2) If a request is made for extradition in respect of an offence to which subsection (1) applies\nand the request includes also any other offence which is punishable under the laws of the\nrequesting country and of the Republic but does not comply with the conditions as to the period of\nimprisonment which may be, or has been, imposed, then extradition may, subject to the provisions\nof this Part, be granted also in respect of the latter offence.\n(3) In this section, any reference to an offence punishable under the laws of the Republic shall be\nconstrued as including references to an act which, if it had been committed in the Republic, would\nconstitute such an offence.\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 3\nExtradition Act, 1968 (Act 47 of 1968) Zambia\nB \u2013 Extradition to foreign countries"
+    },
+    {
+      "number": "5",
+      "heading": "Obligation to extradite",
+      "text": "Where a country in relation to which this Part applies duly requests the surrender of a person who is being\nproceeded against in that country for an offence or who is wanted by that country for the carrying out of a\nsentence, that person shall, subject to and in accordance with the provisions of this Part and of Part IV, be\nsurrendered to that country."
+    },
+    {
+      "number": "6",
+      "heading": "Request for extradition",
+      "text": "A request for the extradition of any person under this Part shall be made in writing to the Attorney-\nGeneral and shall be communicated by\u2014\n(a) a diplomatic agent of the requesting country, accredited to the Republic; or\n(b) any other means provided in the relevant extradition provisions."
+    },
+    {
+      "number": "7",
+      "heading": "Documents to support request",
+      "text": "A request for extradition under this Part shall be accompanied by the following documents:\n(a) the original or an authenticated copy of the conviction and sentence immediately enforceable or,\nas the case may be, of the external warrant or other order having the same effect and issued in\naccordance with the procedure laid down in the law of the requesting country;\n(b) a statement of each offence for which extradition is requested specifying, as accurately as possible,\nthe time and place of commission, its legal description and a reference to the relevant provisions of\nthe law of the requesting country;\n(c) a copy of the relevant enactments of the requesting country or, where this is not possible, a\nstatement of the relevant law; and\n(d) as accurate a description as possible of the person claimed, together with any other information\nwhich will help to establish his identity and nationality."
+    },
+    {
+      "number": "8",
+      "heading": "Warrant of arrest",
+      "text": "(1) If the Attorney-General receives a request made in accordance with this Part for the extradition of\nany person he shall, subject to the provisions of this section, signify to a magistrate that the request\nhas been made and order the magistrate to issue a warrant for the arrest of that person and the\nmagistrate shall issue a warrant accordingly.\n(2) A warrant issued under this section may be executed in any part of the Republic and it shall not be\nnecessary to have it endorsed by a magistrate exercising jurisdiction in the place where it is to be\nexecuted.\n(3) If the Attorney-General is of opinion that the information communicated to him in pursuance\nof section seven is insufficient, he may request the requesting country to furnish such further\ninformation as he thinks proper and may fix a time limit for the receipt thereof.\n(4) The Attorney-General shall refuse extradition if he is of opinion that the case is one in which\nextradition is prohibited under any provision of this Part or of Part IV or under the relevant\nextradition provisions.\n(5) A person arrested under a warrant issued under this section shall be informed, in a language that he\nunderstands, of the reasons for his arrest and detention and shall be brought before a magistrate as\nsoon as practicable.\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 4\nExtradition Act, 1968 (Act 47 of 1968) Zambia\n(6) The provisions of section twenty-nine pertaining to the seizure and handing over of property of the\nperson claimed shall apply to the execution of a warrant under this section."
+    },
+    {
+      "number": "9",
+      "heading": "Provisional warrant",
+      "text": "(1) A magistrate, if he so thinks proper, may, without an order of the Attorney-General under section\neight, issue a provisional warrant for the arrest of any person on the sworn information of a police\nofficer not below the rank of Assistant Superintendent that a request for the provisional arrest of\nthat person has been made, on the ground of urgency, on behalf of a country in relation to which\nthis Part applies and on being satisfied that the request complies with the requirements of this\nsection.\n(2) A request for the provisional arrest of any person shall\u2014\n(a) state that one of the documents mentioned in paragraph (a) of section seven exists in respect\nof that person and that it is intended to send a request for his extradition;\n(b) specify the nature of the offence and the time at which and the place where the offence is\nalleged to have been committed; and\n(c) give a description of the person whose arrest is sought.\n(3) A request for provisional arrest may be transmitted by post or telegraph or by any other means\naffording evidence in writing of the making of such request.\n(4) Where a magistrate issues a warrant under subsection (1) he shall forthwith inform the Attorney-\nGeneral of the issue of the warrant and the Attorney-General may, if he is of opinion that the\ncase is one in which extradition is prohibited under the provisions of this Part or of Part IV or\nof the relevant extradition provisions, order the warrant to be cancelled and the person arrested\nthereunder to be discharged.\n(5) A warrant issued under this section may be executed in any part of the Republic and it shall not be\nnecessary to have it endorsed by a magistrate exercising jurisdiction in the place where it is to be\nexecuted.\n(6) A person arrested under a warrant issued under this section shall be informed, in a language that he\nunderstands, of the reasons for his arrest and detention and shall, unless the warrant is cancelled\nunder subsection (4), be brought, as soon as practicable, before a magistrate, and the magistrate\nshall remand the said person, either in custody or on bail, pending the receipt from the Attorney-\nGeneral of a notice or order signifying that the request for extradition has been duly received,\nor ordering the release of that person under section thirty, and for this purpose the magistrate\nshall have the same powers of remand as if that person were brought before him on a preliminary\ninquiry.\n(7) If, within the period of eighteen days after such person's arrest, no such notice or order, as is\nreferred to in subsection (6), is received, he shall be released.\n(8) The release of any person under subsection (4) or (7) shall not prejudice his re-arrest and\nextradition if a request for his extradition is afterwards made."
+    },
+    {
+      "number": "10",
+      "heading": "Committal or discharge of person whose extradition is requested",
+      "text": "(1) Where a person claimed is before a magistrate pursuant to section eight or nine and\u2014\n(a) there is adduced before such magistrate\u2014\n(i) in the case of a person who is accused of an extraditable offence, such evidence as\nwould, in the opinion of the magistrate, according to the law, justify the committal for\ntrial of the person if the act constituting that offence had taken place in the Republic;\nor\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 5\nExtradition Act, 1968 (Act 47 of 1968) Zambia\n(ii) in the case of a person who is alleged to have been convicted of an extraditable\noffence, sufficient evidence to satisfy the magistrate that the person had been\nconvicted of that offence and is unlawfully at large; and\n(b) the magistrate is satisfied, after hearing any evidence tendered by the person, that\u2014\n(i) the extradition of that person has been duly requested; and\n(ii) this Part applies in relation to the requesting country; and\n(iii) extradition of the person claimed is not prohibited by this Part or Part IV or by the\nrelevant extradition provisions; and\n(iv) the documents required to accompany a request for extradition under section seven\nhave been produced;\nthe magistrate shall make an order committing that person to a prison there to await the\nwarrant of the Attorney-General for his surrender to the requesting country and shall\nforward a copy of such committal order to the Attorney-General.\n(2) The magistrate may, if of opinion that the information communicated under section seven is\ninsufficient to enable a decision to be made, adjourn the hearing for such period as the magistrate\nthinks proper to enable information to be produced and, pending consideration of the case, the\nmagistrate shall have the same powers of adjournment and remand as if the person claimed were\nbrought before him on a preliminary inquiry.\n(3) If after hearing the evidence adduced the magistrate is not satisfied that extradition should be\ngranted under this Act in the case of the person claimed, he shall order that the person claimed be\ndischarged and shall forthwith notify the Attorney-General in writing of the making of such order\nand of his reasons therefor."
+    },
+    {
+      "number": "11",
+      "heading": "Lapse of time before surrender",
+      "text": "A person committed under section ten shall not, except with his consent, given before a magistrate,\nbe surrendered to the requesting country until the expiration of fifteen days from the date of his\ncommittal or until the conclusion of any habeas corpus proceedings brought by him or on his behalf or the\ndetermination of any request made pursuant to an application under subsection (2) of section thirty-one,\nwhichever is the later."
+    },
+    {
+      "number": "12",
+      "heading": "Surrender of prisoner under warrant of Attorney-General",
+      "text": "(1) Subject to sections eleven and thirty-eight, the Attorney-General may, if the person claimed is\ncommitted under section ten and is not discharged by the decision of the High Court in any habeas\ncorpus proceedings, or consequent upon any request made pursuant to an application under\nsubsection (2) of section thirty-one, issue a warrant directing that the person claimed be brought to\nsome convenient point of departure from the Republic and there be delivered to such other person\nas, in the opinion of the Attorney-General, is duly authorised by the requesting country to receive\nhim and convey him from the Republic to the requesting country; and he shall be surrendered\naccordingly.\n(2) Any person to whom a warrant under subsection (1) directs a person claimed to be delivered\nmay, for the purposes of surrender under this Act, receive, hold in custody, and convey out of the\nRepublic the person so delivered to him.\n(3) Any person to whom a person claimed is delivered under a warrant pursuant to subsection (1),\nshall, in execution of such warrant, convey the said person claimed out of the Republic without\nundue delay for the purpose of his surrender to the requesting country.\n(4) The Attorney-General shall not issue a warrant under subsection (1) if he is of the opinion that the\nextradition of the person claimed would involve transit through any territory where there is reason\nto believe that his life or his freedom may be threatened by reason of his race, religion, nationality\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 6\nExtradition Act, 1968 (Act 47 of 1968) Zambia\nor political opinion, and, in such case, the Attorney-General shall order the discharge of the person\nclaimed.\nC \u2013 Extradition to Zambia from foreign countries"
+    },
+    {
+      "number": "13",
+      "heading": "Definition",
+      "text": "For the purposes of this Part, \"extraditable crime\" means an offence (wherever committed) against the\nlaw in force in the Republic and punishable under the laws of the Republic, being an offence for which\nextradition is provided under the terms of an extradition agreement, or for which reciprocal extradition\nfacilities are afforded, between the Republic and the requested country; the requested country being one\nto which this Part applies by virtue of an order made pursuant to section three."
+    },
+    {
+      "number": "14",
+      "heading": "Request to foreign country may be made by Attorney-General",
+      "text": "Where a person accused or convicted of an extraditable crime is, or is suspected of being, in or on his way\nto a foreign country to which this Part applies, or of being within the jurisdiction of, or of a part of, such a\ncountry, the Attorney-General may make a request to that country for the surrender of the person."
+    },
+    {
+      "number": "15",
+      "heading": "Person surrendered may be brought to the Republic",
+      "text": "Where a person accused or convicted of an extraditable crime is surrendered by a foreign country to which\nthis Part applies, the person may be brought into the Republic to be dealt with according to law.\nPart III \u2013 Extradition to and from declared Commonwealth countries\nA \u2013 Application of this Part"
+    },
+    {
+      "number": "16",
+      "heading": "Application of Part III in relation to Commonwealth countries",
+      "text": "(1) The President may, by statutory order, declare a Commonwealth country other than the Republic\nto be a Commonwealth country in relation to which this Part applies, and, subject to subsection\n(2), where any such order for the time being in force so declares, this Part applies in relation to that\ncountry.\n(2) Any order made pursuant to subsection (1) may provide that this Part applies in relation to\na declared Commonwealth country subject to such limitations, conditions, exceptions or\nqualifications as are specified in the said order and, where any such order for the time being in force\nso provides, this Part applies in relation to that country subject to those limitations, conditions,\nexceptions or qualifications.\n(3) The President may, by statutory order, revoke or amend an order under this section.\n(4) On the revocation of an order applying this Part in relation to any Commonwealth country, this Part\nshall cease to apply in relation to that country.\n(5) Every order made under this section shall be laid before the National Assembly as soon as may be\nafter the making thereof."
+    },
+    {
+      "number": "17",
+      "heading": "Extraditable offences under this Part",
+      "text": "For the purposes of this Part, an extraditable offence means an offence against the law of, or of part of, a\ndeclared Commonwealth country\u2014\n(a) the maximum penalty for which is death or imprisonment for not less than twelve months; and\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 7\nExtradition Act, 1968 (Act 47 of 1968) Zambia\n(b) the act constituting which would, if it took place in the Republic, constitute an offence against the\nlaw of the Republic that\u2014\n(i) is described in the First Schedule;\n(ii) would be so described if the description concerned contained a reference to any intent or\nstate of mind on the part of the person committing the offence, or to any circumstance of\naggravation, necessary to constitute the offence.\nB \u2013 Extradition to declared Commonwealth countries"
+    },
+    {
+      "number": "18",
+      "heading": "Liability of person claimed to be surrendered and request for his surrender",
+      "text": "(1) Every person claimed by a declared Commonwealth country is liable, subject to this Part and to\nPart IV and to any limitations, conditions, exceptions or qualifications to which the application of\nthis Part in relation to that country is subject, to be arrested and surrendered to that country as\nprovided by this Part and is so liable whether the offence to which the request for the surrender of\nthe person claimed relates is alleged to have been committed, or was committed, before or after\nthe commencement of this Act or before or after the time when that country became a declared\nCommonwealth country.\n(2) Every request for the surrender of a person claimed under this Part shall be made in writing to the\nAttorney-General by the declared Commonwealth country, which request shall be accompanied by\nan external warrant for the arrest of the person claimed issued by and in accordance with the law of\nthe requesting declared Commonwealth country."
+    },
+    {
+      "number": "19",
+      "heading": "Restrictions on power of Attorney-General",
+      "text": "(1) The Attorney-General shall not give notice under subsection (1) of section twenty or issue a\nwarrant under subsection (3) of section twenty-four in respect of a person claimed by a declared\nCommonwealth country if\u2014\n(a) he is satisfied that to do so in the circumstances would be contrary to any of the provisions of\nPart IV expressly prohibiting extradition; or\n(b) the President notifies the Attorney-General that he, the President, is satisfied that\u2014\n(i) the request for the surrender of the person claimed was made for the purposes of\nprosecuting or punishing him on account of his political opinions; or\n(ii) if the person claimed is surrendered to that country, he may be prejudiced at his trial,\nor punished, detained or restricted in his personal liberty, by reason of his political\nopinions.\n(2) If the Attorney-General is satisfied that, by reason of\u2014\n(a) the trivial nature of the offence that a person claimed is alleged to have committed or has\ncommitted; or\n(b) the accusation against a person claimed not having been made in good faith or in the\ninterests of justice; or\n(c) the passage of time since the offence is alleged to have been committed or was committed;\nand having regard to the circumstances under which the offence is alleged to have been committed\nor was committed, it would be unjust, oppressive or too severe a punishment to surrender the\nperson claimed or to surrender him before the expiration of a particular period, the Attorney-\nGeneral shall not issue a warrant under subsection (3) of section twenty-four in respect of the\nperson claimed or shall not issue such a warrant before the expiration of that period, as the case\nmay be.\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 8\nExtradition Act, 1968 (Act 47 of 1968) Zambia"
+    },
+    {
+      "number": "20",
+      "heading": "Notices by Attorney-General",
+      "text": "(1) Subject to the provisions of section nineteen and of subsection (2), where a request for the\nsurrender of a person claimed who is, or is suspected of being, in or on his way to the Republic is\nmade to the Attorney-General by a declared Commonwealth country, the Attorney-General shall\u2014\n(a) if a warrant for the arrest of the person claimed has not been issued under section twenty-\none, direct a notice in writing in accordance with Form 1 in the Second Schedule to a\nmagistrate informing the said magistrate that the request has been made and authorising\nhim to issue a warrant for the arrest of the person claimed; or\n(b) if a provisional warrant for the arrest of the person claimed has been issued under paragraph\n(b) of subsection (1) of section twenty-one, and a person has been arrested under such\nwarrant, direct a notice in writing in accordance with Form 2 in the Second Schedule to a\nmagistrate before whom the person may be brought, informing the said magistrate that the\nrequest has been made.\n(2) If the Attorney-General is of the opinion that the person claimed is not liable to be surrendered to\nthe requesting country, he shall not direct a notice under subsection (1) in respect of the person\nclaimed.\n(3) If the Attorney-General is of opinion that the person claimed is not liable to be surrendered to\nthe requesting country and a provisional warrant for his arrest has been already issued pursuant\nto paragraph (b) of subsection (1) of section twenty-one, the Attorney-General shall, by order in\nwriting, direct such warrant to be cancelled, and, if the person claimed has been arrested under\nsuch warrant, the provisions of subsection (6) of section twenty-one shall apply mutatis mutandis in\nthe event of such cancellation."
+    },
+    {
+      "number": "21",
+      "heading": "Issue of warrants",
+      "text": "(1) Where\u2014\n(a) a magistrate is authorised by the Attorney-General by a notice under paragraph (a) of\nsubsection (1) of section twenty to issue a warrant for the arrest of a person claimed; or\n(b) an application is made to a magistrate for the issue of a provisional warrant for the arrest\nof any person claimed who is, or is suspected of being, in or on his way to the Republic, and\nsuch application is made on the sworn information of a police officer not below the rank of\nAssistant Superintendent that a request for the provisional arrest of that person has been\nmade, on the ground of urgency, on behalf of a declared Commonwealth country, and that\nthe said country intends to send a request for the surrender of the said person claimed;\nand there is produced to the magistrate such evidence as would, in his opinion, if the act\nconstituting the extraditable offence had taken place within the Republic, justify according to the\nlaw\u2014\n(i) the arrest by a police officer of the person claimed without the issue of a warrant; or\n(ii) the issue of a warrant for the arrest of the person claimed;\nthe magistrate shall, in accordance with Form 3 or 4 in the Second Schedule, as the case may be,\nissue a warrant for the arrest of the person claimed.\n(2) A warrant issued under this section may be executed in any part of the Republic and it shall not be\nnecessary to have it endorsed by a magistrate exercising jurisdiction in the place where it is to be\nexecuted.\n(3) Where a magistrate issues a provisional warrant pursuant to paragraph (b) of subsection (1) he shall\nforthwith send to the Attorney-General a report stating that he has issued the said warrant and\nsetting forth the evidence adduced on the application therefor.\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 9\nExtradition Act, 1968 (Act 47 of 1968) Zambia\n(4) It is a sufficient compliance with subsection (3) in relation to any evidence consisting of testimony\ngiven on oath, or declared or affirmed to be true, by a person if\u2014\n(a) where the testimony was given in writing, the magistrate sends to the Attorney-General a\ncopy of that writing certified by him to be a true copy; or\n(b) where the testimony was given orally\u2014\n(i) if it has been reduced to writing, the magistrate sends to the Attorney-General that\nwriting certified by him to be a true record of the testimony; or\n(ii) if it has not been reduced to writing, the magistrate sends to the Attorney-General the\nnotes made by the magistrate in respect of the testimony and certified by him to be a\ntrue summary of the testimony.\n(5) Where the Attorney-General\u2014\n(a) receives a report of the issue of a provisional warrant and of the evidence pursuant to\nsubsection (3); or\n(b) otherwise becomes aware of the issue of such provisional warrant;\nhe may, if he thinks fit, by order in writing direct that the said warrant be cancelled.\n(6) Where a person has been arrested under a warrant that is directed to be cancelled pursuant to\nsubsection (5)\u2014\n(a) if he is held in custody, the person holding him shall, upon receipt of the order, cause him to\nbe released; or\n(b) if he has been admitted to bail, the recognizances upon which he was admitted to bail shall\nbe, by force of this subsection, discharged."
+    },
+    {
+      "number": "22",
+      "heading": "Proceedings after arrest",
+      "text": "(1) A person who is arrested under any warrant issued pursuant to section twenty-one shall be\ninformed, in a language that he understands, of the reasons for his arrest and detention and shall,\nunless he is sooner discharged, be brought as soon as practicable before a magistrate's court.\n(2) A magistrate may remand a person brought before the court under this section, either in custody\nor on bail for a period or periods not exceeding seven days at any one time and, where a magistrate\nremands a person for such a period, the person may, at the expiration of the period, be brought\nbefore a magistrate's court presided over by that magistrate or any other magistrate.\n(3) In the application of subsection (4) in relation to a person who has been arrested under a warrant\nissued pursuant to section twenty-one, \"the magistrate\" means the magistrate who presided over\nthe magistrate's court before which the person is brought after arrest or upon the expiration of a\nperiod for which he has been remanded under this section, as the case may be.\n(4) If the person was arrested under a provisional warrant issued pursuant to paragraph (b) of\nsubsection (1) of section twenty-one, the magistrate shall remand the person pursuant to\nsubsection (2) until the magistrate receives from the Attorney-General a notice under paragraph (b)\nof subsection (1) of section twenty, informing the magistrate that a request for the surrender of the\nperson has been made to the Attorney-General by a declared Commonwealth country, or directing\nthat the said warrant be cancelled pursuant to subsection (3) of that section.\n(5) Where the magistrate does not receive such a notice under paragraph (b) of subsection (1) of\nsection twenty within such time as is reasonable having regard to all the circumstances, the\nmagistrate shall order the provisional warrant to be cancelled and shall\u2014\n(a) if the person arrested is held in custody, order that he be released; or\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 10\nExtradition Act, 1968 (Act 47 of 1968) Zambia\n(b) if the person arrested has been admitted to bail, make an order discharging the\nrecognizances upon which he was admitted to bail.\n(6) If the person was arrested under a warrant issued pursuant to an authority under paragraph (a)\nof subsection (1) of section twenty or the magistrate receives a notice from the Attorney-General\nunder paragraph (b) of that subsection, and\u2014\n(a) there is produced to the magistrate an authenticated external warrant in respect of the\nperson issued in the declared Commonwealth country that made the request for the\nsurrender of the person; and\n(b) there is adduced before the magistrate\u2014\n(i) in the case of a person who is accused of an extraditable offence, such evidence as\nwould, in the opinion of the magistrate, according to the law, justify the committal for\ntrial of the person if the act constituting that offence had taken place in the Republic;\nor\n(ii) in the case of a person who is alleged to have been convicted of an extraditable\noffence, sufficient evidence to satisfy the magistrate that the person had been\nconvicted of that offence; and\n(c) the magistrate is satisfied, after hearing any evidence tendered by the person, that the\nperson is liable to be surrendered to the declared Commonwealth country that made the\nrequest for the surrender;\nthe magistrate shall, subject to the provisions of section twenty-three, by warrant in accordance\nwith Form 5 in the Second Schedule, commit the person to prison to await the warrant of the\nAttorney-General for his surrender.\n(7) Where the magistrate is of the opinion that it would be dangerous to the life or prejudicial to the\nhealth of the person to commit him to prison, he may, in lieu of committing him to prison, by\nwarrant order that he be held in custody at the place where he is for the time being, or at any other\nplace to which the magistrate considers he can be removed without danger to his life or prejudice\nto his health, until such time as he can without such danger or prejudice be committed to prison or\nhe is surrendered, and, in such a case, the warrant shall be in accordance with Form 5 in the Second\nSchedule with such variations as are necessary to meet the circumstances.\n(8) Where, pursuant to this section, a magistrate commits a person to prison or otherwise orders that\nhe be held in custody, he shall forthwith send to the Attorney-General a certificate to that effect and\nsuch report, if any, relating to the proceedings as he thinks fit."
+    },
+    {
+      "number": "23",
+      "heading": "Power of magistrate or court to discharge or to postpone surrender",
+      "text": "If the magistrate before whom a person claimed is brought pursuant to section twenty-two, or the court to\nwhich a person claimed has applied for a writ of habeas corpus is satisfied\u2014\n(a) that to surrender the person claimed would, in the circumstances, be contrary to any of the\nprovisions of Part IV expressly prohibiting extradition, he or it shall order that the person claimed\nbe discharged; or\n(b) that by reason of\u2014\n(i) the trivial nature of the offence that the person claimed is alleged to have committed or has\ncommitted; or\n(ii) the accusation against the person claimed not having been made in good faith, or in the\ninterests of justice; or\n(iii) the passage of time since the offence is alleged to have been committed or was committed;\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 11\nExtradition Act, 1968 (Act 47 of 1968) Zambia\nand, having regard to the circumstances under which the offence is alleged to have been committed\nor was committed, it would be unjust, oppressive, or too severe a punishment to surrender the\nperson claimed to the declared Commonwealth country, or to surrender him before the expiration\nof a particular period of time, the magistrate or court may\u2014\nA. order that the person claimed be discharged; or\nB. order that the person claimed be remanded for a period specified in the order and be\nreleased on bail until the expiration of that period; and that he, thereafter, unless previously\ndischarged by order of the Attorney-General, under subsection (2) of section thirty, be\ncommitted to prison to await the warrant of the Attorney-General for his surrender; or\nC. make such other order as he or it deems fit."
+    },
+    {
+      "number": "24",
+      "heading": "Surrender of person claimed to Commonwealth country",
+      "text": "(1) When, in pursuance of this Part, a magistrate commits a person claimed (in this section referred to\nas \"the prisoner\") to prison, or otherwise orders that he be held in custody, to await the warrant of\nthe Attorney-General for his surrender to a declared Commonwealth country, the magistrate shall\ninform the prisoner that he will not be surrendered until after the expiration of the period of fifteen\ndays from the date of the committal or order and that, if he asserts that his detention is unlawful,\nhe may apply to a court of competent jurisdiction for a writ of habeas corpus.\n(2) A prisoner committed or ordered to be held in custody under subsection (1) shall not, except with\nhis consent given before a magistrate, be liable to be surrendered to the declared Commonwealth\ncountry until the expiration of fifteen days from the date of the committal or order, or until\nthe conclusion of any habeas corpus proceedings brought by him or on his behalf, or upon the\ndetermination of any request made pursuant to an application under subsection (2) of section\nthirty-one, whichever is the later.\n(3) Upon the expiration of the operative period referred to in subsection (2), and subject to the\nprovisions of section nineteen, the Attorney-General shall, if he is satisfied that the prisoner is\nliable to be surrendered to the declared Commonwealth country, by warrant in accordance with\nForm 6 in the Second Schedule, or where the prisoner is held in custody otherwise than at a prison,\nin accordance with that Form with such variations as are necessary to meet the circumstances of\nthe case, order that the prisoner be brought to a convenient point of departure from the Republic\nthere to be delivered into the custody of a person specified in the warrant and to be conveyed by\nthat person, without undue delay, to a place in that country or within the jurisdiction of, or of a part\nof, that country and there surrendered to some person appointed by that country to receive him.\n(4) A warrant issued pursuant to subsection (3) may be executed according to its tenor.\n(5) The provisions of section twenty-nine pertaining to the seizure and handing over of property of the\nperson claimed shall apply to the execution of a warrant under this section.\nC \u2013 Extradition to Zambia from declared Commonwealth countries"
+    },
+    {
+      "number": "25",
+      "heading": "Definition",
+      "text": "For the purposes of this Part, \"extraditable crime\" means an offence (wherever committed) against the law\nin force in the Republic and punishable under the laws of the Republic by imprisonment for a maximum\nperiod of not less than twelve months or by a more severe penalty, being an offence that\u2014\n(a) is described in the First Schedule; or\n(b) would be so described if the description concerned contained a reference to any intent or state of\nmind on the part of the person committing the offence, or to any circumstance of aggravation,\nnecessary to constitute the offence.\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 12\nExtradition Act, 1968 (Act 47 of 1968) Zambia"
+    },
+    {
+      "number": "26",
+      "heading": "Request to commonwealth country to be made by Attorney-General",
+      "text": "Where a person accused or convicted of an extraditable crime is, or is suspected of being, in or on his\nway to a declared Commonwealth country or within the jurisdiction of, or of a part of, such a country, the\nAttorney-General may make a request to that country for the surrender of the person."
+    },
+    {
+      "number": "27",
+      "heading": "Person surrendered may be brought to the Republic",
+      "text": "Where a person accused or convicted of an extraditable crime is surrendered by a declared Commonwealth\ncountry, the person may be brought into the Republic and delivered to the proper authorities to be dealt\nwith according to law.\nPart IV \u2013 General provisions on extradition"
+    },
+    {
+      "number": "28",
+      "heading": "Application of Part IV",
+      "text": "This Part shall apply to all requests for extradition made pursuant to Part II and to Part III and to\nproceedings relating thereto or arising therefrom."
+    },
+    {
+      "number": "29",
+      "heading": "Seizure and handing over of property",
+      "text": "(1) A police officer executing a warrant under section eight, nine, twenty-one or twenty-four may seize\nand retain any property\u2014\n(a) which appears to him to be reasonably required as evidence for the purpose of proving the\noffence alleged; or\n(b) which appears to him to have been acquired as a result of the alleged offence; and\n(c) which\u2014\n(i) is found at the time of arrest in the possession of the person arrested under the\nwarrant; or\n(ii) is discovered subsequently.\n(2) Subject to the provisions of this section, any property seized under subsection (1) shall, if a warrant\nis issued by the Attorney-General under section twelve or twenty-four for the surrender of the\nperson claimed, be handed over to any person, who appears to the Attorney-General to be duly\nauthorised by the requesting country to receive it, as soon as may be after the issue of the said\nwarrant and the said property shall be so handed over notwithstanding that the extradition in\nquestion cannot be carried out by reason of the death or escape of the person claimed.\n(3) Any property seized under subsection (1) may, if any criminal proceedings to which the property\nrelates are pending in the Republic, be retained in the Republic in accordance with the law until the\nconclusion of the said proceedings or may, if the Attorney-General so directs, be handed over on\ncondition that the requesting country shall return the property.\n(4) Nothing in this section shall prejudice or derogate from any rights that may lawfully have been\nacquired by the Republic or by any person in the Republic in any property to be handed over under\nthis section and, where any such rights exist, the property shall not be handed over except upon\ncondition that the requesting country shall return it as soon as may be after the trial of the person\nsurrendered and without charge to the Republic or the person having such rights.\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 13\nExtradition Act, 1968 (Act 47 of 1968) Zambia"
+    },
+    {
+      "number": "30",
+      "heading": "General power of Attorney-General to release",
+      "text": "(1) Whenever the Attorney-General is of opinion, in relation to a person who is for the time being on\nremand or awaiting his surrender to a requesting country, that extradition is prohibited under any\nrelevant provision of this Act, the Attorney-General may at any time refuse extradition.\n(2) In any such case, or in case it appears to the Attorney-General that the request for extradition is\nnot being proceeded with, the Attorney-General may order that the said person, if in custody, shall\nbe released, or if admitted to bail that the recognizances under which he was so admitted to bail be\ndischarged."
+    },
+    {
+      "number": "31",
+      "heading": "Political offences",
+      "text": "(1) If the Attorney-General\u2014\n(a) believes, for any reason, that the offence for which extradition is sought is a political offence\nor an offence connected with a political offence; or\n(b) receives from a magistrate a request pursuant to subsection (2);\nhe shall refer the request for extradition together with the accompanying documents and such other\ndocuments as he may deem to be relevant and also a statement of any other relevant information\nhe may have in that regard to the President for a ruling on that issue.\n(2) A person claimed under Part II or III may, at any time during the course of any extradition\nproceedings under this Act, apply to the magistrate to submit to the Attorney-General a request for\na determination of the question whether the offence for which such person's extradition is sought\nis or is not a political offence or an offence connected with a political offence, and the magistrate\nshall within two days after the making of the said application submit such request in writing to the\nAttorney-General.\n(3) The proceedings during which an application is made pursuant to subsection (2) shall not be\nsuspended by reason of the making of such application.\n(4) Within seven days after the receipt of a reference to him pursuant to subsection (1), the President\nshall certify in writing to the Attorney-General his ruling upon such reference.\n(5) Upon receipt by the Attorney-General of the certificate of the ruling of the President on any\nreference made pursuant to paragraph (b) of subsection (1), the Attorney-General shall forthwith\nnotify the requesting magistrate thereof.\n(6) If, upon any reference made to the President pursuant to paragraph (a) of subsection (1), the\nPresident certifies to the Attorney-General his ruling that the offence for which extradition is\nrequested\u2014\n(a) is not a political offence or an offence connected with a political offence, the Attorney-\nGeneral may grant or refuse extradition as provided by this Act but not upon the grounds of\nits being a political offence or an offence connected with a political offence;\n(b) is a political offence or an offence connected with a political offence, the Attorney-General\nshall thereupon refuse extradition of the person claimed.\n(7) Where a provisional warrant for the arrest of the person claimed has been issued pursuant to\nsection nine or to paragraph (b) of subsection (1) of section twenty-one, and the President certifies\nto the Attorney-General his ruling that the offence for which extradition is requested is a political\noffence, the Attorney-General shall, pursuant to paragraph (b) of subsection (6), refuse extradition\nand further shall, by order in writing, direct that the said warrant be cancelled, and if the person\nclaimed has been arrested under such warrant which has been cancelled and\u2014\n(a) is held in custody, the person holding him shall, upon receipt of the order, cause him to be\nreleased; or\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 14\nExtradition Act, 1968 (Act 47 of 1968) Zambia\n(b) has been admitted to bail, the recognizances upon which he was admitted to bail shall be, by\nforce of this subsection, discharged.\n(8) If there are substantial grounds for believing that a request for extradition for an ordinary criminal\noffence has been made for the purposes of prosecuting or punishing the person claimed on account\nof his political opinions, or that that person may be prejudiced for that reason, the said request\nmay, for the purposes of this section, be deemed to be a request for extradition for a political\noffence or an offence connected with a political offence.\n(9) An offence against the law of the requesting country may be regarded as being a political offence or\nan offence connected with a political offence notwithstanding that there are no competing political\nparties in that country."
+    },
+    {
+      "number": "32",
+      "heading": "Race, religion or nationality",
+      "text": "Extradition shall not be granted if there are substantial grounds for believing that a request for extradition\nhas been made for the purpose of prosecuting or punishing the person claimed on account of his race,\nreligion or nationality or that the position of the person claimed may be prejudiced for any of these\nreasons."
+    },
+    {
+      "number": "33",
+      "heading": "Military offences",
+      "text": "Extradition shall not be granted for offences under military law which are not offences under ordinary\ncriminal law."
+    },
+    {
+      "number": "34",
+      "heading": "Zambian citizens",
+      "text": "Extradition shall not be granted where a person claimed is a citizen of the Republic, unless the relevant\nextradition provisions otherwise provide."
+    },
+    {
+      "number": "35",
+      "heading": "Place of commission",
+      "text": "Extradition shall not be granted where the offence for which it is requested is regarded under the law of\nthe Republic as having been committed in the Republic."
+    },
+    {
+      "number": "36",
+      "heading": "Pending proceedings for the same offence",
+      "text": "Extradition shall not be granted where a prosecution is pending in the Republic against the person claimed\nfor the offence for which extradition is requested."
+    },
+    {
+      "number": "37",
+      "heading": "Discharge of person claimed if not conveyed out of the Republic",
+      "text": "(1) Subject to the provisions of sections thirty and thirty-eight and of subsection (2), where a person\nclaimed who, pursuant to Part II or III, has been committed to prison or otherwise ordered to be\nheld in custody, is in custody and is not surrendered or conveyed out of the Republic within two\nmonths after\u2014\n(a) the date of committal or order; or\n(b) the date of the final conclusion of any habeas corpus proceedings brought by him or on his\nbehalf; or\n(c) the date of the determination by the President of a request made pursuant to an application\nunder subsection (2) of section thirty-one;\nwhichever is the later, the High Court, upon application made to it by or on behalf of the person\nclaimed and upon proof that reasonable notice of the intention to make the application has been\ngiven to the Attorney-General, shall, unless reasonable cause is shown for the delay, order the\nperson claimed to be discharged.\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 15\nExtradition Act, 1968 (Act 47 of 1968) Zambia\n(2) Where, on application to the High Court under subsection (1), the Court is satisfied\u2014\n(a) that the state of health of the person claimed or other circumstances beyond the control\nof the Republic or the requesting country have prevented the person claimed from being\nconveyed out of the Republic; and\n(b) that it is likely that within a reasonable time such circumstances will no longer prevent his\nremoval;\nthe Court may fix a period within which he may be surrendered and he shall be discharged if not\nconveyed out of the Republic within that period.\n(3) Pending the final determination of any application to the High Court under subsection (1), the\nperson claimed shall not be surrendered or conveyed out of the Republic."
+    },
+    {
+      "number": "38",
+      "heading": "Postponement of surrender",
+      "text": "Where the person claimed is held in custody or has been admitted to bail in the Republic in respect of\nan offence that is alleged to have been committed in the Republic, or where such person is undergoing\na sentence of imprisonment for a conviction in the Republic, the surrender of such person may be\npostponed by the Attorney-General until the said person has been discharged from custody, or the\nrecognizances upon which he was admitted to bail have been discharged, as the case may be, whether as\nthe result of an acquittal or on the expiration of his sentence or otherwise."
+    },
+    {
+      "number": "39",
+      "heading": "Non bis in idem",
+      "text": "(1) Extradition shall not be granted in respect of an offence if final judgment has been passed by a\ncompetent court or authority in the Republic or in a third country upon the person claimed or he\nhas undergone the punishment provided by the law of, or of a part of, the Republic or any third\ncountry in respect of that offence or of another offence constituted by the same act as that offence.\n(2) Extradition may be refused by the Attorney-General for an offence which is also an offence under\nthe law of the Republic if the Director of Public Prosecutions has decided either not to institute or\nto terminate proceedings against the person claimed in respect of the offence."
+    },
+    {
+      "number": "40",
+      "heading": "Lapse of time",
+      "text": "Extradition shall not be granted when the person claimed has, according to the law of either the\nrequesting country or the Republic, become immune by reason of lapse of time from prosecution or\npunishment."
+    },
+    {
+      "number": "41",
+      "heading": "Capital punishment",
+      "text": "Extradition shall not be granted for an offence which is punishable by death under the law of the\nrequesting country but is of a category for which the death penalty is not provided for by the law of\nthe Republic or is not generally carried out, unless the requesting country gives such assurances as the\nAttorney-General considers sufficient that the death penalty will not be carried out."
+    },
+    {
+      "number": "42",
+      "heading": "Rule of speciality",
+      "text": "(1) Extradition shall not be granted unless provision is made by the law of the requesting country or by\nthe extradition agreement\u2014\n(a) that the person claimed shall not be proceeded against, sentenced or detained with a view to\nthe carrying out of a sentence or otherwise restricted in his personal freedom, for any offence\ncommitted prior to his surrender other than that for which his extradition is requested or any\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 16\nExtradition Act, 1968 (Act 47 of 1968) Zambia\nother offence of which he could be convicted upon proof of the facts upon which the request\nfor his surrender is based, except in the following cases:\n(i) with the consent of the Attorney-General; or\n(ii) where that person, having had an opportunity to leave the territory of that country,\nhas not done so within forty-five days of his final discharge in respect of the offence\nfor which he was extradited or has returned to the territory of that country after\nleaving it; and\n(b) that where the description of the offence charged in the requesting country is altered in\nthe course of proceedings, he shall only be proceeded against or sentenced in so far as the\noffence under its new description is shown by its constituent elements to be an offence for\nwhich under this Act he would be liable to be surrendered to the requesting country.\n(2) Notwithstanding anything in subsection (1), the fact that the law of the requesting country permits\nthe taking of any measures necessary to remove the person from its territory or any measures\nnecessary under its law, including proceedings by default, to prevent any legal effects of lapse of\ntime shall not of itself prevent his extradition.\n(3) The consent of the Attorney-General referred to in sub-paragraph (i) of paragraph (a) of subsection\n(1) shall not be given in the case of a person claimed under Part II unless a request for consent is\nsubmitted by the requesting country, accompanied by the documents mentioned in section seven\nand a legal record of any statement made by the person claimed in respect of the offence concerned.\n(4) The consent of the Attorney-General referred to in sub-paragraph (i) of paragraph (a) of subsection\n(1) shall not be given in the case of a person claimed under Part III unless a request for consent is\nsubmitted by the requesting country, accompanied by the document mentioned in subsection (2) of\nsection eighteen and a legal record of any statement made by the person claimed in respect of the\noffence concerned.\n(5) The consent of the Attorney-General referred to in subparagraph paragraph (i) of paragraph (a) of\nsubsection (1) shall be given if the offence for which it is requested is itself one for which there is an\nobligation to grant extradition."
+    },
+    {
+      "number": "43",
+      "heading": "Re-extradition to a third country",
+      "text": "(1) Extradition shall not be granted unless provision is made by the law of the requesting country or\nby the extradition agreement that that country shall not surrender to another country a person\nsurrendered to the requesting country and sought by the other country for an offence committed\nbefore his surrender to the requesting country, except in the following cases:\n(a) with the consent of the Attorney-General; or\n(b) where that person, having had an opportunity to leave the territory of that country, has not\ndone so within forty-five days of his final discharge in respect of the offence for which he was\nextradited or has returned to the territory of that country after leaving it.\n(2) Before acceding to a request for consent to the extradition of a person claimed under Part II to\nwhom subsection (1) applies, the Attorney-General may request the production of the documents\nmentioned in section seven.\n(3) Before acceding to a request for consent to the extradition of a person claimed under Part III to\nwhom subsection (1) applies, the Attorney-General may request the production of the document\nmentioned in subsection (2) of section eighteen.\n(4) A person who has been surrendered to the Republic by a requested country shall not be surrendered\nto a third country for an offence committed before his surrender, except in the following cases:\n(a) with the consent of the requested country signified under the seal of a Minister of State of\nthat country, which seal shall be judicially noticed; or\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 17\nExtradition Act, 1968 (Act 47 of 1968) Zambia\n(b) where that person, having had an opportunity to leave the Republic, has not done so within\nforty-five days of his final discharge in respect of the offence for which he was surrendered to\nthe Republic or has returned to the Republic after leaving it."
+    },
+    {
+      "number": "44",
+      "heading": "Conflicting requests",
+      "text": "If extradition is requested concurrently by more than one country, either for the same offence or for\ndifferent offences, the Attorney-General shall decide which, if any, of the requests is to be proceeded with,\nhaving regard to all the circumstances and especially the relative seriousness and place of commission of\nthe offences, the respective dates of the requests, the citizenship or nationality, and the ordinary place of\nresidence of the person claimed and the possibility of subsequent surrender to another country.\nPart V \u2013 Reciprocal backing of warrants"
+    },
+    {
+      "number": "45",
+      "heading": "Application of Part V",
+      "text": "(1) Where the President is satisfied that reciprocal provision has been or will be made by or under\nthe law of any country for the backing of warrants issued in the Republic and their execution in\nthat country and that it is appropriate to do so, he may, by statutory order, declare that this Part\nshall apply in the case of that country (hereinafter called the \"prescribed country\") subject to such\nconditions, exceptions and qualifications as may be specified in the order and this Part shall apply\naccordingly.\n(2) The President may, by statutory order, revoke or amend any order made under this section.\n(3) Every order made under this section shall be laid before the National Assembly as soon as may be\nafter the making thereof."
+    },
+    {
+      "number": "46",
+      "heading": "Backing of warrant issued in another country",
+      "text": "(1) Where an external warrant has been issued in a prescribed country for the arrest of a person\naccused or convicted of an offence against the law of that country and he is, or is suspected of\nbeing, in or on his way to the Republic, a magistrate may, if satisfied that the warrant is duly\nauthenticated, make an endorsement on the warrant in accordance with Form 1 in the Third\nSchedule authorising the execution of the warrant in the Republic.\n(2) An endorsement of an external warrant shall be signed by the magistrate and shall authorise any\npolice officer to execute the warrant by arresting the person named in it and bringing him before a\nmagistrate.\n(3) A warrant endorsed under the provisions of this section shall be sufficient authority to any police\nofficer to execute the warrant in any part of the Republic in accordance with this Part, and it shall\nnot be necessary to have it endorsed by a magistrate exercising jurisdiction in the place where it is\nto be executed.\n(4) This Part shall apply whatever the date of the external warrant sought to be endorsed pursuant to\nsubsection (1) and whether the offence to which it relates is alleged to have been committed before\nor after the commencement of this Act."
+    },
+    {
+      "number": "47",
+      "heading": "Provisional warrant",
+      "text": "Notwithstanding that an external warrant issued in a prescribed country for the arrest of any person may\nnot yet have been endorsed in pursuance of this Part, a magistrate may issue a provisional warrant in\naccordance with Form 2 in the Third Schedule for the arrest of such person on such information and under\nsuch circumstances as would, in his opinion, justify the issue of a warrant if the offence of which that\nperson is accused were an offence punishable by the law of the Republic and had been committed within\nhis jurisdiction; and such provisional warrant may be executed according to its tenor.\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 18\nExtradition Act, 1968 (Act 47 of 1968) Zambia"
+    },
+    {
+      "number": "48",
+      "heading": "Search warrant",
+      "text": "Where an external warrant for the arrest of a person accused of an offence has been endorsed in pursuance\nof this Part, the magistrate shall have the same power of issuing a warrant to search for any property\nalleged to be stolen or otherwise unlawfully taken or obtained by such person, or otherwise to be the\nsubject of such offence, as that magistrate would have if the property had been stolen or otherwise\nunlawfully taken or obtained, or the offence had been committed, wholly within the jurisdiction of such\nmagistrate."
+    },
+    {
+      "number": "49",
+      "heading": "Proceedings after arrest",
+      "text": "(1) A person who is arrested under an external warrant endorsed pursuant to section forty-six, or\nunder a provisional warrant issued pursuant to section forty-seven, shall be informed, in a language\nthat he understands, of the reasons for his arrest and detention and shall be brought as soon as\npracticable before a magistrate.\n(2) A magistrate may remand a person brought before him under this section, either in custody or\non bail, for a period or periods not exceeding seven days at any one time, and where a magistrate\nremands a person for such a period, the person may, at the expiration of the period, be brought\nbefore that magistrate or before any other magistrate.\n(3) In the application of the succeeding subsections in relation to a person who has been arrested\nunder an external warrant endorsed pursuant to section forty-six or under a provisional warrant\nissued pursuant to section forty-seven, \"the magistrate\" means the magistrate before whom the\nperson is brought after arrest or at the expiration of a period for which he had been remanded under\nsubsection (2), as the case may be.\n(4) Where the person is arrested under a provisional warrant pursuant to section forty-seven and the\nexternal warrant referred to in section forty-six authorising the arrest of the person has not been\nendorsed, the magistrate may, and shall if a reasonable time has elapsed for the endorsement of the\nexternal warrant\u2014\n(a) if the person arrested is held in custody, order his release; or\n(b) if he has been admitted to bail, make an order discharging the recognizances upon which he\nwas admitted to bail.\n(5) Where the person is arrested\u2014\n(a) under an external warrant endorsed pursuant to section forty-six; or\n(b) under a provisional warrant issued pursuant to section forty-seven and the external warrant\nreferred to in section forty-six, authorising the arrest of the person, has been endorsed;\nthe magistrate shall, subject to the provisions of section fifty and subsections (6) and (7), by\nwarrant in accordance with Form 3 in the Third Schedule, order the person to be surrendered to the\nprescribed country in which the external warrant was issued and, for that purpose, to be brought to\nsome convenient point of departure from the Republic and there delivered into the custody of the\nperson specified (whether by name or rank) in the said endorsed external warrant to receive him.\n(6) The magistrate shall, in every case, suspend the execution of the warrant issued pursuant to\nsubsection (5), for a period of fifteen days from the date thereof, and may order that the said\nperson be remanded in custody or admitted to bail during that period, and that the said person\nbe surrendered under the said warrant at the expiration of the said period of fifteen days or upon\nthe determination against the said person of any application made pursuant to section fifty-one or\nfifty-two or of any proceedings for habeas corpus, whichever is the later.\n(7) Where the magistrate is of opinion that it would be dangerous to the life or prejudicial to the health\nof the person to surrender him to the prescribed country referred to in subsection (5), he may, in\nlieu of ordering that he be surrendered to that country, by warrant order that he be held in custody\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 19\nExtradition Act, 1968 (Act 47 of 1968) Zambia\nat the place where he is for the time being, or at any other place to which the magistrate considers\nthat he can be removed without danger to his life or prejudice to his health, until such time as he\ncan without such danger or prejudice be surrendered to that country and, in such case, the warrant\nshall be in accordance with Form 3 in the Third Schedule with such variations as are necessary to\nmeet the circumstances of the case.\n(8) In proceedings under this section, the magistrate shall receive any evidence which may be tendered\nto show that the offence for which the surrender of the person arrested is requested under the\nsaid endorsed warrant or provisional warrant, as the case may be, is regarded under the law of the\nRepublic as having been committed in the Republic or that a prosecution is pending in the Republic\nfor the offence for which such person has been so arrested, and if the magistrate is satisfied that\nsuch is the case he shall refuse to order the surrender of the person to the prescribed country.\n(9) A warrant issued pursuant to subsection (5) or (7) may be executed according to its tenor.\n(10) Where the magistrate has ordered the surrender of a person pursuant to subsection (5), any\nproperty which was found in the possession of such person at the time of his arrest and which\nmay be material as evidence in proving the offence for which he is being surrendered shall, if the\nmagistrate so directs, be delivered up with the person on his surrender."
+    },
+    {
+      "number": "50",
+      "heading": "Power of magistrate to order discharge or to postpone surrender of person",
+      "text": "If a magistrate before whom a person is brought under this Part is satisfied that, by reason of\u2014\n(a) the trivial nature of the offence the person is alleged to have committed or has committed; or\n(b) the accusation against the person not having been made in good faith or in the interests of justice;\nor\n(c) the passage of time since the offence is alleged to have been committed or was committed;\nand, having regard to the circumstances under which the offence is alleged to have been committed or\nwas committed, it would be unjust, oppressive or too severe a punishment to surrender the person to a\nprescribed country, or to surrender him before the expiration of a particular period, the magistrate may\u2014\n(i) order that the person be discharged; or\n(ii) order that the person be surrendered after the expiration of a period specified in the order and order\nhis release on bail until the expiration of that period; or\n(iii) make such other order as he deems just."
+    },
+    {
+      "number": "51",
+      "heading": "Review of order of magistrate",
+      "text": "(1) Where\u2014\n(a) a person, who is arrested under this Part, is dissatisfied with an order made by a magistrate\nunder subsection (5) or (7) of section forty-nine or under section fifty; or\n(b) a magistrate has made, under subsection (7) of section forty-nine or under section fifty, an\norder for the discharge of such arrested person, or an order for the surrender or admittance\nto bail of such person under the terms of which the person is not or may not be required to\nbe surrendered to a requesting prescribed country within three months after the date of the\norder;\nthe arrested person, or the representative of the requesting prescribed country, or the person\nbringing the warrant, as the case requires, may apply to the High Court for a review of the order,\nand the said Court may review the order.\n(2) The Court to which an application is made for the review of an order may\u2014\n(a) order the release on bail of the arrested person on such terms and conditions as the Court\ndeems fit; or\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 20\nExtradition Act, 1968 (Act 47 of 1968) Zambia\n(b) direct that the arrested person be kept in such custody as the Court directs until the order\nhas been reviewed.\n(3) The review of an order shall be by way of rehearing, and evidence in addition to, or in substitution\nfor, the evidence given on the making of the order may be given on or in connection with the\nreview.\n(4) For the purpose of a review under this section, a copy of a public document or of a document filed\nin a department or office of the Republic, certified to be a true copy of the document by the person\npurporting by the certificate to have charge of the document, shall be admissible as evidence of the\nfacts stated in the document.\n(5) Upon the review of an order, the Court may confirm or vary the order, or quash the order and\nsubstitute a new order in its stead.\n(6) The order as confirmed or varied, or the substituted order, shall be transmitted by the Court to the\ncourt of the magistrate who made the original order, and the magistrate shall cause the confirmed,\nvaried or substituted order, as the case may be, to be executed according to its tenor."
+    },
+    {
+      "number": "52",
+      "heading": "Restrictions on return of person",
+      "text": "(1) A person who is ordered to be surrendered pursuant to section forty-nine may, at the time the order\nis made or within five days thereafter, apply to the magistrate to submit to the Attorney-General a\nrequest for a determination of the question whether the offence to which the warrant relates is a\npolitical offence or an offence connected with a political offence, and the Attorney-General shall\nrefer such request to the President for his ruling thereon.\n(2) Within seven days after the receipt of a reference to him pursuant to subsection (1), the President\nshall certify in writing his ruling upon such reference and the Attorney-General shall forthwith\nnotify the magistrate, in writing, thereof.\n(3) The ruling of the President on any reference pursuant to subsection (1) shall be binding upon the\nmagistrate and shall be final.\n(4) A person shall not be surrendered under this Part pending the ruling of the President on any\nreference pursuant to subsection (1).\n(5) Any application made pursuant to subsection (1) shall be without prejudice to the right of the\napplicant, under section fifty-one, to apply for a review of the order of the magistrate by the High\nCourt."
+    },
+    {
+      "number": "53",
+      "heading": "Discharge of prisoner",
+      "text": "(1) Whenever a prisoner whose surrender is authorised in pursuance of this Part is not conveyed out of\nthe Republic within one month after the date when his surrender could have been effected under\nthis Part, a magistrate may\u2014\n(a) upon application by or on behalf of the prisoner; and\n(b) upon proof that reasonable notice of the intention to make the application has been given to\nthe person holding the warrant and to the Commissioner of Police or the officer in charge of\nthe police of the district, city, town or area where the prisoner is in custody; and\n(c) unless sufficient cause is shown to the contrary; order the prisoner to be discharged out of\ncustody.\n(2) Without prejudice to any application for an order of habeas corpus in respect of anything purporting\nto be done under this Part, any order or refusal to make an order of discharge under subsection (1)\nmay be the subject of an appeal to the High Court.\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 21\nExtradition Act, 1968 (Act 47 of 1968) Zambia\nPart VI \u2013 Miscellaneous provisions relating to surrender and return\nA \u2013 Evidence and authenticated documents"
+    },
+    {
+      "number": "54",
+      "heading": "Evidence and authenticated documents",
+      "text": "(1) Any deposition or statement on oath or affirmation taken in the foreign requesting country,\ndeclared Commonwealth country or prescribed country, as the case may be, and any copy of any\nsuch original deposition or statement, and any document that purports to have been received in\nevidence in such country or to be a copy of a document that has been so received in evidence, and\nany document that purports to be an external warrant, and any official certificate of or judicial\ndocument stating the fact of conviction may, if authenticated, be accepted for the purpose of any\nrequest or application pursuant to this Act, or may be received in evidence in any proceedings under\nthis Act.\n(2) In addition to any other means by which the same may be proved in proceedings under this Act, a\nmagistrate or the High Court\u2014\n(a) shall take judicial notice of any law of a foreign requesting country or declared\nCommonwealth country which makes provision for any such matter as is referred to\nin paragraph (a) of subsection (1) of section forty-two, if an official copy of such law is\nproduced and certified by the Minister responsible for the foreign affairs, or a diplomatic\nrepresentative or consular officer, of that country to be in force;\n(b) may receive as prima facie evidence of the existence and effect of any such agreement as is\nreferred to in subsection (1) of section forty-two a certificate to that effect by such Minister\nor diplomatic representative or consular officer aforesaid.\n(3) A document is authenticated for the purpose of any request or application made by a foreign,\nCommonwealth or prescribed country for the purpose of being admitted in evidence in proceedings\nunder this Act if\u2014\n(a) in the case of a document that purports to be a deposition or statement on oath or\naffirmation given, declared or affirmed by a person in proceedings in the country concerned,\nthe document purports to be certified by a Judge, magistrate or officer in or of that country to\nbe the original document recording that testimony or a true copy of that original document;\n(b) in the case of a document that purports to have been received in evidence, or to be a copy of\na document that has been received in evidence, in proceedings in the country concerned, the\ndocument purports to be certified by a Judge, magistrate or officer in or of that country to\nhave been, or to be a true copy of, a document that has been, so received in evidence;\n(c) in the case of a document that certifies or states as a fact that a person has been convicted\nof an offence in the country concerned, the document purports to be certified by a Judge,\nmagistrate or officer in or of that country;\n(d) in the case of a document that purports to be an external warrant, the document purports to\nbe signed by a Judge, magistrate or officer in or of the country in which the document was\nissued;\nand the document purports to be authenticated by the oath of a witness or to be sealed with the\nofficial seal of a Minister of State in or of that country.\n(4) Nothing in this section shall prevent the proof of any matter, or the admission in evidence of any\ndocument, in accordance with any other provision of this Act or any other law of the Republic.\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 22\nExtradition Act, 1968 (Act 47 of 1968) Zambia\nB \u2013 Miscellaneous"
+    },
+    {
+      "number": "55",
+      "heading": "Escape",
+      "text": "If a person, who is under arrest, escapes, by breach of prison or otherwise, out of the custody of a person\nacting under a warrant issued or endorsed in pursuance of this Act or out of the custody of a person to\nwhose custody he had been committed in accordance with this Act, he may be retaken in the same manner\nas a person accused of a crime against the law of the Republic may be retaken upon an escape."
+    },
+    {
+      "number": "56",
+      "heading": "Conditions of imprisonment",
+      "text": "The laws with respect to\u2014\n(a) the conditions of imprisonment of persons imprisoned to await trial for offences against the law of\nthe Republic;\n(b) the treatment of such persons during imprisonment; and\n(c) the transfer of such persons from prison to prison; apply, so far as they are capable of application,\nin relation to persons who have been committed to prison in the Republic pursuant to Part II, III or\nV."
+    },
+    {
+      "number": "57",
+      "heading": "Rule of speciality re a person surrendered to the Republic",
+      "text": "Where a person accused or convicted of an extraditable crime is surrendered to the Republic under\nan extradition agreement, or under reciprocal extradition facilities by a foreign country or a declared\nCommonwealth country, pursuant to Part II or III, as the case may be, the person shall not, unless he has\nbeen returned, or has had an opportunity of returning, to that country\u2014\n(a) be proceeded against, sentenced or detained in the Republic for any offence that is alleged to have\nbeen committed, or was committed, prior to his surrender other than\u2014\n(i) the offence to which the request for his surrender relates or any other offence of which he\ncould be convicted upon proof of the facts on which that request was based; or\n(ii) any other extraditable crime in respect of which that country consents to his being so\ndetained or tried, as the case may be; or\n(b) be detained in the Republic for the purpose of his being surrendered to another country for trial or\npunishment for any offence that is alleged to have been committed, or was committed, before his\nsurrender to the Republic other than\u2014\n(i) an offence of which he could be convicted upon proof of the facts on which the request\nreferred to in paragraph (a) was based; or\n(ii) any offence in respect of which the country by which he was surrendered to the Republic\nconsents to his being so detained."
+    },
+    {
+      "number": "58",
+      "heading": "Transit",
+      "text": "(1) Transit through the Republic of a person being conveyed in custody from one country to another on\nhis surrender pursuant to an agreement in the nature of an extradition agreement may be granted\nby the Attorney-General following a request to that effect made by the country to which he is being\nconveyed.\n(2) Any person who is in custody during such transit shall be in lawful custody.\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 23\nExtradition Act, 1968 (Act 47 of 1968) Zambia\n(3) Any person who, pursuant to this Act, has been delivered into the custody of another person for the\npurpose of being conveyed to the country to which his surrender has been ordered, shall, while in\ntransit in such custody through any part of the Republic, be in lawful custody.\nPart VII \u2013 Offences committed abroad by zambian citizens"
+    },
+    {
+      "number": "59",
+      "heading": "Offences committed abroad by zambian citizens",
+      "text": "(1) Where any citizen of the Republic does any act outside the Republic which constitutes an offence\nfor which he would be liable to extradition but for the fact that he is a citizen of the Republic, he\nshall be guilty of the like offence and be liable on conviction to the like punishment as if the act\nwere done within Zambia.\n(2) No prosecution for an offence under subsection (1) shall be commenced without the sanction of\nthe Director of Public Prosecutions given after the Attorney-General has certified to him in writing\nthat a request for extradition of the person claimed has been made pursuant to section six or to\nsubsection (2) of section eighteen, as the case may be, and that such request has been refused by\nreason of the provisions of section thirty-four.\n(3) This section shall apply only to acts committed after the commencement of this Act.\n(4) For the purpose of the exercise of jurisdiction, in relation to an offence to which subsection (1)\napplies, by any court of competent jurisdiction, the act constituting the offence shall be deemed to\nhave been committed within the Lusaka District.\n(5) For the purposes of this section\u2014\n(a) \"the like offence\" means such offence (by whatever name called) as would be punishable\nunder the laws of Zambia if the act constituting the offence for which extradition is\nrequested had been done in Zambia;\n(b) \"the like punishment\" means punishment of the same form as, or of a less stringent form\nthan, the punishment prescribed for such offence by the law of the requesting country.\nPart VIII \u2013 Forms, regulations, rules"
+    },
+    {
+      "number": "60",
+      "heading": "Prescribed forms",
+      "text": "(1) Strict compliance with any form in the Second and Third Schedules, or with any form prescribed\nunder subsection (2), is not required, and any deviation therefrom which does not affect the\nsubstance of any such form or which is not calculated to mislead shall be sufficient.\n(2) The Attorney-General may, from time to time, by regulations made by statutory instrument,\nprescribe forms to be used for the purposes of this Act, and may, in like manner, amend, vary, cancel\nor alter any such prescribed form or any form in the Second and Third Schedules contained, or may\nprescribe additional forms for the purposes of the said Schedules."
+    },
+    {
+      "number": "61",
+      "heading": "Regulations",
+      "text": "The Attorney-General may, from time to time, by regulations made by statutory instrument, prescribe\nanything which he deems necessary for the better carrying out of this Act, and in like manner may\nprescribe such matters as may, by the provisions of this Act, be prescribed, and in respect of which no\nother prescribing authority is specified.\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 24\nExtradition Act, 1968 (Act 47 of 1968) Zambia"
+    },
+    {
+      "number": "62",
+      "heading": "Rules of court",
+      "text": "The Chief Justice may, by statutory instrument, make rules providing for the practice and procedure\nin relation to the performance by magistrates of functions under this Act, including the remanding of\npersons either in custody or on bail, the summoning of witnesses, the production of documents, the\ntaking of evidence on oath or affirmation, the administering of oaths or affirmations, the payment of\nexpenses of witnesses and the protection and immunity of magistrates, of legal practioners appearing\nbefore magistrates, and of witnesses."
+    },
+    {
+      "number": "63",
+      "heading": "Official seal",
+      "text": "The Attorney-General shall have an embossed official seal for the purpose of authentication of documents\nin respect of extradition to or from the Republic under Part II or III, respectively.\nPart IX \u2013 Interim provisions"
+    },
+    {
+      "number": "64",
+      "heading": "Power to implement Part II pending commencement",
+      "text": "(1) Pending the coming into operation of Part II, the Minister responsible for foreign affairs may,\non behalf of the Republic, at any time, negotiate and conclude international agreements or\nconventions with foreign countries for the purposes of the said Part II, as if that Part already had\nthe force of law.\n(2) Any international agreement or convention entered into with any foreign country, pursuant to\nsubsection (1), shall not be implemented by the Republic until such time as Part II is applied in\nrelation to that country by virtue of an order made pursuant to subsection (1) of section three."
+    },
+    {
+      "number": "65",
+      "heading": "Power to implement Part III pending commencement",
+      "text": "(1) Pending the coming into operation of Part III, the President may, at any time, make and publish\norders pursuant to subsection (1) of section sixteen applying Part III in relation to Commonwealth\ncountries, as if Part III already had the force of law.\n(2) Any order made by the President pursuant to subsection (1) shall be deemed to come into force\nsimultaneously with the coming into operation of Part III by virtue of an order made by the\nAttorney-General pursuant to subsection (2) of section one."
+    },
+    {
+      "number": "66",
+      "heading": "Provisions relating to sections 64 and 65",
+      "text": "Pending the coming into operation of Part X, nothing in section sixty-four or sixty-five shall be deemed\nto have the effect of repealing or disapplying, in whole or in part, the Acts intended to be repealed or\ndisapplied by section sixty-seven.\nPart X \u2013 Repeals"
+    },
+    {
+      "number": "67",
+      "heading": "Repeals and savings",
+      "text": "(1) The Extradition and Fugitive Offenders Act and the Fugitive Offenders (Interim Provision) Act are\nhereby repealed.\n(2) The Fugitive Offenders Act, 1881, of the United Kingdom, shall cease to apply to the Republic as\npart of the law thereof and subsection (3) of section fourteen of the Interpretation and General\nProvisions Act shall apply in relation to this subsection as if that Act had been repealed.\n[Cap. 163 of the old edition; Cap. 2]\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 25\nExtradition Act, 1968 (Act 47 of 1968) Zambia\n(3) The Extradition Act, 1870, the Extradition Act, 1873, and the Extradition Act, 1906, of the United\nKingdom, shall cease to apply to the Republic as part of the law thereof and subsection (3) of\nsection fourteen of the Interpretation and General Provisions Act shall apply in relation to this\nsubsection as if those Acts had been repealed.\n[Cap. 2]\n(4) Notwithstanding the repeal or disapplication of the laws set out in subsections (1), (2) and (3),\nwhen, before the date of commencement, any request has been made or proceedings have been\ncommenced for the surrender of a fugitive criminal or the return of a prisoner under any of the\nsaid laws to a country to which the relevant Part of this Act applies, the same may be continued\nunder corresponding provisions of this Act, and in such case any steps taken before the date of\ncommencement under any of the said laws shall be deemed to have been taken under and for the\npurposes of this Act.\n[Cap. 162]\nFirst Schedule (Sections 17 and 25)\nOffences-Part III"
+    },
+    {
+      "number": "1",
+      "heading": "Wilful murder; murder.",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "Manslaughter.",
+      "text": ""
+    },
+    {
+      "number": "3",
+      "heading": "An offence against the law relating to abortion.",
+      "text": ""
+    },
+    {
+      "number": "4",
+      "heading": "Maliciously or wilfully wounding or inflicting grievous bodily harm.",
+      "text": ""
+    },
+    {
+      "number": "5",
+      "heading": "Assault occasioning actual bodily harm.",
+      "text": ""
+    },
+    {
+      "number": "6",
+      "heading": "Rape.",
+      "text": ""
+    },
+    {
+      "number": "7",
+      "heading": "Unlawful sexual intercourse with a female.",
+      "text": ""
+    },
+    {
+      "number": "8",
+      "heading": "Indecent assault.",
+      "text": ""
+    },
+    {
+      "number": "9",
+      "heading": "Procuring, or trafficking in, women or young persons for immoral purposes.",
+      "text": ""
+    },
+    {
+      "number": "10",
+      "heading": "Bigamy.",
+      "text": ""
+    },
+    {
+      "number": "11",
+      "heading": "Kidnapping; abduction; false imprisonment; dealing in slaves.",
+      "text": ""
+    },
+    {
+      "number": "12",
+      "heading": "Stealing, abandoning, exposing or unlawfully detaining a child.",
+      "text": ""
+    },
+    {
+      "number": "13",
+      "heading": "Bribery.",
+      "text": ""
+    },
+    {
+      "number": "14",
+      "heading": "Perjury; subornation of perjury; conspiring to defeat the course of justice.",
+      "text": ""
+    },
+    {
+      "number": "15",
+      "heading": "Arson.",
+      "text": ""
+    },
+    {
+      "number": "16",
+      "heading": "An offence concerning counterfeit currency.",
+      "text": ""
+    },
+    {
+      "number": "17",
+      "heading": "An offence against the law relating to forgery.",
+      "text": ""
+    },
+    {
+      "number": "18",
+      "heading": "Stealing; embezzlement; fraudulent conversion; fraudulent false accounting; obtaining property or credit",
+      "text": "by false pretences; receiving stolen property; any other offence in respect of property involving fraud."
+    },
+    {
+      "number": "19",
+      "heading": "Burglary; housebreaking; any similar offence.",
+      "text": ""
+    },
+    {
+      "number": "20",
+      "heading": "Robbery.",
+      "text": ""
+    },
+    {
+      "number": "21",
+      "heading": "Blackmail or extortion by means of threats or by abuse of authority.",
+      "text": ""
+    },
+    {
+      "number": "22",
+      "heading": "An offence against the law relating to bankruptcy or insolvency.",
+      "text": "By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 26\nExtradition Act, 1968 (Act 47 of 1968) Zambia"
+    },
+    {
+      "number": "23",
+      "heading": "An offence against the law relating to companies.",
+      "text": ""
+    },
+    {
+      "number": "24",
+      "heading": "Maliciously or wilfully damaging property.",
+      "text": ""
+    },
+    {
+      "number": "25",
+      "heading": "An act done with the intention of endangering a vehicle, vessel or aircraft.",
+      "text": ""
+    },
+    {
+      "number": "26",
+      "heading": "An offence against the law relating to dangerous drugs or narcotics.",
+      "text": ""
+    },
+    {
+      "number": "27",
+      "heading": "Piracy.",
+      "text": ""
+    },
+    {
+      "number": "28",
+      "heading": "Revolt against the authority of a master of a ship or the commander of an aircraft.",
+      "text": ""
+    },
+    {
+      "number": "29",
+      "heading": "Contravention of a prohibition on the importation or exportation of precious stones, gold or other",
+      "text": "precious metals."
+    },
+    {
+      "number": "30",
+      "heading": "Aiding, abetting, counselling or procuring the commission of, being an accessory before or after the fact to",
+      "text": "or attempting or conspiring to commit an offence described in a preceding paragraph of this Schedule.\nSecond Schedule\nForms under Part III\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 27\nExtradition Act, 1968 (Act 47 of 1968) Zambia\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 28\nExtradition Act, 1968 (Act 47 of 1968) Zambia\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 29\nExtradition Act, 1968 (Act 47 of 1968) Zambia\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 30\nExtradition Act, 1968 (Act 47 of 1968) Zambia\nThird Schedule\nForms under Part V\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 31\nExtradition Act, 1968 (Act 47 of 1968) Zambia\nBy Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 32"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1968/47/eng@1996-12-31/source.pdf",
+  "source_hash": "sha256:49645696ce61bb663f6c333869064a28acca03a0dc31010e090be8e8bc73d5da",
+  "fetched_at": "2026-04-16T19:16:46Z",
+  "parser_version": "0.3.0",
+  "act_number": 47
+}
