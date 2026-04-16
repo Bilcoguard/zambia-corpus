@@ -1033,3 +1033,11 @@
 2026-04-16T18:30:00Z batch-0111 si-zm-2019-063-national-health-insurance-general-regulations-2019 source=zambialii parser=0.3.0 fetched=2026-04-16
 2026-04-16T18:30:00Z batch-0111 si-zm-2019-072-national-pension-scheme-informal-sector-membership-and-benefits-regulations-2019 source=zambialii parser=0.3.0 fetched=2026-04-16
 2026-04-16T18:30:00Z batch-0111 si-zm-2019-079-medicines-and-allied-substances-marketing-authorisation-of-medicines source=zambialii parser=0.3.0 fetched=2026-04-16
+2026-04-16T19:38:03Z batch-0113 act-zm-fees-and-fines-act-1994 source=zambialii html parser=0.4.0
+2026-04-16T19:38:03Z batch-0113 si-zm-fees-and-fines-fee-and-penalty-unit-value-regulations-2014 source=zambialii pdf parser=0.4.0
+2026-04-16T19:38:03Z batch-0113 act-zm-finance-control-and-management-act-1969 source=zambialii html parser=0.4.0
+2026-04-16T19:38:03Z batch-0113 act-zm-financial-institutions-validation-of-acts-act-1968 source=zambialii html parser=0.4.0
+2026-04-16T19:38:03Z batch-0113 act-zm-financial-intelligence-centre-act-2010 source=zambialii pdf parser=0.4.0
+2026-04-16T19:38:03Z batch-0113 si-zm-financial-intelligence-centre-prescribed-threshold-regulations-2022 source=zambialii pdf parser=0.4.0
+2026-04-16T19:38:03Z batch-0113 si-zm-financial-intelligence-centre-general-regulations-2022 source=zambialii pdf parser=0.4.0
+2026-04-16T19:38:03Z batch-0113 si-zm-financial-intelligence-centre-general-regulations-2016 source=zambialii pdf parser=0.4.0

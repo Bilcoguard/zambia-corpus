@@ -1,0 +1,70 @@
+{
+  "id": "act-zm-fees-and-fines-act-1994",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Fees and Fines Act, 1994",
+  "citation": "Fees and Fines Act, 1994",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": null,
+  "version_type": "consolidated",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "(1)",
+      "title": "(untitled)",
+      "part": null,
+      "part_title": null,
+      "body": "1. Short title and commencement\n(1)This Act may be cited as the Fees and Fines Act.\n(2)This Act shall be deemed to have commenced on the 29th January, 1994."
+    },
+    {
+      "number": "(1)",
+      "title": "(untitled)",
+      "part": null,
+      "part_title": null,
+      "body": "2. Interpretation\n(1)In this Act, unless the context otherwise requires—\"fee\" includes tax, levy, charge and any other impost, whether or not a service is provided in exchange for the payment thereof;\"fine\" means any pecuniary penalty that may be imposed by a court for an offence.\n(2)For the purposes of the application of this Act to other Acts—(a)a reference in any other Act to a number of ngwee shall be read as a reference to the appropriate fraction of a kwacha; and(b)a reference to another Act does not include a reference to any statutory instrument made under that Act."
+    },
+    {
+      "number": "(a)",
+      "title": "(untitled)",
+      "part": null,
+      "part_title": null,
+      "body": "4. Fees expressed in kwacha amounts are to be converted to fees expressed in fees units\nWhere a provision in any Act imposes afeeand thefeeis expressed as—\n(a)a specified number of kwacha; or\n(b)a rate whereby a specified number of kwacha is payable for a specified quantity of any thing, or a specified period of time;\nthe provision shall be read as if thefeewere expressed instead as—\n(i)the number offeeunits calculated in accordance with section five; or\n(ii)a rate whereby the number offeeunits calculated in accordance with section five is payable for the specified quantity, or specified period of time;\nas the case may require."
+    },
+    {
+      "number": "(1)",
+      "title": "(untitled)",
+      "part": null,
+      "part_title": null,
+      "body": "5. Method of conversion\n(1)The number offeeunits that corresponds, for the purposes of section four, to the amount in kwacha of afeeshall be calculated as follows:(a)the number of kwacha shall be multiplied by the appropriate multiplier;(b)the result shall be divided by one hundred;(c)the required number offeeunits shall be—(i)the quotient obtained under paragraph(b), if it is a whole number; or(ii)the next highest whole number, if that quotient is not a whole number.\n(2)In this section, \"appropriate multiplier\", in relation to the amount of afeeprescribed by an Act, means the number specified in the Schedule that corresponds to—(a)the year in which thefeewas last varied by amendment of the provision concerned; or(b)if it has never been so varied, the year in which that provision came into force."
+    },
+    {
+      "number": "(a)",
+      "title": "(untitled)",
+      "part": null,
+      "part_title": null,
+      "body": "7. Fines expressed in kwacha amounts are to be converted to fines expressed in penalty units\nWhere any Act provides that afinemay be imposed for an offence and the amount of thefine, or the maximum amount of thefine, that may be so imposed is expressed as—\n(a)a specified number of kwacha; or\n(b)a rate whereby a specified number of kwacha is payable in respect of a specified quantity of any thing, or in respect of a specified period of time;\nthe provision shall be read as if the amount, or maximum amount, of thefinewere expressed instead as—\n(i)the number of penalty units calculated in accordance with section eight; or\n(ii)a rate whereby the number of penalty units calculated in accordance with section eight is payable in respect of the specified quantity, or specified period of time;\nas the case may require."
+    },
+    {
+      "number": "(1)",
+      "title": "(untitled)",
+      "part": null,
+      "part_title": null,
+      "body": "8. Method of conversion\n(1)The number of penalty units that corresponds, for the purposes of section seven, to the amount in kwacha of afineshall be calculated as follows:(a)the number of kwacha shall be multiplied by the appropriate multiplier;(b)the result shall be divided by one hundred;(c)the required number of penalty units shall be—(i)the quotient obtained under paragraph(b), if it is a whole number; or(ii)the next highest whole number, if that quotient is not a whole number.\n(2)In this section, \"appropriate multiplier\", in relation to afineimposed by a provision of any Act, means the number specified in the Schedule that corresponds to—(a)the year in which thefinewas last varied by amendment; or(b)if it has never been so varied, the year in which that provision came into force."
+    },
+    {
+      "number": "(a)",
+      "title": "(untitled)",
+      "part": null,
+      "part_title": null,
+      "body": "9. Regulations\nThe Minister may, by statutory instrument, make regulations to provide for—\n(a)the value of afeeor penalty unit; and\n(b)the methods and formulae for the conversion of fees and penalty units.\n[section9inserted by section 2 ofAct 11 of 2013]"
+    }
+  ],
+  "cited_authorities": [],
+  "source_url": "https://zambialii.org/akn/zm/act/1994/13/eng@2013-12-19",
+  "source_hash": "sha256:5fa49585fc3250e2256a5492204ef0f6a28b6c51ebef5cac68819072ac8eb272",
+  "fetched_at": "2026-04-16T19:35:49Z",
+  "parser_version": "0.4.0"
+}

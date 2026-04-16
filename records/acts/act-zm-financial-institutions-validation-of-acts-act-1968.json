@@ -1,0 +1,35 @@
+{
+  "id": "act-zm-financial-institutions-validation-of-acts-act-1968",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Financial Institutions (Validation of Acts) Act, 1968",
+  "citation": "Financial Institutions (Validation of Acts) Act, 1968",
+  "date_of_assent": null,
+  "commencement_date": null,
+  "in_force": null,
+  "version_type": "consolidated",
+  "consolidated_as_of": null,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "(1)",
+      "title": "(untitled)",
+      "part": null,
+      "part_title": null,
+      "body": "2. Interpretation\n(1)In this Act, unless the context otherwise requires—\"declared day\" means a day specified, by reference to its date, inthe statutory instrument;\"financial institution\" means an institution which, being entitled to do so, closed its place of business to members of the public on eachdeclared day;\"the operative date\" means the date upon whichthe statutory instrumentwas published in theGazette;\"the statutory instrument\" means the statutory instrument made by the Minister responsible for finance under section twenty of Bank of Zambia Act.[Cap. 360]\n(2)Any reference in this Act to an act done shall be deemed to include a reference to an omission made."
+    },
+    {
+      "number": "(1)",
+      "title": "(untitled)",
+      "part": null,
+      "part_title": null,
+      "body": "4. No liability in respect of actions\n(1)Nofinancial institutionshall be subject to any liability, action, claim or demand whatsoever for or in respect of any act deemed to have been validly done under the provisions of section three.\n(2)The provisions of this section shall apply—(a)to any liability incurred or claim or demand made before or after the commencement of this Act;(b)to any action whether commenced before or after the commencement of this Act;(c)for the purpose of determining any appeal from a judgment entered before the commencement of this Act."
+    }
+  ],
+  "cited_authorities": [],
+  "source_url": "https://zambialii.org/akn/zm/act/1968/13/eng@1996-12-31",
+  "source_hash": "sha256:118bbcc017182c5879a0f459885bb45688ffe06b34f32688e12f541f6aecdeee",
+  "fetched_at": "2026-04-16T19:36:12Z",
+  "parser_version": "0.4.0"
+}
