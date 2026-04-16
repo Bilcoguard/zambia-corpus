@@ -1,0 +1,433 @@
+{
+  "id": "si-zm-2026-004-electricity-transmission-grid-code-regulations-2026",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Electricity (Transmission) (Grid Code) Regulations, 2026",
+  "citation": "Statutory Instrument No. 4 of 2026",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "These Regulations may be cited as the Electricity Title",
+      "text": "(Transmission) (Grid Code) Regulations, 2026."
+    },
+    {
+      "number": "2",
+      "heading": "In these Regulations, unless the context otherwise requires — Interpretation",
+      "text": "“Energy Regulation Board” means the Energy Regulation Cap. 436\nBoard established under the Energy Regulation Act;\n“interconnected power system” has the meaning assigned to\nthe words in the Act;\n“participant” means —\n(a) a power producer;\n(b) an end use customer;\n(c) a distribution network service provider;\n(d) intermediary power traders;\n(e) a transmission network service provider;\n(f) an embedded power producer;\n(g) the system operator; and\n(h) a regional operator; and\nCopies of this Statutory Instrument can be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka. Price K448.00 each.\n86 Statutory Instruments 9th January, 2026\n“transmission system” has the meaning assigned to the words\nin the Act.\nApplication 3. These Regulations apply to participants in the operation of\nthe interconnected power system and use of the transmission system\nas set out in the Schedule.\nGuiding 4. The following principles shall apply in achieving the purpose\nprinciples of these Regulations:\n(a) non discrimination;\n(b) equal treatment; and\n(c) transparency.\nAdministration 5. These Regulations shall be administered by the Energy\nRegulation Board.\nRevocation 6. The Electricity (Grid Code) Regulations, 2013, are revoked.\nof Statutory\nInstrument\nNo. 79 of\n2013\n9th January, 2026 Statutory Instruments 87\nSCHEDULE\n(Regulation 3)\nTHE TRANSMISSION GRID CODE\nABBREVIATIONS\nThe following abbreviations stand for the words used in this Code:\nAC Alternating Current\nACE Area Control Error\nAGC Automatic Generation Control\nARC Auto Re-close\nAVR Automatic Voltage Regulator\nBIL Basic Insulation Level\nCT Current Transformer\nDC Direct Current\nDEF Directional Earth Fault\nDNSP Distribution Network Service Provider\nDS Distribution System\nE/F Earth Fault\nEHV Extra High Voltage\nERB Energy Regulation Board\nERLF External Reliability Loss Factor\nESI Electricity Supply Industry\nF/L Fault Level\nFACTS Flexible AC Transmission Systems\nGCR Grid Code Requirement\nGPS Global Positioning System\nHV High Voltage\nHVDC High Voltage Direct Current\nHz Hertz\nIDMT Inverse Definite Minimum Time\nIEC International Electro-Technical Commission\nIPS InterConnected Power System\nkVA Kilo-Volt-Ampere\nkVAr Kilo-Volt-Ampere reactive\nkW Kilo-Watt\nLV Low Voltage\nMCB Miniature Circuit Breaker\n88 Statutory Instruments 9th January, 2026\nMCR Maximum Continous Rating\nms Millisecond\nMV Medium Voltage\nMVA Mega-Volt-Ampere\nMVAr Mega-Volt-Ampere reactive\nMW Mega-Watt\nNCR Non-Compliance Report\nNERC North American Electricity Reliability Council\nNPV Net Present Value\nO/C Over-Current\nOEM Original Equipment Manufacturer\nOST Out-of-Step Tripping\nPPA Power Purchase Agreement\nPSA Power Supply Agreement\nPV Photovoltaic\nQOS Quality of Supply\nREA Rural Electrification Authority\nRMS Root Mean Square\nRO Regional Operator\nRTU Remote Terminal Unit\nSAPP Southern African Power Pool\nSCADA Supervisory Control and Data Acquisition\nSCS Substation Control System\nSO System Operator\nSVC Static Var Compensator\nTCSC Thyristor Controlled Series Capacitor\nTNSP Transmission Network Service Provider\nTX Transformer\nUPC Unified Power flow Controller\nVAr Voltage Ampere Reactive\nVT Voltage Transformer\nZS Zambian Standard\n9th January, 2026 Statutory Instruments 89\nDEFINITIONS\nIn this Code, unless the context otherwise requires —\n“active power” means the product of voltage and the in-phase component of alternating\nelectric current (normally measured in Kw or MW);\n“agent” means an undertaking which acts in place of a user for the purpose of scheduling\nand dispatch;\n“ancillary services” means services supplied to the transmission system by power producers,\nDNSPs or end-use customers, which are necessary for the reliable and secure transport\nof power from power producers to DNSPs and customers, in order to maintain the\nshort-term reliability of the IPS, and includes —\n(a) response;\n(b) operating reserves;\n(c) black start;\n(d) reactive power supply; and\n(e) regulation and load following;\n“apparent power” means the vector sum of active power and reactive power expressed in\nVA, kVA or MVA;\n“area control error” means the mismatch between the instantaneous demand and supply of\na control area, which combines the frequency error and the tie line schedule error;\n“asynchronous” means a generating unit or electric drive that is not linked to the system\nfrequency by a synchronising torque, and there is no natural contribution to the inertia\nof the IPS, although control mechanisms may be employed to synthesise a contribution\nwhich assists in stabilising the IPS after a disturbance, and “asynchronously” shall be\nconstrued accordingly;\n“automatic generation control” means the regulation of the power output of electric generators\nwithin a specified area in response to change in system frequency, tie-line loading, or\nthe relation of these to each other, so as to maintain the scheduled system frequency or\nthe established interchange with other areas within predetermined limits or both;\n“availability” means —\n(a) for any period, the capab"
+    },
+    {
+      "number": "1",
+      "heading": "Connection Voltage",
+      "text": "The TNSP shall state the voltage at which a user may be connected following discussions and\nconsidering the following factors:\n(a) the user’s capacity or projected requirement and nature of the load to be connected;\n(b) the present loading of the network;\n(c) quality and security of supply considerations; and\n(d) the plans for IPS development;"
+    },
+    {
+      "number": "2",
+      "heading": "Design Data-Specific Data to enable a User to Design the User’s System and",
+      "text": "Equipment\nFollowing an application for supply, or on request of a user, or following a material change in the\ntransmission system, the TNSP will provide some or all of the following information to enable\nusers to assess their systems:\n(a)design information;\n(b)drawings; and\n106 Statutory Instruments 9th January, 2026\n(c)other relevant information of the present or proposed distribution installation."
+    },
+    {
+      "number": "3",
+      "heading": "Fault Level at the Point of Connection",
+      "text": "(a) the source impedance under maximum capacity conditions for each point of connection;\nand\n(b) the source impedance under minimum capacity conditions for each point of connection."
+    },
+    {
+      "number": "4",
+      "heading": "Switchgear Safety Information",
+      "text": "Details of safety securing and interlocking."
+    },
+    {
+      "number": "5",
+      "heading": "Re-closure",
+      "text": "updated information on circuit re-closing, protection principles and settings needed to\nensure co-ordination of protection between the transmission system and the user system(s)."
+    },
+    {
+      "number": "6",
+      "heading": "Demand Transfer Information",
+      "text": "where the same demand can be supplied from alternate user points of supply, the TNSP\nshall provide sufficient information to enable the user to complete the appropriate clause\nunder user demand in Appendix 2."
+    },
+    {
+      "number": "7",
+      "heading": "System Reliability",
+      "text": "the expected reliability of the transmission system and connection."
+    },
+    {
+      "number": "8",
+      "heading": "Earthing Information",
+      "text": "the method of earthing of the transmission system, for example, whether it is connected\nsolidly to earth or through impedance.\nA.10.3 User Information to be supplied"
+    },
+    {
+      "number": "1",
+      "heading": "User Network effects",
+      "text": "Users whose installation contains network elements are to supply a network model in\napproved form and additionally supply the network (and transformer) with the appropriate\ninformation detailed in Appendix 2."
+    },
+    {
+      "number": "2",
+      "heading": "Capacitive and Inductive Effects",
+      "text": "The user shall, when applying to make a connection, provide the TNSP with appropriate\ninformation as detailed in Appendix 2. Details are required of any capacitor banks and\nreactors connected at medium voltage and above, within the user’s facility, which could\naffect the transmission system and which it is proposed to connect, if agreed with the\nTNSP. When requested by the TNSP, details shall be provided of distributed circuit\ncapacitance and inductance. Sufficient detail is required for the following:\n(a) to verify that controlling equipment of the transmission system is suitably rated; and\n(b) to show that the performance of the transmission system will not be impaired."
+    },
+    {
+      "number": "3",
+      "heading": "Data Tables",
+      "text": "(a) connection information set out in tables A to J of Appendix 2 is required, as determined\nby the TNSP.\n(b) information set out in tables A to J of Appendix 2 are relevant to users of each type.\n(c) information set out in tables A of Appendix 2 is a summary of the data requested or\nsupplied and may be required from any user.\n(d) the TNSP required data from tables B to F of Appendix 2 are to be completed by\nusers with demand and include data for users with controllable demand and demand\ntransfer capability.\n9th January, 2026 Statutory Instruments 107\n(e) the TNSP required data from tables F to I of Appendix 2 are to be completed by\npower producers.\n(f) the TNSP required data from tables H to I of Appendix 2 are to be supplied by users\nwith relevant facilities. Table H refers to power producers with synchronous\ngenerating units and schedule I to power producers with asynchronous generating\nunits.\n(g) the TNSP required data from table J of Appendix 2 are to be supplied by users with\nenergy storage units.\n(h) the Information Exchange Chapter explains how users, are to report their data for the\npurposes of connection and annually thereafter. In addition, the TNSP may request\nthe user to submit additional design information, drawings or other relevant\ninformation, if the TNSP believes any proposed installation or modification has the\npotential to adversely or materially affect the performance of the transmission\nsystem."
+    },
+    {
+      "number": "4",
+      "heading": "Data Categories",
+      "text": "(a) for the convenience of both users and TNSPs, data is divided into the following two\ncategories:\n(i) standard data which is required to carry out initial assessment by load flow and\nfault level studies; and\n(ii) detailed data which is required to carry out later more detailed studies e.g.\nstability assessment.\n(b) in most cases standard data elements are all that is required at the time of application,\nalthough for certain situations the TNSP might also require detailed data;\n(c) applicants seeking connection shall ensure that the data provided is of good quality.\nPoor quality data can invalidate a proposal. Initial data (preliminary planning data)\nis often generic in nature. At the time when a project becomes agreed, the preliminary\ndata is to be confirmed or replaced with committed project planning data, usually\ndata provided by equipment manufacturers, and when constructed the committed\nproject planning data is to be confirmed or preferably replaced with connected\nproject planning data. There should be reasonable agreement between the data at all\nstages;\n(d) the rules for data confidentiality are set out in the Information Exchange Chapter;\nA.10.4 Submittals Prior to the Commissioning\n(a) the following shall be submitted to the SO by the user prior to the commissioning\ndate, pursuant to the terms and conditions and schedules specified in the connection\nagreement:\n(i) the proposed name of the Participant site (which shall not be the same as, or\nconfusingly similar to, the name of any of the TNSP’s sites or of any other\nParticipant site);\n(ii) specifications of major customer assets not included in the standard data and\ndetailed data and updated data with any estimated values assumed for planning\npurposes confirmed or, where practical, replaced by validated actual values\nand updated forecasts for items such as demand;\n(iii) a protection philosophy statement including the settings of protection;\n(iv) information to enable the TNSP to prepare the fixed asset boundary and the\nSO to prepare an operational Boundary, if different;\n108 Statutory Instruments 9th January, 2026\n(v) electrical diagrams of the customer assets at the point of connection;\n(vi) information that will enable the TNSP to prepare the point of connection\ndrawings;\n(vii) a list of—\n(aa) officers who have been duly authorised to sign the site responsibility\nschedule on behalf of the user;\n(bb) the names and telephone numbers of authorised representatives,\nincluding the confirmation that they are fully authorised to make binding\ndecisions on behalf of the user; and\n(cc) safety co-ordinators.;\n(viii) a statement that the user’s installation complies with the requirements of\nCode;\n(ix) copies of all safety rules and local safety instructions applicable at the users’\nsites which shall be used at the TNSP or user interface; and\n(x) confirmation —\n(aa) of communication or SCADA interface arrangements for instruction;\n(bb) of instruction and information including the list of signals; and\n(cc) that the signals are formatted as required by the SO;\n(xi) proof of ownership of premises or lease agreement; and\n(xii) in the case of power producers, an estimate of the number of weeks of planned\nmaintenance outage per annum for each generating unit proposed to be installed\nat the power production facility.\n1.2.2 Commissioning of Equipment and Physical Connection to the Transmission System\n(a) on completion of the user development and work at the point of connection, the\ncustomer assets at the point of connection and the user development shall be subjected\nto the test and commissioning procedure provided under this Code and further\nexplained in each TNSP’s testing and compliance manual;\n(b) the SO shall require certification and evidence to conclusively prove that the equipment\ninstalled, or to be installed, has been designed, tested and installed in a satisfactory\nmanner and in conformance with the relevant standards and this Code.\n(c) the SO shall issue a certificate of electrical safety to the user for every installation\nestablished.\n(d) the user shall, within 15 days of acceptance of the user’s written notice of readiness\nto connect, issue a certificate of approval to connect.\n(e) the TNSP shall, before the user is physically connected, ensure that the TNSP is\nsatisfied that the installation is safe to be connected. The safety requirements shall\nbe approved and monitored by the Energy Regulation Board.\n(f) the physical connection to the transmission system shall be made only after the SO\nhas issued the certificate of approval to connect the user.\n(g) a power producer shall ensure that an approved change or modification to a generating\nunit or to a subsystem of a generating unit is implemented in accordance with the\nrelevant proposal approved by the SO;\n9th January, 2026 Statutory Instruments 109\n(h) a power producer shall notify the SO promptly after an approved change or modification\nto a generating unit has been implemented and confirm that it conforms"
+    },
+    {
+      "number": "1",
+      "heading": "Frequency",
+      "text": "(a) the nominal frequency of the transmission system is 50Hz and is normally controlled\nwithin the limits of ±0.15Hz unless exceptional circumstances prevail. The system\nfrequency could rise or fall in exceptional circumstances.\n(b) in the case of non-interconnected networks (Island networks) the frequency can rise\nto 52.5Hz or fall to 47.5Hz."
+    },
+    {
+      "number": "1",
+      "heading": "Voltage",
+      "text": "The lower threshold of the transmission voltage is stated in the Electricity Act 2019\nand the voltage ranges are set down in ZS 387."
+    },
+    {
+      "number": "2",
+      "heading": "System Earthing",
+      "text": "The Transmission System is in general effectively Earthed (IEC 60044-8). Earthing\ndetails will be provided in the connection agreement."
+    },
+    {
+      "number": "3",
+      "heading": "Power Quality",
+      "text": "(a) the System is planned to comply with ZS387 and the Energy Regulation Board\nPower Quality Directive regarding the parameters listed below —\n(i) voltage harmonics and interharmonics;\n(ii) voltage flicker;\n(iii) voltage unbalance ;\n(iv) voltage dips;\n(v) interruptions;\n(vi) voltage regulation;\n(vii) frequency; and\n(viii) voltage surges and switching disturbances.\n(b) it is not possible to always operate the system within the standards because certain\ncontingencies have not been planned for. It is the responsibility of Participants to\nprotect their plant and equipment from these abnormal situations.\n1.2.7 Technical Requirements -All users\nA.1 Ownership boundaries\n(a) The user shall be responsible for the provision of the site required for the installation\nof the TNSP equipment required for connecting the user’s facility unless otherwise\nstated in the connection agreement.\n(b) The user shall be responsible for the circuit breaker to connect and disconnect the\nuser’s installation and there shall also be visible isolation at the point of connection\nto provide the means of electrically isolating the transmission system from the\nuser’s facility. The location of the circuit breaker and visible isolation shall be decided\nupon jointly by the TNSP and the user and shall be agreed in the connection agreement\nbetween the TNSP and the user\n(c) The ownership boundary shall be subject to specific agreement between the parties in\neach case which shall be guided by the rules set out in the definition of the demarcation\npoint. Changes in the ownership boundary arrangements proposed by either\nParticipant shall be agreed in advance and shall be recorded in the connection agreement.\n(d) All equipment at the ownership boundary shall meet the design principles contained\nin paragragh 1.2.7.\n112 Statutory Instruments 9th January, 2026\n(e) Connections to the transmission system shall incorporate a means of disconnection\nof the user’s installation by the TNSP.\nA.2 User Import and Export Limits\nAll users shall ensure that their facility is so managed that neither import nor export quantities\nexceed the amounts agreed in their connection agreement except with the express permission\nof the SO.\nA.3 Tolerance\nAll users shall ensure that their plant and equipment is so designed, installed and protected to\nwithstand the system conditions in ZS 387 without damage.\nA.4 User Equipment Standards, Records and Maintenance\n(a) The user shall be responsible for the design, construction, maintenance and operation\nof the equipment on the user’s side of the point of connection.\n(b) All equipment on the user’s installation shall be suitable for use at the nominal\noperating frequency of 50 Hz and at the voltage and short-circuit rating stipulated in\nthe proposal and confirmed in the connection agreement and shall normally be\ncontrolled within the approved limits.\n(c) All equipment in a user installation connected to the system shall be designed,\nmanufactured, tested, and installed in accordance with all applicable statutory\nobligations and shall conform to the relevant Zambian standards (or equivalent IEC\nstandards) applicable at the time of agreement to connect the installation to the\ntransmission system.\n(d) If there is are no relevant Zambian standard or equivalent IEC standard available, and\nor if the TNSP considers it necessary, the TNSP may notify the users that\nsupplemental specifications and standards shall be complied with, in which case the\nuser’s plant and apparatus shall comply.\n(e) Where a user needs to install equipment that connects directly with TNSP equipment\nin transmission substations, such equipment shall adhere to the TNSP design\nrequirements as set out in Transmision System Chapter.\n(f) The TNSP may require users to provide documentary proof that their connection\nequipment complies with all relevant design requirements, both by design and by\ntesting.\n(g) Users shall ensure that all equipment at the point of connection and on the TNSPs’\nsites is maintained at least in accordance with the manufacturers’ specifications or an\nalternate industry recognised methodology and shall monitor the performance of\ntheir plant and take appropriate action where deteriorating trends are detected.\nUsers shall ensure that their equipment does not pose a threat to the safety of the\nTNSP’s plant or personnel.\n(h) Maintenance scheduling shall be done in accordance with the System Operation\nChapter.\n(i) Users shall retain test results and maintenance records relating to the equipment at the\npoint of connection and make this information available if requested. The SO or\nTNSP shall have the right to inspect the test results and maintenance records relating\nto such plant at any time.\n9th January, 2026 Statutory Instruments 113\nA.5 Equipment Ratings\n(a) Users’ equipment rating shall be adequate for the duties of carrying load current,\nmaking and breaking fault currents of 3-phase faults and single phase-to-earth faults\nand shall have regard to the X/R ratio "
+    },
+    {
+      "number": "4",
+      "heading": "(c) where a Participant determines that afault thathad occurred on another Participant’s",
+      "text": "system requires further investigation, the Participant shall issue an incident report.\nA.4 System Operator investigation\n(a) the SO shall investigate all incidents that materially affect or could materially affect the\nquality of supply onthe IPS. Such an investigation shall commence immediately\nafter receipt of a preliminary reportand all affected Participants shall provide required\ninformation and participate in the investigation.\n(b) participants shall, within mutually agreed time frames, implement recommended actions.\nA.5 Significant Incidents\nSignificant incidents shall include eventswhich result in, or may result in, the following:\n(a) voltage outside statutory limits;\n(b) system frequency outside statutory limits; or\n(c) system stability failure.\nA.5.1 Reports\n(a) the following are the matters to be included in a written report of a significant incident:\n(i) date and time of significant incident;\n(ii) duration of incident;\n(iii) location;\n(iv) equipment involved;\n9th January, 2026 Statutory Instruments 173\n(v) description of significant incident;\n(vi) effect on users and where appropriate details of any demand control undertaken;\n(vii) conclusions and recommendations, if applicable; and\n(viii) in the case of incidents resulting in damage, estimated date and time of return\nto normal service.\n3.2.9 Testing and Commissioning\nA.1 System Tests\nSystem tests are those which involve simulated or the controlled application of irregular,\nunusual or extreme conditions on the IPS or any part of the IPS, but do not\nincludecommissioning or re-commissioning tests orany other tests of a minor nature.\nA.1.1 Procedures for System Tests\nIf a system test is proposed by the SO or the user connected to the IPS then the provisions\nof this section shall apply and all transmission system test procedures shall comply with all\napplicable legislation.\nA.1.2 Tests defined as System Tests\nSystem tests which have a minimal effect on the IPS or the systemsof others will not be\nsubject to this procedure. Minimal effect shall be taken to mean variations in voltage frequency\nand waveform distortion of a value not greater than those figures which are defined in the\nZS387 and further stated in the Transmission System Chapter.\nA.1.3 Arrangements for a systemTest\n(a) when the SO or a user intends to undertake a systemtest which may have significant\neffect on the system of other users, normally twelve months’ notice, or as\notherwise agreed by the SO, shall be given by the person proposing the\nsystemtest (test proposer) to the SO and to those users who may be affected by\nsuch a systemtest.\n(b) the proposal shall be in writing and shall contain details of the nature and purpose\nof the proposed systemtest and shall indicate the extent and situation of the\nplant or apparatus involved. The SO shall not be required to do anything until it is\nsatisfied with the details supplied in the proposal.\nA.1.4 Duties of SO\n(a) theSO shall have responsibility for overall co-ordination of the systemtest, and shall\nidentify in its reasonable estimation, which users other than the test proposer,\nmay be affected by the proposed systemtest.\n(b) following receipt of the systemtest proposal, the SO shall evaluate the impact of\nthe system test and discuss the proposals with users identified as being affected.\n(c) within one month of receiving the systemtest proposal the SO shall submit a report to\nthe test proposer which shall contain proposals for carrying out the system test\n(including the manner in which it is to be monitored).\n(d) an allocation of costs between the affected parties, (the general principle being that\nthe test proposer will bear the costs).\n174 Statutory Instruments 9th January, 2026\n(e) such other matters that the SO considers appropriate. An outline of the procedure to\nbe followed and the proposed test schedule and advice regarding any costs.\n(f) if theproposal report is approved by all recipients, the systemtest can proceed.\nA.1.5 System Test Programme\n(a) at least one month prior to the date of the proposed systemtest, the SO shall submit\nthe following to all recipients of the proposal notice:\n(i) a programme called a final test programme stating the switching sequence\nand proposed timings;\n(ii) a list of those staff involved in carrying out the system test (including those\nresponsible for site safety); and\n(iii) such other matters as the SO deems appropriate.\n(b) the final test programme shall bind all recipients to act in accordance with the\nprovisions contained within the programme in relation to the proposed systemtest.\nA.1.6 System Test Final report\n(a) at the conclusion of the systemtest, the test proposer shall be responsible for preparing\na written report (the “final report”) of the systemtest for submission to the SO.\n(b) the final report shall include a description of the plant and apparatus tested and of the\nsystemtest carried out, together with the results, conclusions and\nrecommendations.\n(c) results of tests shall be reported to "
+    },
+    {
+      "number": "1",
+      "heading": "Establish the System Protection function and associated trip level",
+      "text": "requirements as agreed with the TNSP in the Protection Philosophy\nStatement and further confirmed in the Connection Agreement or\nlatest amendment to the Connection Agreement"
+    },
+    {
+      "number": "2",
+      "heading": "List that all equipment is present and connected.",
+      "text": ""
+    },
+    {
+      "number": "3",
+      "heading": "Confirm that all primary protection is functioning as intended, e.g. by",
+      "text": "primary current injection testing and secondary injection tests and\nrecord performance of unit, and non-unit protection schemes for main\nand back-up protection functions."
+    },
+    {
+      "number": "4",
+      "heading": "Ensure that any directional protection is functioning and that voltage",
+      "text": "signals are present and correctly configured."
+    },
+    {
+      "number": "5",
+      "heading": "Ensure that protection of inductive or capacitive devices at the",
+      "text": "interface position is performing as intended."
+    },
+    {
+      "number": "6",
+      "heading": "Ensure that any overall facility, or Plant, Loss of Mains protection is",
+      "text": "operating as intended."
+    },
+    {
+      "number": "7",
+      "heading": "Test that circuit breakers trip (and reclose where appropriate) on",
+      "text": "receipt of appropriate signals and manually from operational trip\nlocations."
+    },
+    {
+      "number": "8",
+      "heading": "Ensure that any indication fitted to circuit breaker bays to measure",
+      "text": "voltage, current and the number of circuit breaker operations or\nresettable number of operations is functioning as intended."
+    },
+    {
+      "number": "9",
+      "heading": "On completion of testing, confirm record and initial or sign that the",
+      "text": "agreed settings have been applied or re-applied and that all links\nremoved for testing have been restored.\n206 Statutory Instruments 9th January, 2026\nREVIEW PROCESS:"
+    },
+    {
+      "number": "1",
+      "heading": "Review Items 1-9 above. The review of item 2 is to ensure that no",
+      "text": "intermediate action has taken place to remove and repair a protective\ndevice, whereby the device has not been restored or properly\nrestored.\nACCEPTANCE CRITERIA\nAll Protection functions are set to meet the necessary Protection\nrequirements as set down in the latest schedule to the Connection\nAgreement.\nAll secondary protective devices and current and voltage measuring\nProtection Devices are functioning as intended and are within specified\ntolerances.\nAll circuit breakers are operating as intended.\nThe test engineer has confirmed that all protection has been properly\nreturned to service.\nREPORTING\nSubmit a report to the TNSP and System Operator as part of\ncommissioning programme for a prototype study or within 1 month of\ncompletion for 5-yearly for routine tests.\nSubmittals to the TNSP and System Operator are for acceptance and\nupdated record and should contain one original master copy and one\nworking copy.\nACCEPTANCE\nTNSP\nA7.7.2 - Power quality -All Directly Connected Users (including DNSPs)\nParameter Reference Description"
+    },
+    {
+      "number": "1",
+      "heading": "Power Quality Section APPLICABILITY AND FREQUENCY OF TESTING",
+      "text": "monitoring 2.1.11.15\nNew Directly Connected Users with disturbing equipment (including\nPower producers with Asynchronous Generating Units) and existing Users\nof the TS when so notified by the TNSP.\nROUTINE TESTING / REVIEW PERIOD:\nConfirm compliance every 6 years.\nPURPOSE\nTo confirm that the limits for all power quality parameters specified in ZS\n387 are met at the Point of Connection or other location as agreed with the\nTNSP and specified in the Connection Agreement.\nPROCEDURE\nThe following tests shall be calculated within a minimum active power\nlevel range from 0.2pu to 1.0pu\nUsing a suitable power quality recorder, as defined in ZS387, power quality\nshall be measured at the Connection site to cover rapid voltage changes,\nflicker, voltage phase unbalance, voltage fluctuation and harmonic content.\nPrior to energisation suitable modelling and calculations shall be\nundertaken to demonstrate that the installation will not have a significant\nimpact on the power quality of the System both at the point of compliance\nand at other points in the System as determined by the TNSP.\nACCEPTANCE CRITERIA\nThe measurements shall demonstrate that the levels for power quality (rapid\nvoltage changes, flicker, voltage phase unbalance, voltage fluctuation and\nharmonic content) are within the limits specified in ZS387 over the full\noperational range.\n9th January, 2026 Statutory Instruments 207\nDue account will be taken of any conditions on the System which may\naffect the results of the test. The relevant User must, if requested,\ndemonstrate, to TNSP's reasonable satisfaction, the reliability of the\nsuitable recorders, disclosing calibration records to the extent appropriate.\nReporting\nSubmit a report to the System Operator one month after the test.\nACCEPTANCE TNSP\nA7.7.3 Generating Protection system\nA7.7.3 Generating Protection system\nFor All Generating Units ≥ 2MW\nParameter Reference\nGenerating Section 2.1.11 APPLICABILITY AND FREQUENCY OF TESTING\nUnit Protection\nPrototype study:\nConfirming\nfunctionality For all new Power Production Facilities or any Power Production Facility\nand integrity following major refurbishment or upgrade of Plant, switchgear or Protection\nand confirming systems.\nfinal settings\nROUTINE REVIEW PERIOD:\nAll Power Producers to confirm compliance every five years.\nPURPOSE\nTo ensure that the relevant Protection functions in the Power Production\nFacility are co-ordinated and aligned with the System requirements and\nfunction as instructed in the Protection philosophy Statement (as amended by\nSchedules to the Connection Agreement).\nPROCEDURE\nPrototype:"
+    },
+    {
+      "number": "1",
+      "heading": "Agree the System Protection functions and associated trip level",
+      "text": "requirements as set down in the Protection Philosophy Statement as\nrequired in Section 2.1.5.8.4. (c) and as required in GCR1 in Section\n2.1.13.1"
+    },
+    {
+      "number": "2",
+      "heading": "Carry out tests to prove the integrity and functionality of each protection",
+      "text": "element as detailed in 2.1.13.5 {a-i).as follows:\n(a) Apply final Protection functions and settings to all protection\nfunctions as agreed in the Protection Philosophy statement and\nupdated in the latest issue of any schedule to the Connection\nAgreement\n(b) With the Generating Unit off load and de-energised, inject\nappropriate signals into every Protection function and confirm\ncorrect operation and correct calibration. Document all Protection\nfunction operations.\n(c) Carry out trip testing of all Protection functions, from origin (e.g.\nBuchholz relay) to all tripping output devices (e.g. HV or EHV\nbreaker). Document all trip test responses.\n(d) Apply short-circuits at all relevant Protection zones and\n with a Synchronous Generating Unit operating at\nnominal speed, excite the generator slowly, recording\ncurrents at all relevant Protection functions and confirm\ncorrect operation of all relevant Protection functions;\nWith the Generating Unit at nominal speed, excite the\nGenerating Unit slowly, recording voltages on all\nrelevant Protection functions. Confirm correct operation\nand correct calibration of all Protection functions.\nDocument all readings and responses; or\n with an Asynchronous Generating Unit Connected and\noperating above 20% of Registered Capacity Output\nmeasure currents in all protective devices and compare\nwith expected currents from the capability curve;\nconfirm the operation of over-voltage, under-voltage\nand over frequency, Under frequency and Rate of\nChange of Frequency protection.\n208 Statutory Instruments 9th January, 2026\nDocument all readings and responses. Remove all short-circuits fitted."
+    },
+    {
+      "number": "3",
+      "heading": "Record protection performance results in agreed format.",
+      "text": ""
+    },
+    {
+      "number": "4",
+      "heading": "Confirm that the protection trips the required interrupting device or",
+      "text": "otherwise blocks the flow of electric current (e.g. in a power\nelectronic controlled device).\nREVIEW PROCESS:"
+    },
+    {
+      "number": "1",
+      "heading": "Review Items 2 to 5 above.",
+      "text": "ACCEPTANCE CRITERIA\nAll Protection functions are fully operational and operate to required levels\nwithin the relay Original Equipment Manufacturer (OEM) allowable\ntolerances, or in the case of Asynchronous Generating Units, functions are\noperating within OEM Generating Unit design tolerances.\n[Measuring instrumentation used shall be sufficiently accurate and calibrated\nto a traceable standard.]\nREPORTING\nSubmit a report to the TNSP and System Operator during the commissioning\nprocess or within 1 month of 5-yearly for routine tests.\nACCEPTANCE SO\nA7.7.4 Excitation system for Directly Connected Synchronous Generating Units\nParameter Reference\nExcitation Section APPLICABILITY\nand setting 2.1.12 GCR2\nPrototype study: All new Directly Connected Synchronous Power Production\nintegrity 2.1.13.1 GCR2\nFacilities or Power Production Facilities at which major refurbishment or\nstudy 2.1.13.3 and\nupgrades of excitation systems have taken place.\n2.1.13.4\nWhere localised changes or modifications are done, only affected part or parts\nshall be covered.\nROUTINE REVIEW PERIOD:\nAll Power Production Facilities to confirm compliance every six years.\nPURPOSE\nTo ensure that the excitation systems in the Power Production Facilities is co-\nordinated and aligned with the System requirements.\nPROCEDURE\nPrototype:"
+    },
+    {
+      "number": "1",
+      "heading": "Establish the excitation system performance requirements from the",
+      "text": "TNSP and System Operator."
+    },
+    {
+      "number": "2",
+      "heading": "Derive a suitable model for the excitation system according to IEEE",
+      "text": "421.5 or IEC 60034.16.2. Where necessary, non-standard models (non-\nIEC or IEEE) shall be created. This may require Frequency response and\nbode plot tests on the excitation system as described in IEEE 421.2.1990."
+    },
+    {
+      "number": "3",
+      "heading": "Submit the model to the TNSP and System Operator for their acceptance.",
+      "text": ""
+    },
+    {
+      "number": "4",
+      "heading": "Derive excitation system settings that match the Power Production",
+      "text": "Facility Plant, Transmission Plant and System requirements. This\nincludes the settings of all parts of the excitation system such as the chop-\nover limits and levels, limiters, Protection devices and alarms."
+    },
+    {
+      "number": "5",
+      "heading": "Confirm the stability of the excitation system for relevant excitation",
+      "text": "system operating conditions."
+    },
+    {
+      "number": "6",
+      "heading": "Document the details of the trip levels, stability calculations for each",
+      "text": "setting and function."
+    },
+    {
+      "number": "7",
+      "heading": "Convert the settings for each function into a per unit base and produce a",
+      "text": "high-level dynamic performance model with actual settings in p.u.\nvalues.\n9th January, 2026 Statutory Instruments 209"
+    },
+    {
+      "number": "8",
+      "heading": "Derive actual card setting details and document the relay setting sheet for",
+      "text": "all setting functions."
+    },
+    {
+      "number": "9",
+      "heading": "Produce a single line diagram/block diagram of all the functions in the",
+      "text": "excitation system and indicate the signal source."
+    },
+    {
+      "number": "10",
+      "heading": "Document the tripping functions for each tripping on one tripping logic",
+      "text": "diagram."
+    },
+    {
+      "number": "11",
+      "heading": "Consolidate the detailed setting calculations, model, per unit setting",
+      "text": "sheets, relay setting sheets, Plant base information on which the settings\nare based, tripping logic diagram, Protection function single line diagram\nand relevant Protection relay manufacturers’ information into one\ndocument."
+    },
+    {
+      "number": "12",
+      "heading": "Submit to the TNSP and System Operator for their acceptance and update",
+      "text": "by providing them with one original master copy and one working copy\nupdate as applicable.\nREVIEW:\nReview items 1 to 10 above.\nSubmit to the TNSP and System Operator for their acceptance and update.\nProvide the TNSP and System Operator with one original master copy and\none working copy update if applicable.\nACCEPTANCE CRITERIA\nThe excitation system is set to meet the necessary control requirements in an\noptimised manner for the performance of the Transmission and Power\nproduction Facility Plant. The excitation system operates stable both\ninternally and on the network.\nREPORTING\nSubmit a report to the System Operator prior to commissioning for a prototype\nstudy or six yearly for routine tests, within one month after expiry of the due\ndate.\nACCEPTANCE SO\nParameter Reference\nExcitation Section 2.1.13.3 and APPLICABILITY\nresponse 2.1.13.4\nPrototype test:\ntests\nAll new Synchronous Power Production Facilities coming on line and all other\nPower Production Facilities after major modifications or refurbishment of\nProtection or related Plant. Also, after localised modifications or works have\nbeen carried out to the plant that will affect this performance.\nRoutine test:\nAll Power Producers to perform tests on each Generating Unit 6-yearly or\nafter a major overhaul of Plant.\nPURPOSE\nTo confirm that the excitation system performs as per the specifications.\nPROCEDURE\n• With the Generating Unit off line, carry out Frequency scan/bode plot\ntests on all circuits in the excitation system critical to the performance of\nthe excitation system.\n• With the Generating Unit in the open circuit mode, carry out the large\nsignal performance testing as described in IEEE 421.2 of 1990.\nDetermine time response, ceiling voltage and voltage response.\n• With the Generating Unit Synchronised and loaded, carry out the small\nsignal performance tests according to IEE 421.2 of 1990. Also carry out\npower system stabiliser tests and determine damping with and without\npower system stabiliser.\n• Document all responses.\n210 Statutory Instruments 9th January, 2026\nACCEPTANCE CRITERIA\nThe excitation system meets the necessary control requirements in an\noptimised manner for the performance of the Transmission and Power\nProduction Facility Plant as specified. The excitation system operates stably\nboth internally and on the network. The power system stabilisers are set for\noptimised damping for modes agreed with the TNSP and SO.\nREPORTING\nSubmit a report to the SO prior to commissioning and within one month of\ntests carried out at 6 yearly intervals thereafter.\nACCEPTANCE SO\nA7.7.5 Generating Unit Reactive Power capability for Directly Connected Synchronous Generating Units\nParameter Reference\nReactive Section APPLICABILITY\npower 2.1.13.4 Prototype test: All new Directly Connected Synchronous Power Production\ncapability Facilities and all other Power Production Facilities after major modifications or\nrefurbishment of Protection or related Plant.\nROUTINE REVIEW / TESTING PERIOD:\nConfirm compliance every 6 years.\nPURPOSE\nTo confirm that the Reactive Power capability specified is met.\nPROCEDURE\nThe Generating Unit will be required to regulate the Voltage on the HV Busbar to\na set level.\nThe Generating Unit will also be required to demonstrate its Reactive Power\ncapability and functioning of Reactive Power control mode for 1 hour and to prove\nthe specified accuracy of control over the entire Active Power Output range of the\nPlant up to Registered Capacity from a lagging Power Factor of 0.85 to a leading\nPower Factor of 0.95 (as measured at the generator terminals) or such other value\nas shall be specified in the Connection Agreement and measured at the Point of\nConnection.\nIf network considerations restrict the Generating Unit Output, then the maximum\nleading and lagging capability will be demonstrated without breaching the\nnetwork operators limits.\nNote that although this is a commissioning test it may be deemed by the SO to be\na System Test, having regard to the size and location of Plant. The SO may also\nrequire a test to prove over and under excitation limiters either separately or as\npart of this test.\nACCEPTANCE CRITERIA\nThe Generating Unit shall maintain the set voltage within ±5% of the capability\nregistered with the TNSP and System Operator for at least one hour.\nREPORTING\nSubmit a report to the TNSP and System Operator one month after the test.\nACCEPTANCE SO\nA7.7.6. - Reactive power control capability verification for Directly Connected Asynchronous Generating Units\nParameter Reference Description\nReactive Section APPLICABILITY\npower control 2.1.14.1\nFor all new Asynchronous Generating Units and after major modifications or\nfunction and GCR3 &\nrefurbishment of related Plant components or functionality.\noperational 2.1.14.4\nrange ROUTINE REVIEW / TESTING PERIOD:\nConfirm compliance every 6 years.\nPURPOSE\nTo confirm that the Reactive Power capability specified is met and that control\nfunctions are functioning as specified.\n9th January, 2026 Statutory I"
+    },
+    {
+      "number": "1",
+      "heading": "The Asynchronous Generating Units will be required to regulate the",
+      "text": "voltage at the PCC to a set level within the design margins or it shall be\nrequired to achieve maximum import or export of Reactive Power in an\nattempt to achieve the set point Voltage."
+    },
+    {
+      "number": "2",
+      "heading": "The Asynchronous Generating Units will be required to provide a fixed",
+      "text": "Q to a set level within the design margins."
+    },
+    {
+      "number": "3",
+      "heading": "The Asynchronous Generating Units will be required to obtain a fixed",
+      "text": "PF within the design margins."
+    },
+    {
+      "number": "4",
+      "heading": "The operation of instructed functions of change of control mode and",
+      "text": "settings shall be proven to work and the instructions shall be confirmed\nas received and achieved.\nACCEPTANCE CRITERIA"
+    },
+    {
+      "number": "1",
+      "heading": "The Asynchronous Generating Units shall maintain the set Voltage",
+      "text": "within ±5% throughout the Active Power range unless operating at\nmaximum input or export of Reactive Power, and shall demonstrate the\ncapability for at least one hour having regard to environmental\nconditions."
+    },
+    {
+      "number": "2",
+      "heading": "For a range of Active Power Outputs up to Registered Capacity the",
+      "text": "Asynchronous Generating Units shall maintain the Reactive Power (Q)\nwithin ±2% of the set point for a range of values of Q up to the maximum\nimport and export capability detailed in the Connection Agreement and\nshall demonstrate the capability for at least one hour having regard to\nenvironmental conditions."
+    },
+    {
+      "number": "3",
+      "heading": "For a range of Active Power Outputs up to Registered Capacity the",
+      "text": "Asynchronous Generating Units shall maintain the set PF within ±2% of\nthe set point for a range of Power Factors within the Capability Curve in\nthe Connection Agreement. and shall demonstrate the capability for at\nleast one hour. at least one hour having regard to environmental\nccoonnddiittiioonnss..\nREPORTING\nSubmit a report to the SO, one month after the test.\nACCEPTANCE SO\nA7.7.7 Governing system for Synchronous Generating Units\nParameter Reference\nGoverning response tests Section APPLICABILITY\n2.1.12.GCR4\nand Prototype test:\n2.1.12.5 and 2.1.13.2 All new Synchronous Power Production Facilities and all other\nPower Production Facilities after major modifications or\nrefurbishment of Protection or related plant.\nROUTINE TEST\nAll Generating Units to be monitored continuously. Additional\ntests may be requested by the System Operator, acting\nreasonably but not more than 2-yearly.\nPURPOSE\nTo prove that the Generating Unit is capable of the minimum\nrequirements for governing.\nPROCEDURE\n212 Statutory Instruments 9th January, 2026\nPROCEDURE"
+    },
+    {
+      "number": "1",
+      "heading": "Frequency or speed deviation to be injected on the",
+      "text": "Generating Unit for ten minutes."
+    },
+    {
+      "number": "2",
+      "heading": "Active Power Output of the Generating Unit to be",
+      "text": "measured and recorded.\nACCEPTANCE CRITERIA\nMinimum requirements of the Grid Code are met.\nAny lockout function for high-frequency is proven to work as\nintended.\nACCEPTANCE SO\nA7.7.8 - Active Power control capability verification\nA7.7.8 - Active Power control capability verification\nParameter Reference Description\nActive Power control Section 2.1.12.4 APPLICABILITY\nfunction and operational\nrange For all new Generating Units ≥2MW and after major\nmodifications or refurbishment of related Plant components or\nfunctionality.\nROUTINE REVIEW / TESTING PERIOD:\nConfirm compliance every 6 years.\nPURPOSE\nTo confirm that the Active Power curve and the control\ncapability specified is met.\nPROCEDURE\nBy measuring incident solar energy or wind speed and\ndirection confirm the Generating Unit Output and range of\nOutput is an described in the Connection Agreement by tables\nor graphs e.g. a wind rose.\nIn the case of Generating Units depending on Variable\nRenewable Energy (VRE), the performance of the Generating\nUnit will be judged according to the measured wind speed or\nsolar irradiance.\nThe following tests shall be performed within an Active Power\nlevel range of at least 0.2p.u.or higher"
+    },
+    {
+      "number": "1",
+      "heading": "The Generating Unit will be required to regulate the",
+      "text": "Active Power to a set of specific setpoints within the\ndesign margins."
+    },
+    {
+      "number": "2",
+      "heading": "The Generating Unit will be required to obtain a set",
+      "text": "of Active Power setpoints within the design margins\nwith minimum two different gradients for ramping\nup and two different gradients for ramping down."
+    },
+    {
+      "number": "3",
+      "heading": "The Generating Unit will be required to maintain as",
+      "text": "a minimum two different set levels of response\nwithin the design margins. In the case of VRE Plant\nthis will be achieved by a Delta control function and\ndue regard will be taken to the settings of that\ncontroller."
+    },
+    {
+      "number": "4",
+      "heading": "The Generating Unit will be required to operate as a",
+      "text": "minimum to limit Active Power Output according to\ntwo different absolute power constraint set levels\nwithin the design margins."
+    },
+    {
+      "number": "5",
+      "heading": "The Generating Unit will be required to verify",
+      "text": "operation according to as a minimum two different\nparameter sets for a frequency response curve within\nthe design margins.\n9th January, 2026 Statutory Instruments 213\nACCEPTANCE CRITERIA"
+    },
+    {
+      "number": "1",
+      "heading": "The Generating Unit shall maintain the set Output",
+      "text": "for a range of Outputs up to full Registered Capacity\nwithin ±2% of the Registered Capacity for at least\none hour."
+    },
+    {
+      "number": "2",
+      "heading": "The Generating Unit shall demonstrate ramp rates",
+      "text": "for a range of Outputs with precision within ±2% of\nRegistered Capacity for ramping up and down\nwithin environmental conditions."
+    },
+    {
+      "number": "3",
+      "heading": "The Generating Unit shall maintain a response set",
+      "text": "level within ±2% of the Registered Capacity for at\nleast one hour."
+    },
+    {
+      "number": "4",
+      "heading": "The Generating Unit shall maintain a series of",
+      "text": "absolute power constraint set levels within ±2% of\nRegistered Capacity for at least one hour."
+    },
+    {
+      "number": "5",
+      "heading": "The Generating Unit shall demonstrate that the",
+      "text": "requested Frequency response curves can be\nobtained."
+    },
+    {
+      "number": "6",
+      "heading": "Any lockout functions required for high frequency",
+      "text": "are proven to work.\nREPORTING\nSubmit a report to the TNSP and SO one month after the test.\nACCEPTANCE SO\nA7.7.9 - Fault ride through simulations for all Generating Units ≥ 2MW\nParameter Reference Description\nTo demonstrate Section APPLICABILITY\nfault ride though 2.1.12.7.\nAll new Generating Units and after major modifications or refurbishment of related\nvoltage droops\nplant components or functionality.\nand peaks.\nROUTINE TESTING / REVIEW:\nContinuous performance monitoring\nPURPOSE\nTo confirm that new Generating Units connecting to the Total System perform\naccording to the Grid Code during and after faults on the System which create Voltage\nEvents outside the normal Voltage range. [Whist the requirement applies to all\nGenerating Units, unless specifically required by the SO the test applies to\nAsynchronous Generating Units because the physics dictates that it is unlikely that\nSynchronous Generating Units would be non-compliant.]\nPROCEDURE\nIn order to prove compliance, the System voltage at the Point of Connection of the\nGenerating Unit needs to become abnormal to an extent and for a period for which\nthe Grid Code requires that the Generating Unit remains Connected. An approved\ndisturbance recorder is to be installed and System Voltage transients and actual Plant\nperformance recorded.\nThe quantities to be measured, estimated or recorded are as follows:\n(i) Phase voltages\n(ii) Positive phase sequence and negative phase sequence voltages\n(iii) Phase currents\n(iv) Positive phase sequence and negative phase sequence currents\n(v) Estimate of the Generating Unit’s negative phase sequence impedance\n(vi) MW- Active Power at the Generating Unit\n(vii) MVAr – Reactive Power at the Generating Unit\n(viii) Real / Reactive, current / power reference as appropriate\n(ix) Any fault ride through protection which has operated (e.g. crowbar in the\ncase of DFIG)\n(x) Any other signals related to fault ride through which demonstrate that the\nmodel supplied as Detailed Planning Data is accurate.\nIt is not intended to require Power Producers to retain a disturbance recorder at each\n214 Statutory Instruments 9th January, 2026\nIt is not intended to require Power Producers to retain a disturbance recorder at each\nsite after a Generating Unit or Power Production Facility has demonstrated\ncompliance, however if later System Events indicate that the Generating Unit or\nPower production Facility is not maintaining compliance, the Final Compliance\nCertificate may be withdrawn and the Plant will be treated as a new Plant from a\ncompliance point of view.\nACCEPTANCE CRITERIA"
+    },
+    {
+      "number": "1",
+      "heading": "From recording of actual Events, the Plant performance can be judged",
+      "text": "against the System Voltage during and after the Event. It is necessary to\nprove that the Plant remained connected, delivered the expected Active\nPower and Reactive Power during and after the Event including the\nprescribed recovery performance."
+    },
+    {
+      "number": "2",
+      "heading": "In the case that no suitable System Events occur within a period of 9",
+      "text": "months from the issue of a Temporary Compliance Certificate, a User may\napply to the SO for relief of the physical proof of compliance, and\ncompliance shall then be judged as if the Plant performed as per the\ndynamic model supplied as Detailed Data and having regard to\nperformance of Plant of the same manufactured type.\nIn the case that the Generating Unit under test has previously failed to ride\nthrough a fault for which it should have been compliant, a Final\nCompliance Certificate will not be issued until a disturbance recorder\nreport shows that the issue has been rectified.\nREPORTING\nSubmit a report to the TNSP as soon as practicable after a suitable Event and in any\ncase within 1 month, showing the performance of the Generating Unit. In the case\nthat the Generating Unit fails to ride through a fault for which it should have been\ncompliant indicate what steps are being taken to rectify the situation.\nACCEPTANCE SO\nA7.7.10 Black Start capability for Generating Units so identified\nParameter Reference\nBlack Section2.1.13.8 APPLICABILITY\nStarting and 2.1.14.7 Routine test:\nPower Production Facilities that have been contracted under Ancillary Services to\nsupply Black Start services.\nREVIEW / TESTING PERIOD\nOnce every three years for a partial test and once every six years for a full test.\nPURPOSE\nTo demonstrate that a Black Start Power Production Facility has such capability.\nPROCEDURE\n• The relevant Generating Unit of the Power Production Facility shall be\ndisconnected from the System and shut down.\n• All external auxiliary supplies to the relevant Generating Unit shall be\ndisconnected.\n• In the case of a station Black Start, the designated Generating Unit, shall be\nstarted with the relevant unit-board being energised from an independent\nauxiliary supply within the Power Production Facility. This auxiliary supply has\nto be in shutdown mode until the alternator is at a standstill.\n• The Generating Unit shall be re-Synchronised to the IPS.\nACCEPTANCE CRITERIA\nThe Generating Unit shall be able to re-Synchronise to the IPS within 4 hours from\nthe start of the test.\nA partial test shall involve:\n• Isolation of the Generating Unit\n• Starting up of the Generating Unit from an independent source and\n• Energizing a defined portion of the Total System.\nA full test shall involve:\n• Isolation of the Generating Unit\n• Starting up of the Generating Unit from an independent source\n• Energizing a defined portion of the Total System and\n• The subsequent loading of the unit Generating Unit to prove Black Start\ncapability.\n9th January, 2026 Statutory Instruments 215\nREPORTING\nSubmit a report to the TNSP and System Operator one month after the test.\nThe System Operator may request a full re-test in the event of a failed test or to re-test\nfunctions that did not meet test requirements.\nACCEPTANCE SO\nA7.7.10 Black Start capability for Generating Units so identified\nParameter Reference\nBlack Section2.1.13.8 APPLICABILITY\nStarting and 2.1.14.7\nRoutine test:\nPower Production Facilities that have been contracted under Ancillary Services to\nsupply Black Start services.\nREVIEW / TESTING PERIOD\nOnce every three years for a partial test and once every six years for a full test.\nPURPOSE\nTo demonstrate that a Black Start Power Production Facility has such capability.\nPROCEDURE\n• The relevant Generating Unit of the Power Production Facility shall be\ndisconnected from the System and shut down.\n• All external auxiliary supplies to the relevant Generating Unit shall be\ndisconnected.\n• In the case of a station Black Start, the designated Generating Unit, shall be\nstarted with the relevant unit-board being energised from an independent\nauxiliary supply within the Power Production Facility. This auxiliary supply has\nto be in shutdown mode until the alternator is at a standstill.\n• The Generating Unit shall be re-Synchronised to the IPS.\nACCEPTANCE CRITERIA\nThe Generating Unit shall be able to re-Synchronise to the IPS within 4 hours from\nthe start of the test.\nA partial test shall involve:\n• Isolation of the Generating Unit\n• Starting up of the Generating Unit from an independent source and\n• Energizing a defined portion of the Total System.\nA full test shall involve:\n• Isolation of the Generating Unit\n• Starting up of the Generating Unit from an independent source\n• Energizing a defined portion of the Total System and\nThe subsequent loading of the unit Generating Unit to prove Black Start capability.\nREPORTING\nSubmit a report to the TNSP and System Operator one month after the test.\nThe System Operator may request a full re-test in the event of a failed test or to re-test\nfunctions that did not meet test requirements.\nACCEPTANCE SO\n216 Statutory Instruments 9th January, 2026\nT\na b\nle\nA\n(C\nh\na\n: -\ns e\nr S y\nU\nti\nC o n\nn e\nc o\ne r p t\n-\nT r a\n1 A\nP P E\ns te m C n n s m D N\nd o n is I X\n–\na ta\nll\nU\nA\nd itio\nn s S\ns io\nn\nte\ny s\n2\ns m\ne rs )\n9th January, 2026 Statutory Instruments 217\nT\na\nb\nle\nB\n-\n:\nU\ns\ne\nr\nS\ny\ns\nte\nm\nd\na\nta\n–\nD\ne\nm\na\nn\nd\n–\nS\nta\nn\nd\n"
+    },
+    {
+      "number": "1",
+      "heading": "Day of User maximum Demand (MW) at annual maximum End of",
+      "text": "Demand conditions; Jan\n2 Two days notified by DNSP\n00:00 – 01:00\n01:00 – 02:00\n02:00 – 03:00\n03:00 – 04:00\n04:00 – 05:00\n05:00 – 06:00\n06:00 – 07:00\n07:00 – 08:00\n08:00 – 09:00\n09:00 – 10:00\n10:00 – 11:00\n11:00 – 12:00\n12:00 – 13:00\n13:00 – 14:00\n14:00 – 15:00\n9th January, 2026 Statutory Instruments 231\n14:00 – 15:00\n15:00 – 16:00\n16:00 – 17:00\n17:00 – 18:00\n18:00 – 19:00\n19:00 – 20:00\n20:00 – 21:00\n21:00 – 22:00\n22:00 – 23:00\n23:00 – 24:00\nIn addition the TNSP may periodically require a 15 year forecast of Demand and a statement\nsetting out the basis for the forecast.\nFor each Point of Connection the TNSP should receive the forecast for Demand as gross of\nEmbedded Generation and shall separately receive a net Demand forecast. A negative net Demand\nforecast indicates that Embedded Generation exceeds Demand at that Point of Connection for\nthat time period. For the avoidance of doubt, these forecasts are for Transmission planning and\nare not related to Commercial Policy.\nTable D2: User Demand profiles\nWeekly and Seasonal Load\nUser Year\nAll Users with Demand\nThis Demand profile should be completed for each year of the 5-year period. Where there is no\nchange expected, a User may complete the following declaration. [Year 0 refers to the year just\npast.]\nWEEKLY\nIf there is a significant difference in daily load profile for certain days of the week Users must\nsupply representative profiles for e.g. work days and non-work days.\nSEASONAL\nUsers who expect significant variation in Demand throughout the year should indicate their\nexpected Maximum Demand and Minimum Demand for each Month and if certain periods have\ndifferent daily profiles these should be supplied.\n232 Statutory Instruments 9th January, 2026\ndifferent daily profiles these should be supplied.\nMaximum Demand MVA Minimum Demand MVA\nJanuary\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember\nSchedule D3: Generating Unit Output usable and Controllable Demand Profiles\nDaily Output usable and/or Controllable Demand\nUser Profile for (day) Week No\nSite Generating Unit / Controllable\nDemand identifier\nAll Users with Generating Units and all Users with Controllable Demand\nThis Output usable/Controllable Demand profile should be completed for each year of the 5-year\nperiod. Where there is no change expected, a User may complete the following declaration. [Year 0\nrefers to the year just past.]\nTNSP(s) may request D3 and D4 as part of Connection Data\nDeclaration - [User name] is unaware of any expected change to this/ these Output\nusable/Controllable Demand profile(s) over the 5-year forecast period.\nData description Y0 Y1 Y2 Y3 Y4 Y5 Update Comments\ntime\nForecast daily Output usable/Controllable Demand profiles in respect of each Generating Unit\nand/or Controllable Demand."
+    },
+    {
+      "number": "1",
+      "heading": "Day of Generating Unit maximum Output usable (MW) at End of Jan",
+      "text": "annual maximum Demand conditions;\n2 Two days notified by TNSP\nAnd/Or:"
+    },
+    {
+      "number": "1",
+      "heading": "Day of User maximum Demand (MW) at annual maximum End of Jan",
+      "text": "Demand conditions;\n2 Two days notified by DNSP\n9th January, 2026 Statutory Instruments 233\n(a)\n00:00 – 01:00\n01:00 – 02:00\n02:00 – 03:00\n03:00 – 04:00\n04:00 – 05:00\n05:00 – 06:00\n06:00 – 07:00\n07:00 – 08:00\n08:00 – 09:00\n09:00 – 10:00\n10:00 – 11:00\n11:00 – 12:00\n12:00 – 13:00\n13:00 – 14:00\n14:00 – 15:00\nSchedule D4: Generating Unit Output Available and Controllable Demand Profiles\nWeekly and Seasonal Load\nUser Year\nAll Users with Generating Units\nThis Output usable profile should be completed for each year of the 5-year period. Where there is no\nchange expected, a User may complete the following declaration. [Year 0 refers to the year just past.]\nWEEKLY\nIf there is a significant difference in daily profile for certain days of the week Users must supply\nrepresentative profiles for e.g. work days and non-work days.\nSEASONAL\nUsers who expect significant variation in Output usable throughout the year should indicate their expected\nMaximum Output and Minimum Output for each Month and if certain periods have different daily profiles\nthese should be supplied.\nAll Users with Controllable Demand\nThis Controllable Demand profile should be completed for each year of the 5-year period. Where there is\nno change expected, a User may complete the following declaration. [Year 0 refers to the year just past.]\nWEEKLY\nIf there is a significant difference in daily profile for certain days of the week Users must supply\nrepresentative profiles for e.g. work days and non-work days.\n234 Statutory Instruments 9th January, 2026\nWEEKLY\nIf there is a significant difference in daily profile for certain days of the week Users must supply\nrepresentative profiles for e.g. work days and non-work days.\nSEASONAL\nUsers who expect significant variation in Controllable Demand throughout the year should indicate their\nexpected Maximum Demand and Minimum Demand for each Month and if certain periods have different\ndaily profiles these should be supplied.\nMaximum Output usable or Maximum Minimum Output\nControllable Demand MVA usable or Minimum\nControllable Demand\nMVA\nJanuary\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember\n9th January, 2026 Statutory Instruments 235\nT\nA\nB\nL\nE\nE\n:\nC\nO\nN\nN\nE\nC\nT\nIO\nN\nP\nO\nIN\nT\n236 Statutory Instruments 9th January, 2026\n9th January, 2026 Statutory Instruments 237\nNOTE ON INFORMATION ON TRANSFERRABLE DEMAND ON CUSTOMER\nNETWORKS\nIf a User will have two or more points of supply from the Transmission System (or the\nTransmission System and the Distribution System) which may be interconnected, including the\none applied for, the User shall specify the amount of load to be between Points of Supply under\nnormal conditions as well as under contingencies. The same requirement applies to any Embedded\nPower Producers within the User’s network, since they affect fault levels as well as net load on\nthe System.\nThe User shall also specify whether it intends to interconnect two or more transmission\npoints of supply via its network. In such circumstances the User shall provide detailed information\non the lines and cables used.\nWhere a circuit consists of two or more segments of different characteristics (different overhead\nline tower andlor conductor bundle types and/or underground cable types), each section shall be\nspecified separately.\nIn addition, ALL Users connecting to the TS must supply a Protection Philosophy Statement\nNew Users, or Users specifically requested by the SO, shall prepare a Protection Philosophy\nStatement according to a model format issued by the TNSP with content as follows:\n• a description of the Protection philosophy;\n• a description of Plant capabilities and the relevant Protection operations.\n• a description of any auto-reclose facilities installed or to be installed by any Participant;\n• a list of relays and settings including for Generating Unit and associated equipment;\n• the most probable fault clearance time (Fault inception to arc extinction) which must\nnot threaten selectivity or equipment ratings;\n• how the Protection system allows for TNSP auto-reclose systems;\n• how selectivity is achieved and compliance with Zambian standards and TNSP practice\nis observed (TNSP to inform in a standard Protection policy paper with a local\nsystem information annex); and\n• any other matter required by the TNSP or SO, to be determined in consultation with\nthe User, and any resulting equipment to be provided and maintained by the\nrelevant User at its own cost.\n• The Protection Philosophy Statement shall be submitted by the User for approval by\nthe TNSP.\n238 Statutory Instruments 9th January, 2026\nThe Protection functions are considered adequate when the Protection relays perform correctly\nin terms of:\n(a) reliability;\n(b) speed of operation;\n(c) selectivity; and\n(d) sensitivity.\nThe Statement shall be agreed and signed by the User and the TNSP\nProtection Settings Chapter shall contain the following:\n(i) a section defining the base values and per unit values to be used;\n(ii)a single line diag"
+    },
+    {
+      "number": "1",
+      "heading": "The Recipient agrees to treat all information (hereinafter referred to as the Information)",
+      "text": "received from the Information Owner, whether in hard copy or electronic format or in any\nformat whatsoever, as strictly confidential."
+    },
+    {
+      "number": "2",
+      "heading": "The Recipient agrees to disclose the Information only to authorized persons who are in his",
+      "text": "permanent employ, and who require access to the Information to perform their duties in\nrespect of the Work on behalf of the Client."
+    },
+    {
+      "number": "3",
+      "heading": "Persons other than those described in Clause 2 above, including but not restricted to temporary",
+      "text": "employees, subcontractors, and sub-consultants, shall enter into separate Confidentiality\nAgreements with the Information Owner prior to receiving the Information."
+    },
+    {
+      "number": "4",
+      "heading": "The Recipient undertakes to use the Information only to perform the Work on behalf of the",
+      "text": "Client, and for no other purpose whatsoever."
+    },
+    {
+      "number": "5",
+      "heading": "On completion of the Work, the Recipient shall at his expense return to the Information",
+      "text": "Owner all hard copy material and electronic media containing the Information supplied to\nhim by the Information Owner. The Recipient shall furthermore ensure that all duplicate\ncopies of the Information in his or his employees’ possession (electronic as well as hard\ncopy format) are destroyed.\n9th January, 2026 Statutory Instruments 287"
+    },
+    {
+      "number": "6",
+      "heading": "The Recipient shall take all reasonable measures to protect the security and integrity of the",
+      "text": "Information."
+    },
+    {
+      "number": "7",
+      "heading": "If requested to do so by the Information Owner, the Recipient shall forthwith at his expense",
+      "text": "return to the Information Owner all hard copy material and electronic media containing the\nInformation supplied to him by the Information Owner. The Recipient shall furthermore\nensure that all duplicate copies of the Information in his or his employees’ possession\n(electronic as well as hard copy format) are destroyed."
+    },
+    {
+      "number": "8",
+      "heading": "The Recipient shall report any leak of the Information, howsoever caused, to the Information",
+      "text": "Owner as soon as practicable after he becomes aware of the leak, and shall provide to the\nInformation Owner with all reasonable assistance to ensure its recovery or destruction (as\ndeemed appropriate by the Information Owner).\nSigned at ………………………………………………… on this the ……..............…… day of\n……………………………. by (full name) …………………………………......…….in his/her\ncapacity as …………………………………….......................................…........…. on behalf of\n……………………………………......……, the Information Owner…………..………………\nSigned at ………………………………………………… on this the …….............…… day of\n……………………………. by (full name) ……………………………......………….in his/her\ncapacity as …………………………………………. on behalf of\n…………………………………………, the Recipient\n288 Statutory Instruments 9th January, 2026\nAPPENDIX 4\n(Chapter 5 – General Provisions)\nFORM XV\nExemption Request Form\nGC E No:…………………………\nText to be exempted from: Section(s)…………………. Page(s)………………...\nReason for exemption (if additional space is required, please use attachments)\n..…………………………………………………………………..........................................……\n…………………………………………………………………………….....................................\n……………………………………………………………………………...........…………………\n………………………………………………………………………….....................……………\nAdditional Information (if additional space is required, please use attachments)\n……………………………………………………….………………………………………....…\n…………………………………………………………………………………………………………\n………………………………………………………………………………………………………\nDuration:\nFrom:……………………To:……………………………………………………….\nExemption Applicant’s Name:…………. Date ………………………………..\nChecked by:\n(Secretariat) ……………………. ………………….Date …………………………………\nRecommended by:\n(GCTC Chairperson) ……………………. ………..Date …………………………………\nApproved/Not approved:\n(ERB BOARD CHAIRPERSON)………………… Date …………………………………\n9th January, 2026 Statutory Instruments 289\nAPPENDIX 4\n(Chapter 5 – General Provisions)\nFORM XVI\nLog of Disputes between Participants\nDispute Complainant Defendant Complaint Resolution\nNo.\nDESCRIPTION DATE DESCRIPTION DATE\n290 Statutory Instruments 9th January, 2026\nAPPENDIX 4\n(Chapter 5 – General Provisions)\nFORM XVII\nRegister of Participants and Exemptions\nCODE:\nREFERENCE NO. PARTICIPANTS\nEXEMPTIONS REQUESTED BY EXPIRY DATE\n(REASON FOR\nEXEMPTION)\n9th January, 2026 Statutory Instruments 291\nAPPENDIX 5\n(Chapter 3- System Operation and Chapter 4 -Information Exchange)\nGenerator Performance Data\nGenerator performance data is a means of providing a measurement of generating station processes.\nA combination of different metrics yields indicators that provide an objective assessment of\ncritical parameters on the performance of key processes. They are used to identify non-performing\nareas in order to facilitate improvements. This is also used to provide industry with statistical\ndata on how well the industry is performing.\nThe indicators will provide generating stations in Zambia an opportunity to benchmark their\nperformance against other best run hydro power stations in the world. It also offers these\nstation’s management data for strategic management.\nThe Key Performance Indicators report on each station’s efficiency and effectiveness is at a\ntactical level. The assumption here is that, even when a generating station is embedded in a\nvertically integrated utility, it is very possible to measure these statistics against a common\nbenchmark.\nFor the purpose of these indicators, all generation equipment outages will be considered planned\nand scheduled at every beginning of the year. All other outages procured during the progression\nof the year will be considered unplanned.\n(a) Reliability\nThis indicator will be expressed in terms of Unit Capability Factor (UCF). The purpose of this\nindicator is to monitor progress in attaining high unit and plant energy production availability. It\nreflects the effectiveness of plant programmes and practices in maximizing available electrical\ngeneration and provides an overall indication of how well the plant was operated and maintained.\nIt comprises Planned Capability Loss Factor (PCLF) and Unplanned Capability Loss Factor\n(UCLF) and it is expressed as a difference between 100% and the percentage attributed to PCLF\nand UCLF.\nUCF 100PCLF UCLF\n(i) Unplanned capability loss factor (UCLF)\nThe purpose of this indicator is to monitor industry progress in minimising outage time\nand power reductions that result from unplanned equipment failures or other\nconditions. This indicator reflects the effectiveness of plant programmes and\npractices in maintaining systems available for safe electrical generation.\nIt is therefore an expression of energy lost due to unplanned outages, against the total\navailable energy, calculated as a percentage.\nUnplannedMWhlost *100%\nUCLF \nTotalMWhdesigned\n(ii) Planned capability loss factor (PCLF)\nPlanned capability loss factor is defined as the ratio of the planned energy losses during a\ngiven period of time to the reference energy generation expressed as a percentage.\n292 Statutory Instruments 9th January, 2026\nPlanned energy loss is energy that was no"
+    },
+    {
+      "number": "1",
+      "heading": "It is meant to express on an average the time between any two failures following each other.",
+      "text": "9th January, 2026 Statutory Instruments 293\nMean-Time-To-Repair and Mean-Time-Between-Failures are two factors that are used to\nmeasure the quality of maintenance being carried out on generating plant.\n(f) Start-up Failure Rate (SFR)\nThis is expressed as the number of times a generating unit or plant fails to connect to the grid\nat the required time against the total number of requested synchronizations. This measure is\nused to gauge under-frequency recovery time.\nNumberOffailedStartUps100%\nSFR \nNumberOfContractedStartUps\nStart-up comprises the set of operations that enable the unit to be connected to the off-site\npower grid for the production of electrical energy according to requirements issued by the SO.\nIt includes all the necessary “de-isolations” and rendering to “normal” all equipment required\nfor generation.\nThe contracted start-up refers to the number of start-up instructions issued and received from\nthe System Operation by the Generation Control Room.\n(g) Total Unplanned Station Shutdowns (TUSS)\nThis is the total number of times that a generating station separates with the grid. It could\neither be as a result of an internal or external unplanned factor, but leading to a total\nstation outage. It measures the protection requirements defined in the Network chapter,\nsection 4.1, or it could be declared as an Ancillary Service as declared in the System\nOperations chapter section 7.\n294 Statutory Instruments 9th January, 2026\nAPPENDIX 6\n(Chapter 3- System Operation)\nSafety Across Boundaries - RISSP\nRecording of Safety Precautions\nRISSP 1 Agreement of Safety Precautions\nWhen a User or the SO wishes to carry out work and/or testing on or near its system\nand it is of the opinion that, for this to be done safely, Safety Precautions are\nrequired on the other’s System the following process shall be undertaken:"
+    },
+    {
+      "number": "1",
+      "heading": "in the case of work on the SO’s HV or EHV apparatus, the SO’s Requesting",
+      "text": "Safety Co-ordinator will contact the User’s Implementing Safety Co-ordinator;\nor"
+    },
+    {
+      "number": "2",
+      "heading": "in the case of work on the User’s HV apparatus the User’s Requesting Safety",
+      "text": "Co-ordinator will contact the SO’s Implementing Safety Co-ordinator;\nin either case this contact is made in order to agree, the location at which the Safety\nPrecautions will be implemented or applied.\nWhen a SO wishes to carry out work and/or testing on or near the Transmission\nSystem and it is of the opinion that, for this to be done safely, Safety Precautions are\nrequired on (or relating to) more than one User system the provisions of this Appendix\nshall be followed with regard to each User separately.\nRISSP 2 Agreement of Isolation\nThe Requesting Safety Co-ordinator shall inform the Implementing Safety Co-\nordinator of the HV or EHV apparatus on which Safety from the system is to be\nachieved and they will need to reach agreement on the location(s) at which Isolation\nis to be established on (or relating to) the Implementing Safety Co-ordinator’s system.\nThe Implementing Safety Co-ordinator shall then promptly inform the Requesting\nSafety Co-ordinator of the following:\n3 for each location, the identity (by means of name and numbering or position,\nas applicable) of each point of Isolation;\n4 whether Isolation is to be achieved by an Isolating Device in the isolating\nposition or by an adequate physical separation or sufficient gap or by\ndisablement (by means of switching or dismantling) of Plant and/or apparatus\nso that electrical energy cannot pass from the apparatus (or, in the case of\nPlant, from the associated apparatus) to the HV or EHV apparatus, other\nthan by an Isolating Device; and\n5 the procedures to be taken under Safety Rules being applied to clearly identify\nthe isolated equipment and points of Isolation and to ensure that no inadvertent\nre-energization can take place.\nThe Implementing Safety Co-ordinator shall maintain each point of Isolation in\naccordance with the relevant Local Safety Instructions until the Requesting Safety\nCo-ordinator confirms that Isolation is no longer\nrequired and that it is safe (including any arrangements for Earthing implemented by\nthe Requesting Safety Co-ordinator) to re-energise the previously Isolated part of\nthe system.\n9th January, 2026 Statutory Instruments 295\nRISSP 3 Agreement of Earthing\nIf, in addition to the Isolation requested when the Requesting Safety Co-ordinator\nrequires Earthing, the Requesting Safety Co-ordinator shall notify this requirement\nto the Implementing Safety Co-ordinator and they must reach agreement on the\nlocation(s) at which Earthing is to be established on the Implementing Safety Co-\nordinator’s system until the Requesting Safety Co-ordinator confirms that the\narrangements for Earthing are no longer required.\nThe Implementing Safety Co-ordinator shall then promptly inform the Requesting\nSafety Co-ordinator for each location, the identity (by means of apparatus name and\nnumbering or position, as is applicable) of each point of Earthing.\nThe Implementing Safety Co-ordinator shall maintain each point of Earthing in\naccordance with the relevant Local Safety Instructions.\nRISSP 4 In the event of Disagreement\nIn any case where the Requesting Safety Co-ordinator and the Implementing Safety\nCo-ordinator are unable to agree the location of the Isolation and (if requested)\nEarthing, it shall be at the closest available points on the in-feeds to the apparatus on\nwhich safety from the system is to be achieved. The closest point will be as indicated\non the Ownership Boundary Diagram or, in the case where, by reason of the design\nof any HV or EHV apparatus on which Safety Precautions are to be applied, it is not\npracticable to apply Safety Precautions on that apparatus, it shall be at the most\nappropriate point(s) on the User’s Plant and/or apparatus to achieve safety from\nthe system, as determined by the DSP.\nRISSP 5 Implementation of Isolation and Earthing\nOnce the location of Isolation and (if requested) Earthing are agreed, the following\nprocedure will apply:\n6 the Implementing Safety Co-ordinator will ensure the implementation of the\nIsolation;\n7 the Implementing Safety Co-ordinator will confirm to the Requesting Safety\nCo-ordinator that the Isolation has been established on their system;\nRISSP 6 Work\nFollowing confirmation by the Implementing Safety Co-ordinator to the Requesting\nSafety Co-ordinator that all of the agreed Safety Precautions have been established\non or relating to the system of the Implementing Safety Co-ordinator, the\nImplementing Safety Co-ordinator will record in Section 1.1. of his RISSP-B the\ndetails of the HV apparatus on which the Implementing Safety Co-ordinator has\nbeen told that safety from the system is required. The Implementing Safety Co-\nordinator will also record the Safety Precautions established on or relating to the\nsystem of the Implementing Safety Co-ordinator onto parts 1.1 and 1.2 of his\nRISSP-B.\nWhere Earthing was not requested (either because Earthing was possible but was\nnot required or because Earthing was not possible), part 1.2(b) of the RISSP-B will\nbe completed with the words “not Earthed”.\nThe I"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2026/4/eng@2026-01-09",
+  "source_hash": "sha256:6f80b8bf7327b742e6a9f9dd8cc779adaf90c6c4d94f32c26c6766bd4a298a8e",
+  "fetched_at": "2026-04-16T18:06:50Z",
+  "parser_version": "0.4.0"
+}

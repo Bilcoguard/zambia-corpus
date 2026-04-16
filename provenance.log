@@ -1017,3 +1017,11 @@
 2026-04-16T17:38:24Z batch-0109 si-zm-2021-052-cyber-security-and-cyber-crimes-national-cyber-security-advisory-and-coordination-council-regulations-2021 source=zambialii fetched_at=2026-04-16T17:38:24Z parser=0.1.0
 2026-04-16T17:38:24Z batch-0109 si-zm-2016-065-court-of-appeals-rules-2016 source=zambialii fetched_at=2026-04-16T17:38:24Z parser=0.1.0
 2026-04-16T17:38:24Z batch-0109 si-zm-2024-010-criminal-procedure-code-economic-and-financial-crimes-court-rules-2024 source=zambialii fetched_at=2026-04-16T17:38:24Z parser=0.1.0
+2026-04-16T18:10:00Z batch-0110 act-zm-2021-041-electronic-government-act-2021 source=https://zambialii.org/akn/zm/act/2021/41/eng@2021-05-20 parser=0.4.0
+2026-04-16T18:10:00Z batch-0110 act-zm-2010-013-disaster-management-act-2010 source=https://zambialii.org/akn/zm/act/2010/13/eng@2010-04-16 parser=0.4.0
+2026-04-16T18:10:00Z batch-0110 act-zm-2025-004-cyber-crimes-act-2025 source=https://zambialii.org/akn/zm/act/2025/4/eng@2025-04-15 parser=0.4.0
+2026-04-16T18:10:00Z batch-0110 act-zm-2025-003-cyber-security-act-2025 source=https://zambialii.org/akn/zm/act/2025/3/eng@2025-04-15 parser=0.4.0
+2026-04-16T18:10:00Z batch-0110 si-zm-2023-041-energy-regulation-general-regulations-2023 source=https://zambialii.org/akn/zm/act/si/2023/41/eng@2023-09-15 parser=0.4.0
+2026-04-16T18:10:00Z batch-0110 si-zm-2023-005-energy-regulation-appeals-tribunal-rules-2023 source=https://zambialii.org/akn/zm/act/si/2023/5/eng@2023-02-24 parser=0.4.0
+2026-04-16T18:10:00Z batch-0110 si-zm-2026-004-electricity-transmission-grid-code-regulations-2026 source=https://zambialii.org/akn/zm/act/si/2026/4/eng@2026-01-09 parser=0.4.0
+2026-04-16T18:10:00Z batch-0110 si-zm-2026-002-electricity-wayleave-and-clearances-regulations-2026 source=https://zambialii.org/akn/zm/act/si/2026/2/eng@2026-01-02 parser=0.4.0
