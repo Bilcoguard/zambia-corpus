@@ -953,3 +953,11 @@
 {"id": "act-zm-1986-012-appropriation-act-1986", "source_url": "https://zambialii.org/akn/zm/act/1986/12/eng@1986-04-21", "source_hash": "sha256:a0403671f6bdfb95695989f34ed6cb625258d29bb05025c639da1c8fada35bf3", "fetched_at": "2026-04-16T13:08:52.802306+00:00", "parser_version": "0.4.0", "batch": 100}
 {"id": "act-zm-1987-015-appropriation-act-1987", "source_url": "https://zambialii.org/akn/zm/act/1987/15/eng@1987-04-24", "source_hash": "sha256:b89c05cf41effbab97098d0865c0e21a7356ad6268028804dcac2a7a6a906b09", "fetched_at": "2026-04-16T13:09:04.836767+00:00", "parser_version": "0.4.0", "batch": 100}
 {"id": "act-zm-1988-019-appropriation-act-1988", "source_url": "https://zambialii.org/akn/zm/act/1988/19/eng@1988-04-22", "source_hash": "sha256:1cb29348b1231831aab9118265b2c06a656495d34e8d948a08ba8ec0afef3757", "fetched_at": "2026-04-16T13:09:17.546471+00:00", "parser_version": "0.4.0", "batch": 100}
+2026-04-16T13:35:11Z batch-0101 act-zm-1989-034-appropriation-act-1989 source=zambialii method=PDF parser=0.4.0
+2026-04-16T13:35:11Z batch-0101 act-zm-1990-044-appropriation-act-1990 source=zambialii method=PDF parser=0.4.0
+2026-04-16T13:35:11Z batch-0101 act-zm-1992-017-appropriation-act-1992 source=zambialii method=PDF parser=0.4.0
+2026-04-16T13:35:11Z batch-0101 act-zm-1993-022-appropriation-act-1993 source=zambialii method=PDF parser=0.4.0
+2026-04-16T13:35:11Z batch-0101 act-zm-1994-005-appropriation-act-1994 source=zambialii method=PDF parser=0.4.0
+2026-04-16T13:35:11Z batch-0101 act-zm-1995-001-appropriation-act-1995 source=zambialii method=PDF parser=0.4.0
+2026-04-16T13:35:11Z batch-0101 act-zm-1996-013-appropriation-act-1996 source=zambialii method=PDF parser=0.4.0
+2026-04-16T13:35:11Z batch-0101 act-zm-1997-013-appropriation-act-1997 source=zambialii method=PDF parser=0.4.0
