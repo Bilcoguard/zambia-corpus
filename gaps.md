@@ -440,3 +440,6 @@ consider Government Gazette or direct MMMD/MoJ request).
 
 - **High Court Act (Cap. 27)** — Act No. 41 of 1960: ZambiaLII HTML page is a landing stub. Full text in PDF (307.5 KB). URL: https://zambialii.org/akn/zm/act/1960/41/eng@1996-12-31. Record created with 0 sections. Needs PDF re-parse.
 - **Judgments Act (Cap. 81)** — Act No. 10 of 1961: ZambiaLII HTML page is a landing stub. Full text in PDF (146.7 KB). URL: https://zambialii.org/akn/zm/act/1961/10/eng@1996-12-31. Record created with 0 sections. Needs PDF re-parse.
+
+## Batch 0102 — 2026-04-16
+- `act-zm-2025-2025-access-to-information-guidelines-2025`: Access to Information Guidelines, 2025 (GN 1624 of 2025) — 0 sections parsed from PDF. PDF may be scanned image or non-standard layout. Needs manual review or OCR re-parse.
