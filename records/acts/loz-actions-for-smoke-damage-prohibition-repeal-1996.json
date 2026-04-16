@@ -1,0 +1,28 @@
+{
+  "id": "loz-actions-for-smoke-damage-prohibition-repeal-1996",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Actions for Smoke Damage (Prohibition) (Repeal), 1996",
+  "citation": "Act No. 21 of 1996",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": false,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "1. Short title\nThis Act may be cited as the Actions for Smoke Damage (Prohibition) (Repeal) Act."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "2. Repeal of Cap. 327 of the old edition\nThe Actions for Smoke Damage (Prohibition) Act is hereby repealed."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1996/21/eng@1996-12-31",
+  "source_hash": "sha256:d285edbf04a30c81205631b5dd257ce06df335784bdb205c0cafb75bdc8c4f7e",
+  "fetched_at": "2026-04-16T12:10:50Z",
+  "parser_version": "0.5.0"
+}
