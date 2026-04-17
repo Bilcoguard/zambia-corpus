@@ -453,3 +453,10 @@ consider Government Gazette or direct MMMD/MoJ request).
 ## Batch 0122 — Scanned PDFs (2026-04-17)
 - **Local Courts Rules, 1966** (SI 293/1966): PDF is scanned image, no extractable text. Source: https://zambialii.org/akn/zm/act/si/1966/293/eng@1995-04-14. Needs OCR.
 - **Local Courts (Administration of Estates) Rules, 1969** (SI 297/1969): PDF is scanned image, no extractable text. Source: https://zambialii.org/akn/zm/act/si/1969/297/eng@1969-06-06. Needs OCR.
+
+- [2026-04-17T14:36:34.940563+00:00] Batch 130: 0-section result for 'Citizens Economic Empowerment Act, 2006' @ https://www.zambialii.org/akn/zm/act/2006/9/eng@2006-05-19
+
+## Batch 0130 gaps (2026-04-17T14:43:48Z)
+- Citizens Economic Empowerment Act, 2006 (Act No. 9 of 2006) — fetched HTML and PDF but both produced 0 parseable sections. Source: https://www.zambialii.org/akn/zm/act/2006/9/eng@2006-05-19
+- 6 duplicate-content files remain as untracked orphans in the working tree (see reports/batch-0130.md for paths). Sandbox cannot delete; host must remove manually.
+- Dedup strategy is URL-keyed; needs (year, act_num) tuple keying to catch cross-source re-ingestion from ZambiaLII vs Parliament.

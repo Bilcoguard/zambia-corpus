@@ -1,0 +1,28 @@
+{
+  "id": "act-zm-1990-citizenship-of-zambia-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Citizenship of Zambia (Amendment) Act, 1990",
+  "citation": "Act No. 10 of 1990",
+  "date_of_assent": "1990-07-23",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Citizenship of Zambia Short title",
+      "text": "(Amendment) Act, 1990, and shall be read as one with the\nCitizenship of Zambia Act, in this Act referred to a.c, the\nCap. 121\nprincipal Act."
+    },
+    {
+      "number": "2",
+      "heading": "Section nineteen of the principal Act is amended by the",
+      "text": "Amendrnent\ndeletion of subsection (1) and the substitution therefor of the of section\nfollowing subsection:\n(1) A person to whom the provisions of .Artic1e 6 of the\nConstitution of Zambia apply and who is a citizen or who\nmay have a claim of the citizenship of a country other than\nZambia shall not cease to be a citizen of Zambia upon\nattaining the age of twenty-two years unless he volun­\ntarily renounces his citizenship when he attains the age of\ntwenty-one years.\nSfn{Jle ccpies of this Act 'Illa'// be obtainei from the Government Printer,\nP.O. Bo:,; 30136, Lusaka. Price Kl.00.\n42"
+    }
+  ],
+  "source_url": "https://www.zambialii.org/akn/zm/act/1990/10/eng@1990-07-23/source.pdf",
+  "source_hash": "sha256:47e4fe788b357fc47f5890bc9469cc76bb323b08ff533e2da0196ac930e92214",
+  "fetched_at": "2026-04-17T14:37:23Z",
+  "parser_version": "0.3.0"
+}
