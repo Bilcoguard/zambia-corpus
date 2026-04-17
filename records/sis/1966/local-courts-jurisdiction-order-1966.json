@@ -1,0 +1,28 @@
+{
+  "id": "local-courts-jurisdiction-order-1966",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Local Courts (Jurisdiction) Order, 1966",
+  "citation": "Local Courts (Jurisdiction) Order, 1966",
+  "enacted_date": "1966-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "1. TitleThis Order may be cited as the Local Courts (Jurisdiction) Order, 1966."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "2. Enforcement of specified lawsSubject to the provisions of the Local Courts Act, 1996, all local courts shall have jurisdiction to administer the provisions of\u2014(a)the written laws specified in the Schedule to the extent indicated in the second column thereof; and(b)any statutory instrument made and in force under the provisions of any written law which such courts have jurisdiction to administer."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/1966/353/eng@1966-10-03",
+  "source_hash": "sha256:1668ff68089d86531baac6f46c14f82b4dbdf1c63db88c7dbf89e0353d4979cb",
+  "fetched_at": "2026-04-17T09:06:00.623223+00:00",
+  "parser_version": "0.5.0"
+}
