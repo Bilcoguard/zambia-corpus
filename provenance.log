@@ -1135,3 +1135,11 @@
 {"batch": 127, "id": "si-zm-2008-044-chiefs-recognition-no-5-order-2008", "source_url": "https://www.zambialii.org/akn/zm/act/si/2008/44/eng@2008-04-18/source.pdf", "source_hash": "sha256:7556de79b628c46a81ca6e0a08d33892b7b4064c360600e87e7487c8472a21bf", "fetched_at": "2026-04-17T11:35:17Z", "parser_version": "0.3.0"}
 {"batch": 127, "id": "si-zm-2009-042-chiefs-recognition-no-5-order-2009", "source_url": "https://www.zambialii.org/akn/zm/act/si/2009/42/eng@2009-07-17/source.pdf", "source_hash": "sha256:79a26153f28b794fd84c2404afd200301cf35fe539e90d95420d7cb645dd308b", "fetched_at": "2026-04-17T11:35:29Z", "parser_version": "0.3.0"}
 {"batch": 127, "id": "si-zm-2010-032-chiefs-recognition-no-5-order-2010", "source_url": "https://www.zambialii.org/akn/zm/act/si/2010/32/eng@2010-04-30/source.pdf", "source_hash": "sha256:31785d566a225f849061547d2a11297e89057b6162b666046aa03871e307e3f4", "fetched_at": "2026-04-17T11:35:42Z", "parser_version": "0.3.0"}
+2026-04-17T15:00:00Z batch-0128 act-zm-2013-002-national-health-research-act-2013 source=https://www.zambialii.org/akn/zm/act/2013/2/eng@2013-03-22 parser=0.5.0
+2026-04-17T15:00:00Z batch-0128 act-zm-2007-001-national-payment-systems-act-2007 source=https://www.zambialii.org/akn/zm/act/2007/1/eng@2007-04-13 parser=0.5.0
+2026-04-17T15:00:00Z batch-0128 act-zm-2002-010-national-hiv-aids-sti-tb-council-act-2002 source=https://www.zambialii.org/akn/zm/act/2002/10/eng@2002-12-31 parser=0.5.0
+2026-04-17T15:00:00Z batch-0128 act-zm-2002-013-national-road-fund-act-2002 source=https://www.zambialii.org/akn/zm/act/2002/13/eng@2002-12-31 parser=0.5.0
+2026-04-17T15:00:00Z batch-0128 act-zm-2016-026-ministers-prescribed-number-and-responsibilities-act-2016 source=https://www.zambialii.org/akn/zm/act/2016/26/eng@2016-06-10 parser=0.5.0
+2026-04-17T15:00:00Z batch-0128 act-zm-1989-023-national-heritage-conservation-commission-act-1989 source=https://www.zambialii.org/akn/zm/act/1989/23/eng@1996-12-31 parser=0.5.0
+2026-04-17T15:00:00Z batch-0128 act-zm-1995-034-national-road-safety-council-act-1995 source=https://www.zambialii.org/akn/zm/act/1995/34/eng@1995-12-29 parser=0.5.0
+2026-04-17T15:00:00Z batch-0128 act-zm-2025-002-geological-and-minerals-development-act-2025 source=https://www.zambialii.org/akn/zm/act/2025/2/eng@2025-04-15 parser=0.5.0
