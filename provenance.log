@@ -1087,3 +1087,11 @@
 {"batch": "0120", "id": "act-zm-2019-mental-health-act-2019", "source_url": "https://zambialii.org/akn/zm/act/2019/6/eng@2019-04-11", "source_hash": "sha256:7ca20117b811318da794053bb6e5906a29f06487dd86906ca0886937ef9cf8f3", "fetched_at": "2026-04-17T08:06:19.107809+00:00", "parser_version": "0.9.0", "sections": 101}
 {"batch": "0120", "id": "act-zm-2024-minerals-regulation-commission-act-2024", "source_url": "https://zambialii.org/akn/zm/act/2024/14/eng@2024-12-26", "source_hash": "sha256:980b8dbc14499cb7390490563ff0eb82093f917bfdaacaa73dbc1b6eb8513db3", "fetched_at": "2026-04-17T08:06:25.757637+00:00", "parser_version": "0.9.0", "sections": 393}
 {"batch": "0120", "id": "act-zm-2016-movable-property-security-interests-act-2016", "source_url": "https://zambialii.org/akn/zm/act/2016/3/eng@2016-01-06/source.pdf", "source_hash": "sha256:1e28ea9e4eff6500c225caacb11d625fa560afd33223a1f617981c0a0f84f5ba", "fetched_at": "2026-04-17T08:06:31.919637+00:00", "parser_version": "0.9.0", "sections": 155}
+2026-04-17T08:39:37Z batch-0121 act-zm-1975-026-citizenship-of-zambia-act-1975 source=zambialii parser=0.4.0
+2026-04-17T08:39:37Z batch-0121 act-zm-2016-005-civil-aviation-act-2016 source=zambialii parser=0.4.0
+2026-04-17T08:39:37Z batch-0121 act-zm-2010-043-citizens-economic-empowerment-amendment-act-2010 source=zambialii parser=0.4.0
+2026-04-17T08:39:37Z batch-0121 act-zm-2021-005-citizens-economic-empowerment-amendment-act-2021 source=zambialii parser=0.4.0
+2026-04-17T08:39:37Z batch-0121 act-zm-2024-011-civil-aviation-amendment-act-2024 source=zambialii parser=0.4.0
+2026-04-17T08:39:37Z batch-0121 act-zm-2024-010-civil-aviation-authority-amendment-act-2024 source=zambialii parser=0.4.0
+2026-04-17T08:39:37Z batch-0121 act-zm-1989-024-coffee-act-1989 source=zambialii parser=0.4.0
+2026-04-17T08:39:37Z batch-0121 act-zm-1986-017-citizenship-of-zambia-amendment-act-1986 source=zambialii parser=0.4.0
