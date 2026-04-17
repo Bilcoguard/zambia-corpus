@@ -1,0 +1,58 @@
+{
+  "id": "act-zm-1992-031-ministerial-and-parliamentary-offices--emoluments--act--1992",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Ministerial and Parliamentary Offices (Emoluments) Act, 1992",
+  "citation": "Ministerial and Parliamentary Offices (Emoluments) Act, 1992",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "(1)",
+      "heading": "1. Short title",
+      "text": "This Act may be cited as the Ministerial and Parliamentary Offices (Emoluments) Act."
+    },
+    {
+      "number": "(1)",
+      "heading": "2. Salaries and allowances",
+      "text": "a salary at the annual rate prescribed for that office in the second column of the First Schedule;"
+    },
+    {
+      "number": "(1)",
+      "heading": "2A. Constituency allowance",
+      "text": "in the case of a member returned by a constituency specified in Part I of the Third Schedule, at the annual rate specified in the second column of the Second Schedule; and"
+    },
+    {
+      "number": "(1)",
+      "heading": "3. Allowances exempt from tax",
+      "text": "The allowances payable under this Act shall be exempt from any tax imposed on income or profits."
+    },
+    {
+      "number": "(1)",
+      "heading": "4. Payment of gratuity",
+      "text": "Subject to the other provisions of this section, there shall be paid to the holder of an office specified in the Schedule a gratuity at the rate of thirty-fiveper centumof the last earned gross annual emolument, multiplied by the number of years served on apro-ratabasis.Provided that gratuity paid to any holder of such office under the principle Act before the commencement of this Act shall be deducted from such gratuity."
+    },
+    {
+      "number": "(1)",
+      "heading": "5. Payments under this Act",
+      "text": "The salary and gratuity payable to the Speaker under this Act shall be a charge on the general revenues of the Republic."
+    },
+    {
+      "number": "(a)",
+      "heading": "6. Payment of members of National Assembly in respect",
+      "text": "a local authority, statutory corporation or any other board, commission, committee, council, tribunal or similar body established by or under any written law;"
+    },
+    {
+      "number": "",
+      "heading": "7. No payment of salary during imprisonment, restriction or detention",
+      "text": "Notwithstanding anything contained in this Act, no person shall be paid any salary under this Act in respect of any period during which he is serving a sentence of imprisonment or is restricted or detained in terms of or under the authority of any such law as is referred to in the Constitution.[Cap. 1]"
+    }
+  ],
+  "source_url": "https://www.zambialii.org/akn/zm/act/1992/31/eng@1996-12-31",
+  "source_hash": "sha256:dce7f993c3279ffac278f27ec33d540ecce508cffd5448bd56ee5af1c23d19c3",
+  "fetched_at": "2026-04-17T10:35:29Z",
+  "parser_version": "0.3.0"
+}

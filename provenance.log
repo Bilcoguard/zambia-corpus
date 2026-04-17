@@ -1111,3 +1111,11 @@
 2026-04-17T10:08:51Z | act-zm-2024-025-mobile-money-transaction-levy-act-2024 | https://zambialii.org/akn/zm/act/2024/25/eng@2024-12-26 | sha256:e8f8e11a61dd94c56dd24ed78a37bbfbf587fcf2e56f78528967d302376c7b32 | 0.4.0
 2026-04-17T10:08:51Z | act-zm-1994-032-mineral-royalty-tax-act-1994 | https://zambialii.org/akn/zm/act/1994/32/eng@1994-10-21 | sha256:9d8479200ba7f2217a6a54fcd4ef285e5523770d76713a4f9e624bd9183fe8be | 0.4.0
 2026-04-17T10:08:51Z | act-zm-1981-008-management-services-board-act-1981 | https://zambialii.org/akn/zm/act/1981/8/eng@1996-12-31 | sha256:24e731646cbb886c5a17f66c947541e8a4dc5a2cbd979a4b95e0e9d029d47d90 | 0.4.0
+2026-04-17T12:30:00Z batch-0125 act-zm-1985-014-medical-services-act--1985 source=https://www.zambialii.org/akn/zm/act/1985/14/eng@1985-04-12/source.pdf parser=0.3.0-pdf
+2026-04-17T12:30:00Z batch-0125 act-zm-2013-006-millennium-challenge-compact-act--2013 source=https://www.zambialii.org/akn/zm/act/2013/6/eng@2013-03-22/source.pdf parser=0.3.0-pdf
+2026-04-17T12:30:00Z batch-0125 act-zm-1982-025-minimum-wages-and-conditions-of-employment--1982 source=https://www.zambialii.org/akn/zm/act/1982/25/eng@1996-12-31 parser=0.3.0
+2026-04-17T12:30:00Z batch-0125 act-zm-1968-025-misrepresentation-act--1968 source=https://www.zambialii.org/akn/zm/act/1968/25/eng@1996-12-31 parser=0.3.0
+2026-04-17T12:30:00Z batch-0125 act-zm-1992-031-ministerial-and-parliamentary-offices--emoluments--act--1992 source=https://www.zambialii.org/akn/zm/act/1992/31/eng@1996-12-31 parser=0.3.0
+2026-04-17T12:30:00Z batch-0125 act-zm-1975-021-medical-aid-societies-and-nursing-homes--dissolution-and-prohibition--act--1975 source=https://www.zambialii.org/akn/zm/act/1975/21/eng@1996-12-31 parser=0.3.0
+2026-04-17T12:30:00Z batch-0125 act-zm-1973-020-medical-examination-of-young-persons--underground-work--act--1973 source=https://www.zambialii.org/akn/zm/act/1973/20/eng@1996-12-31 parser=0.3.0
+2026-04-17T12:30:00Z batch-0125 act-zm-1969-013-merchant-shipping--temporary-provisions--act--1969 source=https://www.zambialii.org/akn/zm/act/1969/13/eng@1996-12-31 parser=0.3.0
