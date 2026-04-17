@@ -354,3 +354,98 @@ consider Government Gazette or direct MMMD/MoJ request).
 
 ## Batch 0075 — Notes (2026-04-15T07:43:47Z)
 - Access to Information Act 2023, Agricultural Credits Act 2010, Agricultural Institute of Zambia Act 2017, Animal Health Act 2010: HTML pages had 0 AKN sections; fell back to PDF source successfully.
+
+## act-zm-2006-009-citizens-economic-empowerment-act (Batch 0080)
+- Source: https://zambialii.org/akn/zm/act/2006/9/eng@2006-05-19/source.pdf
+- Issue: Scanned PDF — 0 extractable text sections. Needs OCR or alternative source.
+- Logged: 2026-04-15T00:00:00Z
+
+## Batch 0082 — ZambiaLII Connectivity Failure (2026-04-15T14:30:00Z)
+- All 8 targets failed due to SSL errors (UNEXPECTED_EOF_WHILE_READING) — zambialii.org appears to be experiencing infrastructure issues.
+- Council of Law Reporting Act, 1967 returned HTTP 500.
+- Targets deferred to next tick: Constitution of Zambia Act 1991, Constitution of Zambia Act 1996, Consular Conventions Act 1951, Control of Goods Act 1954, Copperbelt University Act 1987, Council of Law Reporting Act 1967, Dangerous Drugs Act 1967, Debtors Act 1938.
+
+## Batch 0083 — Issues (2026-04-15T12:37:07Z)
+- act-zm-1951-026-consular-conventions-act-1951: HTTP unknown
+  URL: https://zambialii.org/akn/zm/act/1951/26/eng@1996-12-31
+- act-zm-1954-015-control-of-goods-act-1954: HTTP unknown
+  URL: https://zambialii.org/akn/zm/act/1954/15/eng@1996-12-31
+- act-zm-1987-019-copperbelt-university-act-1987: HTTP unknown
+  URL: https://zambialii.org/akn/zm/act/1987/19/eng@1996-12-31
+- act-zm-1967-007-council-of-law-reporting-act-1967: HTTP unknown
+  URL: https://zambialii.org/akn/zm/act/1967/7/eng@1996-12-31
+- act-zm-1938-001-debtors-act-1938: HTTP unknown
+  URL: https://zambialii.org/akn/zm/act/1938/1/eng@1996-12-31
+## act-zm-2017-013 — Compulsory Standards Act, 2017 (Batch 0084)
+- HTML: https://zambialii.org/akn/zm/act/2017/13/eng@2017-07-07 → status 404
+- PDF: https://zambialii.org/akn/zm/act/2017/13/eng@2017-07-07/source.pdf → status 404
+- Issue: Both HTML and PDF fetch failed.
+- Logged: 2026-04-15T13:04:59Z
+
+## act-zm-2018-011 — Constituency Development Fund Act, 2018 (Batch 0084)
+- HTML: https://zambialii.org/akn/zm/act/2018/11/eng@2018-08-17 → status 404
+- PDF: https://zambialii.org/akn/zm/act/2018/11/eng@2018-08-17/source.pdf → status 404
+- Issue: Both HTML and PDF fetch failed.
+- Logged: 2026-04-15T13:05:10Z
+
+## act-zm-2023-029 — Consumer Credit Act, 2023 (Batch 0084)
+- HTML: https://zambialii.org/akn/zm/act/2023/29/eng@2023-08-28 → status 404
+- PDF: https://zambialii.org/akn/zm/act/2023/29/eng@2023-08-28/source.pdf → status 404
+- Issue: Both HTML and PDF fetch failed.
+- Logged: 2026-04-15T13:05:21Z
+
+## act-zm-1964-047 — Control of Dogs Act, 1964 (Batch 0084)
+- HTML: https://zambialii.org/akn/zm/act/1964/47/eng@1996-12-31 → status 404
+- PDF: https://zambialii.org/akn/zm/act/1964/47/eng@1996-12-31/source.pdf → status 404
+- Issue: Both HTML and PDF fetch failed.
+- Logged: 2026-04-15T13:05:32Z
+
+## act-zm-2017-009 — Corporate Insolvency Act, 2017 (Batch 0084)
+- HTML: https://zambialii.org/akn/zm/act/2017/9/eng@2017-07-07 → status 404
+- PDF: https://zambialii.org/akn/zm/act/2017/9/eng@2017-07-07/source.pdf → status 404
+- Issue: Both HTML and PDF fetch failed.
+- Logged: 2026-04-15T13:05:43Z
+
+## act-zm-2021-037 — Correctional Service Act, 2021 (Batch 0084)
+- HTML: https://zambialii.org/akn/zm/act/2021/37/eng@2021-12-31 → status 404
+- PDF: https://zambialii.org/akn/zm/act/2021/37/eng@2021-12-31/source.pdf → status 404
+- Issue: Both HTML and PDF fetch failed.
+- Logged: 2026-04-15T13:05:54Z
+
+## act-zm-2005-021 — Cotton Act, 2005 (Batch 0084)
+- HTML: https://zambialii.org/akn/zm/act/2005/21/eng@2005-12-31 → status 404
+- PDF: https://zambialii.org/akn/zm/act/2005/21/eng@2005-12-31/source.pdf → status 404
+- Issue: Both HTML and PDF fetch failed.
+- Logged: 2026-04-15T13:06:04Z
+
+
+## Batch 0085 — Listing fetch failed
+- URL: https://zambialii.org/legislation/act
+- Error: Acts listing returned 404
+- Logged: 2026-04-15T13:35:38Z
+
+
+## Batch 0085 — Integrity check failures
+- HASH MISMATCH: act-zm-1995-005-affiliation-and-maintenance-of-children-act-1995
+- HASH MISMATCH: act-zm-1980-009-appropriation-act-1980
+- HASH MISMATCH: act-zm-1981-012-appropriation-act-1981
+- HASH MISMATCH: act-zm-1982-015-appropriation-act-1982
+- HASH MISMATCH: act-zm-1983-014-appropriation-act-1983
+- HASH MISMATCH: act-zm-1984-013-appropriation-act-1984
+- HASH MISMATCH: act-zm-1985-016-appropriation-act-1985
+- Logged: 2026-04-15T13:40:50Z
+
+
+## 2026-04-15 Batch 0094 — PDF-only acts (0 sections from HTML)
+
+- **High Court Act (Cap. 27)** — Act No. 41 of 1960: ZambiaLII HTML page is a landing stub. Full text in PDF (307.5 KB). URL: https://zambialii.org/akn/zm/act/1960/41/eng@1996-12-31. Record created with 0 sections. Needs PDF re-parse.
+- **Judgments Act (Cap. 81)** — Act No. 10 of 1961: ZambiaLII HTML page is a landing stub. Full text in PDF (146.7 KB). URL: https://zambialii.org/akn/zm/act/1961/10/eng@1996-12-31. Record created with 0 sections. Needs PDF re-parse.
+
+## Batch 0102 — 2026-04-16
+- `act-zm-2025-2025-access-to-information-guidelines-2025`: Access to Information Guidelines, 2025 (GN 1624 of 2025) — 0 sections parsed from PDF. PDF may be scanned image or non-standard layout. Needs manual review or OCR re-parse.
+
+## 2026-04-17 Batch 0117
+
+- **Arbitration Act, 2000** (Act No. 19 of 2000): ZambiaLII source PDF is a scanned image (35 pages, 35 chars extracted). Cannot parse sections with pdfplumber. Requires OCR processing. Raw file saved at raw/zambialii/act-zm-2000-019-arbitration-act-2000.pdf. Record created with 0 sections — needs manual OCR or alternative source.
+- **Cheques Act, 1959**: Already exists at records/acts/1959/act-zm-1959-005-cheques-act-1959.json (16 sections). New fetch has fewer sections (3). Duplicate flat file created but NOT committed.
+- **Chiefs Act, 1965**: Already exists at records/acts/1965/act-zm-1965-067-chiefs-act-1965.json (37 sections). New fetch has fewer sections (9). Duplicate flat file created but NOT committed.

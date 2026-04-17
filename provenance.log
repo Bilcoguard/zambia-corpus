@@ -1065,3 +1065,9 @@
 2026-04-17T06:30:05Z batch-0116 act-zm-1989-005-intestate-succession-act-1989 source=https://www.zambialii.org/akn/zm/act/1989/5/eng@1996-12-31 parser=0.4.0 sections=26
 2026-04-17T06:30:05Z batch-0116 act-zm-1973-023-law-association-zambia-act-1973 source=https://www.zambialii.org/akn/zm/act/1973/23/eng@2006-05-19 parser=0.4.0 sections=12
 2026-04-17T06:30:05Z batch-0116 act-zm-2023-003-examinations-council-zambia-act-2023 source=https://www.zambialii.org/akn/zm/act/2023/3/eng@2023-04-18/source parser=0.4.0 sections=82
+2026-04-17T06:40:18Z batch-0117 act-zm-2000-019-arbitration-act-2000 source=zambialii hash=sha256:from_pdf parser=0.5.0 sections=0 note=scanned_pdf_ocr_needed
+2026-04-17T06:40:23Z batch-0117 act-zm-1967-027-bankruptcy-act-1967 source=zambialii hash=sha256:from_html parser=0.5.0 sections=91
+2026-04-17T06:40:28Z batch-0117 act-zm-2007-010-biosafety-act-2007 source=zambialii hash=sha256:from_html parser=0.5.0 sections=52
+2026-04-17T06:40:33Z batch-0117 act-zm-1955-010-census-and-statistics-act-1955 source=zambialii hash=sha256:from_html parser=0.5.0 sections=9
+2026-04-17T06:40:43Z batch-0117 act-zm-2008-013-accountants-act-2008 source=zambialii hash=sha256:from_pdf parser=0.5.0 sections=119
+2026-04-17T06:40:48Z batch-0117 act-zm-1913-012-brands-act-1913 source=zambialii hash=sha256:from_html parser=0.5.0 sections=4
