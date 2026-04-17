@@ -2,9 +2,9 @@
   "id": "act-zm-2019-010-nurses-and-midwives-act-2019",
   "type": "act",
   "jurisdiction": "ZM",
-  "title": "The Nurses and Midwives Act 2019",
+  "title": "Nurses and Midwives Act, 2019",
   "citation": "Act No. 10 of 2019",
-  "date_of_assent": null,
+  "enacted_date": "2019-12-06",
   "commencement_date": null,
   "in_force": true,
   "amended_by": [],
@@ -746,10 +746,11 @@
       "text": "betransferredto,vestinandsubsistagainst,theCouncil byvirtue assets and\nofthisActandwithoutfurtherassurance,the assets,rights,liabilities liabilities\nandobligationswhichimmediatelybeforethecommencementof\nthisAct were the assets, rights, liabilities and obligations of the\nformerCouncil.\n(2) Subjecttosubparagraph(1),everydeed,bondoragreement,\notherthananagreementforpersonalservice,towhichtheformer\nCouncil was a party immediately before the commencement of\nthis Act whether or not of a nature that rights, liabilities and\nobligations could be assigned, shall, unless its subject matter or\ntermsmakeitimpossiblethatitshouldhaveeffectasmodified,as\nprovidedunderthisparagraph,haveeffectasif-\n(a)theCouncilhadbeenpartytoit;\n(b) for any reference to the former Council there were\nsubstituted,withrespecttoanythingrequiredtobedone\nonorafterthecommencement ofthisAct,areference\ntotheCouncil;or\n(c)foranyreferencetoanofficeroftheformerCouncil,not\nbeingapartytoitandbeneficiallyinterested,therewere\nsubstituted,withrespecttoanythingrequiredtobedone\nonorafterthecommencement ofthisAct,areference\nto such officer of the Council as the Council shall\ndesignate.\n(3) Where under this Act, any assets, rights, liabilities and\nobligationsoftheformerCouncilareconsideredtobetransferred\ntotheCouncilinrespectofwhichtransferawrittenlawprovides\n308 No. 10 of 2019] Nurses and Midwives\nforregistration,theCouncilshallmakeanapplication,inwriting,to\ntheappropriateregistrationauthorityforregistrationofthetransfer.\n(4) The registration authority referred to in subparagraph (3)\nshall make such entries in the appropriate register as shall give\neffecttothetransferand,whereapplicable,issuetothetransferee\nconcernedacertificate oftitle inrespect ofthe propertyormake\nnecessaryamendmentstotheregisterandshallendorsethedeeds\nrelatingtothetitle,rightorobligationconcernedandregistration\nfeesorotherdutiesshallnotbepayableinrespectofthetransaction.\nLegal 4. (1) Any legal proceedings or application of the former\nproceedings Council pending immediately before the commencement of this\nActbyoragainsttheformerCouncilmaybecontinuedbyoragainst\ntheCouncil.\n(2) AfterthecommencementofthisAct,proceedingsinrespect\nofanyright,liabilityorobligationwhichwasvestedin,held,enjoyed,\nincurredorsufferedbytheformerCouncil,maybeinstitutedby or\nagainsttheCouncil."
     }
   ],
-  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Nurses%20and%20Midwives%20%20Act%20No.%2010%20of%202019.%20pmd.pdf",
+  "source_url": "https://www.zambialii.org/akn/zm/act/2019/10/eng@2019-12-06",
   "source_hash": "sha256:04bf77f010f8dfcba8f0b3cdab4d66e3b84665f9e35c221fd22c93b0021b8917",
-  "node_url": "https://www.parliament.gov.zm/node/8266",
   "fetched_at": "2026-04-17T11:06:17Z",
   "parser_version": "0.4.0",
-  "raw_path": "raw/zambialii/2019/nurses-and-midwives-act-2019.pdf"
+  "raw_path": "raw/zambialii/2019/nurses-and-midwives-act-2019.pdf",
+  "_tombstone": true,
+  "_tombstone_reason": "Duplicate of records/acts/act-zm-2019-010-nurses-and-midwives-act-2019.json, data merged into existing record"
 }
