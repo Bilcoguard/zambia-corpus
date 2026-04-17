@@ -1,0 +1,33 @@
+{
+  "id": "act-zm-1997-001-mineral-royalty-repeal-act-1997",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Mineral Royalty (Repeal) Act, 1997",
+  "citation": "Act No. 1 of 1997",
+  "enacted_date": "1997-04-18",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Short",
+      "text": "Short title and commencement ................................................................................................................................................................. 1"
+    },
+    {
+      "number": "1",
+      "heading": "Short",
+      "text": "Short title and commencement"
+    },
+    {
+      "number": "2",
+      "heading": "Repeal",
+      "text": "Repeal of Cap. 215"
+    }
+  ],
+  "source_url": "https://www.zambialii.org/akn/zm/act/1997/1/eng@1997-04-18",
+  "source_hash": "sha256:ef4a097eee292db0410a929a8848d05e8d7bde04a97e865f2075583de7b67da8",
+  "fetched_at": "2026-04-17T14:13:05Z",
+  "parser_version": "0.1.0"
+}
