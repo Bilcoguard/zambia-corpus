@@ -1,0 +1,793 @@
+{
+  "id": "act-zm-2016-movable-property-security-interests-act-2016",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Movable Property (Security Interests) Act, 2016",
+  "citation": null,
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Short title",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "Interpretation",
+      "text": ""
+    },
+    {
+      "number": "3",
+      "heading": "Application and non-application of Act",
+      "text": ""
+    },
+    {
+      "number": "4",
+      "heading": "Conflict of laws",
+      "text": ""
+    },
+    {
+      "number": "5",
+      "heading": "Bankruptcy and insolvency proceedings",
+      "text": ""
+    },
+    {
+      "number": "6",
+      "heading": "Supremacy of Act",
+      "text": "PART II COLLATERAL REGISTRY OFFICE AND COLLATERAL REGISTRY"
+    },
+    {
+      "number": "7",
+      "heading": "Establishment of Collateral Registry Office and",
+      "text": "administration of Act"
+    },
+    {
+      "number": "8",
+      "heading": "Functions of Registrar",
+      "text": ""
+    },
+    {
+      "number": "9",
+      "heading": "Delegation of functions",
+      "text": ""
+    },
+    {
+      "number": "10",
+      "heading": "Officers of Collateral Registry Office",
+      "text": ""
+    },
+    {
+      "number": "11",
+      "heading": "Establishment of Collateral Registry and storage of",
+      "text": "information"
+    },
+    {
+      "number": "12",
+      "heading": "Financing statements and registration",
+      "text": ""
+    },
+    {
+      "number": "13",
+      "heading": "Information required to register financing statement",
+      "text": ""
+    },
+    {
+      "number": "14",
+      "heading": "Non-registration of financing statement",
+      "text": ""
+    },
+    {
+      "number": "15",
+      "heading": "Effect of registration",
+      "text": ""
+    },
+    {
+      "number": "16",
+      "heading": "Confirmation statement",
+      "text": ""
+    },
+    {
+      "number": "17",
+      "heading": "Invalidity of registration of financing statement",
+      "text": ""
+    },
+    {
+      "number": "18",
+      "heading": "Validity of registered financing statement",
+      "text": ""
+    },
+    {
+      "number": "19",
+      "heading": "Duration of registration and renewal",
+      "text": ""
+    },
+    {
+      "number": "20",
+      "heading": "Transfer of financing statement",
+      "text": ""
+    },
+    {
+      "number": "21",
+      "heading": "Amendment or discharge of financing statement",
+      "text": "Single copies of this Act may be obtained from the Government Printer P.O. Box 30136, 10101 Lusaka. Price K48.00 120 No. 3 of 2016] Movable Property (Security Interest)"
+    },
+    {
+      "number": "22",
+      "heading": "Discharge of registration relating to consumer goods",
+      "text": ""
+    },
+    {
+      "number": "23",
+      "heading": "Demand by debtor to amend or discharge registration",
+      "text": ""
+    },
+    {
+      "number": "24",
+      "heading": "Amendment or discharge by court order",
+      "text": ""
+    },
+    {
+      "number": "25",
+      "heading": "System malfunction",
+      "text": ""
+    },
+    {
+      "number": "26",
+      "heading": "Access to Collateral Registry, inspection and copies",
+      "text": ""
+    },
+    {
+      "number": "27",
+      "heading": "Evidentiary provisions",
+      "text": ""
+    },
+    {
+      "number": "28",
+      "heading": "Certificate of status of registered financing statement",
+      "text": ""
+    },
+    {
+      "number": "29",
+      "heading": "Appeal against decision of Registrar",
+      "text": ""
+    },
+    {
+      "number": "30",
+      "heading": "Oaths and affirmations",
+      "text": ""
+    },
+    {
+      "number": "31",
+      "heading": "Registrar to appear in legal proceedings",
+      "text": ""
+    },
+    {
+      "number": "32",
+      "heading": "Regulations on registration processes and procedures",
+      "text": "PART III CREATION OF SECURITY INTERESTS"
+    },
+    {
+      "number": "33",
+      "heading": "Creation of security interest and effectiveness",
+      "text": ""
+    },
+    {
+      "number": "34",
+      "heading": "Security agreements",
+      "text": ""
+    },
+    {
+      "number": "35",
+      "heading": "Description of collateral in security agreement",
+      "text": ""
+    },
+    {
+      "number": "36",
+      "heading": "Effectiveness of security interest generally",
+      "text": ""
+    },
+    {
+      "number": "37",
+      "heading": "Creation of security interest in after-acquired movable",
+      "text": "property"
+    },
+    {
+      "number": "38",
+      "heading": "Continuation of security interest to proceeds or, commingled",
+      "text": "property"
+    },
+    {
+      "number": "39",
+      "heading": "Rights of debtor in collateral",
+      "text": ""
+    },
+    {
+      "number": "40",
+      "heading": "Debtor may transfer collateral",
+      "text": ""
+    },
+    {
+      "number": "41",
+      "heading": "Effectiveness of security interests in after-acquired movable",
+      "text": "property"
+    },
+    {
+      "number": "42",
+      "heading": "Ineffectiveness of assignment clauses",
+      "text": ""
+    },
+    {
+      "number": "43",
+      "heading": "Security interest created in negotiable document",
+      "text": "PART IV PERFECTION OF SECURITY INTERESTS"
+    },
+    {
+      "number": "44",
+      "heading": "Perfection of security interests",
+      "text": ""
+    },
+    {
+      "number": "45",
+      "heading": "Continuity of perfection",
+      "text": ""
+    },
+    {
+      "number": "46",
+      "heading": "Continuation of perfection of security interest in proceeds",
+      "text": ""
+    },
+    {
+      "number": "47",
+      "heading": "Temporary perfection of security interest in proceeds",
+      "text": "Movable Property (Security Interest) [No. 3 of 2016 121"
+    },
+    {
+      "number": "48",
+      "heading": "Continuation of perfection in transferred collateral",
+      "text": ""
+    },
+    {
+      "number": "49",
+      "heading": "Perfection with respect to a negotiable document, negotiable",
+      "text": "instrument and investment security certificate"
+    },
+    {
+      "number": "50",
+      "heading": "Perfection where goods with bailee",
+      "text": ""
+    },
+    {
+      "number": "51",
+      "heading": "Security interest in farm products",
+      "text": "PART V PRIORITY BETWEEN SECURITY INTERESTS AND OTHER INTERESTS"
+    },
+    {
+      "number": "52",
+      "heading": "Priority of security interests in same collateral",
+      "text": ""
+    },
+    {
+      "number": "53",
+      "heading": "Same priority for original collateral and proceeds",
+      "text": ""
+    },
+    {
+      "number": "54",
+      "heading": "Transfer of security interest not to affect priority",
+      "text": ""
+    },
+    {
+      "number": "55",
+      "heading": "Voluntary subordination of priority",
+      "text": ""
+    },
+    {
+      "number": "56",
+      "heading": "Priority in secured obligations and advances",
+      "text": ""
+    },
+    {
+      "number": "57",
+      "heading": "Priority of purchase money security interest in collateral",
+      "text": "or proceeds"
+    },
+    {
+      "number": "58",
+      "heading": "Priority between purchase money security interests",
+      "text": ""
+    },
+    {
+      "number": "59",
+      "heading": "Priority of purchase money security interest in fixtures",
+      "text": ""
+    },
+    {
+      "number": "60",
+      "heading": "Priority of security interest in goods prior to accession",
+      "text": ""
+    },
+    {
+      "number": "61",
+      "heading": "Priority of security interest in processed or commingled",
+      "text": "goods"
+    },
+    {
+      "number": "62",
+      "heading": "Priority of security interests in bank account",
+      "text": ""
+    },
+    {
+      "number": "63",
+      "heading": "Priority of security interest transferred by debtor",
+      "text": ""
+    },
+    {
+      "number": "64",
+      "heading": "Priority of creditor who receives payment",
+      "text": ""
+    },
+    {
+      "number": "65",
+      "heading": "Priority of purchaser of negotiable instrument, investment",
+      "text": "security or negotiable document"
+    },
+    {
+      "number": "66",
+      "heading": "Priority of interest of assignee of account receivable",
+      "text": ""
+    },
+    {
+      "number": "67",
+      "heading": "Rights of buyer or lessee of goods",
+      "text": ""
+    },
+    {
+      "number": "68",
+      "heading": "Priority of lien over security interest relating to same goods",
+      "text": ""
+    },
+    {
+      "number": "69",
+      "heading": "Priority of judgment creditor and lien holder over",
+      "text": "unperfected security interest 122 No. 3 of 2016] Movable Property (Security Interest) PART VI ENFORCEMENT OF SECURITY INTERESTS"
+    },
+    {
+      "number": "70",
+      "heading": "Application of Part",
+      "text": ""
+    },
+    {
+      "number": "71",
+      "heading": "Registration of enforcement notice",
+      "text": ""
+    },
+    {
+      "number": "72",
+      "heading": "Secured creditor taking possession and disposing collateral",
+      "text": ""
+    },
+    {
+      "number": "73",
+      "heading": "Secured creditor rendering collateral unusable",
+      "text": ""
+    },
+    {
+      "number": "74",
+      "heading": "Secured creditor applying collateral in satisfaction of",
+      "text": "secured obligation"
+    },
+    {
+      "number": "75",
+      "heading": "Disposal of collateral by secured creditor",
+      "text": ""
+    },
+    {
+      "number": "76",
+      "heading": "Duty of secured creditor disposing collateral",
+      "text": ""
+    },
+    {
+      "number": "77",
+      "heading": "Power of disposal in negotiable document and related goods",
+      "text": ""
+    },
+    {
+      "number": "78",
+      "heading": "Method of disposal of collateral",
+      "text": ""
+    },
+    {
+      "number": "79",
+      "heading": "Notice of disposal of collateral",
+      "text": ""
+    },
+    {
+      "number": "80",
+      "heading": "Extinguishment of subordinate security interest after",
+      "text": "disposal"
+    },
+    {
+      "number": "81",
+      "heading": "Secured creditor to give statement of account to debtor",
+      "text": ""
+    },
+    {
+      "number": "82",
+      "heading": "Distribution of proceeds after disposal",
+      "text": ""
+    },
+    {
+      "number": "83",
+      "heading": "Proposal and notice of retention",
+      "text": ""
+    },
+    {
+      "number": "84",
+      "heading": "Objection to notice of retention",
+      "text": ""
+    },
+    {
+      "number": "85",
+      "heading": "Redemption of collateral by entitled persons",
+      "text": ""
+    },
+    {
+      "number": "86",
+      "heading": "Debtor reinstating security agreement",
+      "text": "PART VII GENERAL PROVISIONS AND OFFENCES"
+    },
+    {
+      "number": "87",
+      "heading": "Rights, duties and obligations to be exercised in good faith",
+      "text": "and commercial reasonableness"
+    },
+    {
+      "number": "88",
+      "heading": "Amendment of financing statement to indicate content of",
+      "text": "commercial document"
+    },
+    {
+      "number": "89",
+      "heading": "Entitlement to damages for breach of obligation",
+      "text": ""
+    },
+    {
+      "number": "90",
+      "heading": "Exemption from liability for actions or omissions",
+      "text": ""
+    },
+    {
+      "number": "91",
+      "heading": "Secured creditor to provide information to debtor",
+      "text": ""
+    },
+    {
+      "number": "92",
+      "heading": "Service of documents or notices",
+      "text": "Movable Property (Security Interest) [No. 3 of 2016 123"
+    },
+    {
+      "number": "93",
+      "heading": "Fraudulent financing statement",
+      "text": ""
+    },
+    {
+      "number": "94",
+      "heading": "Submission of frivolous, malicious, etc financing statement",
+      "text": ""
+    },
+    {
+      "number": "95",
+      "heading": "Falsification of entries in register",
+      "text": ""
+    },
+    {
+      "number": "96",
+      "heading": "Altering of documents",
+      "text": ""
+    },
+    {
+      "number": "97",
+      "heading": "Deceiving or influencing Registrar or officer",
+      "text": ""
+    },
+    {
+      "number": "98",
+      "heading": "Administrative penalty",
+      "text": ""
+    },
+    {
+      "number": "99",
+      "heading": "General penalties",
+      "text": ""
+    },
+    {
+      "number": "100",
+      "heading": "Regulations",
+      "text": ""
+    },
+    {
+      "number": "101",
+      "heading": "Savings and transitional provisions",
+      "text": "SCHEDULE Movable Property (Security Interest) [No. 3 of 2016 125 GOVERNMENT OF ZAMBIA ACT No. 3 of 2016 Date of Assent: 5th April, 2016 An Act to provide for the creation of security interests in movable property so as to contribute to economic development; harmonise secured transaction laws; provide for harmonisation of conflict of laws in order to promote the financing of international trade and make security interests effective against third parties; enhance the availability of low-cost secured credit to allow debtors to use the full value inherent in their assets to support credit; establish a Collateral Office and Collateral Registry for a single comprehensive registration regime for secured transactions in movable property; establish streamlined procedures for obtaining security interests and reducing transaction costs by minimising formalities; ensure effectiveness of security agreements and enforceability of security agreements and interests; provide for perfection of security "
+    },
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Movable Property (Security Short title",
+      "text": "Interests) Act, 2016."
+    },
+    {
+      "number": "2",
+      "heading": "(1) In this Act, unless the context otherwise requires— Interpretation",
+      "text": "“accession” means goods that are physically attached to other goods without losing the identity of each group of goods which maintain their original identity; 126 No. 3 of 2016] Movable Property (Security Interest) “ account debtor ” means a person liable for payment of an account receivable and includes a guarantor or other person with secondary liability for payment of the account receivable; “ account receivable ” means a right to payment of a monetary obligation, excluding a right to payment evidenced by a negotiable instrument and to payment of money credited to a bank account; “ after-acquired property ” means movable property that a debtor acquires after the conclusion of a security agreement; “ Agency ” means the Patents and Companies Registration Act No. 15 Agency established under the Patents and Companies of 2010 Registration Agency Act, 2010; “ assignee ” means a person to whom an assignment of an account receivable is made; “ bank ” has the meaning assigned to it in the Ba"
+    },
+    {
+      "number": "4",
+      "heading": "(1) This Act applies to the creation, perfection and priority Conflict of",
+      "text": "of a security interest where the— laws (a) tangible asset is located in Zambia; (b) debtor is located in Zambia where the collateral is an intangible asset; (c) debtor is located in Zambia and the tangible asset is of a type ordinarily used in more than one country; or (d) bank account is maintained in a bank or financial institution that has a place of business in Zambia. (2) The law applicable to the mutual rights and obligations of a debtor and secured creditor arising from a security agreement shall be the law chosen by the parties and, in the absence of a choice of law, by the law governing the security agreement. (3) For the purposes of this Act— 134 No. 3 of 2016] Movable Property (Security Interest) (a) a debtor is located in Zambia if the debtor has a place of business in Zambia; (b) the habitual residence of the debtor shall apply if the debtor does not have a place of business in Zambia; and (c) the location of the property or debtor shall be determined at the time of the cr"
+    },
+    {
+      "number": "7",
+      "heading": "(1) There is established in the Agency the Collateral Registry Establishment",
+      "text": "Office which shall be responsible for the Collateral Registry and of Collateral Registry any other related functions, under the general direction of the Board. Office and administration (2) The Agency shall administer this Act. of Act (3) The seal of the Agency, kept in terms of the Patents and Act No. 15 Companies Registration Agency Act, 2010 shall be used for of 2010 purposes of this Act and the impression made for such purposes shall be judicially noticed."
+    },
+    {
+      "number": "8",
+      "heading": "(1) The Registrar shall, in addition to the Registrar’s other Functions of",
+      "text": "functions and powers as specified in the Patents and Companies Registrar Act No. 15 Registration Agency Act, 2010 and any other law, exercise the of 2010 powers and perform the functions conferred on the Registrar in this Act. (2) The functions of the Registrar shall be to manage and facilitate electronic access by users of the Collateral Registry, process fees, oversee the operation and maintenance of the registration system and gather statistical data relating to the Collateral Registry. (3) The Registrar or an officer shall not give legal advice on the legal requirements for registration and search or on the legal effects of registration and search, except that the Registrar or an officer may give practical advice relating to registration and search processes. 136 No. 3 of 2016] Movable Property (Security Interest) (4) The Registrar or an officer shall not alter or remove information in a registered financing statement or amendment to a registered financing statement. Delegation 9. "
+    },
+    {
+      "number": "12",
+      "heading": "(1) A debtor who enters into a security agreement",
+      "text": "Financing statements automatically authorises the registration of a financing statement and and any amendments to be done to the registered financing statement. registration (2) A single financing statement may relate to one or more than one security interest created by a debtor in favour of the same secured creditor whether they arise under one or more than one security agreements between the same parties. (3) A creditor or agent of the creditor may register a financing statement before or after a security agreement is made. Movable Property (Security Interest) [No. 3 of 2016 137 (4) A debtor may authorise, in writing, registration of a financing statement prior to the conclusion of a security agreement. (5) The Registrar shall not conduct any scrutiny of the information provided in a financing statement or be responsible for the accuracy or legality of the information in a financing statement."
+    },
+    {
+      "number": "13",
+      "heading": "(1) A secured creditor who intends to register a financing Information",
+      "text": "statement in the Collateral Registry shall ensure that the financing required to register statement contains the following information: financing statement (a) in the case where the debtor is a natural person, the name, date of birth, identification number and address of the debtor; (b) in the case where the debtor is a corporate or unincorporated body, as the case may be, the name, address, registration or incorporation number of the corporate or unincorporated body and the name or job title and contact details of the person acting on behalf of the corporate or unincorporated body; (c) in the case of a natural person, the name, date of birth, identification number and address of the secured creditor; (d) in the case of a corporate or unincorporated body, as the case may be, the name, address, registration or incorporation number of the corporate or unincorporated body and the name or job title and contact details of the person acting on behalf of the corporate or unincorporated body; "
+    },
+    {
+      "number": "18",
+      "heading": "(1) Subject to section seventeen, the validity of a registered Validity of",
+      "text": "financing statement is not affected by any defect, irregularity, registered financing omission or error in the financing statement, unless the defect, statement irregularity, omission or error is of a material nature and is seriously misleading as specified in section seventeen. (2) For the avoidance of doubt, in order to establish that a defect, irregularity, omission or error is of a material nature and is seriously misleading, it shall not be necessary to prove that a person was actually misled by it. 140 No. 3 of 2016] Movable Property (Security Interest) (3) The failure to include a description of any item or kind of collateral in a financing statement or amendment to a registered financing statement or an inadequate description of the collateral shall not affect the validity of the registered financing statement in respect of the description of another collateral included in the registered financing statement or amendment to the registered financing statement. Duration of 19. (1)"
+    },
+    {
+      "number": "21",
+      "heading": "(1) A registered financing statement may be amended or Amendment",
+      "text": "discharged by the secured creditor by registering the amendment or or discharge of financing discharge in the Collateral Registry at any time before expiration statement of its effectiveness. (2) An amendment to a registered financing statement, as provided in subsection (1), that— (a) adds collateral; (b) adds a new debtor; or (c) increases the maximum amount of the secured obligation; shall be effective from the date the amendment to the registered financing statement is registered in the Collateral Registry. (3) Where the debtor’s name and identification number changes in a manner that renders the registered financing statement no longer retrievable in a search, the security interest shall not be effective with respect to the collateral that the debtor acquired thirty days after the changed identification but the registration shall remain effective with respect to all pre-existing collateral and the collateral acquired by the debtor up to the thirty days after the changed identifica"
+    },
+    {
+      "number": "22",
+      "heading": "(1) Where a registered financing statement relates Discharge of",
+      "text": "exclusively to a security interest in consumer goods, a secured registration relating to creditor shall discharge the registered financing statement within consumer fourteen days after all obligations under the security agreement goods creating the security interest have been performed, unless the registration expires before that date. (2) An amendment to a registered financing statement which seeks to discharge the registered financing statement, as provided in subsection (1), shall be lodged in the Collateral Registry in the prescribed manner and form upon payment of the prescribed fee."
+    },
+    {
+      "number": "23",
+      "heading": "(1) A debtor may send a demand, in writing, to the secured Demand by",
+      "text": "creditor that the secured creditor discharges or registers an debtor to amend or amendment to the registered financing statement if— discharge registration (a) the secured creditor has agreed to release part of the collateral described in the registered financing statement; (b) the collateral described in the registered financing statement includes an item or kind of movable property that is not collateral under a security agreement; 142 No. 3 of 2016] Movable Property (Security Interest) (c) the obligations under the security agreement to which the registered financing statement relates have been performed and there is no commitment to make future advances; (d) no security agreement exists between the parties; or (e) the security interest is extinguished. (2) A secured creditor shall, upon receipt of a demand, made in accordance with subsection (1), and where the secured creditor has no objection, register the amendment to the registered financing statement or the discharge of the reg"
+    },
+    {
+      "number": "24",
+      "heading": "(1) If a secured creditor fails to comply with a demand made",
+      "text": "Amendment or discharge by a debtor, as specified in section twenty-three, the debtor may by court apply to a court for an order to amend the registered financing order statement or discharge the registered financing statement. (2) A court may issue an order to— (a) amend the registered financing statement; (b) discharge the registered financing statement; or (c) maintain the registered financing statement; and the secured creditor shall amend, discharge or maintain the registration of the registered financing statement and shall inform the debtor accordingly. System 25. (1) The Agency is responsible for the administration of the malfunction registration system. (2) Where a system malfunction occurs, the Agency shall restore or have the system restored. Access to 26. The Collateral Registry office shall be open to the public Collateral at reasonable working hours and any person may search the Registry, inspection Collateral Registry electronically and obtain a copy of the search and cop"
+    },
+    {
+      "number": "28",
+      "heading": "(1) The Registrar may, upon request and payment of a Certificate of",
+      "text": "status of prescribed fee, issue a certificate of status of a registered financing registered statement which conclusive evidence of the existence of the financing statement information in the Collateral Registry as of the date and time of the issuance of the certificate of status or a certified copy. (2) The Registrar shall, on the payment of the prescribed fee, provide a secured creditor or any other person with a certified copy of any document, stored in the Collateral Registry, which the secured creditor or any other person seeks to obtain."
+    },
+    {
+      "number": "29",
+      "heading": "A person aggrieved by a decision of the Registrar may Appeal",
+      "text": "against appeal to a court against the decision, within thirty days after the decision of date on which the person is notified of the decision, and the court Registrar may confirm, reverse or vary the decision or make such order or give such directions in the matter as are appropriate."
+    },
+    {
+      "number": "30",
+      "heading": "A person may take an oath or swear to the truth of an Oaths and",
+      "text": "affidavit or may, in lieu thereof, make an affirmation or declaration affirmations in accordance with the law relating to affirmations or declarations in Zambia, with respect to a matter under this Act."
+    },
+    {
+      "number": "31",
+      "heading": "(1) In a legal proceeding in which the relief sought includes Registrar",
+      "text": "to appear modification of information in the Collateral Registry, the Registrar in legal has the right to appear and be heard, and shall appear if so directed proceedings by a court. (2) The Registrar shall, unless otherwise directed by a court in lieu of appearing and being heard, submit to the court a written statement, signed by the Registrar, giving particulars of the matter in issue or of the grounds of a decision given by the Registrar affecting it or of the practice of the Collateral Registry in like cases or of such other matters relevant to the issues and within the Registrar’s knowledge as the Registrar may determine, and the statement shall be considered to form part of the evidence in the proceedings."
+    },
+    {
+      "number": "32",
+      "heading": "(1) The Minister may, by statutory instrument, make Regulations",
+      "text": "regulations for, or with respect to, any matter under this Part that is on registration necessary for carrying out or giving effect to the registration processes and processes and procedures. procedures (2) Without limiting the generality of subsection (1), regulations may be made on the following matters: (a) the conduct of the business of the Collateral Registry; 144 No. 3 of 2016] Movable Property (Security Interest) (b) the format of financing statements to be registered in the Collateral Registry; (c) the payment of fees in respect of a matter under this Part; (d) the procedure to be followed in connection with an application or request to the Registrar or any proceeding before the Registrar; (e) the provision of copies of any financing statements registered in the Collateral Registry and the certification of such copies; (f) the making of searches including the times when, and the manner in which, the searches may be made; (g) the service of notices and other documents with respe"
+    },
+    {
+      "number": "35",
+      "heading": "(1) A security interest created in respect of collateral is Description",
+      "text": "effective only if a security agreement contains adequate description of collateral in security of the collateral as specified under subsection (2). agreement (2) For the purposes of a security agreement, a description of collateral is adequate if the collateral is described by— (a) item, kind, type or category; or (b) a statement that a security interest is taken in the debtor’s present and afteracquired movable property, except for specified items or kinds of movable property as agreed by the parties. (3) A description of collateral is inadequate if it describes the collateral as consumer goods without specific description in accordance with paragraph (a) of subsection (2)."
+    },
+    {
+      "number": "36",
+      "heading": "(1) A security interest is effective when— Effectiveness",
+      "text": "of security (a) the debtor has rights in the collateral; interest generally (b) the security agreement is concluded on the dates agreed to by the parties; and (c) value is given by the secured creditor. (2) Subsection (1) shall not apply if the parties to a security agreement have agreed that a security interest shall be effective at a later time, in which case the security interest shall be effective at the time specified in the security agreement."
+    },
+    {
+      "number": "37",
+      "heading": "A security interest in after-acquired movable property is Creation of",
+      "text": "created without written consent or any further act of a debtor, except security interest in that where the after-acquired movable property is a consumer good, after- the debtor shall provide written consent. acquired movable property 146 No. 3 of 2016] Movable Property (Security Interest) Continuation 38. (1) A security interest automatically continues in the of security proceeds of the collateral, whether or not the security agreement interest to proceeds or, contains a description of the proceeds. commingled property (2) A security interest created in tangible property before being commingled property continues in the mass or product, except that such security interest is limited to the value of the collateral immediately before it became part of the commingled property. Rights of 39. (1) For the purposes of this Act— debtor in collateral (a) for as long as a transferee’s interest in accounts receivable remains unperfected, a debtor is considered to have rights and title to the accou"
+    },
+    {
+      "number": "42",
+      "heading": "(1) A security interest in an accounts receivable shall be Ineffectiveness",
+      "text": "effective between a debtor and a secured creditor and against the of assignment account debtor, despite any agreement limiting in any way the rights clauses of the debtor to transfer the accounts receivables, including the right to create a security interest. (2) This section does not affect an obligation or liability of a debtor for breach of an agreement, referred to in subsection (1), but the secured creditor may not avoid the security agreement on the sole ground of breach of the agreement. (3) A security interest in a bank account is effective, despite an agreement between the debtor and the bank or financial institution, except that the bank or financial institution shall not owe any duty to the secured creditor in the absence of the bank’s or financial institution’s consent."
+    },
+    {
+      "number": "43",
+      "heading": "A security interest created in a document of title extends to Security",
+      "text": "the goods covered by the negotiable document. interest created in negotiable PART IV document PERFECTION OF SECURITY INTERESTS"
+    },
+    {
+      "number": "44",
+      "heading": "(1) A security interest is perfected when— Perfection",
+      "text": "of security (a) the security interest has been created; and interests (b) either (i) a financing statement has been registered in respect of the security interest; (ii) the secured creditor, or another person acting on behalf of the secured creditor has possession of the collateral; or (iii) the secured creditor or another person acting on behalf of the secured creditor has control of the collateral that is a bank account. (2) Subsection (1), applies regardless of the order in which the steps referred to in paragraph (b) of subsection (1) have occurred. (3) Control exists, with respect to a bank account— (a) automatically upon the creation of a security interest if a bank or financial institution that maintains the bank account is the secured creditor; or (b) upon conclusion of a control agreement. 148 No. 3 of 2016] Movable Property (Security Interest) (4) For the purposes of this section, a secured creditor is not in possession of collateral that is in the actual or apparent possessi"
+    },
+    {
+      "number": "51",
+      "heading": "(1) For purposes of determining whether a security interest Security",
+      "text": "interest in in a farm product exits, it does not matter whether the farm product farm is stored, kept, growing or grown, as the case may be, on any other products land or premises. (2) A perfected security interest in a farm product is not extinguished or prejudicially affected by a subsequent sale, lease, mortgage or other encumbrance of, or upon, the land on which the farm product is stored, kept, growing or grown, as the case may be. PART V PRIORITY BETWEEN SECURITY INTERESTS AND OTHER INTERESTS"
+    },
+    {
+      "number": "52",
+      "heading": "Priority between security interests is determined as follows: Priority of",
+      "text": "security (a) a perfected security interest shall have priority over an interests in same unperfected security interest; collateral (b) as between two or more perfected security interests, priority shall be determined by the order of the following actions, whichever first occurs: (i) the registration of a financing statement; (ii) the secured creditor, or another person acting on the secured creditor’s behalf, taking possession of the collateral; or (iii) the secured creditor, or another person acting on the secured creditor’s behalf, acquires control of the collateral; and (c) between unperfected security interests in the same collateral, priority shall be determined by the order in the date of creation of the security interest. 150 No. 3 of 2016] Movable Property (Security Interest) Same 53. The priority of a security interest in original collateral is priority for the same priority that shall be accorded to its proceeds. original collateral and proceeds Transfer of 54. A security int"
+    },
+    {
+      "number": "59",
+      "heading": "A purchase money security interest in fixtures has priority Priority of",
+      "text": "as against a third party which has existing rights in the immovable purchase money property provided that the financing statement is registered in the security interest in Collateral Registry before the third party acquires rights in the fixtures immovable property."
+    },
+    {
+      "number": "60",
+      "heading": "A security interest in goods that is created and perfected Priority of",
+      "text": "before the goods become an accession has priority over a claim to security interest in the goods as an accession made by a person with an interest in the goods prior to accession whole."
+    },
+    {
+      "number": "61",
+      "heading": "(1) A perfected security interest in goods that subsequently Priority of",
+      "text": "become part of a product or mass continues as a perfected security security interest in interest in the product or mass, if the goods are so manufactured, processed or commingled processed, assembled or commingled that their identity is lost in goods the product or mass. (2) If more than one security interest is perfected in the goods before they become part of a product or mass, the security interests rank equally in proportion to the value of the goods at the time they became part of the product or mass."
+    },
+    {
+      "number": "62",
+      "heading": "(1) A security interest in a bank account perfected by control Priority of",
+      "text": "security has priority as against a competing security interest perfected by interest in registration, irrespective of the time when control was acquired. bank account (2) If a bank or financial institution perfected its security interest by acquiring control automatically, such security interest has priority as against any other security interest in the bank account."
+    },
+    {
+      "number": "63",
+      "heading": "If a debtor transfers an interest in collateral which, at the Priority of",
+      "text": "security time of the transfer is subject to a perfected security interest, that interest security interest has priority over any other security interest created transferred by debtor by the transferee."
+    },
+    {
+      "number": "64",
+      "heading": "A recipient of money or funds from a bank account shall Priority of",
+      "text": "creditor who receive such money or funds free of a security interest, unless the receives recipient acts in collusion with a debtor in violating the rights of a payment secured creditor."
+    },
+    {
+      "number": "65",
+      "heading": "A purchaser of a negotiable instrument, investment security Priority of",
+      "text": "purchaser of or negotiable document has priority over a perfected security interest negotiable in the negotiable instrument, investment security or negotiable instrument, investment document if the purchaser— security or negotiable (a) gives value; document 152 No. 3 of 2016] Movable Property (Security Interest) (b) acquires the negotiable instrument, investment security or the negotiable document without knowledge that the transaction is a breach of the security agreement to which the security interest relates; and (c) takes possession of the negotiable instrument, investment security or the negotiable document. Priority of 66. (1) The rights of an assignee of an accounts receivable are interest of subject to— assignee of accounts (a) the terms of the contract between the account debtor and receivable the assignor and any defence or claim arising from the contract; and (b) any other defence or claim of the account debtor against the assignor, including a defence by way of a right of s"
+    },
+    {
+      "number": "70",
+      "heading": "(1) This Part applies to security interests created in Application",
+      "text": "of Part accordance, with this Act and does not apply to those security interests that are created or provided for by an outright transfer of an account receivable and operating lease. (2) In addition to the remedies available under this Act, a security agreement and any other remedy that may be granted by a court in accordance with the Companies Act, the Bankruptcy Act or any Cap. 388 other law, a secured creditor may seek the appointment of a receiver, Cap. 82 receiver and manager or official receiver, as the case may be, in accordance with those Acts."
+    },
+    {
+      "number": "71",
+      "heading": "A secured creditor shall, prior to enforcing the secured Registration",
+      "text": "of creditor’s rights, register an enforcement notice, in the Collateral enforcement Registry, in the prescribed manner which shall identify the debtor, notice the secured creditor and the collateral against which enforcement is sought. 154 No. 3 of 2016] Movable Property (Security Interest) Secured 72. (1) A secured creditor may take possession, or without creditor rendering the collateral unusable, remove the collateral or dispose taking possession of the collateral when the debtor is in default or the collateral is at and risk. disposing collateral (2) For purposes of subsection (1), collateral is at risk if the secured creditor has reasonable grounds to believe that the collateral has been or will be destroyed, damaged, endangered, disassembled, removed, concealed, sold or otherwise disposed of contrary to the security agreement. (3) A secured creditor may proceed under this section— (a) pursuant to a judicial process; or (b) without judicial process, if the debtor consented, in the"
+    },
+    {
+      "number": "75",
+      "heading": "A secured creditor may dispose of collateral in its present Disposal of",
+      "text": "condition or following a reasonable preparation or processing. collateral by secured creditor"
+    },
+    {
+      "number": "76",
+      "heading": "A secured creditor shall obtain a reasonable price obtainable Duty of",
+      "text": "at the time of sale or other disposal of the collateral. secured creditor disposing collateral"
+    },
+    {
+      "number": "77",
+      "heading": "If the collateral is a negotiable document, the power to Power of",
+      "text": "dispose provided by section seventy-two shall apply to the negotiable disposal in negotiable document and to the goods to which it relates. document and related goods"
+    },
+    {
+      "number": "78",
+      "heading": "A secured creditor may dispose of the collateral by sale, Method of",
+      "text": "lease, license, auction, public tender or any other method provided disposal of collateral for in a security agreement."
+    },
+    {
+      "number": "79",
+      "heading": "(1) A secured creditor shall, not less than fourteen days Notice of",
+      "text": "before disposal of the collateral, give notice in a prescribed form to disposal of collateral the following persons: (a) the debtor; (b) any other person who has registered a financing statement in respect of the collateral that became effective before the secured creditor repossessed the collateral; and (c) any other person that has given the secured creditor notice of an interest in the collateral. (2) Subsection (1) does not apply if— (a) the collateral may perish within fourteen days of the repossession; (b) the secured creditor reasonably believes that the collateral shall decline substantially in value if it is not disposed of immediately; (c) the cost of care and storage of the collateral is disproportionately large in relation to its value; or (d) the collateral consists of inventory or farm products. (3) If a security interest relates to collateral, specified in subsection (2), the secured creditor may dispose of the collateral but shall comply with subsection (1) with respect"
+    },
+    {
+      "number": "83",
+      "heading": "(1) A secured creditor may propose, after default, to retain Proposal and",
+      "text": "collateral, other than consumer goods, in full satisfaction of the notice of retention secured obligation. (2) A secured creditor shall give notice of the proposal, to retain collateral, to the persons who are entitled to receive a notice of sale of the collateral, as specified in section seventy-nine."
+    },
+    {
+      "number": "84",
+      "heading": "(1) A person who is entitled to receive a notice of retention Objection to",
+      "text": "and whose interest in the collateral would be adversely affected by notice of retention a secured creditor’s retention of the collateral shall, within fourteen days after the notification was received, serve a written notice of objection to the secured creditor and the secured creditor shall, upon receipt of the notice of objection, dispose of the collateral. (2) If no notice of objection is received, the secured creditor shall, at the expiration of fourteen days, be considered to have elected to take the collateral in full satisfaction of the secured obligation. (3) Upon retention of the collateral by the secured creditor, all subordinate security interests and claims in the collateral are extinguished. (4) Where a secured creditor refuses to dispose of collateral, after receiving a notice of objection, a person entitled to receive a notice of retention may petition the court requesting that the collateral be disposed of in accordance with section seventy-two."
+    },
+    {
+      "number": "85",
+      "heading": "(1) At any time, before a secured creditor disposes of the Redemption",
+      "text": "collateral or takes the collateral in satisfaction of the secured of collateral by entitled obligation, a debtor or other secured creditor may redeem the persons collateral by— (a) fulfilling all of the obligations secured by the collateral; and (b) paying any other reasonable expenses incurred by the secured creditor in relation to the collateral. (2) A debtor’s right to redeem the collateral has priority over any other person’s right to redeem the collateral."
+    },
+    {
+      "number": "86",
+      "heading": "Subject to agreement with a secured creditor, a debtor may, Debtor",
+      "text": "at any time before the secured creditor disposes of or retains the reinstating security collateral in satisfaction of the secured obligation, reinstate the agreement security agreement by— (a) paying the sums actually in arrears, exclusive of the operation of an acceleration clause in the security agreement; 158 No. 3 of 2016] Movable Property (Security Interest) (b) remedying any other default; and (c) paying a sum equal to the reasonable expenses incurred by the secured creditor in seizing, repossessing, holding, repairing, processing or preparing the collateral for disposal, if those expenses have actually been incurred by the secured creditor, and any other reasonable expenses incurred in enforcing the security interest. PART VII GENERAL PROVISIONS AND OFFENCES"
+    },
+    {
+      "number": "87",
+      "heading": "(1) All rights, duties or obligations that arise under a security",
+      "text": "Rights, duties and agreement or this Act shall be exercised and discharged in good obligations faith and in accordance with reasonable commercial standards. to be exercised in (2) For the avoidance of doubt, a person is not considered to good faith and have acted in bad faith merely because the person acted with the commercial knowledge that another person has rights in the collateral. reasonable- ness Amendment 88. (1) Despite any other provision in this Act, a secured creditor of financing may amend a registered financing statement to indicate an obligation statement to or privilege arising from any other commercial document relating indicate content of to a secured interest in collateral or arising from the operation of a commercial document written law. (2) For purposes of any dispute relating to a registered financing statement or amendment to a registered financing statement, a court, tribunal or Alternative Dispute Resolution proceedings shall take judicial notice of any obligat"
+    },
+    {
+      "number": "90",
+      "heading": "A person is not liable for any action in damages for anything Exemption",
+      "text": "done or omitted to be done by any person in the exercise or from liability for actions or performance of any power or function conferred or imposed on the omissions person by or under this Act, unless the act or omission was in bad faith or was due to want of reasonable care or diligence."
+    },
+    {
+      "number": "91",
+      "heading": "(1) A debtor may request a secured creditor to send or make Secured",
+      "text": "available to any specified person, at an address specified by the creditor to provide debtor, any of the following: information to debtor (a) a summary of a security agreement that creates or provides for a security interest held by the secured creditor in the movable property of the debtor; (b) a statement in writing of the amount of the current indebtedness of the debtor and the terms of payment of the indebtedness; (c) a written approval or correction of an itemised list of movable property indicating which items are collateral, unless the security interest is over all of the movable property of the debtor; or (d) a statement of account indicating the pay-off amount needed to fully satisfy the secured obligation. (2) Where a secured creditor no longer has a security interest in the collateral, the secured creditor shall disclose the name and address of— (a) the immediate successor in interest or transferee; or (b) the latest successor in interest or transferee, if known. (3) A secur"
+    },
+    {
+      "number": "92",
+      "heading": "(1) A document or notice to be served in accordance with Service of",
+      "text": "this Act is considered sufficiently served if— documents or notices (a) it is delivered to a person or the person’s authorised agent as designated in a security agreement; (b) it is left at that person or that person’s agent’s usual or last known place of abode or business or at an address specified for that purpose in a security agreement; 160 No. 3 of 2016] Movable Property (Security Interest) (c) it is posted in a letter addressed to the person or the person’s agent by name at that place of abode, business or address; or (d) it is delivered by facsimile, electronic mail or other similar means of communication. (2) Where service in accordance with subsection (1) is not possible or if the parties have agreed otherwise, a document or notice may be served through registered mail. (3) This section does not affect any provisions in this Act relating to the service of a document or notice or detract from the power of any court to direct how the service of any document or notice relating to"
+    },
+    {
+      "number": "97",
+      "heading": "(1) A person who— Deceiving or",
+      "text": "influencing (a) for the purpose of deceiving the Registrar or any other Registrar or officer in the execution of this Act; officer (b) for the purpose of procuring or influencing the doing or omission of anything in relation to this Act or any matter thereunder; or (c) makes or submits a false statement or representation, whether orally or in writing, knowing the same to be false; commits an offence and is liable, on conviction, to a fine not exceeding two hundred thousand penalty units or to imprisonment for a term not exceeding two years or to both. (2) Any person who, having innocently made a false statement or representation, whether orally or in writing, for the purpose of procuring or influencing the doing or omitting to do anything in relation to this Act or any matter thereunder and who, on becoming aware that such statement or representation was false, fails to advise the Registrar forthwith of such falsity commits an offence and is liable, upon conviction, to a fine not excee"
+    },
+    {
+      "number": "98",
+      "heading": "(1) The Registrar may impose an administrative penalty on Administrative",
+      "text": "a person for a failure to comply with this Act. penalty (2) An administrative penalty referred to in subsection (1) may not exceed the amount prescribed by the Minister for each day during which such failure continues. (3) An administrative penalty imposed under subsection (1) shall be paid to the Agency within the period specified by the Registrar. (4) If any person fails to pay an administrative penalty, within the specified period under subsection (2), the Registrar may, by way of civil action in a competent court, recover the amount of the administrative penalty from such person as an amount due and owing to the Agency."
+    },
+    {
+      "number": "99",
+      "heading": "Except as provided in this Act, a person who commits an General",
+      "text": "offence under this Act is, on conviction, liable to a fine not exceeding penalties two hundred thousand penalty units or to imprisonment for a term not exceeding two years, or to both."
+    },
+    {
+      "number": "100",
+      "heading": "The Minister may, by statutory instrument, make Regulations",
+      "text": "regulations for— 162 No. 3 of 2016] Movable Property (Security Interest) (a) anything required to be prescribed under this Act; (b) for various fees relating to the registration and search processes stipulated in this Act; and (c) the better carrying out of the purposes of this Act. Collateral 101. The collateral Registry Office is a reporting entity for the Registry purposes of the Financial Intelligence Centre Act, 2010. Office to be reporting entity Act No. 46 of 2010 Savings and 102. The savings and transitional provisions in the Schedule transitional apply for purposes of this Act. provisions Movable Property (Security Interest) [No. 3 of 2016 163 SCHEDULE (Section 102) SAVINGS AND TRANSITIONAL PROVISIONS"
+    },
+    {
+      "number": "1",
+      "heading": "This Act does not apply to a matter that is the subject of Prior",
+      "text": "court, administrative or alternative dispute resolution proceedings proceedings that were commenced before its effective date."
+    },
+    {
+      "number": "2",
+      "heading": "(1) A prior security interest that was perfected or made Prior",
+      "text": "security effective against third parties under any other law shall, after the interests commencement of this Act, remain perfected under this Act, in continue to accordance with subsection (2). be effective during (2) A prior security interest shall remain perfected or effective transitional period against a third party and shall be deemed to be perfected under this Act until— (a) the time it would have ceased to be perfected or effective against third parties under any other law; or (b) the expiration of a period of six months after the effective date of this Act. (3) If a secured creditor satisfies the requirements of this Act for perfection of security interests before the perfection or its effect against third parties would have ceased in accordance with subsection (2), the perfection shall be deemed to be continuous. (4) A prior security interest that is not perfected under this Act within the period specified in subsection (2), shall be deemed to be an unperfected security intere"
+    },
+    {
+      "number": "3",
+      "heading": "(1) This Act applies to priorities of competing security Act to govern",
+      "text": "interests whether perfected under this Act or under any other law. priority conflicts (2) The priority of a prior security interest is calculated from the date that it was perfected or made effective against third parties under any other law. 164"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/2016/3/eng@2016-01-06/source.pdf",
+  "source_hash": "sha256:1e28ea9e4eff6500c225caacb11d625fa560afd33223a1f617981c0a0f84f5ba",
+  "fetched_at": "2026-04-17T08:06:31.919637+00:00",
+  "parser_version": "0.9.0"
+}
