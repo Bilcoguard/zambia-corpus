@@ -1,0 +1,63 @@
+{
+  "id": "act-zm-1990-insurance-levy-act-1990",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Insurance Levy Act, 1990",
+  "citation": "Insurance Levy Act, 1990",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "",
+      "text": "1. Short title\nThis Act may be cited as the Insurance Levy Act.\n*\n*This Act came into operation on the 1st January, 1991."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "2. Interpretation\n(1)\nIn this Act, unless the context otherwise requires—\n\"\nCommissioner-General\n\" has the meaning assigned to it in the Zambia Revenue Authority Act;\n\"\nbroker\n\", \"insurance agent\", \"insurance business\", \"insurer\" and \"policy\" have the meanings assigned to them in the Insurance Act;\n\"\nlevy\n\" means the insurance levy charged under section four of this Act.\n(2)\nIn this Act, unless the context otherwise requires, words and expressions not defined shall have the meaning assigned to them in the Value Added Tax Act.\n[Cap. 331]\n[\nCap. 321\n; Cap. 392]"
+    },
+    {
+      "number": "3",
+      "heading": "",
+      "text": "3. Powers of Commissioner\nThe\nCommissioner-General\nshall, subject to the direction of the Minister, be responsible for giving effect to the provisions of this Act, and shall, for that purpose, have all the powers conferred on the\nCommissioner-General\nby the Zambia Revenue Authority Act.\n[\nCap. 321\n]"
+    },
+    {
+      "number": "4",
+      "heading": "",
+      "text": "4. Insurance\nlevy\nThere shall be charged, levied, collected and paid, on insurance premiums in respect of insurance policies for all classes of insurance business carried on by insurers, insurance agents or brokers a ten\nper centum\nad valorem\ninsurance\nlevy\n."
+    },
+    {
+      "number": "5",
+      "heading": "",
+      "text": "5. When\nlevy\nbecomes due\nThe\nlevy\nshall become due at the time when the insurance premiums are paid or become payable and shall be paid by the insurer, insurance agent or\nbroker\nto the\nCommissioner-General\nnot later than the twenty-first day of the first month following that in which the\nlevy\nbecomes due."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "6. Exemptions\n(1)\n[Obsolete.]\n(2)\nThe Minister may, by statutory order, exempt any person from the payment of the levy.\n[Cap. 331; P. 27]"
+    },
+    {
+      "number": "7",
+      "heading": "",
+      "text": "7. Recovery of\nlevy\nSubject to the provisions of this Act, the Value Added Tax Act shall,\nmutatis mutandis\n, apply to the recovery of the\nlevy\nunder this Act.\n[Cap. 331]"
+    },
+    {
+      "number": "8",
+      "heading": "",
+      "text": "8. Penalty for late payment\nWhere any amount of\nlevy\nis not paid within the period prescribed by section five, a penalty equal to five\nper centum\nof the unpaid amount shall be charged for each month or part thereof for which the insurance\nlevy\nremains unpaid; and for the purposes of recovery and collection such penalty shall be deemed to be part of the\nlevy\n."
+    },
+    {
+      "number": "9",
+      "heading": "",
+      "text": "9. Regulations\nThe Minister may, by statutory instrument, make regulations for the proper carrying out of the purposes of this Act."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1990/25/eng@1996-12-31",
+  "source_hash": "sha256:708970a00afd8609e078bd8a4034cb9a035d7c31b6cac1d6cad2bca4ed4e773b",
+  "fetched_at": "2026-04-17T07:33:57Z",
+  "parser_version": "0.5.0"
+}
