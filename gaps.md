@@ -472,3 +472,21 @@ consider Government Gazette or direct MMMD/MoJ request).
   "Zambia Tourism Board Act, 2007" (Act No. 24 of 2007), already ingested as
   `act-zm-2007-024-zambia-tourism-board`. No separate National Tourism Board
   Act exists; remove from future target lists.
+
+## Batch 0134 integrity failures (2026-04-18T08:09:17Z)
+
+- HASH MISMATCH: act-zm-2016-042-zambia-institute-for-tourism-and-hospitality-studies-act-2016 (raw=d828ca46d1ff... vs src=8b32657a319d...)
+
+## Batch 0134 phantom targets (2026-04-18T08:18:28Z)
+
+Targets from batch 0133's next-tick list not found on ZambiaLII via either `/search/api/documents/` or `/legislation/?page=` alphabetical index. Need alternative source (parliament.gov.zm, Gazette, Cap-numbered archive):
+
+- Optometry Act
+- Open University Act
+- Organs of Government (Dispersal) Act
+- National Water Supply and Sanitation Act
+- Protected Disclosures Act
+- Private Security Services Act
+- Personal Property Security Interests Act
+
+Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — the `q` parameter is silently ignored and the page always returns the unfiltered listing. The real full-text search endpoint is `/search/api/documents/?search=<term>&nature=Act`, which returns a JSON envelope (`count`, `results_html`) but searches document full text — matches may not be title matches.
