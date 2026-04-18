@@ -460,3 +460,15 @@ consider Government Gazette or direct MMMD/MoJ request).
 - Citizens Economic Empowerment Act, 2006 (Act No. 9 of 2006) — fetched HTML and PDF but both produced 0 parseable sections. Source: https://www.zambialii.org/akn/zm/act/2006/9/eng@2006-05-19
 - 6 duplicate-content files remain as untracked orphans in the working tree (see reports/batch-0130.md for paths). Sandbox cannot delete; host must remove manually.
 - Dedup strategy is URL-keyed; needs (year, act_num) tuple keying to catch cross-source re-ingestion from ZambiaLII vs Parliament.
+
+## 2026-04-18 (Batch 0132)
+
+- **National Water Supply and Sanitation Act** — not located on ZambiaLII via
+  `/legislation/?q=` under any of: "Water Supply", "Water and Sanitation",
+  "Zambian Water". Usually cited as Act No. 28 of 1997. Next tick: try
+  ZambiaLII subject-browse index (ministry-of-water-development subject) or a
+  Gazette search. Alternative source: parliament.gov.zm Acts archive.
+- **National Tourism Board Act** — phantom target. ZambiaLII returns only
+  "Zambia Tourism Board Act, 2007" (Act No. 24 of 2007), already ingested as
+  `act-zm-2007-024-zambia-tourism-board`. No separate National Tourism Board
+  Act exists; remove from future target lists.
