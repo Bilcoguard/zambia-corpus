@@ -1,0 +1,33 @@
+{
+  "id": "act-zm-1969-029-companies-certificates-validation-act-1969",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Companies (Certificates Validation) Act, 1969",
+  "citation": "Act No. 29 of 1969",
+  "enacted_date": "1969-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Companies (Certificates Validation) Act ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "In this Act , unless the context otherwise requires— \" Act \" means the Companies Act; [Cap. 388] \" officer \" means any public officer heretofore designated as Assistant Registrar of Companies, or any other public officer who heretofore for the time being exercised the function of issuing statutory certificates under the Act ; \" Registrar \" means the Registrar of Companies appointed under the Act ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "For the removal of doubts, it is hereby declared that any certificate of incorporation, any certificate of mortgage, any certificate of charge or any other statutory certificate heretofore issued for the purposes of the Act under the hand of any officer shall, for all purposes, be deemed to be and to have been validly and properly issued under the Act , as if the same had been issued under the hand of the Registrar ."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1969/29/eng@1996-12-31",
+  "source_hash": "sha256:11d44bddaad6318a8e242ae9bcc7efd9774820f424f02d01d3457a5a4356be0f",
+  "fetched_at": "2026-04-18T08:37:22Z",
+  "parser_version": "0.5.0"
+}
