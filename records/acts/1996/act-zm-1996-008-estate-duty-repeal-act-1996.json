@@ -1,0 +1,28 @@
+{
+  "id": "act-zm-1996-008-estate-duty-repeal-act-1996",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Estate Duty (Repeal) Act, 1996",
+  "citation": "Act No. 8 of 1996",
+  "enacted_date": "1996-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Estate Duty (Repeal) Act, and shall come into operation on the 1st April, 1996."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The Estate Duty Act is hereby repealed."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1996/8/eng@1996-12-31",
+  "source_hash": "sha256:1e125c83c79b928a142c20239796b91d4ee688dff190eb7c835ade0c27cf3c26",
+  "fetched_at": "2026-04-19T03:39:10Z",
+  "parser_version": "0.5.0"
+}

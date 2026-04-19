@@ -1,0 +1,28 @@
+{
+  "id": "act-zm-1996-003-entertainment-tax-repeal-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Entertainment Tax (Repeal) Act",
+  "citation": "Act No. 3 of 1996",
+  "enacted_date": "1996-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Entertainment Tax (Repeal) Act, and shall come into operation on the 27th January, 1996."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The Entertainment Tax Act is hereby repealed."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1996/3/eng@1996-12-31",
+  "source_hash": "sha256:c18091035462fc9e67db03b8446043c87e6b716a5e17ccabd4145b3ff5ae9ca7",
+  "fetched_at": "2026-04-19T03:38:56Z",
+  "parser_version": "0.5.0"
+}
