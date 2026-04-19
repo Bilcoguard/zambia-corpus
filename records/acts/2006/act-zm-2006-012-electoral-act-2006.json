@@ -1,0 +1,988 @@
+{
+  "id": "act-zm-2006-012-electoral-act-2006",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Electoral Act, 2006",
+  "citation": "Act No. 12 of 2006",
+  "enacted_date": "2006-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Electoral Act, 2006, and shall Short title and",
+      "text": "come into operation on such date as the President may, by statutory commencement\ninstrument, appoint."
+    },
+    {
+      "number": "2",
+      "heading": "(1) In this Act unless the context otherwise requires - Interpretation",
+      "text": "“ballot box” means a box prescribed by the Commission for\nthe purpose of an election;\n“ballot paper” means the document prescribed\nby the Commission in respect of an election;\n“ballot paper account” means a document prescribed by the\nCommission for purposes of recording the ballot papers\nissued to a returning officer and completed by a presiding\nofficer at the close of a poll;\n“by-election” means an election held in accordance with section\none hundred and eight;\n“candidate” means any person nominated as a candidate for\nan election;\n“code” means a code issued by the Commission under\nsection one hundred and nine and includes the Electoral Code of\nConduct;\n“Commission” means the Electoral Commission of Zambia\nCap 1 established under the Constitution;\n“conflict management officer” means an officer appointed as such\nunder section one hundred and eleven',\n“constituency” means any of the constituencies\ninto which Zambia is divided under the Constitution;\n“Constitution” means the Constitution set out in the Schedule to\nCap 1 the Constitution of Zambia Act;\n“counting assistant” means a person appointed as a counting\nassistant by the Commission;\n“corrupt practice” means any offence against this Act which is\ndeclared under this Act to be a corrupt practice;\n“costs” includes charges and expenses;\n“direct elections” means an election to the office of President, or an\nelection for a member of the National Assembly;\n“Director of Elections” means the person appointed Director of\nElections by the Commission;\n“election” means a direct election and cognate expressions shall be\nconstrued accordingly;\n“election agent” means an agent of a candidate for the purpose of\nthat election who has been specified by the candidate in that\ncandidate’s nomination paper;\n“election officer” means a person appointed by the Commission\nto be ”\n(a) a registration officer\n(b) an assistant registration officer;\n(c) an electoral officer;\n(d) a returning officer;\n(e) a presiding officer;\n(f) a polling assistant; or\n(g) a counting assistant;\nand includes any person appointed to assist an election officer or the\nDirector of Elections where functions are conferred on the\nDirector of Elections under this Act, in respect of any election;\nTHE ELECTORAL ACT\nArrangement of Sections\nPART I\nPreliminary\nSection"
+    },
+    {
+      "number": "1",
+      "heading": "Short title and commencement *",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "Interpretation <",
+      "text": ""
+    },
+    {
+      "number": "3",
+      "heading": "Administration, enforcement and prosecution",
+      "text": "^ART II\nRegistration of Voters and Voters Roll"
+    },
+    {
+      "number": "4",
+      "heading": "Voter’s roll",
+      "text": ""
+    },
+    {
+      "number": "5",
+      "heading": "Qualification for registration as voter",
+      "text": ""
+    },
+    {
+      "number": "6",
+      "heading": "Application for registration as voter",
+      "text": ""
+    },
+    {
+      "number": "7",
+      "heading": "Disqualification from registration as a voter",
+      "text": ""
+    },
+    {
+      "number": "8",
+      "heading": "Registration in voters register for constituency",
+      "text": ""
+    },
+    {
+      "number": "9",
+      "heading": "Application to change registration details",
+      "text": ""
+    },
+    {
+      "number": "10",
+      "heading": "Amendments to voter’s roll",
+      "text": ""
+    },
+    {
+      "number": "11",
+      "heading": "Notification by election officer",
+      "text": ""
+    },
+    {
+      "number": "12",
+      "heading": "Appeal against decision of election officer",
+      "text": ""
+    },
+    {
+      "number": "13",
+      "heading": "General registration of voters",
+      "text": ""
+    },
+    {
+      "number": "14",
+      "heading": "Objections to voter’s roll",
+      "text": ""
+    },
+    {
+      "number": "15",
+      "heading": "Publication and copies of voter’s roll",
+      "text": "PART HI\nQualifications to Vote and Additional Matters\nRelating to Elections"
+    },
+    {
+      "number": "16",
+      "heading": "Qualifications for voting",
+      "text": ""
+    },
+    {
+      "number": "17",
+      "heading": "Identification of voter",
+      "text": ""
+    },
+    {
+      "number": "18",
+      "heading": "One vote and Secrecy",
+      "text": ""
+    },
+    {
+      "number": "19",
+      "heading": "Disqualifications from voting",
+      "text": ""
+    },
+    {
+      "number": "20",
+      "heading": "Election to office of President",
+      "text": ""
+    },
+    {
+      "number": "21",
+      "heading": "Nomination of presidential candidate",
+      "text": ""
+    },
+    {
+      "number": "22",
+      "heading": "Additional disqualification for election to National Assembly",
+      "text": ""
+    },
+    {
+      "number": "23",
+      "heading": "Election fee",
+      "text": ""
+    },
+    {
+      "number": "24",
+      "heading": "Special vote",
+      "text": ""
+    },
+    {
+      "number": "25",
+      "heading": "Proclamation of dissolution of Parliament",
+      "text": ""
+    },
+    {
+      "number": "26",
+      "heading": "Election timetable",
+      "text": ""
+    },
+    {
+      "number": "27",
+      "heading": "Electoral campaign",
+      "text": ""
+    },
+    {
+      "number": "28",
+      "heading": "General postponement of election",
+      "text": ""
+    },
+    {
+      "number": "29",
+      "heading": "Postponement of voting at polling station",
+      "text": "Single copies of this Act may be obtained from the Government Printer.\nP.O. Box 30136, 10101 Lusaka. Price K15,500 each"
+    },
+    {
+      "number": "30",
+      "heading": "Re-voting at polling station",
+      "text": ""
+    },
+    {
+      "number": "31",
+      "heading": "Voter's roll for election",
+      "text": ""
+    },
+    {
+      "number": "32",
+      "heading": "Nomination date",
+      "text": ""
+    },
+    {
+      "number": "33",
+      "heading": "Nomination for election",
+      "text": ""
+    },
+    {
+      "number": "34",
+      "heading": "Nomination in one constituency",
+      "text": ""
+    },
+    {
+      "number": "35",
+      "heading": "Appointment of election agents and polling agents",
+      "text": ""
+    },
+    {
+      "number": "36",
+      "heading": "Powers and duties of election and polling agents",
+      "text": ""
+    },
+    {
+      "number": "37",
+      "heading": "Establishment of Polling Districts",
+      "text": ""
+    },
+    {
+      "number": "38",
+      "heading": "Criteria for determining polling district boundaries",
+      "text": ""
+    },
+    {
+      "number": "39",
+      "heading": "Inspection and copies of maps of polling districts",
+      "text": ""
+    },
+    {
+      "number": "40",
+      "heading": "Establishment of polling stations '",
+      "text": ""
+    },
+    {
+      "number": "41",
+      "heading": "Relocation of polling station in emergencies",
+      "text": ""
+    },
+    {
+      "number": "42",
+      "heading": "Ballot paper",
+      "text": ""
+    },
+    {
+      "number": "43",
+      "heading": "Design of ballot paper",
+      "text": ""
+    },
+    {
+      "number": "44",
+      "heading": "Ballot boxes",
+      "text": ""
+    },
+    {
+      "number": "45",
+      "heading": "Voting compartments",
+      "text": ""
+    },
+    {
+      "number": "46",
+      "heading": "Voting materials",
+      "text": "PART IV\nElection Officers"
+    },
+    {
+      "number": "47",
+      "heading": "Appointment of presiding officer",
+      "text": ""
+    },
+    {
+      "number": "48",
+      "heading": "Powers and duties of presiding officer",
+      "text": ""
+    },
+    {
+      "number": "49",
+      "heading": "Appointment of polling officers",
+      "text": ""
+    },
+    {
+      "number": "50",
+      "heading": "Powers and duties of polling assistant",
+      "text": "51 Appointment of counting assistant"
+    },
+    {
+      "number": "52",
+      "heading": "Powers and duties of counting assistant",
+      "text": ""
+    },
+    {
+      "number": "53",
+      "heading": "Appointment of additional persons",
+      "text": ""
+    },
+    {
+      "number": "54",
+      "heading": "Powers and duties of additional persons",
+      "text": ""
+    },
+    {
+      "number": "55",
+      "heading": "General provisions concerning appointment of election officer",
+      "text": "PARTV\nPolling Day Activities"
+    },
+    {
+      "number": "56",
+      "heading": "Election officers at polling stations",
+      "text": ""
+    },
+    {
+      "number": "57",
+      "heading": "Hours of voting",
+      "text": ""
+    },
+    {
+      "number": "58",
+      "heading": "Initial procedures",
+      "text": ""
+    },
+    {
+      "number": "59",
+      "heading": "Voting procedure",
+      "text": ""
+    },
+    {
+      "number": "60",
+      "heading": "Assistance to certain voters",
+      "text": ""
+    },
+    {
+      "number": "61",
+      "heading": "Issue of new ballot paper",
+      "text": ""
+    },
+    {
+      "number": "62",
+      "heading": "Objections concerning voting",
+      "text": ""
+    },
+    {
+      "number": "63",
+      "heading": "Sealing of full ballot boxes",
+      "text": ""
+    },
+    {
+      "number": "64",
+      "heading": "Completion of ballot paper account and sealing of voting materials",
+      "text": ""
+    },
+    {
+      "number": "65",
+      "heading": "More than one election on same day",
+      "text": ""
+    },
+    {
+      "number": "66",
+      "heading": "Place and time of counting of votes",
+      "text": ""
+    },
+    {
+      "number": "67",
+      "heading": "Counting of votes and determination of provisional results",
+      "text": ""
+    },
+    {
+      "number": "68",
+      "heading": "Objections concerning sorting of ballot papers",
+      "text": ""
+    },
+    {
+      "number": "69",
+      "heading": "Objections concerning counting of votes and determination of",
+      "text": "provisional results"
+    },
+    {
+      "number": "70",
+      "heading": "Procedure concerning provisional results and voting materials",
+      "text": ""
+    },
+    {
+      "number": "71",
+      "heading": "Verification procedure for votes counted elsewhere",
+      "text": ""
+    },
+    {
+      "number": "72",
+      "heading": "Objections concerning verification procedure",
+      "text": ""
+    },
+    {
+      "number": "73",
+      "heading": "Application of certain sections",
+      "text": ""
+    },
+    {
+      "number": "74",
+      "heading": "Determination and declaration of final result of election",
+      "text": "PART VI\nObservers, Monitors and Voter Education"
+    },
+    {
+      "number": "75",
+      "heading": "Accreditation of observers and monitors",
+      "text": ""
+    },
+    {
+      "number": "76",
+      "heading": "Powers and duties of accreditation of observers and monitors",
+      "text": ""
+    },
+    {
+      "number": "77",
+      "heading": "Voter education",
+      "text": ""
+    },
+    {
+      "number": "78",
+      "heading": "Provision of voter education generally",
+      "text": "PART VII\nCorrupt and Illegal Practices and Election Offences"
+    },
+    {
+      "number": "79",
+      "heading": "Bribery",
+      "text": ""
+    },
+    {
+      "number": "80",
+      "heading": "Impersonation",
+      "text": ""
+    },
+    {
+      "number": "81",
+      "heading": "Treating",
+      "text": ""
+    },
+    {
+      "number": "82",
+      "heading": "Undue influence",
+      "text": ""
+    },
+    {
+      "number": "83",
+      "heading": "Illegal practice of publishing false statements in respect of candidates",
+      "text": ""
+    },
+    {
+      "number": "84",
+      "heading": "Illegal practice in respect of nomination of candidates",
+      "text": ""
+    },
+    {
+      "number": "85",
+      "heading": "Illegal practices in respect of public meetings",
+      "text": ""
+    },
+    {
+      "number": "86",
+      "heading": "Illegal practices relating to the poll",
+      "text": ""
+    },
+    {
+      "number": "87",
+      "heading": "Penalty for illegal practices",
+      "text": ""
+    },
+    {
+      "number": "88",
+      "heading": "Election offences",
+      "text": ""
+    },
+    {
+      "number": "89",
+      "heading": "Property in certain election material",
+      "text": ""
+    },
+    {
+      "number": "90",
+      "heading": "Secrecy and penalty for breach of secrecy",
+      "text": ""
+    },
+    {
+      "number": "91",
+      "heading": "Offences by election officers",
+      "text": ""
+    },
+    {
+      "number": "92",
+      "heading": "Offences by printers and publishers",
+      "text": "PART VIU\nElection Petitions"
+    },
+    {
+      "number": "93",
+      "heading": "Avoidance of elections",
+      "text": ""
+    },
+    {
+      "number": "94",
+      "heading": "Presentation of election petition",
+      "text": ""
+    },
+    {
+      "number": "95",
+      "heading": "Relief which may be claimed in election petition",
+      "text": ""
+    },
+    {
+      "number": "96",
+      "heading": "Form and procedure for presentation of election petition",
+      "text": ""
+    },
+    {
+      "number": "97",
+      "heading": "Duty of Registrar to make out list of election petition",
+      "text": ""
+    },
+    {
+      "number": "98",
+      "heading": "Rules of practice and procedure, security for costs, etc",
+      "text": ""
+    },
+    {
+      "number": "99",
+      "heading": "Withdraw of election petition",
+      "text": ""
+    },
+    {
+      "number": "100",
+      "heading": "Substitution of new petitioners",
+      "text": ""
+    },
+    {
+      "number": "101",
+      "heading": "Abatement of election petitions",
+      "text": ""
+    },
+    {
+      "number": "102",
+      "heading": "Trial of election petitions",
+      "text": ""
+    },
+    {
+      "number": "103",
+      "heading": "Provisions as to witnesses",
+      "text": ""
+    },
+    {
+      "number": "104",
+      "heading": "Conclusion of trial of election petition",
+      "text": ""
+    },
+    {
+      "number": "105",
+      "heading": "Provisions as to costs",
+      "text": "PART IX\nOther questions Relating to Parliament"
+    },
+    {
+      "number": "106",
+      "heading": "Application to members and officers of Parliament",
+      "text": ""
+    },
+    {
+      "number": "107",
+      "heading": "Effect of determination",
+      "text": "PARTX\nAdditional Powers and Commission and\nMiscellaneous Provisions"
+    },
+    {
+      "number": "108",
+      "heading": "By-elections",
+      "text": ""
+    },
+    {
+      "number": "109",
+      "heading": "Electoral Code of Conduct and other codes",
+      "text": ""
+    },
+    {
+      "number": "110",
+      "heading": "Powers to decide objections and appeals",
+      "text": ""
+    },
+    {
+      "number": "111",
+      "heading": "Constitution of conflict management committees",
+      "text": ""
+    },
+    {
+      "number": "112",
+      "heading": "Assignment of powers and duties by Commission",
+      "text": ""
+    },
+    {
+      "number": "113",
+      "heading": "Assignment of powers and duties by Director of Elections",
+      "text": ""
+    },
+    {
+      "number": "114",
+      "heading": "Printing, manufacture, use, removal etc of election materials",
+      "text": ""
+    },
+    {
+      "number": "115",
+      "heading": "Ownership of voting and election material and disposal",
+      "text": ""
+    },
+    {
+      "number": "116",
+      "heading": "Effect of certain irregularities",
+      "text": ""
+    },
+    {
+      "number": "117",
+      "heading": "Inspection and copying of documents",
+      "text": ""
+    },
+    {
+      "number": "118",
+      "heading": "Limitation of liability",
+      "text": ""
+    },
+    {
+      "number": "119",
+      "heading": "When incapacity may be removed",
+      "text": ""
+    },
+    {
+      "number": "120",
+      "heading": "No person required to state how person voted",
+      "text": ""
+    },
+    {
+      "number": "121",
+      "heading": "Evidence as to holding of election",
+      "text": ".122. Validation of certain documents"
+    },
+    {
+      "number": "123",
+      "heading": "Powers of officer",
+      "text": ""
+    },
+    {
+      "number": "124",
+      "heading": "Obstruction of officer",
+      "text": ""
+    },
+    {
+      "number": "125",
+      "heading": "Power of arrest",
+      "text": ""
+    },
+    {
+      "number": "126",
+      "heading": "Immunity of officer",
+      "text": ""
+    },
+    {
+      "number": "127",
+      "heading": "General defence",
+      "text": ""
+    },
+    {
+      "number": "128",
+      "heading": "General penalty",
+      "text": ""
+    },
+    {
+      "number": "129",
+      "heading": "Regulatory powers of Commission",
+      "text": ""
+    },
+    {
+      "number": "130",
+      "heading": "Repeal of Act No.2 of 1991",
+      "text": "“election petition” means an election petition referred to in\nsection ninety-four;\n“election timetable” means a timetable for an election published by\nthe Commission under section twenty-six-,\n“Electoral Code of Conduct” means the Electoral Code of Conduct\nprescribed by the Commission under section one hundred and nine;\n“high judicial office” has the meaning assigned to it in the\nConstitution; Cap 1\n“illegal practice” means any offence against this Act which is\ndeclared under this Act to be an illegal practice;\n“member” means an elected member of the National Assembly;\n“national registration card” means a national registration card\nissued under and in terms of the National Registration Act; Cap 126\n“national registration number” means the serial number inserted on\na national registration card issued under the National\nRegistration Act; Cap 126\n“nomination day” means the day appointed by the Commission as\nthe day on which candidates file their nomination papers with the\nCommission;\n“nomination office” means a place prescribed by the Commission\nas a nominating office;\n“nomination paper” means a document prescribed by the\nCommission for the purpose of a candidate registering their\nintention to contest an election under this Act;\n“officer” means an officer appointed by the Commission under\nsection three and who has been issued with a certificate under that\nsection;\n“petitioner” means, in relation to an election petition, any person\nreferred to in section ninety-five who signs and presents an election\npetition under section ninety-six and includes any person\nsubstituted for a petitioner under section one hundred and one or\nsection one hundred and two;\n“political party” means an organisation registered under the Cap 119\nSocieties Act the objects of which include any political activity or\nthe sponsoring of candidates for election to the office of President\nor as a member of the National Assembly;\n“polling agent” means an agent appointed by a candidate in respect\nof each polling station;\n“polling assistant” means a person appointed polling assistant by\nthe Commission;\n“polling day\" means-\n(aj in relation to a general election, a day appointed by the\nPresident for the taking of the poll in a general election;\n(b) in relation to a by-election, a day appointed by the\nCommission for the taking of the poll in a by-election;\n“polling district” means a polling district established by the\nCommission as a polling district under section thirty-eight,\n“polling station” a place established as a polling station by the\nCommission under sectionforty,\n“prescribed” means prescribed by the Commission by statutory\ninstrument;\n“presiding officer” means a person appointed as presiding officer\nby the Commission;\n“registered” means registered in a register of voters under this Act\nand “registration” shall be construed accordingly;\n“register of voters” means a register of voters for any constituency,\nor part of a constituency, prepared and maintained under this Act;\n“registered voter” means a person who has been registered as\na voter under section eight;\n“registration officer” means a person appointed registration officer\nby the Commission;\n“Registrar” means the Registrar of the High Court and includes\nDeputy Registrar, District Registrar, and Assistant Registrar;\n“respondent” has the meaning assigned to it in subsection (4) of\nsection ninety-six;\n“Returning Officer” in relation to the election of a President, means\nCap 1 the Returning Officer specified in the Constitution;\n“voter” means a person who is entitled to vote at the relevant\nelection;\n“voters card” means a voter’s registration card prescribed and\nissued by the Commission; and\n“voters roll” means a register of voters.\n(2) For the purposes of this Act, the expression “election expenses”\nmeans expenses incurred, whether before, during or after an election, on\naccount of, or in respect of, the conduct or management of such election\nby, or on behalf of, a candidate:\nProvided that the following expenses shall not be deemed to be\nelection expenses-\n(a) any moneys expended or expenses incurred by any\nassociation or group of persons or by any person in\nthe general interests of a political party or\norganisation or its candidates generally, not being\nmoneys expended or expenses incurred directly in\nthe particular interests of any particular candidate or\nexpenditure incurred by a political party with the\nconsent of a candidate and apportioned to such\ncandidate under this Act;\n(b) any moneys expended or expenses incurred by any\npolitical party or organisation in the printing,\npublication or distribution of the official symbol of\nthat political party or organisation; or\n(c) any election fee;\n(3) For the avoidance of doubt, every person interpreting this\nAct and any regulations made under it shall—\n(a) do so in a manner that gives effect to the guarantees Cap 1\nand responsibilities contained in the Constitution;\n(b) take into account any appropriate code.\nAdministration"
+    },
+    {
+      "number": "3",
+      "heading": "(1) This Act shall be administered and enforced by the enforcement",
+      "text": "Commission; and\nprosecution\nProvided that in the exercise of its functions under the\nConstitution and this Act, the Commission shall not be subject to\nthe direction or control of any other person or authority.\n(2) In order to ensure compliance with the provisions of this\nAct the Commission shall appoint such number of officers\nas it may consider necessary.\n(3) Every officer shall be provided with a certificate of\nappointment which shall be prima-facie evidence of the\nofficer’s appointment as such.\n(4) An officer shall, on demand by a person affected by the\nexercise of the powers of the officer under this Act, produce\nfor inspection the certificate referred to in subsection (3).\nAct No. 42\n(5) The Anti-Corruption Commission shall investigate and of 1996\nprosecute any corrupt practice committed under this Act in\naccordance with the Anti-Corruption Commission Act.\n(6) The Zambia Police Force shall enforce law and order at a\npolling station and undertake any criminal proceedings,\nsubject to subsection (2), in respect of any offence committed\nby any person in contravention of this Act or any regulations\nissued under this Act.\nPART II\nRegistration of Voters and Voters Roll\nVoter’s roll 4. (1) The Commission shall compile and maintain a voters roll in\nthe manner and style prescribed by the Commission.\n(2) The Commission shall compile, maintain and update on a\ncontinuing basis, a register of voters, which shall include the\nnames of all persons entitled to vote in any election under this\nCap. 282 Act, local government election the Local Government Elections\nCap. 14 Act or referendum under the Referendum Act:\nProvided that, the register of voters shall not preclude any\npersons from voting in a referendum under Article 79 (3) of\nthe Constitution.\n(3) The Commission may suspend the registration of voters\nwhenever an election is due.\n(4) Where the Commission prescribes the polling day for a\nby-election, the Commission shall immediately suspend the\nregistration of voters in the district in which the by-election is to\ntake place.\nQualification 5. Subject to the provisions of section seven, every person shall\nfor be qualified for registration as a voter in direct elections who-\nregistration\n(a) is a citizen of Zambia;\nas voter\n(b) has attained the age of eighteen years; and\n(c) is in possession of a national registration card.\nApplication 6. A person applying for registration as a voter-\nfor\nfa) shall do so in the manner prescribed by the Commission;\nregistration\nand\nas voter\n(b) may register in any constituency of the person’s choice:\nProvided that the person shall not register in more than\none constituency.\nDisqualification 7. (1) No person shall be qualified for registration as a voter,\nfrom and no person shall be registered as a voter, who—\nregistration\n(a) is under a declaration of allegiance to some country other\nas voter\nthan Zambia;\n(b) is not a citizen of Zambia;\n(c) has applied for registration fraudulently or otherwise than\nin the prescribed manner;\n(d) under any law in force in Zambia, is adjudged or\notherwise declared to be of unsound mind, or is detained\nCap. 88 under the Criminal Procedure Code during the pleasure\nof the President;\n(e) is disqualified from voting under section nineteen;\n(f) is under sentence of death imposed by any court in\nZambia, or a sentence of imprisonment imposed by such\na court or substituted by any competent authority for\nsome other sentence imposed by such a court; or\n(g) is not in possession of a national registration card.\n(2 ) In this section, the reference to a sentence of imprisonment shall\nbe construed as not including a sentence of imprisonment the\nexecution of which is suspended or a sentence of imprisonment\nimposed in default of payment of a fine."
+    },
+    {
+      "number": "8",
+      "heading": "(1) A person qualified for registration under section five and not Registration",
+      "text": "disqualified for registration under section seven, shall be registered as in voters\na voter in the register of voters for any constituency of the person’s regist^r for\nchoice, as may be prescribed. constituency\n(2) A person’s name shall not be entered in the voters register for\nmore than once in any constituency.\n(3) A person who has been registered in the register of voters\nshall be issued with a voter’s card.\n(4) A voter’ 's card shall contain—\n(a) the individual’s—\n(i) full names;\n(ii) residential address;\n(iii) sex;\n(iv) dale of birth;\n(v) portrait; and\n(b) such other information as the Commission may prescribe."
+    },
+    {
+      "number": "9",
+      "heading": "(1) A registered voter or person who has applied for registration as Application",
+      "text": "a voter and whose name or ordinary place of residence has changed, t0 change\nshall apply, in the prescribed manner, to have that change recorded in registradon\nthe voters’ roll or in that person’s application, except that a person details\nneed not apply when a change of name is due to change in marital\nstatus.\n(2) If satisfied that a person’s application complies with this Act,\nthe election officer shall, subject to the provisions of subsection\n/cur record the change in the voters ’ roll.\n10.(1) An election officer shall- Amendments\n(a) change the registration details of a voter if the election officer t0 voters’\nis satisfied that the details of that voter as reflected in the ro\nvoters’ roll are incorrect or have changed;\n(b) deregister a voter, if the election officer is satisfied that the\nvoter does not qualify, or no longer qualifies, for registration;\n(c) add the name and other prescribed particulars of a voter\nresulting from a new registration; or\n(d) delete the name of any person who is deceased.\n(2) The election officer shall record in the voters' roll or on a person's\napplication any change in polling districts for which a person is\nregistered as a voter or has applied for registration, if that person's place\nof ordinary residence after a change in the boundaries of the polling\ndistrict falls in another polling district."
+    },
+    {
+      "number": "11",
+      "heading": "(1) An election officer shall notify, in the prescribed manner,",
+      "text": "a person\n(a) whose application under section six for registration as\nNotification\na voter has been refused;\nby election\n(b) whose application under section nine to have a change of\nofficer\nname or ordinary place of residence recorded, has been\nrefused;\n(c) who has been deregistered as a voter under section ten; or\n(d) whose registration details have been changed under\nsection ten.\n(2) The notification given under subsection (1), shall give reasons\nfor the refusal or action taken."
+    },
+    {
+      "number": "12",
+      "heading": "(1) A person) referred to in section eleven who feels aggrieved",
+      "text": "by a decision or action taken by an election officer under section seven or\nten may appeal to the Commission against the decision or action taken, in\nAppeal\nthe prescribed manner.\nagainst\n(2) The Commission, in the prescribed manner, shall consider and\ndecision of\nelection decide the appeal and notify the appellant and election officer of its\nofficer decision."
+    },
+    {
+      "number": "13",
+      "heading": "(1) The Commission shall, for the compilation of the voters’ roll",
+      "text": "specified in section four, conduct a general registration of voters.\n(2) The Commission may prescribe cut-off dates in respect of the general\nGeneral registration of voters and the compilation the of voters' roll, including the\nRegistration\ndate by which -\nof voters\n(a) Any person who wants to be included in the voters’ roll shall have\napplied for registration as a voter under section six or for the change\nof registration details under section nine.\n(b) an election officer shall notify a person under section eleven\n(c) an appellant may appeal in terms of section twelve;\n(d) The Comission shall consider and decide the appeal and notify the\nappellant and the election officer of the decision;\n(e) The election officer shall give notice of the periods during which, and\nthe venue where, a provisionally compiled voters' roll shall be\navailable for inspection;\n(f) any objections under section fourteen in respect of a\nprovisionally compiled voters' roll shall be made;\n(g) the Commission shall decide an objection made under\nsection fourteen and notify the objector and the election\nofficer and a person other than the objector whose name or\nregistration details are involved; and\n(h) An election officer shall complete the compilation of the\nvoters' roll and publish it."
+    },
+    {
+      "number": "14",
+      "heading": "(1) Any person may object to the Commission, in the prescribed Objections",
+      "text": "manner, to any segment of the voters' roll or a provisionally compiled to voters roll\nvoters'roll to-\n(a) the exclusion of any person's name from that segment;\n(b) the inclusion of any person's name in that segment; or\n(c) the correctness of any person’s registration details in that\nsegment.\n(2) A person who objects to the exclusion or inclusion of the name of\nanother person, or to the correctness of that person's registration details,\nshall serve notice of the objection on that person.\n(3) The Commission shall decide an objection, except for an objection\nin relation to a provisionally compiled voters' roll, not later than fourteen\ndays after the objection was made and notify the following persons of the\ndecision:\n(a) the person who made the objection;\n(b) the election officer; and\n(c) in the case of an objection against the exclusion or inclusion\nof the name, or the correctness' of the registration details, of a\nperson other than the obj ector, that other person.\n(4) An election officer shall give effect to a decision of the\nCommission, under subsection (3), within three days."
+    },
+    {
+      "number": "15",
+      "heading": "(1) A copy of the voters' roll as it exists at any time shall be Publication",
+      "text": "available for inspection during office hours at the Commission's and copies\nhead office; and the provincial and district segments of the voters' roll of voters’\nshall be available for inspection at the times and venues mentioned in a roll\nnotice published by the Director of Elections in the Gazette.\n(2) An election officer shall provide a certified copy of, or extract from,\na segment of the voters' roll as it exists at that time, to any\nperson who has paid the prescribed fee.\nPART III\nQUALIFICATION VOTE AND ADDITIONAL\nMATTERS RELATING TO ELECTIONS\nQualification 16. Subject to the provisions of sections seventeen, eighteen, and\nfor voting nineteen, every person who is registered in a register of voters for a\nconstituency shall be entitled to vote at a direct election held in that\nconstituency.\nIdentification 17. Every person shall, whenever the person wishes to vote at a direct\nof voter election, identify oneself to an election officer in such manner as may be\nprescribed.\nOne vote 18. (1) No person shall be entitled to vote more than once in the same\nand secrecy election in accordance with this Act and as may be prescribed.\n(2) Every poll shall be taken by means of a secret ballot in accordance\nwith this Act and as may be prescribed.\nDisquali 19. No person shall be entitled to vote at a direct election who\nfications (a) has been convicted of any corrupt practice or illegal practice within a\nfrom voting period of five years Preceding that election;\n(b) has been reported guilty of any corrupt practice or illegal practice by\nthe High Court upon the trial of any election petition under this Act\nwithin a period of five years preceding that election; or\n(c) at the date of the election is in lawful custody or the person's freedom\nof movement is restricted under any law in force in Zambia.\nElection to 20. An election to the office of the President shall be held in every\noffice of\nconstituency in Zambia in accordance with this Act and as may be\npresident\nprescribed.\nNomination 21. A candidate for election as President shall, on such day, at such\nof time and at such place, as may be determined by the Commission, deliver\npresidential to the Returning Officer-\ncandidate\nfa) the candidate's nomination paper;\n(b) the prescribed election fee;\n(c) the prescribed statutory declaration of the candidate's assets and\nliabilities; and\n(d) an oath or affirmation, as set out in the Schedule, of the candidate's\nZambian citizenship, and of that candidate's parents being Zambian\ncitizens by birth or descent:\nProvided that-\n(i) subject to sub-paragraph (ii), the contents of the documents referred to\nin this section shall be accepted prima facie, by the Returning Officer, as\ncomplying with the law as to qualification for election as President;\n(ii) notwithstanding sub-paragraph (i), if the Returning Officer is\nsatisfied that clause (5) (a) or (c) of Article 34 or clause (2) of Article 35\nof the Constitution has not been complied with, the Returning Officer Cap. 1\nshall immediately reject the nomination of the candidate.\n(2) The nomination paper shall be. signed by not less than two\nhundred registered voters:\nProvided that no registered voter shall, for the purposes of this\nsubsection, support more than one presidential candidate.\n(3) Any question, by any person, which may arise as to whether any\nprovision of the Constitution or any law relating to nomination or Cap. 1\nelection of President has been complied with shall be referred, by such\nperson to the full bench of the Supreme Court within fourteen days of the\nperson elected as President being sworn in, in accordance with clause 9\nof Article 34 of the Constitution. Cap. 1\n(4) A person who swears or affirms falsely under this section shall be\nguilty of an offence and shall be liable upon conviction to imprisonment\nfor a term of seven years without the option of a fine."
+    },
+    {
+      "number": "22",
+      "heading": "In addition to the persons disqualified by the Constitution- Additional",
+      "text": "fa) an election officer shall not be qualified for election as a disqualification\nmember of the National Assembly; and for election\n(b) any person who is convicted of any corrupt practice or illegal to National\npractice or who is reported guilty of any corrupt practice or illegal Assembly Cap. 1\npractice by the High Court upon the trial of an election petition under this\nAct shall not be qualified for election as a member of the National\nAssembly for a period of five years from the date of the conviction or of\nthe report, as the case may be."
+    },
+    {
+      "number": "23",
+      "heading": "The election fee for candidates for election to the National Election fee",
+      "text": "Assembly shall be such fee as may be prescribed."
+    },
+    {
+      "number": "24",
+      "heading": "(I) The Commission shall allow a person to apply for a special vote Special vote",
+      "text": "if that person cannot vote at a polling station in the polling district in\nwhich the person is registered as a voter, due to that person's -\n(a) physical infirmity or disability or pregnancy; or\n(b) absence from that polling district while serving as an officer\nor monitor in the election concerned, or while on duty as a\nmember of the security services in connection with the\nelection.\n(2) The Commission may declare and prescribe circumstances in, and\nconditions under, which a person who is unavoidably and unforeseeably\nunable to vote in the polling district in which that person is registered as a\nvoter may apply to vote elsewhere.\n(3) The Commission shall prescribe -\n(a) the procedure for applying for special votes; and\n(b) the procedure, consistent in principle with part VI, for the\ncasting and counting of special votes\nPART IV\nDISSOLUTION OF PARLIAMENT, ELECTION\nACTIVITIES AND MATERIALS\nProclamation 25. (I) Subject to subsection (2), whenever the President proclaims the\nof dissolution dissolution of Parliament in accordance with the Constitution, the\nof Parliament President shall, by Statutory instrument prescribe the date of the polling\nCap. 1 day for a general election.\n(2) The President, when determining the polling day under subsection\n(1), shall not set a date later than ninety days from the date of the\ndissolution of Parliament.\nElection 26. (1) The Commission shall, immediately after the polling day is\ntime table prescribed under section thirty-five.\n(a) compile an election timetable for each election to provide for the\nfollowing:\n(i) the date and method for the submission of nominations;\n(ii) the date and method for the acceptance of nominations;\n(iii) the closing date of the registration of voters;\n(iv) the dates for verification of the provisional voters\nregister:\n(v) the opening and dosing dates of the electoral\ncampaign;\n(vi) the date of the election and voting, hours for the\nelection;\n(vii) any other relevant for any act to he performed; and\n(viii) any other relevant information; and\n(b) publish the election time table in the Gazette.\n(2) The Commission may amend the election timetable by notice\nin the Gazette-\n(a) if it considers it necessary for a free and fair election; or\n(b) if the polling day is postponed under section twenty-nine."
+    },
+    {
+      "number": "27",
+      "heading": "(I) Every public officer and public entity shall give and be seen to Electoral",
+      "text": "campaign\ngive equal treatment to all candidates to enable each candidate to conduct\nthat candida 1 e's campaign freely.\n(2) Every candidate and political party shall have the right to have the\nsubstance of the candidate’s or political party's campaign propaganda\nreported in all public media in a fair and balanced manner.\n(3) The Commission shall prescribe a code or conduct to be complied\nwith by every political party and candidate during an election campaign:\n(4) A candidate or political party may, during an electoral campaign,\npublish campaign materials of such a nature and in such a manner as may\nbe prescribed by the Commission.\n(5) For the purposes of this section \"campaign propaganda\" means\nany activity, statement or any other form of expression aimed at\npromoting particular political ideas, policies and strategies for purposes\nof obtaining votes for any candidate or political party contesting an\nelection."
+    },
+    {
+      "number": "28",
+      "heading": "The Commission may postpone the polling day fur an election, General",
+      "text": "postponement\nprovided the Commission is satisfied that-\nof election\n(a) the postponement is necessary for ensuring a free and fair\nelection; and\n(b) the polling day for the election shall still fall within the period\nas required by the Constitution.\nPostponement 29.(1) If it is not reasonably possible to conduct a free and fair election at\nof voting at a polling station on a prescribed polling day, the Commission may, at any\npolling\ntime before voting at the polling station has commenced, postpone\nstation\nvoting at that polling station.\n(2) A postponement under subsection (1) shall be—\n(a) effected in the prescribed manner;\n(b) to a day that would still fall within the period referred to in\nparagraph (b) of section twenty-eight; and\n(c) publicised in the media so as to ensure wide publicity of\nthe postponement of the polling day at the polling station.\nRe-voting at 30. (1) If ballot papers used in an election at a polling station are lost,\npolling\ndestroyed or unlawfully removed before the votes cast at the polling\nstation\nstation have been determined and announced, the Commission shall\nallow a re-vote at that polling station.\n(2) A re-vote at a polling station shall be-\n(a) conducted on a date that would still fall within the period\nreferred to in paragraph (b) of section twenty-eight;\n(b) publicised in the media so as to ensure wide publicity of\nthe date determined for the re-vote; and\n(c) conducted in accordance with a procedure prescribed by\nthe Commission which is consistent with the principles\nprovided for in Part VI.\nVoters’roll 31. (1) The voters' roll, or the segments of the voters' roll, that shall be\nfor election used for an election shall be such as exist on the day the election is set.\n(2 ) The Director of Elections, by not later than the relevant date stated\nin the election time-table, shall certify the voters' roll or the segments of\nthe voters' roll to be used in that election and publish it by making it\navailable for inspection at the following venues:\n(a) at the Commission's head office, being the segments for all\nvoting districts in which the election shall take place;\n(b) in each Province, at the office of the Commission's provincial\nrepresentative, being the segments for all voting districts in\nthe Province in which the election shall take place; and\n(c) at the office of each local authority, being the segments for alt\nvoting districts in that locality in which the election shall take\nplace."
+    },
+    {
+      "number": "32",
+      "heading": "The Commission shall prescribe the date, and time and place Nomination",
+      "text": "for submission and acceptance of nominations in an election and the date\nmanner and procedures for such nomination."
+    },
+    {
+      "number": "33",
+      "heading": "(1) Every person who desires to be candidate for election in any Nomination",
+      "text": "constituency shall lodge with the returning officer for that constituency for election\nthat person’s domination paper in the manner and form prescribed\n(2) A nomination submitted under subsection (1), may be\nwithdrawn at any time, before the expiry of the period appointed for\nlodging nomination papers in respect of the constituency concerned, if\nthe candidate delivers to the election officer a written notice to that\neffect."
+    },
+    {
+      "number": "34",
+      "heading": "(1) In an election, a person shall only lodge nomination papers in Nomination",
+      "text": "one constituency. in one\n(2) Where, upon the expiry of the period for lodging nomination constituency\npapers in any constituency, a person is found to have lodged, and not\nwithdrawn, nomination papers in more than one constituency, then\neveryone of those nominations shall be invalid."
+    },
+    {
+      "number": "35",
+      "heading": "(1) Every candidate contesting an election may appoint- Appointment",
+      "text": "(a) two polling agents for each polling station; and of election\n(b) two election agents for each venue where the proceedings agents and\nprovided for in Part VI take place. polling agents\n(2) An election or polling agent—\n(a) shall be a Zambian citizen; and\n(b) shall not be a candidate in an election.\n(3) The appointment and revocation of appointment of a person as an\nelection or polling agent shall be effected in the manner prescribed."
+    },
+    {
+      "number": "36",
+      "heading": "(1) An election or polling agent may observe the proceedings Powers and",
+      "text": "during- duties of\n(a) voting; election or\n(b) the counting of votes; and polling agents\n(c) the determination and declaration of the result of an election.\n(2) The absence of an election or polling agent from a place were any\nelectoral proceeding is being conducted shall not invalidate those\nproceedings.\n(3) Whilst present at any polling station, or venue where the\nproceedings provided under this section take place, an election or polling\nagent shall-\n(a) wear the prescribed identification indicating -\n(i) that the person is an election or polling agent; and\n(ii) the candidate represented by that election or polling\nagent; and\n(b) comply with any order issued by\n(i) an election officer; or\n(ii) a police officer acting on the instructions of an\nelection officer.\nEstablishment 37 .(1) The Commission shall-\nof polling\ndistricts (a) establish polling districts for the whole of the territory of the\nRepublic;\n(b) determine the boundaries of each polling district in\naccordance with the criteria provided in section thirty-eight;\nand\n(c) keep a map of each district.\n(2 ) The polling districts for an election shall be those polling districts\nwhich on the date on which an election is called are within the area in\nwhich the election is called.\nCriteria for 38. The Commission shall determine the boundaries of a polling\ndetermining district by taking into account any factor within the proposed polling\npolling\ndistricts that could affect the free, fair and orderly conduct of elections,\ndistrict\nincluding-\nboundaries\n(a) the availability of a suitable venue for apolling station;\n(b) the number and distribution of eligible voters;\n(c) the accessibility of a polling station to voters given-\n(i) the radius of the proposed polling district;\n(ii) the availability of transport;\n(iii) telecommunications facilities; and\n(iv) any geographical or physical feature that may\nimpede access to the polling station; and\n(d) district and provincial boundaries.\nInspection 39. (1) As soon as practicable after section thirty-seven has been\nand copies complied with, the Director of Elections shall give notice that copies of\nof maps of\nthe map of each polling district are available for inspection.\npolling\n(2) The notice shall be -\ndistricts\n(a) published in the Government Gazette; and\n(b) published in the media so as to ensure wide publicity of the\nmaps.\n(3) The notice shall state, and the Director of Elections shall ensure,\nthat copies of-\n(a) the maps are available for inspection at the Commission's\nhead office; and\n(b) the maps of the voting districts within a district are available\nfor inspection at the office of the person administering the\ndistrict.\n(4) Any person may inspect a copy of a map provided for in\nsubsection\n(1).\n(5) The Director of Elections shall provide a certified copy of a map\nor a polling district to any person who has paid the prescribed fee."
+    },
+    {
+      "number": "40",
+      "heading": "(1) The Commission shall establish, for an election, a polling Establishment",
+      "text": "station in each polling district, as it may prescribe. of polling\nstations\n(2) When determining the location of a polling station, the\nCommission may take into account any factor that could affect the\nfree, fair and orderly conduct of elections, including\n(a) the number and distribution of eligible voters in those polling\ndistricts;\n(b) the availability of suitable venues for polling stations;\n(c) the distance to be travelled to reach those venues;\n(d) access routes to those venues;\n(e) the availability of transport to thosp venues;\n(f) traffic density at or near those venues;\n(g) parking facilities at or near those venues;\n(h) telecommunications facilities at those venues;\n(i) general facilities at those venues;\n(j) the safety and convenience of voters;\n(k) any geographical or physical feature that may impede access to or at\nthose venues; and\n(1) the ease with which those venues can be secured.\n(3) Before determining the location of a polling station, the\nCommission may consult on the proposed location of that voting station\nwith the local authority for the area within which that polling station shall\nfall.\n(4) By not later than the relevant date stated in the election timetable,\nthe Director of Elections shall give notice that copies of a list containing\nthe address of each polling station shall be available for inspection.\n(5) Section forty apply, with the necessary modifications, to the\ninspection and taking or copies of the list specified under subsection (4),\nRelocation of 41. (1) Notwithstanding section forty the Commission may relocate a\nPolling polling station if it is of the view that it is necessary to do so for the\nstation in\nconduct of a free and fair election.\nemergencies\n(2 ) The election officer shall take all reasonable steps to publicise the\nrelocation of polling station among voters in the voting district\nconcerned.\nBallot paper 42. Subject to the other provisions of this act and section forty-three,\nthe Commission shall prescribe the form and design of a ballot paper and\nthe manner in which ballot papers issued shall be accounted for in a ballot\npaper account.\nDesign of 43. (1) Not withstanding section fifty-two, a ballot paper shall be\nballot paper designed in a way that shall prevent fraudulent voting.\n(2) The counterfoil of a ballot paper shall be marked with the voters'\nnational registration card number or may be marked with the voter's card\nnumber.\n(3) A ballot paper shall include-\n(a) a potrait of the candidate nominated for elections to the\noffice of President, as a Member of Parliament; and\n(b) the symbol of a political party registered with the\nCommission under which a candidate shall stand for\nelections and where the candidate is an independent\ncandidate, the symbol Commission shall allocate to the\nindependent candidate.\n(4) A ballot paper shall be colour coded so as to differentiate the\nballot paper for use in a Presidential or National Assembly election.\nBallot boxes 44. (1) The Commission shall use transparent ballot boxes in an\nelection which shall he capable of being securely closed.\n(2 ) The Commission shall prescribe the manner in which ballot boxes\nshall be-\n(a) numbered and labelled; and\n(b) closed, closed scaled and unsealed.\nVoting 45. (1) Subject to subsection (2), the Comission shall prescribe the\ncompartments design and material or voting compartments to be used in an election\n(2 ) A voting compartment shall, while screening a voter from\nobservation by other persons when marking a ballot paper, be designed\nand placed in such a manner as to ensure that a clear view of the voters'\nback can be observed from the outside."
+    },
+    {
+      "number": "46",
+      "heading": "(I) The Commission shall Supply, before voting opens at a Voting",
+      "text": "materials\npolling station, the presiding officer responsible for that polling\nstation with all the voting materials necessary for the election at\nthat station including-\n(a) ballotpapers;\n(b) ballotboxes;\n(c) voting compartments;\n(d) a certified voters’ roll for the polling district concerned;\nand\n(e) a document to be signed by the presiding officer detailing\nthe voting materials entrusted to that presiding officer.\n(2) A presiding officer shall be responsible for the safe-keeping of all\nthe voting materials supplied to that officer.\nPARTV\nElection Officers"
+    },
+    {
+      "number": "47",
+      "heading": "As soon as practicable, afterprescribingadate for an election, the Appointment",
+      "text": "Commission shall appoint a presiding officer for each voting station at of\npresiding\nwhich that election is to be conducted.\nOfficer"
+    },
+    {
+      "number": "48",
+      "heading": "(I) A presiding officer shall co-ordinate and Supervise the Powers and",
+      "text": "duties of\nvoting at a polling station so as to ensure that the election at the polling\npresiding\n* station is free and fair. officer\n(2) The presiding officer-\n(a) shall exercise the powers and perform the duties assigned\nto apresiding officer by or under this Act;\n(b) shall take all reasonable steps to ensure orderly conduct\nat a polling station; and\n(c) may order a Police Officer to assist in ensuring orderly\nconduct at that polling station and that Officer shall\ncomply with the order.\n(3) The presiding officer may exclude from the area within the\nboundary of apolling station any person other than-\n(a) a member, employer or officer of the Commission;\n(b) an election or polling agent who is entitled under this Act\nto be present at a polling station;\n(c) a candidate in that election;\n(d) a person appointed as an accredited observer or monitor;\n(e) a voterpresent for the purpose of casting a vote; and\n(f) any person or category of persons authorised by the\nCommission to be present at the polling station.\n(4) Notwithstanding subsection (3), the presiding officer may order\nany person, referred to in paragraphs (b) to (f) of subsection (3), to leave\nthe area within the boundary of the polling station if that person's conduct\nis not conducive to a free and fair election at that polling station and shall\ngive that person reasons for making the order.\n(5) If a person refuses to comply with an order under subsection (4),\nthe presiding officer may direct a police officer to forcibly remove that\nperson, and that officer shall comply with that order.\nAppointment 49. As soon as practicable after a date for an election has been\nof polling\nprescribed, the Commission shall appoint for each polling station as\nassistants\nmany polling assistants as it considers necessary to conduct a free and\nfair election.\nPowers and 50. Apolling assistant-\nduties of (a) shall assist the presiding officer in the exercise of the presiding\npolling\nassistant officer's powers and the performance of the presiding officer's\nduties; and\n(b) shall exercise the powers and perform the duties assigned to a\npolling assistant by or under this Act.\nAppointment 51. (I) As soon as practicable, after prescribing a date of an election, the\nof counting\nCommission shall appoint a counting assistant for each polling station or\nassistant\nvenue at which the counting of votes is to be conducted.\n(2) Notwithstanding subsection (I), the Commission may appoint the\npresiding, officer or a polling assistant, for a polling station, as the\ncounting assistant for that polling station for that venue.\nPowers and 52. (I) A counting assistant for a polling station or venue for the\nduties of\ncounting of votes shall co-ordinate and supervise the counting of votes\ncounting\nassistant and determine; the result of the election at the polling station or venue.\n(2) The powers and duties of a counting assistant shall be as specified\nfor a presiding officer under subsection (2) to (5) of section forty-eight,\nwith the necessary modifications.\nAppointment 53. The Commission may appoint as many additional persons as\nof additional\nelection officers as may be necessary to enable the Commission\npersons\nto exercise its powers and perform its duties effectively during an\nelection"
+    },
+    {
+      "number": "54",
+      "heading": "(1) A person appointed by the Commission under section fifty- Powers and",
+      "text": "duties of\nthree shall exercise any power and perform any duty assigned to an additional\nelection officer by or under this Act. persons"
+    },
+    {
+      "number": "55",
+      "heading": "(I) A person may not be appointed as an election officer or General",
+      "text": "provisions\nremain in that office, if that person- concerning\nappointment\n(a) is a candidate contesting that election;\nof election\nofficer\n(b) is an election or polling agent in that election;\n(c) holds political office in a registered party; or\n(d) was convicted of an offence or reported guilty of any corrupt\npractice or illegal practice, under this Act, within a period office\nyears preceding that election.\n(2) An election officer shall exercise the powers and perform the\nduties assigned to that officer subject the direction, control and discipline\nof the Commission.\n(3) The Commission shall determine, in writing, the terms and\nconditions of appointment of an election officer including x r*\n(a) any additional powers and duties assigned to that officer subject\nto this Act; and\n(b) any remuneration payable to that officer.\n(4) The assignment of a power of duty to all election officer shall not\nprevent the Director of Elections from exercising that power of\nperforming that duty. v\n(5) A person may not be appointed as an\nelection officer unless \\hat person has signed a prescribed\nundertaking which shall include an undertaking to be bound by-\n(a) the Electoral Code of Conduct; and\n(b) adeclaration of secrecy.\n(6) An election officer shall be impartial and exercise the powers and\nperform the duties, stipulated by or under this Act, independently and\nwithout fear, favour or prejudice.\n(7) An election officer may not, whether directly or indirectly, in any\nmanner, give support to any of the issues in contention between parties or\ncandidates.\n(8) An election officer may not place in jeopardy that officer's\nindependence or harm the credibility, impartiality, independence or\nintegrity of the Commission, by any membership, association, statement\nor conduct.\n(9) An election officer shall not be liable for any loss suffered by a\nperson as a result of an act performed or omitted in good faith\nin the exercise of a power or the performance of a duty under this Act.\n(10) An election officer may be dismissed by the Commission\non account of\n(a) misconduct, incompetence or incapacity;\n(b) absence from duty without leave of the Director of\nElections;\n(c) bias;\n(d) a material contravention of this section;\n(e) a material contravention of the declaration of secrecy; or\n(f) any other consideration related to a free and fair election.\n(11) No appeal may be brought against a decision by the Commission\nto appoint a person as an election officer or to dismiss an election officer\nPARTV\nPolling Day activities\nElection 56. On polling day each polling station shall be staffed by the-\nofficers at\npolling (a) presiding officer appointed for that polling station;\nstations\n(b) polling assistants appointed for that polling station; and\n(c) counting assistant appointed for that polling station.\nHours of\nvoting 57. (I) By not later than the relevant date stated in the election\ntimetable, the commission shall prescribe the voting hours for an\nelection.\n(2) If it is necessary to ensure a free and fair election, the Commission\n'may prescribe different voting hours for different polling stations.\n(3) The Commission shall publish the prescribed voting hours in the\nmedia so as to ensure wide publicity of those hours.\n(4) A polling station shall-\n(a) open for voting at the prescribed time and;\n(b) subject to paragraph (b) of subsection (7), remain open for\nvoting until the prescribed time, or such later time as the\nCommission may determine under paragraph (a) of subsection\n■ (7)-\n(5) No person may be admitted to a polling station for the purpose of\nvoting after the polling station has closed for voting.\n(6) Voting at a polling station shall continue until every voter has\nvoted who-\n(a) is entitled to vote at that polling station; and\n(b) had reported for voting at that polling station at the time\nprescribed for that polling station to close for voting.\n(7) To ensure a free and fair election, the Commission-\nfa) on the voting day, may extend voting hours at a polling station\nuntil as late as midnight on that voting day; or\n(b) may temporarily close a polling station for part of a polling day\nif it is temporarily impossible to conduct a free and fair election\nat that voting station:\nprovided that the time lost under paragraph (b) shall be\ncompensated;\n(8) The Government shall declare a polling day a national holiday\nduring a general election."
+    },
+    {
+      "number": "58",
+      "heading": "The presiding officer shall, immediately before opening a voting initial",
+      "text": "Station for Voting- procedures\n(a) show all accredited observers, monitors, election and polling\nagents, present, that each ballot box to be used at that voting\nstation is empty; and\n(b) in the presence of the accredited observers, monitors, election\nand polling agents, close and secure the ballot boxes in the\nprescribed manner."
+    },
+    {
+      "number": "59",
+      "heading": "(I) Subject to section twenty-four a voter may only vote at the voting",
+      "text": "polling station in the polling district for which that voter is registered. procedures\n(2) A voter is entitled to vote at a polling station-\nfa) on production of that voter's national registration card and\nvoter’s card to the presiding officer or other election officer at\nthe polling station; and\n(b) if that voter's name is in the certified segment of the voter's roll\nfor the polling district concerned.\n(3) When a voter produces a national registration card to the presiding\nofficer or other election officer as required by subsection (2), the\npresiding officer or election officer shall examine the identity document\nand determine whether-\n(a) the voter is the person described in that national registration\ncard;\n(b) the voter's name is in the certified segment of the voter's roll for\nthe polling district concerned; and\n(c) the voter has not already voted in the election.\n(4) For the purposes of paragraph (c) of subsection (3) the presiding\nofficer or other election officer may require that the voter's fingerprints\nbe taken.\n(5) If the presiding officer or other election officer is satisfied in\nrespect of all the matters referred to in subsection (3), that officer shall-\n(a) record that the voter is regarded to have voted in the election;\n(b) mark the hand of the voter in the prescribed manner;\n(c) mark the back of a ballot paper for that election; and\n(d) hand the ballot paper to the voter.\n(6) Once the voter has received a ballot paper marked under paragraph\n(c) of subsection (5) the voter shall-\n(a) enter an empty voting compartment;\n(b) mark the ballot paper in a way that indicates the candidate the\nvoter wishes to vote for;\n(c) fold the ballot paper to conceal the voter's vote;\n(d) take the ballot paper to a ballot box for the election and show it\nto the presiding officer or another election officer in a way that,\nthat officer can see the mark made under paragraph (c) of\nsubsection (5);\n(e) place the ballot paper in the ballot; and\n(f) without delay leave the voting station.\nAssistance\nto certain 60. (I) The presiding officer or another election officer, at the request\nvoters\nof a voter who is unable to read, shall assist that voter in voting in the\npresence of-\n(a) a person appointed by or as an accredited observer or\nmonitor, if available; or\n(b) two election agents of different candidates, if available; or\n(2): A person may assist a voter in voting if-\n(a) the voter requires assistance due to a physical disability;\n(b) the voter has requested to be assisted by that person; and\n(c) the presiding officer is satisfied that, that person has attained\nthe age of 18 years.\n(3) . The secrecy of voting as stipulated in the Constitution shall be\npreserved in the application of this section.\n(4) A presiding officer shall record in a copy ofthe voter's roll, by\nmeans of a mark placed next to the name of the voter concerned, that the\npresiding officer or another person has assisted the voter as provided\nunder this section and give the reasons fordoing so."
+    },
+    {
+      "number": "61",
+      "heading": "(I) If a voter accidentally marks a ballot paper in a way that does not Issue of",
+      "text": "New ballot\nindicate for whom the voter wishes to vote and the ballot has not yet been\npapers\nplaced in the ballot box-\nfa) the voter may return that ballot paper to the presiding officer or a\npolling assistant;\n(b) that election officer shall deal with the ballot paper in accordance\nwith subsection (2), and shall give the voter a new ballot paper in\naccordance with this section; and\n(c) the voter may vote in accordance with subsection (6) of\nsectionfifty-nine.\n(2) Upon receiving a ballot paper from a voter under subsection (I), the\npresiding officer or a polling assistant shall mark \"cancelled” on the back\nof the ballot paper and file it separately to be dealt with in accordance\nwith section sixty-four:"
+    },
+    {
+      "number": "62",
+      "heading": "(I) At any time before a voter has been handed a ballot paper, an Objections",
+      "text": "concerning\nelection agent may object to that voter being entitled to vote or to vote at voting\nthe voting station concerned.\n(2) An election agent, or the voter concerned, may object if the voter is\nrefused a ballot paper.\n(3) An election agent, or a voter, may object to any other conduct,\nof an election officer, or any other person present at a voting station.\n(4) An objection under subsection (1), (2) or (3) shall be made to the\npresiding officer in the prescribed manner.\n(5) The presiding officer, in the prescribed manner, shall decide the\nobjection and notify the objector and any other parties involved in the\nobjection of the decision.\n(6) An appeal against the decision of the presiding officer may be\nmade to a returning Officer in the prescribed manner.\n(7) the presiding officer or Returning Officer shall keep a written\nrecord in the prescribed manner of each objection and decision made\nunder this section."
+    },
+    {
+      "number": "63",
+      "heading": "(I) As soon as a ballot box is full, the presiding officer, in the. Sealing of",
+      "text": "full ballot\npresence of an accredited observer, monitor, or polling agent present,\nboxes\nshall seal the ballot box in the prescribed manner and allow those agents\nto affix their seals to the ballot box.\n(2) Immediately after the last vote has been cast, cast every remaining\nused ballot box shall be similarly dealt with.\n(3) A sealed ballot box shall remain -\n(a) sealed until opened for the counting of votes under section\nsixty-severr, and\n(b) in the polling station until the commencement of the counting of\nthe votes there or, if the votes are not to be counted at that\npolling station, until removed for delivery under section sixty-\nfour:\nCompletion"
+    },
+    {
+      "number": "64",
+      "heading": "(I) As soon as practicable after the close of a polling station for voting,",
+      "text": "of ballot\npaper account the presiding officer, in the presence of any accredited observer, monitor\nand sealing of\nvoting election agents present, shall-\nmaterials\n(a) complete a ballot paper account reflecting the number of-\n(i) ballot boxes entrusted to that presiding officer;\n(ii) used ballot boxes;\n(iii) unused ballot boxes;\n(iv) ballot papers entrusted to that presiding officer;\n(v) issued ballot papers;\n(vi) unissued ballot papers; and\n(vii) cancelled ballotpapers;\n(b) seal each unused ballot box entrusted to that presiding officer;\n(c) seal in separate containers-\n(i) the certified segment of the voters' roll for that polling\ndistrict;\n(ii) the unused ballot papers entrusted to that presiding officer;\n(iii) the cancelled ballot papers; and\n(iv) the written record, as required by paragraph (7) of section\nsixty-two of any objections concerning voting; and\n(d) allow those agents to affix their seals to the items mentioned in\nparagraphs (b) and (c).\n(2) If the votes in an election are to be counted at the polling station at\nwhich those votes were cast and if the counting assistant for that polling\nstation is a person other than the presiding officer for that polling station,\nthe presiding officer shall deliver to the counting assistant for that polling\nstation the items mentioned in subsection (I).\n(3) If the votes in an election are not to be counted at the polling station\nat which those votes were cast, the presiding officer shall deliver the\nfollowing to the counting assistant of a counting venue determined by the\nCommission under section sixty-six:\n(a) the ballot paper account mentioned in subsection (I);\n(b) the sealed, used ballot boxes;\n(c) the sealed, unused ballot boxes; and\n(d) the sealed containers mentioned in subsection (I) (c)."
+    },
+    {
+      "number": "65",
+      "heading": "If more than one election is held at a polling station on the same More than one",
+      "text": "election on\nday, the Commission shall prescribe voting procedures-\nsame day\n(a) substantially in accordance with sections fifty-six to sixty four\nfor each of those elections;\n(b) in accordance with local Government Elections Act in the case Cap. 282\nof elections to elect a councillor"
+    },
+    {
+      "number": "66",
+      "heading": "(I) Votes shall be counted at the polling station at which those Place and",
+      "text": "votes were cast, except when in the interest of ensuring a.free and fair time of\ncounting of\nelection, the Commission, after consultation with the contesting parties\nvotes\nor their agents, determines that those votes be counted at another\ncounting venue.\n(2) A counting assistant shall ensure that the procedures set out in this\nPart relating to the counting of votes commences as soon as practicable\nafter the polling station is closed for voting and continue uninterrupted\nuntil they are completed.\n(3) The procedures provided for in this Part relating to the counting of\nvotes may be suspended only with the consent of the Commission and, if\nthey are suspended, the counting assistant shall ensure the safe-keeping\nof all the voting materials entrusted to the counting assistant until the\ncounting of votes has been completed."
+    },
+    {
+      "number": "67",
+      "heading": "(1) The counting assistant shall open all the sealed, used ballot counting of",
+      "text": "votes and\nboxes.\ndetermination\n(2) The counting assistant shall- of provisional\nresults\n(a) cause the ballot papers to be sorted on the basis of the ballot\npapers for each election if more than one election was held at a\npolling station on the same day;\n(b) cause the ballot papers for each election be sorted and compare\nthem with the number of ballot papers issued in the prescribed\nmanner;\n(c) cause the votes cast in each election to be counted in the\nprescribed manner; and\n(d) determine the result of each count at that polling station.\n(3)' The counting assistant shall reject a ballot paper-\nfa) that indicates the identity of the voter;\n(b) for which a vote is cast for more than one candidate;\n(c) that is unmarked;\n(d) that is marked in such a way that it is not reasonably possible to\ndetermine the voter’s choice;\n(e) that does not bear the mark required in terms of paragraph (c)\nof subsection (5) of section sixty-one; or\n(f) that is not an official ballot paper.\n(4) The counting assistant shall mark \"for rejection\" on the back of\neach rejected ballot paper and file the rejected ballot paper separately.\n(5) If a counting assistant's acceptance or proposal to reject a ballot\npaper is disputed by all election agent, the counting assistant shall-\n(a) mark \"disputed\" on the back of that ballot paper;\n(b) file separately but cause to be counted, the accepted ballot\npaper that is disputed; and\n(c) file separately the rejected ballot paper that is disputed.\nObjection 68. (I) An election or polling agent may object to any alleged\nconcerning\nsorting of irregularity in the sorting of the ballot papers under section sixty-seven\nballot papers\n(2) An objection under subsection (1) shall be made to a counting\nassistant, in the prescribed manner, at any stage before the counting\nassistant has completed the ballot paper account.\n(3) Section sixty-two, with the necessary modifications, shall apply to\nan objection under this section.\nObjections"
+    },
+    {
+      "number": "69",
+      "heading": "(I) An election or polling agent may object to an alleged inaccuracy",
+      "text": "concerning\ncounting of in the counting of the votes or the determination of a result under section\nvoters and\ndetermination sixty-seven.\nof provisional\nresult (2) An objection under subsection (I) shall be made to a counting\nassistant, in the prescribed manner, at any stage before the counting\nassistant has completed the ballot paper account.\n(3) A counting assistant shall decide the objection in the prescribed\nmanner and decide whether to order a recount.\n(4) A counting assistant shall notify the objector and any other party\ninvolved in the objection of the decision made under subsection (3).\n(5) If a counting assistant orders a recount, the counting assistant shall\ndetermine afresh the result\n(6) An appeal against the decision of a counting assistant may be made\nto the returning officer, in the prescribed manner.\n(7) A counting assistant shall keep a written record, in the prescribed\nmanner of each objection under subsection (I) and each decision under\nthis section."
+    },
+    {
+      "number": "70",
+      "heading": "(I) After determining the result at a polling station a counting Procedure",
+      "text": "concerning\nassistant shall complete a form, as may be prescribed, reflecting- provisional\nresults and\nfa) the number of ballot papers supplied to the polling station;\nvoting\n(ft) the result at the polling station; materials\n(c) the number of counted ballot papers that were not disputed;\n(d) the numb er of counted ballot papers that were disputed;\n(e) the number of rejected ballot papers that were not disputed;\n(f) the number of rejected ballot papers that were disputed;\n(g) the number of cancelled ballot papers; and\n(h) the number of unused ballot papers.\n(2) When a counting assistant has complied with subsection (I),\nthe presiding officer shall announce the result of the count at voting\nstation to members of the public, the accredited observers, monitors,\nelection and polling agents present at the polling station.\n(3) When the presiding officer has complied with subsection (2), the\npresiding officer shall inform the Commission of the result of that count\nat the polling station.\n(4) When the presiding officer has complied with subsection (3), the\npresiding officer shall-\n(a) seal in separate containers each of the items mentioned in\nsubsection (I) and the written record of any objections in terms\nof section sixty-nine: and\n(b) deliver the form, complied in terms of subsection (I),and the\nsealed containers to an officer designed by the Director of\nElections"
+    },
+    {
+      "number": "71",
+      "heading": "(I) After receipt of the items mentioned in section seventy a verification",
+      "text": "procedure\ncounting assistant shall examine whether the seals are intact in those\nfore votes\nitems. counted\nelsewhere\n(2) A counting assistant shall allow any accredited observer,\nmonitor, election or polling agent present to examine whether the seals\nare intact.\n(3) A counting assistant shall, after examining the seals, Open all the\nsealed ballot boxes and containers and shall verify the ballot paper\naccount completed by the presiding officer by comparing it with-\n(a) number of used ballot boxes received;\n(b) the number of unused ballot boxes received;\n(c) the number of containers received; and\n(d) the contents of those boxes and containers.\n(4) A counting assistant shall deal with any irregularities and\ndiscrepancies in the prescribed manner.\n(5) A counting assistant shall keep a written record, in the\nprescribed manner, of any irregularities and discrepancies and the\nmanner in which those irregularities and discrepancies were dealt\nwith.\nObjections 72. (1) At any time before the counting of votes commences, an\nconcerning\nelection or polling agent may object to any alleged irregularity or\nverification\nprocedure inaccuracy in the verification procedure performed by a counting\nassistant.\n(2 ) An objection under subsection (I) shall be made to a counting\nassistant in the prescribed manner.\n(3 ) Subsection (5) to (7) of sixty-nine with the necessary\nmodifications, shall apply to an objection under this section^\nApplication 73. Sections sixty-seven to seventy, with the necessary\nof certain\nmodifications, shall apply to the counting of votes and the\nsections\ndetermination of the result at a venue, other than a polling station,\nobjections and procedures concerning results and voting materials.\nDetermination 74. (I) The Commission shall determine and declare the result of an\nand\nelection by adding together the results received from all polling stations.\ndeclaration\nof (2 ) The determination and declaration of the result of an election shall\nfinal result of\noccur immediately after the close of polling.\nelection\n(3 ) The Commission may determine and declare the result of an\nelection without having received the results of all polling stationsi\nifs.-.\n(a) to wait for the receipt of the result from every polling station\nwould unduly and unreasonably delay the\ndetermination and declaration of the result of that\nelection;\nand\n(b) the outstanding results are not likely to materially influence .\nthe overall result of that election.\nPART VI\nAccredition\nof observers Observers, Monitors and Voter\nand monitors\neducation\n75, (1) Any juristic person may apply to the Commission, in the\nprescribed manner, for accreditation to observe or monitor\nan election.\n(2) The Commission may require any information it may consider\nnecessary in support of an application under subsection (I).\n(3) The Commission may accredit an applicant, without the payment\nof any fee, to observe or monitor an election after considering the\napplication, any other information provided by the applicant, and\nwhether-’\n(a) the accreditation of the applicant shall promote conditions\nconducive to a free and fair election; and\n(b) the persons appointed by the applicant shall-\n(i) observe the election impartially and independently of\nany registered party or a candidate contesting that\nelection;\n(ii) be competent and professional in observing the\nelection; and\n(iii) subscribe to a code governing observers and .monitors\nissued by the Commission under this Act.\n(4) If the Commission decides—\n(a) to accreditthe applicant, the Commission shall—\n(i) enter the applicants name in the register of persons\naccredited as observers and monitors;\n(ii) issue a certificate of accreditation in the applicants\nname stating the period and other conditions of\naccreditation; and\n(iii) send the certificate to the applicant; or\n(b) not to accredit the applicant, the Commission shall advise\nthe unsuccessful applicants, in writing, of its decision.\n(5) If a person accredited as an observer or monitor fails to comply, to\na material extent, with the conditions of the accreditation, the\nCommission may cancel that accreditation and, in writing, notify the\nperson concerned of the cancellation and state the reasons for such\ncancellation.\n(6) Any person may inspect the register and copies of the certificates\nof persons accredited as observers and monitors.\n(7) The register and copies of the certificate shall be kept at the\nCommission's head office.\n(8) The director of Elections shall provide a certified copy of, or\nextract from, that register or a certificate to any person who pays the\nprescribed fee.\n(9) A person representing an accredited observer or monitor shall\nsubscribe to a code of conduct as may be prescribed by the Commission\nand shall undertake to abide by the Electoral Code of Conduct.\n(10) Any person, representing an accredited observer or monitor, who is\nfound guilty of Violating any election law shall be disqualified from\nobserving or monitoring any election.\n(11) A register of juristic "
+    },
+    {
+      "number": "79",
+      "heading": "(I) Any person who corruptly either directly or indirectly, Bribery",
+      "text": "by oneself or any-other person\n(a) gives, lends, or procures, or offers, promises or agrees to\ngive, lend or procure any money to or for any person to or\nfor any person on behalf of any voter or to or for any other\nperson in order to induce any voter to vote or refrain from\nvoting or who corruptly does any such act as aforesaid on\naccount of such voter having voted or refrained from voting at\nany election;\n(b) gives, lends or procures, or offers, promises or agrees to\ngive, lend, or procure, any money to or for any voter or to or\nforanyother person on behalf of anyvoteror to orforany\nother person for acting or joining in any procession or\ndemonstration before, during or after any election;\n(c) makes any gift, loan, offer, promise, procurement or\nagreement to or for any person in order to induce the person to\nprocure or to endeavour to procure the return of any candidate\nat any election or the vote o f any voter at any election;\n(d) upon or in consequence of any gift, loan, offer, promise,\nprocurement or agreement, procures or engages, promises or\nendeavours to procure, the return of any candidate at any\nelection or the vote of any voter at any election;\n(e) advances or pays or causes to be advanced or paid any money to\nor for the use of any other person with the intent that such\nmoney or any part thereof shall be expended in bribery at any\nelection, or who knowingly pays or causes to be paid any\nmoney to any person in discharge or repayment of any money\nwholly or in part expended in bribery at any election;\n(0 before or during any election, receives or contracts for any\nmoney or loan fo oneself or any other person for voting or\nagreeing to vote or for refraining or agreeing to refrain from\nvoting from any election;\n(g) after any election, receives any money on account of any\nperson having voted or refrained from voting or having\ninduced any other person to vote or refrain from voting at any\nelection; or\n(h) conveys or transfers or is concerned with the conveyance or\ntransfer of any property, or pays or is concerned with the\npayment of any money, to any person for the person to be\nregistered as a voter, thereby to influence that person’s\nvote at any future election, or pays to or is concerned with\nthe payment of any money on account of any voter for the\npurpose of inducing that person to vote or refrain from\nvoting;\nshall be guilty of the offence bribery\n(2) Nothing in this Act shall be construed as applying to any money\npaidor agreed to be paid for, or on account of, any expenditure bonafide\nand lawfully incurred in respect of the conduct or management of an\nelection.\nImpersonation 80 Any person who -\n(a) at any election, applies for a ballot paper in the name of\nsome other person, living or dead, or of a fictitious person;\n(b) having voted once at any election, applies again at the\nsame election for a ballot paper;\n(c) votes at any election knowing that the person is not entitled to\nvote at that election or induces\nor procures any person to vote at any election knowing that\nperson is not entitled to vote at that election\n(d) applies to be registered as a voter in the name of any other\nperson, whether living, dead or fictitious; or\n(e) impersonates-\n(i) a representative of a registered party;\n(ii) a candidate in an election;\n(iii) a member, employee or officer of the Commission; or\n(iv) a person appointed by an accredited observer, or\nmonitor;\nShall be guilty of the offense impersonation.\nTreating 81. Any person who corruptly by any person either before, during or\nafter an election, directly or indirectly, gives or provides or pays, wholly\nor in part, the expenses of, any food, drink, entertainment, lodging, or\nprovisions to, any person for the purpose of corruptly influencing that\nperson or any otherperson to give orrefrain from giving that person’s\nvote at an election shall be guilty of the offence of treating."
+    },
+    {
+      "number": "82",
+      "heading": "(I) No person shall directly or indirectly, by oneself by any other Undue",
+      "text": "person influence\n(a) make use of or threaten to make use of any force, violence or\nrestraint upon any other person;\n(b) inflict or threaten to inflict by oneself or by any other person,\nor by any supernatural or non-natural means, any physical,\npsychological, mental or spiritual injury, damage, harm or\nloss upon or against any person; and\n(c) do or threaten to do anything to the disadvantage of any\nperson;\nin order to induce or compel any person\n(i) to register ornot to register as a voter;\n(ii) to vote or not to vote;\n(iii) to vote or not to vote for any registered party or\ncandidate;\n(iv) to support or not to support any registered party or\ncandidate; or\n(v) to attend and participate in, or not to attend and\nparticipate in, any political meeting, march,\ndemonstration or other political event;\n(d) interfere with the independence or impartiality of the\ncommission, any member, employee or officer of the\ncommission;\n(e) prejudice any person because of any past, present or\nanticipatedperformanceof a function under this Act;\n(f) advantage, or promise to advantage, a person in exchange for\nthat person not performing a function under this Act; or\n(g) unlawfully preventing the holding of any political meeting,\nmarch, demonstration or other political event.\n(2) subject to the other provisions of this Act, no person shall prevent\nanyone from exercising a right conferred by this Act.\n(3) No person, knowing that another person is not entitled to be\nregistered as a voter, shall-\n(a) persuade that other person that that other person is entitled\nto be registered as a voter; or\n(b) represent to anyone else that that other person is entitled\nto be registered as a voter.\nNo person, knowing that another person is not entitled to vole shall-\n(a) assist, compel or persuade that other person to vote; or\n(b) represent to anyone else that other person is entitled to vote.\n(5) Any person who contravenes any of the provisions of subsections\n(I) to (4) shall be guilty of the offence of undue influence.\n(6) Any person who, by abduction, duress or any fraudulent device or\ncontrivance, impedes or prevents the free exercise of the vote of any\nvoter or thereby compels, induces or prevails upon any voter either to\ngive or to refrain from giving the person's vote at any election, shall be\nguilty of the offence of undue influence.\nillegal 83. (I) Any person who, before or during an election, publishers a\npractices\nfalse statement of the illness, death or withdrawal from election of a\nof publishing\ncandidate at that election for the purpose of promoting or procuring\nfalse\nthe election of another candidate, knowing that statement to be false\nstatements in\nor not believing it to be true, shall be guilty of an illegal practice.\nrespect of\ncandidates\n(2 ) Any person who, before or during an election, publishes any false\nstatement of fact in relation to the personal character or conduct of a\ncandidate in that election, shall be guilty of an illegal practice, unless that\nperson can show that person had reasonable grounds for believing, and\ndid believe, the statement to he true.\nillegal 84 Any person who forges or fraudulently destroys any written\npractices authority of a candidate or nomination paper, or delivers to a returning\nin respect officer any written authority of a candidate or nomination paper knowing\nof the same to be forged shall be guilty of an illegal practice.\nnomination\nof\n(2 ) Any person who knowingly makes a false statement relating to\ncandidates\nthat person's nomination in that person's nominating paper shall be guilt\nof an illegal practice.\nillegal 85 Any person who, at a lawful public meeting held in connection\npractices with the election of any person between the day of the publication of a\nin respect notice appointing a nomination day and the day on which the result of the\nof public\nelection is published, acts or incites others to act in a disorderly manner\nmeetings\nfor the purpose of preventing the transaction of the business for which\nthe meeting is called, shall be guilty of illegal practice."
+    },
+    {
+      "number": "86",
+      "heading": "(I) Any person who-",
+      "text": "illegal\npractices\nrelating (a) forges, counterfeits or fraudulent defaces or fraudulently\nto destroys any ballot paper or the official mark on any\nthe poll ballot paper;\n(b) without authority supplies any ballot paper to any person;\n(c) without authority puts into any ballot box any ballot paper which\nthat person is not authorised by law to put in;\n(d) sells or offers to sell any ballot paper or voters card to any person\nor purchases or offers to purchase any ballot paper or voter's card\nfrom any person;\n(e) not being a person entitled underthis Act be in possession of a\nballot paper or voters card, has any such ballot paper or voter's\ncard in that persons’ possession;\n(f) without authority destroys, takes, opens or otherwise interferes\nw ith any ballot box or packet of ballot papers in use or intended to\nbe used for the purpose of an election;\n(g) without authority prints or makes any ballot paper or what\npurports to be or is capable or being used as a ballot paper or any\nidentity document at an election;\n(h) manufactures, constructs, has in that persons possession, supplies,\nor uses for the purpose of an election, or causes to be manufactured\nconstructed, supplied or used for the purposes of any election any\nappliance, device or mechanism by which a ballot paper may be\nextracted or manipulated after having been deposited in a ballot\nbox in the course of polling at any polling station; or\n(i) at an election obstructs a voter either at the polling station or on\nthat voter's way thereto or therefrom;\nshall be guilty of an illegal practice.\n(2) Any person who attempts to commit an illegal practice under\nsubsection (1), shall be guilty of an illegal practice."
+    },
+    {
+      "number": "87",
+      "heading": "Any person who is found guilty of an illegal practice shall be liable",
+      "text": "on, conviction, to a fine nol exceeding two hundred thousand penalty penalty for\nunits or to imprisonment for a period not exceeding five years, or to illegal\npractices\nboth."
+    },
+    {
+      "number": "88",
+      "heading": "(1) Any person who-",
+      "text": "(a) within a period prescribed for the receipt of nominations, under Election\nthis Act, loiters in-any public place within four hundred meters offences\nfrom the entrance to a nomination office;\n(b) having been required to leave a nomination office, fails to leave\nsuch nomination office or the precincts thereof;\n(c) puts into any ballot box anything other than the ballot paper,\nwhich that person is authorised by law to put therein;\n(d) without due authority takes out of the polling station any ballot\npaper or is found in possession of any ballot paper outside a\npolling station;\n(e) on any polling day, at the entrance to or within a polling\nstation, or in any public place or in any private place within\nfour hundred metres from the entrance to such polling station—\n(i) canvases for votes;\n(ii) solicits the vote of any person;\n(iii) induces any person not to vote; or\n(iv) induces any person, not to vote for a particular candidate;\n(f) on an polling day loiters in any public place within four\nhundred metres from the entrance to any polling station;\n(g) on any polling day exhibits in any public or private place\nwithin one hundred metres from the entrance to any polling\nstation any notice or sign, other than an official notice or sign\nauthorised by an election officer under this Act, relating to the\nelection;\n(h) not being a presiding officer, an election officer, candidate, an\nelection agent or a polling agent in the course of their functions\nwithin a polling station, makes any record showing that any\nparticular person has voted in an election;\n(i) without lawful authority, destroys, mutilates, defaces or\nremoves any notice which is exhibited in accordance with this\nAct or under any regulations issued under this Act, or any\ndocument available for inspection under this Act and any such\nregulations;\n(j) wilfully obstructs or interferes with a returning officer,\npresiding officer, or election officer in the execution of their\nduties;\n(k) makes a false answer to any question put to that person by a\npresiding officer or an election officer under this Act;\n(I) has any communication with a voter while such voter is in the\nprecincts of a polling station for the purpose of voting;\n(m) fails to comply with any requirement or direction to leave a\npolling station or the precincts thereof; or\n(n) being a candidate uses a symbol in the course of an election\nother than the symbol registered with the Director of Elections\nin accordance with this Act and any regulations thereunder or,\n. in the case of any other person, associate any candidate with,\nany symbol in the course of an election other than the\ncandidates registered symbol;\nshall be guilty of an offence and shall be liable on conviction to a fíne not\nexceeding ten thousand penalty units or to imprisonment for a period not\nexceeding two years, or both.\n(2) Any person who attempts to commit an offence against this\nsection shall be liable to the punishment prescribed for that offence."
+    },
+    {
+      "number": "89",
+      "heading": "In a prosecution for an offence in relation to a nomination paper, Property in",
+      "text": "ballot box or ballot paper, the property in such nomination paper, ballot certain\nbox, as well as the property in the counterfoil of any ballot paper, shall be election\nmaterial\ndeemed to be vested in the returning officer at that election."
+    },
+    {
+      "number": "90",
+      "heading": "(1) Every person in attendance at a polling station shall Secrecy and",
+      "text": "maintain, and aid in maintaining, the secrecy of the voting at such penalty for\nstation and shall not communicate, except for some purpose breach of\nsecrecy\nauthorised by law, to any person, any information as to the name or\nnumber on the register of voters of any voter who has or has not\napplied for a ballot paper or voted at such polling station, or as to the\nofficial mark or official seal at such polling station.\n(2) No person, except a presiding officer or polling assistant in\nexercise of their functions under this Act, shall obtain or attempt to\nobtain in a polling station information as to the candidate for whom\nany person in such polling station is about to vote for or has voted or\ncommunicate at any time to any person any information obtained in a\npolling station as to the candidate for whom any person in such polling\nstation is about to vote for or has voted, or as to the number on the\nballot paper issued to any person at such polling station.\n(3) Every person in attendance at the counting of the votes shall\nmaintain, and aid in maintaining, the secrecy of the voting and shall\nnot ascertain at the counting the number on any ballot paper or\ncommunicate any information obtained at the counting as to the\nmanner in which any vote is given by any particular ballot paper.\n(4) Any person who contravenes any of the provisions of this\nsection shall be guilty of an offence and shall be liable, on conviction,\nto a fine not exceeding ten thousand penalty units or to imprisonment\nfor a term not exceeding two years, or to both."
+    },
+    {
+      "number": "91",
+      "heading": "Any election officer who wilfully fails to perform the functions Offences by",
+      "text": "of that office under this Act shall be guilty of an offence and shall be election\nliable, on conviction, to a fine not exceeding ten thousand penalty officers\nunits or to imprisonment for a term not exceeding two years, or to both.\nOffences by 92. (1) Every Bill, placard, poster, pamphlet, circular or other\nprinters and printed matter having reference to an election shall bear upon the face\npublishers\nthereof the name and address of the printer and of the publisher, and\nany person who prints, publishes or posts, or causes to be printed,\npublished or posted any such matter which fails to bear upon the\nface thereof such names and address shall be guilty of an offence.\n(2) The proprietor and publisher of every newspaper shall cause\nthe word “advertisement” to be printed as a headline to each article or\nparagraph appearing in that person’s newspaper containing electoral\nmatter, the insertion of which is or is to be paid for, and any proprietor\nor publisher who fails to comply with this provision shall be guilty of\nan offence.\n(3) For the purposes of this section--\n(a) any process for producing copies of a document, other\nthan by copying it by hand, shall be deemed to be printing,\nand the expression “printed” shall be construed\naccordingly; and\n(b) “electoral matter” shall be deemed to include all matters\nwhich, on the face of them, are intended or calculated to\naffect the result of an election.\n(4) Any person who is guilty of an offence against this section\nshall be liable on conviction, to a fine not exceeding fifty\nthousand penalty units.\nPART VIII\nElection Petitions\nAvoidance 93. (1) No election of a candidate as a member of the National\nof elections Assembly shall be questioned except by an election petition\npresented under this Part.\n(2) The election of a candidate as a member of the National\nAssembly shall be void on any of the following grounds\nwhich is proved to the satisfaction of the High Court upon\nthe trial of an election petition, that is to say—\n(a) that by reason of any corrupt practice or illegal practice\ncommitted in connection with the election or by reason of\nother misconduct, the majority of voters in a constituency\nwere or may have been prevented from electing the\ncandidate in that constituency whom they preferred;\n(b) subject to the provisions of subsection (4), that there has\nbeen a non-compliance with the provisions of this Act\nrelating to the conduct of elections, and it appears to the\nHigh Court that the election was not conducted in\naccordance with the principles laid down in such provision\nand that such no-compliance affected the result of the\nelection;\n(c) that any corrupt practice or illegal practice was committed\nin connection with the election by or with the knowledge\nand consent or approval of the candidate or of that\ncandidate’s election agent or polling agent; or\n(d) that the candidate was at the time of the election a person not\nqualified or a person disqualified for election.\n(3) Notwithstanding the provisions of subsection (2), where, upon\nthe trial of an election petition, the High Court finds that any\ncorrupt practice or illegal practice has been committed by, or\nwith the knowledge and consent or approval of, any agent of\nthe candidate whose election is the subject of such election\npetition, and the High Court further finds that such candidate\nhas proved that—\n(a) no corrupt practice or illegal practice was committed by the\ncandidate personally or by that candidate’s election agent, or\nwith the knowledge and consent or approval of such candidate\nor that candidate’s election agent;\n(b) such candidate and that candidate’s election agent took all\nreasonable means to prevent the commission of a corrupt\npractice or illegal practice at the election; and\n(c) in all other respects the election was free from any corrupt\npractice or illegal practice on the part of the candidate\nor that candidate’s election agent’s;\nthe High Court shall not, by reason only of such corrupt\npractice or illegal practice, declare that election of the\ncandidate void.\n(4) No election shall be declared void by reason of any act or\nomission by an election officer in breach of that officer’s\nofficial duty in connection with an election if it appears to the\nHigh Court that the election was so conducted as to be\nsubstantially in accordance with the provisions of this Act, and\nthat such act or omission did not affect the result of that\nelection."
+    },
+    {
+      "number": "94",
+      "heading": "An election petition may be presented to the High Court by one Presentation",
+      "text": "or more of the following persons— of election\npetition\n(a) a person who lawfully voted or had a right to vote at the\nelection to which the election petition relates;\n(b) a person claiming to have had a right to be nominated as a\ncandidate or elected at the election to which the election\npetition relates;\n(c) a person claiming to have been a candidate at the election to\nwhich the election petition relates; and\n(d) the Attorney-General\nRelief which 95. (1) Any of the following reliefs may be claimed in an election\nmaybe petition:\nclaimed in\n(a) a declaration that the election was void; or\nelection\npetition (b) a declaration that any candidate was duly elected.\n(2) In addition to the foregoing reliefs, a petitioner may apply to\nthe High Court upon trial of an election petition for a scrutiny\nto be carried out by the High Court in such manner as the Court\nmay determine.\n(3) On a scrutiny at the trial of an election petition, the following\nvotes only shall beheld invalid:\n(a) the vote of any person whose name was not on the register of\nvoters assigned to the polling station at which the vote was cast\nor who was not authorised to vote at that polling station under\nthis Act;\n(b) the vote of any person whose vote was procured by any corrupt\npractice or illegal practice;\n(c) the vote of any person who committed or procured the\ncommission of impersonation at the election to which the\nelection petition relates, contrary to the provisions of this Act;\n(d) the vote of any person proved to have voted more than once at\nthe election to which the election petition relates;\nor\n(e) the vote of any person who was disqualified from voting at the\nelection to which the election petition relates.\n(4) In this section “scrutiny” means an enquiry as to the validity\nof the votes cast, and includes the determination of the number\nof valid votes cast for each candidate in the election in respect\nof which the application for a scrutiny is made.\nForm and 96. (1) Every election petition shall be in such form contain such\nprocedure for matters as may be prescribed by rules made by the Chief Justice.\npresentation\n(2) An election petition shall be presented to the High Court\nof election\nPrincipal Registry or District Registry by lodging it with the\npetitions\nRegistrar in accordance with this Act.\n(3) Every election petition shall be signed by the petitioner or by all\nthe petitioners if more than one, and shall be presented not later than\nthirty days after the date on which the result of the election to which it\nrelates is duly declared.\n(4) Not withstanding the provisions of subsection (3), when the\nelection of any person (hereinafter referred to as “the respondent” is\nquestioned upon an allegation of a corrupt practice or an illegal practice,\nthe election petition may be presented-\n(a) at any time before the expiry of twenty-one days after the day\non which the returning officer receives the return of the election\nexpenses of the respondent; or\n(b) if the election petition specifically alleges a payment of money\nor some other act to have been made or done since the day\nreferred to in paragraph (a) by the respondent or the respondent’s\nelection agent, or with the privity of the respondent or of the\nrespondent’s election agent in pursuance or in furtherance of the\ncorrupt practice or illegal practice alleged in the election, at any\ntime within thirty days after the date of payment or other act.\n(5) Where an election petition is presented under this section, the\nRegistrar shall, in writing, inform the Speaker of the National Assembly\nand the Commission of such presentation."
+    },
+    {
+      "number": "97",
+      "heading": "(I) Subject to the provisions of subsection (2), the Registrar, shall Duty of",
+      "text": "make out a list of all election petitions presented under this Act, placing Registrar to\nmake out\nthem on such list in the order in which they arc presented, and the list of\nRegistrar shall keep at the Registrar's office a copy of the list which shall election\npetition\nbe open for inspection by any person making application for inspection\nthereof.\n(2) Every election petition shall, unless the High court orders\notherwise, be tried in the order in which it stands on the list made\nout by the Registrar under subsection (I), but where more election\npetitions than one are presented in respect of the same election, the\nelection petitions shall be bracketed together and shall be dealt with as\none petition, standing, unless the High Court orders otherwise, in the list\nin the place 'where the last of the election petitions would have stood if it\nhad been the only election petition presented in respect of that election."
+    },
+    {
+      "number": "98",
+      "heading": "(I) Subject to the other provisions of this Act, the Chief Justice Rules of",
+      "text": "practice and\nmay make rules regulating generally the practice and procedure of the\nprocedure,\nHigh Court with respect to the presentation and trial of election petitions, security for\ncosts etc.\nincluding rules as to the time within which any requirement of the rules is\nto be complied with and as to the\ncosts of and incidental to the presentation and trial of the election\npetitions and as to the fees to be charged in respect of proceedings\ntherein, and generally as regard to any other matter relating thereto as the\nChief Justice may consider necessary or desirable.\n(2) After the presentation of an election petition, every petitioner to it\nshall give such security for costs, not exceeding in amount the slim of\neight hundred fee units, as the High Court may order, and such security\nshall be given within the time and in the manner and form as the Chief\nJustice may prescribe by rules under this section or, in the absence of the\nrules, as the High Court may order.\n(3) Where, after the presentation of an election petition, no security\nfor costs is given as required by or under this section, no further\nproceedings shall be heard on that election petition.\nWithdrawal 99. (1) A petitioner shall not withdraw an election petition without\nof election the leave of the High Court.\npetition\n(2) No application for leave to withdraw an election petition shall be\nmade until notice of intention to withdraw the election petition has been\ngiven in such manner as the Chief Justice may prescribe.\n(3) Where an election petition is presented by two or more\npetitioners, an application to withdraw the election petition shall not be\nmade except with the consent of all the petitioners to it.\n(4) The High Court may, upon an application for leave to withdraw\nan election petition, makes order such costs as it may consider just.\nSubstitution 100. (1) Upon the hearing of an application under section ninety-\nof new nine for leave to withdraw an election petition, any person who might\npetitioners have been a petitioner in respect of the election to which that election\npetition relates may, notwithstanding the provisions of section ninety-\nsix, apply to the High Court to be substituted for the petitioner so\napplying to withdraw, and the High Court may, if it grants leave to the\npetitioner to withdraw, order that person (hereinafter referred to as “the\nsubstituted petitioner ” be substituted for the petitioner.\n(2) Subject to the other provisions of this section, the substituted\npetitioner shall, as nearly as may be, stand in the same position, and be\nsubject to the same liabilities, under this Act as the petitioner for whom a\nsubstitution was made (hereinafter referred to as “the original petitioner”)\n(3) Where the High Court makes an order under subsection (1), it\nmay direct that the security for costs given by the original petitioner shall\nremain as security for any costs caused thereafter by the substituted\npetitioner upon the trial of the election petition, and may direct that, to the\nextent of the amount of the security, the original petitioner shall be liable\nto pay the costs of the substituted petitioner.\n(4) Unless the High Court gives directions as in subsection (3),\nsubsections (1) and (2) of section ninety-nine shall apply to the\nsubstituted petitioner as they apply in relation to a petitioner presenting\nan election petition."
+    },
+    {
+      "number": "101",
+      "heading": "(1) If a sole petitioner or the survivor of several petitioners dies, Abatement",
+      "text": "then subject to the provisions of this section, no further proceedings shall of election\npetitions\nbe heard upon the election petition.\n(2) The death of a petitioner shall not affect that petitioner’s\nliability for the payment of costs previously incurred.\n(3) On the abatement of an election petition under subsection (1),\nany person who might have been a petitioner in respect of the election to\nwhich that election petition relates may, notwithstanding section ninety­\nseven apply to the High Court to be substituted as a petitioner in place of\nthe deceased petitioner and the High Court may, if it thinks fit, order that\nsuch person be substituted accordingly.\n(4) Where the High Court makes an order under this section for the\nsubstitution of a person in place of a deceased petitioner such person\nshall, as nearly as may be, stand in the same position, and be subject to the\nsame liabilities, under this Act as the deceased petitioner would have\nbeen but for the death, and subsection (1) and (2) of section ninety-nine\nshall apply to the person as they apply in relation to a petitioner\npresenting an election petition."
+    },
+    {
+      "number": "102",
+      "heading": "(1) An election petition shall be tried and determined by the Trial of",
+      "text": "High Court in open court, within one hundred and eighty days of the election\npresentation of the election petition as provided under section ninety­ petitions\nseven:\nProvided that where an election petition is not tried and\ndetermined within the period specified in this subsection due to a\nfailure by the petitioner to actively prosecute the petition, the High\nCourt shall dismiss petition for want of prosecution.\n(2) The High Court may adjourn the trial of an election petition from\ntime to time and from place to place.\n(3) Subject to the provisions of this Act, the High Court may in\nrespect of the trial of an election petition, exercise such powers within\nits civil jurisdiction as it may deem appropriate.\n(4) On the trial of an election petition, a verbatim record of all\nevidence given orally in the trial shall be taken and transcripts of the\nrecord shall, at the conclusion of the proceedings, be delivered to the\nCommission by the Registrar.\nProvisions 103. (I) On the trial of an election petition, the High Court may-\nas to\nwitnesses (a) order any person who appears to the High Court to have been\nconcerned in the election to attend as a witness at the trial;\n(b) examine any witness or any person who is present at the trial\nalthough such witness or person is not called as a witness by\nany party to the proceedings:\nProvided that after the examination by the High Court of a\nwitness or person, the witness or person may be cross\nexamined by or on behalf of the petitioner or the respondent.\n(2) A person who is called as a witness at the trial of an election petition\nshall not be excused from answering, any questions relating to any\noffence connected with an election on the ground that the answer thereto\nmay tend to incriminate that person, or on the ground of the privilege:\nProvided that-\n(a) a witness who answers to the satisfaction of the High Court\nevery question which is required to be answered under this\nsection, and the answers to which may tend to incriminate that\nwitness, shall not be liable to prosecution for any offence\ncommitted by that witness in connection with the election and\nin respect of which that witness is so examined and the witness\nshall be entitled to receive a certificate of indemnity under the\nhand of the Registrar stating that the witness is freed and\ndischarged from liability to prosecution for that offence;\n(b) an answer by a witness to a question before the High Court,\nunder this section shall not, except in the case of any criminal\nproceedings for giving false evidence in respect of the\nevidence, be admissible in any proceedings, civil or criminal,\nin evidence against that witness.\n(3) Where a person has received a certificate of indemnity under\nsubsection (2), and any legal proceedings are at any time brought against\nthat person for any offence to which the certificate relates, the court\nhaving conduct of the case shall, on proof of the certificate of indemnity,\nstay the proceedings and may award to that person such costs as the court\nmay have been put to in the proceedings\n(4) All responsible expenses incurred by any person in attending at or\nappearing before the High Court to give evidence as a witness at the trial\nof an election petition shall be allowed to that person according to the\nscale of allowances and expenses appropriate in civil proceedings before\nthe High Court."
+    },
+    {
+      "number": "104",
+      "heading": "(I) At the conclusion of the trial of an election petition, the High Conclusion",
+      "text": "trial of\nCourt shall determined whether the respondent, or any other, and which\nelection\nperson, was duly elected, or whether the election to which the election petition\npetition relates was void, and the Registrar shall as soon as may be,\nsubmit a copy of such determination Speaker of the National Assembly\nand to the Commission.\n(2) Where the High Court determines under subsection (I), that the\nrespondent was duly the election shall be and remain valid.\n,(3 ) Where the High Court determines under subsection (1), that the\nrespondent was not duly elected but that some other person was duly\nelected, that other person shall be deemed to have been elected\naccordingly\n(4) Where the High Court determines under subsection (1), that the\nrespondent was not duly elected and that no other person was duly\nelected, at the election concerned the vacancy in the membership of the\nNational Assembly in respect election was held shall be deemed to\ncontinue until duly filled.\n(5) Where a determination under subsection (I), alters the results of an\nelection as previously declared, it shall be the duty of the Commission to\npublish the results as so altered in the Gazette.\n(6) Where it appears to the High Court upon the trial of an election\npetition that any corrupt practice or illegal practice has been committed\nby any person in connection with the election to which the election\npetition relates the High Court shall, at the conclusion of the proceedings,\nprepare a report stating-\n(a) the evidence given in the proceedings respect of the corrupt\npractice or illegal practice;\n(b) the names and particular of any person by whom the corrupt\npractice or illegal practice was, in the opinion of the Court,\ncommitted:\nProvided that the Court shall not state the name or any person under\nthis paragraph unless the person has been given an opportunity\nof appearing before the Court and of showing cause why that\nperson’snameshouldnotbe stated\n(7) The Registrar shall deliver a copy of every report prepared by the\nHigh Court under subsection (6) to-\n(a) the commission; and\n(b) the Director of Public Prosecutions.\n(8) The Commission shall, as soon as it receives the report under\nsubsection (7), instruct an officer to prosecute any person stated in the\nreport.\nprovisions 105. (I) Subject to the provisions of this section, all costs, charges\nas to costs and expenses of, and incidental to, the presentation and trial of an\nelection petition shall be borne in such manner and in such proportions as\nthe High Court may order and in particular, any costs which in the\nopinion of the High Court have been caused by any vexatious conduct\nor by any frivolous or vexatious allegations or objections on the part of\nthe petitioner or of the respondent, may be ordered to be paid by the\nparty by whom such costs have been caused.\n(2) Where, on the- trial of an election petition the High Court\ndetermines that the respondent was not duly elected and is of the opinion,\nhaving regard to the circumstances, that it would be just and reasonable\nto relieve any party to the election petition from all or a portion of the\ncosts thereof, then-\nfa] if the Court finds that the election of the respondent was due to a\nmistake or improper performance or failure or performance of any\nfunction bonafide made by any election officer, it may, after sufficient\nnotice to the Attorney-General to show cause to the contrary, make such\norder as to the payment by the State of the costs of the proceedings or a\nportion thereof, as it may deem proper;\n(b) if the Court finds that the election of the respondent was due to a\nmistake or improper performance, or failure of performance of any\nfunction malafide made by any election officer, it may, after sufficient\nnotice to such officer to show cause to the contrary, make such order as\nto the payment by such election officer of the costs of\nthe proceedings or a portion thereof, as it may consider proper.\n(3) The High Court may, on application made by any person to whom\nany costs, charges or expenses are payable under this Act, order the same\nto be paid out of any deposit made to secure the same, or by any surety\nwho gave a recognizance to secure the same:\nProvided that notice of the application shall be given, in such manner as\nmay be prescribed by rules of Court, to the party by or on whose behalf\nthe deposit was made or for whom the surety gave a recognizance,\nrequiring the party, or the surety and the party, as the case may be, to state\n, within the time and in the manner as may be so prescribed, whether that\nparty resists the application.\n(4) Where, on the trial of an election petition, any person appears to\nthe High Court to have been guilty of any corrupt practice or illegal\npractice relating to the election which is the subject of the election\npetition, the Court may, after giving that person an opportunity of\nmaking a statement to show cause why the order should not be made,\norder the whole or portion of the costs of, or incidental to, the trial of "
+    },
+    {
+      "number": "106",
+      "heading": "(1) Any question which may arise as to whether- Application",
+      "text": "(a) any person has been validly appointed as a nominated member of to members\nand officers of\nthe National Assembly:\nParliament\n(b) the seat of an elected member or of a nominated member of the\nNational Assembly, has become vacant, other than a question arising\nfrom the election of a candidate as a member of the National Assembly;\nor\n(c) any person has been validly elected as Speaker or Deputy Speaker;\nof the National Assembly or, having been so elected, has vacated the\noffice of Speaker; or Deputy Speaker; may be heard and determined by\nthe High Court upon, application made by--\n(i) any person to whom the question relates;\n(ii) in the cases referred to in paragraph (a) (b) or\n(c), any member of the National Assembly; or\n(iii) the Attorney-General\n(2) Any person who makes an application to the High Court under\nsubsection (1), shall have the right to appear and be represented before the\nHigh Court,\n(3) Subject to any rules of Court, the powers, practice and procedure\nof the High Court in respect of the trial of an election petition under Part\nVIII shall apply, with the necessary modifications, to the hearing and\ndetermination of such applications.\neffect of 107. Every determination of the High Court under this Part Shall have\ndetermination effect, subject to the provisions of Article 71 of the Constitution, in\nCap 1 accordance with the terms thereof.\nPARTX\nADDITIONAL POWERS OF COMMISSION AND\nMISCELLANEOUS PROVISIONS\nBy-elections 108. (I) Subject to other provisions of this Act, a by-election to fill a\ncasual vacancy in the National Assembly shall be held on such date as the\nCommission may, by statutory order, prescribe, being a date not later\nthan ninety days after the date when notification of the Vacancy was\nCommunicated by the Speaker and received by the commission:\nProved that a poll shall not be taken in any by-election in respect of\nwhich only one candidate is validly nominated for election.\n(2) Unless the commission otherwise, by statutory order, directs, a by­\nelection to fill a casual vacancy in the National Assembly shall not be\nheld in any constituency in which an ordinary election of a member of the\nNational Assembly is or may be required to be held Part III.\n(3) A Statutory order under this section shall specify the day or days\non which, and the hours within which, returning officers may receive\nnominations of candidates for election in any constituency to which such\norders relates.\nElectoral 109. The commission shall, in order to promote free, fair and orderly\ncode of elections, issue by statutory instrument, an Electoral Code of Conduct\nConduct and and any other codes as it may consider necessary.\nother codes\n(2) The Electoral Code of Conduct shall be subscribed to.-\n(a) by every registered political party who intends to support any\ncandidate for an election; and\n(¿J by every candidate before that candidates submits the\nnomination paperrequired under this Act.\n3) No person or registered party bound by a code shall contravene or\nfail to comply with a provision of that code."
+    },
+    {
+      "number": "110",
+      "heading": "(1) Whenever the Commission, the Director of Elections, an powers to",
+      "text": "election officer or any person is required under this Act to decide an decide\nobjection, dispute, complaint or an appeal, the Commission or that objections\nperson may attempt to resolve the issue, that is the subject of the and appeals\nobjection, dispute, complaint or appeal, through conciliation or\nmediation.\n(2 ) The Commission shall prescribe the manner for handling any\nobjection, dispute, complaint or appeal under this Act.\n111.(1) The Commission shall, for purposes of resolving electoral Constitution\ndisputes, constitute such number of conflict management committees as of conflict\nthe commission may determine. . management\ncommittees\n(2) A conflict management Committee shall comprise, as members,\nsuch number of conflict management officers appointed by the\nCommission, as the Commission shall determine.\n(3) The Chairperson of the Committee shall be appointed by the\nCommission and the Vice-Chairperson shall be elected by the members\nfrom amongst themselves.\n(4) Subject to subsection (5) a member of a committee shall hold\noffice for such period as the Commission shall determine.\n(5) A member shall be paid such allowances as the Committee may, with\ndie approval of the Commission, determine.\n(6) The Committee shall meet for the transaction of business at such\nplaces and times as the Chairperson of the Committee may determine.\n(7) The quorum at any meeting of the committee shall be one-half of\nthe members of the committee.\n(8) There shall preside at any meeting of the Committee-\nfa) the Chairperson;\n(b) in the absence of the chairperson, the Vice-Chairperson;\nor\n(c) in the absence of both the Chairperson and the Vice-Chairperson,\nsuch member as the members present may elect from their number for\nthe purposes of that meeting.\n(9) The determination of any matter before the Committee shall be\naccording to the votes of the majority of the members present and\nconsidering the matter.\n(10) The Committee may invite any person whose presence in its\nopinion is desirable to attend and to participate in the deliberations of a\nmeeting of the committee but such person shall have no vote.\n(11) A committee shall cause minutes to be kept of the proceedings of\nevery meeting of a committee.\n(12) The Commission shall assign persons employed in -the\nCommission to perform such secretarial and administrative functions\nin connection with a committee as may be necessary for the\nperformance of its functions.\nAssignment 112. (1) The Commission may-\nof (a) delegate any of the Commission’s powers under this Act,\npowers and\nexcluding the powers to make any regulations, to prescribe\nduties\nanything under this Act or to make an appointment under this Act\nby\nCommission or any other law, to a member, employee or officer of the\ncommission; or\n(b) instruct a member, employee or officer of the commission to\nperform any of the commission’s duties under this Act or any\nother law.\n(2) A delegation or instruction made under subsection (1)-\n(a) shall be subject to any limitations and conditions the\nCommission may impose; and\n(b) does not prevent the Commission from exercising or\nperforming the assigned power or duty.\nAssignment 113.(1) TheDirectorof Elections may-\nof powers\n(a) delegate any of the Director of Election’s powers under this\nand duties\nAct or any other law, to an employee or officer of the\nby Director\nof Elections Commission; or\n(b) instruct an employee or officer of the Commission to\n‘ perform any of the Director of Elections duties under this Act or\nany other law.\n(2) Subsection (2) of section one hundred and eleven, with the\nnecessary modification, shall apply to a delegation or instruction\nof the Director of Elections under subsection (1).\nPrinting, 114. The Commission may authorise-\nmanufacture, (a) the printing, manufacture or supply of any voting or election\nuse,\nmaterial;\nremoval etc\nof election (b) the use of the voters’ roll or any voting or election material\nmaterial for a purpose other than an election purpose; or\n(c) the removal or destruction of any voting or election material."
+    },
+    {
+      "number": "115",
+      "heading": "(1) The Commission shall own all voting and election materials Ownership",
+      "text": "used for, provided by it in, an election. of voting\nand election\nmaterials\n(2) Unless the High Court orders otherwise, the Commission may\nand disposal\ndispose of the voting and election materials used in a particular election\nsix months after the date on which the final result of the election was\ndeclared, in the manner directed by the Commission."
+    },
+    {
+      "number": "116",
+      "heading": "Any mistake in the certified segment of the voters' roll under this Effect of",
+      "text": "Act shall not invalidate that vote’s roll. certain\nirregularities\nInspection"
+    },
+    {
+      "number": "117",
+      "heading": "Where this Act requires that documents be publicised, or made",
+      "text": "and copying\navailable for inspection or copying, the Commission shall endeavour to\nof\nalso Publicise or make available those documents by way of electronic documents\ntechnology."
+    },
+    {
+      "number": "118",
+      "heading": "The Commission, a member, employee and officer of the Limitation",
+      "text": "Commission, election officer or a person with whom the Commission of liability\nhas contracted to work for the Commission shall not be liable for any loss\nsuffered by any person as a result of any act performed or omitted to be\ndone in good faith in the course of exercising a power or performing a\nduty assigned by or under this Act."
+    },
+    {
+      "number": "119",
+      "heading": "Whenever a person has become subject to any incapacity under When",
+      "text": "this Act by reason of a conviction or by reason of any declaration or incapacity\nreport of any Court, and any witness who gave evidence against such may be\nremoved\nperson upon the proceeding for such conviction, declaration or report\nis convicted or perjury in respect of that evidence, such person may\napply to the High Court which, if satisfied that the conviction,\ndeclaration or report, so far as it concerns that person, was based upon\npeijured evidence, may order that, that person's incapacity shall from\nthat time cease, and the same shall cease accordingly."
+    },
+    {
+      "number": "120",
+      "heading": "No person who has voted at an election shall in any proceedings, No person",
+      "text": "whether brought under this Act or otherwise, be required, to state for required to\nwhom the person voted for. state how\nperson voted"
+    },
+    {
+      "number": "121",
+      "heading": "Upon any charge of a corrupt practice or an illegal practice, or Evidence as",
+      "text": "any other offence against this Act, alleged to have been at or in to holding\nconnection with an election, the certificate of a returning officer that the of election\nelection mentioned therein was being or had been held shall be sufficient\nevidence of the fact that such election was being or had been held."
+    },
+    {
+      "number": "122",
+      "heading": "No misnomer or any inaccurate description of any person or Validation of",
+      "text": "place in any register, nomination paper, notice or other document certain\nrequired for the purposes of this Act shall affect the full operation of the documents\ndocument with respect to that person or place in any case where the\ndescription of the person or place is such as to be commonly understood.\nPowers of 123. (1) An officer may, during the campaign period and on polling\nofficer day, enter any area, place and premises in which the officer reasonably\nbelieves there is being, or had been carried on, an activity that is an\noffence under this Act, except that an officer shall not enter into a private\ndwelling without the consent of the occupant or the authority of a Court\nwarrant.\n(2) An officer may request any information from any person who\nappears to have custody or control of any material or thing which\nthe officer reasonably believes is being used, or was intended to be\nused or is likely to be used, to commit an offence under this Act.\n(3) An officer may seize or detain any material or thing where the\nofficer has reasonable ground to believe that the material or thing is\nbeing used, was intended to be used or is likely to be used, to\ncommit an offence under this Act.\nObstruction 124. (1) A person shall be guilty of an offence if that person-\nof officer\nfa,) wilfully delays or obstructs an officer in the carrying out of that\nofficer's duties and powers under this Act; or\n(b) assaults an officer in the lawful exercise of that officers' duties\nand power under this Act.\n(2) Any person guilty of an offence under subsection (1), shall\nbe liable, upon conviction, to a fine not exceeding seven\nthousand penalty units or to imprisonment for a term not exceeding\nsix months, or to both.\nPower 125. (1) A police officer may, without warrant, arrest any person and\nof arrest keep that person in custody where-\n(a) the person is found committing an offence or is reasonably\nsuspected of having committed an offence under this Act;\nor\n(b) upon being requested by the police officer, the person wilfully,\nfails or refuses to furnish that person’s name, address or other\nrelevant information to the satisfaction of police officer; and\n(c) the police officer, considers it necessary for a free and fair\nelection; and has reasonable grounds to believe that unless\narrested, the person shall-\n(i) escape or cause unreasonable delay to or trouble during, or for,\nthe election;\n(ii) interfere with witnesses; or\n(iii) tamper with or destroy relevant evidence or material\n(2) Any person arrested under subsection (1), shall be taken before a\nCourt within forty-eight hours, and shall not be detained for longer\nthan is reasonably necessary for the purpose."
+    },
+    {
+      "number": "126",
+      "heading": "An officer shall not be liable in respect of any act done or omitted Immunity of",
+      "text": "to be done in good faith, in the exercise of that officer's duties and powers officer\nunder this Act or any other written law."
+    },
+    {
+      "number": "127",
+      "heading": "A person shall not be guilty of an offence under this Act, if that General",
+      "text": "person proves to the satisfaction of the court that the act constituting the defence •\noffence was done without that person’s knowledge, consent or\nconnivance or that the person tried to prevent the commission of the\noffence having regard to all the circumstances of the case."
+    },
+    {
+      "number": "128",
+      "heading": "Except where otherwise expressly provided in this Act, any General",
+      "text": "person who is convicted of an offence under this Act shall be liable upon penalty\nconviction-\nfa,) for a first offence to a fine not exceeding twenty thousand\npenalty units or to a term of imprisonment not exceeding five\nyears, or to both;\n(b) for a second or subsequent offence to a fine not exceeding thirty\nthousand penalty units or to a term of imprisonment not\nexceeding seven years, or to both."
+    },
+    {
+      "number": "129",
+      "heading": "(1) Subject to the provisions of the Constitution and of this Act, Regulatory",
+      "text": "the Commission may, by statutory instrument, make regulations powers of\nCommission\nproviding for the registration of voters for the purposes of elections and\nfor the procedure and manner of conducting elections; separate\nregulations may be made in respect of each category of elections.\n(2) Without prejudice to the generality of subsection (1), the\nCommission may, by statutory instrument, make regulations providing\nfor all or any of the following matters:\n(a) the registration of voters;\n(b) the preparation of, and the form of, registers to be used in the\nregistration of voters;\n(c) the manner of ascertaining whether persons applying for\nregistration as voters are qualified for registrations or for their\ninclusion in aregister for aparticular constituency;\n(d) the making and determination of appeals, claims and objections\nwith respect to the registration of voters;\n(e) the correction, amendment and certification of registers of\nvoters;\n(f) the manner in which the name of any person may be deleted from\na register or voters, the transfer of the names of persons from the\nregister of voters of one polling district to that of another polling\ndistrict and the restoration of the name of a registered voters;\n(g) the manner and form for nomination of candidates for any\nelection that a candidate at a direct election for the National\nAssembly is the authorised candidate of a political party;\n(h) the making and determination of appeals against the rejection of\nnominations by a returning officer;\n(i) the publication of the names of candidates whose nominations\nare accepted;\n(j) the payment of election fees by candidates, and the\ncircumstances in which such fees are to be returned.\n(k) the use of symbols at an election;\n(I) the manner at procedure of voting at an election;\n(m) the manner of ascertaining the identity of persons wishing to\nvote at elections and whether such persons are qualified to vote;\n(n) the administering of oaths or affirmations by election officers in\nrespect of such matters as may be prescribed;\n(o) the procedure to be followed at the conclusion of a poll in an\nelection;\n(p) for the purpose of declaring any candidate duly elected, the\nprocedure to be followed where there is an equality of votes\nbetween candidates in an election for members of the National\nAssembly;\n(q) the procedure to be followed where only one person is duly\nnominated for election to the office of President, or in a\nconstituency forelection to the National Assembly;\n(r) the declaration, notification and publication of the results of an\nelection;\n(s) the custody and disposal of nomination papers, ballot papers,\nrecords, documents or other things relating to the registration of\nvoters and the conduct of elections;\n(t) election expenses and the return of election expenses;\n(u) the notification and publication of any casual vacancy in the\nelected membership of the National Assembly and the fixing of\na date of an election to fill such vacancy;\n(v) the forms and records to be used for any of the purposes of this\nAct; and\nfw) any matter to be prescribed by or under this Act.\n(3) Before making any regulations which make any separate or\ndistinct provision in respect of the functions of the Returning officer for\nthe election of a President, the Commission shall consult the Returning\nOfficer.\n(4) Regulations under this section may provide in respect of any\ncontravention thereof that the offender shall be liable to a fine not\nexceeding five thousand penalty units or to a term of imprisonment not\nexceeding two years, or to both.\n(5) No prosecution for an offence against this Act shall be commenced\nafter the lapse of one year from the date on which the offence is alleged to\nhave been committed.\nRepeal of 130. The Electoral Act, 1991 is hereby repealed.\nAct No, 2\nof 1991"
+    }
+  ],
+  "source_url": "https://media.zambialii.org/media/legislation/20625/source_file/2d31e5f1d61cb960/zm-act-2006-12-publication-document.pdf",
+  "source_hash": "sha256:95edc0282fa586f7b2a220fb2a5660e2bcd1b970e52cca31ea702eb65c4e8bee",
+  "fetched_at": "2026-04-19T08:23:00Z",
+  "parser_version": "0.5.0"
+}
