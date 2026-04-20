@@ -655,3 +655,20 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - 1995/29 'Lands Act': pre-fetch reject — already in HEAD (via query 'co-operative societies')
 - 2025/21 'Property Transfer Tax (Amendment) Act, 2025': pre-fetch reject — already in HEAD (via query 'property transfer tax')
 - 2003/4 'Property Transfer Tax (Amendment) Act, 2003': pre-fetch reject — title contains 'amendment' (via query 'property transfer tax')
+
+## Batch 0153 per-target notes (2026-04-20T20:37:34Z)
+
+- 1963/65 "Workers' Compensation Act, 1963": batch cap reached (MAX_RECORDS=8) — deferred
+- 2003/13 'National Council for Construction Act, 2003': batch cap reached (MAX_RECORDS=8) — deferred
+- 1954/12 'Control of Goods Act , 1954': batch cap reached (MAX_RECORDS=8) — deferred
+- 1995/4 'Value Added Tax Act , 1995': batch cap reached (MAX_RECORDS=8) — deferred
+- 1995/31 'Mines and Minerals Act , 1995': batch cap reached (MAX_RECORDS=8) — deferred
+- 1996/28 'Pension Scheme Regulation Act , 1996': batch cap reached (MAX_RECORDS=8) — deferred
+- 1990/32 'Stamp Duty (Amendment) Act, 1990': pre-fetch reject — title contains 'amendment' (via query 'bills of exchange')
+- 2011/3 'Juveniles (Amendment) Act , 2011': pre-fetch reject — title contains 'amendment' (via query 'juveniles act')
+- 1999/12 'Environment Protection and Pollution Control (Amendment) Act, 1999': pre-fetch reject — title contains 'amendment' (via query 'hire purchase')
+- 1994/17 'Stamp Duty (Repeal) Act, 1994': pre-fetch reject — title contains 'repeal' (via query 'stamp duty')
+- 1992/8 'Stamp Duty (Amendment) Act, 1992': pre-fetch reject — title contains 'amendment' (via query 'stamp duty')
+- 1984/3 'Stamp Duty (Amendment) Act, 1984': pre-fetch reject — title contains 'amendment' (via query 'stamp duty')
+- 2005/26 'Insurance (Amendment) Act , 2005': pre-fetch reject — title contains 'amendment' (via query 'insurance act 1997')
+- 1997/7 'Control of Goods (Amendment) Act , 1997': pre-fetch reject — title contains 'amendment' (via query 'insurance act 1997')
