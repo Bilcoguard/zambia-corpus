@@ -490,3 +490,9 @@ Targets from batch 0133's next-tick list not found on ZambiaLII via either `/sea
 - Personal Property Security Interests Act
 
 Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — the `q` parameter is silently ignored and the page always returns the unfiltered listing. The real full-text search endpoint is `/search/api/documents/?search=<term>&nature=Act`, which returns a JSON envelope (`count`, `results_html`) but searches document full text — matches may not be title matches.
+
+## Batch 0144 per-target notes (2026-04-20T12:03:35Z)
+
+- registered-designs-1987 (Act 25/1987): title rejected (contains 'amendment'): 'Registered Designs (Amendment) Act, 1987'
+- industrial-relations-act-1983 (Act 13/1983): title rejected (contains 'amendment'): 'Industrial Relations (Amendment) Act, 1983'
+- candidate-2008-008 (Act 8/2008): title rejected (contains 'amendment'): 'Industrial and Labour Relations (Amendment) Act, 2008'
