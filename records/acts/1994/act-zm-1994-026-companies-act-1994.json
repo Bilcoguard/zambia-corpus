@@ -1,0 +1,2083 @@
+{
+  "id": "act-zm-1994-026-companies-act-1994",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Companies Act, 1994",
+  "citation": "Act No. 26 of 1994",
+  "enacted_date": "1994-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Companies Act ."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "In this Act , unless the context otherwise requires— \" accounting records \" includes— (a) invoices, receipts, orders for the payment of money, bills of exchange, cheques, promissory notes, vouchers and other documents of prime entry; and (b) such working papers and other documents as are necessary to explain the methods and calculations by which the accounts are made up; \" accounts \" means profit and loss accounts and balance sheets together with any statements, reports and notes attached to or intended to be read with any of those profit and loss accounts or balance sheets, but, subject to section one hundred and seventy-four, does not include the auditors' reports or directors' reports; \" alternate director \" means an alternate director of a company referred to in section two hundred and thirteen; \" annual accounts \" means the annual accounts referred to in section one hundred and sixty-four; \" annual general meeting \" means an annual general meeting of a company referred to in section one hundred and thirty-eight; \" annual return \" means the return referred to in section one hundred and eighty-four, together with any document required by this Act to accompany the return; \" articles \" means the articles of a company described in section seven; \" auditors' report \" means the report of the auditors of a company referred to in section one hundred and seventy-three; \" body corporate \" means a company or corporation incorporated under or by virtue of the laws of Zambia or of any other country, other than a corporation sole; \" book \" includes accounts , deed, writing, register, document , accounting record, and any clear record of information, however compiled and whether recorded or stored in written or printed form or by electronic or photographic process or otherwise; \" branch register \" means a branch register of a company established under section fifty-one; \" capital redemption reserve \" means the reserve referred to in section sixty; \" certificate of incorporation \" means a certificate of incorporation of a company issued by the Registrar under section ten, or a replacement of such a certificate issued under this Act; \" certificate of share capital \" means a certificate of share capital of a company issued by the Registrar under section ten, or a replacement of such a certificate issued under this Act; \" certified copy \" means a copy of a document of a company which has endorsed thereon or annexed thereto— (a) a certificate by a notary public; or (b) a declaration made and signed by an officer of the company or by some person interested therein otherwise than on behalf of the company ; to the effect that it is a true and complete copy of the original, together with, in the case of an original in a language other than English, an English translation similarly certified to the effect that it is an accurate translation of the original; \" charge \" means a charge created in any way and includes— (a) mortgage; (b) an agreement to give or execute a charge or mortgage whether on demand or otherwise; and (c) until such time as the whole of the purchase price is paid, an agreement for sale and purchase of land under which the seller remains in occupation; \" class meeting \" means a meeting of those members of a company who, under the articles , belong to a particular class; \" committee of inspection \" means a committee of inspection appointed in the course of a winding-up under section two hundred and ninety-five or three hundred and fifteen; \" company \" means— (a) a company incorporated under this Act ; or (b) subject to section four and Division 14.3, an existing company ; \" company limited by guarantee \" means a company incorporated as such, being a company satisfying section nineteen; \" company with share capital \" means a public company , a private company limited by shares or an unlimited company ; \" court \" means the High Court for Zambia; \" creditors' voluntary winding-up of \" means a voluntary winding-up with respect to which no declaration of solvency was made in accordance with section three hundred and eight; \" current liability \", means a liability that would in the ordinary course of events be payable within twelve months after the end of the financial year to which the accounts or group accounts concerned relate; \" debenture \" means a document issued by a body corporate that evidences or acknowledges a debt of the body corporate , whether or not it constitutes a charge on property of the body corporate , in respect of money that is or may be deposited with or lent to the body corporate , other than a document of the following kinds— (a) a document acknowledging a debt incurred by the body corporate in respect of money that is or may be deposited with or lent to the body corporate by a person— (i) in the ordinary course of a business carried on by the person; and (ii) in the ordinary course of such business of the body corporate as is not part of a business of borrowing money and providing finance; (b"
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "A declaration made for the purposes of paragraph (b) of the definition of certified copy in section two shall be deemed to be a statutory declaration."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "a public company , if it was a public company under the former Act ;"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this section, an association or partnership that— (a) consists of more that twenty persons; and (b) is not a body corporate ; shall not carry on any business for gain by the association or partnership or individual members of the association or partnership."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this Act , two or more persons associated for any purpose may incorporate a company by subscribing their names to an application for incorporation in the prescribed manner and form upon payment of the prescribed fee."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company may have articles regulating the conduct of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this Act , and to its articles , a company may amend its articles if it passes a special resolution approving the amendment."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) An application for incorporation shall be accompanied by a statutory declaration that the requirements of this Act in respect of registration and of matters precedent and incidental thereto have been complied with, made by— (a) a legal practitioner having a practising certificate who was engaged in the formation of the company ; or (b) a person named in the application as a first director or secretary of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where an application for incorporation and the documents referred to in section six have been duly lodged, the Registrar shall, subject to this Act, issue a certificate in the prescribed form stating that the company is, on and from the date specified in the certificate, incorporated and that the company is the type of company specified in the application for incorporation."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "On and from the date of incorporation specified in the certificate of incorporation , but subject to this Act, there shall be constituted an incorporated company by the name set out in the certificate."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The Registrar shall maintain a register of companies in which is entered, in respect of each company — (a) a chronological record of the prescribed particulars, and of any other particulars which the Registrar thinks fit, in relation to the company ; and (b) a record of the documents lodged under this Act in respect of the company , other than documents whose only effect is to change particulars recorded under paragraph (a) ."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "a public company ; or"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A public company shall have share capital."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "[section 15 repealed by section 3 of Act 12 of 2010 ]"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this section, the articles of a private company shall limit the number of its members to a specified number , being a number not more than fifty."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The articles of a private company limited by shares shall state— (a) the rights, privileges, restrictions and conditions attaching to each class of shares, if there are two of more classes; and (b) the authority given to the directors to determine the number of shares in, the designation of, and the rights, privileges, restrictions and conditions attaching to each series, if a class of shares may be issued in series."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "[section 18 repealed by section 4 of Act 12 of 2010 ]"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Each subscriber to an application for incorporation as a company limited by guarantee shall sign a declaration of guarantee specifying the amount that he undertakes to contribute to the assets of the company in the event of its being wound-up."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) An unlimited company shall have share capital and its articles shall state— (a) the rights, privileges, restrictions and conditions attaching to each class of shares, if there are two or more classes; and (b) the authority given to the directors to determine the number of shares in, the designation of, and the rights, privileges, restrictions and conditions attaching to each series, if a class of shares may be issued in series."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Subject to this Act , the incorporation of a company shall have the same effect as a contract under seal between the company and its members from time to time and between those members themselves, in which they agree to form a company whose business will be conducted in accordance with the application for incorporation, the certificate of share capital from time to time, the articles of the company from time to time, and this Act."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall have, subject to this Act and to such limitations as are inherent in its corporate nature, the capacity, rights, powers and privileges of an individual."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "No act of a company , including any transfer of property to or by a company , shall be invalid by reason only that the act or transfer is contrary to its articles or this Act."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "No person dealing with a company shall be affected by, or presumed to have notice or knowledge of, the contents of a document concerning the company by reason only that the document has been lodged with the Registrar or is held by the company available for inspection."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "any of the articles of the company has not been complied with;"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If at any time the number of members of a company is reduced below two and it carries on business for more than six months without at least two members, a member or director of the company who was aware that the business was being carried on with fewer than two members shall be severally liable for the payment of all the debts and liabilities of the company incurred after the end of that period of six months."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "to take or subscribe for more shares than the number held by him on the alteration date;"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If a person purports to enter into a contract not evidenced in writing in the name of or on behalf of a company before it comes into existence, the person shall be bound by the contract and entitled to the benefits thereof."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall supply to any member on request copies of— (a) the certificate of incorporation ; (b) the certificate of share capital , in the case of a company with share capital ; and (c) The articles of the company ; within seven days after receiving payment of the sum of one monetary unit , or such lesser sum as may be prescribed by the company , for each set of copies."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A private company limited by shares may be converted into a company limited by guarantee if— (a) there is no unpaid liability on any of its shares; (b) all its members agree in writing to such a conversion; (c) a special resolution amending the articles to satisfy section nineteen is passed, if the articles do not satisfy that section; and (d) each member makes a declaration of guarantee ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "A private company limited by shares may be converted into an unlimited company if all its members agree in writing to its conversion."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "to convert the company into such a company ; and"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) An unlimited company may be converted into a private company limited by shares or a company limited by guarantee if— (a) all its members agree in writing to its conversion; (b) a special resolution amending the articles to satisfy section seventeen or nineteen, as appropriate, is passed, if the articles do not satisfy section seventeen and nineteen, as appropriate; and (c) each member makes a declaration of guarantee , in the case of conversion to a company limited by guarantee ."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "approves the conversion; and"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A private company limited by shares may be converted into a public company if a special resolution is passed that— (a) approves the conversion; and (b) amends the articles to satisfy section fourteen, if the company 's articles do not satisfy that section."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If the requirements of section thirty, thirty-one, thirty-two, thirty-three, thirty-four or thirty-five (in this section called \"the conversion section\") are satisfied with respect to a company , the company shall, within twenty-one days after the conversion section's becoming satisfied, lodge with the Registrar an application in the prescribed form for conversion of the company in accordance with the resolution or agreement, together with the documents referred to in subsection (4) ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A public company shall have a name the last word of which is \"PLC\"."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A person or persons who propose to form a company may, subject to this section, reserve a name for the company by lodging with the Registrar an application in the prescribed form specifying the name proposed to be reserved (in this section called \"the reserved name\")."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The Registrar may, on the application of a company limited by guarantee , grant the company written permission to omit the word \"Limited\" from its name for the purposes of this Act apart from this Part."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company may pass a special resolution to change its name."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The Registrar may refuse to register a proposed name of a company where it appears to the Registrar that— (a) the name, if registered, is likely to cause confusion with a well known name or the name of an existing company ; (b) the registration is sought to prevent another person who is legitimately entitled to use the name from using the name; or (c) the registration of the name is otherwise undesirable or not in the public interest; and the Registrar may direct the Company to change its name in accordance with this Division."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) For the purposes of this Act , the \" financial year \" of a company is the period, whether or not a period of twelve months, that begins on one accounting date of the company and ends on the day before the next."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) For the purposes of this section, \" company \" means a body corporate , whether or not a company for other purposes of this Act and whether or not incorporated in Zambia."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall, within one month after another body corporate has become related to it, lodge with the Registrar a notice of that fact together with particulars identifying the body corporate ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The members of a company with a share capital shall be the shareholders and stockholders of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Except as provided in this section, a company shall not be a member of itself or of a body corporate which is its holding company ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "If a private company fails to comply with the provisions of its articles on the number of its members, the company , and each officer and member in default , shall be guilty of an offence, and shall be liable on conviction to a fine not exceeding five hundred monetary units."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall maintain a register of its members and enter therein the following particulars: (a) the full name and address of each member of which it has received notice; (b) the occupation of the member , if the member is an individual; (c) the fact that the member is a body corporate or an unincorporated association, as the case may be, if the member is not an individual; (d) the date on which the company received the notice; (e) if the company has share capital— (i) the shares held by each member with the share numbers (if any); and (ii) the amount paid or agreed to be considered as paid on the shares of each member ; (f) the amount that each member has guaranteed in his declaration of guarantee , if the company is limited by guarantee; (g) the date on which the company received notice of any person's ceasing to be a member ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this Part, the register and index of the names of the members of the company shall be available for inspection by any member of the company or other person in accordance with section one hundred and ninety-three."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If— (a) a company fails to correct an error in its register of members; or (b) an error in the register causes a loss to a person; the person aggrieved or any member of the company may apply to the court for an order that the register be rectified and the person aggrieved may apply for an order that the company pay compensation for the loss."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company with share capital may, subject to its articles , keep a part of its register of members (in this Act called a \" branch register \"), being the part relating to members resident in a specified foreign country or countries, at a place in the foreign country, or one of the foreign countries."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "An instrument of transfer of any share registered in a branch register shall be deemed to transfer property situated outside Zambia, and, unless executed in any part of Zambia, shall be exempt from any duty chargeable in Zambia."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The regulations may provide that sections forty-eight and forty-nine shall, subject to any modifications and adaptations specified in the regulation, apply to a register of members kept in Zambia by a specified body corporate , or class of bodies corporate, incorporated under the law of a foreign country or countries."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to section seventy, no notice of any trust, express, implied or constructive, need be entered on the register of members of a company , or be received by the company or the Registrar ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The register of members shall be prima facie evidence of any matter by this Act directed or authorised to be inserted therein."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "In this Part, unless the context otherwise requires, \" company \" means a company with share capital ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The shares or other interest of a member in a company shall be personal estate and movable property, transferable by a written transfer in a manner provided by the articles of the company or by this Act."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this section, each issued share in a company shall be assigned a distinguished number ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The articles of a company may provide for the issue of shares which are to be redeemed, or are liable to be redeemed at the option of— (a) the company ; (b) the share -holder, or (c) either the company or the shareholder ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where under section fifty-nine any shares of a company are redeemed wholly out of the profits of the company , the amount by which the company 's issued share capital is diminished in accordance with subsection (8) of that section on cancellation of the shares redeemed or purchased shall be transferred to a reserve, to be called \"the capital redemption reserve \"."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a company issues shares at a premium, whether for cash or otherwise, a sum equal to the aggregate amount of value of the premiums on these shares shall be transferred to an account, to be called \"the share premium account \", and the provisions of this Act relating to the reduction of share capital of a company shall, except as provided in this section, apply as if the share premium account were paid up share capital of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) For the purposes of this section— (a) the abrogation of any rights attached to a class of shares; and (b) any resolution of a company , other than a resolution for the creation or issue of further shares, the implementation of which would have the effect of— (i) diminishing the proportion of the total votes exercisable at a general meeting of the company by the holders of the existing shares of a class; or (ii) reducing the proportion of the dividends or other distributions payable at any time to the holders of the existing shares of a class; shall be deemed to be a variation of the rights of that class."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Whenever a company makes an allotment of its shares, the company shall within one month thereafter lodge with the Registrar — (a) a return of the allotments in the prescribed form, stating the number and the nominal amount of the shares comprised in the allotment, the names and addresses of each allottee, whether each allottee is an individual, a body corporate or an unincorporated association, and the amount (if any) paid or due and payable on each share ; and (b) subject to subsection (3) , in the case of shares allotted as fully or partly paid up otherwise than in cash— (i) any contract constituting the tile of the allottee to the allotment; (ii) any contract of sale, or for services or other consideration in respect of which that allotment was made; and (iii) a return stating the number and nominal amount of shares so allotted, the extent to which they are to be treated as paid-up and the consideration for which they have been allotted."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to section sixty-nine, a company shall not register a transfer of shares unless— (a) a proper instrument of transfer has been delivered to the company ; or (b) the right to the shares has been transmitted by operation of law."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Save as expressly provided in a company 's articles and in this Act, shares shall be transferable without restriction by a written transfer in accordance with section fifty-seven."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall, within two months after the allotment of any of its shares or after the registration of the transfer of any shares, deliver to the registered holder thereof a certificate under the common seal of the company stating— (a) the number and classes of shares held by him, and the distinguishing numbers thereof (if any); (b) the amount paid on such shares and the amount (if any) remaining unpaid; and (c) the full name and address of the registered holder and whether the holder is an individual, a body corporate or an unincorporated association."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If the holder of any shares wishes to transfer to any person part only of the shares represented by one or more certificates, the instrument of transfer together with the relevant certificates may be delivered to the company with a request to endorse the instrument of transfer."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "A share certificate shall be prima facie evidence of the title to the shares of the person named therein as the registered holder and of the amounts paid and payable thereon."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company may, with respect to any fully paid-up shares (or stock) issue a warrant (in this Act called a \" share warrant \") stating that the bearer of the warrant is entitled to the shares therein specified, and may provide by coupons or otherwise for the payment of the future dividends on the shares included in the warrant."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) In the case of the death of a shareholder of a company , the survivor or survivors where the deceased was a joint holder, and the legal personal or representative of the deceased where he was a sole holder or last survivor of joint holders, shall be the only persons recognised by the company as shareholders."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The production to a company of any document which is by law sufficient evidence that the ownership of a share has been transmitted by the operation of law shall be accepted by the company as sufficient evidence of the transmission of ownership."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "A company shall not have or claim a lien on shares on which there is no unpaid liability, nor shall any such lien extend to any sums due from the shareholder except in respect of the unpaid liability on the shares."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this section and to its articles , a company may create and issue, whether in connection with the issue of any of its shares or otherwise, rights or options in favour of any directors, officers or employees of the company or of any subsidiary of the company , being rights or options that entitle the holders to acquire from the company , upon such consideration, terms and conditions as may be fixed by the board of directors, shares of any class."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company may, unless its articles provide otherwise, by special resolution alter its share capital as stated in the certificate of share capital by doing any of the following: (a) increasing its share capital by new shares of such an amount as it thinks expedient; (b) consolidating and dividing all or any of its share capital into shares of a larger amount than its existing shares; (c) converting all or any of its paid up shares into stock, and re-converting that stock into paid up shares of any denomination; (d) subdividing its shares, or any of them, into shares of smaller amounts than is stated in the certificate of share capital ; (e) cancelling shares which, at the date of the passing of the resolution , have not been allotted to any person, and diminishing the amount of its share capital by the amount of the shares so cancelled."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If a company has accumulated a sum of undivided profits, which with the approval of the shareholders may be distributed among the shareholders in the form of a dividend or bonus, the company may, by special resolution , return the same, or any part thereof, to the shareholders in reduction of the paid up capital of the company , the unpaid capital being thereby increased by a similar amount."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to confirmation by the court , a company may, if so authorised by its articles , by special resolution reduce its share capital in any way, and in particular, without prejudice to the generality of the foregoing power, may— (a) extinguish or reduce the liability on any of its shares; (b) either with or without extinguishing or reducing liability on any of its shares, cancel any paid-up share capital which is in excess of the wants of the company ; or (c) either with or without extinguishing or reducing liability on any of its shares, pay off any paid-up share capital which is in excess of the wants of the company ; and may, if and so far as is necessary, reduce the amount of its shares accordingly."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If a company has passed a resolution for reducing share capital , it shall, within twenty-one days after the making of the resolution, apply to the court for an order confirming the reduction."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The court , if satisfied with respect to every creditor of the company who is entitled to object to the reduction, that— (a) his consent to the reduction has been obtained; (b) his debt or claim has been discharged or determined; or (c) his debt or claim has been secured; may make an order confirming the reduction on such terms and conditions as it thinks fit."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The Registrar , on the lodgement of an order of the court confirming the reduction of the share capital of a company and of a minute approved by the court showing, with respect to the share capital of the company as altered by the order— (a) the amount of the share capital; (b) the number of shares into which it is to be divided; (c) the amount of each share ; and (d) the amount, if any, at the date of lodgement deemed to be paid up on each share ; shall issue a replacement certificate of share capital of the company , worded to meet the circumstances of the case."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this section, where the share capital of a company is reduced, a member of the company , past or present, shall not be liable in respect of any share to any call or contribution exceeding in amount the difference, if any, between the amount of the share fixed by the reduction and the amount paid, or the reduced amount, if any, which is to be deemed to have been paid, on the share , as the case may be."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a company has passed a resolution for reducing share capital , an officer of a company who— (a) wilfully conceals the name of any creditor entitled to object to the reduction; (b) wilfully misrepresents the nature or amount of the debt or claim of any creditor; or (c) aids, abets or is privy to any such concealment or misrepresentation; shall be guilty of an offence, and shall be liable on conviction to a fine not exceeding five hundred monetary units."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this Part, where a person is acquiring or is proposing to acquire any shares in a company , the company or any of its subsidiaries shall not give financial assistance directly for the purpose of that acquisition."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A private company may give financial assistance for the acquisition of shares in itself in accordance with this section."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "No dividend shall be payable to the shareholders of a company except out of the profits arising or accumulated from the business of the company ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Company shares that are listed on any stock exchange in Zambia shall be exempt from the provisions of the Property Transfer Tax Act , 1984. [Cap. 422 ]"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company may raise loans by the issue of a debenture or of a series of debentures."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall, within two months after the allotment of any of its debentures or after the registration of the transfer of any debentures, deliver to the registered holder thereof the debentures or a certificate of the debenture stock under the common seal of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall not— (a) idemnify a person who is a trustee for debenture holders of the company or a related company against any liability which under law would otherwise attach to him in respect of any breach of trust or failure to show the degree of care and diligence required of him as trustee having regard to the powers, authorities or discretion conferred on him by the trust deed; or (b) compensate such a person for the cost of meeting any such liability."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The following persons shall not be eligible for appointment or competent to act as trustee for the holders of debentures of a company : (a) an individual under the age of eighteen years; (b) a person under any legal disability; (c) a person prohibited or disqualified from so acting by order of a court of competent jurisdiction; (d) an undischarged bankrupt; (e) a person who is an officer or auditor of the company or a related company or who has been such an officer or auditor within the preceding two years, save with the leave of the court ; (f) a person who has been convicted within the preceding five years of an offence involving fraud or dishonesty; (g) a person who has been removed within the preceding five years from an offence of trust by order of a court of competent jurisdiction."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A copy of any trust deed for securing an issue of debentures shall be provided to a holder of those debentures at his request and on payment of the sum of one monetary unit , or such lesser sum as may be required by the company , within seven days after the receipt of the request."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) No unsecured debenture or debenture stock certificate, or prospectus relating to unsecured debentures, shall be issued by a company unless the term \" debenture \", or such other term as is used to denote the debenture , is qualified by the word \" unsecured\"."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company which issues or has issued debentures shall maintain a register of debenture holders."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this section, sections one hundred and thirty-nine to one hundred and fifty-five shall apply, with the necessary modifications, in relation to the holders of debentures of a company that are secured by a trust deed."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The terms of any debentures not secured by a trust deed may provide for the convening of general meetings of the debenture holders or of classes of debenture holders, and for the passing at such meetings of resolutions binding on all the debenture holders or on all the debenture holders of those classes."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall not re-issue any debenture which has been redeemed."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Where a charge is expressed to be made to secure an indeterminate amount, or a fluctuating amount advanced on current account by, or due and owing to, the person entitled to the charge , the charge shall not be considered to be redeemed by reason only that the current account ceases to be in debit or by reason only that no amount is due or owing, as the case may be."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) This section applies to any charge on property of the company , whether or not it is required to be registered under section ninety-eight."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The Registrar shall maintain a register containing, with respect to each company , the particulars of the charges of the company that are lodged in accordance with this Part."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) This section applies to the following charges over the property or undertaking of a company : (a) a charge for the purpose of securing any issue of a series of debentures; (b) a charge on uncalled share capital of the company ; (c) a charge to which the Trade Charges Act applies; [Cap. 415] (d) a floating charge on the whole or part of the undertaking or property of the company ; (e) a charge on land, wherever situated, or any interest therein; (f) a charge on any present or future book debts of a company ; (g) a charge on calls made but not paid; (h) a charge on a ship or aircraft or any share in a ship or aircraft; (i) charge on goodwill, on a patent or a licence under a patent, on a trade mark, or on a copyright or a licence under a copyright; (j) a charge overshares in another body corporate , not being— (i) a charge in favour of a broker who has paid for a share purchased or applied for on behalf of the company ; or (ii) a charge created by or accompanied by delivery of the certificates for such shares."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "If the particulars and documents relating to a charge that are required by this Part to be lodged with the Registrar are lodged within the time required, the Registrar shall issue a certificate of the registration of the charge stating the date of lodgement and, if applicable, the amount thereby secured, and the certificate shall be conclusive evidence that the requirements of this Part as to registration have been complied with."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to any consent (express or implied) given by the person who would otherwise be entitled to priority, charges required by this Part to be registered shall have priority in relation to one another in accordance with the times at which they were lodged."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If there is lodged with the Registrar a statement in the prescribed form, signed on behalf of a company and by the person entitled to charge , to the effect that— (a) the debt for which the charge was given has been paid or satisfied in whole or in part; or (b) part of the property or undertaking charged has been released from the charge or has ceased to form part of the company 's property or undertaking; then— (i) the Registrar shall enter the fact in the register of charges; (ii) the statement shall, in favour of the liquidator and any creditor of the company , be binding on the person entitled to the charge who signed the statement and on any other person claiming through him."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If a variation is made in the terms of a charge registered under this Part, other than a satisfaction or release to which section one hundred and two applies, particulars after the variation in the prescribed form shall be lodged with the Registrar within twenty-one days of the making of the variation."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If a person enters into possession of any of the property of a company as mortgagee under any powers contained in a charge , he shall, within seven days after so doing, lodge a notice to that effect in the prescribed form with the Registrar ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a company issues a debentures forming one of a series of debentures, or a certificate of debenture stock, and the payment of the debenture is secured by a charge registered under this Part, the company shall endorse on the debenture or certificate of debenture stock a statement that registration has been effected and the date of registration."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Division shall bind the State in respect of all charges to which the State is entitled."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Division shall apply in relation to a receiver of property of a company who is appointed after the commencement of this Act, even if the appointment arose out of a transaction entered into before that commencement."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) When a charge over property of a company has become enforceable, the court may, on the application of the chargee, appoint— (a) a receiver who is not also a manager; or (b) a receiver and manager; of the property."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A person who obtains an order for the appointment of a receiver of property of a company , or who appoints such a receiver under a power contained in an instrument, shall, within seven days after obtaining the order or making the appointment, lodge a notice with the Registrar of the order or appointment."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Unless the court directs otherwise, the directors of a company shall, within three months of the appointment of a receiver , prepare and submit to the receiver a statement as to the affairs of the company as at the date of the appointment of the receiver , showing— (a) the particulars of its assets and liabilities; (b) the names and addresses of its creditors; (c) the securities held by each of the creditors; (d) the dates when the securities were respectively given; and (e) such further information as may be prescribed or as the receiver may require."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "to a fine not exceeding one hundred thousand penalty units or to imprisonment for a period not exceeding twelve months, or to both; and"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where— (a) a receiver is appointed, on behalf of the holder or trustee of any debenture of a company that is secured by a floating charge ; or (b) possession is taken by or on behalf of such a person; of property comprised in or subject to the charge , then, if the company is not at the time in the course of being wound-up, the debts which in every winding-up are, under section three hundred and forty-six (relating to preferential payments), to be paid in priority to all other debts shall be paid out of any assets coming to the hands of the receiver or the person taking possession in priority to any claim for principal or interest in respect of the debentures."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) An individual who wishes to perform the function of a receiver shall apply for accreditation with the Registrar in the prescribed manner and form."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A receiver shall be entitled to the payment of a fee which shall be a percentage of the gross proceeds of the realisation of the receivership of the company ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "A receiver of any property or undertaking of a company appointed by the court shall be an officer of the court and shall be deemed, in relation to the property or undertaking, not to be an officer of the company , and shall act in accordance with the directions and instructions of the court ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A receiver of any property or undertaking of a company appointed, otherwise than by a court , under a power contained in any instrument shall, subject to section one hundred and fourteen, be deemed in relation to the property or undertaking to be an agent and officer of the company and not an agent of the persons by or on behalf of whom he is appointed, and he shall act in accordance with the instrument under which he is appointed and with any directions of the court made under this section."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A receiver of any property or undertaking of a company shall be personally liable on any contract entered into by him as receiver except insofar as the contract expressly provides otherwise."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a receiver of any property or undertaking of a company has been appointed, every invoice, order or business letter issued by or on behalf of the company , the receiver or the liquidator , being a document on or in which the name of the company appears, shall contain a statement that a receiver has been appointed."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Where a receiver is appointed of the whole or substantially the whole of the undertaking of any company on behalf of the holders of any debentures secured by a floating charge , section two hundred and eighty-eight and three hundred and thirty-eight shall apply as regards the submission of a statement of affairs and of periodical accounts by the receiver as if the company had been ordered to be wound-up under this Act and as if the receiver had been appointed liquidator ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Except where section one hundred and sixteen applies, a receiver of any property of a company shall— (a) within one month, or such longer period as the Registrar may allow, after the end of the period of six months from the date of the receiver 's appointment and of every subsequent period of three months until the receiver ceases to act, lodge with the Registrar an abstract showing the receiver 's receipts and payments during that period of three months; and (b) within one month, or such longer period as the Registrar may allow, after the receiver ceases to act as receiver , lodge with the Registrar an abstract showing the receiver 's receipts and payments during the period from the end of the twelve months to which the last abstract, if any, related , and the total of those receipts and payments during the whole period of the receiver 's appointment."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If a receiver , in the course of the performance of his duties as receiver of property or undertaking of a company , is satisfied that— (a) there has been a contravention of, or failure to comply with, any of the provisions of this Act ; and (b) the circumstances are such that in his opinion the matter has not been or will not be adequately dealt with by bringing the matter to the notice of the directors of the company or, if the company is a subsidiary , of the directors of any holding company of the company ; he shall as soon as is practicable report the matter to the Registrar in writing."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The office of a receiver shall become vacant where the receiver — (a) dies; (b) becomes disqualified under this Act ; (c) is removed by order of court ; or (d) is removed from the register of receivers by the Registrar pursuant to subsection (3) of section one hundred and eleven."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) In this Part, an \" invitation to the public \" to acquire shares or debentures of a company means an offer of, or invitation to make an offer for, shares or debentures of a company other than one— (a) made to fifteen or fewer persons; or (b) made— (i) to fifty or fewer persons; or (ii) of the company exclusively to its existing shareholders, debenture holders or employees; on the basis that a person who accepts the invitation may not renounce or assign the benefit of any shares or debentures to be obtained thereunder in favour of any other person."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a company allots or agrees to allot any of its shares or debentures to a person with a view to the public's being invited to acquire any of those shares or debentures, then, for the purposes of this Act— (a) an invitation to the public so made shall be deemed to be made by the company as well as by the person who in fact made it; and (b) a person who acquires any of the shares or debentures in response to the invitation shall be deemed to be an allottee from the company of those shares or debentures."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The first publication of the prospectus shall be presumed to be on the date of registration thereof."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) In this section, \" company \" includes a company proposed to be formed."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this section, a person may invite the public to acquire shares or debentures of a public company or of a public company proposed to be formed only if— (a) within six months prior to the making of the invitation there was registered by the Registrar a prospectus relating to the shares or debentures that complies with this Division; (b) every person to whom the invitation is made is supplied with a true copy of the prospectus at the time when the invitation is first made to him; and (c) every copy of the prospectus states on its face that it has been registered by the Registrar and the date of registration."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A prospectus shall not be lodged with the Registrar unless— (a) it does not contain any untrue or misleading statement; (b) it contains all information that prospective purchasers of the shares or debentures and their advisors would reasonably expect to be provided in order to make a decision on purchase; and (c) either— (i) it deals with the matters and provides the reports specified in the Fourth Schedule; or (ii) the invitation concerned is an invitation made only to existing members or debenture holders of the company (whether or not an applicant for shares or debentures will have the right to renounce in favour of other persons)."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) This section applies to a prospectus that includes a statement purporting to be made by an expert ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The Registrar shall not register a prospectus for shares or debentures in a company or in a company proposed to be formed unless the copy lodged conforms with this section."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall not accept or retain subscriptions to a debentures issue in excess of the amount of the issue disclosed in the prospectus unless the prospectus specifies— (a) that the company expressly reserves the right to accept or retain over-subscriptions; and (b) a limit, expressed as a specific sum or money, on the amount of over-subscriptions that may be accepted or retained, being an amount not exceeding twenty-five per centum above the amount of the issue as disclosed in the prospectus."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a prospectus states or implies that application has been or will be made for permission for the shares or debentures offered in the prospectus to be listed for quotation on the official list of a stock exchange, then, subject to subsection (8) , no allotment of shares or debentures shall be made on an application made pursuant to the prospectus except in accordance with this section."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a prospectus— (a) contains a statement which is untrue or, in the context, misleading; (b) omits any matter which is material ; or (c) omits to state any of the particulars or to set out any of the reports which, under this Act , it is required to state or set out; then, subject to this section, the persons specified in subsection (2) shall be liable to pay compensation to any persons who acquire any shares or debentures on the faith of the prospectus for any loss they may have sustained by reason of the untrue statement or omission."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where any prospectus, advertisement or circular published in relation to any invitation to the public to acquire shares or debentures of a company contains any untrue statement or omits truthfully to state any of the matters which, under this Act, it is required to state, any person who authorised the publication of the prospectus, advertisement or circular shall be guilty of an offence, and shall be liable on conviction to a fine not exceeding seven thousand monetary units or to imprisonment for a period not exceeding seven years, or to both."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a prospectus has been registered and it appears to the Registrar that it— (a) contains a statement, promise, estimate or forecast that is false or misleading, whether or not the statement or other particular was false or misleading at the time the prospectus was lodged; (b) fails to comply in any material respect with this Division or with the Fourth Schedule; or (c) conceals or omits to state a material fact so that a statement in the prospectus is rendered misleading in the context in which it appears; the Registrar may apply to the court for an order under subsection (2) ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Where an invitation is made to the public to acquire shares or debentures of a public company or of a public company proposed to be formed, an agreement for the acquisition of the shares or debentures made before the end of the waiting period , other than a bona fide underwriting agreement, shall not be enforceable by the company or the promoters."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Where an invitation is made to the public in respect of any shares or debentures of a public company , an application for such shares or debentures shall not be revocable during a period of seven days commencing on the expiry of the waiting period unless, before the expiry of that period of seven days, some person responsible for the prospectus has given a notice to the public which has the effect under section one hundred and twenty-nine of excluding or limiting the responsibility of the person giving it for any misstatement or omission in the prospectus."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) No allotment of shares offered to the public shall be made unless— (a) the minimum subscription has been subscribed as required by section fifteen; and (b) the sum payable on application for the shares so subscribed has been received by the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A public company that does not issue a prospectus on, or with reference to, its formation shall not allot any of its shares or debentures unless it has, not later than three days before the first allotment of the shares or debentures, lodged with the Registrar a statement in lieu of a prospectus."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "A condition purporting to require or bind any person to waive compliance with this Part or purporting to attribute to him notice of any contract document or other matter not specifically referred to in any prospectus advertisement or circular, shall be void."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) In this Part, unless the context otherwise requires, \"meeting\" means any of the following meetings of a company : (a) an annual general meeting ; (b) an extraordinary general meeting ; and (c) a class meeting ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this section, a company shall hold, within three months after the end of each financial year of the company , a meeting to be called the annual general meeting of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) An extraordinary general meeting of a company may be convened in accordance with other provisions of this Act, or— (a) by the directors whenever they think fit; or (b) if the articles so provide, by any other person in accordance with those provisions."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Unless the articles provide otherwise, a meeting of members of a particular class may be convened— (a) by the directors whenever they think fit; or (b) by two or more members of that class, holding, at the time that notice of the meeting is sent out, not less than one-twentieth of the total voting rights of all the members having a right to vote at meetings of that class."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A member or members of the company may make a requisition for a general meeting to be held under this section if they hold, at the time when the requisition is made, not less than one-twentieth of the total voting rights of all the members having a right to vote at general meetings of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a meeting of a company is to be convened, any person who is, on the day before the latest day on which notice of the meeting may be given under this Act— (a) a registered member having the right to vote at a meeting of that kind; (b) a person upon whom the ownership of a share devolves by reason of his being a legal personal representative, receiver or trustee in bankruptcy of such a member and of whom the company has received notice; (c) a director of the company ; (d) an auditor of the company ; or (e) a person entitled under the articles to receive such notice; shall be entitled to receive notice of the meeting."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this section, notice of a meeting of a company shall be given in writing served in accordance with this Act on each person entitled to receive such notice and shall be given not less than— (a) twenty-one days, in the case of an annual general meeting ; (b) twenty-one days, in the case of a meeting at which a special resolution will be proposed; or (c) fourteen days, in any other case; and not more than fifty days before the meeting is to be held."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If for any reason it is impracticable to convene or to conduct a meeting of a company in compliance with this Act and the articles , the court may, either of its own motion or on the application of any director of the company or of any member of the company who would be entitled to vote at the meeting, order a meeting of the company to be convened, held and conducted in such a manner as the court thinks fit, and, where any such order is made, may give such ancillary or consequential directions as it thinks expedient, including a direction that one member of the company present in person or by proxy shall be deemed to constitute a meeting."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Unless the articles provide otherwise, or all the members entitled to vote at that meeting agree in writing to a meeting at a place outside Zambia, a meeting of a company shall be held in Zambia."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "each member of the company having the right to vote at the meeting;"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Unless the articles of a company provide otherwise, members shall have votes at any meeting of the company as follows: (a) a member of a company with share capital shall have one vote for— (i) each share ; and (ii) each whole unit of stock; that he is registered as holding; (b) each member of a company limited by guarantee shall have one vote."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Unless the articles of a company provide otherwise, a statement by the chairman of a meeting of the company that a motion or resolution at a meeting was passed by a specified majority shall be conclusive evidence that it was so passed unless a poll was demanded on the motion or resolution."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "not fewer than three members having the right to vote on the question, representing not less than one-twentieth of the total voting rights of all members having the right to vote on the question, where there are more than eight such members present; or"
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "On a poll taken at a meeting of company or a meeting of any class of members of a company , a member entitled to more than one vote need not, if he votes, use all his votes or cast all the votes he uses in the same way."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A member of a company entitled to attend and vote at a meeting of the company shall be entitled to appoint another person as his proxy to attend and vote instead of him."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A body corporate or an unincorporated association may, if it is a member of a company , by resolution of its directors or other governing body, authorise any person as it thinks fit to act as its representative at any meeting of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A member of a company entitled to attend and vote at a meeting may, in accordance with this section, require the company to circulate, at the company 's expense— (a) notice of any resolution which may properly be moved and is intend to be moved at the meeting; and (b) a statement of not more than five hundred words with respect to the matter referred to in the proposed resolution or any other business to be dealt with at the meeting."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall, at the written request of any member entitled to attend and vote at a meeting, circulate to members of the company a statement of not more than one thousand words with respect to any business to be dealt with at that meeting."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall not be bound under section one hundred and fifty-three or one hundred and fifty-four to circulate any resolution or statement if, on the application either of the company or of any other person who claims to be aggrieved, the court is satisfied that the rights conferred by those sections are being abused to secure publicity for defamatory matter."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A resolution shall be an ordinary resolution if it is passed by a simple majority of votes cast by such members of the company as, being entitled so to do, vote in person or by proxy at a meeting duly convened and held."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The members of a private company may, in accordance with this section, pass a resolution in writing without holding a meeting, and such a resolution shall be as valid and effective for all purposes as if it had been passed at a meeting of the appropriate kind duly convened, held and conducted."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A certified copy of every special resolution made by a company , or by a class of members of a company , shall, within fifteen days after the making thereof, be lodged with the Registrar ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a resolution is passed on a poll, it shall for all purposes be deemed to have been passed on the day on which the result of the poll is declared."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall cause minutes of all proceedings of— (a) meetings of the company ; (b) meetings of its directors and of any committee of directors; (c) meetings of its debenture holders or other creditors; to be entered in books kept for that purpose."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The books containing the minutes of proceedings of any meeting referred to in section one hundred and sixty shall be kept at the registered records office of the company and shall be open to inspection by any member , officer , auditor, receiver or liquidator of the company , and by the Registrar or his delegate."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall— (a) keep such accounting records as correctly record and explain the transactions of the company (including any transactions as trustee) and the financial position of the company ; and (b) keep its accounting records in such a manner as will enable— (i) the preparation from time to time of true and fair accounts of the company ; and (ii) the accounts of the company to be conveniently and properly audited in accordance with this Act."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this section, the directors of a company which is a holding company shall take such action (if any) as is necessary to ensure that the financial year of each subsidiary of the holding company coincides with the financial year of the holding company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this Division, the directors of a company shall, after the end of each financial year of the company but not later than twenty-one days before the annual general meeting of the company for that financial year , or, if no annual general meeting of the company is held within three months after the end of the financial year of the company , not later than twenty-one days before the end of that period of three months, caused to be made out— (a) a profit and loss account for the financial year just ended, being a profit and loss account that gives a true and fair view of the profit or loss of the company for that financial year ; (b) a balance sheet as at the end of the financial year just ended, being a balance sheet that gives a true and fair view of the state of affairs of the company as at the end of that financial year ; (c) group accounts , if the company is a company required to provide group accounts , dealing with— (i) the profit or loss of the company and its subsidiaries for their respective financial years most recently ended, giving a true and fair view of the profit or loss; and (ii) the state of affairs of the company and its subsidiaries as at the end of their respective financial years most recently ended, giving a true and fair view of the state of affairs so far as it concerns members of the holding company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where at the end of its financial year a company was a holding company , the company shall, subject to this section, prepare— (a) a set of consolidated accounts for the group of companies ; (b) separate accounts for each body corporate in the group; or (c) a combination of sets of consolidated accounts and separate accounts together covering the group; (in this Act called the \"group accounts \") for inclusion in its annual accounts for that financial year ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The directors of a subsidiary shall, at the request of the directors of the holding company , supply all such information as is required for the preparation of group accounts of the holding company and its subsidiaries, and of the report of the directors of the holding company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The annual accounts of a company shall, subject to this section, show— (a) the total amount of the emoluments paid to or receivable by the directors for their services; (b) the total amount of pensions paid to or receivable by the directors or past directors for their services; (c) the total amount of any compensation paid to or receivable by the directors or past directors in respect of loss of office; in the financial year concerned."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The annual accounts of a company shall show the particulars of any relevant loan made during the financial year to which the accounts apply, including any such loan which was repaid during that year."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A person who is, or has at any time within the previous five years been, a director or officer of a company shall, on the request of the company , provide the company with such information relating to himself as may be necessary for the purposes of sections one hundred and sixty-seven and one hundred and sixty-eight."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The balance sheet of a company 's annual accounts , and every copy of the balance sheet which is laid before the company in general meeting or delivered to the Registrar , shall be signed on behalf of the company by two directors."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall, within three months after its incorporation, appoint an auditor or auditors of the company , who shall hold office until the close of its first annual general meeting ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A private company may appoint an individual or a firm as auditor of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The auditors of a company shall make a report (in this Act called the \" auditors' report \") to the members of the company on the annual accounts and on the company 's accounting records and other records relating to those accounts ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A reference in this Act to a document annexed or required to be annexed to a company 's annual accounts shall not include the directors' report or the auditors' report except as provided in this section."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "In this Division, a reference to a subsidiary of a company that is a holding company includes only those subsidiaries which the holding company is required to cover in its group accounts ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The directors shall prepare, in conjunction with the annual accounts , a report (in this Act called \"the directors' report\") with respect to the state of the company 's affairs, the amount, if any, which they recommend should be paid by way of dividend and the amount, if any, which they propose to carry to reserves."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The directors' report shall state— (a) the names of the persons who at any time during the financial year were directors of the company ; (b) the principal activities of the company and of its subsidiaries in the course of that year; and (c) any significant change in those activities in that year."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If in the course of a financial year , a company has carried out business of two or more classes that in the opinion of the directors differ substantially from each other, the directors' report relating to that year shall state— (a) the proportions in which the turnover for that year (so far as stated in the annual accounts for that year) is divided amongst those classes (describing them); and (b) as regards business of each class, the extent or approximate extent (expressed, in either case, in monetary terms) to which, in the opinion of the directors, the carrying on of business of that class contributed to or restricted, the profit of or loss, before taxation of the company for that year."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The directors' report of a company relating to a financial year shall state— (a) the average number of persons employeed by it in each month in that year; and (b) the total remuneration paid or payable in respect of that year to the persons employed by it."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If a company , during a financial year , makes gifts or donations for any purpose with a total value of more than fifty monetary units, the directors' report relating to the year shall state the total value."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where the business of a company consists of or includes the supplying of goods, the directors' report in relation to a financial year shall, unless the turnover for that year did not exceed five hundred monetary units— (a) state the value of any goods exported by the company from Zambia; or (b) state that no goods were exported by the company from Zambia during that year, if no goods were exported."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Not later than twenty-one days before an annual general meeting of a company , or, if no annual general meeting is to be held within three months after the end of a financial year , twenty-one days before the end of that three months, a copy of— (a) the annual accounts (including any group accounts ); (b) the auditors' report or reports on the accounts ; and (c) the directors' report; relating to the previous financial year shall be sent to— (i) each person entitled to receive notice of the annual general meeting ; and (ii) each registered debenture holder of the company ."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "the annual accounts (including any group accounts );"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall, after the end of each financial year of the company , lodge with the Registrar a return (in this Act called the \" annual return \") in accordance with this Division— (a) within one month after the annual general meeting , if an annual general meeting is held within three months after the end of the financial year ; or (b) within three months after the end of the financial year , in any other case."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The annual return of a public company shall— (a) deal with the matters specified in the Third Schedule; and (b) be in the prescribed form or as near thereto as circumstances admit."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "A public company shall lodge with its annual return a certified copy , certified by both a director and the secretary of the company , of every balance sheet, profit and loss account , group accounts , directors' report and auditors' report sent to members and debenture holders of the company in accordance with section one hundred and eighty-two since the last annual return was made."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The annual return of a private company shall state— (a) the registered office of the company ; (b) the registered postal address of the company ; (c) the registered records office of the company ; (d) all the particulars with respect to any person who at the date of the return is a director or secretary of the company that this Act requires to be contained in the register of the directors and secretary of a company ; and (e) particulars identifying the bodies corporate related to the company at the date of the return."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A private company shall lodge with its annual return a certificate that the company has not since the date of the last return or, where there has been no return since the company was incorporated as or converted to a private company , since the date of the incorporation or conversion, issued any invitation to the public to subscribe for any shares or debentures of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where the status of a company required to file a return under this division has not changed, the company shall file a \"no change\" return indicating the financial year in  which the return is filed and containing a general statement that there has been no change in any given particulars in the return from the filing of the previous return."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Where a company has been placed in receivership or is in the process of being wound up under Part XIII , a receiver or liquidator of the company shall cause an annual return to be filed until the completion of the winding up. [section 188B inserted by section 14 of Act 24 of 2011 ]"
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Where a company fails to lodge an annual return and any other documents in accordance with this Division or lodges documents which do not comply with this Division, the company and each officer in default commits an offence and is liable, upon conviction, to a fine not exceeding ten thousand penalty units. [section 189 substituted by section 15 of Act 24 of 2011 ]"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a company or officer fails to comply with this Division, the Registrar may, without prejudice to any other provisions of this Act — (a) strike out the name of the company from the register of companies; or (b) disqualify an officer of the company from forming or becoming a director of another company for a period of five years."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) For the purposes of this Act , on the incorporation of a company — (a) the registered office of the company is the place the physical address of which was notified in the application for incorporation; and (b) the registered postal address is the postal address notified in the application."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "the place specified as the company 's registered records office in a notice in the prescribed form lodged with the Registrar , if such a notice has been lodged and not revoked by the company ; or"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Any record, register or book required by this Act to be kept by a company may be kept either in a bound or loose leaf form, or by a system of mechanical or electronic recording or otherwise."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this Act , where this Act requires any record, register or book kept by a company to be made available for inspection by a person, the record, register or book shall, during business hours, be open to inspection by the person at the company 's registered records office ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall— (a) paint or affix, and keep painted or affixed, its name, in easily legible Roman letters above or adjacent to the principal entrance to its registered office , its registered records office and to every other office or place in which its business is carried on; and (b) have its— (i) name in Roman letters; and (ii) designating number in Arabic numerals; accurately stated in all business letters, invoices, receipts, notices and other publications of the company , and in all negotiable instruments or orders for money, goods or services purporting to be signed or endorsed by or on behalf of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall have a common seal bearing its name and the words \"common seal \" thereon in legible Roman letters."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company may, subject to its articles , have for use in any place outside Zambia an official seal , which shall be a facsimile of the common seal of the company with the addition on its face of the name of the places where it is to be used."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Any contract or instrument which, if entered into by a person other than a body corporate , would not be required to be under seal may be entered into or executed without seal on behalf of a company by the secretary , a director , or any person generally or specifically authorised by the directors to do so."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "A bill of exchange or promissory note shall be deemed to have been made, accepted or endorsed on behalf of a company if made, accepted or endorsed in the name of, or by or on behalf or on account of, the company by any person acting under its authority, express or implied."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company may, by writing under its common seal , empower any person, either generally or in respect of any specified matters, as its attorney, to execute deeds on its behalf in any place outside Zambia."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A document may be served on a company by— (a) leaving it at the registered office of the company ; or (b) personal service on a director or secretary ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) For the purposes of this Act , a document may be served by a company on any member , debenture holder , director or secretary of the company — (a) personally; (b) by sending it by registered post in a prepaid letter addressed to him at his registered postal address or at any other address supplied by him to the company for the giving of notices to him; or (c) by leaving it for him at his registered address with some person apparently over the age of eighteen years."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Where a company would be liable for the acts of any officer or agent, the company shall be liable notwithstanding that the officer or agent has acted fraudulently or forged a document purporting to be sealed by or signed on behalf of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) For the purposes of this Act , any person who is appointed by the members of a company to direct and administer the business of the company shall be deemed to be a director of the company , whether or not he is called a director ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall have at least two directors."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall have a secretary ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The number of directors of a company shall be the number of first directors named in the application for incorporation, or such other number as the company may decide by ordinary resolution ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A person shall not be appointed as or continue to hold office as a director of a company if the person is— (a) a body corporate ; (b) an infant or any other person under legal disability; (c) any person prohibited or disqualified from so acting by any order of a court ; or (d) an undischarged bankrupt."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "the managing director , if the company has a managing director ; and"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Unless the company 's articles otherwise provide, a director need not be a member of the company or hold any shares therein."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A director may resign his office by notice in writing to the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company may, by ordinary resolution at a general meeting of the company remove from office all or any of the directors, subject to their rights to claim damages from the company if removed in breach of contract."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A person shall not give directions or instructions to the duly appointed directors of a company if the person is not eligible to be a director of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to any restriction in the articles of a company , a director may— (a) either generally, or in respect of a specified period or specified circumstances; and (b) with the approval of the directors; appoint a person who is not a director as his alternate director ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) This section applies to a company unless the articles provide otherwise."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this Act , the business of a company shall be managed by the directors, who may pay all expenses incurred in promoting and forming the company , and may exercise all such powers of the company as are not, by this Act or the articles , required to be exercised by the company by resolution."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The directors of a company shall not, without the approval in accordance with this section of an ordinary resolution of the company — (a) sell, lease or otherwise dispose of the whole, or substantially the whole, of the undertaking or of the assets of the company ; (b) issue any new or unissued shares in the company ; or (c) create or grant any rights or options entitling the holders thereof to acquire shares of any class in the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) This section shall apply to a company unless the articles provide otherwise."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) For the purposes of this section, a director has an interest in a contract of the company if— (a) he will derive any material benefit, whether direct or indirect, from the contract; or (b) another party to the contract is a firm or body corporate and he has a material interest, whether direct or indirect, in the firm or body corporate ; but he shall not be considered to have a material interest in a body corporate by reason only that— (i) he holds debentures of the body corporate ; or (ii) he holds shares in the body corporate comprising less than five per centum of the shares, or, where the company has classes of shares, less than five per centum of the shares in each class."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A third party may, where the third party intends to enter into a transaction with a company disclose— (a) any possible conflict ofinterest that may arise as a result of the person transacting with the company in the proposed manner; (b) the nature of the conflict of interest and the director or directors to whom such a conflict of interest applies; and (c) the extent to which the parties to the transaction stand to gain personally from the actions of the company ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Where a company wishes to enter into a transaction that is subject to a declaration under sections two hundred and eighteen and two hundred and eighteen A for which the value exceeds the threshold prescribed by the Articles, the transaction shall only be entered into with the approval of a simple majority of the members. [section 218B inserted by section 19 of Act 24 of 2011 ]"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) This section shall apply to the following companies: (a) a public company ; (b) a company related to a public company ; (c) a company in a prescribed class of company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If a director of a company , having acquired in that capacity any special information which may substantially affect the value of the share or debentures of the company or any related body corporate , buys or sells any such shares or debentures without disclosing such information to the seller or purchaser thereof, the purchase or sale shall be voidable at the option of the seller or purchaser within twelve months after the date of the agreement to sell or buy."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) For the purposes of this Division \"payment\"— (a) does not include the payment of damages awarded or approved by any court for breach of an independent service agreement or the bona fide payment of any pension or superannuation benefit in respect of past services in accordance with a service agreement; and (b) includes any other benefit or advantage whether in cash or in kind."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall not make to any director or former director of the company or of a related body corporate any payment by way of compensation for loss of any office in the company or in a related body corporate , or as consideration for or in connection with his retirement from office, unless the particulars relating to the proposed payment (including the amount thereof) have been disclosed to the members of the company and the proposal has been approved by an ordinary resolution of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where— (a) an offer is made for the acquisition of any shares of a company on the terms that the offer is available for acceptance— (i) by all the shareholders of the company or by all the holders of shares of the class to which the offer related ; or (ii) by the holders of shares which, together with any shares already beneficially owned by the person making the offer or any body corporate in which that person is a controlling shareholder , confer the right to exercise or control the exercise of not less than one-third of the votes at any general meeting of the company ; and (b) in connection with the offer a payment (in this section called \"the relevant payment\") is made, or has been made or is proposed to be made to a person (in this section called the \"payee director \") who is a director or former director of the company or of a related body corporate , being a payment other than payment to purchase shares held by the payee director at the same price receivable under the offer by other holders of shares in that class; the director or former director shall take all reasonable steps to ensure that particulars of the relevant payment are included in or sent with any notice of the offer made for their shares which is given to any shareholders."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall keep a register of its directors and secretaries in the prescribed form."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall keep a register showing in respect of each director and of the secretary the number , description and amount of any shares in or debentures of the company or any related body corporate which are held by or in trust for him or of which he has any right to become the holder (whether on payment or not)."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company shall, within twenty-one days after any change occurs among its directors or in its secretary or in any of the particulars contained in the register of directors and secretaries, lodge with the Registrar notice of the change in the prescribed form, specifying the date of the change."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company to which this section applies shall not state, in any form, the name of any of its directors (otherwise than in the text or as a signatory) on any business letter, trade catalogue, circular or showcard on which the company 's name appears unless it also states in legible characters the Christian name, or the initial thereof, and surname of every director (other than an alternate director ) of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) In a limited company , the liability of the directors and managers may, if the articles so provide, be unlimited."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "A provision requiring or authorising a thing to be done by or to a director and the secretary shall not be satisfied by its being done by or to the same person acting both as director and as, or in place of, the secretary ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where— (a) a person is convicted, whether in Zambia or elsewhere, on an indictment, or on any other process analogous to or in substitution of indictment— (i) of any offence involving fraud or dishonesty; or (ii) of any offence in connection with the promotion, formation or management of a body corporate ; or (b) in the course of winding-up a body corporate , whether in Zambia or elsewhere, a person has been found guilty of— (i) any fraud in relation to the body corporate ; or (ii) any breach of duty in relation to the body corporate ; the court , on its own motion or on the application of any of the persons referred to in subsection (3) , may order that the person shall not, without leave of the court , be a director of or in any way, whether directly or indirectly, be concerned or take part in the management of any company , or act as secretary , auditor or liquidator of any company , or as receiver of the property or as trustee for the debenture holders of any company , for such period not exceeding five years as may be specified in the order."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "A director or other officer of a company shall not assign his office to another person, and any purported assignment of the office shall be void."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "An act done by a director , the directors or the secretary shall not be invalid only because it is afterwards discovered that there was some defect in the appointment or qualification of a person to be a director or secretary or a member of a committee of directors, or to act as a director or secretary ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this Act , a company shall not indemnify a director or other officer of the company or a related body corporate against, or compensate him for, any liability which under law would otherwise attach to him in respect of any civil or criminal liability for any negligence, default , breach of duty or breach of trust which he may commit in relation to the company or a related body corporate after the commencement of this Act."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) In this section, \"arrangement\" includes a reorganisation of the share capital of the company by the consolidation of shares of different classes or by the division of shares in shares of different classes or by both methods."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) In this section, \"arrangement\" has the same meaning as in section two hundred and thirty-four."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where an application is made to the court under section two hundred and thirty-four to approve a compromise or arrangement referred to in that section, and it is shown to the court that— (a) the compromise or arrangement has been proposed for the purposes of or in connection with a scheme for— (i) the reconstruction of any company or companies; or (ii) the amalgamation of any two or more companies; and (b) under the scheme the whole or any part of the undertaking or the property of any company concerned in the scheme (in this section referred to as \"the transferor company \") is to be transferred to another company (in this section referred to as \"the transferee company \"); the court may, either by the order approving the compromise or arrangement or by a subsequent order, provide for all or any of the following: (i) the transfer to the transferee company of the whole or any part of the undertaking and of the property or liabilities of the transferor company ; (ii) the allotment or appropriation by the transferee company of any shares, debentures, policies or other like interests in the transferor company which under the compromise or arrangement are to be allotted or appropriated by the transferor company to or for any person; (iii) the continuation by or against the transferee company of any legal proceedings pending by or against the transferor company ; (iv) the dissolution, without winding-up, of the transferor company ; (v) the provision to be made for any persons who, within such time and in such manner as the court directs, dissent from the compromise or arrangement; (vi) such incidental, consequential and supplementary matters as are necessary to secure that the reconstruction or amalgamation is fully and effectively carried out."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) This section shall apply where body corporate , whether a company within the meaning of this Act or not, (in this section referred to as \"the transferee company \"), has made an offer to the holders of shares in a company (in this section referred to as \"the transferor company \") and each of the following conditions is satisfied: (a) the offer by the transferee company is made to the holders of the whole of the shares in the transferor company , other than those already held by the transferee company or any of its related companies or by nominees for the transferee company or any of its related companies; (b) the consideration for the acquisition or a substantial part thereof is either— (i) the allotment of shares in the transferee company ; or (ii) the allotment of shares in the transferee company or, at the option of the holders, a payment of cash; (c) the same terms are offered to all the holders of the shares to whom the offer is made or, where there are different classes of shares, to all the holders of shares of the same class; (d) the notice of the offer sent to the shareholders included— (i) a description of the effect of this section; (ii) a statement that, if paragraph (e) is satisfied, the transferee company intends to take advantage of this section; and (iii) a statement that the shareholder may apply to the court under subsection (3) ; (e) within four months after the making of the offer it has been accepted in respect of sufficient shares in each class to make up, together with any shares held by the transferee company , nine-tenths of the shares of that class."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where— (a) an offer is made to the shareholders of a company (in this section called \"the transferor company \") or any of them for the purchase of their shares; (b) in pursuance of the offer, shares in the transferor company are transferred to another body corporate (referred to in this section as \"the transferee company \"), whether the body corporate is a company within the meaning of this Act or not; and (c) after the transfer of shares, the transferee company holds more than three-fourths of the shares in the transferor company or in a class of those shares; then— (i) the transferee company shall within one month after the date of the transfer, unless after a previous transfer it has already complied with this requirement, give notice of that fact to the holders of the remaining shares or of the remaining shares of that class, as the case may be; and (ii) any such holder may, within three months after the giving to him of the notice require the transferee company to acquire all or any of his shares."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) In this section, \"oppressive\" means— (i) oppressive or unfairly prejudicial to, or unfairly discriminatory against, a member or members of a company ; or (ii) contrary to the interests of the members as a whole; whether in the capacity of the member or members concerned as a member or members of the company , or otherwise."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) In this Part, unless the context otherwise requires— \" documentary agent \" means a person appointed as a documentary agent of a foreign company for the purposes of section two hundred and forty-five; \" established place of business \" means a place of business of a foreign company that is an established place of business under section two hundred and forty-one; \" existing foreign company \" means a body corporate incorporated outside Zambia which immediately before the commencement of this Act was registered as a foreign company under the former Act ; \" foreign company \" means— (a) a body corporate formed outside Zambia that has registered under this Part; or (b) an existing foreign company , subject to section two hundred and forty-three; \" local director \" means a local director of a foreign company appointed under section two hundred and forty-eight; \" registered principal office \" means the office of a foreign company registered under section two hundred and forty-five as its principal place of business."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) For the purposes of this Part, and subject to this section, a body corporate formed outside Zambia has an \" established place of business \" if it has any of the following in Zambia; (a) a branch or management office; (b) an office for the registration of transfer of shares; (c) a factory or mine; or (d) any other fixed place of business."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) For the purposes of this Act , the \" financial year \" of a foreign company is the period, whether or not a period of one year, that begins on one accounting date of the company and ends on the day before the next."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this Act , this Act applies to an existing foreign company as if (a) it had been duly registered under this Act as a foreign company ; and (b) any document that, in accordance with the former Act , was duly lodged by it with the Registrar , or duly registered by the Registrar , had been duly lodged or registered under this Act."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The Registrar shall maintain a register of foreign companies for the purposes of this Part."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A body corporate formed outside Zambia (in this section called an \"external company \") may register under this section as a foreign company by lodging with the Registrar the application for registration and the other documents required to accompany it under this section."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If a body corporate formed outside Zambia sets up or acquires an established place of business in Zambia, it shall, within twenty-eight days after so doing, apply for registration as a foreign company under section two hundred and forty-five."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If any alteration is made in the charter, statutes, regulations, memorandum and articles , or other instrument relating to a foreign company referred to in paragraph (4)(a) of section two hundred and forty-five the company shall, within two months after the date on which that alteration takes effect, lodge with the Registrar a notice in the prescribed form giving details of the alteration."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A foreign company shall have at all times at least one individual, in this Act referred to as a \" local director \", empowered and authorised to conduct and manage all the affairs, properties, business and other operations of the company in Zambia."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If a person registered as a local director of a foreign company does an act ostensibly on behalf of the company in the course of carrying on the business of the company in Zambia, the act shall bind the company unless— (a) the local director has no authority so to act; and (b) the person with whom he is dealing has actual knowledge of the absence of authority, or, having regard to his position with, or relationship to, the company , ought to know of the absence of authority."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A document may be served on a foreign company by— (a) leaving it at an address registered as the address of a documentary agent of the company ; (b) personal service on a documentary agent of a company , if the agent is an individual; (c) service in accordance with this Act on the documentary agent , if the documentary agent is a company ; (d) leaving it at the registered office of the company , if the company has no registered documentary agent , or no registered address for such an agent; (e) personal service on a local director ; (f) leaving it at the registered office or principal place of business of the company in the country of its incorporation; or (g) personal service on a director or secretary of a company in the country of its incorporation."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A foreign company shall, within three months after the end of each financial year of the company , lodge with the Registrar annual accounts and an auditors' report corresponding as nearly as practicable with the annual accounts and auditors' report in relation to the operations and assets in Zambia of the company that would be required under Part VIII if those operations and assets were the whole operations and assets of a public company incorporated under this Act."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A foreign company shall— (a) keep such accounting records as correctly record and explain the transactions of the company relating to its operations and assets in Zambia (including any transactions as trustee) and the financial position of the company in relation to those operations and assets; and (b) keep its accounting records in such a manner as will enable— (i) the preparation from time to time of true and fair accounts of those operations and assets of the company ; and (ii) those accounts of the company to be conveniently and properly audited in accordance with this Part."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this section, the name of a foreign company in Zambia shall be— (a) the name of the company in the country of its incorporation, if that name is in English; or (b) the name of the company in the country of its incorporation or a translation thereof, as the company chooses, if that name is in Roman characters in a language other than English; (c) a translation or transliteration of the name of the company in the country of its incorporation, as the company chooses, if that name is not in Roman characters."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Section one hundred and ninety-four shall apply to a foreign company as if its name included at the end— (a) the words \"incorporated in \"followed by the country of its incorporation; and (b) the words \"with limited liability\", if the liability of the members is limited; but shall not apply in relation to business correspondence of the company despatched outside Zambia."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "a reference to a company were a reference to the foreign company ;"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where, in the case of a foreign company — (a) a winding-up order is made by a court of the country of its incorporation; (b) a resolution is passed or other appropriate proceedings are taken in that country to lead to the voluntary winding-up of the company ; or (c) the company is dissolved or otherwise has ceased to exist according to the law of the country of its incorporation. the company , or, if the company is dissolved, the documentary agents and local directors of the company , shall lodge a notice thereof with the Registrar within twenty-eight days after the event."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The undertaking in Zambia of a foreign company may be wound-up in accordance with this section whether or not the company has been dissolved or has otherwise ceased to exist according to the law of the country of its incorporation."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If a foreign company ceases to have an established place of business in Zambia, it shall, within twenty-eight days after so ceasing, lodge a notice of that fact in the prescribed form with the Registrar ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If a foreign company fails to comply with any of the obligations imposed upon it by this Part, the foreign company and any officer or documentary agent in default , shall be guilty of an offence, and shall be liable on conviction to a fine not exceeding five hundred monetary units."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Part VI shall apply in relation to foreign companies, with the necessary modifications, as if a foreign company were a public company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) In this section, \"non-Zambian company \" means any body corporate formed or proposed to be formed outside Zambia, other than a foreign company ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "For the purposes of this Part, a reference to a member of a company includes, unless the context otherwise requires, a reference to a person claiming or alleged to be liable to contribute to the assets of the company in a winding up, for the purpose of any proceedings for determining, and of all proceedings prior to the final determination of, the persons who are so liable (including the presentation of a winding-up petition)."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The winding-up of a company under this Part shall be— (a) a winding-up by the court ; or (b) a voluntary winding-up, being— (i) a members' voluntary winding-up; or (ii) a creditors' voluntary winding-up."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The provisions of this Act relating to the winding-up of a company shall not apply in relation to a winding-up that was commenced before the commencement of this Act, and such a winding-up shall be continued as if this Act had not been passed."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) This section shall apply only in the case of a company limited by guarantee , an unlimited company and a company having shares which are not fully paid up."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) In the case of a public company or a private company limited by shares , section two hundred and sixty-five shall not require from any member a contribution exceeding the amount, if any, unpaid on the shares in respect of which he is liable as a member ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The liability of a member shall create a debt in the nature of a specially accruing debt due from him at the time when his liability commenced, but payable at the times when calls are made for enforcing the liability."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If a member dies, whether before or after he has been placed on the list of those liable to contribute to the assets of the company , his personal representatives shall be so liable in due course of administration and, if they fail to pay any money ordered to be paid by them, proceedings may be taken for administering the estate of the deceased member and for compelling payment therefrom of the money due."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The court shall have jurisdiction to wind-up, in accordance with this Act— (a) a body corporate incorporated in Zambia; (b) a body corporate incorporated in a foreign country and— (i) registered as a foreign company ; or (ii) having any business or undertaking or assets in Zambia."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Division shall apply in the case of the winding-up of a company by the court ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this section, a company may be wound-up by the court on the petition of— (a) the company ; (b) any creditor, including a contingent or prospective creditor, of the company ; (c) a member ; (d) any person who is the personal representative of a deceased member ; (e) the trustee in bankruptcy of a bankrupt member ; (f) any liquidator of the company appointed in a voluntary liquidation; or (g) the Registrar ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The court may order the winding-up of a company on the petition of a person other than the Registrar if— (a) the company has by special resolution resolved that it be wound-up by the court ; (b) the company does not commence its business within twelve months after its incorporation or suspends its business for twelve months; (c) the company is unable to pay its debts; (d) the period, if any, fixed for the duration of the company by the articles expires of the event, if any, occurs on the occurrence of which the articles provide that the company is to be dissolved; (e) the number of members is reduced below two; or (f) in the opinion of the court , it is just and equitable that the company should be wound-up."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where, before the presentation of the petition for the winding-up of a company by the court , a resolution has been passed by the company for voluntary winding-up, the winding-up of the company shall be deemed to have commenced at the time of the passing of the resolution, and, unless the court otherwise directs, all proceedings taken in the voluntary winding-up shall be deemed to have been validly taken."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The person, other than the company itself or the liquidator thereof, on whose petition a winding-up order is made shall at his own cost prosecute all proceedings in the winding-up until a liquidator has been appointed."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) On hearing a winding-up petition, the court may— (a) dismiss it with or without costs; (b) adjourn the hearing conditionally or unconditionally; or (c) make any interim order or other order that it thinks fit; but the court shall not refuse to make a winding-up order on the ground only that the assets of the company have been mortgaged to an amount equal to or in excess of those assets or that the company has no assets or, in the case of a petition by a member , that there will be no assets available for distribution amongst the members."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "At any time after the presentation of a winding-up petition and before a winding-up order has been made, the company or the creditor or member may, where any action or proceeding against the company is pending, apply to the court to stay or restrain further proceedings in the action or proceeding, and the court may stay or restrain the proceedings accordingly on such terms as it thinks fit."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Any disposition of the property of the company including things in action, and any transfer of shares or alteration in the status of the members of the company made after the commencement of winding-up by the court shall be void unless the court otherwise orders."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Any attachment, sequestration, distress or execution put in force against the estate or effects of the company after the commencement of a winding-up by the court shall be void."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Within fifteen days after the making of a winding-up order the petitioner shall— (a) lodge a copy of the order with the Registrar ; (b) cause a copy to be served upon the secretary of the company or upon such other person or in such manner as the court directs; (c) deliver a copy to the official receiver , if the official receiver has not been appointed as liquidator or if no liquidator has been appointed; and (d) deliver a copy to the liquidator (if any) with a statement that the requirements of this subsection have been complied with."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The court may appoint the official receiver or any other person to be liquidator provisionally at any time after the presentation of a winding-up petition and before the making of a winding-up order."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "When a winding-up order has been made or a provisional liquidator has been appointed, no action or proceeding shall be proceeded with or commenced against the company except by leave of the court and subject to such terms as the court may impose."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The court may in the winding-up order appoint a liquidator , or may give directions as to the appointment of a liquidator , by the members or creditors of a company or otherwise as it thinks fit."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If a person other than the official receiver is appointed liquidator in the winding-up of a company by the court , that person— (a) shall not be capable of acting as liquidator until he has lodged a notice of his appointment with the Registrar and given such security as may be directed by the court , or by the offical receiver , to the satisfaction of the official receiver ; and (b) shall give the official receiver such information and such access to and facilities for inspecting the books and documents of the company , and generally such aid as may be requisite for enabling the official receiver to perform his duties under this Act."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where, in the winding-up of a company by the court , a person other than the official receiver is the liquidator , the official receiver shall take cognizance of his conduct and if the liquidator does not faithfully perform his duties and duly observe all the respect to the performance of his duties, or if any complaint is made to the official receiver by any creditor or member in regard thereto, the official receiver shall inquire into the matter, and take such action as he thinks fit."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to section three hundred and forty-six A, a liquidator , other than the official receiver , shall be entitled to receive such salary or remuneration by way of commission or otherwise as is determined— (a) by agreement between the liquidator and the committee of inspection , if any; (b) by an extraordinary resolution passed at a meeting of creditors convened by the liquidator by a notice to each creditor to which was attached a statement of all receipts and expenditure by the liquidator and the amount of remuneration sought by the liquidator , failing an agreement or where there is no committee of inspection ; or (c) by the court , failing a determination under paragraph (a) or (b) . [subsection (1) substituted by section 24 of Act 24 of 2011 ]"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a winding-up order has been made or a provisional liquidator has been appointed, the liquidator or provisional liquidator shall take into his custody or under his control all the property and things in action to which the company is or appears to be entitled."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Unless the court directs otherwise, the company shall, within three months of the appointment of a liquidator, prepare and submit to the liquidator a statement as to the affairs of the company as at the date of the winding-up order showing— (a) the particulars of its assets, debts and liabilities; (b) the names and addresses of its creditors; (c) the securities held by each of the creditors; (d) the dates when the securities were respectively given; and (e) such further information as may be prescribed or as the liquidator requires. [subsection (1) amended by section 25 of Act 24 of 2011 ]"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A liquidator shall, not later than six months or such longer period as the court may allow after receipt of the statement of company affairs, submit to the court , the Registrar , the official receiver , the holder of the charge by virtue of which the liquidator was appointed and to any trustees for secured creditors of the company and, so far as the liquidator is aware of their address, a report on the state of affairs with respect to the property in liquidation, including— (a) the amount of capital issued, subscribed and paid up and the estimated amount of assets and liabilities; (b) the cause of the failure of the company , if it has failed; (c) whether, in the opinion of the liquidator , further inquiry is desirable as to any matter relating to the promotion, formation or failure of the company or the conduct of its business; (d) particulars of assets comprising the property in liquidation; (e) particulars of the debts and liabilities to be satisfied from the property in liquidation; (f) the names and addresses of the creditors with an interest in the property in liquidation; (g) particulars of any encumbrance over the property in liquidation held by any creditor including the date on which it was created; (h) particulars of any default by the grantor in making relevant information available; (i) the events leading up to the liquidator 's appointment, so far as the liquidator is aware of them; (j) the disposal or proposed disposal, by the liquidator , ofany property ofthe company and the carrying on or proposed carrying on, by the liquidator , of any business of the company ; (k) the amount of the principal and interest payable to preferential creditors; (l) the amount, if any, likely to be available for the payment of other creditors; and (m) such other information as may be prescribed . [subsection (1) substituted by section 26(a) of Act 24 of 2011 ]"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The liquidator may, during the four weeks following the date of the winding-up order, carry on the business of the company so far as is necessary for the satisfactory winding-up thereof."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this Act , the liquidator shall, in the administration of the assets of the company and in the distribution thereof among its creditors, have regard to any directions given by resolution of the creditors or members at any general meeting or by the committee of inspection , and any directions so given by the creditors or members shall in case of conflict override any directions given by the committee of inspection ."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "has realised all the property of the company or so much thereof as can in his opinion be realised without needlessly protracting the liquidation, and has distributed a final dividend, if any, to the creditors and adjusted the rights of the members among themselves and made a final return, if any, to the members; or"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) In deciding whether to grant an application under section two hundred and ninety-one, the court — (a) may cause a report on the accounts of a liquidator (not being the official receiver ) to be prepared by the official receiver or by an auditor appointed by the court ; and (b) shall take into consideration— (i) the report; (ii) any objection which is made against the release of the liquidator by the official receiver , auditor or any creditor or member or other person interested; and (iii) whether the liquidator has complied with all the requirements of the court ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Where the court has made an order that the company be dissolved, the Registrar shall, upon lodgement with him of a copy of the order, strike the name of the company off the register and notify the same in the Gazette , and the company shall thereupon be dissolved as at the date of the publication of the notice in the Gazette ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The liquidator may, and if requested by any creditor or member shall, summon separate meetings of the creditors and members for the purpose of— (a) determining whether or not the creditors or members require a committee of inspection to act with the liquidator ; (b) appointed members of the committee, if a committee is required."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The committee of inspection shall consist of creditors and members of the company or persons holding— (a) general powers of attorney from creditors or members; or (b) special authorities from creditors or members authorising the persons named therein to act on such a committee; and shall be appointed by the meetings of creditors and members in such proportions as are agreed or, if there is no agreement, as are determined by the court ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) At any time after an order for winding-up has been made, the court may, on the application of the liquidator or of any creditor or member and if it is satisfied that all proceedings in relation to the winding-up ought to be stayed, make an order staying the proceedings either altogether or for a specified time on such terms and conditions as the court thinks fit."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The liquidator may, if satisfied that the nature of the estate or business of the company , or the interests of the creditors or members generally, require the appointment of a special manager of the estate or business of the company other than himself, request the court to appoint a special manager of the estate or business to act during such time as the court directs with such powers, including any of the powers of a receiver or receiver and manager, as are entrusted to him by the court ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The court may fix a date on or before which creditors are to prove their debts or claims and after which they will be excluded from the benefit of any distribution made."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The court may, at any time after making a winding-up order, make any order for inspection of the books and papers of the company by creditors and members that the court thinks fit, and any books and papers in the possession of the company may be inspected by creditors or members in accordance with the order."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The court may summon before it any officer of the company or person known or suspected to have in his possession any property of the company or supposed to be indebted to the company , or any person whom the court thinks capable of giving information concerning the promotion, formation, trade, dealings, affairs or property of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where the liquidator has made a report stating that, in his opinion— (a) a fraud has been committed; (b) any material fact has been suppressed or concealed by any person in the promotion or formation of the company or by any officer in relation to the company since its formation; or (c) any officer of the company has failed to act honestly or diligently or has been guilty of any impropriety or recklessness in relation to the affairs of the company ; the court may, after consideration of the report, direct that— (i) the person or officer ; (ii) any other person who was previously an officer of the company , or who is known or suspected to have in his possession any property of the company or is supposed to be indebted to the company ; or (iii) any person whom the court thinks capable of giving information concerning the promotion, formation, trade, dealings, affairs or property of the company ; shall attend before the court on a day appointed and be publicly examined as to the promotion or formation or the conduct of the business of the company , and, in the case of an officer or former officer , as to his conduct and dealings as an officer thereof."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The court , at any time before or after the making of a winding-up order, on proof of probable cause for believing that a member or officer or former member or officer of the company is about to— (a) quit Zambia; (b) otherwise to abscond; or (c) remove or conceal any of his property for the purpose of evading payment of any money due to the company or of avoiding examination respecting the affairs of the company ; may cause the member , officer or former member or officer to be arrested and his books and papers and movable personal property to be seized and him and them to be kept safely until such time as the court orders."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Any powers by this Act conferred on the court shall be in addition to and not in derogation of any power of instituting proceedings against any member or debtor of a company or the estate of any member or debtor for the recovery of any debt or other sum."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Division shall apply to every voluntary winding-up of a company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A company may be wound-up voluntarily if the company so resolves."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "For the purposes of this Act , a voluntary winding-up commences at the time of the passing of the resolution for voluntary winding-up."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The company shall from the commencement of the winding-up cease to carry on its business, except so far as in the opinion of the liquidator is required for the beneficial winding-up thereof, but the corporate state and corporate powers of the company shall continue until it is dissolved."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where it is proposed to wind-up a company voluntarily, the directors of the company may, before the date on which notices of the meeting at which the resolution for the winding-up of the company is to be proposed are sent out, at a meeting of directors make a written declaration to the effect that they have made a full inquiry into the affairs of the company , and have formed the opinion that the company will be able to pay its debts and liabilities in full within a period specified in the declaration, being a period of not more than twelve months after the commencement of the winding-up."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Division shall apply to a members' voluntary winding-up of a company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) After the commencement of the winding-up of the company , the company shall by ordinary resolution appoint one or more liquidators for the purposes of winding-up the affairs and distributing the assets of the company , and may fix the remuneration to be paid to him or them."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If the liquidator is at any time of the opinion that the company will not be able to pay or provide for the payment of its debts in full within the period stated in the solvency declaration, he shall forthwith convene a meeting of the creditors and lay before the meeting a statement of the assets and liabilities of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) At any time during the course of a voluntary winding-up prior to the dissolution of the company , the company may, by special resolution , resolve that the winding-up proceedings be stayed."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Division shall apply to a creditors' voluntary winding-up of a company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a resolution for the voluntary winding-up of a company has been proposed, and no declaration of solvency made, the company shall cause a meeting of the creditors of the company (in this section called \"the meeting\") to be convened for the day, or the day after the day, on which the meeting is to be held at which the resolution for voluntary winding-up is to put, or on which the resolution is expected to be passed under section one hundred and fifty-seven."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) There shall be a committee of inspection for the winding-up of a company if the creditors, at the meeting convened under section three hundred and eleven or three hundred and fourteen or at any subsequent meeting, so decide by ordinary resolution and appoint not more than five persons, whether creditors or not, to be members of the committee."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The committee of inspection , or, if there is no such committee, the creditors, may fix the remuneration to be paid to the liquidator ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Any attachment, sequestration, distress or execution put in force against the estate or effects of the company after the commencement of a creditors' voluntary winding-up shall be void."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Division shall apply to every voluntary winding-up of a company ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Subject to the provisions of this Act as to preferential payments, the property of a company shall, on its winding-up, be applied pari passu in satisfaction of its liabilities, and subject to that application shall, unless the articles otherwise provide, be distributed among the members according to their rights and interests in the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If for any reason there is no liquidator acting, the court may appoint a liquidator ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The liquidator may— (a) with the approval of— (i) a resolution of the company , in the case of a members' voluntary winding-up; or (ii) the court or the committee of inspection , in the case of a creditors' voluntary winding-up; exercise any of the powers given by section two hundred and eighty-nine to a liquidator in a winding-up by the court ; (b) exercise any of the other powers by this Act given to the liquidator in a winding-up by the court ; and (c) convene meetings of the company for the purpose of obtaining the sanction of the company in respect of any matter or for any other purpose he thinks fit."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where it is proposed that the whole or part of the business or property of a company (in this section called \"the company \") be transferred or sold to another body corporate (in this section called \"the corporation\"), the liquidator may, with the approval of— (a) a special resolution of the company , in the case of a members' voluntary winding-up; or (b) the court or the committee of inspection , in the case of a creditors' voluntary winding-up; receive, in compensation or part compensation for the transfer or sale, fully paid shares, debentures or other like interests in the corporation for distribution among the members of the company or may enter into any other arrangement whereby the members of the company may, in lieu of receiving cash, shares, debentures or other like interests or in addition thereto, participate in the profits of or receive any other benefit from the corporation."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If a winding-up continues for more than one year, the liquidator shall convene— (a) a general meeting of the company , in the case of a members' voluntary winding-up; and (b) separate meetings of the creditors and of the company , in the case of a creditors' voluntary winding-up; within three months after the end of the first year after the commencement of the winding-up and of each succeeding year, and shall lay before every such meeting an account of his acts and dealings and of the conduct of the winding-up during the preceding year."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) As soon as the affairs of the company are fully wound-up, the liquidator shall make up a report showing how the winding-up has been conducted and the property of the company has been disposed of, and thereupon shall convene— (a) a general meeting of the company , in the case of a members' voluntary winding-up; and (b) separate meetings of the creditors and of the company , in the case of a creditors' voluntary winding-up; for the purpose of laying before the meetings the report and giving any explanation thereof."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Any arrangement entered into between a company about to be or in the course of being wound-up and its creditors shall, subject to the right of appeal under this section, be binding on the company if approved by a special resolution , and on the creditors if approved by a special resolution of the creditors."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The liquidator or any member or creditor may apply to the court — (a) to determine any question arising in the winding-up of a company ; or (b) to exercise all or any of the powers which the court might exercise if the company were being wound-up by the court ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "All proper costs, charges and expenses of and incidental to the winding-up, including the remuneration of the liquidator , shall be payable out of the assets of the company in priority to all other claims."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Where a petition has been presented to the court to wind-up a company on the ground that it is unable to pay its debts, the company shall not resolve that it be wound-up voluntarily, except with the leave of the court ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Division shall apply to every winding-up of a company ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The court may at any time during the course of a winding-up direct a meeting of the creditors of any class to be held and conducted in such manner as it thinks fit to consider such matters as it shall direct, and may give such ancillary or consequential directions as it thinks fit."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A person shall be accounted a creditor of a company for the purposes of a meeting of creditors under this Part if, upon an account fairly stated, after allowing the value of security or liens held by him and the amount of any debt or set-off owing by him to the company , there appears to be a balance due to him."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) An individual who wishes to perform the function of a liquidator shall apply for accreditation with the Registrar in the prescribed manner and form."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this Act , the acts of a liquidator shall be valid notwithstanding any defect that may afterwards be discovered in his appointment or qualification."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A liquidator shall keep proper books at his office in which he shall cause to be made entries or minutes of proceedings at meetings and of such other matters, if any, as may be prescribed ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a person other than the official receiver is the liquidator and there is no committee of inspection , the official receiver may, on the application of the liquidator , do any act or thing or give any direction or permission which is by this Act authorised or required to be done or given by the committee."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Any person aggrieved by any act or decision of the liquidator may apply to the court , which may confirm, reverse, or modify the act or decision complained of and make such order as it thinks just."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A liquidator shall, within fourteen days after his appointment, lodge with the Registrar and with the official receiver notice of his appointment and of the situation of his office and of his postal address and, in the event of any change in the situation of his office or in his postal address, shall within twenty-one days after the change lodge with the Registrar and with the official receiver notice of the change."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A liquidator shall, within one month after— (a) the end of the period of six months from the date of his appointment; (b) the end of every subsequent period of six months; and (c) ceasing to act as liquidator or obtaining an order of release; lodge with the Registrar and, if the liquidator is not the official receiver , with the official receiver , accounts of his receipts and payments and a statement of the position in the wind-up, verified by a statutory declaration."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a company is being wound-up, every invoice, order of goods or business letter issued by or on behalf of the company or a liquidator of the company or a receiver of any property of the company , being a document on or in which the name of the company appears, shall have the words, \"in liquidation\" added after the name of the company where it first appears therein."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a company is being wound-up, all books and papers of the company and of the liquidator that are relevant to the affairs of the company at or subsequent to the commencement of the winding-up of the company shall, as between the members and creditors of the company , be prima facie evidence of the truth of all matters purporting to be therein recorded."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Whenever the cash balance standing to the credit of a company in liquidation is in excess of the amount which, in the opinion of the committee of inspection , is required for the time being to answer demands on the company , the committee may authorise the liquidator , unless the court on application by any creditor directs otherwise, to invest the sum or any part thereof in securities issued by the Government of Zambia or place it on deposit at interest with any bank, and any interest received in respect thereof shall form part of the assets of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a liquidator has in his hands or under his control— (a) any unclaimed dividend or other moneys which have remained unclaimed for more than six months from the date when the dividend or other moneys became payable; or (b) any unclaimed or undistributed moneys arising from the property of the company after making final distribution; he shall forthwith pay those moneys to the official receiver to be placed to the credit of the Companies Liquidation Account and shall be entitled to a certificate or receipt for the moneys so paid, which certificate shall be an effectual discharge to him in respect thereof."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Unless expressly directed to do so by the official receiver pursuant to subsection (2) , a liquidator shall not incur any expense in relation to the winding-up of a company unless there are sufficient available assets."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The court may, as to all matters relating to the winding-up of a company , have regard to the wishes of the members or creditors as proved to it by any sufficient evidence, and may if it thinks fit for the purpose of ascertaining those wishes, direct meetings of the members or creditors to be convened, held and conducted in such manner as the court directs, and may appoint a person to act as chairman of any such meeting and to report the result thereof to the court ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) In every winding-up, subject to this section, debts payable on a contingency, and all claims against the company , present or future, certain or contingent, ascertained or sounding only in damages, shall be admissible to proof against the company , a just estimate being made so far as possible of the value of such debts or claims as are subject to any contingency or sound only in damages or for some other reason do not bear a certain value."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this Act , in a winding-up there shall be paid in priority to all other unsecured debts— (a) the costs and expenses of the winding-up including the taxed costs of a petitioner payable under section two hundred and seventy-four, the remuneration of the liquidator , and the costs of any audit carried out pursuant to section three hundred and thirty-eight; (b) all amounts due— (i) by way of wages or salary (whether or not earned wholly or in part by way of commission) accruing to any employee within the period of three months before the commencement of the winding-up; (ii) in respect of leave accruing to any employee within the period of two years before the commencement of the winding-up; (iii) in respect of any paid absence (not being leave) accruing to any employee within the period of three months before the commencement of the winding-up; (iv) by way of recruitment expenses or other amounts reimbursable under any contract of employment; (c) an amount equal to three months' wages or salary, by way of severance pay, to each employee; (d) all amounts due in respect of workers' compensation under any written law relating to workers' compensation accrued before the commencement of the winding-up; (e) any tax, duty or rate payable by the company in respect of any period prior to the commencement of the winding-up, whether or not payment has become due after that date; (f) all Government rents not more than five years in arrears at the commencement of the winding-up; and (g) all rates from the company to a local authority having become due and payable within the period of three years before the date of commencement of the winding-up."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A liquidator shall be entitled to the payment of a fee which shall be a percentage of the gross proceeds of the realisation of the liquidation of the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Any conveyance, transfer, mortgage, delivery of goods, payment, execution or other act relating to property made or done by or against a company which, had it been made or done by or against an individual, would in his bankruptcy under the law of bankruptcy be void or voidable, shall, if the company is wound-up, be void or voidable in the same way."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "A floating charge on the undertaking or property of the company created within twelve months before the commencement of the winding-up shall, unless it is proved that the company immediately after the creation of the charge was solvent, be invalid except to the amount of any cash paid to the company at the time, or subsequently, in consideration for the charge , together with interest on that amount at the rate fixed by the terms of the charge ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where any property, business or undertaking has been acquired by a company within the period of two years before the commencement of the winding-up of the company — (a) from a person who was at the time of the acquisition a director of the company ; or (b) from a second company of which, at the time of the acquisition, a person was a director who was also a director of the first company ; the liquidator may recover from the person or company from which the property, business or undertaking was acquired any amount by which the value of the consideration given exceeded the value of the property, business or undertaking at the time of its acquisition."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where any part of the property of a company consists of— (a) any estate or interest in land which is burdened with onerous covenants; (b) shares in any body corporate that are subject to restrictions on transfer; (c) unprofitable contracts; or (d) any other property that is unsaleable, or not readily saleable, by reason of its binding the possessor thereof to the performance of any onerous act, or to the payment of any sum of money; the liquidator of the company , notwithstanding that he has endeavoured to sell or has taken possession of the property or exercised any act of ownership in relation thereto, may, with the leave of the court or the committee of inspection and subject to this section, by writing signed by him, disclaim the property at any time within twelve months after— (i) the commencement of the winding-up; or (ii) the property in question came to the knowledge of the liquidator , if it did not do so within one month after the commencement of the winding-up; or within such extended period as is allowed by the court ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a creditor has issued execution against the goods or land of a company or has attached any debt due to the company and the company is subsequently wound-up, he shall not be entitled to retain the benefit of the execution or attachment against the liquidator unless he has completed the execution or attachment before— (a) the date on which he had any notice of a meeting at which a resolution for voluntary winding-up was to be proposed; or (b) the date of the commencement of the winding-up, if he had no such notice."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to subsection (3) , where any goods of a company are taken in execution and, before the sale thereof or the completion of the execution by the receipt or recovery of the full amount of the levy, notice is served on the sheriff that— (a) a provisional liquidator has been appointed; (b) a winding-up order has been made; or (c) a resolution for voluntary winding-up has been passed; the sheriff shall, on being required, deliver to the liquidator the goods and any money seized or received in part satisfaction of the execution."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A person who, being a past or present officer or a past or present member of a company which is being wound-up— (a) does not to the best of his knowledge and belief fully and truly reveal to the liquidator all the property real and personal of the company , and how and to whom and for what consideration and when the company disposed of any part thereof, except such part as has been disposed of in the ordinary way of the business of the company ; (b) does not deliver up to the liquidator , or as he directs— (i) all the real and personal property of the company in his custody or under his control and which he is required by law to deliver up; or (ii) all books and documents in his custody or under his control belonging to the company and which he is required by law to deliver up; (c) within twelve months before the commencement of the winding-up or at any time thereafter— (i) has concealed any part of the property of the company having a value of more than ten monetary units, or has concealed any debt due to or from the company ; (ii) has fraudulently removed any part of the property of the company having a value of more than ten monetary units; (iii) has concealed, destroyed, mutilated or falsified, or has been privy to the concealment, destruction, mutilation or falsification of, any book or document affecting or relating to the property or affairs of the company ; (iv) has made or has been privy to the making of any false entry in any book or document affecting or relating to the property or affairs of the company ; (v) has fraudulently parted with, altered or made any omission in, or has been privy to fraudulent parting with, altering or making any omission in, any document affecting or relating to the property or affairs of the company ; (vi) by any false representation or other fraud, has obtained any property for or on behalf of the company on credit which the company has not subsequently paid for; (vii) has obtained on credit, or for or on behalf of the company , under the false pretence that the company is carrying on business, any property which the company has not subsequently paid for; or (viii) has pawned, pledged or disposed of any property of the company which has been obtained on credit and has not been paid for, except where the pawning, pledging or disposing was in the ordinary way of the business of the company ; (d) makes any material omission in any statement relating to the affairs of the company ; (e) knowing or believing that a false debt has been proved by any person, fails for a period of one month to inform the liquidator thereof; (f) prevents the production of any book or paper affecting or relating to the property or affairs of the company ; (g) within the period of twelve months before the commencement of the winding-up or at any time thereafter has attempted to account for any part of the property of the company by fictitious losses or expenses; or (h) within the period of twelve months before the commencement of the winding-up or at any time thereafter has made any false representation or committed any other fraud for the purpose of obtaining the consent of the creditors of the company or any of them to an agreement with reference to the affairs of the company or to the winding-up; shall be guilty of an offence, and shall be liable on conviction to a fine not exceeding two thousand monetary units or to imprisonment for a period not exceeding two years, or to both."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Any person who gives or agrees or offers to give to any member or creditor of a company any valuable consideration with a view to securing the appointment of the person, or of any other person, as the company 's liquidator shall be guilty of an offence, and shall be liable on conviction to a fine not exceeding five hundred monetary units or to imprisonment for a period not exceeding six months, or to both."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Every officer or member of any company being wound-up who destroys, mutilates, alters or falsifies any books, documents or securities, or makes or is privy to the making of any false or fraudulent entry in any register, book or document belonging to the company with intent to defraud or deceive any person shall be guilty of an offence, and shall be liable on conviction to a fine not exceeding two thousand monetary units or to imprisonment for a period not exceeding two years, or to both."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "If, when a company is wound-up, it is shown that the company failed to keep accounting records in accordance with section one hundred and sixty-two for any period during the period of two years before the commencement of the winding-up, each officer in default , unless he acted honestly and shows that in the circumstances in which the business of the company was carried on the failure was excusable, shall be guilty of an offence, and shall be liable on conviction to a fine not exceeding one thousand monetary units or to imprisonment for a period not exceeding twelve months, or to both."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If an officer of a company who is knowingly a party to the contracting of a debt by the company has, at the time the debt is contracted, no reasonable or probable ground of expectation (after taking into consideration the other liabilities, if any, of the company at the time) of the company 's being able to pay the debt, the officer shall be guilty of an offence, and shall be liable on conviction to a fine not exceeding two hundred and fifty monetary units or to imprisonment for a period not exceeding three months, or to both."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If, in the course of winding-up, it appears that any person who has taken part in the formation or promotion of the company , or any past or present liquidator or officer — (a) has misapplied or retained, or become liable or accountable for, any money or property of the company ; or (b) has been guilty of any misfeasance or breach of trust or duty in relation to the company ; the court may, on the application of the liquidator or of any creditor or member , inquire into the conduct of that person, liquidator or officer and compel him to repay or restore the money or property, or any part thereof, with interest at such rate as the court thinks just, or to contribute such a sum to the assets of the company by way of compensation in respect of the misapplication, retainer, misfeasance or breach of trust or duty as the court thinks just."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If it appears to the court , in the course of either a winding-up by the court or a voluntary winding-up, that any past or present officer , or any member , of the company has been guilty of an offence in relation to the company for which he is criminally liable, the court may, either on the application of any person interested in the winding-up or of its own motion, direct the liquidator to report the matter to the Director of Public Prosecutions."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "induced any person to give credit to the company by false pretences or by means of any other fraud;"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where the Registrar has reasonabe cause to believe that a company is not carrying on business or is not in operation, he may send to the company by registered post a letter to that effect and also stating that, if an answer showing cause to the contrary is not received within one month from the date of the letter, a notice will be published in the Gazette with a view to dissolving the company under this section."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where a company has been dissolved under section two hundred and ninety-three, three hundred and twenty-four or three hundred and sixty-one, the court may at any time within two years after the date of dissolution, on application by the liquidator of the company or by any other person who appears to the court to be interested, make an order upon such terms as the court thinks fit declaring the dissolution to have been void, and thereupon such proceedings may be taken as might have been taken if the company had not been dissolved, except that, for the purposes of any period of limitation, time shall not be deemed to run during the period between the dissolution and the date of the order, or of such other date as the order specifies."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where, after a company has been dissolved, the Registrar is satisfied— (a) that the company , if still existing, would be legally or equitably bound to carry out, complete or give effect to some dealing, transaction or matter; and (b) that in order to carry out, complete or give effect thereto, some purely administrative and not discretionary act should have been done by or on behalf of the company , or should be done by or on behalf of the company if it were still existing; the Registrar may, as representing the company or its liquidator ; do or cause to be done any such act."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this section, this Part shall apply, with the necessary modifications, to any body corporate incorporated in Zambia, not being a company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) In this section, \"external company \" means a body corporate incorporated in a foreign country, not being a foreign company , that has assets or an undertaking in Zambia."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act shall be administered by the Agency. [section 366 substituted by section 5 of Act 12 of 2010 ]"
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The Registrar shall exercise the powers and perfonn the duties assigned to the Registrar by this Act and the Patents and Companies Registration Agency Act , 2010. [ Act No. 15 of 2010 ] [section 367 substituted by section 6 of Act 12 of 2010 ]"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The seal of the Agency kept in tenns of the Patents and Companies Registration Agency Act , 2010, shall be used for the purposes of this Act and the impression thereof made for such purposes shall be judicially noticed."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The Registrar shall maintain the registers required under this Act together with any other registers that he thinks necessary or convenient for the purposes of this Act."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where this Act requires any document or particulars to be lodged with the Registrar , the Registrar shall register them in the manner prescribed or, if no manner is prescribed for the document or particulars, as determined by the Registrar ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where under this Act a document is required to be lodged with the Registrar within a specified period, the period shall be extended by fourteen days in relation to a document executed or made in a place outside Zambia."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Subject to this Act , where this Act requires a document or register to be prepared, kept, maintained or lodged, the document shall be in English."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The Registrar may issue such notices in connection with matters under this Act for which notice is required to be given in order to give effect to this Act ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Where this Act provides that a document to be lodged shall be \"in the prescribed form\", the Registrar shall accept for lodgement and registration a document that contains all the information required and varies from the prescribed form in inessential respects only."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A person may inspect any document registered by the Registrar upon payment of such fee as may be prescribed for each inspection of the documents relating to one company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A copy of, or extract from, any document registered by the Registrar , being a copy or extract certified by the Registrar to be a true copy or extract, shall be admitted in any proceedings as of equal validity to the original document ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) For the purpose of ascertaining whether a company or an officer is complying with this Act or any regulations made under this Act, the Registrar may, on giving fourteen days written notice to the company , call for the production of or inspect any book required to be kept by the company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The regulations may prescribe fees in respect of— (a) the performance by the Registrar of his functions under this Act, including the receipt by him of any notice or other document which under this Act is required to be lodged with him; and (b) the inspection of documents kept by him under this Act ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "[section 378 repealed by section 8 of Act 12 of 2010 ]"
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Subject to this Act , a person aggrieved by a decision of the Registrar may within fourteen days after the date on which he is notified of the decision, appeal to the court against the decision, and the court may confirm, reverse or vary the decision or make such order or give such directions in the matter as it thinks fit."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The Registrar may issue an order requiring companies generally, or any class of companies, to furnish, by the time specified in the order, specified information or statistics with regard to their constitutions or working, in relation to periods specified in the order."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A person who, in any return, report, certificate, account or other document required by or for the purposes of this Act makes a statement that he knows to be false in any material particular shall be guilty of an offence, and shall be liable on conviction to a fine not exceeding two thousand monetary units or to imprisonment for a term not exceeding two years, or to both."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A person who, not being a body corporate , trades or carries on business in Zambia under a name or title which includes the word \"incorporated\", \"corporation\" or any contraction or imitation thereof, or any equivalent in a language other than English shall be guilty of an offence, and shall be liable on conviction to a fine not exceeding ten monetary units for each day that he trades or carries on business under that name or title."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) In the course of the winding-up of a company or any proceedings against a company , the court may, on the application of the liquidator or any creditor or member of the company , if it is satisfied that a person was knowingly a party to the carrying on of any business of the company for a fraudulent purpose, make an order that the person shall be personally responsible, without any limitation of liability, for the debts or other liabilities of the company or for such of those debts or other liabilities as the court directs."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "A person who is knowingly a party to the carrying on of any business of the company for a fraudulent purpose shall be guilty of an offence, and shall be liable on conviction to a fine not exceeding one thousand monetary units or to imprisonment for a period not exceeding twelve months, or to both."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Where a court issues a warrant under section three hundred and eleven of the Criminal Procedure Code for the commitment of a person to prison for a failure by him to pay a fine imposed on him for an offence under this Act, the period of imprisonment specified in the warrant shall not exceed one day for every three monetary units of the fine that remain unpaid. [Cap. 160]"
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Where a body corporate with limited liability is a plaintiff in any legal proceedings, the court may, if the court is satisfied that there is reason to believe that the body corporate will be unable to pay the costs of the defendant if the defendant is successful in his defence, require sufficient security to be given for those costs, and may stay all proceedings until the security is given."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "the persons shall have a right of contribution amongst themselves; and"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) If the court is satisfied that a member , officer , receiver , liquidator , auditor, or trustee for debentures of a company might be civilly liable under this Act in respect of some matter, but that he had acted honestly and reasonably in the matter and that, having regard to all the circumstances or the case, he ought fairly to be excused, the court may relieve him in whole or in part from his liability on such terms as the court thinks fit."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "No person shall be liable to any action in damages for anything done or omitted to be done by any person in the exercise or performance of any power or function conferred or imposed on him by or under this Act unless the act or omission was in bad faith or was due to a want of reasonable care of diligence."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Any certificate or document made, executed, or issued under the former Act and in force and operative at the commencement of this Act, shall so far as it could have been made, executed, or issued under this Act, have effect as if made, executed or issued under this Act."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) An existing company shall be deemed to have, on and from the commencement of this Act, articles consisting of— (a) those provisions of the memorandum of association and articles of association of the company , within the meaning of the former Act , which regulate the operation of the company and are not inconsistent with the former Act ; and (b) any provisions of Table A of the former Act which, under the former Act , applied to the company ; whether or not the articles so deemed are consistent with this Act."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Section fifteen shall not apply to an existing company that is a public company from the commencement of this Act until— (a) the end of the period of six months after the commencement of this Act ; or (b) it receives a certificate under subsection (2) of section fifteen; whichever is earlier, but the provisions of the former Act relating to minimum capital shall continue to apply to it during that period while it remains a public company ."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The register of members of an existing company kept for the purposes of the former Act shall be deemed to be part of the register of members for the purposes of this Act."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "enter in the register referred to in section ninety-seven the particulars referred to in that section in relation to each such charge ; and"
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Sections one hundred and seventy-seven to one hundred and eighty-one shall not apply to a directors' report in respect of a financial year of an existing company that began before the commencement of this Act."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Section forty-four shall not apply to an existing company until the date on which it is required to lodge its first annual return after the commencement of this Act."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) A corporation which holds office as a director of an existing company immediately before the commencement of this Act shall, on that commencement, cease to hold office and the vacancy may be filled as a casual vacancy in accordance with this Act and the articles ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "For the purposes of section two hundred and forty-six, a body corporate incorporated outside Zambia, being a body corporate which was not registered as a foreign company under the former Act but which, immediately before the commencement of this Act, had an established place of business in Zambia, shall be deemed to have established that place of business on the date of commencement of this Act."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Nothing in this Act shall abrogate or affect any special legislation relating to companies carrying on the business of banking, insurance or any other business."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The Minister may, by statutory instrument, make regulations for or with respect to any matter that by this Act is required or permitted to be prescribed , or that is necessary or convenient to be prescribed for carrying out or giving effect to this Act, other than a matter required or permitted to be prescribed by the Minister or any other person or body."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The Chief Justice may make Rules of Court governing the practice and procedure for the winding-up of companies in Zambia and with respect to the procedure in any application to the court under this Act, and enabling all or any of the powers and duties conferred and imposed on the court in respect of the winding-up of companies to be exercised or performed by the Registrar or by the official receiver , or by the liquidator as an officer of the court and subject to the control of the court ."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The Companies Act is hereby repealed. [Cap. 686 of the former edition]"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1994/26",
+  "source_hash": "sha256:fc272e99fe05b3edd9698e14263954550c321ed2186a8e851694a8084d4f0230",
+  "fetched_at": "2026-04-20T18:25:36Z",
+  "parser_version": "0.5.0"
+}
