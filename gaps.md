@@ -496,3 +496,9 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - registered-designs-1987 (Act 25/1987): title rejected (contains 'amendment'): 'Registered Designs (Amendment) Act, 1987'
 - industrial-relations-act-1983 (Act 13/1983): title rejected (contains 'amendment'): 'Industrial Relations (Amendment) Act, 1983'
 - candidate-2008-008 (Act 8/2008): title rejected (contains 'amendment'): 'Industrial and Labour Relations (Amendment) Act, 2008'
+
+## Batch 0145 per-target notes (2026-04-20T12:12:50Z)
+
+- banking-2000-018 (Act 18/2000): no parseable sections in HTML or PDF
+- banking-2005-025 (Act 25/2005): title rejected (contains 'amendment'): 'Banking and Financial Services (Amendment) Act, 2005'
+- lands-1985-015 (Act 15/1985): title rejected (contains 'amendment'): 'Land (Conversion of Titles) (Amendment) (No. 2) Act, 1985'
