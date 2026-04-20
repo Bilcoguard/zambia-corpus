@@ -564,3 +564,46 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - 1996/43 'Bank of Zambia Act, 1996': pre-fetch reject — already in HEAD (via query 'bills of exchange')
 - 1972/21 'National College for Management and Development Studies Act, 1972': pre-fetch reject — already in HEAD (via query 'bills of exchange')
 - 1990/32 'Stamp Duty (Amendment) Act, 1990': pre-fetch reject — title contains 'amendment' (via query 'bills of exchange')
+
+## Batch 0151 per-target notes (2026-04-20T19:37:29Z)
+
+- 1996/28 'Pension Scheme Regulation Act , 1996': batch cap reached (MAX_RECORDS=8) — deferred
+- 1961/27 'Dairy Produce Marketing and Levy Act, 1961': batch cap reached (MAX_RECORDS=8) — deferred
+- 1967/64 'Tobacco Act, 1967': batch cap reached (MAX_RECORDS=8) — deferred
+- 1967/65 'Tobacco Levy Act, 1967': batch cap reached (MAX_RECORDS=8) — deferred
+- 1969/28 'Loans and Guarantees (Authorisation) Act, 1969': batch cap reached (MAX_RECORDS=8) — deferred
+- 1970/63 'Co - operative Societies Act, 1970': batch cap reached (MAX_RECORDS=8) — deferred
+- 1971/30 'Registration and Development of Villages Act, 1971': batch cap reached (MAX_RECORDS=8) — deferred
+- 1984/12 'Property Transfer Tax Act, 1984': batch cap reached (MAX_RECORDS=8) — deferred
+- 1968/59 'Carriage by Air Act, 1968': batch cap reached (MAX_RECORDS=8) — deferred
+- 1989/6 'Wills and Administration of Testate Estates Act, 1989': pre-fetch reject — already in HEAD (via query 'wills administration estates')
+- 2022/12 'Children’s Code Act, 2022': pre-fetch reject — already in HEAD (via query 'wills administration estates')
+- 1989/5 'Intestate Succession Act, 1989': pre-fetch reject — already in HEAD (via query 'wills administration estates')
+- 1996/40 'National Pension Scheme Act, 1996': pre-fetch reject — already in HEAD (via query 'wills administration estates')
+- 2021/1 'Legal Aid Act, 2021': pre-fetch reject — already in HEAD (via query 'wills administration estates')
+- 1994/26 'Companies Act, 1994': pre-fetch reject — already in HEAD (via query 'wills administration estates')
+- 1967/27 'Bankruptcy Act, 1967': pre-fetch reject — already in HEAD (via query 'wills administration estates')
+- 1960/57 'Agricultural Lands Act, 1960': pre-fetch reject — already in HEAD (via query 'wills administration estates')
+- 2019/3 'Employment Code Act, 2019': pre-fetch reject — already in HEAD (via query 'intestate succession')
+- 1996/35 'Public Service Pensions Act, 1996': pre-fetch reject — already in HEAD (via query 'intestate succession')
+- 1966/20 'Local Courts Act, 1966': pre-fetch reject — already in HEAD (via query 'intestate succession')
+- 1989/4 'Interpretation and General Provisions (Amendment) Act, 1989': pre-fetch reject — title contains 'amendment' (via query 'intestate succession')
+- 1991/8 'Local Courts (Amendment) Act, 1991': pre-fetch reject — title contains 'amendment' (via query 'intestate succession')
+- 2018/2 'National Health Insurance Act , 2018': pre-fetch reject — already in HEAD (via query 'insurance act')
+- 2005/26 'Insurance (Amendment) Act , 2005': pre-fetch reject — title contains 'amendment' (via query 'insurance act')
+- 2015/21 'Insurance Premium Levy Act': pre-fetch reject — already in HEAD (via query 'insurance act')
+- 1989/28 'Insurance (Amendment) Act , 1989': pre-fetch reject — title contains 'amendment' (via query 'insurance act')
+- 1992/2 'Insurance (Amendment) Act , 1992': pre-fetch reject — title contains 'amendment' (via query 'insurance act')
+- 2021/47 'Insurance Premium Levy (Amendment) Act , 2021': pre-fetch reject — title contains 'amendment' (via query 'insurance act')
+- 2024/28 'Insurance Premium Levy (Amendment) Act , 2024': pre-fetch reject — already in HEAD (via query 'insurance act')
+- 2018/16 'Insurance Premium Levy (Amendment) Act , 2018': pre-fetch reject — already in HEAD (via query 'insurance act')
+- 1991/17 'Insurance Brokers (Cessation and Transfer) (Repeal) Act , 1991': pre-fetch reject — title contains 'repeal' (via query 'insurance act')
+- 1990/13 'Civil Service (Local Condition) (Amendment) Pensions Act , 1990': pre-fetch reject — title contains 'amendment' (via query 'pensions act')
+- 2021/11 'Public Service Pensions (Amendment) Act , 2021': pre-fetch reject — already in HEAD (via query 'pensions act')
+- 2015/7 'National Pension Scheme (Amendment) Act , 2015': pre-fetch reject — already in HEAD (via query 'pensions act')
+- 1989/24 'Coffee Act, 1989': pre-fetch reject — already in HEAD (via query 'co-operative societies')
+- 1993/27 'Industrial and Labour Relations Act, 1993': pre-fetch reject — already in HEAD (via query 'co-operative societies')
+- 1995/29 'Lands Act': pre-fetch reject — already in HEAD (via query 'co-operative societies')
+- 1923/9 'British Acts Extension Act, 1923': pre-fetch reject — already in HEAD (via query 'friendly societies')
+- 1968/46 'Building Societies Act, 1968': pre-fetch reject — already in HEAD (via query 'friendly societies')
+- 1956/5 'Adoption Act, 1956': pre-fetch reject — already in HEAD (via query 'friendly societies')
