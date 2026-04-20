@@ -502,3 +502,10 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - banking-2000-018 (Act 18/2000): no parseable sections in HTML or PDF
 - banking-2005-025 (Act 25/2005): title rejected (contains 'amendment'): 'Banking and Financial Services (Amendment) Act, 2005'
 - lands-1985-015 (Act 15/1985): title rejected (contains 'amendment'): 'Land (Conversion of Titles) (Amendment) (No. 2) Act, 1985'
+
+## Batch 0146 per-target notes (2026-04-20T12:37:42Z)
+
+- citizens-economic-empowerment-2006 (Act 9/2006): no parseable sections in HTML or PDF
+- children-candidate-1989 (Act 14/1989): title rejected (contains 'amendment'): 'Employment of Women, Young Persons and Children (Amendment) Act, 1989'
+- bank-of-zambia-2001 (2001/11): batch cap reached (MAX_RECORDS=8) — deferred
+- mines-minerals-2011 (2011/28): batch cap reached (MAX_RECORDS=8) — deferred
