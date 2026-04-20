@@ -1,0 +1,618 @@
+{
+  "id": "act-zm-2007-023-tourism-and-hospitality-act-2007",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Tourism and Hospitality Act, 2007",
+  "citation": "Act No. 23 of 2007",
+  "enacted_date": "2007-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Short title and commencement",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "Interpretation",
+      "text": "PART H\nAdministration"
+    },
+    {
+      "number": "3",
+      "heading": "Director of Tourism",
+      "text": ""
+    },
+    {
+      "number": "4",
+      "heading": "Chief Tourism, Policy, Planning and Co-ordination Officer",
+      "text": "and Chief Tourism, Research and Product Development\nOfficer"
+    },
+    {
+      "number": "5",
+      "heading": "Chief Standards Inspector",
+      "text": ""
+    },
+    {
+      "number": "6",
+      "heading": "Appointment of other staff",
+      "text": ""
+    },
+    {
+      "number": "7",
+      "heading": "Functions of Director",
+      "text": ""
+    },
+    {
+      "number": "8",
+      "heading": "Performance of Director’s functions during absence",
+      "text": ""
+    },
+    {
+      "number": "9",
+      "heading": "Constitution of Tourism Enterprise Authorisation and Licensing",
+      "text": "Committee"
+    },
+    {
+      "number": "10",
+      "heading": "Functions of Committee",
+      "text": ""
+    },
+    {
+      "number": "11",
+      "heading": "Committees",
+      "text": "PART III\nTourism Planning and Development"
+    },
+    {
+      "number": "12",
+      "heading": "General functions of Minister",
+      "text": ""
+    },
+    {
+      "number": "13",
+      "heading": "Tourism ethics",
+      "text": ""
+    },
+    {
+      "number": "14",
+      "heading": "Director to liaise with Board, etc.",
+      "text": "PART IV\nAuthorisation and Licensing of\nTourism Enterprises"
+    },
+    {
+      "number": "15",
+      "heading": "Prohibition of operating tourism business without licence",
+      "text": "or authorisation"
+    },
+    {
+      "number": "16",
+      "heading": "Application for authorisation or licence",
+      "text": ""
+    },
+    {
+      "number": "17",
+      "heading": "Power to call for additional information on application",
+      "text": ""
+    },
+    {
+      "number": "18",
+      "heading": "Notification of lodging of application",
+      "text": ""
+    },
+    {
+      "number": "19",
+      "heading": "Objection to issue of licence or authorisation",
+      "text": ""
+    },
+    {
+      "number": "20",
+      "heading": "Approval or refusal of application for licence or",
+      "text": "authorisation"
+    },
+    {
+      "number": "21",
+      "heading": "Appeal against refusal to issue, licence or authorisation",
+      "text": ""
+    },
+    {
+      "number": "22",
+      "heading": "Restriction on transfer and variation of licence or",
+      "text": "authorisation"
+    },
+    {
+      "number": "23",
+      "heading": "Period of validity of licence or authorisation",
+      "text": ""
+    },
+    {
+      "number": "24",
+      "heading": "Register of licences or authorisation",
+      "text": ""
+    },
+    {
+      "number": "25",
+      "heading": "Display of licence",
+      "text": ""
+    },
+    {
+      "number": "26",
+      "heading": "Obligation of authorisation or licence holder",
+      "text": ""
+    },
+    {
+      "number": "27",
+      "heading": "Returns to be submitted to Director",
+      "text": ""
+    },
+    {
+      "number": "28",
+      "heading": "Suspension or revocation of licence or authorisation",
+      "text": ""
+    },
+    {
+      "number": "29",
+      "heading": "Licensing classification and grading system",
+      "text": ""
+    },
+    {
+      "number": "30",
+      "heading": "Prepaid package tours",
+      "text": ""
+    },
+    {
+      "number": "31",
+      "heading": "Prohibitions",
+      "text": ""
+    },
+    {
+      "number": "32",
+      "heading": "Safety of tourists and workers",
+      "text": "PART V\nLicensing and Grading of Hotels"
+    },
+    {
+      "number": "33",
+      "heading": "Operating without hotel licence prohibited",
+      "text": "34, Application for hotellicence"
+    },
+    {
+      "number": "35",
+      "heading": "Conditions under which licences shall be granted",
+      "text": ""
+    },
+    {
+      "number": "36",
+      "heading": "Transfer of hotel licence",
+      "text": ""
+    },
+    {
+      "number": "37",
+      "heading": "Revocation of licence",
+      "text": ""
+    },
+    {
+      "number": "38",
+      "heading": "Classification and Grading of Hotels",
+      "text": ""
+    },
+    {
+      "number": "39",
+      "heading": "Refusals, cancellations, grading and re-grading",
+      "text": ""
+    },
+    {
+      "number": "40",
+      "heading": "Appeal to Minister",
+      "text": ""
+    },
+    {
+      "number": "41",
+      "heading": "Entry, inspection and information",
+      "text": ""
+    },
+    {
+      "number": "42",
+      "heading": "Register of guests",
+      "text": ""
+    },
+    {
+      "number": "43",
+      "heading": "Lien of hotel-keeper",
+      "text": ""
+    },
+    {
+      "number": "44",
+      "heading": "Liabilities of an hotel-keeper",
+      "text": ""
+    },
+    {
+      "number": "45",
+      "heading": "Settlement of bill",
+      "text": ""
+    },
+    {
+      "number": "46",
+      "heading": "Service charge and tips",
+      "text": "PART VI\nLicensing of Casinos"
+    },
+    {
+      "number": "47",
+      "heading": "Operating without casino licence prohibited",
+      "text": ""
+    },
+    {
+      "number": "48",
+      "heading": "Application for casino licence",
+      "text": ""
+    },
+    {
+      "number": "49",
+      "heading": "Duration of licence",
+      "text": ""
+    },
+    {
+      "number": "50",
+      "heading": "Conditions under which a licence shall be granted",
+      "text": ""
+    },
+    {
+      "number": "51",
+      "heading": "Revocation of casino licence",
+      "text": ""
+    },
+    {
+      "number": "52",
+      "heading": "Transfer and verification of casino",
+      "text": ""
+    },
+    {
+      "number": "53",
+      "heading": "Gaming by minors prohibited",
+      "text": ""
+    },
+    {
+      "number": "54",
+      "heading": "Submission of statement of account",
+      "text": ""
+    },
+    {
+      "number": "55",
+      "heading": "Assessment by Director",
+      "text": ""
+    },
+    {
+      "number": "56",
+      "heading": "Non-application of certain provisions",
+      "text": ""
+    },
+    {
+      "number": "57",
+      "heading": "Tax to be recovered as civil debt",
+      "text": ""
+    },
+    {
+      "number": "58",
+      "heading": "Fees",
+      "text": "PART VII\nIncentives"
+    },
+    {
+      "number": "59",
+      "heading": "Incentives",
+      "text": ""
+    },
+    {
+      "number": "60",
+      "heading": "Micro, small or medium enterprise development",
+      "text": ""
+    },
+    {
+      "number": "61",
+      "heading": "Withdrawal of incentives",
+      "text": "PART VIII\nThe Tourism Development Fund"
+    },
+    {
+      "number": "62",
+      "heading": "Establishment of Fund",
+      "text": ""
+    },
+    {
+      "number": "63",
+      "heading": "Administration of Fund",
+      "text": ""
+    },
+    {
+      "number": "64",
+      "heading": "Application of moneys of Fund",
+      "text": ""
+    },
+    {
+      "number": "65",
+      "heading": "Statement of income and expenditure",
+      "text": "PART IX\nThe Hotel Managers Registration Council"
+    },
+    {
+      "number": "66",
+      "heading": "Hotel Managers Registration Council",
+      "text": ""
+    },
+    {
+      "number": "67",
+      "heading": "Functions of Registration Council",
+      "text": ""
+    },
+    {
+      "number": "68",
+      "heading": "Registration of hotel managers",
+      "text": ""
+    },
+    {
+      "number": "69",
+      "heading": "Qualification for registration as hotel manager",
+      "text": ""
+    },
+    {
+      "number": "70",
+      "heading": "Practising certificate",
+      "text": ""
+    },
+    {
+      "number": "71",
+      "heading": "Cancellation of practising certificate",
+      "text": ""
+    },
+    {
+      "number": "72",
+      "heading": "Offences relating to practising certificate",
+      "text": ""
+    },
+    {
+      "number": "73",
+      "heading": "Offences related to registration",
+      "text": "PARTX\nInspection"
+    },
+    {
+      "number": "74",
+      "heading": "Appointment of inspectors",
+      "text": ""
+    },
+    {
+      "number": "75",
+      "heading": "Powers of inspectors",
+      "text": ""
+    },
+    {
+      "number": "76",
+      "heading": "Obstruction and impersonation of inspectors",
+      "text": ""
+    },
+    {
+      "number": "77",
+      "heading": "Inspectors to provide reports",
+      "text": ""
+    },
+    {
+      "number": "78",
+      "heading": "Prohibition of publication or disclosure of information to",
+      "text": "unauthorised persons\nPART XI\nSavings and Traditional Provisions"
+    },
+    {
+      "number": "79",
+      "heading": "Licensing of existing tourism enterprises, hotels, etc",
+      "text": ""
+    },
+    {
+      "number": "80",
+      "heading": "Offences and penalties",
+      "text": ""
+    },
+    {
+      "number": "81",
+      "heading": "Regulations",
+      "text": ""
+    },
+    {
+      "number": "82",
+      "heading": "Repeal of Cap. 153, Cap. 155 and Cap. 157",
+      "text": "GOVERNMENT OF ZAMBIA\nACT\nNo. 23 of 2007\nDate of Assent: 29th November, 2007\nAn Act to provide for the development of the tourism industry\nthrough tourism planning, management and co-ordination;\nto provide for the functions of the Director of Tourism; to\nprovide for incentives for investors in the tourism\nindustry; to provide for the control and regulation of hotels\nand the enforcement of reasonable standards of\ncleanliness, sanitation and service; to provide for the\nauthorisation and licensing of tourism enterprises; to\nprovide for the granting of casino licences; to provide for\nthe constitution of the Hotel Managers Registration\nCouncil; to provide for the establishment and\nadministration of the Tourism Development Fund; to\nrepeal the Tourism Act, 1979, the Hotels Act, 1987 and\nthe Casinos Act, 1992; and to provide for matters\nconnected with or incidental to the foregoing.\n[30 th November, 2007\nENACTED by the Parliament of Zambia Enactment\nPART r\nPreliminary"
+    },
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Tourism and Hospitality Act, Short title",
+      "text": "2007, and shall come into operation on such date as the Minister and\nmay, by statutory instrument, appoint. commEncemcnt"
+    },
+    {
+      "number": "2",
+      "heading": "In this Act, unless the context otherwise requires — Interpretation",
+      "text": "“ authorisation ” means the written consent of the Director\ngranted under section sixteen*\n“ Board ” means the Zambia Tourism Board established\nunder the Zambia Tourism Board Act, 2007; Act No. 24\n“ card game ” means any game of cards specified in a casino of 2007\nlicence;\n“ casino ” means any premises kept and managed for the\npurpose of gaming;\n“casino licence ” means a licence issued under section forty­\neight;\n“ Committee ” means the Tourism Enterprise Authorisation\nand Licensing Committee constituted under section nine;\n“ Council ” means the Hotel Managers Registration Council\nconstituted by section sixty-six',\n“ Director ” means the Director of Tourism appointed under\nsection three^\n“ Fund ” means the Tourism Development Fund established\nunder section sixty-two*\n“ gaming ” means the playing of a game of chance for winnings\nin money or money’s worth;\n“game of chance” does not include any athletic game or\nsport;\n“gaming machine” means a machine for playing a game of\nchance, being a game which requires no action by any\nplayer other than the actuation or manipulation of the\nmachine;\n“ gross revenue M means the total income derived or received\nfrom gaming at a casino and includes credit extended to\ncustomers, any hiring charge, or commission paid on\ngaming machines and the entry fee to the casino less only\nthe total of all sums paid out as losses by the licensee in\nrespect of games played under a casino licence;\n“ hotel ” means a mote], lodge, boarding house, guesthouse,\ncamp, camping site and any building or premises used for\naccommodation of the public in which lodgings are provided\nand provisions are supplied by the manager thereof but\ndoes not include any Government rest house, hostel, school\nor such council rest house as the Minister may, by statutory\ninstrument, exclude;.\n“ hotel-keeper ” means a person to whom a hotel licence\nhas been issued under this Act and includes a person to\nwhom a licence has been transferred under section thirty-\nsix;\n“ hotel licence ” means a licence issued under section\nthirty-four;\n“ hotel manager’s certificate ” means a practising\ncertificate issued under section seventy and\n“hotel manager” shall be construed accordingly;\n“ inspector” means a person who is designated an inspector\nunder section seventy-four;\n“ intoxicating liquor ” has the meaning assigned to it in the\nCap. 167 Liquor Licensing Act;\n“ licence ” means a tourism enterprise obtained under\nsection sixteen, by an owner of a tourism enterprise;\n“ prescribed ” means prescribed by the Minister, by\nstatutory instrument;\nrestaurant ” includes any premises on which is carried out\nthe business of preparing and or supplying for reward any\nfood or beverage whether there is the provision of waiters\nservices to individual customers or otherwise, but does not\ninclude—\n(aja. bona-fide worker’s or staff canteen maintained\nfor the use of persons employed in any particular\nundertaking, by that undertaking;\nfbjany premises where food or beverage is supplied\nonly to persons who reside or board at, or work\nat, such premises;\nfcjany informal eating outlets which fall below the\nminimum requirement of a restaurant; or\nt^any portion of a licensed hotel which is not let out\nor sublet to a different manager other than being\nrun by the management directly.\ntourism enterprise ” includes the construction, reconstruction,\nrenovation and rehabilitation of an hotel, casino, a tour\noperating business, a travel agency, amusement and theme\nparks and an air charter business, water sports, a vehicle\nor vessel leasing business, a restaurant or cafe\nadiscotheque, a convention centre and such other enterprise\ncatering for tourists as the Minister may, by statutory\ninstrument, declare to be a tourism enterprise;\ntourism officer” includes a tourism development officer,\nprovincial tourism development co-ordinator, tourism\nresearch officer, tourism field officer, tourism projects\nofficer and such other officer as may be appointed by the\nPublic Service Commission under this Act;\ntourism product ” means such tourism resources and\nactivities as the Minister may, by the statutory instrument\nprescribe which resources and activities give, or are\nintended to give, Zambian tourism a competitive edge in\nthe international market; and\nwinnings ” include any amount deducted for the benefit of\nthe licensee from any stake or bank in a game not being an\namount deducted from the receipts of any slot machine.\nPART II\nAdministration\nDirector of 3. (1) There shall be a Director of Tourism who shall be a\nTourism\npublic officer and who shall be appointed by the Public Service\nCommission.\n(2)The Director.shall, subject to the general or specific directions\nof the Minister, be responsible for the administration of this Act\nand shall perform the functions and exercise the powers conferred\nupon.the Director by or under this Act.\n(3 ) The Director may, subject to the other provisions of this\nAct and to the general or special directions of the Minister, delegate\nany of the Direct"
+    },
+    {
+      "number": "7",
+      "heading": "Subject to the other provisions ofthis Act, the functions of the Functions of",
+      "text": "Director shall be to — Director\n(^initiate and recommend to the Minister policies relating to\nthe development of the tourism sector;\nfSJdevelop tourism plans and programmes to encourage the\ndevelopment ofthe tourism industry in Zambia;\nfejeause to diversify the tourism product portfolio to ensure\nthe maximum exploitation of Zambia’s tourism potential;\nfk^in collaboration with other relevant Ministries and\nauthorities, reflect tourism interests in land and other\nnatural resource use and management decisions;\n(e) in consultation with the Ministry responsible for. culture\nand the National Arts Council of Zambia, encourage\nthe development and preservation of Zambian arts and\ncultural values as a tourist attraction;\n(f) in consultation with the Technical Education, Vocational\nand Entrepreneurship Training Authority ■—\n(i)participate in the development of standards to be\nmaintained by institutions that provide training\nprogrammes for persons employed or seeking\nemployment in the tourism industry; and\n(ii) recommend the focus for training programmes\nfor persons employed or seeking employment\nin the tourism industry;\n(g) in collaboration with the Zambia Development Agency\nand other relevant authorities, streamline and'facilitate\nthe acquisition of licences by investors in thettourism\nindustry;\n(h) monitor trends in the tourism industry by conducting\nresearch and analysis;\n(i) assist in carrying out any regional or national plan for the\ndevelopment and promotion of tourism;\nQ) carry out surveys and collect and compile on a regular\nbasis statistics on the performance of the'tourism\nindustry;\n(k) collaborate with relevant authorities on labour, HIV/AIDS,\nsocial and welfare matters and other inter-sectoral\nmatters that have an impact on tourism andltourism\ndevelopment;\n(I) carry out, undertake or commission tourism research ,\nstudies and surveys to facilitate decision making and\nidentify tourism priority areas, tourism marketingrircuits\nand zones for the development and promotion effitourism;\n(m) collect tourism data or information and establish and\nmaintain a data base of tourism statistics in the country\nand to establ ish and maintain a system of tourism sateil ite\naccounting;\n(n) implement the decisions of the Committee; and\n(o) do such other tilings as may be necessary to perform the\nDirector’s functions under this Act.\nPerformance 8.' Whenever the Director is absent or is for any cause unable to\nof Director’s perform the functions of the Director’s office, such functions shall\nfunctions\nbe performed by the Chief Tourism Policy, Planning and Co­\nduring\nordination Officer or the Chief Tourism Research and Product\nabsence\nDevelopment Officer or the Chief Standards Inspector.\nConstitution 9. (I) There is hereby constituted a Tourism Enterprises\nof Authorisation and Licensing Committee which shall consist of\nTourism\neleven part-time members appointed by the Minister.\nEnterprise\nAuthorisation (2) The members appointed under subsection (1) shall be persons\nand who have expertise in economic empowerment, financial\nLicensing management, hotel management, civil engineering, architecture and\nCommittee physical planning and shall include a representative each of—\n(a) the Ministry responsible for tourism;\n(b ^the Immigration Department of the Ministry responsible\nfor home affairs;\n(c) the Ministry responsible for finance;\n(d) the Attorney-General; and\n(e) the Tourism Council of Zambia.\n(3) The Director shall be the Secretary to the Committee.\n(4) The Minister shall appoint the Chairperson and the\nVice-Chairperson of the Committee from amongst the members\nreferred to in subsection (1).\n(5) Subject to subsection (6), a member of the Committee shall\nhold office for a period of three years from the date of appointment\nbut may be eligible for reappointment for a further term of three\nyears.\n(6) The office of a member shall become vacant —\n(a) if that member is absent without reasonable excuse from\nthree consecutive meetings of the Committee of which\nthememberhad notice;\n(b) upon the member’s death;\n(c) if the member is adjudged bankrupt;\n(d) on a member ceasing to hold the office by virtue of which\nthe member was appointed;\n(e) if the member becomes mentally or physically incapable\nof performing the duties of a member of the Committee;\nor\n(J) if the member is convicted of an offence under any written\nlaw and sentenced therefor to imprisonment for a term\nexceeding six months.\n(7) Where a vacancy occurs in terms of subsection (6), the\nMinister may appoint a new member in accordance with subsection\n(1), to hold office for the unexpired part of that member’s term.\n(8) A member of the Committee shall be paid such allowances\nas the Minister may determine.\n(9) Subject to the other provisions of this Act, the Committee\nmay regulate its own procedure.\n(10) The Committee shall meet for the transaction of business\nas often as is necessary or expedient for the conduct of its business\nat such places and times as the Chairperson may determine.\n("
+    },
+    {
+      "number": "17",
+      "heading": "(1) Where in the opinion of the Director, additional poweriocaJ!",
+      "text": "information is required on any matter contained in an application for\nfor an authorisation or licence, the Director may, before forwarding additional\nthe application to the Committee, call upon the applicant to furnish ^n°\nadditional information and may, if the applicant fails to supply those application\nparticulars within such period as the Director may specify, reject\nthe application without referring the application to the Committee,\n(2) The Director may consult any other authority for the supply\nof additional particulars in respect of an application for an\nauthorisation or licence.\nNotification 18. The Director shall, before forwarding an application for an\nof\nlodging of authorisation or a licence to the Committee, cause to be published\napplication in two newspapers of general circulation anotice of such application\ngiving such particulars about the applicant and the tourism enterprise\nfor which the application is made, as may be sufficient to enable an\nobjection to be made to the application as provided in section\nnineteen.\nObjection to"
+    },
+    {
+      "number": "19",
+      "heading": "(1) Any person who has any reason for objecting to the",
+      "text": "issuance of\nissuance of a licence or an authorisation may, within twenty -one\nlicence\nor days of the date of publication of a notice under section eighteen,\nauthorisation lodge an objection by submitting to the Director and to the applicant\na notice in writing, stating the grounds for the objection.\n(2) The Director shall upon receipt of an objection under\nsubsection (1), as soon as practicable, forward it to the Committee:\nProvided that if it appears to the Committee that the\nobjection made under subsection (1) is frivolous and vexatious\nand has no merit, the Committee may reject such an objection\nand shall immed iately inform the objector in writing of the\ndecision stating the reasons for the rejection.\n(3) The Committee shall consider the objection referred to it\nunder subsection (2) within thirty days of receiving the objection.\n(4) In considering an objection under this section, the Committee\nmay require the objector to answer such questions or furnish such\nparticulars to the Committee as the Committee may consider\nnecessary to enable it determine the objection and may rely on any\nother evidence not submitted by the applicant or the objector.\n(5) The Committee shall sustain the objection, if it is satisfied\nthat the objection has merit, and shall overrule the objection if the\nCommittee is not so satisfied; and\n(6) Where the Committee recommends that the objection be\nsustained or that the objection has no merit, the Director shall, in\nwriting, notify the objector of the decision and where the objection\nis dismissed the Director shall give reasons for the decision.\n(7) The objector may if aggrieved by the decision of the\nCommittee made under subsection (5), appeal in writing to the\nMinister to review the decision of the Committee and may tender\nadditional evidence or further and better particulars to be taken\ninto consideration by the Minister in determining the appeal.\n(8) A notice of appeal shall be given in writing to every party\nconcerned.\n(9) The Minister may, in considering an appeal under this\nsection, set aside, vary or uphold the Committee’s decision and\nshall in writing communicate to the objector the Minister’s decision.\n(10) Any person who is aggrieved by the decision of the Minister\nunder subsection (9) may appeal to the High Court within thirty\ndays of the date of receipt of notification of the Minister’s decision."
+    },
+    {
+      "number": "20",
+      "heading": "(1) SubjecttotheotherprovisionsofthisAct,theCommittee Approval or",
+      "text": "may issue a licence or authorisation, as the case may be, to the refusal of\napplicant specifying the terms and conditions of the licence or application\nauthorisation. for\nlicence or\n(2) Where the Committee considers that an application for an\nauthorisation\nauthorisation or a licence should not be approved, the Committee\nmay reject the application and shall in writing inform the applicant\nof the decision and state the reasons for the rejection."
+    },
+    {
+      "number": "21",
+      "heading": "(1) Any person aggrieved by the refusal of the Committee Appeal",
+      "text": "against\nto approve the application for a licence or authorisation under section\nrefusal to\ntwenty may, within thirty days of the decision being communicated\nissue licence\nto that person, appeal, in writing, to the Minister: or\nauthorisation\nProvided that the Minister may consider an appeal after\nthe expiry of the thirty days specified in this subsection if\nsatisfied that the appellant was prevented by sufficient cause\nfrom filing the appeal within the specified period.\n(2) The Minister may, before reaching a decision in any\nappeal —\n(a) refer the matter to the Committee for further inquiry and\nconsideration; or\n(b) make such further inquiry and investigation into the matter\nas the Minister considers necessary.\n(3) In any appeal under subsection (1), the Min ister may confirm,\nvary or set aside the decision of the Committee and shall notify the\nappellant of the Minister’s decision in the matter.\n(4) Any person who is aggrieved by the decision of the Minister\nto uphold the Committee’s decision as specified under subsection\n(3) may appeal to the High Court within thirty days of the receipt\nofthe notification ofthe Ministers decision.\nRestriction 22- (1) A licence or authorisation shall not be transferred or\non varied except with the prior written approval of the Committee.\ntransfer and\nvariation of (2) The Committee may vary or amend any condition attached\nlicence . to a licence or authorisation under subsection (2), on app lication by\nor , . the licensee or authorisation holder to vary the terms and conditions\nauthorisation or relating to the licence or authorisation or of the\nCommittee’s own volition at the time of renewal of a licence or\nauthorisation if there are any changes relating to the tourism\nenterprise:\nProvided that the Committee shall not vary any term or\ncondition of the licence ofthe Committees’own volition without\nfirst giving the licensee or authorisation holder a reasonable\nopportunity to make representations in that regard.\n(3) Any variation of a term or condition of a licence by the\nCommittee under subsection (2) shall be endorsed on the licence\nor authorisation together with the'date when the variation is made\nand the date when it will take effect.\nPeriod of 23. (1) Subject to the other provisions of this Act, a licence for\nvalidity of a tourism enterprise other than a hotel or casino shall be val id for a\nlicence or period of twelve months from the date of issue to the 31 st day of\nauthorisation December of the year in which the licence is issued.\n(2) An authorisation to construct, reconstruct , renovate,\nrehabilitate or in any way effect changes to the structure of a tourism\nenterprise shall be valid for a period of twenty-four months from\nthe date of issue, during which period the applicant shall implement\nthe proposed developments.\n(3) An authorisation to operate a tourism enterprise shall be\nvalid for a period of twelve months from the date of issue.\n(4) Where for any reason a holder of an authorisation referred\nto in subsection (2) is unable to implement the developments\ndescribed in the authorisation, the holder of the authorisation shall\nnotify the Committee of their inability to implement such\ndevelopments, stating the reasons for such inability within thirty\ndays of the holder of the authorisation becoming aware of the\ninabitityto implement the development.\n(5) A licence holder may apply for the renewal of a licence to\noperate a tourism enterprise sixty days prior to the expiration of\nthe period of validity of the existing licence and shall pay the\nprescribed renewal fee:\nProvided that the Committee may, upon payment of the\nprescribed fee accept an application lodged after the expiry\nof the sixty days specified in this subsection if satisfied that a\nlicensee was prevented by sufficient cause from lodging the\napplication within the specified period.\n(6) Where an application for a licence is received under\nsubsection (5) the Director shall, as soon as practicable after receipt\nof the application forward it to the Committee and the Committee\nshall consider the application and approve or reject the application,\nas the case may be, within sixty days of receiving it.\n(7) A licence holder who submits an application for renewal\nof a licence under this section may continue to operate the tourism\nenterprise until a decision is made by the Committee on the\napplication."
+    },
+    {
+      "number": "24",
+      "heading": "(1) The Director shall maintain or cause to be maintained Register of",
+      "text": "a register of — licences or\nauthorisation\n(a) licensed tourism enterprises;\n(b) licences or authorisations, including any conditions subject\nto which each licence or authorisation is issued; and\n(c) any amendments, suspensions orrevocations of licences\nor authorisations.\n(2) The register kept in terms of subsection (1) shall be open\nfor inspection by members of the public at all reasonable times at\nthe office of the Director or at such other place as the Director\nmay determine on payment of the prescribed fee."
+    },
+    {
+      "number": "25",
+      "heading": "Every licence holder shall exhibit the licence or a certified Display of",
+      "text": "copy thereof in a conspicuous place at the licence holder’s principal licence\nplace of business and at every branch where the licence holder\ncarries on the tourism enterprise."
+    },
+    {
+      "number": "26",
+      "heading": "(1) Every holder of an authorisation, or licence, shall be Obligations",
+      "text": "required to comply with such conditions as the Minister may authorisation\ndetermine. ?.r\nlicence\nholder\n(2) The conditions in subsection (1) may require a holder of\nan authorisation or licence to—\n(a) submit to the Director at the end of each financial year,\nan audited financial statement relating to the\noperations;\n(b) submit to the Director, at the end of the financial year,\nproduction and cost accounts of operations;\n(c) submit to the Director at the end of the financial year, an\nannua 1 report outlining developments within the tourism\nenterprise, to which the authorisation or licence relates;\n(d) submit to the Director a report advising plans for any\nsignificant changes within the tourism enterprise;\n(e) allow the inspection of premises, records and statements\nrelating to the tourism enterprise;\n(f) allow interviews or investigations with, or on behalf of,\nthe Director regarding any matter provided for under\nthis A ct;\n(g) adhere to any plans, programmes, projects or other reports\nsubmitted to the Director; and\n(h) provide a project brief or Environmental Impact\nAssessment and to adhere to any Environmental\nManagement Plan or monitoring arrangements as may\nbe approved under the Environmental Protection and\nCap. 204 Pollution Control Act and as included as terms and\ncondi lions of the authorisation or licence.\nRetumstobe 27. Every holder of a licence to operate a tourism enterprise\nsubmitted to shall submit hall-yearly returns to the Director tn such form as the\nDirector Minister may, by a statutory instrument, prescribe, giving such details\nas may be specified in the statutory instrument.\nSuspension 28. (I) The Committee may suspend or revoke a licence or\nor authorisation where the licensee or authorisation holder —\nrevocation of\nlicence or (a) obtained the licence or authorisation on the basis of fraud\nauthorisation or negligent misrepresentation or any false or misleading\nstatement;\n(b) assigns, cedes or otherwise transfers an authorisation\nand licence to another person without the prior approval\nof the Committee;\n(c) has failed to comply with any term or condition of the\nlicence or authorisation; or\n(d) operated the tourism enterprise in contravention of this\nAct or any other written law.\n(2) The Committee shall, before suspending or revoking a\nlicence or authorisation under subsection (1), notify the licensee of\nthe Committee’s intention to suspend or revoke the licence or\nauthorisation and the reason therefor, and call upon the licensee or\nholder of the authorisation to show cause, within such reasonable\nperiod as may be specified in the notice, why the licence or\nauthorisation should not be so suspended or revoked, as the case\nmay be.\n(3) If. at the expiration of the period specified in the notice\ngiven under subsection (2), and after considering any representations\nmade by the licensee, the Committee is satisfied for any reason\nspecified in subsection (1) that the .licence or authorisation should\nbe suspended or revoked, the Committee may, by notice in writing\nto the licensee or holder of the authorisation, suspend or revoke the\nlicence or authorisation.\n29- The Director shall, in consultation with the Tourism Licensing.,\nCommittee formulate a licensing, classification and grading system classification\nfor hotels and tourism enterprises. system^118"
+    },
+    {
+      "number": "30",
+      "heading": "(1) Au operator of a tourism enterprise shall— Prepaid",
+      "text": "package\n(a) submit to the Director records and information on, and tours\naccount for, all foreign exchange earned on prepaid\npackage tours ; and\n(Djpay all taxes due to the State in respect of those packages.\n(2) The Minister may in consultation with the Minister\nresponsible for finance, make Regulations in respect of prepaid\npackage tours."
+    },
+    {
+      "number": "31",
+      "heading": "(1) Anoperator of a tourism enterprise, or a hotel or casino Prohibitions",
+      "text": "shall not display the words “Private Property” or “Residents Only”\nat the entrance or in proximity to the tourism enterprise as away of\nrestricting access to the property by members of the public.\n(2) An operator of a tourism enterpris e or a hotel or casino may\ndisplay the words “right of admission reserved”:\nProvided that the operator of a tourism enterprise shall not,\non the basis of any person’s race or sex, restrict the access\nof such person to such tourism enterprise.\n(3) A person shall not —\n(a) disturb another person in the quiet enjoyment of the facilities\nin a tourism enterprise;\n(b) wilfully interfere with or destroy any facility within a\ntourism enterprise which is provided for the enjoyment\nof the patrons of such tourism enterprise; or\n(c) in any way be a nuisance within the premises or grounds\nof a tourism enterprise.\n(4) Any person who contravenes subsection (1), (2) or (3)\ncommits an offence and shall be liable on conviction toa fine not\nexceeding fifty thousand penalty units or to imprisonment for a\nterm not exceeding six months, or to both.\nSafety of 32. (1) An operator of a tourism enterprise shall take\ntourists measures to ensure the safety and security of local and international\nand workers\ntourists and other patrons within the tourism enterprise,\n(2) An operator of a tourism enterprise shall take measures to\nensure the safety and welfare of the workers of such tourism\nenterprise.\n(3) An operator of a tourism enterprise shall have adaptable\nemergency evacuation plans on the premises for emergencies\ncaused by. inter alia, fire, floods, attacks by wild animals, thunder\nstorms and eveiy other conceivable emergency that may require\nemergency action to be taken.\nPART V\nLicensing and Grading of Hotels\nOperating 33. (1) A person shall not operate an hotel except under and in\nwithout accordance with an hotel licence issued by the Committee specifying\nhotel licence\nthe premises in respect of which the licence is granted.\nprohibited\n(2) A person shall not manage an hotel unless the person is\nregistered to practise as an hotel manager by the Council in\naccordance with Part IX of this Act.\n(3) An hotel licence shall be valid from the day on which it is\nissued and, unless previously cancelled, shall expire on the 31st\nDecember following the date of issue."
+    },
+    {
+      "number": "34",
+      "heading": "(1) Anapplicationforanhoteilicenceshallbemadeinthe Application",
+      "text": "prescribed form and be lodged with the Director. for\nhotel licence\n(2) The application referred to in subsection (1) shall be\naccompanied by the prescribed fee and such information in support\nof the application as the Minister may, by statutory instrument,\nprescribe.\n(3) Where an application is received under subsection (1), the\nCommittee shall, if the Committee is satisfied that the application is\nmade in accordance with the provisions of this Act, as soon as\npracticable, but not later than twenty-one days, issue an hotel\nlicence,"
+    },
+    {
+      "number": "35",
+      "heading": "(1) A hotel licence shall not be granted by the Committee Conditions",
+      "text": "unless the Committee is satisfied that— under\nwhich\n(a) the premises in respect of which the application is made licences shall\nbe granted\nare structurally adapted for use as an hotel;\n(b) proper provision has been made for the sanitation of tne\nhotel;\n(c) proper provision has been made for the hotel to be managed\nin an efficient manner;\n(d) proper provision has been made for the storage,\npreparation, cooking and serving of food in the hotel;\n(e) the premises in respect of which the application is made\ncomply with the Public Health Act and regulations made Cap. 295\nunder the Act, and a certificate to that effect is produced; Cap. 45\nand\n(f the applicant meets such additional requirements relating\nto the welfare of guests as the Committee may\ndetermine.\n(2) A hotel manager’s licence shall not be granted by the\nCouncil unless the Council is satisfied that the applicant is of good\ncharacter and meets such other conditions as the Council may\ndetermine."
+    },
+    {
+      "number": "36",
+      "heading": "Where a holder of an hotel licence notifies the Committee Transfer of",
+      "text": "that the holder intends to transfer that licence to some other person, hotel\nthe Committee may, authorise the transfer if the conditions specified licence\nin or under subsection (1) of section thirty-five have been complied\nwith.\nRevocationof 37. (1) Where it appears to the Director after an inspection\nlicence that after the grant of an hotel licence or an hotel manager’s\nlicence—\n(a) an hotel is being conducted in an unclean or insanitary\nmanner;\n(b) an hotel is not being conducted in an efficient manner;\n(c) the food served in an hotel is not properly prepared, cooked\nor served;\n(d) any condition specified in or under subsection (1) of section\nthirty-five is not being complied with;\n(e) the hotel-keeper or the hotel administration is involved In,\nencourages, or condones, crime being committed in or\naround the hotel; or\n(f) the hotel keeper is convicted of an offence unde: the\nCan. 421 Control of Goods Act or regulations made thereunder;\nthe Committee may, subject to subsections (2) and (3). on the\nrecommendation of the Director revoke the hotel licence or the\nhotel manager’s licence, or both:\nProvided thatahote! manager’s licence shall not be revoked\nif the Commitee is satisfied that any contravention under this\nsubsection took place without the manager’s knowledge,\nconsent or connivance.\n(2) Where there is a contravention under subsection (1) the\nDirector may require the hotel-keeper, by notice in writing, to correct\nthe contravention within a period, not being less than thirty days,\nand if the hotel keeper fails to do so to the satisfaction of the Director\nwithin the specified period, the Committee may revoke in writing\nthe hotel licence or the hotel manager’s licence, but the revocation\nof either licence shall not take effect until the expiration of thirty\ndays from the date of the notice to revoke:\nProvided that where die nature or extent of rhe contravention\nis serious, the Committee may order that the revocation of\nthe hotel licence or hotel manager’s licence shall take effect\nimmediately.\n(3) Revocation of an hotel licence shall result in the immediate\nclosure of the premises."
+    },
+    {
+      "number": "38",
+      "heading": "(1) The Committee shall, on the recommendation of the Classification",
+      "text": "Director, classify and grade hotels eveiy two years. and\ngrading of\n(2) A certificate which is issued in respect of a hotel specifying\nHotels\nthe classification and grading of such hotel shall be displayed in a\nprominent place within the reception of the hotel premises.\n(3) Where it appears to the Director that an hotel is not being\nmanaged in a manner conforming to the class in which the hotel is\ngraded, the Committee may, upon giving notice to the hotel-keeper,\nremove the name of the hotel from the class in which it is registered\nand place it in a lower class, but the regrading shall not take effect\nuntil the expiration of thirty days from the date of the notice."
+    },
+    {
+      "number": "39",
+      "heading": "The Committee shall not refuse an application for an hotel Refusals,",
+      "text": "licence or an application to transfer an hotel licence dr cancel an cancellations,\nhotel licence granted under subsection (3) of section thirty-four or grading and\nre-grade an hotel under section thirty-eight unless the. hotel re-grading\nmanager or hotel-keeper has been furnished, in writing, by the\nCommittee, with the reasons for the refusal, cancellation, grading\nor regrading and has been give an'opportunity of appearing before\n' the Committee and of being heard in support of the application, or\nin opposition to the cancellation or re-grading.\n/Appeal to"
+    },
+    {
+      "number": "40",
+      "heading": "(1) A person aggrieved by—",
+      "text": "Minister\n(a) a refusal by the Committee to permit the transfer of an\nhotel licence;\n(b) the cancellation of a licence by the Committee; or\n(c) the classification, grading or re-grading of an hotel by the\nCommittee;\nmay, within thirty days from the date of receipt of notification of\nthe refusal, cancellation, grading or re-graciing, appeal to the Minister:\nProvided that the Minister may consider an appeal after\nthe expiry of the thirty days specified in this subsection if\nsatisfied that the appellant was prevented by sufficient cause\nfrom filing the appeal within the specified period.\n(2) ■ In every case in which an appeal under this section has\nbeen lodged, the Committee shall submit to the Minister in writing\nthe grounds for the decision.\n(3) The Minister may, before reaching a decision in any\nappeal—\n(a) refer the matter to the Committee for further inquiry and\nconsideration; or\n(b) make such further inquiry and investigation into the matter\nas theMinister considers necessary.\n(4) In any appeal under subsection (1), the Minister may\nconfirm or set aside the decision ofthe Committee and shall notify\nthe appellant of the Minister’s decision in the matter.\n(5) Any person who is aggrieved by the decision of the Minister\nto uphold the Committee’s decision as specified under subsection\n(4) may appeal to the High Court within thirty days of the receipt\nofthe notification ofthe Ministers decision.\nEntry, 41. Any person authorised' in writing by the Director in that\ninspection behalf may, with an identification card, at any reasonable time,\nand\nenter and inspect the premises of an hotel and may require thehotel-\ninformation\nkeeper to furnish such information as is necessary to enable the\nDirector to carry out the Director’s functions.\nRegister of 42. (1) Every hotel-keeper shall keep a register in which shah\nguests\nbe recorded the name of every guest and such other particulars as\nmay be prescribed.\n(2) Every hotel-keeper shall —\n(a) present the register to every person who intends to stay\natthe hotel and request the person to write that person’s\nname in the register together with such other particulars\nas may be prescribed;\n(b) present the register for inspection when so requested by\nthe Director, an inspector, an immigration officer or by\na police officer of or above the rank of sub-inspector;\nand\n(c) supply to any inspector, immigration officer or police officer\nof or above the rank of sub-inspector the original of any\nentry in the register or duplicate thereof when requested\nby that inspector, immigration or police officer;\nProvided that a police officer who intends to inspect a\nregister under paragraph (b) or to obtain the original or duplicate\ncopy of any entry in the register under paragraph (c) shall\nproduce to the hotel-keeper a search warrant obtained for\nthat purpose prior to inspecting the register.\n(3) An hotel-keeper who fails to comply with subsection (2)\ncommits an offence and shall be liable, upon conviction, to a fine\nnot exceeding ten thousand penalty units or imprisonment not\nexceeding three months, or both.\n(4) An hotel-keeper may refuse to allow into the hotel a guest\nwho refuses or fails to give the particulars prescribed by or under\nthis Act\n(5) A guest who makes a statement in the register of guests\nknowing that statement to be false commits an offence and is liable,\nupon conviction, to a fine not exceeding twenty thousand penalty\nunits or to imprisonment for a term not exceeding three months, or\nboth."
+    },
+    {
+      "number": "43",
+      "heading": "(1) An hotel-keeper may detain goods brought into the hotel Lienof",
+      "text": "or left in the hotel by a guest indebted to the hotel-keeper for hotel-keeper\nboard and may continue to detain the goods until the debt is paid\nbut may not detain the clothing which the person is wearing.\n(2) An hotel-keeper shall have the right to sell by public auction\ngoods detained under subsection (1) and shall, after the sale recover\nout of the proceeds of the sale the amount of the debt due to the\nhotel-keeper for board together with the costs and expenses of the\nsale, and shall make reasonable efforts to pay to the guest whose\ngoods have been sold, the surplus, if any, remaining after the sale.\n(3) No sale of the goods referred to in subsection (1) shall be\nmade until after the goods have been for six weeks in the charge\nor custody of the hotel-keeper or in the hotel without the debt having\nbeen paid or satisfied.\n(4) At least one month before any sale is made under this\nsection, the hotel-keeper shall cause to be published in at least one\nnewspaper circulating in the district where the hotel is situated, an\nadvertisement containing notice of such intended sale and giving\nbriefly a description of the goods intended to be sold, together with\nthe name of the guest who brought, deposited or left the goods, if\nknown.\n(5) Where goods are sold under subsection (2) the hotel-keeper\nshall, before the expiration of the period of seven days beginning\nwith the date of the sale of the goods, prepare a record in relation\nto the goods containing the following particulars:\n(a) a sufficient description of the goods;\n(b) the method, date and place of the sale;\n(c) the name and principal place of business of the auctioneer;\n(d) the amount of the proceeds of the sale; and\n(e) a statement of each item of the charges of the hotel­\nkeeper in relation to the goods and the transaction to\nwhich each item relates;\nand shall during the period of six years beginning with the date on\nwhich the record is prepared, keep the record together with a copy\nof the notice of the hotel-keeper to sell the goods and shall at any\nreasonable time during the period of six years, if so requested by\nor on behalf of the guest, produce the record, copy and certificate,\nor any of them, for inspection by the guest or a person nominated\nin that behalf by the guest.\n(6) A person who fails to comply with this section, commits an\noffence and is liable upon conviction, to a fine not exceeding ten\nthousand penalty units or imprisonment for a term not exceeding\nthree months, or to both.\nLiabilities of 44. (1) Without prejudice to any other liability incurred by the\nan\nhotel-keeper with respect to any property brought into the hotel by\nhotel-keeper\na guest, a hotel-keeper shall, except as otherwise provided in this\nsection, be liable to make good to that guest any loss or damage to\nthe property where—\n(a) the loss or damage was incurred in the hotel; and\n(b) the loss or damage occurred during the period the guest\nhas been residing at the hotel or has left the goods in\ncustody of the hotel-keeper.\n(2) Without prejud ice to any other liabil ity or right of tire hotel-\nkeeper with respect thereto, an hotel-keeper shall not, as such, be\nliable to make good to any guest any loss of, or damage to, or have\na lien on, any motor vehicle or any property left therein.\n(3) Where the hotel-keeper is liable as such to make good the\nloss of or any damage to property brought to the hotel, the hotel­\nkeeper’s liability to any one guest shall not exceed fifty-six hundred\nthousand fee units in respect of any one article, or in the aggregate,\nexcept where—\n(a) the property was -stolen, lost or damaged through the\ndefault, neglect or wilful act of the hotel-keeper or the\nhotel-keeper’s servant or agent;\n(b) the property was deposited by or on behalf of the guest\nexpressly for safe custody with the hotel-keeper or the\nhotel-keeper’s servant or agent authorised or appearing\nto be authorised for the purpose and, if so required by\nthe hotel-keeper or that servant or agent, put into a\ncontainer fastened or sealed by the depositor; or\n(c) at any time after the guest had arrived at the hotel, either\nthe property in question was offered for deposit and the\nhotel-keeper or the hotel-keeper’s servant or agent\nrefused to receive it, or the guest or some other person\nacting on his behalf wished to so offer but through the\ndefault of the hotel-keeper or the hotel-keeper’s servant\nor agent, was unable to do so:\nProvided that the hotel-keeper shall not be entitled\nto the protection of this subsection unless, at the time\nwhen the property in question was brought to the\nhotel, a notice to that effect printed in plain type was\nconspicuously displayed in a place where it could\nconveniently be read by the guest at or near the\nreception office or desk or, where there is no reception\noffice or desk, at or near the main entrance to the\nhotel."
+    },
+    {
+      "number": "45",
+      "heading": "A person who leaves an hotel without either paying their Settlement of",
+      "text": "bill for board or making arrangements with the hotel-keeper, the bill\nhotel keeper’s agent or servant that the bill may be left in abeyance\ncommits an offence and shall be liable, upon conviction, to a fine\nnot exceeding ten thousand penalty units or to imprisonment for a\nterm not exceeding three months, or to both."
+    },
+    {
+      "number": "46",
+      "heading": "(1) A hotel shall add to every bill a service charge of ten Service",
+      "text": "per centum of the bill, which shall be paid in equal shares to allthe charge and\ntips\nemployees except employees in management.\n(2) An hotel-keeper who contravenes the provisions of\nsubsection (1) commits an offence and shall be liable, upon\nconviction, to a fine not exceeding ten thousand penalty units or to\nimprisonment for a term not exceeding tiiree months, or both.\n(3) The court convicting a hotel-keeper for contravention of\nsubsection (1), shall in addition to the penalties prescribed in\nsubsection (2), enter civil judgment in favour of the workers affected\nand order the hotel-keeper to pay the money owing.\n(4) No person is obliged to give a tip for any service rendered\nin an hotel and the hotel-keeper of each hotel shall display a notice\nto that effect printed in plain type in a conspicuous place in the\nhotel where it can conveniently be read by a guest in the hotel.\nPART VI\nLicensing of Casinos\nOperating 47. A person shall not operate a casino without a valid licence\nwithout\ncasino licence issued by the Committee under this Part.\nprohibited\nApplication 48. (1) An application for a casino licence shall be made in the\nfor casino prescribed form and be lodged with the Director.\nlicence\n(2) The application referred to in subsection (1) shall be\naccompanied by the prescribed fee and such information in support\nof the application as the Minister may, by statutory instrument,\nprescribe.\n(3) When an application is received under subsection (1): the\nDirector shall, as soon as practicable, forward it to the Committee\nand the Committee shall consider it and within sixty days of\nreceiving the application—\n(a) issue the applicant with a casino licence on such terms\nand conditions as the Committee may specify in the\nlicence; or\n(b) reject the application and, within seven days of taking the\ndecision, notify the applicant, in writing, of the decision\nto reject the application, and state the reasons for the\nrejection.\n(4) Any person aggrieved by the refusal ofthe Committee to\napprove the application for a casino licence under subsection (3)\nmay, within thirty days of the decision being communicated to that\nperson, appeal, in writing, to the Minister:\nProvided that the Minister may consider an appeal after\nthe expiry of the thirty days specified in this subsection if\nsatisfied that the appellant was prevented by sufficient cause\nfrom filing the appeal within the specified period.\n(5) The Minister may, before reaching a decision in any\nappeal —\n(a) refer the matter to the Committee for further inquiry and\nconsideration; or\n(b) make such further inquiry and investigation into the matter\nas the Minister considers necessary.\n(6) In any appeal under subsection (4), the Minister may confirm\nor set aside the decision of the Committee and shall notify the\nappellant of the Minister’s decision in the matter,\n(7) Any person who is aggrieved by file decision of the Minister\nto uphold the Committee’s decision as specified under subsection\n(6) may appeal to the High Court within thirty days of the receipt\nof the notification of the Minister’s decision."
+    },
+    {
+      "number": "49",
+      "heading": "(1) A casino licence shall remain in force every calender Duration of",
+      "text": "year. licence\n(2) A casino licence shall authorise —\n(a) the playing in or such part of the licenced premises as is\nspecified in the casino licence of such games, tables\nand gaming machines as are specified in it;\n(b) subject to the provisions of Part V, the carrying on and\nmaintenance of a hotel on the licenced premises;\n(c) the sale on the licensed premises to any person at any\ntime of the day and night of intoxicating liquor for\nconsumption on the licensed premises; and\n(d) the carrying on by the licensee in the licensed premises of\nany trade or business specified in the casino licence.\n(3) A casino licence shall specify the number of tables authorised\nunder the casino licence for the playing of any game and the number\nof gaming machines authorised under the casino licence.\n(4) ' No licensee shall operate or allow to be operated, any tables\nfor the playing of any game or gaming machines in excess of the\nnumber authorised under the casino licence.\n(5) Any person who —\n(a) keeps or allows to be kept on any premises a gaming\nmachine for the purpose of gaming without a casino\nlicence; or\n(Z9 contravenes any of the provisions of this section; commits\nan offence and shall be liable to a fine not exceeding\none hundred thousand penalty units or tc imprisonment\nfor a period not exceeding two years, or to both.\n(6) When a person is convicted of an offence under subsection\n(5), the court which convicts that person shall, in addition to any\npenalty imposed under subsection (5), order the forfeiture to the\nGovernment of the tables or gaming machines which were the\nsubject matter of the offence.\nConditions 50. (1) The Committee shall not grant a casino licence under\nunder section forty-eight to any person unless —\nwhich a\nlicence shall (a) the premises in respect of which the application for a\nbe granted casino licence is made are structurally adapted for use\nas a casino;\nI\n(b) proper provision has been made for the sanitation of the\ncasino;\n(c) proper provision has been made for surveillance cameras\nto be fitted for the monitoring of the game and other\nactivities in the gaming premises; and\n(d) proper provision has been made for competent\nmanagement of the premises.\n(2) The Committee may prescribe other conditions to a casino\nlicence —\n(a) relating to the method of operation of any game;\n(b) relating to the operation of any hotel carried on and\nmaintained on the licensed premises;\n(c) for the purposes of ensuring that the operation of the\nlicensed premises does not detract from the natural\nbeauty and amenities of any place near the licensed\npremises;\n(d) for the purposes of ensuring that the operation of the\nlicensed premises accords with decency, dignity, good\ntaste and honesty;\n(e) requiring the keeping of such books, forms, accounts and\nrecords relating to casino operations in such form as\nthe Director may prescribe; and\n(f) relating to any other matters which the Director may\nconsider necessary or incidental to a casino licence.\nRevocation of 51. (1) The Committee may on the recommendation of the\ncasino\nDirector, revoke a casino licence where—\nlicence\n- : \\ )TourisM a/id Hospitality { No 23 of2007 449\n'v. . ? n /a) the licensee or a^y employee of the licensee has been\nconvicted of an offence under'this Act;\n• ■ •. ■ •’#9 &e licensee has contravened or failed to comply with any\nof the conditions of the casino licence;\n• - Jfa) the licensee has failed to cany on and to maintain the\n■ •• ■- premises in accordance with the conditions of the casino\nlicence; or\n(d/ the licensee has failed to pay the licence fees payable for\nthe licence and for die games in operation.\n* (2) Tite Committee shall not revoke a casino licence under\nparagraph (a) of subsection (I) unless —\nfa) the licensee has' been informed in writing of the grounds\n- ' •• upon'Winch it is proposed to revoke the casino licence\nr ■ ' and shall give the licensee an.opportunity of making\n■ ' • represema’JoiisJn writingJn telation io the proposed\nrevocation:\n' ‘‘ \" (b) the Committee is satisfied that the offence is of such a\n\" serious nature or was committed in circumstances of\nsuch seriousness as in tlw Committee’s opinion warrants\nsuch revocation; or\nfa) that ths licensee or any employee ofthe licensee has on a\nprevious occasion been convicted of an offence under\nthisAct ' •"
+    },
+    {
+      "number": "52",
+      "heading": "(1) A casino licence shall be transferable only with the Transfer and",
+      "text": "consent of the Committee, on recommendation of the,Director. verification\nof a\n• (2) 'fhc Conuhittee may, on the application of the licensee, at casino\n• • ally time, during the currency of a casino licence, vary any condition\nofthe casino licence:\nProvided dfat where the conditions to be varied relate to\n* - the fees for the . games listed in the licence, the Committee\n: ■ shall before having such conditions varied, direct an inspection\nof the games to be carried out"
+    },
+    {
+      "number": "53",
+      "heading": "(1) Any person who on any licensed premises— Gaming by",
+      "text": "minors\n(a) plays any game with or permits the playing of any game prohibited\nby any young person;\n(a) the licensee or any employee of the licensee has been ; . :\nconvicted of an offence under'this Act;\n(b) the licensee has contravened or failed to comply with any ? .\nof the conditions of the casino licence;\n(c) the licensee has failed to cany on and to maintain the • , .. .\npremises in accordance with the conditions of the casino;.\nlicence; or .\n(d) the licensee has failed to pay the licence fees payable for\nthe licence and for the games in operation.\n(2) The Committee shall not revoke a casino licence under\nparagraph (a) of subsection (1) unless —\n(a) the licensee has been informed in writing of the grounds\nupon which it is proposed to revoke the casino licence\nand shall give the licensee an opportunity of making\nrepresentations, in writing, in relation to the proposed\nrevocation;\n(b) the Committee is satisfied that the offence is of such a\nserious nature or was committed in circumstances of\nsuch seriousness as in the Committee’s opinion warrants\nsuch revocation; or\n(c) that the licensee or any employee of the licensee has on a\nprevious occasion been convicted of an offence under\nthis Act,"
+    },
+    {
+      "number": "52",
+      "heading": "(1) A casino licence shall be transferable only with the Transfer and",
+      "text": "consent of the Committee, on recommendation of the Director. verification\nofa\n(2) The Committee may, on the application of the licensee, at • casino\nanytime, during the currency ofa casino licence, vary any condition- , . , •\nof the casino licence:\nProvided that where the conditions to be varied relate to •\nthe fees for the games listed in the licence, the Committee\nshall before having such conditionsvaried, direct an inspection .\nof the games to be carried out. ■ ' ."
+    },
+    {
+      "number": "53",
+      "heading": "(1) Any person who on any licensed premises — Gaming by -",
+      "text": "minors\n(a) plays any game with or permits the playing of any game ■ prohibited\nby any young person;\n(b) allows any young person to enter any part of the licensed\npremises where any game is played, whether for the\npurpose of gaming or otherwise;\n(c) employs in the organisation or for the management of any\ngame any young person;\ncommits an offence and shall be liable on, conviction, to a fine not\nexceeding one hundred thousand penalty units or to imprisonment\nfor a term not exceeding two years, or to both.\n(2) In this section “young person” means any person under the\nage of eighteen years.\n(3) It shall not be a defence for any licensee or employee of the\nlicensee charged with an offence under subsection (1) that the\nlicensee did not know of the presence of any young person or that\nsuch young person was present without the licensee’s consent,\nunless the licensee shows, to the satisfaction of the court that the\nlicensee took all reasonable steps to ensure that no young person\nwas admitted to such licensed premises.\nSubmission of 54. (1) The Director may at any time, and shall at least once in\nstatement of\nevery twelve months, require a licensee to submit to the\naccount\nDirector —\n(a) a properly audited statement of accounts stating the gross\nwinnings of the casino on each day, or during such other\nperiod as the Director may require;\n(b) a declaration that the fees payable in respect of the gross\nwinnings of any particular period calculated in\naccordance with this Act have been paid; and\n(c) such returns or other information relating to the operations\nof a casino as the Director may require.\n(2) Any person who refuses or fails to submit a statement of\naccounts as and when required by the Director or who knowingly\nsubmits a false or misleading statement commits an offence and\nliable on conviction to a fine not exceeding fifty thousand penalty\nunits or to imprisonment for a term not exceeding one year, or to\nboth.\nAssessment 55. (1) Notwithstanding any other provisions of this Act, if the\nby Director has reason to believe that any amount of fees has been\nDirector\nincorrectly computed by a Licensee or when any licensee fails in\nany month to submit to the Director a statement in accordance\nwith section fifty-four, the Director may assess the amount of\nfees, if any, payable by the licensee as may, in the circumstances,\nappear proper to the Director under the provisions this Act.\n(2 ) Where any fees are assessed by the Director in accordance\nwith this section, the Director shall give notice in writing to the\nlicensee stating the amount so assessed and such amount of fees\nshall be due and payable by the licensee within such period following\nthe date of such notice as the Director may, in the notice, direct:\nProvided that a licensee may, in the first instance, appeal\nwithin thirty days of the date of such notice to the Minister\nand, if aggrieved by the Minister’s decision, to the High Court\nwithin thirty days of receipt ofthe Minister’s decision."
+    },
+    {
+      "number": "56",
+      "heading": "(I) The holder of a casino license shall not require any Non­",
+      "text": "application\nlicence under the Liquor Licensing Act for the purpose ofthe sale\nof certain\nof intoxicating liquor and nothing in the said Act relating to the provisions\nhours of sale of intoxicating liquor shall apply to sales of intoxicating Cap. 167\nliquor under a casino licence.\n(2 ) Subject to the provisions of subsection (1), a casino licence\nshall, for the purpose of Parts VH and IX of the Liquor Licensing Cap. 167\nAct, be deemed to be a licence under that Act and licensed premises\nunder this Act shall be deemed to be licensed premises under the\nLiquor Licensing Act. Cap. 167\n(3 ) The holder of a casino licence shall not be required to hold a\nlicence under the Trades Licensing Act in respect of any trades Cap. 393\nspecified in the casino licence and the provisions of that Act shall\nnot apply.\n(4 ) For the purpose of subsection (3) of section one ofthe Trades\nLicensing Act, a casino licence shall not be deemed to relate to any Cap. 393\ngoods."
+    },
+    {
+      "number": "57",
+      "heading": "Without prejudice to any other remedy, any tax, penalty or Tax to be",
+      "text": "other sum payable under this Act shall be a debt due to the recovered as\ncivil debt\nGovernment and may be recovered as a civil debt by a suit in the\nname of the Attorney-General."
+    },
+    {
+      "number": "58",
+      "heading": "(1) There shall be paid in respect of every casino licence Fees",
+      "text": "issued under this Act such annual fee as the Minister may, by\nstatutory instrument, prescribe.\nPART VII\nIncentives\nIncentives 59. The holder of an authorisation or licence shall be eligible\nAct No. 11 for such incentives as may be applicable to the authorisation or\nof2G06 licence holder under the Zambia Development Agency Act, 2006\nCap. 323 or the Income Tax Act, as the case may be.\nMicro, small 60. (1) A tourism enterprise, that is a micro, small or medium\nand enterprise shall be entitled to privileges and benefits under the\nmedium\nZambia Development Agency Act, 2006.\nenterprise\ndevelopment\n(2) The Minister may, by statutory instrument, declare a\nAct No. 11 of tourism enterprise to be a micro, small or medium tourism entetprise\n2006 for purposes of promoting or broadening its participation in the\ntourism industry, and shall, in so doing, consider the income\ngenerated or to be generated by the tourism enterprise.\nWithdrawal 61, (1) The Minister may withdraw any benefit granted to a\nof tourism enterprise under this Act if the operator of such tourism\nbenefits\nenterprise fails to comply with the provisions of this Act or the\nconditions of the licence issued to such tourism enterprise.\n(2) A person aggrieved by the decision of the Minister to\nwithdraw any benefit under this Act may appeal to the High Court\nagainst the decision within thirty days of receipt of the notification\nof the withdrawal.\n(3) In this section “benefit” means any advantage or targeted\nintervention given by the Minister to a micro, small or medium\nsized tourism enterprise in order to promote the development of\nsuch tourism enterprise and ensure its participation in the tourism\nindustry but does not include any incentive that may accrue to\nAct No. 11 of such tourism enterprise under the Zambia Development Agency\n2006\nAct, 2006.\nPART VHI\nThe Tourism Development Fund\nEstablishment 62. (1) There is hereby established the Tourism Development\nof Fund for purposes of product development, marketing, training,\nFund\nresearch and support to participating councils for tourism-related\ninfrastructure.\n(2) The Fund shall consist of—\n(a) such moneys as may be appropriated by Parliament for\nthe purposes ofthe Fund;\n(b) moneys collected from such tourism levies as the Minister\nresponsible for finance may, in consultation with the\nMinister, prescribe;\n(c) such moneys as may be received by the Fund from\ndonations and grants from any source;\n(d) such other moneys as may vest in or accrue to the Fund;\nand\n(e) such other moneys as may, by or under any law, be payable\nto the Fund."
+    },
+    {
+      "number": "63",
+      "heading": "(1) The Fund shall be vested in the Minister responsible Administrafion",
+      "text": "for finance and shall be managed and administered by the Minister of\nFund\nresponsible for tourism.\n(2) The Minister shall, in consultation with the Minister\nresponsible for finance, by statutory instrument, constitute aTourism\nDevelopment Fund Committee to administer the Fund.\n(3) The Committee constituted pursuant to subsection (2)\nshall —\n(a) be responsible to the Minister; and\n(b) have such functions and comprise such number of\nmembers not exceeding seven as the Minister shall\nprescribe in the statutory instrument."
+    },
+    {
+      "number": "64",
+      "heading": "The Ministers referred to in section sixty-three shall apply Application",
+      "text": "the moneys of the Fund for the purpose of tourism product of\nmoneys of\ndevelopment, tourism research, tourism marketing, training in tourism\nFund\nresearch and support to participating councils for tourism-related\ninfrastructure."
+    },
+    {
+      "number": "65",
+      "heading": "The Ministers referred in section sixty-three shall cause Statement of",
+      "text": "an annual statement of income and expenditure to be prepared and income\nand\nlaid before the National Assembly.\nexpenditure\nPART IX\nThe Hotel Managers Registration Council\nHotel 66. (1) There is hereby constituted an Hotel Managers\nManagers Registration Council which shall consist of the following part-time\nRegistration members appointed by the Minister:\nCouncil\n(a) the Director of the Hotel and Tourism Training Institute;\n(b) three members of the Hotels Catering International\nManagement Association;\n(c) a representative of the Tourism Council of Zambia;\n(d) a representative of the Hotel Catering Association of\nZambia;\n(e) a representative of the Zambia Institute of Certified\nAccountants;\n(J9 a representative of the Attorney-General; and\n(g) a representative of the Ministry responsible for tourism.\n(2) The M inist er shall, on receiving the names of the proposed\nrepresentatives from the ins 1 itut ions or organisations referred to in\nsubsection (1). consider the representatives and may. where the\nMinister thinks fit in the Ministers discretion, reject any such\nrepresentative or appoint the representative as a member of the\nCouncil:\nProvided that where the Minister rejects any proposed\nrepresentative, the Minister shall direct the institution\nconcerned to avail the Minister with the name of another\nrepresentative.\n(3) The Minister shall appoint the Chairperson and the\nVice-Chairperson of the Council,\n(4) Subject to subsection (5), a member of the Council shall\nhold office for a period of three years from the date of appointment\nand shall be eligible for reappointment for a further term of three\nyears.\n(5) The office of a member of the Council shall become\nvacant —\n(a) if that member is absent without reasonable excuse from\nthree consecutive meetings of the Council of which the\nmember had notice;\n(b) upon the member’s death;\n(c) if the member is adjudged bankrupt;\n(d) on a member ceasing to hold the office by virtue of which\nthe member was appointed;\n(e) if the member becomes mentally or physically incapable\nof performing the duties of a member ofthe Council; or\n(f) if the member is convicted of an offence under any written\nlaw and sentenced therefor to imprisonment for a term\nexceed ing six months.\n(6) Where a vacancy occurs in terms of subsection (5), the\nMinister may appoint a new member in accordance with subsection\n(I), to hold office for the unexpired partofthat member’s term.\n(7) A member of the Council shall be paid such allowances as\nthe Minister may determine.\n(8) Subject to the other provisions of this Act, the Council may\nregulate its own procedure.\n(9) The Council shall meet for the transaction of business as\noften as is necessary or expedient for the conduct of its business at\nsuch places and times as the Chairperson may determine expedient\nfor the conduct of its business.\n(10) The quorum at any meeting of the Council shall be five\nmembers of the Council.\n(11) There shall preside at any meeting ofthe Council —\n(a) the Chairperson;\n(b) in the absence of the Chairperson, the Vice-Chairperson;\nor\n(c) in the absence of both the Chairperson and the Vice­\nChairperson, such member as the members present may\nelect from their number for the purpose of that meeting.\n(12) The determination of any matter before the Council shall\nbe according to the votes of the majority of the members present\nand considering the matter.\n(13) The Council may invite any person whose presence in its\nopinion is desirable to attend and to participate in the deliberations\nof a meeting of the Council but such person shall have no vote.\n(14) The Council shall cause minutes to be kept of the\nproceedings of every meeting ofthe Council,\n(15) The M inister shall appoint a Secretary to the Council from\namong suitably qualified persons employed in the Department of\nTourism of the Ministry responsible for tourism to perform such\nsecretarial and administrative functions in connection with the\nCouncil.\nFunctions of 67, The functions of the Council shall be to —\nCouncil\n(a) consider applications for registration for hotel managers;\n(b) prepare programmes of training including the acquiring\nof acceptable practical experience by trainees and\ngraduates of hotel management for registration as hotel\nmanagers;\n(c) liaise with approved institutions of hotel management on\npractical training for hotel managers and monitoring and\nworking out modalities of the diary ;and\n(d) conduct interviews for professional competence at such\ntimes and places as the Council shall determine.\nRegistration 68. (1) A person shall apply, in the prescribed form, to the\nof Hotel Secretary ofthe Council for registration.\nManagers\n(2) The Council shall register a person whoqualifies for\nregistration as an hotel manager in terms of section sixty-nine.\n(3) The Secretary shall keep a register of persons registered\nby the Council.\n(4) The register referred to in subsection (3) shall show such\nparticulars as the Council may consider necessary and the Secretary\nshall register all c"
+    },
+    {
+      "number": "69",
+      "heading": "(1) A person shall not be registered as a hotel manager Qualification",
+      "text": "unless the person — for\nregistration\n(a) is resident in Zambia; as hotel\nmanager\n(b) has attained the age of twenty-one years;\n(c) ho Ids a degree, diploma or such other qual ification in hotel\nmanagement as the Minister may, by statutory\ninstrument, on the recommendation of Council, prescribe\nor equivalent qualifications recognised by the Council;\n(d) has acquired at least two years of post graduate practical\nexperience from full time employment under tiie\nsupervision of a registered hotel manager; and\n(e) has paid the registration fee prescribed by the Council.\n(2) A person shall not qualify to be registered as an hotel\nmanager if the person —\n(a) has been convicted of an offence involving dishonesty or\nany offence under this Act or any other written law and\nsentenced therefor to imprisonment for a term exceeding\nsix months, without the option of a fine;\n(b) has been adjudged or declared of unsound mind under\nany written law;\n(c) is an undischarged bankrupt;\n(d) due to mental or physical incapacity, is unable to perform\nthe duties of a hotel manager."
+    },
+    {
+      "number": "70",
+      "heading": "(1) The Council shall issue a practising certificate to every Practising",
+      "text": "certificate\nhotel manager registered under section sixty-eight.\n(2 ) Every practising certificate issued under subs ection (1) sh all\ntake effect on the date it is issued and shall continue in force until\nthe 31 st of December next following the date of issue.\n(3 ) A practising certificate shall be renewed annually upon\npayment of such fee as may be prescribed.\nCancellation 71. (1) The Council may cancel a practising certificate issued\nof\nunder section seventy if—\npractising\ncertificate (a) it is proved to the satisfaction of the Council that the\nregistration was obtained through fraud,\nmisrepresentation or concealment of any material fact;\nor\n(b) the person ceases to be qualified for registration in terms\nof subsection (2) of section seventy-one.\n(2) The Council shall, beforecancellingthepractisingcertificate\nunder subsection (1), give a registered hotel manager thirty days\nnotice in writs ng of the intention to cancel the practising certificate\nand give the registered hotel manager an opportunity to show cause\nwhy the practising certificate should not be cancelled, within such\nreasonable period as may be specified in the notice.\n(3) If—\n(a) at the expiration ofthe period specified in the notice given\nunder subsection (2), and after considering any\nrepTCScfiiaiionS made by the hotel manager, the Council\nis satisfied for any reason specified in subsection (I)\nthat the practising certificate should be cancelled; or\n(b) the registered hotel manager fails to show cause why\nthe practising certificate should not be cancelled within\nthe period specified in the notice given under subsection\n(2);\nthe Council shall, within seven days of taking the decision, in writing,\nnotify the hotel manager of the cancellation of the practising\ncertificate and state the reasons for such cancellation.\n(4) The Council shall, after cancelling the practising certificate\nissued under subsection (1), publish a notice of cancellation in a\nnewspaper of general circulation.\n(5) A registered hotel manager whose practising certificate is\ncancelled shall immediately cease to practise as a hotel manager.\n(6) Any person who contravenes the provisions of subsection\n(5), commits an offence and shall be liable, on conviction to a fine\nnot exceeding one hundred thousand penalty units or to imprisonment\nfor a term not exceeding two years, or to both.\n(7) A person aggrieved by a decision of the Council under\nsubsection (3) may within thirty days of receiving the notification\nof the cancellation appeal to the Minister.\n(8) In any appeal under subsection (7), the Minister may\nconfirm, vary or set aside the decision of the Council and shall\nnotify the appellant of the Minister’s decision in the matter.\n(9) Any person who is aggrieved by the decision of the Minister\nto uphold the Council’s decision as specified under subsection (3)\nmay appeal to the High Court within thirty days of the receipt of\nthe notification of the Minister’s decision."
+    },
+    {
+      "number": "72",
+      "heading": "(1) A person not registered by the Council shall not— 0 ffe n ces",
+      "text": "relating to\n(a) practice or offer their services as, or hold themselves out practising\ncertificate\nto be, a qualified hotel manager;\nQj) adopt, use or exhibit the title “hotel manager” or any other\nterm of similar description; or\n(c) do any thing likely to lead persons to infer that the person\nis a registered hotel manager.\n(2) A person shall not employ as a hotel manager a person who\nis not registered by the Council.\n(3) Any person who contravenes the provisions of subsection\n(1) or (2), commits an offence and shall be liable, on conviction to\na fine not exceeding one hundred thousand penalty units or to\nimprisonment for a term not exceeding two years, or to both.\n(4) Where an offence under subsection (I) or (2) is committed\nby a body corporate, every director and manager of the body\ncorporate shall be deemed to have committed the offence, unless\nthe director or manager proves to the satisfaction of the court that\nthe offence was committed without the knowledge, consent or\nconnivance of the director or manager or that the director or\nmanager took sufficient steps to prevent the commission of the\noffence.\nOffences 73. A person who—\nrelated to\nregistration (a) makes or causes to be made an unauthorised entry,\nalteration or erasure in a register, practising certificate,\nor any copy thereof;\n(b) procures or attempts to procure for oneself or any other\nperson a practising certificate by means of fraud,\nmisrepresentation or concealment of any material fact;\ncommits an offence and shall be liable, on conviction to a fine not\nexceeding one hundred thousand penalty units or to imprisonment\nfor a term not exceeding two years, or to both.\nPART X\nInspections\nAppointment 74. (1) In order to ensure compliance with the provisions of\nof this Act, or any condition imposed under this Act, the Minister shall\ninspectors\nappoint such number of competent persons to exercise the powers\nof and perform the functions of an inspector under this Act.\n(2) Every inspector shall be provided with a certificate of\nappointment which shall be prima facie,evidence ofthe inspector’s\nappointment as such.\n(3) An inspector shall, on demand by any person affected by\nthe exercise ofthe inspector’s powers under this Act, produce for\ninspection a certificate referred in subsection (2).Powers of\ninspectors\nPowers of 75. (1) In the performance of duties an inspector shall have\nInspectors power—\n(a) at any time to enter and inspect the licenced premises;\n(b) to inspect all equipment and supplies in or about the\nlicenced premises;\n(c) to have access to and inspect, examine and audit all papers,\nbooks and records of the licensee representing the gross\nrevenue produced by an hotel and or by the games\nplayed under the casino licence;\n(d) to seize and remove from the licensed premises any\nequipment or supplies for the purpose of examination\nand inspection;\n(e) to be present at and supervise the counting at the close\nof business of the casino on any day of the money\nreceived by the casino in gaming during that day; and\n0) to be present at and supervise the calculation of the gross\nwinnings made, at the casino on any day."
+    },
+    {
+      "number": "76",
+      "heading": "(1) A person shall not— Obstruction",
+      "text": "and\n(a) delay or obstruct an inspector in the exercise or impersonation\nperformance of the inspector’s powers or functions; of\ninspectors\n(b) refuse to give an inspector such reasonable assistance\nas the inspector may require for the purpose of the\nexercise of the inspector’s powers under this Act;\n(c) provide an inspector with false or misleading information\nin answer to any inquiry made by the inspector; or\n(d) insult, interrupt or assault an inspector.\n(2) A person shall not—\n(a) impersonate an inspector;\n(b) hold out to have the powers of an inspector; or\n(c) procure an inspector to do or refrain from doing anything\nin connection with duties of an inspector.\n(3) Any person who contravenes subsection (1) or (2) commits\nan offence and shall be liable, upon conviction, to a fine of not less\nthan one hundred thousand penalty units, or to imprisonment for a\nterm not less than two years, or to both."
+    },
+    {
+      "number": "77",
+      "heading": "(1) Each inspector shall furnish the Director with such Inspector to",
+      "text": "provide\nrecords, reports and other information relating to matters referred\nreports\nto the inspector, as the Director may direct.\n(2) The Director shall forward a copy of the report and other\ninformation referred to in subsection (1) to the owner of the tourism\nenterprise.\n(3) Where an inspection establishes that a tourism enterprise\ndoes not comply with the requirements of this Act, the operator of\nthe tourism enterprise shall take measures to comply with the\nrequirements of the Act within such period as the Director may\nspecify.\nProhibition 78. (1) A person shall not, without the consent, in writing,\nof given by the Director publish or disclose to any other person, than\npublication\nin the course of that person’s duties, the contents of any document,\nor disclosure\nof communication or information, which relates to, and which has come\ninformation\nto that person’s knowledge in the course of that person’s duties\nto un­\nauthorised under the Act.\npersons\n(2) A person who contravenes the provisions of subsection\n(1) commits an offence and shall be liable, upon conviction , to a\nfine not exceeding ten thousand penalty units, or to imprisonment\nfor a term not exceeding six months, or to both\n(3) If a person having information which to that person’s\nknowledge has been published or disclosed in contravention ofthe\nprovisions of subsection (1) unlawfully publishes or communicates\nthat information to any other person, that person commits an offence\nand shall be liable, upon conviction to a fine not exceeding ten\nthousand penalty units, or to imprisonment for a term not exceeding\nsix months, or to both.\nPART XI\nSavings and Transu ional Provisions\nLicensing of 79. (1) Every person who, al the commencement of this Act,\nexisting is carrying on any tourism enterprise other than a casino shall, within\ntourist\nsix months after such commencement, apply to the Committee for\nenterprises,\na licence.\nhotels, etc\n(2) At the commencement of this Act, an hotel licence or an\nhotel manager’s licence which is issued under the repealed Act\nshall continue to be valid until its expiry on the 31st December\nfollowing the date of its issue.\n(3) At the commencement of this Act acasino licence which\nis issued under the repealed Act shall, until its expiry, continue to be\nvalid as if it was issued under this Act.\nOffences and 80. Any person who—\npenalties\n(a) wilfully publishes or causes or allows to be published in\nany manner false or misleading information relating to\nany hotel, restaurant, tour operator, lour guide, courier,\nother accommodation establishment, or tourism enterprise\nor amenity;\n(c) being the person responsible therefor fails or refuses to\npay any fee or to collect and remit any such fee in terms\nof this Act; or\n(d) hinders or obstructs the Director or any tourism officer\nor inspector in the performance of their functions under\nthis Act or gives false or misleading information to the\nDirector or any tourism officer or inspector; commits\nan offence and is liable, on conviction, to a fine not\nexceeding one hundred thousand penalty units or to\nimprisonment for a term not exceeding two years, or to\nboth."
+    },
+    {
+      "number": "81",
+      "heading": "(1) The Minister may, by statutory instrument, make Regulations",
+      "text": "regulations for the better carrying out ofthe provisions of this Act.\n(2) Without prejudice to the generality of subsection (1), the\nregulations may provide for—\n(a) the forms of licences issued under this Act and the manner\nof applying for authorisations and licences under this\nAct;\n(b) the fees payable in respect of authorisations or licences\nissued under this Act;\n(c) the terms and conditions under which a tourism enterprise\nmay be operated;\n(d) the condition in which premises of a tourism enterprise,\nhotel or casino shall be kept;\n(e) the terms and conditions under which a person may invest\nin, establish, maintain or operate any tourism enterprise;\n#)t he classification or grading of tourism enterprises and\nhotels;\n(g) tourism planning;\n(h) the tourism enterprises, other than hotels, which may\nrequire the payment of a service charge; and\n(i) anything which may be or is required to be prescribed\nunder this Act."
+    },
+    {
+      "number": "82",
+      "heading": "The Tourism Act, 1979, the Hotels Act ,1987, and the Casino Repeal of",
+      "text": "Act, 1992 are hereby repealed.\n* r CCoanp . 11 S53i aanndd\nCap. 157"
+    }
+  ],
+  "source_url": "https://media.zambialii.org/media/legislation/20673/source_file/496210e4cdb50ab5/zm-act-2007-23-publication-document.pdf",
+  "source_hash": "sha256:f41068b2d68c589641b6e4e0862378b380cc19b94692807adbe9aa8c36cdc87e",
+  "fetched_at": "2026-04-20T13:39:15Z",
+  "parser_version": "0.5.0"
+}

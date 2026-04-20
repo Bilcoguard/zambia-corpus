@@ -509,3 +509,11 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - children-candidate-1989 (Act 14/1989): title rejected (contains 'amendment'): 'Employment of Women, Young Persons and Children (Amendment) Act, 1989'
 - bank-of-zambia-2001 (2001/11): batch cap reached (MAX_RECORDS=8) — deferred
 - mines-minerals-2011 (2011/28): batch cap reached (MAX_RECORDS=8) — deferred
+
+## Batch 0147 per-target notes (2026-04-20T13:39:24Z)
+
+- bank-of-zambia-2001 (Act 11/2001): title rejected (contains 'amendment'): 'Development Bank of Zambia (Amendment) Act, 2001'
+- mines-minerals-2011 (Act 28/2011): title rejected (contains 'amendment'): 'Mines and Minerals Development (Amendment) Act, 2011'
+- pensions-and-insurance-2005 (Act 26/2005): title rejected (contains 'amendment'): 'Insurance (Amendment) Act, 2005'
+- local-government-1993 (Act 30/1993): title rejected (contains 'amendment'): 'Local Government (Amendment) Act, 1993'
+- immigration-1997 (Act 25/1997): title rejected (contains 'amendment'): 'Immigration and Deportation (Amendment) Bill, I997'
