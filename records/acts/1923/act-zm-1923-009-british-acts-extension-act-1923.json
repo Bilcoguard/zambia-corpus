@@ -1,0 +1,43 @@
+{
+  "id": "act-zm-1923-009-british-acts-extension-act-1923",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "British Acts Extension Act, 1923",
+  "citation": "Act No. 9 of 1923",
+  "enacted_date": "1923-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the British Acts Extension Act. [As amended by S.I. No. 72 of 1964]"
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The Acts of the Parliament of the United Kingdom set forth in the Schedule shall be deemed to be of full force and effect within Zambia."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Repealed by the Hotels Act. [Cap. 153]"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) 1 The Bills of Exchange Act, 1882, of the Parliament of the United Kingdom shall in its application to Zambia be read as if the words \"the Public Holidays Act\" were substituted for the words \"the Bank Holidays Act, 1871,\" and as if the words \"public holiday\" were substituted for the words \"bank holiday\". 1 See the Cheques Act, section 8 (Cap. 424)\n1 The Bills of Exchange Act, 1882, of the Parliament of the United Kingdom shall in its application to Zambia be read as if the words \"the Public Holidays Act\" were substituted for the words \"the Bank Holidays Act, 1871,\" and as if the words \"public holiday\" were substituted for the words \"bank holiday\". 1 See the Cheques Act, section 8 (Cap. 424)"
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Section 1 of the Friendly Societies Act, 1896, of the Parliament of the United Kingdom shall in its application to Zambia be amended by the repeal of subsection (4). [No. 33 of 1954]"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1923/9/eng@1996-12-31",
+  "source_hash": "sha256:479cf023492166b36e96e1093c679850e510f5301655f2213cca85ff55e4b889",
+  "fetched_at": "2026-04-20T19:07:49Z",
+  "parser_version": "0.5.0"
+}
