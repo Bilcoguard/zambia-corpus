@@ -1,0 +1,43 @@
+{
+  "id": "act-zm-1964-054-government-securities-act-1964",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Government Securities Act, 1964",
+  "citation": "Act No. 54 of 1964",
+  "enacted_date": "1964-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Government Securities Act."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "This Act shall apply to all securities heretofore created or issued in the United Kingdom on behalf of the Government of Northern Rhodesia or hereafter created or issued in the United Kingdom on behalf of the Government of Zambia—\n(a) in which a trustee might at any time have invested by virtue of section 2 of the Colonial Stock Act, 1900, of the Parliament of the United Kingdom; or\nin which a trustee might at any time have invested by virtue of section 2 of the Colonial Stock Act, 1900, of the Parliament of the United Kingdom; or\n(b) by the conditions of issue of which it is provided that the provisions of this Act shall apply to them;\nby the conditions of issue of which it is provided that the provisions of this Act shall apply to them;"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) Whenever by the final judgment, decree, rule or order of any court of competent jurisdiction in the United Kingdom any sum of money is adjudged or declared to be payable by the Government of Zambia in respect of any Zambia Government securities, that sum shall, without further appropriation than this Act, be charged on and paid out of the general revenues of Zambia and adequate funds, as and when required, shall be made available in the United Kingdom by the Government of Zambia to meet any such final judgment, decree, rule or order.\nWhenever by the final judgment, decree, rule or order of any court of competent jurisdiction in the United Kingdom any sum of money is adjudged or declared to be payable by the Government of Zambia in respect of any Zambia Government securities, that sum shall, without further appropriation than this Act, be charged on and paid out of the general revenues of Zambia and adequate funds, as and when required, shall be made available in the United Kingdom by the Government of Zambia to meet any such final judgment, decree, rule or order.\n(2) For the purposes of this section, \"final judgment, decree, rule or order\" means, in the case of an appeal, the final judgment, decree, rule or order of the ulti mate court hearing the appeal.\nFor the purposes of this section, \"final judgment, decree, rule or order\" means, in the case of an appeal, the final judgment, decree, rule or order of the ulti mate court hearing the appeal."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "A certificate specifying the sum paid under order of any such court as aforesaid to satisfy any such final judgment, decree, rule or order and issued by the agent in the United Kingdom of the Government of Zambia authorised to make such payment shall be sufficient authority to the Auditor-General or other officer having the auditing of the accounts of such agent for passing such sum without further appropriation."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Legislation which appears to Her Majesty's Government in the United Kingdom to alter any of the provisions affecting Zambia Government securities to the injury of the holders thereof or to involve a departure from the original contract in regard to those securities shall not become law except after agreement with Her Majesty's Government in the United Kingdom, and if attention is drawn to such legislation after the passing thereof, the Government of Zambia will take the necessary steps to ensure such amendment as may be requested by Her Majesty's Government in the United Kingdom."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1964/54/eng@1996-12-31",
+  "source_hash": "sha256:c9157300165be41181da78248cffeba54ef29f6c98affbd6fad00d2303653927",
+  "fetched_at": "2026-04-20T22:06:14Z",
+  "parser_version": "0.5.0"
+}

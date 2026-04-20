@@ -707,3 +707,23 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - 2004/9 'Local Government (Amendment) Act, 2004': pre-fetch reject — title contains 'amendment' (via query 'local government')
 - 1995/30 'Local Government (Amendment) Act, 1995': pre-fetch reject — title contains 'amendment' (via query 'local government')
 - 1993/31 'Local Government Elections (Amendment) Act, 1993': pre-fetch reject — title contains 'amendment' (via query 'local government')
+
+## Batch 0156 per-target notes (2026-04-20T22:06:28Z)
+
+- 2000/18 'Banking and Financial Services (Amendrnent) Act, 2000': no parseable sections in HTML or PDF
+- 1995/28 'Banking and Financial Services (Amendment) Act, 1995': pre-fetch reject — title contains 'amendment' (via query 'banking and financial services')
+- 2005/25 'Banking and Financial Services (Amendment) Act, 2005': pre-fetch reject — title contains 'amendment' (via query 'banking and financial services')
+- 2007/22 'Fisheries Act (Amendment) Act, 2007': pre-fetch reject — title contains 'amendment' (via query 'fisheries')
+- 1981/15 'Forest (Amendment) Act, 1981': pre-fetch reject — title contains 'amendment' (via query 'forests')
+- 1985/27 'State Security (Amendment) Act, 1985': pre-fetch reject — title contains 'amendment' (via query 'securities')
+- 1987/26 'Patents (Amendment) Act , 1987': pre-fetch reject — title contains 'amendment' (via query 'patents act')
+- 1980/18 'Patents (Amendment) Act , 1980': pre-fetch reject — title contains 'amendment' (via query 'patents act')
+- 1989/29 'Roads and Road Traffic (Amendment) Act, 1989': pre-fetch reject — title contains 'amendment' (via query 'roads and road traffic')
+- 1997/4 'Roads and Road Traffic (Amendment) Act, 1997': pre-fetch reject — title contains 'amendment' (via query 'roads and road traffic')
+- 1996/4 'Roads and Road Traffic (Amendment) Act, 1996': pre-fetch reject — title contains 'amendment' (via query 'roads and road traffic')
+- 1994/12 'Roads and Road Traffic (Amendment) Act, 1994': pre-fetch reject — title contains 'amendment' (via query 'roads and road traffic')
+- 1985/4 'Roads and Road Traffic (Amendment) Act, 1985': pre-fetch reject — title contains 'amendment' (via query 'roads and road traffic')
+- 1990/30 'Roads and Road Traffic (Amendment) Act, 1990': pre-fetch reject — title contains 'amendment' (via query 'roads and road traffic')
+- 1993/14 'Roads and Road Traffic (Amendment) Act, 1993': pre-fetch reject — title contains 'amendment' (via query 'roads and road traffic')
+- 1992/7 'Roads and Road Traffic (Amendment) Act, 1992': pre-fetch reject — title contains 'amendment' (via query 'roads and road traffic')
+- 1991/14 'Roads and Road Traffic (Amendment) Act, 1991': pre-fetch reject — title contains 'amendment' (via query 'roads and road traffic')
