@@ -1,0 +1,33 @@
+{
+  "id": "act-zm-1976-022-supreme-court-and-high-court-number-of-judges-act-1976",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Supreme Court and High Court (Number of Judges) Act, 1976",
+  "citation": "Act No. 22 of 1976",
+  "enacted_date": "1976-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Supreme Court and High Court (Number of Judges) Act."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "There shall be nine judges of the Supreme Court, including the Chief Justice and the Deputy Chief Justice."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "There shall be thirty puisne judges of the High Court. [As amended by Act No. 20 of 1977 , No. 21 of 1988 and No. 10 of 1997]"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1976/22/eng@1996-12-31",
+  "source_hash": "sha256:98a0337a7ed63562bfc3806f12d303663b2c7428365e5027b994b85218f1ae9d",
+  "fetched_at": "2026-04-20T18:39:22Z",
+  "parser_version": "0.5.0"
+}

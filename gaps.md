@@ -517,3 +517,10 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - pensions-and-insurance-2005 (Act 26/2005): title rejected (contains 'amendment'): 'Insurance (Amendment) Act, 2005'
 - local-government-1993 (Act 30/1993): title rejected (contains 'amendment'): 'Local Government (Amendment) Act, 1993'
 - immigration-1997 (Act 25/1997): title rejected (contains 'amendment'): 'Immigration and Deportation (Amendment) Bill, I997'
+
+## Batch 0149 per-target notes (2026-04-20T18:40:29Z)
+
+- citizens-economic-empowerment-2006 (Act 9/2006): no parseable sections in HTML or PDF
+- local-government-elections-2004 (Act 9/2004): title rejected (contains 'amendment'): 'Local Government (Amendment) Act, 2004'
+- patents-1987 (Act 26/1987): title rejected (contains 'amendment'): 'Patents (Amendment) Act, 1987'
+- zambia-tourism-board-1985 (Act 22/1985): title rejected (contains 'amendment'): 'Tourism (Amendment) Act, 1985'
