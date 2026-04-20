@@ -672,3 +672,17 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - 1984/3 'Stamp Duty (Amendment) Act, 1984': pre-fetch reject — title contains 'amendment' (via query 'stamp duty')
 - 2005/26 'Insurance (Amendment) Act , 2005': pre-fetch reject — title contains 'amendment' (via query 'insurance act 1997')
 - 1997/7 'Control of Goods (Amendment) Act , 1997': pre-fetch reject — title contains 'amendment' (via query 'insurance act 1997')
+
+## Batch 0154 per-target notes (2026-04-20T21:06:40Z)
+
+- 2008/8 'Industrial and Labour Relations (Amendment) Act, 2008': pre-fetch reject — title contains 'amendment' (via query 'arbitration')
+- 2021/53 'Appropriation Act, 2021': pre-fetch reject — title contains 'appropriation' (via query 'adult literacy')
+- 2020/26 'Appropriation Act, 2020': pre-fetch reject — title contains 'appropriation' (via query 'adult literacy')
+- 2008/2 'Customs and Excise (Amendment) Act, 2008': pre-fetch reject — title contains 'amendment' (via query 'cotton')
+- 2001/2 'Customs and Excise (Amendment) Act, 2001': pre-fetch reject — title contains 'amendment' (via query 'cotton')
+- 1984/2 'Sales Tax (Amendment) Act, 1984': pre-fetch reject — title contains 'amendment' (via query 'cotton')
+- 2005/26 'Insurance (Amendment) Act, 2005': pre-fetch reject — title contains 'amendment' (via query 'insurance')
+- 2021/47 'Insurance Premium Levy (Amendment) Act, 2021': pre-fetch reject — title contains 'amendment' (via query 'insurance')
+- 1992/2 'Insurance (Amendment) Act, 1992': pre-fetch reject — title contains 'amendment' (via query 'insurance')
+- 1991/17 'Insurance Brokers (Cessation and Transfer) (Repeal) Act, 1991': pre-fetch reject — title contains 'repeal' (via query 'insurance')
+- 1989/28 'Insurance (Amendment) Act, 1989': pre-fetch reject — title contains 'amendment' (via query 'insurance')

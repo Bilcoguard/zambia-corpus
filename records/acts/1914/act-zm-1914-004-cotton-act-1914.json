@@ -1,0 +1,33 @@
+{
+  "id": "act-zm-1914-004-cotton-act-1914",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Cotton Act, 1914",
+  "citation": "Act No. 4 of 1914",
+  "enacted_date": "1914-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Cotton Act."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "The Minister may, by statutory instrument, make regulations as to the following matters and may declare that such regulations or any of them shall apply to the whole of Zambia or to any part or parts thereof, namely:\n(a) to deal with diseases affecting cotton;\nto deal with diseases affecting cotton;\n(b) to regulate the importation of cotton seed;\nto regulate the importation of cotton seed;\n(c) generally for the protection and control of the cotton industry.\ngenerally for the protection and control of the cotton industry."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Such regulations may provide penalties for their breach, attempted breach or non-observance, not exceeding imprisonment with or without hard labour for a term of three months or a fine of seven hundred and fifty penalty units, or both and, in addition to such penalties, may provide that any seed cotton or implement in respect of which a breach, attempted breach or non-observance of any regulation has been committed shall be confiscated or otherwise dealt with, with or without compensation; and where no penalty is imposed by regulation, then the breach or attempted breach or non-observance of any regulation shall be punishable to the extent aforesaid. [As amended by Act No. 13 of 1994 ]"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1914/4/eng@1996-12-31",
+  "source_hash": "sha256:f473ed93b990125b74dd29a798fcc3bb1c57855b696d808926a25e693bf7c644",
+  "fetched_at": "2026-04-20T21:06:33Z",
+  "parser_version": "0.5.0"
+}
