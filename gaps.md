@@ -727,3 +727,17 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - 1993/14 'Roads and Road Traffic (Amendment) Act, 1993': pre-fetch reject — title contains 'amendment' (via query 'roads and road traffic')
 - 1992/7 'Roads and Road Traffic (Amendment) Act, 1992': pre-fetch reject — title contains 'amendment' (via query 'roads and road traffic')
 - 1991/14 'Roads and Road Traffic (Amendment) Act, 1991': pre-fetch reject — title contains 'amendment' (via query 'roads and road traffic')
+
+## Batch 0157 per-target notes (2026-04-22T10:52:26Z)
+
+- 2008/8 'Industrial and Labour Relations (Amendment) Act, 2008': pre-fetch reject — title contains 'amendment' (via query 'arbitration')
+- 1999/4 'Customs and Excise (Amendment) Act, 1999': pre-fetch reject — title contains 'amendment' (via query 'copyright')
+- 2020/27 'Zambia Institute of Marketing (Amendment) Act, 2020': pre-fetch reject — title contains 'amendment' (via query 'higher education')
+- 1996/23 'Electoral (Amendment) Act, 1996': pre-fetch reject — title contains 'amendment' (via query 'electoral')
+- 1986/19 'Electoral (Amendment) Act, 1986': pre-fetch reject — title contains 'amendment' (via query 'electoral')
+- 1995/7 'Electoral (Amendment) Act, 1995': pre-fetch reject — title contains 'amendment' (via query 'electoral')
+- 1988/20 'Electoral (Amendment) Act, 1988': pre-fetch reject — title contains 'amendment' (via query 'electoral')
+- 2001/4 'Electoral (Amendment) Act, 2001': pre-fetch reject — title contains 'amendment' (via query 'electoral')
+- 2014/10 'Zambia Revenue Authority (Amendment) Act, 2014': pre-fetch reject — title contains 'amendment' (via query 'zambia revenue authority')
+- 1996/32 'Zambia Revenue Authority (Amendment) Act, 1996': pre-fetch reject — title contains 'amendment' (via query 'zambia revenue authority')
+- 2010/42 'Housing (Statutory andImprovement Areas) (Amendment) Act, 2010': pre-fetch reject — title contains 'amendment' (via query 'lands tribunal')
