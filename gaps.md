@@ -741,3 +741,15 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - 2014/10 'Zambia Revenue Authority (Amendment) Act, 2014': pre-fetch reject — title contains 'amendment' (via query 'zambia revenue authority')
 - 1996/32 'Zambia Revenue Authority (Amendment) Act, 1996': pre-fetch reject — title contains 'amendment' (via query 'zambia revenue authority')
 - 2010/42 'Housing (Statutory andImprovement Areas) (Amendment) Act, 2010': pre-fetch reject — title contains 'amendment' (via query 'lands tribunal')
+
+## Batch 0158 per-target notes (2026-04-22T11:01:10Z)
+
+- 1993/35 'Criminal Procedure Code (Amendment) Act, 1993': pre-fetch reject — title contains 'amendment' (via query 'treason')
+- 1997/25 'Immigration and Deportation (Amendment) Bill, I997': pre-fetch reject — title contains 'amendment' (via query 'immigration')
+- 2012/16 'Appropriation Act, 2012': pre-fetch reject — title contains 'appropriation' (via query 'immigration')
+- 1989/16 'Aviation (Amendment) Act) 1989': pre-fetch reject — title contains 'amendment' (via query 'aviation')
+- 2007/17 'Penal Code (Amendment) Act, 2007': pre-fetch reject — title contains 'amendment' (via query 'aviation')
+- 1983/13 'Industrial Relations (Amendment) Act, 1983': pre-fetch reject — title contains 'amendment' (via query 'industrial relations')
+- 2008/8 'Industrial and Labour Relations (Amendment) Act, 2008': pre-fetch reject — title contains 'amendment' (via query 'industrial relations')
+- 1996/18 'Constitution of Zambia (Amendment) Act, 1996': pre-fetch reject — title contains 'amendment' (via query 'industrial relations')
+- 1990/32 'Stamp Duty (Amendment) Act, 1990': pre-fetch reject — title contains 'amendment' (via query 'bills of exchange')
