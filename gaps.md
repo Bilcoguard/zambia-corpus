@@ -883,3 +883,18 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - 1995/8 'Petroleum (Amendment) Act, 1995': pre-fetch reject — title contains 'amendment' (via query 'petroleum')
 - 1996/2 'Bank of Zambia (Amendment) Act, 1996': pre-fetch reject — title contains 'amendment' (via query 'banking')
 - 2001/11 'Development Bank of Zambia (Amendment) Act, 2001': pre-fetch reject — title contains 'amendment' (via query 'banking')
+
+## Batch 0165 per-target notes (2026-04-22T15:36:34Z)
+
+- 2020/25 'Mines and Minerals Development (Amendment) Act, 2020': pre-fetch reject — title contains 'amendment' (via query 'mines and minerals')
+- 2002/5 'Mines and Minerals (Amendment) Act, 2002': pre-fetch reject — title contains 'amendment' (via query 'mines and minerals')
+- 1998/8 'Mines and Minerals (Amendment) Act, 1998': pre-fetch reject — title contains 'amendment' (via query 'mines and minerals')
+- 1996/41 'Mines and Minerals (Amendment) Act, 1996': pre-fetch reject — title contains 'amendment' (via query 'mines and minerals')
+- 2011/28 'Mines and Minerals Development (Amendment) Act, 2011': pre-fetch reject — title contains 'amendment' (via query 'mines and minerals')
+- 1985/18 'Mines and Minerals (Amendment) Act, 1985': pre-fetch reject — title contains 'amendment' (via query 'mines and minerals')
+- 2013/10 'Environmental Management (Amendment) Act, 2013': pre-fetch reject — title contains 'amendment' (via query 'environmental management')
+- 2010/42 'Housing (Statutory andImprovement Areas) (Amendment) Act, 2010': pre-fetch reject — title contains 'amendment' (via query 'housing')
+- 1998/5 'Zambia Publishing House (Amendment) Act, 1998': pre-fetch reject — title contains 'amendment' (via query 'housing')
+- 2004/16 'Prisons (Amendment) Act, 2004': pre-fetch reject — title contains 'amendment' (via query 'prisons')
+- 2000/14 'Prisons (Amendment) Act, 2000': pre-fetch reject — title contains 'amendment' (via query 'prisons')
+- 1996/18 'Constitution of Zambia (Amendment) Act, 1996': pre-fetch reject — title contains 'amendment' (via query 'prisons')
