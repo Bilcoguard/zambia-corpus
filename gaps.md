@@ -831,3 +831,15 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - 1996/5 'Investment (Amendment) Act, 1996': pre-fetch reject — title contains 'amendment' (via query 'investment')
 - 2001/4 'Electoral (Amendment) Act, 2001': pre-fetch reject — title contains 'amendment' (via query 'referendum')
 - 2015/10 'Excess Expenditure Appropriation (2012) Act, 2015': pre-fetch reject — title contains 'appropriation' (via query 'referendum')
+
+## Batch 0162 per-target notes (2026-04-22T12:36:19Z)
+
+- 1994/20 'Standards Act, 1994': batch cap reached (MAX_RECORDS=8) — deferred
+- 1985/16 'Appropriation Act, 1985': pre-fetch reject — title contains 'appropriation' (via query 'forestry')
+- 1999/12 'Environment Protection and Pollution Control (Amendment) Act, 1999': pre-fetch reject — title contains 'amendment' (via query 'animal health')
+- 1993/2 'Education Levy (Repeal) Act, 1993': pre-fetch reject — title contains 'repeal' (via query 'education')
+- 1981/11 'Education Levy (Amendment) Act, 1981': pre-fetch reject — title contains 'amendment' (via query 'education')
+- 1986/6 'Education Levy (Amendment) Act, 1986': pre-fetch reject — title contains 'amendment' (via query 'education')
+- 2006/14 'Legal Practitioners (Amendment) Act, 2006': pre-fetch reject — title contains 'amendment' (via query 'legal practitioners')
+- 1981/21 'Legal Practitioners (Amendment) Act, 1981': pre-fetch reject — title contains 'amendment' (via query 'legal practitioners')
+- 2021/40 'Land Survey (Amendment) Act, 2021': pre-fetch reject — title contains 'amendment' (via query 'land survey')
