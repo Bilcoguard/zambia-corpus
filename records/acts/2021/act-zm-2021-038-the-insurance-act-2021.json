@@ -1,0 +1,1076 @@
+{
+  "id": "act-zm-2021-038-the-insurance-act-2021",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "The Insurance Act, 2021",
+  "citation": "Act No. 38 of 2021",
+  "enacted_date": "2021-01-01",
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Short title and commencement",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "Interpretation",
+      "text": "PART II\nADMINISTRATION"
+    },
+    {
+      "number": "3",
+      "heading": "Administration of Act",
+      "text": ""
+    },
+    {
+      "number": "4",
+      "heading": "Seal of Authority",
+      "text": ""
+    },
+    {
+      "number": "5",
+      "heading": "Registrar",
+      "text": "PART III\nREGULATION OF INSURANCE INDUSTRY"
+    },
+    {
+      "number": "6",
+      "heading": "Prohibition on carrying on insurance business without licence",
+      "text": ""
+    },
+    {
+      "number": "7",
+      "heading": "Types of licences",
+      "text": ""
+    },
+    {
+      "number": "8",
+      "heading": "Categories of insurance business",
+      "text": ""
+    },
+    {
+      "number": "9",
+      "heading": "Restriction on composite insurance",
+      "text": ""
+    },
+    {
+      "number": "10",
+      "heading": "Application for insurance licence",
+      "text": ""
+    },
+    {
+      "number": "11",
+      "heading": "Consideration and grant or refusal to grant licence",
+      "text": ""
+    },
+    {
+      "number": "12",
+      "heading": "Duration of licence",
+      "text": ""
+    },
+    {
+      "number": "13",
+      "heading": "Surrender of licence",
+      "text": ""
+    },
+    {
+      "number": "14",
+      "heading": "Suspension and cancellation of licence",
+      "text": ""
+    },
+    {
+      "number": "15",
+      "heading": "Effect of suspension or cancellation of licence",
+      "text": ""
+    },
+    {
+      "number": "16",
+      "heading": "Loss or damage of licence",
+      "text": ""
+    },
+    {
+      "number": "17",
+      "heading": "Application for amendment of licence",
+      "text": ""
+    },
+    {
+      "number": "18",
+      "heading": "Accepting insurance business from unlicensed person",
+      "text": ""
+    },
+    {
+      "number": "19",
+      "heading": "Entering into insurance contract with unlicensed person",
+      "text": ""
+    },
+    {
+      "number": "20",
+      "heading": "Repayment of funds",
+      "text": ""
+    },
+    {
+      "number": "21",
+      "heading": "Insurance broker to transmit premium",
+      "text": ""
+    },
+    {
+      "number": "22",
+      "heading": "Separate client account",
+      "text": "Single copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka. Price K188.00 each\n416 No. 38 of 2021] Insurance\nPART IV\nINSURANCE POLICIES"
+    },
+    {
+      "number": "23",
+      "heading": "Lodging of insurance form",
+      "text": ""
+    },
+    {
+      "number": "24",
+      "heading": "Form of policies",
+      "text": ""
+    },
+    {
+      "number": "25",
+      "heading": "Premium rates",
+      "text": ""
+    },
+    {
+      "number": "26",
+      "heading": "Payment of premium",
+      "text": ""
+    },
+    {
+      "number": "27",
+      "heading": "Currency",
+      "text": ""
+    },
+    {
+      "number": "28",
+      "heading": "Settlement of claims",
+      "text": ""
+    },
+    {
+      "number": "29",
+      "heading": "Policies and payments",
+      "text": ""
+    },
+    {
+      "number": "30",
+      "heading": "Action against insurer and insurance broker",
+      "text": ""
+    },
+    {
+      "number": "31",
+      "heading": "Life insurance by minor",
+      "text": ""
+    },
+    {
+      "number": "32",
+      "heading": "Customer due diligence to life insurance polices",
+      "text": ""
+    },
+    {
+      "number": "33",
+      "heading": "Protection of proceeds during life of policyholder",
+      "text": ""
+    },
+    {
+      "number": "34",
+      "heading": "Protection of beneficiary on death of policyholder",
+      "text": ""
+    },
+    {
+      "number": "35",
+      "heading": "Protection of policy for spouse and children",
+      "text": ""
+    },
+    {
+      "number": "36",
+      "heading": "Further protection for spouse",
+      "text": ""
+    },
+    {
+      "number": "37",
+      "heading": "Selection for realisation of life policy",
+      "text": ""
+    },
+    {
+      "number": "38",
+      "heading": "Partial realisation and conversion of policy",
+      "text": ""
+    },
+    {
+      "number": "39",
+      "heading": "Agreement to exchange life policy",
+      "text": ""
+    },
+    {
+      "number": "40",
+      "heading": "Incorrect statement in proposal for life policy",
+      "text": ""
+    },
+    {
+      "number": "41",
+      "heading": "Life policy intended to defraud creditor",
+      "text": ""
+    },
+    {
+      "number": "42",
+      "heading": "Proof of age",
+      "text": ""
+    },
+    {
+      "number": "43",
+      "heading": "Incorrect age in life policy",
+      "text": ""
+    },
+    {
+      "number": "44",
+      "heading": "Death occasioned by insured person or beneficiary",
+      "text": ""
+    },
+    {
+      "number": "45",
+      "heading": "Lost or destroyed life policy",
+      "text": ""
+    },
+    {
+      "number": "46",
+      "heading": "Cancellation of life policy",
+      "text": ""
+    },
+    {
+      "number": "47",
+      "heading": "Discrimination between life policy",
+      "text": ""
+    },
+    {
+      "number": "48",
+      "heading": "Premium rate on life policy",
+      "text": "Insurance [No. 38 of 2021 417\nPART V\nMANAGEMENT AND SHAREHOLDING FOR INSURER,\nREINSURER AND INSURANCE BROKER"
+    },
+    {
+      "number": "49",
+      "heading": "Shareholding",
+      "text": ""
+    },
+    {
+      "number": "50",
+      "heading": "Principal office for insurance business",
+      "text": ""
+    },
+    {
+      "number": "51",
+      "heading": "Representation by chief executive officer",
+      "text": ""
+    },
+    {
+      "number": "52",
+      "heading": "Acting as director or senior officer",
+      "text": ""
+    },
+    {
+      "number": "53",
+      "heading": "Appointment of directors and officers",
+      "text": ""
+    },
+    {
+      "number": "54",
+      "heading": "Approval or refusal to approve appointment",
+      "text": ""
+    },
+    {
+      "number": "55",
+      "heading": "Notice of termination of appointment",
+      "text": ""
+    },
+    {
+      "number": "56",
+      "heading": "Absence of chief executive officer",
+      "text": ""
+    },
+    {
+      "number": "57",
+      "heading": "Restriction on employment",
+      "text": ""
+    },
+    {
+      "number": "58",
+      "heading": "Restriction on holding shares",
+      "text": ""
+    },
+    {
+      "number": "59",
+      "heading": "Board of directors of insurer or reinsurer",
+      "text": ""
+    },
+    {
+      "number": "60",
+      "heading": "Corporate governance standards",
+      "text": "PART VI\nFINANCIAL REGULATION OF INSURANCE BUSINESS"
+    },
+    {
+      "number": "61",
+      "heading": "Reserves for unexpired risk",
+      "text": ""
+    },
+    {
+      "number": "62",
+      "heading": "Reserves for outstanding claims",
+      "text": ""
+    },
+    {
+      "number": "63",
+      "heading": "Statutory fund",
+      "text": ""
+    },
+    {
+      "number": "64",
+      "heading": "Compliance with solvency requirements",
+      "text": ""
+    },
+    {
+      "number": "65",
+      "heading": "Solvency statement",
+      "text": ""
+    },
+    {
+      "number": "66",
+      "heading": "Furnishing of information on assets and liabilities",
+      "text": ""
+    },
+    {
+      "number": "67",
+      "heading": "Publication of authorised capital, subscribed capital and paid up capital",
+      "text": ""
+    },
+    {
+      "number": "68",
+      "heading": "Investment of funds",
+      "text": ""
+    },
+    {
+      "number": "69",
+      "heading": "Licensee to appoint actuary",
+      "text": ""
+    },
+    {
+      "number": "70",
+      "heading": "Notification of ceasing to have actuary",
+      "text": ""
+    },
+    {
+      "number": "71",
+      "heading": "Actuarial investigations",
+      "text": ""
+    },
+    {
+      "number": "72",
+      "heading": "Distribution of surplus to policyholders",
+      "text": ""
+    },
+    {
+      "number": "73",
+      "heading": "Notification where capital requirements unlikely to be met",
+      "text": "418 No. 38 of 2021] Insurance\nPART VII\nREINSURANCE"
+    },
+    {
+      "number": "74",
+      "heading": "Reinsurance programmes",
+      "text": ""
+    },
+    {
+      "number": "75",
+      "heading": "Submission of reinsurance treaties and contracts",
+      "text": ""
+    },
+    {
+      "number": "76",
+      "heading": "Promotion of local cessions and conduct of reinsurance business",
+      "text": ""
+    },
+    {
+      "number": "77",
+      "heading": "National Reinsurance Company",
+      "text": ""
+    },
+    {
+      "number": "78",
+      "heading": "Mandatory cessions",
+      "text": "PART VIII\nMERGERS AND TAKEOVERS OF INSURANCE BUSINESS"
+    },
+    {
+      "number": "79",
+      "heading": "Prohibition on mergers and takeovers",
+      "text": ""
+    },
+    {
+      "number": "80",
+      "heading": "Approval of merger or takeover or transfer",
+      "text": ""
+    },
+    {
+      "number": "81",
+      "heading": "Inquiry into effect of merger or takeover",
+      "text": ""
+    },
+    {
+      "number": "82",
+      "heading": "Notice to policyholders",
+      "text": ""
+    },
+    {
+      "number": "83",
+      "heading": "Determination of application",
+      "text": ""
+    },
+    {
+      "number": "84",
+      "heading": "Notification on finalisation of merger or takeover",
+      "text": ""
+    },
+    {
+      "number": "85",
+      "heading": "Effect of merger or takeover on insurer",
+      "text": ""
+    },
+    {
+      "number": "86",
+      "heading": "Effect of merger or takeover on policyholder",
+      "text": "PART IX\nAUDITORS, ACCOUNTS AND RETURNS"
+    },
+    {
+      "number": "87",
+      "heading": "Appointment of external auditor",
+      "text": ""
+    },
+    {
+      "number": "88",
+      "heading": "Appointment of firm or body corporate",
+      "text": ""
+    },
+    {
+      "number": "89",
+      "heading": "Duties of external auditor",
+      "text": ""
+    },
+    {
+      "number": "90",
+      "heading": "External auditor’s duty to report",
+      "text": ""
+    },
+    {
+      "number": "91",
+      "heading": "Immunity of external auditor",
+      "text": ""
+    },
+    {
+      "number": "92",
+      "heading": "Disqualification of external auditor",
+      "text": ""
+    },
+    {
+      "number": "93",
+      "heading": "Auditing of accounts",
+      "text": ""
+    },
+    {
+      "number": "94",
+      "heading": "Request for extended scope audit",
+      "text": ""
+    },
+    {
+      "number": "95",
+      "heading": "External auditor’s certificate",
+      "text": ""
+    },
+    {
+      "number": "96",
+      "heading": "Information by external auditor to Authority",
+      "text": ""
+    },
+    {
+      "number": "97",
+      "heading": "Access to information by external auditor",
+      "text": ""
+    },
+    {
+      "number": "98",
+      "heading": "External auditor’s report",
+      "text": "Insurance [No. 38 of 2021 419"
+    },
+    {
+      "number": "99",
+      "heading": "Dismissal of external auditor by Authority",
+      "text": "100.Resignation of external auditor\n101.Termination of appointment of external auditor by insurer, reinsurer or\ninsurance broker\n102.Audit committee\n103.Financial statements and other returns\n104.Financial year\n105.Submission of signed financial statements\n106.Insurer and reinsurer quarterly returns\n107.Broker’s quarterly returns\n108.Separate accounts for classes of insurance business\n109.Signing of accounts and statements\n110.Publication of returns and statements"
+    },
+    {
+      "number": "111",
+      "heading": "Unauthorised publication of returns and statements",
+      "text": "112.Examination of returns and reports\nPART X\nINSPECTIONS AND CO-OPERATION\n113.Establishment of inspectorate\n114.Appointment of inspectors\n115.Conduct of inspections\n116.Request for information\n117.Appointment of expert investigators\n118.Consolidated supervision\n119.Cooperation with other institutions\nPART XI\nSUPERVISORY ACTION\n120.Supervisory action by Authority\n121.Nature of supervisory action\n122.Restrictions on classes of transactions\n123.Prohibition from dealing with assets\n124.Variation or rescission of restriction or prohibition\n420 No. 38 of 2021] Insurance\n125.Notice of taking possession\n126.Powers of Authority on taking possession\n127.Statement of assets and liabilities\n128.Petition to Minister against possession\n129.Effect of possession\n130.Restructuring and reorganisation\n131.Expenses incurred in taking possession\n132.Power of authority to appoint agent on taking possession\nPART XII\nINSOLVENCY, DISSOLUTION AND LIQUIDATION OF\nINSURER, REINSURER OR INTERMEDIARY\n133.Application of Corporate Insolvency Act\n134.Prohibition from conducting business while insolvent\n135.Power of Authority on insolvency of insurer, reinsurer or intermediary\n136.Approval of voluntary winding up or dissolution\n137.Duties of insurer, reinsurer or intermediary on voluntary winding up\n138.Notice of voluntary winding up or dissolution\n139.Rights of policyholders, creditors and other persons\n140.Cancellation of licence on voluntary winding up\n141.Powers of Authority where assets insufficient or completion unduly\ndelayed\n142.Compulsory winding up\n143.Appeal against order of compulsory winding up or dissolution\n144.Powers of Authority in compulsory winding up\n145.Limitation on filing claims\n146.Objection to liquidation schedule\n147.Priority of creditors\n148.Undistributed funds\n149.Final distribution in compulsory winding up or dissolution\n150.Unclaimed funds\n151.Restriction on action by third party\nInsurance [No. 38 of 2021 421\n152.Other person’s applications to court for winding-up\n153.Recovery of expenses\n154.Immunity of Authority against claims\n155.Power of Authority to appoint agent\nPART XIII\nCOMPLAINTS\n156.Initiation of investigation\n157.Refusal to investigate or discontinue complaint\n158.Continuation of investigation where complaint withdrawn\n159.Referral of matter\n160.Collaboration on investigation\n161.Enforcement notice\n162.Variation or cancellation of enforcement notice\nPART XIV\nINSURANCE TRIBUNAL\n163.Right to appeal\n164.Appointment and convening of appeals tribunal\n165.Tribunal Rules\nPART XV\nGENERAL PROVISIONS\n166.Insurance to be placed within Republic\n167.Documents to be signed and copies supplied\n168.Register of licensees\n169.Display of information\n170.Publication of change of name\n171.Alteration of prescribed forms\n172.False documents\n173.Offence by principal officers of body corporate or unincorporate body\n174.Prohibition of use of certain titles\n175.Membership to associations\n176.General penalty\n422 No. 38 of 2021] Insurance\n177.Administrative penalty\n178.Immunity of officer, agent or employee of Authority\n179.Regulations\n180.Repeal of Act No. 27 of 1997\nSCHEDULE\nInsurance [No. 38 of 2021 423\nGOVERNMENT OF ZAMBIA\nACT\nNo. 38 of 2021\nDate of Assent:19th May, 2021\nAn Act to provide for the regulation of the insurance industry;\nprovide for the supervision of insurers, reinsurers and\nintermediaries; provide for the financial regulation of\ninsurers, reinsurers and intermediaries; provide for the\nregulation and supervision of microinsurance businesses;\nprovide for the management and shareholding of insurers,\nreinsurers and intermediaries; provide for the auditing\nand corporate responsibility of insurers, reinsurers and\ninsurance brokers; continue the existence of the\nPolicyholders’ Protection Committee and the Insurance\nFidelity Fund; provide for the establishment of the\nNational Reinsurance Company; give effect to the\nAgreement establishing the African Reinsurance\nCorporation and the Agreement establishing the ZEP-RE\n(Preferential Trade Area Reinsurance Company); repeal\nand replace the Insurance Act, 1997; and provide for\nmatters connected with, or incidental to, the foregoing.\n[20th May, 2021\nENACTED by the Parliament of Zambia. Enactment\nPART I\nPRELIMINARY PROVISIONS"
+    },
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Insurance Act, 2021, and shall Short title and",
+      "text": "come into operation on the date appointed by the Minister by commencement\nstatutory instrument."
+    },
+    {
+      "number": "2",
+      "heading": "In this Act, unless the context otherwise requires— Interpretation",
+      "text": "“ actuary ” means a person appointed as an actuary under\nsection 69;\n424 No. 38 of 2021] Insurance\n“ Agreement ” means the Agreement establishing the ZEP-\nRE (Preferential Trade Area Reinsurance Company)\nsigned by Heads of State and Government of the Common\nMarket for Eastern and Southern Africa region on 21st\nNovember, 1990, in Mbabane, Swaziland;\n“ Africare Agreement ” means the Agreement establishing\nthe African Reinsurance Corporation, which was signed\non behalf of the African States, members of the\nOrganisation for African Unity (now African Union) and\nthe African Development Bank on 24th February, 1976, in\nYaoundé, Cameroon and came into force, in respect of\nZambia, on 31st January, 1977;\n“ appropriate authority ” means the Minister responsible for,\nor such public body having powers under, any other written\nlaw over an incorporate or unincorporate entity and the\nmanagement of insurance information and includes a public\nofficer or employee of a statutory body or institution under\nthe following laws—\nAct No. 35 (a) the Narcotic Drugs and Psychotropic Substances\nof 2021 Act;\nCap. 107 (b) the Zambia Police Act;\nCap. 321 (c) the Zambia Revenue Authority Act;\nAct No. 14 of (d) the Prohibition and Prevention of Money\n2001\nLaundering Act, 2001;\nAct No. 11 of (e) the Road Traffic Act, 2002\n2002\nAct No. 15 of (f) the Information and Communications Technologies\n2009 Act, 2009;\nAct No. 24 of (g) the Competition and Consumer Protection Act,\n2010 2010;\nAct No. 46 of (h) the Financial Intelligence Centre Act, 2010;\n2010\nAct No. 3 of (i) the Anti-Corruption Act, 2012;\n2012\nAct No. 7 of (j) the Banking and Financial Services Act, 2017;\n2017\nAct No. 9 (k) the Corporate Insolvency Act, 2017;\nof 2017\nAct No. 10 of (l) the Companies Act, 2017; and\n2017\nAct No. 41 of (m) the Securities Act, 2016;\n2016\nInsurance [No. 38 of 2021 425\n“ assessor ” means a person, not being a loss adjuster, who,\nin the event of a claim against an insurer for loss or\ndamage, assesses the extent of the loss or damage;\n“ associate ” has the meaning assigned to the word in the\nAnti-Corruption Act, 2012; Act No. 3 of\n2012\n“ auditor ” has the meaning assigned to the word in the\nAccountants Act, 2008; Act No. 13\nof 2008\n“ Authority ” means the Pensions and Insurance Authority\nestablished under the Pension Scheme Regulation Act, Act No. 28\n1996; of 1996\n“ bank ” has the meaning assigned to the word in the Banking\nand Financial Services Act, 2017; Act No. 7 of\n2017\n“ banking business ” has the meaning assigned to the words\nin the Banking and Financial Services Act, 2017; Act No. 7 of\n2017\n“ Bank of Zambia ” means the Bank of Zambia established\nby the Constitution; Cap. 1\n“ beneficial owner ” has the meaning assigned to the words\nin the Companies Act, 2017; Act No. 10\nof 2017\n“ beneficiary ” means a person for whose benefit a policy is\nissued;\n“ Board ” has the meaning assigned to the word in the Pension\nScheme Regulation Act, 1996; Act No. 28\nof 1996\n“ board of directors ” means the governing board of a licensee;\n“ ceding insurer ” means an insurer who assigns a risk under\na policy to a reinsurer;\n“ Chairperson ” means the person appointed as Chairperson\nof the Board under the Pension Scheme Regulation Act, Act No. 28\n1996; of 1996\n“ child ” has the meaning assigned to the word in the\nConstitution and includes a child born out of wedlock, a Cap. 1\nstep child, an adopted child or a posthumous child born\nwithin ten months from death of the father;\n“ citizen ” has the meaning assigned to the word in the\nConstitution; Cap. 1\n“ citizen owned company ” means a company where one\nhundred percent of its equity is owned by citizens and in\nwhich citizens have significant control of the management\nof the company;\n“ claims agency business ” means the business of negotiation\nand settlement of a claim arising from a policy, with an\ninsurer or the insurer’s representative, on behalf of an\ninsured person;\n426 No. 38 of 2021] Insurance\n“ claims agent ” means a person licensed to carry on a claims\nagency business;\n“ Commission ” means the Competition and Consumer\nAct No. 24 Protection Commission established by the Competition\nof 2010 and Consumer Protection Act, 2010;\n“ Committee ” means the Policyholders’ Protection Committee\ncontinued under section 180;\n“ company ” has the meaning assigned to the word in the\nAct No. 10 Companies Act, 2017;\nof 2017\n“ contract of insurance ” means an agreement under which a\nperson pays a premium to an insurer who undertakes to\nindemnify the person against risk or loss, damage or liability\narising from the occurrence of some specified contingency;\n“ contract of reinsurance ” means an agreement under which\none or more reinsurers agree to indemnify a ceding insurer\nagainst all or part of a risk arising under a policy that the\ninsurer has issued;\n“ control ” in relation to the management of an insurer, has\nAct No. 10 the meaning assigned to the word in the Companies Act,\nof 2017 2017;\n“ court” has the meaning assigned to the word in the\nCap. "
+    },
+    {
+      "number": "3",
+      "heading": "This Act shall be administered by the Authority. Administration",
+      "text": "of Act"
+    },
+    {
+      "number": "4",
+      "heading": "The seal of the Authority kept in terms of the Pension Seal of",
+      "text": "Authority\nScheme Regulation Act, 1996, shall be used for the purposes of Act No. 28\nthis Act and the impression made for that purpose shall be judicially of 1996\nnoticed."
+    },
+    {
+      "number": "5",
+      "heading": "The Registrar appointed under the Pension Scheme Registrar Act",
+      "text": "Regulation Act, 1996, shall, in addition to the Registrar’s functions No. 28 of\n1996\nand powers specified in that Act and any other written law, exercise\nthe power and perform the functions conferred on the Registrar in\nthis Act.\nPART III\nREGULATION OF INSURANCE INDUSTRY"
+    },
+    {
+      "number": "6",
+      "heading": "(1) A person shall not carry on insurance business or hold Prohibition",
+      "text": "on carrying\noneself out as an insurer, reinsurer, intermediary, assessor, claims\non insurance\nagent, loss adjustor or risk surveyor unless the person is licensed business\nwithout\nunder this Act.\nlicence\n(2) A person who contravenes subsection (1) commits an\noffence and is liable, on conviction, to a fine not exceeding two\nhundred thousand penalty units or to imprisonment for a term not\nexceeding two years, or to both."
+    },
+    {
+      "number": "7",
+      "heading": "A licence issued by the Authority shall authorise the licensee Types of",
+      "text": "to provide any of the following types of insurance services: licences\n(a) insurance;\n(b) reinsurance;\n(c) microinsurance;\n(d) insurance brokering;\n(e) loss adjustering;\n(f) microinsurance agregation;\n(g) microinsurance agency;\n(h) risk surveyor;\n(i) assessor;\n(j) claims agency;\n(k) insurance agency; and\n(l) underwriting agency.\n434 No. 38 of 2021] Insurance\nCategories 8. Subject to section 9, a person may engage in—\nof insurance\nbusiness (a) long-term insurance business;\n(b) general insurance business; or\n(c) microinsurance business.\nRestriction 9. (1) Subject to subsection (2), the Authority shall not issue\non\na licence to carry on—\ncomposite\ninsurance (a) long-term insurance business if the applicant is already\ncarrying on, or has applied to be licensed to carry on,\ngeneral insurance business; or\n(b) general insurance business if the applicant is already\ncarrying on, or has applied to be licensed to carry on,\nlong term insurance business.\n(2) Subsection (1) shall not apply to a reinsurer and\nmicroinsurer.\nApplication 10. A person who intends to provide an insurance service\nfor\nunder section 7 shall, apply to the Authority, for a licence, in a\ninsurance\nlicence prescribed manner and form on payment of a prescribed fee.\nConsideration 11. (1) The Authority shall, on receipt of an application, made\nand grant or\nunder section 10, within ninety days, grant a licence to the applicant\nrefusal to\ngrant licence on terms and conditions that may be prescribed, if the applicant—\n(a) is capable of carrying on insurance business as specified\nin this Act;\n(b) is capable of protecting the interests of policyholders\nin preference to, but not to the exclusion of, the interests\nof the shareholders and other providers of the\napplicant’s capital;\n(c) meets the minimum financial, solvency and liquidity\nrequirements, or other criteria that may be prescribed\nin accordance with this Act or any other written law in\nrespect of the insurance business to which the\napplication relates; and\n(d) is competent to conduct the insurance business for the\nclass to which the application relates.\n(2) A licensee shall—\n(a) comply with the prescribed terms and conditions of a\nlicence;\n(b) meet the prescribed minimum capital requirements;\nand\n(c) comply with other conditions that may be prescribed,\nfor the protection of a policyholder.\nInsurance [No. 38 of 2021 435\n(3) The Authority shall, where an application fails to comply\nwith the requirements under subsection (1), refuse to grant the\nlicence to the applicant.\n(4) The Authority shall, within ninety days of receipt of an\napplication under subsection (3), notify the applicant of the decision\nto reject the application, stating the reasons for the rejection.\n(5) Where the Authority fails to notify an applicant of the\nAuthority’s decision to grant or refuse the licence within the period\nspecified under subsections (1) and (4), the application is considered\nto be granted."
+    },
+    {
+      "number": "12",
+      "heading": "(1) A licence granted under this Part shall remain in force Duration of",
+      "text": "subject to the prescribed conditions unless earlier suspended, licence\ncancelled or surrendered.\n(2) A licensee shall pay the prescribed annual fee and comply\nwith the terms and conditions of the licence, or this Act."
+    },
+    {
+      "number": "13",
+      "heading": "Where a licensee decides not to continue operating, the Surrender of",
+      "text": "licensee shall surrender the licence to the Authority. licence"
+    },
+    {
+      "number": "14",
+      "heading": "(1) Subject to section 120, the Authority may take Suspension",
+      "text": "supervisory action by suspending or cancelling a licence. and\ncancellation\n(2) The Authority shall, before suspending or cancelling a of licence\nlicence, in accordance with subsection (1)—\n(a) give to the licensee, in the prescribed form and manner,\nwritten notice of its intention to suspend or cancel the\nlicence;\n(b) give the reasons for the intended suspension or\ncancellation; and\n(c) direct the licensee to show cause, within a period of\nthirty days, why the licence should not be suspended or\ncancelled.\n(3) Where a licensee takes remedial measures to the\nsatisfaction of the Authority, within the period specified in subsection\n(2), the Authority shall not suspend or cancel the licence.\n(4) The Authority shall, in making its final determination on\nthe suspension or cancellation of a licence, consider the submissions\nmade by the licensee, under subsection (2), and any remedial\nmeasures taken under subsection (3).\n436 No. 38 of 2021] Insurance\n(5) The Authority may suspend or cancel a licence if the\nlicensee, after being notified under subsection (2), fails to show\ncause or does not take any remedial measures to the satisfaction\nof the Authority within the specified period.\n(6) The Authority shall, where it suspends or cancels a licence\nunder this section—\n(a) publish a notice of the suspension or cancellation in the\nGazette, daily newspaper of general circulation or in\nother electronic media in the Republic; and\n(b) take any additional steps necessary to inform the public\nof the suspension or cancellation of the licence.\nEffect of 15. (1) Where a licence is suspended under this Act, the licensee\nsuspension\nshall, for the period of the suspension of the licence, cease to be\nor\ncancellation entitled to the rights and benefits conferred by the licence and this\nof licence Act.\n(2) Where a licence is cancelled under this Act, the licensee\nshall—\n(a) with effect from the date of the cancellation, cease to\nbe entitled to the rights and benefits conferred by the\nlicence and this Act; and\n(b) surrender the licence to the Authority.\n(3) A licensee whose licence is suspended or cancelled under\nthis Act shall not, from the date of receiving a notice of the suspension\nor cancellation from the Authority—\n(a) enter into a new contract in relation to the business\nauthorised by the licence; or\n(b) renew or vary a contract entered into with any person\nin relation to the business authorised by the licence.\n(4) Where a licence is suspended or cancelled under this Act,\nand the licensee has a liability in respect of the business authorised\nby the licence—\n(a) this section shall not be a defence by the licensee against\nthat liability; and\n(b) the licensee shall take necessary action, or an action\nthat the Authority may direct, to make good the liability.\nInsurance [No. 38 of 2021 437"
+    },
+    {
+      "number": "16",
+      "heading": "(1) A licensee who loses a licence, issued under this Act,",
+      "text": "Loss or\nshall— damage of\nlicence\n(a) within seven days of the loss, inform the Registrar in\nwriting; and\n(b) apply to the Authority, in the prescribed manner and\nform, for a duplicate licence.\n(2) A licensee whose licence is defaced or damaged shall apply\nto the Authority for a duplicate licence.\n(3) The Authority shall, where an application made under\nsubsection (1) or (2) meets the requirements of this Act, issue a\nduplicate licence in a prescribed manner and form on payment of a\nprescribed fee.\nApplication"
+    },
+    {
+      "number": "17",
+      "heading": "(1) Subject to section 6, a licensee may apply to the",
+      "text": "for\nAuthority for an amendment to a licence to authorise the licensee amendment\nto carry on insurance business, of a class not authorised by the of licence\nlicence in the prescribed manner and form on payment of a\nprescribed fee.\n(2) The Authority shall, within sixty days of receipt of an\napplication to amend a licence under subsection (1)—\n(a) amend the licence on the terms and conditions that the\nAuthority may specify in the licence and endorse the\nlicence; or\n(b) refuse to amend the licence.\n(3) Subject to subsection (2), the Authority shall within seven\ndays of its decision, notify the applicant of the Authority’s decision."
+    },
+    {
+      "number": "18",
+      "heading": "(1) Subject to section 166, a licensed insurer or reinsurer Accepting",
+      "text": "shall not accept insurance business or pay commission or other insurance\nbusiness\nform of remuneration to a person who is not licensed in accordance from\nwith this Act. unlicensed\nperson\n(2) A licensed insurer or reinsurer who contravenes subsection\n(1) commits an offence and is liable, on conviction, to a fine not\nexceeding two hundred thousand penalty units or to imprisonment\nfor a term not exceeding two years, or to both."
+    },
+    {
+      "number": "19",
+      "heading": "(1) A person shall not cause another person to enter into, Entering into",
+      "text": "insurance\nor to make an application to enter into, an insurance business with\ncontract with\na person who is not licensed in accordance with this Act. unlicensed\nperson\n438 No. 38 of 2021] Insurance\n(2) A person who contravenes subsection (1) commits an\noffence and is liable, on conviction, to a fine not exceeding two\nhundred thousand penalty units or to imprisonment for a term not\nexceeding two years, or to both.\nRepayment 20. (1) A person holding funds obtained by conducting insurance\nof funds business in contravention of this Act shall repay the funds in\naccordance with the directions that the Registrar may give.\n(2) A person who fails to comply with the directions given\nunder subsection (1) commits an offence and is liable, on conviction,\nto pay the Authority a fine of twenty thousand penalty units for\neach day that the failure to comply continues.\n(3) Funds repayable under this section which remain unpaid\nat the end of the period directed by the Registrar for repayment is\na debt due to the Authority in trust for a person who appears to the\nAuthority to be lawfully entitled to the funds.\n(4) The Authority may institute an action in a court of\ncompetent jurisdiction to recover funds repayable under this section.\n(5) Nothing in this section relieves a person from criminal\nliability as provided in this Act, or any other written law, as a result\nof the person’s contravention of this section.\nInsurance 21. (1) A licensed insurance broker shall, where a premium\nbroker to\ntransmit on a policy is paid to the licensed insurance broker by a client,\npremium within fourteen days or other period that may be agreed, in writing,\nbetween the licensed insurer and the licensed insurance broker,\ntransmit the premium to the licensed insurer, less any agreed\ncommission or other charges payable by that licensed insurer to\nthe licensed insurance broker.\n(2) A licensed insurance broker who contravenes subsection\n(1) shall, in addition to the outstanding premium payable to the\nlicensed insurer, be liable to pay interest to the licensed insurer at\nthe prevailing Bank of Zambia policy rate plus ten percent of that\nrate.\n(3) Despite subsection (2), a licensed insurance broker who\ncontravenes this section commits an offence and is liable, to pay to\nthe Authority an administrative penalty not exceeding ten thousand\npenalty units for each day that the offence continues.\nSeparate 22. (1) A licensed insurance broker shall deposit, in a separate\nclient\nclient account, moneys received by the licensed insurance broker\naccount\nfrom or on behalf of a client and shall keep that money separate\nfrom the money belonging to the licensed insurance broker.\nInsurance [No. 38 of 2021 439\n(2) The Registrar may, in writing, direct a licensed insurance\nbroker to disclose a client account and the manner in which the\naccount is being maintained.\n(3) A licensed insurance broker shall not maintain a client\naccount in a bank in which the licensed insurance broker, a director\nor partner of that licensed insurance broker is the beneficial owner.\n(4) A licensed insurance broker who contravenes this section\ncommits an offence and is liable, to an administrative penalty not\nexceeding ten thousand penalty units for each day that the offence\ncontinues.\nPART IV\nINSURANCE POLICIES"
+    },
+    {
+      "number": "23",
+      "heading": "(1) A licensed insurer shall at least thirty days before use Lodging of",
+      "text": "of a policy form or proposal form, lodge with the Registrar a copy insurance\nform\nof the policy form.\n(2) The Registrar may, for reasons that may be prescribed,\nprohibit the use of a form lodged under subsection (1), unless the\nform meets the requirements that the Registrar may determine.\n(3) A licensed insurer who contravenes this section commits\nan offence and is liable, on conviction, to a fine not exceeding\ntwenty thousand penalty units."
+    },
+    {
+      "number": "24",
+      "heading": "(1) A licensed insurer shall issue a policy which contains Form of",
+      "text": "terms and conditions that are in legible print and clear typeface of policies\na legible font as prescribed.\n(2) A licensed insurer who contravenes subsection (1) commits\nan offence."
+    },
+    {
+      "number": "25",
+      "heading": "(1) The Authority may request a licensed insurer to submit Premium",
+      "text": "to the Registrar, within a period that the Authority may determine, rates\nthe premium rates being charged by that licensed insurer.\n(2) The Authority shall, where the Authority finds a premium\nrate being charged by a licensed insurer is below a pure risk premium,\ndirect that licensed insurer, in writing, to cease charging that rate.\n(3) A licensed insurer who continues to charge the premium\nrate, after being directed by the Authority to cease charging the\nrate under subsection (2), commits an offence and is liable, to pay\nthe Authority a penalty of twenty thousand penalty units for each\nday that the licensed insurer continues to charge the rate.\n440 No. 38 of 2021] Insurance\n(4) Despite this section, the Authority shall not be prevented\nfrom enforcing section 173 against a chief executive officer of a\nlicensed insurer where that licensed insurer contravenes this section.\nPayment of 26. (1) A policy of general insurance shall cease to operate if\npremium a premium is not paid within thirty days after the due date of the\npremium or within a period that the policy may specify.\n(2) Despite subsection (1), a licensed insurer who issued the\npolicy shall cancel a policy of general insurance where the premium\nis not paid by the policyholder and notify the policyholder of the\ncancellation in writing.\n(3) The Minister may, on the recommendation of the Board,\nby statutory instrument, make Regulations relating to the payment\nof premiums for all categories of insurance business.\n(4) For the purposes of this section, where a policyholder pays\na premium to a licensed insurance broker that arranged a policy\nwith the policyholder, the premium is considered to have been paid\nto the licensed insurer.\n(5) For the purposes of subsection (1), “ due date ” means the\ndate on which the first premium falls due.\nCurrency 27. A sum insured, premium and any other sum of money\nmentioned in a policy, shall be stated in the currency of the Republic\nor in any foreign currency acceptable to a bank and financial\nAct No. 7 of institution licensed under the Banking and Financial Services Act,\n2017"
+    },
+    {
+      "number": "2017",
+      "heading": "Settlement 28. (1) A licensed insurer shall, where a claim is made, in writing,",
+      "text": "of claims by a policyholder and the licensed insurer accepts liability, the\nlicensed insurer shall settle the claim within a prescribed period.\n(2) Where a licensed insurer does not accept liability, under\nsubsection (1), the licensed insurer shall not later than a prescribed\nperiod from the date on which the claim is delivered to the licensed\ninsurer, deliver to the person making the claim or that person’s\nauthorised representative a statement, in writing, stating the reasons\nfor disclaiming liability.\n(3) A licensed insurer who contravenes this section commits\nan offence and is liable to pay the Authority an administrative penalty\nnot exceeding ten thousand penalty units for each day that the\noffence continues.\nInsurance [No. 38 of 2021 441"
+    },
+    {
+      "number": "29",
+      "heading": "A licensed insurer who receives a proposal for a policy Policies and",
+      "text": "payments\nshall issue the policy in the Republic and any premium and payment\narising from the policy is payable in the Republic."
+    },
+    {
+      "number": "30",
+      "heading": "(1) A policyholder may, despite a provision to the contrary Action",
+      "text": "against\nin the policy, enforce that policyholder’s rights under the policy\ninsurer and\nagainst a licensed insurer or licensed broker in the court. insurance\nbroker\n(2) Despite subsection (1), where a policy provides that a\nquestion of law arising in an action between the policyholder and\nthe licensed insurer shall be determined by arbitration, the court\nshall give effect to that provision and order that the action be\ndetermined by arbitration in accordance with the Arbitration Act, Act No. 19"
+    },
+    {
+      "number": "2000",
+      "heading": "of 2000",
+      "text": "(3) Where a policy does not provide expressly or by implication\nthat a question of law arising in an action between a policyholder\nand the licensed insurer shall be determined by arbitration, a court\nshall proceed to hear and determine the action in accordance with\nthis Act."
+    },
+    {
+      "number": "31",
+      "heading": "(1) A minor may, with the consent of the minor’s guardian, Life insurance",
+      "text": "effect a life policy on the minor’s own life and pay any premium by minor\nunder the policy with money at the minor’s disposal.\n(2) Subject to subsection (1), a minor may effect a life policy\non the minor’s life and pay a premium due under the policy with\nmoney at the minor’s disposal for the minor’s own benefit or for\nthe benefit of a child of the minor.\n(3) A minor who effects a life policy, under subsection (1),\nshall not, without the consent of the minor’s guardian, pledge, assign\nor surrender the policy.\n(4) A minor shall—\n(a) be the holder of the life policy; and\n(b) have the right to exercise all powers and privileges in\nrelation to the policy as if the minor were of full age."
+    },
+    {
+      "number": "32",
+      "heading": "(1) A life policy shall name the beneficiary and the beneficial Customer",
+      "text": "due diligence\nowner under the policy.\nto life\ninsurance\n(2) A licensed insurer or reinsurer shall carry out customer policies\ndue diligence measures in identifying the beneficiary of a policy as\nprovided under any relevant written law.\n442 No. 38 of 2021] Insurance\nProtection of 33. (1) The proceeds on realisation of the policy shall, during\nproceeds the lifetime of that person and to the extent specified in subsection\nduring life of\n(2), be protected against a creditor or a claim in connection with an\npolicyholder\nattachment or bankruptcy, where a life policy taken by a person on\nthe person’s own life has subsisted for three years or more from\nthe date of payment of the first premium and the policy—\n(a) is attached in execution of a judgment or order of a\ncourt at the instance of a creditor of the person; or\n(b) becomes part of the estate in the bankruptcy of that\nperson.\n(2) The protection afforded by this section shall—\n(a) subject to paragraph (b), apply if the policy is pledged\nto an amount of the proceeds, on realisation of the policy,\nthat exceed the amount of the liability secured by the\npledge; and\n(b) not extend to prescribed amount of the proceeds realised\nunder this Act.\n(3) Money or an asset shall, to the extent specified under\nsubsection (4), be protected against that creditor or a claim in\nconnection with the attachment or bankruptcy during the period of\nfive years from the date the money first became due or payable\nunder the policy, where money due or payable to a person by a\nlicensed insurer under a life policy under subsection (1), or asset\nacquired or partly acquired with that money—\n(a) is attached in execution of a judgment or order of court\nat the instance of a creditor of that person; or\n(b) becomes part of the estate in bankruptcy of that person.\n(4) The protection provided under subsection (3) in respect of\nthe money or assets of a person under that subsection shall—\n(a) subject to paragraph (b), apply in the case of an asset\nwhich is pledged or mortgaged, to an amount of the\nproceeds, on realisation of the asset, that exceed the\namount of the liability secured by the pledge or mortgage;\n(b) extend to that money, or the proceeds realised from the\nassets, insofar as that money or realised proceeds,\ntogether with—\n(i) other money due or paid to the person under\nsubsection (1);\n(ii) the value of other existing assets of the person\nacquired with the money paid under a life policy\nunder subsection (1); and\nInsurance [No. 38 of 2021 443\n(iii) the realisable value of a life policy under\nsubsection (1) of which the person is the holder,\ndo not exceed three thousand three hundred and\nthirty three fee units or a prescribed amount;\nand\n(c) not extend to money due or paid under a life policy under\nsubsection (1) on the surrender of the policy, or to an\nasset acquired with that money.\n(5) For the purposes of this section, a life policy issued by a\nlicensed insurer—\n(a) in exchange for, or in consideration of, the surrender of\nanother life policy under which the licensed insurer was\npreviously liable, is considered to have been effected\non the date on which the surrendered policy was issued,\nif the licensed insurer did not receive a payment other\nthan the value of the surrendered policy as consideration\nfor the new policy; and\n(b) under section 35(3), is considered to have been effected\non the date on which the old life policy for which it was\nsubstituted was issued."
+    },
+    {
+      "number": "34",
+      "heading": "A beneficiary shall have the protection provided under Protection of",
+      "text": "beneficiary\nsection 33, where on the death of a holder of a life policy, or the\non death of\nholder of money or an asset in respect of which protection is afforded\npolicyholder\nunder that section, the beneficiary has a claim under the policy or\nto the money or asset, and that policy, money or assets—\n(a) are attached in the execution of a judgment or order of\na court at the instance of a creditor of the deceased\nholder of the policy, money or asset; or\n(b) become part of the estate in bankruptcy of the deceased\nholder of the policy, money or assets."
+    },
+    {
+      "number": "35",
+      "heading": "(1) A policy or money payable under a policy shall not, Protection of",
+      "text": "policy for\nwhere a person before or during the subsistence of that person’s\nspouse and\nmarriage, effects or assigns a policy for the benefit of that person’s\nchildren\nspouse or child, subject to this section and in the case of a policy\nwhich is assigned to the terms of the assignment—\n(a) be attached in execution of a judgment or order of a\ncourt at the instance of a creditor of the person by whom\nthe policy was effected or assigned; or\n(b) form part of the estate in bankruptcy of the person by\nwhom the policy was effected or assigned.\n444 No. 38 of 2021] Insurance\n(2) A benefit conferred or purported to be conferred on a\nspouse or child by the assignment of a life policy under subsection\n(1), shall be enforceable against the licensed insurer who is liable\nunder the policy at the suit of the spouse or child, despite the spouse\nor child not accepting the benefit and not being a party to the policy—\n(a) or any agreement to the contrary between the licensed\ninsurer and the person by whom the policy was effected;\nand\n(b) subject, in the case of a policy which is assigned, to the\nterms of the assignment.\n(3) A life policy shall not, for the purposes of this section, be\ntreated as having been effected for the benefit of the spouse or\nchild of the person who effected the policy unless, expressly provided\nfor at the time of issue, of the policy.\nFurther 36. (1) The proceeds realised under a policy shall, to the extent\nprotection\nspecified in section 35(2), be protected against the creditor or a\nfor spouse\nclaim in connection with the attachment or bankruptcy where a\nperson, before or during the person’s marriage, effects or assigns\nfor the benefit of the person’s spouse a life policy on the person’s\nlife or the life of the person’s spouse, and the policy—\n(a) is attached in execution of a judgment or order of a\ncourt at the instance of a creditor of the spouse for\nwhose benefit the policy was effected or assigned; or\n(b) becomes part of the estate in bankruptcy of that spouse.\n(2) Section 33(3), (4) and (5) and section 35(2) and (3) shall,\nwith the necessary modifications, apply to—\n(a) a life policy under subsection (1);\n(b) money due or paid under the policy by the licensed\ninsurer; and\n(c) assets acquired with money under paragraph (b) or with\nthat money and other money.\nSelection for 37. A judgment creditor or trustee of the estate in bankruptcy\nrealisation of shall determine the policies or assets realised, wholly or partly, in\nlife policy\norder to make available to a person the aggregate realisable value\nnot protected where—\n(a) two or more life policies or assets which are the property\nof one person and in respect of which protection is\nafforded by section 33, 34 or 35 are attached in execution\nof a judgment or order of a court at the instance of a\ncreditor; or\nInsurance [No. 38 of 2021 445\n(b) the holder of two or more life policies or assets in respect\nof which protection is afforded under section 33, 34 or\n35 is declared bankrupt; and a part only of the aggregate\nrealisable value of the policies or assets is protected."
+    },
+    {
+      "number": "38",
+      "heading": "(1) A judgment creditor of the holder of a life policy or the Partial",
+      "text": "realisation\ntrustee of the policyholder’s estate in bankruptcy who is entitled to\nand\na part of the realisable value of the policy may, where the judgment conversion\ncreditor or trustee is in possession of the policy, deliver it to a licensed of policy\ninsurer who is liable under the policy for payment to the judgment\ncreditor or trustee of the sum to which the judgment creditor or\ntrustee is entitled.\n(2) A policyholder or other person in possession of the policy\nshall, where a judgment creditor or trustee, under subsection (1), is\nnot in possession of the life policy to which the subsection relates,\nat the request of the judgment creditor or trustee, deliver it to the\nlicensed insurer who is liable under the policy for payment to the\njudgment creditor or trustee of the sum to which the judgment\ncreditor or trustee is entitled.\n(3) A licensed insurer shall, on receipt of a life policy, delivered\nunder subsection (1) or (2), at the request of the—\n(a) judgment creditor or trustee, under subsection (1), pay\nto the judgment creditor or trustee a sum equal to the\npart of the realisable value of the policy to which the\njudgment creditor or trustee is entitled; or\n(b) policyholder under subsection (2), issue to the\npolicyholder a new policy of the same class but for a\nsum insured equal to the difference between—\n(i) the full sum under the old policy, including any\nbonus which may have accrued in connection\nwith it; and\n(ii) an amount which bears the same ratio to the\nfull sum insured under the old policy, including\nany bonus, as the amount paid by the licensed\ninsurer to the judgment creditor or trustee under\nsubsection (1) bears to the full realisable value\nof the old policy.\n(4) Where a licensed insurer makes a payment or issues a\nnew life policy, under subsection (3), the old life policy shall lapse.\n446 No. 38 of 2021] Insurance\nAgreement 39. Where a person who effects or assigns a life policy for\nto exchange the benefit of the person’s spouse or holds a life policy in trust for\nlife policy\nanother person is unable to pay the premiums expected to be paid\non the life policy, the person may, with the consent of a person\nhaving an interest in the policy, or a minor’s guardian, where the\nperson interested in the policy is a minor, agree with the licensed\ninsurer under the policy to—\n(a) exchange the policy with a paid up life policy of a value\nequal to that of the original policy in accordance with\nthe licensed insurer’s current tariff payable at the time\nand in the manner stipulated in the original policy to the\nperson entitled to the sum insured by the original policy;\n(b) borrow from the licensed insurer, on terms and\nconditions of the policy, sums that may be necessary to\nkeep the policy in force or revive it; or\n(c) apply a bonus, which has accrued in connection with\nthe policy, to a temporary or permanent reduction of\npremiums or to the payment of premiums which have\nfallen due.\nIncorrect 40. (1) A policy shall not be avoided by reason of an incorrect\nstatement in statement made in a proposal or other document based on which\nproposal for\nthe policy was issued or reinstated by a licensed insurer, unless the\nlife policy\nstatement was material to the risk of the licensed insurer, and made\nknowing that it was false or without reason to believe that the\nstatement was true.\n(2) Despite any written law or agreement between the proposer\nand the licensed insurer, where a licensed insurance agent or a\nservant of a licensed insurer completes a proposal for a policy\nwith the licensed insurer, a policy issued on the basis of the proposal\nshall not be avoided by reason of an incorrect or false statement\ncontained in those particulars, unless the incorrect or false statement\nwas made by the proposer to the licensed insurance agent or the\nservant of the licensed insurer for the purposes of the proposal.\n(3) The burden of proving that a statement, under subsection\n(2) was made by the proposer for the purposes of the proposal lies\nwith the licensed insurer.\nLife policy 41. (1) This section shall not be construed as derogating from\nintended to\nthe power of a court of competent jurisdiction to set aside, under\ndefraud\ncreditor the law relating to bankruptcy, an assignment of a life policy made\nwith intent to benefit a person at the expense of a creditor.\nInsurance [No. 38 of 2021 447\n(2) A court of competent jurisdiction may, where a premium\non a life policy is paid with the intent to benefit a person at the\nexpense of a creditor of the person making the payment, order the\npolicyholder to pay a sum equal to the aggregate of premiums\npaid, with interest at the prevailing Bank of Zambia rate, on the\namount of each premium paid from the date of its payment to—\n(a) the person to whose detriment the premium was paid;\nor\n(b) where the person, under paragraph (a) is declared\nbankrupt, to the trustee of the estate in bankruptcy of\nthat person.\n(3) An order, made under subsection (2) shall have the effect\nof pledging, as security, the"
+    },
+    {
+      "number": "42",
+      "heading": "A written statement made in an insurance proposal as to Proof of age",
+      "text": "the age or date of birth of the insured person shall, for purposes of\nthe claim, be accepted as the correct age or date of birth of the\ninsured person, where—\n(a) a claim for a benefit under a life policy has been insured\nfor a period of three years or more from the date of the\npayment of the first premium;\n(b) the age or date of birth of an insured person is not admitted\nby the licensed insurer, unless the contrary is proved by\nsubmission of medical examination records of the insured\nperson by the licensed insurer; or\n(c) a person claiming a benefit shows that as a result of\ncircumstances beyond the person’s control, that person\nor the person by whom the policy was effected was\nnot aware of a document showing proof of the age or\ndate of birth of the insured person."
+    },
+    {
+      "number": "43",
+      "heading": "(1) Where, after the issuance of a life policy, it is reasonably Incorrect age",
+      "text": "in life policy\nproved that the life policy issued is based on an incorrect statement\nof the age of the person whose life is being insured, the sum insured\nand other benefits under the policy shall, subject to subsection (2),\nbe payable on that premium as if the policy was secured on a\ncorrect statement of the person’s age.\n448 No. 38 of 2021] Insurance\n(2) The Authority may, where the Authority is satisfied that\nthe nature of a life policy of a particular kind issued by a licensed\ninsurer on the basis of an incorrect statement renders subsection\n(1) inequitable, direct the licensed insurer to apply, in relation to\npolicies of that kind, other methods of making adjustments, in respect\nof the incorrect statement of age, as the Authority considers\nequitable.\nDeath 44. (1) A life policy shall not be void—\noccasioned\nby insured (a) due to a provision in that policy stating that the life policy\nperson or\nis made void by the death of the insured person caused\nbeneficiary\nby the person’s own act resulting in death of that person;\nand\n(b) by reason of the death of an insured person arising from\nthat person’s actions within two or more years after the\nissue of the policy, despite the absence of a provision\ngiving effect to that eventuality in the policy.\n(2) A policy of life insurance shall not be void merely on the\ngrounds that the person whose life is insured died by that person’s\nactions, whether sane or insane, suffered capital punishment, where\non the true construction of the policy, a licensed insurer has thereby\nagreed to pay the sum insured in the event that such an occurrence\nhappened.\n(3) Where a beneficiary intentionally causes the death of an\ninsured person, the beneficiary’s benefit under the policy is void.\nLost or 45. (1) Where a life policy is lost or destroyed and advertised\ndestroyed in a prescribed manner, the licensed insurer who is liable under the\nlife policy\npolicy shall, at the request of the policyholder, and on payment of a\nprescribed fee, issue to the policyholder a correct and certified\ncopy of—\n(a) the policy, in which is inscribed any endorsement made\nby a licensed insurer on the original policy after its issue;\nand\n(b) a record in the possession of the licensed insurer of\nany dealings with the policy after its issue.\n(2) A certified copy of a life policy, issued under subsection (1),\nshall replace the lost or destroyed policy and be evidence of the\ncontract made.\nInsurance [No. 38 of 2021 449"
+    },
+    {
+      "number": "46",
+      "heading": "(1) A life policy, issued after the commencement of this Cancellation",
+      "text": "of life policy\nAct, may be cancelled by the policyholder within thirty days of\nreceipt of the policy by the policyholder.\n(2) A policyholder shall, where a policy is cancelled under\nsubsection (1), be refunded all premiums paid less any expenses\nor medical fee incurred by a licensed insurer and brought to the\nnotice of the policyholder in writing."
+    },
+    {
+      "number": "47",
+      "heading": "(1) Subject to subsection (2), a licensed insurer shall not Discrimination",
+      "text": "between life\ndiscriminate or permit any discrimination in the rate of premiums\npolicy\ncharged or the rate of bonus granted between life policies which\nare of the same kind and under which the persons whose lives are\ninsured have an equal expectation of life.\n(2) Subsection (1) shall not apply to a life policy which—\n(a) is a contract of reinsurance;\n(b) is for large sums at preferential rates in accordance\nwith the current tariff of the licensed insurer concerned;\n(c) insures’ at preferential rates, the lives of—\n(i) employees of one or more employers or members\nof the families of those employees; or\n(ii) a group of persons carrying on the same\noccupation; or\n(d) is of a prescribed class.\n(3) A director, employee or agent of a licensed insurer shall\nnot accept a proposal for a life policy in respect of which a\npromissory note, bill of exchange or other negotiable instrument,\nnot being a financial instrument payable on the date of issue or an\nacknowledgement of debt, not being a stop order, is given in favour\nof the licensed insurer or any other person, for the first year’s\npremium or a part of the first year’s premium.\n(4) A person who contravenes this section commits an offence."
+    },
+    {
+      "number": "48",
+      "heading": "(1) A licensed insurer shall not issue a life policy unless Premium rate",
+      "text": "the— on life policy\n(a) rate of premium chargeable under the policy is approved\nas suitable by an actuary; and\n(b) rate and the basis for the rate, together with the actuary’s\ncertificate, is lodged with the Registrar, at least thirty\ndays before giving effect to the rate.\n450 No. 38 of 2021] Insurance\n(2) The Registrar may direct a licensed insurer to obtain and\nfurnish the Registrar, within a period as the Registrar may specify—\n(a) a report by an actuary regarding the suitability of the\nrate of premium chargeable under a class of policy\nissued by the licensed insurer; and\n(b) where the actuary considers that the rate is not suitable,\na report as to the rate of premium, which the actuary\napproved as suitable, in respect of that class of policy.\n(3) A licensed insurer directed by the Registrar under\nsubsection (2), shall not, after the expiry of the period specified by\nthe Registrar, issue a policy of the class in question until the licensed\ninsurer has—\n(a) obtained the actuary’s written approval of the rate of\npremium chargeable under that class of policy;\n(b) notified the Registrar, in writing, that the actuary’s\napproval has been obtained; and\n(c) attached a certified copy of the approval.\n(4) An actuary shall, in approving a rate of premium in respect\nof a class of policy, consider the maximum rate of commission or\nrebate prescribed for that class of policy.\n(5) Where a rate of premium is approved by an actuary in\nrespect of a class of policy, a licensed insurer shall not, except\nwith the approval of the Authority, pay or allow to be paid for that\nclass of policy a commission or rebate at a rate greater than the\nmaximum rate of commission or rebate which the actuary has\nconsidered when approving the rate.\n(6) A person who contravenes this section commits an\noffence.\nPART V\nMANAGEMENT AND SHAREHOLDING FOR INSURER,\nREINSURER AND INSURANCE BROKER\nShareholding 49. (1) A licensed insurer or reinsurer shall not have less than\nthirty percent of the licensed insurer or reinsurer’s subscribed share\ncapital owned by citizens or a citizen owned company.\n(2) A licensed insurance broker shall not have less than fifty-\none percent of the licensed insurance broker’s subscribed share\ncapital owned by citizens or a citizen owned company.\nInsurance [No. 38 of 2021 451\n(3) A licensed insurer, reinsurer or insurance broker, who\nimmediately before the appointed date was licensed in accordance\nwith the repealed Act shall, within a period prescribed by the\nMinister, comply with this section.\n(4) The Minister may, on the recommendation of the Authority,\nprescribe the shareholding requirements for licensed microinsurer.\n(5) A licensed insurer, reinsurer or insurance broker who\ncontravenes this section commits an offence and is liable, on\nconviction, to a fine not exceeding five hundred thousand penalty\nunits."
+    },
+    {
+      "number": "50",
+      "heading": "(1) A licensed insurer, reinsurer or insurance broker shall— Principal",
+      "text": "office for\n(a) set up and maintain the licensed insurer’s, reinsurer’s insurance\nor insurance broker’s principal office in the Republic; business\nand\n(b) furnish the Registrar with the details of the address of\nthe principal office.\n(2) A licensed insurer, reinsurer or insurance broker shall not\nuse the licensed insurer’s, reinsurer’s or insurance broker’s\nprincipal office for transacting business other than the business\nfor which the licensed insurer, reinsurer or insurance broker is\nlicensed to carry on.\n(3) Where a licensed insurer, reinsurer or insurance broker\nproposes to change the address of the licensed insurer’s, reinsurer’s\nor insurance broker’s principal office, the licensed insurer, reinsurer\nor insurance broker shall, notify the Registrar, in writing, of the\nnew address at least twenty-one days before the change.\n(4) A licensed insurer, reinsurer or insurance broker who\ncontravenes this section is liable to pay to the Authority one\nthousand five hundred penalty units for each day that the\ncontravention continues."
+    },
+    {
+      "number": "51",
+      "heading": "A licensed insurer, reinsurer or insurance broker shall be Representation",
+      "text": "represented in the Republic by a chief executive officer who shall by chief\nexecutive\nbe the principal officer of the licensed insurer, reinsurer or insurance\nofficer\nbroker."
+    },
+    {
+      "number": "52",
+      "heading": "(1) Where the licence of an insurer, a reinsurer or an Acting as",
+      "text": "director or\ninsurance broker is cancelled in accordance with this Act, a director\nsenior officer\nor senior officer of that insurer, reinsurer or insurance broker shall\nnot, without the approval of the Authority, act as a director or\nsenior officer, or be directly involved in the management of a\nlicensee.\n452 No. 38 of 2021] Insurance\n(2) A person who contravenes subsection (1) commits an\noffence and is liable, on conviction, to a fine not exceeding two\nhundred thousand penalty units or to imprisonment for a term not\nexceeding two years, or to both.\nAppointment 53. (1) A licensed insurer, reinsurer or insurance broker shall\nof directors\nappoint directors, a chief executive officer and other senior officers.\nand officers\n(2) A licensed insurer, reinsurer or insurance broker shall, within\nseven days of appointing a person as a director or senior officer of\nthat licensed insurer, reinsurer or insurance broker, apply to the\nRegistrar for the approval of each appointment in the prescribed\nmanner and form.\n(3) An application made under subsection (2) shall be\naccompanied by, in the prescribed manner and form—\n(a) a certified copy of the resolution of the—\n(i) company appointing the director; and\n(ii) board appointing the senior officer;\n(b) a statement of the following particulars in respect of\neach person appointed:\n(i) full names;\n(ii) date and place of birth;\n(iii) citizenship;\n(iv) academic and professional qualifications;\n(v) work experience, dates and nature of previous\nemployment;\n(vi) whether the person has ever been convicted of\nan offence involving fraud or dishonesty; and\n(vii) whether the person has previously been declared\nbankrupt by a court of competent jurisdiction\nor has applied to take the benefit of a written\nlaw for the relief of bankruptcy; and\n(c) other information or documents that the Registrar may\nrequire in order to determine the application.\n(4) Subject to section 54(4), the appointment of a director or\nsenior officer by a licensed insurer, reinsurer or insurance broker\nshall not become effective until it has been approved in writing by\nthe Registrar.\nInsurance [No. 38 of 2021 453"
+    },
+    {
+      "number": "54",
+      "heading": "(1) The Registrar shall, in considering an application made Approval or",
+      "text": "refusal to\nunder section 53, have regard to whether—\napprove\nappointment\n(a) a chief executive officer appointed by—\n(i) a licensed insurer or reinsurer is a fit and proper\nperson with not less than ten years’\nmanagement experience in the financial sector,\nat least five of which are in insurance business;\nor\n(ii) a licensed insurance broker, is a fit and proper\nperson with not less than seven years’\nmanagement experience in the financial sector,\nat least five of which are in insurance business;\nor\n(b) a senior officer, meets the prescribed qualifications.\n(2) The Registrar shall, within ninety days of receipt of an\napplication made under section 53 for approval to appoint a director\nor senior officer, approve or refuse the appointment.\n(3) The Registrar shall, where the Registrar considers that a\nperson appointed as a director or senior officer of a licensed insurer,\nreinsurer or insurance broker is not a fit and proper person to be a\ndirector or senior officer and after giving the person an opportunity\nto be heard, notify that person of the—\n(a) refusal to approve the appointment, stating the reasons\nfor the decision; and\n(b) direct the licensed insurer, reinsurer or insurance broker\nto cancel the appointment with effect from the date\nspecified in the notice.\n(4) Where the Registrar fails to inform an applicant of the\nRegistrar’s decision within the period specified in subsection (2),\nthe appointment is deemed to have been approved and becomes\neffective.\n(5) A person whose appointment is cancelled, under subsection\n(3)(b), shall not, without the approval of the Registrar, act as a\ndirector or senior officer, to be directly involved in the management\nof a licensee.\n(6) A person who contravenes subsection (5), commits an\noffence and is liable, on conviction, to a fine not exceeding two\nhundred thousand penalty units or to imprisonment for a term not\nexceeding two years, or to both.\n454 No. 38 of 2021] Insurance\nNotice of 55. (1) Where a licensed insurer, reinsurer or insurance broker\ntermination\nterminates the appointment of a director or senior officer, the\nof\nappointment licensed insurer, reinsurer or insurance broker shall, within fourteen\ndays after the termination, notify the Registrar, in writing, stating\nthe reasons for the termination.\n(2) A licensed insurer, reinsurer or insurance broker who\ncontravenes this section commits an offence and is liable to pay\nthe Authority one thousand five hundred penalty units for each\nday that the contravention continues.\nAbsence of 56. (1) A licensed insurer, reinsurer or insurance broker\nchief\nshall, notify the Registrar of the chief executive officer’s absence\nexecutive\nofficer where a chief executive officer of the licensed insurer, reinsurer\nor insurance broker is to be absent from the Republic for a period\nexceeding three months, at least seven days before the date of\ncommencement of the proposed absence.\n(2) A licensed insurer, reinsurer or insurance broker shall,\nwhere a chief executive officer of the licensed insurer, reinsurer\nor insurance broker is for any other reason unable to perform the\nduties of the chief executive officer—\n(a) appoint a senior officer of the licensed insurer, reinsurer\nor insurance broker who is resident in the Republic to\nact as chief executive officer; and\n(b) apply to the Registrar, in writing, for the approval of\nappointment under paragraph (a).\n(3) A licensed insurer, reinsurer or insurance broker who\ncontravenes this section commits an offence and is liable, on\nconviction, to a fine of one thousand five hundred penalty units for\neach day that the contravention continues.\nRestriction 57. (1) A person shall not be a director or employee of more\non than one licensed insurer, reinsurer or insurance broker.\nemployment\n(2) Despite subsection (1), a director may sit on two Boards\nof different categories of insurance business.\n(3) A person who contravenes this section commits an offence\nand is liable, on conviction, to a fine not exceeding two hundred\nthousand penalty units or to imprisonment for a term not exceeding\ntwo years, or to both.\nInsurance [No. 38 of 2021 455"
+    },
+    {
+      "number": "58",
+      "heading": "(1) A licensed insurer or reinsurer, a director or subsidiary Restriction on",
+      "text": "of the licensed insurer or reinsurer shall not directly or indirectly holding shares\nhold shares, or acquire financial or controlling interest in the business\nof a licensed insurance broker.\n(2) A licensed insurance broker, a director, shareholder or\nsubsidiary of the licensed insurance broker, shall not directly or\nindirectly hold shares in the business of a licensed insurer or\nreinsurer.\n(3) A person who contravenes this section commits an offence\nand is liable, on conviction, to a fine not exceeding five hundred\nthousand penalty units."
+    },
+    {
+      "number": "59",
+      "heading": "(1) The board of directors of a licensed insurer or reinsurer Board of",
+      "text": "shall have at least five members, sixty percent of whom shall be directors of\ninsurer or\nindependent directors. reinsurer\n(2) The board of directors of a licensed insurance broker shall\nhave at least three members, one of whom shall be an independent\ndirector.\n(3) For the purposes of this section an “independent director”\nmeans a director who has no personal interest in the business of\nthe licensed insurer or related company of the licensed insurer,\nwhich could reasonably be perceived to be capable of materially\naffecting the director’s judgment in serving the best interests of\nthe licensed insurer or reinsurer."
+    },
+    {
+      "number": "60",
+      "heading": "The Authority may issue guidelines setting minimum Corporate",
+      "text": "corporate governance standards and practices to be applied by a governance\nstandards\nlicensed insurer, reinsurer and insurance broker.\nPART VI\nFINANCIAL REGULATION OF INSURANCE BUSINESS"
+    },
+    {
+      "number": "61",
+      "heading": "A licensed insurer carrying on general insurance business Reserves for",
+      "text": "shall, in assessing the licensed insurer’s liabilities for purposes of unexpired\nrisk\nannual financial statements, set aside reserves for the unearned\npremium to meet liabilities on the unexpired risk at the end of\neach financial year, using a method that the Minister may, by\nstatutory instrument prescribe."
+    },
+    {
+      "number": "62",
+      "heading": "A licensed insurer shall make adequate provision in the Reserves for",
+      "text": "licensed insurer’s accounts for liabilities in respect of claims outstanding\nincurred but not settled at the end of each financial year, including claims\nprovision for claims not reported but computed as the Minister\nmay, by statutory instrument, prescribe.\n456 No. 38 of 2021] Insurance\nStatutory 63. (1) A licensed insurer carrying on long term insurance\nfund business shall, from the date of commencement of the business,\nestablish and maintain a fund under an appropriate name in respect\nof—\n(a) each class of long term insurance business carried on\nby the licensed insurer; and\n(b) the assets identifiable to that fund.\n(2) A licensed insurer carrying on general insurance business\nshall, from the date of commencement of the business, establish\nand maintain—\n(a) a fund under an appropriate name in respect of that\nbusiness; or\n(b) separate funds under appropriate names in respect of\ndifferent classes of general insurance business carried\non by the licensed insurer.\n(3) For the purposes of this section, primary insurance and\nreinsurance business of the same class shall be considered as\ndifferent classes of insurance business."
+    },
+    {
+      "number": "64",
+      "heading": "(1) A licensed insurer or reinsurer shall not carry on",
+      "text": "Compliance\nwith insurance business unless the licensed insurer’s or reinsurer’s\nsolvency\navailable capital exceeds the minimum capital adequacy\nrequirements\nrequirements as the Minister shall, by statutory instrument,\nprescribe.\n(2) The Minister may, by statutory instrument, prescribe\nminimum capital adequacy requirements in respect of risks inherent\nto assets, liabilities, classes and volume of insurance business.\n(3) A licensed insurer or reinsurer who contravenes this section\ncommits an offence and is liable, on conviction, to a fine not\nexceeding five hundred thousand penalty units or to imprisonment\nfor a term not exceeding five years, or to both.\n(4) For the purposes of this section, “ available capital ” means\nthe capital computed using a method that the Minister may, by\nstatutory instrument, prescribe.\nSolvency 65. (1) A licensed insurer or reinsurer shall, within ninety days\nstatement after the end of each financial year, submit to the Registrar a\nsolvency statement certified by the insurer’s or reinsurer’s auditor.\nInsurance [No. 38 of 2021 457\n(2) Despite subsection (1), the Registrar may, by notice, in\nwriting, direct a licensed insurer or reinsurer to submit to the\nRegistrar a solvency statement within thirty days from the date of\nthe notice.\n(3) A licensed insurer or reinsurer who fails to comply with\nthis section commits an offence and is liable to pay one thousand\nfive hundred penalty units for each day that the failure to comply\ncontinues.\n(4) For the purpose of this section, “ solvency statement ”\nmeans a statement that the Minister may, by statutory instrument,\nprescribe."
+    },
+    {
+      "number": "66",
+      "heading": "(1) Despite this Act, the Registrar may, by notice in writing, Furnishing",
+      "text": "direct a licensed insurer, reinsurer or insurance broker to furnish of\ninformation\nthe Registrar with information, specified in the notice, relating to a on assets\nand\nliability or asset of the licensed insurer, reinsurer or insurance\nliabilities\nbroker.\n(2) A licensed insurer, reinsurer or insurance broker shall\ndeliver to the Authority in the prescribed manner and form specified\nby the Authority—\n(a) a statement showing assets and liabilities as at the close\nof the last business day of that month;\n(b) a statement showing the status of policies;\n(c) a statement showing the status of any loan facility; and\n(d) other statement, further detail or evidence relating to\nthe operations, financial condition and resources as may\nbe prescribed.\n(3) The Authority may request a licensed insurer, reinsurer or\ninsurance broker to provide periodic reports showing information\non its operations, financial condition and resources as may be\nprescribed.\n(4) The Registrar may, where the Registrar considers it\nnecessary that the value of a liability or asset of a licensed insurer,\nreinsurer, or insurance broker is not correctly determined by the\nlicensed insurer, reinsurer or insurance broker for purposes of this\nAct, direct the licensed insurer, reinsurer or insurance broker to\nmake representations, in writing, on the matter.\n458 No. 38 of 2021] Insurance\n(5) The Registrar shall, where the Registrar requests an\nindependent valuator to produce a valuation of a liability or asset\nof a licensed insurer, reinsurer or insurance broker, inform the\nlicensed insurer, reinsurer or insurance broker, in writing, of the\nrequest and direct the licensed insurer, reinsurer or insurance broker\nto bear the cost of the valuation.\n(6) The Registrar shall, when a valuator under subsection (5)\nproduces a valuation of a licensed insurer, reinsurer or insurance\nbroker liability or asset to the satisfaction of the Registrar, direct\nthe licensed insurer, reinsurer or insurance broker to substitute\nthe valuation submitted by the licensed insurer, reinsurer or\ninsurance broker with the valuation produced by the independent\nvaluator.\n(7) A licensed insurer, reinsurer or insurance broker who fails\nto comply with a directive under subsection (5), commits an offence\nand is liable, on conviction, to a fine not exceeding five hundred\nthousand penalty units or to imprisonment for a term not exceeding\nfive years, or to both.\n(8) The Authority may issue guidelines on valuation of assets\nand liabilities in accordance with generally accepted insurance\nprinciples, practices and standards.\nPublication 67. A licensed insurer, reinsurer or insurance broker shall,\nof\nwhere the licensed insurer, reinsurer or insurance broker intends\nauthorised\ncapital, to publish a statement or issue a document in which a statement of\nsubscribed\ncapital and the licensed insurer’s, reinsurer’s, insurance broker’s authorised\npaid-up capital is mentioned, ensure that the statement also indicates the\ncapital\namount of the subscribed capital and paid-up capital.\nInvestment 68. The Minister may, on the recommendation of the Authority,\nof funds by statutory instrument, issue investment guidelines for insurers\nrelating to the limits for each investment category.\nLicensee to 69. (1) A licensed insurer shall appoint a qualified actuary who\nappoint\nshall be accredited as a Fellow by the Zambia Qualifications\nactuary\nAuthority to carry out the duties imposed or conferred on the\nactuary under this Act before commencing insurance business.\n(2) A licensed insurer shall, within seven days of appointing\nan actuary under subsection (1), notify the Registrar, in writing, of\nthe appointment.\nInsurance [No. 38 of 2021 459\n(3) The Registrar shall, where a licensed insurer fails to appoint\nan actuary, under subsection (1), appoint an actuary for the licensed\ninsurer who shall be considered to be appointed by the licensed\ninsurer."
+    },
+    {
+      "number": "70",
+      "heading": "(1) A licensed insurer who ceases to have an actuary shall, Notification",
+      "text": "within seven days of the cessation, notify the Registrar, in writing. of ceasing to\nhave actuary\n(2) A licensed insurer shall not carry on insurance business\nfor more than three months without an actuary.\n(3) A person who contravenes subsection (2), commits an\noffence and is liable, to pay the Authority one thousand five hundred\npenalty units for each day that the contravention continues."
+    },
+    {
+      "number": "71",
+      "heading": "(1) An actuary of a long term licensed insurer shall— Actuarial",
+      "text": "investigations\n(a) at the end of each third financial year, conduct an\ninvestigation into, and prepare a report on, the financial\nconditions of the licensed insurer’s long term insurance\nbusiness for purposes of ascertaining any surplus for\ndistribution; and\n(b) prepare an estimate of the present value of the liabilities\nof the long term licensed insurer using methods and\nassumptions that are based on generally accepted\nactuarial principles and practice, having regard to the\ncircumstances of the licensed insurer, the insurer’s\npolicies or any other method that the Minister may, by\nstatutory instrument, prescribe.\n(2) An actuary shall, where a long term licensed insurer has\nan actuarial deficit, annually or within a period that the Registrar\nmay direct, investigate the financial conditions of the licensed\ninsurers long term insurance business.\n(3) Despite subsection (1), the Registrar may review or\nappoint an independent actuary to review the assumptions and the\ncalculations of liabilities made by the actuary of a long term\nlicensed insurer and where the circumstances so warrant, order\nthe substitution of the values obtained by the actuary of the long\nterm licensed insurer with those of the independent review.\n(4) The actuary of a long term licensed insurer shall, within\nninety days after the end of each third financial year, furnish the\ndirectors of the licensed insurer and the Registrar with a report,\nprepared in accordance with subsection (1), to enable an abstract\nof the report to be circulated to shareholders at the same time as\nthe accounts of the company for that financial year.\n460 No. 38 of 2021] Insurance\n(5) An actuary shall, where an actuary fails to obtain\ninformation for an investigation, state that fact in the report under\nsubsection (4).\n(6) An actuary of a long term licensed insurer shall—\n(a) during normal working hours, have a right of access to\nthe accounting records, including registers of the licensed\ninsurer, and to request from the chief executive officer\nor other senior officer of the licensed insurer, information\nand explanations that the actuary considers necessary\nfor the performance of the actuary’s duties; and\n(b) be entitled to—\n(i) attend general meetings of the licensed insurer\nand to receive notices and other communications\nrelating to a general meeting which a shareholder\nof the licensed insurer is entitled to receive; and\n(ii) be heard, at a general meeting, on business under\nconsideration in relation to the duties of the\nactuary.\n(7) An actuary of a long term licensed insurer shall report to\nthe Registrar where the actuary considers that—\n(a) the licensed insurer has contravened or failed to comply\nwith this Act; and\n(b) the circumstances are such that, in the actuary’s opinion,\nthe contravention or failure to comply has not been or\nshall not be adequately dealt with by\n(i) a comment in the actuary’s report; or\n(ii) bringing the matter to the notice of the directors\nof the licensed insurer or, if the licensed insurer\nis a subsidiary, to the directors of the holding\ncompany of the licensed insurer.\nDistribution 72. Where a report, prepared by an actuary in accordance\nof surplus\nto with section 71, shows a surplus in the statutory fund maintained in\npolicyholders respect of a long term licensed insurer, the licensed insurer shall\ndistribute not less than ninety percent of the surplus to policyholders\nas the Minister may, by statutory instrument, prescribe.\nInsurance [No. 38 of 2021 461"
+    },
+    {
+      "number": "73",
+      "heading": "(1) The board of directors of a licensee shall inform the Notification",
+      "text": "where\nRegistrar, in writing, where the board of directors has reason to\ncapital\nbelieve that the licensed insurer, reinsurer and insurance broker— requirements\nunlikely to\n(a) may not be able to conduct business as a going concern; be met\n(b) appears to be, or is likely in the near future to be, unable\nto meet the licensed insurer, reinsurer and insurance\nbroker’s obligations as they fall due; or\n(c) does not or may not be able to meet the licensed insurer,\nreinsurer and insurance broker’s capital adequacy\nrequirements as prescribed.\n(2) Where the board of directors fail to comply with subsection\n(1)—\n(a) the Registrar may suspend or remove the board; and\n(b) each director, shareholder and senior manager who had\nknowledge of the failure to comply commits an offence\nand is liable, on conviction, to a fine not exceeding two\nhundred thousand penalty units, or to imprisonment for\na term not exceeding two years, or to both.\nPART VII\nREINSURANCE"
+    },
+    {
+      "number": "74",
+      "heading": "A licensed insurer shall, before the beginning of each Reinsurance",
+      "text": "financial year, submit to the Registrar particulars relating to the programmes\nlicensed insurer’s reinsurance programmes for the following year\nin the prescribed manner and form."
+    },
+    {
+      "number": "75",
+      "heading": "(1) The Registrar may, by notice in writing, direct a licensed Submission",
+      "text": "of\ninsurer to submit to the Registrar, for examination, reinsurance\nreinsurance\ntreaties and other contracts of reinsurance entered into by the treaties and\ncontracts\nlicensed insurer and furnish the Registrar with certified copies of\ndocuments under section 74.\n(2) The Registrar may refuse to approve a reinsurance treaty\nor other contract of reinsurance where, on examination of the\ncontract, the Registrar considers that the terms or conditions of the\ncontract are not—\n(a) favourable to the licensed insurer;\n(b) in the interest of the Republic’s economy or insurance\nindustry; or\n(c) in the public interest.\n462 No. 38 of 2021] Insurance\nPromotion 76. (1) The Minister shall, by statutory instrument, prescribe\nof local\nthe promotion of local cessions among insurers and placement of\ncessions and\nconduct of reinsurance with reinsurers licensed under this Act.\nreinsurance\nbusiness (2) The Authority may issue guidelines for the conduct of\nreinsurance business.\nNational 77. (1) The National Reinsurance Company shall be\nReinsurance designated by the Minister and shall be an entity in which the\nCompany\nGovernment of the Republic of Zambia holds an interest as\nprescribed.\n(2) Mandatory cessions shall be made to a National\nReinsurance Company according to thresholds prescribed by the\nMinister.\nMandatory 78. (1) A licensed insurer shall offer a minimum mandatory\ncessions cessions made according to thresholds prescribed by the Minister\nto place with the—\n(a) Reinsurance Corporation; and\n(b) Reinsurance Company.\n(2) Despite subsection (2), a licensed insurer shall not be\nprevented from entering into direct reinsurance arrangements with\nthe Reinsurance Corporation, Reinsurance Company or National\nReinsurance Company in respect of the whole or part of the risks\nundertaken by the licensed insurer or from making other\narrangements which are mutually acceptable to the licensed insurer\nand the Reinsurance Corporation, Reinsurance Company or\nNational Reinsurance Company.\n(3) The Reinsurance Corporation, Reinsurance Company or\nNational Reinsurance Company may accept or decline all or part\nof the business offered to be placed with the Reinsurance\nCorporation, Reinsurance Company or National Reinsurance\nCompany in accordance with this Act.\n(4) Where a placement is declined as provided in subsection (3),\nthe Reinsurance Corporation, Reinsurance Company or National\nReinsurance Company shall furnish the insurer concerned with the\nreasons for the refusal.\nInsurance [No. 38 of 2021 463\nPART VIII\nMERGERS AND TAKEOVERS OF INSURANCE BUSINESS"
+    },
+    {
+      "number": "79",
+      "heading": "(1) Despite any other written law, a licensed insurer, Prohibition on",
+      "text": "mergers and\nreinsurer or insurance broker shall not, without the written approval\ntakeovers\nof the Authority—\n(a) agree to a merger with another licensed insurer, reinsurer\nor insurance broker; or\n(b) agree to a takeover or transfer of the whole or part of\nthe licensed insurer’s, reinsurer or insurance broker’s\ninsurance business by another licensed insurer, reinsurer\nor insurance broker.\n(2) An approval of a merger or takeover by the Authority in\naccordance with this Part shall not relieve any parties to the merger\nor takeover from complying with any other applicable law.\n(3) For the purposes of this Act, an arrangement entered into\nby two or more licensed insurers, reinsurers or insurance brokers\nshall be a scheme for the takeover of the insurance business, except\nwhere the Authority is satisfied that all the policyholders are made\naware of the nature of substitution and has the Authority’s consent\nin writing, where—\n(a) the liability of a licensed insurer, reinsurer or insurance\nbroker towards policyholders is to be substituted for\nanother licensed insurer, reinsurer or insurance broker’s\nliability towards the policyholders, whether the liability\nof the licensed insurer, reinsurer or insurance broker is\nexpressed in or created by, existing or new policies; or\n(b) the terms of the new policy under paragraph (a), are\nthe same as, or different from, those of the original\npolicies."
+    },
+    {
+      "number": "80",
+      "heading": "(1) Where it is proposed that the insurance business of a Approval of",
+      "text": "merger or\nlicensed insurer, reinsurer or insurance broker be merged with, or a\ntakeover or\ntakeover be undertaken by, another licensed insurer, reinsurer or transfer\ninsurance broker, the licensed insurer, reinsurer or insurance broker\nconcerned shall, prior to the merger or takeover, apply to the\nAuthority for approval of the merger or takeover.\n(2) An application made under subsection (1) shall be\naccompanied by—\n464 No. 38 of 2021] Insurance\n(a) a draft agreement or deed containing proposed terms of\nthe proposed merger or takeover;\n(b) audited accounts for the last five years, or a shorter\nperiod that the Registrar may permit, in writing, in respect\nof the insurance business of each of the insurers,\nreinsurers or insurance brokers concerned;\n(c) documents containing particulars of other arrangements\ngiving effect to the proposed merger or takeover;\n(d) an application for—\n(i) a new licence, where the proposed merger will\nresult in the formation of a new company; or\n(ii) amendment of an existing licence, in the case\nof a takeover of insurance business that shall\nrequire amendment of the licence of the licensed\ninsurer, reinsurer or insurance broker taking over\nthe business;\n(e) a report made by the actuary of the licensed insurer,\nwhere a party to a proposed merger is a long term\nlicensed insurer or the business to be taken over includes\nlife insurance, which shall contain information on the\nstate of each—\n(i) statutory fund affected by the proposed merger\nor takeover; or\n(ii) fund that would result from the division, where\nonly part of the licensed insurance business of\na licensed insurer is to be taken over; and\n(f) any other report or document the Registrar may require.\n(3) The accounts and reports, under subsection (2), shall relate\nto the period specified in subsection (2)(b) ending on the date of\nthe agreement for the proposed merger or takeover of insurance\nbusiness.\n(4) The parties to a proposed merger or takeover of insurance\nbusiness shall, after making an application to the Authority in\naccordance with this section, cause to be published in the Gazette\nand in a daily newspaper of general circulation or in other electronic\nmedia in the Republic, notice of the proposed merger or takeover.\n(5) A notice, under subsection (4), shall invite the public to\nsubmit objections to the proposed merger or takeover of the\ninsurance business on the grounds that a person objecting has\nreasonable grounds to believe that the person would be adversely\naffected by the merger or takeover.\nInsurance [No. 38 of 2021 465\n(6) An objection provided for in subsection (5) shall be made\nto the Authority in a prescribed manner and form within thirty days\nof the date of the publication of the notice of the proposed merger\nor takeover of insurance business."
+    },
+    {
+      "number": "81",
+      "heading": "The Authority may, where the Authority considers it Inquiry into",
+      "text": "effect of\nnecessary, appoint a person to inquire into, and report to the Authority,\nmerger or\nthe effect of a proposed merger or takeover of insurance business, takeover\nand the cost of that inquiry shall be met by the parties to the proposed\nmerger or takeover."
+    },
+    {
+      "number": "82",
+      "heading": "(1) Where a long term licensed insurer is party to a merger, Notice to",
+      "text": "or the business to be taken over includes long term insurance policyholders\nbusiness, the licensed insurer concerned shall, subject to subsection\n(2), send to each holder of a life policy—\n(a) a statement on the nature of the merger or takeover;\n(b) an abstract of the material—\n(i) facts contained in the agreement for a merger\nor takeover of the insurance business; and\n(ii) findings of the actuary’s report; and\n(c) details of an address at which a copy of the documents\nlodged with the Registrar may be inspected.\n(2) A long term licensed insurer shall not send to a policyholder\nstatements and abstracts of an actuary’s reports that have not been\napproved by the Registrar.\n(3) Where a licensed insurer who is party to a proposed merger\nis a general insurer, or the insurance business to be taken over is\ngeneral insurance business, the licensed insurers concerned shall\nsend to the policyholders—\n(a) a statement, approved by the Registrar, on the nature of\nthe proposed merger or takeover; and\n(b) details of an address at which a copy of the documents\nlodged with the Registrar may be inspected."
+    },
+    {
+      "number": "83",
+      "heading": "(1) The Authority shall, within ninety days of receipt of an Determination",
+      "text": "application made under section 80, approve or refuse to approve a of\napplication\nmerger or takeover of the insurance business and inform the\napplicants, by notice in writing.\n(2) The Authority shall not approve a merger or takeover of\ninsurance business unless the Authority is satisfied that the—\n466 No. 38 of 2021] Insurance\n(a) policyholders and shareholders of the licensed insurers\nconcerned, and any other person the Authority considers\nentitled to be heard, shall not be disadvantaged by the\nmerger or takeover;\n(b) transaction is consistent with this Act; and\n(c) Commission has approved the merger or takeover.\n(3) Where the Authority refuses to approve a merger or\ntakeover of an insurance business, the notice under subsection (1)\nshall contain, or be accompanied by, a statement of the reasons for\nthe refusal.\n(4) Where the Authority fails to respond to an application for\napproval of a merger or takeover of insurance business, within the\nperiod specified under subsection (1), the merger or takeover is\ndeemed to have been approved.\nNotification 84. A licensed insurer, reinsurer or insurance broker in a\non\nproposed merger or takeover shall, within fourteen days of the date\nfinalisation\nof merger or of finalisation of a merger or takeover of insurance business, notify\ntakeover\nthe Registrar, in writing accompanied by—\n(a) written approval by the Commission of the merger or\ntakeover; and\n(b) evidence that the requirements of the Competition and\nAct No. 24 Consumer Protection Act, 2010, and the Companies Act,\nof 2010 2017 in relation to the merger or takeover have been\nAct No. 10\ncomplied with.\nof 2017\nEffect of 85. The Authority shall, on approval of a merger or takeover\nmerger or\nof an insurance business—\ntakeover on\ninsurer\n(a) cancel the licence of a licensed insurer, reinsurer or\ninsurance broker that has been merged with, or taken\nover by, another licensed insurer; and\n(b) grant a new licence to a licensed insurer, reinsurer or\ninsurance broker formed as a result of the merger or\ntakeover with effect from the date of approval of that\nmerger or takeover.\nEffect of 86. Where a merger or takeover has taken place, in accordance\nmerger or with this Part, a policyholder shall no longer have a claim against\ntakeover on\npolicyholder the original licensed insurer, reinsurer or insurance broker but against\nthe licensed insurer who is granted a licence under section 85 after\nthe merger or takeover.\nInsurance [No. 38 of 2021 467\nPART IX\nAUDITORS, ACCOUNTS AND RETURNS"
+    },
+    {
+      "number": "87",
+      "heading": "(1) A licensed insurer, reinsurer or insurance broker shall Appointment",
+      "text": "appoint an individual or firm as an external auditor. of external\nauditor\n(2) An external auditor appointed under subsection (1) shall\nbe a member of the Zambia Institute of Chartered Accountants,\nand meet other conditions that the Authority may determine.\n(3) A person that contravenes this section commits an offence\nand is liable, on conviction, to a fine not exceeding two hundred\nthousand penalty units or to imprisonment for a term not exceeding\ntwo years, or to both.\n(4) The Minister may, by statutory instrument, exempt certain\nclasses of insurance businesses from the requirements of this\nsection."
+    },
+    {
+      "number": "88",
+      "heading": "Where a licensed insurer, reinsurer or insurance broker Appointment",
+      "text": "of firm or\nappoints a firm or body corporate as external auditor, the firm or\nbody\nbody corporate shall designate a dealing partner or person who corporate\nshall, for purposes of this Act and without limitation of the obligations\nand liabilities of other partners, carry out the responsibilities and\nobligations as if the partner or person were appointed by the licensed\ninsurer, reinsurer or insurance broker."
+    },
+    {
+      "number": "89",
+      "heading": "An external auditor shall audit the financial statements of Duties of",
+      "text": "a licensed insurer, reinsurer or insurance broker and make a report external\nauditor\nto the shareholders of the licensed insurer, reinsurer or insurance\nbroker and express an opinion, in accordance with this Act, any\nother relevant written law and standards promulgated by the Zambia\nInstitute of Chartered Accountants on the—\n(a) statement of financial position, statement of\ncomprehensive income,statement of cash flow and other\nfinancial statements required to be submitted by the\nlicensed insurer, reinsurer or insurance broker in\naccordance with this Act; and\n(b) compliance of the licensed insurer, reinsurer or insurance\nbroker with requirements of this Act or any other relevant\nwritten law, with respect to financial statements."
+    },
+    {
+      "number": "90",
+      "heading": "(1) An external auditor shall report to the Authority, in the External",
+      "text": "prescribed manner and form within fourteen days, where the auditor, auditor’s\nduty to\nin the course of carrying out the auditor’s duties, under section 89, report\nfinds that—\n468 No. 38 of 2021] Insurance\n(a) the licensed insurer, reinsurer or insurance broker’s\nfinancial soundness is prejudiced;\n(b) there is a material change in the business of the licensed\ninsurer, reinsurer or insurance broker which is likely to\njeopardise the ability of the licensed insurer, reinsurer or\ninsurance broker to continue as a going concern;\n(c) the licensed insurer, reinsurer or insurance broker has\ncontravened this Act in relation to the keeping of\naccounting records, or has committed an offence\ninvolving fraud or dishonesty;\n(d) the licensed insurer, reinsurer or insurance broker’s\nprogram to counter money laundering, financing of\nterrorism and proliferation or any other associated serious\noffence is inadequate or lacking;\n(e) the licensed insurer, reinsurer or insurance broker is\nunable or unlikely to meet the margin of solvency; or\n(f) an irregularity has occurred which jeopardises the\ninterests of the policyholders of the licensed insurer.\n(2) An external auditor that reports on the matters under\nsubsection (1) in good faith, is not in breach of a duty owed to a\nlicensed insurer, reinsurer or insurance broker.\nImmunity 91. Where an external auditor of a licensed insurer, reinsurer\nof external or insurance broker, in good faith, certifies or makes a report in\nauditor\naccordance with this Act—\n(a) the external auditor shall not be in contravention of any—\n(i) enactment or code of professional conduct to\nwhich the auditor is subject to; or\n(ii) contractual provision binding the auditor to\nconfidentiality whether to the licensed insurer,\nreinsurer or insurance broker or other party; and\n(b) civil, criminal or disciplinary proceedings shall not be\ninstituted against the external auditor.\nDisqualification 92. An external auditor shall not be appointed as an external\nof external auditor of a licensed insurer, reinsurer or insurance broker if the\nauditor\nauditor is—\n(a) a director, senior officer or other employee of the\nlicensed insurer, reinsurer or insurance broker or of any\nperson associated or affiliated with the licensed insurer,\nreinsurer or insurance broker;\nInsurance [No. 38 of 2021 469\n(b) an associate of a director or senior officer of the licensed\ninsurer, reinsurer or insurance broker; or\n(c) a person who personally, or through that person’s partner\nor employee, regularly performs the duties of secretary\nor book keeper to the licensed insurer, reinsurer or\ninsurance broker."
+    },
+    {
+      "number": "93",
+      "heading": "The accounts of a licensed insurer, reinsurer or insurance Auditing of",
+      "text": "broker shall be audited annually by an external auditor appointed in account\naccordance with this Part."
+    },
+    {
+      "number": "94",
+      "heading": "The Registrar may, where the Registrar considers it Request for",
+      "text": "extended\nnecessary, direct an external auditor of a licensed insurer, reinsurer\nscope audit\nor insurance broker at the licensed insurer’s, reinsurer’s or insurance\nbroker’s expense, to—\n(a) carry out an extended scope audit or other examination\nand make necessary comments and recommendations\nto the Registrar;\n(b) submit to the Registrar additional information in relation\nto an audit, extended scope audit or other examination\nthat the Registrar considers necessary;\n(c) submit to the Registrar a report on the financial\naccounting systems and internal controls of the licensed\ninsurer, reinsurer or insurance broker; or\n(d) submit to the Registrar a report as to whether, in the\nauditor’s opinion, the licensed insurer’s, reinsurer’s or\ninsurance broker’s provisioning against liabilities and\nmaintenance of assets is being done in accordance with\nthis Act."
+    },
+    {
+      "number": "95",
+      "heading": "An external auditor of a licensed insurer, reinsurer or External",
+      "text": "insurance broker shall, in a certificate relating to the accounts and auditor’s\ncertificate\nstatements of the licensed insurer, reinsurer or insurance broker, in\nrespect of a financial year, state whether—\n(a) the accounts and statements to which the certificate\nrelates appear to the auditor to be in accordance with\nthe requirements of this Act and shall give particulars of\nmatters that appear not to be in accordance with the\nrequirements;\n(b) the accounting records of the licensed insurer, reinsurer\nor insurance broker appear to the auditor to have been\nproperly kept and shall give particulars of accounting\nrecords that do not appear to have been properly kept or\nof transactions that do not appear to have been properly\nrecorded;\n470 No. 38 of 2021] Insurance\n(c) the external auditor obtained from the licensed insurer,\nreinsurer or insurance broker all information and\nexplanations that the auditor requested for purposes of\nperforming the auditor’s duties;\n(d) the licensed insurer, reinsurer or insurance broker has\nfailed to provide information or explanations requested\nby the auditor and shall set out the particulars of the\ninformation and explanations;\n(e) the auditor is satisfied that the accounts and statements\nunder paragraph (a)—\n(i) conform to the accounting records of the licensed\ninsurer, reinsurer or insurance broker; and\n(ii) appear to the auditor to be in accordance with\nthe generally accepted accounting principles;\n(f) management expenses incurred in respect of the licensed\ninsurer, reinsurer or insurance broker’s business, directly\nor indirectly, have been fully debited in the licensed\ninsurer, reinsurer or insurance brokers revenue account\nor profit and loss account, and give particulars of\nexpenses not so debited; and\n(g) every reserve is calculated in accordance with section\n61 and 62 or any other prescribed methods.\nInformation 96. (1) The Authority may, request an external auditor of a\nby external licensed insurer, reinsurer or insurance broker, whether current or\nauditor to\nAuthority in the past, by notice, to provide information about the licensed\ninsurer, reinsurer or insurance broker, a subsidiary or an affiliate of\nthe licensed insurer, reinsurer or insurance broker.\n(2) An external auditor who fails, refuses or neglects to provide\nthe information under subsection (1) or provides false or misleading\ninformation, commits an offence and is liable, on conviction, to a\nfine not exceeding two hundred thousand penalty units or to\nimprisonment for a term not exceeding two years, or to both.\nAccess to 97. An external auditor of a licensed insurer, reinsurer or a\nInformation insurance broker has the right to access all the books, accounts and\nby external\nrecords of a licensed insurer, reinsurer or insurance broker and is\nauditor\nentitled to require from directors, senior officers and agents\ninformation and explanations that the external auditor requires to\nperform the external auditor’s duties under this Act and any other\nrelevant written law.\nInsurance [No. 38 of 2021 471"
+    },
+    {
+      "number": "98",
+      "heading": "(1) A report made by an external auditor for the purposes External",
+      "text": "auditor’s\nof this Act shall—\nreport\n(a) express whether, in the external auditor’s opinion, the\nlicensed insurer, reinsurer or insurance broker made\navailable all information necessary for the external\nauditor to comply with the requirements of this Act or\nother relevant written law;\n(b) state whether, in the external auditor’s opinion, any of\nthe statements in the annual financial statement—\n(i) exhibits a true and fair statement of the licensed\ninsurer, reinsurer or insurance broker’s financial\ncondition; and\n(ii) requires an explanation or information from the\nboard, senior officer or agent of the licensed\ninsurer, reinsurer or insurance broker or receives\na satisfactory response;\n(c) state whether in the external auditor’s opinion the\nlicensed insurer, reinsurer or insurance broker has\ncomplied with this Act and any other relevant written\nlaw; and\n(d) state the transactions or conditions that have come to\nthe attention of the auditor affecting the well-being of\nthe licensed insurer, reinsurer or insurance broker that,\nin the opinion of the external auditor, are not satisfactory\nand require rectification including—\n(i) a transaction of the licensed insurer, reinsurer\nor insurance broker that has come to the\nattention of the external auditor and which in\nthe opinion of the external auditor, has not been\nwithin the powers of the licensed insurer,\nreinsurer or insurance broker or which was\ncontrary to the Act or any other relevant written\nlaw; and\n(ii) a non-performing loan that is outstanding, is\nrestructured or the terms of repayment are\nextended, if the principal amount of the loan is\nfive percent or more of the regulatory capital of\nthe licensed insurer, reinsurer or insurance\nbroker.\n472 No. 38 of 2021] Insurance\n(2) The board of directors shall submit to the Authority a copy\nof the report of the external auditor, together with a copy of the\nfinancial statement.\nDismissal of 99. (1) The Authority may cause the dismissal of an external\nexternal\nauditor of a licensed insurer, reinsurer or insurance broker for failure\nauditor by\nAuthority to perform the auditor’s responsibilities under this Act, or auditing\nstandards approved by the Zambia Institute of Chartered\nAccountants.\n(2) Where an external auditor to a licensed insurer, reinsurer\nor insurance broker is dismissed, under subsection (1), the licensed\ninsurer, reinsurer or insurance broker shall appoint another external\nauditor, subject to requirements determined by the Authority.\nResignation 100. Where an external auditor of a licensed insurer, reinsurer\nof external\nor insurance broker resigns, the external auditor shall prepare and\nauditor\ndeliver to the Authority, a written statement specifying the reasons\nfor the resignation, within ten days after submission to the licensed\ninsurer, reinsurer or insurance broker of the auditors resignation.\nTermination 101. (1) Where a licensed insurer, reinsurer or insurance broker\nof\nterminates the appointment of the external auditor, the licensed\nappointment\nof external insurer, reinsurer or insurance broker shall submit to the Authority\nauditor by\nand the external auditor, within ten days of the decision to terminate\ninsurer,\nreinsurer or the appointment, a written statement setting out reasons for the\ninsurance\nbroker termination.\n(2) An external auditor may, within ten days of receiving the\nstatement under subsection (1), submit to the Authority and the\nlicensed insurer, reinsurer or insurance broker a written statement\nresponding to the reasons set out by the licensed insurer, reinsurer\nor insurance broker.\nAudit 102. A licensed insurer, reinsurer or insurance broker shall\ncommittee establish an audit committee and appoint persons that the licensed\ninsurer, reinsurer or insurance broker considers necessary as\nmembers of the committee.\nFinancial 103. (1) A licensed insurer, reinsurer or insurance broker shall,\nstatements\nwithin ninety days after the end of each financial year, cause to be\nand other\nreturns prepared the following documents, in accordance with applicable\nfinancial reporting standards and regulations made in accordance\nwith this Act:\n(a) a statement of financial position;\n(b) a statement of comprehensive income;\nInsurance [No. 38 of 2021 473\n(c) a cash flow statement for the financial year in relation\nto the licensed insurer’s, reinsurer’s or insurance\nbroker’s business; and\n(d) an insurance account statement for that financial year\nend.\n(2) A licensed insurer, reinsurer or insurance broker shall effect\na reconciliation between the statements specified in subsection (1)\nand the company accounts for that year.\n(3) An auditor shall prepare—\n(a) a report of the insurance accounts, the reconciliation\nand the company accounts; and\n(b) supplementary report to the report on the company\naccounts, stating that, in the auditor’s opinion, the\ninsurance accounts—\n(i) are properly prepared under this Act; and\n(ii) give a true and fair view of the state of the\nlicensed insurer, reinsurer or insurance broker’s"
+    },
+    {
+      "number": "106",
+      "heading": "(1) A licensed insurer or reinsurer shall prepare and furnish Insurer and",
+      "text": "reinsurer\nto the Registrar a quarterly return in the prescribed manner and\nquarterly\nform. returns\n(2) The quarterly return under subsection (1) shall be—\n(a) signed by the chief executive officer of the licensed\ninsurer or reinsurer; and\n(b) furnished to the Registrar not later than—\n(i) 30th April for the first quarter;\n(ii) 31st July for the second quarter;\n(iii) 31st October for the third quarter; and\n(iv) 31st January for the fourth quarter.\n(3) A licensed insurer or reinsurer who contravenes this section\nis liable to pay to the Authority a fine of one thousand five hundred\npenalty units for each day that the failure to comply continues."
+    },
+    {
+      "number": "107",
+      "heading": "(1) A licensed insurance broker shall prepare and furnish Broker’s",
+      "text": "to the Registrar quarterly returns in each financial year in quarterly\nreturns\naccordance with this section.\n(2) The quarterly return under subsection (1) shall be—\n(a) signed by the chief executive officer of the licensed\ninsurance broker;\n(b) signed by the chief executive officer of the licensed\ninsurer; and\n(c) furnished to the Registrar not later than—\n(i) 31st May for the first quarter;\n(ii) 31st August for the second quarter;\n(iii) 30th November for the third quarter; and\n(iv) 28th February for the fourth quarter.\n(3) A licensed insurance broker who contravenes this section\nis liable to pay the Authority a fine of Authority a fine of one\nthousand five hundred penalty units for each day that the failure to\ncomply continues."
+    },
+    {
+      "number": "108",
+      "heading": "(1) A licensed insurer carrying on more than one class of Separate",
+      "text": "accounts for\ninsurance business in a category of insurance business shall keep\nclasses of\nseparate accounts of receipts and payments in respect of each class. insurance\nbusiness\n476 No. 38 of 2021] Insurance\n(2) A licensed insurer shall, where an amount is received or\npaid by the licensed insurer for the purposes of this section, apportion\nbetween the classes of insurance business in respect of which the\namount is received showing premium per class, investment income\nper class, claims per class, reinsurance cost per class administration\nand management costs or taxes per class of business.\nSigning of 109. (1) Financial statements and insurance accounts prepared\naccounts\nand under this Act by a licensed insurer, reinsurer or insurance broker\nstatements shall be signed, in the case of—\n(a) the licensed insurer, reinsurer or insurance broker, by\nthe auditor and two directors;\n(b) the licensed insurance broker—\n(i) by the auditor and two directors; or\n(ii) where the licensed insurance broker has only\none director, by the auditor and that director; or\n(c) a foreign licensed insurer, reinsurer or insurance broker,\nby an agent authorised in writing by that licensed insurer,\nreinsurer or insurance broker.\n(2) Financial statements and annual returns shall, in the case\nof a foreign licensed insurer, reinsurer or insurance broker, be signed\nby the authorised agent, under subsection (1)(c), unless the Registrar\ndirects that it be signed by the auditor of the licensed insurer,\nreinsurer or insurance broker.\nPublication 110. (1) A licensed insurer, reinsurer or insurance broker shall\nof returns publish, in a newspaper of general circulation, or other electronic\nand\nstatements media in the Republic, its quarterly financial statement and audited\nannual financial statements.\n(2) The Authority shall prescribe the manner and form of\npublication of the financial statements under subsection (1).\n(3) A licensed insurer, reinsurer or insurance broker shall\ndisplay, in a conspicuous place in each branch, at all times when\nthe branch is open for business, a copy of the licensed insurer’s\nquarterly and audited annual financial statement.\nUnauthorised 111. (1) Subject to subsection (2), a licensed insurer, reinsurer\npublication\nor insurance broker shall not publish, whether in the Republic or\nof returns\nand elsewhere, a return or statement required in accordance with this\nstatements Act in a form other than the form in which the return or statement\nis furnished to the Registrar.\n(2) Despite subsection (1), a licensed insurer, reinsurer or\ninsurance broker is not prevented from publishing a true and accurate\nabstract from the return or statement submitted to the Registrar in\naccordance with this Act.\nInsurance [No. 38 of 2021 477"
+    },
+    {
+      "number": "112",
+      "heading": "(1) The Registrar may, for the purposes of ascertaining Examination",
+      "text": "of returns\nthe accuracy or completeness of a return or report furnished by a and reports\nlicensed insurer, reinsurer or insurance broker, by notice in writing,\ndirect the licensed insurer, reinsurer or insurance broker, or the\nauditor of the licensed insurer, reinsurer or insurance broker, to—\n(a) furnish the Registrar, within a period specified in the\nnotice, with further information that the Registrar\nconsiders necessary; or\n(b) submit to the Registrar, within the period specified in\nthe notice, documents that the Registrar considers\nnecessary.\n(2) The Registrar may, where a licensed insurer, reinsurer or\ninsurance broker fails to provide information or submit a document\nto the Registrar, within the period specified under subsection (1),\nreject the return or report and shall notify the licensed insurer,\nreinsurer or insurance broker in writing.\n(3) Where the Registrar rejects a return or report, under\nsubsection (2), the licensed insurer, reinsurer or insurance broker is\nconsidered to have failed to comply with this Act in relation to\nsubmission of returns or reports to the Registrar.\n(4) A person commits an offence if that person for the purposes\nof subsection (1)—\n(a) provides information or a document which the person\nknows to be false in a material particular; or\n(b) recklessly provides information or a document which is\nfalse in a material particular.\n(5) A person convicted of an offence under subsection (4) is\nliable to a fine not exceeding one hundred thousand penalty units or\nto imprisonment for a term not exceeding one year, or to both.\nPART X\nINSPECTIONS AND CO-OPERATION"
+    },
+    {
+      "number": "113",
+      "heading": "The Authority shall establish an inspectorate to administer, Establishment",
+      "text": "of\nmonitor and enforce measures for the effective supervision of the\ninspectorate\ninsurance industry."
+    },
+    {
+      "number": "114",
+      "heading": "(1) The Authority shall appoint suitably qualified persons Appointment",
+      "text": "as inspectors to ensure compliance with this Act. of\ninspectors\n(2) The Authority shall provide an inspector with an\nidentification card which shall be evidence of the inspector’s\nappointment as inspector.\n478 No. 38 of 2021] Insurance\n(3) An inspector shall, in performing a function under this Act—\n(a) be in possession of the identification card under\nsubsection (2); and\n(b) show the identification card to a person who requests\nto see the identification card or is the subject of an\ninvestigation under this Act.\nConduct of 115. (1) For the purposes of ensuring compliance with this Act,\ninspections\nan inspector may during normal working hours enter premises used,\nor which the inspector reasonably believes to be used, by a licensee\nfor conducting business, and—\n(a) inspect the business and affairs of the licensee, including\nthe licensee’s systems, procedures and controls;\n(b) inspect assets, including cash, belonging to or held by\nthe licensee on behalf of another person;\n(c) examine and make copies of documents, including\naccounting records, belonging to, or in the possession of\nthe licensee;\n(d) demand information, explanation or clarification from\nthe licensee on a matter under paragraph (a), (b) or (c);\n(e) record or make copies of information kept by the\nlicensee in an electronic form; and\n(f) undertake other actions that the inspector considers\nnecessary for the effective carrying out of an inspection\nunder this Act.\n(2) An inspector shall, when undertaking an inspection, have\nregard to matters which are relevant to the supervision of licensees,\nincluding—\n(a) verifying the capital, solvency and reserves of a licensed\ninsurer, reinsurer or intermediary;\n(b) determining that a licensed insurer or intermediary has\nadequate procedures in place for purposes of preventing\nmoney laundering, financing of terrorism or proliferation\nor any other serious offence;\n(c) determining whether the licensee is treating policyholders\nfairly; or\n(d) determining whether a licensee is complying with this\nAct, or with conditions on which the licence was granted.\nInsurance [No. 38 of 2021 479\n(3) Without limiting the generality of subsection (1), the Authority\nshall carry out an inspection in respect of a licensee at a time that\nthe Authority may determine.\n(4) A person shall not, directly or indirectly, hinder an inspector\nfrom carrying out the functions of the inspector under this Act.\n(5) A person commits an offence if that person—\n(a) delays or obstructs an inspector in the performance of\nthe inspector’s functions;\n(b) refuses to give an inspector reasonable assistance that\nthe inspector may require for the purpose of carrying\nout the inspector’s functions; or\n(c) knowingly gives an inspector information which is\nmisleading or false in a material particular.\n(6) A person convicted of an offence under subsection (5) is\nliable to a fine not exceeding two hundred thousand penalty units or\nto imprisonment for a term not exceeding two years, or to both."
+    },
+    {
+      "number": "116",
+      "heading": "(1) The Registrar may request a licensee to furnish the Request for",
+      "text": "Registrar with any information, books, papers or any other documents information\nwithin a period that the Registrar shall determine.\n(2) The information, books, papers or any other documents\nfurnished under this Part shall be certified by a principal officer or\nany other employee of the entity authorised to certify the production\nof that information, books or papers as provided for under any other\nrelevant written law.\n(3) Subject to this Act, the Registrar may request or provide\ninformation furnished in accordance with subsection (2) to other\nlocal and foreign regulatory authorities in accordance with\nagreements that may be in force.\n(4) A person commits an offence if that person—\n(a) furnishes information, books, papers or other documents\nwhich the person knows to be false in a material\nparticular; or\n(b) alters, mutilates, damages, destroys, conceals or removes\nthe information, books, papers or other documents from\ntheir lawful custody with intent to conceal the information\nrequested for.\n(5) A person convicted of an offence under subsection (4) is\nliable to a fine not exceeding two hundred thousand penalty units or\nto imprisonment for a term not exceeding two years, or to both.\n480 No. 38 of 2021] Insurance\nAppointment 117. The Registrar may appoint a number of expert\nof expert\ninvestigators investigators that the Registrar may consider appropriate to carry\nout investigations for purposes of this Act.\nConsolidated 118. (1) The Authority shall, where it considers necessary for\nsupervision the safety and soundness of the licensed insurer, reinsurer or\nintermediary or policyholders, or to determine whether this Act is\nbeing complied with, request, in writing, an affiliate, associate holding\nor subsidiary company or a person that controls the insurer, reinsurer\nor intermediary, to provide the Authority or its appointed agent\ninformation or documents that may be necessary, including financial\nstatements and other financial records of that affiliate, associate,\nholding or subsidiary company or person in control, within the period\nspecified in the notice.\n(2) The Authority may appoint a competent person to\nundertake an examination of the operations and affairs of an\naffiliate, associate, holding or subsidiary company of a licensed\ninsurer, reinsurer, intermediary or any person that controls a licensed\ninsurer, reinsurer or intermediary in order to determine whether the\noperations and affairs of the affiliate, associate, holding or subsidiary\ncompany or the person in control are detrimental to the safety and\nsoundness of the licensed insurer, reinsurer or intermediary.\n(3) The Minister may, by statutory instrument, prescribe\nmethods for group wide supervision and regulation.\nCo-operation 119. The Registrar may liaise and cooperate with relevant\nwith other institutions in conducting investigations of insurance businesses\ninstitutions\nlicensed and regulated under this Act.\nPART XI\nSUPERVISORY ACTION\nSupervisory 120. (1) The Authority may take supervisory action against a\naction by\nlicensee that—\nAuthority\n(a) contravenes this Act, code of practice or market\nconduct rules made under this Act or any other relevant\nwritten law;\n(b) is carrying on business in a manner that is unsafe and\nunsound;\n(c) is likely to become insolvent;\n(d) fails to comply with a directive given or a regulatory\nstatement issued by the Authority;\nInsurance [No. 38 of 2021 481\n(e) is in breach of a condition of a licence;\n(f) provides the Authority with false, inaccurate or misleading\ninformation, whether on an application for a licence or\nsubsequent to the grant of the licence;\n(g) carries on the business in a manner contrary to the sound\nprinciples of insurance;\n(h) in the case of a licensed insurer, lacks adequate\narrangements for the reinsurance of risks against which\npersons are insured by the licensed insurer;\n(i) effects a corporate restructuring transaction without the\nprior written approval of the Authority;\n(j) ceases to fulfill the eligibility requirements in accordance\nwith this Act;\n(k) refuses to permit, or obstructs an investigation or\ninspection made under this Act;\n(l) without reasonable justification, fails to cooperate with\nthe Authority in relation to findings of an inspection\nconducted under this Act;\n(m) six months after being granted a licence, fails to\ncommence the business to which the licence relates;\n(n) is convicted of an offence involving fraud or dishonesty,\nor any other offence under this Act; or\n(o) is declared bankrupt by a court of competent jurisdiction.\n(2) The Authority may exercise its authority over a licensee\nwhere the Authority considers that it is necessary to implement\nsupervision for the purposes of prevention and combatting of money\nlaundering and financing of terrorism or proliferation or any other\nserious offence related to money laundering and financing of\nterrorism or proliferation."
+    },
+    {
+      "number": "121",
+      "heading": "(1) The Authority may take supervisory action in respect Nature of",
+      "text": "of a licensee, including— supervisory\naction\n(a) taking possession of the licensed insurer, reinsurer or\nintermediary in accordance with the Act;\n(b) suspending, for a period not exceeding six months, a\nlicence granted to the licensee;\n(c) imposing restrictions on a licence granted to licensee;\n482 No. 38 of 2021] Insurance\n(d) revoking a licence granted to the licensee;\n(e) making directions, in writing, that the licensed insurer,\nreinsurer or intermediary takes remedial action to comply\nwith any rule or regulatory statement;\n(f) issuing a regulatory statement or measure to be taken to\nimprove the management, financial soundness or business\nmethods of a licensed insurer, reinsurer or intermediary;\n(g) requiring the board or senior officers to execute an\nagreement on implementation of a regulatory statement\nissued under paragraphs (e) and (f);\n(h) performing or appointing an agent to perform a special\ninvestigation of a licensee to determine the financial\ncondition of a licensee at the cost of the licensed insurer,\nreinsurer or intermediary; or\n(i) publish in a newspaper of wide circulation or other forms\nof public media the nature of supervisory action taken\nagainst a licensee.\n(2) The Authority may, where a licensed insurer, reinsurer or\nintermediary fails, refuses or neglects to comply with a regulatory\nstatement issued or an agreement made, under subsection (1)—\n(a) issue a cease and desist order, of temporary or indefinite\nduration, requiring a licensed insurer, reinsurer or\nintermediary and its board to—\n(i) stop the unsafe or unsound practice;\n(ii) limit its investments or borrowing;\n(iii) stop any declaration or payment of dividends;\nor\n(iv) stop any other activity that may be specified by\nthe Authority;\n(b) remove or suspend a person from the management of\nthe affairs of the licensed insurer, reinsurer or\nintermediary;\n(c) impose an administrative penalty on the offending senior\nofficer, which shall be paid by that senior officer;\n(d) appoint a person who is suitably qualified and competent\nto advise and assist the licensed insurer, reinsurer or\nintermediary, generally or for the purposes of\nimplementing the orders, made under paragraph (a), (b)\nor (c);\nInsurance [No. 38 of 2021 483\n(e) appoint a person who is suitably qualified and competent\nto manage the affairs of the licensed insurer, reinsurer\nor intermediary for a period that shall be necessary to\nrectify the problem;\n(f) require the licensed insurer, reinsurer or intermediary to\nreconstitute its board within a period that shall be\nspecified;\n(g) withhold approvals on establishment of new branches;\n(h) restrict or vary the licensed insurer, reinsurer or\nintermediary’s licence;\n(i) require the licensed insurer, reinsurer or intermediary to\nincrease its capital to levels that may be specified; or\n(j) impose any administrative penalty as the Authority may\nconsider appropriate in the circumstance."
+    },
+    {
+      "number": "122",
+      "heading": "Despite section 120, the Authority may, by notice in writing, Restrictions",
+      "text": "restrict a licensed insurer, reinsurer or intermediary from— on classes of\ntransactions\n(a) entering into transactions of a class or description\nspecified in the notice, except in circumstances or to an\nextent specified in the notice;\n(b) soliciting business from persons of a class or description\nspecified in the notice or from persons other than persons\nof a class or description; or\n(c) carrying on business in a manner specified in the notice."
+    },
+    {
+      "number": "123",
+      "heading": "The Authority may, in taking supervisory action, relating Prohibition",
+      "text": "to the assets of a licensed insurer, reinsurer or intermediary, by from dealing\nwith assets\nnotice in writing—\n(a) prohibit the licensed insurer, reinsurer or intermediary\nfrom disposing of, or dealing with, the licensed insurer,\nreinsurer or intermediary’s assets in a manner specified\nin the notice; or\n(b) direct the licensed insurer, reinsurer or intermediary to\ndeal with the licensed insurer, reinsurer or intermediary’s\nassets in a manner specified in the notice."
+    },
+    {
+      "number": "124",
+      "heading": "Where it appears to the Authority that a restriction or Variation or",
+      "text": "prohibition imposed on a licensed insurer, reinsurer or intermediary, rescission\nof\nunder this Act is no longer necessary, the Authority may, either on\nrestriction\nits own motion, or on application by the licensed insurer, reinsurer or\nprohibition\nor intermediary, by notice in writing vary the restriction or rescind\nthe prohibition.\n484 No. 38 of 2021] Insurance\nNotice of 125. (1) The Authority may, where the Authority considers it\ntaking\nnecessary for the protection of policyholders take possession of a\npossession\nlicensed insurer, reinsurer or intermediary.\n(2) The Authority shall, when taking possession of a licensed\ninsurer, reinsurer or intermediary—\n(a) notify the licensed insurer, reinsurer or intermediary, in\nwriting of the action;\n(b) specify the date, hour and minute at which the possession\nshall take effect; and\n(c) where the intended possession relates to insolvency\nproceedings under the Corporate Insolvency Act, 2017,\nAct No. 9 of\n2017 transmit a copy of the notice to the court.\nPowers of 126. (1) Despite any other relevant written law, the Authority\nAuthority\nshall, on taking possession of a licensed insurer, reinsurer or\non taking\npossession intermediary under section 125, be vested with full and exclusive\npowers of management and control of the licensed insurer, reinsurer\nor intermediary, including the power to—\n(a) continue or discontinue operations of the licensed insurer,\nreinsurer or intermediary;\n(b) employ, re-employ or retain in employment officers or\nother employee of the licensed insurer, reinsurer or\nintermediary, or professional advisors that the Authority\nconsiders necessary;\n(c) terminate the employment of a director or employee of\nthe licensed insurer, reinsurer or intermediary;\n(d) terminate the interests of shareholders and refer the\ndetermination of the value of the shareholders’ interests\nto the court or arbitrator; or\n(e) enforce the personal liability of the directors and\nshareholders of the licensed insurer, reinsurer or\nintermediary incurred in the ordinary course of the\nlicensed insurer, reinsurer or intermediary business on\nunpaid shares.\n(2) Despite subsection (1), the Registrar may, where the\nRegistrar considers it proper to do so, take possession of the licensed\ninsurer, reinsurer, or intermediary where the Registrar finds that—\n(a) the assets of a licensed insurer, reinsurer or intermediary\nwhose voluntary winding-up or liquidation or dissolution\nwill not be sufficient for the full discharge of its\nobligations; or\n(b) the completion of the winding-up, liquidation or dissolution\nis unduly delayed.\nInsurance [No. 38 of 2021 485"
+    },
+    {
+      "number": "127",
+      "heading": "(1) The Authority shall, on taking possession of a licensed Statement of",
+      "text": "assets and\ninsurer, reinsurer or intermediary, prepare a statement of affairs\nliabilities\nshowing the financial position of the licensed entity and take actions\nunder subsection (2).\n(2) The Authority shall, where a statement made under\nsubsection (1) shows a licensed insurer, reinsurer or intermediary\nto be—\n(a) solvent—\n(i) restructure or reorganise the licensed insurer,\nreinsurer or intermediary;\n(ii) sell the licensed insurer, reinsurer or intermediary\nas a going concern;\n(iii) close the licensed insurer, reinsurer or\nintermediary;\n(iv) transfer all or part of business to another licensed\ninsurer, reinsurer or intermediary;\n(v) initiate a purchase and assumption transaction;\n(vi) dispose of some of the assets of the licensed\ninsurer, reinsurer or intermediary; or\n(vii) take the action that the Authority considers\nnecessary to enable the Authority carry out its\nfunctions in accordance with this Act.\n(b) insolvent, subject to the Corporate Insolvency Act, Act No. 9 of\n2017— 2017\n(i) revoke the licensed insurer’s, reinsurer’s or\nintermediary’s licence and place the licensed\ninsurer, reinsurer or intermediary under\ncompulsory liquidation under Part XII; or\n(ii) take appropriate action in accordance with\nsubsection (2)(a)."
+    },
+    {
+      "number": "128",
+      "heading": "A licensed insurer, reinsurer or intermediary, or an Petition to",
+      "text": "interested person acting on behalf of the licensed insurer, reinsurer Minister\nagainst\nor intermediary may, within twenty-one days after the date on which possession\nthe Authority takes possession of the licensed insurer, reinsurer or\nintermediary, petition the Minister to establish the Tribunal to inquire\ninto the decision of the Authority to take possession thereof.\n486 No. 38 of 2021] Insurance\nEffect of 129. Where the Authority takes possession of a licensed\npossession insurer, reinsurer or intermediary—\n(a) despite any relevant law relating to extension of time, a\nterm, whether statutory or contractual, on the expiration\nof which a claim or right of the licensed insurer, reinsurer\nor intermediary would expire or be extinguished, shall\nbe extended by six months of the date of that expiration\nor extinction;\n(b) an attachment or lien which has been in existence for\nless than twelve months shall be vacated, and no\nattachment or lien shall attach to an asset or property of\nthe licensed insurer, reinsurer or intermediary during the\nperiod that the possession continues; and\n(c) a writ of execution, attachment, garnishee order or other\nprocess of a similar nature shall not be issued or made\nagainst an asset of the licensed insurer, reinsurer or\nintermediary during the period that the possession\ncontinues.\nRestructuring 130. (1) The Authority shall, where the Authority decides to\nand re- restructure or reorganise a licensed insurer, reinsurer or intermediary,\norganisation\nunder subsection (2), cause to be published in the Gazette and in a\ndaily newspaper of general circulation, or in other electronic media\nin the Republic a notice—\n(a) accompanied by the restructuring or reorganisation plan;\nand\n(b) inviting interested persons to submit to the Registrar,\nwithin thirty days from the date of publication of the\nnotice, written objections to the plan and the reasons for\nobjecting.\n(2) The Authority shall proceed to carry out the restructuring\nAct No. 9 of or reorganisation, in accordance with the Corporate Insolvency Act,\n2017 2017, if—\n(a) no objection is received by the Registrar, within the period\nspecified in subsection (1), or the Authority is not satisfied\nwith the reasons for the objection; and\n(b) the court does not order a stay of proceedings.\nInsurance [No. 38 of 2021 487\n131.Any expenses incurred by the Authority in the application Expenses\nincurred in\nof this Part shall be defrayed from the funds of the licensed insurer,\ntaking\nreinsurer or intermediary concerned. possession\n132.The Authority may appoint an agent to carry out the Power of\nAuthority to\nfunctions of the Authority on taking possession of the licensed appoint\ninsurer, reinsurer or intermediary. agent on\ntaking\npossession\nPART XII\nINSOLVENCY, DISSOLUTION AND LIQUIDATION OF\nINSURER, REINSURER OR INTERMEDIARY"
+    },
+    {
+      "number": "133",
+      "heading": "The Corporate Insolvency Act, 2017, shall apply where Application",
+      "text": "of Corporate\na licensed insurer, reinsurer or intermediary is insolvent, unless the Insolvency\nAuthority determines that the winding up or dissolution shall proceed Act, 2017\nin accordance with this Part. Act No. 9 of\n2017"
+    },
+    {
+      "number": "134",
+      "heading": "(1) Subject to section 133, a licensed insurer, reinsurer or Prohibition",
+      "text": "from\nintermediary shall not, while insolvent, except where it is necessary conducting\nor incidental to the orderly realisation, conservation or preservation business\nwhile\nof the assets of the licensed insurer, reinsurer or intermediary, enter insolvent\ninto or continue to conduct business which— Act No. 9 of\n2017\n(a) the insurer, reinsurer or intermediary is licensed to carry\non; or\n(b) is ancillary to the business which the licensed insurer,\nreinsurer or intermediary is licensed to carry on.\n(2) A shareholder, director, senior officer or other employee\nof a licensed insurer, reinsurer or intermediary commits an offence\nif that shareholder, director, senior officer or other employee knows\nor, in the proper performance of duties, could reasonably be\nexpected to know of the insolvency of the licensed insurer, reinsurer\nor intermediary and causes or permits an act in contravention of\nthis section.\n(3) A person convicted of an offence under subsection (2) is\nliable to a fine not exceeding five hundred thousand penalty units,\nor to imprisonment for a term not exceeding five years, or to both.\n135.Where a licensed insurer, reinsurer or intermediary Power of\nbecomes insolvent, the Authority may— Authority\non\ninsolvency\n(a) take possession of the licensed insurer, reinsurer or\nof insurer,\nintermediary in accordance with this Act; or reinsurer or\nintermediary\n(b) order compulsory winding up or dissolution of the licensed\ninsurer, reinsurer or intermediary in accordance with\nsection 142.\n488 No. 38 of 2021] Insurance\nApproval of 136. (1) A licensed insurer, reinsurer or intermediary shall not,\nvoluntary\nwinding-up except with the written approval of the Authority, pass a resolution\nor\nfor voluntary winding-up or dissolution in accordance with the\ndissolution\nAct No. 10 Companies Act, 2017, the Corporate Insolvency Act, 2017 or any\nof 2017 other written law.\nAct No. 9 of\n(2) A licensed insurer, reinsurer or intermediary seeking\n2017\napproval for voluntary winding-up or dissolution shall submit to the\nRegistrar an audited declaration of solvency by the directors of the\nlicensed insurer, reinsurer or intermediary, accompanied by a\nstatement of affairs of the licensed insurer, reinsurer or intermediary\nshowing the—\n(a) assets and total amount expected to be realised from\nthose assets;\n(b) liabilities; and\n(c) estimated expenses of the winding-up, made up to the\nlatest practicable date before the intention to wind-up\nwas arrived at.\n(3) The Authority may, by notice in writing, grant a licensed\ninsurer, reinsurer or intermediary the Authority’s approval to\nvoluntarily wind up or dissolve the licensed insurer, reinsurer or\nintermediary business if the Authority is satisfied that the licensed\ninsurer, reinsurer or intermediary is solvent and has sufficient liquid\nassets to repay in full and without delay, in the case of—\n(a) the licensed insurer or reinsurer, its policyholders and\nother creditors; and\n(b) the licensed intermediary, the creditors of the licensed\nintermediary.\n(4) Where a licensed insurer, reinsurer or intermediary passes\na resolution for voluntary winding-up or dissolution, the licensed\ninsurer, reinsurer or intermediary shall record the date, hour and\nminute of the passing of the resolution.\n(5) A director, senior officer or other employee of a licensed\ninsurer, reinsurer or intermediary who, in relation to subsection (2),\nmakes a false declaration, or causes or permits a false declaration\nto be made, commits an offence and is liable, on conviction, to a\nfine not exceeding two hundred thousand penalty units or to\nimprisonment for a term not exceeding two years, or to both.\nInsurance [No. 38 of 2021 489"
+    },
+    {
+      "number": "137",
+      "heading": "(1) Where a licensed insurer, reinsurer or intermediary Duties of",
+      "text": "insurer,\nreceives written approval of the Authority for voluntary winding-\nreinsurer or\nup or dissolution, the licensed insurer, reinsurer or intermediary shall, intermediary\non voluntary\nwithin twenty-one days of receipt of the approval—\nwinding up\n(a) pass the resolution for voluntary winding up or dissolution;\n(b) surrender the licensed insurer, reinsurer or intermediary\nlicence to the Registrar;\n(c) cease to carry on business, except so far as is required\nin the opinion of the liquidator, in consultation with the\nRegistrar, for purposes of effecting an orderly winding\nup;\n(d) in the case of—\n(i) the licensed insurer or reinsurer, repay or transfer\nto the licensed insurer’s policyholders and\ncreditors amounts due to them; or\n(ii) the licensed intermediary, repay or transfer to\nthe licensed intermediary’s creditors amounts\ndue to them; and\n(e) wind up the licensed insurer’s, reinsurer’s or\nintermediary’s operations.\n(2) Despite subsection (1), the corporate state and powers of\na licensed insurer, reinsurer or intermediary shall not cease until\nthe licensed insurer, reinsurer or intermediary is dissolved.\n(3) A director or senior officer of a licensed insurer, reinsurer\nor intermediary who causes or permits a contravention of subsection\n(1), commits an offence and is liable, on conviction, to a fine not\nexceeding two hundred thousand penalty units or to imprisonment\nfor a term not exceeding two years, or to both."
+    },
+    {
+      "number": "138",
+      "heading": "(1) A licensed insurer, reinsurer or intermediary shall, Notice of",
+      "text": "within seven days after receiving the approval of the Authority for voluntary\nwinding up\nvoluntary winding up, cause to be published in the Gazette and in a\nor\ndaily newspaper of general circulation or other electronic media in dissolution\nthe Republic a notice of the licensed insurer, reinsurer or\nintermediary intention to wind up, which shall include information\nthat the Authority may specify in the notice given under section"
+    },
+    {
+      "number": "136",
+      "heading": "(2) A licensed insurer, reinsurer or intermediary shall display,",
+      "text": "in a conspicuous place at each branch of the licensed insurer,\nreinsurer or intermediary, a copy of the notice published in\naccordance with subsection (1).\n490 No. 38 of 2021] Insurance"
+    },
+    {
+      "number": "139",
+      "heading": "(1) An approval by the Authority for the voluntary winding",
+      "text": "Rights of\npolicyholders, up or dissolution of a licensed insurer, reinsurer or intermediary\ncreditors\nand other under this Part shall not prejudice the right of—\npersons\n(a) a policyholder or creditor of the licensed insurer to the\npayment in full of a claim;\n(b) a creditor of the licensed intermediary to the payment\nin full of a claim; or\n(c) an owner of funds or other property held by the licensed\ninsurer, reinsurer or intermediary to the return of those\nfunds or property.\n(2) A lawful claim against a licensed insurer, reinsurer or\nintermediary shall be paid promptly by the licensed insurer, reinsurer\nor intermediary and all funds and other property held by the licensed\ninsurer, reinsurer or intermediary shall be returned to the rightful\nowners within a period that the Authority may direct in writing.\n(3) Without prejudice to the generality of subsection (2), a long\nterm licensed insurer or general licensed insurer shall, in the\ndistribution of assets other than those identified with a statutory\nfund for purposes of a voluntary winding up or dissolution, ensure\nthat the holders of policies issued by the licensed long term insurer\nor general licensed insurer have preference to all other unsecured\ncreditors.\nCancellation 140. (1) The Authority shall, where the Authority is satisfied\nof licence on that a licensed insurer, reinsurer or intermediary has discharged its\nvoluntary\nwinding up obligations specified in this Act cancel the licensed insurer, reinsurer\nor intermediary licence.\n(2) A licensed insurer, reinsurer or an intermediary whose\nlicence is cancelled under subsection (1) shall distribute the\nremainder of the licensed insurer, reinsurer or intermediary assets\namong the shareholders of the licensed insurer, reinsurer or\nAct No. 9 intermediary in accordance with the Corporate Insolvency Act,\nof 2017 2017.\n(3) A distribution of a licensed insurer’s, reinsurer’s or\nintermediary’s assets, under subsection (2), shall not be made\nunless—\n(a) in the case of—\n(i) a licensed insurer, all lawful claims of\npolicyholders and other creditors of the licensed\ninsurer are paid; or\nInsurance [No. 38 of 2021 491\n(ii) a licensed intermediary, all lawful claims of\ncreditors of the licensed intermediary are paid;\n(b) in the case of a disputed claim, the licensed insurer,\nreinsurer or intermediary, or the liquidator of the licensed\ninsurer, reinsurer or intermediary, has turned over to the\nAuthority sufficient funds to meet any liability that may\nbe judicially determined; and\n(c) the licensed insurer, reinsurer or intermediary has turned\nover to the Authority, unclaimed funds to be dealt with\nin accordance with section 150, and uncollected funds\nthat are payable by the—\n(i) licensed insurer or reinsurer to a policyholder or\ncreditor; or\n(ii) licensed intermediary to a creditor."
+    },
+    {
+      "number": "141",
+      "heading": "The Authority may, where it considers just and appropriate, Powers of",
+      "text": "take possession of a licensed insurer, reinsurer or intermediary Authority\nwhere assets\nwhose voluntary winding up or dissolution is approved by the insufficient\nor\nAuthority if it becomes known to the Authority that the—\ncompletion\nunduly\n(a) assets of the licensed insurer, reinsurer or intermediary\ndelayed\nare not sufficient to fully discharge the licensed insurer,\nreinsurer or intermediary obligations; or\n(b) completion of the winding up or dissolution is unduly\ndelayed."
+    },
+    {
+      "number": "142",
+      "heading": "(1) Subject to the Corporate Insolvency Act, 2017, or any Compulsory",
+      "text": "other law, the Authority may order the compulsory winding up or winding up\ndissolution of a licensed insurer, reinsurer or intermediary, and cause Act No. 9 of\n2017\nto be recorded the date, hour and minute that the order shall take\neffect.\n(2) The Authority shall, within seven days of making an order,\nunder subsection (1), notify each director, shareholder, policyholder,\ncreditor and any other interested party of the order in the prescribed\nmanner and form."
+    },
+    {
+      "number": "143",
+      "heading": "(1) A licensed insurer, reinsurer or intermediary, or an Appeal",
+      "text": "against order\ninterested person acting on behalf of the licensed insurer, reinsurer\nof\nor intermediary may, within twenty-one days of publication of a compulsory\nwinding up\nnotice under section 142, appeal to the court against the order of\nor\nthe Authority. dissolution\n492 No. 38 of 2021] Insurance\n(2) The Court shall render its decision within thirty days of\nhearing an appeal made under subsection (1), and may make any\norder it considers just in the circumstances.\nPowers of 144. (1) The Authority may, in effecting a compulsory winding\nAuthority in\nup or dissolution of a licensed insurer, reinsurer or intermediary\ncompulsory\nwinding up under this Act, in addition to any other powers, exercise the powers\nof the licensed insurer, reinsurer or intermediary concerned.\n(2) Without limiting the generality of subsection (1), the power\nof the Authority as liquidator of a licensed insurer, reinsurer or\nintermediary is to—\n(a) bring, carry on or defend an action or legal proceeding\nin the name and on behalf of the licensed insurer,\nreinsurer or intermediary; and\n(b) carry on the business of the licensed insurer, reinsurer\nor intermediary only for the beneficial winding-up or\ndissolution of the licensed insurer, reinsurer or\nintermediary.\nAct No. 9 of (3) Subject to the Corporate Insolvency Act, 2017 and any\n2017 other relevant written law, the Authority shall after a decision to\ncompulsorily wind-up or dissolve a licensed insurer, reinsurer or\nintermediary—\n(a) take all necessary steps to terminate safe custody\nfunctions performed by the licensed insurer, reinsurer\nor intermediary and shall return to each owner all assets\nand property held by the licensed insurer, reinsurer or\nintermediary as a bailee in relation to the owner; and\n(b) cause to be made available at each branch for collection\nfor each policy holder, creditor, safe custody services\ncustomer and bailer of property held by the licensed\ninsurer, reinsurer or intermediary a policy holder’s\nstatement of the nature and amount for which each one’s\nclaim is shown in the licensed insurer, reinsurer or\nintermediary’s records and shall cause to be published\nin a newspaper of general circulation in the Republic, a\nnotice informing all persons of the availability for\ncollection of the policyholder’s statement at their\nrespective branches.\nInsurance [No. 38 of 2021 493\n(4) A policyholder’s statement under subsection (2), shall state\nthat—\n(a) a claim by the policyholder or creditor shall be filed with\nthe Authority within sixty days from the date of the\ncustomer’s statement being made available; and\n(b) policyholders shall be required to withdraw their property\nwithin sixty days of the date of the policy holder’s\nstatement being made available.\n(5) Any property held in safe custody, on the premises of a\nlicensed insurer, reinsurer or intermediary that has not been\nwithdrawn before the date specified in the customer’s statement\nshall be taken into possession by the Authority in the manner\nprescribed by the Authority.\n(6) Any unclaimed funds and property held by a licensed\ninsurer, reinsurer or intermediary as a bailee, together with inventories\nthat are withdrawn, in accordance with this section, shall be\nunclaimed funds for the purposes of this Act and shall be dealt with\naccordingly.\n145.The Authority shall, within six months after the last day Limitation\nspecified in a customer’s statement, for the purpose of the filing of on filing\nclaims\nclaims under section 144(4)(a)—\n(a) defer payment of any claim that is out of time;\n(b) determine the amount, if any, owing to each known\npolicyholder or creditor and the priority class of the claim\nin accordance with this Act;\n(c) file into court, a liquidation schedule showing the steps\nthat the Authority proposes to take;\n(d) reject any claim that appears to be of doubtful validity\nand notify, each person whose claim has not been allowed\nin full in the prescribed manner and form; and\n(e) publish once a week for three consecutive weeks, in the\nGazette, a newspaper of general circulation, or in other\nelectronic media in the Republic where the licensed\ninsurer, reinsurer or intermediary had a branch, a notice\nof the date and place where the liquidation schedule is\navailable for inspection and the date, not earlier than\nthirty days after the date of the third publication of the\nnotice, on which the Authority or person appointed shall\nfile the liquidation schedule into court.\n494 No. 38 of 2021] Insurance\nObjection to 146. (1) A policyholder, creditor or owner of a licensed insurer,\nliquidation reinsurer or intermediary and any other interested party may, within\nschedule\ntwenty days, after the filing of a liquidation schedule as specified in\nsection 144, file with the court an objection to any step proposed.\n(2) The court shall consider an objection filed under subsection\n(1) and may—\n(a) order that appropriate modification of the schedule be\nmade; or\n(b) set aside the objection.\n(3) The Authority may, after the filing of the liqui"
+    },
+    {
+      "number": "148",
+      "heading": "Any undistributed funds remaining after final distribution, Undistributed",
+      "text": "under this Act, shall be taken into possession and held by the funds\nAuthority and subsequently dealt with in accordance with this Act."
+    },
+    {
+      "number": "149",
+      "heading": "Any asset remaining after all claims are paid in a Final",
+      "text": "distribution\ncompulsory winding up or dissolution of a licensed insurer, reinsurer\nin\nor intermediary shall be distributed among the shareholders. compulsory\nwinding up or\ndissolution"
+    },
+    {
+      "number": "150",
+      "heading": "The Authority shall take into its possession any unclaimed Unclaimed",
+      "text": "funds\nfunds remaining after the final distribution of the assets of a licensed\ninsurer, reinsurer or intermediary in accordance with the Corporate Act No. 9 of\n2017\nInsolvency Act, 2017, and those funds shall form part of the\nInsurance Fidelity Fund and be administered as if they were part of\nthe Insurance Fidelity Fund."
+    },
+    {
+      "number": "151",
+      "heading": "A person, other than the Authority, shall not where the Restriction",
+      "text": "on action by\nAuthority takes possession of a licensed insurer, reinsurer or\nthird party\nintermediary, under this Part, commence proceedings for the winding\nup or dissolution of the licensed insurer, reinsurer or intermediary,\nexcept where the proceedings are commenced by a licensed insurer,\nreinsurer or intermediary."
+    },
+    {
+      "number": "152",
+      "heading": "(1) Where an application is made to the court for an order Other",
+      "text": "for the winding up of a licensed insurer, reinsurer or intermediary person’s\napplications\nby a person other than the Authority, the court shall not consider\nto court for\nthe application unless the court is satisfied that a copy of the winding up\napplication is served on the Registrar.\n(2) The Authority is entitled to file documents in court in relation\nto an application under subsection (1)."
+    },
+    {
+      "number": "153",
+      "heading": "Any necessary and reasonable expenses incurred by the Recovery of",
+      "text": "Authority in the application of this Act is defrayed from the funds expenses\nof the licensed insurer, reinsurer or intermediary concerned.\n154.Nothing in this Part is taken to impute liability, or place an Immunity of\nobligation, on the Authority to meet a claim by a policyholder or Authority\nagainst\ncreditor of a licensed insurer, reinsurer or intermediary that has claims\nbeen wound up or dissolved."
+    },
+    {
+      "number": "155",
+      "heading": "The Authority may appoint an agent to carry out the functions Power of",
+      "text": "of the Authority under this Part. Authority to\nappoint agent\n496 No. 38 of 2021] Insurance\nPART XIII\nCOMPLAINTS\nInitiation of 156. (1) The Authority may investigate a complaint—\ninvestigation\n(a) on the Authority’s own initiative; or\n(b) on receipt of a complaint made by a complainant—\n(i) acting in the complainant’s own interest;\n(ii) that is an association acting in the interest of its\nmembers;\n(iii) who is a person acting on behalf of a\ncomplainant;\n(iv) who is a person acting on behalf, and in the\ninterest, of a group or class of persons; or\n(v) who is making a complaint anonymously.\n(2) A complaint, made as provided in subsection (1) shall be in\nthe prescribed manner and form.\n(3) Subsection (2) shall not apply to a complaint made by a\nperson specified in subsection (1)(b)(v).\nRefusal to 157. (1) The Authority may refuse to investigate a complaint\ninvestigate\nor, having commenced an investigation, discontinue the investigation\nor\ndiscontinue if the—\ncomplaint\n(a) complaint is frivolous, vexatious or not made in good\nfaith;\n(b) complainant does not have sufficient interest in the action\ncomplained of, except that this paragraph shall not apply\nto a complaint made by a person specified in section\n156(1)(b)(v);\n(c) complainant has a right of appeal, review or remedy\nthat has not been exhausted;\n(d) conduct or involvement to which the complaint relates\nis or has been the subject of an investigation or other\naction by any other appropriate authority under any other\nlaw; or\n(e) complaint has been withdrawn.\n(2) The Authority shall not investigate a complaint unless the\ncomplaint is made within a period of one year from the date on\nwhich the complainant exhausted the complainant’s rights as\nprescribed.\nInsurance [No. 38 of 2021 497\n(3) Despite subsection (1)(c), the Authority may investigate a\ncomplaint where the Authority is satisfied that the complainant has\nbeen prevented from exercising the complainant’s rights as specified.\n(4) The Authority shall, where it decides not to conduct an\ninvestigation or discontinue an investigation, inform the complainant,\nin writing, within fourteen days of its decision and give reasons for\nthe decision."
+    },
+    {
+      "number": "158",
+      "heading": "Where the Authority is of the opinion that is in public Continuation",
+      "text": "interest to do so, the Authority may continue an investigation initiated of\ninvestigation\nby a complaint despite the withdrawal by the complainant of the where\ncomplaint\ncomplaint.\nwithdrawn"
+    },
+    {
+      "number": "159",
+      "heading": "The Authority may, at any stage of investigating or dealing Referral of",
+      "text": "with a matter as provided in this Act, refer the matter to an appropriate matter\nauthority."
+    },
+    {
+      "number": "160",
+      "heading": "The Authority may, where the Authority commences an Collaboration",
+      "text": "investigation or is investigating a matter and the matter is being on\ninvestigation\ndealt with by an appropriate authority—\n(a) continue to investigate or decide on the matter and share\nits findings with the appropriate authority concerned;\n(b) refer the matter to the appropriate authority concerned\nand request a report on the matter, once the matter has\nbeen finalised; or\n(c) join the appropriate authority investigating the matter and\nproduce a joint report."
+    },
+    {
+      "number": "161",
+      "heading": "(1) The Authority may issue an enforcement notice Enforcement",
+      "text": "directing a licensed insurer, reinsurer or intermediary to carry out notice\nsteps that the Authority considers appropriate, within a specified\nperiod where, after undertaking an investigation under this Act, the\nAuthority is of the opinion—\n(a) that the action which was the subject matter of the\ninvestigation is contrary to this Act or any other written\nlaw, based wholly or partly on a mistake of law or fact;\n(b) that—\n(i) the matter should be given further consideration;\n(ii) an omission should be rectified;\n(iii) a decision should be cancelled, reversed or\nvaried;\n(iv) the practice on which the act, omission, decision\nor recommendation was based should be\naltered;\n498 No. 38 of 2021] Insurance\n(v) reasons should have been given for the decision;\nor\n(vi) any other steps should be taken.\n(2) Where, on the expiry of the period, specified under an\nenforcement notice, a licensed insurer, reinsurer or intermediary\nfails to comply with the enforcement notice without reasonable\ncause, the Authority shall make a decision to give effect to the\nsteps specified in the enforcement notice.\nVariation or 162. (1) The Authority may, on its own initiative or on an\ncancellation\nof application of a licensed insurer, reinsurer or intermediary, vary or\nenforcement cancel an enforcement notice issued in accordance with section\nnotice"
+    },
+    {
+      "number": "161",
+      "heading": "(2) Where the Authority varies or cancels an enforcement",
+      "text": "notice, as provided in subsection (1), the Authority shall immediately\nnotify the concerned licensed insurer, reinsurer or intermediary, in\nwriting, stating the reasons for the variation or cancellation.\nPART XIV\nINSURANCE TRIBUNAL\nRight to 163. (1) A person who is aggrieved by a decision of the\nappeal\nAuthority may, within thirty days of receipt of the decision of the\nAuthority, notify the Minister, in the prescribed manner and form,\nof the intention to appeal against the decision.\n(2) Lodgment of an appeal under this Part does not stay the\neffect of the Registrar’s decision against which the appeal is made.\nAppointment 164. (1) The Minister shall, within thirty days after receipt of\nand\nconvening of a notice made under section 163, appoint and convene an ad hoc\nappeals\ntribunal appeals tribunal consisting of a chairperson who is an advocate of\nthe High Court of not less than ten years standing and two other\npersons having qualifications and experience in insurance, securities,\ncommerce, finance, accounting or any other specialised field relating\nto the matter which is the subject of the appeal.\n(2) The Tribunal shall have jurisdiction to hear and determine—\n(a) appeals from decision of the Authority or a person\nexercising the functions or powers of the Authority;\nInsurance [No. 38 of 2021 499\n(b) proceedings relating to conduct in the insurance market;\nand\n(c) other matters as may be specified in, or prescribed in\nterms of this Act or any other written law.\n(3) A person aggrieved with a decision of the Tribunal may\nappeal to the Court of Appeal."
+    },
+    {
+      "number": "165",
+      "heading": "The Chief Justice shall prescribe rules of procedure for Tribunal",
+      "text": "an ad hoc tribunal convened under this Act. Rules\nPART XV\nGENERAL PROVISIONS"
+    },
+    {
+      "number": "166",
+      "heading": "(1) Subject to subsection (2), assets, liabilities and interests Insurance to",
+      "text": "be placed\nsituated in the Republic shall be insured with an insurer licensed\nwithin\nunder this Act. Republic\n(2) Despite subsection (1), the Registrar may, in writing and\non terms and conditions that the Registrar may prescribe, authorise\nthe placing outside the Republic of an insurance policy which is not\navailable within the Republic.\n(3) A person who fails to comply with this section commits an\noffence and is liable, on conviction, to a fine not exceeding two\nhundred thousand penalty units or to imprisonment for a term not\nexceeding two years, or to both.\n(4) The Minister may prescribe, by statutory instrument, classes\nof insurance, businesses to be placed within the Republic including\ntransport and property insurance."
+    },
+    {
+      "number": "167",
+      "heading": "(1) Subject to the Electronic Communications and Documents",
+      "text": "to be signed\nTransactions Act, 2021, a document furnished to the Registrar by a\nand copies\nlicensee is signed, in the case of— supplied\nAct No. 4\nof 2021\n(a) a document in a prescribed form, by the person specified\nin the form; and\n(b) any other document where the licensee is a company,\nby the chief executive officer of the company.\n(2) Where a document furnished to the Registrar is a copy of\nthe original document, the Registrar shall not accept the copy unless\nit is certified to be a true copy of the original document in the\nprescribed manner."
+    },
+    {
+      "number": "168",
+      "heading": "(1) The Registrar shall establish and maintain a register Register of",
+      "text": "licensees\nof licensees, which shall contain particulars of licensees and the\nlicences issued under this Act as prescribed.\n500 No. 38 of 2021] Insurance\n(2) The register shall be kept by the Registrar at the offices of\nthe Authority and shall be open for inspection by members of the\npublic during office hours on payment of a prescribed fee.\n(3) The Registrar may, on an application by a person, issue to\nthat person a certified extract from the register or a copy of a\nlicence issued to a licensee under this Act, on payment of a\nprescribed fee.\nDisplay of 169. The Registrar may, where the Registrar considers it\ninformation necessary in the public interest, direct a licensee to display, in a\nconspicuous place in which the licensee carries on the business\nauthorised by the licence, information or particulars that the Registrar\nshall specify.\nPublication 170. (1) A licensed insurer, reinsurer or insurance broker shall\non change of\nnot change the licensed insurer, reinsurer or insurance broker’s\nname\nname without the Registrar’s approval in writing.\n(2) The Registrar shall not approve a change of name, under\nsubsection (1), if the Registrar reasonably considers that the change\nwill be contrary to public interest.\n(3) The Registrar shall, where the Registrar approves a change\nof name under subsection (1), cause notice of the change to be\npublished in the Gazette and in a daily newspaper of general\ncirculation in the Republic.\nAlteration of 171. The Registrar may, where the Registrar considers it\nprescribed\nnecessary, alter a form prescribed under this Act for the purpose\nforms\nof adapting the form to meet the circumstances of a licensee or a\nperson applying for a licence under this Act.\nFalse 172. (1) A person shall not issue a document, provided for in\ndocuments this Act, which is false in a material particular.\n(2) A person who contravenes subsection (1) or who, knowingly\nfalsifies a document, takes part in the preparation, issue or signing\nof the document, commits an offence and is liable, on conviction, to\na fine not exceeding two hundred thousand penalty units or to\nimprisonment for a term not exceeding two years, or to both.\nOffence by 173. Where an offence under this Act is committed by a body\nprincipal\ncorporate or unincorporate body, with the knowledge, consent or\nofficers of\nbody connivance of the director, manager, shareholder or partner of the\ncorporate or\nunincorporate body corporate or unincorporate body, that director, manager,\nbody\nshareholder or partner commits the same offence as the body\ncorporate or unincorporate body and is liable, on conviction, to the\npenalty specified for that offence under this Act.\nInsurance [No. 38 of 2021 501"
+    },
+    {
+      "number": "174",
+      "heading": "A person who is not licensed in accordance with this Act Prohibition",
+      "text": "of use of\nshall not use in the description or title under which the person is\ncertain titles\ncarrying on business in the Republic—\n(a) any of the following words, when applied to or used in\nrespect of insurance business:\n“ assure ”, “ assurer ”, “ assurance ”, “ broker ”, “\nconsultant ”, “ guarantee ”, “ indemnity ”, “ insure ”, “\ninsurer ”, “ insurance ”, “ reinsurer ”, “ reinsurance\nbroker ” or “ international ”;\n(b) a literal translation of any of the words mentioned in\nparagraph (a); or\n(c) a combination of letters in which any of the words\nmentioned in paragraph (a) appears."
+    },
+    {
+      "number": "175",
+      "heading": "(1) A licensed insurer or reinsurer shall be a member of Membership",
+      "text": "to\nthe Insurers Association of Zambia and shall subscribe and conform\nassociations\nto the Association’s code of conduct.\n(2) A licensed insurance broker shall be a member of the\nInsurance Brokers Association of Zambia and shall subscribe and\nconform to the Association’s code of conduct.\n(3) The Registrar may suspend a licensed insurer, reinsurer or\ninsurance broker licence for a period of not less than one year if—\n(a) the licensed insurer, reinsurer or insurance broker\nrefuses, neglects or fails to join the association specified\nin subsection (1) or (2) within ninety days of being granted\na licence; or\n(b) the membership of the licensed insurer reinsurer or\ninsurance broker to the association specified in subsection\n(1) or (2) is suspended or otherwise terminated.\n(4) The Authority may, where the reason specified in\nsubsection (3) for the suspension of the licence of an insurer, reinsurer\nor insurance broker continues to exist for thirty days after the\nsuspension is lifted, cancel the licence in accordance with this Act."
+    },
+    {
+      "number": "176",
+      "heading": "A person who contravenes this Act or fails to comply General",
+      "text": "penalty\nwith a directive made under this Act, for which no specific penalty\nis provided, commits an offence and is liable, on conviction, to a\nfine not exceeding two hundred thousand penalty units or to\nimprisonment for a term not exceeding two years, or to both.\n502 No. 38 of 2021] Insurance"
+    },
+    {
+      "number": "177",
+      "heading": "(1) An administrative penalty imposed under this Act shall",
+      "text": "Administrative\npenalty be paid to the Authority within the period specified by the Registrar.\n(2) The Registrar may, where a person fails to pay an\nadministrative penalty within the period specified in subsection (1),\nby way of civil action in a court, recover the amount of the\nadministrative penalty from that person as an amount due and owing\nto the Authority.\nImmunity of 178. An action or other proceeding shall not lie or be instituted\nofficer, agent\nagainst an officer, agent or employee of the Authority in respect of\nor employee\nof Authority any act done or omitted to be done by that officer, agent or employee\nin good faith in the exercise or performance, of any powers,\nfunctions or duties conferred by or under this Act.\nRegulations 179. (1) The Minister may, on the recommendation of the\nBoard, by statutory instrument make Regulations for carrying out\nor giving effect to this Act.\n(2) Despite the generality of subsection (1), the Regulations\nmade under subsection (1) provide for—\n(a) the forms for applications required for the purposes of\nthis Act, and the fees to be paid in respect of that\napplication;\n(b) standards and conduct for licensees;\n(c) prescribing or prohibiting business practices or methods;\n(d) imposition of licence fees to be paid by licensees;\n(e) types of licences that the Authority may issue;\n(f) prohibiting unsafe and unsound practices by licensees;\n(g) the Registrar’s exercise of powers to request information\nfrom—\n(i) former and current shareholders, directors, senior\nofficers or other employees of a licensee; or—\n(ii) a former licensee;\n(h) guidelines setting out criteria for the assessment of a fit\nand proper person to be a shareholder, director or senior\nofficer;\n(i) prescribing a period within which a licensee shall\ncommence the business to which the licence relates;\n(j) the procedure to be followed where a licensee is the\nsubject of possession under this Act;\nInsurance [No. 38 of 2021 503\n(k) prescribing requirements for the conduct of the business\nof insurance to ensure customers are treated fairly, both\nbefore and after a contract is entered into upto the point\nwhere obligations under a contract are discharged;\n(l) formulating capital adequacy requirements for licensees;\n(m) formulating licensing, supervision, procedures and\nstandards for the conduct of medical scheme fund\nmanagement businesses;\n(n) formulating procedures for hearing persons required to\nappear before the Authority;\n(o) categories of insurance businesses;\n(p) anti-money laundering and countering terrorism and\nproliferation, financing or any other associated serious\noffence relating to money laundering countering of\nterrorism and proliferation financing by licensed insurer,\nreinsurer and intermediary;\n(q) requirements for supervision, regulation and conduct of\nmicro- insurance business\n(r) any savings or transitional provisions the Authority\nconsiders necessary or convenient to be made after the\ncommencement of this Act; and\n(s) the effective administration and implementation of this\nAct."
+    },
+    {
+      "number": "180",
+      "heading": "(1) The Insurance Act, 1997, is repealed. Repeal of",
+      "text": "Act No. 27\nof 1997\n(2) Despite subsection (1), a licence issued in accordance with\nthe repealed Act shall on the commencement of this Act continue\nto exist for the unexpired period as if issued in accordance with this\nAct.\n(3) Despite subsection (1) the—\n(a) Committee, established in accordance with section 106 of\nthe repealed Act is continued in existence as if\nestablished in accordance with this Act; and\n(b) Insurance Fidelity Fund established in accordance with\nsection 109 of the repealed Act, 1997, is continued in\nexistence as if established in accordance with this Act.\n(4) The Schedule applies to the Committee and the Insurance\nFidelity Fund.\n504 No. 38 of 2021] Insurance\nSCHEDULE\n(Section 180(4))\nCONTINUATION OF POLICY HOLDERS’ PROTECTION COMMITTEE AND\nINSURANCE FIDELITY FUND\nPART I\nPOLICY HOLDERS’ PROTECTION COMMITTEE\nFunctions 1. The Committee shall—\nof\nCommittee (a) subject to the direction of the Board, be responsible for\nthe—\n(i) administration of the Insurance Fidelity Fund; and\n(ii) settlement of claims against the Fund; and\n(b) perform other functions as may be directed by the Board.\nConstitution 2. (1) The Committee shall consist of the following members\nof\nPolicyholders’ appointed by the Minister:\nProtection\nCommittee (a) a representative of the ministry responsible for finance,\nas Chairperson;\n(b) a representative from the Zambia Institute of Chartered\nAccountants;\n(c) a person nominated by an organisation representing\ninsurers;\n(d) a person nominated by an organisation representing\ninsurance brokers;\n(e) a person nominated by the Law Association of Zambia;\nand\n(f) two other persons representing policyholders.\n(2) The ministries, institutions or organisations under\nsubparagraph (1)(a) to (e) shall nominate their representatives for\nappointment by the Minister.\nAppointment 3. The Minister shall appoint the Vice-Chairperson of the\nof Vice- Committee from among the members referred to in subparagraphs\nChairperson\n(1)(b) to (e).\nof\nCommittee\nTenure of 4. Subject to paragraph 5, a member of the Committee shall\noffice of hold office for a period of three years from the date of the member’s\nCommittee\nappointment, but the member may be re-appointed for a further\nperiod of three years.\nInsurance [No. 38 of 2021 505"
+    },
+    {
+      "number": "5",
+      "heading": "A person shall cease to be a member of the Committee, and Vacancy in",
+      "text": "the office of\nthe person’s office as a member becomes vacant if that member—\nmember of\nCommittee\n(a) without reasonable cause, absent from three consecutive\nmeetings for which the member had notice;\n(b) dies;\n(c) is declared bankrupt by a court of competent jurisdiction;\n(d) is legally disqualified from a mental condition which makes\nthe member incapable of performing the functions of a\nmember of the committee; or\n(e) is convicted of an offence against any written law and\nsentenced to imprisonment for a period exceeding six\nmonths without the option of a fine."
+    },
+    {
+      "number": "6",
+      "heading": "Where a vacancy occurs, as provided in paragraph 5, the Appointment",
+      "text": "of new\nMinister may appoint a new member, in accordance with paragraph\nmember to\n2, and the member shall hold office for the unexpired period of the fill vacancy\nterm of the person in whose place the member is appointed."
+    },
+    {
+      "number": "7",
+      "heading": "A member of the Committee is paid an allowance Allowances",
+      "text": "determined by the Emoluments Commission, on the recommendation\nof the Minister."
+    },
+    {
+      "number": "8",
+      "heading": "(1) The Committee shall meet for the transaction of business Proceedings",
+      "text": "of\nat least once in three months at a place and time the chairperson of\nCommittee\nthe Committee may determine.\n(2) The quorum at a meeting of the Committee is four of the\nmembers present.\n(3) The chairperson shall preside at a meeting of the Committee,\nexcept that where —\n(a) the chairperson is absent, the vice chairperson shall\npreside at the meeting; or\n(b) both the chairperson and the vice chairperson are absent,\nthe members present shall, for purposes of transacting\nthe business of the meeting, elect a member from among\nthemselves to act as chairperson.\n(4) The determination of a matter to be considered by the\nCommittee is by a majority of the members present and voting at\nthe meeting, and in the event of an equality of votes, the person\npresiding at the meeting shall have a casting vote, in addition to that\nperson’s deliberative vote.\n506 No. 38 of 2021] Insurance\n(5) The Committee may invite a person, whose attendance the\nCommittee considers necessary, to attend and participate in the\ndeliberations of the meeting but the person shall have no vote.\nMinutes of 9. The Committee shall cause to be kept minutes of the\nmeetings\nproceedings of every meeting of the Committee.\nPART II\nINSURANCE FIDELITY FUND\nConstitution 10. The Insurance Fidelity Fund shall consist of—\nof Insurance\nFidelity (a) moneys paid to the Authority by way of annual or other\nFund\nperiodic licence fees charged in accordance with this\nAct;\n(b) moneys recovered by, or on behalf of the Authority by\nexercise of a right of action conferred by this Act; and\n(c) all other moneys accruing to the Fund.\nPurpose of 11. (1) The Insurance Fidelity Fund is held and applied on terms\nFund and conditions that the Minister may, on the recommendation of\nthe Board, by statutory instrument determine, for the purposes of\ncompensating persons who suffer pecuniary loss occasioned by a\nlicensed insurer or insurance broker.\n(2) The Board may invest amounts constituting the credit of\nthe Fund, which are not immediately required for purposes of the\nFund, in securities or in any manner authorised by law for investment\nof trust funds.\n(3) Despite subsection (1), the Fund shall apply to individuals\nand the micro small and medium enterprises as prescribed.\nDisbursements 12. There is paid out of the Insurance Fidelity Fund as and\nfrom\nwhen required and in an order that the Board considers\nInsurance\nFidelity appropriate—\nFund\n(a) the amount of claims, including costs,allowed by the\nBoard;\n(b) legal and other expenses incurred in—\n(i) investigating or defending claims;\n(ii) relation to the Fund; or\n(iii) the exercise of the rights, powers and authority\nvested in the Board by this Act in relation to the\nFund;\nInsurance [No. 38 of 2021 507\n(c) premiums payable in respect of insurance or indemnity\nentered into by the Board;\n(d) expenses incurred or involved in the administration of\nthe Fund; and\n(e) any other moneys lawfully payable out of the Fund in\naccordance with this Act or regulations made in\naccordance with this Act."
+    },
+    {
+      "number": "13",
+      "heading": "The Minister may, on the recommendation of the Board, Management",
+      "text": "of the\nmake Regulations prescribing matters and things that are necessary\nInsurance\nor expedient to be prescribed with respect to the administration, Fidelity\nFund\nmanagement and application of the Insurance Fidelity Fund."
+    },
+    {
+      "number": "14",
+      "heading": "The payment out of the Insurance Fidelity Fund is limited, Limit of the",
+      "text": "payments\nin respect of a licensed insurer, reinsurer or insurance broker in under the\ndefault, to amounts that the Minister may, by statutory instrument, Insurance\nFidelity\nprescribe. Fund"
+    },
+    {
+      "number": "15",
+      "heading": "A disbursement from the Insurance Fidelity Fund that is Recovery of",
+      "text": "disbursements\naccountable to the default of a licensed insurer or insurance broker\nfrom\nis a debt due to the Fund from that licensed insurer or insurance defaulting\ninsurer or\nbroker. insurance\nbroker\n508"
+    }
+  ],
+  "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2038%20OF%202021%2C%20THE%20INSURANCE%20ACTpdf_0.pdf",
+  "source_hash": "sha256:60bdde20bff76395633c2805df443bafd7c968d27a1daec1844980d70da007b0",
+  "fetched_at": "2026-04-24T07:07:41Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://www.parliament.gov.zm/node/9009",
+      "source_hash": "sha256:35d603cca165c125cb1a87fc7665808b9344c31108ef33f2122f562ed9473f42",
+      "fetched_at": "2026-04-24T07:07:17Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}
