@@ -1,0 +1,42 @@
+{
+  "batch": "0197",
+  "slice": [
+    4,
+    6
+  ],
+  "started_at": "2026-04-24T20:37:42Z",
+  "completed_at": "2026-04-24T20:38:04Z",
+  "fetch_start": 11,
+  "fetch_end": 15,
+  "results": [
+    {
+      "year": 2017,
+      "number": 2,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2017-002-customs-and-excise-fertiliser-remission-regulations-2017",
+      "sections": 2,
+      "title": "Customs and Excise (Fertiliser) (Remission) Regulations, 2017",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2017/2/eng@2017-01-13/source.pdf",
+      "pdf_hash": "42b244154a45be2348a110d12332f7396c7f1dd80d325d888c05305a26117de8",
+      "pdf_bytes": 116973,
+      "raw_pdf": "/sessions/sharp-zen-wright/mnt/corpus/raw/zambialii/si/2017/si-zm-2017-002-customs-and-excise-fertiliser-remission-regulations-2017.pdf",
+      "record_path": "/sessions/sharp-zen-wright/mnt/corpus/records/sis/2017/si-zm-2017-002-customs-and-excise-fertiliser-remission-regulations-2017.json"
+    },
+    {
+      "year": 2021,
+      "number": 97,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2021-097-customs-and-excise-persons-with-disabilities-remission-regulations-2021",
+      "sections": 12,
+      "title": "Customs and Excise (Persons with Disabilities) (Remission) Regulations, 2021",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2021/97/eng@2021-12-31/source.pdf",
+      "pdf_hash": "d2f3457b9486cef1d526839475cc67321ff47098ceef88eb5398044eb61f7f1e",
+      "pdf_bytes": 188594,
+      "raw_pdf": "/sessions/sharp-zen-wright/mnt/corpus/raw/zambialii/si/2021/si-zm-2021-097-customs-and-excise-persons-with-disabilities-remission-regulations-2021.pdf",
+      "record_path": "/sessions/sharp-zen-wright/mnt/corpus/records/sis/2021/si-zm-2021-097-customs-and-excise-persons-with-disabilities-remission-regulations-2021.json"
+    }
+  ],
+  "discoveries": []
+}

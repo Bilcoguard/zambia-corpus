@@ -1,0 +1,36 @@
+{
+  "id": "si-zm-2015-035-property-transfer-tax-exemption-no-2-order-2015",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Property Transfer Tax (Exemption) (No. 2) Order, 2015",
+  "citation": "Statutory Instrument No. 35 of 2015",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Order may be cited as the Property Transfer Tax Title",
+      "text": "(Exemption) (No. 2) Order, 2015."
+    },
+    {
+      "number": "2",
+      "heading": "The following shall be exempted from property transfer tax: exemption",
+      "text": "from tax\n(a) the transfer of shares from Reserved Minerals Corporation\n(In Liquidation) to Kariba Minerals Limited; and\n(b) the transfer of shares from Kariba Minerals Limited to\nZCCM Investments Holdings Plc.\nA. B. CHIKWANDA,\nLUSAKA Minister of Finance\n10th June, 2015\n[MF/IDM.15/3/2]\nCopies of this Statutory Instrument can be obtained from the Government Printer,\nP.O. Box 30136, 10101, Lusaka, Price K2.00 each\n120 Statutory Instruments 19th June, 2015"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2015/35/eng@2015-06-19/source.pdf",
+  "source_hash": "sha256:ce23c5491eccdf22f1b3c66b60c1e1ccc74209ea9fa2588a10a5fbb69a034fc9",
+  "fetched_at": "2026-04-24T20:36:53Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2015/35/eng@2015-06-19",
+      "source_hash": "sha256:9fc51ff715522ae910c473c6adb4eeaa9ddb8b9897d2fdcf73a915fdd67ae64e",
+      "fetched_at": "2026-04-24T20:36:51Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

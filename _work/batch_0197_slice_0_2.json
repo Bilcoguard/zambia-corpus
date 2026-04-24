@@ -1,0 +1,61 @@
+{
+  "batch": "0197",
+  "slice": [
+    0,
+    2
+  ],
+  "started_at": "2026-04-24T20:36:51Z",
+  "completed_at": "2026-04-24T20:37:13Z",
+  "fetch_start": 0,
+  "fetch_end": 7,
+  "results": [
+    {
+      "year": 2015,
+      "number": 35,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2015-035-property-transfer-tax-exemption-no-2-order-2015",
+      "sections": 2,
+      "title": "Property Transfer Tax (Exemption) (No. 2) Order, 2015",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2015/35/eng@2015-06-19/source.pdf",
+      "pdf_hash": "ce23c5491eccdf22f1b3c66b60c1e1ccc74209ea9fa2588a10a5fbb69a034fc9",
+      "pdf_bytes": 93448,
+      "raw_pdf": "/sessions/sharp-zen-wright/mnt/corpus/raw/zambialii/si/2015/si-zm-2015-035-property-transfer-tax-exemption-no-2-order-2015.pdf",
+      "record_path": "/sessions/sharp-zen-wright/mnt/corpus/records/sis/2015/si-zm-2015-035-property-transfer-tax-exemption-no-2-order-2015.json"
+    },
+    {
+      "year": 2012,
+      "number": 5,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2012-005-property-transfer-tax-exemption-order-2012",
+      "sections": 1,
+      "title": "Property Transfer Tax (Exemption) Order, 2012",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2012/5/eng@2012-01-20/source.pdf",
+      "pdf_hash": "5c63f34bb8d49eabb14e0899adcbd96194e5e104f98794c2752ee0146ad60358",
+      "pdf_bytes": 87334,
+      "raw_pdf": "/sessions/sharp-zen-wright/mnt/corpus/raw/zambialii/si/2012/si-zm-2012-005-property-transfer-tax-exemption-order-2012.pdf",
+      "record_path": "/sessions/sharp-zen-wright/mnt/corpus/records/sis/2012/si-zm-2012-005-property-transfer-tax-exemption-order-2012.json"
+    }
+  ],
+  "discoveries": [
+    {
+      "url": "https://zambialii.org/robots.txt",
+      "cached_at": "_work/batch_0197_robots.txt",
+      "sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+      "bytes": 2022
+    },
+    {
+      "url": "https://zambialii.org/legislation/subsidiary?alphabet=P",
+      "cached_at": "_work/batch_0197_alphabet_P.html",
+      "sha256": "355fdbcb53c32fbe6f567a020ccbf61939dac80078dc8dc8c35f1b8a790b19d5",
+      "bytes": 126706
+    },
+    {
+      "url": "https://zambialii.org/legislation/subsidiary?alphabet=C",
+      "cached_at": "_work/batch_0197_alphabet_C.html",
+      "sha256": "a68094ad2aa41495e045f465368af7fa91e08f24a803af307aa023720048a4a7",
+      "bytes": 151192
+    }
+  ]
+}

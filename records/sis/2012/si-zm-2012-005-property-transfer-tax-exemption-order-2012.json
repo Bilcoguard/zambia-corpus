@@ -1,0 +1,31 @@
+{
+  "id": "si-zm-2012-005-property-transfer-tax-exemption-order-2012",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Property Transfer Tax (Exemption) Order, 2012",
+  "citation": "Statutory Instrument No. 5 of 2012",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "2",
+      "heading": "The transfer of ordinary shares in China Non-Ferrous Metal Exemption",
+      "text": "from tax\nMining (Group) Company Limited to the Government of the\nRepublic of Zambia shall be exempt from property transfer tax.\nA. B. CHIKWANDA,\nLUSAKA Minister of Finance\nI 6th January, 2012\n[MFB.103/12/9]\nCopies oft his Statutory Instrument can be obtainedf rom /he Government Printer,\nP.O. Box 30136, 10101, Lusaka, Price Kl,000 each\n54 Statutory Instruments 20th January, 2012"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2012/5/eng@2012-01-20/source.pdf",
+  "source_hash": "sha256:5c63f34bb8d49eabb14e0899adcbd96194e5e104f98794c2752ee0146ad60358",
+  "fetched_at": "2026-04-24T20:37:07Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2012/5/eng@2012-01-20",
+      "source_hash": "sha256:0b09aabd7b361e01ed1bca03176a56810c37084515338d8bb51d258683be6f2a",
+      "fetched_at": "2026-04-24T20:37:00Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

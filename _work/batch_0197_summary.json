@@ -1,0 +1,155 @@
+{
+  "batch": "0197",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_tax_continuation_ptt_plus_customs_excise",
+  "started_at": "2026-04-24T20:36:51Z",
+  "completed_at": "2026-04-24T20:38:29Z",
+  "fetches_used": 19,
+  "records_written": 7,
+  "targets_attempted": 8,
+  "tax_records_ok": 7,
+  "results": [
+    {
+      "year": 2015,
+      "number": 35,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2015-035-property-transfer-tax-exemption-no-2-order-2015",
+      "sections": 2,
+      "title": "Property Transfer Tax (Exemption) (No. 2) Order, 2015",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2015/35/eng@2015-06-19/source.pdf",
+      "pdf_hash": "ce23c5491eccdf22f1b3c66b60c1e1ccc74209ea9fa2588a10a5fbb69a034fc9",
+      "pdf_bytes": 93448,
+      "raw_pdf": "/sessions/sharp-zen-wright/mnt/corpus/raw/zambialii/si/2015/si-zm-2015-035-property-transfer-tax-exemption-no-2-order-2015.pdf",
+      "record_path": "/sessions/sharp-zen-wright/mnt/corpus/records/sis/2015/si-zm-2015-035-property-transfer-tax-exemption-no-2-order-2015.json"
+    },
+    {
+      "year": 2012,
+      "number": 5,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2012-005-property-transfer-tax-exemption-order-2012",
+      "sections": 1,
+      "title": "Property Transfer Tax (Exemption) Order, 2012",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2012/5/eng@2012-01-20/source.pdf",
+      "pdf_hash": "5c63f34bb8d49eabb14e0899adcbd96194e5e104f98794c2752ee0146ad60358",
+      "pdf_bytes": 87334,
+      "raw_pdf": "/sessions/sharp-zen-wright/mnt/corpus/raw/zambialii/si/2012/si-zm-2012-005-property-transfer-tax-exemption-order-2012.pdf",
+      "record_path": "/sessions/sharp-zen-wright/mnt/corpus/records/sis/2012/si-zm-2012-005-property-transfer-tax-exemption-order-2012.json"
+    },
+    {
+      "year": 2017,
+      "number": 40,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2017-040-customs-and-excise-export-duty-suspension-regulations-2017",
+      "sections": 2,
+      "title": "Customs and Excise (Export Duty) (Suspension) Regulations, 2017",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2017/40/eng@2017-06-02/source.pdf",
+      "pdf_hash": "dfbcb2da134f14398b9b80da35ee88711ab2d3482f0b24308b3f6d8ddeed920d",
+      "pdf_bytes": 154569,
+      "raw_pdf": "/sessions/sharp-zen-wright/mnt/corpus/raw/zambialii/si/2017/si-zm-2017-040-customs-and-excise-export-duty-suspension-regulations-2017.pdf",
+      "record_path": "/sessions/sharp-zen-wright/mnt/corpus/records/sis/2017/si-zm-2017-040-customs-and-excise-export-duty-suspension-regulations-2017.json"
+    },
+    {
+      "year": 2022,
+      "number": 2,
+      "sub_phase": "sis_tax",
+      "status": "pdf_parse_empty"
+    },
+    {
+      "year": 2017,
+      "number": 2,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2017-002-customs-and-excise-fertiliser-remission-regulations-2017",
+      "sections": 2,
+      "title": "Customs and Excise (Fertiliser) (Remission) Regulations, 2017",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2017/2/eng@2017-01-13/source.pdf",
+      "pdf_hash": "42b244154a45be2348a110d12332f7396c7f1dd80d325d888c05305a26117de8",
+      "pdf_bytes": 116973,
+      "raw_pdf": "/sessions/sharp-zen-wright/mnt/corpus/raw/zambialii/si/2017/si-zm-2017-002-customs-and-excise-fertiliser-remission-regulations-2017.pdf",
+      "record_path": "/sessions/sharp-zen-wright/mnt/corpus/records/sis/2017/si-zm-2017-002-customs-and-excise-fertiliser-remission-regulations-2017.json"
+    },
+    {
+      "year": 2021,
+      "number": 97,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2021-097-customs-and-excise-persons-with-disabilities-remission-regulations-2021",
+      "sections": 12,
+      "title": "Customs and Excise (Persons with Disabilities) (Remission) Regulations, 2021",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2021/97/eng@2021-12-31/source.pdf",
+      "pdf_hash": "d2f3457b9486cef1d526839475cc67321ff47098ceef88eb5398044eb61f7f1e",
+      "pdf_bytes": 188594,
+      "raw_pdf": "/sessions/sharp-zen-wright/mnt/corpus/raw/zambialii/si/2021/si-zm-2021-097-customs-and-excise-persons-with-disabilities-remission-regulations-2021.pdf",
+      "record_path": "/sessions/sharp-zen-wright/mnt/corpus/records/sis/2021/si-zm-2021-097-customs-and-excise-persons-with-disabilities-remission-regulations-2021.json"
+    },
+    {
+      "year": 2017,
+      "number": 30,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2017-030-customs-and-excise-suspension-cobalt-concentrates-regulations-2017",
+      "sections": 2,
+      "title": "Customs and Excise (Suspension) (Cobalt Concentrates) Regulations, 2017",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2017/30/eng@2017-04-07/source.pdf",
+      "pdf_hash": "5978613f24acdf032f8b237d27dcfe1c1fbb2a1cb72f789f99e47984a9f2ab58",
+      "pdf_bytes": 12095,
+      "raw_pdf": "/sessions/sharp-zen-wright/mnt/corpus/raw/zambialii/si/2017/si-zm-2017-030-customs-and-excise-suspension-cobalt-concentrates-regulations-2017.pdf",
+      "record_path": "/sessions/sharp-zen-wright/mnt/corpus/records/sis/2017/si-zm-2017-030-customs-and-excise-suspension-cobalt-concentrates-regulations-2017.json"
+    },
+    {
+      "year": 2023,
+      "number": 10,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2023-010-customs-and-excise-suspension-maize-corn-flour-regulations-2023",
+      "sections": 2,
+      "title": "Customs and Excise (Suspension) (Maize (Corn) Flour) Regulations, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/10/eng@2023-04-06/source.pdf",
+      "pdf_hash": "098e3f96a1d52df67d0df026f459869c28142450830c378d08ce7a9f639bfe41",
+      "pdf_bytes": 289431,
+      "raw_pdf": "/sessions/sharp-zen-wright/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-010-customs-and-excise-suspension-maize-corn-flour-regulations-2023.pdf",
+      "record_path": "/sessions/sharp-zen-wright/mnt/corpus/records/sis/2023/si-zm-2023-010-customs-and-excise-suspension-maize-corn-flour-regulations-2023.json"
+    }
+  ],
+  "discoveries": [
+    {
+      "url": "https://zambialii.org/robots.txt",
+      "cached_at": "_work/batch_0197_robots.txt",
+      "sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+      "bytes": 2022
+    },
+    {
+      "url": "https://zambialii.org/legislation/subsidiary?alphabet=P",
+      "cached_at": "_work/batch_0197_alphabet_P.html",
+      "sha256": "355fdbcb53c32fbe6f567a020ccbf61939dac80078dc8dc8c35f1b8a790b19d5",
+      "bytes": 126706
+    },
+    {
+      "url": "https://zambialii.org/legislation/subsidiary?alphabet=C",
+      "cached_at": "_work/batch_0197_alphabet_C.html",
+      "sha256": "a68094ad2aa41495e045f465368af7fa91e08f24a803af307aa023720048a4a7",
+      "bytes": 151192
+    }
+  ],
+  "slices": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      8
+    ]
+  ]
+}

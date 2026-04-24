@@ -1,0 +1,42 @@
+{
+  "batch": "0197",
+  "slice": [
+    6,
+    8
+  ],
+  "started_at": "2026-04-24T20:38:07Z",
+  "completed_at": "2026-04-24T20:38:29Z",
+  "fetch_start": 15,
+  "fetch_end": 19,
+  "results": [
+    {
+      "year": 2017,
+      "number": 30,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2017-030-customs-and-excise-suspension-cobalt-concentrates-regulations-2017",
+      "sections": 2,
+      "title": "Customs and Excise (Suspension) (Cobalt Concentrates) Regulations, 2017",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2017/30/eng@2017-04-07/source.pdf",
+      "pdf_hash": "5978613f24acdf032f8b237d27dcfe1c1fbb2a1cb72f789f99e47984a9f2ab58",
+      "pdf_bytes": 12095,
+      "raw_pdf": "/sessions/sharp-zen-wright/mnt/corpus/raw/zambialii/si/2017/si-zm-2017-030-customs-and-excise-suspension-cobalt-concentrates-regulations-2017.pdf",
+      "record_path": "/sessions/sharp-zen-wright/mnt/corpus/records/sis/2017/si-zm-2017-030-customs-and-excise-suspension-cobalt-concentrates-regulations-2017.json"
+    },
+    {
+      "year": 2023,
+      "number": 10,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2023-010-customs-and-excise-suspension-maize-corn-flour-regulations-2023",
+      "sections": 2,
+      "title": "Customs and Excise (Suspension) (Maize (Corn) Flour) Regulations, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/10/eng@2023-04-06/source.pdf",
+      "pdf_hash": "098e3f96a1d52df67d0df026f459869c28142450830c378d08ce7a9f639bfe41",
+      "pdf_bytes": 289431,
+      "raw_pdf": "/sessions/sharp-zen-wright/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-010-customs-and-excise-suspension-maize-corn-flour-regulations-2023.pdf",
+      "record_path": "/sessions/sharp-zen-wright/mnt/corpus/records/sis/2023/si-zm-2023-010-customs-and-excise-suspension-maize-corn-flour-regulations-2023.json"
+    }
+  ],
+  "discoveries": []
+}

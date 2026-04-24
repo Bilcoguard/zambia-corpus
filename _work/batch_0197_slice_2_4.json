@@ -1,0 +1,34 @@
+{
+  "batch": "0197",
+  "slice": [
+    2,
+    4
+  ],
+  "started_at": "2026-04-24T20:37:17Z",
+  "completed_at": "2026-04-24T20:37:38Z",
+  "fetch_start": 7,
+  "fetch_end": 11,
+  "results": [
+    {
+      "year": 2017,
+      "number": 40,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2017-040-customs-and-excise-export-duty-suspension-regulations-2017",
+      "sections": 2,
+      "title": "Customs and Excise (Export Duty) (Suspension) Regulations, 2017",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2017/40/eng@2017-06-02/source.pdf",
+      "pdf_hash": "dfbcb2da134f14398b9b80da35ee88711ab2d3482f0b24308b3f6d8ddeed920d",
+      "pdf_bytes": 154569,
+      "raw_pdf": "/sessions/sharp-zen-wright/mnt/corpus/raw/zambialii/si/2017/si-zm-2017-040-customs-and-excise-export-duty-suspension-regulations-2017.pdf",
+      "record_path": "/sessions/sharp-zen-wright/mnt/corpus/records/sis/2017/si-zm-2017-040-customs-and-excise-export-duty-suspension-regulations-2017.json"
+    },
+    {
+      "year": 2022,
+      "number": 2,
+      "sub_phase": "sis_tax",
+      "status": "pdf_parse_empty"
+    }
+  ],
+  "discoveries": []
+}
