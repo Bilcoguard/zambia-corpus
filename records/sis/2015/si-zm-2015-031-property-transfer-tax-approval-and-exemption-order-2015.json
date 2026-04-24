@@ -1,0 +1,46 @@
+{
+  "id": "si-zm-2015-031-property-transfer-tax-approval-and-exemption-order-2015",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Property Transfer Tax (Approval and Exemption) Order, 2015",
+  "citation": "Statutory Instrument No. 31 of 2015",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Order may be cited as the Property Transfer Tax (Approval Title",
+      "text": "and Exemption) Order, 2015."
+    },
+    {
+      "number": "2",
+      "heading": "The transfer of property from Zambia National Oil Company Approval of",
+      "text": "(In Liquidation) to the Government of the Republic of Zambia is exemption\nfrom tax\napproved for the purpose of exemption from tax in the amount\nspecified in the Schedule.\nSCHEDULE\n(Paragraph 2)\nTRANSFERED PROPERTY\nProperty Amount"
+    },
+    {
+      "number": "1",
+      "heading": "Ndola Fuel Terminal K41,234.33",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "Plot No. 2392 situated along",
+      "text": "Longolongo Road, Lusaka K2,500.00\nA. B. CHIKWANDA,\nLUSAKA Minister of Finance\n8th June, 2015\n[MFAL.102/9/218]\nCopies of this Statutory Instrument can be obtained from the Government Printer,\nP.O. Box 30136, 10101, Lusaka, Price K2.00 each\n112 Statutory Instruments 12th June, 2015"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2015/31/eng@2015-06-12/source.pdf",
+  "source_hash": "sha256:3b730cd12f3a42ce07642a35bda1eecc0693b0cfe82c80b9115b390b61d93828",
+  "fetched_at": "2026-04-24T12:37:09Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2015/31/eng@2015-06-12",
+      "source_hash": "sha256:b5f5ef5e1dfa00eeee0b5fabcd79a8b5b5471ac18fa8ca1adbbe582b72a9cfc9",
+      "fetched_at": "2026-04-24T12:37:03Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

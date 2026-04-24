@@ -1,0 +1,36 @@
+{
+  "id": "si-zm-2015-030-property-transfer-tax-exemption-order-2015",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Property Transfer Tax (Exemption) Order, 2015",
+  "citation": "Statutory Instrument No. 30 of 2015",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Order may be cited as the Property Transfer Tax Title",
+      "text": "(Exemption) Order, 2015."
+    },
+    {
+      "number": "2",
+      "heading": "The transfer of property by Millennium Challange Account exemption",
+      "text": "Zambia and any person or individual eligible for property transfer from tax\ntax exemption as provided for in the Millennium Challange Compact\nAct No. 6 of\nAct, 2013 shall be exempt from property transfer tax. 2013\nA. B. CHIKWANDA,\nLUSAKA Minister of Finance\n8th June, 2015\n[MFB.101/11/3]\nCopies of this Statutory Instrument can be obtained from the Government Printer,\nP.O. Box 30136, 10101, Lusaka, Price K2.00 each\n110 Statutory Instruments 12th June, 2015"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2015/30/eng@2015-06-12/source.pdf",
+  "source_hash": "sha256:97cb4933326cda65f9198a276786a3eafe52beed8de007dce4b5d8aa00ba2ae2",
+  "fetched_at": "2026-04-24T12:36:56Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2015/30/eng@2015-06-12",
+      "source_hash": "sha256:4bf1615de4bde58b7f76feb13265567eedddf0304cf4794dfde046351f6c0251",
+      "fetched_at": "2026-04-24T12:36:50Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

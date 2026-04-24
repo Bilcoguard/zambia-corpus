@@ -1,0 +1,51 @@
+{
+  "batch": "0181",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_tax",
+  "started_at": "2026-04-24T12:36:41Z",
+  "completed_at": "2026-04-24T12:37:16Z",
+  "fetches_used": 6,
+  "records_written": 3,
+  "targets_attempted": 3,
+  "results": [
+    {
+      "year": 2015,
+      "number": 20,
+      "status": "ok",
+      "record_id": "si-zm-2015-020-income-tax-double-taxation-relief-taxes-on-income-republic-of-botswana-order-201",
+      "sections": 118,
+      "title": "Income Tax (Double Taxation Relief) (Taxes on Income) (Republic of Botswana) Order, 2015",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2015/20/eng@2015-04-30/source.pdf",
+      "pdf_hash": "75dc78d9a113447fb82520984d793c3fe0a9462c8f279c0947a8477f461398e3",
+      "pdf_bytes": 152578,
+      "raw_pdf": "/sessions/wizardly-friendly-allen/mnt/corpus/raw/zambialii/si/2015/si-zm-2015-020-income-tax-double-taxation-relief-taxes-on-income-republic-of-botswana-order-201.pdf",
+      "record_path": "/sessions/wizardly-friendly-allen/mnt/corpus/records/sis/2015/si-zm-2015-020-income-tax-double-taxation-relief-taxes-on-income-republic-of-botswana-order-201.json"
+    },
+    {
+      "year": 2015,
+      "number": 30,
+      "status": "ok",
+      "record_id": "si-zm-2015-030-property-transfer-tax-exemption-order-2015",
+      "sections": 2,
+      "title": "Property Transfer Tax (Exemption) Order, 2015",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2015/30/eng@2015-06-12/source.pdf",
+      "pdf_hash": "97cb4933326cda65f9198a276786a3eafe52beed8de007dce4b5d8aa00ba2ae2",
+      "pdf_bytes": 92677,
+      "raw_pdf": "/sessions/wizardly-friendly-allen/mnt/corpus/raw/zambialii/si/2015/si-zm-2015-030-property-transfer-tax-exemption-order-2015.pdf",
+      "record_path": "/sessions/wizardly-friendly-allen/mnt/corpus/records/sis/2015/si-zm-2015-030-property-transfer-tax-exemption-order-2015.json"
+    },
+    {
+      "year": 2015,
+      "number": 31,
+      "status": "ok",
+      "record_id": "si-zm-2015-031-property-transfer-tax-approval-and-exemption-order-2015",
+      "sections": 4,
+      "title": "Property Transfer Tax (Approval and Exemption) Order, 2015",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2015/31/eng@2015-06-12/source.pdf",
+      "pdf_hash": "3b730cd12f3a42ce07642a35bda1eecc0693b0cfe82c80b9115b390b61d93828",
+      "pdf_bytes": 93624,
+      "raw_pdf": "/sessions/wizardly-friendly-allen/mnt/corpus/raw/zambialii/si/2015/si-zm-2015-031-property-transfer-tax-approval-and-exemption-order-2015.pdf",
+      "record_path": "/sessions/wizardly-friendly-allen/mnt/corpus/records/sis/2015/si-zm-2015-031-property-transfer-tax-approval-and-exemption-order-2015.json"
+    }
+  ]
+}
