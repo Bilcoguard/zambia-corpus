@@ -1,0 +1,72 @@
+{
+  "batch": "0188",
+  "phase": "phase_4_bulk",
+  "sub_phase": "case_law_scz",
+  "started_at": "2026-04-24T16:03:52Z",
+  "completed_at": "2026-04-24T16:04:56Z",
+  "fetches_used": 8,
+  "records_written": 4,
+  "targets_attempted": 4,
+  "results": [
+    {
+      "year": 2025,
+      "number": 30,
+      "date_slug": "2025-12-31",
+      "status": "ok",
+      "record_id": "judgment-zm-2025-zmsc-30-sa-v-zambia",
+      "paragraphs": 18,
+      "title": "SA Airlink (PTY) Limited v Zambia Skyways Limited and Ors (APPEAL NO. 10/2023) [2025] ZMSC 30 (31 December 2025)",
+      "citation": "[2025] ZMSC 30",
+      "pdf_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/30/eng@2025-12-31/source.pdf",
+      "pdf_hash": "59914f96416fd627d48ba3d5d87824abae06391ed214bff6e13f1979d3308257",
+      "pdf_bytes": 11310547,
+      "raw_pdf": "/sessions/eloquent-gracious-noether/mnt/corpus/raw/zambialii/judgments/zmsc/2025/judgment-zm-2025-zmsc-30-sa-airlink-pty-limited-v-zambia-skyways-limited-and-ors-appe.pdf",
+      "record_path": "/sessions/eloquent-gracious-noether/mnt/corpus/records/judgments/zmsc/2025/judgment-zm-2025-zmsc-30-sa-v-zambia.json"
+    },
+    {
+      "year": 2025,
+      "number": 29,
+      "date_slug": "2025-12-12",
+      "status": "ok",
+      "record_id": "judgment-zm-2025-zmsc-29-rephidim-v-attorney",
+      "paragraphs": 26,
+      "title": "Rephidim Institute Limited v Attorney General (SCZ/08/08/2025) [2025] ZMSC 29 (12 December 2025)",
+      "citation": "[2025] ZMSC 29",
+      "pdf_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/29/eng@2025-12-12/source.pdf",
+      "pdf_hash": "cea3ff3c6dccd506d7ef9f355e6d473ff04fc98d9934af811a01dc8e35586fca",
+      "pdf_bytes": 5729905,
+      "raw_pdf": "/sessions/eloquent-gracious-noether/mnt/corpus/raw/zambialii/judgments/zmsc/2025/judgment-zm-2025-zmsc-29-rephidim-institute-limited-v-attorney-general-scz08082025-20.pdf",
+      "record_path": "/sessions/eloquent-gracious-noether/mnt/corpus/records/judgments/zmsc/2025/judgment-zm-2025-zmsc-29-rephidim-v-attorney.json"
+    },
+    {
+      "year": 2025,
+      "number": 27,
+      "date_slug": "2025-10-02",
+      "status": "ok",
+      "record_id": "judgment-zm-2025-zmsc-27-jonathan-v-the",
+      "paragraphs": 13,
+      "title": "Jonathan Van Blerk v The Attorney General and Ors (SCZ NO. SCZ/07/27/2024) [2025] ZMSC 27 (2 October 2025)",
+      "citation": "[2025] ZMSC 27",
+      "pdf_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/27/eng@2025-10-02/source.pdf",
+      "pdf_hash": "8b6bf246c9172e40b4791a7011f224a8ab5b681b2f6b78d5566168e83ca38fcd",
+      "pdf_bytes": 3443440,
+      "raw_pdf": "/sessions/eloquent-gracious-noether/mnt/corpus/raw/zambialii/judgments/zmsc/2025/judgment-zm-2025-zmsc-27-jonathan-van-blerk-v-the-attorney-general-and-ors-scz-no-scz.pdf",
+      "record_path": "/sessions/eloquent-gracious-noether/mnt/corpus/records/judgments/zmsc/2025/judgment-zm-2025-zmsc-27-jonathan-v-the.json"
+    },
+    {
+      "year": 2025,
+      "number": 25,
+      "date_slug": "2025-09-19",
+      "status": "ok",
+      "record_id": "judgment-zm-2025-zmsc-25-cosmas-v-chikankata",
+      "paragraphs": 6,
+      "title": "Cosmas Mweemba and Ors v Chikankata District Council and Anor (SCZ/07/05/2024) [2025] ZMSC 25 (19 September 2025)",
+      "citation": "[2025] ZMSC 25",
+      "pdf_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/25/eng@2025-09-19/source.pdf",
+      "pdf_hash": "94dfffe61aa2fd353e081a7797867d7dcc2e0e0c89effba776d3123ada49c549",
+      "pdf_bytes": 1496376,
+      "raw_pdf": "/sessions/eloquent-gracious-noether/mnt/corpus/raw/zambialii/judgments/zmsc/2025/judgment-zm-2025-zmsc-25-cosmas-mweemba-and-ors-v-chikankata-district-council-and-ano.pdf",
+      "record_path": "/sessions/eloquent-gracious-noether/mnt/corpus/records/judgments/zmsc/2025/judgment-zm-2025-zmsc-25-cosmas-v-chikankata.json"
+    }
+  ]
+}
