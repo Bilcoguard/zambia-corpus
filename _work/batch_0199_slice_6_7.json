@@ -1,0 +1,28 @@
+{
+  "batch": "0199",
+  "slice": [
+    6,
+    7
+  ],
+  "started_at": "2026-04-24T21:36:14Z",
+  "completed_at": "2026-04-24T21:36:22Z",
+  "fetch_start": 13,
+  "fetch_end": 15,
+  "results": [
+    {
+      "year": 2003,
+      "number": 17,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2003-017-taxation-provisional-charging-order-2003",
+      "sections": 2,
+      "title": "Taxation (Provisional Charging) Order, 2003",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2003/17/eng@2003-01-31/source.pdf",
+      "pdf_hash": "edec5c7697d09b58ac1687ab2b568f99a9546d3307420b31ee5c7e0063175360",
+      "pdf_bytes": 137598,
+      "raw_pdf": "/sessions/tender-determined-edison/mnt/corpus/raw/zambialii/si/2003/si-zm-2003-017-taxation-provisional-charging-order-2003.pdf",
+      "record_path": "/sessions/tender-determined-edison/mnt/corpus/records/sis/2003/si-zm-2003-017-taxation-provisional-charging-order-2003.json"
+    }
+  ],
+  "robots_info": null
+}

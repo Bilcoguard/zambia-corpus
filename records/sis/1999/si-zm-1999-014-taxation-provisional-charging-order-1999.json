@@ -1,0 +1,36 @@
+{
+  "id": "si-zm-1999-014-taxation-provisional-charging-order-1999",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Taxation (Provisional Charging) Order, 1999",
+  "citation": "Statutory Instrument No. 14 of 1999",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Order may be cited as the the Taxation (Provisional Title",
+      "text": "Charging) Order, 1999."
+    },
+    {
+      "number": "2",
+      "heading": "Subject to the Taxation (Provisional Charging) Act, all the Provisional",
+      "text": "provisions of the Bills listed in the Schedule hereto shall, until the enforcement\nofBills\nBills become law, have the force oflaw as from 30th January, I 999. C,p. 364\nSCHEDULE\n(P aragraph 2)\nThe Customs and Excise (Amendment) Bill, 1999\nThe Value Added_Tax (Amendment) Bill, 1999\nE. Z. NAWAKWI,\nLUSAKA Minister of Finance and Economic\n28th January, 1999 Development\n[MFB. 103/17/1]\nCopies oflhis Slattteol)' Instrument cat1 be obtainedf rom the Government Prinler,\nP. 0. Box 30136, 10/0/ Lusaka. Price K50/J each.\nStatutory lnstrumell/s 29th January. 1999\n28"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/1999/14/eng@1999-01-29/source.pdf",
+  "source_hash": "sha256:e1e86306fb0ec6e3db360ee21addb3cee297dbfe4cb8b15a46f4048610b239dc",
+  "fetched_at": "2026-04-24T21:35:23Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/1999/14/eng@1999-01-29",
+      "source_hash": "sha256:3f53e86ef0eab198bdb7f4ff114820b1d4d6ee776ed74775595c4aec1f3ab7a4",
+      "fetched_at": "2026-04-24T21:35:21Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

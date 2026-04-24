@@ -1,0 +1,36 @@
+{
+  "id": "si-zm-2003-017-taxation-provisional-charging-order-2003",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Taxation (Provisional Charging) Order, 2003",
+  "citation": "Statutory Instrument No. 17 of 2003",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Order may be cited as the Taxation (Provisional Charging) Title",
+      "text": "Order, 2003."
+    },
+    {
+      "number": "2",
+      "heading": "Subject to the Taxation (Provisional Charging) Act, the Provisional",
+      "text": "provisions of the Bill, the short title of which is specified in the Schedule enforcement of\nBill\nto this Order, shall, until the Bill becomes law, have the force of law as\nCap. 364\nfrom 1st February, 2003.\nSCHEDULE\n(Paragraph 2)\nThe Customs and Excise (Amendment) Bill, 2003\nE. G KAsoNDB,\nLUSAKA Minister ofF inance and\n29th January, 2003 National Planning\n[MFB. 103/17/47]\nCopies of this Statutory /11strument ca,z be obtainedfro m the Government Printer,\nP.O. Box 30136, Lusaka, Price K500 each.\n48 Statutory Instruments 3 lstJanuary, 2003\n''\n/"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2003/17/eng@2003-01-31/source.pdf",
+  "source_hash": "sha256:edec5c7697d09b58ac1687ab2b568f99a9546d3307420b31ee5c7e0063175360",
+  "fetched_at": "2026-04-24T21:36:15Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2003/17/eng@2003-01-31",
+      "source_hash": "sha256:cc60ecd6e35c1d8743b9d151411448773c328cc5f2e0642942dff07b4f90423d",
+      "fetched_at": "2026-04-24T21:36:14Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

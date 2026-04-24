@@ -1,0 +1,42 @@
+{
+  "batch": "0199",
+  "slice": [
+    2,
+    4
+  ],
+  "started_at": "2026-04-24T21:35:21Z",
+  "completed_at": "2026-04-24T21:35:44Z",
+  "fetch_start": 5,
+  "fetch_end": 9,
+  "results": [
+    {
+      "year": 1999,
+      "number": 14,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-1999-014-taxation-provisional-charging-order-1999",
+      "sections": 2,
+      "title": "Taxation (Provisional Charging) Order, 1999",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1999/14/eng@1999-01-29/source.pdf",
+      "pdf_hash": "e1e86306fb0ec6e3db360ee21addb3cee297dbfe4cb8b15a46f4048610b239dc",
+      "pdf_bytes": 106495,
+      "raw_pdf": "/sessions/tender-determined-edison/mnt/corpus/raw/zambialii/si/1999/si-zm-1999-014-taxation-provisional-charging-order-1999.pdf",
+      "record_path": "/sessions/tender-determined-edison/mnt/corpus/records/sis/1999/si-zm-1999-014-taxation-provisional-charging-order-1999.json"
+    },
+    {
+      "year": 2000,
+      "number": 7,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2000-007-taxation-provisional-charging-order-2000",
+      "sections": 2,
+      "title": "Taxation (Provisional Charging) Order, 2000",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2000/7/eng@2000-01-28/source.pdf",
+      "pdf_hash": "c18c43135bacbcd437067550d1aab0396fe9772fde4dfd89e81f010b8b530f93",
+      "pdf_bytes": 647600,
+      "raw_pdf": "/sessions/tender-determined-edison/mnt/corpus/raw/zambialii/si/2000/si-zm-2000-007-taxation-provisional-charging-order-2000.pdf",
+      "record_path": "/sessions/tender-determined-edison/mnt/corpus/records/sis/2000/si-zm-2000-007-taxation-provisional-charging-order-2000.json"
+    }
+  ],
+  "robots_info": null
+}

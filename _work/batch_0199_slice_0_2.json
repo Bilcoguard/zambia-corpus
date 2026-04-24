@@ -1,0 +1,45 @@
+{
+  "batch": "0199",
+  "slice": [
+    0,
+    2
+  ],
+  "started_at": "2026-04-24T21:34:50Z",
+  "completed_at": "2026-04-24T21:35:18Z",
+  "fetch_start": 0,
+  "fetch_end": 5,
+  "results": [
+    {
+      "year": 1997,
+      "number": 15,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-1997-015-taxation-provisional-charging-order-1997",
+      "sections": 7,
+      "title": "Taxation (Provisional Charging) Order, 1997",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1997/15/eng@1997-01-31/source.pdf",
+      "pdf_hash": "5756836f2dc30885bd03d0dc8032e6ac995acfb268597867301ad25a6067db48",
+      "pdf_bytes": 106273,
+      "raw_pdf": "/sessions/tender-determined-edison/mnt/corpus/raw/zambialii/si/1997/si-zm-1997-015-taxation-provisional-charging-order-1997.pdf",
+      "record_path": "/sessions/tender-determined-edison/mnt/corpus/records/sis/1997/si-zm-1997-015-taxation-provisional-charging-order-1997.json"
+    },
+    {
+      "year": 1998,
+      "number": 16,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-1998-016-taxation-provisional-charging-order-1998",
+      "sections": 7,
+      "title": "Taxation (Provisional Charging) Order, 1998",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1998/16/eng@1998-01-30/source.pdf",
+      "pdf_hash": "540620db609553360e2a9dcb66fc4793928d0c5d4f0b1ac60633a594580c48d7",
+      "pdf_bytes": 124286,
+      "raw_pdf": "/sessions/tender-determined-edison/mnt/corpus/raw/zambialii/si/1998/si-zm-1998-016-taxation-provisional-charging-order-1998.pdf",
+      "record_path": "/sessions/tender-determined-edison/mnt/corpus/records/sis/1998/si-zm-1998-016-taxation-provisional-charging-order-1998.json"
+    }
+  ],
+  "robots_info": {
+    "sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+    "error": null
+  }
+}
