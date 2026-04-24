@@ -1,0 +1,49 @@
+{
+  "batch": "0194",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_mining_closeout+sis_family_opener",
+  "started_at": "2026-04-24T19:06:27Z",
+  "completed_at": "2026-04-24T19:06:57Z",
+  "fetches_used": 5,
+  "records_written": 2,
+  "targets_attempted": 2,
+  "results": [
+    {
+      "year": 2018,
+      "number": 82,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "record_id": "si-zm-2018-082-mining-appeals-tribunal-rules-2018",
+      "sections": 43,
+      "title": "Mining Appeals (Tribunal) Rules, 2018",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2018/82/eng@2018-10-19/source.pdf",
+      "pdf_hash": "0ff7bb29e2a10dcae0c617b3f9ea223e29781bf44f2d9d17265a6401aa4b9645",
+      "pdf_bytes": 1593542,
+      "raw_pdf": "/sessions/nifty-pensive-thompson/mnt/corpus/raw/zambialii/si/2018/si-zm-2018-082-mining-appeals-tribunal-rules-2018.pdf",
+      "record_path": "/sessions/nifty-pensive-thompson/mnt/corpus/records/sis/2018/si-zm-2018-082-mining-appeals-tribunal-rules-2018.json"
+    },
+    {
+      "year": 2023,
+      "number": 38,
+      "sub_phase": "sis_family",
+      "status": "ok",
+      "record_id": "si-zm-2023-038-intestate-succession-rules-2023",
+      "sections": 77,
+      "title": "Intestate Succession Rules, 2023",
+      "pdf_url": "https://commons.laws.africa/akn/zm/act/si/2023/38/media/publication/zm-act-si-2023-38-publication-document.pdf",
+      "pdf_hash": "18a78be7974bc4efeb325e87ce7abf5ce4fe72ef9fdf3b9142b38e60fd4ac628",
+      "pdf_bytes": 450346,
+      "raw_pdf": "/sessions/nifty-pensive-thompson/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-038-intestate-succession-rules-2023.pdf",
+      "record_path": "/sessions/nifty-pensive-thompson/mnt/corpus/records/sis/2023/si-zm-2023-038-intestate-succession-rules-2023.json"
+    }
+  ],
+  "discovery": {
+    "status": "ok",
+    "url": "https://zambialii.org/legislation/subsidiary?alphabet=A",
+    "sha256": "5a135742534643dbcb4b8c61f532419ce35c4d3fcaad510f1a2ae088defe5449",
+    "bytes": 93755,
+    "cached_at": "_work/batch_0194_alphabet_A.html",
+    "candidates_found": 0,
+    "candidates_path": "_work/batch_0194_candidates.json"
+  }
+}
