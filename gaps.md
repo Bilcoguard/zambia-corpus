@@ -948,3 +948,10 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - UNRESOLVED CAP. PARENT ('stamp duties act'): no-nature-filter probe returned ZambiaLII count=130, page-1 /akn/zm/act/ links=32. No primary parent surfaced. Pivot next tick to parliament.gov.zm listing.
 - UNRESOLVED CAP. PARENT ('sale of goods act'): no-nature-filter probe returned ZambiaLII count=663, page-1 /akn/zm/act/ links=0. No primary parent surfaced. Pivot next tick to parliament.gov.zm listing.
 - UNRESOLVED CAP. PARENT ('bills of exchange act'): no-nature-filter probe returned ZambiaLII count=79, page-1 /akn/zm/act/ links=19. No primary parent surfaced. Pivot next tick to parliament.gov.zm listing.
+
+## Batch 0170 per-target notes (2026-04-24T05:39:03Z)
+
+- 2021/38 'insurance-act-2021': HTML fetch failed: status=404 len=17595
+- 2021/37 'zambia-correctional-service-act-2021': pre-queue reject — already in HEAD (parliament.gov.zm /node/9008 — primary Act, absent from HEAD)
+- 2021/35 'narcotic-drugs-and-psychotropic-substances-act-2021': pre-queue reject — already in HEAD (parliament.gov.zm /node/9005 — primary Act, absent from HEAD)
+- 2021/34 'industrial-hemp-act-2021': pre-queue reject — already in HEAD (parliament.gov.zm /node/9004 — primary Act, absent from HEAD)
