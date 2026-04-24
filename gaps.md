@@ -980,3 +980,17 @@ Affected IDs (pairs where -000- variant exists alongside canonical-numbered vari
 - full list on demand via: `python3 -c "import json,glob; ids=[(p,json.load(open(p))['id']) for p in glob.glob('records/acts/*.json')]; from collections import defaultdict; d=defaultdict(list); [d[i].append(p) for p,i in ids]; [print(i, paths) for i,paths in d.items() if len(paths)>1]"`
 
 Sev: low (historic). Action: queue for next clean-up batch.
+
+## Batch 0175 — sis_corporate filter refinement note (2026-04-24T09:37:22Z)
+
+The substring-based CORPORATE_KEYWORDS filter in scripts/batch_0174.py and
+batch_0175.py produces false positives for the token "pension" because it
+matches as a substring of "suspension". Batch 0175 discovery surfaced 4
+such false-positive SIs (2019/25 Income Tax Suspension Treasury Bill;
+2019/11, 2018/61 Customs Excise Suspension Fuel; 2018/36 Customs Excise
+Cut-rag Suspension). These are tax/customs suspension orders, not pension
+SIs. Genuine corporate candidates from pages 5+6: 2019/62 Konoike
+Construction Income Tax Exemption, 2019/59 Insurance Fidelity Fund
+Regulations. Action item: change the filter to use a word-boundary regex
+(e.g. r"\bpension") or a token-list approach before the next discovery
+sweep. Not fixing this tick — flagged for human review.
