@@ -1,0 +1,72 @@
+{
+  "batch": "0187",
+  "phase": "phase_4_bulk",
+  "sub_phase": "case_law_scz",
+  "started_at": "2026-04-24T15:36:13Z",
+  "completed_at": "2026-04-24T15:37:00Z",
+  "fetches_used": 8,
+  "records_written": 4,
+  "targets_attempted": 4,
+  "results": [
+    {
+      "year": 2026,
+      "number": 10,
+      "date_slug": "2026-04-17",
+      "status": "ok",
+      "record_id": "judgment-zm-2026-zmsc-10-first-v-zubao",
+      "paragraphs": 13,
+      "title": "First Quantum Mining And Operations Limited v Zubao Harry Juma (Appeal No. 22/2025) [2026] ZMSC 10 (17 April 2026)",
+      "citation": "[2026] ZMSC 10",
+      "pdf_url": "https://zambialii.org/akn/zm/judgment/zmsc/2026/10/eng@2026-04-17/source.pdf",
+      "pdf_hash": "8b3057fa6673853d9570b3f868691ce34b21fc88a5b0e5e3bc0be5ef55425004",
+      "pdf_bytes": 224515,
+      "raw_pdf": "/sessions/sharp-peaceful-goldberg/mnt/corpus/raw/zambialii/judgments/zmsc/2026/judgment-zm-2026-zmsc-10-first-quantum-mining-and-operations-limited-v-zubao-harry-ju.pdf",
+      "record_path": "/sessions/sharp-peaceful-goldberg/mnt/corpus/records/judgments/zmsc/2026/judgment-zm-2026-zmsc-10-first-v-zubao.json"
+    },
+    {
+      "year": 2026,
+      "number": 7,
+      "date_slug": "2026-03-13",
+      "status": "ok",
+      "record_id": "judgment-zm-2026-zmsc-07-munir-v-attorney",
+      "paragraphs": 11,
+      "title": "Munir Zulu v Attorney General and Chibwili (Appeal No. 23/2025; SCZ/8/11/2025) [2026] ZMSC 7 (13 March 2026)",
+      "citation": "[2026] ZMSC 7",
+      "pdf_url": "https://zambialii.org/akn/zm/judgment/zmsc/2026/7/eng@2026-03-13/source.pdf",
+      "pdf_hash": "462945275b82b23c80c8c05f4ada264891e5be3d361a617d17ee5f0548064e45",
+      "pdf_bytes": 3195336,
+      "raw_pdf": "/sessions/sharp-peaceful-goldberg/mnt/corpus/raw/zambialii/judgments/zmsc/2026/judgment-zm-2026-zmsc-07-munir-zulu-v-attorney-general-and-chibwili-appeal-no-232025-.pdf",
+      "record_path": "/sessions/sharp-peaceful-goldberg/mnt/corpus/records/judgments/zmsc/2026/judgment-zm-2026-zmsc-07-munir-v-attorney.json"
+    },
+    {
+      "year": 2026,
+      "number": 4,
+      "date_slug": "2026-03-10",
+      "status": "ok",
+      "record_id": "judgment-zm-2026-zmsc-04-ventriglia-v-finance",
+      "paragraphs": 39,
+      "title": "Ventriglia and Anor v Finance Bank Zambia Limited (SCZ/7/2/2025) [2026] ZMSC 4 (10 March 2026)",
+      "citation": "[2026] ZMSC 4",
+      "pdf_url": "https://zambialii.org/akn/zm/judgment/zmsc/2026/4/eng@2026-03-10/source.pdf",
+      "pdf_hash": "f8a3e867b2934ab4a717e5a8f8553003923969f32b345180a44af413fd33d0e7",
+      "pdf_bytes": 3028195,
+      "raw_pdf": "/sessions/sharp-peaceful-goldberg/mnt/corpus/raw/zambialii/judgments/zmsc/2026/judgment-zm-2026-zmsc-04-ventriglia-and-anor-v-finance-bank-zambia-limited-scz722025-.pdf",
+      "record_path": "/sessions/sharp-peaceful-goldberg/mnt/corpus/records/judgments/zmsc/2026/judgment-zm-2026-zmsc-04-ventriglia-v-finance.json"
+    },
+    {
+      "year": 2026,
+      "number": 1,
+      "date_slug": "2026-01-29",
+      "status": "ok",
+      "record_id": "judgment-zm-2026-zmsc-01-kapsch-v-intelligent",
+      "paragraphs": 17,
+      "title": "Kapsch Trafficom South Africa Holding Pty Ltd v Intelligent Mobility Solutions Ltd and Anor (APPEAL No. 7/32/2024) [2026] ZMSC 1 (29 January 2026)",
+      "citation": "[2026] ZMSC 1",
+      "pdf_url": "https://zambialii.org/akn/zm/judgment/zmsc/2026/1/eng@2026-01-29/source.pdf",
+      "pdf_hash": "9c670ac4c0e8f28b004839694d447210868cf45e156926f9c74460e5b6bd6815",
+      "pdf_bytes": 179957,
+      "raw_pdf": "/sessions/sharp-peaceful-goldberg/mnt/corpus/raw/zambialii/judgments/zmsc/2026/judgment-zm-2026-zmsc-01-kapsch-trafficom-south-africa-holding-pty-ltd-v-intelligent-.pdf",
+      "record_path": "/sessions/sharp-peaceful-goldberg/mnt/corpus/records/judgments/zmsc/2026/judgment-zm-2026-zmsc-01-kapsch-v-intelligent.json"
+    }
+  ]
+}
