@@ -1,0 +1,30 @@
+{
+  "batch": "0203",
+  "phase": "ingest",
+  "slice": [
+    8,
+    10
+  ],
+  "started_at": "2026-04-24T23:35:52Z",
+  "completed_at": "2026-04-24T23:36:00Z",
+  "fetch_start": 414,
+  "fetch_end": 416,
+  "results": [
+    {
+      "year": 1991,
+      "number": 47,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "insurance levy (exemption) order, 1991",
+      "alphabet": "I",
+      "record_id": "si-zm-1991-047-insurance-levy-exemption-order-1991",
+      "sections": 2,
+      "title": "Insurance Levy (Exemption) Order, 1991",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1991/47/eng@1990-04-12/source.pdf",
+      "pdf_hash": "8a14f49f927dfe9d368c831b6c7661dd16bab1c0fd7cbdb2c75ce856fdbda368",
+      "pdf_bytes": 134892,
+      "raw_pdf": "/sessions/sharp-happy-curie/mnt/corpus/raw/zambialii/si/1991/si-zm-1991-047-insurance-levy-exemption-order-1991.pdf",
+      "record_path": "/sessions/sharp-happy-curie/mnt/corpus/records/sis/1991/si-zm-1991-047-insurance-levy-exemption-order-1991.json"
+    }
+  ]
+}

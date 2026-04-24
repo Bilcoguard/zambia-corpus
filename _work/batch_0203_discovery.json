@@ -1,0 +1,957 @@
+{
+  "batch": "0203",
+  "phase": "discovery",
+  "started_at": "2026-04-24T23:33:15Z",
+  "completed_at": "2026-04-24T23:33:43Z",
+  "fetches_used": 5,
+  "fetch_end": 398,
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "alphabets": [
+    "I",
+    "N",
+    "F",
+    "A"
+  ],
+  "novel_total_pre_keyword": 147,
+  "novel_kept_post_keyword": 9,
+  "candidates": [
+    {
+      "year": 2022,
+      "number": 53,
+      "text": "financial intelligence centre (prescribed threshold) regulations, 2022",
+      "letter": "F"
+    },
+    {
+      "year": 2022,
+      "number": 54,
+      "text": "financial intelligence centre (general) regulations, 2022",
+      "letter": "F"
+    },
+    {
+      "year": 2021,
+      "number": 38,
+      "text": "insurance (fidelity fund) regulations, 2021",
+      "letter": "I"
+    },
+    {
+      "year": 2019,
+      "number": 25,
+      "text": "income tax act (suspension of tax on payment of interest to non-resident) (treasury bill and bond) regulations, 2019",
+      "letter": "I"
+    },
+    {
+      "year": 2017,
+      "number": 43,
+      "text": "income tax (suspension of tax on payments to non-resident contractors) (batoka hydro-electric scheme and kariba dam rehabilitation projects) regulations, 2017",
+      "letter": "I"
+    },
+    {
+      "year": 2015,
+      "number": 71,
+      "text": "insurance (minimum paid-up share capital) regulations, 2015",
+      "letter": "I"
+    },
+    {
+      "year": 2010,
+      "number": 12,
+      "text": "income tax (tazama petroleum products company limited) (approval and exemption) order, 2010",
+      "letter": "I"
+    },
+    {
+      "year": 2007,
+      "number": 42,
+      "text": "national payment systems act (commencement) order, 2007",
+      "letter": "N"
+    },
+    {
+      "year": 1991,
+      "number": 47,
+      "text": "insurance levy (exemption) order, 1991",
+      "letter": "I"
+    }
+  ],
+  "novel_pre_keyword_sample": [
+    {
+      "year": 2001,
+      "number": 3,
+      "text": "immigration and deportation act (fees) (waiver) regulations, 2000",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 31,
+      "text": "immigration and deportation (fees) (waiver) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 2011,
+      "number": 129,
+      "text": "immigration and deportation (general) regulations, 2011",
+      "letter": "I"
+    },
+    {
+      "year": 2013,
+      "number": 38,
+      "text": "immigration and deportation (immigration consultants) regulations, 2013",
+      "letter": "I"
+    },
+    {
+      "year": 1980,
+      "number": 14,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1980",
+      "letter": "I"
+    },
+    {
+      "year": 1980,
+      "number": 24,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1980",
+      "letter": "I"
+    },
+    {
+      "year": 1980,
+      "number": 29,
+      "text": "income tax (international organisations) (exemption approval) order, 1980",
+      "letter": "I"
+    },
+    {
+      "year": 1980,
+      "number": 38,
+      "text": "income tax (low cost housing) notice, 1980",
+      "letter": "I"
+    },
+    {
+      "year": 1980,
+      "number": 51,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 3) order, 1980",
+      "letter": "I"
+    },
+    {
+      "year": 1982,
+      "number": 2,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1982",
+      "letter": "I"
+    },
+    {
+      "year": 1982,
+      "number": 9,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1982",
+      "letter": "I"
+    },
+    {
+      "year": 1982,
+      "number": 36,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 3) order 1982",
+      "letter": "I"
+    },
+    {
+      "year": 1983,
+      "number": 43,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1983",
+      "letter": "I"
+    },
+    {
+      "year": 1984,
+      "number": 45,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1984",
+      "letter": "I"
+    },
+    {
+      "year": 1983,
+      "number": 6,
+      "text": "income tax (intersomer s.p.a.) (exemption) order, 1983",
+      "letter": "I"
+    },
+    {
+      "year": 1993,
+      "number": 2,
+      "text": "income tax (foreign organisations) (approval and exemption) order, 1993",
+      "letter": "I"
+    },
+    {
+      "year": 1993,
+      "number": 11,
+      "text": "income tax (body corporate) (approval and exemption) order, 1993",
+      "letter": "I"
+    },
+    {
+      "year": 1993,
+      "number": 12,
+      "text": "income tax (foreign organisations) (approval and exemption) (no. 2) order, 1993",
+      "letter": "I"
+    },
+    {
+      "year": 1999,
+      "number": 42,
+      "text": "income tax (foreign organisations) (exemption and approval) order, 1999",
+      "letter": "I"
+    },
+    {
+      "year": 2006,
+      "number": 40,
+      "text": "income tax (tax clearance) (exemption) regulations, 2006",
+      "letter": "I"
+    },
+    {
+      "year": 2007,
+      "number": 29,
+      "text": "income tax (advance tax) (exemption) regulations, 2007",
+      "letter": "I"
+    },
+    {
+      "year": 2009,
+      "number": 2,
+      "text": "income tax (foreign organisations) (approval and exemption) order, 2009",
+      "letter": "I"
+    },
+    {
+      "year": 2010,
+      "number": 12,
+      "text": "income tax (tazama petroleum products company limited) (approval and exemption) order, 2010",
+      "letter": "I"
+    },
+    {
+      "year": 2010,
+      "number": 43,
+      "text": "income tax (sino-metals leach zambia limited) (rebate) regulations, 2010",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 16,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 17,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 18,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 3) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 19,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 4) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 20,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 5) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 21,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 6) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 26,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 7) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 27,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 8) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 50,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 10) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 49,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 9) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1986,
+      "number": 4,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1986",
+      "letter": "I"
+    },
+    {
+      "year": 1986,
+      "number": 27,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1986",
+      "letter": "I"
+    },
+    {
+      "year": 1987,
+      "number": 9,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1987",
+      "letter": "I"
+    },
+    {
+      "year": 2011,
+      "number": 34,
+      "text": "income tax (china-africa development fund) (approval and exemption) order, 2011",
+      "letter": "I"
+    },
+    {
+      "year": 2011,
+      "number": 35,
+      "text": "income tax (foreign personnel) (approval and exemption) order, 2011",
+      "letter": "I"
+    },
+    {
+      "year": 2016,
+      "number": 30,
+      "text": "income tax (agence francaise de development and proparco) (approval and exemption) order, 2016",
+      "letter": "I"
+    },
+    {
+      "year": 2019,
+      "number": 25,
+      "text": "income tax act (suspension of tax on payment of interest to non-resident) (treasury bill and bond) regulations, 2019",
+      "letter": "I"
+    },
+    {
+      "year": 2017,
+      "number": 43,
+      "text": "income tax (suspension of tax on payments to non-resident contractors) (batoka hydro-electric scheme and kariba dam rehabilitation projects) regulations, 2017",
+      "letter": "I"
+    },
+    {
+      "year": 1981,
+      "number": 48,
+      "text": "income tax (exempt organisations) (approval) order, 1981",
+      "letter": "I"
+    },
+    {
+      "year": 1981,
+      "number": 49,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1981",
+      "letter": "I"
+    },
+    {
+      "year": 2002,
+      "number": 26,
+      "text": "industrial relations court (arbitration and mediation procedure) rules, 2002",
+      "letter": "I"
+    },
+    {
+      "year": 2008,
+      "number": 23,
+      "text": "representative bodies (elections and conduct of ballot) regulations, 2008",
+      "letter": "I"
+    },
+    {
+      "year": 1993,
+      "number": 49,
+      "text": "inland waters (section 24 (3) harbours) (designation) notice, 1993",
+      "letter": "I"
+    },
+    {
+      "year": 1990,
+      "number": 48,
+      "text": "a commission",
+      "letter": "I"
+    },
+    {
+      "year": 2003,
+      "number": 40,
+      "text": "commission",
+      "letter": "I"
+    },
+    {
+      "year": 2014,
+      "number": 22,
+      "text": "legal and justice sector reform commission",
+      "letter": "I"
+    },
+    {
+      "year": 2016,
+      "number": 72,
+      "text": "inquiries act - commission, 2016",
+      "letter": "I"
+    },
+    {
+      "year": 2015,
+      "number": 25,
+      "text": "inquiries act - commission, 2015",
+      "letter": "I"
+    },
+    {
+      "year": 2021,
+      "number": 38,
+      "text": "insurance (fidelity fund) regulations, 2021",
+      "letter": "I"
+    },
+    {
+      "year": 1991,
+      "number": 47,
+      "text": "insurance levy (exemption) order, 1991",
+      "letter": "I"
+    },
+    {
+      "year": 2015,
+      "number": 71,
+      "text": "insurance (minimum paid-up share capital) regulations, 2015",
+      "letter": "I"
+    },
+    {
+      "year": 1983,
+      "number": 37,
+      "text": "international game park (lower zambezi) (cessation) order, 1983",
+      "letter": "I"
+    },
+    {
+      "year": 2024,
+      "number": 4,
+      "text": "investment, trade and business development (luano industrial park) (declaration) order, 2024",
+      "letter": "I"
+    },
+    {
+      "year": 2025,
+      "number": 19,
+      "text": "investment,trade and business development (fintech city multi-facility economic zone) (declaration) order, 2025",
+      "letter": "I"
+    },
+    {
+      "year": 2024,
+      "number": 7,
+      "text": "ionising radiation protection (nuclear medicine) regulations, 2024",
+      "letter": "I"
+    },
+    {
+      "year": 2024,
+      "number": 8,
+      "text": "ionising radiation protection (radiotherapy) regulations, 2024",
+      "letter": "I"
+    },
+    {
+      "year": 2022,
+      "number": 7,
+      "text": "national archives (fees) regulations, 2021",
+      "letter": "N"
+    },
+    {
+      "year": 1995,
+      "number": 29,
+      "text": "national archives (fees) regulations, 1995",
+      "letter": "N"
+    },
+    {
+      "year": 1995,
+      "number": 30,
+      "text": "national archives (place of deposit) (revocation) order, 1995",
+      "letter": "N"
+    },
+    {
+      "year": 1986,
+      "number": 32,
+      "text": "national archives (place of deposit) (declaration) order, 1986",
+      "letter": "N"
+    },
+    {
+      "year": 2008,
+      "number": 24,
+      "text": "national constitutional conference (committees) regulations, 2008",
+      "letter": "N"
+    },
+    {
+      "year": 2008,
+      "number": 25,
+      "text": "national constitutional conference (procedure) rules, 2008",
+      "letter": "N"
+    },
+    {
+      "year": 2008,
+      "number": 26,
+      "text": "national constitutional conference (disciplinary committee proceedings) rules, 2008",
+      "letter": "N"
+    },
+    {
+      "year": 2004,
+      "number": 22,
+      "text": "national council for construction (exemption) regulations, 2004",
+      "letter": "N"
+    },
+    {
+      "year": 2009,
+      "number": 37,
+      "text": "national council for construction (forms and fees) regulations, 2009",
+      "letter": "N"
+    },
+    {
+      "year": 2015,
+      "number": 39,
+      "text": "national council for construction (registration of projects) regulations, 2015",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 30,
+      "text": "national dialogue forum (extension) (no. 2) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 28,
+      "text": "national dialogue forum (extension) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2018,
+      "number": 92,
+      "text": "national health research (material transfer) regulations, 2018",
+      "letter": "N"
+    },
+    {
+      "year": 2020,
+      "number": 24,
+      "text": "national health research (bio banking) regulations, 2020",
+      "letter": "N"
+    },
+    {
+      "year": 2020,
+      "number": 25,
+      "text": "national health research (registration and accreditation) regulations, 2020",
+      "letter": "N"
+    },
+    {
+      "year": 2009,
+      "number": 49,
+      "text": "national heritage conservation commission (national monument) (mulobezi open air railway museum) (declaration) order, 2009",
+      "letter": "N"
+    },
+    {
+      "year": 2009,
+      "number": 50,
+      "text": "conservation commission (national monument) (libala limestone) (declaration) order, 2009",
+      "letter": "N"
+    },
+    {
+      "year": 2010,
+      "number": 6,
+      "text": "national monuments (entry and user fees) regulation, 2010",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 26,
+      "text": "national heritage conservation commission (zambezi source) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 27,
+      "text": "national heritage conservation commission (ng\u2019wena village) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 28,
+      "text": "national heritage conservation commission (nalupembe falls) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 31,
+      "text": "national heritage conservation commission (musonda falls) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 29,
+      "text": "national heritage conservation commission (chembe island) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 30,
+      "text": "national heritage conservation commission (mambilima cataracts) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 32,
+      "text": "national heritage conservation commission (kabwe katenda) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 33,
+      "text": "national heritage conservation commission (ngonye falls) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 34,
+      "text": "national heritage conservation commission (membo caves) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 35,
+      "text": "national heritage conservation commission (mumbotuta falls) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 75,
+      "text": "national heritage conservation commission (kalonga gawa undi-dole royal cemetery) (national monument) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 57,
+      "text": "national heritage conservation commission (kabwe mine museum) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 56,
+      "text": "national heritage conservation commission (broken hill man) (national monument) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 55,
+      "text": "national heritage conservation commission (chipota falls) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 54,
+      "text": "national heritage conservation commission (kavalamanja-kakaroo liberation heritage) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 53,
+      "text": "national heritage conservation commission (tarbuttite site) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 52,
+      "text": "national heritage conservation commission (mpezeni royal burial) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 51,
+      "text": "national heritage conservation commission (mukuku bridge) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 50,
+      "text": "national heritage conservation commission (chinyunyu hot springs) (national monument) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 49,
+      "text": "national heritage conservation commission (mulungushi rock of authority) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 48,
+      "text": "national heritage conservation commission (longola hot springs) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2017,
+      "number": 71,
+      "text": "national heritage conservation commission (oliver tambo house) (national monument) (declaration) order, 2017",
+      "letter": "N"
+    },
+    {
+      "year": 2020,
+      "number": 64,
+      "text": "national market and bus station development fund regulations, 2020",
+      "letter": "N"
+    },
+    {
+      "year": 2015,
+      "number": 89,
+      "text": "national museums (declaration) order, 2015",
+      "letter": "N"
+    },
+    {
+      "year": 2016,
+      "number": 59,
+      "text": "national museums (entry fees) regulations, 2016",
+      "letter": "N"
+    },
+    {
+      "year": 1997,
+      "number": 49,
+      "text": "national parks and wildlife (night game drives) regulations, 1997",
+      "letter": "N"
+    },
+    {
+      "year": 2007,
+      "number": 42,
+      "text": "national payment systems act (commencement) order, 2007",
+      "letter": "N"
+    },
+    {
+      "year": 2016,
+      "number": 49,
+      "text": "national prosecutions authority (witness allowances and expenses) regulations, 2016",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 34,
+      "text": "national registration regulations, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2008,
+      "number": 16,
+      "text": "national road fund (charges and fees) (apportionment) regulations, 2008",
+      "letter": "N"
+    },
+    {
+      "year": 2005,
+      "number": 19,
+      "text": "national road fund act (commencement) order, 2005",
+      "letter": "N"
+    },
+    {
+      "year": 1987,
+      "number": 36,
+      "text": "national savings and credit (appointment of members of board) order, 1987",
+      "letter": "N"
+    },
+    {
+      "year": 2014,
+      "number": 8,
+      "text": "fees and fines (fee and penalty unit value) regulations, 2014",
+      "letter": "F"
+    },
+    {
+      "year": 2022,
+      "number": 53,
+      "text": "financial intelligence centre (prescribed threshold) regulations, 2022",
+      "letter": "F"
+    },
+    {
+      "year": 2022,
+      "number": 54,
+      "text": "financial intelligence centre (general) regulations, 2022",
+      "letter": "F"
+    },
+    {
+      "year": 2012,
+      "number": 24,
+      "text": "fisheries regulations, 2012",
+      "letter": "F"
+    },
+    {
+      "year": 2026,
+      "number": 8,
+      "text": "fisheries (management area) (declaration) order, 2025",
+      "letter": "F"
+    },
+    {
+      "year": 2021,
+      "number": 3,
+      "text": "national forest no. f31: kabwe (alteration of boundaries) order, 2021",
+      "letter": "F"
+    },
+    {
+      "year": 2021,
+      "number": 66,
+      "text": "forest (carbon stock management) regulations, 2021",
+      "letter": "F"
+    },
+    {
+      "year": 2021,
+      "number": 1,
+      "text": "forest reserve no. 4: maposa (cessation) order, 2021",
+      "letter": "F"
+    },
+    {
+      "year": 2021,
+      "number": 2,
+      "text": "kasama national forest no. p. 47: (alteration of boundaries) order, 2021",
+      "letter": "F"
+    },
+    {
+      "year": 2020,
+      "number": 13,
+      "text": "national forest no. f.12: luano (alteration of boundaries) order, 2020",
+      "letter": "F"
+    },
+    {
+      "year": 2020,
+      "number": 12,
+      "text": "local forest no. p. 320: mpande hills (alteration of boundaries) order, 2020",
+      "letter": "F"
+    },
+    {
+      "year": 2015,
+      "number": 94,
+      "text": "forests (export of timber) regulations, 2015",
+      "letter": "F"
+    },
+    {
+      "year": 2016,
+      "number": 50,
+      "text": "forest (concession licence) regulations, 2016",
+      "letter": "F"
+    },
+    {
+      "year": 2016,
+      "number": 68,
+      "text": "local forest (no. 315: chipilepile) (cessation) order, 2016",
+      "letter": "F"
+    },
+    {
+      "year": 2018,
+      "number": 11,
+      "text": "forests (community forest management) regulations, 2018",
+      "letter": "F"
+    },
+    {
+      "year": 2017,
+      "number": 63,
+      "text": "local forest no. 42: kawena (cessation) order, 2017",
+      "letter": "F"
+    },
+    {
+      "year": 2017,
+      "number": 28,
+      "text": "dambwa local forest no. f22: (alteration of boundaries) order, 2017",
+      "letter": "F"
+    },
+    {
+      "year": 2023,
+      "number": 13,
+      "text": "forfeiture of proceeds of crime (fund and property management) regulations, 2023",
+      "letter": "F"
+    },
+    {
+      "year": 2025,
+      "number": 56,
+      "text": "access to information (general) regulations, 2025",
+      "letter": "A"
+    },
+    {
+      "year": 2014,
+      "number": 59,
+      "text": "agricultural credits (appointment of authorised agency) order, 2014",
+      "letter": "A"
+    },
+    {
+      "year": 2018,
+      "number": 54,
+      "text": "agricultural institute of zambia (general) regulations, 2018",
+      "letter": "A"
+    },
+    {
+      "year": 1985,
+      "number": 24,
+      "text": "air passenger service charge (appointment of collection agents) (no. 2) order, 1985",
+      "letter": "A"
+    },
+    {
+      "year": 1992,
+      "number": 9,
+      "text": "air passenger service charge (charging) order, 1992",
+      "letter": "A"
+    },
+    {
+      "year": 2001,
+      "number": 32,
+      "text": "air services (permit fees) regulations, 2001",
+      "letter": "A"
+    },
+    {
+      "year": 1985,
+      "number": 45,
+      "text": "air services (aerial application permit) regulations, 1985",
+      "letter": "A"
+    },
+    {
+      "year": 2014,
+      "number": 16,
+      "text": "animal health (livestock cleansing) order, 2014",
+      "letter": "A"
+    },
+    {
+      "year": 2014,
+      "number": 24,
+      "text": "animal health (control and prevention of animal disease) order, 2014",
+      "letter": "A"
+    },
+    {
+      "year": 2019,
+      "number": 81,
+      "text": "animal health (notifiable diseases) regulations, 2019",
+      "letter": "A"
+    },
+    {
+      "year": 2018,
+      "number": 22,
+      "text": "animal health (veterinary services fees) regulations, 2018",
+      "letter": "A"
+    },
+    {
+      "year": 2020,
+      "number": 94,
+      "text": "animal health (bee keeping) regulations, 2020",
+      "letter": "A"
+    },
+    {
+      "year": 2020,
+      "number": 87,
+      "text": "animal health (designated border inspection posts) regulations, 2020",
+      "letter": "A"
+    },
+    {
+      "year": 2021,
+      "number": 25,
+      "text": "animal health (destruction of pigs) (compensation) order, 2021",
+      "letter": "A"
+    },
+    {
+      "year": 2020,
+      "number": 86,
+      "text": "animal health (establishment of tsetse control pickets and check points) regulations, 2020",
+      "letter": "A"
+    },
+    {
+      "year": 2020,
+      "number": 93,
+      "text": "animal health (import and export of animal, animal product, animal by-product or article) regulations, 2020",
+      "letter": "A"
+    },
+    {
+      "year": 2020,
+      "number": 85,
+      "text": "animal health (tsetse fly area and tsetse fly control area) (declaration) notice, 2020",
+      "letter": "A"
+    },
+    {
+      "year": 2020,
+      "number": 84,
+      "text": "animal identification (general) regulations, 2020",
+      "letter": "A"
+    },
+    {
+      "year": 2024,
+      "number": 1,
+      "text": "anti-terrorism and non proliferation (united nations security council resolutions implementation) regulations, 2024",
+      "letter": "A"
+    }
+  ]
+}

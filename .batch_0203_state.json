@@ -1,0 +1,173 @@
+{
+  "batch": "0203",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_corporate",
+  "started_at": "2026-04-24T23:33:15Z",
+  "completed_at": "2026-04-24T23:36:05Z",
+  "discovery_fetches": 5,
+  "ingest_fetches": 18,
+  "fetches_used": 23,
+  "records_written": 7,
+  "targets_attempted": 9,
+  "results": [
+    {
+      "year": 2022,
+      "number": 53,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "financial intelligence centre (prescribed threshold) regulations, 2022",
+      "alphabet": "F",
+      "record_id": "si-zm-2022-053-financial-intelligence-centre-prescribed-threshold-regulations-2022",
+      "sections": 33,
+      "title": "Financial Intelligence Centre (Prescribed Threshold) Regulations, 2022",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2022/53/eng@2022-08-19/source.pdf",
+      "pdf_hash": "b0c0965f47a4855ca50c8ba12425108dabb6d3a78552ca8eca82824b31fd7465",
+      "pdf_bytes": 665588,
+      "raw_pdf": "/sessions/sharp-happy-curie/mnt/corpus/raw/zambialii/si/2022/si-zm-2022-053-financial-intelligence-centre-prescribed-threshold-regulations-2022.pdf",
+      "record_path": "/sessions/sharp-happy-curie/mnt/corpus/records/sis/2022/si-zm-2022-053-financial-intelligence-centre-prescribed-threshold-regulations-2022.json"
+    },
+    {
+      "year": 2022,
+      "number": 54,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "financial intelligence centre (general) regulations, 2022",
+      "alphabet": "F",
+      "record_id": "si-zm-2022-054-financial-intelligence-centre-general-regulations-2022",
+      "sections": 146,
+      "title": "Financial Intelligence Centre (General) Regulations, 2022",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2022/54/eng@2022-08-19/source.pdf",
+      "pdf_hash": "229ce5996cb0ee40bbe93c6f58db793017d50d2b0a4dc9eb377f2391685dcaab",
+      "pdf_bytes": 924283,
+      "raw_pdf": "/sessions/sharp-happy-curie/mnt/corpus/raw/zambialii/si/2022/si-zm-2022-054-financial-intelligence-centre-general-regulations-2022.pdf",
+      "record_path": "/sessions/sharp-happy-curie/mnt/corpus/records/sis/2022/si-zm-2022-054-financial-intelligence-centre-general-regulations-2022.json"
+    },
+    {
+      "year": 2021,
+      "number": 38,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "insurance (fidelity fund) regulations, 2021",
+      "alphabet": "I",
+      "record_id": "si-zm-2021-038-insurance-fidelity-fund-regulations-2021",
+      "sections": 15,
+      "title": "Insurance (Fidelity Fund) Regulations, 2021",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2021/38/eng@2021-05-07/source.pdf",
+      "pdf_hash": "95567a32878fcb8b4dc584e7eced64d3592ee69ba970a8f9672f99f0b4d1661e",
+      "pdf_bytes": 77463,
+      "raw_pdf": "/sessions/sharp-happy-curie/mnt/corpus/raw/zambialii/si/2021/si-zm-2021-038-insurance-fidelity-fund-regulations-2021.pdf",
+      "record_path": "/sessions/sharp-happy-curie/mnt/corpus/records/sis/2021/si-zm-2021-038-insurance-fidelity-fund-regulations-2021.json"
+    },
+    {
+      "year": 2019,
+      "number": 25,
+      "sub_phase": "sis_corporate",
+      "status": "pdf_parse_empty",
+      "discovery_text": "income tax act (suspension of tax on payment of interest to non-resident) (treasury bill and bond) regulations, 2019",
+      "alphabet": "I"
+    },
+    {
+      "year": 2017,
+      "number": 43,
+      "sub_phase": "sis_corporate",
+      "status": "pdf_parse_empty",
+      "discovery_text": "income tax (suspension of tax on payments to non-resident contractors) (batoka hydro-electric scheme and kariba dam rehabilitation projects) regulations, 2017",
+      "alphabet": "I"
+    },
+    {
+      "year": 2015,
+      "number": 71,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "insurance (minimum paid-up share capital) regulations, 2015",
+      "alphabet": "I",
+      "record_id": "si-zm-2015-071-insurance-minimum-paid-up-share-capital-regulations-2015",
+      "sections": 7,
+      "title": "Insurance (Minimum Paid-Up Share Capital) Regulations, 2015",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2015/71/eng@2015-10-02/source.pdf",
+      "pdf_hash": "c3db52a63ce72bb4e148c9d3f732ffc3e8ac7c61f55f2884055729bbe6d2c3a2",
+      "pdf_bytes": 113156,
+      "raw_pdf": "/sessions/sharp-happy-curie/mnt/corpus/raw/zambialii/si/2015/si-zm-2015-071-insurance-minimum-paid-up-share-capital-regulations-2015.pdf",
+      "record_path": "/sessions/sharp-happy-curie/mnt/corpus/records/sis/2015/si-zm-2015-071-insurance-minimum-paid-up-share-capital-regulations-2015.json"
+    },
+    {
+      "year": 2010,
+      "number": 12,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "income tax (tazama petroleum products company limited) (approval and exemption) order, 2010",
+      "alphabet": "I",
+      "record_id": "si-zm-2010-012-income-tax-tazama-petroleum-products-company-limited-approval-and-exemption-orde",
+      "sections": 2,
+      "title": "Income Tax (Tazama Petroleum Products Company Limited) (Approval and Exemption) Order, 2010",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2010/12/eng@2010-02-26/source.pdf",
+      "pdf_hash": "32b266406fe0ee42a0822f7d7715383064be51c1d910d718632a3ecf44061416",
+      "pdf_bytes": 98165,
+      "raw_pdf": "/sessions/sharp-happy-curie/mnt/corpus/raw/zambialii/si/2010/si-zm-2010-012-income-tax-tazama-petroleum-products-company-limited-approval-and-exemption-orde.pdf",
+      "record_path": "/sessions/sharp-happy-curie/mnt/corpus/records/sis/2010/si-zm-2010-012-income-tax-tazama-petroleum-products-company-limited-approval-and-exemption-orde.json"
+    },
+    {
+      "year": 2007,
+      "number": 42,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "national payment systems act (commencement) order, 2007",
+      "alphabet": "N",
+      "record_id": "si-zm-2007-042-national-payment-systems-act-commencement-order-2007",
+      "sections": 2,
+      "title": "National Payment Systems Act (Commencement) Order, 2007",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2007/42/eng@2007-06-15/source.pdf",
+      "pdf_hash": "21bb252fd145e8e5e463f9cef294c82a22cb99d03c8aafde0c39d830c93cca95",
+      "pdf_bytes": 147346,
+      "raw_pdf": "/sessions/sharp-happy-curie/mnt/corpus/raw/zambialii/si/2007/si-zm-2007-042-national-payment-systems-act-commencement-order-2007.pdf",
+      "record_path": "/sessions/sharp-happy-curie/mnt/corpus/records/sis/2007/si-zm-2007-042-national-payment-systems-act-commencement-order-2007.json"
+    },
+    {
+      "year": 1991,
+      "number": 47,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "insurance levy (exemption) order, 1991",
+      "alphabet": "I",
+      "record_id": "si-zm-1991-047-insurance-levy-exemption-order-1991",
+      "sections": 2,
+      "title": "Insurance Levy (Exemption) Order, 1991",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1991/47/eng@1990-04-12/source.pdf",
+      "pdf_hash": "8a14f49f927dfe9d368c831b6c7661dd16bab1c0fd7cbdb2c75ce856fdbda368",
+      "pdf_bytes": 134892,
+      "raw_pdf": "/sessions/sharp-happy-curie/mnt/corpus/raw/zambialii/si/1991/si-zm-1991-047-insurance-levy-exemption-order-1991.pdf",
+      "record_path": "/sessions/sharp-happy-curie/mnt/corpus/records/sis/1991/si-zm-1991-047-insurance-levy-exemption-order-1991.json"
+    }
+  ],
+  "discovery_alphabets": [
+    "I",
+    "N",
+    "F",
+    "A"
+  ],
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "novel_total_pre_keyword": 147,
+  "novel_kept_post_keyword": 9,
+  "slices": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      8,
+      10
+    ]
+  ]
+}

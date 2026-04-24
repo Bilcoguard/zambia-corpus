@@ -1,0 +1,46 @@
+{
+  "batch": "0203",
+  "phase": "ingest",
+  "slice": [
+    0,
+    2
+  ],
+  "started_at": "2026-04-24T23:34:07Z",
+  "completed_at": "2026-04-24T23:34:31Z",
+  "fetch_start": 398,
+  "fetch_end": 402,
+  "results": [
+    {
+      "year": 2022,
+      "number": 53,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "financial intelligence centre (prescribed threshold) regulations, 2022",
+      "alphabet": "F",
+      "record_id": "si-zm-2022-053-financial-intelligence-centre-prescribed-threshold-regulations-2022",
+      "sections": 33,
+      "title": "Financial Intelligence Centre (Prescribed Threshold) Regulations, 2022",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2022/53/eng@2022-08-19/source.pdf",
+      "pdf_hash": "b0c0965f47a4855ca50c8ba12425108dabb6d3a78552ca8eca82824b31fd7465",
+      "pdf_bytes": 665588,
+      "raw_pdf": "/sessions/sharp-happy-curie/mnt/corpus/raw/zambialii/si/2022/si-zm-2022-053-financial-intelligence-centre-prescribed-threshold-regulations-2022.pdf",
+      "record_path": "/sessions/sharp-happy-curie/mnt/corpus/records/sis/2022/si-zm-2022-053-financial-intelligence-centre-prescribed-threshold-regulations-2022.json"
+    },
+    {
+      "year": 2022,
+      "number": 54,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "financial intelligence centre (general) regulations, 2022",
+      "alphabet": "F",
+      "record_id": "si-zm-2022-054-financial-intelligence-centre-general-regulations-2022",
+      "sections": 146,
+      "title": "Financial Intelligence Centre (General) Regulations, 2022",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2022/54/eng@2022-08-19/source.pdf",
+      "pdf_hash": "229ce5996cb0ee40bbe93c6f58db793017d50d2b0a4dc9eb377f2391685dcaab",
+      "pdf_bytes": 924283,
+      "raw_pdf": "/sessions/sharp-happy-curie/mnt/corpus/raw/zambialii/si/2022/si-zm-2022-054-financial-intelligence-centre-general-regulations-2022.pdf",
+      "record_path": "/sessions/sharp-happy-curie/mnt/corpus/records/sis/2022/si-zm-2022-054-financial-intelligence-centre-general-regulations-2022.json"
+    }
+  ]
+}

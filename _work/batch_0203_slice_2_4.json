@@ -1,0 +1,38 @@
+{
+  "batch": "0203",
+  "phase": "ingest",
+  "slice": [
+    2,
+    4
+  ],
+  "started_at": "2026-04-24T23:34:34Z",
+  "completed_at": "2026-04-24T23:34:55Z",
+  "fetch_start": 402,
+  "fetch_end": 406,
+  "results": [
+    {
+      "year": 2021,
+      "number": 38,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "insurance (fidelity fund) regulations, 2021",
+      "alphabet": "I",
+      "record_id": "si-zm-2021-038-insurance-fidelity-fund-regulations-2021",
+      "sections": 15,
+      "title": "Insurance (Fidelity Fund) Regulations, 2021",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2021/38/eng@2021-05-07/source.pdf",
+      "pdf_hash": "95567a32878fcb8b4dc584e7eced64d3592ee69ba970a8f9672f99f0b4d1661e",
+      "pdf_bytes": 77463,
+      "raw_pdf": "/sessions/sharp-happy-curie/mnt/corpus/raw/zambialii/si/2021/si-zm-2021-038-insurance-fidelity-fund-regulations-2021.pdf",
+      "record_path": "/sessions/sharp-happy-curie/mnt/corpus/records/sis/2021/si-zm-2021-038-insurance-fidelity-fund-regulations-2021.json"
+    },
+    {
+      "year": 2019,
+      "number": 25,
+      "sub_phase": "sis_corporate",
+      "status": "pdf_parse_empty",
+      "discovery_text": "income tax act (suspension of tax on payment of interest to non-resident) (treasury bill and bond) regulations, 2019",
+      "alphabet": "I"
+    }
+  ]
+}

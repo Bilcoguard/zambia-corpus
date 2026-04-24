@@ -1,0 +1,38 @@
+{
+  "batch": "0203",
+  "phase": "ingest",
+  "slice": [
+    4,
+    6
+  ],
+  "started_at": "2026-04-24T23:34:59Z",
+  "completed_at": "2026-04-24T23:35:21Z",
+  "fetch_start": 406,
+  "fetch_end": 410,
+  "results": [
+    {
+      "year": 2017,
+      "number": 43,
+      "sub_phase": "sis_corporate",
+      "status": "pdf_parse_empty",
+      "discovery_text": "income tax (suspension of tax on payments to non-resident contractors) (batoka hydro-electric scheme and kariba dam rehabilitation projects) regulations, 2017",
+      "alphabet": "I"
+    },
+    {
+      "year": 2015,
+      "number": 71,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "insurance (minimum paid-up share capital) regulations, 2015",
+      "alphabet": "I",
+      "record_id": "si-zm-2015-071-insurance-minimum-paid-up-share-capital-regulations-2015",
+      "sections": 7,
+      "title": "Insurance (Minimum Paid-Up Share Capital) Regulations, 2015",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2015/71/eng@2015-10-02/source.pdf",
+      "pdf_hash": "c3db52a63ce72bb4e148c9d3f732ffc3e8ac7c61f55f2884055729bbe6d2c3a2",
+      "pdf_bytes": 113156,
+      "raw_pdf": "/sessions/sharp-happy-curie/mnt/corpus/raw/zambialii/si/2015/si-zm-2015-071-insurance-minimum-paid-up-share-capital-regulations-2015.pdf",
+      "record_path": "/sessions/sharp-happy-curie/mnt/corpus/records/sis/2015/si-zm-2015-071-insurance-minimum-paid-up-share-capital-regulations-2015.json"
+    }
+  ]
+}
