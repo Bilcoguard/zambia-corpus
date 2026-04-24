@@ -1,0 +1,41 @@
+{
+  "id": "si-zm-2021-105-value-added-tax-exemption-amendment-order-2021",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Value Added Tax (Exemption) (Amendment) Order, 2021",
+  "citation": "Statutory Instrument No. 105 of 2021",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "(1) This Order may be cited as the Value Added Tax Title and",
+      "text": "commence-\n(Exemption) (Amendment) Order, 2021, and shall be read as one\nment\nwith the Value Added Tax (Exemption) Order, 2014, in this Order S.I. No. 68\nof 2014\nreferred to as the principal Order.\n(2) This Order shall come into operation on 1st January, 2022."
+    },
+    {
+      "number": "2",
+      "heading": "The Schedule to the principal Order is amended— Amendment",
+      "text": "of Schedule\n(a) by the deletion of item 4 and the substitution therefor of\nthe following:"
+    },
+    {
+      "number": "4",
+      "heading": "Publications",
+      "text": "(a) maps and charts;\n(b) journals; and\n(b) in item 10, by the deletion of paragraph (b) and the\nsubstitution therefor of the following:\nCopies of this Statutory Instrument can be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka. Price K4.00 each.\n778 Statutory Instruments 31st December, 2021\n(b) manufacturing inputs where duty is suspended\nunder the Customs and Excise (Suspension)\nS.I. No. 110 (Manufacturing Inputs) Regulations, 2020,\n0f 2020 subject to the same limitations and conditions\nthat relate to the suspension of the duty and to\nsuch modification as may be specified therein.\nDR S. MUSOKOTWANE,\nLUSAKA Minister of Finance and\n30th December, 2021 National Planning\n[MFB/64/9/4C]"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2021/105/eng@2021-12-31/source.pdf",
+  "source_hash": "sha256:6414657c0b6c8e69ecb1b09d5652f722cf2a206fe1327a3bc3455c2ec4a016fa",
+  "fetched_at": "2026-04-24T12:06:00Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2021/105/eng@2021-12-31",
+      "source_hash": "sha256:b6456d6841a484c1f77d6bf7dadcdbd44ba950d0b12c5c7e46422c8670ce6b68",
+      "fetched_at": "2026-04-24T12:05:53Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}
