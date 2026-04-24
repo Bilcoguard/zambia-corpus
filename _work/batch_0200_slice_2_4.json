@@ -1,0 +1,33 @@
+{
+  "batch": "0200",
+  "slice": [
+    2,
+    4
+  ],
+  "started_at": "2026-04-24T22:09:47Z",
+  "completed_at": "2026-04-24T22:10:02Z",
+  "fetch_start": 4,
+  "fetch_end": 7,
+  "results": [
+    {
+      "year": 2019,
+      "number": 29,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "record_id": "si-zm-2019-029-employment-code-act-commencement-order-2019",
+      "sections": 1,
+      "title": "Employment Code Act (Commencement) Order, 2019",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2019/29/eng@2019-05-10/source.pdf",
+      "pdf_hash": "51ee180d0f2b4dbf28e296d6f45ec2dadd7b23b0ec02c42c8e1a9bd8507a14ed",
+      "pdf_bytes": 139418,
+      "raw_pdf": "/sessions/busy-vigilant-bardeen/mnt/corpus/raw/zambialii/si/2019/si-zm-2019-029-employment-code-act-commencement-order-2019.pdf",
+      "record_path": "/sessions/busy-vigilant-bardeen/mnt/corpus/records/sis/2019/si-zm-2019-029-employment-code-act-commencement-order-2019.json"
+    },
+    {
+      "year": 2000,
+      "number": 105,
+      "sub_phase": "sis_employment",
+      "status": "http_404"
+    }
+  ]
+}

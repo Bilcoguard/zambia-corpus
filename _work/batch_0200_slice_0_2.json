@@ -1,0 +1,33 @@
+{
+  "batch": "0200",
+  "slice": [
+    0,
+    2
+  ],
+  "started_at": "2026-04-24T22:09:20Z",
+  "completed_at": "2026-04-24T22:09:42Z",
+  "fetch_start": 0,
+  "fetch_end": 4,
+  "results": [
+    {
+      "year": 2022,
+      "number": 13,
+      "sub_phase": "sis_employment",
+      "status": "pdf_parse_empty"
+    },
+    {
+      "year": 2018,
+      "number": 35,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "record_id": "si-zm-2018-035-industrial-and-labour-relations-fees-regulations-2018",
+      "sections": 11,
+      "title": "Industrial and Labour Relations (Fees) Regulations, 2018",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2018/35/eng@2018-05-04/source.pdf",
+      "pdf_hash": "4ae3b07777a3aa2e69269e76793ca2df764985d8cf21cf8930278848e0e96c2c",
+      "pdf_bytes": 115687,
+      "raw_pdf": "/sessions/busy-vigilant-bardeen/mnt/corpus/raw/zambialii/si/2018/si-zm-2018-035-industrial-and-labour-relations-fees-regulations-2018.pdf",
+      "record_path": "/sessions/busy-vigilant-bardeen/mnt/corpus/records/sis/2018/si-zm-2018-035-industrial-and-labour-relations-fees-regulations-2018.json"
+    }
+  ]
+}
