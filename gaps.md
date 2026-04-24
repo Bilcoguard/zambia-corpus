@@ -921,3 +921,17 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - 1981/15 'Forest (Amendment) Act, 1981': pre-fetch reject — title contains 'amendment' (via query 'forests')
 - 1982/33 'National Parks and Wildlife (Amendment) Act, 1982': pre-fetch reject — title contains 'amendment' (via query 'wildlife')
 - 2020/26 'Appropriation Act, 2020': pre-fetch reject — title contains 'appropriation' (via query 'traditional leadership')
+
+## Batch 0168 per-target notes (2026-04-24T05:04:12Z)
+
+- 1995/21 'Agriculture (Seeds) (Amendment) Act, 1995': pre-fetch reject — title contains 'amendment' (via query 'agriculture')
+- 1990/2 'National Agricultural Marketing (Amendment) Act, 1990': pre-fetch reject — title contains 'amendment' (via query 'agriculture')
+
+## Batch 0168 per-target notes (2026-04-24T05:05:25Z)
+
+- 2021/36 'Acts of Parliament (Amendment) Act, 2021': pre-fetch reject — title contains 'amendment' (via query 'parliament')
+- 1996/23 'Electoral (Amendment) Act, 1996': pre-fetch reject — title contains 'amendment' (via query 'electoral')
+- 1986/19 'Electoral (Amendment) Act, 1986': pre-fetch reject — title contains 'amendment' (via query 'electoral')
+- 1995/7 'Electoral (Amendment) Act, 1995': pre-fetch reject — title contains 'amendment' (via query 'electoral')
+- 1988/20 'Electoral (Amendment) Act, 1988': pre-fetch reject — title contains 'amendment' (via query 'electoral')
+- 2001/4 'Electoral (Amendment) Act, 2001': pre-fetch reject — title contains 'amendment' (via query 'electoral')
