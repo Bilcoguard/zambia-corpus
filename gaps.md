@@ -969,3 +969,14 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - [2026-04-24T07:44:37Z] 2021/036 AKN exists at https://zambialii.org/akn/zm/act/2021/36/eng@2021-05-20 but title 'Acts of Parliament (Amendment) Act, 2021' rejected by B-POL-ACT-1 (token='amendment'); slot intentionally absent from HEAD. batch=0172
 - [2026-04-24T07:44:37Z] 2021/039 AKN exists at https://zambialii.org/akn/zm/act/2021/39/eng@2021-05-20 but title 'Lands and Deeds Registry (Amendment) Act, 2021' rejected by B-POL-ACT-1 (token='amendment'); slot intentionally absent from HEAD. batch=0172
 - [2026-04-24T07:44:37Z] 2021/040 AKN exists at https://zambialii.org/akn/zm/act/2021/40/eng@2021-05-20 but title 'Land Survey (Amendment) Act, 2021' rejected by B-POL-ACT-1 (token='amendment'); slot intentionally absent from HEAD. batch=0172
+
+## 2026-04-24T08:39:12Z — batch 0173 audit: pre-existing duplicate IDs (not introduced by this batch)
+
+Corpus-wide CHECK1 (unique IDs) surfaces 42 duplicates between older Appropriation-Act record files using the "-000-" placeholder-number pattern (e.g., `act-zm-1994-000-appropriation-act-1994.json`) and the correctly-numbered variants (e.g., `act-zm-1994-005-appropriation-act-1994.json`). Both files share the same `id` field value (the correctly-numbered ID), which means the `-000-` filename variant is orphaned data with a duplicate ID. This is a historical data-quality issue predating batch 0173. Batch-scoped CHECK1 for batch 0173 passes — none of the 4 new SI records introduce new duplicate IDs. Flagged for a future cleanup tick to de-duplicate the historic Appropriation Acts.
+
+Affected IDs (pairs where -000- variant exists alongside canonical-numbered variant):
+- act-zm-1990-044-appropriation-act-1990
+- act-zm-1991-* … act-zm-2013-* (appropriation acts with `-000-` placeholder file + correct-numbered file)
+- full list on demand via: `python3 -c "import json,glob; ids=[(p,json.load(open(p))['id']) for p in glob.glob('records/acts/*.json')]; from collections import defaultdict; d=defaultdict(list); [d[i].append(p) for p,i in ids]; [print(i, paths) for i,paths in d.items() if len(paths)>1]"`
+
+Sev: low (historic). Action: queue for next clean-up batch.
