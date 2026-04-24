@@ -1,0 +1,113 @@
+{
+  "batch": "0201",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_data_protection_then_sis_corporate_rotation",
+  "started_at": "2026-04-24T22:38:17Z",
+  "completed_at": "2026-04-24T22:39:30Z",
+  "fetches_used": 22,
+  "records_written": 6,
+  "targets_attempted": 6,
+  "data_protection_records_ok": 2,
+  "corporate_records_ok": 4,
+  "results": [
+    {
+      "year": 2015,
+      "number": 21,
+      "sub_phase": "sis_data_protection",
+      "status": "ok",
+      "record_id": "si-zm-2015-021-information-and-communication-technologies-administration-of-authority-regulatio",
+      "sections": 3,
+      "title": "Information and Communication Technologies (Administration of Authority) Regulations, 2015",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2015/21/eng@2015-04-30/source.pdf",
+      "pdf_hash": "19a6c9902de98579565428881ab7350b7bca0cdf9a4382d6cac41e1ae2b7919e",
+      "pdf_bytes": 107628,
+      "raw_pdf": "/sessions/funny-wizardly-hawking/mnt/corpus/raw/zambialii/si/2015/si-zm-2015-021-information-and-communication-technologies-administration-of-authority-regulatio.pdf",
+      "record_path": "/sessions/funny-wizardly-hawking/mnt/corpus/records/sis/2015/si-zm-2015-021-information-and-communication-technologies-administration-of-authority-regulatio.json"
+    },
+    {
+      "year": 2022,
+      "number": 28,
+      "sub_phase": "sis_data_protection",
+      "status": "ok",
+      "record_id": "si-zm-2022-028-information-and-communication-technologies-administration-of-authority-regulatio",
+      "sections": 8,
+      "title": "Information and Communication Technologies (Administration of Authority) Regulations, 2022",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2022/28/eng@2022-04-04/source.pdf",
+      "pdf_hash": "d3013cd5ede5afe3ce577265c743f393054443c15596659c0a163f7d1a3622dd",
+      "pdf_bytes": 324246,
+      "raw_pdf": "/sessions/funny-wizardly-hawking/mnt/corpus/raw/zambialii/si/2022/si-zm-2022-028-information-and-communication-technologies-administration-of-authority-regulatio.pdf",
+      "record_path": "/sessions/funny-wizardly-hawking/mnt/corpus/records/sis/2022/si-zm-2022-028-information-and-communication-technologies-administration-of-authority-regulatio.json"
+    },
+    {
+      "year": 2018,
+      "number": 47,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "record_id": "si-zm-2018-047-companies-act-commencement-order-2018",
+      "sections": 2,
+      "title": "Companies Act (Commencement) Order, 2018",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2018/47/eng@2018-06-15/source.pdf",
+      "pdf_hash": "c7c13165af174cebe0e563ef18dfad3b8312f02aa99a4693e1db78fef8dc9571",
+      "pdf_bytes": 11677,
+      "raw_pdf": "/sessions/funny-wizardly-hawking/mnt/corpus/raw/zambialii/si/2018/si-zm-2018-047-companies-act-commencement-order-2018.pdf",
+      "record_path": "/sessions/funny-wizardly-hawking/mnt/corpus/records/sis/2018/si-zm-2018-047-companies-act-commencement-order-2018.json"
+    },
+    {
+      "year": 2009,
+      "number": 44,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "record_id": "si-zm-2009-044-banking-and-financial-services-restriction-on-kwacha-lending-to-non-residents-re",
+      "sections": 10,
+      "title": "Banking and Financial Services (Restriction on Kwacha Lending to Non-Residents) Regulations, 2009",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2009/44/eng@2009-07-17/source.pdf",
+      "pdf_hash": "91fe62c91876786629bee2a758955e56412b46a3acbdda753952a2a1814afce5",
+      "pdf_bytes": 357672,
+      "raw_pdf": "/sessions/funny-wizardly-hawking/mnt/corpus/raw/zambialii/si/2009/si-zm-2009-044-banking-and-financial-services-restriction-on-kwacha-lending-to-non-residents-re.pdf",
+      "record_path": "/sessions/funny-wizardly-hawking/mnt/corpus/records/sis/2009/si-zm-2009-044-banking-and-financial-services-restriction-on-kwacha-lending-to-non-residents-re.json"
+    },
+    {
+      "year": 2006,
+      "number": 3,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "record_id": "si-zm-2006-003-banking-and-financial-services-microfinance-regulations-2006",
+      "sections": 144,
+      "title": "Banking and Financial Services (Microfinance) Regulations, 2006",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2006/3/eng@2006-01-30/source.pdf",
+      "pdf_hash": "d0f70d998a86e955a7d3b17088ecba1e53b1c489a6ba4fdfb27f9be88652e065",
+      "pdf_bytes": 3913168,
+      "raw_pdf": "/sessions/funny-wizardly-hawking/mnt/corpus/raw/zambialii/si/2006/si-zm-2006-003-banking-and-financial-services-microfinance-regulations-2006.pdf",
+      "record_path": "/sessions/funny-wizardly-hawking/mnt/corpus/records/sis/2006/si-zm-2006-003-banking-and-financial-services-microfinance-regulations-2006.json"
+    },
+    {
+      "year": 2003,
+      "number": 38,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "record_id": "si-zm-2003-038-banking-and-financial-services-bureau-de-change-regulations-2003",
+      "sections": 110,
+      "title": "Banking and Financial Services (Bureau de Change) Regulations, 2003",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2003/38/eng@2003-04-11/source.pdf",
+      "pdf_hash": "a6a495b129abe98c579ae0d21fda54cd12b33e7d80adb1a12c0cba45a47b9466",
+      "pdf_bytes": 3708035,
+      "raw_pdf": "/sessions/funny-wizardly-hawking/mnt/corpus/raw/zambialii/si/2003/si-zm-2003-038-banking-and-financial-services-bureau-de-change-regulations-2003.pdf",
+      "record_path": "/sessions/funny-wizardly-hawking/mnt/corpus/records/sis/2003/si-zm-2003-038-banking-and-financial-services-bureau-de-change-regulations-2003.json"
+    }
+  ],
+  "slices": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      6
+    ]
+  ],
+  "robots_sha256_prefix": "fce67b697ee4ef44"
+}

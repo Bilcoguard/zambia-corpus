@@ -1,0 +1,41 @@
+{
+  "batch": "0201",
+  "slice": [
+    2,
+    4
+  ],
+  "started_at": "2026-04-24T22:38:41Z",
+  "completed_at": "2026-04-24T22:39:03Z",
+  "fetch_start": 14,
+  "fetch_end": 18,
+  "results": [
+    {
+      "year": 2018,
+      "number": 47,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "record_id": "si-zm-2018-047-companies-act-commencement-order-2018",
+      "sections": 2,
+      "title": "Companies Act (Commencement) Order, 2018",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2018/47/eng@2018-06-15/source.pdf",
+      "pdf_hash": "c7c13165af174cebe0e563ef18dfad3b8312f02aa99a4693e1db78fef8dc9571",
+      "pdf_bytes": 11677,
+      "raw_pdf": "/sessions/funny-wizardly-hawking/mnt/corpus/raw/zambialii/si/2018/si-zm-2018-047-companies-act-commencement-order-2018.pdf",
+      "record_path": "/sessions/funny-wizardly-hawking/mnt/corpus/records/sis/2018/si-zm-2018-047-companies-act-commencement-order-2018.json"
+    },
+    {
+      "year": 2009,
+      "number": 44,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "record_id": "si-zm-2009-044-banking-and-financial-services-restriction-on-kwacha-lending-to-non-residents-re",
+      "sections": 10,
+      "title": "Banking and Financial Services (Restriction on Kwacha Lending to Non-Residents) Regulations, 2009",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2009/44/eng@2009-07-17/source.pdf",
+      "pdf_hash": "91fe62c91876786629bee2a758955e56412b46a3acbdda753952a2a1814afce5",
+      "pdf_bytes": 357672,
+      "raw_pdf": "/sessions/funny-wizardly-hawking/mnt/corpus/raw/zambialii/si/2009/si-zm-2009-044-banking-and-financial-services-restriction-on-kwacha-lending-to-non-residents-re.pdf",
+      "record_path": "/sessions/funny-wizardly-hawking/mnt/corpus/records/sis/2009/si-zm-2009-044-banking-and-financial-services-restriction-on-kwacha-lending-to-non-residents-re.json"
+    }
+  ]
+}

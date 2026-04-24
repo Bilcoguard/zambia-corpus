@@ -1,0 +1,41 @@
+{
+  "batch": "0201",
+  "slice": [
+    4,
+    6
+  ],
+  "started_at": "2026-04-24T22:39:07Z",
+  "completed_at": "2026-04-24T22:39:30Z",
+  "fetch_start": 18,
+  "fetch_end": 22,
+  "results": [
+    {
+      "year": 2006,
+      "number": 3,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "record_id": "si-zm-2006-003-banking-and-financial-services-microfinance-regulations-2006",
+      "sections": 144,
+      "title": "Banking and Financial Services (Microfinance) Regulations, 2006",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2006/3/eng@2006-01-30/source.pdf",
+      "pdf_hash": "d0f70d998a86e955a7d3b17088ecba1e53b1c489a6ba4fdfb27f9be88652e065",
+      "pdf_bytes": 3913168,
+      "raw_pdf": "/sessions/funny-wizardly-hawking/mnt/corpus/raw/zambialii/si/2006/si-zm-2006-003-banking-and-financial-services-microfinance-regulations-2006.pdf",
+      "record_path": "/sessions/funny-wizardly-hawking/mnt/corpus/records/sis/2006/si-zm-2006-003-banking-and-financial-services-microfinance-regulations-2006.json"
+    },
+    {
+      "year": 2003,
+      "number": 38,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "record_id": "si-zm-2003-038-banking-and-financial-services-bureau-de-change-regulations-2003",
+      "sections": 110,
+      "title": "Banking and Financial Services (Bureau de Change) Regulations, 2003",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2003/38/eng@2003-04-11/source.pdf",
+      "pdf_hash": "a6a495b129abe98c579ae0d21fda54cd12b33e7d80adb1a12c0cba45a47b9466",
+      "pdf_bytes": 3708035,
+      "raw_pdf": "/sessions/funny-wizardly-hawking/mnt/corpus/raw/zambialii/si/2003/si-zm-2003-038-banking-and-financial-services-bureau-de-change-regulations-2003.pdf",
+      "record_path": "/sessions/funny-wizardly-hawking/mnt/corpus/records/sis/2003/si-zm-2003-038-banking-and-financial-services-bureau-de-change-regulations-2003.json"
+    }
+  ]
+}

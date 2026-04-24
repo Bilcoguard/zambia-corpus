@@ -1,0 +1,36 @@
+{
+  "id": "si-zm-2018-047-companies-act-commencement-order-2018",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Companies Act (Commencement) Order, 2018",
+  "citation": "Statutory Instrument No. 47 of 2018",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Order may be cited as the Companies Act Title",
+      "text": "(Commencement)Order,2018."
+    },
+    {
+      "number": "2",
+      "heading": "TheCompaniesAct,2017,shallcomeintooperationonthe Commence-",
+      "text": "dateofpublicationofthisOrder. mentofAct\nNo.10of\n2017\nC.YALUMA,\nLUSAKA Minister of Commerce,\n7thJune,2018 Trade and Industry\nCopiesofthisStatutoryInstrumentcanbeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101,Lusaka,PriceK4.00 each\n574 StatutoryInstruments 15thJune,2018"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2018/47/eng@2018-06-15/source.pdf",
+  "source_hash": "sha256:c7c13165af174cebe0e563ef18dfad3b8312f02aa99a4693e1db78fef8dc9571",
+  "fetched_at": "2026-04-24T22:38:43Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2018/47/eng@2018-06-15",
+      "source_hash": "sha256:22a4de384e85b2d9ddae214b77f6786e20f3ad52914e7bd4ad3f0181506ba4a3",
+      "fetched_at": "2026-04-24T22:38:41Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}
