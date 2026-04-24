@@ -1,0 +1,41 @@
+{
+  "id": "si-zm-2017-070-income-tax-african-management-services-company-approval-and-exemption-order-2017",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Income Tax (African Management Services Company) (Approval and Exemption) Order, 2017",
+  "citation": "Statutory Instrument No. 70 of 2017",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Order may be cited as the Income Tax (African Title",
+      "text": "ManagementServicesCompany)(ApprovalandExemption)Order,\n2017"
+    },
+    {
+      "number": "2",
+      "heading": "TheAfricanManagementServicesCompany(AMSCO)is Approval of",
+      "text": "anapprovedorganisationforpurposesofexemptionfromtaxwith international\norganisation\nrespecttotheagreementspecifiedintheSchedule."
+    },
+    {
+      "number": "3",
+      "heading": "The income earned by the organisation approved in Exemption",
+      "text": "paragraph 2 and accruing under the Agreement specified in the fromtax\nSchedule is exempt from tax pursuant to paragraph 5(5) of Part\nIIIof the SecondSchedule totheAct.\nSCHEDULE\n(Paragraph2)\nAGREEMENT\nThe Cooperation Framework Agreement for Enterprise Development in\nZambiabetweentheGovernmentoftheRepublicofZambiathroughMinistry\nofFinanceandtheAfricanManagementServicesCompany,signedatLusakaon\n17thFebruary,2017.\nF. MUTATI,\nLUSAKA Minister of Finance\n28thSeptember,2017\n[MFB.64/9/4C]\nCopiesofthisStatutoryInstrumentcanbeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka.PriceK4.00each.\n812 Statutory Instruments 29thSeptember,2017"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2017/70/eng@2017-09-29/source.pdf",
+  "source_hash": "sha256:6735a4a2f2731b535c2fc507bce2f22037e9ca7f475929e48c7fb91168012644",
+  "fetched_at": "2026-04-24T11:35:55Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2017/70/eng@2017-09-29",
+      "source_hash": "sha256:c4ac8512548ac99bb47b44a9bfd15273ab9a67605ab0bf1ac394ed8ec98024f8",
+      "fetched_at": "2026-04-24T11:35:48Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}
