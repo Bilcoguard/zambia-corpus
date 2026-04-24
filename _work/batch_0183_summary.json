@@ -1,0 +1,100 @@
+{
+  "batch": "0183",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_tax",
+  "started_at": "2026-04-24T13:35:59Z",
+  "completed_at": "2026-04-24T13:36:21Z",
+  "fetches_used": 16,
+  "records_written": 6,
+  "targets_attempted": 8,
+  "results": [
+    {
+      "year": 2017,
+      "number": 43,
+      "status": "pdf_parse_empty"
+    },
+    {
+      "year": 2017,
+      "number": 74,
+      "status": "ok",
+      "record_id": "si-zm-2017-074-income-tax-exemption-of-tax-on-interest-payments-to-overseas-lenders-by-maamba-c",
+      "sections": 2,
+      "title": "Income Tax (Exemption of tax on interest payments to overseas lenders by Maamba Collieries Limited) (Approval and Exemption) Order, 2017",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2017/74/eng@2017-11-10/source.pdf",
+      "pdf_hash": "2fc117e2a5e29b44a48c64c3bca57b38b1ff726ec0fc0f097126e622b91fc312",
+      "pdf_bytes": 141724,
+      "raw_pdf": "/sessions/adoring-admiring-fermat/mnt/corpus/raw/zambialii/si/2017/si-zm-2017-074-income-tax-exemption-of-tax-on-interest-payments-to-overseas-lenders-by-maamba-c.pdf",
+      "record_path": "/sessions/adoring-admiring-fermat/mnt/corpus/records/sis/2017/si-zm-2017-074-income-tax-exemption-of-tax-on-interest-payments-to-overseas-lenders-by-maamba-c.json"
+    },
+    {
+      "year": 2019,
+      "number": 25,
+      "status": "pdf_parse_empty"
+    },
+    {
+      "year": 2020,
+      "number": 11,
+      "status": "ok",
+      "record_id": "si-zm-2020-011-income-tax-royal-haskoning-dhv-pty-limited-approval-and-exemption-order-2020",
+      "sections": 4,
+      "title": "Income Tax (Royal Haskoning DHV (PTY) Limited) (Approval and Exemption) Order, 2020",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2020/11/eng@2020-02-07/source.pdf",
+      "pdf_hash": "5474b5cbf9c47a67d0fbd6b688a029ad3d339feac8b0206551fa01bece1ad8a6",
+      "pdf_bytes": 10342,
+      "raw_pdf": "/sessions/adoring-admiring-fermat/mnt/corpus/raw/zambialii/si/2020/si-zm-2020-011-income-tax-royal-haskoning-dhv-pty-limited-approval-and-exemption-order-2020.pdf",
+      "record_path": "/sessions/adoring-admiring-fermat/mnt/corpus/records/sis/2020/si-zm-2020-011-income-tax-royal-haskoning-dhv-pty-limited-approval-and-exemption-order-2020.json"
+    },
+    {
+      "year": 2022,
+      "number": 32,
+      "status": "ok",
+      "record_id": "si-zm-2022-032-income-tax-john-snow-health-zambia-limited-approval-and-exemption-order-2022",
+      "sections": 6,
+      "title": "Income Tax (John Snow Health Zambia Limited) (Approval and Exemption) Order, 2022",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2022/32/eng@2022-05-06/source.pdf",
+      "pdf_hash": "1b98567a43d66e8bf331da48762de735ace0c81ac48733b118c600ba8267176c",
+      "pdf_bytes": 289731,
+      "raw_pdf": "/sessions/adoring-admiring-fermat/mnt/corpus/raw/zambialii/si/2022/si-zm-2022-032-income-tax-john-snow-health-zambia-limited-approval-and-exemption-order-2022.pdf",
+      "record_path": "/sessions/adoring-admiring-fermat/mnt/corpus/records/sis/2022/si-zm-2022-032-income-tax-john-snow-health-zambia-limited-approval-and-exemption-order-2022.json"
+    },
+    {
+      "year": 2024,
+      "number": 65,
+      "status": "ok",
+      "record_id": "si-zm-2024-065-income-tax-gopa-infra-gmbh-approval-and-exemption-order-2024",
+      "sections": 12,
+      "title": "Income Tax (GOPA Infra GmbH) (Approval and Exemption) Order, 2024",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2024/65/eng@2024-10-17/source.pdf",
+      "pdf_hash": "1b66c392154e119134662763a93ee7383b76cf2c03dd86707de113a1ba4b2ba9",
+      "pdf_bytes": 3776199,
+      "raw_pdf": "/sessions/adoring-admiring-fermat/mnt/corpus/raw/zambialii/si/2024/si-zm-2024-065-income-tax-gopa-infra-gmbh-approval-and-exemption-order-2024.pdf",
+      "record_path": "/sessions/adoring-admiring-fermat/mnt/corpus/records/sis/2024/si-zm-2024-065-income-tax-gopa-infra-gmbh-approval-and-exemption-order-2024.json"
+    },
+    {
+      "year": 2025,
+      "number": 89,
+      "status": "ok",
+      "record_id": "si-zm-2025-089-income-tax-gopa-infra-gmbh-approval-and-exemption-order-2025",
+      "sections": 11,
+      "title": "Income Tax (GOPA Infra GmbH) (Approval and Exemption) Order, 2025",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2025/89/eng@2025-12-31/source.pdf",
+      "pdf_hash": "af3b08b5c55c68882959a7344d6c19198b515d4c9cbab9a30a64273c66c0527c",
+      "pdf_bytes": 325782,
+      "raw_pdf": "/sessions/adoring-admiring-fermat/mnt/corpus/raw/zambialii/si/2025/si-zm-2025-089-income-tax-gopa-infra-gmbh-approval-and-exemption-order-2025.pdf",
+      "record_path": "/sessions/adoring-admiring-fermat/mnt/corpus/records/sis/2025/si-zm-2025-089-income-tax-gopa-infra-gmbh-approval-and-exemption-order-2025.json"
+    },
+    {
+      "year": 2025,
+      "number": 92,
+      "status": "ok",
+      "record_id": "si-zm-2025-092-income-tax-konoike-construction-company-limited-approval-and-exemption-order-202",
+      "sections": 7,
+      "title": "Income Tax (Konoike Construction Company Limited) (Approval and Exemption) Order, 2025",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2025/92/eng@2025-12-31/source.pdf",
+      "pdf_hash": "cf3e32c1a98631121bbdc521194588db4dd2b4a1805ed2e2c904e449bb8b49f7",
+      "pdf_bytes": 373023,
+      "raw_pdf": "/sessions/adoring-admiring-fermat/mnt/corpus/raw/zambialii/si/2025/si-zm-2025-092-income-tax-konoike-construction-company-limited-approval-and-exemption-order-202.pdf",
+      "record_path": "/sessions/adoring-admiring-fermat/mnt/corpus/records/sis/2025/si-zm-2025-092-income-tax-konoike-construction-company-limited-approval-and-exemption-order-202.json"
+    }
+  ]
+}

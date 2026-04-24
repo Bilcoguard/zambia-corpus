@@ -1007,3 +1007,5 @@ are not re-invoked; future sis_corporate batches should inherit the
 regex form from `batch_0176.py`.
 - [2026-04-24T11:36:15Z] si/2019/025 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2019/25 batch=0179
 - [2026-04-24T11:38:03Z] si/2019/025 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2019/25 batch=0179
+- [2026-04-24T13:34:47Z] si/2017/043 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2017/43 batch=0183
+- [2026-04-24T13:35:14Z] si/2019/025 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2019/25 batch=0183
