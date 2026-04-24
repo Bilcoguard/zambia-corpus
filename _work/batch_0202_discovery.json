@@ -1,0 +1,406 @@
+{
+  "batch": "0202",
+  "phase": "discovery",
+  "started_at": "2026-04-24T23:08:42Z",
+  "completed_at": "2026-04-24T23:09:07Z",
+  "fetches_used": 5,
+  "fetch_end": 375,
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "alphabets": [
+    "B",
+    "M",
+    "P",
+    "S"
+  ],
+  "novel_total_pre_keyword": 59,
+  "novel_kept_post_keyword": 5,
+  "candidates": [
+    {
+      "year": 2016,
+      "number": 73,
+      "letter": "M",
+      "text": "movable property (security interest) (fees) regulations, 2016"
+    },
+    {
+      "year": 2016,
+      "number": 77,
+      "letter": "M",
+      "text": "movable property (security interest) (general) regulations, 2016"
+    },
+    {
+      "year": 2002,
+      "number": 40,
+      "text": "pension fund (annual report) regulations, 2002",
+      "letter": "P"
+    },
+    {
+      "year": 1988,
+      "number": 33,
+      "text": "the building societies (authorised investments) order, 1988",
+      "letter": "B"
+    },
+    {
+      "year": 1986,
+      "number": 29,
+      "text": "bank of zambia act (commencement) order, 1986",
+      "letter": "B"
+    }
+  ],
+  "novel_pre_keyword_sample": [
+    {
+      "year": 1986,
+      "number": 29,
+      "text": "bank of zambia act (commencement) order, 1986",
+      "letter": "B"
+    },
+    {
+      "year": 1988,
+      "number": 33,
+      "text": "the building societies (authorised investments) order, 1988",
+      "letter": "B"
+    },
+    {
+      "year": 1981,
+      "number": 27,
+      "text": "lusaka district council markets (establishment) order, 1981",
+      "letter": "M"
+    },
+    {
+      "year": 1983,
+      "number": 42,
+      "text": "kaputa district council (market regulations) (application) order, 1983",
+      "letter": "M"
+    },
+    {
+      "year": 1985,
+      "number": 41,
+      "text": "mwense district council (market regulation) (application) order, 1985",
+      "letter": "M"
+    },
+    {
+      "year": 2017,
+      "number": 77,
+      "text": "national markets and bus stations development fund regulations, 2017",
+      "letter": "M"
+    },
+    {
+      "year": 1991,
+      "number": 30,
+      "text": "medical aid societies and nursing homes (exemption, establishment and operation) (authorisation fees) order, 1991",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 10,
+      "text": "medicines and allied substances (agro-veterinary shops) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 11,
+      "text": "medicines and allied substances (dispensing certificates) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 12,
+      "text": "medicines and allied substances (health shops) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 38,
+      "text": "medicines and allied substances (fees) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2019,
+      "number": 80,
+      "text": "medicines and allied substances (expert advisory committee) regulations, 2019",
+      "letter": "M"
+    },
+    {
+      "year": 2017,
+      "number": 58,
+      "text": "medicines and allied substances (certificate of registration) regulations, 2017",
+      "letter": "M"
+    },
+    {
+      "year": 2017,
+      "number": 57,
+      "text": "medicines and allied substances (importation and exportation) regulations, 2017",
+      "letter": "M"
+    },
+    {
+      "year": 2021,
+      "number": 59,
+      "text": "metrology (certification of competence) regulations, 2021",
+      "letter": "M"
+    },
+    {
+      "year": 2021,
+      "number": 55,
+      "text": "metrology (measuring instruments), regulations 2021",
+      "letter": "M"
+    },
+    {
+      "year": 2021,
+      "number": 56,
+      "text": "metrology (pre-packaged commodities),regulations, 2021",
+      "letter": "M"
+    },
+    {
+      "year": 2020,
+      "number": 52,
+      "text": "metrology (verification fees) regulations, 2020",
+      "letter": "M"
+    },
+    {
+      "year": 2022,
+      "number": 15,
+      "text": "ministerial and parliamentary offices (emoluments) (amendment) regulations, 2022",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 73,
+      "text": "movable property (security interest) (fees) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 77,
+      "text": "movable property (security interest) (general) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 1981,
+      "number": 46,
+      "text": "prohibited publication order",
+      "letter": "P"
+    },
+    {
+      "year": 1996,
+      "number": 33,
+      "text": "prohibited publication order, 1996",
+      "letter": "P"
+    },
+    {
+      "year": 2002,
+      "number": 40,
+      "text": "pension fund (annual report) regulations, 2002",
+      "letter": "P"
+    },
+    {
+      "year": 1993,
+      "number": 46,
+      "text": "pharmacy and poisons (fees) order, 1993",
+      "letter": "P"
+    },
+    {
+      "year": 2011,
+      "number": 46,
+      "text": "plant breeder's rights (forms and fees) regulations, 2011",
+      "letter": "P"
+    },
+    {
+      "year": 2020,
+      "number": 69,
+      "text": "plant pests and diseases (phytosanitary certification) regulations, 2020",
+      "letter": "P"
+    },
+    {
+      "year": 2020,
+      "number": 70,
+      "text": "plant pests and diseases (plant quarantine and phytosanitary service fees) regulations, 2020",
+      "letter": "P"
+    },
+    {
+      "year": 1996,
+      "number": 37,
+      "text": "plant pests and diseases (larger grain borer infested areas) (declaration) order, 1996",
+      "letter": "P"
+    },
+    {
+      "year": 2021,
+      "number": 109,
+      "text": "plant variety and seeds (amendment) regulations, 2021",
+      "letter": "P"
+    },
+    {
+      "year": 2018,
+      "number": 23,
+      "text": "plant variety and seeds regulations, 2018",
+      "letter": "P"
+    },
+    {
+      "year": 1991,
+      "number": 42,
+      "text": "preservation of public security (income tax act) (suspension) regulations, 1991",
+      "letter": "P"
+    },
+    {
+      "year": 2017,
+      "number": 55,
+      "text": "preservation of public security regulations, 2017",
+      "letter": "P"
+    },
+    {
+      "year": 2022,
+      "number": 14,
+      "text": "presidential (emoluments) (amendment) regulations, 2022",
+      "letter": "P"
+    },
+    {
+      "year": 1994,
+      "number": 6,
+      "text": "privatisation (political leaders and public officers) (bidding) regulations, 1994",
+      "letter": "P"
+    },
+    {
+      "year": 1993,
+      "number": 40,
+      "text": "privatisation (trade sales and management or employee buyouts) (sale tender) regulations, 1993",
+      "letter": "P"
+    },
+    {
+      "year": 1993,
+      "number": 41,
+      "text": "privatisation (sale or disposal of property) regulations, 1993",
+      "letter": "P"
+    },
+    {
+      "year": 1985,
+      "number": 46,
+      "text": "probation of offenders (application) notice, 1985",
+      "letter": "P"
+    },
+    {
+      "year": 1984,
+      "number": 2,
+      "text": "professional boxing and wrestling control (insurance) regulations, 1984",
+      "letter": "P"
+    },
+    {
+      "year": 1997,
+      "number": 50,
+      "text": "property transfer tax (exemption) order, 1997",
+      "letter": "P"
+    },
+    {
+      "year": 1985,
+      "number": 28,
+      "text": "property transfer tax (exemption) order, 1985",
+      "letter": "P"
+    },
+    {
+      "year": 2012,
+      "number": 16,
+      "text": "property transfer (exemption) order, 2012",
+      "letter": "P"
+    },
+    {
+      "year": 2021,
+      "number": 61,
+      "text": "protection of traditional knowledge, genetic resources and expressions of folklore regulations, 2021",
+      "letter": "P"
+    },
+    {
+      "year": 2021,
+      "number": 114,
+      "text": "provincial and district boundaries (division) (amendment) (no. 2) order, 2021",
+      "letter": "P"
+    },
+    {
+      "year": 1989,
+      "number": 24,
+      "text": "self-management enterprises (declaration) order, 1989",
+      "letter": "S"
+    },
+    {
+      "year": 1993,
+      "number": 3,
+      "text": "teaching service commission (delegation) directions, 1993",
+      "letter": "S"
+    },
+    {
+      "year": 2021,
+      "number": 76,
+      "text": "service commission (zambia correctional service commission) regulations, 2021",
+      "letter": "S"
+    },
+    {
+      "year": 2020,
+      "number": 102,
+      "text": "service commissions (civil service commission) regulations, 2020",
+      "letter": "S"
+    },
+    {
+      "year": 2023,
+      "number": 20,
+      "text": "small claims court (limit of jurisdiction) (liquidated claims) rules, 2023",
+      "letter": "S"
+    },
+    {
+      "year": 2009,
+      "number": 31,
+      "text": "small claims court rules, 2009",
+      "letter": "S"
+    },
+    {
+      "year": 2022,
+      "number": 12,
+      "text": "societies (amendment) rules, 2021",
+      "letter": "S"
+    },
+    {
+      "year": 2013,
+      "number": 44,
+      "text": "standards (compulsory standards) (chalk) (declaration) order, 2013",
+      "letter": "S"
+    },
+    {
+      "year": 2011,
+      "number": 32,
+      "text": "standards (compulsory standards) (declaration) order, 2011",
+      "letter": "S"
+    },
+    {
+      "year": 2017,
+      "number": 68,
+      "text": "standards (compulsory standards) (declaration) order, 2017",
+      "letter": "S"
+    },
+    {
+      "year": 2012,
+      "number": 49,
+      "text": "standards (compulsory standards)(fee) regulations, 2012",
+      "letter": "S"
+    },
+    {
+      "year": 2003,
+      "number": 41,
+      "text": "standards (lmports) (quality monitoring) regulations, 2003",
+      "letter": "S"
+    },
+    {
+      "year": 1993,
+      "number": 35,
+      "text": "pick-a-lot draw rules, 1993",
+      "letter": "S"
+    },
+    {
+      "year": 2021,
+      "number": 92,
+      "text": "statistics (national census) (declaration) order, 2021",
+      "letter": "S"
+    },
+    {
+      "year": 2024,
+      "number": 12,
+      "text": "subordinate courts (civil jurisdiction) rules, 2024",
+      "letter": "S"
+    }
+  ],
+  "curation_notes": "Dropped 1991/042 (Preservation of Public Security \u2014 not financial sec) and 1984/002 (Boxing & Wrestling \u2014 not financial insurance). Added 2016/073 and 2016/077 movable property (security interest) regulations from alphabet=M sample (filter missed because keyword \"securities\" is plural-only; \"security interest\" is the PACRA-Act-2010/15 / Movable Property (Security Interest) Act 2016/3 derivative subject of sis_corporate)."
+}

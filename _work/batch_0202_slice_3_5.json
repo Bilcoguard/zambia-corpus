@@ -1,0 +1,46 @@
+{
+  "batch": "0202",
+  "phase": "ingest",
+  "slice": [
+    3,
+    5
+  ],
+  "started_at": "2026-04-24T23:10:48Z",
+  "completed_at": "2026-04-24T23:11:09Z",
+  "fetch_start": 381,
+  "fetch_end": 385,
+  "results": [
+    {
+      "year": 1988,
+      "number": 33,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "the building societies (authorised investments) order, 1988",
+      "alphabet": "B",
+      "record_id": "si-zm-1988-033-the-building-societies-authorised-investments-order-1988",
+      "sections": 2,
+      "title": "The Building Societies (Authorised Investments) Order, 1988",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1988/33/eng@1988-02-12/source.pdf",
+      "pdf_hash": "bcdae648c73c02c17ba95a7d1d24f12e159b38e05255c0e45c53205c4c1367d3",
+      "pdf_bytes": 175251,
+      "raw_pdf": "/sessions/blissful-happy-planck/mnt/corpus/raw/zambialii/si/1988/si-zm-1988-033-the-building-societies-authorised-investments-order-1988.pdf",
+      "record_path": "/sessions/blissful-happy-planck/mnt/corpus/records/sis/1988/si-zm-1988-033-the-building-societies-authorised-investments-order-1988.json"
+    },
+    {
+      "year": 1986,
+      "number": 29,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "bank of zambia act (commencement) order, 1986",
+      "alphabet": "B",
+      "record_id": "si-zm-1986-029-bank-of-zambia-act-commencement-order-1986",
+      "sections": 2,
+      "title": "Bank of Zambia Act (Commencement) Order, 1986",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1986/29/eng@1986-02-14/source.pdf",
+      "pdf_hash": "cd89d3e37f9afa3f2e4ca97ea0d642a19ed751b6da0765b16ad967e2bb7f925b",
+      "pdf_bytes": 111098,
+      "raw_pdf": "/sessions/blissful-happy-planck/mnt/corpus/raw/zambialii/si/1986/si-zm-1986-029-bank-of-zambia-act-commencement-order-1986.pdf",
+      "record_path": "/sessions/blissful-happy-planck/mnt/corpus/records/sis/1986/si-zm-1986-029-bank-of-zambia-act-commencement-order-1986.json"
+    }
+  ]
+}

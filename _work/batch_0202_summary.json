@@ -1,0 +1,113 @@
+{
+  "batch": "0202",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_corporate",
+  "started_at": "2026-04-24T23:08:42Z",
+  "completed_at": "2026-04-24T23:11:12Z",
+  "discovery_fetches": 5,
+  "ingest_fetches": 10,
+  "fetches_used": 15,
+  "records_written": 5,
+  "targets_attempted": 5,
+  "results": [
+    {
+      "year": 2016,
+      "number": 73,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "movable property (security interest) (fees) regulations, 2016",
+      "alphabet": "M",
+      "record_id": "si-zm-2016-073-movable-property-security-interest-fees-regulations-2016",
+      "sections": 9,
+      "title": "Movable Property (Security Interest) (Fees) Regulations, 2016",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2016/73/eng@2016-10-28/source.pdf",
+      "pdf_hash": "20c244388d5443f5976a4b8d829f98f287d617f6bea12c0af6471ab9f8a85e00",
+      "pdf_bytes": 106603,
+      "raw_pdf": "/sessions/blissful-happy-planck/mnt/corpus/raw/zambialii/si/2016/si-zm-2016-073-movable-property-security-interest-fees-regulations-2016.pdf",
+      "record_path": "/sessions/blissful-happy-planck/mnt/corpus/records/sis/2016/si-zm-2016-073-movable-property-security-interest-fees-regulations-2016.json"
+    },
+    {
+      "year": 2016,
+      "number": 77,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "movable property (security interest) (general) regulations, 2016",
+      "alphabet": "M",
+      "record_id": "si-zm-2016-077-movable-property-security-interest-general-regulations-2016",
+      "sections": 47,
+      "title": "Movable Property (Security Interest) (General) Regulations, 2016",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2016/77/eng@2016-11-04/source.pdf",
+      "pdf_hash": "53694a80bfe87082fc3af7dd140350cd9a19df72a696a2dd168b3b1a7542c489",
+      "pdf_bytes": 303143,
+      "raw_pdf": "/sessions/blissful-happy-planck/mnt/corpus/raw/zambialii/si/2016/si-zm-2016-077-movable-property-security-interest-general-regulations-2016.pdf",
+      "record_path": "/sessions/blissful-happy-planck/mnt/corpus/records/sis/2016/si-zm-2016-077-movable-property-security-interest-general-regulations-2016.json"
+    },
+    {
+      "year": 2002,
+      "number": 40,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "pension fund (annual report) regulations, 2002",
+      "alphabet": "P",
+      "record_id": "si-zm-2002-040-pension-fund-annual-report-regulations-2002",
+      "sections": 2,
+      "title": "Pension Fund (Annual Report) Regulations, 2002",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2002/40/eng@2002-06-14/source.pdf",
+      "pdf_hash": "5cd5e3d99d16320d136658cfe1122ee8720a3e846186204515eda9968c985986",
+      "pdf_bytes": 914073,
+      "raw_pdf": "/sessions/blissful-happy-planck/mnt/corpus/raw/zambialii/si/2002/si-zm-2002-040-pension-fund-annual-report-regulations-2002.pdf",
+      "record_path": "/sessions/blissful-happy-planck/mnt/corpus/records/sis/2002/si-zm-2002-040-pension-fund-annual-report-regulations-2002.json"
+    },
+    {
+      "year": 1988,
+      "number": 33,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "the building societies (authorised investments) order, 1988",
+      "alphabet": "B",
+      "record_id": "si-zm-1988-033-the-building-societies-authorised-investments-order-1988",
+      "sections": 2,
+      "title": "The Building Societies (Authorised Investments) Order, 1988",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1988/33/eng@1988-02-12/source.pdf",
+      "pdf_hash": "bcdae648c73c02c17ba95a7d1d24f12e159b38e05255c0e45c53205c4c1367d3",
+      "pdf_bytes": 175251,
+      "raw_pdf": "/sessions/blissful-happy-planck/mnt/corpus/raw/zambialii/si/1988/si-zm-1988-033-the-building-societies-authorised-investments-order-1988.pdf",
+      "record_path": "/sessions/blissful-happy-planck/mnt/corpus/records/sis/1988/si-zm-1988-033-the-building-societies-authorised-investments-order-1988.json"
+    },
+    {
+      "year": 1986,
+      "number": 29,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "bank of zambia act (commencement) order, 1986",
+      "alphabet": "B",
+      "record_id": "si-zm-1986-029-bank-of-zambia-act-commencement-order-1986",
+      "sections": 2,
+      "title": "Bank of Zambia Act (Commencement) Order, 1986",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1986/29/eng@1986-02-14/source.pdf",
+      "pdf_hash": "cd89d3e37f9afa3f2e4ca97ea0d642a19ed751b6da0765b16ad967e2bb7f925b",
+      "pdf_bytes": 111098,
+      "raw_pdf": "/sessions/blissful-happy-planck/mnt/corpus/raw/zambialii/si/1986/si-zm-1986-029-bank-of-zambia-act-commencement-order-1986.pdf",
+      "record_path": "/sessions/blissful-happy-planck/mnt/corpus/records/sis/1986/si-zm-1986-029-bank-of-zambia-act-commencement-order-1986.json"
+    }
+  ],
+  "discovery_alphabets": [
+    "B",
+    "M",
+    "P",
+    "S"
+  ],
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "novel_total_pre_keyword": 59,
+  "novel_kept_post_keyword": 5,
+  "slices": [
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      5
+    ]
+  ]
+}
