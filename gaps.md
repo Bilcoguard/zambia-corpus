@@ -994,3 +994,14 @@ Construction Income Tax Exemption, 2019/59 Insurance Fidelity Fund
 Regulations. Action item: change the filter to use a word-boundary regex
 (e.g. r"\bpension") or a token-list approach before the next discovery
 sweep. Not fixing this tick — flagged for human review.
+
+## Batch 0176 — pension/suspension filter bug FIXED (2026-04-24T10:07:30Z)
+
+Confirmed fixed in `scripts/batch_0176.py`: `CORPORATE_KEYWORDS` is now a
+word-boundary regex `\b(?:compan(?:y|ies)|...|pension|...)\b`. Pages 7 & 8
+discovery surfaced 6 corporate candidates with zero "suspension→pension"
+false positives (verified: 2017/70, 2017/42, 2017/19, 2016/95, 2016/9,
+2016/52 — all genuine corporate regulation). The older scripts
+(`batch_0174.py`, `batch_0175.py`) still contain the substring filter but
+are not re-invoked; future sis_corporate batches should inherit the
+regex form from `batch_0176.py`.
