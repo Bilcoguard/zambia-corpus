@@ -1,0 +1,818 @@
+{
+  "id": "judgment-zm-2025-zmsc-20-zambia-v-nestl",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Zambia Revenue Authority v Nestlé Zambia Limited (APPEAL NO. 03/2021) [2025] ZMSC 20 (20 August 2025)",
+  "citation": "[2025] ZMSC 20",
+  "case_number": "",
+  "court": "Supreme Court of Zambia",
+  "delivery_date": "2025-08-20",
+  "parties": {
+    "appellant": [
+      "Zambia Revenue Authority"
+    ],
+    "respondent": [
+      "Nestlé Zambia Limited"
+    ]
+  },
+  "judges": [],
+  "cited_authorities": [],
+  "paragraphs": [
+    {
+      "number": "1",
+      "text": "Wilson Masauso Zulu v Avondale Housing Project Limited ( 1982) ZR\n172 (SC)"
+    },
+    {
+      "number": "2",
+      "text": "Savenda Management Services v Stanbic Bank Zambia Limited,\nSelected Judgment No.10 of 2018"
+    },
+    {
+      "number": "3",
+      "text": "W.T. Ramsay v Inland Revenue Commissioners [1982] AC 300"
+    },
+    {
+      "number": "4",
+      "text": "Inland Revenue Commissioners v Duke of Westminster [1936] AC 1"
+    },
+    {
+      "number": "5",
+      "text": "Ensign Tankers (Leasing) Ltd v Stokes (HM Inspector of Taxes) [1992]\nBTC 110"
+    },
+    {
+      "number": "6",
+      "text": "icholson v Morris (H.M. Inspector of Taxes) (1) (1973-1978) 51 TC 95"
+    },
+    {
+      "number": "7",
+      "text": "National Justice Compania Naveria SA v Prudential Assurance Co. Ltd\n(The Ikarian Reefer) QB [1993] 2 Lloyd's Rep 68"
+    },
+    {
+      "number": "8",
+      "text": "Brady (Inspector of Taxes) v Group Lotus Car Cos Pie & Another 1987\n(2) All ER 674"
+    },
+    {
+      "number": "9",
+      "text": "Deputy Commissioner of Income Tax, Circle -11 (1) v M/s. Adcock\nIngram Limited I.T. (TP). A No. 1039 & 1078/Bang/2015\nLegislation and Other Works referred to:"
+    },
+    {
+      "number": "1",
+      "text": "Income Tax Act, Cap. 323 SS. 97A, 29A (1), 106,"
+    },
+    {
+      "number": "2",
+      "text": "Income Tax Regulations of 2000 S.3(2)"
+    },
+    {
+      "number": "3",
+      "text": "Income Tax (Transfer Pricing) Regulations No.24 of 2018"
+    },
+    {
+      "number": "4",
+      "text": "British Acts Extension Act, Cap 10"
+    },
+    {
+      "number": "5",
+      "text": "English Law (Extent of Applications) Cap 11. of the Laws of Zambia."
+    },
+    {
+      "number": "6",
+      "text": "Arnold, B.J. et al, International Tax Primer, 2nd Edition"
+    },
+    {
+      "number": "7",
+      "text": "United Nations Manual on Transfer Pricing for Developing Countries"
+    },
+    {
+      "number": "8",
+      "text": "2010 OECD Guidelines\nIntroduction"
+    },
+    {
+      "number": "1",
+      "text": "When we heard this appeal, we sat with our brother, Kajimanga\nJS, who has since retired. This judgment is therefore, by the\nmajority. We regret the delay in delivery which was due to\ncircumstances beyond our control.\nJ2\nAppellant's appeal"
+    },
+    {
+      "number": "2",
+      "text": "The appellant, Zambia Revenue Authority (ZRA), appeals against\na decision of the Tax Appeals Tribunal (\"the Tribunal\"). The\nTribunal found that ZRA had justifiable grounds for initiating a\ntransfer pricing audit on the respondent, Nestle Zambia Limited\n(NZL). The Tribunal however, went on to determine that the\nassessment was wrongly arrived as ZRA used: (i) inappropriate\ntransfer pricing methods; and (ii) incomparable jurisdictions."
+    },
+    {
+      "number": "3",
+      "text": "This appeal by ZRA is directed against that determination.\nRespondent's Cross- appeal"
+    },
+    {
+      "number": "4",
+      "text": "The respondent, NZL, has equally cross- appealed against the\nTribunal's decision on two grounds. The first ground faults the\nTribunal for having found that NZL was a low risk distributor,\ncontending this is contrary to the weight of the evidence on\nrecord. The contention in the second ground is that the Tribunal\nexceeded its jurisdiction when it found that there were transfer\npricing issues requiring scrutiny and ordered ZRA to conduct a\nreassessment.\nJ3"
+    },
+    {
+      "number": "5",
+      "text": "For purposes of convenience only, we propose to first deal with\nthe main appeal and thereafter, proceed to consider the cross\nappeal. We will also for convenience continue referring to the\nappellant and the respondent respectively, as ZRA and NZL.\nBackground"
+    },
+    {
+      "number": "6",
+      "text": "NZL was incorporated sometime in 2010. It was specially\nestablished to be a distribution company for Nestle products. The\nproducts were intended to be purchased from other related\ncompanies around the globe. NZL operations were also financed\nthrough loans obtained from the said related entities/parties."
+    },
+    {
+      "number": "7",
+      "text": "It is worthy of note, that at the material time that NZL was\nincorporated, there was already in existence an established\npresence of Nestle products on the Zambian market from other\nindependent distributors. The Nestle products were therefore,\nwell known to the general public."
+    },
+    {
+      "number": "8",
+      "text": "After NZL had been trading on the market for about five years,\nZRA decided to undertake a transfer pricing audit on the said\ncompany. The ZRA decision to conduct an audit was prompted\nJ4\nby continuous nil profit that NZL was making and submitting on\nits tax returns."
+    },
+    {
+      "number": "9",
+      "text": "Accordingly, on 20th April, 2016 ZRA proceeded to issue an audit\nnotice to NZL. By that notice NZL was informed of the audit\nintended to be undertaken by ZRA for the period 2010 to 2014.\nTo that end, NZL was requested to make available to ZRA, specific\ndetailed information of its accounts, as well as master and local\nfiles, to assist with the said audit."
+    },
+    {
+      "number": "10",
+      "text": "The audit conducted on NZL revealed that NZL was being\nfinanced by its shareholders through debt, rather than equity.\nNZL was also found to be involved in various transactions with\nassociated or related entities or parties (entities) in its general\nadministration, service support, processing of management fees,\ndistribution licence agreements and supplying of Nestle\nproducts."
+    },
+    {
+      "number": "11",
+      "text": "It was also established that NZL had a huge volume of\ntransactions with the said related entities. Contrary to\ncircumstances suggesting good business, NZL was found to be\nmaking continuous losses from inception, for the period 2010 to\nJS\n2014. The further finding over the same period of time, was that\nof continuous net operating margins."
+    },
+    {
+      "number": "12",
+      "text": "Apparently, NZL in defence of its position that it was operating\nunprofitably, contended that it was facing competition from other\nwholesalers and retailers on the Zambian market. According to\nNZL, these traders were importing Nestle products directly from\nother countries. NZL profitability and growth were, as a result,\nnegatively impacted on account of accumulated overhead costs."
+    },
+    {
+      "number": "13",
+      "text": "The costs were said to be related to the running of its warehouse,\nroyalty payments for use of intellectual property and\nmanagement fees. NZL also claimed that it was importing 90% of\nNestle products from South Africa and the remaining 10% were\nsourced from Zimbabwe, Brazil and Switzerland. The products\nwere then marketed, sold and promoted, in a bid to advance the\nbrand."
+    },
+    {
+      "number": "14",
+      "text": "Further investigation and interviews held by ZRA in relation to\nthe audit revealed that, according to NZL, it was apparently,\nexperiencing losses due to 'the vagaries and challenges that\nravage corporate entities at their infancy stage due to operational\ncosts. ' ZRA found this explanation to be at variance with the\nJ6\ninitial reasons given by NZL, alluded to earlier in paragraph 12,\nthat the losses were due to competition with other parallel\nplayers, who were importing the same products from South\nAfrica into Zambia."
+    },
+    {
+      "number": "15",
+      "text": "On account of the disparity, ZRA rejected the reasons advanced\nby NZL for the loses. This was on the premise that, an\nuncontrolled and independent distributor such as NZL would not\naccept losses for five years running. As Nestle products were\nalready established on the Zambian market and had already\ngained traction, NZL should have performed better, despite\nhaving huge volumes of transactions with related entities."
+    },
+    {
+      "number": "16",
+      "text": "ZRA referred to the OECD Transfer Pricing Guidelines for\nMultinational Enterprises and Tax Administrations Regulations,\nfor the position that, when an enterprise is making losses whilst\ndoing business with profitable members of its MNE\n(Multinational Enterprise) group, this may suggest that the\ntransfer pricing should be examined. The objective for such\nexamination is to rule out the possibility of a scenario suggesting\nthat the loss-making enterprise, is not being dealt with on an\narm's length basis by its related entities.\nJ7"
+    },
+    {
+      "number": "17",
+      "text": "According to Arnold, B.J. et al, International Tax Primer, 2nd\nEdition, a transfer price is defined as a price set by a tax payer\nwhen selling to, buying from, or sharing resources with a related\nentity. The example given is where Company A, manufactures\ngoods in Country A and sells them to its related entity Company\nB, which is established in Country B. The price at which\nCompany A sells its goods to Company Bis known as a transfer\npnce."
+    },
+    {
+      "number": "18",
+      "text": "A transfer price is distinguishable from a market price, in that, a\nmarket price is set in the open market, for the transfer and sale\nof goods or services between unrelated persons or entities. The\nwriters state that, multinational companies often use transfer\npricing for sales and transfer of goods and services within their\ncorporate group."
+    },
+    {
+      "number": "19",
+      "text": "The arm's length principle or method simply stated, is that\ntransfer prices should be adjusted to reflect the prices that would\nhave been set between unrelated enterprises, acting\nindependently."
+    },
+    {
+      "number": "20",
+      "text": "In conducting its audit, ZRA's scope was to determine the arm's\nlength remuneration for the distribution activities of NZL, for the\nJS\nfiscal years 2010 to 2014. ZRA proposed to do this by\nbenchmarking NZL using 13 countries in Western Europe. These\ncountries were considered to be the most comparable, and their\noperating margins were lower than NZL's operating margins."
+    },
+    {
+      "number": "21",
+      "text": "The operating margin selected by ZRA as the most appropriate\nprofit level indicator for the benchmarking study it was\nundertaking, would be considered underestimated, as Zambia\nwas found to be a higher risk country than its European\ncounterparts."
+    },
+    {
+      "number": "22",
+      "text": "It was contended that ZRA could not have used the transaction\nby transaction method as it was difficult to do so without\ncomparable entities in the region against which NZL could be\nbenchmarked. Further, NZL had not provided information to ZRA\nabout its uncontrolled transactions with unrelated entities which\ncould be used as comparables."
+    },
+    {
+      "number": "23",
+      "text": "Granted that position, the only option available to ZRA was to\naggregate the transactions, as provided in the UN Manual of\nTransfer Pricing. According to ZRA, the said manual provides\nthat, where there are no internal comparables, it is justifiable to\nJ9\nuse entity level comparability, in order to aggregate the\ntransactions so as to arrive at arm's length range."
+    },
+    {
+      "number": "24",
+      "text": "Following the audit, the finding by ZRA was that there were no\njustifiable adverse economic conditions, inefficiencies or other\nlegitimate business reasons, for the losses incurred by NZL. On\nfurther analysis of the information, adjustments were made\nculminating into an assessment ofZMW13, 860, 103. 00 as gross\nincome tax payable by NZL."
+    },
+    {
+      "number": "25",
+      "text": "ZRA justified its adjustment due to the disproportionate debt to\nequity ratio. This was reflected in evidence which revealed that,\nNZL had less equity and invariably, did not have arm's length\nequity. This was against the recommendation of the OECD that\na company should have at least 10% minimum of the total value\nof the company in equity and not be thinly capitalised as was\nfound to be the case with NZL."
+    },
+    {
+      "number": "26",
+      "text": "Aggrieved with the ZRA findings, NZL appealed to the\nCommissioner General, who upheld the assessment made by\nZRA. That outcome is what prompted NZL to further appeal to\nthe Tax Appeals Tribunal (the Tribunal).\nProceedings before the Tribunal\nJlO"
+    },
+    {
+      "number": "30",
+      "text": "In dealing with the issues raised, grounds one and three were\nconsidered together by the Tribunal. Grounds four, five and six,\nto which we will revert, were dealt with separately."
+    },
+    {
+      "number": "31",
+      "text": "Starting with the issues raised in grounds one and three, the\nTribunal considered the points of objection raised by NZL, that\nthe benchmarking was erroneous, and against entities in\nEurope, that were not comparable to NZL. That ZRA also rejected\nthe transfer pricing analysis submitted by NZL without giving\nreason."
+    },
+    {
+      "number": "32",
+      "text": "Upon analysis of the evidence the Tribunal considered whether,\na wrong assessment had been undertaken by ZRA when it failed\nto test any of the NZL's transactions in order to assess whether\nthe latter, was compliant with the arm's length principle as\nenvisaged by law. The Tribunal also considered whether, ZRA\nfailed to objectively test the related party transactions against\nwhich the transfer pricing concerns were raised and, as result,\nmade assumptions and estimates that were unreasonable."
+    },
+    {
+      "number": "33",
+      "text": "The Tribunal referred to the Income Tax Act, Cap. 323 section\n97A , which recognises and permits transactions between or\namong related parties or entities if conducted at arms' length.\nJ12\nAccording to the Tribunal, the crux of NZL's appeal before it was\nwhether, ZRA was correct at law when it did not test each\ntransaction separately, but opted to aggregated the transactions\nas a way of determining compliance with the arm's length\nprinciple."
+    },
+    {
+      "number": "34",
+      "text": "The Tribunal considered regulation 12 (3) of the Income Tax\nRegulations of 2000, that set out the methods to be applied in\ntransfer pricing, stated as: (a) comparable uncontrolled price\nmethod, (b) resale price method, (c) cost plus method, (d)\ntransaction net margin method, or (e) transaction profit split\nmethod. Anchored on regulation12 (3), the Tribunal found that,\none of the cardinal steps to be applied in testing transactions for\narm's length compliance, is functional analysis. This analysis\nseeks to identify and compare the economically significant\nactivities and responsibilities undertaken, assets used and risks\nassumed. It was noted that this analysis is essential, irrespective\nof the transfer pricing method used."
+    },
+    {
+      "number": "35",
+      "text": "It was also noted that there were no comparables to be found\neither within the country or on the continent, against which the\ntransactions could be accurately tested and benchmarked. The\nJ13\nTribunal determined that, according to the OECD guidelines,\nbenchmarking involves, amongst other requirements: (i)\ndetermining the years to be looked into; (ii) an analysis of the\ncircumstances of the tax payer; (iii) understanding of the\ncontrolled comparables; (iv) a review of the existing internal\ncomparables; (v) determination of information on external\ncomparables; (vi) determination and making of comparability\nadjustments where possible; and finally, (vii) an interpretation of\nthe data collected."
+    },
+    {
+      "number": "36",
+      "text": "The Tribunal, nonetheless, also noted that although the process\nalluded to in paragraph 34, is considered good practice, it is not\ncompulsory. Any other search process may lead to identification\nof reliable comparables that may be acceptable since the\noutcome is said to be more important than the process. The\nreason being that, in itself, the process does not guarantee that\nthe outcome will be at arm's length."
+    },
+    {
+      "number": "37",
+      "text": "Having considered the whole of the evidence before it, the\nTribunal determined the issue as identified in paragraph 33, on\nthe premise that there was no legal requirement for NZL to\ncomply with the request by ZRA to furnish documents relating to\nJ14\ntransfer pricing information, as this was not provided for in the\nIncome Tax Regulations of 2000. There were, as a result, no\ninternal comparables by which the transactions could be\nmeasured. This is what informed ZRA's decision to aggregate the\ncont rolled transactions."
+    },
+    {
+      "number": "38",
+      "text": "The Tribunal then, proceeded to delve into whether, it was\npossible to test such controlled transactions for arm's length\ncompliance by aggregation. In that regard, it was noted that one\nof the key features of aggregation was that the transactions ought\nto be closely linked or continuous or have a close economic link\nin purpose, between or among, the controlled transactions."
+    },
+    {
+      "number": "39",
+      "text": "The finding was that for transactions to be aggregated, they\ncannot be segregated and where they are segregated, they cannot\nbe adequately evaluated on a standalone basis. The Tribunal\nagreed with ZRA, only to the extent that, if transactions are\nbenchmarked separately, they may not bring out the actual value\ncreated which the transactions would yield if placed together."
+    },
+    {
+      "number": "40",
+      "text": "The determination was however, that on the particular facts in\ncasu, the controlled transactions that were aggregated comprised\nof unrelated transactions with no close economic link or\nJlS\ncharacteristics as required and set out in the UN Manual on\nTransfer Pricing. The Tribunal had difficulty accepting how the\npurchase of finished products for example, could be linked or\nclosely related to payment of royalties, management services or\nshared services."
+    },
+    {
+      "number": "41",
+      "text": "The finding was that, bundling such transactions together for the\npurpose of aggregating, would be synonymous to bundling\ntransactions for products such as apples, bread, books and so\nforth. That doing so, would inevitably, produce inaccurate results\nin testing for adherence to the arm's length principle. The further\nfinding was that, the use of aggregation, coupled with the failure\nto test each transaction for arm's length adherence, produced\nresults that were not only erroneous but also excessive."
+    },
+    {
+      "number": "42",
+      "text": "For the reasons given, NZL succeeded on grounds one and three,\nthat the benchmarking was erroneous; and that ZRA did not give\nreasons why it rejected the transfer pricing analysis that NZL had\nsubmitted."
+    },
+    {
+      "number": "43",
+      "text": "On ground two, the allegation was that ZRA had based its\nassessment on the premise that NZL could not run at a loss since\nincorporation. The Tribunal found that although loss making is\nJ16\na risk factor to be considered when reviewing transfer pricing,\nthere was nothing wrong with ZRA proceeding with the audit\nquery. However, the Tribunal went on to find that, it was\nincorrect for ZRA to conclude that the loss making was as a result\nof non-compliance with the arm's length principle. Accordingly,\nNZL succeeded on this ground as well."
+    },
+    {
+      "number": "44",
+      "text": "The contention raised in ground four, was that ZRA had erred in\ncategorising NZL as a low risk distributor, when it was shown\nproof that it was in fact a full-fledged distributor, undertaking all\nsales and distribution functions and bearing of the risk. On the\navailable evidence, the Tribunal formed the view that Nestle\nZimbabwe exercised a huge amount of control over NZL. NZL\nreceived all manner of service support in different areas of its\nbusiness operations. There was very little NZL did on its own\nwithout direction and assistance of its related entities. The\nTribunal upheld ZRA's classification of NZL as a low risk\ndistributor and dismissed ground four of the appeal."
+    },
+    {
+      "number": "45",
+      "text": "In ground five, it was contended that ZRA had erred when it used\nbenchmarks that are neither comparable to the nature of NZL's\nbusiness in Zambia nor the macro-economic conditions. The\nJl 7\nTribunal reiterated that in as much as there is nothing wrong in\ntaking comparisons between transactions among related parties\nto those between independent parties, the key is understanding\nthat comparable does not mean identical. None of the differences\nbeing compared, if any, could materially affect the pnce or\nfinancial indicator being examined in the selected transfer\npricing method. The comparison is about the situations of the\ntransactions. The focus should therefore, not be solely on the\npnce."
+    },
+    {
+      "number": "46",
+      "text": "Against that backdrop that the issue in benchmarking involves\nsituational comparability, the Tribunal found that ZRA's use of\nbusinesses in Europe to benchmark NZL was disproportionate.\nThat this is what led to an inaccurate transfer pricing\nadjustment.\n4 7. Lastly, regarding ground six of the appeal, by which ZRA was\nfaulted for having added back unrealised foreign exchange losses\nthat were attributed to loans, when the same were not included\nas expenses in NZL's financial statements. The Tribunal\ndetermined that section 29A ( 1) of the Income Tax Act,\nprovides for which foreign currency exchange gains or losses\nJ18\nother than those of a capital nature, shall be assessable or\ndeductible, as the case may be."
+    },
+    {
+      "number": "48",
+      "text": "In that regard, ZRA could only make adjustment for foreign\nexchange gains or losses, if it could demonstrate that NZL had\nclaimed these exchange gains or losses, which on the evidence\nbefore it, the Tribunal found ZRA failed to do. The adding back\nof unrealised foreign exchange losses was therefore, reversed and\nground six succeeded."
+    },
+    {
+      "number": "49",
+      "text": "NZL having succeeded on all the grounds save for ground four, it\nwas found that the assessment by ZRA that NZL was liable to\npay a sum of ZMW13, 860, 103. 00 was wrongly arrived at, as\nthe assessment was based on inaccurate transfer pricing\nmethod, disproportionate comparables, and an unjustified add\nback of unrealised exchange losses. Accordingly, the Tribunal set\naside the assessment and ordered that a reassessment be\nconducted within 180 days.\nAppellant's Appeal to this Court"
+    },
+    {
+      "number": "50",
+      "text": "Dissatisfied with the findings of the Tribunal ZRA launched an\nappeal to this Court on five grounds, that were couched in the\nJ19\nfollowing terms:\n\"1. The tax Tribunal erred in law and fact when it shifted the\nburden of proof by requiring the appellant to prove that there\nwas something wrong with the respondent's transfer pricing in\nits transactions with the related parties which resulted in the\nrespondent's loss making."
+    },
+    {
+      "number": "2",
+      "text": "The tax Tribunal erred in law and in fact when it held that the\ntransactions between the respondent and in its related parties\ncould not be aggregated but should have been tested\nindividually contrary to both the 2010 OECD Guidelines, the\nUnited Nations Manual on Transfer Pricing for Developing\nCountries and the evidence tendered at trial."
+    },
+    {
+      "number": "3",
+      "text": "The tax appeals Tribunal erred in law and in fact when it held\nthat at the time the respondent entered into the transactions\nwhich were subject of Transfer Pricing there was no legal\nrequirement for the respondent to document its transfer pricing\ninformation and, on request by the appellant to provide such\ntransfer pricing documentation to the appellant for purposes of\ndemonstrating that the actual conditions of the respondent's\nrelated party transactions were consistent with the arm's\nlength conditions."
+    },
+    {
+      "number": "4",
+      "text": "The tax appeals Tribunal erred in law and in fact when, having\nproperly acknowledged the importance of a functional analysis\nas part of the comparability analysis to determine the arm's\nlength condition including price and further having correctly\ncharacterised the respondent as a low risk distributor, the\nTribunal failed to recognise that the characterisation of the\nrespondent as a low risk distributor was crucial in selecting the\ntested party and the appropriate transfer pricing method."
+    },
+    {
+      "number": "5",
+      "text": "The tax appeals Tribunal erred in law and in fact when, despite\nhaving correctly found as a fact that there were no internal\ncomparables in Zambia and on the African Continent, it still\nwent ahead to hold that the appellant used benchmarks that are\nneither comparable to the nature of the respondent's business\nJ20\nin Zambia nor the macro and micro economic conditions in\nZambia, thereby contradicting itself and potentially tendering\nTransfer Pricing compliance in Zambia nugatory\".\nAppellant's Arguments in support of the Appeal"
+    },
+    {
+      "number": "51",
+      "text": "For purposes of convenience, we will, in dealing with the appeal\nand cross appeal, continue referring to the appellant, Zambia\nRevenue Authority, as ZRA and the respondent, Nestle Zambia\nLimited, as NZL."
+    },
+    {
+      "number": "52",
+      "text": "Heads of argument 1n support of the appeal were filed by\nCounsel for ZRA on 22nd February, 2021. On ground one of the\nappeal, it was argued that the position of the law in our\njurisdiction is that if the tax authority has assessed a taxpayer\nfor a sum of money, the burden lies on the taxpayer to show that\nthe assessment is an excessive amount. Counsel illustrated the\nargument by examining this principle in three jurisdictions\nbeing, the United States of America (USA), the United Kingdom\n(UK) and our own Republic of Zambia."
+    },
+    {
+      "number": "53",
+      "text": "Starting with the USA, reference was made to the cases of\nSunstrand Corp. v Commissioner, 96 T. C. 226, 353-54 (1992);\nSeagate Tech Inc. v Commissioner, 102 T. C.149. 164 (1994);\nAmazon. Com v. Commissioner, 148 T. C. No. 8 at page 68 (2017)\nJ21\n107 T. C. and Welch v Helvering 290 U.S. 111) 115 (1933). Counsel\nsubmitted that, it was in those cases held that, determinations\nof the Internal Revenue Services (IRS) are generally presumed\ncorrect and taxpayers bear the burden of proving them\nerroneous."
+    },
+    {
+      "number": "54",
+      "text": "In the United Kingdom, this point was said to have been made\nclear in the case of Nicholson v Morris (HMIT) (1977) 51 TC 95,\nwhere the Court held that even where an amount assessed is\nmanifestly incorrect, it is the taxpayer that bears the onus to\nprovide the correct amount and not the duty of the revenue\nauthority as it would be a very onerous and costly exercise."
+    },
+    {
+      "number": "55",
+      "text": "In our jurisdiction, Counsel relied on the well-known position as\nstated in the case of Wilson Masauso Zulu v Avondale Housing\nProject Limited1, that he who alleges must prove the allegation.\nSection 106 of the Income Tax Act was further cited in support\nof the proposition that, every assessment by the Commissioner\nGeneral under the Act, shall stand good unless proved otherwise\nby the person assessed, upon objection or on appeal."
+    },
+    {
+      "number": "56",
+      "text": "Counsel urged that section 106 must be read in relation with\nsection 97A (2), as a taxpayer is not only required to\nJ22\ndemonstrate that the assessment was wrong, but to also\ncompute its taxable income based on the arm's length standard."
+    },
+    {
+      "number": "57",
+      "text": "It was contended that the Tribunal had departed from its own\nprevious decisions stating that the onus is on a tax payer to\ndischarge or disprove a tax assessment, failing which it shall\nstand valid. The case of Twikatane African Art Company Limited\nv Zambia Revenue Authority 1999/ RAT/ 36 was amongst\nnumerous other decisions of the Tribunal, cited in support of the\nsubmission that, in casu, the Tribunal had misdirected itself\nwhen it shifted the burden of proof on to the tax authority, ZRA."
+    },
+    {
+      "number": "58",
+      "text": "On ground three of the appeal, it was submitted that at the time\nZRA conducted an audit on NZL, there was in fact a legal\nrequirement to document transfer pricing. This documentation\nwas for purposes of demonstrating that the actual conditions of\nthe NZL related party transactions were consistent with the arm's\nlength conditions."
+    },
+    {
+      "number": "59",
+      "text": "On the findings of the Tribunal that there was no legal\nrequirement for ZRA to request for transfer pricing information,\nreference was made to the Income Tax Act (Transfer Pricing)\nRegulations No. 18 of 2018 and section 47(1) of the Income\nJ23\nTax Act. The latter, provides that the Commissioper General may\nby notice in writing require any person to furnish him within a\nreasonable specified period, further returns or particulars in\nrelation to any matter contained in a return under the Act. The\nrequest could also be in relation to any transactions or matters\nthat appear to the Commissioner General, to be relevant to the\nascertainment of the income of that person for tax purposes."
+    },
+    {
+      "number": "60",
+      "text": "Section 58 (a) of the same Act further empowers the\nCommissioner General to request any person to produce for\nexamination, accounts, books of accounts, and any other\ndocuments as specified."
+    },
+    {
+      "number": "61",
+      "text": "It was argued that ZRA's letter to the NZL of 20th April, 2016 was\ncategorical as to the information required. NZL failed to provide\nall the requested information which would have assisted ZRA in\nselecting the appropriate comparables and the appropriate\ntransfer pricing method. That, lack of mention of the term 'local\nfile' in the law, does not negate the statutory authority conferred\non the Commissioner General to request for any information from\na tax payer, to enable the Commissioner General verify the\ncorrect income for tax purposes.\nJ24"
+    },
+    {
+      "number": "62",
+      "text": "Counsel submitted that the appropriate response to a taxpayer\nthat is evasive and fails to provide necessary information is the\none found in the case of Nicholson v Morris (HMIT) (1977) 51 TC"
+    },
+    {
+      "number": "95",
+      "text": "It was in that case held that, it is the duty of every taxpayer\nto make his own return. Where there is failure to support such\nreturn or to come completely clean and the taxpayer gives no\nevidence, he cannot be surprised if he is lumbered with more\nthan he in fact received.\nRespondent's Arguments in opposition to the appeal"
+    },
+    {
+      "number": "63",
+      "text": "Counsel for NZL filed Heads of argument on 7th April, 2021 1n\nwhich he took no issue on the settled position of the law that it\nis indeed the party who alleges who must prove the allegation.\nThe argument by Counsel for NZL was rather that the Tribunal\nnever shifted the burden of proof to ZRA. It merely considered\nthe facts and evidence led by both parties and made findings on\nissues raised by ZRA. In the event, the Tribunal cannot be faulted\nfor finding that the evidence adduced by NZL does not show any\nwrong doing on its part."
+    },
+    {
+      "number": "64",
+      "text": "Counsel equally relied on our decision Wilson Masauso Zulu1 for\nthe contention that, a trial court has a duty to adjudicate upon\nJZS\nevery aspect of the suit between the parties, so that every matter\nin controversy is determined in finality. It was argued that before\nthe Tribunal made the findings allegedly, shifting the burden of\nproof, it made a finding that NZL having incurred losses for five\nyears was not, in itself, an indictment of the ZRA's wrong findings\nwith regards to the NZL's transfer pricing. Similarly, the\nTribunal's finding on the benchmark used by ZRA to assess NZL\nwas made after assessing the evidence of both parties."
+    },
+    {
+      "number": "65",
+      "text": "The submission on the point was that, the obligation to\ndischarge and prove that the amounts assessed by ZRA were\nexcessive, was discharged by the NZL. NZL had filed its annual\ntax returns for the period under assessment, as a self-declaration\nof its tax affairs. All documentation requested by ZRA was\nprovided by NZL. This position was acknowledged by a witness\nof ZRA who stated that they had carried out tests on all related\nparty transactions. That evidence goes to confirm that all\nrequested documentation was provided to the ZRA, which\nassertion was not challenged by ZRA."
+    },
+    {
+      "number": "66",
+      "text": "It was submitted that ZRA admitted to having received NZL's\ndocumentation on related party transactions together with the\nJ26\nmaster file. ZRA, erroneously, and without explanation,\ndisregarded that documentation and substituted NZL's transfer\npricing documents and methodology with that of its own."
+    },
+    {
+      "number": "67",
+      "text": "It was argued that, in accord with the OECD Transfer Pricing\nGuidelines for Multinational Enterprises and Tax Administrators,\nit was incumbent on ZRA to analyse NZL's documentation on\ntransfer pricing. In the event that it did not agree with the same,\nZRA should have provided reasons for rejecting the methodology\napplied, or determination of non-arm's length compliance to the\ntransactions, before it proceeded to use its own methodology."
+    },
+    {
+      "number": "68",
+      "text": "The submission was that, once all the necessary documentation\nas proof of the arm's length nature of the transactions was\nprovided by NZL, the burden of proof shifted to ZRA to explain\nits rejection of NZL's documentation. This is the obligation that\nZRA failed to discharge."
+    },
+    {
+      "number": "69",
+      "text": "In response to ground three that at the material time, there was\nno legal obligation on the tax payer to document its transfer\npricing information, the submission on the part of NZL was that,\nthis ground is misconceived as the Tribunal did not err in its\nfindings. NZL maintained that it provided ZRA with its transfer\nJ27\npnc1ng documentation in the form of the master file, which\ncontained data for all related party transactions within its group.\nThe Tribunal had correctly determined that ZRA did not query\nthe master file upon production and that ZRA, in fact, relied\nheavily on it. Further, that besides the master file, ZRA made no\nother demands for other information and it was in fact provided\nwith all the information needed for assessment."
+    },
+    {
+      "number": "70",
+      "text": "NZL submitted that the Tribunal was on firm ground when it\nfound that the law was inadequate at the time as did not require\nMultinational Companies (MNCs) to maintain a local file. ZRA\nhad admitted that the Income Tax (Transfer Pricing)\nRegulations No. 24 of 2018 specified the information that must\nbe kept by MNCs in the local file. These regulations only came\ninto effect after the fact and did not apply at the material time.\nPrior to the said regulations, the only requirement by law, was\nfor MNCs to transact at arm's length with their related entities."
+    },
+    {
+      "number": "71",
+      "text": "NZL contested ZRA's submission that sections 47 (1) and 58 (a)\nof the Income Tax Act, can be interpreted to mean that NZL\nwas expected to maintain records that it had no obligation to\nmaintain. According to NZL, the only reasonable interpretation\nJ28\nof section 47(1) in relation to section 97A of the Act is that, a\ntax payer is expected to have documentation that can show the\narm's length nature of its transactions."
+    },
+    {
+      "number": "72",
+      "text": "NZL argued that it would be absurd for the sections to be\ninterpreted to mean that the Commissioner General can ask for\ninformation which a tax payer is not legally obligated to keep.\nThe submission was that, the cases cited by ZRA in support of\nthis ground are irrelevant. The Tribunal was on firm ground\nwhen it held that there was no legal requirement for NZL to\nmaintain a local file.\nSubmissions at the Hearing of the appeal"
+    },
+    {
+      "number": "73",
+      "text": "When the appeal came up for hearing, learned Counsel for ZRA\nsought to augment his arguments by placing reliance on foreign\nauthorities that were filed into Court on 20th April, 2021."
+    },
+    {
+      "number": "74",
+      "text": "In augmenting grounds one and three, Counsel cited the South\nAfrican case of ABC Pty Limited v Commissioner for the South\nAfrican Revenue Service, before the Tax Court of South Africa, in\nwhich the respondent raised an additional assessment on 11th\nJanuary, 2016. This was intended to effect an adjustment made\nto the applicant's taxable income relating to transactions it\nJ29\nconsidered not to have been conducted at arm's length. Counsel\nargued that the circumstances were similar to the transfer\npricing audit that was being undertaken by ZRA on NZL in the\nappeal in casu."
+    },
+    {
+      "number": "75",
+      "text": "The submission, in that regard, was that like in the South African\ncase, the request for information prior to the audit was made\npursuant to the principal Act. In our case, these are sections 48\nand 58 of the Income Tax Act. It was not any regulations as\nheld by the Tribunal in its finding that there were no regulations\nin place compelling NZL to store information in a local file. In the\nSouth African case, it was found that the duty to keep documents\nrests on the tax payer and that it is in its own best interests to\ndocument its transactions."
+    },
+    {
+      "number": "76",
+      "text": "The further argument was that, NZL had failed to prove its\ntransactions were at arm's length as required by section 97 of\nthe Income Tax Act. Its fate was, as a result, sealed. It was\nsubmitted that the approach of the court in the South African\ncase is in consonance with our holding in the Savenda\nManagement Services v Stanbic Bank Zambia Limited2 where\n,\nwe stated that a judge must interrogate the submissions of a\nJ30\nparty and not merely reproduce them. Counsel further submitted\nthat, one of the documents requested for was a local file, but the\nTribunal was of the view that this was not provided for in the\nregulations at the time the request was made. It was contended\nthat what the 2018 regulations provided for was simply\nnomenclature, but that the requirements remained the same and\ncould be requested under the Act."
+    },
+    {
+      "number": "77",
+      "text": "The other issue that learned Counsel for ZRA addressed was the\nburden of proof. It was submitted that the Tribunal had erred\nwhen it had found that ZRA had failed to prove that NZL had not\ntransacted at arm's length. A Nigerian case, Prime Plastichem v\nFederal Inland Revenue Service was cited for the holding that, the\nburden of proof lies on a tax payer to prove that the transaction\nwas at arm's length. It was submitted that the finding of the\nTribunal in this matter, that the burden of proof lay on ZRA, the\ntax authority, was fundamentally flawed.\n7 8. We were directed to page 10 of the said case and page 6 7 of the\nUN Manual on Transfer Pricing which provides that the burden of\nproof in tax matters typically fallows domestic rules of a\nparticular country. The submission was that, the issue of burden\nJ31\nof proof in this jurisdiction is well settled and not up for debate.\nThe onus in the matter lay on NZL to prove that its transactions\nwith related parties, and the services rendered, were at arm's\nlength, as well as, when these services were rendered and by\nwhom."
+    },
+    {
+      "number": "79",
+      "text": "The case of W. T. Ramsay v Inland Revenue Commissioners3,\nwas relied upon in which the tax payer company had sold land\nand realized a chargeable gain for the sole purpose of reducing\nthe amount of capital gains tax payable. This was through a\nscheme known as the capital loss scheme that was designed to\ncreate artificial capital losses on share transactions so as to set\noff against chargeable gains, with the tax payer paying little to\nno tax, as a result. In the earlier English case of Inland Revenue\nCommissioners v Duke of Westminster4 this was said to be a\ngenuine scheme. However, under the recent 'step doctrine' as\ndeveloped in the United States, which allows for considerations\nof a scheme or transaction as a whole and not a step by step\nexamination, the House of Lords found that, although separate\nsteps were genuine and had to be accepted under the\nWestminster doctrine, the court could on the basis of the findings\nJ32\nmade and its own analysis, consider the scheme as a whole. It\nwas not confined to a step by step examination of the\ntransactions made."
+    },
+    {
+      "number": "80",
+      "text": "The submission was that, where a taxpayer has engaged in a\nseries of transactions, if those transactions were intended to\navoid taxation, they will be collapsed into a single composite unit\nand then taxed accordingly."
+    },
+    {
+      "number": "81",
+      "text": "Counsel also referred us to a Canadian case in OSFC Holdings\nLtd. v Canada, 2001 DTC 5471, in which the appellant had\nappealed to the Tax Court of Canada. The appeal was from an\nassessment of the Minister of National Revenue, disallowing a\nnon-capital loss deduction in the computation of the appellant's\nincome in its 1993 taxation year, and the deduction of a related\nnon-capital loss. Professor Krishna explained the step\ntransaction in the following words:\n\" ... for the purpose of the GAAR (general anti-avoidance rules) a series\nof transactions: refers to the integration of individual and separate\nsteps into a composite transaction. The linkage of the separate steps\ninto a series results from their inter-dependence and the manner in\nwhich the transactions are structured\"."
+    },
+    {
+      "number": "82",
+      "text": "Learned Counsel for ZRA argued that, since the step transaction\napplies in the United States, United Kingdom and Canada, it also\nJ33\napplies in this jurisdiction by virtue of Article 7 of the\nConstitution, The British Acts Extension Act, Cap. 10, and\nEnglish Law (Extent of Application) Act, Cap. 11 of The Laws\nof Zambia. He further referred to Statutory Instrument No. 20\nof 2000, regulation 3 (2) which provides that:\n\"For the purpose of subsection (3) of section ninety-seven C, a\nseries of arrangements shall not be prevented from being\nregarded as a series of arrangements by means of which\nconditions have been made or imposed as between any two\npersons by reason of either or both of the following matters: (a)\nthat there is no arrangement in the series to which both those\npersons are parties; and (b) that there is one or more\narrangements in the series to which neither of those persons is\na party\"."
+    },
+    {
+      "number": "83",
+      "text": "Counsel argued that in all the cases brought to our attention, the\ntaxpayers were engaging in a series of transactions trying to\navoid taxation, but the Courts decided to collapse all the\ntransactions and then regard them as a composite unit, thus\nallowing the authority to tax them accordingly."
+    },
+    {
+      "number": "84",
+      "text": "Reference was made to the three tests used 1n the step\ntransaction doctrine, being (i) the mutual interdependence test;\n(ii) end result test; and (iii) binding commitment test; which tests,\napparently, need not be used at the same time.\nJ34"
+    },
+    {
+      "number": "85",
+      "text": "In reference to the mutual dependency test, Counsel explained\nthat in relying on this test, the Court will look at whether, the\ntransactions are mutually interdependent. In applying the test to\nthe case in casu, the controlled transactions considered, such as\nroyalties, purchases and loans, it was submitted that the same\nare connected. The reason was that the products sold are\npatented. When purchased, one eventually has to enter licensing\nto pay for the royalties."
+    },
+    {
+      "number": "86",
+      "text": "The other case refe rred to was Ensign Tankers (Leasing) Ltd v\nStokes (HM Inspector of Taxes)5 in which Lord Wilberforce was\nquoted in the Westminster case, where courts are cautioned not\nto consider a document or transaction in blinkers, isolated from\nany context to which it belongs. If it can be deduced that a\ndocument or transaction was intended to have effect as part of a\nnexus or series of transactions, or an ingredient of a wider\ntransaction, there is nothing in the doctrine to prevent it from\ndoing so. Proceeding in that manner, is not to prefer form to\nsubstance or substance to form. It is rather, the task of the court\nto ascertain the legal nature of any transaction to which it is\nsought to attach a tax or a tax consequence. Where it emerges\nJ35\nfrom a series or combination of transactions intended to operate\nas such, it is that series or combination which may be regarded."
+    },
+    {
+      "number": "87",
+      "text": "Counsel submitted that the role of the court is to interpret a\ndocument before it and consider whether the vanous\ntransactions such as purchases and royalties are interdependent\nand what the end result is. It was submitted that there was a\nsignificant departure from the position in the Westminster case\nto that obtaining in the Ramsey case. That the House of Lords\nhad taken the stance that, although it appeared that the courts\nwere legislating beyond their sphere, the courts were not obliged\nto stand still and do nothing as the facts in each case must be\nestablished and a legal analysis made in these tax aggressive\nactivities."
+    },
+    {
+      "number": "88",
+      "text": "In that regard, Counsel relied on the reasoning of Lord Geoff of\nChieveley, who stated that there is a fundamental difference\nbetween tax mitigation and unacceptable tax avoidance. The\nformer involved the taking advantage of the law to plan one's\naffairs so as to minimise the incidence of tax, whilst the latter,\ntypically involves the creation of complex artificial structures by\nJ36\nwhich a taxpayer conJures of thin rur a loss or a gain or\nexpenditure which would have never existed."
+    },
+    {
+      "number": "89",
+      "text": "In relating the said legal arguments to the case casu, now\nin\nbefore us, Counsel for ZRA argued that NZL claimed to have been\nmaking losses for five years yet at group level profits were being\nmade. It was submitted that, the so-called losses were self\ninflicted and not actually incurred. He went on to underscore the\npoint that, a taxpayer has an obligation to furnish information\nand failure to do so, places a revenue authority in a precarious\nposition as they must guess and such a tax payer should not\ncomplain."
+    },
+    {
+      "number": "90",
+      "text": "Counsel cited the case of Nicholson v Morris (H.M. Inspector\nof Taxes)6 for the further submission that the onus is on the\ntaxpayer to show when an assessment is wrong, as it is the\ntaxpayer who has intimate knowledge of the transaction and is\nin the position to provide the right answer."
+    },
+    {
+      "number": "91",
+      "text": "According to Counsel, it is idle for any taxpayer to say to the\nrevenue authority that, 'somewhere hidden in your vaults is the\nright answer go and dig them out of the vaults.' Counsel further\nalluded to and placed emphasis on the case of National Justice\nJ37\nCompania Naveria SA v Prudential Assurance Co. Ltd (The\nIkarian Reefer)7, which he submitted, was important for its\npronouncement on the duties of an expert witness. That expert\nevidence presented to the Court should be seen to be\nindependent and uninfluenced as to form or content by the\nexigencies of litigation."
+    },
+    {
+      "number": "92",
+      "text": "It was Counsel's contention that the testimony of the expert\ncalled to testify by NZL was highly flawed, such that even the\nTribunal found that part of the factual information given was\ninaccurate. Counsel urged for rejection of the NZL's contention\nthat, as ZRA did not call its own expert witness, the evidence of\nNZL's expert witness had to be admitted by this Court. It was\nargued that contrary to the Ikarian Reefer case, irrespective of\nhis/her competence, the evidence of an expert cannot usurp the\npowers of the court. The fact that NZL's expert had tendered\nevidence, did not mean that the Tribunal had to automatically\naccept it. The Tribunal was duty bound to interrogate such\nevidence."
+    },
+    {
+      "number": "93",
+      "text": "Lastly, on ground five, when asked to comment on functional\nanalysis, Counsel for ZRA responded that it refers to a situation\nJ38\nwhere a tax payer or tax authority, analysed the functions, assets\nemployed and risks of an entity. He argued that, this was the\nreason that ZRA used comparables from Western Europe. The\nfocus was on the function the entities performed and not the age\nof the entities or the length of time spent in business."
+    },
+    {
+      "number": "94",
+      "text": "The net effect was said to be that if a particular business entity\nperforms routine functions, employs the same assets, assumes\nroutine risks, then at the end of the day, they would have routine\nprofits. An example given was that if you assume higher risks\nand employ capital intensity, it is expected that you must be\ncompensated for the investment that you have made,\ncommensurate with assets employed."
+    },
+    {
+      "number": "95",
+      "text": "On the question of comparables, Counsel maintained the\nposition that there were no comparables in Zambia or in the sub\nSaharan Africa. He conceded that the comparables picked had a\ndifferent economic situation to that obtaining in Zambia, but\nasserted that alternatives had to be found outside the continent.\nThis was the reason ZRA had sourced comparables in Western\nEurope, just like NZL itself had used comparables from Asia\nOceanic countries. He submitted that it was inevitable that both\nJ39\nparties had to move outside the continent to find comparables\nand NZL could not turn around and have issue with ZRA doing\nthe same."
+    },
+    {
+      "number": "96",
+      "text": "In his response, Counsel for NZL relied on the heads of argument\nfiled on record. His brief oral augmentation was that, the cases\nrelied on by Counsel for ZRA were not on all fours with the\ncircumstances and the facts of the appeal before this Court. He\nnoted that his counterpart did not specifically zero in on specific\nportions of the record when refe rring to the foreign cases relied\non."
+    },
+    {
+      "number": "97",
+      "text": "Counsel reiterated that NZL had provided ZRA with all relevant\ndocumentation pertaining to all related party transfer pricing.\nThat ZRA's own witness confirmed to the Tribunal that the\ndocumentation relating to the group transfer pricing was availed.\nIt was further contended that section 99B as read with section\n98 of the Income Tax Act, provides that any taxpayer who fails\nto provide information requested by the Commissioner General\ncommits an offence, and that at no time did any of the ZRA's\nwitnesses protest that certain documentation was not availed.\nJ40"
+    },
+    {
+      "number": "98",
+      "text": "Counsel for NZL further countered that the reason ZRA did not\nfind it necessary to test all the underlying transactions made by\nNZL was that ZRA had failed to undertake a bench-marking\nexercise as confirmed by its own witness RWl, who also agreed\nthat it was appropriate to test each transaction. It was submitted\nthat a bench-marking exercise is required in order to come up\nwith suitable comparables and ground two, should fail for failure\nto meet a condition precedent."
+    },
+    {
+      "number": "99",
+      "text": "Counsel maintained that there was no requirement to maintain\ntransfer pricing documentation until the coming into effect of the\nIncome Tax (Transfer Pricing) Regulations No. 28 of 2018.\nThat position notwithstanding, NZL did keep certain information\nwhich it availed to ZRA. He reiterated that the Tribunal did not\nshift the burden of proof to ZRA. What it did, was to merely\nconsider the evidence of both parties when making its findings.\nCounsel submitted that benchmarking is mainly used to test the\narm's length nature of the related party transactions carried out\nbetween related parties. The Nigerian case of Prime Plastichem v\nFederal Inland Revenue Service, does not actually assist ZRA's\ncase. At page 10 of the said case, it was emphasised why a\nJ41\nbenchmarking study was a critical part of transfer pnc1ng\ndocumentation or policy."
+    },
+    {
+      "number": "100",
+      "text": "On the selection by ZRA of comparables from Western Europe,\nCounsel for NZL was of the view that the more suitable selection\nwould have been countries from East Asia whose economy was\nsimilar to the Zambian one. It was argued that the European\neconomy was more advanced with companies that were in\nexistence for as long as sixty years in comparison to NZL that\nhad only been operating for five years. That this was actually a\nrebuttal as regards the suitability of the comparables used by\nZRA."
+    },
+    {
+      "number": "101",
+      "text": "In his oral reply, Counsel for ZRA reiterated that the Prime\nPlastichem v Federal Inland Revenue Service case, supports its\nposition as the court in that case held that, preparation of a\nbenchmarking study is obligatory for taxpayers as part of\ntransfer pricing documentation. He conceded that ZRA's witness\ndid say there was no benchmarking exercise undertaken by it, as\nthe obligation was that of NZL, as the taxpayer. Evidence on\nrecord was referred to where the expert witness confirmed that\nZRA had analysed some controlled transactions.\nJ42"
+    },
+    {
+      "number": "102",
+      "text": "On NZL's contention that it had submitted the local file to ZRA,\nCounsel for ZRA asserted that it was actually the master file that\nwas submitted as shown at page 936 in Volume 2 of the record.\nThat lack of relevant information interfered with the bench\nmarking exercise which, in any event, was supposed to be\nundertaken by the NZL.\nConsideration and Determination of the main appeal"
+    },
+    {
+      "number": "103",
+      "text": "We have read the record of appeal, considered heads of argument\ntogether with oral augmentation made at the hearing by Counsel\nfor the parties on both sides."
+    },
+    {
+      "number": "104",
+      "text": "The record shows common ground evidence is that ZRA\ncommenced a transfer pricing audit of NZL covering the years\n2010 to 2014, in order to determine arm's length remuneration\nfor the distribution activities of NZL. A benchmarking study was\nthereafter undertaken of independent companies operating in\nWestern Europe."
+    },
+    {
+      "number": "105",
+      "text": "In that regard, ZRA resorted to employing the use of operating\nmargins, as a means of measuring NZL's pricing strategy and\noperating efficiency. ZRA found that NZL's transactions were,\nJ43\napparently, not undertaken at arm's length and required re\ncomputation. This resulted in a re-assessment and adjustment\nof profit for the years 2010 to 2014 in the total sum of K56, 579,"
+    },
+    {
+      "number": "048",
+      "text": "00. NZL was found liable to pay a final levy of K 13,\n860,103.00 as gross income tax."
+    },
+    {
+      "number": "106",
+      "text": "The grievance of NZL with that amount was directed at the\nprocess resorted to by ZRA in arriving at the assessment and the\nfinal figure. This was the premise on which NZL appealed the\nassessment to the Tribunal."
+    },
+    {
+      "number": "107",
+      "text": "Starting with the issue raised in ground one of the appeal, on\nwho bears the burden of proof where an assessment has been\nmade by the tax authority, and the tax payer disputes the\ncorrectness of such assessment. Learned Counsel for ZRA has\ncorrectly, pointed out and his counterpart Learned Counsel for\nNZL has magnanimously, conceded the settled position of the\nlaw, that the burden of proof generally, lies on the person making\nthe assertion. In our view that legal position is no different in this\nparticular instance, where an assessment has been made by the\ntax authority and the tax payer disputes the assessment\nasserting it is incorrect. The burden to prove the assertion with\nJ44\ncogent evidence, clearly, lies on the taxpayer. We reiterated that\nposition in the case of Agro Fuel Investment Limited v Zambia\nRevenue Authority8 in the following words:\n\"We agree with Mr. Locha, that mere verbal assertions that the\ngoods in question were in transit and did exit Zambia, was not\nsufficient to enable the appellant to discharge the burden of\nproof cast on it\"."
+    },
+    {
+      "number": "108",
+      "text": "The above position is fortified by section 106 of the Income Tax\nAct, relied upon by Counsel for ZRA. The section provides as\nfollows:\n\"Subject to the Commissioner-General's power relating to\nassessment, every assessment under this Act shall stand good\nunless proved otherwise by the person assessed upon objection\nor appeal under this Part\". (Underlining for emphasis only)"
+    },
+    {
+      "number": "109",
+      "text": "The words in section 106 as quoted above, are unambiguous\nand go to support the position that, where an assessment is\nmade and the tax payer disputes such assessment through an\nobjection, the tax payer bears the burden of proving the\nincorrectness of the assessment by providing evidence to support\nthe objection. When the issue arose in the English case of Brady\n(Inspector of Taxes) v Group Lotus Car Cos Pie & Another9 it\nwas opined as follows:\n\"It is common ground between the parties, and they so directed\nthemselves, that perhaps surprisingly, the burden of proof in an\nJ45\nappeal to the commissioners against an assessment made by\nthe Revenue is not on the Revenue to justify the assessment\nbut on the taxpayer to show that the assessment is not justified.\nThat is established by the decision in T Haythornthwaite & Sons Ltd\nv Kelly (Inspector of Taxes) (1927) 11 TC 657 at 658, in which it was\nheld by the Court of Appeal-\n'that the onus lay on the Appellants to satisfy the\nCommissioners upon sufficient evidence that the assessment\nwas erroneous, that as such evidence was not produced, the\nCommissioners had proceeded correctly in confirming the\nassessment'. .. ... \" (bold facing and underlining for emphasis only)"
+    },
+    {
+      "number": "110",
+      "text": "In that case the taxpayer had deliberately produced no evidence\nto show that the assessment was wrong and Sargant, W, had\nthis to say:\n\"'In that state of things it seems to me that the very first\nthing that a person having to prove that the assessment\nmade by the Inspector was wrong had to do-the very first\nthing that was requisite-was to produce the books of the\nCompany; and besides that-because the books probably\nwould not in any way be conclusive; it might very well be that\nthese outside transactions were kept outside the books of the\nCompany-to produce the managing director and other high\nofficials of the Company for the purpose of showing that there\nwere in fact no such outside profits, no such gambling on the\npart of the Company. Silence, or the absence of evidence\nof that kind, was in my judgment evidence-very cogent\nevidence too-to show that the assessment made by the\nInspector could not be displaced on the part of the\nCompany.\" (at 671-672) (boldfacing and underlining\nsupplied)"
+    },
+    {
+      "number": "111",
+      "text": "Learned authors of Halsbury's Laws of England, 4th Edition,\nparagraph 1677 echo the same position of the law when they\nJ46\nstate that:\n\"Upon an appeal to the General or Special Commissioners\nagainst an assessment, the onus is upon the taxpayer, by\nevidence given ...... to demonstrate that the assessment\nought to be reduced or set aside. If the appellant fails to\nlead evidence before the commissioners, he cannot have\nthe assessment reduced or displaced\"."
+    },
+    {
+      "number": "112",
+      "text": "Against that backdrop of the law as recounted in paragraphs 108\nto 110, we note that ZRA contention before the Tribunal was to\nthe effect that NZL neglected to produce evidence to counter its\nfindings on assessment. The Tribunal acknowledged that ZRA\nmade a request for various documents and information from\nNZL. It also made a finding of fact, that NZL had failed to com ply\nwith the said request."
+    },
+    {
+      "number": "113",
+      "text": "ZRA having made the assessment, the burden of proof shifted to\nNZL as the taxpayer that was dissatisfied and had raised\nobjection to the assessment, to prove that there was nothing\nwrong with the transfer pricing in the transactions with its\nrelated parties. Those are the reasons that we find merit in\nground one of the appeal, faulting the Tribunal as having shifted\nthe burden of proving that the assessment was wrong from NZL\nto ZRA.\nJ47"
+    },
+    {
+      "number": "114",
+      "text": "On ground two, ZRA faults the Tribunal's findings that\ntransactions between NZL and its related parties should not have\nbeen aggregated but should have been tested individually\ncontrary to the OECD Transfer Pricing Guidelines. In that regard,\nwe have noted that, chapter 3, A. 3.1, paragraph 3. 9 at page 110\nof the said Guidelines provides that, the ideal scenario in order\nto arrive at a precise approximation of arm's length conditions is\nto apply the conditions on a transaction by transaction basis. It\nis nonetheless, acknowledged that there are situations where\ntransactions are separate but so closely linked, that they can\nonly be evaluated adequately by aggregating them."
+    },
+    {
+      "number": "115",
+      "text": "By way of illustration reference is made to some long-term\ncontracts for the supply of commodities or services, rights to use\nintangible property, and pricing a range of closely linked\nproducts, such as in a product line where it is not practical to\ndetermine the price of each product or transaction."
+    },
+    {
+      "number": "116",
+      "text": "Other examples given include the licensing of manufacturing\nknow-how and the supply of vital components to a manufacturer,\nrouting a transaction through another associated enterprise, or\nwhere a tax payer wishes to take a portfolio approach, by\nJ48\nbundling certain transactions for purposes of earning an\nappropriate tax return across the portfolio rather than through a\nsingle product. When such a scenario arose in the Indian case of\nDeputy Commissioner of Income Tax, Circle -11 (1) v M/s.\nAdcock Ingram Limited I.T. (TP)10 it was held that:\n\"In order for transaction to be closely linked, it is not necessary\nthat the transactions need to be identical or even similar, for\nexample, a collaboration agreement may provide for import of\nraw materials, sale of finished goods, provision of technical\nservices and payment of royalty. Different methods may be\nchosen as the most appropriate methods for each of the above\ntransactions when considered on a standalone basis. However,\nunder particular circumstances, one single method maybe\nchosen as the most appropriate method covering all the above\ntransactions as the same are closely linked\"."
+    },
+    {
+      "number": "117",
+      "text": "We are persuaded by the above cited case, where aggregation of\ntransactions, that were neither identical or similar, was found to\nbe suitable in a benchmarking exercise. On that premise, we find\nthe Tribunal narrowly construed the circumstances in which\naggregation of transactions can be undertaken."
+    },
+    {
+      "number": "118",
+      "text": "In another Indian case of Sony Ericsson Mobile\nCommunications India (P) Ltd v CIT10 it was held that the\n,\ninternational transaction of expenses should be aggregated with\nother international transactions carried out by the assessed\ntaxpayer, as a distributor, who either simply acts as an agent of\nJ49\nmanufacturer or purchases goods from the manufacturer for\nresale on his own account."
+    },
+    {
+      "number": "119",
+      "text": "The cited decisions although not binding appear to support the\nposition taken by ZRA, that aggregation is actually a much wider\nconcept. It encompasses transactions emanating from a common\nsource being an order or a contract and that the transactions\nsubstantially flow from the said common source. Ground two of\nthe appeal is sustained for those reasons."
+    },
+    {
+      "number": "120",
+      "text": "Coming to ground three of the appeal, NZL's failure to provide\nthe transfer pnc1ng information as requested by the\nCommissioner General of ZRA inevitably, affected NZL's ability to\nsufficiently demonstrate, that the controlled transactions\nconducted with its related parties, were done at arm's length as\nrequired by section 97A of the Income Tax Act. The issue that\na taxpayer was not at the material time required to maintain\nrecords of such information, in terms of the Income Tax Act\n(Transfer Pricing) Regulation No. 20 of 2000, is settled.\nNotwithstanding that position, section 58 of the Income Tax\nAct, adequately covers and gives powers to the Commissioner\nGeneral to request any type of information, in the form required,\nJSO\nfor the specific inquiry in question."
+    },
+    {
+      "number": "121",
+      "text": "ZRA claimed information provided by NZL was inadequate. That\nbeing the case, the findings of the Tribunal that placed the onus\nof resolving NZL's objection to the transfer pricing assessment on\nZRA, most certainly shifted the burden from NZL. NZL as the\ntaxpayer bore the responsibility to provide comparables to its\nown business dealings. It conceded that there were no internal\ncomparables within the country and on the continent. The Asia\nOceania-Africa Countries (AOA), were, as a result, resorted to for\ncomparison."
+    },
+    {
+      "number": "122",
+      "text": "We acknowledge NZL contention that the law at the material time\nwas inadequate as the Income Tax (Transfer Pricing)\nRegulations No. 24 of 2018 which now specify the information\nthat must be kept by multinational in a local file only came into\neffect after the fact. Prior to those regulations, the law only\nrequired multinationals to transact at arm's length with their\nrelated entities, which was the only obligation to be met. In order\nto satisfy its tax obligations however, the tax payer was still\nobligated to maintain a record of all such relevant information as\nwould be necessary to support compliance with tax obligations.\nJSl"
+    },
+    {
+      "number": "123",
+      "text": "ZRA could only obtain information from a taxpayer only where a\ndocument was specifically mentioned, in this case, a local file.\nNonetheless, sections 47(1) and 58 (a) of the Income Tax Act\nare couched in general terms with regards to allowing the\nCommissioner General sufficient powers to obtain any\ninformation required for assessing tax payable on one's income.\nIt is for that reason that we reject NZL's assertion that it was not\nrequired to provide the information requested by the\nCommissioner General for it was not obliged to keep certain\nrecords by law."
+    },
+    {
+      "number": "124",
+      "text": "It is clear to us that that provisions of sections 47(1) and 58(a)\nof the Income Tax Act were sufficient for the Commissioner\nGeneral to request whatever documentation was considered to\nbe relevant for audit purposes, as argued by ZRA. Ground three\nequally succeeds."
+    },
+    {
+      "number": "125",
+      "text": "In ground four of the appeal, the Tribunal is said to have properly\nacknowledged the importance of the functional analysis as part\nof the comparability analysis in determining arm's length\nconditions. It further, correctly characterised NZL as a low risk\ndistributor, yet failed to recognise that this characterisation was\nJ52\ncrucial in selecting the tested party and appropriate transfer\npricing method."
+    },
+    {
+      "number": "126",
+      "text": "Chapter III of the OECD Guidelines, at page 107, under\nComparable Analysis, defines a comparison, to mean an\nexamination of a controlled transaction under review and the\nuncontrolled transaction that is regarded as potentially\ncomparable. It is advised that a methodical and consistent\napproach should provide some continuity or linkage in the whole\nanalytical process and maintaining a constant relationship from\nthe preliminary analysis of the conditions of the controlled\ntransaction, to the selection of the transfer pricing method. This\nis achieved through the identification of potential comparables,\nwhich leads to a conclusion as to whether the con trolled\ntransactions being examined are consistent with the arm's length\nprinciple."
+    },
+    {
+      "number": "127",
+      "text": "Part of the process 1s said to require selecting the most\nappropriate transfer pricing method and applying it by finding\nreliable comparables. Where there are some uncontrolled\ntransactions with a lesser degree of comparability than others,\nthese should be eliminated. It is acknowledged in the Guidelines\nJ53\nthat the search for comparables can be burdensome. This is on\naccount of limitations in availability of information and an\nexhaustive search of all possible sources of comparables."
+    },
+    {
+      "number": "128",
+      "text": "On the purpose of a functional analysis, the Guidelines at\nD.1.2.2., page 45, paragraph 1.42 provide that, in transactions\nbetween two independent enterprises, comparison usually will\nreflect consideration of the functions that each enterprise\nperforms, assets used and risks assumed. The functional\nanalysis is said to aim at identifying and comparing the\neconomically significant activities and responsibilities\nundertaken, assets used and risks assumed by the parties to the\ntransactions."
+    },
+    {
+      "number": "129",
+      "text": "The discourse from paragraphs 126 to 128 goes to support the\nclassification of NZL by ZRA as a low risk distributor that was\nupheld by the Tribunal. Paragraph 1.47 of the Guidelines\nprovides that the functions carried out will determine to some\nextent, the allocation of risks between the parties, and therefore,\nthe conditions each party would expect in arm's length\ntransactions. An example given is where a distributor takes on\nresponsibility for marketing and advertising by risking its own\nJ54\nresources, in such activities, it is expected that the return from\nthe said activities will be commensurately higher and the\nconditions of the transaction will be different from when the\ndistributor acts merely as an agent, being reimbursed for its\ncosts and receiving income appropriate to its activity."
+    },
+    {
+      "number": "130",
+      "text": "In its arguments ZRA demonstrated that the transaction method\nor transactional net margin method may be applicable in cases\nwhere one of the parties makes all the unique contributions\nwhilst the other party does not, and that the tested party should\nbe the less complex one."
+    },
+    {
+      "number": "131",
+      "text": "For its part NZL takes great exception at being characterised as\na low risk distributor by the Tribunal. As already pointed out and\naccepted, it is clear that NZL's risk was most certainly properly\nclassified as low risk. The Tribunal revealed its mind on how it\nreached that determination which was infa rmed by the\nfunctions, assets inventory and know- how risks of the products\nthat NZL sales emanate from its related parties and do not lie\nwith it. NZL argued that whether or not ZRA used the correct\ntested party is not the issue but the fact that ZRA aggregated\nunrelated transactions.\nJSS"
+    },
+    {
+      "number": "132",
+      "text": "We find the challenge disparaging the selection process of the\ncorrect tested party, unsustainable. This is in light of the fact\nthat the review of the controlled transaction directly influences\nthe selection of the tested party and the application of the most\nappropriate transfer pricing method, in trying to determine\nwhether a transaction or transactions were at arm's length. We\nhave already determined in accordance with the Guidelines that\nit is not in every circumstance that transactions will have to be\ntested separately. As long as they flow from a common source,\naggregation is permissible. Ground four of the appeal succeeds."
+    },
+    {
+      "number": "133",
+      "text": "Finally, on ground five of the appeal, ZRA faulted the Tribunal as\nhaving erred in law and fact when despite having correctly found\nas a fact that there were no internal comparables in Zambia or\non the African continent, it found that the benchmarks used by\nZRA, were neither comparable to the nature of the business nor\nthe macro and micro economic conditions in Zambia. That this\nrendered the transfer pricing nugatory. According to ZRA the\nTribunal's ruling on the use of Western European comparables\nhas far reaching consequences. That it sets a dangerous\nprecedent where transfer pricing in Zambia can only be based on\nJ56\nlocal comparables. ZRA found it to be a gross misdirection for the\nTribunal not to have analysed the comparables it had presented.\nAs a result, The Tribunal also failed to compel NZL to present its\nown preferred comparables. This was despite having previously\ndone so in its global transfer pricing report from Europe, Japan,\nKorea, Latin America etc."
+    },
+    {
+      "number": "134",
+      "text": "ZRA contended that the Tribunal's holding that the use of\nWestern comparables was neither comparable nor suited to the\nmacro and micro economic conditions was contrary to the\nevidence tendered before it. This evidence revealed that NZL had\nperpetuated this position by not disclosing its economic activities\nat local level, but only did so at global level, leaving ZRA at large\nin the search of comparables."
+    },
+    {
+      "number": "135",
+      "text": "ZRA maintained that the burden of proof is on the tax payer to\nprove compliance on arm's length basis in so far as sections 97A\nand 106 of the Income Tax Act are concerned."
+    },
+    {
+      "number": "136",
+      "text": "In response, NZL countered that ZRA has misconstrued the\nholding of the Tribunal as the issue was the comparison of NZL\nthat had been trading for only five years to European companies\nthat were well established for decades and made huge profits.\nJ57\nNZL asserted that the only contention it had was that its profits\ncould not be compared to those in Europe, in view of the micro\nand macro-economic conditions that were different from Zambia.\nThe Tribunal did not, at any point, hold that comparables from\noutside the country can never be used in Zambia but rather, that\nthe comparable country or market must operate in similar\neconomic conditions to Zambia for it to be comparable."
+    },
+    {
+      "number": "137",
+      "text": "In as much as we agree that the Tribunal found that the use of a\nWestern European entity as a comparable was inappropriate as\nthe two countries or markets were incomparable on account of\nthe complete disparity in the economic conditions. The Tribunal\nwas not stating that comparables must in any circumstance be\nlocal. The finding was rather, that where no local comparables\nare found whether in Zambia or on the continent, it was\nincumbent on ZRA to find suitable and compatible comparables\nthat represent as closely as possible, the economic conditions in\nZambia to avoid a disparity in the analysis."
+    },
+    {
+      "number": "138",
+      "text": "For the reasons given, we do not accept the proposition that\ntransfer pricing would be rendered nugatory in Zambia, when all\nthat was being requested for was fairness in making the\nJSB\ncomparables between the entities. This could be achieved by\nensuring that the market set up and the economy are at par or\nclose enough in economic terms. This is provided for in the\nGuidelines at D.1.1., paragraph 1.33 as states that, in order for\ncomparisons to be useful, the economically relevant\ncharacteristics of the situations being compared must be\nsufficiently comparable."
+    },
+    {
+      "number": "139",
+      "text": "It goes on to define comparable to mean, that none of the\ndifferences if any, between the situations being compared could\nmaterially affect the condition being examined 1n the\nmethodology such as pnce or margin, or that reasonably\naccurate adjustments could be made to eliminate the effect of\nany such differences."
+    },
+    {
+      "number": "140",
+      "text": "As alluded to is some authorities referred to earlier in this\njudgment, it is clear that comparable although not meaning\nidentical, should be close enough to not alter the outcome of the\ntransaction being compared. We find merit in ground five of the\nappeal.\nJ59\nRespondent's cross appeal and Arguments in support of cross\nappeal"
+    },
+    {
+      "number": "141",
+      "text": "As recounted in paragraph 4 of this judgment, NZL filed a cross\nappeal and Heads of argument in support, on 8th April, 2021.\nThis was following a consent order entered into with ZRA to do\nso. The cross- appeal is anchored on two grounds faulting the\nTribunal as having erred in law and fact when:"
+    },
+    {
+      "number": "1",
+      "text": "it made a finding in the absence of supporting evidence on\nrecord that the appellant was a low risk distributor\nnotwithstanding that there was sufficient evidence on\nrecord that clearly demonstrated that the appellant was a\nfully-fledged distributor; and"
+    },
+    {
+      "number": "2",
+      "text": "it exceeded its jurisdiction when it ordered that the\nreassessment be conducted within 180 days by the\nrespondent on account that there could be transfer pricing\nissues requiring further scrutiny which conclusion\nprejudiced the appellant."
+    },
+    {
+      "number": "142",
+      "text": "On ground one of the cross-appeal, Counsel submitted that the\nTribunal's finding that NZL is a low risk distributor based on the\nevidence that there is quite little that it does on its own, without\ndirection and assistance from its related party, Nestle Zimbabwe,\nis not supported by evidence. Our decisions in Communications\nAuthority v Vodacom Zambia Limited11 and Attorney General\nv Marcus Kampumba Achiume12 were cited in aid of the\nJ60\nsubmission. The Tribunal also premised its finding on the\nunderstanding that Nestle South Africa retains ownership of the\nproducts, and the attendant risks in the know-how of the\nproducts distributed by NZL. It further made a finding that the\nfunctions, assets, inventory risks and know-how risks of the\nproducts that NZL sells do not lie with NZL but its related parties."
+    },
+    {
+      "number": "143",
+      "text": "NZL argued that according to Advances in International\nAccounting Volume 18, a low risk distributor is an entity that only\nundertakes operational and tactical sales and marketing\nactivities whose inventory risks are managed by its principal.\nEssentially, this makes it a low risk distributor of its principal\nthat owns the goods distributed by the agent and bears all the\nrisks attendant to the distribution of his goods by the agent.\nAccording to NZL, the real question before the Tribunal was who\nbore the inventory risk in the products it distributed?"
+    },
+    {
+      "number": "144",
+      "text": "The submission in that regard, was that NZL is a private\ncompany limited by shares and duly incorporated under the\nLaws of Zambia. This makes it a separate legal entity from its\nshareholders and sister companies in the larger Nestle group.\nThose facts considered, the Tribunal ought to have taken judicial\nJ61\nnotice that multinational companies get general business\ndirection from the Group. As a Group, they have continental,\nregional and sub-regional management units, which oversee the\nstrategic direction of subsidiaries within the Group, but that this\ndoes not render the independence of the subsidiaries futile."
+    },
+    {
+      "number": "145",
+      "text": "It was contended that the administrative arrangement between\nNZL and the unit in Zimbabwe was not strange. Such types of\narrangements were common throughout the Southern region to\nallow ease of internal administration. NZL contracts and pays for\nthe services it receives. They are not paid by a related party on\nits behalf. Further, that NZL finances the purchase of the\nproducts it distributes, pays rentals for the warehouse where the\nproducts are stored, and delivers them to its customers. These\nfinancials were never queried by ZRA and they reveal that the\ndistribution, selling and marketing expenses lie with NZL, and\nnot its related parties."
+    },
+    {
+      "number": "146",
+      "text": "It was contended that ZRA did not challenge this evidence and\nthat failure to do so amounted to acceptance of such evidence as\nstated by the authors of Murphy on Evidence. The submission\nwas that, we ought to interfere with the finding that it is a low\nJ62\nrisk distributor as this is not supported by the evidence on\nrecord. It was further submitted that the General Licensing\nAgreement, (GLA) between Nestle South Africa and NZL, allows\nthe latter, strictly for its own purpose, use of intellectual property\n1n storing, supplying, importing, exporting, marketing,\npromoting, distributing and selling of the products.\n14 7. It was contended that the provision of technical support and\nother management services provided by the related parties were\non an on-call basis to other entities in the region not only NZL.\nThey are essential functions that any company needs to survive.\nThe fact that NZL's Finance Manager was sent from Zimbabwe\nas an expatriate was not anything peculiar. This, in fact, is a\ncommon arrangement amongst multinational companies where\nemployees are sent to other markets to provide necessary\nservices and to gain experience. That NZL as a distributor obtains\nits products from all over the world, with majority of the products\nprocured from Nestle Zimbabwe and Brazil. In the event, it could\nnot be classified as a low risk distributor."
+    },
+    {
+      "number": "148",
+      "text": "On ground two, the submission was that, contrary to the case of\nAnderson Kambela Mazoka & Others v Levy Patrick\nJ63\nMwanawasa & Others13 the Tribunal went beyond its\n,\njurisdiction and the issues NZL set out in its pleadings when it\nmade a finding that there was conduct on the part of NZL worth\ninvestigating. That the main issue before the Tribunal was\nsimply, whether or not ZRA correctly carried out the tax\nassessment on NZL. That the Tribunal's finding that there were\ntransfer pricing issues requiring scrutiny and directing ZRA to\nconduct a reassessment are legally flawed as it had no\njurisdiction to make such pronouncements. That under our\nIncome Tax Act, only the Commissioner General can legally,\norder a reassessment. The Tribunal therefore, assumed an\naccusatory role, thereby exceeding its jurisdiction."
+    },
+    {
+      "number": "149",
+      "text": "ZRA in its heads of argument in response to NZL's cross-appeal,\nsubmitted that there is abundant evidence on the record to\nsupport the notion that NZL is a low risk distributor. The cases\nof Nkhata & Four Others v The Attorney General14 Wilson\n;\nMasauso Zulu v Avondale Housing Project Limited15\n;\nNkongolo Farms Limited v ZANACO Limited & Others16\n,\nwhere it was held that an appellate court will only reverse\nfindings of fact made by a trial court, if it is satisfied that the\nJ64\nfindings in question were either perverse or made in the absence\nof any relevant evidence or a misapprehension of facts."
+    },
+    {
+      "number": "150",
+      "text": "The submission on the point was that the Tribunal made it clear\nit had considered all the evidence presented by the parties. It was\nin that regard, particularly, noted that there was a huge amount\nof control exercised by Nestle Zimbabwe over the NZL in relation\nto the strategic direction of the company and its operations.\nThere was testimony from one witness, AWl, who knew more\nabout the operations and business of NZL than any local\nemployee. More importantly, the Tribunal considered all the\nservices that NZL receives from its related entities such as sales\nsupport, marketing support, procurement and supply chain\nmanagement, amongst others."
+    },
+    {
+      "number": "151",
+      "text": "On that evidence, the Tribunal found that there is very little that\nNZL did on its own without the direction, assistance and control\nfrom its related entity. Counsel submitted that NZL has\nmisconstrued what constitutes a low risk distributor when it\ncited the authors of Advances in International Accounting\nVolume 18, who state that a low risk distributor is an entity that\nonly undertakes operational and tactical sales and marketing\nJ65\nactivities whose inventory risks are managed by its principal,\nwho in turn owns the goods distributed by the agent. ZRA placed\na caveat on this authority relied upon by NZL in that this\ndefinition is more for accounting purposes than those of transfer\npnc1ng."
+    },
+    {
+      "number": "152",
+      "text": "Reference was made to the 2017 OECD Guidelines which provide\nthat, full-fledged distributors are enterprises with a relatively\nhigher level of functions. Conversely, limited risk distributors,\nmarketers, sales agents or commissioners are enterprises with\nrelatively lower levels of function and risk. Further, that the\nGuidelines also use the term relatively, in terms of the level of\nfunctions and risks undertaken. The submission was that, the\nTribunal was correct in finding that NZL carries out very limited\nfunctions and does very little on its own without the direction,\nassistance and control from its related entities."
+    },
+    {
+      "number": "153",
+      "text": "ZRA also addressed the contention of its alleged failure to\nquestion NZL's financial statements appearing at pages 345 to\n384 of the record. The submission was that, the financial\nstatements showing that NZL was paying huge sums of money\nfor the services supplied by its related entities, is the strongest\nJ66\nevidence that it is a low risk distributor. That it is the analysis of\nthe functions performed by an entity that matters and not\nwhether it pays for those services."
+    },
+    {
+      "number": "154",
+      "text": "To illustrate the point, ZRA referred to the financial statements\nshowing that NZL's initial investment was K2, 317, 500 and yet\nin the same year, it paid out K4, 503, 539 in management fees\nand royalties. A payment out that was twice what it invested.\nOther examples given were of large sums of payments made in\nrespect of management fees and royalties totalling K46, 540, 594."
+    },
+    {
+      "number": "155",
+      "text": "It was submitted that a careful analysis of the financial\nstatements on the record reveals that the losses made by NZL\nwere artificial, deliberate and premeditated to avoid paying tax.\nWe were urged to disallow the said payments. Section 95 of the\nIncome Tax Act, was cited as authority for the submission."
+    },
+    {
+      "number": "156",
+      "text": "We were also invited to consider the approaches in Pacific\nManagement Group, BSC Leasing Inc., Tax Matters Partner,\net Al Petitioners v Commissioner of Internal Revenue\nAugust, 2018; Frank Lyon Co. v United States, 435 U.S. 561\n(1978); Cooper v Commission, 877 F. 3D 1086, 1091 (9th CIR.\n201 7) in which the transactions under consideration were said\nJ67\nto be a device to extract profits in the guise of tax deductible\npayments or the creation of tax benefits. That in assessing the\nreasonableness of the 'management fees' the question is whether\nthose sums represented reasonable compensation for the\npersonal services rendered, and that whether compensation for\npersonal services is reasonable is a question of fact and\ncircumstances. The US Tax Court is said to have found that the\npayment of the management fees were not reasonable and were\nunnecessary. It was submitted that the test used in deciding\nwhether a particular payment is reasonable and has economic\nsubstance is an objective one."
+    },
+    {
+      "number": "157",
+      "text": "The case of Metro Leasing & Dev. Corp v Commissioner, 376\nF 3D 1015, 1019 (9th CIR. 2004) AFF'G 119 T.C. 8 (2002), was\nreferred to where the Circuit Court considered whether the\namounts paid would be regarded by a hypothetical independent\ninvestor. Further reference was made to the cases of United\nStates v Basye, 410 U.S. 441, 450 (1973) and Lucas v Earl,"
+    },
+    {
+      "number": "281",
+      "text": "U.S. 111, 115 (1930) in which the longstanding principle\nthat he who earns income may not avoid taxation by entering\ncontractual arrangements diverting such income, was\nJ68\nenunciated."
+    },
+    {
+      "number": "158",
+      "text": "It was submitted that the payment for management fees and\nroyalties by NZL kept on increasing exponentially, and that this\nsort of behaviour of deliberate stripping or diversion of corporate\nprofits to another entity was frowned upon by the United States\nTax Courts. We were urged to adopt the same stance and confirm\nthe Commissioner Generals' powers under section 95 of the\nIncome Tax Act to disallow what were considered unreasonable\nand unnecessary expenses with no economic benefit to NZL,\napart from eroding its corporate profits. That the total payment\nrelating to management royalty fees for the five years being, K46,\n540, 594 which was under tax audit, should not be allowed to be\npaid out by a hypothetical investor."
+    },
+    {
+      "number": "159",
+      "text": "Counsel concluded his submissions in opposition on ground one,\nby urging that as NZL had failed to show that the finding of the\nTribunal that it was a low risk distributor was perverse or made\nin the absence of any relevant evidence, the ground lacked merit\nand ought to be dismissed."
+    },
+    {
+      "number": "160",
+      "text": "On the second ground of the cross-appeal by which NZL is\naggrieved by the Tribunal decision to order reassessment within\nJ69\n180 days to be undertaken by ZRA, on account of the possibility\nthat there could be more transfer pricing issues requiring further\nscrutiny. ZRA argued that the issue of further scrutiny actually\narose from some of NZL's own witnesses, particularly the expert\nwitness, who during trial testified that where an entity is\nincurring losses, this may be indicative to the tax authority that\nthere may be an issue of the pricing of goods and that special\nscrutiny or an audit is required of the related party transactions."
+    },
+    {
+      "number": "161",
+      "text": "ZRA submitted that section 9(1) (b) of the Tax Appeals\nTribunal No. 1 of 2015 gives power to the Tribunal to take any\nother course which may lead to the just, speedy and inexpensive\nsettlement of any matter before it. In any event, that ZRA has\npowers under section 63 of the Income Tax Act to reassess\ntaxpayers if it so wishes.\nRespondent's Oral submissions on the cross-appeal"
+    },
+    {
+      "number": "162",
+      "text": "In augmentation made at the hearing, Counsel for NZL 1n\naddressing the grievance subject of ground one of the appeal,\nthat NZL was a low risk distributor, rehashed the arguments as\nformulated in the heads of argument. He underscored the fact\nJ70\nthat one of the cardinal tests to consider when categorizing an\nentity, is who bears the inventory risk? The submission was that,\nevidence that the NZL bore the inventory risk and insured the\ngoods purchased from Nestle South Africa and Nestle Brazil was\nunchallenged."
+    },
+    {
+      "number": "163",
+      "text": "In his response Counsel for ZRA submitted that before you can\neven characterize an entity as a low risk distributor, a functional\nanalysis must be done, as explained earlier, this involves\nscrutinising the functions performed by the entity, the assets\nemployed by the entity in its business and the risk borne by an\nentity. One could not simply rely on inventory risk as NZL was\nproposing, as that was only one facet of the characterization.\nCounsel went on to elaborate that the reason NZL was classified\nas a low risk distributor was that the functions that it ought to\nhave performed were actually outsourced and done by its related\nentities or associates. He argued that, this was proved by the\nfinancials submitted by NZL which showed and proved that it\nwas paying for these functions and did not perform them itself."
+    },
+    {
+      "number": "164",
+      "text": "The other argument was that NZL did not manufacture any of\nthe products but simply distributed them. It was similarly, not\nJ71\ninvolved in branding, manufacturing or any value addition to the\nproducts distributed. Neither, did it have any assets such as\nheavy equipment other than, forklifts and vehicles for\ndistribution of the goods. Even the warehouse that NZL used to\nstore its goods was, apparently, not owned by it but was rented\nfrom a third party."
+    },
+    {
+      "number": "165",
+      "text": "Counsel questioned how NZL could have a loan of U$ 8 million\nand not have any assets that could be used as collateral to secure\nthe loan as required by usual business practice. It was submitted\nthat in ZRA's view, the business risk lay with different parties\nand not NZL, particularly strategic risk, marketing risk, legal risk\nand IT risk, which all lay with the other related entities. Even the\nrisk of purchasing the product to be distributed was said not to\nlie with NZL, as Nestle East Africa purchased products on its\nbehalf. All these factors were said to have contributed to NZL\nbeing categorized as a low risk distributor by ZRA and ultimately,\nby the Tribunal."
+    },
+    {
+      "number": "166",
+      "text": "Counsel for NZL in his reply defined a low risk distributor as an\nagent of a principal who owns the goods distributed by the agent\nand bears all the attendant risks related to the distribution of his\nJ72\ngoods by the agent. He submitted that this was not the\nrelationship NZL had with its related entities as it was an\nindependent entity. As already demonstrated in its heads of\nargument, it was stated that NZL had its own board of directors\nresponsible for strategic direction, budget and vision of the\ncompany, assertions not rebutted by ZRA."
+    },
+    {
+      "number": "167",
+      "text": "Counsel reiterated that although NZL received the var10us\nservices mentioned by the Counsel for ZRA from its related\nparties, it paid for the services. Further, that NZL bears its own\ninventory risk as evidenced by its financial records appearing on\npages 345 to 384 of the record. Counsel went on to submit that\nthere was no evidence before the Tribunal that NZL was\ncontrolled by any affiliated company of the Nestle Limited group.\nThe record of proceedings was also clear, that no such evidence\nwas adduced by ZRA."
+    },
+    {
+      "number": "168",
+      "text": "According Counsel for NZL the issue was, whether or not, it was\ncorrect for ZRA to categorise NZL as a low risk distributor in its\nfunctional analysis. Whether, it was also correct, on the strength\nof the evidence before the Tribunal to deem NZL as an agent of\nany Nestle affiliated entity. Counsel rested his submissions by\n]73\nurging that ZRA had wrongfully categorized NZL a low risk\ndistributor instead of a fully-fledged distributor that was\nindependent, paid for its services and assumed inventory risk.\nCounsel for NZL prayed that the cross-appeal be upheld with\ncosts.\nConsideration and determination of Cross-appeal"
+    },
+    {
+      "number": "169",
+      "text": "We have read the Heads of arguments and submissions on the\ncross- appeal by Counsel for the parties. We have similarly,\nconsidered the oral augmentation from Counsel. From the\nrecord, it is clear that informed by the evidence before it, the\nTribunal made a finding of fact that NZL was a low risk\ndistributor."
+    },
+    {
+      "number": "170",
+      "text": "A number of our previous decisions were cited where we have\nreiterated that, an appellate Court will not reverse findings of fact\nmade following the hearing of a matter unless, it is satisfied that\nthe findings in question were either perverse or made in the\nabsence of relevant evidence or misapprehension of the facts or\nthat on a proper view of the evidence, they were not findings that\na reasonable tribunal acting properly, could have made.\nJ74\n1 71. The record of appeal at pages 39 and 40, reveals that the\nTribunal clearly applied its mind to the evidence before it and\nalso to the very arguments that NZL has rehashed before this\nCourt. As recounted earlier in this judgment, the level of reliance\nplaced by NZL on its related entities for the services, including\nsales support, finance, accounting and so forth, was not an issue\nin dispute."
+    },
+    {
+      "number": "172",
+      "text": "As was properly reasoned by the Tribunal, it is indeed odd that\na fully-fledged and apparently, independent entity such as NZL\ndoes very little administration on its own, without interference\nfrom its related parties such as Nestle Zimbabwe and Nestle\nSouth Africa. The Tribunal was not oblivious to the fact that NZL,\nbore some risk in its day to day operations. However, from its\nanalysis of the evidence before it, the ultimate risk as stated at\npage 41 of the record, lies with Nestle South Africa and the risk\nto NZL was inevitably low. Even from a functional analysis\nperspective, when one considers the functions carried out by\nNZL, it is clear that its related parties bore the greater risk."
+    },
+    {
+      "number": "173",
+      "text": "In that regard, we note that one of the excerpts quoted from a\nGeneral Licence Agreement reads that, \"as LICENSOR shall from\nJ75\ntime to time be in a position to render or make available on an as\nneeded basis to LICENSEE strictly for or in relation to its own or\ncontract-manufactured manufacture, processing control,\npackaging, storage, supply, import, export, marketing, promotion,\ndistribution and/ or selling of the Products which have been\ndeployed by or for or are otherwise available to the LICENSOR.\""
+    },
+    {
+      "number": "174",
+      "text": "On a holistic consideration of the facts, evidence, applicable laws\nand other. authorities we were referred to by Counsel for the\nparties on both sides, we find no basis to reverse the findings of\nfact made by the Tribunal as they are supported by the evidence\non record. Those are the reasons that we find no merit in ground\none of the cross-appeal, faulting the finding of the Tribunal that\nNZL was a low risk distributor."
+    },
+    {
+      "number": "175",
+      "text": "Proceeding with ground two, in which NZL is aggrieved with the\norder for reassessment within 180 days by ZRA on the premise\nthat there could be transfer pricing issues requiring further\nscrutiny. We have considered the pronouncement made by the\nTribunal and agree with NZL that such reassessment goes\nbeyond the scope of the initial assessment and would be beyond\nthe scope of the issues escalated to this Court by the parties in\nJ76\nthis appeal. Nonetheless, as alluded to in paragraph 60 and\npursuant to section 63 of the Income Tax Act, ZRA is not\nprecluded from initiating any reassessment. We for those reasons\nfind ground two of the cross-appeal equally lacks merit.\nConclusion"
+    },
+    {
+      "number": "176",
+      "text": "To recap, the respondent, Nestle Zambia Limited (NZL) has failed\non its cross-appeal. The appellant Zambia Revenue Authority\n(ZRA) having substantially, succeeded on four out of its five\ngrounds of appeal, is the successful party. Accordingly, we allow\nthis appeal with costs to the appellant, to be taxed in default of\nagreement.\nAppeal allowed\nJ.K.KABUKA\nSUPREME COURT JUDGE\nF. M. CHISANGA\nSUPREME COURT JUDGE\nJ77"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/20/eng@2025-08-20/source.pdf",
+  "source_hash": "sha256:7271db291b24a7416945e01d7a9407b61e8b434020666212043e69b6fbecf0d3",
+  "fetched_at": "2026-04-24T16:35:15Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/20/eng@2025-08-20",
+      "source_hash": "sha256:701fef5cf5ad81f6f5694a5f52c22fd86c98e5905a769f99ecc0695ab3e9c4f9",
+      "fetched_at": "2026-04-24T16:35:14Z",
+      "role": "discovery_and_title"
+    }
+  ],
+  "rights_notice": "Publisher: ZambiaLII (African Legal Information Institute). Reproduction and retention by Kate Weston Legal Practitioners is under the fair-dealing exceptions of the Copyright and Performance Rights Act, Cap. 406 of the Laws of Zambia, for legal research and professional commentary. Judgments of the Supreme Court of Zambia are public acts of the state and are cited for their legal authority only.",
+  "sensitive_data_categories": [
+    "none"
+  ]
+}
