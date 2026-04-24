@@ -1,0 +1,77 @@
+{
+  "batch": "0186",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_employment",
+  "started_at": "2026-04-24T15:04:58Z",
+  "completed_at": "2026-04-24T15:06:01Z",
+  "fetches_used": 10,
+  "records_written": 5,
+  "targets_attempted": 5,
+  "results": [
+    {
+      "year": 2002,
+      "number": 39,
+      "status": "ok",
+      "record_id": "si-zm-2002-039-pension-scheme-offshore-investments-regulations-2002",
+      "sections": 1,
+      "title": "Pension Scheme (Offshore Investments) Regulations, 2002",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2002/39/eng@2002-06-14/source.pdf",
+      "pdf_hash": "d44d83f125f4a2917b56a8d2069448396cb8b43293c129e2b2729068e570a849",
+      "pdf_bytes": 287100,
+      "raw_pdf": "/sessions/festive-brave-mccarthy/mnt/corpus/raw/zambialii/si/2002/si-zm-2002-039-pension-scheme-offshore-investments-regulations-2002.pdf",
+      "record_path": "/sessions/festive-brave-mccarthy/mnt/corpus/records/sis/2002/si-zm-2002-039-pension-scheme-offshore-investments-regulations-2002.json"
+    },
+    {
+      "year": 2000,
+      "number": 37,
+      "status": "ok",
+      "record_id": "si-zm-2000-037-pension-scheme-regulation-investment-exemption-order-2000",
+      "sections": 1,
+      "title": "Pension Scheme Regulation (Investment) (Exemption) Order, 2000",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2000/37/eng@2000-03-31/source.pdf",
+      "pdf_hash": "a1b940788bda4e3631f9dfd97a0be5ae3de41f13f9ee8d759909ba981ab82748",
+      "pdf_bytes": 656054,
+      "raw_pdf": "/sessions/festive-brave-mccarthy/mnt/corpus/raw/zambialii/si/2000/si-zm-2000-037-pension-scheme-regulation-investment-exemption-order-2000.pdf",
+      "record_path": "/sessions/festive-brave-mccarthy/mnt/corpus/records/sis/2000/si-zm-2000-037-pension-scheme-regulation-investment-exemption-order-2000.json"
+    },
+    {
+      "year": 2000,
+      "number": 34,
+      "status": "ok",
+      "record_id": "si-zm-2000-034-national-pension-scheme-transfer-of-employees-order-2000",
+      "sections": 4,
+      "title": "National Pension Scheme (Transfer of Employees) Order, 2000",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2000/34/eng@2000-03-31/source.pdf",
+      "pdf_hash": "82ca4da2ff6e17b157bc35f17cc5aea54bd94c5319bd280203ad4594d8f9e193",
+      "pdf_bytes": 650439,
+      "raw_pdf": "/sessions/festive-brave-mccarthy/mnt/corpus/raw/zambialii/si/2000/si-zm-2000-034-national-pension-scheme-transfer-of-employees-order-2000.pdf",
+      "record_path": "/sessions/festive-brave-mccarthy/mnt/corpus/records/sis/2000/si-zm-2000-034-national-pension-scheme-transfer-of-employees-order-2000.json"
+    },
+    {
+      "year": 2000,
+      "number": 22,
+      "status": "ok",
+      "record_id": "si-zm-2000-022-national-pension-scheme-pensionable-earnings-regulations-2000",
+      "sections": 4,
+      "title": "National Pension Scheme (Pensionable Earnings) Regulations, 2000",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2000/22/eng@2000-02-25/source.pdf",
+      "pdf_hash": "0b0d85a1ce32b475357066ca2b704565505dc4fda34753f546cdd28f4e287f5f",
+      "pdf_bytes": 3591930,
+      "raw_pdf": "/sessions/festive-brave-mccarthy/mnt/corpus/raw/zambialii/si/2000/si-zm-2000-022-national-pension-scheme-pensionable-earnings-regulations-2000.pdf",
+      "record_path": "/sessions/festive-brave-mccarthy/mnt/corpus/records/sis/2000/si-zm-2000-022-national-pension-scheme-pensionable-earnings-regulations-2000.json"
+    },
+    {
+      "year": 1994,
+      "number": 39,
+      "status": "ok",
+      "record_id": "si-zm-1994-039-workmens-compensation-assessment-or-earnings-regulations-1994",
+      "sections": 4,
+      "title": "Workmen's Compensation (Assessment or Earnings) Regulations, 1994",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1994/39/eng@1994-02-18/source.pdf",
+      "pdf_hash": "c03bdf01078d5660b9d3e755f99373d39ee136d704b63ca6270ab37ed2417ab1",
+      "pdf_bytes": 188197,
+      "raw_pdf": "/sessions/festive-brave-mccarthy/mnt/corpus/raw/zambialii/si/1994/si-zm-1994-039-workmens-compensation-assessment-or-earnings-regulations-1994.pdf",
+      "record_path": "/sessions/festive-brave-mccarthy/mnt/corpus/records/sis/1994/si-zm-1994-039-workmens-compensation-assessment-or-earnings-regulations-1994.json"
+    }
+  ]
+}
