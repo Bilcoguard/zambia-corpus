@@ -1010,3 +1010,8 @@ regex form from `batch_0176.py`.
 - [2026-04-24T13:34:47Z] si/2017/043 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2017/43 batch=0183
 - [2026-04-24T13:35:14Z] si/2019/025 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2019/25 batch=0183
 - [2026-04-24T14:05:36Z] si/2022/013 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2022/13 batch=0184
+
+## 2026-04-24 batch 0193 (sis_mining)
+
+- ZambiaLII robots.txt now includes `Disallow: /akn/zm/judgment/` and `Disallow: /akn/zm/officialGazette/` under `User-agent: *`. Worker UA `KateWestonLegal-CorpusBuilder/1.0` matches the wildcard rule. Ongoing case_law_scz ingestion (priority_order item 5) is blocked by robots compliance from this tick onward. Crawl-delay: 5s for legislation paths still allowed under /akn/zm/act/. Action: pause case_law_scz; continue legislation sub-phases. Reverify robots.txt next tick before any judgment fetch.
+- si/1995/166 (Mines and Minerals Act 1995 cited subsidiary) returns HTTP 404 at https://zambialii.org/akn/zm/act/si/1995/166 — referenced as the only SI from /akn/zm/act/1995/31 page. No alternate AKN slug found. Title not derivable from 404 — not invented. Mark as missing source.

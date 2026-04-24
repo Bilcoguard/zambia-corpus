@@ -1,0 +1,77 @@
+{
+  "batch": "0193",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_mining",
+  "started_at": "2026-04-24T18:38:31Z",
+  "completed_at": "2026-04-24T18:39:36Z",
+  "fetches_used": 10,
+  "records_written": 5,
+  "targets_attempted": 5,
+  "results": [
+    {
+      "year": 2016,
+      "number": 7,
+      "status": "ok",
+      "record_id": "si-zm-2016-007-mines-and-minerals-development-general-regulations-2016",
+      "sections": 240,
+      "title": "Mines and Minerals Development (General) Regulations, 2016",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2016/7/eng@2016-01-22/source.pdf",
+      "pdf_hash": "16ab08de891df2fa897badbca883d4c2c3ddde427e8d1b386f8e2fc547433c6b",
+      "pdf_bytes": 842403,
+      "raw_pdf": "/sessions/brave-vigilant-newton/mnt/corpus/raw/zambialii/si/2016/si-zm-2016-007-mines-and-minerals-development-general-regulations-2016.pdf",
+      "record_path": "/sessions/brave-vigilant-newton/mnt/corpus/records/sis/2016/si-zm-2016-007-mines-and-minerals-development-general-regulations-2016.json"
+    },
+    {
+      "year": 2010,
+      "number": 26,
+      "status": "ok",
+      "record_id": "si-zm-2010-026-mines-and-minerals-development-mining-rights-and-non-mining-rights-order-2010",
+      "sections": 2,
+      "title": "Mines and Minerals Development (Mining Rights and Non-Mining Rights) Order, 2010",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2010/26/eng@2010-04-01/source.pdf",
+      "pdf_hash": "ba0383ef504a76cfd473fc1a118f53df5a4a49016ed4d4d31dc12fbba9289c74",
+      "pdf_bytes": 82849,
+      "raw_pdf": "/sessions/brave-vigilant-newton/mnt/corpus/raw/zambialii/si/2010/si-zm-2010-026-mines-and-minerals-development-mining-rights-and-non-mining-rights-order-2010.pdf",
+      "record_path": "/sessions/brave-vigilant-newton/mnt/corpus/records/sis/2010/si-zm-2010-026-mines-and-minerals-development-mining-rights-and-non-mining-rights-order-2010.json"
+    },
+    {
+      "year": 2009,
+      "number": 27,
+      "status": "ok",
+      "record_id": "si-zm-2009-027-mines-and-minerals-development-mining-rights-and-non-mining-rights-order-2009",
+      "sections": 1,
+      "title": "Mines and Minerals Development (Mining Rights and Non-Mining Rights) Order, 2009",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2009/27/eng@2009-04-20/source.pdf",
+      "pdf_hash": "0f90069df34a0b83f4460ee8eb2ca1318738281401957730544921a7688e3148",
+      "pdf_bytes": 153225,
+      "raw_pdf": "/sessions/brave-vigilant-newton/mnt/corpus/raw/zambialii/si/2009/si-zm-2009-027-mines-and-minerals-development-mining-rights-and-non-mining-rights-order-2009.pdf",
+      "record_path": "/sessions/brave-vigilant-newton/mnt/corpus/records/sis/2009/si-zm-2009-027-mines-and-minerals-development-mining-rights-and-non-mining-rights-order-2009.json"
+    },
+    {
+      "year": 2000,
+      "number": 19,
+      "status": "ok",
+      "record_id": "si-zm-2000-019-mines-and-minerals-environmental-exemption-order-2000",
+      "sections": 1,
+      "title": "Mines and Minerals (Environmental) (Exemption) Order, 2000",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2000/19/eng@2000-02-11/source.pdf",
+      "pdf_hash": "fc5a4ddea09c9a9180af8670ddbd58bb03da39ca233461d85ff82f00377ccced",
+      "pdf_bytes": 332051,
+      "raw_pdf": "/sessions/brave-vigilant-newton/mnt/corpus/raw/zambialii/si/2000/si-zm-2000-019-mines-and-minerals-environmental-exemption-order-2000.pdf",
+      "record_path": "/sessions/brave-vigilant-newton/mnt/corpus/records/sis/2000/si-zm-2000-019-mines-and-minerals-environmental-exemption-order-2000.json"
+    },
+    {
+      "year": 2000,
+      "number": 18,
+      "status": "ok",
+      "record_id": "si-zm-2000-018-mines-and-minerals-royalty-remission-order-2000",
+      "sections": 1,
+      "title": "Mines and Minerals (Royalty) (Remission) Order, 2000",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2000/18/eng@2000-02-11/source.pdf",
+      "pdf_hash": "a3991319980d50c561283ce63b806a2ee7e27528768cc0c4ca1fba63f318f109",
+      "pdf_bytes": 893894,
+      "raw_pdf": "/sessions/brave-vigilant-newton/mnt/corpus/raw/zambialii/si/2000/si-zm-2000-018-mines-and-minerals-royalty-remission-order-2000.pdf",
+      "record_path": "/sessions/brave-vigilant-newton/mnt/corpus/records/sis/2000/si-zm-2000-018-mines-and-minerals-royalty-remission-order-2000.json"
+    }
+  ]
+}
