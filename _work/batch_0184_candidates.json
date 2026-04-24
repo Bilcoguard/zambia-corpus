@@ -1,0 +1,48 @@
+{
+  "batch": "0184",
+  "discovered_at": "2026-04-24T14:04:21Z",
+  "index_urls": [
+    "https://zambialii.org/legislation/?alphabet=E",
+    "https://zambialii.org/legislation/?alphabet=M"
+  ],
+  "count": 6,
+  "head_record_count": 143,
+  "candidates": [
+    {
+      "year": 2022,
+      "number": 13,
+      "title": "Minimum Wages and Conditions of Employment (Truck and Bus Drivers) (Amendment) Order, 2022",
+      "source_index": "https://zambialii.org/legislation/?alphabet=E"
+    },
+    {
+      "year": 2021,
+      "number": 93,
+      "title": "Minimum Wages and Conditions of Employment (Truck and Bus Drivers) (Amendment) Order, 2021",
+      "source_index": "https://zambialii.org/legislation/?alphabet=E"
+    },
+    {
+      "year": 2011,
+      "number": 2,
+      "title": "Minimum Wages and Conditions of Employment (General) Order, 2010",
+      "source_index": "https://zambialii.org/legislation/?alphabet=M"
+    },
+    {
+      "year": 2011,
+      "number": 1,
+      "title": "Minimum Wages and Conditions of Employment (Shop Workers) Order, 2011",
+      "source_index": "https://zambialii.org/legislation/?alphabet=M"
+    },
+    {
+      "year": 2002,
+      "number": 3,
+      "title": "Minimum Wages and Conditions of Employment (Shop Workers) Order, 2002",
+      "source_index": "https://zambialii.org/legislation/?alphabet=M"
+    },
+    {
+      "year": 2002,
+      "number": 2,
+      "title": "Minimum Wages and Conditions of Employment (General) Order, 2002",
+      "source_index": "https://zambialii.org/legislation/?alphabet=M"
+    }
+  ]
+}
