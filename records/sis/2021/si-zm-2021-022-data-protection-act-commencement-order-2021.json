@@ -1,0 +1,36 @@
+{
+  "id": "si-zm-2021-022-data-protection-act-commencement-order-2021",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Data Protection Act (Commencement) Order, 2021",
+  "citation": "Statutory Instrument No. 22 of 2021",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Order may be cited as the Data Protection Act Title",
+      "text": "(Commencement)Order,2021."
+    },
+    {
+      "number": "2",
+      "heading": "The DataProtectionAct,2021,shallcomeintooperation Commence-",
+      "text": "onthedateofpublicationofthisOrder. mentofAct\nNo.3of\n2021\nM. L. KAFWAYA,\nLUSAKA Minister of Transport and\n31stMarch,2021 Communication\n[MTC.64/9/35]\nCopiesofthisStatutory Instrumentcan be obtained from the GovernmentPrinter,\nP.O.Box30136,10101 Lusaka.PriceK4.00each.\n74 Statutory Instruments 1stApril,2021"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2021/22/eng@2021-04-01/source.pdf",
+  "source_hash": "sha256:b4389aa8f70ca09a515021aad50a52fba396f2f1a47b0bdb356934d537e987e0",
+  "fetched_at": "2026-04-24T18:07:29Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2021/22/eng@2021-04-01",
+      "source_hash": "sha256:63c005f395e001917f21a3b66bbab7b6f4c1d63304c55d192cc2709a65d6df29",
+      "fetched_at": "2026-04-24T18:07:22Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}
