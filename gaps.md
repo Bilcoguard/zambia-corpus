@@ -935,3 +935,16 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - 1995/7 'Electoral (Amendment) Act, 1995': pre-fetch reject — title contains 'amendment' (via query 'electoral')
 - 1988/20 'Electoral (Amendment) Act, 1988': pre-fetch reject — title contains 'amendment' (via query 'electoral')
 - 2001/4 'Electoral (Amendment) Act, 2001': pre-fetch reject — title contains 'amendment' (via query 'electoral')
+
+## Batch 0169 per-target notes (2026-04-24T05:16:34Z)
+
+- 2011/3 'Juveniles (Amendment) Act , 2011': alphabetical-fallback pre-fetch reject — title contains 'amendment' (via query 'juveniles act')
+- 1994/17 'Stamp Duty (Repeal) Act , 1994': alphabetical-fallback pre-fetch reject — title contains 'repeal' (via query 'stamp duties act')
+- 1990/32 'Stamp Duty (Amendment) Act , 1990': alphabetical-fallback pre-fetch reject — title contains 'amendment' (via query 'stamp duties act')
+- 1992/8 'Stamp Duty (Amendment) Act , 1992': alphabetical-fallback pre-fetch reject — title contains 'amendment' (via query 'stamp duties act')
+- 1984/3 'Stamp Duty (Amendment) Act , 1984': alphabetical-fallback pre-fetch reject — title contains 'amendment' (via query 'stamp duties act')
+- UNRESOLVED CAP. PARENT ('juveniles act'): no-nature-filter probe returned ZambiaLII count=163, page-1 /akn/zm/act/ links=3. No primary parent surfaced. Pivot next tick to parliament.gov.zm listing.
+- UNRESOLVED CAP. PARENT ('hire purchase act'): no-nature-filter probe returned ZambiaLII count=79, page-1 /akn/zm/act/ links=17. No primary parent surfaced. Pivot next tick to parliament.gov.zm listing.
+- UNRESOLVED CAP. PARENT ('stamp duties act'): no-nature-filter probe returned ZambiaLII count=130, page-1 /akn/zm/act/ links=32. No primary parent surfaced. Pivot next tick to parliament.gov.zm listing.
+- UNRESOLVED CAP. PARENT ('sale of goods act'): no-nature-filter probe returned ZambiaLII count=663, page-1 /akn/zm/act/ links=0. No primary parent surfaced. Pivot next tick to parliament.gov.zm listing.
+- UNRESOLVED CAP. PARENT ('bills of exchange act'): no-nature-filter probe returned ZambiaLII count=79, page-1 /akn/zm/act/ links=19. No primary parent surfaced. Pivot next tick to parliament.gov.zm listing.
