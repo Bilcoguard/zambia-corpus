@@ -955,3 +955,17 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - 2021/37 'zambia-correctional-service-act-2021': pre-queue reject — already in HEAD (parliament.gov.zm /node/9008 — primary Act, absent from HEAD)
 - 2021/35 'narcotic-drugs-and-psychotropic-substances-act-2021': pre-queue reject — already in HEAD (parliament.gov.zm /node/9005 — primary Act, absent from HEAD)
 - 2021/34 'industrial-hemp-act-2021': pre-queue reject — already in HEAD (parliament.gov.zm /node/9004 — primary Act, absent from HEAD)
+- [2026-04-24T07:38:20Z] 2026/001 listing_title='The Teaching Profession Act, 2026' status=skip_slot_in_head node=https://www.parliament.gov.zm/node/12917 batch=0172
+- [2026-04-24T07:38:20Z] 2025/029 listing_title='The Zambia Institute of Procurement and Supply Act, 2025' status=skip_slot_in_head node=https://www.parliament.gov.zm/node/12779 batch=0172
+- [2026-04-24T07:38:20Z] 2025/027 listing_title='The Betting Act, 2025' status=skip_slot_in_head node=https://www.parliament.gov.zm/node/12777 batch=0172
+- [2026-04-24T07:38:20Z] 2025/026 listing_title='The Zambia National Broadcasting Corporation Act, 2025' status=skip_slot_in_head node=https://www.parliament.gov.zm/node/12775 batch=0172
+- [2026-04-24T07:38:20Z] 2025/025 listing_title='The Independent Broadcasting Authority Act, 2025' status=skip_slot_in_head node=https://www.parliament.gov.zm/node/12774 batch=0172
+- [2026-04-24T07:41:28Z] 2015/002 AKN probe status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/2015/2 batch=0172
+- [2026-04-24T07:41:42Z] 2015/010 AKN probe status=reject_title:appropriation:Excess Expenditure Appropriation (2012) Act, 2015 url=https://zambialii.org/akn/zm/act/2015/10 batch=0172
+- [2026-04-24T07:41:55Z] 2021/022 AKN probe status=reject_title:amendment:Public-Private Partnership (Amendment) Act, 2021 url=https://zambialii.org/akn/zm/act/2021/22 batch=0172
+- [2026-04-24T07:44:37Z] 2015/002 AKN exists at https://zambialii.org/akn/zm/act/2015/2/eng@2015-08-14 but title 'Anti-Terrorism (Amendment) Act, 2015' rejected by B-POL-ACT-1 (token='amendment'); slot intentionally absent from HEAD. batch=0172
+- [2026-04-24T07:44:37Z] 2015/010 AKN exists at https://zambialii.org/akn/zm/act/2015/10/eng@2015-08-14 but title 'Excess Expenditure Appropriation (2012) Act, 2015' rejected by B-POL-ACT-1 (token='excess expenditure'); slot intentionally absent from HEAD. batch=0172
+- [2026-04-24T07:44:37Z] 2021/022 AKN exists at https://zambialii.org/akn/zm/act/2021/22/eng@2021-03-24 but title 'Public-Private Partnership (Amendment) Act, 2021' rejected by B-POL-ACT-1 (token='amendment'); slot intentionally absent from HEAD. batch=0172
+- [2026-04-24T07:44:37Z] 2021/036 AKN exists at https://zambialii.org/akn/zm/act/2021/36/eng@2021-05-20 but title 'Acts of Parliament (Amendment) Act, 2021' rejected by B-POL-ACT-1 (token='amendment'); slot intentionally absent from HEAD. batch=0172
+- [2026-04-24T07:44:37Z] 2021/039 AKN exists at https://zambialii.org/akn/zm/act/2021/39/eng@2021-05-20 but title 'Lands and Deeds Registry (Amendment) Act, 2021' rejected by B-POL-ACT-1 (token='amendment'); slot intentionally absent from HEAD. batch=0172
+- [2026-04-24T07:44:37Z] 2021/040 AKN exists at https://zambialii.org/akn/zm/act/2021/40/eng@2021-05-20 but title 'Land Survey (Amendment) Act, 2021' rejected by B-POL-ACT-1 (token='amendment'); slot intentionally absent from HEAD. batch=0172
