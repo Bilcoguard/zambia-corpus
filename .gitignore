@@ -34,3 +34,6 @@ venv/
 *.log.tmp
 seeds/
 corpus.sqlite
+
+# per-batch progress state (fresh-index sub-tick checkpointing; virtiofs can't always rm)
+.batch_*_state.json
