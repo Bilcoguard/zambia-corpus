@@ -914,3 +914,10 @@ Note: the `/legislation/?q=` URL used in earlier batch notes is misleading — t
 - 1995/30 'Local Government (Amendment) Act, 1995': pre-fetch reject — title contains 'amendment' (via query 'local government')
 - 1993/31 'Local Government Elections (Amendment) Act, 1993': pre-fetch reject — title contains 'amendment' (via query 'local government')
 - 1996/18 'Constitution of Zambia (Amendment) Act, 1996': pre-fetch reject — title contains 'amendment' (via query 'chieftaincy')
+
+## Batch 0167 per-target notes (2026-04-22T16:34:44Z)
+
+- 2007/22 'Fisheries Act (Amendment) Act, 2007': pre-fetch reject — title contains 'amendment' (via query 'fisheries')
+- 1981/15 'Forest (Amendment) Act, 1981': pre-fetch reject — title contains 'amendment' (via query 'forests')
+- 1982/33 'National Parks and Wildlife (Amendment) Act, 1982': pre-fetch reject — title contains 'amendment' (via query 'wildlife')
+- 2020/26 'Appropriation Act, 2020': pre-fetch reject — title contains 'appropriation' (via query 'traditional leadership')

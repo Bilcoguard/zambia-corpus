@@ -2842,3 +2842,14 @@
 {"date": "2026-04-22", "url": "https://zambialii.org/akn/zm/act/1964/3", "bytes": 72874, "batch": "0166", "fetch_n": 11}
 {"date": "2026-04-22", "url": "https://zambialii.org/akn/zm/act/1972/19", "bytes": 169930, "batch": "0166", "fetch_n": 12}
 {"date": "2026-04-22", "url": "https://zambialii.org/akn/zm/act/1990/12", "bytes": 459885, "batch": "0166", "fetch_n": 13}
+{"date": "2026-04-22", "url": "https://zambialii.org/search/api/documents/?search=fisheries&nature=Act", "bytes": 28666, "batch": "0167-probe", "fetch_n": 1}
+{"date": "2026-04-22", "url": "https://zambialii.org/search/api/documents/?search=forests&nature=Act", "bytes": 31201, "batch": "0167-probe", "fetch_n": 2}
+{"date": "2026-04-22", "url": "https://zambialii.org/search/api/documents/?search=wildlife&nature=Act", "bytes": 30956, "batch": "0167-probe", "fetch_n": 3}
+{"date": "2026-04-22", "url": "https://zambialii.org/search/api/documents/?search=customary%20law&nature=Act", "bytes": 27529, "batch": "0167-probe", "fetch_n": 4}
+{"date": "2026-04-22", "url": "https://zambialii.org/search/api/documents/?search=traditional%20leadership&nature=Act", "bytes": 8602, "batch": "0167-probe", "fetch_n": 5}
+{"date": "2026-04-22", "url": "https://zambialii.org/search/api/documents/?search=chiefs&nature=Act", "bytes": 33043, "batch": "0167-probe", "fetch_n": 6}
+{"date": "2026-04-22", "url": "https://zambialii.org/search/api/documents/?search=marriage&nature=Act", "bytes": 31234, "batch": "0167-probe", "fetch_n": 7}
+{"date": "2026-04-22", "url": "https://zambialii.org/search/api/documents/?search=succession&nature=Act", "bytes": 26460, "batch": "0167-probe", "fetch_n": 8}
+{"date": "2026-04-22", "url": "https://zambialii.org/akn/zm/act/1965/67", "bytes": 72784, "batch": "0167", "fetch_n": 9}
+{"date": "2026-04-22", "url": "https://zambialii.org/akn/zm/act/1926/6", "bytes": 47136, "batch": "0167", "fetch_n": 10}
+{"date": "2026-04-22", "url": "https://zambialii.org/akn/zm/act/1926/21", "bytes": 57216, "batch": "0167", "fetch_n": 11}
