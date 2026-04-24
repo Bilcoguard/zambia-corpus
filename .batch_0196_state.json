@@ -1,0 +1,145 @@
+{
+  "batch": "0196",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_family_closeout_plus_sis_tax_rotation",
+  "started_at": "2026-04-24T20:03:30Z",
+  "completed_at": "2026-04-24T20:12:17Z",
+  "fetches_used": 19,
+  "records_written": 7,
+  "targets_attempted": 7,
+  "family_records_ok": 1,
+  "tax_records_ok": 6,
+  "results": [
+    {
+      "year": 2013,
+      "number": 14,
+      "sub_phase": "sis_family",
+      "status": "ok",
+      "record_id": "si-zm-2013-014-juveniles-approved-school-establishment-notice-2012",
+      "sections": 1,
+      "title": "Juveniles (Approved School) (Establishment) Notice, 2012",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2013/14/eng@2013-02-01/source.pdf",
+      "pdf_hash": "ef609df8b079977ab01ea5877b1674b2182e1a5e30bb0ecf2abbd0aa7e3873b7",
+      "pdf_bytes": 82460,
+      "raw_pdf": "raw/zambialii/si/2013/si-zm-2013-014-juveniles-approved-school-establishment-notice-2012.pdf",
+      "record_path": "records/sis/2013/si-zm-2013-014-juveniles-approved-school-establishment-notice-2012.json"
+    },
+    {
+      "year": 2011,
+      "number": 33,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2011-033-income-tax-tax-clearance-exemption-regulations-2011",
+      "sections": 2,
+      "title": "Income Tax (Tax Clearance) (Exemption) Regulations, 2011",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2011/33/eng@2011-04-15/source.pdf",
+      "pdf_hash": "b18f1be05893c2168751c9aed944ab4d21e2e4c3fab163c5f22d0b4b28ef6cf3",
+      "pdf_bytes": 93522,
+      "raw_pdf": "raw/zambialii/si/2011/si-zm-2011-033-income-tax-tax-clearance-exemption-regulations-2011.pdf",
+      "record_path": "records/sis/2011/si-zm-2011-033-income-tax-tax-clearance-exemption-regulations-2011.json"
+    },
+    {
+      "year": 2024,
+      "number": 18,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2024-018-value-added-tax-cross-border-electronic-services-regulations-2024",
+      "sections": 5,
+      "title": "Value Added Tax (Cross Border Electronic Services) Regulations, 2024",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2024/18/eng@2024-02-26/source.pdf",
+      "pdf_hash": "dfd1b3fab41bb651e003873d428d67dbf294ad5b7baf3a750b012d3c058fce37",
+      "pdf_bytes": 305510,
+      "raw_pdf": "raw/zambialii/si/2024/si-zm-2024-018-value-added-tax-cross-border-electronic-services-regulations-2024.pdf",
+      "record_path": "records/sis/2024/si-zm-2024-018-value-added-tax-cross-border-electronic-services-regulations-2024.json"
+    },
+    {
+      "year": 2014,
+      "number": 69,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2014-069-value-added-tax-zero-rating-order-2014",
+      "sections": 11,
+      "title": "Value Added Tax (Zero Rating) Order, 2014",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2014/69/eng@2014-12-31/source.pdf",
+      "pdf_hash": "1d42db982c7509cad968dbd1d487d6310945f6afae3d1a6a4ed6eae7e1c3c33e",
+      "pdf_bytes": 21650,
+      "raw_pdf": "raw/zambialii/si/2014/si-zm-2014-069-value-added-tax-zero-rating-order-2014.pdf",
+      "record_path": "records/sis/2014/si-zm-2014-069-value-added-tax-zero-rating-order-2014.json"
+    },
+    {
+      "year": 2014,
+      "number": 68,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2014-068-value-added-tax-exemption-order-2014",
+      "sections": 20,
+      "title": "Value Added Tax (Exemption) Order, 2014",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2014/68/eng@2014-12-31/source.pdf",
+      "pdf_hash": "fe6570002d83856b1eaf3f15e121ff8aee7b00317eade7bc18e016e56561fc1a",
+      "pdf_bytes": 102538,
+      "raw_pdf": "raw/zambialii/si/2014/si-zm-2014-068-value-added-tax-exemption-order-2014.pdf",
+      "record_path": "records/sis/2014/si-zm-2014-068-value-added-tax-exemption-order-2014.json"
+    },
+    {
+      "year": 2008,
+      "number": 14,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2008-014-value-added-tax-rate-of-tax-order-2008",
+      "sections": 1,
+      "title": "Value Added Tax (Rate of Tax) Order, 2008",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2008/14/eng@2008-01-25/source.pdf",
+      "pdf_hash": "7bd03216dd9ac2fd649d9d2a4b648b8e15dc23e2208a2115d261989672f5b988",
+      "pdf_bytes": 113536,
+      "raw_pdf": "raw/zambialii/si/2008/si-zm-2008-014-value-added-tax-rate-of-tax-order-2008.pdf",
+      "record_path": "records/sis/2008/si-zm-2008-014-value-added-tax-rate-of-tax-order-2008.json"
+    },
+    {
+      "year": 2007,
+      "number": 19,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2007-019-value-added-tax-taxable-value-regulations-2007",
+      "sections": 13,
+      "title": "Value Added Tax (Taxable Value) Regulations, 2007",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2007/19/eng@2007-02-09/source.pdf",
+      "pdf_hash": "562f88285036d20e5de33a2d45e9ee049292f92472330af7e56d3099249e22db",
+      "pdf_bytes": 188063,
+      "raw_pdf": "raw/zambialii/si/2007/si-zm-2007-019-value-added-tax-taxable-value-regulations-2007.pdf",
+      "record_path": "records/sis/2007/si-zm-2007-019-value-added-tax-taxable-value-regulations-2007.json"
+    }
+  ],
+  "discoveries": [
+    {
+      "url": "https://zambialii.org/legislation/subsidiary?alphabet=J",
+      "cached_at": "_work/batch_0196_alphabet_J.html",
+      "sha256": "2009d6b04877d0b4bf16ecc6c65efd294aab42811e398544bd081957fc995e24",
+      "bytes": 59443
+    },
+    {
+      "url": "https://zambialii.org/legislation/subsidiary?alphabet=M",
+      "cached_at": "_work/batch_0196_alphabet_M.html",
+      "sha256": "5e6a496520a749cde96f653130b4462ffbaceb6600e28c45f2a9e1912c3ba896",
+      "bytes": 125415
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/2022/12",
+      "cached_at": "_work/batch_0196_childrens_code_2022_12.html",
+      "sha256": "c44f80c2d7dc63683e5e59062f9c22127e98fe15a6718f2affbf33861580c27d",
+      "bytes": 2080302
+    },
+    {
+      "url": "https://zambialii.org/legislation/subsidiary?alphabet=I",
+      "cached_at": "_work/batch_0196_alphabet_I.html",
+      "sha256": "7740c41190ac702d7061e7ec2400d0329be0ee15858d2fff959858665d6a2665",
+      "bytes": 138246
+    },
+    {
+      "url": "https://zambialii.org/legislation/subsidiary?alphabet=V",
+      "cached_at": "_work/batch_0196_alphabet_V.html",
+      "sha256": "4ec99ae7e54b5b56459805c3f7456f9f0060c9f4e64e3227880d35505d330e1d",
+      "bytes": 79416
+    }
+  ],
+  "execution_note": "initial batch_0196.py process killed at 45s sandbox timeout after writing 3/7 records; resumed via scripts/batch_0196_resume.py in 2 chunks (slices 0:2, 2:4)."
+}

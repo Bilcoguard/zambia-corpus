@@ -1,0 +1,31 @@
+{
+  "id": "si-zm-2008-014-value-added-tax-rate-of-tax-order-2008",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Value Added Tax (Rate of Tax) Order, 2008",
+  "citation": "Statutory Instrument No. 14 of 2008",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "2",
+      "heading": "(!) Notwithstanding subsection (3) of section nine of the Rate of tax",
+      "text": "Act, the prescribed rate of tax shall be sixteen per centum.\n(2) In subparagraph (I), \"Act\" means theV alue Added Tax\nAct. Cap. 33 I\nN.P. MAGANDE,\nMinister of Finance\nLUSAKA and National Planning\n24th January, 2008\n•\n[MFB.103/12/12]\nCopies of this Statutory Instrument can be obtainedf rom the Government Printer,\nP.O. Box 30136, 10/01 Lusaka. Price K500 each.\n68 Statutory Instruments 25th January, 2008\n. '"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2008/14/eng@2008-01-25/source.pdf",
+  "source_hash": "sha256:7bd03216dd9ac2fd649d9d2a4b648b8e15dc23e2208a2115d261989672f5b988",
+  "fetched_at": "2026-04-24T20:11:32Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2008/14/eng@2008-01-25",
+      "source_hash": "sha256:0b7375097c1d3fc0790223b7b4279e66c30594b5a5051747a1404b3295fb7652",
+      "fetched_at": "2026-04-24T20:11:31Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

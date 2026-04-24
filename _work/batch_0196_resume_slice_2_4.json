@@ -1,0 +1,39 @@
+{
+  "slice": [
+    2,
+    4
+  ],
+  "fetch_start": 15,
+  "fetch_end": 19,
+  "results": [
+    {
+      "year": 2008,
+      "number": 14,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2008-014-value-added-tax-rate-of-tax-order-2008",
+      "sections": 1,
+      "title": "Value Added Tax (Rate of Tax) Order, 2008",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2008/14/eng@2008-01-25/source.pdf",
+      "pdf_hash": "7bd03216dd9ac2fd649d9d2a4b648b8e15dc23e2208a2115d261989672f5b988",
+      "pdf_bytes": 113536,
+      "raw_pdf": "/sessions/funny-jolly-galileo/mnt/corpus/raw/zambialii/si/2008/si-zm-2008-014-value-added-tax-rate-of-tax-order-2008.pdf",
+      "record_path": "/sessions/funny-jolly-galileo/mnt/corpus/records/sis/2008/si-zm-2008-014-value-added-tax-rate-of-tax-order-2008.json"
+    },
+    {
+      "year": 2007,
+      "number": 19,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2007-019-value-added-tax-taxable-value-regulations-2007",
+      "sections": 13,
+      "title": "Value Added Tax (Taxable Value) Regulations, 2007",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2007/19/eng@2007-02-09/source.pdf",
+      "pdf_hash": "562f88285036d20e5de33a2d45e9ee049292f92472330af7e56d3099249e22db",
+      "pdf_bytes": 188063,
+      "raw_pdf": "/sessions/funny-jolly-galileo/mnt/corpus/raw/zambialii/si/2007/si-zm-2007-019-value-added-tax-taxable-value-regulations-2007.pdf",
+      "record_path": "/sessions/funny-jolly-galileo/mnt/corpus/records/sis/2007/si-zm-2007-019-value-added-tax-taxable-value-regulations-2007.json"
+    }
+  ],
+  "completed_at": "2026-04-24T20:11:53Z"
+}

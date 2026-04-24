@@ -1,0 +1,39 @@
+{
+  "slice": [
+    0,
+    2
+  ],
+  "fetch_start": 11,
+  "fetch_end": 15,
+  "results": [
+    {
+      "year": 2014,
+      "number": 69,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2014-069-value-added-tax-zero-rating-order-2014",
+      "sections": 11,
+      "title": "Value Added Tax (Zero Rating) Order, 2014",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2014/69/eng@2014-12-31/source.pdf",
+      "pdf_hash": "1d42db982c7509cad968dbd1d487d6310945f6afae3d1a6a4ed6eae7e1c3c33e",
+      "pdf_bytes": 21650,
+      "raw_pdf": "/sessions/funny-jolly-galileo/mnt/corpus/raw/zambialii/si/2014/si-zm-2014-069-value-added-tax-zero-rating-order-2014.pdf",
+      "record_path": "/sessions/funny-jolly-galileo/mnt/corpus/records/sis/2014/si-zm-2014-069-value-added-tax-zero-rating-order-2014.json"
+    },
+    {
+      "year": 2014,
+      "number": 68,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2014-068-value-added-tax-exemption-order-2014",
+      "sections": 20,
+      "title": "Value Added Tax (Exemption) Order, 2014",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2014/68/eng@2014-12-31/source.pdf",
+      "pdf_hash": "fe6570002d83856b1eaf3f15e121ff8aee7b00317eade7bc18e016e56561fc1a",
+      "pdf_bytes": 102538,
+      "raw_pdf": "/sessions/funny-jolly-galileo/mnt/corpus/raw/zambialii/si/2014/si-zm-2014-068-value-added-tax-exemption-order-2014.pdf",
+      "record_path": "/sessions/funny-jolly-galileo/mnt/corpus/records/sis/2014/si-zm-2014-068-value-added-tax-exemption-order-2014.json"
+    }
+  ],
+  "completed_at": "2026-04-24T20:11:27Z"
+}
