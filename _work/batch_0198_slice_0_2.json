@@ -1,0 +1,67 @@
+{
+  "batch": "0198",
+  "slice": [
+    0,
+    2
+  ],
+  "started_at": "2026-04-24T21:05:16Z",
+  "completed_at": "2026-04-24T21:05:37Z",
+  "fetch_start": 0,
+  "fetch_end": 8,
+  "results": [
+    {
+      "year": 2022,
+      "number": 37,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2022-037-tax-appeals-tribunal-rules-2022",
+      "sections": 74,
+      "title": "Tax Appeals Tribunal Rules, 2022",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2022/37/eng@2022-06-03/source.pdf",
+      "pdf_hash": "6735d17a99ada7bdd6caf8a6b06d424b252196c3cf161a419290d966fbc8845f",
+      "pdf_bytes": 478117,
+      "raw_pdf": "/sessions/elegant-gallant-hopper/mnt/corpus/raw/zambialii/si/2022/si-zm-2022-037-tax-appeals-tribunal-rules-2022.pdf",
+      "record_path": "/sessions/elegant-gallant-hopper/mnt/corpus/records/sis/2022/si-zm-2022-037-tax-appeals-tribunal-rules-2022.json"
+    },
+    {
+      "year": 2018,
+      "number": 67,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2018-067-tobacco-levy-regulations-2018",
+      "sections": 3,
+      "title": "Tobacco Levy Regulations, 2018",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2018/67/eng@2018-08-31/source.pdf",
+      "pdf_hash": "1fa0838490ae80a4c7fa57dfd26d0e0cb04a8222e52a0aee1e67080abc5e87f8",
+      "pdf_bytes": 19381,
+      "raw_pdf": "/sessions/elegant-gallant-hopper/mnt/corpus/raw/zambialii/si/2018/si-zm-2018-067-tobacco-levy-regulations-2018.pdf",
+      "record_path": "/sessions/elegant-gallant-hopper/mnt/corpus/records/sis/2018/si-zm-2018-067-tobacco-levy-regulations-2018.json"
+    }
+  ],
+  "discoveries": [
+    {
+      "url": "https://zambialii.org/robots.txt",
+      "cached_at": "_work/batch_0198_robots.txt",
+      "sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+      "bytes": 2022
+    },
+    {
+      "url": "https://zambialii.org/legislation/subsidiary?alphabet=M",
+      "cached_at": "_work/batch_0198_alphabet_M.html",
+      "sha256": "5e6a496520a749cde96f653130b4462ffbaceb6600e28c45f2a9e1912c3ba896",
+      "bytes": 125415
+    },
+    {
+      "url": "https://zambialii.org/legislation/subsidiary?alphabet=E",
+      "cached_at": "_work/batch_0198_alphabet_E.html",
+      "sha256": "b63e1c3aeddf94f117f4c56a8f12eb6004d7f81b12439d238d5edecd573cfada",
+      "bytes": 122726
+    },
+    {
+      "url": "https://zambialii.org/legislation/subsidiary?alphabet=T",
+      "cached_at": "_work/batch_0198_alphabet_T.html",
+      "sha256": "562a166b2b06cc4c4fd4941805ffa596edd713680591b1d64ea137561c90c616",
+      "bytes": 137567
+    }
+  ]
+}

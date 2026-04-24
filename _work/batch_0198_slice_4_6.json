@@ -1,0 +1,42 @@
+{
+  "batch": "0198",
+  "slice": [
+    4,
+    6
+  ],
+  "started_at": "2026-04-24T21:06:09Z",
+  "completed_at": "2026-04-24T21:06:31Z",
+  "fetch_start": 12,
+  "fetch_end": 16,
+  "results": [
+    {
+      "year": 2007,
+      "number": 20,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2007-020-taxation-provisional-charging-order-2007",
+      "sections": 5,
+      "title": "Taxation (Provisional Charging) Order, 2007",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2007/20/eng@2007-02-09/source.pdf",
+      "pdf_hash": "588118d7549d653d3239abcbe610580d97ddb21bf2f0c398b0ecb14e1a28d6d6",
+      "pdf_bytes": 473024,
+      "raw_pdf": "/sessions/elegant-gallant-hopper/mnt/corpus/raw/zambialii/si/2007/si-zm-2007-020-taxation-provisional-charging-order-2007.pdf",
+      "record_path": "/sessions/elegant-gallant-hopper/mnt/corpus/records/sis/2007/si-zm-2007-020-taxation-provisional-charging-order-2007.json"
+    },
+    {
+      "year": 2006,
+      "number": 4,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2006-004-taxation-provisional-charging-order-2006",
+      "sections": 2,
+      "title": "Taxation (Provisional Charging) Order, 2006",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2006/4/eng@2006-02-03/source.pdf",
+      "pdf_hash": "4a2d254a34e1d16ce2f50bb3ee16d53d0d2c9c40d2a6195596aa8c5f07a9ed91",
+      "pdf_bytes": 120527,
+      "raw_pdf": "/sessions/elegant-gallant-hopper/mnt/corpus/raw/zambialii/si/2006/si-zm-2006-004-taxation-provisional-charging-order-2006.pdf",
+      "record_path": "/sessions/elegant-gallant-hopper/mnt/corpus/records/sis/2006/si-zm-2006-004-taxation-provisional-charging-order-2006.json"
+    }
+  ],
+  "discoveries": []
+}

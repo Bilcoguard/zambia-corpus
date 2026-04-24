@@ -1,0 +1,42 @@
+{
+  "batch": "0198",
+  "slice": [
+    2,
+    4
+  ],
+  "started_at": "2026-04-24T21:05:45Z",
+  "completed_at": "2026-04-24T21:06:06Z",
+  "fetch_start": 8,
+  "fetch_end": 12,
+  "results": [
+    {
+      "year": 2009,
+      "number": 5,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2009-005-taxation-provisional-charging-order-2009",
+      "sections": 1,
+      "title": "Taxation (Provisional Charging) Order, 2009",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2009/5/eng@2009-01-30/source.pdf",
+      "pdf_hash": "5550cf71e39e8e86b47a726dd0e49a028e9bfb835252282a04cc1c64eff57e84",
+      "pdf_bytes": 154252,
+      "raw_pdf": "/sessions/elegant-gallant-hopper/mnt/corpus/raw/zambialii/si/2009/si-zm-2009-005-taxation-provisional-charging-order-2009.pdf",
+      "record_path": "/sessions/elegant-gallant-hopper/mnt/corpus/records/sis/2009/si-zm-2009-005-taxation-provisional-charging-order-2009.json"
+    },
+    {
+      "year": 2008,
+      "number": 15,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2008-015-taxation-provisional-charging-order-2008",
+      "sections": 5,
+      "title": "Taxation (Provisional Charging) Order, 2008",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2008/15/eng@2008-01-25/source.pdf",
+      "pdf_hash": "e953b4dab64f6d448009bd2cde67bcd2e0eb84fd216b4b700f1910baf4601da1",
+      "pdf_bytes": 120149,
+      "raw_pdf": "/sessions/elegant-gallant-hopper/mnt/corpus/raw/zambialii/si/2008/si-zm-2008-015-taxation-provisional-charging-order-2008.pdf",
+      "record_path": "/sessions/elegant-gallant-hopper/mnt/corpus/records/sis/2008/si-zm-2008-015-taxation-provisional-charging-order-2008.json"
+    }
+  ],
+  "discoveries": []
+}

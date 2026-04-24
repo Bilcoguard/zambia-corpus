@@ -1,0 +1,51 @@
+{
+  "id": "si-zm-2008-015-taxation-provisional-charging-order-2008",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Taxation (Provisional Charging) Order, 2008",
+  "citation": "Statutory Instrument No. 15 of 2008",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Order may be cited as the Taxation (Provisional Title",
+      "text": "Charging) Order, 2008."
+    },
+    {
+      "number": "2",
+      "heading": "Subject to the Taxation (Provisional Charging) Act, the Provisional",
+      "text": "enforcement\nprovisions of the Bills listed in the Schedule to this Order shall, until\nofBills\nthe Bills become law, have the force of law as from 26th January,\nCap. 364"
+    },
+    {
+      "number": "2008",
+      "heading": "SCHEDULE",
+      "text": "(Paragraph 2)"
+    },
+    {
+      "number": "1",
+      "heading": "The Customs and Excise (Amendment) Bill, 2008",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "The Value Added Tax (Amendment) Bill, 2008",
+      "text": "N.P. MAGANDE,\nMinister of Finance\nLUSAKA and National Planning\n24th January, 2008\n[MFB. l 03/17/30]\nCopies of this Statutory Instrument can be obtainedf rom the Government Printer,\nP.O. Box 30136, JOJO] Lusaka. Price K500 each.\n70 Statutory Instruments 25th January, 2008•"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2008/15/eng@2008-01-25/source.pdf",
+  "source_hash": "sha256:e953b4dab64f6d448009bd2cde67bcd2e0eb84fd216b4b700f1910baf4601da1",
+  "fetched_at": "2026-04-24T21:06:00Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2008/15/eng@2008-01-25",
+      "source_hash": "sha256:e59c0665a0fbadbbde9a0432f5f454230bbd437d790f54e9566a7403a1702c02",
+      "fetched_at": "2026-04-24T21:05:53Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

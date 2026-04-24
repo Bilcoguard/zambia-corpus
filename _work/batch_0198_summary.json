@@ -1,0 +1,169 @@
+{
+  "batch": "0198",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_tax_continuation_tax_appeals_tobacco_provisional_charging",
+  "started_at": "2026-04-24T21:05:16Z",
+  "completed_at": "2026-04-24T21:06:56Z",
+  "fetches_used": 20,
+  "records_written": 8,
+  "targets_attempted": 8,
+  "tax_records_ok": 8,
+  "results": [
+    {
+      "year": 2022,
+      "number": 37,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2022-037-tax-appeals-tribunal-rules-2022",
+      "sections": 74,
+      "title": "Tax Appeals Tribunal Rules, 2022",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2022/37/eng@2022-06-03/source.pdf",
+      "pdf_hash": "6735d17a99ada7bdd6caf8a6b06d424b252196c3cf161a419290d966fbc8845f",
+      "pdf_bytes": 478117,
+      "raw_pdf": "/sessions/elegant-gallant-hopper/mnt/corpus/raw/zambialii/si/2022/si-zm-2022-037-tax-appeals-tribunal-rules-2022.pdf",
+      "record_path": "/sessions/elegant-gallant-hopper/mnt/corpus/records/sis/2022/si-zm-2022-037-tax-appeals-tribunal-rules-2022.json"
+    },
+    {
+      "year": 2018,
+      "number": 67,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2018-067-tobacco-levy-regulations-2018",
+      "sections": 3,
+      "title": "Tobacco Levy Regulations, 2018",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2018/67/eng@2018-08-31/source.pdf",
+      "pdf_hash": "1fa0838490ae80a4c7fa57dfd26d0e0cb04a8222e52a0aee1e67080abc5e87f8",
+      "pdf_bytes": 19381,
+      "raw_pdf": "/sessions/elegant-gallant-hopper/mnt/corpus/raw/zambialii/si/2018/si-zm-2018-067-tobacco-levy-regulations-2018.pdf",
+      "record_path": "/sessions/elegant-gallant-hopper/mnt/corpus/records/sis/2018/si-zm-2018-067-tobacco-levy-regulations-2018.json"
+    },
+    {
+      "year": 2009,
+      "number": 5,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2009-005-taxation-provisional-charging-order-2009",
+      "sections": 1,
+      "title": "Taxation (Provisional Charging) Order, 2009",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2009/5/eng@2009-01-30/source.pdf",
+      "pdf_hash": "5550cf71e39e8e86b47a726dd0e49a028e9bfb835252282a04cc1c64eff57e84",
+      "pdf_bytes": 154252,
+      "raw_pdf": "/sessions/elegant-gallant-hopper/mnt/corpus/raw/zambialii/si/2009/si-zm-2009-005-taxation-provisional-charging-order-2009.pdf",
+      "record_path": "/sessions/elegant-gallant-hopper/mnt/corpus/records/sis/2009/si-zm-2009-005-taxation-provisional-charging-order-2009.json"
+    },
+    {
+      "year": 2008,
+      "number": 15,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2008-015-taxation-provisional-charging-order-2008",
+      "sections": 5,
+      "title": "Taxation (Provisional Charging) Order, 2008",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2008/15/eng@2008-01-25/source.pdf",
+      "pdf_hash": "e953b4dab64f6d448009bd2cde67bcd2e0eb84fd216b4b700f1910baf4601da1",
+      "pdf_bytes": 120149,
+      "raw_pdf": "/sessions/elegant-gallant-hopper/mnt/corpus/raw/zambialii/si/2008/si-zm-2008-015-taxation-provisional-charging-order-2008.pdf",
+      "record_path": "/sessions/elegant-gallant-hopper/mnt/corpus/records/sis/2008/si-zm-2008-015-taxation-provisional-charging-order-2008.json"
+    },
+    {
+      "year": 2007,
+      "number": 20,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2007-020-taxation-provisional-charging-order-2007",
+      "sections": 5,
+      "title": "Taxation (Provisional Charging) Order, 2007",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2007/20/eng@2007-02-09/source.pdf",
+      "pdf_hash": "588118d7549d653d3239abcbe610580d97ddb21bf2f0c398b0ecb14e1a28d6d6",
+      "pdf_bytes": 473024,
+      "raw_pdf": "/sessions/elegant-gallant-hopper/mnt/corpus/raw/zambialii/si/2007/si-zm-2007-020-taxation-provisional-charging-order-2007.pdf",
+      "record_path": "/sessions/elegant-gallant-hopper/mnt/corpus/records/sis/2007/si-zm-2007-020-taxation-provisional-charging-order-2007.json"
+    },
+    {
+      "year": 2006,
+      "number": 4,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2006-004-taxation-provisional-charging-order-2006",
+      "sections": 2,
+      "title": "Taxation (Provisional Charging) Order, 2006",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2006/4/eng@2006-02-03/source.pdf",
+      "pdf_hash": "4a2d254a34e1d16ce2f50bb3ee16d53d0d2c9c40d2a6195596aa8c5f07a9ed91",
+      "pdf_bytes": 120527,
+      "raw_pdf": "/sessions/elegant-gallant-hopper/mnt/corpus/raw/zambialii/si/2006/si-zm-2006-004-taxation-provisional-charging-order-2006.pdf",
+      "record_path": "/sessions/elegant-gallant-hopper/mnt/corpus/records/sis/2006/si-zm-2006-004-taxation-provisional-charging-order-2006.json"
+    },
+    {
+      "year": 2005,
+      "number": 10,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2005-010-taxation-provisional-charging-order-2005",
+      "sections": 2,
+      "title": "Taxation (Provisional Charging) Order, 2005",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2005/10/eng@2005-01-28/source.pdf",
+      "pdf_hash": "c4983a7399852810cf0c5e24e4464fb3d67e1b2eee19911bc0e12a8b02633b68",
+      "pdf_bytes": 128972,
+      "raw_pdf": "/sessions/elegant-gallant-hopper/mnt/corpus/raw/zambialii/si/2005/si-zm-2005-010-taxation-provisional-charging-order-2005.pdf",
+      "record_path": "/sessions/elegant-gallant-hopper/mnt/corpus/records/sis/2005/si-zm-2005-010-taxation-provisional-charging-order-2005.json"
+    },
+    {
+      "year": 2004,
+      "number": 10,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "record_id": "si-zm-2004-010-taxation-provisional-charging-order-2004",
+      "sections": 2,
+      "title": "Taxation (Provisional Charging) Order, 2004",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2004/10/eng@2004-02-06/source.pdf",
+      "pdf_hash": "cfa35250e186c1c0a550ae27cf7e0402e6fbf22890c5fabd575138932ae6aa1b",
+      "pdf_bytes": 117873,
+      "raw_pdf": "/sessions/elegant-gallant-hopper/mnt/corpus/raw/zambialii/si/2004/si-zm-2004-010-taxation-provisional-charging-order-2004.pdf",
+      "record_path": "/sessions/elegant-gallant-hopper/mnt/corpus/records/sis/2004/si-zm-2004-010-taxation-provisional-charging-order-2004.json"
+    }
+  ],
+  "discoveries": [
+    {
+      "url": "https://zambialii.org/robots.txt",
+      "cached_at": "_work/batch_0198_robots.txt",
+      "sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+      "bytes": 2022
+    },
+    {
+      "url": "https://zambialii.org/legislation/subsidiary?alphabet=M",
+      "cached_at": "_work/batch_0198_alphabet_M.html",
+      "sha256": "5e6a496520a749cde96f653130b4462ffbaceb6600e28c45f2a9e1912c3ba896",
+      "bytes": 125415
+    },
+    {
+      "url": "https://zambialii.org/legislation/subsidiary?alphabet=E",
+      "cached_at": "_work/batch_0198_alphabet_E.html",
+      "sha256": "b63e1c3aeddf94f117f4c56a8f12eb6004d7f81b12439d238d5edecd573cfada",
+      "bytes": 122726
+    },
+    {
+      "url": "https://zambialii.org/legislation/subsidiary?alphabet=T",
+      "cached_at": "_work/batch_0198_alphabet_T.html",
+      "sha256": "562a166b2b06cc4c4fd4941805ffa596edd713680591b1d64ea137561c90c616",
+      "bytes": 137567
+    }
+  ],
+  "slices": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      8
+    ]
+  ]
+}
