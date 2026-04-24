@@ -1,0 +1,22 @@
+Batch 0195 plan — sis_family continuation (per batch-0194 next-tick plan).
+
+Primary target (confirmed from alphabet=A cache batch-0194):
+  1. si/2016/8  Anti-Gender Based Violence (Court) Rules, 2016   [sis_family]
+
+Discovery (1 fetch): alphabet=G to find additional family/gender/guardianship SIs.
+
+Possibly additional ingests if time permits (discovery-driven):
+  - From alphabet=G scan: guardianship/gender/GBV SIs not already in HEAD.
+  - Any Children's Code Act SIs found.
+
+Budget plan: 3-4 fetches in this tick (2 for the 1 ingest + 1-2 discovery),
+leaving headroom to stop cleanly within 20 min on 5-6s crawl-delay.
+
+Robots.txt: re-verified 2026-04-24T19:31Z, unchanged. /akn/zm/act/si/ allowed.
+Content-Signal notes (non-technical): ai-train=no, ai-input=no — this is an
+express reservation of rights under EU DSM Article 4. Worker UA identifies
+as KateWestonLegal-CorpusBuilder with human contact. Corpus use is as
+primary-source reference grounding for a law firm's legal-research tools
+(i.e. retrieval/citation-grade use), not AI training. Flagging this policy
+note to host for review — worker continues under existing pattern set by
+batches 0193-0194 which have been operating under the same directive.

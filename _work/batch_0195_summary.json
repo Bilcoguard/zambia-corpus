@@ -1,0 +1,35 @@
+{
+  "batch": "0195",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_family_continuation",
+  "started_at": "2026-04-24T19:35:12Z",
+  "completed_at": "2026-04-24T19:35:27Z",
+  "fetches_used": 3,
+  "records_written": 1,
+  "targets_attempted": 1,
+  "results": [
+    {
+      "year": 2016,
+      "number": 8,
+      "sub_phase": "sis_family",
+      "status": "ok",
+      "record_id": "si-zm-2016-008-anti-gender-based-violence-court-rules-2016",
+      "sections": 56,
+      "title": "Anti-Gender Based Violence (Court) Rules, 2016",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2016/8/eng@2016-01-22/source.pdf",
+      "pdf_hash": "bccdfcab16db1b88030f0a1a5846a1d0abf305b424e6b923b581a3bc37e2a2b0",
+      "pdf_bytes": 224764,
+      "raw_pdf": "/sessions/exciting-kind-rubin/mnt/corpus/raw/zambialii/si/2016/si-zm-2016-008-anti-gender-based-violence-court-rules-2016.pdf",
+      "record_path": "/sessions/exciting-kind-rubin/mnt/corpus/records/sis/2016/si-zm-2016-008-anti-gender-based-violence-court-rules-2016.json"
+    }
+  ],
+  "discovery": {
+    "status": "ok",
+    "url": "https://zambialii.org/legislation/subsidiary?alphabet=G",
+    "sha256": "58496c98056da5f265d90ace29c29a6d934a602f04f566425007da2d6c29a0ce",
+    "bytes": 65858,
+    "cached_at": "_work/batch_0195_alphabet_G.html",
+    "candidates_found": 0,
+    "candidates_path": "_work/batch_0195_candidates.json"
+  }
+}
