@@ -1,0 +1,93 @@
+{
+  "batch": "0185",
+  "discovered_at": "2026-04-24T14:35:11Z",
+  "index_urls": [
+    "https://zambialii.org/legislation/?alphabet=N",
+    "https://zambialii.org/legislation/?alphabet=P",
+    "https://zambialii.org/legislation/?alphabet=W",
+    "https://zambialii.org/legislation/?alphabet=F",
+    "https://zambialii.org/legislation/?alphabet=O"
+  ],
+  "count": 13,
+  "head_record_count": 148,
+  "candidates": [
+    {
+      "year": 2024,
+      "number": 3,
+      "title": "National Pension Scheme (Penalty Waiver) Regulations, 2024",
+      "source_index": "https://zambialii.org/legislation/?alphabet=N"
+    },
+    {
+      "year": 2021,
+      "number": 90,
+      "title": "National Pension Scheme (Pensionable Earnings) (Amendment) Regulations, 2021",
+      "source_index": "https://zambialii.org/legislation/?alphabet=N"
+    },
+    {
+      "year": 2021,
+      "number": 50,
+      "title": "Pension Scheme (Investment Guidelines) Regulations, 2021",
+      "source_index": "https://zambialii.org/legislation/?alphabet=P"
+    },
+    {
+      "year": 2018,
+      "number": 8,
+      "title": "Factories (Plant Inspection and Examination Fees) Regulations, 2018",
+      "source_index": "https://zambialii.org/legislation/?alphabet=F"
+    },
+    {
+      "year": 2014,
+      "number": 1,
+      "title": "National Pension Scheme (Exemption) (Variation) Order, 2014",
+      "source_index": "https://zambialii.org/legislation/?alphabet=N"
+    },
+    {
+      "year": 2011,
+      "number": 4,
+      "title": "Workers Compensation (Permanent Disablement)(Commutation of Pension) Regulation, 2011",
+      "source_index": "https://zambialii.org/legislation/?alphabet=W"
+    },
+    {
+      "year": 2005,
+      "number": 25,
+      "title": "Workers' Compensation (Assessment of Earnings) Regulations",
+      "source_index": "https://zambialii.org/legislation/?alphabet=W"
+    },
+    {
+      "year": 2002,
+      "number": 41,
+      "title": "Pension Scheme (Returns) Regulations, 2002",
+      "source_index": "https://zambialii.org/legislation/?alphabet=P"
+    },
+    {
+      "year": 2002,
+      "number": 39,
+      "title": "Pension Scheme (Offshore Investments) Regulations, 2002",
+      "source_index": "https://zambialii.org/legislation/?alphabet=P"
+    },
+    {
+      "year": 2000,
+      "number": 37,
+      "title": "Pension Scheme Regulation (Investment) (Exemption) Order, 2000",
+      "source_index": "https://zambialii.org/legislation/?alphabet=P"
+    },
+    {
+      "year": 2000,
+      "number": 34,
+      "title": "National Pension Scheme (Transfer of Employees) Order, 2000",
+      "source_index": "https://zambialii.org/legislation/?alphabet=N"
+    },
+    {
+      "year": 2000,
+      "number": 22,
+      "title": "National Pension Scheme (Pensionable Earnings) Regulations, 2000",
+      "source_index": "https://zambialii.org/legislation/?alphabet=N"
+    },
+    {
+      "year": 1994,
+      "number": 39,
+      "title": "Workmen's Compensation (Assessment or Earnings) Regulations, 1994",
+      "source_index": "https://zambialii.org/legislation/?alphabet=W"
+    }
+  ]
+}

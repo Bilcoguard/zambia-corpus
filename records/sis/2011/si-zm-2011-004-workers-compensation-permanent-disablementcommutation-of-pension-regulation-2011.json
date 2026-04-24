@@ -1,0 +1,51 @@
+{
+  "id": "si-zm-2011-004-workers-compensation-permanent-disablementcommutation-of-pension-regulation-2011",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Workers Compensation (Permanent Disablement)(Commutation of Pension) Regulation, 2011",
+  "citation": "Statutory Instrument No. 4 of 2011",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "These Regulations maybe cited as the Workers Title",
+      "text": "Compensation (Permenent Disablement) (Commutation of Pension)\nRegulations, 2011."
+    },
+    {
+      "number": "2",
+      "heading": "In these regulations, unless the context otherwise requires- Interpretation",
+      "text": "\"Commutation factors\" means actuaral factors used to\ndetermine the lump sum payable under section eighty-one\nof the Act:\n\"earnings\" has the meaning assigned to it in the Act;"
+    },
+    {
+      "number": "3",
+      "heading": "For the purpose of section eighty-one of the Act, the Prescribed",
+      "text": "prescribed amount shall be fifty thousand kwacha amount under\nsection\n81 of Act"
+    },
+    {
+      "number": "4",
+      "heading": "Alump sum payable to a worker pursuant to section eighty­ Calculation of",
+      "text": "one of the Act for permanent disablement, shall be calculated in lump sum\naccordance with the formula set out in the Schedule. payable for\npermanent\ndisablement\nSCHEDULE\n(Regulation 4)\nCALCULATION OF LUMP SUM PAYMENT\nI. Fifty percent of the assessed earnings ofa worker who has suffered\npennanent disablement multiplied by the degree of disablement percentum\nequals the monthly pension for disablement."
+    },
+    {
+      "number": "2",
+      "heading": "The annual pension ofa worker who has sufef red permanent disablement",
+      "text": "multiplied by actuarial age factors equals the total commutation of the\npension for permanent disablement.\nA.\nL!ATO,\nLUSAKA Minister of Labour and\n30TH DECEMBER, 20 I 0 Social Security\n[MLSS/J0J/l J/7]\nCopies of this Statutoty Instrument can be obtained from the Government Printer,\nP.O.Box 30136, 10101 Lusaka Price K/000 each"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2011/4/eng@2011-01-07/source.pdf",
+  "source_hash": "sha256:b879d0ccf663dc87597ade253457c9ef359d8e5109109aea7bf9b638cfd188d4",
+  "fetched_at": "2026-04-24T14:36:53Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2011/4/eng@2011-01-07",
+      "source_hash": "sha256:9f07baef335e90f9372f1dbd94eb572e77f1ff4578b61efafb478f4a26625dfb",
+      "fetched_at": "2026-04-24T14:36:46Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}
