@@ -1,0 +1,46 @@
+{
+  "id": "si-zm-2025-090-income-tax-advance-income-tax-regulations-2025",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Income Tax (Advance Income Tax) Regulations, 2025",
+  "citation": "Statutory Instrument No. 90 of 2025",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "(1) These Regulations may be cited as the Income Tax",
+      "text": "Title and\n(Advance Income Tax) Regulations, 2025. commencement\n(2) These Regulations shall come into operation on 1st January,"
+    },
+    {
+      "number": "2026",
+      "heading": "2. In these Regulations, unless the context otherwise requires Interpretation",
+      "text": "“Commissioner-General” means the Commissioner General\nappointed under the Zambia Revenue Authority Act; and Cap. 321\n“remittance service provider” includes a bank, mobile money\noperator, financial technology application provider, digital\nwallet provider, money transfer operator or any other\nsimilar service provider used for the purposes of remitting\nfunds."
+    },
+    {
+      "number": "3",
+      "heading": "A remittance service provider shall, where that remittance Deduction of",
+      "text": "service provider is transmitting funds outside the Republic of a advance\nincome tax\ntransaction made by a person or partnership without a tax clearance\nby\ncertificate and of a threshold specified under section 81C(1A)(b) remittance\nof the Act, deduct advance income tax on that transaction. service\nprovider on\nremittances\nunder\nsection 81C\nof Act"
+    },
+    {
+      "number": "4",
+      "heading": "(1) A remittance service provider referred to under Submission",
+      "text": "regulation 3 shall, within fourteen days after the end of the month of return and\npayment of\nin which the transaction was made, submit to the Commissioner-\ntax\nGeneral a return with respect to the deduction of the advance\nincome tax as the Commissioner General may determine.\nCopies of this Statutory Instrument can be obtained from the Government Printer,\nP. O. Box 30136, 10101 Lusaka. Price K8.00 each\n882 Statutory Instruments 31st December, 2025\n(2) The tax on the return referred to under subregulation (1)\nshall be payable within fourteen days after the end of the month in\nwhich the transaction was made.\nRepeal of SI 5. The Income Tax (Advance Income Tax) Regulations, 2024\nNo. 96 of are repealed.\n2024\nC. MULENGA,\nMinister of Finance and\nNational Planning\nLUSAKA\n30th December, 2025\n[MFNP.BO/ 64/9/6]"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2025/90/eng@2025-12-31/source.pdf",
+  "source_hash": "sha256:b8474e391f44571da9c744e5260a0d85e78ece83b17877024599cb53622aafce",
+  "fetched_at": "2026-04-24T13:10:13Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2025/90/eng@2025-12-31",
+      "source_hash": "sha256:4b52d5fd1d2d7a1855f91ead1de3781381cba0b67d3733bc2fe5085e790e6187",
+      "fetched_at": "2026-04-24T13:10:07Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

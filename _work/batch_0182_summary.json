@@ -1,0 +1,90 @@
+{
+  "batch": "0182",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_tax",
+  "started_at": "2026-04-24T13:09:58Z",
+  "completed_at": "2026-04-24T13:10:20Z",
+  "fetches_used": 12,
+  "records_written": 6,
+  "targets_attempted": 6,
+  "results": [
+    {
+      "year": 2000,
+      "number": 20,
+      "status": "ok",
+      "record_id": "si-zm-2000-020-income-tax-transfer-pricing-regulations-2000",
+      "sections": 5,
+      "title": "Income Tax (Transfer Pricing) Regulations, 2000",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2000/20/eng@2000-02-18/source.pdf",
+      "pdf_hash": "013f319ecf7bf7ee2f2e868c2a960d4df820a89e83ac12a30f8efe6b4b88fd36",
+      "pdf_bytes": 984625,
+      "raw_pdf": "/sessions/exciting-nice-edison/mnt/corpus/raw/zambialii/si/2000/si-zm-2000-020-income-tax-transfer-pricing-regulations-2000.pdf",
+      "record_path": "/sessions/exciting-nice-edison/mnt/corpus/records/sis/2000/si-zm-2000-020-income-tax-transfer-pricing-regulations-2000.json"
+    },
+    {
+      "year": 2009,
+      "number": 47,
+      "status": "ok",
+      "record_id": "si-zm-2009-047-income-tax-turnover-tax-regulations-2009",
+      "sections": 4,
+      "title": "Income Tax (Turnover Tax) Regulations, 2009",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2009/47/eng@2009-07-31/source.pdf",
+      "pdf_hash": "70f5d4bc1265c7f53531c04117a42aea44b3d1d72e02d3e29127fcdc1c8bd59c",
+      "pdf_bytes": 390658,
+      "raw_pdf": "/sessions/exciting-nice-edison/mnt/corpus/raw/zambialii/si/2009/si-zm-2009-047-income-tax-turnover-tax-regulations-2009.pdf",
+      "record_path": "/sessions/exciting-nice-edison/mnt/corpus/records/sis/2009/si-zm-2009-047-income-tax-turnover-tax-regulations-2009.json"
+    },
+    {
+      "year": 2014,
+      "number": 50,
+      "status": "ok",
+      "record_id": "si-zm-2014-050-income-tax-pay-as-you-earn-regulations-2014",
+      "sections": 43,
+      "title": "Income Tax (Pay As You Earn) Regulations, 2014",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2014/50/eng@2014-09-19/source.pdf",
+      "pdf_hash": "e4d12e2dc8d87373194e63af6318725585f2e4f291c5ad844c830c798de845d5",
+      "pdf_bytes": 138516,
+      "raw_pdf": "/sessions/exciting-nice-edison/mnt/corpus/raw/zambialii/si/2014/si-zm-2014-050-income-tax-pay-as-you-earn-regulations-2014.pdf",
+      "record_path": "/sessions/exciting-nice-edison/mnt/corpus/records/sis/2014/si-zm-2014-050-income-tax-pay-as-you-earn-regulations-2014.json"
+    },
+    {
+      "year": 2018,
+      "number": 5,
+      "status": "ok",
+      "record_id": "si-zm-2018-005-independent-broadcasting-authority-television-levy-regulations-2018",
+      "sections": 11,
+      "title": "Independent Broadcasting Authority (Television Levy) Regulations, 2018",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2018/5/eng@2018-02-02/source.pdf",
+      "pdf_hash": "a0390018b8ae81706229dc74a9525e518959e52b3b0d7d44585b13badd8ad70e",
+      "pdf_bytes": 18523,
+      "raw_pdf": "/sessions/exciting-nice-edison/mnt/corpus/raw/zambialii/si/2018/si-zm-2018-005-independent-broadcasting-authority-television-levy-regulations-2018.pdf",
+      "record_path": "/sessions/exciting-nice-edison/mnt/corpus/records/sis/2018/si-zm-2018-005-independent-broadcasting-authority-television-levy-regulations-2018.json"
+    },
+    {
+      "year": 2023,
+      "number": 1,
+      "status": "ok",
+      "record_id": "si-zm-2023-001-income-tax-double-taxation-relief-taxes-on-income-united-arab-emirates-order-202",
+      "sections": 119,
+      "title": "Income Tax (Double Taxation Relief) (Taxes on Income) (United Arab Emirates) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/1/eng@2023-01-11/source.pdf",
+      "pdf_hash": "0b717ed046ca45a6376cd10945c656f6e9f74edf19a0ebe98164784e4d99a431",
+      "pdf_bytes": 419678,
+      "raw_pdf": "/sessions/exciting-nice-edison/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-001-income-tax-double-taxation-relief-taxes-on-income-united-arab-emirates-order-202.pdf",
+      "record_path": "/sessions/exciting-nice-edison/mnt/corpus/records/sis/2023/si-zm-2023-001-income-tax-double-taxation-relief-taxes-on-income-united-arab-emirates-order-202.json"
+    },
+    {
+      "year": 2025,
+      "number": 90,
+      "status": "ok",
+      "record_id": "si-zm-2025-090-income-tax-advance-income-tax-regulations-2025",
+      "sections": 4,
+      "title": "Income Tax (Advance Income Tax) Regulations, 2025",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2025/90/eng@2025-12-31/source.pdf",
+      "pdf_hash": "b8474e391f44571da9c744e5260a0d85e78ece83b17877024599cb53622aafce",
+      "pdf_bytes": 380045,
+      "raw_pdf": "/sessions/exciting-nice-edison/mnt/corpus/raw/zambialii/si/2025/si-zm-2025-090-income-tax-advance-income-tax-regulations-2025.pdf",
+      "record_path": "/sessions/exciting-nice-edison/mnt/corpus/records/sis/2025/si-zm-2025-090-income-tax-advance-income-tax-regulations-2025.json"
+    }
+  ]
+}
