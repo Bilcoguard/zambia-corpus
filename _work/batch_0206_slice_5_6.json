@@ -1,0 +1,30 @@
+{
+  "batch": "0206",
+  "phase": "ingest",
+  "slice": [
+    5,
+    6
+  ],
+  "started_at": "2026-04-25T01:05:48Z",
+  "completed_at": "2026-04-25T01:05:56Z",
+  "fetch_start": 58,
+  "fetch_end": 60,
+  "results": [
+    {
+      "year": 2022,
+      "number": 14,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "presidential (emoluments) (amendment) regulations, 2022",
+      "alphabet": "P",
+      "record_id": "si-zm-2022-014-presidential-emoluments-amendment-regulations-2022",
+      "sections": 3,
+      "title": "Presidential (Emoluments) (Amendment) Regulations, 2022",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2022/14/eng@2022-02-11/source.pdf",
+      "pdf_hash": "703422adce5f9744bf998c36ca95ce64ce9b2d99d205188e40d2c266176b262e",
+      "pdf_bytes": 284296,
+      "raw_pdf": "/sessions/cool-nifty-rubin/mnt/corpus/raw/zambialii/si/2022/si-zm-2022-014-presidential-emoluments-amendment-regulations-2022.pdf",
+      "record_path": "/sessions/cool-nifty-rubin/mnt/corpus/records/sis/2022/si-zm-2022-014-presidential-emoluments-amendment-regulations-2022.json"
+    }
+  ]
+}

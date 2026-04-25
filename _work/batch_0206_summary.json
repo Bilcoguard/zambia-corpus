@@ -1,0 +1,117 @@
+{
+  "batch": "0206",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_employment",
+  "started_at": "2026-04-25T01:03:14Z",
+  "completed_at": "2026-04-25T01:06:00Z",
+  "discovery_fetches": 5,
+  "ingest_fetches": 10,
+  "fetches_used": 15,
+  "records_written": 5,
+  "targets_attempted": 5,
+  "results": [
+    {
+      "year": 2020,
+      "number": 102,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "service commissions (civil service commission) regulations, 2020",
+      "alphabet": "S",
+      "record_id": "si-zm-2020-102-service-commissions-civil-service-commission-regulations-2020",
+      "sections": 57,
+      "title": "Service Commissions (Civil Service Commission) Regulations, 2020",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2020/102/eng@2020-12-18/source.pdf",
+      "pdf_hash": "4931a735badec04e7bbe8b2cc9c2c36206ea51b11d2b5a1bb5164574e51e90de",
+      "pdf_bytes": 59489,
+      "raw_pdf": "/sessions/cool-nifty-rubin/mnt/corpus/raw/zambialii/si/2020/si-zm-2020-102-service-commissions-civil-service-commission-regulations-2020.pdf",
+      "record_path": "/sessions/cool-nifty-rubin/mnt/corpus/records/sis/2020/si-zm-2020-102-service-commissions-civil-service-commission-regulations-2020.json"
+    },
+    {
+      "year": 2021,
+      "number": 76,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "service commission (zambia correctional service commission) regulations, 2021",
+      "alphabet": "S",
+      "record_id": "si-zm-2021-076-service-commission-zambia-correctional-service-commission-regulations-2021",
+      "sections": 57,
+      "title": "Service Commission (Zambia Correctional Service Commission) Regulations, 2021",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2021/76/eng@2021-09-24/source.pdf",
+      "pdf_hash": "600b2221136eace527fb74f5d02720ad8fb4ff41925a56f2132365ae944b5425",
+      "pdf_bytes": 57111,
+      "raw_pdf": "/sessions/cool-nifty-rubin/mnt/corpus/raw/zambialii/si/2021/si-zm-2021-076-service-commission-zambia-correctional-service-commission-regulations-2021.pdf",
+      "record_path": "/sessions/cool-nifty-rubin/mnt/corpus/records/sis/2021/si-zm-2021-076-service-commission-zambia-correctional-service-commission-regulations-2021.json"
+    },
+    {
+      "year": 1993,
+      "number": 3,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "teaching service commission (delegation) directions, 1993",
+      "alphabet": "S",
+      "record_id": "si-zm-1993-003-teaching-service-commission-delegation-directions-1993",
+      "sections": 6,
+      "title": "Teaching Service Commission (Delegation) Directions, 1993",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1993/3/eng@1993-01-15/source.pdf",
+      "pdf_hash": "20a93412f27dc53dedee8316a250ce4e79d0e1b7fbac5543944f50b6ed18b623",
+      "pdf_bytes": 428939,
+      "raw_pdf": "/sessions/cool-nifty-rubin/mnt/corpus/raw/zambialii/si/1993/si-zm-1993-003-teaching-service-commission-delegation-directions-1993.pdf",
+      "record_path": "/sessions/cool-nifty-rubin/mnt/corpus/records/sis/1993/si-zm-1993-003-teaching-service-commission-delegation-directions-1993.json"
+    },
+    {
+      "year": 2020,
+      "number": 96,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "higher education loans and scholarships (transfer of staff) regulations, 2020",
+      "alphabet": "H",
+      "record_id": "si-zm-2020-096-higher-education-loans-and-scholarships-transfer-of-staff-regulations-2020",
+      "sections": 2,
+      "title": "Higher Education Loans and Scholarships (Transfer of Staff) Regulations, 2020",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2020/96/eng@2020-11-27/source.pdf",
+      "pdf_hash": "2f8b1c9d39d6928f2cce0b8bd93ae3c7d46bc716dbef271b22329a06e93db9bc",
+      "pdf_bytes": 10269,
+      "raw_pdf": "/sessions/cool-nifty-rubin/mnt/corpus/raw/zambialii/si/2020/si-zm-2020-096-higher-education-loans-and-scholarships-transfer-of-staff-regulations-2020.pdf",
+      "record_path": "/sessions/cool-nifty-rubin/mnt/corpus/records/sis/2020/si-zm-2020-096-higher-education-loans-and-scholarships-transfer-of-staff-regulations-2020.json"
+    },
+    {
+      "year": 2022,
+      "number": 14,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "presidential (emoluments) (amendment) regulations, 2022",
+      "alphabet": "P",
+      "record_id": "si-zm-2022-014-presidential-emoluments-amendment-regulations-2022",
+      "sections": 3,
+      "title": "Presidential (Emoluments) (Amendment) Regulations, 2022",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2022/14/eng@2022-02-11/source.pdf",
+      "pdf_hash": "703422adce5f9744bf998c36ca95ce64ce9b2d99d205188e40d2c266176b262e",
+      "pdf_bytes": 284296,
+      "raw_pdf": "/sessions/cool-nifty-rubin/mnt/corpus/raw/zambialii/si/2022/si-zm-2022-014-presidential-emoluments-amendment-regulations-2022.pdf",
+      "record_path": "/sessions/cool-nifty-rubin/mnt/corpus/records/sis/2022/si-zm-2022-014-presidential-emoluments-amendment-regulations-2022.json"
+    }
+  ],
+  "discovery_alphabets": [
+    "H",
+    "P",
+    "S",
+    "E"
+  ],
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "novel_total_pre_keyword": 126,
+  "novel_kept_post_keyword": 1,
+  "slices": [
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      5,
+      6
+    ]
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "batch": "0206",
+  "phase": "ingest",
+  "slice": [
+    1,
+    3
+  ],
+  "started_at": "2026-04-25T01:04:54Z",
+  "completed_at": "2026-04-25T01:05:16Z",
+  "fetch_start": 50,
+  "fetch_end": 54,
+  "results": [
+    {
+      "year": 2020,
+      "number": 102,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "service commissions (civil service commission) regulations, 2020",
+      "alphabet": "S",
+      "record_id": "si-zm-2020-102-service-commissions-civil-service-commission-regulations-2020",
+      "sections": 57,
+      "title": "Service Commissions (Civil Service Commission) Regulations, 2020",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2020/102/eng@2020-12-18/source.pdf",
+      "pdf_hash": "4931a735badec04e7bbe8b2cc9c2c36206ea51b11d2b5a1bb5164574e51e90de",
+      "pdf_bytes": 59489,
+      "raw_pdf": "/sessions/cool-nifty-rubin/mnt/corpus/raw/zambialii/si/2020/si-zm-2020-102-service-commissions-civil-service-commission-regulations-2020.pdf",
+      "record_path": "/sessions/cool-nifty-rubin/mnt/corpus/records/sis/2020/si-zm-2020-102-service-commissions-civil-service-commission-regulations-2020.json"
+    },
+    {
+      "year": 2021,
+      "number": 76,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "service commission (zambia correctional service commission) regulations, 2021",
+      "alphabet": "S",
+      "record_id": "si-zm-2021-076-service-commission-zambia-correctional-service-commission-regulations-2021",
+      "sections": 57,
+      "title": "Service Commission (Zambia Correctional Service Commission) Regulations, 2021",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2021/76/eng@2021-09-24/source.pdf",
+      "pdf_hash": "600b2221136eace527fb74f5d02720ad8fb4ff41925a56f2132365ae944b5425",
+      "pdf_bytes": 57111,
+      "raw_pdf": "/sessions/cool-nifty-rubin/mnt/corpus/raw/zambialii/si/2021/si-zm-2021-076-service-commission-zambia-correctional-service-commission-regulations-2021.pdf",
+      "record_path": "/sessions/cool-nifty-rubin/mnt/corpus/records/sis/2021/si-zm-2021-076-service-commission-zambia-correctional-service-commission-regulations-2021.json"
+    }
+  ]
+}
