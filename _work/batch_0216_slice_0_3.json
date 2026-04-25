@@ -1,0 +1,62 @@
+{
+  "batch": "0216",
+  "phase": "ingest",
+  "slice": [
+    0,
+    3
+  ],
+  "started_at": "2026-04-25T06:04:53Z",
+  "completed_at": "2026-04-25T06:05:28Z",
+  "fetch_start": 263,
+  "fetch_end": 269,
+  "results": [
+    {
+      "year": 2023,
+      "number": 27,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (ng\u2019wena village) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-027-national-heritage-conservation-commission-ngwena-village-national-monument-decla",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Ng\u2019wena Village) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/27/eng@2023-08-17/source.pdf",
+      "pdf_hash": "1ed1c60a7b5e61a7ac2a12d1208ef36cb5b650535e4b24aed477adfc1ae83c7d",
+      "pdf_bytes": 472623,
+      "raw_pdf": "/sessions/wizardly-optimistic-wozniak/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-027-national-heritage-conservation-commission-ngwena-village-national-monument-decla.pdf",
+      "record_path": "/sessions/wizardly-optimistic-wozniak/mnt/corpus/records/sis/2023/si-zm-2023-027-national-heritage-conservation-commission-ngwena-village-national-monument-decla.json"
+    },
+    {
+      "year": 2023,
+      "number": 28,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (nalupembe falls) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-028-national-heritage-conservation-commission-nalupembe-falls-national-monument-decl",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Nalupembe Falls) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/28/eng@2023-08-17/source.pdf",
+      "pdf_hash": "67c7e3e45382dd8cf353cda617f51cd47ed79a42e0353dc5bdd7bfbde17b7ac4",
+      "pdf_bytes": 289219,
+      "raw_pdf": "/sessions/wizardly-optimistic-wozniak/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-028-national-heritage-conservation-commission-nalupembe-falls-national-monument-decl.pdf",
+      "record_path": "/sessions/wizardly-optimistic-wozniak/mnt/corpus/records/sis/2023/si-zm-2023-028-national-heritage-conservation-commission-nalupembe-falls-national-monument-decl.json"
+    },
+    {
+      "year": 2023,
+      "number": 29,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (chembe island) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-029-national-heritage-conservation-commission-chembe-island-national-monument-declar",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Chembe Island) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/29/eng@2023-08-17/source.pdf",
+      "pdf_hash": "0d1466656413f90118185a1b357e79e98fc00518c19037bfe47a0eddb8280827",
+      "pdf_bytes": 290069,
+      "raw_pdf": "/sessions/wizardly-optimistic-wozniak/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-029-national-heritage-conservation-commission-chembe-island-national-monument-declar.pdf",
+      "record_path": "/sessions/wizardly-optimistic-wozniak/mnt/corpus/records/sis/2023/si-zm-2023-029-national-heritage-conservation-commission-chembe-island-national-monument-declar.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "batch": "0216",
+  "phase": "ingest",
+  "slice": [
+    5,
+    7
+  ],
+  "started_at": "2026-04-25T06:34:37Z",
+  "completed_at": "2026-04-25T06:34:59Z",
+  "fetch_start": 274,
+  "fetch_end": 278,
+  "results": [
+    {
+      "year": 2023,
+      "number": 32,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (kabwe katenda) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-032-national-heritage-conservation-commission-kabwe-katenda-national-monument-declar",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Kabwe Katenda) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/32/eng@2023-08-17/source.pdf",
+      "pdf_hash": "e3ec53d250d86d065b99300ec353c12eae2d388c6ad14fc0ed5e556d3088040b",
+      "pdf_bytes": 292861,
+      "raw_pdf": "/sessions/quirky-affectionate-curie/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-032-national-heritage-conservation-commission-kabwe-katenda-national-monument-declar.pdf",
+      "record_path": "/sessions/quirky-affectionate-curie/mnt/corpus/records/sis/2023/si-zm-2023-032-national-heritage-conservation-commission-kabwe-katenda-national-monument-declar.json"
+    },
+    {
+      "year": 2023,
+      "number": 33,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (ngonye falls) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-033-national-heritage-conservation-commission-ngonye-falls-national-monument-declara",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Ngonye Falls) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/33/eng@2023-08-17/source.pdf",
+      "pdf_hash": "cc6084abd4c4db844e2c50eac12445509a2b2ecfd3d851663a6deb8e51e53bad",
+      "pdf_bytes": 289681,
+      "raw_pdf": "/sessions/quirky-affectionate-curie/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-033-national-heritage-conservation-commission-ngonye-falls-national-monument-declara.pdf",
+      "record_path": "/sessions/quirky-affectionate-curie/mnt/corpus/records/sis/2023/si-zm-2023-033-national-heritage-conservation-commission-ngonye-falls-national-monument-declara.json"
+    }
+  ]
+}

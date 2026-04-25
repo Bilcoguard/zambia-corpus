@@ -1,0 +1,650 @@
+{
+  "batch": "0216",
+  "phase": "discovery",
+  "started_at": "2026-04-25T06:04:17Z",
+  "completed_at": "2026-04-25T06:04:39Z",
+  "fetches_used": 4,
+  "fetch_end": 263,
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "alphabets": [
+    "M",
+    "N",
+    "P"
+  ],
+  "novel_total_pre_keyword": 80,
+  "novel_kept_post_keyword": 25,
+  "candidates": [
+    {
+      "year": 2023,
+      "number": 27,
+      "text": "national heritage conservation commission (ng\u2019wena village) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 28,
+      "text": "national heritage conservation commission (nalupembe falls) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 29,
+      "text": "national heritage conservation commission (chembe island) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 30,
+      "text": "national heritage conservation commission (mambilima cataracts) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 31,
+      "text": "national heritage conservation commission (musonda falls) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 32,
+      "text": "national heritage conservation commission (kabwe katenda) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 33,
+      "text": "national heritage conservation commission (ngonye falls) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 34,
+      "text": "national heritage conservation commission (membo caves) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 35,
+      "text": "national heritage conservation commission (mumbotuta falls) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 48,
+      "text": "national heritage conservation commission (longola hot springs) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 49,
+      "text": "national heritage conservation commission (mulungushi rock of authority) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 50,
+      "text": "national heritage conservation commission (chinyunyu hot springs) (national monument) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 51,
+      "text": "national heritage conservation commission (mukuku bridge) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 52,
+      "text": "national heritage conservation commission (mpezeni royal burial) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 53,
+      "text": "national heritage conservation commission (tarbuttite site) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 54,
+      "text": "national heritage conservation commission (kavalamanja-kakaroo liberation heritage) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 55,
+      "text": "national heritage conservation commission (chipota falls) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 56,
+      "text": "national heritage conservation commission (broken hill man) (national monument) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 57,
+      "text": "national heritage conservation commission (kabwe mine museum) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 75,
+      "text": "national heritage conservation commission (kalonga gawa undi-dole royal cemetery) (national monument) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2017,
+      "number": 71,
+      "text": "national heritage conservation commission (oliver tambo house) (national monument) (declaration) order, 2017",
+      "letter": "N"
+    },
+    {
+      "year": 2010,
+      "number": 6,
+      "text": "national monuments (entry and user fees) regulation, 2010",
+      "letter": "N"
+    },
+    {
+      "year": 2009,
+      "number": 49,
+      "text": "national heritage conservation commission (national monument) (mulobezi open air railway museum) (declaration) order, 2009",
+      "letter": "N"
+    },
+    {
+      "year": 2009,
+      "number": 50,
+      "text": "conservation commission (national monument) (libala limestone) (declaration) order, 2009",
+      "letter": "N"
+    },
+    {
+      "year": 1997,
+      "number": 49,
+      "text": "national parks and wildlife (night game drives) regulations, 1997",
+      "letter": "N"
+    }
+  ],
+  "novel_pre_keyword_sample": [
+    {
+      "year": 1981,
+      "number": 27,
+      "text": "lusaka district council markets (establishment) order, 1981",
+      "letter": "M"
+    },
+    {
+      "year": 1983,
+      "number": 42,
+      "text": "kaputa district council (market regulations) (application) order, 1983",
+      "letter": "M"
+    },
+    {
+      "year": 1985,
+      "number": 41,
+      "text": "mwense district council (market regulation) (application) order, 1985",
+      "letter": "M"
+    },
+    {
+      "year": 2017,
+      "number": 77,
+      "text": "national markets and bus stations development fund regulations, 2017",
+      "letter": "M"
+    },
+    {
+      "year": 1991,
+      "number": 30,
+      "text": "medical aid societies and nursing homes (exemption, establishment and operation) (authorisation fees) order, 1991",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 10,
+      "text": "medicines and allied substances (agro-veterinary shops) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 11,
+      "text": "medicines and allied substances (dispensing certificates) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 12,
+      "text": "medicines and allied substances (health shops) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 38,
+      "text": "medicines and allied substances (fees) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2019,
+      "number": 80,
+      "text": "medicines and allied substances (expert advisory committee) regulations, 2019",
+      "letter": "M"
+    },
+    {
+      "year": 2017,
+      "number": 58,
+      "text": "medicines and allied substances (certificate of registration) regulations, 2017",
+      "letter": "M"
+    },
+    {
+      "year": 2017,
+      "number": 57,
+      "text": "medicines and allied substances (importation and exportation) regulations, 2017",
+      "letter": "M"
+    },
+    {
+      "year": 2021,
+      "number": 59,
+      "text": "metrology (certification of competence) regulations, 2021",
+      "letter": "M"
+    },
+    {
+      "year": 2021,
+      "number": 55,
+      "text": "metrology (measuring instruments), regulations 2021",
+      "letter": "M"
+    },
+    {
+      "year": 2021,
+      "number": 56,
+      "text": "metrology (pre-packaged commodities),regulations, 2021",
+      "letter": "M"
+    },
+    {
+      "year": 2020,
+      "number": 52,
+      "text": "metrology (verification fees) regulations, 2020",
+      "letter": "M"
+    },
+    {
+      "year": 2022,
+      "number": 7,
+      "text": "national archives (fees) regulations, 2021",
+      "letter": "N"
+    },
+    {
+      "year": 1995,
+      "number": 29,
+      "text": "national archives (fees) regulations, 1995",
+      "letter": "N"
+    },
+    {
+      "year": 1995,
+      "number": 30,
+      "text": "national archives (place of deposit) (revocation) order, 1995",
+      "letter": "N"
+    },
+    {
+      "year": 1986,
+      "number": 32,
+      "text": "national archives (place of deposit) (declaration) order, 1986",
+      "letter": "N"
+    },
+    {
+      "year": 2008,
+      "number": 24,
+      "text": "national constitutional conference (committees) regulations, 2008",
+      "letter": "N"
+    },
+    {
+      "year": 2008,
+      "number": 25,
+      "text": "national constitutional conference (procedure) rules, 2008",
+      "letter": "N"
+    },
+    {
+      "year": 2008,
+      "number": 26,
+      "text": "national constitutional conference (disciplinary committee proceedings) rules, 2008",
+      "letter": "N"
+    },
+    {
+      "year": 2004,
+      "number": 22,
+      "text": "national council for construction (exemption) regulations, 2004",
+      "letter": "N"
+    },
+    {
+      "year": 2009,
+      "number": 37,
+      "text": "national council for construction (forms and fees) regulations, 2009",
+      "letter": "N"
+    },
+    {
+      "year": 2015,
+      "number": 39,
+      "text": "national council for construction (registration of projects) regulations, 2015",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 30,
+      "text": "national dialogue forum (extension) (no. 2) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 28,
+      "text": "national dialogue forum (extension) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2018,
+      "number": 92,
+      "text": "national health research (material transfer) regulations, 2018",
+      "letter": "N"
+    },
+    {
+      "year": 2020,
+      "number": 24,
+      "text": "national health research (bio banking) regulations, 2020",
+      "letter": "N"
+    },
+    {
+      "year": 2020,
+      "number": 25,
+      "text": "national health research (registration and accreditation) regulations, 2020",
+      "letter": "N"
+    },
+    {
+      "year": 2009,
+      "number": 49,
+      "text": "national heritage conservation commission (national monument) (mulobezi open air railway museum) (declaration) order, 2009",
+      "letter": "N"
+    },
+    {
+      "year": 2009,
+      "number": 50,
+      "text": "conservation commission (national monument) (libala limestone) (declaration) order, 2009",
+      "letter": "N"
+    },
+    {
+      "year": 2010,
+      "number": 6,
+      "text": "national monuments (entry and user fees) regulation, 2010",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 27,
+      "text": "national heritage conservation commission (ng\u2019wena village) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 28,
+      "text": "national heritage conservation commission (nalupembe falls) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 31,
+      "text": "national heritage conservation commission (musonda falls) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 29,
+      "text": "national heritage conservation commission (chembe island) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 30,
+      "text": "national heritage conservation commission (mambilima cataracts) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 32,
+      "text": "national heritage conservation commission (kabwe katenda) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 33,
+      "text": "national heritage conservation commission (ngonye falls) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 34,
+      "text": "national heritage conservation commission (membo caves) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 35,
+      "text": "national heritage conservation commission (mumbotuta falls) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 75,
+      "text": "national heritage conservation commission (kalonga gawa undi-dole royal cemetery) (national monument) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 57,
+      "text": "national heritage conservation commission (kabwe mine museum) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 56,
+      "text": "national heritage conservation commission (broken hill man) (national monument) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 55,
+      "text": "national heritage conservation commission (chipota falls) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 54,
+      "text": "national heritage conservation commission (kavalamanja-kakaroo liberation heritage) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 53,
+      "text": "national heritage conservation commission (tarbuttite site) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 52,
+      "text": "national heritage conservation commission (mpezeni royal burial) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 51,
+      "text": "national heritage conservation commission (mukuku bridge) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 50,
+      "text": "national heritage conservation commission (chinyunyu hot springs) (national monument) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 49,
+      "text": "national heritage conservation commission (mulungushi rock of authority) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 48,
+      "text": "national heritage conservation commission (longola hot springs) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2017,
+      "number": 71,
+      "text": "national heritage conservation commission (oliver tambo house) (national monument) (declaration) order, 2017",
+      "letter": "N"
+    },
+    {
+      "year": 2020,
+      "number": 64,
+      "text": "national market and bus station development fund regulations, 2020",
+      "letter": "N"
+    },
+    {
+      "year": 2015,
+      "number": 89,
+      "text": "national museums (declaration) order, 2015",
+      "letter": "N"
+    },
+    {
+      "year": 2016,
+      "number": 59,
+      "text": "national museums (entry fees) regulations, 2016",
+      "letter": "N"
+    },
+    {
+      "year": 1997,
+      "number": 49,
+      "text": "national parks and wildlife (night game drives) regulations, 1997",
+      "letter": "N"
+    },
+    {
+      "year": 2016,
+      "number": 49,
+      "text": "national prosecutions authority (witness allowances and expenses) regulations, 2016",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 34,
+      "text": "national registration regulations, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2008,
+      "number": 16,
+      "text": "national road fund (charges and fees) (apportionment) regulations, 2008",
+      "letter": "N"
+    },
+    {
+      "year": 2005,
+      "number": 19,
+      "text": "national road fund act (commencement) order, 2005",
+      "letter": "N"
+    },
+    {
+      "year": 1987,
+      "number": 36,
+      "text": "national savings and credit (appointment of members of board) order, 1987",
+      "letter": "N"
+    },
+    {
+      "year": 1981,
+      "number": 46,
+      "text": "prohibited publication order",
+      "letter": "P"
+    },
+    {
+      "year": 1996,
+      "number": 33,
+      "text": "prohibited publication order, 1996",
+      "letter": "P"
+    },
+    {
+      "year": 1993,
+      "number": 46,
+      "text": "pharmacy and poisons (fees) order, 1993",
+      "letter": "P"
+    },
+    {
+      "year": 2011,
+      "number": 46,
+      "text": "plant breeder's rights (forms and fees) regulations, 2011",
+      "letter": "P"
+    },
+    {
+      "year": 2020,
+      "number": 69,
+      "text": "plant pests and diseases (phytosanitary certification) regulations, 2020",
+      "letter": "P"
+    },
+    {
+      "year": 2020,
+      "number": 70,
+      "text": "plant pests and diseases (plant quarantine and phytosanitary service fees) regulations, 2020",
+      "letter": "P"
+    },
+    {
+      "year": 1996,
+      "number": 37,
+      "text": "plant pests and diseases (larger grain borer infested areas) (declaration) order, 1996",
+      "letter": "P"
+    },
+    {
+      "year": 2021,
+      "number": 109,
+      "text": "plant variety and seeds (amendment) regulations, 2021",
+      "letter": "P"
+    },
+    {
+      "year": 2018,
+      "number": 23,
+      "text": "plant variety and seeds regulations, 2018",
+      "letter": "P"
+    },
+    {
+      "year": 2017,
+      "number": 55,
+      "text": "preservation of public security regulations, 2017",
+      "letter": "P"
+    },
+    {
+      "year": 1994,
+      "number": 6,
+      "text": "privatisation (political leaders and public officers) (bidding) regulations, 1994",
+      "letter": "P"
+    },
+    {
+      "year": 1993,
+      "number": 40,
+      "text": "privatisation (trade sales and management or employee buyouts) (sale tender) regulations, 1993",
+      "letter": "P"
+    },
+    {
+      "year": 1993,
+      "number": 41,
+      "text": "privatisation (sale or disposal of property) regulations, 1993",
+      "letter": "P"
+    },
+    {
+      "year": 1985,
+      "number": 46,
+      "text": "probation of offenders (application) notice, 1985",
+      "letter": "P"
+    },
+    {
+      "year": 1984,
+      "number": 2,
+      "text": "professional boxing and wrestling control (insurance) regulations, 1984",
+      "letter": "P"
+    },
+    {
+      "year": 2021,
+      "number": 114,
+      "text": "provincial and district boundaries (division) (amendment) (no. 2) order, 2021",
+      "letter": "P"
+    }
+  ]
+}

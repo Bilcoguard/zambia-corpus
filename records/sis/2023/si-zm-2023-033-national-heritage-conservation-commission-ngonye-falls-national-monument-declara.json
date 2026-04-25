@@ -1,0 +1,36 @@
+{
+  "id": "si-zm-2023-033-national-heritage-conservation-commission-ngonye-falls-national-monument-declara",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "National Heritage Conservation Commission (Ngonye Falls) (National Monument) (Declaration) Order, 2023",
+  "citation": "Statutory Instrument No. 33 of 2023",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Order may be cited as the National Heritage Title",
+      "text": "Conservation Commission (Ngonye Falls) (National Monument)\n(Declaration) Order, 2023."
+    },
+    {
+      "number": "2",
+      "heading": "The heritage described in the Schedule is declared a national Declaration",
+      "text": "monument.SCHEDULE of national\nmonument\nCopies of this Statutory Instrument can be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka. Price K 4.00 each.\n206 Statutory Instruments 17th August, 2023\nSCHEDULE\n(Paragraph 2)\nNGONYE FALLS\nLOCATION\nThe site is located in Western Province, Sioma District at latitude 16°39’15’’S and longitude\n23°34’2’’E.\nSTATEMENT OF SIGNIFICANCE\nThe site presents a unique formation similar to that of the Victoria Falls. The site was formed\nas a result of volcanic eruptions in Botswana that created the basaltic rocks which are now eroded\nby the power of water creating the drop for the waterfall. The site is spectacular and has great\npotential for tourism development as it is on the way to Sioma Gwezi National Park.\nBOUNDARY DESCRIPTION\nThe described area measures approximately 10,877 hectares.\nThe described area is shown on a plan marked red, signed by the Surveyor-General and\ndeposited in the office of the Surveyor-General and the National Heritage Conservation\nCommission, Lusaka.\nR. SIKUMBA,\nLUSAKA Minister of Tourism\n11th August, 2023\n(MOT.13/7/1)"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2023/33/eng@2023-08-17/source.pdf",
+  "source_hash": "sha256:cc6084abd4c4db844e2c50eac12445509a2b2ecfd3d851663a6deb8e51e53bad",
+  "fetched_at": "2026-04-25T06:34:52Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2023/33/eng@2023-08-17",
+      "source_hash": "sha256:9874bcc4167ca7534d25a06378d7056cf5ba46c44ad1c467c9a63f3f0a5c68fa",
+      "fetched_at": "2026-04-25T06:34:45Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

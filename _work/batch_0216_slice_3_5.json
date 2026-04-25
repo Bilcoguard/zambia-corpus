@@ -1,0 +1,46 @@
+{
+  "batch": "0216",
+  "phase": "ingest",
+  "slice": [
+    3,
+    5
+  ],
+  "started_at": "2026-04-25T06:34:13Z",
+  "completed_at": "2026-04-25T06:34:34Z",
+  "fetch_start": 270,
+  "fetch_end": 274,
+  "results": [
+    {
+      "year": 2023,
+      "number": 30,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (mambilima cataracts) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-030-national-heritage-conservation-commission-mambilima-cataracts-national-monument-",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Mambilima Cataracts) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/30/eng@2023-08-18/source.pdf",
+      "pdf_hash": "39403d7282658b93cbd88fa3e9865f36f86353fc9068e59dde1052620fad2f9a",
+      "pdf_bytes": 295978,
+      "raw_pdf": "/sessions/quirky-affectionate-curie/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-030-national-heritage-conservation-commission-mambilima-cataracts-national-monument-.pdf",
+      "record_path": "/sessions/quirky-affectionate-curie/mnt/corpus/records/sis/2023/si-zm-2023-030-national-heritage-conservation-commission-mambilima-cataracts-national-monument-.json"
+    },
+    {
+      "year": 2023,
+      "number": 31,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (musonda falls) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-031-national-heritage-conservation-commission-musonda-falls-national-monument-declar",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Musonda Falls) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/31/eng@2023-08-17/source.pdf",
+      "pdf_hash": "370ad4730c5aa6d708f8f737239e023346ed4378de53c051c472c438c65287a9",
+      "pdf_bytes": 288598,
+      "raw_pdf": "/sessions/quirky-affectionate-curie/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-031-national-heritage-conservation-commission-musonda-falls-national-monument-declar.pdf",
+      "record_path": "/sessions/quirky-affectionate-curie/mnt/corpus/records/sis/2023/si-zm-2023-031-national-heritage-conservation-commission-musonda-falls-national-monument-declar.json"
+    }
+  ]
+}

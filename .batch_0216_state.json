@@ -1,0 +1,168 @@
+{
+  "batch": "0216",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_mining",
+  "started_at": "2026-04-25T06:04:17Z",
+  "completed_at": "2026-04-25T06:35:14Z",
+  "discovery_fetches": 4,
+  "ingest_fetches": 17,
+  "fetches_used": 21,
+  "records_written": 8,
+  "targets_attempted": 8,
+  "results": [
+    {
+      "year": 2023,
+      "number": 27,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (ng\u2019wena village) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-027-national-heritage-conservation-commission-ngwena-village-national-monument-decla",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Ng\u2019wena Village) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/27/eng@2023-08-17/source.pdf",
+      "pdf_hash": "1ed1c60a7b5e61a7ac2a12d1208ef36cb5b650535e4b24aed477adfc1ae83c7d",
+      "pdf_bytes": 472623,
+      "raw_pdf": "/sessions/wizardly-optimistic-wozniak/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-027-national-heritage-conservation-commission-ngwena-village-national-monument-decla.pdf",
+      "record_path": "/sessions/wizardly-optimistic-wozniak/mnt/corpus/records/sis/2023/si-zm-2023-027-national-heritage-conservation-commission-ngwena-village-national-monument-decla.json"
+    },
+    {
+      "year": 2023,
+      "number": 28,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (nalupembe falls) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-028-national-heritage-conservation-commission-nalupembe-falls-national-monument-decl",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Nalupembe Falls) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/28/eng@2023-08-17/source.pdf",
+      "pdf_hash": "67c7e3e45382dd8cf353cda617f51cd47ed79a42e0353dc5bdd7bfbde17b7ac4",
+      "pdf_bytes": 289219,
+      "raw_pdf": "/sessions/wizardly-optimistic-wozniak/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-028-national-heritage-conservation-commission-nalupembe-falls-national-monument-decl.pdf",
+      "record_path": "/sessions/wizardly-optimistic-wozniak/mnt/corpus/records/sis/2023/si-zm-2023-028-national-heritage-conservation-commission-nalupembe-falls-national-monument-decl.json"
+    },
+    {
+      "year": 2023,
+      "number": 29,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (chembe island) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-029-national-heritage-conservation-commission-chembe-island-national-monument-declar",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Chembe Island) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/29/eng@2023-08-17/source.pdf",
+      "pdf_hash": "0d1466656413f90118185a1b357e79e98fc00518c19037bfe47a0eddb8280827",
+      "pdf_bytes": 290069,
+      "raw_pdf": "/sessions/wizardly-optimistic-wozniak/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-029-national-heritage-conservation-commission-chembe-island-national-monument-declar.pdf",
+      "record_path": "/sessions/wizardly-optimistic-wozniak/mnt/corpus/records/sis/2023/si-zm-2023-029-national-heritage-conservation-commission-chembe-island-national-monument-declar.json"
+    },
+    {
+      "year": 2023,
+      "number": 30,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (mambilima cataracts) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-030-national-heritage-conservation-commission-mambilima-cataracts-national-monument-",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Mambilima Cataracts) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/30/eng@2023-08-18/source.pdf",
+      "pdf_hash": "39403d7282658b93cbd88fa3e9865f36f86353fc9068e59dde1052620fad2f9a",
+      "pdf_bytes": 295978,
+      "raw_pdf": "/sessions/quirky-affectionate-curie/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-030-national-heritage-conservation-commission-mambilima-cataracts-national-monument-.pdf",
+      "record_path": "/sessions/quirky-affectionate-curie/mnt/corpus/records/sis/2023/si-zm-2023-030-national-heritage-conservation-commission-mambilima-cataracts-national-monument-.json"
+    },
+    {
+      "year": 2023,
+      "number": 31,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (musonda falls) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-031-national-heritage-conservation-commission-musonda-falls-national-monument-declar",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Musonda Falls) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/31/eng@2023-08-17/source.pdf",
+      "pdf_hash": "370ad4730c5aa6d708f8f737239e023346ed4378de53c051c472c438c65287a9",
+      "pdf_bytes": 288598,
+      "raw_pdf": "/sessions/quirky-affectionate-curie/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-031-national-heritage-conservation-commission-musonda-falls-national-monument-declar.pdf",
+      "record_path": "/sessions/quirky-affectionate-curie/mnt/corpus/records/sis/2023/si-zm-2023-031-national-heritage-conservation-commission-musonda-falls-national-monument-declar.json"
+    },
+    {
+      "year": 2023,
+      "number": 32,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (kabwe katenda) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-032-national-heritage-conservation-commission-kabwe-katenda-national-monument-declar",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Kabwe Katenda) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/32/eng@2023-08-17/source.pdf",
+      "pdf_hash": "e3ec53d250d86d065b99300ec353c12eae2d388c6ad14fc0ed5e556d3088040b",
+      "pdf_bytes": 292861,
+      "raw_pdf": "/sessions/quirky-affectionate-curie/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-032-national-heritage-conservation-commission-kabwe-katenda-national-monument-declar.pdf",
+      "record_path": "/sessions/quirky-affectionate-curie/mnt/corpus/records/sis/2023/si-zm-2023-032-national-heritage-conservation-commission-kabwe-katenda-national-monument-declar.json"
+    },
+    {
+      "year": 2023,
+      "number": 33,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (ngonye falls) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-033-national-heritage-conservation-commission-ngonye-falls-national-monument-declara",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Ngonye Falls) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/33/eng@2023-08-17/source.pdf",
+      "pdf_hash": "cc6084abd4c4db844e2c50eac12445509a2b2ecfd3d851663a6deb8e51e53bad",
+      "pdf_bytes": 289681,
+      "raw_pdf": "/sessions/quirky-affectionate-curie/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-033-national-heritage-conservation-commission-ngonye-falls-national-monument-declara.pdf",
+      "record_path": "/sessions/quirky-affectionate-curie/mnt/corpus/records/sis/2023/si-zm-2023-033-national-heritage-conservation-commission-ngonye-falls-national-monument-declara.json"
+    },
+    {
+      "year": 2023,
+      "number": 34,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (membo caves) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-034-national-heritage-conservation-commission-membo-caves-national-monument-declarat",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Membo Caves) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/34/eng@2023-08-18/source.pdf",
+      "pdf_hash": "ad03b26806807d03ff00855f840bd50f3f5fc818a0a2fbf87ca58b3cad212fe3",
+      "pdf_bytes": 287199,
+      "raw_pdf": "/sessions/quirky-affectionate-curie/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-034-national-heritage-conservation-commission-membo-caves-national-monument-declarat.pdf",
+      "record_path": "/sessions/quirky-affectionate-curie/mnt/corpus/records/sis/2023/si-zm-2023-034-national-heritage-conservation-commission-membo-caves-national-monument-declarat.json"
+    }
+  ],
+  "discovery_alphabets": [
+    "M",
+    "N",
+    "P"
+  ],
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "novel_total_pre_keyword": 80,
+  "novel_kept_post_keyword": 25,
+  "slices": [
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      7,
+      8
+    ]
+  ]
+}

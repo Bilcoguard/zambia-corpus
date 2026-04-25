@@ -1,0 +1,30 @@
+{
+  "batch": "0216",
+  "phase": "ingest",
+  "slice": [
+    7,
+    8
+  ],
+  "started_at": "2026-04-25T06:35:03Z",
+  "completed_at": "2026-04-25T06:35:11Z",
+  "fetch_start": 278,
+  "fetch_end": 280,
+  "results": [
+    {
+      "year": 2023,
+      "number": 34,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (membo caves) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-034-national-heritage-conservation-commission-membo-caves-national-monument-declarat",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Membo Caves) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/34/eng@2023-08-18/source.pdf",
+      "pdf_hash": "ad03b26806807d03ff00855f840bd50f3f5fc818a0a2fbf87ca58b3cad212fe3",
+      "pdf_bytes": 287199,
+      "raw_pdf": "/sessions/quirky-affectionate-curie/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-034-national-heritage-conservation-commission-membo-caves-national-monument-declarat.pdf",
+      "record_path": "/sessions/quirky-affectionate-curie/mnt/corpus/records/sis/2023/si-zm-2023-034-national-heritage-conservation-commission-membo-caves-national-monument-declarat.json"
+    }
+  ]
+}
