@@ -1,0 +1,50 @@
+{
+  "pick": {
+    "yr_num": "2019/21",
+    "year": "2019",
+    "num": "21",
+    "title": "Companies (Prescribed Forms) Regulations, 2019",
+    "sub_phase": "sis_corporate",
+    "parent_act": "Companies Act",
+    "eng_date": "2019-03-07"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2019-021-companies-prescribed-forms-regulations-2019",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2019,
+    "number": 21,
+    "title": "Companies (Prescribed Forms) Regulations, 2019",
+    "parent_act": "Companies Act",
+    "sub_phase": "sis_corporate",
+    "effective_date": "2019-03-07",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2019/21",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2019/21/eng@2019-03-07/source.pdf",
+    "source_hash": "d74ff27262e48f410b3fc9112e2b9fb99a9ea1c3b9769b5ef9117b3f11261c12",
+    "html_hash": "ad7e9cf34d8f8a0d3dc2fd8b0e29416322615b67d487332541617ffe99a8d3c4",
+    "fetched_at": "2026-04-25T23:39:56Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 150,
+    "pdf_text_chars": 142745,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2019/si-zm-2019-021-companies-prescribed-forms-regulations-2019.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/21",
+      "bytes": 39112,
+      "path": "raw/zambialii/si/2019/si-zm-2019-021-companies-prescribed-forms-regulations-2019.html",
+      "sha": "ad7e9cf34d8f8a0d3dc2fd8b0e29416322615b67d487332541617ffe99a8d3c4",
+      "reused": true
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/21/eng@2019-03-07/source.pdf",
+      "bytes": 1548243,
+      "path": "raw/zambialii/si/2019/si-zm-2019-021-companies-prescribed-forms-regulations-2019.pdf",
+      "sha": "d74ff27262e48f410b3fc9112e2b9fb99a9ea1c3b9769b5ef9117b3f11261c12"
+    }
+  ]
+}

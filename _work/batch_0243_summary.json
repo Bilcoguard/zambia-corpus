@@ -1,0 +1,34 @@
+{
+  "batch": "0243",
+  "count": 8,
+  "records": [
+    {"id": "si-zm-2019-014-companies-general-regulations-2019", "sub_phase": "sis_corporate", "pages": 7, "chars": 9412},
+    {"id": "si-zm-2019-015-companies-fees-regulations-2019", "sub_phase": "sis_corporate", "pages": 4, "chars": 6163},
+    {"id": "si-zm-2019-021-companies-prescribed-forms-regulations-2019", "sub_phase": "sis_corporate", "pages": 150, "chars": 142745},
+    {"id": "si-zm-2019-040-corporate-insolvency-insolvency-practitioner-accreditation-regulations-2019", "sub_phase": "sis_corporate", "pages": 5, "chars": 4866},
+    {"id": "si-zm-2017-050-citizenship-of-zambia-regulations-2017", "sub_phase": "sis_governance", "pages": 7, "chars": 16982},
+    {"id": "si-zm-2022-027-citizenship-of-zambia-amendment-regulations-2022", "sub_phase": "sis_governance", "pages": 2, "chars": 1573},
+    {"id": "si-zm-2025-016-civil-aviation-designated-provincial-and-strategic-airports-regulations-2025", "sub_phase": "sis_transport", "pages": 2, "chars": 1518},
+    {"id": "si-zm-2020-073-civil-aviation-authority-search-and-rescue-regulations-2020", "sub_phase": "sis_transport", "pages": 30, "chars": 43215}
+  ],
+  "yield": "8/8 (100%)",
+  "first_instance_subphases": ["sis_corporate"],
+  "priority_order_advanced": "sis_corporate (item 2)",
+  "discovery": {
+    "robots_reverify": 1,
+    "alphabet_probes": ["G:0", "U:0", "X:0", "Y:0", "Z:0"],
+    "year_probes": ["year=2024 p1:0", "year=2024 p2:0", "year=2024 p3:13", "year=2023 p1:0"],
+    "candidates_picked_from": "year=2024 page=3"
+  },
+  "unused_substitutes": [
+    {"yr_num": "1992/9", "title": "Air Passenger Service Charge (Charging) Order, 1992"},
+    {"yr_num": "1985/45", "title": "Air Services (Aerial Application Permit) Regulations, 1985"}
+  ],
+  "year2024_p3_residuals": [
+    {"yr_num": "2021/35", "title": "Citizens Economic Empowerment (Transportation of Heavy and Bulk Commodities) Regs"},
+    {"yr_num": "2019/22", "title": "Citizens Economic Empowerment (Reservation Scheme) Regulations, 2019"},
+    {"yr_num": "2025/20", "title": "Compulsory Standards (Declaration) Order, 2025"},
+    {"yr_num": "2020/18", "title": "Compulsory Standards (Potable Spirits) (Declaration) Order, 2020"},
+    {"yr_num": "2018/64", "title": "Constitutional Offices Emoluments Regulations, 2018"}
+  ]
+}
