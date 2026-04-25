@@ -1,0 +1,22 @@
+{
+  "batch": "0231",
+  "check1a": true,
+  "check1b": true,
+  "check2": true,
+  "check3": true,
+  "check4": true,
+  "check5": true,
+  "check6": true,
+  "all_pass": true,
+  "batch_record_count": 8,
+  "batch_ids": [
+    "si-zm-2022-060-urban-and-regional-planning-designated-local-planning-authorities-regulations-2022",
+    "si-zm-2023-009-urban-and-regional-planning-designated-local-planning-authority-regulations-2023",
+    "si-zm-2023-045-urban-and-regional-planning-designated-local-planning-authority-no-2-regulations-2023",
+    "si-zm-2021-037-zambia-medicines-and-medical-supplies-agency-re-engagement-of-staff-regulations-2021",
+    "si-zm-2021-049-zambia-institute-of-advanced-legal-education-students-rules-2021",
+    "si-zm-2022-006-zambia-police-fees-regulations-2022",
+    "si-zm-2022-058-zambezi-river-authority-terms-and-conditions-of-service-amendment-by-laws-2022",
+    "si-zm-2023-014-zambia-medicines-and-medical-supplies-agency-administration-of-fund-regulations-2023"
+  ]
+}

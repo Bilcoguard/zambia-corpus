@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2021/49",
+    "year": "2021",
+    "num": "49",
+    "title": "Zambia Institute of Advanced Legal Education (Students) Rules, 2021",
+    "sub_phase": "sis_legal_education",
+    "parent_act": "Zambia Institute of Advanced Legal Education Act",
+    "eng_date": null
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2021-049-zambia-institute-of-advanced-legal-education-students-rules-2021",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2021,
+    "number": 49,
+    "title": "Zambia Institute of Advanced Legal Education (Students) Rules, 2021",
+    "parent_act": "Zambia Institute of Advanced Legal Education Act",
+    "sub_phase": "sis_legal_education",
+    "effective_date": "2021-05-14",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2021/49",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2021/49/eng@2021-05-14/source.pdf",
+    "source_hash": "a8531721eb0e777459bead091d098066e7063a0c7f21effaca8b3197f032fd3f",
+    "html_hash": "bbdeaee7efb883fb5e8f46983a8ad1265d08a071fae6a3de010bdc9c45ff43c4",
+    "fetched_at": "2026-04-25T17:41:23Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 28,
+    "pdf_text_chars": 44905,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2021/si-zm-2021-049-zambia-institute-of-advanced-legal-education-students-rules-2021.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/49",
+      "bytes": 40387,
+      "path": "raw/zambialii/si/2021/si-zm-2021-049-zambia-institute-of-advanced-legal-education-students-rules-2021.html",
+      "sha": "bbdeaee7efb883fb5e8f46983a8ad1265d08a071fae6a3de010bdc9c45ff43c4"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/49/eng@2021-05-14/source.pdf",
+      "bytes": 1575778,
+      "path": "raw/zambialii/si/2021/si-zm-2021-049-zambia-institute-of-advanced-legal-education-students-rules-2021.pdf",
+      "sha": "a8531721eb0e777459bead091d098066e7063a0c7f21effaca8b3197f032fd3f"
+    }
+  ]
+}

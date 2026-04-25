@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2023/14",
+    "year": "2023",
+    "num": "14",
+    "title": "Zambia Medicines and Medical Supplies Agency (Administration of Fund) Regulations, 2023",
+    "sub_phase": "sis_health",
+    "parent_act": "Zambia Medicines and Medical Supplies Agency Act",
+    "eng_date": null
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2023-014-zambia-medicines-and-medical-supplies-agency-administration-of-fund-regulations-2023",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2023,
+    "number": 14,
+    "title": "Zambia Medicines and Medical Supplies Agency (Administration of Fund) Regulations, 2023",
+    "parent_act": "Zambia Medicines and Medical Supplies Agency Act",
+    "sub_phase": "sis_health",
+    "effective_date": "2023-05-26",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2023/14",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2023/14/eng@2023-05-26/source.pdf",
+    "source_hash": "3d8e98ce8b0c3717fcff823884d2a8d0cd49e731e4564cb3cfb4d3dd919e94c0",
+    "html_hash": "1fcdcf98995b0ad545a5f8f4df40ae1c4b3ed96634564a10b7c67c21809d3ce3",
+    "fetched_at": "2026-04-25T17:42:19Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 4,
+    "pdf_text_chars": 5322,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2023/si-zm-2023-014-zambia-medicines-and-medical-supplies-agency-administration-of-fund-regulations-2023.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2023/14",
+      "bytes": 39422,
+      "path": "raw/zambialii/si/2023/si-zm-2023-014-zambia-medicines-and-medical-supplies-agency-administration-of-fund-regulations-2023.html",
+      "sha": "1fcdcf98995b0ad545a5f8f4df40ae1c4b3ed96634564a10b7c67c21809d3ce3"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2023/14/eng@2023-05-26/source.pdf",
+      "bytes": 303683,
+      "path": "raw/zambialii/si/2023/si-zm-2023-014-zambia-medicines-and-medical-supplies-agency-administration-of-fund-regulations-2023.pdf",
+      "sha": "3d8e98ce8b0c3717fcff823884d2a8d0cd49e731e4564cb3cfb4d3dd919e94c0"
+    }
+  ]
+}

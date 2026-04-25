@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2023/9",
+    "year": "2023",
+    "num": "9",
+    "title": "Urban and Regional Planning (Designated Local Planning Authority) Regulations, 2023",
+    "sub_phase": "sis_planning",
+    "parent_act": "Urban and Regional Planning Act",
+    "eng_date": "2023-03-17"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2023-009-urban-and-regional-planning-designated-local-planning-authority-regulations-2023",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2023,
+    "number": 9,
+    "title": "Urban and Regional Planning (Designated Local Planning Authority) Regulations, 2023",
+    "parent_act": "Urban and Regional Planning Act",
+    "sub_phase": "sis_planning",
+    "effective_date": "2023-03-17",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2023/9",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2023/9/eng@2023-03-17/source.pdf",
+    "source_hash": "1ae9ce244ef958594dae19af29914b3c89d5e98a09d405e30e24dfd4721e2a47",
+    "html_hash": "d9e7f629ae0a68123c34ac33a31135f4eb0e515b2150bd1f64b8d1e069ee67e4",
+    "fetched_at": "2026-04-25T17:40:15Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1097,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2023/si-zm-2023-009-urban-and-regional-planning-designated-local-planning-authority-regulations-2023.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2023/9",
+      "bytes": 39339,
+      "path": "raw/zambialii/si/2023/si-zm-2023-009-urban-and-regional-planning-designated-local-planning-authority-regulations-2023.html",
+      "sha": "d9e7f629ae0a68123c34ac33a31135f4eb0e515b2150bd1f64b8d1e069ee67e4"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2023/9/eng@2023-03-17/source.pdf",
+      "bytes": 284445,
+      "path": "raw/zambialii/si/2023/si-zm-2023-009-urban-and-regional-planning-designated-local-planning-authority-regulations-2023.pdf",
+      "sha": "1ae9ce244ef958594dae19af29914b3c89d5e98a09d405e30e24dfd4721e2a47"
+    }
+  ]
+}

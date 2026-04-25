@@ -1,0 +1,100 @@
+{
+  "alphabets_probed": [
+    "X",
+    "Y",
+    "Z"
+  ],
+  "X_count": 0,
+  "Y_count": 0,
+  "Z_count": 6,
+  "U_residuals_carryover": [
+    {
+      "year": 2022,
+      "num": 60,
+      "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2022",
+      "href": "/akn/zm/act/si/2022/60/eng@2022-09-30"
+    },
+    {
+      "year": 2023,
+      "num": 9,
+      "title": "Urban and Regional Planning (Designated Local Planning Authority) Regulations, 2023",
+      "href": "/akn/zm/act/si/2023/9/eng@2023-03-17"
+    },
+    {
+      "year": 2023,
+      "num": 45,
+      "title": "Urban and Regional Planning (Designated Local Planning Authority) (No. 2) Regulations, 2023",
+      "href": "/akn/zm/act/si/2023/45/eng@2023-10-20"
+    }
+  ],
+  "Z_modern_candidates": [
+    {
+      "year": 2021,
+      "num": 37,
+      "title": "Zambia Medicines and Medical Supplies Agency (Re-engagement of Staff) Regulations, 2021",
+      "href": "/akn/zm/act/si/2021/37/eng@2021-05-07"
+    },
+    {
+      "year": 2021,
+      "num": 49,
+      "title": "Zambia Institute of Advanced Legal Education (Students) Rules, 2021",
+      "href": "/akn/zm/act/si/2021/49/eng@2021-05-14"
+    },
+    {
+      "year": 2022,
+      "num": 6,
+      "title": "Zambia Police (Fees) Regulations, 2022",
+      "href": "/akn/zm/act/si/2022/6/eng@2022-01-14"
+    },
+    {
+      "year": 2022,
+      "num": 58,
+      "title": "Zambezi River Authority (Terms and Conditions of Service) (Amendment) By-Laws, 2022",
+      "href": "/akn/zm/act/si/2022/58/eng@2022-09-23"
+    },
+    {
+      "year": 2023,
+      "num": 14,
+      "title": "Zambia Medicines and Medical Supplies Agency (Administration of Fund) Regulations, 2023",
+      "href": "/akn/zm/act/si/2023/14/eng@2023-05-26"
+    },
+    {
+      "year": 2025,
+      "num": 74,
+      "title": "Zambia Institute of Secretaries (Registration) Regulations, 2025",
+      "href": "/akn/zm/act/si/2025/74/eng@2025-11-21"
+    }
+  ],
+  "Z_novel": [
+    {
+      "year": 2021,
+      "num": 37,
+      "title": "Zambia Medicines and Medical Supplies Agency (Re-engagement of Staff) Regulations, 2021",
+      "href": "/akn/zm/act/si/2021/37/eng@2021-05-07"
+    },
+    {
+      "year": 2021,
+      "num": 49,
+      "title": "Zambia Institute of Advanced Legal Education (Students) Rules, 2021",
+      "href": "/akn/zm/act/si/2021/49/eng@2021-05-14"
+    },
+    {
+      "year": 2022,
+      "num": 6,
+      "title": "Zambia Police (Fees) Regulations, 2022",
+      "href": "/akn/zm/act/si/2022/6/eng@2022-01-14"
+    },
+    {
+      "year": 2022,
+      "num": 58,
+      "title": "Zambezi River Authority (Terms and Conditions of Service) (Amendment) By-Laws, 2022",
+      "href": "/akn/zm/act/si/2022/58/eng@2022-09-23"
+    },
+    {
+      "year": 2023,
+      "num": 14,
+      "title": "Zambia Medicines and Medical Supplies Agency (Administration of Fund) Regulations, 2023",
+      "href": "/akn/zm/act/si/2023/14/eng@2023-05-26"
+    }
+  ]
+}

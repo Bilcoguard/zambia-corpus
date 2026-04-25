@@ -1,0 +1,26 @@
+{
+  "batch": "0231",
+  "phase": "phase_4_bulk",
+  "sub_phases_in_batch": ["sis_planning", "sis_health", "sis_legal_education", "sis_police", "sis_water_resources"],
+  "first_instance_sub_phases": ["sis_health", "sis_legal_education", "sis_police", "sis_water_resources"],
+  "parent_acts": [
+    "Urban and Regional Planning Act",
+    "Zambia Medicines and Medical Supplies Agency Act",
+    "Zambia Institute of Advanced Legal Education Act",
+    "Zambia Police Act",
+    "Zambezi River Authority Act"
+  ],
+  "picks": 8,
+  "ok": 8,
+  "fail": 0,
+  "yield_pct": 100,
+  "fetches_this_batch_robots": 1,
+  "fetches_this_batch_discovery": 3,
+  "fetches_this_batch_ingest_fresh": 15,
+  "fetches_this_batch_ingest_reused": 1,
+  "fetches_today_after_batch": 533,
+  "fetch_budget_remaining": 1467,
+  "integrity_result": "PASS",
+  "cumulative_si_after_batch": 442,
+  "cumulative_judgments": 25
+}

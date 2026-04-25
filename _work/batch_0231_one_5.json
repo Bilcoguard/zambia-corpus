@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2022/6",
+    "year": "2022",
+    "num": "6",
+    "title": "Zambia Police (Fees) Regulations, 2022",
+    "sub_phase": "sis_police",
+    "parent_act": "Zambia Police Act",
+    "eng_date": null
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2022-006-zambia-police-fees-regulations-2022",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2022,
+    "number": 6,
+    "title": "Zambia Police (Fees) Regulations, 2022",
+    "parent_act": "Zambia Police Act",
+    "sub_phase": "sis_police",
+    "effective_date": "2022-01-14",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2022/6",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2022/6/eng@2022-01-14/source.pdf",
+    "source_hash": "145673dbe2d6de00420df3166607772fa2d2e9d1b4367b0258b4f26e032ebd94",
+    "html_hash": "3c821c3e05b719b9e67e13fc7f668ab77308b5c49e399d9c4d0b121ed6214d9d",
+    "fetched_at": "2026-04-25T17:41:42Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 4,
+    "pdf_text_chars": 3102,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2022/si-zm-2022-006-zambia-police-fees-regulations-2022.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/6",
+      "bytes": 41828,
+      "path": "raw/zambialii/si/2022/si-zm-2022-006-zambia-police-fees-regulations-2022.html",
+      "sha": "3c821c3e05b719b9e67e13fc7f668ab77308b5c49e399d9c4d0b121ed6214d9d"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/6/eng@2022-01-14/source.pdf",
+      "bytes": 26646,
+      "path": "raw/zambialii/si/2022/si-zm-2022-006-zambia-police-fees-regulations-2022.pdf",
+      "sha": "145673dbe2d6de00420df3166607772fa2d2e9d1b4367b0258b4f26e032ebd94"
+    }
+  ]
+}

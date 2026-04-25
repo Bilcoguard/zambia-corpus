@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2022/58",
+    "year": "2022",
+    "num": "58",
+    "title": "Zambezi River Authority (Terms and Conditions of Service) (Amendment) By-Laws, 2022",
+    "sub_phase": "sis_water_resources",
+    "parent_act": "Zambezi River Authority Act",
+    "eng_date": null
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2022-058-zambezi-river-authority-terms-and-conditions-of-service-amendment-by-laws-2022",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2022,
+    "number": 58,
+    "title": "Zambezi River Authority (Terms and Conditions of Service) (Amendment) By-Laws, 2022",
+    "parent_act": "Zambezi River Authority Act",
+    "sub_phase": "sis_water_resources",
+    "effective_date": "2022-09-23",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2022/58",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2022/58/eng@2022-09-23/source.pdf",
+    "source_hash": "03e09458050b91cdd45b260f1b3169bf45c94c8ec87525fe1e9a692cb746aa91",
+    "html_hash": "f02b9fdc90cfe072a78892ea6c4dd34be1f08112d1b7ee27580244d5a872b6a7",
+    "fetched_at": "2026-04-25T17:42:00Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1472,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2022/si-zm-2022-058-zambezi-river-authority-terms-and-conditions-of-service-amendment-by-laws-2022.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/58",
+      "bytes": 39365,
+      "path": "raw/zambialii/si/2022/si-zm-2022-058-zambezi-river-authority-terms-and-conditions-of-service-amendment-by-laws-2022.html",
+      "sha": "f02b9fdc90cfe072a78892ea6c4dd34be1f08112d1b7ee27580244d5a872b6a7"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/58/eng@2022-09-23/source.pdf",
+      "bytes": 294417,
+      "path": "raw/zambialii/si/2022/si-zm-2022-058-zambezi-river-authority-terms-and-conditions-of-service-amendment-by-laws-2022.pdf",
+      "sha": "03e09458050b91cdd45b260f1b3169bf45c94c8ec87525fe1e9a692cb746aa91"
+    }
+  ]
+}
