@@ -1,0 +1,46 @@
+{
+  "batch": "0211",
+  "phase": "ingest",
+  "slice": [
+    9,
+    11
+  ],
+  "started_at": "2026-04-25T03:35:24Z",
+  "completed_at": "2026-04-25T03:35:45Z",
+  "fetch_start": 158,
+  "fetch_end": 162,
+  "results": [
+    {
+      "year": 1983,
+      "number": 43,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) order, 1983",
+      "alphabet": "I",
+      "record_id": "si-zm-1983-043-income-tax-foreign-organisations-exemption-approval-order-1983",
+      "sections": 4,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) Order, 1983",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1983/43/eng@1983-04-22/source.pdf",
+      "pdf_hash": "fe7e3903d8125e7b95c80bbdda5dd1533abfbae64d954278a0a96ca696145b46",
+      "pdf_bytes": 206636,
+      "raw_pdf": "/sessions/clever-inspiring-pascal/mnt/corpus/raw/zambialii/si/1983/si-zm-1983-043-income-tax-foreign-organisations-exemption-approval-order-1983.pdf",
+      "record_path": "/sessions/clever-inspiring-pascal/mnt/corpus/records/sis/1983/si-zm-1983-043-income-tax-foreign-organisations-exemption-approval-order-1983.json"
+    },
+    {
+      "year": 1982,
+      "number": 2,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) order, 1982",
+      "alphabet": "I",
+      "record_id": "si-zm-1982-002-income-tax-foreign-organisations-exemption-approval-order-1982",
+      "sections": 3,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) Order, 1982",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1982/2/eng@1982-01-08/source.pdf",
+      "pdf_hash": "d46c17d491523498126169932de2fc916510650c8bfd33e8e703fb1df425200d",
+      "pdf_bytes": 119619,
+      "raw_pdf": "/sessions/clever-inspiring-pascal/mnt/corpus/raw/zambialii/si/1982/si-zm-1982-002-income-tax-foreign-organisations-exemption-approval-order-1982.pdf",
+      "record_path": "/sessions/clever-inspiring-pascal/mnt/corpus/records/sis/1982/si-zm-1982-002-income-tax-foreign-organisations-exemption-approval-order-1982.json"
+    }
+  ]
+}

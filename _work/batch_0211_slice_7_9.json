@@ -1,0 +1,46 @@
+{
+  "batch": "0211",
+  "phase": "ingest",
+  "slice": [
+    7,
+    9
+  ],
+  "started_at": "2026-04-25T03:34:59Z",
+  "completed_at": "2026-04-25T03:35:21Z",
+  "fetch_start": 154,
+  "fetch_end": 158,
+  "results": [
+    {
+      "year": 1984,
+      "number": 11,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "customs and excise (amendment) bill (provisional charging) order, 1984",
+      "alphabet": "T",
+      "record_id": "si-zm-1984-011-customs-and-excise-amendment-bill-provisional-charging-order-1984",
+      "sections": 2,
+      "title": "Customs and Excise (Amendment) Bill (Provisional Charging) Order, 1984",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1984/11/eng@1984-01-27/source.pdf",
+      "pdf_hash": "728d1d15ea6187f4a93c772b7f8aed596c824da308f052e3e659aa8175354a42",
+      "pdf_bytes": 183688,
+      "raw_pdf": "/sessions/clever-inspiring-pascal/mnt/corpus/raw/zambialii/si/1984/si-zm-1984-011-customs-and-excise-amendment-bill-provisional-charging-order-1984.pdf",
+      "record_path": "/sessions/clever-inspiring-pascal/mnt/corpus/records/sis/1984/si-zm-1984-011-customs-and-excise-amendment-bill-provisional-charging-order-1984.json"
+    },
+    {
+      "year": 1984,
+      "number": 45,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) order, 1984",
+      "alphabet": "I",
+      "record_id": "si-zm-1984-045-income-tax-foreign-organisations-exemption-approval-order-1984",
+      "sections": 6,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) Order, 1984",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1984/45/eng@1984-03-30/source.pdf",
+      "pdf_hash": "4e027acafebbe573ce3a5ff3f49a8fe4fe232826041f7e25ed0c5e2cb89074d1",
+      "pdf_bytes": 353070,
+      "raw_pdf": "/sessions/clever-inspiring-pascal/mnt/corpus/raw/zambialii/si/1984/si-zm-1984-045-income-tax-foreign-organisations-exemption-approval-order-1984.pdf",
+      "record_path": "/sessions/clever-inspiring-pascal/mnt/corpus/records/sis/1984/si-zm-1984-045-income-tax-foreign-organisations-exemption-approval-order-1984.json"
+    }
+  ]
+}
