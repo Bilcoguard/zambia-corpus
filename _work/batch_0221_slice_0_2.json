@@ -1,0 +1,38 @@
+{
+  "batch": "0221",
+  "phase": "ingest",
+  "slice": [
+    0,
+    2
+  ],
+  "started_at": "2026-04-25T09:07:07Z",
+  "completed_at": "2026-04-25T09:07:30Z",
+  "fetch_start": 357,
+  "fetch_end": 361,
+  "results": [
+    {
+      "year": 2022,
+      "number": 13,
+      "sub_phase": "sis_employment",
+      "status": "pdf_parse_empty",
+      "discovery_text": "minimum wages and conditions of employment (truck and bus drivers) (amendment) order, 2022",
+      "alphabet": "E"
+    },
+    {
+      "year": 1993,
+      "number": 40,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "privatisation (trade sales and management or employee buyouts) (sale tender) regulations, 1993",
+      "alphabet": "P",
+      "record_id": "si-zm-1993-040-privatisation-trade-sales-and-management-or-employee-buyouts-sale-tender-regulat",
+      "sections": 39,
+      "title": "Privatisation (Trade Sales and Management or Employee Buyouts) (Sale Tender) Regulations, 1993",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1993/40/eng@1993-03-11/source.pdf",
+      "pdf_hash": "4a846ef7984154c4989e727a763aa67ea59975af171a1fcd33d9162816fa56bd",
+      "pdf_bytes": 863105,
+      "raw_pdf": "/sessions/elegant-focused-ritchie/mnt/corpus/raw/zambialii/si/1993/si-zm-1993-040-privatisation-trade-sales-and-management-or-employee-buyouts-sale-tender-regulat.pdf",
+      "record_path": "/sessions/elegant-focused-ritchie/mnt/corpus/records/sis/1993/si-zm-1993-040-privatisation-trade-sales-and-management-or-employee-buyouts-sale-tender-regulat.json"
+    }
+  ]
+}

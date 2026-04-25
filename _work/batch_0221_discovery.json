@@ -1,0 +1,74 @@
+{
+  "batch": "0221",
+  "phase": "discovery",
+  "started_at": "2026-04-25T09:07:01Z",
+  "completed_at": "2026-04-25T09:07:02Z",
+  "fetches_used": 1,
+  "fetch_end": 357,
+  "fetch_start": 356,
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "alphabets": [],
+  "novel_total_pre_keyword": 0,
+  "novel_kept_post_keyword": 8,
+  "candidates": [
+    {
+      "year": 2022,
+      "number": 13,
+      "letter": "E",
+      "sub_phase": "sis_employment",
+      "text": "minimum wages and conditions of employment (truck and bus drivers) (amendment) order, 2022"
+    },
+    {
+      "year": 1993,
+      "number": 40,
+      "letter": "P",
+      "sub_phase": "sis_employment",
+      "text": "privatisation (trade sales and management or employee buyouts) (sale tender) regulations, 1993"
+    },
+    {
+      "year": 2015,
+      "number": 85,
+      "letter": "E",
+      "sub_phase": "sis_education",
+      "text": "education (teacher training college boards) (establishment) order, 2015"
+    },
+    {
+      "year": 2021,
+      "number": 4,
+      "letter": "E",
+      "sub_phase": "sis_education",
+      "text": "electoral process (voter education) regulations, 2021"
+    },
+    {
+      "year": 2020,
+      "number": 80,
+      "letter": "E",
+      "sub_phase": "sis_education",
+      "text": "electoral (registration of voters) regulations, 2020"
+    },
+    {
+      "year": 2016,
+      "number": 60,
+      "letter": "E",
+      "sub_phase": "sis_courts",
+      "text": "local government elections tribunals rules, 2016"
+    },
+    {
+      "year": 2008,
+      "number": 25,
+      "letter": "N",
+      "sub_phase": "sis_courts",
+      "text": "national constitutional conference (procedure) rules, 2008"
+    },
+    {
+      "year": 2008,
+      "number": 26,
+      "letter": "N",
+      "sub_phase": "sis_courts",
+      "text": "national constitutional conference (disciplinary committee proceedings) rules, 2008"
+    }
+  ],
+  "reused_from": "_work/batch_0219_discovery.json (curated cross-sub_phase selection from novel_pre_keyword_sample, 0 alphabet probes)",
+  "cross_sub_phase_rotation": true,
+  "rotation_note": "Per batch-0220 next-tick plan, this tick continues cross-sub_phase fill: drains the cached sis_education pool (3) + sis_employment pool (2) and adds 3 sis_courts candidates from cached novel_pre_keyword_sample. 0 alphabet probes spent \u2014 only robots reverify (1 fetch). sis_employment is priority_order item 4."
+}

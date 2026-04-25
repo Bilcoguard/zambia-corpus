@@ -1,0 +1,156 @@
+{
+  "batch": "0221",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_health",
+  "started_at": "2026-04-25T09:07:01Z",
+  "completed_at": "2026-04-25T09:09:18Z",
+  "discovery_fetches": 1,
+  "ingest_fetches": 16,
+  "fetches_used": 17,
+  "records_written": 7,
+  "targets_attempted": 8,
+  "results": [
+    {
+      "year": 2022,
+      "number": 13,
+      "sub_phase": "sis_employment",
+      "status": "pdf_parse_empty",
+      "discovery_text": "minimum wages and conditions of employment (truck and bus drivers) (amendment) order, 2022",
+      "alphabet": "E"
+    },
+    {
+      "year": 1993,
+      "number": 40,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "privatisation (trade sales and management or employee buyouts) (sale tender) regulations, 1993",
+      "alphabet": "P",
+      "record_id": "si-zm-1993-040-privatisation-trade-sales-and-management-or-employee-buyouts-sale-tender-regulat",
+      "sections": 39,
+      "title": "Privatisation (Trade Sales and Management or Employee Buyouts) (Sale Tender) Regulations, 1993",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1993/40/eng@1993-03-11/source.pdf",
+      "pdf_hash": "4a846ef7984154c4989e727a763aa67ea59975af171a1fcd33d9162816fa56bd",
+      "pdf_bytes": 863105,
+      "raw_pdf": "/sessions/elegant-focused-ritchie/mnt/corpus/raw/zambialii/si/1993/si-zm-1993-040-privatisation-trade-sales-and-management-or-employee-buyouts-sale-tender-regulat.pdf",
+      "record_path": "/sessions/elegant-focused-ritchie/mnt/corpus/records/sis/1993/si-zm-1993-040-privatisation-trade-sales-and-management-or-employee-buyouts-sale-tender-regulat.json"
+    },
+    {
+      "year": 2015,
+      "number": 85,
+      "sub_phase": "sis_education",
+      "status": "ok",
+      "discovery_text": "education (teacher training college boards) (establishment) order, 2015",
+      "alphabet": "E",
+      "record_id": "si-zm-2015-085-education-teacher-training-college-boards-establishment-order-2015",
+      "sections": 2,
+      "title": "Education (Teacher Training College Boards) (Establishment) Order, 2015",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2015/85/eng@2015-11-13/source.pdf",
+      "pdf_hash": "c941298def9ce801fe121449290f51ee2c361722696a156bd9c423d21750b100",
+      "pdf_bytes": 106358,
+      "raw_pdf": "/sessions/elegant-focused-ritchie/mnt/corpus/raw/zambialii/si/2015/si-zm-2015-085-education-teacher-training-college-boards-establishment-order-2015.pdf",
+      "record_path": "/sessions/elegant-focused-ritchie/mnt/corpus/records/sis/2015/si-zm-2015-085-education-teacher-training-college-boards-establishment-order-2015.json"
+    },
+    {
+      "year": 2021,
+      "number": 4,
+      "sub_phase": "sis_education",
+      "status": "ok",
+      "discovery_text": "electoral process (voter education) regulations, 2021",
+      "alphabet": "E",
+      "record_id": "si-zm-2021-004-electoral-process-voter-education-regulations-2021",
+      "sections": 36,
+      "title": "Electoral Process (Voter Education) Regulations, 2021",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2021/4/eng@2021-01-08/source.pdf",
+      "pdf_hash": "e6cceb97d78c1860793f379db7d1888950b66c67ef85645c827dd2f05ec1d465",
+      "pdf_bytes": 94737,
+      "raw_pdf": "/sessions/elegant-focused-ritchie/mnt/corpus/raw/zambialii/si/2021/si-zm-2021-004-electoral-process-voter-education-regulations-2021.pdf",
+      "record_path": "/sessions/elegant-focused-ritchie/mnt/corpus/records/sis/2021/si-zm-2021-004-electoral-process-voter-education-regulations-2021.json"
+    },
+    {
+      "year": 2020,
+      "number": 80,
+      "sub_phase": "sis_education",
+      "status": "ok",
+      "discovery_text": "electoral (registration of voters) regulations, 2020",
+      "alphabet": "E",
+      "record_id": "si-zm-2020-080-electoral-registration-of-voters-regulations-2020",
+      "sections": 109,
+      "title": "Electoral (Registration of Voters) Regulations, 2020",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2020/80/eng@2020-09-25/source.pdf",
+      "pdf_hash": "f5f48bb4d2bb04ef0efa627c197485c111443ffbde57718491cedefadeff8ee1",
+      "pdf_bytes": 193657,
+      "raw_pdf": "/sessions/elegant-focused-ritchie/mnt/corpus/raw/zambialii/si/2020/si-zm-2020-080-electoral-registration-of-voters-regulations-2020.pdf",
+      "record_path": "/sessions/elegant-focused-ritchie/mnt/corpus/records/sis/2020/si-zm-2020-080-electoral-registration-of-voters-regulations-2020.json"
+    },
+    {
+      "year": 2016,
+      "number": 60,
+      "sub_phase": "sis_courts",
+      "status": "ok",
+      "discovery_text": "local government elections tribunals rules, 2016",
+      "alphabet": "E",
+      "record_id": "si-zm-2016-060-local-government-elections-tribunals-rules-2016",
+      "sections": 77,
+      "title": "Local Government Elections Tribunals Rules, 2016",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2016/60/eng@2016-08-05/source.pdf",
+      "pdf_hash": "44b38077464ad7af87c6370cc6bc99fa6f6428a76f250700eb4e70d8b11e8d65",
+      "pdf_bytes": 70045,
+      "raw_pdf": "/sessions/elegant-focused-ritchie/mnt/corpus/raw/zambialii/si/2016/si-zm-2016-060-local-government-elections-tribunals-rules-2016.pdf",
+      "record_path": "/sessions/elegant-focused-ritchie/mnt/corpus/records/sis/2016/si-zm-2016-060-local-government-elections-tribunals-rules-2016.json"
+    },
+    {
+      "year": 2008,
+      "number": 25,
+      "sub_phase": "sis_courts",
+      "status": "ok",
+      "discovery_text": "national constitutional conference (procedure) rules, 2008",
+      "alphabet": "N",
+      "record_id": "si-zm-2008-025-national-constitutional-conference-procedure-rules-2008",
+      "sections": 77,
+      "title": "National Constitutional Conference (Procedure) Rules, 2008",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2008/25/eng@2008-02-22/source.pdf",
+      "pdf_hash": "ff2332f013869df7c4fb2aadda3fbf81deb971e1139f6936f024cee68e341749",
+      "pdf_bytes": 1503499,
+      "raw_pdf": "/sessions/elegant-focused-ritchie/mnt/corpus/raw/zambialii/si/2008/si-zm-2008-025-national-constitutional-conference-procedure-rules-2008.pdf",
+      "record_path": "/sessions/elegant-focused-ritchie/mnt/corpus/records/sis/2008/si-zm-2008-025-national-constitutional-conference-procedure-rules-2008.json"
+    },
+    {
+      "year": 2008,
+      "number": 26,
+      "sub_phase": "sis_courts",
+      "status": "ok",
+      "discovery_text": "national constitutional conference (disciplinary committee proceedings) rules, 2008",
+      "alphabet": "N",
+      "record_id": "si-zm-2008-026-national-constitutional-conference-disciplinary-committee-proceedings-rules-2008",
+      "sections": 32,
+      "title": "National Constitutional Conference (Disciplinary Committee Proceedings) Rules, 2008",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2008/26/eng@2008-02-22/source.pdf",
+      "pdf_hash": "9523a348009d7276e536d06f2cf35ce12a8cd5048520babea6985663e2a6b36a",
+      "pdf_bytes": 1262058,
+      "raw_pdf": "/sessions/elegant-focused-ritchie/mnt/corpus/raw/zambialii/si/2008/si-zm-2008-026-national-constitutional-conference-disciplinary-committee-proceedings-rules-2008.pdf",
+      "record_path": "/sessions/elegant-focused-ritchie/mnt/corpus/records/sis/2008/si-zm-2008-026-national-constitutional-conference-disciplinary-committee-proceedings-rules-2008.json"
+    }
+  ],
+  "discovery_alphabets": [],
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "novel_total_pre_keyword": 0,
+  "novel_kept_post_keyword": 8,
+  "slices": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      8
+    ]
+  ]
+}

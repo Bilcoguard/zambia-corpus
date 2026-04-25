@@ -1,0 +1,46 @@
+{
+  "batch": "0221",
+  "phase": "ingest",
+  "slice": [
+    4,
+    6
+  ],
+  "started_at": "2026-04-25T09:08:03Z",
+  "completed_at": "2026-04-25T09:08:25Z",
+  "fetch_start": 365,
+  "fetch_end": 369,
+  "results": [
+    {
+      "year": 2020,
+      "number": 80,
+      "sub_phase": "sis_education",
+      "status": "ok",
+      "discovery_text": "electoral (registration of voters) regulations, 2020",
+      "alphabet": "E",
+      "record_id": "si-zm-2020-080-electoral-registration-of-voters-regulations-2020",
+      "sections": 109,
+      "title": "Electoral (Registration of Voters) Regulations, 2020",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2020/80/eng@2020-09-25/source.pdf",
+      "pdf_hash": "f5f48bb4d2bb04ef0efa627c197485c111443ffbde57718491cedefadeff8ee1",
+      "pdf_bytes": 193657,
+      "raw_pdf": "/sessions/elegant-focused-ritchie/mnt/corpus/raw/zambialii/si/2020/si-zm-2020-080-electoral-registration-of-voters-regulations-2020.pdf",
+      "record_path": "/sessions/elegant-focused-ritchie/mnt/corpus/records/sis/2020/si-zm-2020-080-electoral-registration-of-voters-regulations-2020.json"
+    },
+    {
+      "year": 2016,
+      "number": 60,
+      "sub_phase": "sis_courts",
+      "status": "ok",
+      "discovery_text": "local government elections tribunals rules, 2016",
+      "alphabet": "E",
+      "record_id": "si-zm-2016-060-local-government-elections-tribunals-rules-2016",
+      "sections": 77,
+      "title": "Local Government Elections Tribunals Rules, 2016",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2016/60/eng@2016-08-05/source.pdf",
+      "pdf_hash": "44b38077464ad7af87c6370cc6bc99fa6f6428a76f250700eb4e70d8b11e8d65",
+      "pdf_bytes": 70045,
+      "raw_pdf": "/sessions/elegant-focused-ritchie/mnt/corpus/raw/zambialii/si/2016/si-zm-2016-060-local-government-elections-tribunals-rules-2016.pdf",
+      "record_path": "/sessions/elegant-focused-ritchie/mnt/corpus/records/sis/2016/si-zm-2016-060-local-government-elections-tribunals-rules-2016.json"
+    }
+  ]
+}

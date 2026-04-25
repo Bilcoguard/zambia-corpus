@@ -1,0 +1,46 @@
+{
+  "batch": "0221",
+  "phase": "ingest",
+  "slice": [
+    6,
+    8
+  ],
+  "started_at": "2026-04-25T09:08:29Z",
+  "completed_at": "2026-04-25T09:08:52Z",
+  "fetch_start": 369,
+  "fetch_end": 373,
+  "results": [
+    {
+      "year": 2008,
+      "number": 25,
+      "sub_phase": "sis_courts",
+      "status": "ok",
+      "discovery_text": "national constitutional conference (procedure) rules, 2008",
+      "alphabet": "N",
+      "record_id": "si-zm-2008-025-national-constitutional-conference-procedure-rules-2008",
+      "sections": 77,
+      "title": "National Constitutional Conference (Procedure) Rules, 2008",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2008/25/eng@2008-02-22/source.pdf",
+      "pdf_hash": "ff2332f013869df7c4fb2aadda3fbf81deb971e1139f6936f024cee68e341749",
+      "pdf_bytes": 1503499,
+      "raw_pdf": "/sessions/elegant-focused-ritchie/mnt/corpus/raw/zambialii/si/2008/si-zm-2008-025-national-constitutional-conference-procedure-rules-2008.pdf",
+      "record_path": "/sessions/elegant-focused-ritchie/mnt/corpus/records/sis/2008/si-zm-2008-025-national-constitutional-conference-procedure-rules-2008.json"
+    },
+    {
+      "year": 2008,
+      "number": 26,
+      "sub_phase": "sis_courts",
+      "status": "ok",
+      "discovery_text": "national constitutional conference (disciplinary committee proceedings) rules, 2008",
+      "alphabet": "N",
+      "record_id": "si-zm-2008-026-national-constitutional-conference-disciplinary-committee-proceedings-rules-2008",
+      "sections": 32,
+      "title": "National Constitutional Conference (Disciplinary Committee Proceedings) Rules, 2008",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2008/26/eng@2008-02-22/source.pdf",
+      "pdf_hash": "9523a348009d7276e536d06f2cf35ce12a8cd5048520babea6985663e2a6b36a",
+      "pdf_bytes": 1262058,
+      "raw_pdf": "/sessions/elegant-focused-ritchie/mnt/corpus/raw/zambialii/si/2008/si-zm-2008-026-national-constitutional-conference-disciplinary-committee-proceedings-rules-2008.pdf",
+      "record_path": "/sessions/elegant-focused-ritchie/mnt/corpus/records/sis/2008/si-zm-2008-026-national-constitutional-conference-disciplinary-committee-proceedings-rules-2008.json"
+    }
+  ]
+}
