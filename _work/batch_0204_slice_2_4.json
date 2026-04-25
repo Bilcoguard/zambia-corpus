@@ -1,0 +1,46 @@
+{
+  "batch": "0204",
+  "phase": "ingest",
+  "slice": [
+    2,
+    4
+  ],
+  "started_at": "2026-04-25T00:05:26Z",
+  "completed_at": "2026-04-25T00:05:48Z",
+  "fetch_start": 10,
+  "fetch_end": 14,
+  "results": [
+    {
+      "year": 2017,
+      "number": 6,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "legal practitioners (costs) order, 2017",
+      "alphabet": "L",
+      "record_id": "si-zm-2017-006-legal-practitioners-costs-order-2017",
+      "sections": 23,
+      "title": "Legal Practitioners (Costs) Order, 2017",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2017/6/eng@2017-01-20/source.pdf",
+      "pdf_hash": "0a105332737b13388d3979ad845c52f09c58e634f098afe924e8138fbb1d27c5",
+      "pdf_bytes": 145171,
+      "raw_pdf": "/sessions/affectionate-stoic-mendel/mnt/corpus/raw/zambialii/si/2017/si-zm-2017-006-legal-practitioners-costs-order-2017.pdf",
+      "record_path": "/sessions/affectionate-stoic-mendel/mnt/corpus/records/sis/2017/si-zm-2017-006-legal-practitioners-costs-order-2017.json"
+    },
+    {
+      "year": 2017,
+      "number": 7,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "legal practitioners' (conveyancing and non-contentious matters) (costs) order, 2017",
+      "alphabet": "L",
+      "record_id": "si-zm-2017-007-legal-practitioners-conveyancing-and-non-contentious-matters-costs-order-2017",
+      "sections": 27,
+      "title": "Legal Practitioners\u2019 (Conveyancing and Non-Contentious Matters) (Costs) Order, 2017",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2017/7/eng@2017-01-20/source.pdf",
+      "pdf_hash": "f43bda622ea6d5a2c215a318a4d85aa205af9a1bfa353883be701173e7d4f657",
+      "pdf_bytes": 143636,
+      "raw_pdf": "/sessions/affectionate-stoic-mendel/mnt/corpus/raw/zambialii/si/2017/si-zm-2017-007-legal-practitioners-conveyancing-and-non-contentious-matters-costs-order-2017.pdf",
+      "record_path": "/sessions/affectionate-stoic-mendel/mnt/corpus/records/sis/2017/si-zm-2017-007-legal-practitioners-conveyancing-and-non-contentious-matters-costs-order-2017.json"
+    }
+  ]
+}

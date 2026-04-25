@@ -1,0 +1,46 @@
+{
+  "batch": "0204",
+  "phase": "ingest",
+  "slice": [
+    0,
+    2
+  ],
+  "started_at": "2026-04-25T00:05:00Z",
+  "completed_at": "2026-04-25T00:05:22Z",
+  "fetch_start": 6,
+  "fetch_end": 10,
+  "results": [
+    {
+      "year": 2012,
+      "number": 3,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "registration of business names regulations, 2012",
+      "alphabet": "R",
+      "record_id": "si-zm-2012-003-registration-of-business-names-regulations-2012",
+      "sections": 48,
+      "title": "Registration of Business Names Regulations, 2012",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2012/3/eng@2012-01-13/source.pdf",
+      "pdf_hash": "2d8811a7fc5523c07d97b201ce2d87a8ba9d1c4deac8d1e47819fad9884365b0",
+      "pdf_bytes": 2772995,
+      "raw_pdf": "/sessions/affectionate-stoic-mendel/mnt/corpus/raw/zambialii/si/2012/si-zm-2012-003-registration-of-business-names-regulations-2012.pdf",
+      "record_path": "/sessions/affectionate-stoic-mendel/mnt/corpus/records/sis/2012/si-zm-2012-003-registration-of-business-names-regulations-2012.json"
+    },
+    {
+      "year": 2017,
+      "number": 23,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "legal practitioners (publicity) rules, 2017",
+      "alphabet": "L",
+      "record_id": "si-zm-2017-023-legal-practitioners-publicity-rules-2017",
+      "sections": 38,
+      "title": "Legal Practitioners (Publicity) Rules, 2017",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2017/23/eng@2017-03-03/source.pdf",
+      "pdf_hash": "f63894fbaa7f4711735dccfd81c097ba04d9c469c0ea9fa2e91968382da5f28b",
+      "pdf_bytes": 54840,
+      "raw_pdf": "/sessions/affectionate-stoic-mendel/mnt/corpus/raw/zambialii/si/2017/si-zm-2017-023-legal-practitioners-publicity-rules-2017.pdf",
+      "record_path": "/sessions/affectionate-stoic-mendel/mnt/corpus/records/sis/2017/si-zm-2017-023-legal-practitioners-publicity-rules-2017.json"
+    }
+  ]
+}

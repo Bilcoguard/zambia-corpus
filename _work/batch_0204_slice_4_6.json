@@ -1,0 +1,46 @@
+{
+  "batch": "0204",
+  "phase": "ingest",
+  "slice": [
+    4,
+    6
+  ],
+  "started_at": "2026-04-25T00:05:52Z",
+  "completed_at": "2026-04-25T00:06:14Z",
+  "fetch_start": 14,
+  "fetch_end": 18,
+  "results": [
+    {
+      "year": 2016,
+      "number": 97,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "legal practitioners (high court) (fixed costs) order, 2016",
+      "alphabet": "L",
+      "record_id": "si-zm-2016-097-legal-practitioners-high-court-fixed-costs-order-2016",
+      "sections": 17,
+      "title": "Legal Practitioners (High Court) (Fixed Costs) Order, 2016",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2016/97/eng@2016-12-16/source.pdf",
+      "pdf_hash": "7097eb0c97811e55e7206c2df0b1497b6cdbcac2ca697a8e5e98fb0120fcd154",
+      "pdf_bytes": 16302,
+      "raw_pdf": "/sessions/affectionate-stoic-mendel/mnt/corpus/raw/zambialii/si/2016/si-zm-2016-097-legal-practitioners-high-court-fixed-costs-order-2016.pdf",
+      "record_path": "/sessions/affectionate-stoic-mendel/mnt/corpus/records/sis/2016/si-zm-2016-097-legal-practitioners-high-court-fixed-costs-order-2016.json"
+    },
+    {
+      "year": 2013,
+      "number": 7,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "land tribunal (fees) regulations, 2013",
+      "alphabet": "L",
+      "record_id": "si-zm-2013-007-land-tribunal-fees-regulations-2013",
+      "sections": 8,
+      "title": "Land Tribunal (Fees) Regulations, 2013",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2013/7/eng@2013-01-18/source.pdf",
+      "pdf_hash": "0d728d71a1b55f28c957d53a71bba20f9b5a81dbe324411170a0d13ff85cb573",
+      "pdf_bytes": 103075,
+      "raw_pdf": "/sessions/affectionate-stoic-mendel/mnt/corpus/raw/zambialii/si/2013/si-zm-2013-007-land-tribunal-fees-regulations-2013.pdf",
+      "record_path": "/sessions/affectionate-stoic-mendel/mnt/corpus/records/sis/2013/si-zm-2013-007-land-tribunal-fees-regulations-2013.json"
+    }
+  ]
+}

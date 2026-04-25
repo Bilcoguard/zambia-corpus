@@ -1,0 +1,169 @@
+{
+  "batch": "0204",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_corporate",
+  "started_at": "2026-04-25T00:03:18Z",
+  "completed_at": "2026-04-25T00:06:42Z",
+  "discovery_fetches": 5,
+  "ingest_fetches": 16,
+  "fetches_used": 21,
+  "records_written": 8,
+  "targets_attempted": 8,
+  "results": [
+    {
+      "year": 2012,
+      "number": 3,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "registration of business names regulations, 2012",
+      "alphabet": "R",
+      "record_id": "si-zm-2012-003-registration-of-business-names-regulations-2012",
+      "sections": 48,
+      "title": "Registration of Business Names Regulations, 2012",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2012/3/eng@2012-01-13/source.pdf",
+      "pdf_hash": "2d8811a7fc5523c07d97b201ce2d87a8ba9d1c4deac8d1e47819fad9884365b0",
+      "pdf_bytes": 2772995,
+      "raw_pdf": "/sessions/affectionate-stoic-mendel/mnt/corpus/raw/zambialii/si/2012/si-zm-2012-003-registration-of-business-names-regulations-2012.pdf",
+      "record_path": "/sessions/affectionate-stoic-mendel/mnt/corpus/records/sis/2012/si-zm-2012-003-registration-of-business-names-regulations-2012.json"
+    },
+    {
+      "year": 2017,
+      "number": 23,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "legal practitioners (publicity) rules, 2017",
+      "alphabet": "L",
+      "record_id": "si-zm-2017-023-legal-practitioners-publicity-rules-2017",
+      "sections": 38,
+      "title": "Legal Practitioners (Publicity) Rules, 2017",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2017/23/eng@2017-03-03/source.pdf",
+      "pdf_hash": "f63894fbaa7f4711735dccfd81c097ba04d9c469c0ea9fa2e91968382da5f28b",
+      "pdf_bytes": 54840,
+      "raw_pdf": "/sessions/affectionate-stoic-mendel/mnt/corpus/raw/zambialii/si/2017/si-zm-2017-023-legal-practitioners-publicity-rules-2017.pdf",
+      "record_path": "/sessions/affectionate-stoic-mendel/mnt/corpus/records/sis/2017/si-zm-2017-023-legal-practitioners-publicity-rules-2017.json"
+    },
+    {
+      "year": 2017,
+      "number": 6,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "legal practitioners (costs) order, 2017",
+      "alphabet": "L",
+      "record_id": "si-zm-2017-006-legal-practitioners-costs-order-2017",
+      "sections": 23,
+      "title": "Legal Practitioners (Costs) Order, 2017",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2017/6/eng@2017-01-20/source.pdf",
+      "pdf_hash": "0a105332737b13388d3979ad845c52f09c58e634f098afe924e8138fbb1d27c5",
+      "pdf_bytes": 145171,
+      "raw_pdf": "/sessions/affectionate-stoic-mendel/mnt/corpus/raw/zambialii/si/2017/si-zm-2017-006-legal-practitioners-costs-order-2017.pdf",
+      "record_path": "/sessions/affectionate-stoic-mendel/mnt/corpus/records/sis/2017/si-zm-2017-006-legal-practitioners-costs-order-2017.json"
+    },
+    {
+      "year": 2017,
+      "number": 7,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "legal practitioners' (conveyancing and non-contentious matters) (costs) order, 2017",
+      "alphabet": "L",
+      "record_id": "si-zm-2017-007-legal-practitioners-conveyancing-and-non-contentious-matters-costs-order-2017",
+      "sections": 27,
+      "title": "Legal Practitioners\u2019 (Conveyancing and Non-Contentious Matters) (Costs) Order, 2017",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2017/7/eng@2017-01-20/source.pdf",
+      "pdf_hash": "f43bda622ea6d5a2c215a318a4d85aa205af9a1bfa353883be701173e7d4f657",
+      "pdf_bytes": 143636,
+      "raw_pdf": "/sessions/affectionate-stoic-mendel/mnt/corpus/raw/zambialii/si/2017/si-zm-2017-007-legal-practitioners-conveyancing-and-non-contentious-matters-costs-order-2017.pdf",
+      "record_path": "/sessions/affectionate-stoic-mendel/mnt/corpus/records/sis/2017/si-zm-2017-007-legal-practitioners-conveyancing-and-non-contentious-matters-costs-order-2017.json"
+    },
+    {
+      "year": 2016,
+      "number": 97,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "legal practitioners (high court) (fixed costs) order, 2016",
+      "alphabet": "L",
+      "record_id": "si-zm-2016-097-legal-practitioners-high-court-fixed-costs-order-2016",
+      "sections": 17,
+      "title": "Legal Practitioners (High Court) (Fixed Costs) Order, 2016",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2016/97/eng@2016-12-16/source.pdf",
+      "pdf_hash": "7097eb0c97811e55e7206c2df0b1497b6cdbcac2ca697a8e5e98fb0120fcd154",
+      "pdf_bytes": 16302,
+      "raw_pdf": "/sessions/affectionate-stoic-mendel/mnt/corpus/raw/zambialii/si/2016/si-zm-2016-097-legal-practitioners-high-court-fixed-costs-order-2016.pdf",
+      "record_path": "/sessions/affectionate-stoic-mendel/mnt/corpus/records/sis/2016/si-zm-2016-097-legal-practitioners-high-court-fixed-costs-order-2016.json"
+    },
+    {
+      "year": 2013,
+      "number": 7,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "land tribunal (fees) regulations, 2013",
+      "alphabet": "L",
+      "record_id": "si-zm-2013-007-land-tribunal-fees-regulations-2013",
+      "sections": 8,
+      "title": "Land Tribunal (Fees) Regulations, 2013",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2013/7/eng@2013-01-18/source.pdf",
+      "pdf_hash": "0d728d71a1b55f28c957d53a71bba20f9b5a81dbe324411170a0d13ff85cb573",
+      "pdf_bytes": 103075,
+      "raw_pdf": "/sessions/affectionate-stoic-mendel/mnt/corpus/raw/zambialii/si/2013/si-zm-2013-007-land-tribunal-fees-regulations-2013.pdf",
+      "record_path": "/sessions/affectionate-stoic-mendel/mnt/corpus/records/sis/2013/si-zm-2013-007-land-tribunal-fees-regulations-2013.json"
+    },
+    {
+      "year": 2006,
+      "number": 44,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "lands (ground rent, fees and charges) regulations, 2006",
+      "alphabet": "L",
+      "record_id": "si-zm-2006-044-lands-ground-rent-fees-and-charges-regulations-2006",
+      "sections": 3,
+      "title": "Lands (Ground Rent, Fees and Charges) Regulations, 2006",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2006/44/eng@2006-04-07/source.pdf",
+      "pdf_hash": "4536a9c3a9bbcd88922dd64ea9ae670310b1d2697345df9a5b6c98e2f809d35c",
+      "pdf_bytes": 876676,
+      "raw_pdf": "/sessions/affectionate-stoic-mendel/mnt/corpus/raw/zambialii/si/2006/si-zm-2006-044-lands-ground-rent-fees-and-charges-regulations-2006.pdf",
+      "record_path": "/sessions/affectionate-stoic-mendel/mnt/corpus/records/sis/2006/si-zm-2006-044-lands-ground-rent-fees-and-charges-regulations-2006.json"
+    },
+    {
+      "year": 2015,
+      "number": 33,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "road traffic (certificates of security and insurance) (display) regulations, 2015",
+      "alphabet": "R",
+      "record_id": "si-zm-2015-033-road-traffic-certificates-of-security-and-insurance-display-regulations-2015",
+      "sections": 4,
+      "title": "Road Traffic (Certificates of Security and Insurance) (Display) Regulations, 2015",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2015/33/eng@2015-06-12/source.pdf",
+      "pdf_hash": "d71a441ca6cd91a94096de81dd19507fcd393a832d7f73811a1679ee1243aae1",
+      "pdf_bytes": 131139,
+      "raw_pdf": "/sessions/affectionate-stoic-mendel/mnt/corpus/raw/zambialii/si/2015/si-zm-2015-033-road-traffic-certificates-of-security-and-insurance-display-regulations-2015.pdf",
+      "record_path": "/sessions/affectionate-stoic-mendel/mnt/corpus/records/sis/2015/si-zm-2015-033-road-traffic-certificates-of-security-and-insurance-display-regulations-2015.json"
+    }
+  ],
+  "discovery_alphabets": [
+    "C",
+    "L",
+    "R",
+    "D"
+  ],
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "novel_total_pre_keyword": 263,
+  "novel_kept_post_keyword": 8,
+  "slices": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      8
+    ]
+  ]
+}

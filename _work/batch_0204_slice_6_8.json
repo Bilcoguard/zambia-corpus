@@ -1,0 +1,46 @@
+{
+  "batch": "0204",
+  "phase": "ingest",
+  "slice": [
+    6,
+    8
+  ],
+  "started_at": "2026-04-25T00:06:18Z",
+  "completed_at": "2026-04-25T00:06:40Z",
+  "fetch_start": 18,
+  "fetch_end": 22,
+  "results": [
+    {
+      "year": 2006,
+      "number": 44,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "lands (ground rent, fees and charges) regulations, 2006",
+      "alphabet": "L",
+      "record_id": "si-zm-2006-044-lands-ground-rent-fees-and-charges-regulations-2006",
+      "sections": 3,
+      "title": "Lands (Ground Rent, Fees and Charges) Regulations, 2006",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2006/44/eng@2006-04-07/source.pdf",
+      "pdf_hash": "4536a9c3a9bbcd88922dd64ea9ae670310b1d2697345df9a5b6c98e2f809d35c",
+      "pdf_bytes": 876676,
+      "raw_pdf": "/sessions/affectionate-stoic-mendel/mnt/corpus/raw/zambialii/si/2006/si-zm-2006-044-lands-ground-rent-fees-and-charges-regulations-2006.pdf",
+      "record_path": "/sessions/affectionate-stoic-mendel/mnt/corpus/records/sis/2006/si-zm-2006-044-lands-ground-rent-fees-and-charges-regulations-2006.json"
+    },
+    {
+      "year": 2015,
+      "number": 33,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "road traffic (certificates of security and insurance) (display) regulations, 2015",
+      "alphabet": "R",
+      "record_id": "si-zm-2015-033-road-traffic-certificates-of-security-and-insurance-display-regulations-2015",
+      "sections": 4,
+      "title": "Road Traffic (Certificates of Security and Insurance) (Display) Regulations, 2015",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2015/33/eng@2015-06-12/source.pdf",
+      "pdf_hash": "d71a441ca6cd91a94096de81dd19507fcd393a832d7f73811a1679ee1243aae1",
+      "pdf_bytes": 131139,
+      "raw_pdf": "/sessions/affectionate-stoic-mendel/mnt/corpus/raw/zambialii/si/2015/si-zm-2015-033-road-traffic-certificates-of-security-and-insurance-display-regulations-2015.pdf",
+      "record_path": "/sessions/affectionate-stoic-mendel/mnt/corpus/records/sis/2015/si-zm-2015-033-road-traffic-certificates-of-security-and-insurance-display-regulations-2015.json"
+    }
+  ]
+}
