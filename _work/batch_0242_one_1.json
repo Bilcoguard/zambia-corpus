@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2020/50",
+    "year": "2020",
+    "num": "50",
+    "title": "Road Traffic (Driving Licence) Regulations, 2020",
+    "sub_phase": "sis_transport",
+    "parent_act": "Road Traffic Act",
+    "eng_date": "2020-05-15"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2020-050-road-traffic-driving-licence-regulations-2020",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2020,
+    "number": 50,
+    "title": "Road Traffic (Driving Licence) Regulations, 2020",
+    "parent_act": "Road Traffic Act",
+    "sub_phase": "sis_transport",
+    "effective_date": "2020-05-15",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2020/50",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/50/eng@2020-05-15/source.pdf",
+    "source_hash": "1ded03bb801f244d0eb5d01041bd33606b56d481e6c37ef96e67566e2efc0848",
+    "html_hash": "023e37959898189ef38a480aff94eaaa7a76a61a44cfb7026a065a2568b0f833",
+    "fetched_at": "2026-04-25T23:09:09Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 26,
+    "pdf_text_chars": 42935,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2020/si-zm-2020-050-road-traffic-driving-licence-regulations-2020.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/50",
+      "bytes": 41927,
+      "path": "raw/zambialii/si/2020/si-zm-2020-050-road-traffic-driving-licence-regulations-2020.html",
+      "sha": "023e37959898189ef38a480aff94eaaa7a76a61a44cfb7026a065a2568b0f833"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/50/eng@2020-05-15/source.pdf",
+      "bytes": 616506,
+      "path": "raw/zambialii/si/2020/si-zm-2020-050-road-traffic-driving-licence-regulations-2020.pdf",
+      "sha": "1ded03bb801f244d0eb5d01041bd33606b56d481e6c37ef96e67566e2efc0848"
+    }
+  ]
+}

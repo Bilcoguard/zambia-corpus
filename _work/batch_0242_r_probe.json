@@ -1,0 +1,36 @@
+{
+  "alphabet": "R",
+  "total_unique": 30,
+  "modern": 4,
+  "novel": [
+    {
+      "yr": 2018,
+      "num": 7,
+      "href": "/akn/zm/act/si/2018/7/eng@2018-02-02",
+      "eng_date": "2018-02-02",
+      "title": "Railways (Transportation of Heavy Goods) Regulations, 2018"
+    },
+    {
+      "yr": 2020,
+      "num": 50,
+      "href": "/akn/zm/act/si/2020/50/eng@2020-05-15",
+      "eng_date": "2020-05-15",
+      "title": "Road Traffic (Driving Licence) Regulations, 2020"
+    },
+    {
+      "yr": 2021,
+      "num": 112,
+      "href": "/akn/zm/act/si/2021/112/eng@2021-12-31",
+      "eng_date": "2021-12-31",
+      "title": "Road Traffic (Fees) Regulations, 2021"
+    },
+    {
+      "yr": 2020,
+      "num": 7,
+      "href": "/akn/zm/act/si/2020/7/eng@2020-01-24",
+      "eng_date": "2020-01-24",
+      "title": "Road Traffic (Speed Limits) Regulations, 2019"
+    }
+  ],
+  "existing_in_corpus_total": 424
+}

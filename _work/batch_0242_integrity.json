@@ -1,0 +1,12 @@
+{
+  "batch": "0242",
+  "records": 8,
+  "check1a_unique_ids": 8,
+  "check1b_on_disk": 8,
+  "check2_amended_by": 0,
+  "check3_repealed_by": 0,
+  "check4_source_hash": 8,
+  "check5_required_missing": 0,
+  "check6_cited_authorities": 0,
+  "status": "PASS"
+}

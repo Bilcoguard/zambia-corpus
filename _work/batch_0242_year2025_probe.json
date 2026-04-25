@@ -1,0 +1,56 @@
+{
+  "year": 2025,
+  "total_unique": 20,
+  "novel": [
+    {
+      "yr": 2014,
+      "num": 59,
+      "href": "/akn/zm/act/si/2014/59/eng@2014-11-07",
+      "eng_date": "2014-11-07",
+      "title": "Agricultural Credits (Appointment of Authorised Agency) Order, 2014"
+    },
+    {
+      "yr": 1985,
+      "num": 24,
+      "href": "/akn/zm/act/si/1985/24/eng@1985-02-01",
+      "eng_date": "1985-02-01",
+      "title": "Air Passenger Service Charge (Appointment of Collection Agents) (No. 2) Order, 1985"
+    },
+    {
+      "yr": 1992,
+      "num": 9,
+      "href": "/akn/zm/act/si/1992/9/eng@1992-01-31",
+      "eng_date": "1992-01-31",
+      "title": "Air Passenger Service Charge (Charging) Order, 1992"
+    },
+    {
+      "yr": 2001,
+      "num": 32,
+      "href": "/akn/zm/act/si/2001/32/eng@2001-03-09",
+      "eng_date": "2001-03-09",
+      "title": "Air Services (Permit Fees) Regulations, 2001"
+    },
+    {
+      "yr": 1985,
+      "num": 45,
+      "href": "/akn/zm/act/si/1985/45/eng@1985-04-04",
+      "eng_date": "1985-04-04",
+      "title": "Air Services (Aerial Application Permit) Regulations, 1985"
+    },
+    {
+      "yr": 2014,
+      "num": 16,
+      "href": "/akn/zm/act/si/2014/16/eng@2014-02-14",
+      "eng_date": "2014-02-14",
+      "title": "Animal Health (Livestock Cleansing) Order, 2014"
+    },
+    {
+      "yr": 2014,
+      "num": 24,
+      "href": "/akn/zm/act/si/2014/24/eng@2014-03-21",
+      "eng_date": "2014-03-21",
+      "title": "Animal Health (Control and Prevention of Animal Disease) Order, 2014"
+    }
+  ],
+  "existing_in_corpus_total": 424
+}

@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2014/16",
+    "year": "2014",
+    "num": "16",
+    "title": "Animal Health (Livestock Cleansing) Order, 2014",
+    "sub_phase": "sis_agriculture",
+    "parent_act": "Animal Health Act",
+    "eng_date": "2014-02-14"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2014-016-animal-health-livestock-cleansing-order-2014",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2014,
+    "number": 16,
+    "title": "Animal Health (Livestock Cleansing) Order, 2014",
+    "parent_act": "Animal Health Act",
+    "sub_phase": "sis_agriculture",
+    "effective_date": "2014-02-14",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2014/16",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2014/16/eng@2014-02-14/source.pdf",
+    "source_hash": "69af0d8da57e60c2e4eb23be7de42e6cea046fb1128a6d6e59763ddc48105af5",
+    "html_hash": "7f59465759518fc8a0bbca650c126d782c2d06f787942c95129ee83fab637414",
+    "fetched_at": "2026-04-25T23:10:03Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1918,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2014/si-zm-2014-016-animal-health-livestock-cleansing-order-2014.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2014/16",
+      "bytes": 39132,
+      "path": "raw/zambialii/si/2014/si-zm-2014-016-animal-health-livestock-cleansing-order-2014.html",
+      "sha": "7f59465759518fc8a0bbca650c126d782c2d06f787942c95129ee83fab637414"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2014/16/eng@2014-02-14/source.pdf",
+      "bytes": 204069,
+      "path": "raw/zambialii/si/2014/si-zm-2014-016-animal-health-livestock-cleansing-order-2014.pdf",
+      "sha": "69af0d8da57e60c2e4eb23be7de42e6cea046fb1128a6d6e59763ddc48105af5"
+    }
+  ]
+}

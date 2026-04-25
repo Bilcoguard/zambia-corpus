@@ -1,0 +1,27 @@
+{
+  "batch": "0242",
+  "status": "ready_to_commit",
+  "ok_idxs": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "fail_idxs": [
+    3
+  ],
+  "records": 8,
+  "yield": "8/9 (89%)",
+  "sub_phases": {
+    "sis_transport": 5,
+    "sis_agriculture": 3
+  },
+  "first_clusters": [
+    "sis_transport",
+    "sis_agriculture"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "batch": "0242",
+  "count": 8,
+  "records": [
+    {
+      "id": "si-zm-2018-007-railways-transportation-of-heavy-goods-regulations-2018",
+      "sub_phase": "sis_transport",
+      "pages": 4,
+      "chars": 4316
+    },
+    {
+      "id": "si-zm-2020-050-road-traffic-driving-licence-regulations-2020",
+      "sub_phase": "sis_transport",
+      "pages": 26,
+      "chars": 42935
+    },
+    {
+      "id": "si-zm-2021-112-road-traffic-fees-regulations-2021",
+      "sub_phase": "sis_transport",
+      "pages": 4,
+      "chars": 4698
+    },
+    {
+      "id": "si-zm-2014-016-animal-health-livestock-cleansing-order-2014",
+      "sub_phase": "sis_agriculture",
+      "pages": 2,
+      "chars": 1918
+    },
+    {
+      "id": "si-zm-2014-024-animal-health-control-and-prevention-of-animal-disease-order-2014",
+      "sub_phase": "sis_agriculture",
+      "pages": 4,
+      "chars": 2852
+    },
+    {
+      "id": "si-zm-2014-059-agricultural-credits-appointment-of-authorised-agency-order-2014",
+      "sub_phase": "sis_agriculture",
+      "pages": 2,
+      "chars": 852
+    },
+    {
+      "id": "si-zm-2001-032-air-services-permit-fees-regulations-2001",
+      "sub_phase": "sis_transport",
+      "pages": 2,
+      "chars": 2705
+    },
+    {
+      "id": "si-zm-1985-024-air-passenger-service-charge-appointment-of-collection-agents-no-2-order-1985",
+      "sub_phase": "sis_transport",
+      "pages": 1,
+      "chars": 1049
+    }
+  ]
+}

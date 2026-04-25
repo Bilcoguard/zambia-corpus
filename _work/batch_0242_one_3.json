@@ -1,0 +1,29 @@
+{
+  "pick": {
+    "yr_num": "2020/7",
+    "year": "2020",
+    "num": "7",
+    "title": "Road Traffic (Speed Limits) Regulations, 2019",
+    "sub_phase": "sis_transport",
+    "parent_act": "Road Traffic Act",
+    "eng_date": "2020-01-24"
+  },
+  "status": "fail",
+  "error": "pdf_parse_empty",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/7",
+      "bytes": 39393,
+      "path": "raw/zambialii/si/2020/si-zm-2020-007-road-traffic-speed-limits-regulations-2019.html",
+      "sha": "f2e136475926d7f5cf2a38f94dfdb0561eeaf9f5089fb76a8bad1686e68a7b69"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/7/eng@2020-01-24/source.pdf",
+      "bytes": 587068,
+      "path": "raw/zambialii/si/2020/si-zm-2020-007-road-traffic-speed-limits-regulations-2019.pdf",
+      "sha": "ff7a1ff10ebd20ef17d97c632d825097cf7a74b559bfaf0a91900476e56ab4b8"
+    }
+  ],
+  "html_sha": "f2e136475926d7f5cf2a38f94dfdb0561eeaf9f5089fb76a8bad1686e68a7b69",
+  "pdf_sha": "ff7a1ff10ebd20ef17d97c632d825097cf7a74b559bfaf0a91900476e56ab4b8"
+}

@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2001/32",
+    "year": "2001",
+    "num": "32",
+    "title": "Air Services (Permit Fees) Regulations, 2001",
+    "sub_phase": "sis_transport",
+    "parent_act": "Aviation Act",
+    "eng_date": "2001-03-09"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2001-032-air-services-permit-fees-regulations-2001",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2001,
+    "number": 32,
+    "title": "Air Services (Permit Fees) Regulations, 2001",
+    "parent_act": "Aviation Act",
+    "sub_phase": "sis_transport",
+    "effective_date": "2001-03-09",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2001/32",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2001/32/eng@2001-03-09/source.pdf",
+    "source_hash": "c4f52dd6fb66383d3c3b3f6a25fab3aefd3e6b712f4da613692176f8dae0672f",
+    "html_hash": "169219ff19b1d5248c17e9d14ba9f8fdff3be49c052b22397b7ab0e2dbbd8ce9",
+    "fetched_at": "2026-04-25T23:10:58Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 2705,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2001/si-zm-2001-032-air-services-permit-fees-regulations-2001.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2001/32",
+      "bytes": 39089,
+      "path": "raw/zambialii/si/2001/si-zm-2001-032-air-services-permit-fees-regulations-2001.html",
+      "sha": "169219ff19b1d5248c17e9d14ba9f8fdff3be49c052b22397b7ab0e2dbbd8ce9"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2001/32/eng@2001-03-09/source.pdf",
+      "bytes": 336076,
+      "path": "raw/zambialii/si/2001/si-zm-2001-032-air-services-permit-fees-regulations-2001.pdf",
+      "sha": "c4f52dd6fb66383d3c3b3f6a25fab3aefd3e6b712f4da613692176f8dae0672f"
+    }
+  ]
+}

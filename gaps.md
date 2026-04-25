@@ -1046,3 +1046,8 @@ regex form from `batch_0176.py`.
 ## 2026-04-25T22:40:37Z batch 0241 — pdf_parse_empty / OCR backlog
 
 - **2022/13** Minimum Wages and Conditions of Employment (Truck and Bus Drivers) (Amendment) Order, 2022 — `https://zambialii.org/akn/zm/act/si/2022/13` — PDF appears scanned-image only (pdfplumber returned 0 chars). Raw HTML+PDF preserved at `raw/zambialii/si/2022/`. Added to OCR backlog (now 10 items: 2017/068, 2018/011, 2018/075, 2018/093, 2022/004, 2022/007, 2022/008, 2022/012, 2022/013, 2026/004).
+
+## Batch 0242 (2026-04-25)
+- 2020/007 Road Traffic (Speed Limits) Regulations, 2019 — pdf_parse_empty (scanned image). Raw HTML+PDF preserved at raw/zambialii/si/2020/. Added to OCR backlog (now 11 items: 2017/068 + 2018/011 + 2018/075 + 2018/093 + 2020/007 + 2022/004 + 2022/007 + 2022/008 + 2022/012 + 2022/013 + 2026/004).
+- Alphabet probes K/O/Q each yielded 0 SI links. These letters appear to have minimal SI activity on zambialii.org's alphabetical listing (mostly Acts only).
+- year=2025 listing partially returned older SIs (1985-2014 mix); 3 unprocessed novel remain in cache (1985/45 Air Services Aerial App; 1992/9 Air Passenger Charging; possibly more) — deferred to next tick.
