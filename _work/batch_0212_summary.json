@@ -1,0 +1,169 @@
+{
+  "batch": "0212",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_tax",
+  "started_at": "2026-04-25T04:03:05Z",
+  "completed_at": "2026-04-25T04:05:31Z",
+  "discovery_fetches": 5,
+  "ingest_fetches": 16,
+  "fetches_used": 21,
+  "records_written": 8,
+  "targets_attempted": 8,
+  "results": [
+    {
+      "year": 1982,
+      "number": 9,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1982",
+      "alphabet": "I",
+      "record_id": "si-zm-1982-009-income-tax-foreign-organisations-exemption-approval-no-2-order-1982",
+      "sections": 2,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) (No. 2) Order, 1982",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1982/9/eng@1982-01-29/source.pdf",
+      "pdf_hash": "8b29ad8a2ce9d0c8abb1aff6d851fd64b45cf6f2255260937899ea38bdaeba77",
+      "pdf_bytes": 177857,
+      "raw_pdf": "/sessions/loving-festive-ride/mnt/corpus/raw/zambialii/si/1982/si-zm-1982-009-income-tax-foreign-organisations-exemption-approval-no-2-order-1982.pdf",
+      "record_path": "/sessions/loving-festive-ride/mnt/corpus/records/sis/1982/si-zm-1982-009-income-tax-foreign-organisations-exemption-approval-no-2-order-1982.json"
+    },
+    {
+      "year": 1982,
+      "number": 36,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) (no. 3) order 1982",
+      "alphabet": "I",
+      "record_id": "si-zm-1982-036-income-tax-foreign-organisations-exemption-approval-no-3-order-1982",
+      "sections": 14,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) (No. 3) Order 1982",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1982/36/eng@1982-03-09/source.pdf",
+      "pdf_hash": "5d8e13ad34ce385663458982e7bb6cd0645bedee7532f8f4d117108a4d32d819",
+      "pdf_bytes": 304404,
+      "raw_pdf": "/sessions/loving-festive-ride/mnt/corpus/raw/zambialii/si/1982/si-zm-1982-036-income-tax-foreign-organisations-exemption-approval-no-3-order-1982.pdf",
+      "record_path": "/sessions/loving-festive-ride/mnt/corpus/records/sis/1982/si-zm-1982-036-income-tax-foreign-organisations-exemption-approval-no-3-order-1982.json"
+    },
+    {
+      "year": 1981,
+      "number": 48,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (exempt organisations) (approval) order, 1981",
+      "alphabet": "I",
+      "record_id": "si-zm-1981-048-income-tax-exempt-organisations-approval-order-1981",
+      "sections": 5,
+      "title": "Income Tax (Exempt Organisations) (Approval) Order, 1981",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1981/48/eng@1981-03-27/source.pdf",
+      "pdf_hash": "41f4073c565ccfff72852b3e76baf7f6d7c29a7d48d1fe8968470f7c3689182c",
+      "pdf_bytes": 116817,
+      "raw_pdf": "/sessions/loving-festive-ride/mnt/corpus/raw/zambialii/si/1981/si-zm-1981-048-income-tax-exempt-organisations-approval-order-1981.pdf",
+      "record_path": "/sessions/loving-festive-ride/mnt/corpus/records/sis/1981/si-zm-1981-048-income-tax-exempt-organisations-approval-order-1981.json"
+    },
+    {
+      "year": 1981,
+      "number": 49,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) order, 1981",
+      "alphabet": "I",
+      "record_id": "si-zm-1981-049-income-tax-foreign-organisations-exemption-approval-order-1981",
+      "sections": 2,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) Order, 1981",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1981/49/eng@1981-03-27/source.pdf",
+      "pdf_hash": "54bbb903294748b63d172a9e01e49122d2833a8c73a5f254c68d0eca9d5c11fc",
+      "pdf_bytes": 146185,
+      "raw_pdf": "/sessions/loving-festive-ride/mnt/corpus/raw/zambialii/si/1981/si-zm-1981-049-income-tax-foreign-organisations-exemption-approval-order-1981.pdf",
+      "record_path": "/sessions/loving-festive-ride/mnt/corpus/records/sis/1981/si-zm-1981-049-income-tax-foreign-organisations-exemption-approval-order-1981.json"
+    },
+    {
+      "year": 1980,
+      "number": 14,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) order, 1980",
+      "alphabet": "I",
+      "record_id": "si-zm-1980-014-income-tax-foreign-organisations-exemption-approval-order-1980",
+      "sections": 3,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) Order, 1980",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1980/14/eng@1980-01-25/source.pdf",
+      "pdf_hash": "21a0edfd0edf6cb074355ba1c8b6f594e75289706b13c1fca724aec7b4769a76",
+      "pdf_bytes": 155058,
+      "raw_pdf": "/sessions/loving-festive-ride/mnt/corpus/raw/zambialii/si/1980/si-zm-1980-014-income-tax-foreign-organisations-exemption-approval-order-1980.pdf",
+      "record_path": "/sessions/loving-festive-ride/mnt/corpus/records/sis/1980/si-zm-1980-014-income-tax-foreign-organisations-exemption-approval-order-1980.json"
+    },
+    {
+      "year": 1980,
+      "number": 24,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1980",
+      "alphabet": "I",
+      "record_id": "si-zm-1980-024-income-tax-foreign-organisations-exemption-approval-no-2-order-1980",
+      "sections": 3,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) (No. 2) Order, 1980",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1980/24/eng@1980-02-01/source.pdf",
+      "pdf_hash": "4b47ae9ea134fb0b8e2a844c9cf8c9167cfb0abb9c350968ea52d7d3e2ce61c6",
+      "pdf_bytes": 164973,
+      "raw_pdf": "/sessions/loving-festive-ride/mnt/corpus/raw/zambialii/si/1980/si-zm-1980-024-income-tax-foreign-organisations-exemption-approval-no-2-order-1980.pdf",
+      "record_path": "/sessions/loving-festive-ride/mnt/corpus/records/sis/1980/si-zm-1980-024-income-tax-foreign-organisations-exemption-approval-no-2-order-1980.json"
+    },
+    {
+      "year": 1980,
+      "number": 29,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (international organisations) (exemption approval) order, 1980",
+      "alphabet": "I",
+      "record_id": "si-zm-1980-029-income-tax-international-organisations-exemption-approval-order-1980",
+      "sections": 3,
+      "title": "Income Tax (International Organisations) (Exemption Approval) Order, 1980",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1980/29/eng@1980-02-15/source.pdf",
+      "pdf_hash": "a0f74d96d43dda05a25fcfce2be34aa98a50f67a79c9d0709c73092a1ffe396d",
+      "pdf_bytes": 146596,
+      "raw_pdf": "/sessions/loving-festive-ride/mnt/corpus/raw/zambialii/si/1980/si-zm-1980-029-income-tax-international-organisations-exemption-approval-order-1980.pdf",
+      "record_path": "/sessions/loving-festive-ride/mnt/corpus/records/sis/1980/si-zm-1980-029-income-tax-international-organisations-exemption-approval-order-1980.json"
+    },
+    {
+      "year": 1980,
+      "number": 38,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (low cost housing) notice, 1980",
+      "alphabet": "I",
+      "record_id": "si-zm-1980-038-income-tax-low-cost-housing-notice-1980",
+      "sections": 2,
+      "title": "Income Tax (Low Cost Housing) Notice, 1980",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1980/38/eng@1980-03-07/source.pdf",
+      "pdf_hash": "0f14361f81e324148f74e1f248a9bfb29139262a895bf19e82355d1fd7d2c5a6",
+      "pdf_bytes": 168927,
+      "raw_pdf": "/sessions/loving-festive-ride/mnt/corpus/raw/zambialii/si/1980/si-zm-1980-038-income-tax-low-cost-housing-notice-1980.pdf",
+      "record_path": "/sessions/loving-festive-ride/mnt/corpus/records/sis/1980/si-zm-1980-038-income-tax-low-cost-housing-notice-1980.json"
+    }
+  ],
+  "discovery_alphabets": [
+    "I",
+    "V",
+    "C",
+    "T"
+  ],
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "novel_total_pre_keyword": 270,
+  "novel_kept_post_keyword": 22,
+  "slices": [
+    [
+      13,
+      15
+    ],
+    [
+      15,
+      17
+    ],
+    [
+      17,
+      19
+    ],
+    [
+      19,
+      21
+    ]
+  ]
+}

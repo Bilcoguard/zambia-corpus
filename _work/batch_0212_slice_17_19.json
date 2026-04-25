@@ -1,0 +1,46 @@
+{
+  "batch": "0212",
+  "phase": "ingest",
+  "slice": [
+    17,
+    19
+  ],
+  "started_at": "2026-04-25T04:04:42Z",
+  "completed_at": "2026-04-25T04:05:04Z",
+  "fetch_start": 175,
+  "fetch_end": 179,
+  "results": [
+    {
+      "year": 1980,
+      "number": 14,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) order, 1980",
+      "alphabet": "I",
+      "record_id": "si-zm-1980-014-income-tax-foreign-organisations-exemption-approval-order-1980",
+      "sections": 3,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) Order, 1980",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1980/14/eng@1980-01-25/source.pdf",
+      "pdf_hash": "21a0edfd0edf6cb074355ba1c8b6f594e75289706b13c1fca724aec7b4769a76",
+      "pdf_bytes": 155058,
+      "raw_pdf": "/sessions/loving-festive-ride/mnt/corpus/raw/zambialii/si/1980/si-zm-1980-014-income-tax-foreign-organisations-exemption-approval-order-1980.pdf",
+      "record_path": "/sessions/loving-festive-ride/mnt/corpus/records/sis/1980/si-zm-1980-014-income-tax-foreign-organisations-exemption-approval-order-1980.json"
+    },
+    {
+      "year": 1980,
+      "number": 24,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1980",
+      "alphabet": "I",
+      "record_id": "si-zm-1980-024-income-tax-foreign-organisations-exemption-approval-no-2-order-1980",
+      "sections": 3,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) (No. 2) Order, 1980",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1980/24/eng@1980-02-01/source.pdf",
+      "pdf_hash": "4b47ae9ea134fb0b8e2a844c9cf8c9167cfb0abb9c350968ea52d7d3e2ce61c6",
+      "pdf_bytes": 164973,
+      "raw_pdf": "/sessions/loving-festive-ride/mnt/corpus/raw/zambialii/si/1980/si-zm-1980-024-income-tax-foreign-organisations-exemption-approval-no-2-order-1980.pdf",
+      "record_path": "/sessions/loving-festive-ride/mnt/corpus/records/sis/1980/si-zm-1980-024-income-tax-foreign-organisations-exemption-approval-no-2-order-1980.json"
+    }
+  ]
+}

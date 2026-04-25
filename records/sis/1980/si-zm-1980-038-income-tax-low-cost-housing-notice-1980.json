@@ -1,0 +1,36 @@
+{
+  "id": "si-zm-1980-038-income-tax-low-cost-housing-notice-1980",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Income Tax (Low Cost Housing) Notice, 1980",
+  "citation": "Statutory Instrument No. 38 of 1980",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "2",
+      "heading": "For tho purpose of Part I of the Fifth Schedule to tho Limits fur",
+      "text": "Income Tax Act, a housing unit shall qualify as an industrial low co�t\nhousing\nbuilding if-\n(a) in the ca.so of a housing unit constructed or acquired\nbefore tho 1st April, 1975, tho cost of such housing\nunit does not exceed three thousand kwa.cha; or\n(b) in the case of a housing unit constructed or acquired\non or after the 1st April, 1975, the cost of such housing\nunit does not exceed four thousand kwa.cha.; or\n(c) in tho case of a housing unit constructed or acquired\non or after tho 1st April, 1980, the cost of such housing\nunit does not exceed ton thousand kwacha."
+    },
+    {
+      "number": "3",
+      "heading": "Stat1.1tory Instrument No. 51 of 1975 is hereby revoked. Revocation",
+      "text": "of S.J.\nNo. 61\nof J07J\nK. S. K. :MusoKOTWANF:,\nLUSAKA Minister of Finance\n3rd March, 1980\n[COM/E7/1/80.F4/31\nCopiu of t/1i8 Statut.ory lm1trument can be obtained from the Covern111eiit Prin.Jer,\nP.O. Ho:i, 130, Lt=kn. Pnu 10» each."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/1980/38/eng@1980-03-07/source.pdf",
+  "source_hash": "sha256:0f14361f81e324148f74e1f248a9bfb29139262a895bf19e82355d1fd7d2c5a6",
+  "fetched_at": "2026-04-25T04:05:21Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/1980/38/eng@1980-03-07",
+      "source_hash": "sha256:fbfe50eaaa91a34895896294e4e637d5b9987e211ca025c9e8698645f8431c5b",
+      "fetched_at": "2026-04-25T04:05:15Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

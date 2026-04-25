@@ -1,0 +1,41 @@
+{
+  "id": "si-zm-1980-014-income-tax-foreign-organisations-exemption-approval-order-1980",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Income Tax (Foreign Organisations) (Exemption Approval) Order, 1980",
+  "citation": "Statutory Instrument No. 14 of 1980",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Order may be cited as the Income Tax (Foreign Title",
+      "text": "Organisations) (Exemption Approval) Order, 1980."
+    },
+    {
+      "number": "2",
+      "heading": "The undermentioned foreign organisations are hereby Appro,•o.'",
+      "text": "approved for the purpose of excm ption from tax : of foroign\norganisa,ions\n(i) Kreditanstalt fur Wiederaufbau, Frankfurt;\n(ii) United States Agency for International Development;\n(iii) The Netherlands Investment Bank for Developing\nCountries."
+    },
+    {
+      "number": "3",
+      "heading": "The income of the foreign organisations approved in Exemption",
+      "text": "paragraph 2 of this Order accruing to them under any Loan from tax\nAgreement entered into between any of such approved organ­\nisations and the Government of the Republic of Zambia,\nto\nshall be exempt from tax pursuant paragraph 4 of the\nSecond Schedule to the Act.\nK. s. K. ANE,\nMUSOKOTW\nMinister of Finance\nLUSAKA\n18th January, 1980\n[MF/L AND I.101/35/11 l\n[:a-ll'/L AND I/r...3281\nOopiu of tllilf Slalwory It1strui116nt ccm be obtained from the Government Pri11.ter,\nP.O. Bo:z; 136, Lwaka. Pria 10n each."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/1980/14/eng@1980-01-25/source.pdf",
+  "source_hash": "sha256:21a0edfd0edf6cb074355ba1c8b6f594e75289706b13c1fca724aec7b4769a76",
+  "fetched_at": "2026-04-25T04:04:43Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/1980/14/eng@1980-01-25",
+      "source_hash": "sha256:52c8826aac9d17eb0063827a6644bf8555e1a0960f687b806927edc15990ae44",
+      "fetched_at": "2026-04-25T04:04:42Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "batch": "0212",
+  "phase": "ingest",
+  "slice": [
+    19,
+    21
+  ],
+  "started_at": "2026-04-25T04:05:07Z",
+  "completed_at": "2026-04-25T04:05:28Z",
+  "fetch_start": 179,
+  "fetch_end": 183,
+  "results": [
+    {
+      "year": 1980,
+      "number": 29,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (international organisations) (exemption approval) order, 1980",
+      "alphabet": "I",
+      "record_id": "si-zm-1980-029-income-tax-international-organisations-exemption-approval-order-1980",
+      "sections": 3,
+      "title": "Income Tax (International Organisations) (Exemption Approval) Order, 1980",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1980/29/eng@1980-02-15/source.pdf",
+      "pdf_hash": "a0f74d96d43dda05a25fcfce2be34aa98a50f67a79c9d0709c73092a1ffe396d",
+      "pdf_bytes": 146596,
+      "raw_pdf": "/sessions/loving-festive-ride/mnt/corpus/raw/zambialii/si/1980/si-zm-1980-029-income-tax-international-organisations-exemption-approval-order-1980.pdf",
+      "record_path": "/sessions/loving-festive-ride/mnt/corpus/records/sis/1980/si-zm-1980-029-income-tax-international-organisations-exemption-approval-order-1980.json"
+    },
+    {
+      "year": 1980,
+      "number": 38,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (low cost housing) notice, 1980",
+      "alphabet": "I",
+      "record_id": "si-zm-1980-038-income-tax-low-cost-housing-notice-1980",
+      "sections": 2,
+      "title": "Income Tax (Low Cost Housing) Notice, 1980",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1980/38/eng@1980-03-07/source.pdf",
+      "pdf_hash": "0f14361f81e324148f74e1f248a9bfb29139262a895bf19e82355d1fd7d2c5a6",
+      "pdf_bytes": 168927,
+      "raw_pdf": "/sessions/loving-festive-ride/mnt/corpus/raw/zambialii/si/1980/si-zm-1980-038-income-tax-low-cost-housing-notice-1980.pdf",
+      "record_path": "/sessions/loving-festive-ride/mnt/corpus/records/sis/1980/si-zm-1980-038-income-tax-low-cost-housing-notice-1980.json"
+    }
+  ]
+}

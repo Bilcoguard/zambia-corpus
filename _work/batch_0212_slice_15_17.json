@@ -1,0 +1,46 @@
+{
+  "batch": "0212",
+  "phase": "ingest",
+  "slice": [
+    15,
+    17
+  ],
+  "started_at": "2026-04-25T04:04:17Z",
+  "completed_at": "2026-04-25T04:04:39Z",
+  "fetch_start": 171,
+  "fetch_end": 175,
+  "results": [
+    {
+      "year": 1981,
+      "number": 48,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (exempt organisations) (approval) order, 1981",
+      "alphabet": "I",
+      "record_id": "si-zm-1981-048-income-tax-exempt-organisations-approval-order-1981",
+      "sections": 5,
+      "title": "Income Tax (Exempt Organisations) (Approval) Order, 1981",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1981/48/eng@1981-03-27/source.pdf",
+      "pdf_hash": "41f4073c565ccfff72852b3e76baf7f6d7c29a7d48d1fe8968470f7c3689182c",
+      "pdf_bytes": 116817,
+      "raw_pdf": "/sessions/loving-festive-ride/mnt/corpus/raw/zambialii/si/1981/si-zm-1981-048-income-tax-exempt-organisations-approval-order-1981.pdf",
+      "record_path": "/sessions/loving-festive-ride/mnt/corpus/records/sis/1981/si-zm-1981-048-income-tax-exempt-organisations-approval-order-1981.json"
+    },
+    {
+      "year": 1981,
+      "number": 49,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) order, 1981",
+      "alphabet": "I",
+      "record_id": "si-zm-1981-049-income-tax-foreign-organisations-exemption-approval-order-1981",
+      "sections": 2,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) Order, 1981",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1981/49/eng@1981-03-27/source.pdf",
+      "pdf_hash": "54bbb903294748b63d172a9e01e49122d2833a8c73a5f254c68d0eca9d5c11fc",
+      "pdf_bytes": 146185,
+      "raw_pdf": "/sessions/loving-festive-ride/mnt/corpus/raw/zambialii/si/1981/si-zm-1981-049-income-tax-foreign-organisations-exemption-approval-order-1981.pdf",
+      "record_path": "/sessions/loving-festive-ride/mnt/corpus/records/sis/1981/si-zm-1981-049-income-tax-foreign-organisations-exemption-approval-order-1981.json"
+    }
+  ]
+}
