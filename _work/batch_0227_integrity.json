@@ -1,0 +1,14 @@
+{
+  "overall": "PASS",
+  "results": {
+    "CHECK1a": "PASS (8/8 unique)",
+    "CHECK1b": "PASS (8/8 present)",
+    "CHECK2": "PASS (0 amended_by refs across 8 records)",
+    "CHECK3": "PASS (0 repealed_by refs across 8 records)",
+    "CHECK4": "PASS (sha verified 8/8 against raw)",
+    "CHECK5": "PASS (10 fields x 8 records all present)",
+    "CHECK6": "PASS (0 cited_authorities refs across 8 records)"
+  },
+  "errors": [],
+  "records_count": 8
+}

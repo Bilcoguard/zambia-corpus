@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2020/13",
+    "year": "2020",
+    "num": "13",
+    "title": "National Forest No. F.12 Luano (Alteration of Boundaries) Order, 2020",
+    "sub_phase": "sis_environment",
+    "parent_act": "Forests Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2020-013-national-forest-no-f-12-luano-alteration-of-boundaries-order-2020",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2020,
+    "number": 13,
+    "title": "National Forest No. F.12 Luano (Alteration of Boundaries) Order, 2020",
+    "parent_act": "Forests Act",
+    "sub_phase": "sis_environment",
+    "effective_date": "2020-02-07",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2020/13",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/13/eng@2020-02-07/source.pdf",
+    "source_hash": "93798fd1cb564a80300e28b7efff20bacafc8f88d185f78d1509d4e45af95159",
+    "html_hash": "427dbc19f028ffddbb96a76c31c88b719169a12642daeab5ca7fe9cfdd6da7a0",
+    "fetched_at": "2026-04-25T14:38:19Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 3345,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2020/si-zm-2020-013-national-forest-no-f-12-luano-alteration-of-boundaries-order-2020.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/13",
+      "bytes": 39252,
+      "path": "raw/zambialii/si/2020/si-zm-2020-013-national-forest-no-f-12-luano-alteration-of-boundaries-order-2020.html",
+      "sha": "427dbc19f028ffddbb96a76c31c88b719169a12642daeab5ca7fe9cfdd6da7a0"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/13/eng@2020-02-07/source.pdf",
+      "bytes": 12937,
+      "path": "raw/zambialii/si/2020/si-zm-2020-013-national-forest-no-f-12-luano-alteration-of-boundaries-order-2020.pdf",
+      "sha": "93798fd1cb564a80300e28b7efff20bacafc8f88d185f78d1509d4e45af95159"
+    }
+  ]
+}

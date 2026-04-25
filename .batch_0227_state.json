@@ -1,0 +1,36 @@
+{
+  "batch": "0227",
+  "phase": "phase_4_bulk",
+  "started_at": "2026-04-25T14:32:00Z",
+  "completed_at": "2026-04-25T14:40:25Z",
+  "records_count": 8,
+  "records": [
+    "si-zm-2022-016-local-authorities-superannuation-fund-pension-management-rules-2022",
+    "si-zm-2021-010-kasama-municipal-council-vehicle-loading-and-parking-levy-by-laws-2021",
+    "si-zm-2020-014-local-government-fire-services-order-2020",
+    "si-zm-2019-044-local-government-fire-inspectors-and-fire-officers-order-2019",
+    "si-zm-2020-013-national-forest-no-f-12-luano-alteration-of-boundaries-order-2020",
+    "si-zm-2021-003-national-forest-no-f31-kabwe-alteration-of-boundaries-order-2021",
+    "si-zm-2021-002-kasama-national-forest-no-p-47-alteration-of-boundaries-order-2021",
+    "si-zm-2021-001-forest-reserve-no-4-maposa-cessation-order-2021"
+  ],
+  "integrity": "PASS",
+  "fetches_used": 17,
+  "sub_phases_covered": [
+    "sis_local_government",
+    "sis_environment"
+  ],
+  "mode": "L_alphabet_probe + drain_forest_reserves_from_0226",
+  "attempted_count": 8,
+  "fail_records": [],
+  "skip_records": [],
+  "fail_reason": null,
+  "skip_reason": null,
+  "yield_pct": 100.0,
+  "discovery_fetches": 1,
+  "today_fetches": 465,
+  "robots_sha_prefix": "fce67b697ee4ef44",
+  "first_records": {
+    "sis_local_government_pension": "si-zm-2022-016-local-authorities-superannuation-fund-pension-management-rules-2022"
+  }
+}

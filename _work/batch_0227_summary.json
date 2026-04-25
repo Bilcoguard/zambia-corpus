@@ -1,0 +1,93 @@
+{
+  "batch": "0227",
+  "records": [
+    {
+      "idx": 0,
+      "yr_num": "2022/16",
+      "status": "ok",
+      "title": "Local Authorities Superannuation Fund (Pension Management) Rules, 2022",
+      "sub_phase": "sis_local_government",
+      "pages": 26,
+      "chars": 44717,
+      "id": "si-zm-2022-016-local-authorities-superannuation-fund-pension-management-rules-2022",
+      "effective_date": "2022-02-25"
+    },
+    {
+      "idx": 1,
+      "yr_num": "2021/10",
+      "status": "ok",
+      "title": "Kasama Municipal Council (Vehicle Loading and Parking Levy) By-laws, 2021",
+      "sub_phase": "sis_local_government",
+      "pages": 4,
+      "chars": 4112,
+      "id": "si-zm-2021-010-kasama-municipal-council-vehicle-loading-and-parking-levy-by-laws-2021",
+      "effective_date": "2021-02-12"
+    },
+    {
+      "idx": 2,
+      "yr_num": "2020/14",
+      "status": "ok",
+      "title": "Local Government (Fire Services) Order, 2020",
+      "sub_phase": "sis_local_government",
+      "pages": 2,
+      "chars": 892,
+      "id": "si-zm-2020-014-local-government-fire-services-order-2020",
+      "effective_date": "2020-02-21"
+    },
+    {
+      "idx": 3,
+      "yr_num": "2019/44",
+      "status": "ok",
+      "title": "Local Government (Fire Inspectors and Fire Officers) Order, 2019",
+      "sub_phase": "sis_local_government",
+      "pages": 6,
+      "chars": 4495,
+      "id": "si-zm-2019-044-local-government-fire-inspectors-and-fire-officers-order-2019",
+      "effective_date": "2019-08-02"
+    },
+    {
+      "idx": 4,
+      "yr_num": "2020/13",
+      "status": "ok",
+      "title": "National Forest No. F.12 Luano (Alteration of Boundaries) Order, 2020",
+      "sub_phase": "sis_environment",
+      "pages": 2,
+      "chars": 3345,
+      "id": "si-zm-2020-013-national-forest-no-f-12-luano-alteration-of-boundaries-order-2020",
+      "effective_date": "2020-02-07"
+    },
+    {
+      "idx": 5,
+      "yr_num": "2021/3",
+      "status": "ok",
+      "title": "National Forest No. F31 Kabwe (Alteration of Boundaries) Order, 2021",
+      "sub_phase": "sis_environment",
+      "pages": 4,
+      "chars": 5159,
+      "id": "si-zm-2021-003-national-forest-no-f31-kabwe-alteration-of-boundaries-order-2021",
+      "effective_date": "2021-01-04"
+    },
+    {
+      "idx": 6,
+      "yr_num": "2021/2",
+      "status": "ok",
+      "title": "Kasama National Forest No. P. 47 (Alteration of Boundaries) Order, 2021",
+      "sub_phase": "sis_environment",
+      "pages": 2,
+      "chars": 3463,
+      "id": "si-zm-2021-002-kasama-national-forest-no-p-47-alteration-of-boundaries-order-2021",
+      "effective_date": "2021-01-08"
+    },
+    {
+      "idx": 7,
+      "yr_num": "2021/1",
+      "status": "ok",
+      "title": "Forest Reserve No. 4 Maposa (Cessation) Order, 2021",
+      "sub_phase": "sis_environment",
+      "pages": 2,
+      "chars": 1977,
+      "id": "si-zm-2021-001-forest-reserve-no-4-maposa-cessation-order-2021",
+      "effective_date": "2021-01-08"
+    }
+  ]
+}

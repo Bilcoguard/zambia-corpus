@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2021/3",
+    "year": "2021",
+    "num": "3",
+    "title": "National Forest No. F31 Kabwe (Alteration of Boundaries) Order, 2021",
+    "sub_phase": "sis_environment",
+    "parent_act": "Forests Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2021-003-national-forest-no-f31-kabwe-alteration-of-boundaries-order-2021",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2021,
+    "number": 3,
+    "title": "National Forest No. F31 Kabwe (Alteration of Boundaries) Order, 2021",
+    "parent_act": "Forests Act",
+    "sub_phase": "sis_environment",
+    "effective_date": "2021-01-04",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2021/3",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2021/3/eng@2021-01-04/source.pdf",
+    "source_hash": "9d091f5d2bc66c47200843e0cfff9dd1f39e8ada799bc507d4a9d40c08fd80a5",
+    "html_hash": "a28ce495b5f51339a4042ea32e5a3ede00e4f58aee70fdcddefe26330ebbeeef",
+    "fetched_at": "2026-04-25T14:38:37Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 4,
+    "pdf_text_chars": 5159,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2021/si-zm-2021-003-national-forest-no-f31-kabwe-alteration-of-boundaries-order-2021.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/3",
+      "bytes": 39218,
+      "path": "raw/zambialii/si/2021/si-zm-2021-003-national-forest-no-f31-kabwe-alteration-of-boundaries-order-2021.html",
+      "sha": "a28ce495b5f51339a4042ea32e5a3ede00e4f58aee70fdcddefe26330ebbeeef"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/3/eng@2021-01-04/source.pdf",
+      "bytes": 16875,
+      "path": "raw/zambialii/si/2021/si-zm-2021-003-national-forest-no-f31-kabwe-alteration-of-boundaries-order-2021.pdf",
+      "sha": "9d091f5d2bc66c47200843e0cfff9dd1f39e8ada799bc507d4a9d40c08fd80a5"
+    }
+  ]
+}

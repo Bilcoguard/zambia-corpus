@@ -1,0 +1,91 @@
+{
+  "alphabets": [
+    "L"
+  ],
+  "fetches": [
+    {
+      "url": "https://zambialii.org/legislation/?alphabet=L&subleg=true&stub=False",
+      "bytes": 128740,
+      "sha": "ccbae687540b4a8d0dbbf52acac3cf109d37c518b81c79e14bcd22d0ba64d4f3"
+    }
+  ],
+  "candidates": [
+    {
+      "year": "2020",
+      "num": 34,
+      "title": "Laws of Zambia (Revised Edition) Act (Specified Date) Notice, 2020",
+      "href": "/akn/zm/act/si/2020/34/eng@2020-04-24",
+      "alphabet": "L"
+    },
+    {
+      "year": "2022",
+      "num": 16,
+      "title": "Local Authorities Superannuation Fund (Pension Management) Rules, 2022",
+      "href": "/akn/zm/act/si/2022/16/eng@2022-02-25",
+      "alphabet": "L"
+    },
+    {
+      "year": "2021",
+      "num": 10,
+      "title": "Kasama Municipal Council (Vehicle Loading and Parking Levy) By laws, 2021",
+      "href": "/akn/zm/act/si/2021/10/eng@2021-02-12",
+      "alphabet": "L"
+    },
+    {
+      "year": "2022",
+      "num": 71,
+      "title": "Local Government (Appointment of Local Government Administrator) (Kafue Town Council) Order, 2022",
+      "href": "/akn/zm/act/si/2022/71/eng@2022-11-04",
+      "alphabet": "L"
+    },
+    {
+      "year": "2020",
+      "num": 95,
+      "title": "Local Government (Appointment of Local Government Administrator) (Kalumbila Town Council) Order, 2020",
+      "href": "/akn/zm/act/si/2020/95/eng@2020-11-20",
+      "alphabet": "L"
+    },
+    {
+      "year": "2020",
+      "num": 67,
+      "title": "Local Government (Appointment of Local Government Administrator) (Kitwe City Council) Order, 2020",
+      "href": "/akn/zm/act/si/2020/67/eng@2020-07-31",
+      "alphabet": "L"
+    },
+    {
+      "year": "2020",
+      "num": 66,
+      "title": "Local Government (Appointment of Local Government Administrator) (Lusaka City Council) Order, 2020",
+      "href": "/akn/zm/act/si/2020/66/eng@2020-07-31",
+      "alphabet": "L"
+    },
+    {
+      "year": "2020",
+      "num": 14,
+      "title": "Local Government (Fire Services) Order, 2020",
+      "href": "/akn/zm/act/si/2020/14/eng@2020-02-21",
+      "alphabet": "L"
+    },
+    {
+      "year": "2019",
+      "num": 77,
+      "title": "Chembe Town Council (Sugar Cane Levy) By-laws, 2019",
+      "href": "/akn/zm/act/si/2019/77/eng@2019-11-22",
+      "alphabet": "L"
+    },
+    {
+      "year": "2019",
+      "num": 47,
+      "title": "Local Government (Fire Services) Order, 2019",
+      "href": "/akn/zm/act/si/2019/47/eng@2019-09-06",
+      "alphabet": "L"
+    },
+    {
+      "year": "2019",
+      "num": 44,
+      "title": "Local Government (Fire Inspectors and Fire Officers) Order, 2019",
+      "href": "/akn/zm/act/si/2019/44/eng@2019-08-02",
+      "alphabet": "L"
+    }
+  ]
+}

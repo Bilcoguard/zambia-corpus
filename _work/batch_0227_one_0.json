@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2022/16",
+    "year": "2022",
+    "num": "16",
+    "title": "Local Authorities Superannuation Fund (Pension Management) Rules, 2022",
+    "sub_phase": "sis_local_government",
+    "parent_act": "Local Authorities Superannuation Fund Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2022-016-local-authorities-superannuation-fund-pension-management-rules-2022",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2022,
+    "number": 16,
+    "title": "Local Authorities Superannuation Fund (Pension Management) Rules, 2022",
+    "parent_act": "Local Authorities Superannuation Fund Act",
+    "sub_phase": "sis_local_government",
+    "effective_date": "2022-02-25",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2022/16",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2022/16/eng@2022-02-25/source.pdf",
+    "source_hash": "cc50b2c5f16a50e9a7a8182743a7fc727b57439c6f36ddb30fa1bafd08e12922",
+    "html_hash": "10cb06ca4f9ebaab89ef5a829abfdff2e49129b3a69bdfa215a062396fe5b1f2",
+    "fetched_at": "2026-04-25T14:36:49Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 26,
+    "pdf_text_chars": 44717,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2022/si-zm-2022-016-local-authorities-superannuation-fund-pension-management-rules-2022.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/16",
+      "bytes": 39335,
+      "path": "raw/zambialii/si/2022/si-zm-2022-016-local-authorities-superannuation-fund-pension-management-rules-2022.html",
+      "sha": "10cb06ca4f9ebaab89ef5a829abfdff2e49129b3a69bdfa215a062396fe5b1f2"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/16/eng@2022-02-25/source.pdf",
+      "bytes": 549377,
+      "path": "raw/zambialii/si/2022/si-zm-2022-016-local-authorities-superannuation-fund-pension-management-rules-2022.pdf",
+      "sha": "cc50b2c5f16a50e9a7a8182743a7fc727b57439c6f36ddb30fa1bafd08e12922"
+    }
+  ]
+}

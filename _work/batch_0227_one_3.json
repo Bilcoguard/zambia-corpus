@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2019/44",
+    "year": "2019",
+    "num": "44",
+    "title": "Local Government (Fire Inspectors and Fire Officers) Order, 2019",
+    "sub_phase": "sis_local_government",
+    "parent_act": "Local Government Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2019-044-local-government-fire-inspectors-and-fire-officers-order-2019",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2019,
+    "number": 44,
+    "title": "Local Government (Fire Inspectors and Fire Officers) Order, 2019",
+    "parent_act": "Local Government Act",
+    "sub_phase": "sis_local_government",
+    "effective_date": "2019-08-02",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2019/44",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2019/44/eng@2019-08-02/source.pdf",
+    "source_hash": "12f32237607114f8f3a5f14fb26b880c0881cec7c2acdf32e583cc8b6ebce4b8",
+    "html_hash": "f013db59c62872a0400d89771bb71847080e7881b1ac4692d37e2ea860bd7c78",
+    "fetched_at": "2026-04-25T14:38:01Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 6,
+    "pdf_text_chars": 4495,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2019/si-zm-2019-044-local-government-fire-inspectors-and-fire-officers-order-2019.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/44",
+      "bytes": 39241,
+      "path": "raw/zambialii/si/2019/si-zm-2019-044-local-government-fire-inspectors-and-fire-officers-order-2019.html",
+      "sha": "f013db59c62872a0400d89771bb71847080e7881b1ac4692d37e2ea860bd7c78"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/44/eng@2019-08-02/source.pdf",
+      "bytes": 21828,
+      "path": "raw/zambialii/si/2019/si-zm-2019-044-local-government-fire-inspectors-and-fire-officers-order-2019.pdf",
+      "sha": "12f32237607114f8f3a5f14fb26b880c0881cec7c2acdf32e583cc8b6ebce4b8"
+    }
+  ]
+}

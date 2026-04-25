@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2021/2",
+    "year": "2021",
+    "num": "2",
+    "title": "Kasama National Forest No. P. 47 (Alteration of Boundaries) Order, 2021",
+    "sub_phase": "sis_environment",
+    "parent_act": "Forests Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2021-002-kasama-national-forest-no-p-47-alteration-of-boundaries-order-2021",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2021,
+    "number": 2,
+    "title": "Kasama National Forest No. P. 47 (Alteration of Boundaries) Order, 2021",
+    "parent_act": "Forests Act",
+    "sub_phase": "sis_environment",
+    "effective_date": "2021-01-08",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2021/2",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2021/2/eng@2021-01-08/source.pdf",
+    "source_hash": "305d6fff84890b5b489af867037ec25fb034530c80a201f9d8f17d83788f1cf4",
+    "html_hash": "793d37a175ce5f866552314cf2c58d0954ed71498af5521d26aaee5ea744e4f3",
+    "fetched_at": "2026-04-25T14:38:54Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 3463,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2021/si-zm-2021-002-kasama-national-forest-no-p-47-alteration-of-boundaries-order-2021.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/2",
+      "bytes": 39236,
+      "path": "raw/zambialii/si/2021/si-zm-2021-002-kasama-national-forest-no-p-47-alteration-of-boundaries-order-2021.html",
+      "sha": "793d37a175ce5f866552314cf2c58d0954ed71498af5521d26aaee5ea744e4f3"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/2/eng@2021-01-08/source.pdf",
+      "bytes": 13148,
+      "path": "raw/zambialii/si/2021/si-zm-2021-002-kasama-national-forest-no-p-47-alteration-of-boundaries-order-2021.pdf",
+      "sha": "305d6fff84890b5b489af867037ec25fb034530c80a201f9d8f17d83788f1cf4"
+    }
+  ]
+}
