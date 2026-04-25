@@ -1,0 +1,46 @@
+{
+  "batch": "0207",
+  "phase": "ingest",
+  "slice": [
+    5,
+    7
+  ],
+  "started_at": "2026-04-25T01:41:16Z",
+  "completed_at": "2026-04-25T01:41:38Z",
+  "fetch_start": 79,
+  "fetch_end": 83,
+  "results": [
+    {
+      "year": 2010,
+      "number": 43,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (sino-metals leach zambia limited) (rebate) regulations, 2010",
+      "alphabet": "I",
+      "record_id": "si-zm-2010-043-income-tax-sino-metals-leach-zambia-limited-rebate-regulations-2010",
+      "sections": 3,
+      "title": "Income Tax (Sino-Metals Leach Zambia Limited) (Rebate) Regulations, 2010",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2010/43/eng@2010-06-11/source.pdf",
+      "pdf_hash": "f595459eb5cf6f4ac4a61655a2e1e0c6deac0ad3caf1b07cd45d4dc1fd95384e",
+      "pdf_bytes": 98969,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/2010/si-zm-2010-043-income-tax-sino-metals-leach-zambia-limited-rebate-regulations-2010.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/2010/si-zm-2010-043-income-tax-sino-metals-leach-zambia-limited-rebate-regulations-2010.json"
+    },
+    {
+      "year": 2009,
+      "number": 2,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (approval and exemption) order, 2009",
+      "alphabet": "I",
+      "record_id": "si-zm-2009-002-income-tax-foreign-organisations-approval-and-exemption-order-2009",
+      "sections": 1,
+      "title": "Income Tax (Foreign Organisations) (Approval and Exemption) Order, 2009",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2009/2/eng@2009-01-16/source.pdf",
+      "pdf_hash": "4a871f18824084cb78b16ed6d5d64e6eb75037b3db3af5738a5cfdd7c5e35edb",
+      "pdf_bytes": 105169,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/2009/si-zm-2009-002-income-tax-foreign-organisations-approval-and-exemption-order-2009.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/2009/si-zm-2009-002-income-tax-foreign-organisations-approval-and-exemption-order-2009.json"
+    }
+  ]
+}

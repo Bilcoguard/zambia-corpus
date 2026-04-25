@@ -1,0 +1,46 @@
+{
+  "batch": "0207",
+  "phase": "ingest",
+  "slice": [
+    9,
+    11
+  ],
+  "started_at": "2026-04-25T01:42:09Z",
+  "completed_at": "2026-04-25T01:42:30Z",
+  "fetch_start": 87,
+  "fetch_end": 91,
+  "results": [
+    {
+      "year": 1999,
+      "number": 42,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption and approval) order, 1999",
+      "alphabet": "I",
+      "record_id": "si-zm-1999-042-income-tax-foreign-organisations-exemption-and-approval-order-1999",
+      "sections": 2,
+      "title": "Income Tax (Foreign Organisations) (Exemption and Approval) Order, 1999",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1999/42/eng@1999-03-26/source.pdf",
+      "pdf_hash": "03319cd79b80ffa5f1f0a0342cc9153fef91f36c7071a124da63cf702fb117fb",
+      "pdf_bytes": 112539,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/1999/si-zm-1999-042-income-tax-foreign-organisations-exemption-and-approval-order-1999.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/1999/si-zm-1999-042-income-tax-foreign-organisations-exemption-and-approval-order-1999.json"
+    },
+    {
+      "year": 1993,
+      "number": 2,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (approval and exemption) order, 1993",
+      "alphabet": "I",
+      "record_id": "si-zm-1993-002-income-tax-foreign-organisations-approval-and-exemption-order-1993",
+      "sections": 3,
+      "title": "Income Tax (Foreign Organisations) (Approval and Exemption) Order, 1993",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1993/2/eng@1993-01-15/source.pdf",
+      "pdf_hash": "2f354ff861df6003c2b6e5d67894a1014c96134c62a01c5eb66be09127b32b37",
+      "pdf_bytes": 170593,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/1993/si-zm-1993-002-income-tax-foreign-organisations-approval-and-exemption-order-1993.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/1993/si-zm-1993-002-income-tax-foreign-organisations-approval-and-exemption-order-1993.json"
+    }
+  ]
+}

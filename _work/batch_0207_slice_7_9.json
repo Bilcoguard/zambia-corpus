@@ -1,0 +1,46 @@
+{
+  "batch": "0207",
+  "phase": "ingest",
+  "slice": [
+    7,
+    9
+  ],
+  "started_at": "2026-04-25T01:41:43Z",
+  "completed_at": "2026-04-25T01:42:04Z",
+  "fetch_start": 83,
+  "fetch_end": 87,
+  "results": [
+    {
+      "year": 2007,
+      "number": 29,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (advance tax) (exemption) regulations, 2007",
+      "alphabet": "I",
+      "record_id": "si-zm-2007-029-income-tax-advance-tax-exemption-regulations-2007",
+      "sections": 53,
+      "title": "Income Tax (Advance Tax) (Exemption) Regulations, 2007",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2007/29/eng@2007-04-20/source.pdf",
+      "pdf_hash": "dde032e69c27a089bc996309a10f0b1ca54fd3b2ead5e4964235af515c0e5073",
+      "pdf_bytes": 516838,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/2007/si-zm-2007-029-income-tax-advance-tax-exemption-regulations-2007.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/2007/si-zm-2007-029-income-tax-advance-tax-exemption-regulations-2007.json"
+    },
+    {
+      "year": 2006,
+      "number": 40,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (tax clearance) (exemption) regulations, 2006",
+      "alphabet": "I",
+      "record_id": "si-zm-2006-040-income-tax-tax-clearance-exemption-regulations-2006",
+      "sections": 3,
+      "title": "Income Tax (Tax Clearance) (Exemption) Regulations, 2006",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2006/40/eng@2006-03-31/source.pdf",
+      "pdf_hash": "1a24af2303df18d4969d7b9979229d1bbb71a668c8d685fdf4e8da32e8453e05",
+      "pdf_bytes": 128560,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/2006/si-zm-2006-040-income-tax-tax-clearance-exemption-regulations-2006.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/2006/si-zm-2006-040-income-tax-tax-clearance-exemption-regulations-2006.json"
+    }
+  ]
+}

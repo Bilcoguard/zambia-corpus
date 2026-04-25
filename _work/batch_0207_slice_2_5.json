@@ -1,0 +1,62 @@
+{
+  "batch": "0207",
+  "phase": "ingest",
+  "slice": [
+    2,
+    5
+  ],
+  "started_at": "2026-04-25T01:36:00Z",
+  "completed_at": "2026-04-25T01:39:00Z",
+  "fetch_start": 73,
+  "fetch_end": 79,
+  "results": [
+    {
+      "year": 2016,
+      "number": 30,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (agence francaise de development and proparco) (approval and exemption) order, 2016",
+      "alphabet": "I",
+      "record_id": "si-zm-2016-030-income-tax-agence-francaise-de-development-and-proparco-approval-and-exemption-o",
+      "sections": 3,
+      "title": "Income Tax (Agence Francaise De Development and PROPARCO) (Approval and Exemption) Order, 2016",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2016/30/eng@2016-05-13/source.pdf",
+      "pdf_hash": "815c6ddad3a27697cbddd08e3496a3d04043ca367d5024917db7068b594117e2",
+      "pdf_bytes": 14985,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/2016/si-zm-2016-030-income-tax-agence-francaise-de-development-and-proparco-approval-and-exemption-o.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/2016/si-zm-2016-030-income-tax-agence-francaise-de-development-and-proparco-approval-and-exemption-o.json"
+    },
+    {
+      "year": 2011,
+      "number": 34,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (china-africa development fund) (approval and exemption) order, 2011",
+      "alphabet": "I",
+      "record_id": "si-zm-2011-034-income-tax-china-africa-development-fund-approval-and-exemption-order-2011",
+      "sections": 2,
+      "title": "Income Tax (China-Africa Development Fund) (Approval and Exemption) Order, 2011",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2011/34/eng@2011-04-15/source.pdf",
+      "pdf_hash": "c0bed228c663d488a27f5394458689b117c62424ce37ede1e7751de2c8a9dea2",
+      "pdf_bytes": 106820,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/2011/si-zm-2011-034-income-tax-china-africa-development-fund-approval-and-exemption-order-2011.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/2011/si-zm-2011-034-income-tax-china-africa-development-fund-approval-and-exemption-order-2011.json"
+    },
+    {
+      "year": 2011,
+      "number": 35,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign personnel) (approval and exemption) order, 2011",
+      "alphabet": "I",
+      "record_id": "si-zm-2011-035-income-tax-foreign-personnel-approval-and-exemption-order-2011",
+      "sections": 2,
+      "title": "Income Tax (Foreign Personnel) (Approval and Exemption) Order, 2011",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2011/35/eng@2011-04-15/source.pdf",
+      "pdf_hash": "5c3cb1899127b9cbcc39e64816c611a261a63e17830f29f363b9b982a01af36f",
+      "pdf_bytes": 108424,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/2011/si-zm-2011-035-income-tax-foreign-personnel-approval-and-exemption-order-2011.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/2011/si-zm-2011-035-income-tax-foreign-personnel-approval-and-exemption-order-2011.json"
+    }
+  ]
+}

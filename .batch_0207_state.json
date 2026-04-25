@@ -1,0 +1,182 @@
+{
+  "batch": "0207",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_tax",
+  "started_at": "2026-04-25T01:39:27Z",
+  "completed_at": "2026-04-25T01:43:36Z",
+  "discovery_fetches": 2,
+  "ingest_fetches": 18,
+  "fetches_used": 20,
+  "records_written": 9,
+  "targets_attempted": 9,
+  "results": [
+    {
+      "year": 2016,
+      "number": 30,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (agence francaise de development and proparco) (approval and exemption) order, 2016",
+      "alphabet": "I",
+      "record_id": "si-zm-2016-030-income-tax-agence-francaise-de-development-and-proparco-approval-and-exemption-o",
+      "sections": 3,
+      "title": "Income Tax (Agence Francaise De Development and PROPARCO) (Approval and Exemption) Order, 2016",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2016/30/eng@2016-05-13/source.pdf",
+      "pdf_hash": "815c6ddad3a27697cbddd08e3496a3d04043ca367d5024917db7068b594117e2",
+      "pdf_bytes": 14985,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/2016/si-zm-2016-030-income-tax-agence-francaise-de-development-and-proparco-approval-and-exemption-o.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/2016/si-zm-2016-030-income-tax-agence-francaise-de-development-and-proparco-approval-and-exemption-o.json"
+    },
+    {
+      "year": 2011,
+      "number": 34,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (china-africa development fund) (approval and exemption) order, 2011",
+      "alphabet": "I",
+      "record_id": "si-zm-2011-034-income-tax-china-africa-development-fund-approval-and-exemption-order-2011",
+      "sections": 2,
+      "title": "Income Tax (China-Africa Development Fund) (Approval and Exemption) Order, 2011",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2011/34/eng@2011-04-15/source.pdf",
+      "pdf_hash": "c0bed228c663d488a27f5394458689b117c62424ce37ede1e7751de2c8a9dea2",
+      "pdf_bytes": 106820,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/2011/si-zm-2011-034-income-tax-china-africa-development-fund-approval-and-exemption-order-2011.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/2011/si-zm-2011-034-income-tax-china-africa-development-fund-approval-and-exemption-order-2011.json"
+    },
+    {
+      "year": 2011,
+      "number": 35,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign personnel) (approval and exemption) order, 2011",
+      "alphabet": "I",
+      "record_id": "si-zm-2011-035-income-tax-foreign-personnel-approval-and-exemption-order-2011",
+      "sections": 2,
+      "title": "Income Tax (Foreign Personnel) (Approval and Exemption) Order, 2011",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2011/35/eng@2011-04-15/source.pdf",
+      "pdf_hash": "5c3cb1899127b9cbcc39e64816c611a261a63e17830f29f363b9b982a01af36f",
+      "pdf_bytes": 108424,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/2011/si-zm-2011-035-income-tax-foreign-personnel-approval-and-exemption-order-2011.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/2011/si-zm-2011-035-income-tax-foreign-personnel-approval-and-exemption-order-2011.json"
+    },
+    {
+      "year": 2010,
+      "number": 43,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (sino-metals leach zambia limited) (rebate) regulations, 2010",
+      "alphabet": "I",
+      "record_id": "si-zm-2010-043-income-tax-sino-metals-leach-zambia-limited-rebate-regulations-2010",
+      "sections": 3,
+      "title": "Income Tax (Sino-Metals Leach Zambia Limited) (Rebate) Regulations, 2010",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2010/43/eng@2010-06-11/source.pdf",
+      "pdf_hash": "f595459eb5cf6f4ac4a61655a2e1e0c6deac0ad3caf1b07cd45d4dc1fd95384e",
+      "pdf_bytes": 98969,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/2010/si-zm-2010-043-income-tax-sino-metals-leach-zambia-limited-rebate-regulations-2010.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/2010/si-zm-2010-043-income-tax-sino-metals-leach-zambia-limited-rebate-regulations-2010.json"
+    },
+    {
+      "year": 2009,
+      "number": 2,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (approval and exemption) order, 2009",
+      "alphabet": "I",
+      "record_id": "si-zm-2009-002-income-tax-foreign-organisations-approval-and-exemption-order-2009",
+      "sections": 1,
+      "title": "Income Tax (Foreign Organisations) (Approval and Exemption) Order, 2009",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2009/2/eng@2009-01-16/source.pdf",
+      "pdf_hash": "4a871f18824084cb78b16ed6d5d64e6eb75037b3db3af5738a5cfdd7c5e35edb",
+      "pdf_bytes": 105169,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/2009/si-zm-2009-002-income-tax-foreign-organisations-approval-and-exemption-order-2009.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/2009/si-zm-2009-002-income-tax-foreign-organisations-approval-and-exemption-order-2009.json"
+    },
+    {
+      "year": 2007,
+      "number": 29,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (advance tax) (exemption) regulations, 2007",
+      "alphabet": "I",
+      "record_id": "si-zm-2007-029-income-tax-advance-tax-exemption-regulations-2007",
+      "sections": 53,
+      "title": "Income Tax (Advance Tax) (Exemption) Regulations, 2007",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2007/29/eng@2007-04-20/source.pdf",
+      "pdf_hash": "dde032e69c27a089bc996309a10f0b1ca54fd3b2ead5e4964235af515c0e5073",
+      "pdf_bytes": 516838,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/2007/si-zm-2007-029-income-tax-advance-tax-exemption-regulations-2007.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/2007/si-zm-2007-029-income-tax-advance-tax-exemption-regulations-2007.json"
+    },
+    {
+      "year": 2006,
+      "number": 40,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (tax clearance) (exemption) regulations, 2006",
+      "alphabet": "I",
+      "record_id": "si-zm-2006-040-income-tax-tax-clearance-exemption-regulations-2006",
+      "sections": 3,
+      "title": "Income Tax (Tax Clearance) (Exemption) Regulations, 2006",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2006/40/eng@2006-03-31/source.pdf",
+      "pdf_hash": "1a24af2303df18d4969d7b9979229d1bbb71a668c8d685fdf4e8da32e8453e05",
+      "pdf_bytes": 128560,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/2006/si-zm-2006-040-income-tax-tax-clearance-exemption-regulations-2006.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/2006/si-zm-2006-040-income-tax-tax-clearance-exemption-regulations-2006.json"
+    },
+    {
+      "year": 1999,
+      "number": 42,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption and approval) order, 1999",
+      "alphabet": "I",
+      "record_id": "si-zm-1999-042-income-tax-foreign-organisations-exemption-and-approval-order-1999",
+      "sections": 2,
+      "title": "Income Tax (Foreign Organisations) (Exemption and Approval) Order, 1999",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1999/42/eng@1999-03-26/source.pdf",
+      "pdf_hash": "03319cd79b80ffa5f1f0a0342cc9153fef91f36c7071a124da63cf702fb117fb",
+      "pdf_bytes": 112539,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/1999/si-zm-1999-042-income-tax-foreign-organisations-exemption-and-approval-order-1999.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/1999/si-zm-1999-042-income-tax-foreign-organisations-exemption-and-approval-order-1999.json"
+    },
+    {
+      "year": 1993,
+      "number": 2,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (approval and exemption) order, 1993",
+      "alphabet": "I",
+      "record_id": "si-zm-1993-002-income-tax-foreign-organisations-approval-and-exemption-order-1993",
+      "sections": 3,
+      "title": "Income Tax (Foreign Organisations) (Approval and Exemption) Order, 1993",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1993/2/eng@1993-01-15/source.pdf",
+      "pdf_hash": "2f354ff861df6003c2b6e5d67894a1014c96134c62a01c5eb66be09127b32b37",
+      "pdf_bytes": 170593,
+      "raw_pdf": "/sessions/peaceful-wonderful-davinci/mnt/corpus/raw/zambialii/si/1993/si-zm-1993-002-income-tax-foreign-organisations-approval-and-exemption-order-1993.pdf",
+      "record_path": "/sessions/peaceful-wonderful-davinci/mnt/corpus/records/sis/1993/si-zm-1993-002-income-tax-foreign-organisations-approval-and-exemption-order-1993.json"
+    }
+  ],
+  "discovery_alphabets": [
+    "I"
+  ],
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "novel_total_pre_keyword": 55,
+  "novel_kept_post_keyword": 39,
+  "slices": [
+    [
+      2,
+      5
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      9,
+      11
+    ]
+  ]
+}
