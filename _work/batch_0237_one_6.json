@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2020/2",
+    "year": "2020",
+    "num": "2",
+    "title": "National Assembly By-Election (Chilubi Constituency No. 095) (Election date and time of Poll) Order, 2020",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2020-01-03"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2020-002-national-assembly-by-election-chilubi-constituency-no-095-election-date-and-time-of-poll-order-2020",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2020,
+    "number": 2,
+    "title": "National Assembly By-Election (Chilubi Constituency No. 095) (Election date and time of Poll) Order, 2020",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2020-01-03",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2020/2",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/2/eng@2020-01-03/source.pdf",
+    "source_hash": "53ca8519ff3e21d2ce1b44c8fa8b149d20cffaca2ff3f452a696d6ba01c843ce",
+    "html_hash": "fb49ea8b57743fcda8ff571b2e62ddfd23ac256b1047fbaa83372511fa8bb5d8",
+    "fetched_at": "2026-04-25T20:39:09Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 2004,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2020/si-zm-2020-002-national-assembly-by-election-chilubi-constituency-no-095-election-date-and-time-of-poll-order-2020.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/2",
+      "bytes": 39475,
+      "path": "raw/zambialii/si/2020/si-zm-2020-002-national-assembly-by-election-chilubi-constituency-no-095-election-date-and-time-of-poll-order-2020.html",
+      "sha": "fb49ea8b57743fcda8ff571b2e62ddfd23ac256b1047fbaa83372511fa8bb5d8"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/2/eng@2020-01-03/source.pdf",
+      "bytes": 11652,
+      "path": "raw/zambialii/si/2020/si-zm-2020-002-national-assembly-by-election-chilubi-constituency-no-095-election-date-and-time-of-poll-order-2020.pdf",
+      "sha": "53ca8519ff3e21d2ce1b44c8fa8b149d20cffaca2ff3f452a696d6ba01c843ce"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2020/63",
+    "year": "2020",
+    "num": "63",
+    "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 6) Order, 2020",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2020-07-17"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2020-063-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-6-order-2020",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2020,
+    "number": 63,
+    "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 6) Order, 2020",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2020-07-17",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2020/63",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/63/eng@2020-07-17/source.pdf",
+    "source_hash": "87fd9e782961968eb94308425479879876651c2ebf50e8756b60f07c4c55d16b",
+    "html_hash": "38d04b7f0f3362dd6bdea2c450bdca22b277893faf5b4769a1aae2d96789aabd",
+    "fetched_at": "2026-04-25T20:37:14Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1730,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2020/si-zm-2020-063-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-6-order-2020.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/63",
+      "bytes": 39481,
+      "path": "raw/zambialii/si/2020/si-zm-2020-063-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-6-order-2020.html",
+      "sha": "38d04b7f0f3362dd6bdea2c450bdca22b277893faf5b4769a1aae2d96789aabd"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/63/eng@2020-07-17/source.pdf",
+      "bytes": 11077,
+      "path": "raw/zambialii/si/2020/si-zm-2020-063-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-6-order-2020.pdf",
+      "sha": "87fd9e782961968eb94308425479879876651c2ebf50e8756b60f07c4c55d16b"
+    }
+  ]
+}

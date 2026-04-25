@@ -1,0 +1,18 @@
+{
+  "batch": "0237",
+  "attempted": 8,
+  "ok": 8,
+  "fail": 0,
+  "skip": 0,
+  "records": [
+    "si-zm-2020-063-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-6-order-2020",
+    "si-zm-2020-061-electoral-process-local-government-by-election-election-date-and-time-of-poll-no-5-order-2020",
+    "si-zm-2020-043-electoral-process-local-government-by-election-election-date-and-time-of-poll-no-4-order-2020",
+    "si-zm-2020-023-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2020",
+    "si-zm-2020-004-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2020",
+    "si-zm-2020-003-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2020",
+    "si-zm-2020-002-national-assembly-by-election-chilubi-constituency-no-095-election-date-and-time-of-poll-order-2020",
+    "si-zm-2023-008-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2023"
+  ],
+  "integrity": "ALL PASS"
+}

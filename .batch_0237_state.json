@@ -1,0 +1,81 @@
+{
+  "batch": "0237",
+  "started_at": "2026-04-25T20:36:06Z",
+  "completed_at": "2026-04-25T20:40:18Z",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_elections",
+  "cohort": "E-residual drain (cohort 3 from batch_0233 E-probe cache)",
+  "attempted": 8,
+  "ok": 8,
+  "fail": 0,
+  "skip": 0,
+  "yield": "100%",
+  "integrity": "ALL PASS",
+  "cumulative_si": 482,
+  "records": [
+    {
+      "id": "si-zm-2020-063-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-6-order-2020",
+      "year": 2020,
+      "number": 63,
+      "pdf_pages": 2,
+      "pdf_text_chars": 1730,
+      "source_hash": "87fd9e782961968eb94308425479879876651c2ebf50e8756b60f07c4c55d16b"
+    },
+    {
+      "id": "si-zm-2020-061-electoral-process-local-government-by-election-election-date-and-time-of-poll-no-5-order-2020",
+      "year": 2020,
+      "number": 61,
+      "pdf_pages": 2,
+      "pdf_text_chars": 2097,
+      "source_hash": "8d9a4bfb6662b013b082fe4b3c345ca33d91bd0e50bdea0ba37e69372bbd86cb"
+    },
+    {
+      "id": "si-zm-2020-043-electoral-process-local-government-by-election-election-date-and-time-of-poll-no-4-order-2020",
+      "year": 2020,
+      "number": 43,
+      "pdf_pages": 2,
+      "pdf_text_chars": 1864,
+      "source_hash": "1c1aa27d735205f9c43ec64f1df2d2cd2ad5a5a441baeed874518b2de45b15cb"
+    },
+    {
+      "id": "si-zm-2020-023-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2020",
+      "year": 2020,
+      "number": 23,
+      "pdf_pages": 2,
+      "pdf_text_chars": 1692,
+      "source_hash": "23337f4493bc336a009f16f6da3265ee2774a1749e6e775a9dca2a755c100da0"
+    },
+    {
+      "id": "si-zm-2020-004-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2020",
+      "year": 2020,
+      "number": 4,
+      "pdf_pages": 2,
+      "pdf_text_chars": 1734,
+      "source_hash": "6c004f8d5a26a8773d632dccfbd0dc379fb7af6d1ba0e2317daa4ed2556ea1fa"
+    },
+    {
+      "id": "si-zm-2020-003-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2020",
+      "year": 2020,
+      "number": 3,
+      "pdf_pages": 2,
+      "pdf_text_chars": 1709,
+      "source_hash": "6bac1fae4699db5319891ac8871fed1499d052967c92f7c116b55c9b8ac9eda3"
+    },
+    {
+      "id": "si-zm-2020-002-national-assembly-by-election-chilubi-constituency-no-095-election-date-and-time-of-poll-order-2020",
+      "year": 2020,
+      "number": 2,
+      "pdf_pages": 2,
+      "pdf_text_chars": 2004,
+      "source_hash": "53ca8519ff3e21d2ce1b44c8fa8b149d20cffaca2ff3f452a696d6ba01c843ce"
+    },
+    {
+      "id": "si-zm-2023-008-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2023",
+      "year": 2023,
+      "number": 8,
+      "pdf_pages": 2,
+      "pdf_text_chars": 1857,
+      "source_hash": "2a7ccd9ae3f498b46a07eb81bd27e9dbbad3e5ff5ad79c97d5bf14651784a66d"
+    }
+  ]
+}
