@@ -1,0 +1,1436 @@
+{
+  "batch": "0210",
+  "phase": "discovery",
+  "started_at": "2026-04-25T03:02:29Z",
+  "completed_at": "2026-04-25T03:02:50Z",
+  "fetches_used": 4,
+  "fetch_end": 26,
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "alphabets": [
+    "I",
+    "C",
+    "W"
+  ],
+  "novel_total_pre_keyword": 252,
+  "novel_kept_post_keyword": 36,
+  "candidates": [
+    {
+      "year": 2019,
+      "number": 25,
+      "text": "income tax act (suspension of tax on payment of interest to non-resident) (treasury bill and bond) regulations, 2019",
+      "letter": "I"
+    },
+    {
+      "year": 2017,
+      "number": 1,
+      "text": "citizens economic empowerment (reservation scheme) regulations, 2017",
+      "letter": "C"
+    },
+    {
+      "year": 2017,
+      "number": 43,
+      "text": "income tax (suspension of tax on payments to non-resident contractors) (batoka hydro-electric scheme and kariba dam rehabilitation projects) regulations, 2017",
+      "letter": "I"
+    },
+    {
+      "year": 1991,
+      "number": 21,
+      "text": "control of goods (import licence fees) (exemption) notice, 1991",
+      "letter": "C"
+    },
+    {
+      "year": 1991,
+      "number": 37,
+      "text": "control of goods (import licence fees) (exemption) (no. 2) notice, 1991",
+      "letter": "C"
+    },
+    {
+      "year": 1991,
+      "number": 49,
+      "text": "control of goods (import licence fees) (exemption) (no. 3) notice, 1991",
+      "letter": "C"
+    },
+    {
+      "year": 1990,
+      "number": 9,
+      "text": "control of goods (import licence fees) (exemption) notice, 1990",
+      "letter": "C"
+    },
+    {
+      "year": 1990,
+      "number": 18,
+      "text": "control of goods (import licence fees) (exemption) (no. 2) notice, 1990",
+      "letter": "C"
+    },
+    {
+      "year": 1989,
+      "number": 17,
+      "text": "control of goods (import licence fees) (exemption) notice, 1989",
+      "letter": "C"
+    },
+    {
+      "year": 1989,
+      "number": 33,
+      "text": "control of goods (import licence fees) (exemption) notice, 1989",
+      "letter": "C"
+    },
+    {
+      "year": 1988,
+      "number": 2,
+      "text": "control of goods (import licence fees) (exemption) notice, 1988",
+      "letter": "C"
+    },
+    {
+      "year": 1986,
+      "number": 4,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1986",
+      "letter": "I"
+    },
+    {
+      "year": 1986,
+      "number": 10,
+      "text": "control of goods (import licence fees exemption) notice, 1986",
+      "letter": "C"
+    },
+    {
+      "year": 1986,
+      "number": 27,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1986",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 16,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 17,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 18,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 3) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 19,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 4) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 20,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 5) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 21,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 6) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 26,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 7) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 27,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 8) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 49,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 9) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 50,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 10) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1984,
+      "number": 45,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1984",
+      "letter": "I"
+    },
+    {
+      "year": 1983,
+      "number": 43,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1983",
+      "letter": "I"
+    },
+    {
+      "year": 1982,
+      "number": 2,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1982",
+      "letter": "I"
+    },
+    {
+      "year": 1982,
+      "number": 9,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1982",
+      "letter": "I"
+    },
+    {
+      "year": 1982,
+      "number": 36,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 3) order 1982",
+      "letter": "I"
+    },
+    {
+      "year": 1981,
+      "number": 48,
+      "text": "income tax (exempt organisations) (approval) order, 1981",
+      "letter": "I"
+    },
+    {
+      "year": 1981,
+      "number": 49,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1981",
+      "letter": "I"
+    },
+    {
+      "year": 1980,
+      "number": 14,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1980",
+      "letter": "I"
+    },
+    {
+      "year": 1980,
+      "number": 24,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1980",
+      "letter": "I"
+    },
+    {
+      "year": 1980,
+      "number": 29,
+      "text": "income tax (international organisations) (exemption approval) order, 1980",
+      "letter": "I"
+    },
+    {
+      "year": 1980,
+      "number": 38,
+      "text": "income tax (low cost housing) notice, 1980",
+      "letter": "I"
+    },
+    {
+      "year": 1980,
+      "number": 51,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 3) order, 1980",
+      "letter": "I"
+    }
+  ],
+  "novel_pre_keyword_sample": [
+    {
+      "year": 2001,
+      "number": 3,
+      "text": "immigration and deportation act (fees) (waiver) regulations, 2000",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 31,
+      "text": "immigration and deportation (fees) (waiver) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 2011,
+      "number": 129,
+      "text": "immigration and deportation (general) regulations, 2011",
+      "letter": "I"
+    },
+    {
+      "year": 2013,
+      "number": 38,
+      "text": "immigration and deportation (immigration consultants) regulations, 2013",
+      "letter": "I"
+    },
+    {
+      "year": 1980,
+      "number": 14,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1980",
+      "letter": "I"
+    },
+    {
+      "year": 1980,
+      "number": 24,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1980",
+      "letter": "I"
+    },
+    {
+      "year": 1980,
+      "number": 29,
+      "text": "income tax (international organisations) (exemption approval) order, 1980",
+      "letter": "I"
+    },
+    {
+      "year": 1980,
+      "number": 38,
+      "text": "income tax (low cost housing) notice, 1980",
+      "letter": "I"
+    },
+    {
+      "year": 1980,
+      "number": 51,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 3) order, 1980",
+      "letter": "I"
+    },
+    {
+      "year": 1982,
+      "number": 2,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1982",
+      "letter": "I"
+    },
+    {
+      "year": 1982,
+      "number": 9,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1982",
+      "letter": "I"
+    },
+    {
+      "year": 1982,
+      "number": 36,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 3) order 1982",
+      "letter": "I"
+    },
+    {
+      "year": 1983,
+      "number": 43,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1983",
+      "letter": "I"
+    },
+    {
+      "year": 1984,
+      "number": 45,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1984",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 16,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 17,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 18,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 3) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 19,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 4) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 20,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 5) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 21,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 6) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 26,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 7) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 27,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 8) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 50,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 10) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1985,
+      "number": 49,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 9) order, 1985",
+      "letter": "I"
+    },
+    {
+      "year": 1986,
+      "number": 4,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1986",
+      "letter": "I"
+    },
+    {
+      "year": 1986,
+      "number": 27,
+      "text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1986",
+      "letter": "I"
+    },
+    {
+      "year": 2019,
+      "number": 25,
+      "text": "income tax act (suspension of tax on payment of interest to non-resident) (treasury bill and bond) regulations, 2019",
+      "letter": "I"
+    },
+    {
+      "year": 2017,
+      "number": 43,
+      "text": "income tax (suspension of tax on payments to non-resident contractors) (batoka hydro-electric scheme and kariba dam rehabilitation projects) regulations, 2017",
+      "letter": "I"
+    },
+    {
+      "year": 1981,
+      "number": 48,
+      "text": "income tax (exempt organisations) (approval) order, 1981",
+      "letter": "I"
+    },
+    {
+      "year": 1981,
+      "number": 49,
+      "text": "income tax (foreign organisations) (exemption approval) order, 1981",
+      "letter": "I"
+    },
+    {
+      "year": 2008,
+      "number": 23,
+      "text": "representative bodies (elections and conduct of ballot) regulations, 2008",
+      "letter": "I"
+    },
+    {
+      "year": 1993,
+      "number": 49,
+      "text": "inland waters (section 24 (3) harbours) (designation) notice, 1993",
+      "letter": "I"
+    },
+    {
+      "year": 1990,
+      "number": 48,
+      "text": "a commission",
+      "letter": "I"
+    },
+    {
+      "year": 2003,
+      "number": 40,
+      "text": "commission",
+      "letter": "I"
+    },
+    {
+      "year": 2014,
+      "number": 22,
+      "text": "legal and justice sector reform commission",
+      "letter": "I"
+    },
+    {
+      "year": 2016,
+      "number": 72,
+      "text": "inquiries act - commission, 2016",
+      "letter": "I"
+    },
+    {
+      "year": 2015,
+      "number": 25,
+      "text": "inquiries act - commission, 2015",
+      "letter": "I"
+    },
+    {
+      "year": 1983,
+      "number": 37,
+      "text": "international game park (lower zambezi) (cessation) order, 1983",
+      "letter": "I"
+    },
+    {
+      "year": 2024,
+      "number": 4,
+      "text": "investment, trade and business development (luano industrial park) (declaration) order, 2024",
+      "letter": "I"
+    },
+    {
+      "year": 2025,
+      "number": 19,
+      "text": "investment,trade and business development (fintech city multi-facility economic zone) (declaration) order, 2025",
+      "letter": "I"
+    },
+    {
+      "year": 2024,
+      "number": 7,
+      "text": "ionising radiation protection (nuclear medicine) regulations, 2024",
+      "letter": "I"
+    },
+    {
+      "year": 2024,
+      "number": 8,
+      "text": "ionising radiation protection (radiotherapy) regulations, 2024",
+      "letter": "I"
+    },
+    {
+      "year": 1981,
+      "number": 22,
+      "text": "chiefs (recognition) (no. 2) order, 1981",
+      "letter": "C"
+    },
+    {
+      "year": 1981,
+      "number": 23,
+      "text": "chiefs (recognition) (no. 3) order, 1981",
+      "letter": "C"
+    },
+    {
+      "year": 1981,
+      "number": 24,
+      "text": "chiefs (recognition) (no. 4) order, 1981",
+      "letter": "C"
+    },
+    {
+      "year": 1981,
+      "number": 25,
+      "text": "chiefs (recognition) (no. 5) order, 1981",
+      "letter": "C"
+    },
+    {
+      "year": 1981,
+      "number": 26,
+      "text": "chiefs (recognition) (no. 6) order, 1981",
+      "letter": "C"
+    },
+    {
+      "year": 1982,
+      "number": 39,
+      "text": "chiefs (recognition) order, 1982",
+      "letter": "C"
+    },
+    {
+      "year": 1982,
+      "number": 31,
+      "text": "chiefs (withdrawal of recognition) order, 1982",
+      "letter": "C"
+    },
+    {
+      "year": 1986,
+      "number": 36,
+      "text": "chiefs (recognition) (no. 3) order, 1986",
+      "letter": "C"
+    },
+    {
+      "year": 1988,
+      "number": 47,
+      "text": "chiefs (recognition) order, 1988",
+      "letter": "C"
+    },
+    {
+      "year": 1988,
+      "number": 8,
+      "text": "chiefs (recognition) order, 1988",
+      "letter": "C"
+    },
+    {
+      "year": 1988,
+      "number": 9,
+      "text": "chiefs (recognition) (no. 2) order, 1988",
+      "letter": "C"
+    },
+    {
+      "year": 1988,
+      "number": 10,
+      "text": "chiefs (recognition) (no. 3) order, 1988",
+      "letter": "C"
+    },
+    {
+      "year": 1988,
+      "number": 11,
+      "text": "chiefs (recognition) (no. 4) order, 1988",
+      "letter": "C"
+    },
+    {
+      "year": 1988,
+      "number": 12,
+      "text": "chiefs (recognition) (no. 5) order, 1988",
+      "letter": "C"
+    },
+    {
+      "year": 1988,
+      "number": 13,
+      "text": "chiefs (recognition) (no. 6) order, 1988",
+      "letter": "C"
+    },
+    {
+      "year": 1988,
+      "number": 14,
+      "text": "chiefs (recognition) (no. 7) order, 1988",
+      "letter": "C"
+    },
+    {
+      "year": 1988,
+      "number": 15,
+      "text": "chiefs (recognition) (no. 8) order, 1988",
+      "letter": "C"
+    },
+    {
+      "year": 1988,
+      "number": 16,
+      "text": "chiefs (recognition) (no. 9) order, 1988",
+      "letter": "C"
+    },
+    {
+      "year": 1989,
+      "number": 36,
+      "text": "chiefs (recognition) (no. 2) order, 1989",
+      "letter": "C"
+    },
+    {
+      "year": 1989,
+      "number": 41,
+      "text": "chiefs (recognition) (no. 6) order, 1989",
+      "letter": "C"
+    },
+    {
+      "year": 1989,
+      "number": 35,
+      "text": "chiefs (recognition) order, 1989",
+      "letter": "C"
+    },
+    {
+      "year": 1989,
+      "number": 43,
+      "text": "chiefs (recognition) (no. 8) order, 1989",
+      "letter": "C"
+    },
+    {
+      "year": 1989,
+      "number": 37,
+      "text": "chiefs (recognition) (no. 3) order, 1989",
+      "letter": "C"
+    },
+    {
+      "year": 1989,
+      "number": 38,
+      "text": "chiefs (recognition) (no. 4) order, 1989",
+      "letter": "C"
+    },
+    {
+      "year": 1989,
+      "number": 39,
+      "text": "chiefs (recognition) (no. 5) order, 1989",
+      "letter": "C"
+    },
+    {
+      "year": 1989,
+      "number": 42,
+      "text": "chiefs (recognition) (no. 7) order, 1989",
+      "letter": "C"
+    },
+    {
+      "year": 1989,
+      "number": 44,
+      "text": "chiefs (recognition) (no. 9) order, 1989",
+      "letter": "C"
+    },
+    {
+      "year": 1990,
+      "number": 38,
+      "text": "chiefs (recognition) (no. 5) order, 1990",
+      "letter": "C"
+    },
+    {
+      "year": 1990,
+      "number": 21,
+      "text": "chiefs (recognition) order, 1990",
+      "letter": "C"
+    },
+    {
+      "year": 1990,
+      "number": 22,
+      "text": "chiefs (recognition) (no. 2) order, 1990",
+      "letter": "C"
+    },
+    {
+      "year": 1990,
+      "number": 23,
+      "text": "chiefs (recognition) (no. 3) order, 1990",
+      "letter": "C"
+    },
+    {
+      "year": 1990,
+      "number": 24,
+      "text": "chiefs (recognition) (no. 4) order, 1990",
+      "letter": "C"
+    },
+    {
+      "year": 1992,
+      "number": 1,
+      "text": "chiefs (recognition) order, 1992",
+      "letter": "C"
+    },
+    {
+      "year": 1994,
+      "number": 37,
+      "text": "chiefs (recognition) order, 1994",
+      "letter": "C"
+    },
+    {
+      "year": 1996,
+      "number": 6,
+      "text": "chiefs (withdrawal of recognition) order, 1996",
+      "letter": "C"
+    },
+    {
+      "year": 1996,
+      "number": 7,
+      "text": "deputy chief (recognition) order, 1996",
+      "letter": "C"
+    },
+    {
+      "year": 1996,
+      "number": 8,
+      "text": "chiefs (recognition) order, 1996",
+      "letter": "C"
+    },
+    {
+      "year": 1996,
+      "number": 29,
+      "text": "chiefs (recognition) (no. 2) order, 1996",
+      "letter": "C"
+    },
+    {
+      "year": 1991,
+      "number": 34,
+      "text": "chiefs (recognition) (no. 6) order, 1991",
+      "letter": "C"
+    },
+    {
+      "year": 1991,
+      "number": 45,
+      "text": "chiefs (recognition) (no. 7) order, 1991",
+      "letter": "C"
+    },
+    {
+      "year": 1991,
+      "number": 46,
+      "text": "chiefs (recognition) (no. 8) order, 1991",
+      "letter": "C"
+    },
+    {
+      "year": 1991,
+      "number": 18,
+      "text": "chiefs (recognition) (no. 5) order, 1991",
+      "letter": "C"
+    },
+    {
+      "year": 1991,
+      "number": 4,
+      "text": "chiefs (recognition) (no. 4) order, 1991",
+      "letter": "C"
+    },
+    {
+      "year": 1991,
+      "number": 3,
+      "text": "chiefs (recognition) (no. 3) order, 1991",
+      "letter": "C"
+    },
+    {
+      "year": 1991,
+      "number": 2,
+      "text": "chiefs (recognition) (no. 2) order, 1991",
+      "letter": "C"
+    },
+    {
+      "year": 1991,
+      "number": 1,
+      "text": "chiefs (recognition) order, 1991",
+      "letter": "C"
+    },
+    {
+      "year": 1996,
+      "number": 42,
+      "text": "chiefs (recognition) (no. 4) order, 1996",
+      "letter": "C"
+    },
+    {
+      "year": 1996,
+      "number": 43,
+      "text": "chiefs (recognition) (no. 5) order, 1996",
+      "letter": "C"
+    },
+    {
+      "year": 1998,
+      "number": 6,
+      "text": "chiefs (recognition) (no. 4) order, 1998",
+      "letter": "C"
+    },
+    {
+      "year": 1998,
+      "number": 3,
+      "text": "chiefs (recognition) order, 1998",
+      "letter": "C"
+    },
+    {
+      "year": 1998,
+      "number": 4,
+      "text": "chiefs (recognition) (no. 2) order, 1998",
+      "letter": "C"
+    },
+    {
+      "year": 1998,
+      "number": 5,
+      "text": "chiefs (recognition) (no. 3) order, 1998",
+      "letter": "C"
+    },
+    {
+      "year": 1998,
+      "number": 7,
+      "text": "chiefs (recognition) (no. 5) order, 1998",
+      "letter": "C"
+    },
+    {
+      "year": 1999,
+      "number": 4,
+      "text": "chiefs (recognition) order, 1999",
+      "letter": "C"
+    },
+    {
+      "year": 1999,
+      "number": 5,
+      "text": "chiefs (recognition) (no. 2) order, 1999",
+      "letter": "C"
+    },
+    {
+      "year": 1999,
+      "number": 6,
+      "text": "chiefs (recognition) (no. 3) order, 1999",
+      "letter": "C"
+    },
+    {
+      "year": 1999,
+      "number": 7,
+      "text": "chiefs (recognition) (no. 4) order, 1999",
+      "letter": "C"
+    },
+    {
+      "year": 1999,
+      "number": 11,
+      "text": "chiefs (withdrawal of recognition) order, 1999",
+      "letter": "C"
+    },
+    {
+      "year": 1999,
+      "number": 23,
+      "text": "chiefs (withdrawal of recognition) (no. 5) order, 1999",
+      "letter": "C"
+    },
+    {
+      "year": 1999,
+      "number": 43,
+      "text": "chiefs (recognition) (no. 7) order, 1999",
+      "letter": "C"
+    },
+    {
+      "year": 1999,
+      "number": 22,
+      "text": "chiefs (withdrawal of recognition) (no. 2) order, 1999",
+      "letter": "C"
+    },
+    {
+      "year": 1999,
+      "number": 25,
+      "text": "chiefs (recognition) (no. 6) order, 1999",
+      "letter": "C"
+    },
+    {
+      "year": 2000,
+      "number": 23,
+      "text": "chiefs (recognition) order, 2000",
+      "letter": "C"
+    },
+    {
+      "year": 2001,
+      "number": 18,
+      "text": "chiefs (recognition) order, 2001",
+      "letter": "C"
+    },
+    {
+      "year": 2001,
+      "number": 19,
+      "text": "chiefs (recognition) (no. 2) order, 2001",
+      "letter": "C"
+    },
+    {
+      "year": 2001,
+      "number": 20,
+      "text": "chiefs (recognition) (no. 3) order, 2001",
+      "letter": "C"
+    },
+    {
+      "year": 2001,
+      "number": 28,
+      "text": "chiefs (recognition) (no. 5) order, 2001",
+      "letter": "C"
+    },
+    {
+      "year": 2001,
+      "number": 33,
+      "text": "chiefs (recognition) (no. 6) order, 2001",
+      "letter": "C"
+    },
+    {
+      "year": 2001,
+      "number": 34,
+      "text": "chiefs (recognition) (no. 7) order, 2001",
+      "letter": "C"
+    },
+    {
+      "year": 2002,
+      "number": 9,
+      "text": "chiefs (recognition) order, 2002",
+      "letter": "C"
+    },
+    {
+      "year": 2002,
+      "number": 10,
+      "text": "chiefs (recognition) (no. 2) order 2002",
+      "letter": "C"
+    },
+    {
+      "year": 2003,
+      "number": 24,
+      "text": "chiefs (recognition) (no. 2) order, 2003",
+      "letter": "C"
+    },
+    {
+      "year": 2003,
+      "number": 25,
+      "text": "chiefs (recognition) (no. 3) order, 2003",
+      "letter": "C"
+    },
+    {
+      "year": 2003,
+      "number": 45,
+      "text": "chiefs (recognition) (no. 7) order, 2003",
+      "letter": "C"
+    },
+    {
+      "year": 2003,
+      "number": 4,
+      "text": "chiefs (recognition) order, 2003",
+      "letter": "C"
+    },
+    {
+      "year": 2003,
+      "number": 5,
+      "text": "chiefs (withdrawal of recognition) order, 2003",
+      "letter": "C"
+    },
+    {
+      "year": 2003,
+      "number": 29,
+      "text": "chiefs (recognition) (no.4) order, 2003",
+      "letter": "C"
+    },
+    {
+      "year": 2003,
+      "number": 39,
+      "text": "chiefs (recognition) (no. 6) order, 2003",
+      "letter": "C"
+    },
+    {
+      "year": 2004,
+      "number": 30,
+      "text": "chiefs (recognition) (no. 6) order, 2004",
+      "letter": "C"
+    },
+    {
+      "year": 2004,
+      "number": 31,
+      "text": "chiefs (recognition) (no. 7) order, 2004",
+      "letter": "C"
+    },
+    {
+      "year": 2004,
+      "number": 51,
+      "text": "chiefs (recognition) (no. 8) order, 2004",
+      "letter": "C"
+    },
+    {
+      "year": 2004,
+      "number": 1,
+      "text": "chiefs (recognition) order, 2004",
+      "letter": "C"
+    },
+    {
+      "year": 2004,
+      "number": 2,
+      "text": "chiefs (recognition) (no. 2) order, 2004",
+      "letter": "C"
+    },
+    {
+      "year": 2004,
+      "number": 4,
+      "text": "chiefs (recognition) (no. 3) order, 2004",
+      "letter": "C"
+    },
+    {
+      "year": 2004,
+      "number": 5,
+      "text": "chiefs (recognition) (no. 4) order, 2004",
+      "letter": "C"
+    },
+    {
+      "year": 2004,
+      "number": 6,
+      "text": "chiefs (withdrawal of recognition) order, 2004",
+      "letter": "C"
+    },
+    {
+      "year": 2005,
+      "number": 34,
+      "text": "chiefs (recognition) (no. 2) order, 2005",
+      "letter": "C"
+    },
+    {
+      "year": 2005,
+      "number": 45,
+      "text": "chiefs (recognition) (no. 4) order, 2005",
+      "letter": "C"
+    },
+    {
+      "year": 2005,
+      "number": 47,
+      "text": "chiefs (recognition) (no. 6) order, 2005",
+      "letter": "C"
+    },
+    {
+      "year": 2005,
+      "number": 48,
+      "text": "chiefs (recognition) (no. 7) order, 2005",
+      "letter": "C"
+    },
+    {
+      "year": 2005,
+      "number": 49,
+      "text": "chiefs (recognition) (no. 8) order, 2005",
+      "letter": "C"
+    },
+    {
+      "year": 2005,
+      "number": 50,
+      "text": "chiefs (recognition) (no, 9) order, 2005",
+      "letter": "C"
+    },
+    {
+      "year": 2005,
+      "number": 18,
+      "text": "chiefs (recognition) order, 2005",
+      "letter": "C"
+    },
+    {
+      "year": 2006,
+      "number": 33,
+      "text": "chiefs (recognition) order, 2006",
+      "letter": "C"
+    },
+    {
+      "year": 2006,
+      "number": 34,
+      "text": "chiefs (recognition) (no. 2) order, 2006",
+      "letter": "C"
+    },
+    {
+      "year": 2006,
+      "number": 36,
+      "text": "chiefs (recognition) (no. 4) order, 2006",
+      "letter": "C"
+    },
+    {
+      "year": 2006,
+      "number": 38,
+      "text": "chiefs (recognition) (no. 6) order, 2006",
+      "letter": "C"
+    },
+    {
+      "year": 2006,
+      "number": 39,
+      "text": "chiefs (recognition) (no. 7) order, 2006",
+      "letter": "C"
+    },
+    {
+      "year": 2006,
+      "number": 20,
+      "text": "chiefs (withdrawal of recognition) order, 2006",
+      "letter": "C"
+    },
+    {
+      "year": 2007,
+      "number": 11,
+      "text": "chiefs (recognition) (no.1) order, 2007",
+      "letter": "C"
+    },
+    {
+      "year": 2007,
+      "number": 24,
+      "text": "chiefs (recognition) (no. 2) order, 2007",
+      "letter": "C"
+    },
+    {
+      "year": 2007,
+      "number": 36,
+      "text": "chiefs (recognition) (no. 3) order, 2007",
+      "letter": "C"
+    },
+    {
+      "year": 2007,
+      "number": 53,
+      "text": "chiefs (withdrawal of recognition) order, 2007",
+      "letter": "C"
+    },
+    {
+      "year": 2007,
+      "number": 54,
+      "text": "chiefs (recognition) (no. 4) order, 2007",
+      "letter": "C"
+    },
+    {
+      "year": 2008,
+      "number": 27,
+      "text": "chiefs (recognition) order, 2008",
+      "letter": "C"
+    },
+    {
+      "year": 2008,
+      "number": 28,
+      "text": "chiefs (recognition) (no. 2) order, 2008",
+      "letter": "C"
+    },
+    {
+      "year": 2008,
+      "number": 29,
+      "text": "chiefs (recognition) (no. 3) order, 2008",
+      "letter": "C"
+    },
+    {
+      "year": 2008,
+      "number": 43,
+      "text": "chiefs (recognition) (no. 4) order, 2008",
+      "letter": "C"
+    },
+    {
+      "year": 2009,
+      "number": 14,
+      "text": "chiefs (recognition) order, 2009",
+      "letter": "C"
+    },
+    {
+      "year": 2009,
+      "number": 15,
+      "text": "chiefs (recognition) (no. 2) order, 2009",
+      "letter": "C"
+    },
+    {
+      "year": 2009,
+      "number": 19,
+      "text": "chiefs (withdrawal of recognition) order, 2009",
+      "letter": "C"
+    },
+    {
+      "year": 2009,
+      "number": 32,
+      "text": "chiefs (recognition) (no. 3) order, 2009",
+      "letter": "C"
+    },
+    {
+      "year": 2009,
+      "number": 40,
+      "text": "chiefs (recognition) (no. 4) order, 2009",
+      "letter": "C"
+    },
+    {
+      "year": 2009,
+      "number": 43,
+      "text": "chiefs (recognition) (no. 6) order, 2009",
+      "letter": "C"
+    },
+    {
+      "year": 2010,
+      "number": 7,
+      "text": "chiefs (recognition) order, 2010",
+      "letter": "C"
+    },
+    {
+      "year": 2010,
+      "number": 8,
+      "text": "chiefs (recognition) (no. 2) order, 2010",
+      "letter": "C"
+    },
+    {
+      "year": 2010,
+      "number": 9,
+      "text": "chiefs (recognition) (no. 3) order, 2010",
+      "letter": "C"
+    },
+    {
+      "year": 2010,
+      "number": 10,
+      "text": "chiefs (recognition) (no. 4) order, 2010",
+      "letter": "C"
+    },
+    {
+      "year": 1986,
+      "number": 34,
+      "text": "chiefs (recognition) order, 1986",
+      "letter": "C"
+    },
+    {
+      "year": 1986,
+      "number": 35,
+      "text": "chiefs (recognition) (no. 2) order, 1986",
+      "letter": "C"
+    },
+    {
+      "year": 1986,
+      "number": 40,
+      "text": "chiefs (recognition) (no. 4) order, 1986",
+      "letter": "C"
+    },
+    {
+      "year": 1986,
+      "number": 41,
+      "text": "chiefs (recognition) (no. 5) order, 1986",
+      "letter": "C"
+    },
+    {
+      "year": 2011,
+      "number": 27,
+      "text": "chiefs (recognition) order, 2011",
+      "letter": "C"
+    },
+    {
+      "year": 2011,
+      "number": 28,
+      "text": "chiefs (recognition) (no.2) order, 2011",
+      "letter": "C"
+    },
+    {
+      "year": 2011,
+      "number": 29,
+      "text": "chiefs (recognition) (no.3) order, 2011",
+      "letter": "C"
+    },
+    {
+      "year": 2012,
+      "number": 9,
+      "text": "chiefs (recognition) (no. 2) order, 2012",
+      "letter": "C"
+    },
+    {
+      "year": 2012,
+      "number": 10,
+      "text": "chiefs (recognition) (no. 3) order, 2012",
+      "letter": "C"
+    },
+    {
+      "year": 2012,
+      "number": 12,
+      "text": "chiefs (recognition) (no. 4) order, 2012",
+      "letter": "C"
+    },
+    {
+      "year": 2012,
+      "number": 13,
+      "text": "chiefs (recognition) (no. 5) order, 2012",
+      "letter": "C"
+    },
+    {
+      "year": 2012,
+      "number": 1,
+      "text": "chiefs (recognition) order, 2012",
+      "letter": "C"
+    },
+    {
+      "year": 2012,
+      "number": 25,
+      "text": "chiefs (recognition) (no. 6) order, 2012",
+      "letter": "C"
+    },
+    {
+      "year": 2013,
+      "number": 19,
+      "text": "chiefs (recognition) order, 2013",
+      "letter": "C"
+    },
+    {
+      "year": 2013,
+      "number": 22,
+      "text": "chiefs (recognition) (no. 2) order, 2013",
+      "letter": "C"
+    },
+    {
+      "year": 2013,
+      "number": 23,
+      "text": "chiefs (recognition) (no. 3) order, 2013",
+      "letter": "C"
+    },
+    {
+      "year": 2013,
+      "number": 24,
+      "text": "chiefs (recognition) (no. 4) order, 2013",
+      "letter": "C"
+    },
+    {
+      "year": 2013,
+      "number": 25,
+      "text": "chiefs (withdrawal of recognition) order, 2013",
+      "letter": "C"
+    },
+    {
+      "year": 2013,
+      "number": 34,
+      "text": "chiefs (withdrawal of recognition) (no. 2) order, 2013",
+      "letter": "C"
+    },
+    {
+      "year": 2013,
+      "number": 36,
+      "text": "chiefs (recognition) (no. 5) order, 2013",
+      "letter": "C"
+    },
+    {
+      "year": 2013,
+      "number": 43,
+      "text": "chiefs (recognition) (no. 6) order, 2013",
+      "letter": "C"
+    },
+    {
+      "year": 2013,
+      "number": 45,
+      "text": "chiefs (recognition) (no. 7) order, 2013",
+      "letter": "C"
+    },
+    {
+      "year": 2013,
+      "number": 46,
+      "text": "chiefs (recognition) (no. 8) order, 2013",
+      "letter": "C"
+    },
+    {
+      "year": 2013,
+      "number": 47,
+      "text": "chiefs (recognition) (no. 9) order, 2013",
+      "letter": "C"
+    },
+    {
+      "year": 2013,
+      "number": 48,
+      "text": "chiefs (recognition) (no. 10) order, 2013",
+      "letter": "C"
+    },
+    {
+      "year": 2014,
+      "number": 13,
+      "text": "chiefs (recognition) order, 2014",
+      "letter": "C"
+    },
+    {
+      "year": 2014,
+      "number": 19,
+      "text": "chiefs (recognition) (no. 2) order, 2014",
+      "letter": "C"
+    },
+    {
+      "year": 2014,
+      "number": 23,
+      "text": "chiefs (recognition) (no. 4) order, 2014",
+      "letter": "C"
+    },
+    {
+      "year": 2014,
+      "number": 32,
+      "text": "chiefs (recognition) (no. 5) order, 2014",
+      "letter": "C"
+    },
+    {
+      "year": 2014,
+      "number": 33,
+      "text": "chiefs (recognition) (no. 6) order, 2014",
+      "letter": "C"
+    },
+    {
+      "year": 2014,
+      "number": 34,
+      "text": "chiefs (recognition) (no. 7) order, 2014",
+      "letter": "C"
+    },
+    {
+      "year": 2015,
+      "number": 3,
+      "text": "chiefs (recognition) order, 2015",
+      "letter": "C"
+    },
+    {
+      "year": 2015,
+      "number": 28,
+      "text": "chiefs (recognition) (no. 2) order, 2015",
+      "letter": "C"
+    },
+    {
+      "year": 2015,
+      "number": 29,
+      "text": "chiefs (withdrawal of recognition) order, 2015",
+      "letter": "C"
+    },
+    {
+      "year": 2015,
+      "number": 43,
+      "text": "chiefs (recognition) (no. 3) order, 2015",
+      "letter": "C"
+    },
+    {
+      "year": 2015,
+      "number": 44,
+      "text": "chiefs (recognition) (no. 4) order, 2015",
+      "letter": "C"
+    },
+    {
+      "year": 2015,
+      "number": 45,
+      "text": "chiefs (recognition) (no. 5) order, 2015",
+      "letter": "C"
+    },
+    {
+      "year": 2015,
+      "number": 51,
+      "text": "chiefs (withdrawal of recognition) (no. 2) order, 2015",
+      "letter": "C"
+    },
+    {
+      "year": 2015,
+      "number": 52,
+      "text": "chiefs (withdrawal of recognition) (no. 3) order, 2015",
+      "letter": "C"
+    },
+    {
+      "year": 2015,
+      "number": 54,
+      "text": "chiefs (recognition) (no. 7) order, 2015",
+      "letter": "C"
+    }
+  ]
+}

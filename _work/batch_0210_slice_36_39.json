@@ -1,0 +1,63 @@
+{
+  "batch": "0210",
+  "phase": "ingest",
+  "slice": [
+    36,
+    39
+  ],
+  "started_at": "2026-04-25T02:59:00Z",
+  "completed_at": "2026-04-25T03:02:00Z",
+  "fetch_start": 26,
+  "fetch_end": 32,
+  "results": [
+    {
+      "year": 1986,
+      "number": 4,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) order, 1986",
+      "alphabet": "I",
+      "record_id": "si-zm-1986-004-income-tax-foreign-organisations-exemption-approval-order-1986",
+      "sections": 5,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) Order, 1986",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1986/4/eng@1986-01-17/source.pdf",
+      "pdf_hash": "4f270b9b1697a15e1a2d0c107f13b8a7f617dfbdc50cf5bb954766ba8868ccad",
+      "pdf_bytes": 258374,
+      "raw_pdf": "raw/zambialii/si/1986/si-zm-1986-004-income-tax-foreign-organisations-exemption-approval-order-1986.pdf",
+      "record_path": "records/sis/1986/si-zm-1986-004-income-tax-foreign-organisations-exemption-approval-order-1986.json"
+    },
+    {
+      "year": 1986,
+      "number": 27,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1986",
+      "alphabet": "I",
+      "record_id": "si-zm-1986-027-income-tax-foreign-organisations-exemption-approval-no-2-order-1986",
+      "sections": 2,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) (No. 2) Order, 1986",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1986/27/eng@1986-02-10/source.pdf",
+      "pdf_hash": "548d796e168ba7278d896978abb35c6a4db790378c39546faad42ca6848a06d3",
+      "pdf_bytes": 240608,
+      "raw_pdf": "raw/zambialii/si/1986/si-zm-1986-027-income-tax-foreign-organisations-exemption-approval-no-2-order-1986.pdf",
+      "record_path": "records/sis/1986/si-zm-1986-027-income-tax-foreign-organisations-exemption-approval-no-2-order-1986.json"
+    },
+    {
+      "year": 1985,
+      "number": 16,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) order, 1985",
+      "alphabet": "I",
+      "record_id": "si-zm-1985-016-income-tax-foreign-organisations-exemption-approval-order-1985",
+      "sections": 3,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) Order, 1985",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1985/16/eng@1985-01-26/source.pdf",
+      "pdf_hash": "87f781a300dcf908a8fd8c7b9b0589a7b349c27a9276e8f8c108b4a6e904d6b8",
+      "pdf_bytes": 140666,
+      "raw_pdf": "raw/zambialii/si/1985/si-zm-1985-016-income-tax-foreign-organisations-exemption-approval-order-1985.pdf",
+      "record_path": "records/sis/1985/si-zm-1985-016-income-tax-foreign-organisations-exemption-approval-order-1985.json"
+    }
+  ],
+  "note": "Slice file reconstructed post-hoc: the originating ingest call hit the 45s sandbox timeout before writing its slice file, but all 3 records, raw files, and costs/provenance entries were committed to disk (ingest sub-steps write those inline). Reconstruction derived from records/sis/ JSON and raw/ PDF sizes; status ok confirmed by CHECK1-5 passing when each record was processed."
+}
