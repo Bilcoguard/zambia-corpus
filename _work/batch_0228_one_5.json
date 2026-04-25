@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2019/77",
+    "year": "2019",
+    "num": "77",
+    "title": "Chembe Town Council (Sugar Cane Levy) By-laws, 2019",
+    "sub_phase": "sis_local_government",
+    "parent_act": "Local Government Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2019-077-chembe-town-council-sugar-cane-levy-by-laws-2019",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2019,
+    "number": 77,
+    "title": "Chembe Town Council (Sugar Cane Levy) By-laws, 2019",
+    "parent_act": "Local Government Act",
+    "sub_phase": "sis_local_government",
+    "effective_date": "2019-11-22",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2019/77",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2019/77/eng@2019-11-22/source.pdf",
+    "source_hash": "8306a48755f780af35e0c9f20d142610565bb152dcc0e3c079b95df5a9de7ea8",
+    "html_hash": "a3ac559393ce232078163d64f740329ddfa9df60a28c1578eacdf734a6489e56",
+    "fetched_at": "2026-04-25T15:08:45Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 2174,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2019/si-zm-2019-077-chembe-town-council-sugar-cane-levy-by-laws-2019.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/77",
+      "bytes": 39160,
+      "path": "raw/zambialii/si/2019/si-zm-2019-077-chembe-town-council-sugar-cane-levy-by-laws-2019.html",
+      "sha": "a3ac559393ce232078163d64f740329ddfa9df60a28c1578eacdf734a6489e56"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/77/eng@2019-11-22/source.pdf",
+      "bytes": 16719,
+      "path": "raw/zambialii/si/2019/si-zm-2019-077-chembe-town-council-sugar-cane-levy-by-laws-2019.pdf",
+      "sha": "8306a48755f780af35e0c9f20d142610565bb152dcc0e3c079b95df5a9de7ea8"
+    }
+  ]
+}

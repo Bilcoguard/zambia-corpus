@@ -1,0 +1,20 @@
+{
+  "batch": "0228",
+  "attempted": 7,
+  "ok": 7,
+  "fail": 0,
+  "skip": 0,
+  "yield_pct": 100.0,
+  "records": [
+    "si-zm-2020-034-laws-of-zambia-revised-edition-act-specified-date-notice-2020",
+    "si-zm-2022-071-local-government-appointment-of-local-government-administrator-kafue-town-council-order-2022",
+    "si-zm-2020-095-local-government-appointment-of-local-government-administrator-kalumbila-town-council-order-2020",
+    "si-zm-2020-067-local-government-appointment-of-local-government-administrator-kitwe-city-council-order-2020",
+    "si-zm-2020-066-local-government-appointment-of-local-government-administrator-lusaka-city-council-order-2020",
+    "si-zm-2019-077-chembe-town-council-sugar-cane-levy-by-laws-2019",
+    "si-zm-2019-047-local-government-fire-services-order-2019"
+  ],
+  "fetches_fresh": 14,
+  "fetches_reused": 0,
+  "discovery_fetches": 1
+}

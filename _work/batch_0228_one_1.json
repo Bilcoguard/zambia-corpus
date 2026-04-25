@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2022/71",
+    "year": "2022",
+    "num": "71",
+    "title": "Local Government (Appointment of Local Government Administrator) (Kafue Town Council) Order, 2022",
+    "sub_phase": "sis_local_government",
+    "parent_act": "Local Government Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2022-071-local-government-appointment-of-local-government-administrator-kafue-town-council-order-2022",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2022,
+    "number": 71,
+    "title": "Local Government (Appointment of Local Government Administrator) (Kafue Town Council) Order, 2022",
+    "parent_act": "Local Government Act",
+    "sub_phase": "sis_local_government",
+    "effective_date": "2022-11-04",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2022/71",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2022/71/eng@2022-11-04/source.pdf",
+    "source_hash": "2077359e14739ddaccbc8cae17b6ddd63165831d406917afe001d0388fffe66b",
+    "html_hash": "1ceece4ad1e14952ec61c68382cef636043668f27d01eb0eeed8f8424e4f24bd",
+    "fetched_at": "2026-04-25T15:07:30Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1379,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2022/si-zm-2022-071-local-government-appointment-of-local-government-administrator-kafue-town-council-order-2022.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/71",
+      "bytes": 39156,
+      "path": "raw/zambialii/si/2022/si-zm-2022-071-local-government-appointment-of-local-government-administrator-kafue-town-council-order-2022.html",
+      "sha": "1ceece4ad1e14952ec61c68382cef636043668f27d01eb0eeed8f8424e4f24bd"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/71/eng@2022-11-04/source.pdf",
+      "bytes": 287207,
+      "path": "raw/zambialii/si/2022/si-zm-2022-071-local-government-appointment-of-local-government-administrator-kafue-town-council-order-2022.pdf",
+      "sha": "2077359e14739ddaccbc8cae17b6ddd63165831d406917afe001d0388fffe66b"
+    }
+  ]
+}

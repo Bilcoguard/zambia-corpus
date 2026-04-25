@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2020/34",
+    "year": "2020",
+    "num": "34",
+    "title": "Laws of Zambia (Revised Edition) Act (Specified Date) Notice, 2020",
+    "sub_phase": "sis_governance",
+    "parent_act": "Laws of Zambia (Revised Edition) Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2020-034-laws-of-zambia-revised-edition-act-specified-date-notice-2020",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2020,
+    "number": 34,
+    "title": "Laws of Zambia (Revised Edition) Act (Specified Date) Notice, 2020",
+    "parent_act": "Laws of Zambia (Revised Edition) Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "2020-04-24",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2020/34",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/34/eng@2020-04-24/source.pdf",
+    "source_hash": "d0fea77db9945092efb47e6be9dce4f89de82b379a5322012463998867010b6b",
+    "html_hash": "c6baec4aafaac171d97aa9b4cfec12997fcae02a93d40a226ff4a5c2bc0bc1a2",
+    "fetched_at": "2026-04-25T15:07:10Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 845,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2020/si-zm-2020-034-laws-of-zambia-revised-edition-act-specified-date-notice-2020.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/34",
+      "bytes": 40687,
+      "path": "raw/zambialii/si/2020/si-zm-2020-034-laws-of-zambia-revised-edition-act-specified-date-notice-2020.html",
+      "sha": "c6baec4aafaac171d97aa9b4cfec12997fcae02a93d40a226ff4a5c2bc0bc1a2"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/34/eng@2020-04-24/source.pdf",
+      "bytes": 8982,
+      "path": "raw/zambialii/si/2020/si-zm-2020-034-laws-of-zambia-revised-edition-act-specified-date-notice-2020.pdf",
+      "sha": "d0fea77db9945092efb47e6be9dce4f89de82b379a5322012463998867010b6b"
+    }
+  ]
+}

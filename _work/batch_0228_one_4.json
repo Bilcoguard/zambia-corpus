@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2020/66",
+    "year": "2020",
+    "num": "66",
+    "title": "Local Government (Appointment of Local Government Administrator) (Lusaka City Council) Order, 2020",
+    "sub_phase": "sis_local_government",
+    "parent_act": "Local Government Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2020-066-local-government-appointment-of-local-government-administrator-lusaka-city-council-order-2020",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2020,
+    "number": 66,
+    "title": "Local Government (Appointment of Local Government Administrator) (Lusaka City Council) Order, 2020",
+    "parent_act": "Local Government Act",
+    "sub_phase": "sis_local_government",
+    "effective_date": "2020-07-31",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2020/66",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/66/eng@2020-07-31/source.pdf",
+    "source_hash": "9ca6dd26a9ad0701242fb65c439c51afdab9f1d4ed80a0fb12c0f5d33fa76201",
+    "html_hash": "514ae04009c33fb208a089b23236bb3feebe2ba0d65725ddd084394e74052a3a",
+    "fetched_at": "2026-04-25T15:08:26Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1537,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2020/si-zm-2020-066-local-government-appointment-of-local-government-administrator-lusaka-city-council-order-2020.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/66",
+      "bytes": 39455,
+      "path": "raw/zambialii/si/2020/si-zm-2020-066-local-government-appointment-of-local-government-administrator-lusaka-city-council-order-2020.html",
+      "sha": "514ae04009c33fb208a089b23236bb3feebe2ba0d65725ddd084394e74052a3a"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/66/eng@2020-07-31/source.pdf",
+      "bytes": 23112,
+      "path": "raw/zambialii/si/2020/si-zm-2020-066-local-government-appointment-of-local-government-administrator-lusaka-city-council-order-2020.pdf",
+      "sha": "9ca6dd26a9ad0701242fb65c439c51afdab9f1d4ed80a0fb12c0f5d33fa76201"
+    }
+  ]
+}

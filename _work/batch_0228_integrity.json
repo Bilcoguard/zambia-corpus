@@ -1,0 +1,20 @@
+{
+  "batch": "0228",
+  "check1a_batch_unique": "PASS",
+  "check1b_corpus_presence": "PASS",
+  "check2_amended_by": "PASS (0 refs)",
+  "check3_repealed_by": "PASS (0 refs)",
+  "check4_source_hash_sha256": "PASS (7/7 PDF sha256 verified vs raw/zambialii/si/(2019,2020,2022)/)",
+  "check5_required_fields": "PASS (10 required fields x 7 records all present)",
+  "check6_cited_authorities": "PASS (0 refs)",
+  "overall": "PASS",
+  "records": [
+    "si-zm-2020-034-laws-of-zambia-revised-edition-act-specified-date-notice-2020",
+    "si-zm-2022-071-local-government-appointment-of-local-government-administrator-kafue-town-council-order-2022",
+    "si-zm-2020-095-local-government-appointment-of-local-government-administrator-kalumbila-town-council-order-2020",
+    "si-zm-2020-067-local-government-appointment-of-local-government-administrator-kitwe-city-council-order-2020",
+    "si-zm-2020-066-local-government-appointment-of-local-government-administrator-lusaka-city-council-order-2020",
+    "si-zm-2019-077-chembe-town-council-sugar-cane-levy-by-laws-2019",
+    "si-zm-2019-047-local-government-fire-services-order-2019"
+  ]
+}

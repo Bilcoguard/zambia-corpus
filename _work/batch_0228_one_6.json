@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2019/47",
+    "year": "2019",
+    "num": "47",
+    "title": "Local Government (Fire Services) Order, 2019",
+    "sub_phase": "sis_local_government",
+    "parent_act": "Local Government Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2019-047-local-government-fire-services-order-2019",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2019,
+    "number": 47,
+    "title": "Local Government (Fire Services) Order, 2019",
+    "parent_act": "Local Government Act",
+    "sub_phase": "sis_local_government",
+    "effective_date": "2019-09-06",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2019/47",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2019/47/eng@2019-09-06/source.pdf",
+    "source_hash": "ed1cbe6e5b2e1c760a35a6d91b3b16ffbf35e18fce5569aa6e4e14c046b6e587",
+    "html_hash": "5095dc378d72281178edfc208d67027898649a7886eb28a93f3347aa9bb0c79a",
+    "fetched_at": "2026-04-25T15:09:04Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 4,
+    "pdf_text_chars": 2016,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2019/si-zm-2019-047-local-government-fire-services-order-2019.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/47",
+      "bytes": 39110,
+      "path": "raw/zambialii/si/2019/si-zm-2019-047-local-government-fire-services-order-2019.html",
+      "sha": "5095dc378d72281178edfc208d67027898649a7886eb28a93f3347aa9bb0c79a"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/47/eng@2019-09-06/source.pdf",
+      "bytes": 14927,
+      "path": "raw/zambialii/si/2019/si-zm-2019-047-local-government-fire-services-order-2019.pdf",
+      "sha": "ed1cbe6e5b2e1c760a35a6d91b3b16ffbf35e18fce5569aa6e4e14c046b6e587"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2020/67",
+    "year": "2020",
+    "num": "67",
+    "title": "Local Government (Appointment of Local Government Administrator) (Kitwe City Council) Order, 2020",
+    "sub_phase": "sis_local_government",
+    "parent_act": "Local Government Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2020-067-local-government-appointment-of-local-government-administrator-kitwe-city-council-order-2020",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2020,
+    "number": 67,
+    "title": "Local Government (Appointment of Local Government Administrator) (Kitwe City Council) Order, 2020",
+    "parent_act": "Local Government Act",
+    "sub_phase": "sis_local_government",
+    "effective_date": "2020-07-31",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2020/67",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/67/eng@2020-07-31/source.pdf",
+    "source_hash": "67c993cef25c0c36c7d5eed958061bfa1388c404d02fa4e674ee3ecda9a3d815",
+    "html_hash": "cdd0c85cb4ed036f1c2afa359746999ab4fbd9882a6a35d77d4e3f0dfc2fdc9a",
+    "fetched_at": "2026-04-25T15:08:08Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1455,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2020/si-zm-2020-067-local-government-appointment-of-local-government-administrator-kitwe-city-council-order-2020.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/67",
+      "bytes": 39449,
+      "path": "raw/zambialii/si/2020/si-zm-2020-067-local-government-appointment-of-local-government-administrator-kitwe-city-council-order-2020.html",
+      "sha": "cdd0c85cb4ed036f1c2afa359746999ab4fbd9882a6a35d77d4e3f0dfc2fdc9a"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/67/eng@2020-07-31/source.pdf",
+      "bytes": 22604,
+      "path": "raw/zambialii/si/2020/si-zm-2020-067-local-government-appointment-of-local-government-administrator-kitwe-city-council-order-2020.pdf",
+      "sha": "67c993cef25c0c36c7d5eed958061bfa1388c404d02fa4e674ee3ecda9a3d815"
+    }
+  ]
+}

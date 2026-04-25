@@ -1,0 +1,35 @@
+{
+  "batch": "0228",
+  "phase": "phase_4_bulk",
+  "started_at": "2026-04-25T15:05:00Z",
+  "completed_at": "2026-04-25T15:09:52Z",
+  "records_count": 7,
+  "records": [
+    "si-zm-2020-034-laws-of-zambia-revised-edition-act-specified-date-notice-2020",
+    "si-zm-2022-071-local-government-appointment-of-local-government-administrator-kafue-town-council-order-2022",
+    "si-zm-2020-095-local-government-appointment-of-local-government-administrator-kalumbila-town-council-order-2020",
+    "si-zm-2020-067-local-government-appointment-of-local-government-administrator-kitwe-city-council-order-2020",
+    "si-zm-2020-066-local-government-appointment-of-local-government-administrator-lusaka-city-council-order-2020",
+    "si-zm-2019-077-chembe-town-council-sugar-cane-levy-by-laws-2019",
+    "si-zm-2019-047-local-government-fire-services-order-2019"
+  ],
+  "integrity": "PASS",
+  "fetches_used": 14,
+  "sub_phases_covered": [
+    "sis_governance",
+    "sis_local_government"
+  ],
+  "mode": "drain_L_alphabet_residuals_from_0227_no_fresh_probe",
+  "attempted_count": 7,
+  "fail_records": [],
+  "skip_records": [],
+  "fail_reason": null,
+  "skip_reason": null,
+  "yield_pct": 100.0,
+  "discovery_fetches": 0,
+  "robots_reverify_fetches": 1,
+  "robots_sha_prefix": "fce67b697ee4ef44",
+  "first_records": {
+    "sis_governance_laws_of_zambia_revised_edition_act": "si-zm-2020-034-laws-of-zambia-revised-edition-act-specified-date-notice-2020"
+  }
+}
