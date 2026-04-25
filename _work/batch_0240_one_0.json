@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2026/2",
+    "year": "2026",
+    "num": "2",
+    "title": "Electricity (Wayleave and Clearances) Regulations, 2026",
+    "sub_phase": "sis_energy",
+    "parent_act": "Electricity Act",
+    "eng_date": "2026-01-02"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2026-002-electricity-wayleave-and-clearances-regulations-2026",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2026,
+    "number": 2,
+    "title": "Electricity (Wayleave and Clearances) Regulations, 2026",
+    "parent_act": "Electricity Act",
+    "sub_phase": "sis_energy",
+    "effective_date": "2026-01-02",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2026/2",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2026/2/eng@2026-01-02/source.pdf",
+    "source_hash": "8c9d9220cfc63f933b4dfabe61f41261674975f778f02d8e916638347094843f",
+    "html_hash": "42fea3c0d5af3fe4a6c1deb88e3f687646869412e9a11a13da51d6440dd6533f",
+    "fetched_at": "2026-04-25T22:06:08Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 44,
+    "pdf_text_chars": 85659,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2026/si-zm-2026-002-electricity-wayleave-and-clearances-regulations-2026.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2026/2",
+      "bytes": 39163,
+      "path": "raw/zambialii/si/2026/si-zm-2026-002-electricity-wayleave-and-clearances-regulations-2026.html",
+      "sha": "42fea3c0d5af3fe4a6c1deb88e3f687646869412e9a11a13da51d6440dd6533f"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2026/2/eng@2026-01-02/source.pdf",
+      "bytes": 1939400,
+      "path": "raw/zambialii/si/2026/si-zm-2026-002-electricity-wayleave-and-clearances-regulations-2026.pdf",
+      "sha": "8c9d9220cfc63f933b4dfabe61f41261674975f778f02d8e916638347094843f"
+    }
+  ]
+}

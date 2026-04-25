@@ -1,0 +1,31 @@
+{
+  "pick": {
+    "yr_num": "2026/4",
+    "year": "2026",
+    "num": "4",
+    "title": "Electricity (Transmission) (Grid Code) Regulations, 2026",
+    "sub_phase": "sis_energy",
+    "parent_act": "Electricity Act",
+    "eng_date": "2026-01-09"
+  },
+  "status": "skip",
+  "error": "pdf_too_large_28176615b",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2026/4",
+      "bytes": 39190,
+      "path": "raw/zambialii/si/2026/si-zm-2026-004-electricity-transmission-grid-code-regulations-2026.html",
+      "sha": "66a89dc70b710b910c16a1bb7259a516d27341683928cebe7b62b255da7c20b5",
+      "reused": true
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2026/4/eng@2026-01-09/source.pdf",
+      "bytes": 28176615,
+      "path": "raw/zambialii/si/2026/si-zm-2026-004-electricity-transmission-grid-code-regulations-2026.pdf",
+      "sha": "6f80b8bf7327b742e6a9f9dd8cc779adaf90c6c4d94f32c26c6766bd4a298a8e",
+      "reused": true
+    }
+  ],
+  "html_sha": "66a89dc70b710b910c16a1bb7259a516d27341683928cebe7b62b255da7c20b5",
+  "pdf_sha": "6f80b8bf7327b742e6a9f9dd8cc779adaf90c6c4d94f32c26c6766bd4a298a8e"
+}

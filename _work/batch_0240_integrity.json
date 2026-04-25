@@ -1,0 +1,10 @@
+{
+  "CHECK1a_batch_unique": "8/8 unique PASS",
+  "CHECK1b_corpus_presence": "8/8 present PASS",
+  "CHECK2_amended_by": "0 refs (none required to resolve) PASS",
+  "CHECK3_repealed_by": "0 refs PASS",
+  "CHECK4_source_hash": "8/8 match PASS",
+  "CHECK5_required_fields": "8/8 all present PASS",
+  "CHECK6_cited_authorities": "0 refs PASS",
+  "failures": []
+}

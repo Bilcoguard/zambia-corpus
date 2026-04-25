@@ -1,0 +1,50 @@
+{
+  "pick": {
+    "yr_num": "2024/6",
+    "year": "2024",
+    "num": "6",
+    "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) Order, 2024",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2024-01-12"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2024-006-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2024,
+    "number": 6,
+    "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) Order, 2024",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2024-01-12",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2024/6",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2024/6/eng@2024-01-12/source.pdf",
+    "source_hash": "2b4daac7d9f649d8b440e3710e09fff1fa793b0517462e0ba32c23c1d0931a96",
+    "html_hash": "db24791061bd7c71c5251b2f20995e4c1dbcbdf8de2dd8574847e60453e84393",
+    "fetched_at": "2026-04-25T22:09:35Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1778,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2024/si-zm-2024-006-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2024/6",
+      "bytes": 40277,
+      "path": "raw/zambialii/si/2024/si-zm-2024-006-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024.html",
+      "sha": "db24791061bd7c71c5251b2f20995e4c1dbcbdf8de2dd8574847e60453e84393",
+      "reused": true
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2024/6/eng@2024-01-12/source.pdf",
+      "bytes": 291797,
+      "path": "raw/zambialii/si/2024/si-zm-2024-006-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024.pdf",
+      "sha": "2b4daac7d9f649d8b440e3710e09fff1fa793b0517462e0ba32c23c1d0931a96"
+    }
+  ]
+}

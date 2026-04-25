@@ -1,0 +1,47 @@
+{
+  "batch": "0240",
+  "phase": 4,
+  "cohort": "sis_energy first cluster + sis_elections E-residual drain (cohort 6)",
+  "attempted": 9,
+  "ok_committed": 8,
+  "fail": 0,
+  "skip": 1,
+  "fail_details": [],
+  "skip_details": [
+    {
+      "pick": {
+        "yr_num": "2026/4",
+        "year": "2026",
+        "num": "4",
+        "title": "Electricity (Transmission) (Grid Code) Regulations, 2026",
+        "sub_phase": "sis_energy",
+        "parent_act": "Electricity Act",
+        "eng_date": "2026-01-09"
+      },
+      "error": "pdf_too_large_28176615b"
+    }
+  ],
+  "ok_indices": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "ok_record_ids": [
+    "si-zm-2026-002-electricity-wayleave-and-clearances-regulations-2026",
+    "si-zm-2021-024-electricity-common-carrier-declaration-regulations-2021",
+    "si-zm-2021-094-electricity-common-carrier-declaration-revocation-order-2021",
+    "si-zm-2023-036-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2023",
+    "si-zm-2023-040-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2023",
+    "si-zm-2023-046-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2023",
+    "si-zm-2024-002-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024",
+    "si-zm-2024-006-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024"
+  ],
+  "new_fetches": 15,
+  "robots_reverify": 1,
+  "priority_order_pos": "sis_energy first-time + sis_elections drain (priority_order item 4 family + new sub-phase)"
+}

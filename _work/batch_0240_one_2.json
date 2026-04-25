@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2021/24",
+    "year": "2021",
+    "num": "24",
+    "title": "Electricity (Common Carrier) (Declaration) Regulations, 2021",
+    "sub_phase": "sis_energy",
+    "parent_act": "Electricity Act",
+    "eng_date": "2021-04-09"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2021-024-electricity-common-carrier-declaration-regulations-2021",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2021,
+    "number": 24,
+    "title": "Electricity (Common Carrier) (Declaration) Regulations, 2021",
+    "parent_act": "Electricity Act",
+    "sub_phase": "sis_energy",
+    "effective_date": "2021-04-09",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2021/24",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2021/24/eng@2021-04-09/source.pdf",
+    "source_hash": "8e0ef0697b28a0b470537dd6e2326e6cf5b92994446354d5afdb001e3d083c24",
+    "html_hash": "6e3cf3abc74911ff64b53202e5e58e42e0a52fc7dd901abb59726994d0548b36",
+    "fetched_at": "2026-04-25T22:06:24Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 4,
+    "pdf_text_chars": 4598,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2021/si-zm-2021-024-electricity-common-carrier-declaration-regulations-2021.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/24",
+      "bytes": 40661,
+      "path": "raw/zambialii/si/2021/si-zm-2021-024-electricity-common-carrier-declaration-regulations-2021.html",
+      "sha": "6e3cf3abc74911ff64b53202e5e58e42e0a52fc7dd901abb59726994d0548b36"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/24/eng@2021-04-09/source.pdf",
+      "bytes": 29041,
+      "path": "raw/zambialii/si/2021/si-zm-2021-024-electricity-common-carrier-declaration-regulations-2021.pdf",
+      "sha": "8e0ef0697b28a0b470537dd6e2326e6cf5b92994446354d5afdb001e3d083c24"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "batch": "0240",
+  "phase": 4,
+  "completed_at": "2026-04-25T22:09:30Z",
+  "ok_committed": 8,
+  "fail": 0,
+  "skip": 1,
+  "next_tick_plan": "drain remaining 4 novel batch_0233 E-cache or rotate to fresh alphabet probe",
+  "e_probe_remaining_after_0240": "7 items (3 OCR backlog scanned-image known-fails + 4 unprocessed novel + 1 oversized 2026/004 carry-forward)",
+  "cumulative_si_after": 506,
+  "ocr_backlog": [
+    "2017/068",
+    "2018/011",
+    "2018/075",
+    "2018/093",
+    "2022/004",
+    "2022/007",
+    "2022/008",
+    "2022/012",
+    "2026/004"
+  ]
+}
