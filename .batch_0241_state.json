@@ -1,0 +1,23 @@
+{
+  "batch": "0241",
+  "phase": 4,
+  "completed_at": "2026-04-25T22:41:22Z",
+  "ok_committed": 8,
+  "fail": 1,
+  "skip": 0,
+  "next_tick_plan": "fresh alphabet probes K/O/Q/R/U/V/W/X/Y/Z; or rotate to acts_in_force priority_order item 1 (requires Acts-listing endpoint discovery)",
+  "h_probe_remaining_after_0241": "0 items (drained 6/6 novel from H-probe; 8 modern - 2 already had records)",
+  "cumulative_si_after": 514,
+  "ocr_backlog": [
+    "2017/068",
+    "2018/011",
+    "2018/075",
+    "2018/093",
+    "2022/004",
+    "2022/007",
+    "2022/008",
+    "2022/012",
+    "2022/013",
+    "2026/004"
+  ]
+}

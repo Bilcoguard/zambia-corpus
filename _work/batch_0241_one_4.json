@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2022/39",
+    "year": "2022",
+    "num": "39",
+    "title": "Education (Public Higher Education Institution) (Declaration) Order, 2022",
+    "sub_phase": "sis_education",
+    "parent_act": "Higher Education Act",
+    "eng_date": "2022-06-03"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2022-039-education-public-higher-education-institution-declaration-order-2022",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2022,
+    "number": 39,
+    "title": "Education (Public Higher Education Institution) (Declaration) Order, 2022",
+    "parent_act": "Higher Education Act",
+    "sub_phase": "sis_education",
+    "effective_date": "2022-06-03",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2022/39",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2022/39/eng@2022-06-03/source.pdf",
+    "source_hash": "11f8641a2d9e902adeb2c2fc2418c16d829c882ef051c9020d4d6c1e85e27727",
+    "html_hash": "81037e29c7def2adc125ad48af066aa01ed4a69d00af1a21d6a99a7e2d5cd6de",
+    "fetched_at": "2026-04-25T22:38:38Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 996,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2022/si-zm-2022-039-education-public-higher-education-institution-declaration-order-2022.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/39",
+      "bytes": 39323,
+      "path": "raw/zambialii/si/2022/si-zm-2022-039-education-public-higher-education-institution-declaration-order-2022.html",
+      "sha": "81037e29c7def2adc125ad48af066aa01ed4a69d00af1a21d6a99a7e2d5cd6de"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/39/eng@2022-06-03/source.pdf",
+      "bytes": 280054,
+      "path": "raw/zambialii/si/2022/si-zm-2022-039-education-public-higher-education-institution-declaration-order-2022.pdf",
+      "sha": "11f8641a2d9e902adeb2c2fc2418c16d829c882ef051c9020d4d6c1e85e27727"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "batch": "0241",
+  "attempted": 9,
+  "ok": 8,
+  "fail": 1,
+  "skip": 0,
+  "check1a_unique_ids": true,
+  "check1b_disk_presence": true,
+  "check2_3_refs": 0,
+  "check4_sha_match": true,
+  "check5_required_fields": true,
+  "check6_cited_authorities": 0,
+  "all_pass": true,
+  "ok_record_ids": [
+    "si-zm-2024-015-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024",
+    "si-zm-2024-029-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024",
+    "si-zm-2022-005-economic-and-financial-crimes-division-of-court-order-2022",
+    "si-zm-2022-039-education-public-higher-education-institution-declaration-order-2022",
+    "si-zm-2019-069-palabana-university-declaration-order-2019",
+    "si-zm-2018-039-levy-mwanawasa-medical-university-declaration-order-2018",
+    "si-zm-2018-003-zambia-defence-university-declaration-order-2018",
+    "si-zm-2018-002-education-military-training-establishment-of-zambia-management-dissolution-regulations-2018"
+  ],
+  "fail_details": [
+    {
+      "pick": {
+        "yr_num": "2022/13",
+        "year": "2022",
+        "num": "13",
+        "title": "Minimum Wages and Conditions of Employment (Truck and Bus Drivers) (Amendment) Order, 2022",
+        "sub_phase": "sis_employment",
+        "parent_act": "Minimum Wages and Conditions of Employment Act",
+        "eng_date": "2022-01-28"
+      },
+      "error": "pdf_parse_empty"
+    }
+  ]
+}

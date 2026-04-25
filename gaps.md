@@ -1042,3 +1042,7 @@ regex form from `batch_0176.py`.
 - pdf_sha: aa39ab49caa6f499
 - Disposition: raw HTML+PDF preserved on disk for OCR retry. Likely scanned-image PDF. Added to OCR backlog (now 6 items: 2017/068, 2018/011, 2022/004, 2022/007, 2022/012, 2022/008).
 - Substituted in-batch with 2021/88 Local Government By-Elections No.4 Order, 2021 (parsed cleanly).
+
+## 2026-04-25T22:40:37Z batch 0241 — pdf_parse_empty / OCR backlog
+
+- **2022/13** Minimum Wages and Conditions of Employment (Truck and Bus Drivers) (Amendment) Order, 2022 — `https://zambialii.org/akn/zm/act/si/2022/13` — PDF appears scanned-image only (pdfplumber returned 0 chars). Raw HTML+PDF preserved at `raw/zambialii/si/2022/`. Added to OCR backlog (now 10 items: 2017/068, 2018/011, 2018/075, 2018/093, 2022/004, 2022/007, 2022/008, 2022/012, 2022/013, 2026/004).

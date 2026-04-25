@@ -1,0 +1,50 @@
+{
+  "alphabet": "H",
+  "total_unique": 15,
+  "modern": 8,
+  "novel": [
+    {
+      "yr": 2022,
+      "num": 5,
+      "href": "/akn/zm/act/si/2022/5/eng@2022-01-14",
+      "eng_date": "2022-01-14",
+      "title": "Economic and Financial Crimes (Division of Court) Order, 2022"
+    },
+    {
+      "yr": 2022,
+      "num": 39,
+      "href": "/akn/zm/act/si/2022/39/eng@2022-06-03",
+      "eng_date": "2022-06-03",
+      "title": "Education (Public Higher Education Institution) (Declaration) Order, 2022"
+    },
+    {
+      "yr": 2019,
+      "num": 69,
+      "href": "/akn/zm/act/si/2019/69/eng@2019-10-17",
+      "eng_date": "2019-10-17",
+      "title": "Palabana University (Declaration) Order, 2019"
+    },
+    {
+      "yr": 2018,
+      "num": 39,
+      "href": "/akn/zm/act/si/2018/39/eng@2018-05-24",
+      "eng_date": "2018-05-24",
+      "title": "Levy Mwanawasa Medical University (Declaration) Order, 2018"
+    },
+    {
+      "yr": 2018,
+      "num": 3,
+      "href": "/akn/zm/act/si/2018/3/eng@2018-01-26",
+      "eng_date": "2018-01-26",
+      "title": "Zambia Defence University (Declaration) Order, 2018"
+    },
+    {
+      "yr": 2018,
+      "num": 2,
+      "href": "/akn/zm/act/si/2018/2/eng@2018-01-26",
+      "eng_date": "2018-01-26",
+      "title": "Education (Military Training Establishment of Zambia Management) (Dissolution) Regulations, 2018"
+    }
+  ],
+  "existing_in_corpus_total": 416
+}

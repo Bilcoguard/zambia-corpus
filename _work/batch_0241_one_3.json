@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2022/5",
+    "year": "2022",
+    "num": "5",
+    "title": "Economic and Financial Crimes (Division of Court) Order, 2022",
+    "sub_phase": "sis_judicial",
+    "parent_act": "Subordinate Courts Act",
+    "eng_date": "2022-01-14"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2022-005-economic-and-financial-crimes-division-of-court-order-2022",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2022,
+    "number": 5,
+    "title": "Economic and Financial Crimes (Division of Court) Order, 2022",
+    "parent_act": "Subordinate Courts Act",
+    "sub_phase": "sis_judicial",
+    "effective_date": "2022-01-14",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2022/5",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2022/5/eng@2022-01-14/source.pdf",
+    "source_hash": "ef6fda97589a8e8d45d294bddcbaf52f978681a21982fa221239de7e157ea658",
+    "html_hash": "3865da3a5138d9836df1c4cb2f820ccf731c14ff42dcc99d354f5b607a5cc3d7",
+    "fetched_at": "2026-04-25T22:38:19Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1299,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2022/si-zm-2022-005-economic-and-financial-crimes-division-of-court-order-2022.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/5",
+      "bytes": 42831,
+      "path": "raw/zambialii/si/2022/si-zm-2022-005-economic-and-financial-crimes-division-of-court-order-2022.html",
+      "sha": "3865da3a5138d9836df1c4cb2f820ccf731c14ff42dcc99d354f5b607a5cc3d7"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/5/eng@2022-01-14/source.pdf",
+      "bytes": 21875,
+      "path": "raw/zambialii/si/2022/si-zm-2022-005-economic-and-financial-crimes-division-of-court-order-2022.pdf",
+      "sha": "ef6fda97589a8e8d45d294bddcbaf52f978681a21982fa221239de7e157ea658"
+    }
+  ]
+}
