@@ -1,0 +1,41 @@
+{
+  "id": "si-zm-1996-023-value-added-tax-supply-regulations-1996",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Value Added Tax (Supply) Regulations, 1996",
+  "citation": "Statutory Instrument No. 23 of 1996",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "(I) These Regulations may be cited as the Value Added Tax Title and",
+      "text": "commence­\n(Suppl'y) Regulations, 1996.\nment\n(2) This Order shall come into force on 27th January, 1996.\n2 A supply referred to in the First Schedule shall be a supply of :��� of\na service for the purposes of the Act."
+    },
+    {
+      "number": "3",
+      "heading": "A supply referred_to in the Second Schedule shall be a supply Supply of",
+      "text": "goods\nof goods for the purposes of the Act."
+    },
+    {
+      "number": "4",
+      "heading": "A supply referred to in the Third Schedule shall not be a Supply",
+      "text": "supply of goods for the purposes of the AcL declared not\nto be a\nsupply\nFIRST SCHEDULE\n(Regulalion 2)\nAnything done for a monetary consideration which is not a supply of goods.\nSECOND SCHEDULE\n(Regulation 3)\nThe supply or imponation of electricity.\nTHIRD SCHEDULE\n(Regulalion 4)\nThe transfer of ownership ofi mported goods in a Customs Bonded Warehouse,\nin respect of which tax has not become payable under para�aph (b ) of subsection\n(I) of section eight of the Act\nR. D. S. PENZA,\nLUSAKA Minister of Finance\n24th January, 1996\n[MAl.103/12/12]\nCopies of this Statulory lnstrumenl can be obtainedfr om the Governmenl Prinler,\nP.O. Box 30/36, 10100 Lusaka. Price K45.00 each."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/1996/23/eng@1996-01-26/source.pdf",
+  "source_hash": "sha256:b73b1a1c5eed171b1c1dabb956f2c7482afe96227a016d1ee49f309f586b48a9",
+  "fetched_at": "2026-04-25T02:06:26Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/1996/23/eng@1996-01-26",
+      "source_hash": "sha256:a2c69557b917e21ddd138240d2bba364e35715d821d6bc59c3f3508f252081e3",
+      "fetched_at": "2026-04-25T02:06:20Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}
