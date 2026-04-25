@@ -1,0 +1,50 @@
+[
+  {
+    "pick": {
+      "yr_num": "2017/1",
+      "year": "2017",
+      "num": "1",
+      "title": "Citizens Economic Empowerment (Reservation Scheme) Regulations, 2017",
+      "sub_phase": "sis_corporate",
+      "parent_act": "Citizens Economic Empowerment Act"
+    },
+    "status": "ok",
+    "record": {
+      "id": "si-zm-2017-001-citizens-economic-empowerment-reservation-scheme-regulations-2017",
+      "type": "statutory_instrument",
+      "jurisdiction": "ZM",
+      "year": 2017,
+      "number": 1,
+      "title": "Citizens Economic Empowerment (Reservation Scheme) Regulations, 2017",
+      "parent_act": "Citizens Economic Empowerment Act",
+      "sub_phase": "sis_corporate",
+      "effective_date": "2017-01-13",
+      "source_url": "https://zambialii.org/akn/zm/act/si/2017/1",
+      "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2017/1/eng@2017-01-13/source.pdf",
+      "source_hash": "f1a593391ff2912d658f2ff2ac64c73066cc493484dc236097a5acc2892c7a22",
+      "html_hash": "e8a7f07d7a48be34d9425c21e16e0bccadd3e86611f34f3b5e142565d47eb5da",
+      "fetched_at": "2026-04-25T12:11:34Z",
+      "parser_version": "0.5.0",
+      "pdf_pages": 2,
+      "pdf_text_chars": 1925,
+      "amended_by": [],
+      "repealed_by": [],
+      "cited_authorities": []
+    },
+    "record_path": "records/sis/2017/si-zm-2017-001-citizens-economic-empowerment-reservation-scheme-regulations-2017.json",
+    "fetches": [
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2017/1",
+        "bytes": 40404,
+        "path": "raw/zambialii/si/2017/si-zm-2017-001-citizens-economic-empowerment-reservation-scheme-regulations-2017.html",
+        "sha": "e8a7f07d7a48be34d9425c21e16e0bccadd3e86611f34f3b5e142565d47eb5da"
+      },
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2017/1/eng@2017-01-13/source.pdf",
+        "bytes": 120814,
+        "path": "raw/zambialii/si/2017/si-zm-2017-001-citizens-economic-empowerment-reservation-scheme-regulations-2017.pdf",
+        "sha": "f1a593391ff2912d658f2ff2ac64c73066cc493484dc236097a5acc2892c7a22"
+      }
+    ]
+  }
+]

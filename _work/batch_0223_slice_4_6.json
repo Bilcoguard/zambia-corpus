@@ -1,0 +1,98 @@
+[
+  {
+    "pick": {
+      "yr_num": "2020/69",
+      "year": "2020",
+      "num": "69",
+      "title": "Plant Pests and Diseases (Phytosanitary Certification) Regulations, 2020",
+      "sub_phase": "sis_agriculture",
+      "parent_act": "Plant Pests and Diseases Act"
+    },
+    "status": "ok",
+    "record": {
+      "id": "si-zm-2020-069-plant-pests-and-diseases-phytosanitary-certification-regulations-2020",
+      "type": "statutory_instrument",
+      "jurisdiction": "ZM",
+      "year": 2020,
+      "number": 69,
+      "title": "Plant Pests and Diseases (Phytosanitary Certification) Regulations, 2020",
+      "parent_act": "Plant Pests and Diseases Act",
+      "sub_phase": "sis_agriculture",
+      "effective_date": "2020-08-14",
+      "source_url": "https://zambialii.org/akn/zm/act/si/2020/69",
+      "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/69/eng@2020-08-14/source.pdf",
+      "source_hash": "a7b0a9d7e58ddee4a015f3fa1b06bfba25e969312efd9035f5765aadc4fcff3c",
+      "html_hash": "d541c957c91feee3e5be374573733dbc9e47756413500e8ca25251b781dc60f2",
+      "fetched_at": "2026-04-25T12:10:02Z",
+      "parser_version": "0.5.0",
+      "pdf_pages": 10,
+      "pdf_text_chars": 14082,
+      "amended_by": [],
+      "repealed_by": [],
+      "cited_authorities": []
+    },
+    "record_path": "records/sis/2020/si-zm-2020-069-plant-pests-and-diseases-phytosanitary-certification-regulations-2020.json",
+    "fetches": [
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2020/69",
+        "bytes": 39327,
+        "path": "raw/zambialii/si/2020/si-zm-2020-069-plant-pests-and-diseases-phytosanitary-certification-regulations-2020.html",
+        "sha": "d541c957c91feee3e5be374573733dbc9e47756413500e8ca25251b781dc60f2"
+      },
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2020/69/eng@2020-08-14/source.pdf",
+        "bytes": 37893,
+        "path": "raw/zambialii/si/2020/si-zm-2020-069-plant-pests-and-diseases-phytosanitary-certification-regulations-2020.pdf",
+        "sha": "a7b0a9d7e58ddee4a015f3fa1b06bfba25e969312efd9035f5765aadc4fcff3c"
+      }
+    ]
+  },
+  {
+    "pick": {
+      "yr_num": "2020/70",
+      "year": "2020",
+      "num": "70",
+      "title": "Plant Pests and Diseases (Plant Quarantine and Phytosanitary Service Fees) Regulations, 2020",
+      "sub_phase": "sis_agriculture",
+      "parent_act": "Plant Pests and Diseases Act"
+    },
+    "status": "ok",
+    "record": {
+      "id": "si-zm-2020-070-plant-pests-and-diseases-plant-quarantine-and-phytosanitary-service-fees-regulations-2020",
+      "type": "statutory_instrument",
+      "jurisdiction": "ZM",
+      "year": 2020,
+      "number": 70,
+      "title": "Plant Pests and Diseases (Plant Quarantine and Phytosanitary Service Fees) Regulations, 2020",
+      "parent_act": "Plant Pests and Diseases Act",
+      "sub_phase": "sis_agriculture",
+      "effective_date": "2020-08-14",
+      "source_url": "https://zambialii.org/akn/zm/act/si/2020/70",
+      "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/70/eng@2020-08-14/source.pdf",
+      "source_hash": "9a178e1c85a894f8bc6326610e246f2780ef072ff8e7e6349bb46815499b8db5",
+      "html_hash": "bbd66f2730ab8ed0758ba3a34ac7104339ac59523ac0b613e2493de43c238601",
+      "fetched_at": "2026-04-25T12:10:17Z",
+      "parser_version": "0.5.0",
+      "pdf_pages": 4,
+      "pdf_text_chars": 3226,
+      "amended_by": [],
+      "repealed_by": [],
+      "cited_authorities": []
+    },
+    "record_path": "records/sis/2020/si-zm-2020-070-plant-pests-and-diseases-plant-quarantine-and-phytosanitary-service-fees-regulations-2020.json",
+    "fetches": [
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2020/70",
+        "bytes": 42032,
+        "path": "raw/zambialii/si/2020/si-zm-2020-070-plant-pests-and-diseases-plant-quarantine-and-phytosanitary-service-fees-regulations-2020.html",
+        "sha": "bbd66f2730ab8ed0758ba3a34ac7104339ac59523ac0b613e2493de43c238601"
+      },
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2020/70/eng@2020-08-14/source.pdf",
+        "bytes": 14759,
+        "path": "raw/zambialii/si/2020/si-zm-2020-070-plant-pests-and-diseases-plant-quarantine-and-phytosanitary-service-fees-regulations-2020.pdf",
+        "sha": "9a178e1c85a894f8bc6326610e246f2780ef072ff8e7e6349bb46815499b8db5"
+      }
+    ]
+  }
+]

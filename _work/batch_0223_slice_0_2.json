@@ -1,0 +1,98 @@
+[
+  {
+    "pick": {
+      "yr_num": "2021/55",
+      "year": "2021",
+      "num": "55",
+      "title": "Metrology (Measuring Instruments) Regulations, 2021",
+      "sub_phase": "sis_consumer",
+      "parent_act": "Metrology Act"
+    },
+    "status": "ok",
+    "record": {
+      "id": "si-zm-2021-055-metrology-measuring-instruments-regulations-2021",
+      "type": "statutory_instrument",
+      "jurisdiction": "ZM",
+      "year": 2021,
+      "number": 55,
+      "title": "Metrology (Measuring Instruments) Regulations, 2021",
+      "parent_act": "Metrology Act",
+      "sub_phase": "sis_consumer",
+      "effective_date": "2021-05-14",
+      "source_url": "https://zambialii.org/akn/zm/act/si/2021/55",
+      "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2021/55/eng@2021-05-14/source.pdf",
+      "source_hash": "5cd3abac20b728ca75a81ee7d563acffa0b0198df247690f354020c13f022137",
+      "html_hash": "d34c28d720c0a186a0c5e229ae8491b0578b94293c9db5c9399f6ff74ae0cec9",
+      "fetched_at": "2026-04-25T12:08:53Z",
+      "parser_version": "0.5.0",
+      "pdf_pages": 40,
+      "pdf_text_chars": 68328,
+      "amended_by": [],
+      "repealed_by": [],
+      "cited_authorities": []
+    },
+    "record_path": "records/sis/2021/si-zm-2021-055-metrology-measuring-instruments-regulations-2021.json",
+    "fetches": [
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2021/55",
+        "bytes": 38996,
+        "path": "raw/zambialii/si/2021/si-zm-2021-055-metrology-measuring-instruments-regulations-2021.html",
+        "sha": "d34c28d720c0a186a0c5e229ae8491b0578b94293c9db5c9399f6ff74ae0cec9"
+      },
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2021/55/eng@2021-05-14/source.pdf",
+        "bytes": 177372,
+        "path": "raw/zambialii/si/2021/si-zm-2021-055-metrology-measuring-instruments-regulations-2021.pdf",
+        "sha": "5cd3abac20b728ca75a81ee7d563acffa0b0198df247690f354020c13f022137"
+      }
+    ]
+  },
+  {
+    "pick": {
+      "yr_num": "2021/56",
+      "year": "2021",
+      "num": "56",
+      "title": "Metrology (Pre-Packaged Commodities) Regulations, 2021",
+      "sub_phase": "sis_consumer",
+      "parent_act": "Metrology Act"
+    },
+    "status": "ok",
+    "record": {
+      "id": "si-zm-2021-056-metrology-pre-packaged-commodities-regulations-2021",
+      "type": "statutory_instrument",
+      "jurisdiction": "ZM",
+      "year": 2021,
+      "number": 56,
+      "title": "Metrology (Pre-Packaged Commodities) Regulations, 2021",
+      "parent_act": "Metrology Act",
+      "sub_phase": "sis_consumer",
+      "effective_date": "2021-05-14",
+      "source_url": "https://zambialii.org/akn/zm/act/si/2021/56",
+      "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2021/56/eng@2021-05-14/source.pdf",
+      "source_hash": "b39b6c161b47434c2685ad945508ef1e41436a42598417612a5c16c2a3e2a2a1",
+      "html_hash": "682b81006e17ee3770bc4034d25da5d44ee72f0ae6191e8c9eaa5d7506cbb568",
+      "fetched_at": "2026-04-25T12:09:10Z",
+      "parser_version": "0.5.0",
+      "pdf_pages": 50,
+      "pdf_text_chars": 81348,
+      "amended_by": [],
+      "repealed_by": [],
+      "cited_authorities": []
+    },
+    "record_path": "records/sis/2021/si-zm-2021-056-metrology-pre-packaged-commodities-regulations-2021.json",
+    "fetches": [
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2021/56",
+        "bytes": 39020,
+        "path": "raw/zambialii/si/2021/si-zm-2021-056-metrology-pre-packaged-commodities-regulations-2021.html",
+        "sha": "682b81006e17ee3770bc4034d25da5d44ee72f0ae6191e8c9eaa5d7506cbb568"
+      },
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2021/56/eng@2021-05-14/source.pdf",
+        "bytes": 266000,
+        "path": "raw/zambialii/si/2021/si-zm-2021-056-metrology-pre-packaged-commodities-regulations-2021.pdf",
+        "sha": "b39b6c161b47434c2685ad945508ef1e41436a42598417612a5c16c2a3e2a2a1"
+      }
+    ]
+  }
+]

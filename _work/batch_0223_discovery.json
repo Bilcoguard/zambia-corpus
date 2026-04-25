@@ -1,0 +1,1907 @@
+{
+  "batch": "0223",
+  "phase": "phase_4_bulk",
+  "started_at": "2026-04-25T12:05:44Z",
+  "alphabets_probed": [
+    "C",
+    "M",
+    "P"
+  ],
+  "robots_sha256": "fce67b697ee4ef446...",
+  "novel_total_pre_keyword": 228,
+  "priority_buckets": {
+    "sis_corporate": [],
+    "sis_tax": [
+      "2017/1",
+      "2017/55",
+      "1994/6",
+      "1993/41"
+    ],
+    "sis_employment": [],
+    "sis_data_protection": [],
+    "sis_mining": [],
+    "sis_family": []
+  },
+  "cross_phase_pool": [
+    "1981/22",
+    "1981/23",
+    "1981/24",
+    "1981/25",
+    "1981/26",
+    "1982/39",
+    "1982/31",
+    "1986/36",
+    "1988/47",
+    "1988/8",
+    "1988/9",
+    "1988/10",
+    "1988/11",
+    "1988/12",
+    "1988/13",
+    "1988/14",
+    "1988/15",
+    "1988/16",
+    "1989/36",
+    "1989/41",
+    "1989/35",
+    "1989/43",
+    "1989/37",
+    "1989/38",
+    "1989/39",
+    "1989/42",
+    "1989/44",
+    "1990/38",
+    "1990/21",
+    "1990/22",
+    "1990/23",
+    "1990/24",
+    "1992/1",
+    "1994/37",
+    "1996/6",
+    "1996/7",
+    "1996/8",
+    "1996/29",
+    "1991/34",
+    "1991/45",
+    "1991/46",
+    "1991/18",
+    "1991/4",
+    "1991/3",
+    "1991/2",
+    "1991/1",
+    "1996/42",
+    "1996/43",
+    "1998/6",
+    "1998/3"
+  ],
+  "candidates_full": [
+    {
+      "alpha": "C",
+      "year": "1981",
+      "num": "22",
+      "yr_num": "1981/22",
+      "title": "Chiefs (Recognition) (No. 2) Order, 1981",
+      "url": "https://zambialii.org/akn/zm/act/si/1981/22"
+    },
+    {
+      "alpha": "C",
+      "year": "1981",
+      "num": "23",
+      "yr_num": "1981/23",
+      "title": "Chiefs (Recognition) (No. 3) Order, 1981",
+      "url": "https://zambialii.org/akn/zm/act/si/1981/23"
+    },
+    {
+      "alpha": "C",
+      "year": "1981",
+      "num": "24",
+      "yr_num": "1981/24",
+      "title": "Chiefs (Recognition) (No. 4) Order, 1981",
+      "url": "https://zambialii.org/akn/zm/act/si/1981/24"
+    },
+    {
+      "alpha": "C",
+      "year": "1981",
+      "num": "25",
+      "yr_num": "1981/25",
+      "title": "Chiefs (Recognition) (No. 5) Order, 1981",
+      "url": "https://zambialii.org/akn/zm/act/si/1981/25"
+    },
+    {
+      "alpha": "C",
+      "year": "1981",
+      "num": "26",
+      "yr_num": "1981/26",
+      "title": "Chiefs (Recognition) (No. 6) Order, 1981",
+      "url": "https://zambialii.org/akn/zm/act/si/1981/26"
+    },
+    {
+      "alpha": "C",
+      "year": "1982",
+      "num": "39",
+      "yr_num": "1982/39",
+      "title": "Chiefs (Recognition) Order, 1982",
+      "url": "https://zambialii.org/akn/zm/act/si/1982/39"
+    },
+    {
+      "alpha": "C",
+      "year": "1982",
+      "num": "31",
+      "yr_num": "1982/31",
+      "title": "Chiefs (Withdrawal of Recognition) Order, 1982",
+      "url": "https://zambialii.org/akn/zm/act/si/1982/31"
+    },
+    {
+      "alpha": "C",
+      "year": "1986",
+      "num": "36",
+      "yr_num": "1986/36",
+      "title": "Chiefs (Recognition) (No. 3) Order, 1986",
+      "url": "https://zambialii.org/akn/zm/act/si/1986/36"
+    },
+    {
+      "alpha": "C",
+      "year": "1988",
+      "num": "47",
+      "yr_num": "1988/47",
+      "title": "Chiefs (Recognition) Order, 1988",
+      "url": "https://zambialii.org/akn/zm/act/si/1988/47"
+    },
+    {
+      "alpha": "C",
+      "year": "1988",
+      "num": "8",
+      "yr_num": "1988/8",
+      "title": "Chiefs (Recognition) Order, 1988",
+      "url": "https://zambialii.org/akn/zm/act/si/1988/8"
+    },
+    {
+      "alpha": "C",
+      "year": "1988",
+      "num": "9",
+      "yr_num": "1988/9",
+      "title": "Chiefs (Recognition) (No. 2) Order, 1988",
+      "url": "https://zambialii.org/akn/zm/act/si/1988/9"
+    },
+    {
+      "alpha": "C",
+      "year": "1988",
+      "num": "10",
+      "yr_num": "1988/10",
+      "title": "Chiefs (Recognition) (No. 3) Order, 1988",
+      "url": "https://zambialii.org/akn/zm/act/si/1988/10"
+    },
+    {
+      "alpha": "C",
+      "year": "1988",
+      "num": "11",
+      "yr_num": "1988/11",
+      "title": "Chiefs (Recognition) (No. 4) Order, 1988",
+      "url": "https://zambialii.org/akn/zm/act/si/1988/11"
+    },
+    {
+      "alpha": "C",
+      "year": "1988",
+      "num": "12",
+      "yr_num": "1988/12",
+      "title": "Chiefs (Recognition) (No. 5) Order, 1988",
+      "url": "https://zambialii.org/akn/zm/act/si/1988/12"
+    },
+    {
+      "alpha": "C",
+      "year": "1988",
+      "num": "13",
+      "yr_num": "1988/13",
+      "title": "Chiefs (Recognition) (No. 6) Order, 1988",
+      "url": "https://zambialii.org/akn/zm/act/si/1988/13"
+    },
+    {
+      "alpha": "C",
+      "year": "1988",
+      "num": "14",
+      "yr_num": "1988/14",
+      "title": "Chiefs (Recognition) (No. 7) Order, 1988",
+      "url": "https://zambialii.org/akn/zm/act/si/1988/14"
+    },
+    {
+      "alpha": "C",
+      "year": "1988",
+      "num": "15",
+      "yr_num": "1988/15",
+      "title": "Chiefs (Recognition) (No. 8) Order, 1988",
+      "url": "https://zambialii.org/akn/zm/act/si/1988/15"
+    },
+    {
+      "alpha": "C",
+      "year": "1988",
+      "num": "16",
+      "yr_num": "1988/16",
+      "title": "Chiefs (Recognition) (No. 9) Order, 1988",
+      "url": "https://zambialii.org/akn/zm/act/si/1988/16"
+    },
+    {
+      "alpha": "C",
+      "year": "1989",
+      "num": "36",
+      "yr_num": "1989/36",
+      "title": "Chiefs (Recognition) (No. 2) Order, 1989",
+      "url": "https://zambialii.org/akn/zm/act/si/1989/36"
+    },
+    {
+      "alpha": "C",
+      "year": "1989",
+      "num": "41",
+      "yr_num": "1989/41",
+      "title": "Chiefs (Recognition) (No. 6) Order, 1989",
+      "url": "https://zambialii.org/akn/zm/act/si/1989/41"
+    },
+    {
+      "alpha": "C",
+      "year": "1989",
+      "num": "35",
+      "yr_num": "1989/35",
+      "title": "Chiefs (Recognition) Order, 1989",
+      "url": "https://zambialii.org/akn/zm/act/si/1989/35"
+    },
+    {
+      "alpha": "C",
+      "year": "1989",
+      "num": "43",
+      "yr_num": "1989/43",
+      "title": "Chiefs (Recognition) (No. 8) Order, 1989",
+      "url": "https://zambialii.org/akn/zm/act/si/1989/43"
+    },
+    {
+      "alpha": "C",
+      "year": "1989",
+      "num": "37",
+      "yr_num": "1989/37",
+      "title": "Chiefs (Recognition) (No. 3) Order, 1989",
+      "url": "https://zambialii.org/akn/zm/act/si/1989/37"
+    },
+    {
+      "alpha": "C",
+      "year": "1989",
+      "num": "38",
+      "yr_num": "1989/38",
+      "title": "Chiefs (Recognition) (No. 4) Order, 1989",
+      "url": "https://zambialii.org/akn/zm/act/si/1989/38"
+    },
+    {
+      "alpha": "C",
+      "year": "1989",
+      "num": "39",
+      "yr_num": "1989/39",
+      "title": "Chiefs (Recognition) (No. 5) Order, 1989",
+      "url": "https://zambialii.org/akn/zm/act/si/1989/39"
+    },
+    {
+      "alpha": "C",
+      "year": "1989",
+      "num": "42",
+      "yr_num": "1989/42",
+      "title": "Chiefs (Recognition) (No. 7) Order, 1989",
+      "url": "https://zambialii.org/akn/zm/act/si/1989/42"
+    },
+    {
+      "alpha": "C",
+      "year": "1989",
+      "num": "44",
+      "yr_num": "1989/44",
+      "title": "Chiefs (Recognition) (No. 9) Order, 1989",
+      "url": "https://zambialii.org/akn/zm/act/si/1989/44"
+    },
+    {
+      "alpha": "C",
+      "year": "1990",
+      "num": "38",
+      "yr_num": "1990/38",
+      "title": "Chiefs (Recognition) (No. 5) Order, 1990",
+      "url": "https://zambialii.org/akn/zm/act/si/1990/38"
+    },
+    {
+      "alpha": "C",
+      "year": "1990",
+      "num": "21",
+      "yr_num": "1990/21",
+      "title": "Chiefs (Recognition) Order, 1990",
+      "url": "https://zambialii.org/akn/zm/act/si/1990/21"
+    },
+    {
+      "alpha": "C",
+      "year": "1990",
+      "num": "22",
+      "yr_num": "1990/22",
+      "title": "Chiefs (Recognition) (No. 2) Order, 1990",
+      "url": "https://zambialii.org/akn/zm/act/si/1990/22"
+    },
+    {
+      "alpha": "C",
+      "year": "1990",
+      "num": "23",
+      "yr_num": "1990/23",
+      "title": "Chiefs (Recognition) (No. 3) Order, 1990",
+      "url": "https://zambialii.org/akn/zm/act/si/1990/23"
+    },
+    {
+      "alpha": "C",
+      "year": "1990",
+      "num": "24",
+      "yr_num": "1990/24",
+      "title": "Chiefs (Recognition) (No. 4) Order, 1990",
+      "url": "https://zambialii.org/akn/zm/act/si/1990/24"
+    },
+    {
+      "alpha": "C",
+      "year": "1992",
+      "num": "1",
+      "yr_num": "1992/1",
+      "title": "Chiefs (Recognition) Order, 1992",
+      "url": "https://zambialii.org/akn/zm/act/si/1992/1"
+    },
+    {
+      "alpha": "C",
+      "year": "1994",
+      "num": "37",
+      "yr_num": "1994/37",
+      "title": "Chiefs (Recognition) Order, 1994",
+      "url": "https://zambialii.org/akn/zm/act/si/1994/37"
+    },
+    {
+      "alpha": "C",
+      "year": "1996",
+      "num": "6",
+      "yr_num": "1996/6",
+      "title": "Chiefs (Withdrawal of Recognition) Order, 1996",
+      "url": "https://zambialii.org/akn/zm/act/si/1996/6"
+    },
+    {
+      "alpha": "C",
+      "year": "1996",
+      "num": "7",
+      "yr_num": "1996/7",
+      "title": "Deputy Chief (Recognition) Order, 1996",
+      "url": "https://zambialii.org/akn/zm/act/si/1996/7"
+    },
+    {
+      "alpha": "C",
+      "year": "1996",
+      "num": "8",
+      "yr_num": "1996/8",
+      "title": "Chiefs (Recognition) Order, 1996",
+      "url": "https://zambialii.org/akn/zm/act/si/1996/8"
+    },
+    {
+      "alpha": "C",
+      "year": "1996",
+      "num": "29",
+      "yr_num": "1996/29",
+      "title": "Chiefs (Recognition) (No. 2) Order, 1996",
+      "url": "https://zambialii.org/akn/zm/act/si/1996/29"
+    },
+    {
+      "alpha": "C",
+      "year": "1991",
+      "num": "34",
+      "yr_num": "1991/34",
+      "title": "Chiefs (Recognition) (No. 6) Order, 1991",
+      "url": "https://zambialii.org/akn/zm/act/si/1991/34"
+    },
+    {
+      "alpha": "C",
+      "year": "1991",
+      "num": "45",
+      "yr_num": "1991/45",
+      "title": "Chiefs (Recognition) (No. 7) Order, 1991",
+      "url": "https://zambialii.org/akn/zm/act/si/1991/45"
+    },
+    {
+      "alpha": "C",
+      "year": "1991",
+      "num": "46",
+      "yr_num": "1991/46",
+      "title": "Chiefs (Recognition) (No. 8) Order, 1991",
+      "url": "https://zambialii.org/akn/zm/act/si/1991/46"
+    },
+    {
+      "alpha": "C",
+      "year": "1991",
+      "num": "18",
+      "yr_num": "1991/18",
+      "title": "Chiefs (Recognition) (No. 5) Order, 1991",
+      "url": "https://zambialii.org/akn/zm/act/si/1991/18"
+    },
+    {
+      "alpha": "C",
+      "year": "1991",
+      "num": "4",
+      "yr_num": "1991/4",
+      "title": "Chiefs (Recognition) (No. 4) Order, 1991",
+      "url": "https://zambialii.org/akn/zm/act/si/1991/4"
+    },
+    {
+      "alpha": "C",
+      "year": "1991",
+      "num": "3",
+      "yr_num": "1991/3",
+      "title": "Chiefs (Recognition) (No. 3) Order, 1991",
+      "url": "https://zambialii.org/akn/zm/act/si/1991/3"
+    },
+    {
+      "alpha": "C",
+      "year": "1991",
+      "num": "2",
+      "yr_num": "1991/2",
+      "title": "Chiefs (Recognition) (No. 2) Order, 1991",
+      "url": "https://zambialii.org/akn/zm/act/si/1991/2"
+    },
+    {
+      "alpha": "C",
+      "year": "1991",
+      "num": "1",
+      "yr_num": "1991/1",
+      "title": "Chiefs (Recognition) Order, 1991",
+      "url": "https://zambialii.org/akn/zm/act/si/1991/1"
+    },
+    {
+      "alpha": "C",
+      "year": "1996",
+      "num": "42",
+      "yr_num": "1996/42",
+      "title": "Chiefs (Recognition) (No. 4) Order, 1996",
+      "url": "https://zambialii.org/akn/zm/act/si/1996/42"
+    },
+    {
+      "alpha": "C",
+      "year": "1996",
+      "num": "43",
+      "yr_num": "1996/43",
+      "title": "Chiefs (Recognition) (No. 5) Order, 1996",
+      "url": "https://zambialii.org/akn/zm/act/si/1996/43"
+    },
+    {
+      "alpha": "C",
+      "year": "1998",
+      "num": "6",
+      "yr_num": "1998/6",
+      "title": "Chiefs (Recognition) (No. 4) Order, 1998",
+      "url": "https://zambialii.org/akn/zm/act/si/1998/6"
+    },
+    {
+      "alpha": "C",
+      "year": "1998",
+      "num": "3",
+      "yr_num": "1998/3",
+      "title": "Chiefs (Recognition) Order, 1998",
+      "url": "https://zambialii.org/akn/zm/act/si/1998/3"
+    },
+    {
+      "alpha": "C",
+      "year": "1998",
+      "num": "4",
+      "yr_num": "1998/4",
+      "title": "Chiefs (Recognition) (No. 2) Order, 1998",
+      "url": "https://zambialii.org/akn/zm/act/si/1998/4"
+    },
+    {
+      "alpha": "C",
+      "year": "1998",
+      "num": "5",
+      "yr_num": "1998/5",
+      "title": "Chiefs (Recognition) (No. 3) Order, 1998",
+      "url": "https://zambialii.org/akn/zm/act/si/1998/5"
+    },
+    {
+      "alpha": "C",
+      "year": "1998",
+      "num": "7",
+      "yr_num": "1998/7",
+      "title": "Chiefs (Recognition) (No. 5) Order, 1998",
+      "url": "https://zambialii.org/akn/zm/act/si/1998/7"
+    },
+    {
+      "alpha": "C",
+      "year": "1999",
+      "num": "4",
+      "yr_num": "1999/4",
+      "title": "Chiefs (Recognition) Order, 1999",
+      "url": "https://zambialii.org/akn/zm/act/si/1999/4"
+    },
+    {
+      "alpha": "C",
+      "year": "1999",
+      "num": "5",
+      "yr_num": "1999/5",
+      "title": "Chiefs (Recognition) (No. 2) Order, 1999",
+      "url": "https://zambialii.org/akn/zm/act/si/1999/5"
+    },
+    {
+      "alpha": "C",
+      "year": "1999",
+      "num": "6",
+      "yr_num": "1999/6",
+      "title": "Chiefs (Recognition) (No. 3) Order, 1999",
+      "url": "https://zambialii.org/akn/zm/act/si/1999/6"
+    },
+    {
+      "alpha": "C",
+      "year": "1999",
+      "num": "7",
+      "yr_num": "1999/7",
+      "title": "Chiefs (Recognition) (No. 4) Order, 1999",
+      "url": "https://zambialii.org/akn/zm/act/si/1999/7"
+    },
+    {
+      "alpha": "C",
+      "year": "1999",
+      "num": "11",
+      "yr_num": "1999/11",
+      "title": "Chiefs (Withdrawal of Recognition) Order, 1999",
+      "url": "https://zambialii.org/akn/zm/act/si/1999/11"
+    },
+    {
+      "alpha": "C",
+      "year": "1999",
+      "num": "23",
+      "yr_num": "1999/23",
+      "title": "Chiefs (Withdrawal of Recognition) (No. 5) Order, 1999",
+      "url": "https://zambialii.org/akn/zm/act/si/1999/23"
+    },
+    {
+      "alpha": "C",
+      "year": "1999",
+      "num": "43",
+      "yr_num": "1999/43",
+      "title": "Chiefs (Recognition) (No. 7) Order, 1999",
+      "url": "https://zambialii.org/akn/zm/act/si/1999/43"
+    },
+    {
+      "alpha": "C",
+      "year": "1999",
+      "num": "22",
+      "yr_num": "1999/22",
+      "title": "Chiefs (Withdrawal of Recognition) (No. 2) Order, 1999",
+      "url": "https://zambialii.org/akn/zm/act/si/1999/22"
+    },
+    {
+      "alpha": "C",
+      "year": "1999",
+      "num": "25",
+      "yr_num": "1999/25",
+      "title": "Chiefs (Recognition) (No. 6) Order, 1999",
+      "url": "https://zambialii.org/akn/zm/act/si/1999/25"
+    },
+    {
+      "alpha": "C",
+      "year": "2000",
+      "num": "23",
+      "yr_num": "2000/23",
+      "title": "Chiefs (Recognition) Order, 2000",
+      "url": "https://zambialii.org/akn/zm/act/si/2000/23"
+    },
+    {
+      "alpha": "C",
+      "year": "2001",
+      "num": "18",
+      "yr_num": "2001/18",
+      "title": "Chiefs (Recognition) Order, 2001",
+      "url": "https://zambialii.org/akn/zm/act/si/2001/18"
+    },
+    {
+      "alpha": "C",
+      "year": "2001",
+      "num": "19",
+      "yr_num": "2001/19",
+      "title": "Chiefs (Recognition) (No. 2) Order, 2001",
+      "url": "https://zambialii.org/akn/zm/act/si/2001/19"
+    },
+    {
+      "alpha": "C",
+      "year": "2001",
+      "num": "20",
+      "yr_num": "2001/20",
+      "title": "Chiefs (Recognition) (No. 3) Order, 2001",
+      "url": "https://zambialii.org/akn/zm/act/si/2001/20"
+    },
+    {
+      "alpha": "C",
+      "year": "2001",
+      "num": "28",
+      "yr_num": "2001/28",
+      "title": "Chiefs (Recognition) (No. 5) Order, 2001",
+      "url": "https://zambialii.org/akn/zm/act/si/2001/28"
+    },
+    {
+      "alpha": "C",
+      "year": "2001",
+      "num": "33",
+      "yr_num": "2001/33",
+      "title": "Chiefs (Recognition) (No. 6) Order, 2001",
+      "url": "https://zambialii.org/akn/zm/act/si/2001/33"
+    },
+    {
+      "alpha": "C",
+      "year": "2001",
+      "num": "34",
+      "yr_num": "2001/34",
+      "title": "Chiefs (Recognition) (No. 7) Order, 2001",
+      "url": "https://zambialii.org/akn/zm/act/si/2001/34"
+    },
+    {
+      "alpha": "C",
+      "year": "2002",
+      "num": "9",
+      "yr_num": "2002/9",
+      "title": "Chiefs (Recognition) Order, 2002",
+      "url": "https://zambialii.org/akn/zm/act/si/2002/9"
+    },
+    {
+      "alpha": "C",
+      "year": "2002",
+      "num": "10",
+      "yr_num": "2002/10",
+      "title": "Chiefs (Recognition) (No. 2) Order 2002",
+      "url": "https://zambialii.org/akn/zm/act/si/2002/10"
+    },
+    {
+      "alpha": "C",
+      "year": "2003",
+      "num": "24",
+      "yr_num": "2003/24",
+      "title": "Chiefs (Recognition) (No. 2) Order, 2003",
+      "url": "https://zambialii.org/akn/zm/act/si/2003/24"
+    },
+    {
+      "alpha": "C",
+      "year": "2003",
+      "num": "25",
+      "yr_num": "2003/25",
+      "title": "Chiefs (Recognition) (No. 3) Order, 2003",
+      "url": "https://zambialii.org/akn/zm/act/si/2003/25"
+    },
+    {
+      "alpha": "C",
+      "year": "2003",
+      "num": "45",
+      "yr_num": "2003/45",
+      "title": "Chiefs (Recognition) (No. 7) Order, 2003",
+      "url": "https://zambialii.org/akn/zm/act/si/2003/45"
+    },
+    {
+      "alpha": "C",
+      "year": "2003",
+      "num": "4",
+      "yr_num": "2003/4",
+      "title": "Chiefs (Recognition) Order, 2003",
+      "url": "https://zambialii.org/akn/zm/act/si/2003/4"
+    },
+    {
+      "alpha": "C",
+      "year": "2003",
+      "num": "5",
+      "yr_num": "2003/5",
+      "title": "Chiefs (Withdrawal of Recognition) Order, 2003",
+      "url": "https://zambialii.org/akn/zm/act/si/2003/5"
+    },
+    {
+      "alpha": "C",
+      "year": "2003",
+      "num": "29",
+      "yr_num": "2003/29",
+      "title": "Chiefs (Recognition) (No.4) Order, 2003",
+      "url": "https://zambialii.org/akn/zm/act/si/2003/29"
+    },
+    {
+      "alpha": "C",
+      "year": "2003",
+      "num": "39",
+      "yr_num": "2003/39",
+      "title": "Chiefs (Recognition) (No. 6) Order, 2003",
+      "url": "https://zambialii.org/akn/zm/act/si/2003/39"
+    },
+    {
+      "alpha": "C",
+      "year": "2004",
+      "num": "30",
+      "yr_num": "2004/30",
+      "title": "Chiefs (Recognition) (No. 6) Order, 2004",
+      "url": "https://zambialii.org/akn/zm/act/si/2004/30"
+    },
+    {
+      "alpha": "C",
+      "year": "2004",
+      "num": "31",
+      "yr_num": "2004/31",
+      "title": "Chiefs (Recognition) (No. 7) Order, 2004",
+      "url": "https://zambialii.org/akn/zm/act/si/2004/31"
+    },
+    {
+      "alpha": "C",
+      "year": "2004",
+      "num": "51",
+      "yr_num": "2004/51",
+      "title": "Chiefs (Recognition) (No. 8) Order, 2004",
+      "url": "https://zambialii.org/akn/zm/act/si/2004/51"
+    },
+    {
+      "alpha": "C",
+      "year": "2004",
+      "num": "1",
+      "yr_num": "2004/1",
+      "title": "Chiefs (Recognition) Order, 2004",
+      "url": "https://zambialii.org/akn/zm/act/si/2004/1"
+    },
+    {
+      "alpha": "C",
+      "year": "2004",
+      "num": "2",
+      "yr_num": "2004/2",
+      "title": "Chiefs (Recognition) (No. 2) Order, 2004",
+      "url": "https://zambialii.org/akn/zm/act/si/2004/2"
+    },
+    {
+      "alpha": "C",
+      "year": "2004",
+      "num": "4",
+      "yr_num": "2004/4",
+      "title": "Chiefs (Recognition) (No. 3) Order, 2004",
+      "url": "https://zambialii.org/akn/zm/act/si/2004/4"
+    },
+    {
+      "alpha": "C",
+      "year": "2004",
+      "num": "5",
+      "yr_num": "2004/5",
+      "title": "Chiefs (Recognition) (No. 4) Order, 2004",
+      "url": "https://zambialii.org/akn/zm/act/si/2004/5"
+    },
+    {
+      "alpha": "C",
+      "year": "2004",
+      "num": "6",
+      "yr_num": "2004/6",
+      "title": "Chiefs (Withdrawal of Recognition) Order, 2004",
+      "url": "https://zambialii.org/akn/zm/act/si/2004/6"
+    },
+    {
+      "alpha": "C",
+      "year": "2005",
+      "num": "34",
+      "yr_num": "2005/34",
+      "title": "Chiefs (Recognition) (No. 2) Order, 2005",
+      "url": "https://zambialii.org/akn/zm/act/si/2005/34"
+    },
+    {
+      "alpha": "C",
+      "year": "2005",
+      "num": "45",
+      "yr_num": "2005/45",
+      "title": "Chiefs (Recognition) (No. 4) Order, 2005",
+      "url": "https://zambialii.org/akn/zm/act/si/2005/45"
+    },
+    {
+      "alpha": "C",
+      "year": "2005",
+      "num": "47",
+      "yr_num": "2005/47",
+      "title": "Chiefs (Recognition) (No. 6) Order, 2005",
+      "url": "https://zambialii.org/akn/zm/act/si/2005/47"
+    },
+    {
+      "alpha": "C",
+      "year": "2005",
+      "num": "48",
+      "yr_num": "2005/48",
+      "title": "Chiefs (Recognition) (No. 7) Order, 2005",
+      "url": "https://zambialii.org/akn/zm/act/si/2005/48"
+    },
+    {
+      "alpha": "C",
+      "year": "2005",
+      "num": "49",
+      "yr_num": "2005/49",
+      "title": "Chiefs (Recognition) (No. 8) Order, 2005",
+      "url": "https://zambialii.org/akn/zm/act/si/2005/49"
+    },
+    {
+      "alpha": "C",
+      "year": "2005",
+      "num": "50",
+      "yr_num": "2005/50",
+      "title": "Chiefs (Recognition) (No, 9) Order, 2005",
+      "url": "https://zambialii.org/akn/zm/act/si/2005/50"
+    },
+    {
+      "alpha": "C",
+      "year": "2005",
+      "num": "18",
+      "yr_num": "2005/18",
+      "title": "Chiefs (Recognition) Order, 2005",
+      "url": "https://zambialii.org/akn/zm/act/si/2005/18"
+    },
+    {
+      "alpha": "C",
+      "year": "2006",
+      "num": "33",
+      "yr_num": "2006/33",
+      "title": "Chiefs (Recognition) Order, 2006",
+      "url": "https://zambialii.org/akn/zm/act/si/2006/33"
+    },
+    {
+      "alpha": "C",
+      "year": "2006",
+      "num": "34",
+      "yr_num": "2006/34",
+      "title": "Chiefs (Recognition) (No. 2) Order, 2006",
+      "url": "https://zambialii.org/akn/zm/act/si/2006/34"
+    },
+    {
+      "alpha": "C",
+      "year": "2006",
+      "num": "36",
+      "yr_num": "2006/36",
+      "title": "Chiefs (Recognition) (No. 4) Order, 2006",
+      "url": "https://zambialii.org/akn/zm/act/si/2006/36"
+    },
+    {
+      "alpha": "C",
+      "year": "2006",
+      "num": "38",
+      "yr_num": "2006/38",
+      "title": "Chiefs (Recognition) (No. 6) Order, 2006",
+      "url": "https://zambialii.org/akn/zm/act/si/2006/38"
+    },
+    {
+      "alpha": "C",
+      "year": "2006",
+      "num": "39",
+      "yr_num": "2006/39",
+      "title": "Chiefs (Recognition) (No. 7) Order, 2006",
+      "url": "https://zambialii.org/akn/zm/act/si/2006/39"
+    },
+    {
+      "alpha": "C",
+      "year": "2006",
+      "num": "20",
+      "yr_num": "2006/20",
+      "title": "Chiefs (Withdrawal of Recognition) Order, 2006",
+      "url": "https://zambialii.org/akn/zm/act/si/2006/20"
+    },
+    {
+      "alpha": "C",
+      "year": "2007",
+      "num": "11",
+      "yr_num": "2007/11",
+      "title": "Chiefs (Recognition) (No.1) Order, 2007",
+      "url": "https://zambialii.org/akn/zm/act/si/2007/11"
+    },
+    {
+      "alpha": "C",
+      "year": "2007",
+      "num": "24",
+      "yr_num": "2007/24",
+      "title": "Chiefs (Recognition) (No. 2) Order, 2007",
+      "url": "https://zambialii.org/akn/zm/act/si/2007/24"
+    },
+    {
+      "alpha": "C",
+      "year": "2007",
+      "num": "36",
+      "yr_num": "2007/36",
+      "title": "Chiefs (Recognition) (No. 3) Order, 2007",
+      "url": "https://zambialii.org/akn/zm/act/si/2007/36"
+    },
+    {
+      "alpha": "C",
+      "year": "2007",
+      "num": "53",
+      "yr_num": "2007/53",
+      "title": "Chiefs (Withdrawal of Recognition) Order, 2007",
+      "url": "https://zambialii.org/akn/zm/act/si/2007/53"
+    },
+    {
+      "alpha": "C",
+      "year": "2007",
+      "num": "54",
+      "yr_num": "2007/54",
+      "title": "Chiefs (Recognition) (No. 4) Order, 2007",
+      "url": "https://zambialii.org/akn/zm/act/si/2007/54"
+    },
+    {
+      "alpha": "C",
+      "year": "2008",
+      "num": "27",
+      "yr_num": "2008/27",
+      "title": "Chiefs (Recognition) Order, 2008",
+      "url": "https://zambialii.org/akn/zm/act/si/2008/27"
+    },
+    {
+      "alpha": "C",
+      "year": "2008",
+      "num": "28",
+      "yr_num": "2008/28",
+      "title": "Chiefs (Recognition) (No. 2) Order, 2008",
+      "url": "https://zambialii.org/akn/zm/act/si/2008/28"
+    },
+    {
+      "alpha": "C",
+      "year": "2008",
+      "num": "29",
+      "yr_num": "2008/29",
+      "title": "Chiefs (Recognition) (No. 3) Order, 2008",
+      "url": "https://zambialii.org/akn/zm/act/si/2008/29"
+    },
+    {
+      "alpha": "C",
+      "year": "2008",
+      "num": "43",
+      "yr_num": "2008/43",
+      "title": "Chiefs (Recognition) (No. 4) Order, 2008",
+      "url": "https://zambialii.org/akn/zm/act/si/2008/43"
+    },
+    {
+      "alpha": "C",
+      "year": "2009",
+      "num": "14",
+      "yr_num": "2009/14",
+      "title": "Chiefs (Recognition) Order, 2009",
+      "url": "https://zambialii.org/akn/zm/act/si/2009/14"
+    },
+    {
+      "alpha": "C",
+      "year": "2009",
+      "num": "15",
+      "yr_num": "2009/15",
+      "title": "Chiefs (Recognition) (No. 2) Order, 2009",
+      "url": "https://zambialii.org/akn/zm/act/si/2009/15"
+    },
+    {
+      "alpha": "C",
+      "year": "2009",
+      "num": "19",
+      "yr_num": "2009/19",
+      "title": "Chiefs (Withdrawal of Recognition) Order, 2009",
+      "url": "https://zambialii.org/akn/zm/act/si/2009/19"
+    },
+    {
+      "alpha": "C",
+      "year": "2009",
+      "num": "32",
+      "yr_num": "2009/32",
+      "title": "Chiefs (Recognition) (No. 3) Order, 2009",
+      "url": "https://zambialii.org/akn/zm/act/si/2009/32"
+    },
+    {
+      "alpha": "C",
+      "year": "2009",
+      "num": "40",
+      "yr_num": "2009/40",
+      "title": "Chiefs (Recognition) (No. 4) Order, 2009",
+      "url": "https://zambialii.org/akn/zm/act/si/2009/40"
+    },
+    {
+      "alpha": "C",
+      "year": "2009",
+      "num": "43",
+      "yr_num": "2009/43",
+      "title": "Chiefs (Recognition) (No. 6) Order, 2009",
+      "url": "https://zambialii.org/akn/zm/act/si/2009/43"
+    },
+    {
+      "alpha": "C",
+      "year": "2010",
+      "num": "7",
+      "yr_num": "2010/7",
+      "title": "Chiefs (Recognition) Order, 2010",
+      "url": "https://zambialii.org/akn/zm/act/si/2010/7"
+    },
+    {
+      "alpha": "C",
+      "year": "2010",
+      "num": "8",
+      "yr_num": "2010/8",
+      "title": "Chiefs (Recognition) (No. 2) Order, 2010",
+      "url": "https://zambialii.org/akn/zm/act/si/2010/8"
+    },
+    {
+      "alpha": "C",
+      "year": "2010",
+      "num": "9",
+      "yr_num": "2010/9",
+      "title": "Chiefs (Recognition) (No. 3) Order, 2010",
+      "url": "https://zambialii.org/akn/zm/act/si/2010/9"
+    },
+    {
+      "alpha": "C",
+      "year": "2010",
+      "num": "10",
+      "yr_num": "2010/10",
+      "title": "Chiefs (Recognition) (No. 4) Order, 2010",
+      "url": "https://zambialii.org/akn/zm/act/si/2010/10"
+    },
+    {
+      "alpha": "C",
+      "year": "1986",
+      "num": "34",
+      "yr_num": "1986/34",
+      "title": "Chiefs (Recognition) Order, 1986",
+      "url": "https://zambialii.org/akn/zm/act/si/1986/34"
+    },
+    {
+      "alpha": "C",
+      "year": "1986",
+      "num": "35",
+      "yr_num": "1986/35",
+      "title": "Chiefs (Recognition) (No. 2) Order, 1986",
+      "url": "https://zambialii.org/akn/zm/act/si/1986/35"
+    },
+    {
+      "alpha": "C",
+      "year": "1986",
+      "num": "40",
+      "yr_num": "1986/40",
+      "title": "Chiefs (Recognition) (No. 4) Order, 1986",
+      "url": "https://zambialii.org/akn/zm/act/si/1986/40"
+    },
+    {
+      "alpha": "C",
+      "year": "1986",
+      "num": "41",
+      "yr_num": "1986/41",
+      "title": "Chiefs (Recognition) (No. 5) Order, 1986",
+      "url": "https://zambialii.org/akn/zm/act/si/1986/41"
+    },
+    {
+      "alpha": "C",
+      "year": "2011",
+      "num": "27",
+      "yr_num": "2011/27",
+      "title": "Chiefs (Recognition) Order, 2011",
+      "url": "https://zambialii.org/akn/zm/act/si/2011/27"
+    },
+    {
+      "alpha": "C",
+      "year": "2011",
+      "num": "28",
+      "yr_num": "2011/28",
+      "title": "Chiefs (Recognition) (No.2) Order, 2011",
+      "url": "https://zambialii.org/akn/zm/act/si/2011/28"
+    },
+    {
+      "alpha": "C",
+      "year": "2011",
+      "num": "29",
+      "yr_num": "2011/29",
+      "title": "Chiefs (Recognition) (No.3) Order, 2011",
+      "url": "https://zambialii.org/akn/zm/act/si/2011/29"
+    },
+    {
+      "alpha": "C",
+      "year": "2012",
+      "num": "9",
+      "yr_num": "2012/9",
+      "title": "Chiefs (Recognition) (No. 2) Order, 2012",
+      "url": "https://zambialii.org/akn/zm/act/si/2012/9"
+    },
+    {
+      "alpha": "C",
+      "year": "2012",
+      "num": "10",
+      "yr_num": "2012/10",
+      "title": "Chiefs (Recognition) (No. 3) Order, 2012",
+      "url": "https://zambialii.org/akn/zm/act/si/2012/10"
+    },
+    {
+      "alpha": "C",
+      "year": "2012",
+      "num": "12",
+      "yr_num": "2012/12",
+      "title": "Chiefs (Recognition) (No. 4) Order, 2012",
+      "url": "https://zambialii.org/akn/zm/act/si/2012/12"
+    },
+    {
+      "alpha": "C",
+      "year": "2012",
+      "num": "13",
+      "yr_num": "2012/13",
+      "title": "Chiefs (Recognition) (No. 5) Order, 2012",
+      "url": "https://zambialii.org/akn/zm/act/si/2012/13"
+    },
+    {
+      "alpha": "C",
+      "year": "2012",
+      "num": "1",
+      "yr_num": "2012/1",
+      "title": "Chiefs (Recognition) Order, 2012",
+      "url": "https://zambialii.org/akn/zm/act/si/2012/1"
+    },
+    {
+      "alpha": "C",
+      "year": "2012",
+      "num": "25",
+      "yr_num": "2012/25",
+      "title": "Chiefs (Recognition) (No. 6) Order, 2012",
+      "url": "https://zambialii.org/akn/zm/act/si/2012/25"
+    },
+    {
+      "alpha": "C",
+      "year": "2013",
+      "num": "19",
+      "yr_num": "2013/19",
+      "title": "Chiefs (Recognition) Order, 2013",
+      "url": "https://zambialii.org/akn/zm/act/si/2013/19"
+    },
+    {
+      "alpha": "C",
+      "year": "2013",
+      "num": "22",
+      "yr_num": "2013/22",
+      "title": "Chiefs (Recognition) (No. 2) Order, 2013",
+      "url": "https://zambialii.org/akn/zm/act/si/2013/22"
+    },
+    {
+      "alpha": "C",
+      "year": "2013",
+      "num": "23",
+      "yr_num": "2013/23",
+      "title": "Chiefs (Recognition) (No. 3) Order, 2013",
+      "url": "https://zambialii.org/akn/zm/act/si/2013/23"
+    },
+    {
+      "alpha": "C",
+      "year": "2013",
+      "num": "24",
+      "yr_num": "2013/24",
+      "title": "Chiefs (Recognition) (No. 4) Order, 2013",
+      "url": "https://zambialii.org/akn/zm/act/si/2013/24"
+    },
+    {
+      "alpha": "C",
+      "year": "2013",
+      "num": "25",
+      "yr_num": "2013/25",
+      "title": "Chiefs (Withdrawal of Recognition) Order, 2013",
+      "url": "https://zambialii.org/akn/zm/act/si/2013/25"
+    },
+    {
+      "alpha": "C",
+      "year": "2013",
+      "num": "34",
+      "yr_num": "2013/34",
+      "title": "Chiefs (Withdrawal of Recognition) (No. 2) Order, 2013",
+      "url": "https://zambialii.org/akn/zm/act/si/2013/34"
+    },
+    {
+      "alpha": "C",
+      "year": "2013",
+      "num": "36",
+      "yr_num": "2013/36",
+      "title": "Chiefs (Recognition) (No. 5) Order, 2013",
+      "url": "https://zambialii.org/akn/zm/act/si/2013/36"
+    },
+    {
+      "alpha": "C",
+      "year": "2013",
+      "num": "43",
+      "yr_num": "2013/43",
+      "title": "Chiefs (Recognition) (No. 6) Order, 2013",
+      "url": "https://zambialii.org/akn/zm/act/si/2013/43"
+    },
+    {
+      "alpha": "C",
+      "year": "2013",
+      "num": "45",
+      "yr_num": "2013/45",
+      "title": "Chiefs (Recognition) (No. 7) Order, 2013",
+      "url": "https://zambialii.org/akn/zm/act/si/2013/45"
+    },
+    {
+      "alpha": "C",
+      "year": "2013",
+      "num": "46",
+      "yr_num": "2013/46",
+      "title": "Chiefs (Recognition) (No. 8) Order, 2013",
+      "url": "https://zambialii.org/akn/zm/act/si/2013/46"
+    },
+    {
+      "alpha": "C",
+      "year": "2013",
+      "num": "47",
+      "yr_num": "2013/47",
+      "title": "Chiefs (Recognition) (No. 9) Order, 2013",
+      "url": "https://zambialii.org/akn/zm/act/si/2013/47"
+    },
+    {
+      "alpha": "C",
+      "year": "2013",
+      "num": "48",
+      "yr_num": "2013/48",
+      "title": "Chiefs (Recognition) (No. 10) Order, 2013",
+      "url": "https://zambialii.org/akn/zm/act/si/2013/48"
+    },
+    {
+      "alpha": "C",
+      "year": "2014",
+      "num": "13",
+      "yr_num": "2014/13",
+      "title": "Chiefs (Recognition) Order, 2014",
+      "url": "https://zambialii.org/akn/zm/act/si/2014/13"
+    },
+    {
+      "alpha": "C",
+      "year": "2014",
+      "num": "19",
+      "yr_num": "2014/19",
+      "title": "Chiefs (Recognition) (No. 2) Order, 2014",
+      "url": "https://zambialii.org/akn/zm/act/si/2014/19"
+    },
+    {
+      "alpha": "C",
+      "year": "2014",
+      "num": "23",
+      "yr_num": "2014/23",
+      "title": "Chiefs (Recognition) (No. 4) Order, 2014",
+      "url": "https://zambialii.org/akn/zm/act/si/2014/23"
+    },
+    {
+      "alpha": "C",
+      "year": "2014",
+      "num": "32",
+      "yr_num": "2014/32",
+      "title": "Chiefs (Recognition) (No. 5) Order, 2014",
+      "url": "https://zambialii.org/akn/zm/act/si/2014/32"
+    },
+    {
+      "alpha": "C",
+      "year": "2014",
+      "num": "33",
+      "yr_num": "2014/33",
+      "title": "Chiefs (Recognition) (No. 6) Order, 2014",
+      "url": "https://zambialii.org/akn/zm/act/si/2014/33"
+    },
+    {
+      "alpha": "C",
+      "year": "2014",
+      "num": "34",
+      "yr_num": "2014/34",
+      "title": "Chiefs (Recognition) (No. 7) Order, 2014",
+      "url": "https://zambialii.org/akn/zm/act/si/2014/34"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "3",
+      "yr_num": "2015/3",
+      "title": "Chiefs (Recognition) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/3"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "28",
+      "yr_num": "2015/28",
+      "title": "Chiefs (Recognition) (No. 2) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/28"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "29",
+      "yr_num": "2015/29",
+      "title": "Chiefs (Withdrawal of Recognition) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/29"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "43",
+      "yr_num": "2015/43",
+      "title": "Chiefs (Recognition) (No. 3) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/43"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "44",
+      "yr_num": "2015/44",
+      "title": "Chiefs (Recognition) (No. 4) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/44"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "45",
+      "yr_num": "2015/45",
+      "title": "Chiefs (Recognition) (No. 5) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/45"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "51",
+      "yr_num": "2015/51",
+      "title": "Chiefs (Withdrawal of Recognition) (No. 2) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/51"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "52",
+      "yr_num": "2015/52",
+      "title": "Chiefs (Withdrawal of Recognition) (No. 3) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/52"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "54",
+      "yr_num": "2015/54",
+      "title": "Chiefs (Recognition) (No. 7) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/54"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "55",
+      "yr_num": "2015/55",
+      "title": "Chiefs (Recognition) (No. 8) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/55"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "56",
+      "yr_num": "2015/56",
+      "title": "Chiefs (Recognition) (No. 9) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/56"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "57",
+      "yr_num": "2015/57",
+      "title": "Chiefs (Recognition) (No. 10) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/57"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "58",
+      "yr_num": "2015/58",
+      "title": "Chiefs (Recognition) (No. 11) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/58"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "59",
+      "yr_num": "2015/59",
+      "title": "Chiefs (Recognition) (No. 12) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/59"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "72",
+      "yr_num": "2015/72",
+      "title": "Chiefs (Recognition) (No. 13) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/72"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "97",
+      "yr_num": "2015/97",
+      "title": "Chiefs (Recognition) (No. 14) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/97"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "98",
+      "yr_num": "2015/98",
+      "title": "Chiefs (Withdrawal of Recognition) (No. 4) Order, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/98"
+    },
+    {
+      "alpha": "C",
+      "year": "2017",
+      "num": "1",
+      "yr_num": "2017/1",
+      "title": "Citizens Economic Empowerment (Reservation Scheme) Regulations, 2017",
+      "url": "https://zambialii.org/akn/zm/act/si/2017/1",
+      "_cat": "sis_tax"
+    },
+    {
+      "alpha": "C",
+      "year": "1993",
+      "num": "32",
+      "yr_num": "1993/32",
+      "title": "Declaration of Threatened State of Public Emergency: Proclamation",
+      "url": "https://zambialii.org/akn/zm/act/si/1993/32"
+    },
+    {
+      "alpha": "C",
+      "year": "1993",
+      "num": "36",
+      "yr_num": "1993/36",
+      "title": "Declaration of State of Public Emergency: Proclamation",
+      "url": "https://zambialii.org/akn/zm/act/si/1993/36"
+    },
+    {
+      "alpha": "C",
+      "year": "2002",
+      "num": "1",
+      "yr_num": "2002/1",
+      "title": "Proclamation No. 1 of 2002: First Session of the Ninth Parliament",
+      "url": "https://zambialii.org/akn/zm/act/si/2002/1"
+    },
+    {
+      "alpha": "C",
+      "year": "2003",
+      "num": "3",
+      "yr_num": "2003/3",
+      "title": "Proclamation No. 1 of 2003: Honours and Awards for the Republic of Zambia",
+      "url": "https://zambialii.org/akn/zm/act/si/2003/3"
+    },
+    {
+      "alpha": "C",
+      "year": "2014",
+      "num": "51",
+      "yr_num": "2014/51",
+      "title": "Honours and Awards Proclamation, 2014",
+      "url": "https://zambialii.org/akn/zm/act/si/2014/51"
+    },
+    {
+      "alpha": "C",
+      "year": "2017",
+      "num": "53",
+      "yr_num": "2017/53",
+      "title": "Constitution of Zambia Act\u2014Proclamation\u2014Declaration of Threatened State of Public Emergency",
+      "url": "https://zambialii.org/akn/zm/act/si/2017/53"
+    },
+    {
+      "alpha": "C",
+      "year": "2014",
+      "num": "47",
+      "yr_num": "2014/47",
+      "title": "Proclamation: Prorogation of Parliament, 2014",
+      "url": "https://zambialii.org/akn/zm/act/si/2014/47"
+    },
+    {
+      "alpha": "C",
+      "year": "2014",
+      "num": "48",
+      "yr_num": "2014/48",
+      "title": "Proclamation (No. 2): Summoning of Parliament, 2014",
+      "url": "https://zambialii.org/akn/zm/act/si/2014/48"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "64",
+      "yr_num": "2015/64",
+      "title": "Proclamation, 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/64"
+    },
+    {
+      "alpha": "C",
+      "year": "2015",
+      "num": "65",
+      "yr_num": "2015/65",
+      "title": "Proclamation (No. 2), 2015",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/65"
+    },
+    {
+      "alpha": "C",
+      "year": "1980",
+      "num": "12",
+      "yr_num": "1980/12",
+      "title": "Control of Goods (Price Control) (Traditional Beer Prices) Act, 1980",
+      "url": "https://zambialii.org/akn/zm/act/si/1980/12"
+    },
+    {
+      "alpha": "C",
+      "year": "1980",
+      "num": "31",
+      "yr_num": "1980/31",
+      "title": "Control of Goods (Price Control) (Wheat Flour and Bread Prices) Order, 1980",
+      "url": "https://zambialii.org/akn/zm/act/si/1980/31"
+    },
+    {
+      "alpha": "C",
+      "year": "1980",
+      "num": "33",
+      "yr_num": "1980/33",
+      "title": "Control of Goods (Price Control) (Candle Prices) Order, 1980",
+      "url": "https://zambialii.org/akn/zm/act/si/1980/33"
+    },
+    {
+      "alpha": "C",
+      "year": "1981",
+      "num": "16",
+      "yr_num": "1981/16",
+      "title": "Control of Goods (Import and Export) (Commerce) (Export Prohibition) Regulations, 1981",
+      "url": "https://zambialii.org/akn/zm/act/si/1981/16"
+    },
+    {
+      "alpha": "C",
+      "year": "1981",
+      "num": "17",
+      "yr_num": "1981/17",
+      "title": "Control of Goods (Price Control) (Tyres and Tubes Prices) Order, 1981",
+      "url": "https://zambialii.org/akn/zm/act/si/1981/17"
+    },
+    {
+      "alpha": "C",
+      "year": "1981",
+      "num": "28",
+      "yr_num": "1981/28",
+      "title": "Control of Goods (Price Control) (Locally Made and Imported Shoes Prices) Order, 1981",
+      "url": "https://zambialii.org/akn/zm/act/si/1981/28"
+    },
+    {
+      "alpha": "C",
+      "year": "1981",
+      "num": "29",
+      "yr_num": "1981/29",
+      "title": "Control of Goods (Price Control) (Clothing Prices) Order, 1981",
+      "url": "https://zambialii.org/akn/zm/act/si/1981/29"
+    },
+    {
+      "alpha": "C",
+      "year": "1981",
+      "num": "30",
+      "yr_num": "1981/30",
+      "title": "Control of Goods (Price Control) (Motor Spare Parts Prices) Order, 1981",
+      "url": "https://zambialii.org/akn/zm/act/si/1981/30"
+    },
+    {
+      "alpha": "C",
+      "year": "1981",
+      "num": "45",
+      "yr_num": "1981/45",
+      "title": "Control of Goods (Price Control) (Fish and Kapenta Prices) Order, 1981",
+      "url": "https://zambialii.org/akn/zm/act/si/1981/45"
+    },
+    {
+      "alpha": "C",
+      "year": "1981",
+      "num": "36",
+      "yr_num": "1981/36",
+      "title": "Control of Goods (Price Control) (Stockfeed Prices) Order, 1981",
+      "url": "https://zambialii.org/akn/zm/act/si/1981/36"
+    },
+    {
+      "alpha": "C",
+      "year": "1988",
+      "num": "1",
+      "yr_num": "1988/1",
+      "title": "Control of Goods (Price Control) (Stockfeed Prices) Order, 1988",
+      "url": "https://zambialii.org/akn/zm/act/si/1988/1"
+    },
+    {
+      "alpha": "C",
+      "year": "1988",
+      "num": "2",
+      "yr_num": "1988/2",
+      "title": "Control of Goods (Import Licence Fees) (Exemption) Notice, 1988",
+      "url": "https://zambialii.org/akn/zm/act/si/1988/2"
+    },
+    {
+      "alpha": "C",
+      "year": "1989",
+      "num": "17",
+      "yr_num": "1989/17",
+      "title": "Control of Goods (Import Licence Fees) (Exemption) Notice, 1989",
+      "url": "https://zambialii.org/akn/zm/act/si/1989/17"
+    },
+    {
+      "alpha": "C",
+      "year": "1989",
+      "num": "33",
+      "yr_num": "1989/33",
+      "title": "Control of Goods (Import Licence Fees) (Exemption) Notice, 1989",
+      "url": "https://zambialii.org/akn/zm/act/si/1989/33"
+    },
+    {
+      "alpha": "C",
+      "year": "1990",
+      "num": "9",
+      "yr_num": "1990/9",
+      "title": "Control of Goods (Import Licence Fees) (Exemption) Notice, 1990",
+      "url": "https://zambialii.org/akn/zm/act/si/1990/9"
+    },
+    {
+      "alpha": "C",
+      "year": "1990",
+      "num": "18",
+      "yr_num": "1990/18",
+      "title": "Control of Goods (Import Licence Fees) (Exemption) (No. 2) Notice, 1990",
+      "url": "https://zambialii.org/akn/zm/act/si/1990/18"
+    },
+    {
+      "alpha": "C",
+      "year": "1991",
+      "num": "37",
+      "yr_num": "1991/37",
+      "title": "Control of Goods (Import Licence Fees) (Exemption) (No. 2) Notice, 1991",
+      "url": "https://zambialii.org/akn/zm/act/si/1991/37"
+    },
+    {
+      "alpha": "C",
+      "year": "1991",
+      "num": "49",
+      "yr_num": "1991/49",
+      "title": "Control of Goods (Import Licence Fees) (Exemption) (No. 3) Notice, 1991",
+      "url": "https://zambialii.org/akn/zm/act/si/1991/49"
+    },
+    {
+      "alpha": "C",
+      "year": "1991",
+      "num": "21",
+      "yr_num": "1991/21",
+      "title": "Control of Goods (Import Licence Fees) (Exemption) Notice, 1991",
+      "url": "https://zambialii.org/akn/zm/act/si/1991/21"
+    },
+    {
+      "alpha": "C",
+      "year": "1997",
+      "num": "20",
+      "yr_num": "1997/20",
+      "title": "Control of Goods (Import Declaration Fee) Regulations, 1997",
+      "url": "https://zambialii.org/akn/zm/act/si/1997/20"
+    },
+    {
+      "alpha": "C",
+      "year": "2002",
+      "num": "50",
+      "yr_num": "2002/50",
+      "title": "Control of Goods (Import and Export) (Prohibition of Imports) Order, 2002",
+      "url": "https://zambialii.org/akn/zm/act/si/2002/50"
+    },
+    {
+      "alpha": "C",
+      "year": "1985",
+      "num": "7",
+      "yr_num": "1985/7",
+      "title": "Control of Goods (Price Control) (Baby Milk Prices) Order, 1985",
+      "url": "https://zambialii.org/akn/zm/act/si/1985/7"
+    },
+    {
+      "alpha": "C",
+      "year": "1986",
+      "num": "10",
+      "yr_num": "1986/10",
+      "title": "Control of Goods (Import Licence Fees Exemption) Notice, 1986",
+      "url": "https://zambialii.org/akn/zm/act/si/1986/10"
+    },
+    {
+      "alpha": "C",
+      "year": "2011",
+      "num": "40",
+      "yr_num": "2011/40",
+      "title": "Control of Goods (Import and Export) (Agriculture) (Prohibition of Importation) Order, 2011",
+      "url": "https://zambialii.org/akn/zm/act/si/2011/40"
+    },
+    {
+      "alpha": "C",
+      "year": "2012",
+      "num": "36",
+      "yr_num": "2012/36",
+      "title": "Control of Goods (Import and Export)(Agriculture) (Prohibition of Export) Order, 2012",
+      "url": "https://zambialii.org/akn/zm/act/si/2012/36"
+    },
+    {
+      "alpha": "C",
+      "year": "2016",
+      "num": "74",
+      "yr_num": "2016/74",
+      "title": "Control of Goods (Local Manufacturing and Importation of Incandescent Bulbs and Energy Inefficient Lighting Devices) (Prohibition) Regulations, 2016",
+      "url": "https://zambialii.org/akn/zm/act/si/2016/74"
+    },
+    {
+      "alpha": "C",
+      "year": "2019",
+      "num": "64",
+      "yr_num": "2019/64",
+      "title": "Control of Goods (Import and Export) (Agriculture) (Prohibition of Export) Order, 2019",
+      "url": "https://zambialii.org/akn/zm/act/si/2019/64"
+    },
+    {
+      "alpha": "C",
+      "year": "2017",
+      "num": "31",
+      "yr_num": "2017/31",
+      "title": "Control of Goods (Import and Export) (Forest Produce) (Prohibition of Importation) Order, 2017",
+      "url": "https://zambialii.org/akn/zm/act/si/2017/31"
+    },
+    {
+      "alpha": "C",
+      "year": "2017",
+      "num": "27",
+      "yr_num": "2017/27",
+      "title": "Control of Goods (Import and Export) (Forest Produce) Regulations, 2017",
+      "url": "https://zambialii.org/akn/zm/act/si/2017/27"
+    },
+    {
+      "alpha": "M",
+      "year": "1981",
+      "num": "27",
+      "yr_num": "1981/27",
+      "title": "Lusaka District Council Markets (Establishment) Order, 1981",
+      "url": "https://zambialii.org/akn/zm/act/si/1981/27"
+    },
+    {
+      "alpha": "M",
+      "year": "1983",
+      "num": "42",
+      "yr_num": "1983/42",
+      "title": "Kaputa District Council (Market Regulations) (Application) Order, 1983",
+      "url": "https://zambialii.org/akn/zm/act/si/1983/42"
+    },
+    {
+      "alpha": "M",
+      "year": "1985",
+      "num": "41",
+      "yr_num": "1985/41",
+      "title": "Mwense District Council (Market Regulation) (Application) Order, 1985",
+      "url": "https://zambialii.org/akn/zm/act/si/1985/41"
+    },
+    {
+      "alpha": "M",
+      "year": "2017",
+      "num": "77",
+      "yr_num": "2017/77",
+      "title": "National Markets and Bus Stations Development Fund Regulations, 2017",
+      "url": "https://zambialii.org/akn/zm/act/si/2017/77"
+    },
+    {
+      "alpha": "M",
+      "year": "2021",
+      "num": "59",
+      "yr_num": "2021/59",
+      "title": "Metrology (Certification of Competence) Regulations, 2021",
+      "url": "https://zambialii.org/akn/zm/act/si/2021/59"
+    },
+    {
+      "alpha": "M",
+      "year": "2021",
+      "num": "55",
+      "yr_num": "2021/55",
+      "title": "Metrology (Measuring Instruments), Regulations 2021",
+      "url": "https://zambialii.org/akn/zm/act/si/2021/55"
+    },
+    {
+      "alpha": "M",
+      "year": "2021",
+      "num": "56",
+      "yr_num": "2021/56",
+      "title": "Metrology (Pre-Packaged Commodities),Regulations, 2021",
+      "url": "https://zambialii.org/akn/zm/act/si/2021/56"
+    },
+    {
+      "alpha": "M",
+      "year": "2020",
+      "num": "52",
+      "yr_num": "2020/52",
+      "title": "Metrology (Verification Fees) Regulations, 2020",
+      "url": "https://zambialii.org/akn/zm/act/si/2020/52"
+    },
+    {
+      "alpha": "P",
+      "year": "1981",
+      "num": "46",
+      "yr_num": "1981/46",
+      "title": "Prohibited Publication Order",
+      "url": "https://zambialii.org/akn/zm/act/si/1981/46"
+    },
+    {
+      "alpha": "P",
+      "year": "1996",
+      "num": "33",
+      "yr_num": "1996/33",
+      "title": "Prohibited Publication Order, 1996",
+      "url": "https://zambialii.org/akn/zm/act/si/1996/33"
+    },
+    {
+      "alpha": "P",
+      "year": "2011",
+      "num": "46",
+      "yr_num": "2011/46",
+      "title": "Plant Breeder's Rights (Forms and Fees) Regulations, 2011",
+      "url": "https://zambialii.org/akn/zm/act/si/2011/46"
+    },
+    {
+      "alpha": "P",
+      "year": "2020",
+      "num": "69",
+      "yr_num": "2020/69",
+      "title": "Plant Pests and Diseases (Phytosanitary Certification) Regulations, 2020",
+      "url": "https://zambialii.org/akn/zm/act/si/2020/69"
+    },
+    {
+      "alpha": "P",
+      "year": "2020",
+      "num": "70",
+      "yr_num": "2020/70",
+      "title": "Plant Pests and Diseases (Plant Quarantine and Phytosanitary Service Fees) Regulations, 2020",
+      "url": "https://zambialii.org/akn/zm/act/si/2020/70"
+    },
+    {
+      "alpha": "P",
+      "year": "1996",
+      "num": "37",
+      "yr_num": "1996/37",
+      "title": "Plant Pests and Diseases (Larger Grain Borer Infested Areas) (Declaration) Order, 1996",
+      "url": "https://zambialii.org/akn/zm/act/si/1996/37"
+    },
+    {
+      "alpha": "P",
+      "year": "2021",
+      "num": "109",
+      "yr_num": "2021/109",
+      "title": "Plant Variety and Seeds (Amendment) Regulations, 2021",
+      "url": "https://zambialii.org/akn/zm/act/si/2021/109"
+    },
+    {
+      "alpha": "P",
+      "year": "2018",
+      "num": "23",
+      "yr_num": "2018/23",
+      "title": "Plant Variety and Seeds Regulations, 2018",
+      "url": "https://zambialii.org/akn/zm/act/si/2018/23"
+    },
+    {
+      "alpha": "P",
+      "year": "2017",
+      "num": "55",
+      "yr_num": "2017/55",
+      "title": "Preservation of Public Security Regulations, 2017",
+      "url": "https://zambialii.org/akn/zm/act/si/2017/55",
+      "_cat": "sis_tax"
+    },
+    {
+      "alpha": "P",
+      "year": "1994",
+      "num": "6",
+      "yr_num": "1994/6",
+      "title": "Privatisation (Political Leaders and Public Officers) (Bidding) Regulations, 1994",
+      "url": "https://zambialii.org/akn/zm/act/si/1994/6",
+      "_cat": "sis_tax"
+    },
+    {
+      "alpha": "P",
+      "year": "1993",
+      "num": "41",
+      "yr_num": "1993/41",
+      "title": "Privatisation (Sale or Disposal of Property) Regulations, 1993",
+      "url": "https://zambialii.org/akn/zm/act/si/1993/41",
+      "_cat": "sis_tax"
+    },
+    {
+      "alpha": "P",
+      "year": "1985",
+      "num": "46",
+      "yr_num": "1985/46",
+      "title": "Probation of Offenders (Application) Notice, 1985",
+      "url": "https://zambialii.org/akn/zm/act/si/1985/46"
+    },
+    {
+      "alpha": "P",
+      "year": "1984",
+      "num": "2",
+      "yr_num": "1984/2",
+      "title": "Professional Boxing and Wrestling Control (Insurance) Regulations, 1984",
+      "url": "https://zambialii.org/akn/zm/act/si/1984/2"
+    },
+    {
+      "alpha": "P",
+      "year": "2021",
+      "num": "114",
+      "yr_num": "2021/114",
+      "title": "Provincial and District Boundaries (Division) (Amendment) (No. 2) Order, 2021",
+      "url": "https://zambialii.org/akn/zm/act/si/2021/114"
+    }
+  ]
+}

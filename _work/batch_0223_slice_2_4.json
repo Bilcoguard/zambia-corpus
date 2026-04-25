@@ -1,0 +1,98 @@
+[
+  {
+    "pick": {
+      "yr_num": "2021/59",
+      "year": "2021",
+      "num": "59",
+      "title": "Metrology (Certification of Competence) Regulations, 2021",
+      "sub_phase": "sis_consumer",
+      "parent_act": "Metrology Act"
+    },
+    "status": "ok",
+    "record": {
+      "id": "si-zm-2021-059-metrology-certification-of-competence-regulations-2021",
+      "type": "statutory_instrument",
+      "jurisdiction": "ZM",
+      "year": 2021,
+      "number": 59,
+      "title": "Metrology (Certification of Competence) Regulations, 2021",
+      "parent_act": "Metrology Act",
+      "sub_phase": "sis_consumer",
+      "effective_date": "2021-05-14",
+      "source_url": "https://zambialii.org/akn/zm/act/si/2021/59",
+      "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2021/59/eng@2021-05-14/source.pdf",
+      "source_hash": "08b80e879acb09840b81a57fe1b97ce75d4dfaf17dc6bd7445522dd0a4379f77",
+      "html_hash": "c921be69aaccfb2d60a6b9685c8a8788f84b326af01b6bd1657b8739a11746aa",
+      "fetched_at": "2026-04-25T12:09:29Z",
+      "parser_version": "0.5.0",
+      "pdf_pages": 18,
+      "pdf_text_chars": 19236,
+      "amended_by": [],
+      "repealed_by": [],
+      "cited_authorities": []
+    },
+    "record_path": "records/sis/2021/si-zm-2021-059-metrology-certification-of-competence-regulations-2021.json",
+    "fetches": [
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2021/59",
+        "bytes": 39044,
+        "path": "raw/zambialii/si/2021/si-zm-2021-059-metrology-certification-of-competence-regulations-2021.html",
+        "sha": "c921be69aaccfb2d60a6b9685c8a8788f84b326af01b6bd1657b8739a11746aa"
+      },
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2021/59/eng@2021-05-14/source.pdf",
+        "bytes": 159638,
+        "path": "raw/zambialii/si/2021/si-zm-2021-059-metrology-certification-of-competence-regulations-2021.pdf",
+        "sha": "08b80e879acb09840b81a57fe1b97ce75d4dfaf17dc6bd7445522dd0a4379f77"
+      }
+    ]
+  },
+  {
+    "pick": {
+      "yr_num": "2020/52",
+      "year": "2020",
+      "num": "52",
+      "title": "Metrology (Verification Fees) Regulations, 2020",
+      "sub_phase": "sis_consumer",
+      "parent_act": "Metrology Act"
+    },
+    "status": "ok",
+    "record": {
+      "id": "si-zm-2020-052-metrology-verification-fees-regulations-2020",
+      "type": "statutory_instrument",
+      "jurisdiction": "ZM",
+      "year": 2020,
+      "number": 52,
+      "title": "Metrology (Verification Fees) Regulations, 2020",
+      "parent_act": "Metrology Act",
+      "sub_phase": "sis_consumer",
+      "effective_date": "2020-05-22",
+      "source_url": "https://zambialii.org/akn/zm/act/si/2020/52",
+      "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/52/eng@2020-05-22/source.pdf",
+      "source_hash": "13faba8b245035862e45281de147d78c878eb672a8c3ab7c5f194d556c39f830",
+      "html_hash": "baa758ef4a37919f579e368a99fa3fc004f75404df40072bbcde09f58330fb11",
+      "fetched_at": "2026-04-25T12:09:44Z",
+      "parser_version": "0.5.0",
+      "pdf_pages": 10,
+      "pdf_text_chars": 13903,
+      "amended_by": [],
+      "repealed_by": [],
+      "cited_authorities": []
+    },
+    "record_path": "records/sis/2020/si-zm-2020-052-metrology-verification-fees-regulations-2020.json",
+    "fetches": [
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2020/52",
+        "bytes": 38959,
+        "path": "raw/zambialii/si/2020/si-zm-2020-052-metrology-verification-fees-regulations-2020.html",
+        "sha": "baa758ef4a37919f579e368a99fa3fc004f75404df40072bbcde09f58330fb11"
+      },
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2020/52/eng@2020-05-22/source.pdf",
+        "bytes": 52371,
+        "path": "raw/zambialii/si/2020/si-zm-2020-052-metrology-verification-fees-regulations-2020.pdf",
+        "sha": "13faba8b245035862e45281de147d78c878eb672a8c3ab7c5f194d556c39f830"
+      }
+    ]
+  }
+]

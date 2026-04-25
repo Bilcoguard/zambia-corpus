@@ -1,0 +1,50 @@
+[
+  {
+    "pick": {
+      "yr_num": "2018/23",
+      "year": "2018",
+      "num": "23",
+      "title": "Plant Variety and Seeds Regulations, 2018",
+      "sub_phase": "sis_agriculture",
+      "parent_act": "Plant Variety and Seeds Act"
+    },
+    "status": "ok",
+    "record": {
+      "id": "si-zm-2018-023-plant-variety-and-seeds-regulations-2018",
+      "type": "statutory_instrument",
+      "jurisdiction": "ZM",
+      "year": 2018,
+      "number": 23,
+      "title": "Plant Variety and Seeds Regulations, 2018",
+      "parent_act": "Plant Variety and Seeds Act",
+      "sub_phase": "sis_agriculture",
+      "effective_date": "2018-03-29",
+      "source_url": "https://zambialii.org/akn/zm/act/si/2018/23",
+      "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2018/23/eng@2018-03-29/source.pdf",
+      "source_hash": "1fe366491387bd8827cd482f8eb53f3dbbe09614a33062df2caaa4740d604c8e",
+      "html_hash": "078c6e02ef78c07d593a56bef26dd6ed1494705cecb04c31a2b85d7d6e73c87f",
+      "fetched_at": "2026-04-25T12:10:59Z",
+      "parser_version": "0.5.0",
+      "pdf_pages": 78,
+      "pdf_text_chars": 94508,
+      "amended_by": [],
+      "repealed_by": [],
+      "cited_authorities": []
+    },
+    "record_path": "records/sis/2018/si-zm-2018-023-plant-variety-and-seeds-regulations-2018.json",
+    "fetches": [
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2018/23",
+        "bytes": 39084,
+        "path": "raw/zambialii/si/2018/si-zm-2018-023-plant-variety-and-seeds-regulations-2018.html",
+        "sha": "078c6e02ef78c07d593a56bef26dd6ed1494705cecb04c31a2b85d7d6e73c87f"
+      },
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2018/23/eng@2018-03-29/source.pdf",
+        "bytes": 3816079,
+        "path": "raw/zambialii/si/2018/si-zm-2018-023-plant-variety-and-seeds-regulations-2018.pdf",
+        "sha": "1fe366491387bd8827cd482f8eb53f3dbbe09614a33062df2caaa4740d604c8e"
+      }
+    ]
+  }
+]

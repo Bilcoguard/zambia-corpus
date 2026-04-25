@@ -1,0 +1,25 @@
+{
+  "batch": "0223",
+  "phase": "phase_4_bulk",
+  "started_at": "2026-04-25T12:05:44Z",
+  "completed_at": "2026-04-25T12:13:08Z",
+  "records_count": 8,
+  "records": [
+    "si-zm-2021-055-metrology-measuring-instruments-regulations-2021",
+    "si-zm-2021-056-metrology-pre-packaged-commodities-regulations-2021",
+    "si-zm-2021-059-metrology-certification-of-competence-regulations-2021",
+    "si-zm-2020-052-metrology-verification-fees-regulations-2020",
+    "si-zm-2020-069-plant-pests-and-diseases-phytosanitary-certification-regulations-2020",
+    "si-zm-2020-070-plant-pests-and-diseases-plant-quarantine-and-phytosanitary-service-fees-regulations-2020",
+    "si-zm-2018-023-plant-variety-and-seeds-regulations-2018",
+    "si-zm-2017-001-citizens-economic-empowerment-reservation-scheme-regulations-2017"
+  ],
+  "integrity": "PASS",
+  "fetches_used": 20,
+  "sub_phases_covered": [
+    "sis_agriculture",
+    "sis_consumer",
+    "sis_corporate"
+  ],
+  "mode": "fresh_alphabet_probe_C_M_P"
+}
