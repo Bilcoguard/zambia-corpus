@@ -1,0 +1,1696 @@
+{
+  "batch": "0205",
+  "phase": "discovery",
+  "started_at": "2026-04-25T00:36:29Z",
+  "completed_at": "2026-04-25T00:37:04Z",
+  "fetches_used": 6,
+  "fetch_end": 32,
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "alphabets": [
+    "E",
+    "M",
+    "N",
+    "O",
+    "W"
+  ],
+  "novel_total_pre_keyword": 276,
+  "novel_kept_post_keyword": 2,
+  "candidates": [
+    {
+      "year": 2022,
+      "number": 13,
+      "text": "minimum wages and conditions of employment (truck and bus drivers) (amendment) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 13,
+      "text": "worker\u2019s compensation (domestic workers) regulations, 2021",
+      "letter": "W"
+    }
+  ],
+  "novel_pre_keyword_sample": [
+    {
+      "year": 2021,
+      "number": 45,
+      "text": "education (aided educational institutions) regulations, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2013,
+      "number": 12,
+      "text": "education (district education offices) (establishment) order, 2013",
+      "letter": "E"
+    },
+    {
+      "year": 2015,
+      "number": 85,
+      "text": "education (teacher training college boards) (establishment) order, 2015",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 7,
+      "text": "electoral process (local government by-elections) (election time and time of poll) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 4,
+      "text": "electoral process (voter education) regulations, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 8,
+      "text": "national assembly by-election (kabwata constituency no. 77) (election date and time of poll) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 64,
+      "text": "national assembly by-elections (kabushi constituency no. 36 and kwacha constituency no. 22) (election date and time of poll) (no. 3) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 21,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 18,
+      "text": "electoral process (general election) (election date and time of poll) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 38,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 3) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 67,
+      "text": "national assembly general elections (mandevu constituency no. 80, kasenengwa constituency no. 41, lusaka central constituency no. 79, chawama constituency no. 76, mafinga constituency no. 89 and mpulungu constituency no. 105) (election date and time of poll) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 51,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 68,
+      "text": "electoral process (local government elections) (election date and time of poll) (no. 2) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 63,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 61,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 2) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 88,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 4 ) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 87,
+      "text": "national assembly by-election (kabwata constituency no. 77) (election date and time of poll) (no. 3) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 75,
+      "text": "electoral process (local government elections) (election date and time of poll) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 74,
+      "text": "national assembly (kaumbwe constituency no. 50) (election date and time of poll) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 57,
+      "text": "electoral process (revision of wards) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 40,
+      "text": "electoral process (general election) (election date and time of poll) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 101,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 8 ) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 80,
+      "text": "electoral (registration of voters) regulations, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 79,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 8 ) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 72,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 7 ) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 71,
+      "text": "national assembly by-election (mwansabombwe constituency no. 65 and lukashya constituency no. 98) (election date and time poll) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 63,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 6) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 61,
+      "text": "electoral process (local government by-election) (election date and time of poll) (no. 5) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 43,
+      "text": "electoral process (local government by-election) (election date and time of poll) (no. 4) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 23,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 3) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 4,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 2) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 3,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 2,
+      "text": "national assembly by-election (chilubi constituency no. 095) (election date and time of poll) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2023,
+      "number": 8,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2023",
+      "letter": "E"
+    },
+    {
+      "year": 2023,
+      "number": 36,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2023",
+      "letter": "E"
+    },
+    {
+      "year": 2023,
+      "number": 40,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2023",
+      "letter": "E"
+    },
+    {
+      "year": 2023,
+      "number": 46,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 5) order, 2023",
+      "letter": "E"
+    },
+    {
+      "year": 2024,
+      "number": 2,
+      "text": "electoral process (local government by elections) (election date and time of poll) order, 2024",
+      "letter": "E"
+    },
+    {
+      "year": 2024,
+      "number": 6,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 2) order, 2024",
+      "letter": "E"
+    },
+    {
+      "year": 2024,
+      "number": 15,
+      "text": "electoral process (local government by elections) (election date and time of poll) order, 2024",
+      "letter": "E"
+    },
+    {
+      "year": 2016,
+      "number": 60,
+      "text": "local government elections tribunals rules, 2016",
+      "letter": "E"
+    },
+    {
+      "year": 2016,
+      "number": 62,
+      "text": "electoral process (code of conduct) (enforcement) regulations, 2016",
+      "letter": "E"
+    },
+    {
+      "year": 2016,
+      "number": 63,
+      "text": "electoral process (general) regulations, 2016",
+      "letter": "E"
+    },
+    {
+      "year": 2016,
+      "number": 70,
+      "text": "electoral process (local government elections) (election dates and times of poll) order, 2016",
+      "letter": "E"
+    },
+    {
+      "year": 2019,
+      "number": 76,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 7) order, 2019",
+      "letter": "E"
+    },
+    {
+      "year": 2019,
+      "number": 61,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 6) order, 2019",
+      "letter": "E"
+    },
+    {
+      "year": 2019,
+      "number": 38,
+      "text": "national assembly by- election (katuba constituency no. 01) (election date and time of poll) (no. 3) order, 2019",
+      "letter": "E"
+    },
+    {
+      "year": 2019,
+      "number": 33,
+      "text": "electoral process (local government by- elections) (election date and time of poll) (no. 4) order, 2019",
+      "letter": "E"
+    },
+    {
+      "year": 2019,
+      "number": 24,
+      "text": "electoral process (local government by- elections) (election date and time of poll) (no. 3) order, 2019",
+      "letter": "E"
+    },
+    {
+      "year": 2019,
+      "number": 23,
+      "text": "electoral process (local government by- elections) (election date and time of poll) (no. 2) order, 2019",
+      "letter": "E"
+    },
+    {
+      "year": 2019,
+      "number": 16,
+      "text": "national assembly by-election (bahati constituency no. 062) (election date and time of poll) order, 2019",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 75,
+      "text": "national assembly by-election (mangango constituency no. 141) (election date and time of poll) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 94,
+      "text": "electoral process (local governments by-elections) (election date and time of poll) (no. 7) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 93,
+      "text": "national assembly by-election (sesheke constituency no. 153) (election date and time of poll) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 81,
+      "text": "electoral process (local governments by-elections) (election date and time of poll) (no. 6) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 57,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 4) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 56,
+      "text": "national assembly by-election (kasenengwa constituency no. 41) (election date and time of poll) (no. 2) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 46,
+      "text": "electoral process (local government by elections) (election date and time of poll) (no. 3) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 33,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 21,
+      "text": "electoral process (local government by-election) (election date and time of poll) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2017,
+      "number": 54,
+      "text": "electoral process (local government by-elections) (election date and times of poll) order, 2017",
+      "letter": "E"
+    },
+    {
+      "year": 2017,
+      "number": 18,
+      "text": "local government by-elections (election dates and times of poll) order, 2017",
+      "letter": "E"
+    },
+    {
+      "year": 2024,
+      "number": 29,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2024",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 24,
+      "text": "electricity (common carrier) (declaration) regulations, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 94,
+      "text": "electricity (common carrier) (declaration) (revocation) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 1988,
+      "number": 38,
+      "text": "emergency (essential supplies and services) regulations, 1988",
+      "letter": "E"
+    },
+    {
+      "year": 1993,
+      "number": 37,
+      "text": "emergency regulations, 1993",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 13,
+      "text": "minimum wages and conditions of employment (truck and bus drivers) (amendment) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 48,
+      "text": "environmental management (strategic environmental assessment) regulations, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 65,
+      "text": "environmental management (extended producer responsibility) regulations, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2026,
+      "number": 3,
+      "text": "environmental management (environmental impact assessment) regulations, 2026",
+      "letter": "E"
+    },
+    {
+      "year": 1987,
+      "number": 29,
+      "text": "equity levy (exemption) order, 1987",
+      "letter": "E"
+    },
+    {
+      "year": 1985,
+      "number": 14,
+      "text": "equity levy (exemption) order, 1985",
+      "letter": "E"
+    },
+    {
+      "year": 2016,
+      "number": 3,
+      "text": "estate agents (general) regulations, 2016",
+      "letter": "E"
+    },
+    {
+      "year": 1981,
+      "number": 27,
+      "text": "lusaka district council markets (establishment) order, 1981",
+      "letter": "M"
+    },
+    {
+      "year": 1983,
+      "number": 42,
+      "text": "kaputa district council (market regulations) (application) order, 1983",
+      "letter": "M"
+    },
+    {
+      "year": 1985,
+      "number": 41,
+      "text": "mwense district council (market regulation) (application) order, 1985",
+      "letter": "M"
+    },
+    {
+      "year": 2017,
+      "number": 77,
+      "text": "national markets and bus stations development fund regulations, 2017",
+      "letter": "M"
+    },
+    {
+      "year": 1991,
+      "number": 30,
+      "text": "medical aid societies and nursing homes (exemption, establishment and operation) (authorisation fees) order, 1991",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 10,
+      "text": "medicines and allied substances (agro-veterinary shops) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 11,
+      "text": "medicines and allied substances (dispensing certificates) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 12,
+      "text": "medicines and allied substances (health shops) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 38,
+      "text": "medicines and allied substances (fees) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2019,
+      "number": 80,
+      "text": "medicines and allied substances (expert advisory committee) regulations, 2019",
+      "letter": "M"
+    },
+    {
+      "year": 2017,
+      "number": 58,
+      "text": "medicines and allied substances (certificate of registration) regulations, 2017",
+      "letter": "M"
+    },
+    {
+      "year": 2017,
+      "number": 57,
+      "text": "medicines and allied substances (importation and exportation) regulations, 2017",
+      "letter": "M"
+    },
+    {
+      "year": 2021,
+      "number": 59,
+      "text": "metrology (certification of competence) regulations, 2021",
+      "letter": "M"
+    },
+    {
+      "year": 2021,
+      "number": 55,
+      "text": "metrology (measuring instruments), regulations 2021",
+      "letter": "M"
+    },
+    {
+      "year": 2021,
+      "number": 56,
+      "text": "metrology (pre-packaged commodities),regulations, 2021",
+      "letter": "M"
+    },
+    {
+      "year": 2020,
+      "number": 52,
+      "text": "metrology (verification fees) regulations, 2020",
+      "letter": "M"
+    },
+    {
+      "year": 2022,
+      "number": 15,
+      "text": "ministerial and parliamentary offices (emoluments) (amendment) regulations, 2022",
+      "letter": "M"
+    },
+    {
+      "year": 2022,
+      "number": 7,
+      "text": "national archives (fees) regulations, 2021",
+      "letter": "N"
+    },
+    {
+      "year": 1995,
+      "number": 29,
+      "text": "national archives (fees) regulations, 1995",
+      "letter": "N"
+    },
+    {
+      "year": 1995,
+      "number": 30,
+      "text": "national archives (place of deposit) (revocation) order, 1995",
+      "letter": "N"
+    },
+    {
+      "year": 1986,
+      "number": 32,
+      "text": "national archives (place of deposit) (declaration) order, 1986",
+      "letter": "N"
+    },
+    {
+      "year": 2008,
+      "number": 24,
+      "text": "national constitutional conference (committees) regulations, 2008",
+      "letter": "N"
+    },
+    {
+      "year": 2008,
+      "number": 25,
+      "text": "national constitutional conference (procedure) rules, 2008",
+      "letter": "N"
+    },
+    {
+      "year": 2008,
+      "number": 26,
+      "text": "national constitutional conference (disciplinary committee proceedings) rules, 2008",
+      "letter": "N"
+    },
+    {
+      "year": 2004,
+      "number": 22,
+      "text": "national council for construction (exemption) regulations, 2004",
+      "letter": "N"
+    },
+    {
+      "year": 2009,
+      "number": 37,
+      "text": "national council for construction (forms and fees) regulations, 2009",
+      "letter": "N"
+    },
+    {
+      "year": 2015,
+      "number": 39,
+      "text": "national council for construction (registration of projects) regulations, 2015",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 30,
+      "text": "national dialogue forum (extension) (no. 2) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 28,
+      "text": "national dialogue forum (extension) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2018,
+      "number": 92,
+      "text": "national health research (material transfer) regulations, 2018",
+      "letter": "N"
+    },
+    {
+      "year": 2020,
+      "number": 24,
+      "text": "national health research (bio banking) regulations, 2020",
+      "letter": "N"
+    },
+    {
+      "year": 2020,
+      "number": 25,
+      "text": "national health research (registration and accreditation) regulations, 2020",
+      "letter": "N"
+    },
+    {
+      "year": 2009,
+      "number": 49,
+      "text": "national heritage conservation commission (national monument) (mulobezi open air railway museum) (declaration) order, 2009",
+      "letter": "N"
+    },
+    {
+      "year": 2009,
+      "number": 50,
+      "text": "conservation commission (national monument) (libala limestone) (declaration) order, 2009",
+      "letter": "N"
+    },
+    {
+      "year": 2010,
+      "number": 6,
+      "text": "national monuments (entry and user fees) regulation, 2010",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 26,
+      "text": "national heritage conservation commission (zambezi source) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 27,
+      "text": "national heritage conservation commission (ng\u2019wena village) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 28,
+      "text": "national heritage conservation commission (nalupembe falls) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 31,
+      "text": "national heritage conservation commission (musonda falls) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 29,
+      "text": "national heritage conservation commission (chembe island) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 30,
+      "text": "national heritage conservation commission (mambilima cataracts) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 32,
+      "text": "national heritage conservation commission (kabwe katenda) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 33,
+      "text": "national heritage conservation commission (ngonye falls) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 34,
+      "text": "national heritage conservation commission (membo caves) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2023,
+      "number": 35,
+      "text": "national heritage conservation commission (mumbotuta falls) (national monument) (declaration) order, 2023",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 75,
+      "text": "national heritage conservation commission (kalonga gawa undi-dole royal cemetery) (national monument) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 57,
+      "text": "national heritage conservation commission (kabwe mine museum) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 56,
+      "text": "national heritage conservation commission (broken hill man) (national monument) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 55,
+      "text": "national heritage conservation commission (chipota falls) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 54,
+      "text": "national heritage conservation commission (kavalamanja-kakaroo liberation heritage) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 53,
+      "text": "national heritage conservation commission (tarbuttite site) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 52,
+      "text": "national heritage conservation commission (mpezeni royal burial) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 51,
+      "text": "national heritage conservation commission (mukuku bridge) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 50,
+      "text": "national heritage conservation commission (chinyunyu hot springs) (national monument) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 49,
+      "text": "national heritage conservation commission (mulungushi rock of authority) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 48,
+      "text": "national heritage conservation commission (longola hot springs) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2017,
+      "number": 71,
+      "text": "national heritage conservation commission (oliver tambo house) (national monument) (declaration) order, 2017",
+      "letter": "N"
+    },
+    {
+      "year": 2020,
+      "number": 64,
+      "text": "national market and bus station development fund regulations, 2020",
+      "letter": "N"
+    },
+    {
+      "year": 2015,
+      "number": 89,
+      "text": "national museums (declaration) order, 2015",
+      "letter": "N"
+    },
+    {
+      "year": 2016,
+      "number": 59,
+      "text": "national museums (entry fees) regulations, 2016",
+      "letter": "N"
+    },
+    {
+      "year": 1997,
+      "number": 49,
+      "text": "national parks and wildlife (night game drives) regulations, 1997",
+      "letter": "N"
+    },
+    {
+      "year": 2016,
+      "number": 49,
+      "text": "national prosecutions authority (witness allowances and expenses) regulations, 2016",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 34,
+      "text": "national registration regulations, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2008,
+      "number": 16,
+      "text": "national road fund (charges and fees) (apportionment) regulations, 2008",
+      "letter": "N"
+    },
+    {
+      "year": 2005,
+      "number": 19,
+      "text": "national road fund act (commencement) order, 2005",
+      "letter": "N"
+    },
+    {
+      "year": 1987,
+      "number": 36,
+      "text": "national savings and credit (appointment of members of board) order, 1987",
+      "letter": "N"
+    },
+    {
+      "year": 2018,
+      "number": 20,
+      "text": "water resources management (groundwater and boreholes) regulations, 2018.",
+      "letter": "W"
+    },
+    {
+      "year": 2018,
+      "number": 19,
+      "text": "water resources management (licensing of drillers and constructors) regulations, 2018",
+      "letter": "W"
+    },
+    {
+      "year": 1995,
+      "number": 11,
+      "text": "weights and measures (commencement) order, 1995",
+      "letter": "W"
+    },
+    {
+      "year": 2023,
+      "number": 37,
+      "text": "wills and administration of testate estates (probate) rules, 2023",
+      "letter": "W"
+    },
+    {
+      "year": 2021,
+      "number": 13,
+      "text": "worker\u2019s compensation (domestic workers) regulations, 2021",
+      "letter": "W"
+    },
+    {
+      "year": 2014,
+      "number": 31,
+      "text": "workers\u2019 compensation (capitalised values) regulations, 2014",
+      "letter": "W"
+    },
+    {
+      "year": 2001,
+      "number": 3,
+      "letter": "I",
+      "text": "immigration and deportation act (fees) (waiver) regulations, 2000"
+    },
+    {
+      "year": 1985,
+      "number": 31,
+      "letter": "I",
+      "text": "immigration and deportation (fees) (waiver) order, 1985"
+    },
+    {
+      "year": 2011,
+      "number": 129,
+      "letter": "I",
+      "text": "immigration and deportation (general) regulations, 2011"
+    },
+    {
+      "year": 2013,
+      "number": 38,
+      "letter": "I",
+      "text": "immigration and deportation (immigration consultants) regulations, 2013"
+    },
+    {
+      "year": 1980,
+      "number": 14,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) order, 1980"
+    },
+    {
+      "year": 1980,
+      "number": 24,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1980"
+    },
+    {
+      "year": 1980,
+      "number": 29,
+      "letter": "I",
+      "text": "income tax (international organisations) (exemption approval) order, 1980"
+    },
+    {
+      "year": 1980,
+      "number": 38,
+      "letter": "I",
+      "text": "income tax (low cost housing) notice, 1980"
+    },
+    {
+      "year": 1980,
+      "number": 51,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) (no. 3) order, 1980"
+    },
+    {
+      "year": 1982,
+      "number": 2,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) order, 1982"
+    },
+    {
+      "year": 1982,
+      "number": 9,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1982"
+    },
+    {
+      "year": 1982,
+      "number": 36,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) (no. 3) order 1982"
+    },
+    {
+      "year": 1983,
+      "number": 43,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) order, 1983"
+    },
+    {
+      "year": 1984,
+      "number": 45,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) order, 1984"
+    },
+    {
+      "year": 1983,
+      "number": 6,
+      "letter": "I",
+      "text": "income tax (intersomer s.p.a.) (exemption) order, 1983"
+    },
+    {
+      "year": 1993,
+      "number": 2,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (approval and exemption) order, 1993"
+    },
+    {
+      "year": 1993,
+      "number": 11,
+      "letter": "I",
+      "text": "income tax (body corporate) (approval and exemption) order, 1993"
+    },
+    {
+      "year": 1993,
+      "number": 12,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (approval and exemption) (no. 2) order, 1993"
+    },
+    {
+      "year": 1999,
+      "number": 42,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption and approval) order, 1999"
+    },
+    {
+      "year": 2006,
+      "number": 40,
+      "letter": "I",
+      "text": "income tax (tax clearance) (exemption) regulations, 2006"
+    },
+    {
+      "year": 2007,
+      "number": 29,
+      "letter": "I",
+      "text": "income tax (advance tax) (exemption) regulations, 2007"
+    },
+    {
+      "year": 2009,
+      "number": 2,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (approval and exemption) order, 2009"
+    },
+    {
+      "year": 2010,
+      "number": 43,
+      "letter": "I",
+      "text": "income tax (sino-metals leach zambia limited) (rebate) regulations, 2010"
+    },
+    {
+      "year": 1985,
+      "number": 16,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) order, 1985"
+    },
+    {
+      "year": 1985,
+      "number": 17,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1985"
+    },
+    {
+      "year": 1985,
+      "number": 18,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) (no. 3) order, 1985"
+    },
+    {
+      "year": 1985,
+      "number": 19,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) (no. 4) order, 1985"
+    },
+    {
+      "year": 1985,
+      "number": 20,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) (no. 5) order, 1985"
+    },
+    {
+      "year": 1985,
+      "number": 21,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) (no. 6) order, 1985"
+    },
+    {
+      "year": 1985,
+      "number": 26,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) (no. 7) order, 1985"
+    },
+    {
+      "year": 1985,
+      "number": 27,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) (no. 8) order, 1985"
+    },
+    {
+      "year": 1985,
+      "number": 50,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) (no. 10) order, 1985"
+    },
+    {
+      "year": 1985,
+      "number": 49,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) (no. 9) order, 1985"
+    },
+    {
+      "year": 1986,
+      "number": 4,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) order, 1986"
+    },
+    {
+      "year": 1986,
+      "number": 27,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) (no. 2) order, 1986"
+    },
+    {
+      "year": 1987,
+      "number": 9,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) order, 1987"
+    },
+    {
+      "year": 2011,
+      "number": 34,
+      "letter": "I",
+      "text": "income tax (china-africa development fund) (approval and exemption) order, 2011"
+    },
+    {
+      "year": 2011,
+      "number": 35,
+      "letter": "I",
+      "text": "income tax (foreign personnel) (approval and exemption) order, 2011"
+    },
+    {
+      "year": 2016,
+      "number": 30,
+      "letter": "I",
+      "text": "income tax (agence francaise de development and proparco) (approval and exemption) order, 2016"
+    },
+    {
+      "year": 2019,
+      "number": 25,
+      "letter": "I",
+      "text": "income tax act (suspension of tax on payment of interest to non-resident) (treasury bill and bond) regulations, 2019"
+    },
+    {
+      "year": 2017,
+      "number": 43,
+      "letter": "I",
+      "text": "income tax (suspension of tax on payments to non-resident contractors) (batoka hydro-electric scheme and kariba dam rehabilitation projects) regulations, 2017"
+    },
+    {
+      "year": 1981,
+      "number": 48,
+      "letter": "I",
+      "text": "income tax (exempt organisations) (approval) order, 1981"
+    },
+    {
+      "year": 1981,
+      "number": 49,
+      "letter": "I",
+      "text": "income tax (foreign organisations) (exemption approval) order, 1981"
+    },
+    {
+      "year": 2002,
+      "number": 26,
+      "letter": "I",
+      "text": "industrial relations court (arbitration and mediation procedure) rules, 2002"
+    },
+    {
+      "year": 2008,
+      "number": 23,
+      "letter": "I",
+      "text": "representative bodies (elections and conduct of ballot) regulations, 2008"
+    },
+    {
+      "year": 1993,
+      "number": 49,
+      "letter": "I",
+      "text": "inland waters (section 24 (3) harbours) (designation) notice, 1993"
+    },
+    {
+      "year": 1990,
+      "number": 48,
+      "letter": "I",
+      "text": "a commission"
+    },
+    {
+      "year": 2003,
+      "number": 40,
+      "letter": "I",
+      "text": "commission"
+    },
+    {
+      "year": 2014,
+      "number": 22,
+      "letter": "I",
+      "text": "legal and justice sector reform commission"
+    },
+    {
+      "year": 2016,
+      "number": 72,
+      "letter": "I",
+      "text": "inquiries act - commission, 2016"
+    },
+    {
+      "year": 2015,
+      "number": 25,
+      "letter": "I",
+      "text": "inquiries act - commission, 2015"
+    },
+    {
+      "year": 1983,
+      "number": 37,
+      "letter": "I",
+      "text": "international game park (lower zambezi) (cessation) order, 1983"
+    },
+    {
+      "year": 2024,
+      "number": 4,
+      "letter": "I",
+      "text": "investment, trade and business development (luano industrial park) (declaration) order, 2024"
+    },
+    {
+      "year": 2025,
+      "number": 19,
+      "letter": "I",
+      "text": "investment,trade and business development (fintech city multi-facility economic zone) (declaration) order, 2025"
+    },
+    {
+      "year": 2024,
+      "number": 7,
+      "letter": "I",
+      "text": "ionising radiation protection (nuclear medicine) regulations, 2024"
+    },
+    {
+      "year": 2024,
+      "number": 8,
+      "letter": "I",
+      "text": "ionising radiation protection (radiotherapy) regulations, 2024"
+    },
+    {
+      "year": 2014,
+      "number": 8,
+      "letter": "F",
+      "text": "fees and fines (fee and penalty unit value) regulations, 2014"
+    },
+    {
+      "year": 2012,
+      "number": 24,
+      "letter": "F",
+      "text": "fisheries regulations, 2012"
+    },
+    {
+      "year": 2026,
+      "number": 8,
+      "letter": "F",
+      "text": "fisheries (management area) (declaration) order, 2025"
+    },
+    {
+      "year": 2021,
+      "number": 3,
+      "letter": "F",
+      "text": "national forest no. f31: kabwe (alteration of boundaries) order, 2021"
+    },
+    {
+      "year": 2021,
+      "number": 66,
+      "letter": "F",
+      "text": "forest (carbon stock management) regulations, 2021"
+    },
+    {
+      "year": 2021,
+      "number": 1,
+      "letter": "F",
+      "text": "forest reserve no. 4: maposa (cessation) order, 2021"
+    },
+    {
+      "year": 2021,
+      "number": 2,
+      "letter": "F",
+      "text": "kasama national forest no. p. 47: (alteration of boundaries) order, 2021"
+    },
+    {
+      "year": 2020,
+      "number": 13,
+      "letter": "F",
+      "text": "national forest no. f.12: luano (alteration of boundaries) order, 2020"
+    },
+    {
+      "year": 2020,
+      "number": 12,
+      "letter": "F",
+      "text": "local forest no. p. 320: mpande hills (alteration of boundaries) order, 2020"
+    },
+    {
+      "year": 2015,
+      "number": 94,
+      "letter": "F",
+      "text": "forests (export of timber) regulations, 2015"
+    },
+    {
+      "year": 2016,
+      "number": 50,
+      "letter": "F",
+      "text": "forest (concession licence) regulations, 2016"
+    },
+    {
+      "year": 2016,
+      "number": 68,
+      "letter": "F",
+      "text": "local forest (no. 315: chipilepile) (cessation) order, 2016"
+    },
+    {
+      "year": 2018,
+      "number": 11,
+      "letter": "F",
+      "text": "forests (community forest management) regulations, 2018"
+    },
+    {
+      "year": 2017,
+      "number": 63,
+      "letter": "F",
+      "text": "local forest no. 42: kawena (cessation) order, 2017"
+    },
+    {
+      "year": 2017,
+      "number": 28,
+      "letter": "F",
+      "text": "dambwa local forest no. f22: (alteration of boundaries) order, 2017"
+    },
+    {
+      "year": 2023,
+      "number": 13,
+      "letter": "F",
+      "text": "forfeiture of proceeds of crime (fund and property management) regulations, 2023"
+    },
+    {
+      "year": 2025,
+      "number": 56,
+      "letter": "A",
+      "text": "access to information (general) regulations, 2025"
+    },
+    {
+      "year": 2014,
+      "number": 59,
+      "letter": "A",
+      "text": "agricultural credits (appointment of authorised agency) order, 2014"
+    },
+    {
+      "year": 2018,
+      "number": 54,
+      "letter": "A",
+      "text": "agricultural institute of zambia (general) regulations, 2018"
+    },
+    {
+      "year": 1985,
+      "number": 24,
+      "letter": "A",
+      "text": "air passenger service charge (appointment of collection agents) (no. 2) order, 1985"
+    },
+    {
+      "year": 1992,
+      "number": 9,
+      "letter": "A",
+      "text": "air passenger service charge (charging) order, 1992"
+    },
+    {
+      "year": 2001,
+      "number": 32,
+      "letter": "A",
+      "text": "air services (permit fees) regulations, 2001"
+    },
+    {
+      "year": 1985,
+      "number": 45,
+      "letter": "A",
+      "text": "air services (aerial application permit) regulations, 1985"
+    },
+    {
+      "year": 2014,
+      "number": 16,
+      "letter": "A",
+      "text": "animal health (livestock cleansing) order, 2014"
+    },
+    {
+      "year": 2014,
+      "number": 24,
+      "letter": "A",
+      "text": "animal health (control and prevention of animal disease) order, 2014"
+    },
+    {
+      "year": 2019,
+      "number": 81,
+      "letter": "A",
+      "text": "animal health (notifiable diseases) regulations, 2019"
+    },
+    {
+      "year": 2018,
+      "number": 22,
+      "letter": "A",
+      "text": "animal health (veterinary services fees) regulations, 2018"
+    },
+    {
+      "year": 2020,
+      "number": 94,
+      "letter": "A",
+      "text": "animal health (bee keeping) regulations, 2020"
+    },
+    {
+      "year": 2020,
+      "number": 87,
+      "letter": "A",
+      "text": "animal health (designated border inspection posts) regulations, 2020"
+    },
+    {
+      "year": 2021,
+      "number": 25,
+      "letter": "A",
+      "text": "animal health (destruction of pigs) (compensation) order, 2021"
+    },
+    {
+      "year": 2020,
+      "number": 86,
+      "letter": "A",
+      "text": "animal health (establishment of tsetse control pickets and check points) regulations, 2020"
+    },
+    {
+      "year": 2020,
+      "number": 93,
+      "letter": "A",
+      "text": "animal health (import and export of animal, animal product, animal by-product or article) regulations, 2020"
+    },
+    {
+      "year": 2020,
+      "number": 85,
+      "letter": "A",
+      "text": "animal health (tsetse fly area and tsetse fly control area) (declaration) notice, 2020"
+    },
+    {
+      "year": 2020,
+      "number": 84,
+      "letter": "A",
+      "text": "animal identification (general) regulations, 2020"
+    },
+    {
+      "year": 2024,
+      "number": 1,
+      "letter": "A",
+      "text": "anti-terrorism and non proliferation (united nations security council resolutions implementation) regulations, 2024"
+    },
+    {
+      "year": 1984,
+      "number": 12,
+      "letter": "T",
+      "text": "sales tax (amendment) bill (provisional charging) order, 1984"
+    },
+    {
+      "year": 1984,
+      "number": 17,
+      "letter": "T",
+      "text": "mines and minerals (amendment) bill (provisional charging) order 1984"
+    },
+    {
+      "year": 1984,
+      "number": 11,
+      "letter": "T",
+      "text": "customs and excise (amendment) bill (provisional charging) order, 1984"
+    },
+    {
+      "year": 1984,
+      "number": 13,
+      "letter": "T",
+      "text": "stamp duty (amendment) bill (provisional charging) order, 1984"
+    },
+    {
+      "year": 1984,
+      "number": 14,
+      "letter": "T",
+      "text": "casino (amendment) bill (provisional charging) order, 1984"
+    },
+    {
+      "year": 1984,
+      "number": 16,
+      "letter": "T",
+      "text": "hotels (amendment) bill (provisional charging) order, 1984"
+    },
+    {
+      "year": 1984,
+      "number": 18,
+      "letter": "T",
+      "text": "gold trade (amendment) bill (provisional charging) order, 1984"
+    },
+    {
+      "year": 1988,
+      "number": 31,
+      "letter": "T",
+      "text": "taxation (provisional charging) order, 1988"
+    },
+    {
+      "year": 1992,
+      "number": 27,
+      "letter": "T",
+      "text": "taxation (provisional charging) order, 1992"
+    },
+    {
+      "year": 1992,
+      "number": 44,
+      "letter": "T",
+      "text": "taxation (provisional charging) (no. 2) order, 1992"
+    },
+    {
+      "year": 1994,
+      "number": 22,
+      "letter": "T",
+      "text": "taxation (provisional charging) order, 1994"
+    },
+    {
+      "year": 1996,
+      "number": 11,
+      "letter": "T",
+      "text": "taxation (provisional charging) order, 1996"
+    },
+    {
+      "year": 1995,
+      "number": 6,
+      "letter": "T",
+      "text": "taxation (provisional charging) order, 1995"
+    },
+    {
+      "year": 1985,
+      "number": 13,
+      "letter": "T",
+      "text": "taxation (provisional charging) order, 1985"
+    },
+    {
+      "year": 1986,
+      "number": 21,
+      "letter": "T",
+      "text": "taxation (provisional charging) order, 1986"
+    },
+    {
+      "year": 1987,
+      "number": 47,
+      "letter": "T",
+      "text": "taxation (provisional charging) order, 1987"
+    },
+    {
+      "year": 2018,
+      "number": 1,
+      "letter": "T",
+      "text": "teaching profession (code of ethics) regulations, 2018"
+    },
+    {
+      "year": 1995,
+      "number": 35,
+      "letter": "T",
+      "text": "technical education and vocational training (registration of private institutions) (fees) regulations, 1995"
+    },
+    {
+      "year": 2008,
+      "number": 20,
+      "letter": "T",
+      "text": "technical education, vocational and entrepreneurship training (gemstone processing and lapidary training centre) (establishment) regulations, 2008"
+    },
+    {
+      "year": 2015,
+      "number": 79,
+      "letter": "T",
+      "text": "tolls (victoria falls bridge) regulations, 2015"
+    },
+    {
+      "year": 2016,
+      "number": 57,
+      "letter": "T",
+      "text": "tolls (victoria falls bridge) regulations, 2016"
+    },
+    {
+      "year": 2016,
+      "number": 85,
+      "letter": "T",
+      "text": "tolls regulations, 2016"
+    },
+    {
+      "year": 2025,
+      "number": 12,
+      "letter": "T",
+      "text": "tolls (micheal chilufya sata toll plaza) regulations, 2025"
+    },
+    {
+      "year": 2026,
+      "number": 11,
+      "letter": "T",
+      "text": "tolls (tom mtine toll plaza) regulations, 2026"
+    },
+    {
+      "year": 2022,
+      "number": 26,
+      "letter": "T",
+      "text": "tourism and hospitality (licensing) (temporary disapplication of renewal and retention fees) regulations, 2022"
+    },
+    {
+      "year": 2022,
+      "number": 25,
+      "letter": "T",
+      "text": "tourism and hospitality (registration of hotel managers) (temporary disapplication of registration fee) regulations, 2022"
+    },
+    {
+      "year": 2020,
+      "number": 123,
+      "letter": "T",
+      "text": "tourism and hospitality (registration of hotel managers) (temporary disapplication of registration fee) regulations, 2020"
+    },
+    {
+      "year": 2020,
+      "number": 122,
+      "letter": "T",
+      "text": "tourism and hospitality (licensing) (temporary disapplication of renewal and retention fee) regulations, 2020"
+    },
+    {
+      "year": 2016,
+      "number": 51,
+      "letter": "T",
+      "text": "tourism and hospitality (licensing) regulations, 2016"
+    },
+    {
+      "year": 2016,
+      "number": 93,
+      "letter": "T",
+      "text": "tourism and hospitality (casino) regulations, 2016"
+    },
+    {
+      "year": 2016,
+      "number": 94,
+      "letter": "T",
+      "text": "tourism and hospitality (registration of hotel managers) regulations, 2016"
+    },
+    {
+      "year": 2016,
+      "number": 99,
+      "letter": "T",
+      "text": "tourism and hospitality (prepaid package tours) regulations, 2016"
+    },
+    {
+      "year": 2016,
+      "number": 100,
+      "letter": "T",
+      "text": "tourism and hospitality (prepaid package tours) regulations, 2016"
+    },
+    {
+      "year": 2018,
+      "number": 14,
+      "letter": "T",
+      "text": "tourism and hospitality (accommodation establishment standards) regulations, 2018"
+    },
+    {
+      "year": 2017,
+      "number": 22,
+      "letter": "T",
+      "text": "tourism and hospitality (casino) regulations, 2017"
+    },
+    {
+      "year": 2017,
+      "number": 20,
+      "letter": "T",
+      "text": "tourism and hospitality (prepaid package tours) regulations, 2017"
+    },
+    {
+      "year": 2002,
+      "number": 45,
+      "letter": "T",
+      "text": "transfer of convicted persons (prescribed forms) (no. 2) regulations, 2002"
+    },
+    {
+      "year": 2008,
+      "number": 41,
+      "letter": "T",
+      "text": "transfer of convicted persons (designated country) order, 2008"
+    },
+    {
+      "year": 1984,
+      "number": 39,
+      "letter": "T",
+      "text": "tropical diseases research centre act (commencement) order, 1984"
+    }
+  ],
+  "extra_alphabets_appended": [
+    "I",
+    "F",
+    "A",
+    "T"
+  ]
+}

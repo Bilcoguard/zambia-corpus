@@ -1,0 +1,55 @@
+{
+  "batch": "0205",
+  "phase": "ingest",
+  "slice": [
+    0,
+    3
+  ],
+  "started_at": "2026-04-25T00:38:54Z",
+  "completed_at": "2026-04-25T00:39:50Z",
+  "fetch_start": 32,
+  "fetch_end": 38,
+  "results": [
+    {
+      "year": 2022,
+      "number": 13,
+      "sub_phase": "sis_employment",
+      "status": "pdf_parse_empty",
+      "discovery_text": "minimum wages and conditions of employment (truck and bus drivers) (amendment) order, 2022",
+      "alphabet": "E"
+    },
+    {
+      "year": 2021,
+      "number": 13,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "worker's compensation (domestic workers) regulations, 2021",
+      "alphabet": "W",
+      "record_id": "si-zm-2021-013-workers-compensation-domestic-workers-regulations-2021",
+      "sections": 4,
+      "title": "Worker\u2019s Compensation (Domestic Workers) Regulations, 2021",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2021/13/eng@2021-03-11/source.pdf",
+      "pdf_hash": "7b0902d8d11c1ab646505e8eceafd549e21ba10632116db513602f8f86ae5694",
+      "pdf_bytes": 25887,
+      "raw_pdf": "/sessions/eager-lucid-mendel/mnt/corpus/raw/zambialii/si/2021/si-zm-2021-013-workers-compensation-domestic-workers-regulations-2021.pdf",
+      "record_path": "/sessions/eager-lucid-mendel/mnt/corpus/records/sis/2021/si-zm-2021-013-workers-compensation-domestic-workers-regulations-2021.json"
+    },
+    {
+      "year": 2014,
+      "number": 31,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "workers' compensation (capitalised values) regulations, 2014 (override)",
+      "alphabet": "W",
+      "record_id": "si-zm-2014-031-workers-compensation-capitalised-values-regulations-2014",
+      "sections": 2,
+      "title": "Workers\u2019 Compensation (Capitalised Values) Regulations, 2014",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2014/31/eng@2014-04-17/source.pdf",
+      "pdf_hash": "52cf7317da3e89666e516e9ff6952d33986c238488f3ad2603a765b0c86e80c9",
+      "pdf_bytes": 1717040,
+      "raw_pdf": "/sessions/eager-lucid-mendel/mnt/corpus/raw/zambialii/si/2014/si-zm-2014-031-workers-compensation-capitalised-values-regulations-2014.pdf",
+      "record_path": "/sessions/eager-lucid-mendel/mnt/corpus/records/sis/2014/si-zm-2014-031-workers-compensation-capitalised-values-regulations-2014.json"
+    }
+  ],
+  "note": "Reconstructed by tick driver after bash-timeout interrupted the original slice_0_8 call mid-flight; underlying records and gap entries are on disk and verified."
+}

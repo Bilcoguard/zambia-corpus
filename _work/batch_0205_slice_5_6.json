@@ -1,0 +1,30 @@
+{
+  "batch": "0205",
+  "phase": "ingest",
+  "slice": [
+    5,
+    6
+  ],
+  "started_at": "2026-04-25T00:41:41Z",
+  "completed_at": "2026-04-25T00:41:49Z",
+  "fetch_start": 42,
+  "fetch_end": 44,
+  "results": [
+    {
+      "year": 2008,
+      "number": 20,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "technical education, vocational and entrepreneurship training (gemstone processing and lapidary training centre)",
+      "alphabet": "T",
+      "record_id": "si-zm-2008-020-technical-education-vocational-and-entrepreneurship-training-gemstone-processing",
+      "sections": 2,
+      "title": "Technical Education, Vocational and Entrepreneurship Training (Gemstone Processing and Lapidary Training Centre) (Establishment) Regulations, 2008",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2008/20/eng@2008-02-15/source.pdf",
+      "pdf_hash": "6078e4cc9b4530d403f76c20ebc218835fdd3c24b9cf8a59668c1a3df355f646",
+      "pdf_bytes": 417633,
+      "raw_pdf": "/sessions/eager-lucid-mendel/mnt/corpus/raw/zambialii/si/2008/si-zm-2008-020-technical-education-vocational-and-entrepreneurship-training-gemstone-processing.pdf",
+      "record_path": "/sessions/eager-lucid-mendel/mnt/corpus/records/sis/2008/si-zm-2008-020-technical-education-vocational-and-entrepreneurship-training-gemstone-processing.json"
+    }
+  ]
+}

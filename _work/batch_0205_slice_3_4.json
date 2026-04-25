@@ -1,0 +1,30 @@
+{
+  "batch": "0205",
+  "phase": "ingest",
+  "slice": [
+    3,
+    4
+  ],
+  "started_at": "2026-04-25T00:41:15Z",
+  "completed_at": "2026-04-25T00:41:23Z",
+  "fetch_start": 38,
+  "fetch_end": 40,
+  "results": [
+    {
+      "year": 2002,
+      "number": 26,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "industrial relations court (arbitration and mediation procedure) rules, 2002",
+      "alphabet": "I",
+      "record_id": "si-zm-2002-026-industrial-relations-court-arbitration-and-mediation-procedure-rules-2002",
+      "sections": 27,
+      "title": "Industrial Relations Court (Arbitration and Mediation Procedure) Rules, 2002",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2002/26/eng@2002-04-19/source.pdf",
+      "pdf_hash": "43ec3db49c8279348bd49cd4547419ee348e88fe57148c86a5a020680a8f760f",
+      "pdf_bytes": 844830,
+      "raw_pdf": "/sessions/eager-lucid-mendel/mnt/corpus/raw/zambialii/si/2002/si-zm-2002-026-industrial-relations-court-arbitration-and-mediation-procedure-rules-2002.pdf",
+      "record_path": "/sessions/eager-lucid-mendel/mnt/corpus/records/sis/2002/si-zm-2002-026-industrial-relations-court-arbitration-and-mediation-procedure-rules-2002.json"
+    }
+  ]
+}

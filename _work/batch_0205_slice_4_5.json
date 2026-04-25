@@ -1,0 +1,30 @@
+{
+  "batch": "0205",
+  "phase": "ingest",
+  "slice": [
+    4,
+    5
+  ],
+  "started_at": "2026-04-25T00:41:28Z",
+  "completed_at": "2026-04-25T00:41:36Z",
+  "fetch_start": 40,
+  "fetch_end": 42,
+  "results": [
+    {
+      "year": 1995,
+      "number": 35,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "technical education and vocational training (registration of private institutions) (fees) regulations, 1995",
+      "alphabet": "T",
+      "record_id": "si-zm-1995-035-technical-education-and-vocational-training-registration-of-private-institutions",
+      "sections": 2,
+      "title": "Technical Education and Vocational Training (Registration of Private Institutions) (Fees) Regulations, 1995",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1995/35/eng@1995-03-10/source.pdf",
+      "pdf_hash": "27d411ec8a6aebc83996126fae8b78363ee9c186ab8d1580003980c20a27fffb",
+      "pdf_bytes": 105880,
+      "raw_pdf": "/sessions/eager-lucid-mendel/mnt/corpus/raw/zambialii/si/1995/si-zm-1995-035-technical-education-and-vocational-training-registration-of-private-institutions.pdf",
+      "record_path": "/sessions/eager-lucid-mendel/mnt/corpus/records/sis/1995/si-zm-1995-035-technical-education-and-vocational-training-registration-of-private-institutions.json"
+    }
+  ]
+}

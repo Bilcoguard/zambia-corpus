@@ -1020,3 +1020,4 @@ regex form from `batch_0176.py`.
 - [2026-04-24T22:10:02Z] si/2000/105 status=http_404 url=https://zambialii.org/akn/zm/act/si/2000/105 batch=0200 sub_phase=sis_employment
 - [2026-04-24T23:34:55Z] si/2019/025 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2019/25 batch=0203 sub_phase=sis_corporate
 - [2026-04-24T23:35:08Z] si/2017/043 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2017/43 batch=0203 sub_phase=sis_corporate
+- [2026-04-25T00:38:54Z] si/2022/013 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2022/13 batch=0205 sub_phase=sis_employment

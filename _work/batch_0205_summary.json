@@ -1,0 +1,130 @@
+{
+  "batch": "0205",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_employment",
+  "started_at": "2026-04-25T00:36:29Z",
+  "completed_at": "2026-04-25T00:42:16Z",
+  "discovery_fetches": 6,
+  "ingest_fetches": 12,
+  "fetches_used": 18,
+  "records_written": 5,
+  "targets_attempted": 6,
+  "results": [
+    {
+      "year": 2022,
+      "number": 13,
+      "sub_phase": "sis_employment",
+      "status": "pdf_parse_empty",
+      "discovery_text": "minimum wages and conditions of employment (truck and bus drivers) (amendment) order, 2022",
+      "alphabet": "E"
+    },
+    {
+      "year": 2021,
+      "number": 13,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "worker's compensation (domestic workers) regulations, 2021",
+      "alphabet": "W",
+      "record_id": "si-zm-2021-013-workers-compensation-domestic-workers-regulations-2021",
+      "sections": 4,
+      "title": "Worker\u2019s Compensation (Domestic Workers) Regulations, 2021",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2021/13/eng@2021-03-11/source.pdf",
+      "pdf_hash": "7b0902d8d11c1ab646505e8eceafd549e21ba10632116db513602f8f86ae5694",
+      "pdf_bytes": 25887,
+      "raw_pdf": "/sessions/eager-lucid-mendel/mnt/corpus/raw/zambialii/si/2021/si-zm-2021-013-workers-compensation-domestic-workers-regulations-2021.pdf",
+      "record_path": "/sessions/eager-lucid-mendel/mnt/corpus/records/sis/2021/si-zm-2021-013-workers-compensation-domestic-workers-regulations-2021.json"
+    },
+    {
+      "year": 2014,
+      "number": 31,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "workers' compensation (capitalised values) regulations, 2014 (override)",
+      "alphabet": "W",
+      "record_id": "si-zm-2014-031-workers-compensation-capitalised-values-regulations-2014",
+      "sections": 2,
+      "title": "Workers\u2019 Compensation (Capitalised Values) Regulations, 2014",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2014/31/eng@2014-04-17/source.pdf",
+      "pdf_hash": "52cf7317da3e89666e516e9ff6952d33986c238488f3ad2603a765b0c86e80c9",
+      "pdf_bytes": 1717040,
+      "raw_pdf": "/sessions/eager-lucid-mendel/mnt/corpus/raw/zambialii/si/2014/si-zm-2014-031-workers-compensation-capitalised-values-regulations-2014.pdf",
+      "record_path": "/sessions/eager-lucid-mendel/mnt/corpus/records/sis/2014/si-zm-2014-031-workers-compensation-capitalised-values-regulations-2014.json"
+    },
+    {
+      "year": 2002,
+      "number": 26,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "industrial relations court (arbitration and mediation procedure) rules, 2002",
+      "alphabet": "I",
+      "record_id": "si-zm-2002-026-industrial-relations-court-arbitration-and-mediation-procedure-rules-2002",
+      "sections": 27,
+      "title": "Industrial Relations Court (Arbitration and Mediation Procedure) Rules, 2002",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2002/26/eng@2002-04-19/source.pdf",
+      "pdf_hash": "43ec3db49c8279348bd49cd4547419ee348e88fe57148c86a5a020680a8f760f",
+      "pdf_bytes": 844830,
+      "raw_pdf": "/sessions/eager-lucid-mendel/mnt/corpus/raw/zambialii/si/2002/si-zm-2002-026-industrial-relations-court-arbitration-and-mediation-procedure-rules-2002.pdf",
+      "record_path": "/sessions/eager-lucid-mendel/mnt/corpus/records/sis/2002/si-zm-2002-026-industrial-relations-court-arbitration-and-mediation-procedure-rules-2002.json"
+    },
+    {
+      "year": 1995,
+      "number": 35,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "technical education and vocational training (registration of private institutions) (fees) regulations, 1995",
+      "alphabet": "T",
+      "record_id": "si-zm-1995-035-technical-education-and-vocational-training-registration-of-private-institutions",
+      "sections": 2,
+      "title": "Technical Education and Vocational Training (Registration of Private Institutions) (Fees) Regulations, 1995",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1995/35/eng@1995-03-10/source.pdf",
+      "pdf_hash": "27d411ec8a6aebc83996126fae8b78363ee9c186ab8d1580003980c20a27fffb",
+      "pdf_bytes": 105880,
+      "raw_pdf": "/sessions/eager-lucid-mendel/mnt/corpus/raw/zambialii/si/1995/si-zm-1995-035-technical-education-and-vocational-training-registration-of-private-institutions.pdf",
+      "record_path": "/sessions/eager-lucid-mendel/mnt/corpus/records/sis/1995/si-zm-1995-035-technical-education-and-vocational-training-registration-of-private-institutions.json"
+    },
+    {
+      "year": 2008,
+      "number": 20,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "technical education, vocational and entrepreneurship training (gemstone processing and lapidary training centre)",
+      "alphabet": "T",
+      "record_id": "si-zm-2008-020-technical-education-vocational-and-entrepreneurship-training-gemstone-processing",
+      "sections": 2,
+      "title": "Technical Education, Vocational and Entrepreneurship Training (Gemstone Processing and Lapidary Training Centre) (Establishment) Regulations, 2008",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2008/20/eng@2008-02-15/source.pdf",
+      "pdf_hash": "6078e4cc9b4530d403f76c20ebc218835fdd3c24b9cf8a59668c1a3df355f646",
+      "pdf_bytes": 417633,
+      "raw_pdf": "/sessions/eager-lucid-mendel/mnt/corpus/raw/zambialii/si/2008/si-zm-2008-020-technical-education-vocational-and-entrepreneurship-training-gemstone-processing.pdf",
+      "record_path": "/sessions/eager-lucid-mendel/mnt/corpus/records/sis/2008/si-zm-2008-020-technical-education-vocational-and-entrepreneurship-training-gemstone-processing.json"
+    }
+  ],
+  "discovery_alphabets": [
+    "E",
+    "M",
+    "N",
+    "O",
+    "W"
+  ],
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "novel_total_pre_keyword": 276,
+  "novel_kept_post_keyword": 2,
+  "slices": [
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ]
+  ]
+}

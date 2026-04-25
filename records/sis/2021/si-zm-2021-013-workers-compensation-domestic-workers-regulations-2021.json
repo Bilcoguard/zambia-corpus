@@ -1,0 +1,46 @@
+{
+  "id": "si-zm-2021-013-workers-compensation-domestic-workers-regulations-2021",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Worker’s Compensation (Domestic Workers) Regulations, 2021",
+  "citation": "Statutory Instrument No. 13 of 2021",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "These Regulations may be cited as the Worker’s Title",
+      "text": "Compensation (Domestic Workers) Regulations, 2021."
+    },
+    {
+      "number": "2",
+      "heading": "The rate of assessment payable by an employer in respect Rate of",
+      "text": "of a domestic worker is ZMW 10.00 every month during which assessment\nthe domestic worker is employed."
+    },
+    {
+      "number": "3",
+      "heading": "An employer shall pay the assessment to the Fund and submit Payment of",
+      "text": "a return as set out in the Schedule. assessment"
+    },
+    {
+      "number": "4",
+      "heading": "The Workers’ Compensation (Private Domestic Servants) Revocation of",
+      "text": "Regulations, 1973 are revoked. S. I. No. 197\nof 1973\nCopies of this Statutory Instrument can be obtained from the Government Printer,\nP.O. Box 30136, 10101, Lusaka, Price K4.00 each\n50 Statutory Instruments 11th March, 2021\nSCHEDULE\n(Regulation 3)\nANNUAL RETURNS BY EMPLOYERS OF DOMESTIC WORKERS\nTo be completed by Employers of domestic workers\nName: .........................................................................................................................................\nResidential address: .....................................................................................................................\n.....................................................................................................................................................\nEmail address: .............................................................................................................................\nTelephone/ cell phone number......................................................................................................\nFinancial year of the Board in respect of the return filed ............................................................\nto: ..............................................................................................................................................\nName(s) of domestic Date of NRC/ Address of Date Date ceased\nworker birth Passport domestic employed employment\nNo. worker (state in\nrespect of a\nworker who\nhas ceased\nemployment\nduring the\npreceding\nfinancial year\nof the Board\nending ......day\nof ......... or\nsince the last\nreturn was\nfiled\n(indicate))\nDate: ..............................................................\n..............................................................\nSigned by Employer or duly authorised representative\nJ. N. SIMUKOKO,\nLUSAKA Minister of Labour and\n3rd March, 2021 Social Security\n[MLSS/52/1/1]"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2021/13/eng@2021-03-11/source.pdf",
+  "source_hash": "sha256:7b0902d8d11c1ab646505e8eceafd549e21ba10632116db513602f8f86ae5694",
+  "fetched_at": "2026-04-25T00:39:01Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2021/13/eng@2021-03-11",
+      "source_hash": "sha256:81dcdb151bb48328870b7ffa20f20bc4677e180f949b8848b985fe37d004fab6",
+      "fetched_at": "2026-04-25T00:38:54Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

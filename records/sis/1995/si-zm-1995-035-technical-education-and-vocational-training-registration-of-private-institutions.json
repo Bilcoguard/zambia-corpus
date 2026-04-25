@@ -1,0 +1,36 @@
+{
+  "id": "si-zm-1995-035-technical-education-and-vocational-training-registration-of-private-institutions",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Technical Education and Vocational Training (Registration of Private Institutions) (Fees) Regulations, 1995",
+  "citation": "Statutory Instrument No. 35 of 1995",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "These Regulations may be cited as the Teclmical Education Ti1le",
+      "text": "and Vocational Training (Registration of Private Institutions)\n(Fees) Regulations, 1995."
+    },
+    {
+      "number": "2",
+      "heading": "The fees payable for registration and renewal of registration Fees",
+      "text": "of private institutions shall be as set out in the Schedule.\nAPPENDIX\n(RegulaJion 2)\nSCHEDULE\n1.0 Initial registration of a private K\n'\ninstitution 130,000.00\n1.1 Renewal of registration of a privatd\ninstitution 70,000.00\nG. K.MAKA,\nLUSAKA Minister ofS cience, Technology\n6th March, 1995 and Vocational Training\n[MSTVT.101/1/42\nCONP.]\nCopies of lhis Statutory lnslrumenl cau be oblainedfrom the Government Primer�\nP.O. Box:J0/36, 10100 Lusaka. Price K45.00 each."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/1995/35/eng@1995-03-10/source.pdf",
+  "source_hash": "sha256:27d411ec8a6aebc83996126fae8b78363ee9c186ab8d1580003980c20a27fffb",
+  "fetched_at": "2026-04-25T00:41:29Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/1995/35/eng@1995-03-10",
+      "source_hash": "sha256:a5e64cb2c47d77b9b784ec70c970a7defcf499f38a6e1e3d7d864c066fc66668",
+      "fetched_at": "2026-04-25T00:41:28Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}
