@@ -1024,3 +1024,9 @@ regex form from `batch_0176.py`.
 - [2026-04-25T02:05:42Z] si/2022/004 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2022/4 batch=0208 sub_phase=sis_tax
 - [2026-04-25T04:40:43Z] si/2022/012 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2022/12 batch=0213 sub_phase=sis_corporate
 - [2026-04-25T09:07:15Z] si/2022/013 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2022/13 batch=0221 sub_phase=sis_employment
+- [2026-04-25T11:38:07Z] si/2017/043 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2017/43 batch=0222 sub_phase=sis_tax
+- [2026-04-25T11:38:22Z] si/2019/025 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2019/25 batch=0222 sub_phase=sis_tax
+- [2026-04-25T11:39:12Z] si/2017/043 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2017/43 batch=0222 sub_phase=sis_tax note=image-only/scanned PDF (pdfplumber+pdfminer both 0 chars; same pattern as 2022/004, 2022/012, 2022/013)
+- [2026-04-25T11:39:12Z] si/2019/025 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2019/25 batch=0222 sub_phase=sis_tax note=image-only/scanned PDF (pdfplumber+pdfminer both 0 chars; same pattern as 2022/004, 2022/012, 2022/013)
+- [2026-04-25T11:41:15Z] si/2011/129 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2011/129 batch=0222 sub_phase=sis_immigration
+- [2026-04-25T11:41:55Z] si/2011/129 status=pdf_parse_empty url=https://commons.laws.africa/akn/zm/act/si/2011/129/media/publication/zm-act-si-2011-129-publication-document.pdf batch=0222 sub_phase=sis_immigration note=image-only/scanned PDF (Immigration and Deportation General Regs 2011)

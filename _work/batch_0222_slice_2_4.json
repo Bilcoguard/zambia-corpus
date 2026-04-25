@@ -1,0 +1,46 @@
+{
+  "batch": "0222",
+  "phase": "ingest",
+  "slice": [
+    2,
+    4
+  ],
+  "started_at": "2026-04-25T11:39:57Z",
+  "completed_at": "2026-04-25T11:40:22Z",
+  "fetch_start": 387,
+  "fetch_end": 391,
+  "results": [
+    {
+      "year": 2024,
+      "number": 7,
+      "sub_phase": "sis_health",
+      "status": "ok",
+      "discovery_text": "ionising radiation protection nuclear medicine regulations 2024",
+      "alphabet": "I",
+      "record_id": "si-zm-2024-007-ionising-radiation-protection-nuclear-medicine-regulations-2024",
+      "sections": 78,
+      "title": "Ionising Radiation Protection (Nuclear Medicine) Regulations, 2024",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2024/7/eng@2024-01-19/source.pdf",
+      "pdf_hash": "1b5af74abb67ee1046e22d8388c9d5eb91b6e9ee223c0b35811ce46255062c1d",
+      "pdf_bytes": 385098,
+      "raw_pdf": "/sessions/loving-affectionate-planck/mnt/corpus/raw/zambialii/si/2024/si-zm-2024-007-ionising-radiation-protection-nuclear-medicine-regulations-2024.pdf",
+      "record_path": "/sessions/loving-affectionate-planck/mnt/corpus/records/sis/2024/si-zm-2024-007-ionising-radiation-protection-nuclear-medicine-regulations-2024.json"
+    },
+    {
+      "year": 2024,
+      "number": 8,
+      "sub_phase": "sis_health",
+      "status": "ok",
+      "discovery_text": "ionising radiation protection radiotherapy regulations 2024",
+      "alphabet": "I",
+      "record_id": "si-zm-2024-008-ionising-radiation-protection-radiotherapy-regulations-2024",
+      "sections": 94,
+      "title": "Ionising Radiation Protection (Radiotherapy) Regulations, 2024",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2024/8/eng@2024-01-19/source.pdf",
+      "pdf_hash": "f7da3bd7e8bf2650dc5b0da4072a8923a484d8db9790ae166f0ad07621f25d70",
+      "pdf_bytes": 460938,
+      "raw_pdf": "/sessions/loving-affectionate-planck/mnt/corpus/raw/zambialii/si/2024/si-zm-2024-008-ionising-radiation-protection-radiotherapy-regulations-2024.pdf",
+      "record_path": "/sessions/loving-affectionate-planck/mnt/corpus/records/sis/2024/si-zm-2024-008-ionising-radiation-protection-radiotherapy-regulations-2024.json"
+    }
+  ]
+}

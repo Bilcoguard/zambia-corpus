@@ -1,0 +1,162 @@
+{
+  "batch": "0222",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_tax",
+  "started_at": "2026-04-25T11:34:41Z",
+  "completed_at": "2026-04-25T11:41:24Z",
+  "discovery_fetches": 6,
+  "ingest_fetches": 16,
+  "fetches_used": 26,
+  "records_written": 7,
+  "targets_attempted": 8,
+  "results": [
+    {
+      "year": 2026,
+      "number": 11,
+      "sub_phase": "sis_transport",
+      "status": "ok",
+      "discovery_text": "tolls tom mtine toll plaza regulations 2026",
+      "alphabet": "T",
+      "record_id": "si-zm-2026-011-tolls-tom-mtine-toll-plaza-regulations-2026",
+      "sections": 5,
+      "title": "Tolls (Tom Mtine Toll Plaza) Regulations, 2026",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2026/11/eng@2026-02-13/source.pdf",
+      "pdf_hash": "e4783785cfbb8e17631c2fd38db54c1daa3320342b3e02a806135e0e3ed0a96d",
+      "pdf_bytes": 309908,
+      "raw_pdf": "/sessions/loving-affectionate-planck/mnt/corpus/raw/zambialii/si/2026/si-zm-2026-011-tolls-tom-mtine-toll-plaza-regulations-2026.pdf",
+      "record_path": "/sessions/loving-affectionate-planck/mnt/corpus/records/sis/2026/si-zm-2026-011-tolls-tom-mtine-toll-plaza-regulations-2026.json"
+    },
+    {
+      "year": 2025,
+      "number": 12,
+      "sub_phase": "sis_transport",
+      "status": "ok",
+      "discovery_text": "tolls micheal chilufya sata toll plaza regulations 2025",
+      "alphabet": "T",
+      "record_id": "si-zm-2025-012-tolls-micheal-chilufya-sata-toll-plaza-regulations-2025",
+      "sections": 1,
+      "title": "Tolls (Micheal Chilufya Sata Toll Plaza) Regulations, 2025",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2025/12/eng@2025-04-04/source.pdf",
+      "pdf_hash": "f36bd63fdd6811dc3b7561eb9f5e6961bd226e96f81a5187d41280705e43db1e",
+      "pdf_bytes": 401932,
+      "raw_pdf": "/sessions/loving-affectionate-planck/mnt/corpus/raw/zambialii/si/2025/si-zm-2025-012-tolls-micheal-chilufya-sata-toll-plaza-regulations-2025.pdf",
+      "record_path": "/sessions/loving-affectionate-planck/mnt/corpus/records/sis/2025/si-zm-2025-012-tolls-micheal-chilufya-sata-toll-plaza-regulations-2025.json"
+    },
+    {
+      "year": 2024,
+      "number": 7,
+      "sub_phase": "sis_health",
+      "status": "ok",
+      "discovery_text": "ionising radiation protection nuclear medicine regulations 2024",
+      "alphabet": "I",
+      "record_id": "si-zm-2024-007-ionising-radiation-protection-nuclear-medicine-regulations-2024",
+      "sections": 78,
+      "title": "Ionising Radiation Protection (Nuclear Medicine) Regulations, 2024",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2024/7/eng@2024-01-19/source.pdf",
+      "pdf_hash": "1b5af74abb67ee1046e22d8388c9d5eb91b6e9ee223c0b35811ce46255062c1d",
+      "pdf_bytes": 385098,
+      "raw_pdf": "/sessions/loving-affectionate-planck/mnt/corpus/raw/zambialii/si/2024/si-zm-2024-007-ionising-radiation-protection-nuclear-medicine-regulations-2024.pdf",
+      "record_path": "/sessions/loving-affectionate-planck/mnt/corpus/records/sis/2024/si-zm-2024-007-ionising-radiation-protection-nuclear-medicine-regulations-2024.json"
+    },
+    {
+      "year": 2024,
+      "number": 8,
+      "sub_phase": "sis_health",
+      "status": "ok",
+      "discovery_text": "ionising radiation protection radiotherapy regulations 2024",
+      "alphabet": "I",
+      "record_id": "si-zm-2024-008-ionising-radiation-protection-radiotherapy-regulations-2024",
+      "sections": 94,
+      "title": "Ionising Radiation Protection (Radiotherapy) Regulations, 2024",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2024/8/eng@2024-01-19/source.pdf",
+      "pdf_hash": "f7da3bd7e8bf2650dc5b0da4072a8923a484d8db9790ae166f0ad07621f25d70",
+      "pdf_bytes": 460938,
+      "raw_pdf": "/sessions/loving-affectionate-planck/mnt/corpus/raw/zambialii/si/2024/si-zm-2024-008-ionising-radiation-protection-radiotherapy-regulations-2024.pdf",
+      "record_path": "/sessions/loving-affectionate-planck/mnt/corpus/records/sis/2024/si-zm-2024-008-ionising-radiation-protection-radiotherapy-regulations-2024.json"
+    },
+    {
+      "year": 2022,
+      "number": 33,
+      "sub_phase": "sis_courts",
+      "status": "ok",
+      "discovery_text": "judges salaries and conditions of service amendment regulations 2022",
+      "alphabet": "J",
+      "record_id": "si-zm-2022-033-judges-salaries-and-condition-of-service-amendment-regulations-2022",
+      "sections": 13,
+      "title": "Judges (Salaries and Condition of service) (Amendment) Regulations, 2022",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2022/33/eng@2022-05-13/source.pdf",
+      "pdf_hash": "3fe3085c89bd6299ce7e98bd66a987dbf65d8f6401465e122d8bbd8e2afee72d",
+      "pdf_bytes": 291315,
+      "raw_pdf": "/sessions/loving-affectionate-planck/mnt/corpus/raw/zambialii/si/2022/si-zm-2022-033-judges-salaries-and-condition-of-service-amendment-regulations-2022.pdf",
+      "record_path": "/sessions/loving-affectionate-planck/mnt/corpus/records/sis/2022/si-zm-2022-033-judges-salaries-and-condition-of-service-amendment-regulations-2022.json"
+    },
+    {
+      "year": 2018,
+      "number": 1,
+      "sub_phase": "sis_education",
+      "status": "ok",
+      "discovery_text": "teaching profession code of ethics regulations 2018",
+      "alphabet": "T",
+      "record_id": "si-zm-2018-001-teaching-profession-code-of-ethics-regulations-2018",
+      "sections": 49,
+      "title": "Teaching Profession (Code of Ethics) Regulations, 2018",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2018/1/eng@2018-01-12/source.pdf",
+      "pdf_hash": "80fb7e45b12c07f5fa93fa4c7d1702e6545ee65e932b43b0ec586a648a5d5edf",
+      "pdf_bytes": 42028,
+      "raw_pdf": "/sessions/loving-affectionate-planck/mnt/corpus/raw/zambialii/si/2018/si-zm-2018-001-teaching-profession-code-of-ethics-regulations-2018.pdf",
+      "record_path": "/sessions/loving-affectionate-planck/mnt/corpus/records/sis/2018/si-zm-2018-001-teaching-profession-code-of-ethics-regulations-2018.json"
+    },
+    {
+      "year": 2019,
+      "number": 34,
+      "sub_phase": "sis_immigration",
+      "status": "ok",
+      "discovery_text": "national registration regulations 2019",
+      "alphabet": "N",
+      "record_id": "si-zm-2019-034-national-registration-regulations-2019",
+      "sections": 66,
+      "title": "National Registration Regulations, 2019",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2019/34/eng@2019-05-24/source.pdf",
+      "pdf_hash": "114b35237e081ca26affb3b0807cf230cee63359bf8dd330c307c46f09f46ff4",
+      "pdf_bytes": 115165,
+      "raw_pdf": "/sessions/loving-affectionate-planck/mnt/corpus/raw/zambialii/si/2019/si-zm-2019-034-national-registration-regulations-2019.pdf",
+      "record_path": "/sessions/loving-affectionate-planck/mnt/corpus/records/sis/2019/si-zm-2019-034-national-registration-regulations-2019.json"
+    },
+    {
+      "year": 2011,
+      "number": 129,
+      "sub_phase": "sis_immigration",
+      "status": "pdf_parse_empty",
+      "discovery_text": "immigration and deportation general regulations 2011",
+      "alphabet": "I"
+    }
+  ],
+  "discovery_alphabets": [
+    "W",
+    "J",
+    "I",
+    "T",
+    "N"
+  ],
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "novel_total_pre_keyword": 71,
+  "novel_kept_post_keyword": 8,
+  "slices": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      8
+    ]
+  ]
+}

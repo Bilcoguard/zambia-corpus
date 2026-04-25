@@ -1,0 +1,721 @@
+{
+  "batch": "0222",
+  "phase": "discovery",
+  "started_at": "2026-04-25T11:34:41Z",
+  "completed_at": "20260425T113526Z",
+  "fetches_used": 6,
+  "fetch_end": 379,
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "alphabets": [
+    "W",
+    "J",
+    "I",
+    "T",
+    "N"
+  ],
+  "novel_total_pre_keyword": 71,
+  "novel_kept_post_keyword": 8,
+  "candidates": [
+    {
+      "year": 2026,
+      "number": 11,
+      "letter": "T",
+      "text": "tolls tom mtine toll plaza regulations 2026",
+      "sub_phase": "sis_transport"
+    },
+    {
+      "year": 2025,
+      "number": 12,
+      "letter": "T",
+      "text": "tolls micheal chilufya sata toll plaza regulations 2025",
+      "sub_phase": "sis_transport"
+    },
+    {
+      "year": 2024,
+      "number": 7,
+      "letter": "I",
+      "text": "ionising radiation protection nuclear medicine regulations 2024",
+      "sub_phase": "sis_health"
+    },
+    {
+      "year": 2024,
+      "number": 8,
+      "letter": "I",
+      "text": "ionising radiation protection radiotherapy regulations 2024",
+      "sub_phase": "sis_health"
+    },
+    {
+      "year": 2022,
+      "number": 33,
+      "letter": "J",
+      "text": "judges salaries and conditions of service amendment regulations 2022",
+      "sub_phase": "sis_courts"
+    },
+    {
+      "year": 2018,
+      "number": 1,
+      "letter": "T",
+      "text": "teaching profession code of ethics regulations 2018",
+      "sub_phase": "sis_education"
+    },
+    {
+      "year": 2019,
+      "number": 34,
+      "letter": "N",
+      "text": "national registration regulations 2019",
+      "sub_phase": "sis_immigration"
+    },
+    {
+      "year": 2011,
+      "number": 129,
+      "letter": "I",
+      "text": "immigration and deportation general regulations 2011",
+      "sub_phase": "sis_immigration"
+    }
+  ],
+  "novel_pre_keyword_sample": [
+    {
+      "year": "2001",
+      "num": "3",
+      "yr_num": "2001/003",
+      "title": "Immigration and Deportation Act (Fees) (Waiver) Regulations, 2000",
+      "alphabet": "I",
+      "url": "https://zambialii.org/akn/zm/act/si/2001/3",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2001/3/eng@2001-01-12"
+    },
+    {
+      "year": "1985",
+      "num": "31",
+      "yr_num": "1985/031",
+      "title": "Immigration and Deportation (Fees) (Waiver) Order, 1985",
+      "alphabet": "I",
+      "url": "https://zambialii.org/akn/zm/act/si/1985/31",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1985/31/eng@1985-03-01"
+    },
+    {
+      "year": "2011",
+      "num": "129",
+      "yr_num": "2011/129",
+      "title": "Immigration and Deportation (General) Regulations, 2011",
+      "alphabet": "I",
+      "url": "https://zambialii.org/akn/zm/act/si/2011/129",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2011/129/eng@2012-04-05"
+    },
+    {
+      "year": "2013",
+      "num": "38",
+      "yr_num": "2013/038",
+      "title": "Immigration and Deportation (Immigration Consultants) Regulations, 2013",
+      "alphabet": "I",
+      "url": "https://zambialii.org/akn/zm/act/si/2013/38",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2013/38/eng@2013-05-17"
+    },
+    {
+      "year": "2019",
+      "num": "25",
+      "yr_num": "2019/025",
+      "title": "Income Tax Act (Suspension of tax on payment of interest to non-resident) (Treasury Bill and Bond) Regulations, 2019",
+      "alphabet": "I",
+      "url": "https://zambialii.org/akn/zm/act/si/2019/25",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2019/25/eng@2019-03-22"
+    },
+    {
+      "year": "2017",
+      "num": "43",
+      "yr_num": "2017/043",
+      "title": "Income Tax (Suspension of Tax on Payments to Non-Resident Contractors) (Batoka Hydro-Electric Scheme and Kariba Dam Rehabilitation Projects) Regulations, 2017",
+      "alphabet": "I",
+      "url": "https://zambialii.org/akn/zm/act/si/2017/43",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2017/43/eng@2017-06-16"
+    },
+    {
+      "year": "2008",
+      "num": "23",
+      "yr_num": "2008/023",
+      "title": "Representative Bodies (Elections and Conduct of Ballot) Regulations, 2008",
+      "alphabet": "I",
+      "url": "https://zambialii.org/akn/zm/act/si/2008/23",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2008/23/eng@2008-02-15"
+    },
+    {
+      "year": "1993",
+      "num": "49",
+      "yr_num": "1993/049",
+      "title": "Inland Waters (Section 24 (3) Harbours) (Designation) Notice, 1993",
+      "alphabet": "I",
+      "url": "https://zambialii.org/akn/zm/act/si/1993/49",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1993/49/eng@1993-04-02"
+    },
+    {
+      "year": "1990",
+      "num": "48",
+      "yr_num": "1990/048",
+      "title": "A Commission",
+      "alphabet": "I",
+      "url": "https://zambialii.org/akn/zm/act/si/1990/48",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1990/48/eng@1990-04-06"
+    },
+    {
+      "year": "2003",
+      "num": "40",
+      "yr_num": "2003/040",
+      "title": "Commission",
+      "alphabet": "I",
+      "url": "https://zambialii.org/akn/zm/act/si/2003/40",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2003/40/eng@2003-04-17"
+    },
+    {
+      "year": "2014",
+      "num": "22",
+      "yr_num": "2014/022",
+      "title": "Legal and Justice Sector Reform Commission",
+      "alphabet": "I",
+      "url": "https://zambialii.org/akn/zm/act/si/2014/22",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2014/22/eng@2014-03-05"
+    },
+    {
+      "year": "2016",
+      "num": "72",
+      "yr_num": "2016/072",
+      "title": "Inquiries Act - Commission, 2016",
+      "alphabet": "I",
+      "url": "https://zambialii.org/akn/zm/act/si/2016/72",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2016/72/eng@2016-10-21"
+    },
+    {
+      "year": "2015",
+      "num": "25",
+      "yr_num": "2015/025",
+      "title": "Inquiries Act - Commission, 2015",
+      "alphabet": "I",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/25",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2015/25/eng@2015-05-12"
+    },
+    {
+      "year": "1983",
+      "num": "37",
+      "yr_num": "1983/037",
+      "title": "International Game Park (Lower Zambezi) (Cessation) Order, 1983",
+      "alphabet": "I",
+      "url": "https://zambialii.org/akn/zm/act/si/1983/37",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1983/37/eng@1983-03-31"
+    },
+    {
+      "year": "2024",
+      "num": "7",
+      "yr_num": "2024/007",
+      "title": "Ionising Radiation Protection (Nuclear Medicine) Regulations, 2024",
+      "alphabet": "I",
+      "url": "https://zambialii.org/akn/zm/act/si/2024/7",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2024/7/eng@2024-01-19"
+    },
+    {
+      "year": "2024",
+      "num": "8",
+      "yr_num": "2024/008",
+      "title": "Ionising Radiation Protection (Radiotherapy) Regulations, 2024",
+      "alphabet": "I",
+      "url": "https://zambialii.org/akn/zm/act/si/2024/8",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2024/8/eng@2024-01-19"
+    },
+    {
+      "year": "2022",
+      "num": "33",
+      "yr_num": "2022/033",
+      "title": "Judges (Salaries and Condition of service) (Amendment) Regulations, 2022",
+      "alphabet": "J",
+      "url": "https://zambialii.org/akn/zm/act/si/2022/33",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2022/33/eng@2022-05-13"
+    },
+    {
+      "year": "2022",
+      "num": "7",
+      "yr_num": "2022/007",
+      "title": "National Archives (Fees) Regulations, 2021",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/2022/7",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2022/7/eng@2021-01-11"
+    },
+    {
+      "year": "1995",
+      "num": "29",
+      "yr_num": "1995/029",
+      "title": "National Archives (Fees) Regulations, 1995",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/1995/29",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1995/29/eng@1995-02-24"
+    },
+    {
+      "year": "1995",
+      "num": "30",
+      "yr_num": "1995/030",
+      "title": "National Archives (Place of Deposit) (Revocation) Order, 1995",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/1995/30",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1995/30/eng@1995-02-24"
+    },
+    {
+      "year": "1986",
+      "num": "32",
+      "yr_num": "1986/032",
+      "title": "National Archives (Place of Deposit) (Declaration) Order, 1986",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/1986/32",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1986/32/eng@1986-02-21"
+    },
+    {
+      "year": "2008",
+      "num": "24",
+      "yr_num": "2008/024",
+      "title": "National Constitutional Conference (Committees) Regulations, 2008",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/2008/24",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2008/24/eng@2008-02-22"
+    },
+    {
+      "year": "2004",
+      "num": "22",
+      "yr_num": "2004/022",
+      "title": "National Council for Construction (Exemption) Regulations, 2004",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/2004/22",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2004/22/eng@2004-03-05"
+    },
+    {
+      "year": "2009",
+      "num": "37",
+      "yr_num": "2009/037",
+      "title": "National Council for Construction (Forms and Fees) Regulations, 2009",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/2009/37",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2009/37/eng@2009-06-19"
+    },
+    {
+      "year": "2015",
+      "num": "39",
+      "yr_num": "2015/039",
+      "title": "National Council for Construction (Registration of Projects) Regulations, 2015",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/39",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2015/39/eng@2015-06-26"
+    },
+    {
+      "year": "2019",
+      "num": "30",
+      "yr_num": "2019/030",
+      "title": "National Dialogue Forum (Extension) (No. 2) Order, 2019",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/2019/30",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2019/30/eng@2019-05-10"
+    },
+    {
+      "year": "2019",
+      "num": "28",
+      "yr_num": "2019/028",
+      "title": "National Dialogue Forum (Extension) Order, 2019",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/2019/28",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2019/28/eng@2019-05-07"
+    },
+    {
+      "year": "2020",
+      "num": "64",
+      "yr_num": "2020/064",
+      "title": "National Market and Bus Station Development Fund Regulations, 2020",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/2020/64",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2020/64/eng@2020-07-17"
+    },
+    {
+      "year": "2015",
+      "num": "89",
+      "yr_num": "2015/089",
+      "title": "National Museums (Declaration) Order, 2015",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/89",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2015/89/eng@2015-11-20"
+    },
+    {
+      "year": "2016",
+      "num": "59",
+      "yr_num": "2016/059",
+      "title": "National Museums (Entry Fees) Regulations, 2016",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/2016/59",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2016/59/eng@2016-08-05"
+    },
+    {
+      "year": "2016",
+      "num": "49",
+      "yr_num": "2016/049",
+      "title": "National Prosecutions Authority (Witness Allowances and Expenses) Regulations, 2016",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/2016/49",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2016/49/eng@2016-07-01"
+    },
+    {
+      "year": "2019",
+      "num": "34",
+      "yr_num": "2019/034",
+      "title": "National Registration Regulations, 2019",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/2019/34",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2019/34/eng@2019-05-24"
+    },
+    {
+      "year": "2008",
+      "num": "16",
+      "yr_num": "2008/016",
+      "title": "National Road Fund (Charges and Fees) (Apportionment) Regulations, 2008",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/2008/16",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2008/16/eng@2008-01-25"
+    },
+    {
+      "year": "2005",
+      "num": "19",
+      "yr_num": "2005/019",
+      "title": "National Road Fund Act (Commencement) Order, 2005",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/2005/19",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2005/19/eng@2005-02-04"
+    },
+    {
+      "year": "1987",
+      "num": "36",
+      "yr_num": "1987/036",
+      "title": "National Savings and Credit (Appointment of Members of Board) Order, 1987",
+      "alphabet": "N",
+      "url": "https://zambialii.org/akn/zm/act/si/1987/36",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1987/36/eng@1987-01-26"
+    },
+    {
+      "year": "1984",
+      "num": "12",
+      "yr_num": "1984/012",
+      "title": "Sales Tax (Amendment) Bill (Provisional Charging) Order, 1984",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/1984/12",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1984/12/eng@1984-01-27"
+    },
+    {
+      "year": "1984",
+      "num": "13",
+      "yr_num": "1984/013",
+      "title": "Stamp Duty (Amendment) Bill (Provisional Charging) Order, 1984",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/1984/13",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1984/13/eng@1984-01-27"
+    },
+    {
+      "year": "1984",
+      "num": "14",
+      "yr_num": "1984/014",
+      "title": "Casino (Amendment) Bill (Provisional Charging) Order, 1984",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/1984/14",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1984/14/eng@1984-01-27"
+    },
+    {
+      "year": "1984",
+      "num": "16",
+      "yr_num": "1984/016",
+      "title": "Hotels (Amendment) Bill (Provisional Charging) Order, 1984",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/1984/16",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1984/16/eng@1984-01-27"
+    },
+    {
+      "year": "1984",
+      "num": "18",
+      "yr_num": "1984/018",
+      "title": "Gold Trade (Amendment) Bill (Provisional Charging) Order, 1984",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/1984/18",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1984/18/eng@1984-01-27"
+    },
+    {
+      "year": "1988",
+      "num": "31",
+      "yr_num": "1988/031",
+      "title": "Taxation (Provisional Charging) Order, 1988",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/1988/31",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1988/31/eng@1988-01-29"
+    },
+    {
+      "year": "1992",
+      "num": "27",
+      "yr_num": "1992/027",
+      "title": "Taxation (Provisional Charging) Order, 1992",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/1992/27",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1992/27/eng@1992-01-31"
+    },
+    {
+      "year": "1992",
+      "num": "44",
+      "yr_num": "1992/044",
+      "title": "Taxation (Provisional Charging) (No. 2) Order, 1992",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/1992/44",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1992/44/eng@1992-02-18"
+    },
+    {
+      "year": "1994",
+      "num": "22",
+      "yr_num": "1994/022",
+      "title": "Taxation (Provisional Charging) Order, 1994",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/1994/22",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1994/22/eng@1994-01-28"
+    },
+    {
+      "year": "1996",
+      "num": "11",
+      "yr_num": "1996/011",
+      "title": "Taxation (Provisional Charging) Order, 1996",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/1996/11",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1996/11/eng@1996-01-26"
+    },
+    {
+      "year": "1995",
+      "num": "6",
+      "yr_num": "1995/006",
+      "title": "Taxation (Provisional Charging) Order, 1995",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/1995/6",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1995/6/eng@1995-01-27"
+    },
+    {
+      "year": "1985",
+      "num": "13",
+      "yr_num": "1985/013",
+      "title": "Taxation (Provisional Charging) Order, 1985",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/1985/13",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1985/13/eng@1985-01-25"
+    },
+    {
+      "year": "1986",
+      "num": "21",
+      "yr_num": "1986/021",
+      "title": "Taxation (Provisional Charging) Order, 1986",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/1986/21",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1986/21/eng@1986-01-31"
+    },
+    {
+      "year": "1987",
+      "num": "47",
+      "yr_num": "1987/047",
+      "title": "Taxation (Provisional Charging) Order, 1987",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/1987/47",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1987/47/eng@1987-01-30"
+    },
+    {
+      "year": "2018",
+      "num": "1",
+      "yr_num": "2018/001",
+      "title": "Teaching Profession (Code of Ethics) Regulations, 2018",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2018/1",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2018/1/eng@2018-01-12"
+    },
+    {
+      "year": "2015",
+      "num": "79",
+      "yr_num": "2015/079",
+      "title": "Tolls (Victoria Falls Bridge) Regulations, 2015",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2015/79",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2015/79/eng@2015-10-30"
+    },
+    {
+      "year": "2016",
+      "num": "57",
+      "yr_num": "2016/057",
+      "title": "Tolls (Victoria Falls Bridge) Regulations, 2016",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2016/57",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2016/57/eng@2016-07-29"
+    },
+    {
+      "year": "2016",
+      "num": "85",
+      "yr_num": "2016/085",
+      "title": "Tolls Regulations, 2016",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2016/85",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2016/85/eng@2016-11-11"
+    },
+    {
+      "year": "2025",
+      "num": "12",
+      "yr_num": "2025/012",
+      "title": "Tolls (Micheal Chilufya Sata Toll Plaza) Regulations, 2025",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2025/12",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2025/12/eng@2025-04-04"
+    },
+    {
+      "year": "2026",
+      "num": "11",
+      "yr_num": "2026/011",
+      "title": "Tolls (Tom Mtine Toll Plaza) Regulations, 2026",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2026/11",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2026/11/eng@2026-02-13"
+    },
+    {
+      "year": "2022",
+      "num": "26",
+      "yr_num": "2022/026",
+      "title": "Tourism and Hospitality (Licensing) (Temporary Disapplication of Renewal and Retention Fees) Regulations, 2022",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2022/26",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2022/26/eng@2022-04-01"
+    },
+    {
+      "year": "2022",
+      "num": "25",
+      "yr_num": "2022/025",
+      "title": "Tourism and Hospitality (Registration of Hotel Managers) (Temporary Disapplication of Registration Fee) Regulations, 2022",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2022/25",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2022/25/eng@2022-04-01"
+    },
+    {
+      "year": "2020",
+      "num": "123",
+      "yr_num": "2020/123",
+      "title": "Tourism and Hospitality (Registration of Hotel Managers) (Temporary Disapplication of Registration Fee) Regulations, 2020",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2020/123",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2020/123/eng@2020-12-31"
+    },
+    {
+      "year": "2020",
+      "num": "122",
+      "yr_num": "2020/122",
+      "title": "Tourism and Hospitality (Licensing) (Temporary Disapplication of Renewal and Retention Fee) Regulations, 2020",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2020/122",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2020/122/eng@2020-12-31"
+    },
+    {
+      "year": "2016",
+      "num": "51",
+      "yr_num": "2016/051",
+      "title": "Tourism and Hospitality (Licensing) Regulations, 2016",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2016/51",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2016/51/eng@2016-07-08"
+    },
+    {
+      "year": "2016",
+      "num": "93",
+      "yr_num": "2016/093",
+      "title": "Tourism and Hospitality (Casino) Regulations, 2016",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2016/93",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2016/93/eng@2016-11-25"
+    },
+    {
+      "year": "2016",
+      "num": "94",
+      "yr_num": "2016/094",
+      "title": "Tourism and Hospitality (Registration of Hotel Managers) Regulations, 2016",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2016/94",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2016/94/eng@2016-11-25"
+    },
+    {
+      "year": "2016",
+      "num": "99",
+      "yr_num": "2016/099",
+      "title": "Tourism and Hospitality (Prepaid Package Tours) Regulations, 2016",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2016/99",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2016/99/eng@2016-12-23"
+    },
+    {
+      "year": "2016",
+      "num": "100",
+      "yr_num": "2016/100",
+      "title": "Tourism and Hospitality (Prepaid Package Tours) Regulations, 2016",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2016/100",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2016/100/eng@2016-12-23"
+    },
+    {
+      "year": "2018",
+      "num": "14",
+      "yr_num": "2018/014",
+      "title": "Tourism and Hospitality (Accommodation Establishment Standards) Regulations, 2018",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2018/14",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2018/14/eng@2018-02-23"
+    },
+    {
+      "year": "2017",
+      "num": "22",
+      "yr_num": "2017/022",
+      "title": "Tourism and Hospitality (Casino) Regulations, 2017",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2017/22",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2017/22/eng@2017-03-03"
+    },
+    {
+      "year": "2017",
+      "num": "20",
+      "yr_num": "2017/020",
+      "title": "Tourism and Hospitality (Prepaid Package Tours) Regulations, 2017",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2017/20",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2017/20/eng@2017-03-03"
+    },
+    {
+      "year": "2002",
+      "num": "45",
+      "yr_num": "2002/045",
+      "title": "Transfer of Convicted Persons (Prescribed Forms) (No. 2) Regulations, 2002",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2002/45",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2002/45/eng@2002-07-12"
+    },
+    {
+      "year": "2008",
+      "num": "41",
+      "yr_num": "2008/041",
+      "title": "Transfer of Convicted Persons (Designated Country) Order, 2008",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/2008/41",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/2008/41/eng@2008-04-11"
+    },
+    {
+      "year": "1984",
+      "num": "39",
+      "yr_num": "1984/039",
+      "title": "Tropical Diseases Research Centre Act (Commencement) Order, 1984",
+      "alphabet": "T",
+      "url": "https://zambialii.org/akn/zm/act/si/1984/39",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1984/39/eng@1984-03-16"
+    },
+    {
+      "year": "1995",
+      "num": "11",
+      "yr_num": "1995/011",
+      "title": "Weights and Measures (Commencement) Order, 1995",
+      "alphabet": "W",
+      "url": "https://zambialii.org/akn/zm/act/si/1995/11",
+      "href_with_date": "https://zambialii.org/akn/zm/act/si/1995/11/eng@1995-01-27"
+    }
+  ],
+  "discovery_method": "manual_keyword_filter_plus_modern_text_extractable_priority",
+  "priority_sub_phase_count": 5,
+  "adjacent_sub_phase_count": 3,
+  "repick_note": "2017/043 + 2019/025 sis_tax slots failed pdf_parse_empty (image-only PDFs); replaced with 8 modern (2011-2026) text-extractable candidates spanning sis_transport(2)+sis_health(2)+sis_courts(1)+sis_education(1)+sis_immigration(2)"
+}

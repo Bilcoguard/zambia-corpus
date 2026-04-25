@@ -1,0 +1,38 @@
+{
+  "batch": "0222",
+  "phase": "ingest",
+  "slice": [
+    6,
+    8
+  ],
+  "started_at": "2026-04-25T11:40:52Z",
+  "completed_at": "2026-04-25T11:41:15Z",
+  "fetch_start": 395,
+  "fetch_end": 399,
+  "results": [
+    {
+      "year": 2019,
+      "number": 34,
+      "sub_phase": "sis_immigration",
+      "status": "ok",
+      "discovery_text": "national registration regulations 2019",
+      "alphabet": "N",
+      "record_id": "si-zm-2019-034-national-registration-regulations-2019",
+      "sections": 66,
+      "title": "National Registration Regulations, 2019",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2019/34/eng@2019-05-24/source.pdf",
+      "pdf_hash": "114b35237e081ca26affb3b0807cf230cee63359bf8dd330c307c46f09f46ff4",
+      "pdf_bytes": 115165,
+      "raw_pdf": "/sessions/loving-affectionate-planck/mnt/corpus/raw/zambialii/si/2019/si-zm-2019-034-national-registration-regulations-2019.pdf",
+      "record_path": "/sessions/loving-affectionate-planck/mnt/corpus/records/sis/2019/si-zm-2019-034-national-registration-regulations-2019.json"
+    },
+    {
+      "year": 2011,
+      "number": 129,
+      "sub_phase": "sis_immigration",
+      "status": "pdf_parse_empty",
+      "discovery_text": "immigration and deportation general regulations 2011",
+      "alphabet": "I"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "batch": "0222",
+  "phase": "ingest",
+  "slice": [
+    0,
+    2
+  ],
+  "started_at": "2026-04-25T11:39:29Z",
+  "completed_at": "2026-04-25T11:39:52Z",
+  "fetch_start": 383,
+  "fetch_end": 387,
+  "results": [
+    {
+      "year": 2026,
+      "number": 11,
+      "sub_phase": "sis_transport",
+      "status": "ok",
+      "discovery_text": "tolls tom mtine toll plaza regulations 2026",
+      "alphabet": "T",
+      "record_id": "si-zm-2026-011-tolls-tom-mtine-toll-plaza-regulations-2026",
+      "sections": 5,
+      "title": "Tolls (Tom Mtine Toll Plaza) Regulations, 2026",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2026/11/eng@2026-02-13/source.pdf",
+      "pdf_hash": "e4783785cfbb8e17631c2fd38db54c1daa3320342b3e02a806135e0e3ed0a96d",
+      "pdf_bytes": 309908,
+      "raw_pdf": "/sessions/loving-affectionate-planck/mnt/corpus/raw/zambialii/si/2026/si-zm-2026-011-tolls-tom-mtine-toll-plaza-regulations-2026.pdf",
+      "record_path": "/sessions/loving-affectionate-planck/mnt/corpus/records/sis/2026/si-zm-2026-011-tolls-tom-mtine-toll-plaza-regulations-2026.json"
+    },
+    {
+      "year": 2025,
+      "number": 12,
+      "sub_phase": "sis_transport",
+      "status": "ok",
+      "discovery_text": "tolls micheal chilufya sata toll plaza regulations 2025",
+      "alphabet": "T",
+      "record_id": "si-zm-2025-012-tolls-micheal-chilufya-sata-toll-plaza-regulations-2025",
+      "sections": 1,
+      "title": "Tolls (Micheal Chilufya Sata Toll Plaza) Regulations, 2025",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2025/12/eng@2025-04-04/source.pdf",
+      "pdf_hash": "f36bd63fdd6811dc3b7561eb9f5e6961bd226e96f81a5187d41280705e43db1e",
+      "pdf_bytes": 401932,
+      "raw_pdf": "/sessions/loving-affectionate-planck/mnt/corpus/raw/zambialii/si/2025/si-zm-2025-012-tolls-micheal-chilufya-sata-toll-plaza-regulations-2025.pdf",
+      "record_path": "/sessions/loving-affectionate-planck/mnt/corpus/records/sis/2025/si-zm-2025-012-tolls-micheal-chilufya-sata-toll-plaza-regulations-2025.json"
+    }
+  ]
+}

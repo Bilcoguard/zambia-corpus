@@ -1,0 +1,46 @@
+{
+  "batch": "0222",
+  "phase": "ingest",
+  "slice": [
+    4,
+    6
+  ],
+  "started_at": "2026-04-25T11:40:26Z",
+  "completed_at": "2026-04-25T11:40:48Z",
+  "fetch_start": 391,
+  "fetch_end": 395,
+  "results": [
+    {
+      "year": 2022,
+      "number": 33,
+      "sub_phase": "sis_courts",
+      "status": "ok",
+      "discovery_text": "judges salaries and conditions of service amendment regulations 2022",
+      "alphabet": "J",
+      "record_id": "si-zm-2022-033-judges-salaries-and-condition-of-service-amendment-regulations-2022",
+      "sections": 13,
+      "title": "Judges (Salaries and Condition of service) (Amendment) Regulations, 2022",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2022/33/eng@2022-05-13/source.pdf",
+      "pdf_hash": "3fe3085c89bd6299ce7e98bd66a987dbf65d8f6401465e122d8bbd8e2afee72d",
+      "pdf_bytes": 291315,
+      "raw_pdf": "/sessions/loving-affectionate-planck/mnt/corpus/raw/zambialii/si/2022/si-zm-2022-033-judges-salaries-and-condition-of-service-amendment-regulations-2022.pdf",
+      "record_path": "/sessions/loving-affectionate-planck/mnt/corpus/records/sis/2022/si-zm-2022-033-judges-salaries-and-condition-of-service-amendment-regulations-2022.json"
+    },
+    {
+      "year": 2018,
+      "number": 1,
+      "sub_phase": "sis_education",
+      "status": "ok",
+      "discovery_text": "teaching profession code of ethics regulations 2018",
+      "alphabet": "T",
+      "record_id": "si-zm-2018-001-teaching-profession-code-of-ethics-regulations-2018",
+      "sections": 49,
+      "title": "Teaching Profession (Code of Ethics) Regulations, 2018",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2018/1/eng@2018-01-12/source.pdf",
+      "pdf_hash": "80fb7e45b12c07f5fa93fa4c7d1702e6545ee65e932b43b0ec586a648a5d5edf",
+      "pdf_bytes": 42028,
+      "raw_pdf": "/sessions/loving-affectionate-planck/mnt/corpus/raw/zambialii/si/2018/si-zm-2018-001-teaching-profession-code-of-ethics-regulations-2018.pdf",
+      "record_path": "/sessions/loving-affectionate-planck/mnt/corpus/records/sis/2018/si-zm-2018-001-teaching-profession-code-of-ethics-regulations-2018.json"
+    }
+  ]
+}
