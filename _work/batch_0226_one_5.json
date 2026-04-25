@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2017/28",
+    "year": "2017",
+    "num": "28",
+    "title": "Dambwa Local Forest No. F22 (Alteration of Boundaries) Order, 2017",
+    "sub_phase": "sis_environment",
+    "parent_act": "Forests Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2017-028-dambwa-local-forest-no-f22-alteration-of-boundaries-order-2017",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2017,
+    "number": 28,
+    "title": "Dambwa Local Forest No. F22 (Alteration of Boundaries) Order, 2017",
+    "parent_act": "Forests Act",
+    "sub_phase": "sis_environment",
+    "effective_date": "2017-03-31",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2017/28",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2017/28/eng@2017-03-31/source.pdf",
+    "source_hash": "9d4f1f5e82fd9b7f8cd3b587b14daba296b9520da4b437248685cc7e7f69d4f5",
+    "html_hash": "dc31121ff28e1906a2bb1f3d68595e815f58001a001dd8f6bb6bf309ddfb31a9",
+    "fetched_at": "2026-04-25T14:07:40Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 3197,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2017/si-zm-2017-028-dambwa-local-forest-no-f22-alteration-of-boundaries-order-2017.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2017/28",
+      "bytes": 39237,
+      "path": "raw/zambialii/si/2017/si-zm-2017-028-dambwa-local-forest-no-f22-alteration-of-boundaries-order-2017.html",
+      "sha": "dc31121ff28e1906a2bb1f3d68595e815f58001a001dd8f6bb6bf309ddfb31a9"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2017/28/eng@2017-03-31/source.pdf",
+      "bytes": 13384,
+      "path": "raw/zambialii/si/2017/si-zm-2017-028-dambwa-local-forest-no-f22-alteration-of-boundaries-order-2017.pdf",
+      "sha": "9d4f1f5e82fd9b7f8cd3b587b14daba296b9520da4b437248685cc7e7f69d4f5"
+    }
+  ]
+}

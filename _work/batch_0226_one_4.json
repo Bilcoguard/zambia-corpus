@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2026/8",
+    "year": "2026",
+    "num": "8",
+    "title": "Fisheries (Management Area) (Declaration) Order, 2025",
+    "sub_phase": "sis_fisheries",
+    "parent_act": "Fisheries Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2026-008-fisheries-management-area-declaration-order-2025",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2026,
+    "number": 8,
+    "title": "Fisheries (Management Area) (Declaration) Order, 2025",
+    "parent_act": "Fisheries Act",
+    "sub_phase": "sis_fisheries",
+    "effective_date": "2026-01-23",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2026/8",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2026/8/eng@2026-01-23/source.pdf",
+    "source_hash": "88c509ea73b4dbe5c890e3dd16ba7f18a767ca0303500744bd0f9b8639621302",
+    "html_hash": "7af39bdab680fe9c6dff2afa7cbb48c85c02bdd4c4ca10d69f170fcd7356a435",
+    "fetched_at": "2026-04-25T14:07:22Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 4,
+    "pdf_text_chars": 10309,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2026/si-zm-2026-008-fisheries-management-area-declaration-order-2025.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2026/8",
+      "bytes": 39152,
+      "path": "raw/zambialii/si/2026/si-zm-2026-008-fisheries-management-area-declaration-order-2025.html",
+      "sha": "7af39bdab680fe9c6dff2afa7cbb48c85c02bdd4c4ca10d69f170fcd7356a435"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2026/8/eng@2026-01-23/source.pdf",
+      "bytes": 488317,
+      "path": "raw/zambialii/si/2026/si-zm-2026-008-fisheries-management-area-declaration-order-2025.pdf",
+      "sha": "88c509ea73b4dbe5c890e3dd16ba7f18a767ca0303500744bd0f9b8639621302"
+    }
+  ]
+}

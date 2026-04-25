@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2019/28",
+    "year": "2019",
+    "num": "28",
+    "title": "National Dialogue Forum (Extension) Order, 2019",
+    "sub_phase": "sis_governance",
+    "parent_act": "National Dialogue (Constitution, Electoral Process, Public Order and Political Parties Acts) Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2019-028-national-dialogue-forum-extension-order-2019",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2019,
+    "number": 28,
+    "title": "National Dialogue Forum (Extension) Order, 2019",
+    "parent_act": "National Dialogue (Constitution, Electoral Process, Public Order and Political Parties Acts) Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "2019-05-07",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2019/28",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2019/28/eng@2019-05-07/source.pdf",
+    "source_hash": "fea3197d9dc5db7bb1eb03601f06814948aeb3156e7eebae34d59f27bff03e74",
+    "html_hash": "36a6b141c237a9e6745282f6389be01fec43ae1093c5f44bab2d3cb39e3412e1",
+    "fetched_at": "2026-04-25T14:07:04Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 1,
+    "pdf_text_chars": 920,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2019/si-zm-2019-028-national-dialogue-forum-extension-order-2019.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/28",
+      "bytes": 40302,
+      "path": "raw/zambialii/si/2019/si-zm-2019-028-national-dialogue-forum-extension-order-2019.html",
+      "sha": "36a6b141c237a9e6745282f6389be01fec43ae1093c5f44bab2d3cb39e3412e1"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/28/eng@2019-05-07/source.pdf",
+      "bytes": 80343,
+      "path": "raw/zambialii/si/2019/si-zm-2019-028-national-dialogue-forum-extension-order-2019.pdf",
+      "sha": "fea3197d9dc5db7bb1eb03601f06814948aeb3156e7eebae34d59f27bff03e74"
+    }
+  ]
+}

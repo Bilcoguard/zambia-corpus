@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2020/12",
+    "year": "2020",
+    "num": "12",
+    "title": "Local Forest No. P. 320 Mpande Hills (Alteration of Boundaries) Order, 2020",
+    "sub_phase": "sis_environment",
+    "parent_act": "Forests Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2020-012-local-forest-no-p-320-mpande-hills-alteration-of-boundaries-order-2020",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2020,
+    "number": 12,
+    "title": "Local Forest No. P. 320 Mpande Hills (Alteration of Boundaries) Order, 2020",
+    "parent_act": "Forests Act",
+    "sub_phase": "sis_environment",
+    "effective_date": "2020-02-07",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2020/12",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/12/eng@2020-02-07/source.pdf",
+    "source_hash": "e86e2f10aa807ba72a7bffcfabc63323d92b0a042a327c8220ee48a5dea9bc97",
+    "html_hash": "d20bbbff2cee4d6f071f90812d3eaccddf5295a3a5f2f07e1fa789b0044ce8e9",
+    "fetched_at": "2026-04-25T14:08:21Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 2213,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2020/si-zm-2020-012-local-forest-no-p-320-mpande-hills-alteration-of-boundaries-order-2020.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/12",
+      "bytes": 39270,
+      "path": "raw/zambialii/si/2020/si-zm-2020-012-local-forest-no-p-320-mpande-hills-alteration-of-boundaries-order-2020.html",
+      "sha": "d20bbbff2cee4d6f071f90812d3eaccddf5295a3a5f2f07e1fa789b0044ce8e9"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/12/eng@2020-02-07/source.pdf",
+      "bytes": 11068,
+      "path": "raw/zambialii/si/2020/si-zm-2020-012-local-forest-no-p-320-mpande-hills-alteration-of-boundaries-order-2020.pdf",
+      "sha": "e86e2f10aa807ba72a7bffcfabc63323d92b0a042a327c8220ee48a5dea9bc97"
+    }
+  ]
+}

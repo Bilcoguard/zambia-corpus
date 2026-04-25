@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2017/63",
+    "year": "2017",
+    "num": "63",
+    "title": "Local Forest No. 42 Kawena (Cessation) Order, 2017",
+    "sub_phase": "sis_environment",
+    "parent_act": "Forests Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2017-063-local-forest-no-42-kawena-cessation-order-2017",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2017,
+    "number": 63,
+    "title": "Local Forest No. 42 Kawena (Cessation) Order, 2017",
+    "parent_act": "Forests Act",
+    "sub_phase": "sis_environment",
+    "effective_date": "2017-08-11",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2017/63",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2017/63/eng@2017-08-11/source.pdf",
+    "source_hash": "70626f8f3f7622eb02a4260782af7c67393ff087d4c7278bd6cb407bfeca4f6d",
+    "html_hash": "46caa1e95c58209e3a0664ac083a6ff8966b31dc12d196b65757c75e206cffcf",
+    "fetched_at": "2026-04-25T14:07:59Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 880,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2017/si-zm-2017-063-local-forest-no-42-kawena-cessation-order-2017.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2017/63",
+      "bytes": 39150,
+      "path": "raw/zambialii/si/2017/si-zm-2017-063-local-forest-no-42-kawena-cessation-order-2017.html",
+      "sha": "46caa1e95c58209e3a0664ac083a6ff8966b31dc12d196b65757c75e206cffcf"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2017/63/eng@2017-08-11/source.pdf",
+      "bytes": 13729,
+      "path": "raw/zambialii/si/2017/si-zm-2017-063-local-forest-no-42-kawena-cessation-order-2017.pdf",
+      "sha": "70626f8f3f7622eb02a4260782af7c67393ff087d4c7278bd6cb407bfeca4f6d"
+    }
+  ]
+}
