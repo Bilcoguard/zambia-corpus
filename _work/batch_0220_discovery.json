@@ -1,0 +1,73 @@
+{
+  "batch": "0220",
+  "phase": "discovery",
+  "started_at": "2026-04-25T08:35:00Z",
+  "completed_at": "2026-04-25T08:35:00Z",
+  "fetches_used": 0,
+  "fetch_end": 340,
+  "robots_sha256": "pending_verify",
+  "alphabets": [],
+  "novel_total_pre_keyword": 128,
+  "novel_kept_post_keyword": 8,
+  "candidates": [
+    {
+      "year": 2018,
+      "number": 92,
+      "sub_phase": "sis_health",
+      "letter": "N",
+      "text": "national health research (material transfer) regulations, 2018"
+    },
+    {
+      "year": 2020,
+      "number": 24,
+      "sub_phase": "sis_health",
+      "letter": "N",
+      "text": "national health research (bio banking) regulations, 2020"
+    },
+    {
+      "year": 2020,
+      "number": 25,
+      "sub_phase": "sis_health",
+      "letter": "N",
+      "text": "national health research (registration and accreditation) regulations, 2020"
+    },
+    {
+      "year": 2019,
+      "number": 80,
+      "sub_phase": "sis_health",
+      "letter": "M",
+      "text": "medicines and allied substances (expert advisory committee) regulations, 2019"
+    },
+    {
+      "year": 1993,
+      "number": 46,
+      "sub_phase": "sis_health",
+      "letter": "P",
+      "text": "pharmacy and poisons (fees) order, 1993"
+    },
+    {
+      "year": 1991,
+      "number": 30,
+      "sub_phase": "sis_health",
+      "letter": "M",
+      "text": "medical aid societies and nursing homes (exemption, establishment and operation) (authorisation fees) order, 1991"
+    },
+    {
+      "year": 2021,
+      "number": 45,
+      "sub_phase": "sis_education",
+      "letter": "E",
+      "text": "education (aided educational institutions) regulations, 2021"
+    },
+    {
+      "year": 2013,
+      "number": 12,
+      "sub_phase": "sis_education",
+      "letter": "E",
+      "text": "education (district education offices) (establishment) order, 2013"
+    }
+  ],
+  "reused_from": "_work/batch_0219_discovery.json (novel_pre_keyword_sample)",
+  "cross_sub_phase_rotation": true,
+  "rotation_note": "sis_mining alphabet exhaustion confirmed (batch 0219). Cross-sub_phase rotation continues per batch-0219 next-tick plan: 6 sis_health (Medicines & Allied Substances Act 2013/3 + National Health Research Act 2018/4 + Pharmacy and Poisons Act + Medical Aid Societies Act) + 2 sis_education (Education Act 2011/23 derivatives) selected from cached novel_pre_keyword_sample, ingested without re-running alphabet probes."
+}

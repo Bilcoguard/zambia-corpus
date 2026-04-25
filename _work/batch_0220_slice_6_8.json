@@ -1,0 +1,46 @@
+{
+  "batch": "0220",
+  "phase": "ingest",
+  "slice": [
+    6,
+    8
+  ],
+  "started_at": "2026-04-25T08:40:24Z",
+  "completed_at": "2026-04-25T08:40:46Z",
+  "fetch_start": 352,
+  "fetch_end": 356,
+  "results": [
+    {
+      "year": 2021,
+      "number": 45,
+      "sub_phase": "sis_education",
+      "status": "ok",
+      "discovery_text": "education (aided educational institutions) regulations, 2021",
+      "alphabet": "E",
+      "record_id": "si-zm-2021-045-education-aided-educational-institutions-regulations-2021",
+      "sections": 52,
+      "title": "Education (Aided Educational Institutions) Regulations, 2021",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2021/45/eng@2021-05-14/source.pdf",
+      "pdf_hash": "41a223e1faecfc6cb41e4897a187fa600e9a7c491d7f072bb7eb5f1238633621",
+      "pdf_bytes": 177217,
+      "raw_pdf": "/sessions/pensive-beautiful-albattani/mnt/corpus/raw/zambialii/si/2021/si-zm-2021-045-education-aided-educational-institutions-regulations-2021.pdf",
+      "record_path": "/sessions/pensive-beautiful-albattani/mnt/corpus/records/sis/2021/si-zm-2021-045-education-aided-educational-institutions-regulations-2021.json"
+    },
+    {
+      "year": 2013,
+      "number": 12,
+      "sub_phase": "sis_education",
+      "status": "ok",
+      "discovery_text": "education (district education offices) (establishment) order, 2013",
+      "alphabet": "E",
+      "record_id": "si-zm-2013-012-education-district-education-offices-establishment-order-2013",
+      "sections": 2,
+      "title": "Education (District Education Offices) (Establishment) Order, 2013",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2013/12/eng@2013-02-01/source.pdf",
+      "pdf_hash": "77c809101ac47aac62f624aafb2d9ee6f1cc375b7e811c95ea00e811429e9260",
+      "pdf_bytes": 182968,
+      "raw_pdf": "/sessions/pensive-beautiful-albattani/mnt/corpus/raw/zambialii/si/2013/si-zm-2013-012-education-district-education-offices-establishment-order-2013.pdf",
+      "record_path": "/sessions/pensive-beautiful-albattani/mnt/corpus/records/sis/2013/si-zm-2013-012-education-district-education-offices-establishment-order-2013.json"
+    }
+  ]
+}

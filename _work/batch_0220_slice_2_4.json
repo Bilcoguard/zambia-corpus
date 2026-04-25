@@ -1,0 +1,46 @@
+{
+  "batch": "0220",
+  "phase": "ingest",
+  "slice": [
+    2,
+    4
+  ],
+  "started_at": "2026-04-25T08:39:33Z",
+  "completed_at": "2026-04-25T08:39:55Z",
+  "fetch_start": 344,
+  "fetch_end": 348,
+  "results": [
+    {
+      "year": 2020,
+      "number": 25,
+      "sub_phase": "sis_health",
+      "status": "ok",
+      "discovery_text": "national health research (registration and accreditation) regulations, 2020",
+      "alphabet": "N",
+      "record_id": "si-zm-2020-025-national-health-research-registration-and-accreditation-regulations-2020",
+      "sections": 25,
+      "title": "National Health Research (Registration and Accreditation) Regulations, 2020",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2020/25/eng@2020-04-03/source.pdf",
+      "pdf_hash": "9425d03f8bfeb9e59f0177536c13700221bba9b4ca1fff3b6f083ff80016196c",
+      "pdf_bytes": 168632,
+      "raw_pdf": "/sessions/pensive-beautiful-albattani/mnt/corpus/raw/zambialii/si/2020/si-zm-2020-025-national-health-research-registration-and-accreditation-regulations-2020.pdf",
+      "record_path": "/sessions/pensive-beautiful-albattani/mnt/corpus/records/sis/2020/si-zm-2020-025-national-health-research-registration-and-accreditation-regulations-2020.json"
+    },
+    {
+      "year": 2019,
+      "number": 80,
+      "sub_phase": "sis_health",
+      "status": "ok",
+      "discovery_text": "medicines and allied substances (expert advisory committee) regulations, 2019",
+      "alphabet": "M",
+      "record_id": "si-zm-2019-080-medicines-and-allied-substances-expert-advisory-committee-regulations-2019",
+      "sections": 6,
+      "title": "Medicines and Allied Substances (Expert Advisory Committee) Regulations, 2019",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2019/80/eng@2019-11-22/source.pdf",
+      "pdf_hash": "7e505f8f53bf32b32592179225beeeba4b6c4b101964e46c92bd9dd9a0eb3b1e",
+      "pdf_bytes": 23744,
+      "raw_pdf": "/sessions/pensive-beautiful-albattani/mnt/corpus/raw/zambialii/si/2019/si-zm-2019-080-medicines-and-allied-substances-expert-advisory-committee-regulations-2019.pdf",
+      "record_path": "/sessions/pensive-beautiful-albattani/mnt/corpus/records/sis/2019/si-zm-2019-080-medicines-and-allied-substances-expert-advisory-committee-regulations-2019.json"
+    }
+  ]
+}

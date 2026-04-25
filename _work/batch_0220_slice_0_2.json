@@ -1,0 +1,46 @@
+{
+  "batch": "0220",
+  "phase": "ingest",
+  "slice": [
+    0,
+    2
+  ],
+  "started_at": "2026-04-25T08:39:05Z",
+  "completed_at": "2026-04-25T08:39:28Z",
+  "fetch_start": 340,
+  "fetch_end": 344,
+  "results": [
+    {
+      "year": 2018,
+      "number": 92,
+      "sub_phase": "sis_health",
+      "status": "ok",
+      "discovery_text": "national health research (material transfer) regulations, 2018",
+      "alphabet": "N",
+      "record_id": "si-zm-2018-092-national-health-research-material-transfer-regulations-2018",
+      "sections": 14,
+      "title": "National Health Research (Material Transfer) Regulations, 2018",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2018/92/eng@2018-12-07/source.pdf",
+      "pdf_hash": "c117991468c74547fd3f0608d8f4d796fc8d4dcf0747715947d88687f4514a7b",
+      "pdf_bytes": 257064,
+      "raw_pdf": "/sessions/pensive-beautiful-albattani/mnt/corpus/raw/zambialii/si/2018/si-zm-2018-092-national-health-research-material-transfer-regulations-2018.pdf",
+      "record_path": "/sessions/pensive-beautiful-albattani/mnt/corpus/records/sis/2018/si-zm-2018-092-national-health-research-material-transfer-regulations-2018.json"
+    },
+    {
+      "year": 2020,
+      "number": 24,
+      "sub_phase": "sis_health",
+      "status": "ok",
+      "discovery_text": "national health research (bio banking) regulations, 2020",
+      "alphabet": "N",
+      "record_id": "si-zm-2020-024-national-health-research-bio-banking-regulations-2020",
+      "sections": 34,
+      "title": "National Health Research (Bio Banking) Regulations, 2020",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2020/24/eng@2020-04-03/source.pdf",
+      "pdf_hash": "fd2b7aa7632529be07fbf73806667617c024b1b79d5006a7918ed9b3b83ea0a3",
+      "pdf_bytes": 155063,
+      "raw_pdf": "/sessions/pensive-beautiful-albattani/mnt/corpus/raw/zambialii/si/2020/si-zm-2020-024-national-health-research-bio-banking-regulations-2020.pdf",
+      "record_path": "/sessions/pensive-beautiful-albattani/mnt/corpus/records/sis/2020/si-zm-2020-024-national-health-research-bio-banking-regulations-2020.json"
+    }
+  ]
+}

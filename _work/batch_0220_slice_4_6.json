@@ -1,0 +1,46 @@
+{
+  "batch": "0220",
+  "phase": "ingest",
+  "slice": [
+    4,
+    6
+  ],
+  "started_at": "2026-04-25T08:39:57Z",
+  "completed_at": "2026-04-25T08:40:19Z",
+  "fetch_start": 348,
+  "fetch_end": 352,
+  "results": [
+    {
+      "year": 1993,
+      "number": 46,
+      "sub_phase": "sis_health",
+      "status": "ok",
+      "discovery_text": "pharmacy and poisons (fees) order, 1993",
+      "alphabet": "P",
+      "record_id": "si-zm-1993-046-pharmacy-and-poisons-fees-order-1993",
+      "sections": 19,
+      "title": "Pharmacy and Poisons (Fees) Order, 1993",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1993/46/eng@1993-03-26/source.pdf",
+      "pdf_hash": "b2c5cc4f9efa045e61db953ed1379575eb153875339270046176f4c8618d8a45",
+      "pdf_bytes": 145134,
+      "raw_pdf": "/sessions/pensive-beautiful-albattani/mnt/corpus/raw/zambialii/si/1993/si-zm-1993-046-pharmacy-and-poisons-fees-order-1993.pdf",
+      "record_path": "/sessions/pensive-beautiful-albattani/mnt/corpus/records/sis/1993/si-zm-1993-046-pharmacy-and-poisons-fees-order-1993.json"
+    },
+    {
+      "year": 1991,
+      "number": 30,
+      "sub_phase": "sis_health",
+      "status": "ok",
+      "discovery_text": "medical aid societies and nursing homes (exemption, establishment and operation) (authorisation fees) order, 1991",
+      "alphabet": "M",
+      "record_id": "si-zm-1991-030-medical-aid-societies-and-nursing-homes-exemption-establishment-and-operation-au",
+      "sections": 1,
+      "title": "Medical Aid Societies and Nursing Homes (Exemption, Establishment and Operation) (Authorisation Fees) Order, 1991",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1991/30/eng@1991-03-01/source.pdf",
+      "pdf_hash": "fa17918c9dde8dd05c8485ad096df8ca43d5790a091e4c6cdd75635814cb3481",
+      "pdf_bytes": 153361,
+      "raw_pdf": "/sessions/pensive-beautiful-albattani/mnt/corpus/raw/zambialii/si/1991/si-zm-1991-030-medical-aid-societies-and-nursing-homes-exemption-establishment-and-operation-au.pdf",
+      "record_path": "/sessions/pensive-beautiful-albattani/mnt/corpus/records/sis/1991/si-zm-1991-030-medical-aid-societies-and-nursing-homes-exemption-establishment-and-operation-au.json"
+    }
+  ]
+}
