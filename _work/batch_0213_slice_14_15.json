@@ -1,0 +1,30 @@
+{
+  "batch": "0213",
+  "phase": "ingest",
+  "slice": [
+    14,
+    15
+  ],
+  "started_at": "2026-04-25T04:35:19Z",
+  "completed_at": "2026-04-25T04:35:28Z",
+  "fetch_start": 191,
+  "fetch_end": 193,
+  "results": [
+    {
+      "year": 1980,
+      "number": 51,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) (no. 3) order, 1980",
+      "alphabet": "I",
+      "record_id": "si-zm-1980-051-income-tax-foreign-organisations-exemption-approval-no-3-order-1980",
+      "sections": 3,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) (No. 3) Order, 1980",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1980/51/eng@1980-04-25/source.pdf",
+      "pdf_hash": "f77167720758b0bff32c22cba9e87fca5e447c8fd4d1cf2ecea1bf829e644d2e",
+      "pdf_bytes": 169306,
+      "raw_pdf": "/sessions/zen-gallant-hopper/mnt/corpus/raw/zambialii/si/1980/si-zm-1980-051-income-tax-foreign-organisations-exemption-approval-no-3-order-1980.pdf",
+      "record_path": "/sessions/zen-gallant-hopper/mnt/corpus/records/sis/1980/si-zm-1980-051-income-tax-foreign-organisations-exemption-approval-no-3-order-1980.json"
+    }
+  ]
+}

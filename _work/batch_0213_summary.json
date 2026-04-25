@@ -1,0 +1,139 @@
+{
+  "batch": "0213",
+  "phase": "phase_4_bulk",
+  "sub_phase": "mixed_sis",
+  "started_at": "2026-04-25T04:33:07Z",
+  "completed_at": "2026-04-25T04:42:12Z",
+  "discovery_fetches": 8,
+  "ingest_fetches": 12,
+  "fetches_used": 20,
+  "records_written": 5,
+  "targets_attempted": 6,
+  "results": [
+    {
+      "year": 2024,
+      "number": 1,
+      "sub_phase": "sis_corporate",
+      "status": "ok",
+      "discovery_text": "anti-terrorism and non proliferation (united nations security council resolutions implementation) regulations 2023",
+      "alphabet": "A",
+      "record_id": "si-zm-2024-001-anti-terrorism-and-non-proliferation-united-nations-security-council-resolutions",
+      "sections": 46,
+      "title": "Anti-Terrorism and Non Proliferation (United Nations Security Council Resolutions Implementation) Regulations, 2024",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2024/1/eng@2024-01-05/source.pdf",
+      "pdf_hash": "32f39065b89ce091a38b590f179064df1b421c28e7114eda786c58fdf84af5c4",
+      "pdf_bytes": 390282,
+      "raw_pdf": "raw/zambialii/si/2024/si-zm-2024-001-anti-terrorism-and-non-proliferation-united-nations-security-council-resolutions.pdf",
+      "record_path": "records/sis/2024/si-zm-2024-001-anti-terrorism-and-non-proliferation-united-nations-security-council-resolutions.json"
+    },
+    {
+      "year": 2025,
+      "number": 56,
+      "sub_phase": "sis_data_protection",
+      "status": "ok",
+      "discovery_text": "access to information (general) regulations, 2025",
+      "alphabet": "A",
+      "record_id": "si-zm-2025-056-access-to-information-general-regulations-2025",
+      "sections": 22,
+      "title": "Access to Information (General) Regulations, 2025",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2025/56/eng@2025-08-29/source.pdf",
+      "pdf_hash": "4c229b70612af5777c15e2e018b13886aae28cfc228e522c3d3e13c608017c77",
+      "pdf_bytes": 610759,
+      "raw_pdf": "raw/zambialii/si/2025/si-zm-2025-056-access-to-information-general-regulations-2025.pdf",
+      "record_path": "records/sis/2025/si-zm-2025-056-access-to-information-general-regulations-2025.json"
+    },
+    {
+      "year": 2023,
+      "number": 37,
+      "sub_phase": "sis_family",
+      "status": "ok",
+      "discovery_text": "wills and administration of testate estates (probate) rules, 2023",
+      "alphabet": "W",
+      "record_id": "si-zm-2023-037-wills-and-administration-of-testate-estates-probate-rules-2023",
+      "sections": 86,
+      "title": "Wills and Administration of Testate Estates (Probate) Rules, 2023",
+      "pdf_url": "https://commons.laws.africa/akn/zm/act/si/2023/37/media/publication/zm-act-si-2023-37-publication-document.pdf",
+      "pdf_hash": "cb788f04119098dc47a90d44b31a3990327c48c378ab07c18078dabb641d3297",
+      "pdf_bytes": 401228,
+      "raw_pdf": "raw/zambialii/si/2023/si-zm-2023-037-wills-and-administration-of-testate-estates-probate-rules-2023.pdf",
+      "record_path": "records/sis/2023/si-zm-2023-037-wills-and-administration-of-testate-estates-probate-rules-2023.json"
+    },
+    {
+      "year": 2022,
+      "number": 12,
+      "sub_phase": "sis_corporate",
+      "status": "pdf_parse_empty",
+      "discovery_text": "societies (amendment) rules, 2021",
+      "alphabet": "S"
+    },
+    {
+      "year": 1984,
+      "number": 17,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "customs and excise (mines and minerals amendment) provisional charging order 1984",
+      "alphabet": "T",
+      "record_id": "si-zm-1984-017-mines-and-minerals-amendment-bill-provisional-charging-order-1984",
+      "sections": 3,
+      "title": "Mines and Minerals (Amendment) Bill (Provisional Charging) Order 1984",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1984/17/eng@1984-01-27/source.pdf",
+      "pdf_hash": "3895e251d90e7dd64e3676e2539f0b0962cf9ae977b29ae29606917a6fa5dd3b",
+      "pdf_bytes": 141802,
+      "raw_pdf": "raw/zambialii/si/1984/si-zm-1984-017-mines-and-minerals-amendment-bill-provisional-charging-order-1984.pdf",
+      "record_path": "records/sis/1984/si-zm-1984-017-mines-and-minerals-amendment-bill-provisional-charging-order-1984.json"
+    },
+    {
+      "year": 1980,
+      "number": 51,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) (no. 3) order, 1980",
+      "alphabet": "I",
+      "record_id": "si-zm-1980-051-income-tax-foreign-organisations-exemption-approval-no-3-order-1980",
+      "sections": 3,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) (No. 3) Order, 1980",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1980/51/eng@1980-04-25/source.pdf",
+      "pdf_hash": "f77167720758b0bff32c22cba9e87fca5e447c8fd4d1cf2ecea1bf829e644d2e",
+      "pdf_bytes": 169306,
+      "raw_pdf": "/sessions/zen-gallant-hopper/mnt/corpus/raw/zambialii/si/1980/si-zm-1980-051-income-tax-foreign-organisations-exemption-approval-no-3-order-1980.pdf",
+      "record_path": "/sessions/zen-gallant-hopper/mnt/corpus/records/sis/1980/si-zm-1980-051-income-tax-foreign-organisations-exemption-approval-no-3-order-1980.json"
+    }
+  ],
+  "discovery_alphabets": [
+    "V",
+    "W",
+    "M",
+    "I",
+    "T",
+    "S",
+    "C",
+    "B_corp",
+    "P_corp",
+    "M_corp",
+    "I_corp",
+    "S_corp",
+    "F_corp"
+  ],
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "novel_total_pre_keyword": 41,
+  "novel_kept_post_keyword": 5,
+  "slices": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      14,
+      15
+    ]
+  ],
+  "rotation_notes": "sis_tax exhaustion observed: only 1 novel sis_tax candidate (1980/051) + 1984/017 customs (provisional charging order) found across alphabets V/W/M/I/T/S/C; all other candidates were recurring image-only PDFs (2022/4, 2019/25, 2017/43) or established FPs (Control of Goods notices, CEE Reservation Scheme, Medical Aid Societies). Cross-sub_phase rotation this tick to fill the batch: sis_family (2023/037 wills probate), sis_corporate (2024/001 anti-terrorism), sis_data_protection (2025/056 access to information). One sis_corporate target (2022/012 societies amendment) failed pdf_parse_empty \u2014 joins image-only-PDF queue."
+}

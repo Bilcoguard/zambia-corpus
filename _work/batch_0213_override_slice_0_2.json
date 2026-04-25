@@ -1,0 +1,38 @@
+{
+  "batch": "0213",
+  "phase": "ingest_override",
+  "slice": [
+    0,
+    2
+  ],
+  "started_at": "2026-04-25T04:40:19Z",
+  "completed_at": "2026-04-25T04:40:43Z",
+  "fetch_start": 193,
+  "fetch_end": 197,
+  "results": [
+    {
+      "year": 2023,
+      "number": 37,
+      "sub_phase": "sis_family",
+      "status": "ok",
+      "discovery_text": "wills and administration of testate estates (probate) rules, 2023",
+      "alphabet": "W",
+      "record_id": "si-zm-2023-037-wills-and-administration-of-testate-estates-probate-rules-2023",
+      "sections": 86,
+      "title": "Wills and Administration of Testate Estates (Probate) Rules, 2023",
+      "pdf_url": "https://commons.laws.africa/akn/zm/act/si/2023/37/media/publication/zm-act-si-2023-37-publication-document.pdf",
+      "pdf_hash": "cb788f04119098dc47a90d44b31a3990327c48c378ab07c18078dabb641d3297",
+      "pdf_bytes": 401228,
+      "raw_pdf": "raw/zambialii/si/2023/si-zm-2023-037-wills-and-administration-of-testate-estates-probate-rules-2023.pdf",
+      "record_path": "records/sis/2023/si-zm-2023-037-wills-and-administration-of-testate-estates-probate-rules-2023.json"
+    },
+    {
+      "year": 2022,
+      "number": 12,
+      "sub_phase": "sis_corporate",
+      "status": "pdf_parse_empty",
+      "discovery_text": "societies (amendment) rules, 2021",
+      "alphabet": "S"
+    }
+  ]
+}

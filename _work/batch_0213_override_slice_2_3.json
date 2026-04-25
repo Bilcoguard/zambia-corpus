@@ -1,0 +1,30 @@
+{
+  "batch": "0213",
+  "phase": "ingest_override",
+  "slice": [
+    2,
+    3
+  ],
+  "started_at": "2026-04-25T04:40:49Z",
+  "completed_at": "2026-04-25T04:40:57Z",
+  "fetch_start": 197,
+  "fetch_end": 199,
+  "results": [
+    {
+      "year": 1984,
+      "number": 17,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "customs and excise (mines and minerals amendment) provisional charging order 1984",
+      "alphabet": "T",
+      "record_id": "si-zm-1984-017-mines-and-minerals-amendment-bill-provisional-charging-order-1984",
+      "sections": 3,
+      "title": "Mines and Minerals (Amendment) Bill (Provisional Charging) Order 1984",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1984/17/eng@1984-01-27/source.pdf",
+      "pdf_hash": "3895e251d90e7dd64e3676e2539f0b0962cf9ae977b29ae29606917a6fa5dd3b",
+      "pdf_bytes": 141802,
+      "raw_pdf": "raw/zambialii/si/1984/si-zm-1984-017-mines-and-minerals-amendment-bill-provisional-charging-order-1984.pdf",
+      "record_path": "records/sis/1984/si-zm-1984-017-mines-and-minerals-amendment-bill-provisional-charging-order-1984.json"
+    }
+  ]
+}
