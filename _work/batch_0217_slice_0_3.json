@@ -1,0 +1,62 @@
+{
+  "batch": "0217",
+  "phase": "ingest",
+  "slice": [
+    0,
+    3
+  ],
+  "started_at": "2026-04-25T07:06:11Z",
+  "completed_at": "2026-04-25T07:06:46Z",
+  "fetch_start": 281,
+  "fetch_end": 287,
+  "results": [
+    {
+      "year": 2023,
+      "number": 35,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (mumbotuta falls) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-035-national-heritage-conservation-commission-mumbotuta-falls-national-monument-decl",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Mumbotuta Falls) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/35/eng@2023-08-17/source.pdf",
+      "pdf_hash": "ba3b01ace68ed9d6985e5a1e21e80d845e4be135dd69c5efd3ae65b31a7d7e1c",
+      "pdf_bytes": 292683,
+      "raw_pdf": "/sessions/cool-gallant-cannon/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-035-national-heritage-conservation-commission-mumbotuta-falls-national-monument-decl.pdf",
+      "record_path": "/sessions/cool-gallant-cannon/mnt/corpus/records/sis/2023/si-zm-2023-035-national-heritage-conservation-commission-mumbotuta-falls-national-monument-decl.json"
+    },
+    {
+      "year": 2019,
+      "number": 48,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (longola hot springs) (national monument) (provisional declaration) order, 2019",
+      "alphabet": "N",
+      "record_id": "si-zm-2019-048-national-heritage-conservation-commission-longola-hot-springs-national-monument-",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Longola Hot Springs) (National Monument) (Provisional Declaration) Order, 2019",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2019/48/eng@2019-09-06/source.pdf",
+      "pdf_hash": "243ce18bf736833a5a1a9ac13af4c02035ceb1874a8d9079a9f36cfd80979c18",
+      "pdf_bytes": 12366,
+      "raw_pdf": "/sessions/cool-gallant-cannon/mnt/corpus/raw/zambialii/si/2019/si-zm-2019-048-national-heritage-conservation-commission-longola-hot-springs-national-monument-.pdf",
+      "record_path": "/sessions/cool-gallant-cannon/mnt/corpus/records/sis/2019/si-zm-2019-048-national-heritage-conservation-commission-longola-hot-springs-national-monument-.json"
+    },
+    {
+      "year": 2019,
+      "number": 49,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (mulungushi rock of authority) (national monument) (provisional declaration) order, 2019",
+      "alphabet": "N",
+      "record_id": "si-zm-2019-049-national-heritage-conservation-commission-mulungushi-rock-of-authority-national-",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Mulungushi Rock of Authority) (National Monument) (Provisional Declaration) Order, 2019",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2019/49/eng@2019-09-06/source.pdf",
+      "pdf_hash": "ec308e867e7281c7c3ec5cac9fbd931966d0e200edb71ed6a97f846daaa46bda",
+      "pdf_bytes": 15093,
+      "raw_pdf": "/sessions/cool-gallant-cannon/mnt/corpus/raw/zambialii/si/2019/si-zm-2019-049-national-heritage-conservation-commission-mulungushi-rock-of-authority-national-.pdf",
+      "record_path": "/sessions/cool-gallant-cannon/mnt/corpus/records/sis/2019/si-zm-2019-049-national-heritage-conservation-commission-mulungushi-rock-of-authority-national-.json"
+    }
+  ]
+}

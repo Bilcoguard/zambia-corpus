@@ -1,0 +1,30 @@
+{
+  "batch": "0217",
+  "phase": "ingest",
+  "slice": [
+    7,
+    8
+  ],
+  "started_at": "2026-04-25T07:07:38Z",
+  "completed_at": "2026-04-25T07:07:47Z",
+  "fetch_start": 295,
+  "fetch_end": 297,
+  "results": [
+    {
+      "year": 2019,
+      "number": 54,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (kavalamanja-kakaroo liberation heritage) (declaration) order, 2019",
+      "alphabet": "N",
+      "record_id": "si-zm-2019-054-national-heritage-conservation-commission-kavalamanja-kakaroo-liberation-heritag",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Kavalamanja-Kakaroo Liberation Heritage) (Declaration) Order, 2019",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2019/54/eng@2019-09-06/source.pdf",
+      "pdf_hash": "38730c3e22d2526434fe440d873c3abf70bbc96c300d49fee84062b8ef1290a8",
+      "pdf_bytes": 13668,
+      "raw_pdf": "/sessions/cool-gallant-cannon/mnt/corpus/raw/zambialii/si/2019/si-zm-2019-054-national-heritage-conservation-commission-kavalamanja-kakaroo-liberation-heritag.pdf",
+      "record_path": "/sessions/cool-gallant-cannon/mnt/corpus/records/sis/2019/si-zm-2019-054-national-heritage-conservation-commission-kavalamanja-kakaroo-liberation-heritag.json"
+    }
+  ]
+}

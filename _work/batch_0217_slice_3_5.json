@@ -1,0 +1,46 @@
+{
+  "batch": "0217",
+  "phase": "ingest",
+  "slice": [
+    3,
+    5
+  ],
+  "started_at": "2026-04-25T07:06:49Z",
+  "completed_at": "2026-04-25T07:07:11Z",
+  "fetch_start": 287,
+  "fetch_end": 291,
+  "results": [
+    {
+      "year": 2019,
+      "number": 50,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (chinyunyu hot springs) (national monument) (declaration) order, 2019",
+      "alphabet": "N",
+      "record_id": "si-zm-2019-050-national-heritage-conservation-commission-chinyunyu-hot-springs-national-monumen",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Chinyunyu Hot Springs) (National Monument) (Declaration) Order, 2019",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2019/50/eng@2019-09-06/source.pdf",
+      "pdf_hash": "8dd280064b39e20dc8a9dd68033921ab8f5cafb0e443e9383932d04c55329b16",
+      "pdf_bytes": 15030,
+      "raw_pdf": "/sessions/cool-gallant-cannon/mnt/corpus/raw/zambialii/si/2019/si-zm-2019-050-national-heritage-conservation-commission-chinyunyu-hot-springs-national-monumen.pdf",
+      "record_path": "/sessions/cool-gallant-cannon/mnt/corpus/records/sis/2019/si-zm-2019-050-national-heritage-conservation-commission-chinyunyu-hot-springs-national-monumen.json"
+    },
+    {
+      "year": 2019,
+      "number": 51,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (mukuku bridge) (national monument) (provisional declaration) order, 2019",
+      "alphabet": "N",
+      "record_id": "si-zm-2019-051-national-heritage-conservation-commission-mukuku-bridge-national-monument-provis",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Mukuku Bridge) (National Monument) (Provisional Declaration) Order, 2019",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2019/51/eng@2019-09-06/source.pdf",
+      "pdf_hash": "95d2894838a01910b73c6463f41323ae6f5640b09855043f7183dd8ec68f1c1c",
+      "pdf_bytes": 12365,
+      "raw_pdf": "/sessions/cool-gallant-cannon/mnt/corpus/raw/zambialii/si/2019/si-zm-2019-051-national-heritage-conservation-commission-mukuku-bridge-national-monument-provis.pdf",
+      "record_path": "/sessions/cool-gallant-cannon/mnt/corpus/records/sis/2019/si-zm-2019-051-national-heritage-conservation-commission-mukuku-bridge-national-monument-provis.json"
+    }
+  ]
+}

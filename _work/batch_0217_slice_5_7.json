@@ -1,0 +1,46 @@
+{
+  "batch": "0217",
+  "phase": "ingest",
+  "slice": [
+    5,
+    7
+  ],
+  "started_at": "2026-04-25T07:07:14Z",
+  "completed_at": "2026-04-25T07:07:36Z",
+  "fetch_start": 291,
+  "fetch_end": 295,
+  "results": [
+    {
+      "year": 2019,
+      "number": 52,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (mpezeni royal burial) (national monument) (provisional declaration) order, 2019",
+      "alphabet": "N",
+      "record_id": "si-zm-2019-052-national-heritage-conservation-commission-mpezeni-royal-burial-national-monument",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Mpezeni Royal Burial) (National Monument) (Provisional Declaration) Order, 2019",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2019/52/eng@2019-09-06/source.pdf",
+      "pdf_hash": "62f80db5994fb5bf636486e8b8d284c505c2a9b29e8128238b32eb48b5cabd3d",
+      "pdf_bytes": 118380,
+      "raw_pdf": "/sessions/cool-gallant-cannon/mnt/corpus/raw/zambialii/si/2019/si-zm-2019-052-national-heritage-conservation-commission-mpezeni-royal-burial-national-monument.pdf",
+      "record_path": "/sessions/cool-gallant-cannon/mnt/corpus/records/sis/2019/si-zm-2019-052-national-heritage-conservation-commission-mpezeni-royal-burial-national-monument.json"
+    },
+    {
+      "year": 2019,
+      "number": 53,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (tarbuttite site) (national monument) (provisional declaration) order, 2019",
+      "alphabet": "N",
+      "record_id": "si-zm-2019-053-national-heritage-conservation-commission-tarbuttite-site-national-monument-prov",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Tarbuttite Site) (National Monument) (Provisional Declaration) Order, 2019",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2019/53/eng@2019-09-06/source.pdf",
+      "pdf_hash": "4207b720d23ae9b29e5ba0a3f5f4041d443e4032c6d634a038cb26c2bb0eb76d",
+      "pdf_bytes": 11703,
+      "raw_pdf": "/sessions/cool-gallant-cannon/mnt/corpus/raw/zambialii/si/2019/si-zm-2019-053-national-heritage-conservation-commission-tarbuttite-site-national-monument-prov.pdf",
+      "record_path": "/sessions/cool-gallant-cannon/mnt/corpus/records/sis/2019/si-zm-2019-053-national-heritage-conservation-commission-tarbuttite-site-national-monument-prov.json"
+    }
+  ]
+}
