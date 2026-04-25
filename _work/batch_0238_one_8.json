@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2018/81",
+    "year": "2018",
+    "num": "81",
+    "title": "Electoral Process (Local Governments By-Elections) (Election Date and Time of Poll) (No. 6) Order, 2018",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2018-10-26"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2018-081-electoral-process-local-governments-by-elections-election-date-and-time-of-poll-no-6-order-2018",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2018,
+    "number": 81,
+    "title": "Electoral Process (Local Governments By-Elections) (Election Date and Time of Poll) (No. 6) Order, 2018",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2018-10-19",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2018/81",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2018/81/eng@2018-10-19/source.pdf",
+    "source_hash": "84b377dfaef35030e3b88aa06008fe40a8795292594a4b98436146fa73925c37",
+    "html_hash": "26a13a6a64c3a00477661fb0fe6c1c92c2b8ca341bb0f64ba0b42416bebab452",
+    "fetched_at": "2026-04-25T21:10:21Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1890,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2018/si-zm-2018-081-electoral-process-local-governments-by-elections-election-date-and-time-of-poll-no-6-order-2018.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/81",
+      "bytes": 39519,
+      "path": "raw/zambialii/si/2018/si-zm-2018-081-electoral-process-local-governments-by-elections-election-date-and-time-of-poll-no-6-order-2018.html",
+      "sha": "26a13a6a64c3a00477661fb0fe6c1c92c2b8ca341bb0f64ba0b42416bebab452"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/81/eng@2018-10-19/source.pdf",
+      "bytes": 163715,
+      "path": "raw/zambialii/si/2018/si-zm-2018-081-electoral-process-local-governments-by-elections-election-date-and-time-of-poll-no-6-order-2018.pdf",
+      "sha": "84b377dfaef35030e3b88aa06008fe40a8795292594a4b98436146fa73925c37"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2017/54",
+    "year": "2017",
+    "num": "54",
+    "title": "Electoral Process (Local Government By-Elections) (Election Date and Times of Poll) Order, 2017",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2017-07-14"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2017-054-electoral-process-local-government-by-elections-election-date-and-times-of-poll-order-2017",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2017,
+    "number": 54,
+    "title": "Electoral Process (Local Government By-Elections) (Election Date and Times of Poll) Order, 2017",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2017-07-14",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2017/54",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2017/54/eng@2017-07-14/source.pdf",
+    "source_hash": "2bc24337fbe299ebc2bec6091a697bb55ccf6e7d697e82972c029bc2a2e73539",
+    "html_hash": "ad63c16c9d05cb78de10fa3db431d206496d5719747a2251d1812c7b4749249a",
+    "fetched_at": "2026-04-25T21:07:21Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 2016,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2017/si-zm-2017-054-electoral-process-local-government-by-elections-election-date-and-times-of-poll-order-2017.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2017/54",
+      "bytes": 39460,
+      "path": "raw/zambialii/si/2017/si-zm-2017-054-electoral-process-local-government-by-elections-election-date-and-times-of-poll-order-2017.html",
+      "sha": "ad63c16c9d05cb78de10fa3db431d206496d5719747a2251d1812c7b4749249a"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2017/54/eng@2017-07-14/source.pdf",
+      "bytes": 148809,
+      "path": "raw/zambialii/si/2017/si-zm-2017-054-electoral-process-local-government-by-elections-election-date-and-times-of-poll-order-2017.pdf",
+      "sha": "2bc24337fbe299ebc2bec6091a697bb55ccf6e7d697e82972c029bc2a2e73539"
+    }
+  ]
+}

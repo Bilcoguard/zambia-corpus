@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2018/56",
+    "year": "2018",
+    "num": "56",
+    "title": "National Assembly By-Election (Kasenengwa Constituency No. 41) (Election Date and Time of Poll) (No. 2) Order, 2018",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2018-08-03"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2018-056-national-assembly-by-election-kasenengwa-constituency-no-41-election-date-and-time-of-poll-no-2-order-2018",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2018,
+    "number": 56,
+    "title": "National Assembly By-Election (Kasenengwa Constituency No. 41) (Election Date and Time of Poll) (No. 2) Order, 2018",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2018-08-03",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2018/56",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2018/56/eng@2018-08-03/source.pdf",
+    "source_hash": "d405f9242b908eee52d8a96f84f3fda967f85026e32375cab61cd73e37cf774b",
+    "html_hash": "cd6c1748eb0d42ad6e7917a734f8781c2f5d29e67f44d2009a2694674257b417",
+    "fetched_at": "2026-04-25T21:08:43Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 4,
+    "pdf_text_chars": 3819,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2018/si-zm-2018-056-national-assembly-by-election-kasenengwa-constituency-no-41-election-date-and-time-of-poll-no-2-order-2018.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/56",
+      "bytes": 39262,
+      "path": "raw/zambialii/si/2018/si-zm-2018-056-national-assembly-by-election-kasenengwa-constituency-no-41-election-date-and-time-of-poll-no-2-order-2018.html",
+      "sha": "cd6c1748eb0d42ad6e7917a734f8781c2f5d29e67f44d2009a2694674257b417"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/56/eng@2018-08-03/source.pdf",
+      "bytes": 21452,
+      "path": "raw/zambialii/si/2018/si-zm-2018-056-national-assembly-by-election-kasenengwa-constituency-no-41-election-date-and-time-of-poll-no-2-order-2018.pdf",
+      "sha": "d405f9242b908eee52d8a96f84f3fda967f85026e32375cab61cd73e37cf774b"
+    }
+  ]
+}

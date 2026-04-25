@@ -1,0 +1,62 @@
+{
+  "attempted": 9,
+  "ok": 8,
+  "fail": 1,
+  "skip": 0,
+  "results": [
+    {
+      "idx": 0,
+      "pick": "2017/18",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "idx": 1,
+      "pick": "2017/54",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "idx": 2,
+      "pick": "2018/21",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "idx": 3,
+      "pick": "2018/33",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "idx": 4,
+      "pick": "2018/46",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "idx": 5,
+      "pick": "2018/56",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "idx": 6,
+      "pick": "2018/57",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "idx": 7,
+      "pick": "2018/75",
+      "status": "fail",
+      "error": "pdf_parse_empty"
+    },
+    {
+      "idx": 8,
+      "pick": "2018/81",
+      "status": "ok",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "all_pass": true,
+  "checks": {
+    "CHECK1a_unique": true,
+    "CHECK1b_on_disk": true,
+    "CHECK2_amended_by": true,
+    "CHECK3_repealed_by": true,
+    "CHECK4_sha256_match": true,
+    "CHECK5_required_fields": true,
+    "CHECK6_cited_authorities": true
+  },
+  "count": 8
+}

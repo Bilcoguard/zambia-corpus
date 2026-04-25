@@ -1,0 +1,29 @@
+{
+  "pick": {
+    "yr_num": "2018/75",
+    "year": "2018",
+    "num": "75",
+    "title": "National Assembly By-Election (Mangango Constituency No. 141) (Election Date and Time of Poll) Order, 2018",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2018-10-05"
+  },
+  "status": "fail",
+  "error": "pdf_parse_empty",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/75",
+      "bytes": 39213,
+      "path": "raw/zambialii/si/2018/si-zm-2018-075-national-assembly-by-election-mangango-constituency-no-141-election-date-and-time-of-poll-order-2018.html",
+      "sha": "acd912020fbbfd298cab0a44a73ff1d4e1d4178f4a749c3f0a983145fa6c1cd8"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/75/eng@2018-10-05/source.pdf",
+      "bytes": 570804,
+      "path": "raw/zambialii/si/2018/si-zm-2018-075-national-assembly-by-election-mangango-constituency-no-141-election-date-and-time-of-poll-order-2018.pdf",
+      "sha": "3468cde1f8de3b4cfa5196ab49bfe2b1842dc7c8b9825ef31f63d847ea831ab3"
+    }
+  ],
+  "html_sha": "acd912020fbbfd298cab0a44a73ff1d4e1d4178f4a749c3f0a983145fa6c1cd8",
+  "pdf_sha": "3468cde1f8de3b4cfa5196ab49bfe2b1842dc7c8b9825ef31f63d847ea831ab3"
+}
