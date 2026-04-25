@@ -1,0 +1,46 @@
+{
+  "id": "si-zm-2012-016-property-transfer-exemption-order-2012",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Property Transfer (Exemption) Order, 2012",
+  "citation": "Statutory Instrument No. 16 of 2012",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "2",
+      "heading": "The transfer of ordinary shares relating to the transactions Exemption",
+      "text": "set out in the Schedule shall be exempt from property tax. from tax\nCopies oft his Statutory Instrument can be obtainedf rom the .Government Printer,\nP.O. Box 30136, 10101, Lusaka, Price Kl,000 each\n76 Statutory Instruments 9th March, 2012\nSCHEDULE\n(Paragraph 2)\nName of Transferor Nature of Transfer Name a/Transferee"
+    },
+    {
+      "number": "1",
+      "heading": "China Nonferrous (a) Ordinary Shares in CNMC China Nonferrous",
+      "text": "Metal Mining Luanshya Copper Mines Mining Development\n(Group) Co., Ltd. PLC Limited\n(b) Ordinary Shares in\nCharnbishi Copper Smelter\nLimited\n(c) Ordinary Shares in NFC\nAfrica Mining PLC\n(d ) Ordinary Shares in\nSino-Metals Leach Zambia\nLimited"
+    },
+    {
+      "number": "2",
+      "heading": "China Nonferrous Ordinary Shares China Nonferrous",
+      "text": "Mining Development Mining Corporation\nLimited Limited"
+    },
+    {
+      "number": "3",
+      "heading": "China Nonferrous Ordinary Shares China Nonferrous",
+      "text": "Mining Corporation Mining Holdings\nLimited Limited\nA. B. CHIKWANDA,\nMinister of Finance\nLUSAKA\nI st March, 2012\n[MFB. I 03/22/80]\n,."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2012/16/eng@2012-03-09/source.pdf",
+  "source_hash": "sha256:fa4778291807adc6583435bdc062c9f2abc8e33417a725d50fc1dfc95345f334",
+  "fetched_at": "2026-04-25T02:34:56Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2012/16/eng@2012-03-09",
+      "source_hash": "sha256:cc5d8b069eee9c65242aface1580eb837399c70c4ad3bd89c51cd342346d1049",
+      "fetched_at": "2026-04-25T02:34:54Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

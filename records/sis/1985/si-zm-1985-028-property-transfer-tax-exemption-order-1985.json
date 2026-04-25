@@ -1,0 +1,36 @@
+{
+  "id": "si-zm-1985-028-property-transfer-tax-exemption-order-1985",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Property Transfer Tax (Exemption) Order, 1985",
+  "citation": "Statutory Instrument No. 28 of 1985",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Order may be cited as the Property Transfer Tax Title",
+      "text": "(Exemption) Order, 1985."
+    },
+    {
+      "number": "2",
+      "heading": "There shall be exempt from tax under the Act a transfer",
+      "text": "Exemption\nof property by a shareholder of a company incorporated under\nthe Companies Act, if such transfer is his contribution towards Cap. 686\nthe equity of that company.\nL. J. MWANANSHIKU,\nMinister of Finance\nLUSAKA\n26th February, 1985\n[SF.44/9]\nCopies of this Statul.ory Instrument can be obtained from Ille Government. Printer,\nP.O. Box 30136, L�G:ka.Price 20n f'.acl1.\n.\nStat11tor1J,Instrumen_ts 1st Marcli, 1985·,\n.\n,.\n....... -- ,) . ... ,_ ..... .,_ .......... •··:.... ; . .,, .. � ·\n·----\n•. r' ..... ..•. , .'. . ,�\n;\n...\n. - �\n(•\"--••• ,• '• V\n.1\n(: :. :., � • :;\n-,,._/\n.,'.\n·, ..\n•• • 4 .. , ·-· ......\n'•'• • ;', 1 . �) �: \\ ' :\n,1\\�. . , J.'"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/1985/28/eng@1985-03-01/source.pdf",
+  "source_hash": "sha256:dc3e7ae74246087898eb23ed11999a60d92866f7473b3d9d2086c846ced352b4",
+  "fetched_at": "2026-04-25T02:35:22Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/1985/28/eng@1985-03-01",
+      "source_hash": "sha256:2b2da72132b5a3feddf638cd10fc9fa258cc1df849213b0a7b016b569df05519",
+      "fetched_at": "2026-04-25T02:35:20Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

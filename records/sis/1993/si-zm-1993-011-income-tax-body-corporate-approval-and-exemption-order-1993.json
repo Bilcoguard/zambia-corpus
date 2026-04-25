@@ -1,0 +1,36 @@
+{
+  "id": "si-zm-1993-011-income-tax-body-corporate-approval-and-exemption-order-1993",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Income Tax (Body Corporate) (Approval and Exemption) Order, 1993",
+  "citation": "Statutory Instrument No. 11 of 1993",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Order may be cited as the Income Tax (Body Corporate) Title",
+      "text": "(Approval and Exemption) Order, 1993."
+    },
+    {
+      "number": "2",
+      "heading": "The income of Zambia Coffee Growers Association is Exemption",
+      "text": "from tax\nhereby exempted from tax under paragraph 5 (5) of Part III of the.\nSecond Schedule to the Act.\nE. G. KAsoNDE,\nLUSAKA Minister·otF inance\n24th January, 1993\n[MFB.103/12/4]\nCopies of this StatUlory lnstrW111!nl can be obtrunedf rom the Governrnenl Prinler,\nP.O. Box 30136, 10100 Lusaka. Price K25.00 eoch.\n·.�, .. '.. ,,'\n24 Statutory Instruments 29th January, 1993"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/1993/11/eng@1993-01-29/source.pdf",
+  "source_hash": "sha256:6409fc35bb2afb31520e65ded9860b85381d73e341d1d41518ecedd22bd9cdc6",
+  "fetched_at": "2026-04-25T02:35:35Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/1993/11/eng@1993-01-29",
+      "source_hash": "sha256:115b697ac27f039bb1a877d548b807957dfa9c98cd25c4e7cfe625adf3044c86",
+      "fetched_at": "2026-04-25T02:35:28Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

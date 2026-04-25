@@ -1,0 +1,46 @@
+{
+  "batch": "0209",
+  "phase": "ingest",
+  "slice": [
+    0,
+    2
+  ],
+  "started_at": "2026-04-25T02:34:54Z",
+  "completed_at": "2026-04-25T02:35:16Z",
+  "fetch_start": 6,
+  "fetch_end": 10,
+  "results": [
+    {
+      "year": 2012,
+      "number": 16,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "property transfer (exemption) order, 2012",
+      "alphabet": "P",
+      "record_id": "si-zm-2012-016-property-transfer-exemption-order-2012",
+      "sections": 4,
+      "title": "Property Transfer (Exemption) Order, 2012",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2012/16/eng@2012-03-09/source.pdf",
+      "pdf_hash": "fa4778291807adc6583435bdc062c9f2abc8e33417a725d50fc1dfc95345f334",
+      "pdf_bytes": 152634,
+      "raw_pdf": "/sessions/amazing-gracious-hawking/mnt/corpus/raw/zambialii/si/2012/si-zm-2012-016-property-transfer-exemption-order-2012.pdf",
+      "record_path": "/sessions/amazing-gracious-hawking/mnt/corpus/records/sis/2012/si-zm-2012-016-property-transfer-exemption-order-2012.json"
+    },
+    {
+      "year": 1997,
+      "number": 50,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "property transfer tax (exemption) order, 1997",
+      "alphabet": "P",
+      "record_id": "si-zm-1997-050-property-transfer-tax-exemption-order-1997",
+      "sections": 1,
+      "title": "Property Transfer Tax (Exemption) Order, 1997",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1997/50/eng@1997-04-25/source.pdf",
+      "pdf_hash": "d79e4dfdfe11a2ed2874a67ab1b10f92160f50cd632c6fce409f1a6397a0fcf5",
+      "pdf_bytes": 117466,
+      "raw_pdf": "/sessions/amazing-gracious-hawking/mnt/corpus/raw/zambialii/si/1997/si-zm-1997-050-property-transfer-tax-exemption-order-1997.pdf",
+      "record_path": "/sessions/amazing-gracious-hawking/mnt/corpus/records/sis/1997/si-zm-1997-050-property-transfer-tax-exemption-order-1997.json"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "si-zm-1983-006-income-tax-intersomer-spa-exemption-order-1983",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Income Tax (Intersomer S.P.A.) (Exemption) Order, 1983",
+  "citation": "Statutory Instrument No. 6 of 1983",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Order may be cited as the Income Tax",
+      "text": "Title\n(Intersomer S.P.A.) (Exemption) Order, 1983."
+    },
+    {
+      "number": "2",
+      "heading": "There shall be exempt from tax all dividends",
+      "text": "Exemption\npaid or payable by Zambia Tanzania Road Services\nLimited to Intersomer S.P.A.\nK. S. K. MusoKOTWANE,\nMinister of Finance\nLUSAKA\n3rd January, 1983\n• [MF,104/71/11]\nCopies of t}ds Statutory Inatrument can be obtained from ths Government Printer,\nP.O. Box 30136, Lusaka. Price lOn ern:h.\n16 Statutory Instruments 14th January, 1983\n•"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/1983/6/eng@1983-01-14/source.pdf",
+  "source_hash": "sha256:9c57111d203bb62639b976f95be85c62bd7e56fcb9ff0eac90f59c8e6cdd70dc",
+  "fetched_at": "2026-04-25T02:36:28Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/1983/6/eng@1983-01-14",
+      "source_hash": "sha256:3d8e200a4dd94effa4326a3becb02d01e455ba6dd15c26ce99d78c992b9c591e",
+      "fetched_at": "2026-04-25T02:36:21Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

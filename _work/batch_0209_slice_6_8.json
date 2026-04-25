@@ -1,0 +1,46 @@
+{
+  "batch": "0209",
+  "phase": "ingest",
+  "slice": [
+    6,
+    8
+  ],
+  "started_at": "2026-04-25T02:36:12Z",
+  "completed_at": "2026-04-25T02:36:34Z",
+  "fetch_start": 18,
+  "fetch_end": 22,
+  "results": [
+    {
+      "year": 1987,
+      "number": 9,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (exemption approval) order, 1987",
+      "alphabet": "I",
+      "record_id": "si-zm-1987-009-income-tax-foreign-organisations-exemption-approval-order-1987",
+      "sections": 5,
+      "title": "Income Tax (Foreign Organisations) (Exemption Approval) Order, 1987",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1987/9/eng@1987-01-09/source.pdf",
+      "pdf_hash": "27f2213b2ab1eefb568dfe55be5d98bbd3d9784373f7c08c4b7093f72832c4b4",
+      "pdf_bytes": 329464,
+      "raw_pdf": "/sessions/amazing-gracious-hawking/mnt/corpus/raw/zambialii/si/1987/si-zm-1987-009-income-tax-foreign-organisations-exemption-approval-order-1987.pdf",
+      "record_path": "/sessions/amazing-gracious-hawking/mnt/corpus/records/sis/1987/si-zm-1987-009-income-tax-foreign-organisations-exemption-approval-order-1987.json"
+    },
+    {
+      "year": 1983,
+      "number": 6,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (intersomer s.p.a.) (exemption) order, 1983",
+      "alphabet": "I",
+      "record_id": "si-zm-1983-006-income-tax-intersomer-spa-exemption-order-1983",
+      "sections": 2,
+      "title": "Income Tax (Intersomer S.P.A.) (Exemption) Order, 1983",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1983/6/eng@1983-01-14/source.pdf",
+      "pdf_hash": "9c57111d203bb62639b976f95be85c62bd7e56fcb9ff0eac90f59c8e6cdd70dc",
+      "pdf_bytes": 109532,
+      "raw_pdf": "/sessions/amazing-gracious-hawking/mnt/corpus/raw/zambialii/si/1983/si-zm-1983-006-income-tax-intersomer-spa-exemption-order-1983.pdf",
+      "record_path": "/sessions/amazing-gracious-hawking/mnt/corpus/records/sis/1983/si-zm-1983-006-income-tax-intersomer-spa-exemption-order-1983.json"
+    }
+  ]
+}

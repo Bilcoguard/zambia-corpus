@@ -1,0 +1,46 @@
+{
+  "batch": "0209",
+  "phase": "ingest",
+  "slice": [
+    4,
+    6
+  ],
+  "started_at": "2026-04-25T02:35:45Z",
+  "completed_at": "2026-04-25T02:36:07Z",
+  "fetch_start": 14,
+  "fetch_end": 18,
+  "results": [
+    {
+      "year": 1993,
+      "number": 12,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (foreign organisations) (approval and exemption) (no. 2) order, 1993",
+      "alphabet": "I",
+      "record_id": "si-zm-1993-012-income-tax-foreign-organisations-approval-and-exemption-no-2-order-1993",
+      "sections": 2,
+      "title": "Income Tax (Foreign Organisations) (Approval and Exemption) (No. 2) Order, 1993",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1993/12/eng@1993-01-29/source.pdf",
+      "pdf_hash": "cb1a5a3770331c4557c2d2b2dd5bce476b0c646f02ee59b92cd67b083c6461c5",
+      "pdf_bytes": 152533,
+      "raw_pdf": "/sessions/amazing-gracious-hawking/mnt/corpus/raw/zambialii/si/1993/si-zm-1993-012-income-tax-foreign-organisations-approval-and-exemption-no-2-order-1993.pdf",
+      "record_path": "/sessions/amazing-gracious-hawking/mnt/corpus/records/sis/1993/si-zm-1993-012-income-tax-foreign-organisations-approval-and-exemption-no-2-order-1993.json"
+    },
+    {
+      "year": 1991,
+      "number": 42,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "preservation of public security (income tax act) (suspension) regulations, 1991",
+      "alphabet": "P",
+      "record_id": "si-zm-1991-042-preservation-of-public-security-income-tax-act-suspension-regulations-1991",
+      "sections": 2,
+      "title": "Preservation of Public Security (Income Tax Act) (Suspension) Regulations, 1991",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1991/42/eng@1991-04-05/source.pdf",
+      "pdf_hash": "cef718ec19ee5acf9423471ad1551e5c200625ac04cf1be6c1632f9cf3f9baef",
+      "pdf_bytes": 156398,
+      "raw_pdf": "/sessions/amazing-gracious-hawking/mnt/corpus/raw/zambialii/si/1991/si-zm-1991-042-preservation-of-public-security-income-tax-act-suspension-regulations-1991.pdf",
+      "record_path": "/sessions/amazing-gracious-hawking/mnt/corpus/records/sis/1991/si-zm-1991-042-preservation-of-public-security-income-tax-act-suspension-regulations-1991.json"
+    }
+  ]
+}

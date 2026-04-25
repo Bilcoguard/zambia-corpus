@@ -1,0 +1,46 @@
+{
+  "batch": "0209",
+  "phase": "ingest",
+  "slice": [
+    2,
+    4
+  ],
+  "started_at": "2026-04-25T02:35:20Z",
+  "completed_at": "2026-04-25T02:35:42Z",
+  "fetch_start": 10,
+  "fetch_end": 14,
+  "results": [
+    {
+      "year": 1985,
+      "number": 28,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "property transfer tax (exemption) order, 1985",
+      "alphabet": "P",
+      "record_id": "si-zm-1985-028-property-transfer-tax-exemption-order-1985",
+      "sections": 2,
+      "title": "Property Transfer Tax (Exemption) Order, 1985",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1985/28/eng@1985-03-01/source.pdf",
+      "pdf_hash": "dc3e7ae74246087898eb23ed11999a60d92866f7473b3d9d2086c846ced352b4",
+      "pdf_bytes": 161952,
+      "raw_pdf": "/sessions/amazing-gracious-hawking/mnt/corpus/raw/zambialii/si/1985/si-zm-1985-028-property-transfer-tax-exemption-order-1985.pdf",
+      "record_path": "/sessions/amazing-gracious-hawking/mnt/corpus/records/sis/1985/si-zm-1985-028-property-transfer-tax-exemption-order-1985.json"
+    },
+    {
+      "year": 1993,
+      "number": 11,
+      "sub_phase": "sis_tax",
+      "status": "ok",
+      "discovery_text": "income tax (body corporate) (approval and exemption) order, 1993",
+      "alphabet": "I",
+      "record_id": "si-zm-1993-011-income-tax-body-corporate-approval-and-exemption-order-1993",
+      "sections": 2,
+      "title": "Income Tax (Body Corporate) (Approval and Exemption) Order, 1993",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1993/11/eng@1993-01-29/source.pdf",
+      "pdf_hash": "6409fc35bb2afb31520e65ded9860b85381d73e341d1d41518ecedd22bd9cdc6",
+      "pdf_bytes": 98469,
+      "raw_pdf": "/sessions/amazing-gracious-hawking/mnt/corpus/raw/zambialii/si/1993/si-zm-1993-011-income-tax-body-corporate-approval-and-exemption-order-1993.pdf",
+      "record_path": "/sessions/amazing-gracious-hawking/mnt/corpus/records/sis/1993/si-zm-1993-011-income-tax-body-corporate-approval-and-exemption-order-1993.json"
+    }
+  ]
+}
