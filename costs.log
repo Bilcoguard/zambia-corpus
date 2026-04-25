@@ -3817,3 +3817,22 @@
 {"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2021/58/eng@2021-05-14/source.pdf", "bytes": 331464, "batch": "0232", "fetch_n": 550}
 {"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2022/70", "bytes": 39397, "batch": "0232", "fetch_n": 551}
 {"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2022/70/eng@2022-11-04/source.pdf", "bytes": 289728, "batch": "0232", "fetch_n": 552}
+{"date": "2026-04-25", "url": "https://zambialii.org/robots.txt", "bytes": 2022, "batch": "0233", "fetch_n": 553, "kind": "robots_reverify"}
+{"date": "2026-04-25", "url": "https://zambialii.org/legislation/?alphabet=E", "bytes": 207929, "batch": "0233", "fetch_n": 554, "kind": "discovery"}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2021/40", "bytes": 40135, "batch": "0233", "fetch_n": 555}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2021/40/eng@2021-05-12/source.pdf", "bytes": 24191, "batch": "0233", "fetch_n": 556}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2021/57", "bytes": 38816, "batch": "0233", "fetch_n": 557}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2021/57/eng@2021-05-14/source.pdf", "bytes": 107843, "batch": "0233", "fetch_n": 558}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2022/18", "bytes": 39323, "batch": "0233", "fetch_n": 559}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2022/18/eng@2022-03-11/source.pdf", "bytes": 295208, "batch": "0233", "fetch_n": 560}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2023/48/eng@2023-11-24/source.pdf", "bytes": 99160, "batch": "0233", "fetch_n": 561}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2023/49", "bytes": 41190, "batch": "0233", "fetch_n": 562}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2023/49/eng@2023-11-24/source.pdf", "bytes": 103114, "batch": "0233", "fetch_n": 563}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2023/50", "bytes": 39080, "batch": "0233", "fetch_n": 564}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2023/50/eng@2023-11-24/source.pdf", "bytes": 1931464, "batch": "0233", "fetch_n": 565}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2023/41", "bytes": 41800, "batch": "0233", "fetch_n": 566}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2023/41/eng@2023-09-15/source.pdf", "bytes": 464778, "batch": "0233", "fetch_n": 567}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2023/5", "bytes": 39123, "batch": "0233", "fetch_n": 568}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2023/5/eng@2023-02-24/source.pdf", "bytes": 489214, "batch": "0233", "fetch_n": 569}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2026/4", "bytes": 39190, "batch": "0233", "fetch_n": 570, "kind": "skipped_substituted"}
+{"date": "2026-04-25", "url": "https://zambialii.org/akn/zm/act/si/2026/4/eng@.../source.pdf", "bytes": 28176615, "batch": "0233", "fetch_n": 571, "kind": "skipped_too_large"}

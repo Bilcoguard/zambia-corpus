@@ -1,0 +1,50 @@
+{
+  "pick": {
+    "yr_num": "2023/48",
+    "year": "2023",
+    "num": "48",
+    "title": "Employment Code (Minimum Wages and Conditions of Employment) (General) Order, 2023",
+    "sub_phase": "sis_employment",
+    "parent_act": "Employment Code Act",
+    "eng_date": null
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2023-048-employment-code-minimum-wages-and-conditions-of-employment-general-order-2023",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2023,
+    "number": 48,
+    "title": "Employment Code (Minimum Wages and Conditions of Employment) (General) Order, 2023",
+    "parent_act": "Employment Code Act",
+    "sub_phase": "sis_employment",
+    "effective_date": "2023-11-24",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2023/48",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2023/48/eng@2023-11-24/source.pdf",
+    "source_hash": "a63c52c9d013629f488f0741932574d6395e41888adb9f5e3ad68ae625e00904",
+    "html_hash": "d2d53737466f9faaf739c8d5bbb4ee09388119ddb58ec1c906cb0d9a7c61b49e",
+    "fetched_at": "2026-04-25T18:41:26Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 3536,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2023/si-zm-2023-048-employment-code-minimum-wages-and-conditions-of-employment-general-order-2023.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2023/48",
+      "bytes": 39068,
+      "path": "raw/zambialii/si/2023/si-zm-2023-048-employment-code-minimum-wages-and-conditions-of-employment-general-order-2023.html",
+      "sha": "d2d53737466f9faaf739c8d5bbb4ee09388119ddb58ec1c906cb0d9a7c61b49e",
+      "reused": true
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2023/48/eng@2023-11-24/source.pdf",
+      "bytes": 99160,
+      "path": "raw/zambialii/si/2023/si-zm-2023-048-employment-code-minimum-wages-and-conditions-of-employment-general-order-2023.pdf",
+      "sha": "a63c52c9d013629f488f0741932574d6395e41888adb9f5e3ad68ae625e00904"
+    }
+  ]
+}

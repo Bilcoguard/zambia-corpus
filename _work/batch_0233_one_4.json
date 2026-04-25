@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2023/49",
+    "year": "2023",
+    "num": "49",
+    "title": "Employment Code (Domestic Workers Minimum Wages and Conditions of Employment) Order, 2023",
+    "sub_phase": "sis_employment",
+    "parent_act": "Employment Code Act",
+    "eng_date": null
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2023-049-employment-code-domestic-workers-minimum-wages-and-conditions-of-employment-order-2023",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2023,
+    "number": 49,
+    "title": "Employment Code (Domestic Workers Minimum Wages and Conditions of Employment) Order, 2023",
+    "parent_act": "Employment Code Act",
+    "sub_phase": "sis_employment",
+    "effective_date": "2023-11-24",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2023/49",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2023/49/eng@2023-11-24/source.pdf",
+    "source_hash": "5ca276fb40703d8fdf6632cafb54e2981730408ed232b8d2b7a51b0c262015dc",
+    "html_hash": "d0665db1d799cbf87b326e78c08eb03861da8d0488912a8607c34ba030fec6de",
+    "fetched_at": "2026-04-25T18:41:47Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 3630,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2023/si-zm-2023-049-employment-code-domestic-workers-minimum-wages-and-conditions-of-employment-order-2023.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2023/49",
+      "bytes": 41190,
+      "path": "raw/zambialii/si/2023/si-zm-2023-049-employment-code-domestic-workers-minimum-wages-and-conditions-of-employment-order-2023.html",
+      "sha": "d0665db1d799cbf87b326e78c08eb03861da8d0488912a8607c34ba030fec6de"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2023/49/eng@2023-11-24/source.pdf",
+      "bytes": 103114,
+      "path": "raw/zambialii/si/2023/si-zm-2023-049-employment-code-domestic-workers-minimum-wages-and-conditions-of-employment-order-2023.pdf",
+      "sha": "5ca276fb40703d8fdf6632cafb54e2981730408ed232b8d2b7a51b0c262015dc"
+    }
+  ]
+}

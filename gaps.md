@@ -1030,3 +1030,7 @@ regex form from `batch_0176.py`.
 - [2026-04-25T11:39:12Z] si/2019/025 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2019/25 batch=0222 sub_phase=sis_tax note=image-only/scanned PDF (pdfplumber+pdfminer both 0 chars; same pattern as 2022/004, 2022/012, 2022/013)
 - [2026-04-25T11:41:15Z] si/2011/129 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2011/129 batch=0222 sub_phase=sis_immigration
 - [2026-04-25T11:41:55Z] si/2011/129 status=pdf_parse_empty url=https://commons.laws.africa/akn/zm/act/si/2011/129/media/publication/zm-act-si-2011-129-publication-document.pdf batch=0222 sub_phase=sis_immigration note=image-only/scanned PDF (Immigration and Deportation General Regs 2011)
+
+## Batch 0233 (2026-04-25T18:43Z)
+
+- **2026/4 Electricity (Transmission) (Grid Code) Regulations, 2026** — `https://zambialii.org/akn/zm/act/si/2026/4` — PDF size 28,176,615 bytes exceeds MAX_PDF_BYTES cap of 4,500,000. Skipped; substituted within batch with 2023/5 Energy Regulation (Appeals Tribunal) Rules. **Future-tick action:** raise cap for this one-off (substantive grid code likely worth retaining) or chunk-fetch + reassemble. Raw HTML+PDF cached on disk at raw/zambialii/si/2026/si-zm-2026-004-electricity-transmission-grid-code-regulations-2026.{html,pdf} for reuse.

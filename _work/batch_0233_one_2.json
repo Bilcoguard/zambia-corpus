@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2022/18",
+    "year": "2022",
+    "num": "18",
+    "title": "Electoral Process (General Election) (Election Date and Time of Poll) Order, 2022",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": null
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2022-018-electoral-process-general-election-election-date-and-time-of-poll-order-2022",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2022,
+    "number": 18,
+    "title": "Electoral Process (General Election) (Election Date and Time of Poll) Order, 2022",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2022-03-11",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2022/18",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2022/18/eng@2022-03-11/source.pdf",
+    "source_hash": "030db93a1ca4079bd8fe5c9fa66d6581f8295204241a7e2783618c91c430a922",
+    "html_hash": "fd8e3e8dede5d51f4fd6ad030ccd87f726524fe53a091ef399a7c100e11149bc",
+    "fetched_at": "2026-04-25T18:41:00Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1890,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2022/si-zm-2022-018-electoral-process-general-election-election-date-and-time-of-poll-order-2022.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/18",
+      "bytes": 39323,
+      "path": "raw/zambialii/si/2022/si-zm-2022-018-electoral-process-general-election-election-date-and-time-of-poll-order-2022.html",
+      "sha": "fd8e3e8dede5d51f4fd6ad030ccd87f726524fe53a091ef399a7c100e11149bc"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/18/eng@2022-03-11/source.pdf",
+      "bytes": 295208,
+      "path": "raw/zambialii/si/2022/si-zm-2022-018-electoral-process-general-election-election-date-and-time-of-poll-order-2022.pdf",
+      "sha": "030db93a1ca4079bd8fe5c9fa66d6581f8295204241a7e2783618c91c430a922"
+    }
+  ]
+}

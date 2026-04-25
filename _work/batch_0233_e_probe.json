@@ -1,0 +1,456 @@
+{
+  "alphabet": "E",
+  "total_unique": 85,
+  "modern": 74,
+  "existing_in_corpus_total": 379,
+  "novel": [
+    {
+      "yr": 2021,
+      "num": 7,
+      "href": "/akn/zm/act/si/2021/7/eng@2021-01-29",
+      "eng_date": "2021-01-29",
+      "title": "Electoral Process (Local Government By-Elections) (Election Time and Time of Poll) Order, 2021"
+    },
+    {
+      "yr": 2022,
+      "num": 8,
+      "href": "/akn/zm/act/si/2022/8/eng@2022-01-14",
+      "eng_date": "2022-01-14",
+      "title": "National Assembly By-Election (Kabwata Constituency No. 77) (Election Date and Time of Poll) Order, 2022"
+    },
+    {
+      "yr": 2022,
+      "num": 64,
+      "href": "/akn/zm/act/si/2022/64/eng@2022-10-12",
+      "eng_date": "2022-10-12",
+      "title": "National Assembly By-Elections (Kabushi Constituency No. 36 and Kwacha Constituency No. 22) (Election Date and Time of Poll) (No. 3) Order, 2022"
+    },
+    {
+      "yr": 2022,
+      "num": 21,
+      "href": "/akn/zm/act/si/2022/21/eng@2022-03-14",
+      "eng_date": "2022-03-14",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) Order, 2022"
+    },
+    {
+      "yr": 2022,
+      "num": 18,
+      "href": "/akn/zm/act/si/2022/18/eng@2022-03-11",
+      "eng_date": "2022-03-11",
+      "title": "Electoral Process (General Election) (Election Date and Time of Poll) Order, 2022"
+    },
+    {
+      "yr": 2022,
+      "num": 38,
+      "href": "/akn/zm/act/si/2022/38/eng@2022-06-03",
+      "eng_date": "2022-06-03",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 3) Order, 2022"
+    },
+    {
+      "yr": 2021,
+      "num": 67,
+      "href": "/akn/zm/act/si/2021/67/eng@2021-07-16",
+      "eng_date": "2021-07-16",
+      "title": "National Assembly General Elections (Mandevu Constituency No. 80, Kasenengwa Constituency No. 41, Lusaka Central Constituency No. 79, Chawama Constituency No. 76, Mafinga Constituency No. 89 and Mpulungu Constituency No. 105) (Election Date and Time of Poll) Order, 2021"
+    },
+    {
+      "yr": 2022,
+      "num": 51,
+      "href": "/akn/zm/act/si/2022/51/eng@2022-07-22",
+      "eng_date": "2022-07-22",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) Order, 2022"
+    },
+    {
+      "yr": 2021,
+      "num": 68,
+      "href": "/akn/zm/act/si/2021/68/eng@2021-06-16",
+      "eng_date": "2021-06-16",
+      "title": "Electoral Process (Local Government Elections) (Election Date and Time of Poll) (No. 2) Order, 2021"
+    },
+    {
+      "yr": 2022,
+      "num": 63,
+      "href": "/akn/zm/act/si/2022/63/eng@2022-10-06",
+      "eng_date": "2022-10-06",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) Order, 2022"
+    },
+    {
+      "yr": 2022,
+      "num": 61,
+      "href": "/akn/zm/act/si/2022/61/eng@2022-09-30",
+      "eng_date": "2022-09-30",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 2) Order, 2022"
+    },
+    {
+      "yr": 2021,
+      "num": 88,
+      "href": "/akn/zm/act/si/2021/88/eng@2021-12-17",
+      "eng_date": "2021-12-17",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 4 ) Order, 2021"
+    },
+    {
+      "yr": 2021,
+      "num": 87,
+      "href": "/akn/zm/act/si/2021/87/eng@2021-12-17",
+      "eng_date": "2021-12-17",
+      "title": "National Assembly By-Election (Kabwata Constituency No. 77) (Election Date and Time of Poll) (No. 3) Order, 2021"
+    },
+    {
+      "yr": 2021,
+      "num": 75,
+      "href": "/akn/zm/act/si/2021/75/eng@2021-09-10",
+      "eng_date": "2021-09-10",
+      "title": "Electoral Process (Local Government Elections) (Election Date and Time of Poll) Order, 2021"
+    },
+    {
+      "yr": 2021,
+      "num": 74,
+      "href": "/akn/zm/act/si/2021/74/eng@2021-09-10",
+      "eng_date": "2021-09-10",
+      "title": "National Assembly (Kaumbwe Constituency No. 50) (Election Date and Time of Poll) Order, 2021"
+    },
+    {
+      "yr": 2021,
+      "num": 57,
+      "href": "/akn/zm/act/si/2021/57/eng@2021-05-14",
+      "eng_date": "2021-05-14",
+      "title": "Electoral Process (Revision of Wards) Order, 2021"
+    },
+    {
+      "yr": 2021,
+      "num": 40,
+      "href": "/akn/zm/act/si/2021/40/eng@2021-05-12",
+      "eng_date": "2021-05-12",
+      "title": "Electoral Process (General Election) (Election Date and Time of Poll) Order, 2021"
+    },
+    {
+      "yr": 2020,
+      "num": 101,
+      "href": "/akn/zm/act/si/2020/101/eng@2020-12-11",
+      "eng_date": "2020-12-11",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 8 ) Order, 2020"
+    },
+    {
+      "yr": 2020,
+      "num": 79,
+      "href": "/akn/zm/act/si/2020/79/eng@2020-09-25",
+      "eng_date": "2020-09-25",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 8 ) Order, 2020"
+    },
+    {
+      "yr": 2020,
+      "num": 72,
+      "href": "/akn/zm/act/si/2020/72/eng@2020-08-21",
+      "eng_date": "2020-08-21",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 7 ) Order, 2020"
+    },
+    {
+      "yr": 2020,
+      "num": 71,
+      "href": "/akn/zm/act/si/2020/71/eng@2020-08-21",
+      "eng_date": "2020-08-21",
+      "title": "National Assembly By-Election (Mwansabombwe Constituency No. 65 and Lukashya Constituency No. 98) (Election Date and Time Poll) Order, 2020"
+    },
+    {
+      "yr": 2020,
+      "num": 63,
+      "href": "/akn/zm/act/si/2020/63/eng@2020-07-17",
+      "eng_date": "2020-07-17",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 6) Order, 2020"
+    },
+    {
+      "yr": 2020,
+      "num": 61,
+      "href": "/akn/zm/act/si/2020/61/eng@2020-06-26",
+      "eng_date": "2020-06-26",
+      "title": "Electoral Process (Local Government By-Election) (Election Date and Time of Poll) (No. 5) Order, 2020"
+    },
+    {
+      "yr": 2020,
+      "num": 43,
+      "href": "/akn/zm/act/si/2020/43/eng@2020-04-30",
+      "eng_date": "2020-04-30",
+      "title": "Electoral Process (Local Government By-Election) (Election Date and Time of Poll) (No. 4) Order, 2020"
+    },
+    {
+      "yr": 2020,
+      "num": 23,
+      "href": "/akn/zm/act/si/2020/23/eng@2020-03-20",
+      "eng_date": "2020-03-20",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 3) Order, 2020"
+    },
+    {
+      "yr": 2020,
+      "num": 4,
+      "href": "/akn/zm/act/si/2020/4/eng@2020-01-10",
+      "eng_date": "2020-01-10",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 2) Order, 2020"
+    },
+    {
+      "yr": 2020,
+      "num": 3,
+      "href": "/akn/zm/act/si/2020/3/eng@2020-01-03",
+      "eng_date": "2020-01-03",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) Order, 2020"
+    },
+    {
+      "yr": 2020,
+      "num": 2,
+      "href": "/akn/zm/act/si/2020/2/eng@2020-01-03",
+      "eng_date": "2020-01-03",
+      "title": "National Assembly By-Election (Chilubi Constituency No. 095) (Election date and time of Poll) Order, 2020"
+    },
+    {
+      "yr": 2023,
+      "num": 8,
+      "href": "/akn/zm/act/si/2023/8/eng@2023-03-10",
+      "eng_date": "2023-03-10",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) Order, 2023"
+    },
+    {
+      "yr": 2023,
+      "num": 36,
+      "href": "/akn/zm/act/si/2023/36/eng@2023-08-25",
+      "eng_date": "2023-08-25",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) Order, 2023"
+    },
+    {
+      "yr": 2023,
+      "num": 40,
+      "href": "/akn/zm/act/si/2023/40/eng@2023-09-08",
+      "eng_date": "2023-09-08",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) Order, 2023"
+    },
+    {
+      "yr": 2023,
+      "num": 46,
+      "href": "/akn/zm/act/si/2023/46/eng@2023-11-03",
+      "eng_date": "2023-11-03",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 5) Order, 2023"
+    },
+    {
+      "yr": 2024,
+      "num": 2,
+      "href": "/akn/zm/act/si/2024/2/eng@2024-01-05",
+      "eng_date": "2024-01-05",
+      "title": "Electoral Process (Local Government By Elections) (Election Date and Time of Poll) Order, 2024"
+    },
+    {
+      "yr": 2024,
+      "num": 6,
+      "href": "/akn/zm/act/si/2024/6/eng@2024-01-12",
+      "eng_date": "2024-01-12",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 2) Order, 2024"
+    },
+    {
+      "yr": 2024,
+      "num": 15,
+      "href": "/akn/zm/act/si/2024/15/eng@2024-02-02",
+      "eng_date": "2024-02-02",
+      "title": "Electoral Process (Local Government By Elections) (Election Date and Time of Poll) Order, 2024"
+    },
+    {
+      "yr": 2019,
+      "num": 76,
+      "href": "/akn/zm/act/si/2019/76/eng@2019-11-15",
+      "eng_date": "2019-11-15",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 7) Order, 2019"
+    },
+    {
+      "yr": 2019,
+      "num": 61,
+      "href": "/akn/zm/act/si/2019/61/eng@2019-09-13",
+      "eng_date": "2019-09-13",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 6) Order, 2019"
+    },
+    {
+      "yr": 2019,
+      "num": 38,
+      "href": "/akn/zm/act/si/2019/38/eng@2019-06-07",
+      "eng_date": "2019-06-07",
+      "title": "National Assembly By- Election (Katuba Constituency No. 01) (Election Date and Time of Poll) (No. 3) Order, 2019"
+    },
+    {
+      "yr": 2019,
+      "num": 33,
+      "href": "/akn/zm/act/si/2019/33/eng@2019-05-22",
+      "eng_date": "2019-05-22",
+      "title": "Electoral Process (Local Government By- Elections) (Election Date and Time of Poll) (No. 4) Order, 2019"
+    },
+    {
+      "yr": 2019,
+      "num": 24,
+      "href": "/akn/zm/act/si/2019/24/eng@2019-03-15",
+      "eng_date": "2019-03-15",
+      "title": "Electoral Process (Local Government By- Elections) (Election Date and Time of Poll) (No. 3) Order, 2019"
+    },
+    {
+      "yr": 2019,
+      "num": 23,
+      "href": "/akn/zm/act/si/2019/23/eng@2019-03-15",
+      "eng_date": "2019-03-15",
+      "title": "Electoral Process (Local Government By- Elections) (Election Date and Time of Poll) (No. 2) Order, 2019"
+    },
+    {
+      "yr": 2019,
+      "num": 16,
+      "href": "/akn/zm/act/si/2019/16/eng@2019-03-01",
+      "eng_date": "2019-03-01",
+      "title": "National Assembly By-Election (Bahati Constituency No. 062) (Election Date and Time of Poll) Order, 2019"
+    },
+    {
+      "yr": 2018,
+      "num": 75,
+      "href": "/akn/zm/act/si/2018/75/eng@2018-10-05",
+      "eng_date": "2018-10-05",
+      "title": "National Assembly By-Election (Mangango Constituency No. 141) (Election Date and Time of Poll) Order, 2018"
+    },
+    {
+      "yr": 2018,
+      "num": 94,
+      "href": "/akn/zm/act/si/2018/94/eng@2018-12-21",
+      "eng_date": "2018-12-21",
+      "title": "Electoral Process (Local Governments By-Elections) (Election Date and Time of Poll) (No. 7) Order, 2018"
+    },
+    {
+      "yr": 2018,
+      "num": 93,
+      "href": "/akn/zm/act/si/2018/93/eng@2018-12-21",
+      "eng_date": "2018-12-21",
+      "title": "National Assembly By-Election (Sesheke Constituency No. 153) (Election Date and Time of Poll) Order, 2018"
+    },
+    {
+      "yr": 2018,
+      "num": 81,
+      "href": "/akn/zm/act/si/2018/81/eng@2018-10-19",
+      "eng_date": "2018-10-19",
+      "title": "Electoral Process (Local Governments By-Elections) (Election Date and Time of Poll) (No. 6) Order, 2018"
+    },
+    {
+      "yr": 2018,
+      "num": 57,
+      "href": "/akn/zm/act/si/2018/57/eng@2018-08-03",
+      "eng_date": "2018-08-03",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 4) Order, 2018"
+    },
+    {
+      "yr": 2018,
+      "num": 56,
+      "href": "/akn/zm/act/si/2018/56/eng@2018-08-03",
+      "eng_date": "2018-08-03",
+      "title": "National Assembly By-Election (Kasenengwa Constituency No. 41) (Election Date and Time of Poll) (No. 2) Order, 2018"
+    },
+    {
+      "yr": 2018,
+      "num": 46,
+      "href": "/akn/zm/act/si/2018/46/eng@2018-06-15",
+      "eng_date": "2018-06-15",
+      "title": "Electoral Process (Local Government By Elections) (Election Date and Time of Poll) (No. 3) Order, 2018"
+    },
+    {
+      "yr": 2018,
+      "num": 33,
+      "href": "/akn/zm/act/si/2018/33/eng@2018-04-20",
+      "eng_date": "2018-04-20",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) Order, 2018"
+    },
+    {
+      "yr": 2018,
+      "num": 21,
+      "href": "/akn/zm/act/si/2018/21/eng@2018-03-23",
+      "eng_date": "2018-03-23",
+      "title": "Electoral Process (Local Government By-Election) (Election Date and Time of Poll) Order, 2018"
+    },
+    {
+      "yr": 2017,
+      "num": 54,
+      "href": "/akn/zm/act/si/2017/54/eng@2017-07-14",
+      "eng_date": "2017-07-14",
+      "title": "Electoral Process (Local Government By-Elections) (Election Date and Times of Poll) Order, 2017"
+    },
+    {
+      "yr": 2017,
+      "num": 18,
+      "href": "/akn/zm/act/si/2017/18/eng@2017-02-24",
+      "eng_date": "2017-02-24",
+      "title": "Local Government By-Elections (Election Dates and Times of Poll) Order, 2017"
+    },
+    {
+      "yr": 2024,
+      "num": 29,
+      "href": "/akn/zm/act/si/2024/29/eng@2024-05-31",
+      "eng_date": "2024-05-31",
+      "title": "Electoral Process (Local Government By-elections) (Election Date and Time of Poll) Order, 2024"
+    },
+    {
+      "yr": 2026,
+      "num": 4,
+      "href": "/akn/zm/act/si/2026/4/eng@2026-01-09",
+      "eng_date": "2026-01-09",
+      "title": "Electricity (Transmission) (Grid Code) Regulations, 2026"
+    },
+    {
+      "yr": 2026,
+      "num": 2,
+      "href": "/akn/zm/act/si/2026/2/eng@2026-01-02",
+      "eng_date": "2026-01-02",
+      "title": "Electricity (Wayleave and Clearances) Regulations, 2026"
+    },
+    {
+      "yr": 2021,
+      "num": 24,
+      "href": "/akn/zm/act/si/2021/24/eng@2021-04-09",
+      "eng_date": "2021-04-09",
+      "title": "Electricity (Common Carrier) (Declaration) Regulations, 2021"
+    },
+    {
+      "yr": 2021,
+      "num": 94,
+      "href": "/akn/zm/act/si/2021/94/eng@2021-12-31",
+      "eng_date": "2021-12-31",
+      "title": "Electricity (Common Carrier) (Declaration) (Revocation) Order, 2021"
+    },
+    {
+      "yr": 2022,
+      "num": 13,
+      "href": "/akn/zm/act/si/2022/13/eng@2022-01-28",
+      "eng_date": "2022-01-28",
+      "title": "Minimum Wages and Conditions of Employment (Truck and Bus Drivers) (Amendment) Order, 2022"
+    },
+    {
+      "yr": 2023,
+      "num": 49,
+      "href": "/akn/zm/act/si/2023/49/eng@2023-11-24",
+      "eng_date": "2023-11-24",
+      "title": "Employment Code (Domestic Workers Minimum Wages and Conditions of Employment) Order, 2023"
+    },
+    {
+      "yr": 2023,
+      "num": 48,
+      "href": "/akn/zm/act/si/2023/48/eng@2023-11-24",
+      "eng_date": "2023-11-24",
+      "title": "Employment Code (Minimum Wages and Conditions of Employment) (General) Order, 2023"
+    },
+    {
+      "yr": 2023,
+      "num": 50,
+      "href": "/akn/zm/act/si/2023/50/eng@2023-11-24",
+      "eng_date": "2023-11-24",
+      "title": "Employment Code (Shop Workers Minimum Wages and Conditions of Employment) Order, 2023"
+    },
+    {
+      "yr": 2023,
+      "num": 5,
+      "href": "/akn/zm/act/si/2023/5/eng@2023-02-24",
+      "eng_date": "2023-02-24",
+      "title": "Energy Regulation (Appeals Tribunal) Rules, 2023"
+    },
+    {
+      "yr": 2023,
+      "num": 41,
+      "href": "/akn/zm/act/si/2023/41/eng@2023-09-15",
+      "eng_date": "2023-09-15",
+      "title": "Energy Regulation (General) Regulations, 2023"
+    }
+  ]
+}
