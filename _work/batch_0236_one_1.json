@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2021/87",
+    "year": "2021",
+    "num": "87",
+    "title": "National Assembly By-Election (Kabwata Constituency No. 77) (Election Date and Time of Poll) (No. 3) Order, 2021",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2021-12-17"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2021-087-national-assembly-by-election-kabwata-constituency-no-77-election-date-and-time-of-poll-no-3-order-2021",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2021,
+    "number": 87,
+    "title": "National Assembly By-Election (Kabwata Constituency No. 77) (Election Date and Time of Poll) (No. 3) Order, 2021",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2021-12-17",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2021/87",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2021/87/eng@2021-12-17/source.pdf",
+    "source_hash": "fa412291573c5f3bb98af3d3806dec572aa9f5dfc46209e64a0309d475d63b79",
+    "html_hash": "d3f18bee41e5d891615787a9d2ee30e6c872060b9c30700fad32ce32cce31fbe",
+    "fetched_at": "2026-04-25T20:08:41Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 2288,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2021/si-zm-2021-087-national-assembly-by-election-kabwata-constituency-no-77-election-date-and-time-of-poll-no-3-order-2021.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/87",
+      "bytes": 39548,
+      "path": "raw/zambialii/si/2021/si-zm-2021-087-national-assembly-by-election-kabwata-constituency-no-77-election-date-and-time-of-poll-no-3-order-2021.html",
+      "sha": "d3f18bee41e5d891615787a9d2ee30e6c872060b9c30700fad32ce32cce31fbe"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/87/eng@2021-12-17/source.pdf",
+      "bytes": 298945,
+      "path": "raw/zambialii/si/2021/si-zm-2021-087-national-assembly-by-election-kabwata-constituency-no-77-election-date-and-time-of-poll-no-3-order-2021.pdf",
+      "sha": "fa412291573c5f3bb98af3d3806dec572aa9f5dfc46209e64a0309d475d63b79"
+    }
+  ]
+}

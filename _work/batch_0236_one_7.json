@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2020/71",
+    "year": "2020",
+    "num": "71",
+    "title": "National Assembly By-Election (Mwansabombwe Constituency No. 65 and Lukashya Constituency No. 98) (Election Date and Time Poll) Order, 2020",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2020-08-21"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2020-071-national-assembly-by-election-mwansabombwe-constituency-no-65-and-lukashya-constituency-no-98-election-date-and-time-pol",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2020,
+    "number": 71,
+    "title": "National Assembly By-Election (Mwansabombwe Constituency No. 65 and Lukashya Constituency No. 98) (Election Date and Time Poll) Order, 2020",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2020-08-21",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2020/71",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/71/eng@2020-08-21/source.pdf",
+    "source_hash": "df06a61d4f620b7ba9a84ecd3b23521c57134ab9d497e870624a5b14471882db",
+    "html_hash": "2f42992fa4d394591ab7829bda984fb3daa60c6e337420e35bda93f56b69446c",
+    "fetched_at": "2026-04-25T20:10:21Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 2294,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2020/si-zm-2020-071-national-assembly-by-election-mwansabombwe-constituency-no-65-and-lukashya-constituency-no-98-election-date-and-time-pol.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/71",
+      "bytes": 39707,
+      "path": "raw/zambialii/si/2020/si-zm-2020-071-national-assembly-by-election-mwansabombwe-constituency-no-65-and-lukashya-constituency-no-98-election-date-and-time-pol.html",
+      "sha": "2f42992fa4d394591ab7829bda984fb3daa60c6e337420e35bda93f56b69446c"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/71/eng@2020-08-21/source.pdf",
+      "bytes": 11973,
+      "path": "raw/zambialii/si/2020/si-zm-2020-071-national-assembly-by-election-mwansabombwe-constituency-no-65-and-lukashya-constituency-no-98-election-date-and-time-pol.pdf",
+      "sha": "df06a61d4f620b7ba9a84ecd3b23521c57134ab9d497e870624a5b14471882db"
+    }
+  ]
+}

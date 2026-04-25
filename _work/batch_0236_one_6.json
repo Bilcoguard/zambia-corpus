@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2020/72",
+    "year": "2020",
+    "num": "72",
+    "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 7 ) Order, 2020",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2020-08-21"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2020-072-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-7-order-2020",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2020,
+    "number": 72,
+    "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 7 ) Order, 2020",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2020-08-21",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2020/72",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/72/eng@2020-08-21/source.pdf",
+    "source_hash": "4c3ddf4df0aab5e971512d88d1f1950dcb0f6d5c74f47d072b1f45ac8c433b4d",
+    "html_hash": "6d367a428ca308392c12382582e027e86ffcf6ea153f0e4a8e7bc11f3de960d7",
+    "fetched_at": "2026-04-25T20:10:06Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 2041,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2020/si-zm-2020-072-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-7-order-2020.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/72",
+      "bytes": 39493,
+      "path": "raw/zambialii/si/2020/si-zm-2020-072-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-7-order-2020.html",
+      "sha": "6d367a428ca308392c12382582e027e86ffcf6ea153f0e4a8e7bc11f3de960d7"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/72/eng@2020-08-21/source.pdf",
+      "bytes": 11362,
+      "path": "raw/zambialii/si/2020/si-zm-2020-072-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-7-order-2020.pdf",
+      "sha": "4c3ddf4df0aab5e971512d88d1f1950dcb0f6d5c74f47d072b1f45ac8c433b4d"
+    }
+  ]
+}

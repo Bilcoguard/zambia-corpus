@@ -1,0 +1,11 @@
+{
+  "batch": "0236",
+  "phase": "phase_4_bulk",
+  "sub_phase": "sis_elections",
+  "tick_finished_at": "2026-04-25T20:11:28Z",
+  "records_ok": 8,
+  "records_attempted": 8,
+  "integrity": "ALL_PASS",
+  "cumulative_si_records": 474,
+  "e_residuals_remaining": 39
+}

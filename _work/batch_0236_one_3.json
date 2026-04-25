@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2021/74",
+    "year": "2021",
+    "num": "74",
+    "title": "National Assembly (Kaumbwe Constituency No. 50) (Election Date and Time of Poll) Order, 2021",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2021-09-10"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2021-074-national-assembly-kaumbwe-constituency-no-50-election-date-and-time-of-poll-order-2021",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2021,
+    "number": 74,
+    "title": "National Assembly (Kaumbwe Constituency No. 50) (Election Date and Time of Poll) Order, 2021",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2021-09-10",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2021/74",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2021/74/eng@2021-09-10/source.pdf",
+    "source_hash": "c941e5dab892f2d86c2ab80332d305def07174042e81e8c021c3c1b11be285da",
+    "html_hash": "c97242ab96628f1480908d86f0e2ce80502a91e88d2edd7fe62f631a7438f5e1",
+    "fetched_at": "2026-04-25T20:09:15Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 2142,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2021/si-zm-2021-074-national-assembly-kaumbwe-constituency-no-50-election-date-and-time-of-poll-order-2021.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/74",
+      "bytes": 39422,
+      "path": "raw/zambialii/si/2021/si-zm-2021-074-national-assembly-kaumbwe-constituency-no-50-election-date-and-time-of-poll-order-2021.html",
+      "sha": "c97242ab96628f1480908d86f0e2ce80502a91e88d2edd7fe62f631a7438f5e1"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/74/eng@2021-09-10/source.pdf",
+      "bytes": 24514,
+      "path": "raw/zambialii/si/2021/si-zm-2021-074-national-assembly-kaumbwe-constituency-no-50-election-date-and-time-of-poll-order-2021.pdf",
+      "sha": "c941e5dab892f2d86c2ab80332d305def07174042e81e8c021c3c1b11be285da"
+    }
+  ]
+}
