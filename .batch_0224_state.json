@@ -1,0 +1,26 @@
+{
+  "batch": "0224",
+  "phase": "phase_4_bulk",
+  "started_at": "2026-04-25T12:34:33Z",
+  "completed_at": "2026-04-25T12:38:00Z",
+  "records_count": 8,
+  "records": [
+    "si-zm-2017-053-constitution-of-zambia-act-proclamation-declaration-of-threatened-state-of-public-security-2017",
+    "si-zm-2017-055-preservation-of-public-security-regulations-2017",
+    "si-zm-2017-027-control-of-goods-import-and-export-forest-produce-regulations-2017",
+    "si-zm-2017-031-control-of-goods-import-and-export-forest-produce-prohibition-of-importation-order-2017",
+    "si-zm-2019-064-control-of-goods-import-and-export-agriculture-prohibition-of-export-order-2019",
+    "si-zm-2017-077-national-markets-and-bus-stations-development-fund-regulations-2017",
+    "si-zm-2021-114-provincial-and-district-boundaries-division-amendment-no-2-order-2021",
+    "si-zm-2021-109-plant-variety-and-seeds-amendment-regulations-2021"
+  ],
+  "integrity": "PASS",
+  "fetches_used": 17,
+  "sub_phases_covered": [
+    "sis_agriculture",
+    "sis_local_government",
+    "sis_security",
+    "sis_trade"
+  ],
+  "mode": "cache_drain_C_M_P_alphabet_modern_residual"
+}
