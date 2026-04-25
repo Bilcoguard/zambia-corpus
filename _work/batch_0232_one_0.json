@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2018/22",
+    "year": "2018",
+    "num": "22",
+    "title": "Animal Health (Veterinary Services Fees) Regulations, 2018",
+    "sub_phase": "sis_agriculture",
+    "parent_act": "Animal Health Act",
+    "eng_date": null
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2018-022-animal-health-veterinary-services-fees-regulations-2018",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2018,
+    "number": 22,
+    "title": "Animal Health (Veterinary Services Fees) Regulations, 2018",
+    "parent_act": "Animal Health Act",
+    "sub_phase": "sis_agriculture",
+    "effective_date": "2018-03-29",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2018/22",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2018/22/eng@2018-03-29/source.pdf",
+    "source_hash": "aef6c6af443996e84dfed5d053841f756a4a4dc7cb9500b039af0fbaf554ae08",
+    "html_hash": "92d57229fa4b57630df3d6446dd3940a960063d767645086283c235227c337e8",
+    "fetched_at": "2026-04-25T18:08:14Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 4,
+    "pdf_text_chars": 5258,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2018/si-zm-2018-022-animal-health-veterinary-services-fees-regulations-2018.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/22",
+      "bytes": 39212,
+      "path": "raw/zambialii/si/2018/si-zm-2018-022-animal-health-veterinary-services-fees-regulations-2018.html",
+      "sha": "92d57229fa4b57630df3d6446dd3940a960063d767645086283c235227c337e8"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/22/eng@2018-03-29/source.pdf",
+      "bytes": 20065,
+      "path": "raw/zambialii/si/2018/si-zm-2018-022-animal-health-veterinary-services-fees-regulations-2018.pdf",
+      "sha": "aef6c6af443996e84dfed5d053841f756a4a4dc7cb9500b039af0fbaf554ae08"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2019/31",
+    "year": "2019",
+    "num": "31",
+    "title": "Defence (Regular Forces) (Officers) (Amendment) Regulations, 2019",
+    "sub_phase": "sis_defence",
+    "parent_act": "Defence Act",
+    "eng_date": null
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2019-031-defence-regular-forces-officers-amendment-regulations-2019",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2019,
+    "number": 31,
+    "title": "Defence (Regular Forces) (Officers) (Amendment) Regulations, 2019",
+    "parent_act": "Defence Act",
+    "sub_phase": "sis_defence",
+    "effective_date": "2019-05-10",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2019/31",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2019/31/eng@2019-05-10/source.pdf",
+    "source_hash": "9dc2910707237730d1a41ca0ad9cd9e6a551a93a870cf39f7728d957dcf53b92",
+    "html_hash": "1c72252804aee86f16f1498a319c9ce8212dd56bb0ce11f71d627d2182767972",
+    "fetched_at": "2026-04-25T18:09:29Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 2166,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2019/si-zm-2019-031-defence-regular-forces-officers-amendment-regulations-2019.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/31",
+      "bytes": 40375,
+      "path": "raw/zambialii/si/2019/si-zm-2019-031-defence-regular-forces-officers-amendment-regulations-2019.html",
+      "sha": "1c72252804aee86f16f1498a319c9ce8212dd56bb0ce11f71d627d2182767972"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/31/eng@2019-05-10/source.pdf",
+      "bytes": 165153,
+      "path": "raw/zambialii/si/2019/si-zm-2019-031-defence-regular-forces-officers-amendment-regulations-2019.pdf",
+      "sha": "9dc2910707237730d1a41ca0ad9cd9e6a551a93a870cf39f7728d957dcf53b92"
+    }
+  ]
+}

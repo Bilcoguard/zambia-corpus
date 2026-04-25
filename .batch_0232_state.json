@@ -1,0 +1,37 @@
+{
+  "batch": "0232",
+  "phase": "phase_4_bulk",
+  "sub_phases_in_batch": [
+    "sis_agriculture",
+    "sis_data_protection",
+    "sis_defence",
+    "sis_disaster_management",
+    "sis_foreign_affairs"
+  ],
+  "first_instance_sub_phases": [
+    "sis_data_protection",
+    "sis_disaster_management",
+    "sis_foreign_affairs"
+  ],
+  "parent_acts": [
+    "Agricultural Institute of Zambia Act",
+    "Animal Health Act",
+    "Data Protection Act",
+    "Defence Act",
+    "Diplomatic Immunities and Privileges Act",
+    "Disaster Management Act"
+  ],
+  "picks": 8,
+  "ok": 8,
+  "fail": 0,
+  "yield_pct": 100,
+  "fetches_this_batch_robots": 1,
+  "fetches_this_batch_discovery": 3,
+  "fetches_this_batch_ingest_fresh": 15,
+  "fetches_this_batch_ingest_reused": 0,
+  "fetches_today_after_batch": 552,
+  "fetch_budget_remaining": 1448,
+  "integrity_result": "PASS",
+  "cumulative_si_after_batch": 383,
+  "cumulative_judgments": 25
+}

@@ -1,0 +1,50 @@
+{
+  "pick": {
+    "yr_num": "2019/6",
+    "year": "2019",
+    "num": "6",
+    "title": "Disaster Management (Qualifications of National Coordinator) Regulations, 2019",
+    "sub_phase": "sis_disaster_management",
+    "parent_act": "Disaster Management Act",
+    "eng_date": null
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2019-006-disaster-management-qualifications-of-national-coordinator-regulations-2019",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2019,
+    "number": 6,
+    "title": "Disaster Management (Qualifications of National Coordinator) Regulations, 2019",
+    "parent_act": "Disaster Management Act",
+    "sub_phase": "sis_disaster_management",
+    "effective_date": "2019-01-22",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2019/6",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2019/6/eng@2019-01-22/source.pdf",
+    "source_hash": "d90d9081391a5b6052ead805c20bfb7f848eec710359df484a0e5175e8046f76",
+    "html_hash": "c1979b4a396713d317ce8b6d455e0f04fdc23750aa706d3543f64a1cbb747510",
+    "fetched_at": "2026-04-25T18:09:11Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 1,
+    "pdf_text_chars": 1041,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2019/si-zm-2019-006-disaster-management-qualifications-of-national-coordinator-regulations-2019.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/6",
+      "bytes": 41789,
+      "path": "raw/zambialii/si/2019/si-zm-2019-006-disaster-management-qualifications-of-national-coordinator-regulations-2019.html",
+      "sha": "c1979b4a396713d317ce8b6d455e0f04fdc23750aa706d3543f64a1cbb747510",
+      "reused": true
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/6/eng@2019-01-22/source.pdf",
+      "bytes": 115176,
+      "path": "raw/zambialii/si/2019/si-zm-2019-006-disaster-management-qualifications-of-national-coordinator-regulations-2019.pdf",
+      "sha": "d90d9081391a5b6052ead805c20bfb7f848eec710359df484a0e5175e8046f76"
+    }
+  ]
+}

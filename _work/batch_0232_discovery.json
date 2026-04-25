@@ -1,0 +1,131 @@
+{
+  "alphabets_probed": [
+    "M",
+    "A",
+    "D"
+  ],
+  "existing_in_corpus": 371,
+  "novel_count": 15,
+  "candidates_novel": [
+    {
+      "yr": 2018,
+      "num": 22,
+      "title": "Animal Health (Veterinary Services Fees) Regulations, 2018",
+      "href": "/akn/zm/act/si/2018/22/eng@2018-03-29",
+      "eng_date": "2018-03-29",
+      "letter": "A"
+    },
+    {
+      "yr": 2018,
+      "num": 54,
+      "title": "Agricultural Institute of Zambia (General) Regulations, 2018",
+      "href": "/akn/zm/act/si/2018/54/eng@2018-07-13",
+      "eng_date": "2018-07-13",
+      "letter": "A"
+    },
+    {
+      "yr": 2019,
+      "num": 6,
+      "title": "Disaster Management (Qualifications of National Coordinator) Regulations, 2019",
+      "href": "/akn/zm/act/si/2019/6/eng@2019-01-22",
+      "eng_date": "2019-01-22",
+      "letter": "D"
+    },
+    {
+      "yr": 2019,
+      "num": 31,
+      "title": "Defence (Regular Forces) (Officers) (Amendment) Regulations, 2019",
+      "href": "/akn/zm/act/si/2019/31/eng@2019-05-10",
+      "eng_date": "2019-05-10",
+      "letter": "D"
+    },
+    {
+      "yr": 2019,
+      "num": 81,
+      "title": "Animal Health (Notifiable Diseases) Regulations, 2019",
+      "href": "/akn/zm/act/si/2019/81/eng@2019-11-29",
+      "eng_date": "2019-11-29",
+      "letter": "A"
+    },
+    {
+      "yr": 2020,
+      "num": 84,
+      "title": "Animal Identification (General) Regulations, 2020",
+      "href": "/akn/zm/act/si/2020/84/eng@2020-10-30",
+      "eng_date": "2020-10-30",
+      "letter": "A"
+    },
+    {
+      "yr": 2020,
+      "num": 85,
+      "title": "Animal Health (Tsetse Fly Area and Tsetse Fly Control Area) (Declaration) Notice, 2020",
+      "href": "/akn/zm/act/si/2020/85/eng@2020-10-30",
+      "eng_date": "2020-10-30",
+      "letter": "A"
+    },
+    {
+      "yr": 2020,
+      "num": 86,
+      "title": "Animal Health (Establishment of Tsetse Control Pickets and Check Points) Regulations, 2020",
+      "href": "/akn/zm/act/si/2020/86/eng@2020-10-27",
+      "eng_date": "2020-10-27",
+      "letter": "A"
+    },
+    {
+      "yr": 2020,
+      "num": 87,
+      "title": "Animal Health (Designated Border Inspection Posts) Regulations, 2020",
+      "href": "/akn/zm/act/si/2020/87/eng@2020-10-27",
+      "eng_date": "2020-10-27",
+      "letter": "A"
+    },
+    {
+      "yr": 2020,
+      "num": 93,
+      "title": "Animal Health (Import and Export of Animal, Animal Product, Animal By-Product or Article) Regulations, 2020",
+      "href": "/akn/zm/act/si/2020/93/eng@2020-11-13",
+      "eng_date": "2020-11-13",
+      "letter": "A"
+    },
+    {
+      "yr": 2020,
+      "num": 94,
+      "title": "Animal Health (Bee Keeping) Regulations, 2020",
+      "href": "/akn/zm/act/si/2020/94/eng@2020-11-13",
+      "eng_date": "2020-11-13",
+      "letter": "A"
+    },
+    {
+      "yr": 2021,
+      "num": 15,
+      "title": "Diplomatic Immunities and Privileges (International Centre for Tropical Agriculture) Order, 2021",
+      "href": "/akn/zm/act/si/2021/15/eng@2021-03-11",
+      "eng_date": "2021-03-11",
+      "letter": "D"
+    },
+    {
+      "yr": 2021,
+      "num": 25,
+      "title": "Animal Health (Destruction of Pigs) (Compensation) Order, 2021",
+      "href": "/akn/zm/act/si/2021/25/eng@2021-04-16",
+      "eng_date": "2021-04-16",
+      "letter": "A"
+    },
+    {
+      "yr": 2021,
+      "num": 58,
+      "title": "Data Protection (Registration and Licensing) Regulations, 2021",
+      "href": "/akn/zm/act/si/2021/58/eng@2021-05-14",
+      "eng_date": "2021-05-14",
+      "letter": "D"
+    },
+    {
+      "yr": 2022,
+      "num": 70,
+      "title": "Defence Force (United Nations Peacekeeping Operations) (Emoluments) Regulations, 2022",
+      "href": "/akn/zm/act/si/2022/70/eng@2022-11-04",
+      "eng_date": "2022-11-04",
+      "letter": "D"
+    }
+  ]
+}

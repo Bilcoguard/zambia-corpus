@@ -1,0 +1,82 @@
+{
+  "batch": "0232",
+  "phase": "phase_4_bulk",
+  "ts": "2026-04-25T18:10:51Z",
+  "results": [
+    {
+      "idx": 0,
+      "yr_num": "2018/22",
+      "status": "ok",
+      "record_id": "si-zm-2018-022-animal-health-veterinary-services-fees-regulations-2018",
+      "pdf_pages": 4,
+      "pdf_text_chars": 5258,
+      "source_hash": "aef6c6af443996e84dfed5d053841f756a4a4dc7cb9500b039af0fbaf554ae08"
+    },
+    {
+      "idx": 1,
+      "yr_num": "2018/54",
+      "status": "ok",
+      "record_id": "si-zm-2018-054-agricultural-institute-of-zambia-general-regulations-2018",
+      "pdf_pages": 20,
+      "pdf_text_chars": 23556,
+      "source_hash": "2a6588af6a362e1340ee2c7a5baad451df95213d7e0534db79dbdfd0f2040ddf"
+    },
+    {
+      "idx": 2,
+      "yr_num": "2019/6",
+      "status": "ok",
+      "record_id": "si-zm-2019-006-disaster-management-qualifications-of-national-coordinator-regulations-2019",
+      "pdf_pages": 1,
+      "pdf_text_chars": 1041,
+      "source_hash": "d90d9081391a5b6052ead805c20bfb7f848eec710359df484a0e5175e8046f76"
+    },
+    {
+      "idx": 3,
+      "yr_num": "2019/31",
+      "status": "ok",
+      "record_id": "si-zm-2019-031-defence-regular-forces-officers-amendment-regulations-2019",
+      "pdf_pages": 2,
+      "pdf_text_chars": 2166,
+      "source_hash": "9dc2910707237730d1a41ca0ad9cd9e6a551a93a870cf39f7728d957dcf53b92"
+    },
+    {
+      "idx": 4,
+      "yr_num": "2019/81",
+      "status": "ok",
+      "record_id": "si-zm-2019-081-animal-health-notifiable-diseases-regulations-2019",
+      "pdf_pages": 2,
+      "pdf_text_chars": 2476,
+      "source_hash": "91aaef5b45b1079dd48affe975da0dca64f618aa543048276b65a78f13417834"
+    },
+    {
+      "idx": 5,
+      "yr_num": "2021/15",
+      "status": "ok",
+      "record_id": "si-zm-2021-015-diplomatic-immunities-and-privileges-international-centre-for-tropical-agriculture-order-2021",
+      "pdf_pages": 6,
+      "pdf_text_chars": 10647,
+      "source_hash": "fa43e6f03423a28821214307c7a2f5d38213310e4bb1f97e7a430828a50a1cad"
+    },
+    {
+      "idx": 6,
+      "yr_num": "2021/58",
+      "status": "ok",
+      "record_id": "si-zm-2021-058-data-protection-registration-and-licensing-regulations-2021",
+      "pdf_pages": 30,
+      "pdf_text_chars": 33304,
+      "source_hash": "33321af78d981ee0908597e8ea84896212cb71ac02356d49ebccdbf273b0fa70"
+    },
+    {
+      "idx": 7,
+      "yr_num": "2022/70",
+      "status": "ok",
+      "record_id": "si-zm-2022-070-defence-force-united-nations-peacekeeping-operations-emoluments-regulations-2022",
+      "pdf_pages": 2,
+      "pdf_text_chars": 1835,
+      "source_hash": "afb0c2dca6d2ec194ece643100baeb22ecfa2403b8ff426761cdad9ece556d8c"
+    }
+  ],
+  "ok_count": 8,
+  "attempted": 8,
+  "yield_pct": 100
+}
