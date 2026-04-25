@@ -1,0 +1,46 @@
+{
+  "batch": "0219",
+  "phase": "ingest",
+  "slice": [
+    5,
+    7
+  ],
+  "started_at": "2026-04-25T08:07:28Z",
+  "completed_at": "2026-04-25T08:07:50Z",
+  "fetch_start": 333,
+  "fetch_end": 337,
+  "results": [
+    {
+      "year": 2016,
+      "number": 38,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "medicines and allied substances (fees) regulations, 2016",
+      "alphabet": "M",
+      "record_id": "si-zm-2016-038-medicines-and-allied-substances-fees-regulations-2016",
+      "sections": 25,
+      "title": "Medicines and Allied Substances (Fees) Regulations, 2016",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2016/38/eng@2016-06-03/source.pdf",
+      "pdf_hash": "6a4fcb8508611fbcd1f7da9fb91f8a6ac8cf428db284b238dabeea41ab8c8ea3",
+      "pdf_bytes": 27338,
+      "raw_pdf": "/sessions/friendly-wizardly-carson/mnt/corpus/raw/zambialii/si/2016/si-zm-2016-038-medicines-and-allied-substances-fees-regulations-2016.pdf",
+      "record_path": "/sessions/friendly-wizardly-carson/mnt/corpus/records/sis/2016/si-zm-2016-038-medicines-and-allied-substances-fees-regulations-2016.json"
+    },
+    {
+      "year": 2017,
+      "number": 57,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "medicines and allied substances (importation and exportation) regulations, 2017",
+      "alphabet": "M",
+      "record_id": "si-zm-2017-057-medicines-and-allied-substances-importation-and-exportation-regulations-2017",
+      "sections": 58,
+      "title": "Medicines and Allied Substances (Importation and Exportation) Regulations, 2017",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2017/57/eng@2017-07-28/source.pdf",
+      "pdf_hash": "842290b4d46ea6ae8e1dc0b31c63830b59b769e13d77d450a6eae86fc0d53b42",
+      "pdf_bytes": 564050,
+      "raw_pdf": "/sessions/friendly-wizardly-carson/mnt/corpus/raw/zambialii/si/2017/si-zm-2017-057-medicines-and-allied-substances-importation-and-exportation-regulations-2017.pdf",
+      "record_path": "/sessions/friendly-wizardly-carson/mnt/corpus/records/sis/2017/si-zm-2017-057-medicines-and-allied-substances-importation-and-exportation-regulations-2017.json"
+    }
+  ]
+}

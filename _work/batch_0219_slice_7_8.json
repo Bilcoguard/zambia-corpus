@@ -1,0 +1,30 @@
+{
+  "batch": "0219",
+  "phase": "ingest",
+  "slice": [
+    7,
+    8
+  ],
+  "started_at": "2026-04-25T08:07:55Z",
+  "completed_at": "2026-04-25T08:08:03Z",
+  "fetch_start": 337,
+  "fetch_end": 339,
+  "results": [
+    {
+      "year": 2017,
+      "number": 58,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "medicines and allied substances (certificate of registration) regulations, 2017",
+      "alphabet": "M",
+      "record_id": "si-zm-2017-058-medicines-and-allied-substances-certificate-of-registration-regulations-2017",
+      "sections": 32,
+      "title": "Medicines and Allied Substances (Certificate of Registration) Regulations, 2017",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2017/58/eng@2017-07-21/source.pdf",
+      "pdf_hash": "181df2e5c41950c942a873354454986442ba9e278d022566ab746d0647c6c955",
+      "pdf_bytes": 244182,
+      "raw_pdf": "/sessions/friendly-wizardly-carson/mnt/corpus/raw/zambialii/si/2017/si-zm-2017-058-medicines-and-allied-substances-certificate-of-registration-regulations-2017.pdf",
+      "record_path": "/sessions/friendly-wizardly-carson/mnt/corpus/records/sis/2017/si-zm-2017-058-medicines-and-allied-substances-certificate-of-registration-regulations-2017.json"
+    }
+  ]
+}

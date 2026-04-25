@@ -1,0 +1,849 @@
+{
+  "batch": "0219",
+  "phase": "discovery",
+  "started_at": "2026-04-25T08:04:24Z",
+  "completed_at": "2026-04-25T08:05:06Z",
+  "fetches_used": 7,
+  "fetch_end": 323,
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "alphabets": [
+    "M",
+    "N",
+    "P",
+    "Q",
+    "G",
+    "E"
+  ],
+  "novel_total_pre_keyword": 128,
+  "novel_kept_post_keyword": 8,
+  "candidates": [
+    {
+      "year": 1997,
+      "number": 49,
+      "letter": "N",
+      "text": "national parks and wildlife (night game drives) regulations, 1997",
+      "sub_phase": "sis_environment"
+    },
+    {
+      "year": 2026,
+      "number": 5,
+      "letter": "G",
+      "text": "green economy and climate change (carbon market) regulations, 2026",
+      "sub_phase": "sis_environment"
+    },
+    {
+      "year": 2016,
+      "number": 10,
+      "letter": "M",
+      "text": "medicines and allied substances (agro-veterinary shops) regulations, 2016",
+      "sub_phase": "sis_health"
+    },
+    {
+      "year": 2016,
+      "number": 11,
+      "letter": "M",
+      "text": "medicines and allied substances (dispensing certificates) regulations, 2016",
+      "sub_phase": "sis_health"
+    },
+    {
+      "year": 2016,
+      "number": 12,
+      "letter": "M",
+      "text": "medicines and allied substances (health shops) regulations, 2016",
+      "sub_phase": "sis_health"
+    },
+    {
+      "year": 2016,
+      "number": 38,
+      "letter": "M",
+      "text": "medicines and allied substances (fees) regulations, 2016",
+      "sub_phase": "sis_health"
+    },
+    {
+      "year": 2017,
+      "number": 57,
+      "letter": "M",
+      "text": "medicines and allied substances (importation and exportation) regulations, 2017",
+      "sub_phase": "sis_health"
+    },
+    {
+      "year": 2017,
+      "number": 58,
+      "letter": "M",
+      "text": "medicines and allied substances (certificate of registration) regulations, 2017",
+      "sub_phase": "sis_health"
+    }
+  ],
+  "novel_pre_keyword_sample": [
+    {
+      "year": 1981,
+      "number": 27,
+      "text": "lusaka district council markets (establishment) order, 1981",
+      "letter": "M"
+    },
+    {
+      "year": 1983,
+      "number": 42,
+      "text": "kaputa district council (market regulations) (application) order, 1983",
+      "letter": "M"
+    },
+    {
+      "year": 1985,
+      "number": 41,
+      "text": "mwense district council (market regulation) (application) order, 1985",
+      "letter": "M"
+    },
+    {
+      "year": 2017,
+      "number": 77,
+      "text": "national markets and bus stations development fund regulations, 2017",
+      "letter": "M"
+    },
+    {
+      "year": 1991,
+      "number": 30,
+      "text": "medical aid societies and nursing homes (exemption, establishment and operation) (authorisation fees) order, 1991",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 10,
+      "text": "medicines and allied substances (agro-veterinary shops) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 11,
+      "text": "medicines and allied substances (dispensing certificates) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 12,
+      "text": "medicines and allied substances (health shops) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2016,
+      "number": 38,
+      "text": "medicines and allied substances (fees) regulations, 2016",
+      "letter": "M"
+    },
+    {
+      "year": 2019,
+      "number": 80,
+      "text": "medicines and allied substances (expert advisory committee) regulations, 2019",
+      "letter": "M"
+    },
+    {
+      "year": 2017,
+      "number": 58,
+      "text": "medicines and allied substances (certificate of registration) regulations, 2017",
+      "letter": "M"
+    },
+    {
+      "year": 2017,
+      "number": 57,
+      "text": "medicines and allied substances (importation and exportation) regulations, 2017",
+      "letter": "M"
+    },
+    {
+      "year": 2021,
+      "number": 59,
+      "text": "metrology (certification of competence) regulations, 2021",
+      "letter": "M"
+    },
+    {
+      "year": 2021,
+      "number": 55,
+      "text": "metrology (measuring instruments), regulations 2021",
+      "letter": "M"
+    },
+    {
+      "year": 2021,
+      "number": 56,
+      "text": "metrology (pre-packaged commodities),regulations, 2021",
+      "letter": "M"
+    },
+    {
+      "year": 2020,
+      "number": 52,
+      "text": "metrology (verification fees) regulations, 2020",
+      "letter": "M"
+    },
+    {
+      "year": 2022,
+      "number": 7,
+      "text": "national archives (fees) regulations, 2021",
+      "letter": "N"
+    },
+    {
+      "year": 1995,
+      "number": 29,
+      "text": "national archives (fees) regulations, 1995",
+      "letter": "N"
+    },
+    {
+      "year": 1995,
+      "number": 30,
+      "text": "national archives (place of deposit) (revocation) order, 1995",
+      "letter": "N"
+    },
+    {
+      "year": 1986,
+      "number": 32,
+      "text": "national archives (place of deposit) (declaration) order, 1986",
+      "letter": "N"
+    },
+    {
+      "year": 2008,
+      "number": 24,
+      "text": "national constitutional conference (committees) regulations, 2008",
+      "letter": "N"
+    },
+    {
+      "year": 2008,
+      "number": 25,
+      "text": "national constitutional conference (procedure) rules, 2008",
+      "letter": "N"
+    },
+    {
+      "year": 2008,
+      "number": 26,
+      "text": "national constitutional conference (disciplinary committee proceedings) rules, 2008",
+      "letter": "N"
+    },
+    {
+      "year": 2004,
+      "number": 22,
+      "text": "national council for construction (exemption) regulations, 2004",
+      "letter": "N"
+    },
+    {
+      "year": 2009,
+      "number": 37,
+      "text": "national council for construction (forms and fees) regulations, 2009",
+      "letter": "N"
+    },
+    {
+      "year": 2015,
+      "number": 39,
+      "text": "national council for construction (registration of projects) regulations, 2015",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 30,
+      "text": "national dialogue forum (extension) (no. 2) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 28,
+      "text": "national dialogue forum (extension) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2018,
+      "number": 92,
+      "text": "national health research (material transfer) regulations, 2018",
+      "letter": "N"
+    },
+    {
+      "year": 2020,
+      "number": 24,
+      "text": "national health research (bio banking) regulations, 2020",
+      "letter": "N"
+    },
+    {
+      "year": 2020,
+      "number": 25,
+      "text": "national health research (registration and accreditation) regulations, 2020",
+      "letter": "N"
+    },
+    {
+      "year": 2020,
+      "number": 64,
+      "text": "national market and bus station development fund regulations, 2020",
+      "letter": "N"
+    },
+    {
+      "year": 2015,
+      "number": 89,
+      "text": "national museums (declaration) order, 2015",
+      "letter": "N"
+    },
+    {
+      "year": 2016,
+      "number": 59,
+      "text": "national museums (entry fees) regulations, 2016",
+      "letter": "N"
+    },
+    {
+      "year": 1997,
+      "number": 49,
+      "text": "national parks and wildlife (night game drives) regulations, 1997",
+      "letter": "N"
+    },
+    {
+      "year": 2016,
+      "number": 49,
+      "text": "national prosecutions authority (witness allowances and expenses) regulations, 2016",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 34,
+      "text": "national registration regulations, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2008,
+      "number": 16,
+      "text": "national road fund (charges and fees) (apportionment) regulations, 2008",
+      "letter": "N"
+    },
+    {
+      "year": 2005,
+      "number": 19,
+      "text": "national road fund act (commencement) order, 2005",
+      "letter": "N"
+    },
+    {
+      "year": 1987,
+      "number": 36,
+      "text": "national savings and credit (appointment of members of board) order, 1987",
+      "letter": "N"
+    },
+    {
+      "year": 1981,
+      "number": 46,
+      "text": "prohibited publication order",
+      "letter": "P"
+    },
+    {
+      "year": 1996,
+      "number": 33,
+      "text": "prohibited publication order, 1996",
+      "letter": "P"
+    },
+    {
+      "year": 1993,
+      "number": 46,
+      "text": "pharmacy and poisons (fees) order, 1993",
+      "letter": "P"
+    },
+    {
+      "year": 2011,
+      "number": 46,
+      "text": "plant breeder's rights (forms and fees) regulations, 2011",
+      "letter": "P"
+    },
+    {
+      "year": 2020,
+      "number": 69,
+      "text": "plant pests and diseases (phytosanitary certification) regulations, 2020",
+      "letter": "P"
+    },
+    {
+      "year": 2020,
+      "number": 70,
+      "text": "plant pests and diseases (plant quarantine and phytosanitary service fees) regulations, 2020",
+      "letter": "P"
+    },
+    {
+      "year": 1996,
+      "number": 37,
+      "text": "plant pests and diseases (larger grain borer infested areas) (declaration) order, 1996",
+      "letter": "P"
+    },
+    {
+      "year": 2021,
+      "number": 109,
+      "text": "plant variety and seeds (amendment) regulations, 2021",
+      "letter": "P"
+    },
+    {
+      "year": 2018,
+      "number": 23,
+      "text": "plant variety and seeds regulations, 2018",
+      "letter": "P"
+    },
+    {
+      "year": 2017,
+      "number": 55,
+      "text": "preservation of public security regulations, 2017",
+      "letter": "P"
+    },
+    {
+      "year": 1994,
+      "number": 6,
+      "text": "privatisation (political leaders and public officers) (bidding) regulations, 1994",
+      "letter": "P"
+    },
+    {
+      "year": 1993,
+      "number": 40,
+      "text": "privatisation (trade sales and management or employee buyouts) (sale tender) regulations, 1993",
+      "letter": "P"
+    },
+    {
+      "year": 1993,
+      "number": 41,
+      "text": "privatisation (sale or disposal of property) regulations, 1993",
+      "letter": "P"
+    },
+    {
+      "year": 1985,
+      "number": 46,
+      "text": "probation of offenders (application) notice, 1985",
+      "letter": "P"
+    },
+    {
+      "year": 1984,
+      "number": 2,
+      "text": "professional boxing and wrestling control (insurance) regulations, 1984",
+      "letter": "P"
+    },
+    {
+      "year": 2021,
+      "number": 114,
+      "text": "provincial and district boundaries (division) (amendment) (no. 2) order, 2021",
+      "letter": "P"
+    },
+    {
+      "year": 2026,
+      "number": 5,
+      "text": "green economy and climate change (carbon market) regulations, 2026",
+      "letter": "G"
+    },
+    {
+      "year": 2021,
+      "number": 45,
+      "text": "education (aided educational institutions) regulations, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2013,
+      "number": 12,
+      "text": "education (district education offices) (establishment) order, 2013",
+      "letter": "E"
+    },
+    {
+      "year": 2015,
+      "number": 85,
+      "text": "education (teacher training college boards) (establishment) order, 2015",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 7,
+      "text": "electoral process (local government by-elections) (election time and time of poll) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 4,
+      "text": "electoral process (voter education) regulations, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 8,
+      "text": "national assembly by-election (kabwata constituency no. 77) (election date and time of poll) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 64,
+      "text": "national assembly by-elections (kabushi constituency no. 36 and kwacha constituency no. 22) (election date and time of poll) (no. 3) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 21,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 18,
+      "text": "electoral process (general election) (election date and time of poll) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 38,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 3) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 67,
+      "text": "national assembly general elections (mandevu constituency no. 80, kasenengwa constituency no. 41, lusaka central constituency no. 79, chawama constituency no. 76, mafinga constituency no. 89 and mpulungu constituency no. 105) (election date and time of poll) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 51,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 68,
+      "text": "electoral process (local government elections) (election date and time of poll) (no. 2) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 63,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 61,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 2) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 88,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 4 ) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 87,
+      "text": "national assembly by-election (kabwata constituency no. 77) (election date and time of poll) (no. 3) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 75,
+      "text": "electoral process (local government elections) (election date and time of poll) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 74,
+      "text": "national assembly (kaumbwe constituency no. 50) (election date and time of poll) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 57,
+      "text": "electoral process (revision of wards) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 40,
+      "text": "electoral process (general election) (election date and time of poll) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 101,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 8 ) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 80,
+      "text": "electoral (registration of voters) regulations, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 79,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 8 ) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 72,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 7 ) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 71,
+      "text": "national assembly by-election (mwansabombwe constituency no. 65 and lukashya constituency no. 98) (election date and time poll) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 63,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 6) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 61,
+      "text": "electoral process (local government by-election) (election date and time of poll) (no. 5) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 43,
+      "text": "electoral process (local government by-election) (election date and time of poll) (no. 4) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 23,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 3) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 4,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 2) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 3,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2020,
+      "number": 2,
+      "text": "national assembly by-election (chilubi constituency no. 095) (election date and time of poll) order, 2020",
+      "letter": "E"
+    },
+    {
+      "year": 2023,
+      "number": 8,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2023",
+      "letter": "E"
+    },
+    {
+      "year": 2023,
+      "number": 36,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2023",
+      "letter": "E"
+    },
+    {
+      "year": 2023,
+      "number": 40,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2023",
+      "letter": "E"
+    },
+    {
+      "year": 2023,
+      "number": 46,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 5) order, 2023",
+      "letter": "E"
+    },
+    {
+      "year": 2024,
+      "number": 2,
+      "text": "electoral process (local government by elections) (election date and time of poll) order, 2024",
+      "letter": "E"
+    },
+    {
+      "year": 2024,
+      "number": 6,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 2) order, 2024",
+      "letter": "E"
+    },
+    {
+      "year": 2024,
+      "number": 15,
+      "text": "electoral process (local government by elections) (election date and time of poll) order, 2024",
+      "letter": "E"
+    },
+    {
+      "year": 2016,
+      "number": 60,
+      "text": "local government elections tribunals rules, 2016",
+      "letter": "E"
+    },
+    {
+      "year": 2016,
+      "number": 62,
+      "text": "electoral process (code of conduct) (enforcement) regulations, 2016",
+      "letter": "E"
+    },
+    {
+      "year": 2016,
+      "number": 63,
+      "text": "electoral process (general) regulations, 2016",
+      "letter": "E"
+    },
+    {
+      "year": 2016,
+      "number": 70,
+      "text": "electoral process (local government elections) (election dates and times of poll) order, 2016",
+      "letter": "E"
+    },
+    {
+      "year": 2019,
+      "number": 76,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 7) order, 2019",
+      "letter": "E"
+    },
+    {
+      "year": 2019,
+      "number": 61,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 6) order, 2019",
+      "letter": "E"
+    },
+    {
+      "year": 2019,
+      "number": 38,
+      "text": "national assembly by- election (katuba constituency no. 01) (election date and time of poll) (no. 3) order, 2019",
+      "letter": "E"
+    },
+    {
+      "year": 2019,
+      "number": 33,
+      "text": "electoral process (local government by- elections) (election date and time of poll) (no. 4) order, 2019",
+      "letter": "E"
+    },
+    {
+      "year": 2019,
+      "number": 24,
+      "text": "electoral process (local government by- elections) (election date and time of poll) (no. 3) order, 2019",
+      "letter": "E"
+    },
+    {
+      "year": 2019,
+      "number": 23,
+      "text": "electoral process (local government by- elections) (election date and time of poll) (no. 2) order, 2019",
+      "letter": "E"
+    },
+    {
+      "year": 2019,
+      "number": 16,
+      "text": "national assembly by-election (bahati constituency no. 062) (election date and time of poll) order, 2019",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 75,
+      "text": "national assembly by-election (mangango constituency no. 141) (election date and time of poll) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 94,
+      "text": "electoral process (local governments by-elections) (election date and time of poll) (no. 7) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 93,
+      "text": "national assembly by-election (sesheke constituency no. 153) (election date and time of poll) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 81,
+      "text": "electoral process (local governments by-elections) (election date and time of poll) (no. 6) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 57,
+      "text": "electoral process (local government by-elections) (election date and time of poll) (no. 4) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 56,
+      "text": "national assembly by-election (kasenengwa constituency no. 41) (election date and time of poll) (no. 2) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 46,
+      "text": "electoral process (local government by elections) (election date and time of poll) (no. 3) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 33,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2018,
+      "number": 21,
+      "text": "electoral process (local government by-election) (election date and time of poll) order, 2018",
+      "letter": "E"
+    },
+    {
+      "year": 2017,
+      "number": 54,
+      "text": "electoral process (local government by-elections) (election date and times of poll) order, 2017",
+      "letter": "E"
+    },
+    {
+      "year": 2017,
+      "number": 18,
+      "text": "local government by-elections (election dates and times of poll) order, 2017",
+      "letter": "E"
+    },
+    {
+      "year": 2024,
+      "number": 29,
+      "text": "electoral process (local government by-elections) (election date and time of poll) order, 2024",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 24,
+      "text": "electricity (common carrier) (declaration) regulations, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 2021,
+      "number": 94,
+      "text": "electricity (common carrier) (declaration) (revocation) order, 2021",
+      "letter": "E"
+    },
+    {
+      "year": 1988,
+      "number": 38,
+      "text": "emergency (essential supplies and services) regulations, 1988",
+      "letter": "E"
+    },
+    {
+      "year": 1993,
+      "number": 37,
+      "text": "emergency regulations, 1993",
+      "letter": "E"
+    },
+    {
+      "year": 2022,
+      "number": 13,
+      "text": "minimum wages and conditions of employment (truck and bus drivers) (amendment) order, 2022",
+      "letter": "E"
+    },
+    {
+      "year": 1987,
+      "number": 29,
+      "text": "equity levy (exemption) order, 1987",
+      "letter": "E"
+    },
+    {
+      "year": 1985,
+      "number": 14,
+      "text": "equity levy (exemption) order, 1985",
+      "letter": "E"
+    },
+    {
+      "year": 2016,
+      "number": 3,
+      "text": "estate agents (general) regulations, 2016",
+      "letter": "E"
+    }
+  ],
+  "cross_sub_phase_rotation": true,
+  "rotation_note": "sis_mining alphabet probe (M/N/P/Q/G/E) yielded 1 keyword-match candidate; cross-sub_phase rotation promoted 8 candidates from novel_pre_keyword_sample (6 sis_health/medicines+allied-substances + 2 sis_environment/national-parks+green-economy)."
+}

@@ -1,0 +1,62 @@
+{
+  "batch": "0219",
+  "phase": "ingest",
+  "slice": [
+    0,
+    3
+  ],
+  "started_at": "2026-04-25T08:06:23Z",
+  "completed_at": "2026-04-25T08:06:59Z",
+  "fetch_start": 323,
+  "fetch_end": 329,
+  "results": [
+    {
+      "year": 1997,
+      "number": 49,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national parks and wildlife (night game drives) regulations, 1997",
+      "alphabet": "N",
+      "record_id": "si-zm-1997-049-national-parks-and-wildlife-night-game-drives-regulations-1997",
+      "sections": 4,
+      "title": "National Parks and Wildlife (Night Game Drives) Regulations, 1997",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/1997/49/eng@1997-04-25/source.pdf",
+      "pdf_hash": "5ab3f4dbca29ac98c58208c40a0662926c8c48716b4e1384c4d2f10bd6ed5e81",
+      "pdf_bytes": 106590,
+      "raw_pdf": "/sessions/friendly-wizardly-carson/mnt/corpus/raw/zambialii/si/1997/si-zm-1997-049-national-parks-and-wildlife-night-game-drives-regulations-1997.pdf",
+      "record_path": "/sessions/friendly-wizardly-carson/mnt/corpus/records/sis/1997/si-zm-1997-049-national-parks-and-wildlife-night-game-drives-regulations-1997.json"
+    },
+    {
+      "year": 2026,
+      "number": 5,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "green economy and climate change (carbon market) regulations, 2026",
+      "alphabet": "G",
+      "record_id": "si-zm-2026-005-green-economy-and-climate-change-carbon-market-regulations-2026",
+      "sections": 76,
+      "title": "Green Economy and Climate Change (Carbon Market) Regulations, 2026",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2026/5/eng@2026-01-09/source.pdf",
+      "pdf_hash": "1f4eb9b4ec211f68b73f0297f55b0b9161874f732ad09b3cac33f8a65ca03dc4",
+      "pdf_bytes": 2329934,
+      "raw_pdf": "/sessions/friendly-wizardly-carson/mnt/corpus/raw/zambialii/si/2026/si-zm-2026-005-green-economy-and-climate-change-carbon-market-regulations-2026.pdf",
+      "record_path": "/sessions/friendly-wizardly-carson/mnt/corpus/records/sis/2026/si-zm-2026-005-green-economy-and-climate-change-carbon-market-regulations-2026.json"
+    },
+    {
+      "year": 2016,
+      "number": 10,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "medicines and allied substances (agro-veterinary shops) regulations, 2016",
+      "alphabet": "M",
+      "record_id": "si-zm-2016-010-medicines-and-allied-substances-agro-veterinary-shops-regulations-2016",
+      "sections": 55,
+      "title": "Medicines and Allied Substances (Agro-Veterinary Shops) Regulations, 2016",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2016/10/eng@2016-02-05/source.pdf",
+      "pdf_hash": "a842c7b19a99cb9d48e01cf9ead3e497c32fc6e882bff0118ceb75f85c57bfda",
+      "pdf_bytes": 286872,
+      "raw_pdf": "/sessions/friendly-wizardly-carson/mnt/corpus/raw/zambialii/si/2016/si-zm-2016-010-medicines-and-allied-substances-agro-veterinary-shops-regulations-2016.pdf",
+      "record_path": "/sessions/friendly-wizardly-carson/mnt/corpus/records/sis/2016/si-zm-2016-010-medicines-and-allied-substances-agro-veterinary-shops-regulations-2016.json"
+    }
+  ]
+}

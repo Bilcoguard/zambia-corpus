@@ -1,0 +1,46 @@
+{
+  "batch": "0219",
+  "phase": "ingest",
+  "slice": [
+    3,
+    5
+  ],
+  "started_at": "2026-04-25T08:07:02Z",
+  "completed_at": "2026-04-25T08:07:25Z",
+  "fetch_start": 329,
+  "fetch_end": 333,
+  "results": [
+    {
+      "year": 2016,
+      "number": 11,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "medicines and allied substances (dispensing certificates) regulations, 2016",
+      "alphabet": "M",
+      "record_id": "si-zm-2016-011-medicines-and-allied-substances-dispensing-certificates-regulations-2016",
+      "sections": 30,
+      "title": "Medicines and Allied Substances (Dispensing Certificates) Regulations, 2016",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2016/11/eng@2016-02-05/source.pdf",
+      "pdf_hash": "1462a9d4bc76d6c466b2dea16bc9d1d2f3806e5bbc4e5b102e6d1627c0fa719c",
+      "pdf_bytes": 210182,
+      "raw_pdf": "/sessions/friendly-wizardly-carson/mnt/corpus/raw/zambialii/si/2016/si-zm-2016-011-medicines-and-allied-substances-dispensing-certificates-regulations-2016.pdf",
+      "record_path": "/sessions/friendly-wizardly-carson/mnt/corpus/records/sis/2016/si-zm-2016-011-medicines-and-allied-substances-dispensing-certificates-regulations-2016.json"
+    },
+    {
+      "year": 2016,
+      "number": 12,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "medicines and allied substances (health shops) regulations, 2016",
+      "alphabet": "M",
+      "record_id": "si-zm-2016-012-medicines-and-allied-substances-health-shops-regulations-2016",
+      "sections": 74,
+      "title": "Medicines and Allied Substances (Health Shops) Regulations, 2016",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2016/12/eng@2016-02-05/source.pdf",
+      "pdf_hash": "44f924efece9ad705c2bb18580185fbf9a87156e1bc7a67778e83ab3a7605c5c",
+      "pdf_bytes": 291144,
+      "raw_pdf": "/sessions/friendly-wizardly-carson/mnt/corpus/raw/zambialii/si/2016/si-zm-2016-012-medicines-and-allied-substances-health-shops-regulations-2016.pdf",
+      "record_path": "/sessions/friendly-wizardly-carson/mnt/corpus/records/sis/2016/si-zm-2016-012-medicines-and-allied-substances-health-shops-regulations-2016.json"
+    }
+  ]
+}
