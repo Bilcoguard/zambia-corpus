@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2021/67",
+    "year": "2021",
+    "num": "67",
+    "title": "National Assembly General Elections (Mandevu Constituency No. 80, Kasenengwa Constituency No. 41, Lusaka Central Constituency No. 79, Chawama Constituency No. 76, Mafinga Constituency No. 89 and Mpulungu Constituency No. 105) (Election Date and Time of Poll) Order, 2021",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2021-07-30"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2021-067-national-assembly-general-elections-mandevu-constituency-no-80-kasenengwa-constituency-no-41-lusaka-central-constituency",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2021,
+    "number": 67,
+    "title": "National Assembly General Elections (Mandevu Constituency No. 80, Kasenengwa Constituency No. 41, Lusaka Central Constituency No. 79, Chawama Constituency No. 76, Mafinga Constituency No. 89 and Mpulungu Constituency No. 105) (Election Date and Time of Poll) Order, 2021",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2021-07-16",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2021/67",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2021/67/eng@2021-07-16/source.pdf",
+    "source_hash": "697e6c107f33456bac60c1097d357cfe060f0d1bc9a490228522d680cd2947a4",
+    "html_hash": "53b28cf179ea753817888923ed693118454779d57c9f9440ea10822aaf753d8a",
+    "fetched_at": "2026-04-25T19:39:25Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 3111,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2021/si-zm-2021-067-national-assembly-general-elections-mandevu-constituency-no-80-kasenengwa-constituency-no-41-lusaka-central-constituency.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/67",
+      "bytes": 40176,
+      "path": "raw/zambialii/si/2021/si-zm-2021-067-national-assembly-general-elections-mandevu-constituency-no-80-kasenengwa-constituency-no-41-lusaka-central-constituency.html",
+      "sha": "53b28cf179ea753817888923ed693118454779d57c9f9440ea10822aaf753d8a"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/67/eng@2021-07-16/source.pdf",
+      "bytes": 173719,
+      "path": "raw/zambialii/si/2021/si-zm-2021-067-national-assembly-general-elections-mandevu-constituency-no-80-kasenengwa-constituency-no-41-lusaka-central-constituency.pdf",
+      "sha": "697e6c107f33456bac60c1097d357cfe060f0d1bc9a490228522d680cd2947a4"
+    }
+  ]
+}

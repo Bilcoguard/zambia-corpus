@@ -1,0 +1,29 @@
+{
+  "pick": {
+    "yr_num": "2022/8",
+    "year": "2022",
+    "num": "8",
+    "title": "National Assembly By-Election (Kabwata Constituency No. 77) (Election Date and Time of Poll) Order, 2022",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2022-01-14"
+  },
+  "status": "fail",
+  "error": "pdf_parse_empty",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/8",
+      "bytes": 40268,
+      "path": "raw/zambialii/si/2022/si-zm-2022-008-national-assembly-by-election-kabwata-constituency-no-77-election-date-and-time-of-poll-order-2022.html",
+      "sha": "1be74b42c0f53bdbf457eace45203c8ba18e0141a854c88fe350500d99938587"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/8/eng@2022-01-14/source.pdf",
+      "bytes": 462535,
+      "path": "raw/zambialii/si/2022/si-zm-2022-008-national-assembly-by-election-kabwata-constituency-no-77-election-date-and-time-of-poll-order-2022.pdf",
+      "sha": "aa39ab49caa6f4992c9fa7159cf8d42e53897eb6de4b966fb95e839703e23ed7"
+    }
+  ],
+  "html_sha": "1be74b42c0f53bdbf457eace45203c8ba18e0141a854c88fe350500d99938587",
+  "pdf_sha": "aa39ab49caa6f4992c9fa7159cf8d42e53897eb6de4b966fb95e839703e23ed7"
+}

@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2022/63",
+    "year": "2022",
+    "num": "63",
+    "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) Order, 2022",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2022-10-12"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2022-063-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2022,
+    "number": 63,
+    "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) Order, 2022",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2022-10-06",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2022/63",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2022/63/eng@2022-10-06/source.pdf",
+    "source_hash": "58e55e0c71f51cec86d7f4a550553c1232bc620ce47e265eee8bfe34a18df56d",
+    "html_hash": "da58d15472f1636ffd17d61b146bc02459fae0f02493f6e312e11a42571cc8a6",
+    "fetched_at": "2026-04-25T19:40:14Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1908,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2022/si-zm-2022-063-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/63",
+      "bytes": 40250,
+      "path": "raw/zambialii/si/2022/si-zm-2022-063-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022.html",
+      "sha": "da58d15472f1636ffd17d61b146bc02459fae0f02493f6e312e11a42571cc8a6"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/63/eng@2022-10-06/source.pdf",
+      "bytes": 295682,
+      "path": "raw/zambialii/si/2022/si-zm-2022-063-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022.pdf",
+      "sha": "58e55e0c71f51cec86d7f4a550553c1232bc620ce47e265eee8bfe34a18df56d"
+    }
+  ]
+}

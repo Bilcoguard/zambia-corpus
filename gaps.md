@@ -1034,3 +1034,11 @@ regex form from `batch_0176.py`.
 ## Batch 0233 (2026-04-25T18:43Z)
 
 - **2026/4 Electricity (Transmission) (Grid Code) Regulations, 2026** — `https://zambialii.org/akn/zm/act/si/2026/4` — PDF size 28,176,615 bytes exceeds MAX_PDF_BYTES cap of 4,500,000. Skipped; substituted within batch with 2023/5 Energy Regulation (Appeals Tribunal) Rules. **Future-tick action:** raise cap for this one-off (substantive grid code likely worth retaining) or chunk-fetch + reassemble. Raw HTML+PDF cached on disk at raw/zambialii/si/2026/si-zm-2026-004-electricity-transmission-grid-code-regulations-2026.{html,pdf} for reuse.
+
+## [2026-04-25T19:41:35Z] Batch 0235 — pdf_parse_empty: 2022/8 National Assembly By-Election (Kabwata Constituency No. 77) (Election Date and Time of Poll) Order, 2022
+- URL: https://zambialii.org/akn/zm/act/si/2022/8
+- Error: pdf_parse_empty
+- html_sha: 1be74b42c0f53bdb
+- pdf_sha: aa39ab49caa6f499
+- Disposition: raw HTML+PDF preserved on disk for OCR retry. Likely scanned-image PDF. Added to OCR backlog (now 6 items: 2017/068, 2018/011, 2022/004, 2022/007, 2022/012, 2022/008).
+- Substituted in-batch with 2021/88 Local Government By-Elections No.4 Order, 2021 (parsed cleanly).

@@ -1,0 +1,35 @@
+{
+  "batch": "0235",
+  "phase": 4,
+  "sub_phase_distribution": {
+    "sis_elections": 8
+  },
+  "records_ok": 8,
+  "records_fail": 1,
+  "records_skip": 0,
+  "yield_pct": 88.89,
+  "discovery_fetches": 1,
+  "ingest_fetches": 17,
+  "today_fetches": 605,
+  "budget_pct": 30.25,
+  "first_instance_sub_phases": [],
+  "priority_order_advanced": [],
+  "integrity": "ALL PASS",
+  "ids": [
+    "si-zm-2022-064-national-assembly-by-elections-kabushi-constituency-no-36-and-kwacha-constituency-no-22-election-date-and-time-of-poll-n",
+    "si-zm-2022-021-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022",
+    "si-zm-2022-038-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2022",
+    "si-zm-2021-067-national-assembly-general-elections-mandevu-constituency-no-80-kasenengwa-constituency-no-41-lusaka-central-constituency",
+    "si-zm-2022-051-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022",
+    "si-zm-2021-068-electoral-process-local-government-elections-election-date-and-time-of-poll-no-2-order-2021",
+    "si-zm-2022-063-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022",
+    "si-zm-2021-088-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-4-order-2021"
+  ],
+  "failed": [
+    "2022/8 (pdf_parse_empty \u2014 likely scanned image)"
+  ],
+  "substituted_in_batch": [
+    "2021/88 (replaced 2022/8)"
+  ],
+  "cumulative_si_records_after": 466
+}
