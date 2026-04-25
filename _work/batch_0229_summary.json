@@ -1,0 +1,23 @@
+{
+  "batch": "0229",
+  "phase": "phase_4_bulk",
+  "started_at": "2026-04-25T16:02:00Z",
+  "attempted": 8,
+  "ok": 8,
+  "fail": 0,
+  "yield_pct": 100.0,
+  "records": [
+    "si-zm-2017-060-urban-and-regional-planning-designated-local-planning-authorities-regulations-2017",
+    "si-zm-2018-043-urban-and-regional-planning-designated-local-planning-authorities-regulations-2018",
+    "si-zm-2019-042-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019",
+    "si-zm-2020-005-urban-and-regional-planning-designated-local-planning-authority-regulations-2020",
+    "si-zm-2020-056-urban-and-regional-planning-general-regulations-2020",
+    "si-zm-2022-057-urban-and-regional-planning-designated-local-planning-authorities-regulations-2022",
+    "si-zm-2023-021-urban-and-regional-planning-development-plans-guidelines-and-exempted-development-classes-regulations-2023",
+    "si-zm-2025-065-urban-and-regional-planning-administration-of-planning-appeals-tribunal-regulations-2025"
+  ],
+  "sub_phases_covered": [
+    "sis_planning"
+  ],
+  "mode": "fresh_U_alphabet_probe_urban_regional_planning_cluster"
+}

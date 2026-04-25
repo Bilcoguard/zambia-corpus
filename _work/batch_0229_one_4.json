@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2020/56",
+    "year": "2020",
+    "num": "56",
+    "title": "Urban and Regional Planning (General) Regulations, 2020",
+    "sub_phase": "sis_planning",
+    "parent_act": "Urban and Regional Planning Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2020-056-urban-and-regional-planning-general-regulations-2020",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2020,
+    "number": 56,
+    "title": "Urban and Regional Planning (General) Regulations, 2020",
+    "parent_act": "Urban and Regional Planning Act",
+    "sub_phase": "sis_planning",
+    "effective_date": "2020-05-29",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2020/56",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/56/eng@2020-05-29/source.pdf",
+    "source_hash": "9f86b778c5a8f21a5f6bd8ee2058e5dbffef7f06c117a9eddf7eb00b6558d0e1",
+    "html_hash": "1f805a38b5990e3d82922255a5639583ecb5e8a20a237f874aaac93ca9cdddad",
+    "fetched_at": "2026-04-25T16:08:37Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 60,
+    "pdf_text_chars": 96478,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2020/si-zm-2020-056-urban-and-regional-planning-general-regulations-2020.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/56",
+      "bytes": 39184,
+      "path": "raw/zambialii/si/2020/si-zm-2020-056-urban-and-regional-planning-general-regulations-2020.html",
+      "sha": "1f805a38b5990e3d82922255a5639583ecb5e8a20a237f874aaac93ca9cdddad"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/56/eng@2020-05-29/source.pdf",
+      "bytes": 382303,
+      "path": "raw/zambialii/si/2020/si-zm-2020-056-urban-and-regional-planning-general-regulations-2020.pdf",
+      "sha": "9f86b778c5a8f21a5f6bd8ee2058e5dbffef7f06c117a9eddf7eb00b6558d0e1"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2018/43",
+    "year": "2018",
+    "num": "43",
+    "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2018",
+    "sub_phase": "sis_planning",
+    "parent_act": "Urban and Regional Planning Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2018-043-urban-and-regional-planning-designated-local-planning-authorities-regulations-2018",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2018,
+    "number": 43,
+    "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2018",
+    "parent_act": "Urban and Regional Planning Act",
+    "sub_phase": "sis_planning",
+    "effective_date": "2018-06-01",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2018/43",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2018/43/eng@2018-06-01/source.pdf",
+    "source_hash": "00da07ac55b217ac1e51cd5dc0f916733c4c4811327dec0e7eddd7695deb4eb1",
+    "html_hash": "a5bca05e444fd4e8e8ca092209afe77c3f4c7fc4d3fdf66b4893fad61e22774d",
+    "fetched_at": "2026-04-25T16:07:23Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1109,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2018/si-zm-2018-043-urban-and-regional-planning-designated-local-planning-authorities-regulations-2018.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/43",
+      "bytes": 39382,
+      "path": "raw/zambialii/si/2018/si-zm-2018-043-urban-and-regional-planning-designated-local-planning-authorities-regulations-2018.html",
+      "sha": "a5bca05e444fd4e8e8ca092209afe77c3f4c7fc4d3fdf66b4893fad61e22774d"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/43/eng@2018-06-01/source.pdf",
+      "bytes": 14089,
+      "path": "raw/zambialii/si/2018/si-zm-2018-043-urban-and-regional-planning-designated-local-planning-authorities-regulations-2018.pdf",
+      "sha": "00da07ac55b217ac1e51cd5dc0f916733c4c4811327dec0e7eddd7695deb4eb1"
+    }
+  ]
+}

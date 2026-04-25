@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2022/57",
+    "year": "2022",
+    "num": "57",
+    "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2022",
+    "sub_phase": "sis_planning",
+    "parent_act": "Urban and Regional Planning Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2022-057-urban-and-regional-planning-designated-local-planning-authorities-regulations-2022",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2022,
+    "number": 57,
+    "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2022",
+    "parent_act": "Urban and Regional Planning Act",
+    "sub_phase": "sis_planning",
+    "effective_date": "2022-09-16",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2022/57",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2022/57/eng@2022-09-16/source.pdf",
+    "source_hash": "2f173dab53d87ff6b3487f570e48617b60722415f0f74580355a5b7ed01958b3",
+    "html_hash": "47d8c7422d5139a4ebbd4c40490b562250b10504d04d204ccc8f6eba9f4d1c21",
+    "fetched_at": "2026-04-25T16:08:55Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1075,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2022/si-zm-2022-057-urban-and-regional-planning-designated-local-planning-authorities-regulations-2022.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/57",
+      "bytes": 39395,
+      "path": "raw/zambialii/si/2022/si-zm-2022-057-urban-and-regional-planning-designated-local-planning-authorities-regulations-2022.html",
+      "sha": "47d8c7422d5139a4ebbd4c40490b562250b10504d04d204ccc8f6eba9f4d1c21"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/57/eng@2022-09-16/source.pdf",
+      "bytes": 282819,
+      "path": "raw/zambialii/si/2022/si-zm-2022-057-urban-and-regional-planning-designated-local-planning-authorities-regulations-2022.pdf",
+      "sha": "2f173dab53d87ff6b3487f570e48617b60722415f0f74580355a5b7ed01958b3"
+    }
+  ]
+}

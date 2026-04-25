@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2019/42",
+    "year": "2019",
+    "num": "42",
+    "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2019",
+    "sub_phase": "sis_planning",
+    "parent_act": "Urban and Regional Planning Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2019-042-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2019,
+    "number": 42,
+    "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2019",
+    "parent_act": "Urban and Regional Planning Act",
+    "sub_phase": "sis_planning",
+    "effective_date": "2019-08-02",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2019/42",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2019/42/eng@2019-08-02/source.pdf",
+    "source_hash": "980ed99f76aa6b5f5c6c9e8f203817f8f5f1d3e07c283def396faaaeca3aefbc",
+    "html_hash": "2622e3199ee342bf6f084f888903c1fcf5a87e6f267194d226408f6c51f31e55",
+    "fetched_at": "2026-04-25T16:07:58Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1013,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2019/si-zm-2019-042-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/42",
+      "bytes": 39382,
+      "path": "raw/zambialii/si/2019/si-zm-2019-042-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019.html",
+      "sha": "2622e3199ee342bf6f084f888903c1fcf5a87e6f267194d226408f6c51f31e55",
+      "reused": true
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/42/eng@2019-08-02/source.pdf",
+      "bytes": 14257,
+      "path": "raw/zambialii/si/2019/si-zm-2019-042-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019.pdf",
+      "sha": "980ed99f76aa6b5f5c6c9e8f203817f8f5f1d3e07c283def396faaaeca3aefbc"
+    }
+  ]
+}
