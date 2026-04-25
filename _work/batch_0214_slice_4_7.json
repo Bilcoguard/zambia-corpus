@@ -1,0 +1,62 @@
+{
+  "batch": "0214",
+  "phase": "ingest",
+  "slice": [
+    4,
+    7
+  ],
+  "started_at": "2026-04-25T05:08:11Z",
+  "completed_at": "2026-04-25T05:08:46Z",
+  "fetch_start": 224,
+  "fetch_end": 230,
+  "results": [
+    {
+      "year": 2022,
+      "number": 15,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "ministerial and parliamentary offices (emoluments) (amendment) regulations 2022 - sis_employment",
+      "alphabet": "M",
+      "record_id": "si-zm-2022-015-ministerial-and-parliamentary-offices-emoluments-amendment-regulations-2022",
+      "sections": 22,
+      "title": "Ministerial and Parliamentary Offices (Emoluments) (Amendment) Regulations, 2022",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2022/15/eng@2022-02-11/source.pdf",
+      "pdf_hash": "c10fc71a5eb55688fe12acb967f393e07b12ff4ada6fe0e473d672c0f49af5d2",
+      "pdf_bytes": 297405,
+      "raw_pdf": "/sessions/modest-clever-bohr/mnt/corpus/raw/zambialii/si/2022/si-zm-2022-015-ministerial-and-parliamentary-offices-emoluments-amendment-regulations-2022.pdf",
+      "record_path": "/sessions/modest-clever-bohr/mnt/corpus/records/sis/2022/si-zm-2022-015-ministerial-and-parliamentary-offices-emoluments-amendment-regulations-2022.json"
+    },
+    {
+      "year": 2021,
+      "number": 61,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "protection of traditional knowledge, genetic resources and expressions of folklore regulations 2021 - sis_corporate",
+      "alphabet": "P",
+      "record_id": "si-zm-2021-061-protection-of-traditional-knowledge-genetic-resources-and-expressions-of-folklor",
+      "sections": 60,
+      "title": "Protection of Traditional Knowledge, Genetic Resources and Expressions of Folklore Regulations, 2021",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2021/61/eng@2021-05-14/source.pdf",
+      "pdf_hash": "1b443e3007a10c55ca4a863751811529fa21259b73d70e32dbd8a1a4767ce93c",
+      "pdf_bytes": 596918,
+      "raw_pdf": "/sessions/modest-clever-bohr/mnt/corpus/raw/zambialii/si/2021/si-zm-2021-061-protection-of-traditional-knowledge-genetic-resources-and-expressions-of-folklor.pdf",
+      "record_path": "/sessions/modest-clever-bohr/mnt/corpus/records/sis/2021/si-zm-2021-061-protection-of-traditional-knowledge-genetic-resources-and-expressions-of-folklor.json"
+    },
+    {
+      "year": 2024,
+      "number": 12,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "subordinate courts (civil jurisdiction) rules 2024 - sis_courts",
+      "alphabet": "S",
+      "record_id": "si-zm-2024-012-subordinate-courts-civil-jurisdiction-rules-2024",
+      "sections": 3,
+      "title": "Subordinate Courts (Civil Jurisdiction) Rules, 2024",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2024/12/eng@2024-01-26/source.pdf",
+      "pdf_hash": "5027cd4aa335b90131e85203abaf66e6d5d3b21823a39c7e7b8a722e89a8b5c4",
+      "pdf_bytes": 283231,
+      "raw_pdf": "/sessions/modest-clever-bohr/mnt/corpus/raw/zambialii/si/2024/si-zm-2024-012-subordinate-courts-civil-jurisdiction-rules-2024.pdf",
+      "record_path": "/sessions/modest-clever-bohr/mnt/corpus/records/sis/2024/si-zm-2024-012-subordinate-courts-civil-jurisdiction-rules-2024.json"
+    }
+  ]
+}

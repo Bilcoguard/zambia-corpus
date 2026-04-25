@@ -1,0 +1,46 @@
+{
+  "batch": "0214",
+  "phase": "ingest",
+  "slice": [
+    7,
+    9
+  ],
+  "started_at": "2026-04-25T05:08:50Z",
+  "completed_at": "2026-04-25T05:09:14Z",
+  "fetch_start": 230,
+  "fetch_end": 234,
+  "results": [
+    {
+      "year": 2023,
+      "number": 20,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "small claims court (limit of jurisdiction) (liquidated claims) rules 2023 - sis_courts",
+      "alphabet": "S",
+      "record_id": "si-zm-2023-020-small-claims-court-limit-of-jurisdiction-liquidated-claims-rules-2023",
+      "sections": 3,
+      "title": "Small Claims Court (Limit of Jurisdiction) (Liquidated Claims) Rules, 2023",
+      "pdf_url": "https://commons.laws.africa/akn/zm/act/si/2023/20/media/publication/zm-act-si-2023-20-publication-document.pdf",
+      "pdf_hash": "41f9e2a28123e981cea5c00638652a57146afce42a6abe63b5ac5b242ecc878b",
+      "pdf_bytes": 286185,
+      "raw_pdf": "/sessions/modest-clever-bohr/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-020-small-claims-court-limit-of-jurisdiction-liquidated-claims-rules-2023.pdf",
+      "record_path": "/sessions/modest-clever-bohr/mnt/corpus/records/sis/2023/si-zm-2023-020-small-claims-court-limit-of-jurisdiction-liquidated-claims-rules-2023.json"
+    },
+    {
+      "year": 2021,
+      "number": 48,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "environmental management (strategic environmental assessment) regulations 2021 - sis_environment",
+      "alphabet": "E",
+      "record_id": "si-zm-2021-048-environmental-management-strategic-environmental-assessment-regulations-2021",
+      "sections": 51,
+      "title": "Environmental Management (Strategic Environmental Assessment) Regulations, 2021",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2021/48/eng@2021-05-14/source.pdf",
+      "pdf_hash": "0ab817041e9a6db1292934b2141d010f0e3feec5666b08a157bb5a25f5ad7add",
+      "pdf_bytes": 1143448,
+      "raw_pdf": "/sessions/modest-clever-bohr/mnt/corpus/raw/zambialii/si/2021/si-zm-2021-048-environmental-management-strategic-environmental-assessment-regulations-2021.pdf",
+      "record_path": "/sessions/modest-clever-bohr/mnt/corpus/records/sis/2021/si-zm-2021-048-environmental-management-strategic-environmental-assessment-regulations-2021.json"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "batch": "0214",
+  "phase": "ingest",
+  "slice": [
+    1,
+    4
+  ],
+  "started_at": "2026-04-25T05:07:30Z",
+  "completed_at": "2026-04-25T05:08:06Z",
+  "fetch_start": 218,
+  "fetch_end": 224,
+  "results": [
+    {
+      "year": 2025,
+      "number": 19,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "investment trade and business development (fintech city MFEZ) order 2025 - sis_corporate",
+      "alphabet": "I",
+      "record_id": "si-zm-2025-019-investmenttrade-and-business-development-fintech-city-multi-facility-economic-zo",
+      "sections": 5,
+      "title": "Investment,Trade and Business Development (Fintech City Multi-Facility Economic Zone) (Declaration) Order, 2025",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2025/19/eng@2025-05-09/source.pdf",
+      "pdf_hash": "c832ed059a244bab743c7a54d4f8d71181651ecb889f5765f086659ee5de3ddf",
+      "pdf_bytes": 3441805,
+      "raw_pdf": "/sessions/modest-clever-bohr/mnt/corpus/raw/zambialii/si/2025/si-zm-2025-019-investmenttrade-and-business-development-fintech-city-multi-facility-economic-zo.pdf",
+      "record_path": "/sessions/modest-clever-bohr/mnt/corpus/records/sis/2025/si-zm-2025-019-investmenttrade-and-business-development-fintech-city-multi-facility-economic-zo.json"
+    },
+    {
+      "year": 2024,
+      "number": 4,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "investment trade and business development (luano industrial park) order 2024 - sis_corporate",
+      "alphabet": "I",
+      "record_id": "si-zm-2024-004-investment-trade-and-business-development-luano-industrial-park-declaration-orde",
+      "sections": 12,
+      "title": "Investment, Trade and Business Development (Luano Industrial Park) (Declaration) Order, 2024",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2024/4/eng@2024-01-12/source.pdf",
+      "pdf_hash": "7939bd1aca6d901b49cbc4efe0d7f2b382de764445986478042393129fa4ceff",
+      "pdf_bytes": 306923,
+      "raw_pdf": "/sessions/modest-clever-bohr/mnt/corpus/raw/zambialii/si/2024/si-zm-2024-004-investment-trade-and-business-development-luano-industrial-park-declaration-orde.pdf",
+      "record_path": "/sessions/modest-clever-bohr/mnt/corpus/records/sis/2024/si-zm-2024-004-investment-trade-and-business-development-luano-industrial-park-declaration-orde.json"
+    },
+    {
+      "year": 2023,
+      "number": 13,
+      "sub_phase": "sis_employment",
+      "status": "ok",
+      "discovery_text": "forfeiture of proceeds of crime (fund and property management) regulations 2023 - sis_corporate",
+      "alphabet": "F",
+      "record_id": "si-zm-2023-013-forfeiture-of-proceeds-of-crime-fund-and-property-management-regulations-2023",
+      "sections": 11,
+      "title": "Forfeiture of Proceeds of Crime (Fund and Property Management) Regulations, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/13/eng@2023-05-19/source.pdf",
+      "pdf_hash": "9a23e9460e2c8a56ef1925034709f94ee647353dc2ea5e451fd65b489a349582",
+      "pdf_bytes": 329572,
+      "raw_pdf": "/sessions/modest-clever-bohr/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-013-forfeiture-of-proceeds-of-crime-fund-and-property-management-regulations-2023.pdf",
+      "record_path": "/sessions/modest-clever-bohr/mnt/corpus/records/sis/2023/si-zm-2023-013-forfeiture-of-proceeds-of-crime-fund-and-property-management-regulations-2023.json"
+    }
+  ]
+}
