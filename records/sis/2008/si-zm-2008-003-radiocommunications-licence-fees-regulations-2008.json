@@ -1,0 +1,56 @@
+{
+  "id": "si-zm-2008-003-radiocommunications-licence-fees-regulations-2008",
+  "type": "si",
+  "jurisdiction": "ZM",
+  "title": "Radiocommunications (Licence Fees) Regulations, 2008",
+  "citation": "Statutory Instrument No. 3 of 2008",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "sections": [
+    {
+      "number": "2",
+      "heading": "These Regulations apply to a person who applies for a licence Application",
+      "text": "under section six."
+    },
+    {
+      "number": "3",
+      "heading": "An applicant shall submit, to the Authority, an application in Licence fee",
+      "text": "respect of the relevant radiocommunication service the applicant\nintends to operate, accompanied by a licence fee set out in the First\nSchedule."
+    },
+    {
+      "number": "4",
+      "heading": "The Radiocommunications (Licence Fees) Regulations, 2001 Revocation",
+      "text": "of SI No.\nare hereby revoked.\n88 of2001\nFIRST SCHEDULE\n(Regulation 3)\nRADIOCOMMUNICATIONS LICENCE FEES\nPART 1\nANNUAL FEE\nType a/Station Fee Units\nCitizen Band\n166\n2 DiskLicence\n139\n3 Cordless Telephone up to 200MTS 208\n4 Amateur\n347\n5 Aircraft 697\n6 Maritime Coast Station\n417\nCopies of this Statutory Instrument can be obtainedfrom1the Government Printer,\nP.O. Box 30136, JOJO/ Lusaka. Price K/000 each.\n. -\n,\n18 Statutory Instruments 4th January, 2008\n7 Maritime Ship Station 278\n8 Aeronautical (Commercial) 1389\n9 Cross Boarder 556\nJO Paging Receiver 167\nI I Aeronautical (non-commercial) 417\n12 Repairs' (non commercial) 1,389\n13 Base/Mobile Station on frequencies above 20 MHZ 347\n14 Fixed HF Exclusive frequency 694\n15 Fixed HF Shared frequency 483\n16 VHF Extra Frequency 138\n17 Broadcasting TV 27,778\n18 Broadcasting FM 13,889\n19 Broadcasting MW 13,889\n20 Broadcasting SW 13,889\n21 Application Processing Fee 206\n22 HF Extra Frequency Exclusive 206\n23 HF Extra Frequency Shared 167\n24 Paging (Commercial) 2,778\n25 Paging Base Transmitter (non-commercial) 347\n26 Satellite news gathering (SNG) per year 19,875\n27 Duplicate Licence 111\n28 Novice Amateur Licence 139\n29 RadioM odel Licence 139\n30 Licence to Possess 111\n31 Satelite News Gathering• SKY 3,975\n32 Radio Telephone Operators Restricted Certificate\n(Land) 139\n33 Radio Telephone Operators Restricted Certificate\n(Maritime) 139\n34 Standard Frequency 139\n35 Radio Location 278\n36 Common Carrier Microwave Stations\nper transmitter 1389\n37 PagingAlann Transmitter 208\n38 Paging Base Transmitter (Commercial) 694\n39 Satellite Earth Station (commercial) 13,250\n40 Satellite Earth Station (non commercial) 6,625\n•\n4th January, 2008 Statutory Instruments 19\n41 Community Repeater 2,778\n42 GSM Spectrum per channel of200KHz 23,88))\n43 Other spectrum fee As speCffied in\nthe Serond\nSchetitHe\nPART II\nINSPECTION fEES\nCategory Fee Units (per in.ipection)\nInstallations 278\n2 Equipment repairs workshop 278\n3 Installations and Equipment repairs Workshop 278\nNotes:"
+    },
+    {
+      "number": "1",
+      "heading": "Annual fees shall be paid annually on or before the anniversan1 date of",
+      "text": "the issuance of the licence."
+    },
+    {
+      "number": "2",
+      "heading": "All fees shall unless otherwise indicated herein, be subject to .value added",
+      "text": "tax in accordance with the Value Added TaxAct, Cap 331 ofthe Laws of\nZambia."
+    },
+    {
+      "number": "3",
+      "heading": "Costs for an inspection out of Lusaka shall include reasonable travel",
+      "text": "costs incurred for that inspection.\nSECOND SCHEDULE\n(Regulation 3)\nSpectrum fee= fee factor multiplied by total bandwidth (MHz) multiplied by re­\nuse.factor multiplied by sharing factor, that is to say:\nS-F•B *p* :s:\nf (MHz) U\nWhere\ns,\nstands for spectrum fee;\nF\nstands for the fee factor as set by theA uthority and @plied in\naccordance with the frequency band of the spectrum assigned;\nstands for the total assigned bandwidth in Mega Hertz;\np\nstands for the re-use factor; and\ncS stands for the sharing factor; and where-\np\n} (one) for each specified region relating to which�\nhas been dedicated to a user and 9 (nine) in all case:s,,Where\nspectrum is dedicated to a user for the whole counqy; and\nwhere\n1 for each specified region relating to which spectnmthas\nbeen dedicated to a user.\n20 Statutory Instruments 4th January, 2008\nNotes:\n(i) the re-use factor shall be, the total number·of the specified regions in\nwhich the spectruni assigned may be used;\n(ii) the sharing factor shall be the inverse of the number of operators assigned\nthe same spectrum in the same specified region; and\n(iii) specified region shall refer to the area in which the assigned spectrum\nmay be used.\nS. SAYIFWANDA,\nLUSAKA Minister of Communications\n26th December, 2007 and Transport\n[MCT. l 04/8/l 5C]"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/si/2008/3/eng@2008-01-04/source.pdf",
+  "source_hash": "sha256:0ed3910588f98cebe88f12a52ab4e74475af3aa3409d44461578bd0bf95e3be5",
+  "fetched_at": "2026-04-25T05:40:01Z",
+  "parser_version": "0.5.0",
+  "alternate_sources": [
+    {
+      "source_url": "https://zambialii.org/akn/zm/act/si/2008/3/eng@2008-01-04",
+      "source_hash": "sha256:1b1f4d17fab64d4fd3c53a3dbb3649b19ba5f9dd0ee6ae0d071c4e9a0e354a4b",
+      "fetched_at": "2026-04-25T05:39:54Z",
+      "role": "discovery_and_title"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "batch": "0215",
+  "phase": "ingest",
+  "slice": [
+    5,
+    7
+  ],
+  "started_at": "2026-04-25T05:39:45Z",
+  "completed_at": "2026-04-25T05:40:07Z",
+  "fetch_start": 252,
+  "fetch_end": 256,
+  "results": [
+    {
+      "year": 2012,
+      "number": 28,
+      "sub_phase": "sis_data_protection",
+      "status": "ok",
+      "discovery_text": "high court (electronic filing) rules, 2012",
+      "alphabet": "H",
+      "record_id": "si-zm-2012-028-high-court-electronic-filling-rules-2012",
+      "sections": 33,
+      "title": "High Court (Electronic Filling) Rules, 2012",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2012/28/eng@2012-05-04/source.pdf",
+      "pdf_hash": "d3b612d8254fb13a6984c994410ca8028e989d0c1ee75f246f60d88bc520aff2",
+      "pdf_bytes": 799303,
+      "raw_pdf": "/sessions/sharp-modest-hopper/mnt/corpus/raw/zambialii/si/2012/si-zm-2012-028-high-court-electronic-filling-rules-2012.pdf",
+      "record_path": "/sessions/sharp-modest-hopper/mnt/corpus/records/sis/2012/si-zm-2012-028-high-court-electronic-filling-rules-2012.json"
+    },
+    {
+      "year": 2008,
+      "number": 3,
+      "sub_phase": "sis_data_protection",
+      "status": "ok",
+      "discovery_text": "radiocommunications (licence fees) regulations, 2008",
+      "alphabet": "R",
+      "record_id": "si-zm-2008-003-radiocommunications-licence-fees-regulations-2008",
+      "sections": 6,
+      "title": "Radiocommunications (Licence Fees) Regulations, 2008",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2008/3/eng@2008-01-04/source.pdf",
+      "pdf_hash": "0ed3910588f98cebe88f12a52ab4e74475af3aa3409d44461578bd0bf95e3be5",
+      "pdf_bytes": 329778,
+      "raw_pdf": "/sessions/sharp-modest-hopper/mnt/corpus/raw/zambialii/si/2008/si-zm-2008-003-radiocommunications-licence-fees-regulations-2008.pdf",
+      "record_path": "/sessions/sharp-modest-hopper/mnt/corpus/records/sis/2008/si-zm-2008-003-radiocommunications-licence-fees-regulations-2008.json"
+    }
+  ]
+}

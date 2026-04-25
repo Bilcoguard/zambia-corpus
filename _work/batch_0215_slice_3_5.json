@@ -1,0 +1,46 @@
+{
+  "batch": "0215",
+  "phase": "ingest",
+  "slice": [
+    3,
+    5
+  ],
+  "started_at": "2026-04-25T05:39:16Z",
+  "completed_at": "2026-04-25T05:39:40Z",
+  "fetch_start": 248,
+  "fetch_end": 252,
+  "results": [
+    {
+      "year": 2018,
+      "number": 20,
+      "sub_phase": "sis_data_protection",
+      "status": "ok",
+      "discovery_text": "water resources management (groundwater and boreholes) regulations, 2018",
+      "alphabet": "W",
+      "record_id": "si-zm-2018-020-water-resources-management-groundwater-and-boreholes-regulations-2018",
+      "sections": 30,
+      "title": "Water Resources Management (Groundwater and Boreholes) Regulations, 2018.",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2018/20/eng@2018-03-07/source.pdf",
+      "pdf_hash": "59a66f0fc6408ba9ffa26a79783c13aee5b66b9c60f0a5557d381cd373384785",
+      "pdf_bytes": 2144914,
+      "raw_pdf": "/sessions/sharp-modest-hopper/mnt/corpus/raw/zambialii/si/2018/si-zm-2018-020-water-resources-management-groundwater-and-boreholes-regulations-2018.pdf",
+      "record_path": "/sessions/sharp-modest-hopper/mnt/corpus/records/sis/2018/si-zm-2018-020-water-resources-management-groundwater-and-boreholes-regulations-2018.json"
+    },
+    {
+      "year": 2021,
+      "number": 91,
+      "sub_phase": "sis_data_protection",
+      "status": "ok",
+      "discovery_text": "high court (civil jurisdiction) (family court fees) regulations, 2021",
+      "alphabet": "H",
+      "record_id": "si-zm-2021-091-high-court-civil-jurisdiction-family-court-fees-regulations-2021",
+      "sections": 98,
+      "title": "High Court (Civil Jurisdiction) (Family Court Fees) Regulations, 2021",
+      "pdf_url": "https://commons.laws.africa/akn/zm/act/si/2021/91/media/publication/zm-act-si-2021-91-publication-document.pdf",
+      "pdf_hash": "d04f2e74c7414bb7d582c11839a58095d66e5f11777236b1669a69d68369568f",
+      "pdf_bytes": 311229,
+      "raw_pdf": "/sessions/sharp-modest-hopper/mnt/corpus/raw/zambialii/si/2021/si-zm-2021-091-high-court-civil-jurisdiction-family-court-fees-regulations-2021.pdf",
+      "record_path": "/sessions/sharp-modest-hopper/mnt/corpus/records/sis/2021/si-zm-2021-091-high-court-civil-jurisdiction-family-court-fees-regulations-2021.json"
+    }
+  ]
+}

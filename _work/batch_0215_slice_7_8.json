@@ -1,0 +1,30 @@
+{
+  "batch": "0215",
+  "phase": "ingest",
+  "slice": [
+    7,
+    8
+  ],
+  "started_at": "2026-04-25T05:40:12Z",
+  "completed_at": "2026-04-25T05:40:21Z",
+  "fetch_start": 256,
+  "fetch_end": 258,
+  "results": [
+    {
+      "year": 2023,
+      "number": 26,
+      "sub_phase": "sis_data_protection",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (zambezi source) (national monument) (declaration) order, 2023",
+      "alphabet": "N",
+      "record_id": "si-zm-2023-026-national-heritage-conservation-commission-zambezi-source-national-monument-decla",
+      "sections": 3,
+      "title": "National Heritage Conservation Commission (Zambezi Source) (National Monument) (Declaration) Order, 2023",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2023/26/eng@2023-08-17/source.pdf",
+      "pdf_hash": "017af2d05e5b3d0a6707cce1ff7325fd076a265b230e6604961e4abe02c8cb6c",
+      "pdf_bytes": 395058,
+      "raw_pdf": "/sessions/sharp-modest-hopper/mnt/corpus/raw/zambialii/si/2023/si-zm-2023-026-national-heritage-conservation-commission-zambezi-source-national-monument-decla.pdf",
+      "record_path": "/sessions/sharp-modest-hopper/mnt/corpus/records/sis/2023/si-zm-2023-026-national-heritage-conservation-commission-zambezi-source-national-monument-decla.json"
+    }
+  ]
+}
