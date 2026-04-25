@@ -1,0 +1,22 @@
+{
+  "pick": {
+    "yr_num": "2018/11",
+    "year": "2018",
+    "num": "11",
+    "title": "Forests (Community Forest Management) Regulations, 2018",
+    "sub_phase": "sis_environment",
+    "parent_act": "Forests Act"
+  },
+  "status": "fail",
+  "error": "pdf_parse_empty",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/11",
+      "bytes": 86785,
+      "path": "raw/zambialii/si/2018/si-zm-2018-011-forests-community-forest-management-regulations-2018.html",
+      "sha": "56a809898135e3af766a365a6f69ca7443554887c67450302863e9ec69844635"
+    }
+  ],
+  "html_sha": "56a809898135e3af766a365a6f69ca7443554887c67450302863e9ec69844635",
+  "pdf_sha": null
+}

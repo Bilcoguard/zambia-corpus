@@ -1,0 +1,58 @@
+[
+  {
+    "pick": {
+      "yr_num": "2022/4",
+      "year": "2022",
+      "num": "4",
+      "title": "Value Added Tax (Zero-Rating) (Amendment) Order, 2022",
+      "sub_phase": "sis_tax",
+      "parent_act": "Value Added Tax Act"
+    },
+    "status": "fail",
+    "error": "pdf_parse_empty",
+    "fetches": [
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2022/4",
+        "bytes": 40569,
+        "path": "raw/zambialii/si/2022/si-zm-2022-004-value-added-tax-zero-rating-amendment-order-2022.html",
+        "sha": "91a7d81dae7b04be3f5d7f7f5ff43c05c33f61ef9b8cd5c3e0649d5f629ec8d4"
+      },
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2022/4/eng@2022-01-11/source.pdf",
+        "bytes": 343193,
+        "path": "raw/zambialii/si/2022/si-zm-2022-004-value-added-tax-zero-rating-amendment-order-2022.pdf",
+        "sha": "986b6f37de9cd3e3e07244ac9bef09497377973ec01b72fcf745dbc443554003"
+      }
+    ],
+    "html_sha": "91a7d81dae7b04be3f5d7f7f5ff43c05c33f61ef9b8cd5c3e0649d5f629ec8d4",
+    "pdf_sha": "986b6f37de9cd3e3e07244ac9bef09497377973ec01b72fcf745dbc443554003"
+  },
+  {
+    "pick": {
+      "yr_num": "2022/12",
+      "year": "2022",
+      "num": "12",
+      "title": "Societies (Amendment) Rules, 2021",
+      "sub_phase": "sis_corporate",
+      "parent_act": "Societies Act"
+    },
+    "status": "fail",
+    "error": "pdf_parse_empty",
+    "fetches": [
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2022/12",
+        "bytes": 39318,
+        "path": "raw/zambialii/si/2022/si-zm-2022-012-societies-amendment-rules-2021.html",
+        "sha": "146217f454c0881bb66617f9b057e9fa9a7a42da583348215356d39111fda1b5"
+      },
+      {
+        "url": "https://zambialii.org/akn/zm/act/si/2022/12/eng@2022-01-28/source.pdf",
+        "bytes": 440657,
+        "path": "raw/zambialii/si/2022/si-zm-2022-012-societies-amendment-rules-2021.pdf",
+        "sha": "747bc249bcdc610ea9374368813b1f564b1b3d481485c8aaefad4bf4fffe7be1"
+      }
+    ],
+    "html_sha": "146217f454c0881bb66617f9b057e9fa9a7a42da583348215356d39111fda1b5",
+    "pdf_sha": "747bc249bcdc610ea9374368813b1f564b1b3d481485c8aaefad4bf4fffe7be1"
+  }
+]

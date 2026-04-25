@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2021/92",
+    "year": "2021",
+    "num": "92",
+    "title": "Statistics (National Census) (Declaration) Order, 2021",
+    "sub_phase": "sis_statistics",
+    "parent_act": "Statistics Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2021-092-statistics-national-census-declaration-order-2021",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2021,
+    "number": 92,
+    "title": "Statistics (National Census) (Declaration) Order, 2021",
+    "parent_act": "Statistics Act",
+    "sub_phase": "sis_statistics",
+    "effective_date": "2021-12-31",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2021/92",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2021/92/eng@2021-12-31/source.pdf",
+    "source_hash": "13930785ea94012e5cb877bb832abd2ce6a8aaf7dde7814d74530ecaee7b707f",
+    "html_hash": "6226009141ad156eb239a906a6e93e0a07435870ea4c8d419ed4ecac9efc799c",
+    "fetched_at": "2026-04-25T13:45:41Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1622,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2021/si-zm-2021-092-statistics-national-census-declaration-order-2021.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/92",
+      "bytes": 39170,
+      "path": "raw/zambialii/si/2021/si-zm-2021-092-statistics-national-census-declaration-order-2021.html",
+      "sha": "6226009141ad156eb239a906a6e93e0a07435870ea4c8d419ed4ecac9efc799c"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/92/eng@2021-12-31/source.pdf",
+      "bytes": 83941,
+      "path": "raw/zambialii/si/2021/si-zm-2021-092-statistics-national-census-declaration-order-2021.pdf",
+      "sha": "13930785ea94012e5cb877bb832abd2ce6a8aaf7dde7814d74530ecaee7b707f"
+    }
+  ]
+}

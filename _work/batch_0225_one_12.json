@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2020/123",
+    "year": "2020",
+    "num": "123",
+    "title": "Tourism and Hospitality (Registration of Hotel Managers) (Temporary Disapplication of Registration Fee) Regulations, 2020",
+    "sub_phase": "sis_tourism",
+    "parent_act": "Tourism and Hospitality Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2020-123-tourism-and-hospitality-registration-of-hotel-managers-temporary-disapplication-of-registration-fee-regulations-2020",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2020,
+    "number": 123,
+    "title": "Tourism and Hospitality (Registration of Hotel Managers) (Temporary Disapplication of Registration Fee) Regulations, 2020",
+    "parent_act": "Tourism and Hospitality Act",
+    "sub_phase": "sis_tourism",
+    "effective_date": "2020-12-31",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2020/123",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/123/eng@2020-12-31/source.pdf",
+    "source_hash": "63aa919b2c48af102a49588878ce68f656707e824949b020dcc05fb0aae53764",
+    "html_hash": "0a1f0479044962dc5a33eca72d1bdb58e336bb28e6e34a19a23440decf8bf015",
+    "fetched_at": "2026-04-25T13:49:14Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1305,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2020/si-zm-2020-123-tourism-and-hospitality-registration-of-hotel-managers-temporary-disapplication-of-registration-fee-regulations-2020.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/123",
+      "bytes": 39617,
+      "path": "raw/zambialii/si/2020/si-zm-2020-123-tourism-and-hospitality-registration-of-hotel-managers-temporary-disapplication-of-registration-fee-regulations-2020.html",
+      "sha": "0a1f0479044962dc5a33eca72d1bdb58e336bb28e6e34a19a23440decf8bf015"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/123/eng@2020-12-31/source.pdf",
+      "bytes": 9855,
+      "path": "raw/zambialii/si/2020/si-zm-2020-123-tourism-and-hospitality-registration-of-hotel-managers-temporary-disapplication-of-registration-fee-regulations-2020.pdf",
+      "sha": "63aa919b2c48af102a49588878ce68f656707e824949b020dcc05fb0aae53764"
+    }
+  ]
+}

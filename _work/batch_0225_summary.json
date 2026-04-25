@@ -1,0 +1,26 @@
+{
+  "batch": "0225",
+  "phase": "phase_4_bulk",
+  "mode": "fresh_alphabet_probes_V_S_B_F_T_N_picks_8_of_13_attempted",
+  "attempted": 11,
+  "ok": 8,
+  "fail": 2,
+  "skip": 1,
+  "records": [
+    "si-zm-2021-092-statistics-national-census-declaration-order-2021",
+    "si-zm-2021-066-forest-carbon-stock-management-regulations-2021",
+    "si-zm-2022-026-tourism-and-hospitality-licensing-temporary-disapplication-of-renewal-and-retention-fees-regulations-2022",
+    "si-zm-2017-022-tourism-and-hospitality-casino-regulations-2017",
+    "si-zm-2018-014-tourism-and-hospitality-accommodation-establishment-standards-regulations-2018",
+    "si-zm-2017-020-tourism-and-hospitality-prepaid-package-tours-regulations-2017",
+    "si-zm-2020-064-national-market-and-bus-station-development-fund-regulations-2020",
+    "si-zm-2020-123-tourism-and-hospitality-registration-of-hotel-managers-temporary-disapplication-of-registration-fee-regulations-2020"
+  ],
+  "fetches_used_net": 19,
+  "sub_phases_covered": [
+    "sis_environment",
+    "sis_local_government",
+    "sis_statistics",
+    "sis_tourism"
+  ]
+}

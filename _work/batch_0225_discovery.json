@@ -1,0 +1,225 @@
+{
+  "alphabets": [
+    "V",
+    "S",
+    "B",
+    "F",
+    "T",
+    "N"
+  ],
+  "fetches": [
+    {
+      "url": "https://zambialii.org/legislation/?alphabet=V&subleg=true&stub=False",
+      "bytes": 74766,
+      "path": "raw/zambialii/discovery/2026-04-25/alphabet-V-a73d05cb.html",
+      "sha": "a73d05cbe6525da95a338d6914bcf901698bea0c5305d635f7e33fe018af1270"
+    },
+    {
+      "url": "https://zambialii.org/legislation/?alphabet=S&subleg=true&stub=False",
+      "bytes": 175367,
+      "path": "raw/zambialii/discovery/2026-04-25/alphabet-S-2ca52780.html",
+      "sha": "2ca527808fa816fdbdaa7489772eb3a89b6ea2ffa64fcf93b2e61eb083cefef3"
+    },
+    {
+      "url": "https://zambialii.org/legislation/?alphabet=B&subleg=true&stub=False",
+      "bytes": 95013,
+      "path": "raw/zambialii/discovery/2026-04-25/alphabet-B-5a524107.html",
+      "sha": "5a524107adb1bde458417cf0066561a11cf214783e62784d1236507d6bf6de4f"
+    },
+    {
+      "url": "https://zambialii.org/legislation/?alphabet=F&subleg=true&stub=False",
+      "bytes": 97612,
+      "path": "raw/zambialii/discovery/2026-04-25/alphabet-F-0140b358.html",
+      "sha": "0140b358f2dc86974d669ebf6da6d31e6e4c85b7f57639524fe6230280b10af2"
+    },
+    {
+      "url": "https://zambialii.org/legislation/?alphabet=T&subleg=true&stub=False",
+      "bytes": 142037,
+      "path": "raw/zambialii/discovery/2026-04-25/alphabet-T-b8651c05.html",
+      "sha": "b8651c053378d3011819214625c1b51a75f44832546236724c4ef29c777a1e38"
+    },
+    {
+      "url": "https://zambialii.org/legislation/?alphabet=N&subleg=true&stub=False",
+      "bytes": 179372,
+      "path": "raw/zambialii/discovery/2026-04-25/alphabet-N-082ded9a.html",
+      "sha": "082ded9a68a024479ea4799ab6763ee2d434b1525f80fb4d64be49ec73bed876"
+    }
+  ],
+  "candidates": [
+    {
+      "year": "2022",
+      "num": 4,
+      "title": "Value Added Tax (Zero-Rating) (Amendment) Order, 2022",
+      "href": "/akn/zm/act/si/2022/4/eng@2022-01-11",
+      "alphabet": "V"
+    },
+    {
+      "year": "2022",
+      "num": 12,
+      "title": "Societies (Amendment) Rules, 2021",
+      "href": "/akn/zm/act/si/2022/12/eng@2022-01-28",
+      "alphabet": "S"
+    },
+    {
+      "year": "2017",
+      "num": 68,
+      "title": "Standards (Compulsory Standards) (Declaration) Order, 2017",
+      "href": "/akn/zm/act/si/2017/68/eng@2017-09-22",
+      "alphabet": "S"
+    },
+    {
+      "year": "2021",
+      "num": 92,
+      "title": "Statistics (National Census) (Declaration) Order, 2021",
+      "href": "/akn/zm/act/si/2021/92/eng@2021-12-31",
+      "alphabet": "S"
+    },
+    {
+      "year": "2026",
+      "num": 8,
+      "title": "Fisheries (Management Area) (Declaration) Order, 2025",
+      "href": "/akn/zm/act/si/2026/8/eng@2026-01-23",
+      "alphabet": "F"
+    },
+    {
+      "year": "2021",
+      "num": 3,
+      "title": "National Forest No. F31: Kabwe (Alteration of Boundaries) Order, 2021",
+      "href": "/akn/zm/act/si/2021/3/eng@2021-01-04",
+      "alphabet": "F"
+    },
+    {
+      "year": "2021",
+      "num": 66,
+      "title": "Forest (Carbon Stock Management) Regulations, 2021",
+      "href": "/akn/zm/act/si/2021/66/eng@2021-06-25",
+      "alphabet": "F"
+    },
+    {
+      "year": "2021",
+      "num": 1,
+      "title": "Forest Reserve No. 4: Maposa (Cessation) Order, 2021",
+      "href": "/akn/zm/act/si/2021/1/eng@2021-01-08",
+      "alphabet": "F"
+    },
+    {
+      "year": "2021",
+      "num": 2,
+      "title": "Kasama National Forest No. P. 47: (Alteration of Boundaries) Order, 2021",
+      "href": "/akn/zm/act/si/2021/2/eng@2021-01-08",
+      "alphabet": "F"
+    },
+    {
+      "year": "2020",
+      "num": 13,
+      "title": "National Forest No. F.12: Luano (Alteration of Boundaries) Order, 2020",
+      "href": "/akn/zm/act/si/2020/13/eng@2020-02-07",
+      "alphabet": "F"
+    },
+    {
+      "year": "2020",
+      "num": 12,
+      "title": "Local Forest No. P. 320: Mpande Hills (Alteration of Boundaries) Order, 2020",
+      "href": "/akn/zm/act/si/2020/12/eng@2020-02-07",
+      "alphabet": "F"
+    },
+    {
+      "year": "2018",
+      "num": 11,
+      "title": "Forests (Community Forest Management) Regulations, 2018",
+      "href": "/akn/zm/act/si/2018/11/eng@2018-02-23",
+      "alphabet": "F"
+    },
+    {
+      "year": "2017",
+      "num": 63,
+      "title": "Local Forest No. 42: Kawena (Cessation) Order, 2017",
+      "href": "/akn/zm/act/si/2017/63/eng@2017-08-11",
+      "alphabet": "F"
+    },
+    {
+      "year": "2017",
+      "num": 28,
+      "title": "Dambwa Local Forest No. F22: (Alteration of Boundaries) Order, 2017",
+      "href": "/akn/zm/act/si/2017/28/eng@2017-03-31",
+      "alphabet": "F"
+    },
+    {
+      "year": "2022",
+      "num": 26,
+      "title": "Tourism and Hospitality (Licensing) (Temporary Disapplication of Renewal and Retention Fees) Regulations, 2022",
+      "href": "/akn/zm/act/si/2022/26/eng@2022-04-01",
+      "alphabet": "T"
+    },
+    {
+      "year": "2022",
+      "num": 25,
+      "title": "Tourism and Hospitality (Registration of Hotel Managers) (Temporary Disapplication of Registration Fee) Regulations, 2022",
+      "href": "/akn/zm/act/si/2022/25/eng@2022-04-01",
+      "alphabet": "T"
+    },
+    {
+      "year": "2020",
+      "num": 123,
+      "title": "Tourism and Hospitality (Registration of Hotel Managers) (Temporary Disapplication of Registration Fee) Regulations, 2020",
+      "href": "/akn/zm/act/si/2020/123/eng@2020-12-31",
+      "alphabet": "T"
+    },
+    {
+      "year": "2020",
+      "num": 122,
+      "title": "Tourism and Hospitality (Licensing) (Temporary Disapplication of Renewal and Retention Fee) Regulations, 2020",
+      "href": "/akn/zm/act/si/2020/122/eng@2020-12-31",
+      "alphabet": "T"
+    },
+    {
+      "year": "2018",
+      "num": 14,
+      "title": "Tourism and Hospitality (Accommodation Establishment Standards) Regulations, 2018",
+      "href": "/akn/zm/act/si/2018/14/eng@2018-02-23",
+      "alphabet": "T"
+    },
+    {
+      "year": "2017",
+      "num": 22,
+      "title": "Tourism and Hospitality (Casino) Regulations, 2017",
+      "href": "/akn/zm/act/si/2017/22/eng@2017-03-03",
+      "alphabet": "T"
+    },
+    {
+      "year": "2017",
+      "num": 20,
+      "title": "Tourism and Hospitality (Prepaid Package Tours) Regulations, 2017",
+      "href": "/akn/zm/act/si/2017/20/eng@2017-03-03",
+      "alphabet": "T"
+    },
+    {
+      "year": "2022",
+      "num": 7,
+      "title": "National Archives (Fees) Regulations, 2021",
+      "href": "/akn/zm/act/si/2022/7/eng@2021-01-11",
+      "alphabet": "N"
+    },
+    {
+      "year": "2019",
+      "num": 30,
+      "title": "National Dialogue Forum (Extension) (No. 2) Order, 2019",
+      "href": "/akn/zm/act/si/2019/30/eng@2019-05-10",
+      "alphabet": "N"
+    },
+    {
+      "year": "2019",
+      "num": 28,
+      "title": "National Dialogue Forum (Extension) Order, 2019",
+      "href": "/akn/zm/act/si/2019/28/eng@2019-05-07",
+      "alphabet": "N"
+    },
+    {
+      "year": "2020",
+      "num": 64,
+      "title": "National Market and Bus Station Development Fund Regulations, 2020",
+      "href": "/akn/zm/act/si/2020/64/eng@2020-07-17",
+      "alphabet": "N"
+    }
+  ]
+}

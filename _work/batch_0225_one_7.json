@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2017/22",
+    "year": "2017",
+    "num": "22",
+    "title": "Tourism and Hospitality (Casino) Regulations, 2017",
+    "sub_phase": "sis_tourism",
+    "parent_act": "Tourism and Hospitality Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2017-022-tourism-and-hospitality-casino-regulations-2017",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2017,
+    "number": 22,
+    "title": "Tourism and Hospitality (Casino) Regulations, 2017",
+    "parent_act": "Tourism and Hospitality Act",
+    "sub_phase": "sis_tourism",
+    "effective_date": "2017-03-03",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2017/22",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2017/22/eng@2017-03-03/source.pdf",
+    "source_hash": "564db5c72d0e25c2c402c9fef39f7af65f5176327cc2f5b1f3b1dbe41d3b4fac",
+    "html_hash": "35455e07da1dd03781c4c3fbfad2bc78e43515d75c185186bbb4fae3621de688",
+    "fetched_at": "2026-04-25T13:46:49Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 50,
+    "pdf_text_chars": 66554,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2017/si-zm-2017-022-tourism-and-hospitality-casino-regulations-2017.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2017/22",
+      "bytes": 39165,
+      "path": "raw/zambialii/si/2017/si-zm-2017-022-tourism-and-hospitality-casino-regulations-2017.html",
+      "sha": "35455e07da1dd03781c4c3fbfad2bc78e43515d75c185186bbb4fae3621de688"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2017/22/eng@2017-03-03/source.pdf",
+      "bytes": 221890,
+      "path": "raw/zambialii/si/2017/si-zm-2017-022-tourism-and-hospitality-casino-regulations-2017.pdf",
+      "sha": "564db5c72d0e25c2c402c9fef39f7af65f5176327cc2f5b1f3b1dbe41d3b4fac"
+    }
+  ]
+}

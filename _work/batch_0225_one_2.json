@@ -1,0 +1,30 @@
+{
+  "pick": {
+    "yr_num": "2017/68",
+    "year": "2017",
+    "num": "68",
+    "title": "Standards (Compulsory Standards) (Declaration) Order, 2017",
+    "sub_phase": "sis_consumer",
+    "parent_act": "Standards Act"
+  },
+  "status": "skip",
+  "error": "pdf_too_large_5713570b",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2017/68",
+      "bytes": 39079,
+      "path": "raw/zambialii/si/2017/si-zm-2017-068-standards-compulsory-standards-declaration-order-2017.html",
+      "sha": "2e028451b447d3cadd650cfc71d4064ab859400fc39f7e5a03164a3e942e3d26",
+      "reused": true
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2017/68/eng@2017-09-22/source.pdf",
+      "bytes": 5713570,
+      "path": "raw/zambialii/si/2017/si-zm-2017-068-standards-compulsory-standards-declaration-order-2017.pdf",
+      "sha": "37ec17131efb79a29d9fc553b982d00c4f2420eb7be2e6f1ce26e678a6355d5e",
+      "reused": true
+    }
+  ],
+  "html_sha": "2e028451b447d3cadd650cfc71d4064ab859400fc39f7e5a03164a3e942e3d26",
+  "pdf_sha": "37ec17131efb79a29d9fc553b982d00c4f2420eb7be2e6f1ce26e678a6355d5e"
+}

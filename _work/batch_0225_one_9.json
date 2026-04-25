@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2017/20",
+    "year": "2017",
+    "num": "20",
+    "title": "Tourism and Hospitality (Prepaid Package Tours) Regulations, 2017",
+    "sub_phase": "sis_tourism",
+    "parent_act": "Tourism and Hospitality Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2017-020-tourism-and-hospitality-prepaid-package-tours-regulations-2017",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2017,
+    "number": 20,
+    "title": "Tourism and Hospitality (Prepaid Package Tours) Regulations, 2017",
+    "parent_act": "Tourism and Hospitality Act",
+    "sub_phase": "sis_tourism",
+    "effective_date": "2017-03-03",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2017/20",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2017/20/eng@2017-03-03/source.pdf",
+    "source_hash": "f0c1d00a9c6b896576f20609b72c2ebd2ee43603fa9dd12b6c604cefccaa6f5a",
+    "html_hash": "6f0e390d8f2a37907b287bf2251b9960fa4319a480fa24ba565db7c2577a8fb3",
+    "fetched_at": "2026-04-25T13:47:58Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 4,
+    "pdf_text_chars": 4859,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2017/si-zm-2017-020-tourism-and-hospitality-prepaid-package-tours-regulations-2017.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2017/20",
+      "bytes": 39278,
+      "path": "raw/zambialii/si/2017/si-zm-2017-020-tourism-and-hospitality-prepaid-package-tours-regulations-2017.html",
+      "sha": "6f0e390d8f2a37907b287bf2251b9960fa4319a480fa24ba565db7c2577a8fb3"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2017/20/eng@2017-03-03/source.pdf",
+      "bytes": 37689,
+      "path": "raw/zambialii/si/2017/si-zm-2017-020-tourism-and-hospitality-prepaid-package-tours-regulations-2017.pdf",
+      "sha": "f0c1d00a9c6b896576f20609b72c2ebd2ee43603fa9dd12b6c604cefccaa6f5a"
+    }
+  ]
+}

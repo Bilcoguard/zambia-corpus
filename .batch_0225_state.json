@@ -1,0 +1,38 @@
+{
+  "batch": "0225",
+  "phase": "phase_4_bulk",
+  "started_at": "2026-04-25T13:36:00Z",
+  "completed_at": "2026-04-25T13:50:09Z",
+  "records_count": 8,
+  "records": [
+    "si-zm-2021-092-statistics-national-census-declaration-order-2021",
+    "si-zm-2021-066-forest-carbon-stock-management-regulations-2021",
+    "si-zm-2022-026-tourism-and-hospitality-licensing-temporary-disapplication-of-renewal-and-retention-fees-regulations-2022",
+    "si-zm-2017-022-tourism-and-hospitality-casino-regulations-2017",
+    "si-zm-2018-014-tourism-and-hospitality-accommodation-establishment-standards-regulations-2018",
+    "si-zm-2017-020-tourism-and-hospitality-prepaid-package-tours-regulations-2017",
+    "si-zm-2020-064-national-market-and-bus-station-development-fund-regulations-2020",
+    "si-zm-2020-123-tourism-and-hospitality-registration-of-hotel-managers-temporary-disapplication-of-registration-fee-regulations-2020"
+  ],
+  "integrity": "PASS",
+  "fetches_used": 26,
+  "sub_phases_covered": [
+    "sis_environment",
+    "sis_local_government",
+    "sis_statistics",
+    "sis_tourism"
+  ],
+  "mode": "fresh_alphabet_probes_V_S_B_F_T_N",
+  "attempted_count": 11,
+  "fail_records": [
+    "2022/4-vat-zero-rating",
+    "2022/12-societies",
+    "2018/11-forest-community-mgmt",
+    "2022/7-national-archives-fees"
+  ],
+  "skip_records": [
+    "2017/68-standards-compulsory"
+  ],
+  "fail_reason": "pdf_parse_empty (likely scanned image PDFs)",
+  "skip_reason": "pdf_size>4.5MB threshold"
+}
