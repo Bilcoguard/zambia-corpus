@@ -1,0 +1,24 @@
+{
+  "batch": "0234",
+  "attempted": 8,
+  "ok": 8,
+  "yield_pct": 100.0,
+  "sub_phase_counts": {
+    "sis_agriculture": 7,
+    "sis_elections": 1
+  },
+  "fetches_new": 15,
+  "cumulative_fetch_n_after": 587,
+  "integrity_pass": true,
+  "records": [
+    "si-zm-2020-084-animal-identification-general-regulations-2020",
+    "si-zm-2020-085-animal-health-tsetse-fly-area-and-tsetse-fly-control-area-declaration-notice-2020",
+    "si-zm-2020-086-animal-health-establishment-of-tsetse-control-pickets-and-check-points-regulations-2020",
+    "si-zm-2020-087-animal-health-designated-border-inspection-posts-regulations-2020",
+    "si-zm-2020-093-animal-health-import-and-export-of-animal-animal-product-animal-by-product-or-article-regulations-2020",
+    "si-zm-2020-094-animal-health-bee-keeping-regulations-2020",
+    "si-zm-2021-025-animal-health-destruction-of-pigs-compensation-order-2021",
+    "si-zm-2021-007-electoral-process-local-government-by-elections-election-time-and-time-of-poll-order-2021"
+  ],
+  "closeout_at": "2026-04-25T19:09:34Z"
+}

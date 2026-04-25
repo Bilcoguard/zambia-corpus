@@ -1,0 +1,15 @@
+{
+  "batch": "0234",
+  "check1a_unique_ids": true,
+  "check1a_count": 8,
+  "check1b_disk_presence": true,
+  "check1b_count": 8,
+  "check2_amended_by_unresolved": 0,
+  "check3_repealed_by_unresolved": 0,
+  "check4_source_hash_match": true,
+  "check4_count": 8,
+  "check5_required_fields": true,
+  "check5_count": 80,
+  "check6_cited_authorities_unresolved": 0,
+  "all_pass": true
+}

@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2020/93",
+    "year": "2020",
+    "num": "93",
+    "title": "Animal Health (Import and Export of Animal, Animal Product, Animal By-Product or Article) Regulations, 2020",
+    "sub_phase": "sis_agriculture",
+    "parent_act": "Animal Health Act",
+    "eng_date": "2020-11-13"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2020-093-animal-health-import-and-export-of-animal-animal-product-animal-by-product-or-article-regulations-2020",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2020,
+    "number": 93,
+    "title": "Animal Health (Import and Export of Animal, Animal Product, Animal By-Product or Article) Regulations, 2020",
+    "parent_act": "Animal Health Act",
+    "sub_phase": "sis_agriculture",
+    "effective_date": "2020-11-13",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2020/93",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/93/eng@2020-11-13/source.pdf",
+    "source_hash": "ddec2c1774ada6f613115aa8bea18d554db5162f41f72776d038ec487c0a5703",
+    "html_hash": "a95cc2b4732e17bde7bc5c337316553a9e7d35a267d75f07bbdc6bb27ac6b2a3",
+    "fetched_at": "2026-04-25T19:07:56Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 20,
+    "pdf_text_chars": 23310,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2020/si-zm-2020-093-animal-health-import-and-export-of-animal-animal-product-animal-by-product-or-article-regulations-2020.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/93",
+      "bytes": 39339,
+      "path": "raw/zambialii/si/2020/si-zm-2020-093-animal-health-import-and-export-of-animal-animal-product-animal-by-product-or-article-regulations-2020.html",
+      "sha": "a95cc2b4732e17bde7bc5c337316553a9e7d35a267d75f07bbdc6bb27ac6b2a3"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/93/eng@2020-11-13/source.pdf",
+      "bytes": 132637,
+      "path": "raw/zambialii/si/2020/si-zm-2020-093-animal-health-import-and-export-of-animal-animal-product-animal-by-product-or-article-regulations-2020.pdf",
+      "sha": "ddec2c1774ada6f613115aa8bea18d554db5162f41f72776d038ec487c0a5703"
+    }
+  ]
+}

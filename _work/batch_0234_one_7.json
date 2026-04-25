@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2021/7",
+    "year": "2021",
+    "num": "7",
+    "title": "Electoral Process (Local Government By-Elections) (Election Time and Time of Poll) Order, 2021",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2021-01-29"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2021-007-electoral-process-local-government-by-elections-election-time-and-time-of-poll-order-2021",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2021,
+    "number": 7,
+    "title": "Electoral Process (Local Government By-Elections) (Election Time and Time of Poll) Order, 2021",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2021-01-29",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2021/7",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2021/7/eng@2021-01-29/source.pdf",
+    "source_hash": "16797f4e05583559b942863560550310d47ae2ce4a6e9d40efbb991f502e337b",
+    "html_hash": "2bbd0eb077fcc4d54b2d9b63ffa824aa0493bb9e44efa63c21188c6d97363362",
+    "fetched_at": "2026-04-25T19:08:53Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1933,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2021/si-zm-2021-007-electoral-process-local-government-by-elections-election-time-and-time-of-poll-order-2021.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/7",
+      "bytes": 39422,
+      "path": "raw/zambialii/si/2021/si-zm-2021-007-electoral-process-local-government-by-elections-election-time-and-time-of-poll-order-2021.html",
+      "sha": "2bbd0eb077fcc4d54b2d9b63ffa824aa0493bb9e44efa63c21188c6d97363362"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/7/eng@2021-01-29/source.pdf",
+      "bytes": 140750,
+      "path": "raw/zambialii/si/2021/si-zm-2021-007-electoral-process-local-government-by-elections-election-time-and-time-of-poll-order-2021.pdf",
+      "sha": "16797f4e05583559b942863560550310d47ae2ce4a6e9d40efbb991f502e337b"
+    }
+  ]
+}

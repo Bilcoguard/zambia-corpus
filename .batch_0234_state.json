@@ -1,0 +1,36 @@
+{
+  "batch": "0234",
+  "phase": 4,
+  "tick_start": "2026-04-25T19:04:12Z",
+  "tick_end": "2026-04-25T19:09:34Z",
+  "robots_sha256_prefix": "fce67b697ee4ef44",
+  "robots_unchanged": true,
+  "discovery_fetches": 1,
+  "ingest_fetches_new": 15,
+  "ingest_fetches_reused": 1,
+  "today_fetches_after": 587,
+  "today_fetches_budget": 2000,
+  "max_batch_size_cap": 8,
+  "records_attempted": 8,
+  "records_ok": 8,
+  "records_skipped": 0,
+  "records_failed": 0,
+  "yield_pct": 100.0,
+  "consecutive_100_pct_streak": 11,
+  "sub_phase_counts": {
+    "sis_agriculture": 7,
+    "sis_elections": 1
+  },
+  "first_instance_subphases_this_tick": [],
+  "integrity_pass": true,
+  "checks": {
+    "check1a_unique_ids": true,
+    "check1b_disk_presence": true,
+    "check2_amended_by_unresolved": 0,
+    "check3_repealed_by_unresolved": 0,
+    "check4_source_hash_match": true,
+    "check5_required_fields": true,
+    "check6_cited_authorities_unresolved": 0
+  },
+  "b2_sync_deferred_to_host": true
+}
