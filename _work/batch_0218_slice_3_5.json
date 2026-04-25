@@ -1,0 +1,46 @@
+{
+  "batch": "0218",
+  "phase": "ingest",
+  "slice": [
+    3,
+    5
+  ],
+  "started_at": "2026-04-25T07:35:14Z",
+  "completed_at": "2026-04-25T07:35:37Z",
+  "fetch_start": 305,
+  "fetch_end": 309,
+  "results": [
+    {
+      "year": 2019,
+      "number": 75,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (kalonga gawa undi-dole royal cemetery) (national monument) (declaration) order, 2019",
+      "alphabet": "N",
+      "record_id": "si-zm-2019-075-national-heritage-conservation-commission-kalonga-gawa-undi-dole-royal-cemetery-",
+      "sections": 2,
+      "title": "National Heritage Conservation Commission (Kalonga Gawa Undi-Dole Royal Cemetery) (National Monument) (Declaration) Order, 2019",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2019/75/eng@2019-11-15/source.pdf",
+      "pdf_hash": "2b0391945049182f4d65a92bfe505e3cd7cd485a9bb17e41cdd2085f91557fd5",
+      "pdf_bytes": 12673,
+      "raw_pdf": "/sessions/wizardly-pensive-sagan/mnt/corpus/raw/zambialii/si/2019/si-zm-2019-075-national-heritage-conservation-commission-kalonga-gawa-undi-dole-royal-cemetery-.pdf",
+      "record_path": "/sessions/wizardly-pensive-sagan/mnt/corpus/records/sis/2019/si-zm-2019-075-national-heritage-conservation-commission-kalonga-gawa-undi-dole-royal-cemetery-.json"
+    },
+    {
+      "year": 2017,
+      "number": 71,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (oliver tambo house) (national monument) (declaration) order, 2017",
+      "alphabet": "N",
+      "record_id": "si-zm-2017-071-national-heritage-conservation-commission-oliver-tambo-house-national-monument-d",
+      "sections": 3,
+      "title": "National Heritage Conservation Commission (Oliver Tambo House) (National Monument) (Declaration) Order, 2017",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2017/71/eng@2017-10-06/source.pdf",
+      "pdf_hash": "093a2bc383034888f347e3e80c153a07f703e2c4ac12b4ac38f621f78b977fe5",
+      "pdf_bytes": 180500,
+      "raw_pdf": "/sessions/wizardly-pensive-sagan/mnt/corpus/raw/zambialii/si/2017/si-zm-2017-071-national-heritage-conservation-commission-oliver-tambo-house-national-monument-d.pdf",
+      "record_path": "/sessions/wizardly-pensive-sagan/mnt/corpus/records/sis/2017/si-zm-2017-071-national-heritage-conservation-commission-oliver-tambo-house-national-monument-d.json"
+    }
+  ]
+}

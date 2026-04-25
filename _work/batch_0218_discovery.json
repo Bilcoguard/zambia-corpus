@@ -1,0 +1,69 @@
+{
+  "batch": "0218",
+  "phase": "discovery",
+  "started_at": "2026-04-25T07:34:27Z",
+  "completed_at": "2026-04-25T07:34:28Z",
+  "fetches_used": 1,
+  "fetch_end": 299,
+  "robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "alphabets": [],
+  "novel_total_pre_keyword": 17,
+  "novel_kept_post_keyword": 9,
+  "candidates": [
+    {
+      "year": 2019,
+      "number": 55,
+      "text": "national heritage conservation commission (chipota falls) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 56,
+      "text": "national heritage conservation commission (broken hill man) (national monument) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 57,
+      "text": "national heritage conservation commission (kabwe mine museum) (national monument) (provisional declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2019,
+      "number": 75,
+      "text": "national heritage conservation commission (kalonga gawa undi-dole royal cemetery) (national monument) (declaration) order, 2019",
+      "letter": "N"
+    },
+    {
+      "year": 2017,
+      "number": 71,
+      "text": "national heritage conservation commission (oliver tambo house) (national monument) (declaration) order, 2017",
+      "letter": "N"
+    },
+    {
+      "year": 2010,
+      "number": 6,
+      "text": "national monuments (entry and user fees) regulation, 2010",
+      "letter": "N"
+    },
+    {
+      "year": 2009,
+      "number": 49,
+      "text": "national heritage conservation commission (national monument) (mulobezi open air railway museum) (declaration) order, 2009",
+      "letter": "N"
+    },
+    {
+      "year": 2009,
+      "number": 50,
+      "text": "conservation commission (national monument) (libala limestone) (declaration) order, 2009",
+      "letter": "N"
+    },
+    {
+      "year": 1997,
+      "number": 49,
+      "text": "national parks and wildlife (night game drives) regulations, 1997",
+      "letter": "N"
+    }
+  ],
+  "reused_from": "_work/batch_0217_discovery.json"
+}

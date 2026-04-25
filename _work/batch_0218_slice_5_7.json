@@ -1,0 +1,46 @@
+{
+  "batch": "0218",
+  "phase": "ingest",
+  "slice": [
+    5,
+    7
+  ],
+  "started_at": "2026-04-25T07:35:41Z",
+  "completed_at": "2026-04-25T07:36:03Z",
+  "fetch_start": 309,
+  "fetch_end": 313,
+  "results": [
+    {
+      "year": 2010,
+      "number": 6,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national monuments (entry and user fees) regulation, 2010",
+      "alphabet": "N",
+      "record_id": "si-zm-2010-006-national-monuments-entry-and-user-fees-regulation-2010",
+      "sections": 6,
+      "title": "National Monuments (Entry and User Fees) Regulation, 2010",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2010/6/eng@2010-01-29/source.pdf",
+      "pdf_hash": "39bdf85a7109eeac2743358571536d6d584062f9456234925363fc58a158a263",
+      "pdf_bytes": 799306,
+      "raw_pdf": "/sessions/wizardly-pensive-sagan/mnt/corpus/raw/zambialii/si/2010/si-zm-2010-006-national-monuments-entry-and-user-fees-regulation-2010.pdf",
+      "record_path": "/sessions/wizardly-pensive-sagan/mnt/corpus/records/sis/2010/si-zm-2010-006-national-monuments-entry-and-user-fees-regulation-2010.json"
+    },
+    {
+      "year": 2009,
+      "number": 49,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "national heritage conservation commission (national monument) (mulobezi open air railway museum) (declaration) order, 2009",
+      "alphabet": "N",
+      "record_id": "si-zm-2009-049-national-heritage-conservation-commission-national-monument-mulobezi-open-air-ra",
+      "sections": 1,
+      "title": "National Heritage Conservation Commission (National Monument) (Mulobezi Open Air Railway Museum) (Declaration) Order, 2009",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2009/49/eng@2009-08-14/source.pdf",
+      "pdf_hash": "de7538a915c923ff5f091e90dc2e310b4e8cfb628f8d2483de90ccd9c41bd5bf",
+      "pdf_bytes": 276376,
+      "raw_pdf": "/sessions/wizardly-pensive-sagan/mnt/corpus/raw/zambialii/si/2009/si-zm-2009-049-national-heritage-conservation-commission-national-monument-mulobezi-open-air-ra.pdf",
+      "record_path": "/sessions/wizardly-pensive-sagan/mnt/corpus/records/sis/2009/si-zm-2009-049-national-heritage-conservation-commission-national-monument-mulobezi-open-air-ra.json"
+    }
+  ]
+}

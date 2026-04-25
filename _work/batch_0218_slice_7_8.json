@@ -1,0 +1,30 @@
+{
+  "batch": "0218",
+  "phase": "ingest",
+  "slice": [
+    7,
+    8
+  ],
+  "started_at": "2026-04-25T07:36:06Z",
+  "completed_at": "2026-04-25T07:36:14Z",
+  "fetch_start": 313,
+  "fetch_end": 315,
+  "results": [
+    {
+      "year": 2009,
+      "number": 50,
+      "sub_phase": "sis_mining",
+      "status": "ok",
+      "discovery_text": "conservation commission (national monument) (libala limestone) (declaration) order, 2009",
+      "alphabet": "N",
+      "record_id": "si-zm-2009-050-conservation-commission-national-monument-libala-limestone-declaration-order-200",
+      "sections": 2,
+      "title": "Conservation Commission (National Monument) (Libala Limestone) (Declaration) Order, 2009",
+      "pdf_url": "https://zambialii.org/akn/zm/act/si/2009/50/eng@2009-08-14/source.pdf",
+      "pdf_hash": "8f47180fefcf6a95c2d007a9586473973093c4ee52f67fa3e21bf623f721d41c",
+      "pdf_bytes": 200747,
+      "raw_pdf": "/sessions/wizardly-pensive-sagan/mnt/corpus/raw/zambialii/si/2009/si-zm-2009-050-conservation-commission-national-monument-libala-limestone-declaration-order-200.pdf",
+      "record_path": "/sessions/wizardly-pensive-sagan/mnt/corpus/records/sis/2009/si-zm-2009-050-conservation-commission-national-monument-libala-limestone-declaration-order-200.json"
+    }
+  ]
+}
