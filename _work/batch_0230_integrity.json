@@ -1,0 +1,11 @@
+{
+  "batch": "0230",
+  "check1a_batch_unique_ids": "8/8",
+  "check1b_corpus_disk_presence": "8/8",
+  "check2_amended_by": "0 refs",
+  "check3_repealed_by": "0 refs",
+  "check4_source_hash": "verified 8/8 sha256",
+  "check5_required_fields": "10x8 all present",
+  "check6_cited_authorities": "0 refs",
+  "result": "PASS"
+}

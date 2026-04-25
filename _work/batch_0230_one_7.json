@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2020/108",
+    "year": "2020",
+    "num": "108",
+    "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No.3) Regulations, 2020",
+    "sub_phase": "sis_planning",
+    "parent_act": "Urban and Regional Planning Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2020-108-urban-and-regional-planning-designated-local-planning-authorities-no-3-regulations-2020",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2020,
+    "number": 108,
+    "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No.3) Regulations, 2020",
+    "parent_act": "Urban and Regional Planning Act",
+    "sub_phase": "sis_planning",
+    "effective_date": "2020-12-24",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2020/108",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/108/eng@2020-12-24/source.pdf",
+    "source_hash": "7ab47d1b5f58af3f29f8f4af83767c187841d32f546c0c6b8c941ebbf8389951",
+    "html_hash": "e2cb8aeb484bb5b56fc64e135e617f192e8a1345b3abbcbb4c230c3380d70615",
+    "fetched_at": "2026-04-25T16:38:56Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1121,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2020/si-zm-2020-108-urban-and-regional-planning-designated-local-planning-authorities-no-3-regulations-2020.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/108",
+      "bytes": 40560,
+      "path": "raw/zambialii/si/2020/si-zm-2020-108-urban-and-regional-planning-designated-local-planning-authorities-no-3-regulations-2020.html",
+      "sha": "e2cb8aeb484bb5b56fc64e135e617f192e8a1345b3abbcbb4c230c3380d70615"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/108/eng@2020-12-24/source.pdf",
+      "bytes": 22692,
+      "path": "raw/zambialii/si/2020/si-zm-2020-108-urban-and-regional-planning-designated-local-planning-authorities-no-3-regulations-2020.pdf",
+      "sha": "7ab47d1b5f58af3f29f8f4af83767c187841d32f546c0c6b8c941ebbf8389951"
+    }
+  ]
+}

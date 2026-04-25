@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2019/45",
+    "year": "2019",
+    "num": "45",
+    "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No. 3) Regulations, 2019",
+    "sub_phase": "sis_planning",
+    "parent_act": "Urban and Regional Planning Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2019-045-urban-and-regional-planning-designated-local-planning-authorities-no-3-regulations-2019",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2019,
+    "number": 45,
+    "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No. 3) Regulations, 2019",
+    "parent_act": "Urban and Regional Planning Act",
+    "sub_phase": "sis_planning",
+    "effective_date": "2019-08-09",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2019/45",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2019/45/eng@2019-08-09/source.pdf",
+    "source_hash": "b254e767d3e751dcc15577d7fc452f0e809f5e5c162a4e5b27e613a93483e206",
+    "html_hash": "76250e26f3ec4761883a5f2d46add176f9eb32767c03da41607032156e2768ba",
+    "fetched_at": "2026-04-25T16:37:37Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1024,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2019/si-zm-2019-045-urban-and-regional-planning-designated-local-planning-authorities-no-3-regulations-2019.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/45",
+      "bytes": 39432,
+      "path": "raw/zambialii/si/2019/si-zm-2019-045-urban-and-regional-planning-designated-local-planning-authorities-no-3-regulations-2019.html",
+      "sha": "76250e26f3ec4761883a5f2d46add176f9eb32767c03da41607032156e2768ba",
+      "reused": true
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/45/eng@2019-08-09/source.pdf",
+      "bytes": 14314,
+      "path": "raw/zambialii/si/2019/si-zm-2019-045-urban-and-regional-planning-designated-local-planning-authorities-no-3-regulations-2019.pdf",
+      "sha": "b254e767d3e751dcc15577d7fc452f0e809f5e5c162a4e5b27e613a93483e206"
+    }
+  ]
+}

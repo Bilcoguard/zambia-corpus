@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2018/44",
+    "year": "2018",
+    "num": "44",
+    "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No. 2) Regulations, 2018",
+    "sub_phase": "sis_planning",
+    "parent_act": "Urban and Regional Planning Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2018-044-urban-and-regional-planning-designated-local-planning-authorities-no-2-regulations-2018",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2018,
+    "number": 44,
+    "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No. 2) Regulations, 2018",
+    "parent_act": "Urban and Regional Planning Act",
+    "sub_phase": "sis_planning",
+    "effective_date": "2018-06-01",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2018/44",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2018/44/eng@2018-06-01/source.pdf",
+    "source_hash": "6229659e5fb26114a3d14c9c43b91dddac048e91eca4ee2d2f436e5b2cc3a058",
+    "html_hash": "d1a72893c80532c48e203c26c3bcc3988b8b7a4b4541a63ac20ff2618d7cef16",
+    "fetched_at": "2026-04-25T16:36:49Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 964,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2018/si-zm-2018-044-urban-and-regional-planning-designated-local-planning-authorities-no-2-regulations-2018.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/44",
+      "bytes": 39430,
+      "path": "raw/zambialii/si/2018/si-zm-2018-044-urban-and-regional-planning-designated-local-planning-authorities-no-2-regulations-2018.html",
+      "sha": "d1a72893c80532c48e203c26c3bcc3988b8b7a4b4541a63ac20ff2618d7cef16"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/44/eng@2018-06-01/source.pdf",
+      "bytes": 13955,
+      "path": "raw/zambialii/si/2018/si-zm-2018-044-urban-and-regional-planning-designated-local-planning-authorities-no-2-regulations-2018.pdf",
+      "sha": "6229659e5fb26114a3d14c9c43b91dddac048e91eca4ee2d2f436e5b2cc3a058"
+    }
+  ]
+}

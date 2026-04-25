@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2017/64",
+    "year": "2017",
+    "num": "64",
+    "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No. 2) Regulations, 2017",
+    "sub_phase": "sis_planning",
+    "parent_act": "Urban and Regional Planning Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2017-064-urban-and-regional-planning-designated-local-planning-authorities-no-2-regulations-2017",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2017,
+    "number": 64,
+    "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No. 2) Regulations, 2017",
+    "parent_act": "Urban and Regional Planning Act",
+    "sub_phase": "sis_planning",
+    "effective_date": "2017-08-25",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2017/64",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2017/64/eng@2017-08-25/source.pdf",
+    "source_hash": "fc2cc205258e9e7c8673ee8dea0ec13b4238395e3f780ce19a82848bb7e93d9a",
+    "html_hash": "b3bebe2474c142c4029b562a5ddb74c3e0b8aabd520e4791b23555135324ebf2",
+    "fetched_at": "2026-04-25T16:36:31Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1145,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2017/si-zm-2017-064-urban-and-regional-planning-designated-local-planning-authorities-no-2-regulations-2017.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2017/64",
+      "bytes": 39443,
+      "path": "raw/zambialii/si/2017/si-zm-2017-064-urban-and-regional-planning-designated-local-planning-authorities-no-2-regulations-2017.html",
+      "sha": "b3bebe2474c142c4029b562a5ddb74c3e0b8aabd520e4791b23555135324ebf2"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2017/64/eng@2017-08-25/source.pdf",
+      "bytes": 144813,
+      "path": "raw/zambialii/si/2017/si-zm-2017-064-urban-and-regional-planning-designated-local-planning-authorities-no-2-regulations-2017.pdf",
+      "sha": "fc2cc205258e9e7c8673ee8dea0ec13b4238395e3f780ce19a82848bb7e93d9a"
+    }
+  ]
+}
