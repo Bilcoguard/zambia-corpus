@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2019/24",
+    "year": "2019",
+    "num": "24",
+    "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 2) Order, 2019",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2019-03-15"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2019-024-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2019",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2019,
+    "number": 24,
+    "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 2) Order, 2019",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2019-03-15",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2019/24",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2019/24/eng@2019-03-15/source.pdf",
+    "source_hash": "efdf92497cbe1fb7ab6fb9a53e2a5b7eacb93344cbb1955e2ba743a08d2478ac",
+    "html_hash": "5959ef895c29b6785ef65ec84a2028356ab3b7944cac2881ba243388b1957f88",
+    "fetched_at": "2026-04-25T21:37:37Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1881,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2019/si-zm-2019-024-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2019.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/24",
+      "bytes": 39503,
+      "path": "raw/zambialii/si/2019/si-zm-2019-024-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2019.html",
+      "sha": "5959ef895c29b6785ef65ec84a2028356ab3b7944cac2881ba243388b1957f88"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/24/eng@2019-03-15/source.pdf",
+      "bytes": 244697,
+      "path": "raw/zambialii/si/2019/si-zm-2019-024-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2019.pdf",
+      "sha": "efdf92497cbe1fb7ab6fb9a53e2a5b7eacb93344cbb1955e2ba743a08d2478ac"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2019/76",
+    "year": "2019",
+    "num": "76",
+    "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 5) Order, 2019",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2019-11-15"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2019-076-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-5-order-2019",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2019,
+    "number": 76,
+    "title": "Electoral Process (Local Government By-Elections) (Election Date and Time of Poll) (No. 5) Order, 2019",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2019-11-15",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2019/76",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2019/76/eng@2019-11-15/source.pdf",
+    "source_hash": "533de937614a0f75e4b7733954ac44afcdecccd69f0008024c99c94c741bf619",
+    "html_hash": "4a50995f8bda6c60645f8959837de9e42f21853bde3724fd2c18b7685ef0bc71",
+    "fetched_at": "2026-04-25T21:38:45Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1906,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2019/si-zm-2019-076-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-5-order-2019.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/76",
+      "bytes": 39504,
+      "path": "raw/zambialii/si/2019/si-zm-2019-076-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-5-order-2019.html",
+      "sha": "4a50995f8bda6c60645f8959837de9e42f21853bde3724fd2c18b7685ef0bc71"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/76/eng@2019-11-15/source.pdf",
+      "bytes": 16026,
+      "path": "raw/zambialii/si/2019/si-zm-2019-076-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-5-order-2019.pdf",
+      "sha": "533de937614a0f75e4b7733954ac44afcdecccd69f0008024c99c94c741bf619"
+    }
+  ]
+}

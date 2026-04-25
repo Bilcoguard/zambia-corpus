@@ -1,0 +1,23 @@
+{
+  "batch": "0239",
+  "records_ok": 8,
+  "records_fail": 1,
+  "check1a_unique": true,
+  "check1b_on_disk": true,
+  "check2_amended_by": true,
+  "check3_repealed_by": true,
+  "check4_sha256_match": true,
+  "check5_required_fields": true,
+  "check6_cited_authorities": true,
+  "all_pass": true,
+  "ok_record_ids": [
+    "si-zm-2018-094-electoral-process-local-governments-by-elections-election-date-and-time-of-poll-no-7-order-2018",
+    "si-zm-2019-016-national-assembly-by-election-bahati-constituency-no-062-election-date-and-time-of-poll-order-2019",
+    "si-zm-2019-023-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2019",
+    "si-zm-2019-024-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2019",
+    "si-zm-2019-033-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2019",
+    "si-zm-2019-038-national-assembly-by-election-katuba-constituency-no-01-election-date-and-time-of-poll-order-2019",
+    "si-zm-2019-061-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-4-order-2019",
+    "si-zm-2019-076-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-5-order-2019"
+  ]
+}

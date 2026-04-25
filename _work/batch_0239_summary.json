@@ -1,0 +1,36 @@
+{
+  "batch": "0239",
+  "phase": 4,
+  "cohort": "sis_elections E-residual drain cohort 5",
+  "attempted": 9,
+  "ok": 8,
+  "fail": 1,
+  "fail_details": [
+    {
+      "pick": {
+        "yr_num": "2018/93",
+        "year": "2018",
+        "num": "93",
+        "title": "National Assembly By-Election (Sesheke Constituency No. 153) (Election Date and Time of Poll) Order, 2018",
+        "sub_phase": "sis_elections",
+        "parent_act": "Electoral Process Act",
+        "eng_date": "2018-12-21"
+      },
+      "error": "pdf_parse_empty"
+    }
+  ],
+  "ok_record_ids": [
+    "si-zm-2018-094-electoral-process-local-governments-by-elections-election-date-and-time-of-poll-no-7-order-2018",
+    "si-zm-2019-016-national-assembly-by-election-bahati-constituency-no-062-election-date-and-time-of-poll-order-2019",
+    "si-zm-2019-023-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2019",
+    "si-zm-2019-024-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2019",
+    "si-zm-2019-033-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2019",
+    "si-zm-2019-038-national-assembly-by-election-katuba-constituency-no-01-election-date-and-time-of-poll-order-2019",
+    "si-zm-2019-061-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-4-order-2019",
+    "si-zm-2019-076-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-5-order-2019"
+  ],
+  "new_fetches": 17,
+  "robots_reverify": 1,
+  "cumulative_si_records_after": 498,
+  "priority_order_pos": "sis_elections drain (priority_order item 4 family)"
+}

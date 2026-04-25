@@ -1,0 +1,29 @@
+{
+  "pick": {
+    "yr_num": "2018/93",
+    "year": "2018",
+    "num": "93",
+    "title": "National Assembly By-Election (Sesheke Constituency No. 153) (Election Date and Time of Poll) Order, 2018",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2018-12-21"
+  },
+  "status": "fail",
+  "error": "pdf_parse_empty",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/93",
+      "bytes": 39208,
+      "path": "raw/zambialii/si/2018/si-zm-2018-093-national-assembly-by-election-sesheke-constituency-no-153-election-date-and-time-of-poll-order-2018.html",
+      "sha": "a49e20506c297c7f1addcf8eb454533a3ef01f37c3d880c60187e0512a0cc3a7"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/93/eng@2018-12-21/source.pdf",
+      "bytes": 544291,
+      "path": "raw/zambialii/si/2018/si-zm-2018-093-national-assembly-by-election-sesheke-constituency-no-153-election-date-and-time-of-poll-order-2018.pdf",
+      "sha": "30574fe0438cc209170e3a7737ca6af28edd170eb002cfcac774e0a70cea7e67"
+    }
+  ],
+  "html_sha": "a49e20506c297c7f1addcf8eb454533a3ef01f37c3d880c60187e0512a0cc3a7",
+  "pdf_sha": "30574fe0438cc209170e3a7737ca6af28edd170eb002cfcac774e0a70cea7e67"
+}

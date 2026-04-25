@@ -1,0 +1,50 @@
+{
+  "pick": {
+    "yr_num": "2019/16",
+    "year": "2019",
+    "num": "16",
+    "title": "National Assembly By-Election (Bahati Constituency No. 062) (Election Date and Time of Poll) Order, 2019",
+    "sub_phase": "sis_elections",
+    "parent_act": "Electoral Process Act",
+    "eng_date": "2019-03-01"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2019-016-national-assembly-by-election-bahati-constituency-no-062-election-date-and-time-of-poll-order-2019",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2019,
+    "number": 16,
+    "title": "National Assembly By-Election (Bahati Constituency No. 062) (Election Date and Time of Poll) Order, 2019",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_elections",
+    "effective_date": "2019-03-01",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2019/16",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2019/16/eng@2019-03-01/source.pdf",
+    "source_hash": "fe37e3b6247094d0085782fc5fb8b7d562fbeac1c68624a29d5bbc175fedc0f3",
+    "html_hash": "f06bdf8354532387f4d30394efc85c27b6c1e41fb3cd56c274ea54429e08d992",
+    "fetched_at": "2026-04-25T21:37:04Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 2324,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2019/si-zm-2019-016-national-assembly-by-election-bahati-constituency-no-062-election-date-and-time-of-poll-order-2019.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/16",
+      "bytes": 40616,
+      "path": "raw/zambialii/si/2019/si-zm-2019-016-national-assembly-by-election-bahati-constituency-no-062-election-date-and-time-of-poll-order-2019.html",
+      "sha": "f06bdf8354532387f4d30394efc85c27b6c1e41fb3cd56c274ea54429e08d992",
+      "reused": true
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/16/eng@2019-03-01/source.pdf",
+      "bytes": 25220,
+      "path": "raw/zambialii/si/2019/si-zm-2019-016-national-assembly-by-election-bahati-constituency-no-062-election-date-and-time-of-poll-order-2019.pdf",
+      "sha": "fe37e3b6247094d0085782fc5fb8b7d562fbeac1c68624a29d5bbc175fedc0f3"
+    }
+  ]
+}
