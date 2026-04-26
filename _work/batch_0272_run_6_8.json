@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "2000",
+    "num": "16",
+    "title": "Excess Expenditure Appropriation (1997) Act, 2000",
+    "alpha": "E",
+    "status": "no_sections",
+    "id": null,
+    "sections": 0,
+    "source_hash": null,
+    "source_url": null
+  },
+  {
+    "idx": 7,
+    "yr": "2003",
+    "num": "17",
+    "title": "Excess Expenditure Appropriation (1998) Act, 2003",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-2003-017-excess-expenditure-appropriation-1998-act-2003",
+    "sections": 3,
+    "source_hash": "sha256:a94dff12a84ea21eb468acf8c67a11e3c32dcdab62a757fb8e2c0804ccc1a0d7",
+    "source_url": "https://zambialii.org/akn/zm/act/2003/17/eng@2003-12-12"
+  }
+]

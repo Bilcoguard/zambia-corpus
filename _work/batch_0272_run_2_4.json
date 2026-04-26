@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 2,
+    "yr": "1994",
+    "num": "45",
+    "title": "Presidential Emoluments (Amendment) Act, 1994",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1994-045-presidential-emoluments-amendment-act-1994",
+    "sections": 3,
+    "source_hash": "sha256:87a4c175d7be4450a69050b1b15ee35ebc0cd2f88fbd4931284ac77aa3c064e3",
+    "source_url": "https://zambialii.org/akn/zm/act/1994/45/eng@1994-12-31"
+  },
+  {
+    "idx": 3,
+    "yr": "1995",
+    "num": "32",
+    "title": "Excess Expenditure Appropriation (1992) Act, 1993",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-1995-032-excess-expenditure-appropriation-1992-act-1993",
+    "sections": 1,
+    "source_hash": "sha256:b5af6dc68bf62c07da078f60c77c501fc1a2773e5ede0c4692526d6c121104c2",
+    "source_url": "https://zambialii.org/akn/zm/act/1995/32/eng@1995-12-29"
+  }
+]

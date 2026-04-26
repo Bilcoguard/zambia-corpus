@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 0,
+    "yr": "2004",
+    "num": "4",
+    "title": "Excess Expenditure Appropriation (1999) Act, 2004",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-2004-004-excess-expenditure-appropriation-1999-act-2004",
+    "sections": 2,
+    "source_hash": "sha256:b91a58df095759e072e8c49080910a6abbb6560a5ba319328cf9b8d7e3f63ba9",
+    "source_url": "https://zambialii.org/akn/zm/act/2004/4/eng@2004-04-20"
+  },
+  {
+    "idx": 1,
+    "yr": "2005",
+    "num": "17",
+    "title": "National Health Services (Repeal) Act, 2005",
+    "alpha": "N",
+    "status": "ok",
+    "id": "act-zm-2005-017-national-health-services-repeal-act-2005",
+    "sections": 17,
+    "source_hash": "sha256:a0ccd88a98a80681b29594c686c3f7235bfbff2a889248490c1861444dde24e1",
+    "source_url": "https://zambialii.org/akn/zm/act/2005/17/eng@2005-10-07"
+  }
+]

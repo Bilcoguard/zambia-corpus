@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 0,
+    "yr": "1993",
+    "num": "24",
+    "title": "Prescribed Minerals and Materials Commission (Dissolution) Act, 1993",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1993-024-prescribed-minerals-and-materials-commission-dissolution-act-1993",
+    "sections": 12,
+    "source_hash": "sha256:6dc8907257e53f63cd4d90ca7ca1a35b2edf03c70e77c254e5ca32cff8ea9ed1",
+    "source_url": "https://zambialii.org/akn/zm/act/1993/24/eng@1993-04-30"
+  },
+  {
+    "idx": 1,
+    "yr": "1994",
+    "num": "30",
+    "title": "Excess Expenditure Appropriation (1991) Act, 1994",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-1994-030-excess-expenditure-appropriation-1991-act-1994",
+    "sections": 3,
+    "source_hash": "sha256:ed346708151cbb7bcaafc7e0b1f46977110b8e22fc52e83676cd2690d094576f",
+    "source_url": "https://zambialii.org/akn/zm/act/1994/30/eng@1994-10-21"
+  }
+]

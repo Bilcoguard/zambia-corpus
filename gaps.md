@@ -1076,3 +1076,14 @@ to fill the MAX_BATCH_SIZE=8 cap.
 on-disk slug-aware check) before adding a candidate to picks. Year/num
 existence check alone is insufficient because slug variants can mask
 duplicates.
+
+## Batch 0272 (2026-04-26) — pdf_parse_empty / OCR backlog
+
+Two original picks for batch 0272 (acts_in_force chronological residual sweep) returned
+`no_sections` because the source PDF was a scanned image (pdfplumber extracted 0 chars
+across all pages). HTML and PDF preserved on disk for OCR retry.
+
+- **2000/8** Excess Expenditure Appropriation (1995) Act, 2000 — `https://zambialii.org/akn/zm/act/2000/8` — PDF appears scanned-image only (4 pages, 0 chars extractable). Raw HTML+PDF preserved at `raw/zambialii/act/2000/2000-008.{html,pdf}`. Substituted in-batch with 2004/4 (Excess Expenditure Appropriation (1999) Act, 2004) which parsed cleanly.
+- **2000/16** Excess Expenditure Appropriation (1997) Act, 2000 — `https://zambialii.org/akn/zm/act/2000/16` — PDF appears scanned-image only. Raw HTML+PDF preserved at `raw/zambialii/act/2000/2000-016.{html,pdf}`. Substituted in-batch with 2005/17 (National Health Services (Repeal) Act, 2005) which parsed cleanly.
+
+OCR backlog now 17 items (act/2000/8, act/2000/16 added; previously 15: si 2017/068, 2018/011, 2018/075, 2018/093, 2020/007, 2022/004, 2022/007, 2022/008, 2022/012, 2022/013, 2026/004 + earlier SIs).
