@@ -1,0 +1,9 @@
+CHECK1a: 8/8 batch unique - PASS
+CHECK1b: 8/8 corpus presence - PASS
+CHECK2: 0 amended_by refs - PASS
+CHECK3: 0 repealed_by refs - PASS
+CHECK6: 0 cited_authorities refs - PASS
+CHECK4: 8/8 source_hash sha256 verified - PASS
+CHECK5: 128/128 required fields - PASS
+
+ALL CHECKS PASSED

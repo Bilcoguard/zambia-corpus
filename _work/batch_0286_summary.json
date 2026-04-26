@@ -1,0 +1,104 @@
+{
+  "batch": "0286",
+  "attempted": 8,
+  "ok": 8,
+  "deferred": [],
+  "results": [
+    {
+      "idx": 0,
+      "yr": "2017",
+      "num": "22",
+      "title": "Appropriation Act, 2017",
+      "alpha": "A",
+      "status": "ok",
+      "id": "act-zm-2017-022-appropriation-act",
+      "sections": 2,
+      "source_hash": "sha256:24edfa7e60627ffa3f08c3d20aa4873cb7f2a51a9f72d803a4a24bbfc6322715",
+      "source_url": "https://zambialii.org/akn/zm/act/2017/22/eng@2017-12-22"
+    },
+    {
+      "idx": 1,
+      "yr": "2018",
+      "num": "1",
+      "title": "Public Finance Management Act, 2018",
+      "alpha": "P",
+      "status": "ok",
+      "id": "act-zm-2018-001-public-finance-management-act",
+      "sections": 152,
+      "source_hash": "sha256:3ba97b05c3f89e276070e9fefb8e41e8caa511ae5313fb2ac8da488fbca7f799",
+      "source_url": "https://zambialii.org/akn/zm/act/2018/1/eng@2018-04-11"
+    },
+    {
+      "idx": 2,
+      "yr": "2018",
+      "num": "8",
+      "title": "Credit Reporting Act, 2018",
+      "alpha": "C",
+      "status": "ok",
+      "id": "act-zm-2018-008-credit-reporting-act",
+      "sections": 99,
+      "source_hash": "sha256:2bbe2a937e58f298a8597b18b090906ba461142a25d3c8d293c4b486b33db9e8",
+      "source_url": "https://zambialii.org/akn/zm/act/2018/8/eng@2018-07-31"
+    },
+    {
+      "idx": 3,
+      "yr": "2018",
+      "num": "10",
+      "title": "Supplementary Appropriation (2018) Act, 2018",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-2018-010-supplementary-appropriation-2018-act",
+      "sections": 3,
+      "source_hash": "sha256:df7e4257ac6d7c0c88825bba60506c48d339746757c45f66841c741ef8550e3c",
+      "source_url": "https://zambialii.org/akn/zm/act/2018/10/eng@2018-07-31"
+    },
+    {
+      "idx": 4,
+      "yr": "2018",
+      "num": "22",
+      "title": "Appropriation Act, 2018",
+      "alpha": "A",
+      "status": "ok",
+      "id": "act-zm-2018-022-appropriation-act",
+      "sections": 2,
+      "source_hash": "sha256:b057e3a2151d67b2a2ee833d0ca0bd6e688c3f38f71b467e40175ae50570a3cf",
+      "source_url": "https://zambialii.org/akn/zm/act/2018/22/eng@2018-12-26"
+    },
+    {
+      "idx": 5,
+      "yr": "2018",
+      "num": "23",
+      "title": "Supplementary Appropriation (2018) (No. 2) Act, 2018",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-2018-023-supplementary-appropriation-2018-no-2-act",
+      "sections": 2,
+      "source_hash": "sha256:0bba6aaf6bd9d689a22c3930928ff88895280dd13d51edd9d2edf067018ad4dc",
+      "source_url": "https://zambialii.org/akn/zm/act/2018/23/eng@2018-12-26"
+    },
+    {
+      "idx": 6,
+      "yr": "2019",
+      "num": "8",
+      "title": "Supplementary Appropriation (2019) Act, 2019",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-2019-008-supplementary-appropriation-2019-act",
+      "sections": 2,
+      "source_hash": "sha256:a6c9e65275bce1bea43359e007f025e26e60ab89789707422a16ed52926c5a66",
+      "source_url": "https://zambialii.org/akn/zm/act/2019/8/eng@2019-08-12"
+    },
+    {
+      "idx": 7,
+      "yr": "2019",
+      "num": "17",
+      "title": "Supplementary Appropriation (2019) (No. 2) Act, 2019",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-2019-017-supplementary-appropriation-2019-no-2-act",
+      "sections": 2,
+      "source_hash": "sha256:5809e70751e76374c87d732d3d9d7a6d0b3452b481c5352e9f5ef87a9d928a46",
+      "source_url": "https://zambialii.org/akn/zm/act/2019/17/eng@2019-12-27"
+    }
+  ]
+}

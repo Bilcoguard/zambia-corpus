@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "2019",
+    "num": "8",
+    "title": "Supplementary Appropriation (2019) Act, 2019",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2019-008-supplementary-appropriation-2019-act",
+    "sections": 2,
+    "source_hash": "sha256:a6c9e65275bce1bea43359e007f025e26e60ab89789707422a16ed52926c5a66",
+    "source_url": "https://zambialii.org/akn/zm/act/2019/8/eng@2019-08-12"
+  },
+  {
+    "idx": 7,
+    "yr": "2019",
+    "num": "17",
+    "title": "Supplementary Appropriation (2019) (No. 2) Act, 2019",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2019-017-supplementary-appropriation-2019-no-2-act",
+    "sections": 2,
+    "source_hash": "sha256:5809e70751e76374c87d732d3d9d7a6d0b3452b481c5352e9f5ef87a9d928a46",
+    "source_url": "https://zambialii.org/akn/zm/act/2019/17/eng@2019-12-27"
+  }
+]

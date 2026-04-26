@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 0,
+    "yr": "2017",
+    "num": "22",
+    "title": "Appropriation Act, 2017",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-2017-022-appropriation-act",
+    "sections": 2,
+    "source_hash": "sha256:24edfa7e60627ffa3f08c3d20aa4873cb7f2a51a9f72d803a4a24bbfc6322715",
+    "source_url": "https://zambialii.org/akn/zm/act/2017/22/eng@2017-12-22"
+  },
+  {
+    "idx": 1,
+    "yr": "2018",
+    "num": "1",
+    "title": "Public Finance Management Act, 2018",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-2018-001-public-finance-management-act",
+    "sections": 152,
+    "source_hash": "sha256:3ba97b05c3f89e276070e9fefb8e41e8caa511ae5313fb2ac8da488fbca7f799",
+    "source_url": "https://zambialii.org/akn/zm/act/2018/1/eng@2018-04-11"
+  }
+]
