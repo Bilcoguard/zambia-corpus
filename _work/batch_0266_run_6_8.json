@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "1987",
+    "num": "20",
+    "title": "University of Zambia Act, 1987",
+    "alpha": "U",
+    "status": "ok",
+    "id": "act-zm-1987-020-university-of-zambia-act-1987",
+    "sections": 43,
+    "source_hash": "sha256:27d4fbbcb5e17837ab99b608377ca2bf07fbd6b3d1efee69ce0e02bf7cdf7e6c",
+    "source_url": "https://zambialii.org/akn/zm/act/1987/20/eng@1987-09-25"
+  },
+  {
+    "idx": 7,
+    "yr": "1992",
+    "num": "26",
+    "title": "University Act, 1992",
+    "alpha": "U",
+    "status": "ok",
+    "id": "act-zm-1992-026-university-act-1992",
+    "sections": 53,
+    "source_hash": "sha256:f2731ed85d4c35faba4d3771b525bad76978a67c97f176139fa28f8b19fff333",
+    "source_url": "https://zambialii.org/akn/zm/act/1992/26/eng@1996-12-31"
+  }
+]

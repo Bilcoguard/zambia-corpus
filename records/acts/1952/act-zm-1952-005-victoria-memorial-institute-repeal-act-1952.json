@@ -1,0 +1,34 @@
+{
+  "id": "act-zm-1952-005-victoria-memorial-institute-repeal-act-1952",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Victoria Memorial Institute (Repeal) Act, 1952",
+  "citation": "Act No. 5 of 1952",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Victoria Memorial Institute (Repeal) Act."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "All property of whatever nature of the Victoria Memorial Institute which is at the commencement of this Act vested in the trustees or the Committee of Management of the said Institute shall continue to be vested in the said trustees or Committee of Management respectively until such time as orders and directions have been made or given in respect of that property by the High Court under the provisions of section three."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "A Judge of the High Court shall give such orders and directions as to the disposal of the property mentioned in section two as may seem to him to be just and equitable."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1952/5/eng@1996-12-31",
+  "source_hash": "sha256:8b95a1dd1d0cb54ce18959817860711756645d0a0a7becc81b8b25cc1d23cfd1",
+  "fetched_at": "2026-04-26T12:36:44Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}

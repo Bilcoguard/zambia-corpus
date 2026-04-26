@@ -1,0 +1,12 @@
+{
+  "batch": "0266",
+  "records_checked": 8,
+  "CHECK1a_unique_in_batch": true,
+  "CHECK1b_all_on_disk": true,
+  "CHECK2_amended_by_refs": 0,
+  "CHECK3_repealed_by_refs": 0,
+  "CHECK4_sha256_verified": 8,
+  "CHECK5_required_field_misses": 0,
+  "CHECK6_cited_authorities_refs": 0,
+  "errors": []
+}

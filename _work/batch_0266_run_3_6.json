@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 3,
+    "yr": "1972",
+    "num": "26",
+    "title": "Termination of Pregnancy Act, 1972",
+    "alpha": "T",
+    "status": "ok",
+    "id": "act-zm-1972-026-termination-of-pregnancy-act-1972",
+    "sections": 6,
+    "source_hash": "sha256:e98fec1f0250afee5e68fa5ce24d1b88ff6655523f75f70394e33aafd4e640e5",
+    "source_url": "https://zambialii.org/akn/zm/act/1972/26/eng@1996-12-31"
+  },
+  {
+    "idx": 4,
+    "yr": "1972",
+    "num": "37",
+    "title": "Technical Education and Vocational Training Act, 1972",
+    "alpha": "T",
+    "status": "ok",
+    "id": "act-zm-1972-037-technical-education-and-vocational-training-act-1972",
+    "sections": 31,
+    "source_hash": "sha256:67dc2e1db485f4d325edf6c26f1a0bf05119474655986ea6aa6b9be8d28215e7",
+    "source_url": "https://zambialii.org/akn/zm/act/1972/37/eng@1996-12-31"
+  },
+  {
+    "idx": 5,
+    "yr": "1973",
+    "num": "49",
+    "title": "Trades Charges Act, 1973",
+    "alpha": "T",
+    "status": "ok",
+    "id": "act-zm-1973-049-trades-charges-act-1973",
+    "sections": 8,
+    "source_hash": "sha256:3d96b981bdad2d2d3a7a561d63311581654f33a4cad6f584ad84be7f95f3e377",
+    "source_url": "https://zambialii.org/akn/zm/act/1973/49/eng@1996-12-31"
+  }
+]

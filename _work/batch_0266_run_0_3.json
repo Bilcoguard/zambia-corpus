@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 0,
+    "yr": "1952",
+    "num": "5",
+    "title": "Victoria Memorial Institute (Repeal) Act, 1952",
+    "alpha": "V",
+    "status": "ok",
+    "id": "act-zm-1952-005-victoria-memorial-institute-repeal-act-1952",
+    "sections": 3,
+    "source_hash": "sha256:8b95a1dd1d0cb54ce18959817860711756645d0a0a7becc81b8b25cc1d23cfd1",
+    "source_url": "https://zambialii.org/akn/zm/act/1952/5/eng@1996-12-31"
+  },
+  {
+    "idx": 1,
+    "yr": "1950",
+    "num": "45",
+    "title": "Zambia Police Reserve Act, 1950",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1950-045-zambia-police-reserve-act-1950",
+    "sections": 14,
+    "source_hash": "sha256:606a4d0268effd683fc95bf7dce9f6651067c245e79705a7c500fe5c9e2b4cde",
+    "source_url": "https://zambialii.org/akn/zm/act/1950/45/eng@1996-12-31"
+  },
+  {
+    "idx": 2,
+    "yr": "1967",
+    "num": "28",
+    "title": "War Graves and Memorials Act, 1967",
+    "alpha": "W",
+    "status": "ok",
+    "id": "act-zm-1967-028-war-graves-and-memorials-act-1967",
+    "sections": 8,
+    "source_hash": "sha256:c0fc9c7cd8ac3067ea2703d7e34e0d71cfa17f6b335022b2c70ee34d8b6fa982",
+    "source_url": "https://zambialii.org/akn/zm/act/1967/28/eng@1996-12-31"
+  }
+]
