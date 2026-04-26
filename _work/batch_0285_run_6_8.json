@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "2017",
+    "num": "8",
+    "title": "Supplementary Appropriation (2017) Act, 2017",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2017-008-supplementary-appropriation-2017-act",
+    "sections": 2,
+    "source_hash": "sha256:84475d7e3e00ba1ecb0e4b2d1a70944508ddb7188a69a6078c333eedf3fd8668",
+    "source_url": "https://zambialii.org/akn/zm/act/2017/8/eng@2017-07-14"
+  },
+  {
+    "idx": 7,
+    "yr": "2017",
+    "num": "21",
+    "title": "Supplementary Appropriation (2017) Act, 2017",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2017-021-supplementary-appropriation-2017-act",
+    "sections": 3,
+    "source_hash": "sha256:89e4806cf0e3931ffbb5fe544e62734c649284db8376a8ecb4d427a55b5dcccd",
+    "source_url": "https://zambialii.org/akn/zm/act/2017/21/eng@2017-12-22"
+  }
+]

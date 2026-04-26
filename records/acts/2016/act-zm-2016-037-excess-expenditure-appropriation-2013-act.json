@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-2016-037-excess-expenditure-appropriation-2013-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Excess Expenditure Appropriation (2013) Act, 2016",
+  "citation": "Act No. 37 of 2016",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Excess Expenditure Short title",
+      "text": "Appropriation (2013) Act, 2016."
+    },
+    {
+      "number": "2",
+      "heading": "The expenditure on the services of the Republic during the Appropriation",
+      "text": "financial year which ended on 31st December, 2013, of the monies\nindicated in respect of the services in the third column of the\nSchedule, being expenditure in excess of the monies appropriated\nfor the services by the Appropriation Act, 2013, and the Act No. 19 of\nSupplementary Appropriation (2013) Act, 2015, is approved. 2013\nAct No. 9 of\n2015\nSingle copies of this Act may be obtained from the Government Printer\nP.O. Box 30136, 10101 Lusaka. Price K4.00\n782 No. 37 of 2016] Excess Expenditure Appropriation (2013)\nSCHEDULE\n(Section 2)\nNo. of Appropriation\nHead Institution Amount\n37 Ministry of Finance K\n/01 Human Resource and Administration 10,755\n/07 Financial Management and Accounting Department 536,112\n51 Ministry of Transport, Works, Supply and Communications\n/01 Headquarters 55\n68 Ministry of Tourism and Arts\n/01 Human Resource and Administration 25,070\n80 Ministry of Education, Science, Vocational Training\nand Early Education\n/29 Basic Schools - Eastern Province 1,643\nTOTAL 573,635"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/2016/37/eng@2016-11-22",
+  "source_hash": "sha256:e640d9e5c7746610ca3ccc1be14bfefa1a20c804510245f789498ab8caff6597",
+  "fetched_at": "2026-04-26T22:35:24Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}

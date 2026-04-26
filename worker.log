@@ -2949,3 +2949,16 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 2026-04-26T22:09:08Z [batch-0284] integrity: ALL CHECKS PASSED (1a 8/8 batch unique; 1b 8/8 corpus presence; 2/3 0 amended_by/repealed_by refs; 4 8/8 source_hash sha256 verified vs raw HTML; 5 128/128 fields present; 6 0 cited_authorities refs).
 2026-04-26T22:09:08Z [batch-0284] cumulative records: acts 1117 (+7 over 1110 prior batch 0282; +0 from 0283 yield is folded already since worker.log baseline mid-tick — cross-check: 1110 + 7(b0283) + 8(b0284) = 1125). NB: counts above are best-effort tally; authoritative count via ls records/acts/**/*.json is run on close-out.
 2026-04-26T22:09:08Z [batch-0284] B2 sync deferred to host: rclone not available in sandbox.
+2026-04-26T22:10:02Z [batch-0284] commit 4d632a3 pushed: 5c6b433..4d632a3 main -> main.
+2026-04-26T22:10:02Z [batch-0284] tick complete. Pool 46->38 (next: 2016/36 onwards). Today fetches 564->580/2000 (~29.0%). Yield 8/8 (100%). Phase 4 remains incomplete per approvals.yaml (worker does not flip the flag). Wall-clock ~10 min.
+
+[2026-04-26T22:33:56Z] === Tick start (batch 0285) ===
+[2026-04-26T22:33:56Z] lock cleanup: BRIEF preamble find -delete ran clean (no stale ref-locks). git pull --ff-only: Already up to date. Single warning: virtiofs maintenance.lock unlink-permitted (non-fatal, pre-existing per b0192-0284).
+[2026-04-26T22:33:56Z] approvals.yaml: read OK; lowest approved+incomplete = phase_4_bulk (acts_in_force first in priority_order).
+[2026-04-26T22:33:56Z] budget check: today fetches 580/2000 (~29.0%) at tick start. Tokens within budget. OK to proceed.
+[2026-04-26T22:33:56Z] robots.txt re-verified at tick start (sha256 fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0 — unchanged from b0193..0284). Crawl-delay 5s; using 6s margin.
+[2026-04-26T22:33:56Z] picks: 8 chronologically-earliest from 38-item inherited pool (_work/batch_0284_remaining.json): 2016/36 + 2016/37 + 2016/38 + 2016/39 + 2016/48 + 2016/49 + 2017/8 + 2017/21. All 8 fiscal-series (alpha A/E/S). Pre-flight slug-glob check: all 8 confirmed not present.
+[2026-04-26T22:38:11Z] [batch-0285] ingest: 8/8 OK; 0 deferred. All 8 picks fell through to PDF fallback (HTML akn-section count <2 each); PDFs all under 4.5MB cap.
+[2026-04-26T22:38:11Z] [batch-0285] integrity: ALL CHECKS PASSED (1a 8/8 batch unique; 1b 8/8 corpus presence; 2/3 0 amended_by/repealed_by refs; 4 8/8 source_hash sha256 verified vs raw HTML; 5 128/128 fields present; 6 0 cited_authorities refs).
+[2026-04-26T22:38:11Z] [batch-0285] cumulative records: acts 1133 (+8 over 1125 prior baseline).
+[2026-04-26T22:38:11Z] [batch-0285] B2 sync deferred to host: rclone not available in sandbox.

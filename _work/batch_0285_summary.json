@@ -1,0 +1,104 @@
+{
+  "batch": "0285",
+  "attempted": 8,
+  "ok": 8,
+  "deferred": [],
+  "results": [
+    {
+      "idx": 0,
+      "yr": "2016",
+      "num": "36",
+      "title": "Supplementary Appropriation (2016) Act, 2016",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-2016-036-supplementary-appropriation-2016-act",
+      "sections": 2,
+      "source_hash": "sha256:1fc0569ec0256df2e2e19eb08bf6e5a82443eaec80d8968211f6e00141f04574",
+      "source_url": "https://zambialii.org/akn/zm/act/2016/36/eng@2016-06-10"
+    },
+    {
+      "idx": 1,
+      "yr": "2016",
+      "num": "37",
+      "title": "Excess Expenditure Appropriation (2013) Act, 2016",
+      "alpha": "E",
+      "status": "ok",
+      "id": "act-zm-2016-037-excess-expenditure-appropriation-2013-act",
+      "sections": 2,
+      "source_hash": "sha256:e640d9e5c7746610ca3ccc1be14bfefa1a20c804510245f789498ab8caff6597",
+      "source_url": "https://zambialii.org/akn/zm/act/2016/37/eng@2016-11-22"
+    },
+    {
+      "idx": 2,
+      "yr": "2016",
+      "num": "38",
+      "title": "Supplementary Appropriation (2014) Act, 2016",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-2016-038-supplementary-appropriation-2014-act",
+      "sections": 3,
+      "source_hash": "sha256:b17729a99c8beb1068e5fad5acc6feb3a51ec089d9320577044e394f12478206",
+      "source_url": "https://zambialii.org/akn/zm/act/2016/38/eng@2016-11-22"
+    },
+    {
+      "idx": 3,
+      "yr": "2016",
+      "num": "39",
+      "title": "Supplementary Appropriation (2016) Act, 2016",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-2016-039-supplementary-appropriation-2016-act",
+      "sections": 2,
+      "source_hash": "sha256:ceb232e810c3ee5b5e05094521046196409b4968653493c63195a8039ec7fb76",
+      "source_url": "https://zambialii.org/akn/zm/act/2016/39/eng@2016-11-28"
+    },
+    {
+      "idx": 4,
+      "yr": "2016",
+      "num": "48",
+      "title": "Excess Expenditure Appropriation Act, 2016",
+      "alpha": "E",
+      "status": "ok",
+      "id": "act-zm-2016-048-excess-expenditure-appropriation-act",
+      "sections": 2,
+      "source_hash": "sha256:3b150c3c108072c4633c6755da93faed9a05d9ddacedd196211e667e32be5b8e",
+      "source_url": "https://zambialii.org/akn/zm/act/2016/48/eng@2016-12-27"
+    },
+    {
+      "idx": 5,
+      "yr": "2016",
+      "num": "49",
+      "title": "Appropriation Act, 2016",
+      "alpha": "A",
+      "status": "ok",
+      "id": "act-zm-2016-049-appropriation-act",
+      "sections": 3,
+      "source_hash": "sha256:908fd53c140fba509d0730aee7875e61b34cdd1d6c2af6b47f351b1eadae9955",
+      "source_url": "https://zambialii.org/akn/zm/act/2016/49/eng@2016-12-27"
+    },
+    {
+      "idx": 6,
+      "yr": "2017",
+      "num": "8",
+      "title": "Supplementary Appropriation (2017) Act, 2017",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-2017-008-supplementary-appropriation-2017-act",
+      "sections": 2,
+      "source_hash": "sha256:84475d7e3e00ba1ecb0e4b2d1a70944508ddb7188a69a6078c333eedf3fd8668",
+      "source_url": "https://zambialii.org/akn/zm/act/2017/8/eng@2017-07-14"
+    },
+    {
+      "idx": 7,
+      "yr": "2017",
+      "num": "21",
+      "title": "Supplementary Appropriation (2017) Act, 2017",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-2017-021-supplementary-appropriation-2017-act",
+      "sections": 3,
+      "source_hash": "sha256:89e4806cf0e3931ffbb5fe544e62734c649284db8376a8ecb4d427a55b5dcccd",
+      "source_url": "https://zambialii.org/akn/zm/act/2017/21/eng@2017-12-22"
+    }
+  ]
+}

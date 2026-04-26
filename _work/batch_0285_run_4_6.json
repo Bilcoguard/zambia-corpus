@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 4,
+    "yr": "2016",
+    "num": "48",
+    "title": "Excess Expenditure Appropriation Act, 2016",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-2016-048-excess-expenditure-appropriation-act",
+    "sections": 2,
+    "source_hash": "sha256:3b150c3c108072c4633c6755da93faed9a05d9ddacedd196211e667e32be5b8e",
+    "source_url": "https://zambialii.org/akn/zm/act/2016/48/eng@2016-12-27"
+  },
+  {
+    "idx": 5,
+    "yr": "2016",
+    "num": "49",
+    "title": "Appropriation Act, 2016",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-2016-049-appropriation-act",
+    "sections": 3,
+    "source_hash": "sha256:908fd53c140fba509d0730aee7875e61b34cdd1d6c2af6b47f351b1eadae9955",
+    "source_url": "https://zambialii.org/akn/zm/act/2016/49/eng@2016-12-27"
+  }
+]
