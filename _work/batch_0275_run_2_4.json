@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 2,
+    "yr": "1998",
+    "num": "3",
+    "title": "Appropriation Act, 1998",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-1998-003-appropriation-act-1998",
+    "sections": 2,
+    "source_hash": "sha256:fe4e77bfcfed3ea6c64813879ce5531e0f0f0d165126492411bc51b49393a346",
+    "source_url": "https://zambialii.org/akn/zm/act/1998/3/eng@1998-04-01"
+  },
+  {
+    "idx": 3,
+    "yr": "1999",
+    "num": "3",
+    "title": "Appropriation Act, 1999",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-1999-003-appropriation-act-1999",
+    "sections": 2,
+    "source_hash": "sha256:9b23d0f6c473e0d8caa80d18dbecc66178479ae0320e685a9091cb7352222c4d",
+    "source_url": "https://zambialii.org/akn/zm/act/1999/3/eng@1999-03-26"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 0,
+    "yr": "1996",
+    "num": "13",
+    "title": "Appropriation Act, 1996",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-1996-013-appropriation-act-1996",
+    "sections": 1,
+    "source_hash": "sha256:db1828ccbd27ccc62ae0ac7a2c4ca28a583071f73aab0799edc9a8a4be642508",
+    "source_url": "https://zambialii.org/akn/zm/act/1996/13/eng@1996-04-01"
+  },
+  {
+    "idx": 1,
+    "yr": "1997",
+    "num": "13",
+    "title": "Appropriation Act, 1997",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-1997-013-appropriation-act-1997",
+    "sections": 2,
+    "source_hash": "sha256:562bc46420b8a33dc98ca6d002794a41b69f1e0b851e9d7f9556d17536b76474",
+    "source_url": "https://zambialii.org/akn/zm/act/1997/13/eng@1997-04-18"
+  }
+]
