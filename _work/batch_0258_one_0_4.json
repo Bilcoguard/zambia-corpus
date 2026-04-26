@@ -1,0 +1,46 @@
+[
+  {
+    "yr": "1961",
+    "num": "10",
+    "title": "Judgments Act",
+    "alpha": "J",
+    "status": "ok",
+    "id": "act-zm-1961-010-judgments-act",
+    "sections": 3,
+    "source_hash": "sha256:c001ed6a1a6874d3a04297638d6b22cc0a02dde0aafa4772ffc8fb9583e909be",
+    "source_url": "https://zambialii.org/akn/zm/act/1961/10/eng@1997-11-14"
+  },
+  {
+    "yr": "1973",
+    "num": "23",
+    "title": "Law Association of Zambia Act, 1973",
+    "alpha": "L",
+    "status": "ok",
+    "id": "act-zm-1973-023-law-association-of-zambia-act-1973",
+    "sections": 25,
+    "source_hash": "sha256:e9e0676a309c336b2a6b1faeae05f9792f300163cbfcbdd49937ad8065485a6f",
+    "source_url": "https://zambialii.org/akn/zm/act/1973/23/eng@2006-05-19"
+  },
+  {
+    "yr": "1963",
+    "num": "27",
+    "title": "Law Reform (Frustrated Contracts) Act, 1963",
+    "alpha": "L",
+    "status": "ok",
+    "id": "act-zm-1963-027-law-reform-frustrated-contracts-act-1963",
+    "sections": 4,
+    "source_hash": "sha256:105db14731780fdf1e7288048f27ae72a76b63baa63c173d002934c8fa0511fe",
+    "source_url": "https://zambialii.org/akn/zm/act/1963/27/eng@1996-12-31"
+  },
+  {
+    "yr": "1963",
+    "num": "13",
+    "title": "Law Reform (Limitation of Actions, etc.) Act, 1963",
+    "alpha": "L",
+    "status": "ok",
+    "id": "act-zm-1963-013-law-reform-limitation-of-actions-etc-act-1963",
+    "sections": 6,
+    "source_hash": "sha256:e9069f8d505dd9c0a03e49aa8256348d4c00a3c0ecff3ef8cb59b3a1a9d7679d",
+    "source_url": "https://zambialii.org/akn/zm/act/1963/13/eng@1996-12-31"
+  }
+]

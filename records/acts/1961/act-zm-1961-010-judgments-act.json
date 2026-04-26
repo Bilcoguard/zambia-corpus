@@ -1,0 +1,34 @@
+{
+  "id": "act-zm-1961-010-judgments-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Judgments Act",
+  "citation": "Act No. 10 of 1961",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Judgments Act."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Every judgment, order, or decree of the High Court or of a subordinate court whereby any sum of money, or any costs, charges or expenses, is or are to be payable to any person shall carry interest   as may be determined by the court which rate shall not exceed the current lending rate as determined by the Bank of Zambia  from the time of entering up such judgment, order, or decree until the same shall be satisfied, and such interest may be levied under a writ of execution on such judgment, order, or decree. [section 2 substituted by section 2 of Act 16 of 1997 ]"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) In this section \"judgment debt \" means any sum of money, and any costs, charges and expenses referred to in section two.\nIn this section \"judgment debt \" means any sum of money, and any costs, charges and expenses referred to in section two.\n(2) Any act or thing done or permitted to be done in good faith, at any time before the commencement of this section is hereby validated if— (a) the interest on any judgment debt was held or allowed to be payable at a rate greater than six per centurrn per annum ; and (b) the payment of any such interest was duly enforced.\nAny act or thing done or permitted to be done in good faith, at any time before the commencement of this section is hereby validated if—\n(a) the interest on any judgment debt was held or allowed to be payable at a rate greater than six per centurrn per annum ; and\nthe interest on any judgment debt was held or allowed to be payable at a rate greater than six per centurrn per annum ; and\n(b) the payment of any such interest was duly enforced.\nthe payment of any such interest was duly enforced.\n(3) Notwithstanding subsection (2) this section shall not apply to cases where the interest on judgment debt was settled at a rate of six per centum per annum contrary to the judgment order imposing a rate higher than six per centum per annum .\nNotwithstanding subsection (2) this section shall not apply to cases where the interest on judgment debt was settled at a rate of six per centum per annum contrary to the judgment order imposing a rate higher than six per centum per annum ."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1961/10/eng@1997-11-14",
+  "source_hash": "sha256:c001ed6a1a6874d3a04297638d6b22cc0a02dde0aafa4772ffc8fb9583e909be",
+  "fetched_at": "2026-04-26T08:36:23Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}
