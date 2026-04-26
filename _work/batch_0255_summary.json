@@ -1,0 +1,52 @@
+[
+  {
+    "yr": "1938",
+    "num": "12",
+    "title": "Debtors Act, 1938",
+    "status": "ok",
+    "id": "act-zm-1938-012-debtors-act-1938",
+    "sections": 12,
+    "source_hash": "sha256:78e7a0297f30db7be84d3ba9f97ef3dba2a572ca015346cc3faa8964a32db022",
+    "source_url": "https://zambialii.org/akn/zm/act/1938/12/eng@1996-12-31"
+  },
+  {
+    "yr": "1953",
+    "num": "46",
+    "title": "Defamation Act, 1953",
+    "status": "ok",
+    "id": "act-zm-1953-046-defamation-act-1953",
+    "sections": 19,
+    "source_hash": "sha256:21bc5e1f6a8c12fa6872fa70e81eaafb82f24669f6ca35cafb8c9f17539c96f9",
+    "source_url": "https://zambialii.org/akn/zm/act/1953/46/eng@1996-12-31"
+  },
+  {
+    "yr": "1960",
+    "num": "24",
+    "title": "Development (United Kingdom Government) Loan Act, 1960",
+    "status": "ok",
+    "id": "act-zm-1960-024-development-united-kingdom-government-loan-act-1960",
+    "sections": 6,
+    "source_hash": "sha256:ed8c97c7da2a73b3d9eee03abeb38ff3b712fda478a93e4c7cd067d8f9d26bc4",
+    "source_url": "https://zambialii.org/akn/zm/act/1960/24/eng@1996-12-31"
+  },
+  {
+    "yr": "1960",
+    "num": "48",
+    "title": "District Messengers Act, 1960",
+    "status": "ok",
+    "id": "act-zm-1960-048-district-messengers-act-1960",
+    "sections": 10,
+    "source_hash": "sha256:39184e919c8aed42092f4ebc8cf3d106e6d4a1cf7e2279342abdf0fd798828c5",
+    "source_url": "https://zambialii.org/akn/zm/act/1960/48/eng@1996-12-31"
+  },
+  {
+    "yr": "1965",
+    "num": "30",
+    "title": "Diplomatic Immunities and Privileges Act, 1965",
+    "status": "ok",
+    "id": "act-zm-1965-030-diplomatic-immunities-and-privileges-act-1965",
+    "sections": 19,
+    "source_hash": "sha256:ee47b0d3d7a2bff62f9625fcf0b6c1f8ddf3f23cdd0d6fd421e8fe5f4e8dbc6e",
+    "source_url": "https://zambialii.org/akn/zm/act/1965/30/eng@1996-12-31"
+  }
+]

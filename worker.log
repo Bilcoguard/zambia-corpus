@@ -2557,3 +2557,15 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 [2026-04-26T06:41:03Z] Phase 4 batch 0254 complete. +5 acts (1926/20 Clubs Registration; 1963/64 Central African Power Corporation; 1964/7 Central African Civil Air Transport; 1968/18 Calculation of Taxes; 1981/3 Central Committee). Integrity ALL PASS (CHECK1a..CHECK6). Today fetches: ~164/2000 (8.2% of daily budget).
 [2026-04-26T06:41:03Z] B2 sync deferred to host (rclone not available in sandbox).
 [2026-04-26T06:41:03Z] alphabet=C residual: 2 deferred (Citizens Economic Empowerment 2006/9; Constitution of Zambia 1996/17 — both flagged for dedicated batches due to size).
+
+[2026-04-26T07:08:29Z] tick begin: scheduled 30-min tick post batch-0254; continue acts_in_force pivot to alphabet=D
+[2026-04-26T07:08:29Z] git pull --ff-only succeeded: HEAD aligned with origin/main at 699ccca (already up to date — recovery from prior tick still in effect via sandbox virtiofs unlink-failure workaround)
+[2026-04-26T07:08:29Z] approvals.yaml read: phase_4_bulk approved=true complete=false (active phase). priority_order item 1 = acts_in_force (executed this tick).
+[2026-04-26T07:08:29Z] budget check: pre-tick 164/2000 fetches today (8.2%); tokens within budget. PASS.
+[2026-04-26T07:08:29Z] robots.txt re-verified: sha256 prefix fce67b697ee4ef44 unchanged from batches 0193-0254; crawl-delay 5s honoured at 6s margin
+[2026-04-26T07:08:29Z] discovery: alphabet=D nature=act probed (1 listing fetch; single-page listing with 16 unique /akn/zm/act/{yr}/{num} hrefs). 910 existing act IDs cross-referenced. 5 primary acts selected from alphabet=D after dropping amendment/appropriation/supplementary/validation/transitional/repeal tokens.
+[2026-04-26T07:08:29Z] ingest: 5 ok / 5 attempted (yield 100%). Records: 1938/12 Debtors Act + 1953/46 Defamation Act + 1960/24 Development (UK Govt) Loan Act + 1960/48 District Messengers Act + 1965/30 Diplomatic Immunities and Privileges Act. ALL FIVE are FIRST acts_in_force entries from alphabet=D.
+[2026-04-26T07:08:29Z] integrity check: PASS (CHECK1a 5/5 batch unique; CHECK1b 5/5 corpus presence on disk; CHECK2/3 amended_by/repealed_by 0 refs; CHECK4 source_hash sha256 verified 5/5 against raw/zambialii/act/(1938,1953,1960,1965)/; CHECK5 required 10 fields x 5 all present; CHECK6 cited_authorities 0 refs)
+[2026-04-26T07:08:29Z] cumulative records: acts 915 (+5 over 910); SIs 593 (unchanged from batch 0252); judgments 25 (paused per robots Disallow on /akn/zm/judgment/)
+[2026-04-26T07:08:29Z] B2 sync deferred to host (rclone unavailable in sandbox)
+[2026-04-26T07:08:29Z] WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 0255. Peter to run: rclone sync raw/ b2raw:kwlp-corpus-raw/ --fast-list --transfers 4

@@ -1,0 +1,134 @@
+{
+  "items": [
+    {
+      "yr": "2010",
+      "num": "22",
+      "href": "/akn/zm/act/2010/22"
+    },
+    {
+      "yr": "1967",
+      "num": "42",
+      "href": "/akn/zm/act/1967/42"
+    },
+    {
+      "yr": "2021",
+      "num": "3",
+      "href": "/akn/zm/act/2021/3"
+    },
+    {
+      "yr": "1938",
+      "num": "12",
+      "href": "/akn/zm/act/1938/12"
+    },
+    {
+      "yr": "1926",
+      "num": "6",
+      "href": "/akn/zm/act/1926/6"
+    },
+    {
+      "yr": "1966",
+      "num": "40",
+      "href": "/akn/zm/act/1966/40"
+    },
+    {
+      "yr": "1968",
+      "num": "58",
+      "href": "/akn/zm/act/1968/58"
+    },
+    {
+      "yr": "1953",
+      "num": "46",
+      "href": "/akn/zm/act/1953/46"
+    },
+    {
+      "yr": "1964",
+      "num": "45",
+      "href": "/akn/zm/act/1964/45"
+    },
+    {
+      "yr": "1972",
+      "num": "35",
+      "href": "/akn/zm/act/1972/35"
+    },
+    {
+      "yr": "1960",
+      "num": "24",
+      "href": "/akn/zm/act/1960/24"
+    },
+    {
+      "yr": "1965",
+      "num": "30",
+      "href": "/akn/zm/act/1965/30"
+    },
+    {
+      "yr": "2010",
+      "num": "13",
+      "href": "/akn/zm/act/2010/13"
+    },
+    {
+      "yr": "1967",
+      "num": "13",
+      "href": "/akn/zm/act/1967/13"
+    },
+    {
+      "yr": "1982",
+      "num": "16",
+      "href": "/akn/zm/act/1982/16"
+    },
+    {
+      "yr": "1960",
+      "num": "48",
+      "href": "/akn/zm/act/1960/48"
+    }
+  ],
+  "titles": {
+    "2010/22": "Dairy Industry Development Act, 2010",
+    "1967/42": "Dangerous Drugs Act, 1967",
+    "2021/3": "Data Protection Act, 2021",
+    "1938/12": "Debtors Act, 1938",
+    "1926/6": "Deceased Brother&#x27;s Widow&#x27;s Marriage Act, 1926",
+    "1966/40": "Decimal Currency System (Arrangements) Act, 1966",
+    "1968/58": "Deeds of Arrangement Act, 1968",
+    "1953/46": "Defamation Act, 1953",
+    "1964/45": "Defence Act, 1964",
+    "1972/35": "Development Bank of Zambia Act, 1972",
+    "1960/24": "Development (United Kingdom Government) Loan Act, 1960",
+    "1965/30": "Diplomatic Immunities and Privileges Act, 1965",
+    "2010/13": "Disaster Management Act, 2010",
+    "1967/13": "Disposal of Uncollected Goods Act, 1967",
+    "1982/16": "District Councils Estimates Act, 1982",
+    "1960/48": "District Messengers Act, 1960"
+  },
+  "candidates": [
+    {
+      "yr": "1938",
+      "num": "12",
+      "title": "Debtors Act, 1938",
+      "slug_base": "debtors-act-1938"
+    },
+    {
+      "yr": "1953",
+      "num": "46",
+      "title": "Defamation Act, 1953",
+      "slug_base": "defamation-act-1953"
+    },
+    {
+      "yr": "1960",
+      "num": "24",
+      "title": "Development (United Kingdom Government) Loan Act, 1960",
+      "slug_base": "development-united-kingdom-government-loan-act-1960"
+    },
+    {
+      "yr": "1965",
+      "num": "30",
+      "title": "Diplomatic Immunities and Privileges Act, 1965",
+      "slug_base": "diplomatic-immunities-and-privileges-act-1965"
+    },
+    {
+      "yr": "1960",
+      "num": "48",
+      "title": "District Messengers Act, 1960",
+      "slug_base": "district-messengers-act-1960"
+    }
+  ]
+}

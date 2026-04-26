@@ -1,0 +1,94 @@
+{
+  "CHECK1a": {
+    "unique": 5,
+    "duplicates": [],
+    "pass": true
+  },
+  "CHECK1b": {
+    "records": [
+      {
+        "id": "act-zm-1938-012-debtors-act-1938",
+        "files": [
+          "records/acts/1938/act-zm-1938-012-debtors-act-1938.json"
+        ]
+      },
+      {
+        "id": "act-zm-1953-046-defamation-act-1953",
+        "files": [
+          "records/acts/1953/act-zm-1953-046-defamation-act-1953.json"
+        ]
+      },
+      {
+        "id": "act-zm-1960-024-development-united-kingdom-government-loan-act-1960",
+        "files": [
+          "records/acts/1960/act-zm-1960-024-development-united-kingdom-government-loan-act-1960.json"
+        ]
+      },
+      {
+        "id": "act-zm-1960-048-district-messengers-act-1960",
+        "files": [
+          "records/acts/1960/act-zm-1960-048-district-messengers-act-1960.json"
+        ]
+      },
+      {
+        "id": "act-zm-1965-030-diplomatic-immunities-and-privileges-act-1965",
+        "files": [
+          "records/acts/1965/act-zm-1965-030-diplomatic-immunities-and-privileges-act-1965.json"
+        ]
+      }
+    ],
+    "pass": true
+  },
+  "CHECK2": {
+    "unresolved": [],
+    "pass": true
+  },
+  "CHECK3": {
+    "unresolved": [],
+    "pass": true
+  },
+  "CHECK4": {
+    "records": [
+      {
+        "id": "act-zm-1938-012-debtors-act-1938",
+        "expected": "78e7a0297f30db7b",
+        "actual": "78e7a0297f30db7b",
+        "pass": true
+      },
+      {
+        "id": "act-zm-1953-046-defamation-act-1953",
+        "expected": "21bc5e1f6a8c12fa",
+        "actual": "21bc5e1f6a8c12fa",
+        "pass": true
+      },
+      {
+        "id": "act-zm-1960-024-development-united-kingdom-government-loan-act-1960",
+        "expected": "ed8c97c7da2a73b3",
+        "actual": "ed8c97c7da2a73b3",
+        "pass": true
+      },
+      {
+        "id": "act-zm-1960-048-district-messengers-act-1960",
+        "expected": "39184e919c8aed42",
+        "actual": "39184e919c8aed42",
+        "pass": true
+      },
+      {
+        "id": "act-zm-1965-030-diplomatic-immunities-and-privileges-act-1965",
+        "expected": "ee47b0d3d7a2bff6",
+        "actual": "ee47b0d3d7a2bff6",
+        "pass": true
+      }
+    ],
+    "pass": true
+  },
+  "CHECK5": {
+    "missing": [],
+    "pass": true
+  },
+  "CHECK6": {
+    "unresolved": [],
+    "pass": true
+  },
+  "ALL_PASS": true
+}
