@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 5,
+    "yr": "1984",
+    "num": "13",
+    "title": "Appropriation Act, 1984",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-1984-013-appropriation-act-1984",
+    "sections": 2,
+    "source_hash": "sha256:d83a6dab48b761c99616f841b0ace042fb91679f33347455d55940acd6f8fcf7",
+    "source_url": "https://zambialii.org/akn/zm/act/1984/13/eng@1984-03-30"
+  },
+  {
+    "idx": 6,
+    "yr": "1985",
+    "num": "16",
+    "title": "Appropriation Act, 1985",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-1985-016-appropriation-act-1985",
+    "sections": 2,
+    "source_hash": "sha256:4b898f4e47657013239f419d911897bc462fc42e4b048d40d2bf93a16cf114c0",
+    "source_url": "https://zambialii.org/akn/zm/act/1985/16/eng@1985-04-12"
+  }
+]

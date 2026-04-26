@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 3,
+    "yr": "1982",
+    "num": "15",
+    "title": "Appropriation Act, 1982",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-1982-015-appropriation-act-1982",
+    "sections": 2,
+    "source_hash": "sha256:9531855f024c58c15efbe4f0636495480f31c15414b7a0de7d9503ee849eab90",
+    "source_url": "https://zambialii.org/akn/zm/act/1982/15/eng@1982-04-08"
+  },
+  {
+    "idx": 4,
+    "yr": "1983",
+    "num": "14",
+    "title": "Appropriation Act, 1983",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-1983-014-appropriation-act-1983",
+    "sections": 28,
+    "source_hash": "sha256:bee99b46c1427d99d82463d8616609bb3ce1b9600f03781cfcc1f3427e8e5a24",
+    "source_url": "https://zambialii.org/akn/zm/act/1983/14/eng@1983-04-15"
+  }
+]
