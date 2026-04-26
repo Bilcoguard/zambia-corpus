@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "CHECK1a": "PASS",
+    "CHECK1b": "PASS",
+    "CHECK2": "PASS",
+    "CHECK3": "PASS",
+    "CHECK4": "PASS",
+    "CHECK5": "PASS",
+    "CHECK6": "PASS"
+  },
+  "ids": [
+    "act-zm-1933-010-employment-of-young-persons-and-children-act-1933",
+    "act-zm-1963-004-english-law-extent-of-application-act-1963",
+    "act-zm-1964-031-evidence-bankers-books-act-1964",
+    "act-zm-1964-043-emergency-powers-act-1964",
+    "act-zm-1937-005-foreign-judgments-reciprocal-enforcement-act-1937",
+    "act-zm-1949-019-fencing-act-1949",
+    "act-zm-1966-002-factories-act-1966"
+  ],
+  "section_counts": {
+    "act-zm-1933-010-employment-of-young-persons-and-children-act-1933": 21,
+    "act-zm-1963-004-english-law-extent-of-application-act-1963": 2,
+    "act-zm-1964-031-evidence-bankers-books-act-1964": 9,
+    "act-zm-1964-043-emergency-powers-act-1964": 6,
+    "act-zm-1937-005-foreign-judgments-reciprocal-enforcement-act-1937": 13,
+    "act-zm-1949-019-fencing-act-1949": 25,
+    "act-zm-1966-002-factories-act-1966": 105
+  }
+}

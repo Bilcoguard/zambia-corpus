@@ -1,0 +1,86 @@
+[
+  {
+    "idx": 0,
+    "yr": "1933",
+    "num": "10",
+    "title": "Employment of Young Persons and Children Act, 1933",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-1933-010-employment-of-young-persons-and-children-act-1933",
+    "sections": 21,
+    "source_hash": "sha256:b0ab2e0750e3eb2ac5f292c92a4932c6f98de3a020b7b83331101d17d2553af1",
+    "source_url": "https://zambialii.org/akn/zm/act/1933/10/eng@1996-12-31"
+  },
+  {
+    "idx": 1,
+    "yr": "1963",
+    "num": "4",
+    "title": "English Law (Extent of Application) Act, 1963",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-1963-004-english-law-extent-of-application-act-1963",
+    "sections": 2,
+    "source_hash": "sha256:b051f1b1462b53c98342d90d8ba95853088e5b514982140ac977e5b0ff90be0e",
+    "source_url": "https://zambialii.org/akn/zm/act/1963/4/eng@1996-12-31"
+  },
+  {
+    "idx": 2,
+    "yr": "1964",
+    "num": "31",
+    "title": "Evidence (Bankers' Books) Act, 1964",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-1964-031-evidence-bankers-books-act-1964",
+    "sections": 9,
+    "source_hash": "sha256:f5070ed5e8a8130e79329dbf036572f1f1992ccdae10509fbf1d1c07eb868b60",
+    "source_url": "https://zambialii.org/akn/zm/act/1964/31/eng@1996-12-31"
+  },
+  {
+    "idx": 3,
+    "yr": "1964",
+    "num": "43",
+    "title": "Emergency Powers Act, 1964",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-1964-043-emergency-powers-act-1964",
+    "sections": 6,
+    "source_hash": "sha256:f9f7d6e38ebc306e5f2b49ba6a2c9dc952d891d3aa59b3a58388cb4f7653d9f4",
+    "source_url": "https://zambialii.org/akn/zm/act/1964/43/eng@1996-12-31"
+  },
+  {
+    "idx": 4,
+    "yr": "1937",
+    "num": "5",
+    "title": "Foreign Judgments (Reciprocal Enforcement) Act, 1937",
+    "alpha": "F",
+    "status": "ok",
+    "id": "act-zm-1937-005-foreign-judgments-reciprocal-enforcement-act-1937",
+    "sections": 13,
+    "source_hash": "sha256:ca5149fdf6d8bb9629e8fb6c9f2e2e3afa7a7155903ee84319721cac7c7d802d",
+    "source_url": "https://zambialii.org/akn/zm/act/1937/5/eng@1996-12-31"
+  },
+  {
+    "idx": 5,
+    "yr": "1949",
+    "num": "19",
+    "title": "Fencing Act, 1949",
+    "alpha": "F",
+    "status": "ok",
+    "id": "act-zm-1949-019-fencing-act-1949",
+    "sections": 25,
+    "source_hash": "sha256:91bf7eb35b3dfd791327d7e74145482d41c9f0e7b8e0a93adfd919a8b67d1d5c",
+    "source_url": "https://zambialii.org/akn/zm/act/1949/19/eng@1996-12-31"
+  },
+  {
+    "idx": 6,
+    "yr": "1966",
+    "num": "2",
+    "title": "Factories Act, 1966",
+    "alpha": "F",
+    "status": "ok",
+    "id": "act-zm-1966-002-factories-act-1966",
+    "sections": 105,
+    "source_hash": "sha256:427e44325995b8df9bd811960b13c0225ba5d2c787605466333f9230112c58a6",
+    "source_url": "https://zambialii.org/akn/zm/act/1966/2/eng@1996-12-31"
+  }
+]

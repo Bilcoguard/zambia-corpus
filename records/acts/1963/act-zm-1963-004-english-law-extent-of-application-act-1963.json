@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-1963-004-english-law-extent-of-application-act-1963",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "English Law (Extent of Application) Act, 1963",
+  "citation": "Act No. 4 of 1963",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the English Law (Extent of Application) Act."
+    },
+    {
+      "number": "(a)",
+      "heading": "",
+      "text": "Subject to the provisions of the Constitution of Zambia and to any other written law—\n(a) the common law; and\nthe common law; and\n(b) the doctrines of equity; and\nthe doctrines of equity; and\n(c) the statutes which were in force in England on the 17th August, 1911 (being the commencement of the Northern Rhodesia Order in Council, 1911); and\nthe statutes which were in force in England on the 17th August, 1911 (being the commencement of the Northern Rhodesia Order in Council, 1911); and\n(d) any statutes of later date than that mentioned in paragraph (c) in force in England, now applied to the Republic, or which hereafter shall be applied thereto by any Act or otherwise;\nany statutes of later date than that mentioned in paragraph (c) in force in England, now applied to the Republic, or which hereafter shall be applied thereto by any Act or otherwise;"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1963/4/eng@1996-12-31",
+  "source_hash": "sha256:b051f1b1462b53c98342d90d8ba95853088e5b514982140ac977e5b0ff90be0e",
+  "fetched_at": "2026-04-26T07:38:40Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}

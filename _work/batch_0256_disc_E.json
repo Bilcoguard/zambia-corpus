@@ -1,0 +1,295 @@
+{
+  "candidates": [
+    {
+      "yr": "1933",
+      "num": "10",
+      "title": "Employment of Young Persons and Children Act, 1933"
+    },
+    {
+      "yr": "1963",
+      "num": "4",
+      "title": "English Law (Extent of Application) Act, 1963"
+    },
+    {
+      "yr": "1964",
+      "num": "31",
+      "title": "Evidence (Bankers' Books) Act, 1964"
+    },
+    {
+      "yr": "1964",
+      "num": "43",
+      "title": "Emergency Powers Act, 1964"
+    }
+  ],
+  "skipped": [
+    {
+      "yr": "1927",
+      "num": "10",
+      "title": "European Officers' Pensions Act, 1927",
+      "reason": "existing"
+    },
+    {
+      "yr": "1966",
+      "num": "29",
+      "title": "Employment (Special Provisions) Act, 1966",
+      "reason": "existing"
+    },
+    {
+      "yr": "1967",
+      "num": "8",
+      "title": "Evidence Act, 1973",
+      "reason": "existing"
+    },
+    {
+      "yr": "1980",
+      "num": "4",
+      "title": "Excess Expenditure Appropriation (1977) Act, 1980",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "1981",
+      "num": "6",
+      "title": "Excess Expenditure Appropriation (1978) Act, 1981",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "1982",
+      "num": "9",
+      "title": "Excess Expenditure Appropriation (1979) Act, 1982",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "1982",
+      "num": "11",
+      "title": "Equity Levy Act, 1982",
+      "reason": "existing"
+    },
+    {
+      "yr": "1983",
+      "num": "9",
+      "title": "Excess Expenditure Appropriation (1980) Act, 1983",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "1983",
+      "num": "15",
+      "title": "Examinations Council of Zambia Act, 1983",
+      "reason": "existing"
+    },
+    {
+      "yr": "1984",
+      "num": "5",
+      "title": "Excess Expenditure Appropriation (1981) Act, 1984",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "1985",
+      "num": "8",
+      "title": "Excess Expenditure Appropriation (1982) Act, 1985",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "1986",
+      "num": "10",
+      "title": "Excess Expenditure Appropriation (1983) Act, 1986",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "1987",
+      "num": "13",
+      "title": "Excess Expenditure Appropriation (1984) Act, 1987",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "1988",
+      "num": "14",
+      "title": "Excess Expenditure Appropriation (1985) Act, 1988",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "1988",
+      "num": "30",
+      "title": "Excess Expenditure Appropriation (1986) Act, 1988",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "1989",
+      "num": "32",
+      "title": "Excess Expenditure Appropriation (1987) Act, 1989",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "1990",
+      "num": "38",
+      "title": "Excess Expenditure Appropriation (1988) Act, 1990",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "1992",
+      "num": "15",
+      "title": "Excess Expenditure Appropriation (1989) Act, 1992",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "1994",
+      "num": "30",
+      "title": "Excess Expenditure Appropriation (1991) Act, 1994",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "1995",
+      "num": "32",
+      "title": "Excess Expenditure Appropriation (1992) Act, 1993",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "1996",
+      "num": "3",
+      "title": "Entertainment Tax (Repeal) Act",
+      "reason": "existing"
+    },
+    {
+      "yr": "1996",
+      "num": "8",
+      "title": "Estate Duty (Repeal) Act, 1996",
+      "reason": "existing"
+    },
+    {
+      "yr": "1997",
+      "num": "22",
+      "title": "Excess Expenditure Appropriation (1993) Act, 1997",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "2000",
+      "num": "7",
+      "title": "Excess Expenditure Appropriation (1994) Act, 2000",
+      "reason": "existing"
+    },
+    {
+      "yr": "2000",
+      "num": "8",
+      "title": "Excess Expenditure Appropriation (1995) Act, 2000",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "2000",
+      "num": "16",
+      "title": "Excess Expenditure Appropriation (1997) Act, 2000",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "2000",
+      "num": "21",
+      "title": "Estate Agents Act, 2000",
+      "reason": "existing"
+    },
+    {
+      "yr": "2003",
+      "num": "17",
+      "title": "Excess Expenditure Appropriation (1998) Act, 2003",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "2004",
+      "num": "4",
+      "title": "Excess Expenditure Appropriation (1999) Act. 2004",
+      "reason": "filter_token"
+    },
+    {
+      "yr": "2010",
+      "num": "17",
+      "title": "Engineering Institution of Zambia Act, 2010",
+      "reason": "existing"
+    },
+    {
+      "yr": "2011",
+      "num": "12",
+      "title": "Environmental Management Act, 2011",
+      "reason": "existing"
+    },
+    {
+      "yr": "2011",
+      "num": "23",
+      "title": "Education Act, 2011",
+      "reason": "existing"
+    },
+    {
+      "yr": "2016",
+      "num": "25",
+      "title": "Electoral Commission of Zambia Act, 2016",
+      "reason": "existing"
+    },
+    {
+      "yr": "2016",
+      "num": "35",
+      "title": "Electoral Process Act, 2016",
+      "reason": "existing"
+    },
+    {
+      "yr": "2019",
+      "num": "3",
+      "title": "Employment Code Act, 2019",
+      "reason": "existing"
+    },
+    {
+      "yr": "2019",
+      "num": "11",
+      "title": "Electricity Act, 2019",
+      "reason": "existing"
+    },
+    {
+      "yr": "2019",
+      "num": "12",
+      "title": "Energy Regulation Act, 2019",
+      "reason": "existing"
+    },
+    {
+      "yr": "2021",
+      "num": "4",
+      "title": "Electronic Communications and Transactions Act, 2021",
+      "reason": "existing"
+    },
+    {
+      "yr": "2021",
+      "num": "41",
+      "title": "Electronic Government Act, 2021",
+      "reason": "existing"
+    },
+    {
+      "yr": "2022",
+      "num": "1",
+      "title": "Emoluments Commission Act, 2022",
+      "reason": "existing"
+    },
+    {
+      "yr": "2023",
+      "num": "3",
+      "title": "Examinations Council of Zambia Act, 2023",
+      "reason": "existing"
+    }
+  ],
+  "picks": [
+    {
+      "yr": "1933",
+      "num": "10",
+      "title": "Employment of Young Persons and Children Act, 1933"
+    },
+    {
+      "yr": "1963",
+      "num": "4",
+      "title": "English Law (Extent of Application) Act, 1963"
+    },
+    {
+      "yr": "1964",
+      "num": "31",
+      "title": "Evidence (Bankers' Books) Act, 1964"
+    },
+    {
+      "yr": "1964",
+      "num": "43",
+      "title": "Emergency Powers Act, 1964"
+    }
+  ],
+  "existing_count": 913
+}

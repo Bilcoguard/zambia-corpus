@@ -1,0 +1,36 @@
+{
+  "title_map": {
+    "1966/2": "Factories Act, 1966",
+    "1994/13": "Fees and Fines Act, 1994",
+    "1949/19": "Fencing Act, 1949",
+    "1969/24": "Finance (Control and Management) Act, 1969",
+    "1968/13": "Financial Institutions (Validation of Acts) Act, 1968",
+    "2010/46": "Financial Intelligence Centre Act, 2010",
+    "1969/45": "Firearms Act, 1969",
+    "2011/22": "Fisheries Act, 2011",
+    "1967/37": "Flying Doctor Service Act, 1967",
+    "2020/3": "Food and Nutrition Act, 2020",
+    "2020/6": "Food Reserve Act, 2020",
+    "2019/7": "Food Safety Act, 2019",
+    "1937/5": "Foreign Judgments (Reciprocal Enforcement) Act, 1937",
+    "2015/4": "Forests Act, 2015",
+    "2010/19": "Forfeiture of Proceeds of Crime Act, 2010"
+  },
+  "candidates": [
+    {
+      "yr": "1937",
+      "num": "5",
+      "title": "Foreign Judgments (Reciprocal Enforcement) Act, 1937"
+    },
+    {
+      "yr": "1949",
+      "num": "19",
+      "title": "Fencing Act, 1949"
+    },
+    {
+      "yr": "1966",
+      "num": "2",
+      "title": "Factories Act, 1966"
+    }
+  ]
+}
