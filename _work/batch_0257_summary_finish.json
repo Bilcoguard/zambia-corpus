@@ -1,0 +1,35 @@
+[
+  {
+    "yr": "1965",
+    "num": "53",
+    "title": "International Development Association Act, 1965",
+    "alpha": "I",
+    "status": "ok",
+    "id": "act-zm-1965-053-international-development-association-act-1965",
+    "sections": 14,
+    "source_hash": "sha256:05a9645124476c2c9910b20d521aa7f575f9247f52b9214d877967ea5ed3a4ea",
+    "source_url": "https://zambialii.org/akn/zm/act/1965/53/eng@1996-12-31"
+  },
+  {
+    "yr": "1965",
+    "num": "52",
+    "title": "International Finance Corporation Act, 1965",
+    "alpha": "I",
+    "status": "ok",
+    "id": "act-zm-1965-052-international-finance-corporation-act-1965",
+    "sections": 21,
+    "source_hash": "sha256:45789dc2b654c3d4fbff97b628ac50f03727af4e8c4f5c5220dfa62528a4c7d2",
+    "source_url": "https://zambialii.org/akn/zm/act/1965/52/eng@1996-12-31"
+  },
+  {
+    "yr": "1964",
+    "num": "60",
+    "title": "Interpretation and General Provisions Act, 1964",
+    "alpha": "I",
+    "status": "ok",
+    "id": "act-zm-1964-060-interpretation-and-general-provisions-act-1964",
+    "sections": 53,
+    "source_hash": "sha256:8e6383551c275bc9a6c42d28b08ba6207e93f9cb4d8cf252b2b411085514bf28",
+    "source_url": "https://zambialii.org/akn/zm/act/1964/60/eng@1996-12-31"
+  }
+]

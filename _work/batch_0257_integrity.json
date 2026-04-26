@@ -1,0 +1,11 @@
+{
+  "check1a_no_dup_ids": true,
+  "check1b_disk_present": true,
+  "check2_amended_refs": 0,
+  "check3_repealed_refs": 0,
+  "check4_sha256_match": true,
+  "check5_required_fields": true,
+  "check6_cited_authorities": 0,
+  "all_pass": true,
+  "n_records": 8
+}

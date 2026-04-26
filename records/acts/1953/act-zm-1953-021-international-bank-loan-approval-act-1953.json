@@ -1,0 +1,34 @@
+{
+  "id": "act-zm-1953-021-international-bank-loan-approval-act-1953",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "International Bank Loan (Approval) Act, 1953",
+  "citation": "Act No. 21 of 1953",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the International Bank Loan (Approval) Act."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "In this Act, unless the context otherwise requires— \" Loan Agreements \" means the Loan Agreement and Subsidiary Agreement set out in the Schedule."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The Loan Agreements are hereby approved and notwithstanding the provisions of any written law now in force the terms and conditions of the Loan Agreements shall be of full force and effect and binding upon the Government from the date of the execution thereof."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1953/21/eng@1996-12-31",
+  "source_hash": "sha256:b19db1bf6c60edfa8e01c029e6a29f55344d915515e8d37979b4e898f2a516fa",
+  "fetched_at": "2026-04-26T08:10:07Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}

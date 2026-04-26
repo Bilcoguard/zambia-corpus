@@ -1,0 +1,90 @@
+[
+  {
+    "yr": "1912",
+    "num": "16",
+    "title": "Gold Trade Act, 1912",
+    "alpha": "G",
+    "status": "ok",
+    "id": "act-zm-1912-016-gold-trade-act-1912",
+    "sections": 23,
+    "source_hash": "sha256:785e5d840231dffbaf4cff3b0d3c8d4089ec3243de961e373c73611dc25564e4",
+    "source_url": "https://zambialii.org/akn/zm/act/1912/16/eng@1996-12-31"
+  },
+  {
+    "yr": "1962",
+    "num": "47",
+    "title": "Human Tissue Act, 1962",
+    "alpha": "H",
+    "status": "ok",
+    "id": "act-zm-1962-047-human-tissue-act-1962",
+    "sections": 5,
+    "source_hash": "sha256:7a357a3e2363d9656bd8de06693bab964e40cd90c154c7e6d89f351fd1880922",
+    "source_url": "https://zambialii.org/akn/zm/act/1962/47/eng@1996-12-31"
+  },
+  {
+    "yr": "1967",
+    "num": "45",
+    "title": "Inquiries Act, 1967",
+    "alpha": "I",
+    "status": "ok",
+    "id": "act-zm-1967-045-inquiries-act-1967",
+    "sections": 18,
+    "source_hash": "sha256:cc5a992ef4a5943b19acf088f7ce8d5ea700adb9369d8908a5f95a16f4970cf5",
+    "source_url": "https://zambialii.org/akn/zm/act/1967/45/eng@1996-12-31"
+  },
+  {
+    "yr": "1953",
+    "num": "21",
+    "title": "International Bank Loan (Approval) Act, 1953",
+    "alpha": "I",
+    "status": "ok",
+    "id": "act-zm-1953-021-international-bank-loan-approval-act-1953",
+    "sections": 3,
+    "source_hash": "sha256:b19db1bf6c60edfa8e01c029e6a29f55344d915515e8d37979b4e898f2a516fa",
+    "source_url": "https://zambialii.org/akn/zm/act/1953/21/eng@1996-12-31"
+  },
+  {
+    "yr": "1952",
+    "num": "39",
+    "title": "International Bank Loan (Rhodesia Railways) Act, 1952",
+    "alpha": "I",
+    "status": "ok",
+    "id": "act-zm-1952-039-international-bank-loan-rhodesia-railways-act-1952",
+    "sections": 9,
+    "source_hash": "sha256:f03733547ce0d61372ab78c1d1b9edd576d2488e1280c2af8ac848ab06480f1f",
+    "source_url": "https://zambialii.org/akn/zm/act/1952/39/eng@1996-12-31"
+  },
+  {
+    "yr": "1965",
+    "num": "53",
+    "title": "International Development Association Act, 1965",
+    "alpha": "I",
+    "status": "ok",
+    "id": "act-zm-1965-053-international-development-association-act-1965",
+    "sections": 14,
+    "source_hash": "sha256:05a9645124476c2c9910b20d521aa7f575f9247f52b9214d877967ea5ed3a4ea",
+    "source_url": "https://zambialii.org/akn/zm/act/1965/53/eng@1996-12-31"
+  },
+  {
+    "yr": "1965",
+    "num": "52",
+    "title": "International Finance Corporation Act, 1965",
+    "alpha": "I",
+    "status": "ok",
+    "id": "act-zm-1965-052-international-finance-corporation-act-1965",
+    "sections": 21,
+    "source_hash": "sha256:45789dc2b654c3d4fbff97b628ac50f03727af4e8c4f5c5220dfa62528a4c7d2",
+    "source_url": "https://zambialii.org/akn/zm/act/1965/52/eng@1996-12-31"
+  },
+  {
+    "yr": "1964",
+    "num": "60",
+    "title": "Interpretation and General Provisions Act, 1964",
+    "alpha": "I",
+    "status": "ok",
+    "id": "act-zm-1964-060-interpretation-and-general-provisions-act-1964",
+    "sections": 53,
+    "source_hash": "sha256:8e6383551c275bc9a6c42d28b08ba6207e93f9cb4d8cf252b2b411085514bf28",
+    "source_url": "https://zambialii.org/akn/zm/act/1964/60/eng@1996-12-31"
+  }
+]
