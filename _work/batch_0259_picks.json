@@ -1,0 +1,76 @@
+{
+  "picks": [
+    {
+      "yr": "1962",
+      "num": "22",
+      "title": "Local Authorities Superannuation Fund Act, 1962",
+      "alpha": "L",
+      "slug": "local-authorities-superannuation-fund-act-1962"
+    },
+    {
+      "yr": "1921",
+      "num": "20",
+      "title": "Maintenance Orders (Enforcement) Act, 1921",
+      "alpha": "M",
+      "slug": "maintenance-orders-enforcement-act-1921"
+    },
+    {
+      "yr": "1929",
+      "num": "24",
+      "title": "Mufulira-Mokambo Railway Act, 1929",
+      "alpha": "M",
+      "slug": "mufulira-mokambo-railway-act-1929"
+    },
+    {
+      "yr": "1957",
+      "num": "17",
+      "title": "Merchandise Marks Act, 1957",
+      "alpha": "M",
+      "slug": "merchandise-marks-act-1957"
+    },
+    {
+      "yr": "1970",
+      "num": "29",
+      "title": "Mines Acquisition (Special Provisions) (No. 2) Act, 1970",
+      "alpha": "M",
+      "slug": "mines-acquisition-special-provisions-no-2-act-1970"
+    },
+    {
+      "yr": "1965",
+      "num": "23",
+      "title": "National Flag and Armorial Ensigns, 1965",
+      "alpha": "N",
+      "slug": "national-flag-and-armorial-ensigns-1965"
+    },
+    {
+      "yr": "1965",
+      "num": "75",
+      "title": "Non-Designated Expatriate Officers (Retiring Benefits) Act, 1965",
+      "alpha": "N",
+      "slug": "non-designated-expatriate-officers-retiring-benefits-act-1965"
+    },
+    {
+      "yr": "1966",
+      "num": "10",
+      "title": "National Museums Act, 1966",
+      "alpha": "N",
+      "slug": "national-museums-act-1966"
+    }
+  ],
+  "deferred": [
+    {
+      "yr": "1986",
+      "num": "7",
+      "title": "National Youth Development Council Act, 1986",
+      "alpha": "N",
+      "slug": "national-youth-development-council-act-1986"
+    },
+    {
+      "yr": "1995",
+      "num": "35",
+      "title": "National Road Safety Council Act, 1995",
+      "alpha": "N",
+      "slug": "national-road-safety-council-act-1995"
+    }
+  ]
+}

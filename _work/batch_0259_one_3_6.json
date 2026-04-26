@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 3,
+    "yr": "1957",
+    "num": "17",
+    "title": "Merchandise Marks Act, 1957",
+    "alpha": "M",
+    "status": "ok",
+    "id": "act-zm-1957-017-merchandise-marks-act-1957",
+    "sections": 24,
+    "source_hash": "sha256:058a77086e803904e967ccbbd5266958c2e61df6a6616f91bbe4dfe89699a9ad",
+    "source_url": "https://zambialii.org/akn/zm/act/1957/17/eng@1996-12-31"
+  },
+  {
+    "idx": 4,
+    "yr": "1970",
+    "num": "29",
+    "title": "Mines Acquisition (Special Provisions) (No. 2) Act, 1970",
+    "alpha": "M",
+    "status": "ok",
+    "id": "act-zm-1970-029-mines-acquisition-special-provisions-no-2-act-1970",
+    "sections": 5,
+    "source_hash": "sha256:200ec3d00031c11e95c53abf7912b40c97c2a4dd7523e35a65aa07f4659bcc77",
+    "source_url": "https://zambialii.org/akn/zm/act/1970/29/eng@1996-12-31"
+  },
+  {
+    "idx": 5,
+    "yr": "1965",
+    "num": "23",
+    "title": "National Flag and Armorial Ensigns Act, 1965",
+    "alpha": "N",
+    "status": "ok",
+    "id": "act-zm-1965-023-national-flag-and-armorial-ensigns-act-1965",
+    "sections": 6,
+    "source_hash": "sha256:cf79bb06c53978822c94f9bc0ff72d79af10e16d5c7bd7720c50969a9243ea23",
+    "source_url": "https://zambialii.org/akn/zm/act/1965/23/eng@1996-12-31"
+  }
+]

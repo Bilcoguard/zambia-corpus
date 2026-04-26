@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "1965",
+    "num": "75",
+    "title": "Non-Designated Expatriate Officers (Retiring Benefits) Act, 1965",
+    "alpha": "N",
+    "status": "ok",
+    "id": "act-zm-1965-075-non-designated-expatriate-officers-retiring-benefits-act-1965",
+    "sections": 14,
+    "source_hash": "sha256:086001e158334e2781cd2f6d8c0e6c709992213f4c4b17b145e1c9cd1d2eff83",
+    "source_url": "https://zambialii.org/akn/zm/act/1965/75/eng@1996-12-31"
+  },
+  {
+    "idx": 7,
+    "yr": "1966",
+    "num": "10",
+    "title": "National Museums Act, 1966",
+    "alpha": "N",
+    "status": "ok",
+    "id": "act-zm-1966-010-national-museums-act-1966",
+    "sections": 12,
+    "source_hash": "sha256:4a8e5f6b5b5285d10142500293d6aa5f9257827aab2b963aba1eec2f47bddaed",
+    "source_url": "https://zambialii.org/akn/zm/act/1966/10/eng@1996-12-31"
+  }
+]

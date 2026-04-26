@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 0,
+    "yr": "1962",
+    "num": "22",
+    "title": "Local Authorities Superannuation Fund Act, 1962",
+    "alpha": "L",
+    "status": "ok",
+    "id": "act-zm-1962-022-local-authorities-superannuation-fund-act-1962",
+    "sections": 48,
+    "source_hash": "sha256:4569b2a1ff0261b2d5d84585dd6ad014fd90d7fdd6a87c1f0ca1793fc89c3d87",
+    "source_url": "https://zambialii.org/akn/zm/act/1962/22/eng@2024-12-26"
+  },
+  {
+    "idx": 1,
+    "yr": "1921",
+    "num": "20",
+    "title": "Maintenance Orders (Enforcement) Act, 1921",
+    "alpha": "M",
+    "status": "ok",
+    "id": "act-zm-1921-020-maintenance-orders-enforcement-act-1921",
+    "sections": 11,
+    "source_hash": "sha256:2644cc8784e9a2cee9a406a348b0fdd8c73304973bd8b547cb6c8163170bb434",
+    "source_url": "https://zambialii.org/akn/zm/act/1921/20/eng@1996-12-31"
+  },
+  {
+    "idx": 2,
+    "yr": "1929",
+    "num": "24",
+    "title": "Mufulira-Mokambo Railway Act, 1929",
+    "alpha": "M",
+    "status": "ok",
+    "id": "act-zm-1929-024-mufulira-mokambo-railway-act-1929",
+    "sections": 8,
+    "source_hash": "sha256:fa6a152bb7f49c8b2690ad03df3d36982ed3cff120907e7cb02d62a57fb43524",
+    "source_url": "https://zambialii.org/akn/zm/act/1929/24/eng@1996-12-31"
+  }
+]

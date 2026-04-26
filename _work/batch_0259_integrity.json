@@ -1,0 +1,55 @@
+{
+  "checks": {
+    "CHECK1a_batch_unique": true,
+    "CHECK1b_present": true,
+    "CHECK4_source_hash": true,
+    "CHECK5_fields": true,
+    "CHECK2_amended_by_refs": true,
+    "CHECK3_repealed_by_refs": true,
+    "CHECK6_cited_authorities": true
+  },
+  "details": [],
+  "sections": [
+    {
+      "id": "act-zm-1962-022-local-authorities-superannuation-fund-act-1962",
+      "sections": 48,
+      "title": "Local Authorities Superannuation Fund Act, 1962"
+    },
+    {
+      "id": "act-zm-1921-020-maintenance-orders-enforcement-act-1921",
+      "sections": 11,
+      "title": "Maintenance Orders (Enforcement) Act, 1921"
+    },
+    {
+      "id": "act-zm-1929-024-mufulira-mokambo-railway-act-1929",
+      "sections": 8,
+      "title": "Mufulira-Mokambo Railway Act, 1929"
+    },
+    {
+      "id": "act-zm-1957-017-merchandise-marks-act-1957",
+      "sections": 24,
+      "title": "Merchandise Marks Act, 1957"
+    },
+    {
+      "id": "act-zm-1970-029-mines-acquisition-special-provisions-no-2-act-1970",
+      "sections": 5,
+      "title": "Mines Acquisition (Special Provisions) (No. 2) Act, 1970"
+    },
+    {
+      "id": "act-zm-1965-023-national-flag-and-armorial-ensigns-act-1965",
+      "sections": 6,
+      "title": "National Flag and Armorial Ensigns, 1965"
+    },
+    {
+      "id": "act-zm-1965-075-non-designated-expatriate-officers-retiring-benefits-act-1965",
+      "sections": 14,
+      "title": "Non-Designated Expatriate Officers (Retiring Benefits) Act, 1965"
+    },
+    {
+      "id": "act-zm-1966-010-national-museums-act-1966",
+      "sections": 12,
+      "title": "National Museums Act, 1966"
+    }
+  ],
+  "all_pass": true
+}
