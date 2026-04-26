@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "1968",
+    "num": "37",
+    "title": "Therapeutic Substances Act, 1968",
+    "alpha": "T",
+    "status": "ok",
+    "id": "act-zm-1968-037-therapeutic-substances-act-1968",
+    "sections": 13,
+    "source_hash": "sha256:f643ff58c8cb32c291e4422a6ed9d8641b7c3a7c7b352d696e5afac3efc6e3fb",
+    "source_url": "https://zambialii.org/akn/zm/act/1968/37/eng@1996-12-31"
+  },
+  {
+    "idx": 7,
+    "yr": "1970",
+    "num": "64",
+    "title": "Trusts Restriction Act, 1970",
+    "alpha": "T",
+    "status": "ok",
+    "id": "act-zm-1970-064-trusts-restriction-act-1970",
+    "sections": 9,
+    "source_hash": "sha256:9ac89fffe327d07e7ecbfc72581f3e3b7aeff9720111df130a2b83624520dd03",
+    "source_url": "https://zambialii.org/akn/zm/act/1970/64/eng@1996-12-31"
+  }
+]

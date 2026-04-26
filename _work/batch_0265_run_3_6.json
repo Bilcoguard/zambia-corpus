@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 3,
+    "yr": "1963",
+    "num": "44",
+    "title": "Tax Reserve Certificates Act, 1963",
+    "alpha": "T",
+    "status": "ok",
+    "id": "act-zm-1963-044-tax-reserve-certificates-act-1963",
+    "sections": 4,
+    "source_hash": "sha256:4c99d88fa29a856723463fad05f63536a0de6a3882f3398eab284442c591dc10",
+    "source_url": "https://zambialii.org/akn/zm/act/1963/44/eng@1996-12-31"
+  },
+  {
+    "idx": 4,
+    "yr": "1964",
+    "num": "18",
+    "title": "Traditional Beer (Levy) Act, 1964",
+    "alpha": "T",
+    "status": "ok",
+    "id": "act-zm-1964-018-traditional-beer-levy-act-1964",
+    "sections": 12,
+    "source_hash": "sha256:52d2d2e146d12a120821494c4bdc67afbb4b8c1c07b5d7e4aeb60e4f3b05c532",
+    "source_url": "https://zambialii.org/akn/zm/act/1964/18/eng@1996-12-31"
+  },
+  {
+    "idx": 5,
+    "yr": "1965",
+    "num": "26",
+    "title": "Taxation (Provisional Charging) Act, 1965",
+    "alpha": "T",
+    "status": "ok",
+    "id": "act-zm-1965-026-taxation-provisional-charging-act-1965",
+    "sections": 4,
+    "source_hash": "sha256:40d07449127c20ca6e2adc00121d74d05db9199a8b2b927e5432ab227c5e5575",
+    "source_url": "https://zambialii.org/akn/zm/act/1965/26/eng@1996-12-31"
+  }
+]

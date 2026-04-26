@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 0,
+    "yr": "1929",
+    "num": "38",
+    "title": "Treasury Bills Act, 1929",
+    "alpha": "T",
+    "status": "ok",
+    "id": "act-zm-1929-038-treasury-bills-act-1929",
+    "sections": 7,
+    "source_hash": "sha256:3827f818a6ff325f3e397c008123c42279aa85c31ff04213e53a21e55f1c6326",
+    "source_url": "https://zambialii.org/akn/zm/act/1929/38/eng@1996-12-31"
+  },
+  {
+    "idx": 1,
+    "yr": "1929",
+    "num": "42",
+    "title": "Tanganyika Victoria Memorial Institute Act, 1929",
+    "alpha": "T",
+    "status": "ok",
+    "id": "act-zm-1929-042-tanganyika-victoria-memorial-institute-act-1929",
+    "sections": 16,
+    "source_hash": "sha256:1285a5e223f90eb302aa0e7ae0f372b167920385ebdca782c27516592429b1bd",
+    "source_url": "https://zambialii.org/akn/zm/act/1929/42/eng@1996-12-31"
+  },
+  {
+    "idx": 2,
+    "yr": "1929",
+    "num": "54",
+    "title": "Theatres and Cinematograph Exhibition Act, 1929",
+    "alpha": "T",
+    "status": "ok",
+    "id": "act-zm-1929-054-theatres-and-cinematograph-exhibition-act-1929",
+    "sections": 12,
+    "source_hash": "sha256:316cd51f2094fbb1c1ca53b01e990893af98b4f519c9bbcf29007a093f0a7e2d",
+    "source_url": "https://zambialii.org/akn/zm/act/1929/54/eng@1996-12-31"
+  }
+]

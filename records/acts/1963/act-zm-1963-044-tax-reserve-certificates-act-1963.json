@@ -1,0 +1,39 @@
+{
+  "id": "act-zm-1963-044-tax-reserve-certificates-act-1963",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Tax Reserve Certificates Act, 1963",
+  "citation": "Act No. 44 of 1963",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Tax Reserve Certificates Act."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The Minister is hereby empowered to issue certificates called tax reserve certificates of such denominations and subject to such conditions as he may by regulation prescribe.\nThe Minister is hereby empowered to issue certificates called tax reserve certificates of such denominations and subject to such conditions as he may by regulation prescribe.\n(2) Such certificates shall be accepted by the Government at their face value, plus any interest due thereon, in payment by the holder thereof of any amount payable by him in respect of any direct tax specified by the Minister by statutory notice. [As amended by S.I. No. 159 of 1965]\nSuch certificates shall be accepted by the Government at their face value, plus any interest due thereon, in payment by the holder thereof of any amount payable by him in respect of any direct tax specified by the Minister by statutory notice. [As amended by S.I. No. 159 of 1965]"
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "All moneys received for the purchase of tax reserve certificates under this Act shall be paid into a deposit account of the Government established by the Minister for the purpose, and any amounts required for the redemption of such tax reserve certificates shall be paid out of such deposit account."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Moneys received for the purchase of tax reserve certificates issued under this Act shall not be regarded as loans for the purpose of the General Loan and Stock Act. [ Cap. 350 ]"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1963/44/eng@1996-12-31",
+  "source_hash": "sha256:4c99d88fa29a856723463fad05f63536a0de6a3882f3398eab284442c591dc10",
+  "fetched_at": "2026-04-26T12:07:14Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}
