@@ -1,0 +1,9 @@
+CHECK1a PASS: 6/6 batch unique
+CHECK1b PASS: 6/6 corpus presence on disk
+CHECK2 PASS: 0 amended_by refs (count=0)
+CHECK3 PASS: 0 repealed_by refs (count=0)
+CHECK4 PASS: 6/6 source_hash sha256 verified
+CHECK5 PASS: required 16 fields x 6 = 96/96 all present
+CHECK6 PASS: cited_authorities 0 refs all resolve
+
+=== ALL CHECKS PASSED ===

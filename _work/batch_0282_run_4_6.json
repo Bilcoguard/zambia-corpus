@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 4,
+    "yr": "2010",
+    "num": "4",
+    "title": "Public Interest Disclosure (Protection of Whistleblowers) Act, 2010",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-2010-004-public-interest-disclosure-protection-of-whistleblowers-act",
+    "sections": 84,
+    "source_hash": "sha256:33b7d122dd9e37778ff45221b64c003e725f114f9f8c80355fe51c626f26117f",
+    "source_url": "https://zambialii.org/akn/zm/act/2010/4/eng@2010-04-16"
+  },
+  {
+    "idx": 5,
+    "yr": "2010",
+    "num": "11",
+    "title": "Supplementary Appropriation (2008) Act, 2010",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2010-011-supplementary-appropriation-2008-act",
+    "sections": 2,
+    "source_hash": "sha256:efef0f683703ade250ce064e744040f169248f5d8a1cd8ed9494dcd48a8395d7",
+    "source_url": "https://zambialii.org/akn/zm/act/2010/11/eng@2010-04-16"
+  }
+]

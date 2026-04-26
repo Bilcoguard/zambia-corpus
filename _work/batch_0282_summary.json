@@ -1,0 +1,103 @@
+{
+  "batch": "0282",
+  "total": 8,
+  "ok": 6,
+  "results": [
+    {
+      "idx": 0,
+      "yr": "2009",
+      "num": "7",
+      "title": "Supplementary Appropriation (2007) Act, 2009",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-2009-007-supplementary-appropriation-2007-act",
+      "sections": 1,
+      "source_hash": "sha256:383cb922938dbb49c91cf9d30ede6fcea6f0b6833395b09f9a1b04bb811468b5",
+      "source_url": "https://zambialii.org/akn/zm/act/2009/7/eng@2009-04-03"
+    },
+    {
+      "idx": 1,
+      "yr": "2009",
+      "num": "10",
+      "title": "Appropriation Act, 2009",
+      "alpha": "A",
+      "status": "pdf_too_large_6920632",
+      "id": null,
+      "sections": 0,
+      "source_hash": null,
+      "source_url": null
+    },
+    {
+      "idx": 2,
+      "yr": "2009",
+      "num": "16",
+      "title": "Non-Governmental Organisations Act, 2009",
+      "alpha": "N",
+      "status": "ok",
+      "id": "act-zm-2009-016-non-governmental-organisations-act",
+      "sections": 37,
+      "source_hash": "sha256:16845be0b29f23aa415e08e352fc602aef98d31a3d6375681a1871fc67e10284",
+      "source_url": "https://zambialii.org/akn/zm/act/2009/16/eng@2020-12-02"
+    },
+    {
+      "idx": 3,
+      "yr": "2009",
+      "num": "30",
+      "title": "Appropriation (No. 2) Act, 2009",
+      "alpha": "A",
+      "status": "pdf_too_large_6007886",
+      "id": null,
+      "sections": 0,
+      "source_hash": null,
+      "source_url": null
+    },
+    {
+      "idx": 4,
+      "yr": "2010",
+      "num": "4",
+      "title": "Public Interest Disclosure (Protection of Whistleblowers) Act, 2010",
+      "alpha": "P",
+      "status": "ok",
+      "id": "act-zm-2010-004-public-interest-disclosure-protection-of-whistleblowers-act",
+      "sections": 84,
+      "source_hash": "sha256:33b7d122dd9e37778ff45221b64c003e725f114f9f8c80355fe51c626f26117f",
+      "source_url": "https://zambialii.org/akn/zm/act/2010/4/eng@2010-04-16"
+    },
+    {
+      "idx": 5,
+      "yr": "2010",
+      "num": "11",
+      "title": "Supplementary Appropriation (2008) Act, 2010",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-2010-011-supplementary-appropriation-2008-act",
+      "sections": 2,
+      "source_hash": "sha256:efef0f683703ade250ce064e744040f169248f5d8a1cd8ed9494dcd48a8395d7",
+      "source_url": "https://zambialii.org/akn/zm/act/2010/11/eng@2010-04-16"
+    },
+    {
+      "idx": 6,
+      "yr": "2010",
+      "num": "23",
+      "title": "Excess Expenditure Appropriation (2007) Act, 2010",
+      "alpha": "E",
+      "status": "ok",
+      "id": "act-zm-2010-023-excess-expenditure-appropriation-2007-act",
+      "sections": 2,
+      "source_hash": "sha256:a6a8ea95aabc12c9e14d3e6330dd0312a6f37386a68e7c43ba91df6964f19c5c",
+      "source_url": "https://zambialii.org/akn/zm/act/2010/23/eng@2010-08-16"
+    },
+    {
+      "idx": 7,
+      "yr": "2011",
+      "num": "25",
+      "title": "Supplementary Appropriation (2009) Act, 2011",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-2011-025-supplementary-appropriation-2009-act",
+      "sections": 2,
+      "source_hash": "sha256:908804b553c672ca3a08a4840c3a599c71e5b1943f7d63895c80ba93e6eee880",
+      "source_url": "https://zambialii.org/akn/zm/act/2011/25/eng@2011-07-15"
+    }
+  ]
+}

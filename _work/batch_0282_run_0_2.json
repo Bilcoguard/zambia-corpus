@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 0,
+    "yr": "2009",
+    "num": "7",
+    "title": "Supplementary Appropriation (2007) Act, 2009",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2009-007-supplementary-appropriation-2007-act",
+    "sections": 1,
+    "source_hash": "sha256:383cb922938dbb49c91cf9d30ede6fcea6f0b6833395b09f9a1b04bb811468b5",
+    "source_url": "https://zambialii.org/akn/zm/act/2009/7/eng@2009-04-03"
+  },
+  {
+    "idx": 1,
+    "yr": "2009",
+    "num": "10",
+    "title": "Appropriation Act, 2009",
+    "alpha": "A",
+    "status": "pdf_too_large_6920632",
+    "id": null,
+    "sections": 0,
+    "source_hash": null,
+    "source_url": null
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 2,
+    "yr": "2009",
+    "num": "16",
+    "title": "Non-Governmental Organisations Act, 2009",
+    "alpha": "N",
+    "status": "ok",
+    "id": "act-zm-2009-016-non-governmental-organisations-act",
+    "sections": 37,
+    "source_hash": "sha256:16845be0b29f23aa415e08e352fc602aef98d31a3d6375681a1871fc67e10284",
+    "source_url": "https://zambialii.org/akn/zm/act/2009/16/eng@2020-12-02"
+  },
+  {
+    "idx": 3,
+    "yr": "2009",
+    "num": "30",
+    "title": "Appropriation (No. 2) Act, 2009",
+    "alpha": "A",
+    "status": "pdf_too_large_6007886",
+    "id": null,
+    "sections": 0,
+    "source_hash": null,
+    "source_url": null
+  }
+]

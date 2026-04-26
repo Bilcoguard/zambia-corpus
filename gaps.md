@@ -1138,3 +1138,12 @@ OCR backlog now 18 items. All quarantined PDFs preserved on disk for re-extracti
 - Oversize-pdf queue now: 2002/6 (b0279), 2005/21 (b0280), 2008/5 (b0281). Three items.
 - OCR backlog unchanged at 18 items.
 - Section-tolerant retry queue: now 5 items (added 2008/9).
+
+## Batch 0282 (2026-04-26)
+
+- **act/2009/10 Appropriation Act, 2009**: PDF size 6,920,632 bytes > MAX_PDF_BYTES (4,500,000). Deferred to oversize-pdf queue. Raw HTML kept at `raw/zambialii/act/2009/2009-010.html`.
+- **act/2009/30 Appropriation (No. 2) Act, 2009**: PDF size 6,007,886 bytes > MAX_PDF_BYTES. Deferred to oversize-pdf queue. Raw HTML kept at `raw/zambialii/act/2009/2009-030.html`.
+- **act/2009/7 Supplementary Appropriation (2007) Act, 2009**: PDF parse captured only 1 section (section 2 — real Act content; section 1 missed by OCR). Same OCR-section pattern as 1988/32, 1994/40, 2004/6. Committed (content verifiably real Act language, not fabrication). Added to section-tolerant retry queue.
+- Oversize-pdf queue now: 2002/6 (b0279), 2005/21 (b0280), 2008/5 (b0281), 2009/10 (b0282), 2009/30 (b0282). Five items.
+- OCR backlog unchanged at 18 items.
+- Section-tolerant retry queue: now 6 items (added 2009/7). Items: 1988/32, 1994/40, 1995/33, 2004/6, 2008/9, 2009/7.
