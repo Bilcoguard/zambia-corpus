@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 0,
+    "yr": "2014",
+    "num": "5",
+    "title": "Supplementary Appropriation (2012) Act, 2014",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2014-005-supplementary-appropriation-2012-act",
+    "sections": 2,
+    "source_hash": "sha256:a144091cf41ae04db7300582c6ef85eec69933bebba1bc8b186c934a34bfe8ca",
+    "source_url": "https://zambialii.org/akn/zm/act/2014/5/eng@2014-08-05"
+  },
+  {
+    "idx": 1,
+    "yr": "2014",
+    "num": "6",
+    "title": "Excess Expenditure Appropriation (2011) Act, 2014",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-2014-006-excess-expenditure-appropriation-2011-act",
+    "sections": 2,
+    "source_hash": "sha256:1f4aaa0d0e0e316154ee1cd7ff58fd22a9e5aa3da2e6994a28697b72086a1ce3",
+    "source_url": "https://zambialii.org/akn/zm/act/2014/6/eng@2014-08-05"
+  }
+]

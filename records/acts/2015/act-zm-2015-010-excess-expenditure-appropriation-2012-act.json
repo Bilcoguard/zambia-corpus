@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-2015-010-excess-expenditure-appropriation-2012-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Excess Expenditure Appropriation (2012) Act, 2015",
+  "citation": "Act No. 10 of 2015",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the The Excess Expenditure Short title",
+      "text": "Appropriation (2012) Act, 2015."
+    },
+    {
+      "number": "2",
+      "heading": "The expenditure on the services of the Republic during the Appropriation",
+      "text": "financial year which ended on 31st December, 2012 of the monies\nindicated in respect of the services in the third column of the\nSchedule, being expenditure in excess of the monies appropriated\nfor the services by the Appropriation Act, 2011, and the Act No. 32\nof 2011\nSupplementary Appropriation (2012) Act, 2014, is approved.\nAct No. 5 of\n2014\nSingle copies of this Act may be obtained from the Government Printer,\nP.O. Box 30136, 10101 Lusaka, Price K 2.00 each.\nExcess Expenditure Appropriation\n158 No. 10 of 2015 ] (2012)\nSCHEDULE\n(Section 2)\n1 2 3\nNo. of Appropriation\nHead Institution Amount\nK\n13 Ministry of Chiefs and Traditional Affairs\n/01 Headquarters 449,823\n/02 Human Resources and Administration 225,403\n16 Drug Enforcement Commission\n/01 Drug Enforcement Commission-Headquarters 9,008,154\n44 Ministry of Labour, Sport and Youth\n/09 Youth Affairs Department 2,889,032\n77 Ministry of Defence\n/05 Defence Medical Services 212,427\n78 Zambia Security Intelligence Services-Office of\nthe President\n/01 Headquarters 200\nTotal 12,785,039"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/2015/10/eng@2015-08-14",
+  "source_hash": "sha256:0c03c5df80be3dfbad9dfb353ac8216af58c40a4628055a40a7960d728cfa97b",
+  "fetched_at": "2026-04-26T22:06:07Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}

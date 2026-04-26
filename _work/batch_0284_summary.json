@@ -1,0 +1,103 @@
+{
+  "batch": "0284",
+  "total": 8,
+  "ok": 8,
+  "results": [
+    {
+      "idx": 0,
+      "yr": "2014",
+      "num": "5",
+      "title": "Supplementary Appropriation (2012) Act, 2014",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-2014-005-supplementary-appropriation-2012-act",
+      "sections": 2,
+      "source_hash": "sha256:a144091cf41ae04db7300582c6ef85eec69933bebba1bc8b186c934a34bfe8ca",
+      "source_url": "https://zambialii.org/akn/zm/act/2014/5/eng@2014-08-05"
+    },
+    {
+      "idx": 1,
+      "yr": "2014",
+      "num": "6",
+      "title": "Excess Expenditure Appropriation (2011) Act, 2014",
+      "alpha": "E",
+      "status": "ok",
+      "id": "act-zm-2014-006-excess-expenditure-appropriation-2011-act",
+      "sections": 2,
+      "source_hash": "sha256:1f4aaa0d0e0e316154ee1cd7ff58fd22a9e5aa3da2e6994a28697b72086a1ce3",
+      "source_url": "https://zambialii.org/akn/zm/act/2014/6/eng@2014-08-05"
+    },
+    {
+      "idx": 2,
+      "yr": "2014",
+      "num": "14",
+      "title": "Appropriation Act, 2014",
+      "alpha": "A",
+      "status": "ok",
+      "id": "act-zm-2014-014-appropriation-act",
+      "sections": 3,
+      "source_hash": "sha256:bcd4e4d945b0cf15f0cf5e96016e5c70dafb69c6ef354574db06416c8bfe2335",
+      "source_url": "https://zambialii.org/akn/zm/act/2014/14/eng@2014-12-23"
+    },
+    {
+      "idx": 3,
+      "yr": "2015",
+      "num": "9",
+      "title": "Supplementary Appropriation (2013) Act, 2015",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-2015-009-supplementary-appropriation-2013-act",
+      "sections": 2,
+      "source_hash": "sha256:8d67ae555572ff20efdfe12739aad7bb3c101a74fff0dbb2fb43bdbcc63a5204",
+      "source_url": "https://zambialii.org/akn/zm/act/2015/9/eng@2015-08-14"
+    },
+    {
+      "idx": 4,
+      "yr": "2015",
+      "num": "10",
+      "title": "Excess Expenditure Appropriation (2012) Act, 2015",
+      "alpha": "E",
+      "status": "ok",
+      "id": "act-zm-2015-010-excess-expenditure-appropriation-2012-act",
+      "sections": 2,
+      "source_hash": "sha256:0c03c5df80be3dfbad9dfb353ac8216af58c40a4628055a40a7960d728cfa97b",
+      "source_url": "https://zambialii.org/akn/zm/act/2015/10/eng@2015-08-14"
+    },
+    {
+      "idx": 5,
+      "yr": "2015",
+      "num": "23",
+      "title": "Appropriation Act, 2015",
+      "alpha": "A",
+      "status": "ok",
+      "id": "act-zm-2015-023-appropriation-act",
+      "sections": 2,
+      "source_hash": "sha256:68e388d96937b9d06bfc39c3d574b3ec44f6c00a3fd045bc22eb2ce89908fcbe",
+      "source_url": "https://zambialii.org/akn/zm/act/2015/23/eng@2015-12-24"
+    },
+    {
+      "idx": 6,
+      "yr": "2016",
+      "num": "7",
+      "title": "Court of Appeal Act, 2016",
+      "alpha": "C",
+      "status": "ok",
+      "id": "act-zm-2016-007-court-of-appeal-act",
+      "sections": 49,
+      "source_hash": "sha256:f48610de430b349817153f955f7610b6997fb92d6f0e544702a9e81d1d78d395",
+      "source_url": "https://zambialii.org/akn/zm/act/2016/7/eng@2016-05-03"
+    },
+    {
+      "idx": 7,
+      "yr": "2016",
+      "num": "15",
+      "title": "Public Protector Act, 2016",
+      "alpha": "P",
+      "status": "ok",
+      "id": "act-zm-2016-015-public-protector-act",
+      "sections": 71,
+      "source_hash": "sha256:7f54d713fa2c5cfb7abb245c8c5bcfdf01a2a78c19b01fb687c1fa6c7d5303f5",
+      "source_url": "https://zambialii.org/akn/zm/act/2016/15/eng@2016-06-07"
+    }
+  ]
+}

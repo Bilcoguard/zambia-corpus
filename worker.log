@@ -2940,3 +2940,12 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 2026-04-26T21:39:24Z [batch-0283] yield 7/8 (87.5%); 2012/16 pdf_too_large (5,553,668B), deferred.
 2026-04-26T21:39:24Z [batch-0283] integrity: ALL CHECKS PASSED (1a,1b,2,3,4,5,6).
 2026-04-26T21:39:24Z [batch-0283] B2 sync deferred to host: rclone not available in sandbox.
+2026-04-26T21:40:07Z [batch-0283] commit 5c6b433 pushed: f65628d..5c6b433 main -> main.
+2026-04-26T22:09:08Z [batch-0284] tick start: pull ff-only ok; approvals.yaml read ok; phase_4_bulk active.
+2026-04-26T22:09:08Z [batch-0284] budgets: today 564/2000 fetches at start; tokens within budget.
+2026-04-26T22:09:08Z [batch-0284] robots.txt zambialii sha256=fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0 (unchanged).
+2026-04-26T22:09:08Z [batch-0284] picks: 2014/5, 2014/6, 2014/14, 2015/9, 2015/10, 2015/23, 2016/7, 2016/15 (8 chronological; 6 fiscal + 2 non-fiscal Court-of-Appeal/Public-Protector).
+2026-04-26T22:09:08Z [batch-0284] yield 8/8 (100%); 0 deferred. All 8 picks fell through to PDF fallback (HTML akn-section count <2 each); PDFs all <=1.87MB (well under 4.5MB cap).
+2026-04-26T22:09:08Z [batch-0284] integrity: ALL CHECKS PASSED (1a 8/8 batch unique; 1b 8/8 corpus presence; 2/3 0 amended_by/repealed_by refs; 4 8/8 source_hash sha256 verified vs raw HTML; 5 128/128 fields present; 6 0 cited_authorities refs).
+2026-04-26T22:09:08Z [batch-0284] cumulative records: acts 1117 (+7 over 1110 prior batch 0282; +0 from 0283 yield is folded already since worker.log baseline mid-tick — cross-check: 1110 + 7(b0283) + 8(b0284) = 1125). NB: counts above are best-effort tally; authoritative count via ls records/acts/**/*.json is run on close-out.
+2026-04-26T22:09:08Z [batch-0284] B2 sync deferred to host: rclone not available in sandbox.

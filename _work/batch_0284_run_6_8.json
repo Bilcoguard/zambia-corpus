@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "2016",
+    "num": "7",
+    "title": "Court of Appeal Act, 2016",
+    "alpha": "C",
+    "status": "ok",
+    "id": "act-zm-2016-007-court-of-appeal-act",
+    "sections": 49,
+    "source_hash": "sha256:f48610de430b349817153f955f7610b6997fb92d6f0e544702a9e81d1d78d395",
+    "source_url": "https://zambialii.org/akn/zm/act/2016/7/eng@2016-05-03"
+  },
+  {
+    "idx": 7,
+    "yr": "2016",
+    "num": "15",
+    "title": "Public Protector Act, 2016",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-2016-015-public-protector-act",
+    "sections": 71,
+    "source_hash": "sha256:7f54d713fa2c5cfb7abb245c8c5bcfdf01a2a78c19b01fb687c1fa6c7d5303f5",
+    "source_url": "https://zambialii.org/akn/zm/act/2016/15/eng@2016-06-07"
+  }
+]

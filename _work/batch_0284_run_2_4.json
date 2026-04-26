@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 2,
+    "yr": "2014",
+    "num": "14",
+    "title": "Appropriation Act, 2014",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-2014-014-appropriation-act",
+    "sections": 3,
+    "source_hash": "sha256:bcd4e4d945b0cf15f0cf5e96016e5c70dafb69c6ef354574db06416c8bfe2335",
+    "source_url": "https://zambialii.org/akn/zm/act/2014/14/eng@2014-12-23"
+  },
+  {
+    "idx": 3,
+    "yr": "2015",
+    "num": "9",
+    "title": "Supplementary Appropriation (2013) Act, 2015",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2015-009-supplementary-appropriation-2013-act",
+    "sections": 2,
+    "source_hash": "sha256:8d67ae555572ff20efdfe12739aad7bb3c101a74fff0dbb2fb43bdbcc63a5204",
+    "source_url": "https://zambialii.org/akn/zm/act/2015/9/eng@2015-08-14"
+  }
+]
