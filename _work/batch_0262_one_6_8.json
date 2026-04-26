@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "1988",
+    "num": "33",
+    "title": "Self-Management Enterprises Act, 1988",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1988-033-self-management-enterprises-act-1988",
+    "sections": 34,
+    "source_hash": "sha256:be4636e5697f01e9939e465985072d594f4af122224e20e93b4bba3bb77f326a",
+    "source_url": "https://zambialii.org/akn/zm/act/1988/33/eng@1996-12-31"
+  },
+  {
+    "idx": 7,
+    "yr": "1991",
+    "num": "24",
+    "title": "Service Commissions Act, 1991",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1991-024-service-commissions-act-1991",
+    "sections": 22,
+    "source_hash": "sha256:06abe486fd2bd6066d73fbf45c58a33a2fd506ff69036712cd9466dea87954a3",
+    "source_url": "https://zambialii.org/akn/zm/act/1991/24/eng@1996-12-31"
+  }
+]

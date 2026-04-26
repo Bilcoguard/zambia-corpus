@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 0,
+    "yr": "2007",
+    "num": "2",
+    "title": "Prohibition of Chemical Weapons Act, 2007",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-2007-002-prohibition-of-chemical-weapons-act-2007",
+    "sections": 72,
+    "source_hash": "sha256:22844fda760d71e06b91916cb2cfc1449a8a18bc66dae84cafd052dfa0b408cd",
+    "source_url": "https://zambialii.org/akn/zm/act/2007/2/eng@2007-04-13"
+  },
+  {
+    "idx": 1,
+    "yr": "1957",
+    "num": "38",
+    "title": "Protection of Names, Uniforms and Badges Act, 1957",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1957-038-protection-of-names-uniforms-and-badges-act-1957",
+    "sections": 17,
+    "source_hash": "sha256:d14b378a603f4994ad57af3c802af9045e60c69948c583b142b1f0e0190645dd",
+    "source_url": "https://zambialii.org/akn/zm/act/1957/38/eng@1996-12-31"
+  },
+  {
+    "idx": 2,
+    "yr": "1980",
+    "num": "8",
+    "title": "Public Audit Act, 1980",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1980-008-public-audit-act-1980",
+    "sections": 13,
+    "source_hash": "sha256:19b3cbd43c5ec074e0d0e1a604b83f8fb9b3f408708cbb5e5d43ee0b4969b865",
+    "source_url": "https://zambialii.org/akn/zm/act/1980/8/eng@1996-12-31"
+  }
+]

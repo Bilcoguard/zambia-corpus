@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 3,
+    "yr": "1998",
+    "num": "11",
+    "title": "Revenue Appeals Tribunal Act, 1998",
+    "alpha": "R",
+    "status": "ok",
+    "id": "act-zm-1998-011-revenue-appeals-tribunal-act-1998",
+    "sections": 5,
+    "source_hash": "sha256:2eca0cda53d581a0d2575f20fddb09078cea7bb180a182cdcbcbbeb5ac5857e4",
+    "source_url": "https://zambialii.org/akn/zm/act/1998/11/eng@1998-04-24"
+  },
+  {
+    "idx": 4,
+    "yr": "1968",
+    "num": "45",
+    "title": "Rural Councils (Beer Surtax) Fund Act, 1968",
+    "alpha": "R",
+    "status": "ok",
+    "id": "act-zm-1968-045-rural-councils-beer-surtax-fund-act-1968",
+    "sections": 8,
+    "source_hash": "sha256:26f947e8e79c2f64e0eebe8aabbcd7ce9d9613fb5df6e62673e162ed59eccf6c",
+    "source_url": "https://zambialii.org/akn/zm/act/1968/45/eng@1996-12-31"
+  },
+  {
+    "idx": 5,
+    "yr": "1960",
+    "num": "58",
+    "title": "Scrap Metal Dealers Act, 1960",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1960-058-scrap-metal-dealers-act-1960",
+    "sections": 15,
+    "source_hash": "sha256:941cb3ce0b4cf3e6c0560bebc8bb8f69e80b0b60ef568a675d441e2e936b33b8",
+    "source_url": "https://zambialii.org/akn/zm/act/1960/58/eng@1996-12-31"
+  }
+]
