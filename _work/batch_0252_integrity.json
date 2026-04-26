@@ -1,0 +1,42 @@
+{
+  "batch": "0252",
+  "total_attempted": 2,
+  "ok": 2,
+  "fail": 0,
+  "skip": 0,
+  "CHECK1a_batch_unique_ids": true,
+  "CHECK1b_corpus_presence": true,
+  "CHECK2_amended_by_resolve": true,
+  "CHECK3_repealed_by_resolve": true,
+  "CHECK4_source_hash_match": true,
+  "CHECK4_details": [
+    {
+      "id": "si-zm-1991-035-tender-regulations-commencement-order-1991",
+      "pdf_path": "raw/zambialii/si/1991/si-zm-1991-035-tender-regulations-commencement-order-1991.pdf",
+      "match": true,
+      "expected": "1ff7abb69a6fafe5",
+      "actual": "1ff7abb69a6fafe5"
+    },
+    {
+      "id": "si-zm-1998-043-tender-amendment-regulations-1998",
+      "pdf_path": "raw/zambialii/si/1998/si-zm-1998-043-tender-amendment-regulations-1998.pdf",
+      "match": true,
+      "expected": "7c93f9f1f18e3e2a",
+      "actual": "7c93f9f1f18e3e2a"
+    }
+  ],
+  "CHECK5_required_fields": true,
+  "CHECK5_details": [
+    {
+      "id": "si-zm-1991-035-tender-regulations-commencement-order-1991",
+      "missing": []
+    },
+    {
+      "id": "si-zm-1998-043-tender-amendment-regulations-1998",
+      "missing": []
+    }
+  ],
+  "CHECK6_cited_authorities": true,
+  "all_pass": true,
+  "verified_at": "2026-04-26T05:37:05Z"
+}

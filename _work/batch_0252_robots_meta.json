@@ -1,0 +1,20 @@
+{
+  "url": "https://zambialii.org/robots.txt",
+  "sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "sha256_prefix": "fce67b697ee4ef44",
+  "bytes": 2022,
+  "fetched_at": "2026-04-26T05:35:00Z",
+  "path": "raw/zambialii/robots-20260426T053500Z.txt",
+  "crawl_delay": 5,
+  "disallow": [
+    "/search/",
+    "/en/search/",
+    "/fr/search/",
+    "/pt/search/",
+    "/sw/search/",
+    "/api/",
+    "/akn/zm/judgment/",
+    "/akn/zm/officialGazette/"
+  ],
+  "unchanged_from_batches": "0193-0251"
+}

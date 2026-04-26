@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "1998/43",
+    "year": "1998",
+    "num": "43",
+    "title": "",
+    "parent_act": "Tender Board Act",
+    "sub_phase": "sis_governance"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-1998-043-tender-amendment-regulations-1998",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 1998,
+    "number": 43,
+    "title": "Tender (Amendment) Regulations, 1998",
+    "parent_act": "Tender Board Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "1998-03-25",
+    "source_url": "https://zambialii.org/akn/zm/act/si/1998/43",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/1998/43/eng@1998-03-25/source.pdf",
+    "source_hash": "7c93f9f1f18e3e2aa1eca15244ce3602cd64f8cff44dffb777f87e7c985809ec",
+    "html_hash": "930404d235ea040f9a5a0d9e35e70bd965927ee66b11caf1c1890dc958c49b88",
+    "fetched_at": "2026-04-26T05:36:35Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 2,
+    "pdf_text_chars": 2089,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/1998/si-zm-1998-043-tender-amendment-regulations-1998.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1998/43",
+      "bytes": 39040,
+      "path": "raw/zambialii/si/1998/si-zm-1998-043-tender-amendment-regulations-1998.html",
+      "sha": "930404d235ea040f9a5a0d9e35e70bd965927ee66b11caf1c1890dc958c49b88"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1998/43/eng@1998-03-25/source.pdf",
+      "bytes": 192936,
+      "path": "raw/zambialii/si/1998/si-zm-1998-043-tender-amendment-regulations-1998.pdf",
+      "sha": "7c93f9f1f18e3e2aa1eca15244ce3602cd64f8cff44dffb777f87e7c985809ec"
+    }
+  ],
+  "title": "Tender (Amendment) Regulations, 1998"
+}

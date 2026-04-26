@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "1991/35",
+    "year": "1991",
+    "num": "35",
+    "title": "",
+    "parent_act": "Tender Board Act",
+    "sub_phase": "sis_governance"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-1991-035-tender-regulations-commencement-order-1991",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 1991,
+    "number": 35,
+    "title": "Tender Regulations (Commencement) Order, 1991",
+    "parent_act": "Tender Board Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "1991-03-15",
+    "source_url": "https://zambialii.org/akn/zm/act/si/1991/35",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/1991/35/eng@1991-03-15/source.pdf",
+    "source_hash": "1ff7abb69a6fafe512b31ea2957c1aad11f735570dd89c5f3eb7bf2a686b745a",
+    "html_hash": "71a97d53f078dde6f83c738e119c4a42c6511e91b67dd5d0ce2430c34d0f0b1e",
+    "fetched_at": "2026-04-26T05:36:18Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 2,
+    "pdf_text_chars": 946,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/1991/si-zm-1991-035-tender-regulations-commencement-order-1991.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1991/35",
+      "bytes": 39112,
+      "path": "raw/zambialii/si/1991/si-zm-1991-035-tender-regulations-commencement-order-1991.html",
+      "sha": "71a97d53f078dde6f83c738e119c4a42c6511e91b67dd5d0ce2430c34d0f0b1e"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1991/35/eng@1991-03-15/source.pdf",
+      "bytes": 133184,
+      "path": "raw/zambialii/si/1991/si-zm-1991-035-tender-regulations-commencement-order-1991.pdf",
+      "sha": "1ff7abb69a6fafe512b31ea2957c1aad11f735570dd89c5f3eb7bf2a686b745a"
+    }
+  ],
+  "title": "Tender Regulations (Commencement) Order, 1991"
+}
