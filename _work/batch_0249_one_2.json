@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "1987/29",
+    "year": "1987",
+    "num": "29",
+    "title": "",
+    "parent_act": "",
+    "sub_phase": "sis_governance"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-1987-029-equity-levy-exemption-order-1987",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 1987,
+    "number": 29,
+    "title": "Equity Levy (Exemption) Order, 1987",
+    "parent_act": "Equity Levy Act, 1982",
+    "sub_phase": "sis_governance",
+    "effective_date": "1987-01-16",
+    "source_url": "https://zambialii.org/akn/zm/act/si/1987/29",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/1987/29/eng@1987-01-16/source.pdf",
+    "source_hash": "f895a9705107351bb21b1331286b840754c95b6fea751396db82062dc0022e4c",
+    "html_hash": "293207f612129553e77e573d330171d63521f76aa795149baafa305e6e808d11",
+    "fetched_at": "2026-04-26T03:08:28Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 1,
+    "pdf_text_chars": 721,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/1987/si-zm-1987-029-equity-levy-exemption-order-1987.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1987/29",
+      "bytes": 39028,
+      "path": "raw/zambialii/si/1987/si-zm-1987-029-equity-levy-exemption-order-1987.html",
+      "sha": "293207f612129553e77e573d330171d63521f76aa795149baafa305e6e808d11"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1987/29/eng@1987-01-16/source.pdf",
+      "bytes": 90379,
+      "path": "raw/zambialii/si/1987/si-zm-1987-029-equity-levy-exemption-order-1987.pdf",
+      "sha": "f895a9705107351bb21b1331286b840754c95b6fea751396db82062dc0022e4c"
+    }
+  ],
+  "title": "Equity Levy (Exemption) Order, 1987"
+}

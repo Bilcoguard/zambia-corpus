@@ -1,0 +1,99 @@
+{
+  "batch": "0249",
+  "phase": "phase_4_bulk",
+  "records_attempted": 8,
+  "records_ok": 8,
+  "records_fail": 0,
+  "records_skip": 0,
+  "yield_pct": 100.0,
+  "total_pages": 14,
+  "total_chars": 12903,
+  "sub_phase_breakdown": {
+    "sis_industry": 1,
+    "sis_governance": 7
+  },
+  "discovery_fetches": 1,
+  "record_fetches": 16,
+  "records": [
+    {
+      "id": "si-zm-2004-022-national-council-for-construction-exemption-regulations-2004",
+      "year": 2004,
+      "number": 22,
+      "title": "National Council for Construction (Exemption) Regulations, 2004",
+      "parent_act": "National Council for Construction Act",
+      "sub_phase": "sis_industry",
+      "pdf_pages": 2,
+      "pdf_text_chars": 1390
+    },
+    {
+      "id": "si-zm-1986-032-national-archives-place-of-deposit-declaration-order-1986",
+      "year": 1986,
+      "number": 32,
+      "title": "National Archives (Place of Deposit) (Declaration) Order, 1986",
+      "parent_act": "National Archives Act, 1969",
+      "sub_phase": "sis_governance",
+      "pdf_pages": 1,
+      "pdf_text_chars": 898
+    },
+    {
+      "id": "si-zm-1987-029-equity-levy-exemption-order-1987",
+      "year": 1987,
+      "number": 29,
+      "title": "Equity Levy (Exemption) Order, 1987",
+      "parent_act": "Equity Levy Act, 1982",
+      "sub_phase": "sis_governance",
+      "pdf_pages": 1,
+      "pdf_text_chars": 721
+    },
+    {
+      "id": "si-zm-1987-036-national-savings-and-credit-appointment-of-members-of-board-order-1987",
+      "year": 1987,
+      "number": 36,
+      "title": "National Savings and Credit (Appointment of Members of Board) Order, 1987",
+      "parent_act": "National Savings and Credit Act, 1972",
+      "sub_phase": "sis_governance",
+      "pdf_pages": 1,
+      "pdf_text_chars": 1255
+    },
+    {
+      "id": "si-zm-1988-038-emergency-essential-supplies-and-services-regulations-1988",
+      "year": 1988,
+      "number": 38,
+      "title": "Emergency (Essential Supplies and Services) Regulations, 1988",
+      "parent_act": "Emergency Powers Act, 1964",
+      "sub_phase": "sis_governance",
+      "pdf_pages": 3,
+      "pdf_text_chars": 4840
+    },
+    {
+      "id": "si-zm-1993-037-emergency-regulations-1993",
+      "year": 1993,
+      "number": 37,
+      "title": "Emergency Regulations, 1993",
+      "parent_act": "Emergency Powers Act, 1964",
+      "sub_phase": "sis_governance",
+      "pdf_pages": 2,
+      "pdf_text_chars": 847
+    },
+    {
+      "id": "si-zm-1995-029-national-archives-fees-regulations-1995",
+      "year": 1995,
+      "number": 29,
+      "title": "National Archives (Fees) Regulations, 1995",
+      "parent_act": "National Archives Act, 1969",
+      "sub_phase": "sis_governance",
+      "pdf_pages": 2,
+      "pdf_text_chars": 1919
+    },
+    {
+      "id": "si-zm-1995-030-national-archives-place-of-deposit-revocation-order-1995",
+      "year": 1995,
+      "number": 30,
+      "title": "National Archives (Place of Deposit) (Revocation) Order, 1995",
+      "parent_act": "National Archives Act, 1969",
+      "sub_phase": "sis_governance",
+      "pdf_pages": 2,
+      "pdf_text_chars": 1033
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "batch": "0249",
+  "records_count": 8,
+  "check1a": "PASS",
+  "check1b": "PASS",
+  "check2": "PASS",
+  "check3": "PASS",
+  "check4": "PASS",
+  "check5": "PASS",
+  "check6": "PASS",
+  "all_pass": true,
+  "record_ids": [
+    "si-zm-2004-022-national-council-for-construction-exemption-regulations-2004",
+    "si-zm-1986-032-national-archives-place-of-deposit-declaration-order-1986",
+    "si-zm-1987-029-equity-levy-exemption-order-1987",
+    "si-zm-1987-036-national-savings-and-credit-appointment-of-members-of-board-order-1987",
+    "si-zm-1988-038-emergency-essential-supplies-and-services-regulations-1988",
+    "si-zm-1993-037-emergency-regulations-1993",
+    "si-zm-1995-029-national-archives-fees-regulations-1995",
+    "si-zm-1995-030-national-archives-place-of-deposit-revocation-order-1995"
+  ]
+}

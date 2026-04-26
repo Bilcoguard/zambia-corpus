@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "1993/37",
+    "year": "1993",
+    "num": "37",
+    "title": "",
+    "parent_act": "",
+    "sub_phase": "sis_governance"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-1993-037-emergency-regulations-1993",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 1993,
+    "number": 37,
+    "title": "Emergency Regulations, 1993",
+    "parent_act": "Emergency Powers Act, 1964",
+    "sub_phase": "sis_governance",
+    "effective_date": "1993-03-08",
+    "source_url": "https://zambialii.org/akn/zm/act/si/1993/37",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/1993/37/eng@1993-03-08/source.pdf",
+    "source_hash": "8e34b729a8570f05891229b4309920aeb331dc4ab82bcc6fbfd22369a885c350",
+    "html_hash": "04db8488e761c66ed02f82048039e4bb7aa0447558b6d4a4e87aef79cb8efeee",
+    "fetched_at": "2026-04-26T03:09:51Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 2,
+    "pdf_text_chars": 847,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/1993/si-zm-1993-037-emergency-regulations-1993.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1993/37",
+      "bytes": 38642,
+      "path": "raw/zambialii/si/1993/si-zm-1993-037-emergency-regulations-1993.html",
+      "sha": "04db8488e761c66ed02f82048039e4bb7aa0447558b6d4a4e87aef79cb8efeee"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1993/37/eng@1993-03-08/source.pdf",
+      "bytes": 106894,
+      "path": "raw/zambialii/si/1993/si-zm-1993-037-emergency-regulations-1993.pdf",
+      "sha": "8e34b729a8570f05891229b4309920aeb331dc4ab82bcc6fbfd22369a885c350"
+    }
+  ],
+  "title": "Emergency Regulations, 1993"
+}

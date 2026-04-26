@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "1986/32",
+    "year": "1986",
+    "num": "32",
+    "title": "",
+    "parent_act": "",
+    "sub_phase": "sis_governance"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-1986-032-national-archives-place-of-deposit-declaration-order-1986",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 1986,
+    "number": 32,
+    "title": "National Archives (Place of Deposit) (Declaration) Order, 1986",
+    "parent_act": "National Archives Act, 1969",
+    "sub_phase": "sis_governance",
+    "effective_date": "1986-02-21",
+    "source_url": "https://zambialii.org/akn/zm/act/si/1986/32",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/1986/32/eng@1986-02-21/source.pdf",
+    "source_hash": "f4ca96ff61c3bea7d695cc93fb073d51cfe9e44e09f8c0cdeaf195b075d867e3",
+    "html_hash": "b6defa42b72520717d4e9eb7a1de13eadc428b7a8cc369633c3e15744c9c15e0",
+    "fetched_at": "2026-04-26T03:08:10Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 1,
+    "pdf_text_chars": 898,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/1986/si-zm-1986-032-national-archives-place-of-deposit-declaration-order-1986.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1986/32",
+      "bytes": 39256,
+      "path": "raw/zambialii/si/1986/si-zm-1986-032-national-archives-place-of-deposit-declaration-order-1986.html",
+      "sha": "b6defa42b72520717d4e9eb7a1de13eadc428b7a8cc369633c3e15744c9c15e0"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1986/32/eng@1986-02-21/source.pdf",
+      "bytes": 111456,
+      "path": "raw/zambialii/si/1986/si-zm-1986-032-national-archives-place-of-deposit-declaration-order-1986.pdf",
+      "sha": "f4ca96ff61c3bea7d695cc93fb073d51cfe9e44e09f8c0cdeaf195b075d867e3"
+    }
+  ],
+  "title": "National Archives (Place of Deposit) (Declaration) Order, 1986"
+}
