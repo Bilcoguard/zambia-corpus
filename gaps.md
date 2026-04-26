@@ -1119,3 +1119,9 @@ which returned 0 sections). Committed because section 2 is real Act content;
 flagged here for OCR-tolerant section regex follow-up to recover section 1.
 
 OCR backlog now 18 items. All quarantined PDFs preserved on disk for re-extraction.
+
+## Batch 0279 (2026-04-26) — Phase 4 acts_in_force fiscal-series follow-ups
+
+- **act/2002/6 — Appropriation Act, 2002** — STATUS: deferred. HTML had <2 akn-sections (fiscal-series pattern); PDF fallback fetched **7,227,519 bytes > MAX_PDF_BYTES (4,500,000)**. Raw HTML kept at `raw/zambialii/act/2002/2002-006.html` (sha256 logged in costs.log, no PDF saved). Action: add to `oversized-pdf` queue alongside any prior >4.5 MB rejections; require either MAX_PDF_BYTES bump (eg 8 MB) or streaming/chunked PDF parser before re-attempt. No record JSON written; parser refused fabrication.
+- **act/2004/6 — Supplementary Appropriation (2002) Act, 2004** — STATUS: ok (partial). Only **1 of expected 2 sections** parsed from PDF; section 1 missed by OCR (text begins mid-sentence "hereby confirmed that there was expended..."), section header heading shows hyphenated wrap "On the authority of a warrant issued by the President, it is Supplemen­..." indicating mid-line break. Same pattern as `act-zm-1994-040-supplementary-appropriation-1992-act` (b0278). Action: add to OCR section-tolerant retry queue (now 4 items: 1988/32, 1994/40, 1995/33, 2004/6).
+

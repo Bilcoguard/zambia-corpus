@@ -1,0 +1,98 @@
+[
+  {
+    "idx": 0,
+    "yr": "2001",
+    "num": "6",
+    "title": "Appropriation Act, 2001",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-2001-006-appropriation-act",
+    "sections": 2,
+    "source_hash": "sha256:04014a72908097634856000447574d305551b52dbcd019cb8654c4ef250b6b0f",
+    "source_url": "https://zambialii.org/akn/zm/act/2001/6/eng@2001-03-26"
+  },
+  {
+    "idx": 1,
+    "yr": "2002",
+    "num": "6",
+    "title": "Appropriation Act, 2002",
+    "alpha": "A",
+    "status": "pdf_too_large_7227519",
+    "id": null,
+    "sections": 0,
+    "source_hash": null,
+    "source_url": null
+  },
+  {
+    "idx": 2,
+    "yr": "2002",
+    "num": "18",
+    "title": "Supplementary Appropriation (1999) Act, 2002",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2002-018-supplementary-appropriation-1999-act",
+    "sections": 2,
+    "source_hash": "sha256:17d2d41646ee51d0b4f5ac39e7e9759ff537119b524ba8f6917e33e7de46a457",
+    "source_url": "https://zambialii.org/akn/zm/act/2002/18/eng@2002-12-31"
+  },
+  {
+    "idx": 3,
+    "yr": "2002",
+    "num": "19",
+    "title": "Supplementary Appropriation (2000) Act, 2002",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2002-019-supplementary-appropriation-2000-act",
+    "sections": 2,
+    "source_hash": "sha256:30516cf7629333d5a13b71091204118f3e6ce1df95290222c0ab2d6557228197",
+    "source_url": "https://zambialii.org/akn/zm/act/2002/19/eng@2002-12-31"
+  },
+  {
+    "idx": 4,
+    "yr": "2003",
+    "num": "7",
+    "title": "Supplementary Appropriation (2001) Act, 2003",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2003-007-supplementary-appropriation-2001-act",
+    "sections": 2,
+    "source_hash": "sha256:6321e4dc1a4398d6261c69237f146419b099b911c4d10dd107ed5275de319d71",
+    "source_url": "https://zambialii.org/akn/zm/act/2003/7/eng@2003-03-27"
+  },
+  {
+    "idx": 5,
+    "yr": "2003",
+    "num": "8",
+    "title": "Appropriation Act, 2003",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-2003-008-appropriation-act",
+    "sections": 2,
+    "source_hash": "sha256:e878c621987715ed70c59a30fbd20ffe115d7c2d1bd429ae1ac53850ba39fc23",
+    "source_url": "https://zambialii.org/akn/zm/act/2003/8/eng@2003-04-22"
+  },
+  {
+    "idx": 6,
+    "yr": "2004",
+    "num": "5",
+    "title": "Excess Expenditure Appropriation (2000) Act, 2004",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-2004-005-excess-expenditure-appropriation-2000-act",
+    "sections": 3,
+    "source_hash": "sha256:dc008040057f82424bb9e85036b6ea9bb464b81a3630df2522b7b35da3d8a5aa",
+    "source_url": "https://zambialii.org/akn/zm/act/2004/5/eng@2004-04-20"
+  },
+  {
+    "idx": 7,
+    "yr": "2004",
+    "num": "6",
+    "title": "Supplementary Appropriation (2002) Act, 2004",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2004-006-supplementary-appropriation-2002-act",
+    "sections": 1,
+    "source_hash": "sha256:9412d28cfbc94c92db85eb83b69bf27c711a3b7dee6a54b92892e359ef0d3df5",
+    "source_url": "https://zambialii.org/akn/zm/act/2004/6/eng@2004-04-20"
+  }
+]

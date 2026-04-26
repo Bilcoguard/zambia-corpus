@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 4,
+    "yr": "2003",
+    "num": "7",
+    "title": "Supplementary Appropriation (2001) Act, 2003",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2003-007-supplementary-appropriation-2001-act",
+    "sections": 2,
+    "source_hash": "sha256:6321e4dc1a4398d6261c69237f146419b099b911c4d10dd107ed5275de319d71",
+    "source_url": "https://zambialii.org/akn/zm/act/2003/7/eng@2003-03-27"
+  },
+  {
+    "idx": 5,
+    "yr": "2003",
+    "num": "8",
+    "title": "Appropriation Act, 2003",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-2003-008-appropriation-act",
+    "sections": 2,
+    "source_hash": "sha256:e878c621987715ed70c59a30fbd20ffe115d7c2d1bd429ae1ac53850ba39fc23",
+    "source_url": "https://zambialii.org/akn/zm/act/2003/8/eng@2003-04-22"
+  }
+]

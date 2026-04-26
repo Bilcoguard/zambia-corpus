@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 2,
+    "yr": "2002",
+    "num": "18",
+    "title": "Supplementary Appropriation (1999) Act, 2002",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2002-018-supplementary-appropriation-1999-act",
+    "sections": 2,
+    "source_hash": "sha256:17d2d41646ee51d0b4f5ac39e7e9759ff537119b524ba8f6917e33e7de46a457",
+    "source_url": "https://zambialii.org/akn/zm/act/2002/18/eng@2002-12-31"
+  },
+  {
+    "idx": 3,
+    "yr": "2002",
+    "num": "19",
+    "title": "Supplementary Appropriation (2000) Act, 2002",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2002-019-supplementary-appropriation-2000-act",
+    "sections": 2,
+    "source_hash": "sha256:30516cf7629333d5a13b71091204118f3e6ce1df95290222c0ab2d6557228197",
+    "source_url": "https://zambialii.org/akn/zm/act/2002/19/eng@2002-12-31"
+  }
+]
