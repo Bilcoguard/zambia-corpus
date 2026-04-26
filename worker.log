@@ -2964,3 +2964,16 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 [2026-04-26T22:38:11Z] [batch-0285] B2 sync deferred to host: rclone not available in sandbox.
 [2026-04-26T22:38:50Z] [batch-0285] commit 3bd98ab pushed: 4d632a3..3bd98ab main -> main.
 [2026-04-26T22:38:50Z] [batch-0285] tick complete. Pool 38->30 (next: 2017/22 onwards). Today fetches 580->596/2000 (~29.8%). Yield 8/8 (100%). Phase 4 remains incomplete per approvals.yaml (worker does not flip the flag). Wall-clock ~7 min.
+
+[2026-04-26T23:05:20Z] === Tick start (batch 0286) ===
+[2026-04-26T23:05:20Z] lock cleanup: BRIEF preamble find -delete ran clean (no stale ref-locks). git pull --ff-only: Already up to date. Single warning: virtiofs maintenance.lock unlink-permitted (non-fatal, pre-existing per b0192-0285).
+[2026-04-26T23:05:20Z] approvals.yaml: read OK; lowest approved+incomplete = phase_4_bulk (acts_in_force first in priority_order).
+[2026-04-26T23:05:20Z] budget check: today fetches 596/2000 (~29.8%) at tick start. Tokens within budget. OK to proceed.
+[2026-04-26T23:05:20Z] robots.txt re-verified at tick start (sha256 fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0 — unchanged from b0193..0285). Crawl-delay 5s; using 6s margin.
+[2026-04-26T23:05:20Z] picks: 8 chronologically-earliest from 30-item inherited pool (_work/batch_0285_remaining.json): 2017/22 + 2018/1 + 2018/8 + 2018/10 + 2018/22 + 2018/23 + 2019/8 + 2019/17. 6/8 fiscal (alpha A/S); 2 non-fiscal (Public Finance Management 2018, Credit Reporting 2018). Pre-flight slug-glob check: all 8 confirmed not present.
+[2026-04-26T23:09:10Z] [batch-0286] ingest: 8/8 OK; 0 deferred. 6/8 fell through to PDF fallback (HTML akn-section count <2 each — fiscal-series). 2/8 substantive non-fiscal acts ingested via HTML akn-section parser: 2018/1 Public Finance Management (152 sections), 2018/8 Credit Reporting (99 sections). All PDFs under 4.5MB cap.
+[2026-04-26T23:09:10Z] [batch-0286] integrity: ALL CHECKS PASSED (1a 8/8 batch unique; 1b 8/8 corpus presence; 2/3 0 amended_by/repealed_by refs; 4 8/8 source_hash sha256 verified vs raw HTML; 5 128/128 fields present; 6 0 cited_authorities refs).
+[2026-04-26T23:09:10Z] [batch-0286] cumulative records: acts 1148 (+8 over 1140 prior baseline; ls records/acts/**/*.json tally).
+[2026-04-26T23:09:10Z] [batch-0286] B2 sync deferred to host: rclone not available in sandbox.
+[2026-04-26T23:11:37Z] [batch-0286] commit e626322 pushed: 0dd2167..e626322 main -> main.
+[2026-04-26T23:11:37Z] [batch-0286] tick complete. Pool 30->22 (next: 2019/18 onwards). Today fetches 596->613/2000 (~30.6%). Yield 8/8 (100%). Phase 4 remains incomplete per approvals.yaml (worker does not flip the flag). Wall-clock ~7 min.
