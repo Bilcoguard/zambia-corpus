@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2022/34",
+    "year": "2022",
+    "num": "34",
+    "title": "Tolls (Toll Exemption) Order, 2022",
+    "sub_phase": "sis_transport",
+    "parent_act": "Tolls Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2022-034-tolls-toll-exemption-order-2022",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2022,
+    "number": 34,
+    "title": "Tolls (Toll Exemption) Order, 2022",
+    "parent_act": "Tolls Act",
+    "sub_phase": "sis_transport",
+    "effective_date": "2022-05-13",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2022/34",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2022/34/eng@2022-05-13/source.pdf",
+    "source_hash": "f5c9ddbccbab41464fed710d1e3b693b6b74d244bc771868506b020c10261b06",
+    "html_hash": "b37ba3cc761bcc7c198a8f577509e4386e916e2d0c646321d960e23636c1eaa1",
+    "fetched_at": "2026-04-26T00:38:47Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1361,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2022/si-zm-2022-034-tolls-toll-exemption-order-2022.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/34",
+      "bytes": 39313,
+      "path": "raw/zambialii/si/2022/si-zm-2022-034-tolls-toll-exemption-order-2022.html",
+      "sha": "b37ba3cc761bcc7c198a8f577509e4386e916e2d0c646321d960e23636c1eaa1"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/34/eng@2022-05-13/source.pdf",
+      "bytes": 286421,
+      "path": "raw/zambialii/si/2022/si-zm-2022-034-tolls-toll-exemption-order-2022.pdf",
+      "sha": "f5c9ddbccbab41464fed710d1e3b693b6b74d244bc771868506b020c10261b06"
+    }
+  ]
+}

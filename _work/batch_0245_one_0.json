@@ -1,0 +1,28 @@
+{
+  "pick": {
+    "yr_num": "2022/2",
+    "year": "2022",
+    "num": "2",
+    "title": "Customs and Excise (Suspension) (Fuel) Regulations, 2022",
+    "sub_phase": "sis_tax",
+    "parent_act": "Customs and Excise Act"
+  },
+  "status": "fail",
+  "error": "pdf_parse_empty",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/2",
+      "bytes": 40591,
+      "path": "raw/zambialii/si/2022/si-zm-2022-002-customs-and-excise-suspension-fuel-regulations-2022.html",
+      "sha": "4085cdf503d92227f7bb04ec5e16e2819574113a4b4abbc482d95a65f0e6b76e"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/2/eng@2022-01-11/source.pdf",
+      "bytes": 345956,
+      "path": "raw/zambialii/si/2022/si-zm-2022-002-customs-and-excise-suspension-fuel-regulations-2022.pdf",
+      "sha": "c222ece5f9074512aa19844d722a44c30b9d3054eef92ced47a3904aad5ac96d"
+    }
+  ],
+  "html_sha": "4085cdf503d92227f7bb04ec5e16e2819574113a4b4abbc482d95a65f0e6b76e",
+  "pdf_sha": "c222ece5f9074512aa19844d722a44c30b9d3054eef92ced47a3904aad5ac96d"
+}

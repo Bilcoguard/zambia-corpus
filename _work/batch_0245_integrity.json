@@ -1,0 +1,20 @@
+{
+  "CHECK1a": "PASS",
+  "CHECK1b": "PASS",
+  "CHECK2": "PASS",
+  "CHECK3": "PASS",
+  "CHECK4": "PASS",
+  "CHECK5": "PASS",
+  "CHECK6": "PASS",
+  "records": [
+    "si-zm-2022-056-zambia-development-agency-kalumbila-multi-facility-economic-zone-declaration-order-2022",
+    "si-zm-2022-065-public-protector-rules-2022",
+    "si-zm-2022-066-customs-and-excise-suspension-manganese-ores-and-concentrates-regulations-2022",
+    "si-zm-2022-034-tolls-toll-exemption-order-2022",
+    "si-zm-2022-050-customs-and-excise-general-amendment-regulations-2022",
+    "si-zm-2022-055-customs-and-excise-public-benefit-organisation-rebate-refund-or-remission-amendment-regulations-2022",
+    "si-zm-2022-062-customs-and-excise-suspension-fuel-no-8-regulations-2022"
+  ],
+  "record_count": 7,
+  "all_pass": true
+}

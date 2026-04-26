@@ -1,0 +1,174 @@
+{
+  "robots_sha256_prefix": "fce67b697ee4ef44",
+  "robots_path": "_work/batch_0245_robots_20260426T003420Z.txt",
+  "disallow": [
+    "/search/",
+    "/en/search/",
+    "/fr/search/",
+    "/pt/search/",
+    "/sw/search/",
+    "/api/",
+    "/akn/zm/judgment/",
+    "/akn/zm/officialGazette/",
+    "/",
+    "/",
+    "/",
+    "/",
+    "/",
+    "/",
+    "/",
+    "/",
+    "/",
+    "/",
+    "/",
+    "/",
+    "/"
+  ],
+  "ingested_count": 473,
+  "probes": {
+    "year2024p4": {
+      "url": "https://zambialii.org/legislation/subsidiary?years=2024&page=4",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "year2023p2": {
+      "url": "https://zambialii.org/legislation/subsidiary?years=2023&page=2",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "year2023p3": {
+      "url": "https://zambialii.org/legislation/subsidiary?years=2023&page=3",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "year2022p1": {
+      "url": "https://zambialii.org/legislation/subsidiary?years=2022&page=1",
+      "candidates": [
+        {
+          "yr_num": "2022/8",
+          "year": "2022",
+          "num": "8",
+          "title": "National Assembly By-Election (Kabwata Constituency No. 77) (Election Date and Time of Poll) Order, 2022",
+          "href": "/akn/zm/act/si/2022/8/eng@2022-01-14"
+        },
+        {
+          "yr_num": "2022/7",
+          "year": "2022",
+          "num": "7",
+          "title": "National Archives (Fees) Regulations, 2021",
+          "href": "/akn/zm/act/si/2022/7/eng@2021-01-11"
+        },
+        {
+          "yr_num": "2022/66",
+          "year": "2022",
+          "num": "66",
+          "title": "Customs and Excise (Suspension) (Manganese Ores and Concentrates) Regulations, 2022",
+          "href": "/akn/zm/act/si/2022/66/eng@2022-10-25"
+        },
+        {
+          "yr_num": "2022/65",
+          "year": "2022",
+          "num": "65",
+          "title": "Public Protector Rules, 2022",
+          "href": "/akn/zm/act/si/2022/65/eng@2022-10-14"
+        },
+        {
+          "yr_num": "2022/62",
+          "year": "2022",
+          "num": "62",
+          "title": "Customs and Excise (Suspension) (Fuel) (No. 8 ) Regulations, 2022",
+          "href": "/akn/zm/act/si/2022/62/eng@2022-09-30"
+        },
+        {
+          "yr_num": "2022/56",
+          "year": "2022",
+          "num": "56",
+          "title": "Zambia Development Agency (Kalumbila Multi Facility Economic Zone) (Declaration) Order, 2022",
+          "href": "/akn/zm/act/si/2022/56/eng@2022-09-16"
+        },
+        {
+          "yr_num": "2022/55",
+          "year": "2022",
+          "num": "55",
+          "title": "Customs and Excise (Public Benefit Organisation) (Rebate, Refund or Remission) (Amendment) Regulations, 2022",
+          "href": "/akn/zm/act/si/2022/55/eng@2022-09-02"
+        },
+        {
+          "yr_num": "2022/50",
+          "year": "2022",
+          "num": "50",
+          "title": "Customs and Excise (General) (Amendment) Regulations, 2022",
+          "href": "/akn/zm/act/si/2022/50/eng@2022-07-15"
+        },
+        {
+          "yr_num": "2022/46",
+          "year": "2022",
+          "num": "46",
+          "title": "Customs and Excise (Machinery and Equipment) (Suspension) (Amendment) Regulations, 2022",
+          "href": "/akn/zm/act/si/2022/46/eng@2022-06-28"
+        },
+        {
+          "yr_num": "2022/4",
+          "year": "2022",
+          "num": "4",
+          "title": "Value Added Tax (Zero-Rating) (Amendment) Order, 2022",
+          "href": "/akn/zm/act/si/2022/4/eng@2022-01-11"
+        },
+        {
+          "yr_num": "2022/36",
+          "year": "2022",
+          "num": "36",
+          "title": "Customs and Excise (Ports of Entry and Routes) (Amendment) Order, 2022",
+          "href": "/akn/zm/act/si/2022/36/eng@2022-05-27"
+        },
+        {
+          "yr_num": "2022/34",
+          "year": "2022",
+          "num": "34",
+          "title": "Tolls (Toll Exemption) Order, 2022",
+          "href": "/akn/zm/act/si/2022/34/eng@2022-05-13"
+        },
+        {
+          "yr_num": "2022/3",
+          "year": "2022",
+          "num": "3",
+          "title": "Customs and Excise (Suspension) (Fuel) (No. 2) Regulations, 2022",
+          "href": "/akn/zm/act/si/2022/3/eng@2022-01-11"
+        },
+        {
+          "yr_num": "2022/20",
+          "year": "2022",
+          "num": "20",
+          "title": "Public Holidays (Declaration) Notice, 2022",
+          "href": "/akn/zm/act/si/2022/20/eng@2022-03-16"
+        },
+        {
+          "yr_num": "2022/2",
+          "year": "2022",
+          "num": "2",
+          "title": "Customs and Excise (Suspension) (Fuel) Regulations, 2022",
+          "href": "/akn/zm/act/si/2022/2/eng@2022-01-11"
+        },
+        {
+          "yr_num": "2022/17",
+          "year": "2022",
+          "num": "17",
+          "title": "Customs and Excise (Electronic Machinery and Equipment) (Suspension) (Amendment) Regulations, 2022,",
+          "href": "/akn/zm/act/si/2022/17/eng@2022-03-04"
+        },
+        {
+          "yr_num": "2022/13",
+          "year": "2022",
+          "num": "13",
+          "title": "Minimum Wages and Conditions of Employment (Truck and Bus Drivers) (Amendment) Order, 2022",
+          "href": "/akn/zm/act/si/2022/13/eng@2022-01-28"
+        },
+        {
+          "yr_num": "2022/12",
+          "year": "2022",
+          "num": "12",
+          "title": "Societies (Amendment) Rules, 2021",
+          "href": "/akn/zm/act/si/2022/12/eng@2022-01-28"
+        }
+      ],
+      "count": 18
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "pick": {
+    "yr_num": "2022/65",
+    "year": "2022",
+    "num": "65",
+    "title": "Public Protector Rules, 2022",
+    "sub_phase": "sis_governance",
+    "parent_act": "Public Protector Act"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2022-065-public-protector-rules-2022",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2022,
+    "number": 65,
+    "title": "Public Protector Rules, 2022",
+    "parent_act": "Public Protector Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "2022-10-14",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2022/65",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2022/65/eng@2022-10-14/source.pdf",
+    "source_hash": "f8fe81b415f106da98900b9c825efc0a5a8245c3fac481bd2b4f294013d0d796",
+    "html_hash": "e7910d6ad263306c930f2818749708a2b85961e8ec18eab140c2addd2cff4e13",
+    "fetched_at": "2026-04-26T00:36:53Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 24,
+    "pdf_text_chars": 29927,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2022/si-zm-2022-065-public-protector-rules-2022.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/65",
+      "bytes": 38979,
+      "path": "raw/zambialii/si/2022/si-zm-2022-065-public-protector-rules-2022.html",
+      "sha": "e7910d6ad263306c930f2818749708a2b85961e8ec18eab140c2addd2cff4e13"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/65/eng@2022-10-14/source.pdf",
+      "bytes": 870850,
+      "path": "raw/zambialii/si/2022/si-zm-2022-065-public-protector-rules-2022.pdf",
+      "sha": "f8fe81b415f106da98900b9c825efc0a5a8245c3fac481bd2b4f294013d0d796"
+    }
+  ]
+}

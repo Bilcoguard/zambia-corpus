@@ -1,0 +1,30 @@
+{
+  "pick": {
+    "yr_num": "2022/12",
+    "year": "2022",
+    "num": "12",
+    "title": "Societies (Amendment) Rules, 2021",
+    "sub_phase": "sis_governance",
+    "parent_act": "Societies Act"
+  },
+  "status": "fail",
+  "error": "pdf_parse_empty",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/12",
+      "bytes": 39318,
+      "path": "raw/zambialii/si/2022/si-zm-2022-012-societies-amendment-rules-2021.html",
+      "sha": "146217f454c0881bb66617f9b057e9fa9a7a42da583348215356d39111fda1b5",
+      "reused": true
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/12/eng@2022-01-28/source.pdf",
+      "bytes": 440657,
+      "path": "raw/zambialii/si/2022/si-zm-2022-012-societies-amendment-rules-2021.pdf",
+      "sha": "747bc249bcdc610ea9374368813b1f564b1b3d481485c8aaefad4bf4fffe7be1",
+      "reused": true
+    }
+  ],
+  "html_sha": "146217f454c0881bb66617f9b057e9fa9a7a42da583348215356d39111fda1b5",
+  "pdf_sha": "747bc249bcdc610ea9374368813b1f564b1b3d481485c8aaefad4bf4fffe7be1"
+}
