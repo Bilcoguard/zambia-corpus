@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 0,
+    "yr": "1971",
+    "num": "34",
+    "title": "Landlord and Tenant (Business Premises) Act, 1971",
+    "alpha": "L",
+    "status": "ok",
+    "id": "act-zm-1971-034-landlord-and-tenant-business-premises-act-1971",
+    "sections": 28,
+    "source_hash": "sha256:867dd9bcaf1350b166b8b158067ee419d442e61085c33d21122d212e660d8ec8",
+    "source_url": "https://zambialii.org/akn/zm/act/1971/34/eng@2020-10-26"
+  },
+  {
+    "idx": 1,
+    "yr": "1980",
+    "num": "4",
+    "title": "Excess Expenditure Appropriation (1977) Act, 1980",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-1980-004-excess-expenditure-appropriation-1977-act-1980",
+    "sections": 2,
+    "source_hash": "sha256:99e17bcb57aa3cbce3279ece6e377579373c7d47ca220f160e542c7f8fca773f",
+    "source_url": "https://zambialii.org/akn/zm/act/1980/4/eng@1980-04-11"
+  },
+  {
+    "idx": 2,
+    "yr": "1980",
+    "num": "5",
+    "title": "Supplementary Appropriation (1978) Act, 1980",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1980-005-supplementary-appropriation-1978-act-1980",
+    "sections": 3,
+    "source_hash": "sha256:85a486237ed64ad0b5f5c3eabf1bccfb7bd5920194bc02d55af0c42fd96b8b3a",
+    "source_url": "https://zambialii.org/akn/zm/act/1980/5/eng@1980-04-11"
+  }
+]
