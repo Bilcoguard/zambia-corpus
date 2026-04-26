@@ -1,0 +1,34 @@
+{
+  "id": "act-zm-1968-018-calculation-of-taxes-act-1968",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Calculation of Taxes (Consequential Provisions) Act, 1968",
+  "citation": "Act No. 18 of 1968",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Calculation of Taxes (Consequential Provisions) Act, shall be deemed to have come into operation on the 16th January, 1968, and shall be read as one with the Taxation law."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "In this Act, unless the context otherwise requires— \"Taxation law\" means the law of the Republic or the former Protectorate of Northern Rhodesia or the former Federation of Rhodesia and Nyasaland relating to taxation of incomes and profits which is in force or has effect in the Republic in relation to the year of assessment or charge year in respect of which tax is calculated and computed in pursuance of section three; \"tax\" means any tax as defined in the Taxation law and includes any interest or addition for non-payment of tax payable under the Taxation law in respect of unpaid tax."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Any tax chargeable, leviable or collectable in respect of any year of assessment or charge year prior to and including the charge year ending on the 31st March, 1968, shall be calculated and computed in kwacha and ngwee in pursuance of the Bank of Zambia Act, save that where a rate of tax referred to in the Taxation law relating to the year of assessment or charge year in question includes an amount of money which, prior to the 16th January, 1968, was expressed or determined in pence, the amount of tax shall be calculated and computed on the basis that each penny included in that rate of tax is equal to five-sixths of an ngwee. [ Cap. 360 ]"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1968/18/eng@1996-12-31",
+  "source_hash": "sha256:580ab13352f3bf09b35ad5b22e828f8660c058558b9ea5913b4d6f698a3be20a",
+  "fetched_at": "2026-04-26T06:35:33Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}
