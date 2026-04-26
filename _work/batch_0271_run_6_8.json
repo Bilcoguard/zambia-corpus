@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "1992",
+    "num": "15",
+    "title": "Excess Expenditure Appropriation (1989) Act, 1992",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-1992-015-excess-expenditure-appropriation-1989-act-1992",
+    "sections": 1,
+    "source_hash": "sha256:a13c48ebbc9a52dd2ec43da55130ed6c6d8137d322d8506a7e1d9eab47089f84",
+    "source_url": "https://zambialii.org/akn/zm/act/1992/15/eng@1992-04-01"
+  },
+  {
+    "idx": 7,
+    "yr": "1993",
+    "num": "20",
+    "title": "Prices and Incomes Commission (Dissolution) Act, 1993",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1993-020-prices-and-incomes-commission-dissolution-act-1993",
+    "sections": 12,
+    "source_hash": "sha256:a8c45af934d1469993e7c181ddfe27c612f3d6fba8cf2cfc9522c97fae68ef9a",
+    "source_url": "https://zambialii.org/akn/zm/act/1993/20/eng@1993-04-30"
+  }
+]

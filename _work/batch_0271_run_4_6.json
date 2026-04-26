@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 4,
+    "yr": "1989",
+    "num": "32",
+    "title": "Excess Expenditure Appropriation (1987) Act, 1989",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-1989-032-excess-expenditure-appropriation-1987-act-1989",
+    "sections": 2,
+    "source_hash": "sha256:e067a165a1fd039643569d7242367234dcfb98ab08f0114a88119635db46c2cb",
+    "source_url": "https://zambialii.org/akn/zm/act/1989/32/eng@1989-12-29"
+  },
+  {
+    "idx": 5,
+    "yr": "1990",
+    "num": "38",
+    "title": "Excess Expenditure Appropriation (1988) Act, 1990",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-1990-038-excess-expenditure-appropriation-1988-act-1990",
+    "sections": 1,
+    "source_hash": "sha256:7dcc51100a12815340ea02af18ec6e325f96d73bcdf7dc693772de09fc7ec79a",
+    "source_url": "https://zambialii.org/akn/zm/act/1990/38/eng@1991-02-01"
+  }
+]
