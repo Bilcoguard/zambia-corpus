@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2016/70",
+    "year": "2016",
+    "num": "70",
+    "title": "Electoral Process (Local Government elections) (Election Dates and Times of Poll) Order, 2016",
+    "eng_date": "",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_governance"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2016-070-electoral-process-local-government-elections-election-dates-and-times-of-poll-order-2016",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2016,
+    "number": 70,
+    "title": "Electoral Process (Local Government elections) (Election Dates and Times of Poll) Order, 2016",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "2016-10-14",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2016/70",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2016/70/eng@2016-10-14/source.pdf",
+    "source_hash": "70160ae5fa4397cd2eb2ca25e919c91735dda1b1b2d1a1a64d3f60cd76ff2727",
+    "html_hash": "ddeae07b03421b7c19f4a7df5047093f4efc80342f75a7b30e78573d794abe26",
+    "fetched_at": "2026-04-26T01:41:06Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 2,
+    "pdf_text_chars": 2208,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2016/si-zm-2016-070-electoral-process-local-government-elections-election-dates-and-times-of-poll-order-2016.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2016/70",
+      "bytes": 39453,
+      "path": "raw/zambialii/si/2016/si-zm-2016-070-electoral-process-local-government-elections-election-dates-and-times-of-poll-order-2016.html",
+      "sha": "ddeae07b03421b7c19f4a7df5047093f4efc80342f75a7b30e78573d794abe26"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2016/70/eng@2016-10-14/source.pdf",
+      "bytes": 140992,
+      "path": "raw/zambialii/si/2016/si-zm-2016-070-electoral-process-local-government-elections-election-dates-and-times-of-poll-order-2016.pdf",
+      "sha": "70160ae5fa4397cd2eb2ca25e919c91735dda1b1b2d1a1a64d3f60cd76ff2727"
+    }
+  ]
+}

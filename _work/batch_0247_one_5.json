@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2016/62",
+    "year": "2016",
+    "num": "62",
+    "title": "Electoral Process (Code of Conduct) (Enforcement) Regulations, 2016",
+    "eng_date": "",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_governance"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2016-062-electoral-process-code-of-conduct-enforcement-regulations-2016",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2016,
+    "number": 62,
+    "title": "Electoral Process (Code of Conduct) (Enforcement) Regulations, 2016",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "2016-08-12",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2016/62",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2016/62/eng@2016-08-12/source.pdf",
+    "source_hash": "c59c59029f7a00bb0862dc2797987dedebd0755144f33667d9eb230a6540c5b5",
+    "html_hash": "d395bcd3bff823a821911919f942a60888f8687f639a9c3c06dcc12956e5051f",
+    "fetched_at": "2026-04-26T01:40:48Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 4,
+    "pdf_text_chars": 3949,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2016/si-zm-2016-062-electoral-process-code-of-conduct-enforcement-regulations-2016.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2016/62",
+      "bytes": 40402,
+      "path": "raw/zambialii/si/2016/si-zm-2016-062-electoral-process-code-of-conduct-enforcement-regulations-2016.html",
+      "sha": "d395bcd3bff823a821911919f942a60888f8687f639a9c3c06dcc12956e5051f"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2016/62/eng@2016-08-12/source.pdf",
+      "bytes": 41046,
+      "path": "raw/zambialii/si/2016/si-zm-2016-062-electoral-process-code-of-conduct-enforcement-regulations-2016.pdf",
+      "sha": "c59c59029f7a00bb0862dc2797987dedebd0755144f33667d9eb230a6540c5b5"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2016/63",
+    "year": "2016",
+    "num": "63",
+    "title": "Electoral Process (General) Regulations, 2016",
+    "eng_date": "",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_governance"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2016-063-electoral-process-general-regulations-2016",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2016,
+    "number": 63,
+    "title": "Electoral Process (General) Regulations, 2016",
+    "parent_act": "Electoral Process Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "2016-08-12",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2016/63",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2016/63/eng@2016-08-12/source.pdf",
+    "source_hash": "0be684b668f0cb2428b4f44a5ea033d41bfed94de1d4883e7ca17e94269e6a96",
+    "html_hash": "801aef1a82e9eb69b2d972792df5bbc4172f01af0d64cca78fe27c8761587111",
+    "fetched_at": "2026-04-26T01:40:30Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 60,
+    "pdf_text_chars": 91068,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2016/si-zm-2016-063-electoral-process-general-regulations-2016.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2016/63",
+      "bytes": 40234,
+      "path": "raw/zambialii/si/2016/si-zm-2016-063-electoral-process-general-regulations-2016.html",
+      "sha": "801aef1a82e9eb69b2d972792df5bbc4172f01af0d64cca78fe27c8761587111"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2016/63/eng@2016-08-12/source.pdf",
+      "bytes": 1008685,
+      "path": "raw/zambialii/si/2016/si-zm-2016-063-electoral-process-general-regulations-2016.pdf",
+      "sha": "0be684b668f0cb2428b4f44a5ea033d41bfed94de1d4883e7ca17e94269e6a96"
+    }
+  ]
+}

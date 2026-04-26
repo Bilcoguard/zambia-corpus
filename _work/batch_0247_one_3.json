@@ -1,0 +1,50 @@
+{
+  "pick": {
+    "yr_num": "2020/97",
+    "year": "2020",
+    "num": "97",
+    "title": "Public Finance Management (General) Regulations, 2020",
+    "eng_date": "",
+    "parent_act": "Public Finance Management Act",
+    "sub_phase": "sis_governance"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2020-097-public-finance-management-general-regulations-2020",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2020,
+    "number": 97,
+    "title": "Public Finance Management (General) Regulations, 2020",
+    "parent_act": "Public Finance Management Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "2020-11-27",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2020/97",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2020/97/eng@2020-11-27/source.pdf",
+    "source_hash": "73c5401ca722bba3f6008d98cf34f6d3a38184e5a36ebc11f6042236da20e9f9",
+    "html_hash": "bba51cee7269a411215031b5e3ad8f25ea42ebb5fad14b89ddb391272d9914bc",
+    "fetched_at": "2026-04-26T01:40:10Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 102,
+    "pdf_text_chars": 172695,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2020/si-zm-2020-097-public-finance-management-general-regulations-2020.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/97",
+      "bytes": 41535,
+      "path": "raw/zambialii/si/2020/si-zm-2020-097-public-finance-management-general-regulations-2020.html",
+      "sha": "bba51cee7269a411215031b5e3ad8f25ea42ebb5fad14b89ddb391272d9914bc",
+      "reused": true
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2020/97/eng@2020-11-27/source.pdf",
+      "bytes": 538767,
+      "path": "raw/zambialii/si/2020/si-zm-2020-097-public-finance-management-general-regulations-2020.pdf",
+      "sha": "73c5401ca722bba3f6008d98cf34f6d3a38184e5a36ebc11f6042236da20e9f9"
+    }
+  ]
+}

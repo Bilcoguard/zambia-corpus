@@ -1,0 +1,29 @@
+{
+  "year2020p2": {
+    "status": 404,
+    "unique": 0,
+    "novel": []
+  },
+  "year2019p1": {
+    "status": 200,
+    "unique": 21,
+    "novel": [
+      {
+        "yr_num": "2026/4",
+        "year": "2026",
+        "num": "4",
+        "title": "Electricity (Transmission) (Grid Code) Regulations, 2026",
+        "href": "/akn/zm/act/si/2026/4/eng@2026-01-09",
+        "eng_date": "2026-01-09"
+      },
+      {
+        "yr_num": "2022/13",
+        "year": "2022",
+        "num": "13",
+        "title": "Minimum Wages and Conditions of Employment (Truck and Bus Drivers) (Amendment) Order, 2022",
+        "href": "/akn/zm/act/si/2022/13/eng@2022-01-28",
+        "eng_date": "2022-01-28"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2021/71",
+    "year": "2021",
+    "num": "71",
+    "title": "Public Holidays (Declaration) (No. 2) Notice, 2021",
+    "eng_date": "2021-08-06",
+    "parent_act": "Public Holidays Act",
+    "sub_phase": "sis_governance"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2021-071-public-holidays-declaration-no-2-notice-2021",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2021,
+    "number": 71,
+    "title": "Public Holidays (Declaration) (No. 2) Notice, 2021",
+    "parent_act": "Public Holidays Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "2021-08-06",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2021/71",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2021/71/eng@2021-08-06/source.pdf",
+    "source_hash": "91712bec698d4ae59333848c3e6f648cb252803601b8fd73a9bef760bc90772b",
+    "html_hash": "b628d37c96baaf275b139454c50dc739b61329f5e840ee2a323014c80ebe55cc",
+    "fetched_at": "2026-04-26T01:39:09Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 2,
+    "pdf_text_chars": 844,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2021/si-zm-2021-071-public-holidays-declaration-no-2-notice-2021.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/71",
+      "bytes": 38817,
+      "path": "raw/zambialii/si/2021/si-zm-2021-071-public-holidays-declaration-no-2-notice-2021.html",
+      "sha": "b628d37c96baaf275b139454c50dc739b61329f5e840ee2a323014c80ebe55cc"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/71/eng@2021-08-06/source.pdf",
+      "bytes": 8724,
+      "path": "raw/zambialii/si/2021/si-zm-2021-071-public-holidays-declaration-no-2-notice-2021.pdf",
+      "sha": "91712bec698d4ae59333848c3e6f648cb252803601b8fd73a9bef760bc90772b"
+    }
+  ]
+}

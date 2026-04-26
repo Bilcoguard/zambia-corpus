@@ -1,0 +1,38 @@
+{
+  "CHECK1a": {
+    "pass": true,
+    "count": 8,
+    "duplicates": []
+  },
+  "CHECK1b": {
+    "pass": true,
+    "count": 8,
+    "missing": []
+  },
+  "CHECK2": {
+    "pass": true,
+    "refs_total": 0,
+    "failures": []
+  },
+  "CHECK3": {
+    "pass": true,
+    "refs_total": 0,
+    "failures": []
+  },
+  "CHECK4": {
+    "pass": true,
+    "count": 8,
+    "failures": []
+  },
+  "CHECK5": {
+    "pass": true,
+    "count": 8,
+    "failures": []
+  },
+  "CHECK6": {
+    "pass": true,
+    "refs_total": 0,
+    "failures": []
+  },
+  "ALL_PASS": true
+}

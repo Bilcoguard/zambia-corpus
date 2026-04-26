@@ -1,0 +1,18 @@
+{
+  "batch": "0247",
+  "phase": 4,
+  "tick_started_at": "2026-04-26T01:32:52Z",
+  "yield": "8/8 (100%)",
+  "records": [
+    {"id":"si-zm-2021-072-public-holidays-declaration-no-3-notice-2021","sub_phase":"sis_governance","chars":942},
+    {"id":"si-zm-2021-071-public-holidays-declaration-no-2-notice-2021","sub_phase":"sis_governance","chars":844},
+    {"id":"si-zm-2021-069-public-holidays-declaration-notice-2021","sub_phase":"sis_governance","chars":992},
+    {"id":"si-zm-2020-097-public-finance-management-general-regulations-2020","sub_phase":"sis_governance","chars":172695},
+    {"id":"si-zm-2016-063-electoral-process-general-regulations-2016","sub_phase":"sis_governance","chars":91068},
+    {"id":"si-zm-2016-062-electoral-process-code-of-conduct-enforcement-regulations-2016","sub_phase":"sis_governance","chars":3949},
+    {"id":"si-zm-2016-070-electoral-process-local-government-elections-election-dates-and-times-of-poll-order-2016","sub_phase":"sis_governance","chars":2208},
+    {"id":"si-zm-2016-049-national-prosecutions-authority-witness-allowances-and-expenses-regulations-2016","sub_phase":"sis_judicial","chars":3771}
+  ],
+  "discovery_probes": ["year2020p1","year2020p2(404)","year2019p1","year2018p1","year2017p1","alphaE","alphaN","year2023p1"],
+  "integrity": "ALL_PASS"
+}
