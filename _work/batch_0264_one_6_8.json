@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "1990",
+    "num": "43",
+    "title": "Stock Exchange Act, 1990",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1990-043-stock-exchange-act-1990",
+    "sections": 38,
+    "source_hash": "sha256:621fa4a759f999b6fca7e9e24f918feab12ada8e2bed4f90a03754f788afcf3f",
+    "source_url": "https://zambialii.org/akn/zm/act/1990/43/eng@1991-02-01"
+  },
+  {
+    "idx": 7,
+    "yr": "1933",
+    "num": "36",
+    "title": "Subordinate Courts Act, 1933",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1933-036-subordinate-courts-act-1933",
+    "sections": 58,
+    "source_hash": "sha256:8e92cfad190eabd10e3ce4abdc93fd826cf44895e41eca45db4bd3357382721e",
+    "source_url": "https://zambialii.org/akn/zm/act/1933/36/eng@1996-12-31"
+  }
+]

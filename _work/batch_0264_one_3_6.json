@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 3,
+    "yr": "2016",
+    "num": "27",
+    "title": "State Audit Commission Act, 2016",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2016-027-state-audit-commission-act-2016",
+    "sections": 32,
+    "source_hash": "sha256:ca2f7f9ece1b3a9c0839cc782f3c2cd038aab3184095af59077a24c4cd94a1ea",
+    "source_url": "https://zambialii.org/akn/zm/act/2016/27/eng@2016-06-10"
+  },
+  {
+    "idx": 4,
+    "yr": "2018",
+    "num": "13",
+    "title": "Statistics Act, 2018",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2018-013-statistics-act-2018",
+    "sections": 85,
+    "source_hash": "sha256:e1078845252a0f89eb06296a091e232ba3cd47e1cfc1ffc27cf4878935dce8f4",
+    "source_url": "https://zambialii.org/akn/zm/act/2018/13/eng@2018-12-26"
+  },
+  {
+    "idx": 5,
+    "yr": "1970",
+    "num": "43",
+    "title": "Statutory Functions Act, 1970",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1970-043-statutory-functions-act-1970",
+    "sections": 10,
+    "source_hash": "sha256:897fcec92d64032577005247950a2a963cf5d6b97181d43ef16a9e363a6ff3dc",
+    "source_url": "https://zambialii.org/akn/zm/act/1970/43/eng@1996-12-31"
+  }
+]

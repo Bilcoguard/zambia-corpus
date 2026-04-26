@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 0,
+    "yr": "1988",
+    "num": "29",
+    "title": "Sports Council of Zambia Act, 1988",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1988-029-sports-council-of-zambia-act-1988",
+    "sections": 40,
+    "source_hash": "sha256:65cec092c7d162450ea8da0beab65deab94d9a96485c39c4440e09d0f79d8ac6",
+    "source_url": "https://zambialii.org/akn/zm/act/1988/29/eng@1996-12-31"
+  },
+  {
+    "idx": 1,
+    "yr": "1957",
+    "num": "24",
+    "title": "Standardisation of Soap Act, 1957",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1957-024-standardisation-of-soap-act-1957",
+    "sections": 6,
+    "source_hash": "sha256:e64ea99d8db7736c3940f83bcde5a752f8b4346af8a35d2aa07a4924cff3636d",
+    "source_url": "https://zambialii.org/akn/zm/act/1957/24/eng@1996-12-31"
+  },
+  {
+    "idx": 2,
+    "yr": "2017",
+    "num": "4",
+    "title": "Standards Act, 2017",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2017-004-standards-act-2017",
+    "sections": 56,
+    "source_hash": "sha256:3adfefcf68d4db67eebcbeef08921b287a2aa837ea1e588c84ed63f900796ec3",
+    "source_url": "https://zambialii.org/akn/zm/act/2017/4/eng@2017-04-13"
+  }
+]

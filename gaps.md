@@ -1055,3 +1055,24 @@ regex form from `batch_0176.py`.
 ## Batch 0263 (2026-04-26) — 1956/4 URL disambiguator deferral
 
 - **1956/4** Service of Process and Execution of Judgments Act, 1956 — zambialii lists this at `/akn/zm/act/1956/4-x/eng@1996-12-31` (note the `-x` disambiguator suffix in the path). The standard fetch pattern `/akn/zm/act/{yr}/{num}` would resolve to `/1956/4` which may not redirect. Skipped from this batch to avoid 404; needs special-case handler that probes `-x` and other disambiguators (e.g. `-y`, `-z`) before falling through. Substituted in-batch with 1989/9 Specified Offices (Terminal Gratuities) Act to fill MAX_BATCH_SIZE=8 cap. Reserved for follow-up batch with disambiguator-aware fetch.
+
+## 2026-04-26 batch 0264 — Pre-existing IDs filtered from S residuals
+
+The S residual list inherited from batch 0263 included two acts already
+present in the corpus:
+
+- **1933/36 Subordinate Courts Act** (in corpus from batch 0143, commit
+  bf470ae). My batch 0264 ingestion silently overwrote it with a fresh
+  fetch (parser_version 0.6.0-act-zambialii-2026-04-26 vs original 0.5.0)
+  and regressed  from 1933-01-01 to null. Per BRIEF
+  non-negotiable #4, the record was reverted via git cat-file -p HEAD.
+- **1967/1 Suicide Act** (already in corpus). Skipped from this batch.
+
+Substituted with 2025/12 Superior Courts (Number of Judges) Act, 2025
+to fill the MAX_BATCH_SIZE=8 cap.
+
+**Action item for future batches:** discovery filter must use
+ (or equivalent
+on-disk slug-aware check) before adding a candidate to picks. Year/num
+existence check alone is insufficient because slug variants can mask
+duplicates.
