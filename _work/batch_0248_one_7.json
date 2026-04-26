@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2005/19",
+    "year": "2005",
+    "num": "19",
+    "title": "National Road Fund Act (Commencement) Order, 2005",
+    "eng_date": "2005-04-15",
+    "parent_act": "National Road Fund Act",
+    "sub_phase": "sis_transport"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2005-019-national-road-fund-act-commencement-order-2005",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2005,
+    "number": 19,
+    "title": "National Road Fund Act (Commencement) Order, 2005",
+    "parent_act": "National Road Fund Act",
+    "sub_phase": "sis_transport",
+    "effective_date": "2005-02-04",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2005/19",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2005/19/eng@2005-02-04/source.pdf",
+    "source_hash": "ada5d1c23c7b7febce24a7ab536825d335715a39e4f9e04fc3080b9a97d3d8c5",
+    "html_hash": "ecf49d6a09de5c322f2d45eefdfb0ad4a9615abc57047ad02b543262926d30ec",
+    "fetched_at": "2026-04-26T02:08:16Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 2,
+    "pdf_text_chars": 831,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2005/si-zm-2005-019-national-road-fund-act-commencement-order-2005.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2005/19",
+      "bytes": 40515,
+      "path": "raw/zambialii/si/2005/si-zm-2005-019-national-road-fund-act-commencement-order-2005.html",
+      "sha": "ecf49d6a09de5c322f2d45eefdfb0ad4a9615abc57047ad02b543262926d30ec"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2005/19/eng@2005-02-04/source.pdf",
+      "bytes": 97296,
+      "path": "raw/zambialii/si/2005/si-zm-2005-019-national-road-fund-act-commencement-order-2005.pdf",
+      "sha": "ada5d1c23c7b7febce24a7ab536825d335715a39e4f9e04fc3080b9a97d3d8c5"
+    }
+  ]
+}

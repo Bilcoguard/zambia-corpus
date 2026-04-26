@@ -1,0 +1,12 @@
+{
+  "url": "https://zambialii.org/robots.txt",
+  "status": 200,
+  "bytes": 2022,
+  "sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "sha256_prefix16": "fce67b697ee4ef44",
+  "fetched_at": "2026-04-26T02:04:39Z",
+  "matches_prior": true,
+  "disallow_judgment": true,
+  "disallow_gazette": true,
+  "crawl_delay": "Crawl-delay: 5"
+}

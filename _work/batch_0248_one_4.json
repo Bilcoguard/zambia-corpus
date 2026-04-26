@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2009/37",
+    "year": "2009",
+    "num": "37",
+    "title": "National Council for Construction (Forms and Fees) Regulations, 2009",
+    "eng_date": "2009-03-13",
+    "parent_act": "National Council for Construction Act",
+    "sub_phase": "sis_industry"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2009-037-national-council-for-construction-forms-and-fees-regulations-2009",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2009,
+    "number": 37,
+    "title": "National Council for Construction (Forms and Fees) Regulations, 2009",
+    "parent_act": "National Council for Construction Act",
+    "sub_phase": "sis_industry",
+    "effective_date": "2009-06-19",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2009/37",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2009/37/eng@2009-06-19/source.pdf",
+    "source_hash": "a041636b4be45885f4637a993c8a762019d4e31668ac769dee3309af1d7c407e",
+    "html_hash": "7ad912ebc254837b3c1bc7a8f03e144cf1f83a6ac6b78ce479d909805ea4eb1c",
+    "fetched_at": "2026-04-26T02:07:23Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 26,
+    "pdf_text_chars": 41457,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2009/si-zm-2009-037-national-council-for-construction-forms-and-fees-regulations-2009.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2009/37",
+      "bytes": 42730,
+      "path": "raw/zambialii/si/2009/si-zm-2009-037-national-council-for-construction-forms-and-fees-regulations-2009.html",
+      "sha": "7ad912ebc254837b3c1bc7a8f03e144cf1f83a6ac6b78ce479d909805ea4eb1c"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2009/37/eng@2009-06-19/source.pdf",
+      "bytes": 3402094,
+      "path": "raw/zambialii/si/2009/si-zm-2009-037-national-council-for-construction-forms-and-fees-regulations-2009.pdf",
+      "sha": "a041636b4be45885f4637a993c8a762019d4e31668ac769dee3309af1d7c407e"
+    }
+  ]
+}

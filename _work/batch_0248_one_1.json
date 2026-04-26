@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2015/39",
+    "year": "2015",
+    "num": "39",
+    "title": "National Council for Construction (Registration of Projects) Regulations, 2015",
+    "eng_date": "2015-04-30",
+    "parent_act": "National Council for Construction Act",
+    "sub_phase": "sis_industry"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2015-039-national-council-for-construction-registration-of-projects-regulations-2015",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2015,
+    "number": 39,
+    "title": "National Council for Construction (Registration of Projects) Regulations, 2015",
+    "parent_act": "National Council for Construction Act",
+    "sub_phase": "sis_industry",
+    "effective_date": "2015-06-26",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2015/39",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2015/39/eng@2015-06-26/source.pdf",
+    "source_hash": "b241d1da9e1b0ba3771b7c52b3497a1a2fc6adf780a0503b5b73de97ac012c76",
+    "html_hash": "9694833c883febc2e20946b803c9ce1a841c3ecb50f634b24ecf9aa5dddf59ff",
+    "fetched_at": "2026-04-26T02:06:21Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 14,
+    "pdf_text_chars": 17182,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2015/si-zm-2015-039-national-council-for-construction-registration-of-projects-regulations-2015.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2015/39",
+      "bytes": 39361,
+      "path": "raw/zambialii/si/2015/si-zm-2015-039-national-council-for-construction-registration-of-projects-regulations-2015.html",
+      "sha": "9694833c883febc2e20946b803c9ce1a841c3ecb50f634b24ecf9aa5dddf59ff"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2015/39/eng@2015-06-26/source.pdf",
+      "bytes": 85406,
+      "path": "raw/zambialii/si/2015/si-zm-2015-039-national-council-for-construction-registration-of-projects-regulations-2015.pdf",
+      "sha": "b241d1da9e1b0ba3771b7c52b3497a1a2fc6adf780a0503b5b73de97ac012c76"
+    }
+  ]
+}

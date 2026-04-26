@@ -1,0 +1,72 @@
+{
+  "records": [
+    {
+      "idx": 0,
+      "id": "si-zm-2016-003-estate-agents-general-regulations-2016",
+      "yr_num": "2016/3",
+      "pages": 26,
+      "chars": 30777,
+      "sub_phase": "sis_corporate"
+    },
+    {
+      "idx": 1,
+      "id": "si-zm-2015-039-national-council-for-construction-registration-of-projects-regulations-2015",
+      "yr_num": "2015/39",
+      "pages": 14,
+      "chars": 17182,
+      "sub_phase": "sis_industry"
+    },
+    {
+      "idx": 2,
+      "id": "si-zm-2015-089-national-museums-declaration-order-2015",
+      "yr_num": "2015/89",
+      "pages": 2,
+      "chars": 826,
+      "sub_phase": "sis_governance"
+    },
+    {
+      "idx": 3,
+      "id": "si-zm-2016-059-national-museums-entry-fees-regulations-2016",
+      "yr_num": "2016/59",
+      "pages": 2,
+      "chars": 1267,
+      "sub_phase": "sis_governance"
+    },
+    {
+      "idx": 4,
+      "id": "si-zm-2009-037-national-council-for-construction-forms-and-fees-regulations-2009",
+      "yr_num": "2009/37",
+      "pages": 26,
+      "chars": 41457,
+      "sub_phase": "sis_industry"
+    },
+    {
+      "idx": 5,
+      "id": "si-zm-2008-024-national-constitutional-conference-committees-regulations-2008",
+      "yr_num": "2008/24",
+      "pages": 18,
+      "chars": 30989,
+      "sub_phase": "sis_governance"
+    },
+    {
+      "idx": 6,
+      "id": "si-zm-2008-016-national-road-fund-charges-and-fees-apportionment-regulations-2008",
+      "yr_num": "2008/16",
+      "pages": 2,
+      "chars": 1737,
+      "sub_phase": "sis_transport"
+    },
+    {
+      "idx": 7,
+      "id": "si-zm-2005-019-national-road-fund-act-commencement-order-2005",
+      "yr_num": "2005/19",
+      "pages": 2,
+      "chars": 831,
+      "sub_phase": "sis_transport"
+    }
+  ],
+  "total_pages": 92,
+  "total_chars": 125066,
+  "ok": 8,
+  "attempted": 8
+}

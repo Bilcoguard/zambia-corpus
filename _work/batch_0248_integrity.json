@@ -1,0 +1,17 @@
+{
+  "batch": "0248",
+  "records_count": 8,
+  "CHECK1a_unique": true,
+  "CHECK1b_disk_presence": true,
+  "CHECK2_amended_by_resolves": true,
+  "CHECK3_repealed_by_resolves": true,
+  "CHECK4_sha256_matches": true,
+  "CHECK5_required_fields": true,
+  "CHECK6_cited_authorities_resolve": true,
+  "unresolved_amend": [],
+  "unresolved_repeal": [],
+  "sha_mismatches": [],
+  "field_misses": [],
+  "unresolved_cite": [],
+  "all_pass": true
+}
