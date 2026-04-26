@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 0,
+    "yr": "1989",
+    "num": "1",
+    "title": "Zambia Centre for Accountancy Studies Act, 1989",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1989-001-zambia-centre-for-accountancy-studies-act-1989",
+    "sections": 6,
+    "source_hash": "sha256:5b621318e2503339c15f53117dcdedb7d825948e96d0ee5167a7ced5f2cf92c2",
+    "source_url": "https://zambialii.org/akn/zm/act/1989/1/eng@1989-05-19"
+  },
+  {
+    "idx": 1,
+    "yr": "1993",
+    "num": "25",
+    "title": "Zambia Iron and Steel Authority (Dissolution) Act, 1993",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1993-025-zambia-iron-and-steel-authority-dissolution-act-1993",
+    "sections": 5,
+    "source_hash": "sha256:778ce7f1b3443af2d3d2fad22ff1e0f2c243c8fb501757c5669cb8b9e633860c",
+    "source_url": "https://zambialii.org/akn/zm/act/1993/25/eng@1993-04-30"
+  },
+  {
+    "idx": 2,
+    "yr": "1995",
+    "num": "24",
+    "title": "Zambia Institute of Diplomacy and International Studies Act, 1995",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1995-024-zambia-institute-of-diplomacy-and-international-studies-act-1995",
+    "sections": 21,
+    "source_hash": "sha256:36914e9206c29df1df32b98758549139819f78d71873b535b114f6aec42cfb09",
+    "source_url": "https://zambialii.org/akn/zm/act/1995/24/eng@1996-12-31"
+  }
+]

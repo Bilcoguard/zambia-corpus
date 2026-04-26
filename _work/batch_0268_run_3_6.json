@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 3,
+    "yr": "1995",
+    "num": "36",
+    "title": "Zambia Institute of Architects Act, 1995",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1995-036-zambia-institute-of-architects-act-1995",
+    "sections": 54,
+    "source_hash": "sha256:6a8451dcd2b959cf52731b9637c01584c4392d78f667dc7754a227ea7cf6a18d",
+    "source_url": "https://zambialii.org/akn/zm/act/1995/36/eng@1996-12-31"
+  },
+  {
+    "idx": 4,
+    "yr": "1996",
+    "num": "10",
+    "title": "Zambia Institute of Advanced Legal Education Act, 1996",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1996-010-zambia-institute-of-advanced-legal-education-act-1996",
+    "sections": 24,
+    "source_hash": "sha256:750c7b0deacc582855d748e8112fc2c66e64ae97268e580e67553a943a4e2a6f",
+    "source_url": "https://zambialii.org/akn/zm/act/1996/10/eng@1996-12-31"
+  },
+  {
+    "idx": 5,
+    "yr": "1996",
+    "num": "11",
+    "title": "Zambia Law Development Commission Act, 1996",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1996-011-zambia-law-development-commission-act-1996",
+    "sections": 22,
+    "source_hash": "sha256:b6a47e5a752122d39bec131a2e2299d4c6ce21a53c823ccd9b3a35f9e5c50a17",
+    "source_url": "https://zambialii.org/akn/zm/act/1996/11/eng@1996-12-31"
+  }
+]

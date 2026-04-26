@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "1996",
+    "num": "19",
+    "title": "Zambia Institute of Mass Communications (Repeal) Act, 1996",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1996-019-zambia-institute-of-mass-communications-repeal-act-1996",
+    "sections": 8,
+    "source_hash": "sha256:34a401eedc558e4483a0e59c24dbbce7c857715815f0f226efc49521878b45b0",
+    "source_url": "https://zambialii.org/akn/zm/act/1996/19/eng@1996-12-31"
+  },
+  {
+    "idx": 7,
+    "yr": "1997",
+    "num": "11",
+    "title": "Zambia Institute of Human Resources Management Act, 1997",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1997-011-zambia-institute-of-human-resources-management-act-1997",
+    "sections": 44,
+    "source_hash": "sha256:f87455c5ff3ecbce6d4dda5957acbd24588544482ccc0edf38d192831e67d00c",
+    "source_url": "https://zambialii.org/akn/zm/act/1997/11/eng@1997-04-18"
+  }
+]
