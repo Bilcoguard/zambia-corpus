@@ -1,0 +1,103 @@
+{
+  "ok": [
+    {
+      "idx": 0,
+      "yr": "1992",
+      "num": "16",
+      "title": "Supplementary Appropriation (1990) Act, 1992",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-1992-016-supplementary-appropriation-1990-act",
+      "sections": 2,
+      "source_hash": "sha256:190266baa1ff5540374ec73c7fdc35d57fd6d127a72a4adf2a98571a6aff2d95",
+      "source_url": "https://zambialii.org/akn/zm/act/1992/16/eng@1992-04-01"
+    },
+    {
+      "idx": 1,
+      "yr": "1993",
+      "num": "29",
+      "title": "Supplementary Appropriation (1991) Act, 1993",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-1993-029-supplementary-appropriation-1991-act",
+      "sections": 2,
+      "source_hash": "sha256:405180374ab28eda4a9e6d135795bd17376f25d08e8b8bd04826025d3fe059eb",
+      "source_url": "https://zambialii.org/akn/zm/act/1993/29/eng@1993-09-08"
+    },
+    {
+      "idx": 2,
+      "yr": "1994",
+      "num": "40",
+      "title": "Supplementary Appropriation (1992) Act, 1994",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-1994-040-supplementary-appropriation-1992-act",
+      "sections": 1,
+      "source_hash": "sha256:083c9262118a901759efbf761b9570a2285ddcda10dbf29427c59931df9ce8fa",
+      "source_url": "https://zambialii.org/akn/zm/act/1994/40/eng@1994-12-31"
+    },
+    {
+      "idx": 3,
+      "yr": "1995",
+      "num": "33",
+      "title": "Supplementary Appropriation (1993) Act, 1995",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-1995-033-supplementary-appropriation-1993-act",
+      "sections": 1,
+      "source_hash": "sha256:1699a18654c227c264122bef5eb3a6ffe3e69f1c7913c3b3f087d8a3deec6728",
+      "source_url": "https://zambialii.org/akn/zm/act/1995/33/eng@1995-12-29"
+    },
+    {
+      "idx": 4,
+      "yr": "1997",
+      "num": "23",
+      "title": "Supplementary Appropriation (1994) Act, 1997",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-1997-023-supplementary-appropriation-1994-act",
+      "sections": 2,
+      "source_hash": "sha256:4f7b6bc688cf316b3445cfac828cb7897385159db93178d8c90b0623983dd28d",
+      "source_url": "https://zambialii.org/akn/zm/act/1997/23/eng@1997-11-14"
+    },
+    {
+      "idx": 5,
+      "yr": "1997",
+      "num": "29",
+      "title": "Supplementary Appropriation (1995) Act, 1997",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-1997-029-supplementary-appropriation-1995-act",
+      "sections": 2,
+      "source_hash": "sha256:01c0dee32844e0e09112c4573c8a27801e02763122df71263b1c1cf4fa59f20c",
+      "source_url": "https://zambialii.org/akn/zm/act/1997/29/eng@1997-12-22"
+    },
+    {
+      "idx": 7,
+      "yr": "2001",
+      "num": "5",
+      "title": "Supplementary Appropriation (1998) Act, 2001",
+      "alpha": "S",
+      "status": "ok",
+      "id": "act-zm-2001-005-supplementary-appropriation-1998-act",
+      "sections": 2,
+      "source_hash": "sha256:cd06d26d73ff0b39d6b43c945f9ee55921f976ea3519f3ef5444e526c5edf595",
+      "source_url": "https://zambialii.org/akn/zm/act/2001/5/eng@2001-03-26"
+    }
+  ],
+  "fail": [
+    {
+      "idx": 6,
+      "yr": "2000",
+      "num": "11",
+      "title": "Appropriation Act, 2000",
+      "alpha": "A",
+      "status": "no_sections",
+      "id": null,
+      "sections": 0,
+      "source_hash": null,
+      "source_url": null
+    }
+  ],
+  "total": 8
+}

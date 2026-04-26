@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 0,
+    "yr": "1992",
+    "num": "16",
+    "title": "Supplementary Appropriation (1990) Act, 1992",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1992-016-supplementary-appropriation-1990-act",
+    "sections": 2,
+    "source_hash": "sha256:190266baa1ff5540374ec73c7fdc35d57fd6d127a72a4adf2a98571a6aff2d95",
+    "source_url": "https://zambialii.org/akn/zm/act/1992/16/eng@1992-04-01"
+  },
+  {
+    "idx": 1,
+    "yr": "1993",
+    "num": "29",
+    "title": "Supplementary Appropriation (1991) Act, 1993",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1993-029-supplementary-appropriation-1991-act",
+    "sections": 2,
+    "source_hash": "sha256:405180374ab28eda4a9e6d135795bd17376f25d08e8b8bd04826025d3fe059eb",
+    "source_url": "https://zambialii.org/akn/zm/act/1993/29/eng@1993-09-08"
+  }
+]

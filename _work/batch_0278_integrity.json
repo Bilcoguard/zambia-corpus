@@ -1,0 +1,30 @@
+{
+  "committed": 6,
+  "checks": "PASS",
+  "rule_results": {
+    "CHECK1a": "6/6 batch-unique",
+    "CHECK1b": "6/6 on-disk",
+    "CHECK2": "0 amended_by refs",
+    "CHECK3": "0 repealed_by refs",
+    "CHECK4": "6/6 source_hash sha256 verified",
+    "CHECK5": "96/96 (16x6) required fields",
+    "CHECK6": "0 cited_authorities refs"
+  },
+  "quarantined": [
+    {
+      "id": "act-zm-1995-033-supplementary-appropriation-1993-act",
+      "reason": "OCR-section-spurious: regex captured '95.' from garbled 'No. 33 of 1995' as a section number; section heading is OCR noise, not Act structure",
+      "raw_pdf_kept": "raw/zambialii/act/1995/1995-033.pdf",
+      "quarantine_path": "_stale_locks/act-zm-1995-033-supplementary-appropriation-1993-act.json.b0278-ocr-quarantine"
+    }
+  ],
+  "no_sections": [
+    {
+      "yr": "2000",
+      "num": "11",
+      "title": "Appropriation Act, 2000",
+      "reason": "PDF is image-only (15 chars extractable across all pages); requires OCR pipeline",
+      "raw_pdf_kept": "raw/zambialii/act/2000/2000-011.pdf"
+    }
+  ]
+}

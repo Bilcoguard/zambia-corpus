@@ -1099,3 +1099,23 @@ ingested cleanly. Two are deferred:
 OCR backlog unchanged at 17 items (no new OCR-only PDFs this batch). Duplicate-existing
 sweep candidate for one-shot audit: enumerate all `act-zm-<yr>-<num:03d>-*.json` glob
 collisions across `records/acts/`.
+
+## Batch 0278 (2026-04-26) — OCR section-spurious + image-only PDF
+
+Of 8 chronological picks from the inherited 102-item page-2 missing pool (refreshed
+to 94 candidates after glob-dedup of 6 batch-0277-committed and gaps-filter of
+1988/21 + 1988/32), 6/8 ingested cleanly. Two are deferred:
+
+- **1995/33** Supplementary Appropriation (1993) Act, 1995 — `https://zambialii.org/akn/zm/act/1995/33` — OCR_SECTION_SPURIOUS. PDF (2.5 MB, 18,234 chars OCR'd legibly enough for the regex to match patterns) was severely OCR-degraded: the section regex `^(\d+)\.\s+...` matched a single "section 95." which is not actually a section but a fragment of "No. 33 of 1995" whose OCR broke across lines as `(1 9 11 9 9b 5 12`. The captured "section 95" heading is OCR noise (`P J;i JO ... ? i - , • t £ • ? e B l ? 11`). Parser refused to fabricate clean section structure; record was written then quarantined to `_stale_locks/act-zm-1995-033-supplementary-appropriation-1993-act.json.b0278-ocr-quarantine` (virtiofs unlink restriction prevented direct rm). Raw HTML+PDF preserved at `raw/zambialii/act/1995/1995-033.{html,pdf}`. Action item: re-extract via dedicated OCR pipeline (tesseract/abbyy) before regex section-detection. Title says "1993" Act but PDF is from 1995 publication; cross-reference Cap discrepancy noted.
+
+- **2000/11** Appropriation Act, 2000 — `https://zambialii.org/akn/zm/act/2000/11` — `no_sections`. HTML returned 0 akn-sections so PDF fallback engaged. PDF (816 KB) is purely scanned-image with NO embedded text layer (15 chars extractable across all pages). Parser refused to fabricate. Raw HTML+PDF preserved at `raw/zambialii/act/2000/2000-011.{html,pdf}`. Added to OCR backlog. OCR backlog now 18 items (act/2000/8, act/2000/16, act/2000/11 added; previously: si 2017/068, 2018/011, 2018/075, 2018/093, 2020/007, 2022/004, 2022/007, 2022/008, 2022/012, 2022/013, 2026/004 + earlier SIs).
+
+**Note on 1994/40** Supplementary Appropriation (1992) Act, 1994 — committed with only
+1 captured section (section 2 — "The expenditure on the services of the Republic
+during the Supplementary financial year which ended on 31st December, 1992..."),
+genuine Act content but with OCR noise. Section 1 (short title) was not detected
+because OCR mis-rendered "1." as a non-digit token (similar to b0277 1988/32 case
+which returned 0 sections). Committed because section 2 is real Act content;
+flagged here for OCR-tolerant section regex follow-up to recover section 1.
+
+OCR backlog now 18 items. All quarantined PDFs preserved on disk for re-extraction.

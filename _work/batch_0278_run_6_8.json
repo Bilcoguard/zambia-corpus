@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "2000",
+    "num": "11",
+    "title": "Appropriation Act, 2000",
+    "alpha": "A",
+    "status": "no_sections",
+    "id": null,
+    "sections": 0,
+    "source_hash": null,
+    "source_url": null
+  },
+  {
+    "idx": 7,
+    "yr": "2001",
+    "num": "5",
+    "title": "Supplementary Appropriation (1998) Act, 2001",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2001-005-supplementary-appropriation-1998-act",
+    "sections": 2,
+    "source_hash": "sha256:cd06d26d73ff0b39d6b43c945f9ee55921f976ea3519f3ef5444e526c5edf595",
+    "source_url": "https://zambialii.org/akn/zm/act/2001/5/eng@2001-03-26"
+  }
+]
