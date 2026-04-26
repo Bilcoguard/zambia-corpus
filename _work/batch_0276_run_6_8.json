@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "1964",
+    "num": "56",
+    "title": "Public Seal Act, 1964",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1964-056-public-seal-act",
+    "sections": 5,
+    "source_hash": "sha256:ecd988e93d9880453afe1efbcc5d98d7dc82de12c9329dbd02e554ee4d3ba156",
+    "source_url": "https://zambialii.org/akn/zm/act/1964/56/eng@1996-12-31"
+  },
+  {
+    "idx": 7,
+    "yr": "1968",
+    "num": "40",
+    "title": "Notaries Public and Notarial Functions Act, 1968",
+    "alpha": "N",
+    "status": "ok",
+    "id": "act-zm-1968-040-notaries-public-and-notarial-functions-act",
+    "sections": 32,
+    "source_hash": "sha256:627fce4d892acbc8450fa6430615b4a90d8bdc83feef7e43bdd33d64ebd374f3",
+    "source_url": "https://zambialii.org/akn/zm/act/1968/40/eng@1996-12-31"
+  }
+]

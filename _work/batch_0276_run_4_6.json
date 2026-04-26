@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 4,
+    "yr": "1953",
+    "num": "59",
+    "title": "Noxious Weeds Act, 1953",
+    "alpha": "N",
+    "status": "ok",
+    "id": "act-zm-1953-059-noxious-weeds-act",
+    "sections": 14,
+    "source_hash": "sha256:fcaffcf920678b76013aa9cf668261b70b9f12659e500b81ea5955a7a6cc45ed",
+    "source_url": "https://zambialii.org/akn/zm/act/1953/59/eng@1996-12-31"
+  },
+  {
+    "idx": 5,
+    "yr": "1964",
+    "num": "14",
+    "title": "Public Holidays Act, 1964",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1964-014-public-holidays-act",
+    "sections": 3,
+    "source_hash": "sha256:99b9ee8b95b44b7f4e9e58de9783da7fc0b5d701996551b6a4ccbdf2b4555fd8",
+    "source_url": "https://zambialii.org/akn/zm/act/1964/14/eng@1996-12-31"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "id": "act-zm-1964-056-public-seal-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Public Seal Act, 1964",
+  "citation": "Act No. 56 of 1964",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Public Seal Act."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "In this Act, unless the context otherwise requires— \" the President \" means the President of the Republic ; \" the Republic \" means the Republic of Zambia."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The Public Seal of the Republic shall be the following device:"
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The President may appoint a person holding office in the service of the Republic to be the Custodian of the Public Seal and may give directions as to the manner in which it shall be kept and used.\nThe President may appoint a person holding office in the service of the Republic to be the Custodian of the Public Seal and may give directions as to the manner in which it shall be kept and used.\n(2) In the absence of any such appointment, the President shall be the Custodian of the Public Seal.\nIn the absence of any such appointment, the President shall be the Custodian of the Public Seal."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Whenever the Public Seal is affixed to any document or other thing, the affixation shall be authenticated by the signature of the Custodian of the Public Seal."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1964/56/eng@1996-12-31",
+  "source_hash": "sha256:ecd988e93d9880453afe1efbcc5d98d7dc82de12c9329dbd02e554ee4d3ba156",
+  "fetched_at": "2026-04-26T17:38:55Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}

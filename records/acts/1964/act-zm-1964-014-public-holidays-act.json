@@ -1,0 +1,34 @@
+{
+  "id": "act-zm-1964-014-public-holidays-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Public Holidays Act, 1964",
+  "citation": "Act No. 14 of 1964",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Public Holidays Act."
+    },
+    {
+      "number": "(1)",
+      "heading": "",
+      "text": "(1) The days mentioned in the Schedule shall be observed throughout Zambia as public holidays.\nThe days mentioned in the Schedule shall be observed throughout Zambia as public holidays.\n(2) Whenever any of the days mentioned in the Schedule falls on a Sunday, the following Monday shall be observed as a public holiday.\nWhenever any of the days mentioned in the Schedule falls on a Sunday, the following Monday shall be observed as a public holiday.\n(3) Repealed by Act No. 14 of 1975.\nRepealed by Act No. 14 of 1975."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The Minister shall have power, by statutory notice, from time to time to declare that any day or days shall be observed in Zambia as public holidays in addition to the days mentioned in the Schedule, and any day set apart by virtue of such notice as a public holiday shall be so observed throughout Zambia."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1964/14/eng@1996-12-31",
+  "source_hash": "sha256:99b9ee8b95b44b7f4e9e58de9783da7fc0b5d701996551b6a4ccbdf2b4555fd8",
+  "fetched_at": "2026-04-26T17:38:45Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}

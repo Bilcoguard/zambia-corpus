@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 2,
+    "yr": "1929",
+    "num": "20",
+    "title": "Public Officers (Change of Titles) Act, 1929",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1929-020-public-officers-change-of-titles-act",
+    "sections": 3,
+    "source_hash": "sha256:24e21b54eb45e59f7cf85bc01ef1012c2170136200c776398f2f8226e0797d18",
+    "source_url": "https://zambialii.org/akn/zm/act/1929/20/eng@1996-12-31"
+  },
+  {
+    "idx": 3,
+    "yr": "1944",
+    "num": "13",
+    "title": "Extermination of Mosquitoes Act, 1944",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-1944-013-extermination-of-mosquitoes-act",
+    "sections": 8,
+    "source_hash": "sha256:5138341821166e921dcea0754fa6b7360ec2f9db2a973144cc85353539cbc4a3",
+    "source_url": "https://zambialii.org/akn/zm/act/1944/13/eng@1996-12-31"
+  }
+]

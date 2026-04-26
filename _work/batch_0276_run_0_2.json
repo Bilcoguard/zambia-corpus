@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 0,
+    "yr": "1920",
+    "num": "2",
+    "title": "Public Pounds and Trespass Act, 1920",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1920-002-public-pounds-and-trespass-act",
+    "sections": 83,
+    "source_hash": "sha256:bd2aeda0a792788742ddb7cfe4a1ec2a1a235f212d9b09d99188d2d4ff4e2595",
+    "source_url": "https://zambialii.org/akn/zm/act/1920/2/eng@1996-12-31"
+  },
+  {
+    "idx": 1,
+    "yr": "1925",
+    "num": "24",
+    "title": "Export of Pigs Act, 1925",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-1925-024-export-of-pigs-act",
+    "sections": 4,
+    "source_hash": "sha256:1eef22f30e934a4fe1d8c0e32987412c0bce5434702a5605070000a427882085",
+    "source_url": "https://zambialii.org/akn/zm/act/1925/24/eng@1996-12-31"
+  }
+]

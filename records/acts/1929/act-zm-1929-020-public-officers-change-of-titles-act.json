@@ -1,0 +1,34 @@
+{
+  "id": "act-zm-1929-020-public-officers-change-of-titles-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Public Officers (Change of Titles) Act, 1929",
+  "citation": "Act No. 20 of 1929",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Public Officers (Change of Titles) Act."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Wherever any title amongst those of the public officers set out in the first column of the Schedule appears in any written law, order or notice now in force, it shall be deemed to be replaced by the corresponding title or titles set out in the second column of the Schedule. [As amended by No. 36 of 1933]"
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "Whenever any change of title of any public officer occurs at any future time, the President, if occasion requires, may, by statutory notice, make any necessary substitution in or addition to the Schedule, and the provisions of section two shall apply accordingly in conformity with every such substitution or addition. [As amended by G.N. No. 234 of 1964]"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1929/20/eng@1996-12-31",
+  "source_hash": "sha256:24e21b54eb45e59f7cf85bc01ef1012c2170136200c776398f2f8226e0797d18",
+  "fetched_at": "2026-04-26T17:38:14Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}
