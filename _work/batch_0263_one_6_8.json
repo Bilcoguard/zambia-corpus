@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "1988",
+    "num": "38",
+    "title": "Specified Offices (Terminal Gratuities) Act, 1988",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1988-038-specified-offices-terminal-gratuities-act-1988",
+    "sections": 17,
+    "source_hash": "sha256:ca766f661bfa0261ea2cd9ef8c9202e9880c9e8d810411fc6fcbdcbf9264cc30",
+    "source_url": "https://zambialii.org/akn/zm/act/1988/38/eng@1988-12-30"
+  },
+  {
+    "idx": 7,
+    "yr": "1989",
+    "num": "9",
+    "title": "Specified Offices (Terminal Gratuities) Act, 1989",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1989-009-specified-offices-terminal-gratuities-act-1989",
+    "sections": 3,
+    "source_hash": "sha256:a4c9e7189e5cd3cf70ec1af2dd9ea3a3864c39799cea31f2221da0a36db80535",
+    "source_url": "https://zambialii.org/akn/zm/act/1989/9/eng@1989-05-19"
+  }
+]

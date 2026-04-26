@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 0,
+    "yr": "1960",
+    "num": "28",
+    "title": "Sheriffs Act, 1960",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1960-028-sheriffs-act-1960",
+    "sections": 19,
+    "source_hash": "sha256:0df8d552d631fb25bf3ea079e229882d2635152a213708319edbd92942909f66",
+    "source_url": "https://zambialii.org/akn/zm/act/1960/28/eng@1996-12-31"
+  },
+  {
+    "idx": 1,
+    "yr": "2016",
+    "num": "46",
+    "title": "Skills Development Levy Act, 2016",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2016-046-skills-development-levy-act-2016",
+    "sections": 16,
+    "source_hash": "sha256:f8384b9bb8d754e284d1d5d82dbe987b56f40dd9d3a7c379042199e923217ad5",
+    "source_url": "https://zambialii.org/akn/zm/act/2016/46/eng@2016-12-27"
+  },
+  {
+    "idx": 2,
+    "yr": "1981",
+    "num": "18",
+    "title": "Small Industries Development Act, 1981",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1981-018-small-industries-development-act-1981",
+    "sections": 18,
+    "source_hash": "sha256:9e00f672fd78e0ca54698dcb610b3d46537531eedf114590a69eef5dfa67078c",
+    "source_url": "https://zambialii.org/akn/zm/act/1981/18/eng@1981-12-18"
+  }
+]

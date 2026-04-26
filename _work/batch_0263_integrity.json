@@ -1,0 +1,79 @@
+{
+  "check1a": [],
+  "check1b": [
+    "OK_act-zm-1960-028-sheriffs-act-1960",
+    "OK_act-zm-2016-046-skills-development-levy-act-2016",
+    "OK_act-zm-1981-018-small-industries-development-act-1981",
+    "OK_act-zm-2022-004-social-workers-association-of-zambia-act-2022",
+    "OK_act-zm-2018-020-solid-waste-regulation-and-management-act-2018",
+    "OK_act-zm-1950-047-specific-loan-rhodesia-railways-act-1950",
+    "OK_act-zm-1988-038-specified-offices-terminal-gratuities-act-1988",
+    "OK_act-zm-1989-009-specified-offices-terminal-gratuities-act-1989"
+  ],
+  "check2": [],
+  "check3": [],
+  "check4": [
+    "OK_act-zm-1960-028-sheriffs-act-1960",
+    "OK_act-zm-2016-046-skills-development-levy-act-2016",
+    "OK_act-zm-1981-018-small-industries-development-act-1981",
+    "OK_act-zm-2022-004-social-workers-association-of-zambia-act-2022",
+    "OK_act-zm-2018-020-solid-waste-regulation-and-management-act-2018",
+    "OK_act-zm-1950-047-specific-loan-rhodesia-railways-act-1950",
+    "OK_act-zm-1988-038-specified-offices-terminal-gratuities-act-1988",
+    "OK_act-zm-1989-009-specified-offices-terminal-gratuities-act-1989"
+  ],
+  "check5": [
+    "OK_act-zm-1960-028-sheriffs-act-1960",
+    "OK_act-zm-2016-046-skills-development-levy-act-2016",
+    "OK_act-zm-1981-018-small-industries-development-act-1981",
+    "OK_act-zm-2022-004-social-workers-association-of-zambia-act-2022",
+    "OK_act-zm-2018-020-solid-waste-regulation-and-management-act-2018",
+    "OK_act-zm-1950-047-specific-loan-rhodesia-railways-act-1950",
+    "OK_act-zm-1988-038-specified-offices-terminal-gratuities-act-1988",
+    "OK_act-zm-1989-009-specified-offices-terminal-gratuities-act-1989"
+  ],
+  "check6": [],
+  "check1a_count": 8,
+  "sections": [
+    [
+      "act-zm-1960-028-sheriffs-act-1960",
+      19,
+      "Sheriffs Act, 1960"
+    ],
+    [
+      "act-zm-2016-046-skills-development-levy-act-2016",
+      16,
+      "Skills Development Levy Act, 2016"
+    ],
+    [
+      "act-zm-1981-018-small-industries-development-act-1981",
+      18,
+      "Small Industries Development Act, 1981"
+    ],
+    [
+      "act-zm-2022-004-social-workers-association-of-zambia-act-2022",
+      47,
+      "Social Workers\u2019 Association of Zambia Act, 2022"
+    ],
+    [
+      "act-zm-2018-020-solid-waste-regulation-and-management-act-2018",
+      128,
+      "Solid Waste Regulation and Management Act, 2018"
+    ],
+    [
+      "act-zm-1950-047-specific-loan-rhodesia-railways-act-1950",
+      6,
+      "Specific Loan (Rhodesia Railways) Act, 1950"
+    ],
+    [
+      "act-zm-1988-038-specified-offices-terminal-gratuities-act-1988",
+      17,
+      "Specified Offices (Terminal Gratuities) Act, 1988"
+    ],
+    [
+      "act-zm-1989-009-specified-offices-terminal-gratuities-act-1989",
+      3,
+      "Specified Offices (Terminal Gratuities) Act, 1989"
+    ]
+  ]
+}

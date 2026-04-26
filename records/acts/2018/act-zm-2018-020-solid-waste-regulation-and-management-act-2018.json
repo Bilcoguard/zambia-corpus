@@ -1,0 +1,659 @@
+{
+  "id": "act-zm-2018-020-solid-waste-regulation-and-management-act-2018",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Solid Waste Regulation and Management Act, 2018",
+  "citation": "Act No. 20 of 2018",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Shorttitle",
+      "text": ""
+    },
+    {
+      "number": "2",
+      "heading": "Interpretation",
+      "text": ""
+    },
+    {
+      "number": "3",
+      "heading": "Application",
+      "text": ""
+    },
+    {
+      "number": "4",
+      "heading": "Relationsandcooperationwithappropriateauthorities",
+      "text": ""
+    },
+    {
+      "number": "5",
+      "heading": "Keyconceptsandprinciplesofsolidwastemanagement",
+      "text": "andregulation\nPARTII\nMANAGEMENT OFSOLID WASTE"
+    },
+    {
+      "number": "6",
+      "heading": "Managementofsolidwastebylocalauthorities",
+      "text": ""
+    },
+    {
+      "number": "7",
+      "heading": "Solidwasteservicesbylocalauthorities",
+      "text": ""
+    },
+    {
+      "number": "8",
+      "heading": "Resolutiontoestablishsolidwastemanagementcompany",
+      "text": ""
+    },
+    {
+      "number": "9",
+      "heading": "Incorporation of solid waste management company,",
+      "text": "shareholdersandmembers"
+    },
+    {
+      "number": "10",
+      "heading": "Nameofsolidwastemanagementcompany",
+      "text": ""
+    },
+    {
+      "number": "11",
+      "heading": "FunctionsofBoard",
+      "text": ""
+    },
+    {
+      "number": "12",
+      "heading": "Boardcharterandminimumservicelevelguarantees",
+      "text": ""
+    },
+    {
+      "number": "13",
+      "heading": "Functionsofsolidwastemanagementcompany",
+      "text": ""
+    },
+    {
+      "number": "14",
+      "heading": "Generalpowersofsolidwastemanagementcompany",
+      "text": ""
+    },
+    {
+      "number": "15",
+      "heading": "Managementandoperatingplans",
+      "text": ""
+    },
+    {
+      "number": "16",
+      "heading": "Operatingproceduresandcodesofpractice",
+      "text": ""
+    },
+    {
+      "number": "17",
+      "heading": "Reportsonsolidwastemanagement",
+      "text": ""
+    },
+    {
+      "number": "18",
+      "heading": "ResponsibilityofMinistryonsolidwastemanagement",
+      "text": ""
+    },
+    {
+      "number": "19",
+      "heading": "Communitysolidwastemanagementservices",
+      "text": "SinglecopiesofthisActmaybeobtainedfromtheGovernmentPrinter,\nP.O.Box30136,10101Lusaka,PriceK104.00each.\n354 No. 20 of 2018] Solid Waste Regulation and Management\nPARTIII\nREGULATION OF SOLID WASTE"
+    },
+    {
+      "number": "20",
+      "heading": "Environmentalandpublichealthstandards",
+      "text": ""
+    },
+    {
+      "number": "21",
+      "heading": "DirectorandotherstaffofDepartment",
+      "text": ""
+    },
+    {
+      "number": "22",
+      "heading": "Designationofsolidwaste,servicezonesandsolidwaste",
+      "text": "managementareas"
+    },
+    {
+      "number": "23",
+      "heading": "Solidwastecategorisationandhandling",
+      "text": ""
+    },
+    {
+      "number": "24",
+      "heading": "Responsibilitiesofowneroroccupierregardingsolid",
+      "text": "waste"
+    },
+    {
+      "number": "25",
+      "heading": "Publicandcommunitycleaning",
+      "text": ""
+    },
+    {
+      "number": "26",
+      "heading": "Prescribedcontainers",
+      "text": ""
+    },
+    {
+      "number": "27",
+      "heading": "Placementofsolidwastecontainersandpreventionof",
+      "text": "leakage,scatterorlitter"
+    },
+    {
+      "number": "28",
+      "heading": "Sortingofsolidwaste",
+      "text": ""
+    },
+    {
+      "number": "29",
+      "heading": "Collectionofsolidwaste",
+      "text": ""
+    },
+    {
+      "number": "30",
+      "heading": "Transportationofsolidwaste",
+      "text": ""
+    },
+    {
+      "number": "31",
+      "heading": "Disposalofsolidwasteinlandfillorotherdisposalfacility",
+      "text": ""
+    },
+    {
+      "number": "32",
+      "heading": "Controlofanimalsinlandfillorotherdisposalfacility",
+      "text": ""
+    },
+    {
+      "number": "33",
+      "heading": "Burningofsolidwaste",
+      "text": ""
+    },
+    {
+      "number": "34",
+      "heading": "Buryingofnon-organicwaste",
+      "text": ""
+    },
+    {
+      "number": "35",
+      "heading": "Siterestorationorders",
+      "text": "PARTIV\nLICENCES,PERMITSANDREGISTRATION"
+    },
+    {
+      "number": "36",
+      "heading": "Prohibitionfromprovidingsolidwasteserviceswithout",
+      "text": "licenceorpermit"
+    },
+    {
+      "number": "37",
+      "heading": "Applicationforsolidwasteserviceprovider’slicence",
+      "text": ""
+    },
+    {
+      "number": "38",
+      "heading": "Submissionforassessmentofsolidwasteserviceprovider",
+      "text": ""
+    },
+    {
+      "number": "39",
+      "heading": "Refusaltoissuesolidwasteserviceproviderlicence",
+      "text": ""
+    },
+    {
+      "number": "40",
+      "heading": "Grantofserviceprovider’slicence,validityandrenewal",
+      "text": "oflicence"
+    },
+    {
+      "number": "41",
+      "heading": "Failuretocommenceoperations",
+      "text": ""
+    },
+    {
+      "number": "42",
+      "heading": "Transferofsolidwasteserviceprovider’slicence",
+      "text": "Solid Waste Regulation and Management [No. 20 of 2018 355"
+    },
+    {
+      "number": "43",
+      "heading": "Variationofsolidwasteserviceprovider’slicence",
+      "text": ""
+    },
+    {
+      "number": "44",
+      "heading": "Cancellationoflicence",
+      "text": ""
+    },
+    {
+      "number": "45",
+      "heading": "Self-servicesolidwasteproviders",
+      "text": ""
+    },
+    {
+      "number": "46",
+      "heading": "Permitstoconstruct,operateormaintainlandfillsandother",
+      "text": "disposalfacilities"
+    },
+    {
+      "number": "47",
+      "heading": "Registration of solid waste management company and",
+      "text": "smallscaleenterprisesorproprietors"
+    },
+    {
+      "number": "48",
+      "heading": "Register of solid waste management companies, licence",
+      "text": "holders,permitholdersandcertificateholders"
+    },
+    {
+      "number": "49",
+      "heading": "Appointmentofstatutorymanager",
+      "text": "PART V\nSOLIDWASTESERVICESPROVISION"
+    },
+    {
+      "number": "50",
+      "heading": "Solidwasteservices",
+      "text": ""
+    },
+    {
+      "number": "51",
+      "heading": "Provisionofsolidwasteservices",
+      "text": ""
+    },
+    {
+      "number": "52",
+      "heading": "Limitingnumberoflicencedsolidwasteserviceproviders",
+      "text": "andregistered operators for certainservices"
+    },
+    {
+      "number": "53",
+      "heading": "Assessmentofsolidwasteserviceprovidersandoperators",
+      "text": ""
+    },
+    {
+      "number": "54",
+      "heading": "Feasibilitystudyandbusinessplan",
+      "text": ""
+    },
+    {
+      "number": "55",
+      "heading": "Monitoringperformance of licenced solid waste service",
+      "text": "providers,registeredoperatorsandself-servicesolidwaste\nproviders"
+    },
+    {
+      "number": "56",
+      "heading": "Powertoobtaininformationandexpertadvice",
+      "text": ""
+    },
+    {
+      "number": "57",
+      "heading": "Requirementtoprovideinformation,dataandmakereturns",
+      "text": "to Director"
+    },
+    {
+      "number": "58",
+      "heading": "Powertoholdhearing",
+      "text": ""
+    },
+    {
+      "number": "59",
+      "heading": "Register of licenced solid waste service providers,",
+      "text": "registeredoperatorsandself-servicesolidwasteproviders"
+    },
+    {
+      "number": "60",
+      "heading": "Accesstolandfillsandotherdisposalfacilities",
+      "text": ""
+    },
+    {
+      "number": "61",
+      "heading": "Constraintofavailablespaceorcapacityatlandfillorother",
+      "text": "disposalfacility\n356 No. 20 of 2018] Solid Waste Regulation and Management"
+    },
+    {
+      "number": "62",
+      "heading": "Functionsandresponsibilitiesoflicencedserviceproviders,",
+      "text": "self-servicesolidwasteprovidersandregisteredoperators"
+    },
+    {
+      "number": "63",
+      "heading": "Servicelevelagreementstosupplysolidwasteservices",
+      "text": ""
+    },
+    {
+      "number": "64",
+      "heading": "Specificfunctionsrelatingtolicencedsolidwasteservice",
+      "text": "providers,self-servicesolidwasteprovidersandregistered\noperators"
+    },
+    {
+      "number": "65",
+      "heading": "Powers of licenced solid waste service provider and",
+      "text": "registered operator"
+    },
+    {
+      "number": "66",
+      "heading": "Performanceofcommunityobligations",
+      "text": "PART VI\nSOLID WASTE TARIFFS"
+    },
+    {
+      "number": "67",
+      "heading": "Criteriaforsettingandapprovaloftariffs",
+      "text": ""
+    },
+    {
+      "number": "68",
+      "heading": "Compulsory,generalisedandadditionaltariffsforsolid",
+      "text": "waste for certain purposes"
+    },
+    {
+      "number": "69",
+      "heading": "Administrativepenaltyforlatepaymentoftariffs",
+      "text": ""
+    },
+    {
+      "number": "70",
+      "heading": "Billingsystemandcollectionoftariffs",
+      "text": ""
+    },
+    {
+      "number": "71",
+      "heading": "Specialsolidwastetariffs",
+      "text": "PART VII\nGENERALPROVISIONS"
+    },
+    {
+      "number": "72",
+      "heading": "Noticesrelatingtosolidwaste",
+      "text": ""
+    },
+    {
+      "number": "73",
+      "heading": "Powers of inspector",
+      "text": ""
+    },
+    {
+      "number": "74",
+      "heading": "Offencescognisable",
+      "text": ""
+    },
+    {
+      "number": "75",
+      "heading": "Immunityofinspectors",
+      "text": ""
+    },
+    {
+      "number": "76",
+      "heading": "Furnishingofreports",
+      "text": ""
+    },
+    {
+      "number": "77",
+      "heading": "Enforcementnotices",
+      "text": ""
+    },
+    {
+      "number": "78",
+      "heading": "Enforcement powers",
+      "text": ""
+    },
+    {
+      "number": "79",
+      "heading": "Generaloffencesrelatedtosolidwaste",
+      "text": ""
+    },
+    {
+      "number": "80",
+      "heading": "Offences by principal officer of body corporate or un-",
+      "text": "incorporatebody"
+    },
+    {
+      "number": "81",
+      "heading": "Generalpenalty",
+      "text": ""
+    },
+    {
+      "number": "82",
+      "heading": "Poweroflocalauthoritytocompoundcertainoffences",
+      "text": ""
+    },
+    {
+      "number": "83",
+      "heading": "Administrativepenalties",
+      "text": ""
+    },
+    {
+      "number": "84",
+      "heading": "Appeals",
+      "text": ""
+    },
+    {
+      "number": "85",
+      "heading": "Regulations",
+      "text": ""
+    },
+    {
+      "number": "86",
+      "heading": "Transitionalprovisions",
+      "text": "Solid Waste Regulation and Management [No. 20 of 2018 357\nGOVERNMENT OF ZAMBIA\nACT\nNo. 20 of 2018\nDateofAssent:23rdDecember,2018\nAn Act to provide for the sustainable regulation and\nmanagement of solid waste; general and self-service solid\nwaste services; the incorporation of solid waste\nmanagement companies and define their statutory\nfunctions;thelicensingandfunctionsofsolidwasteservice\nproviders, operators and self-service solid waste\nproviders and provide for their functions; the regulation,\noperation, maintenance and construction of landfills and\notherdisposalfacilities;thesettingandapprovaloftariffs\nformanagementofsolidwasteandprovisionofsolidwaste\nservices; and matters connected with, or incidental to,\nthe foregoing.\n[26thDecember,2018\nENACTEDbytheParliamentof Zambia. Enactment\nPART I\nPRELIMINARYPROVISIONS"
+    },
+    {
+      "number": "1",
+      "heading": "ThisActmaybecitedastheSolidWasteRegulationand Shorttitle",
+      "text": "ManagementAct,2018,andshallcomeintooperationonthedate and\ncommencement\nthatthelocalGovernmentAct,2019comesintooperation.\nActNo. of\n2019"
+    },
+    {
+      "number": "2",
+      "heading": "(1) InthisAct,unlessthecontextotherwiserequires— Interpretation",
+      "text": "“ agricultural waste ” means waste generated from\nagriculturalactivities,includingbirdandanimalcarcasses;\n“appropriateauthority”meanstheMinisterresponsiblefor,\norpublicbody,statutorybodyorperson,havingpowersor\nregulatory functions under any other written law or\nexecutive instrument over, impacting on, or relating to,\n358 No. 20 of 2018] Solid Waste Regulation and Management\nlocal government, socio-economic policies, solid waste,\ndisaster management, water resources management or\ndevelopment, the environment, land management,\nagriculture,railways,marketsandbusstations,publichealth\nservices, ionising radiation, medicines and drugs, water\nsupplyandsanitation,construction,buildings,roads,urban\nand regional planning, surveys, occupational safety,\nfactories, infrastructure development, manufacturing,\ncommerce, trade, competition and consumer protection,\nstandards,public-privatepartnershipsoraviation;\n“ authorised officer ” means an employee or agent of the\nDepartment, a local authority, solid waste management\ncompany, an officer of the Zambia Environmental\nManagementAgency or any other officer authorised, in\nwriting,toenforcethisAct;\n“ billing ” means the imposition of a tariff for solid waste\nmanagementorsolidwasteservices,andtheword“bill”\nshallbeconstruedaccordingly;\n“ Board ” means a Board of directors of a solid waste\nmanagementcompany;\n“ Civil Service Commission ” means the Civil Service\nCap.1 CommissionestablishedbytheConstitution;\n“ company ” has the meaning assigned to the word in the\nActNo.10 CompaniesAct,2017;\nof 2017\n“ commercial waste ” means solid waste generated from\ncommercial or trade activities, including handling,\nprocessing,packing,packagingandretailing,butexcludes\nhazardous waste;\n“ community ” means a group of at least ten urban, peri-\nurbanorvillagehouseholdswhoreceive,asagroup,solid\nwasteservicesfromasolidwasteserviceproviderorwho\nprovidetheirownsolidwasteservicesormanagement;\n“ construction waste ” means waste generated from a\nconstruction or demolition site, but excludes hazardous\nwastefromconstructionactivities;\nSolid Waste Regulation and Management [No. 20 of 2018 359\n“consumer”includesaperson,institutionororganisation—\n(a)suppliedorapplyingtobesuppliedwith,orusingor\nreceiving,solidwasteservices;or\n(b)liableforpaymentofatariffforthesupplyoruseof\nsolidwasteservices;\n“ Department ” means the department in the Ministry\nresponsibleforregulatingsolidwasteunderthisAct;\n“development”meanstheareainwhichagatedcommunity,\nhousingestateorsimilarpropertyissituatedorlocated;\n“ Director ” means the civil servant appointed by the Civil\nServiceCommissionastheheadoftheDepartment;\n“disposal”meansthefinalplacementofsolidwasteinlandfills\norotherdisposalfacilities,withoutintentionofretrieval,\nandincludesthedisposalofraworintermediaryhandled\ninert or otherwise unwanted residues, and the word\n“dispose”shallbeconstruedaccordingly;\n“disposalfacility”meansaprescribedplaceorfacilitywhere\nsolidwasteisdisposedof;\n“ domestic waste ” means solid waste generated from\ndwellings, residential areas, municipal areas, streets or\ndrainage,andincludesagriculturalwaste;\n“ e-waste ” means various forms of electric and electronic\nequipmentthathasceasedtobeofvaluetotheirusersor\nnolongersatisfiestheiroriginalpurpose;\n“facility”meansastructure,system,appurtenance,plantor\nequipmentthatisnecessaryfortheprovisionofsolidwaste\nservices to a consumer;\n“hazardouswaste” hasthemeaningassignedtothewords\nintheEnvironmentalManagementAct,2011; ActNo.12\nof 2011\n“ healthcare waste ” means waste generated from\npathological and pharmaceutical activities or matter and\nothersolidwastegeneratedbyhealthcareestablishments,\nhealthcareresearchfacilitiesandhealthcarelaboratories,\nincluding waste generated in the course of healthcare\nundertaken in the home, and presents hazardous\ncharacteristicsasdefinedintheBaselConventiononthe\nControlofTrans-boundaryMovementofHazardousWaste\nandTheirDisposal;\n360 No. 20 of 2018] Solid Waste Regulation and Management\n“ industrial waste ” means solid waste generated from\nmanufacturing,fabrication,includingconstructionwastebut\nexcludeshazardouswasteandwastefromminingactivities;\n“ inspector ” has the meaning assigned to the word in the\nActNo.of LocalGovernmentAct,2019;\n2019\n“landfill”meansaprescribedareathatisusedforthedisposal\nofsolidwaste;\n“ licence ” means a licence issued in accordance with this\nAct;\n“licencedsolidwasteserviceprovider”means asolidwaste\nserviceproviderthatholdsalicenceissuedinaccordance\nwithsection40;\n“localauthority”hasthemeaningassignedtothewordsin\nCap.1 the Constitution;\n“ member ” means a person appointed as a member of the\nBoardofdirectorsofasolidwastemanagementcompany\nin accordance with the articles of association of that\ncompany;\n“occupier”meansapersonthatisinactualoccupationof,or\nresponsibleformanaging,apropertyorpremises;\n“ owner ” means the owner of a property or premise, or a\npersonforthetime beingreceivingtherent inrespect of\nthepropertyorpremise;\n“permit”meansapermitissuedunderthisAct;\n“permith"
+    },
+    {
+      "number": "6",
+      "heading": "(1) A local authority shall, in accordance with the Management",
+      "text": "ofsolid\nConstitution,theLocalGovernmentAct,2019andthisAct,manage\nwaste by\nsolid waste and may undertake solid waste management in local\nauthorities\npartnershiporassociationwithanotherlocalauthority,publicbody\nCap.1\norprivatebody. ActNo.of\n2019\n(2) Where a local authority undertakes solid waste\nmanagement,sections13and14applytothatlocalauthorityasif\nforareferenceto“solidwastemanagementcompany”therewere\nsubstitutedareferenceto“localauthority”.\n(3) Where a local authority undertakes solid waste\nmanagement in partnership or association with another local\nauthority,publicbodyorprivatebodythatlocalauthority shalldo\nsoinaccordancewithsections8and9.\n(4) SubjecttotheotherprovisionsofthisAct,alocalauthority\nshall,inconsultationwiththeZambiaEnvironmentalManagement\nAgency, construct, operate and maintain landfills and other\nprescribeddisposalfacilities.\n364 No. 20 of 2018] Solid Waste Regulation and Management\n(5) Despitethegeneralityofsubsections(1),(3)and(4),the\nfunctionsofalocalauthority,withrespecttosolidwaste,areto—\n(a) facilitate and manage activities that promote the key\nconceptsandprinciplesofsolidwastemanagementas\nspecifiedinsection5;\n(b) determine the location of landfills and other disposal\nfacilitiesinaccordancewithinternationalbestpractice,\nin consultation with the Zambia Environmental\nManagement Agency;\n(c)sensitisethepubliconsolidwastedisposal;\n(d)createanenablingenvironmentandappropriateincentives\nforthedeliveryofreliable,sustainableandaffordable\nsolidwasteservices;and\n(e)provideforthesystematiccollection,transportationand\ndisposalofsolidwasteinservicezonesfallingunderits\njurisdiction.\nSolidwaste 7. A local authority shall, in accordance with the Local\nservicesby GovernmentAct,2019,andthisAct,providesolidwasteservices\nlocal\nauthorities andmay,inaccordancewiththeConstitution,providesolidwaste\nActNo. of servicesinpartnershiporassociationwithanotherlocalauthority,\n2019\npublicbodyorprivatebody.\nCap.1\nResolution 8. (1) Alocalauthoritymayresolveto—\ntoestablish\n(a) establish a solid waste management company for the\nsolidwaste\nmanagement managementofsolidwasteinitsareaofjurisdiction;or\ncompany (b)enterintoanagreementwithanotherlocalauthority,two\normorelocalauthoritiesorapublicorprivatebodyto\nestablishajointsolidwastemanagementcompanyfor\nthemanagementofsolidwaste;and\n(c)delegate theprovisionof solidwasteservicestoprivate\nbodiestobeundertakeninaccordancewiththisAct.\n(2) Wherealocalauthorityestablishesacompanytoprovide\nsolid waste management or delegates its functions to a private\nbody,thelocalauthorityshallnot—\n(a) undertake solid waste management in a solid waste\nmanagementareathatisbeingmanagedbyasolidwaste\nmanagementcompany;and\n(b)providesolidwasteservicesintheservicezonecovered\nbyalicensedserviceprovider.\nSolid Waste Regulation and Management [No. 20 of 2018 365\n(3) Despitesubsection(2),alocalauthoritymayprovidesolid\nwaste management services during an emergency and where a\nsolidwastemanagementcompanyfailsorneglectstoprovidesolid\nwaste services."
+    },
+    {
+      "number": "9",
+      "heading": "(1) An entity to manage solid waste shall be incorporated Incorporation",
+      "text": "ofsolid\nundertheCompaniesAct,2017,asaprivateorpubliccompany.\nwaste\nmanagement\n(2) The articles of association of a solid waste management company,\nshareholders\ncompany,incorporatedinaccordancewithsubsection(1),shallstate\nand\ntheprimaryobjectiveofthecompanyasthemanagementofsolid members\nActNo.10\nwaste. of2017\n(3) The shareholders of a solid wastemanagement company\nshallbe—\n(a)thelocalauthorityandtheMinisterresponsibleforfinance,\nwherethelocalauthorityisnotinpartnershipwithany\notherlocalauthorityorprivateorpublicbody;\n(b) the local authorities incorporating the company and the\nMinister responsible for finance, who shall each hold\nthe number of shares that may be stipulated in a\nshareholder’s agreement; or\n(c) the local authority, private or public body and Minister\nresponsibleforfinance,whoshalleachholdthenumber\nof shares that may be stipulated in a shareholder’s\nagreement.\n(4) The shareholders of a solid wastemanagement company\nshall appoint not more than eleven members of the Board of the\ncompanyofwhichthemajorityofmembersshallbefromthepublic\nsector andat least twomembers shall be fromthe privatesector.\n(5) TheMinistershallappointthechairpersonoftheBoard.\n(6) The members shall elect a vice-chairperson from among\nthemselves.\n(7) Thetenureofofficeandremovalfromofficeofamember\nshall be as stated in the articles of association of the solid waste\nmanagement company.\n366 No. 20 of 2018] Solid Waste Regulation and Management\nNameof 10. (1) Thenameofasolidwastemanagementcompany shall\nsolid\nincorporatethewords“solidwastemanagement”.\nwaste\nmanagement\n(2) Nothing in subsection (1) prohibits the use of an\ncompany\nabbreviationindicativeofanameofadistrictorProvince.\nFunctions of 11. (1) TheBoard is responsibleforcarryingoutthefunctions\nBoard of, and managing the business and affairs of, a solid waste\nmanagement company.\n(2) Despitethegeneralityofsubsection(1)andthearticlesof\nassociation of a solid waste management company, the Board\nshall—\n(a)providestrategicdirection,tothesolidwastemanagement\ncompany,intheperformanceofitsfunctions;\n(b)approvestrategicplansforsolidwastemanagementand\nprovisionofsolidwasteservices;\n(c)approvethe budget, annual report and audited accounts\nofthesolidwastemanagementcompany;\n(d) ensure the efficient and economical provision of solid\nwaste services by licenced solid waste service\nproviders;and\n(e) perform functions and do other things that a body\ncorporatemaybylawdoinrelationtothecompany.\nBoard 12. (1) TheBoardshalldevelopandapproveaBoard Charter\ncharterand forthesolidwastemanagementcompany.\nminimum\nservicelevel (2) TheBoardshallissueminimumservicelevelguarantees\nguarantees\nto a solid waste management company for the performance of\nsolidwastemanagementservices.\nFunctionsof 13. (1) Thefunctions ofa solidwastemanagementcompany\nsolidwaste relatingtosolidwasteorinitssolidwastemanagementarea,are\nmanagement\ncompany to—\n(a)advisethelocalauthorityonsolidwastemanagement;\n(b) ensure that solid waste management services are\naccessible, sufficient, affordable, safe and acceptable\nonanon-discriminatorybasis;\n(c)facilitateprivatesectorparticipationinthedevelopment\nandprovisionofsolidwasteservicesinaservicezone;\nSolid Waste Regulation and Management [No. 20 of 2018 367\n(d)providegeneraloversightovertheprovisionandstandards\nofsolidwasteservices;\n(e) assess solid waste service providers operators and self-\nservice solid waste providers applying for licences to\nprovide solid waste services or permits to construct,\nmaintain,operateormanagelandfillsandotherdisposal\nfacilities,respectively,beforetheDepartmentissuesthe\nlicencesorpermits;\n(f)holdpublicinquiriesonproposedtariffs;\n(g) recommend, to the Director, tariffs for solid waste\nmanagement services andsolidwaste services;\n(h) monitor and evaluate the performance of licensed solid\nwaste service providers registered operators and self-\nservicesolidwasteprovidersinrelationto–\n(i)levelsofinvestment;\n(ii)availability,quantityandstandardofsolidwaste\nservices;\n(iii)thecostofsolidwasteservices;\n(iv) the efficiency and distribution of solid waste\nservices; and\n(v)anyothermatterrelevanttosolidwasteservices;\n(j)incollaborationwiththeappropriateauthority,ensurethat\nadequate solid waste services are provided to aircrafts\nandthat managersof,andserviceprovidersat,airports\nand pilots observe the requirements and regulations\npertainingtohandlinganddisposalofsolidwaste;\n(k) observe and uphold the key concepts and principles of\nsolidwastemanagementspecifiedundersection5;\n(l)enhancecooperationwithallappropriateauthoritiesinthe\nmanagementofsolidwaste;\n(m)prepare,adoptandenforcerules,operatingmanuals,codes\nof practice andstandards for activities associatedwith\ntheprovisionofsolidwasteservices;\n(n)incollaborationwithappropriateauthorities,establishsolid\nwaste control measures;\n(o) prepare reports and compile statistics relevant to the\nmanagementofsolidwasteandprovisionofsolidwaste\nservicesand regularlyreportsuch matters to the board\nand Department;\n368 No. 20 of 2018] Solid Waste Regu"
+    },
+    {
+      "number": "14",
+      "heading": "Despite the generality of section 13, a solid waste General",
+      "text": "managementcompanyinthesolidwastemanagementarea,shall— powers of\nsolidwaste\n(a)ensuretheprovisionoftechnicalandcorporateassistance management\ncompany\nto local authorities and licenced solid waste service\nproviders;\n(b)takeactionthatmaybenecessaryorexpedienttoenable\nthe Government to comply with any international\nagreementsrelatingtosolidwaste;\n(c)monitorthemanagementofrisksbylicencedsolidwaste\nserviceproviders,registeredoperatorsandself-service\nsolidwasteproviders;\n(d)ensurethatsolidwasteserviceproviders,operatorsand\nself-servicesolidwasteprovidersaresourcedbyway\nofpublictender,on acompetitivebasis;\n(e) enter into service level agreements with licenced solid\nwasteserviceproviders,registeredoperatorsandself-\nservice solid waste providers and any other person,\nregardingsolidwasteservices;\n(f) publish in the Gazette and a newspaper of general\ncirculationfora periodofthreedays,the tariffstobe\nchargedforvarioussolidwasteservicesandsolidwaste\nmanagement;\n(g)inspectservicezonessoastoevaluateandmonitorsolid\nwasteservicesprovidedbylicencedsolidwasteservice\nproviders;\n(h)collectprescribedtariffsfromlicencedsolidwasteservice\nprovidersandotherpersonsdisposingofsolidwasteat\nlandfillsandotherdisposalfacilitiesunderitsjurisdiction;\n(i)charge and collect prescribed tariffs for inspections and\notherservicesprovidedbythesolidwastemanagement\ncompany;\n370 No. 20 of 2018] Solid Waste Regulation and Management\n(j)develop measures and strategies to ensure the effective\nimplementationofprescribedstandards,statutoryrules\nandguidelines;\n(k)enforce prescribedstandards relating to—\n(i)solidwasteservices;and\n(ii)landfillsandotherdisposalfacilities;\n(l) adviselicencedsolidwasteserviceprovidersonprocedures\nforhandlingcomplaintsfromconsumers;\n(m) in liaison withrelevant appropriate authorities,educate\nand provide information to persons on public health\naspectsofsolidwastemanagement;\n(n)provideinformationtothepubliconrightsandobligations\nofconsumerswithrespecttosolidwaste;\n(o) keep custody, acquire, including through compulsory\npurchase,constructandoperatesolidwastefacilities;\n(p)provideorcausetobeprovidedamenitiesorfacilitieswhich\nthe solid waste management company considers\nnecessaryor desirable for consumers;\n(q)doallthingsthatarenecessaryfortheprovisionofeffective\nand sustainable solid waste management services and\naccess to the services;\n(r) enterintosolidwasteagreementsontermsandconditions\nActNo.12 that may be agreed, subject to the Environmental\nof2011\nActNo.21 Management Act, 2011, the Water Resources\nof2011\nActNo.of Management Act, 2011, and Local Government Act,\n2019\n2019;\n(s) enter into the property of licenced solid waste service\nproviders or registered operators for a purpose related\ntotheprovisionofsolidwasteservices;and\n(t)carryout anyotheractivities relatingtothe management\nofsolidwaste,inliaisonwithotherappropriateauthorities.\nManagement 15. (1) Alocalauthorityandsolidwastemanagementcompany\nand\nshall prepare a three year management and operating plan with\noperating\nplans financialprojectionsformingthebasisofeachyear’sannualplan\nandannualestimatesrelatingtomanagementofsolidwaste.\n(2) TheMinister shallsubmitacopyof the approvedplanto\ntheMinisterresponsibleforfinance.\nSolid Waste Regulation and Management [No. 20 of 2018 371"
+    },
+    {
+      "number": "16",
+      "heading": "(1) For purposes relating to solid waste management, a Operating",
+      "text": "local authority or solid waste management company may make, procedures\nandcodesof\ndisplayandimposeoperatingprocedures,guidelines,signsandcodes practice\nofpractice.\n(2) Apersonwhofailsorrefusestocomplywithanyoperating\nprocedure,guideline,signorcodeofpractice,madeordisplayedin\naccordancewithsubsection(1),commitsanoffence."
+    },
+    {
+      "number": "17",
+      "heading": "(1) Alocalauthorityandsolidwastemanagement company Reports on",
+      "text": "shall,inrespectoftheirsolidwastemanagementarea— solidwaste\nmanagement\n(a) prepare and submit reports relating to solid waste\nmanagement to the Ministers responsible for health,\nenvironmentorwater;\n(b) ensure that the department, Ministries responsible for\nhealth,environmentorwaterareimmediatelynotified\nofanymatterrelatedtosolidwastemanagementwhich\nmayadverselyaffecthumanhealthandtheenvironment;\nand\n(c)ensurethattheDepartmentandtheZambiaEnvironmental\nManagementAgencyare immediatelynotifiedofany\nmatterrelatedtosolidwastewhichmayadverselyaffect\norpollutetheenvironment.\n(2) In this section, “pollute” hasthemeaningassigned\ntothewordintheEnvironmentalManagementAct,2011. ActNo.12\nof 2011"
+    },
+    {
+      "number": "18",
+      "heading": "(1) TheMinistryshall,atthenationallevel— Responsibility",
+      "text": "of Ministry\n(a)formulate anational policyand strategyonsolidwaste, onsolid\nsolidwastemanagementandsolidwasteservicesthat waste\nmanagement\nalsosafeguardstheinterestsofwastegenerators,other\nconsumers,vulnerablepersonsandtheenvironment;\n(b)coordinatecross-sectoralinteractions;\n(c)supportprivateinvestmentandinvolvementintheprovision\nofsolidwasteservices;\n(d) promote public-private partnerships in infrastructure\ndevelopmentandotherfacilitiesforsolidwaste;\n(e)providetechnicalandother supportfortheconstruction\noflandfillsandotherdisposalfacilities;and\n(f) give directions to a local authority or solid waste\nmanagementcompanyinaccordancewiththisActand\ntheEnvironmentalManagementAct,2011. ActNo.12\nof2011\n372 No. 20 of 2018] Solid Waste Regulation and Management"
+    },
+    {
+      "number": "19",
+      "heading": "(1) Alocalauthorityorasolidwastemanagementcompany",
+      "text": "Community\nsolidwaste in a solid waste management area shall involve communities in\nmanagement\nsolidwastemanagementandconsultwithvillageandcommunity\nservices\nrepresentatives and traditional leaders, in matters relating to the\nmanagementofsolidwasteandenforcementoftherequirements\nofthisAct.\n(2) Alocalauthoritymay,inconsultationwithotherappropriate\nauthorities and a solid waste management company in the solid\nwastemanagementarea,devise,approve,implementorparticipate\nin programs relating to the management of solid waste in\ncommunities.\n(3) For the purposes of this section, a local authority may\ncollaboratewithanyotherpersonorbody,whetherincorporatedor\nnot,foranypurposeassociatedwiththemanagementofsolidwaste\nincommunities.\nPART III\nREGULATIONOFSOLIDWASTE\nEnvironmental 20. (1) Subject to the Compulsory StandardsAct, 2017, and\nandpublic theStandardsAct,2017,theMinistershall,inconsultationwiththe—\nhealth\nstandards\n(a) Minister responsible for environment, prescribe\nActNo.3of\n2017 environmentalstandardsrelatingtosolidwaste,landfills,\nActNo.4of\ndisposalfacilitiesand otherfacilitiesand the Zambia\n2017\nEnvironmental Management Agency and Department\nshall be responsible for the monitoring and enforcing\ntheprescribedstandards;and\n(b)Ministerresponsibleforhealthshallprescribepublichealth\nstandards relating to solid waste management, solid\nwaste services and disposal of solid waste and the\nMinistryresponsible for health, the Department anda\nsolidwastemanagementcompanyshallberesponsible\nformonitoringandenforcingtheprescribedstandards.\n(2) A personwho fails or refuses tocomplywitha standard\nprescribedinaccordancewiththissectioncommitsanoffenceand\nisliable,onconviction,toafinenotexceedingthreehundredthousand\npenaltyunitsortoimprisonmentforaperiod notexceedingthree\nyears,ortoboth.\nSolid Waste Regulation and Management [No. 20 of 2018 373\n(3) Inadditiontothepenaltiesspecifiedinsubsection(2),the\nfailuretoobserveorcomplywithaprescribedstandardisaground\nfor—\n(a) suspending or revoking a licence or permit issued in\naccordancewiththisAct;\n(b)refusinganysubsequentapplicationforalicenceorpermit\nbytheperson;and\n(c) terminating any contract for a provision of solid waste\nservices."
+    },
+    {
+      "number": "21",
+      "heading": "(1) The Civil Service Commission shall appoint a civil Director",
+      "text": "servant as Director responsible for the regulation of solid waste, andother\nstaff of\nsolid waste management and solid waste services, and who shall\nDepartment\nensure the requirements of thisActare compliedwith,subject to\nthegeneralorspecialdirectionsofthePermanentSecretaryinthe\nMinistry.\n(2) The Director shall be the head of the Department\nresponsibleforsolidwasteintheMinistry.\n(3) The Director may, subject to the other provisions of this\nAct and to the general or special directions of the Permanent\nSecretary,delegateanyoftheDirector’sfunctionstoanofficerof\nthe Department.\n(4) TheCivilServiceCommissionshallappointotherofficers\nfor the Department that may be necessary for the efficacious\nregulationofsolidwaste,solidwastemanagement,andsolidwaste\nservices,inaccordancewiththisAct.\n(5) TheDirectormay,inordertoensureeffectiveandefficient\nregulationofsolidwaste—\n(a)considerandgrantlicencesandpermitsunderthisAct;\n(b) exercise any of the powers conferredon the Director or\nDepartmentbythisActoranyotherwrittenlaw,relating\ntotheregulationofsolidwaste,withotherappropriate\nauthorities;\n(c) ensure that a local authority, solid waste management\ncompany, licenced solid waste service provider, self-\nservice solid waste provider and registered operator\nundertakeactivitiesinaccordancewiththisActandany\nother written law relating to the protection of the\n374 No. 20 of 2018] Solid Waste Regulation and Management\nenvironment, water resources management and\ndevelopment, urban and regional planning, aviation\ncontrol,preventionofdiseasesandprotectionofpublic\nhealth,inliaisonwiththeappropriateauthorities;and\n(d)imposerequirementsfor,andensurethatalocalauthority\norsolidwastemanagementcompanymakearrangements\nfortheproperrestorationandmanagementofareasafter\ndecommissioning of a landfill or disposal facility, in\nconsultation with the Zambia Environmental\nManagement Agency.\nDesignation 22. (1) The Minister may, by statutory instrument designate\nofsolid anobject,substance,matter,orthing,assolidwasteforthepurposes\nwaste,\nservice ofthisAct.\nzonesand\nsolidwaste (2) A designation madeunder subsection(1) mayapplyto a\nmanagement\nclassortypeofobject,substanceorthing.\nareas\n(3) TheMinistershall,bystatutoryinstrument—\n(a)designateservicezonesandsolidwastemanagementareas\nforpurposesofthisAct;\n(b)publish,inanewspaperofgeneralcirculation,thenames\noftheservicezonesandsolidwastemanagementareas;\nand\n(c)specifyunderwhosejurisdictionaparticularservicezone\nor solidwastemanagementarea falls.\nSolidwaste 23. (1) The Minister shall, by statutory instrument, divide or\ncategorisation\nsub-dividesolidwasteintovariouscategorieshavingregardtoits\nandhandling\nphysicalorchemicalcharacteristicsandprovideforthenecessary\nmannerofhandlingofthatsolidwaste.\n(2) The categories of solid waste to be prescribed, under\nsubsection(1),shallinclude—\n(a) domestic waste;\n(b) healthcare waste;\n(c) construction waste;\n(d) commercial waste;\n(e)industrialwaste;and\n(f)agricultural waste.\nSolid Waste Regulation and Management [No. 20 of 2018 375"
+    },
+    {
+      "number": "24",
+      "heading": "(1) Anoccupierorownershallcleanorcausetobecleaned Responsibilities",
+      "text": "theareaaroundtheowner’soroccupier’spropertyorotherpremise ofowneror\noccupier\nwithintheowner’soroccupier’scontrol. regarding\nsolidwaste\n(2) A person shall not place or dump, cause or permit to be\nplaced or dumped on, at the frontage of a property or any other\npremises, solid waste, other than for purposes of enabling the\nconvenientcollectionofthesolidwastebyalocalauthorityanda\nsolid waste management company, licenced solid waste service\nproviderorself-servicesolidwasteprovider.\n(3) Where solid waste is abandoned on private property or\npremise,anauthorisedofficershallnotifytheowneroroccupier\nofthelegalconsequencesofkeepingthesolidwasteattheproperty\norpremiseandtheowneroroccupiershallcausethesolidwaste\ntobedisposedof,withinsevendaysfromthedateofthenotice,in\namannerthatmaybedirectedbytheauthorisedofficer.\n(4) Wheresolidwasteisfoundabandonedinapublicplace,\nan authorised officer shall take immediate steps to remove the\nsolidwasteanddisposeofitinanappropriatemanner.\n(5) Awastegeneratorshallregisterwithalicencedsolidwaste\nservice provider, in the service zone nearest to the property or\npremiseofthewastegenerator,forpurposesofaccessingasolid\nwaste service as prescribed.\n(6) Any person who contravenes this section commits an\noffence."
+    },
+    {
+      "number": "25",
+      "heading": "(1) Apublicandprivatebodyandassociationofpersons Publicand",
+      "text": "shalldedicateaspecifiednumberofoperatinghours,everymonth, community\ncleaning\ntocleaningtheirpremises,asprescribed.\n(2) Apersonshallparticipateincommunitycleaningofpublic\nareas, as prescribed.\n(3) Aprivate body may, as part of its corporate governance\nresponsibilities, participate in community cleaning and provide\nprescribedcontainers,cleaningtoolsandchemicalsforcleaningof\npublicareasandcommunityareas."
+    },
+    {
+      "number": "26",
+      "heading": "(1) A local authority or a licenced solid waste provider Prescribed",
+      "text": "shall,intheservicezoneunderthelocalauthority’soralicensed containers\nsolidwasteprovider’sjurisdiction,provideappropriatesolidwaste\ncontainers,for the disposal of solid waste, of a size and pattern,\nand clearly colour coded or marked, for different categories or\nsub-divisionsofsolidwaste,asmaybeprescribedbytheMinister.\n376 No. 20 of 2018] Solid Waste Regulation and Management\n(2) Apersonwhodisposes,orcausesorpermitstobedisposed,\nanysolidwastecontrarytosubsection(1)commitsanoffence.\n(3) A person who places or allows usage of a container for\ndisposal of solid waste which is not of a design, size, shape and\nquality, or colour coded or marked,as prescribed under thisAct,\ncommitsan offence.\n(4) Alocalauthorityoralicencedsolidwasteserviceprovider\nmay hire out, to an owner or occupier, a prescribed solid waste\ncontainerataprescribedchargeandinaccordancewithconditions\nthatthelocalauthorityorlicencedserviceprovidermayimpose.\n(5) Theprovisionofprescribedcontainersfordisposalofsolid\nwaste shall be a condition of a licence granted to a solid waste\nserviceprovider.\nPlacementof 27. (1) Anowneroroccupiershallplace aprescribedcontainer\nsolidwaste fordisposalofsolidwasteonoratanowner’soroccupier’sproperty\ncontainers\norpremise,asdirectedbyalocalauthorityorlicencedsolidwaste\nand\nprevention serviceprovider.\nofleakage,\nscatter or (2) An owner or occupier shallkeep covered,or cause to be\nlitter\ncontinuouslycovered,andingoodstateofrepair,allcontainersfor\ndisposalofsolidwaste.\n(3) An owner or occupier shall keep or cause to be kept\nprescribedcontainersfordisposalofsolidwastereasonablyclean\nandmaintainedingoodcondition.\n(4) An owner or occupier shall ensure safe and sanitary\ndisposalofsolidwaste inprescribedcontainers,failuretowhich\ntheowner oroccupier commitsanoffence.\n(5) Apersonwhoplaces,causesorpermitstobeplacedina\nsolid waste container, solid waste, which in the opinion of an\nauthorisedofficerisinfectiousorhasbeenexposedtoinfectionor\ncontamination,commitsanoffence.\n(6) Anowneroroccupiershallshowevidenceofsafedisposal\nofsolidwasteinprescribedcontainers,ifrequiredtodosobyan\nauthorisedofficer.\nSortingof 28. Awastegeneratorshallsort,orcausetobesorted,various\nsolidwaste categoriesofsolidwasteintodifferentgroupsorclusters,such\nas—\n(a) organic waste;\n(b) plastic waste;\n(c) paper waste;\nSolid Waste Regulation and Management [No. 20 of 2018 377\n(d) glass waste;\n(e) metal waste; or\n(f) any other group or cluster that may be specified in\nregulationsissuedbytheMinister."
+    },
+    {
+      "number": "29",
+      "heading": "(1) A local authority or a licenced solid waste service Collectionof",
+      "text": "providershallcollectsolidwastefromitsdistrictorservicezone, solidwaste\ninaccordancewithaserviceplan.\n(2) SubjecttotheotherprovisionsofthisAct,nothinginthis\nAct shall prevent or prohibit a local authority from, directly or\nindirectly,collectingsolidwastefromastreet,mainroadorother\npublicarea.\n(3) Aserviceplanshallbeaconditionforalicenceissuedto\nasolidwasteserviceprovider.\n(4) Inthissection,“serviceplan”meansadocument showing\nthe arrangement,structure,diagramandtime-lineforthecollection\nof solid waste in, or from, a service zone and disposal of solid\nwaste byalocalauthorityorlicensedsolidwasteserviceprovider."
+    },
+    {
+      "number": "30",
+      "heading": "(1) A vehicle or other means of conveyance used for Transportation",
+      "text": "transportationofsolidwasteshallbeofaprescribedspecification ofsolid\nwaste\nandlabeledinaprescribedmanner.\n(2) Apersonwhoprovidestransportationforsolidwasteshall\ncomplywithrequirementsandconditionsforthetransportationof\nsolidwastethattheMinistermayprescribe.\n(3) A person who contravenes this section commits an\noffence."
+    },
+    {
+      "number": "31",
+      "heading": "(1) A local authority or licenced solid waste service Disposal of",
+      "text": "providershalldisposeofsolidwasteinalandfillorotherdisposal solidwaste\ninlandfillor\nfacility,orrecycle,treat,orcompostorincineratethesolidwaste\nother\nor use any other prescribed disposal method, depending on the disposal\ntype,qualityandquantityofthesolidwaste. facility\n(2) Aperson shall not enter, use, cause or allow the use or\nentry into a landfill or other disposal facility without written\npermission from a local authority or a solid waste management\ncompany,under whose jurisdictionthe landfill or otherdisposal\nfacilityfalls.\n(3) Apersonshallnotlightafire,orcauseafiretobelit,ina\nlandfill or other disposal facility, except in accordance with\nguidelines issued by a local authority, solid waste management\ncompanyoranappropriateauthority.\n(4) A person who contravenes this section commits an\noffence.\n378 No. 20 of 2018] Solid Waste Regulation and Management\nControlof 32. Alocalauthority,solidwastemanagementcompanyora\nanimalsin\nlandfillor personincontrolofalandfillorotherdisposalfacilityshallrestrict\nother\nthe entryof animals inthe landfill or other disposal facility,and\ndisposal\nfacility\nremove an animal found in that landfill or facility in a manner\ndetermined by the local authority or solid waste management\ncompany.\nBurningof 33. (1) Apersoncommitsanoffenceifthatpersonintentionally\nsolidwaste\nburnssolidwasteotherwisethanasprescribed.\n(2) Apersonconvictedofanoffenceundersubsection(1)is\nliabletoafinenotexceeding—\n(a)fivehundredthousandpenaltyunits,for anindividual;or\n(b)onemillionpenaltyunits,foracorporation,oranindividual\nwhohascommitteda subsequentor furtheroffence.\nBuryingof 34. (1) Apersonshallnotintentionallyburynon-organicwaste.\nnon-organic\nwaste (2) Apersonwhocontravenesthissectioncommitsanoffence.\nSite 35. (1) TheDirectormay,wheresolidwasteisdisposedofin\nrestoration\nanyplaceincontraventionofthisActoranyconditionofalicence\norders\nor permit, issue an order for the removal of the solid waste and\nrestoration of the site to a condition satisfactory to the Director\nandtheZambiaEnvironmentalManagementAgency.\n(2) An order toremove solid waste and restore a site, made\nundersubsection(1),maybeservedon—\n(a)apersonwhomtheDirectorhasreasontobelievedisposed\nofthesolidwaste;\n(b)apersonwhomtheDirectorhasreasontobelieveordered\nor permitted the solid waste to be disposed of in that\nplace;or\n(c)anowner or occupier of the place.\nSolid Waste Regulation and Management [No. 20 of 2018 379\n(3) A person, on whom an order to remove solid waste or\nrestore a site is served on, shall immediately take reasonable\nmeasurestocomplywiththeorder.\n(4) A person who contravenes subsection (3) commits an\noffence and is liable, on conviction, to a fine not exceeding one\nhundredthousandpenaltyunitsortoimprisonmentforaperiodnot\nexceedingoneyear,ortoboth.\n(5) A person, on whom an order to remove solid waste or\nrestoreasiteisserved,mayapplytotheMinisterforthereviewof\nthe decision stated in the order or against any requirement or\nconditionintheorder.\n(6) TheMinistermayrevokeanordertoremovesolidwaste\nor restore a site if,after consideringthe representations made by\nan aggrieved person, a person who is not the owner, occupier or\nperson havingthe charge,managementor control of theplace or\npremiseorapersonwhodidnotdepositthesolidwaste,orderor\npermitthesolidwastetobedisposedofbyanauthorisedofficer.\nPART IV\nLICENCES,PERMITSANDREGISTRATION"
+    },
+    {
+      "number": "36",
+      "heading": "(1) Exceptforalocalauthority,apersonshallnotprovide Prohibition",
+      "text": "from\nasolidwasteservice,oranycomponentofthatservice,unlessthat providing\nsolidwaste\nperson holds a licence or permit granted under this Part, as\nservices\nprescribedbytheMinister. without\nlicenceor\npermit\n(2) A person who contravenes subsection (1), commits an\noffenceandisliable,onconviction,toafinenotexceedingthree\nhundredthousandpenaltyunitsortoimprisonmentforatermnot\nexceedingthreeyears,ortoboth."
+    },
+    {
+      "number": "37",
+      "heading": "(1) Asolidwasteserviceprovidermayapplyforalicence Application",
+      "text": "forsolid\nwiththeDepartment,fortheprovisionofsolidwasteservices,or\nwaste\nservice\nany component of that service in a service zone, across service\nprovider’s\nlicence\nzonesornationallyinaprescribedmannerandformonpaymentof\na prescribed fee.\n380 No. 20 of 2018] Solid Waste Regulation and Management\n(2) TheDirectorshallconsideranddeterminetheapplication\nwithinsixtydaysofreceiptoftheapplication,whichperiodshall\nincludetheassessmentperiodspecifiedinsection53.\n(3) Whereanapplicationlodgedinaccordancewithsubsection\n(1)isnotconsideredanddeterminedwithinsixtydaysoflodgingof\nthatapplication,thesolidwasteserviceprovider’slicenceisdeemed\ntohavebeengranted,andtheDirectorshall,immediately,issuethe\nlicence.\nSubmission 38. (1) The Director shall, within three days of receipt of an\nfor\napplicationlodgedundersection37,submitelectronicallyorbyother\nassessment\nofsolid\nmedia, the application and the accompanying information to the\nwaste\nservice\nlocal authority or appropriate solid waste management company\nprovider\nforanassessmenttobeundertakeninaccordancewithsection53.\nRefusalto 39. (1) The Directorshallrefusetoissue alicenceif—\nissuesolid\nwaste (a)anapplicationforthelicence isnotmade inaccordance\nservice\nprovider withthisPartandinaformormannerprescribedbythe\nlicence\nMinister;\n(b)thesolidwasteserviceproviderfailstoprovideandshow\ntechnicalandfinancialcapabilitytothesatisfactionofa\nlocalauthorityorsolidwastemanagementcompanydoing\nanassessmentasspecifiedinsection53;\n(c)theactivityorbusinesstobecarriedoutcontravenesoris\nlikelytocontraveneanyotherwrittenlaw;or\n(d)theapplicantsubmitsmateriallyfraudulentinformationin\nrelationtotheapplication.\n(2) The Director shall, where the Director refuses to grant a\nlicence,asspecifiedinsubsection(1),notifytheapplicant,within\nsevendaysofthedateofthedecision,inwriting,givingreasonsfor\ntherefusal.\nSolid Waste Regulation and Management [No. 20 of 2018 381"
+    },
+    {
+      "number": "40",
+      "heading": "(1) The Director shall,onthe recommendationof a local Grant of",
+      "text": "service\nauthorityorsolidwastemanagementcompanywithinthirtydays\nprovider’s\nof receipt of a report submitted in accordance with section 53, licence,\nvalidityand\ngrantasolidwasteserviceprovider’slicencetotheapplicant.\nrenewalof\nlicence\n(2) Asolidwasteserviceprovider’slicenceisvalidforaperiod\nof five years and may be renewed for a further five years in the\nprescribedmannerandformonpayment of the prescribedfee.\n(3) Subject to the Business RegulatoryAct, 2014, a licence ActNo.3of\ngrantedunderthissectionmayprovideforthepaymentofannual 2014\norotherperiodicfeesthatmaybeprescribed."
+    },
+    {
+      "number": "41",
+      "heading": "(1) Wherealicencedsolidwasteserviceproviderfailsto Failureto",
+      "text": "commence\ncommence operations within three months from the date of the\noperations\ngrantofalicence,thelicencedsolidwasteserviceprovidershall\nnotifytheDepartmentofthefailure,givingreasonsforthatfailure,\nand the Director shall, if satisfied with the reasons, specify the\nperiodwithinwhichthelicencedsolidwasteserviceprovidershall\ncommenceunder thelicence.\n(2) Where a licenced solid waste service provider fails to\ncommenceoperationswithintheperiodspecifiedinsubsection(1),\nor is unable for whatever reasontoprovidesolid waste services,\nunder the licence and this Act, the licenced solid waste service\nprovidershallnotifytheDepartment,inwriting,andsurrenderthe\nlicencetotheDepartment.\n(3) Wherealicencedsolidwasteserviceproviderfailstonotify\nthe Department, as specified in subsection (1), the licence shall\nlapse and the Director shall cancel the licence and publish the\ninformationinanewspaperofgeneralcirculation."
+    },
+    {
+      "number": "42",
+      "heading": "(1) Asolid waste service provider’s licence shall not be Transfer of",
+      "text": "solidwaste\ntransferredtoathirdpartywithoutthepriorapprovaloftheDirector.\nservice\nprovider’s\n(2) An application to transfer a licensed solid waste service\nlicence\nprovider’slicenceshallbemadetotheDepartment,andtheDirector\nmay,withinthirtydaysoftheapplication,approvetheapplication,\nsubjecttoconditionsthattheDirectormayimposeandthatmaybe\nprescribedbytheMinister.\n(3) Alicensedsolidwasteserviceproviderwhocontravenes\nsubsection(1)commitsanoffenceandisliable,onconviction,toa\nfine not exceeding three hundred thousand penalty units or to\nimprisonmentforatermnotexceedingthreeyears,ortoboth.\n382 No. 20 of 2018] Solid Waste Regulation and Management\nVariationof 43. The Director may vary a solid waste service provider’s\nsolidwaste licence,ontheDirector’sownmotionoronanapplicationbythe\nservice\nlicensedsolidwasteserviceprovider,where—\nprovider’s\nlicence\n(a) there has been a change in the shareholding or other\nbeneficial interest in the licenced solid waste service\nprovider;\n(b)thenameofthelicencedsolidwasteserviceproviderhas\nchanged;\n(c)there has beena change in the service zone; or\n(d) the licenced solid waste service provider gives to the\nDirectorreasonsevidencingtheneedtoimprovesolid\nwasteservices,andtheDirectorissatisfiedwiththose\nreasons.\nCancellation 44. (1) Subject to this Act, the Director may cancel a solid\noflicence wasteserviceprovider’slicenceifthelicensedsolidwasteservice\nprovider—\n(a)obtainedthelicencethroughfraud,misrepresentationor\nconcealmentofamaterialfact;\n(b) has been convicted of an offence relating to corrupt\npracticeorfraudinundertakingsolidwasteservicesor\nanyother offence;\n(c) transfers or otherwise assigns the solid waste service\nprovider’s licence without the prior approval of the\nDirector;\n(d)contravenesthisAct,oranyconditionofthelicence;or\n(e) fails, without reasonable cause, to comply with an\nenforcementnoticeissuedunderthisAct.\n(2) TheDirectorshall,beforecancellingasolidwasteservice\nprovider’s licence, under subsection (1), give the licenced solid\nwasteserviceproviderthirtydayswrittennoticeoftheDirector’s\nintentiontocancelthelicenceandrequirethelicencedsolidwaste\nserviceproviderto—\n(a)putinplacemeasures,withinaperiodof notmorethan\nthirtydays,that willensurecompliancewiththisAct,\nthe solid waste service provider’s licence or any\nenforcementnoticeservedonthelicencedsolidwaste\nserviceprovider;or\n(b)givereasonswhythesolidwasteserviceprovider’slicence\nshouldnotbecancelled.\nSolid Waste Regulation and Management [No. 20 of 2018 383\n(3) The Director shall not cancel a licence, if remedial\nmeasuresaretaken,tothesatisfactionoftheDirector,thatensure\ncompliancewiththisAct,withintheperiodofthirtydaysreferred\ntoinsubsection(2).\n(4) TheDirectormay,aftergivingthelicenseeanopportunity\ntobeheard,inpersonorinwriting,cancelthesolidwasteservice\nprovider’slicense,ifthelicensee—\n(a) fails to give reasons, to the satisfaction of the Director,\nwhythelicenceshouldnotbecancelled;or\n(b) does not take remedial measures, to the satisfaction of\ntheDirector,withinthetimespecifiedinsubsection(2).\n(5) If the Director cancels a solid waste service provider’s\nlicence,theDirectorshallpublishthecancellationinaGazetteand\nanewspaperofgeneralcirculation.\n(6) Inthissection,“licensee”meansaholderofalicence."
+    },
+    {
+      "number": "45",
+      "heading": "(1) A person who intends to provide a self-service to a Self-service",
+      "text": "solidwaste\ngatedcommunityorhousingestateshallapplytotheDepartment\nproviders\nfor a licence in a prescribed manner and form on payment of a\nprescribed fee.\n(2) Apersonshallnotprovidesolidwasteservicesasaself-\nserviceprovidertoagatedcommunityorhousingestatewithouta\nlicence.\n(3) Apersonwhocontravenesthissectioncommitsanoffence.\n(4) Sections 38 to 44 apply to a self-service solid waste\nprovider’slicence asifforareferenceto“serviceproviderslicence”\nthere were substituted a reference to self-service solid waste\nprovider’slicence”."
+    },
+    {
+      "number": "46",
+      "heading": "(1) Apersonshallnotconstruct,operate,manageormaintain Permits to",
+      "text": "construct,\nalandfillorotherdisposalfacilitywithoutapermitissuedunderthis\noperateor\nAct. maintain\nlandfillsand\n(2) A person may apply, to the Department, for a permit to other\ndisposal\nconstruct,operate,manageormaintainalandfillorotherdisposal\nfacilities\nfacility.\n(3) An application for a permit shall comply with the\nEnvironmental Management Act, 2011, and be made in the ActNo.12\nof 2011\nprescribedmanner andformonpayment of aprescribedfee.\n384 No. 20 of 2018] Solid Waste Regulation and Management\n(4) Apermitholdershallcomplywithallwrittenlawsgoverning\nurbanandregionalplanning,environmentmanagementandthehealth\nand safety of workers in the landfill, other disposal facility and\nworkplace.\n(5) Apersonwhooperatesalandfillorotherdisposalfacility\nwithoutapermitorinbreachofanyconditionofapermitcommits\nanoffenceandisliable,onconviction,toafinenotexceedingfive\nhundredthousandpenaltyunitsortoimprisonmentforatermnot\nexceedingfiveyears,ortoboth.\n(6) Thissectionandsection38applytopermitstoconstruct,\noperate,manageormaintainalandfillandotherdisposalfacility,\nwiththenecessarymodifications.\nRegistration 47. (1) The Directorshall register a solidwaste management\nofsolid\ncompanyandissueacertificateofregistrationtothecompany.\nwaste\nmanagement\n(2) DespiteanyotherprovisionofthisAct,theDirectorshall,\ncompany\nandsmall onanapplicationbyasmallscaleenterpriseoraproprietor,intending\nscale toprovideacomponentofsolidwasteservices,including,cleaning,\nenterprises\nor handling,collectionanddisposalofsolidwaste,registerthesmall\nproprietors scale enterprise or proprietor without requiring the enterprise or\nproprietor toundergoanassessment bya local authorityor solid\nwaste management company and meeting the requirements\nspecifiedinsection53.\n(3) The Director shall issue a certificate of registration to a\nsmallscaleenterpriseorproprietor,referredtoinsubsection(1),if\nthe small scale enterprise or proprietor meets the requirements\nprescribedbytheMinister.\n(4) The Minister may issue regulations providing for the\nprovision of solid waste services by small scale enterprises or\nproprietors, including specifying the value levels of small scale\nenterprises.\nRegisterof 48. (1) TheDepartmentshallestablishandmaintainaRegister\nsolidwaste ofallsolidwastemanagementcompanies,licenceholders,permit\nmanagement\ncompanies, holdersandcertificateholdersintheprescribedmannerandform.\nlicence\nholders, (2) The Register, referred to under subsection (1), shall be\npermit availableforpublicinspectionduringbusinesshours.\nholdersand\ncertificate (3) TheDepartmentshallensurethat,theregisterreferredto\nholders\ninsubsection(1),isaccessibletothepublicelectronically.\nSolid Waste Regulation and Management [No. 20 of 2018 385"
+    },
+    {
+      "number": "49",
+      "heading": "(1) DespitetheotherprovisionsthisAct,wherealicence Appointment",
+      "text": "hasbeencancelled,theMinistermay,inthe nationalinterest,direct of statutory\nmanager\na solid waste service provider to continue to operate under the\nmanagement and control of a statutory manager appointed in\naccordancewiththissectionandasprescribed.\n(2) TheMinistershallappointastatutorymanagerforaperiod\nandontermsandconditionsthattheMinisterconsidersnecessary\ntoensurethecontinuedprovisionofsolidwasteservicesoruntila\ntimethat—\n(a) a local authority is in a position to provide solid waste\nservices to the affected service zone;\n(b)thesolidwasteserviceproviderisreadytocomplywith\nthisActandislicencedbytheDirector;or\n(c) another solid waste service provider is authorised to\nprovidesolidwasteservicesintheaffectedservicezone.\n(3) Astatutorymanagershall,duringthestatutorymanager’s\ntermofappointment,keeptheDepartmentandtherelevantsolid\nwaste management company informed on all matters relating to\ntheprovisionofsolidwasteservicesintheaffectedservicezone.\n(4) Allexpenses,connectedwiththeappointmentofastatutory\nmanager’sprovisionofsolidwasteservicesintheaffectedservice\nzone,shallbeachargeontherevenuesofthesolidwasteservice\nproviderwhoselicencewascancelled.\n(5) Despitesubsections(1),(2),(3)and(4),thecancellation\nofasolidwasteserviceprovider’slicenceandtheappointmentof\nastatutorymanager,underthissection,shallnotprejudiceoraffect\nthe security of any debenture holder, mortgage or right of\nenforcementofsuchsecurity.\nPART V\nSOLIDWASTESERVICESPROVISION"
+    },
+    {
+      "number": "50",
+      "heading": "(1) Alocalauthorityorsolidwastemanagementcompany Solidwaste",
+      "text": "shallfacilitateprovisionofsolidwasteservicesunderthisAct,and services\nshallensure,inliaisonwithotherappropriateauthorities,that—\n(a) the interest of consumers are protected and investment\nin solid waste and solid waste services are optimally\nprovided;\n(b) solid waste services are efficient, economical and\nprofitable;\n386 No. 20 of 2018] Solid Waste Regulation and Management\n(c)proposedtariffsforsolidwasteservicesbylicencedsolid\nwaste service providers and required operators are\ncompetitive;\n(d) licenced solid waste service providers and registered\noperators develop a diverse and competitive industry\nwithin the general and specific national policies\nestablishedbytheGovernment;and\n(e)consumersgettheirmoney’sworthfromtheuseofsolid\nwaste services.\n(2) Except as providedin subsection (3) andsection53,the\nnumber of licenced solid waste service providers, registered\noperatorsorself-servicesolidwasteprovidersshallnotbelimited\nforanycomponentofsolidwasteservices.\n(3) Thenumberoflicencedsolidwasteserviceprovidersmay\nbelimitedforeachservicezone,butwastegeneratorsshallnotbe\nprevented from having the choice between at least two licenced\nsolid waste service providers with respect to any component of\nsolidwasteservice,subjecttorestrictionsorconditionsspecified\ninthisAct.\nProvision of 51. (1) Subject to this Act, a licenced solid waste service\nsolid waste\nprovider,registeredoperator andself-servicesolidwasteprovider\nservices\nshalloffercompetitivesolidwasteservicesinaccordancewiththe\nCompetitionandConsumerProtectionAct,2010.\nActNo.24\nof2010\n(2) A local authority may, in liaison with an appropriate\nauthority, impose on a licenced solid waste service provider,\nregisteredoperatororself-servicesolidwasteprovideroperating\nunderitsjurisdiction,conditionsthatitconsidersdesirableinthe\ninterest of the environment, public health, consumer protection,\nsafety,securityandlandfilloperationsortopreventuneconomic\ncompetition.\n(3) Alicencedsolidwasteserviceprovider,registeredoperator\nor self-service solid waste providers shall, where there is an\nimminentemergencyordisasterevent, notifythelocalauthority,\nDisaster Management and Mitigation Unit and the solid waste\nmanagementcompanyinwhosejurisdictionthelicensedsolidwaste\nservice provider, registered operator or self-service solid waste\nprovideroperates.\nSolid Waste Regulation and Management [No. 20 of 2018 387"
+    },
+    {
+      "number": "52",
+      "heading": "Alocalauthorityorsolidwastemanagementcompanymay Limiting",
+      "text": "limitthenumberoflicencedsolidwasteserviceproviders,registered numberof\nlicenced\noperators or self-service solid waste providers to provide the\nsolidwaste\nfollowingcomponentsofsolidwasteservicesinaservicezoneor service\nproviders\nsolidwastemanagementarea:\nand\nregistered\n(a) construction, operation or maintenance of landfills and\noperators\notherdisposalfacilities; forcertain\nservices\n(b) energyrecoveryandgeneration; and\n(c)othersolidwasteservicesthattheDirectormaydetermine."
+    },
+    {
+      "number": "53",
+      "heading": "(1) Alocalauthorityorsolidwastemanagementcompany Assessment",
+      "text": "shall,withintendaysofreceiptofasubmission madeinaccordance ofsolid\nwasteservice\nwithsection38,considertheapplication for alicence orpermit,\nproviders\nmakeanassessmentofthesolidwasteserviceprovider,operator and\noperators\nor self-service solid waste provider in accordance with the\nrequirementsspecifiedinthis section,andsubmitareport tothe\nDirector,indicatingthesolidwasteserviceprovider’s,operator’s\norself-servicesolidwasteprovider’scapacitytoprovidesolidwaste\nservices and making a recommendation on whether a licence or\npermit,asthecasemaybe,shouldorshouldnotbegrantedtothe\nsolidwasteserviceprovider,operator orself-servicesolidwaste\nprovider.\n(2) Subjecttosubsections(3)and(4),alocalauthorityorsolid\nwaste management company shall establish and implement\nprocedures and requirements for assessing solid waste service\nproviders,operatorsandself-servicesolidwasteproviders.\n(3) Assessment procedures and requirements established\nundersubsection(2),shallberelevant,objective,transparentand\nnon-discriminatoryandcomplywith—\n(a)appropriateprescribedstandards, conditionsandtechnical\nspecificationsspecifiedinanyotherwrittenlaw;and\n(b) prescribed standards, conditions and technical\nspecifications relatingtosolidwaste andsolid waste\nservices prescribed by the Minister or established by\ntheDirector,inliaisonwithanappropriateauthority.\n(4) A local authority or solid waste management company,\nwhen assessing a solid waste service provider or operator, shall\nrequest,andtakeintoaccount—\n(a)evidenceoftheincorporationorregistrationofacompany,\nfirmorproprietorshipfor purposesof providingsolid\nwaste services;\n388 No. 20 of 2018] Solid Waste Regulation and Management\n(b)thefinancialcapacityofthesolidwasteserviceprovider\noroperatortoprovidesolidwasteservices;\n(c)theavailabilityofequipmentappropriatetotheprovision\nofthesolidwasteservicesinquestion;\n(d)astatementontheintendedservicelevelstobeofferedto\nwaste generators in the service zone;\n(e)thetechnicalcompetenceofthesolidwasteserviceprovider\noroperator;and\n(f) whether there is evidence of sufficient insurance cover\nforthesecurityandsafetyofvehicles,installations, plant,\nequipmentandpersons.\nFeasibility 54. (1) Asolidwasteserviceprovider,operatororself-service\nstudy and solidwasteprovidershalldemonstratetothesatisfactionofalocal\nbusinessplan authority or solid waste management company making an\nassessment,thatthesolidwasteserviceprovideroroperatorshall\nmeetits—\n(a)actualandpotentialobligations,establishedunderrealistic\nassumptions, for a period of three years from the start\nofoperations;and\n(b)fixedandoperationalcostsincurredfromtheoperations,\naccordingtoitsbusinessplan,establishedunderrealistic\nassumptions,foraperiodofsixmonthsfromthestartof\noperationswithouttakingintoaccountanyincomefrom\nitsoperations.\n(2) For the purpose of subsection (1), a solid waste service\nprovider,operatororself-servicesolidwasteprovidershallsubmit\nafeasibilitystudyshowingtheviabilityoftheprojectforprovision\nofsolidwasteservicesandabusinessplanforthefirstthreeyears\nofoperationwhichshallincludethesolidwasteserviceprovider’s,\noperator’sorself-servicesolidwasteprovider’sfinanciallinkswith\nothercommercialactivitiesinwhichthesolidwasteserviceprovider,\noperator or self-service solid waste provider is engaged, either\ndirectlyorthroughrelatedundertakings.\nMonitoring 55. Alocal authorityorsolidwastemanagementcompanyshall\nperformance monitortheperformanceofsolidwasteserviceproviders,registered\noflicenced\noperatorsandself-servicesolidwasteproviderstoensurecompliance\nsolidwaste\nservice withthisAct,theterms andconditionsof alicence or permitand\nproviders,\nanyotherwrittenlaw.\nregistered\noperators\nandself-\nservicesolid\nwaste\nproviders\nSolid Waste Regulation and Management [No. 20 of 2018 389"
+    },
+    {
+      "number": "56",
+      "heading": "(1) Alocalauthorityorsolidwastemanagementcompany Power to",
+      "text": "shall have power to obtain information from a person or an obtain\ninformation\nappropriate authority that may assist the local authority or solid andexpert\nwastemanagementcompanyperformitsfunctionsunderthisAct. advice\n(2) Despite subsection (1), a local authority or solid waste\nmanagementcompanymayobtainexpertadvicefromanyperson\nthat may assist the solid waste management company in the\nperformanceofitsfunctions,asspecifiedinthisAct."
+    },
+    {
+      "number": "57",
+      "heading": "(1) Alocal authority, solid waste management company, Requirement",
+      "text": "licenced solid waste service provider, registered operator, self- to provide\ninformation,\nservice solid waste provider and any person undertaking a solid dataand\nwasterelatedoperation,businessoractivity,shall— makereturns\ntoDirector\n(a)provideinformation,statisticsandcopiesofrecords,relating\ntoanysolidwasteoperationtotheDirector,asrequested;\nand\n(b)file any return required by the Director giving accurate\ninformationconcerninganysolidwasterelatedmatter.\n(2) A person providing information or filing a return under\nsubsection (1) shall indicate that certain information is of a\nconfidentialnature,ifitisinformationthatshouldnotbeavailable\ntocommercialcompetitors.\n(3) IftheDirectorissatisfiedthatthenatureoftheinformation\nsubmittedundersubsection(2)justifiesitbeingconfidential,the\ninformation may only be provided to a public officer or an\nappropriateauthorityperformingofficialdutiesunderthisActor\nanywrittenlawrelatingtosolidwaste.\n(4) A person, to whom information or a return has been\nprovidedundersubsection(3),shallnotdisclosethatinformation\nor return to any person who is not authorised by the Director to\nreceivetheinformationorreturnandtheinformationorreturnshall\nnotbeusedforanycommercialpurpose,except withthewritten\nconsentofthepersonprovidingtheinformationorreturn.\n(5) If the Director is not satisfied that the nature of the\ninformationjustifiesitbeingconfidential,the—\n(a)personprovidingtheinformationorreturnshallbeadvised\nof the Director’s decision and the reasons for the\ndecision shall be provided on request by the person\nprovidingtheinformationorreturnorapersonauthorised\nbythatperson;\n390 No. 20 of 2018] Solid Waste Regulation and Management\n(b)Directorshallconsultwiththepersonifsorequested;and\n(c) Minister may review the decision and make a decision\nthatisjustorappropriateinthecircumstancesofeach\ncase.\n(6) TheDirectormayrequestaperson,inwriting,toprovide\nrelevantinformationordataifanyinternationalagreementrequires\nthatanyreportbemadeorthatanyinformationordatabecollected\nandprovided.\n(7) A person to whom a written request is made under this\nsection who, without reasonable justification, refuses or fails to\ncomply with that request, commits an offence and is liable, on\nconviction,toafinenotexceedingfiftythousandpenaltyunits.\nPower to 58. (1) Despitesubsection(2),alocalauthorityoraboardmay\nholdhearing conductahearingwhereitconsidersitnecessaryordesirablefor\nthe purpose of carrying out its functions related to solid waste\nservicesasprovidedinthisAct.\n(2) Alocalauthorityandaboardshallconductahearingbefore\nexercisingapowerto—\n(a)recommend a tariff; or\n(b) establish a code of conduct for licenced solid waste\nproviders, registered operators and self-service solid\nwasteprovidersoperatingwithintheirjurisdiction.\n(3) AnoticetoholdahearingshallbepublishedintheGazette\noranewspaperofgeneralcirculationinZambiaspecifyingthe—\n(a)purposeofthehearing;\n(b)timewithinwhichsubmissionsmaybemadetothelocal\nauthorityorsolidwastemanagementcompany;and\n(c)forminwhichsubmissionsmaybemade.\n(4) Alocalauthorityandasolidwastemanagementcompany\nmayholdajointhearingforpurposesofthisAct.\nRegisterof 59. (1) Alocalauthorityandsolidwastemanagementcompany\nlicencedsolid shall keep a Register of licenced solid waste service\nwasteservice\nproviders, providers’,registered operators and self-service solid waste\nregistered providersoperatinginitssolidwastemanagementarea,andshall\noperatorsand\nat least once in every year, publish in the Gazette a list of the\nself-service\nsolidwaste licenced solidwaste service providers’, registered operators and\nproviders\nself-servicesolidwasteprovidersforeachservicezone.\nSolid Waste Regulation and Management [No. 20 of 2018 391\n(2) The Register referred to under subsection (1), shall be\navailableforpublicinspectionduringbusinesshoursonpaymentof\na prescribed fee.\n(3) A local authority and solid waste management company\nshall ensure that, where possible, the Register, under subsection\n(1),isaccessibletothepublicelectronically."
+    },
+    {
+      "number": "60",
+      "heading": "(1) Alicencedsolidwasteserviceproviderandself-service Access to",
+      "text": "solidwasteprovidershallhaveaccesstolandfillsandotherdisposal landfillsand\nother\nfacilities,includingappurtenantinfrastructureandinstallationsfor disposal\npurposesofdisposalofsolidwasteandtotheextentnecessaryfor facilities\nthemtocarryouttheiractivities,onpaymentof aprescribedfee,\nwhereapplicable.\n(2) A local authority or solid waste management company\nunderwhosejurisdictionalandfillordisposalfacilityfalls,shallissue\nguidelinesanddirectionsforentryintoalandfillandotherdisposal\nfacility,themannerofdisposingsolidwaste,timesofentryintoand\nmovementinalandfillorotherdisposalfacilityandothermatters\nrelatingtosafetyandsecurityinalandfillorotherdisposalfacility\nthat the local authority or solid waste management company\nconsiders necessaryfor suchoperations.\n(3) Nothinginthissectionshallbeconstruedasprohibitingthe\nissuanceofjointguidelinesanddirectionsbyalocalauthorityand\nsolidwastemanagementcompany."
+    },
+    {
+      "number": "61",
+      "heading": "(1) If a landfill or other solid waste disposal facility has Constraint",
+      "text": "specificconstraintsrelatingtoavailablespaceorcapacityarising, ofavailable\nspaceor\nin particular, from congestion in areas used for storage of solid\ncapacity at\nwaste,alocalauthorityorsolidwastemanagementcompanymay, landfillor\nbyinstrumentinwriting— other\ndisposal\n(a) control the number of licensed solid waste service facility\nproviders,fromeach service zone, that are allowed to\naccessthelandfillorotherdisposalfacility,toparticular\ndaysortimes;\n(b)restrict disposal byself-service solidwaste providers to\ncertainworkingdaysorweekends;\n(c)divert licencedsolidwasteserviceprovidersorself-service\nsolidwasteproviderswishingtodisposeofsolidwaste\nto another solid waste management area, after\nagreementwiththerelevantlocalauthorityorsolidwaste\nmanagementcompany;or\n(d) take other appropriate action that is necessary in the\ncircumstances.\n392 No. 20 of 2018] Solid Waste Regulation and Management\n(2) Alocalauthorityorsolidwastemanagementcompanyshall,\nwhenundertakinganymeasureundersubsection(1)dosobynotice\nin a newspaper of general circulation, specifying the period for\nwhichthatmeasureshallbeinplace.\nFunctions 62. (1) DespiteanyotherlawandsubjecttothisAct,alicenced\nand solidwasteserviceprovidershalldoallthingsnecessarytoprovide\nresponsibilities\noflicenced efficientandeffectivesolidwasteservicesinitsservicezone.\nservice\nproviders, (2) Subjecttosubsection(1),alicencedself-servicesolidwaste\nself-service provider mayprovidesolidwasteservices toagatedcommunity\nsolidwaste\nor housingestate under termsandconditionsthat maybe agreed\nproviders\nand to with the developer or residents of that gated community or\nregistered\nhousingestate.\noperators\n(3) Alicencedsolidwasteserviceprovider,self-servicesolid\nwaste provider and registered operator shall submit to a local\nauthorityorsolidwastemanagementcompany,whohasjurisdiction\nin the solid waste management area, within six months after the\nendofthefinancialyear,anannualreportconcerningtheactivities\nand operations of the licenced solid waste service provider or\nregisteredoperatorduringthatyear.\n(4) Thereport,specifiedinsubsection(3),shallbeaccompanied\nwith—\n(a)astatementofalldirectivesgivenbythelocalauthority\nor solid waste management company to the licenced\nsolid waste service provider, self-service solid waste\nprovider or registered operator during the year in\nquestionandhowthese havebeen effected;and\n(b)other informationthatthelocal authorityorsolidwaste\nmanagementcompanymaydirect.\n(5) A licenced solid waste service provider or registered\noperatorshallnotsub-contractitssolidwasteservices,exceptwith\nthewrittenpermissionoftherelevantlocalauthorityorsolidwaste\nmanagement company.\n(6) Inthissection,“developer”meansapersonwho develops\nagatedcommunity,housingestateorsimilarproperty.\nServicelevel 63. (1) A licenced solid waste service provider, self-service\nagreements solidwasteproviderorregisteredoperatormayenterintoaservice\nto supply\nlevelagreementwithalocalauthorityorasolidwastemanagement\nsolidwaste\nservices companyfor the provision of solid waste services within a solid\nwaste management area.\nSolid Waste Regulation and Management [No. 20 of 2018 393\n(2) Subjecttosubsection(1),aservicelevelagreementshall\nspecify the functions which shall be performed by the licenced\nsolidwasteserviceprovider,self-servicesolidwasteprovider or\nregistered operator during the term of the agreement and may\nmakeprovisionfor,orwithrespectto—\n(a) the concurrent performance, by the local authority and\nthelicenced solidwasteservice provider,of thesame\nfunctions in different parts of the solid waste\nmanagement area;\n(b)theindemnitybythelicencedsolidwasteserviceprovider,\nself-servicesolidwasteproviderorregisteredoperator\nof any liability of the local authority arisingfromthe\nperformanceornon-performanceofitsfunctions;and\n(c)theuse,maintenance,rehabilitationanddevelopmentby\nthe licenced solidwaste service provider, self-service\nsolidwasteproviderorregisteredoperatorofthelocal\nauthority’ssolidwastemanagementinfrastructureand\nfacilities.\n(3) Alicencedsolidwasteserviceprovider,self-servicesolid\nwasteproviderorregisteredoperatormayenterintoservicelevel\nagreements with more than one local authority or solid waste\nmanagement company for purposes specified in subsections (1)\nand(2).\n(4) Apowerorfunctionwhich,intermsofanagreement,may\nbe exercised or performed by a licenced solid waste service\nprovider,self-servicesolidwasteprovideror registeredoperator\nshallbeconsidered,whenexercisedorperformedbythelicenced\nsolidwasteserviceprovider,self-servicesolidwasteprovider or\nregistered operator, to have been exercised or performed under\nthe authority of the local authority or solid waste management\ncompany."
+    },
+    {
+      "number": "64",
+      "heading": "Thefunctionsofalicencedsolidwasteserviceprovider, Specific",
+      "text": "self-servicesolidwasteproviderorregisteredoperatorareto— functions\nrelatingto\n(a)providecommercial,industrialandresidentialsolidwaste licenced\nsolidwaste\ncollectionservices;\nservice\n(b)carryoutthesoundmanagementoroperationoflandfill provider,\nself-service\nareas and other disposal facilities that incorporate\nsolidwaste\ncomprehensive environmental management systems, providerand\nincluding leachate containment and management registered\noperator\nmeasures in accordance with the Environmental\nManagementAct,2011; ActNo.12\nof2011\n394 No. 20 of 2018] Solid Waste Regulation and Management\n(c)provideappropriatewastetreatmentandstoragefacilities;\n(d)providesolidwasteservicestoanaircraft,incollaboration\nwiththeappropriateauthority;\n(e)recycle solidwaste;\n(f) cooperatewithpublichealthandenvironmentofficersin\nthedischargeoftheirresponsibilities;and\n(g)implementsolidwastecontrolmeasuresasprescribed.\nPowers of 65. Alicencedsolidwasteserviceprovider,self-servicesolid\nlicenced wasteproviderandaregisteredoperatormayexerciseanypower\nsolidwaste\nservice necessary or incidental to the discharge of their functions under\nprovider thisAct.\nand\nregistered\noperator\nPerformance 66. Alocalauthorityandlicencedsolidwasteserviceprovider\nof shall undertake community obligations at the direction of the\ncommunity\nobligations Minister,whichmayinvolveanyactivityaimedatkeepingpublic\nareascleanandfreeofsolidwaste,including—\n(a) street cleaning and other activities to maintain the\ncleanlinessofpublicareas;and\n(b)providingwastereceptaclesorprescribedcontainersand\nother appropriate facilities inpublic areas inorder to\nminimiseanddealwithsolidwasteonpublicroadsand\nreserves and otherareasaccessibletothepublic.\nPART VI\nSOLID WASTE TARIFFS\nCriteriafor 67. (1) Thelocalauthoritymayprescribetariffsforsolidwaste\nsettingand management.\napproval of\ntariffs (2) Alocalauthorityshall,indeterminingthetarifftakeinto\naccount the —\n(a) costs of providing solid waste management services or\nsolidwasteservices;\n(b) need for a return on the capital invested for providing\nsolid waste management services or solid waste\nservices;\n(c)financial implications of the tariffs on waste generators\nandother consumers;\n(d)stakeholderandinvestorinterests;\nSolid Waste Regulation and Management [No. 20 of 2018 395\n(e)desiretopromotecompetitivetariffs;\n(f)promotionofsolidwastecollectionandachievingasound\nsolidwastemanagementsystem;\n(g)costofmeetingprescribednationalsolidwastestandards;\n(h)financialsustainabilityofsolidwasteservices;and\n(i) recovery of costs reasonably associated with providing\nsolid waste management services and solid waste\nservices."
+    },
+    {
+      "number": "68",
+      "heading": "(1) The Directormayapplyacompulsorygarbagecollection Compulsory,",
+      "text": "tarifftoallresidentialpremisesinadistrictorwastemanagement generalised\nand\nservice area, and to all other premises to which the commercial\nadditional\nandindustrialwastecollectiontariffdoesnotapply,asspecifiedin tariffsfor\nsolidwaste\nsubsection(2).\nforcertain\npurposes\n(2) TheDirectormayapplyacommercialandindustrialwaste\ncollectiontarifftoallcommercialandindustrialpremisesinadistrict\nor solidwaste management area.\n(3) The compulsory garbage or commercial and industrial\nwastecollectiontariff,imposedinaccordancewiththissection—\n(a) may be set—\n(i)asanannualtariff;or\n(ii)atdifferentlevelsforvariousservicezones,taking\ninto account matters such as, the ability of\npersonstopaythewastecollectiontariff;and\n(b)shallbepayableatintervalsdeterminedbytheMinister.\n(4) TheDirectormayapplyadditionalor increasedtariffs to\npremisesorclassesofpremiseswhichgenerateparticulartypesof\nsolidwasteorgreaterquantitiesofsolidwaste,orwhicharelocated\ninareaswhichnecessitateparticularsolidwastecollectionmeasures\ntobeapplied.\n(5) Tariffsmaybesetandimposedfor —\n(a)disposingsolidwasteatlandfillsandotherdisposalfacilities;\nand\n(b)anyothersolidwasteserviceapprovedbytheDirector.\n(6) Apersonobligedtopayatariffimposedasaresultofthe\nexerciseofapower,asspecifiedinthissection,byalocalauthority\norsolidwastemanagementcompany,may,bywrittennotice,request\na review of the decision by the Department and, in determining\nsucha request,the Director may—\n396 No. 20 of 2018] Solid Waste Regulation and Management\n(a)affirmthe decision of the local authorityor solid waste\nmanagementcompany;or\n(b)amendthedecisionofthelocal authorityorsolidwaste\nmanagement companyinanyappropriate manner and\nauthorisepaymentorarefund.\n(7) Arequest for a review, made under subsection (6), shall\nnotpostponetheobligationtopaythetariffandtheDirectormay\ndeclinetoconsiderarequestifthepersonmakingithasnotpaid\nthetariff.\nAdministrative 69. (1) Wherealocalauthorityissatisfiedafterinvestigation,\npenalty for\nor where any person admits that the person has committed an\nlate payment\nof tariffs offenceunderthisAct,thelocalauthoritymaycompoundtheoffence\nby collecting from that person where the Authority is satisfied,\nafteraninvestigation,orwhereanypersonadmitsthattheperson\nhas committed an offence under this Act, the Director-General\nmay compound the offence by collecting from that person such\nsumofmoneyastheDirector-Generalconsidersappropriate,but\nnotexceedingfiftypercentofthemaximumamountofthefineto\nwhichthat personwouldhavebeenliable,onconviction,andno\npersonhavingmadesuchpaymentshallbethereafterprosecuted\ninrelationtotheoffencesocompounded.\n(2) An administrative penalty imposed in accordance with\nsubsection(1)maybeenforcedasacivildebt.\nBilling 70. (1) Alocal authority, solid waste management company,\nsystem and\nlicenced solid waste service provider, self-service solid waste\ncollectionof\ntariffs provider or registered operator may establish a billing system,\nspecifyingbillingperiods,forpurposesofsolidwasteservicesor\nsolidwastemanagement.\n(2) All tariffs payable under this Part are recoverable as a\ncivildebt.\n(3) A local authority, solid waste management company,\nlicenced solid waste service provider, self-service solid waste\nproviderorregisteredoperatormayenterintoarrangementswith\ncollectionagentsforthecollectionofchargesandfees.\n(4) Inthissection,“billingperiod”meanstheperiod forwhich\na tariff is imposed for solid waste management or solid waste\nservices.\nSolid Waste Regulation and Management [No. 20 of 2018 397"
+    },
+    {
+      "number": "71",
+      "heading": "(1) TheMinistermaymakeregulationsimposing— Specialsolid",
+      "text": "waste tariffs\n(a)additionaltariffsonpremisesincommercialandindustrial\nareas, where solid waste services are provided by a\nlicencedsolidwasteserviceprovider,forthemaintenance\nandcleanlinessofstreets,footpaths,drainsandpublic\nareas; and\n(b) any other type of special tariff relating to solid waste\nservices, or for the purpose of raising revenue for\nprovisionofeffectivesolidwasteservicesandfacilities.\nPART VII\nGENERALPROVISIONS"
+    },
+    {
+      "number": "72",
+      "heading": "(1) Alocalauthority,solidwastemanagementcompany,a Notices",
+      "text": "licenced solid waste service provider, self-service solid waste relatingto\nsolidwaste\nproviderorregisteredoperator,mayserveawrittennoticeonany\nperson requiring that solid waste owned, possessed or under the\ncontrolofthatperson—\n(a) be stored, transported or disposed of in any required\nmanner;\n(b)notbestored,transportedordisposedofinanyparticular\nmanner;\n(c)beremovedfromaparticularplaceandproperlydisposed\nof;or\n(d)bemadeavailableforrecyclinginamannerstatedinthe\nnotice.\n(2) A personwho fails tocomplywitha notice, specified in\nsubsection(1),commitsanoffenceandisliable,onconviction,toa\nfine—\n(a)notexceedingtwentythousandpenaltyunits,inthecase\nofanindividual;or\n(b)notexceedingfiftythousandpenaltyunits,inthecaseof\nabodycorporateorunincorporatebodyoranindividual\nwhocommitsasubsequent orfurther offence."
+    },
+    {
+      "number": "73",
+      "heading": "(1) Aninspectormayinspectthepremisesandrecordsof Powers of",
+      "text": "asolidwasteserviceprovider,self-servicesolidwasteprovideror inspector\nregisteredoperatortoensurecompliancewiththisAct.\n(2) Aninspectormayorderapersontoproduceforinspection,\nor for the purposes of obtaining copies or extracts, any book,\ndocumentorrecordrelevanttothecauseoftheinspection.\n398 No. 20 of 2018] Solid Waste Regulation and Management\n(3) Aninspectorshallensurethatadequatearrangementsfor\nthe provision of solid waste services are being provided, in\naccordancewith thisAct.\n(4) A person who obstructs an inspector, in the exercise of\nthat inspector’s powers, commits an offence and is liable, on\nconviction,toafinenotexceedingtwohundredthousandpenalty\nunitsortoimprisonmentforatermnotexceedingtwoyears,orto\nboth.\n(5) Aninspectormayarrestaperson,withoutwarrant,where\ntheinspectorhasreasonablegroundstobelievethattheperson—\n(a) is committing or has committed an offence under this\nAct;\n(b)isabouttocommitanoffenceunderthisActandthereis\nnootherwaytopreventthecommissionoftheoffence;\n(c)unlessarrested,will—\n(i) escape or cause unreasonable delay, trouble or\nexpenseinbeingmadeanswerabletojustice\n(ii)interferewiththewitness;or\n(iii) tamper with or destroy relevant evidence or\nmaterial;or\n(d) is wilfully obstructing the inspector in the execution of\ntheinspectors’sduties.\n(6) An inspector shall, where the inspector arrests a person\nundersubsection(5),handoverthepersontoapoliceofficer,or\nsurrenderthatpersontoapolicepostorstationwithintwenty-four\nhours.\n(7) An inspector who makes an arrest under subsection (5)\nshall, without undue delay, have the person so arrested brought\nbefore a court of competent jurisdiction to be dealt with\naccordingly.\nOffences 74. AnoffenceunderthisActisacognizableoffenceforthe\ncognizable purposesoftheCriminalProcedureCode.\nCap. 88\nImmunity 75. An action or other legal proceeding shall not lie or be\nof institutedfor,orinrespectofanactorthingdone,oromittedtobe\ninspectors\ndone, in good faith byaninspector in the exercise of a power or\ndutyconferredontheinspectorunderthisAct.\nFurnishing 76. An inspector shall furnish a local authority, solid waste\nof reports management company, solid waste service provider, self-service\nsolidwasteproviderorregisteredoperatorwithsuchreportsand\notherinformationrelatingtoaninspection,inaprescribedmanner\nandform.\nSolid Waste Regulation and Management [No. 20 of 2018 399"
+    },
+    {
+      "number": "77",
+      "heading": "(1) Where a local authority or solid waste management Enforcement",
+      "text": "companyissatisfiedthatalicencedsolidwasteserviceprovideror notices\nregistered operator is contravening or is likely to contravene a\nprovisionofthisAct,guideline,standard,directiveorotherinstrument\nissuedbyalocalauthorityorsolidwastemanagementcompany,or\nany condition of a licence or permit, the local authority or solid\nwaste management company shall serve an enforcement notice\nonthatlicencedserviceprovider,self-servicesolidwasteprovider\norregisteredoperator.\n(2) An enforcement notice issued in accordance with\nsubsection(1),shallclearlystate—\n(a)whoitisaddressedto;\n(b)theissuestoreporton,inwriting,includingstatisticsand\notherfinancialinformation;\n(c) the documentation to be submitted to substantiate any\ninformationprovidedinthereport;\n(d)theprovisionsofthisAct,guideline,standard,directive,\ninstrument or applicable legislation that has not been\ncompliedwith;\n(e)thedetailsofthenatureandextentofnon-compliance;\n(f)theenforcementmeasuresthatthelocalauthorityorsolid\nwaste management company intends to impose in the\neventofnon-compliancewiththeenforcementnotice;\n(g) the form and time frames for submission of the report;\nand\n(h)theaddresswhere thereport shallbe submitted.\n(3) Anenforcementnotice,issuedundersubsection(1),shall\nrequirealicencedsolidwasteserviceprovider,self-servicesolid\nwaste provider or registered operator to comply with, or take or\nput in place, remedial measures that may be stated in the notice\nand the period within which the remedial measures are to be\ncompliedwith,takenorputinplace,orbesubjecttoprosecution.\n(4) Ifalicencedsolidwasteserviceprovider,self-servicesolid\nwaste provider or registered operator consistently, willfully and\nunlawfullyfails tocomplywithanenforcement notice,issuedin\naccordance with this section, the licenced solid waste service\nprovider or registered operator commits an offence and shall be\nliable,onconviction,toafinenotexceedingonehundredthousand\npenaltyunits."
+    },
+    {
+      "number": "78",
+      "heading": "(1) The following persons may enforce an enforcement Enforcement",
+      "text": "notice,inaccordancewiththepowersspecifiedinsubsection(2): powers\n(a)aninspector;\n(b)apoliceofficer;and\n(c)anauthorisedofficer.\n400 No. 20 of 2018] Solid Waste Regulation and Management\n(2) ForthepurposesofimplementingandenforcingthisAct,\nmonitoringandcontainingtheeffectsofsolidwasteonhumanhealth\nandtheenvironment,apersonreferredtoinsubsection(1)may—\n(a)enter onanyland;\n(b)withawarrantorwiththeconsentoftheowneroroccupier,\nenteraprivatepropertyorpremise,afternotifyingthe\nowneroroccupieroftheintentiontodoso;\n(c)takesamplesofsolidwaste,soilandwaterfortestingand\nanalysis;\n(d)requiretheproductionofrecordsandinformationrelevant\ntothemanagement,storage,movementanddisposalof\nsolidwaste;and\n(e) order that certain solid waste or materials apparently\ninfectedoraffectedbysolidwastebecontained,removed\norotherwisedealtwith.\n(3) A person who refuses or fails to comply with an order\ngiveninaccordance subsection(2)(e)commits anoffence and is\nliable,onconviction,toafinenotexceedingtwo hundredthousand\npenaltyunitsortoimprisonmentforatermnotexceedingtwoyears,\nortoboth.\nGeneral 79. (1) Apersonwhodisposes of,or dumps, solidwaste at a\noffences place, other than a prescribed landfill or other disposal facility,\nrelatedto\ncommits an offence and is liable, on conviction, to a fine not\nsolidwaste\nexceeding—\n(a)fiftythousandpenaltyunitsortoimprisonmentforaterm\nnotexceedingsixmonths,ortoboth;or\n(b)onehundredthousandpenaltyunits,forabodycorporate\norunincorporatebodyoranindividualwhocommitsa\nsubsequent andfurtheroffence.\n(2) Apersoncommitsanoffenceifthatperson—\n(a)throwsordisposesofsolidwaste;\n(b)dischargesorpermitsthedischargeofsolidwaste;or\n(c) causes the disposal or discharge of solid waste on or in\nthe vicinity of a roadway, street, vacant land or river\nfront, or into a river, stream, creek, pool, well, lake,\nswamp or in a forest.\n(3) Apersonconvictedofanoffenceundersubsection(2)is\nliabletoafinenotexceeding—\n(i)fiftythousandpenaltyunits;or\n(ii)onehundredthousandpenaltyunits,inthecaseofa\nbody corporate or unincorporated body or an\nindividualwhocommitsasubsequentandfurther\noffence.\nSolid Waste Regulation and Management [No. 20 of 2018 401\n(4) Apersonwhodisposesofsolid wastefromaresidential,\ncommercial or industrial premise in a receptacle that is not a\nprescribedcontainerfordisposalofsolidwaste,commitsanoffence\nandisliable,onconviction,toafinenotexceeding—\n(a)tenthousandpenaltyunits;or\n(b) forty thousand penalty units, for a body corporate or\nunincorporated body or an individual who commits a\nsubsequent andfurtheroffence.\n(5) Apersoncommitsanoffenceifthatperson—\n(a)damages,interfereswith,orremovesanypropertyorsign\nat,alandfillorotherdisposalfacility;or\n(b)entersalandfillorotherdisposalfacilitywithoutauthority.\n(6) Apersonwhoisconvictedofanoffenceundersubsection\n(5),isliabletoafinenotexceedingtwentythousandpenaltyunits.\n(7) A person commits an offence if that person impedes,\nhinders,obstructsorassaults—\n(a)anauthorisedofficerintheexerciseofafunctionorpower\nunderthisAct;or\n(b) a contractor or employee engaged by a local authority,\nsolidwastemanagementcompany,licencedsolidwaste\nserviceproviderorregisteredoperator.\n(8) Apersonconvictedofanoffenceunder subsection(6) is\nliabletoafinenotexceedingtwohundredthousandpenaltyunits.\n(9) Apersoncommitsanoffenceifthatperson—\n(a) refuses to give the Director, an authorised officer or an\nappropriate authority reasonable assistance that the\nDirector, the authorised officer or the appropriate\nauthority may require for the purpose of exercising a\npowerspecifiedinthisAct;\n(b)unreasonablydelaysorwithholdsinformation;\n(c)knowinglyprovidesmateriallyfraudulentinformation;\n(d)concealsorfalsifiesrecords;\n(e)wilfullydestroysrecordswithoutlawfulauthority;or\n(f)givestheDirector,anauthorisedofficer,aninspector,police\nofficeroranofficerofanappropriateauthorityfalseor\nmisleadinginformationinanswertoaninvestigationor\ninquiry.\n(10) Apersonconvictedofanoffence,specifiedinsubsection\n(9),isliabletoafinenotexceedingtwothousandpenaltyunits.\n402 No. 20 of 2018] Solid Waste Regulation and Management\n(11) Alicencedsolidwasteserviceprovider,self-servicesolid\nwaste provider or registered operator that commits a second or\nsubsequentoffencerelatingtonon-compliancewithrules,guidelines\norstandards,underthisActcommitsanoffence.\nOffences by 80. WhereanoffencespecifiedinthisActiscommittedbya\nprincipal body corporate or an unincorporate body, with the knowledge,\nofficerof\nconsent or connivance of the director, manager or shareholder,\nbody\ncorporateor thatdirector,managerorshareholderisliable,onconviction,tothe\nun- penaltyortermofimprisonmentspecifiedforthatoffence.\nincorporate\nbody\nGeneral 81. Apersonconvictedofanoffence,specifiedinthisActfor\npenalty whichnopenaltyisspecificallyprovided,isliable—\n(a)inthecaseofafirstoffence,toafinenotexceedingone\nhundredthousandpenaltyunitsortoimprisonmentfora\ntermnotexceedingoneyear,ortoboth;\n(b) in the case of a second or subsequent offence, to a fine\nnotexceedingtwohundredthousandpenaltyunitsorto\nimpri"
+    },
+    {
+      "number": "82",
+      "heading": "Subject to written consent of the Director of Public",
+      "text": "Powerof Prosecution and where a local authority is satisfied after an\nlocal investigation, or where a person admits that the person has\nauthority to\ncommitted an offence under this Act, a local authority may\ncompound\ncertain compoundtheoffencebycollectingfromthatpersonsuchsumof\noffences money as the Town clerk or Council Secretary considers\nappropriate,butnotexceedingfiftypercentofthemaximumamount\nofthefinetowhichthatpersonwouldhavebeenliableonconviction,\nand a person having made such payment shall not be thereafter\nprosecutedinrelationtotheoffencesocompounded."
+    },
+    {
+      "number": "83",
+      "heading": "(1) Asolidwastemanagementcompanymayimposean",
+      "text": "Administrative administrative penalty, in form of a monetary payment, for a\npenalties contraventionofthisAct,anyguideline,standard,directiveorother\ninstrument,oranyconditionofalicence,whichisnotanoffence.\n(2) Subjecttotheapprovalofalocalauthorityorsolidwaste\nmanagementcompany,alicencedsolidwasteserviceprovider,self-\nservice solid waste provider or registered operator may impose\nmonetarypenaltiesforlatepaymentornon-paymentofatarifffor\nsolidwaste services.\nSolid Waste Regulation and Management [No. 20 of 2018 403\n(3) Alicencedsolidwasteserviceprovider,self-servicesolid\nwasteproviderorregisteredoperatorwhocontravenesanyrules,\nguidelinesorstandardsmadeunderthisAct,shallbeliabletoan\nadministrativepenaltyimposedinaccordancewiththissection."
+    },
+    {
+      "number": "84",
+      "heading": "(1) A person aggrieved with a decision of the Director, Appeals",
+      "text": "local authority, solid waste management company, solid waste\nproviderorregisteredoperatormayappealtotheMinisterwithin\nforty-fivedaysafterreceiptofthedecision.\n(2) A person aggrieved with a decision of the Minister may\nappealtotheHighCourt."
+    },
+    {
+      "number": "85",
+      "heading": "(1) TheMinistermay,inconsultationwithotherappropriate Regulations",
+      "text": "authorities, make regulations for the proper regulation and\nmanagementof solidwaste,solidwaste servicesandsolidwaste\nandfortheeffectiveimplementationofthisAct.\n(2) Withoutprejudicetothegeneralityofsubsection(1),the\nMinistermay,inconsultationwithalocalauthorityorsolidwaste\nmanagementcompanyorwherenecessary,anappropriateauthority,\nmakeregulationsfor—\n(a)anythingrequiredtobeprescribedunderthisAct;\n(b)minimumservicelevelindicatorsorguarantees;\n(c)content of service levels agreements;\n(d)complaint handlingprocessesandproceduresrelatedto\nbillingsystemsandpoorqualityofsolidwasteservices;\n(e)publicationofcompliancelevelsandreportingofservice\nlevels;\n(f) proceduresandprocessesforapplications for approvals\nandimpositionoftariffs;\n(g) procedures for appointment, powers and duties, of a\nstatutorymanager;\n(h)corporategovernanceinthemanagementofsolidwaste;\n(i)datacollectionandanalysis;\n(j)formatofannualreports;\n(k)theeffectivemanagementofsolidwasteandprovisionof\nsolidwasteservices;\n(l)prescribingsolidwastecontrolmeasures;\n404 No. 20 of 2018] Solid Waste Regulation and Management\n(m)proceduresrelatingtothe collectionofsolidwasterelated\ninformationandforitsdissemination;\n(n) systems, forms and procedures for registration and\nlicensingspecifiedinthisAct,andthepaymentoffees\nforlicences,permitsandcertificates;\n(o)providingforthedeterminationofanyparticularobject,\nsubstanceorthingtobesolidwasteforthepurposesof\nthisAct;\n(p)securingtheobservanceandeffectiveimplementationof\ninternationalagreementsandobligationsrelatingtosolid\nwaste; and\n(q)processesandproceduresforensuringtheobservanceof\napproved standards, rules, operating procedures and\ncodes ofpracticesinaccordancewiththisAct.\n(2) Regulations made in accordance with this section may\nprescribeoffencesandimposepenaltiesbeingfinesnotexceeding\nonehundredthousandpenaltyunitsorimprisonmentforaperiod\nnotexceedingoneyear,ortoboth.\nTransitional 86. A person who, prior to the commencement of this Act,\nprovisions wasprovidingsolidwasteservicesshallapplyforalicenceorpermit\nwithinninetydaysofthecommencementofthisAct."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/2018/20/eng@2018-12-26",
+  "source_hash": "sha256:51ebf91868b7b440297a7d129df890413fd2db000083c45b58f7ad4f2e247049",
+  "fetched_at": "2026-04-26T11:06:53Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}

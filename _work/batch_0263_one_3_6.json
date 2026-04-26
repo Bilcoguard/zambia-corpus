@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 3,
+    "yr": "2022",
+    "num": "4",
+    "title": "Social Workers' Association of Zambia Act, 2022",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2022-004-social-workers-association-of-zambia-act-2022",
+    "sections": 47,
+    "source_hash": "sha256:e8f3d5cd36c06b0bc07ad1e2f4ae1c102163fe6031526fef6446587e2c845b57",
+    "source_url": "https://zambialii.org/akn/zm/act/2022/4/eng@2022-04-12"
+  },
+  {
+    "idx": 4,
+    "yr": "2018",
+    "num": "20",
+    "title": "Solid Waste Regulation and Management Act, 2018",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2018-020-solid-waste-regulation-and-management-act-2018",
+    "sections": 128,
+    "source_hash": "sha256:51ebf91868b7b440297a7d129df890413fd2db000083c45b58f7ad4f2e247049",
+    "source_url": "https://zambialii.org/akn/zm/act/2018/20/eng@2018-12-26"
+  },
+  {
+    "idx": 5,
+    "yr": "1950",
+    "num": "47",
+    "title": "Specific Loan (Rhodesia Railways) Act, 1950",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1950-047-specific-loan-rhodesia-railways-act-1950",
+    "sections": 6,
+    "source_hash": "sha256:7e79d398551c65565520e9291f34c411631f684574291294fc80f197049216b6",
+    "source_url": "https://zambialii.org/akn/zm/act/1950/47/eng@1996-12-31"
+  }
+]

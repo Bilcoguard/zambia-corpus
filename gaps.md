@@ -1051,3 +1051,7 @@ regex form from `batch_0176.py`.
 - 2020/007 Road Traffic (Speed Limits) Regulations, 2019 — pdf_parse_empty (scanned image). Raw HTML+PDF preserved at raw/zambialii/si/2020/. Added to OCR backlog (now 11 items: 2017/068 + 2018/011 + 2018/075 + 2018/093 + 2020/007 + 2022/004 + 2022/007 + 2022/008 + 2022/012 + 2022/013 + 2026/004).
 - Alphabet probes K/O/Q each yielded 0 SI links. These letters appear to have minimal SI activity on zambialii.org's alphabetical listing (mostly Acts only).
 - year=2025 listing partially returned older SIs (1985-2014 mix); 3 unprocessed novel remain in cache (1985/45 Air Services Aerial App; 1992/9 Air Passenger Charging; possibly more) — deferred to next tick.
+
+## Batch 0263 (2026-04-26) — 1956/4 URL disambiguator deferral
+
+- **1956/4** Service of Process and Execution of Judgments Act, 1956 — zambialii lists this at `/akn/zm/act/1956/4-x/eng@1996-12-31` (note the `-x` disambiguator suffix in the path). The standard fetch pattern `/akn/zm/act/{yr}/{num}` would resolve to `/1956/4` which may not redirect. Skipped from this batch to avoid 404; needs special-case handler that probes `-x` and other disambiguators (e.g. `-y`, `-z`) before falling through. Substituted in-batch with 1989/9 Specified Offices (Terminal Gratuities) Act to fill MAX_BATCH_SIZE=8 cap. Reserved for follow-up batch with disambiguator-aware fetch.
