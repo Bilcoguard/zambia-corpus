@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "2006",
+    "num": "1",
+    "title": "Supplementary Appropriation (2004) Act, 2006",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2006-001-supplementary-appropriation-2004-act",
+    "sections": 2,
+    "source_hash": "sha256:672ddf5257a3b72a9224eed24be14f67c10bdcf90c8d5fc78a0aad55f80e4e34",
+    "source_url": "https://zambialii.org/akn/zm/act/2006/1/eng@2006-03-31"
+  },
+  {
+    "idx": 7,
+    "yr": "2006",
+    "num": "2",
+    "title": "Excess Expenditure Appropriation (2003) Act, 2006",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-2006-002-excess-expenditure-appropriation-2003-act",
+    "sections": 2,
+    "source_hash": "sha256:78dc1875b7a7cf8b57170e993cc74f3532b70b67a7ac2ff6aab2eac65b4c33a1",
+    "source_url": "https://zambialii.org/akn/zm/act/2006/2/eng@2006-03-31"
+  }
+]

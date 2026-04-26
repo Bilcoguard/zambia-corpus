@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 4,
+    "yr": "2005",
+    "num": "8",
+    "title": "Supplementary Appropriation (2003) Act, 2005",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2005-008-supplementary-appropriation-2003-act",
+    "sections": 3,
+    "source_hash": "sha256:d3e14946cbe5b0ff27df073eb1dcf045abb392cf49db6d70932e4ccc8c9f423b",
+    "source_url": "https://zambialii.org/akn/zm/act/2005/8/eng@2005-05-17"
+  },
+  {
+    "idx": 5,
+    "yr": "2005",
+    "num": "21",
+    "title": "Cotton Act, 2005",
+    "alpha": "C",
+    "status": "pdf_too_large_6931314",
+    "id": null,
+    "sections": 0,
+    "source_hash": null,
+    "source_url": null
+  }
+]

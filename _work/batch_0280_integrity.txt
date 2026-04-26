@@ -1,0 +1,8 @@
+CHECK1a: PASS (7 unique batch IDs)
+CHECK1b: PASS (7 records on disk)
+CHECK2: PASS (0 amended_by refs all resolved)
+CHECK3: PASS (0 repealed_by refs all resolved)
+CHECK4: PASS (7 source_hash sha256 verified)
+CHECK5: PASS (16x7=112 fields)
+CHECK6: PASS (0 cited_authorities refs all resolved)
+INTEGRITY: PASS (all 6 checks)

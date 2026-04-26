@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 2,
+    "yr": "2005",
+    "num": "6",
+    "title": "Excess Expenditure Appropriation (2001) Act, 2005",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-2005-006-excess-expenditure-appropriation-2001-act",
+    "sections": 2,
+    "source_hash": "sha256:15cdbe2f6357e5feeeb2369d2bbcdeea53f7db365f4d602863b08e85612d731c",
+    "source_url": "https://zambialii.org/akn/zm/act/2005/6/eng@2005-05-17"
+  },
+  {
+    "idx": 3,
+    "yr": "2005",
+    "num": "7",
+    "title": "Excess Expenditure Appropriation (2002) Act, 2005",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-2005-007-excess-expenditure-appropriation-2002-act",
+    "sections": 2,
+    "source_hash": "sha256:ae4af58d821f2b522ff115074bed2a098807d494f62728582ed5bbe0df4f332b",
+    "source_url": "https://zambialii.org/akn/zm/act/2005/7/eng@2005-05-17"
+  }
+]

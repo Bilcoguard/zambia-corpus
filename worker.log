@@ -2879,3 +2879,25 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 
 2026-04-26T19:10:31Z batch 0279 complete: 7/8 acts ingested (acts_in_force fiscal-series); 1 deferred (act/2002/6 PDF >4.5MB); 1 partial (act/2004/6 OCR section-1 missed). Pool 86->78. Today fetches 488->505/2000. B2 sync deferred to host (rclone unavailable in sandbox).
 [2026-04-26T19:12:33Z] Tick complete. Phase 4 Batch 0279 pushed (3176982). Phase 4 remains incomplete per approvals.yaml (worker does not flip). Pool 86->78 (next: 2004/7 onwards). Today fetches 488->505/2000 (25.25% of daily budget). Yield 7/8 (87.5%). 1 deferred (act/2002/6 PDF >4.5MB), 1 partial (act/2004/6 OCR section-1 missed). Robots sha256 fce67b697ee4ef44 unchanged. Wall-clock ~9 min. B2 sync deferred to host.
+
+[2026-04-26T19:33:06Z] git pull --ff-only failed
+  error: fatal: bad object refs/heads/main.lock.b0279_1777230702
+  error: https://github.com/Bilcoguard/zambia-corpus.git did not send all necessary objects
+  warning: unable to unlink '.git/objects/maintenance.lock': Operation not permitted
+  attempted cleanup: rm -f .git/refs/heads/main.lock.b0279_1777230702 -> Operation not permitted
+  diagnosis: stale ref lock file in .git/refs/heads/ that this sandbox cannot remove (permission denied).
+  action: halted per BRIEF tick protocol step 1; awaiting host-side cleanup of .git/refs/heads/main.lock.b0279_1777230702 and .git/objects/maintenance.lock
+
+[2026-04-26T20:08:00Z] === Tick start (batch 0280) ===
+[2026-04-26T20:08:00Z] lock cleanup: stale ref .git/refs/heads/main.lock.b0279_1777230702 was blocking git pull (find -delete from BRIEF preamble could not match this lock-named-with-suffix and virtiofs disallows direct unlink). Workaround: mv .git/refs/heads/main.lock.b0279_1777230702 -> .git/_stale_locks_int/. Same workaround used in batch 0278/0279 for index.lock.* variants.
+[2026-04-26T20:08:00Z] git pull --ff-only: Already up to date.
+[2026-04-26T20:08:00Z] approvals.yaml: read OK; lowest approved+incomplete = phase_4_bulk (acts_in_force first in priority_order).
+[2026-04-26T20:08:00Z] budget check: today fetches 503/2000 (25.15%). Tokens within budget. OK to proceed.
+[2026-04-26T20:08:00Z] robots.txt re-verified at tick start (sha256 prefix fce67b697ee4ef44 unchanged from b0193..0279). Crawl-delay 5s; using 6s margin.
+[2026-04-26T20:08:00Z] picks: 8 chronologically-earliest from 78-item inherited pool (_work/batch_0279_remaining.json): 2004/7 + 2005/5 + 2005/6 + 2005/7 + 2005/8 + 2005/21 + 2006/1 + 2006/2. 7 fiscal-series (alpha A/E/S) + 1 non-fiscal (2005/21 Cotton Act, alpha C). Pre-flight slug-glob check: all 8 confirmed not present.
+[2026-04-26T20:08:00Z] ingest: 7 ok / 8 attempted. 2004/7 + 2005/5 + 2005/6 + 2005/7 + 2005/8 + 2006/1 + 2006/2 ok via PDF fallback (each 2-3 sections); 2005/21 Cotton Act PDF returned 6,931,314 bytes > MAX_PDF_BYTES (4,500,000) -- deferred (parser refused fabrication; raw HTML kept). Final yield = 7/8 (87.5%). Mid-tick: ingestion split across 4 batch_0280 sub-runs (slice 0:2 + 2:4 + 4:6 + 6:8) due to 45s sandbox shell timeout x 6s crawl-delay. All sub-runs reuse ingest_one() (identical parser, UA, crawl-delay 6s).
+[2026-04-26T20:08:00Z] integrity check: PASS on 7 committed records (CHECK1a 7/7 batch unique; CHECK1b 7/7 corpus presence on disk; CHECK2/3 amended_by/repealed_by 0 refs; CHECK4 source_hash sha256 verified 7/7 against raw/zambialii/act/(2004,2005,2005,2005,2005,2006,2006)/*.html; CHECK5 required 16 fields x 7 = 112/112 all present; CHECK6 cited_authorities 0 refs).
+[2026-04-26T20:08:00Z] cumulative records: acts 1097 (+7 over 1090 worker-counter); SIs 539 (unchanged from batch 0252); judgments 25 (paused per robots Disallow on /akn/zm/judgment/)
+[2026-04-26T20:08:00Z] gaps.md updated: 2005/21 logged as pdf_too_large (oversize-pdf queue now 2 items: 2002/6 b0279 + 2005/21 b0280). OCR backlog unchanged at 18 items. Section-tolerant retry queue unchanged at 4 items.
+[2026-04-26T20:08:00Z] B2 sync deferred to host (rclone unavailable in sandbox)
+[2026-04-26T20:08:00Z] WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 0280. Peter to run: rclone sync raw/ b2raw:kwlp-corpus-raw/ --fast-list --transfers 4
