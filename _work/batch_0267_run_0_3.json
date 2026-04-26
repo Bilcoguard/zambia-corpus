@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 0,
+    "yr": "1964",
+    "num": "39",
+    "title": "Zambia Youth Service Act, 1964",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1964-039-zambia-youth-service-act-1964",
+    "sections": 23,
+    "source_hash": "sha256:bbc4f5eeb8ed227a08a1d54d4a76a39d8b266f039b168f913afb711fd843fbe0",
+    "source_url": "https://zambialii.org/akn/zm/act/1964/39/eng@1996-12-31"
+  },
+  {
+    "idx": 1,
+    "yr": "1966",
+    "num": "1",
+    "title": "Zambia National Provident Fund Act, 1966",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1966-001-zambia-national-provident-fund-act-1966",
+    "sections": 60,
+    "source_hash": "sha256:f90feeffde2db83ed6639c51b582b34958aea5b56fb31b210635fa944bdb7b59",
+    "source_url": "https://zambialii.org/akn/zm/act/1966/1/eng@1996-12-31"
+  },
+  {
+    "idx": 2,
+    "yr": "1966",
+    "num": "9",
+    "title": "Zambia Red Cross Society Act, 1966",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1966-009-zambia-red-cross-society-act-1966",
+    "sections": 8,
+    "source_hash": "sha256:d27d7855d452aa87175b64225acb78c32548d8a359899852b5884e67b376ad65",
+    "source_url": "https://zambialii.org/akn/zm/act/1966/9/eng@1996-12-31"
+  }
+]

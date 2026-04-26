@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "1973",
+    "num": "43",
+    "title": "Zambia Security Intelligence Service Act, 1973",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1973-043-zambia-security-intelligence-service-act-1973",
+    "sections": 10,
+    "source_hash": "sha256:5dc8b8d7bb4e241ade7e57a61056cd71e044f3b5124b8647afeb0bb1ae74ba3f",
+    "source_url": "https://zambialii.org/akn/zm/act/1973/43/eng@1996-12-31"
+  },
+  {
+    "idx": 7,
+    "yr": "1982",
+    "num": "30",
+    "title": "Zambia National Tender Board Act, 1982",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1982-030-zambia-national-tender-board-act-1982",
+    "sections": 45,
+    "source_hash": "sha256:7e6249517b48737911f5820cf23d8d924cbd25f03ecb5a9fb78dd1f2d14a9fcb",
+    "source_url": "https://zambialii.org/akn/zm/act/1982/30/eng@1982-12-31"
+  }
+]

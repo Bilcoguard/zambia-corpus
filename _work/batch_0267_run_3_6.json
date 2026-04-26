@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 3,
+    "yr": "1966",
+    "num": "32",
+    "title": "Zambia National Commission for UNESCO Act, 1966",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1966-032-zambia-national-commission-for-unesco-act-1966",
+    "sections": 10,
+    "source_hash": "sha256:bacc4dd2c16e06a96bef52a6099b672a2a20a4fed6c4c65de0a4812df7123fb4",
+    "source_url": "https://zambialii.org/akn/zm/act/1966/32/eng@1996-12-31"
+  },
+  {
+    "idx": 4,
+    "yr": "1966",
+    "num": "50",
+    "title": "Zambian Mines Local Pension Fund (Dissolution) Act, 1966",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1966-050-zambian-mines-local-pension-fund-dissolution-act-1966",
+    "sections": 6,
+    "source_hash": "sha256:0ef15ee728d5d39828201e7810a0da6c8dff5915671a9b681df11998410a6836",
+    "source_url": "https://zambialii.org/akn/zm/act/1966/50/eng@1996-12-31"
+  },
+  {
+    "idx": 5,
+    "yr": "1967",
+    "num": "18",
+    "title": "Zambia Tanzania Pipeline Act, 1967",
+    "alpha": "Z",
+    "status": "ok",
+    "id": "act-zm-1967-018-zambia-tanzania-pipeline-act-1967",
+    "sections": 12,
+    "source_hash": "sha256:9803ea9f5b40c741205cf57a1614829320560cb1e1962a03afbbc1e6cc5bdfec",
+    "source_url": "https://zambialii.org/akn/zm/act/1967/18/eng@1996-12-31"
+  }
+]
