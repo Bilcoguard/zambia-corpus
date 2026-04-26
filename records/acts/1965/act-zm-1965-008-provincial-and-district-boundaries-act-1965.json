@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-1965-008-provincial-and-district-boundaries-act-1965",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Provincial and District Boundaries Act, 1965",
+  "citation": "Act No. 8 of 1965",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Provincial and District Boundaries Act."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "The President may, by statutory order, divide Zambia into such Provinces and divide the Provinces into such Districts, as may be convenient for the purposes of administration, describing the boundaries thereof and assigning names thereto."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/1965/8/eng@1996-12-31",
+  "source_hash": "sha256:7f8a57adc563cfd605bced445541847f7363efc1ae5668413a033b5c86bd1b86",
+  "fetched_at": "2026-04-26T10:08:03Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}

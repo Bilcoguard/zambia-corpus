@@ -1,0 +1,90 @@
+[
+  {
+    "yr": "1981",
+    "num": "2",
+    "title": "Presidential Emoluments Act, 1981",
+    "alpha": "P",
+    "id": "act-zm-1981-002-presidential-emoluments-act-1981",
+    "sections": 3,
+    "source_url": "https://zambialii.org/akn/zm/act/1981/2/eng@1996-12-31",
+    "source_hash": "sha256:c791d0a671b2fe68c9bf04ce4831a7d06288746ab6fedf670cebdca0752f85a1",
+    "status": "ok"
+  },
+  {
+    "yr": "1947",
+    "num": "31",
+    "title": "Printed Publications Act, 1947",
+    "alpha": "P",
+    "id": "act-zm-1947-031-printed-publications-act-1947",
+    "sections": 6,
+    "source_url": "https://zambialii.org/akn/zm/act/1947/31/eng@1996-12-31",
+    "source_hash": "sha256:b50241d0f1089ba557b34b925dec95c008ed9f0a40e4bafd246a7590c045c4e8",
+    "status": "ok"
+  },
+  {
+    "yr": "1992",
+    "num": "21",
+    "title": "Privatisation Act, 1992",
+    "alpha": "P",
+    "id": "act-zm-1992-021-privatisation-act-1992",
+    "sections": 51,
+    "source_url": "https://zambialii.org/akn/zm/act/1992/21/eng@1996-12-31",
+    "source_hash": "sha256:292cdd180b80f782a3db050018fb2f48551b9bb8be0d692b1a3232e3441d81df",
+    "status": "ok"
+  },
+  {
+    "yr": "1961",
+    "num": "37",
+    "title": "Professional Boxing and Wrestling Control Act, 1961",
+    "alpha": "P",
+    "id": "act-zm-1961-037-professional-boxing-and-wrestling-control-act-1961",
+    "sections": 16,
+    "source_url": "https://zambialii.org/akn/zm/act/1961/37/eng@1996-12-31",
+    "source_hash": "sha256:78d66e7d8ec2834aefb65425612f79d050cb487a9b65298190ac963f477c63ce",
+    "status": "ok"
+  },
+  {
+    "yr": "1960",
+    "num": "6",
+    "title": "Protected Places and Areas Act, 1960",
+    "alpha": "P",
+    "id": "act-zm-1960-006-protected-places-and-areas-act-1960",
+    "sections": 13,
+    "source_url": "https://zambialii.org/akn/zm/act/1960/6/eng@1996-12-31",
+    "source_hash": "sha256:d775a6189a629c1323cc0018e3055b7085074cb2d344c06a9aa6d5738dcf8c7c",
+    "status": "ok"
+  },
+  {
+    "yr": "1965",
+    "num": "8",
+    "title": "Provincial and District Boundaries Act, 1965",
+    "alpha": "P",
+    "id": "act-zm-1965-008-provincial-and-district-boundaries-act-1965",
+    "sections": 2,
+    "source_url": "https://zambialii.org/akn/zm/act/1965/8/eng@1996-12-31",
+    "source_hash": "sha256:7f8a57adc563cfd605bced445541847f7363efc1ae5668413a033b5c86bd1b86",
+    "status": "ok"
+  },
+  {
+    "yr": "1995",
+    "num": "37",
+    "title": "Quantity Surveyors Act, 1995",
+    "alpha": "Q",
+    "id": "act-zm-1995-037-quantity-surveyors-act-1995",
+    "sections": 30,
+    "source_url": "https://zambialii.org/akn/zm/act/1995/37/eng@1996-12-31",
+    "source_hash": "sha256:15c77f29062e75c6b6c7a1e62cff58b3fe6f4670456e568747ba8924eb837bc7",
+    "status": "ok"
+  },
+  {
+    "yr": "1994",
+    "num": "25",
+    "title": "Radiocommunications Act, 1994",
+    "alpha": "R",
+    "id": "act-zm-1994-025-radiocommunications-act-1994",
+    "sections": 21,
+    "source_url": "https://zambialii.org/akn/zm/act/1994/25/eng@1996-12-31",
+    "source_hash": "sha256:359b339fd0722c70bee9ecb35ecbe0c4c1d9e5988de43bfd9b59f0e444a38e3a",
+    "status": "ok"
+  }
+]

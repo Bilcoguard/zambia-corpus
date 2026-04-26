@@ -1,0 +1,50 @@
+[
+  {
+    "idx": 0,
+    "yr": "1981",
+    "num": "2",
+    "title": "Presidential Emoluments Act, 1981",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1981-002-presidential-emoluments-act-1981",
+    "sections": 3,
+    "source_hash": "sha256:c791d0a671b2fe68c9bf04ce4831a7d06288746ab6fedf670cebdca0752f85a1",
+    "source_url": "https://zambialii.org/akn/zm/act/1981/2/eng@1996-12-31"
+  },
+  {
+    "idx": 1,
+    "yr": "1947",
+    "num": "31",
+    "title": "Printed Publications Act, 1947",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1947-031-printed-publications-act-1947",
+    "sections": 6,
+    "source_hash": "sha256:b50241d0f1089ba557b34b925dec95c008ed9f0a40e4bafd246a7590c045c4e8",
+    "source_url": "https://zambialii.org/akn/zm/act/1947/31/eng@1996-12-31"
+  },
+  {
+    "idx": 2,
+    "yr": "1992",
+    "num": "21",
+    "title": "Privatisation Act, 1992",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1992-021-privatisation-act-1992",
+    "sections": 51,
+    "source_hash": "sha256:292cdd180b80f782a3db050018fb2f48551b9bb8be0d692b1a3232e3441d81df",
+    "source_url": "https://zambialii.org/akn/zm/act/1992/21/eng@1996-12-31"
+  },
+  {
+    "idx": 3,
+    "yr": "1961",
+    "num": "37",
+    "title": "Professional Boxing and Wrestling Control Act, 1961",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1961-037-professional-boxing-and-wrestling-control-act-1961",
+    "sections": 16,
+    "source_hash": "sha256:78d66e7d8ec2834aefb65425612f79d050cb487a9b65298190ac963f477c63ce",
+    "source_url": "https://zambialii.org/akn/zm/act/1961/37/eng@1996-12-31"
+  }
+]

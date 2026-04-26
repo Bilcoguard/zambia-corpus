@@ -1,0 +1,106 @@
+{
+  "CHECK1a_unique_batch_ids": {
+    "pass": true,
+    "got": 8,
+    "expected": 8
+  },
+  "CHECK1b_corpus_presence": {
+    "pass": true,
+    "verified": [
+      {
+        "id": "act-zm-1981-002-presidential-emoluments-act-1981",
+        "path": "records/acts/1981/act-zm-1981-002-presidential-emoluments-act-1981.json"
+      },
+      {
+        "id": "act-zm-1947-031-printed-publications-act-1947",
+        "path": "records/acts/1947/act-zm-1947-031-printed-publications-act-1947.json"
+      },
+      {
+        "id": "act-zm-1992-021-privatisation-act-1992",
+        "path": "records/acts/1992/act-zm-1992-021-privatisation-act-1992.json"
+      },
+      {
+        "id": "act-zm-1961-037-professional-boxing-and-wrestling-control-act-1961",
+        "path": "records/acts/1961/act-zm-1961-037-professional-boxing-and-wrestling-control-act-1961.json"
+      },
+      {
+        "id": "act-zm-1960-006-protected-places-and-areas-act-1960",
+        "path": "records/acts/1960/act-zm-1960-006-protected-places-and-areas-act-1960.json"
+      },
+      {
+        "id": "act-zm-1965-008-provincial-and-district-boundaries-act-1965",
+        "path": "records/acts/1965/act-zm-1965-008-provincial-and-district-boundaries-act-1965.json"
+      },
+      {
+        "id": "act-zm-1995-037-quantity-surveyors-act-1995",
+        "path": "records/acts/1995/act-zm-1995-037-quantity-surveyors-act-1995.json"
+      },
+      {
+        "id": "act-zm-1994-025-radiocommunications-act-1994",
+        "path": "records/acts/1994/act-zm-1994-025-radiocommunications-act-1994.json"
+      }
+    ]
+  },
+  "CHECK2_amended_by_refs": {
+    "pass": true,
+    "refs": 0
+  },
+  "CHECK3_repealed_by_refs": {
+    "pass": true,
+    "refs": 0
+  },
+  "CHECK4_source_hash_matches": {
+    "pass": true,
+    "verified": [
+      {
+        "id": "act-zm-1981-002-presidential-emoluments-act-1981",
+        "raw_path": "raw/zambialii/act/1981/1981-002.html",
+        "sha256": "sha256:c791d0a671b2fe68c9bf04ce4831a7d06288746ab6fedf670cebdca0752f85a1"
+      },
+      {
+        "id": "act-zm-1947-031-printed-publications-act-1947",
+        "raw_path": "raw/zambialii/act/1947/1947-031.html",
+        "sha256": "sha256:b50241d0f1089ba557b34b925dec95c008ed9f0a40e4bafd246a7590c045c4e8"
+      },
+      {
+        "id": "act-zm-1992-021-privatisation-act-1992",
+        "raw_path": "raw/zambialii/act/1992/1992-021.html",
+        "sha256": "sha256:292cdd180b80f782a3db050018fb2f48551b9bb8be0d692b1a3232e3441d81df"
+      },
+      {
+        "id": "act-zm-1961-037-professional-boxing-and-wrestling-control-act-1961",
+        "raw_path": "raw/zambialii/act/1961/1961-037.html",
+        "sha256": "sha256:78d66e7d8ec2834aefb65425612f79d050cb487a9b65298190ac963f477c63ce"
+      },
+      {
+        "id": "act-zm-1960-006-protected-places-and-areas-act-1960",
+        "raw_path": "raw/zambialii/act/1960/1960-006.html",
+        "sha256": "sha256:d775a6189a629c1323cc0018e3055b7085074cb2d344c06a9aa6d5738dcf8c7c"
+      },
+      {
+        "id": "act-zm-1965-008-provincial-and-district-boundaries-act-1965",
+        "raw_path": "raw/zambialii/act/1965/1965-008.html",
+        "sha256": "sha256:7f8a57adc563cfd605bced445541847f7363efc1ae5668413a033b5c86bd1b86"
+      },
+      {
+        "id": "act-zm-1995-037-quantity-surveyors-act-1995",
+        "raw_path": "raw/zambialii/act/1995/1995-037.html",
+        "sha256": "sha256:15c77f29062e75c6b6c7a1e62cff58b3fe6f4670456e568747ba8924eb837bc7"
+      },
+      {
+        "id": "act-zm-1994-025-radiocommunications-act-1994",
+        "raw_path": "raw/zambialii/act/1994/1994-025.html",
+        "sha256": "sha256:359b339fd0722c70bee9ecb35ecbe0c4c1d9e5988de43bfd9b59f0e444a38e3a"
+      }
+    ]
+  },
+  "CHECK5_required_fields": {
+    "pass": true,
+    "fields": 16,
+    "records": 8
+  },
+  "CHECK6_cited_authorities_refs": {
+    "pass": true,
+    "refs": 0
+  }
+}
