@@ -1,0 +1,38 @@
+{
+  "batch": "0250",
+  "timestamp": "2026-04-26T03:50:00Z",
+  "results": {
+    "CHECK1a_batch_unique": {
+      "pass": true,
+      "detail": "8 ids, 8 unique"
+    },
+    "CHECK1b_corpus_presence": {
+      "pass": true,
+      "detail": "8/8 present"
+    },
+    "CHECK2_amended_by": {
+      "pass": true,
+      "detail": "0 refs (vacuously pass \u2014 none)"
+    },
+    "CHECK3_repealed_by": {
+      "pass": true,
+      "detail": "0 refs (vacuously pass \u2014 none)"
+    },
+    "CHECK4_source_hash": {
+      "pass": true,
+      "detail": "8/8 sha256 verified"
+    },
+    "CHECK5_required_fields": {
+      "pass": true,
+      "detail": "8/8 have all 10 required fields"
+    },
+    "CHECK6_cited_authorities": {
+      "pass": true,
+      "detail": "0 refs (vacuously pass \u2014 none)"
+    }
+  },
+  "all_pass": true,
+  "ok_count": 8,
+  "attempted": 8,
+  "yield_pct": 100.0
+}

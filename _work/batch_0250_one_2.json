@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "1995/2",
+    "year": "1995",
+    "num": "2",
+    "title": "Zambezi River Authority (Terms and Conditions of Service) By-laws, 1995",
+    "parent_act": "Zambezi River Authority Act",
+    "sub_phase": "sis_industry"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-1995-002-zambezi-river-authority-terms-and-conditions-of-service-by-laws-1995",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 1995,
+    "number": 2,
+    "title": "Zambezi River Authority (Terms and Conditions of Service) By-laws, 1995",
+    "parent_act": "Zambezi River Authority Act",
+    "sub_phase": "sis_industry",
+    "effective_date": "1995-01-13",
+    "source_url": "https://zambialii.org/akn/zm/act/si/1995/2",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/1995/2/eng@1995-01-13/source.pdf",
+    "source_hash": "2247be17d001f0b0f61c64532f68ce9291840727251f1fb782050231a4ff2691",
+    "html_hash": "228836a1166e11dd6a2b9f596123b8e95ba6809fb0151aa7dded11ab477c41d3",
+    "fetched_at": "2026-04-26T03:39:40Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 26,
+    "pdf_text_chars": 48832,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/1995/si-zm-1995-002-zambezi-river-authority-terms-and-conditions-of-service-by-laws-1995.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1995/2",
+      "bytes": 45571,
+      "path": "raw/zambialii/si/1995/si-zm-1995-002-zambezi-river-authority-terms-and-conditions-of-service-by-laws-1995.html",
+      "sha": "228836a1166e11dd6a2b9f596123b8e95ba6809fb0151aa7dded11ab477c41d3"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1995/2/eng@1995-01-13/source.pdf",
+      "bytes": 3371159,
+      "path": "raw/zambialii/si/1995/si-zm-1995-002-zambezi-river-authority-terms-and-conditions-of-service-by-laws-1995.pdf",
+      "sha": "2247be17d001f0b0f61c64532f68ce9291840727251f1fb782050231a4ff2691"
+    }
+  ],
+  "title": "Zambezi River Authority (Terms and Conditions of Service) By-laws, 1995"
+}

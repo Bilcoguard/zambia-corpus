@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2016/41",
+    "year": "2016",
+    "num": "41",
+    "title": "Zambia Wildlife (Game Animals) Order, 2016",
+    "parent_act": "Zambia Wildlife Act",
+    "sub_phase": "sis_governance"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2016-041-zambia-wildlife-game-animals-order-2016",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2016,
+    "number": 41,
+    "title": "Zambia Wildlife (Game Animals) Order, 2016",
+    "parent_act": "Zambia Wildlife Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "2016-06-10",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2016/41",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2016/41/eng@2016-06-10/source.pdf",
+    "source_hash": "92377a01b046cf7674a0d8b7c3ff066d1f3c5c202085b618e9e9f1e19816cb79",
+    "html_hash": "e4c3fd0062cb449521c77e3d969cefa2dad471c22f50cc35fff6b2dedac1e14c",
+    "fetched_at": "2026-04-26T03:41:00Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1833,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2016/si-zm-2016-041-zambia-wildlife-game-animals-order-2016.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2016/41",
+      "bytes": 40644,
+      "path": "raw/zambialii/si/2016/si-zm-2016-041-zambia-wildlife-game-animals-order-2016.html",
+      "sha": "e4c3fd0062cb449521c77e3d969cefa2dad471c22f50cc35fff6b2dedac1e14c"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2016/41/eng@2016-06-10/source.pdf",
+      "bytes": 108855,
+      "path": "raw/zambialii/si/2016/si-zm-2016-041-zambia-wildlife-game-animals-order-2016.pdf",
+      "sha": "92377a01b046cf7674a0d8b7c3ff066d1f3c5c202085b618e9e9f1e19816cb79"
+    }
+  ],
+  "title": "Zambia Wildlife (Game Animals) Order, 2016"
+}
