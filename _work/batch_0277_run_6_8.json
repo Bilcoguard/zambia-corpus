@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "1989",
+    "num": "31",
+    "title": "Supplementary Appropriation (1988) Act, 1989",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1989-031-supplementary-appropriation-1988-act",
+    "sections": 2,
+    "source_hash": "sha256:a9993fe6d52fef9bdfa31fa96b887ababb7a2359ddeeada5b327dc43cf28403e",
+    "source_url": "https://zambialii.org/akn/zm/act/1989/31/eng@1989-12-29"
+  },
+  {
+    "idx": 7,
+    "yr": "1990",
+    "num": "39",
+    "title": "Supplementary Appropriation (1989) Act, 1990",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1990-039-supplementary-appropriation-1989-act",
+    "sections": 2,
+    "source_hash": "sha256:8c5bc61be6b31a3677ca61896c3bd836259acbe0247a73baf7510e4bc1c6f404",
+    "source_url": "https://zambialii.org/akn/zm/act/1990/39/eng@1991-02-01"
+  }
+]

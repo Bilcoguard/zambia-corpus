@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 2,
+    "yr": "1979",
+    "num": "22",
+    "title": "Public Officers' Pensions (Zambia) Agreement (Implementation) Act, 1979",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1979-022-public-officers-pensions-zambia-agreement-implementation-act",
+    "sections": 5,
+    "source_hash": "sha256:579335178005378d4cf0a07d16a7ff88753dfa61ce4d99937f84be8ab64acc5d",
+    "source_url": "https://zambialii.org/akn/zm/act/1979/22/eng@1996-12-31"
+  },
+  {
+    "idx": 3,
+    "yr": "1988",
+    "num": "21",
+    "title": "Supreme Court and High Court (Number of Judges) Act, 1988",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1988-021-supreme-court-and-high-court-number-of-judges-act",
+    "sections": 4,
+    "source_hash": "sha256:c00e657a3170e01d4c1d221b1e3a09b2850111fd21b6a413492097734ce3d455",
+    "source_url": "https://zambialii.org/akn/zm/act/1988/21/eng@1988-07-29"
+  }
+]

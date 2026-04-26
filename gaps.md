@@ -1087,3 +1087,15 @@ across all pages). HTML and PDF preserved on disk for OCR retry.
 - **2000/16** Excess Expenditure Appropriation (1997) Act, 2000 — `https://zambialii.org/akn/zm/act/2000/16` — PDF appears scanned-image only. Raw HTML+PDF preserved at `raw/zambialii/act/2000/2000-016.{html,pdf}`. Substituted in-batch with 2005/17 (National Health Services (Repeal) Act, 2005) which parsed cleanly.
 
 OCR backlog now 17 items (act/2000/8, act/2000/16 added; previously 15: si 2017/068, 2018/011, 2018/075, 2018/093, 2020/007, 2022/004, 2022/007, 2022/008, 2022/012, 2022/013, 2026/004 + earlier SIs).
+
+## Batch 0277 (2026-04-26) — duplicate-existing + pdf_parse_no_sections
+
+Of 8 chronological picks from the inherited 102-item page-2 missing pool, 6/8 were
+ingested cleanly. Two are deferred:
+
+- **1988/21** Supreme Court and High Court (Number of Judges) Act, 1988 — `https://zambialii.org/akn/zm/act/1988/21` — DUPLICATE-EXISTING. Pre-flight dedup against on-disk records used the `/akn/zm/act/<yr>/<num>` source_url pattern, but the existing record (`act-zm-1988-021-supreme-court-and-high-court-number-of-judges-act-1988`, fetched 2026-04-20T18:40:15Z, 4 sections) was ingested via the `media.zambialii.org/media/legislation/...` PDF source URL pattern (likely an earlier batch using a different parser path), so it slipped past the dedup. New record (slug missing trailing -1988) was created and then quarantined to `_stale_locks/act-zm-1988-021-...act.json.b0277-dup` (virtiofs unlink restriction prevented direct removal). No new record committed for this pick. Action item: extend dedup pre-flight to also check `media.zambialii.org/media/legislation/.../zm-act-<yr>-<num>-publication-document.pdf` source_url shape AND glob `act-zm-<yr>-<num:03d>-*.json` regardless of slug suffix.
+- **1988/32** Appropriation (No. 2) Act, 1988 — `https://zambialii.org/akn/zm/act/1988/32` — `no_sections`. HTML returned <2 akn-sections so PDF fallback engaged. PDF (5 pages, 12,570 chars extracted) is OCR'd legibly but section "1." was misread as "i." (lowercase i with period), causing the section regex `^(\d+)\.\s+...` to match zero sections. Parser refused to fabricate. Raw HTML+PDF preserved at `raw/zambialii/act/1988/1988-032.{html,pdf}`. Action item: add OCR-tolerant regex variant for Appropriation Act fiscal series (e.g. allow `^[1iIl]\.` for the canonical section "1") - deferred to future parser revision.
+
+OCR backlog unchanged at 17 items (no new OCR-only PDFs this batch). Duplicate-existing
+sweep candidate for one-shot audit: enumerate all `act-zm-<yr>-<num:03d>-*.json` glob
+collisions across `records/acts/`.

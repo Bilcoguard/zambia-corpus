@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 0,
+    "yr": "1970",
+    "num": "55",
+    "title": "Nurses and Midwives Act, 1970",
+    "alpha": "N",
+    "status": "ok",
+    "id": "act-zm-1970-055-nurses-and-midwives-act",
+    "sections": 40,
+    "source_hash": "sha256:453d637e480cb0cfd3b5da9590a34331c3e4e6f2388090a797eeaabaa4f0b246",
+    "source_url": "https://zambialii.org/akn/zm/act/1970/55/eng@1996-12-31"
+  },
+  {
+    "idx": 1,
+    "yr": "1973",
+    "num": "41",
+    "title": "Supreme Court of Zambia Act, 1973",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1973-041-supreme-court-of-zambia-act",
+    "sections": 32,
+    "source_hash": "sha256:f4070e0361f07ba9987ced1b5b525439c2a7aceda65c0dc227455554569dfac0",
+    "source_url": "https://zambialii.org/akn/zm/act/1973/41/eng@1996-12-31"
+  }
+]
