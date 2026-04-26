@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2018/64",
+    "year": "2018",
+    "num": "64",
+    "title": "Constitutional Offices Emoluments Regulations, 2018",
+    "sub_phase": "sis_governance",
+    "parent_act": "Constitutional Offices Emoluments Act",
+    "eng_date": "2018-08-17"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2018-064-constitutional-offices-emoluments-regulations-2018",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2018,
+    "number": 64,
+    "title": "Constitutional Offices Emoluments Regulations, 2018",
+    "parent_act": "Constitutional Offices Emoluments Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "2018-08-17",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2018/64",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2018/64/eng@2018-08-17/source.pdf",
+    "source_hash": "28c348248eb38cacbde5a461aaf66346dbce9be3bb3bba1f1107b3b0039dc688",
+    "html_hash": "bb5b054eb3c36398cf50c90b61e98ed9b458f50bff2f5afed7844d701f9424aa",
+    "fetched_at": "2026-04-26T00:09:08Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1742,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2018/si-zm-2018-064-constitutional-offices-emoluments-regulations-2018.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/64",
+      "bytes": 39501,
+      "path": "raw/zambialii/si/2018/si-zm-2018-064-constitutional-offices-emoluments-regulations-2018.html",
+      "sha": "bb5b054eb3c36398cf50c90b61e98ed9b458f50bff2f5afed7844d701f9424aa"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2018/64/eng@2018-08-17/source.pdf",
+      "bytes": 347287,
+      "path": "raw/zambialii/si/2018/si-zm-2018-064-constitutional-offices-emoluments-regulations-2018.pdf",
+      "sha": "28c348248eb38cacbde5a461aaf66346dbce9be3bb3bba1f1107b3b0039dc688"
+    }
+  ]
+}

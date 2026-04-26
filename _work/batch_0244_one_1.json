@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2019/22",
+    "year": "2019",
+    "num": "22",
+    "title": "Citizens Economic Empowerment (Reservation Scheme) Regulations, 2019",
+    "sub_phase": "sis_industry",
+    "parent_act": "Citizens Economic Empowerment Act",
+    "eng_date": "2019-03-15"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2019-022-citizens-economic-empowerment-reservation-scheme-regulations-2019",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2019,
+    "number": 22,
+    "title": "Citizens Economic Empowerment (Reservation Scheme) Regulations, 2019",
+    "parent_act": "Citizens Economic Empowerment Act",
+    "sub_phase": "sis_industry",
+    "effective_date": "2019-03-15",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2019/22",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2019/22/eng@2019-03-15/source.pdf",
+    "source_hash": "53f78b9f306e704f970872b657bc3bdeefde4851ad86fd2af9408e6986e78ba5",
+    "html_hash": "f34e0f8d510928de07486e40c904bd2dc528046e063defe21c0ce72d186174be",
+    "fetched_at": "2026-04-26T00:07:53Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 2236,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2019/si-zm-2019-022-citizens-economic-empowerment-reservation-scheme-regulations-2019.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/22",
+      "bytes": 39310,
+      "path": "raw/zambialii/si/2019/si-zm-2019-022-citizens-economic-empowerment-reservation-scheme-regulations-2019.html",
+      "sha": "f34e0f8d510928de07486e40c904bd2dc528046e063defe21c0ce72d186174be"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/22/eng@2019-03-15/source.pdf",
+      "bytes": 191488,
+      "path": "raw/zambialii/si/2019/si-zm-2019-022-citizens-economic-empowerment-reservation-scheme-regulations-2019.pdf",
+      "sha": "53f78b9f306e704f970872b657bc3bdeefde4851ad86fd2af9408e6986e78ba5"
+    }
+  ]
+}

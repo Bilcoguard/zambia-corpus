@@ -1,0 +1,94 @@
+{
+  "batch": "0244",
+  "status": "ready_to_commit",
+  "records": 6,
+  "attempted": 7,
+  "yield": "6/7 (86%)",
+  "records_detail": [
+    {
+      "idx": 0,
+      "status": "ok",
+      "yr_num": "2021/35",
+      "id": "si-zm-2021-035-citizens-economic-empowerment-transportation-of-heavy-and-bulk-commodities-by-road-reservation-regulations-2021",
+      "sub_phase": "sis_industry",
+      "parent_act": "Citizens Economic Empowerment Act",
+      "pages": 6,
+      "chars": 4917,
+      "error": ""
+    },
+    {
+      "idx": 1,
+      "status": "ok",
+      "yr_num": "2019/22",
+      "id": "si-zm-2019-022-citizens-economic-empowerment-reservation-scheme-regulations-2019",
+      "sub_phase": "sis_industry",
+      "parent_act": "Citizens Economic Empowerment Act",
+      "pages": 2,
+      "chars": 2236,
+      "error": ""
+    },
+    {
+      "idx": 2,
+      "status": "skip",
+      "yr_num": "2025/20",
+      "id": "",
+      "sub_phase": "sis_industry",
+      "parent_act": "Compulsory Standards Act",
+      "pages": 0,
+      "chars": 0,
+      "error": "pdf_too_large_88559047b"
+    },
+    {
+      "idx": 3,
+      "status": "ok",
+      "yr_num": "2020/18",
+      "id": "si-zm-2020-018-compulsory-standards-potable-spirits-declaration-order-2020",
+      "sub_phase": "sis_industry",
+      "parent_act": "Compulsory Standards Act",
+      "pages": 4,
+      "chars": 7806,
+      "error": ""
+    },
+    {
+      "idx": 4,
+      "status": "ok",
+      "yr_num": "2018/64",
+      "id": "si-zm-2018-064-constitutional-offices-emoluments-regulations-2018",
+      "sub_phase": "sis_governance",
+      "parent_act": "Constitutional Offices Emoluments Act",
+      "pages": 2,
+      "chars": 1742,
+      "error": ""
+    },
+    {
+      "idx": 5,
+      "status": "ok",
+      "yr_num": "1992/9",
+      "id": "si-zm-1992-009-air-passenger-service-charge-charging-order-1992",
+      "sub_phase": "sis_transport",
+      "parent_act": "Air Passenger Service Charge Act",
+      "pages": 2,
+      "chars": 1094,
+      "error": ""
+    },
+    {
+      "idx": 6,
+      "status": "ok",
+      "yr_num": "1985/45",
+      "id": "si-zm-1985-045-air-services-aerial-application-permit-regulations-1985",
+      "sub_phase": "sis_transport",
+      "parent_act": "Aviation Act",
+      "pages": 2,
+      "chars": 4106,
+      "error": ""
+    }
+  ],
+  "sub_phases": {
+    "sis_industry": 3,
+    "sis_governance": 1,
+    "sis_transport": 2
+  },
+  "first_clusters": [
+    "sis_industry"
+  ]
+}

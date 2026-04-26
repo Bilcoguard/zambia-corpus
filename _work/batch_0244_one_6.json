@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "1985/45",
+    "year": "1985",
+    "num": "45",
+    "title": "Air Services (Aerial Application Permit) Regulations, 1985",
+    "sub_phase": "sis_transport",
+    "parent_act": "Aviation Act",
+    "eng_date": "1985-04-04"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-1985-045-air-services-aerial-application-permit-regulations-1985",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 1985,
+    "number": 45,
+    "title": "Air Services (Aerial Application Permit) Regulations, 1985",
+    "parent_act": "Aviation Act",
+    "sub_phase": "sis_transport",
+    "effective_date": "1985-04-04",
+    "source_url": "https://zambialii.org/akn/zm/act/si/1985/45",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/1985/45/eng@1985-04-04/source.pdf",
+    "source_hash": "3854d747f065e3e709a8aeed91895d9e19bf174ef7d90534bb6cd737e432a8a4",
+    "html_hash": "7bd9bf08f3a17f5de2bb37728fc7f6adfddd2b18bdbbecee615190b53eba6c80",
+    "fetched_at": "2026-04-26T00:09:45Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 4106,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/1985/si-zm-1985-045-air-services-aerial-application-permit-regulations-1985.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1985/45",
+      "bytes": 39522,
+      "path": "raw/zambialii/si/1985/si-zm-1985-045-air-services-aerial-application-permit-regulations-1985.html",
+      "sha": "7bd9bf08f3a17f5de2bb37728fc7f6adfddd2b18bdbbecee615190b53eba6c80"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1985/45/eng@1985-04-04/source.pdf",
+      "bytes": 287362,
+      "path": "raw/zambialii/si/1985/si-zm-1985-045-air-services-aerial-application-permit-regulations-1985.pdf",
+      "sha": "3854d747f065e3e709a8aeed91895d9e19bf174ef7d90534bb6cd737e432a8a4"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "pick": {
+    "yr_num": "2025/20",
+    "year": "2025",
+    "num": "20",
+    "title": "Compulsory Standards (Declaration) Order, 2025",
+    "sub_phase": "sis_industry",
+    "parent_act": "Compulsory Standards Act",
+    "eng_date": "2025-05-09"
+  },
+  "status": "skip",
+  "error": "pdf_too_large_88559047b",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2025/20",
+      "bytes": 39124,
+      "path": "raw/zambialii/si/2025/si-zm-2025-020-compulsory-standards-declaration-order-2025.html",
+      "sha": "243a94705d7f3b50c3411f5d9b2c680250d5e20ae18222d156dd6ccea202f9de",
+      "reused": true
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2025/20/eng@2025-05-09/source.pdf",
+      "bytes": 88559047,
+      "path": "raw/zambialii/si/2025/si-zm-2025-020-compulsory-standards-declaration-order-2025.pdf",
+      "sha": "84cfe13568a5ab8741510246bc43022e3ea026496b405aeba48a50ec4c8cc392"
+    }
+  ],
+  "html_sha": "243a94705d7f3b50c3411f5d9b2c680250d5e20ae18222d156dd6ccea202f9de",
+  "pdf_sha": "84cfe13568a5ab8741510246bc43022e3ea026496b405aeba48a50ec4c8cc392"
+}
