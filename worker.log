@@ -2983,3 +2983,5 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 [2026-04-26T23:42:00Z] tick batch-0287: corpus.sqlite update deferred — FTS5 vtable in broken state and journal held open; consistent with established pattern; JSON records authoritative
 [2026-04-26T23:42:00Z] tick batch-0287: B2 sync deferred to host (rclone not available in sandbox)
 [2026-04-26T23:42:00Z] tick batch-0287: pool remaining for next tick: 14 (next: 2021/53 Appropriation Act 2021)
+[2026-04-26T23:43:30Z] [batch-0287] commit 28411f8 pushed: f140dc3..28411f8 main -> main.
+[2026-04-26T23:43:30Z] [batch-0287] tick complete. Pool 22->14 (next: 2021/53 onwards). Today fetches 612->624/2000 (~31.2%). Yield 8/8 (100%). Phase 4 remains incomplete per approvals.yaml (worker does not flip the flag). Wall-clock ~7 min.
