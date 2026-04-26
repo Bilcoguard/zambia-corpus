@@ -1,0 +1,51 @@
+{
+  "pick": {
+    "yr_num": "2022/20",
+    "year": "2022",
+    "num": "20",
+    "title": "Public Holidays (Declaration) Notice, 2022",
+    "sub_phase": "sis_governance",
+    "parent_act": "Public Holidays Act",
+    "eng_date": "2022-03-16"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2022-020-public-holidays-declaration-notice-2022",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2022,
+    "number": 20,
+    "title": "Public Holidays (Declaration) Notice, 2022",
+    "parent_act": "Public Holidays Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "2022-03-16",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2022/20",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2022/20/eng@2022-03-16/source.pdf",
+    "source_hash": "e9a2a3337dade6caea3dd4024bf5d97f598274e52199fd77ee29bc8811e34765",
+    "html_hash": "c64aec8df29b2650afa38f4923c94d63ad46d22f41bd342fac7cfa5af15ef31e",
+    "fetched_at": "2026-04-26T01:09:42Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 896,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2022/si-zm-2022-020-public-holidays-declaration-notice-2022.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/20",
+      "bytes": 39881,
+      "path": "raw/zambialii/si/2022/si-zm-2022-020-public-holidays-declaration-notice-2022.html",
+      "sha": "c64aec8df29b2650afa38f4923c94d63ad46d22f41bd342fac7cfa5af15ef31e",
+      "reused": true
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/20/eng@2022-03-16/source.pdf",
+      "bytes": 283503,
+      "path": "raw/zambialii/si/2022/si-zm-2022-020-public-holidays-declaration-notice-2022.pdf",
+      "sha": "e9a2a3337dade6caea3dd4024bf5d97f598274e52199fd77ee29bc8811e34765",
+      "reused": true
+    }
+  ]
+}

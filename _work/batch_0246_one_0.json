@@ -1,0 +1,51 @@
+{
+  "pick": {
+    "yr_num": "2022/17",
+    "year": "2022",
+    "num": "17",
+    "title": "Customs and Excise (Electronic Machinery and Equipment) (Suspension) (Amendment) Regulations, 2022",
+    "sub_phase": "sis_tax",
+    "parent_act": "Customs and Excise Act",
+    "eng_date": "2022-03-04"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2022-017-customs-and-excise-electronic-machinery-and-equipment-suspension-amendment-regulations-2022",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2022,
+    "number": 17,
+    "title": "Customs and Excise (Electronic Machinery and Equipment) (Suspension) (Amendment) Regulations, 2022",
+    "parent_act": "Customs and Excise Act",
+    "sub_phase": "sis_tax",
+    "effective_date": "2022-03-04",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2022/17",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2022/17/eng@2022-03-04/source.pdf",
+    "source_hash": "a90ceb5fa17bc409aa6fb0a6a086349eb9298f9cd2fe193c405fdb6b0d8a10ef",
+    "html_hash": "632b083723b98c089ffbd59ce49d01fb7427e7fc7c3b730a2d37924b4e0649fb",
+    "fetched_at": "2026-04-26T01:09:42Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1653,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2022/si-zm-2022-017-customs-and-excise-electronic-machinery-and-equipment-suspension-amendment-regulations-2022.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/17",
+      "bytes": 39773,
+      "path": "raw/zambialii/si/2022/si-zm-2022-017-customs-and-excise-electronic-machinery-and-equipment-suspension-amendment-regulations-2022.html",
+      "sha": "632b083723b98c089ffbd59ce49d01fb7427e7fc7c3b730a2d37924b4e0649fb",
+      "reused": true
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/17/eng@2022-03-04/source.pdf",
+      "bytes": 293745,
+      "path": "raw/zambialii/si/2022/si-zm-2022-017-customs-and-excise-electronic-machinery-and-equipment-suspension-amendment-regulations-2022.pdf",
+      "sha": "a90ceb5fa17bc409aa6fb0a6a086349eb9298f9cd2fe193c405fdb6b0d8a10ef",
+      "reused": true
+    }
+  ]
+}

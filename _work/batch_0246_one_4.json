@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2021/52",
+    "year": "2021",
+    "num": "52",
+    "title": "Cyber Security and Cyber Crimes (National Cyber Security, Advisory and Coordination Council) Regulations, 2021",
+    "sub_phase": "sis_data_protection",
+    "parent_act": "Cyber Security and Cyber Crimes Act",
+    "eng_date": "2021-05-14"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2021-052-cyber-security-and-cyber-crimes-national-cyber-security-advisory-and-coordination-council-regulations-2021",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2021,
+    "number": 52,
+    "title": "Cyber Security and Cyber Crimes (National Cyber Security, Advisory and Coordination Council) Regulations, 2021",
+    "parent_act": "Cyber Security and Cyber Crimes Act",
+    "sub_phase": "sis_data_protection",
+    "effective_date": "2021-05-14",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2021/52",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2021/52/eng@2021-05-14/source.pdf",
+    "source_hash": "95bbe32290bace98fa4d2e14040256ab6945a6c836e9a173a1c395bedaca83ac",
+    "html_hash": "2f0fb43a17e8aa628198a9bf1dfc342a28eb234d79b2f8e77cee66a3d7599a09",
+    "fetched_at": "2026-04-26T01:10:27Z",
+    "parser_version": "0.5.0",
+    "pdf_pages": 6,
+    "pdf_text_chars": 8732,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2021/si-zm-2021-052-cyber-security-and-cyber-crimes-national-cyber-security-advisory-and-coordination-council-regulations-2021.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/52",
+      "bytes": 39510,
+      "path": "raw/zambialii/si/2021/si-zm-2021-052-cyber-security-and-cyber-crimes-national-cyber-security-advisory-and-coordination-council-regulations-2021.html",
+      "sha": "2f0fb43a17e8aa628198a9bf1dfc342a28eb234d79b2f8e77cee66a3d7599a09"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2021/52/eng@2021-05-14/source.pdf",
+      "bytes": 368464,
+      "path": "raw/zambialii/si/2021/si-zm-2021-052-cyber-security-and-cyber-crimes-national-cyber-security-advisory-and-coordination-council-regulations-2021.pdf",
+      "sha": "95bbe32290bace98fa4d2e14040256ab6945a6c836e9a173a1c395bedaca83ac"
+    }
+  ]
+}
