@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "1981/47",
+    "year": "1981",
+    "num": "47",
+    "title": "",
+    "parent_act": "Zambia National Service Act",
+    "sub_phase": "sis_governance"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-1981-047-zambia-national-service-obligatory-service-exemption-order-1981",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 1981,
+    "number": 47,
+    "title": "Zambia National Service (Obligatory Service) (Exemption) Order, 1981",
+    "parent_act": "Zambia National Service Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "1981-03-26",
+    "source_url": "https://zambialii.org/akn/zm/act/si/1981/47",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/1981/47/eng@1981-03-26/source.pdf",
+    "source_hash": "4f8837261e1d22b23dd238ed020033d77643a15992bcf6bd250110bf89c63cd1",
+    "html_hash": "8886ae3ab0c19600cf28cb121f3079561858a8c47b8dfc7e600167ee79e26048",
+    "fetched_at": "2026-04-26T04:36:26Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1078,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/1981/si-zm-1981-047-zambia-national-service-obligatory-service-exemption-order-1981.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1981/47",
+      "bytes": 38976,
+      "path": "raw/zambialii/si/1981/si-zm-1981-047-zambia-national-service-obligatory-service-exemption-order-1981.html",
+      "sha": "8886ae3ab0c19600cf28cb121f3079561858a8c47b8dfc7e600167ee79e26048"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1981/47/eng@1981-03-26/source.pdf",
+      "bytes": 154036,
+      "path": "raw/zambialii/si/1981/si-zm-1981-047-zambia-national-service-obligatory-service-exemption-order-1981.pdf",
+      "sha": "4f8837261e1d22b23dd238ed020033d77643a15992bcf6bd250110bf89c63cd1"
+    }
+  ],
+  "title": "Zambia National Service (Obligatory Service) (Exemption) Order, 1981"
+}

@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2006/10",
+    "year": "2006",
+    "num": "10",
+    "title": "",
+    "parent_act": "Zambia Police Act",
+    "sub_phase": "sis_governance"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2006-010-zambia-police-fees-regulations-2006",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2006,
+    "number": 10,
+    "title": "Zambia Police (Fees) Regulations, 2006",
+    "parent_act": "Zambia Police Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "2006-02-03",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2006/10",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2006/10/eng@2006-02-03/source.pdf",
+    "source_hash": "13bdd4be647c3f1f546307e98063b35fe14aaab551be99ce651646cd5cd0ed06",
+    "html_hash": "0881e5d6e36f48d59004ae51e604aff1788d80588135015e7c489bb6662e6d2a",
+    "fetched_at": "2026-04-26T04:37:43Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 2,
+    "pdf_text_chars": 2336,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2006/si-zm-2006-010-zambia-police-fees-regulations-2006.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2006/10",
+      "bytes": 38733,
+      "path": "raw/zambialii/si/2006/si-zm-2006-010-zambia-police-fees-regulations-2006.html",
+      "sha": "0881e5d6e36f48d59004ae51e604aff1788d80588135015e7c489bb6662e6d2a"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2006/10/eng@2006-02-03/source.pdf",
+      "bytes": 220715,
+      "path": "raw/zambialii/si/2006/si-zm-2006-010-zambia-police-fees-regulations-2006.pdf",
+      "sha": "13bdd4be647c3f1f546307e98063b35fe14aaab551be99ce651646cd5cd0ed06"
+    }
+  ],
+  "title": "Zambia Police (Fees) Regulations, 2006"
+}

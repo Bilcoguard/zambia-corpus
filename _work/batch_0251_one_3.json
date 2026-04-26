@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "1996/44",
+    "year": "1996",
+    "num": "44",
+    "title": "",
+    "parent_act": "Zambia National Provident Fund Act",
+    "sub_phase": "sis_governance"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-1996-044-zambia-national-provident-fund-statutory-contributions-regulations-1996",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 1996,
+    "number": 44,
+    "title": "Zambia National Provident Fund (Statutory Contributions) Regulations, 1996",
+    "parent_act": "Zambia National Provident Fund Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "1996-03-08",
+    "source_url": "https://zambialii.org/akn/zm/act/si/1996/44",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/1996/44/eng@1996-03-08/source.pdf",
+    "source_hash": "16ebce5512a68358c38d025f05036318301e2b2e7a63ac6a108f11a74411f43b",
+    "html_hash": "d51551ec17254d9f5c7fbea20b7a9ceedab04d7889c1276313a003af5d90f9a3",
+    "fetched_at": "2026-04-26T04:39:24Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 14,
+    "pdf_text_chars": 17090,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/1996/si-zm-1996-044-zambia-national-provident-fund-statutory-contributions-regulations-1996.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1996/44",
+      "bytes": 39340,
+      "path": "raw/zambialii/si/1996/si-zm-1996-044-zambia-national-provident-fund-statutory-contributions-regulations-1996.html",
+      "sha": "d51551ec17254d9f5c7fbea20b7a9ceedab04d7889c1276313a003af5d90f9a3"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1996/44/eng@1996-03-08/source.pdf",
+      "bytes": 1371478,
+      "path": "raw/zambialii/si/1996/si-zm-1996-044-zambia-national-provident-fund-statutory-contributions-regulations-1996.pdf",
+      "sha": "16ebce5512a68358c38d025f05036318301e2b2e7a63ac6a108f11a74411f43b"
+    }
+  ],
+  "title": "Zambia National Provident Fund (Statutory Contributions) Regulations, 1996"
+}

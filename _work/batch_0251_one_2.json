@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "1982/49",
+    "year": "1982",
+    "num": "49",
+    "title": "",
+    "parent_act": "Zambia Airways Corporation Act",
+    "sub_phase": "sis_industry"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-1982-049-zambia-airways-corporation-date-of-dissolution-order-1982",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 1982,
+    "number": 49,
+    "title": "Zambia Airways Corporation (Date of Dissolution) Order, 1982",
+    "parent_act": "Zambia Airways Corporation Act",
+    "sub_phase": "sis_industry",
+    "effective_date": "1982-03-31",
+    "source_url": "https://zambialii.org/akn/zm/act/si/1982/49",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/1982/49/eng@1982-03-31/source.pdf",
+    "source_hash": "4f6e216cae3d09c5ac7fb31c07a84fe1bf2f285b0be5a65c258a0c2912a58524",
+    "html_hash": "94451ca98d34c6bccc20da25a4327321cca8f7139b1e06b475b1f5315e156ba7",
+    "fetched_at": "2026-04-26T04:36:44Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 2,
+    "pdf_text_chars": 943,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/1982/si-zm-1982-049-zambia-airways-corporation-date-of-dissolution-order-1982.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1982/49",
+      "bytes": 39072,
+      "path": "raw/zambialii/si/1982/si-zm-1982-049-zambia-airways-corporation-date-of-dissolution-order-1982.html",
+      "sha": "94451ca98d34c6bccc20da25a4327321cca8f7139b1e06b475b1f5315e156ba7"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/1982/49/eng@1982-03-31/source.pdf",
+      "bytes": 147122,
+      "path": "raw/zambialii/si/1982/si-zm-1982-049-zambia-airways-corporation-date-of-dissolution-order-1982.pdf",
+      "sha": "4f6e216cae3d09c5ac7fb31c07a84fe1bf2f285b0be5a65c258a0c2912a58524"
+    }
+  ],
+  "title": "Zambia Airways Corporation (Date of Dissolution) Order, 1982"
+}

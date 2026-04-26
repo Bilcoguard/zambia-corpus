@@ -1,0 +1,20 @@
+{
+  "batch": "0251",
+  "phase": 4,
+  "attempted": 8,
+  "ok": 8,
+  "skipped": 1,
+  "yield_pct": 100,
+  "integrity": "PASS",
+  "records": [
+    "si-zm-1980-049-zambia-national-provident-fund-statutory-contributions-regulations-1980",
+    "si-zm-1981-047-zambia-national-service-obligatory-service-exemption-order-1981",
+    "si-zm-1982-049-zambia-airways-corporation-date-of-dissolution-order-1982",
+    "si-zm-1996-044-zambia-national-provident-fund-statutory-contributions-regulations-1996",
+    "si-zm-1994-049-zambia-revenue-authority-commencement-and-disengagement-order-1994",
+    "si-zm-2006-010-zambia-police-fees-regulations-2006",
+    "si-zm-2016-040-zambia-wildlife-zambia-wildlife-police-uniforms-and-badges-regulations-2016",
+    "si-zm-2016-043-zambia-wildlife-export-prohibition-order-2016"
+  ],
+  "note": "1990/39 ZNPF skipped pdf_too_large_4624989b; substituted with 1996/44 ZNPF"
+}

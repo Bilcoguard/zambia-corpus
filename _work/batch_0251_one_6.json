@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2016/40",
+    "year": "2016",
+    "num": "40",
+    "title": "",
+    "parent_act": "Zambia Wildlife Act",
+    "sub_phase": "sis_governance"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2016-040-zambia-wildlife-zambia-wildlife-police-uniforms-and-badges-regulations-2016",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2016,
+    "number": 40,
+    "title": "Zambia Wildlife (Zambia Wildlife Police Uniforms and Badges) Regulations, 2016",
+    "parent_act": "Zambia Wildlife Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "2016-06-10",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2016/40",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2016/40/eng@2016-06-10/source.pdf",
+    "source_hash": "cbc279f8e9f8c6117595721d5864c7f6b8369ed26c91cd1cf008bd66310b0c5e",
+    "html_hash": "e6305e52814215a0d20d28f7b4476d967f3769a1e7701d4e672525ff129c4e54",
+    "fetched_at": "2026-04-26T04:38:06Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 6,
+    "pdf_text_chars": 6856,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2016/si-zm-2016-040-zambia-wildlife-zambia-wildlife-police-uniforms-and-badges-regulations-2016.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2016/40",
+      "bytes": 39331,
+      "path": "raw/zambialii/si/2016/si-zm-2016-040-zambia-wildlife-zambia-wildlife-police-uniforms-and-badges-regulations-2016.html",
+      "sha": "e6305e52814215a0d20d28f7b4476d967f3769a1e7701d4e672525ff129c4e54"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2016/40/eng@2016-06-10/source.pdf",
+      "bytes": 128430,
+      "path": "raw/zambialii/si/2016/si-zm-2016-040-zambia-wildlife-zambia-wildlife-police-uniforms-and-badges-regulations-2016.pdf",
+      "sha": "cbc279f8e9f8c6117595721d5864c7f6b8369ed26c91cd1cf008bd66310b0c5e"
+    }
+  ],
+  "title": "Zambia Wildlife (Zambia Wildlife Police Uniforms and Badges) Regulations, 2016"
+}

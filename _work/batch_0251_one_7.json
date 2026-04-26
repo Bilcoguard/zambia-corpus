@@ -1,0 +1,49 @@
+{
+  "pick": {
+    "yr_num": "2016/43",
+    "year": "2016",
+    "num": "43",
+    "title": "",
+    "parent_act": "Zambia Wildlife Act",
+    "sub_phase": "sis_governance"
+  },
+  "status": "ok",
+  "record": {
+    "id": "si-zm-2016-043-zambia-wildlife-export-prohibition-order-2016",
+    "type": "statutory_instrument",
+    "jurisdiction": "ZM",
+    "year": 2016,
+    "number": 43,
+    "title": "Zambia Wildlife (Export Prohibition) Order, 2016",
+    "parent_act": "Zambia Wildlife Act",
+    "sub_phase": "sis_governance",
+    "effective_date": "2016-06-10",
+    "source_url": "https://zambialii.org/akn/zm/act/si/2016/43",
+    "source_pdf_url": "https://zambialii.org/akn/zm/act/si/2016/43/eng@2016-06-10/source.pdf",
+    "source_hash": "f9c6ea4053e2495cbaff3bf0bb8bdd2ff60cf48d732a575c287864fbdfec383c",
+    "html_hash": "e2da3142ff0524064e2334d86447f3639e96545d1a05459692997eac34990831",
+    "fetched_at": "2026-04-26T04:38:24Z",
+    "parser_version": "v0.4-zambialii-si-2026-04-26",
+    "pdf_pages": 2,
+    "pdf_text_chars": 1563,
+    "amended_by": [],
+    "repealed_by": [],
+    "cited_authorities": []
+  },
+  "record_path": "records/sis/2016/si-zm-2016-043-zambia-wildlife-export-prohibition-order-2016.json",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2016/43",
+      "bytes": 39135,
+      "path": "raw/zambialii/si/2016/si-zm-2016-043-zambia-wildlife-export-prohibition-order-2016.html",
+      "sha": "e2da3142ff0524064e2334d86447f3639e96545d1a05459692997eac34990831"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2016/43/eng@2016-06-10/source.pdf",
+      "bytes": 110121,
+      "path": "raw/zambialii/si/2016/si-zm-2016-043-zambia-wildlife-export-prohibition-order-2016.pdf",
+      "sha": "f9c6ea4053e2495cbaff3bf0bb8bdd2ff60cf48d732a575c287864fbdfec383c"
+    }
+  ],
+  "title": "Zambia Wildlife (Export Prohibition) Order, 2016"
+}
