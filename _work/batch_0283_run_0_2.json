@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 0,
+    "yr": "2011",
+    "num": "26",
+    "title": "Excess Expenditure Appropriation (2008) Act, 2011",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-2011-026-excess-expenditure-appropriation-2008-act",
+    "sections": 2,
+    "source_hash": "sha256:d4c3263a5a1c04abc20a53713e2c4a12ebb1fd2a4f58f7270d9dd20b4f650383",
+    "source_url": "https://zambialii.org/akn/zm/act/2011/26/eng@2011-07-15"
+  },
+  {
+    "idx": 1,
+    "yr": "2011",
+    "num": "32",
+    "title": "Appropriation Act, 2011",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-2011-032-appropriation-act",
+    "sections": 2,
+    "source_hash": "sha256:076ad2901f952323bd7c46ae4feabf40650b055ba531f375b36fc2c079b2550b",
+    "source_url": "https://zambialii.org/akn/zm/act/2011/32/eng@2011-12-29"
+  }
+]

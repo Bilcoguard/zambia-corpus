@@ -1147,3 +1147,8 @@ OCR backlog now 18 items. All quarantined PDFs preserved on disk for re-extracti
 - Oversize-pdf queue now: 2002/6 (b0279), 2005/21 (b0280), 2008/5 (b0281), 2009/10 (b0282), 2009/30 (b0282). Five items.
 - OCR backlog unchanged at 18 items.
 - Section-tolerant retry queue: now 6 items (added 2009/7). Items: 1988/32, 1994/40, 1995/33, 2004/6, 2008/9, 2009/7.
+
+## Batch 0283 (2026-04-26)
+
+- **2012/16 Appropriation Act, 2012** — `pdf_too_large` (5,553,668 bytes > MAX_PDF_BYTES 4,500,000). Raw HTML retained at `raw/zambialii/act/2012/2012-016.html`. Added to oversize-PDF queue for host-side chunked extraction.
+- **2013/19 Appropriation Act, 2013** — committed but with 1 section only (sec 1 missed by PDF text extraction; sec 2 captured). Added to OCR section-tolerant retry queue. Source HTML+PDF retained.

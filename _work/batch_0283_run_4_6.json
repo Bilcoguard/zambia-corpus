@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 4,
+    "yr": "2012",
+    "num": "16",
+    "title": "Appropriation Act, 2012",
+    "alpha": "A",
+    "status": "pdf_too_large_5553668",
+    "id": null,
+    "sections": 0,
+    "source_hash": null,
+    "source_url": null
+  },
+  {
+    "idx": 5,
+    "yr": "2013",
+    "num": "7",
+    "title": "Excess Expenditure Appropriation (2010) Act, 2013",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-2013-007-excess-expenditure-appropriation-2010-act",
+    "sections": 2,
+    "source_hash": "sha256:aef506ec4457cb0ee3a9d62a14cbd84932579788497bfe757a5c5d5300486510",
+    "source_url": "https://zambialii.org/akn/zm/act/2013/7/eng@2013-07-31"
+  }
+]

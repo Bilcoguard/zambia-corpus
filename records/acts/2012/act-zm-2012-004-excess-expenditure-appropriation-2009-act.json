@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-2012-004-excess-expenditure-appropriation-2009-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Excess Expenditure Appropriation (2009) Act, 2012",
+  "citation": "Act No. 4 of 2012",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Excess Expenditure Short title",
+      "text": "Appropriation (2009) Act, 2012."
+    },
+    {
+      "number": "2",
+      "heading": "The expenditure on the services of the Republic during the Excess",
+      "text": "expenditure\nfinancial year ended on 31st December, 2009, of moneys indicated\napproved\nin respect of the services in the third column of the Schedule, being\nexpenditure in excess of the moneys appropriated for the services\nby the Appropriation Act, 2009, and the Supplementary Act No. 10\nof 2009\nAppropriation (2009) Act, 2011, is hereby approved. Act No. 25\nof 2011\nSingle copies of this Act may be obtained from the Government Printer\nP.O. Box 30136, 10101 Lusaka. Price K1,000\n62 [No. 4 of 2012 Excess Expenditure Appropriation (2009)\nSCHEDULE\n(Section 2)\nNo. of\nHead Institution Appropriation\n05 Electoral Commission\n/01 Headquarters 12,118,835,956.00\n29 Ministry of Local Government and Housing\n/08 House of Chiefs Department 4,640,691,475.00\n37 Ministry of Finance and National Planning\n/01 Human Resources and Administration 15,111,465,059.00\n/07 Financial Management and AccountingDepartment 74,219,579,658.00\n77 Ministry of Defence\n/02 Zambia Army 2,741,811,990.00\n/09 Research and Planning 11,502,935,576.00\n80 Ministry of Education\n/05 Teacher Education and Specialised ServicesDirectorate 1.00\n/37 Basic Schools - North-Western Province 2.00\n97 Office of the President - North-Western Province\n/01 Headquarters 154,804,012.00\n99 Constitutional and Statutory Expenditure\n/02 Debt Service - Internal 20,709,445,458.00\nTOTAL 141,199,569,187.00"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/2012/4/eng@2012-04-16",
+  "source_hash": "sha256:8eb796baffed448f424976e9f435ac7febda73fa8e8c99a5f5886e691dec4731",
+  "fetched_at": "2026-04-26T21:35:59Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}

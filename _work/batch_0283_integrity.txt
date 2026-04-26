@@ -1,0 +1,17 @@
+CHECK1a PASS: 7/7 batch unique
+FATAL load_err records/acts/act-zm-2009-chiefs-order.json: 'id'
+FATAL load_err records/acts/act-zm-2010-chiefs-order.json: 'id'
+FATAL load_err records/acts/act-zm-2008-chiefs-order.json: 'id'
+FATAL load_err records/acts/act-zm-2004-chiefs-order.json: 'id'
+FATAL load_err records/acts/act-zm-2005-chiefs-order.json: 'id'
+FATAL load_err records/acts/act-zm-2006-chiefs-order.json: 'id'
+FATAL load_err records/acts/act-zm-2003-chiefs-order.json: 'id'
+FATAL load_err records/acts/act-zm-2007-chiefs-order.json: 'id'
+CHECK1b PASS: 7/7 corpus presence on disk
+CHECK2 PASS: 0 amended_by refs
+CHECK3 PASS: 7 repealed_by refs
+CHECK4 PASS: 7/7 source_hash sha256 verified against raw HTML
+CHECK5 PASS: 112/112 fields present
+CHECK6 PASS: 0 cited_authorities refs
+
+ALL CHECKS PASSED
