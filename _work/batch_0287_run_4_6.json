@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 4,
+    "yr": "2020",
+    "num": "26",
+    "title": "Appropriation Act, 2020",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-2020-026-appropriation-act",
+    "sections": 2,
+    "source_hash": "sha256:d3b325cc1b72868f0411a72327c34d8fb1bb8a91928e1d7bff5a289f4b4d15bb",
+    "source_url": "https://zambialii.org/akn/zm/act/2020/26/eng@2020-12-18"
+  },
+  {
+    "idx": 5,
+    "yr": "2021",
+    "num": "2",
+    "title": "Cyber Security and Cyber Crimes Act, 2021",
+    "alpha": "C",
+    "status": "ok",
+    "id": "act-zm-2021-002-cyber-security-and-cyber-crimes-act",
+    "sections": 90,
+    "source_hash": "sha256:cead439e1fad38eb7d036ab063480f59c311a414a2c1d408d44c313eb331af35",
+    "source_url": "https://zambialii.org/akn/zm/act/2021/2/eng@2021-03-24"
+  }
+]

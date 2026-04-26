@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-2020-009-excess-expenditure-appropriation-2020-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Excess Expenditure Appropriation (2020) Act, 2020",
+  "citation": "Act No. 9 of 2020",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Excess Expenditure Appropriation (2020) Act, 2020."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "On the authority of a warrant issued by the President, there may be expended from the Consolidated Fund, such monies not exceeding in the aggregate fifteen billion, four hundred sixty-four million, two hundred seventeen thousand, four hundred seventy-four kwacha indicated in respect of the services of the Republic specified in the third column of the First and Second Schedules, being expenditure in excess of the monies appropriated for the services of the Republic during the financial year ending on 31st December, 2020."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/2020/9/eng@2020-11-23",
+  "source_hash": "sha256:44119621a0430186a921ab55ff5d3937b5ccf79b4761009834f965728ce32b57",
+  "fetched_at": "2026-04-26T23:35:51Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}

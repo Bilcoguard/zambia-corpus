@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "2021",
+    "num": "42",
+    "title": "Excess Expenditure Appropriation (2021) Act, 2021",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-2021-042-excess-expenditure-appropriation-2021-act",
+    "sections": 2,
+    "source_hash": "sha256:01bb714f5f4d598be2f21236085b704bc1c5101d1c78f778a65d62291b14aa73",
+    "source_url": "https://zambialii.org/akn/zm/act/2021/42/eng@2021-12-30"
+  },
+  {
+    "idx": 7,
+    "yr": "2021",
+    "num": "52",
+    "title": "Supplementary Appropriation (2021) Act, 2021",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2021-052-supplementary-appropriation-2021-act",
+    "sections": 2,
+    "source_hash": "sha256:161cdb6bc5452f63762ec7bd77e4cb90a5bc29558d870e9ecd14e9fea0fa1803",
+    "source_url": "https://zambialii.org/akn/zm/act/2021/52/eng@2021-12-30"
+  }
+]

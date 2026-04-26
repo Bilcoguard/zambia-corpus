@@ -2977,3 +2977,9 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 [2026-04-26T23:09:10Z] [batch-0286] B2 sync deferred to host: rclone not available in sandbox.
 [2026-04-26T23:11:37Z] [batch-0286] commit e626322 pushed: 0dd2167..e626322 main -> main.
 [2026-04-26T23:11:37Z] [batch-0286] tick complete. Pool 30->22 (next: 2019/18 onwards). Today fetches 596->613/2000 (~30.6%). Yield 8/8 (100%). Phase 4 remains incomplete per approvals.yaml (worker does not flip the flag). Wall-clock ~7 min.
+[2026-04-26T23:42:00Z] tick batch-0287: started — git pull --ff-only OK; approvals.yaml read; phase_4_bulk approved=true complete=false; budget 612/2000 OK
+[2026-04-26T23:42:00Z] tick batch-0287: 8 picks (acts_in_force chronological-first from inherited pool of 22): 2019/18, 2020/8, 2020/9, 2020/17, 2020/26, 2021/2, 2021/42, 2021/52
+[2026-04-26T23:42:00Z] tick batch-0287: yield 8/8 (100%); integrity checks 1a,1b,2,3,4,5,6 — PASS
+[2026-04-26T23:42:00Z] tick batch-0287: corpus.sqlite update deferred — FTS5 vtable in broken state and journal held open; consistent with established pattern; JSON records authoritative
+[2026-04-26T23:42:00Z] tick batch-0287: B2 sync deferred to host (rclone not available in sandbox)
+[2026-04-26T23:42:00Z] tick batch-0287: pool remaining for next tick: 14 (next: 2021/53 Appropriation Act 2021)

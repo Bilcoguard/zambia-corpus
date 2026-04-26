@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-2020-017-supplementary-appropriation-2020-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Supplementary Appropriation (2020) Act, 2020",
+  "citation": "Act No. 17 of 2020",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Supplementary Appropriation (2020) Act, 2020."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "On the authority of a warrant issued by the President, there may be expended from the Consolidated Fund, such monies not exceeding in aggregate six billion, three hundred eleven million, seven hundred thirty-nine thousand, seven hundred sixty-six kwacha indicated in respect of the services of the Republic specified in the third column of the First Schedule and Second Schedule, being expenditure in excess of the monies appropriated for the services of the Republic during the financial year ending on 31st December, 2020."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/2020/17/eng@2020-12-15",
+  "source_hash": "sha256:3776dba507675c53fb2ea1fd6c8fc0ddf500be830e2c0242ad05aa6e660c883a",
+  "fetched_at": "2026-04-26T23:35:59Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}
