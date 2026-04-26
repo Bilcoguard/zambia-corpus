@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 2,
+    "yr": "1984",
+    "num": "6",
+    "title": "Supplementary Appropriation (1982) Act, 1984",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1984-006-supplementary-appropriation-1982-act-1984",
+    "sections": 2,
+    "source_hash": "sha256:25615e67f4d83a897f5ad783d11727ec4ccd24121cc81606db82f766697480ec",
+    "source_url": "https://zambialii.org/akn/zm/act/1984/6/eng@1984-03-30"
+  },
+  {
+    "idx": 3,
+    "yr": "1985",
+    "num": "8",
+    "title": "Excess Expenditure Appropriation (1982) Act, 1985",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-1985-008-excess-expenditure-appropriation-1982-act-1985",
+    "sections": 2,
+    "source_hash": "sha256:032db50e29333cb7d1e095e51709eea0be6358f4f74085cc1eef578b22646c6b",
+    "source_url": "https://zambialii.org/akn/zm/act/1985/8/eng@1985-04-12"
+  }
+]

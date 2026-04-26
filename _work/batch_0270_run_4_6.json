@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 4,
+    "yr": "1985",
+    "num": "9",
+    "title": "Supplementary Appropriation (1983) Act, 1985",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1985-009-supplementary-appropriation-1983-act-1985",
+    "sections": 2,
+    "source_hash": "sha256:1df604861f9584921eeff61f86ed5e3007e2a4ed2e948f3968583e2e5c43e997",
+    "source_url": "https://zambialii.org/akn/zm/act/1985/9/eng@1985-04-12"
+  },
+  {
+    "idx": 5,
+    "yr": "1986",
+    "num": "9",
+    "title": "Supplementary Appropriation (1984) Act, 1986",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-1986-009-supplementary-appropriation-1984-act-1986",
+    "sections": 3,
+    "source_hash": "sha256:e389681c483116c8eed6bfef3ea3664004a32bbd71757e818c09a1126cb3cd4f",
+    "source_url": "https://zambialii.org/akn/zm/act/1986/9/eng@1986-04-21"
+  }
+]
