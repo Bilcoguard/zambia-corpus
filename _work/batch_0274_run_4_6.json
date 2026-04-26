@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 4,
+    "yr": "1992",
+    "num": "17",
+    "title": "Appropriation Act, 1992",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-1992-017-appropriation-act-1992",
+    "sections": 2,
+    "source_hash": "sha256:790fa628cf7f067e73ba5552dfb2f86e606a8288c4f70d82e11d23e26074b65c",
+    "source_url": "https://zambialii.org/akn/zm/act/1992/17/eng@1992-04-01"
+  },
+  {
+    "idx": 5,
+    "yr": "1993",
+    "num": "22",
+    "title": "Appropriation Act, 1993",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-1993-022-appropriation-act-1993",
+    "sections": 1,
+    "source_hash": "sha256:53ce6066b307d0bdc3e97e010c6f769a1e7ecb65215ebff64d163d79a65c8775",
+    "source_url": "https://zambialii.org/akn/zm/act/1993/22/eng@1993-04-30"
+  }
+]
