@@ -1,0 +1,45 @@
+{
+  "checks": {
+    "CHECK1a": "PASS 8/8 batch unique",
+    "CHECK1b": "PASS 8/8 corpus presence",
+    "CHECK2_amended_by": "PASS 0 refs",
+    "CHECK3_repealed_by": "PASS 0 refs",
+    "CHECK4_source_hash": "PASS 8/8",
+    "CHECK5_required_fields": "PASS 16x8 (miss=0)",
+    "CHECK6_cited_authorities": "PASS 0 refs"
+  },
+  "records": [
+    [
+      "act-zm-1995-035-national-road-safety-council-act-1995",
+      21
+    ],
+    [
+      "act-zm-1986-007-national-youth-development-council-act-1986",
+      30
+    ],
+    [
+      "act-zm-1963-033-occupiers-liability-act-1963",
+      7
+    ],
+    [
+      "act-zm-1966-011-organisations-control-of-assistance-act-1966",
+      11
+    ],
+    [
+      "act-zm-1963-072-personal-levy-act-1963",
+      25
+    ],
+    [
+      "act-zm-1967-014-plant-variety-and-seeds-act-1967",
+      85
+    ],
+    [
+      "act-zm-1959-033-pools-act-1959",
+      7
+    ],
+    [
+      "act-zm-1995-009-preferential-claims-in-bankruptcy-act-1995",
+      5
+    ]
+  ]
+}

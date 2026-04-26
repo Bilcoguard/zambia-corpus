@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 3,
+    "yr": "1966",
+    "num": "11",
+    "title": "Organisations (Control of Assistance) Act, 1966",
+    "alpha": "O",
+    "status": "ok",
+    "id": "act-zm-1966-011-organisations-control-of-assistance-act-1966",
+    "sections": 11,
+    "source_hash": "sha256:2f09a65d80932c7522fb34bee061130ec264d5438911201a60bef976ad1e402d",
+    "source_url": "https://zambialii.org/akn/zm/act/1966/11/eng@1996-12-31"
+  },
+  {
+    "idx": 4,
+    "yr": "1963",
+    "num": "72",
+    "title": "Personal Levy Act, 1963",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1963-072-personal-levy-act-1963",
+    "sections": 25,
+    "source_hash": "sha256:421c632150472c9082558a98589ef3a5ba641e59dbd9be9115628c05f0471410",
+    "source_url": "https://zambialii.org/akn/zm/act/1963/72/eng@1996-12-31"
+  },
+  {
+    "idx": 5,
+    "yr": "1967",
+    "num": "14",
+    "title": "Plant Variety and Seeds Act, 1967",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1967-014-plant-variety-and-seeds-act-1967",
+    "sections": 85,
+    "source_hash": "sha256:36afd6dc6fcc3d66d9516975fa7706c93bf9e2692104e18cd20ab30f4a29de87",
+    "source_url": "https://zambialii.org/akn/zm/act/1967/14/eng@1996-12-31"
+  }
+]

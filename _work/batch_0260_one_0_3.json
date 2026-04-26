@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 0,
+    "yr": "1995",
+    "num": "35",
+    "title": "National Road Safety Council Act, 1995",
+    "alpha": "N",
+    "status": "ok",
+    "id": "act-zm-1995-035-national-road-safety-council-act-1995",
+    "sections": 21,
+    "source_hash": "sha256:6b0cb93e9b578ba6fafd1e29df8173f4671f6acb6661f571c6f2e8858c891c03",
+    "source_url": "https://zambialii.org/akn/zm/act/1995/35/eng@1996-12-31"
+  },
+  {
+    "idx": 1,
+    "yr": "1986",
+    "num": "7",
+    "title": "National Youth Development Council Act, 1986",
+    "alpha": "N",
+    "status": "ok",
+    "id": "act-zm-1986-007-national-youth-development-council-act-1986",
+    "sections": 30,
+    "source_hash": "sha256:b721f8b996d20db1649ed4730cd64e93dc34c01a9ee9b441d7f07421d40d4d8d",
+    "source_url": "https://zambialii.org/akn/zm/act/1986/7/eng@1996-12-31"
+  },
+  {
+    "idx": 2,
+    "yr": "1963",
+    "num": "33",
+    "title": "Occupiers' Liability Act, 1963",
+    "alpha": "O",
+    "status": "ok",
+    "id": "act-zm-1963-033-occupiers-liability-act-1963",
+    "sections": 7,
+    "source_hash": "sha256:e783fc1073cdf39f396a3017359c2697f7463673d702bfc0ec75b105fb04efb3",
+    "source_url": "https://zambialii.org/akn/zm/act/1963/33/eng@1996-12-31"
+  }
+]

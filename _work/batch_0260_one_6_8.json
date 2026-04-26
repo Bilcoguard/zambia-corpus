@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 6,
+    "yr": "1959",
+    "num": "33",
+    "title": "Pools Act, 1959",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1959-033-pools-act-1959",
+    "sections": 7,
+    "source_hash": "sha256:835e0bbe84697b633601e575225dfd5edb277c18a11a3ec9c795e56b28722b64",
+    "source_url": "https://zambialii.org/akn/zm/act/1959/33/eng@1996-12-31"
+  },
+  {
+    "idx": 7,
+    "yr": "1995",
+    "num": "9",
+    "title": "Preferential Claims in Bankruptcy Act, 1995",
+    "alpha": "P",
+    "status": "ok",
+    "id": "act-zm-1995-009-preferential-claims-in-bankruptcy-act-1995",
+    "sections": 5,
+    "source_hash": "sha256:db24eee399bf2f753d822874b920f85bcea70049f1040bdb0f3c5342baf8b062",
+    "source_url": "https://zambialii.org/akn/zm/act/1995/9/eng@1996-12-31"
+  }
+]
