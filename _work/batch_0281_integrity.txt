@@ -1,0 +1,9 @@
+CHECK1a PASS: 7/7 batch unique
+CHECK1b PASS: 7/7 corpus presence on disk
+CHECK2 PASS: 0 amended_by refs (count=0)
+CHECK3 PASS: 0 repealed_by refs (count=0)
+CHECK4 PASS: 7/7 source_hash sha256 verified
+CHECK5 PASS: required 16 fields x 7 = 112/112 all present
+CHECK6 PASS: cited_authorities 0 refs all resolve
+
+=== ALL CHECKS PASSED ===

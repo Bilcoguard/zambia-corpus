@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 2,
+    "yr": "2007",
+    "num": "9",
+    "title": "Appropriation Act, 2007",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-2007-009-appropriation-act",
+    "sections": 2,
+    "source_hash": "sha256:b192ed3b186f2a4c98e5343d70f076ac8f9c3f6405ca061baac3696df10154b6",
+    "source_url": "https://zambialii.org/akn/zm/act/2007/9/eng@2007-04-13"
+  },
+  {
+    "idx": 3,
+    "yr": "2007",
+    "num": "14",
+    "title": "Excess Expenditure Appropriation (2004) Act, 2007",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-2007-014-excess-expenditure-appropriation-2004-act",
+    "sections": 2,
+    "source_hash": "sha256:fe69ac516c22d3d845b7eda058bc41ebfbf6ef98d6b769a17eebf226c9e9d0e9",
+    "source_url": "https://zambialii.org/akn/zm/act/2007/14/eng@2007-08-24"
+  }
+]

@@ -1131,3 +1131,10 @@ OCR backlog now 18 items. All quarantined PDFs preserved on disk for re-extracti
 - **act/2005/21 — Cotton Act, 2005** — STATUS: deferred. HTML had <2 akn-sections so PDF fallback engaged; PDF fetched **6,931,314 bytes > MAX_PDF_BYTES (4,500,000)**. Raw HTML kept at `raw/zambialii/act/2005/2005-021.html` (sha256 logged in costs.log, no PDF saved). Same disposition as `act/2002/6` (b0279 - 7,227,519 bytes). Action: add to `oversized-pdf` queue (now 2 items: 2002/6, 2005/21); require either MAX_PDF_BYTES bump (eg 8 MB) or streaming/chunked PDF parser before re-attempt. No record JSON written; parser refused fabrication. NOTE: 2005/21 is the Cotton Act (non-fiscal), not an Appropriation; the oversize PDF root cause is large scanned image content, not fiscal-series formatting.
 
 7 of 8 picks committed cleanly with 2-3 sections each (acts 2004/7, 2005/5, 2005/6, 2005/7, 2005/8, 2006/1, 2006/2 — all Appropriation/Supplementary/Excess Expenditure Appropriation series). Yield 7/8 (87.5%) — same as b0279, slightly above b0278 (75%). OCR backlog unchanged at 18 items. Section-tolerant retry queue unchanged at 4 items (1988/32, 1994/40, 1995/33, 2004/6).
+
+## Batch 0281 (2026-04-26)
+- **act/2008/5 Appropriation Act, 2008**: PDF size 5,181,722 bytes > MAX_PDF_BYTES (4,500,000). Deferred to oversize-pdf queue. Raw HTML kept.
+- **act/2008/9 Supplementary Appropriation (2006) Act, 2008**: PDF parse yielded 105 sections (OCR over-match — many short-text/empty-text sections, headings include OCR fragments). Logged for section-tolerant retry queue (next backlog growth from 4 -> 5).
+- Oversize-pdf queue now: 2002/6 (b0279), 2005/21 (b0280), 2008/5 (b0281). Three items.
+- OCR backlog unchanged at 18 items.
+- Section-tolerant retry queue: now 5 items (added 2008/9).

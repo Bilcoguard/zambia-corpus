@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 0,
+    "yr": "2006",
+    "num": "17",
+    "title": "Appropriation Act, 2006",
+    "alpha": "A",
+    "status": "ok",
+    "id": "act-zm-2006-017-appropriation-act",
+    "sections": 2,
+    "source_hash": "sha256:2705170bb9227809998615e046142f023998cb87cda210d554fabd8d76a76ca3",
+    "source_url": "https://zambialii.org/akn/zm/act/2006/17/eng@2006-05-19"
+  },
+  {
+    "idx": 1,
+    "yr": "2007",
+    "num": "8",
+    "title": "Supplementary Appropriation (2005) Act, 2007",
+    "alpha": "S",
+    "status": "ok",
+    "id": "act-zm-2007-008-supplementary-appropriation-2005-act",
+    "sections": 2,
+    "source_hash": "sha256:7207777c1c5e8dcdac1273902230c6ee04c20fd83e3abbb60c10f42b55e37a19",
+    "source_url": "https://zambialii.org/akn/zm/act/2007/8/eng@2007-04-13"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 4,
+    "yr": "2008",
+    "num": "5",
+    "title": "Appropriation Act, 2008",
+    "alpha": "A",
+    "status": "pdf_too_large_5181722",
+    "id": null,
+    "sections": 0,
+    "source_hash": null,
+    "source_url": null
+  },
+  {
+    "idx": 5,
+    "yr": "2008",
+    "num": "6",
+    "title": "Excess Expenditure Appropriation (2005) Act, 2008",
+    "alpha": "E",
+    "status": "ok",
+    "id": "act-zm-2008-006-excess-expenditure-appropriation-2005-act",
+    "sections": 2,
+    "source_hash": "sha256:55af5db6627e9a555aae255fd3f2b233dd8b58e1d31e38cac0f2418b5e3a0e8f",
+    "source_url": "https://zambialii.org/akn/zm/act/2008/6/eng@2008-04-04"
+  }
+]
