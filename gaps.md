@@ -1212,3 +1212,37 @@ upstream steady state for the worker's current toolset (requests +
 beautifulsoup4 + pdfplumber). The single text-extractable candidate
 (2022/13 sis_employment) returns 0 chars from pdfplumber and remains in
 the OCR backlog (no change to its status this tick).
+
+## Batch 0293 — alphabet exhaust closure (2026-04-27)
+
+This tick swept the 7 remaining uncovered zambialii alphabet listings
+(D, G, H, K, O, R, U) for novel modern (>=2017) SIs. Combined with
+b0291 (A,B,C,I,M,P,S,T,V) and b0292 (E,F,J,L,N,W), all 22 active
+letters have now been exhaustively probed (Q, X, Y, Z omitted by
+design — empty/near-empty for Zambian SI listings).
+
+**0 in-priority candidates** (sis_corporate, sis_tax, sis_employment,
+sis_mining, sis_family, sis_data_protection — all empty across the 7
+new letters).
+
+**1 off-priority reserve** (2020/7 Road Traffic (Speed Limits)
+Regulations, 2019 — already in OCR backlog from b0276).
+
+37 raw "novel" hits from the discover script were re-classified as
+already-in-corpus under non-standard filenames (Urban and Regional
+Planning, Diplomatic Immunities, Higher Education, Defence Force,
+Disaster Management, etc.) by reading citation/id JSON fields from
+each on-disk record. Discover script's filename-only existing-set
+extraction missed these; integrity check uses comprehensive
+content-fall-through to verify.
+
+**Refresh probes (steady-state confirmation):**
+- zambialii /legislation/recent: 13 acts, ALL 13 in corpus.
+- parliament /acts-of-parliament page 0: 20 acts (2026/1..11 +
+  2025/21..29), ALL 20 in corpus.
+
+Phase 4 / acts_in_force chronological-first sweep confirmed complete
+through 2026/11. Every priority_order sub-phase confirmed at upstream
+steady state for the requests + beautifulsoup4 + pdfplumber toolset.
+
+No new gaps introduced. No records written.

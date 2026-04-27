@@ -1,0 +1,880 @@
+{
+  "batch": "0293",
+  "fetched_at_utc": "2026-04-27T15:40:12Z",
+  "zambialii_robots_sha": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "parliament_robots_sha": "278e83bcf567badfebcdea4d5d20ca9898e4449fe4eb2e3b5a08227b4ca9b762",
+  "parliament_robots_drift_from_b0290": false,
+  "parliament_expected_robots_sha": "278e83bcf567badfebcdea4d5d20ca9898e4449fe4eb2e3b5a08227b4ca9b762",
+  "alphabets": {
+    "D": {
+      "total": 11,
+      "modern_count": 6,
+      "novel": [
+        {
+          "yr": 2021,
+          "num": 58,
+          "href": "/akn/zm/act/si/2021/58/eng@2021-05-14",
+          "eng_date": "2021-05-14",
+          "title": "Data Protection (Registration and Licensing) Regulations, 2021",
+          "sub_phase": "sis_data_protection"
+        },
+        {
+          "yr": 2022,
+          "num": 70,
+          "href": "/akn/zm/act/si/2022/70/eng@2022-11-04",
+          "eng_date": "2022-11-04",
+          "title": "Defence Force (United Nations Peacekeeping Operations) (Emoluments) Regulations, 2022",
+          "sub_phase": null
+        },
+        {
+          "yr": 2019,
+          "num": 31,
+          "href": "/akn/zm/act/si/2019/31/eng@2019-05-10",
+          "eng_date": "2019-05-10",
+          "title": "Defence (Regular Forces) (Officers) (Amendment) Regulations, 2019",
+          "sub_phase": null
+        },
+        {
+          "yr": 2021,
+          "num": 15,
+          "href": "/akn/zm/act/si/2021/15/eng@2021-03-11",
+          "eng_date": "2021-03-11",
+          "title": "Diplomatic Immunities and Privileges (International Centre for Tropical Agriculture) Order, 2021",
+          "sub_phase": null
+        },
+        {
+          "yr": 2020,
+          "num": 8,
+          "href": "/akn/zm/act/si/2020/8/eng@2020-01-31",
+          "eng_date": "2020-01-31",
+          "title": "Diplomatic Immunities and Privileges (Turkish Cooperation and Coordination Agency) Order, 2020",
+          "sub_phase": null
+        },
+        {
+          "yr": 2019,
+          "num": 6,
+          "href": "/akn/zm/act/si/2019/6/eng@2019-01-22",
+          "eng_date": "2019-01-22",
+          "title": "Disaster Management (Qualifications of National Coordinator) Regulations, 2019",
+          "sub_phase": null
+        }
+      ],
+      "html_sha": "6465ffa8319a35763264d15ac541661114091812fd15c9c6cbc9b339b4e74cc9",
+      "html_path": "_work/batch_0293_alphabet_D.html"
+    },
+    "G": {
+      "total": 1,
+      "modern_count": 1,
+      "novel": [
+        {
+          "yr": 2026,
+          "num": 5,
+          "href": "/akn/zm/act/si/2026/5/eng@2026-01-09",
+          "eng_date": "2026-01-09",
+          "title": "Green Economy and Climate Change (Carbon Market) Regulations, 2026",
+          "sub_phase": null
+        }
+      ],
+      "html_sha": "10c0575b786e23b49c55e65011956e6bdd306cec2b6fbf21fa09ed89160fa9da",
+      "html_path": "_work/batch_0293_alphabet_G.html"
+    },
+    "H": {
+      "total": 15,
+      "modern_count": 8,
+      "novel": [
+        {
+          "yr": 2022,
+          "num": 5,
+          "href": "/akn/zm/act/si/2022/5/eng@2022-01-14",
+          "eng_date": "2022-01-14",
+          "title": "Economic and Financial Crimes (Division of Court) Order, 2022",
+          "sub_phase": null
+        },
+        {
+          "yr": 2021,
+          "num": 91,
+          "href": "/akn/zm/act/si/2021/91/eng@2021-12-31",
+          "eng_date": "2021-12-31",
+          "title": "High Court (Civil Jurisdiction) (Family Court Fees) Regulations, 2021",
+          "sub_phase": null
+        },
+        {
+          "yr": 2022,
+          "num": 39,
+          "href": "/akn/zm/act/si/2022/39/eng@2022-06-03",
+          "eng_date": "2022-06-03",
+          "title": "Education (Public Higher Education Institution) (Declaration) Order, 2022",
+          "sub_phase": null
+        },
+        {
+          "yr": 2019,
+          "num": 69,
+          "href": "/akn/zm/act/si/2019/69/eng@2019-10-17",
+          "eng_date": "2019-10-17",
+          "title": "Palabana University (Declaration) Order, 2019",
+          "sub_phase": null
+        },
+        {
+          "yr": 2018,
+          "num": 39,
+          "href": "/akn/zm/act/si/2018/39/eng@2018-05-24",
+          "eng_date": "2018-05-24",
+          "title": "Levy Mwanawasa Medical University (Declaration) Order, 2018",
+          "sub_phase": null
+        },
+        {
+          "yr": 2018,
+          "num": 3,
+          "href": "/akn/zm/act/si/2018/3/eng@2018-01-26",
+          "eng_date": "2018-01-26",
+          "title": "Zambia Defence University (Declaration) Order, 2018",
+          "sub_phase": null
+        },
+        {
+          "yr": 2018,
+          "num": 2,
+          "href": "/akn/zm/act/si/2018/2/eng@2018-01-26",
+          "eng_date": "2018-01-26",
+          "title": "Education (Military Training Establishment of Zambia Management) (Dissolution) Regulations, 2018",
+          "sub_phase": null
+        },
+        {
+          "yr": 2020,
+          "num": 96,
+          "href": "/akn/zm/act/si/2020/96/eng@2020-11-27",
+          "eng_date": "2020-11-27",
+          "title": "Higher Education Loans and Scholarships (Transfer of Staff) Regulations, 2020",
+          "sub_phase": null
+        }
+      ],
+      "html_sha": "996702687fe7da770ee611b7abaf1e980e8b0e81bc0ef1979bbe049d161db142",
+      "html_path": "_work/batch_0293_alphabet_H.html"
+    },
+    "K": {
+      "total": 0,
+      "modern_count": 0,
+      "novel": [],
+      "html_sha": "da422ffc5639c8b6a4df2a6f9eba01d88509757398f0457579989f2b2e8be929",
+      "html_path": "_work/batch_0293_alphabet_K.html"
+    },
+    "O": {
+      "total": 0,
+      "modern_count": 0,
+      "novel": [],
+      "html_sha": "0782fdbe95a34ecc170340bbac4360fd0092cb7eb4fb34387966c808c596811c",
+      "html_path": "_work/batch_0293_alphabet_O.html"
+    },
+    "R": {
+      "total": 30,
+      "modern_count": 4,
+      "novel": [
+        {
+          "yr": 2018,
+          "num": 7,
+          "href": "/akn/zm/act/si/2018/7/eng@2018-02-02",
+          "eng_date": "2018-02-02",
+          "title": "Railways (Transportation of Heavy Goods) Regulations, 2018",
+          "sub_phase": null
+        },
+        {
+          "yr": 2020,
+          "num": 50,
+          "href": "/akn/zm/act/si/2020/50/eng@2020-05-15",
+          "eng_date": "2020-05-15",
+          "title": "Road Traffic (Driving Licence) Regulations, 2020",
+          "sub_phase": null
+        },
+        {
+          "yr": 2021,
+          "num": 112,
+          "href": "/akn/zm/act/si/2021/112/eng@2021-12-31",
+          "eng_date": "2021-12-31",
+          "title": "Road Traffic (Fees) Regulations, 2021",
+          "sub_phase": null
+        },
+        {
+          "yr": 2020,
+          "num": 7,
+          "href": "/akn/zm/act/si/2020/7/eng@2020-01-24",
+          "eng_date": "2020-01-24",
+          "title": "Road Traffic (Speed Limits) Regulations, 2019",
+          "sub_phase": null
+        }
+      ],
+      "html_sha": "2da8aada1820cb50f2ad54ffab36934f739ab9376dde7f9e86fa2e2dd5c502bd",
+      "html_path": "_work/batch_0293_alphabet_R.html"
+    },
+    "U": {
+      "total": 20,
+      "modern_count": 19,
+      "novel": [
+        {
+          "yr": 2022,
+          "num": 57,
+          "href": "/akn/zm/act/si/2022/57/eng@2022-09-16",
+          "eng_date": "2022-09-16",
+          "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2022",
+          "sub_phase": null
+        },
+        {
+          "yr": 2022,
+          "num": 60,
+          "href": "/akn/zm/act/si/2022/60/eng@2022-09-30",
+          "eng_date": "2022-09-30",
+          "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2022",
+          "sub_phase": null
+        },
+        {
+          "yr": 2020,
+          "num": 108,
+          "href": "/akn/zm/act/si/2020/108/eng@2020-12-24",
+          "eng_date": "2020-12-24",
+          "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No.3) Regulations, 2020",
+          "sub_phase": null
+        },
+        {
+          "yr": 2020,
+          "num": 56,
+          "href": "/akn/zm/act/si/2020/56/eng@2020-05-29",
+          "eng_date": "2020-05-29",
+          "title": "Urban and Regional Planning (General) Regulations, 2020",
+          "sub_phase": null
+        },
+        {
+          "yr": 2020,
+          "num": 55,
+          "href": "/akn/zm/act/si/2020/55/eng@2020-05-29",
+          "eng_date": "2020-05-29",
+          "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2020",
+          "sub_phase": null
+        },
+        {
+          "yr": 2020,
+          "num": 9,
+          "href": "/akn/zm/act/si/2020/9/eng@2020-01-31",
+          "eng_date": "2020-01-31",
+          "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2020",
+          "sub_phase": null
+        },
+        {
+          "yr": 2020,
+          "num": 5,
+          "href": "/akn/zm/act/si/2020/5/eng@2020-01-17",
+          "eng_date": "2020-01-17",
+          "title": "Urban and Regional Planning (Designated Local Planning Authority) Regulations, 2020",
+          "sub_phase": null
+        },
+        {
+          "yr": 2023,
+          "num": 9,
+          "href": "/akn/zm/act/si/2023/9/eng@2023-03-17",
+          "eng_date": "2023-03-17",
+          "title": "Urban and Regional Planning (Designated Local Planning Authority) Regulations, 2023",
+          "sub_phase": null
+        },
+        {
+          "yr": 2023,
+          "num": 21,
+          "href": "/akn/zm/act/si/2023/21/eng@2023-07-21",
+          "eng_date": "2023-07-21",
+          "title": "Urban and Regional Planning (Development Plans Guidelines and Exempted Development Classes) Regulations, 2023",
+          "sub_phase": null
+        },
+        {
+          "yr": 2023,
+          "num": 45,
+          "href": "/akn/zm/act/si/2023/45/eng@2023-10-20",
+          "eng_date": "2023-10-20",
+          "title": "Urban and Regional Planning (Designated Local Planning Authority) (No. 2) Regulations, 2023",
+          "sub_phase": null
+        },
+        {
+          "yr": 2019,
+          "num": 78,
+          "href": "/akn/zm/act/si/2019/78/eng@2019-11-22",
+          "eng_date": "2019-11-22",
+          "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2019",
+          "sub_phase": null
+        },
+        {
+          "yr": 2019,
+          "num": 45,
+          "href": "/akn/zm/act/si/2019/45/eng@2019-08-09",
+          "eng_date": "2019-08-09",
+          "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No. 3) Regulations, 2019",
+          "sub_phase": null
+        },
+        {
+          "yr": 2019,
+          "num": 43,
+          "href": "/akn/zm/act/si/2019/43/eng@2019-08-02",
+          "eng_date": "2019-08-02",
+          "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No. 2) Regulations, 2019",
+          "sub_phase": null
+        },
+        {
+          "yr": 2019,
+          "num": 42,
+          "href": "/akn/zm/act/si/2019/42/eng@2019-08-02",
+          "eng_date": "2019-08-02",
+          "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2019",
+          "sub_phase": null
+        },
+        {
+          "yr": 2018,
+          "num": 44,
+          "href": "/akn/zm/act/si/2018/44/eng@2018-06-01",
+          "eng_date": "2018-06-01",
+          "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No. 2) Regulations, 2018",
+          "sub_phase": null
+        },
+        {
+          "yr": 2018,
+          "num": 43,
+          "href": "/akn/zm/act/si/2018/43/eng@2018-06-01",
+          "eng_date": "2018-06-01",
+          "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2018",
+          "sub_phase": null
+        },
+        {
+          "yr": 2017,
+          "num": 64,
+          "href": "/akn/zm/act/si/2017/64/eng@2017-08-25",
+          "eng_date": "2017-08-25",
+          "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No. 2) Regulations, 2017",
+          "sub_phase": null
+        },
+        {
+          "yr": 2017,
+          "num": 60,
+          "href": "/akn/zm/act/si/2017/60/eng@2017-08-04",
+          "eng_date": "2017-08-04",
+          "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2017",
+          "sub_phase": null
+        },
+        {
+          "yr": 2025,
+          "num": 65,
+          "href": "/akn/zm/act/si/2025/65/eng@2025-09-26",
+          "eng_date": "2025-09-26",
+          "title": "Urban and Regional Planning (Administration of Planning Appeals Tribunal) Regulations, 2025",
+          "sub_phase": null
+        }
+      ],
+      "html_sha": "aa77dd3a9614c804b776d7b6d995db86707833b513ede1bd28f6b79dbcb69f8e",
+      "html_path": "_work/batch_0293_alphabet_U.html"
+    }
+  },
+  "picks": [
+    {
+      "yr": 2021,
+      "num": 58,
+      "href": "/akn/zm/act/si/2021/58/eng@2021-05-14",
+      "eng_date": "2021-05-14",
+      "title": "Data Protection (Registration and Licensing) Regulations, 2021",
+      "sub_phase": "sis_data_protection",
+      "alpha": "D"
+    }
+  ],
+  "off_priority": [
+    {
+      "yr": 2026,
+      "num": 5,
+      "href": "/akn/zm/act/si/2026/5/eng@2026-01-09",
+      "eng_date": "2026-01-09",
+      "title": "Green Economy and Climate Change (Carbon Market) Regulations, 2026",
+      "sub_phase": null,
+      "alpha": "G"
+    },
+    {
+      "yr": 2025,
+      "num": 65,
+      "href": "/akn/zm/act/si/2025/65/eng@2025-09-26",
+      "eng_date": "2025-09-26",
+      "title": "Urban and Regional Planning (Administration of Planning Appeals Tribunal) Regulations, 2025",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2023,
+      "num": 9,
+      "href": "/akn/zm/act/si/2023/9/eng@2023-03-17",
+      "eng_date": "2023-03-17",
+      "title": "Urban and Regional Planning (Designated Local Planning Authority) Regulations, 2023",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2023,
+      "num": 21,
+      "href": "/akn/zm/act/si/2023/21/eng@2023-07-21",
+      "eng_date": "2023-07-21",
+      "title": "Urban and Regional Planning (Development Plans Guidelines and Exempted Development Classes) Regulations, 2023",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2023,
+      "num": 45,
+      "href": "/akn/zm/act/si/2023/45/eng@2023-10-20",
+      "eng_date": "2023-10-20",
+      "title": "Urban and Regional Planning (Designated Local Planning Authority) (No. 2) Regulations, 2023",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2022,
+      "num": 5,
+      "href": "/akn/zm/act/si/2022/5/eng@2022-01-14",
+      "eng_date": "2022-01-14",
+      "title": "Economic and Financial Crimes (Division of Court) Order, 2022",
+      "sub_phase": null,
+      "alpha": "H"
+    },
+    {
+      "yr": 2022,
+      "num": 39,
+      "href": "/akn/zm/act/si/2022/39/eng@2022-06-03",
+      "eng_date": "2022-06-03",
+      "title": "Education (Public Higher Education Institution) (Declaration) Order, 2022",
+      "sub_phase": null,
+      "alpha": "H"
+    },
+    {
+      "yr": 2022,
+      "num": 57,
+      "href": "/akn/zm/act/si/2022/57/eng@2022-09-16",
+      "eng_date": "2022-09-16",
+      "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2022",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2022,
+      "num": 60,
+      "href": "/akn/zm/act/si/2022/60/eng@2022-09-30",
+      "eng_date": "2022-09-30",
+      "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2022",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2022,
+      "num": 70,
+      "href": "/akn/zm/act/si/2022/70/eng@2022-11-04",
+      "eng_date": "2022-11-04",
+      "title": "Defence Force (United Nations Peacekeeping Operations) (Emoluments) Regulations, 2022",
+      "sub_phase": null,
+      "alpha": "D"
+    },
+    {
+      "yr": 2021,
+      "num": 15,
+      "href": "/akn/zm/act/si/2021/15/eng@2021-03-11",
+      "eng_date": "2021-03-11",
+      "title": "Diplomatic Immunities and Privileges (International Centre for Tropical Agriculture) Order, 2021",
+      "sub_phase": null,
+      "alpha": "D"
+    },
+    {
+      "yr": 2021,
+      "num": 91,
+      "href": "/akn/zm/act/si/2021/91/eng@2021-12-31",
+      "eng_date": "2021-12-31",
+      "title": "High Court (Civil Jurisdiction) (Family Court Fees) Regulations, 2021",
+      "sub_phase": null,
+      "alpha": "H"
+    },
+    {
+      "yr": 2021,
+      "num": 112,
+      "href": "/akn/zm/act/si/2021/112/eng@2021-12-31",
+      "eng_date": "2021-12-31",
+      "title": "Road Traffic (Fees) Regulations, 2021",
+      "sub_phase": null,
+      "alpha": "R"
+    },
+    {
+      "yr": 2020,
+      "num": 5,
+      "href": "/akn/zm/act/si/2020/5/eng@2020-01-17",
+      "eng_date": "2020-01-17",
+      "title": "Urban and Regional Planning (Designated Local Planning Authority) Regulations, 2020",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2020,
+      "num": 7,
+      "href": "/akn/zm/act/si/2020/7/eng@2020-01-24",
+      "eng_date": "2020-01-24",
+      "title": "Road Traffic (Speed Limits) Regulations, 2019",
+      "sub_phase": null,
+      "alpha": "R"
+    },
+    {
+      "yr": 2020,
+      "num": 8,
+      "href": "/akn/zm/act/si/2020/8/eng@2020-01-31",
+      "eng_date": "2020-01-31",
+      "title": "Diplomatic Immunities and Privileges (Turkish Cooperation and Coordination Agency) Order, 2020",
+      "sub_phase": null,
+      "alpha": "D"
+    },
+    {
+      "yr": 2020,
+      "num": 9,
+      "href": "/akn/zm/act/si/2020/9/eng@2020-01-31",
+      "eng_date": "2020-01-31",
+      "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2020",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2020,
+      "num": 50,
+      "href": "/akn/zm/act/si/2020/50/eng@2020-05-15",
+      "eng_date": "2020-05-15",
+      "title": "Road Traffic (Driving Licence) Regulations, 2020",
+      "sub_phase": null,
+      "alpha": "R"
+    },
+    {
+      "yr": 2020,
+      "num": 55,
+      "href": "/akn/zm/act/si/2020/55/eng@2020-05-29",
+      "eng_date": "2020-05-29",
+      "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2020",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2020,
+      "num": 56,
+      "href": "/akn/zm/act/si/2020/56/eng@2020-05-29",
+      "eng_date": "2020-05-29",
+      "title": "Urban and Regional Planning (General) Regulations, 2020",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2020,
+      "num": 96,
+      "href": "/akn/zm/act/si/2020/96/eng@2020-11-27",
+      "eng_date": "2020-11-27",
+      "title": "Higher Education Loans and Scholarships (Transfer of Staff) Regulations, 2020",
+      "sub_phase": null,
+      "alpha": "H"
+    },
+    {
+      "yr": 2020,
+      "num": 108,
+      "href": "/akn/zm/act/si/2020/108/eng@2020-12-24",
+      "eng_date": "2020-12-24",
+      "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No.3) Regulations, 2020",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2019,
+      "num": 6,
+      "href": "/akn/zm/act/si/2019/6/eng@2019-01-22",
+      "eng_date": "2019-01-22",
+      "title": "Disaster Management (Qualifications of National Coordinator) Regulations, 2019",
+      "sub_phase": null,
+      "alpha": "D"
+    },
+    {
+      "yr": 2019,
+      "num": 31,
+      "href": "/akn/zm/act/si/2019/31/eng@2019-05-10",
+      "eng_date": "2019-05-10",
+      "title": "Defence (Regular Forces) (Officers) (Amendment) Regulations, 2019",
+      "sub_phase": null,
+      "alpha": "D"
+    },
+    {
+      "yr": 2019,
+      "num": 42,
+      "href": "/akn/zm/act/si/2019/42/eng@2019-08-02",
+      "eng_date": "2019-08-02",
+      "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2019",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2019,
+      "num": 43,
+      "href": "/akn/zm/act/si/2019/43/eng@2019-08-02",
+      "eng_date": "2019-08-02",
+      "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No. 2) Regulations, 2019",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2019,
+      "num": 45,
+      "href": "/akn/zm/act/si/2019/45/eng@2019-08-09",
+      "eng_date": "2019-08-09",
+      "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No. 3) Regulations, 2019",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2019,
+      "num": 69,
+      "href": "/akn/zm/act/si/2019/69/eng@2019-10-17",
+      "eng_date": "2019-10-17",
+      "title": "Palabana University (Declaration) Order, 2019",
+      "sub_phase": null,
+      "alpha": "H"
+    },
+    {
+      "yr": 2019,
+      "num": 78,
+      "href": "/akn/zm/act/si/2019/78/eng@2019-11-22",
+      "eng_date": "2019-11-22",
+      "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2019",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2018,
+      "num": 2,
+      "href": "/akn/zm/act/si/2018/2/eng@2018-01-26",
+      "eng_date": "2018-01-26",
+      "title": "Education (Military Training Establishment of Zambia Management) (Dissolution) Regulations, 2018",
+      "sub_phase": null,
+      "alpha": "H"
+    },
+    {
+      "yr": 2018,
+      "num": 3,
+      "href": "/akn/zm/act/si/2018/3/eng@2018-01-26",
+      "eng_date": "2018-01-26",
+      "title": "Zambia Defence University (Declaration) Order, 2018",
+      "sub_phase": null,
+      "alpha": "H"
+    },
+    {
+      "yr": 2018,
+      "num": 7,
+      "href": "/akn/zm/act/si/2018/7/eng@2018-02-02",
+      "eng_date": "2018-02-02",
+      "title": "Railways (Transportation of Heavy Goods) Regulations, 2018",
+      "sub_phase": null,
+      "alpha": "R"
+    },
+    {
+      "yr": 2018,
+      "num": 39,
+      "href": "/akn/zm/act/si/2018/39/eng@2018-05-24",
+      "eng_date": "2018-05-24",
+      "title": "Levy Mwanawasa Medical University (Declaration) Order, 2018",
+      "sub_phase": null,
+      "alpha": "H"
+    },
+    {
+      "yr": 2018,
+      "num": 43,
+      "href": "/akn/zm/act/si/2018/43/eng@2018-06-01",
+      "eng_date": "2018-06-01",
+      "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2018",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2018,
+      "num": 44,
+      "href": "/akn/zm/act/si/2018/44/eng@2018-06-01",
+      "eng_date": "2018-06-01",
+      "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No. 2) Regulations, 2018",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2017,
+      "num": 60,
+      "href": "/akn/zm/act/si/2017/60/eng@2017-08-04",
+      "eng_date": "2017-08-04",
+      "title": "Urban and Regional Planning (Designated Local Planning Authorities) Regulations, 2017",
+      "sub_phase": null,
+      "alpha": "U"
+    },
+    {
+      "yr": 2017,
+      "num": 64,
+      "href": "/akn/zm/act/si/2017/64/eng@2017-08-25",
+      "eng_date": "2017-08-25",
+      "title": "Urban and Regional Planning (Designated Local Planning Authorities) (No. 2) Regulations, 2017",
+      "sub_phase": null,
+      "alpha": "U"
+    }
+  ],
+  "recent_acts": [
+    {
+      "yr": 2025,
+      "num": 9,
+      "title": "Supplementary Appropriation (2025) Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 8,
+      "title": "Border Management and Trade Facilitation Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 7,
+      "title": "Animal Health (Amendment ) Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 6,
+      "title": "Building Societies (Amendment) Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 5,
+      "title": "National Road Fund (Amendment) Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 29,
+      "title": "Zambia Institute of Procurement and Supply Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 28,
+      "title": "Appropriation Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 27,
+      "title": "Betting Levy Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 26,
+      "title": "Zambia National Broadcasting Corporation Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 25,
+      "title": "Independent Broadcasting Authority Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 24,
+      "title": "Registration of Business Names (Amendment) Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 23,
+      "title": "Companies (Amendment) Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 22,
+      "title": "Mobile Money Transaction Levy (Amendment) Act, 2025",
+      "in_corpus": false
+    }
+  ],
+  "recent_acts_in_corpus": 0,
+  "recent_acts_novel": [
+    {
+      "yr": 2025,
+      "num": 9,
+      "title": "Supplementary Appropriation (2025) Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 8,
+      "title": "Border Management and Trade Facilitation Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 7,
+      "title": "Animal Health (Amendment ) Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 6,
+      "title": "Building Societies (Amendment) Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 5,
+      "title": "National Road Fund (Amendment) Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 29,
+      "title": "Zambia Institute of Procurement and Supply Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 28,
+      "title": "Appropriation Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 27,
+      "title": "Betting Levy Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 26,
+      "title": "Zambia National Broadcasting Corporation Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 25,
+      "title": "Independent Broadcasting Authority Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 24,
+      "title": "Registration of Business Names (Amendment) Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 23,
+      "title": "Companies (Amendment) Act, 2025",
+      "in_corpus": false
+    },
+    {
+      "yr": 2025,
+      "num": 22,
+      "title": "Mobile Money Transaction Levy (Amendment) Act, 2025",
+      "in_corpus": false
+    }
+  ],
+  "parliament_acts_p0": [],
+  "parliament_in_corpus": 0,
+  "parliament_novel": [],
+  "sis_existing_count": 0,
+  "acts_existing_count": 0
+}
