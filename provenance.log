@@ -2981,3 +2981,4 @@
 {"ts": "2026-04-27T22:03:31Z", "batch": "0306", "url": "https://zambialii.org/legislation/recent", "sha256": "452f6ec2c4d177e306881f24ecc21d17294e09d6e12b4a06059687ad738b0cfa", "bytes": 94772, "kind": "probe"}
 {"ts": "2026-04-27T22:03:42Z", "batch": "0306", "url": "https://www.parliament.gov.zm/robots.txt", "sha256": "278e83bcf567badfebcdea4d5d20ca9898e4449fe4eb2e3b5a08227b4ca9b762", "bytes": 2189, "kind": "probe"}
 {"ts": "2026-04-27T22:03:43Z", "batch": "0306", "url": "https://www.parliament.gov.zm/acts-of-parliament", "sha256": "8c9c664cb9057ae1de817bfdc232e2bced31e9f7429adbe932b7694baa6bdb42", "bytes": 38208, "kind": "probe"}
+{"batch": "0307", "ts": "2026-04-27T22:35:29Z", "phase": "4", "yield": 0, "kind": "probe", "robots": {"zambialii": "match", "parliament": "match"}, "fetches": 4}
