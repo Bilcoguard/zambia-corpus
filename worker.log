@@ -3006,3 +3006,5 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 [2026-04-27T13:08:30Z] tick batch-0289: cumulative records: acts 1169 (+6 over 1163 b0288 baseline; ls records/acts/**/*.json tally).
 [2026-04-27T13:08:30Z] tick batch-0289: corpus.sqlite update deferred — established disposition (FTS5 vtable broken, journal held open). JSON records authoritative.
 [2026-04-27T13:08:30Z] tick batch-0289: B2 sync deferred to host (rclone not available in sandbox).
+[2026-04-27T13:13:30Z] [batch-0289] commit 03e8b5c pushed: da5d55e..03e8b5c main -> main.
+[2026-04-27T13:13:30Z] [batch-0289] tick complete. Pool 6->0 (full sweep, 100% yield). Today fetches ~16->~28/2000 (~1.4%). Yield 6/6 (100%). Phase 4 remains incomplete per approvals.yaml (worker does not flip the flag). NOTE: chronological-first acts_in_force inherited pool exhausted through 2025; next tick (b0290) should sweep the zambialii listing pages to refresh the pool with any newly-published 2025/2026 Acts (and revisit the multi-act-gazette retry queue, oversize-pdf queue, OCR backlog under their respective sub-phases). Wall-clock ~5 min.
