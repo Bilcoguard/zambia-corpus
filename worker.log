@@ -2985,3 +2985,10 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 [2026-04-26T23:42:00Z] tick batch-0287: pool remaining for next tick: 14 (next: 2021/53 Appropriation Act 2021)
 [2026-04-26T23:43:30Z] [batch-0287] commit 28411f8 pushed: f140dc3..28411f8 main -> main.
 [2026-04-26T23:43:30Z] [batch-0287] tick complete. Pool 22->14 (next: 2021/53 onwards). Today fetches 612->624/2000 (~31.2%). Yield 8/8 (100%). Phase 4 remains incomplete per approvals.yaml (worker does not flip the flag). Wall-clock ~7 min.
+[2026-04-27T11:14:22Z] tick batch-0288: started — git pull --ff-only OK after .git lock cleanup; approvals.yaml read; phase_4_bulk approved=true complete=false; budget 624/2000 OK
+[2026-04-27T11:14:22Z] tick batch-0288: robots.txt re-verified at start of tick (sha256 fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0 — unchanged from b0193..0287). Crawl-delay 5s; using 6s margin.
+[2026-04-27T11:14:22Z] tick batch-0288: 8 picks (acts_in_force chronological-first from inherited pool of 14): 2021/53, 2022/7, 2022/30, 2023/10, 2023/18, 2023/29, 2024/9, 2024/20
+[2026-04-27T13:02:43Z] [batch-0288] ingest: 7/8 ok; 1 deferred (2024/9 multi-Act Government Gazette bundle — naive PDF parser pulled 237 sections from co-bundled Acts; record removed pre-commit, no fabrication; logged to gaps.md, added to NEW multi-act-gazette retry queue).
+[2026-04-27T13:02:43Z] [batch-0288] integrity: ALL CHECKS PASSED (1a 7/7 batch unique; 1b 7/7 corpus presence; 2/3/6 0 refs each; 4 7/7 source_hash sha256 verified vs raw HTML; 5 112/112 fields present).
+[2026-04-27T13:02:43Z] [batch-0288] cumulative records: acts 1163 (+7 over 1156 baseline; 2024/9 deferred not counted).
+[2026-04-27T13:02:43Z] [batch-0288] B2 sync deferred to host: rclone not available in sandbox.

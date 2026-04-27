@@ -1,0 +1,34 @@
+{
+  "id": "act-zm-2024-020-supplementary-appropriation-2024-no-2-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Supplementary Appropriation (2024) (No. 2) Act, 2024",
+  "citation": "Act No. 20 of 2024",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "1",
+      "heading": "This Act may be cited as the Supplementary Appropriation Short title",
+      "text": "(2024) (No. 2) Act, 2024."
+    },
+    {
+      "number": "2",
+      "heading": "On the authority of a warrant issued by the President, Supplementary",
+      "text": "there may be expended from the Consolidated Fund, such monies appropriation\nnot exceeding in the aggregate eleven billion, seven hundred and\nsixty-five million, five hundred and twenty-six thousand, and four\nhundred and eighty-five kwacha indicated in respect of the services\nof the Republic specified in the third column of the Schedule, being\nexpenditure in excess of the monies appropriated for the services\nof the Republic during the financial year ending on 31st December,"
+    },
+    {
+      "number": "2024",
+      "heading": "Single copies of this Act may be obtained from the Government Printer,",
+      "text": "P.O. Box 30136, 10101 Lusaka, Price K4.00 each.\n352 No. 20 of 2024 Supplementary Appropriation\nSCHEDULE\n(Section 2)\nNo. of Appropriation\nHead Institution/Programme Amount\nK\n03 National Assembly\n3499 Management and Support Services 1,510,684\n17 Ministry of Foreign Affairs and International Cooperation\n3436 International Relations and Cooperation 276,777,349\n21 Loans and Investments – Ministry of Finance and\nNational Planning\n3441 Centralised Strategic Payments 4,888,046,871\n37 Ministry of Finance and National Planning\n3420 Economic Management 1,046,062\n3421 Fiscal Management 5,570,883\n39 Smart Zambia Institute\n3415 Electronic Government 162,600,000\n66 Ministry of Technology and Science\n2153 Skills Development 150,000,000\n99 Constitutional and Statutory Expenditure – Ministry of\nFinance and National Planning\n3448 Public Debt Service Management 6,279,974,636\nGRAND TOTAL 11,765,526,485"
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/2024/20/eng@2024-12-26",
+  "source_hash": "sha256:12b77f3779f4a8f076660771d9e90ab2ffc0484f43c14b0ca366947b82014ab2",
+  "fetched_at": "2026-04-27T11:16:50Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}

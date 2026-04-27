@@ -1,0 +1,29 @@
+{
+  "id": "act-zm-2023-010-supplementary-appropriation-2023-act",
+  "type": "act",
+  "jurisdiction": "ZM",
+  "title": "Supplementary Appropriation (2023) Act, 2023",
+  "citation": "Act No. 10 of 2023",
+  "enacted_date": null,
+  "commencement_date": null,
+  "in_force": true,
+  "amended_by": [],
+  "repealed_by": null,
+  "cited_authorities": [],
+  "sections": [
+    {
+      "number": "",
+      "heading": "",
+      "text": "This Act may be cited as the Supplementary Appropriation (2023) Act, 2023."
+    },
+    {
+      "number": "",
+      "heading": "",
+      "text": "On the authority of a warrant issued by the President, there may be expended from the Consolidated Fund, such monies not exceeding in the aggregate eleven billion, five hundred thirteen million, eight hundred forty-five thousand, eight hundred seventy-three kwacha indicated in respect of the services of the Republic specified in the third column of the Schedule, being expenditure in excess of the monies appropriated for the services of the Republic during the financial year ending on 31st December, 2023."
+    }
+  ],
+  "source_url": "https://zambialii.org/akn/zm/act/2023/10/eng@2023-08-17",
+  "source_hash": "sha256:60d0efb9946cba46c23adf1d22020faa6a9af90c7d2abeb6bbc85345d20f0984",
+  "fetched_at": "2026-04-27T11:15:32Z",
+  "parser_version": "0.6.0-act-zambialii-2026-04-26"
+}

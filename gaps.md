@@ -1152,3 +1152,13 @@ OCR backlog now 18 items. All quarantined PDFs preserved on disk for re-extracti
 
 - **2012/16 Appropriation Act, 2012** — `pdf_too_large` (5,553,668 bytes > MAX_PDF_BYTES 4,500,000). Raw HTML retained at `raw/zambialii/act/2012/2012-016.html`. Added to oversize-PDF queue for host-side chunked extraction.
 - **2013/19 Appropriation Act, 2013** — committed but with 1 section only (sec 1 missed by PDF text extraction; sec 2 captured). Added to OCR section-tolerant retry queue. Source HTML+PDF retained.
+
+## Batch 0288 (2026-04-27)
+
+- **act/2024/9 Supplementary Appropriation Act, 2024** — STATUS: deferred. HTML had <2 akn-sections (fiscal-series pattern); PDF fallback fetched 3,224,064 bytes (under MAX_PDF_BYTES 4,500,000). However, the source PDF is a multi-Act Government Gazette bundle (Vol. LX, No. 7,631, 16th August 2024) containing Acts 4-12 of 2024 in sequence. Page 1 is the Gazette Notice; pages 2 onwards are the Human Rights Commission Act (No. 4/2024). The naive top-level PDF section parser pulled 237 sections that overwhelmingly belong to OTHER Acts (Human Rights Commission, ZIALE Amendment, Matrimonial Causes Amendment, Lands Tribunal Amendment, Zambia Qualifications Authority, Civil Aviation Amendments, Kazungula Bridge Authority) rather than to Supplementary Appropriation No. 9/2024. Record was REMOVED before commit (no fabrication). Provenance entry rolled back. Raw HTML at `raw/zambialii/act/2024/2024-009.html` and raw PDF at `raw/zambialii/act/2024/2024-009.pdf` retained for traceability. Action: add to **multi-act-gazette retry queue** (NEW queue) — requires Act-boundary detection in PDF (anchor on "GOVERNMENT OF ZAMBIA" / "ACT No. X of YYYY" headers and slice sections per Act) before re-ingestion.
+
+7 of 8 picks committed cleanly: 2021/53, 2022/7, 2022/30, 2023/10, 2023/18 (PPP Act, 162 sections via HTML), 2023/29, 2024/20. Yield 7/8 (87.5%). PPP Act 2023 is a substantive non-fiscal Act parsed via HTML akn-section parser (162 sections). All 6 fiscal-series acts have correct year-matching content (sections 1-3 referencing the correct Act citation in-text).
+
+Multi-act-gazette retry queue: 1 item (2024/9). NEW queue introduced this tick.
+Oversize-pdf queue unchanged: 5 items as of b0283 (2002/6, 2005/21, 2008/5, 2009/10, 2009/30, 2012/16 — six items, see prior batches).
+OCR section-tolerant retry queue unchanged.
