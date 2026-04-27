@@ -1,0 +1,173 @@
+{
+  "alphabets": {
+    "E": {
+      "total": 85,
+      "modern_count": 74,
+      "novel": [
+        {
+          "yr": 2022,
+          "num": 8,
+          "href": "/akn/zm/act/si/2022/8/eng@2022-01-14",
+          "eng_date": "2022-01-14",
+          "title": "National Assembly By-Election (Kabwata Constituency No. 77) (Election Date and Time of Poll) Order, 2022",
+          "sub_phase": null
+        },
+        {
+          "yr": 2018,
+          "num": 75,
+          "href": "/akn/zm/act/si/2018/75/eng@2018-10-05",
+          "eng_date": "2018-10-05",
+          "title": "National Assembly By-Election (Mangango Constituency No. 141) (Election Date and Time of Poll) Order, 2018",
+          "sub_phase": null
+        },
+        {
+          "yr": 2018,
+          "num": 93,
+          "href": "/akn/zm/act/si/2018/93/eng@2018-12-21",
+          "eng_date": "2018-12-21",
+          "title": "National Assembly By-Election (Sesheke Constituency No. 153) (Election Date and Time of Poll) Order, 2018",
+          "sub_phase": null
+        },
+        {
+          "yr": 2026,
+          "num": 4,
+          "href": "/akn/zm/act/si/2026/4/eng@2026-01-09",
+          "eng_date": "2026-01-09",
+          "title": "Electricity (Transmission) (Grid Code) Regulations, 2026",
+          "sub_phase": null
+        },
+        {
+          "yr": 2022,
+          "num": 13,
+          "href": "/akn/zm/act/si/2022/13/eng@2022-01-28",
+          "eng_date": "2022-01-28",
+          "title": "Minimum Wages and Conditions of Employment (Truck and Bus Drivers) (Amendment) Order, 2022",
+          "sub_phase": "sis_employment"
+        }
+      ],
+      "html_sha": "a3cd2c378600ffead60a8d8b8193c907fbf445c40dc1daea4fe74f448f29259c",
+      "html_path": "_work/batch_0292_alphabet_E.html"
+    },
+    "F": {
+      "total": 23,
+      "modern_count": 15,
+      "novel": [
+        {
+          "yr": 2018,
+          "num": 11,
+          "href": "/akn/zm/act/si/2018/11/eng@2018-02-23",
+          "eng_date": "2018-02-23",
+          "title": "Forests (Community Forest Management) Regulations, 2018",
+          "sub_phase": null
+        }
+      ],
+      "html_sha": "0140b358f2dc86974d669ebf6da6d31e6e4c85b7f57639524fe6230280b10af2",
+      "html_path": "_work/batch_0292_alphabet_F.html"
+    },
+    "J": {
+      "total": 1,
+      "modern_count": 1,
+      "novel": [],
+      "html_sha": "ae622f52222f84bc7b5167ae124bef369484bada5a36c46db99fc6637bb9328e",
+      "html_path": "_work/batch_0292_alphabet_J.html"
+    },
+    "L": {
+      "total": 26,
+      "modern_count": 14,
+      "novel": [],
+      "html_sha": "ccbae687540b4a8d0dbbf52acac3cf109d37c518b81c79e14bcd22d0ba64d4f3",
+      "html_path": "_work/batch_0292_alphabet_L.html"
+    },
+    "N": {
+      "total": 60,
+      "modern_count": 36,
+      "novel": [
+        {
+          "yr": 2022,
+          "num": 7,
+          "href": "/akn/zm/act/si/2022/7/eng@2021-01-11",
+          "eng_date": "2021-01-11",
+          "title": "National Archives (Fees) Regulations, 2021",
+          "sub_phase": null
+        }
+      ],
+      "html_sha": "865bae5675936a7ecf27bed0e40c9ac4597dbbb93a1f75e165c92d8d4511a872",
+      "html_path": "_work/batch_0292_alphabet_N.html"
+    },
+    "W": {
+      "total": 9,
+      "modern_count": 4,
+      "novel": [],
+      "html_sha": "ccfaaa84ea927b85856a0fb68cc75f75d37b8337bcaa645b12d16f3c6fafad38",
+      "html_path": "_work/batch_0292_alphabet_W.html"
+    }
+  },
+  "picks": [
+    {
+      "yr": 2022,
+      "num": 13,
+      "href": "/akn/zm/act/si/2022/13/eng@2022-01-28",
+      "eng_date": "2022-01-28",
+      "title": "Minimum Wages and Conditions of Employment (Truck and Bus Drivers) (Amendment) Order, 2022",
+      "sub_phase": "sis_employment",
+      "alpha": "E"
+    }
+  ],
+  "off_priority": [
+    {
+      "yr": 2026,
+      "num": 4,
+      "href": "/akn/zm/act/si/2026/4/eng@2026-01-09",
+      "eng_date": "2026-01-09",
+      "title": "Electricity (Transmission) (Grid Code) Regulations, 2026",
+      "sub_phase": null,
+      "alpha": "E"
+    },
+    {
+      "yr": 2022,
+      "num": 7,
+      "href": "/akn/zm/act/si/2022/7/eng@2021-01-11",
+      "eng_date": "2021-01-11",
+      "title": "National Archives (Fees) Regulations, 2021",
+      "sub_phase": null,
+      "alpha": "N"
+    },
+    {
+      "yr": 2022,
+      "num": 8,
+      "href": "/akn/zm/act/si/2022/8/eng@2022-01-14",
+      "eng_date": "2022-01-14",
+      "title": "National Assembly By-Election (Kabwata Constituency No. 77) (Election Date and Time of Poll) Order, 2022",
+      "sub_phase": null,
+      "alpha": "E"
+    },
+    {
+      "yr": 2018,
+      "num": 11,
+      "href": "/akn/zm/act/si/2018/11/eng@2018-02-23",
+      "eng_date": "2018-02-23",
+      "title": "Forests (Community Forest Management) Regulations, 2018",
+      "sub_phase": null,
+      "alpha": "F"
+    },
+    {
+      "yr": 2018,
+      "num": 75,
+      "href": "/akn/zm/act/si/2018/75/eng@2018-10-05",
+      "eng_date": "2018-10-05",
+      "title": "National Assembly By-Election (Mangango Constituency No. 141) (Election Date and Time of Poll) Order, 2018",
+      "sub_phase": null,
+      "alpha": "E"
+    },
+    {
+      "yr": 2018,
+      "num": 93,
+      "href": "/akn/zm/act/si/2018/93/eng@2018-12-21",
+      "eng_date": "2018-12-21",
+      "title": "National Assembly By-Election (Sesheke Constituency No. 153) (Election Date and Time of Poll) Order, 2018",
+      "sub_phase": null,
+      "alpha": "E"
+    }
+  ],
+  "existing_count": 530
+}

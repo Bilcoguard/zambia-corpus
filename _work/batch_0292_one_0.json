@@ -1,0 +1,31 @@
+{
+  "pick": {
+    "yr_num": "2022/13",
+    "year": "2022",
+    "num": "13",
+    "title": "Minimum Wages and Conditions of Employment (Truck and Bus Drivers) (Amendment) Order, 2022",
+    "eng_date": "2022-01-28",
+    "parent_act": "Minimum Wages and Conditions of Employment Act",
+    "sub_phase": "sis_employment"
+  },
+  "status": "fail",
+  "error": "pdf_parse_empty",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/13",
+      "bytes": 38937,
+      "path": "raw/zambialii/si/2022/si-zm-2022-013-minimum-wages-and-conditions-of-employment-truck-and-bus-drivers-amendment-order-2022.html",
+      "sha": "22d8fed0098e0d459f1ac72cde9863705478604c2967c1527cf7fff458fe24f0",
+      "reused": true
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/13/eng@2022-01-28/source.pdf",
+      "bytes": 550009,
+      "path": "raw/zambialii/si/2022/si-zm-2022-013-minimum-wages-and-conditions-of-employment-truck-and-bus-drivers-amendment-order-2022.pdf",
+      "sha": "37ac235ec2f787cb229733f672f976e1c3b9caecb609254001e86c266968a80d",
+      "reused": true
+    }
+  ],
+  "html_sha": "22d8fed0098e0d459f1ac72cde9863705478604c2967c1527cf7fff458fe24f0",
+  "pdf_sha": "37ac235ec2f787cb229733f672f976e1c3b9caecb609254001e86c266968a80d"
+}

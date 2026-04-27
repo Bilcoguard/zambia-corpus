@@ -1178,3 +1178,37 @@ Other novel modern SIs discovered this tick but **out of priority_order**:
 Reserved for future tick if these sub-phases are added to approvals.yaml priority_order.
 
 sis_corporate (priority_order item 2) modern-era novel pool is **empty** across all 9 corporate-relevant alphabets probed (A, B, C, I, M, P, S, T, V).
+
+## Batch 0292 — sis_employment / sis_mining / sis_family probe (2026-04-27)
+
+Probed alphabets E, F, J, L, N, W (the highest-yield letters for the three
+remaining priority sub-phases not covered in b0291's A,B,C,I,M,P,S,T,V
+sweep). Robots.txt re-verified (sha256 unchanged: `fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0`).
+
+Novel modern (>=2017) results: 7 SIs, all already on disk in HTML form
+from prior probe ticks; 6 of the 7 also have cached PDFs.
+
+In-priority sub-phases:
+
+- [2026-04-27T14:43:34Z] si/2022/013 status=pdf_parse_empty url=https://zambialii.org/akn/zm/act/si/2022/13 batch=0292 sub_phase=sis_employment note=re-attempt; same pdfplumber 0-char result as b0184/b0200/b0205/b0221; remains in OCR backlog
+- sis_mining (alphabet=M probed b0291): 0 novel modern
+- sis_family (alphabets F, J, L, M, W): 0 novel modern matching Marriage / Matrimonial / Children / Juvenile / Maintenance / Adoption / Affiliation patterns
+
+Off-priority novel modern SIs encountered (reserved — not in
+approvals.yaml priority_order; not picked):
+
+| Year/Num | Title (truncated)                                                | Sub-phase     | OCR status |
+|----------|------------------------------------------------------------------|---------------|------------|
+| 2026/4   | Electricity (Transmission) (Grid Code) Regulations, 2026         | sis_energy    | OCR-backlog (b0245) |
+| 2022/7   | National Archives (Fees) Regulations, 2021                       | sis_archives  | OCR-backlog (b0184) |
+| 2022/8   | National Assembly By-Election (Kabwata) Order, 2022              | sis_elections | OCR-backlog (b0200) |
+| 2018/11  | Forests (Community Forest Management) Regulations, 2018          | sis_forests   | HTML cached only — PDF fetch deferred (off-priority) |
+| 2018/75  | National Assembly By-Election (Mangango) Order, 2018             | sis_elections | OCR-backlog (b0184) |
+| 2018/93  | National Assembly By-Election (Sesheke) Order, 2018              | sis_elections | OCR-backlog (b0184) |
+
+Conclusion: sis_employment-modern (priority_order item 4),
+sis_mining-modern (item 7), sis_family-modern (item 8) are all at
+upstream steady state for the worker's current toolset (requests +
+beautifulsoup4 + pdfplumber). The single text-extractable candidate
+(2022/13 sis_employment) returns 0 chars from pdfplumber and remains in
+the OCR backlog (no change to its status this tick).
