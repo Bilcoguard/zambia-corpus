@@ -2994,3 +2994,15 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 [2026-04-27T13:02:43Z] [batch-0288] B2 sync deferred to host: rclone not available in sandbox.
 [2026-04-27T13:03:20Z] [batch-0288] commit 59ca0e5 pushed: 833f160..59ca0e5 main -> main.
 [2026-04-27T13:03:20Z] [batch-0288] tick complete. Pool 14->6 (next: 2024/29 Appropriation Act, 2024). Today fetches 0->~16/2000 (~0.8%). Yield 7/8 (87.5%). Phase 4 remains incomplete per approvals.yaml (worker does not flip the flag). Wall-clock ~5 min.
+[2026-04-27T13:08:30Z] === Tick start (batch 0289) ===
+[2026-04-27T13:08:30Z] tick batch-0289: lock cleanup ran (find -name "*.lock" -delete) — clean. git pull --ff-only: Already up to date. Single warning: virtiofs maintenance.lock unlink-permitted (non-fatal, pre-existing per b0192-0288).
+[2026-04-27T13:08:30Z] tick batch-0289: approvals.yaml read OK; lowest approved+incomplete = phase_4_bulk (acts_in_force first in priority_order).
+[2026-04-27T13:08:30Z] tick batch-0289: budget check: today fetches ~16/2000 (~0.8%) at tick start (per b0288 close). Tokens within budget. OK to proceed.
+[2026-04-27T13:08:30Z] tick batch-0289: robots.txt re-verified (sha256 fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0 — unchanged from b0193..0288). Crawl-delay 5s; using 6s margin.
+[2026-04-27T13:08:30Z] tick batch-0289: 6 picks (acts_in_force chronological-first from inherited 6-item pool; full sweep within MAX_BATCH_SIZE=8): 2024/29, 2025/3, 2025/4, 2025/9, 2025/14, 2025/28
+[2026-04-27T13:08:30Z] tick batch-0289: NEW defensive guard added in scripts/batch_0289.py — fiscal-series Acts (alpha A/S, slug ~ "appropriation") with PDF-parsed sections >30 are deferred (multi_act_gazette_suspect). Threshold: 30 sections.
+[2026-04-27T13:08:30Z] tick batch-0289: ingest 6/6 ok (yield 100%); 0 deferred. 3 substantive non-fiscal Acts via HTML akn-section parser (Cyber Security 73, Cyber Crimes 33, Cotton 52); 3 fiscal Acts via PDF fallback (3 sections each — canonical fiscal pattern). Multi-act-gazette guard NOT tripped on any pick.
+[2026-04-27T13:08:30Z] tick batch-0289: integrity ALL CHECKS PASSED (1a 6/6 batch unique; 1b 6/6 corpus presence; 2/3/6 0 refs each; 4 6/6 source_hash sha256 verified vs raw HTML; 5 96/96 fields present).
+[2026-04-27T13:08:30Z] tick batch-0289: cumulative records: acts 1169 (+6 over 1163 b0288 baseline; ls records/acts/**/*.json tally).
+[2026-04-27T13:08:30Z] tick batch-0289: corpus.sqlite update deferred — established disposition (FTS5 vtable broken, journal held open). JSON records authoritative.
+[2026-04-27T13:08:30Z] tick batch-0289: B2 sync deferred to host (rclone not available in sandbox).
