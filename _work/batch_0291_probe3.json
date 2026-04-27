@@ -1,0 +1,30 @@
+{
+  "novel": [
+    {
+      "yr": 2022,
+      "num": 4,
+      "href": "/akn/zm/act/si/2022/4/eng@2022-01-11",
+      "eng_date": "2022-01-11",
+      "title": "Value Added Tax (Zero-Rating) (Amendment) Order, 2022",
+      "alpha": "V"
+    }
+  ],
+  "bucketed": {
+    "sis_tax": [
+      {
+        "yr": 2022,
+        "num": 4,
+        "href": "/akn/zm/act/si/2022/4/eng@2022-01-11",
+        "eng_date": "2022-01-11",
+        "title": "Value Added Tax (Zero-Rating) (Amendment) Order, 2022",
+        "alpha": "V"
+      }
+    ],
+    "sis_corporate": [],
+    "sis_employment": [],
+    "sis_data_protection": [],
+    "sis_mining": [],
+    "sis_family": [],
+    "other": []
+  }
+}

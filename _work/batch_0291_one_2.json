@@ -1,0 +1,31 @@
+{
+  "pick": {
+    "yr_num": "2022/4",
+    "year": "2022",
+    "num": "4",
+    "title": "Value Added Tax (Zero-Rating) (Amendment) Order, 2022",
+    "eng_date": "2022-01-11",
+    "parent_act": "Value Added Tax Act",
+    "sub_phase": "sis_tax"
+  },
+  "status": "fail",
+  "error": "pdf_parse_empty",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/4",
+      "bytes": 40569,
+      "path": "raw/zambialii/si/2022/si-zm-2022-004-value-added-tax-zero-rating-amendment-order-2022.html",
+      "sha": "91a7d81dae7b04be3f5d7f7f5ff43c05c33f61ef9b8cd5c3e0649d5f629ec8d4",
+      "reused": true
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2022/4/eng@2022-01-11/source.pdf",
+      "bytes": 343193,
+      "path": "raw/zambialii/si/2022/si-zm-2022-004-value-added-tax-zero-rating-amendment-order-2022.pdf",
+      "sha": "986b6f37de9cd3e3e07244ac9bef09497377973ec01b72fcf745dbc443554003",
+      "reused": true
+    }
+  ],
+  "html_sha": "91a7d81dae7b04be3f5d7f7f5ff43c05c33f61ef9b8cd5c3e0649d5f629ec8d4",
+  "pdf_sha": "986b6f37de9cd3e3e07244ac9bef09497377973ec01b72fcf745dbc443554003"
+}

@@ -1162,3 +1162,19 @@ OCR backlog now 18 items. All quarantined PDFs preserved on disk for re-extracti
 Multi-act-gazette retry queue: 1 item (2024/9). NEW queue introduced this tick.
 Oversize-pdf queue unchanged: 5 items as of b0283 (2002/6, 2005/21, 2008/5, 2009/10, 2009/30, 2012/16 — six items, see prior batches).
 OCR section-tolerant retry queue unchanged.
+
+## Batch 0291 (2026-04-27)
+
+- **sis/2017/43 Income Tax (Suspension of Tax on Payments to Non-Resident Contractors)(Batoka Hydro-Electric Scheme) Regulations, 2017** — STATUS: deferred (OCR backlog). Both base HTML and source.pdf fetched cleanly (HTML sha256 verified, PDF 475,677 bytes). pdfplumber returned 0 text characters across all pages — scanned-image PDF. No record JSON written; parser refused fabrication. Raw kept at `raw/zambialii/si/2017/si-zm-2017-043-...html` and `raw/zambialii/si/2017/si-zm-2017-043-...pdf`.
+- **sis/2019/25 Income Tax Act (Suspension of tax on payment of interest to non-resident)(Treasury Bill and Bond) Regulations, 2019** — STATUS: deferred (OCR backlog). PDF 303,419 bytes, pdfplumber returned 0 text chars (scanned image). Raw kept at `raw/zambialii/si/2019/si-zm-2019-025-...{html,pdf}`. No record written.
+- **sis/2022/4 Value Added Tax (Zero-Rating)(Amendment) Order, 2022** — STATUS: deferred (OCR backlog). PDF 343,193 bytes, pdfplumber returned 0 text chars (scanned image). Raw kept at `raw/zambialii/si/2022/si-zm-2022-004-...{html,pdf}`. No record written.
+
+All three are the only modern (>=2017) novel sis_tax candidates upstream on zambialii (per 9-alphabet probe sweep this tick); all three require an OCR pipeline (out of toolset scope per BRIEF) before ingestion. Add to OCR backlog (was 18 items, now 21).
+
+Other novel modern SIs discovered this tick but **out of priority_order**:
+- 2025/20 Compulsory Standards (Declaration) Order, 2025 — sis_industry
+- 2017/68 Standards (Compulsory Standards)(Declaration) Order, 2017 — sis_industry
+- 2022/12 Societies (Amendment) Rules, 2021 — sis_governance
+Reserved for future tick if these sub-phases are added to approvals.yaml priority_order.
+
+sis_corporate (priority_order item 2) modern-era novel pool is **empty** across all 9 corporate-relevant alphabets probed (A, B, C, I, M, P, S, T, V).

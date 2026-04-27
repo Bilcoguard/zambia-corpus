@@ -1,0 +1,29 @@
+{
+  "pick": {
+    "yr_num": "2017/43",
+    "year": "2017",
+    "num": "43",
+    "title": "Income Tax (Suspension of Tax on Payments to Non-Resident Contractors) (Batoka Hydro-Electric Scheme) Regulations, 2017",
+    "eng_date": "2017-06-16",
+    "parent_act": "Income Tax Act",
+    "sub_phase": "sis_tax"
+  },
+  "status": "fail",
+  "error": "pdf_parse_empty",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2017/43",
+      "bytes": 39785,
+      "path": "raw/zambialii/si/2017/si-zm-2017-043-income-tax-suspension-of-tax-on-payments-to-non-resident-contractors-batoka-hydro-electric-scheme-regulations-2017.html",
+      "sha": "8823f89e3da40c203c5a4764c2ef2920c365903fdee00d0d8a4deb54a2b48f9b"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2017/43/eng@2017-06-16/source.pdf",
+      "bytes": 475677,
+      "path": "raw/zambialii/si/2017/si-zm-2017-043-income-tax-suspension-of-tax-on-payments-to-non-resident-contractors-batoka-hydro-electric-scheme-regulations-2017.pdf",
+      "sha": "98d632c26456bdd9f061990ead89c201b9fbb24def2fc2557b8de46f0eecbf95"
+    }
+  ],
+  "html_sha": "8823f89e3da40c203c5a4764c2ef2920c365903fdee00d0d8a4deb54a2b48f9b",
+  "pdf_sha": "98d632c26456bdd9f061990ead89c201b9fbb24def2fc2557b8de46f0eecbf95"
+}

@@ -1,0 +1,58 @@
+{
+  "summary": {
+    "B": {
+      "total": 4,
+      "modern": 1,
+      "novel_count": 0
+    },
+    "I": {
+      "total": 98,
+      "modern": 31,
+      "novel_count": 2
+    },
+    "P": {
+      "total": 33,
+      "modern": 9,
+      "novel_count": 0
+    },
+    "S": {
+      "total": 17,
+      "modern": 9,
+      "novel_count": 2
+    }
+  },
+  "novel": [
+    {
+      "yr": 2022,
+      "num": 12,
+      "href": "/akn/zm/act/si/2022/12/eng@2022-01-28",
+      "eng_date": "2022-01-28",
+      "title": "Societies (Amendment) Rules, 2021",
+      "alpha": "S"
+    },
+    {
+      "yr": 2019,
+      "num": 25,
+      "href": "/akn/zm/act/si/2019/25/eng@2019-03-22",
+      "eng_date": "2019-03-22",
+      "title": "Income Tax Act (Suspension of tax on payment of interest to non-resident) (Treasury Bill and Bond) Regulations, 2019",
+      "alpha": "I"
+    },
+    {
+      "yr": 2017,
+      "num": 43,
+      "href": "/akn/zm/act/si/2017/43/eng@2017-06-16",
+      "eng_date": "2017-06-16",
+      "title": "Income Tax (Suspension of Tax on Payments to Non-Resident Contractors) (Batoka Hydro-Electric Scheme and Kariba Dam Rehabilitation Projects) Regulations, 2017",
+      "alpha": "I"
+    },
+    {
+      "yr": 2017,
+      "num": 68,
+      "href": "/akn/zm/act/si/2017/68/eng@2017-09-22",
+      "eng_date": "2017-09-22",
+      "title": "Standards (Compulsory Standards) (Declaration) Order, 2017",
+      "alpha": "S"
+    }
+  ]
+}

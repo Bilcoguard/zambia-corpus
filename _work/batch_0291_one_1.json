@@ -1,0 +1,29 @@
+{
+  "pick": {
+    "yr_num": "2019/25",
+    "year": "2019",
+    "num": "25",
+    "title": "Income Tax Act (Suspension of tax on payment of interest to non-resident) (Treasury Bill and Bond) Regulations, 2019",
+    "eng_date": "2019-03-22",
+    "parent_act": "Income Tax Act",
+    "sub_phase": "sis_tax"
+  },
+  "status": "fail",
+  "error": "pdf_parse_empty",
+  "fetches": [
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/25",
+      "bytes": 39841,
+      "path": "raw/zambialii/si/2019/si-zm-2019-025-income-tax-act-suspension-of-tax-on-payment-of-interest-to-non-resident-treasury-bill-and-bond-regulations-2019.html",
+      "sha": "85a66ebcfbb39482428205f0aaa157062a6e3a4f810fbfe30b744ae07a47a613"
+    },
+    {
+      "url": "https://zambialii.org/akn/zm/act/si/2019/25/eng@2019-03-22/source.pdf",
+      "bytes": 303419,
+      "path": "raw/zambialii/si/2019/si-zm-2019-025-income-tax-act-suspension-of-tax-on-payment-of-interest-to-non-resident-treasury-bill-and-bond-regulations-2019.pdf",
+      "sha": "76154e86cef0f3831950da0199aaab5aa83a28812dc3c35619d9f3d9aa8d65d6"
+    }
+  ],
+  "html_sha": "85a66ebcfbb39482428205f0aaa157062a6e3a4f810fbfe30b744ae07a47a613",
+  "pdf_sha": "76154e86cef0f3831950da0199aaab5aa83a28812dc3c35619d9f3d9aa8d65d6"
+}

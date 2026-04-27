@@ -3022,3 +3022,18 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 [2026-04-27T13:41:34Z] tick batch-0290: B2 sync deferred to host (rclone not available in sandbox).
 [2026-04-27T13:42:53Z] [batch-0290] commit 863b6f4 pushed: e55c5d2..863b6f4 main -> main.
 [2026-04-27T13:42:53Z] [batch-0290] tick complete. Pool 0->0 (no upstream items missing). Today fetches ~28->~37/2000 (~1.85%). Yield 0 records (probe-only by design). Phase 4 remains incomplete per approvals.yaml (worker does not flip the flag). NOTE: acts_in_force chronological-first sweep at upstream steady state through 2026/11; b0291 will idle on this sub-phase unless upstream publishes new Acts. Recommendation in reports/batch-0290.md: human review of priority_order to target retry queues, define sis_corporate scope, or accept current acts_in_force coverage. Wall-clock ~13 min.
+
+[2026-04-27T14:11:43Z] === Tick start (batch 0291) ===
+[2026-04-27T14:11:43Z] tick batch-0291: lock cleanup ran (find -name "*.lock" -delete) — clean. git pull --ff-only: Already up to date. Single warning: virtiofs maintenance.lock unlink-not-permitted (non-fatal, pre-existing per b0192-0290).
+[2026-04-27T14:11:43Z] tick batch-0291: approvals.yaml read OK; lowest approved+incomplete = phase_4_bulk. Per b0290 close, acts_in_force chronological-first sub-phase at upstream steady state through 2026/11; pivoted to priority_order item 2 (sis_corporate) probe + item 3 (sis_tax) probe.
+[2026-04-27T14:11:43Z] tick batch-0291: budget check: today fetches ~37/2000 (~1.85%) at tick start. Tokens within budget.
+[2026-04-27T14:11:43Z] tick batch-0291: zambialii robots re-verified at tick start (sha256 fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0 — unchanged from b0193..0290). Crawl-delay 5s; using 6s margin.
+[2026-04-27T14:11:43Z] tick batch-0291: 9-alphabet probe sweep (A,B,C,I,M,P,S,T,V) — exhaustive coverage of corporate-relevant first letters (Banking, Companies, Co-op, Citizens-Economic-Empowerment, Insurance, Pensions, Securities) plus broad coverage. Modern (>=2017) novel results: A=0, B=0, C=1, I=2, M=0, P=0, S=2, T=0, V=1 (six unique novel modern SIs upstream).
+[2026-04-27T14:11:43Z] tick batch-0291: sis_corporate (priority_order item 2) modern-era pool EMPTY across all 9 alphabets — at upstream steady state.
+[2026-04-27T14:11:43Z] tick batch-0291: sis_tax (priority_order item 3) — 3 candidates discovered (2017/43, 2019/25, 2022/4). All 3 attempted via batch_0291_ingest_one.py.
+[2026-04-27T14:11:43Z] tick batch-0291: ingest 0/3 ok (yield 0%); 3 deferred. Root cause: pdfplumber returned 0 text characters on all 3 PDFs (scanned-image PDFs requiring OCR). PDFs valid (%PDF-1.2/1.3/1.7 headers, 303-475 KB sizes). Per BRIEF non-negotiable #1 (no fabrication) and tooling constraint, no record JSON written. Raw HTML+PDF retained at raw/zambialii/si/{2017,2019,2022}/ for future OCR pipeline.
+[2026-04-27T14:11:43Z] tick batch-0291: 3 off-priority discoveries reserved (sis_industry: 2025/20, 2017/68; sis_governance: 2022/12). Not in approvals.yaml priority_order; not picked.
+[2026-04-27T14:11:43Z] tick batch-0291: integrity NOT-APPLICABLE this tick (zero records committed; no batch to check). 3 fail-diagnostic _work/batch_0291_one_{0,1,2}.json written with status=fail/error=pdf_parse_empty — no record JSON, no fabrication risk.
+[2026-04-27T14:11:43Z] tick batch-0291: cumulative records: acts 1169 (unchanged), SIs 539 (unchanged). OCR backlog: 18 -> 21 (+3 sis_tax SIs).
+[2026-04-27T14:11:43Z] tick batch-0291: corpus.sqlite update deferred — established disposition (FTS5 vtable broken, journal held open).
+[2026-04-27T14:11:43Z] tick batch-0291: B2 sync deferred to host (rclone not available in sandbox).
