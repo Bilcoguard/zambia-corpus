@@ -3008,3 +3008,15 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 [2026-04-27T13:08:30Z] tick batch-0289: B2 sync deferred to host (rclone not available in sandbox).
 [2026-04-27T13:13:30Z] [batch-0289] commit 03e8b5c pushed: da5d55e..03e8b5c main -> main.
 [2026-04-27T13:13:30Z] [batch-0289] tick complete. Pool 6->0 (full sweep, 100% yield). Today fetches ~16->~28/2000 (~1.4%). Yield 6/6 (100%). Phase 4 remains incomplete per approvals.yaml (worker does not flip the flag). NOTE: chronological-first acts_in_force inherited pool exhausted through 2025; next tick (b0290) should sweep the zambialii listing pages to refresh the pool with any newly-published 2025/2026 Acts (and revisit the multi-act-gazette retry queue, oversize-pdf queue, OCR backlog under their respective sub-phases). Wall-clock ~5 min.
+[2026-04-27T13:41:34Z] === Tick start (batch 0290) ===
+[2026-04-27T13:41:34Z] tick batch-0290: lock cleanup ran (find -name "*.lock" -delete) — clean. git pull --ff-only: Already up to date. Single warning: virtiofs maintenance.lock unlink-not-permitted (non-fatal, pre-existing per b0192-0289).
+[2026-04-27T13:41:34Z] tick batch-0290: approvals.yaml read OK; lowest approved+incomplete = phase_4_bulk (acts_in_force first in priority_order).
+[2026-04-27T13:41:34Z] tick batch-0290: budget check: today fetches ~28/2000 (~1.4%) at tick start (per b0289 close). Tokens within budget. OK to proceed.
+[2026-04-27T13:41:34Z] tick batch-0290: zambialii robots re-verified (sha256 fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0 — unchanged from b0193..0289). Crawl-delay 5s; using 6s margin.
+[2026-04-27T13:41:34Z] tick batch-0290: parliament.gov.zm robots fetched (sha256 278e83bcf567badfebcdea4d5d20ca9898e4449fe4eb2e3b5a08227b4ca9b762; Drupal default; Crawl-delay 10s, using 11s margin).
+[2026-04-27T13:41:34Z] tick batch-0290: pool-refresh probe (no record writes). Probe 1 zambialii /legislation/recent: 13 acts -> 2025/5..9 + 2025/22..29; ALL 13 already in corpus. Probe 2 parliament /acts-of-parliament pages 0..2: 59 acts -> 2026/1..11 + 2025/1..29 + 2024/12..30; ALL 59 already in corpus.
+[2026-04-27T13:41:34Z] tick batch-0290: integrity diff verification PASS (zambialii 13/13 covered; parliament 59/59 covered).
+[2026-04-27T13:41:34Z] tick batch-0290: pool refresh produced ZERO new picks. acts_in_force chronological-first sweep at upstream steady state through 2026/11.
+[2026-04-27T13:41:34Z] tick batch-0290: cumulative records: acts 1169 (unchanged); SI records 539 (unchanged).
+[2026-04-27T13:41:34Z] tick batch-0290: corpus.sqlite update deferred — established disposition (FTS5 vtable broken, journal held open). JSON records authoritative.
+[2026-04-27T13:41:34Z] tick batch-0290: B2 sync deferred to host (rclone not available in sandbox).
