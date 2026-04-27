@@ -3254,3 +3254,6 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 [2026-04-27T21:06:05Z] tick batch-0304: cumulative records: acts 1169 (unchanged), SIs 539 (unchanged), judgments 25 (unchanged). OCR backlog 21 (unchanged).
 [2026-04-27T21:06:05Z] tick batch-0304: corpus.sqlite update deferred — established disposition (FTS5 vtable broken, journal held open).
 [2026-04-27T21:06:05Z] tick batch-0304: B2 sync deferred to host (rclone not available in sandbox).
+[2026-04-27T21:06:53Z] [batch-0304] commit 166aa7c pushed: c2bd579..166aa7c main -> main.
+[2026-04-27T21:06:53Z] [batch-0304] tick complete. Yield 0 records (minimal upstream-refresh probe; alphabet sweep skipped — exhaust closed at b0293). Today fetches 104 -> 108/2000 (~5.4%). OCR backlog 21 (unchanged). Phase 4 remains incomplete per approvals.yaml (worker does not flip the flag). Phase 4 appears at upstream steady state for the fifteenth consecutive tick (b0290..b0304), awaiting human confirmation. Sandbox notes: parliament TLS chain workaround (RapidSSL intermediate appended to certifi bundle — verify=True; no insecure fallback) re-applied; .git lock-file rotation pattern continues to work (mv .lock files to _stale_locks/). Wall-clock ~4 min.
+[2026-04-27T21:06:53Z] [batch-0304] Phase 4 appears complete, awaiting human confirmation
