@@ -2992,3 +2992,5 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 [2026-04-27T13:02:43Z] [batch-0288] integrity: ALL CHECKS PASSED (1a 7/7 batch unique; 1b 7/7 corpus presence; 2/3/6 0 refs each; 4 7/7 source_hash sha256 verified vs raw HTML; 5 112/112 fields present).
 [2026-04-27T13:02:43Z] [batch-0288] cumulative records: acts 1163 (+7 over 1156 baseline; 2024/9 deferred not counted).
 [2026-04-27T13:02:43Z] [batch-0288] B2 sync deferred to host: rclone not available in sandbox.
+[2026-04-27T13:03:20Z] [batch-0288] commit 59ca0e5 pushed: 833f160..59ca0e5 main -> main.
+[2026-04-27T13:03:20Z] [batch-0288] tick complete. Pool 14->6 (next: 2024/29 Appropriation Act, 2024). Today fetches 0->~16/2000 (~0.8%). Yield 7/8 (87.5%). Phase 4 remains incomplete per approvals.yaml (worker does not flip the flag). Wall-clock ~5 min.
