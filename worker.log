@@ -3020,3 +3020,5 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 [2026-04-27T13:41:34Z] tick batch-0290: cumulative records: acts 1169 (unchanged); SI records 539 (unchanged).
 [2026-04-27T13:41:34Z] tick batch-0290: corpus.sqlite update deferred — established disposition (FTS5 vtable broken, journal held open). JSON records authoritative.
 [2026-04-27T13:41:34Z] tick batch-0290: B2 sync deferred to host (rclone not available in sandbox).
+[2026-04-27T13:42:53Z] [batch-0290] commit 863b6f4 pushed: e55c5d2..863b6f4 main -> main.
+[2026-04-27T13:42:53Z] [batch-0290] tick complete. Pool 0->0 (no upstream items missing). Today fetches ~28->~37/2000 (~1.85%). Yield 0 records (probe-only by design). Phase 4 remains incomplete per approvals.yaml (worker does not flip the flag). NOTE: acts_in_force chronological-first sweep at upstream steady state through 2026/11; b0291 will idle on this sub-phase unless upstream publishes new Acts. Recommendation in reports/batch-0290.md: human review of priority_order to target retry queues, define sis_corporate scope, or accept current acts_in_force coverage. Wall-clock ~13 min.
