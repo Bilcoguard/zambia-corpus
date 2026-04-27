@@ -3037,3 +3037,5 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 [2026-04-27T14:11:43Z] tick batch-0291: cumulative records: acts 1169 (unchanged), SIs 539 (unchanged). OCR backlog: 18 -> 21 (+3 sis_tax SIs).
 [2026-04-27T14:11:43Z] tick batch-0291: corpus.sqlite update deferred — established disposition (FTS5 vtable broken, journal held open).
 [2026-04-27T14:11:43Z] tick batch-0291: B2 sync deferred to host (rclone not available in sandbox).
+[2026-04-27T14:13:49Z] [batch-0291] commit 5e86d69 pushed: 107668e..5e86d69 main -> main.
+[2026-04-27T14:13:49Z] [batch-0291] tick complete. Yield 0 records (3 sis_tax candidates OCR-deferred to backlog; sis_corporate-modern empty; 3 off-priority reserved). Today fetches ~37->~52/2000 (~2.6%). OCR backlog 18->21. Phase 4 remains incomplete per approvals.yaml (worker does not flip the flag). NOTE: priority_order items 2,3,5,6 (sis_corporate, sis_tax, case_law_scz, sis_data_protection) all at upstream steady state for current toolset; productive work requires either OCR pipeline, oversize-PDF chunking, or scope redefinition. Wall-clock ~13 min.
