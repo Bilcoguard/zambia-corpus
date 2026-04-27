@@ -2953,3 +2953,7 @@
 {"ts": "2026-04-27T18:06:51Z", "batch": "0298", "event": "probe", "url": "https://zambialii.org/legislation/recent", "kind": "recent_feed", "count": 13, "novel_true": 0}
 {"ts": "2026-04-27T18:06:51Z", "batch": "0298", "event": "probe", "url": "https://www.parliament.gov.zm/robots.txt", "sha256": "278e83bcf567badfebcdea4d5d20ca9898e4449fe4eb2e3b5a08227b4ca9b762", "kind": "robots"}
 {"ts": "2026-04-27T18:06:51Z", "batch": "0298", "event": "probe", "url": "https://www.parliament.gov.zm/acts-of-parliament", "kind": "acts_p0", "count": 20, "novel_true": 0}
+{"ts": "2026-04-27T18:35:46Z", "batch": "0299", "event": "probe", "url": "https://zambialii.org/robots.txt", "sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0", "kind": "robots"}
+{"ts": "2026-04-27T18:35:46Z", "batch": "0299", "event": "probe", "url": "https://zambialii.org/legislation/recent", "kind": "recent_feed", "count": 13, "novel_true": 0}
+{"ts": "2026-04-27T18:35:46Z", "batch": "0299", "event": "probe", "url": "https://www.parliament.gov.zm/robots.txt", "sha256": "278e83bcf567badfebcdea4d5d20ca9898e4449fe4eb2e3b5a08227b4ca9b762", "kind": "robots"}
+{"ts": "2026-04-27T18:35:46Z", "batch": "0299", "event": "probe", "url": "https://www.parliament.gov.zm/acts-of-parliament", "kind": "acts_p0", "count": 20, "novel_true": 0}
