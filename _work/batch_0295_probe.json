@@ -1,0 +1,178 @@
+{
+  "batch": "0295",
+  "date": "2026-04-27",
+  "tick_start_utc": "2026-04-27T16:33:11Z",
+  "fetches": [],
+  "zambialii_robots_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+  "zambialii_robots_match_expected": true,
+  "zambialii_recent_acts": [
+    {
+      "year": 2025,
+      "num": 9,
+      "href": "/akn/zm/act/2025/9/eng@2025-08-19",
+      "text": "Supplementary Appropriation (2025) Act, 2025"
+    },
+    {
+      "year": 2025,
+      "num": 8,
+      "href": "/akn/zm/act/2025/8/eng@2025-08-19",
+      "text": "Border Management and Trade Facilitation Act, 2025"
+    },
+    {
+      "year": 2025,
+      "num": 7,
+      "href": "/akn/zm/act/2025/7/eng@2025-08-19",
+      "text": "Animal Health (Amendment ) Act, 2025"
+    },
+    {
+      "year": 2025,
+      "num": 6,
+      "href": "/akn/zm/act/2025/6/eng@2025-08-19",
+      "text": "Building Societies (Amendment) Act, 2025"
+    },
+    {
+      "year": 2025,
+      "num": 5,
+      "href": "/akn/zm/act/2025/5/eng@2025-08-19",
+      "text": "National Road Fund (Amendment) Act, 2025"
+    },
+    {
+      "year": 2025,
+      "num": 29,
+      "href": "/akn/zm/act/2025/29/eng@2025-12-31",
+      "text": "Zambia Institute of Procurement and Supply Act, 2025"
+    },
+    {
+      "year": 2025,
+      "num": 28,
+      "href": "/akn/zm/act/2025/28/eng@2025-12-30",
+      "text": "Appropriation Act, 2025"
+    },
+    {
+      "year": 2025,
+      "num": 27,
+      "href": "/akn/zm/act/2025/27/eng@2025-12-30",
+      "text": "Betting Levy Act, 2025"
+    },
+    {
+      "year": 2025,
+      "num": 26,
+      "href": "/akn/zm/act/2025/26/eng@2025-12-30",
+      "text": "Zambia National Broadcasting Corporation Act, 2025"
+    },
+    {
+      "year": 2025,
+      "num": 25,
+      "href": "/akn/zm/act/2025/25/eng@2025-12-30",
+      "text": "Independent Broadcasting Authority Act, 2025"
+    },
+    {
+      "year": 2025,
+      "num": 24,
+      "href": "/akn/zm/act/2025/24/eng@2025-12-30",
+      "text": "Registration of Business Names (Amendment) Act, 2025"
+    },
+    {
+      "year": 2025,
+      "num": 23,
+      "href": "/akn/zm/act/2025/23/eng@2025-12-30",
+      "text": "Companies (Amendment) Act, 2025"
+    },
+    {
+      "year": 2025,
+      "num": 22,
+      "href": "/akn/zm/act/2025/22/eng@2025-12-30",
+      "text": "Mobile Money Transaction Levy (Amendment) Act, 2025"
+    }
+  ],
+  "parliament_robots_sha256": "278e83bcf567badfebcdea4d5d20ca9898e4449fe4eb2e3b5a08227b4ca9b762",
+  "parliament_robots_match_expected": true,
+  "parliament_page0_acts": [
+    [
+      2025,
+      21
+    ],
+    [
+      2025,
+      22
+    ],
+    [
+      2025,
+      23
+    ],
+    [
+      2025,
+      24
+    ],
+    [
+      2025,
+      25
+    ],
+    [
+      2025,
+      26
+    ],
+    [
+      2025,
+      27
+    ],
+    [
+      2025,
+      28
+    ],
+    [
+      2025,
+      29
+    ],
+    [
+      2026,
+      1
+    ],
+    [
+      2026,
+      2
+    ],
+    [
+      2026,
+      3
+    ],
+    [
+      2026,
+      4
+    ],
+    [
+      2026,
+      5
+    ],
+    [
+      2026,
+      6
+    ],
+    [
+      2026,
+      7
+    ],
+    [
+      2026,
+      8
+    ],
+    [
+      2026,
+      9
+    ],
+    [
+      2026,
+      10
+    ],
+    [
+      2026,
+      11
+    ]
+  ],
+  "on_disk_acts_count": 972,
+  "novel_zambialii_raw": [],
+  "novel_parliament_raw": [],
+  "novel_zambialii_true": [],
+  "novel_parliament_true": [],
+  "tick_end_utc": "2026-04-27T16:33:49Z"
+}
