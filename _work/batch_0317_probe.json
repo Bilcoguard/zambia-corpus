@@ -1,0 +1,77 @@
+{
+    "started_at": "2026-04-28T03:33:27Z",
+    "user_agent": "KateWestonLegal-CorpusBuilder/1.0 (contact: peter@bilcoguard.com)",
+    "checks": [
+        {
+            "kind": "robots",
+            "url": "https://zambialii.org/robots.txt",
+            "sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+            "expected_sha256": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0",
+            "match": true,
+            "bytes": 2022,
+            "saved": "raw/zambialii/_robots/robots-20260428T033327Z.txt"
+        },
+        {
+            "kind": "robots",
+            "url": "https://www.parliament.gov.zm/robots.txt",
+            "sha256": "278e83bcf567badfebcdea4d5d20ca9898e4449fe4eb2e3b5a08227b4ca9b762",
+            "expected_sha256": "278e83bcf567badfebcdea4d5d20ca9898e4449fe4eb2e3b5a08227b4ca9b762",
+            "match": true,
+            "bytes": 2189,
+            "saved": "raw/parliament/_robots/robots-20260428T033333Z.txt"
+        }
+    ],
+    "zambialii_recent": {
+        "url": "https://zambialii.org/legislation/recent",
+        "bytes": 94772,
+        "sha256": "452f6ec2c4d177e306881f24ecc21d17294e09d6e12b4a06059687ad738b0cfa",
+        "act_pairs": [
+            "2025/9",
+            "2025/8",
+            "2025/7",
+            "2025/6",
+            "2025/5",
+            "2025/29",
+            "2025/28",
+            "2025/27",
+            "2025/26",
+            "2025/25",
+            "2025/24",
+            "2025/23",
+            "2025/22"
+        ],
+        "novel_count": 0,
+        "novel_pairs": []
+    },
+    "parliament_page0": {
+        "url": "https://www.parliament.gov.zm/acts-of-parliament",
+        "bytes": 38208,
+        "sha256": "942a12034c9429e54b0a873234ba5cfac6a5835619e421d739a7a5db92d49670",
+        "act_pairs": [
+            "2026/11",
+            "2026/10",
+            "2026/9",
+            "2026/8",
+            "2026/7",
+            "2026/6",
+            "2026/5",
+            "2026/4",
+            "2026/3",
+            "2026/2",
+            "2026/1",
+            "2025/29",
+            "2025/28",
+            "2025/27",
+            "2025/26",
+            "2025/25",
+            "2025/24",
+            "2025/23",
+            "2025/22",
+            "2025/21"
+        ],
+        "novel_count": 0,
+        "novel_pairs": []
+    },
+    "records_on_disk_count": 972,
+    "finished_at": "2026-04-28T03:34:01Z"
+}
