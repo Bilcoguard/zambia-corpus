@@ -3604,3 +3604,6 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 2026-04-28T09:03:51Z  batch 0328: robots SHA match: zambialii fce67b697ee4ef44... (unchanged b0193..b0328), parliament 278e83bcf567badf... (unchanged b0290..b0328).
 2026-04-28T09:03:51Z  batch 0328: Phase 4 appears complete (39th consecutive steady-state tick), awaiting human confirmation.
 2026-04-28T09:03:51Z  batch 0328: budget 72/2000 fetches today -> 76/2000 (~3.8%); B2 sync deferred to host (rclone not available in sandbox).
+2026-04-28T09:04:30Z  [batch-0328] commit af11c8f pushed: fcbdf8a..af11c8f main -> main.
+2026-04-28T09:04:30Z  [batch-0328] tick complete. Yield 0 records (minimal upstream-refresh probe; alphabet sweep skipped — exhaust closed at b0293). Today fetches 72 -> 76/2000 (~3.8%). OCR backlog 21 (unchanged). Phase 4 remains incomplete per approvals.yaml (worker does not flip the flag). Phase 4 appears at upstream steady state for the thirty-ninth consecutive tick (b0290..b0328), awaiting human confirmation. Sandbox notes: parliament TLS chain workaround re-applied; .git lock-file rotation pattern continues to work. Wall-clock ~3 min. zambialii recent feed unchanged vs b0327 (16 pairs, sha 1c1bb006edda...).
+2026-04-28T09:04:30Z  [batch-0328] Phase 4 appears complete, awaiting human confirmation
