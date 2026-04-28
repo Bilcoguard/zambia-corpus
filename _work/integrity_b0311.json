@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "acts==1169",
+      "ok": true,
+      "detail": "got 1169"
+    },
+    {
+      "name": "sis==539",
+      "ok": true,
+      "detail": "got 539"
+    },
+    {
+      "name": "judgments==25",
+      "ok": true,
+      "detail": "got 25"
+    },
+    {
+      "name": "records/_git_clean",
+      "ok": true,
+      "detail": "''"
+    },
+    {
+      "name": "zambialii_novel==0",
+      "ok": true,
+      "detail": "novel pairs: []"
+    },
+    {
+      "name": "parliament_novel==0",
+      "ok": true,
+      "detail": "novel pairs: []"
+    },
+    {
+      "name": "zambialii_robots_match",
+      "ok": true,
+      "detail": "fce67b697ee4ef44e0694134e23108c2701b5e7661eed885013efb9b75dcd8f0"
+    },
+    {
+      "name": "parliament_robots_match",
+      "ok": true,
+      "detail": "278e83bcf567badfebcdea4d5d20ca9898e4449fe4eb2e3b5a08227b4ca9b762"
+    }
+  ]
+}
