@@ -3569,3 +3569,8 @@ WARN: rclone not available in sandbox. B2 raw sync (step 8) skipped for batch 02
 [2026-04-28T07:08:30Z] [batch-0324] commit 6192fb1 pushed: 6c413fb..6192fb1 main -> main.
 [2026-04-28T07:08:30Z] [batch-0324] tick complete. Yield 0 records (minimal upstream-refresh probe; alphabet sweep skipped — exhaust closed at b0293). Today fetches 56 -> 60/2000 (~3.0%). OCR backlog 21 (unchanged). Phase 4 remains incomplete per approvals.yaml (worker does not flip the flag). Phase 4 appears at upstream steady state for the thirty-fifth consecutive tick (b0290..b0324), awaiting human confirmation. Sandbox notes: parliament TLS chain workaround (RapidSSL intermediate appended to certifi bundle — verify=True; no insecure fallback) re-applied; .git lock-file rotation pattern continues to work (mv .lock files to _stale_locks/). Wall-clock ~5 min.
 [2026-04-28T07:08:30Z] [batch-0324] Phase 4 appears complete, awaiting human confirmation
+2026-04-28T07:36:33Z  batch 0325: tick start, lock cleanup ran (benign maintenance.lock rotate to _stale_locks/), git pull ff-only OK.
+2026-04-28T07:36:33Z  batch 0325: phase_4_bulk approved+incomplete; lowest-numbered approved+incomplete.
+2026-04-28T07:36:33Z  batch 0325: probe complete (4 fetches: 2 robots + zambialii recent + parliament page0); novel=0; cumulative invariants PASS.
+2026-04-28T07:36:33Z  batch 0325: Phase 4 appears complete (36th consecutive steady-state tick), awaiting human confirmation.
+2026-04-28T07:36:33Z  batch 0325: budget 64/2000 fetches today (3.2%); B2 sync deferred to host (rclone not available in sandbox).
