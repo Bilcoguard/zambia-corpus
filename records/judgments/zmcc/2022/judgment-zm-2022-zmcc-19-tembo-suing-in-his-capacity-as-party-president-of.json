@@ -1,0 +1,37 @@
+{
+  "id": "judgment-zm-2022-zmcc-19-tembo-suing-in-his-capacity-as-party-president-of",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Tembo (Suing in his capacity as party President of the Patriots for Economic Progress) v Electoral Commission of Zambia (CCZ 2 of 2022) [2022] ZMCC 19 (20 September 2022)",
+  "citation": "[2022] ZMCC 19",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Tembo (Suing in his capacity as party President of the Patriots for Economic Progress) v Electoral Commission of Zambia",
+  "case_number": "CCZ 2 of 2022",
+  "date_decided": "2022-09-20",
+  "judges": [
+    {
+      "name": "Mulongoti",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional procedure",
+    "Electoral law",
+    "Article 52(6) (cancellation of election)",
+    "nomination fees",
+    "Constitutional Court jurisdiction",
+    "pleadings requirement under Order IV Rule 1(2)",
+    "petition must expressly state the constitutional provision alleged to be violated",
+    "skeleton arguments cannot amend deficient pleadings."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Petition dismissed for failure to plead the specific constitutional contravention; Court did not decide whether re-payment of nomination fees was permissible",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "61ced68ba40b2229c90737fa5b4c0a1d837ba116872f5b2d2f2b49f1c3044027",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/19/eng@2022-09-20",
+  "source_hash": "sha256:bbb8f6f8e0f885bf2959eeb565d45d859aea7a0444547f6232ec64e41642df36",
+  "fetched_at": "2026-04-29T20:08:05Z",
+  "parser_version": "0.3.0"
+}
