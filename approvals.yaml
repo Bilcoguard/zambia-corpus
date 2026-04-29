@@ -14,7 +14,8 @@ phases:
     complete: true
   phase_4_bulk:
     approved: true
-    complete: false
+    complete: true
+    completion_note: "Phase 4 complete — 539 SIs ingested, source exhausted after 12 consecutive zero-discovery ticks. Signed off by Peter 2026-04-29."
     batch_size: 50
     priority_order:
       - acts_in_force
