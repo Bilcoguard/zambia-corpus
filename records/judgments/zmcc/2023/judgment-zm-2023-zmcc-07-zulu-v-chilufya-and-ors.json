@@ -1,0 +1,40 @@
+{
+  "id": "judgment-zm-2023-zmcc-07-zulu-v-chilufya-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Zulu v Chilufya and Ors (2022/CCZ/0027) [2023] ZMCC 7 (3 August 2023)",
+  "citation": "[2023] ZMCC 7",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Zulu v Chilufya and Ors",
+  "case_number": "2022/CCZ/0027",
+  "date_decided": "2023-08-03",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional Court jurisdiction; Article 128(1) interpretation jurisdiction; Article 180(4)(c) and (8); mode of commencement—Originating Summons v petition; personalised and contentious constitutional questions; review of Subordinate Court decisions; abuse of court process."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Originating Summons improperly used to raise personalised constitutional issues; matter dismissed for lack of jurisdiction and abuse of process",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "b9d17ee459bd871258058fd930987d722795540a906d779435b5343e8b803136",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/7/eng@2023-08-03",
+  "source_hash": "sha256:2df3e7dcdfa0dd4c9b85ce062402d5554734af0b243f0a4994f9d4d25dd550a7",
+  "fetched_at": "2026-04-29T18:38:14Z",
+  "parser_version": "0.3.0"
+}

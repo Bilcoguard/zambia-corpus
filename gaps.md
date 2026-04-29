@@ -1557,3 +1557,19 @@ written. Re-parse on next parser_version bump.
 - `zmcc 2023/14` — outcome not inferable under v0.3.0; raw on disk; summary head: "Challenge to DC appointments dismissed for lack of evidence and because employment-related claims lie outside Constitutional Court jurisdiction."
 - `zmcc 2023/13` — outcome not inferable under v0.3.0; raw on disk; summary head: "AG not required to prosecute JCC complaints; JCC procedure and President’s suspension/removal of DPP were lawful."
 - `zmcc 2023/12` — outcome not inferable under v0.3.0; raw on disk; summary head: "Article 165 is prospective; Constitutional Court lacks jurisdiction to decide ordinary chieftaincy succession disputes."
+
+## batch-0354 (Phase 5 ZMCC 2023 sweep continuation, 2026-04-29)
+
+ZMCC 2023 numbering gaps confirmed via dedicated 404 probes:
+
+- `zmcc 2023/11` — **HTTP 404 at source** (number not assigned upstream). Hard gap, not retried.
+- `zmcc 2023/9`  — **HTTP 404 at source** (number not assigned upstream). Hard gap, not retried.
+
+Six ZMCC 2023 candidates deferred under `outcome_not_inferable_under_tightened_policy` (parser_version 0.3.0). Raw HTML+PDF on disk under `raw/zambialii/judgments/zmcc/2023/`. No re-fetch needed when the parser is widened (a `parser_version` bump).
+
+- `zmcc 2023/10` — outcome not inferable under v0.3.0; raw on disk; summary head: "Court held no mandatory advertising of judicial vacancies but requires human rights or constitutional law training/experience for Constitutional Court judges."
+- `zmcc 2023/8` — outcome not inferable under v0.3.0; raw on disk; summary head: "Retirement in national interest triggers Article 189 protections; payroll-based allowances payable, but NAPSA eligibility rules remain valid."
+- `zmcc 2023/6` — outcome not inferable under v0.3.0; raw on disk; summary head: "Court finds State has not fully implemented judicial financial autonomy but declines to void transitional emoluments provisions."
+- `zmcc 2023/5` — outcome not inferable under v0.3.0; raw on disk; summary head: "Article 52(6) does not permit independent candidates to withdraw after nominations; ECZ cancels only for party candidate resignation, death or disqualification."
+- `zmcc 2023/4` — outcome not inferable under v0.3.0; raw on disk; summary head: "Local authorities qualify as "persons" under Article 266; Article 160 mandates one‑year immunity against enforcement; other issues non‑constitutional."
+- `zmcc 2023/3` — outcome not inferable under v0.3.0; raw on disk; summary head: "Whether vacancies caused by nullification of an election fall within Article 72(4)'s ban on re-contesting during that Parliament."

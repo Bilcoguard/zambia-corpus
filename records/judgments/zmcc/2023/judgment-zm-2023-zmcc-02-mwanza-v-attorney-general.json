@@ -1,0 +1,36 @@
+{
+  "id": "judgment-zm-2023-zmcc-02-mwanza-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mwanza v Attorney General (CCZ 9 of 2022) [2023] ZMCC 2 (2 March 2023)",
+  "citation": "[2023] ZMCC 2",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Mwanza v Attorney General",
+  "case_number": "CCZ 9 of 2022",
+  "date_decided": "2023-03-02",
+  "judges": [
+    {
+      "name": "Mulongoti",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Institutional independence",
+    "Executive utterances vs written instructions (Article 93)",
+    "Director of Public Prosecutions’ independence (Article 180(7))",
+    "Independence of commissions (Article 216)",
+    "JCC procedure and recusal",
+    "DEC capacity to complain."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Presidential and ministerial statements were opinions, not written instructions, and did not constitute unconstitutional interference; petition dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "97bec310a490074faee14353a9fed2743457f971057d8d693b77b1d4e7d47c6d",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/2/eng@2023-03-02",
+  "source_hash": "sha256:326abcac064b91962d494ae790d66785d72f2ab94be015d87295b8c0f7d2f3bb",
+  "fetched_at": "2026-04-29T18:38:20Z",
+  "parser_version": "0.3.0"
+}
