@@ -45,6 +45,9 @@ judges:
   - title: JCC
     first_seen_in: judgment-zm-2026-zmcc-02-morgan-ng-ona-suing-as-secretary-general-of-the-pa
     first_seen_at: '2026-04-29T13:35:39Z'
+  - title: JJC
+    first_seen_in: judgment-zm-2025-zmcc-13-issac-mwanza-and-anor-v-the-attorney-general-and-o
+    first_seen_at: '2026-04-29T14:39:13Z'
   aliases:
   - Mulife JJC
   - Mulife JCC
@@ -65,9 +68,13 @@ judges:
   - title: J
     first_seen_in: judgment-zm-2025-zmcc-31-munir-zulu-and-anor-v-attorney-general-and-ors
     first_seen_at: '2026-04-29T14:08:31Z'
+  - title: JJC
+    first_seen_in: judgment-zm-2025-zmcc-13-issac-mwanza-and-anor-v-the-attorney-general-and-o
+    first_seen_at: '2026-04-29T14:39:13Z'
   aliases:
   - Mulongoti JCC
   - Lady Justice J.Z Mulongoti
+  - Mulongoti JJC
   first_seen: '2026-04-29T13:10:17Z'
 - canonical_name: Mulongoti JJC
   titles:
@@ -90,8 +97,12 @@ judges:
   - title: JCC
     first_seen_in: judgment-zm-2026-zmcc-09-legal-resources-foundation-limited-v-the
     first_seen_at: '2026-04-29T13:10:17Z'
+  - title: JJC
+    first_seen_in: judgment-zm-2025-zmcc-13-issac-mwanza-and-anor-v-the-attorney-general-and-o
+    first_seen_at: '2026-04-29T14:39:13Z'
   aliases:
   - Musaluke JCC
+  - Musaluke JJC
   first_seen: '2026-04-29T13:10:17Z'
 - canonical_name: Musaluke JJC
   titles:

@@ -4948,3 +4948,20 @@
 2026-04-29T14:27:57Z  batch-0345  fetches=2  url=https://zambialii.org/akn/zm/judgment/zmcc/2025/20/eng@2025-10-03  context=zmcc_2025_sweep_slice_19_to_26
 2026-04-29T14:27:57Z  batch-0345  fetches=2  url=https://zambialii.org/akn/zm/judgment/zmcc/2025/19/eng@2025-09-30  context=zmcc_2025_sweep_slice_19_to_26
 2026-04-29T14:27:57Z  batch-0345  fetches=16  records_written=2  records_deferred=6  cumulative_today=94/2000  reason=zmcc_2025_sweep_slice_19_to_26_tightened_parser_v0.3.0
+{"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/18/eng@2025-09-30", "bytes": 50273, "batch": "0346", "kind": "judgment-html"}
+{"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/18/eng@2025-09-30/source.pdf", "bytes": 8258355, "batch": "0346", "kind": "judgment-pdf"}
+{"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/17/eng@2025-08-27", "bytes": 51252, "batch": "0346", "kind": "judgment-html"}
+{"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/17/eng@2025-08-27/source.pdf", "bytes": 8315484, "batch": "0346", "kind": "judgment-pdf"}
+{"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/16/eng@2025-08-25", "bytes": 45654, "batch": "0346", "kind": "judgment-html"}
+{"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/16/eng@2025-08-25/source.pdf", "bytes": 2573132, "batch": "0346", "kind": "judgment-pdf"}
+{"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/15/eng@2025-07-23", "bytes": 48706, "batch": "0346", "kind": "judgment-html"}
+{"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/15/eng@2025-07-23/source.pdf", "bytes": 2844505, "batch": "0346", "kind": "judgment-pdf"}
+{"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/14/eng@2025-07-28", "bytes": 47805, "batch": "0346", "kind": "judgment-html"}
+{"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/14/eng@2025-07-28/source.pdf", "bytes": 16433359, "batch": "0346", "kind": "judgment-pdf"}
+{"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/13/eng@2025-07-25", "bytes": 46469, "batch": "0346", "kind": "judgment-html"}
+{"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/13/eng@2025-07-25/source.pdf", "bytes": 7080011, "batch": "0346", "kind": "judgment-pdf"}
+{"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/12/eng@2025-06-27", "bytes": 48050, "batch": "0346", "kind": "judgment-html"}
+{"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/12/eng@2025-06-27/source.pdf", "bytes": 40025254, "batch": "0346", "kind": "judgment-pdf"}
+{"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/11/eng@2025-06-19", "bytes": 45358, "batch": "0346", "kind": "judgment-html"}
+{"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/11/eng@2025-06-19/source.pdf", "bytes": 3873900, "batch": "0346", "kind": "judgment-pdf"}
+2026-04-29T14:41:04Z  batch-0346  fetches=16  records_written=1  records_deferred=7  cumulative_today=110/2000  reason=zmcc_2025_sweep_slice_11_to_18_parser_v0.3.0

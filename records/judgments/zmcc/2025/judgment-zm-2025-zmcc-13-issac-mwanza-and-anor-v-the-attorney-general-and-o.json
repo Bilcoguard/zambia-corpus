@@ -1,0 +1,63 @@
+{
+  "id": "judgment-zm-2025-zmcc-13-issac-mwanza-and-anor-v-the-attorney-general-and-o",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Issac Mwanza and Anor v The Attorney General and Ors (2024/CCZ/008) [2025] ZMCC 13 (25 July 2025)",
+  "citation": "[2025] ZMCC 13",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Issac Mwanza and Anor v The Attorney General and Ors",
+  "case_number": "2024/CCZ/008",
+  "date_decided": "2025-07-25",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional jurisdiction",
+    "Article 128 subject to Article 28",
+    "Bill of Rights jurisdiction lies first with the High Court; criminalisation of 'unnatural' sex",
+    "vagueness, overbreadth and discrimination challenges; national values (Article 8) not independently justiciable."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Constitutional Court lacked proper forum for Bill of Rights challenge to Penal Code; petition dismissed and costs borne by parties",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "4e924e2fa7f300e3d3d946b06dd5d12bc305c15384b28ec794224ff1e9cbf327",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/13/eng@2025-07-25",
+  "source_hash": "sha256:4275850abfeb2785d84d795b2a4cf5e07444d6645837f1e27836ea82e49fbae4",
+  "fetched_at": "2026-04-29T14:39:11Z",
+  "parser_version": "0.3.0"
+}
