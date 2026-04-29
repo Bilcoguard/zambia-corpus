@@ -1578,3 +1578,23 @@ Six ZMCC 2023 candidates deferred under `outcome_not_inferable_under_tightened_p
 - `zmcc 2022/32` — outcome not inferable under v0.3.0; raw on disk; summary head: "A renewed application from a single-judge ruling must be by summons; improperly commenced motion dismissed, corrected record ordered."
 - `zmcc 2022/31` — outcome not inferable under v0.3.0; raw on disk; summary head: "Court refused to interpret Article 52(6) because the applicant’s challenge was speculative, academic and lacked a factual cause of action."
 - `zmcc 2022/30` — outcome not inferable under v0.3.0; raw on disk; summary head: "Joinder refused where applicant failed to show the proposed party had sufficient interest or nexus to the constitutional petition."
+
+## Batch 0358 deferrals (2026-04-29)
+
+Slice: ZMCC 2022/{11..4} — 8 candidates, all DEFERRED under
+`outcome_not_inferable_under_tightened_policy` (parser_version 0.3.0).
+Raw HTML+PDF retained on disk in raw/zambialii/judgments/zmcc/2022/.
+
+  * 2022/11 — Chisanga & Anor v Electoral Commission of Zambia (2022-05-16)
+  * 2022/10 — Lungu v Attorney General & Ors (2022-05-19)
+  * 2022/09 — Tembo (party president) (2022-03-14)
+  * 2022/08 — Kafwaya v Katonga & Ors (2022-04-13)
+  * 2022/07 — Law Association of Zambia v Attorney General (2022-03-22)
+  * 2022/06 — Malanji v Mulenga & Anor (2022-02-24)
+  * 2022/05 — Moyo v Attorney General (2022-02-28)
+  * 2022/04 — Chapter One Foundation Ltd v Attorney General (2022-02-25)
+
+Reason: each summary frames the constitutional / legal question without
+matching a top-level disposition regex. Per BRIEF.md non-negotiable #1
+(no fabrication), no record written. Will be re-considered if the
+parser policy is loosened or a higher-version parser is adopted.
