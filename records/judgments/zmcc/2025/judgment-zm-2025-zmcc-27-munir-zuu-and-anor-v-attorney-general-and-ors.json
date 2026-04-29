@@ -1,0 +1,33 @@
+{
+  "id": "judgment-zm-2025-zmcc-27-munir-zuu-and-anor-v-attorney-general-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Munir Zuu and Anor v Attorney General and Ors (2025/CCZ/009) [2025] ZMCC 27 (5 December 2025)",
+  "citation": "[2025] ZMCC 27",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Munir Zuu and Anor v Attorney General and Ors",
+  "case_number": "2025/CCZ/009",
+  "date_decided": "2025-12-05",
+  "judges": [
+    {
+      "name": "Mulongoti",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Practice and procedure",
+    "Conflict of interest",
+    "Rule 33(1)(f) & (g) Legal Practitioners' Practice Rules",
+    "Disqualification of counsel requires evidence of confidential information relevant to the new matter and a real risk of prejudice; mere employment or listing on letterhead insufficient."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Court dismissed application to disqualify petitioners' counsel for alleged conflict absent evidence of confidential information or real prejudice",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "e394d8f735b649850de0f0d5930f486784552191344c86fed0ad7d68f8584f01",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/27/eng@2025-12-05",
+  "source_hash": "sha256:24c33ca10ce4580c7828382149ec423f80dd5c5f7bb3b87671dca88b26a62669",
+  "fetched_at": "2026-04-29T14:08:31Z",
+  "parser_version": "0.3.0"
+}

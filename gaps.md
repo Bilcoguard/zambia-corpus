@@ -1360,3 +1360,80 @@ the next tick can rerun the parser-only step against the persisted bytes once
 the inference policy is tightened. The buggy first-pass record JSONs were
 moved to `_stale_b0343_bad_records/` (untracked) before this commit so the
 corpus does not contain any of the unsafe inferences.
+
+## 2026-04-29 — batch 0344 — Phase 5 ZMCC re-parse (tightened policy)
+
+Re-parsed the 8 ZMCC raw HTML+PDF pairs persisted at b0343 using a tightened
+disposition policy (`scripts/batch_0344_parse.py`, `parser_version: 0.3.0`).
+3 ingested from summary text alone; 5 deferred because the summary describes
+a holding/issue without an enum-mappable disposition phrase AND no eligible
+PDF order anchor match was found within the strict 800-char window.
+
+**Ingested (3) — moves Phase 5 from 9 → 12 / 100–160 target:**
+
+- **[2025] ZMCC 27** (Munir Zuu and Anor v Attorney General and Ors,
+  2025/CCZ/009, 2025-12-05) — `dismissed` from summary "Court dismissed
+  application to disqualify petitioners' counsel for alleged conflict
+  absent evidence of confidential information or real prejudice." Single
+  judge: Mulongoti.
+
+- **[2025] ZMCC 29** (Law Association of Zambia and Ors v Attorney General,
+  2025/CCZ/0029, 2025-12-08) — `allowed` from summary "Court granted
+  joinder to two intended interested parties, holding standing rules broad
+  and persons may appear in person." Single judge: Kawimbe (alias added:
+  HON. LADY JUSTICE MARIA MAPANI - KAWIMBE).
+
+- **[2025] ZMCC 31** (Munir Zulu and Anor v Attorney General and Ors,
+  2025/CCZ/009, 2025-12-10) — `dismissed` from summary "Application for
+  contempt dismissed for being procedurally misconceived for failing to
+  invoke a proper rule or authority." Single judge: Mulongoti (alias added:
+  Lady Justice J.Z Mulongoti).
+
+**Deferred (5) — raw on disk, awaiting either hand-anchored PDF order
+paragraph or further summary-pattern extension:**
+
+- **[2026] ZMCC 1** (Tresford Chali v Judicial Complaints Commission,
+  2024/CCZ/0019, 2026-01-20): summary describes the holding only — "A
+  challenge to the JCC's report and removals must proceed by judicial
+  review in the High Court, not by original petition here." No disposition
+  phrase. PDF lacks an order-anchor match within window. DEFER.
+
+- **[2025] ZMCC 33** (Miles Bwalya Sampa v Attorney General, 2024/CCZ/0024,
+  2025-12-18): summary describes ratio (subscription vs. State equity
+  disposal under Article 210); no disposition phrase. DEFER.
+
+- **[2025] ZMCC 32** (Law Association of Zambia v Attorney General,
+  2025/CCZ/0029, 2025-12-16): summary describes the procedural holding
+  ("Renewal before the full Court is the proper route to challenge a
+  single judge's interlocutory ruling; late conservatory relief denied").
+  Phrase "conservatory relief denied" reads as a disposition but is not
+  in the current enum mapping; rather than fabricate, DEFER.
+
+- **[2025] ZMCC 30** (Legal Resources Foundation v Attorney General,
+  2025/CCZ/0021, 2025-12-11): summary is a question of law ("Whether the
+  applicant proved a prima facie constitutional breach and irreparable
+  harm to justify staying judicial appointments"). DEFER.
+
+- **[2025] ZMCC 28** (Brian Mundubile v Hakainde Hichilema, 2025/CCZ/0026,
+  2025-12-05): summary describes the holding ("constitutional challenges
+  implicating the President must proceed against the Attorney-General;
+  the President has immunity from personal civil suits"). No disposition
+  phrase. DEFER.
+
+The four buggy first-pass record JSONs from b0343 remain in
+`_stale_b0343_bad_records/` (untracked, not in the corpus). They will not
+be re-introduced; b0344 records are written fresh from raw bytes.
+
+Parser-tightening summary (locked at parser_version 0.3.0):
+- PRIMARY source for outcome: ZambiaLII summary `<dd>` block, with
+  patterns extended to include `Court dismissed`, `Court (allowed|
+  granted|upheld|overturned)`, `Application for <X> dismissed`,
+  `joinder granted` / `Court granted joinder`.
+- SECONDARY source: PDF order-anchor matches only (anchor list locked,
+  800-char window).
+- pdf-tail and pdf-full sweeps removed.
+- Soft anchors ("for the foregoing", "in conclusion", "we conclude",
+  "accordingly,") rejected outright.
+- outcome_detail safety guards: word-boundary start, ≥12 chars alphabetic
+  content, no cross-reference markers (`case supra`, ` supra`, `another v
+  `, `Generall4l`, `Mulonda`).

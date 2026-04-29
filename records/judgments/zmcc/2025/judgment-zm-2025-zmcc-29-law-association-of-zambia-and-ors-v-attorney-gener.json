@@ -1,0 +1,35 @@
+{
+  "id": "judgment-zm-2025-zmcc-29-law-association-of-zambia-and-ors-v-attorney-gener",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Law Association of Zambia and Ors v Attorney General and Ors (2025/CCZ/0029) [2025] ZMCC 29 (8 December 2025)",
+  "citation": "[2025] ZMCC 29",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Law Association of Zambia and Ors v Attorney General and Ors",
+  "case_number": "2025/CCZ/0029",
+  "date_decided": "2025-12-08",
+  "judges": [
+    {
+      "name": "Kawimbe",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional procedure",
+    "joinder of interested parties",
+    "Order V r.6 and Rule 2 CCR",
+    "standing: identifiable legal interest, stake, or duty",
+    "persons and associations may appear in person",
+    "prematurity not fatal where no answer filed."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "Court granted joinder to two intended interested parties, holding standing rules broad and persons may appear in person",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "23c1672dc957d6b318fa65b02ce1201ec3822f4aa13f0036decd09487cf10649",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/29/eng@2025-12-08",
+  "source_hash": "sha256:2b4721fc7eee66ca3f18b11eda5f9611d1f790edc99d2fb1d36629a1571947e7",
+  "fetched_at": "2026-04-29T14:08:29Z",
+  "parser_version": "0.3.0"
+}

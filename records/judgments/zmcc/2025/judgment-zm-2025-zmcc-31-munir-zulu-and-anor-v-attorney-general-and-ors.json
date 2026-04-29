@@ -1,0 +1,36 @@
+{
+  "id": "judgment-zm-2025-zmcc-31-munir-zulu-and-anor-v-attorney-general-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Munir Zulu and Anor v Attorney  General and Ors (2025/CCZ/009) [2025] ZMCC 31 (10 December 2025)",
+  "citation": "[2025] ZMCC 31",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Munir Zulu and Anor v Attorney  General and Ors",
+  "case_number": "2025/CCZ/009",
+  "date_decided": "2025-12-10",
+  "judges": [
+    {
+      "name": "Mulongoti",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional Court",
+    "contempt proceedings",
+    "interlocutory application",
+    "Order 9 Rule 20(1) only prescribes mode of commencement",
+    "must invoke specific rule or statutory authority",
+    "interlocutory relief inappropriate after final determination",
+    "procedural misconceived application dismissed."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Application for contempt dismissed for being procedurally misconceived for failing to invoke a proper rule or authority",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "cb78b6d2bb2d23617e57cd5a718a9ac9437c8936c9d289023d39f22677736876",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/31/eng@2025-12-10",
+  "source_hash": "sha256:76ea7906017829d47d59a841f299cea083e1c5c2e0fffda640095bcc5afca0e5",
+  "fetched_at": "2026-04-29T14:08:28Z",
+  "parser_version": "0.3.0"
+}
