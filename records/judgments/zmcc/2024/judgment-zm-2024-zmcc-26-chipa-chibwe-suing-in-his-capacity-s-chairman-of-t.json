@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2024-zmcc-26-chipa-chibwe-suing-in-his-capacity-s-chairman-of-t",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Chipa Chibwe  (Suing in his capacity s Chairman of the Outdoor Advertising Association of Zambia) v Lusaka City Council (2024/CCZ/007) [2024] ZMCC 26 (5 November 2024)",
+  "citation": "[2024] ZMCC 26",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Chipa Chibwe  (Suing in his capacity s Chairman of the Outdoor Advertising Association of Zambia) v Lusaka City Council",
+  "case_number": "2024/CCZ/007",
+  "date_decided": "2024-11-05",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Civil procedure",
+    "Extension of time under Order XV, rule 7 CCR",
+    "Discretionary relief for filing out of time",
+    "Inadvertent misunderstanding of orally pronounced date as sufficient ground",
+    "Consideration of promptness and prejudice",
+    "Costs not awarded."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "Court granted extension to file a reply, finding an inadvertent date misunderstanding and no prejudice to the applicant",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "9e79f22b5327bd2197b482b76c451cdf508492185e98f72f4554fe6686f02fcf",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/26/eng@2024-11-05",
+  "source_hash": "sha256:0658d815ab31107fdc1597d58de160c2460a2baec4fa12d4f764a128dc4bcc5d",
+  "fetched_at": "2026-04-29T15:39:05Z",
+  "parser_version": "0.3.0"
+}

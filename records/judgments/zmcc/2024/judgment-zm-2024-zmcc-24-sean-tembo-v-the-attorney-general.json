@@ -1,0 +1,55 @@
+{
+  "id": "judgment-zm-2024-zmcc-24-sean-tembo-v-the-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Sean Tembo v The Attorney General (2023/CCZ/0026) [2024] ZMCC 24 (11 November 2024)",
+  "citation": "[2024] ZMCC 24",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Sean Tembo v The Attorney General",
+  "case_number": "2023/CCZ/0026",
+  "date_decided": "2024-11-11",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "alleged insulting public language by President",
+    "contextual interpretation of indigenous language",
+    "proof required to show constitutional breach",
+    "petitions lacking contextual evidence may be dismissed as frivolous and vexatious",
+    "costs awarded."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Context determines whether an indigenous word is insulting; contextual evidence lacking, petition dismissed and costs awarded",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "44530fe84d6ec097ad703109586ec030049655473bebf5af0ce9b6bdeb7622d7",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/24/eng@2024-11-11",
+  "source_hash": "sha256:ea4db97716eade3ad1d3185af9cf43eb778c782ae835efa697d72e16378485c3",
+  "fetched_at": "2026-04-29T15:39:06Z",
+  "parser_version": "0.3.0"
+}

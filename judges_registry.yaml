@@ -48,9 +48,13 @@ judges:
   - title: JJC
     first_seen_in: judgment-zm-2025-zmcc-13-issac-mwanza-and-anor-v-the-attorney-general-and-o
     first_seen_at: '2026-04-29T14:39:13Z'
+  - title: JC
+    first_seen_in: judgment-zm-2024-zmcc-26-chipa-chibwe-suing-in-his-capacity-s-chairman-of-t
+    first_seen_at: '2026-04-29T15:39:07Z'
   aliases:
   - Mulife JJC
   - Mulife JCC
+  - Mulife JC
   first_seen: '2026-04-29T13:35:39Z'
 - canonical_name: Mulife JJC
   titles:
@@ -60,6 +64,14 @@ judges:
   aliases:
   - Mulife JJC
   first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Mulonda
+  titles:
+  - title: JJC
+    first_seen_in: judgment-zm-2024-zmcc-24-sean-tembo-v-the-attorney-general
+    first_seen_at: '2026-04-29T15:39:07Z'
+  aliases:
+  - Mulonda JJC
+  first_seen: '2026-04-29T15:39:07Z'
 - canonical_name: Mulongoti
   titles:
   - title: JCC

@@ -1474,3 +1474,19 @@ All raw HTML+PDF persisted under `raw/zambialii/judgments/zmcc/2025/`. Deferrals
 - [2025] ZMCC 6 — Miles Bwalya Sampa v AG (2025-03-24) — 'denied' not on enum
 - [2025] ZMCC 5 — Miza Phiri Jr v Mwanza & Ors (2025-03-24) — procedural ratio, no enum verb
 - [2025] ZMCC 3 — Petrushika Trading v AG (2025-03-06) — verb 'dismissed' present but subject 'Challenge' is not in locked SUMMARY_PATTERNS subject vocabulary; not loosened mid-tick
+
+## 2026-04-29 batch-0348 deferrals (parser_version 0.3.0)
+
+Targeted ZMCC 2025/{2,1} + ZMCC 2024/{27,26,25,24,23,22}.
+Records written: 2 (judgment-zm-2024-zmcc-26-chipa-chibwe-suing-in-his-capacity-s-chairman-of-t, judgment-zm-2024-zmcc-24-sean-tembo-v-the-attorney-general).
+Deferred: 6 (all 'outcome_not_inferable_under_tightened_policy').
+
+All raw HTML+PDF persisted under `raw/zambialii/judgments/zmcc/{2024,2025}/`.
+Deferrals to be revisited once the parser supports hand-anchored PDF order paragraphs or the locked SUMMARY_PATTERNS subject vocabulary is widened (parser_version bump).
+
+- [2025] ZMCC 2 — https://zambialii.org/akn/zm/judgment/zmcc/2025/2/eng@2025-02-06 — outcome_not_inferable_under_tightened_policy; summary head: Constitutional values alone do not found Constitutional Court jurisdiction; a specific constitutional question is required.
+- [2025] ZMCC 1 — https://zambialii.org/akn/zm/judgment/zmcc/2025/1/eng@2025-02-13 — outcome_not_inferable_under_tightened_policy; summary head: Applicants who retired before 2016 cannot rely on Article 189; their pension disputes against respondent are private law matters.
+- [2024] ZMCC 27 — https://zambialii.org/akn/zm/judgment/zmcc/2024/27/eng@2024-12-10 — outcome_not_inferable_under_tightened_policy; summary head: Whether transitional savings preserved the repealed term‑limit regime, rendering the former president ineligible for future presidential elections.
+- [2024] ZMCC 25 — https://zambialii.org/akn/zm/judgment/zmcc/2024/25/eng@2024-11-13 — outcome_not_inferable_under_tightened_policy; summary head: Originating summons for abstract interpretation of Article 74(2) dismissed as the dispute is personalized, contentious and requires trial.
+- [2024] ZMCC 23 — https://zambialii.org/akn/zm/judgment/zmcc/2024/23/eng@2024-10-29 — outcome_not_inferable_under_tightened_policy; summary head: An interim stay cannot be granted where the presidential suspension has already been implemented; single judge declined to decide standing.
+- [2024] ZMCC 22 — https://zambialii.org/akn/zm/judgment/zmcc/2024/22/eng@2024-10-15 — outcome_not_inferable_under_tightened_policy; summary head: Constitutional electoral timelines (90‑day by‑election; 7/21‑day nomination challenge) are mandatory and cannot be extended by court proceedings.
