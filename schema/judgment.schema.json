@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://kateweston.legal/schemas/judgment.schema.json",
+  "x-corpus-schema-version": "0.2.0",
+  "title": "Zambian Authorities Corpus — Judgment Record (Phase 5)",
+  "description": "Locked at Phase 5 kick-off (2026-04-29). Extends record.schema.json for type=judgment.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id", "type", "jurisdiction", "title", "citation",
+    "court", "case_name", "case_number", "date_decided",
+    "judges", "issue_tags", "outcome", "outcome_detail",
+    "reasoning_tags", "key_statutes", "raw_sha256",
+    "source_url", "source_hash", "fetched_at", "parser_version"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^judgment-zm-[a-z0-9-]+$" },
+    "type": { "const": "judgment" },
+    "jurisdiction": { "const": "ZM" },
+    "title": { "type": "string", "minLength": 1 },
+    "citation": { "type": "string", "minLength": 1 },
+    "court": {
+      "type": "string",
+      "enum": [
+        "Constitutional Court of Zambia",
+        "Supreme Court of Zambia",
+        "Court of Appeal of Zambia",
+        "High Court of Zambia",
+        "Industrial Relations Court of Zambia"
+      ]
+    },
+    "case_name": { "type": "string", "minLength": 1 },
+    "case_number": { "type": "string", "minLength": 1 },
+    "date_decided": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "judges": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "role", "dissented"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "role": {
+            "type": "string",
+            "enum": ["presiding", "concurring", "dissenting", "partial-concurring", "partial-dissenting"]
+          },
+          "dissented": { "type": "boolean" }
+        }
+      }
+    },
+    "issue_tags": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "outcome": {
+      "type": "string",
+      "enum": ["allowed", "dismissed", "upheld", "overturned", "remitted", "struck-out", "withdrawn"]
+    },
+    "outcome_detail": { "type": "string", "minLength": 1 },
+    "reasoning_tags": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "key_statutes": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "raw_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "source_url": { "type": "string", "format": "uri" },
+    "source_hash": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$" },
+    "fetched_at": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$" },
+    "parser_version": { "type": "string", "minLength": 1 }
+  }
+}

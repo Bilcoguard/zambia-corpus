@@ -1,0 +1,60 @@
+{
+  "id": "judgment-zm-2026-zmcc-05-makebi-zulu-v-the-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Makebi Zulu v The Attorney General (2025/CCZ/0032) [2026] ZMCC 5 (11 February 2026)",
+  "citation": "[2026] ZMCC 5",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Makebi Zulu v The Attorney General",
+  "case_number": "2025/CCZ/0032",
+  "date_decided": "2026-02-11",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe JJC",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional Court practice — discontinuance/withdrawal — Order X rule 3 mandatory — consent summons/Practice Direction No.11 inapplicable — notice and service — full Court where cause-listed — costs and public interest."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Discontinuance of constitutional petitions must follow Order X rule 3; consent summons under Practice Direction 11 is impermissible.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "ff09ab3968f9f54a91513e2c742190d9611d8eb947a97ef7bbefdb0251536a90",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2026/5/eng@2026-02-11",
+  "source_hash": "sha256:8eede744c964b35ce1ddf778abc6aa07b6e1df1f842a876436c7a3c27edcfefc",
+  "fetched_at": "2026-04-29T13:11:01Z",
+  "parser_version": "0.2.0"
+}

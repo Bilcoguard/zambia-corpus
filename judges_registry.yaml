@@ -1,0 +1,105 @@
+judges:
+- canonical_name: Chisunka
+  titles:
+  - title: JCC
+    first_seen_in: judgment-zm-2026-zmcc-09-legal-resources-foundation-limited-v-the
+    first_seen_at: '2026-04-29T13:10:17Z'
+  aliases:
+  - Chisunka JCC
+  first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Chisunka JJC
+  titles:
+  - title: J.
+    first_seen_in: judgment-zm-2026-zmcc-04-brigade-construction-limited-and-ors-v-t
+    first_seen_at: '2026-04-29T13:10:17Z'
+  aliases:
+  - Chisunka JJC
+  first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Kawimbe
+  titles:
+  - title: JCC
+    first_seen_in: judgment-zm-2026-zmcc-09-legal-resources-foundation-limited-v-the
+    first_seen_at: '2026-04-29T13:10:17Z'
+  aliases:
+  - Kawimbe JCC
+  first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Kawimbe JJC
+  titles:
+  - title: J.
+    first_seen_in: judgment-zm-2026-zmcc-08-munir-zulu-v-the-attorney-general-and-or
+    first_seen_at: '2026-04-29T13:10:17Z'
+  aliases:
+  - Kawimbe JJC
+  first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Mulife JJC
+  titles:
+  - title: J.
+    first_seen_in: judgment-zm-2026-zmcc-08-munir-zulu-v-the-attorney-general-and-or
+    first_seen_at: '2026-04-29T13:10:17Z'
+  aliases:
+  - Mulife JJC
+  first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Mulongoti
+  titles:
+  - title: JCC
+    first_seen_in: judgment-zm-2026-zmcc-09-legal-resources-foundation-limited-v-the
+    first_seen_at: '2026-04-29T13:10:17Z'
+  aliases:
+  - Mulongoti JCC
+  first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Mulongoti JJC
+  titles:
+  - title: J.
+    first_seen_in: judgment-zm-2026-zmcc-10-people-s-action-for-the-country-s-transf
+    first_seen_at: '2026-04-29T13:11:01Z'
+  aliases:
+  - Mulongoti JJC
+  first_seen: '2026-04-29T13:11:01Z'
+- canonical_name: Munalula
+  titles:
+  - title: PC
+    first_seen_in: judgment-zm-2026-zmcc-09-legal-resources-foundation-limited-v-the
+    first_seen_at: '2026-04-29T13:10:17Z'
+  aliases:
+  - Munalula PC
+  first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Musaluke
+  titles:
+  - title: JCC
+    first_seen_in: judgment-zm-2026-zmcc-09-legal-resources-foundation-limited-v-the
+    first_seen_at: '2026-04-29T13:10:17Z'
+  aliases:
+  - Musaluke JCC
+  first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Musaluke JJC
+  titles:
+  - title: J.
+    first_seen_in: judgment-zm-2026-zmcc-08-munir-zulu-v-the-attorney-general-and-or
+    first_seen_at: '2026-04-29T13:10:17Z'
+  aliases:
+  - Musaluke JJC
+  first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Mwandenga
+  titles:
+  - title: JCC
+    first_seen_in: judgment-zm-2026-zmcc-09-legal-resources-foundation-limited-v-the
+    first_seen_at: '2026-04-29T13:10:17Z'
+  aliases:
+  - Mwandenga JCC
+  first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Mwandenga JJC
+  titles:
+  - title: J.
+    first_seen_in: judgment-zm-2026-zmcc-08-munir-zulu-v-the-attorney-general-and-or
+    first_seen_at: '2026-04-29T13:10:17Z'
+  aliases:
+  - Mwandenga JJC
+  first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Shilimi
+  titles:
+  - title: DPC
+    first_seen_in: judgment-zm-2026-zmcc-09-legal-resources-foundation-limited-v-the
+    first_seen_at: '2026-04-29T13:10:17Z'
+  aliases:
+  - Shilimi DPC
+  first_seen: '2026-04-29T13:10:17Z'

@@ -1,0 +1,60 @@
+{
+  "id": "judgment-zm-2026-zmcc-10-people-s-action-for-the-country-s-transf",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "People's Action for the Country's Transformation v Electoral Commission of Zambia and Anor (2026/CCZ/001) [2026] ZMCC 10 (30 March 2026)",
+  "citation": "[2026] ZMCC 10",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "People's Action for the Country's Transformation v Electoral Commission of Zambia and Anor",
+  "case_number": "2026/CCZ/001",
+  "date_decided": "2026-03-30",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife JJC",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law — delimitation of constituencies — Article 58(7) special review mechanism; delimitation need not precede voter registration; Act No.13/2025 increases constituencies; ripeness/prematurity of constitutional challenges; independence of Electoral Management Body"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Challenge to sequencing of delimitation and voter registration dismissed; delimitation disputes governed by Article 58(7) and no required sequence exists.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "b5b6fbf0313d24c78d0fad37b1f252cca3f4b1c76f1e4ccca8da3d7a46d134ed",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2026/10/eng@2026-03-30",
+  "source_hash": "sha256:160a5b77d56e5164cd3861cf00bda19c129547f51f3729d42703ac3d64cf91d6",
+  "fetched_at": "2026-04-29T13:11:01Z",
+  "parser_version": "0.2.0"
+}

@@ -1246,3 +1246,20 @@ through 2026/11. Every priority_order sub-phase confirmed at upstream
 steady state for the requests + beautifulsoup4 + pdfplumber toolset.
 
 No new gaps introduced. No records written.
+
+## 2026-04-29 — batch 0341 — Phase 5 kickoff (ZMCC judgments)
+
+The following ConCourt 2026 judgments were fetched but deferred from this batch
+because the ZambiaLII summary text alone does not contain a disposition phrase
+mappable to the locked Phase 5 outcome enum (`allowed | dismissed | upheld |
+overturned | remitted | struck-out | withdrawn`). No fabrication: the records
+are not written. Re-attempt next tick by reading the order paragraph from the
+PDF body (pdfplumber).
+
+- [2026] ZMCC 7 — Climate Action Professionals Zambia v Attorney General (2025/CCZ/0025)
+  — https://zambialii.org/akn/zm/judgment/zmcc/2026/7/eng@2026-03-25
+  — summary is a question of law, no disposition phrase: "Whether non-implementation of statutory climate mechanisms constitutes a justiciable constitutional violation."
+
+- [2026] ZMCC 6 — Munir Zulu v Attorney General and Anor (2025/CCZ/0010)
+  — https://zambialii.org/akn/zm/judgment/zmcc/2026/6/eng@2026-03-19
+  — summary is a question of law, no disposition phrase: "Whether Article 76 parliamentary privilege protects media statements made within National Assembly precincts."

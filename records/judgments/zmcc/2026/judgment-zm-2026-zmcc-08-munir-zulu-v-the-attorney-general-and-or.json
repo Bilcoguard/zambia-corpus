@@ -1,0 +1,50 @@
+{
+  "id": "judgment-zm-2026-zmcc-08-munir-zulu-v-the-attorney-general-and-or",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Munir Zulu v The Attorney General and Ors (2025/CCZ/0011) [2026] ZMCC 8 (25 March 2026)",
+  "citation": "[2026] ZMCC 8",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Munir Zulu v The Attorney General and Ors",
+  "case_number": "2025/CCZ/0011",
+  "date_decided": "2026-03-25",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife JJC",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law — Parliamentary privilege limited to proceedings; Imprisonment disqualifies MP under Art 70(2)(f) and vacates seat under Art 72(2)(b); pending appeal does not suspend vacancy or by-election timelines; Article 128 references decided on the referring court’s record; Chilangwa affirmed."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "An MP’s imprisonment automatically vacates the seat; an appeal does not suspend the vacancy or by-election timeline.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "b317ec08289cdd5c90ec856196a38b3d2410cd0be8685411ed42ec44bf18970d",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2026/8/eng@2026-03-25",
+  "source_hash": "sha256:66f38ba97e507e73f3dfd349a5a9c52dfced48b2382b5bd7e007c0c9c0b5d1f1",
+  "fetched_at": "2026-04-29T13:11:01Z",
+  "parser_version": "0.2.0"
+}

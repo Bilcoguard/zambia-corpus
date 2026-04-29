@@ -1,0 +1,50 @@
+{
+  "id": "judgment-zm-2026-zmcc-04-brigade-construction-limited-and-ors-v-t",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Brigade Construction Limited and Ors v The Attorney General (2025/CCZ/0023) [2026] ZMCC 4 (24 February 2026)",
+  "citation": "[2026] ZMCC 4",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Brigade Construction Limited and Ors v The Attorney General",
+  "case_number": "2025/CCZ/0023",
+  "date_decided": "2026-02-24",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe JJC",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional jurisdiction — Article 128(1) limited by Article 28 — Bill of Rights matters (Articles 11–26) to be determined by High Court and Supreme Court — High Court interlocutory/procedural orders — limits on use of Constitutional Court originating summons for abstract interpretation — abuse of process — remedy by appeal."
+  ],
+  "outcome": "struck-out",
+  "outcome_detail": "Constitutional Court lacks jurisdiction to review High Court interlocutory orders affecting the Bill of Rights; applicants should appeal.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "f01e8274029c9249df7da515fc8542c522f51987fa2a2d390cbcbde0bb74b297",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2026/4/eng@2026-02-24",
+  "source_hash": "sha256:665bc416a60735844f924ef0efd46ed18f1db7b62fe976a90dd9bf47d0e0df3b",
+  "fetched_at": "2026-04-29T13:11:01Z",
+  "parser_version": "0.2.0"
+}

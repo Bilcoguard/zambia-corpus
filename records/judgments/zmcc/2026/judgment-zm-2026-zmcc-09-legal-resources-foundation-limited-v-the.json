@@ -1,0 +1,66 @@
+{
+  "id": "judgment-zm-2026-zmcc-09-legal-resources-foundation-limited-v-the",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Legal Resources Foundation Limited v The Attorney General (2025/CCZ/0020) [2026] ZMCC 9 (2 April 2026)",
+  "citation": "[2026] ZMCC 9",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Legal Resources Foundation Limited v The Attorney General",
+  "case_number": "2025/CCZ/0020",
+  "date_decided": "2026-04-02",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional duty to legislate",
+    "Article 60(4)",
+    "political parties regulation",
+    "justiciability of omissions",
+    "Societies Act read-in conformity with Constitution",
+    "enforceability of Articles 45 and 60(2)",
+    "separation of powers and remedies"
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "Respondent’s failure to enact Article 60(4) political-party legislation is unconstitutional; Respondent ordered to legislate within 12 months.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "a097d988284cadb5deae94bf0d56e3bb707d652cc0c6ec9497259af4c7646aed",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2026/9/eng@2026-04-02",
+  "source_hash": "sha256:9e4e6a52eec428b3919a9e52f57a3b90205df6ce8ebbb5e01d9801a5b483d9f0",
+  "fetched_at": "2026-04-29T13:11:01Z",
+  "parser_version": "0.2.0"
+}

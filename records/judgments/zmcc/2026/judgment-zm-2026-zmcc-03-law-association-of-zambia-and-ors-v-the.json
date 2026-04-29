@@ -1,0 +1,65 @@
+{
+  "id": "judgment-zm-2026-zmcc-03-law-association-of-zambia-and-ors-v-the",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Law Association of Zambia and Ors v The Attorney General (2025/CCZ/0029) [2026] ZMCC 3 (10 February 2026)",
+  "citation": "[2026] ZMCC 3",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Law Association of Zambia and Ors v The Attorney General",
+  "case_number": "2025/CCZ/0029",
+  "date_decided": "2026-02-10",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga JJC",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife JJC",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional procedure",
+    "Discontinuance under Order X Rule 3",
+    "Court’s discretionary power to allow withdrawal before judgment; Costs",
+    "section 30 CCA",
+    "discretion to award costs where litigation is frivolous or vexatious; Prima facie finding",
+    "relevance to denying costs."
+  ],
+  "outcome": "withdrawn",
+  "outcome_detail": "Petitioners permitted to discontinue under Order X Rule 3; court declined respondent's request for costs, ordering each party to bear own costs.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "933566ed01964191ef8948d2706cb342958cb5cd918dc204648b1c529ff81e29",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2026/3/eng@2026-02-10",
+  "source_hash": "sha256:dc9aefb987a651125bb054269ba00100af5d746315827bf2365586c6b621a996",
+  "fetched_at": "2026-04-29T13:11:01Z",
+  "parser_version": "0.2.0"
+}
