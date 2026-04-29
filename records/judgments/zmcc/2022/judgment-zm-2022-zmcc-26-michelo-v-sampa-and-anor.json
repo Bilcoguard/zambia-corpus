@@ -1,0 +1,34 @@
+{
+  "id": "judgment-zm-2022-zmcc-26-michelo-v-sampa-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Michelo v Sampa and Anor (CCZ/A 35 of 2021) [2022] ZMCC 26 (21 October 2022)",
+  "citation": "[2022] ZMCC 26",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Michelo v Sampa and Anor",
+  "case_number": "CCZ/A 35 of 2021",
+  "date_decided": "2022-10-21",
+  "judges": [
+    {
+      "name": "Mulongoti",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Electoral law",
+    "Section 97(2) Electoral Process Act",
+    "proof to convincing clarity that corrupt/illegal practice committed by candidate or with candidate’s knowledge/consent or agent",
+    "linkage requirement; appellate standard for disturbing factual findings; substantial conformity doctrine",
+    "when electoral flaws do not warrant annulment."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Appellant failed to prove electoral misconduct tied to the candidate or agents; appeal dismissed and election upheld",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "ed5865d4e56ba507874aba76b067b89aea095b3aa32102f677137f527cfbfc27",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/26/eng@2022-10-21",
+  "source_hash": "sha256:af9489ec7ee6602bfdfc610ef4bc32f7967da954a882e7c9df4d3499c9a3f96c",
+  "fetched_at": "2026-04-29T19:38:39Z",
+  "parser_version": "0.3.0"
+}

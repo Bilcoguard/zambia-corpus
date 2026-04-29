@@ -5107,3 +5107,4 @@
 {"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/1/eng@2023-03-02", "bytes": 43570, "batch": "0355", "kind": "judgment-html"}
 {"date": "2026-04-29", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/1/eng@2023-03-02/source.pdf", "bytes": 1212961, "batch": "0355", "kind": "judgment-pdf"}
 2026-04-29T19:08:50Z  batch-0355  fetches=15  records_written=3  records_deferred=5  cumulative_today=~259/2000  reason=zmcc_2023_001_plus_2022_top_to_28_parser_v0.3.0
+2026-04-29T19:40:00Z  batch-0356  fetches=17  records_written=1  records_deferred=7  cumulative_today=~276/2000  reason=zmcc_2022_sweep_27_to_20_parser_v0.3.0
