@@ -1,0 +1,84 @@
+{
+  "id": "judgment-zm-2024-zmcc-14-michelo-chizombe-v-edgar-chagwa-lungu-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Michelo Chizombe v Edgar Chagwa Lungu and Ors (2023/CCZ/0021) [2024] ZMCC 14 (9 July 2024)",
+  "citation": "[2024] ZMCC 14",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Michelo Chizombe v Edgar Chagwa Lungu and Ors",
+  "case_number": "2023/CCZ/0021",
+  "date_decided": "2024-07-09",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Sitali",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional procedure",
+    "res judicata and abuse of process",
+    "functus officio and jurisdiction",
+    "Article 101(4) electoral challenge timeframe",
+    "Order 14A White Book; summary determination vs full trial."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Court dismissed a preliminary motion, holding contested constitutional issues unsuitable for summary determination and ordered a full hearing",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "d9ad8b7d0f41cf5b890402297aac4c231b0db2277df320499f218ffdbc8f0055",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/14/eng@2024-07-09",
+  "source_hash": "sha256:b4ef8138de802ffa82d35368644fe310fe234952ac8ea5180dce90f8cd68f89d",
+  "fetched_at": "2026-04-29T16:06:58Z",
+  "parser_version": "0.3.0"
+}

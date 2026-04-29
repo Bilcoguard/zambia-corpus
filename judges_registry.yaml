@@ -7,9 +7,13 @@ judges:
   - title: JJC
     first_seen_in: judgment-zm-2025-zmcc-26-jayesh-shah-v-attorney-general
     first_seen_at: '2026-04-29T14:25:20Z'
+  - title: JC
+    first_seen_in: judgment-zm-2024-zmcc-14-michelo-chizombe-v-edgar-chagwa-lungu-and-ors
+    first_seen_at: '2026-04-29T16:06:58Z'
   aliases:
   - Chisunka JCC
   - Chisunka JJC
+  - Chisunka JC
   first_seen: '2026-04-29T13:10:17Z'
 - canonical_name: Chisunka JJC
   titles:
@@ -27,10 +31,14 @@ judges:
   - title: JJC
     first_seen_in: judgment-zm-2025-zmcc-26-jayesh-shah-v-attorney-general
     first_seen_at: '2026-04-29T14:25:20Z'
+  - title: JC
+    first_seen_in: judgment-zm-2024-zmcc-14-michelo-chizombe-v-edgar-chagwa-lungu-and-ors
+    first_seen_at: '2026-04-29T16:06:58Z'
   aliases:
   - Kawimbe JCC
   - HON. LADY JUSTICE MARIA MAPANI - KAWIMBE
   - Kawimbe JJC
+  - Kawimbe JC
   first_seen: '2026-04-29T13:10:17Z'
 - canonical_name: Kawimbe JJC
   titles:
@@ -40,6 +48,14 @@ judges:
   aliases:
   - Kawimbe JJC
   first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Mulenga
+  titles:
+  - title: JC
+    first_seen_in: judgment-zm-2024-zmcc-14-michelo-chizombe-v-edgar-chagwa-lungu-and-ors
+    first_seen_at: '2026-04-29T16:06:58Z'
+  aliases:
+  - Mulenga JC
+  first_seen: '2026-04-29T16:06:58Z'
 - canonical_name: Mulife
   titles:
   - title: JCC
@@ -69,8 +85,12 @@ judges:
   - title: JJC
     first_seen_in: judgment-zm-2024-zmcc-24-sean-tembo-v-the-attorney-general
     first_seen_at: '2026-04-29T15:39:07Z'
+  - title: JC
+    first_seen_in: judgment-zm-2024-zmcc-14-michelo-chizombe-v-edgar-chagwa-lungu-and-ors
+    first_seen_at: '2026-04-29T16:06:58Z'
   aliases:
   - Mulonda JJC
+  - Mulonda JC
   first_seen: '2026-04-29T15:39:07Z'
 - canonical_name: Mulongoti
   titles:
@@ -83,10 +103,14 @@ judges:
   - title: JJC
     first_seen_in: judgment-zm-2025-zmcc-13-issac-mwanza-and-anor-v-the-attorney-general-and-o
     first_seen_at: '2026-04-29T14:39:13Z'
+  - title: JC
+    first_seen_in: judgment-zm-2024-zmcc-14-michelo-chizombe-v-edgar-chagwa-lungu-and-ors
+    first_seen_at: '2026-04-29T16:06:58Z'
   aliases:
   - Mulongoti JCC
   - Lady Justice J.Z Mulongoti
   - Mulongoti JJC
+  - Mulongoti JC
   first_seen: '2026-04-29T13:10:17Z'
 - canonical_name: Mulongoti JJC
   titles:
@@ -112,9 +136,13 @@ judges:
   - title: JJC
     first_seen_in: judgment-zm-2025-zmcc-13-issac-mwanza-and-anor-v-the-attorney-general-and-o
     first_seen_at: '2026-04-29T14:39:13Z'
+  - title: JC
+    first_seen_in: judgment-zm-2024-zmcc-14-michelo-chizombe-v-edgar-chagwa-lungu-and-ors
+    first_seen_at: '2026-04-29T16:06:58Z'
   aliases:
   - Musaluke JCC
   - Musaluke JJC
+  - Musaluke JC
   first_seen: '2026-04-29T13:10:17Z'
 - canonical_name: Musaluke JJC
   titles:
@@ -132,9 +160,13 @@ judges:
   - title: JJC
     first_seen_in: judgment-zm-2025-zmcc-26-jayesh-shah-v-attorney-general
     first_seen_at: '2026-04-29T14:25:20Z'
+  - title: JC
+    first_seen_in: judgment-zm-2024-zmcc-14-michelo-chizombe-v-edgar-chagwa-lungu-and-ors
+    first_seen_at: '2026-04-29T16:06:58Z'
   aliases:
   - Mwandenga JCC
   - Mwandenga JJC
+  - Mwandenga  JC
   first_seen: '2026-04-29T13:10:17Z'
 - canonical_name: Mwandenga JJC
   titles:
@@ -152,3 +184,11 @@ judges:
   aliases:
   - Shilimi DPC
   first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Sitali
+  titles:
+  - title: JC
+    first_seen_in: judgment-zm-2024-zmcc-14-michelo-chizombe-v-edgar-chagwa-lungu-and-ors
+    first_seen_at: '2026-04-29T16:06:58Z'
+  aliases:
+  - Sitali JC
+  first_seen: '2026-04-29T16:06:58Z'

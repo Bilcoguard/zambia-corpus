@@ -1490,3 +1490,16 @@ Deferrals to be revisited once the parser supports hand-anchored PDF order parag
 - [2024] ZMCC 25 — https://zambialii.org/akn/zm/judgment/zmcc/2024/25/eng@2024-11-13 — outcome_not_inferable_under_tightened_policy; summary head: Originating summons for abstract interpretation of Article 74(2) dismissed as the dispute is personalized, contentious and requires trial.
 - [2024] ZMCC 23 — https://zambialii.org/akn/zm/judgment/zmcc/2024/23/eng@2024-10-29 — outcome_not_inferable_under_tightened_policy; summary head: An interim stay cannot be granted where the presidential suspension has already been implemented; single judge declined to decide standing.
 - [2024] ZMCC 22 — https://zambialii.org/akn/zm/judgment/zmcc/2024/22/eng@2024-10-15 — outcome_not_inferable_under_tightened_policy; summary head: Constitutional electoral timelines (90‑day by‑election; 7/21‑day nomination challenge) are mandatory and cannot be extended by court proceedings.
+
+## batch-0349 deferred (2026-04-29)
+
+Reason: outcome_not_inferable_under_tightened_policy (parser_version 0.3.0). Raw HTML+PDF on disk; can be revisited when parser is widened (parser_version bump, not a tick-time change).
+
+- [2024] ZMZMCC 21 (2024-10-11) — https://zambialii.org/akn/zm/judgment/zmcc/2024/21/eng@2024-10-11
+- [2024] ZMZMCC 20 (2024-10-03) — https://zambialii.org/akn/zm/judgment/zmcc/2024/20/eng@2024-10-03
+- [2024] ZMZMCC 19 (2024-07-26) — https://zambialii.org/akn/zm/judgment/zmcc/2024/19/eng@2024-07-26
+- [2024] ZMZMCC 18 (2024-07-26) — https://zambialii.org/akn/zm/judgment/zmcc/2024/18/eng@2024-07-26
+- [2024] ZMZMCC 17 (2024-07-29) — https://zambialii.org/akn/zm/judgment/zmcc/2024/17/eng@2024-07-29
+- [2024] ZMZMCC 16 (2024-07-10) — https://zambialii.org/akn/zm/judgment/zmcc/2024/16/eng@2024-07-10
+- [2024] ZMZMCC 15 (2024-07-08) — https://zambialii.org/akn/zm/judgment/zmcc/2024/15/eng@2024-07-08
+
