@@ -1503,3 +1503,14 @@ Reason: outcome_not_inferable_under_tightened_policy (parser_version 0.3.0). Raw
 - [2024] ZMZMCC 16 (2024-07-10) — https://zambialii.org/akn/zm/judgment/zmcc/2024/16/eng@2024-07-10
 - [2024] ZMZMCC 15 (2024-07-08) — https://zambialii.org/akn/zm/judgment/zmcc/2024/15/eng@2024-07-08
 
+## batch-0350 deferred (2026-04-29)
+
+Reason: outcome_not_inferable_under_tightened_policy (parser_version 0.3.0). Raw HTML+PDF on disk; can be revisited when parser is widened (parser_version bump, not a tick-time change).
+
+- [2024] ZMCC 13 (2024-06-28) — https://zambialii.org/akn/zm/judgment/zmcc/2024/13/eng@2024-06-28
+- [2024] ZMCC 11 (2024-06-17) — https://zambialii.org/akn/zm/judgment/zmcc/2024/11/eng@2024-06-17
+- [2024] ZMCC 10 (2024-06-25) — https://zambialii.org/akn/zm/judgment/zmcc/2024/10/eng@2024-06-25
+- [2024] ZMCC 8 (2024-06-07) — https://zambialii.org/akn/zm/judgment/zmcc/2024/8/eng@2024-06-07
+- [2024] ZMCC 7 (2024-06-06) — https://zambialii.org/akn/zm/judgment/zmcc/2024/7/eng@2024-06-06
+- [2024] ZMCC 6 (2024-04-16) — https://zambialii.org/akn/zm/judgment/zmcc/2024/6/eng@2024-04-16
+

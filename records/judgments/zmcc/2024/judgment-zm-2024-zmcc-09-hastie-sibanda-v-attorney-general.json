@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2024-zmcc-09-hastie-sibanda-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Hastie Sibanda v Attorney General (2023/CCZ/002) [2024] ZMCC 9 (30 April 2024)",
+  "citation": "[2024] ZMCC 9",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Hastie Sibanda v Attorney General",
+  "case_number": "2023/CCZ/002",
+  "date_decided": "2024-04-30",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional interpretation",
+    "Citizenship (Articles 34–37)",
+    "NRC particulars",
+    "origin of name, language, tribe",
+    "distinction between constitutional provisions and statutory/regulatory procedures",
+    "Originating Summons jurisdictional criteria."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Court dismissed challenge, holding NRC 'origin' particulars are statutory/administrative matters, not a pure interpretation of Articles 34–37",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "67061042cb9ea4615f8a3922c4337639adc51cf8aaa418e440133540c4d08c67",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/9/eng@2024-04-30",
+  "source_hash": "sha256:3a7767a2cc98a1e1a3da6ff41008eb89d0d3077ab8bc7775a8daa4e8b0d5a4b3",
+  "fetched_at": "2026-04-29T16:38:22Z",
+  "parser_version": "0.3.0"
+}

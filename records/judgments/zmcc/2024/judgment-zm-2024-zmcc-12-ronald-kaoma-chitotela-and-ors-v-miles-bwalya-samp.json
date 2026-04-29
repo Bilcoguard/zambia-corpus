@@ -1,0 +1,85 @@
+{
+  "id": "judgment-zm-2024-zmcc-12-ronald-kaoma-chitotela-and-ors-v-miles-bwalya-samp",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Ronald Kaoma Chitotela and Ors v Miles Bwalya Sampa and Ors (2023/CCZ/0028) [2024] ZMCC 12 (27 June 2024)",
+  "citation": "[2024] ZMCC 12",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Ronald Kaoma Chitotela and Ors v Miles Bwalya Sampa and Ors",
+  "case_number": "2023/CCZ/0028",
+  "date_decided": "2024-06-27",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Sitali",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional jurisdiction",
+    "Article 128",
+    "Requirement to plead nature of alleged constitutional contravention; Political parties",
+    "limits of Constitutional Court jurisdiction",
+    "internal party constitutions; Forum shopping/multiplicity of actions",
+    "preliminary objection rendered otiose where jurisdiction lacking."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Petition dismissed for want of jurisdiction because it alleged breaches of a party constitution, not a discernible violation of Article 60(2)",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "7e8229ec6323d0b371ca860c66d6117cf7e7d383ebf8d9bf62562c0dfbec0f4a",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/12/eng@2024-06-27",
+  "source_hash": "sha256:d7320733ceb70540cfcfc190ad3cc6d6b7784e0148514d30b68beddf5518f786",
+  "fetched_at": "2026-04-29T16:38:20Z",
+  "parser_version": "0.3.0"
+}
