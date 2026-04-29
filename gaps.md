@@ -1290,3 +1290,73 @@ Resolved both b0341 deferrals plus ingested ZMCC 2026/02:
 
 ZMCC 2026/01 was on the b0342 target list but the long-running fetcher process
 was killed by the sandbox before reaching it. Will retry in next tick.
+
+## 2026-04-29  Phase 5 ZMCC sweep — batch 0343 (continuation of b0341/b0342)
+
+Targets (8 candidates, ZMCC 2026/01 + 7 most-recent ZMCC 2025) all DEFERRED to a
+later tick after a parser-safety review. Raw HTML+PDF persisted on disk for all
+8 and the parser ran cleanly, but four of the disposition inferences came from
+unsafe sources (regex over the PDF tail / full body matching disposition words
+in citations to OTHER cases). Per non-negotiable #1 (no fabrication) the
+parser-version-0.2.0 inference policy is being tightened to require an explicit
+order-paragraph anchor (one of: "It is ordered", "It is hereby ordered",
+"We accordingly", "We therefore", "For the foregoing reasons", "Accordingly,"
+within ~1500 chars of an enum-mappable disposition phrase). Records that cannot
+be matched to such an anchor will be deferred rather than written. The four
+unsafe inferences from this batch:
+
+- **[2026] ZMCC 1** (Tresford Chali v The Judicial Complaints Commission, 2026-01-20):
+  parser inferred `overturned` from a `set aside` match in the PDF body — most
+  likely a quote from a cited authority, not the disposition of THIS case.
+  outcome_detail produced: "d by Judge Mulonda." (clearly a mid-word fragment).
+  DEFER until the order paragraph is hand-anchored or the parser is tightened.
+
+- **[2025] ZMCC 32** (The Law Association of Zambia and Ors v The Attorney
+  General, 2025-12-16): parser inferred `overturned` from a `set aside` match
+  in the PDF tail. outcome_detail produced "another v Attorney Generall4l." —
+  almost certainly a cross-reference to another case in the index, not this
+  case's disposition. DEFER.
+
+- **[2025] ZMCC 28** (Brian Mundubile and Anor v Hakainde Hichilema and Anor,
+  2025-12-05): parser inferred `allowed` from "declared ... violated" pattern
+  in the PDF body. outcome_detail produced "the Godfrey Miyanda v Attorney
+  General case supra." — a citation reference, not the disposition. DEFER.
+  Also only 1 judge resolved (Mwandenga); the panel for ConCourt judgments is
+  typically 3–7, so the Judges metadata field on the HTML page may be malformed
+  on this entry. Re-parse needed.
+
+- **[2025] ZMCC 27** (Munir Zulu and Anor v Attorney General and Ors,
+  2025-12-05): parser inferred `allowed` from a similar weak pattern; only 1
+  judge (Mulongoti) resolved — same panel-size red flag as ZMCC 28. DEFER.
+
+The other four candidates were correctly identified as outcome-not-inferable
+from the summary alone:
+
+- **[2025] ZMCC 33** (Miles Bwalya Sampa v The Attorney General and Ors,
+  2025-12-18): summary describes ratio (subscription vs. State equity disposal
+  under Article 210) but no disposition phrase. DEFER.
+
+- **[2025] ZMCC 31** (Munir Zulu and Anor v Attorney General and Ors,
+  2025-12-10): summary contains "Application for contempt dismissed for being
+  procedurally misconceived..." which DOES describe the disposition (`dismissed`),
+  but the phrase "Application for contempt dismissed" is not matched by the
+  current `(?:application|...) (?:is )?(?:hereby )?dismissed` regex because the
+  noun phrase has the qualifier "for contempt" before the verb. Easy parser
+  improvement next tick. DEFER.
+
+- **[2025] ZMCC 30** (Legal Resources Foundation Limited v The Attorney General,
+  2025-12-11): summary describes the prima facie / irreparable harm test for
+  staying judicial appointments — no disposition phrase. DEFER.
+
+- **[2025] ZMCC 29** (Law Association of Zambia and Ors v Attorney General,
+  2025-12-08): summary says "Court granted joinder to two intended interested
+  parties" — likely `allowed` but the joinder language isn't in the current
+  outcome enum mapping. DEFER until a joinder→`allowed` rule is added or the
+  PDF order paragraph is anchored.
+
+Raw HTML+PDF for all 8 are persisted on disk under
+`raw/zambialii/judgments/zmcc/{2025,2026}/` — no re-fetch needed next tick;
+the next tick can rerun the parser-only step against the persisted bytes once
+the inference policy is tightened. The buggy first-pass record JSONs were
+moved to `_stale_b0343_bad_records/` (untracked) before this commit so the
+corpus does not contain any of the unsafe inferences.
