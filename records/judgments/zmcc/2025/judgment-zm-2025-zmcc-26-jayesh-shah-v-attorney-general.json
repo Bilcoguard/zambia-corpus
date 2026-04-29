@@ -1,0 +1,58 @@
+{
+  "id": "judgment-zm-2025-zmcc-26-jayesh-shah-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Jayesh Shah v Attorney General (2025/CCZ/0012) [2025] ZMCC 26 (18 November 2025)",
+  "citation": "[2025] ZMCC 26",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Jayesh Shah v Attorney General",
+  "case_number": "2025/CCZ/0012",
+  "date_decided": "2025-11-18",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional jurisdiction",
+    "Article 128",
+    "appellate jurisdiction",
+    "Article 131",
+    "jurisdictional error",
+    "procedural versus constitutional questions",
+    "abuse of process",
+    "multiplicity of actions",
+    "judicial authority (Articles 118, 119)."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "The applicant’s challenge to the Court of Appeal was a veiled appeal, not a constitutional question; petition dismissed with costs",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "0cee5000e2befd77776e04f8a2633739a4dc8d09cc47e20e9a9420699fd62d29",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/26/eng@2025-11-18",
+  "source_hash": "sha256:25cc757f3dac89443209f36d030ebc3803abfcae394537de5b17fd5226a98e29",
+  "fetched_at": "2026-04-29T14:25:15Z",
+  "parser_version": "0.3.0"
+}

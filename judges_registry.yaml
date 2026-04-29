@@ -4,8 +4,12 @@ judges:
   - title: JCC
     first_seen_in: judgment-zm-2026-zmcc-09-legal-resources-foundation-limited-v-the
     first_seen_at: '2026-04-29T13:10:17Z'
+  - title: JJC
+    first_seen_in: judgment-zm-2025-zmcc-26-jayesh-shah-v-attorney-general
+    first_seen_at: '2026-04-29T14:25:20Z'
   aliases:
   - Chisunka JCC
+  - Chisunka JJC
   first_seen: '2026-04-29T13:10:17Z'
 - canonical_name: Chisunka JJC
   titles:
@@ -20,9 +24,13 @@ judges:
   - title: JCC
     first_seen_in: judgment-zm-2026-zmcc-09-legal-resources-foundation-limited-v-the
     first_seen_at: '2026-04-29T13:10:17Z'
+  - title: JJC
+    first_seen_in: judgment-zm-2025-zmcc-26-jayesh-shah-v-attorney-general
+    first_seen_at: '2026-04-29T14:25:20Z'
   aliases:
   - Kawimbe JCC
   - HON. LADY JUSTICE MARIA MAPANI - KAWIMBE
+  - Kawimbe JJC
   first_seen: '2026-04-29T13:10:17Z'
 - canonical_name: Kawimbe JJC
   titles:
@@ -98,8 +106,12 @@ judges:
   - title: JCC
     first_seen_in: judgment-zm-2026-zmcc-09-legal-resources-foundation-limited-v-the
     first_seen_at: '2026-04-29T13:10:17Z'
+  - title: JJC
+    first_seen_in: judgment-zm-2025-zmcc-26-jayesh-shah-v-attorney-general
+    first_seen_at: '2026-04-29T14:25:20Z'
   aliases:
   - Mwandenga JCC
+  - Mwandenga JJC
   first_seen: '2026-04-29T13:10:17Z'
 - canonical_name: Mwandenga JJC
   titles:

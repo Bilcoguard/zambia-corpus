@@ -1437,3 +1437,19 @@ Parser-tightening summary (locked at parser_version 0.3.0):
 - outcome_detail safety guards: word-boundary start, ≥12 chars alphabetic
   content, no cross-reference markers (`case supra`, ` supra`, `another v
   `, `Generall4l`, `Mulonda`).
+
+## batch-0345 deferrals (Phase 5 ZMCC 2025 sweep slice 19–26) — 2026-04-29T14:27:57Z
+
+Per BRIEF.md non-negotiable #1, the following 6 candidates could not safely be parsed under tightened parser_version 0.3.0 (no enum-mappable disposition phrase in summary AND no qualifying PDF order-anchor match within 800 chars). Raw HTML+PDF remain on disk under raw/zambialii/judgments/zmcc/2025/.
+
+- **[2025] ZMCC 25** (zmcc 2025/25, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/25/eng@2025-12-04. Summary: "Court refused stay of Speaker's vacancy ruling absent special and convincing grounds; merits not to be decided interlocutorily."
+
+- **[2025] ZMCC 24** (zmcc 2025/24, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/24/eng@2025-11-28. Summary: "The Constitutional Court held the Attorney General may represent the Speaker as the legal representative of 'Government' and ordered joinder of the Attorney General."
+
+- **[2025] ZMCC 23** (zmcc 2025/23, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/23/eng@2025-11-27. Summary: "A pension-quantum and payroll dispute is a labour matter for the Industrial Relations Division, not the Constitutional Court."
+
+- **[2025] ZMCC 22** (zmcc 2025/22, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/22/eng@2025-11-27. Summary: "Declaratory relief was academic; transitional Act provisions governed eligibility, and Article 267(3)(b)(c) did not affect the Court’s decision."
+
+- **[2025] ZMCC 21** (zmcc 2025/21, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/21/eng@2025-11-25. Summary: "Application to suspend a presidentially appointed constitutional Technical Committee dismissed for failing to show irreparable harm."
+
+- **[2025] ZMCC 19** (zmcc 2025/19, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/19/eng@2025-09-30. Summary: ""

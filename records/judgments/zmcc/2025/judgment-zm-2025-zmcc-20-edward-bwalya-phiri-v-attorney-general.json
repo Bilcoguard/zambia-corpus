@@ -1,0 +1,65 @@
+{
+  "id": "judgment-zm-2025-zmcc-20-edward-bwalya-phiri-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Edward Bwalya Phiri v Attorney General (2025/CCZ/004) [2025] ZMCC 20 (3 October 2025)",
+  "citation": "[2025] ZMCC 20",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Edward Bwalya Phiri v Attorney General",
+  "case_number": "2025/CCZ/004",
+  "date_decided": "2025-10-03",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Munalula",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Emoluments Commission",
+    "Scope of mandate",
+    "\"Public officers\" v \"State institutions\"",
+    "Article 266 definition; Consolidated Fund (Art.265) as criterion",
+    "petition improperly used to seek interpretation (originating summons required)."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Court held section 5(1) did not unlawfully expand the Emoluments Commission’s mandate; petition dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "284bcdebd26210ebff0a47575ed5c1175b910eab10cb27d7b17180c754d469d5",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/20/eng@2025-10-03",
+  "source_hash": "sha256:4bff289827cc4e78b8a64774fdcd9394299a4ac01faee4f028122b4a39f36a00",
+  "fetched_at": "2026-04-29T14:25:20Z",
+  "parser_version": "0.3.0"
+}
