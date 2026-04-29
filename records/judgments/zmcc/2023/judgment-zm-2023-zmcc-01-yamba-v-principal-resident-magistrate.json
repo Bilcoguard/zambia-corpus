@@ -1,0 +1,34 @@
+{
+  "id": "judgment-zm-2023-zmcc-01-yamba-v-principal-resident-magistrate",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Yamba v Principal Resident Magistrate (CCZ 3 of 2023) [2023] ZMCC 1 (2 March 2023)",
+  "citation": "[2023] ZMCC 1",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Yamba v Principal Resident Magistrate",
+  "case_number": "CCZ 3 of 2023",
+  "date_decided": "2023-03-02",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional Court jurisdiction",
+    "interlocutory stay of criminal proceedings",
+    "Order X r.2(1) CCR",
+    "civil proceedings versus criminal prosecutions",
+    "judicial comity and restraint"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "A single judge lacks jurisdiction to grant a stay of subordinate criminal proceedings; application dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "cd23bdca551943bfec10f35aa2a4aa5c594b63f349c86c4229006411d4803fed",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/1/eng@2023-03-02",
+  "source_hash": "sha256:3c4ca1787667fdcb3f68fc62a6b8a51ad1ed6b58405fa8b7459d87747a8620ce",
+  "fetched_at": "2026-04-29T19:08:05Z",
+  "parser_version": "0.3.0"
+}

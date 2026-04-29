@@ -14,6 +14,7 @@ judges:
   - Chisunka JCC
   - Chisunka JJC
   - Chisunka JC
+  - Sitali JCC Munalula JCC Musaluke JCC Chisunka JCC
   first_seen: '2026-04-29T13:10:17Z'
 - canonical_name: Chisunka JJC
   titles:
@@ -116,6 +117,7 @@ judges:
   - Mulongoti JJC
   - Mulongoti JC
   - Munalula JCC Sitali JCC Mulonda JCC Chisunka JCC Mulongoti JCC
+  - Mulonda JCC Musaluke JCC Chitabo JCC Chisunka JCC Mulongoti JCC
   first_seen: '2026-04-29T13:10:17Z'
 - canonical_name: Mulongoti JJC
   titles:
@@ -130,8 +132,12 @@ judges:
   - title: PC
     first_seen_in: judgment-zm-2026-zmcc-09-legal-resources-foundation-limited-v-the
     first_seen_at: '2026-04-29T13:10:17Z'
+  - title: JCC
+    first_seen_in: judgment-zm-2023-zmcc-01-yamba-v-principal-resident-magistrate
+    first_seen_at: '2026-04-29T19:08:12Z'
   aliases:
   - Munalula PC
+  - Munalula JCC
   first_seen: '2026-04-29T13:10:17Z'
 - canonical_name: Musaluke
   titles:

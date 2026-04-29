@@ -1,0 +1,33 @@
+{
+  "id": "judgment-zm-2022-zmcc-28-kolala-v-zambia-postal-services-corporation",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Kolala v Zambia Postal Services Corporation (CCZ 16 of 2021) [2022] ZMCC 28 (26 January 2022)",
+  "citation": "[2022] ZMCC 28",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Kolala v Zambia Postal Services Corporation",
+  "case_number": "CCZ 16 of 2021",
+  "date_decided": "2022-01-26",
+  "judges": [
+    {
+      "name": "Mulongoti",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Article 189(2) retention on payroll",
+    "\"pension benefit\" includes gratuity (Article 266)",
+    "voluntary resignation does not trigger Article 189(2); unpaid gratuity and salary arrears are employment disputes for the Industrial Relations Division; procedural sufficiency of an Answer as notice to defend under Order 14A."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "The Petitioner’s action is dismissed in its entirety",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "e4e6fc63071a72e985b84b06456834fbd8552250b34b5cdfa507a125f63a9b03",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/28/eng@2022-01-26",
+  "source_hash": "sha256:bcfeb46d9804d1c0eabbc125edcc71d0ca04a666a1c54a5b3379fa3ebb171e8a",
+  "fetched_at": "2026-04-29T19:08:12Z",
+  "parser_version": "0.3.0"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "judgment-zm-2022-zmcc-29-chisanga-v-chisopa-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Chisanga v Chisopa and Anor (CCZ/A 27 of 2021) [2022] ZMCC 29 (16 May 2022)",
+  "citation": "[2022] ZMCC 29",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Chisanga v Chisopa and Anor",
+  "case_number": "CCZ/A 27 of 2021",
+  "date_decided": "2022-05-16",
+  "judges": [
+    {
+      "name": "Chisunka",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional Court jurisdiction",
+    "Election petition appeal",
+    "Compliance with Order 11 rule 5 CCR",
+    "Mandatory filing of Record of Appeal and heads within 30 days",
+    "Late filing without leave renders appeal incompetent",
+    "Dismissal for want of prosecution under Order 11 rule 6 CCR."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Appeal dismissed where the Record of Appeal was filed late without leave, rendering the appeal incompetent",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "ff6ef627f54c5479a057ed04a2359b02ca370371caceebde2c9c600b9f0687a9",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/29/eng@2022-05-16",
+  "source_hash": "sha256:9d11ff9b604abef6079d48b217344f208a4471123c6593328210ca428161ebdf",
+  "fetched_at": "2026-04-29T19:08:12Z",
+  "parser_version": "0.3.0"
+}
