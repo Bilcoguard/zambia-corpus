@@ -1,0 +1,43 @@
+{
+  "id": "judgment-zm-2023-zmcc-22-charles-mwelwa-v-stephen-chikota-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Charles Mwelwa v Stephen Chikota and Anor (2022/CCZ/ A006) [2023] ZMCC 22 (27 October 2023)",
+  "citation": "[2023] ZMCC 22",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Charles Mwelwa v Stephen Chikota and Anor",
+  "case_number": "2022/CCZ/ A006",
+  "date_decided": "2023-10-27",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Electoral law",
+    "nullification threshold under s.97(2) EPA",
+    "misconduct by candidate or with agent's consent and requirement that misconduct be widespread enough to have prevented majority voters choosing preferred candidate",
+    "proof to convincing clarity."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Appeal dismissed: isolated incidents of violence and intimidation were not proven to have prevented the majority from choosing their preferred candidate",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "07681a24006ec3797f08bff82fe9c045706b7fedb81db6f6bc3534864ec88c0c",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/22/eng@2023-10-27",
+  "source_hash": "sha256:43147f87a95724dcc9510657f8ceec1448e5b07420744ec9dadff0083390c7ae",
+  "fetched_at": "2026-04-29T17:41:25Z",
+  "parser_version": "0.3.0"
+}

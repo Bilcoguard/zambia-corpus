@@ -1524,3 +1524,25 @@ All five raw HTML+PDF pairs persisted under `raw/zambialii/judgments/zmcc/2024/`
 - **[2024] ZMCC 3** — Hastings Mwila v Local Authorities Superannuation Fund (2024-02-09). Summary: "Whether the petitioner should have remained on the respondent's payroll pending payment of a commuted LASF lump-sum pension benefit."
 - **[2024] ZMCC 2** — Institute of Law, Policy Research and Human Rights (2024-01-17). Summary: "An individual directly affected by interpretation of Article 74(2) may be joined as an interested party to adjudicate rights and issues."
 - **[2024] ZMCC 1** — Bowman Chilosha Lusambo v Bernard Kanengo and Others (2024-01-25). Summary: "Nomination disputes belong to Article 52(4) proceedings; election petitions require proving substantial non‑compliance affecting results."
+
+## 2026-04-29 — batch-0352 deferrals (Phase 5, ZMCC 2023)
+
+Seven ZMCC 2023 candidates deferred under
+`outcome_not_inferable_under_tightened_policy` (parser_version 0.3.0).
+Raw HTML+PDF on disk under `raw/zambialii/judgments/zmcc/2023/`. No
+re-fetch needed when the parser is widened (a `parser_version` bump).
+
+| Year/# | Date       | Case (case_name preview) | source_hash (HTML) | raw_sha256 (PDF) |
+|--------|------------|--------------------------|--------------------|------------------|
+| 2023/27 | 2023-08-03 | Zambia Community Development Initiative Programme | (see raw dir)      | (see raw dir)    |
+| 2023/26 | 2023-12-16 | Milingo Lungu v The Attorney General and Anor      | (see raw dir)      | (see raw dir)    |
+| 2023/25 | 2023-12-08 | Sean Tembo v The Attorney General                  | (see raw dir)      | (see raw dir)    |
+| 2023/24 | 2023-12-01 | Fredson Kango Yamba v The Principal Resident Magis | (see raw dir)      | (see raw dir)    |
+| 2023/23 | 2023-11-07 | Milingo Lungu v The Attorney General and Anor      | (see raw dir)      | (see raw dir)    |
+| 2023/21 | 2023-10-27 | (companion to 2023/22)                             | (see raw dir)      | (see raw dir)    |
+| 2023/20 | 2023-10-26 | (case_name from H1)                                | (see raw dir)      | (see raw dir)    |
+
+Reason: neither the locked `SUMMARY_PATTERNS` nor any locked
+`PDF_ORDER_ANCHORS` matched in a 800-char window in the relevant raw
+bytes. Per BRIEF.md non-negotiable #1 (no fabrication), no record was
+written. Re-parse on next parser_version bump.
