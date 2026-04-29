@@ -1514,3 +1514,13 @@ Reason: outcome_not_inferable_under_tightened_policy (parser_version 0.3.0). Raw
 - [2024] ZMCC 7 (2024-06-06) — https://zambialii.org/akn/zm/judgment/zmcc/2024/7/eng@2024-06-06
 - [2024] ZMCC 6 (2024-04-16) — https://zambialii.org/akn/zm/judgment/zmcc/2024/6/eng@2024-04-16
 
+
+## Batch 0351 — ZMCC 2024/{5,4,3,2,1} parser-deferred (2026-04-29)
+
+All five raw HTML+PDF pairs persisted under `raw/zambialii/judgments/zmcc/2024/`. Outcome could not be inferred under parser_version 0.3.0's tightened SUMMARY_PATTERNS + locked PDF_ORDER_ANCHORS. Re-parse without re-fetch when parser is widened.
+
+- **[2024] ZMCC 5** — Milingo Lungu v The Attorney General and Another (2024-03-15). Summary: "The Constitutional Court lacks power to stay subordinate criminal proceedings; the single judge's stay was nullified and discharged."
+- **[2024] ZMCC 4** — Moses Sakala v The Attorney General and Another (2024-02-23). Summary: "Intended Party joined as 3rd Respondent because the reliefs directly affect him; no costs awarded."
+- **[2024] ZMCC 3** — Hastings Mwila v Local Authorities Superannuation Fund (2024-02-09). Summary: "Whether the petitioner should have remained on the respondent's payroll pending payment of a commuted LASF lump-sum pension benefit."
+- **[2024] ZMCC 2** — Institute of Law, Policy Research and Human Rights (2024-01-17). Summary: "An individual directly affected by interpretation of Article 74(2) may be joined as an interested party to adjudicate rights and issues."
+- **[2024] ZMCC 1** — Bowman Chilosha Lusambo v Bernard Kanengo and Others (2024-01-25). Summary: "Nomination disputes belong to Article 52(4) proceedings; election petitions require proving substantial non‑compliance affecting results."
