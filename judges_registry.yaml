@@ -31,6 +31,15 @@ judges:
   aliases:
   - Kawimbe JJC
   first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Mulife
+  titles:
+  - title: JCC
+    first_seen_in: judgment-zm-2026-zmcc-02-morgan-ng-ona-suing-as-secretary-general-of-the-pa
+    first_seen_at: '2026-04-29T13:35:39Z'
+  aliases:
+  - Mulife JJC
+  - Mulife JCC
+  first_seen: '2026-04-29T13:35:39Z'
 - canonical_name: Mulife JJC
   titles:
   - title: J.

@@ -1,0 +1,52 @@
+{
+  "id": "judgment-zm-2026-zmcc-06-munir-zulu-v-attorney-general-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Munir Zulu v Attorney General and Anor (2025/CCZ/0010) [2026] ZMCC 6 (19 March 2026)",
+  "citation": "[2026] ZMCC 6",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Munir Zulu v Attorney General and Anor",
+  "case_number": "2025/CCZ/0010",
+  "date_decided": "2026-03-19",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional jurisdiction",
+    "Article 128(2) referral obligation; Parliamentary privilege",
+    "Article 76 freedom of speech limited to formal proceedings; Press briefings and media statements within precincts not protected; Justiciability of internal parliamentary matters."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "'s claim that the Court lacks jurisdiction to hear this Petition and as a result, that the Petition ought to be dismissed, lacks merit and is dismissed.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "5ee9f0547a2c7d4b184a14ff9d363dc04a1a982ce9121f81b029b54ef94e84f9",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2026/6/eng@2026-03-19",
+  "source_hash": "sha256:ba3ed8b5226270d298551a5bd3179ec87931b7eeb88988efe387beff2c9779b5",
+  "fetched_at": "2026-04-29T13:33:35Z",
+  "parser_version": "0.2.0"
+}

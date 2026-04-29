@@ -1263,3 +1263,30 @@ PDF body (pdfplumber).
 - [2026] ZMCC 6 — Munir Zulu v Attorney General and Anor (2025/CCZ/0010)
   — https://zambialii.org/akn/zm/judgment/zmcc/2026/6/eng@2026-03-19
   — summary is a question of law, no disposition phrase: "Whether Article 76 parliamentary privilege protects media statements made within National Assembly precincts."
+
+## 2026-04-29 — batch 0342 — Phase 5 ZMCC continuation
+
+Resolved both b0341 deferrals plus ingested ZMCC 2026/02:
+
+- **[2026] ZMCC 7** (Climate Action Professionals Zambia v Attorney General,
+  2025/CCZ/0025) — RESOLVED. Disposition inferred from PDF body paragraph [62]
+  ("The Petition is therefore dismissed for want of jurisdiction"). Outcome:
+  `dismissed`. Record written:
+  judgment-zm-2026-zmcc-07-climate-action-professionals-zambia-v-attorney-gen.
+
+- **[2026] ZMCC 6** (Munir Zulu v Attorney General and Anor, 2025/CCZ/0010) —
+  RESOLVED. Disposition inferred from PDF body paragraph 5.34 ("That said, this
+  Petition fails for lack of merit"). Outcome: `dismissed`. Record written:
+  judgment-zm-2026-zmcc-06-munir-zulu-v-attorney-general-and-anor.
+
+- **[2026] ZMCC 2** (Morgan Ng'ona v Attorney General and Anor, 2025/CCZ/0029)
+  — INGESTED. Disposition inferred from PDF body paragraph 28–29 ("the Petition
+  is devoid of merit ... 29.1. The Petition is dismissed"). Outcome:
+  `dismissed`. Munalula PC partial-dissented on reasoning (paras 25–28) but
+  agreed petition should be dismissed; recorded as `concurring` since outcome
+  aligns. Refinement to `partial-dissenting` with reasoning_tags is left to a
+  later pass. Record written:
+  judgment-zm-2026-zmcc-02-morgan-ng-ona-suing-as-secretary-general-of-the-pa.
+
+ZMCC 2026/01 was on the b0342 target list but the long-running fetcher process
+was killed by the sandbox before reaching it. Will retry in next tick.

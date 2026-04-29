@@ -1,0 +1,56 @@
+{
+  "id": "judgment-zm-2026-zmcc-07-climate-action-professionals-zambia-v-attorney-gen",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Climate Action Professionals Zambia v Attorney General (2025/CCZ/0025) [2026] ZMCC 7 (25 March 2026)",
+  "citation": "[2026] ZMCC 7",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Climate Action Professionals Zambia v Attorney General",
+  "case_number": "2025/CCZ/0025",
+  "date_decided": "2026-03-25",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Article 257(g) duty to address climate change",
+    "Green Economy and Climate Change Act (GECCA)",
+    "IMRV System, Climate Change Fund, Climate Change Register",
+    "statutory compliance vs. constitutional question",
+    "jurisdiction and justiciability",
+    "referral under Article 128(2)."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "tion.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "073611ef23d003fed755bc4860a0fbcd119b041f77adb9ee18036537851a4aec",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2026/7/eng@2026-03-25",
+  "source_hash": "sha256:a52e83f17d30f6e1ff2e3b41b08eb60a51344c1310d7567cb5267b33bed81be2",
+  "fetched_at": "2026-04-29T13:34:21Z",
+  "parser_version": "0.2.0"
+}
