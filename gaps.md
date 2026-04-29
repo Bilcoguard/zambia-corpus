@@ -1462,3 +1462,15 @@ Per BRIEF.md non-negotiable #1, the following 6 candidates could not safely be p
 - **[2025] ZMCC 14** (zmcc 2025/14, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/14/eng@2025-07-28. Summary: "Article 266 defines a child as any person below eighteen; attaining eighteen confers adult status under the Constitution."
 - **[2025] ZMCC 12** (zmcc 2025/12, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/12/eng@2025-06-27. Summary: "Court holds it can review pre‑Bill executive initiation of constitutional amendments and requires people‑driven wide consultations."
 - **[2025] ZMCC 11** (zmcc 2025/11, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/11/eng@2025-06-19. Summary: "A pre-2016 pension dispute is a labour matter and outside the Constitutional Court’s jurisdiction."
+
+## Batch 0347 — ZMCC 2025/{10,9,8,7,6,5,4,3} deferrals (parser_version 0.3.0)
+
+All raw HTML+PDF persisted under `raw/zambialii/judgments/zmcc/2025/`. Deferrals are 'outcome_not_inferable_under_tightened_policy' — to be revisited once the parser supports hand-anchored PDF order paragraphs or the locked SUMMARY_PATTERNS subject vocabulary is widened (parser_version bump).
+
+- [2025] ZMCC 10 — Munir Zulu v AG and Ors (2025-06-04) — substantive ratio, no enum verb in summary
+- [2025] ZMCC 9 — The People v AG (2025-02-10) — same ratio family as 2025/10
+- [2025] ZMCC 8 — Richard Sakala v AG (2025-04-01) — conditional verb (delay 'may justify dismissal')
+- [2025] ZMCC 7 — Munir Zulu v AG and Ors (2025-04-07) — jurisdictional ratio, no disposition verb
+- [2025] ZMCC 6 — Miles Bwalya Sampa v AG (2025-03-24) — 'denied' not on enum
+- [2025] ZMCC 5 — Miza Phiri Jr v Mwanza & Ors (2025-03-24) — procedural ratio, no enum verb
+- [2025] ZMCC 3 — Petrushika Trading v AG (2025-03-06) — verb 'dismissed' present but subject 'Challenge' is not in locked SUMMARY_PATTERNS subject vocabulary; not loosened mid-tick

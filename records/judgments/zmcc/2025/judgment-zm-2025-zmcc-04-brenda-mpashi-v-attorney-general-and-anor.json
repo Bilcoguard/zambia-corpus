@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2025-zmcc-04-brenda-mpashi-v-attorney-general-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Brenda Mpashi v Attorney General and Anor (2024/CCZ/005) [2025] ZMCC 4 (20 February 2025)",
+  "citation": "[2025] ZMCC 4",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Brenda Mpashi v Attorney General and Anor",
+  "case_number": "2024/CCZ/005",
+  "date_decided": "2025-02-20",
+  "judges": [
+    {
+      "name": "Musaluke",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "ouster/privative clause",
+    "Regulation 10A (Defence Officers)",
+    "scope of judicial review; separation of powers",
+    "executive power over Defence",
+    "requirement of Commander’s recommendation and prescribed statutory conditions for lawful dismissal; pensions law",
+    "PSPA supersedes Defence pension regulations; limits of Constitutional Court jurisdiction as to employment remedies."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "The Petition is hereby dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "8d377799b8a4d3e0afc662ad21def88d101e5a8c5015e7d6098b4ce9d7992434",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/4/eng@2025-02-20",
+  "source_hash": "sha256:651593f6666fce68bba92817d4cb61e32599d4c986b6875e53a3e4b75273243d",
+  "fetched_at": "2026-04-29T15:07:27Z",
+  "parser_version": "0.3.0"
+}
