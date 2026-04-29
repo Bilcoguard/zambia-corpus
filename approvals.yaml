@@ -26,13 +26,17 @@ phases:
       - sis_data_protection
       - sis_mining
       - sis_family
-  phase_5_retrieval_api:
+  phase_5_judgments:
+    approved: true
+    complete: false
+    approval_note: "Phase 5 approved by Peter 2026-04-29. Target: 100-160 landmark judgments."
+  phase_6_retrieval_api:
     approved: false
     complete: false
-  phase_6_integration_brief:
+  phase_7_integration_brief:
     approved: false
     complete: false
-  phase_7_nightly_reverify:
+  phase_8_nightly_reverify:
     approved: false
     complete: false
     sample_rate: 0.01

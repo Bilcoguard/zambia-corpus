@@ -38,7 +38,7 @@ Build and maintain a verified, citation-grade corpus of Zambian primary legal au
 - **Phase 7 — Integration brief.** Write `INTEGRATION.md` explaining how the Kate Weston Legal plugin should call the retrieval API and format citations.
 - **Phase 8 — Nightly re-verification.** Sample `sample_rate` of existing records per night, re-fetch, compare hashes, flag drift.
 
-> **Renumbering note (2026-04-29):** Phase 5 was previously "Retrieval API"; it is now "Judgments ingestion". The former Phase 5/6/7 shifted to 6/7/8. `approvals.yaml` still references the old keys (`phase_5_retrieval_api`, `phase_6_integration_brief`, `phase_7_nightly_reverify`) and must be reconciled by a human — the worker never edits approval flags or phase keys. Until reconciled, the worker treats `phase_5_judgments` as **not approved** (no matching `approved: true` entry exists) and remains idle.
+> **Renumbering note (2026-04-29):** Phase 5 was previously "Retrieval API"; it is now "Judgments ingestion". The former Phase 5/6/7 shifted to 6/7/8. `approvals.yaml` was reconciled by Peter on 2026-04-29: `phase_5_judgments` (approved: true, complete: false), `phase_6_retrieval_api`, `phase_7_integration_brief`, `phase_8_nightly_reverify` (the last three retain their prior approved/complete values).
 
 ## Record schema (summary)
 ```json
