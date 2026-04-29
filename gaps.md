@@ -1546,3 +1546,14 @@ Reason: neither the locked `SUMMARY_PATTERNS` nor any locked
 `PDF_ORDER_ANCHORS` matched in a 800-char window in the relevant raw
 bytes. Per BRIEF.md non-negotiable #1 (no fabrication), no record was
 written. Re-parse on next parser_version bump.
+
+## batch-0353 (Phase 5 ZMCC 2023 sweep, 2026-04-29T18:07:50Z)
+
+- `judgment-zm-2023-zmcc-17` — **PDF 404 at source**. URL: https://zambialii.org/akn/zm/judgment/zmcc/2023/17/eng/source.pdf — HTML on disk; PDF unavailable from ZambiaLII. Hard upstream gap.
+- `zmcc 2023/19` — outcome not inferable under v0.3.0; raw on disk; summary head: "Constitutional Court lacks jurisdiction over redundancy-related salary and damages claims; Industrial Relations Division is competent."
+- `zmcc 2023/18` — outcome not inferable under v0.3.0; raw on disk; summary head: "A district council election can only be annulled by a petition founded on Section 97 of the Electoral Process Act."
+- `zmcc 2023/16` — outcome not inferable under v0.3.0; raw on disk; summary head: "Constitutional Court lacked jurisdiction to entertain a petition challenging nominations and rescinding resignations in parliamentary by-elections."
+- `zmcc 2023/15` — outcome not inferable under v0.3.0; raw on disk; summary head: "Whether the JCC can investigate pre-appointment misconduct and whether failure to follow Article 144 suspension procedure nullifies removal."
+- `zmcc 2023/14` — outcome not inferable under v0.3.0; raw on disk; summary head: "Challenge to DC appointments dismissed for lack of evidence and because employment-related claims lie outside Constitutional Court jurisdiction."
+- `zmcc 2023/13` — outcome not inferable under v0.3.0; raw on disk; summary head: "AG not required to prosecute JCC complaints; JCC procedure and President’s suspension/removal of DPP were lawful."
+- `zmcc 2023/12` — outcome not inferable under v0.3.0; raw on disk; summary head: "Article 165 is prospective; Constitutional Court lacks jurisdiction to decide ordinary chieftaincy succession disputes."
