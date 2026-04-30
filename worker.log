@@ -4157,3 +4157,11 @@ batch-0368: B2 sync deferred to host (rclone not in sandbox)
 2026-04-30T21:40:08Z  batch-0375 integrity_check trivial PASS (no records to check; no JSON written).
 2026-04-30T21:40:08Z  batch-0375 B2 sync deferred to host (rclone not in sandbox).
 2026-04-30T21:40:08Z  batch-0375 SQLite ingestion deferred to host (corpus.sqlite FTS5 malformed-disk-image carry-forward; canonical source remains records/*.json).
+2026-04-30T22:05:30Z  batch-0376 START — Phase 5 reparse-first inventory audit (no fresh fetch, no parser write). Cleared stale .git/*.lock; git pull --ff-only Already up to date.
+2026-04-30T22:05:30Z  batch-0376 inventory snapshot: ZMCC raw 142 / records 53 / missing 89; ZMSC raw 24 / records 24 / missing 0. Phase 5 progress 78/100-160.
+2026-04-30T22:05:30Z  batch-0376 cross-check: all 89 missing ZMCC candidates already deferred in gaps.md under v0.3.1 specific reason codes (html_no_summary_pdf_no_match=115, parser_v0.3.1_judges_no_comma_unhandled=14, pdf_extraction_empty_likely_scanned=10, multi_judge_separate_opinions_no_clear_majority_disposition=2). Legacy outcome_not_inferable_under_tightened_policy=49 all with v0.3.1 follow-ups (spot-checked zmcc/2024/{4,5} via b0344+b0354 chain).
+2026-04-30T22:05:30Z  batch-0376 v0.3.1 reparse inventory CONFIRMED EXHAUSTED. b0375 audit conclusion holds. No parse run executed; would have produced 0/0/0 identical to gaps.md current state.
+2026-04-30T22:05:30Z  batch-0376 idle — awaiting parser_v0.3.2 approval (no v0.3.1-addressable reparse inventory remaining); OCR pipeline approval also pending for 4 scanned-PDF candidates (zmcc/2021/{14,15}, zmcc/2022/16, zmcc/2025/19). Both subject to Peter approval per BRIEF.md non-negotiable on parser changes.
+2026-04-30T22:05:30Z  batch-0376 integrity_check trivial PASS (no records to check; no JSON written).
+2026-04-30T22:05:30Z  batch-0376 B2 sync deferred to host (rclone not in sandbox).
+2026-04-30T22:05:30Z  batch-0376 SQLite ingestion deferred to host (corpus.sqlite FTS5 malformed-disk-image carry-forward; canonical source remains records/*.json).
