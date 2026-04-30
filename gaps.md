@@ -1760,3 +1760,104 @@ stay", "ordered joinder" as standalone disposition tokens, or (b) a
 4th-stage hand-anchored full-text scan over the operative section is
 added. Raw HTML+PDF retained under `raw/zambialii/judgments/zmcc/`
 for that future re-parse.
+
+## Batch 0362 — REPARSE PASS continuation under parser_v0.3.1 (2026-04-30)
+
+Reparse-first triage continuation per approvals.yaml `reparse_first`
+policy. Eight ZMCC raw HTML+PDF pairs already on disk (the next
+slice after b0361, descending through the 2025 backlog) were re-run
+against the locked-in parser_v0.3.1 baseline (`scripts/batch_0362_parse.py`,
+copied from `scripts/batch_0361_parse.py` with only TARGETS slice
++ `_work` directory + version-bump comments — the b0361 specific-
+reason-code refinement carried forward unchanged).
+
+Targeted slice (continuation of deferred queue, year-DESC then num-DESC):
+  zmcc/2025/{22,21,19,18,17,16,15,14}.
+Records written: 0. Records deferred: 8, all with specific reason
+codes (the banned generic `outcome_not_inferable_under_tightened_policy`
+was NOT used). Zero fresh fetches — all raw bytes already on disk.
+
+### New deferrals (raw retained on disk; specific reason codes)
+
+- **[2025] ZMCC 22** (Sean Tembo (in his capacity as Spokesperson)
+  v Attorney General, 2025-11-27). Reason:
+  `html_no_summary_pdf_no_match`. Summary head: "Declaratory relief
+  was academic; transitional Act provisions governed eligibility,
+  and Article 267(3)(b)(c) did not affect the Court's decision."
+  PDF tail extracted but no operative pattern match — the
+  disposition is described in the holding ("declaratory relief was
+  academic"), not in an active-voice operative paragraph the parser
+  recognises. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/22/eng@2025-11-27.
+
+- **[2025] ZMCC 21** (Law Association of Zambia and Ors v The
+  Attorney General, 2025-11-25). Reason:
+  `html_no_summary_pdf_no_match`. Summary head: "Application to
+  suspend a presidentially appointed constitutional Technical
+  Committee dismissed for failing to show irreparable harm." The
+  word "dismissed" appears in the summary but not in a
+  SUMMARY_PATTERN-matchable form (it modifies "Application" via a
+  participial phrase rather than the recognised
+  `(?:application|petition)\s+(?:is\s+)?(?:hereby\s+)?dismissed`
+  pattern). PDF tail had no PDF_TAIL_PATTERN match either. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/21/eng@2025-11-25.
+
+- **[2025] ZMCC 19** (BetBio Zambia Ltd and Anor v Attorney General
+  and Ors, 2025-09-30). Reason:
+  `pdf_extraction_empty_likely_scanned`. pdfplumber extracted
+  effectively no text from the PDF (suggests scanned imagery only);
+  needs an OCR pass before parser can extract operative orders. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/19/eng@2025-09-30.
+
+- **[2025] ZMCC 18** (TC Promotions Limited and Ors v Lusaka City
+  Council, 2025-09-30). Reason: `html_no_summary_pdf_no_match`.
+  Summary head: "Whether a local authority resolution increasing
+  advertising fees is a statutory instrument requiring gazetting and
+  reporting under Articles 67 and 199." Issue-style summary with no
+  disposition keyword; PDF tail no operative-pattern match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/18/eng@2025-09-30.
+
+- **[2025] ZMCC 17** (Isaac Mwaanza, 2025-08-27). Reason:
+  `html_no_summary_pdf_no_match`. Summary head: "Petitioner had
+  standing but challenge to parliamentary vacancy improperly filed
+  in Constitutional Court; vacancy questions fall to High Court /
+  tribunal under section 96 EPA." Summary describes the holding
+  (jurisdictional dismissal implied) but lacks a recognised
+  disposition token. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/17/eng@2025-08-27.
+
+- **[2025] ZMCC 16** (Miles Bwalya Sampa v Attorney General and 4
+  Ors, 2025-08-25). Reason: `html_no_summary_pdf_no_match`. Summary
+  head: "A single judge may grant an extension to file amicus
+  materials; delay condoned in the interests of justice, but costs
+  awarded." Summary describes the procedural ruling without a
+  recognised disposition token; PDF tail no operative-pattern
+  match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/16/eng@2025-08-25.
+
+- **[2025] ZMCC 15** (Tresford Chali v The Judicial Complaints
+  Commission, 2025-07-23). Reason:
+  `html_no_summary_pdf_no_match`. Summary head: "A citizen acting in
+  the public interest has standing to challenge alleged
+  constitutional contraventions before the Constitutional Court."
+  Holding-style summary on standing; the actual disposition
+  (apparently allowed-in-part on standing) is not surfaced as an
+  operative-pattern token. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/15/eng@2025-07-23.
+
+- **[2025] ZMCC 14** (The People v John Sinkamba and Ors,
+  2025-07-28). Reason: `html_no_summary_pdf_no_match`. Summary
+  head: "Article 266 defines a child as any person below eighteen;
+  attaining eighteen confers adult status under the Constitution."
+  Pure ratio-style summary with no disposition token. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/14/eng@2025-07-28.
+
+These eight (seven `html_no_summary_pdf_no_match`, one
+`pdf_extraction_empty_likely_scanned`) can be re-attempted in a
+future tick if either (a) the SUMMARY_PATTERNS lexicon is widened
+to include holding-style disposition tokens (e.g.,
+"declaratory relief refused", "challenge improperly filed",
+"standing recognised", "delay condoned"), (b) a 4th-stage
+hand-anchored full-text scan over the operative section is added,
+or (c) an OCR pass is run on `2025/19` to recover the PDF text.
+Raw HTML+PDF retained under `raw/zambialii/judgments/zmcc/2025/`.
