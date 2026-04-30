@@ -1556,6 +1556,7 @@ written. Re-parse on next parser_version bump.
 - `zmcc 2023/18` — outcome not inferable under v0.3.0; raw on disk; summary head: "A district council election can only be annulled by a petition founded on Section 97 of the Electoral Process Act."
 - `zmcc 2023/16` — outcome not inferable under v0.3.0; raw on disk; summary head: "Constitutional Court lacked jurisdiction to entertain a petition challenging nominations and rescinding resignations in parliamentary by-elections."
 - `zmcc 2023/15` — outcome not inferable under v0.3.0; raw on disk; summary head: "Whether the JCC can investigate pre-appointment misconduct and whether failure to follow Article 144 suspension procedure nullifies removal."
+  - RESOLVED in batch-0366 (parser_v0.3.1, 2026-04-30) — outcome `dismissed`, detail "30] In sum, the Petition fails for the reasons advanced herein" via the `pdf-tail-2pages` numbered-active-voice "Petition fails" pattern. Record ID: `judgment-zm-2023-zmcc-15-joshua-ndipyola-banda-v-attorney-general`.
 - `zmcc 2023/14` — outcome not inferable under v0.3.0; raw on disk; summary head: "Challenge to DC appointments dismissed for lack of evidence and because employment-related claims lie outside Constitutional Court jurisdiction."
 - `zmcc 2023/13` — outcome not inferable under v0.3.0; raw on disk; summary head: "AG not required to prosecute JCC complaints; JCC procedure and President’s suspension/removal of DPP were lawful."
 - `zmcc 2023/12` — outcome not inferable under v0.3.0; raw on disk; summary head: "Article 165 is prospective; Constitutional Court lacks jurisdiction to decide ordinary chieftaincy succession disputes."
@@ -2174,3 +2175,115 @@ disposition tokens (parser_v0.3.2 — pending Peter approval), or
 section is added. Raw HTML+PDF retained under
 `raw/zambialii/judgments/zmcc/{2023,2024}/` for that future
 re-parse.
+
+
+## Batch 0366 — REPARSE PASS continuation under parser_v0.3.1 (2026-04-30)
+
+Reparse-first triage continuation per approvals.yaml `reparse_first`
+policy. Eight ZMCC candidates from the 2023 backlog (year-DESC then
+num-DESC, raw-on-disk no-record) were re-run against the locked-in
+parser_v0.3.1 baseline (`scripts/batch_0366_parse.py`, copied from
+`scripts/batch_0365_parse.py` with TARGETS slice change + `_work`
+directory bump only — no logic changes).
+
+Targeted slice: zmcc/2023/{21,20,19,18,17,16,15,14}.
+Records written: 1 (`zmcc/2023/15` — Joshua Ndipyola Banda v
+Attorney General) — via the `pdf-tail-2pages` fallback. Records
+deferred: 7 (six under specific code `html_no_summary_pdf_no_match`,
+one under `raw bytes not on disk` for zmcc/2023/17 whose PDF was
+never captured during earlier sweeps). Zero fresh fetches — all raw
+bytes already on disk.
+
+### Resolved (raw retained per audit policy)
+
+- **[2023] ZMCC 15** (Joshua Ndipyola Banda v Attorney General,
+  2022/CCZ/0010, 2023-10-26): RESOLVED in batch-0366 (parser_v0.3.1)
+  — outcome `dismissed`, detail "30] In sum, the Petition fails for
+  the reasons advanced herein" via the `pdf-tail-2pages`
+  numbered-active-voice "Petition fails" pattern. Record ID:
+  `judgment-zm-2023-zmcc-15-joshua-ndipyola-banda-v-attorney-general`.
+  Supersedes the b0354-era line "outcome not inferable under v0.3.0"
+  deferral.
+
+### Re-deferrals (raw retained on disk; specific reason codes; supersede earlier generic deferrals)
+
+Six were previously deferred under the now-superseded line "outcome
+not inferable under v0.3.0". They remain deferred under the specific
+`html_no_summary_pdf_no_match` code following the parser_v0.3.1
+retry, which exhausted SUMMARY_PATTERNS, PDF_ORDER_ANCHORS, and
+PDF_TAIL_PATTERNS without a safe match.
+
+- **[2023] ZMCC 21** (John Sangwa v The Attorney General,
+  2023-10-27). Reason: `html_no_summary_pdf_no_match`. Summary head:
+  "Section 30 CCA is constitutional; costs in constitutional
+  litigation may be awarded only for frivolous, vexatious, or
+  abusive conduct." Issue/holding-style summary; PDF tail no match.
+  URL: https://zambialii.org/akn/zm/judgment/zmcc/2023/21/eng@2023-10-27.
+
+- **[2023] ZMCC 20** (Leslie Mbula v Attorney General and Anor,
+  2023-10-26). Reason: `html_no_summary_pdf_no_match`. Summary head:
+  "An allegation that a person’s conduct contravenes the
+  Constitution must be commenced by petition; originating summons
+  was unsuitable and dismissed." Token "dismissed" appears but in
+  a subordinate-clause context that does not match the operative
+  SUMMARY_PATTERNS lexicon; PDF tail no match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2023/20/eng@2023-10-26.
+
+- **[2023] ZMCC 19** (Tresford Mubanga v ZESCO Limited,
+  2023-10-26). Reason: `html_no_summary_pdf_no_match`. Summary head:
+  "Constitutional Court lacks jurisdiction over redundancy-related
+  salary and damages claims; Industrial Relations Division is
+  competent." Pure-jurisdiction holding summary; PDF tail no match.
+  URL: https://zambialii.org/akn/zm/judgment/zmcc/2023/19/eng@2023-10-26.
+
+- **[2023] ZMCC 18** (Patrick Banda v The Electoral Commission and
+  Ors, 2023-10-02). Reason: `html_no_summary_pdf_no_match`. Summary
+  head: "A district council election can only be annulled by a
+  petition founded on Section 97 of the Electoral Process Act."
+  Holding-only summary, no recognised disposition token; PDF tail
+  no match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2023/18/eng@2023-10-02.
+
+- **[2023] ZMCC 16** (Institute of Law, Policy Research and Human
+  Rights, 2023-07-11). Reason: `html_no_summary_pdf_no_match`.
+  Summary head: "Constitutional Court lacked jurisdiction to
+  entertain a petition challenging nominations and rescinding
+  resignations in parliamentary by-elections." Pure-jurisdiction
+  holding summary; PDF tail no match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2023/16/eng@2023-07-11.
+
+- **[2023] ZMCC 14** (Martin Chilukwa v The Attorney General,
+  2023-03-10). Reason: `html_no_summary_pdf_no_match`. Summary head:
+  "Challenge to DC appointments dismissed for lack of evidence and
+  because employment-related claims lie outside Constitutional
+  Court jurisdiction." Token "dismissed" appears in subject-side
+  framing not matched by SUMMARY_PATTERNS; PDF tail no match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2023/14/eng@2023-03-10.
+
+### New deferral — missing raw PDF
+
+- **[2023] ZMCC 17** (Nickson Chilangwa in his capacity as
+  Secretary General, 2023-03-09). Reason: `raw bytes not on disk`
+  (the raw HTML is on disk from earlier sweeps but the PDF was
+  never captured — the case is the lone exception in the 2023/14-21
+  slice). Future remediation: a single targeted fetch of
+  https://zambialii.org/akn/zm/judgment/zmcc/2023/17/eng@2023-03-09/source.pdf
+  (subject to fetch-budget policy) will unblock a parser_v0.3.1
+  reparse. Raw HTML retained at
+  raw/zambialii/judgments/zmcc/2023/judgment-zm-2023-zmcc-17-nickson-chilangwa-in-his-capacity-as-secretary-gen.html.
+
+### Pattern note
+
+Five-tick reparse trend (b0361..b0366 yields 2,0,0,2,3,1 = 8/47 ≈
+17.0%) — the `pdf-tail-2pages` fallback continues to rescue a
+non-trivial fraction; the dominant deferral mode for the 2023
+backlog remains `html_no_summary_pdf_no_match` driven by ratio- or
+issue-style summaries with no operative disposition token in the
+tail PDF text. Recommendation logged in `reports/batch-0366.md`
+"Next tick" section: continue confirmatory reparse on
+zmcc/2023/{13,12,10,8,6,5,4,3} (the next eight raw-on-disk
+no-record candidates) before pivoting to (a) parser_v0.3.2
+vocabulary widening (subject to Peter's approval) or (b) an OCR
+pass for the three `pdf_extraction_empty_likely_scanned` candidates
+accumulated to date (zmcc/2021/{15,14}, zmcc/2025/19) plus a single
+targeted fetch for zmcc/2023/17.
