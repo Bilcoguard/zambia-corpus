@@ -2336,3 +2336,109 @@ approval on parser_v0.3.2 vocabulary widening. Subsequent ticks
 should still consider the OCR pass for
 `pdf_extraction_empty_likely_scanned` candidates (zmcc/2021/{15,14},
 zmcc/2025/19) and the single targeted fetch for zmcc/2023/17 PDF.
+
+## Batch 0368 (2026-04-30) — Phase 5 reparse-first continuation, parser_v0.3.1
+
+This batch pivoted from the now-swept 2023 ZMCC backlog to the 2022
+ZMCC backlog. Eight raw-on-disk no-record candidates re-parsed,
+zero fresh fetches, zero records written. **A previously-undetected
+parser limitation surfaced for 2022-era ZMCC HTML and is now logged
+with a specific reason code so a future parser_v0.3.2 vocabulary
+widening can target it directly.**
+
+**Newly-discovered parser limitation (b0368):** the 2022 ZMCC
+HTML uses *space*-separated judge strings (e.g.,
+`Chibomba PC Mulenga JCC Musaluke JCC Chisunka JCC Mulongoti JCC`)
+whereas the 2023+ ZMCC HTML — which the parser was designed
+against — uses *comma*-separated strings (e.g.,
+`Munalula PC , Mulenga JJC , Mulongoti JJC , Mwandenga JJC ,
+Mulife JJC`). `parse_judges()` splits only on commas, so a
+no-comma string collapses into a single bogus entry whose name
+is the last token. A defensive guard added in
+`scripts/batch_0368_parse.py` (no parser-vocabulary change; purely
+detects-and-defers) flags `len(judges)==1 and ≥2 title tokens in
+raw text` and defers the candidate with reason
+`parser_v0.3.1_judges_no_comma_unhandled` per
+approvals.yaml `deferral_reasons_locked` template
+`parser_v<X.Y.Z>_<token>_unhandled`. **No corrupt record was
+committed.** Three transient bad records that briefly hit
+`records/judgments/zmcc/2022/` before the guard was added were
+moved to `_stale_b0368_bad_records/` (mirrors the b0343 quarantine
+precedent) and the registry diff was reverted.
+
+### Deferred candidates this batch
+
+- **[2022] ZMCC 34** (Chanda v Lukonde, 2022-02-15) — reason:
+  `parser_v0.3.1_judges_no_comma_unhandled`. Raw judges_text:
+  `Chibomba PC Mulenga JCC Musaluke JCC Chisunka JCC Mulongoti JCC`.
+  Outcome would have been `overturned` per pdf-tail-2pages
+  ("we set aside" pattern) — held for re-parse once the judges
+  vocab is widened. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/34/eng@2022-02-15.
+
+- **[2022] ZMCC 33** (Chewe v Mucheleka and Anor, 2022-05-05) —
+  reason: `html_no_summary_pdf_no_match`. Summary head
+  ("Appellate court reversed nullification: petitioners failed to
+  prove widespread, high-standard electoral malpractice…") uses
+  the verb "reversed nullification" which is not in
+  `SUMMARY_PATTERNS` and the PDF tail did not match either.
+  URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/33/eng@2022-05-05.
+
+- **[2022] ZMCC 32** (Mwamba v Chewe and Anor, 2022-07-15) —
+  reason: `parser_v0.3.1_judges_no_comma_unhandled`. Raw
+  judges_text: `Munalula JCC Sitali JCC Mulenga JCC Musaluke JCC
+  Mulongoti JCC`. Outcome would have been `dismissed` per
+  pdf-tail-2pages pattern. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/32/eng@2022-07-15.
+
+- **[2022] ZMCC 31** (Mutwena v Attorney, 2022-01-19) — reason:
+  `html_no_summary_pdf_no_match`. Summary describes a refusal to
+  interpret Article 52(6) on the basis of a speculative challenge.
+  URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/31/eng@2022-01-19.
+
+- **[2022] ZMCC 30** (Sikazwe v Attorney General and Anor,
+  2022-11-11) — reason: `html_no_summary_pdf_no_match`. Summary
+  describes joinder refused; the operative verb "joinder refused"
+  is not in `SUMMARY_PATTERNS`. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/30/eng@2022-11-11.
+
+- **[2022] ZMCC 27** (Sangwa v Attorney General, 2022-11-10) —
+  reason: `html_no_summary_pdf_no_match`. Mixed-disposition
+  summary ("Court dismisses functus officio objection and allows
+  constitutional challenge to section 30 (costs) to proceed to
+  hearing") — interlocutory order; not a final disposition.
+  URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/27/eng@2022-11-10.
+
+- **[2022] ZMCC 25** (Institute of Law, Policy Research and Human
+  Rights, 2022-10-21) — reason:
+  `parser_v0.3.1_judges_no_comma_unhandled`. Raw judges_text:
+  `Munalula JCC Mulenga JCC Musaluke JCC Chisunka JCC`. Outcome
+  would have been `dismissed` per pdf-tail-2pages pattern. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/25/eng@2022-10-21.
+
+- **[2022] ZMCC 24** (Kanengo v Attorney General and Anor,
+  2022-10-20) — reason: `html_no_summary_pdf_no_match`. Summary
+  is interpretive ("The 21-day constitutional time limit…cannot
+  be stopped or extended by any court or authority") with no
+  operative disposition verb. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/24/eng@2022-10-20.
+
+### Recommendation
+
+The dominant unblock for the 2022 ZMCC backlog is parser_v0.3.2
+vocabulary widening, addressing both:
+1. **Judges parsing** — accept space-separated `<NAME> <TITLE>`
+   tuples in addition to comma-separated form. This alone unlocks
+   3 of the 8 candidates above (and likely most of the 27
+   remaining 2022 ZMCC raw-on-disk candidates).
+2. **Operative-verb vocabulary** — add verbs/phrases like
+   `reverse the nullification`, `refuse to interpret`,
+   `joinder is refused`, `objection is dismissed and the
+   challenge allowed to proceed`, and interpretive declaratory
+   patterns ("cannot be stopped or extended"). This alone unlocks
+   the remaining 5 above.
+
+Subject to Peter's approval per the BRIEF.md non-negotiable on
+parser vocabulary changes; until then, the candidates are
+correctly held with specific deferral codes and the raw bytes
+remain on disk for cost-free re-parsing once v0.3.2 is live.
