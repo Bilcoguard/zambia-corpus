@@ -1,0 +1,56 @@
+{
+  "id": "judgment-zm-2021-zmcc-20-autry-chanda-v-the-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "AUTRY CHANDA V THE ATTORNEY GENERAL (2021/CCZ/0039) [2021] ZMCC 20 (24 November 2021)",
+  "citation": "[2021] ZMCC 20",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "AUTRY CHANDA V THE ATTORNEY GENERAL",
+  "case_number": "2021/CCZ/0039",
+  "date_decided": "2021-11-24",
+  "judges": [
+    {
+      "name": "Mulonda",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Sitali",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Munalula",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional jurisdiction",
+    "Article 118(1) and 118(2)(e)",
+    "procedural technicalities",
+    "enforcement of court rules",
+    "Rule 48(5) time limits",
+    "discretionary dismissal by Supreme Court",
+    "limits on Constitutional Court review."
+  ],
+  "outcome": "upheld",
+  "outcome_detail": "Constitutional Court upheld enforcement of Supreme Court time limits, holding procedural rules cannot be bypassed as mere technicalities",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "25bab5771c92b4ab97ed5f88f4664049e7d6dd49bff286186a4120e33d01c503",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2021/20/eng@2021-11-24",
+  "source_hash": "sha256:e6d82cb1ad8b76ead310cc5a6e4de9aedbbb7d3ecae16878ac0410e5054f58c5",
+  "fetched_at": "2026-04-29T21:08:47Z",
+  "parser_version": "0.3.0"
+}

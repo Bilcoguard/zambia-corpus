@@ -137,9 +137,13 @@ judges:
   - title: JCC
     first_seen_in: judgment-zm-2023-zmcc-01-yamba-v-principal-resident-magistrate
     first_seen_at: '2026-04-29T19:08:12Z'
+  - title: JJC
+    first_seen_in: judgment-zm-2021-zmcc-20-autry-chanda-v-the-attorney-general
+    first_seen_at: '2026-04-29T21:08:48Z'
   aliases:
   - Munalula PC
   - Munalula JCC
+  - Munalula JJC
   first_seen: '2026-04-29T13:10:17Z'
 - canonical_name: Musaluke
   titles:
@@ -203,6 +207,10 @@ judges:
   - title: JC
     first_seen_in: judgment-zm-2024-zmcc-14-michelo-chizombe-v-edgar-chagwa-lungu-and-ors
     first_seen_at: '2026-04-29T16:06:58Z'
+  - title: JJC
+    first_seen_in: judgment-zm-2021-zmcc-20-autry-chanda-v-the-attorney-general
+    first_seen_at: '2026-04-29T21:08:48Z'
   aliases:
   - Sitali JC
+  - Sitali JJC
   first_seen: '2026-04-29T16:06:58Z'

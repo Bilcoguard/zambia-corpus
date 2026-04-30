@@ -1598,3 +1598,39 @@ Reason: each summary frames the constitutional / legal question without
 matching a top-level disposition regex. Per BRIEF.md non-negotiable #1
 (no fabrication), no record written. Will be re-considered if the
 parser policy is loosened or a higher-version parser is adopted.
+
+## batch-0359 deferrals (parser_v0.3.0 tightened policy)
+
+Six of eight ZMCC candidates fetched in b0359 deferred under
+`outcome_not_inferable_under_tightened_policy`. Raw HTML+PDF retained on
+disk for re-parse without re-fetch when (or if) the parser policy is
+loosened or a higher-version parser is adopted. None of these are
+*hard* gaps — the upstream sources are healthy.
+
+| Court | Year/# | Slug | Notes |
+|-------|--------|------|-------|
+| ZMCC | 2022/03 | shah-and-anor-v-the-attorney-general | summary frames issue, no top-level disposition regex match |
+| ZMCC | 2022/02 | lieutenant-muchindu-v-attorney-general | summary frames issue |
+| ZMCC | 2022/01 | chapter-one-foundation-ltd-v-attorney-general | summary frames issue |
+| ZMCC | 2021/21 | mulubisha-v-attorney-general | summary frames issue |
+| ZMCC | 2021/19 | wang-shunxue-and-attorney-general-and-another | summary frames issue |
+| ZMCC | 2021/18 | chapter-one-foundation-limited-and-ors-v-the-attorney-general | summary frames issue |
+
+Top of ZMCC 2021 confirmed at 2021/24 (2021/25 returns HTTP 404 upstream).
+2021/{24,23} not yet fetched — first targets of the next tick.
+
+### batch-0359 parser bug (JJS title) — 2021/22 recovered, defer until parser fix
+
+Parser v0.3.0 mishandled `Chibomba JJS` (Hilda Chibomba was previously JS — Supreme Court — and had used the JJS title before becoming PC of the Constitutional Court). The parser's title regex
+`PC|DPC|CJ|DCJ|JCC|JJC|JC|JS|JA|J|JJ|JJA` does NOT include `JJS`, so the
+last-token fallback produced canonical `Jjs` from the title fragment.
+
+Action this tick: deleted the bad record `judgment-zm-2021-zmcc-22-bozy-simutanda-as-attorney-for-his-royal-highness.json` and reverted the spurious `Jjs` registry entry. 2021/22 deferred under
+`parser_v0.3.0_jjs_title_unhandled`. Raw HTML+PDF retained on disk
+(html sha256:9837e53618ae5525..., pdf sha256:d2fc958426afa436...).
+
+Suggested fix for next parser version (0.3.1):
+- Add `JJS` to `parse_one_judge`'s title regex (Constitutional Court
+  alternative spelling for retired/older Supreme Court justices).
+- Re-run on this raw on disk to recover Chibomba's record without
+  re-fetch.
