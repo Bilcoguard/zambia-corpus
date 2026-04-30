@@ -5177,3 +5177,4 @@
 {"date": "2026-04-30", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2021/12/eng@2021-06-30", "bytes": 66260, "batch": "0360", "kind": "judgment-html"}
 {"date": "2026-04-30", "url": "https://zambialii.org/akn/zm/judgment/zmcc/2021/12/eng@2021-06-30/source.pdf", "bytes": 42779339, "batch": "0360", "kind": "judgment-pdf"}
 2026-04-30T03:11:30Z  batch-0360 complete: 5 written / 3 deferred (parser_v0.3.1; pdf-tail-2pages fallback rescued 3 of 5 records). Phase 5 progress 35/100-160. B2 sync deferred to host.
+2026-04-30T15:43:39Z  batch-0361 complete: 2 written / 6 deferred (parser_v0.3.1 reparse-first; 2 of 2 records came from pdf-tail-2pages fallback; 0 fresh fetches). Phase 5 progress 37/100-160. B2 sync deferred to host.

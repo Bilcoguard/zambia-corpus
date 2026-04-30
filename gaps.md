@@ -1674,3 +1674,89 @@ future targeted re-parse / OCR.
   phrase; the case appears to involve multiple separate opinions.
   Reason: `multi_judge_separate_opinions_no_clear_majority_disposition`.
   Needs majority-view inference logic (future parser version).
+
+## Batch 0361 — REPARSE PASS under parser_v0.3.1 (2026-04-30)
+
+Reparse-first triage per approvals.yaml `reparse_first` policy. Eight
+ZMCC raw HTML+PDF pairs already on disk (deferred in earlier batches
+under the now-superseded `outcome_not_inferable_under_tightened_policy`
+generic reason) were re-run against the locked-in parser_v0.3.1
+baseline (`scripts/batch_0361_parse.py`, copied byte-near-identical
+from `scripts/batch_0360_parse.py` with TARGETS slice change and a
+diagnostic refinement to emit specific deferral reason codes per
+`approvals.yaml` `deferral_reasons_locked`).
+
+Targeted slice (top of deferred queue, year-DESC then num-DESC):
+  zmcc/2026/1, zmcc/2025/{33,32,30,28,25,24,23}.
+Records written: 2 (`zmcc/2025/30`, `zmcc/2025/23`) — both via the
+new `pdf-tail-2pages` fallback. Records deferred: 6, all with the
+specific code `html_no_summary_pdf_no_match` (no SUMMARY_PATTERN,
+PDF_ORDER_ANCHOR, or PDF_TAIL_PATTERN match). Zero fresh fetches —
+all raw bytes were already on disk.
+
+### Resolved (raw retained per audit policy)
+
+- **[2025] ZMCC 30** (Legal Resources Foundation Limited v The
+  Attorney General, 2025/CCZ/0021, 2025-12-11): RESOLVED in
+  batch-0361 (parser_v0.3.1) — outcome `allowed`, detail "conservatory
+  order is not granted and the Petition succeeds" (via
+  `pdf-tail-2pages` "Petition succeeds" pattern). Record ID:
+  `judgment-zm-2025-zmcc-30-legal-resources-foundation-limited-v-the-attorney`.
+
+- **[2025] ZMCC 23** (Emmanuel Kayuni and Anor v The Attorney General
+  and Ors, 2025/CCZ/001, 2025-11-27): RESOLVED in batch-0361
+  (parser_v0.3.1) — outcome `dismissed`, detail "[75] The petition is
+  dismissed for want of jurisdiction" (via `pdf-tail-2pages` numbered
+  closing-order pattern). Record ID:
+  `judgment-zm-2025-zmcc-23-emmanuel-kayuni-suing-as-administrator-of-the-esta`.
+
+### New deferrals (raw retained on disk; specific reason codes)
+
+- **[2026] ZMCC 1** (Tresford Chali v The Judicial Complaints
+  Commission, 2026-01-20). Reason: `html_no_summary_pdf_no_match`.
+  Summary head: "A challenge to the JCC's report and removals must
+  proceed by judicial review in the High Court, not by original
+  petition here." PDF tail extracted but no operative pattern match.
+  URL: https://zambialii.org/akn/zm/judgment/zmcc/2026/1/eng@2026-01-20.
+
+- **[2025] ZMCC 33** (Miles Bwalya Sampa v The Attorney General and
+  Ors, 2025-12-18). Reason: `html_no_summary_pdf_no_match`. Summary
+  head: "Issuance of newly created shares (subscription) did not
+  amount to disposal of State equity triggering Article 210
+  parliamentary approval." URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/33/eng@2025-12-18.
+
+- **[2025] ZMCC 32** (The Law Association of Zambia and Ors v The
+  Attorney General, 2025-12-16). Reason:
+  `html_no_summary_pdf_no_match`. Summary head: "Renewal before the
+  full Court is the proper route to challenge a single judge's
+  interlocutory ruling; late conservatory relief denied." URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/32/eng@2025-12-16.
+
+- **[2025] ZMCC 28** (Brian Mundubile and Anor v Hakainde Hichilema
+  and Anor, 2025-12-05). Reason: `html_no_summary_pdf_no_match`.
+  Summary head: "The Court held that constitutional challenges
+  implicating the President must proceed against the Attorney-General;
+  the President has immunity from personal civil suits." URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/28/eng@2025-12-05.
+
+- **[2025] ZMCC 25** (Tresford Chali v Attorney General, 2025-12-04).
+  Reason: `html_no_summary_pdf_no_match`. Summary head: "Court refused
+  stay of Speaker's vacancy ruling absent special and convincing
+  grounds; merits not to be decided interlocutorily." URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/25/eng@2025-12-04.
+
+- **[2025] ZMCC 24** (The Law Association of Zambia v The Speaker of
+  the National Assembly, 2025-11-28). Reason:
+  `html_no_summary_pdf_no_match`. Summary head: "The Constitutional
+  Court held the Attorney General may represent the Speaker as the
+  legal representative of 'Government' and ordered joinder of the
+  Attorney General." URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/24/eng@2025-11-28.
+
+These six can be re-attempted in a future tick if either (a) the
+SUMMARY_PATTERNS lexicon is widened to include "denied", "refused
+stay", "ordered joinder" as standalone disposition tokens, or (b) a
+4th-stage hand-anchored full-text scan over the operative section is
+added. Raw HTML+PDF retained under `raw/zambialii/judgments/zmcc/`
+for that future re-parse.

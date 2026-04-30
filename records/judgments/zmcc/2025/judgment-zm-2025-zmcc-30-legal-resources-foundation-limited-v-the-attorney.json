@@ -1,0 +1,37 @@
+{
+  "id": "judgment-zm-2025-zmcc-30-legal-resources-foundation-limited-v-the-attorney",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Legal Resources Foundation Limited v The Attorney General (2025/CCZ/0021) [2025] ZMCC 30 (11 December 2025)",
+  "citation": "[2025] ZMCC 30",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Legal Resources Foundation Limited v The Attorney General",
+  "case_number": "2025/CCZ/0021",
+  "date_decided": "2025-12-11",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "interim/conservatory relief",
+    "judicial appointments",
+    "transparency, merit and inclusivity",
+    "prima facie case",
+    "irreparable harm",
+    "public interest",
+    "recommendatory role of Judicial Service Commission."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "conservatory order is not granted and the Petition succeeds",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "c6293854867046fd610533e1ee0e04658e7547dc1fd1bcce2069048206d5a792",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/30/eng@2025-12-11",
+  "source_hash": "sha256:50a4f106d6097c2fe7b65d6b1aa443869193100165ae2b43bf77ba2aa0c2d9d9",
+  "fetched_at": "2026-04-30T15:40:16Z",
+  "parser_version": "0.3.1"
+}
