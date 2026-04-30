@@ -1,0 +1,54 @@
+{
+  "id": "judgment-zm-2025-zmcc-01-dr-godfrey-hampwaya-and-ors-v-the-council-of-the-u",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Dr. Godfrey Hampwaya  and Ors v The Council of the University of Zambia (2023/CCZ/0027) [2025] ZMCC 1 (13 February 2025)",
+  "citation": "[2025] ZMCC 1",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Dr. Godfrey Hampwaya  and Ors v The Council of the University of Zambia",
+  "case_number": "2023/CCZ/0027",
+  "date_decided": "2025-02-13",
+  "judges": [
+    {
+      "name": "Musaluke",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Pensions: Article 187 and 189",
+    "No retrospective application to retirees before 2016 amendment; Pension law",
+    "LASF membership limited to specified public bodies; Private occupational pension schemes (ZSIC) regulated by PSRA; Jurisdiction",
+    "Constitutional Court not forum for private employment/pension disputes; Administrative policy (FIFO) not inherently unconstitutional."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "1] The petition is dismissed for lack of merit",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "a95484640c144b04d0c93352bd56e0ac48896eaa9c7ea423acd32b4f83d731d2",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/1/eng@2025-02-13",
+  "source_hash": "sha256:24fc3d6452aaa0e4193d5521b2c9f2aab315ffd146dadd7de5b93fba817bf959",
+  "fetched_at": "2026-04-30T16:35:05Z",
+  "parser_version": "0.3.1"
+}

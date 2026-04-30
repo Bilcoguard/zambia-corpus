@@ -1474,6 +1474,7 @@ All raw HTML+PDF persisted under `raw/zambialii/judgments/zmcc/2025/`. Deferrals
 - [2025] ZMCC 6 — Miles Bwalya Sampa v AG (2025-03-24) — 'denied' not on enum
 - [2025] ZMCC 5 — Miza Phiri Jr v Mwanza & Ors (2025-03-24) — procedural ratio, no enum verb
 - [2025] ZMCC 3 — Petrushika Trading v AG (2025-03-06) — verb 'dismissed' present but subject 'Challenge' is not in locked SUMMARY_PATTERNS subject vocabulary; not loosened mid-tick
+  - RESOLVED in batch-0364 (parser_v0.3.1, 2026-04-30) — outcome `dismissed`, detail "Petition fails and is hereby dismissed" via the `pdf-tail-2pages` fallback. Record ID: `judgment-zm-2025-zmcc-03-petrushika-trading-limited-v-the-attorney-general`.
 
 ## 2026-04-29 batch-0348 deferrals (parser_version 0.3.0)
 
@@ -1486,6 +1487,7 @@ Deferrals to be revisited once the parser supports hand-anchored PDF order parag
 
 - [2025] ZMCC 2 — https://zambialii.org/akn/zm/judgment/zmcc/2025/2/eng@2025-02-06 — outcome_not_inferable_under_tightened_policy; summary head: Constitutional values alone do not found Constitutional Court jurisdiction; a specific constitutional question is required.
 - [2025] ZMCC 1 — https://zambialii.org/akn/zm/judgment/zmcc/2025/1/eng@2025-02-13 — outcome_not_inferable_under_tightened_policy; summary head: Applicants who retired before 2016 cannot rely on Article 189; their pension disputes against respondent are private law matters.
+  - RESOLVED in batch-0364 (parser_v0.3.1, 2026-04-30) — outcome `dismissed`, detail "1] The petition is dismissed for lack of merit" via the `pdf-tail-2pages` fallback (numbered closing-order pattern). Record ID: `judgment-zm-2025-zmcc-01-dr-godfrey-hampwaya-and-ors-v-the-council-of-the-u`.
 - [2024] ZMCC 27 — https://zambialii.org/akn/zm/judgment/zmcc/2024/27/eng@2024-12-10 — outcome_not_inferable_under_tightened_policy; summary head: Whether transitional savings preserved the repealed term‑limit regime, rendering the former president ineligible for future presidential elections.
 - [2024] ZMCC 25 — https://zambialii.org/akn/zm/judgment/zmcc/2024/25/eng@2024-11-13 — outcome_not_inferable_under_tightened_policy; summary head: Originating summons for abstract interpretation of Article 74(2) dismissed as the dispute is personalized, contentious and requires trial.
 - [2024] ZMCC 23 — https://zambialii.org/akn/zm/judgment/zmcc/2024/23/eng@2024-10-29 — outcome_not_inferable_under_tightened_policy; summary head: An interim stay cannot be granted where the presidential suspension has already been implemented; single judge declined to decide standing.
@@ -1961,3 +1963,105 @@ widened to recognise additional disposition tokens including
 (parser_v0.3.2 — pending Peter approval), or (b) a 4th-stage
 hand-anchored full-text scan over the operative section is added.
 Raw HTML+PDF retained under `raw/zambialii/judgments/zmcc/2025/`.
+
+## Batch 0364 — REPARSE PASS continuation under parser_v0.3.1 (2026-04-30)
+
+Reparse-first triage continuation per approvals.yaml `reparse_first`
+policy. Eight ZMCC raw HTML+PDF pairs already on disk (the next
+slice after b0363, descending through the 2025-then-2024 backlog)
+were re-run against the locked-in parser_v0.3.1 baseline
+(`scripts/batch_0364_parse.py`, copied from
+`scripts/batch_0363_parse.py` with TARGETS slice change + `_work`
+directory bump only).
+
+Targeted slice (year-DESC then num-DESC, raw-on-disk no-record):
+  zmcc/2025/{03,02,01}, zmcc/2024/{08,07,06,05,04}.
+(zmcc/2025/04 and zmcc/2024/09 already had records and were skipped
+by the SKIP-existing guard at parse time, not counted in the 8.)
+Records written: 2 (`zmcc/2025/03`, `zmcc/2025/01`) — both via the
+`pdf-tail-2pages` fallback. Records deferred: 6, all under the
+specific code `html_no_summary_pdf_no_match`. Zero fresh fetches —
+all raw bytes were already on disk.
+
+### Resolved (raw retained per audit policy)
+
+- **[2025] ZMCC 3** (Petrushika Trading Limited v The Attorney
+  General, 2024/CCZ/0012, 2025-03-06): RESOLVED in batch-0364
+  (parser_v0.3.1) — outcome `dismissed`, detail "Petition fails
+  and is hereby dismissed" via the `pdf-tail-2pages`
+  passive-voice "petition…dismissed" pattern. Record ID:
+  `judgment-zm-2025-zmcc-03-petrushika-trading-limited-v-the-attorney-general`.
+  Supersedes the b0347 deferral note "verb 'dismissed' present but
+  subject 'Challenge' is not in locked SUMMARY_PATTERNS subject
+  vocabulary; not loosened mid-tick" — the parser_v0.3.1
+  pdf-tail-2pages stage finds the operative line in the PDF
+  closing pages without the parser baseline being loosened.
+
+- **[2025] ZMCC 1** (Dr. Godfrey Hampwaya and Ors v The Council of
+  the University of Zambia, 2025-02-13): RESOLVED in batch-0364
+  (parser_v0.3.1) — outcome `dismissed`, detail "1] The petition
+  is dismissed for lack of merit" via the `pdf-tail-2pages`
+  numbered-closing-order pattern. Record ID:
+  `judgment-zm-2025-zmcc-01-dr-godfrey-hampwaya-and-ors-v-the-council-of-the-u`.
+  Supersedes the b0348 generic
+  `outcome_not_inferable_under_tightened_policy` deferral.
+
+### Re-deferrals (raw retained on disk; specific reason codes; supersede earlier generic deferrals)
+
+All six were previously deferred under the now-superseded generic
+`outcome_not_inferable_under_tightened_policy`. They remain
+deferred under the specific `html_no_summary_pdf_no_match` code
+following the parser_v0.3.1 retry, which exhausted SUMMARY_PATTERNS,
+PDF_ORDER_ANCHORS, and PDF_TAIL_PATTERNS without a safe match.
+
+- **[2025] ZMCC 2** (Godfrey Shamanena v Anti-Corruption Commission,
+  2025-02-06). Reason: `html_no_summary_pdf_no_match`. Summary
+  head: "Constitutional values alone do not found Constitutional
+  Court jurisdiction; a specific constitutional question is
+  required." URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/2/eng@2025-02-06.
+
+- **[2024] ZMCC 8** (Dr. Godfrey Hampwaye and Ors v The Council of
+  the University of Zambia, 2024-06-07). Reason:
+  `html_no_summary_pdf_no_match`. Summary head: "Notice of motion
+  dismissed because respondent's answer lacked the mandatory
+  opposing affidavit, depriving Court of jurisdiction under Order
+  14A." URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2024/8/eng@2024-06-07.
+
+- **[2024] ZMCC 7** (Sandras Samakayi v Attorney General,
+  2024-06-06). Reason: `html_no_summary_pdf_no_match`. Summary
+  head: "A judicial officer who declines retirement at 55 may only
+  retire upon attaining 65, not at any intervening age." URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2024/7/eng@2024-06-06.
+
+- **[2024] ZMCC 6** (Conservation Advocates Zambia Limited v The
+  Attorney General, 2024-04-16). Reason:
+  `html_no_summary_pdf_no_match`. Summary head: "Petition
+  challenging tourism concession allocations dismissed as
+  statutory, not constitutional, matters; statutory remedies and
+  ordinary courts appropriate." URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2024/6/eng@2024-04-16.
+
+- **[2024] ZMCC 5** (Milingo Lungu v The Attorney General and
+  Another, 2024-03-15). Reason: `html_no_summary_pdf_no_match`.
+  Summary head: "The Constitutional Court lacks power to stay
+  subordinate criminal proceedings; the single judge's stay was
+  nullified and discharged." URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2024/5/eng@2024-03-15.
+
+- **[2024] ZMCC 4** (Moses Sakala v The Attorney General and
+  Another, 2024-02-23). Reason: `html_no_summary_pdf_no_match`.
+  Summary head: "Intended Party joined as 3rd Respondent because
+  the reliefs directly affect him; no costs awarded." URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2024/4/eng@2024-02-23.
+
+These six can be re-attempted in a future tick if either (a) the
+SUMMARY_PATTERNS / PDF_TAIL_PATTERNS lexicon is widened to recognise
+"notice of motion dismissed", "stay…nullified and discharged",
+"joined as", "may only retire", "tourism concession allocations
+dismissed as statutory" subject/disposition tokens (parser_v0.3.2 —
+pending Peter approval), or (b) a 4th-stage hand-anchored full-text
+scan over the operative section is added. Raw HTML+PDF retained
+under `raw/zambialii/judgments/zmcc/{2024,2025}/` for that future
+re-parse.

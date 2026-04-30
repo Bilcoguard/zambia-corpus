@@ -1,0 +1,42 @@
+{
+  "id": "judgment-zm-2025-zmcc-03-petrushika-trading-limited-v-the-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Petrushika Trading Limited v The Attorney General (2024/CCZ/0012) [2025] ZMCC 3 (6 March 2025)",
+  "citation": "[2025] ZMCC 3",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Petrushika Trading Limited v The Attorney General",
+  "case_number": "2024/CCZ/0012",
+  "date_decided": "2025-03-06",
+  "judges": [
+    {
+      "name": "Chisunka",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "execution against the State",
+    "State Proceedings Act s21(4) and s21(1)–(3); judicial delay (Art.118(2)(b)); applicability of Art.160 (local authorities); remedies against the State (mandamus, Public Finance Management Act, Compensation Fund); requirement to plead sufficient facts when challenging constitutionality."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Petition fails and is hereby dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "d4b24e0995204c997e3c79ab0418fb77c7542bc5433a31e32d26d269cbc04fed",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/3/eng@2025-03-06",
+  "source_hash": "sha256:147fdd4c20cff1767335cc65e08924393369a9f7dee31a89d60a80671bac875a",
+  "fetched_at": "2026-04-30T16:35:03Z",
+  "parser_version": "0.3.1"
+}
