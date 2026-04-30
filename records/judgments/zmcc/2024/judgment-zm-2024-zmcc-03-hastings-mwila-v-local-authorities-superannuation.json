@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2024-zmcc-03-hastings-mwila-v-local-authorities-superannuation",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Hastings Mwila v Local Authorities Superannuation Fund (2023/CCZ/0013) [2024] ZMCC 3 (9 February 2024)",
+  "citation": "[2024] ZMCC 3",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Hastings Mwila v Local Authorities Superannuation Fund",
+  "case_number": "2023/CCZ/0013",
+  "date_decided": "2024-02-09",
+  "judges": [
+    {
+      "name": "Musaluke",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Pensions",
+    "Article 189(1)–(2) (retention on payroll)",
+    "Section 25 LASF Act (commutation of annuity to lump-sum)",
+    "Pension benefit defined",
+    "Separation of employer obligations and multi-employer pension fund responsibilities."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "[90] We thus find no merit in the Petitioner's case and we dismiss it",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "09dccabc6fb7b45aa1c5be2322e3b2c19822700bfc4345c676f4302658e116c7",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/3/eng@2024-02-09",
+  "source_hash": "sha256:0bd814d62fe13394309f8b2a91a6cb12ebb727b5a13a7773227639b1f63dd48d",
+  "fetched_at": "2026-04-30T16:59:53Z",
+  "parser_version": "0.3.1"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2023-zmcc-24-fredson-kango-yamba-v-the-principal-resident-magis",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Fredson Kango Yamba v The  Principal Resident Magistrate and Ors (2023/CCZ/ 003) [2023] ZMCC 24 (1 December 2023)",
+  "citation": "[2023] ZMCC 24",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Fredson Kango Yamba v The  Principal Resident Magistrate and Ors",
+  "case_number": "2023/CCZ/ 003",
+  "date_decided": "2023-12-01",
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional jurisdiction",
+    "Articles 1(5) and 128(1)",
+    "Exclusive jurisdiction to interpret Constitution and determine breaches",
+    "Article 128(2) referral requirement where constitutional question arises in another court",
+    "Reference to constitutional provision in criminal particulars does not automatically criminalize Constitution."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "[44] Accordingly, the Petition fails and is hereby dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "372e4f0980144f62d9c843a4062389dca13828a256eec2083c48b84831edf4bc",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/24/eng@2023-12-01",
+  "source_hash": "sha256:3617166819a9afc843e88238effe177b1e12cf036d51f092ed295acafec03319",
+  "fetched_at": "2026-04-30T16:59:58Z",
+  "parser_version": "0.3.1"
+}

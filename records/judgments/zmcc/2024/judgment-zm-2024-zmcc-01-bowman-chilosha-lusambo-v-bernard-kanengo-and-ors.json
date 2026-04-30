@@ -1,0 +1,56 @@
+{
+  "id": "judgment-zm-2024-zmcc-01-bowman-chilosha-lusambo-v-bernard-kanengo-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Bowman Chilosha Lusambo v Bernard Kanengo and Ors (2023/CCZ/A002) [2024] ZMCC 1 (25 January 2024)",
+  "citation": "[2024] ZMCC 1",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Bowman Chilosha Lusambo v Bernard Kanengo and Ors",
+  "case_number": "2023/CCZ/A002",
+  "date_decided": "2024-01-25",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Electoral law",
+    "nomination challenges",
+    "Article 52(4) Constitution",
+    "election petitions",
+    "section 97(2)(b) EPA (substantial non‑compliance affecting result)",
+    "jurisdiction and lapsing of stay",
+    "abuse of court process."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "1] Our conclusion is that all grounds of appeal fail and are hereby",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "b0e311f5c10dad7953fdda7cbe9f3eeddde4ed7e732ce7b8477bee077c3aee85",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/1/eng@2024-01-25",
+  "source_hash": "sha256:3e4825dadc9cae7a22f851e0b2889d2a8380e1d069f8ff606a800012996d55b9",
+  "fetched_at": "2026-04-30T16:59:55Z",
+  "parser_version": "0.3.1"
+}

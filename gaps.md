@@ -2065,3 +2065,112 @@ pending Peter approval), or (b) a 4th-stage hand-anchored full-text
 scan over the operative section is added. Raw HTML+PDF retained
 under `raw/zambialii/judgments/zmcc/{2024,2025}/` for that future
 re-parse.
+
+## Batch 0365 — REPARSE PASS continuation under parser_v0.3.1 (2026-04-30)
+
+Reparse-first triage continuation per approvals.yaml `reparse_first`
+policy. Eight ZMCC raw HTML+PDF pairs already on disk (the next
+slice after b0364, descending through the 2024-then-2023 backlog)
+were re-run against the locked-in parser_v0.3.1 baseline
+(`scripts/batch_0365_parse.py`, copied from
+`scripts/batch_0364_parse.py` with TARGETS slice change + `_work`
+directory bump only).
+
+Targeted slice (year-DESC then num-DESC, raw-on-disk no-record):
+  zmcc/2024/{03,02,01}, zmcc/2023/{27,26,25,24,23}.
+(zmcc/2023/22 already had a record and was skipped by the
+SKIP-existing guard at parse time, not counted in the 8.)
+Records written: 3 (`zmcc/2024/03`, `zmcc/2024/01`, `zmcc/2023/24`)
+— all three via the `pdf-tail-2pages` fallback. Records deferred:
+5, all under the specific code `html_no_summary_pdf_no_match`. Zero
+fresh fetches — all raw bytes were already on disk.
+
+### Resolved (raw retained per audit policy)
+
+- **[2024] ZMCC 3** (Hastings Mwila v Local Authorities
+  Superannuation Fund, 2024-02-09): RESOLVED in batch-0365
+  (parser_v0.3.1) — outcome `dismissed`, detail "[90] We thus find
+  no merit in the Petitioner's case and we dismiss it" via the
+  `pdf-tail-2pages` numbered-active-voice "we dismiss it" pattern.
+  Record ID:
+  `judgment-zm-2024-zmcc-03-hastings-mwila-v-local-authorities-superannuation`.
+  Supersedes the b0351 generic
+  `outcome_not_inferable_under_tightened_policy` deferral.
+
+- **[2024] ZMCC 1** (Bowman Chilosha Lusambo v Bernard Kanengo and
+  Others, 2024-01-25): RESOLVED in batch-0365 (parser_v0.3.1) —
+  outcome `dismissed`, detail "1] Our conclusion is that all
+  grounds of appeal fail and are hereby" via the `pdf-tail-2pages`
+  numbered-closing-order "appeal fails" pattern. Record ID:
+  `judgment-zm-2024-zmcc-01-bowman-chilosha-lusambo-v-bernard-kanengo-and-ors`.
+  Supersedes the b0351 generic
+  `outcome_not_inferable_under_tightened_policy` deferral.
+
+- **[2023] ZMCC 24** (Fredson Kango Yamba v The Principal Resident
+  Magistrate, 2023-12-01): RESOLVED in batch-0365 (parser_v0.3.1)
+  — outcome `dismissed`, detail "[44] Accordingly, the Petition
+  fails and is hereby dismissed" via the `pdf-tail-2pages`
+  passive-voice "petition fails…dismissed" pattern. Record ID:
+  `judgment-zm-2023-zmcc-24-fredson-kango-yamba-v-the-principal-resident-magis`.
+  Supersedes the b0352 generic
+  `outcome_not_inferable_under_tightened_policy` deferral.
+
+### Re-deferrals (raw retained on disk; specific reason codes; supersede earlier generic deferrals)
+
+All five were previously deferred under the now-superseded generic
+`outcome_not_inferable_under_tightened_policy`. They remain
+deferred under the specific `html_no_summary_pdf_no_match` code
+following the parser_v0.3.1 retry, which exhausted SUMMARY_PATTERNS,
+PDF_ORDER_ANCHORS, and PDF_TAIL_PATTERNS without a safe match.
+
+- **[2024] ZMCC 2** (Institute of Law, Policy Research and Human
+  Rights, 2024-01-17). Reason: `html_no_summary_pdf_no_match`.
+  Summary head: "An individual directly affected by interpretation
+  of Article 74(2) may be joined as an interested party to
+  adjudicate rights and issues." URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2024/2/eng@2024-01-17.
+
+- **[2023] ZMCC 27** (Zambia Community Development Initiative
+  Programme & Anor v Attorney General, 2023-08-03). Reason:
+  `html_no_summary_pdf_no_match`. Summary head: "An
+  originating-summons challenge to seizures involving a former
+  President was dismissed as personalised, contentious and
+  outside Constitutional Court jurisdiction." Token "dismissed"
+  present but in originating-summons subject/qualifier framing
+  not covered by SUMMARY_PATTERNS lexicon; PDF tail no match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2023/27/eng@2023-08-03.
+
+- **[2023] ZMCC 26** (Milingo Lungu v The Attorney General and
+  Anor, 2023-12-16). Reason: `html_no_summary_pdf_no_match`.
+  Summary head: "Leave to amend was limited to the exhibited
+  proposed amendments; additional amendments were disallowed."
+  Procedural ruling on amendment-leave with no recognised
+  disposition token; PDF tail no match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2023/26/eng@2023-12-16.
+
+- **[2023] ZMCC 25** (Sean Tembo v The Attorney General,
+  2023-12-08). Reason: `html_no_summary_pdf_no_match`. Summary
+  head: "Whether the President's non-occupation of the official
+  residence breached public-finance principles and was justiciable
+  under Article 128." Issue-style summary head; PDF tail no match.
+  URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2023/25/eng@2023-12-08.
+
+- **[2023] ZMCC 23** (Milingo Lungu v The Attorney General and
+  Anor, 2023-11-07). Reason: `html_no_summary_pdf_no_match`.
+  Summary head: "Advocate's participation in a separate closed
+  matter did not rebut judges' impartiality; panel reconstitution
+  is an administrative matter." Recusal-rebuttal ruling with no
+  recognised disposition token; PDF tail no match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2023/23/eng@2023-11-07.
+
+These five can be re-attempted in a future tick if either (a) the
+SUMMARY_PATTERNS / PDF_TAIL_PATTERNS lexicon is widened to recognise
+"originating summons…dismissed", "leave to amend…limited",
+"joined as interested party", "non-occupation…justiciable",
+"impartiality not rebutted", "panel reconstitution" subject/
+disposition tokens (parser_v0.3.2 — pending Peter approval), or
+(b) a 4th-stage hand-anchored full-text scan over the operative
+section is added. Raw HTML+PDF retained under
+`raw/zambialii/judgments/zmcc/{2023,2024}/` for that future
+re-parse.
