@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2021-zmcc-22-bozy-simutanda-as-attorney-for-his-royal-highness",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Bozy Simutanda  (As Attorney for His Royal Highness Chief Tafuña of the Tafuna Chieftaincy) V Kaoma (As Chief Mukupa Kaoma) And Another (2020/CCZ/002) [2021] ZMCC 22 (12 February 2021)",
+  "citation": "[2021] ZMCC 22",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Bozy Simutanda  (As Attorney for His Royal Highness Chief Tafuña of the Tafuna Chieftaincy) V Kaoma (As Chief Mukupa Kaoma) And Another",
+  "case_number": "2020/CCZ/002",
+  "date_decided": "2021-02-12",
+  "judges": [
+    {
+      "name": "Chibomba",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional Court jurisdiction",
+    "Article 128 and Article 28",
+    "chieftaincy succession not a constitutional question",
+    "criminal matters and restitution of evidence outside Constitutional Court jurisdiction",
+    "res judicata and finality of litigation."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Constitutional Court lacks jurisdiction over chieftaincy succession and criminal inquiries; amended petition dismissed with each party bearing costs",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "d2fc958426afa436b6a2fb59c7836103ac1086680f962899f965afa63a99c709",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2021/22/eng@2021-02-12",
+  "source_hash": "sha256:9837e53618ae552548e8d1eac148326524ff1dfe06f371e20e550a25f9a2ec35",
+  "fetched_at": "2026-04-30T19:35:40Z",
+  "parser_version": "0.3.1"
+}

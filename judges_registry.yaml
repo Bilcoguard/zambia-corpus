@@ -4,8 +4,12 @@ judges:
   - title: PC
     first_seen_in: judgment-zm-2021-zmcc-24-gilford-malenji-v-zambia-airports-corporation-limi
     first_seen_at: '2026-04-30T03:09:01Z'
+  - title: JJS
+    first_seen_in: judgment-zm-2021-zmcc-22-bozy-simutanda-as-attorney-for-his-royal-highness
+    first_seen_at: '2026-04-30T19:35:41Z'
   aliases:
   - Chibomba PC
+  - Chibomba JJS
   first_seen: '2026-04-30T03:09:01Z'
 - canonical_name: Chisunka
   titles:
