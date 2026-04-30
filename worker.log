@@ -4140,3 +4140,9 @@ batch-0368: B2 sync deferred to host (rclone not in sandbox)
 2026-04-30T20:43:21Z  batch-0373 B2 sync deferred to host (rclone not in sandbox).
 2026-04-30T20:43:21Z  batch-0373 SQLite ingestion deferred to host (corpus.sqlite FTS5 malformed-disk-image carry-forward; canonical source remains records/*.json).
 2026-04-30T20:43:21Z  batch-0373 NOTE: 2024 ZMCC raw-on-disk no-record top-of-year DESC slice processed under v0.3.1: written {18, 19, 21}; reclassified-html_no_summary_pdf_no_match {17, 20, 22, 25, 27}. Next reparse tick should pick up zmcc/2024/{16, 15, 13, 11, 10}; b0364 deferreds for 2024/{2,4-8} are not reparseable under v0.3.1 again (would yield identical deferrals). Parser_v0.3.2 vocabulary widening remains the dominant next-step unblock — subject to Peter approval per BRIEF.md non-negotiable.
+2026-04-30T20:45:10Z  batch-0373 commit pushed: 84af04c — main updated 99e5264..84af04c.
+2026-04-30T21:08:50Z  batch-0374 tick start: phase_5_judgments approved+incomplete; reparse-first continuation per approvals.yaml. Slice locked: zmcc/2024/{23, 16, 15, 13, 11, 10}, zmcc/2025/{25, 24} — eight raw-on-disk no-record candidates still classified under legacy v0.3.0 generic reason (5 from b0373 recommended slice, 1 from 2024 backlog tail, 2 from 2025 carryover). Zero fresh fetches (all raw bytes already on disk).
+2026-04-30T21:08:50Z  batch-0374 parse_summary.json written with 2 records / 6 deferrals. Written via pdf-tail-2pages (zmcc/2024/{16, 11}); deferred html_no_summary_pdf_no_match (zmcc/2024/{23, 15, 13, 10}, zmcc/2025/{25, 24}).
+2026-04-30T21:08:50Z  batch-0374 integrity_check_b0374.py PASS (2 records).
+2026-04-30T21:08:50Z  batch-0374 B2 sync deferred to host (rclone not in sandbox).
+2026-04-30T21:08:50Z  batch-0374 SQLite ingestion deferred to host (corpus.sqlite FTS5 malformed-disk-image carry-forward; canonical source remains records/*.json).

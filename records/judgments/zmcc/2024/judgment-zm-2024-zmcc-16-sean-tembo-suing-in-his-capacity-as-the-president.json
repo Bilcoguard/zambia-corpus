@@ -1,0 +1,60 @@
+{
+  "id": "judgment-zm-2024-zmcc-16-sean-tembo-suing-in-his-capacity-as-the-president",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Sean Tembo (Suing in his capacity as the President of the Patriots  for Economic Progress) v  Attorney General (2023/CCZ/009) [2024] ZMCC 16 (10 July 2024)",
+  "citation": "[2024] ZMCC 16",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Sean Tembo (Suing in his capacity as the President of the Patriots  for Economic Progress) v  Attorney General",
+  "case_number": "2023/CCZ/009",
+  "date_decided": "2024-07-10",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Sitali",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional values—patriotism and national unity; Article 259—appointments and regional diversity ('where possible'); mandatory requisite qualifications; burden of proof on petitioner to adduce cogent factual evidence; dismissal for lack of evidentiary foundation."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "petition and we dismiss them",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "02da4dc1fe8c60a018919bdfbe180efdab8121288e2a4f2570598278bdbcbc31",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/16/eng@2024-07-10",
+  "source_hash": "sha256:ad3e8c78b6aea162bcacf2acfde8170f4d2e80ad5681d76c15781b987d89cea6",
+  "fetched_at": "2026-04-30T21:06:53Z",
+  "parser_version": "0.3.1"
+}

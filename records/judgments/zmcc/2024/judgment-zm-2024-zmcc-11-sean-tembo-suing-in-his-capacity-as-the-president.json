@@ -1,0 +1,40 @@
+{
+  "id": "judgment-zm-2024-zmcc-11-sean-tembo-suing-in-his-capacity-as-the-president",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Sean Tembo (Suing in his capacity as the President of the Patriots  for Economic Progress)  v The Attorney General (2023/CCZ/0016) [2024] ZMCC 11 (17 June 2024)",
+  "citation": "[2024] ZMCC 11",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Sean Tembo (Suing in his capacity as the President of the Patriots  for Economic Progress)  v The Attorney General",
+  "case_number": "2023/CCZ/0016",
+  "date_decided": "2024-06-17",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional values and public service principles; public finance principles; wasteful expenditure under PFMA; burden of proof; budget appropriation and separation of powers; limits of judicial notice and judicial fact-finding."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "23] The upshot of the preceding paragraphs is that the Petition fails",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "daf06ae0b7dd43bbbcbc665214345939f406c0f027c0513ce26c5fee518ae2ce",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/11/eng@2024-06-17",
+  "source_hash": "sha256:838e65eecba04bf8f196b4d6ec67f9805d2077aedc90b987c9e0d08b78cf793d",
+  "fetched_at": "2026-04-30T21:06:55Z",
+  "parser_version": "0.3.1"
+}

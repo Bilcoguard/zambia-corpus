@@ -1443,8 +1443,10 @@ Parser-tightening summary (locked at parser_version 0.3.0):
 Per BRIEF.md non-negotiable #1, the following 6 candidates could not safely be parsed under tightened parser_version 0.3.0 (no enum-mappable disposition phrase in summary AND no qualifying PDF order-anchor match within 800 chars). Raw HTML+PDF remain on disk under raw/zambialii/judgments/zmcc/2025/.
 
 - **[2025] ZMCC 25** (zmcc 2025/25, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/25/eng@2025-12-04. Summary: "Court refused stay of Speaker's vacancy ruling absent special and convincing grounds; merits not to be decided interlocutorily."
+  - RECLASSIFIED in batch-0374 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. Procedural stay refusal; declarative summary; no operative-verb match in summary, no PDF anchor or tail match. Held for parser_v0.3.2 widening.
 
 - **[2025] ZMCC 24** (zmcc 2025/24, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/24/eng@2025-11-28. Summary: "The Constitutional Court held the Attorney General may represent the Speaker as the legal representative of 'Government' and ordered joinder of the Attorney General."
+  - RECLASSIFIED in batch-0374 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. Procedural joinder ruling; declaratory operative phrase does not match `SUMMARY_PATTERNS`; no PDF anchor or tail match. Held for parser_v0.3.2 widening.
 
 - **[2025] ZMCC 23** (zmcc 2025/23, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/23/eng@2025-11-27. Summary: "A pension-quantum and payroll dispute is a labour matter for the Industrial Relations Division, not the Constitutional Court."
 
@@ -1493,6 +1495,7 @@ Deferrals to be revisited once the parser supports hand-anchored PDF order parag
 - [2024] ZMCC 25 — https://zambialii.org/akn/zm/judgment/zmcc/2024/25/eng@2024-11-13 — outcome_not_inferable_under_tightened_policy; summary head: Originating summons for abstract interpretation of Article 74(2) dismissed as the dispute is personalized, contentious and requires trial.
   - RECLASSIFIED in batch-0373 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. `dismissed` is implied by summary head but operative phrase pattern does not match `SUMMARY_PATTERNS`; PDF tail produced no safe match. Held for parser_v0.3.2 widening.
 - [2024] ZMCC 23 — https://zambialii.org/akn/zm/judgment/zmcc/2024/23/eng@2024-10-29 — outcome_not_inferable_under_tightened_policy; summary head: An interim stay cannot be granted where the presidential suspension has already been implemented; single judge declined to decide standing.
+  - RECLASSIFIED in batch-0374 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. Procedural single-judge interim refusal; declarative summary; no operative-verb match in summary, no PDF anchor or tail match. Held for parser_v0.3.2 widening.
 - [2024] ZMCC 22 — https://zambialii.org/akn/zm/judgment/zmcc/2024/22/eng@2024-10-15 — outcome_not_inferable_under_tightened_policy; summary head: Constitutional electoral timelines (90‑day by‑election; 7/21‑day nomination challenge) are mandatory and cannot be extended by court proceedings.
   - RECLASSIFIED in batch-0373 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. Declaratory; no operative-verb match. Held for parser_v0.3.2 widening.
 
@@ -1511,15 +1514,20 @@ Reason: outcome_not_inferable_under_tightened_policy (parser_version 0.3.0). Raw
 - [2024] ZMZMCC 17 (2024-07-29) — https://zambialii.org/akn/zm/judgment/zmcc/2024/17/eng@2024-07-29
   - RECLASSIFIED in batch-0373 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. Procedural ("Court orders full hearing before a single judge"); no operative-verb match. Held for parser_v0.3.2 widening.
 - [2024] ZMZMCC 16 (2024-07-10) — https://zambialii.org/akn/zm/judgment/zmcc/2024/16/eng@2024-07-10
+  - RESOLVED in batch-0374 (parser_v0.3.1, 2026-04-30) — outcome `dismissed` via the `pdf-tail-2pages` fallback. Seven-judge bench (Shilimi DPC; Sitali, Mulonda, Mulenga, Musaluke, Mulongoti, Mwandenga JJC). Record ID: `judgment-zm-2024-zmcc-16-sean-tembo-suing-in-his-capacity-as-the-president`.
 - [2024] ZMZMCC 15 (2024-07-08) — https://zambialii.org/akn/zm/judgment/zmcc/2024/15/eng@2024-07-08
+  - RECLASSIFIED in batch-0374 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. Discontinuance allowed; declarative summary (`discontinuance was allowed`) does not match `SUMMARY_PATTERNS`; PDF tail produced no safe match. Held for parser_v0.3.2 widening.
 
 ## batch-0350 deferred (2026-04-29)
 
 Reason: outcome_not_inferable_under_tightened_policy (parser_version 0.3.0). Raw HTML+PDF on disk; can be revisited when parser is widened (parser_version bump, not a tick-time change).
 
 - [2024] ZMCC 13 (2024-06-28) — https://zambialii.org/akn/zm/judgment/zmcc/2024/13/eng@2024-06-28
+  - RECLASSIFIED in batch-0374 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. ZIALE constitutional challenge dismissed-for-lack; operative construction does not match `SUMMARY_PATTERNS`; PDF tail produced no safe match. Held for parser_v0.3.2 widening.
 - [2024] ZMCC 11 (2024-06-17) — https://zambialii.org/akn/zm/judgment/zmcc/2024/11/eng@2024-06-17
+  - RESOLVED in batch-0374 (parser_v0.3.1, 2026-04-30) — outcome `dismissed` via the `pdf-tail-2pages` fallback. Three-judge bench (Shilimi DPC; Mulongoti, Mulife JJC). Record ID: `judgment-zm-2024-zmcc-11-sean-tembo-suing-in-his-capacity-as-the-president`.
 - [2024] ZMCC 10 (2024-06-25) — https://zambialii.org/akn/zm/judgment/zmcc/2024/10/eng@2024-06-25
+  - RECLASSIFIED in batch-0374 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. Declaratory ruling on Leader of Opposition election; no operative-verb match in summary, no PDF anchor or tail match. Held for parser_v0.3.2 widening.
 - [2024] ZMCC 8 (2024-06-07) — https://zambialii.org/akn/zm/judgment/zmcc/2024/8/eng@2024-06-07
 - [2024] ZMCC 7 (2024-06-06) — https://zambialii.org/akn/zm/judgment/zmcc/2024/7/eng@2024-06-06
 - [2024] ZMCC 6 (2024-04-16) — https://zambialii.org/akn/zm/judgment/zmcc/2024/6/eng@2024-04-16
@@ -2647,3 +2655,47 @@ Each deferral carries a SPECIFIC reason code per approvals.yaml `deferral_reason
 
 ### Recommendation
 The pdf-tail-2pages fallback continues to be the dominant rescue mechanism for ZMCC under v0.3.1 (3 of 3 written records this tick). The 5 deferrals all share the `html_no_summary_pdf_no_match` profile characteristic of declaratory / interpretive constitutional rulings. Parser_v0.3.2 vocabulary widening (declaratory operative verbs + `recusal application … dismissed`) remains the dominant unblock — subject to Peter's approval per BRIEF.md non-negotiable on parser vocabulary changes. Next reparse tick should pick up zmcc/2024/{16, 15, 13, 11, 10}.
+
+## Batch 0374 (2026-04-30, parser_v0.3.1 reparse-first continuation)
+
+Slice: zmcc/2024/{23, 16, 15, 13, 11, 10}, zmcc/2025/{25, 24} —
+eight raw-on-disk no-record candidates still classified under
+legacy v0.3.0 generic `outcome_not_inferable_under_tightened_policy`
+reason and never re-attempted under v0.3.1. 2 of 8 written via the
+`pdf-tail-2pages` fallback; 6 deferred with reason
+`html_no_summary_pdf_no_match`. Zero fresh fetches.
+
+Written this tick (RESOLVED — no longer a gap):
+- [2024] ZMCC 16 — Sean Tembo (Suing in his capacity as the
+  President of the Patriots for Economic Progress) v Attorney
+  General (2024-07-10). Outcome: dismissed. Detail:
+  `petition and we dismiss them`. Source: `pdf-tail-2pages`.
+- [2024] ZMCC 11 — Sean Tembo (Suing in his capacity as the
+  President of the Patriots for Economic Progress) v The
+  Attorney General (2024-06-17). Outcome: dismissed. Detail:
+  `23] The upshot of the preceding paragraphs is that the Petition
+  fails`. Source: `pdf-tail-2pages`.
+
+Deferred this tick (raw HTML+PDF retained; reason locked):
+- zmcc/2024/23 — interim stay refusal (2024-10-29) —
+  `html_no_summary_pdf_no_match`.
+- zmcc/2024/15 — Milingo Lungu v Attorney General and Anor
+  (2024-07-08) — `html_no_summary_pdf_no_match`.
+- zmcc/2024/13 — Elijah Simbai v ZIALE (2024-06-28) —
+  `html_no_summary_pdf_no_match`.
+- zmcc/2024/10 — Moses Sakala v Attorney General and Ors
+  (2024-06-25) — `html_no_summary_pdf_no_match`.
+- zmcc/2025/25 — Speaker's vacancy stay refusal (2025-12-04) —
+  `html_no_summary_pdf_no_match`.
+- zmcc/2025/24 — Attorney General joinder ruling (2025-11-28) —
+  `html_no_summary_pdf_no_match`.
+
+The 2024 ZMCC v0.3.1-addressable reparse inventory is now empty
+under v0.3.1 (written {01, 03, 09, 11, 12, 14, 16, 18, 19, 21,
+24, 26}; deferred-html_no_summary_pdf_no_match {02, 04, 05, 06,
+07, 08, 10, 13, 15, 17, 20, 22, 23, 25, 27}). Next reparse tick
+should pick up zmcc/2025/{22, 21, 18, 17, 16, 15, 14, 12, 11}
+(still on legacy generic v0.3.0 reason; never re-attempted under
+v0.3.1) before pivoting to non-ZMCC courts or pausing for
+parser_v0.3.2 approval.
+
