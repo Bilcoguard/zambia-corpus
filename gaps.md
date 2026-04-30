@@ -1634,3 +1634,18 @@ Suggested fix for next parser version (0.3.1):
   alternative spelling for retired/older Supreme Court justices).
 - Re-run on this raw on disk to recover Chibomba's record without
   re-fetch.
+
+## Batch 0360 — 2026-04-30 — ZMCC 2021/{24,23,17,16,15,14,13,12} deferred under parser_v0.3.0 tightened policy
+
+| Court/Year/# | Date | Slug | Reason |
+|--------------|------|------|--------|
+| zmcc/2021/24 | 2021-10-27 | gilford-malenji-v-zambia-airports-corporation-limi | outcome_not_inferable_under_tightened_policy |
+| zmcc/2021/23 | 2021-11-29 | charles-chihinga-v-new-future-financial-company-li | outcome_not_inferable_under_tightened_policy |
+| zmcc/2021/17 | 2021-09-20 | anderson-mwale-buchisa-mwalongo-and-kola-odubote-v | outcome_not_inferable_under_tightened_policy |
+| zmcc/2021/16 | 2021-11-22 | sampa-v-mundubile-and-anor | outcome_not_inferable_under_tightened_policy |
+| zmcc/2021/15 | 2021-09-17 | shunxue-v-the-attorney-general-anor | outcome_not_inferable_under_tightened_policy |
+| zmcc/2021/14 | 2021-07-13 | legal-resources-foundation-limited-2-others-v-edga | outcome_not_inferable_under_tightened_policy |
+| zmcc/2021/13 | 2021-07-20 | bric-back-limited-t-a-gamamwe-ranches-v-kirkpatric | outcome_not_inferable_under_tightened_policy |
+| zmcc/2021/12 | 2021-06-30 | dipak-patel-v-minister-of-finance-and-attorney-gen | outcome_not_inferable_under_tightened_policy |
+
+Raw HTML+PDF retained on disk for re-parse under parser_v0.3.1+.
