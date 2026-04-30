@@ -1,0 +1,55 @@
+{
+  "id": "judgment-zm-2024-zmcc-21-mildred-luwaile-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mildred Luwaile v Attorney General (2023/CCZ/0022) [2024] ZMCC 21 (11 October 2024)",
+  "citation": "[2024] ZMCC 21",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Mildred Luwaile v Attorney General",
+  "case_number": "2023/CCZ/0022",
+  "date_decided": "2024-10-11",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Sitali",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "prerogative of mercy",
+    "remission vs pardon",
+    "effect on conviction and disqualification from office; Jurisdiction",
+    "Article 128 limits challenges to Part Three/regulatory schemes; Interpretation",
+    "construing Order of Release against Article 97(1)."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "[102] The petition fails for want of merit and is accordingly dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "9f0ff67d2b0abfb437449aee5683b88ce3929f5db3f79ba2136f83a8be25bb03",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/21/eng@2024-10-11",
+  "source_hash": "sha256:68580286afdc623c706dcf7bfb45e6f16a8ab662efa76943e765abcad41bf62b",
+  "fetched_at": "2026-04-30T20:40:00Z",
+  "parser_version": "0.3.1"
+}

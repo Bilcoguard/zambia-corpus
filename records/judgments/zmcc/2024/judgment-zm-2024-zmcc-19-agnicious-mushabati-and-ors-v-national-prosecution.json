@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2024-zmcc-19-agnicious-mushabati-and-ors-v-national-prosecution",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Agnicious Mushabati and Ors v National Prosecution Authority (2024/CCZ/003) [2024] ZMCC 19 (26 July 2024)",
+  "citation": "[2024] ZMCC 19",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Agnicious Mushabati and Ors v National Prosecution Authority",
+  "case_number": "2024/CCZ/003",
+  "date_decided": "2024-07-26",
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "pension rights",
+    "Articles 187 and 189",
+    "interpretation of retention on payroll",
+    "entitlement to salary increments while retained",
+    "remittance of pension contributions",
+    "calculation of pension based on last salary."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "1] In the circumstances, we decline to grant the petitioners a declaration that",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "868101a792cf4a497e46de204d100c83eda6dadac04041101f877a72d90bdcb6",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/19/eng@2024-07-26",
+  "source_hash": "sha256:eeae44a42b323c087efab1634c6ea6e00aace66510e262ba22cd1d527f576260",
+  "fetched_at": "2026-04-30T20:40:01Z",
+  "parser_version": "0.3.1"
+}

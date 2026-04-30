@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2024-zmcc-18-mutazu-john-v-anthony-hubert-kabungo-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mutazu John v Anthony Hubert Kabungo and Ors (2024/CCZ/006) [2024] ZMCC 18 (26 July 2024)",
+  "citation": "[2024] ZMCC 18",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Mutazu John v Anthony Hubert Kabungo and Ors",
+  "case_number": "2024/CCZ/006",
+  "date_decided": "2024-07-26",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional jurisdiction",
+    "Article 128(1)(e) read with Article 28",
+    "Part III (Bill of Rights) jurisdiction reserved to High Court (original) and Supreme Court (appeal)",
+    "Constitutional Court lacks jurisdiction to invalidate court-martial rules under Part III",
+    "civil proceedings cannot stay criminal/court‑martial proceedings",
+    "Article 79(3) referendum requirement to amend Part III."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "[51] Accordingly, the petition is dismissed for want of jurisdiction",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "1d8b3b00549102fb9fe43131c843e34ed4da33b78c5276fefec813c5becd2192",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/18/eng@2024-07-26",
+  "source_hash": "sha256:f9d3a41a6ee66b3e98e7ec0a55b3c8106fc7ede2c583174d3d4ea7b41458f35f",
+  "fetched_at": "2026-04-30T20:40:02Z",
+  "parser_version": "0.3.1"
+}
