@@ -2442,3 +2442,100 @@ Subject to Peter's approval per the BRIEF.md non-negotiable on
 parser vocabulary changes; until then, the candidates are
 correctly held with specific deferral codes and the raw bytes
 remain on disk for cost-free re-parsing once v0.3.2 is live.
+
+## Batch 0369 — Phase 5 ZMCC reparse-first continuation (2022 backlog), parser_v0.3.1
+
+**Date (UTC):** 2026-04-30
+**Phase:** phase_5_judgments — reparse-first triage (zero fetch budget)
+**Outcome:** 0 records written, 8 deferred (continuation of b0368 2022 sweep).
+
+The 2022 ZMCC backlog continues to surface the two parser_v0.3.1
+limitations identified in b0368: (a) space-separated judges_text,
+and (b) operative-verb vocabulary outside `SUMMARY_PATTERNS`. One
+fresh limitation hit this tick: a fully scanned final PDF
+(zmcc/2022/16) requiring an OCR pass.
+
+### Deferred candidates this batch
+
+- **[2022] ZMCC 23** (Sinkamba and Anor v Electoral Commission of
+  Zambia (CCZ 23 of 2022), 2022-10-17) — reason:
+  `html_no_summary_pdf_no_match`. Summary head: "Whether the
+  Electoral Commission breached Article 52(6) by not cancelling
+  elections after candidate resignations, and effect of a court
+  stay." Operative verbs not in `SUMMARY_PATTERNS`; PDF tail
+  produced no safe match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/23/eng@2022-10-17.
+
+- **[2022] ZMCC 22** (Kachize Phiri and Anor v Electoral
+  Commission of Zambia (CCZ/A 4 of 2022), 2022-09-23) — reason:
+  `html_no_summary_pdf_no_match`. Summary head: "Whether a
+  parliamentary election appeal was competently before the
+  Constitutional Court after High Court leave to appeal out of
+  time was granted." Procedural disposition; no operative-verb
+  match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/22/eng@2022-09-23.
+
+- **[2022] ZMCC 21** (Chilufya v Ng'andwe and Anor (CCZ/A 32 of
+  2021), 2022-09-29) — reason:
+  `parser_v0.3.1_judges_no_comma_unhandled`. Raw judges_text:
+  `Sitali JCC Mulenga JCC Munalula JCC Mulongoti JCC`. Summary
+  head: "Whether campaign development projects constituted
+  bribery nullifying the election; costs order set aside for
+  lack of adverse finding." Held for parser_v0.3.2 widening.
+  URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/21/eng@2022-09-29.
+
+- **[2022] ZMCC 20** (Ndhlovu and Ors v Road Development Agency
+  (CCZ 5 of 2022), 2022-09-21) — reason:
+  `parser_v0.3.1_judges_no_comma_unhandled`. Raw judges_text:
+  `Munalula JCC Mulenga JCC Chisunka JCC`. Summary head:
+  "Failure to prove that contractual gratuities are statutory
+  'pension benefits' defeats constitutional payroll-retention
+  protection under Article 189." Held for parser_v0.3.2
+  widening. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/20/eng@2022-09-21.
+
+- **[2022] ZMCC 18** (Malanji and Anor v Attorney General and
+  Anor (CCZ 18 of 2022), 2022-09-07) — reason:
+  `html_no_summary_pdf_no_match`. Summary head: "Article 72(4)
+  bars only those who caused vacancies in the specific
+  instances listed in Article 72(2); judicial nullification is
+  excluded." Interpretive declaratory — operative verbs not in
+  `SUMMARY_PATTERNS`. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/18/eng@2022-09-07.
+
+- **[2022] ZMCC 17** (Zimba v Attorney General (CCZ 7 of 2022),
+  2022-08-31) — reason: `html_no_summary_pdf_no_match`. Summary
+  head: "The DPP is amenable to the JCC's disciplinary/removal
+  process under Article 182(3) read with Articles 143 and 144."
+  Declaratory; no operative-verb match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/17/eng@2022-08-31.
+
+- **[2022] ZMCC 16** (Malanji and Anor v Attorney General and
+  Anor (CCZ 18 of 2022), 2022-08-25) — reason:
+  `pdf_extraction_empty_likely_scanned`. pdfplumber returned 0
+  text chars across all 10 pages — fully scanned final PDF.
+  Held for OCR pass. The ZMCC 18 ruling (b0369 deferred above)
+  is the substantive successor; this is the earlier scanned
+  final order. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/16/eng@2022-08-25.
+
+- **[2022] ZMCC 15** (Mutelo K v Kang'ombe and Anor (CCZ/A 33 of
+  2021), 2022-07-29) — reason:
+  `parser_v0.3.1_judges_no_comma_unhandled`. Raw judges_text:
+  `Sitali JCC Mulenga JCC Mulonda JCC Chisunka JCC Mulongoti JCC`.
+  Summary head: "Petitioner failed to prove, to the required
+  high standard, that alleged electoral malpractices were
+  widespread enough to void the election." Held for
+  parser_v0.3.2 widening. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/15/eng@2022-07-29.
+
+### Recommendation
+
+Reinforces the b0368 finding: parser_v0.3.2 vocabulary widening
+(both judges-no-comma and operative-verb classes) is the
+dominant unblock. Subject to Peter's approval per BRIEF.md
+non-negotiable on parser vocabulary changes. Raw bytes remain
+on disk; re-parsing under v0.3.2 will be cost-free.
+
+The OCR-pending inventory now stands at four candidates:
+zmcc/2021/15, zmcc/2021/14, zmcc/2025/19, zmcc/2022/16.
