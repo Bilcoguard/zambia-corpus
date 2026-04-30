@@ -1861,3 +1861,103 @@ to include holding-style disposition tokens (e.g.,
 hand-anchored full-text scan over the operative section is added,
 or (c) an OCR pass is run on `2025/19` to recover the PDF text.
 Raw HTML+PDF retained under `raw/zambialii/judgments/zmcc/2025/`.
+
+## Batch 0363 — REPARSE PASS continuation under parser_v0.3.1 (2026-04-30)
+
+Reparse-first triage continuation per approvals.yaml `reparse_first`
+policy. Eight ZMCC raw HTML+PDF pairs already on disk (the next
+slice after b0362, descending through the 2025 backlog) were re-run
+against the locked-in parser_v0.3.1 baseline (`scripts/batch_0363_parse.py`,
+copied from `scripts/batch_0362_parse.py` with only TARGETS slice
++ `_work` directory + version-bump comments — the b0361 specific-
+reason-code refinement carried forward unchanged).
+
+Targeted slice (continuation of deferred queue, year-DESC then num-DESC):
+  zmcc/2025/{12,11,10,9,8,7,6,5}.
+Records written: 0. Records deferred: 8, all with the specific
+reason code `html_no_summary_pdf_no_match` (the banned generic
+`outcome_not_inferable_under_tightened_policy` was NOT used).
+Zero fresh fetches — all raw bytes already on disk.
+
+### New deferrals (raw retained on disk; specific reason codes)
+
+- **[2025] ZMCC 12** (Munir Zulu and Anor v Attorney General,
+  2025/CCZ/009, 2025-06-27). Reason: `html_no_summary_pdf_no_match`.
+  Summary head: "Court holds it can review pre-Bill executive
+  initiation of constitutional amendments and requires people-
+  driven wide consultations." Pure ratio-style holding; no
+  recognised disposition token in summary; PDF tail no
+  PDF_TAIL_PATTERN match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/12/eng@2025-06-27.
+
+- **[2025] ZMCC 11** (Ford Chombo v The Attorney General,
+  2025/CCZ/008, 2025-06-19). Reason: `html_no_summary_pdf_no_match`.
+  Summary head: "A pre-2016 pension dispute is a labour matter
+  and outside the Constitutional Court's jurisdiction." Holding-
+  style summary on jurisdiction; the operative dismissal is
+  implied but not surfaced in a SUMMARY_PATTERN-matchable
+  construction. PDF tail no operative-pattern match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/11/eng@2025-06-19.
+
+- **[2025] ZMCC 10** (Munir Zulu v Attorney General and Ors,
+  2025/CCZ/0011, 2025-06-04). Reason:
+  `html_no_summary_pdf_no_match`. Summary head: "Imprisonment
+  automatically vacates a parliamentary seat; appeals do not
+  suspend the constitutional vacancy or by-election." Pure
+  ratio-style holding; no disposition token. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/10/eng@2025-06-04.
+
+- **[2025] ZMCC 9** (The People v Attorney General (Ex Parte
+  Nickson Chilangwa), 2024/CCZ/R001, 2025-02-10). Reason:
+  `html_no_summary_pdf_no_match`. Summary head: "Imprisonment of
+  an MP automatically vacates the seat and triggers a by-election;
+  appeals do not suspend that process." Same ratio twin to ZMCC 10
+  on the parallel facts; same parser limitation. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/9/eng@2025-02-10.
+
+- **[2025] ZMCC 8** (Richard Sakala v The Attorney General,
+  2024/CCZ/0014, 2025-04-01). Reason: `html_no_summary_pdf_no_match`.
+  Summary head: "Constitutional petitions are not governed by the
+  Limitation Act 1939, but inordinate unexplained delay may justify
+  dismissal." Holding-style summary on limitation doctrine; the
+  operative outcome is not stated in a recognised form. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/8/eng@2025-04-01.
+
+- **[2025] ZMCC 7** (Munir Zulu v The Attorney General and Ors,
+  2025/CCZ/0010, 2025-04-07). Reason:
+  `html_no_summary_pdf_no_match`. Summary head: "The Constitutional
+  Court has no jurisdiction under Article 128(2) to stay subordinate
+  court proceedings; the trial court must stay and refer
+  constitutional questions." Ratio-style summary; jurisdictional
+  bar described but not in dismissal-pattern form. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/7/eng@2025-04-07.
+
+- **[2025] ZMCC 6** (Miles Bwalya Sampa v Attorney General,
+  2024/CCZ/0024, 2025-03-24). Reason:
+  `html_no_summary_pdf_no_match`. Summary head: "Interlocutory
+  subpoenas denied for lack of prior steps, specificity, and
+  demonstrated relevance to Article 210 challenge." The token
+  "denied" is present but not a member of the current
+  SUMMARY_PATTERNS lexicon; PDF tail no match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/6/eng@2025-03-24.
+
+- **[2025] ZMCC 5** (Miza Phiri Jr v Isaac Mwanza and Ors,
+  2024/CCZ/0021, 2025-03-24). Reason:
+  `html_no_summary_pdf_no_match`. Summary head: "A petitioner
+  cannot file a new petition to challenge another pending
+  petition; proper remedy is joinder, and such filings may be
+  abuse of process." Holding-style ruling on procedural propriety
+  with no recognised disposition token; PDF tail no match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2025/5/eng@2025-03-24.
+
+These eight (all `html_no_summary_pdf_no_match`) reinforce the
+b0361/b0362 finding that the dominant 2025 ZMCC summary register is
+ratio-style ("Court holds…", "Imprisonment automatically vacates…",
+"A pre-2016 pension dispute is…") rather than disposition-style
+("Petition dismissed", "Application allowed"). They can be
+re-attempted in a future tick if either (a) SUMMARY_PATTERNS is
+widened to recognise additional disposition tokens including
+"denied | refused | granted in part | declaratory relief refused"
+(parser_v0.3.2 — pending Peter approval), or (b) a 4th-stage
+hand-anchored full-text scan over the operative section is added.
+Raw HTML+PDF retained under `raw/zambialii/judgments/zmcc/2025/`.
