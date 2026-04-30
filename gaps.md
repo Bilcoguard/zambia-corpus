@@ -1649,3 +1649,28 @@ Suggested fix for next parser version (0.3.1):
 | zmcc/2021/12 | 2021-06-30 | dipak-patel-v-minister-of-finance-and-attorney-gen | outcome_not_inferable_under_tightened_policy |
 
 Raw HTML+PDF retained on disk for re-parse under parser_v0.3.1+.
+
+## Batch 0360 — 2026-04-30 (parser_v0.3.1 deferreds)
+
+Three ZMCC 2021 candidates not written this tick despite the new
+pdf-tail-2-pages fallback. Distinct reasons; preserved on disk for
+future targeted re-parse / OCR.
+
+- **judgment-zm-2021-zmcc-15-shunxue-v-the-attorney-general-anor** —
+  date_decided 2021-09-17, 44 pp PDF. pdfplumber returned empty
+  extraction across all pages. Reason: `pdf_extraction_empty_likely_scanned`.
+  Raw HTML+PDF on disk. Needs OCR pass.
+
+- **judgment-zm-2021-zmcc-14-legal-resources-foundation-limited-2-others-v-edga** —
+  date_decided 2021-07-13, 104 pp PDF. pdfplumber returned empty
+  extraction. Reason: `pdf_extraction_empty_likely_scanned`. Raw on
+  disk. Needs OCR pass.
+
+- **judgment-zm-2021-zmcc-12-dipak-patel-v-minister-of-finance-and-attorney-gen** —
+  date_decided 2021-06-30, 75 pp PDF. PDF text extracted cleanly
+  (~95k chars) but the operative paragraph is a single judge's
+  separate opinion ("I would therefore go further and suspend the
+  declaration of unconstitutionality..."). No clear majority-disposition
+  phrase; the case appears to involve multiple separate opinions.
+  Reason: `multi_judge_separate_opinions_no_clear_majority_disposition`.
+  Needs majority-view inference logic (future parser version).

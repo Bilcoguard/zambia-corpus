@@ -242,6 +242,36 @@ def find_outcome_in_pdf(pdf_text: str):
     return out, detail, best_kw
 
 
+# Tail patterns. Adverb-tolerant ("petition is forthwith dismissed",
+# "petition is entirely dismissed") and pronoun-tolerant in the
+# "we dismiss it" closing line. The detail-safety check still catches
+# fragmentary or quoted-citation matches.
+_ADV = r"(?:(?:hereby|forthwith|accordingly|entirely|finally|herein)\s+){0,3}"
+PDF_TAIL_PATTERNS = [
+    # Passive: "petition (is) (forthwith) dismissed/allowed/etc."
+    (re.compile(rf"\b(?:petition|appeal|application|action|matter|claim|originating\s+summons)\s+(?:is\s+)?{_ADV}dismissed\b", re.I), "dismissed"),
+    (re.compile(rf"\b(?:petition|appeal|application)\s+(?:is\s+)?{_ADV}allowed\b", re.I), "allowed"),
+    (re.compile(rf"\b(?:petition|appeal)\s+(?:is\s+)?{_ADV}upheld\b", re.I), "upheld"),
+    (re.compile(rf"\b(?:petition|appeal|application)\s+(?:is\s+)?{_ADV}struck\s+(?:out|off)\b", re.I), "struck-out"),
+    (re.compile(rf"\b(?:petition|appeal|application|matter)\s+(?:is\s+)?{_ADV}withdrawn\b", re.I), "withdrawn"),
+    # Active voice: "we (hereby/therefore/accordingly) dismiss/allow/uphold"
+    (re.compile(r"\bwe\s+(?:hereby\s+|therefore\s+|accordingly\s+|now\s+){0,3}dismiss\s+(?:the\s+\w+\s+)?(?:petition|appeal|application|matter|action|claim|case|originating\s+summons|summons|cross[-\s]appeal|it|them)\b", re.I), "dismissed"),
+    (re.compile(r"\bwe\s+(?:hereby\s+|therefore\s+|accordingly\s+|now\s+){0,3}allow\s+(?:the\s+\w+\s+)?(?:petition|appeal|application|cross[-\s]appeal|it|them)\b", re.I), "allowed"),
+    (re.compile(r"\bwe\s+(?:hereby\s+|therefore\s+|accordingly\s+|now\s+){0,3}uphold\s+(?:the\s+)?(?:petition|appeal|application|judgment|decision|finding|conviction|sentence)\b", re.I), "upheld"),
+    (re.compile(r"\bwe\s+(?:hereby\s+|therefore\s+|accordingly\s+|now\s+){0,3}grant\s+(?:the\s+)?(?:petition|appeal|application|relief|reliefs|prayer)\b", re.I), "allowed"),
+    (re.compile(r"\bwe\s+(?:therefore\s+|accordingly\s+){0,2}decline\s+to\s+grant\b", re.I), "dismissed"),
+    (re.compile(r"\bwe\s+remit\s+(?:the\s+)?(?:matter|case|petition|appeal)\s+(?:back\s+)?to\b", re.I), "remitted"),
+    (re.compile(r"\bwe\s+set\s+aside\s+(?:the\s+)?(?:judgment|order|decision|finding)\b", re.I), "overturned"),
+    (re.compile(r"\bwe\s+overturn(?:ed)?\s+(?:the\s+)?(?:judgment|order|decision|finding)\b", re.I), "overturned"),
+    # Numbered closing orders: "1. The petition is dismissed."
+    (re.compile(r"^\s*[1-9]\.?\s+The\s+(?:petition|appeal|application)\s+(?:is\s+)?(?:hereby\s+)?dismissed\b", re.I | re.M), "dismissed"),
+    (re.compile(r"^\s*[1-9]\.?\s+The\s+(?:petition|appeal|application)\s+(?:is\s+)?(?:hereby\s+)?allowed\b", re.I | re.M), "allowed"),
+    # Bare succeed/fail
+    (re.compile(r"\b(?:appeal|petition|application)\s+succeeds?\b", re.I), "allowed"),
+    (re.compile(r"\b(?:appeal|petition|application)\s+fails?\b", re.I), "dismissed"),
+]
+
+
 def find_outcome_in_pdf_tail(pdf_tail_text: str):
     """parser_v0.3.1: scan the final 2 pages of the PDF for an
     operative-disposition match.
@@ -249,32 +279,28 @@ def find_outcome_in_pdf_tail(pdf_tail_text: str):
     Per user instruction (2026-04-30): when neither the HTML summary
     nor a PDF order-anchor window yields an outcome, search the
     closing pages of the judgment — the disposition paragraph
-    (\"It is so ordered\", numbered orders, \"Costs follow the event\",
-    bare \"Appeal dismissed\" closing line, etc.) often lacks the
-    canonical anchor phrases used above.
+    (\"We therefore dismiss the Petition\", \"We order that …\",
+    numbered closing orders, \"Appeal dismissed\" footer line, etc.)
+    often uses active-voice constructions absent from SUMMARY_PATTERNS.
 
-    Strategy: take the LAST SUMMARY_PATTERN match in the tail text,
-    which is overwhelmingly the operative line on Zambian judgments.
-    Apply the same _detail_is_safe sanity check as the summary path.
+    Strategy: take the LAST PDF_TAIL_PATTERNS match in the tail text,
+    which is overwhelmingly the operative line on Zambian judgments
+    (signature block + court orders sit at the very end). Apply the
+    same _detail_is_safe sanity check as the summary path.
     """
     if not pdf_tail_text:
         return None, None, None
-    last_out = None
-    last_detail = None
-    last_pat = None
-    for pat, out in SUMMARY_PATTERNS:
+    best = None  # (start_pos, outcome, detail, pattern_str)
+    for pat, out in PDF_TAIL_PATTERNS:
         for m in pat.finditer(pdf_tail_text):
             detail = _extract_detail_around(pdf_tail_text, m)
-            if _detail_is_safe(detail):
-                # Track the highest-position (latest) safe match across
-                # all patterns — that is the operative paragraph.
-                if last_out is None or m.start() > last_out[1]:
-                    last_out = (out, m.start())
-                    last_detail = detail
-                    last_pat = pat.pattern
-    if last_out is None:
+            if not _detail_is_safe(detail):
+                continue
+            if best is None or m.start() > best[0]:
+                best = (m.start(), out, detail, pat.pattern)
+    if best is None:
         return None, None, None
-    return last_out[0], last_detail, last_pat
+    return best[1], best[2], best[3]
 
 
 def infer_outcome(summary_para: str, pdf_text, pdf_tail_text=None):
@@ -298,7 +324,10 @@ def infer_outcome(summary_para: str, pdf_text, pdf_tail_text=None):
 
 def extract_pdf_text(path: pathlib.Path):
     """Returns (full_text, tail_text) where tail_text is the joined
-    text of the FINAL 2 pages of the PDF (or all pages if <=2).
+    text of the FINAL 2 pages of the PDF (or, if those pages return
+    empty extraction, the last ~10000 chars of full_text — covers
+    scanned/image-based PDFs whose final page extraction fails but
+    earlier pages still yield text).
 
     parser_v0.3.1 — adds tail_text return value to support the
     pdf-tail-2pages outcome fallback per 2026-04-30 user instruction.
@@ -308,16 +337,24 @@ def extract_pdf_text(path: pathlib.Path):
         text_parts = []
         with pdfplumber.open(str(path)) as pdf:
             n_pages = len(pdf.pages)
-            tail_start = max(0, n_pages - 2)
+            # Extract up to 200 pages (some judgments run very long).
+            cap = min(n_pages, 200)
+            tail_start = max(0, cap - 2)
             tail_parts = []
-            for i, page in enumerate(pdf.pages):
-                if i >= 80:
-                    break
-                t = page.extract_text() or ""
+            for i in range(cap):
+                t = pdf.pages[i].extract_text() or ""
                 text_parts.append(t)
                 if i >= tail_start:
                     tail_parts.append(t)
-        return "\n".join(text_parts), "\n".join(tail_parts)
+        full_text = "\n".join(text_parts)
+        tail_text = "\n".join(tail_parts).strip()
+        # Fallback: if final-2-pages extraction came up empty (scanned
+        # final page, layout extraction failure), use the last ~10k
+        # chars of full_text as the tail. This still keeps the search
+        # focused on the operative end of the judgment.
+        if len(tail_text) < 200 and full_text:
+            tail_text = full_text[-10000:]
+        return full_text, tail_text
     except Exception as e:
         print(f"pdfplumber error on {path}: {e}", file=sys.stderr)
         return None, None

@@ -1,4 +1,12 @@
 judges:
+- canonical_name: Chibomba
+  titles:
+  - title: PC
+    first_seen_in: judgment-zm-2021-zmcc-24-gilford-malenji-v-zambia-airports-corporation-limi
+    first_seen_at: '2026-04-30T03:09:01Z'
+  aliases:
+  - Chibomba PC
+  first_seen: '2026-04-30T03:09:01Z'
 - canonical_name: Chisunka
   titles:
   - title: JCC
@@ -24,6 +32,14 @@ judges:
   aliases:
   - Chisunka JJC
   first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Chitambo
+  titles:
+  - title: PC
+    first_seen_in: judgment-zm-2021-zmcc-13-bric-back-limited-t-a-gamamwe-ranches-v-kirkpatric
+    first_seen_at: '2026-04-30T03:10:27Z'
+  aliases:
+  - Chibomba PC Mulenga JC Mulonda JC Musaluke JC Chitambo JC
+  first_seen: '2026-04-30T03:10:27Z'
 - canonical_name: Kawimbe
   titles:
   - title: JCC
@@ -214,3 +230,11 @@ judges:
   - Sitali JC
   - Sitali JJC
   first_seen: '2026-04-29T16:06:58Z'
+- canonical_name: Zulu
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2021-zmcc-16-sampa-v-mundubile-and-anor
+    first_seen_at: '2026-04-30T03:10:27Z'
+  aliases:
+  - Zulu J
+  first_seen: '2026-04-30T03:10:27Z'

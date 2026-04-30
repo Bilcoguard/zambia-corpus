@@ -1,0 +1,56 @@
+{
+  "id": "judgment-zm-2021-zmcc-17-anderson-mwale-buchisa-mwalongo-and-kola-odubote-v",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Anderson Mwale, Buchisa Mwalongo and Kola Odubote v Zambia Open University (2021/CCZ/001) [2021] ZMCC 17 (20 September 2021)",
+  "citation": "[2021] ZMCC 17",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Anderson Mwale, Buchisa Mwalongo and Kola Odubote v Zambia Open University",
+  "case_number": "2021/CCZ/001",
+  "date_decided": "2021-09-20",
+  "judges": [
+    {
+      "name": "Chibomba",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Sitali",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Munalula",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Articles 187, 189, 266",
+    "definition of \"pension benefit\" includes gratuity but must be read with applicable pension statutes",
+    "fixed-term contract gratuity",
+    "retention on payroll",
+    "interaction between constitutional protection and statutory pension/occupational laws",
+    "burden of proof on claimant."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "their removal from the payroll was unconstitutional and dismiss the claim",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "473ea0f5a52056285f652d226fda5ff15f009908baf30c1b8cf8072fd07ab0d8",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2021/17/eng@2021-09-20",
+  "source_hash": "sha256:ed147bedff108dffe7e377e37ded5881ed77193f13bde3a9169c5124c9afadd8",
+  "fetched_at": "2026-04-30T03:08:56Z",
+  "parser_version": "0.3.1"
+}

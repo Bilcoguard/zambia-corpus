@@ -1,0 +1,52 @@
+{
+  "id": "judgment-zm-2021-zmcc-24-gilford-malenji-v-zambia-airports-corporation-limi",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Gilford Malenji v Zambia Airports Corporation Limited (2021/CCZ/005) [2021] ZMCC 24 (27 October 2021)",
+  "citation": "[2021] ZMCC 24",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Gilford Malenji v Zambia Airports Corporation Limited",
+  "case_number": "2021/CCZ/005",
+  "date_decided": "2021-10-27",
+  "judges": [
+    {
+      "name": "Chibomba",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Article 189(1)&(2): pension benefits and retention on payroll; SI No. 48/2020 (Employment Code exemptions) does not displace Article 189; statutory definition of gratuity under Employment Code Act",
+    "long‑term contracts; distinction between Article 67 abstract review and concrete enforcement under Article 128/189."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "dismiss the Petition",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "b179e782e08874cd8b55e45bec2fabe5727bba9f62895767e8d0d9fe722cdc0f",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2021/24/eng@2021-10-27",
+  "source_hash": "sha256:b02cc9284947337fecb9b3b2df4dff9f9a7609aa9e56ee0d59b945bfcee476d9",
+  "fetched_at": "2026-04-30T03:08:54Z",
+  "parser_version": "0.3.1"
+}

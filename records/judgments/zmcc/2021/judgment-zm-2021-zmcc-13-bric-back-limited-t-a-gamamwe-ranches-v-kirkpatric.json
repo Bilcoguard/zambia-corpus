@@ -1,0 +1,36 @@
+{
+  "id": "judgment-zm-2021-zmcc-13-bric-back-limited-t-a-gamamwe-ranches-v-kirkpatric",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Bric Back Limited T/A Gamamwe Ranches v Kirkpatrick (CCZ 2 of 2021) [2021] ZMCC 13 (20 July 2021)",
+  "citation": "[2021] ZMCC 13",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Bric Back Limited T/A Gamamwe Ranches v Kirkpatrick",
+  "case_number": "CCZ 2 of 2021",
+  "date_decided": "2021-07-20",
+  "judges": [
+    {
+      "name": "Chitambo",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional jurisdiction",
+    "Article 128",
+    "referral under Article 128(2)",
+    "limits on appeals against refusal to refer; Industrial Relations Division",
+    "exclusive jurisdiction under s.85 and s.85A",
+    "employer–employee disputes; Article 189",
+    "payroll retention pending severance; procedural commencement (originating summons vs petition)."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "summons and we dismiss it with costs to the Respondent",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "d6f3d0cd6d5a1644b6931c80c71ac7d0e867159db29e8d626c5afdcbb8b86975",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2021/13/eng@2021-07-20",
+  "source_hash": "sha256:10af352f41ea47ca7f4dceca6c13f8fa3636cffd2892168338b878c6194fdfbf",
+  "fetched_at": "2026-04-30T03:10:26Z",
+  "parser_version": "0.3.1"
+}

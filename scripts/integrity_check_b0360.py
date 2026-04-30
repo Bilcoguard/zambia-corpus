@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Integrity check for batch-0358 (Phase 5 ZMCC ingestion).
+"""Integrity check for batch-0359 (Phase 5 ZMCC ingestion).
 
-Validates the records written by batch_0358_parse.py (driven from
+Validates the records written by batch_0359_parse.py (driven from
 _work/b0360/parse_summary.json):
   - All 20 required fields present
   - id matches /^judgment-zm-[a-z0-9-]+$/

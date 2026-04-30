@@ -1,0 +1,36 @@
+{
+  "id": "judgment-zm-2021-zmcc-16-sampa-v-mundubile-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Sampa v Mundubile and Anor (High Court Civil Cause 27 of 2021) [2021] ZMCC 16 (22 November 2021)",
+  "citation": "[2021] ZMCC 16",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Sampa v Mundubile and Anor",
+  "case_number": "High Court Civil Cause 27 of 2021",
+  "date_decided": "2021-11-22",
+  "judges": [
+    {
+      "name": "Zulu",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Electoral law",
+    "Election petitions",
+    "Section 97(2)(a) EPA",
+    "Standard of proof (fairly high degree of convincing clarity)",
+    "Liability limited to acts of candidate or duly appointed election/polling agents",
+    "Need for corroboration of partisan evidence",
+    "Absence from totaling centre not fatal (s36)."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "The petition is entirely dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "0932fa582085189bf237f48657acd249da544abd1491c54c2ef523138c89fece",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2021/16/eng@2021-11-22",
+  "source_hash": "sha256:aeb5c8c21f971e6fd53fc71dd153989640db4502f27b20a187e79e0c28e32f14",
+  "fetched_at": "2026-04-30T03:10:25Z",
+  "parser_version": "0.3.1"
+}

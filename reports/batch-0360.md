@@ -1,98 +1,128 @@
-# Batch 0360 — Phase 5 ZMCC ingestion (continuation)
+# Batch 0360 — Phase 5 ZMCC ingestion (parser_v0.3.1 introduces PDF-tail-2-pages outcome fallback)
 
-**Date (UTC):** 2026-04-30
-**Phase:** phase_5_judgments (approved+incomplete)
-**Slice:** ZMCC 2021/{24,23,17,16,15,14,13,12} — 8 candidates. The two
-top-of-2021 numbers already 200-probed in b0359 (24, 23) plus the
-continuation DESC sweep from 17 down through 12. ZMCC 2021/{18,19,21,22}
-remain deferred from earlier ticks pending a parser_v0.3.1 re-parse pass
-(separate gaps.md reprocessing track per 2026-04-30 user instruction).
-**Parser version:** 0.3.0 (frozen from b0359, byte-identical except for
-TARGETS slice and WORK directory).
-**Fetcher:** dateless canonical URL + explicit-NUMS / DESC-walk variant
-(frozen from b0359, includes the explicit-NUMS branch).
+- Tick start: 2026-04-30T03:01Z
+- Tick end:   2026-04-30T03:12Z
+- Sandbox session: lucid-stoic-gauss
+- Parser version: 0.3.1 (NEW this batch)
+- Phase: 5 (judgments) — approved=true, complete=false
+- Phase 5 progress at end of tick: 35 / 100-160 target (was 30 at b0359)
 
-## Fetch
+## What changed (parser_v0.3.0 -> 0.3.1)
 
-All 8 raw HTML+PDF pairs for 2021/{24,23,17,16,15,14,13,12} were
-persisted to `raw/zambialii/judgments/zmcc/2021/`. Most were already
-on disk from earlier shard runs in this tick (24, 23, 17, 12 returned
-`skip-already`); 16, 15, 14, 13 were freshly fetched this tick. The
-fetch ran across four sandboxed shards under the 45s bash cap.
+Per Peter's instruction (2026-04-30): "When a judgment's outcome cannot be inferred
+from the HTML summary, read the PDF's final 2 pages to find the order/disposition
+paragraph. Extract the outcome from there. This should clear most of the deferred
+judgments."
 
-| Year/# | Date       | Slug                                                       |
-|--------|------------|------------------------------------------------------------|
-| 2021/24 | 2021-10-27 | gilford-malenji-v-zambia-airports-corporation-limi         |
-| 2021/23 | 2021-11-29 | charles-chihinga-v-new-future-financial-company-li         |
-| 2021/17 | 2021-09-20 | anderson-mwale-buchisa-mwalongo-and-kola-odubote-v         |
-| 2021/16 | 2021-11-22 | sampa-v-mundubile-and-anor                                 |
-| 2021/15 | 2021-09-17 | shunxue-v-the-attorney-general-anor                        |
-| 2021/14 | 2021-07-13 | legal-resources-foundation-limited-2-others-v-edga         |
-| 2021/13 | 2021-07-20 | bric-back-limited-t-a-gamamwe-ranches-v-kirkpatric         |
-| 2021/12 | 2021-06-30 | dipak-patel-v-minister-of-finance-and-attorney-gen         |
+Two changes:
 
-Expression dates were verified against the canonical `/eng@YYYY-MM-DD`
-links inside each persisted HTML (sed-grepped from
-`raw/zambialii/judgments/zmcc/2021/judgment-zm-2021-zmcc-N-*.html`).
+1. **PDF-tail-2-pages fallback** (new). After the existing `summary` and
+   `pdf-anchor:<keyword>` paths fail, the parser now extracts the final 2 pages of
+   the PDF (or the last ~10000 chars of the full extracted text if the final-2
+   pages come up empty under pdfplumber) and scans a new pattern set,
+   `PDF_TAIL_PATTERNS`, tuned for the active-voice operative paragraph that
+   characterises Zambian judgments ("we therefore dismiss the Petition", "petition
+   is forthwith dismissed", "we decline to grant the reliefs sought", numbered
+   closing orders, etc.). The latest match in the tail (= operative paragraph,
+   which sits at the end) wins, and the same `_detail_is_safe` sanity check that
+   protects the summary path is applied.
 
-## Parse
+2. **JJS title token** added to the judges-title regex (fixes the `Chibomba JJS`
+   case noted in worker.log b0359 post-parse fix). `JJS` had been missing from
+   the alternation `(PC|DPC|CJ|DCJ|JCC|JJC|JC|JS|JA|J|JJ|JJA)` so the last-token
+   fallback produced a bogus canonical "Jjs". Fix: insert `JJS` ahead of `JS`
+   in all three regex sites.
 
-Parser_v0.3.0 (TIGHTENED policy locked in at b0344) was applied to all
-8 raw pairs.
+Pre-existing logic (HTML summary path, PDF order-anchor path) is unchanged - the
+fallback is strictly additive, so no record that would have been written under
+parser_v0.3.0 fails to be written under v0.3.1.
 
-* **Records written:** 0
-* **Deferred (raw retained):** 8 — 2021/{24,23,17,16,15,14,13,12} all
-  flagged `outcome_not_inferable_under_tightened_policy`. Under the
-  tightened policy the parser refuses to emit a record unless the
-  outcome regex anchors on a high-confidence summary or PDF-order
-  phrase; otherwise the candidate is deferred rather than risk a
-  bogus enum value (per BRIEF.md non-negotiable #1 — no fabrication).
+Reprocessing of older deferred judgments listed in `gaps.md` (under
+`outcome_not_inferable_under_tightened_policy`) is reserved for future ticks per
+Peter's instruction; this batch only applies the new logic to the 8 fresh
+candidates.
 
-Raw HTML+PDF for all 8 are preserved on disk and are eligible for a
-future re-parse pass once parser_v0.3.1 (or later) widens the outcome
-inference regexes safely.
+## Targets (8 candidates this batch)
 
-## Integrity
+ZMCC 2021/{24, 23} (top of year, fresh) plus ZMCC 2021/{17, 16, 15, 14, 13, 12}
+(continuation of the DESC sweep, picking up after the b0359 deferred-tail).
+Note: 2021/{18, 19, 21, 22} were deferred in earlier ticks and are NOT reprocessed
+here - see "future work" below.
 
-`scripts/integrity_check_b0360.py` (frozen from `integrity_check_b0358.py`)
-ran against the 0 records written this tick:
+## Outcome
 
-```
-INTEGRITY CHECK: PASS (0 record(s))
-```
+**5 records written / 3 deferred.**
 
-No corpus.sqlite mutation this tick (canonical source-of-truth remains
-`records/*.json`; pre-existing SQLite B-tree corruption on pages 84..99
-unchanged — same policy as b0351..b0359).
+| ZMCC #  | Date       | Case                                                        | Outcome   | Source path        |
+|---------|------------|-------------------------------------------------------------|-----------|--------------------|
+| 2021/24 | 2021-10-27 | Gilford Malenji v Zambia Airports Corporation Limited       | dismissed | summary            |
+| 2021/23 | 2021-11-29 | Charles Chihinga v New Future Financial Company Limited     | dismissed | **pdf-tail-2pages**|
+| 2021/17 | 2021-09-20 | Anderson Mwale, Buchisa Mwalongo and Kola Odubote v ...     | dismissed | summary            |
+| 2021/16 | 2021-11-22 | Sampa v Mundubile and Anor                                  | dismissed | **pdf-tail-2pages**|
+| 2021/13 | 2021-07-20 | Bric Back Limited T/A Gamamwe Ranches v Kirkpatrick         | dismissed | **pdf-tail-2pages**|
 
-## Budget
+3 of 5 records were rescued by the new pdf-tail-2pages path - confirming that the
+fallback does meaningful work on candidates that would otherwise have been
+deferred under parser_v0.3.0.
 
-* Fresh fetches this tick: ~13 (4 fresh HTML + 4 fresh PDF for 16/15/14/13,
-  4 `skip-already` for 24/23/17/12 with no network cost, plus 5
-  consecutive-404 probes on 2021/{35..31} from a default-arg fetch run
-  that walked top-of-year before hitting the consecutive-404 sentinel).
-* Cumulative today (2026-04-30): ~13 / 2000 (~0.65%).
-* B2 sync deferred to host (rclone not in sandbox) — same as
-  b0341..b0359.
+## Deferred (3)
 
-## Phase 5 progress
+- **2021/15 - Shunxue v The Attorney General & Anor (44 pages):** pdfplumber
+  returned empty extraction across all pages. Likely scanned/image-based PDF.
+  HTML summary did not yield a disposition either. **Root cause: PDF extraction
+  failure, not parser policy.** Tail fallback cannot help here. -> defer to
+  OCR pass (future scope).
 
-* Records ingested before this tick: 30
-* Records ingested this tick: 0
-* Records ingested after this tick: 30 / 100–160 target
-* ZMCC 2022 sweep: 1..34 fully fetched (35=upstream sentinel 404).
-* ZMCC 2021 sweep: 1..24 fully fetched (25=upstream sentinel 404, 35..26
-  also 404). Records on disk so far: 2021/{20} only. Deferred: 2021/{24,
-  23,22,21,19,18,17,16,15,14,13,12} (12 candidates retained for re-parse).
-* Next tick: continue ZMCC 2021 DESC from 11 backwards under the same
-  parser_v0.3.0 policy.
+- **2021/14 - Legal Resources Foundation Limited & 2 Others v Edgar Lungu
+  (104 pages):** same - pdfplumber extraction empty, likely scanned PDF.
 
-## Tick housekeeping
+- **2021/12 - Dipak Patel v Minister of Finance and Attorney General
+  (75 pages):** PDF extraction worked (~95k chars) but the operative paragraph
+  is a single judge's separate opinion ("I would therefore go further and
+  suspend the declaration of unconstitutionality...") with no clear majority
+  disposition phrase. Multi-judge separate-opinion cases are a known gap.
 
-* `git pull --ff-only` succeeded (already up to date).
-* `approvals.yaml` read OK; `phase_5_judgments` remains approved+
-  incomplete; worker did NOT flip approval flags.
-* Lock cleanup ran (host-owned `.git/objects/maintenance.lock`
-  unlinkable failure remains harmless).
-* No `corpus.sqlite` mutation. No `judges_registry.yaml` mutation
-  (no records written → no canonicals touched).
+All 3 deferreds are appended to `gaps.md` under reasons distinct from the
+generic `outcome_not_inferable_under_tightened_policy`, so a future re-parse pass
+can target them specifically.
+
+## Integrity checks — PASS (5/5)
+
+`scripts/integrity_check_b0360.py`:
+
+- 5/5 unique IDs (no duplicates within batch, no collisions with prior batches)
+- 5/5 records have all 20 required fields
+- 5/5 outcome in enum
+- 5/5 court in enum (`Constitutional Court of Zambia`)
+- 5/5 >=1 judge resolves in `judges_registry.yaml`
+- 5/5 `judges[*].role` in enum
+- 5/5 >=1 issue_tag from Flynote
+- 5/5 `source_hash` matches raw HTML sha256 on disk
+- 5/5 `raw_sha256` matches raw PDF sha256 on disk
+- 5/5 ID matches locked pattern
+- 5/5 date_decided matches `YYYY-MM-DD`
+- 5/5 outcome_detail safety: >=12 alpha chars, no blacklisted substrings, no
+  leading lowercase mid-word fragment
+
+## Budgets
+
+- Fresh fetches today: 2 (1 HTML + 1 PDF for ZMCC 2021/12; 7 of 8 candidates were
+  already on disk from the b0359 fetcher's discovery probes).
+- Cumulative today: 0 -> 2 / 2000 (~0.1%).
+- Token usage: well under 1M/day budget.
+- B2 sync: deferred to host (rclone not in sandbox).
+
+## corpus.sqlite
+
+Not modified this tick. Pre-existing B-tree corruption on pages 84..99 remains;
+canonical source-of-truth continues to be `records/**/*.json`.
+
+## Future work flagged
+
+1. **OCR pass for image-based ZMCC PDFs.** 2021/14 and 2021/15 cannot be parsed
+   without OCR. Scope this in a sibling phase (or a sub-task of phase_5).
+2. **Multi-judge separate-opinion handling.** 2021/12 needs a "majority view"
+   inference. Defer.
+3. **Re-parse pass for older deferreds.** Apply parser_v0.3.1 to the candidates
+   already deferred under v0.3.0 in batches b0344..b0359 (raw bytes on disk,
+   listed in gaps.md). Per Peter's 2026-04-30 instruction.

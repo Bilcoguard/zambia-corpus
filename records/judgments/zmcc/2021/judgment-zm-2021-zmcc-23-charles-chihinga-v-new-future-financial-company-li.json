@@ -1,0 +1,43 @@
+{
+  "id": "judgment-zm-2021-zmcc-23-charles-chihinga-v-new-future-financial-company-li",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Charles Chihinga v New Future Financial Company Limited (2020/CCZ/003) [2021] ZMCC 23 (29 November 2021)",
+  "citation": "[2021] ZMCC 23",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Charles Chihinga v New Future Financial Company Limited",
+  "case_number": "2020/CCZ/003",
+  "date_decided": "2021-11-29",
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional jurisdiction",
+    "national values and principles (Articles 8 & 9) guide interpretation but are not independently justiciable",
+    "Constitutional Court limited to matters of constitutional interpretation or alleged contraventions (Article 128)",
+    "contractual/statutory disputes fall outside Constitutional Court’s original jurisdiction."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Consequently, the petition is forthwith dismissed for want of jurisdiction",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "d3e127e225d115c361c02cf7aeb626679a24aa7c08169e059b58e5b7eb2c718b",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2021/23/eng@2021-11-29",
+  "source_hash": "sha256:179710f7f5b8981aa961cc6fff7d03459598113d25fffb83e1e9f2fc344a367f",
+  "fetched_at": "2026-04-30T03:10:23Z",
+  "parser_version": "0.3.1"
+}
