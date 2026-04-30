@@ -2287,3 +2287,52 @@ vocabulary widening (subject to Peter's approval) or (b) an OCR
 pass for the three `pdf_extraction_empty_likely_scanned` candidates
 accumulated to date (zmcc/2021/{15,14}, zmcc/2025/19) plus a single
 targeted fetch for zmcc/2023/17.
+
+---
+
+## Batch 0367 (2026-04-30, parser_v0.3.1 reparse-first continuation)
+
+Slice: zmcc/2023/{13, 12, 10, 8, 6, 5, 4, 3} — eight raw-on-disk
+no-record candidates from the 2023 backlog (year-DESC then num-DESC
+continuation of b0366). 2 of 8 written via the `pdf-tail-2pages`
+fallback; 6 deferred with reason `html_no_summary_pdf_no_match`
+(operative disposition not present in the operative-summary block,
+no PDF anchor match, no closing-orders pattern in the final two
+pages).
+
+Written this tick (RESOLVED — no longer a gap):
+- [2023] ZMCC 13 — Siyunyi v The Attorney General (2023-09-28).
+  Outcome: dismissed. Detail: `68 In the sum, the Petition fails in
+  its entirety and it`. Source: `pdf-tail-2pages`.
+- [2023] ZMCC 10 — Mwanza and Anor v The Attorney General
+  (2023-09-19). Outcome: dismissed (with one relief partially
+  granted — see record `outcome_detail`). Source: `pdf-tail-2pages`.
+
+Deferred this tick (raw HTML+PDF retained; reason locked):
+- zmcc/2023/12 — Mutambo v The Attorney General (2023-09-26) —
+  `html_no_summary_pdf_no_match`.
+- zmcc/2023/8 — Mwiinde v Attorney General and National Pensions
+  Scheme Authority (2023-01-31) — `html_no_summary_pdf_no_match`.
+- zmcc/2023/6 — Sangwa v Attorney General and Law Association of
+  Zambia (2023-07-31) — `html_no_summary_pdf_no_match`.
+- zmcc/2023/5 — Governance Elections Advocacy Research Services
+  Initiative v … (2023-06-15) — `html_no_summary_pdf_no_match`.
+- zmcc/2023/4 — Ikelenge Town Council v National Pension Scheme
+  Authority (2023-03-30) — `html_no_summary_pdf_no_match`.
+- zmcc/2023/3 — Malanji and Anor v Attorney General and Anor
+  (2023-03-10) — `html_no_summary_pdf_no_match`.
+
+Reparse-first trend (b0361..b0367): 2,0,0,2,3,1,2 written across
+56 candidates (≈ 14.3% recall under the current parser vocabulary).
+Dominant deferral mode remains `html_no_summary_pdf_no_match` —
+ratio- or issue-style summaries with no operative disposition token
+in the tail PDF text. Vocabulary widening (parser_v0.3.2) remains
+the most likely lever.
+
+Next-tick continuation: pivot to the next eight raw-on-disk
+no-record candidates from the 2022 ZMCC backlog (descending after
+zmcc/2023/3 exhausts the 2023 reparse queue), or pause for Peter's
+approval on parser_v0.3.2 vocabulary widening. Subsequent ticks
+should still consider the OCR pass for
+`pdf_extraction_empty_likely_scanned` candidates (zmcc/2021/{15,14},
+zmcc/2025/19) and the single targeted fetch for zmcc/2023/17 PDF.

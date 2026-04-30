@@ -1,0 +1,58 @@
+{
+  "id": "judgment-zm-2023-zmcc-13-siyunyi-v-the-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Siyunyi v The Attorney General (2022/CCZ/0028) [2023] ZMCC 13 (28 September 2023)",
+  "citation": "[2023] ZMCC 13",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Siyunyi v The Attorney General",
+  "case_number": "2022/CCZ/0028",
+  "date_decided": "2023-09-28",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Director of Public Prosecutions",
+    "Judicial Complaints Commission",
+    "Attorney-General’s prosecutorial duty (Article 177)",
+    "Presidential decisions and delegation (Articles 91, 93)",
+    "Waiver of Oath of Office",
+    "JCC procedural autonomy (Article 144(4)(a); JCCA s28)",
+    "Quorum statutory not constitutional",
+    "Suspension and removal lawfully effected under Articles 144 and 182."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "68 In the sum, the Petition fails in its entirety and it",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "402ba0814f3562d2fb5c81842d82f118c78ee07e14da6e9dc548c660096e4818",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/13/eng@2023-09-28",
+  "source_hash": "sha256:8da17f6a9f2a73cdd1208bbe23781b5b22946936c8fa7db678109ceff1c95446",
+  "fetched_at": "2026-04-30T17:33:54Z",
+  "parser_version": "0.3.1"
+}

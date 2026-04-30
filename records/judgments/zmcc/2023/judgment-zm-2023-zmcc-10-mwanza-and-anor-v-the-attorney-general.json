@@ -1,0 +1,53 @@
+{
+  "id": "judgment-zm-2023-zmcc-10-mwanza-and-anor-v-the-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mwanza and Anor v The Attorney General (2023/CCZ/005) [2023] ZMCC 10 (19 September 2023)",
+  "citation": "[2023] ZMCC 10",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Mwanza and Anor v The Attorney General",
+  "case_number": "2023/CCZ/005",
+  "date_decided": "2023-09-19",
+  "judges": [
+    {
+      "name": "Mulonda",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Judicial appointments",
+    "no constitutional requirement to advertise vacancies or hold public interviews; Article 141(1)(b)",
+    "Constitutional Court judges must have specialised training or experience in human rights or constitutional law; Appointment conditional on National Assembly ratification",
+    "qualification measured at ratification; Judge President and Deputy Judge President of Court of Appeal fall within \"other judges\" and are appointed by the President; Recommendation for legislative framework to regulate JSC selection procedures."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "[11 O] In sum, all the claims in the Petition fail, save for relief (v) for which we",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "3a99871a39167f3bd4c2cf027839b7ce1fe6e91610c0a5c4b1c979bfc80aad66",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/10/eng@2023-09-19",
+  "source_hash": "sha256:6e6653c8df15b69163b38d799442ca18be2126075c318642cd8a89cdf3a3761d",
+  "fetched_at": "2026-04-30T17:33:55Z",
+  "parser_version": "0.3.1"
+}
