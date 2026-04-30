@@ -30,6 +30,34 @@ phases:
     approved: true
     complete: false
     approval_note: "Phase 5 approved by Peter 2026-04-29. Target: 100-160 landmark judgments."
+    # 2026-04-30 amendments — locked-in by Peter via Cowork
+    parser_version: "0.3.1"
+    parser_baseline: "scripts/batch_0360_parse.py"
+    parser_policy_note: |
+      parser_v0.3.1 (2026-04-30) adds a PDF final-2-pages outcome
+      fallback after the existing summary and pdf-anchor stages.
+      See BRIEF.md "Phase 5 — Parser policy" for full details.
+      Frozen baseline: scripts/batch_0360_parse.py.
+    reparse_first: true
+    reparse_first_note: |
+      Before consuming any fresh fetch budget, the tick MUST scan
+      gaps.md and records/judgments/ for candidates whose raw
+      HTML+PDF are already on disk but whose record was never
+      written, and re-parse them with the current parser version.
+      Up to MAX_BATCH_SIZE per tick. Only when no addressable
+      deferreds remain should the tick continue the fresh DESC
+      sweep. RESOLVED-line append under the original gaps.md
+      entry; never delete the entry.
+    deferral_reasons_locked:
+      # Specific reason codes required when deferring a candidate.
+      # Generic 'outcome_not_inferable_under_tightened_policy' is
+      # banned for NEW deferrals (existing entries in gaps.md remain
+      # for historical accuracy).
+      - pdf_extraction_empty_likely_scanned
+      - multi_judge_separate_opinions_no_clear_majority_disposition
+      - parser_v0.3.1_token_unhandled
+      - outcome_inferred_but_detail_unsafe
+      - html_no_summary_pdf_no_match
   phase_6_retrieval_api:
     approved: false
     complete: false
