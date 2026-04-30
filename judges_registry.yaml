@@ -227,9 +227,13 @@ judges:
   - title: JJC
     first_seen_in: judgment-zm-2021-zmcc-20-autry-chanda-v-the-attorney-general
     first_seen_at: '2026-04-29T21:08:48Z'
+  - title: JCC
+    first_seen_in: judgment-zm-2022-zmcc-12-banda-v-attorney-general
+    first_seen_at: '2026-04-30T19:05:28Z'
   aliases:
   - Sitali JC
   - Sitali JJC
+  - Sitali JCC
   first_seen: '2026-04-29T16:06:58Z'
 - canonical_name: Zulu
   titles:

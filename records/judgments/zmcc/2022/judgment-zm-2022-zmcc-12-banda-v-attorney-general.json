@@ -1,0 +1,35 @@
+{
+  "id": "judgment-zm-2022-zmcc-12-banda-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Banda v Attorney General (CCZ 10 of 2022) [2022] ZMCC 12 (20 June 2022)",
+  "citation": "[2022] ZMCC 12",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Banda v Attorney General",
+  "case_number": "CCZ 10 of 2022",
+  "date_decided": "2022-06-20",
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Stay of execution",
+    "Removal of judge",
+    "Discretionary nature of stay",
+    "Implemented executive decision leaves nothing to stay",
+    "Merits cannot be decided at preliminary stage; judicial review authorities distinguished."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "The application is accordingly dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "c4d34c1382879bc132b256174f006ec04f52bfe0c03db7a2f0fa5a8c983b0b2b",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/12/eng@2022-06-20",
+  "source_hash": "sha256:27d2ca1b19afd9c6743ac5f66461eb6fb7ca81d6c3c64b581ec33cecd3f9f8d2",
+  "fetched_at": "2026-04-30T19:05:21Z",
+  "parser_version": "0.3.1"
+}

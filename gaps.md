@@ -2539,3 +2539,42 @@ on disk; re-parsing under v0.3.2 will be cost-free.
 
 The OCR-pending inventory now stands at four candidates:
 zmcc/2021/15, zmcc/2021/14, zmcc/2025/19, zmcc/2022/16.
+
+## Batch 0370 — Phase 5 ZMCC reparse-first continuation (2022 backlog), parser_v0.3.1
+2026-04-30T19:05:21Z. Targets: zmcc 2022/{14,13,12,11,10,9,8,6}, year-DESC then num-DESC continuation of the b0369 sweep (b0369 took {23,22,21,20,18,17,16,15}). Note: zmcc/2022/7 has no raw on disk, skipped in the DESC walk. All raw HTML+PDF pairs already on disk; this run consumed 0 fresh fetches.
+
+### Resolved (raw retained per audit policy)
+- judgment-zm-2022-zmcc-12-banda-v-attorney-general (Banda v Attorney General [2022] ZMCC 12, decided 2022-06-20).
+  RESOLVED in batch-0370 (parser_v0.3.1).
+  Outcome: dismissed (outcome_source=pdf-tail-2pages; "The application is accordingly dismissed").
+  Judges: Sitali JCC (single judge sitting on a removal-of-judge stay application). Resolved against existing canonical "Sitali" entry in judges_registry.yaml.
+  URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/12/eng@2022-06-20.
+
+### Deferred candidates this batch
+Each deferral carries a SPECIFIC reason code per approvals.yaml `deferral_reasons_locked` (no generic `outcome_not_inferable_under_tightened_policy`). Raw HTML+PDF retained on disk in raw/zambialii/judgments/zmcc/2022/.
+
+- zmcc/2022/14 — Malanji v Mulenga and Anor — `html_no_summary_pdf_no_match`.
+  Summary head: "Whether a candidate's Grade 12-based eligibility can be challenged at election stage and who bears the evidential burden."
+  URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/14/eng@2022-08-03.
+- zmcc/2022/13 — Lusambo v Kanengo and Anor — `html_no_summary_pdf_no_match`.
+  Summary head: "Election nullified: court found proven violence, treating and canvassing with appellant's knowledge; annulment confirmed, appeals dismissed."
+  URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/13/eng@2022-07-28.
+- zmcc/2022/11 — Chisanga and Anor v Electoral Commission of Zambia — `html_no_summary_pdf_no_match`.
+  Summary head: "Filing the record of appeal outside the 30‑day period without leave renders the appeal incompetent and dismissible."
+  URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/11/eng@2022-05-16.
+- zmcc/2022/10 — Lungu v Attorney General and Ors — `html_no_summary_pdf_no_match`.
+  Summary head: "Constitutional Court may stay criminal proceedings pending determination of constitutional questions, including where immunity or nolle prosequi is alleged."
+  URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/10/eng@2022-05-19.
+- zmcc/2022/9 — Tembo (party-president) v ... — `html_no_summary_pdf_no_match`.
+  Summary head: "Whether non-publication of presidential asset declarations breached Article 52(3) absent statutory prescription."
+  URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/9/eng@2022-03-14.
+- zmcc/2022/8 — Kafwaya v Katonga and Ors — `parser_v0.3.1_judges_no_comma_unhandled`.
+  Summary head: "Appellate court reversed nullification: petitioners failed to prove bribery and widespread undue influence to required high standard."
+  Caught by the b0368 defensive guard (single judge object inferred but ≥2 judicial-title tokens detected in raw `judges_text`, indicating space-separated 2022-format that the comma-splitter collapsed).
+  URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/8/eng@2022-04-13.
+- zmcc/2022/6 — Malanji v Mulenga and Anor — `html_no_summary_pdf_no_match`.
+  Summary head: "Whether an appellate court should admit fresh evidence under s25(1)(b) where documents were available before trial."
+  URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/6/eng@2022-02-24.
+
+### Recommendation
+Three-tick stable signal across b0368→b0370: 24 candidates → 1 written. The 1-record yield this tick (zmcc/2022/12, single Sitali JCC ruling) was an idiosyncratic single-judge stay application — not representative of the 2022 ZMCC bulk format, which remains dominated by `html_no_summary_pdf_no_match` (no summary `<dl>`, no order-anchor or tail match) and `parser_v0.3.1_judges_no_comma_unhandled` (space-separated judges). Parser_v0.3.2 vocabulary widening (judges-no-comma fix + operative-verb additions for the 2022 election-petition style) remains the dominant unblock — subject to Peter's approval per BRIEF.md non-negotiable on parser vocabulary changes.
