@@ -1,0 +1,36 @@
+{
+  "id": "judgment-zm-2021-zmcc-19-wang-shunxue-and-attorney-general-and-another",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "WANG SHUNXUE AND ATTORNEY GENERAL AND ANOTHER (2021/CCZ/003) [2021] ZMCC 19 (25 March 2021)",
+  "citation": "[2021] ZMCC 19",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "WANG SHUNXUE AND ATTORNEY GENERAL AND ANOTHER",
+  "case_number": "2021/CCZ/003",
+  "date_decided": "2021-03-25",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "stay of criminal proceedings",
+    "private prosecution",
+    "Article 180(8) DPP consent",
+    "interlocutory relief",
+    "jurisdiction of single judge",
+    "three‑pronged test (serious question, irreparable harm, balance of convenience)."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "The application is accordingly dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "4f9320d2237efdd9d319df42f56797b7ce010819a74dcc98b1823858f34fb3a4",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2021/19/eng@2021-03-25",
+  "source_hash": "sha256:cbaa0aaf21bfcd26b980a987162323d2c747c774cd3ce5437f6a2e0ee01a8fab",
+  "fetched_at": "2026-04-30T20:05:10Z",
+  "parser_version": "0.3.1"
+}

@@ -5192,3 +5192,5 @@
 2026-04-30T19:05:21Z  batch-0370 B2 sync deferred to host (rclone not in sandbox)
 2026-04-30T19:35:40Z  batch-0371 complete: 1 written / 7 deferred (parser_v0.3.1 reparse-first continuation; 1 of 1 records came from HTML summary path; 0 fresh fetches; completes 2022 ZMCC raw-on-disk no-record backlog and crosses into 2021). Phase 5 progress 47/100-160. B2 sync deferred to host. SQLite ingestion deferred to host (corpus.sqlite FTS index reports malformed disk image on read).
 2026-04-30T19:35:40Z  batch-0371 B2 sync deferred to host (rclone not in sandbox)
+2026-04-30T20:07:27Z  batch-0372 complete: 1 written / 2 deferred (parser_v0.3.1 reparse-first continuation; 1 of 1 records came from pdf-tail-2pages fallback; 0 fresh fetches; completes the 2021 ZMCC raw-on-disk no-record backlog under v0.3.1). Phase 5 progress 48/100-160. B2 sync deferred to host. SQLite ingestion deferred to host (corpus.sqlite FTS index reports malformed disk image on read).
+2026-04-30T20:07:27Z  batch-0372 B2 sync deferred to host (rclone not in sandbox)
