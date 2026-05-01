@@ -5278,3 +5278,6 @@
 2026-05-01T15:05:42Z  batch-0409 B2 sync deferred to host (rclone not in sandbox)
 2026-05-01T15:36:15Z  batch-0410  fetches=0  records_written=0  records_deferred=0  cumulative_today=0/2000  reason=audit-no-write-confirms-b0409-v0.3.1-reparse-inventory-still-exhausted-THIRTYFIFTH-consecutive-idle-tick-completion-criterion-still-fired-awaiting-parser_v0.3.2-OCR-or-ZMSC-sweep-approvals
 2026-05-01T15:36:15Z  batch-0410 B2 sync deferred to host (rclone not in sandbox)
+2026-05-01T15:36:30Z  batch-0410 push OK
+2026-05-01T16:04:40Z  batch-0411  fetches=0  records_written=0  records_deferred=0  cumulative_today=0/2000  reason=audit-no-write-confirms-b0410-v0.3.1-reparse-inventory-still-exhausted-THIRTYSIXTH-consecutive-idle-tick-completion-criterion-still-fired-awaiting-parser_v0.3.2-OCR-or-ZMSC-sweep-approvals
+2026-05-01T16:04:40Z  batch-0411 B2 sync deferred to host (rclone not in sandbox)
