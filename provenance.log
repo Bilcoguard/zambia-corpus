@@ -3346,3 +3346,4 @@ raw_persisted judgment-zm-2025-zmcc-27-munir-zuu-and-anor-v-attorney-general-and
 2026-05-01T04:34:32Z  batch-0388  audit-only  parser_version=0.3.1  fetches=0  written=0  deferred=0  source_hashes_unchanged=78  note=thirteenth-substantive-consecutive-audit-only-tick-v0.3.1-reparse-inventory-exhausted-no-source-touched-no-record-mutated
 2026-05-01T05:05:41Z  batch-0389  audit-only  no_fetches  no_records_written  records_in_corpus=78  zmcc_raw=142_html/141_pdf  zmcc_records=53  zmcc_missing=89  zmsc_raw=24_html  zmsc_records=24  scz_records=1  approvals_sha=b24a938  parser_version=0.3.1
 2026-05-01T06:05:31Z  batch-0391  audit-only  fetches=0  written=0  deferred=0  no-raw-additions  reparse-inventory-exhausted-at-v0.3.1
+2026-05-01T06:35:10Z  batch-0392  audit-only (no fetches, no writes)  reason=v0.3.1-reparse-inventory-exhausted-17th-consecutive-idle-tick
