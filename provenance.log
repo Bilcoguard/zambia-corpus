@@ -3349,3 +3349,4 @@ raw_persisted judgment-zm-2025-zmcc-27-munir-zuu-and-anor-v-attorney-general-and
 2026-05-01T06:35:10Z  batch-0392  audit-only (no fetches, no writes)  reason=v0.3.1-reparse-inventory-exhausted-17th-consecutive-idle-tick
 2026-05-01T07:03:41Z  batch-0393  audit-only (no fetches, no writes)  reason=v0.3.1-reparse-inventory-exhausted-18th-consecutive-idle-tick
 2026-05-01T07:34:59Z  batch-0394 audit-only. ZMCC=53/142 ZMSC=24/25 SCZ=1 total=78. gaps.md unchanged. integrity trivial PASS. No records written, no fetches, no provenance entries.
+2026-05-01T08:04:46Z  batch-0395 phase_5_judgments audit-only — reparse inventory exhausted (89 ZMCC deferred; 0 ZMSC backlog) — no records written, integrity trivially PASS
