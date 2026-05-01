@@ -3355,3 +3355,4 @@ raw_persisted judgment-zm-2025-zmcc-27-munir-zuu-and-anor-v-attorney-general-and
 2026-05-01T09:35:18Z  batch-0398  no fetches (audit-only); ZMCC 142h/141p/53rec; ZMSC 26h/24p/24rec; SCZ 1rec; total 78; gaps.md unchanged since 2026-04-30T21:40:59Z; integrity PASS (trivial; 6-record provenance + 3 ZMCC source_hash recompute)
 2026-05-01T10:05:18Z  batch-0399  audit-only — no fetches, no parse, no record write/delete; integrity invariants verified
 2026-05-01T10:35:18Z  batch-0400  audit-only-idle-tick-no-fetches-no-writes  full-corpus-integrity-pass  approvals.yaml-unchanged-since-2026-04-30T15:36:40Z
+2026-05-01T11:05:06Z  batch-0401  audit-only-tick  no-records-written  no-fetches  inventory=78-records-unchanged  parser_v0.3.1  reparse-inventory-exhausted
