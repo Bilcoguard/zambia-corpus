@@ -4428,3 +4428,5 @@ batch-0368: B2 sync deferred to host (rclone not in sandbox)
 2026-05-01T07:35:46Z  Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
 2026-05-01T07:35:46Z  batch-0394 B2 sync deferred to host (rclone not in sandbox).
 2026-05-01T08:04:46Z  batch-0395 audit-only idle tick: phase_5_judgments approved+incomplete; reparse inventory exhausted (ZMCC 142h/141p/53rec; ZMSC 25h/24p/24rec); gaps.md frequencies unchanged; integrity PASS (trivial); awaiting Peter approval for parser_v0.3.2 / OCR / ZMSC fresh sweep
+2026-05-01T08:05:25Z  batch-0395 commit cbb3092 pushed cleanly to origin/main
+2026-05-01T08:33:58Z  batch-0396 audit-only idle tick: phase_5_judgments approved+incomplete; reparse inventory exhausted (ZMCC 142h/141p/53rec; ZMSC 26h/24p/24rec; SCZ 1rec; total 78); gaps.md frequencies identical to b0386-b0395 (114/14/10/2/49 + 0/0); integrity PASS (trivial; 6-record provenance spot-check OK); awaiting Peter approval for parser_v0.3.2 / OCR / ZMSC fresh sweep
