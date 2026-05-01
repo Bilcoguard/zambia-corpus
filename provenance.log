@@ -3363,3 +3363,4 @@ raw_persisted judgment-zm-2025-zmcc-27-munir-zuu-and-anor-v-attorney-general-and
 2026-05-01T13:35:35Z  batch-0406  audit-only idle tick — no fetches, no writes; Phase 5 inventory + gaps + integrity reconfirmed (78/78 records, 78/78 source_hash → raw resolution OK).
 2026-05-01T14:05:35Z  batch-0407  audit-only tick; 0 fetches; 0 records written; 0 records deferred; integrity PASS (78/78 unique ids, 78/78 provenance, 78/78 source_hash resolved, 6/6 spot recompute OK seed=407, 0 unresolved refs)
 2026-05-01T14:36:26Z  batch-0408  audit-only  fetches=0  records_written=0  parser_version=0.3.1  scope=phase_5_judgments  integrity=PASS(78/78)
+2026-05-01T15:05:42Z  batch-0409  audit-only  fetches=0  records_written=0  parser_version=0.3.1  scope=phase_5_judgments  integrity=PASS(78/78)
