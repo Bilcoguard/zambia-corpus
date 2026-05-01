@@ -3358,3 +3358,4 @@ raw_persisted judgment-zm-2025-zmcc-27-munir-zuu-and-anor-v-attorney-general-and
 2026-05-01T11:05:06Z  batch-0401  audit-only-tick  no-records-written  no-fetches  inventory=78-records-unchanged  parser_v0.3.1  reparse-inventory-exhausted
 2026-05-01T11:34:59Z  batch-0402  audit-only-tick  records_written=0  reparse_inventory_exhausted_at_v0.3.1  approvals_unchanged_~20.0h
 2026-05-01T12:06:05Z  [batch-0403] {"tick":"batch-0403","ts":"2026-05-01T12:06:05Z","phase":"phase_5_judgments","yield":0,"fresh_fetches":0,"reparse_inventory":"exhausted","integrity":"PASS_trivial","approvals_yaml_unchanged_h":20.4}
+2026-05-01T12:36:50Z  batch-0404  audit-only-idle-tick  fetches=0  records_written=0  records_deferred=0  raw_files_indexed=2412  records_total=78  unique_ids=78  source_hash_resolution=78/78
