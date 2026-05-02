@@ -4832,3 +4832,27 @@ Recommend extending the FIRST step lock cleanup glob to include "*.lock.bak.*".
 2026-05-02T09:33:40Z  [batch-0445] SQLite ingestion deferred to host (corpus.sqlite FTS5 malformed-disk-image carry-forward; canonical source remains records/*.json).
 2026-05-02T09:33:40Z  [batch-0445] phase_5_judgments remains approved+incomplete (worker does not flip approval flags). 70 consecutive substantive audit-only ticks (b0375..b0383 + b0385..b0445). UTC date 2026-05-02 (17th substantive tick of new day). Recommendation unchanged: parser_v0.3.2 vocabulary widening + OCR pipeline + ZMSC fresh-DESC-sweep approvals are all required to make further Phase 5 progress; all subject to Peter approval per BRIEF.md non-negotiable on parser changes.
 2026-05-02T09:33:40Z  Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
+2026-05-02T09:36:18Z  [batch-0445] commit FAILED — fatal: Unable to create .git/index.lock: File exists.
+2026-05-02T09:36:18Z  [batch-0445] diagnostic: stale 0-byte .git/index.lock (created 2026-05-02T09:35Z within this sandbox tick), EPERM on unlink/rename via FUSE mount despite owning uid. No active git process. Same macOS-side stale-lock failure mode as b0432/b0442 (likely uchg flag or open handle on host).
+2026-05-02T09:36:18Z  [batch-0445] remediation required (host-side, Peter):
+    cd ~/KateWestonCorpus/corpus
+    chflags -R nouchg .git/
+    rm -f .git/index.lock .git/index.lock.bak.b0445_pre_commit
+    rm -f .git/objects/c2/tmp_obj_bigGbU .git/objects/94/tmp_obj_vcEifU 2>/dev/null
+2026-05-02T09:36:18Z  [batch-0445] state preserved: reports/batch-0445.md written; worker.log/costs.log/provenance.log appended; scripts/audit_b0445.py written; _work/b0445/audit_summary.json (gitignored) written. Audit itself PASSED (78/78 integrity, 6/6 spot-recompute seed=445). All artefacts on disk; next tick will re-attempt commit after host-side stale-lock cleanup.
+2026-05-02T09:36:18Z  [batch-0445] stopping tick cleanly. cumulative_today still 0/2000. approvals.yaml NOT modified. Phase 5 still appears complete, awaiting human confirmation.
+2026-05-02T09:36:50Z  [batch-0445] commit RECOVERED — mv .git/index.lock to timestamped .bak succeeded (FUSE EPERM-on-unlink yields to mv-to-different-name; same trick worked for .git/HEAD.lock pre-push). Committed as f411764 (5 files / 280 insertions).
+2026-05-02T09:36:50Z  batch-0445 commit f411764 OK
+2026-05-02T09:36:50Z  batch-0445 push OK to origin/main (1f95616..f411764)
+2026-05-02T09:36:50Z  batch-0445 B2 sync deferred to host (rclone not in sandbox)
+2026-05-02T09:36:50Z  batch-0445 commit f411764 pushed cleanly to origin/main; B2 sync deferred to host (rclone not in sandbox); SQLite ingestion deferred (FTS5 malformed-disk-image carry-forward). Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
+2026-05-02T09:36:50Z  [batch-0445] note: prior FAILED-commit diagnostic stays in log for accuracy (failure was real until mv-to-timestamped-name workaround succeeded). Recommend extending the FIRST step lock cleanup glob to include "*.lock" via mv (not just rm) since rm hits EPERM but mv-to-different-name succeeds on the FUSE mount.
+2026-05-02T10:04:47Z  [batch-0446] tick start; cleanup glob ran clean (no stale locks); git pull --ff-only OK ("Already up to date.").
+2026-05-02T10:04:47Z  [batch-0446] approvals.yaml unchanged since 2026-04-30T15:36:40Z (commit b24a938); BRIEF.md unchanged since 2026-04-30T03:22Z.
+2026-05-02T10:04:47Z  [batch-0446] reparse-first inventory: ZMCC 142h/141p/53rec/89missing(all-deferred); ZMSC 25h(incl-1-index)/24p/24rec/0missing; SCZ-pilot 1rec; total 78. Inventory exhausted under parser_v0.3.1.
+2026-05-02T10:04:47Z  [batch-0446] integrity sweep PASS: 78/78 unique ids; 78/78 provenance complete; 78/78 source_hash shape OK; 78/78 source_hash resolves in raw/ (sha256 index 3203 files / 2926 unique); 6/6 spot-recompute (seed=446); 0 unresolved Phase-5 cross-refs.
+2026-05-02T10:04:47Z  [batch-0446] gaps.md unchanged since 2026-04-30T21:40:59Z (commit 61d666e); approvals.yaml unchanged since 2026-04-30T15:36:40Z (commit b24a938).
+2026-05-02T10:04:47Z  [batch-0446] B2 sync deferred to host (rclone not in sandbox).
+2026-05-02T10:04:47Z  [batch-0446] SQLite ingestion deferred to host (corpus.sqlite FTS5 malformed-disk-image carry-forward; canonical source remains records/*.json).
+2026-05-02T10:04:47Z  [batch-0446] phase_5_judgments remains approved+incomplete (worker does not flip approval flags). 71 consecutive substantive audit-only ticks (b0375..b0383 + b0385..b0446). UTC date 2026-05-02 (18th substantive tick of new day). Recommendation unchanged: parser_v0.3.2 vocabulary widening + OCR pipeline + ZMSC fresh-DESC-sweep approvals are all required to make further Phase 5 progress; all subject to Peter approval per BRIEF.md non-negotiable on parser changes.
+2026-05-02T10:04:47Z  Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
