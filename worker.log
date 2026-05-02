@@ -5055,3 +5055,8 @@ Recommend extending the FIRST step lock cleanup glob to include "*.lock.bak.*".
 2026-05-02T20:05:30Z  batch-0465  integrity  78/78 unique IDs; 78/78 provenance complete; 78/78 source_hash shape OK; 78/78 source_hash resolves in raw/ tree; 6/6 spot-recompute OK seed=465; 0 unresolved Phase-5 cross-refs
 2026-05-02T20:05:30Z  batch-0465  PASS audit-only — no fetches, no records written
 2026-05-02T20:05:30Z  Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
+2026-05-02T20:07:00Z  batch-0465 commit c52e1cb OK
+2026-05-02T20:07:00Z  batch-0465 push OK to origin/main (2cbcd7d..c52e1cb)
+2026-05-02T20:07:00Z  batch-0465 B2 sync deferred to host (rclone not in sandbox)
+2026-05-02T20:07:00Z  batch-0465 stale .git locks (index.lock pre-add + pre-commit + post-commit; packed-refs.lock pre-add; HEAD.lock + maintenance.lock + tmp_obj 'Operation not permitted' carry-forward) renamed in place per established pattern (.git/index.lock.bak.b0465_pre.* / .b0465_p2.* / .b0465_p3.* / .b0465_pp.* and .git/packed-refs.lock.bak.b0465_pre.*); commit + push completed cleanly thereafter.
+2026-05-02T20:07:00Z  batch-0465 commit c52e1cb pushed cleanly to origin/main; B2 sync deferred to host (rclone not in sandbox); SQLite ingestion deferred (FTS5 malformed-disk-image carry-forward). Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
