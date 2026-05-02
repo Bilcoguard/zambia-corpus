@@ -3380,3 +3380,4 @@ raw_persisted judgment-zm-2025-zmcc-27-munir-zuu-and-anor-v-attorney-general-and
 2026-05-02T00:04:57Z  batch-0427  audit-only  records_unchanged=78  raw_files=3203  unique_sha256=2926  integrity=PASS  spot_recompute=6/6  seed=427
 2026-05-02T00:35:09Z  batch-0428  audit-only  records_audited=78  raw_files_indexed=3203  unique_sha256=2926  spot_seed=428  result=PASS
 2026-05-02T01:05:40Z  batch-0429 audit-only verification: ZMCC 142h/141p/53rec/89missing-all-deferred; ZMSC 25h/24p/24rec/0missing; SCZ 1rec; total 78; sha256-index 3203 files / 2926 unique; resolved 78/78; spot-recompute 6/6 seed=429
+2026-05-02T01:35:41Z  batch-0430  audit-only  records=78  fetches=0  integrity=PASS  gaps_sha256=6cfc1bf4a61ed78e99cc2714041ac8dbc34b51485cf7636a0df1926dee663820  approvals_unchanged_since=2026-04-30T15:36:40Z
