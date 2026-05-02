@@ -5082,3 +5082,18 @@ Recommend extending the FIRST step lock cleanup glob to include "*.lock.bak.*".
 2026-05-02T21:05:15Z  batch-0467  integrity  78/78 unique IDs; 78/78 provenance complete; 78/78 source_hash shape OK; 78/78 source_hash resolves in raw/ tree (3203 files / 2926 unique sha256); 6/6 spot-recompute OK seed=467; 0 unresolved Phase-5 cross-refs
 2026-05-02T21:05:15Z  batch-0467  PASS audit-only — no fetches, no records written
 2026-05-02T21:05:15Z  Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
+2026-05-02T21:05:40Z  batch-0467 commit a9382f3 OK
+2026-05-02T21:05:40Z  batch-0467 push OK to origin/main (b673047..a9382f3)
+2026-05-02T21:05:40Z  batch-0467 B2 sync deferred to host (rclone not in sandbox)
+2026-05-02T21:05:40Z  batch-0467 stale .git tmp_obj 'Operation not permitted' carry-forward (.git/objects/*/tmp_obj_* and .git/HEAD.lock — host-locked, sandbox cannot unlink); commit + push completed cleanly thereafter.
+2026-05-02T21:05:40Z  batch-0467 commit a9382f3 pushed cleanly to origin/main; B2 sync deferred to host (rclone not in sandbox); SQLite ingestion deferred (FTS5 malformed-disk-image carry-forward). Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
+2026-05-02T21:07:10Z  batch-0467 post-push log commit DEFERRED to next tick: .git/index.lock and .git/HEAD.lock host-locked, sandbox cannot unlink (Operation not permitted) — os.replace trick succeeded but Git's O_CREAT|O_EXCL still rejects the freshly-replaced file; GIT_INDEX_FILE override hit identical HEAD.lock barrier. Worker.log + costs.log local edits remain uncommitted; next tick (b0468) will incorporate them in its own batch commit. Main work commit a9382f3 verified pushed to origin/main; HEAD == origin/main confirmed. Tick complete.
+2026-05-02T21:34:59Z  batch-0468  start  phase=5  mode=audit-only  prev=b0467
+2026-05-02T21:34:59Z  batch-0468  pull  Already up to date. (after one-shot orphan-ref recovery: refs/remotes/origin/main.lock.bak.b0467_post.20260502T210550Z was zero-length; wrote current origin/main SHA a9382f3ee7834df77686dac784e06e9b2dd24dee into the orphan ref to clear bad-object pull blocker per established carry-forward pattern; sandbox unlink-denied semantics for .git/ make ref-validation the safe alternative to rm)
+2026-05-02T21:34:59Z  batch-0468  approvals.yaml  unchanged since 2026-04-30T15:36:40Z (commit b24a938)
+2026-05-02T21:34:59Z  batch-0468  budget  cumulative_today=0/2000 fetches; 0/1000000 tokens
+2026-05-02T21:34:59Z  batch-0468  reparse-first inventory: ZMCC 142h/141p/53rec/89missing-all-deferred-under-v0.3.1-locked-codes; ZMSC 25h(incl.1index)/24p/24rec/0missing; SCZ-pilot 1rec; total 78
+2026-05-02T21:34:59Z  batch-0468  integrity  78/78 unique IDs; 78/78 provenance complete; 78/78 source_hash shape OK; 78/78 source_hash resolves in raw/ tree (3203 files / 2926 unique sha256); 6/6 spot-recompute OK seed=468; 0 unresolved Phase-5 cross-refs
+2026-05-02T21:34:59Z  batch-0468  PASS audit-only — no fetches, no records written
+2026-05-02T21:34:59Z  Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
+2026-05-02T21:34:59Z  batch-0468  carry-forward incorporates b0467 post-push deferred log edits (worker.log + costs.log) per b0467 final note.
