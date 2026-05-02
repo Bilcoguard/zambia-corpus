@@ -5122,3 +5122,8 @@ Recommend extending the FIRST step lock cleanup glob to include "*.lock.bak.*".
 2026-05-02T23:05:19Z  batch-0470  PASS audit-only — no fetches, no records written
 2026-05-02T23:05:19Z  Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
 2026-05-02T23:05:19Z  batch-0470  carry-forward incorporates b0469 deferred post-push log edit (single 2026-05-02T22:36:36Z line was in worker.log working tree but not in commit e05536d).
+2026-05-02T23:06:01Z  batch-0470 commit 2971f47 OK
+2026-05-02T23:06:01Z  batch-0470 push OK to origin/main (e05536d..2971f47)
+2026-05-02T23:06:01Z  batch-0470 B2 sync deferred to host (rclone not in sandbox)
+2026-05-02T23:06:01Z  batch-0470 stale .git/index.lock (host-locked) renamed to .git/index.lock.bak.b0470_pre_commit.* and stale .git/HEAD.lock renamed to .git/HEAD.lock.bak.b0470_pre_push.* per established carry-forward pattern; commit + push completed cleanly thereafter.
+2026-05-02T23:06:01Z  batch-0470 commit 2971f47 pushed cleanly to origin/main; B2 sync deferred to host (rclone not in sandbox); SQLite ingestion deferred (FTS5 malformed-disk-image carry-forward). Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
