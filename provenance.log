@@ -3405,3 +3405,4 @@ raw_persisted judgment-zm-2025-zmcc-27-munir-zuu-and-anor-v-attorney-general-and
 2026-05-02T15:04:33Z  batch-0456  audit-only  records_written=0  records_deferred=0  integrity=PASS(78/78)  spot_recompute=6/6_seed456  reparse_inventory=ZMCC53/142_ZMSC24/24_SCZ1  reason=eighty-first-consecutive-substantive-audit-only-tick-Phase5-completion-criterion-fired-awaiting-human-approval
 2026-05-02T15:35:07Z  batch-0457  audit-only  no_fetches  records_unchanged_at_78  integrity_PASS  seed=457
 2026-05-02T16:04:50Z  batch-0458  audit-only  no fetches  no records  inventory unchanged from b0457
+2026-05-02T16:33:30Z  batch-0459  audit-only  78/78 integrity PASS (3203 raw / 2926 unique sha256; 6/6 spot-recompute seed=459)
