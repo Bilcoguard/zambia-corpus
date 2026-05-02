@@ -4879,3 +4879,12 @@ Recommend extending the FIRST step lock cleanup glob to include "*.lock.bak.*".
 2026-05-02T11:03:30Z  batch-0448 push OK to origin/main (e63d0b4..6b96eb3)
 2026-05-02T11:03:30Z  batch-0448 B2 sync deferred to host (rclone not in sandbox)
 2026-05-02T11:03:30Z  batch-0448 commit 6b96eb3 pushed cleanly to origin/main; B2 sync deferred to host (rclone not in sandbox); SQLite ingestion deferred (FTS5 malformed-disk-image carry-forward). Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
+2026-05-02T11:35:19Z  [batch-0449] tick start; cleanup glob ran clean (no stale locks); git pull --ff-only OK ("Already up to date.").
+2026-05-02T11:35:19Z  [batch-0449] approvals.yaml unchanged since 2026-04-30T15:36:40Z (commit b24a938); BRIEF.md unchanged since 2026-04-30T03:22Z.
+2026-05-02T11:35:19Z  [batch-0449] reparse-first inventory: ZMCC 142h/141p/53rec/89missing(all-deferred); ZMSC 25h(incl-1-index)/24p/24rec/0missing; SCZ-pilot 1rec; total 78. Inventory exhausted under parser_v0.3.1.
+2026-05-02T11:35:19Z  [batch-0449] integrity sweep PASS: 78/78 unique ids; 78/78 provenance complete; 78/78 source_hash shape OK; 78/78 source_hash resolves in raw/ (sha256 index 3203 files / 2926 unique); 6/6 spot-recompute (seed=449); 0 unresolved Phase-5 cross-refs.
+2026-05-02T11:35:19Z  [batch-0449] gaps.md unchanged since 2026-04-30T21:40:59Z (commit 61d666e); approvals.yaml unchanged since 2026-04-30T15:36:40Z (commit b24a938).
+2026-05-02T11:35:19Z  [batch-0449] B2 sync deferred to host (rclone not in sandbox).
+2026-05-02T11:35:19Z  [batch-0449] SQLite ingestion deferred to host (corpus.sqlite FTS5 malformed-disk-image carry-forward; canonical source remains records/*.json).
+2026-05-02T11:35:19Z  [batch-0449] phase_5_judgments remains approved+incomplete (worker does not flip approval flags). 74 consecutive substantive audit-only ticks (b0375..b0383 + b0385..b0449). UTC date 2026-05-02 (21st substantive tick of new day). Recommendation unchanged: parser_v0.3.2 vocabulary widening + OCR pipeline + ZMSC fresh-DESC-sweep approvals are all required to make further Phase 5 progress; all subject to Peter approval per BRIEF.md non-negotiable on parser changes.
+2026-05-02T11:35:19Z  Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
