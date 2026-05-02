@@ -3408,3 +3408,4 @@ raw_persisted judgment-zm-2025-zmcc-27-munir-zuu-and-anor-v-attorney-general-and
 2026-05-02T16:33:30Z  batch-0459  audit-only  78/78 integrity PASS (3203 raw / 2926 unique sha256; 6/6 spot-recompute seed=459)
 2026-05-02T17:07:33Z  batch-0460  audit-only tick completed; integrity 78/78 PASS (seed=460); Phase 5 idle (85th substantive consecutive); approvals.yaml unchanged
 2026-05-02T17:34:51Z  batch-0461  audit-only  78/78 integrity PASS (3203 raw / 2926 unique sha256; 6/6 spot-recompute seed=461)
+2026-05-02T18:06:59Z  batch-0462  audit-only (87th substantive consecutive idle tick) — integrity 78/78 PASS; reparse inventory exhausted under parser_v0.3.1; approvals.yaml unchanged; orphan-ref carry-forward recovery one-shot (main_stale.20260502T173619Z.bak)
