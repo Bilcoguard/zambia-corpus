@@ -5127,3 +5127,7 @@ Recommend extending the FIRST step lock cleanup glob to include "*.lock.bak.*".
 2026-05-02T23:06:01Z  batch-0470 B2 sync deferred to host (rclone not in sandbox)
 2026-05-02T23:06:01Z  batch-0470 stale .git/index.lock (host-locked) renamed to .git/index.lock.bak.b0470_pre_commit.* and stale .git/HEAD.lock renamed to .git/HEAD.lock.bak.b0470_pre_push.* per established carry-forward pattern; commit + push completed cleanly thereafter.
 2026-05-02T23:06:01Z  batch-0470 commit 2971f47 pushed cleanly to origin/main; B2 sync deferred to host (rclone not in sandbox); SQLite ingestion deferred (FTS5 malformed-disk-image carry-forward). Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
+2026-05-02T23:06:12Z  batch-0470 post-push log commit d5dbe9b pushed cleanly to origin/main (2971f47..d5dbe9b); HEAD == origin/main verified. Tick complete.
+2026-05-02T23:34:30Z  batch-0471  integrity  78/78 unique IDs; 78/78 provenance complete; 78/78 source_hash shape OK; 78/78 source_hash resolves in raw/ tree (3203 files / 2926 unique sha256); 6/6 spot-recompute OK seed=471; 0 unresolved Phase-5 cross-refs
+2026-05-02T23:34:30Z  batch-0471  PASS audit-only — no fetches, no records written
+2026-05-02T23:34:30Z  Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
