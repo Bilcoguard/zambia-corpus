@@ -3392,3 +3392,4 @@ raw_persisted judgment-zm-2025-zmcc-27-munir-zuu-and-anor-v-attorney-general-and
 2026-05-02T07:05:50Z  [batch-0440] audit_summary written to _work/b0440/audit_summary.json (machine-readable)
 2026-05-02T07:36:03Z  batch-0441 audit-only tick; no fetches; integrity 78/78 PASS (sha256 index 3203/2926); 6/6 spot-recompute OK seed=441; reparse inventory exhausted (89 ZMCC deferred under specific reason codes, none addressable by parser_v0.3.1).
 2026-05-02T08:04:48Z  batch-0442 audit-only tick; no fetches; integrity 78/78 PASS (sha256 index 3203/2926); 6/6 spot-recompute OK seed=442; reparse inventory exhausted (89 ZMCC deferred under specific reason codes, none addressable by parser_v0.3.1).
+2026-05-02T09:05:54Z  batch-0444  audit-only  records_inspected=78  records_written=0  records_deferred=0  integrity=PASS  source_hash_resolve=78/78  spot_recompute=6/6@seed=444  cross_refs_unresolved=0
