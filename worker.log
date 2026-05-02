@@ -5074,3 +5074,11 @@ Recommend extending the FIRST step lock cleanup glob to include "*.lock.bak.*".
 2026-05-02T20:35:39Z  batch-0466 B2 sync deferred to host (rclone not in sandbox)
 2026-05-02T20:35:39Z  batch-0466 stale .git locks (index.lock pre-add x2; HEAD.lock + tmp_obj 'Operation not permitted' carry-forward) renamed/stamped in place per established pattern; commit + push completed cleanly thereafter.
 2026-05-02T20:35:39Z  batch-0466 commit 1c2f989 pushed cleanly to origin/main; B2 sync deferred to host (rclone not in sandbox); SQLite ingestion deferred (FTS5 malformed-disk-image carry-forward). Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
+2026-05-02T21:05:15Z  batch-0467  start  phase=5  mode=audit-only  prev=b0466
+2026-05-02T21:05:15Z  batch-0467  pull  Already up to date.
+2026-05-02T21:05:15Z  batch-0467  approvals.yaml  unchanged since 2026-04-30T15:36:40Z (commit b24a938)
+2026-05-02T21:05:15Z  batch-0467  budget  cumulative_today=0/2000 fetches; 0/1000000 tokens
+2026-05-02T21:05:15Z  batch-0467  reparse-first inventory: ZMCC 142h/141p/53rec/89missing-all-deferred-under-v0.3.1-locked-codes; ZMSC 25h(incl.1index)/24p/24rec/0missing; SCZ-pilot 1rec; total 78
+2026-05-02T21:05:15Z  batch-0467  integrity  78/78 unique IDs; 78/78 provenance complete; 78/78 source_hash shape OK; 78/78 source_hash resolves in raw/ tree (3203 files / 2926 unique sha256); 6/6 spot-recompute OK seed=467; 0 unresolved Phase-5 cross-refs
+2026-05-02T21:05:15Z  batch-0467  PASS audit-only — no fetches, no records written
+2026-05-02T21:05:15Z  Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
