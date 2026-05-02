@@ -5446,3 +5446,5 @@
 2026-05-02T13:05:26Z  batch-0452 push OK
 2026-05-02T13:05:26Z  batch-0452 B2 sync deferred to host (rclone not in sandbox)
 2026-05-02T13:35:13Z  batch-0453  fetches=0  records_written=0  records_deferred=0  cumulative_today=0/2000  reason=audit-no-write-confirms-b0452-v0.3.1-reparse-inventory-still-exhausted-SEVENTYEIGHTH-consecutive-substantive-idle-tick-completion-criterion-still-fired-awaiting-parser_v0.3.2-OCR-or-ZMSC-sweep-approvals-clean-pull
+2026-05-02T13:36:00Z  batch-0453 push OK (b7693aa..c371a0c)
+2026-05-02T13:36:00Z  batch-0453 B2 sync deferred to host (rclone not in sandbox)

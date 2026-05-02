@@ -4936,3 +4936,8 @@ Recommend extending the FIRST step lock cleanup glob to include "*.lock.bak.*".
 2026-05-02T13:35:13Z  batch-0453  reparse-first inventory: ZMCC 142h/141p/53rec/89missing-all-deferred-under-v0.3.1-locked-codes; ZMSC 25h(incl.1index)/24p/24rec/0missing; SCZ-pilot 1rec; total 78
 2026-05-02T13:35:13Z  batch-0453  integrity  78/78 unique IDs; 78/78 provenance complete; 78/78 source_hash shape OK; 78/78 source_hash resolves in raw/ tree (3203 files / 2926 unique sha256); 6/6 spot-recompute OK seed=453; 0 unresolved Phase-5 cross-refs
 2026-05-02T13:35:13Z  batch-0453  PASS audit-only — no fetches, no records written
+2026-05-02T13:36:00Z  batch-0453 commit c371a0c OK
+2026-05-02T13:36:00Z  batch-0453 push OK to origin/main (b7693aa..c371a0c)
+2026-05-02T13:36:00Z  batch-0453 B2 sync deferred to host (rclone not in sandbox)
+2026-05-02T13:36:00Z  batch-0453 stale .git locks (index.lock x2, HEAD.lock, objects/maintenance.lock) encountered and renamed in place per established pattern; no fetch hazard; commit + push completed cleanly thereafter.
+2026-05-02T13:36:00Z  batch-0453 commit c371a0c pushed cleanly to origin/main; B2 sync deferred to host (rclone not in sandbox); SQLite ingestion deferred (FTS5 malformed-disk-image carry-forward). Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
