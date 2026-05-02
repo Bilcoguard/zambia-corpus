@@ -5032,3 +5032,11 @@ Recommend extending the FIRST step lock cleanup glob to include "*.lock.bak.*".
 2026-05-02T18:07:55Z  batch-0462 commit aef82e9 pushed cleanly to origin/main; B2 sync deferred to host (rclone not in sandbox); SQLite ingestion deferred (FTS5 malformed-disk-image carry-forward). Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
 2026-05-02T18:34:49Z batch-0463 audit-only tick complete: integrity 78/78 PASS, no writes, reparse inventory exhausted (88th consecutive substantive idle tick)
 2026-05-02T18:34:49Z Phase 5 appears complete, awaiting human confirmation
+2026-05-02T19:03:59Z  batch-0464  start  phase=5  mode=audit-only  prev=b0463
+2026-05-02T19:03:59Z  batch-0464  pull  Already up to date.
+2026-05-02T19:03:59Z  batch-0464  approvals.yaml  unchanged since 2026-04-30T15:36:40Z (commit b24a938)
+2026-05-02T19:03:59Z  batch-0464  budget  cumulative_today=0/2000 fetches; 0/1000000 tokens
+2026-05-02T19:03:59Z  batch-0464  reparse-first inventory: ZMCC 142h/141p/53rec/89missing-all-deferred-under-v0.3.1-locked-codes; ZMSC 25h(incl.1index)/24p/24rec/0missing; SCZ-pilot 1rec; total 78
+2026-05-02T19:03:59Z  batch-0464  integrity  78/78 unique IDs; 78/78 provenance complete; 78/78 source_hash shape OK; 78/78 source_hash resolves in raw/ tree (3203 files / 2926 unique sha256); 6/6 spot-recompute OK seed=464; 0 unresolved Phase-5 cross-refs
+2026-05-02T19:03:59Z  batch-0464  PASS audit-only — no fetches, no records written
+2026-05-02T19:03:59Z  Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
