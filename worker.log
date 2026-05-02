@@ -4949,3 +4949,8 @@ Recommend extending the FIRST step lock cleanup glob to include "*.lock.bak.*".
 2026-05-02T14:05:45Z  batch-0454  integrity  78/78 unique IDs; 78/78 provenance complete; 78/78 source_hash shape OK; 78/78 source_hash resolves in raw/ tree (3203 files / 2926 unique sha256); 6/6 spot-recompute OK seed=454; 0 unresolved Phase-5 cross-refs
 2026-05-02T14:05:45Z  batch-0454  PASS audit-only — no fetches, no records written
 2026-05-02T14:05:45Z  Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
+2026-05-02T14:06:15Z  batch-0454 commit be7a07c OK
+2026-05-02T14:06:15Z  batch-0454 push OK to origin/main (5035c36..be7a07c)
+2026-05-02T14:06:15Z  batch-0454 B2 sync deferred to host (rclone not in sandbox)
+2026-05-02T14:06:15Z  batch-0454 stale .git locks (HEAD.lock, index.lock, objects/maintenance.lock) encountered and renamed in place per established pattern; no fetch hazard; commit + push completed cleanly thereafter.
+2026-05-02T14:06:15Z  batch-0454 commit be7a07c pushed cleanly to origin/main; B2 sync deferred to host (rclone not in sandbox); SQLite ingestion deferred (FTS5 malformed-disk-image carry-forward). Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
