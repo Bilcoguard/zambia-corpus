@@ -5009,3 +5009,8 @@ Recommend extending the FIRST step lock cleanup glob to include "*.lock.bak.*".
 2026-05-02T17:07:15Z  batch-0460  integrity  78/78 unique IDs; 78/78 provenance complete; 78/78 source_hash shape OK; 78/78 source_hash resolves in raw/ tree (3203 files / 2926 unique sha256); 6/6 spot-recompute OK seed=460; 0 unresolved Phase-5 cross-refs
 2026-05-02T17:07:15Z  batch-0460  PASS audit-only — no fetches, no records written
 2026-05-02T17:07:15Z  Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
+2026-05-02T17:09:00Z  batch-0460 commit 7e124a9 OK
+2026-05-02T17:09:00Z  batch-0460 push OK to origin/main (56a6cab..7e124a9)
+2026-05-02T17:09:00Z  batch-0460 B2 sync deferred to host (rclone not in sandbox)
+2026-05-02T17:09:00Z  batch-0460 stale .git locks (index.lock + HEAD.lock pre/post-commit/push; objects/maintenance.lock recurring; tmp_obj 'Operation not permitted' warnings benign carry-forward) renamed in place per established pattern; one-shot orphan-ref recovery at tick start (refs/remotes/origin/main.lock.bak.20260502T163547Z written with current origin/main SHA 56a6cab to clear bad-object pull blocker); commit + push completed cleanly thereafter.
+2026-05-02T17:09:00Z  batch-0460 commit 7e124a9 pushed cleanly to origin/main; B2 sync deferred to host (rclone not in sandbox); SQLite ingestion deferred (FTS5 malformed-disk-image carry-forward). Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
