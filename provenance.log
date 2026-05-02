@@ -3389,3 +3389,4 @@ raw_persisted judgment-zm-2025-zmcc-27-munir-zuu-and-anor-v-attorney-general-and
 2026-05-02T05:06:00Z  batch-0436  audit-only-no-write  records=78  hash_index_files=3203  hash_index_unique=2926  resolved=78/78  spot_recompute=6/6  seed=436  approvals_unchanged_since=2026-04-30T15:36:40Z  gaps_unchanged_since=2026-04-30T21:40:59Z
 2026-05-02T05:35:23Z  batch-0437  audit-only-no-write  records=78  hash_index_files=3203  hash_index_unique=2926  resolved=78/78  spot_recompute=6/6  seed=437  approvals_unchanged_since=2026-04-30T15:36:40Z  gaps_unchanged_since=2026-04-30T21:40:59Z
 2026-05-02T06:02:39Z  batch-0438  audit-only-no-write  records=78  hash_index_files=3203  hash_index_unique=2926  resolved=78/78  spot_recompute=6/6  seed=438  approvals_unchanged_since=2026-04-30T15:36:40Z  gaps_unchanged_since=2026-04-30T21:40:59Z
+2026-05-02T07:05:50Z  [batch-0440] audit_summary written to _work/b0440/audit_summary.json (machine-readable)
