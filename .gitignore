@@ -37,3 +37,12 @@ corpus.sqlite
 
 # per-batch progress state (fresh-index sub-tick checkpointing; virtiofs can't always rm)
 .batch_*_state.json
+
+# Phase 6 (b0504): corpus.sqlite is rebuilt from on-disk JSON records
+# by scripts/batch_NNNN_build_fts5.py — it carries the FTS5 index and
+# now exceeds GitHub's 100 MB single-file limit. Keep the source-of-
+# truth (records/*.json) in git; rebuild the database locally.
+corpus.sqlite
+corpus.sqlite-journal
+corpus.sqlite-wal
+corpus.sqlite-shm
