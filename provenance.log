@@ -3505,3 +3505,4 @@ Records written this tick (2):
   - parser_version: 0.3.2
   - outcome: dismissed (summary v032 "challenge ... is dismissed")
 2026-05-03T14:12:56Z	batch-0498	judgment-zm-2021-zmcc-21-mulubisha-v-attorney-general	source_url=https://zambialii.org/akn/zm/judgment/zmcc/2021/21/eng@2021-03-30	source_hash=sha256:f327a3a7a6f6b17809e066b847f45cf2cfc7f1659c7afd3d25cc70d43f0705db	raw_sha256=0b28f1f0175a62bbb8fabb6f8ec1322eadc1df101e8edb25d0d24022f64033c7	parser_version=0.3.2	fetched_at_field=2026-05-03T14:07:58Z
+2026-05-03T14:36:58Z	batch-0499	audit-only-no-fetch	parser_version=0.3.2	records_written=0	records_deferred=0	integrity=PASS-phase-5-scope-97/97	note=1st-post-v0.3.2-formal-exhaustion-audit-tick-five-consecutive-zero-counter-0-to-1
