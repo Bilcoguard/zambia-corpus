@@ -1,0 +1,57 @@
+{
+  "id": "judgment-zm-2022-zmcc-34-chanda-v-lukonde",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Chanda v Lukonde (CCZ/A 4 of 2021) [2022] ZMCC 34 (15 February 2022)",
+  "citation": "[2022] ZMCC 34",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Chanda v Lukonde",
+  "case_number": "CCZ/A 4 of 2021",
+  "date_decided": "2022-02-15",
+  "judges": [
+    {
+      "name": "Chibomba",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Electoral law",
+    "Election nullification",
+    "Section 97(2) Electoral Process Act",
+    "Burden of proof in election petitions (fairly high degree of convincing clarity)",
+    "Proof of malpractice by candidate or with candidate’s knowledge/consent",
+    "Credibility and corroboration of partisan witnesses",
+    "Tribunal’s misdirection and burden-shifting",
+    "Costs under section 109 EPA."
+  ],
+  "outcome": "overturned",
+  "outcome_detail": "We set aside the decision of the Tribunal and",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "c3192ecbe4df1b848fa678a9b4788f288129ca0c786b43700fcb7a0d5b9fc79f",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/34/eng@2022-02-15",
+  "source_hash": "sha256:3be464cf7d9b4496997d2a29f71586a32a438889fed09aec0efdf76d43f05e4a",
+  "fetched_at": "2026-05-03T08:49:50Z",
+  "parser_version": "0.3.2"
+}

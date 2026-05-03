@@ -77,9 +77,13 @@ judges:
   - title: JJC
     first_seen_in: judgment-zm-2024-zmcc-09-hastie-sibanda-v-attorney-general
     first_seen_at: '2026-04-29T16:38:25Z'
+  - title: JCC
+    first_seen_in: judgment-zm-2022-zmcc-34-chanda-v-lukonde
+    first_seen_at: '2026-05-03T08:49:56Z'
   aliases:
   - Mulenga JC
   - Mulenga JJC
+  - Mulenga JCC
   first_seen: '2026-04-29T16:06:58Z'
 - canonical_name: Mulife
   titles:

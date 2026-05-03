@@ -31,13 +31,49 @@ phases:
     complete: false
     approval_note: "Phase 5 approved by Peter 2026-04-29. Target: 100-160 landmark judgments."
     # 2026-04-30 amendments — locked-in by Peter via Cowork
-    parser_version: "0.3.1"
-    parser_baseline: "scripts/batch_0360_parse.py"
+    # 2026-05-03 amendments — locked-in by Peter via Cowork interactive session
+    #   (chat instruction: PARSER v0.3.2 widening + ZMSC older-year sweep
+    #   approval; explicit authorisation for the worker to make this single
+    #   narrow edit to parser_version/parser_baseline/parser_policy_note
+    #   and to the deferral_reasons_locked vocabulary. No approved/complete
+    #   flags were flipped this amendment.)
+    parser_version: "0.3.2"
+    parser_baseline: "scripts/batch_0488_parse.py"
     parser_policy_note: |
-      parser_v0.3.1 (2026-04-30) adds a PDF final-2-pages outcome
-      fallback after the existing summary and pdf-anchor stages.
-      See BRIEF.md "Phase 5 — Parser policy" for full details.
-      Frozen baseline: scripts/batch_0360_parse.py.
+      parser_v0.3.2 (2026-05-03) widens the outcome vocabulary and
+      adds the JJS-title / judges-no-comma fix per Peter's Cowork
+      instruction:
+        1. SUMMARY_PATTERNS_V032: 14 regex additions covering the 24
+           explicit phrases Peter listed — "appeal is allowed/dismissed",
+           "application is granted/refused", "petition is dismissed",
+           "conviction/sentence is upheld/confirmed", "case is withdrawn",
+           "matter is struck off", "is hereby quashed/set aside",
+           "we dismiss/allow/uphold/grant/refuse/set aside",
+           "we order that …", "it is ordered that …",
+           "we make the following order(s)", procedural-refusal
+           variants ("dismissed for lack/failing/want/failure"),
+           "declaratory relief was academic", "single-judge declined",
+           "court refused stay", "discontinuance allowed".
+        2. PDF_TAIL_PATTERNS_V032: same 24 phrases tail-tolerant
+           (LAST-match-wins like v0.3.1).
+        3. ORDER_INTRO + window-scan: "we order that …" / "it is
+           ordered that …" / "we make the following order(s)" —
+           when found in the PDF tail, scan the next ~600 chars
+           for a v0.3.2-or-v0.3.1 operative verb.
+        4. parse_judges_v032: when judges_text contains no commas
+           but ≥2 trailing judicial-title tokens (PC|DPC|CJ|DCJ|
+           JCC|JJC|JJS|JS|JC|JA|JJA|JJ|J), split on the boundary
+           after each <Surname Title> pair (covers the 19 ZMCC 2022
+           candidates carrying "Sitali JCC Mulenga JCC Mulonda JCC"
+           judges_text format).
+      v0.3.1 baseline (scripts/batch_0360_parse.py) is IMPORTED as
+      fallback — every v0.3.2 resolver tries v0.3.2 patterns first
+      then defers to v0.3.1 when no v0.3.2 pattern matches. The
+      v0.3.1 _detail_is_safe filter is reused unchanged, preserving
+      detail-extraction safety guarantees from v0.3.1.
+      Frozen baseline: scripts/batch_0488_parse.py.
+      Prior baseline: scripts/batch_0360_parse.py (parser_v0.3.1)
+      remains on disk and is the import target — DO NOT edit it.
     reparse_first: true
     reparse_first_note: |
       Before consuming any fresh fetch budget, the tick MUST scan
@@ -53,11 +89,28 @@ phases:
       # Generic 'outcome_not_inferable_under_tightened_policy' is
       # banned for NEW deferrals (existing entries in gaps.md remain
       # for historical accuracy).
+      # 2026-05-03: parser_v0.3.1_token_unhandled superseded by
+      # parser_v0.3.2_token_unhandled per parser bump; v0.3.1 code
+      # remains valid for historical entries.
       - pdf_extraction_empty_likely_scanned
       - multi_judge_separate_opinions_no_clear_majority_disposition
+      - parser_v0.3.2_token_unhandled
       - parser_v0.3.1_token_unhandled
       - outcome_inferred_but_detail_unsafe
       - html_no_summary_pdf_no_match
+      - canonical_url_date_unrecoverable
+    # 2026-05-03 — Peter approved ZMSC older-year sweep (this session).
+    # Sweep is bounded; canonical source URL pattern is to be
+    # confirmed by Peter before the next scheduled tick consumes
+    # any fetch budget. Until then, scheduled ticks run reparse-first
+    # only and stop after the v0.3.2 inventory is exhausted.
+    zmsc_older_year_sweep_approved: true
+    zmsc_older_year_sweep_approval_note: |
+      Approved by Peter via Cowork 2026-05-03. Source URL pattern
+      pending Peter confirmation before any fetch is issued. Same
+      MAX_BATCH_SIZE=8, same metadata + integrity requirements,
+      same provenance fields; new judges added to
+      judges_registry.yaml as encountered.
   phase_6_retrieval_api:
     approved: false
     complete: false

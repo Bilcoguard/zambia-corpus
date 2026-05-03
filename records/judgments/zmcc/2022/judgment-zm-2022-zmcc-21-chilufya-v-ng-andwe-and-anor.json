@@ -1,0 +1,50 @@
+{
+  "id": "judgment-zm-2022-zmcc-21-chilufya-v-ng-andwe-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Chilufya v Ng'andwe and Anor (CCZ/A 32 of 2021) [2022] ZMCC 21 (29 September 2022)",
+  "citation": "[2022] ZMCC 21",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Chilufya v Ng'andwe and Anor",
+  "case_number": "CCZ/A 32 of 2021",
+  "date_decided": "2022-09-29",
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Munalula",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Electoral law",
+    "bribery (s.81 EPA)",
+    "nullification threshold (s.97(2)(a))",
+    "burden and standard of proof in election petitions",
+    "materiality requirement",
+    "costs in election petitions require finding of vexatious conduct."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "four grounds of appeal have failed, we accordingly dismiss the appeal and uphold the declaration by the lower court that the 1°",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "625c1c268fd42ef2f025ccd600ac0555e6ea2adfe7c789ff1a0b7f4ce78bf447",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/21/eng@2022-09-29",
+  "source_hash": "sha256:0226e7d6a2837d8c10d2867f732f0e5e4e81f35bc6214ce241bd0a6a29cf9dc7",
+  "fetched_at": "2026-05-03T08:55:13Z",
+  "parser_version": "0.3.2"
+}

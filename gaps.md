@@ -2401,6 +2401,12 @@ precedent) and the registry diff was reverted.
   ("we set aside" pattern) — held for re-parse once the judges
   vocab is widened. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2022/34/eng@2022-02-15.
+  - RESOLVED in batch-0488 (parser_v0.3.2, 2026-05-03) — outcome
+    `overturned`, detail "We set aside the decision of the Tribunal
+    and …" (via v031-tail `we\s+set\s+aside\s+(?:the\s+)?(?:judgment|order|decision|finding)`).
+    Judges resolved by v0.3.2 `parse_judges_v032` no-comma fix:
+    Chibomba PC, Mulenga JCC, Musaluke JCC, Chisunka JCC, Mulongoti JCC.
+    Record id: `judgment-zm-2022-zmcc-34-chanda-v-lukonde`.
 
 - **[2022] ZMCC 33** (Chewe v Mucheleka and Anor, 2022-05-05) —
   reason: `html_no_summary_pdf_no_match`. Summary head
@@ -2509,6 +2515,20 @@ fresh limitation hit this tick: a fully scanned final PDF
   bribery nullifying the election; costs order set aside for
   lack of adverse finding." Held for parser_v0.3.2 widening.
   URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/21/eng@2022-09-29.
+  - RESOLVED in batch-0488 (parser_v0.3.2, 2026-05-03) — outcome
+    `dismissed`, detail "four grounds of appeal have failed, we
+    accordingly dismiss the appeal and uphold the declaration by
+    the lower court …" (via v032-tail simpler `we <verb> the <noun>`
+    pattern that fixes the v0.3.1 backtracking gap on
+    `we\s+...dismiss\s+(?:the\s+\w+\s+)?(?:appeal|...)`).
+    NOTE: an interim v0.3.2 SUMMARY pattern wrongly matched the
+    flynote phrase "costs order set aside" and produced
+    `overturned` — the SUMMARY-stage passive set_aside pattern was
+    moved to TAIL-only after that regression, and the LAST-match
+    tail logic now correctly returns `dismissed` from the operative
+    line. Judges resolved by `parse_judges_v032`: Sitali JCC,
+    Mulenga JCC, Munalula JCC, Mulongoti JCC.
+    Record id: `judgment-zm-2022-zmcc-21-chilufya-v-ng-andwe-and-anor`.
 
 - **[2022] ZMCC 20** (Ndhlovu and Ors v Road Development Agency
   (CCZ 5 of 2022), 2022-09-21) — reason:
@@ -2708,4 +2728,128 @@ should pick up zmcc/2025/{22, 21, 18, 17, 16, 15, 14, 12, 11}
 (still on legacy generic v0.3.0 reason; never re-attempted under
 v0.3.1) before pivoting to non-ZMCC courts or pausing for
 parser_v0.3.2 approval.
+
+
+## Batch 0488 — REPARSE PASS under parser_v0.3.2 (2026-05-03)
+
+**Parser bump approved by Peter via Cowork interactive session
+2026-05-03.** approvals.yaml amended this batch on Peter's explicit
+instruction (parser_version 0.3.1→0.3.2; parser_baseline now
+`scripts/batch_0488_parse.py`; parser_policy_note rewritten).
+v0.3.2 imports the v0.3.1 baseline (`scripts/batch_0360_parse.py`)
+unchanged and adds: (1) widened SUMMARY+TAIL outcome vocabulary
+covering the 24 explicit phrases Peter listed, (2) ORDER_INTRO +
+window-scan resolver for "we order that …" / "it is ordered that
+…" / "we make the following order(s)", (3) `parse_judges_v032`
+no-comma split for "Sitali JCC Mulenga JCC Mulonda JCC" format
+(addresses the 19 ZMCC 2022 candidates carrying the
+`parser_v0.3.1_judges_no_comma_unhandled` reason).
+
+Targeted slice (reparse-first, judges_no_comma DESC then
+html_no_summary DESC): zmcc/2022/{34, 33, 30, 27, 23, 22, 21, 17}.
+Records written: 2 (zmcc/2022/{34, 21}). Records deferred: 6, all
+with reason `html_no_summary_pdf_no_match` (no v0.3.2 SUMMARY,
+v0.3.1 PDF anchor, v0.3.2 TAIL, v0.3.1 TAIL, or ORDER_INTRO match).
+Zero fresh fetches.
+
+In-batch parser regression caught and corrected: the first v0.3.2
+SUMMARY draft included a passive set_aside pattern
+(`<noun>\s+(?:is\s+)?(?:hereby\s+)?(?:quashed|set\s+aside)`) which
+matched "costs order set aside" in the zmcc/2022/21 flynote and
+wrongly produced outcome `overturned`. Patch in the same batch:
+moved the passive set_aside pattern to TAIL-only and restructured
+`find_outcome_in_pdf_tail_v032` to combine v0.3.2 + v0.3.1 tail
+patterns into a single LAST-match-wins pool. zmcc/2022/21 then
+correctly resolved as `dismissed` from the operative line "we
+accordingly dismiss the appeal and uphold the declaration".
+
+### Resolved (raw retained per audit policy)
+
+See cross-references on the original deferred entries above for
+zmcc/2022/{34, 21}.
+
+### New deferrals under parser_v0.3.2 (raw retained on disk;
+specific reason codes per `deferral_reasons_locked`)
+
+- **[2022] ZMCC 33** (Chewe v Mucheleka and Anor, 2022-05-05) —
+  reason: `html_no_summary_pdf_no_match`. Operative paragraph "We
+  accordingly set aside the nullification of the election and
+  declare that the Appellant … was duly elected" uses noun
+  "nullification" not in v0.3.2 set_aside object list; "we further
+  set aside the Order for costs" uses adverb "further" between "we"
+  and "set aside" not covered by the existing adverb tolerance. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/33/eng@2022-05-05.
+
+- **[2022] ZMCC 30** (Joinder application by intended second
+  respondent, 2022-11-11) — reason: `html_no_summary_pdf_no_match`.
+  Operative line "the application for joinder is unsuccessful and
+  accordingly dismissed" has too many words between "application"
+  and "dismissed" for v0.3.1's adverb tolerance and v0.3.2's
+  application-noun pattern; flynote uses "Joinder refused" with the
+  noun "joinder" not in v0.3.2 SUMMARY refused list. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/30/eng@2022-11-11.
+
+- **[2022] ZMCC 27** (Functus officio objection, 2022) — reason:
+  `html_no_summary_pdf_no_match`. Two competing operative lines:
+  the LAST tail match "preliminary issue raised by the Respondent
+  therefore, fails and is dismissed" uses "preliminary issue" not
+  in any noun list; flynote uses both "dismisses functus officio
+  objection" AND "allows constitutional challenge … to proceed",
+  which would require multi-disposition resolution. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/27.
+
+- **[2022] ZMCC 23** (Article 52(6) election cancellation,
+  2022-09-29) — reason: `html_no_summary_pdf_no_match`. Single-judge
+  separate opinion ("I am of the considered view that the Petition
+  has merit"); no clear majority disposition in the extracted PDF
+  tail. Likely needs the
+  `multi_judge_separate_opinions_no_clear_majority_disposition`
+  treatment but raw flynote dressing is interpretive. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/23/eng@2022-09-29.
+
+- **[2022] ZMCC 22** (Election appeal competency, 2022-09-23) —
+  reason: `html_no_summary_pdf_no_match`. Operative line "1st
+  Respondent's notice of motion to raise preliminary issues fails
+  and is accordingly dismissed" uses "notice of motion" not in any
+  noun list; v0.3.2 patterns intentionally avoid expanding to
+  generic "<X>\s+is\s+...dismissed" which would match prose
+  fragments. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/22/eng@2022-09-23.
+
+- **[2022] ZMCC 17** (DPP amenability to JCC discipline,
+  2022) — reason: `html_no_summary_pdf_no_match`. Pure declaratory
+  judgment ("It is our conclusion that … the DPP is amenable to
+  the disciplinary process …"); no operative-disposition verb;
+  costs are mutual ("each party will bear their own costs").
+  v0.3.2 declaratory operative-phrase patterns
+  (`declaratory relief was academic`, etc.) do not match this
+  positive declaration. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/17.
+
+### Recommendation
+
+The 2022 judges_no_comma backlog is largely
+`html_no_summary_pdf_no_match` after the parse_judges_v032 fix
+unblocks the judges-parsing layer — the 2022 election-petition
+judgments are stylistically discursive (declarative paragraphs,
+multi-issue grounds, mutual costs) and resist operative-verb
+extraction without case-specific noun additions that risk
+fabrication. Three options for further yield:
+
+  1. Targeted vocabulary widening per case (add "nullification",
+     "joinder", "notice of motion", "preliminary issue" to specific
+     patterns) — high precision, slow accretion, requires per-case
+     review. Subject to Peter approval per BRIEF.md non-negotiable.
+  2. Multi-disposition resolution for cases with both `dismissed`
+     and `allowed` operative lines (e.g. zmcc/2022/27).
+  3. Continue down the judges_no_comma queue (zmcc/2022/{20, 16,
+     11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1} + zmcc/2021/21) to confirm
+     the 2 written / 6 deferred ratio holds before recommending
+     vocabulary expansion. Next scheduled tick will pick this up
+     under the same v0.3.2 baseline.
+
+ZMSC older-year sweep (Peter approved this session) is held
+pending Peter's confirmation of the canonical source URL pattern
+on ZambiaLII; until then, scheduled ticks continue reparse-first
+only.
 
