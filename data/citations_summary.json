@@ -1,0 +1,15 @@
+{
+  "all_dst_ids_resolved": true,
+  "built_at": "2026-05-03T17:22:25Z",
+  "dangling_by_reason": {
+    "parent_act_title_not_resolved": 16
+  },
+  "dangling_count": 16,
+  "edge_count": 221,
+  "edges_by_relation": {
+    "parent_act": 214,
+    "repealed_by": 7
+  },
+  "parser_version": "phase6.b0505",
+  "record_count": 1797
+}

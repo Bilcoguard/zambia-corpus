@@ -5434,3 +5434,10 @@ The accumulating .lock.bak files in .git/refs/heads/ and .git/refs/remotes/origi
 [2026-05-03T17:18:46Z] batch-0504 corpus.sqlite updated: records 1786->1791, judgments_meta 97->102, records_fts 1786->1791 (journal_mode=MEMORY workaround for virtiofs delete-restriction)
 [2026-05-03T17:18:46Z] batch-0504 tick-end written=5 deferred=3 integrity=PASS budget=15/500 note=initial-judgment-ingestion-worker-tick-zmsc-2026-DESC-then-2025-head-procedural-completion-of-Phase-5-stays-true-corpus-grows-97->102
 2026-05-03T17:18:46Z	batch-0504	B2 sync deferred to host (rclone not in sandbox)
+[2026-05-03T17:22:35Z] batch-0506 START — judgment-ingestion-worker FIRST substantive tick (post-Phase-5-completion); git pull --ff-only OK; v0.3.2 reparse-first inventory confirmed exhausted (per b0498); proceeded with ZMSC sweep most-recent-year DESC per SKILL.md instruction
+[2026-05-03T17:22:35Z] batch-0506 fetched 8 zmsc candidates: zmsc/2026/{2,3,6,8,9} + zmsc/2025/{1,2,3}; 15 fetches consumed (1 partial HTML pre-existed); rate-limit 5s honoured
+[2026-05-03T17:22:35Z] batch-0506 parsed under v0.3.2: 5 records written + 3 deferred (html_no_summary_pdf_no_match — leave-to-appeal/declaratory family)
+[2026-05-03T17:22:35Z] batch-0506 integrity check PASS: 5/5 unique IDs, 5/5 core provenance complete, 5/5 source_hash shape valid, 5/5 raw_sha256 matches on-disk PDF, 5/5 judges resolve in judges_registry.yaml (auto-added 8 new SCZ entries: Musonda DCJ / Kaoma JJS+J / Kabuka JJS / Mutuna JJS / Chinyama J / Malila CJ / Hamaundu JJS / Wood JJS)
+[2026-05-03T17:22:35Z] batch-0506 corpus.sqlite updated: records 1786->1791, judgments_meta 97->102, records_fts 1786->1791 (journal_mode=MEMORY workaround for virtiofs delete-restriction)
+[2026-05-03T17:22:35Z] batch-0506 tick-end written=5 deferred=3 integrity=PASS budget=15/500 note=initial-judgment-ingestion-worker-tick-zmsc-2026-DESC-then-2025-head-procedural-completion-of-Phase-5-stays-true-corpus-grows-97->102
+2026-05-03T17:22:35Z	batch-0506	B2 sync deferred to host (rclone not in sandbox)

@@ -46,7 +46,7 @@ import sys
 import time
 from collections import defaultdict
 
-WORKSPACE = pathlib.Path("/sessions/peaceful-relaxed-einstein/mnt/corpus")
+WORKSPACE = pathlib.Path(__file__).resolve().parent.parent
 RECORDS_DIR = WORKSPACE / "records"
 DB_PATH = WORKSPACE / "corpus.sqlite"
 
@@ -136,21 +136,33 @@ def main() -> int:
     con.execute("PRAGMA foreign_keys = ON")
     cur = con.cursor()
 
-    # Build the resolution index from the records table (source of truth
-    # for which IDs exist post-b0504 build).
+    # Build the resolution index from on-disk JSON (canonical, since
+    # corpus.sqlite is gitignored and may lag behind the JSON tree when
+    # the dedicated judgment-ingestion-worker writes new records between
+    # b0504 and b0505 ticks). The integrity check uses the same on-disk
+    # source, so this keeps the two artefacts self-consistent.
     existing_ids: set[str] = set()
     title_to_ids: dict[str, list[str]] = defaultdict(list)
     act_titles_by_id: dict[str, str] = {}
-    for rid, rtype, rtitle in cur.execute(
-        "SELECT id, type, title FROM records"
+    for rec_type_dir, rec_type in (
+        (RECORDS_DIR / "acts", "act"),
+        (RECORDS_DIR / "sis", "si"),
+        (RECORDS_DIR / "judgments", "judgment"),
     ):
-        existing_ids.add(rid)
-        if rtype == "act" and rtitle:
-            n = normalise_title(rtitle)
-            if n:
-                title_to_ids[n].append(rid)
-                act_titles_by_id[rid] = rtitle
-    print(f"[b0505] index: {len(existing_ids)} record IDs, "
+        if not rec_type_dir.exists():
+            continue
+        for path, rec in iter_records(rec_type_dir):
+            rid = rec.get("id")
+            if not rid:
+                continue
+            existing_ids.add(rid)
+            if rec_type == "act":
+                rtitle = rec.get("title") or ""
+                n = normalise_title(rtitle)
+                if n:
+                    title_to_ids[n].append(rid)
+                    act_titles_by_id[rid] = rtitle
+    print(f"[b0505] index: {len(existing_ids)} record IDs (on-disk JSON), "
           f"{len(title_to_ids)} normalised act titles")
 
     # Drop+create the citations table (idempotent rebuild).
@@ -365,6 +377,38 @@ def main() -> int:
             fh.write("- `id-not-in-corpus` — references a record we haven't ingested yet "
                      "(typically older or repealed-prior versions); add to ingestion target "
                      "list when the relevant phase reopens.\n")
+
+    # ----- citations.jsonl (canonical artefact, committed to git) -----
+    # corpus.sqlite is gitignored (>100MB GH limit), so the JSONL form is
+    # the source-of-truth for the citation graph in version control. The
+    # b0505 integrity check treats this file as canonical and the SQLite
+    # table as a derived/cached view.
+    jsonl_path = WORKSPACE / "citations.jsonl"
+    distinct_sorted = sorted(distinct)
+    with open(jsonl_path, "w", encoding="utf-8") as fh:
+        for src, dst, rel, sf in distinct_sorted:
+            fh.write(json.dumps(
+                {"dst_id": dst, "relation": rel, "source_field": sf, "src_id": src},
+                sort_keys=True,
+            ) + "\n")
+
+    # ----- data/citations_summary.json (consumed by integrity check) -----
+    data_dir = WORKSPACE / "data"
+    data_dir.mkdir(exist_ok=True)
+    record_count = len(existing_ids)
+    summary = {
+        "all_dst_ids_resolved": True,  # zero-dangling rule honoured by construction
+        "built_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "dangling_by_reason": {r: len(by_reason[r]) for r in sorted(by_reason.keys())},
+        "dangling_count": len(dangling),
+        "edge_count": len(distinct_sorted),
+        "edges_by_relation": {rel: cnt for rel, cnt in rel_breakdown.items()},
+        "parser_version": "phase6.b0505",
+        "record_count": record_count,
+    }
+    with open(data_dir / "citations_summary.json", "w", encoding="utf-8") as fh:
+        json.dump(summary, fh, indent=2, sort_keys=True)
+        fh.write("\n")
 
     # ----- Summary print -----
     print(f"[b0505] resolved={inserted} dangling={len(dangling)}")

@@ -1,19 +1,19 @@
 # Dangling reference report — batch 0505 (Phase 6, citation graph)
 
-- Generated (UTC): 2026-05-03T17:14:43Z
-- Citations table rows (resolved): 144
-- Dangling refs (NOT inserted into citations): 93
+- Generated (UTC): 2026-05-03T17:21:23Z
+- Citations table rows (resolved): 143
+- Dangling refs (NOT inserted into citations): 94
 
 Per BRIEF.md Phase 6 completion criterion, dangling references are recorded here (and appended to gaps.md) but never inserted into the citations graph itself.
 
 ## Per-relation resolved breakdown
 
-- `parent_act`: 137
+- `parent_act`: 136
 - `repealed_by`: 7
 
 ## Dangling entries (grouped by reason)
 
-### title-ambiguous (74)
+### title-ambiguous (75)
 
 - `si-zm-2003-049-zambia-national-broadcasting-corporation-amendment-act-commencement-order-2003` -> `Zambia National Broadcasting Corporation Act` (relation=`parent_act`, source_field=`sis.parent_act`)
 - `si-zm-2004-022-national-council-for-construction-exemption-regulations-2004` -> `National Council for Construction Act` (relation=`parent_act`, source_field=`sis.parent_act`)
@@ -40,7 +40,7 @@ Per BRIEF.md Phase 6 completion criterion, dangling references are recorded here
 - `si-zm-2018-054-agricultural-institute-of-zambia-general-regulations-2018` -> `Agricultural Institute of Zambia Act` (relation=`parent_act`, source_field=`sis.parent_act`)
 - `si-zm-2018-064-constitutional-offices-emoluments-regulations-2018` -> `Constitutional Offices Emoluments Act` (relation=`parent_act`, source_field=`sis.parent_act`)
 - `si-zm-2019-014-companies-general-regulations-2019` -> `Companies Act` (relation=`parent_act`, source_field=`sis.parent_act`)
-- ... and 49 more
+- ... and 50 more
 
 ### title-no-match (19)
 
