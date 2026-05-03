@@ -118,8 +118,9 @@ phases:
     approval_note: "Phase 6 approved by Peter 2026-05-03. Build FTS5 search, citation graph, and query API from existing corpus data."
     completion_note: "Phase 6 complete — FTS5 search index (1791 records), citation graph (221 citations, 0 dangling), query_corpus.py API (6 functions), integration tests (34/34 PASS). Signed off by Peter 2026-05-03."
   phase_7_integration_brief:
-    approved: false
+    approved: true
     complete: false
+    approval_note: "Phase 7 approved by Peter 2026-05-03. Write INTEGRATION.md structured for Kate Weston Legal plugin v16 integration."
   phase_8_nightly_reverify:
     approved: false
     complete: false

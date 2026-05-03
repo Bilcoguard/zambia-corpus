@@ -74,7 +74,37 @@ Build and maintain a verified, citation-grade corpus of Zambian primary legal au
     - Query API returns correct results for 10 sample queries — fixed in `tests/test_query_corpus.py` and re-runnable.
   - **Batch model:** Phase 6 is implementation work, not ingestion. A "batch" here = one bounded unit of build (e.g., "build FTS5 schema + populate", "build citation graph", "implement search()+get_by_id()", etc.). Each tick produces a runnable, integrity-checked unit; batch report under `reports/batch-NNNN.md`.
   - **Integrity check (Phase 6 scope):** every tick — no schema regressions on existing tables; FTS5 row count == source-table row count; citation graph row count and dangling-ref count both reported; tests that exist continue to pass; new tests added this tick pass.
-- **Phase 7 — Integration brief.** Write `INTEGRATION.md` explaining how the Kate Weston Legal plugin should call the retrieval API and format citations.
+- **Phase 7 — Integration brief** (`phase_7_integration_brief`).
+  - **Goal:** Write `INTEGRATION.md` — a technical integration guide structured specifically for the Kate Weston Legal plugin v15.1 specialists to query the corpus via `scripts/query_corpus.py`. **No web fetches** — works entirely on local data already in `corpus.sqlite`, `records/`, and the existing query API.
+  - **Deliverables (2):**
+    1. **`INTEGRATION.md`** at the workspace root, covering the following sections:
+       - **API reference** — full documentation of all six functions in `scripts/query_corpus.py` (`search`, `get_by_id`, `citations_of`, `cited_by`, `judge_profile`, `statute_interpretation`) with parameter list, parameter types, return type, edge-case behaviour, and at least one example output per function showing **actual corpus data** (not invented).
+       - **Data coverage summary** — exact counts of acts, SIs, and judgments, broken down by court (where applicable) and by year range; total record count; FTS5 index size; citation graph statistics (resolved edges, dangling refs in `gaps.md`, breakdown by relation type). All figures must be computed live against `corpus.sqlite`, not hard-coded.
+       - **Specialist integration patterns** — one worked example per Kate Weston Legal plugin v15.1 specialist persona, showing how that specialist would call the API for a representative real-world task. The eight personas to cover are:
+         * **Clare** (case-law-research) — search judgments by `issue_tag`, chain citations forward/backward, find all cases on a legal point.
+         * **Harvey** (corporate-commercial-finance) — search corporate/banking judgments, find shareholder-dispute precedents, trace Companies Act interpretations.
+         * **Clifford** (constitutional-law, tax-fiscal) — search Constitutional Court decisions, find all judgments interpreting a constitutional article, tax statute interpretations.
+         * **Mike** (litigation-strategy) — `judge_profile` for panel prediction, outcome statistics by court and issue, find procedural precedents.
+         * **Sarah** (document-analysis) — search for statutes referenced in a contract under review, find amendments to a specific Act, trace SI chains.
+         * **Catherine** (family-law) — search family-law judgments, maintenance precedents, custody case outcomes.
+         * **Johnnie** (statutory-compliance) — search SIs by parent Act, find all amendments to a statute, check if a provision has been judicially interpreted.
+         * **Andrew** (litigation-trial-prep) — judge outcome patterns for trial strategy, find similar cases for witness preparation.
+       - **Citation-verification integration** — how the plugin's citation-verification skill should query the corpus to verify Zambian case citations **before** falling back to web search.
+       - **Limitations** — what is NOT in the corpus: known gaps from `gaps.md`, courts not yet covered, date-range boundaries, schema fields that are still uniformly empty (e.g., `key_statutes_json`, `cited_authorities`), and any other caveats a specialist should know.
+    2. **Example scripts** under `examples/` — each must run without error against `corpus.sqlite` using the same read-only access pattern as `query_corpus.py`:
+       - `examples/corpus_search.py` — full-text search with type/court/year filters.
+       - `examples/amendment_chain.py` — trace all amendments to a specific Act.
+       - `examples/judge_decision_profile.py` — pull a judge's full decision history with outcome breakdown.
+       - `examples/statute_interpretations.py` — find all judgments interpreting a given statute.
+       - `examples/citation_chain.py` — trace the citation network from a single judgment (forward and backward).
+  - **Completion criteria (all must hold):**
+    - `INTEGRATION.md` renders correctly (valid Markdown, no broken internal anchors).
+    - All five example scripts in `examples/` run without error against the live `corpus.sqlite` and produce non-empty output for at least one realistic example.
+    - Specialist integration patterns accurately reflect the current `query_corpus.py` API surface (no functions, parameters, or return-shape claims that the API does not actually provide).
+    - Data-coverage statistics in `INTEGRATION.md` match the actual counts in `corpus.sqlite` at the time of the final commit (verified by an integrity-check script for this phase).
+  - **Batch model:** Phase 7 is documentation + worked-examples work, not ingestion. A "batch" here = one bounded unit of writing or scripting (e.g., "draft API reference section", "write three specialist integration patterns", "implement two example scripts"). Each tick produces a runnable, integrity-checked unit; batch report under `reports/batch-NNNN.md`.
+  - **Integrity check (Phase 7 scope):** every tick — no schema regressions on existing tables; example scripts that exist run without error and produce non-empty output; data-coverage figures cited in `INTEGRATION.md` reproduce when re-computed against `corpus.sqlite`; no fabricated function names, parameters, or example outputs (every example block in `INTEGRATION.md` must be derivable from a live API call).
+  - **No web fetches** — Phase 7 consumes zero fetch budget. Token budget applies normally.
 - **Phase 8 — Nightly re-verification.** Sample `sample_rate` of existing records per night, re-fetch, compare hashes, flag drift.
 
 > **Renumbering note (2026-04-29):** Phase 5 was previously "Retrieval API"; it is now "Judgments ingestion". The former Phase 5/6/7 shifted to 6/7/8. `approvals.yaml` was reconciled by Peter on 2026-04-29: `phase_5_judgments` (approved: true, complete: false), `phase_6_retrieval_api`, `phase_7_integration_brief`, `phase_8_nightly_reverify` (the last three retain their prior approved/complete values).
