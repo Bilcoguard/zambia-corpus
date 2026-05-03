@@ -5321,3 +5321,5 @@ Tick stopped per non-negotiables. No batch run, no commit, no push.
 2026-05-03T10:38:47Z  batch-0492 integrity check PASS (89/89 records: unique IDs, 4-field provenance, sha256 shape, on-disk resolution; spot-recompute 6/6 seed=492; 0 unresolved xrefs)
 2026-05-03T10:38:47Z  batch-0492 gaps.md: 8 RECONFIRMED-DEFERRED notes appended under original gaps.md entries (3 under batch-0350 entries, 1 under batch-0351 entry, 4 under batch-0364 detailed entries); no deletions
 2026-05-03T10:38:47Z  batch-0492 B2 sync deferred to host (rclone not in sandbox)
+2026-05-03T10:39:52Z  7facfff  batch-0492 push OK (562f827..7facfff)
+2026-05-03T10:39:52Z  batch-0492 B2 sync deferred to host (rclone not in sandbox)
