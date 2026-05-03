@@ -3459,3 +3459,49 @@ will fire after the next 5 such audit-only ticks.
 approvals.yaml NOT modified per Phase 5 human-only confirmation
 rule.
 
+
+## [2026-05-03] Phase 6 batch 0505 — citation graph dangling references
+
+Built `citations` table from on-disk JSON. 144 resolved citation edges inserted; 93 candidate references could not resolve and were excluded from the graph (Phase 6 completion criterion: zero dangling refs in the graph itself). Full list in `reports/dangling-refs-b0505.md`. Reasons:
+
+- `title-ambiguous`: 74
+- `title-no-match`: 19
+
+These are surfaced for triage, not deletion. Resolution paths:
+- `title-no-match` / `title-ambiguous` on `sis.parent_act` — needs an explicit `parent_act_id` lookup table (titles don't uniquely identify the consolidated Cap. version vs. an annual Act).
+- `id-not-in-corpus` — references a record we haven't ingested yet (typically older or repealed-prior versions); add to ingestion target list when the relevant phase reopens.
+
+
+## Batch 0504 (judgment-ingestion-worker — dedicated scheduled task)
+Tick: 2026-05-03T17:15:05Z
+Worker: judgment-ingestion-worker (separate budget 500/day)
+Parser: v0.3.2 (baseline scripts/batch_0498_parse.py)
+
+Initial post-Phase-5 ZMSC sweep (most-recent year first per SKILL).
+8 targets fetched fresh from ZambiaLII; 5 written, 3 deferred under
+v0.3.2 outcome resolver. The 3 deferrals are all leave-to-appeal /
+declaratory framings where neither summary patterns nor PDF tail
+patterns matched the operative verb pool — characteristic of the
+"declaratory/interpretive ratio" family that has surfaced repeatedly
+in v0.3.2 reparses. They are candidates for a future parser_v0.3.3
+widening (pending Peter approval).
+
+Deferred candidates (raw on disk):
+- **zmsc/2026/2** — `html_no_summary_pdf_no_match`
+  Application for leave to appeal; summary: "Applicants failed to
+  show a point of public importance or reasonable prospects of
+  success to obtain leave to appeal under section 13(3)."
+  source_url: https://zambialii.org/akn/zm/judgment/zmsc/2026/2/eng@2026-01-13
+- **zmsc/2026/3** — `html_no_summary_pdf_no_match`
+  Application for leave to appeal granted on procedural concerns;
+  summary: "Applicants granted leave to appeal where proposed
+  grounds raised legal issues, mixed questions, and procedural
+  concerns warranting Supreme Court review."
+  source_url: https://zambialii.org/akn/zm/judgment/zmsc/2026/3/eng@2026-02-04
+- **zmsc/2025/1** — `html_no_summary_pdf_no_match`
+  Declaratory question on Legal Practitioners' Practice Rules;
+  summary: "Whether Legal Practitioners' Practice Rules prohibit
+  simultaneous private practice and full-time in-house employment."
+  source_url: https://zambialii.org/akn/zm/judgment/zmsc/2025/1/eng@2025-01-15
+
+All three retain raw HTML+PDF on disk for future reparse.
