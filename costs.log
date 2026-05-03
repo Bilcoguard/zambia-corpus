@@ -5653,3 +5653,5 @@
 2026-05-03T18:20:24Z	batch-0511	B2 sync deferred to host (rclone not in sandbox)
 2026-05-03T18:21:37Z	d7b7b87	batch-0511 push OK
 2026-05-03T18:18:00Z	batch-0512	fetches=0	records_written=0	records_deferred=0	cumulative_today=0/2000	reason=phase-7-batch-1-integration-md-scaffold-data-coverage-summary-and-full-api-reference-section-plus-two-example-scripts-corpus_search-py-and-statute_interpretations-py-integrity-check-b0512-36-of-36-PASS-phase-6-no-regression-25-of-25-PASS-no-fetches-no-tokens-records-1791-fts-1791-citations-221-unchanged-approvals-yaml-unchanged
+2026-05-03T18:19:00Z	ed3a1cd	batch-0512 push OK (d7b7b87..ed3a1cd)
+2026-05-03T18:19:00Z	batch-0512	B2 sync deferred to host (rclone not in sandbox)
