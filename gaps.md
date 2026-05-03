@@ -3548,3 +3548,54 @@ attempted; 4 records written, 1 deferred (zmsc/2025/05), 3 confirmed 404
 | b0504/0506 | 5       | 3        | 0   |
 | b0511      | 4       | 1        | 3   |
 | **total**  | **9**   | **4**    | **3** |
+
+
+## Batch 0515 (judgment-ingestion-worker — dedicated scheduled task)
+Tick: 2026-05-03T19:17Z
+Worker: judgment-ingestion-worker (separate budget 500/day)
+Parser: v0.3.2 (baseline scripts/batch_0498_parse.py via batch_0506_zmsc_parse.py wrapper)
+
+Pivoted to ZMSC 2024 sweep per b0511 next-tick recommendation. Year boundary
+discovered at num=34 (12 HEAD probes; 35–100 all 404). Most-recent-first DESC
+fetched 8 candidates {34,33,32,31,30,29,28,27}; 5 written, 3 deferred.
+
+### Records resolved (raw on disk b0515 → corpus)
+
+- **zmsc/2024/34** ZCCM Investments Holdings Plc v First Quantum Mine — outcome=dismissed via summary
+- **zmsc/2024/33** Billis Farm Limited and Anor v Molosoni Chipabwambi — outcome=allowed via pdf-tail-2pages
+- **zmsc/2024/32** Ratoyar Ltd & Ors v Luken Investments Ltd — outcome=allowed via pdf-tail-2pages
+- **zmsc/2024/30** Finsbury Investments Limited v Eastern and Southern African Trade and Development Bank — outcome=allowed via pdf-tail-2pages
+- **zmsc/2024/27** Road Development Agency v Safricas Zambia Limited — outcome=dismissed via pdf-tail-2pages
+
+### Deferred (raw on disk, awaiting parser_v0.3.3)
+
+- **zmsc/2024/31** Konkola Copper Mines Plc (in liquidation) v Attorney General —
+  `html_no_summary_pdf_no_match`. Declaratory framing on cadastre director
+  authority and surface-rights notice. Raw HTML+PDF retained.
+  source_url: https://zambialii.org/akn/zm/judgment/zmsc/2024/31/eng@2024-10-23
+- **zmsc/2024/29** Faustine Kabwe and Bimal Thaker v Ndola Trust School —
+  `html_no_summary_pdf_no_match`. Leave-to-appeal / Article 131(2)
+  jurisdictional question family. Raw retained.
+  source_url: https://zambialii.org/akn/zm/judgment/zmsc/2024/29/eng@2024-08-15
+- **zmsc/2024/28** Lukasu Properties Limited v African Banking Corporation —
+  `html_no_summary_pdf_no_match`. Interpretive ratio on demand-letter service
+  defects and writ competence. Raw retained.
+  source_url: https://zambialii.org/akn/zm/judgment/zmsc/2024/28/eng@2024-08-15
+
+### Year-boundary discovery (12 HEAD probes)
+
+- ZMSC 2024 nominal upper boundary = num **34** (verified by 35→404, 40→404, 45→404, 50→404, 70→404, 100→404)
+- Confirmed-present at HEAD: 1, 10, 30, 32, 33, 34
+- Inner-gap enumeration deferred to next tick
+
+### Cohort cumulative (judgment-ingestion-worker since b0504)
+
+| tick | written | deferred | 404 |
+|:-----|--------:|---------:|----:|
+| b0504/0506 | 5 | 3 | 0 |
+| b0511      | 4 | 1 | 3 |
+| b0515      | 5 | 3 | 0 |
+| **total**  | **14** | **7** | **3** |
+
+Outstanding raw-on-disk-pending-v0.3.3 deferrals (cohort total 7):
+- zmsc/2026/{2,3}, zmsc/2025/{1,5}, zmsc/2024/{28,29,31}

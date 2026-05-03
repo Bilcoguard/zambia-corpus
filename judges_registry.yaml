@@ -73,8 +73,12 @@ judges:
   - title: JJS
     first_seen_in: judgment-zm-2026-zmsc-06-ventriglia-and-another-v-finance-bank-zambia-limit
     first_seen_at: '2026-05-03T17:14:01Z'
+  - title: JS
+    first_seen_in: judgment-zm-2024-zmsc-32-ratoyar-ltd-ors-v-luken-investments-ltd
+    first_seen_at: '2026-05-03T19:15:22Z'
   aliases:
   - Kabuka JJS
+  - Kabuka JS
   first_seen: '2026-05-03T17:14:01Z'
 - canonical_name: Kaoma
   titles:
@@ -267,8 +271,13 @@ judges:
   - title: JJS
     first_seen_in: judgment-zm-2026-zmsc-08-konkola-copper-mines-plc-v-attorney-general-and-or
     first_seen_at: '2026-05-03T17:14:01Z'
+  - title: JS
+    first_seen_in: judgment-zm-2024-zmsc-32-ratoyar-ltd-ors-v-luken-investments-ltd
+    first_seen_at: '2026-05-03T19:15:22Z'
   aliases:
   - Mutuna JJS
+  - Hon. Mr. Justice Nigel K. Mutuna
+  - Mutuna JS
   first_seen: '2026-05-03T17:14:01Z'
 - canonical_name: Mwandenga
   titles:
@@ -325,8 +334,12 @@ judges:
   - title: JJS
     first_seen_in: judgment-zm-2025-zmsc-03-gillian-kasempa-mutinta-v-new-future-financial-com
     first_seen_at: '2026-05-03T17:14:01Z'
+  - title: JS
+    first_seen_in: judgment-zm-2024-zmsc-32-ratoyar-ltd-ors-v-luken-investments-ltd
+    first_seen_at: '2026-05-03T19:15:22Z'
   aliases:
   - Wood JJS
+  - Wood JS
   first_seen: '2026-05-03T17:14:01Z'
 - canonical_name: Zulu
   titles:

@@ -1,0 +1,38 @@
+{
+  "id": "judgment-zm-2024-zmsc-34-zccm-investments-holdings-plc-v-first-quantum-mine",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "ZCCM Investments Holdings Plc v First Quantum Minerals Limited and Ors (SCZ/ 8 / 20/2021) [2024] ZMSC 34 (4 October 2024)",
+  "citation": "[2024] ZMSC 34",
+  "court": "Supreme Court of Zambia",
+  "case_name": "ZCCM Investments Holdings Plc v First Quantum Minerals Limited and Ors",
+  "case_number": "SCZ/ 8 / 20/2021",
+  "date_decided": "2024-10-04",
+  "judges": [
+    {
+      "name": "Mutuna",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Appellate procedure",
+    "Permission to appeal to Supreme Court",
+    "Section 13(3) Court of Appeal Act",
+    "tests: point of law of public importance; reasonable prospects of success; other compelling reasons",
+    "BIDVEST principles applied. Civil procedure",
+    "renewed applications",
+    "confined to grounds raised below. Affidavit practice",
+    "interlocutory proceedings permit statements of information or belief with source; evidence must be properly served; skeleton arguments cannot substitute affidavit evidence. Res judicata",
+    "settled law, not raising public importance"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Renewed application for permission to appeal refused: applicant failed to meet statutory threshold of public importance, prospects, or compelling reasons",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "ed4c27299e2814a970c6244b3e23d860fb4bbb80dec6ab4df97974a70c0e43c8",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/34/eng@2024-10-04",
+  "source_hash": "sha256:bea62ba53889e282e594f1c69439a77b16dbb0813baff7fd2316ce0b12d2e364",
+  "fetched_at": "2026-05-03T19:15:18Z",
+  "parser_version": "0.3.2"
+}

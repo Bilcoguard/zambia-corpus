@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2024-zmsc-32-ratoyar-ltd-ors-v-luken-investments-ltd",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Ratoyar Ltd & Ors v Luken Investments Ltd (APPEAL NO. 08/2022) [2024] ZMSC 32 (7 October 2024)",
+  "citation": "[2024] ZMSC 32",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Ratoyar Ltd & Ors v Luken Investments Ltd",
+  "case_number": "APPEAL NO. 08/2022",
+  "date_decided": "2024-10-07",
+  "judges": [
+    {
+      "name": "Wood",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kabuka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Company law",
+    "Turquand/Indoor Management Rule",
+    "exceptions where suspicious circumstances or notice exist",
+    "purchaser’s duty to make minimum enquiries",
+    "Members' resolution required for disposal of company assets",
+    "title cancellation for fraud/irregularity."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "Appeal Allowed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "e904f8febe60835bb1ae662ebd753568ceed00f46f9d73591694237962d481e0",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/32/eng@2024-10-07",
+  "source_hash": "sha256:193ad26617581bb19a8ec61840088c73981b7727d6ebb7fcf5ffa9270ecf62c6",
+  "fetched_at": "2026-05-03T19:15:19Z",
+  "parser_version": "0.3.2"
+}

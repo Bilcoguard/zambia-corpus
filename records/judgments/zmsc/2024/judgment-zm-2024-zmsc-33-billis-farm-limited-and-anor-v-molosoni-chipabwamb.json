@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2024-zmsc-33-billis-farm-limited-and-anor-v-molosoni-chipabwamb",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Billis Farm Limited and Anor v Molosoni Chipabwamba and 12 Or Displaced Village Owners (APPEAL No. 11 OF 2022) [2024] ZMSC 33 (23 July 2024)",
+  "citation": "[2024] ZMSC 33",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Billis Farm Limited and Anor v Molosoni Chipabwamba and 12 Or Displaced Village Owners",
+  "case_number": "APPEAL No. 11 OF 2022",
+  "date_decided": "2024-07-23",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Hamaundu",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Article 28 appeals",
+    "appellate route and jurisdiction",
+    "interlocutory versus substantive appeals",
+    "Court of Appeal lacked jurisdiction",
+    "decision void and vacated; procedural commencement (petition vs writ) noted."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "In the circumstances, the appeal is allowed to the extent",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "ce808d8d0ce2b25ed499fda396e80f85531755590de8304cbdbc5bb9d13f29a3",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/33/eng@2024-07-23",
+  "source_hash": "sha256:fade04c74d126609cb11aa4b79c5479fde54d4e78209bafd7649c81f38821617",
+  "fetched_at": "2026-05-03T19:15:18Z",
+  "parser_version": "0.3.2"
+}

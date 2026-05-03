@@ -3526,3 +3526,66 @@ Records written this tick (2):
 {"date": "2026-05-03", "url": "phase-7-INTEGRATION.md-scaffold", "bytes": 0, "batch": "0512", "kind": "phase-7-implementation", "written": 0, "deferred": 0, "note": "Phase 7 batch 1 — INTEGRATION.md initial scaffold at workspace root with header/ToC/Data-Coverage-Summary/full-API-reference for all six query_corpus.py functions; coverage figures live-computed from corpus.sqlite (records=1791, acts=1150, sis=539, judgments=102 — ConCourt 72 + SCZ 30, citations=221 = 214 parent_act + 7 repealed_by). Two example scripts under examples/: corpus_search.py (q.search wrapper) and statute_interpretations.py (q.statute_interpretation wrapper with free-text title fallback). New integrity check scripts/integrity_check_b0512.py (36 assertions: file presence, required headings, 9 live-count reproductions, no-regression-vs-Phase-6, 3 example-script end-to-end runs, and no-fabrication ID resolution spot check) PASS. Phase 6 baseline integrity_check_b0509.py 25/25 PASS — no regression. Stub sections marked for subsequent Phase 7 batches: specialist integration patterns (8 personas), citation-verification integration, full Limitations, and 3 remaining example scripts (amendment_chain.py, judge_decision_profile.py, citation_chain.py). approvals.yaml NOT modified per scheduled-task spec step 10. No web fetches; no tokens; no source-of-truth mutations."}
 {"ts": "2026-05-03T18:33:43Z", "batch": "0513", "kind": "phase-7-implementation", "written": 0, "deferred": 0, "note": "Phase 7 batch 2 — three remaining example scripts (amendment_chain.py, judge_decision_profile.py, citation_chain.py) implemented and verified end-to-end via integrity_check_b0513.py (18/18 PASS) plus delegated integrity_check_b0512.py (36/36 PASS). INTEGRATION.md \"Example scripts\" table updated to mark all 5 scripts Implemented. records=1791, records_fts=1791, citations=221 unchanged. No web fetches; no source-of-truth mutations; approvals.yaml unchanged."}
 2026-05-03T18:47:24Z	batch-0514	phase-7-batch-3	docs-only	web-fetches=0	records-written=0	records-deferred=0	files=INTEGRATION.md+scripts/integrity_check_b0514.py+reports/batch-0514.md+worker.log+costs.log+provenance.log	integrity=PASS-20+18+36	approvals.yaml=unchanged
+
+== Batch 0515 (judgment-ingestion-worker tick) ==
+ts_utc: 2026-05-03T19:17:08Z
+parser: v0.3.2 (scripts/batch_0506_zmsc_parse.py wrapping batch_0498_parse.py)
+worker: judgment-ingestion-worker (separate budget 500/day)
+sweep:  ZMSC 2024 most-recent-first DESC (per b0511 next-tick recommendation)
+
+Year-boundary discovery (12 HEAD probes, ~0 KB each):
+  zmsc/2024/{1,10,30,32,33,34} → 200 OK
+  zmsc/2024/{35,40,45,50,70,100} → 404
+  conclusion: ZMSC 2024 nominal upper boundary = num 34
+
+Targets (8) — most-recent-first DESC:
+  zmsc/2024/34 (2024-10-04) → fetched OK → WRITTEN
+  zmsc/2024/33 (2024-07-23) → fetched OK → WRITTEN
+  zmsc/2024/32 (2024-10-07) → fetched OK → WRITTEN
+  zmsc/2024/31 (2024-10-23) → fetched OK → DEFERRED html_no_summary_pdf_no_match
+  zmsc/2024/30 (2024-11-08) → fetched OK → WRITTEN
+  zmsc/2024/29 (2024-08-15) → fetched OK → DEFERRED html_no_summary_pdf_no_match
+  zmsc/2024/28 (2024-08-15) → fetched OK → DEFERRED html_no_summary_pdf_no_match
+  zmsc/2024/27 (2024-08-07) → fetched OK → WRITTEN
+
+Records written (5):
+  judgment-zm-2024-zmsc-34-zccm-investments-holdings-plc-v-first-quantum-mine
+    citation=[2024] ZMSC 34  outcome=dismissed (via summary)
+    judges=[Mutuna]  raw_sha256 verified against on-disk PDF
+  judgment-zm-2024-zmsc-33-billis-farm-limited-and-anor-v-molosoni-chipabwamb
+    citation=[2024] ZMSC 33  outcome=allowed (via pdf-tail-2pages)
+    judges=[Malila, Hamaundu, Chisanga]  raw_sha256 verified
+  judgment-zm-2024-zmsc-32-ratoyar-ltd-ors-v-luken-investments-ltd
+    citation=[2024] ZMSC 32  outcome=allowed (via pdf-tail-2pages)
+    judges=[Wood, Kabuka, Mutuna]  raw_sha256 verified
+  judgment-zm-2024-zmsc-30-finsbury-investments-limited-v-eastern-and-souther
+    citation=[2024] ZMSC 30  outcome=allowed (via pdf-tail-2pages)
+    judges=[Mutuna]  raw_sha256 verified
+  judgment-zm-2024-zmsc-27-road-development-agency-v-safricas-zambia-limited
+    citation=[2024] ZMSC 27  outcome=dismissed (via pdf-tail-2pages)
+    judges=[Malila, Hamaundu, Kaoma, Mutuna, Chisanga]  raw_sha256 verified
+
+Records deferred (3) — raw HTML+PDF retained on disk:
+  zmsc/2024/31  reason=html_no_summary_pdf_no_match  declaratory-question framing
+  zmsc/2024/29  reason=html_no_summary_pdf_no_match  leave-to-appeal/jurisdictional framing
+  zmsc/2024/28  reason=html_no_summary_pdf_no_match  interpretive-ratio framing
+
+Integrity checks (7-of-7 PASS): required fields, judges ≥1, issue_tags non-empty,
+outcome ∈ enum, judges resolve in registry, raw_sha256 matches on-disk PDF,
+zero duplicate IDs across corpus (111 unique judgment ids).
+
+judges_registry.yaml: 13 alias updates across 8 unique canonical names (Mutuna,
+Malila, Hamaundu, Chisanga, Wood, Kabuka, Kaoma) — all matched existing entries;
+no new canonical names introduced.
+
+Phase 5 progress: 106 → 111 judgment records (target 100-160; IN BAND).
+
+corpus.sqlite update + records_fts insert blocked by FUSE disk I/O error in this
+sandbox (reproduces b0504/b0511 mount-blocks symptom). Will rebuild host-side
+via scripts/batch_0504_build_fts5.py — sqlite is gitignored, JSON records are
+the source of truth.
+
+approvals.yaml: NOT modified per Phase 5 human-only confirmation rule.
+
+Fetches this tick: 28 (12 HEAD + 16 GET). Cumulative judgment-worker today:
+65 / 500.

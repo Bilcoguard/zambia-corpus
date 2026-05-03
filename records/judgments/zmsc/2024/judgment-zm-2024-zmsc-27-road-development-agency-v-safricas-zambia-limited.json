@@ -1,0 +1,55 @@
+{
+  "id": "judgment-zm-2024-zmsc-27-road-development-agency-v-safricas-zambia-limited",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Road Development Agency v Safricas Zambia Limited (APPEAL NO. 03/2024) [2024] ZMSC 27 (7 August 2024)",
+  "citation": "[2024] ZMSC 27",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Road Development Agency v Safricas Zambia Limited",
+  "case_number": "APPEAL NO. 03/2024",
+  "date_decided": "2024-08-07",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Hamaundu",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Arbitration",
+    "setting aside award under s.17",
+    "public policy; Arbitration (Court Proceedings) Rules r.23(2)(c)",
+    "affidavit must state facts relied upon; Limited judicial review",
+    "courts may examine due process and jurisdiction, not merits; Pleading and proof obligations",
+    "grounds not raised in High Court cannot be first advanced on appeal."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "We accordingly dismiss it with",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "95472abaff38cf501f0fb9bd98086f4ffe2265d00908b187393396c964c6200a",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/27/eng@2024-08-07",
+  "source_hash": "sha256:641bb00e70986c82078f6251d48ef3031a1c07cba8582443207950fe6307c940",
+  "fetched_at": "2026-05-03T19:15:22Z",
+  "parser_version": "0.3.2"
+}

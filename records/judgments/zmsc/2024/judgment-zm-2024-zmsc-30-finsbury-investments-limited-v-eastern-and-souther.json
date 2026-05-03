@@ -1,0 +1,37 @@
+{
+  "id": "judgment-zm-2024-zmsc-30-finsbury-investments-limited-v-eastern-and-souther",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Finsbury Investments Limited v Eastern and Southern African Trade and Development Bank (SCZ/8/41/2023) [2024] ZMSC 30 (8 November 2024)",
+  "citation": "[2024] ZMSC 30",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Finsbury Investments Limited v Eastern and Southern African Trade and Development Bank",
+  "case_number": "SCZ/8/41/2023",
+  "date_decided": "2024-11-08",
+  "judges": [
+    {
+      "name": "Mutuna",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Civil procedure",
+    "jurisdiction",
+    "extension of time to appeal",
+    "effect of a Court of Appeal single-judge dismissal",
+    "resuscitation of a dismissed appeal",
+    "permission to appeal",
+    "public importance",
+    "mootness."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "1) If the intended appeal is allowed it will curtail the",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "189c5ab9cf1690c362dac9c987b43b1b1cc90d33c284f5b197cd906d694763ec",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/30/eng@2024-11-08",
+  "source_hash": "sha256:88da99ae791a8caf15cc0617c7669b97e92fbacb67f7579a097ad45a941e40b7",
+  "fetched_at": "2026-05-03T19:15:20Z",
+  "parser_version": "0.3.2"
+}
