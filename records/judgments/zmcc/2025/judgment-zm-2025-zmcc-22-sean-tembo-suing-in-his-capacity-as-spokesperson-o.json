@@ -1,0 +1,65 @@
+{
+  "id": "judgment-zm-2025-zmcc-22-sean-tembo-suing-in-his-capacity-as-spokesperson-o",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Sean Tembo (Suing in his capacity as Spokesperson of the Tonse Alliance) v The Attorney General (2025/CCZ/007) [2025] ZMCC 22 (27 November 2025)",
+  "citation": "[2025] ZMCC 22",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Sean Tembo (Suing in his capacity as Spokesperson of the Tonse Alliance) v The Attorney General",
+  "case_number": "2025/CCZ/007",
+  "date_decided": "2025-11-27",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "declaratory relief discretionary and academicity",
+    "transitional provisions in amendment Act",
+    "applicability of Article 106 to a president whose term straddled constitutional regimes",
+    "Article 267(3)(b)(c) not relevant to eligibility",
+    "per incuriam and inherent jurisdiction."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Declaratory relief was academic; transitional Act provisions governed eligibility, and Article 267(3)(b)(c) did not affect the Court’s decision",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "8cf3ad59738b86073d6ff8f9eef8cce1310d551727fa0c49efc50be04fb8e39e",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/22/eng@2025-11-27",
+  "source_hash": "sha256:0cc3b29d252fa918c736fafbf32c880a356957c8f8159fcf1e038b4e1d7a0b09",
+  "fetched_at": "2026-05-03T11:35:59Z",
+  "parser_version": "0.3.2"
+}

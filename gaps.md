@@ -1757,6 +1757,7 @@ all raw bytes were already on disk.
   amount to disposal of State equity triggering Article 210
   parliamentary approval." URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2025/33/eng@2025-12-18.
+  - RECONFIRMED-DEFERRED in batch-0493 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; the holding is a declaratory ratio on Article 210 share-issuance — "did not amount to disposal" is a negative interpretive construction with no v0.3.2/v0.3.1 operative-verb match in either SUMMARY or PDF tail. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2025] ZMCC 32** (The Law Association of Zambia and Ors v The
   Attorney General, 2025-12-16). Reason:
@@ -1764,6 +1765,7 @@ all raw bytes were already on disk.
   full Court is the proper route to challenge a single judge's
   interlocutory ruling; late conservatory relief denied." URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2025/32/eng@2025-12-16.
+  - RESOLVED in batch-0493 (parser_v0.3.2). Outcome: `dismissed`. Detail: "We therefore dismiss the application for conservatory order". Source: pdf-tail-2pages (v032-tail `we therefore dismiss …` operative-verb pattern). Five-judge bench (parse_judges_v032 no-comma fix): Munalula PC, Shilimi DPC, Musaluke JJC, Mulongoti JJC, Mwandenga JJC — all resolved against existing canonical entries. Record id: `judgment-zm-2025-zmcc-32-the-law-association-of-zambia-and-ors-v-the-attorn`.
 
 - **[2025] ZMCC 28** (Brian Mundubile and Anor v Hakainde Hichilema
   and Anor, 2025-12-05). Reason: `html_no_summary_pdf_no_match`.
@@ -1771,12 +1773,14 @@ all raw bytes were already on disk.
   implicating the President must proceed against the Attorney-General;
   the President has immunity from personal civil suits." URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2025/28/eng@2025-12-05.
+  - RECONFIRMED-DEFERRED in batch-0493 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; "must proceed against the Attorney-General" is a procedural-direction declaratory holding with no operative-verb match in either pool. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2025] ZMCC 25** (Tresford Chali v Attorney General, 2025-12-04).
   Reason: `html_no_summary_pdf_no_match`. Summary head: "Court refused
   stay of Speaker's vacancy ruling absent special and convincing
   grounds; merits not to be decided interlocutorily." URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2025/25/eng@2025-12-04.
+  - RESOLVED in batch-0493 (parser_v0.3.2). Outcome: `dismissed`. Detail: "Court refused stay of Speaker's vacancy ruling absent special and convincing grounds; merits not to be decided interlocutorily". Source: summary (v032 `\bcourt\s+refused\s+(?:a\s+)?(?:to\s+grant…)?` pattern — one of the 24 v0.3.2 phrase additions Peter listed for refusal-as-outcome). Single-judge bench: Hon. Mr. Justice M. Musaluke — resolved against existing canonical entry. Record id: `judgment-zm-2025-zmcc-25-tresford-chali-v-attorney-general`.
 
 - **[2025] ZMCC 24** (The Law Association of Zambia v The Speaker of
   the National Assembly, 2025-11-28). Reason:
@@ -1785,6 +1789,7 @@ all raw bytes were already on disk.
   legal representative of 'Government' and ordered joinder of the
   Attorney General." URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2025/24/eng@2025-11-28.
+  - RECONFIRMED-DEFERRED in batch-0493 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; "ordered joinder" is an interlocutory joinder direction (joinder-ordered is not in v0.3.2 SUMMARY_PATTERNS — only refusal-as-outcome variants were added in this widening). Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 These six can be re-attempted in a future tick if either (a) the
 SUMMARY_PATTERNS lexicon is widened to include "denied", "refused
@@ -1821,6 +1826,7 @@ was NOT used). Zero fresh fetches — all raw bytes already on disk.
   academic"), not in an active-voice operative paragraph the parser
   recognises. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2025/22/eng@2025-11-27.
+  - RESOLVED in batch-0493 (parser_v0.3.2). Outcome: `dismissed`. Detail: "Declaratory relief was academic; transitional Act provisions governed eligibility, and Article 267(3)(b)(c) did not affect the Court's decision". Source: summary (v032 `\bdeclaratory\s+relief\s+(?:was|is)\s+ac(?:ademic)?` pattern — one of the 24 v0.3.2 phrase additions Peter listed). Seven-judge bench (parse_judges_v032 no-comma fix): Shilimi DPC, Musaluke JJC, Chisunka JJC, Mulongoti JJC, Mwandenga JJC, Kawimbe JJC, Mulife JJC — all resolved against existing canonical entries. Record id: `judgment-zm-2025-zmcc-22-sean-tembo-suing-in-his-capacity-as-spokesperson-o`.
 
 - **[2025] ZMCC 21** (Law Association of Zambia and Ors v The
   Attorney General, 2025-11-25). Reason:
@@ -1833,6 +1839,7 @@ was NOT used). Zero fresh fetches — all raw bytes already on disk.
   `(?:application|petition)\s+(?:is\s+)?(?:hereby\s+)?dismissed`
   pattern). PDF tail had no PDF_TAIL_PATTERN match either. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2025/21/eng@2025-11-25.
+  - RECONFIRMED-DEFERRED in batch-0493 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; the "Application … dismissed for failing to show irreparable harm" participial construction in the SUMMARY still falls outside v0.3.2's `dismissed-for-(lack|failing|want|failure)` regex (which requires the disposition verb to bind directly to a recognised noun head — "Application" appears earlier in the sentence under participial dependency, not adjacent to the disposition token). PDF tail likewise had no v0.3.2/v0.3.1 operative-verb match. Raw HTML+PDF retained on disk. Held for further parser widening / hand-curated review.
 
 - **[2025] ZMCC 19** (BetBio Zambia Ltd and Anor v Attorney General
   and Ors, 2025-09-30). Reason:
@@ -1840,6 +1847,7 @@ was NOT used). Zero fresh fetches — all raw bytes already on disk.
   effectively no text from the PDF (suggests scanned imagery only);
   needs an OCR pass before parser can extract operative orders. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2025/19/eng@2025-09-30.
+  - RECONFIRMED-DEFERRED in batch-0493 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2 (which does not change PDF extraction behaviour); pdfplumber still returns effectively no extractable text from the on-disk PDF. Specific reason `pdf_extraction_empty_likely_scanned` re-confirmed. Raw HTML+PDF retained on disk. Awaits OCR pass before any parser version can produce an operative order extraction.
 
 - **[2025] ZMCC 18** (TC Promotions Limited and Ors v Lusaka City
   Council, 2025-09-30). Reason: `html_no_summary_pdf_no_match`.
@@ -2960,3 +2968,61 @@ widened vocabulary. Three options for further yield, ranked by leverage:
      URL confirmed.
 
 Next scheduled tick (b0490) should pick up option 1.
+
+## Batch 0493 — REPARSE PASS under parser_v0.3.2, ZMCC 2025 pivot (2026-05-03)
+
+Reparse-first triage continuation per approvals.yaml `reparse_first`
+policy and per the b0492 next-tick recommendation (pivot from the
+exhausted ZMCC 2024 cohort to ZMCC 2025 untested-under-v0.3.2 because
+v0.3.2 was specifically widened with regexes targeting phrases that
+appear in this cohort: `court refused stay` and `declaratory relief
+was academic`). Eight ZMCC raw HTML+PDF pairs already on disk were
+re-run against the parser_v0.3.2 baseline (`scripts/batch_0493_parse.py`,
+copied from `scripts/batch_0492_parse.py` with only the `_work`
+directory + targets bumped — parser body unchanged, baseline is still
+`scripts/batch_0488_parse.py` per approvals.yaml).
+
+Targeted slice (year-DESC then num-DESC, ZMCC 2025 untested-under-v0.3.2):
+  zmcc/2025/{33, 32, 28, 25, 24, 22, 21, 19}.
+Records written: 3 (zmcc/2025/{32, 25, 22}). Records deferred: 5
+(zmcc/2025/{33, 28, 24, 21} all `html_no_summary_pdf_no_match`;
+zmcc/2025/19 `pdf_extraction_empty_likely_scanned`). Zero fresh
+fetches — all raw bytes already on disk.
+
+Yield 3/8 = 37.5% — best v0.3.2 reparse yield on a single ticket since
+b0490 (6/8). Two of the three resolutions hit v0.3.2 SUMMARY_PATTERNS
+additions specifically widened for this cohort: `court refused stay`
+(zmcc/2025/25) and `declaratory relief was academic` (zmcc/2025/22).
+The third (zmcc/2025/32) hit a v0.3.2 PDF_TAIL_PATTERN active-voice
+operative phrase (`we therefore dismiss …`).
+
+Cumulative v0.3.2 yield (b0488..b0493): 14 records / 48 attempted = 29.2%.
+
+### Resolved (raw retained per audit policy)
+
+See cross-references on the original deferred entries above for
+zmcc/2025/{32, 25, 22}.
+
+### Recommendation
+
+The three remaining ZMCC 2025 untested-under-v0.3.2 deferrals after
+this tick (33, 28, 24) all share the declaratory/interpretive holding
+profile that has been resistant across both v0.3.1 and v0.3.2 — same
+profile that consumed b0491 (ZMCC 2022 zero-yield), b0492 (ZMCC 2024
+zero-yield), and the four `html_no_summary_pdf_no_match` ZMCC 2025
+deferrals here. Three options for further yield, in decreasing leverage:
+
+  1. Continue the ZMCC 2025 DESC sweep through the remaining 19
+     untested-under-v0.3.2 candidates (raw nums {18, 17, 16, 15, 14,
+     12, 11, 10, 9, 8, 7, 6, 5, 2}; nums {18, 17, 14, 11, 10, 9, 8,
+     7, 6, 5, 2} have records absent; nums {1, 3, 4, 13, 20, 23, 26,
+     27, 29, 30, 31} are written). Yield expectation moderate — same
+     mixed profile as today but the cohort is large enough to surface
+     a few more v0.3.2-addressable cases.
+  2. Pivot to ZMCC 2023 raw-on-disk no-record candidates (size
+     unknown to this tick; needs an inventory pass).
+  3. ZMSC older-year sweep — still pending Peter's URL pattern
+     confirmation per approvals.yaml `zmsc_older_year_sweep_approval_note`;
+     not actionable by scheduled tick until URL confirmed.
+
+Next scheduled tick (b0494) should pick up option 1.

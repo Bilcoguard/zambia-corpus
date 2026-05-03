@@ -1,0 +1,53 @@
+{
+  "id": "judgment-zm-2025-zmcc-32-the-law-association-of-zambia-and-ors-v-the-attorn",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "The Law Association of Zambia and Ors v The Attorney General (2025/CCZ/0029) [2025] ZMCC 32 (16 December 2025)",
+  "citation": "[2025] ZMCC 32",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "The Law Association of Zambia and Ors v The Attorney General",
+  "case_number": "2025/CCZ/0029",
+  "date_decided": "2025-12-16",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional procedure",
+    "interlocutory applications",
+    "renewal before full Court vs appeal; conservatory/interim relief",
+    "prima facie case, irreparable harm, public interest; mootness and timing; limited use of English \"White Book\"; discouragement of \"motion on motion\"."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "We therefore dismiss the application for conservatory order",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "4132a02592b259d9e36937400112daf0b3e35097db2ec30a39bf362d35744a76",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/32/eng@2025-12-16",
+  "source_hash": "sha256:c52557708a3d20780edc3185de93addfa0252fd83093c9ce27d34d51743d5bbb",
+  "fetched_at": "2026-05-03T11:35:56Z",
+  "parser_version": "0.3.2"
+}
