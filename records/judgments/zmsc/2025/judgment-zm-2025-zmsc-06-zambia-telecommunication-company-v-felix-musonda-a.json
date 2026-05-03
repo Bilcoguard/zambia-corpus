@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2025-zmsc-06-zambia-telecommunication-company-v-felix-musonda-a",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Zambia Telecommunication Company v Felix Musonda and Ors (SCZ/08/03/2023) [2025] ZMSC 6 (12 February 2025)",
+  "citation": "[2025] ZMSC 6",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Zambia Telecommunication Company v Felix Musonda and Ors",
+  "case_number": "SCZ/08/03/2023",
+  "date_decided": "2025-02-12",
+  "judges": [
+    {
+      "name": "Musonda",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Employment law",
+    "retirement benefits",
+    "construction of \"salary\"",
+    "whether allowances form part of salary for gratuity",
+    "interpretation versus review of judgments",
+    "effect of appellate reversal on assessment of awards."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "The appeal is allowed on grounds 2 and 1",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "76837a24f326ca6539e10d1f2d5223cb0097aa8e827f5a584694341636424b66",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/6/eng@2025-02-12",
+  "source_hash": "sha256:f61382e846949aaa011f0ecc38d239144e2736580a33d76e34d8bc94c65c27e2",
+  "fetched_at": "2026-05-03T18:14:01Z",
+  "parser_version": "0.3.2"
+}

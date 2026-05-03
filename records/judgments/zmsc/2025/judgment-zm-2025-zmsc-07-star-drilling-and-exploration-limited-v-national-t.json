@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2025-zmsc-07-star-drilling-and-exploration-limited-v-national-t",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Star Drilling and Exploration  Limited v National Technologies Limted and Ors (APPEAL NO. 07/2024) [2025] ZMSC 7 (21 February 2025)",
+  "citation": "[2025] ZMSC 7",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Star Drilling and Exploration  Limited v National Technologies Limted and Ors",
+  "case_number": "APPEAL NO. 07/2024",
+  "date_decided": "2025-02-21",
+  "judges": [
+    {
+      "name": "Musonda",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Arbitration Act",
+    "effect of arbitral award (finality and parties bound)",
+    "registration and enforcement in High Court; Court’s complementary/supportive role (Section 14(4), Section 17) vs limited supervisory powers; Enforcement mechanisms",
+    "writs of fieri facias, garnishee, charging orders, receiver, committal, sequestration (Order 45 White Book); Piercing the corporate veil",
+    "substantive remedy and standalone action, not an execution mechanism; Procedural requirements for veil piercing; Improper use of interlocutory summons to enforce award."
+  ],
+  "outcome": "upheld",
+  "outcome_detail": "We accordingly uphold the decision of the Court of Appeal",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "dbdf9b7b7e2e5e1a3cd3106d11a586b153f39d0ab3f2a91963a519d0bb2dc946",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/7/eng@2025-02-21",
+  "source_hash": "sha256:b7a53f304e3ae6afcd5016ad40f57ed8156c2244f624cf9fa137a64df9a3af09",
+  "fetched_at": "2026-05-03T18:14:00Z",
+  "parser_version": "0.3.2"
+}

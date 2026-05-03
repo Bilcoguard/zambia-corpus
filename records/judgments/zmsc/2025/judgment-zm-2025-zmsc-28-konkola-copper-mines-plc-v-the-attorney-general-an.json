@@ -1,0 +1,42 @@
+{
+  "id": "judgment-zm-2025-zmsc-28-konkola-copper-mines-plc-v-the-attorney-general-an",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Konkola Copper Mines Plc v The Attorney General and Ors (APPEAL NO. 09/2024) [2025] ZMSC 28 (27 October 2025)",
+  "citation": "[2025] ZMSC 28",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Konkola Copper Mines Plc v The Attorney General and Ors",
+  "case_number": "APPEAL NO. 09/2024",
+  "date_decided": "2025-10-27",
+  "judges": [
+    {
+      "name": "Musonda",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Civil procedure",
+    "Admission of fresh evidence on appeal",
+    "section 25(1)(b)(i) Supreme Court of Zambia Act; Ladd v Marshall test; Order 59 r.10(18) (White Book) for post-trial evidence; relevance and availability of Cadastre documents; procedural challenge to issuance of mining licence (writ of trespass v appeal under s.97(1) Mines and Minerals Development Act; evidence of licence termination/expiry."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "We accordingly dismiss it with costs against both the appellant and",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "24fba50fdbae838808ed4f450de0dec19dc9aa2663ce16366f927e0eca8fd7f8",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/28/eng@2025-10-27",
+  "source_hash": "sha256:7a2449a9922ea4f55763c02e9f8783ca22a0308250e179c45fcdb169946ffd09",
+  "fetched_at": "2026-05-03T18:13:59Z",
+  "parser_version": "0.3.2"
+}

@@ -3508,3 +3508,43 @@ All three retain raw HTML+PDF on disk for future reparse.
 (Note: two earlier draft b0505 entries — 144/93 and 143/94 — were superseded
 in this same tick; final canonical entry is at the top of the b0505
 section above.)
+
+
+## Batch 0511 (judgment-ingestion-worker — dedicated scheduled task)
+Tick: 2026-05-03T18:19Z
+Worker: judgment-ingestion-worker (separate budget 500/day)
+Parser: v0.3.2 (baseline scripts/batch_0498_parse.py via batch_0506_zmsc_parse.py wrapper)
+
+Continued ZMSC most-recent-first sweep into 2025 inner gaps. 8 candidates
+attempted; 4 records written, 1 deferred (zmsc/2025/05), 3 confirmed 404
+(zmsc/2026/{11,05}, zmsc/2025/14).
+
+### Records resolved (raw on disk b0511 → corpus)
+
+- **zmsc/2025/06** Zambia Telecommunication Company v Felix Musonda — outcome=allowed via pdf-tail-2pages
+- **zmsc/2025/07** Star Drilling and Exploration Limited v National Treasury — outcome=upheld via pdf-tail-2pages
+- **zmsc/2025/26** Richard Musukwa & Ors v The Attorney General — outcome=remitted via summary
+- **zmsc/2025/28** Konkola Copper Mines Plc v The Attorney General — outcome=dismissed via pdf-tail-2pages
+
+### Deferred (raw on disk, awaiting parser_v0.3.3)
+
+- **zmsc/2025/05** William Saunders v Pemba Lapidiaries Limited and Anor —
+  `html_no_summary_pdf_no_match`. Declaratory framing on procedural
+  objection; characteristic of the declaratory/interpretive ratio
+  family that recurs across v0.3.2 deferrals. Raw HTML+PDF retained on
+  disk for future v0.3.3 reparse.
+  source_url: https://zambialii.org/akn/zm/judgment/zmsc/2025/5/eng@2025-01-15
+
+### Confirmed 404 (boundary / true gap)
+
+- **zmsc/2026/11** — confirms 2026 inventory boundary at num=10 (10 records on ZambiaLII as of 2026-05-03)
+- **zmsc/2026/05** — true gap; not allocated by ZambiaLII
+- **zmsc/2025/14** — true gap; not allocated by ZambiaLII
+
+### Cohort cumulative (judgment-ingestion-worker since b0504)
+
+| tick   | written | deferred | 404 |
+|:-------|--------:|---------:|----:|
+| b0504/0506 | 5       | 3        | 0   |
+| b0511      | 4       | 1        | 3   |
+| **total**  | **9**   | **4**    | **3** |

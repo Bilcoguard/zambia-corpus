@@ -19,6 +19,14 @@ judges:
   aliases:
   - Chinyama J
   first_seen: '2026-05-03T17:14:01Z'
+- canonical_name: Chisanga
+  titles:
+  - title: JJS
+    first_seen_in: judgment-zm-2025-zmsc-26-richard-musukwa-and-ors-v-the-attorney-general
+    first_seen_at: '2026-05-03T18:14:01Z'
+  aliases:
+  - Chisanga JJS
+  first_seen: '2026-05-03T18:14:01Z'
 - canonical_name: Chisunka
   titles:
   - title: JCC
