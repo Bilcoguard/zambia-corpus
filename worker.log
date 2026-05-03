@@ -5384,3 +5384,7 @@ The accumulating .lock.bak files in .git/refs/heads/ and .git/refs/remotes/origi
 2026-05-03T15:09:46Z	2025e8c	batch-0500 push OK (18298d1..2025e8c)
 2026-05-03T15:09:46Z	batch-0500 commit 2025e8c pushed cleanly to origin/main; HEAD verified. Tick complete.
 2026-05-03T15:09:46Z	batch-0500	B2 sync deferred to host (rclone not in sandbox)
+[2026-05-03T15:33:02Z] batch-0501 START — Phase 5 audit-only zero-yield tick (3rd post-v0.3.2-exhaustion); first-try git pull --ff-only OK; reparse-first inventory unchanged from b0500 (70 ZMCC raw-on-disk-no-record, all v0.3.2-deferred — confirmed by recomputation this tick); no fetches, no records written
+[2026-05-03T15:34:50Z] batch-0501 integrity check PASS (Phase 5 scope): 97/97 unique IDs, 97/97 core provenance complete, 97/97 source_hash shape valid, 97/97 source_hash resolves into raw/ tree (3203 files / 2926 unique sha256), 0 unresolved cross-refs, spot recompute seed=501 6/6 PASS
+[2026-05-03T15:34:50Z] batch-0501 tick-end written=0 deferred=0 integrity=PASS note=audit-only-3rd-tick-post-v0.3.2-formal-exhaustion-five-consecutive-zero-counter-2->3-phase-5-progress-97-of-100-160-approvals.yaml-unchanged-per-human-only-confirmation-rule
+2026-05-03T15:34:50Z	batch-0501	B2 sync deferred to host (rclone not in sandbox)
