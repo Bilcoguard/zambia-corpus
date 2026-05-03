@@ -3460,16 +3460,15 @@ approvals.yaml NOT modified per Phase 5 human-only confirmation
 rule.
 
 
-## [2026-05-03] Phase 6 batch 0505 — citation graph dangling references
+## [2026-05-03] Phase 6 batch 0505 — citation graph dangling references (FINAL)
 
-Built `citations` table from on-disk JSON. 144 resolved citation edges inserted; 93 candidate references could not resolve and were excluded from the graph (Phase 6 completion criterion: zero dangling refs in the graph itself). Full list in `reports/dangling-refs-b0505.md`. Reasons:
+Built `citations` table from on-disk JSON via `scripts/batch_0505_build_citation_graph.py` (canonical). **221 resolved citation edges** inserted (214 `parent_act` + 7 `repealed_by`); **16 candidate references** could not resolve and were excluded from the graph (Phase 6 completion criterion: zero dangling refs in the graph itself). Full list in `reports/dangling-refs-b0505.md`. Reasons:
 
-- `title-ambiguous`: 74
-- `title-no-match`: 19
+- `parent_act_title_not_resolved`: 16
 
-These are surfaced for triage, not deletion. Resolution paths:
-- `title-no-match` / `title-ambiguous` on `sis.parent_act` — needs an explicit `parent_act_id` lookup table (titles don't uniquely identify the consolidated Cap. version vs. an annual Act).
-- `id-not-in-corpus` — references a record we haven't ingested yet (typically older or repealed-prior versions); add to ingestion target list when the relevant phase reopens.
+All 16 are `sis.parent_act = "<bare act title>"` candidates where NO corpus act has a matching normalised title — the parent acts are simply not in the corpus yet (e.g. `Citizens Economic Empowerment Act`, `Customs and Excise Act`, `Tender Board Act`). When ambiguous (multiple acts share the normalised title), the canonical builder picks the act with the most recent `enacted_date` and resolves into the graph (deterministic editorial preference for the live consolidated version) — this is why this final tick has only 16 dangling vs the 93 reported by the conservative early-draft builder retained as `scripts/batch_0505_build_citations.py`.
+
+Resolution path: ingest the 16 unresolved parent acts in a future ingestion phase. Out-of-scope this tick.
 
 
 ## Batch 0506 (judgment-ingestion-worker — dedicated scheduled task)
@@ -3506,24 +3505,6 @@ Deferred candidates (raw on disk):
 
 All three retain raw HTML+PDF on disk for future reparse.
 
-## [2026-05-03] Phase 6 batch 0505 — citation graph dangling references
-
-Built `citations` table from on-disk JSON. 144 resolved citation edges inserted; 93 candidate references could not resolve and were excluded from the graph (Phase 6 completion criterion: zero dangling refs in the graph itself). Full list in `reports/dangling-refs-b0505.md`. Reasons:
-
-- `title-ambiguous`: 74
-- `title-no-match`: 19
-
-These are surfaced for triage, not deletion. Resolution paths:
-- `title-no-match` / `title-ambiguous` on `sis.parent_act` — needs an explicit `parent_act_id` lookup table (titles don't uniquely identify the consolidated Cap. version vs. an annual Act).
-- `id-not-in-corpus` — references a record we haven't ingested yet (typically older or repealed-prior versions); add to ingestion target list when the relevant phase reopens.
-
-## [2026-05-03] Phase 6 batch 0505 — citation graph dangling references
-
-Built `citations` table from on-disk JSON. 143 resolved citation edges inserted; 94 candidate references could not resolve and were excluded from the graph (Phase 6 completion criterion: zero dangling refs in the graph itself). Full list in `reports/dangling-refs-b0505.md`. Reasons:
-
-- `title-ambiguous`: 75
-- `title-no-match`: 19
-
-These are surfaced for triage, not deletion. Resolution paths:
-- `title-no-match` / `title-ambiguous` on `sis.parent_act` — needs an explicit `parent_act_id` lookup table (titles don't uniquely identify the consolidated Cap. version vs. an annual Act).
-- `id-not-in-corpus` — references a record we haven't ingested yet (typically older or repealed-prior versions); add to ingestion target list when the relevant phase reopens.
+(Note: two earlier draft b0505 entries — 144/93 and 143/94 — were superseded
+in this same tick; final canonical entry is at the top of the b0505
+section above.)

@@ -1,6 +1,6 @@
 {
   "all_dst_ids_resolved": true,
-  "built_at": "2026-05-03T17:22:25Z",
+  "built_at": "2026-05-03T17:24:18Z",
   "dangling_by_reason": {
     "parent_act_title_not_resolved": 16
   },
@@ -11,5 +11,5 @@
     "repealed_by": 7
   },
   "parser_version": "phase6.b0505",
-  "record_count": 1797
+  "record_count": 1791
 }
