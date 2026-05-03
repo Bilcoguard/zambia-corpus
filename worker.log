@@ -5409,3 +5409,5 @@ The accumulating .lock.bak files in .git/refs/heads/ and .git/refs/remotes/origi
 [2026-05-03T16:57:51Z] costs.log scan: today fetches=0 / 2000 (under budget); today tokens=0 / 1000000 (under budget)
 [2026-05-03T16:57:51Z] no phase satisfies (approved:true AND complete:false) — idle - awaiting approval
 [2026-05-03T16:57:51Z] tick END — no batch executed; no records written; no commit; awaiting Peter to flip phase_6_retrieval_api or successor approval
+2026-05-03T16:58:15Z	723742e	idle-tick push OK (7bcbb4b..723742e)
+[2026-05-03T17:00:44Z] Phase 6 instructions added to BRIEF.md (lines 52-76); approvals.yaml flipped phase_6_retrieval_api.approved false->true with approval_note per Peter's 2026-05-03 chat instruction. Both edits human-authorised. Worker remains idle this tick (no Phase 6 batch executed); next scheduled tick will pick up Phase 6 batch 1 (proposed: FTS5 schema design + populate).

@@ -49,7 +49,31 @@ Build and maintain a verified, citation-grade corpus of Zambian primary legal au
     - `parser_v<X.Y.Z>_<token>_unhandled` — known parser bug for the current version (e.g., `parser_v0.3.0_jjs_title_unhandled`).
     - `outcome_inferred_but_detail_unsafe` — outcome enum identified but `outcome_detail` failed `_detail_is_safe`.
     - `html_no_summary_pdf_no_match` — neither summary, anchor, nor tail patterns matched anything; raw retained for manual triage.
-- **Phase 6 — Retrieval API.** Build a local SQLite index + FTS5 virtual table over the corpus. Expose a minimal query interface.
+- **Phase 6 — Retrieval API** (`phase_6_retrieval_api`).
+  - **Goal:** Build a search and query layer so Kate Weston specialists can look up statutes, SIs, and judgments from the corpus programmatically. **No web fetches** — works entirely on local data already in `corpus.sqlite` and `records/`.
+  - **Deliverables (4):**
+    1. **FTS5 full-text search index** in `corpus.sqlite`. Rebuild the database with FTS5 virtual tables for acts, SIs, and judgments. Enable prefix search, phrase search, and boolean operators (`AND`, `OR`, `NOT`, `NEAR`). Index the title, citation, body/sections (acts/SIs), and case_name + outcome_detail + reasoning (judgments).
+    2. **Citation graph** — build a cross-reference table linking:
+       - acts that amend/repeal other acts (via `amended_by` / `repealed_by`),
+       - SIs that reference parent acts,
+       - judgments that cite statutes (via `key_statutes`),
+       - judgments that cite other judgments.
+       Schema: `citations(src_id TEXT, dst_id TEXT, relation TEXT, source_field TEXT, PRIMARY KEY(src_id, dst_id, relation))`.
+    3. **Query API script** — `query_corpus.py` exposing the following functions:
+       - `search(query, type=None, court=None, year_from=None, year_to=None) → list[record]`
+       - `get_by_id(record_id) → dict` (full record, all fields)
+       - `citations_of(record_id) → list[record]` (what cites this record)
+       - `cited_by(record_id) → list[record]` (what this record cites)
+       - `judge_profile(judge_name) → dict` (all judgments by this judge with outcome stats)
+       - `statute_interpretation(act_id) → list[record]` (all judgments interpreting this statute)
+    4. **Integration test** — `tests/test_query_corpus.py` validating the API against ≥10 known records covering each function and at least one judgment, one act, and one SI.
+  - **Completion criteria (all must hold):**
+    - All 4 deliverables pass their own integrity checks.
+    - FTS5 index covers 100% of records currently in `corpus.sqlite`.
+    - Citation graph has zero dangling references (every `dst_id` resolves to a real record `id`; unresolved citations are recorded in `gaps.md`, not in the graph).
+    - Query API returns correct results for 10 sample queries — fixed in `tests/test_query_corpus.py` and re-runnable.
+  - **Batch model:** Phase 6 is implementation work, not ingestion. A "batch" here = one bounded unit of build (e.g., "build FTS5 schema + populate", "build citation graph", "implement search()+get_by_id()", etc.). Each tick produces a runnable, integrity-checked unit; batch report under `reports/batch-NNNN.md`.
+  - **Integrity check (Phase 6 scope):** every tick — no schema regressions on existing tables; FTS5 row count == source-table row count; citation graph row count and dangling-ref count both reported; tests that exist continue to pass; new tests added this tick pass.
 - **Phase 7 — Integration brief.** Write `INTEGRATION.md` explaining how the Kate Weston Legal plugin should call the retrieval API and format citations.
 - **Phase 8 — Nightly re-verification.** Sample `sample_rate` of existing records per night, re-fetch, compare hashes, flag drift.
 

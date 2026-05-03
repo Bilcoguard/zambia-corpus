@@ -113,8 +113,9 @@ phases:
       same provenance fields; new judges added to
       judges_registry.yaml as encountered.
   phase_6_retrieval_api:
-    approved: false
+    approved: true
     complete: false
+    approval_note: "Phase 6 approved by Peter 2026-05-03. Build FTS5 search, citation graph, and query API from existing corpus data."
   phase_7_integration_brief:
     approved: false
     complete: false
