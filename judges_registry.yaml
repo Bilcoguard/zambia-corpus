@@ -11,6 +11,14 @@ judges:
   - Chibomba PC
   - Chibomba JJS
   first_seen: '2026-04-30T03:09:01Z'
+- canonical_name: Chinyama
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2026-zmsc-09-kapopo-mutele-patel-v-the-people
+    first_seen_at: '2026-05-03T17:14:01Z'
+  aliases:
+  - Chinyama J
+  first_seen: '2026-05-03T17:14:01Z'
 - canonical_name: Chisunka
   titles:
   - title: JCC
@@ -44,6 +52,34 @@ judges:
   aliases:
   - Chibomba PC Mulenga JC Mulonda JC Musaluke JC Chitambo JC
   first_seen: '2026-04-30T03:10:27Z'
+- canonical_name: Hamaundu
+  titles:
+  - title: JJS
+    first_seen_in: judgment-zm-2025-zmsc-02-davies-chishala-and-anor-v-the-people
+    first_seen_at: '2026-05-03T17:14:01Z'
+  aliases:
+  - Hamaundu JJS
+  first_seen: '2026-05-03T17:14:01Z'
+- canonical_name: Kabuka
+  titles:
+  - title: JJS
+    first_seen_in: judgment-zm-2026-zmsc-06-ventriglia-and-another-v-finance-bank-zambia-limit
+    first_seen_at: '2026-05-03T17:14:01Z'
+  aliases:
+  - Kabuka JJS
+  first_seen: '2026-05-03T17:14:01Z'
+- canonical_name: Kaoma
+  titles:
+  - title: JJS
+    first_seen_in: judgment-zm-2026-zmsc-06-ventriglia-and-another-v-finance-bank-zambia-limit
+    first_seen_at: '2026-05-03T17:14:01Z'
+  - title: J
+    first_seen_in: judgment-zm-2026-zmsc-09-kapopo-mutele-patel-v-the-people
+    first_seen_at: '2026-05-03T17:14:01Z'
+  aliases:
+  - Kaoma JJS
+  - Kaoma J
+  first_seen: '2026-05-03T17:14:01Z'
 - canonical_name: Kawimbe
   titles:
   - title: JCC
@@ -69,6 +105,14 @@ judges:
   aliases:
   - Kawimbe JJC
   first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Malila
+  titles:
+  - title: CJ
+    first_seen_in: judgment-zm-2025-zmsc-02-davies-chishala-and-anor-v-the-people
+    first_seen_at: '2026-05-03T17:14:01Z'
+  aliases:
+  - Malila CJ
+  first_seen: '2026-05-03T17:14:01Z'
 - canonical_name: Mulenga
   titles:
   - title: JC
@@ -202,6 +246,22 @@ judges:
   aliases:
   - Musaluke JJC
   first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Musonda
+  titles:
+  - title: DCJ
+    first_seen_in: judgment-zm-2026-zmsc-06-ventriglia-and-another-v-finance-bank-zambia-limit
+    first_seen_at: '2026-05-03T17:14:01Z'
+  aliases:
+  - Musonda DCJ
+  first_seen: '2026-05-03T17:14:01Z'
+- canonical_name: Mutuna
+  titles:
+  - title: JJS
+    first_seen_in: judgment-zm-2026-zmsc-08-konkola-copper-mines-plc-v-attorney-general-and-or
+    first_seen_at: '2026-05-03T17:14:01Z'
+  aliases:
+  - Mutuna JJS
+  first_seen: '2026-05-03T17:14:01Z'
 - canonical_name: Mwandenga
   titles:
   - title: JCC
@@ -252,6 +312,14 @@ judges:
   - Sitali JJC
   - Sitali JCC
   first_seen: '2026-04-29T16:06:58Z'
+- canonical_name: Wood
+  titles:
+  - title: JJS
+    first_seen_in: judgment-zm-2025-zmsc-03-gillian-kasempa-mutinta-v-new-future-financial-com
+    first_seen_at: '2026-05-03T17:14:01Z'
+  aliases:
+  - Wood JJS
+  first_seen: '2026-05-03T17:14:01Z'
 - canonical_name: Zulu
   titles:
   - title: J

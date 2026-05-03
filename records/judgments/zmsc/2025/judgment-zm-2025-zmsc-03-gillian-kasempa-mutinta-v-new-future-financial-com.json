@@ -1,0 +1,40 @@
+{
+  "id": "judgment-zm-2025-zmsc-03-gillian-kasempa-mutinta-v-new-future-financial-com",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Gillian Kasempa Mutinta v New Future Financial Company Limited and Anor (APPEAL NO.13/2023; SCZ/08/23/2023) [2025] ZMSC 3 (10 January 2025)",
+  "citation": "[2025] ZMSC 3",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Gillian Kasempa Mutinta v New Future Financial Company Limited and Anor",
+  "case_number": "APPEAL NO.13/2023\n          ;\n        \n          SCZ/08/23/2023",
+  "date_decided": "2025-01-10",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kabuka",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    ":["
+  ],
+  "outcome": "overturned",
+  "outcome_detail": "67) Since the conveyance 1s null and void, we set aside the judgment of the Court of Appeal and order that the certificate of",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "f2ef39280cd9b73c5b81ee6d7f9e660944b6b260b1dddb788162067bd0350b7a",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/3/eng@2025-01-10",
+  "source_hash": "sha256:8edc0a4b456eeed8b3a1464d3bc8c08340c9717ff4e43c5d69822a18c770c24d",
+  "fetched_at": "2026-05-03T17:14:01Z",
+  "parser_version": "0.3.2"
+}

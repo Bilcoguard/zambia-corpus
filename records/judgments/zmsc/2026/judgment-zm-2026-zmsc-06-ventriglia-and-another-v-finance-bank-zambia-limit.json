@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2026-zmsc-06-ventriglia-and-another-v-finance-bank-zambia-limit",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Ventriglia and Another v Finance Bank Zambia Limited (SCZ/7/2/2025) [2026] ZMSC 6 (10 March 2026)",
+  "citation": "[2026] ZMSC 6",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Ventriglia and Another v Finance Bank Zambia Limited",
+  "case_number": "SCZ/7/2/2025",
+  "date_decided": "2026-03-10",
+  "judges": [
+    {
+      "name": "Musonda",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kabuka",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Leave to appeal",
+    "procedural requirements for appellate documents",
+    "unsigned Memorandum of Appeal and competence of appeal; Civil procedure",
+    "abuse of court process and joinder of related causes; Contract law",
+    "distinction between performance bonds and personal guarantees; Guarantees",
+    "conditional versus unconditional (on-demand) liability; Rules of Court",
+    "importance of compliance and remedying defects."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "Leave granted to appeal to resolve whether an unsigned memorandum and mischaracterisation of guarantees affected appellate competence and law",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "7081387d0748d838f2d12bd33af4fcda7b8eae8425f6b75b1632ec0d6c6065bf",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2026/6/eng@2026-03-10",
+  "source_hash": "sha256:2a8d4a17b685a1324b07b0773030f6dec15afd76ece28074a2b9a205e8362c69",
+  "fetched_at": "2026-05-03T17:13:57Z",
+  "parser_version": "0.3.2"
+}

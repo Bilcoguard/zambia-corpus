@@ -3472,7 +3472,7 @@ These are surfaced for triage, not deletion. Resolution paths:
 - `id-not-in-corpus` — references a record we haven't ingested yet (typically older or repealed-prior versions); add to ingestion target list when the relevant phase reopens.
 
 
-## Batch 0504 (judgment-ingestion-worker — dedicated scheduled task)
+## Batch 0506 (judgment-ingestion-worker — dedicated scheduled task)
 Tick: 2026-05-03T17:15:05Z
 Worker: judgment-ingestion-worker (separate budget 500/day)
 Parser: v0.3.2 (baseline scripts/batch_0498_parse.py)
@@ -3505,3 +3505,25 @@ Deferred candidates (raw on disk):
   source_url: https://zambialii.org/akn/zm/judgment/zmsc/2025/1/eng@2025-01-15
 
 All three retain raw HTML+PDF on disk for future reparse.
+
+## [2026-05-03] Phase 6 batch 0505 — citation graph dangling references
+
+Built `citations` table from on-disk JSON. 144 resolved citation edges inserted; 93 candidate references could not resolve and were excluded from the graph (Phase 6 completion criterion: zero dangling refs in the graph itself). Full list in `reports/dangling-refs-b0505.md`. Reasons:
+
+- `title-ambiguous`: 74
+- `title-no-match`: 19
+
+These are surfaced for triage, not deletion. Resolution paths:
+- `title-no-match` / `title-ambiguous` on `sis.parent_act` — needs an explicit `parent_act_id` lookup table (titles don't uniquely identify the consolidated Cap. version vs. an annual Act).
+- `id-not-in-corpus` — references a record we haven't ingested yet (typically older or repealed-prior versions); add to ingestion target list when the relevant phase reopens.
+
+## [2026-05-03] Phase 6 batch 0505 — citation graph dangling references
+
+Built `citations` table from on-disk JSON. 143 resolved citation edges inserted; 94 candidate references could not resolve and were excluded from the graph (Phase 6 completion criterion: zero dangling refs in the graph itself). Full list in `reports/dangling-refs-b0505.md`. Reasons:
+
+- `title-ambiguous`: 75
+- `title-no-match`: 19
+
+These are surfaced for triage, not deletion. Resolution paths:
+- `title-no-match` / `title-ambiguous` on `sis.parent_act` — needs an explicit `parent_act_id` lookup table (titles don't uniquely identify the consolidated Cap. version vs. an annual Act).
+- `id-not-in-corpus` — references a record we haven't ingested yet (typically older or repealed-prior versions); add to ingestion target list when the relevant phase reopens.

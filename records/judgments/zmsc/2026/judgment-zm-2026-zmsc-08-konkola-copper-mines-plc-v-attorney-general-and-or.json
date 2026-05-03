@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2026-zmsc-08-konkola-copper-mines-plc-v-attorney-general-and-or",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Konkola Copper Mines Plc v Attorney General and Ors (APPEAL NO. 09/2024) [2026] ZMSC 8 (31 March 2026)",
+  "citation": "[2026] ZMSC 8",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Konkola Copper Mines Plc v Attorney General and Ors",
+  "case_number": "APPEAL NO. 09/2024",
+  "date_decided": "2026-03-31",
+  "judges": [
+    {
+      "name": "Musonda",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Mines and Minerals Development Act",
+    "sections 96 and 97",
+    "mandatory written notice, reasons and right of appeal",
+    "failure to notify precludes invoking 30‑day appeal",
+    "jurisdiction and mode of commencement",
+    "trespass action vs statutory appeal",
+    "remit to High Court"
+  ],
+  "outcome": "remitted",
+  "outcome_detail": "In doing so, we remit the matter back to",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "62ef7996dbf7ba52b3de65edea5a3202808f244ed34e94b8593643dadd9d8ebb",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2026/8/eng@2026-03-31",
+  "source_hash": "sha256:4d5cce4903aa017bb9404a67666482b1f7dd6026f31770efa0c00bcac68af2c9",
+  "fetched_at": "2026-05-03T17:13:58Z",
+  "parser_version": "0.3.2"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2025-zmsc-02-davies-chishala-and-anor-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Davies Chishala and Anor v The People (APPEAL NOs. 15,16/2021; APPEAL NOs. 15,16/2021) [2025] ZMSC 2 (16 January 2025)",
+  "citation": "[2025] ZMSC 2",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Davies Chishala and Anor v The People",
+  "case_number": "APPEAL NOs. 15,16/2021\n          ;\n        \n          APPEAL NOs. 15,16/2021",
+  "date_decided": "2025-01-16",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Hamaundu",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "Murder",
+    "Admissibility of hostile witness's prior inconsistent statement",
+    "res gestae and hearsay",
+    "suspect witnesses and corroboration",
+    "causation between assault and death",
+    "burden of proof beyond reasonable doubt."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "2 Consequently, we find merit in this appeal and we allow it",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "ee61e8a51f6447ddc179b7b6920f2dd3c3d6fe33e684c24746ece0b42b88d17a",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/2/eng@2025-01-16",
+  "source_hash": "sha256:fb131eff181937d6cb4183ede85eeb394d520c422bd27bd4e3b233b9d76dfadf",
+  "fetched_at": "2026-05-03T17:14:00Z",
+  "parser_version": "0.3.2"
+}

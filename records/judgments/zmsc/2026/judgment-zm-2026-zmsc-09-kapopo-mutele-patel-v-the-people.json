@@ -1,0 +1,42 @@
+{
+  "id": "judgment-zm-2026-zmsc-09-kapopo-mutele-patel-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Kapopo Mutele Patel v The People (SCZ APPEAL NO. 38 OF 2021) [2026] ZMSC 9 (16 April 2026)",
+  "citation": "[2026] ZMSC 9",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Kapopo Mutele Patel v The People",
+  "case_number": "SCZ APPEAL NO. 38 OF 2021",
+  "date_decided": "2026-04-16",
+  "judges": [
+    {
+      "name": "Chinyama",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musonda",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "recognition/identification evidence",
+    "factors: familiarity, lighting, distance and opportunity; corroboration of recognition; warn-and-caution statement not on record; non-production of physical evidence"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Recognition by familiar witnesses and corroboration upheld the murder conviction; appeal dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "a5cb544591b459bf590c87879a3edcab666fa7a3f02ea1a9f263eef57bd5490f",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2026/9/eng@2026-04-16",
+  "source_hash": "sha256:99e139f0474a21d9a7ea084d97042de498fed631cdc005473667f4c22e56e5ed",
+  "fetched_at": "2026-05-03T17:13:59Z",
+  "parser_version": "0.3.2"
+}
