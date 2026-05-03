@@ -3421,3 +3421,4 @@ raw_persisted judgment-zm-2025-zmcc-27-munir-zuu-and-anor-v-attorney-general-and
 2026-05-03T01:37:51Z  batch-0475  audit-only  records_written=0  records_deferred=0  raw_files=3203  raw_unique_sha256=2926  source_hash_resolution=78/78  parser_version=0.3.1
 2026-05-03T02:37:35Z  batch-0476  audit-only  records_written=0  records_deferred=0  reparse_inventory_exhausted  pull_recovery=orphan-ref-b0475_post3-healed-with-f937e42
 2026-05-03T03:06:48Z  batch-0477  audit-only  records_written=0  records_deferred=0  reparse_inventory_exhausted  pull_recovery=orphan-refs-broadened-sweep-healed-main.lock.bak.b0476_retry1+sibling-lock+test_z-probe-with-d528625
+2026-05-03T03:35:17Z  batch-0478  audit-only  records_written=0  records_deferred=0  reparse_inventory_exhausted  pull_recovery=none-clean-pull
