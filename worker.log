@@ -5375,3 +5375,9 @@ The accumulating .lock.bak files in .git/refs/heads/ and .git/refs/remotes/origi
 [2026-05-03T14:36:58Z] batch-0499 integrity check PASS (Phase 5 scope): 97/97 unique IDs, 97/97 provenance complete, 97/97 source_hash shape valid, 97/97 source_hash resolves into raw/ tree (3203 files / 2926 unique sha256), 0 unresolved cross-refs, spot recompute seed=499 6/6 PASS
 [2026-05-03T14:36:58Z] batch-0499 tick-end written=0 deferred=0 integrity=PASS note=audit-only-1st-tick-post-v0.3.2-formal-exhaustion-five-consecutive-zero-counter-0->1-phase-5-progress-97-of-100-160-approvals.yaml-unchanged-per-human-only-confirmation-rule
 2026-05-03T14:36:58Z	batch-0499	B2 sync deferred to host (rclone not in sandbox)
+2026-05-03T14:38:30Z	18298d1	batch-0499 push OK (c66b4e7..18298d1)
+2026-05-03T14:38:30Z	batch-0499 commit 18298d1 pushed cleanly to origin/main; HEAD verified. Tick complete.
+[2026-05-03T15:09:03Z] batch-0500 START — Phase 5 audit-only zero-yield tick (2nd post-v0.3.2-exhaustion); first-try git pull --ff-only OK; reparse-first inventory unchanged from b0499 (70 ZMCC raw-on-disk-no-record, all v0.3.2-deferred — confirmed by recomputation this tick); no fetches, no records written
+[2026-05-03T15:09:03Z] batch-0500 integrity check PASS (Phase 5 scope): 97/97 unique IDs, 97/97 core provenance complete, 97/97 source_hash shape valid, 97/97 source_hash resolves into raw/ tree (3203 files / 2926 unique sha256), 0 unresolved cross-refs, spot recompute seed=500 6/6 PASS
+[2026-05-03T15:09:03Z] batch-0500 tick-end written=0 deferred=0 integrity=PASS note=audit-only-2nd-tick-post-v0.3.2-formal-exhaustion-five-consecutive-zero-counter-1->2-phase-5-progress-97-of-100-160-approvals.yaml-unchanged-per-human-only-confirmation-rule
+2026-05-03T15:09:03Z	batch-0500	B2 sync deferred to host (rclone not in sandbox)
