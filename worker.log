@@ -5266,3 +5266,5 @@ Tick stopped per non-negotiables. No batch run, no commit, no push.
 2026-05-03T07:33:33Z	batch-0486	integrity check PASS (78/78 ids unique; 78/78 provenance; 78/78 source_hash resolves; 6/6 spot-recompute seed=486; raw 3203 files / 2926 unique sha256)
 2026-05-03T07:33:33Z	batch-0486	Phase 5 appears complete, awaiting human confirmation
 2026-05-03T07:33:33Z	batch-0486	B2 sync deferred to host (rclone not in sandbox)
+2026-05-03T07:34:30Z	cc25dc5	batch-0486 push OK (d8a43d2..cc25dc5)
+2026-05-03T07:34:30Z	batch-0486 B2 sync deferred to host (rclone not in sandbox)
