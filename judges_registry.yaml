@@ -168,10 +168,14 @@ judges:
   - title: JJC
     first_seen_in: judgment-zm-2021-zmcc-20-autry-chanda-v-the-attorney-general
     first_seen_at: '2026-04-29T21:08:48Z'
+  - title: DPC
+    first_seen_in: judgment-zm-2023-zmcc-16-institute-of-law-policy-research-and-human-rights
+    first_seen_at: '2026-05-03T13:57:35Z'
   aliases:
   - Munalula PC
   - Munalula JCC
   - Munalula JJC
+  - Munalula DPC
   first_seen: '2026-04-29T13:10:17Z'
 - canonical_name: Musaluke
   titles:

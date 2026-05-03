@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2023-zmcc-14-martin-chilukwa-v-the-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Martin Chilukwa v The Attorney General (2022/CCZ/0030) [2023] ZMCC 14 (10 March 2023)",
+  "citation": "[2023] ZMCC 14",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Martin Chilukwa v The Attorney General",
+  "case_number": "2022/CCZ/0030",
+  "date_decided": "2023-03-10",
+  "judges": [
+    {
+      "name": "Mulonda",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional jurisdiction (Article 128)",
+    "National values (Articles 8 & 9) not independently justiciable",
+    "Public service values (Article 173) and qualification requirement (Article 259) require evidence",
+    "Employment/transfer/allowance disputes outside Constitutional Court jurisdiction",
+    "Burden of proof for alleging constitutional contravention."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Challenge to DC appointments dismissed for lack of evidence and because employment-related claims lie outside Constitutional Court jurisdiction",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "ac53d626dcc631188cea8d6e81454948bd3c196eb98ed149ba49fbdfbf3451bb",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/14/eng@2023-03-10",
+  "source_hash": "sha256:56f73770f593921519132af8d7bd8fb25cbe3ee81bfc53d27985385777920377",
+  "fetched_at": "2026-05-03T13:57:28Z",
+  "parser_version": "0.3.2"
+}

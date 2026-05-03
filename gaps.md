@@ -1588,11 +1588,14 @@ written. Re-parse on next parser_version bump.
 - `zmcc 2023/19` — outcome not inferable under v0.3.0; raw on disk; summary head: "Constitutional Court lacks jurisdiction over redundancy-related salary and damages claims; Industrial Relations Division is competent."
 - `zmcc 2023/18` — outcome not inferable under v0.3.0; raw on disk; summary head: "A district council election can only be annulled by a petition founded on Section 97 of the Electoral Process Act."
 - `zmcc 2023/16` — outcome not inferable under v0.3.0; raw on disk; summary head: "Constitutional Court lacked jurisdiction to entertain a petition challenging nominations and rescinding resignations in parliamentary by-elections."
+  - RESOLVED in batch-0497 (parser_v0.3.2, 2026-05-03) — outcome `dismissed`, detail "On that account we dismiss the petition" via the `pdf-tail-2pages` v0.3.2-tail "we dismiss" active-voice operative-verb pattern. Record ID: `judgment-zm-2023-zmcc-16-institute-of-law-policy-research-and-human-rights`.
 - `zmcc 2023/15` — outcome not inferable under v0.3.0; raw on disk; summary head: "Whether the JCC can investigate pre-appointment misconduct and whether failure to follow Article 144 suspension procedure nullifies removal."
   - RESOLVED in batch-0366 (parser_v0.3.1, 2026-04-30) — outcome `dismissed`, detail "30] In sum, the Petition fails for the reasons advanced herein" via the `pdf-tail-2pages` numbered-active-voice "Petition fails" pattern. Record ID: `judgment-zm-2023-zmcc-15-joshua-ndipyola-banda-v-attorney-general`.
 - `zmcc 2023/14` — outcome not inferable under v0.3.0; raw on disk; summary head: "Challenge to DC appointments dismissed for lack of evidence and because employment-related claims lie outside Constitutional Court jurisdiction."
+  - RESOLVED in batch-0497 (parser_v0.3.2, 2026-05-03) — outcome `dismissed`, detail "Challenge to DC appointments dismissed for lack of evidence and because employment-related claims lie outside Constitutional Court jurisdiction" via the v0.3.2 SUMMARY pattern (`(?:application|petition|appeal|challenge)` is dismissed/refused/granted family). Record ID: `judgment-zm-2023-zmcc-14-martin-chilukwa-v-the-attorney-general`.
 - `zmcc 2023/13` — outcome not inferable under v0.3.0; raw on disk; summary head: "AG not required to prosecute JCC complaints; JCC procedure and President’s suspension/removal of DPP were lawful."
 - `zmcc 2023/12` — outcome not inferable under v0.3.0; raw on disk; summary head: "Article 165 is prospective; Constitutional Court lacks jurisdiction to decide ordinary chieftaincy succession disputes."
+  - RECONFIRMED-DEFERRED in batch-0497 (parser_v0.3.2, 2026-05-03) — `html_no_summary_pdf_no_match`. Re-tested under v0.3.2 widened SUMMARY_PATTERNS_V032, PDF_TAIL_PATTERNS_V032, and ORDER_INTRO window-scan; no match. Holding-style summary head with no operative disposition verb in either summary or PDF tail (last 2 pages / 10000-char fallback) under the current parser pattern pools.
 
 ## batch-0354 (Phase 5 ZMCC 2023 sweep continuation, 2026-04-29)
 
@@ -1605,10 +1608,15 @@ Six ZMCC 2023 candidates deferred under `outcome_not_inferable_under_tightened_p
 
 - `zmcc 2023/10` — outcome not inferable under v0.3.0; raw on disk; summary head: "Court held no mandatory advertising of judicial vacancies but requires human rights or constitutional law training/experience for Constitutional Court judges."
 - `zmcc 2023/8` — outcome not inferable under v0.3.0; raw on disk; summary head: "Retirement in national interest triggers Article 189 protections; payroll-based allowances payable, but NAPSA eligibility rules remain valid."
+  - RECONFIRMED-DEFERRED in batch-0497 (parser_v0.3.2, 2026-05-03) — `html_no_summary_pdf_no_match`. Re-tested under v0.3.2 widened SUMMARY_PATTERNS_V032, PDF_TAIL_PATTERNS_V032, and ORDER_INTRO window-scan; no match. Holding-style summary head with no operative disposition verb in either summary or PDF tail (last 2 pages / 10000-char fallback) under the current parser pattern pools.
 - `zmcc 2023/6` — outcome not inferable under v0.3.0; raw on disk; summary head: "Court finds State has not fully implemented judicial financial autonomy but declines to void transitional emoluments provisions."
+  - RECONFIRMED-DEFERRED in batch-0497 (parser_v0.3.2, 2026-05-03) — `html_no_summary_pdf_no_match`. Re-tested under v0.3.2 widened SUMMARY_PATTERNS_V032, PDF_TAIL_PATTERNS_V032, and ORDER_INTRO window-scan; no match. Holding-style summary head with no operative disposition verb in either summary or PDF tail (last 2 pages / 10000-char fallback) under the current parser pattern pools.
 - `zmcc 2023/5` — outcome not inferable under v0.3.0; raw on disk; summary head: "Article 52(6) does not permit independent candidates to withdraw after nominations; ECZ cancels only for party candidate resignation, death or disqualification."
+  - RECONFIRMED-DEFERRED in batch-0497 (parser_v0.3.2, 2026-05-03) — `html_no_summary_pdf_no_match`. Re-tested under v0.3.2 widened SUMMARY_PATTERNS_V032, PDF_TAIL_PATTERNS_V032, and ORDER_INTRO window-scan; no match. Holding-style summary head with no operative disposition verb in either summary or PDF tail (last 2 pages / 10000-char fallback) under the current parser pattern pools.
 - `zmcc 2023/4` — outcome not inferable under v0.3.0; raw on disk; summary head: "Local authorities qualify as "persons" under Article 266; Article 160 mandates one‑year immunity against enforcement; other issues non‑constitutional."
+  - RECONFIRMED-DEFERRED in batch-0497 (parser_v0.3.2, 2026-05-03) — `html_no_summary_pdf_no_match`. Re-tested under v0.3.2 widened SUMMARY_PATTERNS_V032, PDF_TAIL_PATTERNS_V032, and ORDER_INTRO window-scan; no match. Holding-style summary head with no operative disposition verb in either summary or PDF tail (last 2 pages / 10000-char fallback) under the current parser pattern pools.
 - `zmcc 2023/3` — outcome not inferable under v0.3.0; raw on disk; summary head: "Whether vacancies caused by nullification of an election fall within Article 72(4)'s ban on re-contesting during that Parliament."
+  - RECONFIRMED-DEFERRED in batch-0497 (parser_v0.3.2, 2026-05-03) — `html_no_summary_pdf_no_match`. Re-tested under v0.3.2 widened SUMMARY_PATTERNS_V032, PDF_TAIL_PATTERNS_V032, and ORDER_INTRO window-scan; no match. Holding-style summary head with no operative disposition verb in either summary or PDF tail (last 2 pages / 10000-char fallback) under the current parser pattern pools.
 - `zmcc 2022/34` — outcome not inferable under v0.3.0; raw on disk; summary head: "An election may only be annulled where widespread malpractice by the candidate or agents is proved to a high degree of convincing clarity."
 - `zmcc 2022/33` — outcome not inferable under v0.3.0; raw on disk; summary head: "Appellate court reversed nullification: petitioners failed to prove widespread, high-standard electoral malpractice and some agent-attributions were unsupported."
 - `zmcc 2022/32` — outcome not inferable under v0.3.0; raw on disk; summary head: "A renewed application from a single-judge ruling must be by summons; improperly commenced motion dismissed, corrected record ordered."
@@ -3176,3 +3184,129 @@ UN-FIRED (b0494 zero, b0495 wrote 1, b0496 wrote 1 — counter at 0).
 ZMSC older-year sweep remains pending Peter's URL pattern
 confirmation per `approvals.yaml.zmsc_older_year_sweep_approval_note`;
 not actionable by scheduled tick until that confirmation lands.
+
+## Batch 0497 (2026-05-03T13:57Z, parser_v0.3.2 reparse — ZMCC 2023 DESC continuation)
+
+Slice: ZMCC 2023/{16, 14, 12, 8, 6, 5, 4, 3} — the remaining 8
+raw-on-disk no-record candidates in the ZMCC 2023 reparse-first
+inventory. Continues the ZMCC 2023 sweep started in batch-0496
+(b0496 covered {27..18}). Together b0496+b0497 formally exhaust the
+ZMCC 2023 v0.3.2 reparse-first inventory.
+
+Records written this tick: 2 (zmcc/2023/{16, 14}). Records deferred:
+6 (zmcc/2023/{12, 8, 6, 5, 4, 3}, all `html_no_summary_pdf_no_match`).
+
+### Resolutions
+
+- **[2023] ZMCC 16** (Institute of Law, Policy Research and Human
+  Rights and Ors v Electoral Commission of Zambia and Ors,
+  2023-07-11) — outcome `dismissed`, detail "On that account we
+  dismiss the petition" via `pdf-tail-2pages[v032-tail:we dismiss]`.
+  Three-judge bench: Munalula DPC (presiding), Mulonda JJC,
+  Chisunka JJC. All three resolve in `judges_registry.yaml` as
+  existing canonical entries. Record ID:
+  `judgment-zm-2023-zmcc-16-institute-of-law-policy-research-and-human-rights`.
+  Source URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2023/16/eng@2023-07-11.
+
+- **[2023] ZMCC 14** (Martin Chilukwa v The Attorney General,
+  2023-03-10) — outcome `dismissed`, detail "Challenge to DC
+  appointments dismissed for lack of evidence and because
+  employment-related claims lie outside Constitutional Court
+  jurisdiction" via the v0.3.2 SUMMARY pattern
+  `(?:application|petition|appeal|challenge)` is dismissed/refused
+  family — a Peter-targeted regex addition from the 2026-05-03
+  widening (`is dismissed` form). Three-judge bench: Mulonda JJC
+  (presiding), Musaluke JJC, Chisunka JJC. All three resolve as
+  existing canonical entries. Record ID:
+  `judgment-zm-2023-zmcc-14-martin-chilukwa-v-the-attorney-general`.
+  Source URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2023/14/eng@2023-03-10.
+
+### Deferrals (specific reason codes only)
+
+All six `html_no_summary_pdf_no_match` re-confirmations under
+v0.3.2 SUMMARY_PATTERNS_V032, PDF_TAIL_PATTERNS_V032 and
+ORDER_INTRO window-scan:
+
+- **[2023] ZMCC 12** (Mutambo v The Attorney General, 2023-09-26) —
+  declaratory holding on Article 165 (prospective) plus
+  jurisdictional bar on chieftaincy succession; no operative
+  disposition verb.
+- **[2023] ZMCC 8** (Mwiinde v Attorney General and National
+  Pensions Scheme Authority, 2023-04-21) — declaratory mixed
+  holding on Article 189 protections and NAPSA eligibility; no
+  case-level disposition token.
+- **[2023] ZMCC 6** (Sangwa v Attorney General and Law Association
+  of Zambia, 2023-03-08) — declaratory holding-style summary on
+  judicial financial autonomy with subordinate-clause "declines to
+  void"; outside operative-disposition pattern pools.
+- **[2023] ZMCC 5** (Governance Elections Advocacy Research
+  Services Initiative Zambia v Attorney General, 2023-03-08) —
+  declaratory interpretive holding on Article 52(6); no
+  disposition verb.
+- **[2023] ZMCC 4** (Ikelenge Town Council v National Pension
+  Scheme Authority, 2023-02-09) — declaratory holding on Article
+  266 / Article 160 immunity; no operative case-level disposition
+  token.
+- **[2023] ZMCC 3** (Malanji and Anor v Attorney General and Anor,
+  2023-02-08) — issue-style summary head ("Whether vacancies
+  caused by nullification … fall within Article 72(4)'s ban …");
+  pure question framing with no disposition token.
+
+### Records / inventory accounting
+
+- Records on disk before tick: 94 (per b0496 worker.log)
+- Records on disk after tick: 96
+- Phase 5 progress: 94 → 96 (target 100–160 landmark judgments;
+  4 short of low end)
+- Five-consecutive-zero-discovery counter: RESET to 0
+  (b0494 zero, b0495 wrote 1, b0496 wrote 1, b0497 wrote 2)
+
+### ZMCC 2023 v0.3.2 reparse-first inventory now formally exhausted
+
+After b0496 (8 candidates: {27,26,25,23,21,20,19,18}; 1 written, 7
+deferred) and b0497 (8 candidates: {16,14,12,8,6,5,4,3}; 2 written,
+6 deferred), the ZMCC 2023 raw-on-disk no-record DESC inventory
+under v0.3.2 is FORMALLY EXHAUSTED. Remaining ZMCC 2023 no-record
+candidates that are NOT addressable by reparse: `zmcc 2023/17` (PDF
+404 at source — hard upstream gap, see batch-0353), `zmcc 2023/11`
+and `zmcc 2023/9` (HTTP 404 at source — number not assigned
+upstream, see batch-0354).
+
+### v0.3.2 cumulative yield update
+
+| Batch | Cohort | Written | Attempted | Yield |
+|-------|--------|---------|-----------|-------|
+| 0488  | ZMCC 2022 (DESC entry) | 2 | 8 | 25.0% |
+| 0489  | ZMCC 2022 (DESC continuation) | 3 | 8 | 37.5% |
+| 0490  | ZMCC 2022 (DESC completion) | 6 | 8 | 75.0% |
+| 0491  | ZMCC 2022 (html_no_summary slice) | 0 | 8 | 0.0% |
+| 0492  | ZMCC 2024 (num-ASC pivot) | 0 | 8 | 0.0% |
+| 0493  | ZMCC 2025 (DESC pivot) | 3 | 8 | 37.5% |
+| 0494  | ZMCC 2025 (DESC continuation) | 0 | 8 | 0.0% |
+| 0495  | ZMCC 2025 (DESC finisher) | 1 | 3 | 33.3% |
+| 0496  | ZMCC 2023 (DESC entry) | 1 | 8 | 12.5% |
+| 0497  | ZMCC 2023 (DESC continuation/finisher) | 2 | 8 | 25.0% |
+
+Across b0488..b0497: **18 records / 75 attempted = 24.0%** under
+parser_v0.3.2.
+
+### Next-tick recommendation
+
+ZMCC 2023 reparse-first inventory is now formally exhausted under
+v0.3.2. Pivot options for the next tick (in expected-yield order):
+
+1. **ZMCC 2026 untested-under-v0.3.2** (11 candidates per b0496's
+   forward-looking accounting) — most recent cohort, likely contains
+   v0.3.2-addressable phrases.
+2. **ZMCC 2021 untested-under-v0.3.2** (18 candidates) — older cohort
+   with mixed disposition styles; expect some v0.3.2 SUMMARY hits.
+3. **ZMSC older-year sweep** — option (3) — remains pending Peter's
+   URL pattern confirmation per
+   `approvals.yaml.zmsc_older_year_sweep_approval_note`; not
+   actionable by scheduled tick until that confirmation lands.
+
+Five-consecutive-zero-discovery completion criterion remains
+UN-FIRED. approvals.yaml NOT modified per Phase 5 human-only
+confirmation rule.

@@ -5356,3 +5356,13 @@ The accumulating .lock.bak files in .git/refs/heads/ and .git/refs/remotes/origi
 [2026-05-03T13:39:47Z] batch-0496 integrity check PASS: scripts/integrity_check_b0496.py reports INTEGRITY CHECK: PASS (1 record(s))
 [2026-05-03T13:39:47Z] batch-0496 gaps.md: 7 RECONFIRMED-DEFERRED notes appended under original batch-0365/0366 entries (zmcc/2023/{27,26,25,23,21,20,18}) and 1 RESOLVED note appended under zmcc/2023/19 entry; new ## Batch 0496 section appended at end of file; no deletions per audit policy
 [2026-05-03T13:39:47Z] batch-0496 B2 sync deferred to host (rclone not in sandbox)
+2026-05-03T13:41:05Z 946a5c1 batch-0496 push OK (ae74a0f..946a5c1)
+2026-05-03T13:41:05Z batch-0496 SQLite ingestion deferred (FTS5 malformed-disk-image carry-forward — corpus.sqlite read-fails 'database disk image is malformed' under sandbox virtiofs; same condition observed since b0474; no new corruption introduced; host-side rebuild required before next FTS query)
+2026-05-03T13:41:05Z batch-0496 commit 946a5c1 pushed cleanly to origin/main; HEAD verified. Tick complete. Phase 5 progress 93->94 (target 100-160).
+[2026-05-03T14:01:43Z] batch-0497 START — Phase 5 v0.3.2 reparse continuation, ZMCC 2023 DESC continuation/finisher (per b0496 next-tick recommendation)
+[2026-05-03T14:01:43Z] batch-0497 parser_v0.3.2 run complete: 8 targets / 2 written (zmcc/2023/16, zmcc/2023/14) / 6 deferred (zmcc/2023/{12,8,6,5,4,3} all html_no_summary_pdf_no_match — re-confirmed under v0.3.2)
+[2026-05-03T14:01:43Z] batch-0497 integrity check PASS: scripts/integrity_check_b0497.py reports INTEGRITY CHECK: PASS (2 record(s))
+[2026-05-03T14:01:43Z] batch-0497 gaps.md: 6 RECONFIRMED-DEFERRED notes appended under original batch-0353/0354 entries (zmcc/2023/{12,8,6,5,4,3}); 2 RESOLVED notes appended under batch-0353 entries for zmcc/2023/{16,14}; new ## Batch 0497 section appended at end of file; no deletions per audit policy
+[2026-05-03T14:01:43Z] batch-0497 Phase 5 progress 94 -> 96 (target 100-160; 4 short of low end). Cumulative v0.3.2 yield (b0488..b0497): 18 records / 75 attempted = 24.0%. Five-consecutive-zero-discovery completion criterion remains UN-FIRED. approvals.yaml NOT modified per Phase 5 human-only confirmation rule.
+[2026-05-03T14:01:43Z] batch-0497 ZMCC 2023 v0.3.2 reparse-first inventory now FORMALLY EXHAUSTED (b0496+b0497 combined: 3 written / 16 attempted = 18.75%; remaining ZMCC 2023 no-record candidates are upstream-404 hard gaps {17, 11, 9})
+[2026-05-03T14:01:43Z] batch-0497 B2 sync deferred to host (rclone not in sandbox)
