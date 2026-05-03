@@ -5605,3 +5605,6 @@
 2026-05-03T12:11:14Z 714b541 batch-0494 push OK
 2026-05-03T12:11:14Z batch-0494 B2 sync deferred to host (rclone not in sandbox)
 2026-05-03T13:18:02Z	batch-0495	fetches=0	records_written=1	records_deferred=2	cumulative_today=0/2000	reason=parser_v0.3.2-eighth-reparse-pass-zmcc-2025-DESC-finisher-{6,5,2}-yield-1-of-3-33pct-zmcc-2025-inventory-now-formally-exhausted-under-v0.3.2-we-dismiss-v032-tail-hit-on-zmcc-2025-02
+2026-05-03T13:19:09Z	ae74a0f	batch-0495 push OK
+2026-05-03T13:19:09Z	batch-0495 B2 sync deferred to host (rclone not in sandbox)
+2026-05-03T13:39:47Z	batch-0496	fetches=0	records_written=1	records_deferred=7	cumulative_today=0/2000	reason=parser_v0.3.2-ninth-reparse-pass-pivot-from-zmcc-2025-formally-exhausted-to-zmcc-2023-DESC-entry-{27,26,25,23,21,20,19,18}-yield-1-of-8-12.5pct-we-dismiss-v032-tail-hit-on-zmcc-2023-19-tresford-mubanga-v-zesco

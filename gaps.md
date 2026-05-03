@@ -2193,6 +2193,7 @@ PDF_ORDER_ANCHORS, and PDF_TAIL_PATTERNS without a safe match.
   present but in originating-summons subject/qualifier framing
   not covered by SUMMARY_PATTERNS lexicon; PDF tail no match. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2023/27/eng@2023-08-03.
+  - RECONFIRMED-DEFERRED in batch-0496 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; the bare "dismissed" token applied to an originating-summons subject ("originating-summons challenge … was dismissed as personalised, contentious and outside Constitutional Court jurisdiction") still falls outside both v0.3.2 and v0.3.1 SUMMARY/TAIL pattern pools — neither vocabulary covers an "originating-summons … dismissed" subject framing. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2023] ZMCC 26** (Milingo Lungu v The Attorney General and
   Anor, 2023-12-16). Reason: `html_no_summary_pdf_no_match`.
@@ -2201,6 +2202,7 @@ PDF_ORDER_ANCHORS, and PDF_TAIL_PATTERNS without a safe match.
   Procedural ruling on amendment-leave with no recognised
   disposition token; PDF tail no match. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2023/26/eng@2023-12-16.
+  - RECONFIRMED-DEFERRED in batch-0496 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; "leave to amend was limited" / "additional amendments were disallowed" procedural-amendment ruling lacks any operative case-level disposition verb in either v0.3.2 or v0.3.1 patterns. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2023] ZMCC 25** (Sean Tembo v The Attorney General,
   2023-12-08). Reason: `html_no_summary_pdf_no_match`. Summary
@@ -2209,6 +2211,7 @@ PDF_ORDER_ANCHORS, and PDF_TAIL_PATTERNS without a safe match.
   under Article 128." Issue-style summary head; PDF tail no match.
   URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2023/25/eng@2023-12-08.
+  - RECONFIRMED-DEFERRED in batch-0496 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; issue-style summary head ("Whether the President's non-occupation of the official residence breached public-finance principles and was justiciable under Article 128") carries no disposition token; PDF tail no v0.3.2 / v0.3.1 SUMMARY or TAIL match. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2023] ZMCC 23** (Milingo Lungu v The Attorney General and
   Anor, 2023-11-07). Reason: `html_no_summary_pdf_no_match`.
@@ -2217,6 +2220,7 @@ PDF_ORDER_ANCHORS, and PDF_TAIL_PATTERNS without a safe match.
   is an administrative matter." Recusal-rebuttal ruling with no
   recognised disposition token; PDF tail no match. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2023/23/eng@2023-11-07.
+  - RECONFIRMED-DEFERRED in batch-0496 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; "Advocate's participation in a separate closed matter did not rebut judges' impartiality; panel reconstitution is an administrative matter" recusal-rebuttal holding has no recognised disposition verb in either v0.3.2 or v0.3.1 patterns. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 These five can be re-attempted in a future tick if either (a) the
 SUMMARY_PATTERNS / PDF_TAIL_PATTERNS lexicon is widened to recognise
@@ -2272,6 +2276,7 @@ PDF_TAIL_PATTERNS without a safe match.
   litigation may be awarded only for frivolous, vexatious, or
   abusive conduct." Issue/holding-style summary; PDF tail no match.
   URL: https://zambialii.org/akn/zm/judgment/zmcc/2023/21/eng@2023-10-27.
+  - RECONFIRMED-DEFERRED in batch-0496 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; constitutional-validity holding ("Section 30 CCA is constitutional; costs in constitutional litigation may be awarded only for frivolous, vexatious, or abusive conduct") lacks any operative disposition verb in either v0.3.2 or v0.3.1 patterns. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2023] ZMCC 20** (Leslie Mbula v Attorney General and Anor,
   2023-10-26). Reason: `html_no_summary_pdf_no_match`. Summary head:
@@ -2281,6 +2286,7 @@ PDF_TAIL_PATTERNS without a safe match.
   a subordinate-clause context that does not match the operative
   SUMMARY_PATTERNS lexicon; PDF tail no match. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2023/20/eng@2023-10-26.
+  - RECONFIRMED-DEFERRED in batch-0496 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; the token "dismissed" appears in subordinate-clause context ("originating summons was unsuitable and dismissed") which still falls outside both v0.3.2 and v0.3.1 SUMMARY/TAIL operative-disposition pattern pools. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2023] ZMCC 19** (Tresford Mubanga v ZESCO Limited,
   2023-10-26). Reason: `html_no_summary_pdf_no_match`. Summary head:
@@ -2288,6 +2294,7 @@ PDF_TAIL_PATTERNS without a safe match.
   salary and damages claims; Industrial Relations Division is
   competent." Pure-jurisdiction holding summary; PDF tail no match.
   URL: https://zambialii.org/akn/zm/judgment/zmcc/2023/19/eng@2023-10-26.
+  - RESOLVED in batch-0496 (parser_v0.3.2, 2026-05-03) — outcome `dismissed`, detail "merit in question one of the Respondent's application and we dismiss the Petition accordingly" via the `pdf-tail-2pages` v032-tail "we dismiss" active-voice operative verb (one of the 24 explicit phrases Peter listed in the 2026-05-03 v0.3.2 widening). Record ID: `judgment-zm-2023-zmcc-19-tresford-mubanga-v-zesco-limited`. Three-judge bench (Sitali presiding, Musaluke, Chisunka concurring) — all three already resolved in `judges_registry.yaml`; no new aliases added. Supersedes the b0366 `html_no_summary_pdf_no_match` deferral.
 
 - **[2023] ZMCC 18** (Patrick Banda v The Electoral Commission and
   Ors, 2023-10-02). Reason: `html_no_summary_pdf_no_match`. Summary
@@ -2296,6 +2303,7 @@ PDF_TAIL_PATTERNS without a safe match.
   Holding-only summary, no recognised disposition token; PDF tail
   no match. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2023/18/eng@2023-10-02.
+  - RECONFIRMED-DEFERRED in batch-0496 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; pure holding-style summary ("A district council election can only be annulled by a petition founded on Section 97 of the Electoral Process Act") has no recognised disposition token in either v0.3.2 or v0.3.1 patterns. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2023] ZMCC 16** (Institute of Law, Policy Research and Human
   Rights, 2023-07-11). Reason: `html_no_summary_pdf_no_match`.
@@ -3110,3 +3118,61 @@ five-consecutive-zero-discovery completion criterion remains
 UN-FIRED (b0488/0489/0490 wrote, b0491/0492 zero, b0493 wrote,
 b0494 zero — counter currently at 1).
 
+
+## Batch 0496 — REPARSE PASS continuation under parser_v0.3.2, ZMCC 2023 DESC pivot (2026-05-03)
+
+Reparse-first triage continuation per `approvals.yaml` `reparse_first`
+policy. Per b0495's next-tick recommendation (option 2): pivoted from
+the now-formally-exhausted ZMCC 2025 v0.3.2 reparse-first inventory
+to the ZMCC 2023 cohort. Eight ZMCC 2023 raw HTML+PDF pairs already
+on disk (the year-DESC entry slice into the ZMCC 2023 backlog) were
+re-run against the parser_v0.3.2 baseline (`scripts/batch_0496_parse.py`,
+copied from `scripts/batch_0495_parse.py` with only `_work` directory
++ docstring batch reference updated — parser body unchanged, baseline
+remains `scripts/batch_0488_parse.py` per approvals.yaml). Zero fresh
+fetches.
+
+Targeted slice (ZMCC 2023 untested-under-v0.3.2, num-DESC entry):
+`zmcc/2023/{27, 26, 25, 23, 21, 20, 19, 18}`. Records written: 1
+(`zmcc/2023/19` — Tresford Mubanga v Zesco Limited; outcome
+`dismissed` via `pdf-tail-2pages` v032-tail "we dismiss" active-voice
+operative verb). Records deferred: 7, all `html_no_summary_pdf_no_match`
+(re-confirmation under v0.3.2 — same declaratory / interpretive /
+holding-style cohort that has been resistant across both v0.3.1 and
+v0.3.2 widening; subject framings include originating-summons,
+amendment-leave, justiciability-issue, recusal-rebuttal,
+constitutional-validity, electoral-petition).
+
+### Resolved (raw retained per audit policy)
+
+See cross-reference on the original deferred entry above for
+`zmcc/2023/19`.
+
+### Cumulative v0.3.2 yield
+
+Across b0488..b0496: **16 records written / 67 attempted = 23.9%**.
+
+| Batch | Cohort | Written | Attempted | Yield | Profile |
+|-------|--------|---------|-----------|-------|---------|
+| 0488  | ZMCC 2022 (judges_no_comma + html_no_summary, DESC entry) | 2 | 8 | 25.0% | parser-launch + in-batch regression patch |
+| 0489  | ZMCC 2022 (judges_no_comma DESC continuation) | 3 | 8 | 37.5% | five-judge benches with v031-tail operative phrases |
+| 0490  | ZMCC 2022 (judges_no_comma DESC completion) | 6 | 8 | 75.0% | judges_no_comma backlog cleared |
+| 0491  | ZMCC 2022 (html_no_summary untested-under-v0.3.2) | 0 | 8 | 0.0% | declaratory/interpretive — vocabulary-blind |
+| 0492  | ZMCC 2024 (num-ASC pivot) | 0 | 8 | 0.0% | declaratory/interlocutory — same blind spot |
+| 0493  | ZMCC 2025 (DESC pivot, num {33..19}) | 3 | 8 | 37.5% | two SUMMARY hits on Peter-targeted phrases + one PDF-tail hit |
+| 0494  | ZMCC 2025 (DESC continuation, num {18..7}) | 0 | 8 | 0.0% | declaratory / ratio-style cohort |
+| 0495  | ZMCC 2025 (DESC finisher, num {6, 5, 2}) | 1 | 3 | 33.3% | "we dismiss" v032-tail hit on ZMCC 2 |
+| 0496  | ZMCC 2023 (DESC entry, num {27..18}) | 1 | 8 | 12.5% | "we dismiss" v032-tail hit on ZMCC 19 (this batch) |
+
+### Recommendation
+
+Continue the ZMCC 2023 DESC sweep through the next slice of
+addressable raw-on-disk no-record candidates. The remaining ZMCC
+2023 candidates with both HTML+PDF on disk but no record are
+`{16, 14, 12, 8, 6, 5, 4, 3}` (8 candidates — exactly one MAX_BATCH_SIZE
+slice). Five-consecutive-zero-discovery completion criterion remains
+UN-FIRED (b0494 zero, b0495 wrote 1, b0496 wrote 1 — counter at 0).
+
+ZMSC older-year sweep remains pending Peter's URL pattern
+confirmation per `approvals.yaml.zmsc_older_year_sweep_approval_note`;
+not actionable by scheduled tick until that confirmation lands.

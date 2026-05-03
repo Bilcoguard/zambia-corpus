@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2023-zmcc-19-tresford-mubanga-v-zesco-limited",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Tresford Mubanga v Zesco Limited (2023/CCZ/0012) [2023] ZMCC 19 (26 October 2023)",
+  "citation": "[2023] ZMCC 19",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Tresford Mubanga v Zesco Limited",
+  "case_number": "2023/CCZ/0012",
+  "date_decided": "2023-10-26",
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional jurisdiction",
+    "Article 128",
+    "interpretation of the Constitution versus employment disputes",
+    "redundancy and pension retention on payroll",
+    "Industrial Relations Division competent to grant employment remedies."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "merit in question one of the Respondent's application and we dismiss the Petition accordingly",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "a75247a71aa3bf5ebeda13750717472d4f339790af0289ab56e05f2b84ac0b19",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/19/eng@2023-10-26",
+  "source_hash": "sha256:ce621b45c79099302962d5fe669eac3a55fafb615b8910ef07c88df8eaa5ccdb",
+  "fetched_at": "2026-05-03T13:36:15Z",
+  "parser_version": "0.3.2"
+}

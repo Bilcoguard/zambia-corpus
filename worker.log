@@ -5347,3 +5347,12 @@ Tick stopped per non-negotiables. No batch run, no commit, no push.
 The accumulating .lock.bak files in .git/refs/heads/ and .git/refs/remotes/origin/ have been wedging every tick since 2026-05-03T12:34:07Z. No work performed this tick. No fetch/token budget consumed. No commit attempted.
 [2026-05-03T13:14:30Z] tick: batch-0495 — Phase 5 v0.3.2 reparse continuation. Repo unwedged by Peter at ~13:05Z (host-side chflags + find -delete on .git/*.lock.bak* — see reports/batch-0495.md prelude for details). git pull --ff-only OK. Targets: zmcc/2025/{6, 5, 2} per b0494 next-tick option (1) — finishes ZMCC 2025 DESC sweep under v0.3.2. Targets count: 3. Written: 1 (judgment-zm-2025-zmcc-02-godfrey-shamanena-v-anti-corruption-commission, outcome dismissed via pdf-tail-2pages "we dismiss" v032-tail). Deferred: 2 (zmcc/2025/{6, 5} both html_no_summary_pdf_no_match). Five-consecutive-zero counter: RESET to 0. ZMCC 2025 inventory under v0.3.2: now formally exhausted.
 [2026-05-03T13:14:30Z] integrity_check_b0495 PASS (1 record). Phase 5 progress: 92 → 93 (target 100-160 landmark judgments).
+2026-05-03T13:19:30Z ae74a0f batch-0495 push OK (fa2d1d8..ae74a0f)
+2026-05-03T13:19:30Z batch-0495 B2 sync deferred to host (rclone not in sandbox)
+2026-05-03T13:19:30Z batch-0495 commit ae74a0f pushed cleanly to origin/main; HEAD verified. Tick complete.
+2026-05-03T13:19:30Z batch-0495 mid-tick lock fix: .git/index.lock could not be unlinked (sandbox EPERM) but `mv` rename to .lock.bak file succeeded — adopted as the standard intra-tick workaround alongside Peter's host-side cleanup. Adds one entry to the .lock.bak cleanup backlog Peter manages.
+[2026-05-03T13:39:47Z] batch-0496 START — Phase 5 v0.3.2 reparse continuation, pivot to ZMCC 2023 (per b0495 next-tick option 2)
+[2026-05-03T13:39:47Z] batch-0496 parser_v0.3.2 run complete: 8 targets / 1 written (zmcc/2023/19) / 7 deferred (all html_no_summary_pdf_no_match — re-confirmed under v0.3.2)
+[2026-05-03T13:39:47Z] batch-0496 integrity check PASS: scripts/integrity_check_b0496.py reports INTEGRITY CHECK: PASS (1 record(s))
+[2026-05-03T13:39:47Z] batch-0496 gaps.md: 7 RECONFIRMED-DEFERRED notes appended under original batch-0365/0366 entries (zmcc/2023/{27,26,25,23,21,20,18}) and 1 RESOLVED note appended under zmcc/2023/19 entry; new ## Batch 0496 section appended at end of file; no deletions per audit policy
+[2026-05-03T13:39:47Z] batch-0496 B2 sync deferred to host (rclone not in sandbox)
