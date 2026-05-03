@@ -2428,12 +2428,14 @@ precedent) and the registry diff was reverted.
   `html_no_summary_pdf_no_match`. Summary describes a refusal to
   interpret Article 52(6) on the basis of a speculative challenge.
   URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/31/eng@2022-01-19.
+  - RECONFIRMED-DEFERRED in batch-0491 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; no SUMMARY/TAIL operative-verb match in either v0.3.2 or v0.3.1 patterns. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2022] ZMCC 30** (Sikazwe v Attorney General and Anor,
   2022-11-11) — reason: `html_no_summary_pdf_no_match`. Summary
   describes joinder refused; the operative verb "joinder refused"
   is not in `SUMMARY_PATTERNS`. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2022/30/eng@2022-11-11.
+  - RECONFIRMED-DEFERRED in batch-0491 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; no SUMMARY/TAIL operative-verb match in either v0.3.2 or v0.3.1 patterns. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2022] ZMCC 27** (Sangwa v Attorney General, 2022-11-10) —
   reason: `html_no_summary_pdf_no_match`. Mixed-disposition
@@ -2441,6 +2443,7 @@ precedent) and the registry diff was reverted.
   constitutional challenge to section 30 (costs) to proceed to
   hearing") — interlocutory order; not a final disposition.
   URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/27/eng@2022-11-10.
+  - RECONFIRMED-DEFERRED in batch-0491 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; no SUMMARY/TAIL operative-verb match in either v0.3.2 or v0.3.1 patterns. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2022] ZMCC 25** (Institute of Law, Policy Research and Human
   Rights, 2022-10-21) — reason:
@@ -2456,6 +2459,7 @@ precedent) and the registry diff was reverted.
   be stopped or extended by any court or authority") with no
   operative disposition verb. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2022/24/eng@2022-10-20.
+  - RECONFIRMED-DEFERRED in batch-0491 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; no SUMMARY/TAIL operative-verb match in either v0.3.2 or v0.3.1 patterns. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 ### Recommendation
 
@@ -2499,6 +2503,7 @@ fresh limitation hit this tick: a fully scanned final PDF
   stay." Operative verbs not in `SUMMARY_PATTERNS`; PDF tail
   produced no safe match. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2022/23/eng@2022-10-17.
+  - RECONFIRMED-DEFERRED in batch-0491 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; no SUMMARY/TAIL operative-verb match in either v0.3.2 or v0.3.1 patterns. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2022] ZMCC 22** (Kachize Phiri and Anor v Electoral
   Commission of Zambia (CCZ/A 4 of 2022), 2022-09-23) — reason:
@@ -2508,6 +2513,7 @@ fresh limitation hit this tick: a fully scanned final PDF
   time was granted." Procedural disposition; no operative-verb
   match. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2022/22/eng@2022-09-23.
+  - RECONFIRMED-DEFERRED in batch-0491 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; no SUMMARY/TAIL operative-verb match in either v0.3.2 or v0.3.1 patterns. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2022] ZMCC 21** (Chilufya v Ng'andwe and Anor (CCZ/A 32 of
   2021), 2022-09-29) — reason:
@@ -2551,6 +2557,7 @@ fresh limitation hit this tick: a fully scanned final PDF
   excluded." Interpretive declaratory — operative verbs not in
   `SUMMARY_PATTERNS`. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2022/18/eng@2022-09-07.
+  - RECONFIRMED-DEFERRED in batch-0491 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; no SUMMARY/TAIL operative-verb match in either v0.3.2 or v0.3.1 patterns. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2022] ZMCC 17** (Zimba v Attorney General (CCZ 7 of 2022),
   2022-08-31) — reason: `html_no_summary_pdf_no_match`. Summary
@@ -2558,6 +2565,7 @@ fresh limitation hit this tick: a fully scanned final PDF
   process under Article 182(3) read with Articles 143 and 144."
   Declaratory; no operative-verb match. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2022/17/eng@2022-08-31.
+  - RECONFIRMED-DEFERRED in batch-0491 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; no SUMMARY/TAIL operative-verb match in either v0.3.2 or v0.3.1 patterns. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2022] ZMCC 16** (Malanji and Anor v Attorney General and
   Anor (CCZ 18 of 2022), 2022-08-25) — reason:
