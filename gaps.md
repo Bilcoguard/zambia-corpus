@@ -2422,6 +2422,7 @@ precedent) and the registry diff was reverted.
   Mulongoti JCC`. Outcome would have been `dismissed` per
   pdf-tail-2pages pattern. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2022/32/eng@2022-07-15.
+  - RESOLVED in batch-0490 (parser_v0.3.2). Outcome: `dismissed`. Detail: "[40] The application fails on that account and it is dismissed". Source: pdf-tail-2pages (v031-tail `application fails` pattern). Five-judge bench (parse_judges_v032 no-comma fix): Munalula JCC, Sitali JCC, Mulenga JCC, Musaluke JCC, Mulongoti JCC — all resolved against existing canonical entries. Record id: `judgment-zm-2022-zmcc-32-mwamba-v-chewe-and-anor`.
 
 - **[2022] ZMCC 31** (Mutwena v Attorney, 2022-01-19) — reason:
   `html_no_summary_pdf_no_match`. Summary describes a refusal to
@@ -2447,6 +2448,7 @@ precedent) and the registry diff was reverted.
   `Munalula JCC Mulenga JCC Musaluke JCC Chisunka JCC`. Outcome
   would have been `dismissed` per pdf-tail-2pages pattern. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2022/25/eng@2022-10-21.
+  - RESOLVED in batch-0490 (parser_v0.3.2). Outcome: `dismissed`. Detail: "(59) The Petition fails and is hereby dismissed". Source: pdf-tail-2pages (v031-tail `petition fails` pattern). Four-judge bench (parse_judges_v032 no-comma fix): Munalula JCC, Mulenga JCC, Musaluke JCC, Chisunka JCC — all resolved against existing canonical entries. Record id: `judgment-zm-2022-zmcc-25-institute-of-law-policy-research-and-human-rights`.
 
 - **[2022] ZMCC 24** (Kanengo v Attorney General and Anor,
   2022-10-20) — reason: `html_no_summary_pdf_no_match`. Summary
@@ -2575,6 +2577,7 @@ fresh limitation hit this tick: a fully scanned final PDF
   widespread enough to void the election." Held for
   parser_v0.3.2 widening. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2022/15/eng@2022-07-29.
+  - RESOLVED in batch-0490 (parser_v0.3.2). Outcome: `upheld`. Detail: "Consequently, we uphold the judgment of the trial court". Source: pdf-tail-2pages (v032-tail `we uphold the judgment` pattern — new in v0.3.2). Five-judge bench (parse_judges_v032 no-comma fix): Sitali JCC, Mulenga JCC, Mulonda JCC, Chisunka JCC, Mulongoti JCC — all resolved against existing canonical entries. Record id: `judgment-zm-2022-zmcc-15-mutelo-k-v-kang-ombe-and-anor`.
 
 ### Recommendation
 
@@ -2643,8 +2646,11 @@ Each deferral carries a SPECIFIC reason code per approvals.yaml `deferral_reason
 - **[2022] ZMCC 5** (Moyo v Attorney-General, 2022-02-28) — reason: `parser_v0.3.1_judges_no_comma_unhandled`. Raw judges_text: `Sitali JCC Mulenga JCC Mulonda JCC Munalula JCC Chisunka JC`. Summary head: "Disciplinary discharge does not trigger Article 189(2) payroll retention; payment was a pension refund, not a pension benefit." Held for parser_v0.3.2 widening. URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/5/eng@2022-02-28.
   RESOLVED in batch-0489 (parser_v0.3.2). Outcome: `dismissed`. Detail: "We therefore decline to grant the Petitioner the …". Source: pdf-tail-2pages (v031-tail decline-to-grant pattern). Five-judge bench (parse_judges_v032 no-comma fix): Sitali JCC, Mulenga JCC, Mulonda JCC, Munalula JCC, Chisunka JC — all resolved against existing canonical entries. URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/5/eng@2022-02-28.
 - **[2022] ZMCC 4** (Chapter One Foundation Ltd v Attorney-General, 2022-02-25) — reason: `parser_v0.3.1_judges_no_comma_unhandled`. Raw judges_text: `Chibomba PC Mulenga JCC Munalula JCC Musaluke JCC Mulongoti JCC`. Summary head: "Presidential assent within Article 66 timeframes remains valid after Parliament's dissolution." Held for parser_v0.3.2 widening. URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/4/eng@2022-02-25.
+  - RESOLVED in batch-0490 (parser_v0.3.2). Outcome: `dismissed`. Detail: "The Petition is accordingly dismissed". Source: pdf-tail-2pages (v031-tail subject-passive `... is dismissed` pattern). Five-judge bench (parse_judges_v032 no-comma fix): Chibomba PC, Mulenga JCC, Munalula JCC, Musaluke JCC, Mulongoti JCC — all resolved against existing canonical entries. Record id: `judgment-zm-2022-zmcc-04-chapter-one-foundation-ltd-v-attorney-general`.
 - **[2022] ZMCC 3** (Shah and Anor v The Attorney-General, 2022-01-25) — reason: `parser_v0.3.1_judges_no_comma_unhandled`. Raw judges_text: `Mulenga JCC Mulonda JCC Munalula JCC Musaluke JCC Mulongoti JCC`. Summary head: "Petition alleging selective non-payment by the Attorney General dismissed; Compensation Fund regime governs state judgment debt payments." Held for parser_v0.3.2 widening. URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/3/eng@2022-01-25.
+  - RESOLVED in batch-0490 (parser_v0.3.2). Outcome: `dismissed`. Detail: "[60] This Petition fails and is hereby dismissed". Source: pdf-tail-2pages (v031-tail `petition fails` pattern). Five-judge bench (parse_judges_v032 no-comma fix): Mulenga JCC, Mulonda JCC, Munalula JCC, Musaluke JCC, Mulongoti JCC — all resolved against existing canonical entries. Record id: `judgment-zm-2022-zmcc-03-shah-and-anor-v-the-attorney-general`.
 - **[2022] ZMCC 2** (Lieutenant Muchindu v Attorney-General, 2022-01-27) — reason: `parser_v0.3.1_judges_no_comma_unhandled`. Raw judges_text: `Mulenga JCC Mulonda JCC Musaluke JCC`. Summary head: "Whether unpaid non-statutory terminal benefits entitle a retiree to payroll retention under Article 189(2)." Interpretive — operative verb not present in summary; held for parser_v0.3.2 widening. URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/2/eng@2022-01-27.
+  - RESOLVED in batch-0490 (parser_v0.3.2). Outcome: `dismissed`. Detail: "We accordingly dismiss it for want of …". Source: pdf-tail-2pages (v031-tail active `we accordingly dismiss` pattern). Three-judge bench (parse_judges_v032 no-comma fix): Mulenga JCC, Mulonda JCC, Musaluke JCC — all resolved against existing canonical entries. Record id: `judgment-zm-2022-zmcc-02-lieutenant-muchindu-v-attorney-general`.
 - **[2022] ZMCC 1** (Chapter One Foundation Ltd v Attorney-General, 2022-02-02) — reason: `html_no_summary_pdf_no_match`. Summary head: "Article 263's requirement to declare assets on assuming or leaving office does not conflict with Article 261's code of conduct." Interpretive declaratory; no operative-verb match. URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/1/eng@2022-02-02.
 - **[2021] ZMCC 21** (Mulubisha v Attorney-General, 2021-03-30) — reason: `html_no_summary_pdf_no_match`. Summary head: "The respondent's application to correct an alleged accidental omission was dismissed for failure to show a prima facie slip; procedural irregularity deemed curable." First 2021 ZMCC slice candidate; outcome dismissed is implied by the summary head, but operative verb construction does not match `SUMMARY_PATTERNS` and PDF tail produced no safe match. URL: https://zambialii.org/akn/zm/judgment/zmcc/2021/21/eng@2021-03-30.
 

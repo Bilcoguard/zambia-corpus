@@ -5303,3 +5303,6 @@ Tick stopped per non-negotiables. No batch run, no commit, no push.
 2026-05-03T09:13:40Z  batch-0489 push OK to origin/main (18a8930..811587a)
 2026-05-03T09:13:40Z  batch-0489 stale .git lock carry-forward: .git/index.lock (zero-length, host-locked) renamed to .git/index.lock.bak.b0489_pre_commit.* per established pattern; .git/HEAD.lock + .git/objects/maintenance.lock + multiple tmp_obj files unlink-denied warnings emitted but commit + push completed cleanly.
 2026-05-03T09:13:40Z  batch-0489 commit 811587a pushed cleanly to origin/main; B2 sync deferred to host (rclone not in sandbox); SQLite ingestion deferred (FTS5 malformed-disk-image carry-forward). Phase 5 progress 80->83 (target 100-160). parser_v0.3.2 cumulative across b0488+b0489: 5 records written (5/16 yield = 31%).
+2026-05-03T09:14:30Z  batch-0489 post-push log commit 4280f91 pushed cleanly to origin/main (811587a..4280f91); HEAD == origin/main verified. Tick complete.
+2026-05-03T09:43:20Z	batch-0490	parser_v0.3.2 third reparse pass; cleared remaining zmcc/2022 judges_no_comma backlog; 6 records written (zmcc/2022/{04,03,02,32,25,15}) / 2 deferred (zmcc/2022/{13,14} both html_no_summary_pdf_no_match re-confirmed under v0.3.2); integrity 89/89 PASS; Phase 5 progress 83->89.
+2026-05-03T09:43:29Z	batch-0490 B2 sync deferred to host (rclone not in sandbox)

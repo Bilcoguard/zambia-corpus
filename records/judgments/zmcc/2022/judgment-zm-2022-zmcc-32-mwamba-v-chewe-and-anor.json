@@ -1,0 +1,55 @@
+{
+  "id": "judgment-zm-2022-zmcc-32-mwamba-v-chewe-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mwamba v Chewe and Anor (CCZ/A 30 of 2021) [2022] ZMCC 32 (15 July 2022)",
+  "citation": "[2022] ZMCC 32",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Mwamba v Chewe and Anor",
+  "case_number": "CCZ/A 30 of 2021",
+  "date_decided": "2022-07-15",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Sitali",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional Court procedure",
+    "mode of commencement of renewed applications from single-judge rulings",
+    "summons required (Order 59 White Book)",
+    "improper commencement by notice of motion deprives Court of jurisdiction",
+    "amendment of appeal record",
+    "inherent jurisdiction (Article 271) to order substitution of illegible pages."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "[40] The application fails on that account and it is dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "6b9e4916853dfdc0cb1c8e9bdcf5d8eb0bb71250ddac6212107d05b7bb9b9707",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/32/eng@2022-07-15",
+  "source_hash": "sha256:d5366365c97415a705f05f879a327986e72d895b8b920759d4e04f270abeec80",
+  "fetched_at": "2026-05-03T09:36:27Z",
+  "parser_version": "0.3.2"
+}

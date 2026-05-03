@@ -1,0 +1,52 @@
+{
+  "id": "judgment-zm-2022-zmcc-03-shah-and-anor-v-the-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Shah and Anor v The Attorney General (CCZ 17 of 2021) [2022] ZMCC 3 (25 January 2022)",
+  "citation": "[2022] ZMCC 3",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Shah and Anor v The Attorney General",
+  "case_number": "CCZ 17 of 2021",
+  "date_decided": "2022-01-25",
+  "judges": [
+    {
+      "name": "Mulenga",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Munalula",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Compensation Fund (Article 209)",
+    "applicability to pre-2016 judgment debts",
+    "Compensation Fund Act No. 43 of 2016; Attorney General's role in payment of judgment debts; constitutional jurisdiction and pleading requirements; res judicata."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "[60] This Petition fails and is hereby dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "13d5591c15e00cb9fccc68846ded6b9191a2b8489ff26165bb9826a7b6f326f1",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/3/eng@2022-01-25",
+  "source_hash": "sha256:5e2cafc412d445a908ca6c8951446d31fd7e0394a86efad85382e59d00aa69c6",
+  "fetched_at": "2026-05-03T09:36:26Z",
+  "parser_version": "0.3.2"
+}

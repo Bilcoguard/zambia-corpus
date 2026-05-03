@@ -1,0 +1,57 @@
+{
+  "id": "judgment-zm-2022-zmcc-04-chapter-one-foundation-ltd-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Chapter One Foundation Ltd v Attorney General (CCZ 36 of 2021) [2022] ZMCC 4 (25 February 2022)",
+  "citation": "[2022] ZMCC 4",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Chapter One Foundation Ltd v Attorney General",
+  "case_number": "CCZ 36 of 2021",
+  "date_decided": "2022-02-25",
+  "judges": [
+    {
+      "name": "Chibomba",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Munalula",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "presidential assent to Bills",
+    "post-dissolution assent",
+    "Article 66 timeframes",
+    "legislative vs executive functions",
+    "Article 81 dissolution",
+    "Article 66(6) deemed assent",
+    "comparative law (US, Australia)."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "The Petition is accordingly dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "3af003091a10c4fdbe9a2a143019177399ecceabafa46b9fcbc6696c98b51c51",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/4/eng@2022-02-25",
+  "source_hash": "sha256:7981045c4270fdc78b34b2dff6645e6bd57de44aab6cdcb7473581649bd0379b",
+  "fetched_at": "2026-05-03T09:36:25Z",
+  "parser_version": "0.3.2"
+}

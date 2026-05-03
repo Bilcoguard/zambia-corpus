@@ -1,0 +1,42 @@
+{
+  "id": "judgment-zm-2022-zmcc-02-lieutenant-muchindu-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Lieutenant Muchindu v Attorney General (CCZ 34 of 2021) [2022] ZMCC 2 (27 January 2022)",
+  "citation": "[2022] ZMCC 2",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Lieutenant Muchindu v Attorney General",
+  "case_number": "CCZ 34 of 2021",
+  "date_decided": "2022-01-27",
+  "judges": [
+    {
+      "name": "Mulenga",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "pension benefit",
+    "meaning under Article 266; Article 189(2) retention on payroll applies only to unpaid statutory pension benefits; terminal benefits distinguished from pension benefits; petition dismissed for lack of constitutional question."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "We accordingly dismiss it for want of",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "4948218effc062373e0f90b9310bd28fbbc6ea676bab237a91d6ab3ee0eeb427",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/2/eng@2022-01-27",
+  "source_hash": "sha256:948dae91af03e17fcab373c237269aca5b51596266752282d2617706c49e0a89",
+  "fetched_at": "2026-05-03T09:36:27Z",
+  "parser_version": "0.3.2"
+}

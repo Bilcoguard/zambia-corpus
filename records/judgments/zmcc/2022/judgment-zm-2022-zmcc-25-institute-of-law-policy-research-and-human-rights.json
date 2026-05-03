@@ -1,0 +1,47 @@
+{
+  "id": "judgment-zm-2022-zmcc-25-institute-of-law-policy-research-and-human-rights",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Institute of Law, Policy Research and Human Rights Ltd v Attorney General (CCZ 1 of 2022) [2022] ZMCC 25 (21 October 2022)",
+  "citation": "[2022] ZMCC 25",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Institute of Law, Policy Research and Human Rights Ltd v Attorney General",
+  "case_number": "CCZ 1 of 2022",
+  "date_decided": "2022-10-21",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional interpretation",
+    "composition of superior courts; prescribed numbers as maximums not mandatory minima; appointment of judges",
+    "Judicial Service Commission and President; Article 274 \"as occasion requires\"; mandamus relief; administrative/resource considerations."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "(59) The Petition fails and is hereby dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "4122488cfd5042d412348d0b6894ca65e45335a8b4910d6cbbf2366af31b31d0",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/25/eng@2022-10-21",
+  "source_hash": "sha256:b86c9e1ddbe6c196a0f2b7f6e0c75d3aff838380eb7fa571d6019e841b9d27fc",
+  "fetched_at": "2026-05-03T09:36:28Z",
+  "parser_version": "0.3.2"
+}
