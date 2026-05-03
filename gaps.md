@@ -3310,3 +3310,152 @@ v0.3.2. Pivot options for the next tick (in expected-yield order):
 Five-consecutive-zero-discovery completion criterion remains
 UN-FIRED. approvals.yaml NOT modified per Phase 5 human-only
 confirmation rule.
+
+## Batch 0498 (2026-05-03T14:08Z, parser_v0.3.2 reparse — combined ZMCC 2026 + ZMCC 2021 untested-under-v0.3.2 cohort)
+
+Eleventh v0.3.2 reparse tick. Per b0497 next-tick recommendation
+(option 1 + option 2), this tick combines the two remaining
+v0.3.2-untested cohorts: ZMCC 2026 (1 raw-on-disk no-record
+candidate, num 01) plus ZMCC 2021 v0.3.2-amenable candidates
+(num 21, 18, 12 — excluding 14, 15 which remain
+`pdf_extraction_empty_likely_scanned` and need OCR not parser
+widening). Slice size 4, intentionally below MAX_BATCH_SIZE=8
+because the combined v0.3.2-amenable inventory is exhausted at
+4 candidates.
+
+Records written this tick: 1 (zmcc/2021/21). Records deferred:
+3 (zmcc/2026/1, zmcc/2021/18, zmcc/2021/12; all
+`html_no_summary_pdf_no_match`).
+
+### Resolutions
+
+- **[2021] ZMCC 21** (Mulubisha v Attorney-General, 2021-03-30) —
+  outcome `dismissed`, detail "The respondent's application to
+  correct an alleged accidental omission was dismissed for failure
+  to show a prima facie slip; procedural irregularity deemed
+  curable" via the v0.3.2 SUMMARY pattern
+  `(?:application|petition|appeal|challenge) is dismissed/refused`
+  (specifically the "is dismissed" form widened on 2026-05-03).
+  This candidate was `html_no_summary_pdf_no_match` under v0.3.1
+  (b0371) and is now resolved under v0.3.2 — direct confirmation
+  of the Peter-targeted regex addition. Three-judge bench:
+  Mulonda JJC (presiding), Mulenga JJC, Munalula JJC. All three
+  resolve in `judges_registry.yaml` as existing canonical entries.
+  Record ID: `judgment-zm-2021-zmcc-21-mulubisha-v-attorney-general`.
+  Source URL: https://zambialii.org/akn/zm/judgment/zmcc/2021/21/eng@2021-03-30.
+
+### Deferrals (specific reason codes only)
+
+All three `html_no_summary_pdf_no_match` re-tested under v0.3.2
+SUMMARY_PATTERNS_V032, PDF_TAIL_PATTERNS_V032 and ORDER_INTRO
+window-scan:
+
+  - RECONFIRMED-DEFERRED in batch-0498 (parser_v0.3.2, 2026-05-03)
+    — `html_no_summary_pdf_no_match`. **[2026] ZMCC 1** (Tresford
+    Chali v The Judicial Complaints Commission, 2026-01-20).
+    Holding-style summary head: "A challenge to the JCC's report
+    and removals must proceed by judicial review in the High Court,
+    not by original petition here." This is a procedural-routing
+    declaratory holding ("must proceed by judicial review … not by
+    original petition") with no operative dispositive verb in
+    either v0.3.2 SUMMARY_PATTERNS_V032 or v0.3.1 SUMMARY_PATTERNS,
+    and no PDF tail match in either pool. Raw HTML+PDF retained on
+    disk. Held for further parser widening / hand-curated review.
+    URL: https://zambialii.org/akn/zm/judgment/zmcc/2026/1/eng@2026-01-20.
+  - RECONFIRMED-DEFERRED in batch-0498 (parser_v0.3.2, 2026-05-03)
+    — `html_no_summary_pdf_no_match`. **[2021] ZMCC 18** (Chapter
+    One Foundation Limited and Ors v The Attorney-General,
+    2021-08-18). Issue-style summary head: "Whether the President
+    complied with constitutional gender parity and representation
+    requirements in nominations and ministerial appointments."
+    Pure declaratory/interpretive question framing with no
+    operative-verb match in either v0.3.2 or v0.3.1 SUMMARY/TAIL
+    pattern pools. Raw HTML+PDF retained on disk. Held for further
+    parser widening / hand-curated review.
+    URL: https://zambialii.org/akn/zm/judgment/zmcc/2021/18/eng@2021-08-18.
+  - RECONFIRMED-DEFERRED in batch-0498 (parser_v0.3.2, 2026-05-03)
+    — `html_no_summary_pdf_no_match`. **[2021] ZMCC 12** (Dipak
+    Patel v Minister of Finance and Attorney-General, 2021-06-30).
+    Issue-style summary head: "Whether Article 63(2)(d) requires
+    the National Assembly's prior approval of all public borrowing
+    or only of categories prescribed by Parliament." Previously
+    classified `multi_judge_separate_opinions_no_clear_majority_disposition`
+    in batch-0360 under v0.3.0; under v0.3.1 became
+    `html_no_summary_pdf_no_match` (b0372); under v0.3.2 still
+    `html_no_summary_pdf_no_match` — pure interpretive/declaratory
+    question framing with no operative-verb match. Raw HTML+PDF
+    retained on disk. Held for further parser widening / OCR
+    pass / hand-curated review.
+    URL: https://zambialii.org/akn/zm/judgment/zmcc/2021/12/eng@2021-06-30.
+
+### Records / inventory accounting
+
+- Records on disk before tick: 96 (per b0497 batch report)
+- Records on disk after tick: 97
+- Phase 5 progress: 96 → 97 (target 100–160 landmark judgments;
+  3 short of low end)
+- Cumulative v0.3.2 yield (b0488..b0498): **19 records / 79
+  attempted = 24.1%**
+- Five-consecutive-zero-discovery counter: still 0 (b0494 zero,
+  b0495 wrote 1, b0496 wrote 1, b0497 wrote 2, b0498 wrote 1 —
+  four consecutive substantive ticks)
+
+### v0.3.2 cohort exhaustion summary
+
+After b0498, the following ZMCC cohorts are FORMALLY EXHAUSTED
+under parser_v0.3.2 (every raw-on-disk no-record candidate has
+been tested at the current parser version, excluding only
+`pdf_extraction_empty_likely_scanned` cases that are blocked on
+OCR not parser widening):
+
+| Cohort     | Tick(s) of exhaustion | Status                  |
+|:-----------|:----------------------|:------------------------|
+| ZMCC 2022  | b0488..b0491          | EXHAUSTED               |
+| ZMCC 2024  | b0492                 | EXHAUSTED               |
+| ZMCC 2025  | b0493..b0495          | EXHAUSTED               |
+| ZMCC 2023  | b0496..b0497          | EXHAUSTED               |
+| ZMCC 2026  | b0498                 | EXHAUSTED (1 candidate) |
+| ZMCC 2021  | b0498                 | EXHAUSTED (3 v0.3.2-amenable candidates; 14, 15 remain blocked on OCR) |
+
+The complete ZMCC raw-on-disk no-record reparse-first inventory
+under parser_v0.3.2 is now FORMALLY EXHAUSTED. No reparse-amenable
+candidates remain on disk that have not been tested at v0.3.2.
+
+### Next-tick recommendation
+
+The v0.3.2 reparse-first inventory is now empty across all ZMCC
+years. Pivot options for the next tick (in expected-yield order):
+
+1. **ZMSC older-year sweep** — approved by Peter
+   2026-05-03 per `approvals.yaml.zmsc_older_year_sweep_approved:
+   true` BUT remains gated on Peter confirming the canonical source
+   URL pattern. Not actionable by scheduled tick until that
+   confirmation lands.
+2. **OCR pass** for the remaining
+   `pdf_extraction_empty_likely_scanned` inventory: zmcc/2021/14,
+   zmcc/2021/15, zmcc/2022/16, zmcc/2025/19. Requires OCR pipeline
+   approval not present in approvals.yaml.
+3. **Parser_v0.3.3 widening** for the recurring deferral families
+   surfaced across b0488..b0498:
+   - declaratory/interpretive ratio statements with no operative
+     disposition verb (most common — ~60% of deferrals);
+   - jurisdictional-routing holdings ("must proceed by judicial
+     review", "lies outside Constitutional Court jurisdiction");
+   - joinder-as-disposition (joinder-ordered, joinder-refused,
+     joined-as-3rd-respondent);
+   - subordinate-clause "dismissed" tokens
+     (originating-summons-was-X-and-dismissed; dismissed-as-statutory);
+   - "nullified and discharged" / "may be joined" interlocutory
+     dispositions.
+   Requires Peter approval per BRIEF.md non-negotiable on parser
+   vocabulary changes.
+
+Until one of those three routes is unblocked by human approval,
+subsequent scheduled ticks will be audit-only zero-yield ticks
+(consistent with the b0375..b0487 idle phase prior to the v0.3.2
+launch). Five-consecutive-zero-discovery completion criterion
+will fire after the next 5 such audit-only ticks.
+
+approvals.yaml NOT modified per Phase 5 human-only confirmation
+rule.
+

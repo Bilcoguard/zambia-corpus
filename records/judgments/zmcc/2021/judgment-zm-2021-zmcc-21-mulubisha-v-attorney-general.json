@@ -1,0 +1,49 @@
+{
+  "id": "judgment-zm-2021-zmcc-21-mulubisha-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "MULUBISHA V ATTORNEY GENERAL (2018/CCZ/003) [2021] ZMCC 21 (30 March 2021)",
+  "citation": "[2021] ZMCC 21",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "MULUBISHA V ATTORNEY GENERAL",
+  "case_number": "2018/CCZ/003",
+  "date_decided": "2021-03-30",
+  "judges": [
+    {
+      "name": "Mulonda",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Munalula",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "correction of judgments",
+    "Order XV rule 3 CCR",
+    "accidental omissions and clerical errors",
+    "prima facie showing required",
+    "finality of judgments; procedural compliance",
+    "Order IX rule 20(2)",
+    "summons grounds",
+    "curable irregularity; interpretation",
+    "'chiefdom' and scope of judgment on recognition of chiefs under Article 165."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "The respondent's application to correct an alleged accidental omission was dismissed for failure to show a prima facie slip; procedural irregularity deemed curable",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "0b28f1f0175a62bbb8fabb6f8ec1322eadc1df101e8edb25d0d24022f64033c7",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2021/21/eng@2021-03-30",
+  "source_hash": "sha256:f327a3a7a6f6b17809e066b847f45cf2cfc7f1659c7afd3d25cc70d43f0705db",
+  "fetched_at": "2026-05-03T14:07:58Z",
+  "parser_version": "0.3.2"
+}
