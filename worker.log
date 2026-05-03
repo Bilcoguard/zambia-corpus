@@ -5338,3 +5338,6 @@ Tick stopped per non-negotiables. No batch run, no commit, no push.
 [2026-05-03T12:08:35Z] batch-0494 integrity check PASS: scripts/integrity_check_b0494.py reports `INTEGRITY CHECK: PASS (0 record(s))` (zero-write tick — vacuous on empty written array; full-corpus 92/92 records remain valid since nothing was written or modified)
 [2026-05-03T12:08:35Z] batch-0494 gaps.md: 8 RECONFIRMED-DEFERRED notes appended under original batch-0362 (nums 18,17,14) and batch-0363 (nums 11,10,9,8,7) entries; new ## Batch 0494 section appended at end of file; no deletions per audit policy
 [2026-05-03T12:08:35Z] batch-0494 B2 sync deferred to host (rclone not in sandbox)
+2026-05-03T12:11:14Z 714b541 batch-0494 push OK
+2026-05-03T12:11:14Z batch-0494 B2 sync deferred to host (rclone not in sandbox)
+2026-05-03T12:11:14Z batch-0494 commit 714b541 pushed cleanly to origin/main; HEAD verified. Tick complete.
