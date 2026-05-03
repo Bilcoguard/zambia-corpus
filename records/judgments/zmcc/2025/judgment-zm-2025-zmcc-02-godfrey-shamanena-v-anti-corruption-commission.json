@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2025-zmcc-02-godfrey-shamanena-v-anti-corruption-commission",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Godfrey Shamanena v Anti-Corruption Commission (2024/CCZ/0020) [2025] ZMCC 2 (6 February 2025)",
+  "citation": "[2025] ZMCC 2",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Godfrey Shamanena v Anti-Corruption Commission",
+  "case_number": "2024/CCZ/0020",
+  "date_decided": "2025-02-06",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional jurisdiction",
+    "limits of Constitutional Court",
+    "national values and principles (Arts. 173, 216) not independently justiciable",
+    "interpretation vs. administrative/judicial review",
+    "requirement for specific constitutional question to invoke jurisdiction."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "We dismiss the petition for lack of",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "9f6f2bdae77363ba87b4af27d94102759b69f0941ab9e86dce45ff60daa541e1",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/2/eng@2025-02-06",
+  "source_hash": "sha256:bc3ece4a77b803c0deb5447e7aef4f7df89add593dd9ec72b77c584016d168bf",
+  "fetched_at": "2026-05-03T13:15:01Z",
+  "parser_version": "0.3.2"
+}

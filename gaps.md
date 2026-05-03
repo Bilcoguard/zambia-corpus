@@ -1988,6 +1988,7 @@ Zero fresh fetches — all raw bytes already on disk.
   "denied" is present but not a member of the current
   SUMMARY_PATTERNS lexicon; PDF tail no match. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2025/6/eng@2025-03-24.
+  - RECONFIRMED-DEFERRED in batch-0495 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; the bare "denied" token applied to "interlocutory subpoenas" (subject) still falls outside both v0.3.2 and v0.3.1 SUMMARY/TAIL pattern pools — neither vocabulary covers a subpoena/interlocutory-application disposition. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2025] ZMCC 5** (Miza Phiri Jr v Isaac Mwanza and Ors,
   2024/CCZ/0021, 2025-03-24). Reason:
@@ -1997,6 +1998,7 @@ Zero fresh fetches — all raw bytes already on disk.
   abuse of process." Holding-style ruling on procedural propriety
   with no recognised disposition token; PDF tail no match. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2025/5/eng@2025-03-24.
+  - RECONFIRMED-DEFERRED in batch-0495 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; "abuse of process" / "proper remedy is joinder" holding-style summary lacks any operative disposition verb in either v0.3.2 or v0.3.1 patterns. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 These eight (all `html_no_summary_pdf_no_match`) reinforce the
 b0361/b0362 finding that the dominant 2025 ZMCC summary register is
@@ -2066,6 +2068,7 @@ PDF_ORDER_ANCHORS, and PDF_TAIL_PATTERNS without a safe match.
   Court jurisdiction; a specific constitutional question is
   required." URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2025/2/eng@2025-02-06.
+  - RESOLVED in batch-0495 (parser_v0.3.2, 2026-05-03) — outcome `dismissed`, detail "We dismiss the petition for lack of" via the `pdf-tail-2pages` v032-tail "we dismiss" active-voice operative verb (one of the 24 explicit phrases Peter listed in the 2026-05-03 v0.3.2 widening). Record ID: `judgment-zm-2025-zmcc-02-godfrey-shamanena-v-anti-corruption-commission`. Three-judge bench (Munalula PC, Shilimi DPC, Chisunka JC) — all three already resolved in `judges_registry.yaml`; no new aliases. Supersedes the b0364 `html_no_summary_pdf_no_match` deferral.
 
 - **[2024] ZMCC 8** (Dr. Godfrey Hampwaye and Ors v The Council of
   the University of Zambia, 2024-06-07). Reason:
