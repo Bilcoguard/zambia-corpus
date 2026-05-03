@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2022-zmcc-20-ndhlovu-and-ors-v-road-development-agency",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Ndhlovu and Ors v Road Development Agency (CCZ 5 of 2022) [2022] ZMCC 20 (21 September 2022)",
+  "citation": "[2022] ZMCC 20",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Ndhlovu and Ors v Road Development Agency",
+  "case_number": "CCZ 5 of 2022",
+  "date_decided": "2022-09-21",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Article 189 & 266",
+    "\"pension benefit\" definition",
+    "gratuity vs pension",
+    "requirement to show statutory pension entitlement; employment law",
+    "payroll retention pending pension payment; jurisdiction",
+    "IRD competence and forum shopping."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "The Petition is accordingly dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "5068dd1ac0dcb05fd9afedd2d45236cfdb4a47447e3d5399e9e798879fc1af22",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/20/eng@2022-09-21",
+  "source_hash": "sha256:0dc14df4af37796d7e1f8a9063a6a29e95c3529083d1ed0ceec788f4872b442b",
+  "fetched_at": "2026-05-03T09:06:40Z",
+  "parser_version": "0.3.2"
+}

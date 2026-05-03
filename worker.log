@@ -5287,3 +5287,15 @@ Tick stopped per non-negotiables. No batch run, no commit, no push.
 2026-05-03T09:00:18Z	batch-0488	Phase 5 progress: 78 -> 80 records (target 100-160). Five-consecutive-zero-discovery completion criterion now UN-FIRED.
 2026-05-03T09:00:18Z	batch-0488	B2 sync deferred to host (rclone not in sandbox)
 2026-05-03T09:01:44Z  batch-0488 commit 09eafb0 pushed cleanly to origin/main; B2 sync deferred to host (rclone not in sandbox); SQLite ingestion deferred (FTS5 malformed-disk-image carry-forward). Phase 5 progress 78->80 (target 100-160). parser_v0.3.2 baseline now in scripts/batch_0488_parse.py (imports v0.3.1 baseline at scripts/batch_0360_parse.py verbatim). approvals.yaml amended on Peter Cowork instruction (no approved/complete flag flipped). zmsc_older_year_sweep_approved=true but URL pattern pending Peter confirmation before any fetch. Five-consecutive-zero-discovery completion criterion now UN-FIRED.
+2026-05-03T09:09:30Z	batch-0489	tick-start (Phase 5 SUBSTANTIVE — second v0.3.2 reparse pass; continues b0488 sweep)
+2026-05-03T09:09:30Z	batch-0489	git pull --ff-only: Already up to date.
+2026-05-03T09:09:30Z	batch-0489	approvals.yaml read OK; phase_5_judgments approved+incomplete (parser_v0.3.2; reparse_first=true); budgets 0/2000 fetches, 0/1000000 tokens
+2026-05-03T09:09:30Z	batch-0489	reparse-first inventory: ZMCC raw-on-disk no-record candidates =86 (b0488 written 2 → 87; b0489 written 3 → 84... actually 89 → 87 → 84 still missing); ZMSC 24 records (no missing); SCZ-pilot 1; total written records 80→83
+2026-05-03T09:09:30Z	batch-0489	targets (b0488 recommended slice DESC, skipping OCR-pending {16}): zmcc/2022/{20, 11, 10, 9, 8, 7, 6, 5}
+2026-05-03T09:09:30Z	batch-0489	written=3 (zmcc/2022/{20, 8, 5}); deferred=5 (zmcc/2022/{11, 10, 9, 7, 6}, all html_no_summary_pdf_no_match)
+2026-05-03T09:09:30Z	batch-0489	yield 3/8 (37.5%); v0.3.2 cumulative 5/16 (31%) across b0488+b0489
+2026-05-03T09:09:30Z	batch-0489	integrity check PASS (83/83 unique IDs; 83/83 provenance complete; 83/83 source_hash shape OK; 83/83 source_hash resolves; 6/6 spot-recompute seed=489; 0 unresolved Phase-5 cross-refs; 0 unresolved judges; 0 bad-outcome; raw 3203 files / 2926 unique sha256; court breakdown ZMCC=58 ZMSC=24 SCZ-pilot=1)
+2026-05-03T09:09:30Z	batch-0489	gaps.md amended: 3 RESOLVED lines under existing zmcc/2022/{20, 8, 5} entries; 1 new ## Batch 0489 section appended; 5 new deferral entries documented
+2026-05-03T09:09:30Z	batch-0489	Phase 5 progress: 80 → 83 records (target 100-160). Five-consecutive-zero-discovery completion criterion remains UN-FIRED.
+2026-05-03T09:09:30Z	batch-0489	parser_v0.3.2 baseline file unchanged (scripts/batch_0488_parse.py); b0489 copy at scripts/batch_0489_parse.py edits only the WORK directory (_work/b0488 → _work/b0489)
+2026-05-03T09:09:30Z	batch-0489	B2 sync deferred to host (rclone not in sandbox)

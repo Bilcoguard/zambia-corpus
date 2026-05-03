@@ -117,9 +117,13 @@ judges:
   - title: JC
     first_seen_in: judgment-zm-2024-zmcc-14-michelo-chizombe-v-edgar-chagwa-lungu-and-ors
     first_seen_at: '2026-04-29T16:06:58Z'
+  - title: JCC
+    first_seen_in: judgment-zm-2022-zmcc-08-kafwaya-v-katonga-and-ors
+    first_seen_at: '2026-05-03T09:06:49Z'
   aliases:
   - Mulonda JJC
   - Mulonda JC
+  - Mulonda JCC
   first_seen: '2026-04-29T15:39:07Z'
 - canonical_name: Mulongoti
   titles:

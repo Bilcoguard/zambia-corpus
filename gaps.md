@@ -2539,6 +2539,7 @@ fresh limitation hit this tick: a fully scanned final PDF
   protection under Article 189." Held for parser_v0.3.2
   widening. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2022/20/eng@2022-09-21.
+  RESOLVED in batch-0489 (parser_v0.3.2). Outcome: `dismissed`. Detail: "The Petition is accordingly dismissed". Source: pdf-tail-2pages (v031-tail dismissed pattern). Three-judge bench (parse_judges_v032 no-comma fix): Munalula JCC, Mulenga JCC, Chisunka JCC — all resolved against existing canonical entries in `judges_registry.yaml`. URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/20/eng@2022-09-21.
 
 - **[2022] ZMCC 18** (Malanji and Anor v Attorney General and
   Anor (CCZ 18 of 2022), 2022-09-07) — reason:
@@ -2618,6 +2619,7 @@ Each deferral carries a SPECIFIC reason code per approvals.yaml `deferral_reason
   Summary head: "Appellate court reversed nullification: petitioners failed to prove bribery and widespread undue influence to required high standard."
   Caught by the b0368 defensive guard (single judge object inferred but ≥2 judicial-title tokens detected in raw `judges_text`, indicating space-separated 2022-format that the comma-splitter collapsed).
   URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/8/eng@2022-04-13.
+  RESOLVED in batch-0489 (parser_v0.3.2). Outcome: `allowed`. Detail: "mandatory requirement of section 97(2)(a) of the Act, the appeal succeeds". Source: pdf-tail-2pages (v031-tail succeeds pattern). Five-judge bench (parse_judges_v032 no-comma fix): Sitali JCC, Mulenga JCC, Mulonda JCC, Munalula JCC, Mulongoti JCC — all resolved against existing canonical entries. URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/8/eng@2022-04-13.
 - zmcc/2022/6 — Malanji v Mulenga and Anor — `html_no_summary_pdf_no_match`.
   Summary head: "Whether an appellate court should admit fresh evidence under s25(1)(b) where documents were available before trial."
   URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/6/eng@2022-02-24.
@@ -2639,6 +2641,7 @@ Each deferral carries a SPECIFIC reason code per approvals.yaml `deferral_reason
 
 - **[2022] ZMCC 7** (Law Association of Zambia v Attorney-General, 2022-03-22) — reason: `html_no_summary_pdf_no_match`. Summary head: "A Member of Parliament whose election is nullified and who appeals to the Constitutional Court retains the seat pending determination of the appeal." Declaratory operative verb not in `SUMMARY_PATTERNS`; PDF tail produced no safe match. URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/7/eng@2022-03-22.
 - **[2022] ZMCC 5** (Moyo v Attorney-General, 2022-02-28) — reason: `parser_v0.3.1_judges_no_comma_unhandled`. Raw judges_text: `Sitali JCC Mulenga JCC Mulonda JCC Munalula JCC Chisunka JC`. Summary head: "Disciplinary discharge does not trigger Article 189(2) payroll retention; payment was a pension refund, not a pension benefit." Held for parser_v0.3.2 widening. URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/5/eng@2022-02-28.
+  RESOLVED in batch-0489 (parser_v0.3.2). Outcome: `dismissed`. Detail: "We therefore decline to grant the Petitioner the …". Source: pdf-tail-2pages (v031-tail decline-to-grant pattern). Five-judge bench (parse_judges_v032 no-comma fix): Sitali JCC, Mulenga JCC, Mulonda JCC, Munalula JCC, Chisunka JC — all resolved against existing canonical entries. URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/5/eng@2022-02-28.
 - **[2022] ZMCC 4** (Chapter One Foundation Ltd v Attorney-General, 2022-02-25) — reason: `parser_v0.3.1_judges_no_comma_unhandled`. Raw judges_text: `Chibomba PC Mulenga JCC Munalula JCC Musaluke JCC Mulongoti JCC`. Summary head: "Presidential assent within Article 66 timeframes remains valid after Parliament's dissolution." Held for parser_v0.3.2 widening. URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/4/eng@2022-02-25.
 - **[2022] ZMCC 3** (Shah and Anor v The Attorney-General, 2022-01-25) — reason: `parser_v0.3.1_judges_no_comma_unhandled`. Raw judges_text: `Mulenga JCC Mulonda JCC Munalula JCC Musaluke JCC Mulongoti JCC`. Summary head: "Petition alleging selective non-payment by the Attorney General dismissed; Compensation Fund regime governs state judgment debt payments." Held for parser_v0.3.2 widening. URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/3/eng@2022-01-25.
 - **[2022] ZMCC 2** (Lieutenant Muchindu v Attorney-General, 2022-01-27) — reason: `parser_v0.3.1_judges_no_comma_unhandled`. Raw judges_text: `Mulenga JCC Mulonda JCC Musaluke JCC`. Summary head: "Whether unpaid non-statutory terminal benefits entitle a retiree to payroll retention under Article 189(2)." Interpretive — operative verb not present in summary; held for parser_v0.3.2 widening. URL: https://zambialii.org/akn/zm/judgment/zmcc/2022/2/eng@2022-01-27.
@@ -2853,3 +2856,85 @@ pending Peter's confirmation of the canonical source URL pattern
 on ZambiaLII; until then, scheduled ticks continue reparse-first
 only.
 
+## Batch 0489 — REPARSE PASS under parser_v0.3.2, continuation (2026-05-03)
+
+Second v0.3.2 reparse tick after the b0488 launch. Continues the DESC sweep
+down the zmcc/2022 backlog per b0488's recommendation, skipping the OCR-pending
+`zmcc/2022/16`. Targets: zmcc/2022/{20, 11, 10, 9, 8, 7, 6, 5}. Records written:
+3 (zmcc/2022/{20, 8, 5}). Records deferred: 5 (zmcc/2022/{11, 10, 9, 7, 6}),
+all `html_no_summary_pdf_no_match`. Zero fresh fetches.
+
+### Resolved (raw retained per audit policy)
+
+See cross-references on the original deferred entries above for
+zmcc/2022/{20, 8, 5}. Yield this batch: 3/8 (37.5%) — improvement on b0488's
+2/8 (25%), reflecting the cumulative effect of `parse_judges_v032` clearing
+the judges_no_comma blocker on three of the five-judge benches whose operative
+verbs were already in v0.3.1 vocabulary (the v0.3.1 outcome resolver was
+running, but the v0.3.1 judges parser was failing first and short-circuiting
+the whole record).
+
+### New deferrals under parser_v0.3.2 (raw retained on disk; specific reason codes per `deferral_reasons_locked`)
+
+- **[2022] ZMCC 11** (Chisanga and Anor v Electoral Commission of Zambia,
+  2022-05-16) — reason: `html_no_summary_pdf_no_match`. Summary head:
+  "Filing the record of appeal outside the 30-day period without leave
+  renders the appeal incompetent and dismissible." Declaratory holding
+  ("dismissible" is a future-conditional declaration, not an operative
+  disposition); operative paragraph absent from the extracted PDF tail
+  under v0.3.2 vocabulary. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/11/eng@2022-05-16.
+
+- **[2022] ZMCC 10** (Lungu v Attorney General and Ors, 2022-05-19) —
+  reason: `html_no_summary_pdf_no_match`. Summary head: "Constitutional
+  Court may stay criminal proceedings pending determination of
+  constitutional questions, including where immunity or nolle prosequi
+  is alleged." Declaratory; no operative-disposition verb match in summary
+  or PDF tail. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/10/eng@2022-05-19.
+
+- **[2022] ZMCC 9** (Tembo (party-president) v Attorney General,
+  2022-03-14) — reason: `html_no_summary_pdf_no_match`. Summary head:
+  "Whether non-publication of presidential asset declarations breached
+  Article 52(3) absent statutory prescription." Interpretive declaratory;
+  no operative-verb match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/9/eng@2022-03-14.
+
+- **[2022] ZMCC 7** (Law Association of Zambia v Attorney-General,
+  2022-03-22) — reason: `html_no_summary_pdf_no_match`. Summary head:
+  "A Member of Parliament whose election is nullified and who appeals to
+  the Constitutional Court retains the seat pending determination of the
+  appeal." Declaratory; no operative-verb match. Already classified the
+  same way under v0.3.1 in b0371; v0.3.2 confirms the diagnosis (no
+  v0.3.2 vocabulary widens this style of MP-seat-retention holding). URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/7/eng@2022-03-22.
+
+- **[2022] ZMCC 6** (Malanji v Mulenga and Anor, 2022-02-24) — reason:
+  `html_no_summary_pdf_no_match`. Summary head: "Whether an appellate
+  court should admit fresh evidence under s25(1)(b) where documents were
+  available before trial." Interpretive; no operative-verb match. URL:
+  https://zambialii.org/akn/zm/judgment/zmcc/2022/6/eng@2022-02-24.
+
+### Recommendation
+
+Yield-trend so far across two v0.3.2 reparse ticks (b0488: 2/8; b0489: 3/8;
+combined: 5/16 = 31%) confirms the v0.3.2 launch is producing meaningful
+records on the prior judges_no_comma backlog without regressions. The
+pattern of remaining deferrals is `html_no_summary_pdf_no_match` for
+declaratory / interpretive constitutional rulings — the same profile
+b0371-b0374 hit under v0.3.1, now confirmed to also resist v0.3.2's
+widened vocabulary. Three options for further yield, ranked by leverage:
+
+  1. Continue the DESC sweep down zmcc/2022/{4, 3, 2, 1} + zmcc/2021/21
+     to clear the remaining judges_no_comma candidates (4, 3, 2 explicitly
+     carry `parser_v0.3.1_judges_no_comma_unhandled` per b0371 gaps.md).
+     Highest expected yield in the remaining v0.3.2-addressable inventory.
+  2. Targeted vocabulary widening for declaratory operative phrases (e.g.,
+     "<X> retains the seat pending determination", "<X> is amenable to
+     <Y>") — high precision, requires per-case review and Peter approval
+     per BRIEF.md non-negotiable on parser vocabulary changes.
+  3. ZMSC older-year sweep — Peter approved 2026-05-03 in principle, URL
+     pattern pending confirmation; not actionable by scheduled tick until
+     URL confirmed.
+
+Next scheduled tick (b0490) should pick up option 1.

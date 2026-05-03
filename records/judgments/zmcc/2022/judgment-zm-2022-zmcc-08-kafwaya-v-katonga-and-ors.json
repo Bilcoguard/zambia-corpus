@@ -1,0 +1,54 @@
+{
+  "id": "judgment-zm-2022-zmcc-08-kafwaya-v-katonga-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Kafwaya v Katonga and Ors (CCZ/A 20 of 2021) [2022] ZMCC 8 (13 April 2022)",
+  "citation": "[2022] ZMCC 8",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Kafwaya v Katonga and Ors",
+  "case_number": "CCZ/A 20 of 2021",
+  "date_decided": "2022-04-13",
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Munalula",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Electoral law",
+    "s.97(2)(a) E.P\nAct",
+    "twofold high standard: candidate liability (personal or by named agent) and widespread effect on majority voters",
+    "necessity of corroboration for partisan witness evidence",
+    "appellate intervention where trial judge fills evidential gaps"
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "mandatory requirement of section 97(2)(a) of the Act, the appeal succeeds",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "cc4a710a0935226fea53099bacbe2f9465b92e807e1bf64983b8470e959e1fc3",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/8/eng@2022-04-13",
+  "source_hash": "sha256:996033b5c1367ce65a80a76a8e4f842287f5ea31b169e095cbc6fdf6f47e38c9",
+  "fetched_at": "2026-05-03T09:06:47Z",
+  "parser_version": "0.3.2"
+}

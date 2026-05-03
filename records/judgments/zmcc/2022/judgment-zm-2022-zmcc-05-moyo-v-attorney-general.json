@@ -1,0 +1,55 @@
+{
+  "id": "judgment-zm-2022-zmcc-05-moyo-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Moyo v Attorney General (CCZ 6 of 2021) [2022] ZMCC 5 (28 February 2022)",
+  "citation": "[2022] ZMCC 5",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Moyo v Attorney General",
+  "case_number": "CCZ 6 of 2021",
+  "date_decided": "2022-02-28",
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Munalula",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Article 189(2)",
+    "retention on payroll until pension payment",
+    "pension benefit v. pension refund",
+    "disciplinary discharge not equivalent to retirement",
+    "Public Service Pensions Act No. 35 of 1996 supersedes earlier pensions regulations."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "We therefore decline to grant the Petitioner the",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "15f555a62fac32981489a5e10146a0174d61620fe73947828c374fcb2e610679",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/5/eng@2022-02-28",
+  "source_hash": "sha256:f9aaea4ea9dcedabc04325503e54f1901ba8c9add0a4e44159fb58425751d3a8",
+  "fetched_at": "2026-05-03T09:06:49Z",
+  "parser_version": "0.3.2"
+}
