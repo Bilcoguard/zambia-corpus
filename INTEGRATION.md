@@ -1,6 +1,6 @@
 # INTEGRATION.md — Zambian Authorities Corpus → Kate Weston Legal plugin v15.1+
 
-**Status:** Phase 7 batch 1 (initial draft — sections in progress)
+**Status:** Phase 7 batch 2 (API reference + data coverage + 5 example scripts complete; specialist patterns / citation-verification / limitations remain stubbed for next batch)
 **Generated:** 2026-05-03 (UTC)
 **Corpus snapshot:** 1,791 records, FTS5 index 1,791 rows, 221 citation edges
 **Query API:** `scripts/query_corpus.py` v1.0 (Phase 6 deliverable #3)
@@ -9,8 +9,9 @@
 
 > Phase 7 in BRIEF.md mandates that **every figure in this document is computed
 > live against `corpus.sqlite`** at the time of the most recent commit. The
-> integrity check at `scripts/integrity_check_b0512.py` re-derives every count
-> below from the live DB and refuses to commit if any value drifts.
+> integrity check at `scripts/integrity_check_b0513.py` re-derives every count
+> below from the live DB AND runs each implemented example script end-to-end,
+> refusing to commit if any value drifts or any example errors out.
 
 ---
 
@@ -388,13 +389,32 @@ same read-only access pattern as `query_corpus.py`.
 |--------|--------|
 | `examples/corpus_search.py` | Implemented in batch 0512 |
 | `examples/statute_interpretations.py` | Implemented in batch 0512 |
-| `examples/amendment_chain.py` | Pending (next batch) |
-| `examples/judge_decision_profile.py` | Pending |
-| `examples/citation_chain.py` | Pending |
+| `examples/amendment_chain.py` | Implemented in batch 0513 |
+| `examples/judge_decision_profile.py` | Implemented in batch 0513 |
+| `examples/citation_chain.py` | Implemented in batch 0513 |
 
 Run any implemented example directly:
 
 ```bash
 python examples/corpus_search.py "shareholder" --type judgment --limit 5
 python examples/statute_interpretations.py act-zm-2017-010-companies
+python examples/amendment_chain.py act-zm-1994-026-companies-act-1994
+python examples/judge_decision_profile.py Sitali --limit 10
+python examples/citation_chain.py act-zm-1994-026-companies-act-1994 --depth 2
 ```
+
+Each script defaults to a known non-empty example so a specialist can run
+it with no arguments to confirm the corpus is wired up correctly:
+
+* `corpus_search.py` requires a query string (no useful default).
+* `statute_interpretations.py` defaults to `act-zm-2017-010-companies` —
+  returns an empty list under current parser coverage; the script prints
+  the [Limitations](#limitations) caveat instead of erroring.
+* `amendment_chain.py` defaults to `act-zm-1994-026-companies-act-1994` —
+  prints 1 `repealed_by` Act + 3 subsidiary SIs.
+* `judge_decision_profile.py` defaults to `Mulongoti` — the
+  highest-volume judge in the current corpus (36 judgments under
+  parser_v0.3.2).
+* `citation_chain.py` defaults to `act-zm-1994-026-companies-act-1994`
+  — same non-empty chain as `amendment_chain.py` viewed through the
+  `query_corpus.cited_by` / `citations_of` lens, with optional 2-hop walk.
