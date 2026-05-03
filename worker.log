@@ -5192,3 +5192,47 @@ Recommend extending the FIRST step lock cleanup glob to include "*.lock.bak.*".
 2026-05-03T01:38:37Z  batch-0475 B2 sync deferred to host (rclone not in sandbox)
 2026-05-03T01:38:37Z  batch-0475 stale .git/index.lock (host-locked) renamed to .git/index.lock.bak.b0475_pre_commit.* and stale .git/HEAD.lock unlink-denied warning carry-forward; commit + push completed cleanly.
 2026-05-03T01:38:37Z  batch-0475 commit d6f8b6e pushed cleanly to origin/main; B2 sync deferred to host (rclone not in sandbox); SQLite ingestion deferred (FTS5 malformed-disk-image carry-forward). Phase 5 appears complete, awaiting human confirmation (criterion fired in batch-0379; re-affirmed every substantive tick since; approvals.yaml not modified per Phase 5 human-only confirmation rule).
+2026-05-03T01:39:14Z  batch-0475 post-push log commit f937e42 pushed cleanly to origin/main (d6f8b6e..f937e42); HEAD == origin/main verified. Tick complete.
+
+[2026-05-03 TICK ABORT] git pull --ff-only failed.
+Error: fatal: bad object refs/remotes/origin/main.lock.bak.b0475_post3.20260503T013905Z
+       https://github.com/Bilcoguard/zambia-corpus.git did not send all necessary objects
+       warning: unable to unlink '.git/objects/maintenance.lock': Operation not permitted
+
+ROOT CAUSE: Stale .lock.bak.* refs accumulating under .git/refs/remotes/origin/.
+The cleanup pattern in this scheduled task ("*.lock" and "*.lock.bak") does NOT
+match files like "main.lock.bak.20260502T140620Z" (timestamp suffix after .lock.bak).
+git fetch tries to fetch their corresponding objects from the remote, fails, and
+aborts the pull. Also a permission-denied on .git/objects/maintenance.lock blocks
+git's own housekeeping.
+
+Stale refs currently present (12):
+  - main.lock.bak.20260502T140620Z
+  - main.lock.bak.20260502T163547Z
+  - main.lock.bak.b0464_post3.20260502T190544Z
+  - main.lock.bak.b0467_post.20260502T210550Z
+  - main.lock.bak.b0473_post.20260503T003600Z
+  - main.lock.bak.b0474_pp.20260503T010852Z
+  - main.lock.bak.b0475_post3.20260503T013905Z
+  - main_stale.20260502T173619Z.bak
+  - test_create_2.txt
+  - test_perm
+  - zztrash-main-bak2
+
+REMEDIATION (human, on host where git/.git is writable):
+  cd ~/KateWestonCorpus/corpus
+  find .git/refs/remotes/origin -name 'main.lock.bak.*' -delete
+  find .git/refs/remotes/origin -name '*_stale.*' -delete
+  rm -f .git/refs/remotes/origin/zztrash-main-bak2 .git/refs/remotes/origin/test_*
+  rm -f .git/objects/maintenance.lock
+  git gc --prune=now
+  git pull --ff-only
+
+SUGGESTED PATCH to scheduled-task SKILL.md step 0:
+  find .git -name "*.lock" -delete 2>/dev/null
+  find .git -name "*.lock.bak*" -delete 2>/dev/null   # add trailing * to catch timestamped backups
+  find .git/refs -name "*_stale.*" -delete 2>/dev/null
+
+Tick stopped per non-negotiables. No batch run, no commit, no push.
+
+2026-05-03T02:37:35Z  batch-0476 audit-only PASS  inv=78/78  prov=78/78  shape=78/78  resolves=78/78  spot=6/6 (seed=476)  refs_unresolved=0  approvals.yaml-unchanged-since-b24a938  gaps.md-unchanged-since-61d666e  pull-recovery=orphan-ref-b0475_post3.20260503T013905Z-healed-f937e42  101st-substantive-consecutive-audit-only-tick
