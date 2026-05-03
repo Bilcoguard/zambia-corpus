@@ -3430,3 +3430,4 @@ raw_persisted judgment-zm-2025-zmcc-27-munir-zuu-and-anor-v-attorney-general-and
 2026-05-03T06:36:15Z  batch-0484 integrity check PASS (78/78 ids unique; 78/78 provenance; 78/78 source_hash resolves; 6/6 spot-recompute seed=484; raw 3203 files / 2926 unique sha256)
 2026-05-03T06:36:57Z  batch-0484 push OK; B2 sync deferred to host
 2026-05-03T07:05:30Z	batch-0485	audit-only	records=78	written=0	deferred=0	sha_index=3203files/2926unique	spot=6/6(seed=485)	xrefs_unresolved=0	approvals.yaml=b24a938(unchanged)	gaps.md=61d666e(unchanged)
+2026-05-03T07:33:33Z	batch-0486	audit-only	records=78	written=0	deferred=0	sha_index=3203files/2926unique	spot=6/6(seed=486)	xrefs_unresolved=0	approvals.yaml=b24a938(unchanged)	gaps.md=61d666e(unchanged)
