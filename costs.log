@@ -5580,3 +5580,5 @@
 2026-05-03T09:01:44Z	09eafb0	batch-0488 push OK
 2026-05-03T09:01:44Z	batch-0488 B2 sync deferred to host (rclone not in sandbox)
 2026-05-03T09:09:30Z	batch-0489	fetches=0	records_written=3	records_deferred=5	cumulative_today=0/2000	reason=parser_v0.3.2-second-reparse-pass-zmcc-2022-DESC-continues-b0488-sweep-judges_no_comma-resolver-clears-three-five-judge-benches-yield-3-of-8
+2026-05-03T09:13:40Z  811587a  batch-0489 push OK (18a8930..811587a)
+2026-05-03T09:13:40Z  batch-0489 B2 sync deferred to host (rclone not in sandbox)

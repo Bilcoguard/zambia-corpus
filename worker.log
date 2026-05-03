@@ -5299,3 +5299,7 @@ Tick stopped per non-negotiables. No batch run, no commit, no push.
 2026-05-03T09:09:30Z	batch-0489	Phase 5 progress: 80 → 83 records (target 100-160). Five-consecutive-zero-discovery completion criterion remains UN-FIRED.
 2026-05-03T09:09:30Z	batch-0489	parser_v0.3.2 baseline file unchanged (scripts/batch_0488_parse.py); b0489 copy at scripts/batch_0489_parse.py edits only the WORK directory (_work/b0488 → _work/b0489)
 2026-05-03T09:09:30Z	batch-0489	B2 sync deferred to host (rclone not in sandbox)
+2026-05-03T09:13:40Z  batch-0489 commit 811587a OK
+2026-05-03T09:13:40Z  batch-0489 push OK to origin/main (18a8930..811587a)
+2026-05-03T09:13:40Z  batch-0489 stale .git lock carry-forward: .git/index.lock (zero-length, host-locked) renamed to .git/index.lock.bak.b0489_pre_commit.* per established pattern; .git/HEAD.lock + .git/objects/maintenance.lock + multiple tmp_obj files unlink-denied warnings emitted but commit + push completed cleanly.
+2026-05-03T09:13:40Z  batch-0489 commit 811587a pushed cleanly to origin/main; B2 sync deferred to host (rclone not in sandbox); SQLite ingestion deferred (FTS5 malformed-disk-image carry-forward). Phase 5 progress 80->83 (target 100-160). parser_v0.3.2 cumulative across b0488+b0489: 5 records written (5/16 yield = 31%).
