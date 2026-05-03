@@ -1534,10 +1534,12 @@ Reason: outcome_not_inferable_under_tightened_policy (parser_version 0.3.0). Raw
 
 - [2024] ZMCC 13 (2024-06-28) — https://zambialii.org/akn/zm/judgment/zmcc/2024/13/eng@2024-06-28
   - RECLASSIFIED in batch-0374 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. ZIALE constitutional challenge dismissed-for-lack; operative construction does not match `SUMMARY_PATTERNS`; PDF tail produced no safe match. Held for parser_v0.3.2 widening.
+  - RECONFIRMED-DEFERRED in batch-0492 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; "dismissed for lack of constitutional breach" frames the operative noun ("constitutional breach") inside a non-vocabulary noun position that v0.3.2's `dismissed-for-(lack|failing|want|failure)` regex still cannot bind to. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 - [2024] ZMCC 11 (2024-06-17) — https://zambialii.org/akn/zm/judgment/zmcc/2024/11/eng@2024-06-17
   - RESOLVED in batch-0374 (parser_v0.3.1, 2026-04-30) — outcome `dismissed` via the `pdf-tail-2pages` fallback. Three-judge bench (Shilimi DPC; Mulongoti, Mulife JJC). Record ID: `judgment-zm-2024-zmcc-11-sean-tembo-suing-in-his-capacity-as-the-president`.
 - [2024] ZMCC 10 (2024-06-25) — https://zambialii.org/akn/zm/judgment/zmcc/2024/10/eng@2024-06-25
   - RECLASSIFIED in batch-0374 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. Declaratory ruling on Leader of Opposition election; no operative-verb match in summary, no PDF anchor or tail match. Held for parser_v0.3.2 widening.
+  - RECONFIRMED-DEFERRED in batch-0492 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; pure declaratory ratio statement on opposition leadership election — no operative verb in either pool. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 - [2024] ZMCC 8 (2024-06-07) — https://zambialii.org/akn/zm/judgment/zmcc/2024/8/eng@2024-06-07
 - [2024] ZMCC 7 (2024-06-06) — https://zambialii.org/akn/zm/judgment/zmcc/2024/7/eng@2024-06-06
 - [2024] ZMCC 6 (2024-04-16) — https://zambialii.org/akn/zm/judgment/zmcc/2024/6/eng@2024-04-16
@@ -1551,6 +1553,7 @@ All five raw HTML+PDF pairs persisted under `raw/zambialii/judgments/zmcc/2024/`
 - **[2024] ZMCC 4** — Moses Sakala v The Attorney General and Another (2024-02-23). Summary: "Intended Party joined as 3rd Respondent because the reliefs directly affect him; no costs awarded."
 - **[2024] ZMCC 3** — Hastings Mwila v Local Authorities Superannuation Fund (2024-02-09). Summary: "Whether the petitioner should have remained on the respondent's payroll pending payment of a commuted LASF lump-sum pension benefit."
 - **[2024] ZMCC 2** — Institute of Law, Policy Research and Human Rights (2024-01-17). Summary: "An individual directly affected by interpretation of Article 74(2) may be joined as an interested party to adjudicate rights and issues."
+  - RECONFIRMED-DEFERRED in batch-0492 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; "may be joined as an interested party" is a declaratory joinder construction with no v0.3.2/v0.3.1 operative-verb match. URL: https://zambialii.org/akn/zm/judgment/zmcc/2024/2/eng@2024-01-17. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 - **[2024] ZMCC 1** — Bowman Chilosha Lusambo v Bernard Kanengo and Others (2024-01-25). Summary: "Nomination disputes belong to Article 52(4) proceedings; election petitions require proving substantial non‑compliance affecting results."
 
 ## 2026-04-29 — batch-0352 deferrals (Phase 5, ZMCC 2023)
@@ -2055,12 +2058,14 @@ PDF_ORDER_ANCHORS, and PDF_TAIL_PATTERNS without a safe match.
   opposing affidavit, depriving Court of jurisdiction under Order
   14A." URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2024/8/eng@2024-06-07.
+  - RECONFIRMED-DEFERRED in batch-0492 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; "notice of motion dismissed" subject/disposition token still outside both v0.3.2 and v0.3.1 SUMMARY/TAIL pattern pools. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2024] ZMCC 7** (Sandras Samakayi v Attorney General,
   2024-06-06). Reason: `html_no_summary_pdf_no_match`. Summary
   head: "A judicial officer who declines retirement at 55 may only
   retire upon attaining 65, not at any intervening age." URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2024/7/eng@2024-06-06.
+  - RECONFIRMED-DEFERRED in batch-0492 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; pure declaratory ratio (retirement-age construction) carries no operative-verb match in either v0.3.2 or v0.3.1 patterns. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2024] ZMCC 6** (Conservation Advocates Zambia Limited v The
   Attorney General, 2024-04-16). Reason:
@@ -2069,6 +2074,7 @@ PDF_ORDER_ANCHORS, and PDF_TAIL_PATTERNS without a safe match.
   statutory, not constitutional, matters; statutory remedies and
   ordinary courts appropriate." URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2024/6/eng@2024-04-16.
+  - RECONFIRMED-DEFERRED in batch-0492 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; "dismissed as statutory" jurisdictional-disposition framing falls outside v0.3.2's `dismissed-for-X` procedural set (which still requires "lack/failing/want/failure"). Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2024] ZMCC 5** (Milingo Lungu v The Attorney General and
   Another, 2024-03-15). Reason: `html_no_summary_pdf_no_match`.
@@ -2076,12 +2082,14 @@ PDF_ORDER_ANCHORS, and PDF_TAIL_PATTERNS without a safe match.
   subordinate criminal proceedings; the single judge's stay was
   nullified and discharged." URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2024/5/eng@2024-03-15.
+  - RECONFIRMED-DEFERRED in batch-0492 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; "stay … nullified and discharged" disposition phrase still outside both pattern pools (v0.3.2's `court refused stay` resolver requires the active-refusal form, not "nullified and discharged"). Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2024] ZMCC 4** (Moses Sakala v The Attorney General and
   Another, 2024-02-23). Reason: `html_no_summary_pdf_no_match`.
   Summary head: "Intended Party joined as 3rd Respondent because
   the reliefs directly affect him; no costs awarded." URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2024/4/eng@2024-02-23.
+  - RECONFIRMED-DEFERRED in batch-0492 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; "joined as 3rd Respondent" is an interlocutory joinder disposition with no operative verb in v0.3.2 or v0.3.1 vocabularies. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 These six can be re-attempted in a future tick if either (a) the
 SUMMARY_PATTERNS / PDF_TAIL_PATTERNS lexicon is widened to recognise

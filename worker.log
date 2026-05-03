@@ -5316,3 +5316,8 @@ Tick stopped per non-negotiables. No batch run, no commit, no push.
 2026-05-03T10:09:10Z	batch-0491 integrity check PASS (89/89 records: unique IDs, 4-field provenance, sha256 shape, on-disk resolution; spot-recompute 6/6 seed=491; 0 unresolved xrefs; 205/205 judges resolve; v0.3.x outcome enum 0 invalid)
 2026-05-03T10:09:10Z	batch-0491 gaps.md: 8 RECONFIRMED-DEFERRED notes appended under original parser_v0.3.1 deferred-list entries; no deletions
 2026-05-03T10:10:10Z	batch-0491 complete. Phase 5 progress 89->89 (target 100-160; 11 short of low end). parser_v0.3.2 cumulative across b0488+b0489+b0490+b0491: 11 records / 32 attempted = 34.4% yield. ZMCC 2022 reparse-first inventory now formally exhausted under v0.3.2.
+2026-05-03T10:38:30Z  batch-0492 START — Phase 5 reparse pivot to ZMCC 2024
+2026-05-03T10:38:47Z  batch-0492 parser_v0.3.2 run complete: 8 targets / 0 written / 8 deferred (all html_no_summary_pdf_no_match — re-confirmed under v0.3.2 widened vocabulary; 2024 cohort is declarative/interpretive, structurally distinct from 2022 success cohort)
+2026-05-03T10:38:47Z  batch-0492 integrity check PASS (89/89 records: unique IDs, 4-field provenance, sha256 shape, on-disk resolution; spot-recompute 6/6 seed=492; 0 unresolved xrefs)
+2026-05-03T10:38:47Z  batch-0492 gaps.md: 8 RECONFIRMED-DEFERRED notes appended under original gaps.md entries (3 under batch-0350 entries, 1 under batch-0351 entry, 4 under batch-0364 detailed entries); no deletions
+2026-05-03T10:38:47Z  batch-0492 B2 sync deferred to host (rclone not in sandbox)
