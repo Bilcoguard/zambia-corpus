@@ -5331,3 +5331,5 @@ Tick stopped per non-negotiables. No batch run, no commit, no push.
 [2026-05-03T11:13:00Z] batch-0493 gaps.md: 3 RESOLVED-in-batch-0493 lines appended under prior-deferred entries (zmcc/2025/{32, 25, 22}); 5 RECONFIRMED-DEFERRED-in-batch-0493 lines appended (zmcc/2025/{33, 28, 24, 21, 19}); no deletions per audit policy. New `## Batch 0493 — REPARSE PASS under parser_v0.3.2, ZMCC 2025 pivot (2026-05-03)` section appended at end.
 [2026-05-03T11:13:00Z] batch-0493 B2 sync deferred to host (rclone not in sandbox).
 [2026-05-03T11:13:00Z] batch-0493 Phase 5 progress 89 -> 92 (target 100-160; 8 short of low end). Cumulative v0.3.2 yield (b0488..b0493): 14 records / 48 attempted = 29.2%. Five-consecutive-zero-discovery completion criterion remains UN-FIRED. approvals.yaml NOT modified per Phase 5 human-only confirmation rule.
+[2026-05-03T11:46:30Z] batch-0493 commit 82bf849 OK (11 files / 1038 insertions); push OK to origin/main (2573c70..82bf849); HEAD == origin/main verified. Tick complete.
+[2026-05-03T11:46:30Z] batch-0493 B2 sync deferred to host (rclone not in sandbox).
