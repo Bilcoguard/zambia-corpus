@@ -5333,3 +5333,8 @@ Tick stopped per non-negotiables. No batch run, no commit, no push.
 [2026-05-03T11:13:00Z] batch-0493 Phase 5 progress 89 -> 92 (target 100-160; 8 short of low end). Cumulative v0.3.2 yield (b0488..b0493): 14 records / 48 attempted = 29.2%. Five-consecutive-zero-discovery completion criterion remains UN-FIRED. approvals.yaml NOT modified per Phase 5 human-only confirmation rule.
 [2026-05-03T11:46:30Z] batch-0493 commit 82bf849 OK (11 files / 1038 insertions); push OK to origin/main (2573c70..82bf849); HEAD == origin/main verified. Tick complete.
 [2026-05-03T11:46:30Z] batch-0493 B2 sync deferred to host (rclone not in sandbox).
+[2026-05-03T12:08:35Z] batch-0494 START — Phase 5 reparse continuation, ZMCC 2025 DESC sweep (next slice per b0493 recommendation)
+[2026-05-03T12:08:35Z] batch-0494 parser_v0.3.2 run complete: 8 targets / 0 written / 8 deferred (all html_no_summary_pdf_no_match — re-confirmed under v0.3.2; cohort is declaratory/ratio-style holding family with no disposition tokens)
+[2026-05-03T12:08:35Z] batch-0494 integrity check PASS: scripts/integrity_check_b0494.py reports `INTEGRITY CHECK: PASS (0 record(s))` (zero-write tick — vacuous on empty written array; full-corpus 92/92 records remain valid since nothing was written or modified)
+[2026-05-03T12:08:35Z] batch-0494 gaps.md: 8 RECONFIRMED-DEFERRED notes appended under original batch-0362 (nums 18,17,14) and batch-0363 (nums 11,10,9,8,7) entries; new ## Batch 0494 section appended at end of file; no deletions per audit policy
+[2026-05-03T12:08:35Z] batch-0494 B2 sync deferred to host (rclone not in sandbox)

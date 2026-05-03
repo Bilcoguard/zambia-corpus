@@ -1461,18 +1461,22 @@ Per BRIEF.md non-negotiable #1, the following 6 candidates could not safely be p
 
 ## Batch 0346 deferrals (2026-04-29)
 - **[2025] ZMCC 18** (zmcc 2025/18, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/18/eng@2025-09-30. Summary: "Whether a local authority resolution increasing advertising fees is a statutory instrument requiring gazetting and reporting under Articles 67 and 199."
+  - RECONFIRMED-DEFERRED in batch-0494 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; issue-style summary on advertising-fee statutory-instrument question carries no recognised disposition token in either pool. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
   - RECLASSIFIED in batch-0362 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. See "## Batch 0362 — REPARSE PASS" section below for the per-record entry. Cross-reference added retroactively in batch-0375 audit (2026-04-30).
 - **[2025] ZMCC 17** (zmcc 2025/17, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/17/eng@2025-08-27. Summary: "Petitioner had standing but challenge to parliamentary vacancy improperly filed in Constitutional Court; vacancy questions fall to High Court/tribunal under section 96 EPA."
+  - RECONFIRMED-DEFERRED in batch-0494 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; jurisdictional dismissal is implied ("vacancy questions fall to High Court/tribunal") but no operative-verb match in either v0.3.2 or v0.3.1 patterns. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
   - RECLASSIFIED in batch-0362 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. See "## Batch 0362 — REPARSE PASS" section below for the per-record entry. Cross-reference added retroactively in batch-0375 audit (2026-04-30).
 - **[2025] ZMCC 16** (zmcc 2025/16, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/16/eng@2025-08-25. Summary: "A single judge may grant an extension to file amicus materials; delay condoned in the interests of justice, but costs awarded."
   - RECLASSIFIED in batch-0362 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. See "## Batch 0362 — REPARSE PASS" section below for the per-record entry. Cross-reference added retroactively in batch-0375 audit (2026-04-30).
 - **[2025] ZMCC 15** (zmcc 2025/15, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/15/eng@2025-07-23. Summary: "A citizen acting in the public interest has standing to challenge alleged constitutional contraventions before the Constitutional Court."
   - RECLASSIFIED in batch-0362 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. See "## Batch 0362 — REPARSE PASS" section below for the per-record entry. Cross-reference added retroactively in batch-0375 audit (2026-04-30).
 - **[2025] ZMCC 14** (zmcc 2025/14, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/14/eng@2025-07-28. Summary: "Article 266 defines a child as any person below eighteen; attaining eighteen confers adult status under the Constitution."
+  - RECONFIRMED-DEFERRED in batch-0494 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; pure ratio-style summary on Article 266 child-definition; no disposition token in either pool. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
   - RECLASSIFIED in batch-0362 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. See "## Batch 0362 — REPARSE PASS" section below for the per-record entry. Cross-reference added retroactively in batch-0375 audit (2026-04-30).
 - **[2025] ZMCC 12** (zmcc 2025/12, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/12/eng@2025-06-27. Summary: "Court holds it can review pre‑Bill executive initiation of constitutional amendments and requires people‑driven wide consultations."
   - RECLASSIFIED in batch-0363 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. See "## Batch 0363 — REPARSE PASS" section below for the per-record entry. Cross-reference added retroactively in batch-0375 audit (2026-04-30).
 - **[2025] ZMCC 11** (zmcc 2025/11, deferred 2026-04-29): outcome_not_inferable_under_tightened_policy. URL: https://zambialii.org/akn/zm/judgment/zmcc/2025/11/eng@2025-06-19. Summary: "A pre-2016 pension dispute is a labour matter and outside the Constitutional Court’s jurisdiction."
+  - RECONFIRMED-DEFERRED in batch-0494 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; holding-style summary on jurisdictional bar (pre-2016 pension dispute); operative dismissal implied but not surfaced in any v0.3.2 / v0.3.1 SUMMARY/TAIL construction. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
   - RECLASSIFIED in batch-0363 (parser_v0.3.1, 2026-04-30) — specific reason `html_no_summary_pdf_no_match`. See "## Batch 0363 — REPARSE PASS" section below for the per-record entry. Cross-reference added retroactively in batch-0375 audit (2026-04-30).
 
 ## Batch 0347 — ZMCC 2025/{10,9,8,7,6,5,4,3} deferrals (parser_version 0.3.0)
@@ -1946,6 +1950,7 @@ Zero fresh fetches — all raw bytes already on disk.
   suspend the constitutional vacancy or by-election." Pure
   ratio-style holding; no disposition token. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2025/10/eng@2025-06-04.
+  - RECONFIRMED-DEFERRED in batch-0494 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; ratio-style holding on automatic vacancy from imprisonment; no disposition token in either pool. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2025] ZMCC 9** (The People v Attorney General (Ex Parte
   Nickson Chilangwa), 2024/CCZ/R001, 2025-02-10). Reason:
@@ -1954,6 +1959,7 @@ Zero fresh fetches — all raw bytes already on disk.
   appeals do not suspend that process." Same ratio twin to ZMCC 10
   on the parallel facts; same parser limitation. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2025/9/eng@2025-02-10.
+  - RECONFIRMED-DEFERRED in batch-0494 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; ratio-twin to ZMCC 10 (parallel facts); same parser limitation — no disposition token in either pool. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2025] ZMCC 8** (Richard Sakala v The Attorney General,
   2024/CCZ/0014, 2025-04-01). Reason: `html_no_summary_pdf_no_match`.
@@ -1962,6 +1968,7 @@ Zero fresh fetches — all raw bytes already on disk.
   dismissal." Holding-style summary on limitation doctrine; the
   operative outcome is not stated in a recognised form. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2025/8/eng@2025-04-01.
+  - RECONFIRMED-DEFERRED in batch-0494 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; holding-style summary on Limitation Act applicability with conditional disposition ("may justify dismissal"); conditional verb still not addressable under v0.3.2. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2025] ZMCC 7** (Munir Zulu v The Attorney General and Ors,
   2025/CCZ/0010, 2025-04-07). Reason:
@@ -1971,6 +1978,7 @@ Zero fresh fetches — all raw bytes already on disk.
   constitutional questions." Ratio-style summary; jurisdictional
   bar described but not in dismissal-pattern form. URL:
   https://zambialii.org/akn/zm/judgment/zmcc/2025/7/eng@2025-04-07.
+  - RECONFIRMED-DEFERRED in batch-0494 (parser_v0.3.2, 2026-05-03) — re-tested under v0.3.2's widened SUMMARY_PATTERNS_V032 and PDF_TAIL_PATTERNS_V032 vocabulary plus the ORDER_INTRO + window-scan resolver. Specific reason `html_no_summary_pdf_no_match` re-confirmed; jurisdictional ratio ("Constitutional Court has no jurisdiction under Article 128(2)"); described but not in dismissal-pattern form in either v0.3.2 or v0.3.1 patterns. Raw HTML+PDF retained on disk. Held for OCR pass / further parser widening / hand-curated review.
 
 - **[2025] ZMCC 6** (Miles Bwalya Sampa v Attorney General,
   2024/CCZ/0024, 2025-03-24). Reason:
@@ -3026,3 +3034,76 @@ deferrals here. Three options for further yield, in decreasing leverage:
      not actionable by scheduled tick until URL confirmed.
 
 Next scheduled tick (b0494) should pick up option 1.
+
+## Batch 0494 — REPARSE PASS continuation under parser_v0.3.2, ZMCC 2025 DESC sweep (2026-05-03)
+
+Reparse-first triage continuation per `approvals.yaml` `reparse_first`
+policy. Eight ZMCC 2025 raw HTML+PDF pairs already on disk (the next
+slice after b0493, descending through the 2025 backlog) were re-run
+against the parser_v0.3.2 baseline (`scripts/batch_0494_parse.py`,
+copied from `scripts/batch_0493_parse.py` with only `_work` directory
++ docstring batch reference updated). Zero fresh fetches.
+
+Targeted slice (continuation of deferred queue, num-DESC per b0493
+recommendation): `zmcc/2025/{18, 17, 14, 11, 10, 9, 8, 7}`. Records
+written: 0. Records deferred: 8, all `html_no_summary_pdf_no_match`
+(re-confirmation under v0.3.2 — the cohort is the declaratory /
+ratio-style holding family that has been resistant across both
+v0.3.1 and v0.3.2 widening). The two SUMMARY widenings that paid off
+in b0493 (`court refused stay`, `declaratory relief was academic`)
+do not appear in any of these eight summaries.
+
+### Cohort profile
+
+The eight candidates split into three structural families, all
+already characterised under their original batch-0362/0363 entries
+above:
+
+- **Pure ratio / interpretive holdings** (no disposition token): 14
+  ("Article 266 defines a child as any person below eighteen"), 17
+  ("vacancy questions fall to High Court/tribunal under section 96
+  EPA"), 18 ("whether a local authority resolution increasing
+  advertising fees is a statutory instrument"), 10 ("imprisonment
+  automatically vacates a parliamentary seat"), 9 (parallel ratio to
+  10), 7 ("Constitutional Court has no jurisdiction under Article
+  128(2)").
+- **Jurisdictional implied-dismissal**: 11 ("pre-2016 pension dispute
+  is a labour matter and outside the Constitutional Court's
+  jurisdiction") — operative dismissal implied but no v0.3.2/v0.3.1
+  SUMMARY/TAIL match.
+- **Conditional disposition**: 8 ("inordinate unexplained delay may
+  justify dismissal") — `may justify` is conditional / discretionary,
+  not a disposition.
+
+### Cumulative v0.3.2 yield
+
+Across b0488..b0494: **14 records written / 56 attempted = 25.0%**.
+
+| Batch | Cohort | Written | Attempted | Yield | Profile |
+|-------|--------|---------|-----------|-------|---------|
+| 0488  | ZMCC 2022 (judges_no_comma + html_no_summary, DESC entry) | 2 | 8 | 25.0% | parser-launch + in-batch regression patch |
+| 0489  | ZMCC 2022 (judges_no_comma DESC continuation) | 3 | 8 | 37.5% | five-judge benches with v031-tail operative phrases |
+| 0490  | ZMCC 2022 (judges_no_comma DESC completion) | 6 | 8 | 75.0% | judges_no_comma backlog cleared |
+| 0491  | ZMCC 2022 (html_no_summary untested-under-v0.3.2) | 0 | 8 | 0.0% | declaratory/interpretive — vocabulary-blind |
+| 0492  | ZMCC 2024 (num-ASC pivot)                       | 0 | 8 | 0.0% | declaratory/interlocutory — same blind spot |
+| 0493  | ZMCC 2025 (DESC pivot, num {33..19})            | 3 | 8 | 37.5% | two SUMMARY hits on Peter-targeted phrases + one PDF-tail hit |
+| 0494  | ZMCC 2025 (DESC continuation, num {18..7})      | 0 | 8 | 0.0% | declaratory / ratio-style cohort (this batch) |
+
+### Recommendation
+
+ZMCC 2025 num-DESC remaining-on-disk inventory below this slice
+(nums {6, 5, 2}) is small — three candidates, all previously deferred
+under batch-0364 `html_no_summary_pdf_no_match`. Continue the DESC
+sweep through them in b0495 to formally exhaust the ZMCC 2025
+reparse-first inventory under v0.3.2; then pivot to the unscanned
+ZMCC 2023 cohort (cohort size to be inventoried at b0495 prelude).
+The ZMSC older-year sweep remains pending Peter's URL pattern
+confirmation per `approvals.yaml.zmsc_older_year_sweep_approval_note`
+and is not actionable by scheduled tick until that confirmation lands.
+
+This is the third v0.3.2 zero-yield tick (b0491, b0492, b0494 — but
+not consecutive: b0493 wrote three records between them). The
+five-consecutive-zero-discovery completion criterion remains
+UN-FIRED (b0488/0489/0490 wrote, b0491/0492 zero, b0493 wrote,
+b0494 zero — counter currently at 1).
+
