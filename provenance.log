@@ -3720,3 +3720,13 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
   - judges added: Mambilima CJ (1 new canonical)
   - corpus.sqlite: records 1812->1816; judgments_meta 123->127
   - parser_version: 0.3.2
+2026-05-04T10:38:19Z	batch-0519	WRITE	records/judgments/zmsc/2023/judgment-zm-2023-zmsc-20-augustine-mwamba-mbuzakosi-and-ors-v-the-people.json	parser_v0.3.2	source=zambialii.org/akn/zm/judgment/zmsc/2023/20	raw_sha256=a9aeb626c36ceebf202bed66545c3444326bbba3e2fdc45500678279f0b88693	outcome=dismissed	judges=Hamaundu,Mutuna,Chisanga
+2026-05-04T10:38:19Z	batch-0519	DEFER	zmsc/2024/2	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2024/2/eng@2024-04-19
+2026-05-04T10:38:19Z	batch-0519	DEFER	zmsc/2024/1	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2024/1/eng@2024-03-20
+2026-05-04T10:38:19Z	batch-0519	DEFER	zmsc/2023/23	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2023/23/eng@2023-12-13
+2026-05-04T10:38:19Z	batch-0519	DEFER	zmsc/2023/22	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2023/22/eng@2023-07-30
+2026-05-04T10:38:19Z	batch-0519	DEFER	zmsc/2023/21	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2023/21/eng@2023-02-09
+2026-05-04T10:38:19Z	batch-0519	DEFER	zmsc/2023/19	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2023/19/eng@2023-04-20
+2026-05-04T10:38:19Z	batch-0519	DEFER	zmsc/2023/18	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2023/18/eng@2023-12-06
+2026-05-04T10:38:19Z	batch-0519	BOUNDARY	zmsc/2023	max_num=23	probes_confirmed=17	method=HEAD
+2026-05-04T10:38:19Z	batch-0519	SQLITE	records=1817 judgments_meta=128 inserts=1

@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2023-zmsc-20-augustine-mwamba-mbuzakosi-and-ors-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Augustine Mwamba Mbuzakosi and Ors v The People (APPEAL No. 48/2022; APPEAL No. 49/2022; APPEAL No. 50/2022) [2023] ZMSC 20 (16 November 2023)",
+  "citation": "[2023] ZMSC 20",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Augustine Mwamba Mbuzakosi and Ors v The People",
+  "case_number": "APPEAL No. 48/2022\n          ;\n        \n          APPEAL No. 49/2022\n          ;\n        \n          APPEAL No. 50/2022",
+  "date_decided": "2023-11-16",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "Circumstantial evidence",
+    "Possession of recently stolen property and last communication as cogent inferences; Common intention",
+    "joint participation inferred from associative conduct; Aggravated robbery",
+    "Section 294(1) and (2) are sentencing provisions for one offence; Death penalty lawful under s.294(2) where grievous harm results."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "14 All in all, the appeal has no merit in its entirety, and we dismiss it",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "a9aeb626c36ceebf202bed66545c3444326bbba3e2fdc45500678279f0b88693",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2023/20/eng@2023-11-16",
+  "source_hash": "sha256:dda1b7c55b2f1ef4a70348da9c61e1bf6037b949cc972ee71b5610260085c01f",
+  "fetched_at": "2026-05-04T10:36:07Z",
+  "parser_version": "0.3.2"
+}

@@ -5552,3 +5552,5 @@ test append
   - costs.log + provenance.log: appended
   - B2 sync: deferred to host (rclone not in sandbox)
 2026-05-04T11:37:00Z batch-0518 judgment-ingestion-worker END (pre-commit)
+
+2026-05-04T10:33:28Z tick: idle - awaiting approval (no phase with approved:true AND complete:false; phase_8_nightly_reverify is approved:false)
