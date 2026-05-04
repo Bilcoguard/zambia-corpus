@@ -3730,3 +3730,20 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-04T10:38:19Z	batch-0519	DEFER	zmsc/2023/18	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2023/18/eng@2023-12-06
 2026-05-04T10:38:19Z	batch-0519	BOUNDARY	zmsc/2023	max_num=23	probes_confirmed=17	method=HEAD
 2026-05-04T10:38:19Z	batch-0519	SQLITE	records=1817 judgments_meta=128 inserts=1
+2026-05-04T14:50:30Z	batch-0520	FETCH	zmsc/2023/17	ok	date=2023-10-19	html_bytes=104572	pdf_bytes=2717648
+2026-05-04T14:50:30Z	batch-0520	FETCH	zmsc/2023/16	ok	date=2023-09-25	html_bytes=46908	pdf_bytes=1046261
+2026-05-04T14:50:30Z	batch-0520	FETCH	zmsc/2023/15	ok	date=2023-08-30	html_bytes=43147	pdf_bytes=1000070
+2026-05-04T14:50:30Z	batch-0520	FETCH	zmsc/2023/14	ok	date=2023-05-24	html_bytes=41615	pdf_bytes=3297800
+2026-05-04T14:50:30Z	batch-0520	FETCH	zmsc/2023/13	http-error	code=404
+2026-05-04T14:50:30Z	batch-0520	FETCH	zmsc/2023/12	ok	date=2023-06-22	html_bytes=55491	pdf_bytes=1216166
+2026-05-04T14:50:30Z	batch-0520	FETCH	zmsc/2023/11	ok	date=2023-06-08	html_bytes=41227	pdf_bytes=2613823
+2026-05-04T14:50:30Z	batch-0520	FETCH	zmsc/2023/10	ok	date=2023-05-31	html_bytes=43122	pdf_bytes=6017360
+2026-05-04T14:50:30Z	batch-0520	WRITE	judgment-zm-2023-zmsc-14-k-v-wheels-and-construction-ltd-v-investrust-bank	outcome=dismissed	source=zambialii.org/akn/zm/judgment/zmsc/2023/14/eng@2023-05-24
+2026-05-04T14:50:30Z	batch-0520	WRITE	judgment-zm-2023-zmsc-11-kakunda-and-ors-v-the-people	outcome=dismissed	source=zambialii.org/akn/zm/judgment/zmsc/2023/11/eng@2023-06-08
+2026-05-04T14:50:30Z	batch-0520	DEFER	zmsc/2023/17	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2023/17/eng@2023-10-19
+2026-05-04T14:50:30Z	batch-0520	DEFER	zmsc/2023/16	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2023/16/eng@2023-09-25
+2026-05-04T14:50:30Z	batch-0520	DEFER	zmsc/2023/15	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2023/15/eng@2023-08-30
+2026-05-04T14:50:30Z	batch-0520	DEFER	zmsc/2023/12	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2023/12/eng@2023-06-22
+2026-05-04T14:50:30Z	batch-0520	DEFER	zmsc/2023/10	parser_v0.3.2_token_unhandled	source=zambialii.org/akn/zm/judgment/zmsc/2023/10/eng@2023-05-31
+2026-05-04T14:50:30Z	batch-0520	404	zmsc/2023/13	gap-in-cadastre-numbering	method=GET
+2026-05-04T14:50:30Z	batch-0520	SQLITE	records=1820 judgments_meta=130 inserts=2

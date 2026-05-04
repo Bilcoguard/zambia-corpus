@@ -5634,3 +5634,4 @@ test append
 2026-05-04T13:33:35Z	worker-tick	idle - awaiting approval (all approved phases 0-7 are complete; phase_8_nightly_reverify approved=false)
 2026-05-04T14:03:14Z	worker-tick	idle - awaiting approval (all approved phases 0-7 are complete; phase_8_nightly_reverify approved=false)
 2026-05-04T14:33:40Z	worker-tick	idle - awaiting approval (all approved phases 0-7 are complete; phase_8_nightly_reverify approved=false; today fetches=70/2000, well under budget)
+2026-05-04T14:51:29Z	batch-0520	judgment-ingestion-worker	zmsc-2023-{17..10}	fetched=7+1x404	written=2	deferred=5	integrity=59/59	cumulative_today=85/500

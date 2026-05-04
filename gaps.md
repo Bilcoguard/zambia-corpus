@@ -3765,3 +3765,29 @@ Close out ZMSC 2024 with nums {2, 1} (~4 fetches). After ZMSC 2024 is fully
 attempted, sweep ZMSC 2023 most-recent-first DESC.
 ZMSC 2024 status after b0518: 32 of 34 attempted (21 written, 10 deferred,
 1 404). Inventory boundary at num=34 unchanged.
+
+## Batch 0520 update (2026-05-04)
+
+ZMSC 2023 most-recent-first sweep nums {17..10}: 7 OK + 1 404; 2 written, 5 deferred.
+
+| Num | Status | Reason |
+|-----|--------|--------|
+| 17  | deferred | html_no_summary_pdf_no_match (pensions / pre-existing-contract / pensionable-age) |
+| 16  | deferred | html_no_summary_pdf_no_match (Mental Health Act §4 capacity / safeguards) |
+| 15  | deferred | html_no_summary_pdf_no_match (arbitration clause / court stay) |
+| 14  | **written** | dismissed (K.V. Wheels v Investrust Bank) |
+| 13  | 404 | gap-in-cadastre-numbering |
+| 12  | deferred | html_no_summary_pdf_no_match (Lands Act §13(3) Lands Tribunal exclusivity) |
+| 11  | **written** | dismissed (Kakunda and Ors v The People) |
+| 10  | deferred | parser_v0.3.2_token_unhandled (6MB PDF; flag for v0.3.3 large-doc handling) |
+
+Outstanding raw-on-disk-pending-v0.3.3 deferrals (cohort total 19):
+- zmsc/2026/{2,3}, zmsc/2025/{1,5}, zmsc/2024/{5,6,9,11,18,22,26,28,29,31},
+  zmsc/2023/{15,16,17,12}, zmsc/2023/10 (parser_v0.3.2_token_unhandled — distinct family)
+
+### Next-tick recommendation
+
+Continue ZMSC 2023 most-recent-first DESC sweep with nums {9..3} +
+close-out probe {2,1} (~ 8 candidates). Once ZMSC 2023 closes,
+pivot to ZMSC 2022 upper-boundary probe.
+ZMSC 2023 status after b0520: 14 of 23 attempted (3 written, 9 deferred, 2 404).

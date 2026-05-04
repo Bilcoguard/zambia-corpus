@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2023-zmsc-14-k-v-wheels-and-construction-ltd-v-investrust-bank",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "K.V.  Wheels and Construction Ltd v Investrust  Bank Plc (SCZ/8/29/2021) [2023] ZMSC 14 (24 May 2023)",
+  "citation": "[2023] ZMSC 14",
+  "court": "Supreme Court of Zambia",
+  "case_name": "K.V.  Wheels and Construction Ltd v Investrust  Bank Plc",
+  "case_number": "SCZ/8/29/2021",
+  "date_decided": "2023-05-24",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kabuka",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Letters of credit",
+    "strict compliance doctrine",
+    "issuing bank's obligation qualified by documents 'appearing on their face' to comply; UCP 600 Article 34; point of law of public importance",
+    "novelty insufficient; leave to appeal",
+    "prospects of success."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Renewed leave to appeal refused: letter‑of‑credit disputes were factual/private, not points of law of public importance",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "54b2448f9d39a64f1733250a996d8b57610ddbdd39c510283343d07190c2964b",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2023/14/eng@2023-05-24",
+  "source_hash": "sha256:901e3c9498038c280c982820635c6cfe2dc0fab28e901e51a9feb2f4aab64bda",
+  "fetched_at": "2026-05-04T11:10:40Z",
+  "parser_version": "0.3.2"
+}

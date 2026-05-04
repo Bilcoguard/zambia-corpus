@@ -1,0 +1,43 @@
+{
+  "id": "judgment-zm-2023-zmsc-11-kakunda-and-ors-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Kakunda and Ors v The People (APPEAL No. 52,53,54/2022) [2023] ZMSC 11 (8 June 2023)",
+  "citation": "[2023] ZMSC 11",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Kakunda and Ors v The People",
+  "case_number": "APPEAL No. 52,53,54/2022",
+  "date_decided": "2023-06-08",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "identification evidence",
+    "witnesses with interest/accomplices",
+    "requirement of corroboration or \"something more\"; recent possession doctrine; failure to lift fingerprints not necessarily fatal."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "and we dismiss it",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "6da9b44388a0fc7f301e4cdecca30c53633a9e71caf1de14e8afcfdafbce67c4",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2023/11/eng@2023-06-08",
+  "source_hash": "sha256:324aa844db9b6ba9c5263602d3956f0e9f1cc514193fc5efc4104b2b1f8c77e3",
+  "fetched_at": "2026-05-04T11:10:42Z",
+  "parser_version": "0.3.2"
+}
