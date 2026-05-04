@@ -5556,3 +5556,78 @@ test append
 2026-05-04T10:33:28Z tick: idle - awaiting approval (no phase with approved:true AND complete:false; phase_8_nightly_reverify is approved:false)
 2026-05-04T10:40:02Z	batch-0519 starting commit (1 written, 7 deferred, ZMSC 2024 closed, ZMSC 2023 max=23)
 2026-05-04T10:40:14Z	batch-0519 done: 1 written, 7 deferred, ZMSC 2024 closeout, ZMSC 2023 max=23 confirmed
+
+2026-05-04T11:03:31Z tick: idle - awaiting approval (no phase with approved:true AND complete:false; phases 0-7 all approved+complete; phase_8_nightly_reverify is approved:false)
+
+2026-05-04T11:16:38Z batch-corpus-repair-r0001 zambia-corpus-repair BEGIN
+  - working DB: /sessions/magical-blissful-sagan/mnt/corpus/corpus.sqlite (107MB FUSE mount)
+  - pre-tick state (from .bak.repair backup): records=1817 fts=1791 (gap=26 host-judgments-pending-FTS)
+  - decision: full repair pass per task brief — 17 acts in repair queue + 3 priority specials + 1 MMDA normalisation
+  - Priority 1 INSERT: act-zm-2006-009-citizens-economic-empowerment (CEEA 2006, Act No. 9 of 2006)
+      • PDF source: zambialii.org/akn/zm/act/2006/9/eng@2006-05-19/source.pdf (no text layer)
+      • OCR pipeline: pdftoppm -r 150 -png + tesseract -l eng → 51,752 chars (after norm 51,989 chars)
+      • acts_meta inserted (enacted_date=2006-05-19, commencement=2006-05-19, section_count=58)
+  - Priority 2 BODY-FIX (corrupted line-numbers-only):
+      • act-zm-2017-010-companies → pdftotext from zambialii PDF, normalised, body 1,399 → 500,445 chars
+      • act-zm-2011-012-the-environmental-management-act-2011 → pdftotext + norm, body 0 → 189,593 chars
+  - Priority 3 BACKFILL (17 empty acts) — all fetched via /source.pdf + pdftotext + section-header norm
+      bodies: 408–43,273 chars; sample: arbitration-act-2000=38,992, citizenship-1975=40,932,
+      apprenticeship-cap-275=36,289, ag-credits-2010=38,192, business-regulatory-2014=43,273
+  - Priority 4 NORMALISE: act-zm-2015-011-mines-and-minerals (MMDA 2015)
+      • TOC parsing: 57 section titles; section-header insertion; Part I-XIV recognised
+      • body 169,520 → 169,547 chars (stable count, normalised structure)
+      • parser_version=corpus-repair-mmda-norm-1.0
+  - FUSE quirk encountered: bindfs over virtiofs blocks unlink() on rollback journal during commit, raising
+    sqlite3.OperationalError "disk I/O error". Fixed by setting PRAGMA journal_mode=TRUNCATE which truncates
+    journal to 0 bytes (allowed) instead of unlinking (forbidden).
+  - record-by-record FTS rebuild for 21 affected ids (DELETE+INSERT into records_fts); all 21 commits OK.
+  - VACUUM ran successfully (16.0s, 107MB→105.6MB) — cleared a 1-page freelist warning carried over from
+    earlier failed commit; PRAGMA integrity_check now reports 'ok'.
+  - post-tick state: records=1820 fts=1792 integrity=ok
+      (records gap = 28 = 26 pre-existing host-judgments-pending-FTS + 2 host-judgments added 11:10Z today)
+  - empty bodies remaining: act=124, judgment=104, si=234
+      (down from act=141 pre-tick — 17 backfilled by this run; CEEA insert reduces inflated empty-act count by 1)
+  - smoke tests PASS for: 'mining rights' → MMDA 2015 #1 ✓, 'citizens economic empowerment' → CEEA 2006 #1 ✓,
+    'apprenticeship' → Cap 275 #1 ✓, 'arbitration' → Arbitration 2000 #1 ✓, 'cattle cleansing' → Cattle
+    Cleansing Repeal #1 ✓, 'companies act' → Companies 2017 #2 (1994 act ranks #1 — expected)
+  - workspace DB ready for B2 push (integrity OK, FTS rebuilt for affected, no orphan FTS rows).
+  - B2 sync: deferred to host (rclone not in sandbox).
+  - backups retained: corpus.sqlite.bak.repair (pre-tick 107MB), corpus.sqlite.b0504bak (May 3 baseline).
+2026-05-04T11:16:38Z batch-corpus-repair-r0001 zambia-corpus-repair END
+
+2026-05-04T11:20:30Z batch-corpus-repair-r0002 zambia-corpus-repair SKIP (daily-limit)
+  - prior tick batch-corpus-repair-r0001 completed 11:16:38Z (T-4min); per task brief
+    "Max 1 tick per day", second same-day repair tick is suppressed.
+  - verification-only pass run against workspace DB:
+      • Priority targets all intact:
+          P1 CEEA 2006 (body=51,989, pv=corpus-repair-1.0)
+          P2 Companies 2017 (body=500,445, pv=corpus-repair-1.0)
+          P2 EMA 2011 (body=189,593, pv=corpus-repair-1.0)
+          P4 MMDA 2015 (body=169,547, 57 normalised Section headers, pv=corpus-repair-mmda-norm-1.0)
+      • records=1820 fts=1792 gap=28 (26 pre-existing host-judgments-pending-FTS + 2 from 11:10Z)
+      • PRAGMA integrity_check = ok (post-VACUUM stable)
+      • FTS smoke tests bm25-ranked all PASS:
+          'mining rights' → MMDA 2015 ✓
+          'citizens economic empowerment' → CEEA 2006 ✓
+          'companies act 2017' → Companies 2017 ✓
+          'environmental management act 2011' → EMA 2011 ✓
+      • empty bodies remaining: act=124 judgment=104 si=234 (unchanged from r0001 post-state)
+  - no fetches, no DB writes, no FTS rebuild — pure read-only verification.
+  - B2 sync remains deferred to host (rclone not in sandbox; established pattern).
+  - completion criteria status:
+      • P1 missing Acts inserted: ✓ done (1/1)
+      • P2 corrupted bodies fixed: ✓ done (2/2)
+      • P4 key-Acts section-header normalised: ✓ MMDA 2015 done; Companies/EMA pdftotext-preserved
+      • Acts empty < 10: ✗ 124 — bulk backfill needed (~6 more ticks at 17 acts/tick)
+      • Judgments empty < 20: ✗ 104 — owned by judgment-ingestion-worker, out of scope here
+      • SI empty < 150: ✗ 234 — bulk SI backfill pending; target may need recalibration
+  - recommendation to Peter:
+      • Phase 8 transition NOT yet appropriate — bulk Act/SI backfill still pending
+      • next repair tick (2026-05-05) resumes Step-1 queue, ~17–20 acts/tick expected
+      • host-side rclone copyto corpus.sqlite → b2raw:kwlp-corpus-raw/corpus.sqlite is overdue
+        (workspace DB canonical since 11:16:38Z)
+2026-05-04T11:20:30Z batch-corpus-repair-r0002 END (skipped, verified, no writes)
+2026-05-04T11:33:22Z	corpus-worker-tick	idle - awaiting approval (no phase satisfies approved=true AND complete=false; phase_8_nightly_reverify is approved=false; phase_5 judgment ingestion continues via dedicated scheduled task)
+2026-05-04T12:03:11Z	corpus-worker-tick	idle - awaiting approval (no phase satisfies approved=true AND complete=false; phase_8_nightly_reverify is approved=false; phase_5 judgment ingestion continues via dedicated scheduled task)
+[2026-05-04T12:33:21Z] tick: idle - awaiting approval. All approved phases (0-7) are complete; phase_8_nightly_reverify is approved=false. No work to do. approvals.yaml not modified.
+[2026-05-04T13:03:21Z] tick: idle - awaiting approval. All approved phases (0-7) are complete; phase_8_nightly_reverify is approved=false. No work to do. approvals.yaml not modified.
