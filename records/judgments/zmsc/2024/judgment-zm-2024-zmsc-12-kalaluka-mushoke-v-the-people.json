@@ -1,0 +1,42 @@
+{
+  "id": "judgment-zm-2024-zmsc-12-kalaluka-mushoke-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Kalaluka Mushoke v The People (APPEAL No. 10/2024) [2024] ZMSC 12 (10 June 2024)",
+  "citation": "[2024] ZMSC 12",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Kalaluka Mushoke v The People",
+  "case_number": "APPEAL No. 10/2024",
+  "date_decided": "2024-06-10",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Hamaundu",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "suspect witnesses",
+    "distinction between accomplice and witness with interest; motive to give false evidence required before special caution; detention with accused not determinative; corroboration and unchallenged evidence may render conviction safe."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "We, therefore, find no merit in this appeal and we dismiss it",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "c9bb3f00f986d9433616a066eecc79380a0a31d05bb22a618a53546e9f7786f2",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/12/eng@2024-06-10",
+  "source_hash": "sha256:35c656843539e483c0f883a465cb62aa9f8a374ee4199b0922d0de788cec5cb9",
+  "fetched_at": "2026-05-04T09:20:08Z",
+  "parser_version": "0.3.2"
+}

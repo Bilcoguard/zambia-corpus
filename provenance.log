@@ -3662,3 +3662,52 @@ ZMSC older-year sweep remains approved per zmsc_older_year_sweep_approved=true.
 
 Fetches this tick: 24 (8 HEAD + 16 GET). Cumulative judgment-worker today
 (2026-05-04): 24 / 500.
+
+================================================================================
+Batch 0517 — judgment-ingestion-worker tick (2026-05-04T09:18Z)
+================================================================================
+
+Worker: judgment-ingestion-worker (separate budget 500/day; 24/500 used at
+tick start; 40/500 after this tick).
+Parser: v0.3.2 (scripts/batch_0506_zmsc_parse.py wrapping batch_0498_parse.py
+                via scripts/batch_0517_zmsc_parse.py)
+Fetcher: scripts/batch_0517_zmsc_fetch.py (wraps batch_0506_zmsc_fetch.py,
+         honours 5s rate-limit per zambialii_seconds_between_requests).
+User-Agent: KateWestonLegal-CorpusBuilder/1.0 (contact: peter@bilcoguard.com)
+
+Action: Continued ZMSC 2024 most-recent-first DESC sweep per b0516 next-tick
+recommendation. Targets: nums {18,17,16,15,14,13,12,11} from
+_work/b0517/targets.json. All 8 fetched OK (16 GETs total: 8 HTML + 8 PDF;
+no HEAD probes — inner-presence already implied by b0516 result).
+
+Records written (6): zmsc/2024/{17,16,15,14,13,12}.
+Records deferred (2): zmsc/2024/{18,11} — both `html_no_summary_pdf_no_match`.
+Records confirmed 404 (0).
+
+Integrity (`scripts/integrity_check_b0517.py`): 175/175 PASS (per the
+SKILL.md seven-check protocol plus identity/format checks).
+
+judges_registry.yaml: 3 new canonical entries (Chashi JJA, Sichinga JJA,
+Phiri JJA — last preserves the parser_v0.3.2 hyphenated-surname alias
+"Sharpe -Phiri JJA" for traceability) + 15 alias-confirms on existing
+canonical entries (Hamaundu JJS×5, Chisanga JJS×4, Malila CJ×4,
+Kaoma JJS×2, Chinyama JJS×1). 22 → 25 canonical judges.
+
+corpus.sqlite: this tick the FUSE-block did not fire — wrote 6 new
+b0517 records into `records` and `judgments_meta` tables, plus
+back-filled 15 prior on-disk-only records from b0511 (4) + b0515 (5) +
+b0516 (6) into the same tables. records 1791→1812; judgments_meta
+102→123. records_fts NOT updated (host-side rebuild via
+scripts/batch_0504_build_fts5.py per Phase 5 host-side post-tick
+procedure).
+
+approvals.yaml: NOT modified per Phase 5 human-only confirmation rule.
+ZMSC older-year sweep remains approved per zmsc_older_year_sweep_approved=true.
+
+Fetches this tick: 16 (no HEAD probes; 8 GET HTML + 8 GET PDF).
+Cumulative judgment-worker today (2026-05-04): 40 / 500.
+
+Cohort cumulative since b0504: 26 written, 11 deferred, 3 confirmed 404.
+ZMSC 2024 status: 24 of 34 attempted; 10 nums remain (1..10).
+
+Next-tick recommendation: ZMSC 2024 nums 10..3.

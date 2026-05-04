@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2024-zmsc-17-mbinji-mbinji-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mbinji Mbinji v The People (APPEAL NO.40/2022) [2024] ZMSC 17 (11 June 2024)",
+  "citation": "[2024] ZMSC 17",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Mbinji Mbinji v The People",
+  "case_number": "APPEAL NO.40/2022",
+  "date_decided": "2024-06-11",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "murder by arson",
+    "circumstantial evidence",
+    "necessity to exclude accidental fire where no eyewitness; voice-identification and Turnbull guidance; relatives as potentially suspect witnesses",
+    "bias must be evidenced."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "We allow the appeal, and set the sentence aside",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "60be59e228e09061b8277e3326d61d72daab577ce5b8200d6e62f29ab7aa4456",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/17/eng@2024-06-11",
+  "source_hash": "sha256:a827efad2e91211c55d7056815051e32c4359443027f5c602b4aa0a508ecc5a5",
+  "fetched_at": "2026-05-04T09:20:05Z",
+  "parser_version": "0.3.2"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2024-zmsc-15-gladson-moono-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Gladson Moono v The People (S.C.Z APPEAL No. 55/2022) [2024] ZMSC 15 (11 June 2024)",
+  "citation": "[2024] ZMSC 15",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Gladson Moono v The People",
+  "case_number": "S.C.Z APPEAL No. 55/2022",
+  "date_decided": "2024-06-11",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Hamaundu",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "admissibility of confessions",
+    "Judges' Rules apply to persons in authority only",
+    "admissions to village headmen/neighbourhood watchmen admissible absent coercion",
+    "voluntariness and credibility",
+    "afterthoughts",
+    "failure to produce postmortem not fatal where evidence cogent."
+  ],
+  "outcome": "upheld",
+  "outcome_detail": "We uphold the conviction, and dismiss the",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "44e8f9f3c752110c408246c20a8555c1c8368320d60757dac1f2f53b1b9ac290",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/15/eng@2024-06-11",
+  "source_hash": "sha256:593c077dc71a1222dcee64c3d488faa75f3a4ee7c1a88e0d92e22c84cb6abfb8",
+  "fetched_at": "2026-05-04T09:20:06Z",
+  "parser_version": "0.3.2"
+}

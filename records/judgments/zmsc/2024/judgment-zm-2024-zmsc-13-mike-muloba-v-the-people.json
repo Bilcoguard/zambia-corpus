@@ -1,0 +1,47 @@
+{
+  "id": "judgment-zm-2024-zmsc-13-mike-muloba-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mike Muloba v The People (APPEAL NO. 12/2022) [2024] ZMSC 13 (6 June 2024)",
+  "citation": "[2024] ZMSC 13",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Mike Muloba v The People",
+  "case_number": "APPEAL NO. 12/2022",
+  "date_decided": "2024-06-06",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "murder",
+    "self-defence",
+    "provocation",
+    "proportionality of force",
+    "appellate deference to trial findings",
+    "sentencing discretion",
+    "appeal determined on judgment-only record."
+  ],
+  "outcome": "upheld",
+  "outcome_detail": "Appellant's self-defence and provocation defences rejected; murder conviction and 45-year sentence upheld",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "2078c0837a61f5d0e1393525dd75fdaa94cc797a8e7890ab360bf0344571260c",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/13/eng@2024-06-06",
+  "source_hash": "sha256:f6b585ebcad676b5f17e14cf756ef1a4c661d1c8052a58c596a627774269aa42",
+  "fetched_at": "2026-05-04T09:20:07Z",
+  "parser_version": "0.3.2"
+}

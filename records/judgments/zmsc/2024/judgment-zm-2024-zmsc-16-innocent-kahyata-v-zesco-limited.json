@@ -1,0 +1,40 @@
+{
+  "id": "judgment-zm-2024-zmsc-16-innocent-kahyata-v-zesco-limited",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Innocent Kahyata v Zesco Limited (APPEAL No. 151/2022) [2024] ZMSC 16 (19 June 2024)",
+  "citation": "[2024] ZMSC 16",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Innocent Kahyata v Zesco Limited",
+  "case_number": "APPEAL No. 151/2022",
+  "date_decided": "2024-06-19",
+  "judges": [
+    {
+      "name": "Chashi",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Sichinga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Phiri",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "[Contract law] Reasonable time for performance; interpretation of 'at the earliest possible time' and Regulation 14; notice making time of the essence; judicial notice of a party's status as sole national supplier; assessment of procurement and COVID-19 delays."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "The appeal is accordingly dismissed with costs to",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "5d6d0f0c08e2fb8b2a78e036feaf31d9aafd25371ca5470913122f92a8c3680e",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/16/eng@2024-06-19",
+  "source_hash": "sha256:b2839ec78eec755b9ca796bc6ed73ede87a4e331596506b573026fb3b8364a49",
+  "fetched_at": "2026-05-04T09:20:06Z",
+  "parser_version": "0.3.2"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2024-zmsc-14-dickson-shamboko-and-anor-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Dickson Shamboko and Anor v The People (APPEAL NO.21/2023; APPEAL NO.22/2023) [2024] ZMSC 14 (11 June 2024)",
+  "citation": "[2024] ZMSC 14",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Dickson Shamboko and Anor v The People",
+  "case_number": "APPEAL NO.21/2023\n          ;\n        \n          APPEAL NO.22/2023",
+  "date_decided": "2024-06-11",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Hamaundu",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "Confession admissibility",
+    "Burden to prove voluntariness",
+    "Trial-within-a-trial credibility assessment",
+    "Recent possession doctrine",
+    "Appeal abatement on death of appellant."
+  ],
+  "outcome": "upheld",
+  "outcome_detail": "Conviction upheld where voluntary confession and recent possession proved guilt; second appellant's appeal abated on death",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "dca03da2b4c58d70a7d4687f5aaca5f0bcd85d67d3c87d179a8bd54e7a31d022",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/14/eng@2024-06-11",
+  "source_hash": "sha256:33aa08e2aef266a479fb13669c1b073afb7c4d656fc82caae1927375ba7c482d",
+  "fetched_at": "2026-05-04T09:20:07Z",
+  "parser_version": "0.3.2"
+}

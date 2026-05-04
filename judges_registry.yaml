@@ -1,4 +1,12 @@
 judges:
+- canonical_name: Chashi
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2024-zmsc-16-innocent-kahyata-v-zesco-limited
+    first_seen_at: '2026-05-04T09:20:09Z'
+  aliases:
+  - Chashi JJA
+  first_seen: '2026-05-04T09:20:09Z'
 - canonical_name: Chibomba
   titles:
   - title: PC
@@ -308,6 +316,14 @@ judges:
   aliases:
   - Mwandenga JJC
   first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Phiri
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2024-zmsc-16-innocent-kahyata-v-zesco-limited
+    first_seen_at: '2026-05-04T09:20:09Z'
+  aliases:
+  - Sharpe -Phiri JJA
+  first_seen: '2026-05-04T09:20:09Z'
 - canonical_name: Shilimi
   titles:
   - title: DPC
@@ -317,6 +333,14 @@ judges:
   - Shilimi DPC
   - Justice A.M. Shilimi
   first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Sichinga
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2024-zmsc-16-innocent-kahyata-v-zesco-limited
+    first_seen_at: '2026-05-04T09:20:09Z'
+  aliases:
+  - Sichinga JJA
+  first_seen: '2026-05-04T09:20:09Z'
 - canonical_name: Sitali
   titles:
   - title: JC

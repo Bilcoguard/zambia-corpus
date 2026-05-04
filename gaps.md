@@ -3651,3 +3651,57 @@ Outstanding raw-on-disk-pending-v0.3.3 deferrals (cohort total 9):
 Continue ZMSC 2024 DESC sweep with nums {18,17,16,15,14,13,12,11}.
 ZMSC 2024 status: 16 of 34 attempted (11 written, 5 deferred), 18 nums
 remain untouched. Inventory boundary at num=34 unchanged.
+
+
+## Batch 0517 (judgment-ingestion-worker — dedicated scheduled task)
+Tick: 2026-05-04T09:18Z
+Worker: judgment-ingestion-worker (separate budget 500/day)
+Parser: v0.3.2 (baseline scripts/batch_0498_parse.py via batch_0506_zmsc_parse.py wrapper)
+
+Continued ZMSC 2024 most-recent-first DESC sweep per b0516 next-tick recommendation.
+8 candidates probed and fetched (nums 18..11); 6 records written, 2 deferred.
+All 8 fetched OK. Boundary at num=34 unchanged.
+
+### Records resolved (raw on disk b0517 → corpus)
+
+- **zmsc/2024/17** Mbinji Mbinji v The People — outcome=allowed via pdf-tail-2pages
+- **zmsc/2024/16** Innocent Kahyata v ZESCO Limited — outcome=dismissed via pdf-tail-2pages
+- **zmsc/2024/15** Gladson Moono v The People — outcome=upheld via pdf-tail-2pages
+- **zmsc/2024/14** Dickson Shamboko and Anor v The People — outcome=upheld via summary
+- **zmsc/2024/13** Mike Muloba v The People — outcome=upheld via summary
+- **zmsc/2024/12** Kalaluka Mushoke v The People — outcome=dismissed via pdf-tail-2pages
+
+### Deferred (raw on disk, awaiting parser_v0.3.3)
+
+- **zmsc/2024/18** State v ? (mandatory-death-sentence appeal) —
+  `html_no_summary_pdf_no_match`. Summary: "The State successfully appealed:
+  extenuation lacked evidential basis and the six-year sentence was quashed
+  for mandatory death." — interpretive/declaratory framing escapes v0.3.2
+  operative-verb pool. Raw retained.
+  source_url: https://zambialii.org/akn/zm/judgment/zmsc/2024/18/eng@2024-05-16
+- **zmsc/2024/11** Constitutional driving-licence-for-deaf-persons matter —
+  `html_no_summary_pdf_no_match`. Summary: "Whether denial or suspension of
+  driving licences for deaf persons breaches constitutional rights to freedom
+  of movement and non-discrimination." — pure declaratory/interpretive
+  framing. Raw retained.
+  source_url: https://zambialii.org/akn/zm/judgment/zmsc/2024/11/eng@2024-05-16
+
+### Cohort cumulative (judgment-ingestion-worker since b0504)
+
+| tick   | written | deferred | 404 |
+|:-------|--------:|---------:|----:|
+| b0504/0506 | 5  | 3 | 0 |
+| b0511      | 4  | 1 | 3 |
+| b0515      | 5  | 3 | 0 |
+| b0516      | 6  | 2 | 0 |
+| b0517      | 6  | 2 | 0 |
+| **total**  | **26** | **11** | **3** |
+
+Outstanding raw-on-disk-pending-v0.3.3 deferrals (cohort total 11):
+- zmsc/2026/{2,3}, zmsc/2025/{1,5}, zmsc/2024/{11,18,22,26,28,29,31}
+
+### Next-tick recommendation
+
+Continue ZMSC 2024 DESC sweep with nums {10,9,8,7,6,5,4,3}.
+ZMSC 2024 status: 24 of 34 attempted (17 written, 7 deferred), 10 nums
+remain untouched. Inventory boundary at num=34 unchanged.
