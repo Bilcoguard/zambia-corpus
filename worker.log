@@ -5631,3 +5631,6 @@ test append
 2026-05-04T12:03:11Z	corpus-worker-tick	idle - awaiting approval (no phase satisfies approved=true AND complete=false; phase_8_nightly_reverify is approved=false; phase_5 judgment ingestion continues via dedicated scheduled task)
 [2026-05-04T12:33:21Z] tick: idle - awaiting approval. All approved phases (0-7) are complete; phase_8_nightly_reverify is approved=false. No work to do. approvals.yaml not modified.
 [2026-05-04T13:03:21Z] tick: idle - awaiting approval. All approved phases (0-7) are complete; phase_8_nightly_reverify is approved=false. No work to do. approvals.yaml not modified.
+2026-05-04T13:33:35Z	worker-tick	idle - awaiting approval (all approved phases 0-7 are complete; phase_8_nightly_reverify approved=false)
+2026-05-04T14:03:14Z	worker-tick	idle - awaiting approval (all approved phases 0-7 are complete; phase_8_nightly_reverify approved=false)
+2026-05-04T14:33:40Z	worker-tick	idle - awaiting approval (all approved phases 0-7 are complete; phase_8_nightly_reverify approved=false; today fetches=70/2000, well under budget)
