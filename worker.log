@@ -5554,3 +5554,5 @@ test append
 2026-05-04T11:37:00Z batch-0518 judgment-ingestion-worker END (pre-commit)
 
 2026-05-04T10:33:28Z tick: idle - awaiting approval (no phase with approved:true AND complete:false; phase_8_nightly_reverify is approved:false)
+2026-05-04T10:40:02Z	batch-0519 starting commit (1 written, 7 deferred, ZMSC 2024 closed, ZMSC 2023 max=23)
+2026-05-04T10:40:14Z	batch-0519 done: 1 written, 7 deferred, ZMSC 2024 closeout, ZMSC 2023 max=23 confirmed
