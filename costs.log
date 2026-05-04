@@ -5686,3 +5686,4 @@
 2026-05-04T14:52:06Z	82aab92	batch-0520 push OK (32a3742..82aab92)
 2026-05-04T17:06:30Z	batch-0521	fetches=16	records_written=6	records_deferred=2	worker=judgment-ingestion-worker	cumulative_today=101/500	reason=zmsc-2023-most-recent-first-sweep-completion-nums-9-to-2-8-fetched-ok-zero-404-6-written-zmsc-2023-{9,8,7,6,5,4}-outcomes-allowed-dismissed-upheld-dismissed-dismissed-dismissed-2-deferred-html_no_summary_pdf_no_match-zmsc-2023-{3,2}-separation-scheme-and-council-bylaws-parking-levy-6-judges-resolved-existing-canonical-Hamaundu-Chisanga-Kabuka-Chinyama-Malila-Wood-cohort-cumulative-39-28-5-zmsc-2023-COMPLETE-22-22-attempted-9w-11d-2_404
 2026-05-04T17:06:30Z	batch-0521	B2 sync deferred to host (rclone not in sandbox)
+2026-05-04T17:09:00Z	be927f4	batch-0521 push OK (2f5c421..be927f4)
