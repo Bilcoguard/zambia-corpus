@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2024-zmsc-23-stephen-mwape-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Stephen Mwape v The People (APPEAL No. 473/2013) [2024] ZMSC 23 (10 June 2024)",
+  "citation": "[2024] ZMSC 23",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Stephen Mwape v The People",
+  "case_number": "APPEAL No. 473/2013",
+  "date_decided": "2024-06-10",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "Circumstantial evidence",
+    "'Last seen with' principle",
+    "Admissibility and weight of statements to private witnesses",
+    "Credibility assessments",
+    "Non‑investigation and dereliction of duty",
+    "Murder; malice aforethought."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Last‑seen circumstantial evidence and witness credibility upheld as sufficient to sustain a murder conviction; appeal dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "6e747e82f7ac50f1bb709b0e7ef2a766c0aad0fdaea9bebc5311300e0d105c33",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/23/eng@2024-06-10",
+  "source_hash": "sha256:1f9b6507c4b62896806c909c47ce0d090f377f1efecd2209b11a79a481e3adb7",
+  "fetched_at": "2026-05-04T06:30:40Z",
+  "parser_version": "0.3.2"
+}

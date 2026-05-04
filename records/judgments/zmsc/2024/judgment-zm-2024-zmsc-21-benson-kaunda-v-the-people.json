@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2024-zmsc-21-benson-kaunda-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Benson Kaunda v The People (APPEAL No. 03/2022) [2024] ZMSC 21 (6 June 2024)",
+  "citation": "[2024] ZMSC 21",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Benson Kaunda v The People",
+  "case_number": "APPEAL No. 03/2022",
+  "date_decided": "2024-06-06",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "murder",
+    "provocation",
+    "elements: sudden grave provocation, loss of self-control, proportionate retaliation; witness credibility",
+    "interested witnesses and need for corroboration; fals e implication",
+    "danger where witnesses have interest; sentence",
+    "failed provocation does not constitute extenuating circumstances for mandatory death penalty."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "1 The three grounds of appeal having failed, we dismiss the appeal in its entirety",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "c31fda797d43355aed12c41b7e0167f9bab43f43d3183558ee5f99fa419706dd",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/21/eng@2024-06-06",
+  "source_hash": "sha256:7f1353c68e9b8e9a8f38a9551e577168298d3e747f37bfa8e8b85141fc219ff5",
+  "fetched_at": "2026-05-04T06:30:42Z",
+  "parser_version": "0.3.2"
+}

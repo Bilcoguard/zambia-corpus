@@ -3599,3 +3599,55 @@ fetched 8 candidates {34,33,32,31,30,29,28,27}; 5 written, 3 deferred.
 
 Outstanding raw-on-disk-pending-v0.3.3 deferrals (cohort total 7):
 - zmsc/2026/{2,3}, zmsc/2025/{1,5}, zmsc/2024/{28,29,31}
+
+
+## Batch 0516 (judgment-ingestion-worker — dedicated scheduled task)
+Tick: 2026-05-04T06:30Z
+Worker: judgment-ingestion-worker (separate budget 500/day)
+Parser: v0.3.2 (baseline scripts/batch_0498_parse.py via batch_0506_zmsc_parse.py wrapper)
+
+Continued ZMSC 2024 most-recent-first DESC sweep per b0515 next-tick recommendation.
+8 candidates probed and fetched (nums 26..19); 6 records written, 2 deferred.
+All 8 inner nums confirmed present (no inner gaps in this slice). Boundary
+at num=34 unchanged.
+
+### Records resolved (raw on disk b0516 → corpus)
+
+- **zmsc/2024/25** Finsbury Investments Limited v Murray and Roberts — outcome=dismissed via pdf-tail-2pages
+- **zmsc/2024/24** Billis Farm Limited and Anor v Molosoni Chipabwambi — outcome=allowed via pdf-tail-2pages
+- **zmsc/2024/23** Stephen Mwape v The People — outcome=dismissed via summary
+- **zmsc/2024/21** Benson Kaunda v The People — outcome=dismissed via pdf-tail-2pages
+- **zmsc/2024/20** Chanda Mwape and Anor v The People — outcome=allowed via summary
+- **zmsc/2024/19** Francis Phiri v The People — outcome=dismissed via pdf-tail-2pages
+
+### Deferred (raw on disk, awaiting parser_v0.3.3)
+
+- **zmsc/2024/26** Sun International v Standard Chartered (renewed leave application) —
+  `html_no_summary_pdf_no_match`. Renewed leave-to-appeal denial; declaratory
+  framing on novelty-of-point-of-law and factual-finding upholdings. Raw retained.
+  source_url: https://zambialii.org/akn/zm/judgment/zmsc/2024/26/eng@2024-07-24
+- **zmsc/2024/22** Court-martial appeal —
+  `html_no_summary_pdf_no_match`. Interpretive ratio framing on telephone-
+  confirmation evidence and harmless-misdirection doctrine in court-martial
+  proceedings; substantive holding stated declaratively without "appeal is X"
+  disposition verb. Raw retained.
+  source_url: https://zambialii.org/akn/zm/judgment/zmsc/2024/22/eng@2024-03-06
+
+### Cohort cumulative (judgment-ingestion-worker since b0504)
+
+| tick | written | deferred | 404 |
+|:-----|--------:|---------:|----:|
+| b0504/0506 | 5 | 3 | 0 |
+| b0511      | 4 | 1 | 3 |
+| b0515      | 5 | 3 | 0 |
+| b0516      | 6 | 2 | 0 |
+| **total**  | **20** | **9** | **3** |
+
+Outstanding raw-on-disk-pending-v0.3.3 deferrals (cohort total 9):
+- zmsc/2026/{2,3}, zmsc/2025/{1,5}, zmsc/2024/{22,26,28,29,31}
+
+### Next-tick recommendation
+
+Continue ZMSC 2024 DESC sweep with nums {18,17,16,15,14,13,12,11}.
+ZMSC 2024 status: 16 of 34 attempted (11 written, 5 deferred), 18 nums
+remain untouched. Inventory boundary at num=34 unchanged.

@@ -1,0 +1,41 @@
+{
+  "id": "judgment-zm-2024-zmsc-25-finsbury-investments-limited-v-murray-and-roberts",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Finsbury Investments Limited v Murray and Roberts Construction Limited and Anor (SCZ/8/08/2023) [2024] ZMSC 25 (24 July 2024)",
+  "citation": "[2024] ZMSC 25",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Finsbury Investments Limited v Murray and Roberts Construction Limited and Anor",
+  "case_number": "SCZ/8/08/2023",
+  "date_decided": "2024-07-24",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kabuka",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Equitable (contractual) lien under construction contract",
+    "sufficiency for joinder to mortgage action; mechanic’s (statutory) lien not applicable in Zambia; prior restored judgment granting possession reinforces interest; joinder appropriate where decision affects non-party’s interest; registration under Lands and Deeds Registry Act not necessarily fatal to equitable lien."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Appeal dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "a9ef2dc448b8251ae85e7065eda68c025e8a01fe3b3aaca4533ae51109a8c8ec",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/25/eng@2024-07-24",
+  "source_hash": "sha256:bea1eff2f5b432cbcef89c0748dde85a78a90934a90b8fda3ad68bc81ce0159c",
+  "fetched_at": "2026-05-04T06:30:39Z",
+  "parser_version": "0.3.2"
+}

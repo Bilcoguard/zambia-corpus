@@ -1,0 +1,41 @@
+{
+  "id": "judgment-zm-2024-zmsc-19-francis-phiri-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Francis Phiri v The People (APPEAL No. 11/2022) [2024] ZMSC 19 (6 June 2024)",
+  "citation": "[2024] ZMSC 19",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Francis Phiri v The People",
+  "case_number": "APPEAL No. 11/2022",
+  "date_decided": "2024-06-06",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "murder; provocation; self‑defence and defence of property; suspect witness caution and corroboration; mandatory death sentence; extenuating circumstances for sentencing."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "22 We dismiss the appeal for lack of merit",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "d4925d525107eb32ddb47bd1be6cca77293a13b6efaa02725f0485ab080de106",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/19/eng@2024-06-06",
+  "source_hash": "sha256:3d4ab7b9ac5c933435dbae0d7051147c5fecb3a562823471e36378ed0dea34b6",
+  "fetched_at": "2026-05-04T06:30:42Z",
+  "parser_version": "0.3.2"
+}

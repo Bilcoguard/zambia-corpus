@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2024-zmsc-24-billis-farm-limited-and-anor-v-molosoni-chipabwamb",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Billis Farm Limited and Anor v Molosoni Chipabwamba and Ors (APPEAL No. 11 OF 2022) [2024] ZMSC 24 (23 July 2024)",
+  "citation": "[2024] ZMSC 24",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Billis Farm Limited and Anor v Molosoni Chipabwamba and Ors",
+  "case_number": "APPEAL No. 11 OF 2022",
+  "date_decided": "2024-07-23",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Hamaundu",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Article 28 appeals",
+    "jurisdictional route for appeals from High Court on Bill of Rights",
+    "Kabwe Order; Hakainde Hichilema clarification",
+    "decision without jurisdiction void",
+    "mode of commencement of constitutional claims."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "In the circumstances, the appeal is allowed to the extent",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "9b6d2c3debba3e96a3f310674af26f49ff3d456d9f30b9cbb7a246a9e5c76bf6",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/24/eng@2024-07-23",
+  "source_hash": "sha256:4aefa972e70181ac1a4acaa6780ce014ca1b4b8e39934a4aa19b3a51febb19b6",
+  "fetched_at": "2026-05-04T06:30:40Z",
+  "parser_version": "0.3.2"
+}

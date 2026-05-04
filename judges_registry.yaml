@@ -16,8 +16,12 @@ judges:
   - title: J
     first_seen_in: judgment-zm-2026-zmsc-09-kapopo-mutele-patel-v-the-people
     first_seen_at: '2026-05-03T17:14:01Z'
+  - title: JJS
+    first_seen_in: judgment-zm-2024-zmsc-23-stephen-mwape-v-the-people
+    first_seen_at: '2026-05-04T06:30:42Z'
   aliases:
   - Chinyama J
+  - Chinyama JJS
   first_seen: '2026-05-03T17:14:01Z'
 - canonical_name: Chisanga
   titles:

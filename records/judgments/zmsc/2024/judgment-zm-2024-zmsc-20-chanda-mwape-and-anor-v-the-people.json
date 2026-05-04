@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2024-zmsc-20-chanda-mwape-and-anor-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Chanda Mwape and Anor v The People (APPEAL NO.04/2022) [2024] ZMSC 20 (15 May 2024)",
+  "citation": "[2024] ZMSC 20",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Chanda Mwape and Anor v The People",
+  "case_number": "APPEAL NO.04/2022",
+  "date_decided": "2024-05-15",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "circumstantial evidence",
+    "sufficiency of coincidence of injuries as incriminating link",
+    "identification parades",
+    "police dereliction of duty",
+    "reasonably possible defence creates reasonable doubt."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "Conviction based solely on circumstantial coincidence and lack of identification was unsafe; appeal allowed and acquittal ordered",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "6bf5695baa3ed0862f4608fcdde26b29e239b1f74f42cfc77f32d98cf38570da",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/20/eng@2024-05-15",
+  "source_hash": "sha256:c8c9e8bf26cb75c58508e91fa7d1ef32a4adbf0950645fbcd4dce1b593fa0802",
+  "fetched_at": "2026-05-04T06:30:42Z",
+  "parser_version": "0.3.2"
+}
