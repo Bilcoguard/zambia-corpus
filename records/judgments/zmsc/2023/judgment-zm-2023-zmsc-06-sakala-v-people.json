@@ -1,0 +1,39 @@
+{
+  "id": "judgment-zm-2023-zmsc-06-sakala-v-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Sakala v People (APPEAL NO.05/2023) [2023] ZMSC 6 (13 April 2023)",
+  "citation": "[2023] ZMSC 6",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Sakala v People",
+  "case_number": "APPEAL NO.05/2023",
+  "date_decided": "2023-04-13",
+  "judges": [
+    {
+      "name": "Kabuka",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Hamaundu",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "Murder",
+    "Evaluation of unsworn statement versus sworn eyewitness testimony",
+    "Provocation and self‑defence",
+    "Corroboration of accused’s extra‑judicial assertions."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Unsworn assertions of provocation or self‑defence insufficient against credible sworn eyewitness testimony; appeal dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "0f7cb51ac54ca6e2ef56ca47ff128645f3f64f2cac852ae83b71aac145544d4d",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2023/6/eng@2023-04-13",
+  "source_hash": "sha256:99edecf7d38a08a706f019290d2ed83540118af8a670a13331214fff53fbd0dd",
+  "fetched_at": "2026-05-04T14:57:54Z",
+  "parser_version": "0.3.2"
+}

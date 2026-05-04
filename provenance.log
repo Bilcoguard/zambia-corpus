@@ -3747,3 +3747,20 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-04T14:50:30Z	batch-0520	DEFER	zmsc/2023/10	parser_v0.3.2_token_unhandled	source=zambialii.org/akn/zm/judgment/zmsc/2023/10/eng@2023-05-31
 2026-05-04T14:50:30Z	batch-0520	404	zmsc/2023/13	gap-in-cadastre-numbering	method=GET
 2026-05-04T14:50:30Z	batch-0520	SQLITE	records=1820 judgments_meta=130 inserts=2
+2026-05-04T17:01:00Z	batch-0521	FETCH	zmsc/2023/9	ok	html=40695 pdf=501999 date=2023-04-14
+2026-05-04T17:01:00Z	batch-0521	FETCH	zmsc/2023/8	ok	html=41261 pdf=2987203 date=2023-04-03
+2026-05-04T17:01:00Z	batch-0521	FETCH	zmsc/2023/7	ok	html=40546 pdf=2392086 date=2023-04-14
+2026-05-04T17:01:00Z	batch-0521	FETCH	zmsc/2023/6	ok	html=40300 pdf=980962 date=2023-04-13
+2026-05-04T17:01:00Z	batch-0521	FETCH	zmsc/2023/5	ok	html=40375 pdf=1682348 date=2023-04-13
+2026-05-04T17:01:00Z	batch-0521	FETCH	zmsc/2023/4	ok	html=42805 pdf=3981512 date=2023-02-23
+2026-05-04T17:01:00Z	batch-0521	FETCH	zmsc/2023/3	ok	html=40968 pdf=4657743 date=2023-02-09
+2026-05-04T17:01:00Z	batch-0521	FETCH	zmsc/2023/2	ok	html=41204 pdf=3969192 date=2023-02-17
+2026-05-04T17:01:30Z	batch-0521	WRITE	judgment-zm-2023-zmsc-09-hamuguyu-v-the-people	allowed	source=zambialii.org/akn/zm/judgment/zmsc/2023/9/eng@2023-04-14
+2026-05-04T17:01:30Z	batch-0521	WRITE	judgment-zm-2023-zmsc-08-sitali-and-ors-v-the-people	dismissed	source=zambialii.org/akn/zm/judgment/zmsc/2023/8/eng@2023-04-03
+2026-05-04T17:01:30Z	batch-0521	WRITE	judgment-zm-2023-zmsc-07-banda-v-people	upheld	source=zambialii.org/akn/zm/judgment/zmsc/2023/7/eng@2023-04-14
+2026-05-04T17:01:30Z	batch-0521	WRITE	judgment-zm-2023-zmsc-06-sakala-v-people	dismissed	source=zambialii.org/akn/zm/judgment/zmsc/2023/6/eng@2023-04-13
+2026-05-04T17:01:30Z	batch-0521	WRITE	judgment-zm-2023-zmsc-05-mwansa-v-people	dismissed	source=zambialii.org/akn/zm/judgment/zmsc/2023/5/eng@2023-04-13
+2026-05-04T17:01:30Z	batch-0521	WRITE	judgment-zm-2023-zmsc-04-attorney-general-v-siakakole-and-ors	dismissed	source=zambialii.org/akn/zm/judgment/zmsc/2023/4/eng@2023-02-23
+2026-05-04T17:01:30Z	batch-0521	DEFER	zmsc/2023/3	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2023/3/eng@2023-02-09
+2026-05-04T17:01:30Z	batch-0521	DEFER	zmsc/2023/2	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2023/2/eng@2023-02-17
+2026-05-04T17:06:00Z	batch-0521	SQLITE	records=1826 judgments_meta=136 inserts=6

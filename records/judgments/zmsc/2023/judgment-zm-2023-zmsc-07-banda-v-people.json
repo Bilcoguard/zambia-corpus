@@ -1,0 +1,37 @@
+{
+  "id": "judgment-zm-2023-zmsc-07-banda-v-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Banda v People (APPEAL NO.18/2023) [2023] ZMSC 7 (14 April 2023)",
+  "citation": "[2023] ZMSC 7",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Banda v People",
+  "case_number": "APPEAL NO.18/2023",
+  "date_decided": "2023-04-14",
+  "judges": [
+    {
+      "name": "Kabuka",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Hamaundu",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "Rape",
+    "Identification evidence; recognition vs identification; need for caution and careful testing of identification; identification parade; corroboration by injuries (bite and bruises); accused’s duty to explain incriminating connecting evidence; appeal dismissed despite trial misdirection."
+  ],
+  "outcome": "upheld",
+  "outcome_detail": "Appeal against rape conviction dismissed: weak identification cured by corroborative bruises and prior recognition, conviction upheld",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "d0fb6db2e27b6799cdf5a9ce289f8571ad2908f942869791e118d12440537267",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2023/7/eng@2023-04-14",
+  "source_hash": "sha256:557a4010eb2c2f2265461fed607a4339872ff016e5c307c8c9450d7dc4be5c24",
+  "fetched_at": "2026-05-04T14:57:54Z",
+  "parser_version": "0.3.2"
+}

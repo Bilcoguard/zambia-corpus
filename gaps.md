@@ -3791,3 +3791,29 @@ Continue ZMSC 2023 most-recent-first DESC sweep with nums {9..3} +
 close-out probe {2,1} (~ 8 candidates). Once ZMSC 2023 closes,
 pivot to ZMSC 2022 upper-boundary probe.
 ZMSC 2023 status after b0520: 14 of 23 attempted (3 written, 9 deferred, 2 404).
+
+## Batch 0521 update (2026-05-04)
+
+ZMSC 2023 most-recent-first sweep nums {9..2}: 8 OK; 6 written, 2 deferred.
+
+| Num | Status | Reason |
+|-----|--------|--------|
+| 9   | **written** | allowed (Hamuguyu v The People — appeal allowed) |
+| 8   | **written** | dismissed (Sitali and Ors v The People) |
+| 7   | **written** | upheld (Banda v People — rape conviction; weak ID cured by corroboration) |
+| 6   | **written** | dismissed (Sakala v People — provocation/self-defence rejected) |
+| 5   | **written** | dismissed (Mwansa v People — malice aforethought from head-targeting assault) |
+| 4   | **written** | dismissed (Attorney General v Siakakole and Ors) |
+| 3   | deferred | html_no_summary_pdf_no_match (separation-scheme / voluntary-exit / conduct acceptance) |
+| 2   | deferred | html_no_summary_pdf_no_match (council by-laws / unlawful parking levy / public notice) |
+
+Outstanding raw-on-disk-pending-v0.3.3 deferrals (cohort total 21):
+- zmsc/2026/{2,3}, zmsc/2025/{1,5}, zmsc/2024/{5,6,9,11,18,22,26,28,29,31},
+  zmsc/2023/{15,16,17,12,3,2}, zmsc/2023/10 (parser_v0.3.2_token_unhandled — distinct family)
+
+### Next-tick recommendation
+
+ZMSC 2023 sweep is now closed (all 22 indexed nums attempted: 9 written,
+11 deferred, 2 404). Next tick: pivot to ZMSC 2022 upper-boundary probe
+followed by most-recent-first DESC sweep, ~ 8 candidates.
+ZMSC 2023 status after b0521: 22 of 22 attempted (9 written, 11 deferred, 2 404). COMPLETE.

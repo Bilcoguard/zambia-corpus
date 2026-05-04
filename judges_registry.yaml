@@ -27,17 +27,26 @@ judges:
   - title: JJS
     first_seen_in: judgment-zm-2024-zmsc-23-stephen-mwape-v-the-people
     first_seen_at: '2026-05-04T06:30:42Z'
+  - title: JS
+    first_seen_in: judgment-zm-2023-zmsc-04-attorney-general-v-siakakole-and-ors
+    first_seen_at: '2026-05-04T14:57:56Z'
   aliases:
   - Chinyama J
   - Chinyama JJS
+  - Chinyama
+  - Chinyama JS
   first_seen: '2026-05-03T17:14:01Z'
 - canonical_name: Chisanga
   titles:
   - title: JJS
     first_seen_in: judgment-zm-2025-zmsc-26-richard-musukwa-and-ors-v-the-attorney-general
     first_seen_at: '2026-05-03T18:14:01Z'
+  - title: JS
+    first_seen_in: judgment-zm-2023-zmsc-09-hamuguyu-v-the-people
+    first_seen_at: '2026-05-04T14:57:56Z'
   aliases:
   - Chisanga JJS
+  - Chisanga JS
   first_seen: '2026-05-03T18:14:01Z'
 - canonical_name: Chisunka
   titles:
@@ -77,8 +86,13 @@ judges:
   - title: JJS
     first_seen_in: judgment-zm-2025-zmsc-02-davies-chishala-and-anor-v-the-people
     first_seen_at: '2026-05-03T17:14:01Z'
+  - title: JS
+    first_seen_in: judgment-zm-2023-zmsc-09-hamuguyu-v-the-people
+    first_seen_at: '2026-05-04T14:57:56Z'
   aliases:
   - Hamaundu JJS
+  - Hamaundu JS
+  - Hamaundu
   first_seen: '2026-05-03T17:14:01Z'
 - canonical_name: Kabuka
   titles:
@@ -91,6 +105,7 @@ judges:
   aliases:
   - Kabuka JJS
   - Kabuka JS
+  - Kabuka
   first_seen: '2026-05-03T17:14:01Z'
 - canonical_name: Kaoma
   titles:
@@ -134,8 +149,12 @@ judges:
   - title: CJ
     first_seen_in: judgment-zm-2025-zmsc-02-davies-chishala-and-anor-v-the-people
     first_seen_at: '2026-05-03T17:14:01Z'
+  - title: JS
+    first_seen_in: judgment-zm-2023-zmsc-04-attorney-general-v-siakakole-and-ors
+    first_seen_at: '2026-05-04T14:57:56Z'
   aliases:
   - Malila CJ
+  - Malila JS
   first_seen: '2026-05-03T17:14:01Z'
 - canonical_name: Mambilima
   titles:

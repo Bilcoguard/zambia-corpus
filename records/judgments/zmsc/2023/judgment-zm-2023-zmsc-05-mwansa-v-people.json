@@ -1,0 +1,38 @@
+{
+  "id": "judgment-zm-2023-zmsc-05-mwansa-v-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mwansa v People (APPEAL NO.12/2023) [2023] ZMSC 5 (13 April 2023)",
+  "citation": "[2023] ZMSC 5",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Mwansa v People",
+  "case_number": "APPEAL NO.12/2023",
+  "date_decided": "2023-04-13",
+  "judges": [
+    {
+      "name": "Kabuka",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Hamaundu",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "causation (s.207 Penal Code)",
+    "when an assailant is liable despite intervening acts; Malice aforethought (s.204(b))",
+    "inference from weapon, target (head) and indifference; appeal against murder conviction dismissed."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Causation and malice aforethought established from assault targeting the head and indifferent conduct; appeal dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "fcdf16a4b9ff7193d371f08b932edc119c6206f2589963e787521a73d0bc8cf1",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2023/5/eng@2023-04-13",
+  "source_hash": "sha256:ee88bc6755b230bff812a0cda8e9c46e2c0e27509a25a863294d62e541a42a8e",
+  "fetched_at": "2026-05-04T14:57:54Z",
+  "parser_version": "0.3.2"
+}

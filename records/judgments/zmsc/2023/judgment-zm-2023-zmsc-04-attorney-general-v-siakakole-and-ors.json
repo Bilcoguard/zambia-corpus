@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2023-zmsc-04-attorney-general-v-siakakole-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Attorney General v Siakakole and Ors (Appeal 4 of 2021) [2023] ZMSC 4 (23 February 2023)",
+  "citation": "[2023] ZMSC 4",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Attorney General v Siakakole and Ors",
+  "case_number": "Appeal 4 of 2021",
+  "date_decided": "2023-02-23",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Civil procedure",
+    "review of judgment (Order XXXIX r.1)",
+    "timing of leave to appeal",
+    "review barred only if leave and appeal exist when review application filed",
+    "fresh evidence for review must pre-exist judgment, be undiscoverable with reasonable diligence, and be material",
+    "subsequent charging/arraignment not fresh evidence."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Clearly, there is no merit in this appeal and we dismiss it with",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "e99cb5c29fb8ccf6e36b741fac1a2f4a3923726a47eb2149afc8e8dba5192839",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2023/4/eng@2023-02-23",
+  "source_hash": "sha256:258e54670c395dea0f4ceb453a0808db3d06c70134f5ea8913ba3b9cc7396eb5",
+  "fetched_at": "2026-05-04T14:57:55Z",
+  "parser_version": "0.3.2"
+}

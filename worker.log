@@ -5635,3 +5635,9 @@ test append
 2026-05-04T14:03:14Z	worker-tick	idle - awaiting approval (all approved phases 0-7 are complete; phase_8_nightly_reverify approved=false)
 2026-05-04T14:33:40Z	worker-tick	idle - awaiting approval (all approved phases 0-7 are complete; phase_8_nightly_reverify approved=false; today fetches=70/2000, well under budget)
 2026-05-04T14:51:29Z	batch-0520	judgment-ingestion-worker	zmsc-2023-{17..10}	fetched=7+1x404	written=2	deferred=5	integrity=59/59	cumulative_today=85/500
+2026-05-04T15:03:32Z	worker-tick	idle - awaiting approval (all approved phases 0-7 are complete; phase_8_nightly_reverify approved=false)
+2026-05-04T15:32:50Z	worker-tick	idle - awaiting approval (all approved phases 0-7 are complete; phase_8_nightly_reverify approved=false)
+2026-05-04T16:03:27Z	worker-tick	idle - awaiting approval (all approved phases 0-7 are complete; phase_8_nightly_reverify approved=false; today fetches=85/2000, well under budget; judgment ingestion continues via dedicated scheduled task)
+2026-05-04T16:33:14Z	worker-tick	idle - awaiting approval (all approved phases 0-7 are complete; phase_8_nightly_reverify approved=false; today fetches~85/2000, well under budget; judgment ingestion continues via dedicated scheduled task)
+2026-05-04T17:06:35Z	batch-0521	judgment-ingestion-worker	zmsc-2023-{9..2}	fetched=8+0x404	written=6	deferred=2	integrity=172/172	cumulative_today=101/500	zmsc-2023-COMPLETE
+2026-05-04T18:54:09Z	worker-tick	idle - awaiting approval (all approved phases 0-7 are complete; phase_8_nightly_reverify approved=false; today fetches~85/2000, well under budget; judgment ingestion continues via dedicated scheduled task)

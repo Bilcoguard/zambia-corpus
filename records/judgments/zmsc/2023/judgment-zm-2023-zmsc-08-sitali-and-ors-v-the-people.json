@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2023-zmsc-08-sitali-and-ors-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Sitali and Ors v The People (SCZ APPEAL NO. 158,  159, 160/2021) [2023] ZMSC 8 (3 April 2023)",
+  "citation": "[2023] ZMSC 8",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Sitali and Ors v The People",
+  "case_number": "SCZ APPEAL NO. 158,  159, 160/2021",
+  "date_decided": "2023-04-03",
+  "judges": [
+    {
+      "name": "Kabuka",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Hamaundu",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "Murder",
+    "Causation and malice aforethought inferred from joint severe assault",
+    "Lack of post-mortem evidence as to implements",
+    "Judicial interventions not amounting to substantial miscarriage of justice."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "the entire appeal and we dismiss it",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "7ba45079c77adcf1004aa0efc076692f0e0f130f626e59cd26274c0463afb18a",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2023/8/eng@2023-04-03",
+  "source_hash": "sha256:73f33ccad6f2ab32de5beead746a3a496b259b07b9eab1d5d7be3701dbb0ba0c",
+  "fetched_at": "2026-05-04T14:57:53Z",
+  "parser_version": "0.3.2"
+}

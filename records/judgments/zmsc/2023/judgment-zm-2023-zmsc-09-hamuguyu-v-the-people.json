@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2023-zmsc-09-hamuguyu-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Hamuguyu v The People (APPEAL NO.8,9,10/2023) [2023] ZMSC 9 (14 April 2023)",
+  "citation": "[2023] ZMSC 9",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Hamuguyu v The People",
+  "case_number": "APPEAL NO.8,9,10/2023",
+  "date_decided": "2023-04-14",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kabuka",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "Murder",
+    "Admissibility of hearsay from police investigations",
+    "Circumstantial and ballistic evidence",
+    "Photographic evidence requiring oral explanation",
+    "Burden of proof and choice of inference favourable to accused."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "For that reason, we allow the appeal",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "65bc122d1a2d64b031aa16431570dce16c1858f0e7e27da8dc8828588ea9d290",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2023/9/eng@2023-04-14",
+  "source_hash": "sha256:f30a84913f6995c6336563870035e9b1256b68289c139beafd60e39d036dc37b",
+  "fetched_at": "2026-05-04T14:57:53Z",
+  "parser_version": "0.3.2"
+}
