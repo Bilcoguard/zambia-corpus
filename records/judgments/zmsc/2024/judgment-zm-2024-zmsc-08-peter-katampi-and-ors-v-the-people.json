@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2024-zmsc-08-peter-katampi-and-ors-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Peter Katampi and Ors v The People (APPEAL No. 236,237,238 239,240,241,242,243/2017) [2024] ZMSC 8 (21 May 2024)",
+  "citation": "[2024] ZMSC 8",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Peter Katampi and Ors v The People",
+  "case_number": "APPEAL No. 236,237,238 239,240,241,242,243/2017",
+  "date_decided": "2024-05-21",
+  "judges": [
+    {
+      "name": "Mambilima",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Malila",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kabuka",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "identification evidence",
+    "single and multiple identifying witnesses",
+    "recent possession doctrine",
+    "recoveries and scene reconstruction",
+    "definition and proof of firearm under the Firearms Act",
+    "appellate interference with trial findings of fact."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "The net result is that we find no merit in this appeal and we dismiss it in its entirety",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "cf650a6cc919a4810710033ff77ee982835463f072bc10f40cc618468fa1ac0f",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/8/eng@2024-05-21",
+  "source_hash": "sha256:8d22cb4cb8cce057ec86b1f91623ed9929f6f39d349f980a2559d06be8cfd2d2",
+  "fetched_at": "2026-05-04T09:32:06Z",
+  "parser_version": "0.3.2"
+}

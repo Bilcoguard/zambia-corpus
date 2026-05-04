@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2024-zmsc-03-masautso-banda-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Masautso Banda v The People (SCZ NO. 128/2021) [2024] ZMSC 3 (19 April 2024)",
+  "citation": "[2024] ZMSC 3",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Masautso Banda v The People",
+  "case_number": "SCZ NO. 128/2021",
+  "date_decided": "2024-04-19",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "Defilement",
+    "Statutory defence of honest belief as to age under s.138(1)",
+    "requirement of reasonable cause and actual belief",
+    "sentencing discretion for defilement (15 years to life)",
+    "appellate interference only if sentence shocks court."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "both grounds of appeal lack merit and we accordingly dismiss the appeal",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "0fb2cc5e0e52c08f9311198b68380ef0669fa07f10181483edf55759b2634ffa",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/3/eng@2024-04-19",
+  "source_hash": "sha256:1ddc5bffd03702af99e17c77a47a6776151c087b8630e9aa46df18f0a63b9b98",
+  "fetched_at": "2026-05-04T09:32:07Z",
+  "parser_version": "0.3.2"
+}

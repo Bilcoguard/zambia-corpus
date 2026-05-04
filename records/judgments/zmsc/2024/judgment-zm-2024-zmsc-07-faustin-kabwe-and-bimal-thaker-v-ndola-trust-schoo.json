@@ -1,0 +1,54 @@
+{
+  "id": "judgment-zm-2024-zmsc-07-faustin-kabwe-and-bimal-thaker-v-ndola-trust-schoo",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Faustin Kabwe and Bimal Thaker v Ndola Trust School Limited and Attorney General (SCZ/8/11/2022) [2024] ZMSC 7 (8 May 2024)",
+  "citation": "[2024] ZMSC 7",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Faustin Kabwe and Bimal Thaker v Ndola Trust School Limited and Attorney General",
+  "case_number": "SCZ/8/11/2022",
+  "date_decided": "2024-05-08",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Hamaundu",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional jurisdiction",
+    "Whether Supreme Court may grant leave to appeal to itself after Court of Appeal refusal",
+    "Article 131 interpretation",
+    "Article 128(2) referral to Constitutional Court",
+    "Mandona precedent."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Consequently, the motion fails and we dismiss it",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "43b937823bfad6d44cccba426b70178a517160953072496c924b8a05b3b0396b",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/7/eng@2024-05-08",
+  "source_hash": "sha256:4f28d9951f9e3c036da9a3c3c21e0c6104c419e70154190a94ffc9562962743a",
+  "fetched_at": "2026-05-04T09:32:06Z",
+  "parser_version": "0.3.2"
+}

@@ -5533,3 +5533,22 @@ test append
 [2026-05-04T09:30Z] batch-0517 judges_registry.yaml: 3 new canonical entries (Chashi JJA, Sichinga JJA, Phiri JJA) + 15 alias-confirms on existing entries. 22→25 canonical judges.
 [2026-05-04T09:30Z] batch-0517 cohort cumulative since b0504: 26 written, 11 deferred, 3 confirmed 404. ZMSC 2024: 24 of 34 attempted; 10 nums remain.
 [2026-05-04T09:30Z] batch-0517 B2 sync deferred to host (rclone not in sandbox).
+[2026-05-04T09:35Z] batch-0517 push OK 8ec5b70. Tick complete.
+[2026-05-04T09:33:22Z] zambia-corpus-tick: idle - awaiting approval. Pre-tick: lock cleanup attempted (FUSE blocks unlink of .git/objects/maintenance.lock and .git/ORIG_HEAD.lock — warning only, no impact); git pull --ff-only OK (Already up to date; HEAD=8ec5b70 from judgment-ingestion-worker batch-0517 09:35Z). Reviewed approvals.yaml: phases 0-7 all approved=true AND complete=true; phase_8_nightly_reverify approved=false (sample_rate 0.01) awaiting human approval; no other approved+incomplete phase exists per SKILL step 4. Today fetches=40/2000 (24 cumulative pre-09:18Z + 16 from b0517 ZMSC 2024 sweep), tokens<<1M (budgets healthy, well under daily caps per approvals.yaml budgets). Phase 5 judgment ingestion continues under separate judgment-ingestion-worker scheduled task per phase_5_judgments.completion_note (corpus 117 -> 123 records IN BAND 100-160; b0517 wrote 6 deferred 2 ZMSC 2024 nums 18..11; next b0518 continues nums 10..3). No batch executed by this tick; nothing to commit; no push needed. approvals.yaml NOT modified per human-only confirmation rule. Exiting cleanly per scheduled-task SKILL step 4.
+[2026-05-04T10:03:46Z] zambia-corpus-tick: idle - awaiting approval. Pre-tick: lock cleanup attempted (FUSE blocks unlink of .git/objects/maintenance.lock and .git/ORIG_HEAD.lock — warning only, no impact); git pull --ff-only OK (Already up to date; HEAD=8ec5b70). Reviewed approvals.yaml: phases 0-7 all approved=true AND complete=true; phase_8_nightly_reverify approved=false (sample_rate 0.01) awaiting human approval; no other approved+incomplete phase exists per SKILL step 4. Today fetches=40/2000 (from b0517 09:30Z), tokens<<1M — budgets healthy, well under daily caps per approvals.yaml budgets. Phase 5 judgment ingestion continues under separate judgment-ingestion-worker scheduled task per phase_5_judgments.completion_note (current corpus 123 judgments IN BAND 100-160; b0517 last; b0518 to continue ZMSC 2024 nums 10..3 under that worker, not this one). No batch executed by this tick; nothing to commit; no push needed. approvals.yaml NOT modified per human-only confirmation rule. Exiting cleanly per scheduled-task SKILL step 4.
+
+2026-05-04T11:37:00Z batch-0518 judgment-ingestion-worker BEGIN
+  - git pull --ff-only: Already up to date
+  - costs.log today: 40/500 -> 56/500 (+16 fetches)
+  - decision: SCZ sweep continuation (deferred reparses still v0.3.3-pending)
+  - targets: ZMSC 2024 nums [10,9,8,7,6,5,4,3]
+  - fetch_results: 7 OK + 1 http-404 (num=4)
+  - parse_results: 4 written + 3 html_no_summary_pdf_no_match + 1 raw_bytes_not_on_disk
+  - integrity_check_b0518.py: PASSED 119, FAILED 0
+  - judges_registry: +1 new canonical (Mambilima CJ)
+  - corpus.sqlite: records 1812->1816; judgments_meta 123->127 (via in-tmp INSERT + atomic-cp + journal-rm)
+  - reports/batch_0518.md: written
+  - gaps.md: section appended
+  - costs.log + provenance.log: appended
+  - B2 sync: deferred to host (rclone not in sandbox)
+2026-05-04T11:37:00Z batch-0518 judgment-ingestion-worker END (pre-commit)

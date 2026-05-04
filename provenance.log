@@ -3711,3 +3711,12 @@ Cohort cumulative since b0504: 26 written, 11 deferred, 3 confirmed 404.
 ZMSC 2024 status: 24 of 34 attempted; 10 nums remain (1..10).
 
 Next-tick recommendation: ZMSC 2024 nums 10..3.
+2026-05-04T11:37:00Z batch-0518 judgment-ingestion-worker
+  - tick: ZMSC 2024 DESC sweep continuation (nums 10..3)
+  - fetched 8; 7 OK + 1 404 (num=4)
+  - written 4: zmsc/2024/{10,8,7,3}
+  - deferred 4: zmsc/2024/{9,6,5} html_no_summary_pdf_no_match; zmsc/2024/4 raw_bytes_not_on_disk(404)
+  - integrity 119/119 PASS
+  - judges added: Mambilima CJ (1 new canonical)
+  - corpus.sqlite: records 1812->1816; judgments_meta 123->127
+  - parser_version: 0.3.2

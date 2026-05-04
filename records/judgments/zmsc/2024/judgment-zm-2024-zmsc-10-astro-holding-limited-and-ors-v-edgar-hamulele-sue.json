@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2024-zmsc-10-astro-holding-limited-and-ors-v-edgar-hamulele-sue",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Astro Holding Limited and Ors v Edgar Hamulele (Sued as receiver of courtyard hotel in receivership) and ors (SCZ/8/26/2021) [2024] ZMSC 10 (25 April 2024)",
+  "citation": "[2024] ZMSC 10",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Astro Holding Limited and Ors v Edgar Hamulele (Sued as receiver of courtyard hotel in receivership) and ors",
+  "case_number": "SCZ/8/26/2021",
+  "date_decided": "2024-04-25",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Civil procedure",
+    "leave to appeal to Supreme Court",
+    "computation of time under Supreme Court Rules (public holidays)",
+    "mischaracterisation of ruling dates and counsel misconduct",
+    "section 13(3) Court of Appeal Act threshold for leave (point of law of public importance, prospects of success, compelling reasons)",
+    "appellate power under section 24 to grant relief necessary for justice",
+    "no novel unjust enrichment issue."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Application for leave to appeal dismissed; filing was timely and counsel wrongly condemned, but proposed grounds failed statutory threshold",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "046337ef8b18699705a814fd9487f192d1de31bc32d65d8a608e66c7f98312a2",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/10/eng@2024-04-25",
+  "source_hash": "sha256:0e450f6e4d186e6fc64a85ef87518e5feeac4af5e1d1f701d6920f1e39e191b8",
+  "fetched_at": "2026-05-04T09:32:04Z",
+  "parser_version": "0.3.2"
+}

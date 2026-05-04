@@ -3705,3 +3705,63 @@ Outstanding raw-on-disk-pending-v0.3.3 deferrals (cohort total 11):
 Continue ZMSC 2024 DESC sweep with nums {10,9,8,7,6,5,4,3}.
 ZMSC 2024 status: 24 of 34 attempted (17 written, 7 deferred), 10 nums
 remain untouched. Inventory boundary at num=34 unchanged.
+
+
+## Batch 0518 (judgment-ingestion-worker — dedicated scheduled task)
+Tick: 2026-05-04T11:37Z
+Worker: judgment-ingestion-worker (separate budget 500/day)
+Parser: v0.3.2 (baseline scripts/batch_0498_parse.py via batch_0506_zmsc_parse.py wrapper)
+
+Continued ZMSC 2024 most-recent-first DESC sweep per b0517 next-tick recommendation.
+8 candidates probed (nums 10..3); 7 fetched OK, 1 confirmed 404 (num=4).
+4 records written, 3 deferred html_no_summary_pdf_no_match, 1 deferred raw_bytes_not_on_disk(404).
+
+### Records resolved (raw on disk b0518 → corpus)
+
+- **zmsc/2024/10** Astro Holding Limited and Ors v Edgar Hamulele — outcome=dismissed via summary
+- **zmsc/2024/8** Peter Katampi and Ors v The People — outcome=dismissed via pdf-tail-2pages
+- **zmsc/2024/7** Faustin Kabwe and Bimal Thaker v Ndola Trust School — outcome=dismissed via pdf-tail-2pages
+- **zmsc/2024/3** Masautso Banda v The People — outcome=dismissed via pdf-tail-2pages
+
+### Deferred (raw on disk, awaiting parser_v0.3.3)
+
+- **zmsc/2024/9** Constitutional driving-licence-for-deaf-persons declaratory question —
+  `html_no_summary_pdf_no_match`. Summary: "Denial or suspension of driving
+  licences for deaf persons did not, per se, violate Articles 11, 22 or 23 of
+  the Constitution." — pure declaratory/interpretive framing. Raw retained.
+  source_url: https://zambialii.org/akn/zm/judgment/zmsc/2024/9/eng@2024-05-16
+- **zmsc/2024/6** Civil/banking matter —
+  `html_no_summary_pdf_no_match`. Interpretive ratio framing without
+  operative-verb disposition. Raw retained.
+  source_url: https://zambialii.org/akn/zm/judgment/zmsc/2024/6/eng@2024-05-14
+- **zmsc/2024/5** Civil/family matter —
+  `html_no_summary_pdf_no_match`. Interpretive ratio framing without
+  operative-verb disposition. Raw retained.
+  source_url: https://zambialii.org/akn/zm/judgment/zmsc/2024/5/eng@2024-05-06
+
+### Confirmed 404
+
+- **zmsc/2024/4** — canonical URL returns 404. Likely gap in court's internal
+  numbering. Recorded; no raw retained.
+
+### Cohort cumulative (judgment-ingestion-worker since b0504)
+
+| tick   | written | deferred | 404 |
+|:-------|--------:|---------:|----:|
+| b0504/0506 | 5  | 3 | 0 |
+| b0511      | 4  | 1 | 3 |
+| b0515      | 5  | 3 | 0 |
+| b0516      | 6  | 2 | 0 |
+| b0517      | 6  | 2 | 0 |
+| b0518      | 4  | 3 | 1 |
+| **total**  | **30** | **14** | **4** |
+
+Outstanding raw-on-disk-pending-v0.3.3 deferrals (cohort total 14):
+- zmsc/2026/{2,3}, zmsc/2025/{1,5}, zmsc/2024/{5,6,9,11,18,22,26,28,29,31}
+
+### Next-tick recommendation
+
+Close out ZMSC 2024 with nums {2, 1} (~4 fetches). After ZMSC 2024 is fully
+attempted, sweep ZMSC 2023 most-recent-first DESC.
+ZMSC 2024 status after b0518: 32 of 34 attempted (21 written, 10 deferred,
+1 404). Inventory boundary at num=34 unchanged.
