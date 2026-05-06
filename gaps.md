@@ -3994,3 +3994,41 @@ Continue ZMSC 2022 most-recent-first DESC sweep with nums {29..22}
 ZMSC 2022 status after b0526: 32 of ~60 attempted (13 written, 18
 v0.3.3-pending deferred, 1 OCR-pending deferred, plus 1 known internal
 404 at num 20).
+
+## Batch 0529 update (2026-05-06)
+
+ZMSC 2022 most-recent-first sweep nums {29..22}: 3 OK; 1 written, 2 deferred,
+5 confirmed-404 (internal-gap cluster discovery).
+
+| num | result | outcome / notes |
+|-----|--------|-----------------|
+| 29  | **written** | dismissed (Mutale v African Banking Corporation Ltd — leave-to-appeal motion refused under s13 Court of Appeal Act; proposed grounds factual not points of law of public importance; SCZ 8 5 of 2020; 3-judge panel Wood/Musonda DCJ/Kajimanga) |
+| 28  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — SI No. 6 of 2017 is non-retroactive; employed advocates admitted on the roll entitled to costs; calculational errors curable) |
+| 27  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — delay beyond Rule 12(2)'s 21-day limit; extension application dismissed despite counsel's illness) |
+| 26  | **confirmed 404** | internal-gap cluster |
+| 25  | **confirmed 404** | internal-gap cluster |
+| 24  | **confirmed 404** | internal-gap cluster |
+| 23  | **confirmed 404** | internal-gap cluster |
+| 22  | **confirmed 404** | internal-gap cluster |
+
+**Internal-gap discovery**: nums {22..26} are a contiguous 5-num 404 cluster
+adjacent to existing num=20 known 404 boundary. Inner-gap span now larger
+than initial b0522 boundary probe sampled; will probe num 21 next tick to
+definitively close the cluster bounds.
+
+Outstanding raw-on-disk-pending-v0.3.3 deferrals (cohort total 41 after b0529):
+prior 39 + zmsc/2022/{28,27}. Plus 1 OCR-pending deferral: zmsc/2022/51 (scanned PDF).
+
+Three judge resolutions on the written record (Wood JS, Musonda DCJ, Kajimanga
+JS as 3-judge panel) all matched existing canonical entries; judges_registry.yaml
+unchanged.
+
+### Next-tick recommendation
+
+Probe num 21 to definitively close inner-gap cluster bounds (expected 404).
+Then continue ZMSC 2022 most-recent-first DESC sweep with nums {19..12}
+(8 candidates; skipping known 404 nums 20 and any newly-confirmed 21).
+
+ZMSC 2022 status after b0529: 40 of ~60 attempted (14 written, 20
+v0.3.3-pending deferred, 1 OCR-pending deferred, plus 6 confirmed
+internal 404s at nums {20, 22, 23, 24, 25, 26}).

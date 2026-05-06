@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2022-zmsc-29-mutale-v-african-banking-corporation-ltd",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mutale v African Banking Corporation Ltd (SCZ 8 5 of 2020) [2022] ZMSC 29 (1 April 2022)",
+  "citation": "[2022] ZMSC 29",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Mutale v African Banking Corporation Ltd",
+  "case_number": "SCZ 8 5 of 2020",
+  "date_decided": "2022-04-01",
+  "judges": [
+    {
+      "name": "Wood",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Musonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kajimanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Civil procedure",
+    "Leave to appeal under s13 Court of Appeal Act",
+    "Point of law of public importance",
+    "Constructive dismissal",
+    "Unilateral variation of job description",
+    "Duty to consider filed submissions",
+    "Findings of fact v points of law."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Leave to appeal refused: proposed grounds were factual, not points of law of public importance; motion dismissed with costs",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "84effbd3977a7661e8003149c08a407f71f9f9eaf5493c0240d8dd00b11d0f10",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/29/eng@2022-04-01",
+  "source_hash": "sha256:7065cfc88f462ef831300e2fef5e5d7c82992b6dfd2905251370392cbac6fbc9",
+  "fetched_at": "2026-05-06T22:09:23Z",
+  "parser_version": "0.3.2"
+}

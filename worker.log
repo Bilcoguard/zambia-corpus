@@ -5667,3 +5667,9 @@ test append
 2026-05-06T22:03:35Z	worker-tick	idle - phase 8 already sampled for 2026-05-06 in batch-0524 at 20:07:56Z (deterministic seed phase8-reverify-2026-05-06; pool=1838 sample=8 match=4 drift=4 fetch_error=0). Re-running with the same seed on the same UTC date would produce an identical sample → no new information. Per non-negotiable rule #4, approvals.yaml NOT modified. Phase 8 is the only approved+incomplete phase; phase_5 judgment ingestion continues via the dedicated judgment-ingestion-worker scheduled task (latest batch-0526 at 21:13:08Z, ZMSC 2022 nums 37..30, 1 written / 7 deferred). Today fetches=56/2000 (8 phase-8 + 16 b0523 + 16 b0525 + 16 b0526, well under cap); tokens well under cap. git pull --ff-only OK (already at dd40522). Next non-idle tick: 2026-05-07 UTC, when seed phase8-reverify-2026-05-07 will produce a fresh deterministic sample. Sandbox local time at this tick: 2026-05-07 ~00:03 CAT (UTC+2), ~2 hours before UTC date rollover.
 2026-05-06T22:04:02Z	a0ffdff	worker-tick idle push OK (dd40522..a0ffdff)
 2026-05-06T22:04:02Z	worker-tick	B2 sync deferred to host (rclone not in sandbox)
+2026-05-06T22:11:00Z batch-0529 START judgment-ingestion-worker zmsc-2022-{29..22} (advanced from 0527 since b0527/b0528 used by main worker idle ticks)
+2026-05-06T22:11:00Z batch-0529 FETCH 3/8 ok 5-confirmed-404 16-fetches
+2026-05-06T22:11:00Z batch-0529 PARSE 1-written 2-deferred parser-v0.3.2
+2026-05-06T22:11:00Z batch-0529 SQLITE +1 records=1840 judgments_meta=150
+2026-05-06T22:11:00Z batch-0529 INTEGRITY PASS 30/30
+2026-05-06T22:11:00Z batch-0529 INTERNAL_GAP_DISCOVERY zmsc-2022 nums {22..26} contiguous 404 cluster adjacent to known num=20 boundary

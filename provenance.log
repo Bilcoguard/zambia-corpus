@@ -3817,3 +3817,17 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-06T21:12:47Z	batch-0526	DEFER	zmsc/2022/30	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/30/eng@2022-04-12
 2026-05-06T21:12:47Z	batch-0526	REGISTRY	no_new_canonical_entries	1_judge_resolved_existing_Kabuka
 2026-05-06T21:12:47Z	batch-0526	SQLITE	records=1839 judgments_meta=149 inserts=1
+2026-05-06T22:10:52Z	batch-0529	judgment-ingestion-worker	zmsc-2022	{29..22}	fetched=3/8	written=1	deferred=2	confirmed_404=5	integrity=30/30	parser_v0.3.2	cohort_cumulative=52w/42d/10_404
+2026-05-06T22:10:52Z	batch-0529	FETCH	zmsc/2022/29	source=zambialii.org/akn/zm/judgment/zmsc/2022/29/eng@2022-04-01
+2026-05-06T22:10:52Z	batch-0529	FETCH	zmsc/2022/28	source=zambialii.org/akn/zm/judgment/zmsc/2022/28/eng@2022-03-28
+2026-05-06T22:10:52Z	batch-0529	FETCH	zmsc/2022/27	source=zambialii.org/akn/zm/judgment/zmsc/2022/27/eng@2022-03-22
+2026-05-06T22:10:52Z	batch-0529	NOT_FOUND	zmsc/2022/26	http_404	source=zambialii.org/akn/zm/judgment/zmsc/2022/26/eng
+2026-05-06T22:10:52Z	batch-0529	NOT_FOUND	zmsc/2022/25	http_404	source=zambialii.org/akn/zm/judgment/zmsc/2022/25/eng
+2026-05-06T22:10:52Z	batch-0529	NOT_FOUND	zmsc/2022/24	http_404	source=zambialii.org/akn/zm/judgment/zmsc/2022/24/eng
+2026-05-06T22:10:52Z	batch-0529	NOT_FOUND	zmsc/2022/23	http_404	source=zambialii.org/akn/zm/judgment/zmsc/2022/23/eng
+2026-05-06T22:10:52Z	batch-0529	NOT_FOUND	zmsc/2022/22	http_404	source=zambialii.org/akn/zm/judgment/zmsc/2022/22/eng
+2026-05-06T22:10:52Z	batch-0529	WRITE	judgment-zm-2022-zmsc-29-mutale-v-african-banking-corporation-ltd	outcome=dismissed	parser=v0.3.2	src=summary-v032-application-petition-appeal-relief
+2026-05-06T22:10:52Z	batch-0529	DEFER	zmsc/2022/28	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/28/eng@2022-03-28
+2026-05-06T22:10:52Z	batch-0529	DEFER	zmsc/2022/27	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/27/eng@2022-03-22
+2026-05-06T22:10:52Z	batch-0529	REGISTRY	no_new_canonical_entries	3_judges_resolved_existing_Wood_Musonda_Kajimanga
+2026-05-06T22:10:52Z	batch-0529	SQLITE	records=1840 judgments_meta=150 inserts=1
