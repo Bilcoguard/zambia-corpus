@@ -123,8 +123,9 @@ phases:
     approval_note: "Phase 7 approved by Peter 2026-05-03. Write INTEGRATION.md structured for Kate Weston Legal plugin v16 integration."
     completion_note: "Phase 7 complete — INTEGRATION.md (8 specialist patterns, citation-verification integration, limitations), 5 example scripts, 74 integrity assertions all PASS. Signed off by Peter 2026-05-03."
   phase_8_nightly_reverify:
-    approved: false
+    approved: true
     complete: false
+    approval_note: "Phase 8 approved by Peter via Cowork chat 2026-05-06. Nightly re-verification of corpus integrity at 1% sample rate; re-fetch sampled records, recompute source_hash, compare against stored value, log mismatches to gaps.md without mutating records."
     sample_rate: 0.01
 
 rate_limits:
