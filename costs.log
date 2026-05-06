@@ -5702,3 +5702,5 @@
 2026-05-06T20:17:38Z	batch-0525	B2 sync deferred to host (rclone not in sandbox)
 2026-05-06T20:17:38Z	99c23d9	batch-0525 push OK (ea234de..99c23d9)
 2026-05-06T20:33:05Z	worker-tick	idle	fetches=0	records_written=0	records_deferred=0	cumulative_today=32/2000	reason=phase-8-already-sampled-today-b0524-deterministic-seed-no-redundant-work
+2026-05-06T21:12:47Z	batch-0526	fetches=16	records_written=1	records_deferred=7	worker=judgment-ingestion-worker	cumulative_today=48/500	reason=zmsc-2022-most-recent-first-sweep-continuation-nums-37-to-30-8-fetched-ok-zero-404-1-written-zmsc-2022-34-outcome-allowed-citibank-zambia-leave-to-appeal-granted-7-deferred-html_no_summary_pdf_no_match-zmsc-2022-{37,36,35,33,32,31,30}-interpretive-ratio-family-1-judge-resolved-existing-canonical-Kabuka-cohort-cumulative-13-19-1
+2026-05-06T21:12:47Z	batch-0526	B2 sync deferred to host (rclone not in sandbox)

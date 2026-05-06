@@ -3962,3 +3962,35 @@ Continue ZMSC 2022 most-recent-first DESC sweep with nums {37..30}
 ZMSC 2022 status after b0525: 24 of ~60 attempted (12 written, 11
 v0.3.3-pending deferred, 1 OCR-pending deferred, plus 1 known internal
 404 at num 20).
+
+## Batch 0526 update (2026-05-06)
+
+ZMSC 2022 most-recent-first sweep nums {37..30}: 8 OK; 1 written, 7 deferred.
+
+| num | result | outcome / notes |
+|-----|--------|-----------------|
+| 37  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — voir dire / s.122 child evidence on oath) |
+| 36  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — witchcraft mitigation negated by hired-killer admission) |
+| 35  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — long service gratuity + housing allowance; limitation defence) |
+| 34  | **written** | allowed (Citibank Zambia Ltd v Dudhia — leave to appeal granted; SCZ 8 8 of 2022; single-judge Kabuka JS) |
+| 33  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — malice / self-defence / intoxication assessment in murder conviction) |
+| 32  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — eyewitness identification despite flawed parade; dying co-suspect statement) |
+| 31  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — eyewitness identification + parade fairness for aggravated robbery) |
+| 30  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — administrative remedies do not excuse delay; leave to appeal out of time refused) |
+
+Outstanding raw-on-disk-pending-v0.3.3 deferrals (cohort total 39 after b0526):
+prior 32 + zmsc/2022/{37,36,35,33,32,31,30}. Plus 1 OCR-pending deferral:
+zmsc/2022/51 (scanned PDF).
+
+One judge resolution on the written record (Kabuka JS as single-judge presiding
+on a leave-to-appeal application) matched existing canonical entry;
+judges_registry.yaml unchanged.
+
+### Next-tick recommendation
+
+Continue ZMSC 2022 most-recent-first DESC sweep with nums {29..22}
+(8 candidates). Inner-gap enumeration of num 20 still deferred to closing pass.
+
+ZMSC 2022 status after b0526: 32 of ~60 attempted (13 written, 18
+v0.3.3-pending deferred, 1 OCR-pending deferred, plus 1 known internal
+404 at num 20).

@@ -3799,3 +3799,21 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-06T20:13:39Z	batch-0525	DEFER	zmsc/2022/38	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/38/eng@2022-06-07
 2026-05-06T20:13:39Z	batch-0525	REGISTRY	no_new_canonical_entries	all_12_judges_resolved_existing
 2026-05-06T20:13:39Z	batch-0525	SQLITE	records=1838 judgments_meta=148 inserts=4
+2026-05-06T21:12:47Z	batch-0526	FETCH	zmsc/2022/37	source=zambialii.org/akn/zm/judgment/zmsc/2022/37/eng@2022-06-13
+2026-05-06T21:12:47Z	batch-0526	FETCH	zmsc/2022/36	source=zambialii.org/akn/zm/judgment/zmsc/2022/36/eng@2022-06-13
+2026-05-06T21:12:47Z	batch-0526	FETCH	zmsc/2022/35	source=zambialii.org/akn/zm/judgment/zmsc/2022/35/eng@2022-07-06
+2026-05-06T21:12:47Z	batch-0526	FETCH	zmsc/2022/34	source=zambialii.org/akn/zm/judgment/zmsc/2022/34/eng@2022-05-20
+2026-05-06T21:12:47Z	batch-0526	FETCH	zmsc/2022/33	source=zambialii.org/akn/zm/judgment/zmsc/2022/33/eng@2022-05-10
+2026-05-06T21:12:47Z	batch-0526	FETCH	zmsc/2022/32	source=zambialii.org/akn/zm/judgment/zmsc/2022/32/eng@2022-05-10
+2026-05-06T21:12:47Z	batch-0526	FETCH	zmsc/2022/31	source=zambialii.org/akn/zm/judgment/zmsc/2022/31/eng@2022-05-10
+2026-05-06T21:12:47Z	batch-0526	FETCH	zmsc/2022/30	source=zambialii.org/akn/zm/judgment/zmsc/2022/30/eng@2022-04-12
+2026-05-06T21:12:47Z	batch-0526	WRITE	judgment-zm-2022-zmsc-34-citibank-zambia-ltd-v-dudhia	outcome=allowed	parser=v0.3.2	src=pdf-tail-2pages
+2026-05-06T21:12:47Z	batch-0526	DEFER	zmsc/2022/37	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/37/eng@2022-06-13
+2026-05-06T21:12:47Z	batch-0526	DEFER	zmsc/2022/36	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/36/eng@2022-06-13
+2026-05-06T21:12:47Z	batch-0526	DEFER	zmsc/2022/35	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/35/eng@2022-07-06
+2026-05-06T21:12:47Z	batch-0526	DEFER	zmsc/2022/33	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/33/eng@2022-05-10
+2026-05-06T21:12:47Z	batch-0526	DEFER	zmsc/2022/32	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/32/eng@2022-05-10
+2026-05-06T21:12:47Z	batch-0526	DEFER	zmsc/2022/31	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/31/eng@2022-05-10
+2026-05-06T21:12:47Z	batch-0526	DEFER	zmsc/2022/30	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/30/eng@2022-04-12
+2026-05-06T21:12:47Z	batch-0526	REGISTRY	no_new_canonical_entries	1_judge_resolved_existing_Kabuka
+2026-05-06T21:12:47Z	batch-0526	SQLITE	records=1839 judgments_meta=149 inserts=1

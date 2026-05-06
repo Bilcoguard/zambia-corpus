@@ -1,0 +1,35 @@
+{
+  "id": "judgment-zm-2022-zmsc-34-citibank-zambia-ltd-v-dudhia",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Citibank Zambia Ltd v Dudhia (SCZ 8 8 of 2022) [2022] ZMSC 34 (20 May 2022)",
+  "citation": "[2022] ZMSC 34",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Citibank Zambia Ltd v Dudhia",
+  "case_number": "SCZ 8 8 of 2022",
+  "date_decided": "2022-05-20",
+  "judges": [
+    {
+      "name": "Kabuka",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Industrial Relations Division",
+    "statutory one-year disposal requirement",
+    "effect of non-compliance on jurisdiction (judgment-only versus entire proceedings)",
+    "remit to trial court",
+    "point of law of public importance",
+    "leave to appeal granted."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "Leave to appeal is accordingly granted and the applicant is to file its",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "f349468d02dd34cbaa3f804569bac439bb94a066619ef9b6af00123ee5867734",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/34/eng@2022-05-20",
+  "source_hash": "sha256:d39dfc12689fbdff8f85e4507f6b065bb6b96f878cf09fcc55ae297ec6844d92",
+  "fetched_at": "2026-05-06T21:10:58Z",
+  "parser_version": "0.3.2"
+}

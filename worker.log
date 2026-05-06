@@ -5657,3 +5657,8 @@ test append
 [2026-05-06T20:33:30Z] idle worker-tick commit 1189fb8 pushed cleanly to origin/main (46a31dc..1189fb8). No fetches issued, no records written, no integrity check needed (no batch). approvals.yaml NOT modified. Lock-file workaround: index.lock/HEAD.lock renamed to .lock.bak.b0526.<UTCstamp>_pre_* (sandbox FUSE blocks unlink). B2 sync deferred to host (rclone not in sandbox). Tick complete; exiting cleanly. Next tick in 30 minutes.
 2026-05-06T21:04:05Z	worker-tick	idle - phase 8 already sampled for 2026-05-06 in batch-0524 at 20:07:56Z (deterministic seed phase8-reverify-2026-05-06; pool=1838 sample=8 match=4 drift=4 fetch_error=0). Re-running with the same seed on the same UTC date would produce an identical sample → no new information. Per non-negotiable rule #4, approvals.yaml NOT modified. Phase 8 is the only approved+incomplete phase; phase_5 judgment ingestion continues via the dedicated judgment-ingestion-worker scheduled task (latest batch-0525 at 20:17:38Z). Today fetches=32/2000 (8 phase-8 + 16 b0523 + 16 b0525, well under cap); tokens well under cap. git pull --ff-only OK (already at 72f2f01). Next non-idle tick: 2026-05-07 UTC, when seed phase8-reverify-2026-05-07 will produce a fresh deterministic sample.
 2026-05-06T21:04:33Z	caf09a6	worker-tick idle push OK (72f2f01..caf09a6)
+2026-05-06T21:13:08Z batch-0526 START judgment-ingestion-worker zmsc-2022-{37..30}
+2026-05-06T21:13:08Z batch-0526 FETCH 8/8 ok 16-fetches
+2026-05-06T21:13:08Z batch-0526 PARSE 1-written 7-deferred parser-v0.3.2
+2026-05-06T21:13:08Z batch-0526 SQLITE +1 records=1839 judgments_meta=149
+2026-05-06T21:13:08Z batch-0526 INTEGRITY PASS 1/1
