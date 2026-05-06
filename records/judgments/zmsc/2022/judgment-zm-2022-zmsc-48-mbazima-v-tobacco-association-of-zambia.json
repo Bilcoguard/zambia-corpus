@@ -1,0 +1,43 @@
+{
+  "id": "judgment-zm-2022-zmsc-48-mbazima-v-tobacco-association-of-zambia",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mbazima v Tobacco Association of Zambia (SCZ 8 of 2021) [2022] ZMSC 48 (9 November 2022)",
+  "citation": "[2022] ZMSC 48",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Mbazima v Tobacco Association of Zambia",
+  "case_number": "SCZ 8 of 2021",
+  "date_decided": "2022-11-09",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kabuka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Arbitration",
+    "limited court intervention; Arbitration Act s17",
+    "grounds to set aside awards (fraud, public policy, jurisdictional limits); Court of Appeal Act s13(3)",
+    "threshold for leave to appeal; procedural requirement to renew single-judge applications (renewal, not appeal); failure to produce evidence at arbitration not basis for setting aside award."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "We accordingly dismiss it",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "2ed06a570e057fa4cd81a02e41fd89502fa6459321f55e5eebed927781c81b5b",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/48/eng@2022-11-09",
+  "source_hash": "sha256:ac36f7aa07e77670a3df05b0cf187b3f6543f8d63a8fdfdfc81adaf8cf046651",
+  "fetched_at": "2026-05-06T20:01:48Z",
+  "parser_version": "0.3.2"
+}

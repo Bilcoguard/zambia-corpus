@@ -3764,3 +3764,17 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-04T17:01:30Z	batch-0521	DEFER	zmsc/2023/3	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2023/3/eng@2023-02-09
 2026-05-04T17:01:30Z	batch-0521	DEFER	zmsc/2023/2	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2023/2/eng@2023-02-17
 2026-05-04T17:06:00Z	batch-0521	SQLITE	records=1826 judgments_meta=136 inserts=6
+2026-05-04T19:04:13Z	batch-0522	PROBE	zmsc/2022	max_num=61_inner_gap_at_20	19_HEADs_at_{10,20,30,40,50,60,61,62..69,70,80,90,100}
+2026-05-04T19:04:13Z	batch-0522	WRITE	judgment-zm-2022-zmsc-60-yotumu-banda-v-the-people	dismissed	source=zambialii.org/akn/zm/judgment/zmsc/2022/60/eng@2022-06-07
+2026-05-04T19:04:13Z	batch-0522	WRITE	judgment-zm-2022-zmsc-59-nelly-mulenga-and-anor-v-bonface-chilambwe-fundafu	dismissed	source=zambialii.org/akn/zm/judgment/zmsc/2022/59/eng@2022-06-22
+2026-05-04T19:04:13Z	batch-0522	WRITE	judgment-zm-2022-zmsc-58-luboni-simunga-v-the-people	upheld	source=zambialii.org/akn/zm/judgment/zmsc/2022/58/eng@2022-08-31
+2026-05-04T19:04:13Z	batch-0522	WRITE	judgment-zm-2022-zmsc-57-zesco-limited-v-isaac-mbewe-25-ors	allowed	source=zambialii.org/akn/zm/judgment/zmsc/2022/57/eng@2022-03-30
+2026-05-04T19:04:13Z	batch-0522	DEFER	zmsc/2022/61	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/61/eng@2022-01-18
+2026-05-04T19:04:13Z	batch-0522	DEFER	zmsc/2022/56	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/56/eng@2022-03-22
+2026-05-04T19:04:13Z	batch-0522	DEFER	zmsc/2022/55	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/55/eng@2022-09-01
+2026-05-04T19:04:13Z	batch-0522	DEFER	zmsc/2022/54	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/54/eng@2022-06-10
+2026-05-04T19:04:13Z	batch-0522	REGISTRY	+1_new_canonical=Kajimanga_JJS	first_seen=judgment-zm-2022-zmsc-59-nelly-mulenga-and-anor-v-bonface-chilambwe-fundafu
+2026-05-04T19:04:13Z	batch-0522	SQLITE	records=1830 judgments_meta=140 inserts=4
+2026-05-06T20:04:23Z	batch-0523	judgment-ingestion-worker	zmsc-2022	{53..46}	fetched=8/8	written=4	deferred=4	integrity=115/115	parser_v0.3.2	cohort_cumulative=47w/36d/5_404
+2026-05-06T20:04:29Z	batch-0523	REGISTRY	no_new_canonical_entries	all_7_judges_resolved_existing
+2026-05-06T20:04:29Z	batch-0523	SQLITE	records=1834 judgments_meta=144 inserts=4

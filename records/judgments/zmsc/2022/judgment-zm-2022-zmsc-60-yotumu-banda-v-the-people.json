@@ -1,0 +1,48 @@
+{
+  "id": "judgment-zm-2022-zmsc-60-yotumu-banda-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Yotumu Banda v the People (Appeal No. 239/2014) [2022] ZMSC 60 (7 June 2022)",
+  "citation": "[2022] ZMSC 60",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Yotumu Banda v the People",
+  "case_number": "Appeal No. 239/2014",
+  "date_decided": "2022-06-07",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "Murder v manslaughter",
+    "malice aforethought (s204 Penal Code)",
+    "deadly weapon (broken bottle)",
+    "contemporaneous statements",
+    "res gestae",
+    "drunkenness not automatically extenuating",
+    "sentencing misdirection",
+    "substitution of death penalty."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "1 We dismiss the appeal, uphold the conviction, set aside the",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "b15b47661fc071493cc63a3c9e51f94840ecd7558ea7f1b4aa5c0e1db0da2fde",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/60/eng@2022-06-07",
+  "source_hash": "sha256:ebfa73f2334799240cf5383a37ce492d243e59217e8dcd6af14915366280b68c",
+  "fetched_at": "2026-05-04T19:01:21Z",
+  "parser_version": "0.3.2"
+}

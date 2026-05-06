@@ -107,6 +107,14 @@ judges:
   - Kabuka JS
   - Kabuka
   first_seen: '2026-05-03T17:14:01Z'
+- canonical_name: Kajimanga
+  titles:
+  - title: JJS
+    first_seen_in: judgment-zm-2022-zmsc-59-nelly-mulenga-and-anor-v-bonface-chilambwe-fundafu
+    first_seen_at: '2026-05-04T19:01:27Z'
+  aliases:
+  - Kajimanga JJS
+  first_seen: '2026-05-04T19:01:27Z'
 - canonical_name: Kaoma
   titles:
   - title: JJS
@@ -115,9 +123,13 @@ judges:
   - title: J
     first_seen_in: judgment-zm-2026-zmsc-09-kapopo-mutele-patel-v-the-people
     first_seen_at: '2026-05-03T17:14:01Z'
+  - title: JS
+    first_seen_in: judgment-zm-2022-zmsc-50-banda-v-people
+    first_seen_at: '2026-05-06T20:01:50Z'
   aliases:
   - Kaoma JJS
   - Kaoma J
+  - Kaoma JS
   first_seen: '2026-05-03T17:14:01Z'
 - canonical_name: Kawimbe
   titles:

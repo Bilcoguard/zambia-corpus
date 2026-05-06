@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2022-zmsc-57-zesco-limited-v-isaac-mbewe-25-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "ZESCO Limited v Isaac Mbewe & 25 Ors (APPEAL No. 52/2014; SCZ/8/352/2013) [2022] ZMSC 57 (30 March 2022)",
+  "citation": "[2022] ZMSC 57",
+  "court": "Supreme Court of Zambia",
+  "case_name": "ZESCO Limited v Isaac Mbewe & 25 Ors",
+  "case_number": "APPEAL No. 52/2014\n          ;\n        \n          SCZ/8/352/2013",
+  "date_decided": "2022-03-30",
+  "judges": [
+    {
+      "name": "Mambilima",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kabuka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Employment law",
+    "conditions of service",
+    "camping/subsistence allowances",
+    "burden of proof for nights away and claim forms; collective agreements and union-negotiated rates",
+    "proof of union membership and payment; settling-in allowance",
+    "non-retroactivity; assessment of damages",
+    "proper procedure for verification/assessment."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "Contract workers failed to prove entitlement to unpaid/underpaid camping allowances or retrospective settling‑in allowance; appeal allowed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "c208b7ea85c1317869db8926b52bb1b308b1dd1a76215cc4aba561acfed41c5e",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/57/eng@2022-03-30",
+  "source_hash": "sha256:30977458c78c7f8a8f8bba3e5450aad2c35ee27a365ecbf96890add2abff9d7e",
+  "fetched_at": "2026-05-04T19:01:24Z",
+  "parser_version": "0.3.2"
+}

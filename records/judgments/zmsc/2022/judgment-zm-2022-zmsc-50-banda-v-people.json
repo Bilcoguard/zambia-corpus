@@ -1,0 +1,42 @@
+{
+  "id": "judgment-zm-2022-zmsc-50-banda-v-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Banda v People (SCZ Appeal 35 of 2020) [2022] ZMSC 50 (14 June 2022)",
+  "citation": "[2022] ZMSC 50",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Banda v People",
+  "case_number": "SCZ Appeal 35 of 2020",
+  "date_decided": "2022-06-14",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "murder",
+    "sufficiency of proof as to cause of death",
+    "extrajudicial confession to private person",
+    "admissibility and weight",
+    "motive and corroboration",
+    "mens rea/malice aforethought",
+    "appellate review of trial judge’s evaluation of conflicting accounts."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Appeal dismissed: unchallenged extrajudicial confession and note confirmed motive and premeditation, warranting murder conviction and death sentence",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "3d4cca9f627021695b4e0f00455af4d74611af426249da7976dba74bcef25f61",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/50/eng@2022-06-14",
+  "source_hash": "sha256:11cc5b7791a857b4451e8b0cd387ab473371d0701042315ab548e7ac0dfb344c",
+  "fetched_at": "2026-05-06T20:01:47Z",
+  "parser_version": "0.3.2"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2022-zmsc-49-nkonde-and-ors-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Nkonde and Ors v Attorney General (SCZ 8 28 of 2021) [2022] ZMSC 49 (8 February 2022)",
+  "citation": "[2022] ZMSC 49",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Nkonde and Ors v Attorney General",
+  "case_number": "SCZ 8 28 of 2021",
+  "date_decided": "2022-02-08",
+  "judges": [
+    {
+      "name": "Mutuna",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Civil procedure",
+    "Extension of time",
+    "Rule 12(1) Supreme Court Rules",
+    "Requirement of good cause and sufficient material",
+    "Counsel’s omission or mistake does not ordinarily justify extension",
+    "Reopening appeal",
+    "Promptness and explanation for delay."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "19) We accordingly dismiss the application, with costs to the",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "81805654f159e521f4be74017dc52c8c449fde9a700f0633a7deabbe0af0aa3f",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/49/eng@2022-02-08",
+  "source_hash": "sha256:1ddd22c68155f3f4f7a17ba3528e7a119685c1b2f79f4d4996c495358f8f933b",
+  "fetched_at": "2026-05-06T20:01:47Z",
+  "parser_version": "0.3.2"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "judgment-zm-2022-zmsc-58-luboni-simunga-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Luboni Simunga v the People (SCZ APPEAL NO. 117/2021) [2022] ZMSC 58 (31 August 2022)",
+  "citation": "[2022] ZMSC 58",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Luboni Simunga v the People",
+  "case_number": "SCZ APPEAL NO. 117/2021",
+  "date_decided": "2022-08-31",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "Insanity defence (s.12 Penal Code)",
+    "onus on accused",
+    "psychiatric evidence must be cogent and explained",
+    "postpartum psychosis may mitigate though not meet legal insanity. Constitutional law",
+    "Article 73(4)",
+    "status of MP whose election nullified but appeal pending",
+    "MPs retain seats pending appeal; Speaker’s exclusion ruling rendered overtaken"
+  ],
+  "outcome": "upheld",
+  "outcome_detail": "Court upheld murder convictions, substituted death with 20 years due to mitigating postpartum psychosis; constitutional petition on MP exclusion dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "b90bb48acb761152b22251f3515e9814d461ae4ac7e792fdc23042a401ba9b05",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/58/eng@2022-08-31",
+  "source_hash": "sha256:adbccd29a81736351f5bfb5156d8c48b08a937504fb8038dc04ba4731cd92423",
+  "fetched_at": "2026-05-04T19:01:23Z",
+  "parser_version": "0.3.2"
+}

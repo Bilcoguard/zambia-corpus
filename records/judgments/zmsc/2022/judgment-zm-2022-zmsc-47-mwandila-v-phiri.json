@@ -1,0 +1,36 @@
+{
+  "id": "judgment-zm-2022-zmsc-47-mwandila-v-phiri",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mwandila v Phiri (Appeal 182 of 2013) [2022] ZMSC 47 (26 May 2022)",
+  "citation": "[2022] ZMSC 47",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Mwandila v Phiri",
+  "case_number": "Appeal 182 of 2013",
+  "date_decided": "2022-05-26",
+  "judges": [
+    {
+      "name": "Mutuna",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Land law",
+    "Order 113 RSC (summary possession) limited to dispossessing trespassers; contentious ownership disputes require full trial or conversion under Order 28(8) RSC; procedural irregularities generally cureable under Order 2 RSC but not where misuse subverts the purpose of a special procedure; certificate of title issues cannot be resolved by summary procedure."
+  ],
+  "outcome": "remitted",
+  "outcome_detail": "Summary possession under Order 113 RSC cannot resolve disputed title; matter remitted for full trial under Order 28(8) RSC",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "ff2415488f8c5239d73880fd68fb093e1820450938be82fc4d9526374e4bc07e",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/47/eng@2022-05-26",
+  "source_hash": "sha256:55320fd168caf85cf8eb1485dc380aca03e6b8179d3c58cfe7f975b49910cb01",
+  "fetched_at": "2026-05-06T20:01:49Z",
+  "parser_version": "0.3.2"
+}

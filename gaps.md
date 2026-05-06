@@ -3817,3 +3817,116 @@ ZMSC 2023 sweep is now closed (all 22 indexed nums attempted: 9 written,
 11 deferred, 2 404). Next tick: pivot to ZMSC 2022 upper-boundary probe
 followed by most-recent-first DESC sweep, ~ 8 candidates.
 ZMSC 2023 status after b0521: 22 of 22 attempted (9 written, 11 deferred, 2 404). COMPLETE.
+
+## [2026-05-04 b0522] ZMSC 2022 upper-boundary + first sweep
+
+ZMSC 2022 upper boundary probed via 19 HEAD requests:
+- nums {10,30,40,50,60,61} → 200 OK
+- nums {20,62,63,64,65,66,67,68,69,70,80,90,100} → 404
+- Confirmed max num = 61 for ZMSC 2022; inner gap at num 20 noted
+  (gap matches the ZMSC 2023 num=4/13 + ZMSC 2024 num=4 cadastre-numbering
+  pattern; will be enumerated in closing pass)
+
+ZMSC 2022 most-recent-first sweep nums {61..54}: 8 OK; 4 written, 4 deferred.
+
+| num | result | outcome / notes |
+|-----|--------|-----------------|
+| 61  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family) |
+| 60  | **written** | dismissed (Yotumu Banda v The People — appeal dismissed; conviction upheld; sentence varied) |
+| 59  | **written** | dismissed (Mulenga & Anor v Chilambwe Fundafu — costs to respondents) |
+| 58  | **written** | upheld (Luboni Simunga v The People — murder conviction upheld; death sentence substituted with 20 years due to mitigation) |
+| 57  | **written** | allowed (ZESCO Limited v Mbewe & 25 Ors — contract workers failed to prove camping-allowance entitlement) |
+| 56  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family) |
+| 55  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — 4.3MB PDF) |
+| 54  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family) |
+
+Outstanding raw-on-disk-pending-v0.3.3 deferrals (cohort total 25 after b0522):
+prior 21 + zmsc/2022/{61,56,55,54}.
+
+### Next-tick recommendation
+
+Continue ZMSC 2022 most-recent-first DESC sweep with nums {53..46}
+(8 candidates). Inner-gap enumeration of num 20 deferred to closing pass.
+
+ZMSC 2022 status after b0522: 8 of ~60 attempted (4 written, 4 deferred,
+plus 1 known internal 404 at num 20).
+
+## Batch 0523 update (2026-05-06)
+
+ZMSC 2022 most-recent-first sweep nums {53..46}: 8 OK; 4 written, 4 deferred.
+
+| num | result | outcome / notes |
+|-----|--------|-----------------|
+| 53  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — corruption convictions affirmed; statutory presumption valid; foreign documents admissible) |
+| 52  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — beneficiaries cannot prosecute claims over deceased estate property without administrator; Rule 19 objections permitted) |
+| 51  | deferred | pdf_extraction_empty_likely_scanned (19.6MB PDF — appears to be image-only scanned judgment; defer for OCR pass) |
+| 50  | **written** | dismissed (Banda v People — extrajudicial confession upheld; murder conviction and death sentence affirmed) |
+| 49  | **written** | dismissed (Nkonde and Ors v Attorney General — application for extension of time / re-opening appeal dismissed; counsel's omission insufficient cause) |
+| 48  | **written** | dismissed (Mbazima v Tobacco Association of Zambia — arbitration award stands; limited grounds to set aside; renewal of single-judge applications required) |
+| 47  | **written** | remitted (Mwandila v Phiri — Order 113 RSC summary possession unsuited for disputed title; matter remitted for full trial under Order 28(8) RSC) |
+| 46  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — chief's withdrawal/consent insufficient to extinguish customary interest without Lands Act consultation) |
+
+Outstanding raw-on-disk-pending-v0.3.3 deferrals (cohort total 28 after b0523):
+prior 25 + zmsc/2022/{53,52,46}. Plus 1 OCR-pending deferral: zmsc/2022/51 (scanned PDF).
+
+### Next-tick recommendation
+
+Continue ZMSC 2022 most-recent-first DESC sweep with nums {45..38}
+(8 candidates). Inner-gap enumeration of num 20 still deferred to closing pass.
+
+ZMSC 2022 status after b0523: 16 of ~60 attempted (8 written, 7
+v0.3.3-pending deferred, 1 OCR-pending deferred, plus 1 known internal
+404 at num 20).
+
+## Phase 8 — Nightly re-verification, batch 0524 (2026-05-06)
+
+First Phase 8 tick after Peter approved phase_8_nightly_reverify on
+2026-05-06. Sample seed `phase8-reverify-2026-05-06` over a pool of 1838 records
+with `source_url` and `source_hash`. Sample size 8 (1% of pool,
+capped by MAX_BATCH_SIZE=8). Re-fetched all 8 records, recomputed
+sha256, compared against stored values. **Records were NOT mutated by this
+tick.** Per BRIEF.md and approvals.yaml, Phase 8 only flags drift; the
+corpus records remain authoritative until a human decides otherwise.
+
+Outcome counts: match=4, drift=4, fetch_error=0.
+
+### Drift entries — to be triaged before any record refresh
+
+| Record id | Source URL | Stored sha256 | Re-fetched sha256 | Bytes (new) | Sub-kind |
+|-----------|------------|---------------|-------------------|------------:|----------|
+| `act-zm-cap-268-employment-act` | https://zambialii.org/akn/zm/act/1965/32/eng@1996-12-31 | `a040fe440c7ca73e9b4865798b19b882f9ad7035b9305157f8f547d0ed88c8c2` | `4fb6bd465c687e8636a14f7ec6064d21e0e4c36bbedec36b91450c3400f6e8a3` | 57,719 | `content_changed_full_drift` |
+| `act-zm-cap-275-apprenticeship-act` | https://zambialii.org/akn/zm/act/1964/36/eng@1996-12-31 | `3354b3d86861c9b0b74fd14d28af60a34e1eaa8acc0a06c57fd3fdc29e381d88` | `798d689a6fe4253fdb8a4cdcfb7b7b585209f5ad6626fc68a0c1cd46b5e818d5` | 145,177 | `content_changed_full_drift` |
+| `act-zm-1966-031-commercial-travellers-special-provisions-act-1966` | https://zambialii.org/akn/zm/act/1966/31/eng@1996-12-31 | `88288ddf8424fef19b872fab2abfaf1b976bbd072894cd7689b3d14ae8db7048` | `593af0e5d6492034ec65684f64cb5a63752320ee7c64a41fdae2d6298dbe41f4` | 55,401 | `content_changed_full_drift` |
+| `act-zm-2020-024-skills-development-levy-amendment-act-2020` | https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/The%20Skills%20Development%20Levy%20%28Amendment%29%20Act%20No.%2024%20of%202020.pdf | `966825e257ac241a` | `966825e257ac241a507236985eb3e6c701e09f694b8b4e8d895a2bc012b79755` | 19,845 | `stored_hash_truncated_prefix_match` |
+
+### Drift sub-kind notes
+
+- **`content_changed_full_drift`** — re-fetched bytes hash differs from the stored
+  hash with no obvious recording-bug explanation. The three ZambiaLII act-page
+  drifts (`act-zm-cap-268-employment-act`, `act-zm-cap-275-apprenticeship-act`,
+  `act-zm-1966-031-commercial-travellers-special-provisions-act-1966`) all point at
+  HTML rendering URLs (`/akn/zm/act/.../eng@1996-12-31`, no `/source.pdf`
+  suffix). HTML pages on a CMS-driven site routinely embed dynamic markup
+  (view counters, server timestamps, asset hashes), so byte-level drift is the
+  expected behaviour for those URLs and does NOT necessarily imply substantive
+  text change. Recommended next step: a human-approved 'compare normalised text
+  body' pass should run before treating this as a real content change.
+- **`stored_hash_truncated_prefix_match`** — re-fetched hash is exactly 64 hex chars,
+  the stored hash is a truncated prefix of the same digest. Confirms the source
+  bytes have not changed and identifies a recording defect in the stored
+  `source_hash`. Triage: tag for hash-string repair (NOT performed by Phase 8;
+  Phase 8 is read-only on records).
+
+### Match entries (no action needed; recorded here for audit)
+
+- `si-zm-1985-016-income-tax-foreign-organisations-exemption-approval-order-1985` (https://zambialii.org/akn/zm/act/si/1985/16/eng@1985-01-26/source.pdf) — sha256 unchanged.
+- `act-zm-1988-citizenship-of-zambia-act` (https://www.zambialii.org/akn/zm/act/1988/24/eng@1988-07-29/source.pdf) — sha256 unchanged.
+- `act-zm-2018-007-the-credit-reporting-act-2018` (https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Credit%20Report%20Act%2C%202018.pdf) — sha256 unchanged.
+- `act-zm-2019-005-electoral-commission-of-zambia-amendment-act-2019` (https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Electoral%20Commission%20ofZambia%20%28Amendment%29%20Act%20No.%205%202019.pdf) — sha256 unchanged.
+
+### Reproducibility
+
+- Sample seed: `phase8-reverify-2026-05-06` (deterministic; same date → same sample).
+- Re-runnable via `python3 scripts/batch_0524_phase8_reverify.py`.
+- Full per-fetch JSON: `reports/batch-0524-reverify.json`.
+

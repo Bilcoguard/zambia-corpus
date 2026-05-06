@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2022-zmsc-59-nelly-mulenga-and-anor-v-bonface-chilambwe-fundafu",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Nelly Mulenga and Anor v Bonface Chilambwe Fundafunda (APPEAL NO. 15/2021) [2022] ZMSC 59 (22 June 2022)",
+  "citation": "[2022] ZMSC 59",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Nelly Mulenga and Anor v Bonface Chilambwe Fundafunda",
+  "case_number": "APPEAL NO. 15/2021",
+  "date_decided": "2022-06-22",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kajimanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Conveyancing",
+    "Equity of redemption",
+    "Assignment vs outright transfer",
+    "Applicability of Lands and Deeds Registry Act sections 61 and 62",
+    "Registration requirements",
+    "Equity and limitation (Limitation Act s.2(7))",
+    "Delay, laches and subrogation."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "The appeal is dismissed with costs to the respondents to be taxed in default",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "d3503617b7b3ae4efbe3f847223fc02aa82f6ce2c48148488270aa3e9e824c44",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/59/eng@2022-06-22",
+  "source_hash": "sha256:a8fab99cf8e346ddc9bb87d6aef22498d027fbdc8f24eabd37034f72d557adae",
+  "fetched_at": "2026-05-04T19:01:22Z",
+  "parser_version": "0.3.2"
+}
