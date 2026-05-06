@@ -5701,3 +5701,4 @@
 2026-05-06T20:13:39Z	batch-0525	B2 sync deferred to host (rclone not in sandbox)
 2026-05-06T20:17:38Z	batch-0525	B2 sync deferred to host (rclone not in sandbox)
 2026-05-06T20:17:38Z	99c23d9	batch-0525 push OK (ea234de..99c23d9)
+2026-05-06T20:33:05Z	worker-tick	idle	fetches=0	records_written=0	records_deferred=0	cumulative_today=32/2000	reason=phase-8-already-sampled-today-b0524-deterministic-seed-no-redundant-work
