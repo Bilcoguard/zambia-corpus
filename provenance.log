@@ -3788,3 +3788,14 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-06T20:04:01Z	batch-0524	phase-8-reverify	GET	https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Electoral%20Commission%20ofZambia%20%28Amendment%29%20Act%20No.%205%202019.pdf	status=200	sha256=b7a0880b2be34ebfed863f9769b3e9e2a85a1c141d0419f9964b89e4f2476450	bytes=22233	verdict=match	stored_sha256=b7a0880b2be34ebfed863f9769b3e9e2a85a1c141d0419f9964b89e4f2476450	record_id=act-zm-2019-005-electoral-commission-of-zambia-amendment-act-2019	parser_version=phase8-reverify-0.1.0
 2026-05-06T20:04:04Z	batch-0524	phase-8-reverify	GET	https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/The%20Skills%20Development%20Levy%20%28Amendment%29%20Act%20No.%2024%20of%202020.pdf	status=200	sha256=966825e257ac241a507236985eb3e6c701e09f694b8b4e8d895a2bc012b79755	bytes=19845	verdict=drift	stored_sha256=966825e257ac241a	record_id=act-zm-2020-024-skills-development-levy-amendment-act-2020	parser_version=phase8-reverify-0.1.0
 # 2026-05-06T20:07:56Z batch-0524 end
+2026-05-06T20:13:39Z	batch-0525	judgment-ingestion-worker	zmsc-2022	{45..38}	fetched=8/8	written=4	deferred=4	integrity=117/117	parser_v0.3.2	cohort_cumulative=51w/40d/5_404
+2026-05-06T20:13:39Z	batch-0525	WRITE	judgment-zm-2022-zmsc-45-abel-chipemba-v-the-people	dismissed	source=zambialii.org/akn/zm/judgment/zmsc/2022/45/eng@2022-02-10
+2026-05-06T20:13:39Z	batch-0525	WRITE	judgment-zm-2022-zmsc-42-chimanga-changa-ltd-v-export-trading-ltd	upheld	source=zambialii.org/akn/zm/judgment/zmsc/2022/42/eng@2022-09-29
+2026-05-06T20:13:39Z	batch-0525	WRITE	judgment-zm-2022-zmsc-40-zambian-breweries-plc-v-maritime-freight-and-forwa	allowed	source=zambialii.org/akn/zm/judgment/zmsc/2022/40/eng@2022-08-30
+2026-05-06T20:13:39Z	batch-0525	WRITE	judgment-zm-2022-zmsc-39-teal-minerals-barbados-incorporated-v-zambia-reven	dismissed	source=zambialii.org/akn/zm/judgment/zmsc/2022/39/eng@2022-08-17
+2026-05-06T20:13:39Z	batch-0525	DEFER	zmsc/2022/44	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/44/eng@2022-09-01
+2026-05-06T20:13:39Z	batch-0525	DEFER	zmsc/2022/43	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/43/eng@2022-03-02
+2026-05-06T20:13:39Z	batch-0525	DEFER	zmsc/2022/41	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/41/eng@2022-08-24
+2026-05-06T20:13:39Z	batch-0525	DEFER	zmsc/2022/38	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/38/eng@2022-06-07
+2026-05-06T20:13:39Z	batch-0525	REGISTRY	no_new_canonical_entries	all_12_judges_resolved_existing
+2026-05-06T20:13:39Z	batch-0525	SQLITE	records=1838 judgments_meta=148 inserts=4

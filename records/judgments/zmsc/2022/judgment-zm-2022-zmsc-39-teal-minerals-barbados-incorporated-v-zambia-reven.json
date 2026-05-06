@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2022-zmsc-39-teal-minerals-barbados-incorporated-v-zambia-reven",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Teal Minerals Barbados Incorporated v Zambia Revenue Authority (Appeal 4 of 2022) [2022] ZMSC 39 (17 August 2022)",
+  "citation": "[2022] ZMSC 39",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Teal Minerals Barbados Incorporated v Zambia Revenue Authority",
+  "case_number": "Appeal 4 of 2022",
+  "date_decided": "2022-08-17",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musonda",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Property Transfer Tax",
+    "Offshore/indirect transfer of holding-company shares",
+    "Interest in mining right",
+    "Statutory interpretation",
+    "Commissioner-General's valuation discretion (s5(3))",
+    "Legitimate expectation and power to amend assessment."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "92) The appeal is accordingly dismissed with costs",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "f1a9fd511bb4ae71087250ab101dd773e597f4139906f43f0ecd1d79101be8a2",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/39/eng@2022-08-17",
+  "source_hash": "sha256:2f9eaf28d8f597feb78ac0454010adf836a7290d7fbbdb412c5be3c56d147eaa",
+  "fetched_at": "2026-05-06T20:12:12Z",
+  "parser_version": "0.3.2"
+}

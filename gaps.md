@@ -3930,3 +3930,35 @@ Outcome counts: match=4, drift=4, fetch_error=0.
 - Re-runnable via `python3 scripts/batch_0524_phase8_reverify.py`.
 - Full per-fetch JSON: `reports/batch-0524-reverify.json`.
 
+
+## Batch 0525 update (2026-05-06)
+
+ZMSC 2022 most-recent-first sweep nums {45..38}: 8 OK; 4 written, 4 deferred.
+
+| num | result | outcome / notes |
+|-----|--------|-----------------|
+| 45  | **written** | dismissed (Abel Chipemba v The People — appeal is dismissed; 3-judge panel Hamaundu/Kabuka/Chinyama) |
+| 44  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — mortgagee may lodge counterclaim in pending writ proceedings; mode of commencement does not bar competent counterclaims) |
+| 43  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — bribery conviction; undercover evidence and trial process found lawful, magistrate's findings upheld) |
+| 42  | **written** | upheld (Chimanga Changa Ltd v Export Trading Ltd — we uphold the decision of the Court of Appeal; 3-judge panel Mutuna/Wood/Kajimanga) |
+| 41  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — applicant failed to show public importance or prospects of success; res judicata; leave to appeal refused) |
+| 40  | **written** | allowed (Zambian Breweries Plc v Maritime Freight and Forwarding — appeal allowed; 3-judge panel Hamaundu/Kaoma/Mutuna) |
+| 39  | **written** | dismissed (Teal Minerals Barbados Inc v Zambia Revenue Authority — appeal dismissed with costs; 3-judge panel Hamaundu/Mutuna/Musonda DCJ) |
+| 38  | deferred | html_no_summary_pdf_no_match (interpretive-ratio family — failure to obtain mandatory leave from Court of Appeal deprived Supreme Court of jurisdiction; appeals dismissed on jurisdictional ground) |
+
+Outstanding raw-on-disk-pending-v0.3.3 deferrals (cohort total 32 after b0525):
+prior 28 + zmsc/2022/{44,43,41,38}. Plus 1 OCR-pending deferral: zmsc/2022/51 (scanned PDF).
+
+Twelve judge resolutions across the four written records (Hamaundu JS×3,
+Kabuka JS, Chinyama JS, Mutuna JS×3, Wood JS, Kajimanga JS, Kaoma JS,
+Musonda DCJ) all matched existing canonical entries; judges_registry.yaml
+unchanged.
+
+### Next-tick recommendation
+
+Continue ZMSC 2022 most-recent-first DESC sweep with nums {37..30}
+(8 candidates). Inner-gap enumeration of num 20 still deferred to closing pass.
+
+ZMSC 2022 status after b0525: 24 of ~60 attempted (12 written, 11
+v0.3.3-pending deferred, 1 OCR-pending deferred, plus 1 known internal
+404 at num 20).

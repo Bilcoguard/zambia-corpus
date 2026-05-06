@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2022-zmsc-40-zambian-breweries-plc-v-maritime-freight-and-forwa",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Zambian Breweries PLC v Maritime Freight and Forwarding Ltd (Appeal 16 of 2019) [2022] ZMSC 40 (30 August 2022)",
+  "citation": "[2022] ZMSC 40",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Zambian Breweries PLC v Maritime Freight and Forwarding Ltd",
+  "case_number": "Appeal 16 of 2019",
+  "date_decided": "2022-08-30",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Contract construction; BIT (broken and missing bottles) allowance",
+    "scope and monetary entitlement",
+    "authority of employee to vary contract",
+    "burden and standard of proof in liquidated money claims",
+    "requirement for documentary evidence",
+    "improper referral to assessment",
+    "costs allocation."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "3 Otherwise, this appeal is allowed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "1c96e24157157dfa8d57b71a688d437a4cac069daf3020ef57585e31f07a112f",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/40/eng@2022-08-30",
+  "source_hash": "sha256:d70c9f187bf774738a24cd20dfe600ae901e3775082a70c92acbe420181c389a",
+  "fetched_at": "2026-05-06T20:12:11Z",
+  "parser_version": "0.3.2"
+}

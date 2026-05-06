@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2022-zmsc-42-chimanga-changa-ltd-v-export-trading-ltd",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Chimanga Changa Ltd v Export Trading Ltd (Appeal 3 of 2022) [2022] ZMSC 42 (29 September 2022)",
+  "citation": "[2022] ZMSC 42",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Chimanga Changa Ltd v Export Trading Ltd",
+  "case_number": "Appeal 3 of 2022",
+  "date_decided": "2022-09-29",
+  "judges": [
+    {
+      "name": "Mutuna",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kajimanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Corporate insolvency law",
+    "business rescue",
+    "distinction between challenges to the decision to commence business rescue (section 22(1)) and the moratorium on proceedings affecting company assets (section 25(1))",
+    "scope of \"legal proceedings\"",
+    "procedure for section 22(1) applications."
+  ],
+  "outcome": "upheld",
+  "outcome_detail": "we uphold the decision of the Court of Appeal to the extent",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "1a9b8b80aaefe705c78378c7a923541fa11ac935bf6edd386ec60b1cb8a22a03",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/42/eng@2022-09-29",
+  "source_hash": "sha256:050fcaebb6bb2906cb11505fd8e4ce903071c016dd8f406be8df4b4a5d702181",
+  "fetched_at": "2026-05-06T20:12:09Z",
+  "parser_version": "0.3.2"
+}

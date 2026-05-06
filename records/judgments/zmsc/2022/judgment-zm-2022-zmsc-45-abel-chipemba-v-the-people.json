@@ -1,0 +1,42 @@
+{
+  "id": "judgment-zm-2022-zmsc-45-abel-chipemba-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Abel Chipemba V The People (Appeal 107 of 2021) [2022] ZMSC 45 (10 February 2022)",
+  "citation": "[2022] ZMSC 45",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Abel Chipemba V The People",
+  "case_number": "Appeal 107 of 2021",
+  "date_decided": "2022-02-10",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kabuka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Juveniles Act s122",
+    "sworn evidence by child witnesses; corroboration statutory only for under-14s; sexual offences",
+    "corroboration a rule of practice; odd coincidences as corroboration; circumstantial evidence; identification."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "appeal is dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "7bf86741c4d17b1d07d2c46f04c3ddb2dddd36f28aa8d2ae60fd6eaf328ba1a6",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/45/eng@2022-02-10",
+  "source_hash": "sha256:711cf0c50a71f02537a9802cf0445615f4108006653f6c57c741168865d04b2f",
+  "fetched_at": "2026-05-06T20:12:06Z",
+  "parser_version": "0.3.2"
+}
