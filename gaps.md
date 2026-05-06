@@ -4032,3 +4032,55 @@ Then continue ZMSC 2022 most-recent-first DESC sweep with nums {19..12}
 ZMSC 2022 status after b0529: 40 of ~60 attempted (14 written, 20
 v0.3.3-pending deferred, 1 OCR-pending deferred, plus 6 confirmed
 internal 404s at nums {20, 22, 23, 24, 25, 26}).
+
+## Batch 0530 update (2026-05-06)
+
+ZMSC 2022 inner-gap probe + DESC sweep nums {21, 19..13}: **0 OK; 0
+written, 0 deferred, 8 confirmed-404** (large-gap discovery).
+
+| num | result | outcome / notes |
+|-----|--------|-----------------|
+| 21  | **confirmed 404** | inner-gap probe — closes contiguous span on the upper side of the previously-isolated num=20 boundary |
+| 19  | **confirmed 404** | gap-cluster expansion (below num=20 boundary) |
+| 18  | **confirmed 404** | gap-cluster expansion |
+| 17  | **confirmed 404** | gap-cluster expansion |
+| 16  | **confirmed 404** | gap-cluster expansion |
+| 15  | **confirmed 404** | gap-cluster expansion |
+| 14  | **confirmed 404** | gap-cluster expansion |
+| 13  | **confirmed 404** | gap-cluster expansion |
+
+**Major internal-gap discovery**: nums **{13..26}** are a contiguous
+14-num 404 span (encompassing the previously-isolated num=20 boundary
+discovered in b0522 + the {22..26} cluster from b0529 + the new
+{21, 19..13} expansion confirmed in b0530). Last-known-OK num above
+is 27 (Sampa & Anor v Patel, 2022-03-22). Lower bound of cluster is
+**not yet established** — num 12 and below remain unprobed.
+
+This is consistent either with a real publication gap in ZambiaLII's
+ZMSC/2022 numbering (e.g. a court-internal renumbering / SI
+publication-policy boundary at the early-2022 mark) or with
+low-numbered 2022 judgments simply not having been uploaded. Fetcher
+behaviour confirmed correct (HTTPError 404 from
+`zambialii.org/akn/zm/judgment/zmsc/2022/{n}/eng` for each n in
+{13..26}\{20}; URL pattern proven correct by the working >27 set
+above).
+
+No records written. No SQLite mutations. No registry updates. No
+deferrals added (all 8 are confirmed 404s, not parser failures).
+INTEGRITY trivially PASS (0/0).
+
+### Next-tick recommendation
+
+Probe nums **{12, 11, 10, 9, 8, 7, 6, 5}** (8 candidates) to find the
+lower bound of the 13..26 contiguous 404 span. If still all 404, the
+cluster likely continues all the way to num=1 → pivot to **ZMSC 2021**
+most-recent-first sweep next-year-down. If any of {12..5} returns OK,
+continue sweep below from there.
+
+Tertiary: if/when a v0.3.3 parser lands, prioritise REPARSE DEFERRED
+of the 41-record raw-on-disk cohort (interpretive-ratio family) before
+moving deeper into year sweeps.
+
+ZMSC 2022 status after b0530: 48 of ~60 attempted (14 written, 20
+v0.3.3-pending deferred, 1 OCR-pending deferred, plus **14 confirmed
+internal 404s** at contiguous span nums {13..26}).

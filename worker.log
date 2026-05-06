@@ -5673,3 +5673,11 @@ test append
 2026-05-06T22:11:00Z batch-0529 SQLITE +1 records=1840 judgments_meta=150
 2026-05-06T22:11:00Z batch-0529 INTEGRITY PASS 30/30
 2026-05-06T22:11:00Z batch-0529 INTERNAL_GAP_DISCOVERY zmsc-2022 nums {22..26} contiguous 404 cluster adjacent to known num=20 boundary
+2026-05-06T22:14:00Z 5a8d093 batch-0529 push OK (dfa7b09..5a8d093)
+2026-05-06T22:33:29Z	worker-tick	idle - phase 8 already sampled for 2026-05-06 in batch-0524 at 20:07:56Z (deterministic seed phase8-reverify-2026-05-06; pool=1838 sample=8 match=4 drift=4 fetch_error=0). Re-running with the same seed on the same UTC date would produce an identical sample → no new information. Per non-negotiable rule #4, approvals.yaml NOT modified. Phase 8 is the only approved+incomplete phase; phase_5 judgment ingestion continues via the dedicated judgment-ingestion-worker scheduled task (latest batch-0529 at 22:11:00Z, ZMSC 2022 nums 29..22, 1 written / 2 deferred / 5 confirmed-404 internal-gap cluster). Today fetches=64/2000 (8 phase-8 + 16 b0523 + 16 b0525 + 16 b0526 + 16 b0529, well under cap); tokens well under cap. git pull --ff-only OK. Sandbox UTC 2026-05-06T22:33:29Z (~1.5h before UTC date rollover); next non-idle phase-8 tick: 2026-05-07 UTC, when seed phase8-reverify-2026-05-07 will produce a fresh deterministic sample. Lock cleanup: scheduled-task pre-step deleted .git/*.lock and *.lock.bak; git pull operation reports maintenance.lock unlinkable (sandbox FUSE blocks unlink) but pull succeeded ("Already up to date"). B2 sync deferred to host (rclone not in sandbox).
+2026-05-06T23:10:29Z batch-0530 START judgment-ingestion-worker zmsc-2022-{21,19..13}-inner-gap-probe-plus-DESC-sweep
+2026-05-06T23:10:29Z batch-0530 FETCH 0/8 ok 8-confirmed-404 8-fetches
+2026-05-06T23:10:29Z batch-0530 PARSE not-invoked-no-fetch-successes
+2026-05-06T23:10:29Z batch-0530 SQLITE unchanged records=1840 judgments_meta=150
+2026-05-06T23:10:29Z batch-0530 INTEGRITY trivially-PASS 0/0
+2026-05-06T23:10:29Z batch-0530 INTERNAL_GAP_DISCOVERY zmsc-2022 nums {13..26} contiguous-14-num-404-span (incl-prior-isolated-20-and-prior-22-26-cluster)

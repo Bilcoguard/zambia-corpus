@@ -3831,3 +3831,14 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-06T22:10:52Z	batch-0529	DEFER	zmsc/2022/27	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/27/eng@2022-03-22
 2026-05-06T22:10:52Z	batch-0529	REGISTRY	no_new_canonical_entries	3_judges_resolved_existing_Wood_Musonda_Kajimanga
 2026-05-06T22:10:52Z	batch-0529	SQLITE	records=1840 judgments_meta=150 inserts=1
+2026-05-06T23:10:29Z	batch-0530	PROBE	zmsc/2022/21	confirmed-404	source=zambialii.org/akn/zm/judgment/zmsc/2022/21/eng
+2026-05-06T23:10:29Z	batch-0530	PROBE	zmsc/2022/19	confirmed-404	source=zambialii.org/akn/zm/judgment/zmsc/2022/19/eng
+2026-05-06T23:10:29Z	batch-0530	PROBE	zmsc/2022/18	confirmed-404	source=zambialii.org/akn/zm/judgment/zmsc/2022/18/eng
+2026-05-06T23:10:29Z	batch-0530	PROBE	zmsc/2022/17	confirmed-404	source=zambialii.org/akn/zm/judgment/zmsc/2022/17/eng
+2026-05-06T23:10:29Z	batch-0530	PROBE	zmsc/2022/16	confirmed-404	source=zambialii.org/akn/zm/judgment/zmsc/2022/16/eng
+2026-05-06T23:10:29Z	batch-0530	PROBE	zmsc/2022/15	confirmed-404	source=zambialii.org/akn/zm/judgment/zmsc/2022/15/eng
+2026-05-06T23:10:29Z	batch-0530	PROBE	zmsc/2022/14	confirmed-404	source=zambialii.org/akn/zm/judgment/zmsc/2022/14/eng
+2026-05-06T23:10:29Z	batch-0530	PROBE	zmsc/2022/13	confirmed-404	source=zambialii.org/akn/zm/judgment/zmsc/2022/13/eng
+2026-05-06T23:10:29Z	batch-0530	GAP_DISCOVERY	zmsc/2022/{13..26}	contiguous-14-num-404-span	includes-prior-isolated-20-and-prior-22-26-cluster
+2026-05-06T23:10:29Z	batch-0530	REGISTRY	no_changes	zero_records_written
+2026-05-06T23:10:29Z	batch-0530	SQLITE	records=1840 judgments_meta=150 inserts=0
