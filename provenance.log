@@ -3903,3 +3903,4 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-07T07:11:11Z	batch-0536	DEFER	zmsc/2021/28	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/28/eng@2021-04-21
 2026-05-07T07:11:11Z	batch-0536	REGISTRY	no_new_canonical_entries	5_judge_resolutions_pre-existing_Mambilima_Mutuna_Wood_Malila_Musonda
 2026-05-07T07:11:11Z	batch-0536	SQLITE	records=1845 judgments_meta=155 inserts=1
+2026-05-07T08:11:37Z	batch-0537	judgment-ingestion-worker	report-only	fetches=0	records_written=0	records_deferred=0	parser=v0.3.2	notes=fail-safe-no-code-modifications-zmsc-2021-DESC-sweep-deferred-OCR-backfill-recommended
