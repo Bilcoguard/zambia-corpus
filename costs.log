@@ -5740,4 +5740,3 @@
 2026-05-07T08:54:19Z	repair-batch-003	repaired=7	fetches=8	tokens_n/a
 2026-05-07T08:54:19Z	repair-batch-003	B2 sync deferred to host (rclone not in sandbox)
 2026-05-07T09:13:00Z	repair-batch-004	repaired=7	fetches=8	pdf_bytes=2531479	body_chars=595542
-2026-05-07T09:14:41Z	worker-tick	idle	fetches=0	records_written=0	records_deferred=0	cumulative_today=86/2000	reason=phase-8-already-sampled-today-b0533-deterministic-seed-phase8-reverify-2026-05-07-no-redundant-work-recovered-from-09:07:54Z-lock-blocked-tick-via-cowork-allow-delete
