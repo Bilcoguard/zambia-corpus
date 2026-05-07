@@ -1,0 +1,35 @@
+{
+  "id": "judgment-zm-2022-zmsc-11-tembo-v-chirwa-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Tembo v Chirwa and Ors (SCZ 8 2 of 2022) [2022] ZMSC 11 (23 March 2022)",
+  "citation": "[2022] ZMSC 11",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Tembo v Chirwa and Ors",
+  "case_number": "SCZ 8 2 of 2022",
+  "date_decided": "2022-03-23",
+  "judges": [
+    {
+      "name": "Chinyama",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Civil procedure",
+    "extension of time",
+    "Rule 12(1) and 12(2) Supreme Court Rules",
+    "21-day filing requirement",
+    "excusable delay due to late knowledge of ruling and death of advocate",
+    "application for leave to appeal out of time."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "Court granted extension under Rule 12 SCR where applicant filed within 21 days after becoming aware of the ruling",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "e92726720e6e62c8773eac4a8e1f45f714dec76890f94da634ff805b5e92c798",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/11/eng@2022-03-23",
+  "source_hash": "sha256:26fb1bc7ca4cf1e2d3a18a6c14d096dfe8bc472048e9c8887a5f091e05684fb4",
+  "fetched_at": "2026-05-07T00:10:28Z",
+  "parser_version": "0.3.2"
+}

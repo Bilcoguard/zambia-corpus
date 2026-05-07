@@ -5681,3 +5681,13 @@ test append
 2026-05-06T23:10:29Z batch-0530 SQLITE unchanged records=1840 judgments_meta=150
 2026-05-06T23:10:29Z batch-0530 INTEGRITY trivially-PASS 0/0
 2026-05-06T23:10:29Z batch-0530 INTERNAL_GAP_DISCOVERY zmsc-2022 nums {13..26} contiguous-14-num-404-span (incl-prior-isolated-20-and-prior-22-26-cluster)
+2026-05-06T23:11:30Z	4e816b3	batch-0530 push OK (5a8d093..4e816b3)
+2026-05-06T23:11:30Z	batch-0530	B2 sync deferred to host (rclone not in sandbox)
+2026-05-07T00:08:00Z batch-0531 START judgment-ingestion-worker zmsc-2022 sweep-continuation nums={12..5}
+2026-05-07T00:08:00Z batch-0531 FETCH 16 requests (8 dateless+8 PDF) all 200 OK
+2026-05-07T00:08:00Z batch-0531 PARSE parser_v0.3.2 written=3 deferred=5 (html_no_summary_pdf_no_match cohort)
+2026-05-07T00:08:00Z batch-0531 SQLITE records=1840->1843 judgments_meta=150->153 (+3) via TMPDIR atomic copy
+2026-05-07T00:08:00Z batch-0531 INTEGRITY 82/82 PASS (scripts/integrity_check_b0531.py)
+2026-05-07T00:08:00Z batch-0531 GAP_LOWER_BOUND_CLOSURE zmsc-2022 num=12 OK closes contiguous 404 span {13..26}
+2026-05-07T00:08:00Z batch-0531 REGISTRY no_changes 3_judges_pre-existing_Chinyama_Hamaundu
+2026-05-07T00:08:00Z batch-0531 B2 sync deferred to host (rclone not in sandbox)

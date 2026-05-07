@@ -1,0 +1,35 @@
+{
+  "id": "judgment-zm-2022-zmsc-08-mwachilenga-v-alistair-logistics-z-ltd",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mwachilenga v Alistair Logistics (Z) Ltd (SCZ 8 11 of 2021) [2022] ZMSC 8 (23 February 2022)",
+  "citation": "[2022] ZMSC 8",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Mwachilenga v Alistair Logistics (Z) Ltd",
+  "case_number": "SCZ 8 11 of 2021",
+  "date_decided": "2022-02-23",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Leave to appeal",
+    "Section 13 Court of Appeal Act",
+    "limited to points of general public importance; appellate procedural non-compliance (Order X Rule 9)",
+    "interlocutory; appellate contradiction",
+    "capable of clarification; measure of damages in wrongful dismissal",
+    "notice-period principle; application dismissed with costs."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Leave refused: issues were private/interlocutory and did not raise points of public importance; application dismissed with costs",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "df42ab72d379d9769a2faa09bfdc900bcf72175a306d88d14f898518ca9348d0",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/8/eng@2022-02-23",
+  "source_hash": "sha256:8f5e001f7998e8d826d730fc74436e2391dea00bfb0bbe8ed7d0b88c5eb4a4a6",
+  "fetched_at": "2026-05-07T00:10:30Z",
+  "parser_version": "0.3.2"
+}

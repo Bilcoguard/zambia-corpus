@@ -4084,3 +4084,48 @@ moving deeper into year sweeps.
 ZMSC 2022 status after b0530: 48 of ~60 attempted (14 written, 20
 v0.3.3-pending deferred, 1 OCR-pending deferred, plus **14 confirmed
 internal 404s** at contiguous span nums {13..26}).
+
+## Batch 0531 update (2026-05-07)
+
+ZMSC 2022 most-recent-first sweep nums {12..5}: **8 OK; 3 written, 5 deferred,
+0 confirmed-404** (lower-bound closure of internal-gap span).
+
+| num | result   | outcome / notes |
+|-----|----------|-----------------|
+| 12  | deferred | html_no_summary_pdf_no_match (single SCZ judge has no jurisdiction to stay full-court proceedings) |
+| 11  | **written** | allowed (Tembo v Chirwa and Ors — extension under Rule 12 SCR granted; 21-day window from awareness; Chinyama JS) |
+| 10  | deferred | html_no_summary_pdf_no_match (registered partial final arbitral award on jurisdiction/arbitrability bars re-litigation) |
+|  9  | deferred | html_no_summary_pdf_no_match (delayed/procedurally misconceived nullification dismissed as abuse of process) |
+|  8  | **written** | dismissed (Mwachilenga v Alistair Logistics (Z) Ltd — leave refused; private/interlocutory issues; Hamaundu JS) |
+|  7  | **written** | dismissed (Mpoha and Anor v Salvator — leave to appeal refused; alleged smuggling did not render contract illegal; only factual issues; Hamaundu JS) |
+|  6  | deferred | html_no_summary_pdf_no_match (renewed interlocutory injunction may not be brought to SCZ while CoA seised without prior leave) |
+|  5  | deferred | html_no_summary_pdf_no_match (whether circumstantial evidence and adverse credibility findings sustain murder conviction) |
+
+**Internal-gap cluster lower-bound established**: num 12 (date 2022-03-29) is
+OK, definitively closing the contiguous {13..26} 404 span on the lower side.
+The ZMSC/2022 numbering on ZambiaLII is split into nums 1..12 (12 entries)
+and nums 27..56+ (30+ entries) with a 14-num gap at {13..26}. Consistent
+with a court-internal renumbering / publication-policy boundary in early-2022.
+
+Outstanding raw-on-disk-pending-v0.3.3 deferrals (cohort total **46** after b0531):
+prior 41 + zmsc/2022/{12, 10, 9, 6, 5}. Plus 1 OCR-pending deferral: zmsc/2022/51.
+
+Three judge resolutions across 3 single-judge rulings (Chinyama JS,
+Hamaundu JS x2) all matched existing canonical entries; judges_registry.yaml
+unchanged.
+
+### Next-tick recommendation
+
+Probe nums **{4, 3, 2, 1}** (4 candidates) to fully close ZMSC 2022 sweep,
+then start **ZMSC 2021** sweep most-recent-first (begin by probing ZambiaLII
+to discover 2021 max-num boundary, or extrapolate ~50-60 like 2022).
+4 fetches for the closure + 4 for ZMSC 2021 top would be 8 total fetches —
+within the per-tick 8-record limit.
+
+Tertiary: when v0.3.3 parser ships, prioritise REPARSE DEFERRED of the
+46-record raw-on-disk cohort (interpretive-ratio family) before moving
+deeper into year sweeps.
+
+ZMSC 2022 status after b0531: 56 of ~60 attempted (17 written, 25
+v0.3.3-pending deferred, 1 OCR-pending deferred, 14 confirmed internal
+404s at contiguous span {13..26}).

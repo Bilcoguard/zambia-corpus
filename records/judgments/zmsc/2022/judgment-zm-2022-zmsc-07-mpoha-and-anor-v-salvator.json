@@ -1,0 +1,34 @@
+{
+  "id": "judgment-zm-2022-zmsc-07-mpoha-and-anor-v-salvator",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mpoha and Anor v Salvator (SCZ 8 25 of 2021) [2022] ZMSC 7 (22 February 2022)",
+  "citation": "[2022] ZMSC 7",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Mpoha and Anor v Salvator",
+  "case_number": "SCZ 8 25 of 2021",
+  "date_decided": "2022-02-22",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Leave to appeal",
+    "Section 13 Court of Appeal Act",
+    "Illegality in contract",
+    "alleged smuggling of funds does not invalidate contract absent illegal purpose",
+    "appellate review limited to questions of law, not re‑appraisal of factual findings."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Leave to appeal refused: alleged smuggling did not render the contract illegal and proposed appeal raised only factual issues",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "4478b51f77afad360c93173432f24293a200372a5a4992bae2d6ac73ba2b7beb",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/7/eng@2022-02-22",
+  "source_hash": "sha256:1dcc98620f2c95b6c8c5379418f00701c55072b1ee08755dc7afef2dbc824499",
+  "fetched_at": "2026-05-07T00:10:31Z",
+  "parser_version": "0.3.2"
+}

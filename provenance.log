@@ -3842,3 +3842,23 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-06T23:10:29Z	batch-0530	GAP_DISCOVERY	zmsc/2022/{13..26}	contiguous-14-num-404-span	includes-prior-isolated-20-and-prior-22-26-cluster
 2026-05-06T23:10:29Z	batch-0530	REGISTRY	no_changes	zero_records_written
 2026-05-06T23:10:29Z	batch-0530	SQLITE	records=1840 judgments_meta=150 inserts=0
+2026-05-07T00:08:00Z	batch-0531	judgment-ingestion-worker	zmsc-2022	{12..5}	fetched=8/8	written=3	deferred=5	confirmed_404=0	integrity=82/82	parser_v0.3.2	cohort_cumulative=55w/47d/24_404
+2026-05-07T00:08:00Z	batch-0531	FETCH	zmsc/2022/12	source=zambialii.org/akn/zm/judgment/zmsc/2022/12/eng@2022-03-29
+2026-05-07T00:08:00Z	batch-0531	FETCH	zmsc/2022/11	source=zambialii.org/akn/zm/judgment/zmsc/2022/11/eng@2022-03-23
+2026-05-07T00:08:00Z	batch-0531	FETCH	zmsc/2022/10	source=zambialii.org/akn/zm/judgment/zmsc/2022/10/eng@2022-03-22
+2026-05-07T00:08:00Z	batch-0531	FETCH	zmsc/2022/9	source=zambialii.org/akn/zm/judgment/zmsc/2022/9/eng@2022-03-15
+2026-05-07T00:08:00Z	batch-0531	FETCH	zmsc/2022/8	source=zambialii.org/akn/zm/judgment/zmsc/2022/8/eng@2022-02-23
+2026-05-07T00:08:00Z	batch-0531	FETCH	zmsc/2022/7	source=zambialii.org/akn/zm/judgment/zmsc/2022/7/eng@2022-02-22
+2026-05-07T00:08:00Z	batch-0531	FETCH	zmsc/2022/6	source=zambialii.org/akn/zm/judgment/zmsc/2022/6/eng@2022-02-23
+2026-05-07T00:08:00Z	batch-0531	FETCH	zmsc/2022/5	source=zambialii.org/akn/zm/judgment/zmsc/2022/5/eng@2022-02-01
+2026-05-07T00:08:00Z	batch-0531	WRITE	judgment-zm-2022-zmsc-11-tembo-v-chirwa-and-ors	outcome=allowed	parser=v0.3.2	src=summary-v032-Court-allowed-or-granted
+2026-05-07T00:08:00Z	batch-0531	WRITE	judgment-zm-2022-zmsc-08-mwachilenga-v-alistair-logistics-z-ltd	outcome=dismissed	parser=v0.3.2	src=summary-v032-petition-application-action-dismissed
+2026-05-07T00:08:00Z	batch-0531	WRITE	judgment-zm-2022-zmsc-07-mpoha-and-anor-v-salvator	outcome=dismissed	parser=v0.3.2	src=summary-v032-application-petition-appeal-relief
+2026-05-07T00:08:00Z	batch-0531	DEFER	zmsc/2022/12	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/12/eng@2022-03-29
+2026-05-07T00:08:00Z	batch-0531	DEFER	zmsc/2022/10	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/10/eng@2022-03-22
+2026-05-07T00:08:00Z	batch-0531	DEFER	zmsc/2022/9	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/9/eng@2022-03-15
+2026-05-07T00:08:00Z	batch-0531	DEFER	zmsc/2022/6	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/6/eng@2022-02-23
+2026-05-07T00:08:00Z	batch-0531	DEFER	zmsc/2022/5	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/5/eng@2022-02-01
+2026-05-07T00:08:00Z	batch-0531	GAP_BOUND_CLOSURE	zmsc/2022/{13..26}	lower-bound-established-num-12-OK	upper-bound-num-27-OK
+2026-05-07T00:08:00Z	batch-0531	REGISTRY	no_new_canonical_entries	3_judge_resolutions_pre-existing_Chinyama_Hamaundu
+2026-05-07T00:08:00Z	batch-0531	SQLITE	records=1843 judgments_meta=153 inserts=3
