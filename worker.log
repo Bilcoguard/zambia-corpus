@@ -5733,3 +5733,4 @@ test append
 2026-05-07T08:20:09Z	repair-batch-002	NOTE	tick-aborted-no-DB-mutations-recommend-disabling-this-scheduled-task-until-corpus.sqlite-restored-from-corpus.sqlite.bak.repair-batch-20260507T074747Z
 2026-05-07T08:54:19Z	repair-batch-003	worker-tick	repair	successes=7	failures=1	fetches=8	notes=restored-corpus.sqlite-from-corpus.sqlite.bak.repair-batch-20260507T074747Z-after-finding-malformed-live-DB-same-condition-as-batch-002;wrote-7-UPDATEs-via-TMPDIR-atomic-copy-pattern;1-failure-is-known-HTTP_404-on-act-zm-2026-005-national-payment-system-act-needs-manifest-URL-fix;DB-integrity-OK-records-1845-fts-1845-MATCH-tested-OK;malformed-DB-preserved-as-corpus.sqlite.malformed.20260507T1048Z-for-forensics
 2026-05-07T08:54:19Z	repair-batch-003	B2 sync deferred to host (rclone not in sandbox)
+2026-05-07T08:58:30Z	ca23193	repair-batch-003	push OK (dc983ff..ca23193)
