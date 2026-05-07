@@ -5730,3 +5730,6 @@
 2026-05-07T07:15:00Z	a9f8368	batch-0536 push OK (4589272..a9f8368)
 2026-05-07T07:15:00Z	batch-0536	B2 sync deferred to host (rclone not in sandbox)
 2026-05-07T07:33:58Z	worker-tick	idle	fetches=0	records_written=0	records_deferred=0	cumulative_today=62/2000	reason=phase-8-already-sampled-today-b0533-deterministic-seed-no-redundant-work
+2026-05-07T07:35:10Z	322001a	worker-tick idle push OK (82932d6..322001a)
+2026-05-07T07:35:10Z	worker-tick	B2 sync deferred to host (rclone not in sandbox)
+2026-05-07T07:53:53Z	repair-batch-001	repaired=7	fetches=8	tokens_n/a
