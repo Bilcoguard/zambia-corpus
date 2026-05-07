@@ -3863,3 +3863,26 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-07T00:08:00Z	batch-0531	REGISTRY	no_new_canonical_entries	3_judge_resolutions_pre-existing_Chinyama_Hamaundu
 2026-05-07T00:08:00Z	batch-0531	SQLITE	records=1843 judgments_meta=153 inserts=3
 2026-05-07T06:43:23Z	batch-0533	phase_8_nightly_reverify	parser=phase8-reverify-0.1.0	seed=phase8-reverify-2026-05-07	pool=1847	sample=8	match=1	drift=7	fetch_error=0	fetches=8	user_agent=KateWestonLegal-CorpusBuilder/1.0
+2026-05-07T06:48:31Z	batch-0535	HEAD	zmsc/2021	probe=10,30,50,60,70,80,90,100	results=404,200,404,404,404,404,404,404
+2026-05-07T06:48:31Z	batch-0535	HEAD	zmsc/2021	probe=40,45,35,42,38	results=404,404,200,404,200
+2026-05-07T06:48:31Z	batch-0535	HEAD	zmsc/2021	probe=39,41	results=200,404
+2026-05-07T06:48:31Z	batch-0535	BOUNDARY	zmsc/2021	max-num=39
+2026-05-07T06:48:31Z	batch-0535	FETCH	zmsc/2022/4	source=zambialii.org/akn/zm/judgment/zmsc/2022/4/eng@2022-02-17
+2026-05-07T06:48:31Z	batch-0535	FETCH	zmsc/2022/3	source=zambialii.org/akn/zm/judgment/zmsc/2022/3/eng@2022-01-13
+2026-05-07T06:48:31Z	batch-0535	FETCH	zmsc/2022/2	source=zambialii.org/akn/zm/judgment/zmsc/2022/2/eng@2022-01-08
+2026-05-07T06:48:31Z	batch-0535	FETCH	zmsc/2022/1	source=zambialii.org/akn/zm/judgment/zmsc/2022/1/eng@2022-01-03
+2026-05-07T06:48:31Z	batch-0535	FETCH	zmsc/2021/39	source=zambialii.org/akn/zm/judgment/zmsc/2021/39/eng@2021-10-27
+2026-05-07T06:48:31Z	batch-0535	FETCH	zmsc/2021/38	source=zambialii.org/akn/zm/judgment/zmsc/2021/38/eng@2021-08-10
+2026-05-07T06:48:31Z	batch-0535	FETCH	zmsc/2021/37	source=zambialii.org/akn/zm/judgment/zmsc/2021/37/eng@2021-08-10
+2026-05-07T06:48:31Z	batch-0535	FETCH	zmsc/2021/36	source=zambialii.org/akn/zm/judgment/zmsc/2021/36/eng@2021-07-14
+2026-05-07T06:48:31Z	batch-0535	WRITE	judgment-zm-2022-zmsc-03-natural-valley-ltd-v-fairly-bottling-z-ltd-and-ors	outcome=allowed	parser=v0.3.2	src=pdf-tail-2pages-v032-allow-the-appeal-and-set-aside
+2026-05-07T06:48:31Z	batch-0535	DEFER	zmsc/2022/4	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/4/eng@2022-02-17
+2026-05-07T06:48:31Z	batch-0535	DEFER	zmsc/2022/2	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/2/eng@2022-01-08
+2026-05-07T06:48:31Z	batch-0535	DEFER	zmsc/2022/1	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2022/1/eng@2022-01-03
+2026-05-07T06:48:31Z	batch-0535	DEFER	zmsc/2021/39	html_no_summary_pdf_no_match	source=zambialii.org/akn/zm/judgment/zmsc/2021/39/eng@2021-10-27
+2026-05-07T06:48:31Z	batch-0535	DEFER	zmsc/2021/38	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/38/eng@2021-08-10
+2026-05-07T06:48:31Z	batch-0535	DEFER	zmsc/2021/37	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/37/eng@2021-08-10
+2026-05-07T06:48:31Z	batch-0535	DEFER	zmsc/2021/36	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/36/eng@2021-07-14
+2026-05-07T06:48:31Z	batch-0535	REGISTRY	no_new_canonical_entries	3_judge_resolutions_pre-existing_Malila_Kaoma_Kajimanga
+2026-05-07T06:48:31Z	batch-0535	SQLITE	records=1844 judgments_meta=154 inserts=1
+2026-05-07T06:48:31Z	batch-0535	ZMSC_2022_COMPLETE	18-written 28-deferred-v0.3.3-pending 1-deferred-OCR-pending 14-internal-404 of 61-num-attempted (47 valid + 14 internal-gap)

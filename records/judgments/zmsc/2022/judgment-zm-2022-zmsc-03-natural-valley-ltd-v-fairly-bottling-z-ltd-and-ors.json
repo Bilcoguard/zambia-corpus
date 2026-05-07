@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2022-zmsc-03-natural-valley-ltd-v-fairly-bottling-z-ltd-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Natural Valley Ltd v Fairly Bottling (Z) Ltd and Ors (Appeal 16 of 2016) [2022] ZMSC 3 (13 January 2022)",
+  "citation": "[2022] ZMSC 3",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Natural Valley Ltd v Fairly Bottling (Z) Ltd and Ors",
+  "case_number": "Appeal 16 of 2016",
+  "date_decided": "2022-01-13",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kajimanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Trade mark",
+    "Interim injunction",
+    "Adequacy of damages vs. irreparable harm",
+    "Balance of convenience",
+    "Owner’s rights in embossed packaging",
+    "Preservation and surrender of chattels bearing registered trade mark."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "[62] In the result, we allow the appeal and set aside the ruling of the",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "7437db11cb236c88251c59fca2a488e8a0a5f2dbf76b1bae6360526de7e61a5d",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/3/eng@2022-01-13",
+  "source_hash": "sha256:c3d014b8e777d0cfe0679a1fe7da55f65a010b7109f3d7ae416e0cfb4c051a58",
+  "fetched_at": "2026-05-07T06:48:30Z",
+  "parser_version": "0.3.2"
+}

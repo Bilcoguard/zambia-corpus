@@ -5699,3 +5699,14 @@ test append
 2026-05-07T06:47:31Z	worker-tick	idle - phase 8 already sampled for 2026-05-07 in batch-0533 at 06:41:14Z (deterministic seed phase8-reverify-2026-05-07; pool=1847 sample=8 match=1 drift=7 fetch_error=0). Re-running with the same seed on the same UTC date would produce an identical sample → no new information; would also waste 8 fetches against budget for zero new signal. Per non-negotiable rule #4, approvals.yaml NOT modified. Phase 8 is the only approved+incomplete phase. Today fetches=24/2000 (8 b0531 judgments + 8 b0533 phase-8 + 8 prior; well under cap); tokens well under cap. git pull --ff-only OK (already at c198d8b8502178d93a639e108f6483e1cdce1511). Next non-idle Phase 8 tick: 2026-05-08 UTC, when seed phase8-reverify-2026-05-08 will produce a fresh deterministic sample. Sandbox local time at this tick: 2026-05-07 ~08:47 CAT (UTC+2).
 2026-05-07T06:48:22Z	23b4595	worker-tick idle push OK (c198d8b..23b4595)
 2026-05-07T06:48:22Z	worker-tick	B2 sync deferred to host (rclone not in sandbox)
+2026-05-07T06:48:31Z batch-0535 START judgment-ingestion-worker zmsc-2022-{4,3,2,1}-close-out + zmsc-2021-boundary-probe + DESC-top-{39,38,37,36}
+2026-05-07T06:48:31Z batch-0535 BOUNDARY zmsc-2021 max-num=39 (15 HEAD probes; 200 at {30,35,38,39}; 404 at {10,40,41,42,45,50,60,70,80,90,100})
+2026-05-07T06:48:31Z batch-0535 FETCH 16 requests (8 HTML + 8 PDF) all 200 OK
+2026-05-07T06:48:31Z batch-0535 PARSE parser_v0.3.2 written=1 deferred=7 (4x html_no_summary_pdf_no_match + 3x pdf_extraction_empty_likely_scanned)
+2026-05-07T06:48:31Z batch-0535 SQLITE records=1843->1844 judgments_meta=153->154 (+1) via TMPDIR atomic copy
+2026-05-07T06:48:31Z batch-0535 INTEGRITY 30/30 PASS
+2026-05-07T06:48:31Z batch-0535 ZMSC_2022_SWEEP_COMPLETE 61-of-61-nums-attempted (18w / 28d-v0.3.3 / 1d-OCR / 14-internal-404)
+2026-05-07T06:48:31Z batch-0535 ZMSC_2021_BOUNDARY_ESTABLISHED max-num=39
+2026-05-07T06:48:31Z batch-0535 REGISTRY no_changes 3_judges_pre-existing_Malila_Kaoma_Kajimanga
+2026-05-07T06:48:31Z batch-0535 B2 sync deferred to host (rclone not in sandbox)
+2026-05-07T06:48:31Z batch-0535 NOTE renumbered from b0534 to b0535 because main worker idle commit c32bd49 had already attached b0534 label (mirrors b0524/b0525 precedent)

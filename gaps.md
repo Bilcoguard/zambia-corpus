@@ -4182,3 +4182,60 @@ Outcome counts: match=1, drift=7, fetch_error=0.
 - Sample seed: `phase8-reverify-2026-05-07` (deterministic; same date → same sample).
 - Re-runnable via `python3 scripts/batch_0533_phase8_reverify.py`.
 - Full per-fetch JSON: `reports/batch-0533-reverify.json`.
+
+## Batch 0535 update (2026-05-07)
+
+ZMSC 2022 final-close-out (nums {4..1}) and ZMSC 2021 boundary probe + DESC
+sweep top-4 (nums {39..36}): 8 OK; 1 written, 7 deferred, 0 confirmed-404.
+
+| court / num     | result | outcome / notes |
+|-----------------|--------|-----------------|
+| zmsc/2022/4     | deferred | html_no_summary_pdf_no_match (Rule 10 interested-party challenge to consent winding-up; directors retain residual powers; flawed liquidation re-opened) |
+| zmsc/2022/3     | **written** | allowed (Natural Valley Ltd v Fairly Bottling (Z) Ltd and Ors — appeal allowed and ruling set aside; trade-mark / interim-injunction / embossed-packaging dispute; 3-judge panel Malila/Kaoma/Kajimanga JS) |
+| zmsc/2022/2     | deferred | html_no_summary_pdf_no_match (Respondents granted 14-day extension where lack of notice excused delay; full-bench leave-to-appeal avenue must be exhausted) |
+| zmsc/2022/1     | deferred | html_no_summary_pdf_no_match (delivered judgment is enforceable immediately; Rule 75 embodiment is not a prerequisite to taxing costs) |
+| zmsc/2021/39    | deferred | html_no_summary_pdf_no_match (Appellant may withdraw and amend a defective record of appeal under Rule 68 where respondents suffer no prejudice) |
+| zmsc/2021/38    | deferred | pdf_extraction_empty_likely_scanned (8.3 MB image-only / scanned PDF) |
+| zmsc/2021/37    | deferred | pdf_extraction_empty_likely_scanned (9.3 MB image-only / scanned PDF) |
+| zmsc/2021/36    | deferred | pdf_extraction_empty_likely_scanned (13.6 MB image-only / scanned PDF) |
+
+**Boundary established for ZMSC 2021**: 15 HEAD probes confirmed max
+num = 39 (200 OK at {30, 35, 38, 39}; 404 at {10, 40, 41, 42, 45, 50,
+60, 70, 80, 90, 100}). Lower bound and any internal gap clusters not
+yet probed.
+
+**ZMSC 2022 sweep COMPLETE** with this tick: nums {1..61} fully
+attempted across batches b0522..b0535. Final ZMSC 2022 totals:
+**18 written**, **28 v0.3.3-pending deferred**, **1 OCR-pending
+deferred**, **14 internal-gap 404s** at contiguous span {13..26} =
+61 nums attempted (47 valid + 14 internal 404).
+
+Outstanding raw-on-disk-pending-v0.3.3 deferrals (cohort total **50**
+after b0535): prior 46 + zmsc/2022/{4,2,1} + zmsc/2021/{39}.
+
+Outstanding OCR-pending deferrals (cohort total **4** after b0535):
+prior 1 (zmsc/2022/51) + zmsc/2021/{38,37,36}.
+
+Three judge resolutions on the written record (Malila JS, Kaoma JS,
+Kajimanga JS — recorded as `Malila JS / Kaoma JS / Kajimanga JS`
+aliases against canonical entries `Malila`, `Kaoma`, `Kajimanga`)
+all matched existing canonical entries; judges_registry.yaml
+unchanged.
+
+### Next-tick recommendation
+
+Continue ZMSC 2021 most-recent-first DESC sweep with nums {35..28}
+(8 candidates). Three of the deferred records this tick (zmsc/2021/{38,37,36})
+are scanned-image PDFs and will require an OCR pass (combined ~31 MB);
+defer those to a dedicated OCR backfill workflow rather than the next
+parser tick.
+
+Tertiary: when v0.3.3 parser ships, prioritise REPARSE DEFERRED of
+the 50-record raw-on-disk cohort (interpretive-ratio family) before
+moving deeper into year sweeps.
+
+ZMSC 2021 status after b0535: 4 of ~30+ valid attempted (0 written,
+1 v0.3.3-pending deferred, 3 OCR-pending deferred, plus 7 confirmed
+404s above max num=39 boundary at {40, 41, 42, 45, 50, 60, 70, 80, 90, 100}).
+
+ZMSC 2022 status after b0535: 61 of 61 attempted; year SWEEP COMPLETE.
