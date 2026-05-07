@@ -5757,3 +5757,16 @@ test append
 [2026-05-07T09:07:54Z] judgment-ingestion-worker tick stop (pull-failed)
 2026-05-07T09:13:00Z	repair-batch-004	worker-tick	repair	successes=7	failures=1	fetches=8	chars=196365+46009+89852+40325+61639+80255+81097=595542	notes=git-pull-fatal-broken-refs-but-functionally-up-to-date-HEAD-matches-origin-main-3d4c574;tmpdir-atomic-copy;1-known-HTTP_404-on-act-zm-2026-005;19-remaining-after-this-tick;13-of-42-not-yet-attempted-this-cycle
 2026-05-07T09:13:00Z	repair-batch-004	B2 sync deferred to host (rclone not in sandbox)
+
+[2026-05-07T09:14:41Z] worker-tick start
+[2026-05-07T09:14:41Z]   pre-flight: cleared stale .git/*.lock and *.lock.bak files (cowork file-delete permission granted)
+[2026-05-07T09:14:41Z]   git pull --ff-only OK (Already up to date, recovered from prior 09:07:54Z lock-blocked tick)
+[2026-05-07T09:14:41Z]   approvals.yaml read OK; only approved+incomplete phase = phase_8_nightly_reverify (sample_rate=0.01)
+[2026-05-07T09:14:41Z]   budgets OK: today fetches=86/2000, well under cap
+[2026-05-07T09:14:41Z]   IDLE — phase 8 already sampled for 2026-05-07 in batch-0533 at 06:43:23Z (deterministic seed phase8-reverify-2026-05-07; pool=1847 sample=8 match=1 drift=7 fetch_error=0). Same UTC date + same seed -> identical sample; re-running would consume 8 fetches for zero new signal. Per non-negotiable rule #4, approvals.yaml NOT modified.
+[2026-05-07T09:14:41Z]   no fetches consumed; no records written; corpus state unchanged
+[2026-05-07T09:14:41Z]   working tree had pre-existing log appends from earlier ticks (gaps.md +1 line, provenance.log +1 line, worker.log +21 lines from 09:07:54Z pull-failed tick) — folding them into this idle commit so the public history reflects the recovered state
+[2026-05-07T09:14:41Z]   B2 sync deferred to host (rclone not in sandbox)
+[2026-05-07T09:14:41Z]   next non-idle Phase 8 tick: 2026-05-08 UTC, when seed phase8-reverify-2026-05-08 will produce a fresh deterministic sample
+[2026-05-07T09:14:41Z] worker-tick stop (idle)
+2026-05-07T09:14:30Z	e0039a9	repair-batch-004	push OK (3d4c574..e0039a9)
