@@ -5733,3 +5733,7 @@
 2026-05-07T07:35:10Z	322001a	worker-tick idle push OK (82932d6..322001a)
 2026-05-07T07:35:10Z	worker-tick	B2 sync deferred to host (rclone not in sandbox)
 2026-05-07T07:53:53Z	repair-batch-001	repaired=7	fetches=8	tokens_n/a
+2026-05-07T08:03:37Z	worker-tick	idle	fetches=0	records_written=0	records_deferred=0	cumulative_today=78/2000	reason=phase-8-already-sampled-today-b0533-deterministic-seed-no-redundant-work
+2026-05-07T08:11:37Z	batch-0537	fetches=0	records_written=0	records_deferred=0	confirmed_404=0	worker=judgment-ingestion-worker	cumulative_today=62/500	reason=tick-report-only-fail-safe-active-code-modification-constraint-no-parser-or-wrapper-authorship-no-records-ingested-no-fetches-consumed-50-v033-pending-and-10-ocr-pending-deferrals-remain-on-disk-zmsc-2021-DESC-sweep-nums-27-to-20-deferred-to-next-tick-corpus-sqlite-judges-registry-records-tree-and-raw-tree-all-unchanged-integrity-trivially-passes-0-of-0-phase-5-ceiling-near-155-of-160-recommendation-prioritise-OCR-backfill-of-10-record-cohort
+2026-05-07T08:11:37Z	batch-0537	B2 sync deferred to host (rclone not in sandbox)
+2026-05-07T08:19:04Z	repair-batch-002	fetches=0	records_repaired=0	records_failed=0	cumulative_today=78/2000	reason=db-integrity-check-failed-no-writes-attempted-fail-loud-per-skill-rule

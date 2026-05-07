@@ -4280,3 +4280,13 @@ ZMSC 2021 status after b0536: 12 of ~30+ valid attempted (1 written,
 1 v0.3.3-pending deferred, 9 OCR-pending deferred, 1 internal 404 at
 num=33; plus 11 confirmed 404 above max-num=39 boundary).
 | act-zm-2026-005-national-payment-system-act | REPAIR | HTTP_404 | https://www.parliament.gov.zm/sites/default/files/documents/acts/National%20Payment%20System%20Act%20No.%205%20of%202026.pdf | 2026-05-07T07:50:44Z |
+
+## Repair batch 002 — DB integrity halt (2026-05-07T08:19:04Z)
+
+| Record ID | Issue | Reason | URL | Timestamp |
+|---|---|---|---|---|
+| act-zm-2026-003-immigration-control-act | REPAIR | NEWLY_UNREADABLE_PAGE_MALFORMED | https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Immigration%20Control%20Act%2C%202026.pdf | 2026-05-07T08:19:04Z |
+| act-zm-2024-008-zambia-qualifications-authority-act-2024 | REPAIR | NEWLY_UNREADABLE_PAGE_MALFORMED | https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Zambia%20Qualification%20Authority%20Act%20%208%20of%202024.pdf | 2026-05-07T08:19:04Z |
+| act-zm-2025-001-plant-health-2025 | REPAIR | NEWLY_UNREADABLE_PAGE_MALFORMED | https://www.parliament.gov.zm/sites/default/files/documents/acts/Acts%20No.%201%20of%202025%2C%20The%20Plant%20Health.pdf | 2026-05-07T08:19:04Z |
+| act-zm-2025-029-zambia-institute-of-procurement-and-supply-act | REPAIR | NEWLY_UNREADABLE_PAGE_MALFORMED | https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2029%20of%202025%2C%20The%20Zambia%20Institute%20of%20Procurement%20and%20Supply%20Act.pdf | 2026-05-07T08:19:04Z |
+| corpus.sqlite | DB_INTEGRITY | PRAGMA_INTEGRITY_CHECK_FAIL_BTREE_PAGE_CORRUPTION | local | 2026-05-07T08:19:04Z |
