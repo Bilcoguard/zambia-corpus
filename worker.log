@@ -5691,3 +5691,4 @@ test append
 2026-05-07T00:08:00Z batch-0531 GAP_LOWER_BOUND_CLOSURE zmsc-2022 num=12 OK closes contiguous 404 span {13..26}
 2026-05-07T00:08:00Z batch-0531 REGISTRY no_changes 3_judges_pre-existing_Chinyama_Hamaundu
 2026-05-07T00:08:00Z batch-0531 B2 sync deferred to host (rclone not in sandbox)
+2026-05-07T01:10:00Z	batch-0532	judgment-ingestion-worker	tick=report-only	fetches=0	records=0	deferred=0	reason=code-modification-constraint-active	notes=46-record-v0.3.3-cohort-and-sweep-options-deferred-to-next-tick
