@@ -5729,3 +5729,5 @@ test append
 2026-05-07T08:11:37Z	judgment-ingestion-worker	batch-0537	report-only-tick	pre-tick-git-pull=ff-only-already-up-to-date	post-tick-state-unchanged-except-batch-0537-report-and-log-appends	next-tick-recommendation=resume-zmsc-2021-DESC-nums-27-20-or-OCR-backfill-10-record-cohort
 2026-05-07T08:19:04Z	repair-batch-002	worker-tick	repair	successes=0	failures=0	fetches=0	reason=DB_MALFORMED_INTEGRITY_CHECK_FAIL	notes=PRAGMA_integrity_check_returned_dozens_of_invalid_btree_page_references_main_DB_corrupted_not_just_FTS;4_previously_repaired_rows_now_unreadable_disk_image_malformed;27_of_42_manifest_targets_still_corrupted_unchanged_from_b001;tick_aborted_before_any_UPDATE_per_fail_loud_rule;recommend_restore_from_corpus.sqlite.bak.repair-batch-20260507T074747Z_then_re-enable
 2026-05-07T08:19:04Z	repair-batch-002	B2 sync deferred to host (rclone not in sandbox)
+2026-05-07T08:20:09Z	4f51a0b	repair-batch-002	push OK (64d851f..4f51a0b)
+2026-05-07T08:20:09Z	repair-batch-002	NOTE	tick-aborted-no-DB-mutations-recommend-disabling-this-scheduled-task-until-corpus.sqlite-restored-from-corpus.sqlite.bak.repair-batch-20260507T074747Z
