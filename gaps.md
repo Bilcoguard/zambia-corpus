@@ -4129,3 +4129,56 @@ deeper into year sweeps.
 ZMSC 2022 status after b0531: 56 of ~60 attempted (17 written, 25
 v0.3.3-pending deferred, 1 OCR-pending deferred, 14 confirmed internal
 404s at contiguous span {13..26}).
+
+
+## Phase 8 — Nightly re-verification, batch 0533 (2026-05-07)
+
+Second Phase 8 tick (deterministic seed `phase8-reverify-2026-05-07`)
+over a pool of 1847 records with both `source_url` and `source_hash`.
+Sample size 8 (1% of pool, capped by MAX_BATCH_SIZE=8). Re-fetched all
+8 records, recomputed sha256, compared against stored values. **Records
+were NOT mutated by this tick.** Per BRIEF.md and approvals.yaml, Phase
+8 only flags drift; the corpus records remain authoritative until a
+human decides otherwise.
+
+Outcome counts: match=1, drift=7, fetch_error=0.
+
+### Drift entries — to be triaged before any record refresh
+
+| Record id | Source URL | Stored sha256 | Re-fetched sha256 | Bytes (new) | Sub-kind |
+|-----------|------------|---------------|-------------------|------------:|----------|
+| `act-zm-1996-019-zambia-institute-of-mass-communications-repeal-act-1996` | https://zambialii.org/akn/zm/act/1996/19/eng@1996-12-31 | `34a401eedc558e4483a0e59c24dbbce7c857715815f0f226efc49521878b45b0` | `53428b4ba68b244d5d955056c8d22644b747429d29cad8de0f00e7dca2287e5b` | 56,442 | `content_changed_full_drift` |
+| `act-zm-2005-007-excess-expenditure-appropriation-2002-act` | https://zambialii.org/akn/zm/act/2005/7/eng@2005-05-17 | `ae4af58d821f2b522ff115074bed2a098807d494f62728582ed5bbe0df4f332b` | `0271ef364ac68fc93b1cd3b05f001e8c94c3978bc0e69fd3a3fdbb1fe5ccc88a` | 38,801 | `content_changed_full_drift` |
+| `act-zm-1955-010-census-and-statistics-act-1955` | https://zambialii.org/akn/zm/act/1955/10/eng@1996-12-31 | `492e5e52d229988117c04544ca6dcae676dd4bd747984194acafe695f7ee03a4` | `aa49c5cb52095db25d9892ceebafb84cfc779eb74c6536b3b3ce4eb0b53037da` | 78,009 | `content_changed_full_drift` |
+| `si-zm-2022-061-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2022` | https://zambialii.org/akn/zm/act/si/2022/61 | `91d14bd466396dbb5dd443ef30597b189700021ef4f93e63f6efa45bf9a9990e` | `d7fa635434c3a8e2768106efea9fd5caaee766b13aff9d29aad6024af336f22d` | 39,508 | `content_changed_full_drift` |
+| `act-zm-1929-016-dairies-and-dairy-produce-act-1929` | https://zambialii.org/akn/zm/act/1929/16/eng@1996-12-31 | `1ce1f207361d07aff4d1c1d04f1473ba9d746651a56be15b6af274afddd43551` | `eddf017b42d97955a3646663cdcf42ea9dfd8024198aeaf01d50966cde331dca` | 48,076 | `content_changed_full_drift` |
+| `act-zm-cap-269-industrial-and-labour-relations-act` | https://zambialii.org/akn/zm/act/1993/27/eng@1996-12-31 | `a61cf0a30bf03e133f1633c358f49a57578cdf1e32f45fd1ee930c06491e65a6` | `3596e77375b3133c9bcfa9772f6422aa54e8ca23d8d72dea6b9d9f81eeb1c8e6` | 499,225 | `content_changed_full_drift` |
+| `act-zm-2013-019-appropriation-act` | https://zambialii.org/akn/zm/act/2013/19/eng@2013-12-20 | `c7f783b19bd8e2b16adc5023846f6e5f2516f3c78c84c501690886b7c0d078e5` | `3ea47790296c74328abaf5589a6693d7813dab668826308220b5b63e1562b78e` | 38,313 | `content_changed_full_drift` |
+
+### Drift sub-kind notes
+
+- **`content_changed_full_drift`** — all 7 drifts point at ZambiaLII HTML
+  rendering URLs in the `/akn/zm/act/.../eng@DATE` (or `/akn/zm/act/si/...`)
+  family with no `/source.pdf` suffix. As characterised in batch-0524's
+  drift triage, ZambiaLII HTML pages on this CMS routinely embed dynamic
+  markup (view counters, server timestamps, asset hashes, build IDs), so
+  byte-level drift on HTML URLs is the **expected** behaviour and does
+  NOT by itself imply substantive text change. The pattern is now
+  reproduced across two consecutive Phase-8 ticks (b0524 + b0533),
+  strengthening the inference that ZambiaLII-HTML records need a
+  normalised-text comparison pass — not a raw-bytes comparison — before
+  any drift can be classified as a real content change. Recommended next
+  step (human-approved): switch the Phase-8 verdict for ZambiaLII HTML
+  URLs from `drift` to `html_byte_drift_normalised_text_pending` once
+  the normalised-text pipeline lands; until then drifts of this sub-kind
+  are informational only.
+
+### Match entries (no action needed; recorded here for audit)
+
+- `act-zm-2007-024-zambia-tourism-board` (https://www.parliament.gov.zm/sites/default/files/documents/acts/Zambia%20Tourism%20Board%2C%202007.pdf) — sha256 unchanged (parliament.gov.zm PDF, same stable-source pattern as b0524 matches).
+
+### Reproducibility
+
+- Sample seed: `phase8-reverify-2026-05-07` (deterministic; same date → same sample).
+- Re-runnable via `python3 scripts/batch_0533_phase8_reverify.py`.
+- Full per-fetch JSON: `reports/batch-0533-reverify.json`.

@@ -5692,3 +5692,5 @@ test append
 2026-05-07T00:08:00Z batch-0531 REGISTRY no_changes 3_judges_pre-existing_Chinyama_Hamaundu
 2026-05-07T00:08:00Z batch-0531 B2 sync deferred to host (rclone not in sandbox)
 2026-05-07T01:10:00Z	batch-0532	judgment-ingestion-worker	tick=report-only	fetches=0	records=0	deferred=0	reason=code-modification-constraint-active	notes=46-record-v0.3.3-cohort-and-sweep-options-deferred-to-next-tick
+2026-05-07T06:38:51Z	b5d0829	worker-tick idle push OK (c5623e1..b5d0829)
+2026-05-07T06:43:23Z	batch-0533	worker-tick	phase_8_nightly_reverify	tick=substantive	fetches=8	pool=1847	sample=8	match=1	drift=7	fetch_error=0	seed=phase8-reverify-2026-05-07	parser_version=phase8-reverify-0.1.0	wall_clock_s=41	notes=second-phase-8-tick-deterministic-sample-pattern-reproduces-b0524-zambialii-html-drifts-vs-parliament-pdf-match-records-not-mutated-approvals-not-modified
