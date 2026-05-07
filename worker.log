@@ -5714,3 +5714,10 @@ test append
 2026-05-07T07:03:05Z	worker-tick	idle - phase 8 already sampled for 2026-05-07 in batch-0533 at 06:43:23Z (deterministic seed phase8-reverify-2026-05-07; pool=1847 sample=8 match=1 drift=7 fetch_error=0). Re-running with the same seed on the same UTC date would produce an identical sample → no new information; would also waste 8 fetches against budget for zero new signal. Per non-negotiable rule #4, approvals.yaml NOT modified. Phase 8 is the only approved+incomplete phase. Today fetches=47/2000 (8 b0531 judgments + 8 b0533 phase-8 + 31 b0535 judgments; well under cap); tokens well under cap. git pull --ff-only OK (already at cb1402dad3f262a3a962b05ca418cbe88744c866). Next non-idle Phase 8 tick: 2026-05-08 UTC, when seed phase8-reverify-2026-05-08 will produce a fresh deterministic sample. Sandbox local time at this tick: 2026-05-07 ~09:03 CAT (UTC+2). B2 sync deferred to host (rclone not in sandbox).
 2026-05-07T07:03:57Z	8209133	worker-tick idle push OK (cb1402d..8209133)
 2026-05-07T07:03:57Z	worker-tick	B2 sync deferred to host (rclone not in sandbox)
+2026-05-07T07:11:11Z batch-0536 START judgment-ingestion-worker zmsc-2021-DESC-sweep-continuation-{35..28}
+2026-05-07T07:11:11Z batch-0536 FETCH 15 requests (8 dateless+7 PDF) 14 OK + 1 confirmed-404 zmsc/2021/33
+2026-05-07T07:11:11Z batch-0536 PARSE parser_v0.3.2 written=1 deferred=6 (6x pdf_extraction_empty_likely_scanned)
+2026-05-07T07:11:11Z batch-0536 SQLITE records=1844->1845 judgments_meta=154->155 (+1) via TMPDIR atomic copy
+2026-05-07T07:11:11Z batch-0536 INTEGRITY 32/32 PASS
+2026-05-07T07:11:11Z batch-0536 REGISTRY no_changes 5_judges_pre-existing_Mambilima_Mutuna_Wood_Malila_Musonda
+2026-05-07T07:11:11Z batch-0536 B2 sync deferred to host (rclone not in sandbox)

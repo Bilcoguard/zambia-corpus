@@ -1,0 +1,52 @@
+{
+  "id": "judgment-zm-2021-zmsc-35-hakainde-hichilema-v-the-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Hakainde Hichilema v The Attorney General (Appeal 4 of 2019) [2021] ZMSC 35 (18 June 2021)",
+  "citation": "[2021] ZMSC 35",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Hakainde Hichilema v The Attorney General",
+  "case_number": "Appeal 4 of 2019",
+  "date_decided": "2021-06-18",
+  "judges": [
+    {
+      "name": "Mambilima",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Malila",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musonda",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Article 28 enforcement of Bill of Rights",
+    "scope of High Court powers; Article 128 Constitutional Court jurisdiction; appellate route under Article 28(2)(b); limits on reviewing superior courts; abuse of process/forum shopping."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "second ground of appeal also has no merit and we hereby dismiss it",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "2aa4c84bfcb84e165e078fee67912572b518622809faf2813f37d252df777fc8",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2021/35/eng@2021-06-18",
+  "source_hash": "sha256:87f1497920a204bee3221029666c7feb03fe9e33f73f6730a5189f2da2530c8f",
+  "fetched_at": "2026-05-07T07:11:10Z",
+  "parser_version": "0.3.2"
+}

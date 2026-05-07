@@ -3886,3 +3886,20 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-07T06:48:31Z	batch-0535	REGISTRY	no_new_canonical_entries	3_judge_resolutions_pre-existing_Malila_Kaoma_Kajimanga
 2026-05-07T06:48:31Z	batch-0535	SQLITE	records=1844 judgments_meta=154 inserts=1
 2026-05-07T06:48:31Z	batch-0535	ZMSC_2022_COMPLETE	18-written 28-deferred-v0.3.3-pending 1-deferred-OCR-pending 14-internal-404 of 61-num-attempted (47 valid + 14 internal-gap)
+2026-05-07T07:11:11Z	batch-0536	FETCH	zmsc/2021/35	source=zambialii.org/akn/zm/judgment/zmsc/2021/35/eng@2021-06-18
+2026-05-07T07:11:11Z	batch-0536	FETCH	zmsc/2021/34	source=zambialii.org/akn/zm/judgment/zmsc/2021/34/eng@2021-07-08
+2026-05-07T07:11:11Z	batch-0536	HTTP_404	zmsc/2021/33	source=zambialii.org/akn/zm/judgment/zmsc/2021/33/eng
+2026-05-07T07:11:11Z	batch-0536	FETCH	zmsc/2021/32	source=zambialii.org/akn/zm/judgment/zmsc/2021/32/eng@2021-05-06
+2026-05-07T07:11:11Z	batch-0536	FETCH	zmsc/2021/31	source=zambialii.org/akn/zm/judgment/zmsc/2021/31/eng@2021-05-17
+2026-05-07T07:11:11Z	batch-0536	FETCH	zmsc/2021/30	source=zambialii.org/akn/zm/judgment/zmsc/2021/30/eng@2021-04-26
+2026-05-07T07:11:11Z	batch-0536	FETCH	zmsc/2021/29	source=zambialii.org/akn/zm/judgment/zmsc/2021/29/eng@2021-04-21
+2026-05-07T07:11:11Z	batch-0536	FETCH	zmsc/2021/28	source=zambialii.org/akn/zm/judgment/zmsc/2021/28/eng@2021-04-21
+2026-05-07T07:11:11Z	batch-0536	WRITE	judgment-zm-2021-zmsc-35-hakainde-hichilema-v-the-attorney-general	outcome=dismissed	parser=v0.3.2	src=pdf-tail-2pages-v031-we-hereby-dismiss
+2026-05-07T07:11:11Z	batch-0536	DEFER	zmsc/2021/34	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/34/eng@2021-07-08
+2026-05-07T07:11:11Z	batch-0536	DEFER	zmsc/2021/32	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/32/eng@2021-05-06
+2026-05-07T07:11:11Z	batch-0536	DEFER	zmsc/2021/31	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/31/eng@2021-05-17
+2026-05-07T07:11:11Z	batch-0536	DEFER	zmsc/2021/30	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/30/eng@2021-04-26
+2026-05-07T07:11:11Z	batch-0536	DEFER	zmsc/2021/29	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/29/eng@2021-04-21
+2026-05-07T07:11:11Z	batch-0536	DEFER	zmsc/2021/28	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/28/eng@2021-04-21
+2026-05-07T07:11:11Z	batch-0536	REGISTRY	no_new_canonical_entries	5_judge_resolutions_pre-existing_Mambilima_Mutuna_Wood_Malila_Musonda
+2026-05-07T07:11:11Z	batch-0536	SQLITE	records=1845 judgments_meta=155 inserts=1

@@ -4239,3 +4239,43 @@ ZMSC 2021 status after b0535: 4 of ~30+ valid attempted (0 written,
 404s above max num=39 boundary at {40, 41, 42, 45, 50, 60, 70, 80, 90, 100}).
 
 ZMSC 2022 status after b0535: 61 of 61 attempted; year SWEEP COMPLETE.
+
+## Batch 0536 update (2026-05-07)
+
+Continued ZMSC 2021 most-recent-first DESC sweep per b0535 next-tick
+recommendation. Probed 8 nums (35..28); 7 fetched OK, 1 confirmed 404
+(num=33 — internal gap). 1 record written, 6 deferred under
+`pdf_extraction_empty_likely_scanned`.
+
+| court / num   | result   | notes |
+|---------------|----------|-------|
+| zmsc/2021/35  | **written** | dismissed (Hakainde Hichilema v The Attorney General); panel Mambilima CJ / Mutuna JS / Wood JS / Malila JS / Musonda DCJ; pdf-tail-2pages-v031 "we hereby dismiss" anchor; constitutional law — Art 28 Bill of Rights enforcement, Art 128 ConCourt jurisdiction. |
+| zmsc/2021/34  | deferred | pdf_extraction_empty_likely_scanned (14.3 MB image-only PDF) |
+| zmsc/2021/33  | 404 | internal-gap confirmed (302→404 on dateless probe) |
+| zmsc/2021/32  | deferred | pdf_extraction_empty_likely_scanned (15.9 MB image-only PDF) |
+| zmsc/2021/31  | deferred | pdf_extraction_empty_likely_scanned (15.9 MB image-only PDF) |
+| zmsc/2021/30  | deferred | pdf_extraction_empty_likely_scanned (10.0 MB image-only PDF) |
+| zmsc/2021/29  | deferred | pdf_extraction_empty_likely_scanned (10.9 MB image-only PDF) |
+| zmsc/2021/28  | deferred | pdf_extraction_empty_likely_scanned (11.8 MB image-only PDF) |
+
+Outstanding `raw-on-disk-pending-v0.3.3` cohort total **50**
+(unchanged this tick — none of the b0536 deferrals are interpretive-
+ratio family; all 6 are scan-image OCR-pending).
+
+Outstanding `pdf_extraction_empty_likely_scanned` (OCR-pending) cohort
+total **10** after b0536: prior 4 + zmsc/2021/{34,32,31,30,29,28}.
+
+Five judge resolutions on the written record (Mambilima CJ, Mutuna JS,
+Wood JS, Malila JS, Musonda DCJ) all matched existing canonical
+entries; judges_registry.yaml unchanged.
+
+### Next-tick recommendation
+
+Continue ZMSC 2021 most-recent-first DESC sweep with nums {27..20}
+(8 candidates). Heavy scan-PDF ratio in this cohort suggests an OCR
+backfill workflow should be considered as a parallel track once the
+year-sweep has surveyed the breadth of ZMSC 2021.
+
+ZMSC 2021 status after b0536: 12 of ~30+ valid attempted (1 written,
+1 v0.3.3-pending deferred, 9 OCR-pending deferred, 1 internal 404 at
+num=33; plus 11 confirmed 404 above max-num=39 boundary).
