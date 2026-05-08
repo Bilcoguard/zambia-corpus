@@ -4583,3 +4583,82 @@ Per b0541 — the v0.3.2 → v0.3.3 patch set queued in the
 3. Resume ZMSC 2021 DESC sweep nums {19..12} as a follow-on if
    upper-boundary probe completes early.
 
+
+## Batch 0543 update (2026-05-08) — resumed substantive ingestion
+
+**Tick decision**: Priority (b) SCZ SWEEP, executing the b0541
+next-tick recommendation that was deferred through three fail-safe
+ticks (b0532, b0537, b0542). Phase 0 inline HEAD-only upper-boundary
+probe of ZMSC 2020 nums {51, 55, 60, 65, 70, 75, 80, 90} was followed
+by Phase 1 GET-fetch of the 7 confirmed-OK nums and Phase 2 parse
+under v0.3.2 baseline.
+
+### Phase 0 — HEAD-only probe (8 fetches)
+
+| court / num   | HEAD result | redirect target              |
+|---------------|------------:|------------------------------|
+| zmsc/2020/51  | 200 OK      | `/zmsc/2020/51/eng@2020-06-30` |
+| zmsc/2020/55  | 200 OK      | `/zmsc/2020/55/eng@2020-08-04` |
+| zmsc/2020/60  | 200 OK      | `/zmsc/2020/60/eng@2020-08-19` |
+| zmsc/2020/65  | 200 OK      | `/zmsc/2020/65/eng@2020-08-19` |
+| zmsc/2020/70  | 200 OK      | `/zmsc/2020/70/eng@2020-08-12` |
+| zmsc/2020/75  | 200 OK      | `/zmsc/2020/75/eng@2020-08-20` |
+| zmsc/2020/80  | 404         | (internal gap)               |
+| zmsc/2020/90  | 200 OK      | `/zmsc/2020/90/eng@2020-09-29` |
+
+ZMSC 2020 max-num is now confirmed ≥ 90 (much larger than the
+prior working assumption of ≥ 50). True upper boundary still
+unresolved.
+
+### Phase 1+2 — fetch and parse (14 fetches)
+
+**3 records written, 4 deferred**.
+
+Written:
+
+| court / num   | outcome   | source                                           |
+|---------------|-----------|--------------------------------------------------|
+| zmsc/2020/51  | allowed   | pdf-tail-2pages[v031-tail:appeal succeeds]       |
+| zmsc/2020/60  | upheld    | summary[Court upheld]                            |
+| zmsc/2020/65  | dismissed | pdf-tail-2pages[v031-tail:appeal is dismissed]   |
+
+Deferred (all OCR-pending):
+
+| court / num   | bytes (PDF) | reason                              |
+|---------------|------------:|-------------------------------------|
+| zmsc/2020/55  |   6,680,964 | pdf_extraction_empty_likely_scanned |
+| zmsc/2020/70  |   8,925,516 | pdf_extraction_empty_likely_scanned |
+| zmsc/2020/75  |   3,796,753 | pdf_extraction_empty_likely_scanned |
+| zmsc/2020/90  |   6,257,230 | pdf_extraction_empty_likely_scanned |
+
+### Cohort cumulative tracking (since b0504)
+
+- 62 written (was 59; +3 this tick — zmsc/2020/{51, 60, 65})
+- 51 v0.3.3-pending deferred (unchanged)
+- 37 OCR-pending deferred (was 33; +4 this tick — zmsc/2020/{55, 70, 75, 90})
+- 27 confirmed 404 (was 26; +1 this tick — zmsc/2020/80)
+
+OCR-pending PDF backlog: ~269 MB across 37 scanned-image PDFs.
+Phase 5 ceiling 159/160 — **one record under ceiling**.
+
+### ZMSC 2020 status after b0543
+
+23 of ≥89 valid nums attempted (4 written, 1 v0.3.3-pending,
+18 OCR-pending; max-num ≥ 90 confirmed; upper boundary still
+unresolved; 1 internal 404 at num=80).
+
+### Next-tick recommendations
+
+1. Continue ZMSC 2020 upper-boundary discovery — HEAD-only probe at
+   {95, 100, 105, 110, 115, 120, 130, 150} (8 fetches) to localise
+   the true ceiling.
+2. Consider a GET-sweep of nums 81-89 (internal-gap region around
+   the now-confirmed num=80 404). At the b0543 4-records-from-7
+   yield rate, expect ~3-4 more written records.
+3. **OCR backfill workflow** is now the highest-leverage track —
+   37 records / ~269 MB queued, no new fetches required, and
+   Phase 5 ceiling at 160 is one record away.
+4. The 51-record `html_no_summary_pdf_no_match` cohort still
+   awaits a parser v0.3.3 patch (succeeds/fails / remitted /
+   set-aside-from-jurisdiction-finding) authored outside the
+   scheduled tick.

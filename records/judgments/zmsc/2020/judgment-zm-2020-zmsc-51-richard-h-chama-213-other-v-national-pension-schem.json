@@ -1,0 +1,47 @@
+{
+  "id": "judgment-zm-2020-zmsc-51-richard-h-chama-213-other-v-national-pension-schem",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Richard H. Chama & 213 Other v National Pension Scheme Authority & Others (Appeal 101 of 2018) [2020] ZMSC 51 (30 June 2020)",
+  "citation": "[2020] ZMSC 51",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Richard H. Chama & 213 Other v National Pension Scheme Authority & Others",
+  "case_number": "Appeal 101 of 2018",
+  "date_decided": "2020-06-30",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mambilima",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Pension law",
+    "defined benefit v. defined contribution schemes",
+    "portability of accrued retirement benefits",
+    "section 18(1)(f) and 18(3)(b) Pension Scheme Regulation Act",
+    "present value/actuarial valuation",
+    "abolition of deferred pensions",
+    "inconsistency between Trust Rules and statute",
+    "remedy to recompute and pay outstanding portable benefits."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "The upshot of our decision is that this appeal succeeds in",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "4cc17f56f836f5ff6511ec9bc80b28e7224a2b780548118f8bf90491ed99f668",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2020/51/eng@2020-06-30",
+  "source_hash": "sha256:efb573c41b185614b9a4769a93bd88299b139b49e147dcc1a41c1cef4320e0ef",
+  "fetched_at": "2026-05-08T21:18:22Z",
+  "parser_version": "0.3.2"
+}

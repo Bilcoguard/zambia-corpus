@@ -1,0 +1,40 @@
+{
+  "id": "judgment-zm-2020-zmsc-65-jackson-kamanga-others-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Jackson Kamanga & Others v The People (Appeal 30 of 2020) [2020] ZMSC 65 (19 August 2020)",
+  "citation": "[2020] ZMSC 65",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Jackson Kamanga & Others v The People",
+  "case_number": "Appeal 30 of 2020",
+  "date_decided": "2020-08-19",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Muyovwe",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Jackson Kamanga & Others v The People"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "however, his appeal is dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "1d84b9e8efd4b2861316064ced7ffde5799a82bf6c73b355ca7c7318ff645458",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2020/65/eng@2020-08-19",
+  "source_hash": "sha256:205ef7d3a8b15c1c753a13776248a0afe2cac828af2ff7db9273742ef18ed1ec",
+  "fetched_at": "2026-05-08T21:18:23Z",
+  "parser_version": "0.3.2"
+}

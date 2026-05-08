@@ -334,6 +334,14 @@ judges:
   - Hon. Mr. Justice Nigel K. Mutuna
   - Mutuna JS
   first_seen: '2026-05-03T17:14:01Z'
+- canonical_name: Muyovwe
+  titles:
+  - title: JS
+    first_seen_in: judgment-zm-2020-zmsc-60-matias-chitigwa-mugogo-v-the-people
+    first_seen_at: '2026-05-08T21:18:23Z'
+  aliases:
+  - Muyovwe JS
+  first_seen: '2026-05-08T21:18:23Z'
 - canonical_name: Mwandenga
   titles:
   - title: JCC

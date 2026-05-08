@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2020-zmsc-60-matias-chitigwa-mugogo-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Matias Chitigwa Mugogo v The People (SCZ Appeal 42 of 2019) [2020] ZMSC 60 (19 August 2020)",
+  "citation": "[2020] ZMSC 60",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Matias Chitigwa Mugogo v The People",
+  "case_number": "SCZ Appeal 42 of 2019",
+  "date_decided": "2020-08-19",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Muyovwe",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "witness credibility and corroboration",
+    "suspect witnesses (relative of deceased)",
+    "child witness treated as ordinary witness post-amendment",
+    "threats as special and compelling grounds to exclude danger of false implication",
+    "post-mortem corroboration",
+    "alibi investigation."
+  ],
+  "outcome": "upheld",
+  "outcome_detail": "Court upheld conviction where sole eyewitness (deceased’s wife) was found credible despite initial concealment and inconsistencies",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "fc56b17844254198cd24e273152ac0d7f17ec1b92cadf6f027052e5488c24838",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2020/60/eng@2020-08-19",
+  "source_hash": "sha256:489e08dedddd5e49950448ea4e8e15420017ab4619851858bc1f313d014ccbe0",
+  "fetched_at": "2026-05-08T21:18:22Z",
+  "parser_version": "0.3.2"
+}

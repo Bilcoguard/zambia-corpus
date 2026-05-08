@@ -3969,3 +3969,17 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-08T17:10:41Z	batch-0542	REGISTRY	unchanged	zero_records_written
 2026-05-08T17:10:41Z	batch-0542	SQLITE	unchanged	zero_records_written_records=1846_judgments_meta=156
 2026-05-08T17:10:41Z	batch-0542	INTEGRITY	pass=0 fail=0	0-of-0-trivially-passes-no-mutations
+
+[2026-05-08T21:21:00Z] batch-0543 judgment-ingestion-worker
+  workspace: /sessions/nice-elegant-galileo/mnt/corpus
+  parser_version: 0.3.2 (scripts/batch_0498_parse.py + scripts/batch_0506_zmsc_parse.py)
+  HEAD probes (8): zmsc/2020/{51,55,60,65,70,75,80,90} -> 7 OK, 1 404 (num=80)
+  GET fetches (14): zmsc/2020/{51,55,60,65,70,75,90} HTML+PDF
+  records_written=3:
+    judgment-zm-2020-zmsc-51-richard-h-chama-213-other-v-national-pension-schem  [outcome=allowed, src=pdf-tail-2pages]
+    judgment-zm-2020-zmsc-60-matias-chitigwa-mugogo-v-the-people                  [outcome=upheld,  src=summary]
+    judgment-zm-2020-zmsc-65-jackson-kamanga-others-v-the-people                  [outcome=dismissed, src=pdf-tail-2pages]
+  records_deferred=4: zmsc/2020/{55,70,75,90} (pdf_extraction_empty_likely_scanned)
+  judges_registry: +1 (Muyovwe JS)
+  corpus.sqlite: records 1846 -> 1849; judgments_meta 156 -> 159
+  integrity_check: PASS (3/3 records; 159 unique IDs corpus-wide)
