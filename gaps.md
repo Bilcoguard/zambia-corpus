@@ -4480,3 +4480,61 @@ cohort is large enough to support several DESC-sweep ticks first.
 ZMSC 2020 status after b0540: 8 of ≥50 valid attempted (1 written, 7
 OCR-pending deferred; max-num ≥ 50 confirmed, upper boundary still
 unprobed).
+
+## Batch 0541 update (2026-05-08)
+
+Continued **ZMSC 2020 mid-range DESC sweep** per b0540 next-tick
+recommendation. Probed 8 nums in the low/mid range
+({2, 3, 4, 6, 7, 8, 9, 11}); all 8 fetched OK, zero 404s.
+**0 records written**, 8 deferred (7 OCR-pending, 1 v0.3.3-pending).
+
+| court / num   | result   | bytes (PDF) | reason |
+|---------------|----------|-------------|--------|
+| zmsc/2020/02  | deferred | 3,322,544   | html_no_summary_pdf_no_match (parser_v0.3.3-pending) |
+| zmsc/2020/03  | deferred | 8,000,211   | pdf_extraction_empty_likely_scanned |
+| zmsc/2020/04  | deferred | 4,709,269   | pdf_extraction_empty_likely_scanned |
+| zmsc/2020/06  | deferred | 4,544,942   | pdf_extraction_empty_likely_scanned |
+| zmsc/2020/07  | deferred | 8,682,175   | pdf_extraction_empty_likely_scanned |
+| zmsc/2020/08  | deferred | 2,989,470   | pdf_extraction_empty_likely_scanned |
+| zmsc/2020/09  | deferred | 6,233,014   | pdf_extraction_empty_likely_scanned |
+| zmsc/2020/11  | deferred | 3,336,547   | pdf_extraction_empty_likely_scanned |
+
+### zmsc/2020/02 v0.3.3-pending detail
+
+PDF text extracted normally (not scanned), but neither the HTML
+summary nor PDF tail contained any of the parser_v0.3.2 operative-
+verb anchor patterns. The HTML summary read as a flynote-style legal
+issue ("Single judge lacked jurisdiction to dismiss an appeal filed
+before S.I. No.26/2012; the statutory instrument is not
+retrospective."), not an outcome verb. Parser_v0.3.3+ should add:
+
+- "the appeal succeeds/fails" variants
+- "the matter is remitted" variants
+- Implicit set-aside inference from "we hold that [lower court /
+  single judge / registrar] lacked jurisdiction" → likely set-aside,
+  but explicit anchor required by non-fabrication rule.
+
+### Cohort cumulative tracking (since b0504)
+
+- 59 written (unchanged from b0540)
+- 51 v0.3.3-pending deferred (was 50; +1 this tick — zmsc/2020/2)
+- 33 OCR-pending deferred (was 25; +7 this tick — zmsc/2020/{3,4,6,7,8,9,11})
+- 26 confirmed 404 (unchanged)
+
+The OCR-pending cohort (33 records, ~243 MB scanned PDFs) is now the
+dominant backlog and warrants escalating an OCR backfill workflow.
+
+### ZMSC 2020 status after b0541
+
+16 of ≥50 valid nums attempted (1 written, 1 v0.3.3-pending deferred,
+14 OCR-pending deferred; max-num ≥ 50 confirmed, upper boundary still
+unprobed).
+
+### Next-tick recommendation
+
+**Probe ZMSC 2020 upper boundary** (HEAD-only nums
+{51, 55, 60, 65, 70, 75, 80, 90}) — cheaper (8 fetches vs 16) and
+gives information about year size to constrain OCR backfill planning.
+The OCR-pending backlog is now substantive enough that low-yield
+text-PDF sweeps are no longer the highest-value work.
+| act-zm-2026-005-national-payment-system-act | REPAIR | HTTP_404 | https://www.parliament.gov.zm/sites/default/files/documents/acts/National%20Payment%20System%20Act%20No.%205%20of%202026.pdf | 2026-05-08T16:13:30Z |

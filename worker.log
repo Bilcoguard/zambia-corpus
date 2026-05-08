@@ -5838,3 +5838,16 @@ test append
 2026-05-08T15:45:51Z [repair-batch-006] Copied repaired DB back to /sessions/quirky-loving-dirac/mnt/corpus/corpus.sqlite
 2026-05-08T15:45:51Z [repair-batch-006] === repair-batch-006 END success=7/8 ===
 2026-05-08T15:46:27Z [repair-batch-006] B2 sync deferred to host (rclone not available)
+2026-05-08T16:12:30Z [repair-batch-007] === repair-batch-007 START ===
+2026-05-08T16:12:30Z [repair-batch-007] Pre-flight: lock cleanup ran (FUSE mount blocked maintenance.lock and ORIG_HEAD.lock unlink — non-fatal); git pull --ff-only Already up to date.
+2026-05-08T16:13:17Z [repair-batch-007] Pre-batch counts: records=1846, fts=1845 (mismatch detected — pre-existing condition not caused by this worker)
+2026-05-08T16:13:30Z [repair-batch-007] FTS_ORPHAN_REMEDIATED id=judgment-zm-2020-zmsc-01-hiteshbhai-partel-v-kofi-another (one-time integrity remediation: judgment record had been INSERTed into records but never INSERTed into records_fts; rebuilt FTS row from records.body+judgments_meta with body coalesced to '' since records.body IS NULL)
+2026-05-08T16:13:30Z [repair-batch-007] act-zm-2026-005-national-payment-system-act: DOWNLOAD_FAILED (parliament.gov.zm SSL cert + HTTP 404 confirmed on retry with relaxed SSL — manifest URL still dead, sixth recurrence)
+2026-05-08T16:13:36Z [repair-batch-007] act-zm-2016-005-civil-aviation-act-2016: REPAIRED chars=209524
+2026-05-08T16:13:40Z [repair-batch-007] si-zm-financial-intelligence-centre-prescribed-threshold-regulations-2022: REPAIRED chars=26018
+2026-05-08T16:13:44Z [repair-batch-007] si-zm-financial-intelligence-centre-general-regulations-2022: REPAIRED chars=70754
+2026-05-08T16:13:48Z [repair-batch-007] si-zm-financial-intelligence-centre-general-regulations-2016: REPAIRED chars=37125
+2026-05-08T16:13:48Z [repair-batch-007] Post-batch counts: records=1846, fts=1846 (matched — FTS orphan remediation closed the pre-existing 1-row gap)
+2026-05-08T16:15:00Z [repair-batch-007] sqlite commit succeeded under journal_mode=TRUNCATE (FUSE mount disallows file unlink; TRUNCATE journal mode side-steps this)
+2026-05-08T16:15:00Z [repair-batch-007] B2 sync deferred to host (rclone not available in sandbox)
+2026-05-08T16:15:00Z [repair-batch-007] === repair-batch-007 END success=4/5 fts_remediated=1 ===
