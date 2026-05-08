@@ -4538,3 +4538,4 @@ gives information about year size to constrain OCR backfill planning.
 The OCR-pending backlog is now substantive enough that low-yield
 text-PDF sweeps are no longer the highest-value work.
 | act-zm-2026-005-national-payment-system-act | REPAIR | HTTP_404 | https://www.parliament.gov.zm/sites/default/files/documents/acts/National%20Payment%20System%20Act%20No.%205%20of%202026.pdf | 2026-05-08T16:13:30Z |
+| act-zm-2026-005-national-payment-system-act | REPAIR | RESOLVED via ZambiaLII fallback (https://zambialii.org/akn/zm/act/2026/5/eng@2026-04-08/source.pdf) — manifest parliament.gov.zm URL still 404 and should be updated in SKILL.md | https://zambialii.org/akn/zm/act/2026/5/eng@2026-04-08/source.pdf | 2026-05-08T16:51:38Z |
