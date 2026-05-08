@@ -5766,3 +5766,4 @@
 2026-05-08T17:13:00Z	21a8fe2	batch-0542 push OK (579b08d..21a8fe2)
 2026-05-08T21:21:00Z	batch-0543	fetches=22	records_written=3	records_deferred=4	confirmed_404=1	worker=judgment-ingestion-worker	cumulative_today=70/500	reason=zmsc-2020-upper-boundary-HEAD-probe-plus-GET-fetch-confirmed-OK-nums-phase0-8-HEAD-probes-{51,55,60,65,70,75,80,90}-7-OK-1-404-at-num-80-internal-gap-phase1-14-GET-fetches-7-html-7-pdf-for-confirmed-200-nums-phase2-parse-3-written-zmsc-2020-{51,60,65}-outcomes-allowed-upheld-dismissed-4-deferred-zmsc-2020-{55,70,75,90}-pdf_extraction_empty_likely_scanned-1-new-judge-Muyovwe-JS-added-to-registry-cohort-cumulative-62-51-37-27-zmsc-2020-status-23-of-89plus-attempted-max-num-90plus-confirmed-upper-boundary-unresolved-resumes-substantive-ingestion-after-b0532-b0537-b0542-fail-safe-series
 2026-05-08T21:21:00Z	batch-0543	B2 sync deferred to host (rclone not in sandbox)
+2026-05-08T21:25:00Z	951b8cc	batch-0543 push OK (5bd0532..951b8cc)
