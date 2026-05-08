@@ -5757,3 +5757,5 @@
 2026-05-08T16:11:23Z	batch-0541	B2 sync deferred to host (rclone not in sandbox)
 2026-05-08T16:15:00Z	repair-batch-007	fetches=5	records_repaired=4	fts_orphans_remediated=1	confirmed_404=1	worker=repair-corpus	note=manifest-targets-now-38-of-42-fixed-1-failing-recurring-404-zero-OCR-required
 2026-05-08T16:16:00Z	repair-batch-007	post-push commit=9a3c0f281fa95f4f6988f659f195a34cf06470c1	worker=repair-corpus
+2026-05-08T16:25:00Z	5c6966e	batch-0541 push OK (c78f7ef..5c6966e)
+2026-05-08T16:25:00Z	batch-0541	B2 sync deferred to host (rclone not in sandbox)
