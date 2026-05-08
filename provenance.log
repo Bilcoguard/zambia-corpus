@@ -3904,3 +3904,24 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-07T07:11:11Z	batch-0536	REGISTRY	no_new_canonical_entries	5_judge_resolutions_pre-existing_Mambilima_Mutuna_Wood_Malila_Musonda
 2026-05-07T07:11:11Z	batch-0536	SQLITE	records=1845 judgments_meta=155 inserts=1
 2026-05-07T08:11:37Z	batch-0537	judgment-ingestion-worker	report-only	fetches=0	records_written=0	records_deferred=0	parser=v0.3.2	notes=fail-safe-no-code-modifications-zmsc-2021-DESC-sweep-deferred-OCR-backfill-recommended
+2026-05-08T07:21:16Z	batch-0538	phase-8-nightly-reverify	pool=1849	sample=8	match=2	drift=6	fetch_error=0	seed=phase8-reverify-2026-05-08	parser_version=phase8-reverify-0.1.0	user_agent=KateWestonLegal-CorpusBuilder/1.0
+2026-05-08T07:25:08Z	batch-0539	judgment-ingestion-worker	zmsc-2021-DESC-sweep-continuation	fetches=16	records_written=0	records_deferred=8	confirmed_404=0	parser=v0.3.2	notes=zmsc-2021-nums-27-to-20-all-criminal-appeals-v-the-people-april-2021-cluster-image-only-scans-OCR-pending
+2026-05-08T07:25:08Z	batch-0539	FETCH	zmsc/2021/27	html=38652	pdf=11718368	source=zambialii.org/akn/zm/judgment/zmsc/2021/27/eng@2021-04-21
+2026-05-08T07:25:08Z	batch-0539	FETCH	zmsc/2021/26	html=38738	pdf=8190760	source=zambialii.org/akn/zm/judgment/zmsc/2021/26/eng@2021-04-21
+2026-05-08T07:25:08Z	batch-0539	FETCH	zmsc/2021/25	html=38759	pdf=11767265	source=zambialii.org/akn/zm/judgment/zmsc/2021/25/eng@2021-04-21
+2026-05-08T07:25:08Z	batch-0539	FETCH	zmsc/2021/24	html=38579	pdf=9111542	source=zambialii.org/akn/zm/judgment/zmsc/2021/24/eng@2021-04-21
+2026-05-08T07:25:08Z	batch-0539	FETCH	zmsc/2021/23	html=38726	pdf=2813164	source=zambialii.org/akn/zm/judgment/zmsc/2021/23/eng@2021-04-14
+2026-05-08T07:25:08Z	batch-0539	FETCH	zmsc/2021/22	html=38546	pdf=3868798	source=zambialii.org/akn/zm/judgment/zmsc/2021/22/eng@2021-04-23
+2026-05-08T07:25:08Z	batch-0539	FETCH	zmsc/2021/21	html=38754	pdf=6425803	source=zambialii.org/akn/zm/judgment/zmsc/2021/21/eng@2021-04-23
+2026-05-08T07:25:08Z	batch-0539	FETCH	zmsc/2021/20	html=38720	pdf=7369885	source=zambialii.org/akn/zm/judgment/zmsc/2021/20/eng@2021-04-23
+2026-05-08T07:25:08Z	batch-0539	DEFER	zmsc/2021/27	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/27/eng@2021-04-21
+2026-05-08T07:25:08Z	batch-0539	DEFER	zmsc/2021/26	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/26/eng@2021-04-21
+2026-05-08T07:25:08Z	batch-0539	DEFER	zmsc/2021/25	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/25/eng@2021-04-21
+2026-05-08T07:25:08Z	batch-0539	DEFER	zmsc/2021/24	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/24/eng@2021-04-21
+2026-05-08T07:25:08Z	batch-0539	DEFER	zmsc/2021/23	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/23/eng@2021-04-14
+2026-05-08T07:25:08Z	batch-0539	DEFER	zmsc/2021/22	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/22/eng@2021-04-23
+2026-05-08T07:25:08Z	batch-0539	DEFER	zmsc/2021/21	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/21/eng@2021-04-23
+2026-05-08T07:25:08Z	batch-0539	DEFER	zmsc/2021/20	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2021/20/eng@2021-04-23
+2026-05-08T07:25:08Z	batch-0539	REGISTRY	no_new_canonical_entries	zero_judge_resolutions_zero_records_written
+2026-05-08T07:25:08Z	batch-0539	SQLITE	records_unchanged=1845 judgments_meta_unchanged=155 inserts=0
+2026-05-08T07:25:08Z	batch-0539	INTEGRITY	pass=17 fail=0	corpus-wide-dup-id-check + 8 raw-HTML + 8 raw-PDF on-disk verification

@@ -5772,3 +5772,55 @@ test append
 2026-05-07T09:14:30Z	e0039a9	repair-batch-004	push OK (3d4c574..e0039a9)
 2026-05-07T09:17:30Z	a47b37e	worker-tick idle push OK (0d5227a..a47b37e)
 2026-05-07T09:17:30Z	worker-tick	B2 sync deferred to host (rclone not in sandbox)
+
+[2026-05-08T07:21:16Z] worker-tick start
+[2026-05-08T07:21:16Z]   pre-flight: cleared stale .git/*.lock and *.lock.bak files
+[2026-05-08T07:21:16Z]   git pull --ff-only OK (Already up to date)
+[2026-05-08T07:21:16Z]   approvals.yaml read OK; lowest approved+incomplete phase = phase_8_nightly_reverify (sample_rate=0.01)
+[2026-05-08T07:21:16Z]   budgets OK: today fetches=0/2000 before tick, 8/2000 after
+[2026-05-08T07:21:16Z]   ran scripts/batch_0538_phase8_reverify.py (clone of b0533 baseline, WORKSPACE/BATCH only)
+[2026-05-08T07:21:16Z]   pool=1849 sample=8 match=2 drift=6 fetch_error=0 (seed phase8-reverify-2026-05-08)
+[2026-05-08T07:21:16Z]   integrity-check (Phase-8 scope): no record mutations; deterministic sample re-runnable; verdicts all match|drift; gaps.md drift entries appended; approvals.yaml unchanged; rate limits honoured
+[2026-05-08T07:21:16Z]   pattern reproduces b0524+b0533: 17/17 HTML-URL drifts and 7/7 stable-PDF matches across three ticks
+[2026-05-08T07:21:16Z]   B2 sync deferred to host (rclone not in sandbox)
+[2026-05-08T07:21:16Z]   Phase 8 is open-ended (sample 1%/night); no completion flip
+[2026-05-08T07:21:16Z] worker-tick stop (Phase 8 batch 0538 complete)
+2026-05-08T07:21:28Z [repair-batch-005] === repair-batch-005 START ===
+2026-05-08T07:21:28Z [repair-batch-005] Pre-batch counts: records=1845, fts=1845
+2026-05-08T07:21:29Z [repair-batch-005] act-zm-2026-005-national-payment-system-act: fetch failed: HTTP_404
+2026-05-08T07:21:33Z [repair-batch-005] act-zm-2026-011-the-zambia-deposit-insurance-corporation-act-2026-act-no-11-of-2026: REPAIRED chars=58215 pdf_bytes=430578
+2026-05-08T07:21:34Z [repair-batch-005] act-zm-2010-034-the-national-prosecution-authority-act-2010: REPAIRED chars=31875 pdf_bytes=50618
+2026-05-08T07:21:37Z [repair-batch-005] act-zm-2023-017-the-public-procurement-amendment-act-2023: REPAIRED chars=20340 pdf_bytes=332358
+2026-05-08T07:21:40Z [repair-batch-005] act-zm-2024-001-constituency-development-fund-act-2024: REPAIRED chars=31338 pdf_bytes=428622
+2026-05-08T07:21:45Z [repair-batch-005] act-zm-2025-025-independent-broadcasting-authority-act: REPAIRED chars=52471 pdf_bytes=486119
+2026-05-08T07:21:48Z [repair-batch-005] act-zm-2025-004-cyber-crime-2025: REPAIRED chars=31867 pdf_bytes=350455
+2026-05-08T07:21:50Z [repair-batch-005] act-zm-2011-013-the-zambia-qualifications-authority-act-2011: REPAIRED chars=24424 pdf_bytes=42837
+2026-05-08T07:21:50Z [repair-batch-005] Post-batch counts: records=1845, fts=1845
+2026-05-08T07:21:52Z [repair-batch-005] Copied repaired DB back to /sessions/fervent-blissful-goldberg/mnt/corpus/corpus.sqlite
+2026-05-08T07:21:52Z [repair-batch-005] === repair-batch-005 END success=7/8 ===
+2026-05-08T07:18:16Z [batch-0539] === judgment-ingestion-worker BEGIN ZMSC 2021 DESC sweep nums 27..20 ===
+2026-05-08T07:18:18Z [batch-0539] git pull --ff-only: Already up to date.
+2026-05-08T07:18:20Z [batch-0539] costs.log check: 0/500 fetches today (judgment-ingestion-worker budget) — proceed
+2026-05-08T07:18:22Z [batch-0539] tick path decision: SCZ SWEEP (b) — 50 v0.3.3-pending and 10 OCR-pending deferrals on disk; v0.3.2 reparse on the v0.3.3-pending cohort would re-defer (parser unchanged); OCR-pending cohort needs OCR pipeline (out of scope this tick); proceed with b0536 next-tick recommendation: ZMSC 2021 DESC sweep nums 27..20.
+2026-05-08T07:18:24Z [batch-0539] Wrote _work/b0539/targets.json (8 candidates: zmsc/2021/{27,26,25,24,23,22,21,20})
+2026-05-08T07:18:26Z [batch-0539] Created scripts/batch_0539_zmsc_fetch.py (thin wrapper around batch_0506_zmsc_fetch.py)
+2026-05-08T07:18:28Z [batch-0539] Created scripts/batch_0539_zmsc_parse.py (thin wrapper around batch_0506_zmsc_parse.py — parser_v0.3.2)
+2026-05-08T07:19:30Z [batch-0539] FETCH zmsc/2021/27: 200 OK html=38652 pdf=11718368 date=2021-04-21
+2026-05-08T07:19:46Z [batch-0539] FETCH zmsc/2021/26: 200 OK html=38738 pdf=8190760 date=2021-04-21
+2026-05-08T07:20:02Z [batch-0539] FETCH zmsc/2021/25: 200 OK html=38759 pdf=11767265 date=2021-04-21
+2026-05-08T07:20:18Z [batch-0539] FETCH zmsc/2021/24: 200 OK html=38579 pdf=9111542 date=2021-04-21
+2026-05-08T07:20:34Z [batch-0539] FETCH zmsc/2021/23: 200 OK html=38726 pdf=2813164 date=2021-04-14
+2026-05-08T07:20:50Z [batch-0539] FETCH zmsc/2021/22: 200 OK html=38546 pdf=3868798 date=2021-04-23
+2026-05-08T07:21:06Z [batch-0539] FETCH zmsc/2021/21: 200 OK html=38754 pdf=6425803 date=2021-04-23
+2026-05-08T07:21:22Z [batch-0539] FETCH zmsc/2021/20: 200 OK html=38720 pdf=7369885 date=2021-04-23
+2026-05-08T07:21:28Z [batch-0539] FETCH summary: 8/8 ok (16 HTTP requests, ~62 MB total PDF bytes)
+2026-05-08T07:22:16Z [batch-0539] PARSE summary: written=0 deferred=8 — all 8 deferred under pdf_extraction_empty_likely_scanned (image-only scans)
+2026-05-08T07:22:30Z [batch-0539] Renumber detected: main worker had claimed b0538 for Phase 8 reverify at 07:18:16Z; renaming _work/b0538 -> _work/b0539, scripts b0538 -> b0539.
+2026-05-08T07:23:00Z [batch-0539] Created scripts/integrity_check_b0539.py
+2026-05-08T07:23:30Z [batch-0539] INTEGRITY 17/17 PASS — corpus-wide dup-id check + 8 raw-HTML + 8 raw-PDF on-disk verification
+2026-05-08T07:24:00Z [batch-0539] gaps.md updated with batch 0539 section (per-num table, cohort totals, next-tick recommendation)
+2026-05-08T07:24:30Z [batch-0539] costs.log appended (TSV summary + JSON detail + B2 sync deferred)
+2026-05-08T07:25:00Z [batch-0539] provenance.log appended (1 batch summary, 8 FETCH, 8 DEFER, 1 REGISTRY, 1 SQLITE, 1 INTEGRITY)
+2026-05-08T07:25:08Z [batch-0539] reports/batch-0539-judgment-ingestion.md written
+2026-05-08T07:25:08Z [batch-0539] B2 sync deferred (rclone not in sandbox)
+2026-05-08T07:25:08Z [batch-0539] === judgment-ingestion-worker END — 0 records written, 8 deferred, 16 fetches, 16/500 daily budget ===

@@ -4292,3 +4292,126 @@ num=33; plus 11 confirmed 404 above max-num=39 boundary).
 | corpus.sqlite | DB_INTEGRITY | PRAGMA_INTEGRITY_CHECK_FAIL_BTREE_PAGE_CORRUPTION | local | 2026-05-07T08:19:04Z |
 | act-zm-2026-005-national-payment-system-act | REPAIR | HTTP_404 | https://www.parliament.gov.zm/sites/default/files/documents/acts/National%20Payment%20System%20Act%20No.%205%20of%202026.pdf | 2026-05-07T08:53:48Z |
 | act-zm-2026-005-national-payment-system-act | REPAIR | HTTP_404 | https://www.parliament.gov.zm/sites/default/files/documents/acts/National%20Payment%20System%20Act%20No.%205%20of%202026.pdf | 2026-05-07T09:12:11Z |
+
+## Phase 8 — Nightly re-verification, batch 0538 (2026-05-08)
+
+Third Phase 8 tick (deterministic seed `phase8-reverify-2026-05-08`)
+over a pool of 1849 records with both `source_url` and `source_hash`
+(pool grew from 1847 yesterday — confirms parallel
+judgment-ingestion-worker is still adding records). Sample size 8 (1%
+of pool, capped by MAX_BATCH_SIZE=8). Re-fetched all 8 records,
+recomputed sha256, compared against stored values. **Records were NOT
+mutated by this tick.**
+
+Outcome counts: match=2, drift=6, fetch_error=0.
+
+### Drift entries — to be triaged before any record refresh
+
+| Record id | Source URL | Stored sha256 | Re-fetched sha256 | Bytes (new) | Sub-kind |
+|-----------|------------|---------------|-------------------|------------:|----------|
+| `si-zm-2017-028-dambwa-local-forest-no-f22-alteration-of-boundaries-order-2017` | https://zambialii.org/akn/zm/act/si/2017/28 | (see batch-0538-reverify.json) | `7b36d9ff4a38b96f566592d4dd249691b4426bc04f13661e3f33e4b0c3d96c6e` | (see JSON) | `content_changed_full_drift` |
+| `act-zm-1989-001-zambia-centre-for-accountancy-studies-act-1989` | https://zambialii.org/akn/zm/act/1989/1/eng@1989-05-19 | (see JSON) | `20e8acc2f42df171cb056d5140a2d6f202c3014aad37d237420c363ec7a0bab7` | (see JSON) | `content_changed_full_drift` |
+| `act-zm-2025-003-cyber-security-act` | https://zambialii.org/akn/zm/act/2025/3/eng@2025-04-15 | (see JSON) | `3e0c908d6f4639f3a518d5d3a69b01d3852541d8957a52e5ffab04e5a47defa5` | (see JSON) | `content_changed_full_drift` |
+| `act-zm-1963-027-law-reform-frustrated-contracts-act-1963` | https://zambialii.org/akn/zm/act/1963/27/eng@1996-12-31 | (see JSON) | `27238451149942d91bdda2e6f0cb16a44b9b2fd749f31b1af3317aa13c542ee9` | (see JSON) | `content_changed_full_drift` |
+| `judgment-zm-2021-zmcc-17-anderson-mwale-buchisa-mwalongo-and-kola-odubote-v` | https://zambialii.org/akn/zm/judgment/zmcc/2021/17/eng@2021-09-20 | (see JSON) | `bdca64af3e5444869ea1411b54b3b0657f11bb11df866bb40876fbe2f1c2fc2d` | (see JSON) | `content_changed_full_drift` |
+| `act-zm-1997-013-appropriation-act-1997` | https://zambialii.org/akn/zm/act/1997/13/eng@1997-04-18 | (see JSON) | `f8bf94c26171cb0187b4da004ccbcd1d2fa9e993a08b5245a22918f622c88030` | (see JSON) | `content_changed_full_drift` |
+
+### Drift sub-kind notes
+
+- **`content_changed_full_drift`** — all 6 drifts point at zambialii.org
+  `/akn/...` HTML rendering URLs (acts, SIs, and one judgment URL —
+  judgment URL drift is **first-observed in this Phase-8 tick** but is the
+  same `/akn/zm/judgment/.../eng@DATE` family and almost certainly the same
+  CMS-dynamic-markup root cause). The pattern of HTML-URL drift +
+  PDF-URL match is now reproduced across **three consecutive Phase-8
+  ticks**: b0524 (4/4), b0533 (7/7), b0538 (6/6) = 17/17 HTML-URL drifts;
+  matches (8/8) all on stable PDF endpoints (parliament.gov.zm /
+  media.zambialii.org `/source_file/` PDFs). The b0524 / b0533
+  recommendation stands: ZambiaLII HTML drifts are informational only
+  (CMS dynamic markup) and need a normalised-text comparison stage to
+  classify substantively.
+
+### Match entries (no action needed; recorded here for audit)
+
+- `si-zm-2020-027-income-tax-remission-ndola-lime-company-limited-order-2020`
+  (https://media.zambialii.org/media/legislation/21005/source_file/674aab13366aa524/zm-act-si-2020-27-publication-document.pdf)
+  — sha256 unchanged (media.zambialii.org `/source_file/` PDF; stable).
+- `act-zm-2017-022-appropriation`
+  (https://www.parliament.gov.zm/sites/default/files/documents/acts/Appropriation%20Act%20%20No.%2022%20of%20%202017.pdf)
+  — sha256 unchanged (parliament.gov.zm PDF; stable).
+
+### Reproducibility
+
+- Sample seed: `phase8-reverify-2026-05-08` (deterministic; same date → same sample).
+- Re-runnable via `python3 scripts/batch_0538_phase8_reverify.py`.
+- Full per-fetch JSON: `reports/batch-0538-reverify.json`.
+
+| act-zm-2026-005-national-payment-system-act | REPAIR | HTTP_404 | https://www.parliament.gov.zm/sites/default/files/documents/acts/National%20Payment%20System%20Act%20No.%205%20of%202026.pdf | 2026-05-08T07:21:29Z |
+
+## Batch 0539 update (2026-05-08)
+
+Continued ZMSC 2021 most-recent-first DESC sweep per b0536 next-tick
+recommendation. Probed 8 nums (27..20); all 8 fetched OK, zero 404s,
+**zero records written**, 8 deferred under
+`pdf_extraction_empty_likely_scanned`. Renumbered from b0538 → b0539
+mid-tick because the main corpus worker had already claimed b0538 for
+Phase 8 nightly reverify (2026-05-08T07:18Z) before this
+judgment-ingestion tick committed.
+
+| court / num   | result   | bytes (PDF) | notes |
+|---------------|----------|-------------|-------|
+| zmsc/2021/27  | deferred | 11,718,368  | pdf_extraction_empty_likely_scanned (Chishimba Chonya v The People — criminal appeal scan) |
+| zmsc/2021/26  | deferred |  8,190,760  | pdf_extraction_empty_likely_scanned (William Mufungulwa Sipalo v The People — scan) |
+| zmsc/2021/25  | deferred | 11,767,265  | pdf_extraction_empty_likely_scanned (Derrick Mungaila & 3 ors v The People — scan) |
+| zmsc/2021/24  | deferred |  9,111,542  | pdf_extraction_empty_likely_scanned (James Sichimba v The People — scan) |
+| zmsc/2021/23  | deferred |  2,813,164  | pdf_extraction_empty_likely_scanned (Ronald Musonda & 2 ors v The People — scan) |
+| zmsc/2021/22  | deferred |  3,868,798  | pdf_extraction_empty_likely_scanned (Peter Sampa v The People — scan) |
+| zmsc/2021/21  | deferred |  6,425,803  | pdf_extraction_empty_likely_scanned (Chancy Mtambalika & anor v The People — scan) |
+| zmsc/2021/20  | deferred |  7,369,885  | pdf_extraction_empty_likely_scanned (Mwiya Zunga Zunga & anor v The People — scan) |
+
+Pattern note: **all 8 candidates are criminal appeals (`v The People`)
+from a same-week April 2021 cluster** (judgment dates 2021-04-14,
+04-21, 04-23). All deferred under the OCR-pending reason code (image-
+only PDFs, 2.8–11.8 MB each, total ~62 MB). This reproduces and
+significantly extends the b0536 finding that the early-2021 ZMSC
+cohort is overwhelmingly scan-only.
+
+Outstanding `raw-on-disk-pending-v0.3.3` cohort total **50** (unchanged
+this tick — none of the b0539 deferrals are interpretive-ratio family;
+all 8 are scan-image OCR-pending).
+
+Outstanding `pdf_extraction_empty_likely_scanned` (OCR-pending) cohort
+total **18** after b0539: prior 10 (4 from earlier batches +
+zmsc/2021/{34,32,31,30,29,28} from b0536) + zmsc/2021/{27,26,25,24,23,22,21,20}
+from b0539.
+
+No judges resolved this tick (zero records written); judges_registry.yaml
+unchanged. corpus.sqlite unchanged. records/ tree unchanged. Raw HTML+PDF
+pairs added to `raw/zambialii/judgments/zmsc/2021/`.
+
+Integrity check 17/17 PASS via `scripts/integrity_check_b0539.py`
+(corpus-wide duplicate-id check + 8 raw-HTML + 8 raw-PDF on-disk
+verification). 155 unique judgment IDs in corpus, unchanged from b0536.
+
+approvals.yaml NOT modified per human-only confirmation rule.
+
+Daily fetch budget today (judgment-ingestion-worker): 16/500.
+
+### Next-tick recommendation
+
+The early-2021 ZMSC cohort is overwhelmingly scan-only PDFs that the
+v0.3.2 parser cannot extract. Two parallel options:
+
+1. **Continue ZMSC 2021 DESC sweep nums {19..12}** (skipping known 404
+   at num=33). Expectation: similar scan-PDF ratio; will keep growing
+   the OCR-pending cohort but will eventually find the 2021 lower-num
+   boundary.
+2. **Pivot to ZMSC 2020 boundary probe** (HEAD-only, low fetch cost) to
+   identify the year-max num for 2020. Then continue DESC sweep there.
+
+Either way, the 18-record OCR-pending cohort is now substantive and
+warrants escalating the OCR backfill workflow as a parallel track.
+
+ZMSC 2021 status after b0539: 20 of ~30+ valid attempted (1 written,
+1 v0.3.3-pending deferred, 17 OCR-pending deferred, 1 internal 404 at
+num=33; plus 11 confirmed 404 above max-num=39 boundary).
