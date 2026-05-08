@@ -3946,3 +3946,22 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-08T15:50:00Z	batch-0540	REGISTRY	no_new_canonical_entries	3-judges-resolved-pre-existing-Wood-Musonda-Kajimanga
 2026-05-08T15:50:00Z	batch-0540	SQLITE	records:1845->1846 judgments_meta:155->156 inserts=1
 2026-05-08T15:50:00Z	batch-0540	INTEGRITY	pass=15 fail=0	required-fields + judges-registry-resolution + raw-sha256 + duplicate-id-check
+2026-05-08T16:11:23Z	batch-0541	FETCH	zmsc/2020/2	OK	pdf_bytes=3322544	html_url=https://zambialii.org/akn/zm/judgment/zmsc/2020/2/eng@2020-03-18
+2026-05-08T16:11:23Z	batch-0541	FETCH	zmsc/2020/3	OK	pdf_bytes=8000211	html_url=https://zambialii.org/akn/zm/judgment/zmsc/2020/3/eng@2020-01-09
+2026-05-08T16:11:23Z	batch-0541	FETCH	zmsc/2020/4	OK	pdf_bytes=4709269	html_url=https://zambialii.org/akn/zm/judgment/zmsc/2020/4/eng@2020-03-03
+2026-05-08T16:11:23Z	batch-0541	FETCH	zmsc/2020/6	OK	pdf_bytes=4544942	html_url=https://zambialii.org/akn/zm/judgment/zmsc/2020/6/eng@2020-03-31
+2026-05-08T16:11:23Z	batch-0541	FETCH	zmsc/2020/7	OK	pdf_bytes=8682175	html_url=https://zambialii.org/akn/zm/judgment/zmsc/2020/7/eng@2020-05-14
+2026-05-08T16:11:23Z	batch-0541	FETCH	zmsc/2020/8	OK	pdf_bytes=2989470	html_url=https://zambialii.org/akn/zm/judgment/zmsc/2020/8/eng@2020-05-13
+2026-05-08T16:11:23Z	batch-0541	FETCH	zmsc/2020/9	OK	pdf_bytes=6233014	html_url=https://zambialii.org/akn/zm/judgment/zmsc/2020/9/eng@2020-05-13
+2026-05-08T16:11:23Z	batch-0541	FETCH	zmsc/2020/11	OK	pdf_bytes=3336547	html_url=https://zambialii.org/akn/zm/judgment/zmsc/2020/11/eng@2020-05-13
+2026-05-08T16:11:23Z	batch-0541	DEFER	zmsc/2020/2	html_no_summary_pdf_no_match	parser_v0.3.2_no_anchor_summary_is_legal_issue_not_outcome
+2026-05-08T16:11:23Z	batch-0541	DEFER	zmsc/2020/3	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2020/3/eng@2020-01-09
+2026-05-08T16:11:23Z	batch-0541	DEFER	zmsc/2020/4	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2020/4/eng@2020-03-03
+2026-05-08T16:11:23Z	batch-0541	DEFER	zmsc/2020/6	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2020/6/eng@2020-03-31
+2026-05-08T16:11:23Z	batch-0541	DEFER	zmsc/2020/7	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2020/7/eng@2020-05-14
+2026-05-08T16:11:23Z	batch-0541	DEFER	zmsc/2020/8	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2020/8/eng@2020-05-13
+2026-05-08T16:11:23Z	batch-0541	DEFER	zmsc/2020/9	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2020/9/eng@2020-05-13
+2026-05-08T16:11:23Z	batch-0541	DEFER	zmsc/2020/11	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2020/11/eng@2020-05-13
+2026-05-08T16:11:23Z	batch-0541	REGISTRY	unchanged	zero_records_written
+2026-05-08T16:11:23Z	batch-0541	SQLITE	unchanged	zero_records_written_records=1846_judgments_meta=156
+2026-05-08T16:11:23Z	batch-0541	INTEGRITY	pass=17 fail=0	corpus-duplicate-id-check + 8-html-on-disk + 8-pdf-on-disk
