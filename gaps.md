@@ -4415,3 +4415,4 @@ warrants escalating the OCR backfill workflow as a parallel track.
 ZMSC 2021 status after b0539: 20 of ~30+ valid attempted (1 written,
 1 v0.3.3-pending deferred, 17 OCR-pending deferred, 1 internal 404 at
 num=33; plus 11 confirmed 404 above max-num=39 boundary).
+| act-zm-2026-005-national-payment-system-act | REPAIR | HTTP_404 | https://www.parliament.gov.zm/sites/default/files/documents/acts/National%20Payment%20System%20Act%20No.%205%20of%202026.pdf | 2026-05-08T15:45:20Z |

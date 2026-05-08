@@ -5824,3 +5824,17 @@ test append
 2026-05-08T07:25:08Z [batch-0539] reports/batch-0539-judgment-ingestion.md written
 2026-05-08T07:25:08Z [batch-0539] B2 sync deferred (rclone not in sandbox)
 2026-05-08T07:25:08Z [batch-0539] === judgment-ingestion-worker END — 0 records written, 8 deferred, 16 fetches, 16/500 daily budget ===
+2026-05-08T15:45:19Z [repair-batch-006] === repair-batch-006 START ===
+2026-05-08T15:45:20Z [repair-batch-006] Pre-batch counts: records=1845, fts=1845
+2026-05-08T15:45:20Z [repair-batch-006] act-zm-2026-005-national-payment-system-act: fetch failed: HTTP_404
+2026-05-08T15:45:24Z [repair-batch-006] act-zm-2011-023-education-act-2011: REPAIRED chars=116056 pdf_bytes=142766
+2026-05-08T15:45:27Z [repair-batch-006] act-zm-2011-031-customs-and-excise-amendment-act-2011: REPAIRED chars=87701 pdf_bytes=258559
+2026-05-08T15:45:30Z [repair-batch-006] act-zm-2010-024-the-competition-and-consumer-protection-2010: REPAIRED chars=100621 pdf_bytes=131109
+2026-05-08T15:45:32Z [repair-batch-006] act-zm-2011-004-urban-and-regional-act-2011: REPAIRED chars=61521 pdf_bytes=79159
+2026-05-08T15:45:38Z [repair-batch-006] act-zm-2023-018-the-public-private-partnership-act-2023: REPAIRED chars=118092 pdf_bytes=1149155
+2026-05-08T15:45:43Z [repair-batch-006] act-zm-2024-010-civil-aviation-authority-amendment-act-2024: REPAIRED chars=143026 pdf_bytes=3224064
+2026-05-08T15:45:49Z [repair-batch-006] act-zm-2024-011-civil-aviation-amendment-act-2024: REPAIRED chars=143026 pdf_bytes=3224064
+2026-05-08T15:45:49Z [repair-batch-006] Post-batch counts: records=1845, fts=1845
+2026-05-08T15:45:51Z [repair-batch-006] Copied repaired DB back to /sessions/quirky-loving-dirac/mnt/corpus/corpus.sqlite
+2026-05-08T15:45:51Z [repair-batch-006] === repair-batch-006 END success=7/8 ===
+2026-05-08T15:46:27Z [repair-batch-006] B2 sync deferred to host (rclone not available)
