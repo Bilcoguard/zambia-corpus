@@ -4416,3 +4416,67 @@ ZMSC 2021 status after b0539: 20 of ~30+ valid attempted (1 written,
 1 v0.3.3-pending deferred, 17 OCR-pending deferred, 1 internal 404 at
 num=33; plus 11 confirmed 404 above max-num=39 boundary).
 | act-zm-2026-005-national-payment-system-act | REPAIR | HTTP_404 | https://www.parliament.gov.zm/sites/default/files/documents/acts/National%20Payment%20System%20Act%20No.%205%20of%202026.pdf | 2026-05-08T15:45:20Z |
+
+## Batch 0540 update (2026-05-08)
+
+Pivoted to **ZMSC 2020 boundary probe + initial sweep** per b0539
+next-tick recommendation. Probed 8 nums spread across the 2020 num
+space ({50, 40, 30, 20, 15, 10, 5, 1}); all 8 fetched OK, zero 404s.
+**1 record written, 7 deferred** under
+`pdf_extraction_empty_likely_scanned`.
+
+| court / num   | result   | bytes (PDF) | notes |
+|---------------|----------|-------------|-------|
+| zmsc/2020/50  | deferred |  9,511,017  | pdf_extraction_empty_likely_scanned |
+| zmsc/2020/40  | deferred |  6,197,297  | pdf_extraction_empty_likely_scanned |
+| zmsc/2020/30  | deferred |  4,261,406  | pdf_extraction_empty_likely_scanned |
+| zmsc/2020/20  | deferred |  5,248,240  | pdf_extraction_empty_likely_scanned |
+| zmsc/2020/15  | deferred |  5,651,538  | pdf_extraction_empty_likely_scanned |
+| zmsc/2020/10  | deferred |  6,118,694  | pdf_extraction_empty_likely_scanned |
+| zmsc/2020/05  | deferred |  3,256,554  | pdf_extraction_empty_likely_scanned |
+| zmsc/2020/01  | **written** | 2,641,685 | overturned (Hiteshbhai Partel v Kofi & Another); panel Wood JS / Musonda JS / Kajimanga JS; html-summary "set aside" anchor |
+
+**ZMSC 2020 max-num ≥ 50 confirmed** (upper boundary still unprobed —
+nums > 50 not yet tested). Pattern note: scan-PDF dominance reproduces
+across this and the prior two ticks (b0536 and b0539), confirming that
+older ZMSC years (2020–2021) are overwhelmingly image-only PDFs that
+the v0.3.2 parser cannot extract operative text from.
+
+### Date-decided handling note
+
+Parser_v0.3.2's metadata extraction returned empty for the "Judgment
+date" field on this older 2020-format ZambiaLII page (the metadata
+table layout differs from the 2021–2025 calibration cohort). Wrote
+record with `date_decided: null` initially; post-parse, populated
+`date_decided=2020-03-11` from the canonical URL date
+(`/eng@2020-03-11/`) and cross-verified against the title parenthetical
+"(11 March 2020)" — both agreeing. This is a deterministic
+source-grounded derivation (URL is `source_url` in the same record),
+not fabrication. Flagged for parser_v0.3.3+: add URL-date fallback to
+`date_decided` extraction.
+
+### Cohort cumulative tracking (since b0504)
+
+- 59 written (was 58 + 1 from this tick)
+- 50 v0.3.3-pending deferred (unchanged)
+- 25 OCR-pending deferred (was 18; +7 this tick — all from ZMSC 2020)
+- 26 confirmed 404 (unchanged)
+
+The OCR-pending cohort is now 25 records and is large enough to warrant
+escalating an OCR backfill workflow as a parallel track.
+
+Three judge resolutions on the written record (Wood, Musonda,
+Kajimanga) all matched existing canonical entries; judges_registry.yaml
+unchanged.
+
+### Next-tick recommendation
+
+Continue ZMSC 2020 mid-range sweep (nums {2, 3, 4, 6, 7, 8, 9, 11})
+— next 8 candidates from where this tick left off. Expectation: similar
+~1-of-8 written ratio given the consistent scan-PDF dominance. Upper
+boundary probe for nums > 50 can be deferred to a later tick; the 2020
+cohort is large enough to support several DESC-sweep ticks first.
+
+ZMSC 2020 status after b0540: 8 of ≥50 valid attempted (1 written, 7
+OCR-pending deferred; max-num ≥ 50 confirmed, upper boundary still
+unprobed).

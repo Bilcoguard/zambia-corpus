@@ -5749,3 +5749,5 @@
 2026-05-08T07:25:08Z	batch-0539	B2 sync deferred to host (rclone not in sandbox)
 2026-05-08T07:40:50Z	55b3c1d	batch-0539 push OK (6d0885a..55b3c1d)
 2026-05-08T15:45:51Z repair-batch-006 records_repaired=7 fetches=8
+2026-05-08T15:50:00Z	batch-0540	fetches=16	records_written=1	records_deferred=7	confirmed_404=0	worker=judgment-ingestion-worker	cumulative_today=32/500	reason=zmsc-2020-boundary-probe-and-initial-sweep-pivot-from-zmsc-2021-DESC-per-b0539-recommendation-nums-50-40-30-20-15-10-5-1-spread-across-2020-num-space-8-fetched-OK-zero-404-1-written-zmsc-2020-1-Hiteshbhai-Partel-v-Kofi-and-Another-outcome-overturned-html-summary-set-aside-anchor-7-deferred-pdf_extraction_empty_likely_scanned-zmsc-2020-{50,40,30,20,15,10,5}-3-judges-resolved-pre-existing-canonical-Wood-Musonda-Kajimanga-cohort-cumulative-59-50-25-26-zmsc-2020-status-8-of-50plus-attempted-max-num-50plus-confirmed-upper-boundary-unprobed-date_decided-2020-03-11-derived-from-source-url-canonical-eng-suffix-cross-verified-against-title-parenthetical-parser-v032-regression-on-older-html-format-flagged-for-v033
+2026-05-08T15:50:00Z	batch-0540	B2 sync deferred to host (rclone not in sandbox)

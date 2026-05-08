@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2020-zmsc-01-hiteshbhai-partel-v-kofi-another",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Hiteshbhai Partel v Kofi & Another (Appeal 13 of 2017) [2020] ZMSC 1 (11 March 2020)",
+  "citation": "[2020] ZMSC 1",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Hiteshbhai Partel v Kofi & Another",
+  "case_number": "Appeal 13 of 2017",
+  "date_decided": "2020-03-11",
+  "judges": [
+    {
+      "name": "Wood",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Musonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kajimanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Property transfer tax",
+    "understatement of purchase price",
+    "illegality",
+    "effect on enforceability of contract",
+    "restitution of monies paid",
+    "specific performance",
+    "Statute of Frauds evidence."
+  ],
+  "outcome": "overturned",
+  "outcome_detail": "We set aside the judgment of the court below and enter",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "8c8c0808b8a59d613ea4868edec903bcf5a818975c0c8689fd2c864ed6c5716f",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2020/1/eng@2020-03-11",
+  "source_hash": "sha256:72b529e0a9f0a86266e7565a5f771fea843b4c1686f1a60e493965891b084230",
+  "fetched_at": "2026-05-08T15:47:35Z",
+  "parser_version": "0.3.2"
+}

@@ -3925,3 +3925,24 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-08T07:25:08Z	batch-0539	REGISTRY	no_new_canonical_entries	zero_judge_resolutions_zero_records_written
 2026-05-08T07:25:08Z	batch-0539	SQLITE	records_unchanged=1845 judgments_meta_unchanged=155 inserts=0
 2026-05-08T07:25:08Z	batch-0539	INTEGRITY	pass=17 fail=0	corpus-wide-dup-id-check + 8 raw-HTML + 8 raw-PDF on-disk verification
+2026-05-08T15:50:00Z	batch-0540	START	judgment-ingestion-worker	zmsc-2020-boundary-probe-and-initial-sweep-targets={50,40,30,20,15,10,5,1}
+2026-05-08T15:50:00Z	batch-0540	FETCH	zmsc/2020/50	OK	2020-03-26	html=38637	pdf=9511017
+2026-05-08T15:50:00Z	batch-0540	FETCH	zmsc/2020/40	OK	2020-02-28	html=38700	pdf=6197297
+2026-05-08T15:50:00Z	batch-0540	FETCH	zmsc/2020/30	OK	2020-05-15	html=38806	pdf=4261406
+2026-05-08T15:50:00Z	batch-0540	FETCH	zmsc/2020/20	OK	2020-02-04	html=38681	pdf=5248240
+2026-05-08T15:50:00Z	batch-0540	FETCH	zmsc/2020/15	OK	2020-01-02	html=38531	pdf=5651538
+2026-05-08T15:50:00Z	batch-0540	FETCH	zmsc/2020/10	OK	2020-05-14	html=38606	pdf=6118694
+2026-05-08T15:50:00Z	batch-0540	FETCH	zmsc/2020/5	OK	2020-01-14	html=38743	pdf=3256554
+2026-05-08T15:50:00Z	batch-0540	FETCH	zmsc/2020/1	OK	2020-03-11	html=41965	pdf=2641685
+2026-05-08T15:50:00Z	batch-0540	WRITE	judgment-zm-2020-zmsc-01-hiteshbhai-partel-v-kofi-another	outcome=overturned	source=html-summary-set-aside-anchor	parser=v0.3.2
+2026-05-08T15:50:00Z	batch-0540	DATE_PATCH	judgment-zm-2020-zmsc-01-hiteshbhai-partel-v-kofi-another	date_decided=2020-03-11	derived-from-url-eng-suffix-cross-verified-with-title-parenthetical-11-March-2020
+2026-05-08T15:50:00Z	batch-0540	DEFER	zmsc/2020/50	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2020/50/eng@2020-03-26
+2026-05-08T15:50:00Z	batch-0540	DEFER	zmsc/2020/40	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2020/40/eng@2020-02-28
+2026-05-08T15:50:00Z	batch-0540	DEFER	zmsc/2020/30	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2020/30/eng@2020-05-15
+2026-05-08T15:50:00Z	batch-0540	DEFER	zmsc/2020/20	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2020/20/eng@2020-02-04
+2026-05-08T15:50:00Z	batch-0540	DEFER	zmsc/2020/15	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2020/15/eng@2020-01-02
+2026-05-08T15:50:00Z	batch-0540	DEFER	zmsc/2020/10	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2020/10/eng@2020-05-14
+2026-05-08T15:50:00Z	batch-0540	DEFER	zmsc/2020/5	pdf_extraction_empty_likely_scanned	source=zambialii.org/akn/zm/judgment/zmsc/2020/5/eng@2020-01-14
+2026-05-08T15:50:00Z	batch-0540	REGISTRY	no_new_canonical_entries	3-judges-resolved-pre-existing-Wood-Musonda-Kajimanga
+2026-05-08T15:50:00Z	batch-0540	SQLITE	records:1845->1846 judgments_meta:155->156 inserts=1
+2026-05-08T15:50:00Z	batch-0540	INTEGRITY	pass=15 fail=0	required-fields + judges-registry-resolution + raw-sha256 + duplicate-id-check
