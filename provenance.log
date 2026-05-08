@@ -3965,3 +3965,7 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-08T16:11:23Z	batch-0541	REGISTRY	unchanged	zero_records_written
 2026-05-08T16:11:23Z	batch-0541	SQLITE	unchanged	zero_records_written_records=1846_judgments_meta=156
 2026-05-08T16:11:23Z	batch-0541	INTEGRITY	pass=17 fail=0	corpus-duplicate-id-check + 8-html-on-disk + 8-pdf-on-disk
+2026-05-08T17:10:41Z	batch-0542	REPORT-ONLY	fail-safe	code-modification-constraint-active	no-fetches-no-writes
+2026-05-08T17:10:41Z	batch-0542	REGISTRY	unchanged	zero_records_written
+2026-05-08T17:10:41Z	batch-0542	SQLITE	unchanged	zero_records_written_records=1846_judgments_meta=156
+2026-05-08T17:10:41Z	batch-0542	INTEGRITY	pass=0 fail=0	0-of-0-trivially-passes-no-mutations

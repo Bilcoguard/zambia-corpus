@@ -4539,3 +4539,47 @@ The OCR-pending backlog is now substantive enough that low-yield
 text-PDF sweeps are no longer the highest-value work.
 | act-zm-2026-005-national-payment-system-act | REPAIR | HTTP_404 | https://www.parliament.gov.zm/sites/default/files/documents/acts/National%20Payment%20System%20Act%20No.%205%20of%202026.pdf | 2026-05-08T16:13:30Z |
 | act-zm-2026-005-national-payment-system-act | REPAIR | RESOLVED via ZambiaLII fallback (https://zambialii.org/akn/zm/act/2026/5/eng@2026-04-08/source.pdf) — manifest parliament.gov.zm URL still 404 and should be updated in SKILL.md | https://zambialii.org/akn/zm/act/2026/5/eng@2026-04-08/source.pdf | 2026-05-08T16:51:38Z |
+
+## Batch 0542 update (2026-05-08) — report-only
+
+This was a **report-only** judgment-ingestion tick (3rd in the
+b0532/b0537 fail-safe series). Code-modification constraint
+remained active; no fetcher, parser, or wrapper authorship was
+undertaken.
+
+Cumulative cohort tracking unchanged from b0541:
+
+- **59** written
+- **51** v0.3.3-pending deferred (`html_no_summary_pdf_no_match`)
+- **33** OCR-pending deferred (`pdf_extraction_empty_likely_scanned`)
+- **26** confirmed 404
+
+ZMSC 2020 status: 16 of ≥50 valid attempted; upper boundary
+unprobed.
+
+### Pending v0.3.3 parser additions (re-stated for visibility)
+
+Per b0541 — the v0.3.2 → v0.3.3 patch set queued in the
+51-record `html_no_summary_pdf_no_match` cohort needs:
+
+1. `the appeal succeeds` / `the appeal fails` (and "succeeded" /
+   "failed" past-tense variants) operative-verb anchors.
+2. `the matter is remitted` / `is hereby remitted to` variants.
+3. Implicit set-aside inference from
+   `we hold that [registrar / single judge / lower court] lacked
+   jurisdiction` — but only as an explicit anchor (per the
+   non-fabrication rule). The current rule rejects implicit
+   inference, hence the deferral.
+
+### Next-tick recommendation (carried forward from b0541)
+
+1. **Re-authorise wrapper authorship** to enable the ZMSC 2020
+   upper-boundary HEAD-only probe (8 fetches; expected mostly-404).
+2. **Initiate OCR backfill workflow** for the 33-record
+   OCR-pending cohort (~243 MB) — highest-leverage track because
+   no new fetches required and Phase 5 ceiling at 160 is closer
+   than the v0.3.3-pending cohort can credibly close before
+   parser ship.
+3. Resume ZMSC 2021 DESC sweep nums {19..12} as a follow-on if
+   upper-boundary probe completes early.
+
