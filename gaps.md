@@ -5621,3 +5621,73 @@ ZMCC 2020 records: 2 → 2 written (no change). Raw on disk: 8 → 16 (nums 01-1
 1. **Finish ZMCC 2020 sweep** — fetch nums {17, 18} (2 records, ~4 fetches). After this ZMCC 2020 is completely covered on disk. Likely yield 0-1 written records given the pattern observed (many declaratory holdings in this year).
 2. **Pivot to ZMCC 2019 head probe** — start sparse-sample HEAD discovery of the next uncovered year (no ZMCC records in corpus before 2020).
 3. **Standing**: parser_v0.3.3 anchor pack authoring (now 61 records pending) and OCR pipeline implementation (5 records pending) are out-of-tick operator tasks.
+
+## [2026-05-09T14:40:32Z] batch-0560 re-verify drift — twelfth Phase 8 tick (NEW: third judgment-/akn/-HTML drift)
+
+Twelfth Phase 8 tick; pool=1857 (was 1855 at b0556; +2 from b0558 zmcc-2020 ingestions); sample=8; 4 match, 4 drift, 0 fetch_error.
+
+Drift list (URL → status):
+
+- act-zm-2003-008-appropriation-act → https://zambialii.org/akn/zm/act/2003/8/eng@2003-04-22  (drift — established act-/akn/-HTML pattern)
+- act-zm-2017-006-metrology-act-2017 → https://zambialii.org/akn/zm/act/2017/6/eng@2017-04-13  (drift — established act-/akn/-HTML pattern)
+- judgment-zm-2026-zmcc-09-legal-resources-foundation-limited-v-the → https://zambialii.org/akn/zm/judgment/zmcc/2026/9/eng@2026-04-02  (drift — judgment-/akn/-HTML; THIRD judgment-akn drift, extends b0554 finding)
+- act-zm-1960-024-development-united-kingdom-government-loan-act-1960 → https://zambialii.org/akn/zm/act/1960/24/eng@1996-12-31  (drift — established act-/akn/-HTML pattern)
+
+Match list (URL → status, all stable PDF endpoints):
+
+- act-zm-2023-023-the-subordinate-courts-amendment-act-2023 → https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2023%20of%202023%2C%20The%20SubordinateCourt%20%28Amendment%29.pdf  (match)
+- si-zm-2011-002-minimum-wages-and-conditions-of-employment-general-order-2010 → https://zambialii.org/akn/zm/act/si/2011/2/eng@2011-01-07/source.pdf  (match)
+- si-zm-2014-050-income-tax-pay-as-you-earn-regulations-2014 → https://zambialii.org/akn/zm/act/si/2014/50/eng@2014-09-19/source.pdf  (match)
+- act-zm-2010-010-the-dairy-produce-marketing-and-levy-repeal-2010 → https://www.parliament.gov.zm/sites/default/files/documents/acts/Dairy%20Produce%20Marketing%20and%20Levy%20%28Repeal%29%202010.PDF  (match)
+
+Updated cumulative judgment-/akn/-HTML verdicts: **1 match / 3 drifts** (n=4; ~25% match rate). Trend continues to support the b0554 revised hypothesis that judgment-/akn/-HTML URLs drift on the same time-varying rendering layer as act/SI-/akn/-HTML URLs. The b0551 single zmsc/2020/51 match remains the only judgment-akn match observed.
+
+Cross-tick: zambialii.org /akn/ act-or-SI HTML drift now reproduces 40/40; stable PDF matches now reproduce 37/37 across 12 Phase 8 ticks. No records mutated. See reports/batch-0560-report.md and reports/batch-0560-reverify.json.
+
+## [2026-05-09T14:4xZ] Batch 0560 — judgment-ingestion-worker — ZMCC 2020 finish + ZMCC 2019 HEAD probe
+
+Continuation of b0558/b0559 priority (c) ZMCC NEW YEARS sweep. This tick GET-fetched the remaining 2 ZMCC 2020 nums (17, 18), parsed via parser_v0.3.2, and HEAD-probed ZMCC 2019 sparse {1, 5, 10, 15, 20, 25} for the next-year discovery step. **1 record written, 1 deferred**.
+
+### Written (1)
+
+- `zmcc/2020/17` — *MULUBISHA V ATTORNEY GENERAL* (2020/CCZ/0013) [2020] ZMCC 17 (24 April 2020). Outcome: **allowed**. Coram: Munalula JJC. Anchor source: summary `Court (?:allowed|granted)` v0.3.1 SUMMARY pattern. raw_sha256: `dfc612e22a31f3e86ae2a5b611386ecbcb85642b68f5f573aa891fc7c1b74e62`. Source: https://zambialii.org/akn/zm/judgment/zmcc/2020/17/eng@2020-04-24
+
+### `html_no_summary_pdf_no_match` (1) — joins parser_v0.3.3-pending cohort
+
+- `zmcc/2020/18` — *MULUBISHA V ATTORNEY GENERAL* — declaratory holding on procedural competence. Summary head: "A party seeking to correct a full Court judgment must obtain leave of the full Court; an extension to file that application is competent." (Declaratory holding — no operative-verb anchor; v0.3.2 cannot resolve. Joins v0.3.3-pending cohort.) Source: https://zambialii.org/akn/zm/judgment/zmcc/2020/18/eng@2020-09-20 — raw_sha256: `213de77c5a4c1790018b0eb5e3343e2b2672ec7162fb32820698d2b4efc0ca5d`
+
+### Coverage tally after b0560
+
+ZMCC 2020 records: 2 → 3 written (nums 02, 03, 17). Raw on disk: 16 → **18 (complete year coverage 1-18)**. Upper boundary num 18 confirmed by b0559. ZMCC 2020 sweep is now finished from a fetch perspective; remaining un-resolved records are all v0.3.3-pending or OCR-pending.
+
+### ZMCC 2019 HEAD probe (next-year discovery)
+
+Sparse sample {1, 5, 10, 15, 20, 25} → **4 OK, 2 confirmed-404**. Detailed:
+
+- num 1 → 200 (eng@2019-02-14)
+- num 5 → 200 (eng@2019-05-17)
+- num 10 → 404 (internal gap)
+- num 15 → 404 (internal gap)
+- num 20 → 200 (eng@2019-12-09)
+- num 25 → 200 (eng@2019-01-23)
+
+ZMCC 2019 is **published on ZambiaLII** with at least 2 internal gaps {10, 15}. Upper boundary is **at least num 25** (sample didn't reach upper 404 sentinel). Date ordering is NOT monotonic with num (num 25 = January, num 1 = February, num 20 = December) — typical of ZambiaLII's non-date-ordered numbering. Next tick should: (i) HEAD-probe {26-35} to find upper boundary; (ii) GET-fetch {1, 2, 3, 4, 5, 6, 7, 8} or similar dense low-num slice subject to MAX_BATCH_SIZE.
+
+### v0.3.3-pending cohort tally
+
+- Pre-b0560: 61 records (b0558 +4, b0559 +5, plus pre-existing 52)
+- b0560 additions: +1 (zmcc/2020/18)
+- Post-b0560: **62 records** awaiting parser_v0.3.3 anchor pack
+
+### OCR-pending cohort tally
+
+- Pre-b0560: 5 records (all ZMCC 2020)
+- b0560 additions: 0
+- Post-b0560: **5 records** unchanged — awaiting OCR pipeline
+
+### Next-tick recommendation
+
+1. **ZMCC 2019 boundary discovery** — HEAD-probe {26-35} to find upper sentinel; HEAD-probe {2,3,4,6,7,8,9} to confirm internal gap pattern around the 10/15 missing pair.
+2. **ZMCC 2019 GET fetch** — start with low-num slice {1, 2, 3, 4, 5, 6, 7, 8} subject to next tick MAX_BATCH_SIZE.
+3. **Standing**: parser_v0.3.3 anchor pack authoring (62 records pending) and OCR pipeline implementation (5 records pending) remain out-of-tick operator tasks.
+4. **Standing**: operator action on Phase 5 ceiling 164/160 (now 4 above sentinel).
