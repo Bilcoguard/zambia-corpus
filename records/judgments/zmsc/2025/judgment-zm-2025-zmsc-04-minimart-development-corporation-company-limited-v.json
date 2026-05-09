@@ -1,0 +1,34 @@
+{
+  "id": "judgment-zm-2025-zmsc-04-minimart-development-corporation-company-limited-v",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Minimart Development Corporation Company Limited v Ackim Chirwa and Ors (SCZ/8/25/2023) [2025] ZMSC 4 (15 January 2025)",
+  "citation": "[2025] ZMSC 4",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Minimart Development Corporation Company Limited v Ackim Chirwa and Ors",
+  "case_number": "SCZ/8/25/2023",
+  "date_decided": "2025-01-15",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Company and contract law",
+    "transfer of liability under loan agreement requiring lender's written consent",
+    "validity of shareholder resolutions and corporate authority",
+    "potential conflict of roles of director representing multiple corporate interests",
+    "leave to appeal granted."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "Leave granted to appeal because reasonable doubt exists whether lender consent and corporate formalities validated the liability transfer",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "583457474215a61d30c140305e5fe554e4e420d88f34cdc816b013bc897061ca",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/4/eng@2025-01-15",
+  "source_hash": "sha256:55a629c62942533e6535372fb49f8824e46445a8975dcdff87e0ac345aa23318",
+  "fetched_at": "2026-05-09T08:09:07Z",
+  "parser_version": "0.3.2"
+}

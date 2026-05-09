@@ -1,0 +1,43 @@
+{
+  "id": "judgment-zm-2025-zmsc-32-shaba-mulengela-and-anor-v-frank-mumba",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Shaba Mulengela and Anor v Frank Mumba (SCZ/7/36/2024) [2025] ZMSC 32 (11 March 2025)",
+  "citation": "[2025] ZMSC 32",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Shaba Mulengela and Anor v Frank Mumba",
+  "case_number": "SCZ/7/36/2024",
+  "date_decided": "2025-03-11",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Intestate Succession Act s19(2)",
+    "sale of estate property; beneficiaries’ power to sell; Order 14A summary determination",
+    "suitability where facts are contentious; leave to appeal",
+    "reasonable prospects and compelling reasons; mesne profits; stay of execution"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "We dismiss it with costs to",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "ab24088b0f53068309f3b8c46fbfaecf2ab1e39d8b32c0ddf7f5601173fbc46b",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/32/eng@2025-03-11",
+  "source_hash": "sha256:609a2d56d5a8e66938cbd068cc1727494c67134f8e74293945fdf8d4c5087775",
+  "fetched_at": "2026-05-09T08:09:08Z",
+  "parser_version": "0.3.2"
+}

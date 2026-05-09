@@ -5427,3 +5427,80 @@ state (records=1849, judgments_meta=159).
 Pre-tick stale `.git/ORIG_HEAD.lock` (FUSE-pinned) — `git pull
 --ff-only` proceeded successfully despite the unlink failure
 (repository was already up to date).
+
+## Batch 0553 — judgment-ingestion-worker tick (2026-05-09T10:1xZ)
+
+**Decision**: Priority (b) SCZ SWEEP — GET-fetch and parse the three
+ZMSC 2025 nums confirmed 200-OK by the b0547 HEAD-only probe but never
+GET-fetched.
+
+**Result**: **2 records written, 1 deferred under
+`html_no_summary_pdf_no_match`**. Six fetches consumed.
+
+### Records written this tick
+
+| court / num    | citation        | outcome    | judges                                    |
+|----------------|-----------------|------------|-------------------------------------------|
+| zmsc/2025/4    | [2025] ZMSC 4   | allowed    | Hamaundu (alias `E. M. Hamaundu` added)   |
+| zmsc/2025/32   | [2025] ZMSC 32  | dismissed  | Malila CJ, Kaoma JJS, Chisanga JJS        |
+
+### Deferred this tick
+
+| court / num    | pdf bytes | reason                          | summary head |
+|----------------|----------:|----------------------------------|--------------|
+| zmsc/2025/31   |   199,466 | `html_no_summary_pdf_no_match`  | "Whether discrimination and equal-pay claims under Employment Code s.5 are arbitrable and whether tribunals may compare non-parties' contracts." |
+
+### Cohort cumulative since b0504 (delta from b0552)
+
+- **64** written (was 62; +2 — zmsc/2025/{4, 32})
+- **52** v0.3.3-pending deferred (was 51; +1 — zmsc/2025/31)
+- **37** OCR-pending deferred (unchanged)
+- **40** confirmed 404 (unchanged)
+
+### corpus.sqlite
+
+`records` 1849 → 1851 (+2); `judgments_meta` 159 → 161 (+2).
+`records_fts` deferred to host-side rebuild.
+
+### Judges registry
+
+Added alias `E. M. Hamaundu` to existing canonical `Hamaundu`. No new
+canonical entries.
+
+### Phase 5 ceiling observation
+
+Was 159/160; now 161/160. The Phase 5 procedural ceiling band
+(target 100–160) is **just above the upper sentinel by 1** for the
+first time. The dedicated post-Phase-5 ingestion task continues per
+the 2026-05-03 directive in `BRIEF.md`. Recommend the human operator
+either close Phase 5 or extend the band on next opportunity.
+
+### Next-tick recommendation
+
+1. ZMSC 2025 remaining unresolved nums {1, 5, 14, 33+} — {1, 5} are
+   v0.3.3-pending records already on disk; {14} confirmed-404; {33+}
+   confirmed-404 boundary.
+2. ZMCC 2025/2026 boundary probe (deferred through 5+ ticks).
+3. Author parser_v0.3.3 anchor pack to unlock 30-40+ of the 52-record
+   v0.3.3-pending cohort.
+
+### Sandbox lock observation
+
+Pre-tick stale `.git/objects/maintenance.lock` and a residual
+`corpus.sqlite-journal` (parked as `_stale_b0553_corpus.sqlite-journal`).
+`git pull --ff-only` succeeded despite the unlink warning.
+
+## [2026-05-09] repair-batch-013 git-commit deferred — pre-existing FTS gap (5 rows)
+
+repair-batch-013 successfully fixed bodies for 5 records (act-zm-2010-004, act-zm-2011-005, act-zm-2021-033, act-zm-2024-025, act-zm-2026-002 — all parliament.gov.zm PDFs, all clean text 6.8 KB to 58 KB). DB writes are in local corpus.sqlite (per-record commits succeeded after the initial batched commit hit `disk I/O error` on the FUSE mount).
+
+Git commit + push were DEFERRED per the Non-negotiable "Never commit if records count != records_fts count": records=1851, records_fts=1846, Δ=5. The 5-row gap is pre-existing and not caused by repair-batch-013 — pre-tick Δ was already 5 (3 from the 2020 ZMSC judgments flagged in b011 + 2 from b0553's zmsc-2025-4 Minimart and zmsc-2025-32 Shaba-Mulengela ingestion at 08:14:02Z, both of which raised records but did not add FTS rows). Repair worker has no licence to INSERT/DELETE records, so it cannot close the gap itself.
+
+**Action needed:** judgment-ingestion-worker (or main corpus worker) should backfill `records_fts` rows for the 5 missing judgment IDs. Once delta returns to 0, the next normal worker push will carry the b013 body repairs.
+
+**Records currently repaired in local DB but uncommitted to git:**
+- act-zm-2010-004-the-public-interest-disclosure-protection-of-whistleblowers (58,993 chars)
+- act-zm-2011-005-the-management-services-board-repeal-act-2011 (6,820 chars)
+- act-zm-2021-033-the-cannabis-act-2021 (45,453 chars)
+- act-zm-2024-025-moblie-money-transactions-levy-2024 (6,944 chars)
+- act-zm-2026-002-disaster-management-amendment-act (17,751 chars)
