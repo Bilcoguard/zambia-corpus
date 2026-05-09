@@ -5160,3 +5160,70 @@ tick. `approvals.yaml` was NOT modified.
   baseline including the `scripts/certs/*.pem` PKI loader.
 - Full per-fetch JSON: `reports/batch-0549-reverify.json`.
 - Markdown summary: `reports/batch-0549-report.md`.
+
+## Phase 5 — judgment-ingestion-worker batch 0550 (2026-05-09 UTC)
+
+**Phase 0 inline HEAD-only probe of ZMSC 2024 boundaries** — informational
+tick (most-recent-year-first per skill rule). ZMSC 2026 already bounded
+at num=10 (b0541); ZMSC 2025 bounded at num=32 (b0547). Next candidate
+is ZMSC 2024.
+
+Targets: zmsc/2024/{4, 35, 36, 37, 38, 40, 45, 50} — internal gap at 4
+(raw on disk goes 1, 2, 3, 5, …, 34) plus upper-boundary sweep.
+
+### Results
+
+| num | code | classification              |
+|----:|-----:|-----------------------------|
+|   4 |  404 | internal-gap confirmed      |
+|  35 |  404 | upper-boundary 404          |
+|  36 |  404 | upper-boundary 404          |
+|  37 |  404 | upper-boundary 404          |
+|  38 |  404 | upper-boundary 404          |
+|  40 |  404 | upper-boundary 404          |
+|  45 |  404 | upper-boundary 404          |
+|  50 |  404 | upper-boundary 404          |
+
+**ZMSC 2024 max-num = 34** (highest observed on disk); 7 consecutive
+upper-boundary 404s strongly indicate no records exist at nums 35–50.
+Internal gap at num=4 is permanent (consistent with the b0547 finding
+that ZambiaLII does not preserve allocated-but-not-published nums).
+
+### Cohort cumulative tracking
+
+- 62 written (unchanged)
+- 51 v0.3.3-pending deferred (unchanged)
+- 37 OCR-pending deferred (unchanged)
+- 40 confirmed 404 (was 32; +8 this tick — zmsc/2024/{4, 35, 36, 37,
+  38, 40, 45, 50})
+
+### Phase 5 ceiling — unchanged at 159/160
+
+corpus.sqlite, judges_registry.yaml, records/ tree, raw/ tree all
+unchanged this tick. Integrity check trivially PASS for unchanged
+state (records=1849, judgments_meta=159).
+
+### Daily fetch budget
+
+86/500 (was 78/500; this tick consumed 8 HEAD fetches).
+
+### Next-tick recommendation
+
+1. **ZMSC 2023 internal-gap probe** — only 9 records on disk; cheap
+   gap-filling potential.
+2. **ZMSC 2022 upper-boundary continuation** — 18 records; b0522 left
+   that year's upper boundary unresolved.
+3. **Parser v0.3.3 authoring outside scheduled tick** (highest leverage)
+   — 9 anchor additions could unlock ~30+ of the 51 v0.3.3-pending
+   records.
+4. **ZMSC 2024 GET sweep + parse** — 33 raw HTML+PDF pairs already on
+   disk for 2024 nums {1, 2, 3, 5–34}. Ceiling-blocked: only 1 of 33
+   records can be written before approvals.yaml lift.
+
+### Sandbox-lock observation
+
+Pre-tick stale `.git/index.lock` (FUSE-pinned) cleared via
+`mcp__cowork__allow_cowork_file_delete` callback (same pattern as
+b0548). Stale `.git/objects/maintenance.lock` and `.git/ORIG_HEAD.lock`
+renamed to `_stale_locks_b0549_*.lock.bak` (rename succeeds where
+delete is FUSE-blocked).
