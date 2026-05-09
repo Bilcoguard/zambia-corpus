@@ -6038,3 +6038,6 @@ test append
 2026-05-09T09:11:30Z [judgment-ingestion-worker] batch-0557 fetches today: 92 -> 92 / 500 (zero fetches; purely local FTS insert)
 2026-05-09T09:12:00Z [judgment-ingestion-worker] batch-0557 next-tick recommendations: (1) author parser_v0.3.3 anchor patterns out-of-tick to unblock 52-record v0.3.3-pending cohort; (2) operator action on Phase 5 ceiling 161/160; (3) repair-worker can now push held-back b011/b013 body repairs (records==records_fts strict assertion now satisfied)
 2026-05-09T09:12:00Z [judgment-ingestion-worker] batch-0557 B2 sync deferred to host (rclone not in sandbox)
+2026-05-09T09:14:00Z	4441b7c	batch-0557 push OK (7ededee..4441b7c)	worker=judgment-ingestion-worker
+2026-05-09T09:14:00Z	batch-0557	B2 sync deferred to host (rclone not in sandbox)
+2026-05-09T09:14:00Z	batch-0557	tick complete; next tick in 60 minutes (per skill); no derivative script committed (sandbox-session safety constraint, per b0552/b0553 precedent)
