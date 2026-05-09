@@ -5993,3 +5993,19 @@ test append
 2026-05-09T08:30:00Z [worker-tick] batch-0554 approvals.yaml NOT modified; Phase 8 is open-ended.
 2026-05-09T08:30:00Z [worker-tick] batch-0554 B2 sync deferred to host (rclone not in sandbox)
 2026-05-09T08:30:00Z [worker-tick] batch-0554 execution mode: inline runner; no scripts/batch_0554_phase8_reverify.py derivative committed this tick (sandbox-session safety constraint, per b0548/b0549/b0551 precedent). Functionality matches the b0546 baseline including scripts/certs/*.pem PKI loader.
+2026-05-09T08:32:30Z [worker-tick] batch-0554 commit=e15e863; push OK (aee2298..e15e863)
+2026-05-09T08:32:30Z [worker-tick] batch-0554 B2 sync deferred to host (rclone not in sandbox)
+2026-05-09T08:32:30Z [worker-tick] batch-0554 Phase 8 is open-ended; approvals.yaml NOT modified. Tick complete.
+[2026-05-09T08:47:28Z] [repair-worker] tick-start: pre-existing FTS gap = 5 (judgment-ingestion-worker domain, non-repair-worker)
+[2026-05-09T08:47:28Z] [repair-worker] All 48 repair targets fixed — repair worker idle
+[2026-05-09T08:47:28Z] [repair-worker] manifest verification: 48/48 records exist; 0 corrupted (digit-ratio test); 48 already clean. No PDF fetches performed; no UPDATE statements issued.
+[2026-05-09T08:47:28Z] [repair-worker] integrity status read-only: records=1851, records_fts=1846, gap=5 (pre-existing, b011/b0553 documented). Repair worker did NOT mutate corpus.sqlite this tick.
+[2026-05-09T08:47:28Z] [repair-worker] no commit, no push (no changes); B2 sync N/A (no changes); wall-clock <2 min
+2026-05-09T08:46:57Z [worker-tick] batch-0555 phase_8_nightly_reverify start; pool=1855 sample=8 seed=phase8-reverify-2026-05-09-b0555 (sixth worker-tick of UTC date 2026-05-09; tenth Phase 8 tick overall; tick-suffixed to avoid duplicate sample with b0546/b0548/b0549/b0551/b0554)
+2026-05-09T08:46:57Z [worker-tick] batch-0555 result: match=4 drift=4 fetch_error=0 truncated_stored_hash_false_drift=0 fetches=8 cumulative_today=56/2000
+2026-05-09T08:46:57Z [worker-tick] batch-0555 cross-tick reproduction now 33/33 cumulative zambialii-/akn/-act-or-SI-HTML drifts and 29/29 cumulative stable PDF matches across 10 Phase 8 ticks
+2026-05-09T08:46:57Z [worker-tick] batch-0555 NEW finding: first observation of www.parliament.gov.zm/node/<id> dynamic landing-page drift (act-zm-2025-015-small-claims-court-amendment-act, /node/12763, status=200, bytes_len=30458, fetched_sha=74c905d703b5fd28945963d853f77106a22fb3041f44feeccfb1c111be6d870b). Distinct from www.parliament.gov.zm/sites/default/files/... static PDFs (which match consistently — 4 of 4 parliament-static-PDFs sampled to date have matched). Cumulative parliament-gov-zm-/node/-landing-page verdicts now 0 match / 1 drift. Working hypothesis (N=1): parliament.gov.zm /node/<id> pages drift on dynamic Drupal/CMS rendering layer similar to zambialii.org /akn/... HTML URLs.
+2026-05-09T08:46:57Z [worker-tick] batch-0555 integrity check: PASS (no records mutated; 8 sampled records still on disk; reports/batch-0555-reverify.json + reports/batch-0555-report.md written; corpus.sqlite untouched; approvals.yaml untouched)
+2026-05-09T08:46:57Z [worker-tick] batch-0555 approvals.yaml NOT modified; Phase 8 is open-ended.
+2026-05-09T08:46:57Z [worker-tick] batch-0555 B2 sync deferred to host (rclone not in sandbox)
+2026-05-09T08:46:57Z [worker-tick] batch-0555 execution mode: inline runner; no scripts/batch_0555_phase8_reverify.py derivative committed this tick (sandbox-session safety constraint, per b0548/b0549/b0551/b0554 precedent). Functionality matches the b0546 baseline including scripts/certs/*.pem PKI loader.
