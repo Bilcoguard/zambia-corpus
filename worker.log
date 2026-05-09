@@ -6052,3 +6052,25 @@ test append
 2026-05-09T10:20:00Z [judgment-ingestion-worker] batch-0558 approvals.yaml NOT modified (Phase 5 ceiling 161/160 → 163/160 still above sentinel by 3; recommend operator extend or close on next opportunity per b0553/b0557)
 2026-05-09T10:20:00Z [judgment-ingestion-worker] batch-0558 fetches today: 92 → 120 / 500 (28 fetches: 6 HEAD probes ZMSC 2026 + 6 HEAD probes ZMCC 2020 + 16 GET fetches ZMCC 2020 = 8 HTML + 8 PDF)
 2026-05-09T10:20:00Z [judgment-ingestion-worker] batch-0558 next-tick recommendations: (1) HEAD-probe ZMCC 2020/{16,17,18,19} to nail down upper boundary; (2) continue priority (c) with ZMCC 2020/{9..15} GET fetches if not all 404; (3) priority (b) ZMSC older years (2023, 2022, 2021, 2020) have raw files on disk awaiting parser_v0.3.3; (4) operator action on Phase 5 ceiling 163/160 (now 3 above sentinel)
+
+[2026-05-09T10:26:29Z] b0558 commit=2d4ed8a push=816362d..2d4ed8a B2_sync=deferred-to-host worker=judgment-ingestion-worker tick_complete=true next_tick=+60min
+
+[2026-05-09T11:00:00Z] judgment-ingestion-worker tick start (batch-0559); pre-tick git pull --ff-only OK (already up to date); pre-tick costs.log cumulative_today=120/500; budget OK; sandbox stale .git/objects/maintenance.lock unlink-not-permitted is benign (mirrors b0557/b0558).
+
+[2026-05-09T11:01:30Z] b0559 priority decision: (a) REPARSE skipped (parser_v0.3.2 cannot move v0.3.3-pending cohort, per b0552/b0557/b0558 standing); (b) SCZ skipped (ZMSC 2024/2025/2026 all confirmed-exhausted by b0547/b0550/b0558); (c) CHOSEN — continue ZMCC 2020 sweep (b0558 left nums 9-19 boundary undetermined and nums 9-15 unfetched).
+
+[2026-05-09T11:02:00Z] b0559 phase 0 — HEAD probe ZMCC 2020/{16,17,18,19} → 16:200, 17:200, 18:200, 19:404. Upper boundary CONFIRMED at num 18.
+
+[2026-05-09T11:05:00Z] b0559 phase 1 — GET-fetch ZMCC 2020/{9..16}; all 8/8 OK; 16 successful HTTP fetches; rate-limit 5s honoured throughout.
+
+[2026-05-09T11:08:00Z] b0559 phase 2 — parse via parser_v0.3.2 build_record_v032; 0 written / 8 deferred. Breakdown: html_no_summary_pdf_no_match=5 (nums 11,12,14,15,16 — declaratory/interlocutory holdings), pdf_extraction_empty_likely_scanned=3 (nums 9,10,13 — likely scanned PDFs).
+
+[2026-05-09T11:09:00Z] b0559 phase 3 — judges_registry.yaml NOT modified (zero records written = zero new judges encountered).
+
+[2026-05-09T11:09:30Z] b0559 phase 4 — corpus.sqlite SKIPPED (zero records written; records=1853 records_fts=1853 judgments_meta=163 unchanged from b0558 final state). PRAGMA integrity_check=ok confirmed pre-write as a sanity check.
+
+[2026-05-09T11:10:00Z] b0559 phase 5 — integrity checks: ✓ raw bytes on disk for all 8 b0559 fetches (HTML 38k-46k, PDF 0.34MB-6.13MB); ✓ corpus.sqlite gap=0; ✓ no duplicate IDs; ✓ b0558 records still resolve in records and records_fts.
+
+[2026-05-09T11:11:00Z] b0559 deferrals appended to gaps.md (8 entries with raw_sha256 and source URLs); v0.3.3-pending cohort 56 → 61; OCR-pending cohort 2 → 5 (all ZMCC 2020).
+
+[2026-05-09T11:12:00Z] b0559 next-tick recommendations: (1) finish ZMCC 2020 by GET-fetching nums {17, 18} — 2 records will complete on-disk coverage of the year; (2) start ZMCC 2019 HEAD probe (sparse-sample new-year discovery); (3) standing: parser_v0.3.3 anchor pack (61 records pending) and OCR pipeline (5 records pending); (4) standing: operator action on Phase 5 ceiling 163/160.

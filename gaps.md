@@ -5573,3 +5573,51 @@ These two are likely image-based scans (PDF is on disk but pdfplumber returned e
 ### Coverage tally after b0558
 
 ZMCC 2020 records: 0 → 2 written (nums 02, 03). Raw on disk: 0 → 8 (nums 01-08). Upper boundary still to confirm; next probe should target {16-19} to nail down boundary (HEAD probes b0558 only sampled {1,5,10,15,20,25}).
+
+## [2026-05-09T11:1xZ] Batch 0559 — judgment-ingestion-worker — ZMCC 2020 nums 9-16 deferrals (8)
+
+Continuation of b0558 priority (c) ZMCC NEW YEARS sweep. Pre-tick HEAD probe of ZMCC 2020/{16, 17, 18, 19} returned 3 OK (16, 17, 18) + 1 404 (19), confirming the ZMCC 2020 upper boundary is **num 18**. GET-fetched nums {9..16}; **0 records written, 8 deferred** under parser_v0.3.2 (zero-yield tick — every record in this slice is a v0.3.3 candidate or scanned-PDF candidate).
+
+### `html_no_summary_pdf_no_match` (5) — joins parser_v0.3.3-pending cohort
+
+- `zmcc/2020/11` — Interlocutory motion / Article 154 conditions of service. Summary head: "Interlocutory motion dismissed; Article 154's interpretation on conditions of service requires full adjudication, not a preliminary ruling." (NB: contains the verb "dismissed" but as a sub-clause modifying "motion", not "the appeal/petition/application is …" — outside the v0.3.2 SUMMARY anchor inventory.) Source: https://zambialii.org/akn/zm/judgment/zmcc/2020/11/eng@2020-11-24 — raw_sha256: `5f8c013dc5e2ceeacbd52b07fce96e0408384182f54ee5735b2304455b036957`
+- `zmcc/2020/12` — Article 189(2) early retirement / payroll. Summary head: "Early retirement accepted by employer qualifies under Article 189(2); employee must be retained on payroll receiving salary until full pension payment." Source: https://zambialii.org/akn/zm/judgment/zmcc/2020/12/eng@2020-12-10 — raw_sha256: `c636be541c7fc6ccca3f226ed249e14a04ac82dd3b4e67980300851fa9092a15`
+- `zmcc/2020/14` — Discretion to file Answer out of time. Summary head: "Court exercised discretion to allow respondent to file Answer out of time and awarded costs to the petitioner." Source: https://zambialii.org/akn/zm/judgment/zmcc/2020/14/eng@2020-07-17 — raw_sha256: `b8e7645f3cd387a01f3fd9e41ce150cf536554ce200f798df676377ed25686c0`
+- `zmcc/2020/15` — Article 189(2) early retirement / payroll (companion to num 12). Summary head: "Accepted early retirement attracts Article 189(2) protection; employer must retain employee on payroll until full pension payment." Source: https://zambialii.org/akn/zm/judgment/zmcc/2020/15/eng@2020-12-10 — raw_sha256: `e4e62b3e01fb6e62635f48d6b328d8428c5226ef61deb141a3d039e91edbce3c`
+- `zmcc/2020/16` — Committal-notice particulars / contempt. Summary head: "A committal notice must state on its face the exact particulars of alleged contempt; failure to do so is fatal." Source: https://zambialii.org/akn/zm/judgment/zmcc/2020/16/eng@2020-02-19 — raw_sha256: `26f173650d499a149ae0004041c9db13157a6b9b3972e1011830b3cb7874c030`
+
+These five are declaratory or interlocutory holding-style summaries with no operative-verb anchor that v0.3.2 recognises (the operative verb sits in a sub-clause or describes the legal effect rather than the order made). They join the v0.3.3-pending cohort (raw HTML + PDF on disk under `raw/zambialii/judgments/zmcc/2020/`); next move requires parser_v0.3.3 anchor patterns (out-of-tick authoring task per b0552/b0557 standing recommendation).
+
+### `pdf_extraction_empty_likely_scanned` (3) — likely scanned PDFs needing OCR
+
+- `zmcc/2020/9` — pdfplumber extraction returned <200 chars. PDF size 4.5 MB suggests an image-heavy scan. Source: https://zambialii.org/akn/zm/judgment/zmcc/2020/9/eng@2020-10-20 — raw_sha256: `be956e5e6cbe3a7f000af9e632753955268625514e46155f6be63314931e38ad`
+- `zmcc/2020/10` — pdfplumber extraction returned <200 chars. PDF size 6.1 MB. Source: https://zambialii.org/akn/zm/judgment/zmcc/2020/10/eng@2020-11-19 — raw_sha256: `cbe05bf8718fbc7efedf439fb5b2482d0f6511e7559c12f88879ee5093a3686c`
+- `zmcc/2020/13` — pdfplumber extraction returned <200 chars. PDF size 0.34 MB (smallest of the three; possibly a short scanned ruling). Source: https://zambialii.org/akn/zm/judgment/zmcc/2020/13/eng@2020-05-29 — raw_sha256: `6a3e0d42afe6fbaa7b1c905c556983f8275dd4a9ce4252a3bf042eb8efc81186`
+
+These three are likely image-based scans (PDF on disk but pdfplumber returned empty/short text). Resolution requires either OCR (Tesseract or cloud OCR) or HTML-only extraction fallback. Out-of-scope for parser_v0.3.x; raw bytes are preserved on disk for future OCR-based reparse.
+
+### Cumulative ZMCC 2020 OCR-pending total
+
+`pdf_extraction_empty_likely_scanned` cohort for ZMCC 2020 now stands at **5 records** (b0558: nums 7, 8 + b0559: nums 9, 10, 13). Pattern: scanned-PDF prevalence in ZMCC 2020 is ~28% (5/18), materially higher than later years; recommend prioritising OCR pipeline implementation before sweeping ZMCC 2017-2019 (which may have similar or higher scan rates given their age).
+
+### Coverage tally after b0559
+
+ZMCC 2020 records: 2 → 2 written (no change). Raw on disk: 8 → 16 (nums 01-16). Upper boundary now **confirmed at num 18** (b0559 HEAD probe: 16/17/18 OK, 19 = 404). Remaining unfetched ZMCC 2020 nums: {17, 18} — carry to next tick (2 records, well within MAX_BATCH_SIZE).
+
+### v0.3.3-pending cohort tally
+
+- Pre-b0559: 56 records (52 prior + 4 from b0558 declaratory holdings)
+- b0559 additions: +5 (nums 11, 12, 14, 15, 16)
+- Post-b0559: **61 records** awaiting parser_v0.3.3 anchor pack
+
+### OCR-pending cohort tally
+
+- Pre-b0559: 2 records (b0558 nums 7, 8)
+- b0559 additions: +3 (nums 9, 10, 13)
+- Post-b0559: **5 records** awaiting OCR pipeline (all ZMCC 2020 to date)
+
+### Next-tick recommendation
+
+1. **Finish ZMCC 2020 sweep** — fetch nums {17, 18} (2 records, ~4 fetches). After this ZMCC 2020 is completely covered on disk. Likely yield 0-1 written records given the pattern observed (many declaratory holdings in this year).
+2. **Pivot to ZMCC 2019 head probe** — start sparse-sample HEAD discovery of the next uncovered year (no ZMCC records in corpus before 2020).
+3. **Standing**: parser_v0.3.3 anchor pack authoring (now 61 records pending) and OCR pipeline implementation (5 records pending) are out-of-tick operator tasks.
