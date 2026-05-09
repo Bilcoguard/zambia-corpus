@@ -5504,3 +5504,26 @@ Git commit + push were DEFERRED per the Non-negotiable "Never commit if records 
 - act-zm-2021-033-the-cannabis-act-2021 (45,453 chars)
 - act-zm-2024-025-moblie-money-transactions-levy-2024 (6,944 chars)
 - act-zm-2026-002-disaster-management-amendment-act (17,751 chars)
+
+## 2026-05-09 batch 0554 phase_8_nightly_reverify drift observations
+
+Ninth Phase 8 tick; pool=1855; sample=8; 1 match, 7 drift, 0 fetch_error.
+
+Drift list (URL → recomputed sha256, bytes):
+
+- act-zm-1991-021-local-government-elections-act-1991 → https://zambialii.org/akn/zm/act/1991/21/eng@1996-12-31  (drift)
+- act-zm-2017-004-standards-act-2017 → https://zambialii.org/akn/zm/act/2017/4/eng@2017-04-13  (drift)
+- act-zm-1993-019-mutual-legal-assistance-in-criminal-matters-act-1993 → https://zambialii.org/akn/zm/act/1993/19/eng@1996-12-31  (drift)
+- act-zm-1972-021-national-college-management-development-studies-act-1972 → https://www.zambialii.org/akn/zm/act/1972/21/eng@1996-12-31  (drift, www subdomain)
+- si-zm-2016-062-electoral-process-code-of-conduct-enforcement-regulations-2016 → https://zambialii.org/akn/zm/act/si/2016/62  (drift, no eng@ pin)
+- judgment-zm-2022-zmsc-57-zesco-limited-v-isaac-mbewe-25-ors → https://zambialii.org/akn/zm/judgment/zmsc/2022/57/eng@2022-03-30  (drift — judgment-/akn/-HTML; counter-evidence to b0551 N=1 judgment-stability hypothesis)
+- judgment-zm-2023-zmcc-22-charles-mwelwa-v-stephen-chikota-and-anor → https://zambialii.org/akn/zm/judgment/zmcc/2023/22/eng@2023-10-27  (drift — judgment-/akn/-HTML; second counter-example)
+
+Stable match (1):
+
+- si-zm-2019-062-income-tax-konoike-construction-company-limited-approval-and-exemption-order-2019 → https://media.zambialii.org/media/legislation/41898/source_file/b8bf40e6128d3372/zm-act-si-2019-62-publication-document.pdf  (match — media.zambialii.org PDF)
+
+Updated working hypothesis: judgment-/akn/-HTML URLs drift on the same time-varying rendering layer as act/SI-/akn/-HTML URLs. The b0551 single zmsc/2020/51 match was sample noise. Cumulative judgment-/akn/-HTML verdicts across all Phase 8 ticks: 1 match / 2 drifts (33% match rate, n=3 — too small to draw conclusions, continue tracking).
+
+Cross-tick: zambialii.org /akn/ HTML drift now reproduces 30/30; media.zambialii.org PDF matches now reproduce 25/25. No records mutated. See reports/batch-0554-report.md and reports/batch-0554-reverify.json.
+
