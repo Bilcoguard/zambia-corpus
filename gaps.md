@@ -5549,3 +5549,27 @@ Stable matches (4):
 No new URL-family verdicts this tick. All 8 sampled records fall in already-tracked URL families. Judgment-/akn/-HTML cumulative remains 1 match / 2 drifts (no judgment in this sample). Parliament-/node/-landing-page cumulative remains 0 match / 1 drift (no node URL in this sample).
 
 Cross-tick: zambialii.org /akn/ act-or-SI HTML drift now reproduces 37/37; stable PDF matches now reproduce 33/33 across 11 Phase 8 ticks. No records mutated. See reports/batch-0556-report.md and reports/batch-0556-reverify.json.
+
+## [2026-05-09T10:1xZ] Batch 0558 — judgment-ingestion-worker — ZMCC 2020 sweep deferrals (6)
+
+Priority (c) ZMCC NEW YEARS sweep — first ever ingestion attempt for ZMCC 2020 (no records or raw files previously on disk for ZMCC 2017-2020). The b0558 inline HEAD probe of ZMCC 2020/{1, 5, 10, 15, 20, 25} returned 4 OK + 2 404, confirming ZambiaLII publishes ZMCC 2020 (upper boundary somewhere between 15 and 20). GET-fetched nums {1..8}; 2 records written (zmcc/2020/2 and 3), 6 deferred per parser_v0.3.2:
+
+### `html_no_summary_pdf_no_match` (4) — joins parser_v0.3.3-pending cohort
+
+- `zmcc/2020/1` — Speaker presidential functions / Article 104(3) interpretation. Summary head: "Whether Article 104(3) requires the Speaker to perform presidential functions when a petition under Article 101(4) is filed." Source: https://zambialii.org/akn/zm/judgment/zmcc/2020/1/eng@2020-01-30
+- `zmcc/2020/4` — Constitutional jurisdiction / bill review. Summary head: "The Constitutional Court ruled it lacks jurisdiction to quash or examine the contents of a bill proposing constitutional amendments." Source: https://zambialii.org/akn/zm/judgment/zmcc/2020/4/eng@2020-07-03
+- `zmcc/2020/5` — Article 189(2) retiree salary / housing-utility allowance. Summary head: "Article 189(2) protects retirees retained on the payroll; 'salary' may include payroll allowances such as housing and utilities." Source: https://zambialii.org/akn/zm/judgment/zmcc/2020/5/eng@2020-05-20
+- `zmcc/2020/6` — Documents expunged / judicial notice. Summary head: "Court expunged several documents as irrelevant or unnecessary; affirmed judicial notice of statutes and authentication rules." Source: https://zambialii.org/akn/zm/judgment/zmcc/2020/6/eng@2020-10-16
+
+These four are declaratory/holding-style summaries with no operative-verb anchor that v0.3.2 recognises. They join the v0.3.3-pending cohort (raw HTML + PDF on disk under `raw/zambialii/judgments/zmcc/2020/`); next move requires parser_v0.3.3 anchor patterns (out-of-tick authoring task per b0552/b0557).
+
+### `pdf_extraction_empty_likely_scanned` (2) — likely scanned PDFs needing OCR
+
+- `zmcc/2020/7` — pdf text extraction returned <200 chars. Source: https://zambialii.org/akn/zm/judgment/zmcc/2020/7/eng@2020-10-28
+- `zmcc/2020/8` — pdf text extraction returned <200 chars. Source: https://zambialii.org/akn/zm/judgment/zmcc/2020/8/eng@2020-11-03
+
+These two are likely image-based scans (PDF is on disk but pdfplumber returned empty/short text). Resolution requires either OCR (Tesseract) or fallback to HTML-only extraction. Out-of-scope for parser_v0.3.x; raw bytes are preserved on disk for future OCR-based reparse.
+
+### Coverage tally after b0558
+
+ZMCC 2020 records: 0 → 2 written (nums 02, 03). Raw on disk: 0 → 8 (nums 01-08). Upper boundary still to confirm; next probe should target {16-19} to nail down boundary (HEAD probes b0558 only sampled {1,5,10,15,20,25}).

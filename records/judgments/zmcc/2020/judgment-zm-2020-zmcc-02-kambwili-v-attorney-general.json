@@ -1,0 +1,53 @@
+{
+  "id": "judgment-zm-2020-zmcc-02-kambwili-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Kambwili v Attorney-General (9 of 2019) [2020] ZMCC 2 (18 February 2020)",
+  "citation": "[2020] ZMCC 2",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Kambwili v Attorney-General",
+  "case_number": "9 of 2019",
+  "date_decided": "2020-02-18",
+  "judges": [
+    {
+      "name": "Chibomba",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Sitali",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Separation of powers",
+    "Parliamentary exclusive cognisance",
+    "limits where alleged constitutional breach occurs; Speaker’s power to regulate proceedings; interpretation of the Constitution is a judicial function; sub judice rule and waiver; Article 72 (vacation of parliamentary seat), Article 77(1), Article 119; declaratory relief and justiciability when by-election and third-party interests exist."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Court held Speaker exceeded powers by interpreting Article 72 and ruling on a sub judice matter; petition dismissed, each party to bear own costs",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "b95d63e881552ac718dc7042a60c35782f3da0b6957571eae1c0045a89819afd",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2020/2/eng@2020-02-18",
+  "source_hash": "sha256:ec782c85f2804f1550dd20118c70ade4f374e74d0f1efcf8f1d97a433f275162",
+  "fetched_at": "2026-05-09T10:16:05Z",
+  "parser_version": "0.3.2"
+}

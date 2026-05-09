@@ -1,0 +1,53 @@
+{
+  "id": "judgment-zm-2020-zmcc-03-dean-masule-v-kangombe",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Dean Masule v Kangombe (None of 2019) [2020] ZMCC 3 (5 February 2020)",
+  "citation": "[2020] ZMCC 3",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Dean Masule v Kangombe",
+  "case_number": "None of 2019",
+  "date_decided": "2020-02-05",
+  "judges": [
+    {
+      "name": "Chibomba",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulembe",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Munalula",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Electoral law",
+    "Electoral Process Act s.97(2)(b)",
+    "pertains to conduct of elections by the Electoral Commission of Zambia; annulment threshold",
+    "attributable misconduct; relevance of Josephat Mlewa under current law; electoral violence and burden of proof in election petitions."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "failed and therefore, lhe entire appeal fails",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "4e4ab822c21373a4b6af8b6867f1cf8444d64d117f44c41316157e1c05d3ca9b",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2020/3/eng@2020-02-05",
+  "source_hash": "sha256:27f1c03d9908c77b88f13bfbbd9ac7f4405f001080570023b38eeb18f8c6f1fa",
+  "fetched_at": "2026-05-09T10:16:06Z",
+  "parser_version": "0.3.2"
+}
