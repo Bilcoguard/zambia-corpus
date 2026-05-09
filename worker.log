@@ -5949,3 +5949,4 @@ test append
 2026-05-09T06:38:00Z [worker-tick] batch-0549 sandbox .git/index.lock cleared via mcp__cowork__allow_cowork_file_delete; commit succeeded cleanly. Tick included pre-existing on-disk modifications to reports/batch-0547-judgment-ingestion.md (commit-blocked notes from b0547 judgment-ingestion-worker tick), now in HEAD. costs.log/provenance.log b0547 lines were already committed in d894cf7 (b0548 post-push).
 2026-05-09T06:38:00Z [worker-tick] batch-0549 B2 sync deferred to host (rclone not in sandbox)
 2026-05-09T06:38:00Z [worker-tick] batch-0549 Phase 8 is open-ended; approvals.yaml NOT modified. Tick complete.
+2026-05-09T07:53:30Z	batch-0550	post-push	commit=939b9ca	push OK (13e8ae5..939b9ca)	worker=judgment-ingestion-worker	B2-sync-deferred-to-host-rclone-not-in-sandbox

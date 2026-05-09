@@ -5786,3 +5786,5 @@
 2026-05-09T07:51:14Z	batch-0550	fetches=8	records_written=0	records_deferred=0	confirmed_404=8	worker=judgment-ingestion-worker	cumulative_today=86/500	reason=phase-0-inline-HEAD-only-probe-ZMSC-2024-internal-gap-and-upper-boundary-targets-{4,35,36,37,38,40,45,50}-results-0-OK-8-confirmed-404-internal-gap-num-4-permanent-not-allocated-upper-boundary-max-num-34-7-consecutive-404s-cohort-totals-62-51-37-40-corpus-sqlite-unchanged-judges-registry-unchanged-records-tree-unchanged-raw-tree-unchanged-Phase-5-ceiling-159-160-unchanged-rate-limit-5s-honoured-user-agent-KateWestonLegal-CorpusBuilder
 2026-05-09T06:38:00Z	13e8ae5	batch-0549 push OK (d894cf7..13e8ae5)
 2026-05-09T06:38:00Z	batch-0549	B2 sync deferred to host (rclone not in sandbox)
+2026-05-09T07:53:30Z	939b9ca	batch-0550 push OK (13e8ae5..939b9ca)
+2026-05-09T07:53:30Z	batch-0550	B2 sync deferred to host (rclone not in sandbox)
