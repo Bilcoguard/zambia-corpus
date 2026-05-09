@@ -4915,3 +4915,159 @@ version as canonical, since that is the more recent convention).
   same pool snapshot → same sample).
 - Re-runnable via `python3 scripts/batch_0546_phase8_reverify.py`.
 - Full per-fetch JSON: `reports/batch-0546-reverify.json`.
+
+## Phase 5 — judgment-ingestion-worker batch 0547 (2026-05-09 UTC)
+
+**Phase 0 inline HEAD-only probe of ZMSC 2025 boundaries** —
+informational tick (most-recent-year-first per skill rule, since
+ZMSC 2026 boundary already confirmed at num=10 by b0541).
+
+Targets: zmsc/2025/{4, 14, 31, 32, 33, 34, 35, 36} (8 HEAD requests,
+zero records written, no Phase 5 ceiling impact).
+
+### Results
+
+| num | code | redirect to                                | classification               |
+|----:|-----:|--------------------------------------------|------------------------------|
+|   4 | 200  | `/eng@2025-01-15`                          | OK; internal gap closes      |
+|  14 | 404  | n/a                                        | confirmed gap (not allocated)|
+|  31 | 200  | `/eng@2025-10-28`                          | OK; numbering not date-ordered|
+|  32 | 200  | `/eng@2025-03-11`                          | OK; further confirms non-monotonic numbering|
+|  33 | 404  | n/a                                        | upper-boundary 404            |
+|  34 | 404  | n/a                                        | upper-boundary 404            |
+|  35 | 404  | n/a                                        | upper-boundary 404            |
+|  36 | 404  | n/a                                        | upper-boundary 404            |
+
+**ZMSC 2025 max-num observed = 32**. Three new GET-fetch candidates
+(zmsc/2025/{4, 31, 32}) ready for next-tick GET sweep. Five new
+confirmed-404 entries added to cohort tally (27 → 32).
+
+### Notable finding — non-monotonic numbering
+
+ZambiaLII numbering for ZMSC 2025 is **not strictly date-ordered**:
+- num=30 carries delivery 2025-12-31
+- num=31 carries delivery 2025-10-28
+- num=32 carries delivery 2025-03-11
+
+Consistent with a citation-allocation model where numbers are issued
+at allocation time (filing or judgment-allocation), not publication
+date. Implication: future upper-boundary probes cannot infer "highest
+delivery date = highest num"; explicit HEAD-probing remains the only
+safe boundary-detection strategy.
+
+### Cohort cumulative tracking
+
+- 62 written (unchanged)
+- 51 v0.3.3-pending deferred (unchanged)
+- 37 OCR-pending deferred (unchanged)
+- 32 confirmed 404 (was 27; +5 this tick — zmsc/2025/{14, 33, 34, 35, 36})
+
+### Phase 5 ceiling — unchanged at 159/160
+
+corpus.sqlite, judges_registry.yaml, records/ tree, raw/ tree all
+unchanged this tick. Integrity check trivially PASS for unchanged
+state (records=1849, judgments_meta=159).
+
+### Daily fetch budget today
+
+78/500 (was 70/500; this tick consumed 8 HEAD fetches).
+
+### Next-tick recommendation
+
+The 3 confirmed-OK ZMSC 2025 candidates (nums {4, 31, 32}) are
+fetchable but writing any of them would push past the 160 ceiling.
+Productive options:
+
+1. **Single-record GET sweep** of {4, 31, 32}: write only 1 record
+   (highest-confidence outcome under v0.3.2 patterns), defer rest under
+   existing reason codes — keeps corpus at ≤ 160/160 ceiling.
+2. **Full GET sweep + buffer**: fetch all 3 to disk under raw/, defer
+   all 3 records pending Peter ceiling lift — useful raw cache, no
+   corpus.sqlite movement.
+3. **Author parser v0.3.3 patches outside scheduled tick** (highest
+   leverage): 9 anchor additions (6 b0544 + 3 b0541) could unlock ~30+
+   of the 51 v0.3.3-pending records in one dedicated parser tick.
+
+Beyond ZMSC 2025, the next most-recent-year sweep targets are:
+- ZMSC 2024 internal gaps (numerous v0.3.3-pending; raw on disk)
+- ZMSC 2023 internal gaps (only 9 records on disk)
+- ZMSC 2022 internal gaps (18 records; lots of raw available)
+- ZMSC 2021 internal gaps (only 1 record; ~mostly OCR-pending)
+- ZMSC 2020 upper-boundary HEAD probes at {95, 100, 105, 110, 115,
+  120, 130, 150} per b0543 next-tick recommendation (deferred from
+  b0544).
+
+## Phase 8 — Nightly re-verification, batch 0548 (2026-05-09 UTC, second tick of day)
+
+Sixth Phase 8 tick overall; second of UTC date 2026-05-09. Renumbered
+from `batch-0547` to `batch-0548` to avoid collision with pre-existing
+unstaged `judgment-ingestion-worker` batch-0547 entries (those
+unstaged log lines are committed alongside this Phase 8 commit;
+their findings are preserved in the audit trail).
+
+Tick-suffixed seed `phase8-reverify-2026-05-09-b0548` — fresh
+independent sample (different from b0546). Pool unchanged at 1853.
+Sample size 8.
+
+### Verdict counts
+
+| Verdict | Count |
+|---------|------:|
+| match | 5 |
+| drift | 3 |
+| fetch_error | 0 |
+| truncated_stored_hash_false_drift | 0 |
+| **total** | **8** |
+
+### 3 drift entries — all zambialii.org `/akn/...` HTML rendering URLs
+
+Established `content_changed_full_drift` pattern; not a record
+data-quality issue. The `/akn/` HTML rendering surface at zambialii.org
+re-renders in a non-deterministic byte-equivalent way each fetch
+(pattern reproduces for the **sixth** consecutive tick across
+b0524 / b0533 / b0538 / b0545 / b0546 / b0548; cumulative HTML-URL
+drift count is 30/30). No record action — re-fetch and re-hash would
+just record a new transient drift hash.
+
+| Record id | URL | Stored sha256 (prefix) | Fetched sha256 (prefix) |
+|-----------|-----|------------------------|-------------------------|
+| `si-zm-2019-043-urban-and-regional-planning-designated-local-planning-authorities-no-2-regulations-2019` | `https://zambialii.org/akn/zm/act/si/2019/43` | (see records JSON) | `ab95ee7f4692501702ac8480a66d537b…` |
+| `act-zm-2008-013-accountants-act-2008` | `https://zambialii.org/akn/zm/act/2008/13/eng@2008-09-26` | (see records JSON) | `550cb8098a949e961af0de676defad34…` |
+| `act-zm-1927-027-nkana-nchanga-branch-railway-act-1927` | `https://zambialii.org/akn/zm/act/1927/27/eng@1996-12-31` | (see records JSON) | `9391940e3c7dc053182bbbf4aaa58588…` |
+
+### 5 match entries — stable PDF endpoints
+
+| Record id | URL | Endpoint kind |
+|-----------|-----|---------------|
+| `act-zm-2025-028-appropriation-act` | `https://www.parliament.gov.zm/.../Act%20%20No.%2028%20of%202025%2C%20…` | parliament.gov.zm static PDF |
+| `act-zm-2000-006-the-value-added-tax-amendment-act-no-6-of-2000` | `https://www.parliament.gov.zm/.../No.6_2000.pdf` | parliament.gov.zm static PDF |
+| `act-zm-2018-003-rent-act` | `https://www.parliament.gov.zm/.../The%20Rent%20…` | parliament.gov.zm static PDF |
+| `act-zm-1998-015-national-institute-of-public-administration-act-1998` | `https://www.zambialii.org/akn/zm/act/1998/15/eng@1998-04-21/source.pdf` | zambialii.org `/source.pdf` PDF endpoint |
+| `act-zm-2010-014-the-patents-amendment-act` | `https://www.parliament.gov.zm/.../Patents%20%28Amendment%29%20Act%202010.PDF` | parliament.gov.zm static PDF |
+
+### Truncated-stored-hash sweep
+
+Zero truncated-stored-hash false drifts in this sample. The b0546
+finding (`act-zm-2020-023-vat-amendment` had a 16-hex-char
+`source_hash`) was not re-encountered because that record was not in
+this sample. The corpus-wide audit recommended in b0546 remains a
+separate repair-phase task and is **not** Phase 8 scope.
+
+### Records mutated
+
+**None.** Phase 8 is read-only on the corpus. `corpus.sqlite`,
+`judges_registry.yaml`, `records/`, and `raw/` are all unchanged this
+tick. `approvals.yaml` was NOT modified.
+
+### Reproducibility
+
+- Sample seed: `phase8-reverify-2026-05-09-b0548` (deterministic;
+  tick-suffixed because this is the second tick of the UTC date and
+  the date-only seed had already been used by b0546).
+- Execution mode: inline runner (no derivative
+  `scripts/batch_0548_phase8_reverify.py` committed this tick due to
+  sandbox-session safety constraint). Functionality matches the
+  `scripts/batch_0546_phase8_reverify.py` baseline including the
+  `scripts/certs/*.pem` PKI loader.
+- Full per-fetch JSON: `reports/batch-0548-reverify.json`.
+- Markdown summary: `reports/batch-0548-report.md`.
