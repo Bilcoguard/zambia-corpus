@@ -5527,3 +5527,25 @@ Updated working hypothesis: judgment-/akn/-HTML URLs drift on the same time-vary
 
 Cross-tick: zambialii.org /akn/ HTML drift now reproduces 30/30; media.zambialii.org PDF matches now reproduce 25/25. No records mutated. See reports/batch-0554-report.md and reports/batch-0554-reverify.json.
 
+
+## [2026-05-09T09:04:34Z] batch-0556 re-verify drift — eleventh Phase 8 tick (no new findings)
+
+Eleventh Phase 8 tick; pool=1855; sample=8; 4 match, 4 drift, 0 fetch_error.
+
+Drift list (URL → status, all are zambialii.org /akn/ act-or-SI HTML rendering URLs — established content_changed_full_drift_akn_html pattern):
+
+- act-zm-1960-059-land-survey-act-1960 → https://zambialii.org/akn/zm/act/1960/59/eng@1996-12-31  (drift)
+- si-zm-2020-101-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-8-order-2020 → https://zambialii.org/akn/zm/act/si/2020/101  (drift, no eng@ pin)
+- act-zm-1976-022-supreme-court-and-high-court-number-of-judges-act-1976 → https://zambialii.org/akn/zm/act/1976/22/eng@1996-12-31  (drift)
+- act-zm-1984-006-supplementary-appropriation-1982-act-1984 → https://zambialii.org/akn/zm/act/1984/6/eng@1984-03-30  (drift)
+
+Stable matches (4):
+
+- act-zm-2011-020-the-liquor-licensing-act-2011 → https://www.parliament.gov.zm/sites/default/files/documents/acts/Liqour%20Licensing%20Act%2C%202011.pdf  (match — parliament.gov.zm static PDF)
+- act-zm-2011-006-the-english-law-extent-of-application-amendment-act-2011 → https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/The%20English%20Law%20Act.pdf  (match — parliament.gov.zm static PDF)
+- si-zm-2005-010-taxation-provisional-charging-order-2005 → https://zambialii.org/akn/zm/act/si/2005/10/eng@2005-01-28/source.pdf  (match — zambialii /akn/.../source.pdf redirect to media.zambialii.org)
+- si-zm-2025-009-bank-of-zambia-withdrawal-and-exchange-of-currency-regulations-2025 → https://media.zambialii.org/media/legislation/44173/source_file/1fe34b6ef23bc96a/bank-of-zambia-withdrawal-and-exchange-of-currency-regulations-2025.pdf  (match — direct media.zambialii.org PDF)
+
+No new URL-family verdicts this tick. All 8 sampled records fall in already-tracked URL families. Judgment-/akn/-HTML cumulative remains 1 match / 2 drifts (no judgment in this sample). Parliament-/node/-landing-page cumulative remains 0 match / 1 drift (no node URL in this sample).
+
+Cross-tick: zambialii.org /akn/ act-or-SI HTML drift now reproduces 37/37; stable PDF matches now reproduce 33/33 across 11 Phase 8 ticks. No records mutated. See reports/batch-0556-report.md and reports/batch-0556-reverify.json.
