@@ -5691,3 +5691,25 @@ ZMCC 2019 is **published on ZambiaLII** with at least 2 internal gaps {10, 15}. 
 2. **ZMCC 2019 GET fetch** — start with low-num slice {1, 2, 3, 4, 5, 6, 7, 8} subject to next tick MAX_BATCH_SIZE.
 3. **Standing**: parser_v0.3.3 anchor pack authoring (62 records pending) and OCR pipeline implementation (5 records pending) remain out-of-tick operator tasks.
 4. **Standing**: operator action on Phase 5 ceiling 164/160 (now 4 above sentinel).
+
+## [2026-05-09T15:04:40Z] batch-0561 re-verify drift — thirteenth Phase 8 tick (NEW: Constitution-of-Zambia-1991 in act-akn-HTML drift cohort)
+
+Thirteenth Phase 8 tick; pool=1858 (was 1857 at b0560; +1 from b0560 judgment-ingestion-worker zmcc-2020-17 ingestion); sample=8; 5 match, 3 drift, 0 fetch_error.
+
+Drift list (URL → status):
+
+- act-zm-1980-008-public-audit-act-1980 → https://zambialii.org/akn/zm/act/1980/8/eng@1996-12-31  (drift — established act-/akn/-HTML pattern)
+- act-zm-1964-045-defence-act-1964 → https://zambialii.org/akn/zm/act/1964/45/eng@1996-12-31  (drift — established act-/akn/-HTML pattern)
+- act-zm-1991-001-constitution-of-zambia-act-1991 → https://zambialii.org/akn/zm/act/1991/1/eng@2025-12-18  (drift — established act-/akn/-HTML pattern; NOTABLE: founding Constitution of Zambia 1991 enrolled in the act-akn-HTML drift cohort, confirming the rendering-layer pattern applies uniformly across all act seniority levels)
+
+Match list (URL → status, all stable PDF endpoints):
+
+- act-zm-2024-015-zambia-national-public-health-institute-amendment-act-2024 → https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2015%20of%202024%20Zambia%20National%20Public%20Health%20Institute%20Act.pdf  (match)
+- si-zm-2016-031-postal-and-courier-services-general-regulations-2015 → https://zambialii.org/akn/zm/act/si/2016/31/eng@2016-04-29/source.pdf  (match)
+- si-zm-2011-035-income-tax-foreign-personnel-approval-and-exemption-order-2011 → https://zambialii.org/akn/zm/act/si/2011/35/eng@2011-04-15/source.pdf  (match)
+- act-zm-2019-007-food-safety-act-2019 → https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Food%20Safety%20%20Act%20No.%207%2C%202019.pdf  (match)
+- si-zm-2011-049-value-added-tax-exemption-order-2011 → https://zambialii.org/akn/zm/act/si/2011/49/eng@2011-05-27/source.pdf  (match)
+
+No new URL-family verdicts this tick. No judgment-/akn/-HTML or parliament-/node/-landing URLs were sampled; those cumulative tallies unchanged at 1m/3d and 0m/1d respectively. Cumulative judgment-akn-HTML drift rate stays at 3/4 = 75% (n=4) per b0560 standing.
+
+Cross-tick: zambialii.org /akn/ act-or-SI HTML drift now reproduces 43/43; stable PDF matches now reproduce 42/42 across 13 Phase 8 ticks. No records mutated. See reports/batch-0561-report.md and reports/batch-0561-reverify.json.
