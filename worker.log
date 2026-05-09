@@ -6077,3 +6077,5 @@ test append
 2026-05-09T14:34:46Z [repair-worker] All 48 repair targets fixed — repair worker idle
 
 [2026-05-09T11:14:00Z] b0559 commit=eee5826 push=2d4ed8a..eee5826 B2_sync=deferred-to-host worker=judgment-ingestion-worker tick_complete=true next_tick=+60min
+2026-05-09T09:15:00Z [worker-tick] batch-0556 post-push: artefacts committed by concurrent judgment-ingestion-worker ticks (b0557/b0558/b0559) while this worker was waiting for the .git/index.lock to release. reports/batch-0556-report.md + reports/batch-0556-reverify.json swept into commit 4441b7c (Judgment batch 0557 — FTS backfill). worker.log/costs.log/provenance.log/gaps.md batch-0556 entries swept into commits eee5826 (Judgment batch 0559) and 02099a9 (post-push). HEAD == origin/main (02099a9). Nothing to push from this worker. B2 sync deferred to host (rclone not in sandbox).
+2026-05-09T09:15:00Z [worker-tick] batch-0556 Phase 8 is open-ended; approvals.yaml NOT modified. Tick complete (concurrent-commit pattern, same as b0551).
