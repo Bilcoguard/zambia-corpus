@@ -6074,3 +6074,6 @@ test append
 [2026-05-09T11:11:00Z] b0559 deferrals appended to gaps.md (8 entries with raw_sha256 and source URLs); v0.3.3-pending cohort 56 → 61; OCR-pending cohort 2 → 5 (all ZMCC 2020).
 
 [2026-05-09T11:12:00Z] b0559 next-tick recommendations: (1) finish ZMCC 2020 by GET-fetching nums {17, 18} — 2 records will complete on-disk coverage of the year; (2) start ZMCC 2019 HEAD probe (sparse-sample new-year discovery); (3) standing: parser_v0.3.3 anchor pack (61 records pending) and OCR pipeline (5 records pending); (4) standing: operator action on Phase 5 ceiling 163/160.
+2026-05-09T14:34:46Z [repair-worker] All 48 repair targets fixed — repair worker idle
+
+[2026-05-09T11:14:00Z] b0559 commit=eee5826 push=2d4ed8a..eee5826 B2_sync=deferred-to-host worker=judgment-ingestion-worker tick_complete=true next_tick=+60min
