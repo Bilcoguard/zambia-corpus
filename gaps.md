@@ -4755,3 +4755,66 @@ parser-modification freeze. Productive options:
 3. **Author parser v0.3.3 patches outside the scheduled tick** to
    unlock ~30+ of the 51-record v0.3.3-pending cohort in a single
    dedicated parser tick.
+
+## Phase 8 — Nightly re-verification, batch 0545 (2026-05-08, late-UTC)
+
+Fourth Phase 8 tick. Same UTC date as b0538 (this tick fired at
+2026-05-08T23:04Z, ~57 min before UTC midnight rollover; sandbox local
+time was already 2026-05-09 ~01:04 CAT). Deterministic seed
+`phase8-reverify-2026-05-08` matches b0538's seed, but the candidate
+pool has grown from 1849 (at b0538 time) to 1853 (4 new records from
+judgment-ingestion-worker batches b0540 and b0543 between the two
+ticks), so `random.Random.sample` drew a different (overlapping) 8-record
+subset. Sample size 8 (1% of pool, capped by MAX_BATCH_SIZE=8).
+Re-fetched all 8 records, recomputed sha256, compared against stored
+values. **Records were NOT mutated by this tick.**
+
+Outcome counts: match=1, drift=7, fetch_error=0.
+
+### Drift entries — to be triaged before any record refresh
+
+| Record id | Source URL | Stored sha256 | Re-fetched sha256 | Bytes (new) | Sub-kind |
+|-----------|------------|---------------|-------------------|------------:|----------|
+| `si-zm-2017-020-tourism-and-hospitality-prepaid-package-tours-regulations-2017` | https://zambialii.org/akn/zm/act/si/2017/20 | `f0c1d00a9c6b896576f20609b72c2ebd2ee43603fa9dd12b6c604cefccaa6f5a` | `e56d5c7235b54d8eeb26325e5fe0fdd6a9082cebe0f74244f666e0bc974782e4` | 39278 | `content_changed_full_drift` |
+| `act-zm-1989-001-zambia-centre-for-accountancy-studies-act-1989` | https://zambialii.org/akn/zm/act/1989/1/eng@1989-05-19 | `5b621318e2503339c15f53117dcdedb7d825948e96d0ee5167a7ced5f2cf92c2` | `ce9a48d88b1700e2edf1ec385f3ee6753abc78926626e68e89bbbe2ee9b05e92` | 38647 | `content_changed_full_drift` |
+| `act-zm-2025-003-cyber-security-act` | https://zambialii.org/akn/zm/act/2025/3/eng@2025-04-15 | `538b241e47cddb038b7eea9b4a0f61d82736c3304b3bcdf199fb5b01cce48934` | `c6763b3264b547628dec5e2268ae899e8d9c5631f9dea9b039ded808829fc106` | 476144 | `content_changed_full_drift` |
+| `si-zm-2020-018-compulsory-standards-potable-spirits-declaration-order-2020` | https://zambialii.org/akn/zm/act/si/2020/18 | `463c4533ca2fee54bdbe2fc1efc8b6349c34330d438e9025746fcc29b686847b` | `d0fb36dca246038b8fd64fa7208a5fcb2758e45cd1f6bb1f7f654c0a99bae0d8` | 39110 | `content_changed_full_drift` |
+| `act-zm-1963-027-law-reform-frustrated-contracts-act-1963` | https://zambialii.org/akn/zm/act/1963/27/eng@1996-12-31 | `105db14731780fdf1e7288048f27ae72a76b63baa63c173d002934c8fa0511fe` | `089753d813631b429bbe3408b618144c68bd3914581b0239eb1e3843c38d2e5b` | 51858 | `content_changed_full_drift` |
+| `judgment-zm-2021-zmcc-17-anderson-mwale-buchisa-mwalongo-and-kola-odubote-v` | https://zambialii.org/akn/zm/judgment/zmcc/2021/17/eng@2021-09-20 | `ed147bedff108dffe7e377e37ded5881ed77193f13bde3a9169c5124c9afadd8` | `d781c9806596682cdb518e921b87559a5bae7b620a9ffd2c3d2f4e557111d994` | 43721 | `content_changed_full_drift` |
+| `act-zm-1997-013-appropriation-act-1997` | https://zambialii.org/akn/zm/act/1997/13/eng@1997-04-18 | `562bc46420b8a33dc98ca6d002794a41b69f1e0b851e9d7f9556d17536b76474` | `8f37dc51affd9e7718639cf8e6e8e4ce27b43dc3f8154b89b6ae443b6aa9d994` | 38615 | `content_changed_full_drift` |
+
+### Drift sub-kind notes
+
+- **`content_changed_full_drift`** — all 7 drifts target zambialii.org
+  `/akn/...` HTML rendering URLs. Pattern of HTML-URL drift + PDF-URL
+  match is now reproduced across **four consecutive Phase-8 ticks**:
+  b0524 (4/4), b0533 (7/7), b0538 (6/6), b0545 (7/7) = 24/24 HTML-URL
+  drifts cumulative; matches (8/8) all on stable PDF endpoints
+  (parliament.gov.zm / media.zambialii.org `/source_file/` PDFs).
+- **Cross-tick re-sample observation (new this tick):** six records in
+  this sample also appeared in b0538. Of those, the five that drifted
+  in b0538 drifted again in b0545 with **identical fetched_sha256
+  values across both ticks** (within ~16h apart) — i.e. the ZambiaLII
+  drift is not random per-fetch jitter, it is a one-shot permanent
+  shift between original-ingest-day rendering and current rendering.
+  The matching parliament.gov.zm PDF returned the same sha256 in both
+  ticks, confirming binary-PDF stability.
+- The b0524 / b0533 / b0538 recommendation stands and is now further
+  strengthened: ZambiaLII HTML drifts are informational only (CMS
+  dynamic markup) and need a normalised-text comparison stage to
+  classify substantively. Without that stage, every Phase-8 tick will
+  continue to surface the same one-shot byte differences as drift.
+
+### Match entries (no action needed; recorded here for audit)
+
+- `act-zm-2017-022-appropriation`
+  (https://www.parliament.gov.zm/sites/default/files/documents/acts/Appropriation%20Act%20%20No.%2022%20of%20%202017.pdf)
+  — sha256 unchanged (parliament.gov.zm PDF; stable; same record also
+  matched in b0538 with identical sha256 `823d530e94...225b`).
+
+### Reproducibility
+
+- Sample seed: `phase8-reverify-2026-05-08` (deterministic; same date +
+  same pool snapshot → same sample).
+- Re-runnable via `python3 scripts/batch_0545_phase8_reverify.py`.
+- Full per-fetch JSON: `reports/batch-0545-reverify.json`.
