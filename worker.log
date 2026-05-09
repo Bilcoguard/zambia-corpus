@@ -6099,3 +6099,4 @@ test append
 [2026-05-09T14:45:30Z] b0560 next-tick recommendations: (1) ZMCC 2019 HEAD-probe {26-35} to find upper sentinel and {2,3,4,6,7,8,9} to confirm internal-gap pattern; (2) ZMCC 2019 GET-fetch low-num slice {1..8}; (3) standing parser_v0.3.3 anchor pack (62 records pending); (4) standing OCR pipeline (5 records pending); (5) standing operator action on Phase 5 ceiling 164/160.
 
 2026-05-09T14:42:00Z [worker-tick] batch-0560 post-push commit 49c72ed pushed OK (8c7cbf7..49c72ed). Tick fully closed. B2 sync deferred to host (rclone not in sandbox).
+[2026-05-09T14:50:00Z] b0560 commit=75a3167 push=444f077..75a3167 B2_sync=deferred-to-host worker=judgment-ingestion-worker tick_complete=true next_tick=+60min collision_coexistent_with_worker_tick_phase8_b0560
