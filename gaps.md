@@ -4818,3 +4818,100 @@ Outcome counts: match=1, drift=7, fetch_error=0.
   same pool snapshot → same sample).
 - Re-runnable via `python3 scripts/batch_0545_phase8_reverify.py`.
 - Full per-fetch JSON: `reports/batch-0545-reverify.json`.
+
+## Phase 8 — Nightly re-verification, batch 0546 (2026-05-09 UTC)
+
+Fifth Phase 8 tick. First tick on the new UTC date 2026-05-09, so the
+deterministic seed rolls over to `phase8-reverify-2026-05-09` and draws
+a fresh independent 8-record sample from the candidate pool. Pool size
+unchanged at 1853 (no judgment-ingestion-worker activity between b0545
+and b0546). Sample size 8 (1% of pool, capped by MAX_BATCH_SIZE=8).
+Re-fetched all 8 records, recomputed sha256, compared against stored
+values. **Records were NOT mutated by this tick.**
+
+Outcome counts: match=4, drift=4, fetch_error=0.
+
+### Drift entries — to be triaged before any record refresh
+
+| Record id | Source URL | Stored sha256 | Re-fetched sha256 | Bytes (new) | Sub-kind |
+|-----------|------------|---------------|-------------------|------------:|----------|
+| `act-zm-1967-058-council-of-law-reporting-act-1967` | https://zambialii.org/akn/zm/act/1967/58/eng@1996-12-31 | `c8275b3dee8e7cc9522a23bc0f839c48df6420a1cc20b980d8f67185b0e9bdca` | `6b060d7d6815b11bc34dcbbf748c650fa30d472e6d6f13d44f0724b6dab87e27` | 64759 | `content_changed_full_drift` |
+| `act-zm-2020-023-value-added-tax-amendment-act-2020` | https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/The%20Value%20Added%20Tax%20%28Amendment%29%20Act%20No.%2023%20of%202020.pdf | `83df74b511734b91` *(truncated, 16-hex)* | `83df74b511734b91d6344f019be20c16f4e61088c77c4817264e65d729699bfc` | 23590 | `truncated_stored_hash_false_drift` |
+| `act-zm-1920-002-public-pounds-and-trespass-act` | https://zambialii.org/akn/zm/act/1920/2/eng@1996-12-31 | `bd2aeda0a792788742ddb7cfe4a1ec2a1a235f212d9b09d99188d2d4ff4e2595` | `9c78da495dfc2155ab46d990c73f955c5ce9dd8e7526fe182446274515f68df5` | 251298 | `content_changed_full_drift` |
+| `si-zm-2020-097-public-finance-management-general-regulations-2020` | https://zambialii.org/akn/zm/act/si/2020/97 | `73c5401ca722bba3f6008d98cf34f6d3a38184e5a36ebc11f6042236da20e9f9` | `da38489f7081e96a0bbba6eb9c0506831505d4bd82fd8074b847fd00774fdc9f` | 41535 | `content_changed_full_drift` |
+
+### Drift sub-kind notes
+
+- **`content_changed_full_drift`** (3/4 drifts) — established pattern;
+  all three drift records target zambialii.org `/akn/...` HTML
+  rendering URLs (2 acts, 1 SI). Pattern of HTML-URL drift + PDF-URL
+  match is now reproduced across **five consecutive Phase-8 ticks**:
+  b0524 (4/4), b0533 (7/7), b0538 (6/6), b0545 (7/7), b0546 (3/3) =
+  27/27 HTML-URL drifts cumulative; matches (12/12) all on stable PDF
+  endpoints (parliament.gov.zm / media.zambialii.org `/source.pdf`
+  PDFs).
+- **`truncated_stored_hash_false_drift`** (NEW sub-kind, 1/4 drifts) —
+  record `act-zm-2020-023-value-added-tax-amendment-act-2020` has a
+  stored `source_hash` of `sha256:83df74b511734b91` which is **only 16
+  hex characters (8 bytes)** instead of the expected 64. The freshly
+  fetched PDF returns
+  `83df74b511734b91d6344f019be20c16f4e61088c77c4817264e65d729699bfc`,
+  whose first 16 hex chars match the stored value byte-for-byte. The
+  upstream PDF (parliament.gov.zm) is therefore byte-identical to what
+  was originally ingested on 2026-04-10 — this is a **stored-record
+  data quality issue**, not real content drift. The recorded
+  `parser_version` is `parliament-pdf-v1.2`, so the truncation likely
+  originated in that parser at record-write time. Phase 8 itself does
+  NOT mutate records, so the field remains as-is on disk.
+- **Recommendation (informational; human action required):**
+  corpus-wide audit of `source_hash` field length for any record
+  produced by `parliament-pdf-v1.2` (and adjacent ingest parsers). Any
+  record where `len(source_hash) < len("sha256:") + 64` is a candidate
+  for re-hashing from the raw on-disk bytes under `raw/...`. This
+  remediation belongs in a dedicated repair phase, not in Phase 8.
+
+### Match entries (no action needed; recorded here for audit)
+
+- `act-zm-2016-008-the-constitutional-court`
+  (https://www.parliament.gov.zm/sites/default/files/documents/acts/N.A.A%208-2018-Constitutional%20Court%2C%20Act.pdf)
+  — sha256 unchanged (parliament.gov.zm PDF; stable).
+- `local-government-appointment-of-local-government-administrator-kafue-town-counci-2022`
+  (https://zambialii.org/akn/zm/act/si/2022/71/eng@2022-11-04/source.pdf)
+  — sha256 unchanged (media.zambialii.org `/source.pdf` endpoint; stable).
+- `act-zm-2019-004-zambia-law-development-commission-amendment-act-20`
+  (https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Zambia%20Law%20Development%20Commission%20Act%20No.%204%20of%202019.pdf)
+  — sha256 unchanged (parliament.gov.zm PDF; stable).
+- `act-zm-2010-029-cattle-cleansing-repeal-act-2010-act-no-29-of-2010`
+  (https://www.parliament.gov.zm/sites/default/files/documents/acts/No29_2010.pdf)
+  — sha256 unchanged (parliament.gov.zm PDF; stable).
+
+### Pre-existing finding re-flagged this tick (not a regression)
+
+Corpus-wide unique-id check during pool-build for this tick surfaced
+**5 active duplicate-ID pairs** where the same `id` field appears on
+disk in both flat (`records/acts/x.json`) and year-tree
+(`records/acts/YYYY/x.json`) locations and the two files have
+**diverged content** (different file-level sha256). Specifically:
+
+- `act-zm-2025-014-cotton-act`
+- `act-zm-2025-028-appropriation-act`
+- `act-zm-2019-010-nurses-and-midwives-act-2019`
+- `act-zm-2020-010-national-council-for-construction-act-2020`
+- `act-zm-2018-001-public-finance-management-act`
+
+These pairs were introduced in earlier Phase 4 batches (b0005, b0289,
+and similar). They are documented as a known historical condition in
+this gaps.md (search for the b0173 audit note). Phase 8 does NOT
+write records and therefore did not introduce or modify these
+duplicates. The diverged-content aspect — distinct from the
+identical-content duplicates the b0173 audit catalogued — is the new
+sub-finding from this tick's pool-build sweep. Re-flagged for a
+future repair-phase to reconcile (recommend keeping the year-tree
+version as canonical, since that is the more recent convention).
+
+### Reproducibility
+
+- Sample seed: `phase8-reverify-2026-05-09` (deterministic; same date +
+  same pool snapshot → same sample).
+- Re-runnable via `python3 scripts/batch_0546_phase8_reverify.py`.
+- Full per-fetch JSON: `reports/batch-0546-reverify.json`.
