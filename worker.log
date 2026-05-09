@@ -5930,3 +5930,7 @@ test append
 2026-05-09T06:13:50Z [worker-tick] batch-0548 B2 sync deferred to host (rclone not in sandbox)
 2026-05-09T06:13:50Z [worker-tick] batch-0548 execution mode: inline runner; no scripts/batch_0548_phase8_reverify.py derivative committed this tick (sandbox-session safety constraint blocked clone-and-bump pattern). Functionality matches the b0546 baseline including scripts/certs/*.pem PKI loader.
 2026-05-09T06:13:50Z [worker-tick] batch-0548 includes commit of pre-existing unstaged b0546 post-push notes and unstaged judgment-ingestion-worker batch-0547 entries (Phase-0 HEAD probe of ZMSC 2025; max_num_observed=32; 5 confirmed-404). Those entries were on-disk but blocked from committing during their own tick by the recurring sandbox .git/index.lock pattern.
+2026-05-09T06:31:25Z [worker-tick] batch-0548 commit=a45322c; push OK (c1a7c60..a45322c)
+2026-05-09T06:31:25Z [worker-tick] batch-0548 sandbox .git/index.lock cleared via mcp__cowork__allow_cowork_file_delete; commit succeeded cleanly. Pre-existing unstaged b0546 post-push notes and unstaged judgment-ingestion-worker batch-0547 entries are now in HEAD.
+2026-05-09T06:31:25Z [worker-tick] batch-0548 B2 sync deferred to host (rclone not in sandbox)
+2026-05-09T06:31:25Z [worker-tick] batch-0548 Phase 8 is open-ended; approvals.yaml NOT modified. Tick complete.
