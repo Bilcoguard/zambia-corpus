@@ -1,0 +1,34 @@
+{
+  "id": "judgment-zm-2020-zmcc-17-mulubisha-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "MULUBISHA V ATTORNEY GENERAL (2020/CCZ/0013) [2020] ZMCC 17 (24 April 2020)",
+  "citation": "[2020] ZMCC 17",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "MULUBISHA V ATTORNEY GENERAL",
+  "case_number": "2020/CCZ/0013",
+  "date_decided": "2020-04-24",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional Court procedure",
+    "extension of time under Order XV r7 CCR",
+    "correction of accidental omission",
+    "discretionary relief guided by promptness and prejudice",
+    "duty to do substantive justice (Article 118)."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "Court granted extension to seek leave to correct an alleged accidental omission, guided by promptness and prejudice",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "dfc612e22a31f3e86ae2a5b611386ecbcb85642b68f5f573aa891fc7c1b74e62",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2020/17/eng@2020-04-24",
+  "source_hash": "sha256:776c90efde1845eaabf7bf8268b4fe515f886f633d581e007f0816c75d284433",
+  "fetched_at": "2026-05-09T14:40:26Z",
+  "parser_version": "0.3.2"
+}
