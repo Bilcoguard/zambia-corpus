@@ -5227,3 +5227,203 @@ Pre-tick stale `.git/index.lock` (FUSE-pinned) cleared via
 b0548). Stale `.git/objects/maintenance.lock` and `.git/ORIG_HEAD.lock`
 renamed to `_stale_locks_b0549_*.lock.bak` (rename succeeds where
 delete is FUSE-blocked).
+
+## Phase 8 — Nightly re-verification, batch 0551 (2026-05-09 UTC, fourth tick of day)
+
+Eighth Phase 8 tick overall; **fourth tick of UTC date 2026-05-09**
+(after b0546 at 05:59Z, b0548 at 06:13Z, b0549 at 06:35Z, b0551 at
+07:55Z). Tick-suffixed seed `phase8-reverify-2026-05-09-b0551` draws
+a fresh independent sample (different from b0546, b0548, b0549).
+Pool unchanged at 1853. Sample size 8.
+
+### Verdict counts
+
+| Verdict | Count |
+|---------|------:|
+| match | 4 |
+| drift | 4 |
+| fetch_error | 0 |
+| truncated_stored_hash_false_drift | 0 |
+| **total** | **8** |
+
+### NEW finding — first `/akn/judgment/` HTML URL match across 8 Phase 8 ticks
+
+`judgment-zm-2020-zmsc-51-richard-h-chama-213-other-v-national-pension-schem`
+re-fetched cleanly: stored sha256
+`efb573c41b185614b9a4769a93bd88299b139b49e147dcc1a41c1cef4320e0ef`
+matched the recomputed sha256 byte-for-byte; bytes_len 41,557. URL
+`https://zambialii.org/akn/zm/judgment/zmsc/2020/51/eng@2020-06-30`.
+This is the first time any `zambialii.org/akn/...` HTML URL has matched
+its stored hash in 8 Phase 8 ticks (cumulative previous tally: 0/38 for
+act/SI `/akn/` HTML URLs).
+
+**Working hypothesis (N=1, do not extrapolate):** judgment `/akn/`
+HTML URLs (`/akn/zm/judgment/...`) may be byte-stable across re-fetches
+because judgments are not amended after delivery and the rendered view
+is a one-shot snapshot pinned to delivery date. Act/SI `/akn/` HTML
+URLs render a "consolidated as at date" view that can pick up
+transparent metadata changes from the upstream re-render even when no
+substantive edit occurred.
+
+**Action:** record the finding only. Future Phase 8 ticks should track
+judgment-`/akn/` matches separately from act/SI-`/akn/` drifts so that
+a hypothesis test can accumulate evidence over a meaningful sample
+window. **Not** a record-data-quality issue.
+
+### 4 drift entries — all act/SI `/akn/...` HTML rendering URLs
+
+Established `content_changed_full_drift` pattern; not a record
+data-quality issue. Pattern reproduces for the **eighth** consecutive
+tick across b0524 / b0533 / b0538 / b0545 / b0546 / b0548 / b0549 /
+b0551; cumulative act/SI HTML-URL drift count is **38/38**. No record
+action — re-fetch and re-hash would just record a new transient drift
+hash.
+
+| Record id | Source URL | Stored sha256 | Re-fetched sha256 | Bytes (new) | Sub-kind |
+|-----------|------------|---------------|-------------------|------------:|----------|
+| `act-zm-2014-006-excess-expenditure-appropriation-2011-act` | https://zambialii.org/akn/zm/act/2014/6/eng@2014-08-05 | `1f4aaa0d0e0e316154ee1cd7ff58fd22a9e5aa3da2e6994a28697b72086a1ce3` | `dad6a1b3890cbfbfeea006858b1c6e10185d9f52eb8a7d1b2266b32de32591ef` | 38,805 | `content_changed_full_drift_akn_html` |
+| `act-zm-2024-002-animal-identification-and-traceability-act-2024` | https://zambialii.org/akn/zm/act/2024/2/eng@2024-04-18 | `575ad1707f636c7c7740e28085c8c6b59172fd59cd54e36353e1840b6e1b10ed` | `328132f755ee81d7cac7e3f78ff04878ac1136fefd203fc06576bb10b1b3db3b` | 285,428 | `content_changed_full_drift_akn_html` |
+| `si-zm-2020-108-urban-and-regional-planning-designated-local-planning-authorities-no-3-regulations-2020` | https://zambialii.org/akn/zm/act/si/2020/108 | `7ab47d1b5f58af3f29f8f4af83767c187841d32f546c0c6b8c941ebbf8389951` | `9f41fe98e87f74d8f1713aa83ad998c25933ae38946c063d81ec9975ba384385` | 40,560 | `content_changed_full_drift_akn_html` |
+| `act-zm-1995-022-national-health-services-act-1995` | https://www.zambialii.org/akn/zm/act/1995/22/eng@1996-12-31 | `b749511f842cced550b768535fd94886e52d1e5c74d648baf05ea9e7329ba753` | `a32c79ab53d5921bc661a1f782ee1ebb074dab5b0c1400cbcc3bcf8c3e452bd2` | 145,137 | `content_changed_full_drift_akn_html` |
+
+Sub-observations:
+- Drift #3 (`si-zm-2020-108-...`) URL has **no `eng@<date>` pin** —
+  drift reproduces same as date-pinned URLs. So the absence of a date
+  pin is not the driver of drift; the rendering layer itself is.
+- Drift #4 (`act-zm-1995-022-...`) is on the `www.zambialii.org`
+  subdomain (most other drift URLs use bare `zambialii.org`). The
+  drift reproduces on both subdomains, consistent with them serving
+  from the same backend.
+
+### 4 match entries
+
+| Record id | URL | Endpoint kind |
+|-----------|-----|---------------|
+| `loz-dairies-and-dairy-produce-act` | `https://www.parliament.gov.zm/sites/default/files/documents/acts/Dairies%20and%20Dairy%20Produce%20Act.pdf` | parliament.gov.zm static PDF |
+| `judgment-zm-2020-zmsc-51-richard-h-chama-213-other-v-national-pension-schem` | `https://zambialii.org/akn/zm/judgment/zmsc/2020/51/eng@2020-06-30` | **zambialii.org `/akn/judgment/.../eng@<delivery-date>` HTML** (NEW kind) |
+| `si-zm-2017-048-information-and-communication-technologies-fees-regulations-2017` | `https://zambialii.org/akn/zm/act/si/2017/48/eng@2017-06-16/source.pdf` | zambialii.org `/source.pdf` PDF endpoint (redirected to media.zambialii.org) |
+| `act-zm-2010-048-value-added-tax-amendment` | `https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Value%20Added%20Tax%20%28Amendment%29%202010A.PDF` | parliament.gov.zm static PDF |
+
+Cumulative stable PDF matches now **24/24** across all 8 Phase 8 ticks
+(was 21/21 after b0549; +3 stable PDFs this tick: 2 parliament.gov.zm
+static PDFs and 1 zambialii `/source.pdf` redirect). Cumulative
+`/akn/judgment/` HTML matches now **1/1** (NEW category).
+
+### Truncated-stored-hash sweep
+
+Zero truncated-stored-hash false drifts in this sample. The b0546
+finding (`act-zm-2020-023-vat-amendment` had a 16-hex-char
+`source_hash`) was not re-encountered. Corpus-wide hash-length audit
+remains a separate repair-phase task; not Phase 8 scope.
+
+### Records mutated
+
+**None.** Phase 8 is read-only on the corpus. `corpus.sqlite`,
+`judges_registry.yaml`, `records/`, and `raw/` are all unchanged this
+tick. `approvals.yaml` was NOT modified.
+
+### Reproducibility
+
+- Sample seed: `phase8-reverify-2026-05-09-b0551` (deterministic;
+  tick-suffixed because three earlier ticks of the same UTC date had
+  already consumed the date-only seed and the b0548/b0549 tick-suffixed
+  seeds).
+- Execution mode: inline runner (no derivative
+  `scripts/batch_0551_phase8_reverify.py` committed this tick due to
+  sandbox-session safety constraint, per b0548/b0549 precedent).
+  Functionality matches the `scripts/batch_0546_phase8_reverify.py`
+  baseline including the `scripts/certs/*.pem` PKI loader.
+- Full per-fetch JSON: `reports/batch-0551-reverify.json`.
+- Markdown summary: `reports/batch-0551-report.md`.
+
+## Batch 0552 update (2026-05-09) — REPARSE DEFERRED priority (a), second tick of day
+
+**Tick decision**: Priority (a) REPARSE DEFERRED per task instructions.
+Second judgment-ingestion-worker reparse tick of UTC date 2026-05-09
+(b0544 was first; b0547, b0550 were Phase 0 boundary probes by the
+same worker). Selected 8 unsampled v0.3.3-pending candidates with
+PDF sizes 290 KB to 519 KB, distinct from b0541 and b0544 samples,
+spread across 5 court/year cohorts (zmcc/2022, zmcc/2023, zmcc/2024,
+zmcc/2026, zmsc/2022, zmsc/2025, zmsc/2026).
+
+### Reparse results — all 8 redeferred under same reason code
+
+All 8 PDFs extracted text successfully (>200 chars; none scanned).
+None of the HTML summaries or PDF tail anchors matched any v0.3.2
+operative-verb pattern. All 8 redeferred under
+`html_no_summary_pdf_no_match` — they remain in the v0.3.3-pending
+cohort.
+
+| court / num   | PDF size  | summary head excerpt                                                                              |
+|---------------|----------:|----------------------------------------------------------------------------------------------------|
+| zmcc/2026/01  |  291 KB   | "...must proceed by judicial review in the High Court, not by original petition here."             |
+| zmcc/2022/27  |  348 KB   | "Court dismisses functus officio objection and allows constitutional challenge..."                 |
+| zmsc/2025/05  |  357 KB   | "Whether the corporate veil can be lifted by joinder after judgment..."                            |
+| zmsc/2026/03  |  373 KB   | "Applicants granted leave to appeal where proposed grounds raised legal issues..."                 |
+| zmcc/2023/05  |  462 KB   | "Article 52(6) does not permit independent candidates to withdraw after nominations..."            |
+| zmcc/2024/02  |  496 KB   | "An individual directly affected... may be joined as an interested party..."                       |
+| zmcc/2022/30  |  502 KB   | "Joinder refused where applicant failed to show... sufficient interest or nexus..."                |
+| zmsc/2022/01  |  519 KB   | "A delivered judgment is enforceable immediately; embodiment under Rule 75 is not a prerequisite..." |
+
+### Two new near-miss families confirmed (additive to b0541 + b0544)
+
+7. **"Court dismisses ... and allows ..." compound** active third-
+   person-singular present tense (zmcc/2022/27). v0.3.2 anchors are
+   first-person-plural or passive; this surface form is unanchored.
+8. **subject-verb-object active form for grant/refuse** (zmsc/2026/03
+   "Applicants granted leave to appeal", zmcc/2022/30 "Joinder
+   refused"). v0.3.2 expects `<noun> (is) granted` or `court refused
+   <noun>`.
+9. **Pure declaratory holdings — no operative disposition verb**
+   (zmcc/2026/01, zmcc/2024/02, zmcc/2023/05, zmsc/2025/05,
+   zmsc/2022/01). 5 of the 8 candidates this tick fall here —
+   abstract legal propositions in flynote with no enum-mappable
+   verb. Likely require either a `declaratory_holding` outcome enum
+   addition or a flynote-derived inference path.
+
+Combined cohort tracking now spans **24 sampled records** (b0541: 8;
+b0544: 8; b0552: 8) and **≥ 11 distinct anchor-addition families**
+queued for parser v0.3.3.
+
+### Cohort cumulative tracking — unchanged from b0550
+
+- 62 written (unchanged)
+- 51 v0.3.3-pending deferred (unchanged; the 8 reparsed records were
+  already counted from earlier batches; redeferral does not change
+  the count)
+- 37 OCR-pending deferred (unchanged)
+- 40 confirmed 404 (unchanged; this is a reparse tick, no fetches)
+
+### Phase 5 ceiling — unchanged at 159/160
+
+corpus.sqlite, judges_registry.yaml, records/ tree, raw/ tree all
+unchanged this tick. Integrity check trivially PASS for unchanged
+state (records=1849, judgments_meta=159).
+
+### Daily fetch budget
+
+86/500 (unchanged from b0550; this tick consumed 0 fetches).
+
+### Next-tick recommendation
+
+1. **Parser v0.3.3 authoring outside scheduled tick** (highest
+   leverage) — the 11 near-miss families enumerated across b0541,
+   b0544, and b0552 plus subject-verb-object active forms and the
+   `declaratory_holding` outcome enum could unlock 30-40+ of the
+   51-record v0.3.3-pending cohort. The reparse cohort sampling has
+   plateaued: 24 of 51 records sampled, 0 of 24 unlockable under
+   v0.3.2; further reparse ticks under v0.3.2 will continue to
+   produce zero-yield. **Reparse priority (a) is effectively
+   exhausted under v0.3.2.**
+2. **ZMSC 2023 internal-gap probe** (HEAD-only, ~8 fetches) — only
+   9 records on disk; explore upper boundary at nums {10-17}.
+3. **ZMSC 2022 upper-boundary continuation** — 18 records on disk;
+   b0522 left upper boundary unresolved.
+4. **OCR backfill workflow for the 37 OCR-pending records** — ~269 MB,
+   needs Tesseract outside sandbox.
+
+### Sandbox-lock observation
+
+Pre-tick stale `.git/ORIG_HEAD.lock` (FUSE-pinned) — `git pull
+--ff-only` proceeded successfully despite the unlink failure
+(repository was already up to date).

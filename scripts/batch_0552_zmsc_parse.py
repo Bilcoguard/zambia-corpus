@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+"""Batch 0552 — judgment-ingestion-worker dedicated tick (parse phase).
+
+Thin wrapper around scripts/batch_0506_zmsc_parse.py. Re-points the work
+directory and TARGETS_JSON at _work/b0552/, then re-runs the existing
+parser_v0.3.2 pipeline. No parser changes.
+
+Priority (a) REPARSE DEFERRED — 8 unsampled v0.3.3-pending candidates
+(distinct from b0541 and b0544 samples).
+"""
+import pathlib
+import sys
+
+HERE = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE))
+
+import batch_0506_zmsc_parse as p  # noqa: E402
+
+ROOT = HERE.parent
+WORK = ROOT / "_work" / "b0552"
+WORK.mkdir(parents=True, exist_ok=True)
+TARGETS = WORK / "targets.json"
+
+p.WORK = WORK
+p.TARGETS_JSON = TARGETS
+
+
+if __name__ == "__main__":
+    p.main()
