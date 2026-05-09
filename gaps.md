@@ -5071,3 +5071,92 @@ tick. `approvals.yaml` was NOT modified.
   `scripts/certs/*.pem` PKI loader.
 - Full per-fetch JSON: `reports/batch-0548-reverify.json`.
 - Markdown summary: `reports/batch-0548-report.md`.
+
+## Phase 8 — Nightly re-verification, batch 0549 (2026-05-09 UTC, third tick of day)
+
+Seventh Phase 8 tick overall; third of UTC date 2026-05-09 (after
+b0546 and b0548). Tick-suffixed seed `phase8-reverify-2026-05-09-b0549`
+draws a fresh independent sample (different from b0546 and b0548).
+Pool unchanged at 1853. Sample size 8.
+
+### Verdict counts
+
+| Verdict | Count |
+|---------|------:|
+| match | 4 |
+| drift | 4 |
+| fetch_error | 0 |
+| truncated_stored_hash_false_drift | 0 |
+| **total** | **8** |
+
+### 4 drift entries — all zambialii.org `/akn/...` HTML rendering URLs
+
+Established `content_changed_full_drift` pattern; not a record
+data-quality issue. The `/akn/` HTML rendering surface at zambialii.org
+re-renders in a non-deterministic byte-equivalent way each fetch
+(pattern reproduces for the **seventh** consecutive tick across
+b0524 / b0533 / b0538 / b0545 / b0546 / b0548 / b0549; cumulative
+HTML-URL drift count is 34/34). No record action — re-fetch and re-hash
+would just record a new transient drift hash.
+
+| Record id | Source URL | Stored sha256 | Re-fetched sha256 | Bytes (new) | Sub-kind |
+|-----------|------------|---------------|-------------------|------------:|----------|
+| `act-zm-1940-038-pharmacy-and-poisons-act-1940` | https://zambialii.org/akn/zm/act/1940/38/eng@1996-12-31 | `b04ac5b446400121cd54d9dd720961d6934d02801b9a1114be0e8820504b98e2` | `d3f685c449df45b27e055bf71ce635ebf7e08aa1d95bd0b40d3c894deb4fd1d7` | 132,692 | `content_changed_full_drift` |
+| `act-zm-1965-008-provincial-and-district-boundaries-act-1965` | https://zambialii.org/akn/zm/act/1965/8/eng@1996-12-31 | `7f8a57adc563cfd605bced445541847f7363efc1ae5668413a033b5c86bd1b86` | `67acb1c3b18127492e6610aacda92218bba344e708eff6b36d8b19a2c6d121a4` | 40,613 | `content_changed_full_drift` |
+| `act-zm-1995-004-value-added-tax-act-1995` | https://zambialii.org/akn/zm/act/1995/4/eng@1996-12-31 | `eac9faee6bf1087886ce5c13f2251efa71f5a9d982efc71d8f7d3afafe2112ff` | `1539ce7170ea240207e5b0d8c1761e2b8b3339ad3f9345cd7159f86ec2db929e` | 389,125 | `content_changed_full_drift` |
+| `act-zm-cap-268-employment-act` | https://zambialii.org/akn/zm/act/1965/32/eng@1996-12-31 | `a040fe440c7ca73e9b4865798b19b882f9ad7035b9305157f8f547d0ed88c8c2` | `6f66ef24a49b6cd95cde4bf588040eb9aa8b384a7326be85fb1102890f24a18a` | 57,719 | `content_changed_full_drift` |
+
+### Cross-tick observation — `act-zm-cap-268-employment-act` resampled
+
+This record was previously sampled and logged with a fetched-hash of
+`4fb6bd465c687e8636a14f7ec6064d21e0e4c36bbedec36b91450c3400f6e8a3` in
+an earlier tick. b0549 produces a third distinct fetched-hash
+(`6f66ef24a49b6cd95cde4bf588040eb9aa8b384a7326be85fb1102890f24a18a`)
+for the same URL, while bytes_len is identical at 57,719. This is a
+**counter-example** to the b0545 finding that within-window cross-tick
+re-sample shows identical hashes; the implication is that the
+zambialii.org `/akn/` HTML rendering layer carries some slow
+time-varying byte content (likely embed timestamps, anti-CSRF tokens,
+or per-day asset cache-busters). Reinforces conclusion that
+re-verification of `/akn/` HTML URLs should be skipped or handled
+under a "content-equivalence" verdict (vs. byte-equality) rather than
+re-recorded each tick. Open question for future Phase 8 design;
+**not** a record-data-quality issue.
+
+### 4 match entries — stable PDF endpoints
+
+| Record id | URL | Endpoint kind |
+|-----------|-----|---------------|
+| `act-zm-2011-018-trades-licensing-repeal-act-2011` | `https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Trades%20Licensing%20%20Act%2C%202011.pdf` | parliament.gov.zm static PDF |
+| `act-zm-2018-011-the-constituency-development-fund-act-2018` | `https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Constituency%20Development%20Fund%20Act%20No.%2011%20of%20%202018.pdf` | parliament.gov.zm static PDF |
+| `act-zm-2019-009-zambia-medicines-and-medical-supplies-agency-act-2` | `https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Zambia%20Medicines%20and%20Medical%20Supplies%20Agency.%20Act%20No.%209.pdf` | parliament.gov.zm static PDF |
+| `si-zm-1997-015-taxation-provisional-charging-order-1997` | `https://zambialii.org/akn/zm/act/si/1997/15/eng@1997-01-31/source.pdf` | zambialii.org `/source.pdf` PDF endpoint (redirected to `media.zambialii.org/.../source_file/`) |
+
+Cumulative stable PDF matches now 21/21 across all seven Phase 8
+ticks.
+
+### Truncated-stored-hash sweep
+
+Zero truncated-stored-hash false drifts in this sample. The b0546
+finding (`act-zm-2020-023-vat-amendment` had a 16-hex-char
+`source_hash`) was not re-encountered. Corpus-wide hash-length audit
+remains a separate repair-phase task; not Phase 8 scope.
+
+### Records mutated
+
+**None.** Phase 8 is read-only on the corpus. `corpus.sqlite`,
+`judges_registry.yaml`, `records/`, and `raw/` are all unchanged this
+tick. `approvals.yaml` was NOT modified.
+
+### Reproducibility
+
+- Sample seed: `phase8-reverify-2026-05-09-b0549` (deterministic;
+  tick-suffixed because this is the third tick of the UTC date and
+  the date-only seed had already been used by b0546).
+- Execution mode: inline runner (no derivative
+  `scripts/batch_0549_phase8_reverify.py` committed this tick due to
+  sandbox-session safety constraint, per b0548 precedent).
+  Functionality matches the `scripts/batch_0546_phase8_reverify.py`
+  baseline including the `scripts/certs/*.pem` PKI loader.
+- Full per-fetch JSON: `reports/batch-0549-reverify.json`.
+- Markdown summary: `reports/batch-0549-report.md`.

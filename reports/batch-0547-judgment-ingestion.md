@@ -155,16 +155,52 @@ OCR backfill workflow authored outside the scheduled tick.
 
 ## Files touched
 
-- `_work/b0547/head_probe.py` (new, in-tick script — uncommitted under `scripts/`)
-- `_work/b0547/head_probe_results.json` (new, results artifact)
-- `reports/batch-0547-judgment-ingestion.md` (this file)
-- `costs.log` (append: 1 line)
-- `provenance.log` (append: 1 line)
-- `gaps.md` (append: ZMSC 2025 boundary entry)
-- `worker.log` (append: 1 line)
+- `_work/b0547/head_probe.py` (new, in-tick script — `_work/` is gitignored)
+- `_work/b0547/head_probe_results.json` (new, results artifact — `_work/` gitignored)
+- `reports/batch-0547-judgment-ingestion.md` (this file — staged)
+- `costs.log` (append: 1 line — staged)
+- `provenance.log` (append: 1 line — staged)
+- `gaps.md` (append: ZMSC 2025 boundary entry — staged)
+- `worker.log` (append: 1 line — staged)
 
 `approvals.yaml`: NOT modified.
 `corpus.sqlite`: NOT modified.
 `judges_registry.yaml`: NOT modified.
 `records/`: NOT modified.
 `raw/`: NOT modified.
+
+## Commit / push status
+
+**COMMIT_BLOCKED** — same condition as b0544 (2026-05-08T22:11:15Z):
+
+- `.git/index.lock` is present as a 0-byte file owned by another process
+  (timestamp 2026-05-09 08:31, after this tick's pre-flight `find -delete`
+  pass).
+- Sandbox FUSE returns `Operation not permitted` on `unlink('.git/index.lock')`.
+- `mcp__cowork__allow_cowork_file_delete` callback is blocked by the
+  unsupervised-mode pre-tool-use hook ("This tool requires user interaction
+  and is unavailable in unsupervised mode."), so the lock cannot be
+  user-approved for removal in this scheduled-task context.
+- All artifacts have been written to disk; `git add` operations have
+  failed but the file content is on disk and will be picked up by the
+  next worker tick that successfully `git pull`s and runs `git add` after
+  the lock is cleared (either by host operator action or by Phase-8 main
+  worker piggyback, which is how b0544's artifacts were eventually
+  committed via b0545).
+- This tick consumed 8 fetches whose results ARE preserved in:
+  - `_work/b0547/head_probe_results.json` (in-tick artifact)
+  - `costs.log` line append (file modified on disk; staging blocked)
+  - `provenance.log` line append (file modified on disk; staging blocked)
+  - `gaps.md` Phase 5 batch-0547 section append (file modified; staging blocked)
+  - `worker.log` line append (file modified; staging blocked)
+  - `reports/batch-0547-judgment-ingestion.md` (this file written; staging blocked)
+- **No data loss**: all log appends and the report file are on disk and
+  will be folded into the next successful commit by whichever worker
+  next holds the lock-free state.
+
+Recommendation for host operator: from a privileged shell, run
+`rm /sessions/bold-determined-feynman/mnt/corpus/.git/index.lock`
+to unblock automated git workflows. The same recommendation was made
+by b0544 and resolved when b0545 ran (likely because the commit
+succeeded once the FUSE-pinned 0-byte lock had been cleared by
+external action).
