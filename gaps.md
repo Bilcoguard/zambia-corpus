@@ -4662,3 +4662,96 @@ unresolved; 1 internal 404 at num=80).
    awaits a parser v0.3.3 patch (succeeds/fails / remitted /
    set-aside-from-jurisdiction-finding) authored outside the
    scheduled tick.
+
+## Batch 0544 update (2026-05-09) — REPARSE DEFERRED priority (a)
+
+**Tick decision**: Priority (a) REPARSE DEFERRED per task instructions
+(deferred records with raw on disk should be reparsed first under
+v0.3.2+ patterns, zero fetch cost). Selected the 8 smallest-PDF
+deferred records from `raw/zambialii/judgments/` (97 KB to 286 KB) on
+the hypothesis that small PDFs are most likely to be text-extractable
+and most likely to surface previously-missed v0.3.2 matches.
+
+### Reparse results — all 8 redeferred under same reason code
+
+All 8 PDFs extracted text successfully (>200 chars; none scanned).
+None of the HTML summaries or PDF tail anchors matched any v0.3.2
+operative-verb pattern. All 8 redeferred under
+`html_no_summary_pdf_no_match` — they remain in the v0.3.3-pending
+cohort.
+
+| court / num   | PDF size | summary head excerpt                                                        |
+|---------------|---------:|------------------------------------------------------------------------------|
+| zmsc/2022/61  |   97 KB  | "Court refused a late amendment..."                                          |
+| zmsc/2022/54  |  113 KB  | "...sustained appellant's conviction for aggravated..."                      |
+| zmcc/2023/27  |  178 KB  | "...dismissed as personalised, contentious and..."                           |
+| zmsc/2024/22  |  184 KB  | "...upheld a court-martial conviction..."                                    |
+| zmsc/2026/2   |  184 KB  | "Applicants failed to show a point of public importance..."                  |
+| zmsc/2024/18  |  185 KB  | "The State successfully appealed...sentence was quashed..."                  |
+| zmsc/2022/46  |  239 KB  | "Chief's alleged withdrawal or consent could not validly extinguish..."      |
+| zmsc/2022/2   |  286 KB  | "Respondents granted 14-day extension where lack of notice..."               |
+
+### Six distinct near-miss pattern families confirmed
+
+The reparse exercise materially advances the v0.3.3 patch design by
+confirming six distinct near-miss families, on top of the three
+enumerated in b0541:
+
+1. **"Court refused" + non-stay object** (zmsc/2022/61): v0.3.2 only
+   matches `court refused (a) (the) stay`. Needs broadening to
+   `court refused (the|to) (grant|allow|permit) <object>`.
+2. **"upheld <conviction|sentence|judgment>" past tense / passive**
+   (zmsc/2022/54, zmsc/2024/22): "sustained" not in verb list;
+   upheld-with-direct-object form not anchored.
+3. **"failed to show / failed to establish" → dismissed inference**
+   (zmsc/2026/2, zmcc/2023/27): operative finding is failure of a
+   threshold test; v0.3.2 requires explicit "appeal/application is
+   dismissed" rather than the inference.
+4. **"successfully appealed" + passive "was quashed"** (zmsc/2024/18):
+   v0.3.2's quashed anchor is TAIL-ONLY; passive in summary not
+   picked up.
+5. **"granted <extension|adjournment|leave-related-noun>"** (zmsc/2022/2):
+   v0.3.2 anchor `<noun> (is) granted` requires noun in closed list;
+   "extension" not in the list.
+6. **"dismissed as personalised, contentious"** (zmcc/2023/27):
+   v0.3.2's `dismissed for (lack|failing|want|failure)` adjunct is a
+   closed list; "dismissed as <adjective>" falls outside.
+
+Combined with b0541's three patterns (succeeds/fails / remitted /
+jurisdictional set-aside), there are now **≥ 9 distinct anchor
+additions** queued for parser v0.3.3.
+
+### Cohort cumulative tracking — unchanged from b0543
+
+- 62 written
+- 51 v0.3.3-pending deferred (the 8 reparsed records were already
+  counted in this cohort from earlier batches; redeferral does not
+  double-count)
+- 37 OCR-pending deferred
+- 27 confirmed 404
+
+### Phase 5 ceiling — unchanged at 159/160
+
+corpus.sqlite, judges_registry.yaml, records/ tree, raw/ tree all
+unchanged this tick. Integrity check trivially PASS for unchanged
+state.
+
+### Daily fetch budget today
+
+70/500 (unchanged from b0543; this tick consumed 0 fetches).
+
+### Next-tick recommendation
+
+The reparse-only path is now confirmed exhausted under the v0.3.2
+baseline — the 51-record v0.3.3-pending cohort cannot move under
+parser-modification freeze. Productive options:
+
+1. **ZMSC 2020 internal-gap GET sweep at nums 81-89** (8 fetches,
+   expect ~3-4 written). Phase 5 ceiling at 160 — would push to
+   162-163; either the ceiling needs lifting, or write only 1.
+2. **ZMSC 2020 upper-boundary HEAD-only probe at {95, 100, 105, 110,
+   115, 120, 130, 150}** (8 fetches, mostly 404 expected, zero
+   written) — pure informational tick.
+3. **Author parser v0.3.3 patches outside the scheduled tick** to
+   unlock ~30+ of the 51-record v0.3.3-pending cohort in a single
+   dedicated parser tick.

@@ -3983,3 +3983,4 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
   judges_registry: +1 (Muyovwe JS)
   corpus.sqlite: records 1846 -> 1849; judgments_meta 156 -> 159
   integrity_check: PASS (3/3 records; 159 unique IDs corpus-wide)
+2026-05-08T22:11:15Z	batch-0544	worker=judgment-ingestion-worker	action=reparse-deferred	parser_version=0.3.2	targets=8	written=0	deferred=8	reason=html_no_summary_pdf_no_match	scope=v0.3.3-pending-cohort-smallest-PDFs-97KB-to-286KB	cohort_unchanged=true	corpus_sqlite_unchanged=true	judges_registry_unchanged=true	ceiling=159/160
