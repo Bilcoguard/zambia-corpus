@@ -5992,3 +5992,113 @@ No records mutated. Integrity 8/8 PASS (stored source_hash unchanged on disk pre
 ### Phase 8 evolution recommendation (standing — carries forward)
 
 After 18 ticks the pattern is unequivocal: stable-PDF cohort (62 ticks, 0 drifts) versus rendered-HTML cohort (59 act/SI + 7 judgment + 1 parliament-node = 67 drifts, 1 match). Operator action recommended: either (a) move Phase 8 to text-extraction-stable hashing for HTML endpoints, or (b) restrict Phase 8 to stable-PDF endpoints only. No action taken this tick — operator decision pending.
+
+## Batch 0568 — judgment-ingestion-worker (2026-05-10)
+
+### Tick scope
+
+- Priority (a) reparse: skipped (v0.3.2 cannot move v0.3.3-pending cohort; standing per b0552/b0557/b0558/b0559/b0560/b0561/b0564/b0565/b0566)
+- Priority (b) SCZ sweep: skipped (ZMSC 2024-2025-2026 confirmed exhausted by b0547/b0550/b0558)
+- Priority (c) chosen: ZMCC 2018 close upper boundary HEAD-probe + GET-fetch high-num cluster per b0566 next-tick recommendation #1
+
+### HEAD-probe ZMCC 2018 upper-boundary {16, 17, 18, 19}
+
+| num | result | redirect target |
+|-----|--------|-----------------|
+| 16  | 200    | eng@2018-06-20  |
+| 17  | 200    | eng@2018-06-22  |
+| 18  | 404    | —               |
+| 19  | 404    | —               |
+
+Boundary closed. **Upper bound: num 17.** Two consecutive 404s {18,19} + prior b0566 404s {20,25} = strong sentinel.
+
+### GET-fetch results ZMCC 2018 {9..16}
+
+All 8 nums 200 OK on both HTML and PDF endpoints. Date sequence ascending. Note: zmcc/2018/{12,13,14} share an identical 4,223,477-byte PDF (zambia-national-commercial-bank-plc-v-musonda-and...) — publisher-level anomaly preserved as-fetched.
+
+### Records written this tick (0)
+
+None.
+
+### Records deferred this tick (8)
+
+#### OCR-pending (+2) — `pdf_extraction_empty_likely_scanned`
+
+- zmcc/2018/9 — *Imbuwa v Mundia* — scanned PDF (7.9MB image-only)
+- zmcc/2018/11 — *Chisanga v Chisopa and others* — scanned PDF (8.0MB image-only)
+
+#### v0.3.3-pending (+6) — `html_no_summary_pdf_no_match`
+
+- zmcc/2018/10 — *Pule and Others v Attorney-General and Others* — small native PDF (379KB), text extracted, no v0.3.2 anchor match
+- zmcc/2018/12 — *Zambia National Commercial Bank Plc v Musonda* — text extracted, no v0.3.2 anchor match
+- zmcc/2018/13 — same case, duplicate publish
+- zmcc/2018/14 — same case, duplicate publish
+- zmcc/2018/15 — *Subulwa v Mandandi* — text extracted, no v0.3.2 anchor match
+- zmcc/2018/16 — *Shabula v Monde* — text extracted, no v0.3.2 anchor match
+
+### Cohort tallies after b0568
+
+| Cohort                | Pre-b0568 | Δ | Post-b0568 |
+|-----------------------|----------:|--:|-----------:|
+| v0.3.3-pending        |        74 | +6| **80**     |
+| OCR-pending           |        12 | +2| **14**     |
+| Records written       |       171 | 0 | **171**    |
+
+### ZMCC 2018 — dimensional summary post-b0568
+
+- Published nums (HEAD/GET-confirmed 200): {1..17} (with internal-gap pattern unverified for {2..4, 6..9, 11..14}; all returned 200 on GET so confirmed)
+- HEAD-404 sentinels: {18, 19, 20, 25}
+- Un-fetched published nums: {17} only
+- Cohort split: 1 written (zmcc/2018/1) + 9 OCR-pending {2..9, 11} + 6 v0.3.3-pending {10, 12..16} = 16 covered + 1 un-fetched {17} = 17 total
+
+### Un-fetched published nums
+
+- {17} — only one ZMCC 2018 published num remains un-GET-fetched
+
+### Next-tick recommendation
+
+1. **ZMCC 2018 final-1 GET-fetch** — fetch num 17 to fully cover ZMCC 2018, then close the year.
+2. **ZMCC 2017 sparse HEAD probe** — start next-year discovery via `{1, 5, 10, 15, 20, 25}` per b0560/b0566 pattern. ZMCC 2017 is the inaugural year of the Constitutional Court of Zambia (post-2016 constitutional amendment establishing the court).
+3. **Standing**: parser_v0.3.3 anchor pack authoring (80 records pending — predominantly ZMCC 2017–2020 declaratory-holding sample). Operator action recommended.
+4. **Standing**: OCR pipeline implementation (14 records pending — ZMCC 2018 ×9 + ZMCC 2020 ×5). Operator action recommended.
+5. **Standing**: operator action on Phase 5 ceiling 171/160 (+11 above sentinel; unchanged this tick since 0 records written).
+
+## [2026-05-10 b0569 — Phase 8 nightly reverify NEW FINDING]
+
+**parliament.gov.zm static-PDF first-ever drift observation**
+
+- Record id: `act-zm-2020-014-mutual-legal-assistance-in-criminal-matters-amendment-act-20`
+- Source URL: `https://www.parliament.gov.zm/sites/default/files/documents/acts/Mutual%20Legal%20Assistance%20in%20Criminal%20Matters%20Amendment%2C%202020.pdf`
+- Stored sha256: `<see provenance.log entry batch=0569 ts=2026-05-10T10:35Z>`
+- Fetched sha256 (this tick): differs from stored
+- Fetched bytes len: 20,587
+- Fetched status: 200 OK
+- Verdict: drift
+- Action this tick: **NONE** — record file is NOT mutated. Logged for human
+  review per non-negotiable #2 (provenance is sacred) and the Phase 8
+  non-mutation contract.
+
+**Why this matters.** Across 19 prior Phase 8 ticks (b0524..b0568) the
+parliament.gov.zm static-PDF cohort has returned a cumulative 65/65
+match (100% stable). This is the first observed drift on that cohort.
+The AKN-HTML drift cohort (zambialii.org/akn/.../act-or-SI HTML rendering
+URLs) has been at 64/64 → 67/67 drift across the same period, so the
+two-cohort split (stable-PDF vs HTML-render) was previously deterministic.
+This finding partially breaks that split.
+
+**Possible explanations** (NOT investigated this tick):
+1. Publisher re-issued the PDF (metadata refresh, watermark change,
+   ToolChain re-render) since original ingestion in b0xxx (year unknown
+   from this tick's data — operator can resolve via `git log -- records/`).
+2. CDN edge variation — though parliament.gov.zm has not previously shown
+   CDN-edge instability under our User-Agent.
+3. Transient delivery anomaly (partial cache, MIME re-encoding).
+
+**Recommended next-tick follow-up.** Out-of-band single re-fetch of the
+same URL (1 fetch, not part of the deterministic seeded sample) to
+determine whether the new bytes are stable (publisher change) or
+themselves drift (cache instability). If publisher change, this is a
+human decision point: re-ingest the new bytes (assigning a new
+source_hash and parser_version, preserving original via repair-batch
+provenance) vs preserve the original with a "publisher_superseded" flag.
+
