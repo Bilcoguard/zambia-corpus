@@ -6249,3 +6249,104 @@ for full record table and reasoning.
 3. **Standing**: parser_v0.3.3 anchor pack authoring (81 records pending — predominantly ZMCC 2017–2020 declaratory-holding sample). Operator action recommended.
 4. **Standing**: OCR pipeline implementation (20 records pending — ZMCC 2017 ×6 + ZMCC 2018 ×9 + ZMCC 2020 ×5). Operator action recommended.
 5. **Standing**: operator action on Phase 5 ceiling 172/160 (+12 above sentinel).
+
+## b0574 judgment-ingestion-worker — ZMCC 2017 final-1 close + ZMSC 2023 boundary/gap-fill (0 written, 2 deferred, 1 confirmed-404)
+
+**UTC:** 2026-05-10T18:25Z
+**Worker:** judgment-ingestion-worker (scheduled tick)
+**Parser:** parser_v0.3.2 (`scripts/batch_0498_parse.py` → `build_record_v032`)
+**Tick scope:** Priority (c) ZMCC 2017 final-1 GET-fetch (per b0573 next-tick rec #1) + Priority (b) SCZ 2023 upper-bound HEAD probe and intra-range gap-fill {01, 13}
+
+### Tick scope decisions
+
+- **Priority (a) reparse**: skipped — standing per b0571 8-of-8 redeferral evidence; v0.3.2 cannot move v0.3.3-pending or OCR-pending cohorts.
+- **Priority (b) SCZ sweep**: partial — most-recent un-exhausted SCZ year is ZMSC 2023 (per b0547/b0550/b0558 confirming ZMSC 2024-2026 exhausted). Performed upper-boundary HEAD probe + intra-range gap-fill on the two missing nums {01, 13} within the established raw-on-disk range {02..23 minus 13}.
+- **Priority (c) ZMCC**: closed — fetched ZMCC 2017 final-1 (num 8) per b0573 rec #1; ZMCC 2017 now fully GET-fetched (8/8). ZMCC 2016 sparse HEAD probe (b0573 rec #2) deferred to next tick.
+
+### ZMSC 2023 upper-boundary HEAD probe
+
+| num | result | redirect target |
+|-----|--------|-----------------|
+| 24  | 404    | —               |
+| 25  | 404    | —               |
+| 30  | 404    | —               |
+
+Three consecutive 404s above num 23, combined with on-disk raw evidence of nums {2..12, 14..23} (21 records), establish **ZMSC 2023 upper boundary at num 23**. The remaining gap candidates are num 01 and num 13.
+
+### ZMSC 2023 intra-range gap-fill (nums 01, 13)
+
+| num | result | date       | html_bytes | pdf_bytes |
+|-----|--------|------------|-----------:|----------:|
+| 01  | 200    | 2023-03-10 |     44,008 | 1,465,577 |
+| 13  | 404    | —          |          — |         — |
+
+**ZMSC 2023/13 confirmed-404**: not a published num (publisher gap, num skipped). ZMSC 2023 published-nums set is therefore **{1..12, 14..23}** = 22 records total (one less than the raw-file count implied by max-num 23). The 22-vs-23 discrepancy is now closed-form.
+
+### ZMCC 2017 final-1 GET-fetch (num 8)
+
+| num | result | date       | html_bytes | pdf_bytes |
+|-----|--------|------------|-----------:|----------:|
+| 8   | 200    | 2017-11-17 |     38,284 | 6,487,792 |
+
+Case: *Maluba v Mwewa and Another* — html_url https://zambialii.org/akn/zm/judgment/zmcc/2017/8/eng@2017-11-17 — raw_sha256 `bb2b40e4854d9c4f78edbe0d2f93a69c5502ffadc478265fe313a2feec9d45a5`.
+
+PDF size 6.5 MB is characteristic of scanned image-only PDFs, matching the ZMCC 2017 nums {2..7} cohort pattern (PDF text extraction empty likely scanned).
+
+### Records written this tick (0)
+
+None. Both ZMCC 2017/8 and ZMSC 2023/1 candidates returned `record is None` from `build_record_v032`.
+
+### Records deferred this tick (2)
+
+#### OCR-pending (+1) — `pdf_extraction_empty_likely_scanned`
+
+- **zmcc/2017/8** — *Maluba v Mwewa and Another* — 6.5 MB PDF, image-only (confirmed: `pdf_extraction_empty_likely_scanned`). Joins the ZMCC 2017 OCR-pending cohort (now 7 of 8 records in the year). html_url https://zambialii.org/akn/zm/judgment/zmcc/2017/8/eng@2017-11-17 — raw_sha256 `bb2b40e4854d9c4f78edbe0d2f93a69c5502ffadc478265fe313a2feec9d45a5`.
+
+#### v0.3.3-pending (+1) — `html_no_summary_pdf_no_match`
+
+- **zmsc/2023/1** — *Citibank Zambia Ltd v Dudhia* — 1.5 MB native PDF, text extracted, no v0.3.2 operative-verb anchor match. Summary head captured: "One-year deadline to dispose labour complaints should be interpreted purposively; expiry does not automatically divest the court of jurisdiction." Declaratory-holding labour-jurisdiction matter; joins standing v0.3.3-pending cohort.
+
+### Confirmed-404 this tick (1)
+
+- **zmsc/2023/13** — `https://zambialii.org/akn/zm/judgment/zmsc/2023/13/eng` → HTTP 404. Publisher num-skip gap; not a fetch error.
+
+### Cohort tallies after b0574
+
+| Cohort                | Pre-b0574 | Δ   | Post-b0574 |
+|-----------------------|----------:|----:|-----------:|
+| v0.3.3-pending        |        81 |  +1 |     **82** |
+| OCR-pending           |        20 |  +1 |     **21** |
+| Records written       |       172 |   0 |    **172** |
+
+### ZMCC 2017 — dimensional summary post-b0574
+
+- Published nums (HEAD/GET-confirmed 200): {1..8}
+- HEAD-404 sentinels: {9, 10, 15, 20, 25}
+- Un-fetched published nums: **none** — year FULLY GET-fetched (8/8).
+- Cohort split: 1 written {1} + 7 OCR-pending {2..8} + 0 v0.3.3-pending = 8 covered = 8 total.
+- **Year coverage closed.**
+
+### ZMSC 2023 — dimensional summary post-b0574
+
+- Published nums (HEAD/GET-confirmed 200): {1..12, 14..23} = 22 records.
+- HEAD-404 sentinels: {13, 24, 25, 30}.
+- Confirmed publisher-skip gap: {13}.
+- On-disk raw nums: {1..12, 14..23} (all 22 published nums).
+- Records on disk: {4..9, 11, 14, 20} = 9 records written; nums {1, 2, 3, 10, 12, 15..19, 21..23} = 13 records remain deferred (cohort split TBD — partial breakdown: zmsc/2023/1 now v0.3.3-pending after this tick; the others have prior-tick reason codes that should be re-stated in a later audit).
+- **Year coverage closed for GET-fetch.**
+
+### Un-fetched published nums (post-b0574)
+
+- ZMCC 2017: **none** (year closed by b0574)
+- ZMCC 2018: none (year closed by b0573)
+- ZMCC 2019: none (year closed by b0565)
+- ZMCC 2020: none (year closed by b0560)
+- ZMSC 2023: **none** (year closed by b0574)
+
+### Next-tick recommendation
+
+1. **ZMCC 2016 sparse HEAD probe** — investigate whether ZMCC 2016 exists; probe {1, 5, 10, 15, 20, 25}. (Carry-over from b0573 rec #2.) Constitutional Court was established 2016 but first published judgment in raw inventory is dated 2017-01-11; ZMCC 2016 may not exist.
+2. **ZMSC 2022 sparse HEAD probe + GET-fetch of un-fetched nums** — ZMSC 2022 has raw=47 records=18, gap=29; the most recent SCZ year with substantial un-fetched coverage. Priority (b) continuation.
+3. **Standing**: parser_v0.3.3 anchor pack authoring (82 records pending — declaratory-holding labour/employment + Article 157 + arbitrability + jurisdictional cohort). Operator action recommended.
+4. **Standing**: OCR pipeline implementation (21 records pending — ZMCC 2017 ×7 + ZMCC 2018 ×9 + ZMCC 2020 ×5). Operator action recommended.
+5. **Standing**: operator action on Phase 5 ceiling 172/160 (+12 above sentinel).

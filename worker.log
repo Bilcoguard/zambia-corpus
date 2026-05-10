@@ -6243,3 +6243,19 @@ test append
 2026-05-10T17:18:00Z judgment-ingestion-worker batch-0573 reports/batch-0573.md written; gaps.md appended; provenance.log appended (29 entries); costs.log appended
 2026-05-10T17:18:05Z judgment-ingestion-worker batch-0573 B2 sync deferred to host (rclone not in sandbox)
 2026-05-10T17:18:10Z judgment-ingestion-worker batch-0573 STOP next tick in 60 minutes
+[2026-05-10T17:24:00Z] [INFO] [b0573] commit=6282d33 pushed=origin/main b2_sync=deferred-to-host (rclone not in sandbox)
+[2026-05-10T17:24:00Z] [INFO] [b0573] tick complete; next-tick recommendations in reports/batch-0573.md
+
+2026-05-10T18:09:00Z judgment-ingestion-worker batch-0574 START scheduled tick
+[2026-05-10T18:09:00Z] [INFO] [b0574] git pull --ff-only -> Already up to date
+[2026-05-10T18:09:00Z] [INFO] [b0574] budget pre-tick: 103/500 fetches today; 397 remaining
+[2026-05-10T18:09:00Z] [INFO] [b0574] priority decision: (a) skipped per b0571 evidence, (c) ZMCC 2017 final-1 chosen, (b) ZMSC 2023 upper-bound + intra-range gap-fill chosen
+[2026-05-10T18:11:00Z] [INFO] [b0574] fetched zmcc/2017/8 200 OK 38284+6487792 B raw_sha bb2b40e4854d9c4f
+[2026-05-10T18:11:00Z] [INFO] [b0574] head probes zmsc/2023/{24,25,30} -> all 404; upper boundary closed at num 23
+[2026-05-10T18:13:30Z] [INFO] [b0574] fetched zmsc/2023/1 200 OK 44008+1465577 B raw_sha 0bb245306cc5dffb
+[2026-05-10T18:13:40Z] [INFO] [b0574] zmsc/2023/13 -> 404 confirmed publisher num-skip gap
+[2026-05-10T18:14:00Z] [INFO] [b0574] parse: zmcc/2017/8 -> deferred (OCR-pending); zmsc/2023/1 -> deferred (v0.3.3-pending)
+[2026-05-10T18:14:00Z] [INFO] [b0574] records written = 0; records deferred = 2; confirmed-404 = 1
+[2026-05-10T18:14:00Z] [INFO] [b0574] corpus.sqlite unchanged (no records written): records=1862, judgments_meta=172, records_fts=1862, integrity=ok
+[2026-05-10T18:25:00Z] [INFO] [b0574] cohort tallies: v0.3.3-pending 81->82, OCR-pending 20->21, records-written 172 unchanged
+2026-05-10T18:25:00Z judgment-ingestion-worker batch-0574 STOP next tick in 60 minutes
