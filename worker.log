@@ -6259,3 +6259,31 @@ test append
 [2026-05-10T18:14:00Z] [INFO] [b0574] corpus.sqlite unchanged (no records written): records=1862, judgments_meta=172, records_fts=1862, integrity=ok
 [2026-05-10T18:25:00Z] [INFO] [b0574] cohort tallies: v0.3.3-pending 81->82, OCR-pending 20->21, records-written 172 unchanged
 2026-05-10T18:25:00Z judgment-ingestion-worker batch-0574 STOP next tick in 60 minutes
+
+[2026-05-10T18:46:30Z] batch-0575 — phase-8-nightly-reverify worker-tick
+  Pre-tick: git pull --ff-only OK (Already up to date); .git lock cleanup
+    — three /objects/maintenance.lock and /ORIG_HEAD.lock virtiofs
+    'Operation not permitted' warnings logged but non-blocking (consistent
+    with b0570..b0574 sandbox-session pattern).
+  Pool: 1866 (+1 from b0572 1865 due to b0573 jiw zmcc-2017-1 ingestion).
+  Seed: phase8-reverify-2026-05-10-b0575 (tick-suffixed deterministic).
+  Sample: 8 records (= MAX_BATCH cap; ceil(0.01 × 1866) = 19 → capped).
+  Result: 7 match / 1 drift / 0 fetch_error / 0 truncated_stored_hash_false_drift.
+  Verdicts:
+    match    si-zm-1991-042 zambialii akn /eng@/source.pdf 156,398 B
+    match    si-zm-2016-018 media.zambialii.org/media/legislation/ 33,259 B (NEW cohort)
+    match    si-zm-2018-001 zambialii akn /eng@/source.pdf 42,028 B
+    match    si-zm-2019-005 zambialii akn /eng@/source.pdf 132,119 B
+    drift    si-zm-2019-042 zambialii akn /si bare HTML 39,382 B
+    match    si-zm-2003-038 zambialii akn /eng@/source.pdf 3,708,035 B (largest in series)
+    match    act-zm-2010-006 parliament.gov.zm /amendment_act/ 199,419 B
+    match    act-zm-2025-011 parliament.gov.zm /acts/ 19,627 B
+  Integrity check: 8/8 PASS (stored source_hash unchanged on disk pre/post tick).
+  PRAGMA integrity_check: ok. records=1862, records_fts=1862, judgments_meta=172.
+  Phase 8 cumulative across 23 ticks:
+    AKN-HTML drift: 74/74; AKN /eng@/source.pdf match: 9/9; media.zambialii legacy: 1/1 NEW;
+    parliament real-match: 75/75; parliament real-drift: 0/76; parliament truncated: 1/76;
+    judgment-akn drift: 3/10; parliament-node: 0/1; stable-PDF supercohort: 83/85.
+  Daily budget (worker-tick channel): cumulative_today = 73/2000 (3.65%).
+  No records mutated. approvals.yaml not modified. judges_registry.yaml not modified.
+  scripts/batch_0575_phase8_reverify.py NOT committed (sandbox-session safety constraint).
