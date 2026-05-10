@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2016-zmcc-08-noel-siamoondo-and-ors-v-the-electoral-commission",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Noel Siamoondo and Ors v The Electoral Commission of Zambia and Anor (2016/CC/0009) [2016] ZMCC 8 (16 July 2016)",
+  "citation": "[2016] ZMCC 8",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Noel Siamoondo and Ors v The Electoral Commission of Zambia and Anor",
+  "case_number": "2016/CC/0009",
+  "date_decided": "2016-07-16",
+  "judges": [
+    {
+      "name": "Chibomba",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulembe",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "interpretation of articles 60(1)(b) and 266",
+    "political parties' right to sponsor candidates",
+    "councillors; statutory interpretation",
+    "ejusdem generis, expressio unius, purposive vs literal approaches; local government autonomy",
+    "does not prohibit party sponsorship; subsidiary legislation challenge moot where repealed; public interest litigation",
+    "each party to bear own costs."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "petition fails and is dismissed for lacking merit",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "fd47090c5f89dc4609787045273d5f719455c5ed76cfef33a573896f42d0405c",
+  "source_url": "",
+  "source_hash": "sha256:07359ec08ab2dcb8015ecc96b21ad401fac7c9eedee5db56409161b65a509555",
+  "fetched_at": "2026-05-10T19:15:26Z",
+  "parser_version": "0.3.2"
+}

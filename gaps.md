@@ -6350,3 +6350,108 @@ None. Both ZMCC 2017/8 and ZMSC 2023/1 candidates returned `record is None` from
 3. **Standing**: parser_v0.3.3 anchor pack authoring (82 records pending — declaratory-holding labour/employment + Article 157 + arbitrability + jurisdictional cohort). Operator action recommended.
 4. **Standing**: OCR pipeline implementation (21 records pending — ZMCC 2017 ×7 + ZMCC 2018 ×9 + ZMCC 2020 ×5). Operator action recommended.
 5. **Standing**: operator action on Phase 5 ceiling 172/160 (+12 above sentinel).
+
+## b0577 judgment-ingestion-worker — ZMCC 2016 NEW YEAR ingestion (2 written, 6 deferred, 6 confirmed-404)
+
+**UTC:** 2026-05-10T19:18Z
+**Worker:** judgment-ingestion-worker (scheduled tick)
+**Parser:** parser_v0.3.2 (`scripts/batch_0498_parse.py` → `build_record_v032`)
+**Tick scope:** Priority (c) ZMCC 2016 NEW YEAR sparse HEAD probe + boundary refinement + full-year GET-fetch (per b0574 next-tick rec #1) + Priority (b) ZMSC 2022 gap {13..26} sparse HEAD probe (per b0574 next-tick rec #2)
+
+### Tick scope decisions
+
+- **Priority (a) reparse**: skipped — standing per b0571 8-of-8 redeferral evidence; v0.3.2 cannot move v0.3.3-pending or OCR-pending cohorts.
+- **Priority (b) SCZ sweep**: partial — ZMSC 2022 gap {13, 18, 22, 26} HEAD probe. All four return 404 ⇒ supports {13..26} as a complete publisher-skip gap.
+- **Priority (c) ZMCC NEW YEAR**: chosen — ZMCC 2016 first-time ingestion. Sparse probe {1, 5, 10, 15, 20, 25} + boundary refinement {9, 11, 12, 13, 14} + full GET-fetch nums {1..10}.
+
+### ZMCC 2016 sparse HEAD probe
+
+| num | result | redirect target |
+|-----|--------|-----------------|
+| 1   | 200    | eng@2016-08-15  |
+| 5   | 200    | eng@2016-10-31  |
+| 9   | 200    | eng@2016-09-05  |
+| 10  | 200    | eng@2016-12-11  |
+| 11  | 404    | —               |
+| 12  | 404    | —               |
+| 13  | 404    | —               |
+| 14  | 404    | —               |
+| 15  | 404    | —               |
+| 20  | 404    | —               |
+| 25  | 404    | —               |
+
+**Boundary closed at num 10.** Four consecutive 404s {11..14} above the highest confirmed 200.
+
+### ZMCC 2016 GET-fetch results
+
+- Fetched: nums {1, 2, 5, 6, 7, 8, 9, 10} = 8 records on disk
+- Confirmed-404: nums {3, 4} = publisher-skip intra-range gaps
+- ZMCC 2016 published-nums set: **{1, 2, 5, 6, 7, 8, 9, 10}** (8 records total)
+
+### Records written this tick (2)
+
+- **zmcc/2016/8** — *Noel Siamoondo and Ors v The Electoral Commission* — `[2016] ZMCC 8` — outcome `dismissed` ("petition fails and is dismissed for lacking merit") — date 2016-07-16 — judges Chibomba, Mulenga, Mulembe — outcome_source `pdf-tail-2pages`.
+- **zmcc/2016/10** — *Mwiya Mutapwe v Shomeno Dominic* — `[2016] ZMCC 10` — outcome `overturned` ("we set aside the decision") — date 2016-12-11 — judges Sitali, Mulenga, Munalula, Mulembe, Mulonda — outcome_source `pdf-tail-2pages`. Companion case to zmcc/2019/24 already in corpus (separate citation; preserved as distinct records).
+
+### Records deferred this tick (6)
+
+#### v0.3.3-pending (+4) — `html_no_summary_pdf_no_match`
+
+- **zmcc/2016/1** — *Katuka and Law Association of Zambia v Attorney-General* — 4.0 MB native PDF, text extracted. Summary head: "Court held Vice-President may remain until inauguration; Ministers and abolished deputy ministers' post-dissolution tenure …"
+- **zmcc/2016/2** — *Katuka v Electoral Commission of Zambia* — 4.2 MB native PDF, text extracted. Summary head: "Absent formal written notification to the Electoral Commission, media reports and silence do not establish a candidate's …"
+- **zmcc/2016/6** — *Henry Kapoko v The People* — 5.1 MB native PDF, text extracted. Summary head: "Article 118(2)(e) does not abolish procedural rules; sections 207 and 208 remain valid to protect fair trial and truth-f…"
+- **zmcc/2016/9** — *Hakainde Hichilema and Anor v Edgar Chagwa Lungu and Anor* — 0.95 MB native PDF, text extracted. Summary head: "Whether the Constitutional Court may hear a presidential election petition after the constitutionally mandated 14-day pe…" — landmark presidential-election-petition jurisdictional ruling (companion to zmcc/2016/5).
+
+#### OCR-pending (+2) — `pdf_extraction_empty_likely_scanned`
+
+- **zmcc/2016/5** — *Hichilema and Another v Lungu and Others* — 1.0 MB image-only PDF (scanned). **Landmark 2016 presidential-election petition substantive consolidated record.** Operator-prioritisation candidate.
+- **zmcc/2016/7** — *Mulenga Sata v Given Lubinda and Others* — 8.8 MB image-only PDF (scanned).
+
+### Confirmed-404 this tick (6)
+
+- ZMCC 2016: {3, 4, 11, 12, 13, 14} — publisher-skip gaps
+- ZMSC 2022: {13, 18, 22, 26} — HEAD-probe-only (additional sentinels for the {13..26} skip-gap hypothesis; not GET-fetched).
+
+### Cohort tallies after b0577
+
+| Cohort                | Pre-b0577 | Δ   | Post-b0577 |
+|-----------------------|----------:|----:|-----------:|
+| v0.3.3-pending        |        82 |  +4 |     **86** |
+| OCR-pending           |        21 |  +2 |     **23** |
+| Records written       |       172 |  +2 |    **174** |
+
+### ZMCC 2016 — dimensional summary post-b0577 (NEW YEAR)
+
+- Published nums (HEAD/GET-confirmed 200): {1, 2, 5, 6, 7, 8, 9, 10}
+- Confirmed-404 publisher-skip gaps: {3, 4, 11, 12, 13, 14, 15, 20, 25}
+- Cohort split: 2 written {8, 10} + 2 OCR-pending {5, 7} + 4 v0.3.3-pending {1, 2, 6, 9} = 8 covered = 8 total.
+- **Year coverage closed.** Inaugural year of the Constitutional Court of Zambia confirmed.
+
+### ZMSC 2022 — dimensional summary post-b0577
+
+- On-disk raw: nums {1..12, 27..61} = 47 records (unchanged)
+- {13..26} HEAD-probe sentinels (4 of 14 nums probed — all 404): supports {13..26} as a complete publisher-skip gap; total band of 14 skipped nums.
+- Records written: 18 (unchanged).
+- v0.3.3-pending operator action remains the bottleneck for ZMSC 2022 gap closure.
+
+### Un-fetched published nums (post-b0577)
+
+- ZMCC 2016: **none** (year closed by b0577 — NEW)
+- ZMCC 2017: none (year closed by b0574)
+- ZMCC 2018: none (year closed by b0573)
+- ZMCC 2019: none (year closed by b0565)
+- ZMCC 2020: none (year closed by b0560)
+- ZMSC 2023: none (year closed by b0574)
+
+### Sandbox / FUSE notes
+
+corpus.sqlite-journal recovery: initial commit() raised disk-I/O error (FUSE virtiofs rollback-journal interaction). Recovery sequence: restore from `corpus.sqlite.bak.b0575-pre-20260510T191618Z`, truncate orphan journal via `os.open(..., O_TRUNC)`, re-run inserts with `isolation_level=None` + `PRAGMA journal_mode=MEMORY`. Net effect: clean inserts, no orphan journal, integrity_check ok. Pattern continues `_stale_b0521_*` and `_stale_b0553_*` family.
+
+### Next-tick recommendation
+
+1. **ZMCC 2015 sparse HEAD probe** — sentinel-confirm that ZMCC 2015 does not exist (Constitutional Court constitutionally established by Article 127 of the 2016 amended Constitution effective 5 January 2016). Probe {1, 5, 10}.
+2. **ZMSC 2021 sparse HEAD probe + GET-fetch** — only 1 record on disk; most-recent SCZ year with substantial un-fetched coverage. Priority (b) continuation.
+3. **ZMSC 2020 GET-fetch** — only 4 records on disk; raw inventory inspection + gap-fill.
+4. **Standing**: parser_v0.3.3 anchor pack authoring (86 records pending — predominantly ZMCC 2016–2020 declaratory-holding cohort). Operator action recommended.
+5. **Standing**: OCR pipeline implementation (23 records pending — ZMCC 2016 ×2 + ZMCC 2017 ×7 + ZMCC 2018 ×9 + ZMCC 2020 ×5). **Includes the landmark 2016 Hichilema v Lungu presidential-election petition (zmcc/2016/5)** — operator-prioritisation candidate.
+6. **Standing**: operator action on Phase 5 ceiling 174/160 (+14 above sentinel).

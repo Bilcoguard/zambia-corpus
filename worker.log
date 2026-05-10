@@ -6326,3 +6326,22 @@ test append
   corpus.sqlite unchanged: records=1862, records_fts=1862, judgments_meta=172, PRAGMA integrity_check=ok.
   scripts/batch_0576_phase8_reverify.py NOT committed (sandbox-session safety constraint).
 2026-05-10T19:04:49Z worker-tick batch-0576 STOP next tick in 30 minutes
+2026-05-10T19:12Z worker-tick batch-0576 push OK; B2 sync deferred (rclone not available in sandbox)
+2026-05-10T19:18Z judgment-ingestion-worker batch-0577 START
+  Tick scope: priority (c) ZMCC 2016 NEW YEAR + priority (b) ZMSC 2022 gap probe
+  Pre-tick git pull: Already up to date.
+  ZMCC 2016 sparse HEAD probe {1,5,10,15,20,25}: 3 OK, 3 404
+  ZMCC 2016 boundary refine {11,12,13,14}: 4 404 (boundary closed at 10)
+  ZMCC 2016 num 9 HEAD: 200 OK
+  ZMCC 2016 GET-fetch {1..10}: 8 ok, 2 confirmed-404 ({3,4})
+  ZMSC 2022 gap probe {13,18,22,26}: 4 404 (supports {13..26} skip gap)
+  Parser v0.3.2 build_record_v032: 2 written ({8,10}), 6 deferred (4 v0.3.3-pending {1,2,6,9}, 2 OCR-pending {5,7})
+  Records 1862->1864, FTS 1862->1864, judgments_meta 172->174, FTS gap 0
+  PRAGMA integrity_check: ok
+  judges_registry.yaml unchanged (Chibomba, Mulenga, Mulembe, Sitali, Munalula, Mulonda all already present)
+  approvals.yaml NOT modified
+  Total fetches this tick: 29; cumulative today: 140/500
+  Sandbox note: corpus.sqlite-journal recovery via journal_mode=MEMORY + isolation_level=None
+  reports/batch-0577-jiw.md written; gaps.md, costs.log, provenance.log appended
+  scripts/batch_0577_zmcc2016_*.py NOT committed (sandbox-session safety constraint).
+2026-05-10T19:18Z judgment-ingestion-worker batch-0577 STOP next tick in 60 minutes
