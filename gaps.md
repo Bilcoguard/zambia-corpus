@@ -5953,3 +5953,42 @@ Raw HTML+PDF on disk (preserved for OCR reparse). Citations and filenames extrac
 2. **Standing**: parser_v0.3.3 anchor pack authoring (74 records pending, declaratory-holding rich sample, predominantly ZMCC 2019).
 3. **Standing**: OCR pipeline implementation (12 records pending — ZMCC 2020 ×5 + ZMCC 2018 ×7).
 4. **Standing**: operator action on Phase 5 ceiling 171/160 (+11 above sentinel).
+
+## [2026-05-10T10:02:03Z] batch-0567 re-verify drift — eighteenth Phase 8 tick (highest single-tick drift proportion: 6/8)
+
+Eighteenth Phase 8 tick (fourth worker-tick of UTC date 2026-05-10). Pool=1865 (was 1863 at b0565; +2 from b0565 jiw zmcc-2019/24 and b0566 jiw zmcc-2018/1 ingestions now visible to this tick's loader). Sample=8 via tick-suffixed seed `phase8-reverify-2026-05-10-b0567`. **2 match, 6 drift, 0 fetch_error.**
+
+### Match (2) — both stable byte-for-byte parliament.gov.zm static PDFs
+
+- `act-zm-2024-016-the-judiciary-administration-amendment-act-2024` → https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2016%20of%202024%2C%20The%20Judiciary%20Administration.pdf  (parliament.gov.zm `/acts/` static PDF; 276,803 bytes)
+- `act-zm-2010-050-property-transfer-tax-amendment` → https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Property%20Transfer%20Tax%20%28Amendment%29%202010A_0.PDF  (parliament.gov.zm `amendment_act/` static PDF; 41,311 bytes)
+
+### Drift (6) — 4 act-akn-HTML + 1 SI-akn-HTML pair (counted as 2 SI rows below) + 1 judgment-akn-HTML
+
+| Record id | Source URL | Stored sha256 | Re-fetched sha256 | Bytes (new) | Sub-kind |
+|-----------|------------|---------------|-------------------|------------:|----------|
+| `act-zm-1930-028-petroleum-act-1930` | https://zambialii.org/akn/zm/act/1930/28/eng@1996-12-31 | `21759f928f20e36dc61457ad13458759fedb9cb0f42863c6ff1447f9fca6bc65` | `f00af538bc12577820c0d84e2c193cae349da3c3a9af7cd729d6cd8f1f348231` | 51,258 | `content_changed_full_drift_akn_html` |
+| `judgment-zm-2023-zmcc-02-mwanza-v-attorney-general` | https://zambialii.org/akn/zm/judgment/zmcc/2023/2/eng@2023-03-02 | `326abcac064b91962d494ae790d66785d72f2ab94be015d87295b8c0f7d2f3bb` | `e67fa9c4000eeb8618a47438854e62ea6cc563055419f9ab525635b4785d3d2c` | 45,379 | `content_changed_full_drift_judgment_akn_html` |
+| `act-zm-1988-015-supplementary-appropriation-1986-act-1988` | https://zambialii.org/akn/zm/act/1988/15/eng@1988-04-22 | `6c06b77bb993819ff10706bb599db4e1b6dac2045ff0ebd8ef7991ca0693a70a` | `450c665046844d6a44bd0a5bee9b725f81e60f142bd1af8a00a162ed1d4d8b1d` | 38,783 | `content_changed_full_drift_akn_html` |
+| `act-zm-1976-034-valuation-surveyors-act-1976` | https://zambialii.org/akn/zm/act/1976/34 | `fffe4bc6af50b3d3a3afab1a330ad1c235e9e603c98ff75e41795221f6290fc9` | `58ee347aff81370d3da4c336d7c3bb39386654f1b1e6d63fadd4de5287721fb6` | 71,365 | `content_changed_full_drift_akn_html` (bare path, no `/eng@` suffix) |
+| `si-zm-2018-007-railways-transportation-of-heavy-goods-regulations-2018` | https://zambialii.org/akn/zm/act/si/2018/7 | `100301fb09de96e97e633731ae2ca213c6a9a0869b725a785f2d2f0995b2f2fc` | `f600bf2823e86d880ff077b96a184b06fb7c0393921f323afbf65c37b8c61b3a` | 39,189 | `content_changed_full_drift_akn_html` (bare path, no `/eng@` suffix) |
+| `si-zm-2021-055-metrology-measuring-instruments-regulations-2021` | https://zambialii.org/akn/zm/act/si/2021/55 | `5cd3abac20b728ca75a81ee7d563acffa0b0198df247690f354020c13f022137` | `5c9375e976583429627976b9f63a7eebab9e8e8a94dc678fb05f03b41563dbd9` | 38,996 | `content_changed_full_drift_akn_html` (bare path, no `/eng@` suffix) |
+
+### URL-family verdicts this tick
+
+- **NEW**: highest single-tick drift proportion in the 18-tick series — 6/8 = 75%. Sample contained 6 zambialii AKN-HTML URLs (3 act with `/eng@` suffix, 1 act bare-path, 2 SI bare-path, 1 judgment with `/eng@` suffix) and only 2 stable parliament.gov.zm static PDFs under the deterministic seed `phase8-reverify-2026-05-10-b0567`. All 6 AKN-HTML URLs drifted; both parliament PDFs matched.
+- **NEW**: `act-zm-1930-028-petroleum-act-1930` is the earliest-year record sampled in any Phase 8 tick to date (1930 < prior-earliest 1929 dairies via b0533) — drift in act-akn-HTML rendering is therefore confirmed across the full chronological span of the Acts cohort.
+- Cumulative judgment-/akn/-HTML drift rate: 7/8 = ~88% (n=8) per b0565 trend continuation.
+
+### Cumulative across 18 ticks
+
+- zambialii.org /akn/ act-or-SI HTML drift now reproduces 59/59 (was 54/54 at b0565; +5 this tick)
+- stable PDF matches (zambialii `source.pdf` + parliament.gov.zm static + media.zambialii.org `source_file`) now reproduce 62/62 (was 60/60 at b0565; +2 this tick)
+- judgment-akn-HTML: 1m/7d (was 1m/6d at b0565; +1 drift this tick)
+- parliament-/node/-landing-page: 0m/1d (unchanged; no node URL in this sample)
+
+No records mutated. Integrity 8/8 PASS (stored source_hash unchanged on disk pre/post tick). See reports/batch-0567.md and reports/batch-0567-reverify.json.
+
+### Phase 8 evolution recommendation (standing — carries forward)
+
+After 18 ticks the pattern is unequivocal: stable-PDF cohort (62 ticks, 0 drifts) versus rendered-HTML cohort (59 act/SI + 7 judgment + 1 parliament-node = 67 drifts, 1 match). Operator action recommended: either (a) move Phase 8 to text-extraction-stable hashing for HTML endpoints, or (b) restrict Phase 8 to stable-PDF endpoints only. No action taken this tick — operator decision pending.
