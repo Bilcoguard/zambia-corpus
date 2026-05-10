@@ -6102,3 +6102,62 @@ human decision point: re-ingest the new bytes (assigning a new
 source_hash and parser_version, preserving original via repair-batch
 provenance) vs preserve the original with a "publisher_superseded" flag.
 
+
+## [2026-05-10 b0570 — Phase 8 nightly reverify — TRUNCATED STORED HASH PROVENANCE GAP]
+
+**Severity:** non-negotiable #2 (provenance is sacred) is partly
+underfulfilled for 15 records.
+
+**Discovery:** the b0570 worker-tick out-of-band re-fetch of
+`act-zm-2020-014-mutual-legal-assistance-in-criminal-matters-amendment-act-20`
+(performed to confirm/refute the b0569 first-ever parliament.gov.zm
+static-PDF drift) returned the SAME 20,587-byte payload as b0569 with
+recomputed sha-256
+`fa634586487c096fc30ef594a48f939e6c84bb62aad7e690878e325badf8bc62`.
+The stored `source_hash` in the record file is `sha256:fa634586487c096f` —
+ONLY 16 hex characters / 8 bytes / 64 bits. The recomputed full-length
+sha-256 begins with the stored prefix character-for-character, so the bytes
+are unchanged — the issue is purely with what was originally persisted.
+
+**Scope:** a pre-tick scan of `records/**/*.json` found **15 records** with
+stored `source_hash` of length 16 (8 bytes / 64 bits) instead of the
+canonical 64 hex (32 bytes / 256 bits). All 15 are
+`https://www.parliament.gov.zm/sites/default/files/documents/...` static
+PDFs ingested by `parser_version: parliament-pdf-v1.2`. The legacy fetcher
+appears to have stored a 16-hex prefix instead of the full sha-256 digest
+(possibly a bytes-vs-hex serialisation bug, possibly a `[:16]` slice).
+Eight identified to date:
+
+- act-zm-2020-009-excess-expenditure-appropriation-2020-act-2020 (`b4cc3b91fa9644c1`)
+- act-zm-2020-011-land-perpetual-succession-amendment-act-2020 (`f76a78d3db073b19`)
+- act-zm-2020-012-companies-amendment-act-2020 (`bc5fb904bb25c673`)
+- act-zm-2020-013-non-governmental-organisations-amendment-act-2020 (`7133d9ed00d4d03d`)
+- act-zm-2020-014-mutual-legal-assistance-in-criminal-matters-amendment-act-20 (`fa634586487c096f`)
+- act-zm-2020-015-extradition-amendment-act-2020 (`9524ee07676e6e90`)
+- act-zm-2020-017-supplementary-appropriation-2020-act-2020 (`c3c4df59be8334c4`)
+- act-zm-2020-019-zambia-national-public-health-institute-act-2020 (`de3e14baaecfaf16`)
+- act-zm-2020-024-skills-development-levy-amendment-act-2020 (`966825e257ac241a`)
+- (6 further IDs to be enumerated by a re-scan)
+
+**Implication for the b0569 finding:** the b0569 "first-ever parliament.gov.zm
+static-PDF drift" finding for act-zm-2020-014 is REFUTED. The recomputed
+20,587-byte payload's full sha-256 begins with the stored 16-hex prefix —
+the artefact is unchanged at the byte level and the previous "drift"
+verdict was a stored-prefix artefact, not a publisher change. The
+parliament.gov.zm static-PDF real-drift cohort is back at 0/N (now 0/71
+cumulative across 21 ticks).
+
+**Operator decision required (Peter):** authorise a one-off re-ingestion
+of the 15 records to bring stored `source_hash` to full 64-hex precision
+under a new `parser_version: parliament-pdf-v1.3` to preserve provenance
+audit trail. This would be a **mutation of records** and must therefore
+be approved as a new phase or as a Phase 8 mutation exception by Peter
+before the worker performs it. Per non-negotiable #4, the worker did
+NOT flip any approved/complete flag and did NOT mutate any record this
+tick. The candidate v1.3 ingestion would also append a
+`source_hash_v1` field preserving the legacy 16-hex prefix for full
+audit traceability.
+
+**Cross-reference:** see `reports/batch-0570.md` § "NEW FINDING (b0570)"
+for full record table and reasoning.
+
