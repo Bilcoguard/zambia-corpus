@@ -5815,3 +5815,39 @@ ZMCC 2019 records written: 2 → **5** (nums 1, 16, 20, 21, 22). Raw on disk: 8 
 2. **ZMCC 2018 HEAD probe** — start next-year discovery (sparse {1, 5, 10, 15, 20, 25} per b0560 pattern) once 2019 is fully fetched.
 3. **Standing**: parser_v0.3.3 anchor pack authoring (73 records pending) and OCR pipeline implementation (5 records pending) remain out-of-tick operator tasks.
 4. **Standing**: operator action on Phase 5 ceiling 169/160 (now 9 above sentinel after b0564 +3; recommend extend or close).
+
+## [2026-05-10T09:09:35Z] batch-0565 re-verify drift — seventeenth Phase 8 tick (NEW: media.zambialii.org `/source_file/` PDF cohort first match observation)
+
+Seventeenth Phase 8 tick (third worker-tick of UTC date 2026-05-10). Pool=1863 (was 1860 at b0564; +3 from b0564 judgment-ingestion-worker zmcc-2019/{16,21,22} ingestion). Sample=8 via tick-suffixed seed `phase8-reverify-2026-05-10-b0565`. **6 match, 2 drift, 0 fetch_error.**
+
+### Match (6) — all stable byte-for-byte endpoints
+
+- `act-zm-2013-016-the-customs-and-excise-amendment-2013` → https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Customs%20and%20Excise%20%28Amendment%29%20Act%202013.PDF  (parliament.gov.zm `amendment_act/` static PDF)
+- `act-zm-cap-249-tsetse-control-act` → https://www.parliament.gov.zm/sites/default/files/documents/acts/Tsetse%20Control%20Act.pdf  (parliament.gov.zm `/acts/` static PDF)
+- `loz-dairies-and-dairy-produce-act` → https://www.parliament.gov.zm/sites/default/files/documents/acts/Dairies%20and%20Dairy%20Produce%20Act.pdf  (parliament.gov.zm `/acts/` static PDF; Laws of Zambia consolidated)
+- `act-zm-2015-021-insurance-premium-levy-act` → https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Insurance%20Premium%20Levy%20Act%20No.%2021%20of%202015.pdf  (parliament.gov.zm `/acts/` static PDF)
+- `si-zm-2025-009-bank-of-zambia-withdrawal-and-exchange-of-currency-regulations-2025` → https://media.zambialii.org/media/legislation/44173/source_file/1fe34b6ef23bc96a/bank-of-zambia-withdrawal-and-exchange-of-currency-regulations-2025.pdf  (**NEW** media.zambialii.org `/source_file/` PDF — first such cohort observation; rolled into stable-PDF cohort)
+- `act-zm-2017-010-companies` → https://www.parliament.gov.zm/sites/default/files/documents/acts/Companies%20Act%2C%202017.pdf  (parliament.gov.zm `/acts/` static PDF; Phase 2 pilot statute — round-trip integrity preserved on the corpus's foundational ingestion target)
+
+### Drift (2)
+
+- `judgment-zm-2022-zmsc-45-abel-chipemba-v-the-people` → https://zambialii.org/akn/zm/judgment/zmsc/2022/45/eng@2022-02-10  (drift — judgment-/akn/-HTML; **sixth** judgment-akn drift, extends b0564 finding; cumulative 1m/6d)
+- `act-zm-1970-040-refugees-control-act-1970` → https://zambialii.org/akn/zm/act/1970/40/eng@1996-12-31  (drift — established act-/akn/-HTML pattern)
+
+### URL-family verdicts this tick
+
+- **NEW**: `media.zambialii.org/.../source_file/...pdf` first match observation. Structurally similar to zambialii `source.pdf` (static PDF asset with content-hash path component) and rolled into the stable-PDF cohort.
+- Cumulative judgment-/akn/-HTML drift rate: 6/7 = ~86% (n=7) per b0564 standing. Trend continues to support b0554 revised hypothesis that judgment-akn-HTML URLs drift on the same time-varying rendering layer as act/SI-akn-HTML URLs.
+
+### Cumulative across 17 ticks
+
+- zambialii.org /akn/ act-or-SI HTML drift now reproduces 54/54 (was 53/53 at b0564; +1 this tick)
+- stable PDF matches (zambialii `source.pdf` + parliament.gov.zm static + media.zambialii.org `source_file`) now reproduce 60/60 (was 54/54 at b0564; +6 this tick)
+- judgment-akn-HTML: 1m/6d (was 1m/5d at b0564; +1 drift this tick)
+- parliament-/node/-landing-page: 0m/1d (unchanged; no node URL in this sample)
+
+No records mutated. See reports/batch-0565.md and reports/batch-0565-reverify.json.
+
+### Phase 8 evolution recommendation (standing — carries forward)
+
+After 17 ticks the pattern is unequivocal: stable-PDF cohort (60 ticks, 0 drifts) versus rendered-HTML cohort (54 act/SI + 6 judgment + 1 parliament-node = 61 drifts, 1 match). Operator action recommended: either (a) move Phase 8 to text-extraction-stable hashing for HTML endpoints, or (b) restrict Phase 8 to stable-PDF endpoints only. No action taken this tick — operator decision pending.
