@@ -6161,3 +6161,91 @@ audit traceability.
 **Cross-reference:** see `reports/batch-0570.md` § "NEW FINDING (b0570)"
 for full record table and reasoning.
 
+
+## Batch 0573 — judgment-ingestion-worker (2026-05-10)
+
+### Tick scope
+
+- Priority (a) reparse: skipped (v0.3.2 cannot move v0.3.3-pending cohort; standing per b0552/b0557/b0558/b0559/b0560/b0561/b0564/b0565/b0566/b0568, reaffirmed by b0571 8-of-8 redeferral evidence)
+- Priority (b) SCZ sweep: skipped (ZMSC 2024-2025-2026 confirmed exhausted by b0547/b0550/b0558)
+- Priority (c) chosen: ZMCC 2018 final-1 (num 17) GET-fetch + ZMCC 2017 NEW YEAR sparse + low-cluster GET-fetch per b0568 next-tick recommendations #1 and #2
+
+### HEAD-probe ZMCC 2017 sparse {1, 5, 10, 15, 20, 25} + refine {2, 3, 4, 6, 7, 8, 9}
+
+| num | result | redirect target |
+|-----|--------|-----------------|
+| 1   | 200    | eng@2017-08-14  |
+| 2   | 200    | eng@2017-01-11  |
+| 3   | 200    | eng@2017-03-09  |
+| 4   | 200    | eng@2017-08-08  |
+| 5   | 200    | eng@2017-10-31  |
+| 6   | 200    | eng@2017-11-16  |
+| 7   | 200    | eng@2017-11-17  |
+| 8   | 200    | eng@2017-11-17  |
+| 9   | 404    | —               |
+| 10  | 404    | —               |
+| 15  | 404    | —               |
+| 20  | 404    | —               |
+| 25  | 404    | —               |
+
+**Boundary closed.** ZMCC 2017 published-nums set = {1..8}. Total of 8 published ZMCC 2017 judgments. Inaugural year of the Constitutional Court of Zambia.
+
+### GET-fetch results
+
+- ZMCC 2018 num 17 — *Shakafuswa and Another v Attorney General and Another* — 200 OK on HTML+PDF.
+- ZMCC 2017 nums {1..7} — all 200 OK on HTML+PDF.
+
+### Records written this tick (1)
+
+- **zmcc/2017/1** — *Malembeka (Prisons Care and Counselling Association) v Attorney General and Another* — `[2017] ZMCC 1` — outcome `dismissed` ("rights and freedoms , we decline to grant this declaration") — date 2017-08-14 — judges Sitali JCC, Mulenga JCC — outcome_source `pdf-tail-2pages[v031-tail]` — case-no `13 of 2016`. **First ZMCC 2017 record in corpus; inaugural-year landmark on prisoners' voting rights under Article 46.**
+
+### Records deferred this tick (7)
+
+#### OCR-pending (+6) — `pdf_extraction_empty_likely_scanned`
+
+- zmcc/2017/2 — *Zulu v Daka and Others* — 4.7 MB PDF, image-only
+- zmcc/2017/3 — *Miyanda v Attorney-General* — 6.8 MB PDF, image-only
+- zmcc/2017/4 — *Katuka and Another v Attorney-General and Another* — 6.9 MB PDF, image-only
+- zmcc/2017/5 — *Mwela v Attorney-General* — 2.1 MB PDF, image-only
+- zmcc/2017/6 — *Mumba v Nkombo and Others* — 7.1 MB PDF, image-only
+- zmcc/2017/7 — *Katuka and Another v Attorney-General and Others* — 3.3 MB PDF, image-only
+
+#### v0.3.3-pending (+1) — `html_no_summary_pdf_no_match`
+
+- zmcc/2018/17 — *Shakafuswa and Another v Attorney-General and Another* — small native PDF (672 KB), text extracted, no v0.3.2 anchor match. Summary head: "A serving ward councillor cannot validly contest a directly elected mayoral seat without triggering Article 157(3)'s bar." — declaratory-holding interlocutory ruling.
+
+### Cohort tallies after b0573
+
+| Cohort                | Pre-b0573 | Δ | Post-b0573 |
+|-----------------------|----------:|--:|-----------:|
+| v0.3.3-pending        |        80 | +1| **81**     |
+| OCR-pending           |        14 | +6| **20**     |
+| Records written       |       171 | +1| **172**    |
+
+### ZMCC 2017 — dimensional summary post-b0573
+
+- Published nums (HEAD/GET-confirmed 200): {1..8}
+- HEAD-404 sentinels: {9, 10, 15, 20, 25}
+- Un-fetched published nums: {8} only
+- Cohort split: 1 written {1} + 6 OCR-pending {2..7} + 0 v0.3.3-pending = 7 covered + 1 un-fetched {8} = 8 total
+
+### ZMCC 2018 — dimensional summary post-b0573
+
+- ALL 17 published nums now GET-fetched (b0573 added num 17 — final-1 closed)
+- Cohort split: 1 written + 9 OCR-pending + 7 v0.3.3-pending = 17 total
+- Year coverage closed
+
+### Un-fetched published nums
+
+- ZMCC 2017: {8} — only one num remains un-GET-fetched
+- ZMCC 2018: none (year closed)
+- ZMCC 2019: none (year closed by b0565)
+- ZMCC 2020: none (year closed by b0560)
+
+### Next-tick recommendation
+
+1. **ZMCC 2017 final-1 GET-fetch** — fetch num 8 to fully cover ZMCC 2017, then close the year.
+2. **ZMCC 2016 sparse HEAD probe** — investigate whether ZMCC 2016 exists (Constitutional Court established 2016 but first published judgment is dated 2017-01-11 per zmcc/2017/2). Probe {1, 5, 10, 15, 20, 25}.
+3. **Standing**: parser_v0.3.3 anchor pack authoring (81 records pending — predominantly ZMCC 2017–2020 declaratory-holding sample). Operator action recommended.
+4. **Standing**: OCR pipeline implementation (20 records pending — ZMCC 2017 ×6 + ZMCC 2018 ×9 + ZMCC 2020 ×5). Operator action recommended.
+5. **Standing**: operator action on Phase 5 ceiling 172/160 (+12 above sentinel).

@@ -1,0 +1,42 @@
+{
+  "id": "judgment-zm-2017-zmcc-01-malembeka-prisons-care-and-counselling-association",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Malembeka (Prisons Care and Counselling Association) v Attorney General and Another (13 of 2016) [2017] ZMCC 1 (14 August 2017)",
+  "citation": "[2017] ZMCC 1",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Malembeka (Prisons Care and Counselling Association) v Attorney General and Another",
+  "case_number": "13 of 2016",
+  "date_decided": "2017-08-14",
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Right to vote",
+    "Article 46 universal adult suffrage",
+    "Disqualification of persons in lawful custody",
+    "Sections 9(1)(e) and 47 Electoral Process Act void",
+    "Prisoners’ voting rights",
+    "Scope of judicial remedies; Civil procedure",
+    "Jurisdictional limits on enforcement of Part III rights."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "rights and freedoms , we decline to grant this declaration",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "569e0b61800966111b2159c03c6cbc112b6da34156abacf255a48a1a695c6e6f",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2017/1/eng@2017-08-14",
+  "source_hash": "sha256:34bcc940903008f25a460045958c1f2fe51c4889aa343ba74270df1c92af7f65",
+  "fetched_at": "2026-05-10T17:14:14Z",
+  "parser_version": "0.3.2"
+}
