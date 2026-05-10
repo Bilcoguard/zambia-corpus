@@ -5851,3 +5851,45 @@ No records mutated. See reports/batch-0565.md and reports/batch-0565-reverify.js
 ### Phase 8 evolution recommendation (standing — carries forward)
 
 After 17 ticks the pattern is unequivocal: stable-PDF cohort (60 ticks, 0 drifts) versus rendered-HTML cohort (54 act/SI + 6 judgment + 1 parliament-node = 61 drifts, 1 match). Operator action recommended: either (a) move Phase 8 to text-extraction-stable hashing for HTML endpoints, or (b) restrict Phase 8 to stable-PDF endpoints only. No action taken this tick — operator decision pending.
+
+## b0565 judgment-ingestion-worker — ZMCC 2019 final-2 GET-fetch (1 written, 1 deferred)
+
+### Tick scope
+
+- Priority (a) reparse: skipped (v0.3.2 cannot move v0.3.3-pending cohort; standing per b0552/b0557/b0558/b0559/b0560/b0561/b0564)
+- Priority (b) SCZ sweep: skipped (ZMSC 2024-2025-2026 confirmed exhausted by b0547/b0550/b0558)
+- Priority (c) chosen: ZMCC 2019 final-2 GET-fetch known-OK nums {23, 24} per b0564 next-tick recommendation #1
+
+### Records written this tick (1)
+
+- **zmcc/2019/24** — *MWIYA MUTAPWE V SHOMENO DOMINIC* — outcome `overturned` — pdf-tail-2pages anchor "view were the backbone of the appeal, we set aside the decision" — coram Mulembe JCC, Munalula JCC, Sitali JCC, Mulonda JCC, Mulenga JCC — date 2019-12-11 — citation [2019] ZMCC 24 — issue: Electoral Process Act s.97(2)(a) corrupt practices, hearsay/partisan-witness corroboration; appellate court set aside Local Government Election Tribunal decision and remitted with costs.
+
+### Records deferred this tick (1) — joining v0.3.3-pending cohort
+
+- **zmcc/2019/23** — *Benjamin Mwelwa v Attorney-General* — reason `html_no_summary_pdf_no_match` — summary "Suspension of a magistrate for referring a constitutional question was unlawful interference with judicial independence; suspension expunged and damages awarded." — html_url https://zambialii.org/akn/zm/judgment/zmcc/2019/23/eng@2019-03-14 — raw bytes on disk (raw_sha 28aa88b6acc66a7128a4c0e521fb4527a6cd2eb298779c46dd18da3876dd5f5f).
+
+### v0.3.3-pending cohort tally
+
+- Pre-b0565: 73 records (b0564 +5, plus prior 68)
+- b0565 additions: +1 (zmcc/2019/23)
+- Post-b0565: **74 records** awaiting parser_v0.3.3 anchor pack
+
+### OCR-pending cohort tally
+
+- Pre-b0565: 5 records (all ZMCC 2020)
+- b0565 additions: 0 (both ZMCC 2019/{23,24} PDFs extracted text successfully — no scanned-PDF deferrals)
+- Post-b0565: **5 records** unchanged — awaiting OCR pipeline
+
+### ZMCC 2019 — GET-fetch sweep complete
+
+- Published nums (all GET-fetched, raw on disk): 18 — {1, 3, 4, 5, 6, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28}
+- Records written (cumulative across b0561/b0564/b0565): 5 of 18 (28%) — {1, 16, 20, 21, 22, 24} *(wait, 24 is the new — count: b0561 wrote 2 = {1, 20}; b0564 wrote 3 = {16, 21, 22}; b0565 wrote 1 = {24}; total 6 of 18 = 33%)*
+- v0.3.3-pending (declaratory-holding cohort): 12 of 18 (67%) — {3, 4, 5, 6, 17, 18, 19, 23, 25, 26, 27, 28}
+- ZMCC 2019 internal-gap region {7..15}: 10 consecutive 404s (publishing-batch delay or numbering reservation)
+- ZMCC 2019 upper boundary at num 28; lower boundary at num 1 (14 February 2019)
+
+### Next-tick recommendation
+
+1. **ZMCC 2018 sparse HEAD probe** — start next-year discovery via `{1, 5, 10, 15, 20, 25}` per b0560 pattern. Once probe boundaries are known, GET-fetch the lower-num cluster.
+2. **Standing**: parser_v0.3.3 anchor pack authoring (74 records pending — rich declaratory-holding sample, all ZMCC) and OCR pipeline implementation (5 records pending) remain out-of-tick operator tasks.
+3. **Standing**: operator action on Phase 5 ceiling 170/160 (now 10 above sentinel after b0565 +1; recommend extend or close).

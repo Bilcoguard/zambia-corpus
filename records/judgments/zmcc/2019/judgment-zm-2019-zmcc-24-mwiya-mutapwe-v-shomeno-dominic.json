@@ -1,0 +1,56 @@
+{
+  "id": "judgment-zm-2019-zmcc-24-mwiya-mutapwe-v-shomeno-dominic",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "MWIYA MUTAPWE V SHOMENO DOMINIC (APPEAL NO. 19 OF 2017 2016/CC/A008) [2019] ZMCC 24 (11 December 2019)",
+  "citation": "[2019] ZMCC 24",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "MWIYA MUTAPWE V SHOMENO DOMINIC",
+  "case_number": "APPEAL NO. 19 OF 2017 2016/CC/A008",
+  "date_decided": "2019-12-11",
+  "judges": [
+    {
+      "name": "Mulembe",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Munalula",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Sitali",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Electoral law",
+    "election petitions",
+    "standard of proof (fairly high degree of convincing clarity)",
+    "s.97(2)(a) Electoral Process Act",
+    "corrupt and illegal practices by candidate or with candidate's knowledge/agent",
+    "requirement to prove effect on majority of voters; procedural rules",
+    "filing of answer under Local Government Elections Tribunals Rules; admissibility and corroboration of hearsay, partisan witnesses and confessions."
+  ],
+  "outcome": "overturned",
+  "outcome_detail": "view were the backbone of the appeal, we set aside the decision",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "bfe146ea2b7df10708b05fc42326ed143b21b4bf27f19595588e67723b169941",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2019/24/eng@2019-12-11",
+  "source_hash": "sha256:e29d3680a7fb1b851f4aac75ad921f5a539f90fe66469d1765124320fb40a6e6",
+  "fetched_at": "2026-05-10T09:12:44Z",
+  "parser_version": "0.3.2"
+}
