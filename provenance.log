@@ -4198,3 +4198,4 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-10T20:21Z	batch-0580	PARSE	https://zambialii.org/akn/zm/judgment/zmsc/2020/115/eng@2020-12-08	status=deferred	reason=html_no_summary_pdf_no_match	parser=v0.3.2	verdict=cohort-v0.3.3-pending
 2026-05-10T20:23Z	batch-0580	SQLITE	corpus.sqlite	insert=3	records_pre=1864	records_post=1867	records_fts_pre=1864	records_fts_post=1867	judgments_meta_pre=174	judgments_meta_post=177	integrity_check=ok	verdict=sqlite-insert-3-records-via-tmpdir-atomic-copy
 2026-05-10T20:35:07Z	batch-0581	phase-8-nightly-reverify	pool=1870	sample=8	match=4	drift=4	truncated_stored_hash_false_drift=1	fetch_error=0	parser=phase8-reverify-0.1.0	seed=phase8-reverify-2026-05-10-b0581
+2026-05-10T21:09:17Z	batch-0582	8 fetches reverify	zambialii.org:8

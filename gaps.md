@@ -6613,3 +6613,70 @@ Today (2026-05-10) JIW fetches consumed pre-tick: 140/500 (per b0577); this tick
   act-zm-2018-001 each appear at both `records/acts/<year>/<id>.json`
   AND `records/acts/<id>.json` with divergent content. Operator
   dedupe action recommended (predates b0578).
+
+## Phase 8 b0582 (2026-05-10T21:05:39Z) — judgment-akn HTML drift cohort widens to ZMSC; bare-AKN-path sub-pattern reproduces
+
+Twenty-eighth Phase 8 tick (fourteenth worker-tick of UTC date 2026-05-10).
+Pool=1870 (unchanged from b0581). Sample=8 via tick-suffixed seed
+`phase8-reverify-2026-05-10-b0582`. **1 match, 7 drift, 0 truncated_prefix,
+0 fetch_error.**
+
+- AKN-HTML drift cohort 90/90 (100% reproduction across 28 Phase 8 ticks).
+  Drift mechanism is AKN HTML rendering pipeline — dynamic metadata
+  injection per request, not a content change. b0582 act/SI contributions:
+  act-zm-1970-018 (eng@1996-12-31), act-zm-2004-005 (eng@2004-04-20),
+  si-zm-2023-009 (BARE-AKN-PATH form — third bare-AKN-path observation
+  after b0579 si-zm-2023-041 and b0581 si-zm-2019-014; all three are SIs),
+  act-zm-2006-002 (eng@2006-03-31). No record mutation needed — drift is
+  upstream-rendering-pipeline, not source-of-truth-content drift.
+  Operator action: none.
+
+- judgment-akn HTML drift cohort widens 4/12 → 7/15 with three new
+  judgment drifts: judgment-zm-2022-zmcc-28 (eng@2022-01-26, 48,529 B),
+  judgment-zm-2023-zmcc-19 (eng@2023-10-26, 45,770 B), and
+  judgment-zm-2025-zmsc-07 (eng@2025-02-21, 44,153 B).
+  **judgment-zm-2025-zmsc-07 is the FIRST ZMSC (Supreme Court)
+  judgment-akn /eng@ HTML drift observation in the 28-tick series**;
+  prior 4 judgment-akn-HTML drifts were all ZMCC (Constitutional
+  Court) URLs. Drift mechanism identical (rendering pipeline);
+  court-specific URL path is incidental. Operator action: none.
+
+- Stable-PDF supercohort grows 100/103 → 101/104 with
+  si-zm-2015-070-income-tax-double-taxation-relief-taxes-on-income-ireland-order-2015
+  matching at zambialii akn /source.pdf (159,089 B). Cumulative
+  real-drift count on the stable-PDF supercohort remains zero across
+  28 ticks. The 3 non-real-matches are still the three truncated-stored-hash
+  false drifts (b0570 act-zm-2020-011; b0578 act-zm-2020-019; b0581
+  act-zm-2020-016).
+
+- Earliest-year Act drift NOT extended this tick — earliest Act drift
+  in the 28-tick series remains b0567 act-zm-1930-028-petroleum-act-1930
+  (1930 enactment). b0582 earliest-year sample is act-zm-1970-018
+  (1970 enactment, eng@1996-12-31 republication). Confirms drift
+  mechanism is rendering-pipeline-bound rather than vintage-bound.
+
+- Truncated-stored-hash backfill recommendation (b0578/b0579/b0581
+  standing) — CARRIED FORWARD. No 2020-vintage parliament.gov.zm
+  `/acts/` records were in b0582's sample; cumulative cohort still 3/85.
+
+- Pre-existing five divergent-content duplicate-ID Act records
+  finding REAFFIRMED — none of b0582 sample IDs are involved:
+  act-zm-2025-014, act-zm-2025-028, act-zm-2019-010, act-zm-2020-010,
+  act-zm-2018-001 each appear at both `records/acts/<year>/<id>.json`
+  AND `records/acts/<id>.json` with divergent content. Operator
+  dedupe action recommended (predates b0578).
+
+No records mutated. Integrity 8/8 PASS (stored source_hash unchanged on
+disk pre/post tick). See reports/batch-0582.md and
+reports/batch-0582-reverify.json.
+
+### Phase 8 evolution recommendation (standing — carries forward)
+
+After 28 ticks the pattern is unequivocal: stable-PDF cohort
+(28 ticks, 0 real drifts; 3 truncated-prefix false drifts traceable to
+parser_version=parliament-pdf-v1.2 prefix-encoded sha256) versus
+rendered-HTML cohort (act/SI AKN-HTML 90/90 drift, judgment-akn
+HTML 7/15 drift, parliament-node 0/1 — both very small samples).
+Operator action options unchanged: (a) move Phase 8 to
+text-extraction-stable hashing for HTML endpoints, (b) restrict
+Phase 8 to stable-PDF endpoints only, or (c) leave as-is.
