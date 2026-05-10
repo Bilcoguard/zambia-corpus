@@ -1,0 +1,57 @@
+{
+  "id": "judgment-zm-2019-zmcc-21-access-bank-zambia-limited-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Access Bank Zambia Limited v Attorney-General (9 of 2018) [2019] ZMCC 21 (27 March 2019)",
+  "citation": "[2019] ZMCC 21",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Access Bank Zambia Limited v Attorney-General",
+  "case_number": "9 of 2018",
+  "date_decided": "2019-03-27",
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulembe",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Article 118(2)(e)",
+    "procedural technicalities",
+    "record of appeal",
+    "Supreme Court Rules (rules 10, 58, 68)",
+    "dismissal for defective record",
+    "jurisdiction to enforce Part III rights",
+    "right to fair hearing (Article 18(9))."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "We dismiss it with costs to the",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "52a25b96cfd2ccc650b5610e52289b038267ddcc59e429a71db6fa47727c82b2",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2019/21/eng@2019-03-27",
+  "source_hash": "sha256:7949e1d45587d6b79ef070025d505f2a20cf3add2c781fb7cd6f9e6927f9c89e",
+  "fetched_at": "2026-05-10T06:02:50Z",
+  "parser_version": "0.3.2"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "judgment-zm-2019-zmcc-16-njeulu-v-mubika",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Njeulu v Mubika (Appeal 9 of 2017) [2019] ZMCC 16 (7 March 2019)",
+  "citation": "[2019] ZMCC 16",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Njeulu v Mubika",
+  "case_number": "Appeal 9 of 2017",
+  "date_decided": "2019-03-07",
+  "judges": [
+    {
+      "name": "Chibomba",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Sitali",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulembe",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Munalula",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Electoral law",
+    "section 97(2)(a) Electoral Process Act",
+    "standard of proof in election petitions",
+    "candidate liability only for acts of named election/polling agents or acts with candidate's knowledge/consent",
+    "requirement that misconduct be widespread enough to affect majority of voters",
+    "need for corroborative documentary evidence (police/FRA records) for serious allegations."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "of the appeal is devoid of merit and we dismiss it",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "939d975b6ae20511d37b818e922f0a336ea6a39831d8ef2c5a7b7cae23816e4b",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2019/16/eng@2019-03-07",
+  "source_hash": "sha256:a8948e4e677cfffc31b60f694874f0c51ad9aa23b2fb942ea02703fc7c3aa420",
+  "fetched_at": "2026-05-10T06:02:48Z",
+  "parser_version": "0.3.2"
+}

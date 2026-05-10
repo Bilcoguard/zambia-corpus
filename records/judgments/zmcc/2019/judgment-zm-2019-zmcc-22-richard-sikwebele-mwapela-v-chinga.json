@@ -1,0 +1,52 @@
+{
+  "id": "judgment-zm-2019-zmcc-22-richard-sikwebele-mwapela-v-chinga",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Richard Sikwebele Mwapela v Chinga (None of 2016) [2019] ZMCC 22 (23 January 2019)",
+  "citation": "[2019] ZMCC 22",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Richard Sikwebele Mwapela v Chinga",
+  "case_number": "None of 2016",
+  "date_decided": "2019-01-23",
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulembe",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Munalula",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Electoral law",
+    "s.97(2)(a) Electoral Process Act",
+    "void election",
+    "corrupt/illegal practices",
+    "bribery, distribution of goods, intimidation",
+    "standard of proof in election petitions: fairly high degree of convincing clarity",
+    "burden to prove candidate’s knowledge/consent or agent’s conduct",
+    "deference to trial judge on credibility and corroboration."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "The Appeal therefore fails in its entirety and we dismiss it",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "c89d4db1fb9649cf60f78866eb33c68363f6b4c63c3ae27f122c897186affb9f",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2019/22/eng@2019-01-23",
+  "source_hash": "sha256:bfce8268f7e9474f8823abbf83dc9ecdf9270071630fde93056e9211284f79fc",
+  "fetched_at": "2026-05-10T06:02:52Z",
+  "parser_version": "0.3.2"
+}

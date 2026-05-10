@@ -5763,3 +5763,55 @@ ZMCC 2019 records written: 0 → 2. Raw on disk: 0 → 8 (nums 1, 3, 4, 5, 6, 20
 2. **ZMCC 2018 HEAD probe** — start next-year discovery pattern once 2019 fully resolved.
 3. **Standing**: parser_v0.3.3 anchor pack authoring (68 records pending; rich set of declaratory-holding anchors now available across 2019+2020+2025) and OCR pipeline implementation (5 records pending) remain out-of-tick operator tasks.
 4. **Standing**: operator action on Phase 5 ceiling 166/160 (now 6 above sentinel after b0561 +2; recommend extend or close).
+
+## [2026-05-10T06:04:44Z] Batch 0564 — judgment-ingestion-worker — ZMCC 2019 finish (HEAD-probe + GET-fetch)
+
+Continuation of b0558/b0559/b0560/b0561 priority (c) ZMCC NEW YEARS sweep. b0564 HEAD-probed the remaining ZMCC 2019 un-probed nums {11..14, 16..19, 21..24} (4 confirmed-404 + 8 confirmed-OK), then GET-fetched 8 known-OK nums {27, 28, 16, 17, 18, 19, 21, 22} (MAX_BATCH_SIZE=8). **3 records written, 5 deferred.**
+
+### Written (3)
+
+- `zmcc/2019/16` — *Njeulu v Mubika* (Appeal 9 of 2017) [2019] ZMCC 16 (7 March 2019). Outcome: **dismissed**. Coram: Chibomba PC, Sitali JCC, Mulembe JCC, Mulonda JCC, Munalula JCC. Anchor source: `pdf-tail-2pages` v031-tail "we dismiss" active-voice operative verb (`of the appeal is devoid of merit and we dismiss it`). raw_sha256: `939d975b6ae20511d37b818e922f0a336ea6a39831d8ef2c5a7b7cae23816e4b`. Source: https://zambialii.org/akn/zm/judgment/zmcc/2019/16/eng@2019-03-07
+- `zmcc/2019/21` — *Access Bank Zambia Limited v Attorney-General* [2019] ZMCC 21 (27 March 2019). Outcome: **dismissed**. Coram: Sitali JCC, Mulenga JCC, Mulembe JCC, Mulonda JCC, Musaluke JCC. Anchor source: `pdf-tail-2pages` v031-tail "we dismiss" active-voice operative verb (`We dismiss it with costs to the`). raw_sha256: `52a25b96cfd2ccc650b5610e52289b038267ddcc59e429a71db6fa47727c82b2`. Source: https://zambialii.org/akn/zm/judgment/zmcc/2019/21/eng@2019-03-27
+- `zmcc/2019/22` — *Richard Sikwebele Mwapela v Chinga* [2019] ZMCC 22 (23 January 2019). Outcome: **dismissed**. Coram: Sitali JCC, Mulembe JCC, Mulonda JCC, Munalula JCC. Anchor source: `pdf-tail-2pages` v031-tail "we dismiss" active-voice operative verb (`The Appeal therefore fails in its entirety and we dismiss it`). raw_sha256: `c89d4db1fb9649cf60f78866eb33c68363f6b4c63c3ae27f122c897186affb9f`. Source: https://zambialii.org/akn/zm/judgment/zmcc/2019/22/eng@2019-01-23
+
+### `html_no_summary_pdf_no_match` (5) — join parser_v0.3.3-pending cohort
+
+- `zmcc/2019/17` — *Sineh Tembo & Ors v Attorney General*. Summary head: "Sections 3–7 of the Chiefs Act conflict with Article 165 and are void; chieftaincy recognition must follow customary processes." (Declaratory constitutional-invalidation holding — no operative-verb anchor; v0.3.2 cannot resolve. Joins v0.3.3-pending cohort.) Source: https://zambialii.org/akn/zm/judgment/zmcc/2019/17/eng@2019-11-27
+- `zmcc/2019/18` — *Sean E. Tembo v Attorney-General (Bill of Rights challenge)*. Summary head: "Whether the Constitutional Court may judicially review a proposed constitutional amendment bill for compliance with national values and principles." (Question-of-law / declaratory framing — no operative verb; v0.3.2 cannot resolve.) Source: https://zambialii.org/akn/zm/judgment/zmcc/2019/18/eng@2019-11-29
+- `zmcc/2019/19` — *Bernard Shajilwa & Ors v Attorney-General (No. 2)*. Summary head: "Placing a selected candidate on the chiefs' payroll is administrative, not constitutional recognition, so no breach of Articles 165 and 167." (Declaratory administrative-classification holding — no operative verb; v0.3.2 cannot resolve.) Source: https://zambialii.org/akn/zm/judgment/zmcc/2019/19/eng@2019-12-04
+- `zmcc/2019/27` — *Likando v Attorney-General*. Summary head: "Order VIII rule 1(1) requires physical presence for oral evidence; video-link testimony disallowed absent agreement or protocol." (Declaratory procedural ruling — no operative verb; v0.3.2 cannot resolve.) Source: https://zambialii.org/akn/zm/judgment/zmcc/2019/27/eng@2019-11-25
+- `zmcc/2019/28` — *Mwila & Ors v Attorney General (Rejoinder)*. Summary head: "A party must obtain leave before seeking to reopen a Constitutional Court final judgment; failure renders the application incompetent." (Declaratory procedural-competence holding — no operative verb; v0.3.2 cannot resolve.) Source: https://zambialii.org/akn/zm/judgment/zmcc/2019/28/eng@2019-09-12
+
+### Coverage tally after b0564
+
+ZMCC 2019 records written: 2 → **5** (nums 1, 16, 20, 21, 22). Raw on disk: 8 → **16** (nums 1, 3, 4, 5, 6, 16, 17, 18, 19, 20, 21, 22, 27, 28 = 14 OK + 2 prior). HEAD-confirmed-404 nums: {2, 7, 8, 9, 10, 11, 12, 13, 14, 15, 29..35} = 17 confirmed gaps. **ZMCC 2019 sweep complete: 18 published nums confirmed (1,3,4,5,6,16,17,18,19,20,21,22,23,24,25,26,27,28); 17 internal/upper 404 sentinels confirmed; no remaining un-probed nums.** Of the 18 published nums, 14 GET-fetched (5 written + 9 v0.3.3-pending); 4 remain un-fetched ({23, 24} — known-OK from b0561 HEAD probes; {3, 4, 5, 6} are b0561 deferrals on disk; {25, 26} are b0561 deferrals on disk). Wait — re-tally: 14 fetched = {1, 3, 4, 5, 6, 16, 17, 18, 19, 20, 21, 22, 25, 26, 27, 28} = 16; un-fetched = {23, 24}.
+
+### v0.3.3-pending cohort tally
+
+- Pre-b0564: 68 records (b0561 +6, plus prior 62)
+- b0564 additions: +5 (zmcc/2019/{17, 18, 19, 27, 28})
+- Post-b0564: **73 records** awaiting parser_v0.3.3 anchor pack
+
+### OCR-pending cohort tally
+
+- Pre-b0564: 5 records (all ZMCC 2020)
+- b0564 additions: 0 (all 8 ZMCC 2019 PDFs extracted text successfully — no scanned-PDF deferrals this tick)
+- Post-b0564: **5 records** unchanged — awaiting OCR pipeline
+
+### ZMCC 2019 — final dimensional summary
+
+- Published nums (HEAD-confirmed-200): 18 total {1, 3, 4, 5, 6, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28}
+- Internal/upper 404 sentinels: 17 total {2, 7, 8, 9, 10, 11, 12, 13, 14, 15, 29, 30, 31, 32, 33, 34, 35}
+- Un-probed: 0 — full ZMCC 2019 boundary mapped
+- Upper boundary: num 28 (7 consecutive 404s {29..35} = strong sentinel)
+- Lower boundary: num 1 (14 February 2019)
+- Internal-gap pattern: 10 consecutive 404s in the {7..15} range — likely a publishing batch delay or numbering reservation
+- Un-fetched published nums: 2 — {23, 24} — to GET-fetch in next tick
+- Records written (cumulative): 5 of 18 (28%) — remaining 13 split across 9 v0.3.3-pending + 2 un-fetched + 2 b0561 deferrals already on disk (zmcc/2019/{25, 26}) — wait, those 2 are also v0.3.3-pending so total v0.3.3-pending for ZMCC 2019 = 11; plus 5 written = 16 covered; plus 2 un-fetched = 18
+
+### Next-tick recommendation
+
+1. **ZMCC 2019 finish — final 2 records** — GET-fetch known-OK nums {23, 24} (only 2 remaining un-fetched ZMCC 2019). After that ZMCC 2019 is fully fetched.
+2. **ZMCC 2018 HEAD probe** — start next-year discovery (sparse {1, 5, 10, 15, 20, 25} per b0560 pattern) once 2019 is fully fetched.
+3. **Standing**: parser_v0.3.3 anchor pack authoring (73 records pending) and OCR pipeline implementation (5 records pending) remain out-of-tick operator tasks.
+4. **Standing**: operator action on Phase 5 ceiling 169/160 (now 9 above sentinel after b0564 +3; recommend extend or close).
