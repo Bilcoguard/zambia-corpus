@@ -6390,3 +6390,38 @@ test append
   Pre-existing repo-layout finding (5 divergent-content duplicate-ID Acts) reaffirmed — none of b0579 sample IDs are involved.
   scripts/batch_0579_phase8_reverify.py NOT committed (sandbox-session safety constraint).
 2026-05-10T20:05:56Z worker-tick batch-0579 STOP next tick in 30 minutes
+2026-05-10T20:11Z worker-tick batch-0579 push OK (16fb1f9..d262187); B2 sync deferred (rclone not available in sandbox)
+2026-05-10T20:25Z judgment-ingestion-worker batch-0580 START priority-c-zmsc-2020-upper-band
+2026-05-10T20:25Z judgment-ingestion-worker batch-0580 head_probe zmcc/2015/{1,5,10}=404 (sentinel-confirms non-existent — Constitutional Court created 2016-01-05)
+2026-05-10T20:25Z judgment-ingestion-worker batch-0580 head_probe zmsc/2020/{95,100,105,110,115,120,130,150}=200 + refinement {175=200, 200=404, 250=404, 300=404} → upper boundary localised 175<x<200
+2026-05-10T20:25Z judgment-ingestion-worker batch-0580 GET-fetch zmsc/2020/{95,100,105,110,115,120,130,150} HTML+PDF 8/8 ok
+2026-05-10T20:25Z judgment-ingestion-worker batch-0580 parse parser=v0.3.2 written=3 deferred=5 (4 OCR-pending nums {95,100,105,110}, 1 v0.3.3-pending num {115})
+2026-05-10T20:25Z judgment-ingestion-worker batch-0580 sqlite_insert records 1864→1867 records_fts 1864→1867 judgments_meta 174→177 PRAGMA integrity_check=ok via TMPDIR atomic copy
+2026-05-10T20:25Z judgment-ingestion-worker batch-0580 integrity_checks 3/3 PASS (judges_present judges_resolved issue_tags_present outcome_in_enum raw_sha_match html_sha_match)
+2026-05-10T20:25Z judgment-ingestion-worker batch-0580 batch number renumbered b0579→b0580 due to collision with Phase 8 worker-tick batch-0579 pushed 2026-05-10T20:11Z. Underlying _work/b0579/ paths preserved; commit/report uses b0580.
+2026-05-10T20:25Z judgment-ingestion-worker batch-0580 STOP next tick in 60 minutes
+2026-05-10T20:34:34Z worker-tick batch-0581 START phase-8-nightly-reverify
+2026-05-10T20:34:34Z worker-tick batch-0581 git pull --ff-only Already up to date (HEAD=d262187; warning: unable to unlink .git/objects/maintenance.lock — virtiofs Operation not permitted; pull semantics not affected)
+2026-05-10T20:34:34Z worker-tick batch-0581 approvals.yaml load OK; phase_8_nightly_reverify approved=true complete=false sample_rate=0.01
+2026-05-10T20:34:34Z worker-tick batch-0581 daily-budget pre-tick cumulative_today=97/2000 (worker-tick channel) — within cap
+2026-05-10T20:34:34Z worker-tick batch-0581 inline runner /tmp/b0581_phase8_reverify.py invoked (functional contract per scripts/batch_0546_phase8_reverify.py + tick-suffixed seed + truncated-prefix detector)
+2026-05-10T20:34:34Z worker-tick batch-0581 pool_size=1870 (grew +3 from 1867 due to b0580 jiw zmsc-2020 net additions); seed=phase8-reverify-2026-05-10-b0581; sample_size=8 (= MAX_BATCH cap)
+2026-05-10T20:35:07Z worker-tick batch-0581 verdicts: match=4 (counting truncated_prefix), drift=4, truncated_stored_hash_false_drift=1, fetch_error=0
+2026-05-10T20:35:07Z worker-tick batch-0581 matches: judgment-zm-2025-zmsc-23-the-v-zambia (zambialii akn /source.pdf JUDGMENT 279,698 B — FIRST judgment-akn /source.pdf observation in series); si-zm-2009-044 (akn /source.pdf 357,672 B repeat-of-b0579); si-zm-2024-012 (akn /source.pdf 283,231 B); act-zm-2020-016 (parliament.gov.zm /acts/ 111,675 B truncated-prefix match)
+2026-05-10T20:35:07Z worker-tick batch-0581 drifts: act-zm-2024-020 (eng@2024-12-26 38,863 B); act-zm-2007-019 (eng@2007-08-31 42,680 B); si-zm-2019-014 (BARE-AKN-PATH 39,047 B SECOND bare-path drift after b0579 si-zm-2023-041); act-zm-2020-026 (eng@2020-12-18 181,859 B). All four drifts fit AKN-HTML drift cohort.
+2026-05-10T20:35:07Z worker-tick batch-0581 truncated_prefix: act-zm-2020-016 stored=f10dd27b0444a767 (16-hex) startswith-matches recomputed full sha256 f10dd27b0444a767723ad4547e6dea27c47173d057b401cfd027e52dde55a737 — THIRD 2020-vintage parliament-pdf-v1.2 truncated-prefix finding (act-zm-2020-011 b0570 / act-zm-2020-019 b0578 / act-zm-2020-016 b0581)
+2026-05-10T20:35:07Z worker-tick batch-0581 cohort cumulative tally:
+    AKN-HTML drift cohort: 82/82 -> 86/86 (100% reproduction across 27 ticks)
+    zambialii akn /source.pdf (Act/SI) match: 15/15 -> 17/17
+    zambialii akn /source.pdf (Judgment) match: 0/0 -> 1/1 NEW cohort row
+    media.zambialii legacy: 1/1 unchanged
+    parliament real-match: 82/82 unchanged; parliament real-drift: 0/85; parliament truncated-prefix: 3/85
+    judgment-akn HTML drift: 4/12 unchanged; parliament-node: 0/1 unchanged
+    stable-PDF supercohort: 96/99 -> 100/103 (real-drift count = 0 across 27 ticks)
+  Daily budget (worker-tick channel): cumulative_today = 105/2000 (5.25%).
+  No records mutated. approvals.yaml not modified. judges_registry.yaml not modified.
+  corpus.sqlite unchanged: records=1867, records_fts=1867, judgments_meta=177, PRAGMA integrity_check=ok (reflects b0580 jiw mid-flight insertions; b0581 did not touch sqlite).
+  Cross-ref sweep: 0 unresolved amended_by/repealed_by/cited_authorities references against canonical id-set (1872 ids; 7 cross-refs total).
+  Pre-existing repo-layout finding (5 divergent-content duplicate-ID Acts) reaffirmed — none of b0581 sample IDs are involved.
+  scripts/batch_0581_phase8_reverify.py NOT committed (sandbox-session safety constraint).
+2026-05-10T20:35:07Z worker-tick batch-0581 STOP next tick in 30 minutes

@@ -6510,3 +6510,106 @@ Each pair has different file-level sha256 → not benign duplicates; one of the 
 - Judgment-akn HTML cohort: 4 drift / 8 match / 12 total (was 3/7/10 pre-b0579).
 
 **Repo-layout finding (pre-existing; reaffirmed, not introduced by b0579):** five Acts continue to have divergent-content duplicate-ID pairs across `records/acts/<year>/<id>.json` and `records/acts/<id>.json` paths (act-zm-2025-014, act-zm-2025-028, act-zm-2019-010, act-zm-2020-010, act-zm-2018-001). None of the b0579 sample IDs are involved in this duplication. Cross-ref sweep this tick: 0 unresolved references against the canonical id-set. Operator action carried forward from b0578.
+
+---
+
+## b0580 judgment-ingestion-worker — ZMSC 2020 upper-band ingestion + ZMCC 2015 sentinel close-out (3 written, 5 deferred, 6 confirmed-404)
+
+**UTC:** 2026-05-10T20:25Z
+**Worker:** judgment-ingestion-worker (scheduled tick)
+**Parser:** parser_v0.3.2 (`build_record_v032` — `scripts/batch_0506_zmsc_parse.py`, ZMSC variant)
+**Tick scope:** Priority (c) ZMSC 2020 upper-band GET-fetch (per b0577 next-tick rec #3) + Priority (c) ZMCC 2015 sparse HEAD-probe sentinel (per b0577 next-tick rec #1).
+**Batch-number note:** initially staged under `_work/b0579/`; collision with Phase 8 worker-tick batch-0579 (pushed 2026-05-10T20:11Z, commit `d262187`) required renumbering to b0580 for commit/report/log entries. Underlying `_work/b0579/` artefact paths preserved on disk.
+
+### ZMCC 2015 sparse HEAD-probe sentinel (per b0577 rec #1)
+
+ZMCC 2015 sparse probe {1, 5, 10}: **3 of 3 → 404.** Sentinel-confirmed: ZMCC 2015 does not exist. Constitutional Court of Zambia was created by the 2016 amendment to the Constitution of Zambia (Act No. 2 of 2016), with substantive operations beginning at 2016-08-15 (*Katuka v AG*, ZMCC 2016/1, ingested at b0577). Procedural close-out — no further ZMCC 2015 probes warranted.
+
+### ZMSC 2020 upper-band HEAD-probe + boundary refinement
+
+Initial sparse probe {95, 100, 105, 110, 115, 120, 130, 150}: **8 of 8 → 200 OK.** Refinement {175, 200, 250, 300}: 175=200, 200=404, 250=404, 300=404. **ZMSC 2020 published-nums upper-bound localised: 175 < x < 200** — significantly higher than the b0543/b0544 lower-bound finding of ≥ 90.
+
+### Records written this tick (3)
+
+- **judgment-zm-2020-zmsc-120-susan-mwale-harman-v-bank-of-zambia** — *Susan Mwale Harman v Bank of Zambia* — [2020] ZMSC 120 — dismissed (pdf-tail-2pages) — Malila JS, Kaoma JS, Mambilima CJ — 2020-12-04 — Appeal 191 of 2015.
+- **judgment-zm-2020-zmsc-130-muzyamba-v-sinabbomba-and-ors** — *Muzyamba v Sinabbomba and Ors* — [2020] ZMSC 130 — remitted (summary tier — limitation-of-actions trustee-fraud point of law) — Mutuna JS, Kaoma JS, Wood JS — 2020-09-04.
+- **judgment-zm-2020-zmsc-150-mulenga-v-people** — *Mulenga v People* — [2020] ZMSC 150 — dismissed (pdf-tail-2pages) — Hamaundu JS, Muyovwe JS, Chinyama JS — 2020-08-19.
+
+### Records deferred this tick (5)
+
+**OCR-pending (+4) — `pdf_extraction_empty_likely_scanned`:** zmsc/2020/{95, 100, 105, 110}. **Pattern observation:** four consecutive upper-band 2020 ZMSC nums all scanned-PDF — significant clustering (date window roughly 2020-09-30 to 2020-11-11), likely a publisher-side scanner-pipeline artefact. Operator-prioritisation candidate for OCR pipeline.
+
+**v0.3.3-pending (+1) — `html_no_summary_pdf_no_match`:** zmsc/2020/115 — text-extracted native PDF, no v0.3.2 anchor match. Standing parser_v0.3.3 anchor-pack candidate.
+
+### Cohort tallies after b0580
+
+| Cohort                | Pre-b0580 | Δ   | Post-b0580 |
+|-----------------------|----------:|----:|-----------:|
+| v0.3.3-pending        |        86 |  +1 |     **87** |
+| OCR-pending           |        23 |  +4 |     **27** |
+| Records written       |       174 |  +3 |    **177** |
+| Confirmed-404         |       n/a |  +6 |        +6 (zmcc/2015/{1,5,10}; zmsc/2020/{200,250,300}) |
+
+### corpus.sqlite state after b0580
+
+records 1864 → **1867** (+3); records_fts 1864 → **1867** (+3, FTS gap = 0); judgments_meta 174 → **177** (+3); on-disk JSON count records/judgments/**/*.json 174 → **177** (matches sqlite); `PRAGMA integrity_check`: **ok**. Per-record integrity checks: 3/3 PASS (judges_present, judges_resolved, issue_tags_present, outcome_in_enum, raw_sha_match, html_sha_match). judges_registry.yaml unchanged (all 8 judges already present from prior batches).
+
+### Court-tag verification (mid-tick correction)
+
+Initial parse used `batch_0498_parse.py` (ZMCC variant) which hardcoded `court="Constitutional Court of Zambia"`. Discovered mid-tick via post-write `jq` spot-check (`.court` mismatch versus prior ZMSC records). Recovered by `mv` of bad-record JSONs to `_work/b0579/bad_records/` (FUSE virtiofs `rm` not permitted; `mv` works), re-parse using `scripts/batch_0580_zmsc_parse.py` (thin wrapper around `batch_0506_zmsc_parse.py`, the ZMSC variant which sets `court_full = "Supreme Court of Zambia"`), and re-verify. **Operator-recommended hardening:** add an explicit `assert court == expected_court_full` in the SQLite-insert pre-flight to catch this class of bug at write-time rather than via post-hoc `jq` spot-check.
+
+### Cumulative budget
+
+Today (2026-05-10) JIW fetches consumed pre-tick: 140/500 (per b0577); this tick: 31 fetches (3 ZMCC 2015 HEAD + 8 ZMSC 2020 sparse HEAD + 4 ZMSC 2020 boundary refine + 16 GET HTML+PDF); post-tick: **171/500** (within budget; 329 remaining).
+
+### Next-tick recommendations
+
+1. **ZMSC 2021 sparse HEAD probe + GET-fetch** — carries over from b0577 next-tick rec #2; high-yield priority-(b) target.
+2. **ZMSC 2020 boundary close** — dense probe {180, 185, 190, 195} to close 175 < x < 200 boundary, then begin GET-fetch sweep of un-fetched confirmed-200 nums (~95+ candidates remaining in 2020 cohort).
+3. **ZMSC 2020/175** — single un-fetched confirmed-200 num from b0580 boundary refinement; trivial follow-on.
+4. Standing: parser_v0.3.3 anchor pack authoring (87 records).
+5. Standing: OCR pipeline implementation (27 records); cluster of 4 consecutive scanned-PDFs in 2020-09 to 2020-11 window suggests batched publisher-side artefact.
+6. Standing: operator action on Phase 5 ceiling 177/160 (+17 above sentinel).
+
+
+## Phase 8 b0581 (2026-05-10T20:35:07Z) — known cohorts reaffirmed + new sub-cohort observed
+
+- AKN-HTML drift cohort 86/86 (100% reproduction across 27 Phase 8 ticks).
+  Drift mechanism is AKN HTML rendering pipeline — dynamic metadata
+  injection per request, not a content change. b0581 contributions:
+  act-zm-2024-020 (eng@2024-12-26), act-zm-2007-019 (eng@2007-08-31),
+  si-zm-2019-014 (BARE-AKN-PATH form — second observation after
+  b0579 si-zm-2023-041 confirms cohort), act-zm-2020-026 (eng@2020-12-18).
+  No record mutation needed — drift is upstream-rendering-pipeline,
+  not source-of-truth-content drift. Operator action: none.
+
+- Truncated-stored-hash cohort: 3/85 cumulative on parliament.gov.zm
+  static-PDF supercohort. b0581 contribution: act-zm-2020-016
+  (Financial Intelligence Centre Amendment Act 2020) stored
+  source_hash is `sha256:` + 16-hex prefix `f10dd27b0444a767` which
+  prefix-matches the recomputed full sha256
+  `f10dd27b0444a767723ad4547e6dea27c47173d057b401cfd027e52dde55a737`.
+  All three observations (b0570 act-zm-2020-011, b0578 act-zm-2020-019,
+  b0581 act-zm-2020-016) carry parser_version `parliament-pdf-v1.2`
+  and are calendar-year-2020 Acts on parliament.gov.zm `/acts/`.
+  **Operator action recommended (carried forward from b0578/b0579):**
+  one-time backfill sweep — recompute and re-store full 64-hex
+  source_hash for any remaining records where
+  `parser_version=parliament-pdf-v1.2` AND `source_hash` length is
+  `sha256:` + 16 hex. Underlying raw bytes unchanged; only stored
+  hash representation extended to full 64-hex.
+
+- NEW sub-cohort row: zambialii akn /source.pdf (Judgment) — 1/1
+  observed at b0581 (judgment-zm-2025-zmsc-23-the-v-zambia, 279,698 B).
+  This is the first time a judgment record's source_url has been the
+  AKN `/source.pdf` form (vs HTML rendering URL) in the Phase 8 sample
+  pool. The match suggests judgment-akn `/source.pdf` is byte-stable
+  same as Act/SI `/source.pdf` and qualifies for the stable-PDF
+  supercohort.
+
+- Pre-existing five divergent-content duplicate-ID Act records
+  finding REAFFIRMED — none of b0581 sample IDs are involved:
+  act-zm-2025-014, act-zm-2025-028, act-zm-2019-010, act-zm-2020-010,
+  act-zm-2018-001 each appear at both `records/acts/<year>/<id>.json`
+  AND `records/acts/<id>.json` with divergent content. Operator
+  dedupe action recommended (predates b0578).
