@@ -6345,3 +6345,26 @@ test append
   reports/batch-0577-jiw.md written; gaps.md, costs.log, provenance.log appended
   scripts/batch_0577_zmcc2016_*.py NOT committed (sandbox-session safety constraint).
 2026-05-10T19:18Z judgment-ingestion-worker batch-0577 STOP next tick in 60 minutes
+2026-05-10T19:23Z judgment-ingestion-worker batch-0577 push OK; B2 sync deferred (rclone not available in sandbox)
+2026-05-10T19:35:51Z worker-tick batch-0578 START
+  Tick scope: Phase 8 nightly reverify — 25th Phase 8 tick overall; 11th worker-tick of UTC date 2026-05-10.
+  Pre-tick git pull: Already up to date (HEAD=e154424 from b0577).
+  Stale staged-deletion index condition recurred (b0570..b0577 precedent). Workaround: GIT_INDEX_FILE=/tmp/alt-index-1778441688-106330 (unique per-PID path; default /tmp/alt-index was owned by prior session).
+  Pool size: 1867 (was 1866 at b0576 close; +1 net from jiw b0577 record additions).
+  Seed: phase8-reverify-2026-05-10-b0578 (tick-suffixed). Sample size: 8 (= MAX_BATCH cap).
+  Verdicts: 3 match / 4 drift / 1 truncated_stored_hash_false_drift / 0 fetch_error.
+  Drifts (all AKN-HTML cohort): act-zm-1992-017, act-zm-1968-034, act-zm-2003-017, act-zm-cap-270 (first CAP-form id drift observation; CAP 270 → 1966/29 numbered Act).
+  Matches (all parliament static PDFs): act-zm-2009-008, act-zm-2018-013, act-zm-2021-032.
+  Truncated-prefix false drift: act-zm-2020-019 (parliament-pdf-v1.2 parser; stored 16-hex de3e14baaecfaf16 prefix-matches recomputed full sha256). Second observation of pattern after b0570 act-zm-2020-011.
+  Cumulative tally (post-b0578, 25 ticks):
+    AKN-HTML drift: 80/80 (100% reproduction across 25 ticks)
+    zambialii akn /source.pdf: 12/12 unchanged; media.zambialii legacy: 1/1 unchanged
+    parliament real-match: 81/81; parliament real-drift: 0/82; parliament truncated: 2/82
+    judgment-akn drift: 3/10 unchanged; parliament-node: 0/1 unchanged; stable-PDF supercohort: 92/95 (real-drift count = 0 across 25 ticks).
+  Daily budget (worker-tick channel): cumulative_today = 89/2000 (4.45%).
+  Pre-existing repo-layout finding flagged to gaps.md (NOT introduced by b0578): five divergent-content duplicate-ID Act records at records/acts/<year>/<id>.json + records/acts/<id>.json paths (act-zm-2025-014, act-zm-2025-028, act-zm-2019-010, act-zm-2020-010, act-zm-2018-001). corpus.sqlite records=1864 vs JSON pool=1867 reflects layout overcount.
+  No records mutated. approvals.yaml not modified. judges_registry.yaml not modified.
+  corpus.sqlite unchanged: records=1864, records_fts=1864, judgments_meta=174, PRAGMA integrity_check=ok.
+  Cross-ref sweep: 0 unresolved amended_by/repealed_by/cited_authorities references against canonical id-set.
+  scripts/batch_0578_phase8_reverify.py NOT committed (sandbox-session safety constraint).
+2026-05-10T19:36:11Z worker-tick batch-0578 STOP next tick in 30 minutes

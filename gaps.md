@@ -6455,3 +6455,34 @@ corpus.sqlite-journal recovery: initial commit() raised disk-I/O error (FUSE vir
 4. **Standing**: parser_v0.3.3 anchor pack authoring (86 records pending — predominantly ZMCC 2016–2020 declaratory-holding cohort). Operator action recommended.
 5. **Standing**: OCR pipeline implementation (23 records pending — ZMCC 2016 ×2 + ZMCC 2017 ×7 + ZMCC 2018 ×9 + ZMCC 2020 ×5). **Includes the landmark 2016 Hichilema v Lungu presidential-election petition (zmcc/2016/5)** — operator-prioritisation candidate.
 6. **Standing**: operator action on Phase 5 ceiling 174/160 (+14 above sentinel).
+
+## b0578 worker-tick — Phase 8 Nightly Re-verification (sample 8 / 1867)
+
+**UTC:** 2026-05-10T19:36:11Z
+**Worker:** worker-tick (Phase 8)
+**Seed:** `phase8-reverify-2026-05-10-b0578`
+**Sample:** 8 / pool 1867 (no records mutated)
+
+**Verdicts:** 3 match / 4 drift / 1 truncated_stored_hash_false_drift / 0 fetch_error.
+
+**Drifts (all AKN-HTML cohort, expected):**
+- act-zm-1992-017-appropriation-act-1992 — `https://zambialii.org/akn/zm/act/1992/17/eng@1992-04-01` (40,712 B)
+- act-zm-1968-034-loans-kafue-gorge-hydro-electric-power-project-act-1968 — `https://zambialii.org/akn/zm/act/1968/34/eng@1996-12-31` (47,412 B)
+- act-zm-2003-017-excess-expenditure-appropriation-1998-act-2003 — `https://zambialii.org/akn/zm/act/2003/17/eng@2003-12-12` (38,703 B)
+- act-zm-cap-270-employment-special-provisions-act — `https://zambialii.org/akn/zm/act/1966/29/eng@1996-12-31` (49,139 B; first CAP-form ID drift observation)
+
+**Truncated-prefix false drift (parliament cohort, 2nd observation):**
+- act-zm-2020-019-zambia-national-public-health-institute-act-2020 — stored sha256 prefix `de3e14baaecfaf16` (16 hex) prefix-matches recomputed full 64-hex sha256 `de3e14baaecfaf16244a254c85c375707…`. Parser baseline: `parliament-pdf-v1.2`. Same vintage as b0569/b0570 truncated-prefix findings (act-zm-2020-014, act-zm-2020-011). **Operator action recommended**: backfill sweep for any remaining `parliament-pdf-v1.2` records whose `source_hash` length is `sha256:`+16hex (full-hash recomputation, no record mutation beyond the hash field).
+
+**Cumulative (post-b0578, 25 ticks):**
+- AKN-HTML drift cohort: 80/80 (100% drift reproduction).
+- Stable-PDF supercohort: 92/95 (real drift = 0; 3 cumulative non-matches all truncated-prefix false drifts).
+
+**Repo-layout finding (pre-existing; not introduced by b0578):** five Acts have divergent-content duplicate-ID pairs across `records/acts/<year>/<id>.json` and `records/acts/<id>.json` paths:
+- act-zm-2025-014-cotton-act
+- act-zm-2025-028-appropriation-act
+- act-zm-2019-010-nurses-and-midwives-act-2019
+- act-zm-2020-010-national-council-for-construction-act-2020
+- act-zm-2018-001-public-finance-management-act
+
+Each pair has different file-level sha256 → not benign duplicates; one of the two variants per pair is canonical and the other is stale. Pool-size double-counting is contained (5 pairs ⇒ pool overcounts by 5 vs unique-id basis). **Operator action recommended**: dedupe pass to pick canonical variant per pair (likely the year-subdir variant matches Phase 4 layout and the bare variant is from the Phase 2 pilot era), delete the stale variant, regenerate corpus.sqlite. None of the five IDs are referenced by `amended_by`/`repealed_by`/`cited_authorities` of other records (cross-ref sweep this tick: 0 unresolved references against the canonical id-set).
