@@ -6486,3 +6486,27 @@ corpus.sqlite-journal recovery: initial commit() raised disk-I/O error (FUSE vir
 - act-zm-2018-001-public-finance-management-act
 
 Each pair has different file-level sha256 → not benign duplicates; one of the two variants per pair is canonical and the other is stale. Pool-size double-counting is contained (5 pairs ⇒ pool overcounts by 5 vs unique-id basis). **Operator action recommended**: dedupe pass to pick canonical variant per pair (likely the year-subdir variant matches Phase 4 layout and the bare variant is from the Phase 2 pilot era), delete the stale variant, regenerate corpus.sqlite. None of the five IDs are referenced by `amended_by`/`repealed_by`/`cited_authorities` of other records (cross-ref sweep this tick: 0 unresolved references against the canonical id-set).
+
+
+## b0579 worker-tick — Phase 8 Nightly Re-verification (sample 8 / 1867)
+
+**UTC:** 2026-05-10T20:05:56Z
+**Worker:** worker-tick (Phase 8)
+**Seed:** `phase8-reverify-2026-05-10-b0579`
+**Sample:** 8 / pool 1867 (no records mutated)
+
+**Verdicts:** 5 match / 3 drift / 0 truncated_stored_hash_false_drift / 0 fetch_error.
+
+**Drifts:**
+- judgment-zm-2026-zmcc-07-climate-action-professionals-zambia-v-attorney-gen — `https://zambialii.org/akn/zm/judgment/zmcc/2026/7/eng@2026-03-25` (49,750 B; judgment-akn HTML cohort; **first 2026-vintage record reverified across 26 Phase 8 ticks**; same drift mechanism as prior judgment-akn drifts)
+- si-zm-2023-041-energy-regulation-general-regulations-2023 — `https://zambialii.org/akn/zm/act/si/2023/41` (41,800 B; **first bare-AKN-path drift variant in 26-tick series — stored URL has no `/eng@/<date>/` suffix and no `/source.pdf` suffix**, just the canonical bare AKN identifier path that 302-redirects to the latest English point-in-time rendering; same AKN-HTML drift mechanism, extends cohort URL form)
+- act-zm-1965-008-provincial-and-district-boundaries-act-1965 — `https://zambialii.org/akn/zm/act/1965/8/eng@1996-12-31` (40,613 B; standard AKN-HTML drift cohort)
+
+**No truncated-prefix observations this tick.** Cumulative truncated-prefix cohort on parliament.gov.zm static PDFs remains 2/84 — both 2020-vintage `parliament-pdf-v1.2` parser baseline (act-zm-2020-011 at b0570; act-zm-2020-019 at b0578). **Operator action carried forward from b0578**: backfill sweep for any remaining `parliament-pdf-v1.2` records whose `source_hash` length is `sha256:`+16 hex.
+
+**Cumulative (post-b0579, 26 ticks):**
+- AKN-HTML drift cohort (acts/SIs): 82/82 (100% drift reproduction; bare-path form added).
+- Stable-PDF supercohort: 96/99 (real drift = 0; 3 cumulative non-matches all truncated-prefix false drifts from 2020-vintage parliament-pdf-v1.2 parser baseline).
+- Judgment-akn HTML cohort: 4 drift / 8 match / 12 total (was 3/7/10 pre-b0579).
+
+**Repo-layout finding (pre-existing; reaffirmed, not introduced by b0579):** five Acts continue to have divergent-content duplicate-ID pairs across `records/acts/<year>/<id>.json` and `records/acts/<id>.json` paths (act-zm-2025-014, act-zm-2025-028, act-zm-2019-010, act-zm-2020-010, act-zm-2018-001). None of the b0579 sample IDs are involved in this duplication. Cross-ref sweep this tick: 0 unresolved references against the canonical id-set. Operator action carried forward from b0578.
