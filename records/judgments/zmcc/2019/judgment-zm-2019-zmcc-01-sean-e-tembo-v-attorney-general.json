@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2019-zmcc-01-sean-e-tembo-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Sean E. Tembo v Attorney-General (7 of 2018) [2019] ZMCC 1 (14 February 2019)",
+  "citation": "[2019] ZMCC 1",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Sean E. Tembo v Attorney-General",
+  "case_number": "7 of 2018",
+  "date_decided": "2019-02-14",
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Munalula",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional Court Rules",
+    "Order X Rule 3",
+    "Discontinuance before judgment",
+    "Court’s discretionary power",
+    "Reasons not required",
+    "Speculative future prejudice insufficient to refuse discontinuance",
+    "Costs in discretion (each party to bear own costs)."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "A petitioner may discontinue a constitutional petition before judgment; court granted discontinuance and ordered each party to bear own costs",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "d92897dd2bc70d41f7d3f2152bc2ff0d907449a37e598b654a3768d23673f525",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2019/1/eng@2019-02-14",
+  "source_hash": "sha256:a1c7d7bdbbb066b306c51147ebc6dcef1eb662936f1c1e46df2a330fd5d6301e",
+  "fetched_at": "2026-05-09T15:13:06Z",
+  "parser_version": "0.3.2"
+}

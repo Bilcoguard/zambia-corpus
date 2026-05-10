@@ -5713,3 +5713,53 @@ Match list (URL → status, all stable PDF endpoints):
 No new URL-family verdicts this tick. No judgment-/akn/-HTML or parliament-/node/-landing URLs were sampled; those cumulative tallies unchanged at 1m/3d and 0m/1d respectively. Cumulative judgment-akn-HTML drift rate stays at 3/4 = 75% (n=4) per b0560 standing.
 
 Cross-tick: zambialii.org /akn/ act-or-SI HTML drift now reproduces 43/43; stable PDF matches now reproduce 42/42 across 13 Phase 8 ticks. No records mutated. See reports/batch-0561-report.md and reports/batch-0561-reverify.json.
+
+## [2026-05-09T15:1xZ] Batch 0561 — judgment-ingestion-worker — ZMCC 2019 dense low-num GET + boundary close
+
+Continuation of b0558/b0559/b0560 priority (c) ZMCC NEW YEARS sweep. b0561 HEAD-probed ZMCC 2019 upper sentinel {26..35} (3 OK + 7 confirmed-404 → upper boundary num 28) and low-slice {2,3,4,6,7,8,9} (3 OK + 4 confirmed-404), then GET-fetched 8 known-OK nums {1, 3, 4, 5, 6, 20, 25, 26} (MAX_BATCH_SIZE=8). **2 records written, 6 deferred**.
+
+### Written (2)
+
+- `zmcc/2019/01` — *Sean E. Tembo v Attorney-General* (7 of 2018) [2019] ZMCC 1 (14 February 2019). Outcome: **allowed** (discontinuance granted). Coram: Sitali JCC, Munalula JCC, Musaluke JCC. Anchor source: summary `Court (?:allowed|granted)` v0.3.1 SUMMARY pattern. raw_sha256: `d92897dd2bc70d41f7d3f2152bc2ff0d907449a37e598b654a3768d23673f525`. Source: https://zambialii.org/akn/zm/judgment/zmcc/2019/1/eng@2019-02-14
+- `zmcc/2019/20` — *Chama Mutambalilo v Attorney-General* [2019] ZMCC 20 (9 December 2019). Outcome: **dismissed**. Coram: Chibomba PC, Sitali JCC, Mulenga JCC, Mulonda JCC, Musaluke JCC. Anchor source: summary `(?:appeal|petition|...) (?:is\s+)?(?:hereby\s+)?dismissed` v0.3.1 SUMMARY pattern. raw_sha256: `ce98da133fc241fb7824e27a6d354dcf6ad902e57018d2b7c43ecd532f75edd9`. Source: https://zambialii.org/akn/zm/judgment/zmcc/2019/20/eng@2019-12-09
+
+### `html_no_summary_pdf_no_match` (6) — join parser_v0.3.3-pending cohort
+
+- `zmcc/2019/03` — *Benjamin Mwelwa v Attorney-General*. Summary head: "Suspending a magistrate for a judicial decision violated judicial independence; suspension declared unlawful and damages awarded." (Declaratory holding — relief is a constitutional declaration, not an operative-verb anchor; v0.3.2 cannot resolve.) Source: https://zambialii.org/akn/zm/judgment/zmcc/2019/3/eng@2019-03-14 — raw_sha256: `03731e12b720aadf0667d995c437094752b3dc48037f432d1c850a0c31b5a4d8`
+- `zmcc/2019/04` — *Bernard Shajilwa & Others v Attorney-General & Others*. Summary head: "Placing a purported chief on payroll is an administrative act, not constitutional 'recognition', and customary selection disputes are non-constitutional." (Declaratory + jurisdictional holding — no operative verb anchor; v0.3.2 cannot resolve.) Source: https://zambialii.org/akn/zm/judgment/zmcc/2019/4/eng@2019-05-21 — raw_sha256: `2ef3211506eb9749105c7373ac8d935b4edd81a9aa75e2f9cb186bda0079bf2d`
+- `zmcc/2019/05` — *Martin Chitondo & Others v The Attorney-General*. Summary head: "The new Local Government Act prescribes two-and-a-half-year deputy terms and allows incumbents to seek re-election." (Declaratory statutory-interpretation holding — no operative verb anchor; v0.3.2 cannot resolve.) Source: https://zambialii.org/akn/zm/judgment/zmcc/2019/5/eng@2019-05-17 — raw_sha256: `4ed4395cfe4dafaae42c90e2d22995ee0118094ca966c0848a93493c34017e65`
+- `zmcc/2019/06` — *Public Protector for the Republic of Zambia v INDE*. Summary head: "The Public Protector is an investigatory constitutional office, not a court, and is subject to High Court judicial review." (Declaratory jurisdictional holding — no operative verb anchor; v0.3.2 cannot resolve.) Source: https://zambialii.org/akn/zm/judgment/zmcc/2019/6/eng@2019-05-28 — raw_sha256: `cb832c13fba34a4f40e8cf806364e42c05e3e59d35843398b4c902dcbb0fc890`
+- `zmcc/2019/25` — *Likukela v Attorney-General & Ors*. Summary head: "Petition seeking enforcement of Bill of Rights was wrongly brought in Constitutional Court and dismissed as abuse of process." (Despite "dismissed" appearing in summary, the head is followed by an "abuse of process" qualifier and the v0.3.2 SUMMARY anchor regex does not match this construction. Joins v0.3.3-pending cohort for anchor-pack review.) Source: https://zambialii.org/akn/zm/judgment/zmcc/2019/25/eng@2019-01-23 — raw_sha256: `1ccf27306088133b72934dbad42a8ef8e712b441604854cb7e465d30b2b0c348`
+- `zmcc/2019/26` — *Chansa v Attorney-General*. Summary head: "Summons for judgment on admission dismissed because respondent gave no clear, unequivocal admission; each party bears own costs." (Despite "dismissed" appearing in summary, v0.3.2 SUMMARY anchor regex requires the dismissed-token to be preceded by appeal|petition|application|action|matter; here it is "Summons … dismissed", which is not in the v0.3.2 vocabulary. Joins v0.3.3-pending cohort.) Source: https://zambialii.org/akn/zm/judgment/zmcc/2019/26/eng@2019-10-22 — raw_sha256: `c825fc01120dd1d860dd3594583aa81ed3d14b186e4a2dfab495e9bf41e483d0`
+
+### Coverage tally after b0561
+
+ZMCC 2019 records written: 0 → 2. Raw on disk: 0 → 8 (nums 1, 3, 4, 5, 6, 20, 25, 26). HEAD-confirmed-404 nums: {2, 7, 8, 9, 10, 15, 29..35} (12 confirmed gaps). HEAD-confirmed-200 nums: {1, 3, 4, 5, 6, 20, 25, 26, 27, 28} (10 confirmed). Un-probed: {11, 12, 13, 14, 16, 17, 18, 19, 21, 22, 23, 24} (12 nums). **Upper boundary = num 28** (7 consecutive 404s {29..35} = strong sentinel).
+
+### ZMCC 2019 — dimensional summary
+
+- Published nums (HEAD-confirmed-200): 10 confirmed
+- Internal/upper 404 sentinels: 12 confirmed
+- Un-probed: 12 (will be HEAD-probed next tick before any GET)
+- Upper boundary: num 28 (Sept-Nov 2019 cluster)
+- Lower boundary: num 1 (14 Feb 2019)
+- Date ordering still non-monotonic with num across confirmed sample: num 25=Jan, num 1=Feb, num 26=Oct, num 27=Nov, num 28=Sept, num 20=Dec — typical of ZambiaLII non-date-ordered numbering.
+
+### v0.3.3-pending cohort tally
+
+- Pre-b0561: 62 records (b0560 +1, plus b0558 +4, b0559 +5, plus pre-existing 52)
+- b0561 additions: +6 (zmcc/2019/{3, 4, 5, 6, 25, 26})
+- Post-b0561: **68 records** awaiting parser_v0.3.3 anchor pack
+
+### OCR-pending cohort tally
+
+- Pre-b0561: 5 records (all ZMCC 2020)
+- b0561 additions: 0 (all 8 ZMCC 2019 PDFs extracted text successfully — no scanned-PDF deferrals this tick)
+- Post-b0561: **5 records** unchanged — awaiting OCR pipeline
+
+### Next-tick recommendation
+
+1. **ZMCC 2019 finish** — HEAD-probe un-probed {11..14, 16..19, 21..24} to fully resolve internal-gap pattern; GET-fetch remaining known-OK nums {27, 28} plus any new 200s found in the un-probed range (subject to MAX_BATCH_SIZE).
+2. **ZMCC 2018 HEAD probe** — start next-year discovery pattern once 2019 fully resolved.
+3. **Standing**: parser_v0.3.3 anchor pack authoring (68 records pending; rich set of declaratory-holding anchors now available across 2019+2020+2025) and OCR pipeline implementation (5 records pending) remain out-of-tick operator tasks.
+4. **Standing**: operator action on Phase 5 ceiling 166/160 (now 6 above sentinel after b0561 +2; recommend extend or close).

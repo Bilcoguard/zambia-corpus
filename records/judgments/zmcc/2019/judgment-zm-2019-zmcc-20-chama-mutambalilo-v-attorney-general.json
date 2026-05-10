@@ -1,0 +1,53 @@
+{
+  "id": "judgment-zm-2019-zmcc-20-chama-mutambalilo-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Chama Mutambalilo v Attorney-General (8 of 2019) [2019] ZMCC 20 (9 December 2019)",
+  "citation": "[2019] ZMCC 20",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Chama Mutambalilo v Attorney-General",
+  "case_number": "8 of 2019",
+  "date_decided": "2019-12-09",
+  "judges": [
+    {
+      "name": "Chibomba",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Sitali",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "judicial discipline",
+    "roles of JCC and JSC",
+    "Article 241(c) permits JSC to initiate investigations and receive complaints; Judicial Service Commission Regulations (S.I. No.8/1998) valid as consistent with Constitution; Disciplinary Code for Public Service may apply to subordinate magistrates for ordinary offences; Public Finance Management Act contraventions are for High Court jurisdiction"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "The JSC may discipline judicial officers either on JCC recommendation or on its own initiation under Article 241(c); petition dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "ce98da133fc241fb7824e27a6d354dcf6ad902e57018d2b7c43ecd532f75edd9",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2019/20/eng@2019-12-09",
+  "source_hash": "sha256:27fd96e03187d49aa7853f17f654b36a2c7f6d795b8224f3afc7089a4bfe3d1e",
+  "fetched_at": "2026-05-09T15:13:12Z",
+  "parser_version": "0.3.2"
+}
