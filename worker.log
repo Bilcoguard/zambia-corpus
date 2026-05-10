@@ -6287,3 +6287,42 @@ test append
   Daily budget (worker-tick channel): cumulative_today = 73/2000 (3.65%).
   No records mutated. approvals.yaml not modified. judges_registry.yaml not modified.
   scripts/batch_0575_phase8_reverify.py NOT committed (sandbox-session safety constraint).
+
+[2026-05-10T19:04:49Z] batch-0576 — phase-8-nightly-reverify worker-tick
+  Pre-tick: git pull --ff-only OK (Already up to date; HEAD=1d5019a from b0575).
+    .git lock cleanup attempted — virtiofs Operation-not-permitted on
+    residual zero-byte .git/index.lock; rm/mv/truncate all blocked.
+    Pre-tick git status revealed stale staged-deletion state inherited
+    from prior aborted operation: reports/batch-0575.md and
+    reports/batch-0575-reverify.json marked D (staged for deletion)
+    despite presence in HEAD and on disk; costs.log/provenance.log/
+    worker.log marked MM (staged + working-tree differences). Default
+    `git reset HEAD <files>` blocked by stale .git/index.lock.
+  Workaround: GIT_INDEX_FILE=/tmp/alt-index applied for all index ops
+    this tick. Live .git/index untouched. Alt-index reset to HEAD for
+    five stale-staged files; reports/repair-batch-019.md (unrelated
+    repair-tick pending modification) deliberately excluded from the
+    b0576 commit.
+  Pool: 1866 (unchanged from b0575 — no jiw ticks since b0575).
+  Seed: phase8-reverify-2026-05-10-b0576 (tick-suffixed deterministic).
+  Sample: 8 records (= MAX_BATCH cap; ceil(0.01 × 1866) = 19 → capped).
+  Result: 6 match / 2 drift / 0 fetch_error / 0 truncated_stored_hash_false_drift.
+  Verdicts:
+    match    act-zm-2010-035 zambialii akn /eng@/source.pdf 4,282,814 B (FIRST 4+ MB single-response observation in 24-tick Phase 8 series)
+    match    act-zm-2025-001 parliament.gov.zm /acts/ 227,786 B
+    drift    act-zm-1989-023 zambialii akn /eng@/ HTML 221,216 B (AKN-HTML drift cohort)
+    match    act-zm-2025-006 parliament.gov.zm /acts/ 11,577 B
+    drift    act-zm-1966-001 zambialii akn /eng@/ HTML 368,965 B (AKN-HTML drift cohort; mid-century vintage extends drift age range)
+    match    si-zm-2000-020 zambialii akn /eng@/source.pdf 984,625 B
+    match    act-zm-2012-015 parliament.gov.zm /amendment_act/ 68,810 B
+    match    si-zm-2011-033 zambialii akn /eng@/source.pdf 93,522 B
+  Cumulative tally (post-b0576, 24 ticks):
+    AKN-HTML drift: 76/76 (100% reproduction across 24 ticks)
+    zambialii akn /source.pdf: 12/12; media.zambialii legacy: 1/1
+    parliament real-match: 78/78; parliament real-drift: 0/79; parliament truncated: 1/79
+    judgment-akn drift: 3/10; parliament-node: 0/1; stable-PDF supercohort: 89/91 (real-drift count = 0 across 24 ticks).
+  Daily budget (worker-tick channel): cumulative_today = 81/2000 (4.05%).
+  No records mutated. approvals.yaml not modified. judges_registry.yaml not modified.
+  corpus.sqlite unchanged: records=1862, records_fts=1862, judgments_meta=172, PRAGMA integrity_check=ok.
+  scripts/batch_0576_phase8_reverify.py NOT committed (sandbox-session safety constraint).
+2026-05-10T19:04:49Z worker-tick batch-0576 STOP next tick in 30 minutes
