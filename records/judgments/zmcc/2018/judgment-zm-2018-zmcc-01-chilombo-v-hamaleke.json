@@ -1,0 +1,41 @@
+{
+  "id": "judgment-zm-2018-zmcc-01-chilombo-v-hamaleke",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Chilombo v Hamaleke (Appeal 2 of 2016) [2018] ZMCC 1 (18 January 2018)",
+  "citation": "[2018] ZMCC 1",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Chilombo v Hamaleke",
+  "case_number": "Appeal 2 of 2016",
+  "date_decided": "2018-01-18",
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Munalula",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Electoral Process Act s100(3)",
+    "mandatory signature requirement for election petitions; validity of petition; substitution of petitioner (ss103–104); jurisdictional effect of procedural defects; procedural fairness in election petitions; security for costs (s102) and Tribunal Rules compliance."
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "An election petition unsigned by the named petitioner is invalid and cannot be cured by subsequent substitution; appeal allowed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "1023a356f09d29e4cf7f4cdfd69ea3678ac88b7970ab582bb02ed3819ecb559f",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2018/1/eng@2018-01-18",
+  "source_hash": "sha256:d05fe5709f90cdd5207f44af5ec0489a236378c4a39376f59d189b278ec0f6ba",
+  "fetched_at": "2026-05-10T09:21:25Z",
+  "parser_version": "0.3.2"
+}

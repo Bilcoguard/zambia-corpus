@@ -5893,3 +5893,63 @@ After 17 ticks the pattern is unequivocal: stable-PDF cohort (60 ticks, 0 drifts
 1. **ZMCC 2018 sparse HEAD probe** — start next-year discovery via `{1, 5, 10, 15, 20, 25}` per b0560 pattern. Once probe boundaries are known, GET-fetch the lower-num cluster.
 2. **Standing**: parser_v0.3.3 anchor pack authoring (74 records pending — rich declaratory-holding sample, all ZMCC) and OCR pipeline implementation (5 records pending) remain out-of-tick operator tasks.
 3. **Standing**: operator action on Phase 5 ceiling 170/160 (now 10 above sentinel after b0565 +1; recommend extend or close).
+
+## Batch 0566 — judgment-ingestion-worker (2026-05-10)
+
+### Tick scope
+
+- Priority (a) reparse: skipped (v0.3.2 cannot move v0.3.3-pending cohort; standing per b0552/b0557/b0558/b0559/b0560/b0561/b0564/b0565)
+- Priority (b) SCZ sweep: skipped (ZMSC 2024-2025-2026 confirmed exhausted by b0547/b0550/b0558)
+- Priority (c) chosen: ZMCC 2018 sparse HEAD probe + GET-fetch lower-num cluster per b0565 next-tick recommendation #1
+
+### HEAD-probe ZMCC 2018 (sparse {1, 5, 10, 15, 20, 25})
+
+| num | result | redirect target |
+|----|----|----|
+| 1 | 200 | eng@2018-01-18 |
+| 5 | 200 | eng@2018-02-09 |
+| 10 | 200 | eng@2018-04-06 |
+| 15 | 200 | eng@2018-06-14 |
+| 20 | 404 | — |
+| 25 | 404 | — |
+
+Boundary analysis: published nums in {1..15+}, upper bound somewhere in [16, 19]. Lower-num GET-fetch chosen for this tick (8 records {1..8}); next tick should HEAD-probe {16, 17, 18, 19} to close the upper boundary, then GET-fetch {9..15} and remaining published high-nums.
+
+### GET-fetch results ZMCC 2018 nums {1..8}
+
+All 8 nums returned 200 OK on both HTML and PDF. Date sequence (monotonic ascending, as expected for ZMCC chronological numbering): 2018-01-18, 2018-01-24, 2018-01-26, 2018-01-29, 2018-02-09, 2018-02-14, 2018-02-20, 2018-03-22.
+
+### Records written this tick (1)
+
+- **zmcc/2018/01** — *Chilombo v Hamaleke* — outcome `allowed` — summary anchor `\b(?:appeal|petition|application)\s+(?:is\s+)?(?:hereby\s+)?allowed\b` — coram Sitali JCC (presiding), Mulonda JCC, Munalula JCC — date 2018-01-18 — citation [2018] ZMCC 1 — Appeal 2 of 2016 — issue: Electoral Process Act s100(3); mandatory signature requirement for election petitions; substitution of petitioner (ss103-104); jurisdictional effect of procedural defects.
+
+### Records deferred this tick (7) — joining OCR-pending cohort
+
+All 7 deferrals use the same reason `pdf_extraction_empty_likely_scanned` (PDF text-layer extraction returned empty / <200 chars; PDFs are scanned images without OCR). NOT v0.3.3-pending (these need OCR, not new parser anchors).
+
+| num | citation | filename slug |
+|----|----|----|
+| 2 | [2018] ZMCC 2 | ngimbu-v-kucheka-and-another |
+| 3 | [2018] ZMCC 3 | ngala-and-another-v-anti-corruption-commission |
+| 4 | [2018] ZMCC 4 | kufuka-v-ndalamei |
+| 5 | [2018] ZMCC 5 | kawangu-v-muchima |
+| 6 | [2018] ZMCC 6 | siwale-v-attorney-general-and-another |
+| 7 | [2018] ZMCC 7 | kaingu-v-mutaba |
+| 8 | [2018] ZMCC 8 | changano-kakoma-v-mulonda |
+
+Raw HTML+PDF on disk (preserved for OCR reparse). Citations and filenames extracted from `<h1>` tags before parser-v0.3.2 deferral.
+
+### Cohort tallies after b0566
+
+| Cohort | Pre-b0566 | Δ b0566 | Post-b0566 |
+|----|----|----|----|
+| v0.3.3-pending (parser anchor pack needed) | 74 | 0 | 74 |
+| OCR-pending (scanned PDFs) | 5 | +7 | **12** |
+| Records written | 170 | +1 | **171** |
+
+### Next-tick recommendation
+
+1. **ZMCC 2018 close upper boundary** — HEAD-probe {16, 17, 18, 19} to find exact upper bound, then GET-fetch known-OK remaining high-nums. Concurrently GET-fetch {9..15} (the gap between this tick's lower-cluster and the upper-half).
+2. **Standing**: parser_v0.3.3 anchor pack authoring (74 records pending, declaratory-holding rich sample, predominantly ZMCC 2019).
+3. **Standing**: OCR pipeline implementation (12 records pending — ZMCC 2020 ×5 + ZMCC 2018 ×7).
+4. **Standing**: operator action on Phase 5 ceiling 171/160 (+11 above sentinel).
