@@ -1,0 +1,174 @@
+{
+  "batch": "0568",
+  "completed_at": "2026-05-10T10:10:20Z",
+  "drift_count": 5,
+  "fetch_error_count": 0,
+  "fetches": 8,
+  "integrity_pass": 8,
+  "integrity_post_check": [
+    {
+      "id": "act-zm-cap-269-industrial-and-labour-relations-act",
+      "stored_post": "a61cf0a30bf03e133f1633c358f49a57578cdf1e32f45fd1ee930c06491e65a6",
+      "stored_pre": "a61cf0a30bf03e133f1633c358f49a57578cdf1e32f45fd1ee930c06491e65a6",
+      "unchanged": true
+    },
+    {
+      "id": "act-zm-2009-018-zambia-law-development-commission-amendment-act-2009",
+      "stored_post": "f9795912d846e92d975932b79d51275e8a8a349d5b5b8b97939516e1e89e26dd",
+      "stored_pre": "f9795912d846e92d975932b79d51275e8a8a349d5b5b8b97939516e1e89e26dd",
+      "unchanged": true
+    },
+    {
+      "id": "act-zm-2013-015-the-value-added-tax-amendment-2013",
+      "stored_post": "59c9246832693255bb29b0ded7d572f2a2c2a0fdf8a13743f816df8d94d1af39",
+      "stored_pre": "59c9246832693255bb29b0ded7d572f2a2c2a0fdf8a13743f816df8d94d1af39",
+      "unchanged": true
+    },
+    {
+      "id": "act-zm-2020-007-the-banking-and-financial-services-amendment-act-2020",
+      "stored_post": "add6ccf322290899fe40cdb333f62c14c087b833a929fa51398f5205f90cc8f9",
+      "stored_pre": "add6ccf322290899fe40cdb333f62c14c087b833a929fa51398f5205f90cc8f9",
+      "unchanged": true
+    },
+    {
+      "id": "si-zm-2018-056-national-assembly-by-election-kasenengwa-constituency-no-41-election-date-and-time-of-poll-no-2-order-2018",
+      "stored_post": "d405f9242b908eee52d8a96f84f3fda967f85026e32375cab61cd73e37cf774b",
+      "stored_pre": "d405f9242b908eee52d8a96f84f3fda967f85026e32375cab61cd73e37cf774b",
+      "unchanged": true
+    },
+    {
+      "id": "act-zm-1992-026-university-act-1992",
+      "stored_post": "f2731ed85d4c35faba4d3771b525bad76978a67c97f176139fa28f8b19fff333",
+      "stored_pre": "f2731ed85d4c35faba4d3771b525bad76978a67c97f176139fa28f8b19fff333",
+      "unchanged": true
+    },
+    {
+      "id": "act-zm-1920-002-public-pounds-and-trespass-act",
+      "stored_post": "bd2aeda0a792788742ddb7cfe4a1ec2a1a235f212d9b09d99188d2d4ff4e2595",
+      "stored_pre": "bd2aeda0a792788742ddb7cfe4a1ec2a1a235f212d9b09d99188d2d4ff4e2595",
+      "unchanged": true
+    },
+    {
+      "id": "act-zm-1973-020-medical-examination-of-young-persons--underground-work--act--1973",
+      "stored_post": "9bd5575824dd88db6cfee3257d43d02750d63576edea2df3662b3ecae7c6d68d",
+      "stored_pre": "9bd5575824dd88db6cfee3257d43d02750d63576edea2df3662b3ecae7c6d68d",
+      "unchanged": true
+    }
+  ],
+  "integrity_total": 8,
+  "match_count": 3,
+  "max_batch": 8,
+  "parser_version": "phase8-reverify-0.1.0",
+  "phase": "phase_8_nightly_reverify",
+  "pool_size": 1865,
+  "results": [
+    {
+      "duration_s": 2.069,
+      "fetch_error": null,
+      "fetched_at": "2026-05-10T10:09:57Z",
+      "fetched_bytes_len": 499225,
+      "fetched_sha256": "468e23d9b53a54cc6b6ce4d72d4f8d942abaf563455021c77348fe8c8711ced7",
+      "fetched_status": 200,
+      "id": "act-zm-cap-269-industrial-and-labour-relations-act",
+      "source_url": "https://zambialii.org/akn/zm/act/1993/27/eng@1996-12-31",
+      "stored_sha256": "a61cf0a30bf03e133f1633c358f49a57578cdf1e32f45fd1ee930c06491e65a6",
+      "type": "act",
+      "verdict": "drift"
+    },
+    {
+      "duration_s": 0.606,
+      "fetch_error": null,
+      "fetched_at": "2026-05-10T10:09:57Z",
+      "fetched_bytes_len": 393069,
+      "fetched_sha256": "f9795912d846e92d975932b79d51275e8a8a349d5b5b8b97939516e1e89e26dd",
+      "fetched_status": 200,
+      "id": "act-zm-2009-018-zambia-law-development-commission-amendment-act-2009",
+      "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Zambia%20Law%20Development%20Commission%20%28Amendment%29%20Act%2C%202009.PDF",
+      "stored_sha256": "f9795912d846e92d975932b79d51275e8a8a349d5b5b8b97939516e1e89e26dd",
+      "type": "act",
+      "verdict": "match"
+    },
+    {
+      "duration_s": 0.412,
+      "fetch_error": null,
+      "fetched_at": "2026-05-10T10:10:00Z",
+      "fetched_bytes_len": 44607,
+      "fetched_sha256": "59c9246832693255bb29b0ded7d572f2a2c2a0fdf8a13743f816df8d94d1af39",
+      "fetched_status": 200,
+      "id": "act-zm-2013-015-the-value-added-tax-amendment-2013",
+      "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/Value%20Added%20Tax%20%28Amendment%29%20Act%202013.PDF",
+      "stored_sha256": "59c9246832693255bb29b0ded7d572f2a2c2a0fdf8a13743f816df8d94d1af39",
+      "type": "act",
+      "verdict": "match"
+    },
+    {
+      "duration_s": 0.345,
+      "fetch_error": null,
+      "fetched_at": "2026-05-10T10:10:02Z",
+      "fetched_bytes_len": 24779,
+      "fetched_sha256": "add6ccf322290899fe40cdb333f62c14c087b833a929fa51398f5205f90cc8f9",
+      "fetched_status": 200,
+      "id": "act-zm-2020-007-the-banking-and-financial-services-amendment-act-2020",
+      "source_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Banking%20and%20Financial%20Services%20Amend%20Act%20No.%207%20of%202020.%20pmd.pdf",
+      "stored_sha256": "add6ccf322290899fe40cdb333f62c14c087b833a929fa51398f5205f90cc8f9",
+      "type": "act",
+      "verdict": "match"
+    },
+    {
+      "duration_s": 2.04,
+      "fetch_error": null,
+      "fetched_at": "2026-05-10T10:10:04Z",
+      "fetched_bytes_len": 39262,
+      "fetched_sha256": "f632e4411874ceebc945ea29ab28719fc534899c7d30bc4f1f6abe42301363d8",
+      "fetched_status": 200,
+      "id": "si-zm-2018-056-national-assembly-by-election-kasenengwa-constituency-no-41-election-date-and-time-of-poll-no-2-order-2018",
+      "source_url": "https://zambialii.org/akn/zm/act/si/2018/56",
+      "stored_sha256": "d405f9242b908eee52d8a96f84f3fda967f85026e32375cab61cd73e37cf774b",
+      "type": "statutory_instrument",
+      "verdict": "drift"
+    },
+    {
+      "duration_s": 1.975,
+      "fetch_error": null,
+      "fetched_at": "2026-05-10T10:10:11Z",
+      "fetched_bytes_len": 273399,
+      "fetched_sha256": "4208b884a89d58579be7f1016cec513eac3178f3f0e85229e9f819fba480dc2f",
+      "fetched_status": 200,
+      "id": "act-zm-1992-026-university-act-1992",
+      "source_url": "https://zambialii.org/akn/zm/act/1992/26/eng@1996-12-31",
+      "stored_sha256": "f2731ed85d4c35faba4d3771b525bad76978a67c97f176139fa28f8b19fff333",
+      "type": "act",
+      "verdict": "drift"
+    },
+    {
+      "duration_s": 1.798,
+      "fetch_error": null,
+      "fetched_at": "2026-05-10T10:10:18Z",
+      "fetched_bytes_len": 251298,
+      "fetched_sha256": "9c78da495dfc2155ab46d990c73f955c5ce9dd8e7526fe182446274515f68df5",
+      "fetched_status": 200,
+      "id": "act-zm-1920-002-public-pounds-and-trespass-act",
+      "source_url": "https://zambialii.org/akn/zm/act/1920/2/eng@1996-12-31",
+      "stored_sha256": "bd2aeda0a792788742ddb7cfe4a1ec2a1a235f212d9b09d99188d2d4ff4e2595",
+      "type": "act",
+      "verdict": "drift"
+    },
+    {
+      "duration_s": 2.688,
+      "fetch_error": null,
+      "fetched_at": "2026-05-10T10:10:20Z",
+      "fetched_bytes_len": 84630,
+      "fetched_sha256": "beb1d1f7158f3272eec620281d04f1d6ad711bce7f3788f84d105402ccc55964",
+      "fetched_status": 200,
+      "id": "act-zm-1973-020-medical-examination-of-young-persons--underground-work--act--1973",
+      "source_url": "https://www.zambialii.org/akn/zm/act/1973/20/eng@1996-12-31",
+      "stored_sha256": "9bd5575824dd88db6cfee3257d43d02750d63576edea2df3662b3ecae7c6d68d",
+      "type": "act",
+      "verdict": "drift"
+    }
+  ],
+  "sample_rate": 0.01,
+  "sample_size": 8,
+  "seed": "phase8-reverify-2026-05-10-b0568",
+  "started_at": "2026-05-10T10:09:54Z"
+}
