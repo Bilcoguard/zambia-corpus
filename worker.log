@@ -6563,3 +6563,7 @@ test append
 2026-05-11T10:04:56Z worker-tick batch-0589 START phase_8_nightly_reverify pool=1891 sample_size=8 seed=phase8-reverify-2026-05-11-b0589
 2026-05-11T10:05:18Z worker-tick batch-0589 reverify_done match=6 drift=2 truncated_prefix=0 fetch_error=0 fetches=8 retry_fetches=0
 2026-05-11T10:07:53Z worker-tick batch-0589 B2_SYNC deferred-to-host reason=rclone-not-in-sandbox
+2026-05-11T10:08:47Z	batch-0589	GIT_COMMIT	82ca52d	files=5	verdict=ok
+2026-05-11T10:08:47Z	batch-0589	GIT_PUSH	origin/main	8de061e..82ca52d	verdict=ok
+2026-05-11T10:08:47Z	batch-0589	STOP	written=0	match=6	drift=2	truncated_prefix=0	fetch_error=0	fetches=8	retry_fetches=0	cumulative_today=42/2000	commit=82ca52d	verdict=tick-complete-no-records-mutated
+[2026-05-11T10:11:38Z] All 48 repair targets fixed — repair worker idle (batch 021)
