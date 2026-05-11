@@ -6631,3 +6631,8 @@ test append
 2026-05-11T19:16:43Z	batch-0593-jiw	CHECK8	records=1892	records_fts=1892	verdict=PASS-counts-equal-no-mutation-this-tick
 2026-05-11T19:16:43Z	batch-0593-jiw	CORPUS_SQLITE_MUTATION	none	verdict=no-records-inserted-fts5-blocked
 2026-05-11T19:16:43Z	batch-0593-jiw	END	verdict=ok-partial-fts5-blocked-backlog-20
+2026-05-11T19:18:54Z	batch-0593-jiw	GIT_COMMIT	b85bb74	files=6	verdict=ok-combined-with-repair-batch-024-prep
+2026-05-11T19:18:54Z	batch-0593-jiw	GIT_PUSH	origin/main	6bddfdf..b85bb74	verdict=ok
+2026-05-11T19:18:54Z	batch-0593-jiw	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
+2026-05-11T19:18:54Z	batch-0593-jiw	STOP	written=0	deferred=7	fts5-backlog=20	commit=b85bb74	verdict=ok-fts5-blocked-15th-consecutive-tick
+[2026-05-11T20:10:49Z] All 48 repair targets fixed — repair worker idle
