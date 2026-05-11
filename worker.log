@@ -6531,3 +6531,14 @@ test append
 2026-05-11T08:38:42Z worker-tick batch-0586 Pre-existing repo-layout finding (5 divergent-content duplicate-ID Acts) reaffirmed — none of b0586 sample IDs are involved.
 2026-05-11T08:38:42Z worker-tick batch-0586 scripts/batch_0586_phase8_reverify.py NOT committed (sandbox-session safety constraint).
 2026-05-11T08:38:42Z worker-tick batch-0586 plumbing_commit alt-index will be used due to persistent .git/index.lock FUSE EPERM (same constraint b011-b020 + b0579..b0585)
+2026-05-11T08:39:00Z	batch-0586	GIT_COMMIT	476893f	files=6	verdict=ok
+2026-05-11T08:39:00Z	batch-0586	GIT_PUSH	origin/main	c7b9fc3..476893f	verdict=ok
+2026-05-11T08:39:00Z	batch-0586	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
+2026-05-11T08:39:00Z	batch-0586	STOP	written=0	match=4	drift=4	truncated_prefix=0	fetch_error=0	fetches=8	retry_fetches=2	cumulative_today=18/2000	commit=476893f	verdict=tick-complete-no-records-mutated
+2026-05-11T09:04:36Z worker-tick batch-0587 START phase_8_nightly_reverify seed=phase8-reverify-2026-05-11-b0587 pool_size=1884 sample_size=8 (third worker-tick of 2026-05-11; 31st Phase-8 tick overall)
+2026-05-11T09:04:36Z worker-tick batch-0587 git_pull verdict=ok (Already up to date, HEAD=476893f, virtiofs maintenance.lock warning only)
+2026-05-11T09:04:36Z worker-tick batch-0587 PKI loader loaded scripts/certs/rapidssl_tls_rsa_ca_g1.pem into ssl.create_default_context() at startup (b0586 standing rec #4)
+2026-05-11T09:05:07Z worker-tick batch-0587 SAMPLE_RESULTS match=5 drift=3 truncated_prefix=0 fetch_error=0 fetches=8 retry_fetches=0
+2026-05-11T09:05:07Z worker-tick batch-0587 NEW_OBSERVATIONS first commons.laws.africa host observation (local-courts-administration-of-estates-rules-1969 778394 B real-match); first parliament.gov.zm /amendment_act/ URL sub-path observation (act-zm-2014-002 158307 B real-match); sixth bare-AKN-path SI drift (si-zm-2020-079)
+2026-05-11T09:05:07Z worker-tick batch-0587 INTEGRITY_CHECK json_parseable=PASS keys_present=PASS sample<=MAX_BATCH=PASS sum_eq_sample=PASS ids_resolve_sqlite=PASS no_record_mutation=PASS verdict_enum=PASS pool>=1800=PASS overall=PASS
+2026-05-11T09:05:07Z worker-tick batch-0587 plumbing_commit alt-index will be used due to persistent .git/index.lock FUSE EPERM (same constraint b011-b020 + b0579..b0586)
