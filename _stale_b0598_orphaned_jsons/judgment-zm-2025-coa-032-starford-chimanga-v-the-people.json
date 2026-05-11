@@ -1,0 +1,50 @@
+{
+  "id": "judgment-zm-2025-coa-032-starford-chimanga-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "court": "Court of Appeal",
+  "title": "Starford Chimanga v The People (APP/32/2024) [2025] ZMCA (2025-02-18)",
+  "citation": "[2025] ZMCA",
+  "case_name": "Starford Chimanga v The People",
+  "case_number": "APP/32/2024",
+  "date_decided": "2025-02-18",
+  "judges": [
+    {
+      "name": "Mchenga",
+      "role": "DJP",
+      "dissented": false
+    },
+    {
+      "name": "Ngulube",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Chembe",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-appeal",
+    "unnatural-offences",
+    "section-155-penal-code",
+    "sentence-review"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Appeal dismissed; conviction and sentence (35 years imprisonment with hard labour for four counts of unnatural offences) upheld",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "d5f4919e739eb4ef93e89a31bf89e81ecc485af5d26108ec8306d385e78bfbf2",
+  "source_hash": "sha256:d5f4919e739eb4ef93e89a31bf89e81ecc485af5d26108ec8306d385e78bfbf2",
+  "source_url": "https://judiciaryzambia.com/app-32-2024-starford-chimanga-vs-the-people-coram-justice-mchenga-djp-ngulube-chembe-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2025/02/App-32-2024-Starford-Chimanga-vs-The-People-Coram-Justice-Mchenga-DJP-Ngulube-Chembe-JJA.pdf",
+  "raw_path": "raw/judiciary-zm/coa/2026/App-32-2024-Starford-Chimanga-vs-The-People-Coram-Justice-Mchenga-DJP-Ngulube-Chembe-JJA.pdf",
+  "on_disk_path": "records/judgments/coa/2025/judgment-zm-2025-coa-032-starford-chimanga-v-the-people.json",
+  "fetched_at": "2026-05-11T22:12:21Z",
+  "parser_version": "0.4.0-inline",
+  "ingestion_batch": "b0598",
+  "ingestion_note": "Flushed from b0594/b0597 FTS5 deferral backlog. Direct-column INSERT used per b0597 finding that FTS5 metadata corruption affects rebuild/optimize/integrity-check/MATCH but not append-INSERT. Pre-existing FTS5 search corruption tracked in gaps.md and operator-escalation reports/batch-0594-jiw.md, reports/batch-0597-jiw.md."
+}

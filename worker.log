@@ -6719,3 +6719,23 @@ test append
 2026-05-11T22:04:39Z	batch-0600	INTEGRITY	required_keys=PASS	sample<=MAX=PASS	counts_sum_eq_sample=PASS	all_ids_resolve=PASS	result_fields=PASS	verdict_enum=PASS	pool_floor_1800=PASS	no_record_mutation=PASS	verdict=PASS
 2026-05-11T22:04:39Z	batch-0600	CORPUS_SQLITE_MUTATION	none	verdict=no-records-mutated-phase8-readonly-by-design
 2026-05-11T22:04:39Z	batch-0600	END	verdict=ok
+2026-05-11T22:08:17Z	batch-0600	GIT_COMMIT	d5d48f0	files=5	verdict=ok
+2026-05-11T22:08:17Z	batch-0600	GIT_PUSH	origin/main	21d10cf..d5d48f0	verdict=ok
+2026-05-11T22:08:17Z	batch-0600	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
+2026-05-11T22:08:17Z	batch-0600	STOP	written=0	match=4	drift=4	truncated_prefix=0	fetch_error=0	fetches=8	retry_fetches=0	cumulative_today=82/2000	commit=d5d48f0	verdict=tick-complete-no-records-mutated
+2026-05-11T22:11:45Z	repair-batch-026	START	verdict=ok
+2026-05-11T22:11:45Z	repair-batch-026	STEP2	manifest=48	healthy=48	corrupted=0	missing=0	verdict=idle
+2026-05-11T22:11:45Z	repair-batch-026	STEP4	records=1892	records_fts=1892	integrity=ok	verdict=ok
+2026-05-11T22:11:45Z	repair-batch-026	IDLE	consecutive_idle_ticks=15	repaired=0	fetched=0	verdict=no-work-required
+2026-05-11T22:11:45Z	repair-batch-026	B2_SYNC	skipped	reason=no-mutation-this-tick	verdict=skipped
+2026-05-11T22:11:45Z	repair-batch-026	END	verdict=tick-complete-idle
+2026-05-12T00:11:00Z	batch-0598-jiw	START	worker=judgment-ingestion	phase=fts5-flush-attempt	priority=a-reparse-deferred
+2026-05-12T00:11:00Z	batch-0598-jiw	SYNC	git-pull	verdict=ok-already-up-to-date
+2026-05-12T00:11:00Z	batch-0598-jiw	BUDGET	fetches_today=0/500	verdict=ok
+2026-05-12T00:11:00Z	batch-0598-jiw	BACKUP	corpus.sqlite.bak.b0598-pre-20260511T221111Z	size=116457472	verdict=ok
+2026-05-12T00:11:00Z	batch-0598-jiw	FTS5_DIAGNOSTIC_RETEST	b0597_hypothesis=FALSIFIED	insert_in_transaction=ok	commit=FAIL(database disk image is malformed)	rolled_back=auto	drop_table_records_fts=FAIL(database disk image is malformed)	verdict=fts5-write-and-rebuild-fully-blocked
+2026-05-12T00:11:00Z	batch-0598-jiw	FLUSH_ATTEMPT	records_prepared=5	records_inserted_in_txn=5	committed=0	rolled_back=5	verdict=fts5-blocked-no-records-mutated
+2026-05-12T00:11:00Z	batch-0598-jiw	ORPHANED_JSONS	count=5	moved_to=_stale_b0598_orphaned_jsons/	reason=fuse-mount-blocks-rm	verdict=quarantined
+2026-05-12T00:11:00Z	batch-0598-jiw	INTEGRITY	records=1892	records_fts=1892	judgments_meta=202	check8=PASS	verdict=ok
+2026-05-12T00:11:00Z	batch-0598-jiw	ESCALATION	target=operator	reason=fts5-rebuild-required-b0597-workaround-falsified	consecutive_blocked_ticks=18	verdict=escalated-7th-time
+2026-05-12T00:11:00Z	batch-0598-jiw	END	written=0	deferred=0	verdict=fts5-blocked-tick-complete

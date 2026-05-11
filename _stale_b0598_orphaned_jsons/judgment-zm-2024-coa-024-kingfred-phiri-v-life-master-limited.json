@@ -1,0 +1,91 @@
+{
+  "id": "judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-limited",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "court": "Court of Appeal",
+  "title": "Kingfred Phiri v Life Master Limited (APP/24/2023) [2024] ZMCA (2024-12-10)",
+  "citation": "[2024] ZMCA",
+  "case_name": "Kingfred Phiri v Life Master Limited",
+  "case_number": "APP/24/2023",
+  "date_decided": "2024-12-10",
+  "judges": [
+    {
+      "name": "Siavwapa",
+      "role": "JP",
+      "dissented": false
+    },
+    {
+      "name": "Mchenga",
+      "role": "DJP",
+      "dissented": false
+    },
+    {
+      "name": "Chashi",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Kondolo SC",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Makungu",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Chishimba",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Ngulube",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Banda-Bobo",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Muzenga",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Patel",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Chembe",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "employment",
+    "labour-law",
+    "severance-pay",
+    "civil-appeal"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "we dismiss it accordingly",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "37921802939d394e942d9c498f72642e55b765b95dd92d6f0679b80c7cdb8ee1",
+  "source_hash": "sha256:37921802939d394e942d9c498f72642e55b765b95dd92d6f0679b80c7cdb8ee1",
+  "source_url": "https://judiciaryzambia.com/app-0024-2024-kingfred-phiri-vs-life-master-ltd-10th-december-2024-coram-siavwapa-jp-mchenga-djpchashi-kondolo-makungu-chishimbasichingangulubebanda-bobosharpe-phirimuzengapatel-chembe/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2025/04/APP-0024-2024-Kingfred-Phiri-vs-Life-Master-Ltd-10th-December-2024-Coram-Siavwapa-JP-Mchenga-DJPChashi-Kondolo-Makungu-ChishimbaSichingaNgulubeBanda-BoboSharpe-PhiriMuzengaPatel-Chembe-JJA.pdf",
+  "raw_path": "raw/judiciary-zm/coa/2026/APP-0024-2024-Kingfred-Phiri-vs-Life-Master-Ltd-10th-December-2024-Coram-Siavwapa-JP-Mchenga-DJPChashi-Kondolo-Makungu-ChishimbaSichingaNgulubeBanda-BoboSharpe-PhiriMuzengaPatel-Chembe-JJA.pdf",
+  "on_disk_path": "records/judgments/coa/2024/judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-limited.json",
+  "fetched_at": "2026-05-11T22:12:21Z",
+  "parser_version": "0.4.0-inline",
+  "ingestion_batch": "b0598",
+  "ingestion_note": "Flushed from b0594/b0597 FTS5 deferral backlog. Direct-column INSERT used per b0597 finding that FTS5 metadata corruption affects rebuild/optimize/integrity-check/MATCH but not append-INSERT. Pre-existing FTS5 search corruption tracked in gaps.md and operator-escalation reports/batch-0594-jiw.md, reports/batch-0597-jiw.md.",
+  "notes": "11-judge expanded panel (Sichinga SC and Sharpe-Phiri sat at hearing but were not available at delivery \u2014 final majority panel of 11 named here). Landmark Employment Code Act decision departing from Zubao Harry Juma v First Quantum Mining on Section 54 severance pay for permanent employees."
+}

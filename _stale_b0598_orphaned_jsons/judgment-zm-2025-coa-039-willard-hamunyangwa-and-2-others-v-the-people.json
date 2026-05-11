@@ -1,0 +1,52 @@
+{
+  "id": "judgment-zm-2025-coa-039-willard-hamunyangwa-and-2-others-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "court": "Court of Appeal",
+  "title": "Willard Hamunyangwa and 2 Others v The People (APP/39-40-41/2023) [2025] ZMCA (2025-02-18)",
+  "citation": "[2025] ZMCA",
+  "case_name": "Willard Hamunyangwa and 2 Others v The People",
+  "case_number": "APP/39-40-41/2023",
+  "date_decided": "2025-02-18",
+  "judges": [
+    {
+      "name": "Mchenga",
+      "role": "DJP",
+      "dissented": false
+    },
+    {
+      "name": "Muzenga",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Chembe",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-appeal",
+    "murder",
+    "juvenile",
+    "sentence-review",
+    "evidence"
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "Appeals of 2nd and 3rd appellants allowed (acquitted); 1st appellant's murder conviction upheld but death sentence set aside (juvenile at offence), replaced with one-year probation order",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "08306da4618b84f2dd499d443e804df927a8acafe3e89f6b0f0b23d15fe0826d",
+  "source_hash": "sha256:08306da4618b84f2dd499d443e804df927a8acafe3e89f6b0f0b23d15fe0826d",
+  "source_url": "https://judiciaryzambia.com/app-394041-2023-willard-hamunyangwa-2-others-vs-the-people-coram-mchenga-djp-muzenga-chembe-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2025/02/App-394041-2023-Willard-Hamunyangwa-2-Others-vs-The-People-Coram-Mchenga-DJP-Muzenga-Chembe-JJA.pdf",
+  "raw_path": "raw/judiciary-zm/coa/2026/App-394041-2023-Willard-Hamunyangwa-2-Others-vs-The-People-Coram-Mchenga-DJP-Muzenga-Chembe-JJA.pdf",
+  "on_disk_path": "records/judgments/coa/2025/judgment-zm-2025-coa-039-willard-hamunyangwa-and-2-others-v-the-people.json",
+  "fetched_at": "2026-05-11T22:12:21Z",
+  "parser_version": "0.4.0-inline",
+  "ingestion_batch": "b0598",
+  "ingestion_note": "Flushed from b0594/b0597 FTS5 deferral backlog. Direct-column INSERT used per b0597 finding that FTS5 metadata corruption affects rebuild/optimize/integrity-check/MATCH but not append-INSERT. Pre-existing FTS5 search corruption tracked in gaps.md and operator-escalation reports/batch-0594-jiw.md, reports/batch-0597-jiw.md.",
+  "notes": "Consolidated appeals 39/40/41 of 2023."
+}

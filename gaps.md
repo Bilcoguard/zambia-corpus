@@ -7041,3 +7041,82 @@ Repair-batch-024 (most recent repair-worker tick at 2026-05-11T19:11:40Z) report
 - App-75-2025 Astro Holdings Limited + 3 Others and Edgar Hamuwele (Chashi, Banda-Bobo, Muzenga JJA, 31 Jun 2025)
 - Appeal-117-2024 Frank Lumbwe Kakoma v Joseph Mulenga + 2 Others (Ngulube, Muzenga, Chembe JJA, 30 Oct 2024)
 - Appeal-268-2022 Mpoyi Mbambu Zambia Ltd v Joserine Trading Ltd (Kondolo SC, Majula, Chembe JJA, 10 Oct 2024)
+
+
+## 2026-05-12 — JIW batch-0598 (FTS5-flush attempt, b0597 finding RETRACTED) — 18th consecutive blocked tick
+
+**Tick goal:** Test b0597's hypothesis that direct column-based INSERTs into `records_fts` could flush the 26-record deferred-fts5 backlog without operator authorisation for a full FTS5 rebuild.
+
+**Result: 0 records written. b0597 finding is RETRACTED — the diagnostic was incomplete.**
+
+### Corrected FTS5 diagnostic (b0598 supersedes b0597 finding)
+
+b0597 reported that direct column-based `INSERT INTO records_fts(id, type, title, citation, case_name, outcome_detail, body) VALUES (...)` succeeds on a /tmp isolated copy of `corpus.sqlite`, with post-insert `COUNT(*)` rising from 1892 → 1893. That observation IS reproducible — but b0597 did not test whether `conn.commit()` succeeds. **It does not.**
+
+b0598 diagnostic on /tmp isolated copy:
+
+```
+pre records_fts: 1892
+INSERT done                              ← in-transaction; not yet flushed
+post-insert COUNT(*): 1893               ← matches b0597 observation
+COMMIT FAILED: database disk image is malformed
+post-commit COUNT(*): 1892               ← rolled back automatically
+reopen-and-lookup of __diag2__: None     ← not durable
+```
+
+b0598 also tested the rebuild path:
+- `DROP TABLE records_fts` → FAIL (`database disk image is malformed`) — even DROP cannot proceed.
+- Shadow tables (`records_fts_data`, `_idx`, `_content`, `_docsize`, `_config`) remain in `sqlite_master` after DROP failure.
+
+**Conclusion: the malformed FTS5 metadata pages corrupt the b-tree at a level that prevents any write to `records_fts` from being durably committed, including INSERTs to new rows.** All FTS5 writes appear to succeed in the active transaction (so COUNT(*) reflects pre-commit state) but commit-time consistency checks abort with "database disk image is malformed", triggering an automatic rollback.
+
+This invalidates the b0597-proposed "JIW flushes backlog via direct column inserts" workaround. The only remaining path is full FTS5 rebuild by the repair-worker — which has been escalated to the operator on b0590, b0591, b0592, b0593, b0594, b0597, and now b0598 (7 escalations across 18 ticks).
+
+### b0598 flush attempt details
+
+This tick attempted to insert 5 parser-clean records from the b0594 + b0597 deferred archive:
+1. `judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-limited` (APP/24/2023, 11-judge expanded panel, landmark Employment Code Act decision)
+2. `judgment-zm-2025-coa-039-willard-hamunyangwa-and-2-others-v-the-people` (APP/39-40-41/2023, consolidated criminal appeals)
+3. `judgment-zm-2025-coa-032-starford-chimanga-v-the-people` (APP/32/2024, criminal — unnatural offences)
+4. `judgment-zm-2025-coa-027-collins-ncube-v-the-people` (APP/27/2024, criminal — murder, circumstantial)
+5. `judgment-zm-2024-coa-211-rotor-moulder-enterprises-v-stanley-jordan` (APP/211/2022, commercial — writ of possession set aside)
+
+Sequence per record:
+- `INSERT INTO records (...)` → executed without error
+- `INSERT INTO judgments_meta (...)` → executed without error
+- `INSERT INTO records_fts(id, type, title, citation, case_name, outcome_detail, body)` → executed without error
+- (in-transaction COUNT(*) on records_fts rises by 1 per record)
+
+After all 5 record-triples were prepared inside a single transaction, `conn.commit()` failed with `database disk image is malformed`. Python's sqlite3 auto-rolled the transaction back. Post-rollback `COUNT(*)` confirmed: records=1892, records_fts=1892, judgments_meta=202 — i.e., no change to the real database. CHECK8 still holds at Δ=0.
+
+### Orphaned JSON files (5)
+
+The 5 JSON record files were written to `records/judgments/coa/{year}/...json` BEFORE the failed commit (file writes preceded the commit attempt in my script). The fuse mount of this workspace allows file creation but blocks deletion (`Operation not permitted` on `rm`/`os.remove`). Consequently the 5 JSON files have been moved to `_stale_b0598_orphaned_jsons/` to prevent future workers from mistaking them for live records:
+
+```
+_stale_b0598_orphaned_jsons/
+  judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-limited.json
+  judgment-zm-2024-coa-211-rotor-moulder-enterprises-v-stanley-jordan.json
+  judgment-zm-2025-coa-027-collins-ncube-v-the-people.json
+  judgment-zm-2025-coa-032-starford-chimanga-v-the-people.json
+  judgment-zm-2025-coa-039-willard-hamunyangwa-and-2-others-v-the-people.json
+```
+
+These remain available for re-use the moment the FTS5 rebuild is performed (they encode the same data as the entries archived in `raw/judiciary-zm/coa/_deferred/b0594_parsed_records.json` and `b0597_parsed_records.json`). raw_sha256 values were verified against on-disk PDFs prior to write. Pre-flush backup: `corpus.sqlite.bak.b0598-pre-20260511T221111Z` (116 MB).
+
+### Total deferred-fts5 backlog (UNCHANGED)
+
+7 (b0590) + 4 (b0591) + 3 (b0592) + 6 (b0593) + 4 (b0594) + 2 (b0597) = **26 records** awaiting FTS5 rebuild.
+Total deferred-scanned-pdf backlog: 1 (b0593) + 4 (b0594) + 5 (b0597) = **10 records** awaiting ocrmypdf.
+
+### Operator escalation (7th repeat, NOW URGENT)
+
+**REQUIRED ACTION:** Add `fts5-rebuild-records-fts` task to repair-worker manifest. The b0597 workaround (JIW direct column inserts) DOES NOT WORK — b0598 has falsified that hypothesis. There is NO JIW-side workaround. Without repair-worker FTS5 rebuild, judgment ingestion is permanently blocked.
+
+Repair-batch-026 (2026-05-11T22:11:45Z) reports `consecutive_idle_ticks=15`, `records_fts=1892 integrity=ok verdict=ok`. The repair-worker's integrity check uses `COUNT(*)` which works on the corrupted FTS5; it does NOT detect the malformation. The repair-worker manifest needs the explicit `fts5-rebuild-records-fts` task per the recipe earlier in this file (b0594 escalation block).
+
+If operator authorises an interim JIW-side rebuild action (DROP records_fts → CREATE VIRTUAL TABLE records_fts → INSERT … SELECT … from records + judgments_meta → INSERT('integrity-check')), JIW could execute it directly — but b0598 has shown that even `DROP TABLE records_fts` fails with "database disk image is malformed". So the rebuild must be done after VACUUM, dump-and-restore, or by repair worker with specialised handling for corrupted-shadow-table recovery. Recommend: operator dump corpus.sqlite to SQL via `.dump`, edit out the records_fts shadow tables, restore from SQL, then re-create FTS5 from records data.
+
+### Sweep position next tick (b0599-jiw)
+
+Unchanged from b0597: `judiciary-coa-sweep: page 8 remaining` (6 candidates listed above). New ingestion is also FTS5-blocked. Recommend next JIW tick continue page-8 sweep regardless (parsing is zero-cost and adds to the archived deferred queue) until FTS5 is healed, then a massive flush tick when the rebuild is complete.

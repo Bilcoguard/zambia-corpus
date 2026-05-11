@@ -1,0 +1,29 @@
+{
+  "tick": "batch-0598-jiw",
+  "timestamp_utc": "2026-05-12T00:11:00Z",
+  "worker": "judgment-ingestion-worker",
+  "priority_used": "a-reparse-deferred",
+  "verdict": "fts5-blocked-tick-complete",
+  "records_written": 0,
+  "records_attempted_in_transaction": 5,
+  "rolled_back": 5,
+  "consecutive_blocked_ticks": 18,
+  "operator_escalation_repeat_count": 7,
+  "key_finding": "b0597 hypothesis (direct-column INSERT into records_fts works despite corruption) is FALSIFIED. INSERTs succeed in-transaction but conn.commit() fails with 'database disk image is malformed'. Even DROP TABLE records_fts fails. Full dump-and-restore or specialised shadow-table recovery now required.",
+  "pre_counts": {"records": 1892, "records_fts": 1892, "judgments_meta": 202, "check8_delta": 0},
+  "post_counts": {"records": 1892, "records_fts": 1892, "judgments_meta": 202, "check8_delta": 0},
+  "deferred_fts5_backlog_total": 26,
+  "deferred_scanned_pdf_backlog_total": 10,
+  "fetch_count_today": 0,
+  "budget_used_today": "0/500",
+  "backup": "corpus.sqlite.bak.b0598-pre-20260511T221111Z",
+  "orphaned_json_quarantine_dir": "_stale_b0598_orphaned_jsons/",
+  "orphaned_jsons": [
+    "judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-limited.json",
+    "judgment-zm-2024-coa-211-rotor-moulder-enterprises-v-stanley-jordan.json",
+    "judgment-zm-2025-coa-027-collins-ncube-v-the-people.json",
+    "judgment-zm-2025-coa-032-starford-chimanga-v-the-people.json",
+    "judgment-zm-2025-coa-039-willard-hamunyangwa-and-2-others-v-the-people.json"
+  ],
+  "sweep_position_next_tick": "judiciary-coa-sweep: page 8 remaining (6 candidates)"
+}

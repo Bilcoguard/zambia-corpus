@@ -1,0 +1,52 @@
+{
+  "id": "judgment-zm-2024-coa-211-rotor-moulder-enterprises-v-stanley-jordan",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "court": "Court of Appeal",
+  "title": "Rotor Moulder Enterprises Limited v Stanley Jordan and 6 Others (APP/211/2022) [2024] ZMCA (2024-12-31)",
+  "citation": "[2024] ZMCA",
+  "case_name": "Rotor Moulder Enterprises Limited v Stanley Jordan and 6 Others",
+  "case_number": "APP/211/2022",
+  "date_decided": "2024-12-31",
+  "judges": [
+    {
+      "name": "Makungu",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Muzenga",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Chembe",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "commercial",
+    "company-law",
+    "contract",
+    "possession",
+    "civil-appeal"
+  ],
+  "outcome": "set-aside",
+  "outcome_detail": "Writ of possession issued by lower court is hereby set aside; costs of the appeal awarded to the appellant",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "c3aa3602445346d1f6a23581b791913186131cdac02988d78f141700459c88e4",
+  "source_hash": "sha256:c3aa3602445346d1f6a23581b791913186131cdac02988d78f141700459c88e4",
+  "source_url": "https://judiciaryzambia.com/app-211-2022-rotor-moulder-enterprises-limited-vs-stanley-jordan-6-others-31-dec-2024-coram-makungu-muzenga-chembe-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2025/02/App-211-2022-Rotor-Moulder-Enterprises-Limited-vs-Stanley-Jordan-6-Others-31-Dec-2024-Coram-Makungu-Muzenga-Chembe-JJA.pdf",
+  "raw_path": "raw/judiciary-zm/coa/2026/App-211-2022-Rotor-Moulder-Enterprises-Limited-vs-Stanley-Jordan-6-Others-31-Dec-2024-Coram-Makungu-Muzenga-Chembe-JJA.pdf",
+  "on_disk_path": "records/judgments/coa/2024/judgment-zm-2024-coa-211-rotor-moulder-enterprises-v-stanley-jordan.json",
+  "fetched_at": "2026-05-11T22:12:21Z",
+  "parser_version": "0.4.0-inline",
+  "ingestion_batch": "b0598",
+  "ingestion_note": "Flushed from b0594/b0597 FTS5 deferral backlog. Direct-column INSERT used per b0597 finding that FTS5 metadata corruption affects rebuild/optimize/integrity-check/MATCH but not append-INSERT. Pre-existing FTS5 search corruption tracked in gaps.md and operator-escalation reports/batch-0594-jiw.md, reports/batch-0597-jiw.md.",
+  "notes": "outcome_detail manually cleaned from b0597 inline parser output (had OCR cid/cidL artifacts). Original raw extract preserved at raw/judiciary-zm/coa/_deferred/b0597_parsed_records.json."
+}

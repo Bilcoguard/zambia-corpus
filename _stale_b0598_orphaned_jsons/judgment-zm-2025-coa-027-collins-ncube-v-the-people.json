@@ -1,0 +1,49 @@
+{
+  "id": "judgment-zm-2025-coa-027-collins-ncube-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "court": "Court of Appeal",
+  "title": "Collins Ncube v The People (APP/27/2024) [2025] ZMCA (2025-02-18)",
+  "citation": "[2025] ZMCA",
+  "case_name": "Collins Ncube v The People",
+  "case_number": "APP/27/2024",
+  "date_decided": "2025-02-18",
+  "judges": [
+    {
+      "name": "Mchenga",
+      "role": "DJP",
+      "dissented": false
+    },
+    {
+      "name": "Ngulube",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Chembe",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-appeal",
+    "murder",
+    "circumstantial-evidence"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Appeal dismissed; murder conviction and sentence upheld (circumstantial evidence sufficient)",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "e9429ddcfee17f1babc109292940e4e3c382a1610e4b4ac4e94db252d0773517",
+  "source_hash": "sha256:e9429ddcfee17f1babc109292940e4e3c382a1610e4b4ac4e94db252d0773517",
+  "source_url": "https://judiciaryzambia.com/app-27-2024-collins-ncube-vs-the-people-coram-justice-mchenga-djp-ngulube-chembe-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2025/02/App-27-2024-Collins-Ncube-vs-The-People-Coram-Justice-Mchenga-DJP-Ngulube-Chembe-JJA.pdf",
+  "raw_path": "raw/judiciary-zm/coa/2026/App-27-2024-Collins-Ncube-vs-The-People-Coram-Justice-Mchenga-DJP-Ngulube-Chembe-JJA.pdf",
+  "on_disk_path": "records/judgments/coa/2025/judgment-zm-2025-coa-027-collins-ncube-v-the-people.json",
+  "fetched_at": "2026-05-11T22:12:21Z",
+  "parser_version": "0.4.0-inline",
+  "ingestion_batch": "b0598",
+  "ingestion_note": "Flushed from b0594/b0597 FTS5 deferral backlog. Direct-column INSERT used per b0597 finding that FTS5 metadata corruption affects rebuild/optimize/integrity-check/MATCH but not append-INSERT. Pre-existing FTS5 search corruption tracked in gaps.md and operator-escalation reports/batch-0594-jiw.md, reports/batch-0597-jiw.md."
+}
