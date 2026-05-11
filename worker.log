@@ -6676,3 +6676,14 @@ test append
 
 [2026-05-11T21:11:37Z] [repair-worker] All 48 repair targets fixed — repair worker idle
 [2026-05-11T21:12:15Z] [repair-worker] B2 sync deferred to host (rclone not available; no body mutations this tick)
+2026-05-11T21:14:36Z	batch-0597-jiw	START	worker=judgment-ingestion-worker	tick=jiw-b0597	priority=b-coa-judiciaryzambia-page-7r-and-page-8
+2026-05-11T21:14:36Z	batch-0597-jiw	SYNC	git-pull	verdict=ok-after-stale-lock-rename-workaround-orig-head-and-objects-maintenance
+2026-05-11T21:14:36Z	batch-0597-jiw	FTS5_INTEGRITY_CHECK	target=/tmp/b0597_corpus.sqlite	verb=integrity-check	verdict=FAIL-database-disk-image-is-malformed
+2026-05-11T21:14:36Z	batch-0597-jiw	FTS5_TEST_INSERT_REAL_SCHEMA	target=/tmp/b0597_corpus.sqlite	verb=INSERT_INTO_records_fts_VALUES_col-based	verdict=PASS-new-finding-inserts-may-work-despite-integrity-check-failure
+2026-05-11T21:14:36Z	batch-0597-jiw	FETCH	listing=page-7r+page-8	posts_extracted=8	to_fetch=8	verdict=ok
+2026-05-11T21:14:36Z	batch-0597-jiw	FETCH	posts_html=8	pdfs_downloaded=7	no_pdf=1	total_fetches=15	verdict=ok
+2026-05-11T21:14:36Z	batch-0597-jiw	PARSE	parser=0.4.0-inline	records_parsed=2	scanned_pdf_deferred=5	no_pdf=1	quality_gate_pass=2	verdict=ok-mostly-scanned
+2026-05-11T21:14:36Z	batch-0597-jiw	INSERT	records_written=0	records_deferred_fts5=2	records_deferred_scanned=5	verdict=fts5-blocked-pre-existing-corruption-conservative-defer-pending-operator
+2026-05-11T21:14:36Z	batch-0597-jiw	CHECK8	records=1892	records_fts=1892	verdict=PASS-counts-equal-no-mutation-this-tick
+2026-05-11T21:14:36Z	batch-0597-jiw	CORPUS_SQLITE_MUTATION	none	verdict=no-records-inserted-fts5-blocked
+2026-05-11T21:14:36Z	batch-0597-jiw	END	verdict=ok-partial-fts5-blocked-backlog-26-scanned-pdf-backlog-10

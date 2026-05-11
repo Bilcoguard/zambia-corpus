@@ -6992,3 +6992,52 @@ Repair-batch-024 (most recent repair-worker tick at 2026-05-11T19:11:40Z) report
 **Escalation to operator:** see `reports/batch-0594-jiw.md` for the proposed `fts5-rebuild-records-fts` and companion `ocrmypdf-scanned-coa-pdfs` manifest tasks. JIW productivity will remain near-zero until both are unblocked. Backlog now spans 5 ticks across CoA pages 4–7.
 
 **Sweep position next tick (b0595):** `judiciary-coa-sweep: page 7 remaining` (2 unprocessed CoA candidates from page 7 — App-123 Patson Kabungo Sichoni vs The People, App-113 Chisumpa Liandisha vs The People — to be processed first); OR `judiciary-coa-sweep: page 8` if both already cached as no-pdf or duplicates.
+
+---
+
+## 2026-05-11 — JIW batch-0597 (page-7 remainders + page 8) — 17th consecutive FTS5-blocked tick
+
+**This tick processed:**
+- Page 7 remainders (3): App-113 Chisumpa Liandisha v People (parsed clean, 8 pages, 6.7KB body), App-123 Patson Kabungo Sichoni v People (scanned 2.5MB 16-page PDF, 15 chars), Appeal-no-154-2019 Mandahill Centre Limited v Freshview Cinemas (no PDF link in post page — possible WordPress page-builder format variation).
+- Page 8 fresh (5): App-165 Savenda v Lumwana (scanned), App-181 Zanaco v Allan Kandala (scanned), App-211 Rotor Moulder v Stanley Jordan (parsed clean, 20 pages, 23KB body, outcome=set-aside), App-24 Peter Mutale v Davies Mukumbwa (scanned), App-304 Setrec Steel v Zanaco (scanned 5.2MB 33-page).
+- 2 records parsed clean → deferred (FTS5 blocked).
+- 5 scanned-PDF records deferred → ocrmypdf backlog.
+- 1 no-pdf-found record → manual follow-up flagged.
+
+**Total deferred-fts5 backlog awaiting repair-worker FTS5 drop+recreate:** 7 (b0590) + 4 (b0591) + 3 (b0592) + 6 (b0593) + 4 (b0594) + 2 (b0597) = **26 records**.
+**Total deferred-scanned-pdf backlog awaiting ocrmypdf:** 1 (b0593) + 4 (b0594) + 5 (b0597 — sichoni, savenda, zanaco-kandala, mutale-mukumbwa, setrec-zanaco) = **10 records**.
+
+Raw PDFs preserved on disk under `raw/judiciary-zm/coa/2026/`. Parsed JSON archived to `raw/judiciary-zm/coa/_deferred/b0597_parsed_records.json`.
+
+### NEW FINDING (MAJOR ESCALATION) — FTS5 corruption is non-blocking for new inserts
+
+This tick performed a deeper diagnostic of the FTS5 state. Prior tick reports (b0590..b0594) treated the FTS5 corruption as an absolute block on inserts. This tick's diagnostic shows that is INCORRECT:
+
+- `INSERT INTO records_fts(records_fts) VALUES('integrity-check')` → FAIL (`database disk image is malformed`) [as before]
+- `INSERT INTO records_fts(records_fts) VALUES('optimize')` → FAIL (`database disk image is malformed`) [as before]
+- `INSERT INTO records_fts(records_fts) VALUES('rebuild')` → FAIL (`database disk image is malformed`) [as before]
+- BUT: `INSERT INTO records_fts(id, type, title, citation, case_name, outcome_detail, body) VALUES (?,?,?,?,?,?,?)` → **PASS** on /tmp isolated copy. Post-insert COUNT(*) goes from 1892 → 1893. This is reproducible.
+
+This suggests the malformed pages (14599, 28316–28340) are FTS5 metadata pages affecting index-wide consistency but NOT preventing append of new rows that are written to fresh pages. **The 26-record FTS5 backlog could potentially be flushed via direct column-based inserts** while leaving the underlying corruption untouched (which the repair-worker must still rebuild for query correctness).
+
+**Conservative defer pattern maintained this tick** (consistent with b0590..b0594) pending operator decision on whether to authorise the JIW to flush the backlog using direct inserts.
+
+### Outstanding operator escalations
+
+Repair-batch-024 (most recent repair-worker tick at 2026-05-11T19:11:40Z) reports manifest=48/48-clean for the 13th+ consecutive idle tick. The FTS5 rebuild task is STILL not in the repair worker's manifest after 6 jiw escalations (b0590, b0591, b0592, b0593, b0594, b0597).
+
+**Operator decisions requested:**
+1. Authorise JIW to flush 26-record FTS5 backlog using direct column-based inserts (low risk: CHECK8 holds, corrupted pages untouched). YES/NO.
+2. Add `fts5-rebuild-records-fts` task to repair-worker manifest (required regardless of [1] for query correctness on existing corrupted pages). YES/NO.
+3. Add `ocrmypdf-scanned-coa-pdfs` task to repair-worker manifest (10 records waiting for OCR fallback). YES/NO.
+4. Mandahill Centre v Freshview Cinemas (Appeal-no-154-2019) — no PDF link in WordPress post page. Manual review of post-page format variation needed; possibly a WP page-builder embed differs from the standard `wp-content/uploads/.../*.pdf` direct link pattern.
+
+### Sweep position next tick
+
+**`judiciary-coa-sweep: page 8 remaining`** — 6 unprocessed page-8 candidates:
+- App-222-2015 Penelope Chishimba Chipasha-Mambwe v Millingtone Mambwe (Justice M Malila, single judge, Sep 2018)
+- App-311-2021 Transquic Service Zambia Ltd (Siavwapa JP, Chishimba, Banda-Bobo JJA)
+- App-57-2023 Lovemore Gumbo v Standard Chartered Bank Zambia plc (Chashi, Banda-Bobo, Muzenga JJA, 31 Jan 2025)
+- App-75-2025 Astro Holdings Limited + 3 Others and Edgar Hamuwele (Chashi, Banda-Bobo, Muzenga JJA, 31 Jun 2025)
+- Appeal-117-2024 Frank Lumbwe Kakoma v Joseph Mulenga + 2 Others (Ngulube, Muzenga, Chembe JJA, 30 Oct 2024)
+- Appeal-268-2022 Mpoyi Mbambu Zambia Ltd v Joserine Trading Ltd (Kondolo SC, Majula, Chembe JJA, 10 Oct 2024)

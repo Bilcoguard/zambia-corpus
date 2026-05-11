@@ -4268,3 +4268,13 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-11T17:25:30Z	batch-0592	phase-8-nightly-reverify	RENUMBER-from-b0591	fetches=0	match=6	drift=2	trunc=0	err=0	seed=phase8-reverify-2026-05-11-b0591-preserved	pool=1892	no-records-mutated
 2026-05-11T20:55:00Z	batch-0595	phase-8-nightly-reverify	RENUMBER-from-b0591	fetches=0	match=6	drift=2	trunc=0	err=0	seed=phase8-reverify-2026-05-11-b0591-preserved	pool=1892	no-records-mutated
 2026-05-11T20:56:41Z	batch-0596	phase_8_nightly_reverify	sample_size=8	pool_size=1895	seed=phase8-reverify-2026-05-11-b0596	match=5	drift=3	truncated_prefix=0	fetch_error=0	fetches=8	retry_fetches=0	report_json=reports/batch-0596-reverify.json	report_md=reports/batch-0596.md	records_mutated=0
+2026-05-11T21:14:36Z	batch-0597-jiw	FETCH	https://judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/page/7/	verdict=ok-html
+2026-05-11T21:14:36Z	batch-0597-jiw	FETCH	https://judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/page/8/	verdict=ok-html
+2026-05-11T21:14:36Z	batch-0597-jiw	FETCH	https://judiciaryzambia.com/app-113-2020-chisumpa-liandisha-v-the-people-zmca-coram-mchenga-djp-chishimba-majula-jja/	verdict=ok-html-pdf
+2026-05-11T21:14:36Z	batch-0597-jiw	FETCH	https://judiciaryzambia.com/app-123-2023-patson-kabungo-sichoni-vs-the-people-coram-mchenga-djp-muzenga-chembe-jja/	verdict=ok-html-pdf-scanned
+2026-05-11T21:14:36Z	batch-0597-jiw	FETCH	https://judiciaryzambia.com/appeal-no-154-2019-mandahill-centre-limited-vs-freshview-cinemas-limited-28-01-2020-coram-chisanga-jp-mulongoti-ngulube-jja/	verdict=ok-html-no-pdf
+2026-05-11T21:14:36Z	batch-0597-jiw	FETCH	https://judiciaryzambia.com/app-165-2024-savenda-management-services-limited-vs-lumwana-mining-company-limited-31-dec-2024-coram-mchenga-djp-muzenga-chembe-jja/	verdict=ok-html-pdf-scanned
+2026-05-11T21:14:36Z	batch-0597-jiw	FETCH	https://judiciaryzambia.com/app-181-2023-zanaco-bank-plc-3-others-vs-allan-kandala-2-others-30th-january-2025-coram-siavwapa-chishimba-patel-jja/	verdict=ok-html-pdf-scanned
+2026-05-11T21:14:36Z	batch-0597-jiw	FETCH	https://judiciaryzambia.com/app-211-2022-rotor-moulder-enterprises-limited-vs-stanley-jordan-6-others-31-dec-2024-coram-makungu-muzenga-chembe-jja/	verdict=ok-html-pdf-parsed-clean
+2026-05-11T21:14:36Z	batch-0597-jiw	FETCH	https://judiciaryzambia.com/app-24-2024-peter-mutale-vs-davies-mukumbwa-24-jan-2025-coram-siavwapa-jp-chishimba-patel-jja/	verdict=ok-html-pdf-scanned
+2026-05-11T21:14:36Z	batch-0597-jiw	FETCH	https://judiciaryzambia.com/app-304-2022-setrec-steel-and-wood-processing-limited-vs-zambia-national-commercial-bank-plc-31-jan-2025-coram-chashi-makungu-sichinga-jja/	verdict=ok-html-pdf-scanned
