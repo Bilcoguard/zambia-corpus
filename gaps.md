@@ -6855,3 +6855,29 @@ Total deferred-fts5 backlog awaiting repair-worker FTS5 drop+recreate: 7 (from b
 - Outcome patterns extended: `appeal is consequently dismissed`, `grounds of appeal lack merit and are dismissed`, `application to stay execution fails`, `find no merit in this application/appeal`, `partially succeeds`
 
 **Sweep position next tick (b0592):** `judiciary-coa-sweep: page 5 remaining` (3 unprocessed CoA candidates from page 5: appeal-210-clifford-simfukwe, appeal-291-bank-of-zambia-v-bernard-fundi, appeal-304-julian-sichalwe; OR advance to page 6 if all consumed).
+
+## Batch 0592 (judgment-ingestion-worker, 2026-05-11T18:15Z)
+
+**Sweep position update:** `judiciary-coa-sweep: page 6` (page 5 fully processed; 3 final CoA-pattern candidates from page 5 remainder — appeal-210-clifford-simfukwe, appeal-291-bank-of-zambia, appeal-304-julian-sichalwe — fetched, parsed, all 3 deferred-fts5)
+
+**Inserted (0):** None this tick — all 3 deferrals due to pre-existing FTS5 corruption (no new write to corpus.sqlite).
+
+**Deferred — deferred-fts5 (3):**
+Pre-existing `records_fts_data` corruption (pages 14599 + 28316–28340, first observed b0587, persists 13 ticks later despite repair-batch-023 IDLE for 12 consecutive ticks at 18:11Z) blocks records_fts inserts. CHECK8 rolls back transaction so `records` count equals `records_fts` count.
+
+- `judgment-zm-2026-coa-210-clifford-simfukwe-v-zesco` (APP/210/2023, 2026-01-29, dismissed, panel: Kondolo SC/Makungu/Chembe JJA). Electricity-utility appeal against ZESCO; ground-by-ground dismissal.
+- `judgment-zm-2026-coa-291-bank-of-zambia-v-bernard-fundi` (APP/291/2024, 2026-01-27, set-aside, panel: Kondolo/Majula/Muzenga JJA). Bank-of-Zambia v former employee Bernard Fundi; judgment set aside and remitted to the High Court. **Note:** URL slug omits `-sc-` marker; PDF body would confirm Kondolo SC — flagged for parser v0.3.9 Coram-SC-suffix recovery.
+- `judgment-zm-2026-coa-304-julian-sichalwe-v-saturina-regna-pension-trust-limited-lumwana-mining-company-li` (APP/304/2024, 2026-01-27, dismissed, panel: Siavwapa JP/Chishimba/Patel JJA). Pension trust + mining (Lumwana) co-respondent case. **Note:** Siavwapa is President of the Court of Appeal (role "JP") but parser tagged as JJA — flagged for parser v0.3.9 JP-role detection. ID slug truncated at 100 chars (acceptable; deterministic).
+
+Total deferred-fts5 backlog awaiting repair-worker FTS5 drop+recreate: 7 (b0590) + 4 (b0591) + 3 (b0592) = **14 records**. Raw PDFs preserved on disk under `raw/judiciary-zm/coa/`. Parsed JSON archived to `raw/judiciary-zm/coa/_deferred/b0592_parsed_records.json` (b0590 and b0591 parsed JSON were in `/tmp/` only — present-tick archive normalisation recommended).
+
+**v0.3.9 parser improvements flagged (not yet implemented):**
+- Coram SC suffix recovery from PDF body when URL slug omits `-sc-` marker (record 291: URL = `coram-justice-kondolo-majula-muzenga-jja`; PDF body confirms Kondolo SC)
+- JP role suffix detection (record 304: URL = `coram-justice-siavwapa-jp-chishimba-patel-jja`; role JP for Justice President of CoA — must NOT be stripped as JJA-equivalent)
+
+**Pre-existing FTS5 corruption (CARRIED FORWARD from b0587/b0590/b0591) — operator escalation:**
+
+Repair-batch-023 (latest repair-worker tick at 2026-05-11T18:11:02Z) reports `IDLE manifest=48/48-clean repaired=0 fetched=0 verdict=idle-12th-consecutive-tick`. The repair worker's manifest does NOT yet include the `records_fts` rebuild task. **Recommendation:** add an explicit repair task `fts5-rebuild-records-fts` to the repair-worker manifest, with the action: `(1) sqlite3 .schema records_fts → save; (2) DROP TABLE records_fts; (3) recreate from saved schema; (4) INSERT INTO records_fts SELECT id, type, title, citation, NULL AS case_name, NULL AS outcome_detail, body FROM records — plus join judgments_meta for case_name/outcome_detail; (5) integrity-check.` JIW yield will remain near-zero until this is unblocked.
+
+**Sweep position next tick (b0593):** `judiciary-coa-sweep: page 6` (page 5 fully processed; 0 CoA candidates remaining on page 5).
+

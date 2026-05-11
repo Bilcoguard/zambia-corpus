@@ -6606,3 +6606,12 @@ test append
 2026-05-11T17:25:30Z	batch-0591-jiw	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
 2026-05-11T17:25:30Z	batch-0591-jiw	STOP	written=3	deferred_fts5=4	deferred_dedupe=1	fetches=24	cumulative_today=58/500	commit=e505981	verdict=tick-complete-partial-fts5-blocked
 2026-05-11T18:11:02Z	repair-batch-023	IDLE	manifest=48/48-clean	repaired=0	fetched=0	verdict=idle-12th-consecutive-tick	All 48 repair targets fixed — repair worker idle
+2026-05-11T18:12:00Z	repair-batch-023	GIT_COMMIT	7807e66	files=3	verdict=ok
+2026-05-11T18:12:00Z	repair-batch-023	GIT_PUSH	origin/main	e505981..7807e66	verdict=ok
+2026-05-11T18:12:00Z	repair-batch-023	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
+2026-05-11T18:12:00Z	repair-batch-023	STOP	repaired=0	fetched=0	commit=7807e66	verdict=idle-12th-consecutive-tick
+2026-05-11T18:15:00Z	batch-0592	FETCH	posts=3	pdfs=3	fetches=6	verdict=ok
+2026-05-11T18:15:00Z	batch-0592	PARSE	parser=0.3.8-inline	records_parsed=3	quality_gate_pass=3	verdict=ok
+2026-05-11T18:15:00Z	batch-0592	INSERT	records_written=0	records_deferred_fts5=3	records_deferred_other=0	verdict=fts5-blocked-pre-existing-corruption
+2026-05-11T18:15:00Z	batch-0592	CHECK8	records=1892	records_fts=1892	verdict=PASS-counts-equal-due-to-rollback
+2026-05-11T18:15:00Z	batch-0592	CORPUS_SQLITE_MUTATION	none	verdict=no-records-inserted-fts5-blocked
