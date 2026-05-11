@@ -1,0 +1,47 @@
+{
+  "id": "judgment-zm-2025-coa-079-zebron-makanda-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Zebron Makanda V The People (APP/079/2024) [2025] ZMCA (2025-10-14)",
+  "citation": "[2025] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Zebron Makanda V The People",
+  "case_number": "APP/079/2024",
+  "date_decided": "2025-10-14",
+  "judges": [
+    {
+      "name": "Mchenga",
+      "role": "DJP",
+      "dissented": false
+    },
+    {
+      "name": "Majula",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Muzenga",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "banking",
+    "commercial",
+    "criminal",
+    "employment",
+    "family",
+    "property"
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "CONCLUSION\n10.1 Having found merit in the appeal, we allow it. The conviction and\nsentence are quashed. The appellant is hereby acquitted and set at\nliberty forthwith.\nC. F. R. MCHE\nDEPUTY JUDGE PRESIDENT\nB.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "75f6aaf738aeb4214037d25b96a5a4b4c70de2504bd847408cdc3bb8ade683a5",
+  "source_url": "https://judiciaryzambia.com/app-79-2024-zebron-makanda-vs-the-people-coram-justice-mchenga-djp-majula-muzenga-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/03/App-79-2024-Zebron-Makanda-vs-The-People-Coram-Justice-Mchenga-DJP-Majula-Muzenga-JJA.pdf",
+  "source_hash": "sha256:445a43368e7c8f9d1d03b0c325ede59d840c1a81e4161ad2aa7b340ee97a8659",
+  "fetched_at": "2026-05-11T08:11:00Z",
+  "parser_version": "0.3.3-inline",
+  "raw_path": "raw/judiciary-zm/coa/app-79-2024-zebron-makanda-vs-the-people-coram-justice-mchenga-djp-majula-muzenga-jja.pdf"
+}

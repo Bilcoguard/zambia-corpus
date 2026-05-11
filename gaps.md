@@ -6687,7 +6687,7 @@ First-ever Court of Appeal ingestion in the corpus. **+7 records written** (cour
 
 ### Sweep position (for next tick)
 
-- `judiciary-coa-sweep: page 2` (page 1 fully processed; 10 posts: 7 written, 3 v0.3.3-pending deferred)
+- `judiciary-coa-sweep: page 2` (page 1 fully processed; 10 posts: 7 written, 3 v0.3.3-pending deferred) ⟶ superseded by b0584 (see below — sweep now at page 3)
 
 ### Parser v0.3.2 quality issues observed → v0.3.3 refinement targets
 
@@ -6712,4 +6712,34 @@ First-ever Court of Appeal ingestion in the corpus. **+7 records written** (cour
 ### Pre-existing five divergent-content duplicate-ID Act records — REAFFIRMED
 
 None of b0583 sample IDs are involved: act-zm-2025-014, act-zm-2025-028, act-zm-2019-010, act-zm-2020-010, act-zm-2018-001. Operator dedupe action recommended (predates b0578).
+
+## [2026-05-11T11:30Z] Judgment ingestion worker batch 0584 — Court of Appeal page 2 sweep
+
+Continuation of b0583. Page 2 of `judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/`. **+7 records written**, 1 deferred `v0.3.3-pending`. Parser improvements in v0.3.4 (this tick, inline) materially raised yield versus b0583 by rescuing 4 of 4 OCR-corrupted-date PDFs that v0.3.3 would have deferred.
+
+### Sweep position (for next tick)
+
+- `judiciary-coa-sweep: page 3` (page 2 fully processed; 8 posts: 7 written, 1 v0.3.3-pending deferred)
+
+### Parser v0.3.4 improvements applied this tick (inline; package not yet updated)
+
+1. **Date regex ordinal-suffix tolerance (`ORD_TOL`)**: extended b0583's lone-`t` allowance to a broader permissive pattern `(?:[\s\dtshrdnh]{0,4})` that absorbs OCR junk like `"17 1 h"`, `"25t"`, `"251"` (missing-space artefact). Applied as a v0.3.4 reparse pass after the initial v0.3.3 inline parse left 4 of 8 records date-deferred. Rescued: `coa-079-zebron-makanda`, `coa-330-giford-kabunda`, `coa-016-nampak-zambia`, `coa-226-levi-chimfwembe`. Additional `COMPOSITE_RE` and `COMPOSITE2_RE` for "DAY ord and DAY ord MONTH YEAR" two-date headers.
+
+2. **Coram extraction panel-end truncation (`PANEL_END_RE`)**: replaced b0583's last-role-wins approach with first-role-wins. Pattern: `\b(JJA|JJ|JCC|JJC|JJS|DCJ|DJP|PCA)\b` — truncates Coram region at the FIRST occurrence of a panel-completing role token, since the suffix appears once at the end of the judge list. The b0583 greedy version was gobbling lawyer details (e.g. "JS" matching inside "JUDGMENT"). Final form is `fix_judges_v3.py`; v1 and v2 deprecated.
+
+3. **OCR role aliases**: `ROLE_OCR_ALIASES = {"DIP": "DJP"}` — Mchenga's `DJP` was being mis-OCR'd as `DIP`. Treat alias as the canonical role at parse time.
+
+4. **Outcome `\bwithdrawn\b` false-positive**: `OUTCOME_PATTERNS` bare-anchor `\bwithdrawn\b` matched body text discussing a withdrawn contract in `coa-226-levi-chimfwembe` (actually `dismissed`). **Fix in v0.3.4**: require `withdrawn` to be co-located with disposition anchors (`appeal is/was withdrawn`, `accordingly withdrawn`) rather than bare-word. Direct DB-and-JSON patch applied this tick; package change deferred.
+
+### Deferred records this tick (PDFs on disk, parser v0.3.3-pending)
+
+- `judgment-zm-2024-coa-203-deton-engineering-ltd-v-...` (APP/203/2023) — outcome anchor not matched; pre-existing `coa-110-josias-mtonga` cohort.
+
+### v0.3.4 reparse opportunity for v0.3.3-pending cohort
+
+`ORD_TOL` will not unblock the cohort by itself (their deferral was outcome anchor not date), but the b0584 trailing-role and Coram fixes will improve judge-extraction quality on the cohort once outcome unlocks. Defer to next-tick parser-pack work.
+
+### Disk virtiofs `corpus.sqlite` malformed-image recovery — pattern documented
+
+`sqlite3` on the workspace-mounted DB hit "database disk image is malformed" mid-tick (a virtiofs caching artefact, not real corruption — the /tmp working copy was healthy). Recovery: `cp /tmp/.../corpus.sqlite corpus.sqlite.new && mv corpus.sqlite.new corpus.sqlite`. Pattern: all JIW ticks since b0521 already use /tmp-isolation; recommendation is to add explicit `PRAGMA integrity_check` of the workspace DB **before** /tmp copy-out to detect this earlier. Operator note for parser-pack v0.3.4.
 

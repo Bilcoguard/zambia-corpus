@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2026-coa-226-levi-chimfwembe-v-sampa-leonard-musonda",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Levi Chimfwembe V Sampa Leonard Musonda (APP/226/2023) [2026] ZMCA (2026-03-24)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Levi Chimfwembe V Sampa Leonard Musonda",
+  "case_number": "APP/226/2023",
+  "date_decided": "2026-03-24",
+  "judges": [
+    {
+      "name": "Chashi",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Ngulube",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Banda-Bobo",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "banking",
+    "commercial",
+    "employment",
+    "property"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "grounds one, two, three, four, five, six and seven and eight and they are dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "de8b4eb2f36a5c439ff54fb88773509594c469a00c770bf51f7cd7dfff2a2efa",
+  "source_url": "https://judiciaryzambia.com/22607-2/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/03/App-226-2023-Levi-Chimfwembe-vs-Sampa-Leonard-Musonda-Coram-Chashi-Ngulube-Banda-Bobo-JJA.pdf",
+  "source_hash": "sha256:e6e5829a815aab414679a66bb0033114c6088a315b9e6ef4f7ba336f0830f67f",
+  "fetched_at": "2026-05-11T08:14:29Z",
+  "parser_version": "0.3.4-inline",
+  "raw_path": "raw/judiciary-zm/coa/app-226-2023-levi-chimfwembe-vs-sampa-leonard-musonda-coram-chashi-ngulube-banda-bobo-jja.pdf"
+}

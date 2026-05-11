@@ -1,0 +1,48 @@
+{
+  "id": "judgment-zm-2026-coa-075-chris-hamuwele-v-mulungushi-university-respondent",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Chris Hamuwele V Mulungushi University Respondent (APP/075/2025) [2026] ZMCA (2026-03-25)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Chris Hamuwele V Mulungushi University Respondent",
+  "case_number": "APP/075/2025",
+  "date_decided": "2026-03-25",
+  "judges": [
+    {
+      "name": "Chashi",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Ngulube",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Banda-Bobo",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "banking",
+    "commercial",
+    "constitutional",
+    "criminal",
+    "employment",
+    "property",
+    "tax"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "ialised\nequity. Accordingly, the entire ground of appeal is dismissed.\n10.2 This being an Industrial Division m e order that each\nparty bears own costs.\nJ. CHASHI'\nCOURT OF APPEAL JUDGE\nP. C. M. NGULUBE A. M. BANDA-BOBO",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "252e712921d7cfffd517ee5d5fbf3ac35794dd267ab7d1595c2e5381709bf810",
+  "source_url": "https://judiciaryzambia.com/app-75-2025-chris-hamuwele-vs-mulungushi-university-respondent-coram-justice-chashi-ngulube-banda-bobo-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/03/App-75-2025-Chris-Hamuwele-vs-Mulungushi-University-Respondent-Coram-Justice-Chashi-Ngulube-Banda-Bobo-JJA.pdf",
+  "source_hash": "sha256:f1b51fa4904afdc4b81ae3f3fccecd3230320ec6d476afb17325d55bc79e3bec",
+  "fetched_at": "2026-05-11T08:14:29Z",
+  "parser_version": "0.3.4-inline",
+  "raw_path": "raw/judiciary-zm/coa/app-75-2025-chris-hamuwele-vs-mulungushi-university-respondent-coram-justice-chashi-ngulube-banda-bobo-jja.pdf"
+}

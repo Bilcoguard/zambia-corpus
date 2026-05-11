@@ -16,6 +16,15 @@ judges:
   aliases:
   - Chashi JJA
   first_seen: '2026-05-04T09:20:09Z'
+- canonical_name: Chembe
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2026-coa-082-kenneth-kaira-v-mulenga-mwiche-1-other
+    first_seen_at: '2026-05-11T10:08:00Z'
+  aliases:
+  - Chembe JJA
+  first_seen: '2026-05-11T10:08:00Z'
+  court: Court of Appeal
 - canonical_name: Chibomba
   titles:
   - title: PC

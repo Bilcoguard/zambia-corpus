@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2025-coa-330-giford-kabunda-v-enala-mulambo",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Giford Kabunda V Enala Mulambo (APP/330/2024) [2025] ZMCA (2025-01-23)",
+  "citation": "[2025] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Giford Kabunda V Enala Mulambo",
+  "case_number": "APP/330/2024",
+  "date_decided": "2025-01-23",
+  "judges": [
+    {
+      "name": "Chashi",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Ngulube",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Banda-Bobo",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "commercial",
+    "employment",
+    "family",
+    "property"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "udge.\n9.0 CONCLUSION\n9.1 All the three grounds of appeal are dismissed for lack of\nmerit. However, the Ruling of the Court below is varied to\nthe extent that the Administrator of the estate of the late\nEdward Kabunda (de",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "5e5009130ca3f67fbdc0213d2bf06a36d68d3c76d6095bf165a489722ba61014",
+  "source_url": "https://judiciaryzambia.com/app-330-2024-giford-kabunda-vs-enala-mulambo-coram-justice-chashi-ngulube-banda-bobo-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/03/App-330-2024-Giford-Kabunda-vs-Enala-Mulambo-Coram-Justice-Chashi-Ngulube-Banda-Bobo-JJA.pdf",
+  "source_hash": "sha256:d31d16f24a1f3b490bafb1b16468c6c606e7b9c332b39f1e5dbdcae943e215a4",
+  "fetched_at": "2026-05-11T08:11:00Z",
+  "parser_version": "0.3.3-inline",
+  "raw_path": "raw/judiciary-zm/coa/app-330-2024-giford-kabunda-vs-enala-mulambo-coram-justice-chashi-ngulube-banda-bobo-jja.pdf"
+}

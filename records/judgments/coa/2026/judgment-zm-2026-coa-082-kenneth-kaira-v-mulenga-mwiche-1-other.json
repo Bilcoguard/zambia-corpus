@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2026-coa-082-kenneth-kaira-v-mulenga-mwiche-1-other",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Kenneth Kaira V Mulenga Mwiche 1 Other (APP/082/2025) [2026] ZMCA (2026-03-25)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Kenneth Kaira V Mulenga Mwiche 1 Other",
+  "case_number": "APP/082/2025",
+  "date_decided": "2026-03-25",
+  "judges": [
+    {
+      "name": "Makungu",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Ngulube",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Chembe",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "banking",
+    "commercial",
+    "constitutional",
+    "employment",
+    "property"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Appellant's grounds of appeal having failed, the appeal\nis dismissed. The cross appeal is allowed. The decision of the\ncourt below on costs is set aside. The Respondents are\nawarded costs here and in the court below.\nC",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "a01ca2fbc867ba3b92436f1ff05890151ee405bd0e38621cda82cecd3d8edc4b",
+  "source_url": "https://judiciaryzambia.com/app-82-2025-kenneth-kaira-vs-mulenga-mwiche-1-other-coram-justice-makungu-ngulube-chembe-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/03/App-82-2025-Kenneth-Kaira-vs-Mulenga-Mwiche-1-Other-Coram-Justice-Makungu-Ngulube-Chembe-JJA.pdf",
+  "source_hash": "sha256:15883415462745f90193bb4e3a507e13417bcb7666480ac410c6d81cb7661265",
+  "fetched_at": "2026-05-11T08:14:29Z",
+  "parser_version": "0.3.4-inline",
+  "raw_path": "raw/judiciary-zm/coa/app-82-2025-kenneth-kaira-vs-mulenga-mwiche-1-other-coram-justice-makungu-ngulube-chembe-jja.pdf"
+}
