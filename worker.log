@@ -6654,3 +6654,18 @@ test append
 2026-05-11T20:17Z	batch-0594-jiw	STOP	written=0	deferred=8	fts5-backlog=24	scanned-pdf-backlog=5	commit=c48af8d	verdict=ok-fts5-blocked-16th-consecutive-tick
 2026-05-11T17:25:30Z worker-tick batch-0592 RENUMBER from b0591 due to jiw collision (b0591-jiw commit e505981 at 2026-05-11T17:23:26Z); seed phase8-reverify-2026-05-11-b0591 preserved; b0585 precedent (b0583->b0585)
 2026-05-11T20:55:00Z worker-tick batch-0595 RENUMBER from b0591 due to mass jiw collision (b0591-jiw e505981 17:23Z; b0592-jiw 6bddfdf; b0593+repair b85bb74; b0594-jiw c48af8d 20:17Z); seed phase8-reverify-2026-05-11-b0591 preserved; b0585 precedent extended by one step
+2026-05-11T20:52:41Z	batch-0595	GIT_COMMIT	48f727e	files=5	verdict=ok
+2026-05-11T20:52:41Z	batch-0595	GIT_PUSH	origin/main	60a2d50..48f727e	verdict=ok
+2026-05-11T20:52:41Z	batch-0595	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
+2026-05-11T20:52:41Z	batch-0595	STOP	written=0	match=6	drift=2	truncated_prefix=0	fetch_error=0	fetches=8	retry_fetches=0	cumulative_today=50/2000	commit=48f727e	verdict=tick-complete-no-records-mutated
+2026-05-11T20:56:25Z	batch-0596	START	worker=worker-tick	phase=phase_8_nightly_reverify	seed=phase8-reverify-2026-05-11-b0596	tick_of_day=7	tick_overall=35
+2026-05-11T20:56:25Z	batch-0596	SYNC	git-pull	verdict=ok-already-up-to-date	HEAD=48f727e
+2026-05-11T20:56:25Z	batch-0596	POOL	size=1895	delta_from_b0595=+3	verdict=ok
+2026-05-11T20:56:25Z	batch-0596	SAMPLE	size=8	rate=0.01	cap=8	seed=phase8-reverify-2026-05-11-b0596
+2026-05-11T20:56:41Z	batch-0596	FETCH	fetches=8	retry_fetches=0	verdict=ok-all-200
+2026-05-11T20:56:41Z	batch-0596	RESULTS	match=5	drift=3	truncated_prefix=0	fetch_error=0
+2026-05-11T20:56:41Z	batch-0596	DRIFT_OBSERVATION	new_cohort=judiciaryzambia.com-coa-judgment-html-drift	first_observation=judgment-zm-2025-coa-105-nimble-resources-limited-v-alex-katamfya
+2026-05-11T20:56:41Z	batch-0596	DRIFT_OBSERVATION	zambialii-judgment-akn-html-drift	+2	new_cumulative=11/19	ids=judgment-zm-2022-zmcc-12-banda-v-attorney-general,judgment-zm-2022-zmsc-50-banda-v-people
+2026-05-11T20:56:41Z	batch-0596	INTEGRITY	required_keys=PASS	sample<=MAX=PASS	counts_sum_eq_sample=PASS	all_ids_resolve=PASS	result_fields=PASS	verdict_enum=PASS	pool_floor_1800=PASS	no_record_mutation=PASS	verdict=PASS
+2026-05-11T20:56:41Z	batch-0596	CORPUS_SQLITE_MUTATION	none	verdict=no-records-mutated-phase8-readonly-by-design
+2026-05-11T20:56:41Z	batch-0596	END	verdict=ok

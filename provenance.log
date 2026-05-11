@@ -4267,3 +4267,4 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-11T20:16Z	batch-0594-jiw	DEFER	records_fts5=4	records_scanned=4	reason=pre-existing-fts5-corruption-records_fts_data-pages-14599-28316-28340
 2026-05-11T17:25:30Z	batch-0592	phase-8-nightly-reverify	RENUMBER-from-b0591	fetches=0	match=6	drift=2	trunc=0	err=0	seed=phase8-reverify-2026-05-11-b0591-preserved	pool=1892	no-records-mutated
 2026-05-11T20:55:00Z	batch-0595	phase-8-nightly-reverify	RENUMBER-from-b0591	fetches=0	match=6	drift=2	trunc=0	err=0	seed=phase8-reverify-2026-05-11-b0591-preserved	pool=1892	no-records-mutated
+2026-05-11T20:56:41Z	batch-0596	phase_8_nightly_reverify	sample_size=8	pool_size=1895	seed=phase8-reverify-2026-05-11-b0596	match=5	drift=3	truncated_prefix=0	fetch_error=0	fetches=8	retry_fetches=0	report_json=reports/batch-0596-reverify.json	report_md=reports/batch-0596.md	records_mutated=0
