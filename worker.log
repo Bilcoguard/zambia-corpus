@@ -6752,3 +6752,17 @@ test append
 2026-05-11T22:34:22Z	batch-0601	WRITE	json=reports/batch-0601-reverify.json	md=reports/batch-0601.md	mutation=none-records-readonly-by-design
 2026-05-11T22:34:22Z	batch-0601	B2 sync deferred to host (rclone not in sandbox)
 2026-05-11T22:34:22Z	batch-0601	GIT_COMMIT	target=phase8-batch-0601	verdict=pending
+2026-05-11T22:37:30Z	batch-0601	GIT_COMMIT	commit=9f6be6d	files=5	verdict=ok-stale-index-lock-renamed-to-stale-locks-tree-and-stale-HEAD-lock-and-stale-maintenance-lock-renamed-fuse-mount-blocks-rm
+2026-05-11T22:37:30Z	batch-0601	GIT_PUSH	target=origin/main	verdict=ok-9465bd2-to-9f6be6d
+2026-05-11T22:37:30Z	batch-0601	END	verdict=ok	phase=phase_8_nightly_reverify	complete_flag=unchanged-remains-false
+2026-05-11T23:04:21Z	batch-0602	START	worker=worker-tick	phase=phase_8_nightly_reverify	tick=40th-overall-12th-of-day
+2026-05-11T23:04:21Z	batch-0602	SYNC	git-pull	verdict=ok-already-up-to-date
+2026-05-11T23:04:21Z	batch-0602	BUDGET	fetches_today=90/2000	verdict=ok
+2026-05-11T23:04:21Z	batch-0602	SAMPLE	seed=phase8-reverify-2026-05-11-b0602	pool=1895	sample=8	rate=0.01
+2026-05-11T23:04:43Z	batch-0602	REVERIFY	fetches=8	retry_fetches=0	match=7	drift=1	truncated_prefix=0	fetch_error=0	verdict=ok-no-real-drift
+2026-05-11T23:04:43Z	batch-0602	INTEGRITY	json_well_formed=PASS	required_keys=PASS	sample_cap=PASS	verdict_sum=PASS	pool_floor=PASS	ids_resolve=PASS	verdicts_valid=PASS	mutation=none	verdict=ALL-PASS
+2026-05-11T23:04:43Z	batch-0602	NEW_FINDING_1	type=new-largest-akn-source-pdf-si	id=si-zm-2018-065-environmental-management-extended-producer-responsibility-regulations-2018	bytes=2498439	displaces=prior-sub-300KB-leaders
+2026-05-11T23:04:43Z	batch-0602	COHORT	stable-pdf-supercohort=157/161	bare-akn-path-si=10/10-100pct-drift	akn-source-pdf-si=33/33	parliament-acts=113/113	amendment-act=5/5	real-drift=0-across-40-ticks
+2026-05-11T23:04:43Z	batch-0602	WRITE	json=reports/batch-0602-reverify.json	md=reports/batch-0602.md	mutation=none-records-readonly-by-design
+2026-05-11T23:04:43Z	batch-0602	B2 sync deferred to host (rclone not in sandbox)
+2026-05-11T23:04:43Z	batch-0602	GIT_COMMIT	target=phase8-batch-0602	verdict=pending

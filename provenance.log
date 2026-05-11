@@ -4305,3 +4305,4 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-11T22:34:21Z	batch-0601	FETCH	https://media.zambialii.org/media/legislation/34592/source_file/c815161503c4ff6f/zm-act-1988-21-publication-document.pdf	verdict=match	id=act-zm-1988-021-supreme-court-and-high-court-number-of-judges-act-1988
 2026-05-11T22:34:22Z	batch-0601	FETCH	https://www.parliament.gov.zm/node/12519	verdict=drift	id=act-zm-2025-012-superior-courtsnumber-of-judgesact
 2026-05-11T22:34:22Z	batch-0601	phase=phase_8_nightly_reverify	pool=1895	sample=8	seed=phase8-reverify-2026-05-11-b0601	match=3	drift=5	truncated_prefix=0	fetch_error=0	parser=phase8-reverify-0.1.0	mutation=none-records-readonly-by-design
+2026-05-11T23:04:43Z	batch-0602	phase=phase_8_nightly_reverify	worker=worker-tick	parser=phase8-reverify-0.1.0	pool=1895	sample=8	verdict=7match/1drift/0trunc/0err	mutation=none-records-readonly
