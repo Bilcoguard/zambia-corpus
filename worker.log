@@ -6766,3 +6766,6 @@ test append
 2026-05-11T23:04:43Z	batch-0602	WRITE	json=reports/batch-0602-reverify.json	md=reports/batch-0602.md	mutation=none-records-readonly-by-design
 2026-05-11T23:04:43Z	batch-0602	B2 sync deferred to host (rclone not in sandbox)
 2026-05-11T23:04:43Z	batch-0602	GIT_COMMIT	target=phase8-batch-0602	verdict=pending
+2026-05-11T23:09:00Z	batch-0602	GIT_COMMIT	commit=b769461	files=5	verdict=ok-stale-index-lock-renamed-to-index-lock-dead2-fuse-mount-blocks-rm-stale-locks-tree-also-stuck
+2026-05-11T23:09:00Z	batch-0602	GIT_PUSH	target=origin/main	verdict=ok-9f6be6d-to-b769461
+2026-05-11T23:09:00Z	batch-0602	END	verdict=ok	phase=phase_8_nightly_reverify	complete_flag=unchanged-remains-false
