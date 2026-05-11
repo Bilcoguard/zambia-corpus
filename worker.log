@@ -6648,3 +6648,7 @@ test append
 2026-05-11T20:16Z	batch-0594-jiw	CHECK8	records=1892	records_fts=1892	verdict=PASS-counts-equal-no-mutation-this-tick
 2026-05-11T20:16Z	batch-0594-jiw	CORPUS_SQLITE_MUTATION	none	verdict=no-records-inserted-fts5-blocked
 2026-05-11T20:16Z	batch-0594-jiw	END	verdict=ok-partial-fts5-blocked-backlog-24
+2026-05-11T20:17Z	batch-0594-jiw	GIT_COMMIT	c48af8d	files=6	verdict=ok-after-stale-lock-rename-workaround
+2026-05-11T20:17Z	batch-0594-jiw	GIT_PUSH	origin/main	0fb875f..c48af8d	verdict=ok
+2026-05-11T20:17Z	batch-0594-jiw	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
+2026-05-11T20:17Z	batch-0594-jiw	STOP	written=0	deferred=8	fts5-backlog=24	scanned-pdf-backlog=5	commit=c48af8d	verdict=ok-fts5-blocked-16th-consecutive-tick
