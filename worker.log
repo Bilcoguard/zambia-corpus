@@ -6556,3 +6556,10 @@ test append
 2026-05-11T09:36:34Z worker-tick batch-0588 NEW_OBSERVATIONS oldest-Act-yet-sampled act-zm-1933-003-arbitration-act-1933 (Phase-8 series); first /eng@<enacted-date> AKN-HTML drift act-zm-1998-011; second parliament /amendment_act/ URL sub-path observation act-zm-2015-006 (confirms b0587 first-observation reproducible at 2/2); seventh bare-AKN-path SI drift si-zm-2020-122; first ZMSC judgment-akn drift judgment-zm-2023-zmsc-20
 2026-05-11T09:36:34Z worker-tick batch-0588 INTEGRITY_CHECK json_parseable=PASS keys_present=PASS sample<=MAX_BATCH=PASS sum_eq_sample=PASS ids_resolve_sqlite=PASS no_record_mutation=PASS verdict_enum=PASS pool>=1800=PASS overall=PASS
 2026-05-11T09:36:34Z worker-tick batch-0588 plumbing_commit alt-index will be used due to persistent .git/index.lock FUSE EPERM (same constraint b011-b020 + b0579..b0587)
+2026-05-11T09:37:30Z	batch-0588	GIT_COMMIT	8de061e	files=5	verdict=ok
+2026-05-11T09:37:30Z	batch-0588	GIT_PUSH	origin/main	81eb7f2..8de061e	verdict=ok
+2026-05-11T09:37:30Z	batch-0588	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
+2026-05-11T09:37:30Z	batch-0588	STOP	written=0	match=2	drift=6	truncated_prefix=0	fetch_error=0	fetches=8	retry_fetches=0	cumulative_today=34/2000	commit=8de061e	verdict=tick-complete-no-records-mutated
+2026-05-11T10:04:56Z worker-tick batch-0589 START phase_8_nightly_reverify pool=1891 sample_size=8 seed=phase8-reverify-2026-05-11-b0589
+2026-05-11T10:05:18Z worker-tick batch-0589 reverify_done match=6 drift=2 truncated_prefix=0 fetch_error=0 fetches=8 retry_fetches=0
+2026-05-11T10:07:53Z worker-tick batch-0589 B2_SYNC deferred-to-host reason=rclone-not-in-sandbox
