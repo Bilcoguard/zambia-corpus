@@ -1,0 +1,47 @@
+{
+  "id": "judgment-zm-2026-coa-358-tikumbe-mining-ltd-1-other-vs-china-copper-mines-ltd",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Tikumbe Mining Ltd 1 Other VS China Copper Mines Ltd (APP/358/2024) [2026] ZMCA (2026-03-20)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Tikumbe Mining Ltd 1 Other VS China Copper Mines Ltd",
+  "case_number": "APP/358/2024",
+  "date_decided": "2026-03-20",
+  "judges": [
+    {
+      "name": "Siavwapa",
+      "role": "JP",
+      "dissented": false
+    },
+    {
+      "name": "Chishimba",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Patel",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "commercial",
+    "property",
+    "mining",
+    "tax"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "cessor in title of his, the proceedings may be brought by\noriginating summons in accordance with the provisions of this Order.\"\n3.4 The learned Judge identified the following matters as common ground\nbetween the parties:\nJ7\ni First, that the properties in dispute are held under certificates of title\nissued to the Respondent in 2019 and 2020.\nii. Secondly, the Respondent presently holds a Large-Scale Mining\n5th\nLicense granted on March 2013 over the subject land, which license\n21st\nwas reinstated by the Ministry of Mines on December 2023.\niii. Thirdly, the Small-Scale Mining Licence No. 8390-HQ-SML issued to the\n1st Appellant,",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "9697e3e44ecfa2d530ba4498a50e2d2b7cc01a323da5793a54c3447917492fd6",
+  "source_url": "https://judiciaryzambia.com/app-358-2024-tikumbe-mining-ltd-1-other-vs-china-copper-mines-ltd-coram-justice-siavwapa-jp-chishimba-patel-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/03/App-358-2024-Tikumbe-Mining-Ltd-1-Other-vs-China-Copper-Mines-Ltd-Coram-Justice-Siavwapa-JP-Chishimba-Patel-JJA-1.pdf",
+  "source_hash": "sha256:9697e3e44ecfa2d530ba4498a50e2d2b7cc01a323da5793a54c3447917492fd6",
+  "fetched_at": "2026-05-11T09:17:56Z",
+  "parser_version": "0.3.6-inline",
+  "raw_path": "raw/judiciary-zm/coa/app-358-2024-tikumbe-mining-ltd-1-other-vs-china-copper-mines-ltd-coram-justice-siavwapa-jp-chishimba-patel-jja-1.pdf",
+  "body_length": 17560,
+  "judges_count": 3
+}

@@ -6542,3 +6542,9 @@ test append
 2026-05-11T09:05:07Z worker-tick batch-0587 NEW_OBSERVATIONS first commons.laws.africa host observation (local-courts-administration-of-estates-rules-1969 778394 B real-match); first parliament.gov.zm /amendment_act/ URL sub-path observation (act-zm-2014-002 158307 B real-match); sixth bare-AKN-path SI drift (si-zm-2020-079)
 2026-05-11T09:05:07Z worker-tick batch-0587 INTEGRITY_CHECK json_parseable=PASS keys_present=PASS sample<=MAX_BATCH=PASS sum_eq_sample=PASS ids_resolve_sqlite=PASS no_record_mutation=PASS verdict_enum=PASS pool>=1800=PASS overall=PASS
 2026-05-11T09:05:07Z worker-tick batch-0587 plumbing_commit alt-index will be used due to persistent .git/index.lock FUSE EPERM (same constraint b011-b020 + b0579..b0586)
+2026-05-11T09:05:43Z	batch-0587	GIT_COMMIT	7fb0b3b	files=5	verdict=ok
+2026-05-11T09:05:46Z	batch-0587	GIT_PUSH	origin/main	476893f..7fb0b3b	verdict=ok
+2026-05-11T09:05:46Z	batch-0587	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
+2026-05-11T09:05:46Z	batch-0587	STOP	written=0	match=5	drift=3	truncated_prefix=0	fetch_error=0	fetches=8	retry_fetches=0	cumulative_today=26/2000	commit=7fb0b3b	verdict=tick-complete-no-records-mutated
+[2026-05-11T09:12:49Z] [repair] All 48 repair targets fixed — repair worker idle (records=1881 fts=1881)
+2026-05-11T09:21:55Z	batch-0587	judgment-ingestion-worker	coa-sweep-page-3	fetches=0	written=7	deferred=1	parser=0.3.6-inline	records=1888	fts=1888	coa=21	note=v036-column-date-split-date-range-date-coram-trailing-role-OCR-pate-fix-pre-existing-fts-page-corruption

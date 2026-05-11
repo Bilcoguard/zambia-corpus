@@ -6757,3 +6757,34 @@ Thirtieth Phase 8 tick overall (second worker-tick of UTC date 2026-05-11). Pool
 - 4 matches (real-match): act-zm-2023-024 (zambialii akn /source.pdf 388,158 B PDF); si-zm-2016-007 (zambialii akn /source.pdf 842,403 B PDF); act-zm-2020-002 (parliament /acts/ 91,551 B PDF, retry); act-zm-2009-016 (parliament /acts/ 4,985,554 B PDF, retry — **new largest parliament-PDF in series**).
 - **NEW** (b0586): inline-runner CA-bundle parity is required for parliament.gov.zm — the sandbox-default certifi cacert.pem lacks the RapidSSL TLS RSA CA G1 intermediate. Two fetches initially produced SSL_CERT_VERIFY_FAILED before being resolved via `scripts/certs/rapidssl_tls_rsa_ca_g1.pem` extension. Operator recommendation: codify the baseline PKI loader (`scripts/batch_0546_phase8_reverify.py` pattern) in a shared helper consumed by all phase-8 runners.
 - No records mutated.
+
+
+---
+
+### Batch 0587 — Court of Appeal sweep (judiciaryzambia.com page 3)
+
+**Timestamp:** 2026-05-11T09:21:55Z
+
+Continuation of b0584 sweep. Page 3 of judiciaryzambia.com Court of Appeal decisions. **+7 records written**, 1 confirmed-no-pdf stub deferred (Daniel Banda 2018), 2 non-CoA posts deferred to other-court sweeps (HCJ Family `2023-hpf-640-chambata-banda`, ConCourt `2025-ccz-003-zambia-civil-liberties-union`).
+
+### Sweep position (for next tick)
+
+- `judiciary-coa-sweep: page 4` (page 3 fully processed; 8 CoA-pattern candidates: 7 written, 1 confirmed-no-pdf stub deferred)
+
+### Confirmed stubs (no-pdf-on-post-page) — FIRST observation on judiciaryzambia.com
+
+- `appeal-no-137-2018-daniel-banda-vs-the-people-25-02-2019-justice-sichinga-ja` — stub post; no PDF attached (only `blank-courtofappealt-decision.jpg` placeholder). Reparse not possible without upstream PDF being added. Same case IS cited authority within Gilbert Mofya (b0587 record).
+
+### Parser v0.3.6 improvements applied this tick (inline; package not yet updated)
+
+- COLUMN_DATE pattern for stacked-day layouts (`17th 20th\nOn & March 2026`) — rescues 3 records
+- SPLIT_DATE pattern for split-line layouts (`4th\nOn 17' February and March 2026`) — rescues 1 record
+- RANGE_DATE pattern for two-date ranges (`On 13th October 2025 and 24th March 2026`) — rescues 1 record
+- Coram trailing-role-applies-to-all — codifies v0.3.4 anchor pack rule 3; recovers full 3-judge panels (was 2-of-3 in b0584)
+- OCR alias `Pate!` → `Patel` (cosmas-mulenga panel)
+- URL-preferred case_number (avoids cited-case false positives from PDF body; rescues Stanley Katebe APP/013/2025 — text had APP/141/2016 cited)
+- URL-preferred date (more reliable than text-based extraction)
+
+### Database integrity finding (pre-existing, not introduced this tick)
+
+`PRAGMA integrity_check` reports FTS5 page-tree corruption in `records_fts_data` (pages 14599 and 28316-28340 range). Predates b0587 — observed on the pre-insert backup. Counts remain consistent (records=fts=1888). New inserts succeed. `INSERT INTO records_fts(records_fts) VALUES('rebuild')` fails with same malformed error — cannot self-heal. **Recommend repair-worker tick: drop+recreate `records_fts` and reindex from `records.body` and `records.title`.**

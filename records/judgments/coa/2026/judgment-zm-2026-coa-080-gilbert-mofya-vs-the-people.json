@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2026-coa-080-gilbert-mofya-vs-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Gilbert Mofya VS The People (APP/080/2024) [2026] ZMCA (2026-03-24)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Gilbert Mofya VS The People",
+  "case_number": "APP/080/2024",
+  "date_decided": "2026-03-24",
+  "judges": [
+    {
+      "name": "Mchenga",
+      "role": "DJP",
+      "dissented": false
+    },
+    {
+      "name": "Majula",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Muzenga",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal",
+    "family"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "ich excluded any other\nreasonable inference but the Appellant's guilt.\n6.2 The Appellant was placed at the scene by PW1 and PW2,\nwhose evidence was corroborated by PW6, who received the\ndeceased's statement at Solwezi Clinic within two hours of\nthe attack, expressly identifying the Appellant.\n6.3 It was argued that the statement was admissible both as res\ngestae and as a dying declaration. Reliance was placed on\nEdward Sinyama v The People,13 which defines res gestae\nas statements made in approximate contemporaneity without\nscope for concoction, and distinguished from Steven Mukuka\nv The People,9 where statements made a",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "8535e593f9a9f64a3029f4e068b0fa59c5228aa082564c593e160d9d02faaf9c",
+  "source_url": "https://judiciaryzambia.com/app-80-2024-gilbert-mofya-vs-the-people-coram-mchenga-djp-majula-muzenga-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/03/App-80-2024-Gilbert-Mofya-vs-The-People-Coram-Mchenga-DJP-Majula-Muzenga-JJA.pdf",
+  "source_hash": "sha256:8535e593f9a9f64a3029f4e068b0fa59c5228aa082564c593e160d9d02faaf9c",
+  "fetched_at": "2026-05-11T09:17:55Z",
+  "parser_version": "0.3.6-inline",
+  "raw_path": "raw/judiciary-zm/coa/app-80-2024-gilbert-mofya-vs-the-people-coram-mchenga-djp-majula-muzenga-jja.pdf",
+  "body_length": 20419,
+  "judges_count": 3
+}

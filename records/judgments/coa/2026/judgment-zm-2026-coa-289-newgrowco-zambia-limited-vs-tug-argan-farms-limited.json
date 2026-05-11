@@ -1,0 +1,48 @@
+{
+  "id": "judgment-zm-2026-coa-289-newgrowco-zambia-limited-vs-tug-argan-farms-limited",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Newgrowco Zambia Limited VS Tug Argan Farms Limited (APP/289/2024) [2026] ZMCA (2026-03-04)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Newgrowco Zambia Limited VS Tug Argan Farms Limited",
+  "case_number": "APP/289/2024",
+  "date_decided": "2026-03-04",
+  "judges": [
+    {
+      "name": "Siavwapa",
+      "role": "JP",
+      "dissented": false
+    },
+    {
+      "name": "Chishimba",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Patel",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "commercial",
+    "banking",
+    "tort",
+    "tax",
+    "agriculture"
+  ],
+  "outcome": "set-aside",
+  "outcome_detail": "anguage of the document\nitself. The Appellant further relied on Investors\nCompensation Scheme v West Bromwich Building\nSociety('), where it was held that while context is relevant,\ncourts should not lightly assume that parties made linguistic\nmistakes in formal documents.\n6.4 The Appellant also relied on the Supreme Court's decision in\nIndo Zambia Bank Limited v Mushaukwa Muhanga3 ,\nwherein the Court reiterated that recourse to alternative\nprinciples of interpretation only arises where the natural\nmeaning of words results in ambiguity or absurdity. It was\nsubmitted that clause 14.E was clear and unambiguous, and\ntherefore did not allow qualif",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "e6e272e6640865d89ae685b1778ccc4c98bd0912c3dfd74be1409bf48c0adeb9",
+  "source_url": "https://judiciaryzambia.com/app-289-2024-newgrowco-zambia-limited-vs-tug-argan-farms-limited-04-march-2026-coram-justice-siavwapa-jp-chishimba-patel-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/03/App-289-2024-Newgrowco-Zambia-Limited-vs-Tug-Argan-Farms-Limited-04-March-2026-Coram-Justice-Siavwapa-JP-Chishimba-Patel-JJA.pdf",
+  "source_hash": "sha256:e6e272e6640865d89ae685b1778ccc4c98bd0912c3dfd74be1409bf48c0adeb9",
+  "fetched_at": "2026-05-11T09:17:56Z",
+  "parser_version": "0.3.6-inline",
+  "raw_path": "raw/judiciary-zm/coa/app-289-2024-newgrowco-zambia-limited-vs-tug-argan-farms-limited-04-march-2026-coram-justice-siavwapa-jp-chishimba-patel-jja.pdf",
+  "body_length": 21014,
+  "judges_count": 3
+}

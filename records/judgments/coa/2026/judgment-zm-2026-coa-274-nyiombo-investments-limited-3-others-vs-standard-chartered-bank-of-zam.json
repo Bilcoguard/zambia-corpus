@@ -1,0 +1,48 @@
+{
+  "id": "judgment-zm-2026-coa-274-nyiombo-investments-limited-3-others-vs-standard-chartered-bank-of-zam",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Nyiombo Investments Limited 3 Others VS Standard Chartered Bank Of Zambia Plc (APP/274/2024) [2026] ZMCA (2026-03-04)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Nyiombo Investments Limited 3 Others VS Standard Chartered Bank Of Zambia Plc",
+  "case_number": "APP/274/2024",
+  "date_decided": "2026-03-04",
+  "judges": [
+    {
+      "name": "Siavwapa",
+      "role": "JP",
+      "dissented": false
+    },
+    {
+      "name": "Chishimba",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Patel",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "commercial",
+    "debt-recovery",
+    "banking",
+    "family",
+    "arbitration"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "he alleged breaches of\nthe Field Warehousing and Storage Agreement substantially\ncontributed to the default giving rise to the proceedings.\nJ8\n5.3 In support of the proposition that the existence of a mortgage\ndoes not, of itself, preclude arbitration where the dispute is\nbroader and intertwined with other agreements, reliance is\nplaced on the case of Metalco Industries Company Limited\nand Others v First National Bank Zambia Limited and\nAnother'. The Appellants contend that, under sections 6(2),\n6(3), and 10 of the Arbitration Act, mortgage disputes are not\nexcluded from arbitration, particularly where jurisdiction\nclauses in facility agreement",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "8a96459ced850050546bcfbb004037a9f8bab73935c6a790c0566a6476318648",
+  "source_url": "https://judiciaryzambia.com/app-274-2024-nyiombo-investments-limited-3-others-vs-standard-chartered-bank-of-zambia-plc-04-march-2026-coram-justice-siavwapa-jp-chishimba-patel-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/03/App-274-2024-Nyiombo-Investments-Limited-3-Others-vs-Standard-Chartered-Bank-of-Zambia-Plc-04-March-2026-Coram-Justice-Siavwapa-JP-Chishimba-Patel-JJA.pdf",
+  "source_hash": "sha256:8a96459ced850050546bcfbb004037a9f8bab73935c6a790c0566a6476318648",
+  "fetched_at": "2026-05-11T09:17:57Z",
+  "parser_version": "0.3.6-inline",
+  "raw_path": "raw/judiciary-zm/coa/app-274-2024-nyiombo-investments-limited-3-others-vs-standard-chartered-bank-of-zambia-plc-04-march-2026-coram-justice-siavwapa-jp-chishimba-patel-jja.pdf",
+  "body_length": 33261,
+  "judges_count": 3
+}

@@ -1,0 +1,50 @@
+{
+  "id": "judgment-zm-2026-coa-262-cosmas-mulenga-vs-bright-jangazya",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Cosmas Mulenga VS Bright Jangazya (APP/262/2024) [2026] ZMCA (2026-03-04)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Cosmas Mulenga VS Bright Jangazya",
+  "case_number": "APP/262/2024",
+  "date_decided": "2026-03-04",
+  "judges": [
+    {
+      "name": "Siavwapa",
+      "role": "JP",
+      "dissented": false
+    },
+    {
+      "name": "Chishimba",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Patel",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "commercial",
+    "employment",
+    "property",
+    "banking",
+    "mining",
+    "tort",
+    "arbitration"
+  ],
+  "outcome": "set-aside",
+  "outcome_detail": "al be allowed and that the\nmatter be referred to arbitration.\n6.0 RESPONDENT'S HEADS OF ARGUMENT\n6.1 The filed heads of arguments on record and contends that the\ncontract of sale were expressly executed subject to the Law\nAssociation of Zambia General Conditions of Sale, 2018, and\nthat none of the special conditions varied or excluded Clause\nJ9\n27. Therefore, all disputes arising from the contracts were\nsubject to the dispute-resolution framework set out in that\nclause.\n6.2 It was submitted that Condition 27 establishes mandatory\nconditions precedent to the commencement of court\nproceedings or arbitration, namel",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "05b426f0b2b1ba954865ccb80077e41cde671f69eb563b4265cbad3a00eec969",
+  "source_url": "https://judiciaryzambia.com/app-262-2024-cosmas-mulenga-vs-bright-jangazya-04-march-2026-coram-justice-siavwapa-jp-chishimba-patel-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/03/App-262-2024-Cosmas-Mulenga-vs-Bright-Jangazya-04-March-2026-Coram-Justice-Siavwapa-JP-Chishimba-Patel-JJA.pdf",
+  "source_hash": "sha256:05b426f0b2b1ba954865ccb80077e41cde671f69eb563b4265cbad3a00eec969",
+  "fetched_at": "2026-05-11T09:17:57Z",
+  "parser_version": "0.3.6-inline",
+  "raw_path": "raw/judiciary-zm/coa/app-262-2024-cosmas-mulenga-vs-bright-jangazya-04-march-2026-coram-justice-siavwapa-jp-chishimba-patel-jja.pdf",
+  "body_length": 20775,
+  "judges_count": 3
+}
