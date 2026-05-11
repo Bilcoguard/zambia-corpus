@@ -4255,3 +4255,13 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-11T18:15:00Z	batch-0592-jiw	worker=judgment-ingestion-worker	source_a_url=https://judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/page/5/	source_listing_bytes=cached_b0591	posts_fetched=3	pdfs_fetched=3	pdf_refetch=0	records_inserted=0	records_deferred_fts5=3	parser=v0.3.8-inline
 2026-05-11T18:15:00Z	batch-0592	0 CoA judgments written (all 3 deferred-fts5); raw PDFs + parsed JSON preserved for repair-worker FTS5 drop+recreate reparse; sweep position advanced to page 6; parser v0.3.9 flagged for Coram SC suffix recovery and JP role detection
 2026-05-11T19:17:31Z	batch-0593-jiw	source=judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/page/6/	posts_listed=10	posts_processed=7	pdfs_downloaded=7	pdfs_quality_gate_pass=6	records_parsed=6	records_inserted=0	records_deferred_fts5=6	records_deferred_scanned_pdf=1	user_agent=KateWestonLegal-CorpusBuilder/1.0
+2026-05-11T20:16Z	batch-0594-jiw	FETCH	url=https://judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/page/7/	posts=10	status=200	body_len=181170
+2026-05-11T20:16Z	batch-0594-jiw	FETCH	post=appeal-192-2023-charles-laima	pdf=21038453B	scanned=yes
+2026-05-11T20:16Z	batch-0594-jiw	FETCH	post=app-0024-2024-kingfred-phiri	pdf=5543400B	parseable=yes
+2026-05-11T20:16Z	batch-0594-jiw	FETCH	post=app-394041-2023-willard-hamunyangwa	pdf=3265168B	parseable=yes
+2026-05-11T20:16Z	batch-0594-jiw	FETCH	post=app-32-2024-starford-chimanga	pdf=3035246B	parseable=yes
+2026-05-11T20:16Z	batch-0594-jiw	FETCH	post=app-27-2024-collins-ncube	pdf=2585422B	parseable=yes
+2026-05-11T20:16Z	batch-0594-jiw	FETCH	post=app-183-2023-wamulume-kalabo	pdf=3820834B	scanned=yes
+2026-05-11T20:16Z	batch-0594-jiw	FETCH	post=app-315-2023-hai-sheng-mining	pdf=4771689B	scanned=yes
+2026-05-11T20:16Z	batch-0594-jiw	FETCH	post=appeal-no-78a-2017-kalvic-bakery	pdf=4556688B	pdfplumber-0-pages=yes
+2026-05-11T20:16Z	batch-0594-jiw	DEFER	records_fts5=4	records_scanned=4	reason=pre-existing-fts5-corruption-records_fts_data-pages-14599-28316-28340

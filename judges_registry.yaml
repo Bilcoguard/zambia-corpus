@@ -501,6 +501,15 @@ judges:
   aliases:
   - Sharpe -Phiri JJA
   first_seen: '2026-05-04T09:20:09Z'
+- canonical_name: Sharpe-Phiri
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-limited
+    first_seen_at: '2026-05-11T20:14:38Z'
+  aliases:
+  - Sharpe-Phiri JJA
+  first_seen: '2026-05-11T20:14:38Z'
+  court: Court of Appeal
 - canonical_name: Shilimi
   titles:
   - title: DPC

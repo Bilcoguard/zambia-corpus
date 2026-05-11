@@ -6947,3 +6947,48 @@ JIW productivity will remain near-zero until this is unblocked. Backlog now span
 
 **Sweep position next tick (b0594):** `judiciary-coa-sweep: page 7` (page 6 fully processed).
 
+
+
+## Batch 0594 (judgment-ingestion-worker, 2026-05-11T20:15Z)
+
+**Sweep position update:** `judiciary-coa-sweep: page 8` (page 7 fully evaluated — 10 posts total, 8 fetched+parsed this tick, 2 deferred to next tick).
+
+**Inserted (0):** None this tick — pre-existing FTS5 corruption blocker persists (16th consecutive jiw tick blocked).
+
+**Deferred — deferred-fts5 (4 parser-clean records, ready when FTS5 healed):**
+- `judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-limited` (APP/24/2023, decided 2024-12-10, **dismissed**, panel: **13-judge expanded panel — Siavwapa JP / Mchenga DJP / Chashi / Kondolo SC / Makungu / Chishimba / Sichinga SC / Ngulube / Banda-Bobo / Sharpe-Phiri / Muzenga / Patel / Chembe JJA**). **Landmark Employment Code Act decision** — departs from *Zubao Harry Juma v First Quantum Mining* on Section 54 severance pay for permanent employees. Judgment delivered by Siavwapa JP. Note Sichinga SC and Sharpe-Phiri sat to hear but were not available at delivery (per judgment para 0.0); this is the majority panel of 11.
+- `judgment-zm-2025-coa-039-willard-hamunyangwa-and-2-others-v-the-people` (APP/39-40-41/2023 consolidated, decided 2025-02-18, **allowed** (in part), panel: **Mchenga DJP / Muzenga / Chembe JJA**). 2nd and 3rd appellants acquitted; 1st appellant's murder conviction upheld but death sentence set aside (juvenile at offence), replaced with one-year probation.
+- `judgment-zm-2025-coa-032-starford-chimanga-v-the-people` (APP/32/2024, decided 2025-02-18, **dismissed**, panel: **Mchenga DJP / Ngulube / Chembe JJA**). Four counts unnatural offences (Section 155(a) Penal Code); 35-year sentence upheld.
+- `judgment-zm-2025-coa-027-collins-ncube-v-the-people` (APP/27/2024, decided 2025-02-18, **dismissed**, panel: **Mchenga DJP / Ngulube / Chembe JJA**). Murder conviction (circumstantial evidence) upheld.
+
+**Deferred — scanned-pdf-needs-ocr (4 records, awaiting ocrmypdf fallback):**
+- `judgment-zm-2024-coa-192-charles-laima-v-pulse-financial-services-limited` (Appeal 192/2023, ~22 Aug 2024 per title, panel: Siavwapa JP/Chishimba/Patel JJA) — 21MB scanned PDF, 17 pages, 17 chars extracted.
+- `judgment-zm-????-coa-183-wamulume-kalabo-v-howard-mwape` (App 183/2023, panel: Siavwapa JP/Chishimba/Patel JJA) — 3.8MB scanned PDF, 22 pages, 22 chars extracted.
+- `judgment-zm-????-coa-315-hai-sheng-mining-enterprises-limited-v-cupwell-ngambi-mining-limited` (App 315/2023, panel: Siavwapa JP/Chishimba/Patel JJA) — 4.8MB scanned PDF, 28 pages, 28 chars. **Mining-rights precedent — OCR priority.**
+- `judgment-zm-2018-coa-078a-kalvic-bakery-ltd-v-attorney-general-and-another` (Appeal 78A/2017, decided May 2018, Chashi JJA single judge) — 4.6MB PDF with 0 pages reported by pdfplumber (corrupt PDF header or page-tree malformation; may need pdf-repair before OCR).
+
+**Total deferred-fts5 backlog awaiting repair-worker FTS5 drop+recreate:** 7 (b0590) + 4 (b0591) + 3 (b0592) + 6 (b0593) + 4 (b0594) = **24 records**.
+**Total deferred-scanned-pdf backlog awaiting ocrmypdf:** 1 (b0593 Emergency Response Zambia 309/2023) + 4 (b0594) = **5 records**.
+
+Raw PDFs preserved on disk under `raw/judiciary-zm/coa/2026/`. Parsed JSON archived to `raw/judiciary-zm/coa/_deferred/b0594_parsed_records.json`.
+
+**v0.4.0 parser improvements applied inline this tick:**
+1. Pre-normalisation of body OCR artifacts: `Co RAM` → `CORAM`, `NGUL UBE` → `NGULUBE`, `\d{1,2}s'` apostrophe-suffix-typo on PDF dates → `\dst`.
+2. Date extraction searches "On X and Y" pattern within 0-5 lines after CORAM (skips cited-case dates in references section).
+3. Case-name OCR cleanup: strip trailing single-letter noise, strip apostrophes, strip "OF [A-Z]{1,3}" trailing fragments.
+4. Judge name title-case normalisation when body is uppercase.
+5. Manual override layer for known-noisy panel records (kingfred-phiri 13-judge panel canonical override).
+
+**v0.4.1 parser flagged for future:** the criminal-appeal "We acquit … We dismiss" mixed-outcome pattern needs structured outcome serialisation (per-appellant disposition) — currently `outcome=allowed` with outcome_detail capturing the split, but a future schema may want `outcome_by_appellant: [{appellant: "2nd", outcome: "allowed"}, {appellant: "1st", outcome: "dismissed-conviction-sentence-amended"}]`.
+
+**Pre-existing FTS5 corruption (CARRIED FORWARD from b0587/b0590/b0591/b0592/b0593) — operator escalation REPEATED 5th time:**
+
+This tick I again attempted FTS5 rebuild on a `/tmp` isolated copy of `corpus.sqlite`:
+- `INSERT INTO records_fts(records_fts) VALUES('integrity-check')` → FAILED (`database disk image is malformed`).
+- Direct `INSERT INTO records_fts(...) VALUES (?, ...)` for a synthetic test row → FAILED (`database disk image is malformed`).
+
+Repair-batch-024 (most recent repair-worker tick at 2026-05-11T19:11:40Z) reports manifest=48/48-clean for the 13th consecutive idle tick. The FTS5 rebuild task is STILL not in the repair worker's manifest after 5 jiw escalations.
+
+**Escalation to operator:** see `reports/batch-0594-jiw.md` for the proposed `fts5-rebuild-records-fts` and companion `ocrmypdf-scanned-coa-pdfs` manifest tasks. JIW productivity will remain near-zero until both are unblocked. Backlog now spans 5 ticks across CoA pages 4–7.
+
+**Sweep position next tick (b0595):** `judiciary-coa-sweep: page 7 remaining` (2 unprocessed CoA candidates from page 7 — App-123 Patson Kabungo Sichoni vs The People, App-113 Chisumpa Liandisha vs The People — to be processed first); OR `judiciary-coa-sweep: page 8` if both already cached as no-pdf or duplicates.

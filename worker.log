@@ -6636,3 +6636,15 @@ test append
 2026-05-11T19:18:54Z	batch-0593-jiw	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
 2026-05-11T19:18:54Z	batch-0593-jiw	STOP	written=0	deferred=7	fts5-backlog=20	commit=b85bb74	verdict=ok-fts5-blocked-15th-consecutive-tick
 [2026-05-11T20:10:49Z] All 48 repair targets fixed — repair worker idle
+2026-05-11T20:16Z	batch-0594-jiw	START	worker=judgment-ingestion-worker	tick=jiw-b0594	priority=b-coa-judiciaryzambia-page-7
+2026-05-11T20:16Z	batch-0594-jiw	SYNC	git-pull	verdict=ok-already-up-to-date
+2026-05-11T20:16Z	batch-0594-jiw	FTS5_INTEGRITY_CHECK	target=/tmp/b0594_corpus.sqlite	verb=integrity-check	verdict=FAIL-database-disk-image-is-malformed
+2026-05-11T20:16Z	batch-0594-jiw	FTS5_TEST_INSERT	target=/tmp/b0594_corpus.sqlite	verb=insert-synthetic-row	verdict=FAIL-database-disk-image-is-malformed
+2026-05-11T20:16Z	batch-0594-jiw	FETCH	listing=page-7	posts_found=10	to_fetch=8	verdict=ok
+2026-05-11T20:16Z	batch-0594-jiw	FETCH	pdfs_downloaded=8	total_bytes=48617900	largest=21038453	verdict=ok
+2026-05-11T20:16Z	batch-0594-jiw	PARSE	parser=0.4.0-inline	records_parsed=4	scanned_pdf_deferred=4	quality_gate_pass=4	verdict=ok-mixed
+2026-05-11T20:16Z	batch-0594-jiw	PARSE_QUALITY	clean=4	scanned_pdf=4	verdict=ok-50pct-scanned
+2026-05-11T20:16Z	batch-0594-jiw	INSERT	records_written=0	records_deferred_fts5=4	records_deferred_scanned=4	verdict=fts5-blocked-pre-existing-corruption
+2026-05-11T20:16Z	batch-0594-jiw	CHECK8	records=1892	records_fts=1892	verdict=PASS-counts-equal-no-mutation-this-tick
+2026-05-11T20:16Z	batch-0594-jiw	CORPUS_SQLITE_MUTATION	none	verdict=no-records-inserted-fts5-blocked
+2026-05-11T20:16Z	batch-0594-jiw	END	verdict=ok-partial-fts5-blocked-backlog-24
