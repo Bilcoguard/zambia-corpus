@@ -6743,3 +6743,17 @@ Continuation of b0583. Page 2 of `judiciaryzambia.com/category/resources/decisio
 
 `sqlite3` on the workspace-mounted DB hit "database disk image is malformed" mid-tick (a virtiofs caching artefact, not real corruption — the /tmp working copy was healthy). Recovery: `cp /tmp/.../corpus.sqlite corpus.sqlite.new && mv corpus.sqlite.new corpus.sqlite`. Pattern: all JIW ticks since b0521 already use /tmp-isolation; recommendation is to add explicit `PRAGMA integrity_check` of the workspace DB **before** /tmp copy-out to detect this earlier. Operator note for parser-pack v0.3.4.
 
+
+## 2026-05-11T08:38Z — Phase 8 reverify batch-0586
+
+**Seed:** `phase8-reverify-2026-05-11-b0586`
+Thirtieth Phase 8 tick overall (second worker-tick of UTC date 2026-05-11). Pool=1880 (records with non-empty source_url, of 1881 total). Sample=8 via tick-suffixed seed. **4 match, 4 drift, 0 truncated_prefix, 0 fetch_error (after parliament CA-chain retry).**
+
+- All 4 drifts are zambialii AKN-HTML responses (rendering-pipeline non-determinism, not real content drift). They extend the 30-tick AKN-HTML drift cohort.
+- `act-zm-2018-023-supplementary-appropriation-2018-no-2-act` /eng@2018-12-26 (38,863 B): AKN-HTML drift. stored=`0bba6aaf6bd9d689a22c3930928ff88895280dd13d51edd9d2edf067018ad4dc`, new=`5d985bdd78548a5c3baa64de9b1796637b3fb30988f4f9e13defec44d6c40704`. Defer code (existing): AKN-HTML rendering-pipeline non-determinism.
+- `act-zm-1968-005-gwembe-district-special-fund-dissolution-act-1968` /eng@1996-12-31 (50,488 B): AKN-HTML drift, second mid-century AKN observation after b0576 act-zm-1966-001. stored=`648db2bfd75a531d741c82e495a39ed2d915f091ca375c7d38c1441c5558b4fe`, new=`619c53d9011ea46a724afd0bef19d9817755246efd2deef4059aa517b2c74813`.
+- `judgment-zm-2019-zmcc-01-sean-e-tembo-v-attorney-general` /eng@2019-02-14 (40,512 B): **first ZMCC judgment-akn drift observation with /eng@<canonical-citation-date> suffix in 30-tick series**; judgment-akn HTML drift cohort 7/15→8/16. stored=`a1c7d7bdbbb066b306c51147ebc6dcef1eb662936f1c1e46df2a330fd5d6301e`, new=`28a4cc115f66f8dd0b30663ba65e93e01c2154ad1b7315407d3565a58b86c547`.
+- `si-zm-2021-112-road-traffic-fees-regulations-2021` bare-AKN-path (39,060 B): **fifth bare-AKN-path drift** after b0579 si-zm-2023-041, b0581 si-zm-2019-014, b0582 si-zm-2023-009, b0585 si-zm-2008-024. Sub-cohort remains SI-only. stored=`b43ed906c52f5cb9f7a36c72d0858934d14a0a4aeaf16b6656ec1a8264151e5b`, new=`b4f0f985ea33924bd1938ad327f93f41eed506866e58ae169bff83500747a8da`.
+- 4 matches (real-match): act-zm-2023-024 (zambialii akn /source.pdf 388,158 B PDF); si-zm-2016-007 (zambialii akn /source.pdf 842,403 B PDF); act-zm-2020-002 (parliament /acts/ 91,551 B PDF, retry); act-zm-2009-016 (parliament /acts/ 4,985,554 B PDF, retry — **new largest parliament-PDF in series**).
+- **NEW** (b0586): inline-runner CA-bundle parity is required for parliament.gov.zm — the sandbox-default certifi cacert.pem lacks the RapidSSL TLS RSA CA G1 intermediate. Two fetches initially produced SSL_CERT_VERIFY_FAILED before being resolved via `scripts/certs/rapidssl_tls_rsa_ca_g1.pem` extension. Operator recommendation: codify the baseline PKI loader (`scripts/batch_0546_phase8_reverify.py` pattern) in a shared helper consumed by all phase-8 runners.
+- No records mutated.
