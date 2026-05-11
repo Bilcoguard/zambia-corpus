@@ -6601,3 +6601,8 @@ test append
 2026-05-11T17:18:00Z	[batch-0591-jiw] WRITE reports/batch-0591-jiw.md
 2026-05-11T17:18:00Z	[batch-0591-jiw] BACKUP corpus.sqlite.bak.b0591-pre-20260511T171614Z (116457472 bytes)
 2026-05-11T17:18:00Z	[batch-0591-jiw] END verdict=ok-partial-fts5-blocked
+2026-05-11T17:25:30Z	batch-0591-jiw	GIT_COMMIT	e505981	files=8	verdict=ok
+2026-05-11T17:25:30Z	batch-0591-jiw	GIT_PUSH	origin/main	866f88c..e505981	verdict=ok
+2026-05-11T17:25:30Z	batch-0591-jiw	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
+2026-05-11T17:25:30Z	batch-0591-jiw	STOP	written=3	deferred_fts5=4	deferred_dedupe=1	fetches=24	cumulative_today=58/500	commit=e505981	verdict=tick-complete-partial-fts5-blocked
+2026-05-11T18:11:02Z	repair-batch-023	IDLE	manifest=48/48-clean	repaired=0	fetched=0	verdict=idle-12th-consecutive-tick	All 48 repair targets fixed — repair worker idle
