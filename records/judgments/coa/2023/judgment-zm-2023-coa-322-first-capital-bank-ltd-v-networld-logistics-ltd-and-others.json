@@ -1,0 +1,42 @@
+{
+  "id": "judgment-zm-2023-coa-322-first-capital-bank-ltd-v-networld-logistics-ltd-and-others",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "First Capital Bank Ltd v Networld Logistics Ltd & Others (APP/322/2024) [2023] ZMCA (2023-02-02)",
+  "citation": "[2023] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "First Capital Bank Ltd v Networld Logistics Ltd & Others",
+  "case_number": "APP/322/2024",
+  "date_decided": "2023-02-02",
+  "judges": [
+    {
+      "name": "Siavwapa",
+      "role": "JP",
+      "dissented": false
+    },
+    {
+      "name": "Chishimba",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Pate!",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "property",
+    "commercial"
+  ],
+  "outcome": "set-aside",
+  "outcome_detail": "entioned property to the Appellant. J21 9.0 CONCLUSION The appeal has merit. We set aside the decision of the Court to the effect stated above. Costs to the Appellant to be taxed in",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "b7a3419f05625195209091c255fc0bd34d2547da6f5dc37dd8924a279085bc29",
+  "source_url": "https://judiciaryzambia.com/app-322-2024-first-capital-bank-ltd-vs-networld-logistics-ltd-2-others-coram-siavwapa-jp-chishimba-patel-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/03/App-322-2024-First-Capital-Bank-Ltd-vs-Networld-Logistics-Ltd-2-Others-Coram-Siavwapa-JP-Chishimba-Patel-JJA.pdf",
+  "source_hash": "sha256:6be0b980812a04316864acd1e1e0a0c076659798f9877f092fec29a8f508a810",
+  "fetched_at": "2026-05-11T07:37:27Z",
+  "parser_version": "0.3.2"
+}

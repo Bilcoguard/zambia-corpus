@@ -6680,3 +6680,36 @@ HTML 7/15 drift, parliament-node 0/1 — both very small samples).
 Operator action options unchanged: (a) move Phase 8 to
 text-extraction-stable hashing for HTML endpoints, (b) restrict
 Phase 8 to stable-PDF endpoints only, or (c) leave as-is.
+
+## [2026-05-11T07:50Z] Judgment ingestion worker batch 0583 — FIRST Court of Appeal records (judiciaryzambia.com)
+
+First-ever Court of Appeal ingestion in the corpus. **+7 records written** (court coverage grew from 0 to 7), 3 deferred `html_no_summary_pdf_no_match` (v0.3.3-pending). Source: `https://judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/` page 1.
+
+### Sweep position (for next tick)
+
+- `judiciary-coa-sweep: page 2` (page 1 fully processed; 10 posts: 7 written, 3 v0.3.3-pending deferred)
+
+### Parser v0.3.2 quality issues observed → v0.3.3 refinement targets
+
+1. **case_number first-match-wins on cited cases**: `extract_case_number` (`\bAPPEAL\s+No\.?\s*(\d+)\s*[/\-of]+\s*(\d{4})`) currently scans the WHOLE PDF and picks the first match. Where the title page reads `APPEAL No./202/2023` but the "Cases referred to" section earlier reads `SCZ Appeal No 160 of 2012`, the regex picks the cited case. Affected record: `judgment-zm-2020-coa-160-maambo-simukuni-v-tenyiwe-sibindi` (case_number stored as `APP/160/2012` but actually `APP/202/2023` per slug + title page). **Fix in v0.3.3**: anchor to the first 500-1000 chars of the document (title page) and only fall through if not found there.
+
+2. **date_decided ordinal-suffix typo robustness**: judiciary.zm PDFs frequently have ordinal suffixes typed as bare `t` rather than `th` (e.g. `17t February and 25t March 2026`). The current `(?:st|nd|rd|th)?` does not accept lone `t`, so the regex falls through to later dates in the document — which may be Subordinate Court dates, cited-case dates, etc. Affected records (date_decided likely incorrect):
+   - `judgment-zm-2020-coa-160-maambo-simukuni-v-tenyiwe-sibindi` — stored 2020-05-13 (Subordinate Court Judgment date); should be 2026-03-25 per title page.
+   - `judgment-zm-2023-coa-322-first-capital-bank-ltd-v-networld-logistics-ltd-and-others` — stored 2023-02-02; case number is 2024 vintage so date_decided cannot precede appeal year.
+   - `judgment-zm-2022-coa-091-douglas-aaron-simukonda-v-the-people` — stored 2022-12-02; case number is 2024 vintage so date_decided cannot precede appeal year.
+   - `judgment-zm-2024-coa-101-timothy-lipofya-v-the-people` — stored 2024-01-15; plausible but worth verification.
+
+   **Fix in v0.3.3**: accept `t` (lone-letter) as ordinal-suffix typo; prefer dates near the "JUDGMENT", "delivered", or top-of-page-1 keywords; constrain date_decided >= year-component-of-case_number (sanity bound).
+
+3. **Coram extraction trailing-role pattern**: One PDF (Mathews Handulu) uses uppercase `MAKUNGU, SICHINGA AND NGULUBE, JJA` where the trailing `JJA` is intended to apply to all three judges. The b0583 inline parser handles this correctly (detects role-only-tail and back-applies), but the pattern is brittle. **Fix in v0.3.3**: codify trailing-role-applies-to-all rule in the parser package.
+
+### Deferred records (PDFs on disk, parser v0.3.3-pending)
+
+- `judgment-zm-2023-coa-110-josias-mtonga-v-the-people` (APP/110/2024) — PDF on disk at `raw/judiciary-zm/coa/app-110-2024-...pdf`; outcome anchor not matched
+- `judgment-zm-2023-coa-055-skab-merchants-ltd-and-others-v-emilmark-construction-and-co` (slug `app-344-2023`) — PDF on disk; outcome anchor not matched
+- `judgment-zm-2026-coa-047-tulambo-kumwenda-and-others-v-solwezi-dairy-farm-ltd-and-oth` (slug `app-47-2025`) — PDF on disk; outcome anchor not matched
+
+### Pre-existing five divergent-content duplicate-ID Act records — REAFFIRMED
+
+None of b0583 sample IDs are involved: act-zm-2025-014, act-zm-2025-028, act-zm-2019-010, act-zm-2020-010, act-zm-2018-001. Operator dedupe action recommended (predates b0578).
+

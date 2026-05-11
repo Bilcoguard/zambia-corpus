@@ -1,0 +1,42 @@
+{
+  "id": "judgment-zm-2019-coa-004-mathews-handulu-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "MATHEWS HANDULU v THE PEOPLE (APP/004/2018) [2019] ZMCA (2019-06-25)",
+  "citation": "[2019] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "MATHEWS HANDULU v THE PEOPLE",
+  "case_number": "APP/004/2018",
+  "date_decided": "2019-06-25",
+  "judges": [
+    {
+      "name": "Makungu",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Sichinga",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Ngulube",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-appeal",
+    "commercial"
+  ],
+  "outcome": "upheld",
+  "outcome_detail": "ailed, the net result is that the appeal fails and it is accordingly dismissed. We uphold the conviction and sentence of the lower court. C. K. MAKUNGU COURT OF APPEAL J",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "363e668ffbb330d4415dbb7bbc462cc2a0f4dc853c595f7cc395a644cde80de5",
+  "source_url": "https://judiciaryzambia.com/app004-2018-mathews-handulu-vs-the-people-june-2019-coram/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/04/APP004-2018-MATHEWS-HANDULU-VS-THE-PEOPLE-JUNE-2019-CORAM-1.pdf",
+  "source_hash": "sha256:81ee5c69323a1f54780601592e0750932d3ac774e75efb20675c652baf8cd2ae",
+  "fetched_at": "2026-05-11T07:37:27Z",
+  "parser_version": "0.3.2"
+}

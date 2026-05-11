@@ -1,0 +1,41 @@
+{
+  "id": "judgment-zm-2026-coa-095-sandra-mwale-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Sandra Mwale v The People (APP/095/2024) [2026] ZMCA (2026-02-17)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Sandra Mwale v The People",
+  "case_number": "APP/095/2024",
+  "date_decided": "2026-02-17",
+  "judges": [
+    {
+      "name": "Mchenga",
+      "role": "DJP",
+      "dissented": false
+    },
+    {
+      "name": "Majula",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Muzenga",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-appeal"
+  ],
+  "outcome": "quashed",
+  "outcome_detail": "t as the offender, we find that the appellant's conviction is not safe. 7.2. We set aside the conviction and acquit the appellant. C.F.R. chen DEPUTY JUDGE PRESIDE B. M. Mtju1a K. Muze",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "ecb48e7e97ed39e7ae9a59c51cbad109db8419cc401a961a2edd75570acca79f",
+  "source_url": "https://judiciaryzambia.com/app-95-2024-sandra-mwale-vs-the-people-coram-mchenga-djp-majula-muzenga-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/03/App-95-2024-Sandra-Mwale-vs-The-People-Coram-Mchenga-DJP-Majula-Muzenga-JJA.pdf",
+  "source_hash": "sha256:fab442f5ad3b993d17972effaf3f3b3cfd8fe38196f08d65cd4625d40c6ab5f3",
+  "fetched_at": "2026-05-11T07:37:27Z",
+  "parser_version": "0.3.2"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "judgment-zm-2022-coa-091-douglas-aaron-simukonda-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Douglas Aaron Simukonda v The People (APP/091/2024) [2022] ZMCA (2022-12-02)",
+  "citation": "[2022] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Douglas Aaron Simukonda v The People",
+  "case_number": "APP/091/2024",
+  "date_decided": "2022-12-02",
+  "judges": [
+    {
+      "name": "Mchenga",
+      "role": "DJP",
+      "dissented": false
+    },
+    {
+      "name": "Majula",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Muzenga",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-appeal"
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "case, we find the appellant's conviction to be unsafe. 6.2.We set it aside and acquit the appellant. C.F.R. Mc e DEPUTY JUDGE PRES DENT B.M. Mâjula K. Muzenga COURT OF APPEAL JUDG",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "8c5f56b865864a3ef8abd9c9cac522d9f660d707fdefd395450105648b94d78d",
+  "source_url": "https://judiciaryzambia.com/app-91-2024-douglas-aaron-simukonda-vs-the-people-coram-justice-mchenga-djp-majula-muzenga-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/03/App-91-2024-Douglas-Aaron-Simukonda-vs-The-People-Coram-Justice-Mchenga-DJP-Majula-Muzenga-JJA.pdf",
+  "source_hash": "sha256:925827025d4bde161770ffe3de0090c51cb9823c65bd5fb0a7f5a86be79072b6",
+  "fetched_at": "2026-05-11T07:37:27Z",
+  "parser_version": "0.3.2"
+}

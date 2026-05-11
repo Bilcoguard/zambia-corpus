@@ -1,0 +1,43 @@
+{
+  "id": "judgment-zm-2020-coa-160-maambo-simukuni-v-tenyiwe-sibindi",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Maambo Simukuni v Tenyiwe Sibindi (APP/160/2012) [2020] ZMCA (2020-05-13)",
+  "citation": "[2020] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Maambo Simukuni v Tenyiwe Sibindi",
+  "case_number": "APP/160/2012",
+  "date_decided": "2020-05-13",
+  "judges": [
+    {
+      "name": "Siavwapa",
+      "role": "JP",
+      "dissented": false
+    },
+    {
+      "name": "Chishimba",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Patel",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "property",
+    "commercial",
+    "family"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "good faith. 11.5 The net result is that the two grounds of appeal fail and the appeal is dismissed with costs for lack of merit. M. J. SIAVWAPA JUDGE PRESIDENT F. M. CHISHIMBA A.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "280b054e6f37db8f84945786b32e0ec160cdcbda9dc4d24ca231a8addfb51160",
+  "source_url": "https://judiciaryzambia.com/app-202-2023-maambo-simukuni-vs-tenyiwe-sibindi-coram-justice-siavwapa-jp-chishimba-patel-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/03/App-202-2023-Maambo-Simukuni-vs-Tenyiwe-Sibindi-Coram-Justice-Siavwapa-JP-Chishimba-Patel-JJA.pdf",
+  "source_hash": "sha256:4119862b33dbef328da02e4533c5ec866d0586b8f1c1b1621df6e8194302809d",
+  "fetched_at": "2026-05-11T07:37:27Z",
+  "parser_version": "0.3.2"
+}

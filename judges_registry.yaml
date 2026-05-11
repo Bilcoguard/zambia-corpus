@@ -1,4 +1,13 @@
 judges:
+- canonical_name: Banda-Bobo
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2026-coa-074-bukari-pharmacy-v-mashake-mweemba
+    first_seen_at: '2026-05-11T07:37:27Z'
+  aliases:
+  - Banda-Bobo JJA
+  first_seen: '2026-05-11T07:37:27Z'
+  court: Court of Appeal
 - canonical_name: Chashi
   titles:
   - title: JJA
@@ -48,6 +57,15 @@ judges:
   - Chisanga JJS
   - Chisanga JS
   first_seen: '2026-05-03T18:14:01Z'
+- canonical_name: Chishimba
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2020-coa-160-maambo-simukuni-v-tenyiwe-sibindi
+    first_seen_at: '2026-05-11T07:37:27Z'
+  aliases:
+  - Chishimba JJA
+  first_seen: '2026-05-11T07:37:27Z'
+  court: Court of Appeal
 - canonical_name: Chisunka
   titles:
   - title: JCC
@@ -95,6 +113,15 @@ judges:
   - Hamaundu
   - E. M. Hamaundu
   first_seen: '2026-05-03T17:14:01Z'
+- canonical_name: JJA
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2019-coa-004-mathews-handulu-v-the-people
+    first_seen_at: '2026-05-11T07:33:47Z'
+  aliases:
+  - JJA J
+  first_seen: '2026-05-11T07:33:47Z'
+  court: Court of Appeal
 - canonical_name: Kabuka
   titles:
   - title: JJS
@@ -161,6 +188,33 @@ judges:
   aliases:
   - Kawimbe JJC
   first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: MAKUNGU
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2019-coa-004-mathews-handulu-v-the-people
+    first_seen_at: '2026-05-11T07:33:47Z'
+  aliases:
+  - MAKUNGU J
+  first_seen: '2026-05-11T07:33:47Z'
+  court: Court of Appeal
+- canonical_name: Majula
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2026-coa-095-sandra-mwale-v-the-people
+    first_seen_at: '2026-05-11T07:37:27Z'
+  aliases:
+  - Majula JJA
+  first_seen: '2026-05-11T07:37:27Z'
+  court: Court of Appeal
+- canonical_name: Makungu
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2019-coa-004-mathews-handulu-v-the-people
+    first_seen_at: '2026-05-11T07:37:27Z'
+  aliases:
+  - Makungu JJA
+  first_seen: '2026-05-11T07:37:27Z'
+  court: Court of Appeal
 - canonical_name: Malila
   titles:
   - title: CJ
@@ -181,6 +235,15 @@ judges:
   aliases:
   - Mambilima CJ
   first_seen: '2026-05-04T09:32:07Z'
+- canonical_name: Mchenga
+  titles:
+  - title: DJP
+    first_seen_in: judgment-zm-2026-coa-095-sandra-mwale-v-the-people
+    first_seen_at: '2026-05-11T07:37:27Z'
+  aliases:
+  - Mchenga DJP
+  first_seen: '2026-05-11T07:37:27Z'
+  court: Court of Appeal
 - canonical_name: Mulembe
   titles:
   - title: JCC
@@ -351,6 +414,15 @@ judges:
   aliases:
   - Muyovwe JS
   first_seen: '2026-05-08T21:18:23Z'
+- canonical_name: Muzenga
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2026-coa-095-sandra-mwale-v-the-people
+    first_seen_at: '2026-05-11T07:37:27Z'
+  aliases:
+  - Muzenga JJA
+  first_seen: '2026-05-11T07:37:27Z'
+  court: Court of Appeal
 - canonical_name: Mwandenga
   titles:
   - title: JCC
@@ -376,6 +448,33 @@ judges:
   aliases:
   - Mwandenga JJC
   first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Ngulube
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2019-coa-004-mathews-handulu-v-the-people
+    first_seen_at: '2026-05-11T07:37:27Z'
+  aliases:
+  - Ngulube JJA
+  first_seen: '2026-05-11T07:37:27Z'
+  court: Court of Appeal
+- canonical_name: Pate!
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2023-coa-322-first-capital-bank-ltd-v-networld-logistics-ltd-and-others
+    first_seen_at: '2026-05-11T07:37:27Z'
+  aliases:
+  - Pate! JJA
+  first_seen: '2026-05-11T07:37:27Z'
+  court: Court of Appeal
+- canonical_name: Patel
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2020-coa-160-maambo-simukuni-v-tenyiwe-sibindi
+    first_seen_at: '2026-05-11T07:37:27Z'
+  aliases:
+  - Patel JJA
+  first_seen: '2026-05-11T07:37:27Z'
+  court: Court of Appeal
 - canonical_name: Phiri
   titles:
   - title: JJA
@@ -384,6 +483,15 @@ judges:
   aliases:
   - Sharpe -Phiri JJA
   first_seen: '2026-05-04T09:20:09Z'
+- canonical_name: SICHINGA AND NGULUBE
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2019-coa-004-mathews-handulu-v-the-people
+    first_seen_at: '2026-05-11T07:33:47Z'
+  aliases:
+  - SICHINGA AND NGULUBE J
+  first_seen: '2026-05-11T07:33:47Z'
+  court: Court of Appeal
 - canonical_name: Shilimi
   titles:
   - title: DPC
@@ -393,6 +501,15 @@ judges:
   - Shilimi DPC
   - Justice A.M. Shilimi
   first_seen: '2026-04-29T13:10:17Z'
+- canonical_name: Siavwapa
+  titles:
+  - title: JP
+    first_seen_in: judgment-zm-2020-coa-160-maambo-simukuni-v-tenyiwe-sibindi
+    first_seen_at: '2026-05-11T07:37:27Z'
+  aliases:
+  - Siavwapa JP
+  first_seen: '2026-05-11T07:37:27Z'
+  court: Court of Appeal
 - canonical_name: Sichinga
   titles:
   - title: JJA

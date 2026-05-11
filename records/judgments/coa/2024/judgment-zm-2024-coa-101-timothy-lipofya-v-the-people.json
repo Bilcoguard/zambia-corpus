@@ -1,0 +1,41 @@
+{
+  "id": "judgment-zm-2024-coa-101-timothy-lipofya-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Timothy Lipofya v The People (APP/101/2024) [2024] ZMCA (2024-01-15)",
+  "citation": "[2024] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Timothy Lipofya v The People",
+  "case_number": "APP/101/2024",
+  "date_decided": "2024-01-15",
+  "judges": [
+    {
+      "name": "Mchenga",
+      "role": "DJP",
+      "dissented": false
+    },
+    {
+      "name": "Majula",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Muzenga",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-appeal"
+  ],
+  "outcome": "set-aside",
+  "outcome_detail": "t, and adjust the sentences downwards. 5.0 VERDICT 5.1 The sentence of 22 years is set aside. In its place we impose a sentence of 4 years imprisonment with hard labour. Th",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "c9fddd4077b0a3bed6e1085ce5d4259664290f2c17993978176e741ff87a818b",
+  "source_url": "https://judiciaryzambia.com/app-101-2024-timothy-lipofya-vs-the-people-coram-justice-mchenga-djp-majula-muzenga-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/03/App-101-2024-Timothy-Lipofya-vs-The-People-Coram-Justice-Mchenga-DJP-Majula-Muzenga-JJA.pdf",
+  "source_hash": "sha256:3e26bbaa04378d4fc53b471db9a73374405f8231590e1ce0d5bb8307d90ec0c3",
+  "fetched_at": "2026-05-11T07:37:27Z",
+  "parser_version": "0.3.2"
+}

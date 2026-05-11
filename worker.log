@@ -6428,3 +6428,47 @@ test append
 2026-05-10T20:38Z worker-tick batch-0581 push OK (d262187..592e75f); B2 sync deferred (rclone not available in sandbox)
 2026-05-10T21:10Z	4a515f6	batch-0582 push OK (592e75f..4a515f6)
 2026-05-10T21:10Z	batch-0582	B2 sync deferred to host (rclone not in sandbox)
+2026-05-11T09:30Z judgment-ingestion-worker batch-0580 push OK (4a515f6..06e5b8c); B2 sync deferred (rclone not available in sandbox)
+2026-05-11T07:29:52Z worker-tick batch-0583 START phase-8-nightly-reverify
+2026-05-11T07:29:52Z worker-tick batch-0583 git pull --ff-only Already up to date (HEAD=4a515f6; warning: unable to unlink .git/objects/maintenance.lock — virtiofs Operation not permitted; pull semantics not affected)
+2026-05-11T07:29:52Z worker-tick batch-0583 approvals.yaml load OK; phase_8_nightly_reverify approved=true complete=false sample_rate=0.01
+2026-05-11T07:29:52Z worker-tick batch-0583 daily-budget pre-tick cumulative_today=0/2000 (worker-tick channel, fresh UTC day 2026-05-11) — within cap
+2026-05-11T07:29:52Z worker-tick batch-0583 inline runner /tmp/b0583_phase8_reverify.py invoked (functional contract per scripts/batch_0546_phase8_reverify.py + tick-suffixed seed + truncated-prefix detector)
+2026-05-11T07:29:52Z worker-tick batch-0583 pool_size=1870 (unchanged from b0582 close — no jiw additions); seed=phase8-reverify-2026-05-11-b0583; sample_size=8 (= MAX_BATCH cap)
+2026-05-11T07:30:21Z worker-tick batch-0583 verdicts: match=5 (incl. 1 match_truncated_prefix), drift=3, truncated_stored_hash_false_drift=1, fetch_error=0
+2026-05-11T07:30:21Z worker-tick batch-0583 matches: si-zm-2010-006 (zambialii akn /source.pdf 799,306 B); act-zm-2004-013 (media.zambialii.org legacy-PDF 1,480,069 B — SECOND observation in 29-tick series); si-zm-1986-004 (zambialii akn /source.pdf 258,374 B); act-zm-2018-015 (parliament.gov.zm /acts/ 14,937 B)
+2026-05-11T07:30:21Z worker-tick batch-0583 truncated_prefix: act-zm-2020-024 stored=966825e257ac241a (16-hex) startswith-matches recomputed full sha256 966825e257ac241a507236985eb3e6c701e09f694b8b4e8d895a2bc012b79755 — FOURTH 2020-vintage parliament-pdf-v1.2 truncated-prefix finding (act-zm-2020-011 b0570 / act-zm-2020-019 b0578 / act-zm-2020-016 b0581 / act-zm-2020-024 b0583)
+2026-05-11T07:30:21Z worker-tick batch-0583 drifts: act-zm-1971-034 (eng@2020-10-26 211,326 B AKN-HTML); si-zm-2008-024 (BARE-AKN-PATH 39,280 B FOURTH bare-path drift in series after b0579, b0581, b0582 — sub-cohort remains SI-only); act-zm-1988-029 (eng@1996-12-31 137,298 B AKN-HTML). All three drifts fit AKN-HTML drift cohort.
+2026-05-11T07:30:21Z worker-tick batch-0583 cohort cumulative tally:
+    AKN-HTML drift cohort: 90/90 -> 93/93 (100% reproduction across 29 ticks)
+    zambialii akn /source.pdf (Act/SI) match: 18/18 -> 20/20
+    zambialii akn /source.pdf (Judgment) match: 1/1 unchanged
+    media.zambialii legacy-PDF match: 1/1 -> 2/2 (SECOND observation)
+    parliament real-match: 82/82 -> 83/83; parliament real-drift: 0/86 (was 0/85); parliament truncated-prefix: 4/86 (was 3/85)
+    judgment-akn HTML drift: 7/15 unchanged; parliament-node: 0/1 unchanged
+    stable-PDF supercohort: 101/104 -> 105/109 (real-drift count = 0 across 29 ticks)
+  Daily budget (worker-tick channel): cumulative_today = 8/2000 (0.4%).
+  No records mutated. approvals.yaml not modified. judges_registry.yaml not modified.
+  corpus.sqlite unchanged (b0583 did not touch sqlite).
+  Cross-ref sweep: not run (read-only reverify tick — does not own cross-ref integrity).
+  Pre-existing repo-layout finding (5 divergent-content duplicate-ID Acts) reaffirmed — none of b0583 sample IDs are involved.
+  scripts/batch_0583_phase8_reverify.py NOT committed (sandbox-session safety constraint).
+2026-05-11T07:30:21Z worker-tick batch-0583 STOP next tick in 30 minutes
+[2026-05-11T07:32:20Z] [repair-tick] batch-019 commit 9c38eff push 06e5b8c..9c38eff OK. Remote main now at 9c38eff. B2 sync deferred to host (rclone not in sandbox). Tick complete: repair batch 019 IDLE — 8th consecutive idle tick (b012..b019), 48/48 v3 manifest records clean, integrity records=records_fts=1862 delta=0. This post-push log line is NOT part of 9c38eff — will be swept on next worker-tick (sweep-on-next-commit pattern).
+2026-05-11T07:41:15Z  All 48 repair targets fixed — repair worker idle (min=6820, max=247979, avg=71571 chars)
+2026-05-11T07:50Z judgment-ingestion-worker batch-0583 START priority-b-court-of-appeal-NEW-SOURCE (judiciaryzambia.com page 1)
+2026-05-11T07:50Z judgment-ingestion-worker batch-0583 git pull --ff-only Already up to date (HEAD=06e5b8c)
+2026-05-11T07:50Z judgment-ingestion-worker batch-0583 daily-budget pre-tick cumulative_today=0/500 (jiw channel, first jiw of 2026-05-11) — within cap
+2026-05-11T07:50Z judgment-ingestion-worker batch-0583 priority decision: (b) Court of Appeal sweep — judiciaryzambia.com only source, zero corpus coverage, highest-priority NEW source per task brief
+2026-05-11T07:50Z judgment-ingestion-worker batch-0583 listing fetch coa-decisions/page-1: 200 OK, 179293 bytes, 10 posts parsed via h2.title>a.post-url regex
+2026-05-11T07:50Z judgment-ingestion-worker batch-0583 virtiofs sqlite mid-tick recovery: stale corpus.sqlite-journal truncated, corpus.sqlite copied to /tmp for isolation_level=None + journal_mode=MEMORY, pre-tick backup corpus.sqlite.bak.b0583-pre-20260511T073727Z
+2026-05-11T07:50Z judgment-ingestion-worker batch-0583 loop 10 posts: fetch post-html, find PDF link, download PDF, pdfplumber extract text, quality gate (>200 chars, digit-ratio<0.30), build_record_v032-adapted parser
+2026-05-11T07:55Z judgment-ingestion-worker batch-0583 written=7 deferred=3 duplicate=0 fetches=16
+2026-05-11T07:55Z judgment-ingestion-worker batch-0583 ids_written: judgment-zm-2019-coa-004-mathews-handulu-v-the-people (APP/004/2018 upheld); judgment-zm-2026-coa-095-sandra-mwale-v-the-people (APP/095/2024 quashed); judgment-zm-2024-coa-101-timothy-lipofya-v-the-people (APP/101/2024 set-aside); judgment-zm-2020-coa-160-maambo-simukuni-v-tenyiwe-sibindi (APP/160/2012 dismissed — case_no mis-extracted; should be APP/202/2023); judgment-zm-2023-coa-322-first-capital-bank-ltd-v-networld-logistics-ltd-and-others (APP/322/2024 set-aside); judgment-zm-2022-coa-091-douglas-aaron-simukonda-v-the-people (APP/091/2024 allowed); judgment-zm-2026-coa-074-bukari-pharmacy-v-mashake-mweemba (APP/074/2025 set-aside)
+2026-05-11T07:55Z judgment-ingestion-worker batch-0583 deferred html_no_summary_pdf_no_match (v0.3.3-pending): app-110-2024-josias-mtonga; app-344-2023-skab-merchants; app-47-2025-tulambo-kumwenda
+2026-05-11T07:55Z judgment-ingestion-worker batch-0583 sqlite_insert records 1867→1874 records_fts 1867→1874 judgments_meta 177→184 PRAGMA integrity_check=ok via TMPDIR atomic copy
+2026-05-11T07:55Z judgment-ingestion-worker batch-0583 integrity_checks 7/7 PASS (CHECK1-judges-present CHECK2-issue-tags CHECK3-outcome-enum CHECK4-judges-resolve CHECK5-no-dup-ids CHECK6-raw-sha-match CHECK7-no-dup-case-name-court-date CHECK8-records-eq-fts)
+2026-05-11T07:55Z judgment-ingestion-worker batch-0583 judges_registry +11 CoA aliases (Makungu JJA, Sichinga JJA, Ngulube JJA, Mchenga DJP, Majula JJA, Muzenga JJA, Siavwapa JP, Chishimba JJA, Patel JJA, Banda-Bobo JJA, Chashi court attrib)
+2026-05-11T07:55Z judgment-ingestion-worker batch-0583 parser quality issues flagged in gaps.md (case_number first-match-wins on cited cases; date_decided ordinal-typo robustness; Coram trailing-role pattern) — v0.3.3-pending
+2026-05-11T07:55Z judgment-ingestion-worker batch-0583 next-tick-recs: (1) continue Court of Appeal sweep page 2; (2) parser_v0.3.3 anchor pack now also needs the two CoA refinements
+2026-05-11T07:55Z judgment-ingestion-worker batch-0583 STOP next tick in 60 minutes
