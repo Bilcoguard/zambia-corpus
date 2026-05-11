@@ -4249,3 +4249,4 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-11T10:05:15Z batch-0589 fetch host=www.parliament.gov.zm id=act-zm-2013-013-the-weights-and-measures-amendment-2013 status=200 bytes=14949 sha256=f0c11d7703cfeacaa1a7d1320a4f204aa5e8a3131d81a26853981a206cfba6a2 verdict=match
 2026-05-11T10:05:18Z batch-0589 fetch host=www.parliament.gov.zm id=act-zm-2024-030-antiterrorism-nonproliferation-2024 status=200 bytes=484097 sha256=948c603f2b594c7cd7cd2601bcfa8dd43c06a99b2c079d5b4d1984ad5c3c48ac verdict=match
 2026-05-11T10:05:18Z batch-0589 phase_8_nightly_reverify COMPLETE match=6 drift=2 truncated_prefix=0 fetch_error=0 fetches=8
+2026-05-11T10:18:00Z	batch-0590-jiw	worker=judgment-ingestion-worker	source_a_url=https://judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/page/4/	source_listing_bytes=182951	posts_fetched=8	pdfs_fetched=8	pdf_refetch=1	records_inserted=1	records_deferred_fts5=7	parser=v0.3.7-inline

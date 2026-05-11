@@ -197,14 +197,14 @@ judges:
   aliases:
   - Kawimbe JJC
   first_seen: '2026-04-29T13:10:17Z'
-- canonical_name: MAKUNGU
+- canonical_name: Kondolo SC
   titles:
-  - title: J
-    first_seen_in: judgment-zm-2019-coa-004-mathews-handulu-v-the-people
-    first_seen_at: '2026-05-11T07:33:47Z'
+  - title: JJA SC
+    first_seen_in: judgment-zm-2026-coa-231-lisboa-casino-limited-v-director-of-public-prosecutions
+    first_seen_at: '2026-05-11T10:18:00Z'
   aliases:
-  - MAKUNGU J
-  first_seen: '2026-05-11T07:33:47Z'
+  - Kondolo SC JJA
+  first_seen: '2026-05-11T10:18:00Z'
   court: Court of Appeal
 - canonical_name: Majula
   titles:
@@ -214,6 +214,15 @@ judges:
   aliases:
   - Majula JJA
   first_seen: '2026-05-11T07:37:27Z'
+  court: Court of Appeal
+- canonical_name: MAKUNGU
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2019-coa-004-mathews-handulu-v-the-people
+    first_seen_at: '2026-05-11T07:33:47Z'
+  aliases:
+  - MAKUNGU J
+  first_seen: '2026-05-11T07:33:47Z'
   court: Court of Appeal
 - canonical_name: Makungu
   titles:
@@ -492,15 +501,6 @@ judges:
   aliases:
   - Sharpe -Phiri JJA
   first_seen: '2026-05-04T09:20:09Z'
-- canonical_name: SICHINGA AND NGULUBE
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2019-coa-004-mathews-handulu-v-the-people
-    first_seen_at: '2026-05-11T07:33:47Z'
-  aliases:
-  - SICHINGA AND NGULUBE J
-  first_seen: '2026-05-11T07:33:47Z'
-  court: Court of Appeal
 - canonical_name: Shilimi
   titles:
   - title: DPC
@@ -527,6 +527,15 @@ judges:
   aliases:
   - Sichinga JJA
   first_seen: '2026-05-04T09:20:09Z'
+- canonical_name: SICHINGA AND NGULUBE
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2019-coa-004-mathews-handulu-v-the-people
+    first_seen_at: '2026-05-11T07:33:47Z'
+  aliases:
+  - SICHINGA AND NGULUBE J
+  first_seen: '2026-05-11T07:33:47Z'
+  court: Court of Appeal
 - canonical_name: Sitali
   titles:
   - title: JC

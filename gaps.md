@@ -6788,3 +6788,41 @@ Continuation of b0584 sweep. Page 3 of judiciaryzambia.com Court of Appeal decis
 ### Database integrity finding (pre-existing, not introduced this tick)
 
 `PRAGMA integrity_check` reports FTS5 page-tree corruption in `records_fts_data` (pages 14599 and 28316-28340 range). Predates b0587 — observed on the pre-insert backup. Counts remain consistent (records=fts=1888). New inserts succeed. `INSERT INTO records_fts(records_fts) VALUES('rebuild')` fails with same malformed error — cannot self-heal. **Recommend repair-worker tick: drop+recreate `records_fts` and reindex from `records.body` and `records.title`.**
+
+
+---
+
+### Batch 0590 — Court of Appeal sweep (judiciaryzambia.com page 4)
+
+**Timestamp:** 2026-05-11T10:18:00Z
+
+Continuation of b0587 sweep. Page 4 of judiciaryzambia.com Court of Appeal decisions. **+1 record written**, 7 parsed-but-deferred under `deferred_fts5_corruption_pending_repair_worker_rebuild`, 0 confirmed-no-pdf stubs.
+
+### Sweep position (for next tick)
+
+- `judiciary-coa-sweep: page 5` (page 4 fully processed; 8 CoA-pattern candidates: 1 written, 7 deferred-fts5; 2 overflow posts on page 4 — `appeal-108-pilatus-engineering`, `app-38-mweene-mwiinga` — to be processed in b0591 first)
+
+### Deferred (parser_v0.3.7 OK; FTS5 insert blocked by pre-existing corruption)
+
+Raw PDFs + post HTML on disk under `raw/judiciary-zm/coa/`. Reparse not necessary — parser output is correct and stored in `tmp/b0590_parsed.json`. Inserts will succeed once `records_fts` is dropped+rebuilt by repair-worker.
+
+- `judgment-zm-2026-coa-237-the-examination-council-of-zambia-v-christopher-mkandawire` (APP/237/2023, set-aside, panel: Chashi/Ngulube/Banda-Bobo JJA, 11 Feb 2026) — Chashi-Ngulube panel, judicial-review remitted to High Court.
+- `judgment-zm-2026-coa-099-geoffrey-muyonga-sitwala-kaliki-vincent-lubinda-v-ahmed-abdulkadir-barakadle-mohammed-other` (APPLN/099/2025, struck-out, panel: Chashi/Ngulube/Banda-Bobo JJA, 11 Feb 2026) — application for leave to appeal struck off active list with 14-day liberty to restore.
+- `judgment-zm-2026-coa-279-kangwa-musenga-2-others-v-victor-muyumba-4-others` (APP/279/2023, dismissed, panel: Chashi/Makungu/Banda-Bobo JJA, 11 Feb 2026) — res-judicata, doctrine inapplicable; first b0590 record to cite BP Zambia Plc on piecemeal litigation.
+- `judgment-zm-2026-coa-231-lisboa-casino-limited-v-director-of-public-prosecutions` (APP/231/2023, dismissed, panel: Kondolo SC/Makungu/Chembe JJA, 06 Feb 2026) — appeal dismissed but ground 4 partially succeeds (profit costs). Gaming/casino subject matter, first in corpus.
+- `judgment-zm-2026-coa-317-the-university-of-zambia-v-ossie-mangani-zulu` (APP/317/2024, dismissed, panel: Kondolo SC/Makungu/Chembe JJA, 29 Jan 2026) — employment dismissal.
+- `judgment-zm-2026-coa-568-chieftainess-lesa-v-mponwe-farms-limited-others` (CAZ/08/568/2025, refused, single-judge Banda-Bobo JJA in chambers, 05 Feb 2026) — renewed application for injunction dismissed; ex-parte order discharged. **First single-judge CoA chambers ruling in corpus.**
+- `judgment-zm-2026-coa-172-wesley-sibanda-feediness-sakala-sibanda-v-point-present-investment-limited-sasha` (APP/172/2024, dismissed, panel: Kondolo SC/Majula/Muzenga JJA, 05 Feb 2026) — summary procedure Order 14A inapplicable; appeal "consequently dismissed". **PDF was truncated on first fetch (1.44 MB) and required refetch for full file (2.28 MB).**
+
+### Parser v0.3.7 improvements applied this tick (inline; package not yet updated)
+
+- Outcome pattern bag extended for `consequently dismissed`, `lacks merit and ... dismissed`, `motions struck off`, `judgment ... is set aside`, `ground X partially succeeds`/`all the other grounds fail`.
+- URL-preferred `case_name` (avoid first-match-in-body cited-case false positives — e.g. Kuntawala v Chirundu was the first match in the UNZA PDF body but the actual case is UNZA v Ossie Mangani Zulu).
+- URL-preferred judges via `coram-X-Y-Z-jja` slug parsing; trailing-role-applies-to-all rule codified; embedded-SC handling for senior counsel justices like `kondolo-sc-...-jja`.
+- Reversed-surname-order handling for `bobo-banda` slug ordering → canonical Banda-Bobo.
+- Noise-word filter: `ruling`, `justice`, `judgment`, `order`, `decision`, `hon`, `mr`, `mrs` dropped before judge lookup.
+- Truncated-PDF re-fetch pattern: if `pdfplumber` raises `PdfminerException:Unexpected EOF`, the post HTML is reparsed for PDF URL and a fresh GET is issued; the new content sha replaces the old in the manifest before re-parse.
+
+### Pre-existing FTS5 corruption (CARRIED FORWARD from b0587)
+
+`PRAGMA integrity_check` continues to fail with `database disk image is malformed`. JIW yield is severely degraded — 7 of 8 inserts blocked this tick. **Repair-worker is the only remedy:** drop `records_fts`, recreate from schema (FTS5 virtual table contentless or with contentful columns matching `records_fts(id,type,title,citation,case_name,outcome_detail,body)`), and reindex from `records.body`/`records.title`. After rebuild, JIW can reparse-deferred from `tmp/b0590_parsed.json` (or just re-discover from `raw/judiciary-zm/coa/` and re-run parser v0.3.7+).

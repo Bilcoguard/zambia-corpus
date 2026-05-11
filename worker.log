@@ -6567,3 +6567,17 @@ test append
 2026-05-11T10:08:47Z	batch-0589	GIT_PUSH	origin/main	8de061e..82ca52d	verdict=ok
 2026-05-11T10:08:47Z	batch-0589	STOP	written=0	match=6	drift=2	truncated_prefix=0	fetch_error=0	fetches=8	retry_fetches=0	cumulative_today=42/2000	commit=82ca52d	verdict=tick-complete-no-records-mutated
 [2026-05-11T10:11:38Z] All 48 repair targets fixed — repair worker idle (batch 021)
+[2026-05-11T10:15:53Z] repair-batch-021 GIT_PUSH origin/main 82ca52d..f3b3833 verdict=ok
+[2026-05-11T10:15:53Z] repair-batch-021 STOP repaired=0 fetched=0 idle=10 commit=f3b3833 verdict=tick-complete-no-records-mutated
+2026-05-11T10:18:00Z [batch-0590-jiw] BEGIN sweep CoA page 4
+2026-05-11T10:18:00Z [batch-0590-jiw] FETCH listing 182951 bytes; 8 article posts
+2026-05-11T10:18:00Z [batch-0590-jiw] FETCH 8 post HTMLs + 8 PDFs (1 refetch for truncation)
+2026-05-11T10:18:00Z [batch-0590-jiw] PARSE v0.3.7-inline: 8/8 PDFs parsed successfully
+2026-05-11T10:18:00Z [batch-0590-jiw] DEDUPE: 8/8 new (no existing matches)
+2026-05-11T10:18:00Z [batch-0590-jiw] INSERT: 1 succeeded; 7 failed records_fts due to pre-existing FTS5 corruption (b0587)
+2026-05-11T10:18:00Z [batch-0590-jiw] CHECKS: CHECK1..CHECK8 all PASS for inserted record
+2026-05-11T10:18:00Z [batch-0590-jiw] WRITE judges_registry.yaml: +1 canonical (Kondolo SC)
+2026-05-11T10:18:00Z [batch-0590-jiw] WRITE gaps.md: +7 deferred-fts5 entries; sweep position -> page 5
+2026-05-11T10:18:00Z [batch-0590-jiw] WRITE reports/batch-0590-jiw.md (84 lines)
+2026-05-11T10:18:00Z [batch-0590-jiw] BACKUP corpus.sqlite.bak.b0590-pre-20260511T101817Z (116375552 bytes)
+2026-05-11T10:18:00Z [batch-0590-jiw] END verdict=ok-but-fts5-blocked

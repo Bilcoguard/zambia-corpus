@@ -1,0 +1,49 @@
+{
+  "id": "judgment-zm-2026-coa-382-musonda-chizinga-v-capstone-management-company-limited",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Musonda Chizinga v Capstone Management Company Limited (APP/382/2023) [2026] ZMCA (2026-02-11)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Musonda Chizinga v Capstone Management Company Limited",
+  "case_number": "APP/382/2023",
+  "date_decided": "2026-02-11",
+  "judges": [
+    {
+      "name": "Chashi",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Ngulube",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Banda-Bobo",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "civil-appeal",
+    "company-law",
+    "criminal-appeal",
+    "employment",
+    "procedure",
+    "property"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "ed the same fate. Nevertheless,\nand for the reasons we have outlined above, the court\nbelow was on firm ground in dismissing the application\nto lift the corporate veil.\n7.0 CONCLUSION\n7.1 In sum, the appeal lacks merit and is accordingly\ndismissed. As the matter e ted from the Industrial\n-\nRelations Division, we s e no orders as to costs.\nCOURT OF APPEAL JUDGE\n-flnz,\nP.C.M NGULUBE AM BANDA-BOBO\nCOURT OF APPEAL JUDGE COURT OF APPEAL JUDGE",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "d89a0bea7e1928cb11f68f80265586e10736e0d4cd3723d559e75b90fe442d67",
+  "source_url": "https://judiciaryzambia.com/appeal-382-2023-musonda-chizinga-vs-capstone-management-company-limited-11-feb-2026-coram-justice-chashi-ngulube-banda-bobo-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/02/Appeal-382-2023-Musonda-Chizinga-vs-Capstone-Management-Company-Limited-11-Feb-2026-Coram-Justice-Chashi-Ngulube-Banda-Bobo-JJA.pdf",
+  "source_hash": "sha256:d89a0bea7e1928cb11f68f80265586e10736e0d4cd3723d559e75b90fe442d67",
+  "fetched_at": "2026-05-11T10:16:57Z",
+  "parser_version": "0.3.7-inline",
+  "raw_path": "raw/judiciary-zm/coa/appeal-382-2023-musonda-chizinga-vs-capstone-management-company-limited-11-feb-2026-coram-justice-chashi-ngulube-banda-bobo-jja.pdf",
+  "body_length": 13853,
+  "judges_count": 3
+}
