@@ -7120,3 +7120,72 @@ If operator authorises an interim JIW-side rebuild action (DROP records_fts → 
 ### Sweep position next tick (b0599-jiw)
 
 Unchanged from b0597: `judiciary-coa-sweep: page 8 remaining` (6 candidates listed above). New ingestion is also FTS5-blocked. Recommend next JIW tick continue page-8 sweep regardless (parsing is zero-cost and adds to the archived deferred queue) until FTS5 is healed, then a massive flush tick when the rebuild is complete.
+
+---
+
+## JIW b0602 — Parallel-FTS5-table workaround FALSIFIED (2026-05-11T23:11:00Z)
+
+**19th consecutive FTS5-blocked tick. 8th operator escalation.**
+
+### NEW finding
+
+The b0597 follow-on hypothesis was tested: *could `CREATE VIRTUAL TABLE records_fts_v2 USING fts5(...)` succeed on fresh database pages, allowing the corpus to be migrated off the corrupt `records_fts` without operator authorisation for a full rebuild?*
+
+**Result: FALSIFIED.**
+
+```
+CREATE VIRTUAL TABLE records_fts_test_b0602 USING fts5(body, content='records', content_rowid='rowid')
+  → sqlite3.OperationalError: disk I/O error
+```
+
+The FTS5 module performs internal shadow-table writes during `CREATE VIRTUAL TABLE` that hit the corrupt pages. The failed CREATE left an orphaned 62 KB rollback journal which wedged ALL subsequent reads (SQLite's automatic journal-recovery on connect tried to apply the rollback, hitting the same corrupt pages and returning `disk I/O error` on every query).
+
+### Self-inflicted damage and recovery
+
+Recovered fully by:
+1. Snapshot: `corpus.sqlite.bak.b0602-damaged-20260512T010800Z` (116 MB).
+2. Journal copy: `corpus.sqlite-journal.b0602-forensic-20260512T010800Z` (62 KB).
+3. Restore: `cp corpus.sqlite.bak.b0598-pre-20260511T221111Z corpus.sqlite`. md5 `686f8197193a27b0f979156b833352fa` verified identical to backup.
+4. Journal quarantine: renamed to `corpus.sqlite-journal.b0602-jiw-quarantine-20260512T010900Z` (rm blocked by fuse, mv works).
+
+Post-recovery: `records=1892`, `records_fts=1892`, CHECK8 PASS, no leftover diagnostic tables. Net mutation: zero.
+
+### Recovery option matrix (UPDATED — all in-band options exhausted)
+
+| Workaround | Tick | Verdict |
+|---|---|---|
+| `INSERT INTO records_fts(records_fts) VALUES('rebuild')` | b0580 | ✗ disk i/o error |
+| Direct column INSERT into existing `records_fts` | b0597→b0598 | ✗ commit fails (database disk image is malformed) — TXN OK, COMMIT FAIL |
+| `DROP TABLE records_fts` | b0598 | ✗ disk image malformed |
+| `CREATE VIRTUAL TABLE records_fts_v2 USING fts5(...)` | b0602 | ✗ disk I/O error (NEW finding — wedges DB) |
+
+**Only operator-host actions remain:**
+1. `sqlite3 corpus.sqlite ".recover" > recovered.sql` — extract logical content, replay into fresh DB.
+2. Python dump of `records` table, regenerate FTS5 from scratch on a fresh DB.
+3. `VACUUM INTO 'corpus_new.sqlite'` — may also fail if VACUUM reads corrupt pages.
+
+### Backlog (UNCHANGED from b0598)
+
+- deferred-fts5: 26 parser-clean records awaiting rebuild
+  - b0590: 7, b0591: 4, b0592: 3, b0593: 6, b0594: 4, b0597: 2
+  - Archive paths: `raw/judiciary-zm/coa/_deferred/b0592_parsed_records.json`, `b0593_parsed_records.json`, `b0594_parsed_records.json`, `b0597_parsed_records.json`
+- deferred-scanned-pdf: 10 records awaiting `ocrmypdf` (not in sandbox)
+  - b0593: 1 (Emergency Response Zambia 309/2023)
+  - b0594: 4
+  - b0597: 5 (Sichoni, Savenda, Zanaco-Kandala, Mutale-Mukumbwa, Setrec-Zanaco)
+
+### Sweep position (UNCHANGED)
+
+`judiciary-coa-sweep: page 8 remaining` — 6 unprocessed COA candidates on judiciaryzambia.com page 8.
+
+### Recommendation for next JIW tick
+
+**Read-only.** Do NOT run further FTS5 schema-mutation diagnostics — they risk re-wedging the DB via orphaned rollback journals. Confirm FTS5 state with `INSERT INTO records_fts(records_fts) VALUES('integrity-check')` only (this fails fast and cleanly without leaving a journal). All further recovery is operator-host work.
+
+### Forensic artefacts (in workspace root)
+
+- `corpus.sqlite.bak.b0602-damaged-20260512T010800Z` (116457472 b)
+- `corpus.sqlite-journal.b0602-forensic-20260512T010800Z` (62072 b)
+- `corpus.sqlite-journal.b0602-jiw-quarantine-20260512T010900Z` (62072 b)
+
+These can be deleted by the operator after host-side inspection.

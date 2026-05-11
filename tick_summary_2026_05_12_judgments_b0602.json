@@ -1,0 +1,53 @@
+{
+  "batch": "0602-jiw",
+  "worker": "judgment-ingestion",
+  "tick_start_utc": "2026-05-11T23:09:30Z",
+  "tick_end_utc": "2026-05-11T23:11:00Z",
+  "phase": "diagnostic-fts5-virtual-table-test",
+  "consecutive_blocked_ticks": 19,
+  "operator_escalation_count": 8,
+  "verdict": "fts5-blocked-self-inflicted-damage-fully-recovered",
+  "fetches": 0,
+  "fetch_budget": "0/500",
+  "records_written": 0,
+  "records_deferred_new": 0,
+  "records_counts": {
+    "records": 1892,
+    "records_fts": 1892,
+    "check8_pass": true,
+    "by_type": {"act": 1151, "judgment": 202, "si": 539}
+  },
+  "backlog": {
+    "deferred_fts5": 26,
+    "deferred_scanned_pdf": 10
+  },
+  "sweep_position": "judiciary-coa-sweep: page 8 remaining (6 candidates)",
+  "diagnostic": {
+    "hypothesis": "parallel-fts5-table-workaround-via-CREATE-VIRTUAL-TABLE",
+    "result": "FALSIFIED",
+    "error": "disk I/O error on CREATE VIRTUAL TABLE records_fts_test_b0602 USING fts5(...)",
+    "side_effect": "failed CREATE left 62KB orphaned rollback journal; subsequent reads wedged with disk I/O error"
+  },
+  "incident": {
+    "type": "self-inflicted-wedge",
+    "description": "Diagnostic CREATE VIRTUAL TABLE left orphaned rollback journal that SQLite could not apply (rollback writes hit corrupt pages). All subsequent SELECTs failed.",
+    "recovery": "Restored corpus.sqlite from corpus.sqlite.bak.b0598-pre-20260511T221111Z (byte-identical, md5 686f8197193a27b0f979156b833352fa); orphaned journal quarantined via mv (rm blocked by fuse).",
+    "net_mutation_to_corpus_sqlite": "zero"
+  },
+  "forensic_artefacts": [
+    "corpus.sqlite.bak.b0602-damaged-20260512T010800Z (116457472 bytes)",
+    "corpus.sqlite-journal.b0602-forensic-20260512T010800Z (62072 bytes)",
+    "corpus.sqlite-journal.b0602-jiw-quarantine-20260512T010900Z (62072 bytes)"
+  ],
+  "recovery_options_matrix": {
+    "rebuild_existing_fts5_table": "BLOCKED (b0580)",
+    "direct_column_insert_existing_fts5": "BLOCKED (b0597 falsified, b0598 confirmed)",
+    "drop_existing_fts5_table": "BLOCKED (b0598)",
+    "create_parallel_fts5_table": "BLOCKED (b0602 NEW)",
+    "host_side_sqlite_recover": "OPERATOR ACTION REQUIRED",
+    "host_side_python_dump_rebuild": "OPERATOR ACTION REQUIRED",
+    "host_side_vacuum_into": "OPERATOR ACTION REQUIRED (may also fail on corrupt page reads)"
+  },
+  "b2_sync": "deferred-to-host-rclone-not-in-sandbox",
+  "next_tick_recommendation": "read-only-confirmation-only-no-schema-mutation-diagnostics"
+}

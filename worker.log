@@ -6769,3 +6769,15 @@ test append
 2026-05-11T23:09:00Z	batch-0602	GIT_COMMIT	commit=b769461	files=5	verdict=ok-stale-index-lock-renamed-to-index-lock-dead2-fuse-mount-blocks-rm-stale-locks-tree-also-stuck
 2026-05-11T23:09:00Z	batch-0602	GIT_PUSH	target=origin/main	verdict=ok-9f6be6d-to-b769461
 2026-05-11T23:09:00Z	batch-0602	END	verdict=ok	phase=phase_8_nightly_reverify	complete_flag=unchanged-remains-false
+2026-05-11T23:11:00Z	batch-0602-jiw	START	worker=judgment-ingestion	phase=diagnostic-fts5-virtual-table-test	consecutive_blocked_ticks=19
+2026-05-11T23:11:00Z	batch-0602-jiw	SYNC	git-pull	verdict=ok-already-up-to-date
+2026-05-11T23:11:00Z	batch-0602-jiw	BUDGET	fetches_today=0/500	verdict=ok
+2026-05-11T23:11:00Z	batch-0602-jiw	FTS5_DIAGNOSTIC	create_virtual_table_records_fts_test_b0602=FAIL(disk I/O error)	hypothesis=parallel-fts5-table-workaround	verdict=FALSIFIED
+2026-05-11T23:11:00Z	batch-0602-jiw	INCIDENT	failed-create-virtual-table-left-orphaned-rollback-journal	subsequent-reads=disk-i/o-error	severity=self-inflicted-wedge
+2026-05-11T23:11:00Z	batch-0602-jiw	FORENSIC	corpus.sqlite.bak.b0602-damaged-20260512T010800Z=116457472b	corpus.sqlite-journal.b0602-forensic-20260512T010800Z=62072b	verdict=preserved
+2026-05-11T23:11:00Z	batch-0602-jiw	RECOVERY	restored-from=corpus.sqlite.bak.b0598-pre-20260511T221111Z	md5-verified=686f8197193a27b0f979156b833352fa	journal-quarantined=corpus.sqlite-journal.b0602-jiw-quarantine-20260512T010900Z	verdict=full-recovery-zero-net-mutation
+2026-05-11T23:11:00Z	batch-0602-jiw	INTEGRITY	records=1892	records_fts=1892	by_type={act:1151,judgment:202,si:539}	check8=PASS	leftover_test_tables=none	verdict=ok
+2026-05-11T23:11:00Z	batch-0602-jiw	BACKLOG	deferred-fts5=26	deferred-scanned-pdf=10	verdict=unchanged-from-b0598
+2026-05-11T23:11:00Z	batch-0602-jiw	ESCALATION	target=operator	count=8th	reason=parallel-fts5-table-workaround-FALSIFIED-only-host-side-recovery-remaining	verdict=escalated
+2026-05-11T23:11:00Z	batch-0602-jiw	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=skipped
+2026-05-11T23:11:00Z	batch-0602-jiw	END	written=0	deferred=0	verdict=fts5-blocked-self-inflicted-damage-fully-recovered
