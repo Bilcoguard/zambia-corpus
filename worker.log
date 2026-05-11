@@ -6472,3 +6472,14 @@ test append
 2026-05-11T07:55Z judgment-ingestion-worker batch-0583 parser quality issues flagged in gaps.md (case_number first-match-wins on cited cases; date_decided ordinal-typo robustness; Coram trailing-role pattern) — v0.3.3-pending
 2026-05-11T07:55Z judgment-ingestion-worker batch-0583 next-tick-recs: (1) continue Court of Appeal sweep page 2; (2) parser_v0.3.3 anchor pack now also needs the two CoA refinements
 2026-05-11T07:55Z judgment-ingestion-worker batch-0583 STOP next tick in 60 minutes
+2026-05-11T07:48:00Z	batch-0583	GIT_COMMIT	6059533	files=13	insertions=584	verdict=ok
+2026-05-11T07:48:01Z	batch-0583	GIT_PUSH	origin/main	9c38eff..6059533	verdict=ok
+2026-05-11T07:48:02Z	batch-0583	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
+2026-05-11T07:48:03Z	batch-0583	STOP	written=7	deferred=3	duplicates=0	fetches=16	cumulative_today=16/500	checks=8/8	commit=6059533	verdict=tick-complete-FIRST-coa-ingestion
+2026-05-11T08:11Z repair-corpus batch-020 START scheduled-task-v3 manifest=48 max_batch=8 wall_clock_budget=20min
+2026-05-11T08:11Z repair-corpus batch-020 git_pull_ff_only verdict=already_up_to_date head=6059533
+2026-05-11T08:11Z repair-corpus batch-020 lock_cleanup ORIG_HEAD.lock+objects/maintenance.lock persistent_FUSE_EPERM non-fatal (same constraint b011-b019)
+2026-05-11T08:11Z repair-corpus batch-020 step2_manifest_reverify v3_test={digit_lines>len*0.5 AND len>10} OK=48 corrupted=0 empty=0 not_found=0
+2026-05-11T08:11Z repair-corpus batch-020 integrity records=1874 records_fts=1874 delta=0 verdict=PASS
+2026-05-11T08:11Z repair-corpus batch-020 pool_delta_since_b019 records 1862→1874 (+12 net, judgment-ingestion-worker activity batches 0580-0583 including FIRST-CoA-ingestion at b0583)
+2026-05-11T08:11Z repair-corpus batch-020 IDLE all-48-targets-clean 9th-consecutive-idle-tick (b012/b013/b014/b015/b016/b017/b018/b019/b020) no-repair-work-performed
