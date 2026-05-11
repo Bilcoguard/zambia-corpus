@@ -4286,3 +4286,4 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-11T21:15:10Z	batch-0598	FETCH	https://zambialii.org/akn/zm/act/2025/4/eng@2025-04-15	verdict=drift	id=act-zm-2025-004-cyber-crimes-act
 2026-05-11T21:15:10Z	batch-0598	FETCH	https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Trades%20Licensing%20%20Act%2C%202011.pdf	verdict=match	id=act-zm-2011-018-trades-licensing-repeal-act-2011
 2026-05-11T21:15:10Z	batch-0598	FETCH	https://zambialii.org/akn/zm/act/si/2020/82/eng@2020-10-09/source.pdf	verdict=match	id=si-zm-2020-082-income-tax-double-taxation-relief-taxes-on-income-the-swiss-confederation-order-
+2026-05-11T21:34:36Z	batch-0599	phase=phase_8_nightly_reverify	pool=1895	sample=8	seed=phase8-reverify-2026-05-11-b0599	match=4	drift=4	truncated_prefix=0	fetch_error=0	parser=phase8-reverify-0.1.0	mutation=none-records-readonly-by-design

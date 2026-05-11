@@ -6694,3 +6694,13 @@ test append
 2026-05-11T21:15:10Z	batch-0598	CORPUS_SQLITE_MUTATION	none	verdict=no-records-mutated-phase8-readonly-by-design
 2026-05-11T21:15:10Z	batch-0598	END	verdict=ok
 2026-05-11T21:15:10Z	batch-0598	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
+2026-05-11T21:18:00Z	batch-0598	GIT_COMMIT	e392810	files=5	verdict=ok
+2026-05-11T21:18:00Z	batch-0598	GIT_PUSH	origin/main	cc16892..e392810	verdict=ok
+2026-05-11T21:18:00Z	batch-0598	STOP	written=0	match=6	drift=2	truncated_prefix=0	fetch_error=0	fetches=8	retry_fetches=0	cumulative_today=66/2000	commit=e392810	verdict=tick-complete-no-records-mutated
+2026-05-11T21:34:09Z	batch-0599	START	phase=phase_8_nightly_reverify	parser=phase8-reverify-0.1.0	mode=inline-runner-tmp	verdict=ok
+2026-05-11T21:34:36Z	batch-0599	SAMPLE	pool_size=1895	sample_size=8	seed=phase8-reverify-2026-05-11-b0599	verdict=ok
+2026-05-11T21:34:36Z	batch-0599	FETCH_LOOP	fetches=8	retry_fetches=0	match=4	drift=4	truncated_prefix=0	fetch_error=0	verdict=ok
+2026-05-11T21:34:36Z	batch-0599	INTEGRITY	summary_keys=PASS	sample<=MAX=PASS	counts_sum_eq_sample=PASS	all_ids_resolve=PASS	result_fields=PASS	verdict_enum=PASS	pool_floor_1800=PASS	no_record_mutation=PASS	verdict=PASS
+2026-05-11T21:34:36Z	batch-0599	CORPUS_SQLITE_MUTATION	none	verdict=no-records-mutated-phase8-readonly-by-design
+2026-05-11T21:34:36Z	batch-0599	END	verdict=ok
+2026-05-11T21:34:36Z	batch-0599	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
