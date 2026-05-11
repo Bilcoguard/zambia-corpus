@@ -6739,3 +6739,16 @@ test append
 2026-05-12T00:11:00Z	batch-0598-jiw	INTEGRITY	records=1892	records_fts=1892	judgments_meta=202	check8=PASS	verdict=ok
 2026-05-12T00:11:00Z	batch-0598-jiw	ESCALATION	target=operator	reason=fts5-rebuild-required-b0597-workaround-falsified	consecutive_blocked_ticks=18	verdict=escalated-7th-time
 2026-05-12T00:11:00Z	batch-0598-jiw	END	written=0	deferred=0	verdict=fts5-blocked-tick-complete
+2026-05-11T22:34:03Z	batch-0601	START	worker=worker-tick	phase=phase_8_nightly_reverify	tick=39th-overall-11th-of-day
+2026-05-11T22:34:03Z	batch-0601	SYNC	git-pull	verdict=ok-already-up-to-date
+2026-05-11T22:34:03Z	batch-0601	BUDGET	fetches_today=82/2000	verdict=ok
+2026-05-11T22:34:03Z	batch-0601	SAMPLE	seed=phase8-reverify-2026-05-11-b0601	pool=1895	sample=8	rate=0.01
+2026-05-11T22:34:22Z	batch-0601	REVERIFY	fetches=8	retry_fetches=0	match=3	drift=5	truncated_prefix=0	fetch_error=0	verdict=ok-no-real-drift
+2026-05-11T22:34:22Z	batch-0601	INTEGRITY	json_well_formed=PASS	required_keys=PASS	sample_cap=PASS	verdict_sum=PASS	pool_floor=PASS	ids_resolve=PASS	verdicts_valid=PASS	mutation=none	verdict=ALL-PASS
+2026-05-11T22:34:22Z	batch-0601	NEW_FINDING_1	type=oldest-akn-html-act-drift	id=act-zm-1914-001-authentication-of-documents-act-1914	vintage=1914-with-1996-12-31-RE-pub	displaces=b0600-1967-tobacco-levy
+2026-05-11T22:34:22Z	batch-0601	NEW_FINDING_2	type=first-parliament-node-landing-drift	id=act-zm-2025-012-superior-courts-number-of-judges-act	url=parliament.gov.zm/node/12519	cohort=0/1-to-1/2
+2026-05-11T22:34:22Z	batch-0601	NEW_FINDING_3	type=second-www-zambialii-host-prefix-drift	id=si-zm-2019-082-customs-and-excise	cohort=1/1-to-2/2
+2026-05-11T22:34:22Z	batch-0601	COHORT	stable-pdf-supercohort=150/154	akn-html-act-or-si-drift=116/116	bare-akn-path-si=9/9	parliament-node=1/2	real-drift=0-across-39-ticks
+2026-05-11T22:34:22Z	batch-0601	WRITE	json=reports/batch-0601-reverify.json	md=reports/batch-0601.md	mutation=none-records-readonly-by-design
+2026-05-11T22:34:22Z	batch-0601	B2 sync deferred to host (rclone not in sandbox)
+2026-05-11T22:34:22Z	batch-0601	GIT_COMMIT	target=phase8-batch-0601	verdict=pending

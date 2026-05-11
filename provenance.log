@@ -4296,3 +4296,12 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-11T22:04:33Z	batch-0600	FETCH	https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Veterinary%20and%20Veterinary%20Para-Professions%20Act%2C%202010.PDF	verdict=match	id=act-zm-2010-045-veterinary-and-veterinary-para-professions-2010
 2026-05-11T22:04:39Z	batch-0600	FETCH	https://zambialii.org/akn/zm/act/si/2014/16	verdict=drift	id=si-zm-2014-016-animal-health-livestock-cleansing-order-2014
 2026-05-11T22:04:39Z	batch-0600	phase=phase_8_nightly_reverify	pool=1895	sample=8	seed=phase8-reverify-2026-05-11-b0600	match=4	drift=4	truncated_prefix=0	fetch_error=0	parser=phase8-reverify-0.1.0	mutation=none-records-readonly-by-design
+2026-05-11T22:34:04Z	batch-0601	FETCH	https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2029%20of%202024%20The%20Appropriation%20Act.pdf	verdict=match	id=act-zm-2024-029-appropriation-2024
+2026-05-11T22:34:06Z	batch-0601	FETCH	https://www.zambialii.org/akn/zm/act/si/2019/82/eng@2019-12-13	verdict=drift	id=si-zm-2019-082-customs-and-excise-precious-stones-export-duty-suspension-order-2019
+2026-05-11T22:34:07Z	batch-0601	FETCH	https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Employment%20Amendment%20Act%202017%20Final.pdf	verdict=match	id=act-zm-2017-020-employment-amendment
+2026-05-11T22:34:08Z	batch-0601	FETCH	https://zambialii.org/akn/zm/act/si/2022/63	verdict=drift	id=si-zm-2022-063-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022
+2026-05-11T22:34:14Z	batch-0601	FETCH	https://zambialii.org/akn/zm/act/1914/1/eng@1996-12-31	verdict=drift	id=act-zm-1914-001-authentication-of-documents-act-1914
+2026-05-11T22:34:21Z	batch-0601	FETCH	https://zambialii.org/akn/zm/act/1960/39/eng@1996-12-31	verdict=drift	id=act-zm-1960-039-maintenance-orders-act-1960
+2026-05-11T22:34:21Z	batch-0601	FETCH	https://media.zambialii.org/media/legislation/34592/source_file/c815161503c4ff6f/zm-act-1988-21-publication-document.pdf	verdict=match	id=act-zm-1988-021-supreme-court-and-high-court-number-of-judges-act-1988
+2026-05-11T22:34:22Z	batch-0601	FETCH	https://www.parliament.gov.zm/node/12519	verdict=drift	id=act-zm-2025-012-superior-courtsnumber-of-judgesact
+2026-05-11T22:34:22Z	batch-0601	phase=phase_8_nightly_reverify	pool=1895	sample=8	seed=phase8-reverify-2026-05-11-b0601	match=3	drift=5	truncated_prefix=0	fetch_error=0	parser=phase8-reverify-0.1.0	mutation=none-records-readonly-by-design
