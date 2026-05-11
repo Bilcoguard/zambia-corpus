@@ -4287,3 +4287,12 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-11T21:15:10Z	batch-0598	FETCH	https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Trades%20Licensing%20%20Act%2C%202011.pdf	verdict=match	id=act-zm-2011-018-trades-licensing-repeal-act-2011
 2026-05-11T21:15:10Z	batch-0598	FETCH	https://zambialii.org/akn/zm/act/si/2020/82/eng@2020-10-09/source.pdf	verdict=match	id=si-zm-2020-082-income-tax-double-taxation-relief-taxes-on-income-the-swiss-confederation-order-
 2026-05-11T21:34:36Z	batch-0599	phase=phase_8_nightly_reverify	pool=1895	sample=8	seed=phase8-reverify-2026-05-11-b0599	match=4	drift=4	truncated_prefix=0	fetch_error=0	parser=phase8-reverify-0.1.0	mutation=none-records-readonly-by-design
+2026-05-11T22:04:14Z	batch-0600	FETCH	https://zambialii.org/akn/zm/act/si/2014/50/eng@2014-09-19/source.pdf	verdict=match	id=si-zm-2014-050-income-tax-pay-as-you-earn-regulations-2014
+2026-05-11T22:04:14Z	batch-0600	FETCH	https://www.parliament.gov.zm/sites/default/files/documents/acts/National%20Assembly%20Staff%20Act.pdf	verdict=match	id=act-zm-cap-257-national-assembly-staff-act
+2026-05-11T22:04:19Z	batch-0600	FETCH	https://zambialii.org/akn/zm/act/2019/17/eng@2019-12-27	verdict=drift	id=act-zm-2019-017-supplementary-appropriation-2019-no-2-act
+2026-05-11T22:04:26Z	batch-0600	FETCH	https://zambialii.org/akn/zm/act/1967/65/eng@1996-12-31	verdict=drift	id=act-zm-1967-065-tobacco-levy-act-1967
+2026-05-11T22:04:26Z	batch-0600	FETCH	https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Anti-Terrorism%20Proliferation%20Act%202018.pdf	verdict=match	id=act-zm-2018-008-the-anti-terrorism-and-non-proliferation-act-2018
+2026-05-11T22:04:32Z	batch-0600	FETCH	https://zambialii.org/akn/zm/act/1994/35/eng@1996-12-31	verdict=drift	id=act-zm-1994-035-parliamentary-and-ministerial-code-of-conduct-act
+2026-05-11T22:04:33Z	batch-0600	FETCH	https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Veterinary%20and%20Veterinary%20Para-Professions%20Act%2C%202010.PDF	verdict=match	id=act-zm-2010-045-veterinary-and-veterinary-para-professions-2010
+2026-05-11T22:04:39Z	batch-0600	FETCH	https://zambialii.org/akn/zm/act/si/2014/16	verdict=drift	id=si-zm-2014-016-animal-health-livestock-cleansing-order-2014
+2026-05-11T22:04:39Z	batch-0600	phase=phase_8_nightly_reverify	pool=1895	sample=8	seed=phase8-reverify-2026-05-11-b0600	match=4	drift=4	truncated_prefix=0	fetch_error=0	parser=phase8-reverify-0.1.0	mutation=none-records-readonly-by-design

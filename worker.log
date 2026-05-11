@@ -6704,3 +6704,18 @@ test append
 2026-05-11T21:34:36Z	batch-0599	CORPUS_SQLITE_MUTATION	none	verdict=no-records-mutated-phase8-readonly-by-design
 2026-05-11T21:34:36Z	batch-0599	END	verdict=ok
 2026-05-11T21:34:36Z	batch-0599	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
+2026-05-11T21:36:00Z	batch-0599	GIT_COMMIT	21d10cf	files=5	verdict=ok
+2026-05-11T21:36:00Z	batch-0599	GIT_PUSH	origin/main	e392810..21d10cf	verdict=ok
+2026-05-11T21:36:00Z	batch-0599	STOP	written=0	match=4	drift=4	truncated_prefix=0	fetch_error=0	fetches=8	retry_fetches=0	cumulative_today=74/2000	commit=21d10cf	verdict=tick-complete-no-records-mutated
+2026-05-11T22:04:12Z	batch-0600	START	worker=worker-tick	phase=phase_8_nightly_reverify	seed=phase8-reverify-2026-05-11-b0600	tick_of_day=10	tick_overall=38
+2026-05-11T22:04:12Z	batch-0600	SYNC	git-pull	verdict=ok-already-up-to-date	HEAD=21d10cf
+2026-05-11T22:04:12Z	batch-0600	POOL	size=1895	delta_from_b0599=0	verdict=ok
+2026-05-11T22:04:12Z	batch-0600	SAMPLE	size=8	rate=0.01	cap=8	seed=phase8-reverify-2026-05-11-b0600
+2026-05-11T22:04:39Z	batch-0600	FETCH	fetches=8	retry_fetches=0	verdict=ok-all-200
+2026-05-11T22:04:39Z	batch-0600	RESULTS	match=4	drift=4	truncated_prefix=0	fetch_error=0
+2026-05-11T22:04:39Z	batch-0600	DRIFT_OBSERVATION	NEW_OLDEST_AKN_HTML_act_drift_1967-vintage	id=act-zm-1967-065-tobacco-levy-act-1967	displaces=act-zm-1968-045-rural-councils-beer-surtax-fund-act-1968-b0599
+2026-05-11T22:04:39Z	batch-0600	DRIFT_OBSERVATION	bare-AKN-path-SI-drift-cohort	+1	new_cumulative=8/8	id=si-zm-2014-016-animal-health-livestock-cleansing-order-2014
+2026-05-11T22:04:39Z	batch-0600	DRIFT_OBSERVATION	zambialii-akn-act-html-drift	+3	new_cumulative=113/113	ids=act-zm-2019-017-supplementary-appropriation-2019-no-2-act,act-zm-1967-065-tobacco-levy-act-1967,act-zm-1994-035-parliamentary-and-ministerial-code-of-conduct-act
+2026-05-11T22:04:39Z	batch-0600	INTEGRITY	required_keys=PASS	sample<=MAX=PASS	counts_sum_eq_sample=PASS	all_ids_resolve=PASS	result_fields=PASS	verdict_enum=PASS	pool_floor_1800=PASS	no_record_mutation=PASS	verdict=PASS
+2026-05-11T22:04:39Z	batch-0600	CORPUS_SQLITE_MUTATION	none	verdict=no-records-mutated-phase8-readonly-by-design
+2026-05-11T22:04:39Z	batch-0600	END	verdict=ok
