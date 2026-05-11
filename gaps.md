@@ -6881,3 +6881,69 @@ Repair-batch-023 (latest repair-worker tick at 2026-05-11T18:11:02Z) reports `ID
 
 **Sweep position next tick (b0593):** `judiciary-coa-sweep: page 6` (page 5 fully processed; 0 CoA candidates remaining on page 5).
 
+
+## Batch 0593 (judgment-ingestion-worker, 2026-05-11T18:36Z)
+
+**Sweep position update:** `judiciary-coa-sweep: page 7` (page 6 fully processed; 10 posts total, 1 already in corpus (pilatus-engineering b0591), 9 candidate posts evaluated, 7 fetched+parsed, 2 skipped (nimble-resources URL-variant dedup-hit and fqm-trident known b0591 dedup-collision pending human review).
+
+**Inserted (0):** None this tick — pre-existing FTS5 corruption blocker persists (15th consecutive jiw tick blocked; repair-batch-023 still IDLE at manifest=48/48-clean).
+
+**Deferred — deferred-fts5 (1 parser-clean record):**
+- `judgment-zm-2025-coa-176-bright-jangazya-v-first-national-bank-zambia-limited` (APP/176/2022 with CAZ/08/075/2022 secondary, decided 2025-12-31, **dismissed** for want of merit, panel: **Kondolo SC / Makungu / Banda-Bobo JJA**). Banking-finance dispute; full 3-judge panel; outcome-detail clean.
+
+**Deferred — deferred-fts5 + parser-v0.4-pending (5 parser-dirty records):**
+Pre-existing FTS5 corruption AND parser-noise issues need v0.4.0 fixes before insert:
+
+- `judgment-zm-2025-coa-095-lamasat-international-limited-v-african-banking-corporation-zambia-limited` (APPEAL/095/2024 + CAZ/8/80/2024 + SP/89/2024, decided 2025-12-31, **granted**, **single-judge chambers ruling before Justice Chashi**). Parser issue: judges list polluted by counsel-block; case_name has 'APPLICANT AND'/'RESPONDENT' embedded.
+- `judgment-zm-2025-coa-008-jennifer-tembo-njovu-v-administrator-general` (CAZ/8/331/2024, decided 2025-12-31, outcome **other** — needs operative-paragraph re-detect, **single-judge chambers ruling before Justice Kondolo**). Estate-succession; Administrator-General respondent.
+- `judgment-zm-2025-coa-170-mukamunya-homeowners-association-v-leslie-szeftel` (APP/170/2025, **DATE WRONG (2025-06-30)** — actual date_decided unknown from URL, **allowed**, panel: **Chashi / Ngulube / Banda-Bobo JJA**). Property case; outcome clean; case_name truncated with 'APPELLANT TRUST'.
+- `judgment-zm-2025-coa-009-philemon-dyamini-v-the-people` (CAZ/09/127/2025, decided 2025-12-05, **single-judge chambers ruling Mchenga DJP**, outcome **other** — needs operative-paragraph re-detect). Criminal-law (bail/leave). Parser issue: case_name garbled 'L.L. AND CRIMINAL REGISTRY'.
+- `judgment-zm-2024-coa-071-charles-mpundu-v-food-reserve-agency` (SP/71/2024, **DATE WRONG (2024-09-09 hearing date used)** — actual decision date later, **dismissed**, panel: **Kondolo SC / Majula / Muzenga JJA**). Mesne profits / property; outcome detail clean despite scan-OCR header noise.
+
+**Deferred — quality-gate-fail-scanned-pdf (1):**
+- `judgment-zm-????-coa-309-emergency-response-zambia-limited-v-betternow-finance` (APP/309/2023, panel: Ngulube/Muzenga/Chembe JJA; PDF 3.2 MB / 20 pages but pdfplumber extracted only 19 chars — scanned-image PDF). Requires `ocrmypdf` fallback (not currently available in sandbox).
+
+Total deferred-fts5 backlog awaiting repair-worker FTS5 drop+recreate: 7 (b0590) + 4 (b0591) + 3 (b0592) + 6 (b0593) = **20 records**. Raw PDFs preserved on disk under `raw/judiciary-zm/coa/`. Parsed JSON archived to `raw/judiciary-zm/coa/_deferred/b0593_parsed_records.json` (clean + dirty + scanned-pdf categories).
+
+**v0.4.0 parser improvements flagged (not yet implemented):**
+1. **BETWEEN-block case_name extraction:** must stop at first role keyword (APPLICANT/APPELLANT/RESPONDENT/CLAIMANT/PETITIONER) before any embedded date stamps (Lamasat, Njovu).
+2. **Coram extraction defensive guard:** when `CORAM:` / `BEFORE:` anchor is ABSENT in PDF body, do NOT slurp the `For the Appellant:` / `For the Respondent:` counsel block as Coram (caz-09-127 Dyamini, caz-8-331 Njovu).
+3. **Single-judge CoA chambers ruling pattern:** handle `Mr. Justice X` single-judge panel for chambers rulings (Lamasat, Njovu, Dyamini all chambers before single CoA judge).
+4. **Outcome detection for chambers rulings:** add `I find / I order / we recommend / the application is granted/refused` for single-judge anchor patterns; current OUTCOME_PATTERNS only handle plural-bench dispositive language.
+5. **Date_decided for SP-prefix (Special Procedure):** SP/71/2024 hearing was 09 Sep 2024 but the decision is delivered later — must prefer `DELIVERED ON <date>` or court-date-stamp over the hearing date in body.
+6. **PDF-body OCR noise tolerance:** `c6urt` (court), `ric`/`jic`/`iC OF iRT` OCR-prefix artifacts in chambers-ruling cover pages — pre-strip header artifacts via cover-page detection.
+7. **Scanned-PDF OCR fallback:** add `ocrmypdf` invocation when pdfplumber returns <200 chars and pages>=5 (Emergency Response Zambia 20-page scanned PDF).
+
+**Pre-existing FTS5 corruption (CARRIED FORWARD from b0587/b0590/b0591/b0592) — operator escalation REPEATED:**
+
+This tick I attempted FTS5 rebuild on a `/tmp` isolated copy of `corpus.sqlite`:
+- `INSERT INTO records_fts(records_fts) VALUES('rebuild')` → FAILED (`database disk image is malformed`).
+- `INSERT INTO records_fts(records_fts) VALUES('integrity-check')` → FAILED (`database disk image is malformed`).
+
+Repair-batch-023 (most recent repair-worker tick at 2026-05-11T18:11:02Z) reports manifest=48/48-clean for the 13th consecutive idle tick — the FTS5 rebuild task is NOT in the repair worker's manifest.
+
+**Escalation to operator:** The repair-worker manifest needs the explicit task:
+```
+fts5-rebuild-records-fts:
+  preconditions:
+    - records.count > 0
+    - rebuild_attempt_failed_or_integrity_check_fails
+  action:
+    - BACKUP corpus.sqlite to corpus.sqlite.bak.fts5-rebuild-<ts>
+    - SAVE schema: .schema records_fts -> /tmp/records_fts_schema.sql
+    - DROP TABLE records_fts
+    - CREATE VIRTUAL TABLE records_fts USING fts5(id UNINDEXED, type UNINDEXED, title, citation, case_name, outcome_detail, body, tokenize='porter unicode61')
+    - INSERT INTO records_fts(id, type, title, citation, case_name, outcome_detail, body)
+        SELECT r.id, r.type, r.title, r.citation,
+               (SELECT case_name FROM judgments_meta WHERE judgment_id=r.id) AS case_name,
+               (SELECT outcome_detail FROM judgments_meta WHERE judgment_id=r.id) AS outcome_detail,
+               r.body
+        FROM records r
+    - INSERT INTO records_fts(records_fts) VALUES('integrity-check')
+    - VERIFY records.count == records_fts.count
+```
+
+JIW productivity will remain near-zero until this is unblocked. Backlog now spans 4 ticks across all CoA pages 4-6.
+
+**Sweep position next tick (b0594):** `judiciary-coa-sweep: page 7` (page 6 fully processed).
+

@@ -6615,3 +6615,19 @@ test append
 2026-05-11T18:15:00Z	batch-0592	INSERT	records_written=0	records_deferred_fts5=3	records_deferred_other=0	verdict=fts5-blocked-pre-existing-corruption
 2026-05-11T18:15:00Z	batch-0592	CHECK8	records=1892	records_fts=1892	verdict=PASS-counts-equal-due-to-rollback
 2026-05-11T18:15:00Z	batch-0592	CORPUS_SQLITE_MUTATION	none	verdict=no-records-inserted-fts5-blocked
+2026-05-11T18:25:00Z	batch-0592	GIT_COMMIT	6bddfdf	files=5	verdict=ok-after-stale-lock-rename-workaround
+2026-05-11T18:25:00Z	batch-0592	GIT_PUSH	origin/main	7807e66..6bddfdf	verdict=ok-after-removing-corpus-sqlite-bak-from-staged-files-too-large-for-github-100MB-limit
+2026-05-11T18:25:00Z	batch-0592	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
+2026-05-11T18:25:00Z	batch-0592	STOP	written=0	deferred=3	fts5-backlog=14	commit=6bddfdf	verdict=ok-fts5-blocked
+2026-05-11T19:11:40Z	repair-batch-024	IDLE	manifest=48/48-clean	repaired=0	fetched=0	verdict=idle-13th-consecutive-tick	All 48 repair targets fixed — repair worker idle
+2026-05-11T19:16:43Z	batch-0593-jiw	START	worker=judgment-ingestion-worker	tick=jiw-b0593	priority=b-coa-judiciaryzambia-page-6
+2026-05-11T19:16:43Z	batch-0593-jiw	SYNC	git-pull	verdict=ok-already-up-to-date
+2026-05-11T19:16:43Z	batch-0593-jiw	FTS5_REBUILD_ATTEMPT	target=/tmp/b0593_corpus.sqlite	verb=INSERT_INTO_records_fts_VALUES_rebuild	verdict=FAIL-database-disk-image-is-malformed
+2026-05-11T19:16:43Z	batch-0593-jiw	FTS5_INTEGRITY_CHECK	target=/tmp/b0593_corpus.sqlite	verb=integrity-check	verdict=FAIL-database-disk-image-is-malformed
+2026-05-11T19:16:43Z	batch-0593-jiw	FETCH	listing=page-6	posts_found=10	source_url_dedup_skip=1	known_collision_skip=0	url_variant_dedup_skip=2	to_fetch=7	verdict=ok
+2026-05-11T19:16:43Z	batch-0593-jiw	PARSE	parser=0.3.9-inline	records_parsed=6	scanned_pdf_deferred=1	quality_gate_pass=6	verdict=ok-mixed
+2026-05-11T19:16:43Z	batch-0593-jiw	PARSE_QUALITY	clean=1	dirty_v04_pending=5	scanned_pdf=1	verdict=ok-flagged-for-v04
+2026-05-11T19:16:43Z	batch-0593-jiw	INSERT	records_written=0	records_deferred_fts5=6	records_deferred_scanned=1	verdict=fts5-blocked-pre-existing-corruption
+2026-05-11T19:16:43Z	batch-0593-jiw	CHECK8	records=1892	records_fts=1892	verdict=PASS-counts-equal-no-mutation-this-tick
+2026-05-11T19:16:43Z	batch-0593-jiw	CORPUS_SQLITE_MUTATION	none	verdict=no-records-inserted-fts5-blocked
+2026-05-11T19:16:43Z	batch-0593-jiw	END	verdict=ok-partial-fts5-blocked-backlog-20
