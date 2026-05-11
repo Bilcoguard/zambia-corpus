@@ -6652,3 +6652,5 @@ test append
 2026-05-11T20:17Z	batch-0594-jiw	GIT_PUSH	origin/main	0fb875f..c48af8d	verdict=ok
 2026-05-11T20:17Z	batch-0594-jiw	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
 2026-05-11T20:17Z	batch-0594-jiw	STOP	written=0	deferred=8	fts5-backlog=24	scanned-pdf-backlog=5	commit=c48af8d	verdict=ok-fts5-blocked-16th-consecutive-tick
+2026-05-11T17:25:30Z worker-tick batch-0592 RENUMBER from b0591 due to jiw collision (b0591-jiw commit e505981 at 2026-05-11T17:23:26Z); seed phase8-reverify-2026-05-11-b0591 preserved; b0585 precedent (b0583->b0585)
+2026-05-11T20:55:00Z worker-tick batch-0595 RENUMBER from b0591 due to mass jiw collision (b0591-jiw e505981 17:23Z; b0592-jiw 6bddfdf; b0593+repair b85bb74; b0594-jiw c48af8d 20:17Z); seed phase8-reverify-2026-05-11-b0591 preserved; b0585 precedent extended by one step
