@@ -1,0 +1,42 @@
+{
+  "id": "judgment-zm-2020-zmsc-130-muzyamba-v-sinabbomba-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Muzyamba v Sinabbomba and Ors (Appeal 11 of 2019) [2020] ZMSC 130 (4 September 2020)",
+  "citation": "[2020] ZMSC 130",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Muzyamba v Sinabbomba and Ors",
+  "case_number": "Appeal 11 of 2019",
+  "date_decided": "2020-09-04",
+  "judges": [
+    {
+      "name": "Mutuna",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Limitation Act (1939)",
+    "ss.19(1) & 20",
+    "exclusion of limitation where beneficiary alleges fraud or fraudulent breach of trust; constructive trust where administrator acquires title; administrators' fiduciary duties and prohibition on selling estate property without court authority (Intestate Succession Act); bona fide purchaser for value without notice defence; dismissal for being statute‑barred reversed and matter remitted for trial."
+  ],
+  "outcome": "remitted",
+  "outcome_detail": "Section 19(1) excludes limitation where beneficiaries allege trustee fraud; appellant’s claim held not statute‑barred and remitted for trial",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "96b96ee8263eca52dd521866f316059a3c088c755fe53a060885fe9c15726e4b",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2020/130/eng@2020-09-04",
+  "source_hash": "sha256:c2554c4731433e6912ba25213595247bda1d6aab8014f90a81e959033e1e9dfd",
+  "fetched_at": "2026-05-10T20:21:38Z",
+  "parser_version": "0.3.2"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2020-zmsc-120-susan-mwale-harman-v-bank-of-zambia",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Susan Mwale Harman v Bank of Zambia (Appeal 191 of 2015) [2020] ZMSC 120 (4 December 2020)",
+  "citation": "[2020] ZMSC 120",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Susan Mwale Harman v Bank of Zambia",
+  "case_number": "Appeal 191 of 2015",
+  "date_decided": "2020-12-04",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mambilima",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Civil procedure",
+    "dismissal for want of prosecution via “unless order”",
+    "service of hearing notices on advocates on record",
+    "change of advocate and notice requirements",
+    "review on fresh evidence (Order 37/34 principles)",
+    "appellate restraint on findings of fact",
+    "defective record of appeal and discretionary non-dismissal."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "30 We find no merit in ground five of the appeal and we dismiss it accordingly",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "89499ba44d0178b687535813b5161d676aed9a79c6948785cfcc51648245343a",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2020/120/eng@2020-12-04",
+  "source_hash": "sha256:00252659183ec1304a18fffd90e3bfeef3b4580a64c305bc84cc78b2563d4f57",
+  "fetched_at": "2026-05-10T20:21:37Z",
+  "parser_version": "0.3.2"
+}

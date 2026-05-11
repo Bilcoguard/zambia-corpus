@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2020-zmsc-150-mulenga-v-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mulenga v People (Appeal 47 of 2019) [2020] ZMSC 150 (19 August 2020)",
+  "citation": "[2020] ZMSC 150",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Mulenga v People",
+  "case_number": "Appeal 47 of 2019",
+  "date_decided": "2020-08-19",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Muyovwe",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Criminal law",
+    "evidence",
+    "witness with interest and corroboration",
+    "identification evidence",
+    "admissibility of victim’s statements as res gestae",
+    "sufficiency of direct evidence versus circumstantial inference."
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "premises, the appeal is dismissed for lack of merit",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "67efda64161ff23c34c7473782723a890e0f923d97041138652cd8672b09993f",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2020/150/eng@2020-08-19",
+  "source_hash": "sha256:4ff796f62fbfa58ec6cd803b25800c392cc593323478206878680ecb5232aebf",
+  "fetched_at": "2026-05-10T20:21:38Z",
+  "parser_version": "0.3.2"
+}

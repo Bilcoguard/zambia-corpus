@@ -6425,3 +6425,6 @@ test append
   Pre-existing repo-layout finding (5 divergent-content duplicate-ID Acts) reaffirmed — none of b0581 sample IDs are involved.
   scripts/batch_0581_phase8_reverify.py NOT committed (sandbox-session safety constraint).
 2026-05-10T20:35:07Z worker-tick batch-0581 STOP next tick in 30 minutes
+2026-05-10T20:38Z worker-tick batch-0581 push OK (d262187..592e75f); B2 sync deferred (rclone not available in sandbox)
+2026-05-10T21:10Z	4a515f6	batch-0582 push OK (592e75f..4a515f6)
+2026-05-10T21:10Z	batch-0582	B2 sync deferred to host (rclone not in sandbox)
