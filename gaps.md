@@ -6826,3 +6826,32 @@ Raw PDFs + post HTML on disk under `raw/judiciary-zm/coa/`. Reparse not necessar
 ### Pre-existing FTS5 corruption (CARRIED FORWARD from b0587)
 
 `PRAGMA integrity_check` continues to fail with `database disk image is malformed`. JIW yield is severely degraded — 7 of 8 inserts blocked this tick. **Repair-worker is the only remedy:** drop `records_fts`, recreate from schema (FTS5 virtual table contentless or with contentful columns matching `records_fts(id,type,title,citation,case_name,outcome_detail,body)`), and reindex from `records.body`/`records.title`. After rebuild, JIW can reparse-deferred from `tmp/b0590_parsed.json` (or just re-discover from `raw/judiciary-zm/coa/` and re-run parser v0.3.7+).
+
+## Batch 0591 (judgment-ingestion-worker, 2026-05-11T17:18Z)
+
+**Sweep position update:** `judiciary-coa-sweep: page 5` (page 4 + 2 overflow posts + 6 page 5 candidates processed; 8 CoA-pattern candidates processed; 3 written, 5 deferred)
+
+**Inserted (3):**
+- `judgment-zm-2025-coa-038-mweene-mwiinga-v-the-attorney-general-4-others` (APP/038/2025, 2025-11-05, set-aside)
+- `judgment-zm-2025-coa-108-pilatus-engineering-company-limitedjoseph-huiler-v-alfred-kalwani` (APPLICATION/108/2024, 2025-12-04, dismissed)
+- `judgment-zm-2025-coa-105-nimble-resources-limited-v-alex-katamfya` (APP/105/2023, 2025-12-05, allowed)
+
+**Deferred — dedupe-case-number-collision (1):**
+- `judgment-zm-2025-coa-091-fqm-trident-limited-v-mukuka-mumba` (APP/091/2024) — collides with pre-existing `judgment-zm-2022-coa-091-douglas-aaron-simukonda-v-the-people` (parser-drift artifact: that record has case_number "APP/091/2024" but date_decided 2022-12-02 and a different post URL `app-91-2024-douglas-aaron-simukonda-vs-the-people`). Both cases are real but the case_number field is non-unique across the source. **Human review required** — likely needs the older record's case_number normalised (or a `case_number_unique = case_number + '/' + court_division` augmentation). Raw saved to `raw/judiciary-zm/coa/app-91-2024-fqm-trident-limited-vs-mukuka-mumba-coram-kondolo-sc-banda-bobo-muzenga-jja-2.pdf`.
+
+**Deferred — deferred-fts5 (4):**
+Pre-existing FTS5 corruption (records_fts_data pages 14599 + 28316–28340, predates b0587) blocks records_fts inserts. CHECK8 rolls back transaction.
+- `judgment-zm-2024-coa-083-felix-nkululumbwe-v-charles-musonda-17-others-attorney-general` (APP/083/2021, 2024-12-24, dismissed)
+- `judgment-zm-2026-coa-109-jervis-zimba-v-sankana-general-dealers` (APP/109/2023, 2026-01-27, dismissed)
+- `judgment-zm-2026-coa-128-robert-mwanza-v-mtn-zambialimited` (APP/128/2023, 2026-01-27, allowed)
+- `judgment-zm-2026-coa-206-mutale-chanda-v-ian-musweu` (APP/206/2024, 2026-01-13, dismissed)
+
+Total deferred-fts5 backlog awaiting repair-worker FTS5 drop+recreate: 7 (from b0590) + 4 (this tick) = **11 records**. Raw PDFs preserved on disk; parser JSON retained in `/tmp/b0591/parsed_records.json` (also embedded in batch report).
+
+**v0.3.8-inline parser improvements over v0.3.7:**
+- PDF-body Coram parsing (replaces fragile URL-slug judge extraction)
+- PDF-body date extraction with "On <date1> and <date2>" -> use 2nd date as decision date; handles ordinal/typo suffixes including `5l h`, `51h`, `t`/`'` artifacts
+- Date stamp fallback: "DD MON YYYY" in PDF head (1500 char window) for stamped judgments
+- Outcome patterns extended: `appeal is consequently dismissed`, `grounds of appeal lack merit and are dismissed`, `application to stay execution fails`, `find no merit in this application/appeal`, `partially succeeds`
+
+**Sweep position next tick (b0592):** `judiciary-coa-sweep: page 5 remaining` (3 unprocessed CoA candidates from page 5: appeal-210-clifford-simfukwe, appeal-291-bank-of-zambia-v-bernard-fundi, appeal-304-julian-sichalwe; OR advance to page 6 if all consumed).

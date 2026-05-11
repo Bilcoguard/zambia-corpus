@@ -1,0 +1,50 @@
+{
+  "id": "judgment-zm-2025-coa-038-mweene-mwiinga-v-the-attorney-general-4-others",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mweene Mwiinga v The Attorney General 4 Others (APP/038/2025) [2025] ZMCA (2025-11-05)",
+  "citation": "[2025] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Mweene Mwiinga v The Attorney General 4 Others",
+  "case_number": "APP/038/2025",
+  "date_decided": "2025-11-05",
+  "judges": [
+    {
+      "name": "Makungu",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Muzenga",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Chembe",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "banking",
+    "civil-appeal",
+    "damages",
+    "evidence",
+    "mining",
+    "procedure",
+    "property"
+  ],
+  "outcome": "set-aside",
+  "outcome_detail": "is hereby set aside",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "3cc0e9f5dfb26d33be37641456de3c7960674e9ecb37fb8c22166ed744ff11ab",
+  "source_url": "https://judiciaryzambia.com/app-38-2025-mweene-mwiinga-vs-the-attorney-general-4-others-05-nov-2025-coram-makungu-muzenga-chembe-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/02/App-38-2025-Mweene-Mwiinga-vs-The-Attorney-General-4-Others-05-Nov-2025-Coram-Makungu-Muzenga-Chembe-JJA.pdf",
+  "source_hash": "sha256:3cc0e9f5dfb26d33be37641456de3c7960674e9ecb37fb8c22166ed744ff11ab",
+  "fetched_at": "2026-05-11T17:18:47Z",
+  "parser_version": "0.3.8-inline",
+  "raw_path": "raw/judiciary-zm/coa/app-38-2025-mweene-mwiinga-vs-the-attorney-general-4-others-05-nov-2025-coram-makungu-muzenga-chembe-jja.pdf",
+  "body_length": 15568,
+  "judges_count": 3
+}

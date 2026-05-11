@@ -6582,3 +6582,22 @@ test append
 2026-05-11T10:18:00Z [batch-0590-jiw] BACKUP corpus.sqlite.bak.b0590-pre-20260511T101817Z (116375552 bytes)
 2026-05-11T10:18:00Z [batch-0590-jiw] END verdict=ok-but-fts5-blocked
 [2026-05-11T17:09:13Z] All 48 repair targets fixed — repair worker idle (batch 022; 11th consecutive idle tick)
+[2026-05-11T17:09:13Z] repair-batch-022 GIT_PUSH origin/main ec0371a..866f88c verdict=ok
+[2026-05-11T17:09:13Z] repair-batch-022 STOP repaired=0 fetched=0 idle=11 commit=866f88c verdict=tick-complete-no-records-mutated
+2026-05-11T17:09:30Z worker-tick batch-0591 START phase_8_nightly_reverify pool=1892 sample_size=8 seed=phase8-reverify-2026-05-11-b0591
+2026-05-11T17:09:30Z worker-tick batch-0591 PKI loader loaded scripts/certs/rapidssl_tls_rsa_ca_g1.pem (b0586 standing rec #4 confirmed FIFTH consecutive tick)
+2026-05-11T17:09:30Z worker-tick batch-0591 SAMPLE_RESULTS match=6 drift=2 truncated_prefix=0 fetch_error=0 fetches=8 retry_fetches=0
+2026-05-11T17:09:30Z worker-tick batch-0591 NEW_OBSERVATIONS new-oldest-Act-yet-sampled act-zm-1929-016-dairies-and-dairy-produce-1929-displaces-1933-arbitration-act (Phase-8 series); FIRST cap-N-ID-form record sampled act-zm-cap-184-lands-act real-match parliament-acts; SECOND /eng@<enacted-date> non-1996-consolidation AKN-HTML drift act-zm-2007-009 (after b0588 act-zm-1998-011 — cohort 1/1 -> 2/2)
+2026-05-11T17:09:30Z worker-tick batch-0591 INTEGRITY_CHECK json_parseable=PASS keys_present=PASS sample<=MAX_BATCH=PASS sum_eq_sample=PASS ids_resolve=PASS no_record_mutation=PASS verdict_enum=PASS pool>=1800=PASS overall=PASS
+2026-05-11T17:11:27Z	batch-0591	B2 sync deferred to host (rclone not in sandbox)
+2026-05-11T17:18:00Z	[batch-0591-jiw] BEGIN sweep CoA page 4 overflow + page 5 partial
+2026-05-11T17:18:00Z	[batch-0591-jiw] FETCH listing page4+page5 + 8 post HTMLs + 8 PDFs (24 fetches)
+2026-05-11T17:18:00Z	[batch-0591-jiw] PARSE v0.3.8-inline: 8/8 PDFs parsed successfully (PDF-body Coram + "On <d1> and <d2>" date)
+2026-05-11T17:18:00Z	[batch-0591-jiw] DEDUPE: 7/8 new; 1 case-number collision (APP/091/2024 -> pre-existing parser-drift record)
+2026-05-11T17:18:00Z	[batch-0591-jiw] INSERT: 3 succeeded; 4 failed records_fts (pre-existing FTS5 corruption b0587)
+2026-05-11T17:18:00Z	[batch-0591-jiw] CHECKS: CHECK1..CHECK8 all PASS for inserted records (1892 records == 1892 records_fts)
+2026-05-11T17:18:00Z	[batch-0591-jiw] WRITE judges_registry.yaml: no new (all judges pre-existing — Makungu/Muzenga/Chembe/Chashi/Ngulube/Banda-Bobo/Kondolo SC/Majula JJA already canonical)
+2026-05-11T17:18:00Z	[batch-0591-jiw] WRITE gaps.md: +4 deferred-fts5 + 1 dedupe-collision; sweep position -> page 5 remaining
+2026-05-11T17:18:00Z	[batch-0591-jiw] WRITE reports/batch-0591-jiw.md
+2026-05-11T17:18:00Z	[batch-0591-jiw] BACKUP corpus.sqlite.bak.b0591-pre-20260511T171614Z (116457472 bytes)
+2026-05-11T17:18:00Z	[batch-0591-jiw] END verdict=ok-partial-fts5-blocked

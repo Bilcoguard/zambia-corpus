@@ -1,0 +1,51 @@
+{
+  "id": "judgment-zm-2025-coa-108-pilatus-engineering-company-limitedjoseph-huiler-v-alfred-kalwani",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Pilatus Engineering Company Limitedjoseph Huiler v Alfred Kalwani (APPLICATION/108/2024) [2025] ZMCA (2025-12-04)",
+  "citation": "[2025] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Pilatus Engineering Company Limitedjoseph Huiler v Alfred Kalwani",
+  "case_number": "APPLICATION/108/2024",
+  "date_decided": "2025-12-04",
+  "judges": [
+    {
+      "name": "Chashi",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Ngulube",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Banda-Bobo",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "banking",
+    "civil-appeal",
+    "company-law",
+    "contract",
+    "employment",
+    "evidence",
+    "procedure",
+    "property"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "application to stay execution fails",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "7054e0b522f42d41644e6cd21ad6f2adcf681f9b282a3e29f02f3bb5002328a6",
+  "source_url": "https://judiciaryzambia.com/application-108-2024-pilatus-engineering-company-limitedjoseph-huiler-vs-alfred-kalwani-coram-justice-chashi-ngulube-banda-bobo-jja-2/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/02/Application-108-2024-Pilatus-Engineering-Company-LimitedJoseph-Huiler-vs-Alfred-Kalwani-Coram-Justice-Chashi-Ngulube-Banda-Bobo-JJA.pdf",
+  "source_hash": "sha256:7054e0b522f42d41644e6cd21ad6f2adcf681f9b282a3e29f02f3bb5002328a6",
+  "fetched_at": "2026-05-11T17:18:47Z",
+  "parser_version": "0.3.8-inline",
+  "raw_path": "raw/judiciary-zm/coa/application-108-2024-pilatus-engineering-company-limitedjoseph-huiler-vs-alfred-kalwani-coram-justice-chashi-ngulube-banda-bobo-jja-2.pdf",
+  "body_length": 33021,
+  "judges_count": 3
+}

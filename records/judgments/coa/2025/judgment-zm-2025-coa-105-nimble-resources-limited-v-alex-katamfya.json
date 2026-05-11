@@ -1,0 +1,53 @@
+{
+  "id": "judgment-zm-2025-coa-105-nimble-resources-limited-v-alex-katamfya",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Nimble Resources Limited v Alex Katamfya (APP/105/2023) [2025] ZMCA (2025-12-05)",
+  "citation": "[2025] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Nimble Resources Limited v Alex Katamfya",
+  "case_number": "APP/105/2023",
+  "date_decided": "2025-12-05",
+  "judges": [
+    {
+      "name": "Kondolo SC",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Majula",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Muzenga",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "banking",
+    "civil-appeal",
+    "company-law",
+    "contract",
+    "damages",
+    "employment",
+    "evidence",
+    "mining",
+    "procedure",
+    "property"
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "We allow",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "3fe1bd2765c88f063bb3c11e78a8da257eb37c874a00330638cf7a384fb1f33c",
+  "source_url": "https://judiciaryzambia.com/app-105-2023-nimble-resources-limited-vs-alex-katamfya-2025-coram-kondolo-sc-majula-muzenga-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/02/App-105-2023-Nimble-Resources-Limited-vs-Alex-Katamfya-05-Dec-2025-Coram-Kondolo-Sc-Majula-Muzenga-JJA.pdf",
+  "source_hash": "sha256:3fe1bd2765c88f063bb3c11e78a8da257eb37c874a00330638cf7a384fb1f33c",
+  "fetched_at": "2026-05-11T17:18:47Z",
+  "parser_version": "0.3.8-inline",
+  "raw_path": "raw/judiciary-zm/coa/app-105-2023-nimble-resources-limited-vs-alex-katamfya-2025-coram-kondolo-sc-majula-muzenga-jja.pdf",
+  "body_length": 35203,
+  "judges_count": 3
+}
