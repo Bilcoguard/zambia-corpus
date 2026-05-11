@@ -4,7 +4,7 @@
 **Worker:** repair-corpus (automated tick, scheduled-task SKILL v3 manifest, 48 records)
 **Operator:** automated (Claude scheduled task; session `lucid-intelligent-heisenberg`)
 **Status:** **IDLE — all 48 repair targets verified clean (8th consecutive idle tick: b012/b013/b014/b015/b016/b017/b018/b019)**
-**Headline:** Repair worker re-verified the v3 manifest. All 48 records still pass the v3 corruption test (>50% line-numbers-only with >10 lines). records / records_fts integrity remains closed (delta=0). Pool now 1861 (was 1859 at b018; +2 since b018, attributable to judgment-ingestion-worker activity between b018 and b019). Note: main worker logs report `pool=1865` at b0569/b0570 — this metric appears to count more than just `records` table rows; the repair worker uses `SELECT COUNT(*) FROM records` which returned 1861 this tick. No work performed.
+**Headline:** Repair worker re-verified the v3 manifest. All 48 records still pass the v3 corruption test (>50% line-numbers-only with >10 lines). records / records_fts integrity remains closed (delta=0). Pool now 1862 (was 1859 at b018; +3 since b018, attributable to judgment-ingestion-worker activity between b018 and b019, including b0573 ZMCC 2017 Malembeka v AG ingestion). Note: main worker logs report `pool=1865` at b0569/b0570 — this metric appears to count more than just `records` table rows; the repair worker uses `SELECT COUNT(*) FROM records` which returned 1861 at first read (16:14Z) and 1862 at re-read (18:40Z, after b0573 ingestion). No repair work performed.
 
 ## Pre-flight
 
@@ -46,12 +46,12 @@ No corrupted records to process. Step 3 (download / extract / OCR / quality-gate
 ## Step 4 — Integrity check
 
 ```
-records      = 1861
-records_fts  = 1861
+records      = 1862  (re-read at 18:40Z post b0573 ingestion; was 1861 at 16:14Z first read)
+records_fts  = 1862
 delta        = 0
 ```
 
-Type breakdown: act=1151, judgment=171, si=539. Integrity preserved. Pool grew by +2 since b018 (1859 → 1861) — attributable to judgment-ingestion-worker activity between b018 (06:12Z) and b019 (16:14Z). The v3 manifest targets are unaffected (judgment-ingestion writes new judgment records — never updates existing Act/SI bodies in the v3 manifest).
+Type breakdown at first read (16:14Z): act=1151, judgment=171, si=539 (total 1861). Re-read at 18:40Z showed records=1862 owing to judgment-ingestion-worker b0573 ZMCC 2017 Malembeka v AG ingestion. Integrity preserved at both reads. Pool grew by +3 since b018 (1859 → 1862) — attributable to judgment-ingestion-worker activity between b018 (06:12Z) and tick close (b0571 reparse, b0573 +1 ZMCC 2017, b0574 +0 close). The v3 manifest targets are unaffected (judgment-ingestion writes new judgment records — never updates existing Act/SI bodies in the v3 manifest).
 
 ## Step 5 — B2 sync
 
@@ -66,11 +66,11 @@ Type breakdown: act=1151, judgment=171, si=539. Integrity preserved. Pool grew b
 
 ## Step 7 — Stop
 
-Tick complete. Idle, no DB writes, integrity preserved at `records = records_fts = 1861`. Next tick runs on schedule.
+Tick complete. Idle, no DB writes, integrity preserved at `records = records_fts = 1862` (post b0573). Next tick runs on schedule.
 
 ## Notes for next tick
 
-* Pool grew +2 from b018 to b019 owing to judgment-ingestion-worker activity. v3 manifest targets are unaffected.
+* Pool grew +3 from b018 to b019 owing to judgment-ingestion-worker activity (b0571 reparse, b0573 +1 ZMCC 2017 Malembeka v AG, b0574 +0 close). v3 manifest targets are unaffected.
 * Manifest stability: b012 → b019 (eight consecutive idle ticks) confirms the v3 manifest's 48 targets remain repaired under the v3 corruption test. No regression observed.
 * No new repair targets have been added to the manifest. Operator should consider whether the repair worker's job is complete and the schedule can be reduced or paused, given eight consecutive idle ticks against an unchanged manifest.
 * Pool/records discrepancy: main worker reports `pool=1865` at b0569/b0570 while `SELECT COUNT(*) FROM records` returns 1861 — non-blocking for repair worker function, but flagged for operator awareness.
