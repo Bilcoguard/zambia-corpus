@@ -6669,3 +6669,10 @@ test append
 2026-05-11T20:56:41Z	batch-0596	INTEGRITY	required_keys=PASS	sample<=MAX=PASS	counts_sum_eq_sample=PASS	all_ids_resolve=PASS	result_fields=PASS	verdict_enum=PASS	pool_floor_1800=PASS	no_record_mutation=PASS	verdict=PASS
 2026-05-11T20:56:41Z	batch-0596	CORPUS_SQLITE_MUTATION	none	verdict=no-records-mutated-phase8-readonly-by-design
 2026-05-11T20:56:41Z	batch-0596	END	verdict=ok
+2026-05-11T20:57:00Z	batch-0596	GIT_COMMIT	0165d90	files=5	verdict=ok
+2026-05-11T20:57:00Z	batch-0596	GIT_PUSH	origin/main	48f727e..0165d90	verdict=ok
+2026-05-11T20:57:00Z	batch-0596	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=deferred
+2026-05-11T20:57:00Z	batch-0596	STOP	written=0	match=5	drift=3	truncated_prefix=0	fetch_error=0	fetches=8	retry_fetches=0	cumulative_today=58/2000	commit=0165d90	verdict=tick-complete-no-records-mutated
+
+[2026-05-11T21:11:37Z] [repair-worker] All 48 repair targets fixed — repair worker idle
+[2026-05-11T21:12:15Z] [repair-worker] B2 sync deferred to host (rclone not available; no body mutations this tick)
