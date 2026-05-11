@@ -6581,3 +6581,4 @@ test append
 2026-05-11T10:18:00Z [batch-0590-jiw] WRITE reports/batch-0590-jiw.md (84 lines)
 2026-05-11T10:18:00Z [batch-0590-jiw] BACKUP corpus.sqlite.bak.b0590-pre-20260511T101817Z (116375552 bytes)
 2026-05-11T10:18:00Z [batch-0590-jiw] END verdict=ok-but-fts5-blocked
+[2026-05-11T17:09:13Z] All 48 repair targets fixed — repair worker idle (batch 022; 11th consecutive idle tick)
