@@ -1,0 +1,51 @@
+{
+  "id": "judgment-zm-2026-coa-210-clifford-simfukwe-v-zesco",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Clifford Simfukwe v Zesco (APP/210/2023) [2026] ZMCA (2026-01-29)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Clifford Simfukwe v Zesco",
+  "case_number": "APP/210/2023",
+  "date_decided": "2026-01-29",
+  "judges": [
+    {
+      "name": "Kondolo SC",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Makungu",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Chembe",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "employment",
+    "civil-appeal",
+    "contract",
+    "electricity",
+    "criminal",
+    "evidence"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "appeal is dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "23bfc9c23f08d1e701a14b6637cec5636730780d57d2d6b415477b2c26167a80",
+  "source_url": "https://judiciaryzambia.com/appeal-210-2023-clifford-simfukwe-vs-zesco-29-jan-2026-coram-justice-kondolo-sc-makungu-chembe-jja/",
+  "source_hash": "sha256:23bfc9c23f08d1e701a14b6637cec5636730780d57d2d6b415477b2c26167a80",
+  "fetched_at": "2026-05-12T09:09:47Z",
+  "parser_version": "0.4.2-inline-b0610",
+  "raw_path": "raw/judiciary-zm/coa/appeal-210-2023-clifford-simfukwe-vs-zesco-29-jan-2026-coram-justice-kondolo-sc-makungu-chembe-jja.pdf",
+  "body_length": 17944,
+  "judges_count": 3,
+  "ingestion_batch": "b0610",
+  "ingestion_note": "Re-flushed from b0592 deferred-fts5 archive after host-side FTS5 rebuild; body re-extracted via pdfplumber 0.11.9; tags constrained via parser v0.4.2.",
+  "on_disk_path": "records/judgments/coa/2026/judgment-zm-2026-coa-210-clifford-simfukwe-v-zesco.json"
+}

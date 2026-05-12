@@ -1,0 +1,51 @@
+{
+  "id": "judgment-zm-2026-coa-304-julian-sichalwe-v-saturina-regna-pension-trust-limited-lumwana-mining-company-li",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Julian Sichalwe v Saturina Regna Pension Trust Limited Lumwana Mining Company Limited (APP/304/2024) [2026] ZMCA (2026-01-27)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Julian Sichalwe v Saturina Regna Pension Trust Limited Lumwana Mining Company Limited",
+  "case_number": "APP/304/2024",
+  "date_decided": "2026-01-27",
+  "judges": [
+    {
+      "name": "Siavwapa",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Chishimba",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Patel",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "pension",
+    "constitutional",
+    "employment",
+    "civil-appeal",
+    "contract",
+    "evidence"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "appeal is dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "4699f8301e45e1a08baa5915ee3ec923f2b7e524d1f67833bae9edef80a9178b",
+  "source_url": "https://judiciaryzambia.com/appeal-304-2024-julian-sichalwe-vs-saturina-regna-pension-trust-limited-lumwana-mining-company-limited-27-jan-2026-coram-justice-siavwapa-jp-chishimba-patel-jja/",
+  "source_hash": "sha256:4699f8301e45e1a08baa5915ee3ec923f2b7e524d1f67833bae9edef80a9178b",
+  "fetched_at": "2026-05-12T09:09:47Z",
+  "parser_version": "0.4.2-inline-b0610",
+  "raw_path": "raw/judiciary-zm/coa/appeal-304-2024-julian-sichalwe-vs-saturina-regna-pension-trust-limited-lumwana-mining-company-limited-27-jan-2026-coram-justice-siavwapa-jp-chishimba-patel-jja.pdf",
+  "body_length": 24496,
+  "judges_count": 3,
+  "ingestion_batch": "b0610",
+  "ingestion_note": "Re-flushed from b0592 deferred-fts5 archive after host-side FTS5 rebuild; body re-extracted via pdfplumber 0.11.9; tags constrained via parser v0.4.2.",
+  "on_disk_path": "records/judgments/coa/2026/judgment-zm-2026-coa-304-julian-sichalwe-v-saturina-regna-pension-trust-limited-lumwana-mining-company-li.json"
+}
