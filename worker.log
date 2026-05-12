@@ -6915,3 +6915,4 @@ test append
 2026-05-12T08:14:57Z	batch-0609	GIT_COMMIT	commit=1d1188e	files=9	verdict=ok-jiw-first-flush-post-rebuild
 2026-05-12T08:14:57Z	batch-0609	GIT_PUSH	target=origin/main	verdict=ok-50515f8..1d1188e
 2026-05-12T08:14:57Z	batch-0609	STOP	verdict=tick-complete-priority-a-flush	new_records=4	deferred_fts5_backlog=22	next-tick=t+60min	next-tick-priority=continue-flushing-archived-deferred-then-page-8-sweep
+2026-05-12T08:19:39Z repair-corpus b030 NON-IDLE 8 records repaired (2000-2010 parliament Acts via OCR) — records=1896 fts=1896 delta=0 quick_check=ok manifest_remaining=72/88

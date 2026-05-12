@@ -7540,3 +7540,11 @@ Remaining:
 2. Take `corpus.sqlite.bak.b0610-pre-flush-...` backup.
 3. Flush remaining archived-deferred (b0592 3, b0593 1 clean, b0597 2 after resolving `date_decided=null`).
 4. If time allows, advance to page-8 sweep.
+
+## b030 (2026-05-12T08:19:39Z)
+
+No quality-gate failures this tick. All 8 manifest items passed (len > 200,
+no digit-line corruption, legal markers present).
+
+Remaining manifest backlog: 72/88 items still need repair (see
+reports/repair-batch-030.md §8 for breakdown).
