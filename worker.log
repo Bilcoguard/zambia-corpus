@@ -6878,3 +6878,7 @@ test append
 2026-05-12T07:46:46Z	repair-worker	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
 2026-05-12T07:46:46Z	repair-worker	STOP	tick=batch-029	fixed=8	failed=0	remaining-manifest=80	duration_sec=24.8
 2026-05-12T05:11:09Z	batch-0604	REPORT_ONLY_COMMIT	NOTE	costs.log/provenance.log/worker.log entries for b0604 were already committed by jiw b0605 (commit 6800396 at 2026-05-12T07:19:12+02:00) as the phantom-worker's uncommitted appends were swallowed into b0605-jiw's diff. The report files (reports/batch-0604.md and reports/batch-0604-reverify.json) were never committed by the phantom worker. This commit lands only those two missing report files. RNG seed preserved as phase8-reverify-2026-05-12-b0603 per b0585/b0591/b0595/b0598 precedent.	verdict=missing-reports-committed
+2026-05-12T05:50:00Z	batch-0604	GIT_COMMIT	commit=39a4af4	files=6	verdict=ok-includes-repair-batch-029-md-untracked-by-prior-worker
+2026-05-12T05:50:00Z	batch-0604	GIT_PUSH	target=origin/main	verdict=ok-32d9c6a..39a4af4
+2026-05-12T05:50:00Z	batch-0604	END	verdict=ok	phase=phase_8_nightly_reverify	complete_flag=unchanged-remains-false-phase-is-open-ended-nightly-no-completion-criterion
+2026-05-12T05:50:00Z	batch-0604	STOP	verdict=tick-complete-phase8-reverify-no-mutation	next-tick=t+30min
