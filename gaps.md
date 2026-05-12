@@ -7657,3 +7657,11 @@ Remaining:
 3. Option A (drain-first): Clean 5 b0593 v0.4-pending dirty records' case_name/judges, then insert.
 4. Option B (sweep-first): Advance to page-8 CoA sweep (6 candidates).
 5. Decision rule: prefer A if single regex fix covers all 5; prefer B if per-record cleanup needed.
+
+## b031 — 2026-05-12T11:14Z
+- 8 manifest acts repaired (2010-007, 2010-008, 2010-009, 2010-010, 2010-011, 2010-020, 2010-021, 2010-023).
+- Manifest remaining: 64 / 88 (at time of repair).
+- Live DB Condition B (no body, acts/SI) at tick start: 246 → 245 (one repair was B, the rest were C).
+- Live DB Condition C (stub <200) at tick start: 58 → 51.
+- No new gaps introduced. No fabrication. Quality gate passed for all 8 (≥2 legal markers, no digit-line corruption, ≥200 chars).
+- Mitigation: cleared a 66 KB stale corpus.sqlite-journal at tick start (truncate-to-zero + PRAGMA journal_mode=TRUNCATE), per b0610 finding.

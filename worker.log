@@ -6988,3 +6988,4 @@ test append
 2026-05-12T11:15:30Z	b0612	GIT_PUSH	target=origin/main	verdict=ok-2ba7725..50b978d
 2026-05-12T11:15:30Z	b0612	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
 2026-05-12T11:15:30Z	b0612	STOP	verdict=tick-complete-priority-a-reparse-deferred	new_records=5	b0591_backlog_drained=4	b0593_clean_drained=1	deferred_fts5_backlog=7	next-tick=t+60min	next-tick-priority=drain-b0593-dirty-v04-cohort-5-records-or-advance-coa-page-8-sweep-6-candidates
+2026-05-12T11:14Z repair-corpus b031 NON-IDLE 8 records repaired (2010 parliament Acts: 007/008/009/010/011/020/021/023) — records=1899 fts=1899 delta=0 quick_check=ok manifest_remaining=64/88 mitigation=truncated-stale-66KB-journal post-tick-records-grew-to-1911-via-concurrent-b0611-b0612-jiw-writes
