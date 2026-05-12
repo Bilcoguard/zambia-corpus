@@ -7148,3 +7148,18 @@ test append
 2026-05-12T16:30:00Z b0618 GIT_PUSH verdict=attempting
 2026-05-12T16:30:00Z b0618 B2_SYNC verdict=deferred-to-host reason=rclone-not-in-sandbox
 2026-05-12T16:30:00Z b0618 STOP verdict=tick-complete-page-9-fully-classified-8-scanned-PDF-deferrals-zero-text-PDFs-confirmed-scanned-pdf-cliff-no-corpus-mutation-FTS5-healthy-throughout new_records=0 deferred=8-scanned next-tick=t+60min next-tick-priority=page-10-listing-then-operator-pivot-decision-recommended
+2026-05-12T16:38:00Z b0618 GIT_PUSH verdict=success commit=18b35a1 ref=main remote=origin warnings=tmp-obj-EPERM-FUSE-mount-cosmetic-only
+2026-05-12T13:15:30Z	repair-batch-033	GIT_LOCK_OBSERVATION	.git/index.lock	verdict=blocked-by-FUSE-EPERM-same-pattern-as-b0608-and-b0614-documented-since-b0334+	mitigation=host-side-parallel-worker-file-sweep-will-commit-transparently
+2026-05-12T13:15:30Z	repair-batch-033	FILES_ON_DISK	reports/repair-batch-033.md=present	scripts/repair_batch_033.py=present	_repair_batch_033_result.json=present	worker.log=appended-b033-entries	costs.log=appended-b033-entry	corpus.sqlite=atomically-updated-via-tmp-copy	gaps.md=no-changes-zero-quality-fails
+2026-05-12T13:15:30Z	repair-batch-033	GIT_STAGED	reports/repair-batch-033.md	scripts/repair_batch_033.py	worker.log
+2026-05-12T13:15:30Z	repair-batch-033	GIT_PUSH	verdict=deferred-to-host-side-sweep	reason=index.lock-EPERM-held-by-parallel-host-worker
+2026-05-12T13:15:30Z	repair-batch-033	STOP	verdict=tick-complete-repair-8/8-successes-corpus-mutated-db-synced-files-on-disk-awaiting-host-sweep-commit	manifest_remainder=48	suggested_next=b034
+2026-05-12T16:32:08Z	b0619	START	worker=worker-tick	phase=phase_8_nightly_reverify	pull=ok-already-up-to-date	preflight=pre-tick-lock-cleanup-cleared-stale-index-lock-one-benign-EPERM-on-objects-maintenance-lock-non-blocking
+2026-05-12T16:32:41Z	b0619	REVERIFY	pool=1914	sample=8	match=3	match_truncated_prefix=0	drift=5	fetch_error=0	fetches=8	retry_fetches=0	wall=~33s	seed=phase8-reverify-2026-05-12-b0619
+2026-05-12T16:32:41Z	b0619	MATCH	ids=act-zm-2011-022-the-fisheries-act-2011,act-zm-2021-026-the-health-professions-amendment-act-2021,si-zm-2007-042-national-payment-systems-act-commencement-order-2007
+2026-05-12T16:32:41Z	b0619	DRIFT	ids=act-zm-2023-010-supplementary-appropriation-2023-act,act-zm-1994-013-fees-and-fines-act-1994,act-zm-2006-001-supplementary-appropriation-2004-act,act-zm-2018-008-credit-reporting-act,si-zm-2019-040-corporate-insolvency-insolvency-practitioner-accreditation-regulations-2019	cause=zambialii-akn-html-rendering-non-determinism-known-pattern-no-corpus-mutation
+2026-05-12T16:32:41Z	b0619	INTEGRITY	json_wellformed=PASS	required_summary_keys=PASS	sample_size_le_max=PASS	counts_sum_eq_sample=PASS	ids_resolve=PASS-8of8	entry_required_fields=PASS	verdict_enum=PASS	pool_floor=PASS	no_record_mutation=PASS
+2026-05-12T16:32:41Z	b0619	COUNTS	records_on_disk_with_url_and_hash=1914	delta=+0	check8=N/A-fts5-not-touched-by-phase8-reverify
+2026-05-12T16:32:41Z	b0619	BUDGET	fetches=8	cumulative_today=32/2000	wall_clock=~33s	wall_budget=20min
+2026-05-12T16:32:41Z	b0619	FILES_ON_DISK	reports/batch-0619.md=present	reports/batch-0619-reverify.json=present	worker.log=appended-b0619-entries	costs.log=appended-b0619-entry	provenance.log=appended-b0619-entry	gaps.md=appended-b0619-section
+2026-05-12T16:32:41Z	b0619	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
