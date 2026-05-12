@@ -7951,3 +7951,56 @@ located on judiciary search). Recommended next-tick approach:
   now 12 records waiting (was 10).
 - (c) Chisumpa Liandisha source-side fix — outstanding; needs editor
   contact at judiciaryzambia.com.
+
+## Batch 0616 — judgment-ingestion-worker (b0616-jiw)
+
+**Timestamp:** 2026-05-12T15:30Z
+**Phase:** priority_b — judiciary CoA sweep page 8 (continuation of b0615)
+**Fetches:** 8 (cumulative today 23/500)
+**Records inserted:** 0
+**Records deferred:** 4 (3 scanned-PDF + 1 post-misattachment)
+
+### What happened
+
+Re-fetched judiciary CoA page-8 listing, fetched 4 post HTMLs and 3 PDFs to classify the b0615-discovered "NEW" candidates as text-PDF or scanned-PDF. Result: all 3 probed PDFs are zero-text scanned; the 4th candidate (Zanaco) has the wrong PDF attached on its post page (Astro Holdings PDF linked instead of the Zanaco PDF).
+
+### New scanned-PDF backlog entries (+3 → 15 total)
+
+| Slug | Pages | sha256 (first 16) | Raw path |
+|------|-------|-------------------|----------|
+| `judgment-zm-2024-coa-app-165-savenda-management-services-v-lumwana-mining` | 20 | `3c2365b0646897fa` | `raw/judiciary-zm/coa/App-165-2024-Savenda-Management-Services-Limited-vs-Lumwana-Mining-Company-Limited-31-Dec-2024-Coram-Mchenga-DJP-Muzenga-Chembe-JJA.pdf` |
+| `judgment-zm-2024-coa-app-24-peter-mutale-v-davies-mukumbwa` | 21 | `dd4e661bea7fed98` | `raw/judiciary-zm/coa/App-24-2024-Peter-Mutale-vs-Davies-Mukumbwa-24-Jan-2025-Coram-Siavwapa-JP-Chishimba-Patel-JJA.pdf` |
+| `judgment-zm-2022-coa-app-304-setrec-steel-and-wood-processing-v-zanaco` | 33 | `27d9aed19f34fe2e` | `raw/judiciary-zm/coa/APP-304-2022-Setrec-Steel-and-Wood-Processing-Limited-vs-Zambia-National-Commercial-Bank-Plc-31-Jan-2025-Coram-Chashi-Makungu-Sichinga-JJA.pdf` |
+
+All three need OCR via the repair-worker `ocrmypdf-scanned-coa-pdfs` queue. Raw PDFs saved on disk; sha256 computed and recorded in `provenance.log`.
+
+### New post-misattachment backlog entry (+1, new category)
+
+- `judgment-zm-2023-coa-app-181-zanaco-bank-v-allan-kandala`
+  - Post URL: `https://judiciaryzambia.com/app-181-2023-zanaco-bank-plc-3-others-vs-allan-kandala-2-others-30th-january-2025-coram-siavwapa-chishimba-patel-jja/`
+  - PDF that the post **actually** links: `wp-content/uploads/2025/02/APP-75-2025-Astro-Holdings-Limited-3-Others-and-Edgar-Hamuwele-31-Jun-2025-Coram-ChashiBanda-Bobo-and-MuzengaJJA.pdf` (this is the **Astro Holdings** judgment, not Zanaco — Astro Holdings is its own page-8 post).
+  - Reason: source-side data quality issue at judiciaryzambia.com — post page links the wrong PDF attachment. The Zanaco PDF may exist elsewhere on the site, or may not be uploaded yet.
+  - Mitigation: operator action item — editor contact at judiciaryzambia.com, or alternate-source retrieval (ZambiaLII, Court of Appeal registry).
+  - First of a new deferral category (`post-misattachment`).
+
+### b0615 catalogue discrepancy
+
+b0615 listed 5 NEW page-8 candidates; only 4 found this tick. The fifth (`caz-08-014-2019-maxwell-banda`) is **not** on page 8 as re-fetched at b0616. Cause uncertain — either b0615 over-counted by 1, or CMS shifted the post to another page in the 2h 30m gap between ticks (unlikely on weekends but possible). Rediscovery task: `?s=Maxwell+Banda` via judiciaryzambia.com search next tick.
+
+### Sweep position next tick (b0617)
+
+`judiciary-coa-sweep`: **page 8, 6 of 10 posts classified.** Remaining
+to probe on page 8 (3 posts):
+
+1. Astro Holdings & 3 Others v Edgar Hamuwele — `app-75-2025` (NB: PDF already on disk as a side-effect of fetching Zanaco's misattached post; URL: `wp-content/uploads/2025/02/APP-75-2025-Astro-Holdings-Limited-3-Others-and-Edgar-Hamuwele-31-Jun-2025-Coram-ChashiBanda-Bobo-and-MuzengaJJA.pdf`).
+2. Transquic Service Zambia Ltd — `app-311-2021` (Coram Siavwapa JP Chishimba Banda Bobo JJA — title only, no date in slug).
+3. Frank Lumbwe Kakoma v Joseph Mulenga & 2 Others — `appeal-117-2024-30-oct-2024-coram-ngulube-muzenga-chembe-jja`.
+
+Plus rediscovery probe for Maxwell Banda. Page 8 will then be fully classified; advance to page 9.
+
+### Operator action items (running list)
+
+- (a) FTS5 rebuild action — **COMPLETED** at b0608 host-side sweep.
+- (b) `ocrmypdf-scanned-coa-pdfs` repair-worker task — outstanding; now **15 records** waiting (was 12).
+- (c) Chisumpa Liandisha source-side fix — outstanding; needs editor contact at judiciaryzambia.com.
+- (d) **NEW**: Zanaco Bank v Allan Kandala post-misattachment — outstanding; needs editor contact at judiciaryzambia.com to fix wrong PDF attachment, or alternate-source retrieval.
