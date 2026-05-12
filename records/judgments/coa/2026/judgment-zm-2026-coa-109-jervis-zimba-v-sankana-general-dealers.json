@@ -1,0 +1,51 @@
+{
+  "id": "judgment-zm-2026-coa-109-jervis-zimba-v-sankana-general-dealers",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Jervis Zimba v Sankana General Dealers (APP/109/2023) [2026] ZMCA (2026-01-27)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Jervis Zimba v Sankana General Dealers",
+  "case_number": "APP/109/2023",
+  "date_decided": "2026-01-27",
+  "judges": [
+    {
+      "name": "Kondolo SC",
+      "role": "JA",
+      "dissented": false
+    },
+    {
+      "name": "Majula",
+      "role": "JA",
+      "dissented": false
+    },
+    {
+      "name": "Muzenga",
+      "role": "JA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "civil-procedure",
+    "costs",
+    "vicarious-liability",
+    "appellate-procedure",
+    "employment"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Having found no merit in the entire appeal, we dismiss it. We award costs to the respondent to be taxed in default of agreement.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "f1f2955de57cc6accf3f4841d2eb7ab3cb75bceacf911a543ebcee9857dfffe7",
+  "source_url": "https://judiciaryzambia.com/appeal-109-2023-jervis-zimba-vs-sankana-general-dealers-27-jan-2026-coram-justice-kondolo-sc-majula-muzenga-jja/",
+  "source_hash": "sha256:f1f2955de57cc6accf3f4841d2eb7ab3cb75bceacf911a543ebcee9857dfffe7",
+  "fetched_at": "2026-05-11T17:18:00Z",
+  "parser_version": "0.4.4-inline-b0612",
+  "pages": 24,
+  "on_disk_path": "raw/judiciary-zm/coa/appeal-109-2023-jervis-zimba-vs-sankana-general-dealers-27-jan-2026-coram-justice-kondolo-sc-majula-muzenga-jja.pdf",
+  "raw_path": "raw/judiciary-zm/coa/appeal-109-2023-jervis-zimba-vs-sankana-general-dealers-27-jan-2026-coram-justice-kondolo-sc-majula-muzenga-jja.pdf",
+  "body_length": 29052,
+  "judges_count": 3,
+  "deferred_batch": "b0591",
+  "drained_in_batch": "b0612"
+}

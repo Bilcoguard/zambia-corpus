@@ -1,0 +1,51 @@
+{
+  "id": "judgment-zm-2025-coa-176-bright-jangazya-v-first-national-bank-zambia-limited",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Bright Jangazya v First National Bank Zambia Limited (APP/176/2022) [2025] ZMCA (2025-12-31)",
+  "citation": "[2025] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Bright Jangazya v First National Bank Zambia Limited",
+  "case_number": "APP/176/2022",
+  "date_decided": "2025-12-31",
+  "judges": [
+    {
+      "name": "Kondolo SC",
+      "role": "JA",
+      "dissented": false
+    },
+    {
+      "name": "Makungu",
+      "role": "JA",
+      "dissented": false
+    },
+    {
+      "name": "Banda-Bobo",
+      "role": "JA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "employment",
+    "unfair-dismissal",
+    "disciplinary-procedure",
+    "industrial-relations",
+    "appellate-procedure"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "In light of the foregoing, all three grounds of Appeal are dismissed for want of merit. The matter having emanated from the Industrial and Labour Division of the High Court, the parties shall bear their own costs.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "d7a85649cc1f090202ccd4627234353ad7243ae3341e0c2cffcedadcbd5f3c70",
+  "source_url": "https://judiciaryzambia.com/app-176-2022-caz-08-075-2022-bright-jangazya-vs-first-national-bank-zambia-limited-31-dec-2025-coram-kondolo-sc-makungu-banda-bobo-jja/",
+  "source_hash": "sha256:d7a85649cc1f090202ccd4627234353ad7243ae3341e0c2cffcedadcbd5f3c70",
+  "fetched_at": "2026-05-11T17:18:00Z",
+  "parser_version": "0.4.4-inline-b0612",
+  "pages": 30,
+  "on_disk_path": "raw/judiciary-zm/coa/App-176-2022-Caz-08-075-2022-Bright-Jangazya-vs-First-National-Bank-Zambia-Limited-31-Dec-2025-Coram-Kondolo-SC-Makungu-Banda-Bobo-JJA.pdf",
+  "raw_path": "raw/judiciary-zm/coa/App-176-2022-Caz-08-075-2022-Bright-Jangazya-vs-First-National-Bank-Zambia-Limited-31-Dec-2025-Coram-Kondolo-SC-Makungu-Banda-Bobo-JJA.pdf",
+  "body_length": 30225,
+  "judges_count": 3,
+  "deferred_batch": "b0593",
+  "drained_in_batch": "b0612"
+}

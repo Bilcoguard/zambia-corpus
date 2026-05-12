@@ -1,0 +1,51 @@
+{
+  "id": "judgment-zm-2026-coa-206-mutale-chanda-v-ian-musweu",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mutale Chanda v Ian Musweu (APP/206/2024) [2026] ZMCA (2026-01-13)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Mutale Chanda v Ian Musweu",
+  "case_number": "APP/206/2024",
+  "date_decided": "2026-01-13",
+  "judges": [
+    {
+      "name": "Chashi",
+      "role": "JA",
+      "dissented": false
+    },
+    {
+      "name": "Makungu",
+      "role": "JA",
+      "dissented": false
+    },
+    {
+      "name": "Banda-Bobo",
+      "role": "JA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "res-judicata",
+    "abuse-of-process",
+    "obiter-dicta",
+    "appellate-procedure",
+    "costs"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "All the grounds of appeal lack merit and are dismissed. Costs in this Court and in the Court below are for the Respondent, to be taxed in default of agreement.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "9cfa9b55749fd23071e430d494b1d22a1f11258f7d9ae44b7ca3e81ee5511097",
+  "source_url": "https://judiciaryzambia.com/appeal-206-2024-mutale-chanda-vs-ian-musweu-13-jan-2026-coram-justice-chashi-makungu-banda-bobo-jja/",
+  "source_hash": "sha256:9cfa9b55749fd23071e430d494b1d22a1f11258f7d9ae44b7ca3e81ee5511097",
+  "fetched_at": "2026-05-11T17:18:00Z",
+  "parser_version": "0.4.4-inline-b0612",
+  "pages": 31,
+  "on_disk_path": "raw/judiciary-zm/coa/appeal-206-2024-mutale-chanda-vs-ian-musweu-13-jan-2026-coram-justice-chashi-makungu-banda-bobo-jja.pdf",
+  "raw_path": "raw/judiciary-zm/coa/appeal-206-2024-mutale-chanda-vs-ian-musweu-13-jan-2026-coram-justice-chashi-makungu-banda-bobo-jja.pdf",
+  "body_length": 31616,
+  "judges_count": 3,
+  "deferred_batch": "b0591",
+  "drained_in_batch": "b0612"
+}

@@ -7621,3 +7621,39 @@ Remaining:
 3. Re-parse 4 b0591 raw PDFs from `raw/judiciary-zm/coa/` (slugs: app-83-2021-felix-nkululumbwe, app-109-2023-jervis-zimba, app-128-2023-robert-mwanza, app-206-2024-mutale-chanda).
 4. Flush b0593 parser-clean record (1 record — bright-jangazya — body re-extraction required from raw PDF).
 5. If time allows, advance to page-8 CoA sweep.
+
+## b0612 — 2026-05-12T11:13Z (judgment-ingestion-worker)
+
+**Re-parsed 4 b0591 + 1 b0593 deferred-fts5 records** from `raw/judiciary-zm/coa/`. All 5 inserts succeeded against records + judgments_meta + records_fts. FTS5 remained healthy throughout.
+
+**Records inserted:**
+- `judgment-zm-2024-coa-083-felix-nkululumbwe-v-charles-musonda-17-others-attorney-general` (APP/083/2021, 2024-12-24, dismissed)
+- `judgment-zm-2026-coa-109-jervis-zimba-v-sankana-general-dealers` (APP/109/2023, 2026-01-27, dismissed)
+- `judgment-zm-2026-coa-128-robert-mwanza-v-mtn-zambia-limited` (APP/128/2023, 2026-01-27, allowed) — first reversal in cohort, remitted for trial before a different Judge
+- `judgment-zm-2026-coa-206-mutale-chanda-v-ian-musweu` (APP/206/2024, 2026-01-13, dismissed)
+- `judgment-zm-2025-coa-176-bright-jangazya-v-first-national-bank-zambia-limited` (APP/176/2022, 2025-12-31, dismissed) — case_name v0.4 cleanup applied (stripped `a j DEC 2025` Coram-line bleed-through)
+
+**Drained b0591 backlog completely:** all 4 b0591 records now in corpus.
+**Drained b0593 parser-clean record:** bright-jangazya re-parsed with cleaned `case_name`.
+
+**Remaining deferred-fts5 backlog: 7 records**
+- 5 b0593 v0.4-pending dirty records (Lamasat, Jennifer Tembo Njovu, Mukamunya Homeowners, Emergency Response Zambia, Caz-09-127 Philemon Dyamini) — Coram-line bleed-through pollutes judges; need v0.4-cleanup pass
+- 2 b0597 records (`date_decided=null` on both — gating decision still pending)
+
+**Scanned-PDF backlog: 10 records (unchanged).**
+
+**Court of Appeal coverage:** 39 → 44 records (5.5% of 800-judgment target).
+
+**Sweep position next tick (b0613):** `judiciary-coa-sweep: page 8 remaining` (6 unprocessed CoA candidates on judiciaryzambia.com page 8). Continue drain-first vs sweep-first decision; if 5 b0593 dirty records share single bleed-through regex, prefer drain.
+
+**Parser v0.4.4-b0612 — minimal upgrade from v0.4.3:**
+- Hand-curated issue tags (3–5 each) drawn from b0591/b0593 descriptors, narrower than v0.4.3.
+- `case_name` re-cleaning for b0593 bright-jangazya (stripped Coram-line bleed-through `a j DEC 2025`). ID slug shortened accordingly.
+- Direct corpus.sqlite write (no /tmp staging) due to host /tmp at 100% capacity. b0548..b0611 staging precedent suspended this tick.
+
+**Recommended next-tick sequence (b0613):**
+1. Re-probe FTS5 health (5 signals).
+2. Take `corpus.sqlite.bak.b0613-pre-flush-...` backup.
+3. Option A (drain-first): Clean 5 b0593 v0.4-pending dirty records' case_name/judges, then insert.
+4. Option B (sweep-first): Advance to page-8 CoA sweep (6 candidates).
+5. Decision rule: prefer A if single regex fix covers all 5; prefer B if per-record cleanup needed.

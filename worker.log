@@ -6964,3 +6964,23 @@ test append
 2026-05-12T10:15:05Z	b0611	GIT_PUSH	target=origin/main	verdict=ok-4b3c82e..9583c8c
 2026-05-12T10:15:05Z	b0611	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
 2026-05-12T10:15:05Z	b0611	STOP	verdict=tick-complete-priority-a-reparse-deferred	new_records=7	backfilled_judgments_meta=3	deferred_fts5_backlog=12	next-tick=t+60min	next-tick-priority=continue-flushing-b0591-deferred-then-page-8-sweep
+2026-05-12T11:13:00Z	b0612	judgment-ingestion-worker START re-parse-b0591-b0593-deferred
+2026-05-12T11:13:00Z	b0612	parser_version=0.4.4-inline-b0612
+2026-05-12T11:13:00Z	b0612	FTS5_PROBE records=1906 records_fts=1906 integrity_check=ok
+2026-05-12T11:13:00Z	b0612	BACKUP corpus.sqlite.bak.b0612-pre-flush-20260512T110943Z (119201792 bytes)
+2026-05-12T11:13:00Z	b0612	journal_mode=truncate (pre-flush mitigation)
+2026-05-12T11:13:00Z	b0612	PARSED id=judgment-zm-2024-coa-083-felix-nkululumbwe-v-charles-musonda-17-others-attorney-general pages=26 body_chars=28654 sha=8e90c3f614b3a201
+2026-05-12T11:13:00Z	b0612	PARSED id=judgment-zm-2026-coa-109-jervis-zimba-v-sankana-general-dealers pages=24 body_chars=29052 sha=f1f2955de57cc6ac
+2026-05-12T11:13:00Z	b0612	PARSED id=judgment-zm-2026-coa-128-robert-mwanza-v-mtn-zambia-limited pages=20 body_chars=23915 sha=2533c2ba76588282
+2026-05-12T11:13:00Z	b0612	PARSED id=judgment-zm-2026-coa-206-mutale-chanda-v-ian-musweu pages=31 body_chars=31616 sha=9cfa9b55749fd230
+2026-05-12T11:13:00Z	b0612	PARSED id=judgment-zm-2025-coa-176-bright-jangazya-v-first-national-bank-zambia-limited pages=30 body_chars=30225 sha=d7a85649cc1f0902
+2026-05-12T11:13:00Z	b0612	parsed_total=5 of 5
+2026-05-12T11:13:00Z	b0612	dedup_passed=5
+2026-05-12T11:13:00Z	b0612	INSERT_OK records+judgments_meta+records_fts inserts=5
+2026-05-12T11:13:00Z	b0612	INTEGRITY check1_judges=PASS check2_tags=PASS check3_outcome=PASS check5_dup_ids=PASS check6_sha=PASS check7_dup_combos=PASS check8_records_eq_fts=PASS(1911=1911) records=1911 records_fts=1911 judgments_meta=221
+2026-05-12T11:13:00Z	b0612	judges_registry updated=False (all 7 judges pre-existing: Kondolo SC, Makungu, Sharpe-Phiri, Majula, Muzenga, Chashi, Banda-Bobo)
+2026-05-12T11:13:00Z	b0612	FTS5_SMOKE Nkululumbwe=1 Jangazya=2 mwanza+mtn=1
+2026-05-12T11:13:00Z	b0612	Court of Appeal coverage records_id_pattern=44 judgments_meta=44 (39+5)
+2026-05-12T11:13:00Z	b0612	wrote 5 record JSON files
+2026-05-12T11:13:00Z	b0612	wrote report reports/batch-0612-jiw.md
+2026-05-12T11:13:00Z	b0612	END	verdict=ok phase=priority_a_reparse_deferred new_records=5 b0591_backlog_drained=4 b0593_clean_backlog_drained=1

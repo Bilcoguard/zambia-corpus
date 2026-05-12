@@ -1,0 +1,51 @@
+{
+  "id": "judgment-zm-2024-coa-083-felix-nkululumbwe-v-charles-musonda-17-others-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Felix Nkululumbwe v Charles Musonda & 17 Others & The Attorney General (APP/083/2021) [2024] ZMCA (2024-12-24)",
+  "citation": "[2024] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Felix Nkululumbwe v Charles Musonda & 17 Others & The Attorney General",
+  "case_number": "APP/083/2021",
+  "date_decided": "2024-12-24",
+  "judges": [
+    {
+      "name": "Kondolo SC",
+      "role": "JA",
+      "dissented": false
+    },
+    {
+      "name": "Makungu",
+      "role": "JA",
+      "dissented": false
+    },
+    {
+      "name": "Sharpe-Phiri",
+      "role": "JA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "land-law",
+    "specific-performance",
+    "appellate-procedure",
+    "evidence",
+    "fraud"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Appeal dismissed with costs to the Respondents; claim for specific performance unsustainable absent contractual relationship with Respondents.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "8e90c3f614b3a2015da713bef854c9ae4065d65eb2c57ce08dc174c772b17612",
+  "source_url": "https://judiciaryzambia.com/appeal-083-2021-felix-nkululumbwe-vs-charles-musonda-17-others-attorney-general-24-dec-2024-coram-kondolo-sc-makungu-sharpe-phiri-jja-2/",
+  "source_hash": "sha256:8e90c3f614b3a2015da713bef854c9ae4065d65eb2c57ce08dc174c772b17612",
+  "fetched_at": "2026-05-11T17:18:00Z",
+  "parser_version": "0.4.4-inline-b0612",
+  "pages": 26,
+  "on_disk_path": "raw/judiciary-zm/coa/appeal-083-2021-felix-nkululumbwe-vs-charles-musonda-17-others-attorney-general-24-dec-2024-coram-kondolo-sc-makungu-sharpe-phiri-jja-2.pdf",
+  "raw_path": "raw/judiciary-zm/coa/appeal-083-2021-felix-nkululumbwe-vs-charles-musonda-17-others-attorney-general-24-dec-2024-coram-kondolo-sc-makungu-sharpe-phiri-jja-2.pdf",
+  "body_length": 28654,
+  "judges_count": 3,
+  "deferred_batch": "b0591",
+  "drained_in_batch": "b0612"
+}

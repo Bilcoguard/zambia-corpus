@@ -1,0 +1,51 @@
+{
+  "id": "judgment-zm-2026-coa-128-robert-mwanza-v-mtn-zambia-limited",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Robert Mwanza v MTN Zambia Limited (APP/128/2023) [2026] ZMCA (2026-01-27)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Robert Mwanza v MTN Zambia Limited",
+  "case_number": "APP/128/2023",
+  "date_decided": "2026-01-27",
+  "judges": [
+    {
+      "name": "Kondolo SC",
+      "role": "JA",
+      "dissented": false
+    },
+    {
+      "name": "Majula",
+      "role": "JA",
+      "dissented": false
+    },
+    {
+      "name": "Muzenga",
+      "role": "JA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "civil-procedure",
+    "pleadings",
+    "appellate-procedure",
+    "telecommunications",
+    "torts"
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "Having found merit in grounds 1 and 4, we allow the appeal. The matter is sent back to the High Court for trial before a different Judge. Ground 2 dismissed for want of merit. Costs in the cause.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "2533c2ba765882828f0a855eafba1ffe34c95bdfb78068785fc8f2ec9d2822c3",
+  "source_url": "https://judiciaryzambia.com/appeal-128-2023-robert-mwanza-vs-mtn-zambialimited-27-jan-2026-coram-justice-kondolo-sc-majula-muzenga-jja/",
+  "source_hash": "sha256:2533c2ba765882828f0a855eafba1ffe34c95bdfb78068785fc8f2ec9d2822c3",
+  "fetched_at": "2026-05-11T17:18:00Z",
+  "parser_version": "0.4.4-inline-b0612",
+  "pages": 20,
+  "on_disk_path": "raw/judiciary-zm/coa/appeal-128-2023-robert-mwanza-vs-mtn-zambialimited-27-jan-2026-coram-justice-kondolo-sc-majula-muzenga-jja.pdf",
+  "raw_path": "raw/judiciary-zm/coa/appeal-128-2023-robert-mwanza-vs-mtn-zambialimited-27-jan-2026-coram-justice-kondolo-sc-majula-muzenga-jja.pdf",
+  "body_length": 23915,
+  "judges_count": 3,
+  "deferred_batch": "b0591",
+  "drained_in_batch": "b0612"
+}
