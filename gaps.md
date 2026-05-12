@@ -7583,3 +7583,41 @@ Remaining:
 3. Re-parse 7 b0590 raw PDFs from `raw/judiciary-zm/coa/` (slugs in worker.log b0590 entry).
 4. Flush b0593 parser-clean record (1 record; case_name needs v0.4.2 cleanup).
 5. If time allows, advance to page-8 CoA sweep.
+
+## b031 — 2026-05-12T11:14Z
+- 8 manifest acts repaired (2010-007, 2010-008, 2010-009, 2010-010, 2010-011, 2010-020, 2010-021, 2010-023).
+- Manifest remaining: 64 / 88.
+- Live DB Condition B (no body, acts/SI): 245 still pending — bulk of these are zambialii SIs.
+- Live DB Condition C (stub <200): 51 still pending — bulk are parliament.gov.zm PDFs.
+- No new gaps introduced. No fabrication. Quality gate passed for all 8.
+
+## b0611 — 2026-05-12T10:13Z (judgment-ingestion-worker)
+
+**Re-parsed 7 b0590 deferred-fts5 records** from `raw/judiciary-zm/coa/`. All 7 inserts succeeded against records + judgments_meta + records_fts. FTS5 remained healthy throughout.
+
+**Backfilled judgments_meta** for 3 b0610 records (coa-210, coa-291, coa-304) that were inserted to records + records_fts at b0610 but missed judgments_meta. This resolves a pre-existing inconsistency where the b0610 worker reported "Court of Appeal 29→32" but `judgments_meta` did not reflect the inserts.
+
+**Drained b0590 backlog completely:** all 7 b0590 records now in corpus.
+
+**Remaining deferred-fts5 backlog: 12 records**
+- 4 records from b0591 (parsed JSON NOT archived — needs fresh parse from raw PDFs; slugs in worker.log b0591 entry)
+- 1 parser-clean + 5 v0.4-pending dirty from b0593 (case_name needs v0.4.2 cleanup)
+- 2 records from b0597 (date_decided=null on both — gating decision needed)
+
+**Scanned-PDF backlog: 10 records (unchanged).**
+
+**Sweep position next tick (b0612):** `judiciary-coa-sweep: page 8 remaining` (6 unprocessed CoA candidates on judiciaryzambia.com page 8). Sweep deferred until backlog drain continues.
+
+**Court of Appeal coverage:** 32 → 39 records (4.9% of 800-judgment target).
+
+**Inline parser v0.4.3-b0611 — minimal upgrade from v0.4.2:**
+- Operative-paragraph extraction now searches last 30% of body (was 20%) — caught Lisboa Casino "ground 4 partially succeeds" anchor.
+- `outcome_detail_hint` fallback retained for ruling-style docs where pdfplumber yields atypical structure.
+- Issue tags hand-curated from gaps.md b0590 descriptors (3-5 tags each) — narrower than v0.4.2 frequency-rank but more decision-specific.
+
+**Recommended next-tick sequence (b0612):**
+1. Re-probe FTS5 health (5 signals).
+2. Take `corpus.sqlite.bak.b0612-pre-flush-...` backup.
+3. Re-parse 4 b0591 raw PDFs from `raw/judiciary-zm/coa/` (slugs: app-83-2021-felix-nkululumbwe, app-109-2023-jervis-zimba, app-128-2023-robert-mwanza, app-206-2024-mutale-chanda).
+4. Flush b0593 parser-clean record (1 record — bright-jangazya — body re-extraction required from raw PDF).
+5. If time allows, advance to page-8 CoA sweep.

@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2026-coa-099-geoffrey-muyonga-sitwala-kaliki-vincent-lubinda-v-ahmed-abdulkadir-barakadle-mohammed-other",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Geoffrey Muyonga, Sitwala Kaliki, Vincent Lubinda v Ahmed Abdulkadir Barakadle Mohammed & Other (APPLN/099/2025) [2026] ZMCA (2026-02-11)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Geoffrey Muyonga, Sitwala Kaliki, Vincent Lubinda v Ahmed Abdulkadir Barakadle Mohammed & Other",
+  "case_number": "APPLN/099/2025",
+  "date_decided": "2026-02-11",
+  "judges": [
+    {
+      "name": "Chashi",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Ngulube",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Banda-Bobo",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "civil-procedure",
+    "leave-to-appeal"
+  ],
+  "outcome": "struck-out",
+  "outcome_detail": "application for leave to appeal struck off active list; 14-day liberty to restore",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "988f27a2ff3b4af8066301c1a2f73f9ef5dc2260af5fa53b063da363d4de6e17",
+  "source_url": "https://judiciaryzambia.com/application-99-2025-geoffrey-muyonga-sitwala-kaliki-vincent-lubinda-vs-ahmed-abdulkadir-barakadle-mohammed-other-11-feb-2026-coram-justice-chashi-ngulube-banda-bobo-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/02/application-99-2025-geoffrey-muyonga-sitwala-kaliki-vincent-lubinda-vs-ahmed-abdulkadir-barakadle-mohammed-other-11-feb-2026-coram-justice-chashi-ngulube-banda-bobo-jja.pdf",
+  "source_hash": "sha256:988f27a2ff3b4af8066301c1a2f73f9ef5dc2260af5fa53b063da363d4de6e17",
+  "fetched_at": "2026-05-11T10:18:00Z",
+  "parser_version": "0.4.3-inline-b0611",
+  "pages": 7,
+  "on_disk_path": "raw/judiciary-zm/coa/application-99-2025-geoffrey-muyonga-sitwala-kaliki-vincent-lubinda-vs-ahmed-abdulkadir-barakadle-mohammed-other-11-feb-2026-coram-justice-chashi-ngulube-banda-bobo-jja.pdf"
+}

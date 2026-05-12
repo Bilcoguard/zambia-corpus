@@ -1,0 +1,36 @@
+{
+  "id": "judgment-zm-2026-coa-568-chieftainess-lesa-v-mponwe-farms-limited-others",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Chieftainess Lesa v Mponwe Farms Limited & Others (CAZ/08/568/2025) [2026] ZMCA (2026-02-05)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Chieftainess Lesa v Mponwe Farms Limited & Others",
+  "case_number": "CAZ/08/568/2025",
+  "date_decided": "2026-02-05",
+  "judges": [
+    {
+      "name": "Banda-Bobo",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "civil-procedure",
+    "interim-injunction",
+    "land-and-property",
+    "chambers-ruling"
+  ],
+  "outcome": "refused",
+  "outcome_detail": "renewed application for injunction dismissed in chambers; ex-parte order discharged",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "40b0bc21fefcb7b5a17d21a40d947ddc96b863404f3a545d6d21e4a9c778d305",
+  "source_url": "https://judiciaryzambia.com/caz-08-568-2025-chieftainess-lesa-vs-mponwe-farms-limited-others-05-feb-2026-coram-justice-bobo-banda-ruling/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/02/caz-08-568-2025-chieftainess-lesa-vs-mponwe-farms-limited-others-05-feb-2026-coram-justice-bobo-banda-ruling.pdf",
+  "source_hash": "sha256:40b0bc21fefcb7b5a17d21a40d947ddc96b863404f3a545d6d21e4a9c778d305",
+  "fetched_at": "2026-05-11T10:18:00Z",
+  "parser_version": "0.4.3-inline-b0611",
+  "pages": 18,
+  "on_disk_path": "raw/judiciary-zm/coa/caz-08-568-2025-chieftainess-lesa-vs-mponwe-farms-limited-others-05-feb-2026-coram-justice-bobo-banda-ruling.pdf"
+}

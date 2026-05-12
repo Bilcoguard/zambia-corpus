@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2026-coa-231-lisboa-casino-limited-v-director-of-public-prosecutions",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Lisboa Casino Limited v Director of Public Prosecutions (APP/231/2023) [2026] ZMCA (2026-02-06)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Lisboa Casino Limited v Director of Public Prosecutions",
+  "case_number": "APP/231/2023",
+  "date_decided": "2026-02-06",
+  "judges": [
+    {
+      "name": "Kondolo SC",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Makungu",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Chembe",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-law",
+    "gaming-and-betting",
+    "forfeiture",
+    "costs"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "we dismiss the preliminary issue raised.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "1bd3fdba43e0d4d8915ba9c59fb272f8622f71acc64b2eafe46322b72073273d",
+  "source_url": "https://judiciaryzambia.com/appeal-231-2023-lisboa-casino-limited-vs-director-of-public-prosecutions-06-feb-2026-coram-kondolo-sc-makungu-chembe-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/02/appeal-231-2023-lisboa-casino-limited-vs-director-of-public-prosecutions-06-feb-2026-coram-kondolo-sc-makungu-chembe-jja.pdf",
+  "source_hash": "sha256:1bd3fdba43e0d4d8915ba9c59fb272f8622f71acc64b2eafe46322b72073273d",
+  "fetched_at": "2026-05-11T10:18:00Z",
+  "parser_version": "0.4.3-inline-b0611",
+  "pages": 31,
+  "on_disk_path": "raw/judiciary-zm/coa/appeal-231-2023-lisboa-casino-limited-vs-director-of-public-prosecutions-06-feb-2026-coram-kondolo-sc-makungu-chembe-jja.pdf"
+}

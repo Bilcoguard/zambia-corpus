@@ -6934,3 +6934,29 @@ test append
 2026-05-12T09:14Z	b0610	wrote reports/batch-0610-jiw.md and /tmp/b0610/tick_state.json
 2026-05-12T09:14Z	b0610	rclone NOT in sandbox — B2 sync DEFERRED to host
 2026-05-12T09:15Z	b0610	END — deferred-fts5 backlog 22 → 19; scanned-pdf backlog 10 (unchanged); user-agent KateWestonLegal-CorpusBuilder/1.0 (contact: peter@bilcoguard.com)
+2026-05-12T11:14Z repair-corpus b031 NON-IDLE 8 records repaired (2010 parliament Acts: 007/008/009/010/011/020/021/023) — records=1899 fts=1899 delta=0 quick_check=ok manifest_remaining=64/88 mitigation=truncated-stale-66KB-journal
+2026-05-12T10:13:03Z	b0611	judgment-ingestion-worker START re-parse-b0590-deferred
+2026-05-12T10:13:03Z	b0611	parser_version=0.4.3-inline-b0611
+2026-05-12T10:13:03Z	b0611	FTS5_PROBE records=1899 records_fts=1899 integrity_check=ok
+2026-05-12T10:13:06Z	b0611	BACKUP corpus.sqlite.bak.b0611-pre-flush-20260512T101303Z (119201792 bytes)
+2026-05-12T10:13:06Z	b0611	journal_mode=truncate (pre-flush mitigation)
+2026-05-12T10:13:06Z	b0611	PARSED id=judgment-zm-2026-coa-237-the-examination-council-of-zambia-v-christopher-mkandawire pages=26 body_chars=22812 sha=27baa9339c6565ce
+2026-05-12T10:13:06Z	b0611	PARSED id=judgment-zm-2026-coa-099-geoffrey-muyonga-sitwala-kaliki-vincent-lubinda-v-ahmed-abdulkadir-barakadle-mohammed-other pages=7 body_chars=6204 sha=988f27a2ff3b4af8
+2026-05-12T10:13:07Z	b0611	PARSED id=judgment-zm-2026-coa-279-kangwa-musenga-2-others-v-victor-muyumba-4-others pages=17 body_chars=16493 sha=427436b6a785008d
+2026-05-12T10:13:07Z	b0611	PARSED id=judgment-zm-2026-coa-231-lisboa-casino-limited-v-director-of-public-prosecutions pages=31 body_chars=36114 sha=1bd3fdba43e0d4d8
+2026-05-12T10:13:07Z	b0611	PARSED id=judgment-zm-2026-coa-317-the-university-of-zambia-v-ossie-mangani-zulu pages=15 body_chars=15580 sha=4757316e5921e9a9
+2026-05-12T10:13:07Z	b0611	PARSED id=judgment-zm-2026-coa-568-chieftainess-lesa-v-mponwe-farms-limited-others pages=18 body_chars=19090 sha=40b0bc21fefcb7b5
+2026-05-12T10:13:08Z	b0611	PARSED id=judgment-zm-2026-coa-172-wesley-sibanda-feediness-sakala-sibanda-v-point-present-investment-limited-sasha pages=15 body_chars=14793 sha=4fef2c8c6d3b8fe6
+2026-05-12T10:13:08Z	b0611	parsed_total=7 of 7
+2026-05-12T10:13:08Z	b0611	dedup_passed=7
+2026-05-12T10:13:08Z	b0611	BACKFILL_READY id=judgment-zm-2026-coa-210-clifford-simfukwe-v-zesco
+2026-05-12T10:13:08Z	b0611	BACKFILL_READY id=judgment-zm-2026-coa-291-bank-of-zambia-v-bernard-fundi
+2026-05-12T10:13:08Z	b0611	BACKFILL_READY id=judgment-zm-2026-coa-304-julian-sichalwe-v-saturina-regna-pension-trust-limited-lumwana-mining-company-li
+2026-05-12T10:13:08Z	b0611	INSERT_OK records+judgments_meta+records_fts inserts=7 backfilled_judgments_meta=3
+2026-05-12T10:13:08Z	b0611	INTEGRITY check1_judges=PASS check2_tags=PASS check3_outcome=PASS check5_dup_ids=PASS check6_sha=PASS check7_dup_combos=PASS check8_records_eq_fts=PASS(1906=1906) records=1906 records_fts=1906 judgments_meta=216
+2026-05-12T10:13:08Z	b0611	judges_registry updated=True
+2026-05-12T10:13:08Z	b0611	FTS5_SMOKE court=680 appeal=514 Lisboa=2 Chieftainess=2
+2026-05-12T10:13:08Z	b0611	Court of Appeal coverage records_id_pattern=39 judgments_meta=39
+2026-05-12T10:13:08Z	b0611	wrote 7 record JSON files
+2026-05-12T10:13:08Z	b0611	wrote report reports/batch-0611-jiw.md
+2026-05-12T10:13:08Z	b0611	END	verdict=ok phase=priority_a_reparse_deferred new_records=7 backfilled_judgments_meta=3

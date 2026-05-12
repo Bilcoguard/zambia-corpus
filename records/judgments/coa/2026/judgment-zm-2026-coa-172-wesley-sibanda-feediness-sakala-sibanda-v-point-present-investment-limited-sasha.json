@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2026-coa-172-wesley-sibanda-feediness-sakala-sibanda-v-point-present-investment-limited-sasha",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Wesley Sibanda & Feediness Sakala Sibanda v Point Present Investment Limited & Sasha (APP/172/2024) [2026] ZMCA (2026-02-05)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Wesley Sibanda & Feediness Sakala Sibanda v Point Present Investment Limited & Sasha",
+  "case_number": "APP/172/2024",
+  "date_decided": "2026-02-05",
+  "judges": [
+    {
+      "name": "Kondolo SC",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Majula",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Muzenga",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "civil-procedure",
+    "summary-judgment",
+    "contract"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "appeal is consequently dismissed with costs to the Respondent.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "4fef2c8c6d3b8fe6a53ca23aa201515618548a5a7960c58d2566c068eaeac769",
+  "source_url": "https://judiciaryzambia.com/appeal-172-2024-wesley-sibanda-feediness-sakala-sibanda-vs-point-present-investment-limited-sasha-05-feb-2026-coram-justice-kondolo-sc-majula-muzenga-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/02/appeal-172-2024-wesley-sibanda-feediness-sakala-sibanda-vs-point-present-investment-limited-sasha-05-feb-2026-coram-justice-kondolo-sc-majula-muzenga-jja.pdf",
+  "source_hash": "sha256:4fef2c8c6d3b8fe6a53ca23aa201515618548a5a7960c58d2566c068eaeac769",
+  "fetched_at": "2026-05-11T10:18:00Z",
+  "parser_version": "0.4.3-inline-b0611",
+  "pages": 15,
+  "on_disk_path": "raw/judiciary-zm/coa/appeal-172-2024-wesley-sibanda-feediness-sakala-sibanda-vs-point-present-investment-limited-sasha-05-feb-2026-coram-justice-kondolo-sc-majula-muzenga-jja.pdf"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2026-coa-279-kangwa-musenga-2-others-v-victor-muyumba-4-others",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Kangwa Musenga & 2 Others v Victor Muyumba & 4 Others (APP/279/2023) [2026] ZMCA (2026-02-11)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Kangwa Musenga & 2 Others v Victor Muyumba & 4 Others",
+  "case_number": "APP/279/2023",
+  "date_decided": "2026-02-11",
+  "judges": [
+    {
+      "name": "Chashi",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Makungu",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Banda-Bobo",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "civil-procedure",
+    "res-judicata",
+    "property"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "res-judicata doctrine inapplicable; appeal dismissed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "427436b6a785008dd21d8b5aee7379d1280188f43641871b4c35e376aacdb847",
+  "source_url": "https://judiciaryzambia.com/appeal-279-2023-kangwa-musenga-2-others-vs-victor-muyumba-4-others-11-feb-2026-coram-justice-chashi-makungu-banda-bobo-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/02/appeal-279-2023-kangwa-musenga-2-others-vs-victor-muyumba-4-others-11-feb-2026-coram-justice-chashi-makungu-banda-bobo-jja.pdf",
+  "source_hash": "sha256:427436b6a785008dd21d8b5aee7379d1280188f43641871b4c35e376aacdb847",
+  "fetched_at": "2026-05-11T10:18:00Z",
+  "parser_version": "0.4.3-inline-b0611",
+  "pages": 17,
+  "on_disk_path": "raw/judiciary-zm/coa/appeal-279-2023-kangwa-musenga-2-others-vs-victor-muyumba-4-others-11-feb-2026-coram-justice-chashi-makungu-banda-bobo-jja.pdf"
+}

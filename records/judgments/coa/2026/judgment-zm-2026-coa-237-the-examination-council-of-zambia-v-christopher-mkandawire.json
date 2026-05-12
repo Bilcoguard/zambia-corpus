@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2026-coa-237-the-examination-council-of-zambia-v-christopher-mkandawire",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "The Examination Council of Zambia v Christopher Mkandawire (APP/237/2023) [2026] ZMCA (2026-02-11)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "The Examination Council of Zambia v Christopher Mkandawire",
+  "case_number": "APP/237/2023",
+  "date_decided": "2026-02-11",
+  "judges": [
+    {
+      "name": "Chashi",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Ngulube",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Banda-Bobo",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "judicial-review",
+    "administrative-law",
+    "education"
+  ],
+  "outcome": "set-aside",
+  "outcome_detail": "judicial review remitted to High Court; lower-court order set aside",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "27baa9339c6565cef0498da6c08e8b7f8ce6bad3de8cb08df70361154acb5c0d",
+  "source_url": "https://judiciaryzambia.com/appeal-237-2023-the-examination-council-of-zambia-vs-christopher-mkandawire-11-feb-2026-coram-chashi-ngulube-banda-bobo-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/02/appeal-237-2023-the-examination-council-of-zambia-vs-christopher-mkandawire-11-feb-2026-coram-chashi-ngulube-banda-bobo-jja.pdf",
+  "source_hash": "sha256:27baa9339c6565cef0498da6c08e8b7f8ce6bad3de8cb08df70361154acb5c0d",
+  "fetched_at": "2026-05-11T10:18:00Z",
+  "parser_version": "0.4.3-inline-b0611",
+  "pages": 26,
+  "on_disk_path": "raw/judiciary-zm/coa/appeal-237-2023-the-examination-council-of-zambia-vs-christopher-mkandawire-11-feb-2026-coram-chashi-ngulube-banda-bobo-jja.pdf"
+}

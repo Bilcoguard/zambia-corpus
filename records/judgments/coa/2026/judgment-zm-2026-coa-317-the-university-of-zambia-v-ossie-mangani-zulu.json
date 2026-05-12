@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2026-coa-317-the-university-of-zambia-v-ossie-mangani-zulu",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "The University of Zambia v Ossie Mangani Zulu (APP/317/2024) [2026] ZMCA (2026-01-29)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "The University of Zambia v Ossie Mangani Zulu",
+  "case_number": "APP/317/2024",
+  "date_decided": "2026-01-29",
+  "judges": [
+    {
+      "name": "Kondolo SC",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Makungu",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Chembe",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "employment",
+    "civil-appeal"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "appeal is dismissed.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "4757316e5921e9a9b03a4726c3571fdef75102fd09eb11039ce0d54f86983076",
+  "source_url": "https://judiciaryzambia.com/appeal-317-2024-the-university-of-zambia-vs-ossie-mangani-zulu-29-jan-2026-coram-justice-kondolo-sc-makungu-chembe-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/02/appeal-317-2024-the-university-of-zambia-vs-ossie-mangani-zulu-29-jan-2026-coram-justice-kondolo-sc-makungu-chembe-jja.pdf",
+  "source_hash": "sha256:4757316e5921e9a9b03a4726c3571fdef75102fd09eb11039ce0d54f86983076",
+  "fetched_at": "2026-05-11T10:18:00Z",
+  "parser_version": "0.4.3-inline-b0611",
+  "pages": 15,
+  "on_disk_path": "raw/judiciary-zm/coa/appeal-317-2024-the-university-of-zambia-vs-ossie-mangani-zulu-29-jan-2026-coram-justice-kondolo-sc-makungu-chembe-jja.pdf"
+}
