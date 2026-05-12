@@ -6794,3 +6794,17 @@ test append
 2026-05-11T22:11:46Z	repair-batch-026	GIT_PUSH	target=origin/main	7526d63..0853551	verdict=ok
 2026-05-11T22:11:46Z	repair-batch-026	STOP	verdict=tick-complete-idle	next-tick=on-schedule
 2026-05-12T05:10:00Z	batch-0603-jiw	read-only confirmation tick. 20th consecutive FTS5-blocked JIW tick. records=1892, records_fts=1892, CHECK8 by-count PASS. INSERT INTO records_fts(records_fts) VALUES('integrity-check') → "database disk image is malformed" (unchanged). NEW finding: PRAGMA integrity_check(records) → ok — corruption confined to FTS5 shadow tables; operator recovery can use simple records-dump-and-rebuild (no .recover / no VACUUM INTO needed). No mutations to corpus.sqlite this tick. No fetches. Sweep position unchanged: judiciary-coa-sweep page 8 remaining (6 candidates). Backlog unchanged: 26 deferred-fts5 + 10 deferred-scanned-pdf. 9th operator escalation. Worker contact: peter@bilcoguard.com. User-Agent: KateWestonLegal-CorpusBuilder/1.0.
+2026-05-12T05:09:58Z	tick-2026-05-12-05:09	START	worker=zambia-corpus-tick	scheduled=true	consecutive_blocked_ticks_on_pull=2-prior-this-date-resolved
+2026-05-12T05:09:58Z	tick-2026-05-12-05:09	GIT_PULL	verdict=ok-already-up-to-date	HEAD=90d20f6	note=fresh-virtiofs-mount-no-stale-refs-this-session-vs-prior-two-2026-05-12-attempts-blocked
+2026-05-12T05:09:58Z	tick-2026-05-12-05:09	APPROVALS	read=ok	phase-8-nightly-reverify=approved-true-complete-false	other-phases=all-complete
+2026-05-12T05:09:58Z	tick-2026-05-12-05:09	BUDGET	fetches_today=0/2000	tokens_today=0/1000000	verdict=ok
+2026-05-12T05:11:09Z	batch-0603	START	worker=worker-tick	phase=phase_8_nightly_reverify	batch_no=0603
+2026-05-12T05:11:09Z	batch-0603	FETCH	count=8	retries=0	rate-limited=zambialii-5s-parliament-2s
+2026-05-12T05:11:09Z	batch-0603	RESULTS	match=5	drift=3	truncated_prefix=0	fetch_error=0	pool=1895	seed=phase8-reverify-2026-05-12-b0603
+2026-05-12T05:11:09Z	batch-0603	INTEGRITY	json_well_formed=PASS	required_keys=PASS	sample_cap=PASS	verdict_sum=PASS	pool_floor=PASS	ids_resolve=PASS	verdicts_valid=PASS	mutation=none	verdict=ALL-PASS
+2026-05-12T05:11:09Z	batch-0603	NEW_FINDING_1	type=new-largest-akn-source-pdf-si	id=si-zm-2006-003-banking-and-financial-services-microfinance-regulations-2006	bytes=3913168	displaces=b0602-si-zm-2018-065-environmental-management-EPR-2498439-bytes
+2026-05-12T05:11:09Z	batch-0603	NEW_FINDING_2	type=smallest-akn-source-pdf-si	id=si-zm-2019-053-national-heritage-conservation-commission-tarbuttite	bytes=11703
+2026-05-12T05:11:09Z	batch-0603	COHORT	stable-pdf-supercohort=162/166	akn-html-act-or-si-drift=119/119	akn-source-pdf-act-or-si=37/37	parliament-acts=114/114	amendment-act=5/5	real-drift=0-across-41-ticks
+2026-05-12T05:11:09Z	batch-0603	WRITE	json=reports/batch-0603-reverify.json	md=reports/batch-0603.md	mutation=none-records-readonly-by-design
+2026-05-12T05:11:09Z	batch-0603	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox	verdict=skipped
+2026-05-12T05:13:06Z	repair-batch-027	IDLE	manifest=48	corrupted=0	ok=48	records=1892	records_fts=1892	pull=ok	fetches=0	repaired=0	verdict=All 48 repair targets fixed — repair worker idle
