@@ -6960,3 +6960,7 @@ test append
 2026-05-12T10:13:08Z	b0611	wrote 7 record JSON files
 2026-05-12T10:13:08Z	b0611	wrote report reports/batch-0611-jiw.md
 2026-05-12T10:13:08Z	b0611	END	verdict=ok phase=priority_a_reparse_deferred new_records=7 backfilled_judgments_meta=3
+2026-05-12T10:15:05Z	b0611	GIT_COMMIT	commit=9583c8c	files=14	verdict=ok-b0590-drain-complete
+2026-05-12T10:15:05Z	b0611	GIT_PUSH	target=origin/main	verdict=ok-4b3c82e..9583c8c
+2026-05-12T10:15:05Z	b0611	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
+2026-05-12T10:15:05Z	b0611	STOP	verdict=tick-complete-priority-a-reparse-deferred	new_records=7	backfilled_judgments_meta=3	deferred_fts5_backlog=12	next-tick=t+60min	next-tick-priority=continue-flushing-b0591-deferred-then-page-8-sweep
