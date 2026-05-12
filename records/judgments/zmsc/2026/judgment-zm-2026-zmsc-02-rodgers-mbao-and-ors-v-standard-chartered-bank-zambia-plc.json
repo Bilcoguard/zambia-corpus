@@ -1,0 +1,47 @@
+{
+  "id": "judgment-zm-2026-zmsc-02-rodgers-mbao-and-ors-v-standard-chartered-bank-zambia-plc",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Rodgers Mbao and Ors v Standard Chartered Bank Zambia Plc (SCZ/07/28/2025) [2026] ZMSC 2 (11 February 2026)",
+  "citation": "[2026] ZMSC 2",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Rodgers Mbao and Ors v Standard Chartered Bank Zambia Plc",
+  "case_number": "SCZ/07/28/2025",
+  "date_decided": "2026-02-11",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "employment-law",
+    "redundancy-benefits",
+    "leave-to-appeal",
+    "court-of-appeal-act-section-13(3)",
+    "statutory-interpretation"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Motion for leave to appeal dismissed; applicants failed to satisfy s 13(3) Court of Appeal Act criteria (point of public importance or compelling reasons) on Employment Code Act 'other benefits' redundancy claim.",
+  "reasoning_tags": [],
+  "key_statutes": [
+    "Court of Appeal Act No. 7 of 2016, s 13(3)",
+    "Employment Code Act No. 3 of 2019, ss 54(1)(d), 55(3), 67(4)"
+  ],
+  "raw_sha256": "5334f74f0b9e17249ac12c9a734fa71773287dc505507798e86eb9604b3fecfd",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2026/2/eng@2026-02-11",
+  "source_hash": "sha256:516b57ffe8aaf8e8aa56bc2a509a917a68a832e1bc486d45639dccf31275915f",
+  "fetched_at": "2026-05-12T17:11:17Z",
+  "parser_version": "0.3.2"
+}

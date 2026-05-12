@@ -8196,3 +8196,99 @@ decision suggested):
   confirmed scanned-PDF cliff on CoA pages 8-9. JIW will default to
   "stay-the-course" (probe page 10 listing + 1-2 candidates) absent
   guidance.
+
+## Phase 8 — Nightly re-verification batch 0619 (2026-05-12T16:32:41Z)
+
+Sample size 8 of pool 1914 (seed `phase8-reverify-2026-05-12-b0619`).
+3 match, 5 drift, 0 fetch_error. None of the drifts indicates corpus
+mutation — all five sit on the well-characterised zambialii.org AKN
+HTML rendering-non-determinism cohort (127/127 `/eng@`-suffix + 14/14
+bare-AKN-path = 141/141 100 % drift across 44 ticks). No record was
+mutated this tick; the entries below are logged for audit
+completeness only.
+
+- `act-zm-2023-010-supplementary-appropriation-2023-act` —
+  drift on https://zambialii.org/akn/zm/act/2023/10/eng@2023-08-17
+  (stored 60d0efb9… / fetched fa57b4bc…). AKN-HTML `/eng@`-suffix
+  rendering non-determinism; no corpus mutation.
+- `act-zm-1994-013-fees-and-fines-act-1994` —
+  drift on https://zambialii.org/akn/zm/act/1994/13/eng@2013-12-19
+  (stored 8946c6b3… / fetched aa2f6735…). AKN-HTML `/eng@`-suffix
+  rendering non-determinism; no corpus mutation.
+- `act-zm-2006-001-supplementary-appropriation-2004-act` —
+  drift on https://zambialii.org/akn/zm/act/2006/1/eng@2006-03-31
+  (stored 672ddf52… / fetched 48baede8…). AKN-HTML `/eng@`-suffix
+  rendering non-determinism; no corpus mutation.
+- `act-zm-2018-008-credit-reporting-act` —
+  drift on https://zambialii.org/akn/zm/act/2018/8/eng@2018-07-31
+  (stored 2bbe2a93… / fetched 61060e0c…). AKN-HTML `/eng@`-suffix
+  rendering non-determinism; no corpus mutation.
+- `si-zm-2019-040-corporate-insolvency-insolvency-practitioner-accreditation-regulations-2019` —
+  drift on https://zambialii.org/akn/zm/act/si/2019/40
+  (stored 4050463c… / fetched 1e4fce71…). Bare-AKN-path SI sub-
+  cohort (no `/eng@` suffix); rendering non-determinism; no corpus
+  mutation.
+
+Cohort tallies post-b0619: stable-PDF supercohort 173/177 (zero real
+drifts across 44 ticks; 4 truncated-stored-hash false drifts
+unchanged). AKN-HTML `/eng@`-suffix Act-or-SI 127/127. AKN-HTML
+bare-path SI 14/14. zambialii akn `/source.pdf` Act-or-SI match
+43/43. Parliament `/acts/` static-PDF match 118/118. See
+`reports/batch-0619.md` for the full cohort table and standing
+recommendations carried forward.
+
+
+## Judgment ingestion batch 0620-jiw (2026-05-12T17:14:53Z)
+
+Pivoted from CoA sweep (scanned-PDF cliff confirmed in b0617–b0618)
+to ZambiaLII Supreme Court 2026 sweep. Ingested **+2 SCZ judgments**;
+catalogued CoA page 10 for next-tick decision.
+
+- INGESTED: `judgment-zm-2026-zmsc-02-rodgers-mbao-and-ors-v-standard-chartered-bank-zambia-plc`
+  ([2026] ZMSC 2; SCZ/07/28/2025; 2026-02-11; outcome=dismissed).
+- INGESTED: `judgment-zm-2026-zmsc-03-manoj-patel-and-anor-v-sanmukh-ramanlal-patel-and-ors`
+  ([2026] ZMSC 3; SCZ/7/29/2025; 2026-02-11; outcome=granted).
+
+### SCZ 2026 publisher-side gap
+
+- **ZMSC 5/2026 absent from publisher's page-1 index** — not a corpus
+  gap, a source-side gap. Will be auto-picked-up next sweep if added.
+
+### CoA page 10 catalogued (10 posts, Sept 2024 era — unprobed)
+
+PDFs NOT fetched this tick. Decision deferred to next tick whether
+to probe one PDF and test the date-threshold hypothesis on the
+scanned-PDF cliff. Catalogue:
+
+1. APP/102/2022 — Zubao Harry Juma v First Quantum Mining and Operations Ltd, Road Division (18 Sept 2024)
+2. APP/192/2022 — Standard Chartered Bank Zambia Plc v Rodgers Mbao + 12 ors (18 Sept 2024) — **CoA predecessor of ZMSC 2/2026 ingested this tick; will be a separate record because separate court / separate proceeding**
+3. APPEAL/204/2022 — Richard Ndonji v Lafarge Zambia Plc (18 Sept 2024)
+4. APP/257/2022 — Katongo Chilufya Elliot v Jonathan Hugh Elliot (04 Sept 2024)
+5. APP/248/2022 — David Mufwaya v Dora Shilute (04 Sept 2024)
+6. APP/138/2022 — Attorney General v David Mumba + 1 (Kondolo SC, Majula, Banda-Bobo JJA)
+7. APP/254/2022 — Amelia Bembe Toco Batista v Zambia National Commercial Bank Plc (variant 1)
+8. APP/254/2022 — same as 7 (variant 2 — possible duplicate post)
+9. (post-19864 slug "19864-2" — orphan/draft, skipped)
+10. APP/98/2023 — Zifa Chirwa v The People (Ngulube, Muzenga, Chembe JJA)
+
+### Operator action items (running list, updated)
+
+- (a) FTS5 rebuild action — COMPLETED at b0608 host-side sweep.
+- (b) `ocrmypdf-scanned-coa-pdfs` repair-worker task — outstanding;
+  **26 records** waiting. Unchanged this tick.
+- (c) Chisumpa Liandisha source-side fix — outstanding.
+- (d) Zanaco Bank v Allan Kandala post-misattachment — outstanding.
+- (e) Maxwell Banda post-no-attachment-stub — outstanding.
+- (f) Operator decision on cliff continuation — **DEFERRED**: JIW
+  pivoted to ZambiaLII SCZ this tick. Next tick options:
+    1. Probe one CoA page-10 PDF (test date-threshold hypothesis).
+    2. Continue ZambiaLII sweep — SCZ 2025 and ZMCC 2026 are next
+       candidate index pages (need fresh dedup pass).
+    3. Continue ZambiaLII High Court sweep (no current coverage).
+- (g) **NEW**: ZMSC 5/2026 publisher-side gap noted (not a corpus
+  bug).
+
+### Pool tallies post-b0620
+
+- records: 1919, records_fts: 1919 (CHECK8 PASS).
+- SCZ coverage: 92 → 94. ZMCC unchanged (85). CoA unchanged (50).

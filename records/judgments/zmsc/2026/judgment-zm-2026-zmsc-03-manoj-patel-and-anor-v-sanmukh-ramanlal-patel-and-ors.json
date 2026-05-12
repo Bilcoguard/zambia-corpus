@@ -1,0 +1,49 @@
+{
+  "id": "judgment-zm-2026-zmsc-03-manoj-patel-and-anor-v-sanmukh-ramanlal-patel-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Manoj Patel and Anor v Sanmukh Ramanlal Patel and Ors (SCZ/7/29/2025) [2026] ZMSC 3 (11 February 2026)",
+  "citation": "[2026] ZMSC 3",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Manoj Patel and Anor v Sanmukh Ramanlal Patel and Ors",
+  "case_number": "SCZ/7/29/2025",
+  "date_decided": "2026-02-11",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "leave-to-appeal",
+    "point-of-law-of-public-importance",
+    "company-law",
+    "directors-fiduciary-duties",
+    "shareholding-and-pacra-records"
+  ],
+  "outcome": "granted",
+  "outcome_detail": "Leave to appeal granted: appeal raises points of law of public importance (fiduciary duties of directors, PACRA records / shareholding) and other compelling reasons; costs abide the appeal.",
+  "reasoning_tags": [],
+  "key_statutes": [
+    "Court of Appeal Act, s 13",
+    "Companies Act No. 10 of 2017",
+    "Constitution of Zambia (Amendment) Act No. 2 of 2016",
+    "Court of Appeal Rules, Statutory Instrument No. 65 of 2016"
+  ],
+  "raw_sha256": "25b6e843dbb1186e973d0a520b0a7083d4ae18507a22f20d0a79701e408cedb9",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2026/3/eng@2026-02-11",
+  "source_hash": "sha256:79cec44ff370d4a10f8ecb9f2f0e79ccb72ef243dcfc5679dec0caffaeb432d3",
+  "fetched_at": "2026-05-12T17:11:17Z",
+  "parser_version": "0.3.2"
+}

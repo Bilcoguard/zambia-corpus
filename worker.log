@@ -7163,3 +7163,32 @@ test append
 2026-05-12T16:32:41Z	b0619	BUDGET	fetches=8	cumulative_today=32/2000	wall_clock=~33s	wall_budget=20min
 2026-05-12T16:32:41Z	b0619	FILES_ON_DISK	reports/batch-0619.md=present	reports/batch-0619-reverify.json=present	worker.log=appended-b0619-entries	costs.log=appended-b0619-entry	provenance.log=appended-b0619-entry	gaps.md=appended-b0619-section
 2026-05-12T16:32:41Z	b0619	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
+2026-05-12T16:39:10Z	repair-batch-034	PRE integrity: ('ok',)
+2026-05-12T16:39:10Z	repair-batch-034	Queue (8): act-zm-2011-030-value-added-tax-amendment-act-2011, act-zm-2012-003-the-anti-corruption-act-2012, act-zm-2012-006-the-persons-with-disabilities-act-2012, act-zm-2012-007-the-civil-aviation-authority-act-2012, act-zm-2012-008-the-re-denomination-of-currency-act-2012, act-zm-2012-010-the-income-tax-amendment-act-2012, act-zm-2012-011-the-medical-levy-repeal-act-2012, act-zm-2012-012-mines-and-minerals-development-amendment-act-2012
+2026-05-12T16:39:10Z	repair-batch-034	[1/8] act-zm-2011-030-value-added-tax-amendment-act-2011  (www.parliament.gov.zm)
+2026-05-12T16:39:11Z	repair-batch-034	  -> OK 943c via pdfplumber  src=13133B
+2026-05-12T16:39:13Z	repair-batch-034	[2/8] act-zm-2012-003-the-anti-corruption-act-2012  (www.parliament.gov.zm)
+2026-05-12T16:39:41Z	repair-batch-034	  -> OK 48442c via ocr(56pp)  src=1870160B
+2026-05-12T16:39:43Z	repair-batch-034	[3/8] act-zm-2012-006-the-persons-with-disabilities-act-2012  (www.parliament.gov.zm)
+2026-05-12T16:40:09Z	repair-batch-034	  -> OK 44401c via ocr(44pp)  src=1273209B
+2026-05-12T16:40:11Z	repair-batch-034	[4/8] act-zm-2012-007-the-civil-aviation-authority-act-2012  (www.parliament.gov.zm)
+2026-05-12T16:40:39Z	repair-batch-034	  -> OK 43146c via ocr(70pp)  src=2087708B
+2026-05-12T16:40:41Z	repair-batch-034	[5/8] act-zm-2012-008-the-re-denomination-of-currency-act-2012  (www.parliament.gov.zm)
+2026-05-12T16:40:47Z	repair-batch-034	  -> OK 11546c via ocr(8pp)  src=180732B
+2026-05-12T16:40:49Z	repair-batch-034	[6/8] act-zm-2012-010-the-income-tax-amendment-act-2012  (www.parliament.gov.zm)
+2026-05-12T16:40:57Z	repair-batch-034	  -> OK 12409c via ocr(8pp)  src=195857B
+2026-05-12T16:40:59Z	repair-batch-034	[7/8] act-zm-2012-011-the-medical-levy-repeal-act-2012  (www.parliament.gov.zm)
+2026-05-12T16:41:00Z	repair-batch-034	  -> OK 622c via ocr(2pp)  src=14681B
+2026-05-12T16:41:02Z	repair-batch-034	[8/8] act-zm-2012-012-mines-and-minerals-development-amendment-act-2012  (www.parliament.gov.zm)
+2026-05-12T16:41:03Z	repair-batch-034	  -> OK 1506c via ocr(1pp)  src=24438B
+2026-05-12T16:41:03Z	repair-batch-034	POST quick_check: ('ok',)    integrity_check: ('ok',)
+2026-05-12T17:13:53Z	b0620-jiw	jiw_tick_start	pre_records=1917 pre_fts=1917
+2026-05-12T17:13:53Z	b0620-jiw	jiw_priority_a_check	no_actionable_deferred_reparse_candidates (b0611-b0613 drained b0590-b0594-b0597 cohorts; b0615+ scanned-pdf-defers belong to repair worker)
+2026-05-12T17:13:53Z	b0620-jiw	jiw_pivot_decision	CoA scanned-PDF cliff confirmed pages 8-9 (b0617 b0618). Default 'stay-the-course' yields zero ingestion. Pivot to priority-c ZambiaLII SCZ 2026 sweep selected autonomously.
+2026-05-12T17:13:53Z	b0620-jiw	jiw_index_fetch	url=https://zambialii.org/judgments/ZMSC/2026/  found=9 entries
+2026-05-12T17:13:53Z	b0620-jiw	jiw_dedup_check	ZMSC 2 NEW (no case_number/title match); ZMSC 3 NEW (no case_number/title match); ZMSC 1/4/6/7/8/9/10 already in corpus; ZMSC 5 absent from publisher index
+2026-05-12T17:13:53Z	b0620-jiw	jiw_ingest	record=judgment-zm-2026-zmsc-02-rodgers-mbao-and-ors-v-standard-chartered-bank-zambia-plc raw_sha256=5334f74f0b9e17249ac12c9a734fa71773287dc505507798e86eb9604b3fecfd pdf_pages=14 outcome=dismissed
+2026-05-12T17:13:53Z	b0620-jiw	jiw_ingest	record=judgment-zm-2026-zmsc-03-manoj-patel-and-anor-v-sanmukh-ramanlal-patel-and-ors raw_sha256=25b6e843dbb1186e973d0a520b0a7083d4ae18507a22f20d0a79701e408cedb9 pdf_pages=36 outcome=granted
+2026-05-12T17:13:53Z	b0620-jiw	jiw_probe	CoA page 10 listing fetched 181KB; 10 posts catalogued (Sept 2024 decisions); pdf probes deferred to next tick given cliff context
+2026-05-12T17:13:53Z	b0620-jiw	jiw_checks	CHECK1-CHECK8 all PASS  records=1919 records_fts=1919  fts_integrity=OK
+2026-05-12T17:13:53Z	b0620-jiw	jiw_tick_end	post_records=1919 post_fts=1919 inserted=2 deferred=0 fetches=5
