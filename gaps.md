@@ -7665,3 +7665,47 @@ Remaining:
 - Live DB Condition C (stub <200) at tick start: 58 → 51.
 - No new gaps introduced. No fabrication. Quality gate passed for all 8 (≥2 legal markers, no digit-line corruption, ≥200 chars).
 - Mitigation: cleared a 66 KB stale corpus.sqlite-journal at tick start (truncate-to-zero + PRAGMA journal_mode=TRUNCATE), per b0610 finding.
+
+## b0613 — 2026-05-12T12:12Z (judgment-ingestion-worker)
+
+**Flushed 5 b0593 v0.4-pending dirty records + 1 b0597 record (Rotor Moulder)** from `raw/judiciary-zm/coa/`. All 6 inserts succeeded against records + judgments_meta + records_fts. FTS5 remained healthy throughout.
+
+**Records inserted (parser v0.4.5-b0613-inline):**
+- `judgment-zm-2025-coa-095-lamasat-international-v-african-banking-corporation-zambia` (APPEAL/095/2024, 2025-12-31, granted) — Chashi JJA single-judge ruling, administrative recusal; would have refused on merits.
+- `judgment-zm-2025-coa-331-jennifer-tembo-njovu-v-administrator-general` (CAZ/08/331/2024, 2025-12-31, dismissed) — Kondolo SC JJA in chambers, appeal dismissed for irregularity (Order 10 Rule 3(5) time-bar).
+- `judgment-zm-2025-coa-170-mukamunya-homeowners-association-v-leslie-szeftel-and-anor` (APP/170/2025, 2025-12-04, remitted) — three-judge panel Chashi/Ngulube/Banda-Bobo JJA, business-premises status established, matter remitted to High Court for rehearing.
+- `judgment-zm-2025-coa-127-philemon-dyamini-v-the-people` (CAZ/09/127/2025, 2025-12-05, granted) — Mchenga DJP single-judge ruling, bail pending appeal granted on prospects-of-success test.
+- `judgment-zm-2025-coa-071-charles-mpundu-v-food-reserve-agency` (SP/71/2024, 2025-12-05, dismissed) — three-judge panel Kondolo SC/Majula/Muzenga JJA, leave to appeal to Supreme Court dismissed.
+- `judgment-zm-2024-coa-211-rotor-moulder-enterprises-v-stanley-jordan-and-others` (APP/211/2022, 2024-12-31, allowed) — three-judge panel Makungu/Muzenga/Chembe JJA, writ of possession set aside on natural-justice grounds (intervenors not served).
+
+**Drained b0593 dirty cohort completely:** all 5 v0.4-pending dirty records now in corpus (case_name and judges cleansed of Coram-line bleed-through; outcome_detail expanded; hand-curated issue/reasoning tags).
+
+**Drained 1 of 2 b0597 records:** Rotor Moulder date_decided extracted from cover line "On 18th June 2024 and 31st December 2024" + "31 DEC 2024" stamp; PDF clean, 20 pages, body 23,019 chars.
+
+**Re-deferred 1 b0597 record:** `judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people` — PDF is **truncated at source**: pdfplumber 0.11.9 extracts 8 pages, but pages 6-8 duplicate pages 1-3 verbatim and the judgment body ends mid-sentence on page 5 ("…stopped by one Elias Tebe a person well known to his passenger.") with no operative paragraph or "Dated at…" stamp. New defer reason: **`truncated-source-pdf-missing-operative-paragraphs`**. Mitigation paths: (a) re-fetch judiciaryzambia.com URL to see if a corrected PDF has since been published; (b) cross-reference ZambiaLII for the same appeal; (c) confirm via cadastre/case-management portal whether a full ruling exists. Defer until alternate source available.
+
+**Remaining deferred-fts5 backlog: 1 record** (was 7).
+- 1 truncated-source-pdf: Chisumpa Liandisha (as above).
+- 0 v0.4-pending dirty.
+- 0 parser-clean.
+- 0 date_decided=null gating.
+
+**Scanned-PDF backlog: 10 records (unchanged).**
+
+**Court of Appeal coverage:** 44 → 50 records (6.25% of 800-judgment target).
+
+**Sweep position next tick (b0614):** `judiciary-coa-sweep: page 8 remaining` (6 unprocessed CoA candidates on judiciaryzambia.com page 8). With v0.4 dirty backlog drained, recommend advancing the sweep next tick — but if FTS5 health probe still PASSes, fetches=0 backlog is fully drained except the truncated-PDF outlier.
+
+**Parser v0.4.5-b0613-inline — minimal upgrade from v0.4.4:**
+- Hand-curated metadata per record (no machine extraction of judges/case_name from Coram blocks this tick — fully manual to avoid bleed-through entirely).
+- Judge role canonicalisation: `JJA` retained for all CoA Justices of Appeal; `DJP` for Deputy Judge President (Mchenga); `SC` post-nominal preserved on Kondolo. All resolve in `judges_registry.yaml` (verified pre-write).
+- Date extraction from cover-line "On X and Y" format defaulted to second date (delivery date) — confirmed for Rotor Moulder via independent "31 DEC 2024" stamp.
+- Direct corpus.sqlite write (no /tmp staging) — host /tmp capacity precedent continues from b0612.
+- PRAGMA journal_mode=TRUNCATE preflight + stale-journal truncate-to-zero (none encountered this tick).
+
+**Recommended next-tick sequence (b0614):**
+1. Re-probe FTS5 health (5 signals).
+2. Take `corpus.sqlite.bak.b0614-pre-flush-...` backup.
+3. Advance `judiciary-coa-sweep: page 8` — fetch 6 candidate posts + their PDFs (within 500/day budget).
+4. Apply parser v0.4.5 (hand-curated) or escalate to v0.5 auto-Coram-stripping regex if scaling beyond per-record curation.
+5. If a Chisumpa re-fetch fits within budget, attempt fresh PDF download to test for truncation-fix at source.

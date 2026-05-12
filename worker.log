@@ -6989,3 +6989,13 @@ test append
 2026-05-12T11:15:30Z	b0612	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
 2026-05-12T11:15:30Z	b0612	STOP	verdict=tick-complete-priority-a-reparse-deferred	new_records=5	b0591_backlog_drained=4	b0593_clean_drained=1	deferred_fts5_backlog=7	next-tick=t+60min	next-tick-priority=drain-b0593-dirty-v04-cohort-5-records-or-advance-coa-page-8-sweep-6-candidates
 2026-05-12T11:14Z repair-corpus b031 NON-IDLE 8 records repaired (2010 parliament Acts: 007/008/009/010/011/020/021/023) — records=1899 fts=1899 delta=0 quick_check=ok manifest_remaining=64/88 mitigation=truncated-stale-66KB-journal post-tick-records-grew-to-1911-via-concurrent-b0611-b0612-jiw-writes
+2026-05-12T12:11:55Z	b0613	START	worker=judgment-ingestion-worker	pull=ok-already-up-to-date	preflight=lock-cleanup-no-stale-virtiofs-mount-clean
+2026-05-12T12:11:55Z	b0613	PRIORITY	chose=A-reparse-deferred	target=b0593-v04-pending-dirty-5records+b0597-rotor-moulder-date-extractable
+2026-05-12T12:11:55Z	b0613	BACKUP	file=corpus.sqlite.bak.b0613-pre-flush-20260512T120747	size=119201792
+2026-05-12T12:11:55Z	b0613	FTS5_PROBE	pre=PASS	post=PASS	probes_passed_throughout=true
+2026-05-12T12:11:55Z	b0613	WRITE	new_records=6	b0593_dirty_drained=5	b0597_rotor_drained=1	parser=v0.4.5-b0613-inline	method=direct-corpus-sqlite-write-no-tmp-staging	journal_mode=TRUNCATE
+2026-05-12T12:11:55Z	b0613	COUNTS	records=1917	records_fts=1917	judgments_meta=227	delta=+6
+2026-05-12T12:11:55Z	b0613	CHECK8	verdict=PASS	records_eq_fts=true
+2026-05-12T12:11:55Z	b0613	DEFER	id=judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people	reason=truncated-source-pdf-missing-operative-paragraphs-only-5-unique-pages-pdfplumber-extracts-5-pages-then-repeats-pgs-1-3
+2026-05-12T12:11:55Z	b0613	COA_COVERAGE	previous=44	current=50	target=800	percent=6.25
+2026-05-12T12:11:55Z	b0613	SWEEP_POSITION	judiciary-coa-sweep=page-8-remaining-6-candidates	deferred-this-tick-in-favour-of-drain

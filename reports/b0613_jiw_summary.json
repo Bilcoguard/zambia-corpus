@@ -1,0 +1,44 @@
+{
+  "batch": "0613",
+  "parser": "v0.4.5-b0613-inline",
+  "ts": "2026-05-12T12:09:41Z",
+  "inserted": [
+    {
+      "id": "judgment-zm-2025-coa-095-lamasat-international-v-african-banking-corporation-zambia",
+      "body_chars": 5780,
+      "paragraphs": 124,
+      "outcome": "granted"
+    },
+    {
+      "id": "judgment-zm-2025-coa-331-jennifer-tembo-njovu-v-administrator-general",
+      "body_chars": 9013,
+      "paragraphs": 197,
+      "outcome": "dismissed"
+    },
+    {
+      "id": "judgment-zm-2025-coa-170-mukamunya-homeowners-association-v-leslie-szeftel-and-anor",
+      "body_chars": 20492,
+      "paragraphs": 421,
+      "outcome": "remitted"
+    },
+    {
+      "id": "judgment-zm-2025-coa-127-philemon-dyamini-v-the-people",
+      "body_chars": 4859,
+      "paragraphs": 113,
+      "outcome": "granted"
+    },
+    {
+      "id": "judgment-zm-2025-coa-071-charles-mpundu-v-food-reserve-agency",
+      "body_chars": 13914,
+      "paragraphs": 275,
+      "outcome": "dismissed"
+    }
+  ],
+  "skipped": [],
+  "errors": [],
+  "post_counts": {
+    "records": 1916,
+    "records_fts": 1916,
+    "judgments_meta": 226
+  }
+}
