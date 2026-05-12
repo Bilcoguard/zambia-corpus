@@ -8004,3 +8004,195 @@ Plus rediscovery probe for Maxwell Banda. Page 8 will then be fully classified; 
 - (b) `ocrmypdf-scanned-coa-pdfs` repair-worker task — outstanding; now **15 records** waiting (was 12).
 - (c) Chisumpa Liandisha source-side fix — outstanding; needs editor contact at judiciaryzambia.com.
 - (d) **NEW**: Zanaco Bank v Allan Kandala post-misattachment — outstanding; needs editor contact at judiciaryzambia.com to fix wrong PDF attachment, or alternate-source retrieval.
+
+## Batch 0617 — judgment-ingestion-worker (b0617-jiw)
+
+**Timestamp:** 2026-05-12T17:11Z
+**Phase:** priority_b — judiciary CoA sweep page 8 completion + page 9 scout
+**Fetches:** 7 (cumulative today 30/500)
+**Records inserted:** 0
+**Records deferred:** 4 (3 scanned-PDF + 1 post-no-attachment stub)
+
+### What happened
+
+Probed the 3 remaining unclassified page-8 posts (Astro Holdings v Edgar Hamuwele, App-311-2021 Transquic, Appeal-117-2024 Frank Lumbwe Kakoma) — all three are scanned-image PDFs with zero extractable text. Deferred to `ocrmypdf-scanned-coa-pdfs` queue. Rediscovered Maxwell Banda via judiciary search; the post exists but is a stub with no PDF attached (new deferral sub-category `post-no-attachment-stub`). Fetched page 9 listing as a scout for next tick (10 posts identified, mostly Oct-Nov 2024 commercial decisions).
+
+### New scanned-PDF backlog entries (+3 → 18 total)
+
+| Slug | Pages | sha256 (first 16) | Raw path |
+|------|-------|-------------------|----------|
+| `judgment-zm-2025-coa-app-75-astro-holdings-v-edgar-hamuwele` | 20 | `92d7372ee5ac2782` | `raw/judiciary-zm/coa/2026/APP-75-2025-Astro-Holdings-Limited-3-Others-and-Edgar-Hamuwele-31-Jun-2025-Coram-Chashi-Banda-Bobo-Muzenga-JJA.pdf` |
+| `judgment-zm-2024-coa-appeal-117-frank-lumbwe-kakoma-v-joseph-mulenga` | 15 | `cebeb26a3d721aa0` | `raw/judiciary-zm/coa/2026/Appeal-117-2024-Frank-Lumbwe-Kakoma-vs-Joseph-Mulenga-2-Others-30-Oct-2024-Coram-Ngulube-Muzenga-Chembe-JJA.pdf` |
+| `judgment-zm-2021-coa-app-311-transquic-v-african-banking-corporation-zambia` | 37 | `fbc309f43dbd7995` | `raw/judiciary-zm/coa/2026/App-311-2021-Transquic-Service-Zambia-Ltd-3-Others-vs-African-Banking-Corporation-Zambia-LTD-Coram-Siavwapa-JP-Chishimba-Banda-Bobo-JJA.pdf` |
+
+All three need OCR via the repair-worker `ocrmypdf-scanned-coa-pdfs` queue.
+
+### New post-no-attachment-stub deferral (+1, new sub-category)
+
+- `caz-08-014-2019-maxwell-banda-vs-andrew-howard-lourie-estates-ltd-apr-2019-justice-d-sichinga`
+  - Post URL: `https://judiciaryzambia.com/caz-08-014-2019-maxwell-banda-vs-andrew-howard-lourie-estates-ltd-apr-2019-justice-d-sichinga/`
+  - HTTP 200 with 166,982 bytes returned, but the post `entry-content` div has zero PDF attachments and zero `.pdf` href links of any kind.
+  - Post is **not** present on judiciary CoA listing pages 6, 7, 8, 9, 10, 11, or 12 (verified across b0615-b0617). It is an orphan reachable only via search.
+  - Resolves b0615 catalogue discrepancy: b0615 over-counted page-8 by 1 — Maxwell Banda was never on page 8 in the canonical CMS listing.
+  - Mitigation: editor contact at judiciaryzambia.com to upload PDF, or alternate-source retrieval (ZambiaLII / Court of Appeal registry direct).
+  - First entry in `post-no-attachment-stub` category (distinct from `post-misattachment` because zero PDFs vs wrong PDF).
+
+### Page 8 final classification (10 posts — page 8 ARCHIVED)
+
+| Post slug | Status | Batch |
+|-----------|--------|-------|
+| `app-165-2024-savenda-management-services-vs-lumwana-mining` | scanned-PDF | b0616 |
+| `app-57-2023-lovemore-gumbo-vs-standard-chartered-bank` | scanned-PDF | b0615 |
+| `app-75-2025-astro-holdings-vs-edgar-hamuwele` | scanned-PDF | **b0617** |
+| `app-181-2023-zanaco-bank-vs-allan-kandala` | post-misattachment | b0616 |
+| `app-304-2022-setrec-steel-and-wood-processing-vs-zanaco` | scanned-PDF | b0616 |
+| `app-211-2022-rotor-moulder-vs-stanley-jordan` | INGESTED | b0613 |
+| `app-24-2024-peter-mutale-vs-davies-mukumbwa` | scanned-PDF | b0616 |
+| `app-311-2021-transquic-vs-african-banking-corp` | scanned-PDF | **b0617** |
+| `appeal-117-2024-frank-lumbwe-kakoma-vs-joseph-mulenga` | scanned-PDF | **b0617** |
+| `appeal-268-2022-mpoyi-mbambu-vs-joserine-trading` | scanned-PDF | b0615 |
+
+Net: 8 scanned-PDF deferrals + 1 post-misattachment + 1 already-ingested = 10 posts. Maxwell Banda is an orphan outside page 8.
+
+### Page 9 scout (10 candidates for next tick)
+
+| # | Post slug | Date | Type |
+|---|-----------|------|------|
+| 1 | `appeal-42-2024-moffat-fungamwango-vs-charl-and-basil-farms` | 07-Nov-2024 | judgment |
+| 2 | `appeal-004-2024-faz-vs-augustine-mukoka` | 07-Nov-2024 | judgment |
+| 3 | `app-313-2022-betty-kulofwa-mailosi-vs-edward-mukelabai-mate` | 30-Oct-2024 | judgment |
+| 4 | `appeal-309-2022-stone-coat-surfacing-zambia-vs-jmz-properties` | 30-Oct-2024 | judgment |
+| 5 | `appeal-96-2024-bwalya-lumbwe-vs-ronald-simwinga-dr` | 31-Oct-2024 | judgment |
+| 6 | `appeal-250-2023-c-and-c-world-trade-vs-r-b-technical-services` | 31-Oct-2024 | judgment |
+| 7 | `sp-70-2024-am-media-vs-bokani-soko` | 01-Nov-2024 | ruling |
+| 8 | `caz-8-298-2024-esther-nyawa-lungu-vs-the-dpp` | 04-Nov-2024 | ruling |
+| 9 | `app-269-2021-sokwani-peter-chilembo-vs-finance-bank-zambia` | 30-Sept-2024 | judgment |
+| 10 | `app-287-2022-nchindika-nankolonga-vs-zambia-national-building-society` | 18-Sept-2024 | judgment |
+
+### Sweep position next tick (b0618)
+
+`judiciary-coa-sweep: page 9, 0 of 10 posts classified`. Page 8 archived.
+
+Recommended approach next tick: probe 4-6 of the 10 candidates above; prefer non-criminal commercial/land/pension judgments to maximise text-PDF yield. Skip the two explicit "ruling" labels (#7 and #8) — interlocutory, often short, less precedential.
+
+### Backlog state
+
+- Deferred-fts5: 1 (Chisumpa Liandisha permanent — unchanged)
+- Deferred-scanned-pdf: **18** (was 15; +3 this tick)
+- Deferred-post-misattachment: 1 (Zanaco — unchanged)
+- Deferred-post-no-attachment-stub: 1 (Maxwell Banda — **NEW**)
+- Court of Appeal coverage: 50 / 800 unchanged (6.25%)
+
+### Operator action items (running list)
+
+- (a) FTS5 rebuild action — **COMPLETED** at b0608 host-side sweep.
+- (b) `ocrmypdf-scanned-coa-pdfs` repair-worker task — outstanding; now **18 records** waiting (was 15).
+- (c) Chisumpa Liandisha source-side fix — outstanding; needs editor contact at judiciaryzambia.com.
+- (d) Zanaco Bank v Allan Kandala post-misattachment — outstanding; needs editor contact at judiciaryzambia.com.
+- (e) **NEW**: Maxwell Banda post-no-attachment-stub — outstanding; needs editor contact at judiciaryzambia.com, or alternate-source retrieval.
+
+## Batch 0618 — judgment-ingestion-worker (b0618-jiw)
+
+**Timestamp:** 2026-05-12T16:30Z
+**Phase:** priority_b — judiciary CoA sweep page 9 full classification
+**Fetches:** 19 (cumulative today 49/500)
+**Records inserted:** 0
+**Records deferred:** 8 (all scanned-PDF)
+**Court of Appeal coverage:** 50 / 800 unchanged (6.25%)
+
+### What happened
+
+Continuation of the judiciary CoA sweep at page 9. Re-fetched the page-9
+listing to obtain canonical full-coram slugs (b0617 scout had recorded
+imprecise short slugs that returned HTTP 404 for 4 of 10 candidates on
+first probe attempt). With canonical slugs, all 8 non-ruling page-9 posts
+were probed by fetching post HTML + first-attached PDF and running
+pdfplumber 0.11.9 on the first three pages.
+
+**Every probed PDF returned zero extractable text — all 8 are scanned-image
+PDFs.** Total downloaded: ~30.2 MB across 8 PDFs.
+
+All 8 deferred to `ocrmypdf-scanned-coa-pdfs` repair-worker queue:
+backlog **18 → 26 records**. Raw PDFs persisted at
+`raw/judiciary-zm/coa/2026/<filename>.pdf` with sha256 captured.
+
+The two rulings on page 9 (#7 `sp-70-2024-am-media`, #8 `caz-8-298-2024-esther-nyawa-lungu`)
+were intentionally skipped per b0617 next-tick guidance — interlocutory
+character, low precedential value, not in the 800-target priority list.
+
+### New scanned-PDF backlog entries (+8 → 26 total)
+
+| Proposed ID | sha256 (first 16) | pp | MB | raw_path |
+|---|---|---:|---:|---|
+| `judgment-zm-2024-coa-42-moffat-fungamwango-v-charl-and-basil-farms` | (in provenance.log) | 16 | 2.79 | `raw/judiciary-zm/coa/2026/Appeal-42-2024-Moffat-Fungamwango-vs-Charl-and-Basil-Farms-…pdf` |
+| `judgment-zm-2024-coa-4-faz-v-augustine-mukoka` | (in provenance.log) | 14 | 2.25 | `raw/judiciary-zm/coa/2026/Appeal-004-2024-Football-Association-of-ZambiaFAZ-vs-Augustine-Mukoka-…pdf` |
+| `judgment-zm-2022-coa-313-betty-kulofwa-mailosi-makalu-v-edward-mukelabai-mate` | (in provenance.log) | 23 | 3.45 | `raw/judiciary-zm/coa/2026/App-313-2022-Betty-Kulofwa-Mailosi-Makalu-…pdf` |
+| `judgment-zm-2022-coa-309-stone-coat-surfacing-v-jmz-properties` | (in provenance.log) | 16 | 2.24 | `raw/judiciary-zm/coa/2026/Appeal-309-2022-Stone-Coat-Surfacing-…pdf` |
+| `judgment-zm-2024-coa-96-bwalya-lumbwe-v-ronald-simwinga` | (in provenance.log) | 19 | 3.32 | `raw/judiciary-zm/coa/2026/Appeal-96-2024-Bwalya-Lumbwe-vs-Ronald-Simwinga-DR-…pdf` |
+| `judgment-zm-2023-coa-250-c-and-c-world-trade-v-r-b-technical-services` | (in provenance.log) | 18 | 2.82 | `raw/judiciary-zm/coa/2026/Appeal-250-2023-C-and-C-World-Trade-…pdf` |
+| `judgment-zm-2021-coa-269-sokwani-peter-chilembo-v-finance-bank-zambia` | (in provenance.log) | 27 | 5.21 | `raw/judiciary-zm/coa/2026/App-269-2021-Sokwani-Peter-Chilembo-…pdf` |
+| `judgment-zm-2022-coa-287-nchindika-nankolonga-v-zambia-national-building-society` | (in provenance.log) | 43 | 7.82 | `raw/judiciary-zm/coa/2026/App-287-2022-Nchindika-Nankolonga-…pdf` |
+
+All 8 require OCR via repair-worker `ocrmypdf-scanned-coa-pdfs` queue.
+Sha256 values captured in `provenance.log` (entries timestamped
+`2026-05-12T16:30:00Z` with batch tag `batch-0618-jiw`).
+
+### Page 9 final classification (10 posts — page 9 ARCHIVED)
+
+| # | Post slug | Date | Status | Batch |
+|---|-----------|------|--------|-------|
+| 1 | `appeal-42-2024-moffat-fungamwango-vs-charl-and-basil-farms` | 2024-11-07 | scanned-PDF | b0618 |
+| 2 | `appeal-004-2024-football-association-of-zambiafaz-vs-augustine-mukoka` | 2024-11-07 | scanned-PDF | b0618 |
+| 3 | `app-313-2022-betty-kulofwa-mailosi-makalu-vs-edward-mukelabai-mate` | 2024-10-30 | scanned-PDF | b0618 |
+| 4 | `appeal-309-2022-stone-coat-surfacing-zambia-vs-jmz-properties` | 2024-10-30 | scanned-PDF | b0618 |
+| 5 | `appeal-96-2024-bwalya-lumbwe-vs-ronald-simwinga-dr` | 2024-10-31 | scanned-PDF | b0618 |
+| 6 | `appeal-250-2023-c-and-c-world-trade-vs-r-b-technical-services` | 2024-10-31 | scanned-PDF | b0618 |
+| 7 | `sp-70-2024-am-media-vs-bokani-soko` | 2024-11-01 | ruling — skipped | n/a |
+| 8 | `caz-8-298-2024-esther-nyawa-lungu-vs-the-dpp` | 2024-11-04 | ruling — skipped | n/a |
+| 9 | `app-269-2021-sokwani-peter-chilembo-vs-finance-bank-zambia` | 2024-09-30 | scanned-PDF | b0618 |
+| 10 | `app-287-2022-nchindika-nankolonga-vs-zambia-national-building-society` | 2024-09-18 | scanned-PDF | b0618 |
+
+Net page 9: 8 scanned-PDF deferrals + 2 rulings intentionally skipped =
+10 posts classified.
+
+### Trend observation — scanned-PDF cliff confirmed
+
+The b0615 hypothesis that "page 8 of CoA listings contains a higher
+share of scanned-PDF candidates than page 7 did" is now strongly
+confirmed at b0618. Page 8 ran 8-of-9 scanned (89%). Page 9 ran
+8-of-8 scanned (100%). The chronological cliff appears to land around
+end-of-Q3/early-Q4 2024 in the judiciary upload pipeline.
+
+**Implication for sweep planning:** continuing the JIW sweep onto
+pages 10+ at the current rate will produce 0 ingestions per tick
+(text-PDF yield is zero) while consuming ~3 MB × 8 = 24 MB/page of
+bandwidth and adding to the OCR backlog. The repair-worker
+`ocrmypdf-scanned-coa-pdfs` queue is now the binding constraint on
+Court of Appeal coverage growth.
+
+### Sweep position next tick (b0619)
+
+`judiciary-coa-sweep: page 10` — 0 of N posts classified.
+
+Page 9 is ARCHIVED. Recommended next-tick approaches (operator
+decision suggested):
+
+1. **Stay-the-course**: fetch page 10 listing, probe 1-2 candidates only,
+   confirm scanned-PDF cliff, continue catalogue.
+2. **Pivot to ZambiaLII** (priority (c) SCZ sweep or (d) ZMCC sweep) —
+   ZambiaLII HTML ingestion is not blocked by scanned-PDF issue.
+3. **Pause CoA sweep** until OCR backlog (now 26 records) is drained
+   by the repair-worker.
+
+### Operator action items (running list)
+
+- (a) FTS5 rebuild action — COMPLETED at b0608 host-side sweep.
+- (b) `ocrmypdf-scanned-coa-pdfs` repair-worker task — outstanding;
+  now **26 records** waiting (was 18). +8 page-9 records added this tick.
+- (c) Chisumpa Liandisha source-side fix — outstanding.
+- (d) Zanaco Bank v Allan Kandala post-misattachment — outstanding.
+- (e) Maxwell Banda post-no-attachment-stub — outstanding.
+- (f) **NEW**: operator decision on continue-vs-pivot given the now-
+  confirmed scanned-PDF cliff on CoA pages 8-9. JIW will default to
+  "stay-the-course" (probe page 10 listing + 1-2 candidates) absent
+  guidance.

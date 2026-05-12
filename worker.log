@@ -7118,3 +7118,33 @@ test append
 2026-05-12T15:30:00Z	b0616	GIT_PUSH	verdict=deferred-to-host-side-sweep	reason=index.lock-EPERM
 2026-05-12T15:30:00Z	b0616	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
 2026-05-12T15:30:00Z	b0616	STOP	verdict=tick-complete-page-8-probed-4-new-candidates-3-scanned-PDF-deferrals-1-post-misattachment-deferral-no-corpus-mutation-FTS5-healthy-throughout	new_records=0	deferred=4-3-scanned-1-misattachment	next-tick=t+60min	next-tick-priority=probe-astro-holdings-transquic-frank-lumbwe-kakoma-on-page-8-then-advance-to-page-9
+2026-05-12T17:11:00Z b0617 START phase=priority-b-page-8-completion sweep=judiciary-coa-page-8-remaining-3-candidates+1-rediscovery+page-9-scout budget=7-fetches-est wall=20min cumulative_pre=23/500
+2026-05-12T17:11:00Z b0617 GIT_PULL verdict=already-up-to-date warning=git-maintenance.lock-EPERM-non-fatal
+2026-05-12T17:11:00Z b0617 FETCH 1 https://judiciaryzambia.com/app-75-2025-astro-holdings-limited-3-others-and-edgar-hamuwele-31-jun-2025-coram-chashi-banda-bobo-muzenga-jja/ HTTP=200 bytes=166474
+2026-05-12T17:11:00Z b0617 FETCH 2 https://judiciaryzambia.com/app-311-2021-transquic-service-zambia-ltd-siavwapa-jp-chishimba-banda-bobo-jja/ HTTP=200 bytes=166516
+2026-05-12T17:11:00Z b0617 FETCH 3 https://judiciaryzambia.com/appeal-117-2024-frank-lumbwe-kakoma-vs-joseph-mulenga-2-others-30-oct-2024-coram-ngulube-muzenga-chembe-jja/ HTTP=200 bytes=166352
+2026-05-12T17:11:00Z b0617 FETCH 4 https://judiciaryzambia.com/wp-content/uploads/2025/02/App-311-2021-Transquic-Service-Zambia-Ltd-3-Others-vs-African-Banking-Corporation-Zambia-LTD-Coram-Siavwapa-JP-Chishimba-Banda-Bobo-JJA.pdf HTTP=200 bytes=5572012 time=15.3s
+2026-05-12T17:11:00Z b0617 FETCH 5 https://judiciaryzambia.com/?s=Maxwell+Banda HTTP=200 bytes=160312
+2026-05-12T17:11:00Z b0617 FETCH 6 https://judiciaryzambia.com/caz-08-014-2019-maxwell-banda-vs-andrew-howard-lourie-estates-ltd-apr-2019-justice-d-sichinga/ HTTP=200 bytes=166982 verdict=STUB-no-pdf-attached
+2026-05-12T17:11:00Z b0617 FETCH 7 https://judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/page/9/ HTTP=200 bytes=182247 posts_found=10
+2026-05-12T17:11:00Z b0617 PDF_PROBE astro pages=20 text_chars=0 verdict=scanned
+2026-05-12T17:11:00Z b0617 PDF_PROBE frank-lumbwe-kakoma pages=15 text_chars=0 verdict=scanned
+2026-05-12T17:11:00Z b0617 PDF_PROBE transquic pages=37 text_chars=0 verdict=scanned
+2026-05-12T17:11:00Z b0617 DEFER_SCANNED_PDF id=judgment-zm-2025-coa-app-75-astro-holdings-v-edgar-hamuwele raw_path=raw/judiciary-zm/coa/2026/APP-75-2025-Astro-Holdings-Limited-3-Others-and-Edgar-Hamuwele-31-Jun-2025-Coram-Chashi-Banda-Bobo-Muzenga-JJA.pdf sha256=92d7372ee5ac2782 queue=ocrmypdf-scanned-coa-pdfs
+2026-05-12T17:11:00Z b0617 DEFER_SCANNED_PDF id=judgment-zm-2024-coa-appeal-117-frank-lumbwe-kakoma-v-joseph-mulenga raw_path=raw/judiciary-zm/coa/2026/Appeal-117-2024-Frank-Lumbwe-Kakoma-vs-Joseph-Mulenga-2-Others-30-Oct-2024-Coram-Ngulube-Muzenga-Chembe-JJA.pdf sha256=cebeb26a3d721aa0 queue=ocrmypdf-scanned-coa-pdfs
+2026-05-12T17:11:00Z b0617 DEFER_SCANNED_PDF id=judgment-zm-2021-coa-app-311-transquic-v-african-banking-corporation-zambia raw_path=raw/judiciary-zm/coa/2026/App-311-2021-Transquic-Service-Zambia-Ltd-3-Others-vs-African-Banking-Corporation-Zambia-LTD-Coram-Siavwapa-JP-Chishimba-Banda-Bobo-JJA.pdf sha256=fbc309f43dbd7995 queue=ocrmypdf-scanned-coa-pdfs
+2026-05-12T17:11:00Z b0617 DEFER_POST_NO_ATTACHMENT_STUB id=caz-08-014-2019-maxwell-banda-vs-andrew-howard-lourie-estates-ltd reason=judiciary-zambia-com-post-exists-but-no-pdf-attached-zero-file-links-in-entry-content-post-orphan-not-on-any-coa-listing-page new-sub-category
+2026-05-12T17:11:00Z b0617 INTEGRITY check1_judges_per_record=N/A-no-writes check2_issue_tags_nonempty=N/A check3_outcome_enum=N/A check4_judges_in_registry=N/A check5_no_dup_ids=N/A check6_raw_sha256=PASS-3-pdfs-hashed-and-recorded check7_no_dup_case_name=N/A check8_records_eq_fts=PASS-1917-eq-1917
+2026-05-12T17:11:00Z b0617 BUDGET fetches=7 cumulative_today=30/500 wall_clock=~5min wall_budget=20min bytes=~6.58MB
+2026-05-12T17:11:00Z b0617 PAGE_8_FULLY_CLASSIFIED 10-posts 8-scanned-pdf-deferrals 1-post-misattachment 1-already-ingested-rotor-moulder maxwell-banda-orphan-stub-not-on-page-8
+2026-05-12T17:11:00Z b0617 GIT_LOCK_OBSERVATION .git/objects/maintenance.lock=blocked-by-FUSE-EPERM-non-fatal same-pattern-as-b0608-onwards
+2026-05-12T17:11:00Z b0617 FILES_ON_DISK reports/batch-0617-jiw.md=present worker.log=appending costs.log=appended-tsv-and-json provenance.log=appended-5-entries gaps.md=appending raw_pdfs=1-new-transquic-saved+2-already-on-disk-astro-frank raw_post_htmls=4-saved raw_listing=1-page-9-saved raw_search=1-maxwell-banda-saved
+2026-05-12T17:11:00Z b0617 GIT_PUSH verdict=deferred-to-host-side-sweep reason=index.lock-EPERM-FUSE-mount-precedent-since-b0334
+2026-05-12T17:11:00Z b0617 B2_SYNC verdict=deferred-to-host reason=rclone-not-in-sandbox
+2026-05-12T17:11:00Z b0617 STOP verdict=tick-complete-page-8-fully-classified-3-scanned-PDF-deferrals-1-post-no-attachment-stub-deferral-page-9-scouted-no-corpus-mutation-FTS5-healthy-throughout new_records=0 deferred=4-3-scanned-1-stub next-tick=t+60min next-tick-priority=probe-4-to-6-page-9-candidates-prefer-non-criminal-non-ruling-commercial-judgments
+2026-05-12T16:30:00Z b0618 START phase=priority_b judiciary-coa-sweep-page-9-full-classification budget_today_pre=30/500
+2026-05-12T16:30:00Z b0618 PROBE n=8 results=8-scanned-pdf-zero-text-pdfs zero-postfetch-errors-after-canonical-slug-rebaseline
+2026-05-12T16:30:00Z b0618 CHECK1=N/A CHECK2=N/A CHECK3=N/A CHECK4=N/A CHECK5=PASS-no-new-ids CHECK6=N/A CHECK7=N/A CHECK8=PASS-records-1917-records_fts-1917-unchanged FTS5_integrity_check=PASS
+2026-05-12T16:30:00Z b0618 GIT_PUSH verdict=attempting
+2026-05-12T16:30:00Z b0618 B2_SYNC verdict=deferred-to-host reason=rclone-not-in-sandbox
+2026-05-12T16:30:00Z b0618 STOP verdict=tick-complete-page-9-fully-classified-8-scanned-PDF-deferrals-zero-text-PDFs-confirmed-scanned-pdf-cliff-no-corpus-mutation-FTS5-healthy-throughout new_records=0 deferred=8-scanned next-tick=t+60min next-tick-priority=page-10-listing-then-operator-pivot-decision-recommended
