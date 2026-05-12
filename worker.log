@@ -6840,3 +6840,4 @@ test append
 2026-05-12T06:09:52Z	batch-0606-jiw	GIT_PUSH	target=origin/main	verdict=ok-6800396..b48d60f
 2026-05-12T06:09:52Z	batch-0606-jiw	STOP	verdict=tick-complete-fts5-blocked-readonly-no-mutation-3-of-5-readonly-confirmation-ticks	next-tick=t+60min	recommendation=read-only-confirmation-4-of-5
 2026-05-12T06:12:41Z	repair-worker	IDLE	All 48 repair targets fixed — repair worker idle
+2026-05-12T07:02:38Z	repair-worker	STOP	verdict=idle-no-corruption-remaining	commit=a8fc7a2	next-tick=on-schedule
