@@ -6916,3 +6916,21 @@ test append
 2026-05-12T08:14:57Z	batch-0609	GIT_PUSH	target=origin/main	verdict=ok-50515f8..1d1188e
 2026-05-12T08:14:57Z	batch-0609	STOP	verdict=tick-complete-priority-a-flush	new_records=4	deferred_fts5_backlog=22	next-tick=t+60min	next-tick-priority=continue-flushing-archived-deferred-then-page-8-sweep
 2026-05-12T08:19:39Z repair-corpus b030 NON-IDLE 8 records repaired (2000-2010 parliament Acts via OCR) — records=1896 fts=1896 delta=0 quick_check=ok manifest_remaining=72/88
+2026-05-12T09:00Z	b0610	judgment-ingestion-worker	START
+2026-05-12T09:01Z	b0610	git pull --ff-only OK (after .git/refs/remotes/origin/main.lock.bak-final2-e1069a02 stale-empty-ref overwrite with valid sha)
+2026-05-12T09:02Z	b0610	budget check 24/500 fetches today — OK
+2026-05-12T09:03Z	b0610	gaps.md inspection — 22 deferred-fts5 + 10 scanned-pdf backlog; next-tick recommendation: flush b0592 archive (3 records)
+2026-05-12T09:05Z	b0610	pdfplumber 0.11.9 body extract: 3/3 PDFs OK (17,944 / 23,953 / 24,496 chars; all >200, digit_ratio<0.40)
+2026-05-12T09:07Z	b0610	pre-flush corpus.sqlite backup: corpus.sqlite.bak.b0610-pre-flush-20260512T090948Z (118 MB)
+2026-05-12T09:08Z	b0610	pre-flush FTS5 health: quick_check=ok integrity_check=ok records=records_fts=1896 match-court=669
+2026-05-12T09:09Z	b0610	dedup pre-insert: 3/3 candidates new (no id-match, no case_number-match, name-match against unrelated SI regulation only)
+2026-05-12T09:10Z	b0610	INSERT records×3 + records_fts×3 — completed at sub-fsync level
+2026-05-12T09:10Z	b0610	WARN: sqlite3.OperationalError disk I/O error at commit — stale rollback journal hazard (66KB corpus.sqlite-journal left from prior tick)
+2026-05-12T09:11Z	b0610	MITIGATE: f.truncate(0) on corpus.sqlite-journal + PRAGMA journal_mode=TRUNCATE — per repair-batch-029 finding
+2026-05-12T09:11Z	b0610	post-mitigate verify: records=1899 records_fts=1899 integrity=ok quick=ok — inserts persisted despite commit-phase error
+2026-05-12T09:12Z	b0610	CHECK1-CHECK8 all PASS
+2026-05-12T09:12Z	b0610	FTS search smoke test: 'Simfukwe'→1, 'Bernard Fundi'→1, 'court'→672
+2026-05-12T09:13Z	b0610	Court of Appeal coverage 29 → 32 (target 800; +0.4% of total)
+2026-05-12T09:14Z	b0610	wrote reports/batch-0610-jiw.md and /tmp/b0610/tick_state.json
+2026-05-12T09:14Z	b0610	rclone NOT in sandbox — B2 sync DEFERRED to host
+2026-05-12T09:15Z	b0610	END — deferred-fts5 backlog 22 → 19; scanned-pdf backlog 10 (unchanged); user-agent KateWestonLegal-CorpusBuilder/1.0 (contact: peter@bilcoguard.com)

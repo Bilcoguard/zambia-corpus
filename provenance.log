@@ -4316,3 +4316,23 @@ Next-tick recommendation: ZMSC 2024 nums 10..3.
 2026-05-12T08:13:33Z	b0609	INSERT	id=judgment-zm-2025-coa-039-willard-hamunyangwa-and-2-others-v-the-people	case_number=APP/39-40-41/2023	source=judiciaryzambia.com-CoA	parser=0.4.1-inline-b0609	re-flush-from=b0594-archive
 2026-05-12T08:13:33Z	b0609	INSERT	id=judgment-zm-2025-coa-032-starford-chimanga-v-the-people	case_number=APP/32/2024	source=judiciaryzambia.com-CoA	parser=0.4.1-inline-b0609	re-flush-from=b0594-archive
 2026-05-12T08:13:33Z	b0609	INSERT	id=judgment-zm-2025-coa-027-collins-ncube-v-the-people	case_number=APP/27/2024	source=judiciaryzambia.com-CoA	parser=0.4.1-inline-b0609	re-flush-from=b0594-archive
+
+## [2026-05-12T09:00–09:15Z] JIW batch-0610 — b0592 deferred-fts5 flush
+
+**+3 Court of Appeal records.** Zero new fetches (pure on-disk reparse from `raw/judiciary-zm/coa/_deferred/b0592_parsed_records.json` archive).
+
+| ID | Case | Case no. | Date | Outcome | sha256 (raw PDF) |
+|----|------|----------|------|---------|------------------|
+| `judgment-zm-2026-coa-210-clifford-simfukwe-v-zesco` | Clifford Simfukwe v Zesco | APP/210/2023 | 2026-01-29 | dismissed | `23bfc9c2…6167a80` |
+| `judgment-zm-2026-coa-291-bank-of-zambia-v-bernard-fundi` | Bank of Zambia v Bernard Fundi | APP/291/2024 | 2026-01-27 | dismissed | `2c148e99…bda8ab17` |
+| `judgment-zm-2026-coa-304-julian-sichalwe-v-saturina-regna-pension-trust-limited-lumwana-mining-company-li` | Julian Sichalwe v Saturina Regna Pension Trust Ltd & Lumwana Mining Company Ltd | APP/304/2024 | 2026-01-27 | dismissed | `4699f830…0a9178b` |
+
+Source URLs (judiciaryzambia.com post pages — direct PDF URLs stored in `source_url_pdf` field within JSON records):
+- https://judiciaryzambia.com/appeal-210-2023-clifford-simfukwe-vs-zesco-29-jan-2026-coram-justice-kondolo-sc-makungu-chembe-jja/
+- https://judiciaryzambia.com/appeal-291-2024-bank-of-zambia-vs-bernard-fundi-27-jan-2026-coram-justice-kondolo-majula-muzenga-jja/
+- https://judiciaryzambia.com/appeal-304-2024-julian-sichalwe-vs-saturina-regna-pension-trust-limited-lumwana-mining-company-limited-27-jan-2026-coram-justice-siavwapa-jp-chishimba-patel-jja/
+
+Parser version: `0.4.2-inline-b0610` (issue_tags narrowed from over-broad v0.3.x output via body-frequency-rank top-6-with-min-1-hit filter).
+Pre-flush DB backup: `corpus.sqlite.bak.b0610-pre-flush-20260512T090948Z` (118 MB).
+records 1896→1899; records_fts 1896→1899. PRAGMA quick_check + integrity_check OK pre and post.
+Stale rollback journal hazard re-observed and mitigated via `journal_mode=TRUNCATE` per repair-batch-029. B2 sync deferred to host (rclone unavailable in sandbox). User-Agent `KateWestonLegal-CorpusBuilder/1.0 (contact: peter@bilcoguard.com)`.

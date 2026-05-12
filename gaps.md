@@ -7548,3 +7548,38 @@ no digit-line corruption, legal markers present).
 
 Remaining manifest backlog: 72/88 items still need repair (see
 reports/repair-batch-030.md §8 for breakdown).
+
+## [2026-05-12T09:15Z] JIW batch-0610 — second flush after b0607 host-side FTS5 rebuild
+
+**Tick verdict:** +3 Court of Appeal records ingested from `b0592` deferred-fts5 archive (zero new fetches).
+FTS5 remained healthy through writes — host-side rebuild durability confirmed across consecutive flush ticks (b0609 +4, b0610 +3).
+
+**Records inserted:**
+- `judgment-zm-2026-coa-210-clifford-simfukwe-v-zesco` (APP/210/2023, 2026-01-29, dismissed)
+- `judgment-zm-2026-coa-291-bank-of-zambia-v-bernard-fundi` (APP/291/2024, 2026-01-27, dismissed)
+- `judgment-zm-2026-coa-304-julian-sichalwe-v-saturina-regna-pension-trust-limited-lumwana-mining-company-li` (APP/304/2024, 2026-01-27, dismissed)
+
+**Deferred-FTS5 backlog: 22 → 19.**
+Drained: all 3 b0592 archived records.
+Remaining:
+- 7 records from b0590 (parsed JSON NOT archived; needs fresh parse from raw PDFs)
+- 4 records from b0591 (parsed JSON NOT archived; needs fresh parse from raw PDFs)
+- 1 parser-clean + 5 v0.4-pending dirty from b0593
+- 2 records from b0597 (`date_decided=null` on both — gating decision needed)
+
+**Scanned-PDF backlog: 10 records (unchanged).**
+
+**Sweep position next tick (b0611):** `judiciary-coa-sweep: page 8 remaining` (6 unprocessed CoA candidates on judiciaryzambia.com page 8). Sweep deferred for now while archived backlog drain continues.
+
+**Court of Appeal coverage:** 29 → 32 records (4.0% of 800-judgment target).
+
+**Stale rollback journal hazard re-observed (third consecutive observation across repair-029 / b0608 / b0610).** Mitigation via `f.truncate(0)` + `PRAGMA journal_mode=TRUNCATE` works reliably. **Recommend SKILL.md preflight addition:** `PRAGMA journal_mode=TRUNCATE` on every fresh DB open BEFORE first write, plus pre-tick scan-and-truncate of any `corpus.sqlite-journal`.
+
+**Parser v0.4.2 improvement (issue_tags constraint):** narrowed b0592 over-broad keyword-match tags (12 candidate tags per record) to body-frequency-rank top-6 retain-min-1-hit. Resulting tag sets are now decision-specific. Same approach should retroactively apply when the remaining b0590, b0591 records are re-parsed from raw PDFs next tick.
+
+**Recommended next-tick sequence (b0611):**
+1. Re-probe FTS5 health (5 signals).
+2. Take `corpus.sqlite.bak.b0611-pre-flush-...` backup.
+3. Re-parse 7 b0590 raw PDFs from `raw/judiciary-zm/coa/` (slugs in worker.log b0590 entry).
+4. Flush b0593 parser-clean record (1 record; case_name needs v0.4.2 cleanup).
+5. If time allows, advance to page-8 CoA sweep.
