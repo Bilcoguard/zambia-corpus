@@ -7289,3 +7289,53 @@ the b0603 report (`reports/batch-0603-jiw.md` § Diagnostic findings).
 ### Mutations this tick
 
 Zero. No corpus.sqlite changes. Only log/report/gaps.md text appends.
+
+---
+
+## JIW b0606 — Read-only confirmation tick (2026-05-12T06:08:12Z)
+
+**22nd consecutive FTS5-blocked tick. 11th operator escalation.**
+
+### Tick state (UNCHANGED from b0605)
+
+```
+PRAGMA integrity_check(records)  → ok                                  (unchanged)
+PRAGMA quick_check               → "database disk image is malformed"  (unchanged)
+SELECT COUNT(*) FROM records      → 1892                               (unchanged)
+SELECT COUNT(*) FROM records_fts  → 1892                               (CHECK8 PASS by count)
+SELECT MIN/MAX(rowid), COUNT(*) records_fts → (1, 2011, 1892) — 119 gaps (unchanged)
+md5(corpus.sqlite)                → 686f8197193a27b0f979156b833352fa   (unchanged)
+size(corpus.sqlite)               → 116,457,472 bytes                  (unchanged)
+```
+
+The `INSERT INTO records_fts(records_fts) VALUES('integrity-check')` probe
+from b0603 was deliberately omitted this tick (continues b0605 posture).
+All probes were strictly read-only (`mode=ro` URI) `PRAGMA`s and `SELECT`s.
+
+### Backlog (UNCHANGED)
+
+- deferred-fts5: 26 parser-clean records awaiting rebuild
+  - b0590: 7, b0591: 4, b0592: 3, b0593: 6, b0594: 4, b0597: 2
+- deferred-scanned-pdf: 10 records awaiting `ocrmypdf` (not in sandbox)
+
+### Sweep position (UNCHANGED)
+
+`judiciary-coa-sweep: page 8 remaining` — 6 unprocessed COA candidates on judiciaryzambia.com page 8.
+
+### Read-only confirmation tick counter
+
+This is the **3rd of 5** consecutive read-only confirmation ticks per
+b0603's escalation guidance (continued by b0605). After 2 more such
+ticks (b0607 = 4-of-5, b0608 = 5-of-5) without operator action, JIW
+will append a "JIW completion suggested — awaiting human sign-off"
+line to worker.log (does NOT flip approvals.yaml `complete: true`).
+
+### Recommendation for next JIW tick
+
+Continue read-only confirmation ticks (no schema mutations, no fetches)
+until operator performs the records-table dump-and-rebuild described in
+the b0603 report (`reports/batch-0603-jiw.md` § Diagnostic findings).
+
+### Mutations this tick
+
+Zero. No corpus.sqlite changes. Only log/report/gaps.md text appends.
