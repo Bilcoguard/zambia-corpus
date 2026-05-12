@@ -6999,3 +6999,32 @@ test append
 2026-05-12T12:11:55Z	b0613	DEFER	id=judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people	reason=truncated-source-pdf-missing-operative-paragraphs-only-5-unique-pages-pdfplumber-extracts-5-pages-then-repeats-pgs-1-3
 2026-05-12T12:11:55Z	b0613	COA_COVERAGE	previous=44	current=50	target=800	percent=6.25
 2026-05-12T12:11:55Z	b0613	SWEEP_POSITION	judiciary-coa-sweep=page-8-remaining-6-candidates	deferred-this-tick-in-favour-of-drain
+2026-05-12T12:14:06Z	b0613	GIT_COMMIT	commit=786803c	files=6	verdict=ok-b0593-dirty-fully-drained-b0597-rotor-drained-chisumpa-redeferred-truncated-source-pdf
+2026-05-12T12:14:06Z	b0613	GIT_PUSH	target=origin/main	verdict=ok-37f5d06..786803c
+2026-05-12T12:14:06Z	b0613	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
+2026-05-12T12:14:06Z	b0613	STOP	verdict=tick-complete-priority-a-reparse-deferred-fully-drained	new_records=6	b0593_dirty_drained=5	b0597_drained=1	b0597_redeferred=1	deferred_fts5_backlog=1	next-tick=t+60min	next-tick-priority=advance-judiciary-coa-sweep-page-8-6-candidates-OR-reattempt-chisumpa-refetch
+2026-05-12T12:15:35Z	repair-batch-032	PRE integrity: ('ok',)
+2026-05-12T12:15:35Z	repair-batch-032	Queue (8): act-zm-1989-023-national-heritage-conservation-commission-act-1989, act-zm-1989-024-coffee-act-1989, act-zm-1996-003-entertainment-tax-repeal-act, act-zm-1996-008-estate-duty-repeal-act-1996, act-zm-2008-012-the-public-procurement, act-zm-2010-033-wrestling-control-amendment-act-2010, act-zm-2010-045-veterinary-and-veterinary-para-professions-2010, act-zm-2010-048-value-added-tax-amendment
+2026-05-12T12:15:35Z	repair-batch-032	[1/8] act-zm-1989-023-national-heritage-conservation-commission-act-1989  (www.zambialii.org)
+2026-05-12T12:15:35Z	repair-batch-032	  zambialii try -> https://www.zambialii.org/akn/zm/act/1989/23/eng@1996-12-31/source.pdf
+2026-05-12T12:15:39Z	repair-batch-032	  -> OK 51812c via zlii_pdfplumber  src=317600B
+2026-05-12T12:15:41Z	repair-batch-032	[2/8] act-zm-1989-024-coffee-act-1989  (zambialii.org)
+2026-05-12T12:15:41Z	repair-batch-032	  zambialii try -> https://zambialii.org/akn/zm/act/1989/24/eng@1996-12-31/source.pdf
+2026-05-12T12:15:44Z	repair-batch-032	  -> OK 54609c via zlii_pdfplumber  src=316535B
+2026-05-12T12:15:46Z	repair-batch-032	[3/8] act-zm-1996-003-entertainment-tax-repeal-act  (zambialii.org)
+2026-05-12T12:15:46Z	repair-batch-032	  zambialii try -> https://zambialii.org/akn/zm/act/1996/3/eng@1996-12-31/source.pdf
+2026-05-12T12:15:47Z	repair-batch-032	  -> OK 2188c via zlii_pdfplumber  src=147491B
+2026-05-12T12:15:49Z	repair-batch-032	[4/8] act-zm-1996-008-estate-duty-repeal-act-1996  (zambialii.org)
+2026-05-12T12:15:49Z	repair-batch-032	  zambialii try -> https://zambialii.org/akn/zm/act/1996/8/eng@1996-12-31/source.pdf
+2026-05-12T12:15:51Z	repair-batch-032	  -> OK 2165c via zlii_pdfplumber  src=148247B
+2026-05-12T12:15:53Z	repair-batch-032	[5/8] act-zm-2008-012-the-public-procurement  (www.parliament.gov.zm)
+2026-05-12T12:15:53Z	repair-batch-032	  node resolved -> https://www.parliament.gov.zm/sites/default/files/documents/acts/Public_Procurement_Act_2008.PDF
+2026-05-12T12:16:20Z	repair-batch-032	  -> OK 50404c via ocr(53pp)  src=1401999B
+2026-05-12T12:16:22Z	repair-batch-032	[6/8] act-zm-2010-033-wrestling-control-amendment-act-2010  (www.parliament.gov.zm)
+2026-05-12T12:16:23Z	repair-batch-032	  -> OK 2937c via pdfplumber  src=15924B
+2026-05-12T12:16:25Z	repair-batch-032	[7/8] act-zm-2010-045-veterinary-and-veterinary-para-professions-2010  (www.parliament.gov.zm)
+2026-05-12T12:16:53Z	repair-batch-032	  -> OK 53783c via ocr(41pp)  src=1211863B
+2026-05-12T12:16:55Z	repair-batch-032	[8/8] act-zm-2010-048-value-added-tax-amendment  (www.parliament.gov.zm)
+2026-05-12T12:16:57Z	repair-batch-032	  -> OK 2493c via ocr(2pp)  src=37945B
+2026-05-12T12:16:57Z	repair-batch-032	POST quick_check: ('ok',)    integrity_check: ('ok',)
+2026-05-12T12:17:00Z	repair-batch-032	TICK SUMMARY: queue=8 fetches=8 successes=8 rec=1917 fts=1917 integrity=ok db_synced=true
