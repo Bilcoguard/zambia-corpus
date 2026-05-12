@@ -7389,3 +7389,32 @@ report (`reports/batch-0603-jiw.md` § Diagnostic findings).
 ### Mutations this tick
 
 Zero. No corpus.sqlite changes. Only log/report/gaps.md text appends.
+
+---
+
+## 2026-05-12T07:11:30Z — batch-0607-jiw POST-TICK DISCOVERY
+
+**FTS5 corruption appears resolved by host-side rebuild during the b0607 tick window.**
+
+Between the b0607 read-only probe (07:06:52Z) and the post-push re-probe
+(07:11Z), `corpus.sqlite` was modified externally. Re-probe results:
+
+- `mtime`: 2026-05-12T07:09:26Z (CAT)
+- `size`: 118,599,680 bytes (+2,142,208 from b0607 probe)
+- `md5`: `a9af40f02b8cb82a20eb49a5f893d820` (was `686f8197...`)
+- `PRAGMA integrity_check` → `ok` (full DB; previously records-only ok)
+- `PRAGMA quick_check` → `ok` (was `database disk image is malformed`)
+- `records` count → 1892 (unchanged)
+- `records_fts` count → 1892 (unchanged)
+- `records_fts` rowid range → (1, 1892) — 0 gaps (was (1, 2011) with 119 gaps)
+- `SELECT … FROM records_fts WHERE records_fts MATCH 'court'` → 662 hits (succeeds)
+
+Interpretation: looks like an `INSERT INTO records_fts(records_fts)
+VALUES('rebuild')` was executed by the operator (consistent with the rowid
+collapse). 26 deferred-fts5 backlog and 10 deferred-scanned-pdf backlog
+are NOT yet flushed — only the rebuild ran.
+
+**Standing recommendation for b0608:** abandon the 5-of-5 read-only confirmation
+tick plan; re-probe to confirm rebuild is persistent, take a pre-rebuild backup,
+then reparse the 26 deferred-fts5 records. If green, resume
+judiciary-coa-sweep page 8 (6 candidates). See `reports/batch-0607-jiw-addendum.md`.
