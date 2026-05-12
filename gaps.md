@@ -7189,3 +7189,52 @@ Post-recovery: `records=1892`, `records_fts=1892`, CHECK8 PASS, no leftover diag
 - `corpus.sqlite-journal.b0602-jiw-quarantine-20260512T010900Z` (62072 b)
 
 These can be deleted by the operator after host-side inspection.
+
+---
+
+## JIW b0603 — Read-only confirmation tick (2026-05-12T05:10:00Z)
+
+**20th consecutive FTS5-blocked tick. 9th operator escalation.**
+
+### NEW diagnostic data point (narrows operator recovery path)
+
+`PRAGMA integrity_check(records)` returns **`ok`**. The corruption is confined to the FTS5 shadow tables (`records_fts_content/data/docsize/idx/config`). The base `records` table is structurally sound.
+
+This means operator recovery does NOT need `.recover` or `VACUUM INTO` — both of which read pages broadly and may hit the corrupt pages. The simplest viable path is:
+
+1. `SELECT * FROM records` → dump to file (no FTS5 read).
+2. Create fresh DB with the standard schema.
+3. Bulk-insert from dump.
+4. `INSERT INTO records_fts(records_fts) VALUES('rebuild')` on the fresh DB.
+5. Atomically replace `corpus.sqlite`.
+
+A ~30-line Python script using only the stdlib `sqlite3` module can do this.
+
+### Probe results
+
+```
+PRAGMA integrity_check(records)  → ok                                  (NEW)
+PRAGMA quick_check               → "database disk image is malformed"  (unchanged)
+INSERT INTO records_fts(records_fts) VALUES('integrity-check')
+                                  → "database disk image is malformed" (unchanged)
+SELECT COUNT(*) FROM records      → 1892                               (unchanged)
+SELECT COUNT(*) FROM records_fts  → 1892                               (CHECK8 PASS by count)
+```
+
+### Backlog (UNCHANGED)
+
+- deferred-fts5: 26 parser-clean records awaiting rebuild
+  - b0590: 7, b0591: 4, b0592: 3, b0593: 6, b0594: 4, b0597: 2
+- deferred-scanned-pdf: 10 records awaiting `ocrmypdf` (not in sandbox)
+
+### Sweep position (UNCHANGED)
+
+`judiciary-coa-sweep: page 8 remaining` — 6 unprocessed COA candidates on judiciaryzambia.com page 8.
+
+### Recommendation for next JIW tick
+
+Continue read-only confirmation ticks (no schema mutations) until operator performs the records-table dump-and-rebuild. After 5 consecutive read-only ticks without operator action, suggest JIW completion in worker.log (per skill completion-criteria language — does NOT flip `complete: true`).
+
+### Mutations this tick
+
+Zero. No corpus.sqlite changes. Only log/report/gaps.md text appends.
