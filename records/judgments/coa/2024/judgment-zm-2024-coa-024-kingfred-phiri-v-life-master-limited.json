@@ -1,0 +1,96 @@
+{
+  "id": "judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-limited",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Kingfred Phiri v Life Master Limited (APP/24/2023) [2024] ZMCA (2024-12-10)",
+  "citation": "[2024] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Kingfred Phiri v Life Master Limited",
+  "case_number": "APP/24/2023",
+  "date_decided": "2024-12-10",
+  "judges": [
+    {
+      "name": "Siavwapa",
+      "role": "JP",
+      "dissented": false
+    },
+    {
+      "name": "Mchenga",
+      "role": "DJP",
+      "dissented": false
+    },
+    {
+      "name": "Chashi",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Kondolo SC",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Makungu",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Chishimba",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Sichinga",
+      "role": "SC",
+      "dissented": false
+    },
+    {
+      "name": "Ngulube",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Banda-Bobo",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Sharpe-Phiri",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Muzenga",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Patel",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Chembe",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "civil-appeal"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "we dismiss it accordingly",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "37921802939d394e942d9c498f72642e55b765b95dd92d6f0679b80c7cdb8ee1",
+  "source_url": "https://judiciaryzambia.com/app-0024-2024-kingfred-phiri-vs-life-master-ltd-10th-december-2024-coram-siavwapa-jp-mchenga-djpchashi-kondolo-makungu-chishimbasichingangulubebanda-bobosharpe-phirimuzengapatel-chembe/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2025/04/APP-0024-2024-Kingfred-Phiri-vs-Life-Master-Ltd-10th-December-2024-Coram-Siavwapa-JP-Mchenga-DJPChashi-Kondolo-Makungu-ChishimbaSichingaNgulubeBanda-BoboSharpe-PhiriMuzengaPatel-Chembe-JJA.pdf",
+  "source_hash": "sha256:37921802939d394e942d9c498f72642e55b765b95dd92d6f0679b80c7cdb8ee1",
+  "fetched_at": "2026-05-12T08:11:40Z",
+  "parser_version": "0.4.1-inline-b0609",
+  "raw_path": "raw/judiciary-zm/coa/2026/APP-0024-2024-Kingfred-Phiri-vs-Life-Master-Ltd-10th-December-2024-Coram-Siavwapa-JP-Mchenga-DJPChashi-Kondolo-Makungu-ChishimbaSichingaNgulubeBanda-BoboSharpe-PhiriMuzengaPatel-Chembe-JJA.pdf",
+  "body_length": 34470,
+  "judges_count": 13,
+  "ingestion_batch": "b0609",
+  "ingestion_note": "Re-flushed from b0594 deferred-fts5 archive after host-side FTS5 rebuild"
+}

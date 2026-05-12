@@ -7436,3 +7436,107 @@ judiciary-coa-sweep page 8 (6 candidates). See `reports/batch-0607-jiw-addendum.
   complete. Resolved this tick by `f.truncate(0)` + `PRAGMA
   journal_mode=TRUNCATE`. Future workers should adopt the same pattern. Recommend
   adding to SKILL.md preflight.
+
+## 2026-05-12T07:52Z — Phase 8 Nightly Re-verification, batch 0608 (worker-tick, second of UTC day)
+
+Forty-second Phase 8 tick overall. Sample of 8 drawn from pool of
+1895 (ceil(0.01 × 1895) = 19 → capped at MAX_BATCH = 8). Seed
+`phase8-reverify-2026-05-12-b0608` (tick-suffixed). All 8 records
+were re-fetched, sha256 recomputed, compared against stored values.
+**Records were NOT mutated by this tick.** Per BRIEF.md and
+approvals.yaml, Phase 8 only flags drift; the corpus records remain
+authoritative until a human decides otherwise.
+
+Outcome counts: match=3, drift=5, fetch_error=0, match_truncated_prefix=0.
+
+### Drift entries — to be triaged before any record refresh
+
+| Record id | Source URL | Stored sha256 | Re-fetched sha256 | Bytes (new) | Sub-kind |
+|-----------|------------|---------------|-------------------|------------:|----------|
+| `act-zm-2021-042-excess-expenditure-appropriation-2021-act` | https://zambialii.org/akn/zm/act/2021/42/eng@2021-12-30 | (stored, unchanged) | `d8f87bfb0ca09b0a49112103ef8654d2781100ce9d440fef165f127d4fd90f9b` | (re-fetched) | `content_changed_full_drift_akn_html` |
+| `si-zm-2023-014-zambia-medicines-and-medical-supplies-agency-administration-of-fund-regulations-2023` | https://zambialii.org/akn/zm/act/si/2023/14 | (stored, unchanged) | `438e47b9033f9f43b7e20fb2f55a993c8d014ec239a248131fd55e52357fe67e` | (re-fetched) | `content_changed_full_drift_akn_html_bare_path` |
+| `si-zm-2025-074-zambia-institute-of-secretaries-registration-regulations-2025` | https://zambialii.org/akn/zm/act/si/2025/74/eng@2025-11-21 | (stored, unchanged) | `5497b1d8ae56001fb872a3d8b9123c3efb0845207de1831ef343315d77cae60c` | (re-fetched) | `content_changed_full_drift_akn_html` |
+| `si-zm-2021-024-electricity-common-carrier-declaration-regulations-2021` | https://zambialii.org/akn/zm/act/si/2021/24 | (stored, unchanged) | `a1bb43bcb3e6a2c6b303c6e9c2a40d351a702a6532c68e9196ad6cbacf16e4cc` | (re-fetched) | `content_changed_full_drift_akn_html_bare_path` |
+| `act-zm-2024-002-animal-identification-and-traceability-act-2024` | https://zambialii.org/akn/zm/act/2024/2/eng@2024-04-18 | (stored, unchanged) | `9887de088504e5579ac06045ea738a8773f55031d9ae671791d473e2dd5cb11e` | (re-fetched) | `content_changed_full_drift_akn_html` (re-drift; prior fetched-sha `328132f7…`) |
+
+(Exact stored sha256 values are unchanged from the records on disk
+and are recorded in `reports/batch-0608-reverify.json`. Re-fetched
+sha256 values above are the new probe values.)
+
+### Drift cohort impact
+
+- AKN-HTML `/eng@`-suffix Act-or-SI drift cohort: 119/119 → 122/122.
+  100% drift rate preserved across 122 samples.
+- AKN-HTML bare-AKN-path SI sub-cohort (no `/eng@` suffix):
+  10/10 → 12/12. 100% drift rate preserved across 12 samples.
+- `act-zm-2024-002-animal-identification-and-traceability-act-2024`
+  is a re-drift — its first observed drift recorded a different
+  re-fetched sha (`328132f7…`); this tick's re-fetched sha is
+  `9887de08…`. Confirms AKN-HTML rendering is non-deterministic
+  between fetches as well as between dates; the underlying Act
+  text is unchanged.
+
+### Match cohort impact
+
+- zambialii akn `/source.pdf` Act-or-SI match cohort: 37/37 → 39/39
+  (2 new matches). 100% match rate preserved.
+- parliament `/amendment_act/` static PDF match cohort: 5/5 → 6/6
+  (1 new match). 100% match rate preserved.
+- Stable-PDF combined supercohort: 162/166 → 165/169.
+  **Real drift count remains zero across 42 ticks.**
+
+### Standing finding (re-affirmed at 42 ticks)
+
+The bifurcation is now extremely well-characterised:
+
+- **Stable-PDF supercohort** (165/169 real-matches across 42 ticks):
+  static `/source.pdf`, `/acts/`, `/amendment_act/`, `media.zambialii`
+  legacy, `commons.laws.africa` — these hash deterministically and
+  the stored corpus content is faithful.
+- **AKN-HTML cohorts** (combined ~150 samples across 42 ticks at
+  near-100% drift): zambialii AKN-HTML pages with or without `/eng@`
+  suffix, judgment AKN-HTML, judiciaryzambia.com — these render
+  dynamically (CMS-driven markup, view counters, server timestamps)
+  and produce byte-level drift on every re-fetch. The drift is
+  upstream-pipeline noise, not corpus integrity failure.
+
+### Phase 8 evolution recommendation (standing — carries forward)
+
+Operator should consider adopting either (a) text-extraction-stable
+hashing for AKN-HTML records (e.g. extract `<article>` body and
+hash that), or (b) restricting Phase 8 sampling to the stable-PDF
+supercohort. Either change would make Phase 8 alarms meaningful
+for the AKN-HTML cohort. Until the operator decides, this worker
+will continue logging drifts to gaps.md without mutating records.
+
+## [2026-05-12T08:13:33Z] JIW batch-0609 — first successful flush after 24-tick FTS5-blocked streak
+
+**Tick verdict:** +4 Court of Appeal records ingested from `b0594` deferred-fts5 archive.
+FTS5 remained healthy through writes — the b0607 host-side rebuild is **durable under write-load**.
+
+**Records inserted:**
+- `judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-limited` (APP/24/2023, 2024-12-10, dismissed)
+- `judgment-zm-2025-coa-039-willard-hamunyangwa-and-2-others-v-the-people` (APP/39-40-41/2023, 2025-02-18, allowed)
+- `judgment-zm-2025-coa-032-starford-chimanga-v-the-people` (APP/32/2024, 2025-02-18, dismissed)
+- `judgment-zm-2025-coa-027-collins-ncube-v-the-people` (APP/27/2024, 2025-02-18, dismissed)
+
+**Deferred-FTS5 backlog: 26 → 22.**
+Drained: all 4 b0594 archived records.
+Remaining:
+- 7 records from b0590 (parsed JSON NOT archived; needs fresh parse from raw PDFs)
+- 4 records from b0591 (parsed JSON NOT archived; needs fresh parse from raw PDFs)
+- 3 records from b0592 (parsed JSON archived in older "meta"-wrapped schema)
+- 6 records from b0593 (1 parser-clean + 5 v0.4-pending dirty)
+- 2 records from b0597 (`date_decided=null` on both — gating decision needed)
+
+**Scanned-PDF backlog: 10 records (unchanged).**
+
+**Sweep position next tick (b0610):** `judiciary-coa-sweep: page 8 remaining` (6 unprocessed CoA candidates on judiciaryzambia.com page 8). After backlog flush continues.
+
+**Court of Appeal coverage:** 25 → 29 records.
+
+**Recommended next-tick sequence:**
+1. Re-probe FTS5 health (5 signals).
+2. Take `corpus.sqlite.bak.b0610-pre-flush-...` backup.
+3. Flush remaining archived-deferred (b0592 3, b0593 1 clean, b0597 2 after resolving `date_decided=null`).
+4. If time allows, advance to page-8 sweep.

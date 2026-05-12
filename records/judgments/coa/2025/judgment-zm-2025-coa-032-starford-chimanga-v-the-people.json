@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2025-coa-032-starford-chimanga-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Starford Chimanga v The People (APP/32/2024) [2025] ZMCA (2025-02-18)",
+  "citation": "[2025] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Starford Chimanga v The People",
+  "case_number": "APP/32/2024",
+  "date_decided": "2025-02-18",
+  "judges": [
+    {
+      "name": "Mchenga",
+      "role": "DJP",
+      "dissented": false
+    },
+    {
+      "name": "Ngulube",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Chembe",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "civil-appeal"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Appeal dismissed; conviction and sentence (35 years imprisonment with hard labour for four counts of unnatural offences) upheld",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "d5f4919e739eb4ef93e89a31bf89e81ecc485af5d26108ec8306d385e78bfbf2",
+  "source_url": "https://judiciaryzambia.com/app-32-2024-starford-chimanga-vs-the-people-coram-justice-mchenga-djp-ngulube-chembe-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2025/02/App-32-2024-Starford-Chimanga-vs-The-People-Coram-Justice-Mchenga-DJP-Ngulube-Chembe-JJA.pdf",
+  "source_hash": "sha256:d5f4919e739eb4ef93e89a31bf89e81ecc485af5d26108ec8306d385e78bfbf2",
+  "fetched_at": "2026-05-12T08:11:40Z",
+  "parser_version": "0.4.1-inline-b0609",
+  "raw_path": "raw/judiciary-zm/coa/2026/App-32-2024-Starford-Chimanga-vs-The-People-Coram-Justice-Mchenga-DJP-Ngulube-Chembe-JJA.pdf",
+  "body_length": 20697,
+  "judges_count": 3,
+  "ingestion_batch": "b0609",
+  "ingestion_note": "Re-flushed from b0594 deferred-fts5 archive after host-side FTS5 rebuild"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2025-coa-027-collins-ncube-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Collins Ncube v The People (APP/27/2024) [2025] ZMCA (2025-02-18)",
+  "citation": "[2025] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Collins Ncube v The People",
+  "case_number": "APP/27/2024",
+  "date_decided": "2025-02-18",
+  "judges": [
+    {
+      "name": "Mchenga",
+      "role": "DJP",
+      "dissented": false
+    },
+    {
+      "name": "Ngulube",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Chembe",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "civil-appeal"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Appeal dismissed; murder conviction and sentence upheld (circumstantial evidence sufficient)",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "e9429ddcfee17f1babc109292940e4e3c382a1610e4b4ac4e94db252d0773517",
+  "source_url": "https://judiciaryzambia.com/app-27-2024-collins-ncube-vs-the-people-coram-justice-mchenga-djp-ngulube-chembe-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2025/02/App-27-2024-Collins-Ncube-vs-The-People-Coram-Justice-Mchenga-DJP-Ngulube-Chembe-JJA.pdf",
+  "source_hash": "sha256:e9429ddcfee17f1babc109292940e4e3c382a1610e4b4ac4e94db252d0773517",
+  "fetched_at": "2026-05-12T08:11:40Z",
+  "parser_version": "0.4.1-inline-b0609",
+  "raw_path": "raw/judiciary-zm/coa/2026/App-27-2024-Collins-Ncube-vs-The-People-Coram-Justice-Mchenga-DJP-Ngulube-Chembe-JJA.pdf",
+  "body_length": 17151,
+  "judges_count": 3,
+  "ingestion_batch": "b0609",
+  "ingestion_note": "Re-flushed from b0594 deferred-fts5 archive after host-side FTS5 rebuild"
+}

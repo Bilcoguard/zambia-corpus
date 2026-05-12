@@ -6882,3 +6882,33 @@ test append
 2026-05-12T05:50:00Z	batch-0604	GIT_PUSH	target=origin/main	verdict=ok-32d9c6a..39a4af4
 2026-05-12T05:50:00Z	batch-0604	END	verdict=ok	phase=phase_8_nightly_reverify	complete_flag=unchanged-remains-false-phase-is-open-ended-nightly-no-completion-criterion
 2026-05-12T05:50:00Z	batch-0604	STOP	verdict=tick-complete-phase8-reverify-no-mutation	next-tick=t+30min
+2026-05-12T07:51:55Z	batch-0608	START	scheduled=true	phase=phase_8_nightly_reverify	worker=worker-tick	session=inspiring-cool-hopper
+2026-05-12T07:51:55Z	batch-0608	GIT_PRECLEAN	cmd=find_dot_git_lock_delete	verdict=ok-no-stale-locks-this-session
+2026-05-12T07:51:55Z	batch-0608	GIT_PULL	verdict=ok-already-up-to-date	HEAD=32d9c6a	note=clean-pull-first-pass
+2026-05-12T07:51:55Z	batch-0608	APPROVALS_READ	phase_8_nightly_reverify=approved+incomplete	sample_rate=0.01	max_batch=8
+2026-05-12T07:51:55Z	batch-0608	BUDGET_CHECK	cumulative_today_pre_tick=8/2000	verdict=ok-well-under
+2026-05-12T07:51:55Z	batch-0608	POOL_LOAD	pool_size=1895	delta_from_b0604=0	verdict=unchanged
+2026-05-12T07:51:55Z	batch-0608	SAMPLE_DRAW	seed=phase8-reverify-2026-05-12-b0608	target=8	rng=python-random
+2026-05-12T07:52:36Z	batch-0608	FETCH_LOOP	fetches=8	retries=0	duration_sec=41	match=3	drift=5	match_truncated_prefix=0	fetch_error=0
+2026-05-12T07:52:36Z	batch-0608	INTEGRITY	json_well_formed=PASS	required_keys=PASS	sample_lte_max=PASS	verdict_partition=PASS(3+5+0+0=8)	all_ids_resolve=PASS(8/8)	pool_floor=PASS(1895>=1800)	no_record_mutation=PASS(git_status_records_clean)
+2026-05-12T07:52:36Z	batch-0608	WRITE_OUTPUTS	files=reports/batch-0608.md+reports/batch-0608-reverify.json+gaps.md(append)	records_modified=0
+2026-05-12T07:52:36Z	batch-0608	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
+2026-05-12T07:52:36Z	batch-0608	END	verdict=ok	phase=phase_8_nightly_reverify	complete_flag=unchanged-remains-false-phase-is-open-ended-nightly-no-completion-criterion
+2026-05-12T07:52:36Z	batch-0608	NOTE	bare-AKN-path SI sub-cohort widens 10/10 -> 12/12 with two new drifts (si-zm-2023-014, si-zm-2021-024). AKN-HTML /eng@-suffix Act-or-SI cohort widens 119/119 -> 122/122. Stable-PDF supercohort widens 162/166 -> 165/169 (zero real drifts across 42 ticks). act-zm-2024-002-animal-identification re-drifted to a different fetched-sha than its first drift observation, confirming AKN-HTML rendering non-determinism between fetches as well as dates.
+2026-05-12T08:13:33Z	batch-0609	START	scheduled=true	phase=priority_a_reparse_deferred	worker=jiw	session=affectionate-dreamy-gates
+2026-05-12T08:13:33Z	batch-0609	GIT_PRECLEAN	cmd=find_dot_git_lock_delete	verdict=ok-no-stale-real-locks
+2026-05-12T08:13:33Z	batch-0609	GIT_PULL	verdict=ok-already-up-to-date	HEAD=50515f8
+2026-05-12T08:13:33Z	batch-0609	BUDGET_CHECK	jiw_today_pre_tick=0/500	verdict=ok-zero-fetches-this-tick
+2026-05-12T08:13:33Z	batch-0609	FTS5_PROBE_PRE	quick_check=ok	integrity_check=ok	records=1892	records_fts=1892	min_rowid=1	max_rowid=1900	match_court=663	verdict=rebuild-persistent
+2026-05-12T08:13:33Z	batch-0609	JOURNAL_PRECLEAR	corpus.sqlite-journal=4616b	action=truncate-in-place	reason=FUSE-blocks-unlink
+2026-05-12T08:13:33Z	batch-0609	BACKUP	dest=corpus.sqlite.bak.b0609-jiw-pre-flush-20260512T080937Z	size=119201792b
+2026-05-12T08:13:33Z	batch-0609	FLUSH_LOOP	candidates=4	inserted=4	skipped=0	errors=0	source=raw/judiciary-zm/coa/_deferred/b0594_parsed_records.json
+2026-05-12T08:13:33Z	batch-0609	INSERT_OK	id=judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-limited	case_number=APP/24/2023	tables=records+judgments_meta+records_fts
+2026-05-12T08:13:33Z	batch-0609	INSERT_OK	id=judgment-zm-2025-coa-039-willard-hamunyangwa-and-2-others-v-the-people	case_number=APP/39-40-41/2023	tables=records+judgments_meta+records_fts
+2026-05-12T08:13:33Z	batch-0609	INSERT_OK	id=judgment-zm-2025-coa-032-starford-chimanga-v-the-people	case_number=APP/32/2024	tables=records+judgments_meta+records_fts
+2026-05-12T08:13:33Z	batch-0609	INSERT_OK	id=judgment-zm-2025-coa-027-collins-ncube-v-the-people	case_number=APP/27/2024	tables=records+judgments_meta+records_fts
+2026-05-12T08:13:33Z	batch-0609	INTEGRITY	check1_judges=PASS	check2_tags=PASS	check3_outcome=PASS	check4_registry=PASS	check5_dup_ids=PASS	check6_sha=PASS	check7_dup_combos=PASS	check8_records_eq_fts=PASS(1896=1896)
+2026-05-12T08:13:33Z	batch-0609	FTS5_PROBE_POST	quick_check=ok	integrity_check=ok	records=1896	records_fts=1896	match_appeal=502	verdict=no-recorruption
+2026-05-12T08:13:33Z	batch-0609	WRITE_OUTPUTS	files=reports/batch-0609-jiw.md+4xrecord-json+sqlite-row-inserts	records_modified=4
+2026-05-12T08:13:33Z	batch-0609	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
+2026-05-12T08:13:33Z	batch-0609	END	verdict=ok	phase=priority_a_reparse_deferred	new_records=4	backlog_remaining=22	complete_flag=unchanged-remains-false
