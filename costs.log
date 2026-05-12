@@ -5971,3 +5971,5 @@
 2026-05-12T06:08:12Z	batch-0606-jiw	B2 sync deferred to host (rclone not in sandbox)
 2026-05-12T07:06:52Z	batch-0607-jiw	fetches=0	retry_fetches=0	records_written=0	records_deferred=0	worker=judgment-ingestion-worker	cumulative_today=0/500	reason=read-only-confirmation-tick-23rd-consecutive-fts5-blocked-tick-4th-of-5-planned-readonly-confirmation-ticks-per-b0603-recommendation-no-fts5-touching-probes-this-tick-state-byte-identical-to-b0606
 2026-05-12T07:06:52Z	batch-0607-jiw	B2 sync deferred to host (rclone not in sandbox)
+2026-05-12T07:46:46Z	repair-batch-029	fetches=8	bytes_in=~2.0MB	records_repaired=8	records_failed=0	worker=repair-worker	cumulative_today=8	reason=v4-manifest-expansion-first-non-idle-tick-since-b008
+2026-05-12T07:46:46Z	repair-batch-029	B2 sync deferred to host (rclone not in sandbox)

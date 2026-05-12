@@ -7418,3 +7418,21 @@ are NOT yet flushed — only the rebuild ran.
 tick plan; re-probe to confirm rebuild is persistent, take a pre-rebuild backup,
 then reparse the 26 deferred-fts5 records. If green, resume
 judiciary-coa-sweep page 8 (6 candidates). See `reports/batch-0607-jiw-addendum.md`.
+
+## repair-batch-029 — 2026-05-12T07:46Z
+
+**Repair-worker observation (informational; no gates failed this tick):**
+
+- All 8 records repaired this tick passed the quality gate.
+- **80 of 88 v4-manifest items still need repair** — will work through at
+  MAX_BATCH_SIZE=8/tick over ≈10 more ticks.
+- **244 Condition-B SIs and ~60 Condition-C stubs** exist in the live DB that
+  are NOT on the v4 manifest. Repair-worker is scoped to manifest only per v4
+  spec, but flagging here so the operator can decide whether to expand the
+  manifest or assign to main corpus worker.
+- **Stale rollback journal hazard:** the `corpus.sqlite-journal` left by a
+  prior worker (74 KB) made every fresh connection error with `disk I/O error`
+  because the FUSE mount blocks `unlink` and SQLite's auto-recovery couldn't
+  complete. Resolved this tick by `f.truncate(0)` + `PRAGMA
+  journal_mode=TRUNCATE`. Future workers should adopt the same pattern. Recommend
+  adding to SKILL.md preflight.

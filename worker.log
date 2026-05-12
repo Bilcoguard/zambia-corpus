@@ -6861,3 +6861,20 @@ test append
 2026-05-12T07:14:33Z	repair-worker	PROBE	manifest=48	ok=48	corrupted=0	empty=0	missing=0	records_count=1892	records_fts_count=1892	integrity=match	verdict=no-corruption-remaining
 2026-05-12T07:14:33Z	repair-worker	IDLE	All 48 repair targets fixed — repair worker idle
 2026-05-12T07:14:33Z	repair-worker	B2_SYNC	deferred-to-host	reason=rclone-not-in-sandbox-and-no-mutation	verdict=skipped
+2026-05-12T07:15:30Z	repair-worker	GIT_COMMIT	commit=32d9c6a	files=2	verdict=ok-stale-locks-renamed-fuse-mount-blocks-rm
+2026-05-12T07:15:30Z	repair-worker	GIT_PUSH	target=origin/main	verdict=ok-1117ee8..32d9c6a
+2026-05-12T07:15:30Z	repair-worker	STOP	verdict=idle-no-corruption-remaining	commit=32d9c6a	next-tick=on-schedule
+2026-05-12T07:46:46Z	repair-worker	START	tick=batch-029	v=4	manifest-targets=88	condA=0	condB=252	condC=68
+2026-05-12T07:46:46Z	repair-worker	PRECLEAR_JOURNAL	corpus.sqlite-journal=74384b	action=truncate-in-place	reason=FUSE-blocks-unlink-causes-disk-IO-error	pragma=journal_mode=TRUNCATE
+2026-05-12T07:46:46Z	repair-worker	REPAIR_OK	id=act-zm-2026-004-criminal-procedure-code-amendment-act	prev_len=7	new_len=9433
+2026-05-12T07:46:46Z	repair-worker	REPAIR_OK	id=act-zm-2025-027-betting-act	prev_len=10	new_len=5922
+2026-05-12T07:46:46Z	repair-worker	REPAIR_OK	id=act-zm-2025-024-registration-of-business-names-amendment-act	prev_len=9	new_len=6485
+2026-05-12T07:46:46Z	repair-worker	REPAIR_OK	id=act-zm-2025-011-customs-exciseamendmentact	prev_len=15	new_len=8834
+2026-05-12T07:46:46Z	repair-worker	REPAIR_OK	id=act-zm-2025-010-income-tax-act2025	prev_len=9	new_len=2943
+2026-05-12T07:46:46Z	repair-worker	REPAIR_OK	id=act-zm-2025-009-supplementary-appropriation2025-2025	prev_len=3	new_len=5312
+2026-05-12T07:46:46Z	repair-worker	REPAIR_OK	id=act-zm-2025-007-animal-health-act2025	prev_len=8	new_len=1366
+2026-05-12T07:46:46Z	repair-worker	REPAIR_OK	id=act-zm-2025-006-building-societies-2025	prev_len=7	new_len=836
+2026-05-12T07:46:46Z	repair-worker	INTEGRITY	records=1892	records_fts=1892	delta=0	quick_check=ok
+2026-05-12T07:46:46Z	repair-worker	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
+2026-05-12T07:46:46Z	repair-worker	STOP	tick=batch-029	fixed=8	failed=0	remaining-manifest=80	duration_sec=24.8
+2026-05-12T05:11:09Z	batch-0604	REPORT_ONLY_COMMIT	NOTE	costs.log/provenance.log/worker.log entries for b0604 were already committed by jiw b0605 (commit 6800396 at 2026-05-12T07:19:12+02:00) as the phantom-worker's uncommitted appends were swallowed into b0605-jiw's diff. The report files (reports/batch-0604.md and reports/batch-0604-reverify.json) were never committed by the phantom worker. This commit lands only those two missing report files. RNG seed preserved as phase8-reverify-2026-05-12-b0603 per b0585/b0591/b0595/b0598 precedent.	verdict=missing-reports-committed
