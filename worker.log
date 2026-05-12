@@ -6984,3 +6984,7 @@ test append
 2026-05-12T11:13:00Z	b0612	wrote 5 record JSON files
 2026-05-12T11:13:00Z	b0612	wrote report reports/batch-0612-jiw.md
 2026-05-12T11:13:00Z	b0612	END	verdict=ok phase=priority_a_reparse_deferred new_records=5 b0591_backlog_drained=4 b0593_clean_backlog_drained=1
+2026-05-12T11:15:30Z	b0612	GIT_COMMIT	commit=50b978d	files=10	verdict=ok-b0591-drain-complete-b0593-clean-drained
+2026-05-12T11:15:30Z	b0612	GIT_PUSH	target=origin/main	verdict=ok-2ba7725..50b978d
+2026-05-12T11:15:30Z	b0612	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
+2026-05-12T11:15:30Z	b0612	STOP	verdict=tick-complete-priority-a-reparse-deferred	new_records=5	b0591_backlog_drained=4	b0593_clean_drained=1	deferred_fts5_backlog=7	next-tick=t+60min	next-tick-priority=drain-b0593-dirty-v04-cohort-5-records-or-advance-coa-page-8-sweep-6-candidates
