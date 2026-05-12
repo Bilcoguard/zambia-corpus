@@ -1,0 +1,44 @@
+{
+  "batch": "0615-jiw",
+  "worker": "judgment-ingestion-worker",
+  "timestamp": "2026-05-12T15:00:00Z",
+  "phase": "jiw-priority-a-redefer-and-priority-b-page-8-probe",
+  "wall_clock_minutes": 17,
+  "fetches_consumed": 15,
+  "budget_remaining": 485,
+  "records_written": 0,
+  "records_deferred_permanent": 1,
+  "records_deferred_scanned_pdf_added": 2,
+  "scanned_pdf_backlog_total": 12,
+  "corpus_counts": {
+    "records_pre": 1917,
+    "records_post": 1917,
+    "records_fts_pre": 1917,
+    "records_fts_post": 1917,
+    "judgments_meta_pre": 227,
+    "judgments_meta_post": 227,
+    "coa_pre": 50,
+    "coa_post": 50,
+    "coa_target": 800
+  },
+  "integrity": {
+    "integrity_check_records": "ok",
+    "quick_check": "ok",
+    "fts5_integrity_check": "PASS",
+    "check8_records_eq_fts": "PASS"
+  },
+  "findings": {
+    "chisumpa_alternate_paths": "exhausted",
+    "page_8_catalogued_still_present": 5,
+    "page_8_catalogued_missing": 1,
+    "page_8_new_discovered": 5,
+    "page_8_already_ingested": 1,
+    "page_8_effective_unprocessed": 10,
+    "scanned_pdf_probes_attempted": 2,
+    "scanned_pdf_probes_zero_text": 2
+  },
+  "sweep_position_next_tick": "judiciary-coa-sweep: page 8 remaining — 10 unprocessed candidates",
+  "next_tick_priority": "probe 5 NEW page-8 candidates for text-PDF availability; re-discover Chipasha-Mambwe via judiciary search",
+  "b2_sync": "deferred-to-host (rclone not in sandbox)",
+  "user_agent": "KateWestonLegal-CorpusBuilder/1.0 (contact: peter@bilcoguard.com)"
+}

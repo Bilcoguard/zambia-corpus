@@ -7709,3 +7709,245 @@ Remaining:
 3. Advance `judiciary-coa-sweep: page 8` — fetch 6 candidate posts + their PDFs (within 500/day budget).
 4. Apply parser v0.4.5 (hand-curated) or escalate to v0.5 auto-Coram-stripping regex if scaling beyond per-record curation.
 5. If a Chisumpa re-fetch fits within budget, attempt fresh PDF download to test for truncation-fix at source.
+
+## 2026-05-12T12:38Z — Phase 8 Nightly Re-verification, batch 0614 (worker-tick, third of UTC day)
+
+Forty-third Phase 8 tick overall. Sample of 8 drawn from pool of
+1914 (ceil(0.01 × 1914) = 20 → capped at MAX_BATCH = 8). Seed
+`phase8-reverify-2026-05-12-b0614` (tick-suffixed). All 8 records
+were re-fetched, sha256 recomputed, compared against stored values.
+**Records were NOT mutated by this tick.** Per BRIEF.md and
+approvals.yaml, Phase 8 only flags drift; the corpus records remain
+authoritative until a human decides otherwise.
+
+Outcome counts: match=5, drift=3, fetch_error=0, match_truncated_prefix=0.
+
+### Drift entries — to be triaged before any record refresh
+
+| Record id | Source URL | Stored sha256 | Re-fetched sha256 | Bytes (new) | Sub-kind |
+|-----------|------------|---------------|-------------------|------------:|----------|
+| `act-zm-2015-009-supplementary-appropriation-2013-act` | https://zambialii.org/akn/zm/act/2015/9/eng@2015-08-14 | (stored, unchanged) | `052848b6143ffe5b2b4755e23bd7a5758377e8f72ceab590c7b594accc6c7ccf` | (re-fetched) | `content_changed_full_drift_akn_html` |
+| `si-zm-1982-049-zambia-airways-corporation-date-of-dissolution-order-1982` | https://zambialii.org/akn/zm/act/si/1982/49 | (stored, unchanged) | `189c901107f95d4fa8b31f467fee3ba75ee6bc7a63e536733f24f1fb551258ed` | (re-fetched) | `content_changed_full_drift_akn_html_bare_path` (earliest year ever sampled in this sub-cohort — 1982) |
+| `judgment-zm-2026-coa-226-levi-chimfwembe-v-sampa-leonard-musonda` | https://judiciaryzambia.com/22607-2/ | (stored, unchanged) | `ba4fe27dd296dcd2d8de2028c7df84e87bbbad7bb7afe785943eae2582a2d3bd` | (re-fetched) | `content_changed_full_drift_judiciaryzambia_coa_html` |
+
+(Exact stored sha256 values are unchanged from the records on disk
+and are recorded in `reports/batch-0614-reverify.json`. Re-fetched
+sha256 values above are the new probe values.)
+
+### Match entries — first-time-observed cohort additions
+
+- `act-zm-cap-250-cattle-slaughter-control-act` — **FIRST `cap-N`
+  Laws-of-Zambia ID-form sample observed across 43 Phase 8 ticks.**
+  Resolves via `https://www.parliament.gov.zm/sites/default/files/
+  documents/acts/Cattle Slaughter (Control) Act.pdf`. Matched
+  first-pass. Initialises the `cap-N` ID-form cohort at 1/1 (100%
+  match). Standing recommendation #7 (b0595) partially informed:
+  at least the `cap-N` form whose source is a parliament.gov.zm
+  `/acts/` PDF hashes deterministically. Further `cap-N` samples
+  needed across other resolver families.
+
+### Drift cohort impact
+
+- AKN-HTML `/eng@`-suffix Act-or-SI drift cohort: 122/122 → 123/123.
+  100% drift rate preserved across 123 samples.
+- AKN-HTML bare-AKN-path SI sub-cohort (no `/eng@` suffix):
+  12/12 → 13/13. 100% drift rate preserved across 13 samples.
+  Earliest year sampled extends from 2018 → 1982.
+- judiciaryzambia.com CoA-judgment HTML drift cohort: 1/1 → 2/2.
+  Both samples drift — pattern is consistent with AKN-HTML cohorts.
+
+### Match cohort impact
+
+- zambialii akn `/source.pdf` Act-or-SI match cohort: 39/39 → 42/42
+  (3 new matches). 100% match rate preserved.
+- parliament `/acts/` family static PDF match cohort: 114/114 → 116/116
+  (2 new matches, including the first `cap-N` sample). 100% match rate
+  preserved.
+- Stable-PDF combined supercohort: 165/169 → 170/174.
+  **Real drift count remains zero across 43 ticks.**
+- `cap-N` Laws-of-Zambia ID-form: initialised at 1/1 (100% match).
+
+### Standing finding (re-affirmed at 43 ticks)
+
+The bifurcation continues to hold:
+
+- **Stable-PDF supercohort** (170/174 real-matches across 43 ticks):
+  static `/source.pdf`, `/acts/`, `/amendment_act/`, `media.zambialii`
+  legacy, `commons.laws.africa` — these hash deterministically and
+  the stored corpus content is faithful.
+- **AKN-HTML and CMS-rendered HTML cohorts** (combined ~158 samples
+  across 43 ticks at near-100% drift): zambialii AKN-HTML pages with
+  or without `/eng@` suffix, judgment AKN-HTML, judiciaryzambia.com,
+  www.zambialii.org host-prefix — these render dynamically (CMS-driven
+  markup, view counters, server timestamps) and produce byte-level
+  drift on every re-fetch. The drift is upstream-pipeline noise, not
+  corpus integrity failure.
+
+### Phase 8 evolution recommendation (standing — carries forward)
+
+Operator should consider adopting either (a) text-extraction-stable
+hashing for AKN-HTML records (e.g. extract `<article>` body and
+hash that), or (b) restricting Phase 8 sampling to the stable-PDF
+supercohort. Either change would make Phase 8 alarms meaningful
+for the AKN-HTML cohort. Until the operator decides, this worker
+will continue logging drifts to gaps.md without mutating records.
+
+## 2026-05-12T15:00Z — JIW batch-0615 (page-8 re-baseline + chisumpa permanent defer)
+
+**Worker:** judgment-ingestion-worker
+**Tick:** b0615
+**Pre-tick state:** records=1917, records_fts=1917 (CHECK8 PASS), judgments_meta=227, CoA=50, FTS5 integrity-check=PASS, integrity_check(records)=ok, quick_check=ok.
+**Fetches consumed:** ~15 / 500 today (network probes only — no large PDF parses succeeded).
+**Records written:** 0 (page-8 candidates probed all scanned-image PDFs; deferred to repair-worker `ocrmypdf` queue).
+
+### Finding 1 — Chisumpa Liandisha permanent defer (alternate-source path exhausted)
+
+Per b0613 mitigation plan (paths a/b/c), this tick exhausted the
+alternate-source paths for `judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people`:
+
+**Path (a) — judiciary fresh fetch.** Two candidate URLs were
+identified on judiciaryzambia.com via search:
+
+1. `https://judiciaryzambia.com/app-113-2020-chisumpa-liandisha-v-the-people-zmca-coram-mchenga-djp-chishimba-majula-jja/`
+   — links to the **same** truncated PDF the b0613 tick already
+   cached: `wp-content/uploads/2025/02/App-113-2020-Chisumpa-Liandisha-v-The-People-ZMCA-Coram-Mchenga-DJP-Chishimba-Majula-JJA.pdf`.
+   Re-confirmed pdfplumber 0.11.9 result: 8 pages, pages 6–8 byte-identical
+   duplicates of pages 1–3, body ends mid-sentence on page 5. No fresh
+   upload at server end.
+2. `https://judiciaryzambia.com/appeal-113-2019-chisumpa-liandisha-vs-the-people-24-02-2020-coram-mchenga-djp-chishimba-majula-jja/`
+   — note the post slug uses `113-2019` and `24-02-2020`, which suggests
+   either a typo or a related earlier order/ruling. Post page HTML
+   contains **no `wp-content/uploads/*.pdf` link** — only WordPress
+   theme assets (logos, decision-placeholder thumbnails). Conclusion:
+   stub post, no judgment attached.
+
+**Path (b) — ZambiaLII cross-reference.** Three queries via the
+ZambiaLII search interface and a direct AKN-path probe:
+
+- `https://zambialii.org/search/?q=Chisumpa+Liandisha` — 0 results.
+- `https://zambialii.org/search/?q=CHISUMPA+LIANDISHA` — 0 results.
+- `https://zambialii.org/search/?q=Liandisha+v+The+People` — 0 results.
+- `https://zambialii.org/search/?q=APPEAL+113%2F2020` — 0 results.
+- `https://zambialii.org/akn/zm/judgment/zmca/2020/113` — resolves to a
+  **different judgment**: `John Sepiso T/A Sepiso Transport v Amukena
+  (Suing as Administrator of The estate of The late Patricia Amukena)
+  & Another (Appeal 187 of 2019) [2020] ZMCA 113 (19 November 2020)`.
+  This is ZambiaLII's citation index (`[2020] ZMCA 113`), which is
+  a year-sequential editorial number — distinct from the court's own
+  Appeal 113/2020 case number. So ZambiaLII's slot for "113" in the
+  ZMCA 2020 collection is occupied by an unrelated commercial appeal,
+  not Chisumpa Liandisha.
+
+**Path (c) — cadastre / case-management portal.** Not pursued this
+tick (out of scope for JIW; not a routine source).
+
+**Conclusion:** No alternate source. The Chisumpa Liandisha appeal is
+not in ZambiaLII's index, and the only judiciaryzambia.com upload
+is the truncated PDF that lacks operative paragraphs. The record
+remains permanently deferred until either:
+
+- judiciary editor re-uploads a complete PDF (route: operator email
+  / RMA-style request to webmaster@judiciaryzambia.com if/when SOP
+  allows); or
+- a complete judgment text is sourced from a primary archive (e.g.
+  Court of Appeal registry, KW corpus partner, etc.).
+
+### Finding 2 — judiciaryzambia.com page-8 CoA listing — re-baselined
+
+Sweep candidates catalogued at b0597 (six judgments expected on
+page 8) re-verified by full re-fetch of
+`https://judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/page/8/`
+(177 KB). Pages 6, 7, 9, 10, 11, 12 also probed (cheap negative
+verification — none of the WANT keywords appear on adjacent pages).
+**Page 8 catalogue stable** — 5 of 6 catalogued candidates still
+on page 8 (`app-311`, `app-57-2023`, `app-75-2025`, `appeal-117-2024`,
+`appeal-268-2022` confirmed via slug match). The sixth catalogued
+candidate (`app-222-2015` Chipasha-Mambwe v Mambwe) was NOT in the
+page-8 href list this tick — may have been removed, renamed, or
+moved to an adjacent page; **flagged for re-discovery via judiciary
+search next tick.**
+
+**5 additional CoA candidates discovered on page 8 (NEW vs b0597
+catalogue):**
+
+| Slug | Case | Status |
+|------|------|--------|
+| `caz-08-014-2019-maxwell-banda-vs-andrew-howard-lourie-estates-ltd-apr-2019-justice-d-sichinga` | Maxwell Banda v Andrew Howard Lourie Estates Ltd, Apr 2019, Justice D Sichinga | NEW — single judge |
+| `app-165-2024-savenda-management-services-limited-vs-lumwana-mining-company-limited-31-dec-2024-coram-mchenga-djp-muzenga-chembe-jja` | Savenda Management Services v Lumwana Mining Co, 31 Dec 2024, Mchenga DJP, Muzenga, Chembe JJA | NEW — mining commercial 3-judge |
+| `app-181-2023-zanaco-bank-plc-3-others-vs-allan-kandala-2-others-30th-january-2025-coram-siavwapa-chishimba-patel-jja` | Zanaco Bank PLC + 3 Others v Allan Kandala + 2 Others, 30 Jan 2025, Siavwapa, Chishimba, Patel JJA | NEW — banking 3-judge |
+| `app-304-2022-setrec-steel-and-wood-processing-limited-vs-zambia-national-commercial-bank-plc-31-jan-2025-coram-chashi-makungu-sichinga-jja` | Setrec Steel and Wood Processing v Zambia National Commercial Bank, 31 Jan 2025, Chashi, Makungu, Sichinga JJA | NEW — banking commercial 3-judge |
+| `app-24-2024-peter-mutale-vs-davies-mukumbwa-24-jan-2025-coram-siavwapa-jp-chishimba-patel-jja` | Peter Mutale v Davies Mukumbwa, 24 Jan 2025, Siavwapa JP, Chishimba, Patel JJA | NEW |
+
+(One page-8 URL — `app-211-2022-rotor-moulder-enterprises-…` —
+matches an already-ingested record (`judgment-zm-2024-coa-211-rotor-moulder-…`,
+inserted at b0613); confirmed via dedup pre-check.)
+
+**Updated page-8 candidate count: 10 unprocessed CoA candidates** (5
+catalogued at b0597 still present, 5 NEW discovered this tick, 1
+re-discovery flagged: Chipasha-Mambwe).
+
+### Finding 3 — scanned-PDF prevalence on page-8 candidates (probe results)
+
+This tick fetched **two** page-8 candidate PDFs as confidence probes
+to test whether per-record curation is viable at v0.4.5-inline or
+whether the v0.5 OCR-fallback path will be needed for most page-8
+records:
+
+| Slug | PDF size | pdfplumber pages | First-3-pages text | Verdict |
+|------|---------:|-----------------:|------:|---------|
+| `appeal-268-2022-mpoyi-mbambu-zambia-limited-vs-joserine-trading-limited` | 3,788,548 B (3.61 MB) | 24 | 0 chars | **scanned (needs OCR)** |
+| `app-57-2023-lovemore-gumbo-vs-standard-chartered-bank-zambia-plc` | 3,391,216 B (3.23 MB) | 21 | 0 chars | **scanned (needs OCR)** |
+
+Both PDFs returned zero text via pdfplumber 0.11.9 — image-based
+scans without OCR layer. Pattern is consistent with the b0593/b0594/b0597
+"deferred-scanned-pdf" backlog (10 records, mostly older judgments).
+**Observation: page 8 of CoA listings contains a higher share of
+scanned-PDF candidates than page 7 did.** This may correlate with
+the listing being a chronologically older slice (page 8 = older
+posts) where the judiciary upload pipeline historically used image
+scans before introducing text-PDF outputs around 2023–24.
+
+**Implication for next-tick planning:** page-8 advance should
+probably go via the repair-worker `ocrmypdf` queue rather than direct
+JIW ingestion — at least until a text-PDF candidate is identified on
+the page. Consider probing the 5 NEW candidates above (Maxwell Banda,
+Savenda, Zanaco, Setrec, Peter Mutale) for text-PDF availability
+before scheduling OCR.
+
+### Records written this tick
+
+**0 records inserted.** This was a probe-and-document tick; no record
+mutations to corpus.sqlite.
+
+### Backlog state (unchanged from b0613 + 2 probes)
+
+- Deferred-fts5: 1 (Chisumpa Liandisha — now permanently deferred per
+  Finding 1).
+- Deferred-scanned-pdf: 10 + 2 newly probed (Mpoyi Mbambu, Lovemore
+  Gumbo) = **12 records** (added 2 page-8 scanned-PDFs). Repair-worker
+  `ocrmypdf` task remains queued.
+- Court of Appeal coverage: 50 / 800 (6.25%) unchanged.
+
+### Sweep position next tick (b0616)
+
+**`judiciary-coa-sweep: page 8 remaining`** — now estimated **10
+unprocessed CoA candidates** (5 catalogued at b0597 still present
++ 5 NEW discovered at b0615 + 1 re-discovery: Chipasha-Mambwe to be
+located on judiciary search). Recommended next-tick approach:
+
+1. Probe the 5 NEW candidates (Maxwell Banda, Savenda, Zanaco, Setrec,
+   Peter Mutale) for text-PDF vs scanned-PDF — at most 5 fetches.
+2. If any are text-PDF, advance with hand-curated v0.4.5-inline parse
+   (1-2 records).
+3. For scanned-PDFs, append to repair-worker `ocrmypdf` queue manifest
+   (operator decides cadence).
+4. Re-discover `app-222-2015 Chipasha-Mambwe` via judiciary search
+   (`?s=Chipasha+Mambwe`) — single fetch.
+
+### Operator action items (running list — none new this tick)
+
+- (a) FTS5 rebuild action — **COMPLETED** at b0608 host-side sweep.
+- (b) `ocrmypdf-scanned-coa-pdfs` repair-worker task — outstanding;
+  now 12 records waiting (was 10).
+- (c) Chisumpa Liandisha source-side fix — outstanding; needs editor
+  contact at judiciaryzambia.com.

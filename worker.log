@@ -7030,3 +7030,68 @@ test append
 2026-05-12T12:17:00Z	repair-batch-032	TICK SUMMARY: queue=8 fetches=8 successes=8 rec=1917 fts=1917 integrity=ok db_synced=true
 2026-05-12T08:00:00Z	batch-0608	POST_TICK_COMMIT_OBSERVATION	this-tick-files-already-committed-by-host-side-worker-collision	commit=89367b3	verdict=ok-files-in-HEAD	note=Between 07:52Z append and explicit `git add`+`git commit` from this session (~08:00Z), the host-side workers committed several batches (b0609..b0613 jiw + repair-030..032). Their commits transparently included this tick's appends to gaps.md/worker.log/costs.log/provenance.log AND the two new report files reports/batch-0608.md + reports/batch-0608-reverify.json. Verified: `git show HEAD:gaps.md | grep -c batch-0608` = 6 (entries present); `git show HEAD -- reports/batch-0608*` shows files in HEAD@89367b3. `git diff HEAD --stat` is empty (no tracked changes pending). origin/main HEAD = 89367b3. No additional commit needed from this worker. The `.git/index.lock` FUSE EPERM issue that intermittently blocked `git add` calls during this tick is the same FUSE-blocks-rm pattern documented since b0334+; the parallel-worker file sweep is the operational mitigation.
 2026-05-12T08:00:00Z	batch-0608	STOP	verdict=tick-complete-phase8-reverify-no-mutation-files-committed-by-parallel-worker-sweep	next-tick=t+30min	cumulative_today=16/2000
+2026-05-12T12:38:07Z	b0614	START	worker=worker-tick	phase=phase_8_nightly_reverify	pull=ok-already-up-to-date	preflight=lock-cleanup-no-stale-locks-this-session-virtiofs-mount-clean-one-benign-FUSE-EPERM-on-ORIG_HEAD.lock-non-blocking
+2026-05-12T12:38:07Z	b0614	parser_version=phase8-reverify-0.1.0	execution_mode=inline-runner-/tmp/b0614_phase8_reverify.py-NOT-committed-per-sandbox-session-safety-constraint-since-b0548
+2026-05-12T12:38:07Z	b0614	POOL	pool_size=1914	delta_vs_b0608=+19	source=jiw-b0611-b0612-b0613-reparse-deferred-drains
+2026-05-12T12:38:07Z	b0614	SAMPLE	seed=phase8-reverify-2026-05-12-b0614	sample_size=8	method=tick-suffixed-deterministic
+2026-05-12T12:38:44Z	b0614	RESULTS	match=5	drift=3	match_truncated_prefix=0	fetch_error=0	fetches=8	retry_fetches=0
+2026-05-12T12:38:44Z	b0614	MATCH	id=act-zm-2025-002-geological-minerals-development-2025	host=www.parliament.gov.zm	resolver=/acts/	verdict=match
+2026-05-12T12:38:44Z	b0614	MATCH	id=si-zm-2019-080-medicines-and-allied-substances-expert-advisory-committee-regulations-2019	host=zambialii.org	resolver=akn-source-pdf	verdict=match
+2026-05-12T12:38:44Z	b0614	MATCH	id=si-zm-2002-003-minimum-wages-and-conditions-of-employment-shop-workers-order-2002	host=zambialii.org	resolver=akn-source-pdf	verdict=match
+2026-05-12T12:38:44Z	b0614	MATCH	id=act-zm-cap-250-cattle-slaughter-control-act	host=www.parliament.gov.zm	resolver=/acts/	verdict=match	NEW_FINDING=first-cap-N-Laws-of-Zambia-ID-form-sample-observed-across-43-Phase-8-ticks-cap-N-cohort-initialised-at-1-of-1-100-percent-match-stable-PDF-resolver
+2026-05-12T12:38:44Z	b0614	MATCH	id=si-zm-2006-044-lands-ground-rent-fees-and-charges-regulations-2006	host=zambialii.org	resolver=akn-source-pdf	verdict=match
+2026-05-12T12:38:44Z	b0614	DRIFT	id=act-zm-2015-009-supplementary-appropriation-2013-act	host=zambialii.org	resolver=akn-eng-suffix	verdict=drift	sub_kind=content_changed_full_drift_akn_html	fetched_sha=052848b6143ffe5b
+2026-05-12T12:38:44Z	b0614	DRIFT	id=si-zm-1982-049-zambia-airways-corporation-date-of-dissolution-order-1982	host=zambialii.org	resolver=akn-bare-path	verdict=drift	sub_kind=content_changed_full_drift_akn_html_bare_path	fetched_sha=189c901107f95d4f	NOTE=earliest-year-1982-ever-sampled-in-bare-AKN-path-sub-cohort-prior-earliest-2018
+2026-05-12T12:38:44Z	b0614	DRIFT	id=judgment-zm-2026-coa-226-levi-chimfwembe-v-sampa-leonard-musonda	host=judiciaryzambia.com	resolver=judgment-html	verdict=drift	sub_kind=content_changed_full_drift_judiciaryzambia_coa_html	fetched_sha=ba4fe27dd296dcd2
+2026-05-12T12:38:44Z	b0614	COHORT	akn_eng_suffix_act_or_si_drift=122/122-to-123/123	akn_bare_path_si_drift=12/12-to-13/13	akn_source_pdf_act_or_si_match=39/39-to-42/42	parliament_acts_match=114/114-to-116/116	judiciaryzambia_coa_drift=1/1-to-2/2	cap-N=0/0-to-1/1-match	stable_PDF_supercohort=165/169-to-170/174-real-drift-zero-across-43-ticks
+2026-05-12T12:38:44Z	b0614	TLS	ca_chain_preload=success	cert=scripts/certs/rapidssl_tls_rsa_ca_g1.pem	first_pass=true	consecutive_first_pass_worker_ticks=14
+2026-05-12T12:38:44Z	b0614	INTEGRITY	json_wellformed=PASS	required_keys=PASS	sample_le_max=PASS	counts_sum_eq_sample=PASS	all_ids_resolve=PASS(8/8)	entries_have_fields=PASS	verdicts_valid=PASS	pool_size_floor=PASS	no_record_mutation=PASS
+2026-05-12T12:38:44Z	b0614	wrote reports/batch-0614-reverify.json	wrote reports/batch-0614.md	appended gaps.md (b0614 section)
+2026-05-12T12:38:44Z	b0614	END	verdict=ok	phase=phase_8_nightly_reverify	new_records=0	records_mutated=0	cumulative_today=24/2000
+2026-05-12T12:46:00Z	b0614	GIT_LOCK_OBSERVATION	.git/index.lock	verdict=blocked-by-FUSE-EPERM-same-pattern-as-b0608-and-documented-since-b0334+	mitigation=host-side-parallel-worker-file-sweep-will-commit-transparently
+2026-05-12T12:46:00Z	b0614	FILES_ON_DISK	reports/batch-0614.md=present	reports/batch-0614-reverify.json=present	gaps.md=appended-b0614-section	worker.log=appended-b0614-entries	costs.log=appended-b0614-entry	provenance.log=appended-b0614-entry
+2026-05-12T12:46:00Z	b0614	GIT_PUSH	verdict=deferred-to-host-side-sweep	reason=index.lock-EPERM
+2026-05-12T12:46:00Z	b0614	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
+2026-05-12T12:46:00Z	b0614	STOP	verdict=tick-complete-phase8-reverify-no-mutation-files-on-disk-awaiting-host-sweep-commit	next-tick=t+30min	cumulative_today=24/2000
+2026-05-12T13:13:54Z	repair-batch-033	PRE integrity: ('ok',)
+2026-05-12T13:13:54Z	repair-batch-033	Queue (8): act-zm-2010-050-property-transfer-tax-amendment, act-zm-2011-006-the-english-law-extent-of-application-amendment-act-2011, act-zm-2011-007-the-high-court-amendment-act-2011, act-zm-2011-008-the-supreme-court-amendment-act-2011, act-zm-2011-009-the-zambia-institute-of-advanced-legal-education-amendment-act-2011, act-zm-2011-010-the-presidental-emoluments-amendment-act-2011, act-zm-2011-027-income-tax-amendment-act-2011, act-zm-2011-029-zambia-development-agency-amendment-act-2011
+2026-05-12T13:13:54Z	repair-batch-033	[1/8] act-zm-2010-050-property-transfer-tax-amendment  (www.parliament.gov.zm)
+2026-05-12T13:13:56Z	repair-batch-033	  -> OK 2641c via ocr(2pp)  src=41311B
+2026-05-12T13:13:58Z	repair-batch-033	[2/8] act-zm-2011-006-the-english-law-extent-of-application-amendment-act-2011  (www.parliament.gov.zm)
+2026-05-12T13:13:59Z	repair-batch-033	  -> OK 1338c via pdfplumber  src=15800B
+2026-05-12T13:14:01Z	repair-batch-033	[3/8] act-zm-2011-007-the-high-court-amendment-act-2011  (www.parliament.gov.zm)
+2026-05-12T13:14:01Z	repair-batch-033	  -> OK 1807c via pdfplumber  src=16090B
+2026-05-12T13:14:03Z	repair-batch-033	[4/8] act-zm-2011-008-the-supreme-court-amendment-act-2011  (www.parliament.gov.zm)
+2026-05-12T13:14:03Z	repair-batch-033	  -> OK 1655c via pdfplumber  src=14387B
+2026-05-12T13:14:06Z	repair-batch-033	[5/8] act-zm-2011-009-the-zambia-institute-of-advanced-legal-education-amendment-act-2011  (www.parliament.gov.zm)
+2026-05-12T13:14:10Z	repair-batch-033	  -> OK 3837c via ocr(3pp)  src=1206004B
+2026-05-12T13:14:12Z	repair-batch-033	[6/8] act-zm-2011-010-the-presidental-emoluments-amendment-act-2011  (www.parliament.gov.zm)
+2026-05-12T13:14:12Z	repair-batch-033	  -> OK 1553c via pdfplumber  src=13463B
+2026-05-12T13:14:14Z	repair-batch-033	[7/8] act-zm-2011-027-income-tax-amendment-act-2011  (www.parliament.gov.zm)
+2026-05-12T13:14:23Z	repair-batch-033	  -> OK 15598c via ocr(9pp)  src=232298B
+2026-05-12T13:14:25Z	repair-batch-033	[8/8] act-zm-2011-029-zambia-development-agency-amendment-act-2011  (www.parliament.gov.zm)
+2026-05-12T13:14:25Z	repair-batch-033	  -> OK 705c via pdfplumber  src=13570B
+2026-05-12T13:14:25Z	repair-batch-033	POST quick_check: ('ok',)    integrity_check: ('ok',)
+2026-05-12T13:14:30Z	repair-batch-033	wrote reports/repair-batch-033.md	wrote _repair_batch_033_result.json	appended gaps.md (none — 0 quality fails this tick)
+2026-05-12T13:14:30Z	repair-batch-033	END	verdict=ok	successes=8/8	rec_count=1917	fts_count=1917	integrity_ok=true	wall_clock_seconds=31
+2026-05-12T13:14:30Z	repair-batch-033	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
+2026-05-12T13:14:30Z	repair-batch-033	NEXT_QUEUE	manifest_remainder=48	suggested_next_batch=b034	first_record=act-zm-2011-030-value-added-tax-amendment-act-2011
+2026-05-12T15:00:00Z	b0615	START	worker=judgment-ingestion-worker	phase=jiw-priority-a-redefer-and-priority-b-page-8-probe	pull=ok-already-up-to-date	preflight=lock-cleanup-no-blockers-fts5-integrity-check-PASS-records-eq-fts-PASS-1917
+2026-05-12T15:00:00Z	b0615	FTS5_HEALTH	integrity_check=ok	quick_check=ok	records=1917	records_fts=1917	check8=PASS	judgments_meta=227	coa_count=50
+2026-05-12T15:00:00Z	b0615	CHISUMPA_PROBE	url1=https://judiciaryzambia.com/app-113-2020-chisumpa-liandisha-...	pdf=wp-content/uploads/2025/02/App-113-2020-Chisumpa-Liandisha-...pdf	result=same-truncated-PDF-no-fresh-upload	verdict=truncated-source-confirmed
+2026-05-12T15:00:00Z	b0615	CHISUMPA_PROBE	url2=https://judiciaryzambia.com/appeal-113-2019-chisumpa-liandisha-vs-the-people-24-02-2020-...	result=stub-post-no-pdf-link	verdict=no-alternate
+2026-05-12T15:00:00Z	b0615	CHISUMPA_PROBE	zambialii_search=Chisumpa+Liandisha	results=0	additional_queries=CHISUMPA_LIANDISHA-Liandisha-v-The-People-APPEAL-113-2020	all=0-results
+2026-05-12T15:00:00Z	b0615	CHISUMPA_PROBE	zambialii_akn_path=zambialii.org/akn/zm/judgment/zmca/2020/113	result=different-judgment-John-Sepiso-T-A-Sepiso-Transport-v-Amukena-Appeal-187-of-2019	verdict=zambialii-citation-index-distinct-from-court-appeal-number
+2026-05-12T15:00:00Z	b0615	CHISUMPA_VERDICT	permanently-deferred	reason=alternate-source-paths-exhausted	needs=editor-contact-or-primary-archive-retrieval
+2026-05-12T15:00:00Z	b0615	PAGE8_REBASELINE	source=https://judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/page/8/	fetched_bytes=181900	cataloged_b0597=6	still_on_page_8=5	missing_re-discovery=1-Chipasha-Mambwe	new_discovered=5	already_ingested=1-Rotor-Moulder-b0613
+2026-05-12T15:00:00Z	b0615	PAGE8_NEW_CANDIDATES	caz-08-014-2019-maxwell-banda	app-165-2024-savenda-management-vs-lumwana-mining	app-181-2023-zanaco-bank-vs-allan-kandala	app-304-2022-setrec-steel-vs-zambia-national-commercial-bank	app-24-2024-peter-mutale-vs-davies-mukumbwa
+2026-05-12T15:00:00Z	b0615	PAGE8_PROBE_PDF	candidate=mpoyi-mbambu-vs-joserine	pdf_bytes=3788548	pages=24	first_3_pages_text=0c	verdict=scanned-PDF-needs-OCR
+2026-05-12T15:00:00Z	b0615	PAGE8_PROBE_PDF	candidate=lovemore-gumbo-vs-standard-chartered-bank	pdf_bytes=3391216	pages=21	first_3_pages_text=0c	verdict=scanned-PDF-needs-OCR
+2026-05-12T15:00:00Z	b0615	WRITE	new_records=0	method=probe-and-document-tick	parser=v0.4.5-not-invoked
+2026-05-12T15:00:00Z	b0615	COUNTS	records=1917	records_fts=1917	judgments_meta=227	delta=+0	check8=PASS
+2026-05-12T15:00:00Z	b0615	COA_COVERAGE	previous=50	current=50	target=800	percent=6.25	delta=+0
+2026-05-12T15:00:00Z	b0615	SWEEP_POSITION	judiciary-coa-sweep=page-8-remaining-10-candidates-5-catalogued-5-new-1-rediscovery-Chipasha-Mambwe	deferred-scanned-pdf-backlog=12-was-10
+2026-05-12T15:00:00Z	b0615	DEFER_PERMANENT	id=judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people	reason=alternate-source-paths-exhausted-judiciary-zambia-com-served-truncated-pdf-no-fresh-upload-at-server-end-stub-second-post-no-attachment-zambialii-zero-results-zambialii-citation-index-113-of-2020-resolves-to-john-sepiso-different-judgment	mitigation=operator-editor-contact-judiciaryzambia-com-webmaster-or-primary-archive-retrieval-from-court-of-appeal-registry
+2026-05-12T15:00:00Z	b0615	BUDGET	fetches=~15	cumulative_today=15/500	wall_clock=~17min	wall_budget=20min
+2026-05-12T15:00:00Z	b0615	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
+2026-05-12T15:00:00Z	b0615	STOP	verdict=tick-complete-priority-a-chisumpa-permanently-deferred-priority-b-page-8-listing-re-baselined-and-2-scanned-pdf-probes-defer-to-repair-worker-ocrmypdf-queue	new_records=0	deferred=1-permanent-2-scanned-pdf	next-tick=t+60min	next-tick-priority=probe-5-new-page-8-candidates-for-text-PDF-availability-then-advance-or-defer-to-OCR
