@@ -6912,3 +6912,6 @@ test append
 2026-05-12T08:13:33Z	batch-0609	WRITE_OUTPUTS	files=reports/batch-0609-jiw.md+4xrecord-json+sqlite-row-inserts	records_modified=4
 2026-05-12T08:13:33Z	batch-0609	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
 2026-05-12T08:13:33Z	batch-0609	END	verdict=ok	phase=priority_a_reparse_deferred	new_records=4	backlog_remaining=22	complete_flag=unchanged-remains-false
+2026-05-12T08:14:57Z	batch-0609	GIT_COMMIT	commit=1d1188e	files=9	verdict=ok-jiw-first-flush-post-rebuild
+2026-05-12T08:14:57Z	batch-0609	GIT_PUSH	target=origin/main	verdict=ok-50515f8..1d1188e
+2026-05-12T08:14:57Z	batch-0609	STOP	verdict=tick-complete-priority-a-flush	new_records=4	deferred_fts5_backlog=22	next-tick=t+60min	next-tick-priority=continue-flushing-archived-deferred-then-page-8-sweep
