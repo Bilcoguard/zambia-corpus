@@ -93,3 +93,35 @@ The repair worker cannot make forward progress until two host-side actions are c
 2. **PRIORITY 2 — sandbox `/` rotation**: tooling needs `/tmp` for pdfplumber/ocrmypdf scratch files. Either rotate the sandbox or relocate `TMPDIR` to `/sessions/affectionate-dreamy-ritchie/tmp` for the next worker tick.
 
 Until both are resolved, both the repair worker and the JIW worker will continue to abort each tick. Suggest pausing the cron schedule for both workers until the operator confirms FTS rebuild + disk rotation, to avoid noise in `worker.log`.
+
+## Addendum (post-stage attempt): git commit blocked
+
+After staging `worker.log`, `gaps.md`, `costs.log`, and `reports/repair-batch-039.md`,
+`git commit` failed with:
+
+```
+fatal: Unable to create '.git/index.lock': File exists.
+```
+
+The FUSE filesystem will not allow this sandbox UID to delete the lock
+(`Operation not permitted`). No real git process is running. The lock file
+was created by the failed `git add` itself.
+
+This is the **same git-infrastructure failure** that left the b0630-jiw-abort
+report staged-but-uncommitted in `origin/main`. The repair-batch-039 report,
+log appends, and gap notes are durably written to the workspace folder and
+will be visible to the host operator, but the commit/push step of Step 7
+cannot complete in this sandbox.
+
+**Augmented operator recommendation:**
+1. (As before) Offline FTS5 rebuild on `corpus.sqlite`.
+2. (As before) Sandbox `/` rotation or `TMPDIR` relocation.
+3. **NEW**: Manually clean up `.git/index.lock` (and any stale `*.lock` files
+   under `.git/`) on the host, then `git add` + `git commit` the four pending
+   files (`worker.log`, `gaps.md`, `costs.log`, and the two pending reports
+   `reports/b0630-jiw-abort.md` + `reports/repair-batch-039.md`) before the
+   next worker tick. Otherwise both workers will keep adding to the staged
+   queue without ever pushing.
+
+All four workers (corpus, repair, JIW, judgment-ingestion) are now blocked
+on host-side intervention.

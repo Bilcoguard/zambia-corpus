@@ -8939,3 +8939,32 @@ it's row-specific, not blanket.
    from b039 and b040.
 4. (Optional) install `ocrmypdf` in sandbox for OCR fallback on Condition C
    PDFs — pdfplumber alone may suffice.
+
+## 2026-05-13T10:15:59Z — repair-batch-041
+
+**Resolved this tick (records.body)**:
+- act-zm-2024-005-zambia-institute-of-advanced-legal-education-amendment-act-2024 (3→890)
+- act-zm-2024-006-matrimonial-causes-amendment-act-2024 (5→1019)
+- act-zm-2024-007-lands-tribunal-amendment-act-2024 (18→5376)
+- act-zm-2024-023-value-added-tax-2024 (3→2131)
+- act-zm-2024-026-revenue-authority-2024 (4→1169)
+- act-zm-2024-027-property-transfer-tax-2024 (3→2625)
+- act-zm-2025-005-national-road-fundamendment-2025 (7→1259)
+- si-zm-fees-and-fines-fee-and-penalty-unit-value-regulations-2014 (3→909)
+
+All 8 received real PDF-extracted bodies; pdfplumber via TMPDIR=/sessions/.../tmp_b041
+(sidesteps 100%-full `/`). Quality gate passed.
+
+**Still gapped — host-side rebuild required**:
+- 4 FTS-stuck IDs from b037: act-zm-2023-022 (income tax), act-zm-2023-025
+  (customs and excise), act-zm-2023-029 (appropriation), act-zm-2024-003
+  (investment, trade and business development) — `records_fts` row absent,
+  shadow-page corruption blocks INSERT.
+- 8 b041 IDs (above): `records.body` is correct but `records_fts.body` is
+  still the original stub string. Atomic DELETE+INSERT on `records_fts`
+  failed for all 8 with "database disk image is malformed". Host-side
+  `DROP records_fts; CREATE … ; INSERT … SELECT FROM records` will fix in
+  one pass.
+- Parity gap (records=1928 vs records_fts=1924) is unchanged at 4 because
+  we did not DELETE+INSERT on FTS for the 8 stubs (UPDATE-only fallback).
+
