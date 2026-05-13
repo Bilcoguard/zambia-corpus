@@ -8822,3 +8822,120 @@ These are the two failure modes from b0626-jiw that have not been resolved. Per 
 | act-zm-2024-027-property-transfer-tax-2024 | REPAIR-038 | DEFERRED_PENDING_FTS_REBUILD | https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2027%20-%20The%20Property%20Tax%20%28Amendment%29%20Act%2C%202024%20.pdf | 2026-05-13T07:17:30Z |
 | act-zm-2025-005-national-road-fundamendment-2025 | REPAIR-038 | DEFERRED_PENDING_FTS_REBUILD | https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%205%20of%202025%2C%20The%20National%20Road%20Fund%5B1%5D.pdf | 2026-05-13T07:17:30Z |
 | si-zm-fees-and-fines-fee-and-penalty-unit-value-regulations-2014 | REPAIR-038 | DEFERRED_PENDING_FTS_REBUILD | https://zambialii.org/akn/zm/act/si/2014/8/eng@2014-01-17/source.pdf | 2026-05-13T07:17:30Z |
+
+---
+
+## Tick b0630-jiw handoff (2026-05-13T08:08:00Z)
+
+**Verdict: 4th consecutive JIW abort. Chronic blocker pattern unchanged.**
+
+### Pre-tick state observed
+
+- Sandbox `/` 100 % full (15 MB free) — unchanged from b0626/b0627/b0629-jiw. Operator action item (k) still outstanding.
+- `/sessions` mount has 2.4 GB free — sufficient for git operations but not for `pdfplumber` /tmp use.
+- `corpus.sqlite` mtime = `2026-05-13T07:11:09Z` (~57 min pre-tick). Quiescent — host worker not actively writing.
+- `corpus.sqlite-journal` = 0 bytes, mtime `2026-05-13T07:14:13Z` (stale, benign).
+- `PRAGMA quick_check` returns the same B-tree corruption signature (pages 5733/6270 with 2nd reference to FTS shadow pages) — pre-existing per b038 finding.
+- `records` = 1928, `records_fts` = 1920, **gap = 8**. CHECK8 fails. The 8 missing FTS rows correspond to b037 repair targets (2023-019, 020, 022, 025, 026, 028, 029 + 2024-003) per b038 forensic.
+
+### Decision
+
+Per `b0627-jiw` handoff rule #1, do not waste budget on retries that will fail on commit. Tick aborts without fetch / parse / write. Budget tally unchanged at 21/500. No corpus mutation.
+
+### Standing operator action items carried forward (unchanged)
+
+- (a)–(m) all unchanged from b0626/b0627/b0629-jiw handoff notes.
+- (k) Sandbox `/` 100 % full — **now 4th consecutive JIW tick**. Severity remains HIGH-and-CHRONIC. At 4 of 5 toward the "5 consecutive zero-discovery" completion-criterion threshold but per protocol should NOT flip `complete: true` — surface to operator as chronic-blocker.
+- (l) `corpus.sqlite-journal` still present at 0 bytes — benign per `immutable=1` read-path integrity OK.
+- (m) Repair-worker writes work at this disk state (b0628-repair pattern) but JIW PDF-parse + multi-row FTS5 commit path remains blocked. Refactor recommendation outstanding.
+
+### NEW action item (n)
+
+(n) — **FTS5 gap (records=1928, records_fts=1920) is now blocking ALL JIW writes for at least 53 hours** (since b037 at ~2026-05-11). The b038 repair tick attempted re-insert but failed at step 3/8 due to fts5 shadow table corruption ("database disk image is malformed"). Per b038 BLOCKER note, the recommended fix is **offline host-side rebuild** of the FTS shadow tables (DROP / CREATE / INSERT (SELECT ...) / VACUUM) with adequate scratch headroom (current sandbox 2.4 GB free on /sessions is borderline; a 1.0 GB corpus + 1.0 GB vacuum copy + 0.4 GB FTS shadow rebuild = ~2.4 GB peak, no margin). **Until this is repaired, JIW cannot write new judgments.** This blocker also blocks the main corpus worker and the repair worker from inserting any new records.
+
+### Next-tick (b0631-jiw) action items
+
+1. **First action**: check `df /`. If still > 99 % full, abort again — log abort and move on.
+2. **Second action**: re-check FTS gap. If records == records_fts (host repaired FTS shadow), proceed to step 3. Otherwise abort with same handoff.
+3. **If both unblocked**: drain the 6 cached ZMSC 2024 HTML pages by fetching their PDFs and ingesting. Sanity-check each for publisher-side duplication (esp. zmsc-26↔25, zmsc-28↔29).
+4. **Operator escalation**: 5 consecutive JIW aborts due to disk-full + FTS-gap should NOT flip `complete: true` but should be surfaced as a hard chronic-blocker handoff to the host operator. Currently at 4 of 5.
+
+### Cached state (unchanged across b0626/b0627/b0629/b0630-jiw)
+
+- 6 ZMSC 2024 HTML pages at `raw/zambialii/zmsc/2024/zmsc-2024-{18,22,26,28,29,31}-eng.html` — zero refetch cost when commits become possible.
+- `raw/zambialii/zmsc/2024/zmsc-2024-11-source.pdf` (18 MB) — publisher-side dup flag.
+- Orphan JSON at `raw/zambialii/zmsc/2024/_orphan_b0626/judgment-zm-2024-zmsc-11-frankson-musukwa-….json` — canonical records tree clean.
+
+
+## b039 (2026-05-13T08:11:54Z) — repair worker deferred (5th consecutive abort on same blocker)
+
+### Stub records remaining (Condition C, manifest-remaining=8/88):
+- si-zm-fees-and-fines-fee-and-penalty-unit-value-regulations-2014
+- act-zm-2024-005-zambia-institute-of-advanced-legal-education-amendment-act-2024
+- act-zm-2024-006-matrimonial-causes-amendment-act-2024
+- act-zm-2024-007-lands-tribunal-amendment-act-2024
+- act-zm-2024-023-value-added-tax-2024
+- act-zm-2024-026-revenue-authority-2024
+- act-zm-2024-027-property-transfer-tax-2024
+- act-zm-2025-005-national-road-fundamendment-2025
+
+### FTS-gap cohort unchanged (8 b037-repair targets):
+- act-zm-2023-019, 2023-020, 2023-022, 2023-025, 2023-026, 2023-028, 2023-029, 2024-003
+
+### Root cause (no change since b038):
+- FTS5 shadow-table b-tree corruption — `database disk image is malformed`
+- Sandbox `/` 100% full — blocks pdfplumber/ocrmypdf working files
+- CHECK8 fails — blocks any commit per non-negotiable
+
+### Recommended host action:
+1. Offline FTS5 rebuild: DROP/CREATE/INSERT-SELECT/VACUUM (needs ~120 MB free; sandbox has 15 MB on /)
+2. Sandbox `/` rotation or `TMPDIR` relocation to `/sessions/.../tmp`
+
+## Repair batch 040 (2026-05-13T09:18:09Z) — PARTIAL PROGRESS
+
+**Verdict**: FTS-gap recovery 4/8; 4 records still blocked by FTS5 shadow corruption.
+
+### Recovered FTS rows (parity gap 8 → 4)
+- `act-zm-2023-019-the-criminal-procedure-code-amendment-act-2023` (FTS body 2057 bytes)
+- `act-zm-2023-020-the-penal-code-amendment-act-2023` (FTS body 3521 bytes)
+- `act-zm-2023-026-the-zambia-revenue-authority-amendment-act-2023-act-no-26-of-2023` (FTS body 2026 bytes)
+- `act-zm-2023-028-the-local-government-amendment-act-2023-act-no-28-of-2023` (FTS body 855 bytes)
+
+All four persist across SQLite close+reopen — durable on disk.
+
+### Still in FTS gap (target corrupt shadow pages)
+- `act-zm-2023-022-the-income-tax-amendment-act-2023`
+- `act-zm-2023-025-the-customs-and-excise-amendment-act-2023-act-no-25-of-2023`
+- `act-zm-2023-029-the-appropriation-act-2023-act-no-29-of-2023`
+- `act-zm-2024-003-investment-trade-and-business-development-amendment-act-2024`
+
+### Condition C stubs (untouched this tick — deferred)
+- `act-zm-2024-005-zambia-institute-of-advanced-legal-education-amendment-act-2024`
+- `act-zm-2024-006-matrimonial-causes-amendment-act-2024`
+- `act-zm-2024-007-lands-tribunal-amendment-act-2024`
+- `act-zm-2024-023-value-added-tax-2024`
+- `act-zm-2024-026-revenue-authority-2024`
+- `act-zm-2024-027-property-transfer-tax-2024`
+- `act-zm-2025-005-national-road-fundamendment-2025`
+- `si-zm-fees-and-fines-fee-and-penalty-unit-value-regulations-2014`
+
+### Key discovery (correcting the b039 narrative)
+`PRAGMA journal_mode=PERSIST` works around the FUSE `unlink()` EPERM on
+`corpus.sqlite-journal`. Under default `DELETE` mode, SQLite's commit step
+unlinks the rollback journal — FUSE blocks the unlink, and the whole
+transaction fails with `disk I/O error`. PERSIST mode zeroes the journal
+header instead of unlinking, sidestepping the issue entirely.
+
+This means the "FTS corruption blocks all writes" narrative of b038/b039 was
+partly mis-diagnosed: the real commit blocker was the FUSE unlink. The FTS
+corruption is real (and confirmed for 4 of the 8 b037-orphan records) but
+it's row-specific, not blanket.
+
+### Updated host actions (priority order)
+1. **Offline FTS5 rebuild** (use `PRAGMA journal_mode=PERSIST` for the rebuild
+   session to avoid FUSE unlink issues; DROP+CREATE+INSERT-SELECT+VACUUM).
+2. **Sandbox `/` rotation** or `TMPDIR` relocation to `/sessions/.../tmp`.
+3. **Manual `.git/index.lock` cleanup** + push the staged report+log files
+   from b039 and b040.
+4. (Optional) install `ocrmypdf` in sandbox for OCR fallback on Condition C
+   PDFs — pdfplumber alone may suffice.

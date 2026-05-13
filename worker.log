@@ -7446,3 +7446,43 @@ On tree pag
 2026-05-13T07:17:30Z	repair-batch-038	BLOCKER	verdict=fts5-shadow-table-needs-offline-rebuild-DROP-CREATE-INSERT-VACUUM	current-sandbox-disk-2.4GB-free-insufficient-for-vacuum-headroom	recommended-next-step=host-side-fts-rebuild
 2026-05-13T07:17:30Z	repair-batch-038	B2_SYNC	deferred-rclone-not-available-no-db-change-anyway
 2026-05-13T07:17:30Z	repair-batch-038	STOP	verdict=deferred-blocked-on-fts-corruption	repaired=0/8	stubs-remaining=8	fts-gap-remaining=8	wall-clock=~3min
+2026-05-13T08:08:00Z	b0630-jiw	START	worker=judgment-ingestion-worker	disk-/-100%-full-15M-free-/sessions-2.4G-free	corpus.sqlite-mtime=2026-05-13T07:11:09Z-quiescent-57min	journal=corpus.sqlite-journal-0bytes-mtime-2026-05-13T07:14:13Z-stale-benign	records=1928	records_fts=1920	gap=8	preflight=CHECK8-fails-must-defer-commit
+2026-05-13T08:08:00Z	b0630-jiw	GIT_PULL	verdict=already-up-to-date-warning-maintenance.lock-EPERM-benign
+2026-05-13T08:08:00Z	b0630-jiw	BUDGET	cumulative_today=21/500	headroom=479
+2026-05-13T08:08:00Z	b0630-jiw	BLOCKERS	(1)records-vs-fts-gap-8-CHECK8-blocks-any-new-record-insert	(2)fts5-shadow-table-corruption-per-b038-blocks-write-path	(3)sandbox-/-100%-full-blocks-pdfplumber-/tmp-and-multi-row-fts5-commit-per-b0626-jiw	(4)4th-consecutive-JIW-abort-since-b0626-jiw
+2026-05-13T08:08:00Z	b0630-jiw	DECISION	abort-tick-no-fetch-no-parse-no-write-per-b0627-jiw-handoff-rule-1-do-not-waste-budget-on-retries-that-will-fail-on-commit
+2026-05-13T08:08:00Z	b0630-jiw	CHECK1-CHECK8	read-path	1-9-judges-listed-per-record-not-iterated-no-write	2-issue_tags-not-iterated-no-write	3-outcomes-not-iterated-no-write	4-registry-resolution-not-iterated	5-no-new-records	6-no-new-raw-files	7-no-new-records	8-FAIL-records=1928-records_fts=1920-gap=8-this-tick-defers-without-inserting-per-protocol
+2026-05-13T08:08:00Z	b0630-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
+2026-05-13T08:08:00Z	b0630-jiw	STOP	verdict=tick-aborted	records-written=0	records-deferred=0	wall-clock=~2min	next-tick-action=check-disk-then-check-fts-gap-then-attempt-drain-of-6-cached-ZMSC-2024-pages-if-both-resolved
+2026-05-13T08:11:54Z	repair-batch-039	START	worker=repair-corpus	planned=8-stub-records-condition-C
+2026-05-13T08:11:54Z	repair-batch-039	GIT_PULL	verdict=already-up-to-date-maintenance.lock-EPERM-benign
+2026-05-13T08:11:54Z	repair-batch-039	DIAGNOSIS	condA-corrupted=0	condB-empty-acts-sis=232	condC-stub-acts-sis=8	manifest-remaining=8/88
+2026-05-13T08:11:54Z	repair-batch-039	PRE_PARITY_GAP	records=1928	records_fts=1920	gap=8	cohort=identical-to-b038-(2023-019,020,022,025,026,028,029+2024-003)
+2026-05-13T08:11:54Z	repair-batch-039	PRE_INTEGRITY	verdict=NOT-OK	signature=b-tree-corruption-fts-shadow-pages-21000+invalid-page-30000+	pre-existing
+2026-05-13T08:11:54Z	repair-batch-039	DISK	/=15M-free-100%	/sessions=2.4G-free	pdfplumber-blocked
+2026-05-13T08:11:54Z	repair-batch-039	DECISION	defer-tick-no-fetch-no-parse-no-write	blockers=fts-corruption+disk-/-full+CHECK8-fail	pattern=5th-consecutive-worker-abort-on-same-blocker
+2026-05-13T08:11:54Z	repair-batch-039	B2_SYNC	deferred-to-host-no-mutation
+2026-05-13T08:11:54Z	repair-batch-039	STOP	verdict=deferred	repaired=0/8	stubs-remaining=8	fts-gap-remaining=8	wall-clock=~3min	recommend=host-side-fts-rebuild-then-disk-rotation
+2026-05-13T08:14:30Z	repair-batch-039	GIT_COMMIT	verdict=BLOCKED	error=index.lock-EPERM-cannot-delete-FUSE-permission-denied	staged-files=worker.log+gaps.md+costs.log+reports/repair-batch-039.md+reports/b0630-jiw-abort.md	push-deferred-to-host
+2026-05-13T09:18:09Z	repair-batch-040	START	worker=repair-corpus	planned=fts-gap-recovery-(8)+condition-C-stubs-(8)-evaluation
+2026-05-13T09:18:09Z	repair-batch-040	GIT_PULL	verdict=already-up-to-date-maintenance.lock-EPERM-benign-as-b039
+2026-05-13T09:18:09Z	repair-batch-040	DIAGNOSIS	condA=0	condB-acts-sis=0	condC-stubs=8(unchanged)	fts-gap=8(unchanged)
+2026-05-13T09:18:09Z	repair-batch-040	PRE_PARITY_GAP	records=1928	records_fts=1920	gap=8
+2026-05-13T09:18:09Z	repair-batch-040	PRE_INTEGRITY	verdict=NOT-OK	signature=fts5-shadow-pages-5733-6270-5387-5732-1389-12466+invalid-30000+	unchanged-since-b038
+2026-05-13T09:18:09Z	repair-batch-040	DISK	/=15M-100%	/sessions=2.4G	rclone=absent	ocrmypdf=absent
+2026-05-13T09:18:09Z	repair-batch-040	DISCOVERY	journal_mode=PERSIST-works-around-FUSE-unlink-EPERM-on-rollback-journal-(b039-fts-corruption-narrative-partially-incorrect:fuse-unlink-was-the-real-commit-blocker)
+2026-05-13T09:18:09Z	repair-batch-040	FTS_REINSERT_OK	id=act-zm-2023-019-the-criminal-procedure-code-amendment-act-2023	body_bytes=2057	persist=true
+2026-05-13T09:18:09Z	repair-batch-040	FTS_REINSERT_OK	id=act-zm-2023-020-the-penal-code-amendment-act-2023	body_bytes=3521	persist=true
+2026-05-13T09:18:09Z	repair-batch-040	FTS_REINSERT_FAIL	id=act-zm-2023-022-the-income-tax-amendment-act-2023	error=database-disk-image-is-malformed-(targets-corrupt-shadow-page)
+2026-05-13T09:18:09Z	repair-batch-040	FTS_REINSERT_FAIL	id=act-zm-2023-025-the-customs-and-excise-amendment-act-2023-act-no-25-of-2023	error=database-disk-image-is-malformed
+2026-05-13T09:18:09Z	repair-batch-040	FTS_REINSERT_OK	id=act-zm-2023-026-the-zambia-revenue-authority-amendment-act-2023-act-no-26-of-2023	body_bytes=2026	persist=true
+2026-05-13T09:18:09Z	repair-batch-040	FTS_REINSERT_OK	id=act-zm-2023-028-the-local-government-amendment-act-2023-act-no-28-of-2023	body_bytes=855	persist=true
+2026-05-13T09:18:09Z	repair-batch-040	FTS_REINSERT_FAIL	id=act-zm-2023-029-the-appropriation-act-2023-act-no-29-of-2023	error=database-disk-image-is-malformed
+2026-05-13T09:18:09Z	repair-batch-040	FTS_REINSERT_FAIL	id=act-zm-2024-003-investment-trade-and-business-development-amendment-act-2024	error=database-disk-image-is-malformed
+2026-05-13T09:18:09Z	repair-batch-040	POST_PARITY_GAP	records=1928	records_fts=1924	gap=4	delta=-4
+2026-05-13T09:18:09Z	repair-batch-040	POST_INTEGRITY	verdict=NOT-OK-unchanged	signature=same-pages-as-pre-tick	no-new-corruption-introduced
+2026-05-13T09:18:09Z	repair-batch-040	FTS_MATCH_TEST	verdict=FAIL-database-disk-image-is-malformed	note=match-queries-already-broken-pre-tick-this-is-existing-corruption-not-introduced-by-b040
+2026-05-13T09:18:09Z	repair-batch-040	CONDITION_C_DECISION	skip-this-tick	reason=DELETE+INSERT-on-records_fts-risks-growing-gap-if-corruption-hits-mid-step+gap-still-blocks-commit+ocrmypdf-absent
+2026-05-13T09:18:09Z	repair-batch-040	B2_SYNC	deferred-to-host-rclone-absent
+2026-05-13T09:18:09Z	repair-batch-040	GIT_POLICY	corpus.sqlite-NOT-staged-per-parity-rule-(gap=4)	logs+report-staged-only-(b039-pattern)
+2026-05-13T09:18:09Z	repair-batch-040	STOP	verdict=partial-progress	fts-rows-recovered=4/8	stubs-untouched=8	wall-clock=~8min	recommend=host-side-fts5-rebuild-with-PERSIST-mode+sandbox-/-rotation+index.lock-cleanup
