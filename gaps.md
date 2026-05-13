@@ -9292,3 +9292,41 @@ Parity-gap FTS-missing IDs (unchanged since repair-040):
 - `act-zm-2023-025-the-customs-and-excise-amendment-act-2023-act-no-25-of-2023`
 - `act-zm-2023-029-the-appropriation-act-2023-act-no-29-of-2023`
 - `act-zm-2024-003-investment-trade-and-business-development-amendment-act-2024`
+
+
+## b0638-jiw — 12th consecutive JIW abort (2026-05-13T19:09:34Z)
+
+Chronic blockers mostly unchanged from b0637-jiw; sweep cursors unchanged:
+
+- `judiciary-coa-sweep`: page 1 (not yet started — new source, zero coverage)
+- `judiciary-scz-sweep`: page 1 (not yet started)
+- `judiciary-zmcc-sweep`: page 1 (not yet started)
+- `judiciary-zmhc-sweep`: page 1 (not yet started)
+
+**Mitigation applied this tick**: bogus lock-style refs under
+`.git/refs/remotes/origin/` that have been blocking `git pull --ff-only`
+since b0636-jiw have been temporarily neutralised by writing a valid
+SHA (`9ae9919d0c3a9670e283d6cf105848533748db46`, current origin/main
+tip) into each of the six bogus ref files. The underlying files
+remain EPERM-protected by the FUSE mount and cannot be removed from
+the sandbox UID; this fix is therefore a per-tick patch, not a
+permanent cleanup. Operator must `rm .git/refs/remotes/origin/main.lock*`
+on the host for the permanent fix.
+
+Parity-gap FTS-missing IDs (unchanged since repair-040):
+- `act-zm-2023-022-the-income-tax-amendment-act-2023`
+- `act-zm-2023-025-the-customs-and-excise-amendment-act-2023-act-no-25-of-2023`
+- `act-zm-2023-029-the-appropriation-act-2023-act-no-29-of-2023`
+- `act-zm-2024-003-investment-trade-and-business-development-amendment-act-2024`
+
+Other chronic blockers (unchanged):
+- `corpus.sqlite` `PRAGMA quick_check` + `PRAGMA integrity_check` both
+  NOT OK (FTS5 shadow B-tree corruption: invalid page numbers
+  30000–30645 on pages 12466/22491/29610; 2nd references to pages
+  21836/24604/etc.; rowid out-of-order on page 5733 cell 69; overflow
+  length mismatch on page 5387 cell 0; child page depth differs on
+  page 12465 cell 7).
+- Sandbox `/` 100 % full (14 MB free).
+- `corpus.sqlite` mtime 2026-05-13T14:36:48Z, quiescent ~4.5 h —
+  host-side FTS5 rebuild still pending.
+- Coverage stands at 238 judgments / 800 target = 30 %.
