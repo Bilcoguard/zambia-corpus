@@ -9330,3 +9330,16 @@ Other chronic blockers (unchanged):
 - `corpus.sqlite` mtime 2026-05-13T14:36:48Z, quiescent ~4.5 h —
   host-side FTS5 rebuild still pending.
 - Coverage stands at 238 judgments / 800 target = 30 %.
+
+## [2026-05-13T20:08Z] b0639-jiw — 13th consecutive JIW abort (chronic blockers unchanged)
+
+Identical state to b0638-jiw. No fetch, no parse, no write. Parity gap
+`records=1928 / records_fts=1924 / gap=4` unchanged since repair-040.
+FTS5 shadow-table corruption unchanged since b037/b038. Sandbox `/`
+still 100 % full (14 MB free). corpus.sqlite mtime
+2026-05-13T14:36:48Z (host-side quiescent ~5.5 h). Bogus
+lock-style refs in `.git/refs/remotes/origin/` still present but
+SHA-reseed from b0638 intact — `git pull` works. Coverage 238 / 800
+judgments = 30 %. Operator action required: host-side FTS5 rebuild
++ permanent `rm` of bogus lock refs + sandbox / rotation. Handoff
+to b0640-jiw at t+60min.
