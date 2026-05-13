@@ -9208,3 +9208,33 @@ DB writes, no new raw files.
 **Next tick:** b0635-jiw, t+60 min. Will re-check parity + integrity +
 disk before any fetch. If blockers persist, will continue to abort per
 protocol.
+
+## b0635-jiw — 2026-05-13T16:07:46Z (9th consecutive abort)
+
+Chronic blockers unchanged from b0634-jiw observation 60 min earlier.
+`corpus.sqlite` mtime still 2026-05-13T14:36:48Z (no host write since
+repair-batch-042 at 14:35:30Z). `records`=1928, `records_fts`=1924,
+gap=4 unchanged. Same 4 missing FTS IDs (act-zm-2023-022 / 025 / 029
++ act-zm-2024-003). `quick_check` + `integrity_check(5)` both NOT OK
+with unchanged head signature.
+
+**Sweep cursors preserved (unchanged):**
+- judiciary-coa-sweep: page-9 (scanned-PDF cliff b0618)
+- judiciary-scz-sweep: page-2 (b0620 baseline)
+- judiciary-zmcc-sweep: not yet started
+- judiciary-hc-sweep: not yet started
+- zambialii-zmsc-sweep: 2024 cluster (next: zmsc-32..end of 2024)
+- zambialii-zmcc-sweep: not yet started
+
+**Host-side actions still required (unchanged from b0634-jiw):**
+1. FTS5 rebuild on stable host (DROP records_fts; CREATE contentless
+   mirror of records; rebuild; VACUUM) — STILL the single gating
+   action.
+2. Sandbox `/` rotation.
+3. Clear FUSE git locks at the host mount layer.
+4. Install `ocrmypdf`.
+
+**Next tick:** b0636-jiw, t+60 min. Will re-check parity + integrity
++ disk before any fetch. If blockers persist, will continue to abort
+per protocol. Strongly recommend explicit human attention — 9 ticks
+have now aborted on the same chronic host-side blockers.
