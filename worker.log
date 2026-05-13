@@ -7626,3 +7626,6 @@ On tree pag
 2026-05-13T19:09:34Z	b0638-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
 2026-05-13T19:09:34Z	b0638-jiw	GIT_POLICY	corpus.sqlite-NOT-staged-per-parity-rule-(gap=4-unchanged)	logs+report-staged-only-(continues-b0630/b0631/b0632/b0633/b0634/b0635/b0636/b0637-pattern)	plus-modified-bogus-refs-NOT-staged-(they-are-in-.git-not-tracked)
 2026-05-13T19:09:34Z	b0638-jiw	STOP	verdict=tick-aborted-no-mutation	wall-clock=~7min	recommend=URGENT-host-side-(a)fts5-rebuild-(DROP-records_fts+CREATE+INSERT-SELECT-FROM-records+VACUUM)-(b)rm-.git/refs/remotes/origin/main.lock*-PERMANENT-fix-(c)sandbox-/-rotation-before-next-jiw-attempt-(d)ocrmypdf-install-for-condB-SI-drain
+2026-05-13T19:14:00Z	b0638-jiw	GIT_COMMIT	verdict=committed-locally-after-index.lock-rename	commit=c5d7a8a	files=5(worker.log+costs.log+gaps.md+provenance.log+reports/batch-0638-jiw.md)	insertions=207	corpus.sqlite=NOT-committed-per-parity-rule
+2026-05-13T19:14:00Z	b0638-jiw	GIT_PUSH	verdict=push-ok	remote=origin/main	range=9ae9919..c5d7a8a
+2026-05-13T19:14:00Z	b0638-jiw	FINAL	verdict=tick-aborted-but-logs-pushed-cleanly	chronic-blockers-still-present-on-corpus.sqlite-side	bogus-refs-mitigated-via-SHA-reseed-permanent-fix-still-needed-on-host	next=b0639-jiw-t+60min
