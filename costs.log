@@ -6073,3 +6073,4 @@
 2026-05-13T08:11:54Z	repair-batch-039	fetches=0	pdf-extracts=0	llm-tokens=0	wall-clock-min=3	cost-usd=0.000	verdict=deferred-fts-corruption+disk-full
 2026-05-13T09:18:09Z	repair-batch-040	fetches=0	pdf-extracts=0	llm-tokens=0	fts-reinserts-ok=4	fts-reinserts-fail=4	wall-clock-min=8	cost-usd=0.000	verdict=partial-progress-gap-8-to-4-no-body-fabrication
 2026-05-13T10:15:59Z	repair-batch-041	llm_calls=0	llm_tokens_in=0	llm_tokens_out=0	pdf_downloads=8	pdf_bytes=1331474	wall_clock_s=~720	body_updates=8	fts_rows_recovered=0
+2026-05-13T12:32:30Z	b0631-jiw	fetches=0	bytes_in=0	bytes_out=0	wall_clock_s=~60	cumulative_today=21/500	verdict=tick-aborted-pre-fetch-blockers

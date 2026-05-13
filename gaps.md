@@ -8968,3 +8968,49 @@ All 8 received real PDF-extracted bodies; pdfplumber via TMPDIR=/sessions/.../tm
 - Parity gap (records=1928 vs records_fts=1924) is unchanged at 4 because
   we did not DELETE+INSERT on FTS for the 8 stubs (UPDATE-only fallback).
 
+
+## 2026-05-13T12:32Z — b0631-jiw (5th consecutive JIW abort)
+
+**Status:** tick aborted pre-fetch. No corpus mutations attempted.
+
+**Blockers (unchanged since b0630-jiw):**
+1. **CHECK8 parity fail** — `records=1928`, `records_fts=1924`, `gap=4` (since
+   repair-batch-037; repair-040 reduced from 8→4; repair-041 left at 4).
+   Per non-negotiables, "Never commit if records count ≠ records_fts count".
+2. **SQLite integrity NOT OK** — `quick_check`/`integrity_check` both report
+   `*** in database main *** On tree page 5733 cell 71: 2nd reference to
+   page 21836`. Shadow-page corruption in `records_fts` blocks new
+   `INSERT INTO records_fts` and atomic `DELETE+INSERT` transactions.
+3. **Sandbox `/` 100% full** — 14 MB free (was 15 MB at b0630). `/sessions`
+   has 2.4 GB free; `TMPDIR=/sessions/.../tmp_<batch>` workaround is viable
+   for pdfplumber (per repair-041) but cannot fix the FTS shadow corruption.
+4. **`corpus.sqlite` quiescent on host** — mtime 12:15:34 Z (17 min before
+   tick start). No write contention right now, but the database file is
+   genuinely malformed, not just locked.
+
+**Residual deterministic FTS-insert failures (from repair-041):**
+- `act-zm-2023-022-the-income-tax-amendment-act-2023`
+- `act-zm-2023-025-the-customs-and-excise-amendment-act-2023-act-no-25-of-2023`
+- `act-zm-2023-029-the-appropriation-act-2023-act-no-29-of-2023`
+- `act-zm-2024-003-investment-trade-and-business-development-amendment-act-2024`
+
+(These are non-judgment records but they hold the parity gap shut against
+the JIW write path.)
+
+**Recommended host-side actions before next JIW attempt:**
+1. Run offline FTS5 rebuild with `PRAGMA journal_mode=PERSIST`:
+   `DROP TABLE records_fts; CREATE VIRTUAL TABLE records_fts USING fts5(...);
+    INSERT INTO records_fts SELECT ... FROM records; VACUUM;`
+2. Rotate sandbox `/` cache (clear `_stale_locks_*`, `corpus.sqlite.bak.*`).
+3. Confirm `PRAGMA integrity_check = ok` and `records=records_fts` before
+   next JIW tick.
+
+**Sweep position preserved (no change since b0622-jiw):**
+- ZambiaLII ZMSC 2024 gap-fill: 26/33 (continue at #11, #12, #14 next).
+- judiciaryzambia.com Court of Appeal sweep: page 1 not yet started — zero
+  coverage, highest-priority NEW source.
+- judiciaryzambia.com Constitutional / Supreme / High Court sweeps: not
+  yet started — defer until host FTS rebuild lands.
+
+**Next tick:** b0632-jiw, t+60 min, will re-check parity + integrity + disk
+before any fetch.
