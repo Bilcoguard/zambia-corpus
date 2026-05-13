@@ -7210,3 +7210,143 @@ test append
 2026-05-12T18:30:00Z	b0621-jiw	jiw_budget	fetches_this_tick=14	cumulative_today=68/500	wall_clock~12min	wall_budget=20min	bytes=~10.83MB
 2026-05-12T18:30:00Z	b0621-jiw	jiw_coverage_delta	SCZ_92to94to96(+2)	ZMCC_85to87(+2)	CoA_50_unchanged	total_pool_1919to1923
 2026-05-12T18:30:00Z	b0621-jiw	jiw_tick_end	post_records=1923 post_fts=1923 inserted=4 deferred=2 fetches=14
+2026-05-13T05:55:00Z	b0621-jiw	GIT_LOCK_OBSERVATION	.git/index.lock=blocked-by-FUSE-EPERM-same-pattern-as-b0608-onwards	mitigation=host-side-parallel-worker-file-sweep-will-commit-transparently
+2026-05-13T05:55:00Z	b0621-jiw	FILES_ON_DISK	corpus.sqlite=atomically-updated-pool-1919-to-1923	reports/batch-0621-jiw.md=present	records/judgments/zmsc/2025/judgment-zm-2025-zmsc-01-occupational-health-and-safety-institute-v-james-mataliro.json=present	records/judgments/zmsc/2025/judgment-zm-2025-zmsc-31-hambani-ngwenya-and-anor-v-lubambe-copper-mine-limited.json=present	records/judgments/zmcc/2026/judgment-zm-2026-zmcc-01-tresford-chali-v-the-judicial-complaints-commission-and-ors.json=present	records/judgments/zmcc/2026/judgment-zm-2026-zmcc-11-zambia-civil-liberties-union-v-commissioner-for-refugees.json=present	raw_pdfs=4-saved	raw_htmls=4-saved	worker.log=appended	costs.log=appended-tsv-and-json	provenance.log=appended-6-entries	gaps.md=appended-b0621-section
+2026-05-13T05:55:00Z	b0621-jiw	GIT_PUSH	verdict=deferred-to-host-side-sweep	reason=index.lock-EPERM-FUSE-mount-precedent-since-b0334
+2026-05-13T05:55:00Z	b0621-jiw	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
+2026-05-13T05:55:00Z	b0621-jiw	STOP	verdict=tick-complete-zambialii-priority-c-sweep-continuation-4-records-inserted-2-deferred-with-specific-reasons-scz-2025-effectively-complete-zmcc-2026-effectively-complete-CHECK8-PASS-FTS5-healthy-throughout	new_records=4	deferred=2	next-tick=t+60min	next-tick-priority=zambialii-zmsc-2024-gap-survey-then-zmcc-2025-gap-survey
+2026-05-13T04:30:00Z	b0619	STOP	verdict=tick-complete-phase8-reverify-files-swept-by-parallel-host-side-commit-5676b4b-which-included-b0619-reports-b0621-jiw-gaps-provenance-and-repair-batch-034	new_records=0	drift=5-akn-html-known-pattern	match=3	push_status=transparent-via-host-side-sweep	HEAD=5676b4b	origin_main=5676b4b	next-tick=t+30min
+2026-05-13T03:58:14Z	repair-batch-035	[1/8] act-zm-2012-013-property-transfer-tax-amendment-act-2012  (parliament.gov.zm)
+2026-05-13T03:58:15Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (4pp)
+2026-05-13T03:58:15Z	repair-batch-035	  ocrmypdf-error: [Errno 2] No such file or directory: 'ocrmypdf'
+2026-05-13T03:58:15Z	repair-batch-035	  -> FAIL quality: 0c via ocr-failed
+2026-05-13T03:58:15Z	repair-batch-035	[2/8] act-zm-2012-015-zambia-development-agency-amendment-act-2012  (parliament.gov.zm)
+2026-05-13T03:58:16Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (4pp)
+2026-05-13T03:58:16Z	repair-batch-035	  ocrmypdf-error: [Errno 2] No such file or directory: 'ocrmypdf'
+2026-05-13T03:58:16Z	repair-batch-035	  -> FAIL quality: 0c via ocr-failed
+2026-05-13T03:58:16Z	repair-batch-035	[3/8] act-zm-2013-005-the-teaching-profession-2013  (parliament.gov.zm)
+2026-05-13T03:58:17Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (30pp)
+2026-05-13T03:58:17Z	repair-batch-035	  ocrmypdf-error: [Errno 2] No such file or directory: 'ocrmypdf'
+2026-05-13T03:58:17Z	repair-batch-035	  -> FAIL quality: 0c via ocr-failed
+2026-05-13T03:58:17Z	repair-batch-035	[4/8] act-zm-2013-007-the-excess-expenditure-appropriation-2010-2013  (parliament.gov.zm)
+2026-05-13T03:58:18Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (3pp)
+2026-05-13T03:58:18Z	repair-batch-035	  ocrmypdf-error: [Errno 2] No such file or directory: 'ocrmypdf'
+2026-05-13T03:58:18Z	repair-batch-035	  -> FAIL quality: 0c via ocr-failed
+2026-05-13T03:58:18Z	repair-batch-035	[5/8] act-zm-2013-012-the-patents-and-companies-registration-agency-amendment-2013  (parliament.gov.zm)
+2026-05-13T03:58:18Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (1pp)
+2026-05-13T03:58:18Z	repair-batch-035	  ocrmypdf-error: [Errno 2] No such file or directory: 'ocrmypdf'
+2026-05-13T03:58:18Z	repair-batch-035	  -> FAIL quality: 0c via ocr-failed
+2026-05-13T03:58:18Z	repair-batch-035	[6/8] act-zm-2013-013-the-weights-and-measures-amendment-2013  (parliament.gov.zm)
+2026-05-13T03:58:18Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (2pp)
+2026-05-13T03:58:18Z	repair-batch-035	  ocrmypdf-error: [Errno 2] No such file or directory: 'ocrmypdf'
+2026-05-13T03:58:18Z	repair-batch-035	  -> FAIL quality: 0c via ocr-failed
+2026-05-13T03:58:18Z	repair-batch-035	[7/8] act-zm-2013-014-the-property-transfer-tax-amendment-2013  (parliament.gov.zm)
+2026-05-13T03:58:19Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (1pp)
+2026-05-13T03:58:19Z	repair-batch-035	  ocrmypdf-error: [Errno 2] No such file or directory: 'ocrmypdf'
+2026-05-13T03:58:19Z	repair-batch-035	  -> FAIL quality: 0c via ocr-failed
+2026-05-13T03:58:19Z	repair-batch-035	[8/8] act-zm-2013-015-the-value-added-tax-amendment-2013  (parliament.gov.zm)
+2026-05-13T03:58:19Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (2pp)
+2026-05-13T03:58:19Z	repair-batch-035	  ocrmypdf-error: [Errno 2] No such file or directory: 'ocrmypdf'
+2026-05-13T03:58:19Z	repair-batch-035	  -> FAIL quality: 0c via ocr-failed
+2026-05-13T03:58:20Z	repair-batch-035	POST quick_check: ('ok',)    integrity_check: ('ok',)
+2026-05-13T03:58:20Z	repair-batch-035	POST counts: records=1923  records_fts=1923  fixed=0  failed=8
+2026-05-13T03:58:44Z	repair-batch-035	[1/8] act-zm-2012-013-property-transfer-tax-amendment-act-2012  (parliament.gov.zm)
+2026-05-13T03:58:45Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (4pp)
+2026-05-13T03:58:48Z	repair-batch-035	  -> OK 5904c via ocr(4pp)  src=94341B
+2026-05-13T04:00:06Z	repair-batch-035	[1/8] act-zm-2012-013-property-transfer-tax-amendment-act-2012  (parliament.gov.zm)
+2026-05-13T04:00:07Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (4pp)
+2026-05-13T04:00:11Z	repair-batch-035	  -> OK 5904c via ocr(4pp)  src=94341B
+2026-05-13T04:00:37Z	repair-batch-035	[1/8] act-zm-2012-013-property-transfer-tax-amendment-act-2012  (parliament.gov.zm)
+2026-05-13T04:00:38Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (4pp)
+2026-05-13T04:00:41Z	repair-batch-035	  -> OK 5904c via ocr(4pp)  src=94341B
+2026-05-13T04:00:41Z	repair-batch-035	[2/8] act-zm-2012-015-zambia-development-agency-amendment-act-2012  (parliament.gov.zm)
+2026-05-13T04:00:41Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (4pp)
+2026-05-13T04:00:44Z	repair-batch-035	  -> OK 4029c via ocr(4pp)  src=68810B
+2026-05-13T04:00:44Z	repair-batch-035	[3/8] act-zm-2013-005-the-teaching-profession-2013  (parliament.gov.zm)
+2026-05-13T04:00:46Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (30pp)
+2026-05-13T04:01:06Z	repair-batch-035	  -> OK 55767c via ocr(30pp)  src=623358B
+2026-05-13T04:01:06Z	repair-batch-035	[4/8] act-zm-2013-007-the-excess-expenditure-appropriation-2010-2013  (parliament.gov.zm)
+2026-05-13T04:01:06Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (3pp)
+2026-05-13T04:01:08Z	repair-batch-035	  -> OK 2782c via ocr(3pp)  src=34895B
+2026-05-13T04:01:08Z	repair-batch-035	[5/8] act-zm-2013-012-the-patents-and-companies-registration-agency-amendment-2013  (parliament.gov.zm)
+2026-05-13T04:01:09Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (1pp)
+2026-05-13T04:01:10Z	repair-batch-035	  -> OK 1190c via ocr(1pp)  src=14047B
+2026-05-13T04:01:10Z	repair-batch-035	[6/8] act-zm-2013-013-the-weights-and-measures-amendment-2013  (parliament.gov.zm)
+2026-05-13T04:01:10Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (2pp)
+2026-05-13T04:01:12Z	repair-batch-035	  -> OK 1060c via ocr(2pp)  src=14949B
+2026-05-13T04:01:12Z	repair-batch-035	[7/8] act-zm-2013-014-the-property-transfer-tax-amendment-2013  (parliament.gov.zm)
+2026-05-13T04:01:12Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (1pp)
+2026-05-13T04:01:13Z	repair-batch-035	  -> OK 1145c via ocr(1pp)  src=13524B
+2026-05-13T04:01:13Z	repair-batch-035	[8/8] act-zm-2013-015-the-value-added-tax-amendment-2013  (parliament.gov.zm)
+2026-05-13T04:01:14Z	repair-batch-035	  pdfplumber yielded 0c — falling back to OCR (2pp)
+2026-05-13T04:01:16Z	repair-batch-035	  -> OK 3887c via ocr(2pp)  src=44607B
+2026-05-13T04:01:16Z	repair-batch-035	POST quick_check: ('ok',)    integrity_check: ('ok',)
+2026-05-13T04:01:16Z	repair-batch-035	POST counts: records=1923  records_fts=1923  fixed=8  failed=0
+2026-05-13T04:01:18Z	repair-batch-035	swap-back ok: replaced corpus.sqlite from /sessions/exciting-nice-davinci/tmp/corpus.sqlite
+2026-05-13T04:02:00Z	b0622-jiw	jiw_tick_start	pre_records=1923 pre_fts=1923
+2026-05-13T04:02:00Z	b0622-jiw	jiw_priority_a_check	no_actionable_deferred_reparse_candidates_b0621_finding_still_holds
+2026-05-13T04:02:00Z	b0622-jiw	jiw_pivot_continuation	Continuing ZambiaLII priority-c sweep per b0621 recommendation: ZMSC 2024 gap survey (corpus had 21/34 indexed entries; index #4 absent on publisher; 13 corpus gaps).
+2026-05-13T04:02:00Z	b0622-jiw	jiw_index_fetch	url=https://zambialii.org/judgments/ZMSC/2024/ found=33 entries (1-3,5-34; #4 absent on publisher)
+2026-05-13T04:02:00Z	b0622-jiw	jiw_dedup_check	ZMSC-2024 missing: 1,2,5,6,9,11,18,22,26,28,29,31,34 (13). Selected lowest-numbered 5: 1,2,5,6,9 for this tick (within MAX_BATCH_SIZE=8 budget, leaving headroom for parse/insert/checks within 20-min wall clock).
+2026-05-13T04:02:00Z	b0622-jiw	jiw_ingest	record=judgment-zm-2024-zmsc-01-kausa-mwachindalo-and-anor-v-mathews-musona-and-ors raw_sha256=99afe6d65f14b574 pdf_pages=93 outcome=dismissed dissent=Malila-CJ
+2026-05-13T04:02:00Z	b0622-jiw	jiw_ingest	record=judgment-zm-2024-zmsc-02-mabvuto-mwale-and-anor-v-the-people raw_sha256=ce7259e1bd243b2c pdf_pages=17 outcome=other(mixed: sentence-allowed/conviction-dismissed)
+2026-05-13T04:02:00Z	b0622-jiw	jiw_ingest	record=judgment-zm-2024-zmsc-05-tarick-mwambwa-chanaika-v-zamanita-limited-and-anor raw_sha256=912818c6bf69b66f pdf_pages=19 outcome=dismissed
+2026-05-13T04:02:00Z	b0622-jiw	jiw_ingest	record=judgment-zm-2024-zmsc-06-kelvin-lubona-v-the-people raw_sha256=208dbd20adfa4ab7 pdf_pages=24 outcome=allowed (conviction+sentence quashed; appellant acquitted)
+2026-05-13T04:02:00Z	b0622-jiw	jiw_ingest	record=judgment-zm-2024-zmsc-09-frankson-musukwa-and-ors-v-road-transport-and-safety-agency raw_sha256=c3d00816315770dd pdf_pages=44 outcome=dismissed
+2026-05-13T04:02:00Z	b0622-jiw	jiw_checks	CHECK1=PASS CHECK2=PASS CHECK3=PASS CHECK4=PASS CHECK5=PASS CHECK6=PASS CHECK7=PASS CHECK8=PASS records=1928 records_fts=1928 fts_integrity=OK
+2026-05-13T04:02:00Z	b0622-jiw	jiw_budget	fetches_this_tick=11	cumulative_today=11/500	wall_clock~10min	wall_budget=20min	bytes=~35.5MB
+2026-05-13T04:02:00Z	b0622-jiw	jiw_coverage_delta	ZMSC-2024_21_to_26_of_33	ZMSC-2025_unchanged	ZMCC-unchanged	CoA-unchanged	total_pool_1923_to_1928
+2026-05-13T04:02:00Z	b0622-jiw	jiw_tick_end	post_records=1928 post_fts=1928 inserted=5 deferred=0 fetches=11
+2026-05-13T04:02:59Z	repair-batch-035	STRATEGY	worked-on-local-tmp-copy-due-to-FUSE-disk-I/O-error-on-commit-then-swap-back-via-os.replace
+2026-05-13T04:02:59Z	repair-batch-035	CONCURRENT_INGEST_OBSERVED	records=1928-not-1923-five-ZMSC-2024-judgments-added-by-host-side-worker-during-tick
+2026-05-13T04:02:59Z	repair-batch-035	FINAL_COUNTS	records=1928 records_fts=1928 parity=OK integrity=OK quick_check=OK fts_internal_check=OK
+2026-05-13T04:02:59Z	repair-batch-035	MANIFEST_PROGRESS	next_targets=32_remaining_of_88_total
+2026-05-13T04:02:59Z	repair-batch-035	B2_SYNC	deferred-to-host-rclone-not-in-sandbox
+2026-05-13T04:02:59Z	repair-batch-035	GIT_PUSH	attempted-via-bash-below-fallback-to-host-side-sweep-if-blocked
+2026-05-13T04:02:59Z	repair-batch-035	STOP	verdict=tick-complete-8/8-manifest-records-repaired-FTS-rebuilt-counts-parity-OK	new_records=0(repaired-existing)	next-tick=t+60min
+2026-05-13T04:04:05Z	repair-batch-035	GIT_LOCK_OBSERVATION	.git/index.lock=blocked-by-FUSE-EPERM-same-pattern-as-b0608-onwards	mitigation=host-side-parallel-worker-file-sweep-will-commit-transparently
+2026-05-13T04:04:05Z	repair-batch-035	FILES_ON_DISK	corpus.sqlite=swap-back-confirmed-1928-records-1928-fts	reports/repair-batch-035.md=present	worker.log=appended	costs.log=appended	gaps.md=unchanged-no-gaps-this-tick	provenance.log=unchanged-by-035	jiw-untracked-jsons=5(records/judgments/zmsc/2024/zmsc-01,02,05,06,09)
+2026-05-13T04:03:00Z	b0622-jiw	GIT_LOCK_OBSERVATION	.git/index.lock=blocked-by-FUSE-EPERM-same-pattern-as-b0608-onwards	mitigation=host-side-parallel-worker-file-sweep-will-commit-transparently
+2026-05-13T04:03:00Z	b0622-jiw	FILES_ON_DISK	corpus.sqlite=atomically-updated-pool-1923-to-1928	reports/batch-0622-jiw.md=present	records/judgments/zmsc/2024/judgment-zm-2024-zmsc-01-kausa-mwachindalo-and-anor-v-mathews-musona-and-ors.json=present	records/judgments/zmsc/2024/judgment-zm-2024-zmsc-02-mabvuto-mwale-and-anor-v-the-people.json=present	records/judgments/zmsc/2024/judgment-zm-2024-zmsc-05-tarick-mwambwa-chanaika-v-zamanita-limited-and-anor.json=present	records/judgments/zmsc/2024/judgment-zm-2024-zmsc-06-kelvin-lubona-v-the-people.json=present	records/judgments/zmsc/2024/judgment-zm-2024-zmsc-09-frankson-musukwa-and-ors-v-road-transport-and-safety-agency.json=present	raw_pdfs=5-saved	raw_htmls=5-saved	worker.log=appended	costs.log=appended-tsv-and-json	provenance.log=appended-6-entries	gaps.md=appended-b0622-section
+2026-05-13T04:03:00Z	b0622-jiw	GIT_PUSH	verdict=deferred-to-host-side-sweep	reason=index.lock-EPERM-FUSE-mount-precedent-since-b0334
+2026-05-13T04:03:00Z	b0622-jiw	B2_SYNC	verdict=deferred-to-host	reason=rclone-not-in-sandbox
+2026-05-13T04:03:00Z	b0622-jiw	STOP	verdict=tick-complete-zambialii-priority-c-zmsc-2024-gap-fill-5-records-inserted-zero-deferred-CHECK1-CHECK8-PASS-FTS5-healthy-throughout	new_records=5	deferred=0	next-tick=t+60min	next-tick-priority=zambialii-zmsc-2024-continuation-8-remaining-gaps-then-zmcc-2025-survey-then-zmhc-2025-launch
+2026-05-13T04:08:06Z	b0623-jiw	GIT_LOCK_OBSERVATION	.git/ORIG_HEAD.lock=EPERM-cannot-unlink-sandbox-FUSE	.git/HEAD.lock-variants=accumulated-since-b0382	find-cleanup-no-effect-Operation-not-permitted-on-pre-existing-locks	state=local-main-aligned-with-origin-main-zero-ahead-zero-behind-rev=5676b4bdc28d2ed209a3eb2f624e3a525b5d9eaf	pull-formally-failed-but-state-is-already-current	host-side-sweep-behind-b0622-jiw-not-yet-committed
+2026-05-13T04:08:06Z	b0623-jiw	PULL_FAILED	error=update_ref-failed-for-ref-ORIG_HEAD-cannot-lock-ref-File-exists	mitigation=tried-rm-mv-chmod-all-EPERM	verdict=per-task-spec-stop-on-pull-failure
+2026-05-13T04:08:06Z	b0623-jiw	STOP	verdict=tick-aborted-pull-failure-no-fetches-no-ingestion-no-deferred-records-added-to-prevent-host-side-backlog-growth	new_records=0	deferred=0	fetches=0	cumulative_today=11/500-unchanged-from-b0622	next-tick=t+60min	next-tick-action=resume-after-host-side-sweep-catches-up-and-clears-lock-files-priority-b-judiciary-court-of-appeal-sweep-page-1-then-priority-c-zambialii-zmsc-2024-continuation-remaining-gaps-numbers-3-7-8-10-11-12-13-and-priority-d-zmcc-2025-survey
+2026-05-13T04:08:19Z	repair-batch-036	PRE integrity: ('ok',)
+2026-05-13T04:08:19Z	repair-batch-036	PRE counts: records=1928 records_fts=1928
+2026-05-13T04:08:19Z	repair-batch-036	Queue (8): act-zm-2013-016-the-customs-and-excise-amendment-2013, act-zm-2013-019-the-appropriation-act-2013, act-zm-2014-001-the-legal-practitioner-amendment-act, act-zm-2014-002-the-service-commissions-amendment-act-2014-act-no-2-of-2014, act-zm-2016-008-the-constitutional-court, act-zm-2016-009-the-superior-courts-number-of-judges, act-zm-2017-008-supplementary-appropriation-2017, act-zm-2021-026-the-health-professions-amendment-act-2021
+2026-05-13T04:08:19Z	repair-batch-036	[1/8] act-zm-2013-016-the-customs-and-excise-amendment-2013  (www.parliament.gov.zm)
+2026-05-13T04:08:24Z	repair-batch-036	  -> OK 6708c via ocr(13pp)  src=176017B
+2026-05-13T04:08:26Z	repair-batch-036	[2/8] act-zm-2013-019-the-appropriation-act-2013  (www.parliament.gov.zm)
+2026-05-13T04:08:31Z	repair-batch-036	  -> OK 6852c via ocr(20pp)  src=367932B
+2026-05-13T04:08:33Z	repair-batch-036	[3/8] act-zm-2014-001-the-legal-practitioner-amendment-act  (www.parliament.gov.zm)
+2026-05-13T04:08:34Z	repair-batch-036	  -> OK 842c via ocr(1pp)  src=68241B
+2026-05-13T04:08:36Z	repair-batch-036	[4/8] act-zm-2014-002-the-service-commissions-amendment-act-2014-act-no-2-of-2014  (www.parliament.gov.zm)
+2026-05-13T04:08:38Z	repair-batch-036	  -> OK 2470c via ocr(2pp)  src=158307B
+2026-05-13T04:08:40Z	repair-batch-036	[5/8] act-zm-2016-008-the-constitutional-court  (www.parliament.gov.zm)
+2026-05-13T04:08:48Z	repair-batch-036	  -> OK 3493c via ocr(10pp)  src=2519942B
+2026-05-13T04:08:50Z	repair-batch-036	[6/8] act-zm-2016-009-the-superior-courts-number-of-judges  (www.parliament.gov.zm)
+2026-05-13T04:08:51Z	repair-batch-036	  -> OK 1310c via ocr(2pp)  src=303993B
+2026-05-13T04:08:53Z	repair-batch-036	[7/8] act-zm-2017-008-supplementary-appropriation-2017  (www.parliament.gov.zm)
+2026-05-13T04:08:57Z	repair-batch-036	  -> OK 4935c via ocr(6pp)  src=1214620B
+2026-05-13T04:08:59Z	repair-batch-036	[8/8] act-zm-2021-026-the-health-professions-amendment-act-2021  (www.parliament.gov.zm)
+2026-05-13T04:09:00Z	repair-batch-036	  -> OK 3473c via pdfplumber  src=13557B
+2026-05-13T04:09:00Z	repair-batch-036	POST quick_check: ('ok',)    integrity_check: ('ok',)
+2026-05-13T04:09:00Z	repair-batch-036	POST counts: records=1928  records_fts=1928  fixed=8  failed=0
+2026-05-13T04:09:30Z	repair-batch-036	REPORT_WRITTEN	reports/repair-batch-036.md
+2026-05-13T04:09:30Z	repair-batch-036	MANIFEST_PROGRESS	pre=32_remaining_of_88	post=24_remaining_of_88	delta=-8
+2026-05-13T04:09:30Z	repair-batch-036	B2_SYNC	deferred-to-host-rclone-not-in-sandbox
+2026-05-13T04:09:30Z	repair-batch-036	STOP	verdict=tick-complete-8/8-manifest-records-repaired-FTS-rebuilt-counts-parity-OK	new_records=0(repaired-existing)	next-tick=t+60min	next-targets=2021-027_028_029_030_031_2023-019_020_022
+2026-05-13T04:10:00Z	repair-batch-036	GIT_LOCK_OBSERVATION	.git/index.lock=blocked-by-FUSE-EPERM-same-pattern-as-b0608-onwards	mitigation=host-side-parallel-worker-file-sweep-will-commit-transparently
+2026-05-13T04:10:00Z	repair-batch-036	FILES_ON_DISK	corpus.sqlite=swap-back-confirmed-1928-records-1928-fts	reports/repair-batch-036.md=present	scripts/repair_batch_036.py=present	_repair_batch_036_result.json=present	worker.log=appended	costs.log=appended	gaps.md=unchanged-no-gaps-this-tick	provenance.log=unchanged-by-036	staged=corpus.sqlite,reports/repair-batch-036.md,scripts/repair_batch_036.py,worker.log,costs.log
+2026-05-13T04:10:00Z	repair-batch-036	GIT_PUSH	verdict=deferred-to-host-side-sweep	reason=index.lock-EPERM-FUSE-mount-precedent-since-b0608
+2026-05-13T04:08:10Z	b0623	START	phase=phase_8_nightly_reverify	parser_version=phase8-reverify-0.1.0	pool_size=1925	sample_rate=0.01	max_batch=8	seed=phase8-reverify-2026-05-13-b0623	ua=KateWestonLegal-CorpusBuilder/1.0(contact:peter@bilcoguard.com)
+2026-05-13T04:08:10Z	b0623	BATCH_RENUMBER	originally-seeded-as-b0622	collision-detected-with-b0622-jiw-at-04:02Z	renumbered-to-b0623-before-any-output-committed	8-discarded-fetches-tallied-in-cumulative_today-only
+2026-05-13T04:08:10Z	b0623	CA_CHAIN	preloaded-from-scripts/certs/rapidssl_tls_rsa_ca_g1.pem	tls-zambialii-handshake-OK-first-pass
+2026-05-13T04:08:38Z	b0623	REVERIFY	fetches=8	retry_fetches=0	match=5	drift=3	truncated_prefix=0	fetch_error=0	durations_s=0.381..1.955	host=zambialii.org+www.parliament.gov.zm
+2026-05-13T04:08:38Z	b0623	INTEGRITY	check1_pool_present=PASS	check2_no_record_mutation=PASS	check3_logs_append_only=PASS	check4_provenance_unchanged=PASS	check5_drift_attributable=PASS-all-3-on-AKN-HTML-cohorts	check6_no_truncated_prefix_false_drift=PASS	check7_seed_deterministic=PASS	check8_phase8_read_only=PASS
+2026-05-13T04:08:38Z	b0623	REPORT_WRITTEN	reports/batch-0623-reverify.json	reports/batch-0623.md
+2026-05-13T04:09:00Z	b0623	BUDGET	cumulative_today=16/2000	includes-8-discarded-b0622-seeded-wire-fetches+8-productive-b0623-fetches	margin=1984
+2026-05-13T04:09:00Z	b0623	B2_SYNC	deferred-to-host-rclone-not-in-sandbox

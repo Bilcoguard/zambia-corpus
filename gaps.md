@@ -8421,3 +8421,143 @@ specific reasons documented below.
 - (i) **NEW**: ZMCC 12/2026 Mputa Ngalande PDF apparent truncation
   / single-opinion publication — needs source verification (editor
   contact, or alternate retrieval).
+
+- repair-batch-035 act-zm-2012-013-property-transfer-tax-amendment-act-2012: extracted only 0c via ocr-failed
+
+- repair-batch-035 act-zm-2012-015-zambia-development-agency-amendment-act-2012: extracted only 0c via ocr-failed
+
+- repair-batch-035 act-zm-2013-005-the-teaching-profession-2013: extracted only 0c via ocr-failed
+
+- repair-batch-035 act-zm-2013-007-the-excess-expenditure-appropriation-2010-2013: extracted only 0c via ocr-failed
+
+- repair-batch-035 act-zm-2013-012-the-patents-and-companies-registration-agency-amendment-2013: extracted only 0c via ocr-failed
+
+- repair-batch-035 act-zm-2013-013-the-weights-and-measures-amendment-2013: extracted only 0c via ocr-failed
+
+- repair-batch-035 act-zm-2013-014-the-property-transfer-tax-amendment-2013: extracted only 0c via ocr-failed
+
+- repair-batch-035 act-zm-2013-015-the-value-added-tax-amendment-2013: extracted only 0c via ocr-failed
+
+## b0622-jiw (2026-05-13T04:02:00Z) — ZMSC 2024 gap-fill
+
+### Ingested
+
+- `judgment-zm-2024-zmsc-01-kausa-mwachindalo-and-anor-v-mathews-musona-and-ors`
+  — [2024] ZMSC 1; APPEAL NO. 1/2021; 2024-03-20; **dismissed**
+  (majority); Malila CJ dissenting. Customary chieftaincy
+  succession — Bundabunda Soli Shamifwi; majority upheld rotation
+  order to Kashimbi royal family (David Musona); each party bears
+  own costs. Coram: Malila CJ (diss.), Musonda DCJ, Wood JS.
+- `judgment-zm-2024-zmsc-02-mabvuto-mwale-and-anor-v-the-people`
+  — [2024] ZMSC 2; Appeal No. 27, 28/2020; 2024-04-19; **other**
+  (mixed). Sentence appeal succeeds; conviction appeal dismissed.
+  Coram: Musonda DCJ, Kabuka JJS, Chinyama JJS.
+- `judgment-zm-2024-zmsc-05-tarick-mwambwa-chanaika-v-zamanita-limited-and-anor`
+  — [2024] ZMSC 5; APPEAL NO. 018/2013; 2024-05-06; **dismissed**.
+  Employment (IRC appeal); acting-allowance and salary-increase
+  claims unsubstantiated. Coram: Malila CJ, Phiri JJS, Hamaundu JJS.
+- `judgment-zm-2024-zmsc-06-kelvin-lubona-v-the-people`
+  — [2024] ZMSC 6; APPEAL NO. 244/2017; 2024-05-14; **allowed**.
+  Murder; conviction and sentence quashed; appellant acquitted.
+  Three key pieces of evidence failed admissibility (corroboration,
+  ballistics). Coram: Malila CJ, Hamaundu JJS, Kaoma JJS.
+- `judgment-zm-2024-zmsc-09-frankson-musukwa-and-ors-v-road-transport-and-safety-agency`
+  — [2024] ZMSC 9; Appeal No. 11 of 2021; 2024-05-16; **dismissed**.
+  Constitutional / disability rights; no infringement of Articles
+  11/22/23. Coram: Kaoma JJS, Kajimanga JJS, Chisanga JJS.
+
+### Deferred
+
+None this tick.
+
+### Sweep position update (b0622)
+
+- ZambiaLII `/judgments/ZMSC/2024/` — page 1 (only page) listing
+  has 33 entries (#1–3, 5–34; #4 absent on publisher). Corpus now
+  has 26/33 (was 21/33). **Remaining gaps**: 11, 18, 22, 26, 28,
+  29, 31, 34 (8 candidates).
+- Next-tick targets recommended for b0623:
+  (a) ZMSC 2024 continuation (8 remaining gaps);
+  (b) ZMCC 2025 gap survey (15 in corpus; gaps at 5–12, 14–19, 21,
+  24, 28);
+  (c) ZMHC 2025 launch (zero coverage — sample landmark decisions
+  only).
+
+### Counts post-b0622
+
+- `records`: **1923 → 1928** (+5)
+- `records_fts`: **1923 → 1928** (+5)
+- CHECK1–CHECK8: all PASS.
+- FTS5 integrity-check: PASS (pre + post).
+- ZMSC 2024 coverage: 21/33 → 26/33 (78.8%).
+- ZMSC overall: 95 → 100.
+
+### Operator action items (carried forward from b0621, unchanged)
+
+- (a) FTS5 rebuild action — COMPLETED at b0608 host-side sweep.
+- (b) `ocrmypdf-scanned-coa-pdfs` repair-worker task — **26 records** waiting (CoA scanned-PDF cliff pages 8–9).
+- (c) Chisumpa Liandisha source-side fix — outstanding.
+- (d) Zanaco Bank v Allan Kandala post-misattachment — outstanding.
+- (e) Maxwell Banda post-no-attachment-stub — outstanding.
+- (f) Operator decision on CoA cliff continuation — JIW continuing ZambiaLII pivot productively (b0620→b0622, +11 records).
+- (g) ZMSC 5/2026 publisher-side gap noted (unchanged).
+- (h) ZMSC 5/2025 case_number-collision deferral — operator decision required on dedup rule interpretation.
+- (i) ZMCC 12/2026 Mputa Ngalande PDF apparent truncation — needs source verification.
+
+
+## Phase 8 — Nightly re-verification batch 0623 (2026-05-13T04:08:38Z)
+
+Sample size 8 of pool 1925 (seed `phase8-reverify-2026-05-13-b0623`).
+5 match, 3 drift, 0 fetch_error, 0 truncated_prefix. None of the
+drifts indicates corpus mutation — all three sit on the
+well-characterised zambialii.org AKN HTML rendering-non-determinism
+cohorts (130/130 `/eng@`-suffix Act-or-SI + 15/15 bare-AKN-path SI =
+145/145 100 % drift across 46 ticks). No record was mutated this
+tick; the entries below are logged for audit completeness only.
+
+Note on tick numbering: this Phase-8 worker-tick was originally
+seeded as b0622 in this sandbox at 2026-05-13T04:07Z, but the JIW
+worker had already consumed `0622-jiw` ten seconds earlier
+(2026-05-13T04:02Z) on a separate channel, creating a batch-number
+collision in the global sequence. The worker-tick was renumbered
+to **b0623** and re-seeded with `phase8-reverify-2026-05-13-b0623`
+before any audit artefacts were committed. The 8 wire fetches
+issued under the discarded b0622 seed are tallied in
+`cumulative_today` for budget accounting but produced no
+durable output. See standing recommendation #13 in
+`reports/batch-0623.md` for the proposed coordination protocol.
+
+- `act-zm-2018-013-statistics-act-2018` —
+  drift on https://zambialii.org/akn/zm/act/2018/13/eng@2018-12-26
+  (stored e1078845… / fetched 2f739292…). AKN-HTML `/eng@`-suffix
+  rendering non-determinism; no corpus mutation.
+- `si-zm-2023-046-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2023` —
+  drift on https://zambialii.org/akn/zm/act/si/2023/46
+  (stored 8977c4d5… / fetched 0ce8efed…). Bare-AKN-path SI sub-
+  cohort (no `/eng@` suffix); rendering non-determinism; no corpus
+  mutation.
+- `act-zm-1990-012-environmental-protection-and-pollution-control-act-1990` —
+  drift on https://zambialii.org/akn/zm/act/1990/12/eng@1996-12-31
+  (stored d4e32592… / fetched 25d40adf…). AKN-HTML `/eng@`-suffix
+  rendering non-determinism; no corpus mutation.
+
+Cohort tallies post-b0623 (delta from b0619; intermediate ticks
+were JIW channel and did not touch Phase 8 cohorts):
+- AKN-HTML `/eng@`-suffix Act-or-SI 130/130 (was 127/127; +3 new
+  observations: 2018/13, 1990/12 Acts plus carry-forward).
+- AKN-HTML bare-AKN-path SI 15/15 (was 14/14; +1: si-2023/46).
+- zambialii akn `/source.pdf` Act-or-SI match 45/45 (was 43/43;
+  +2: si-2012/3 BNRA, si-2017/70 income-tax exemption order).
+- Parliament `/acts/` static-PDF match 121/121 (was 118/118; +3:
+  Supplementary Appropriation 20/2024, Public Protector 15/2016,
+  Tsetse Control Cap-249).
+- cap-N path widens 1/1 → 2/2 (Cap-249 Tsetse joins Cap-247
+  precedent).
+- Stable-PDF supercohort (Parliament `/acts/` ∪ zambialii
+  `/source.pdf` ∪ cap-N) 178/182 (zero real drifts across 46
+  ticks; 4 truncated-stored-hash false drifts unchanged at
+  cumulative ratio).
+
+See `reports/batch-0623.md` for the full cohort table, integrity
+checks, budget accounting, and standing recommendations carried
+forward.

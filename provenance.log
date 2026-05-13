@@ -4401,3 +4401,9 @@ Stale rollback journal hazard re-observed and mitigated via `journal_mode=TRUNCA
 2026-05-12T18:30:00Z	b0621-jiw	judgment-zm-2026-zmcc-11-zambia-civil-liberties-union-v-commissioner-for-refugees	source=zambialii.org	ingest_method=html+pdf
 2026-05-12T18:30:00Z	b0621-jiw	index_fetch	url=https://zambialii.org/judgments/ZMSC/2025/ http=200 bytes=141303
 2026-05-12T18:30:00Z	b0621-jiw	index_fetch	url=https://zambialii.org/judgments/ZMCC/2026/ http=200 bytes=96075
+2026-05-13T04:02:00Z	b0622-jiw	index_fetch	url=https://zambialii.org/judgments/ZMSC/2024/ http=200 bytes=144883
+2026-05-13T04:02:00Z	b0622-jiw	judgment-zm-2024-zmsc-01-kausa-mwachindalo-and-anor-v-mathews-musona-and-ors	source=zambialii.org	ingest_method=html+pdf
+2026-05-13T04:02:00Z	b0622-jiw	judgment-zm-2024-zmsc-02-mabvuto-mwale-and-anor-v-the-people	source=zambialii.org	ingest_method=html+pdf
+2026-05-13T04:02:00Z	b0622-jiw	judgment-zm-2024-zmsc-05-tarick-mwambwa-chanaika-v-zamanita-limited-and-anor	source=zambialii.org	ingest_method=html+pdf
+2026-05-13T04:02:00Z	b0622-jiw	judgment-zm-2024-zmsc-06-kelvin-lubona-v-the-people	source=zambialii.org	ingest_method=html+pdf
+2026-05-13T04:02:00Z	b0622-jiw	judgment-zm-2024-zmsc-09-frankson-musukwa-and-ors-v-road-transport-and-safety-agency	source=zambialii.org	ingest_method=html+pdf
