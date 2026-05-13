@@ -8764,3 +8764,61 @@ All `rm` attempts on these return `Operation not permitted`. This is consistent 
 - Manifest stub repairs: 8 records resolved this tick; 8 remaining (`act-zm-2024-005-zambia-institute-of-advanced-legal-education-amendment-act-2024`, `act-zm-2024-006-matrimonial-causes-amendment-act-2024`, `act-zm-2024-007-lands-tribunal-amendment-act-2024`, `act-zm-2024-023-value-added-tax-2024`, `act-zm-2024-026-revenue-authority-2024`, `act-zm-2024-027-property-transfer-tax-2024`, `act-zm-2025-005-national-road-fundamendment-2025`, `si-zm-fees-and-fines-fee-and-penalty-unit-value-regulations-2014`).
 - Off-manifest: 232 ZambiaLII SI rows still have empty bodies (condition B). Not in v4 manifest; deferred to a future tick or to a dedicated SI-backfill worker.
 - Sandbox root partition remains at 100% used; scratch-copy-on-mount + `shutil.copy2` swap-back continues to be the only working write path.
+
+## b0629-jiw (2026-05-13T07:08Z) — TICK ABORTED: sandbox-disk-full (3rd consecutive JIW abort, same state)
+
+### Outcome
+
+**Aborted before any wire fetch or db write.** Sandbox `/` filesystem is still at 100 % (15 MB free of 9.6 GB) — zero bytes freed in the ~1 hour since b0627-jiw (which itself was zero bytes freed from b0626-jiw). Owned removable bytes on this UID (`relaxed-busy-turing`, uid 1851) remain zero. All `/tmp/` blockers continue to be owned by prior-session UIDs (`charming-tender-darwin`, `exciting-kind-davinci`, `beautiful-modest-gauss`, `sweet-peaceful-hawking`, `magical-cool-brown`, `sharp-zealous-ramanujan`, and others); every `rm` attempt on these returns `Operation not permitted`. Confirmed `/tmp/test-corpus.sqlite` (owned by `magical-cool-brown`, 116 MB) cannot be removed by this session.
+
+### Host-side state
+
+`corpus.sqlite` mtime was 2026-05-13T06:13:14Z (~54 min pre-tick), which corresponds to `b0628-repair`'s successful 8-record stub repair (commit `b309694`). Host worker is therefore **quiescent at tick start** — not actively contending. But disk-full state precludes:
+
+1. `pdfplumber` text extraction (touches `/tmp` for working files even with `TMPDIR` rerouted, per b0626-jiw finding)
+2. Multi-row 3-table FTS5 commits (records + judgments_meta + records_fts atomic transaction fails with `disk I/O error` per b0626-jiw)
+
+These are the two failure modes from b0626-jiw that have not been resolved. Per b0627-jiw handoff rule #1, this tick aborts without spending any budget.
+
+### Read-path confirmation
+
+`records` = 1928, `records_fts` = 1928 via `file:corpus.sqlite?mode=ro&immutable=1` URI open. Integrity OK. CHECK1–CHECK8 all pass on the read path. No change since b0628-repair's commit.
+
+### Cached state unchanged
+
+- 6 ZMSC 2024 HTML pages still cached at `raw/zambialii/zmsc/2024/zmsc-2024-{18,22,26,28,29,31}-eng.html` from b0626-jiw — zero re-fetch cost when commits become possible again.
+- `raw/zambialii/zmsc/2024/zmsc-2024-11-source.pdf` (18 MB) still cached but flagged as publisher-side duplicate of ZMSC 9/2024 (b0626-jiw finding).
+- Orphan JSON at `raw/zambialii/zmsc/2024/_orphan_b0626/judgment-zm-2024-zmsc-11-frankson-musukwa-…json` still in place after b0627-jiw's rename (canonical records tree clean).
+
+### Sweep position unchanged
+
+- `judiciary-coa-sweep`: unchanged from b0626-jiw handoff (priority-b still stalled behind disk-full + scanned-PDF cliff).
+- ZMSC 2024 gap fill: 6 cached pages still pending PDF fetch + ingest.
+- ZMSC 2024 publisher-duplicate sanity checks for zmsc-26↔25 and zmsc-28↔29 pairs (per b0626-jiw note j) — outstanding.
+
+### Standing operator action items carried forward unchanged
+
+(a)–(j) all unchanged from b0626-jiw.
+
+(k) — Sandbox `/` 100 % full. **Now observed for third consecutive JIW tick with zero host-side intervention.** Severity: HIGH-and-CHRONIC. Every JIW tick on a full disk wastes ~2–10 minutes of wall clock for no durable output. Operator action required: rotate sandbox `/tmp/` retention (or session-end cleanup hook) so the next JIW session UID can clear blockers it owns.
+
+(l) — `corpus.sqlite-journal` 57968 bytes dated 2026-05-13T05:17:38Z still present, unchanged from b0627-jiw. Benign per `immutable=1` read-path integrity ok, but the next commit-capable JIW tick should `PRAGMA journal_mode=TRUNCATE` preflight before any write attempt (per b0610 finding) and abort fast if the journal regenerates within 5 seconds.
+
+(m) NEW — `b0628-repair` succeeded at the same disk-full state using the scratch-copy-on-mount + `shutil.copy2` swap-back pattern (commit `b309694`, +4.6 MB to corpus.sqlite, records count unchanged, body-text only). This confirms **repair-worker writes are tolerable on a full sandbox**, but JIW's PDF-parse + multi-row FTS5 commit path remains blocked. Repair workers do not need `/tmp` for pdfplumber because they reparse already-cached raw bytes via memory; JIW's wire-fetch + parse + insert pipeline cannot avoid `/tmp` use. Operator note: if the JIW pipeline could be refactored to (1) wire-fetch to corpus mount, (2) parse with `pdfplumber.open(BytesIO(...))` exclusively, (3) use the scratch-copy-on-mount pattern for the FTS5 commit, the disk-full state would no longer be blocking. This refactor is outside this tick's scope but should be considered if `/tmp/` rotation cannot be made reliable.
+
+### Next-tick (b0630-jiw) action items
+
+1. **First action**: check `df /`. If still > 99 % full, abort again — this is now the established pattern. Append minimal abort entry only; do not commit.
+
+2. **If disk is freed AND** `corpus.sqlite` mtime is > 60 s old AND journal absent or < 4 kB stale: attempt single `PRAGMA journal_mode=TRUNCATE` preflight, then drain the 6 cached ZMSC 2024 HTML pages by fetching their PDFs and ingesting. Sanity-check each for publisher-side duplication (esp. zmsc-26↔25, zmsc-28↔29).
+
+3. **Operator escalation**: if 5 consecutive JIW ticks abort with disk-full, the disk-full condition meets the spirit of the "5 consecutive zero-discovery ticks" completion criterion, but should NOT flip `complete: true` — instead surface to operator as a chronic-blocker handoff. Currently at 3 of 5.
+| _CORPUS-WIDE_ | REPAIR-038 | FTS5_SHADOW_TABLE_CORRUPTION_BLOCKS_WRITES | n/a (PRAGMA integrity_check on corpus.sqlite) | 2026-05-13T07:17:30Z |
+| act-zm-2024-005-zambia-institute-of-advanced-legal-education-amendment-act-2024 | REPAIR-038 | DEFERRED_PENDING_FTS_REBUILD | https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20ZIALE%20%28Amendment%29%2C%202024.pdf | 2026-05-13T07:17:30Z |
+| act-zm-2024-006-matrimonial-causes-amendment-act-2024 | REPAIR-038 | DEFERRED_PENDING_FTS_REBUILD | https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Matrimonial%20Causes%20Act%20No.%206%20of%202024.pdf | 2026-05-13T07:17:30Z |
+| act-zm-2024-007-lands-tribunal-amendment-act-2024 | REPAIR-038 | DEFERRED_PENDING_FTS_REBUILD | https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Land%20Tribunal%20Amendment%20Act%2C%202024.pdf | 2026-05-13T07:17:30Z |
+| act-zm-2024-023-value-added-tax-2024 | REPAIR-038 | DEFERRED_PENDING_FTS_REBUILD | https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No%2023%20of%202024%20Value%20Added%20Tax.pdf | 2026-05-13T07:17:30Z |
+| act-zm-2024-026-revenue-authority-2024 | REPAIR-038 | DEFERRED_PENDING_FTS_REBUILD | https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2026%20of%202024%20Zambia%20Revenue%20Authority%20Act.pdf | 2026-05-13T07:17:30Z |
+| act-zm-2024-027-property-transfer-tax-2024 | REPAIR-038 | DEFERRED_PENDING_FTS_REBUILD | https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%2027%20-%20The%20Property%20Tax%20%28Amendment%29%20Act%2C%202024%20.pdf | 2026-05-13T07:17:30Z |
+| act-zm-2025-005-national-road-fundamendment-2025 | REPAIR-038 | DEFERRED_PENDING_FTS_REBUILD | https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%205%20of%202025%2C%20The%20National%20Road%20Fund%5B1%5D.pdf | 2026-05-13T07:17:30Z |
+| si-zm-fees-and-fines-fee-and-penalty-unit-value-regulations-2014 | REPAIR-038 | DEFERRED_PENDING_FTS_REBUILD | https://zambialii.org/akn/zm/act/si/2014/8/eng@2014-01-17/source.pdf | 2026-05-13T07:17:30Z |
