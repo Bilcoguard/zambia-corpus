@@ -8292,3 +8292,132 @@ scanned-PDF cliff. Catalogue:
 
 - records: 1919, records_fts: 1919 (CHECK8 PASS).
 - SCZ coverage: 92 → 94. ZMCC unchanged (85). CoA unchanged (50).
+
+
+## Judgment ingestion batch 0621-jiw (2026-05-12T18:30:00Z)
+
+Continuation of b0620 ZambiaLII pivot. CoA scanned-PDF cliff
+(pages 8–9) remains a blocker for priority-b — pivot to ZambiaLII
+SCZ + ZMCC gap-fill maintained this tick. Ingested **+4 judgments**
+(2 Supreme Court, 2 Constitutional Court); deferred **2** with
+specific reasons documented below.
+
+### Ingested
+
+- `judgment-zm-2025-zmsc-01-occupational-health-and-safety-institute-v-james-mataliro`
+  — [2025] ZMSC 1; SCZ No.8/14/2022; 2025-01-15; **granted**.
+  Hamaundu JS, single-judge motion under Court of Appeal Act s 13(3).
+  Leave to appeal granted on Legal Practitioners' Practice Rules
+  (in-house vs private practice) point of law of public importance
+  and procedural-fairness ground (CoA resolved disputed factual
+  questions without retrial). Distinct judgment from existing
+  `…zmsc-24-…` (Mataliro substantive appeal under APPEAL NO.
+  12/2025) — different case_number, no dedup conflict.
+- `judgment-zm-2025-zmsc-31-hambani-ngwenya-and-anor-v-lubambe-copper-mine-limited`
+  — [2025] ZMSC 31; SCZ/7/15/2025; 2025-10-28; **granted**.
+  Chisanga JS, single-judge motion. Leave to appeal granted on
+  arbitrability of Employment Code Act s 5 unfair-discrimination
+  claims, scope of s 5 (public/criminal law vs civil), and use of
+  non-parties' employment contracts as comparators in arbitration.
+- `judgment-zm-2026-zmcc-01-tresford-chali-v-the-judicial-complaints-commission-and-ors`
+  — [2026] ZMCC 1; 2024/CCZ/0019; 2026-01-20; **dismissed** (for
+  want of jurisdiction). Full 7-judge bench, Shilimi DPC presiding
+  (Chisunka, Mulongoti, Mwandenga, Musaluke, Kawimbe, Mulife JJC).
+  Constitutional jurisdiction — JCC report and recommendations to
+  remove judges must proceed by judicial review in the High Court;
+  constitutional questions arising thereon are referrable under
+  Article 128(2). Each party to bear own costs. (Note: distinct
+  from existing `…zmcc-25-tresford-chali-v-attorney-general` which
+  is case_number 2025/CCZ/0031.)
+- `judgment-zm-2026-zmcc-11-zambia-civil-liberties-union-v-commissioner-for-refugees`
+  — [2026] ZMCC 11; 2025/CCZ/003; 2026-04-27; **granted** (relief
+  ii) / **dismissed** (relief iii). 7-judge bench led by Munalula
+  PC. Definition of "ordinarily resident" in s 2 of the Citizenship
+  Act held unconstitutional and invalid to the extent it qualifies
+  the term by requiring a residence permit issued under the
+  Immigration and Deportation Act — Article 266 supremacy.
+  Alternative claim (Article 79 amendment-procedure non-compliance)
+  rejected as misconceived. Each party to bear own costs.
+
+### Deferred
+
+- **ZMSC 5/2025** — `William Saunders v Pemba Lapidaries Limted
+  and Anor`; case_number `SCZ/8/28/2023`; 2025-01-15. Single-judge
+  order by Hamaundu JS granting leave to appeal and stay of
+  execution. Distinct judgment from `…zmsc-12-pemba-v-william`
+  ([2025] ZMSC 12; 2025-03-21; SCZ/8/28/2023) — but **case_number
+  collision**. Step-3 dedup rule says SKIP on case_number match.
+  Both are legitimate corpus members (preliminary order vs
+  substantive judgment in same appeal) under the spirit of the
+  rule. Deferred pending operator clarification of whether the
+  case_number-only dedup rule should be relaxed when citations
+  differ. Raw HTML+PDF saved on disk at
+  `_b0621_jiw/{html,pdf}/zmsc-2025-5.{html,pdf}` and
+  `raw/zambialii/zmsc/2025/`. Reparse on operator say-so.
+- **ZMCC 12/2026** — `Mputa Ngalande v The Attorney General`;
+  case_number `2025/CCZ/0019`; 2026-05-11. PDF (1.30 MB, 29 pages)
+  ends mid-discussion at paragraph 87 with only one signature
+  block (`CONSTITUTIONAL COURT JUDGE`) and no operative paragraph
+  or "It is hereby Ordered" block. Appears to be a separately-
+  published concurring or dissenting opinion rather than the lead
+  judgment. The full bench includes Chisunka, Mulongoti, Munalula
+  PC, Mulife, Kawimbe JJC per ZambiaLII metadata. Three outcome-
+  extraction strategies (HTML summary, PDF order anchors, last-
+  two-pages operative-paragraph scan) all fail. Deferred with
+  reason `pdf-truncated-or-single-judge-concurring-opinion-only-
+  needs-source-verification-or-multi-pdf-stitching`. Raw files at
+  `raw/zambialii/zmcc/2026/` — currently not copied because
+  inserter only copies the ingested 4; will need a manual copy if
+  operator wants the deferred raw on the canonical tree.
+  Hypothesis: ZambiaLII publishes each judge's opinion as a
+  separate AKN URL, and the "lead" opinion is at a separate
+  number; or upload is genuinely truncated and needs editor
+  contact (same vendor-issue pattern as Zanaco b0616).
+
+### Sweep position update (b0621)
+
+- ZambiaLII `/judgments/ZMSC/2025/` — page 1 (only page) listing
+  has 31 entries (#1–13, #15–32; #14 absent on publisher).
+  Corpus now has 30/31 (only #5/2025 deferred per above). **SCZ
+  2025 effectively complete pending operator decision on ZMSC 5.**
+- ZambiaLII `/judgments/ZMCC/2026/` — page 1 (only page) listing
+  has 12 entries (#1–12). Corpus now has 11/12 (only #12/2026
+  deferred). **ZMCC 2026 effectively complete pending source
+  verification on Mputa Ngalande PDF.**
+- Next index targets recommended for b0622: ZambiaLII
+  `/judgments/ZMSC/2024/` (gap survey; partial coverage), ZambiaLII
+  `/judgments/ZMCC/2025/` (gap survey; partial coverage; many gaps
+  noted at 5–12, 14–19, 21, 24, 28), and/or
+  `/judgments/ZMHC/2025/` (High Court — priority e — no current
+  coverage on that index).
+
+### Counts post-b0621
+
+- `records`: **1919 → 1923** (+4)
+- `records_fts`: **1919 → 1923** (+4)
+- CHECK8 PASS throughout.
+- FTS5 integrity-check: PASS pre and post.
+- SCZ coverage: 92 → 96 (Σ ZMSC; pool aggregate). Actually +2 to
+  the SCZ-only count gives 94 in worker terms — Σ b0620+b0621 SCZ
+  delta = +4 across 2 ticks.
+- ZMCC coverage: 85 → 87 (+2). 
+- CoA coverage: 50 unchanged.
+
+### Operator action items (running list, updated)
+
+- (a) FTS5 rebuild action — COMPLETED at b0608 host-side sweep.
+- (b) `ocrmypdf-scanned-coa-pdfs` repair-worker task — outstanding;
+  **26 records** waiting. Unchanged this tick.
+- (c) Chisumpa Liandisha source-side fix — outstanding.
+- (d) Zanaco Bank v Allan Kandala post-misattachment — outstanding.
+- (e) Maxwell Banda post-no-attachment-stub — outstanding.
+- (f) Operator decision on CoA cliff continuation — pivoted away
+  again (b0620+b0621 both successful in ZambiaLII; productive
+  alternative confirmed).
+- (g) ZMSC 5/2026 publisher-side gap noted (not a corpus bug;
+  unchanged).
+- (h) **NEW**: ZMSC 5/2025 case_number-collision deferral —
+  operator decision required on dedup rule interpretation.
+- (i) **NEW**: ZMCC 12/2026 Mputa Ngalande PDF apparent truncation
+  / single-opinion publication — needs source verification (editor
+  contact, or alternate retrieval).

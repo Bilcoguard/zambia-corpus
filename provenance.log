@@ -4395,3 +4395,9 @@ Stale rollback journal hazard re-observed and mitigated via `journal_mode=TRUNCA
 2026-05-12T17:13:53Z	b0620-jiw	phase=jiw_ingest	op=fetch	url=https://zambialii.org/akn/zm/judgment/zmsc/2026/3/eng@2026-02-11	bytes=46169	sha256=79cec44ff370d4a10f8ecb9f2f0e79ccb72ef243dcfc5679dec0caffaeb432d3	verdict=ingested	record_id=judgment-zm-2026-zmsc-03-manoj-patel-and-anor-v-sanmukh-ramanlal-patel-and-ors
 2026-05-12T17:13:53Z	b0620-jiw	phase=jiw_ingest	op=fetch	url=https://zambialii.org/akn/zm/judgment/zmsc/2026/3/eng@2026-02-11/source.pdf	bytes=381963	sha256=25b6e843dbb1186e973d0a520b0a7083d4ae18507a22f20d0a79701e408cedb9	verdict=ingested	record_id=judgment-zm-2026-zmsc-03-manoj-patel-and-anor-v-sanmukh-ramanlal-patel-and-ors
 2026-05-12T17:13:53Z	b0620-jiw	phase=jiw_probe	op=fetch	url=https://judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/page/10/	bytes=181531	sha256=fbc105f4eddcae5f5cc6778debe720ff171f4b01f986749af8b5a6d3b1826162	verdict=probe-listing	record_id=none
+2026-05-12T18:30:00Z	b0621-jiw	judgment-zm-2025-zmsc-01-occupational-health-and-safety-institute-v-james-mataliro	source=zambialii.org	ingest_method=html+pdf
+2026-05-12T18:30:00Z	b0621-jiw	judgment-zm-2025-zmsc-31-hambani-ngwenya-and-anor-v-lubambe-copper-mine-limited	source=zambialii.org	ingest_method=html+pdf
+2026-05-12T18:30:00Z	b0621-jiw	judgment-zm-2026-zmcc-01-tresford-chali-v-the-judicial-complaints-commission-and-ors	source=zambialii.org	ingest_method=html+pdf
+2026-05-12T18:30:00Z	b0621-jiw	judgment-zm-2026-zmcc-11-zambia-civil-liberties-union-v-commissioner-for-refugees	source=zambialii.org	ingest_method=html+pdf
+2026-05-12T18:30:00Z	b0621-jiw	index_fetch	url=https://zambialii.org/judgments/ZMSC/2025/ http=200 bytes=141303
+2026-05-12T18:30:00Z	b0621-jiw	index_fetch	url=https://zambialii.org/judgments/ZMCC/2026/ http=200 bytes=96075

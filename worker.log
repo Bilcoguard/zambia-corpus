@@ -7192,3 +7192,21 @@ test append
 2026-05-12T17:13:53Z	b0620-jiw	jiw_probe	CoA page 10 listing fetched 181KB; 10 posts catalogued (Sept 2024 decisions); pdf probes deferred to next tick given cliff context
 2026-05-12T17:13:53Z	b0620-jiw	jiw_checks	CHECK1-CHECK8 all PASS  records=1919 records_fts=1919  fts_integrity=OK
 2026-05-12T17:13:53Z	b0620-jiw	jiw_tick_end	post_records=1919 post_fts=1919 inserted=2 deferred=0 fetches=5
+2026-05-12T17:16:23Z	b0620-jiw	jiw_committed	commit=83e153f records_inserted=2 push=ok next_tick_in=60min
+2026-05-12T18:30:00Z	b0621-jiw	jiw_tick_start	pre_records=1919 pre_fts=1919
+2026-05-12T18:30:00Z	b0621-jiw	jiw_priority_a_check	no_actionable_deferred_reparse_candidates_b0620_finding_still_holds
+2026-05-12T18:30:00Z	b0621-jiw	jiw_pivot_continuation	Continuing ZambiaLII SCZ+ZMCC sweep per b0620 recommendation (option 2). CoA scanned-PDF cliff (pages 8-9) still blocks CoA priority-b ingestion.
+2026-05-12T18:30:00Z	b0621-jiw	jiw_index_fetch	url=https://zambialii.org/judgments/ZMSC/2025/ found=31 entries (1-13,15-32; #14 absent on publisher)
+2026-05-12T18:30:00Z	b0621-jiw	jiw_index_fetch	url=https://zambialii.org/judgments/ZMCC/2026/ found=12 entries (1-12)
+2026-05-12T18:30:00Z	b0621-jiw	jiw_dedup_check	SCZ-2025: 1 NEW, 5 NEW-but-case#-collision (skipped), 31 NEW; SCZ 2-4,6-13,15-30,32 already in corpus; #14 absent on publisher
+2026-05-12T18:30:00Z	b0621-jiw	jiw_dedup_check	ZMCC-2026: 1 NEW, 11 NEW, 12 NEW; ZMCC 2-10 already in corpus
+2026-05-12T18:30:00Z	b0621-jiw	jiw_ingest	record=judgment-zm-2025-zmsc-01-occupational-health-and-safety-institute-v-james-mataliro
+2026-05-12T18:30:00Z	b0621-jiw	jiw_ingest	record=judgment-zm-2025-zmsc-31-hambani-ngwenya-and-anor-v-lubambe-copper-mine-limited
+2026-05-12T18:30:00Z	b0621-jiw	jiw_ingest	record=judgment-zm-2026-zmcc-01-tresford-chali-v-the-judicial-complaints-commission-and-ors
+2026-05-12T18:30:00Z	b0621-jiw	jiw_ingest	record=judgment-zm-2026-zmcc-11-zambia-civil-liberties-union-v-commissioner-for-refugees
+2026-05-12T18:30:00Z	b0621-jiw	jiw_defer	record=judgment-zm-2025-zmsc-05-william-saunders-v-pemba-lapidaries	reason=case-number-collision-SCZ/8/28/2023-with-existing-judgment-zm-2025-zmsc-12-pemba-v-william-different-citation-different-date-same-underlying-case-rule-step3-says-SKIP-on-case-number-match-deferred-for-operator-review
+2026-05-12T18:30:00Z	b0621-jiw	jiw_defer	record=judgment-zm-2026-zmcc-12-mputa-ngalande-v-the-attorney-general	reason=pdf-appears-to-be-single-judge-concurring-or-dissenting-opinion-only-no-operative-paragraph-or-order-found-pdf-ends-mid-discussion-at-paragraph-87-with-only-one-signature-CONSTITUTIONAL-COURT-JUDGE-needs-source-verification-or-multi-pdf-stitching
+2026-05-12T18:30:00Z	b0621-jiw	jiw_checks	CHECK1=PASS CHECK2=PASS CHECK3=PASS CHECK4=PASS CHECK5=PASS CHECK6=PASS CHECK7=PASS CHECK8=PASS records=1923 records_fts=1923 fts_integrity=OK
+2026-05-12T18:30:00Z	b0621-jiw	jiw_budget	fetches_this_tick=14	cumulative_today=68/500	wall_clock~12min	wall_budget=20min	bytes=~10.83MB
+2026-05-12T18:30:00Z	b0621-jiw	jiw_coverage_delta	SCZ_92to94to96(+2)	ZMCC_85to87(+2)	CoA_50_unchanged	total_pool_1919to1923
+2026-05-12T18:30:00Z	b0621-jiw	jiw_tick_end	post_records=1923 post_fts=1923 inserted=4 deferred=2 fetches=14
