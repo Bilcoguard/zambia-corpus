@@ -9238,3 +9238,34 @@ with unchanged head signature.
 + disk before any fetch. If blockers persist, will continue to abort
 per protocol. Strongly recommend explicit human attention — 9 ticks
 have now aborted on the same chronic host-side blockers.
+
+## b0636-jiw — 10th consecutive JIW abort (2026-05-13T17:10:00Z)
+
+Chronic host-side blockers UNCHANGED since b0626-jiw:
+
+- **CHECK8 parity gap = 4** (records=1928, records_fts=1924). Missing IDs:
+  `act-zm-2023-022`, `act-zm-2023-025`, `act-zm-2023-029`, `act-zm-2024-003`
+  (unchanged since repair-040).
+- **FTS5 shadow-table corruption** (B-tree pages 5733/6270/5387/5732/1389/1204/12466/22491/29610;
+  invalid page numbers 30000–30645 cluster on page 29610). Signature
+  unchanged since b037/b038. `quick_check`/`integrity_check` both NOT OK.
+- **Sandbox `/` 100 % full** (14 MB free).
+- **corpus.sqlite mtime 2026-05-13T14:36:48Z** — quiescent ~2.5 h; no
+  evidence of host-side FTS5 rebuild since handoff at b0631-jiw.
+
+This tick aborts without fetch / parse / write per the non-negotiable
+*"never commit if records ≠ records_fts"* rule. 10 consecutive aborts
+on the same blockers. Strongly recommend explicit human attention —
+the corpus writer pipeline is stalled and will remain stalled until a
+host-side FTS5 rebuild (DROP + CREATE + INSERT-SELECT + VACUUM) is
+executed and the sandbox `/` partition is rotated.
+
+**Sweep position resume points** (unchanged, no progress this tick):
+
+- `judiciary-coa-sweep`: page 1 (not yet started — new source, zero coverage)
+- `judiciary-scz-sweep`: page 1 (not yet started)
+- `judiciary-zmcc-sweep`: page 1 (not yet started)
+- `judiciary-zmhc-sweep`: page 1 (not yet started)
+- `zambialii-zmsc`: continuation deferred until parity gap closes
+- `zambialii-zmcc`: continuation deferred until parity gap closes
+
