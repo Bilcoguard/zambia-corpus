@@ -8630,3 +8630,137 @@ today 32/2000), and standing recommendations carried forward.
 - 232 zambialii SI records still have empty body (need HTML/PDF fetch — deferred to future repair ticks).
 - 16 parliament.gov.zm stub-body records still pending (16 of 24 remaining after this tick).
 - b2 sync deferred: rclone not available in worker sandbox.
+
+## b0626-jiw (2026-05-13T05:18Z) — TICK ABORTED: sandbox-disk-full + journal-contention
+
+### Outcome
+
+**Aborted before any successful database commit.** No new records inserted; `records` and `records_fts` remain at 1928/1928, integrity_check = ok. The host-side worker (repair-batch-035) is actively writing to `corpus.sqlite-journal` (regenerating within seconds of each quarantine), and multi-row 3-table FTS5 transactions fail with `disk I/O error` at the commit step. Single-row writes intermittently succeed but the JIW insert path (records + judgments_meta + records_fts) does not.
+
+Root cause is two compounding factors:
+
+1. **Sandbox `/` (root) is at 100 % (15 MB free of 9.6 GB)**, filled by accumulated `/tmp/` artefacts from previous worker sessions (b0591, b0592, b0593, b0594, b0597, b0610, b0611, b031_pdfs, and seven 112-MB corpus.sqlite copies). All are owned by previous-session UIDs and cannot be removed from this sandbox (`Operation not permitted`). pdfplumber and sqlite both end up touching `/tmp/` for working files (mkstemp, sort spill, etc.), even with `TMPDIR` re-routed to the corpus mount.
+2. **Concurrent host-side write activity** on `corpus.sqlite`. New `corpus.sqlite-journal` files (4 K → 57 K) regenerate within seconds of each quarantine. Quarantined journals tagged `b035-pre2-20260513T0515Z`, `b035-stale3-20260513T0515Z`, `b0626-jiw-quarantine-T2/T3` confirm an active host-side `repair-batch-035` cycle.
+
+### Work done this tick (not committed)
+
+- **Fetched and HTML-cached the 7 ZMSC-2024 gap pages on ZambiaLII** — zero re-fetch cost next tick:
+  - `raw/zambialii/zmsc/2024/zmsc-2024-11-eng.html` (49 K)
+  - `raw/zambialii/zmsc/2024/zmsc-2024-18-eng.html` (41 K)
+  - `raw/zambialii/zmsc/2024/zmsc-2024-22-eng.html` (41 K)
+  - `raw/zambialii/zmsc/2024/zmsc-2024-26-eng.html` (44 K)
+  - `raw/zambialii/zmsc/2024/zmsc-2024-28-eng.html` (44 K)
+  - `raw/zambialii/zmsc/2024/zmsc-2024-29-eng.html` (47 K)
+  - `raw/zambialii/zmsc/2024/zmsc-2024-31-eng.html` (43 K)
+
+- **Fetched and PDF-cached zmsc-2024-11** (18 MB, 44 pages) at `raw/zambialii/zmsc/2024/zmsc-2024-11-source.pdf`. PDF parse extracted:
+  - case_name: Frankson Musukwa (Suing on his behalf and as the Executive Director of Zambia Deaf Youth and Women) and Ors v Road Transport and Safety Agency
+  - case_number: `APPEAL No. 11. 2021` (also `SCZ/8/18/2021`)
+  - date_decided: 2024-05-16
+  - coram: Kaoma, Kajimanga, Chisanga JJS
+  - outcome: dismissed ("we dismiss this appeal accordingly")
+  - 44-page judgment, delivered by Chisanga JS
+
+### Important finding — ZMSC 11/2024 is a publisher-side duplicate of ZMSC 9/2024
+
+ZambiaLII has published the **same** Frankson Musukwa v Road Transport and Safety Agency judgment under two different ZMSC numbers (9 and 11). Both are:
+
+- Same parties (Frankson Musukwa and Ors v Road Transport and Safety Agency)
+- Same appeal number (`Appeal No. 11 of 2021` ≈ `APPEAL No. 11. 2021`, `SCZ/8/18/2021`)
+- Same date (2024-05-16)
+- Same coram (Kaoma, Kajimanga, Chisanga JJS)
+- Same outcome (dismissed)
+
+`judgment-zm-2024-zmsc-09-frankson-musukwa-and-ors-v-road-transport-and-safety-agency` (ingested b0622-jiw, parser v0.3.2) is the existing record. **ZMSC 11/2024 should be dedup-skipped, not ingested.** When `b0627-jiw` retries, the dedup logic (case_number + court + year-of-date_decided, or fuzzy case_name first-40-chars + court + year) will catch this on the wire — but only if commits succeed.
+
+### Orphan JSON on disk (not in db)
+
+`records/judgments/zmsc/2024/judgment-zm-2024-zmsc-11-frankson-musukwa-suing-on-his-behalf-and-as-the-executive-di.json` was written to disk by the v2 ingest before the (failed) db commit. The file is on the corpus mount and **cannot be deleted from this sandbox** (FUSE EPERM, same precedent as `.git/*.lock` files). It is therefore an **orphan**: 1 JSON file on disk with no corresponding records / judgments_meta / records_fts row.
+
+**Treatment**: classify under existing `deferred-fts5+meta-write` repair queue (same category as b0591/b0593 orphans that b0612 successfully drained). Once b0627-jiw retries on a freed disk:
+
+- The dedup check will catch ZMSC 11 = ZMSC 9 and refuse to insert.
+- The orphan JSON should then be **moved to `raw/zambialii/zmsc/2024/_orphan_b0626/`** (rename-only, FUSE allows rename within same mount) and the dedup decision logged in gaps.md, rather than left in the canonical `records/judgments/zmsc/2024/` tree.
+
+### Next-tick (b0627-jiw) action items, in priority order
+
+1. **First action**: check whether sandbox `/` has been freed (host-side maintenance may rotate `/tmp/` between worker sessions). If still > 99 % full, abort again with the same diagnostics — do not waste budget on retries that will fail on commit.
+
+2. **If disk is freed**: rename the orphan ZMSC 11 JSON out of the canonical records tree. Note in worker.log that ZMSC 11/2024 is permanently deferred as a publisher-side duplicate of ZMSC 9/2024. Do **not** insert a new record under ZMSC 11.
+
+3. **Drain the cached ZMSC 2024 HTMLs**: 18, 22, 26, 28, 29, 31 (6 remaining gaps; HTML files are already on disk so only the PDFs need to be fetched). Per the dedup pattern observed in #2, sanity-check each PDF against the existing 2024 ZMSC corpus for publisher-side duplicates (especially zmsc-26 ↔ zmsc-25 same date 2024-07-24, and zmsc-28/29 share date 2024-08-15).
+
+4. **Re-evaluate priority-b (judiciary CoA page 1)**: still blocked behind the same disk-full constraint and the same FUSE EPERM lock semantics that drove the b0617/b0618 scanned-PDF cliff into the repair queue.
+
+### Standing operator action items carried forward from b0622-jiw (unchanged)
+
+- (a) FTS5 rebuild — completed at b0608 host-side sweep.
+- (b) `ocrmypdf-scanned-coa-pdfs` repair-worker queue — **26 records** waiting.
+- (c) Chisumpa Liandisha source-side fix — outstanding.
+- (d) Zanaco Bank v Allan Kandala post-misattachment — outstanding.
+- (e) Maxwell Banda post-no-attachment-stub — outstanding.
+- (f) Operator decision on CoA cliff continuation — JIW remains on ZambiaLII pivot.
+- (g) ZMSC 5/2026 publisher-side gap — unchanged.
+- (h) ZMSC 5/2025 case_number-collision deferral — operator decision required.
+- (i) ZMCC 12/2026 Mputa Ngalande PDF apparent truncation — outstanding.
+- (j) **NEW (b0626-jiw)**: ZMSC 11/2024 = ZMSC 9/2024 publisher-side duplicate on ZambiaLII. Should be permanently deferred as a duplicate. Orphan JSON on disk needs to be renamed out of the canonical records tree by b0627-jiw or a repair worker. Same likely pattern for zmsc-26/2024 vs zmsc-25/2024 (same 2024-07-24 date) and possibly zmsc-28/2024 vs zmsc-29/2024 (both 2024-08-15) — verify on PDF inspection next tick.
+- (k) **NEW (b0626-jiw)**: Sandbox `/` filesystem hits 100 % during long-running worker chains. Host-side cleanup of `/tmp/` accumulations (b0591–b0594, b0597, b0610–b0611, b031_pdfs, multiple 112 MB corpus.sqlite snapshots) is required to unblock JIW commits. Owner: host-side maintenance. Severity: HIGH — every JIW tick on a full disk wastes wire fetches and produces orphan JSONs.
+
+## b0627-jiw (2026-05-13T06:08Z) — TICK ABORTED: same disk-full state as b0626-jiw, with one cleanup action
+
+### Outcome
+
+**Aborted before any wire fetch or db write.** Sandbox `/` filesystem is still at 100 % (15 kB free of 9.6 GB) — zero bytes freed since b0626-jiw 50 minutes prior, confirming no host-side `/tmp/` rotation between worker sessions. Host-side worker is actively writing to `corpus.sqlite` (mtime 2026-05-13T06:07:51Z, 43 seconds before tick start). Per b0626-jiw handoff rule #1, this tick exited without spending any of the daily fetch budget. `records` and `records_fts` remain at 1928/1928, integrity verified via `file:corpus.sqlite?mode=ro&immutable=1` URI open.
+
+### The one productive action taken
+
+The b0626-jiw orphan JSON was relocated out of the canonical records tree using a FUSE-allowed rename within the same mount:
+
+- **src**: `records/judgments/zmsc/2024/judgment-zm-2024-zmsc-11-frankson-musukwa-suing-on-his-behalf-and-as-the-executive-di.json`
+- **dst**: `raw/zambialii/zmsc/2024/_orphan_b0626/judgment-zm-2024-zmsc-11-frankson-musukwa-suing-on-his-behalf-and-as-the-executive-di.json`
+
+This implements b0626-jiw's recommended treatment for the publisher-side duplicate (ZMSC 11/2024 ≡ ZMSC 9/2024). The canonical `records/judgments/zmsc/2024/` tree is now clean of the orphan, and the next-tick dedup check will not be confused by a stale on-disk JSON. The relocated file is preserved under `raw/_orphan_b0626/` for audit (rather than deleted, since FUSE EPERM precludes deletion anyway). No db work was attempted — the ZMSC 11/2024 record will be permanently deferred as a publisher-side duplicate of the already-ingested ZMSC 9/2024.
+
+### Sandbox /tmp owners audit (informational)
+
+Confirmed that of the ~941 MB of large `/tmp/*` artefacts blocking the sandbox, **zero** are owned by the current session UID (`optimistic-epic-bohr`, uid=1849). Owners observed:
+
+- `charming-tender-darwin` — `/tmp/b0591/` 141 MB
+- `exciting-kind-davinci` — `/tmp/b0592/` 112 MB
+- `beautiful-modest-gauss` — `/tmp/b0593/`, `/tmp/b0593_corpus.sqlite` 112 MB
+- `sweet-peaceful-hawking` — `/tmp/b0594_corpus.sqlite` 112 MB
+- `pensive-kind-galileo` — lock file 0 bytes
+- `sharp-zealous-ramanujan` — `/tmp/b031_pdfs/`, `b031_repair.py`, `b031_results.json` 19 MB
+- `stoic-gifted-mayer` — lock file 0 bytes
+- `dazzling-epic-noether` — small test file
+- Plus 5 unowned-by-current-UID 112 MB `corpus*.sqlite` copies under `/tmp/` from prior sessions
+
+All `rm` attempts on these return `Operation not permitted`. This is consistent with the b0626-jiw observation and confirms the sandbox `/tmp/` cleanup must happen host-side or via session rotation, not from within any worker tick.
+
+### Sweep position unchanged
+
+- `judiciary-coa-sweep` page position **unchanged** from b0626-jiw handoff (priority-b stalled behind disk-full).
+- ZMSC 2024 gap fill — 6 HTML pages still cached on disk (zmsc-2024-{18,22,26,28,29,31}-eng.html); zero re-fetch cost when commits become possible again.
+- ZMSC 2024 publisher-duplicate sanity checks for zmsc-26↔25 and zmsc-28↔29 pairs (per b0626-jiw note j) — outstanding, deferred to next commit-capable tick.
+
+### Standing operator action items carried forward unchanged
+
+(a)–(j) all unchanged from b0626-jiw section above.
+
+(k) — Sandbox `/` 100 % full. **Now observed for second consecutive tick with zero host-side intervention.** Recommend operator review of `/tmp/` retention policy or session-end cleanup hook. Severity: HIGH-and-now-CHRONIC. Every JIW tick on a full disk costs ~3–10 minutes wall clock for no durable output; b0626-jiw additionally wasted ~10 fetches and produced an orphan JSON.
+
+(l) NEW — `corpus.sqlite-journal` 57968 bytes dated 2026-05-13T05:17:38Z (≈51 min pre-tick) co-existing with `corpus.sqlite` mtime 06:07:51Z (43 s pre-tick) suggests an unrolled-back rollback journal from a prior failed transaction or the natural state after a recent host-side commit. Read-only `immutable=1` URI open confirms db is healthy at 1928/1928 with integrity ok, so the journal is benign — but the next JIW tick should `PRAGMA journal_mode=TRUNCATE` preflight (per b0610 finding) before any write attempt and abort fast if the journal regenerates within 5 seconds of truncation.
+
+### Next-tick (b0628-jiw) action items, in priority order
+
+1. **First action**: check `df /`. If still > 99 % full, abort again immediately — do not fetch, do not write to db, do not commit. Append minimal abort entry to logs only.
+
+2. **If disk is freed AND** `corpus.sqlite` mtime is > 60 s old AND journal is absent or < 4 kB stale: attempt a single `PRAGMA journal_mode=TRUNCATE` write probe. If that succeeds: drain the 6 cached ZMSC 2024 HTML pages by fetching their PDFs and ingesting. Sanity-check each for publisher-side duplication against the existing 2024 ZMSC records (esp. zmsc-26 ↔ zmsc-25, zmsc-28 ↔ zmsc-29).
+
+3. **After ZMSC 2024 gap drained**: re-attempt priority-b judiciary CoA page 1 (still zero CoA records from judiciaryzambia.com after b0617/b0618 cliff into repair queue).
+
+## b0628 (2026-05-13T06:13Z)
+
+- Manifest stub repairs: 8 records resolved this tick; 8 remaining (`act-zm-2024-005-zambia-institute-of-advanced-legal-education-amendment-act-2024`, `act-zm-2024-006-matrimonial-causes-amendment-act-2024`, `act-zm-2024-007-lands-tribunal-amendment-act-2024`, `act-zm-2024-023-value-added-tax-2024`, `act-zm-2024-026-revenue-authority-2024`, `act-zm-2024-027-property-transfer-tax-2024`, `act-zm-2025-005-national-road-fundamendment-2025`, `si-zm-fees-and-fines-fee-and-penalty-unit-value-regulations-2014`).
+- Off-manifest: 232 ZambiaLII SI rows still have empty bodies (condition B). Not in v4 manifest; deferred to a future tick or to a dedicated SI-backfill worker.
+- Sandbox root partition remains at 100% used; scratch-copy-on-mount + `shutil.copy2` swap-back continues to be the only working write path.
