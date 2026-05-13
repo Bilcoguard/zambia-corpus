@@ -7600,3 +7600,6 @@ On tree pag
 2026-05-13T17:10:00Z	b0636-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
 2026-05-13T17:10:00Z	b0636-jiw	GIT_POLICY	corpus.sqlite-NOT-staged-per-parity-rule-(gap=4-unchanged)	logs+report-staged-only-(b0630-jiw+b0631-jiw+b0632-jiw+b0633-jiw+b0634-jiw+b0635-jiw+repair-039/040/041/042-pattern)
 2026-05-13T17:10:00Z	b0636-jiw	STOP	verdict=tick-aborted-no-mutation	wall-clock=~2min	recommend=host-side-fts5-rebuild-(DROP-records_fts+CREATE+INSERT-SELECT-FROM-records+VACUUM)-AND-sandbox-/-rotation-before-next-jiw-attempt
+2026-05-13T17:11:00Z	b0636-jiw	GIT_COMMIT	verdict=committed-locally-after-index.lock.bak-rename	commit=20cde07	files=4(worker.log+costs.log+gaps.md+reports/batch-0636-jiw.md)	insertions=124	corpus.sqlite=NOT-committed-per-parity-rule
+2026-05-13T17:11:00Z	b0636-jiw	GIT_PUSH	verdict=push-ok	remote=origin/main	range=d53332b..20cde07
+2026-05-13T17:11:00Z	b0636-jiw	FINAL	verdict=tick-aborted-but-logs-pushed-cleanly	chronic-blockers-still-present-on-corpus.sqlite-side	next=b0637-jiw-t+60min
