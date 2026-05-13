@@ -6074,3 +6074,7 @@
 2026-05-13T09:18:09Z	repair-batch-040	fetches=0	pdf-extracts=0	llm-tokens=0	fts-reinserts-ok=4	fts-reinserts-fail=4	wall-clock-min=8	cost-usd=0.000	verdict=partial-progress-gap-8-to-4-no-body-fabrication
 2026-05-13T10:15:59Z	repair-batch-041	llm_calls=0	llm_tokens_in=0	llm_tokens_out=0	pdf_downloads=8	pdf_bytes=1331474	wall_clock_s=~720	body_updates=8	fts_rows_recovered=0
 2026-05-13T12:32:30Z	b0631-jiw	fetches=0	bytes_in=0	bytes_out=0	wall_clock_s=~60	cumulative_today=21/500	verdict=tick-aborted-pre-fetch-blockers
+2026-05-13T14:35:30Z	repair-batch-042	HTTP_FETCHES	count=14	zambialii.org=12(6 HTML+6 PDF)	commons.laws.africa=2(PDF)	total-bytes=~12.5MB
+2026-05-13T14:35:30Z	repair-batch-042	CRAWL_DELAY	policy=5s-zambialii-robots.txt	respected=yes
+2026-05-13T14:35:30Z	repair-batch-042	DB_WRITES	count=6	type=UPDATE-records-body-only	commits=6-per-record-atomic
+2026-05-13T14:35:30Z	repair-batch-042	DB_READ_QUERIES	count=~50	mode=cell_size_check=OFF+rowid-pagination-with-fallback	read-errors=2(rowid-1111-1185-known)

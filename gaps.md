@@ -9014,3 +9014,14 @@ the JIW write path.)
 
 **Next tick:** b0632-jiw, t+60 min, will re-check parity + integrity + disk
 before any fetch.
+
+## 2026-05-13T14:35:30Z repair-batch-042 — scanned-PDF gaps (need OCR)
+
+The following 2 records have source PDFs at commons.laws.africa that pdfplumber cannot text-extract (scanned/image-based). They require `ocrmypdf` (absent in sandbox) for a host-side OCR pass.
+
+- `local-courts-administration-of-estates-rules-1969` — https://commons.laws.africa/akn/zm/act/si/1969/297/media/publication/zm-act-si-1969-297-publication-document.pdf — 778 KB, extracted 1 char
+- `local-courts-rules-1966` — https://commons.laws.africa/akn/zm/act/si/1966/293/media/publication/zm-act-si-1966-293-publication-document.pdf — 10.5 MB, extracted 24 chars
+
+## 2026-05-13T14:35:30Z repair-batch-042 — Condition B backlog (live DB scan)
+
+Live database scan revealed 232 SI records (`type='si'`) with NULL or empty body, sourced primarily from ZambiaLII (`https://zambialii.org/akn/zm/act/si/…`). This is a SUSTAINED backlog beyond the v4 manifest. At MAX_BATCH_SIZE=8 per tick this requires ~29 more ticks to drain. Recommend host raise batch size or scheduling frequency.

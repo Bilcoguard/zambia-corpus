@@ -7520,3 +7520,23 @@ On tree pag
 2026-05-13T12:32:30Z	b0631-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
 2026-05-13T12:32:30Z	b0631-jiw	GIT_POLICY	corpus.sqlite-NOT-staged-per-parity-rule-(gap=4-unchanged)	logs+report-staged-only-(b0630-jiw+repair-039/040/041-pattern)
 2026-05-13T12:32:30Z	b0631-jiw	STOP	verdict=tick-aborted-no-mutation	wall-clock=~1min	recommend=host-side-fts5-rebuild-(DROP-records_fts+CREATE+INSERT-SELECT-FROM-records+VACUUM)-AND-sandbox-/-rotation-before-next-jiw-attempt
+2026-05-13T14:35:30Z	repair-batch-042	START	tick=042	approach=continue-b041-PERSIST+body-only+condition-B-zambialii-SI-no-body-batch
+2026-05-13T14:35:30Z	repair-batch-042	PRE_PARITY_GAP	records=1928	records_fts=1924	gap=4
+2026-05-13T14:35:30Z	repair-batch-042	PRE_INTEGRITY	verdict=NOT-OK	signature=fts5-shadow-pages-5733-6270-5387-5732-1389-12466+invalid-30000+	unchanged-since-b038
+2026-05-13T14:35:30Z	repair-batch-042	DISK	/=14M-100%	/sessions=2.4G-75%	rclone=absent	ocrmypdf=absent	pdfplumber=0.11.9
+2026-05-13T14:35:30Z	repair-batch-042	DISCOVERY	condA=0	condB-acts-sis=232(new-backlog)	condC-stubs=0(b041-cleared)	read-errors=2(rowid-1111+1185)	manifest-progress=88/88
+2026-05-13T14:35:30Z	repair-batch-042	BATCH	size=8	selection=condB-zambialii-SI-no-body-first-8-alphabetic	cond-source=live-db-scan
+2026-05-13T14:35:30Z	repair-batch-042	FETCH_FAIL	id=local-courts-administration-of-estates-rules-1969	error=scanned-pdf-pdfplumber-extracted-1-char-ocrmypdf-absent
+2026-05-13T14:35:30Z	repair-batch-042	FETCH_FAIL	id=local-courts-rules-1966	error=scanned-pdf-pdfplumber-extracted-24-chars-ocrmypdf-absent
+2026-05-13T14:35:30Z	repair-batch-042	BODY_UPDATE_OK	id=si-zm-1980-049-zambia-national-provident-fund-statutory-contributions-regulations-1980	pre=0	post=7244
+2026-05-13T14:35:30Z	repair-batch-042	BODY_UPDATE_OK	id=si-zm-1981-047-zambia-national-service-obligatory-service-exemption-order-1981	pre=0	post=1078
+2026-05-13T14:35:30Z	repair-batch-042	BODY_UPDATE_OK	id=si-zm-1982-049-zambia-airways-corporation-date-of-dissolution-order-1982	pre=0	post=943
+2026-05-13T14:35:30Z	repair-batch-042	BODY_UPDATE_OK	id=si-zm-1985-014-equity-levy-exemption-order-1985	pre=0	post=808
+2026-05-13T14:35:30Z	repair-batch-042	BODY_UPDATE_OK	id=si-zm-1985-024-air-passenger-service-charge-appointment-of-collection-agents-no-2-order-1985	pre=0	post=1049
+2026-05-13T14:35:30Z	repair-batch-042	BODY_UPDATE_OK	id=si-zm-1985-045-air-services-aerial-application-permit-regulations-1985	pre=0	post=4106
+2026-05-13T14:35:30Z	repair-batch-042	POST_PARITY_GAP	records=1928	records_fts=1924	gap=4	delta=0
+2026-05-13T14:35:30Z	repair-batch-042	POST_INTEGRITY	verdict=NOT-OK-unchanged	no-new-corruption-introduced
+2026-05-13T14:35:30Z	repair-batch-042	FTS_MISSING_IDS	count=4	ids=act-zm-2023-022,act-zm-2023-025,act-zm-2023-029,act-zm-2024-003	verdict=same-as-b040-b041-unchanged
+2026-05-13T14:35:30Z	repair-batch-042	B2_SYNC	deferred-to-host-rclone-absent
+2026-05-13T14:35:30Z	repair-batch-042	GIT_POLICY	corpus.sqlite-NOT-staged-per-parity-rule-(gap=4)	logs+report-staged-only-(b039-b040-b041-pattern)	body-updates-applied-to-DB-but-deferred-from-commit
+2026-05-13T14:35:30Z	repair-batch-042	STOP	verdict=partial-progress	body-updates=6/8	fts-rows-recovered=0	wall-clock=~5min	condB-backlog-remaining=226	recommend=ocrmypdf-install+host-side-fts-rebuild+raise-MAX_BATCH_SIZE-or-frequency
