@@ -8561,3 +8561,72 @@ were JIW channel and did not touch Phase 8 cohorts):
 See `reports/batch-0623.md` for the full cohort table, integrity
 checks, budget accounting, and standing recommendations carried
 forward.
+
+## Phase 8 — Nightly re-verification batch 0625 (2026-05-13T04:35:14Z)
+
+Sample size 8 of pool 1925 (seed `phase8-reverify-2026-05-13-b0625`).
+5 match, 3 drift, 0 fetch_error, 0 truncated_prefix. None of the
+drifts indicates corpus mutation — all three sit on the well-
+characterised zambialii.org AKN HTML rendering-non-determinism
+cohorts. No record was mutated this tick; the entries below are
+logged for audit completeness only.
+
+Note: b0624 (2026-05-13T04:23:34Z, 6 match / 2 drift) did not
+append its drift entries to gaps.md at commit time. Its drifts —
+`si-zm-2023-005-energy-regulation-appeals-tribunal-rules-2023`
+(stored / fetched e7f23bb7…) and `si-zm-2019-047-local-government-
+fire-services-order-2019` (stored / fetched 6289c200…) — are
+both on the bare-AKN-path SI cohort and are captured in
+`reports/batch-0624-reverify.json` and `reports/batch-0624.md`.
+This b0625 entry retroactively folds those two drifts into the
+running cohort tallies below for continuity.
+
+- `judgment-zm-2023-zmsc-04-attorney-general-v-siakakole-and-ors` —
+  drift on https://zambialii.org/akn/zm/judgment/zmsc/2023/4/eng@2023-02-23
+  (stored 258e5467… / fetched 2e834e6f…). AKN-HTML `/eng@`-suffix
+  judgment-cohort rendering non-determinism; no corpus mutation.
+- `act-zm-2025-003-cyber-security-act` —
+  drift on https://zambialii.org/akn/zm/act/2025/3/eng@2025-04-15
+  (stored 538b241e… / fetched 14117329…). AKN-HTML `/eng@`-suffix
+  Act-cohort rendering non-determinism; no corpus mutation.
+- `si-zm-2020-002-national-assembly-by-election-chilubi-constituency-no-095-election-date-and-time-of-poll-order-2020` —
+  drift on https://zambialii.org/akn/zm/act/si/2020/2
+  (stored 53ca8519… / fetched ba8cd268…). Bare-AKN-path SI sub-
+  cohort (no `/eng@` suffix); rendering non-determinism; no corpus
+  mutation.
+
+Cohort tallies post-b0625 (delta from b0623, folding in b0624 drifts):
+- AKN-HTML `/eng@`-suffix Act-or-SI-or-judgment 132/132 (was 130/130
+  post-b0623; +2: 2025/3 cyber-security Act, zmsc/2023/4 judgment).
+  First Phase-8 observation of a `/akn/judgment/` `/eng@…` URL on
+  the drift side — judgment cohort behaves identically to Act/SI
+  cohort under AKN HTML rendering, as expected.
+- AKN-HTML bare-AKN-path SI 18/18 (was 15/15 post-b0623; +3: si-
+  2023/5 energy-regulation-tribunal-rules and si-2019/47 local-gov
+  fire-services from b0624, plus si-2020/2 chilubi by-election
+  this tick).
+- zambialii akn `/source.pdf` Act-or-SI match 48/48 (was 45/45 post-
+  b0623; +3: si-2017/42 income-tax-OPIC-exemption-order from
+  b0625, plus 2 from b0624 — no matches recorded individually
+  there but cohort total preserved by net delta).
+- Parliament `/acts/` and `/amendment_act/` static-PDF match 128/128
+  (was 121/121 post-b0623; +7: 2019/18 Appropriation, 2016/24
+  Supreme-Court-Amendment, 2021/20 Rural-Electrification-Amendment
+  this tick; plus 4 from b0624 — Cap-213 Valuation-Surveyors,
+  2009/6 Excess-Expenditure-2006, 2019/14 VAT-Amendment, 2026/6
+  Food-Reserve).
+- cap-N path 2/2 unchanged.
+- Stable-PDF supercohort (Parliament static ∪ zambialii
+  `/source.pdf` ∪ cap-N) 178/182 unchanged ratio of zero real
+  drifts; 4 truncated-stored-hash false drifts unchanged at
+  cumulative ratio.
+
+See `reports/batch-0625.md` for the full sample table, integrity
+checks (8/8 PASS + sqlite quick_check / integrity_check ok +
+records=records_fts=1928 parity), budget accounting (cumulative
+today 32/2000), and standing recommendations carried forward.
+
+## Repair batch b035 2026-05-13T05:16:26Z
+- 232 zambialii SI records still have empty body (need HTML/PDF fetch — deferred to future repair ticks).
+- 16 parliament.gov.zm stub-body records still pending (16 of 24 remaining after this tick).
+- b2 sync deferred: rclone not available in worker sandbox.

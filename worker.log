@@ -7359,3 +7359,27 @@ test append
 2026-05-13T04:25:18Z	b0624	REPORT_WRITTEN	reports/batch-0624-reverify.json	reports/batch-0624.md
 2026-05-13T04:25:18Z	b0624	BUDGET	cumulative_today=24/2000	margin=1976	8-productive-fetches-this-tick-zero-retries
 2026-05-13T04:25:18Z	b0624	B2_SYNC	deferred-to-host-rclone-not-in-sandbox
+2026-05-13T04:26:01Z	b0624	GIT_COMMIT	sha=dcb68f2	files=5	insertions=510	branch=main
+2026-05-13T04:26:01Z	b0624	GIT_PUSH	verdict=OK	remote=origin/main	range=6c9c7ce..dcb68f2
+2026-05-13T04:26:01Z	b0624	STOP	verdict=tick-complete-6-match-2-drift-0-fetch-error-pool-1925	new_records=0(phase-8-read-only)	next-tick=t+30min	next-targets=phase-8-reverify-fresh-sample-or-jiw-zambialii-zmsc-2024-continuation
+2026-05-13T04:35:14Z	b0625	START	phase=phase_8_nightly_reverify	parser_version=phase8-reverify-0.1.0	pool_size=1925	sample_rate=0.01	max_batch=8	seed=phase8-reverify-2026-05-13-b0625	ua=KateWestonLegal-CorpusBuilder/1.0(contact:peter@bilcoguard.com)	script=scripts/batch_0625_phase8_reverify.py	cloned_from=scripts/batch_0546_phase8_reverify.py
+2026-05-13T04:35:14Z	b0625	REVERIFY	fetches=8	retry_fetches=0	match=5	drift=3	truncated_prefix=0	fetch_error=0	durations_s=0.227..2.286	host=zambialii.org+www.parliament.gov.zm	started=2026-05-13T04:34:45Z	completed=2026-05-13T04:35:14Z
+2026-05-13T04:35:14Z	b0625	INTEGRITY	check1_sample_in_pool=PASS	check2_stored_sha_unchanged=PASS	check3_logs_append_only=PASS	check4_provenance_unchanged=PASS	check5_drift_attributable=PASS-all-3-on-zambialii-AKN-HTML-rendering-cohort	check6_no_truncated_prefix_false_drift=PASS	check7_seed_deterministic=PASS	check8_phase8_read_only=PASS	sqlite_quick_check=ok	sqlite_integrity_check=ok	records=1928	records_fts=1928
+2026-05-13T04:35:14Z	b0625	REPORT_WRITTEN	reports/batch-0625-reverify.json	reports/batch-0625.md
+2026-05-13T04:35:14Z	b0625	GAPS_APPENDED	gaps.md	entries=3	cohort=zambialii-AKN-HTML-rendering-non-determinism	plus-retroactive-fold-of-b0624-2-drifts-into-cohort-tallies
+2026-05-13T04:35:14Z	b0625	BUDGET	cumulative_today=32/2000	margin=1968	8-productive-fetches-this-tick-zero-retries
+2026-05-13T04:35:14Z	b0625	B2_SYNC	deferred-to-host-rclone-not-in-sandbox
+
+=== Repair batch b035 2026-05-13T05:16:26Z ===
+Repair worker tick.
+Targets: 8 (parliament.gov.zm PDF stub bodies, all from manifest).
+Surveys (Conditions A/B/C against live DB):
+  A (corrupted line-numbers-only): 0
+  B (empty body, acts+sis): 232 (all zambialii SI URLs, deferred to future ticks)
+  C (stub body <200 chars, acts+sis): 24
+Repaired this tick: 7 (1 already-repaired from a probe write earlier in tick).
+Status: success.
+Integrity: records=1928, fts=1928, quick_check=ok.
+Note: on-disk rollback journal mode triggers "disk I/O error" on this virtiofs mount.
+      Switched to PRAGMA journal_mode=MEMORY for the write phase; on-disk DB integrity verified after writes.
+B2 sync deferred to host (rclone not available in worker sandbox).
