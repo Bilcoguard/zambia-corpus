@@ -9025,3 +9025,186 @@ The following 2 records have source PDFs at commons.laws.africa that pdfplumber 
 ## 2026-05-13T14:35:30Z repair-batch-042 — Condition B backlog (live DB scan)
 
 Live database scan revealed 232 SI records (`type='si'`) with NULL or empty body, sourced primarily from ZambiaLII (`https://zambialii.org/akn/zm/act/si/…`). This is a SUSTAINED backlog beyond the v4 manifest. At MAX_BATCH_SIZE=8 per tick this requires ~29 more ticks to drain. Recommend host raise batch size or scheduling frequency.
+
+## 2026-05-13T13:07Z — b0632-jiw (6th consecutive JIW abort)
+
+**Status:** tick aborted pre-fetch. No corpus mutations attempted.
+
+**Blockers (unchanged since b0631-jiw 12:32Z):**
+1. **CHECK8 parity fail** — `records=1928`, `records_fts=1924`, `gap=4`
+   (since repair-040 reduced from 8→4; repair-041 and repair-042 left at 4).
+   Per non-negotiables, "Never commit if records count ≠ records_fts count".
+2. **SQLite integrity NOT OK** — `quick_check`/`integrity_check` both still
+   report `*** in database main *** On tree page 5733 cell 71: 2nd reference
+   to page 21836` plus extensive invalid-page-number errors on pages 12466,
+   29610, etc. Shadow-page corruption in `records_fts` blocks new
+   `INSERT INTO records_fts` and atomic `DELETE+INSERT` transactions.
+3. **Sandbox `/` 100% full** — 14 MB free, unchanged from b0631. `/sessions`
+   has 2.4 GB free; `TMPDIR=/sessions/.../tmp_<batch>` workaround viable for
+   pdfplumber (per repair-041 and repair-042) but cannot fix FTS shadow
+   corruption.
+4. **`corpus.sqlite` quiescent on host** — mtime 12:36:48 Z (31 min before
+   tick start). repair-batch-042 ran since b0631 (applied 6 body updates to
+   the Condition-B SI backlog at 12:35:30Z) but did NOT touch the parity gap
+   (UPDATE-only fallback to avoid growing the gap).
+
+**Residual deterministic FTS-insert failures (from repair-041, unchanged):**
+- `act-zm-2023-022-the-income-tax-amendment-act-2023`
+- `act-zm-2023-025-the-customs-and-excise-amendment-act-2023-act-no-25-of-2023`
+- `act-zm-2023-029-the-appropriation-act-2023-act-no-29-of-2023`
+- `act-zm-2024-003-investment-trade-and-business-development-amendment-act-2024`
+
+These are non-judgment records but they hold the parity gap shut against the
+JIW write path. JIW cannot insert any new judgment+FTS row pair without the
+shadow table first being rebuilt.
+
+**Repair-042 backlog discovery (informational, not a JIW blocker by itself):**
+- Live DB scan revealed 232 SI records (`type='si'`) with NULL or empty
+  body — sustained Condition-B backlog beyond the v4 manifest. At
+  MAX_BATCH_SIZE=8 per tick this requires ~29 more repair ticks to drain.
+- 2 scanned-PDF gaps requiring `ocrmypdf` (absent in sandbox):
+  `local-courts-administration-of-estates-rules-1969` and
+  `local-courts-rules-1966`.
+
+**Recommended host-side actions before next JIW attempt:**
+1. Run offline FTS5 rebuild with `PRAGMA journal_mode=PERSIST`:
+   `DROP TABLE records_fts; CREATE VIRTUAL TABLE records_fts USING fts5(...);
+    INSERT INTO records_fts SELECT ... FROM records; VACUUM;`
+2. Rotate sandbox `/` cache (clear `_stale_locks_*`, `corpus.sqlite.bak.*`,
+   the various `_repair_b03N_*` workspaces left under
+   `/sessions/amazing-gifted-cray/mnt/corpus/`).
+3. Install `ocrmypdf` for the 2 scanned-PDF gaps and the longer ZambiaLII
+   image-PDF cohort.
+4. Confirm `PRAGMA integrity_check = ok` AND `records = records_fts` before
+   next JIW tick.
+
+**Sweep position preserved (no change since b0622-jiw):**
+- ZambiaLII ZMSC 2024 gap-fill: 26/33 (continue at #11, #12, #14 next).
+- judiciaryzambia.com Court of Appeal sweep: page 1 not yet started — zero
+  coverage, highest-priority NEW source per Step 3(b).
+- judiciaryzambia.com Constitutional / Supreme / High Court sweeps: not
+  yet started — defer until host FTS rebuild lands.
+
+**Next tick:** b0633-jiw, t+60 min, will re-check parity + integrity + disk
+before any fetch.
+
+## b0633-jiw — 7th consecutive JIW abort (2026-05-13T14:08:00Z)
+
+**Verdict:** tick aborted pre-fetch — no corpus mutation, no fetch, no write,
+no commit. Same chronic blockers as b0630/b0631/b0632.
+
+**Chronic blockers (unchanged since b0626-jiw):**
+
+1. CHECK8 parity fail: `records=1928`, `records_fts=1924`, `gap=4` (since
+   repair-040; repair-041 + repair-042 confirmed deterministic FTS INSERT
+   failure for residual 4 IDs: `act-zm-2023-022/025/029` + `act-zm-2024-003`).
+2. SQLite `quick_check` + `integrity_check` both NOT OK. Signature: FTS5
+   shadow page 5733 cell 71 → 2nd reference to page 21836, plus extensive
+   invalid-page-number errors on pages 12466 / 29610 / 22491. Unchanged
+   since b037/b038.
+3. Sandbox `/` 100% full (14 MB free). `/sessions` 2.4 GB free. No host-side
+   cache rotation since b0627-jiw.
+4. `corpus.sqlite` mtime 2026-05-13T14:36:48Z — host quiescent ~30 min — but
+   the disk image is malformed, blocking FTS DELETE+INSERT and multi-row
+   transactions.
+
+**Repair-worker progress in the intervening tick:**
+
+- `repair-batch-042` ran at ~14:35:30Z. Applied 6 `records.body` UPDATEs to
+  the Condition-B SI no-body backlog (now 226 remaining). 2 FETCH_FAILs on
+  scanned PDFs (`local-courts-administration-of-estates-rules-1969`,
+  `local-courts-rules-1966`) — `ocrmypdf` still absent.
+- Parity gap untouched (UPDATE-only path; no FTS DELETE+INSERT attempted).
+
+**Sweep position preserved (no change since b0622-jiw):**
+
+- ZambiaLII ZMSC 2024 gap-fill: 26/33 (continue at #11, #12, #14 next).
+- judiciaryzambia.com Court of Appeal sweep: page 1 not yet started — zero
+  coverage, highest-priority NEW source per Step 3(b).
+- judiciaryzambia.com Constitutional / Supreme / High Court sweeps: not
+  yet started — defer until host FTS rebuild lands.
+
+**Pattern observation:** Seven consecutive JIW aborts on the same blocker
+set is now the dominant operational signal. The repair-worker is making
+steady forward progress on Condition-B body backfill but cannot rebuild
+the FTS shadow table from inside the sandbox (insufficient `/` disk for
+`VACUUM` headroom; DELETE+INSERT against malformed shadow pages fails
+deterministically). Until a host-side rebuild lands, JIW remains
+permanently blocked on the "new INSERT must touch records_fts" path.
+
+**Recommendation to host operator (re-stated unchanged):**
+
+1. Offline FTS5 rebuild: `DROP TABLE records_fts; CREATE VIRTUAL TABLE ...;
+   INSERT INTO records_fts(rowid, ...) SELECT rowid, ... FROM records;
+   VACUUM;` then verify `PRAGMA integrity_check = ok` and
+   `records count == records_fts count`.
+2. Sandbox `/` rotation: clear `_stale_locks_*`, `_repair_b03N_*`,
+   `_b0612_jiw_inline.py`, old `corpus.sqlite.bak.*`, ad-hoc test scripts.
+3. Install `ocrmypdf` to unblock 2 SI scanned-PDF gaps + broader ZambiaLII
+   image-PDF cohort.
+
+**Next tick:** b0634-jiw, t+60 min. Will re-check parity + integrity + disk
+before any fetch. If blockers persist, will continue to abort per protocol.
+
+---
+
+## b0634-jiw — 2026-05-13T15:07:29Z — 8th consecutive JIW abort (no-mutation tick)
+
+**Status:** chronic host-side blockers unchanged since b0626-jiw / repair-040.
+
+**Pre-flight diagnostics (read-only):**
+- `records` = 1928, `records_fts` = 1924, **gap = 4** (CHECK8 fails)
+- `PRAGMA quick_check` = **NOT OK** — same fts5 shadow-page corruption
+  pattern: page 5733 cell 71 (2nd reference to page 21836), invalid page
+  numbers on pages 12466/29610/22491, overflow list length mismatch on
+  page 5387 cell 0. Unchanged since b0637/b0638.
+- `PRAGMA integrity_check(5)` = **NOT OK** — same head signature.
+- Disk: `/` = 100% full (14 MB free), `/sessions` = 2.4 GB free (75% used).
+- `corpus.sqlite` mtime = 2026-05-13T14:36:48Z (host-side quiescent ~31 min).
+- `.git/objects/maintenance.lock` and `.git/ORIG_HEAD.lock` present, FUSE
+  EPERM on rm — same pattern as b0608 / b0623-b0633.
+- Staged from previous ticks (b0632/b0633): `costs.log`, `gaps.md`,
+  `worker.log`, `reports/batch-0632-jiw.md` — pending host-side commit.
+
+**Missing-FTS IDs (unchanged):**
+1. `act-zm-2023-022-the-income-tax-amendment-act-2023`
+2. `act-zm-2023-025-the-customs-and-excise-amendment-act-2023-act-no-25-of-2023`
+3. `act-zm-2023-029-the-appropriation-act-2023-act-no-29-of-2023`
+4. `act-zm-2024-003-investment-trade-and-business-development-amendment-act-2024`
+
+**Decision:** abort tick per b0627-jiw handoff rule #1 — do not spend
+budget on fetches that will fail commit on CHECK8. No wire fetches, no
+DB writes, no new raw files.
+
+**Sweep cursor preservation (no change):**
+- judiciary-coa-sweep: page-9 (scanned-PDF cliff, b0618 confirmed)
+- judiciary-scz-sweep: page-2 (b0620 baseline)
+- judiciary-zmcc-sweep: not yet started
+- judiciary-hc-sweep: not yet started
+- zambialii-zmsc-sweep: 2024 cluster (next: zmsc-32..end of 2024 +
+  start 2025 if any), backlog from b0626 still ingestible once parity
+  restored.
+
+**Host-side actions still required (priority order):**
+1. **FTS5 rebuild on stable host:**
+   ```sql
+   DROP TABLE records_fts;
+   CREATE VIRTUAL TABLE records_fts USING fts5(
+     id UNINDEXED, title, body, citation, court,
+     content='records', content_rowid='rowid'
+   );
+   INSERT INTO records_fts(records_fts) VALUES('rebuild');
+   VACUUM;
+   ```
+   Run on a copy first; verify `quick_check = ok` and parity before
+   pushing back into the sandbox mount.
+2. **Sandbox `/` rotation** — reclaim space so pdfplumber cache and
+   VACUUM scratch can land.
+3. **Clear FUSE git locks** on host (the EPERM is mount-layer, not
+   permissions on the underlying inodes).
+4. **Install `ocrmypdf`** to unblock 2 SI scanned-PDF gaps + broader
+   ZambiaLII image-PDF cohort.
+
+**Next tick:** b0635-jiw, t+60 min. Will re-check parity + integrity +
+disk before any fetch. If blockers persist, will continue to abort per
+protocol.
