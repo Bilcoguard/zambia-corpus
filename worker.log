@@ -7350,3 +7350,12 @@ test append
 2026-05-13T04:08:38Z	b0623	REPORT_WRITTEN	reports/batch-0623-reverify.json	reports/batch-0623.md
 2026-05-13T04:09:00Z	b0623	BUDGET	cumulative_today=16/2000	includes-8-discarded-b0622-seeded-wire-fetches+8-productive-b0623-fetches	margin=1984
 2026-05-13T04:09:00Z	b0623	B2_SYNC	deferred-to-host-rclone-not-in-sandbox
+2026-05-13T04:18:00Z	b0623	GIT_COMMIT	sha=6c9c7ce	files=8	insertions=1272	branch=main	carries=b0622-jiw-provenance.log+repair-batch-036-staged-files
+2026-05-13T04:18:00Z	b0623	GIT_PUSH	verdict=OK	remote=origin/main	range=5676b4b..6c9c7ce	host-side-FUSE-EPERM-locks-cleared-via-orphan-park
+2026-05-13T04:18:00Z	b0623	STOP	verdict=tick-complete-5-match-3-drift-0-fetch-error-pool-1925	new_records=0(phase-8-read-only)	carries-b0622-jiw-provenance-and-repair-batch-036-staged	next-tick=t+30min	next-targets=phase-8-reverify-fresh-sample-or-jiw-zambialii-zmsc-2024-continuation
+2026-05-13T04:25:18Z	b0624	START	phase=phase_8_nightly_reverify	parser_version=phase8-reverify-0.1.0	pool_size=1925	sample_rate=0.01	max_batch=8	seed=phase8-reverify-2026-05-13-b0624	ua=KateWestonLegal-CorpusBuilder/1.0(contact:peter@bilcoguard.com)	script=scripts/batch_0624_phase8_reverify.py	cloned_from=scripts/batch_0546_phase8_reverify.py
+2026-05-13T04:25:18Z	b0624	REVERIFY	fetches=8	retry_fetches=0	match=6	drift=2	truncated_prefix=0	fetch_error=0	durations_s=0.300..2.500	host=zambialii.org+www.parliament.gov.zm	started=2026-05-13T04:23:34Z	completed=2026-05-13T04:23:58Z
+2026-05-13T04:25:18Z	b0624	INTEGRITY	check1_pool_present=PASS	check2_no_record_mutation=PASS	check3_logs_append_only=PASS	check4_provenance_unchanged=PASS	check5_drift_attributable=PASS-both-on-zambialii-AKN-bare-path-SI-cohort	check6_no_truncated_prefix_false_drift=PASS	check7_seed_deterministic=PASS	check8_phase8_read_only=PASS	sqlite_quick_check=ok	sqlite_integrity_check=ok	records=1928	records_fts=1928
+2026-05-13T04:25:18Z	b0624	REPORT_WRITTEN	reports/batch-0624-reverify.json	reports/batch-0624.md
+2026-05-13T04:25:18Z	b0624	BUDGET	cumulative_today=24/2000	margin=1976	8-productive-fetches-this-tick-zero-retries
+2026-05-13T04:25:18Z	b0624	B2_SYNC	deferred-to-host-rclone-not-in-sandbox
