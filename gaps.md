@@ -9343,3 +9343,22 @@ SHA-reseed from b0638 intact — `git pull` works. Coverage 238 / 800
 judgments = 30 %. Operator action required: host-side FTS5 rebuild
 + permanent `rm` of bogus lock refs + sandbox / rotation. Handoff
 to b0640-jiw at t+60min.
+
+## [2026-05-13T21:07Z] b0640-jiw — 14th consecutive JIW abort (chronic blockers unchanged)
+
+Identical state to b0639-jiw. No fetch, no parse, no write. Parity gap
+`records=1928 / records_fts=1924 / gap=4` unchanged since repair-040.
+FTS5 shadow-table corruption unchanged since b037/b038. Sandbox `/`
+still 100 % full (14 MB free). corpus.sqlite mtime
+2026-05-13T12:36:48Z (host-side quiescent ~8.5 h). Bogus
+lock-style refs in `.git/refs/remotes/origin/` still present but
+SHA-reseed from b0638 intact — `git pull` works. No new bogus refs
+this tick. Coverage 238 / 800 judgments = 30 %. Operator action
+required: host-side FTS5 rebuild + permanent `rm` of bogus lock refs
++ sandbox `/` rotation. Handoff to b0641-jiw at t+60 min.
+
+Sweep positions (unchanged — preserved for resume after host repair):
+- `judiciary-coa-sweep`: page 1 (not yet started — new source, zero coverage)
+- `judiciary-scz-sweep`: page 1 (not yet started)
+- `judiciary-zmcc-sweep`: page 1 (not yet started)
+- `judiciary-zmhc-sweep`: page 1 (not yet started)

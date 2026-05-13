@@ -4419,3 +4419,4 @@ Stale rollback journal hazard re-observed and mitigated via `journal_mode=TRUNCA
 2026-05-13T06:08:34Z	b0627-jiw	tick-aborted-disk-100%-full-no-wire-fetch-no-db-write	orphan-rename=records/judgments/zmsc/2024/judgment-zm-2024-zmsc-11-frankson-musukwa-suing-on-his-behalf-and-as-the-executive-di.json->raw/zambialii/zmsc/2024/_orphan_b0626/	records=1928	records_fts=1928	parity=ok	integrity=ok	source-of-truth-unchanged
 2026-05-13T19:09:34Z	b0638-jiw	tick-aborted-no-mutation	records_written=0	parity_gap=4	chronic-blockers-unchanged	mitigation=ref-reseed-for-git-pull
 2026-05-13T20:08:22Z	b0639-jiw	META	verdict=tick-aborted-no-fetch-no-parse-no-write	parity-gap=4-unchanged	13th-consecutive-abort-since-b0626
+2026-05-13T21:07:56Z	b0640-jiw	META	verdict=tick-aborted-no-fetch-no-parse-no-write	parity-gap=4-unchanged	14th-consecutive-abort-since-b0626
