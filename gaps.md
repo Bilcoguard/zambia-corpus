@@ -9269,3 +9269,26 @@ executed and the sandbox `/` partition is rotated.
 - `zambialii-zmsc`: continuation deferred until parity gap closes
 - `zambialii-zmcc`: continuation deferred until parity gap closes
 
+
+## b0637-jiw — 11th consecutive JIW abort (2026-05-13T18:07:52Z)
+
+Chronic blockers unchanged from b0636-jiw; sweep cursors unchanged:
+
+- `judiciary-coa-sweep`: page 1 (not yet started — new source, zero coverage)
+- `judiciary-scz-sweep`: page 1 (not yet started)
+- `judiciary-zmcc-sweep`: page 1 (not yet started)
+- `judiciary-zmhc-sweep`: page 1 (not yet started)
+
+**New observation this tick**: bogus lock-style refs introduced under
+`.git/refs/remotes/origin/` since b0636-jiw — particularly
+`main.lock.bak.b0636` — cause `git pull --ff-only` to fail with
+`fatal: bad object`. They are EPERM from the sandbox so cannot be cleaned
+here. `git push` still works because local HEAD matches origin/main
+(cccdeb3) and the bogus refs are remote-tracking only. Operator must
+`rm .git/refs/remotes/origin/main.lock*` on the host.
+
+Parity-gap FTS-missing IDs (unchanged since repair-040):
+- `act-zm-2023-022-the-income-tax-amendment-act-2023`
+- `act-zm-2023-025-the-customs-and-excise-amendment-act-2023-act-no-25-of-2023`
+- `act-zm-2023-029-the-appropriation-act-2023-act-no-29-of-2023`
+- `act-zm-2024-003-investment-trade-and-business-development-amendment-act-2024`
