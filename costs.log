@@ -6117,3 +6117,4 @@
 2026-05-14T15:07:38Z	b0648-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
 2026-05-14T15:15:51Z	b0648-repair	zambialii	fetches=16	bytes=~600KB	rate=5s-crawl-delay	robots=respected
 2026-05-14T16:15:11Z	b0649-repair	fetches=16(8-HTML+8-PDF)	bytes-down=~600KB	llm-tokens=0	storage-delta=+86KB-body-bytes	zambialii-domain	crawl-delay=5s
+2026-05-14T17:15:23Z	b0650-repair	fetches=18(8-HTML+8-PDF-primary+2-PDF-fixup)	bytes-down=~800KB	llm-tokens=0	storage-delta=+117KB-body-bytes	zambialii.org+commons.laws.africa	crawl-delay=5s	robots=respected
