@@ -7697,3 +7697,13 @@ On tree pag
 2026-05-14T12:40:00Z	b0643-repair	GIT_POLICY	corpus.sqlite=NOT-staged-per-parity-rule	logs+report+script=staged
 2026-05-14T12:40:00Z	b0643-repair	B2_SYNC	verdict=deferred-to-host-rclone-absent-corpus-mutation-local-only
 2026-05-14T12:40:00Z	b0643-repair	FINAL	verdict=6-bodies-repaired-locally	host-actions-still-required=(a)FTS5-rebuild(b)ocrmypdf-install(c)stale-manifest-removal(d)cleanup-14-orphan-FTS-rows	next=b0644-repair-t+1h
+2026-05-14T12:41:34Z	b0644-jiw	START	worker=judgment-ingestion-worker	parser_version=0.3.2	skill_version=manifest-v4-stale
+2026-05-14T12:41:34Z	b0644-jiw	PRE_STATE	records=1928	records_fts=1924	gap=4	judgments=238	integrity=NOT-OK-unchanged
+2026-05-14T12:41:34Z	b0644-jiw	GIT_PULL	verdict=ok	HEAD=57ef3f8	origin/main=57ef3f8	bogus_refs=cleared-host-side
+2026-05-14T12:41:34Z	b0644-jiw	DISK	sandbox_root=13MB-free-100%	sessions=2.4GB-free	corpus_fs=13GB-free
+2026-05-14T12:41:34Z	b0644-jiw	DECISION	abort=CHECK8-FAIL-gap=4-unchanged-since-repair-040	repair-043-touched-bodies-not-fts	host-side-FTS5-rebuild-still-required
+2026-05-14T12:41:34Z	b0644-jiw	FETCH	count=0	productive=0	retries=0	cumulative_today=0/500
+2026-05-14T12:41:34Z	b0644-jiw	WRITE	records_written=0	records_deferred=0	corpus.sqlite-mutated=NO
+2026-05-14T12:41:34Z	b0644-jiw	GIT_POLICY	corpus.sqlite=NOT-staged-no-mutation	logs+report=staged-only
+2026-05-14T12:41:34Z	b0644-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
+2026-05-14T12:41:34Z	b0644-jiw	FINAL	verdict=16th-consecutive-abort-since-b0626	next=b0645-jiw-t+60min	escalation=host-FTS5-rebuild-still-required

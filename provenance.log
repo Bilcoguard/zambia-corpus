@@ -4421,3 +4421,4 @@ Stale rollback journal hazard re-observed and mitigated via `journal_mode=TRUNCA
 2026-05-13T20:08:22Z	b0639-jiw	META	verdict=tick-aborted-no-fetch-no-parse-no-write	parity-gap=4-unchanged	13th-consecutive-abort-since-b0626
 2026-05-13T21:07:56Z	b0640-jiw	META	verdict=tick-aborted-no-fetch-no-parse-no-write	parity-gap=4-unchanged	14th-consecutive-abort-since-b0626
 2026-05-14T03:05:40Z	b0641-jiw	META	verdict=tick-aborted-no-fetch-no-parse-no-write	parity-gap=4-unchanged	15th-consecutive-abort-since-b0626	ref-reseed-9ae9919-to-32ac09b-6-files
+2026-05-14T12:41:34Z	b0644-jiw	META	verdict=tick-aborted-no-fetch-no-parse-no-write	parity-gap=4-unchanged	16th-consecutive-abort-since-b0626	repair-043-bodies-only-no-fts-impact	host-FTS5-rebuild-still-pending
