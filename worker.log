@@ -7772,3 +7772,26 @@ On tree pag
 2026-05-14T14:15:00Z	b0647-repair	GIT_POLICY	corpus.sqlite=NOT-staged-per-parity-rule(gap=4-unchanged)	logs+report+script=staged-only(continues-b0626..b0645-pattern)
 2026-05-14T14:15:00Z	b0647-repair	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-corpus-mutation-local-only
 2026-05-14T14:15:00Z	b0647-repair	FINAL	verdict=8-bodies-repaired-locally	host-actions-still-required=(a)FTS5-rebuild(b)ocrmypdf-install(c)stale-manifest-removal(d)cleanup-14-orphan-FTS-rows(e)rm-orphan-journals+maintenance.lock	next=b0648-repair-t+1h
+2026-05-14T14:17:00Z	b0647-repair	GIT_COMMIT	verdict=committed-locally-after-index.lock-mv	commit=ac64a1f	files=4(worker.log+costs.log+reports/repair-batch-047.md+scripts/batch_0647_repair.py)	insertions=242	corpus.sqlite=NOT-committed-per-parity-rule
+2026-05-14T14:17:00Z	b0647-repair	GIT_PUSH	verdict=push-ok	remote=origin/main	range=7053381..ac64a1f
+2026-05-14T14:17:00Z	b0647-repair	STOP	verdict=tick-complete-bodies-persisted-locally	wall-clock=~6min	next=b0648-repair-t+1h
+2026-05-14T15:07:38Z	b0648-jiw	START	worker=judgment-ingestion-worker	tick=b0648-jiw	parent_commit=ac64a1f	notes=19th-consecutive-jiw-abort-since-b0626
+2026-05-14T15:07:38Z	b0648-jiw	GIT_PULL	verdict=already-up-to-date	HEAD=ac64a1f
+2026-05-14T15:07:38Z	b0648-jiw	PREFLIGHT	records=1928	records_fts=1924	parity_gap=4	CHECK8=FAIL	judgments=238	coverage=30%
+2026-05-14T15:07:38Z	b0648-jiw	PREFLIGHT	quick_check=NOT_OK	first_err=tree-page-5733-cell-210-2nd-ref-21836	rowid_out_of_order=1185,983,683	invalid_pages=12466,29610,22491	overflow_mismatch=5387	child_depth_differs=12465
+2026-05-14T15:07:38Z	b0648-jiw	PREFLIGHT	sandbox_root_free=6.6MB	sessions_free=2.4GB	corpus_fs_free=12GB	corpus_sqlite_mtime=2026-05-14T14:14:39Z	host_recency=53min	host_action=repair-047-8-body-updates-no-fts-mutation
+2026-05-14T15:07:38Z	b0648-jiw	DECISION	abort=true	reason=CHECK8-FAIL-gap=4-unchanged-since-repair-040	fetches=0	parses=0	writes=0	corpus_mutations=0
+2026-05-14T15:07:38Z	b0648-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
+2026-05-14T15:07:38Z	b0648-jiw	REPORT	path=reports/batch-0648-jiw.md
+2026-05-14T15:07:38Z	b0648-jiw	STOP	verdict=tick-aborted-19th-consecutive-handoff=b0649-jiw	wall-clock=~3min
+2026-05-14T15:15:51Z	b0648-repair	START	worker=corpus-repair-worker	tick=b0648-repair	parent_commit=ac64a1f	notes=continues-b0647-condition-B-SI-drainage
+2026-05-14T15:15:51Z	b0648-repair	GIT_PULL	verdict=already-up-to-date	HEAD=ac64a1f	lock-cleanup=EPERM-on-maintenance.lock+ORIG_HEAD.lock(chronic)
+2026-05-14T15:15:51Z	b0648-repair	PREFLIGHT	records=1928	records_fts=1924	gap=4	quick_check=NOT-OK-fingerprint-unchanged	disk=corpus-12G-free+root-100%-full(6.6M)	tools=pdfplumber+curl(no-ocrmypdf-no-rclone-no-sqlite3-cli)
+2026-05-14T15:15:51Z	b0648-repair	DISCOVERY	method=rowid-pagination-1..1928-step50+cell_size_check=OFF	cond-A=not-scanned	cond-B-acts=0	cond-B-SIs=196	cond-C=0	read-errors=2(rows-1100-1150-malformed+1150-1200-utf8-decode-fail)
+2026-05-14T15:15:51Z	b0648-repair	MANIFEST_CHECK	verdict=stale-unchanged	v4-manifest-IDs-still-do-not-exist-in-live-records-table	working-set=live-DB-condition-B-196-SIs
+2026-05-14T15:15:51Z	b0648-repair	REPAIR	count=8	all=zambialii-AKN-SI-HTML-via-source.pdf	successes=8	failures=0	body-bytes=6880+1834+1672+1564+3774+1268+3952+91175=112119	pattern=body-only-UPDATE-no-FTS-touch-per-b0641/b0643/b0644/b0645/b0647+journal_mode=MEMORY
+2026-05-14T15:15:51Z	b0648-repair	IDS	si-zm-2016-040-zambia-wildlife-zambia-wildlife-police-uniforms-and-badges-regulations-2016+si-zm-2016-041-zambia-wildlife-game-animals-order-2016+si-zm-2016-042-zambia-wildlife-protected-animals-order-2016+si-zm-2016-043-zambia-wildlife-export-prohibition-order-2016+si-zm-2016-049-national-prosecutions-authority-witness-allowances-and-expenses-regulations-2016+si-zm-2016-059-national-museums-entry-fees-regulations-2016+si-zm-2016-062-electoral-process-code-of-conduct-enforcement-regulations-2016+si-zm-2016-063-electoral-process-general-regulations-2016
+2026-05-14T15:15:51Z	b0648-repair	SHA256(8)	ed9211c1+212facf1+14026a03+45c3cf20+d215e428+4ae98d19+5e418e28+b7668ff8
+2026-05-14T15:15:51Z	b0648-repair	POST_STATE	records=1928	records_fts=1924	gap=4	delta=0	cond-B-SI-remaining=188(was-196)	integrity=NOT-OK-unchanged-fingerprint-no-new-corruption-from-body-UPDATEs(pages-5733/6270/5387/12466/12465/22491/29610-unchanged)
+2026-05-14T15:15:51Z	b0648-repair	GIT_POLICY	corpus.sqlite=NOT-staged-per-parity-rule(gap=4-unchanged)	logs+report+script=staged-only(continues-b0626..b0647-pattern)
+2026-05-14T15:15:51Z	b0648-repair	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-corpus-mutation-local-only
