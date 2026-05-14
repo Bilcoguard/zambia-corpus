@@ -7743,3 +7743,18 @@ On tree pag
 2026-05-14T15:11:30Z	b0645-repair	GIT_POLICY	corpus.sqlite=NOT-staged-per-parity-rule(gap=4-unchanged)	logs+report+script=staged-only(continues-b0626..b0644-pattern)
 2026-05-14T15:11:30Z	b0645-repair	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-corpus-mutation-local-only
 2026-05-14T15:11:30Z	b0645-repair	FINAL	verdict=8-bodies-repaired-locally	host-actions-still-required=(a)FTS5-rebuild(b)ocrmypdf-install(c)stale-manifest-removal(d)cleanup-14-orphan-FTS-rows(e)rm-orphan-journals	next=b0646-repair-t+1h
+2026-05-14T15:16:00Z	b0645-repair	GIT_COMMIT	verdict=committed-locally-after-index.lock-mv	commit=a21fdb4	files=4(worker.log+costs.log+reports/repair-batch-045.md+scripts/batch_0645_repair.py)	insertions=234	corpus.sqlite=NOT-committed-per-parity-rule
+2026-05-14T15:16:00Z	b0645-repair	GIT_PUSH	verdict=push-ok	remote=origin/main	range=ba3c42d..a21fdb4
+2026-05-14T15:16:00Z	b0645-repair	STOP	verdict=tick-complete-bodies-persisted-locally	wall-clock=~13min	next=b0646-repair-t+1h
+2026-05-14T14:08:53Z	b0646-jiw	START	tick=2026-05-14T14:08:53Z	worker=judgment-ingestion-worker	previous-tick=b0645-jiw-aborted-17th-consecutive
+2026-05-14T14:08:53Z	b0646-jiw	SYNC	git-pull=already-up-to-date	HEAD=a21fdb4	origin/main=a21fdb4	repair-045-commit-already-merged
+2026-05-14T14:08:53Z	b0646-jiw	PREFLIGHT	records=1928	records_fts=1924	parity-gap=4-UNCHANGED-since-repair-040	judgments=238	sqlite-mtime-UTC=2026-05-14T13:13:52Z	corpus.sqlite-host-touched-~55min-pre-tick-via-repair-045-bodies-only-no-fts-mutation-no-parity-narrowing
+2026-05-14T14:08:53Z	b0646-jiw	INTEGRITY	pragma-quick-check=NOT-OK	first-errors=tree-page-5733-cell-82-2nd-ref-21836+Rowid-1185-out-of-order+page-6270-2nd-ref-24604+page-5387-overflow-list-1-should-be-3+pages-12466/22491/29610-invalid-page-numbers+page-12465-child-depth-differs	unchanged-since-b037/b038
+2026-05-14T14:08:53Z	b0646-jiw	DISK	sandbox-/=6.6MB-free-100%-full-no-change-from-b0645	/sessions=2.4GB-free	corpus-fs=13GB-free
+2026-05-14T14:08:53Z	b0646-jiw	REFS	heads=main-only	remotes/origin=HEAD+main-only-clean	bogus-lock-style-refs=NONE-host-side-rm-since-b0641-holding	residual-EPERM-on-.git/objects/maintenance.lock=present-non-blocking	.git/index.lock=ABSENT-clean
+2026-05-14T14:08:53Z	b0646-jiw	ORPHANS	corpus.sqlite-journal-orphans=13(b035-x5+b0602-x2+b0626-x2+b0644-orphan{,2,3,4})	sandbox-cannot-rm-bindfs-deny	unchanged-from-b0645
+2026-05-14T14:08:53Z	b0646-jiw	DECISION	CHECK8-FAIL-gap=4	defer-commit-per-non-negotiable-in-SKILL.md	no-fetch-no-parse-no-write-no-corpus.sqlite-mutation	18th-consecutive-abort-since-b0626
+2026-05-14T14:08:53Z	b0646-jiw	REPARSE-DEFERRED	priority-a=NOT-ATTEMPTED	rationale=any-reparse-INSERT-into-records_fts-exercises-shadow-pages-same-deterministic-fail-as-fresh-insert	360-deferred-IDs-still-pending-host-FTS5-rebuild
+2026-05-14T14:08:53Z	b0646-jiw	SWEEPS-SKIPPED	judiciary-coa-sweep=page-1-not-started	judiciary-scz-sweep=page-1-not-started	judiciary-zmcc-sweep=page-1-not-started	judiciary-zmhc-sweep=page-1-not-started	all-blocked-by-CHECK8
+2026-05-14T14:08:53Z	b0646-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
+2026-05-14T14:08:53Z	b0646-jiw	FINAL	verdict=18th-consecutive-abort	host-actions-still-required=(1)FTS5-rebuild(2)rm-maintenance.lock(3)rotate-sandbox-/(4)install-ocrmypdf(5)cleanup-13-orphan-journals(6)reconcile-14-orphan-fts-rows	next=b0647-jiw-t+60min
