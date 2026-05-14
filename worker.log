@@ -7865,3 +7865,6 @@ On tree pag
 2026-05-14T18:24:00Z	b0652-repair	OCR_FALLBACK	tool=tesseract-4.1.1+pdftoppm-22.02.0	new-this-tick	target=act-zm-2012-013-property-transfer-tax-amendment-act-2012	pdf=OmniPage-CSDK-15.5-image-only-94KB	ocr-bytes=5962	quality-gate=pass	UPDATE=FAIL(corrupt-page)	recovered-text-preserved-at=_repair_b0652_pdfs/ocr01_p[1-4].txt-for-host-splice
 2026-05-14T18:24:00Z	b0652-repair	GIT_POLICY	corpus.sqlite=NOT-staged-gitignored+parity-rule-defer	staged=worker.log+costs.log+gaps.md+reports/repair-batch-052.md+scripts/batch_0652_repair.py+scripts/batch_0652_repair_si.py
 2026-05-14T18:24:00Z	b0652-repair	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-corpus-mutation-local-only
+2026-05-14T18:28:00Z	b0652-phase8	GIT_COMMIT	verdict=committed	commit=038c182	files=6(worker.log+costs.log+gaps.md+reports/batch-0652-reverify.json+reports/batch-0652.md+scripts/batch_0652_phase8_reverify.py)	insertions=644
+2026-05-14T18:28:00Z	b0652-phase8	GIT_PUSH	verdict=push-ok	remote=origin/main	range=01e2194..038c182
+2026-05-14T18:28:00Z	b0652-phase8	STOP	verdict=tick-complete-Phase8-reverify-batch-0652-4match-4drift-0fetch_error-cumulative_today=24/2000	wall-clock=~5min	next=phase-runner-t+30min
