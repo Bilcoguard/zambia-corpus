@@ -9593,3 +9593,87 @@ also needs host-side cleanup.
 | 7 | si-zm-1996-044-zambia-national-provident-fund-statutory-contributions-regulations-1996 | 17102 | 71eae454 |
 | 8 | si-zm-1998-043-tender-amendment-regulations-1998 | 2089 | c9e3ba77 |
 
+
+## [2026-05-14T18:23Z] Phase 8 reverify drift log — b0652
+
+Phase 8 nightly re-verification batch 0652 (seed
+`phase8-reverify-2026-05-14-b0652`) sampled 8 records from the
+1925-record pool (1 % sample rate, capped at MAX_BATCH_SIZE=8). Results:
+4 match, 4 drift, 0 fetch_error, 0 truncated_prefix. None of the drifts
+indicates corpus mutation — all four sit in two previously-characterised
+zambialii.org upstream-rendering drift cohorts. No record was mutated
+this tick (Phase 8 is read-only). Integrity CHECK1–CHECK8 all PASS.
+
+Drifts logged (each entry: id / source_url / stored_sha256 / fetched_sha256):
+
+- `si-zm-2021-073-public-holidays-declaration-no-4-notice-2021`
+  drift on https://zambialii.org/akn/zm/act/si/2021/73
+  stored: `0a1b2f12…` → fetched
+  `57b9b1f6e7e66695914a414da4aaa627106431d87b07d76ce53d6d5411b35d41`.
+  AKN-HTML bare-path SI (no `/eng@…`, no `/source.pdf`) — known
+  100 %-drift cohort.
+
+- `act-zm-2020-002-national-forensic-act-2020`
+  drift on https://www.zambialii.org/akn/zm/act/2020/2/eng@2020-10-26
+  stored: `b0d8fd37…` → fetched
+  `635777ee3ffcc80615570c71d895ffc112e1b83fae92b787c4b73d6d6086592d`.
+  AKN-HTML `/eng@2020-10-26` year-original snapshot — same renderer
+  variance as `/eng@1996-12-31` / `/eng@2007-04-13`; known 100 %-drift
+  cohort.
+
+- `si-zm-1994-049-zambia-revenue-authority-commencement-and-disengagement-order-1994`
+  drift on https://zambialii.org/akn/zm/act/si/1994/49
+  stored: `3ac6b26e…` → fetched
+  `05e53515077949af2d3c1b3f9b8352a44dfe5292e12a57de3205b6978987a41f`.
+  AKN-HTML bare-path SI (no `/eng@…`, no `/source.pdf`) — known
+  100 %-drift cohort.
+
+- `si-zm-2022-057-urban-and-regional-planning-designated-local-planning-authorities-regulations-2022`
+  drift on https://zambialii.org/akn/zm/act/si/2022/57
+  stored: `2f173dab…` → fetched
+  `9dde5cc252c824333be9296f5395152f39a4fcd9a43d2696a76cb7b14d5445cb`.
+  AKN-HTML bare-path SI (no `/eng@…`, no `/source.pdf`) — known
+  100 %-drift cohort.
+
+Matches (no drift) for completeness:
+- `act-zm-cap-257-national-assembly-staff-act`
+  (`www.parliament.gov.zm` `/sites/…/acts/…pdf` — static-PDF cohort,
+  stable, now 131/131 after this+act-zm-2021-030+act-zm-2022-023 → 133/133).
+- `si-zm-1991-030-medical-aid-societies-and-nursing-homes-exemption-establishment-and-operation-au`
+  (zambialii `…/source.pdf` — PDF cohort, stable, now 52/52).
+- `act-zm-2021-030-the-chartered-institute-of-logistics-and-transport-amendment-act-2021`
+  (`www.parliament.gov.zm` `/sites/…/acts/…pdf` — static-PDF cohort,
+  stable).
+- `act-zm-2022-023-the-penal-code-amendment-act-2022`
+  (`www.parliament.gov.zm` `/sites/…/acts/…pdf` — static-PDF cohort,
+  stable).
+
+Cohort tallies post-b0652 (delta from b0642 cumulative):
+- zambialii.org AKN HTML bare-path SI cohort:
+  23 / 23 drift (100 %) — Δ+3
+- zambialii.org AKN HTML `/eng@…` Act-or-SI-or-judgment cohort:
+  140 / 140 drift (100 %) — Δ+1
+- judiciaryzambia.com CoA-judgment HTML cohort:
+  3 / 3 drift (100 %) — Δ+0 (no sample this tick)
+- zambialii.org `/source.pdf` cohort: 52 / 52 stable (0 %) — Δ+1
+- www.parliament.gov.zm `/acts/` and `/amendment_act/` cohort:
+  133 / 133 stable (0 %) — Δ+3
+- media.zambialii.org `/media/.../source_file/…pdf` cohort: stable — Δ+0
+
+No remediation required; the AKN-HTML drift is upstream rendering
+variance, not corpus drift. Long-term remediation unchanged from
+b0625/b0641/b0642: re-ingest the AKN-HTML cohort under canonical
+`/source.pdf` URLs where available, or replace the stored hash with
+a stable canonicalised-HTML hash (server-side AKN XML rather than
+rendered HTML). Parser/ingestion-policy work — out of scope for
+Phase 8.
+
+## b0652-repair (2026-05-14T18:24:00Z) — 4 records still gap-bound
+
+| ID | Type | URL | Failure | Notes |
+|----|------|-----|---------|-------|
+| act-zm-2012-013-property-transfer-tax-amendment-act-2012 | act | parliament.gov.zm Property Transfer Tax (Amendment) 2012 PDF | UPDATE → DatabaseError "database disk image is malformed" | OmniPage CSDK 15.5 image-only PDF; tesseract+pdftoppm OCR recovered 5,962-char clean body but the row sits on a corrupt sqlite page, so UPDATE itself fails. Recovered text preserved in `_repair_b0652_pdfs/ocr01_p[1-4].txt` for host post-VACUUM splice. |
+| act-zm-2021-028-the-engineering-institution-of-zambia-amendment-act-2021 | act | parliament.gov.zm Act No. 28 of 2021 | UPDATE → DatabaseError | PDF fetched OK (11.4 KB). Row on corrupt page — host VACUUM needed. |
+| act-zm-2021-030-the-chartered-institute-of-logistics-and-transport-amendment-act-2021 | act | parliament.gov.zm Act No. 30 of 2021 | UPDATE → DatabaseError | PDF fetched OK (22.6 KB). Row on corrupt page — host VACUUM needed. |
+| act-zm-2023-025-the-customs-and-excise-amendment-act-2023 | act | parliament.gov.zm Act No. 25 of 2023 | UPDATE → DatabaseError | PDF fetched OK (318 KB). Row on corrupt page — host VACUUM needed. |
+
