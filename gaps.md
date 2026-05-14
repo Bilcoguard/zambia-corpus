@@ -9546,3 +9546,50 @@ Continuing-gap reminders (from b041/b042/b0641-jiw/b0642):
   (`local-courts-administration-of-estates-rules-1969`,
   `local-courts-rules-1966`) — carried from b042.
 - Manifest v4 in SKILL.md is stale; live-DB IDs differ.
+
+## b0644-repair (2026-05-14T12:51Z) — Condition-B SI drain (8 bodies)
+
+8 SIs successfully drained from the Condition-B backlog (220 → 212 remaining).
+All zambialii.org bare-path AKN URLs, fetched via HTML→source.pdf
+discovery, extracted with pdfplumber 0.11.9.
+
+### NEW chronic blocker discovered
+**FUSE-bindfs blocks rm of corpus.sqlite-journal.** Sandbox cannot
+`rm` (or `unlink`) the rollback-journal file even though it can write
+to the directory. Consequence: every SQLite UPDATE that uses default
+DELETE-mode rollback journal fails on commit with `disk I/O error`
+because SQLite cannot delete the journal file at end-of-commit.
+
+**Workaround applied**: `PRAGMA journal_mode = MEMORY` +
+`PRAGMA temp_store = MEMORY`. This bypasses the journal-file-deletion
+step entirely. Tradeoff: not durable against process crash mid-commit,
+but each UPDATE is single-row and the script commits explicitly after
+each one.
+
+**Host action recommended**: either grant rm permission on
+`corpus.sqlite-journal` for the sandbox user, OR keep MEMORY journal
+mode permanent in all repair/JIW scripts.
+
+### Orphaned rollback journals from this tick (host rm needed)
+Four stale journal files created during the FUSE-rm-EPERM diagnosis:
+- `corpus.sqlite-journal.b0644-orphan-20260514T124825Z` (33344 B)
+- `corpus.sqlite-journal.b0644-orphan2-20260514T124920Z` (33344 B)
+- `corpus.sqlite-journal.b0644-orphan3-20260514T124937Z` (8720 B)
+- `corpus.sqlite-journal.b0644-orphan4-20260514T125019Z` (8720 B)
+
+These join the longstanding b035/b0602/b0626 stale-journal pile that
+also needs host-side cleanup.
+
+### Records repaired this tick
+
+| # | id | bytes | sha256(8) |
+| --- | --- | --- | --- |
+| 1 | si-zm-1993-037-emergency-regulations-1993 | 847 | 8b683c14 |
+| 2 | si-zm-1994-041-university-of-zambia-staff-tribunal-rules-1994 | 6737 | d18795e9 |
+| 3 | si-zm-1994-049-zambia-revenue-authority-commencement-and-disengagement-order-1994 | 1053 | e179efb1 |
+| 4 | si-zm-1995-002-zambezi-river-authority-terms-and-conditions-of-service-by-laws-1995 | 48832 | 66138270 |
+| 5 | si-zm-1995-029-national-archives-fees-regulations-1995 | 1919 | 4f30b0f3 |
+| 6 | si-zm-1995-030-national-archives-place-of-deposit-revocation-order-1995 | 1033 | 2145e1cb |
+| 7 | si-zm-1996-044-zambia-national-provident-fund-statutory-contributions-regulations-1996 | 17102 | 71eae454 |
+| 8 | si-zm-1998-043-tender-amendment-regulations-1998 | 2089 | c9e3ba77 |
+
