@@ -9362,3 +9362,90 @@ Sweep positions (unchanged — preserved for resume after host repair):
 - `judiciary-scz-sweep`: page 1 (not yet started)
 - `judiciary-zmcc-sweep`: page 1 (not yet started)
 - `judiciary-zmhc-sweep`: page 1 (not yet started)
+
+## [2026-05-14] b0641-jiw — 15th consecutive abort (chronic blockers unchanged)
+
+Parity gap=4 (records=1928, records_fts=1924) unchanged since repair-040.
+FTS5 shadow-table corruption (pages 5733/6270/5732/5387/12466/29610/22491/12465)
+unchanged since b037/b038. corpus.sqlite quiescent ~14.5h (host has not run
+FTS5 rebuild). Bogus lock-style refs re-seeded from 9ae9919 → 32ac09b to keep
+`git pull --ff-only` functional. Four residual empty refs files (`_test`,
+`test_create`, `testfile`, `main.lock.bak.b0640.1778706534`) quarantined via
+`mv` (sandbox cannot `rm` — EPERM). Sweep positions preserved:
+
+- `judiciary-coa-sweep`: page 1 (not yet started — highest-priority new source)
+- `judiciary-scz-sweep`: page 1 (not yet started)
+- `judiciary-zmcc-sweep`: page 1 (not yet started)
+- `judiciary-zmhc-sweep`: page 1 (not yet started)
+
+Operator action required: FTS5 rebuild + `rm` of bogus refs + sandbox `/`
+rotation + `ocrmypdf` install. Next tick b0642-jiw at t+60min.
+
+## [2026-05-14T03:08Z] Phase 8 reverify drift log — b0641
+
+Phase 8 nightly re-verification batch 0641 (seed
+`phase8-reverify-2026-05-14-b0641`) sampled 8 records from the
+1925-record pool (1 % sample rate, capped at MAX_BATCH_SIZE=8). Results:
+3 match, 5 drift, 0 fetch_error, 0 truncated_prefix. None of the drifts
+indicates corpus mutation — all five sit on the well-characterised
+zambialii.org AKN HTML `/eng@…` cohort which has been 100 % drift across
+46+ ticks (now 137/137; +5 from b0625 cumulative). No record was
+mutated this tick (Phase 8 is read-only).
+
+Drifts logged (each entry: id / source_url / stored_sha256 / fetched_sha256):
+
+- `act-zm-1950-045-zambia-police-reserve-act-1950`
+  drift on https://zambialii.org/akn/zm/act/1950/45/eng@1996-12-31
+  stored: (per-record JSON in records/act/1950/…) → fetched
+  `b0dbccbd775b09a86120450826dad8d9589771452f1d829a99815f0c0964ed84`.
+  AKN-HTML `/eng@1996-12-31` consolidated-laws snapshot — known
+  100 %-drift cohort.
+
+- `act-zm-2016-026-ministers-prescribed-number-and-responsibilities-act-2016`
+  drift on https://www.zambialii.org/akn/zm/act/2016/26/eng@2016-06-10
+  fetched `b4a3af6a1aff90c57bbcf6ac80ab7f13bfe1c9ea5a93517d1d1e89efec52283e`.
+  AKN-HTML `/eng@2016-06-10` modern-amendment-act page — known
+  100 %-drift cohort (same renderer as `eng@1996-12-31`).
+
+- `act-zm-1970-002-lands-acquisition-act-1970`
+  drift on https://zambialii.org/akn/zm/act/1970/2/eng@1996-12-31
+  fetched `e3a5cc9762d68161011bd1bc9113e9aff7dafa9907b4b234eb70297f26961f81`.
+  AKN-HTML `/eng@1996-12-31` consolidated-laws snapshot — same cohort.
+
+- `act-zm-1963-033-occupiers-liability-act-1963`
+  drift on https://zambialii.org/akn/zm/act/1963/33/eng@1996-12-31
+  fetched `2cf42b1c14f85dce3f652a6f65fb7c6d405c34efd86d92fb2f70a9fbe750c8ec`.
+  AKN-HTML `/eng@1996-12-31` consolidated-laws snapshot — same cohort.
+
+- `act-zm-1953-059-noxious-weeds-act`
+  drift on https://zambialii.org/akn/zm/act/1953/59/eng@1996-12-31
+  fetched `c353c6ae4a6a0a7d6499c755e0e6b7d967afd8923093512213476d0f3aadf690`.
+  AKN-HTML `/eng@1996-12-31` consolidated-laws snapshot — same cohort.
+
+Matches (no drift) for completeness:
+- `si-zm-2026-011-tolls-tom-mtine-toll-plaza-regulations-2026`
+  (zambialii `…/source.pdf` — PDF cohort, stable, 50/50).
+- `loz-food-reserve-act`
+  (`www.parliament.gov.zm` `/acts/…pdf` — static-PDF cohort, stable,
+  129/129).
+- `si-zm-2008-025-national-constitutional-conference-procedure-rules-2008`
+  (zambialii `…/source.pdf` — PDF cohort, stable, 50/50).
+
+Cohort tallies post-b0641 (delta from b0625 cumulative):
+- zambialii.org AKN HTML bare-path SI cohort: 18 / 18 drift (100 %) — Δ0
+- zambialii.org AKN HTML `/eng@…` Act-or-SI-or-judgment cohort:
+  137 / 137 drift (100 %) — Δ+5
+- zambialii.org `/source.pdf` cohort: 50 / 50 stable (0 %) — Δ+2
+- www.parliament.gov.zm `/acts/` and `/amendment_act/` cohort:
+  129 / 129 stable (0 %) — Δ+1
+
+No remediation required; the AKN-HTML drift is upstream rendering
+variance, not corpus drift. The recommended long-term remediation is
+unchanged from b0625: re-ingest the AKN-HTML cohort under canonical
+`/source.pdf` URLs where available, or replace the stored hash with a
+stable canonicalised-HTML hash (server-side AKN XML rather than rendered
+HTML). This change is parser/ingestion-policy work and is out of scope
+for Phase 8.
+
+Phase 8 status: `approved: true, complete: false` (no human flip
+required; reverify is a continuous-cycle phase).
