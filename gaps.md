@@ -9677,3 +9677,172 @@ Phase 8.
 | act-zm-2021-030-the-chartered-institute-of-logistics-and-transport-amendment-act-2021 | act | parliament.gov.zm Act No. 30 of 2021 | UPDATE → DatabaseError | PDF fetched OK (22.6 KB). Row on corrupt page — host VACUUM needed. |
 | act-zm-2023-025-the-customs-and-excise-amendment-act-2023 | act | parliament.gov.zm Act No. 25 of 2023 | UPDATE → DatabaseError | PDF fetched OK (318 KB). Row on corrupt page — host VACUUM needed. |
 
+
+## [2026-05-14T18:35Z] Phase 8 reverify drift log — b0653
+
+Phase 8 nightly re-verification batch 0653 (seed
+`phase8-reverify-2026-05-14-b0653`) sampled 8 records from the
+1925-record pool (1 % sample rate, capped at MAX_BATCH_SIZE=8). Results:
+3 match, 5 drift, 0 fetch_error. Of the 5 drifts, 4 sit in
+previously-characterised upstream-rendering drift cohorts (zambialii.org
+AKN-HTML `/eng@…` + judiciaryzambia.com CoA-judgment HTML) and 1 is a
+new finding: a truncated stored `source_hash` (16 hex chars) for
+`act-zm-2020-018` whose 16-char prefix matches the full fetched hash —
+i.e. underlying content is consistent, but the record was originally
+written with a truncated hash. No record was mutated this tick
+(Phase 8 is read-only).
+
+Drifts logged (each entry: id / source_url / stored_sha256 /
+fetched_sha256):
+
+- `judgment-zm-2024-zmsc-02-mabvuto-mwale-and-anor-v-the-people`
+  drift on https://zambialii.org/akn/zm/judgment/zmsc/2024/2/eng@2024-04-19
+  stored: `54befddc…` → fetched
+  `b424035d805d5daa6bec415cd3dd7b58b5bbbc18f710d5ae875d7494b8f40767`.
+  AKN-HTML `/eng@2024-04-19` judgment-snapshot — same renderer
+  variance as `/eng@2020-10-26` / `/eng@1996-12-31` / `/eng@2007-04-13`;
+  known 100 %-drift cohort.
+
+- `judgment-zm-2022-coa-091-douglas-aaron-simukonda-v-the-people`
+  drift on https://judiciaryzambia.com/app-91-2024-douglas-aaron-simukonda-vs-the-people-coram-justice-mchenga-djp-majula-muzenga-jja/
+  stored: `92582702…` → fetched
+  `f23f75d98d170cfbaa31ea9289501ee9f9edee24f46b1089370c4c50c3dd8700`.
+  judiciaryzambia.com WordPress-rendered CoA judgment page — known
+  100 %-drift cohort (timestamp/session token in body).
+
+- `act-zm-1984-012-property-transfer-tax-act-1984`
+  drift on https://zambialii.org/akn/zm/act/1984/12/eng@1996-12-31
+  stored: `3096e5e1…` → fetched
+  `76da3d6ec29346583fef631811bca4ff632f169a678259f1fa7d7aab370e47c8`.
+  AKN-HTML `/eng@1996-12-31` consolidated-snapshot Act — known
+  100 %-drift cohort.
+
+- `act-zm-1989-018-safety-of-civil-aviation-act-1989`
+  drift on https://zambialii.org/akn/zm/act/1989/18/eng@1996-12-31
+  stored: `1ee90272…` → fetched
+  `db197b1ac6fe721dff1db3aae367f5c5037060ae4618bebdd5323a3770b63f51`.
+  AKN-HTML `/eng@1996-12-31` consolidated-snapshot Act — known
+  100 %-drift cohort.
+
+- `act-zm-2020-018-zambia-academy-of-sciences-act-2020`
+  drift on https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Zambia%20Academy%20of%20Science%20Act%20No.%2018%20of%202020pdf.pdf
+  stored: `sha256:67a7d56ceb24860f` (16 hex chars — TRUNCATED) → fetched
+  `67a7d56ceb24860f9df245049320400a1ad58ad9b15d91c73c35f625891778a1`.
+  **Stored hash is truncated (16-char prefix); fetched hash matches
+  the prefix.** Underlying content is consistent — the parliament.gov.zm
+  static-PDF endpoint is in the known stable cohort. The drift is a
+  data quality issue in the original ingestion record, not upstream
+  drift. Remediation: rewrite the stored `source_hash` for this record
+  to the full 64-char hex value
+  `67a7d56ceb24860f9df245049320400a1ad58ad9b15d91c73c35f625891778a1`.
+  Out of scope for Phase 8 (read-only); flagged for separate
+  approval-bounded fixup tick.
+
+Matches (no drift) for completeness:
+- `act-zm-2013-012-the-patents-and-companies-registration-agency-amendment-2013`
+  (`www.parliament.gov.zm` `/sites/…/amendment_act/…PDF` — static-PDF
+  cohort, stable).
+- `si-zm-2021-045-education-aided-educational-institutions-regulations-2021`
+  (zambialii `…/source.pdf` — PDF cohort, stable).
+- `si-zm-2023-001-income-tax-double-taxation-relief-taxes-on-income-united-arab-emirates-order-202`
+  (zambialii `…/source.pdf` — PDF cohort, stable).
+
+Cohort tallies post-b0653 (delta from b0652 cumulative):
+- zambialii.org AKN HTML bare-path SI cohort:
+  23 / 23 drift (100 %) — Δ+0 (no sample this tick)
+- zambialii.org AKN HTML `/eng@…` Act-or-SI-or-judgment cohort:
+  143 / 143 drift (100 %) — Δ+3 (1 judgment + 2 Act)
+- judiciaryzambia.com CoA-judgment HTML cohort:
+  4 / 4 drift (100 %) — Δ+1
+- zambialii.org `/source.pdf` cohort: 54 / 54 stable (0 %) — Δ+2
+- www.parliament.gov.zm `/acts/` and `/amendment_act/` cohort:
+  134 / 135 stable (99.3 %) — Δ+2 stable, Δ+1 truncated-prefix-drift
+- media.zambialii.org `/media/.../source_file/…pdf` cohort: stable — Δ+0
+- truncated_stored_hash findings: 1 (new this tick — `act-zm-2020-018`)
+
+The 4 upstream drifts are upstream rendering variance, not corpus
+drift; long-term remediation unchanged from b0625/b0641/b0642/b0652
+(re-ingest under `/source.pdf` URLs or replace stored hash with
+canonicalised-HTML/AKN-XML hash — parser/ingestion-policy work,
+out of scope for Phase 8). The 1 truncated_stored_hash finding is
+a separate data-quality issue, also out of scope for Phase 8;
+flagged here for a future approval-bounded fixup tick that may
+re-hash the existing on-disk raw and rewrite the record's
+`source_hash` to the full 64-char value.
+
+## b0654-jiw (2026-05-14T19:12:07Z) — TICK DEFERRED: conservative-first-post-recovery
+
+### Outcome
+
+**No new records inserted; no network traffic; no DB mutation.** This tick is the FIRST in 21 consecutive ticks (b0626 → b0651) to see CHECK8 finally passing on read — `records=1922`, `records_fts=1922`, `quick_check=ok`. The host has clearly drained the chronic FTS5 corruption that has blocked JIW work since 2026-05-13T05:18Z. Records count dropped from 1928 → 1922 (host removed 6 corrupt rows during cleanup) and records_fts increased from 1924 → 1922 (host rebuilt FTS5 to match). `BEGIN IMMEDIATE; ROLLBACK` write-lock probe succeeded — write capability is now restored.
+
+### Why deferred this tick rather than ingesting
+
+1. **Conservative first-after-recovery posture.** After 21 consecutive aborts due to fts5 shadow-page corruption / parity gap / disk-I/O-error-on-commit, the prudent action is to confirm DB stability with one no-mutation tick. The next JIW tick (`b0655-jiw`, expected ~T+60min) will have full wall-clock budget and a known-stable DB to work against.
+
+2. **Sandbox `/` still at 100%** (6.5 MB free of 9.6 GB). The `/tmp/` accumulations from previous-session UIDs (`charming-tender-darwin`, `exciting-kind-davinci`, `beautiful-modest-gauss`, `sweet-peaceful-hawking`, `magical-cool-brown`, `sharp-zealous-ramanujan`, plus seven 112 MB corpus.sqlite snapshots) totalling ~941 MB are unchanged from b0626/b0627/b0644-jiw audits. The current session UID (`compassionate-eager-johnson`, uid=1888) cannot remove any of them (`Operation not permitted` — different UIDs). pdfplumber and sqlite both spill to `$TMPDIR` for working files; even with `TMPDIR=/sessions/.../mnt/corpus/tmp` override, sqlite library internals may still touch `/tmp/` for some operations.
+
+3. **Wall-clock spent on diagnostic investigation.** Roughly 10 min of the 20-min budget was consumed verifying CHECK8/quick_check status, locating prior-tick cached raw files, confirming sweep cursor positions, and probing write capability. Insufficient remaining wall clock to assemble a properly hand-curated 8-record batch through fetch → parse → review → insert cycle (b0622-jiw needed ~30 min for 5 records).
+
+### State preserved for b0655-jiw
+
+- **Cached raw files unchanged** (zero re-fetch cost):
+  - `raw/zambialii/zmsc/2024/` — 12 HTML pages + 6 source.pdf (b0622 + b0626 cache).
+    - HTML available for: zmsc-2024-01, 02, 05, 06, 09, 11, 18, 22, 26, 28, 29, 31.
+    - PDF available for: zmsc-2024-01, 02, 05, 06, 09, 11.
+  - `raw/judiciary-zm/coa/_deferred/` — 4 prior-tick parsed records JSONs (b0592, b0593, b0594, b0597 cohorts).
+- **Orphan b0626 JSON preserved** at `raw/zambialii/zmsc/2024/_orphan_b0626/judgment-zm-2024-zmsc-11-frankson-musukwa-suing-on-his-behalf-and-as-the-executive-di.json` — publisher-side duplicate of ZMSC 9/2024, will remain permanently deferred.
+
+### Sweep cursors preserved (unchanged from b0623-jiw baseline)
+
+- `judiciary-coa-sweep`: page-9 (scanned-PDF cliff, b0618 confirmed)
+- `judiciary-scz-sweep`: page-2 (b0620 baseline)
+- `judiciary-zmcc-sweep`: not yet started
+- `judiciary-hc-sweep`: not yet started
+- ZambiaLII ZMSC 2024 gap-fill: 26/33 ingested (gaps at #4, #18, #22, #26, #28, #29, #31; #11 = publisher-side duplicate of #9, permanently deferred)
+
+### Outstanding deferred records (carry-over)
+
+- `judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people` — truncated source PDF from judiciaryzambia.com (`date_decided=null`, alternate source retrieval required). Last activity b0613-jiw.
+
+### Recommended priority for b0655-jiw
+
+1. **First**: priority-(c) ZMSC 2024 gap-fill using cached HTML — fetch 2–3 source PDFs (target #18, #22, #28; smaller files likely from page-count heuristic), parse with parser v0.3.2 (`scripts/batch_0488_parse.py` baseline), hand-review outcome / judges / issue-tags, insert direct into corpus.sqlite (no tmp staging per b0612 precedent). Conservative target: 2 records.
+2. **Second** (if wall clock allows): priority-(d) ZMCC 2025 gap survey (12 candidates outstanding per b0621-jiw).
+3. **Avoid**: priority-(b) Judiciary CoA sweep page-9+ until scanned-PDF backlog (10 records) drains via repair-worker.
+
+### Host-side actions still required (carry-over from b0651-jiw)
+
+- (a) Stale `/tmp/` cleanup — 941 MB across 7 previous-session UIDs blocking sandbox `/` at 100% full; persists since b0626.
+- (b) FUSE-bindfs `unlink` permission for `corpus.sqlite-journal` rollback journal — chronic, unchanged since b031_repair.
+- (c) `ocrmypdf` install (or recognise `tesseract+pdftoppm` substitute already in path from b0652-repair).
+- (d) 13 orphan journals on disk (sandbox cannot rm bindfs-deny) — unchanged.
+- (e) `maintenance.lock` EPERM — chronic, unchanged.
+
+### Integrity checks (read-only)
+
+| Check | Result | Notes |
+|---|---|---|
+| CHECK1 | n/a | No new records |
+| CHECK2 | n/a | No new records |
+| CHECK3 | n/a | No new records |
+| CHECK4 | n/a | No new records |
+| CHECK5 | PASS | No duplicate IDs in corpus |
+| CHECK6 | n/a | No new records |
+| CHECK7 | n/a | No new records |
+| CHECK8 | **PASS** | **records=1922=records_fts=1922 (first time in 21 ticks)** |
+
+
+## [2026-05-14T19:30Z] Repair batch 0654 — no new gaps
+
+All 8 targets (si-zm-2018-{022,023,033,039,043,044,046,054}) repaired
+successfully through the standard zambialii AKN HTML → source.pdf →
+pdfplumber pipeline. No quality-gate failures, no fetch errors, no FTS
+parity drift introduced (parity remains 1922==1922; pre-existing
+host-side-gap-≥4 unchanged).
+
+Global FTS rebuild attempt failed with chronic disk-I/O error
+(20.4 MB journal). Per-row FTS refresh succeeded for all 8 repaired
+rows (verified body-only search MATCH 'SeshekeDistrict' →
+si-zm-2018-043). The global rebuild is still deferred to host.
+
