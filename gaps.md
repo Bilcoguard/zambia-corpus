@@ -9449,3 +9449,100 @@ for Phase 8.
 
 Phase 8 status: `approved: true, complete: false` (no human flip
 required; reverify is a continuous-cycle phase).
+
+## [2026-05-14T03:16Z] Phase 8 reverify drift log — b0642
+
+Phase 8 nightly re-verification batch 0642 (seed
+`phase8-reverify-2026-05-14-b0642`) sampled 8 records from the
+1925-record pool (1 % sample rate, capped at MAX_BATCH_SIZE=8). Results:
+3 match, 5 drift, 0 fetch_error, 0 truncated_prefix. None of the drifts
+indicates corpus mutation — all five sit in three previously-characterised
+upstream-rendering drift cohorts. No record was mutated this tick
+(Phase 8 is read-only). Integrity CHECK1–CHECK8 all PASS.
+
+Drifts logged (each entry: id / source_url / stored_sha256 / fetched_sha256):
+
+- `si-zm-2017-063-local-forest-no-42-kawena-cessation-order-2017`
+  drift on https://zambialii.org/akn/zm/act/si/2017/63
+  stored: `70626f8f…` → fetched
+  `5d731d62c7c790f357abae06e1cdbac62384c08ba99b937a3099a0fe037a69d3`.
+  AKN-HTML bare-path SI (no `/eng@…`, no `/source.pdf`) — known
+  100 %-drift cohort.
+
+- `judgment-zm-2026-coa-128-robert-mwanza-v-mtn-zambia-limited`
+  drift on https://judiciaryzambia.com/appeal-128-2023-robert-mwanza-vs-mtn-zambialimited-27-jan-2026-coram-justice-kondolo-sc-majula-muzenga-jja/
+  stored: `2533c2ba…` → fetched
+  `65a3398948c8edd69a68266f55b198a826f8fb37043b49c6ea7efe344cac791b`.
+  judiciaryzambia.com CoA-judgment HTML — known 100 %-drift cohort
+  (3rd member: was 2/2 at b0641 → now 3/3 with this drift).
+
+- `act-zm-2007-008-supplementary-appropriation-2005-act`
+  drift on https://zambialii.org/akn/zm/act/2007/8/eng@2007-04-13
+  stored: `7207777c…` → fetched
+  `1821aedf376832f6238872c3bdbd561da6f55159f81759585edb0c83c431286d`.
+  AKN-HTML `/eng@2007-04-13` year-original snapshot — same renderer
+  variance as `eng@1996-12-31`; known 100 %-drift cohort.
+
+- `act-zm-1965-051-bretton-woods-agreement-act-1965`
+  drift on https://zambialii.org/akn/zm/act/1965/51/eng@1996-12-31
+  stored: `ded42caa…` → fetched
+  `8409f6d8a121cfa420e98cdec1916730a73c40dea5a43e1c22a3b6cf2b096e13`.
+  AKN-HTML `/eng@1996-12-31` consolidated-laws snapshot — known
+  100 %-drift cohort.
+
+- `si-zm-2021-003-national-forest-no-f31-kabwe-alteration-of-boundaries-order-2021`
+  drift on https://zambialii.org/akn/zm/act/si/2021/3
+  stored: `9d091f5d…` → fetched
+  `aaeae8ad51bb9f19c8ca2c1963ab5ec252353968f9352b98ad2836d5d5ac73ad`.
+  AKN-HTML bare-path SI (no `/eng@…`, no `/source.pdf`) — known
+  100 %-drift cohort.
+
+Matches (no drift) for completeness:
+- `si-zm-2023-026-national-heritage-conservation-commission-zambezi-source-national-monument-decla`
+  (zambialii `…/source.pdf` — PDF cohort, stable, now 51/51).
+- `act-zm-2024-023-value-added-tax-2024`
+  (`www.parliament.gov.zm` `/sites/…/acts/…pdf` — static-PDF cohort,
+  stable, now 130/130).
+- `si-zm-2020-027-income-tax-remission-ndola-lime-company-limited-order-2020`
+  (`media.zambialii.org` `/media/.../source_file/…pdf` — media-CDN
+  static-PDF asset; rolled into the combined stable-PDF cohort).
+
+Cohort tallies post-b0642 (delta from b0641 cumulative):
+- zambialii.org AKN HTML bare-path SI cohort:
+  20 / 20 drift (100 %) — Δ+2
+- zambialii.org AKN HTML `/eng@…` Act-or-SI-or-judgment cohort:
+  139 / 139 drift (100 %) — Δ+2
+- judiciaryzambia.com CoA-judgment HTML cohort:
+  3 / 3 drift (100 %) — Δ+1
+- zambialii.org `/source.pdf` cohort: 51 / 51 stable (0 %) — Δ+1
+- www.parliament.gov.zm `/acts/` and `/amendment_act/` cohort:
+  130 / 130 stable (0 %) — Δ+1
+- media.zambialii.org `/media/.../source_file/…pdf` (combined stable-PDF
+  cohort): stable — Δ+1
+
+No remediation required; the AKN-HTML and CoA-HTML drift is upstream
+rendering variance, not corpus drift. The recommended long-term
+remediation is unchanged from b0625/b0641: re-ingest the AKN-HTML
+cohort under canonical `/source.pdf` URLs where available, or replace
+the stored hash with a stable canonicalised-HTML hash (server-side
+AKN XML rather than rendered HTML). This change is parser/ingestion-
+policy work and is out of scope for Phase 8.
+
+Phase 8 status: `approved: true, complete: false` (no human flip
+required; reverify is a continuous-cycle phase).
+
+## Repair batch b0643 — gaps log
+
+No new gaps in this batch — all 6 zambialii bare-path SI fetches succeeded.
+
+Continuing-gap reminders (from b041/b042/b0641-jiw/b0642):
+- FTS5 shadow-table corruption still blocks FTS rebuild in-sandbox
+  (pages 5733/6270/5387/5732/1389/12466 + invalid pages 22491/29610;
+  rowid 1185 out of order). Host-side rebuild needed.
+- 14 orphan FTS rows (entries in `records_fts` with no matching `records.id`)
+  surfaced by full FTS-vs-records diff this tick.
+- 220 zambialii AKN SI bodies remain in Condition B after this batch (was 226).
+- 2 commons.laws.africa scanned-PDF SIs still blocked by absent `ocrmypdf`
+  (`local-courts-administration-of-estates-rules-1969`,
+  `local-courts-rules-1966`) — carried from b042.
+- Manifest v4 in SKILL.md is stale; live-DB IDs differ.

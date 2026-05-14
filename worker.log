@@ -7679,3 +7679,21 @@ On tree pag
 2026-05-14T03:12:00Z	b0641-phase8	GIT_COMMIT	verdict=committed-locally-after-index.lock-rename	commit=0f458ef	files=8(worker.log+costs.log+gaps.md+provenance.log+reports/batch-0641-jiw.md+reports/batch-0641-reverify.json+reports/batch-0641.md+scripts/batch_0641_phase8_reverify.py)	insertions=787	corpus.sqlite=NOT-touched-by-Phase-8(read-only)
 2026-05-14T03:12:00Z	b0641-phase8	GIT_PUSH	verdict=push-ok	remote=origin/main	range=32ac09b..0f458ef
 2026-05-14T03:12:00Z	b0641-phase8	FINAL	verdict=phase-8-batch-0641-pushed-cleanly	phase=phase_8_nightly_reverify(complete:false-continuous-cycle)	phase_8_status=approved:true+complete:false(unchanged-no-flip)	co-located-b0641-jiw-abort-also-pushed-(its-15th-consecutive)	next=phase-runner-t+30min-or-jiw-lane-t+60min-(per-tick-cadence)	host-action-still-required=(a)fts5-rebuild-(b)rm-bogus-refs-(c)sandbox-/-rotation-(d)ocrmypdf-install
+
+[2026-05-14T03:19:50Z] b0642-phase8 START — phase_8_nightly_reverify, script scripts/batch_0642_phase8_reverify.py, seed phase8-reverify-2026-05-14-b0642, pool_size=1925, sample_size=8 (cap=MAX_BATCH_SIZE=8), sample_rate=0.01.
+[2026-05-14T03:19:50Z] b0642-phase8 RESULTS — match=3, drift=5, fetch_error=0; fetches=8/8 productive, 0 retries; cumulative_today=16/2000.
+[2026-05-14T03:19:50Z] b0642-phase8 INTEGRITY — CHECK1=PASS(8/8) CHECK2=PASS(8/8) CHECK3=PASS CHECK4=PASS(provenance.log mtime <= batch start) CHECK5=PASS(5/5 drifts attributed: 2 zambialii AKN bare-path SI + 2 zambialii AKN HTML /eng@... + 1 judiciaryzambia.com CoA HTML) CHECK6=PASS(all 8 stored hashes 64-char) CHECK7=PASS(seed deterministic) CHECK8=PASS(8/8 records unmodified after batch start) sqlite=n/a parity=n/a.
+[2026-05-14T03:19:50Z] b0642-phase8 REPORT — wrote reports/batch-0642-reverify.json + reports/batch-0642.md; appended gaps.md (§"Phase 8 reverify drift log — b0642"); appended costs.log; this worker.log line. provenance.log NOT modified (Phase 8 is read-only).
+[2026-05-14T03:19:50Z] b0642-phase8 B2_SYNC — deferred to host (rclone not in sandbox; Phase 8 is read-only — no corpus mutation anyway).
+[2026-05-14T03:19:50Z] b0642-phase8 GIT — about to: git add scripts/batch_0642_phase8_reverify.py reports/batch-0642.md reports/batch-0642-reverify.json gaps.md costs.log worker.log; git commit; git push.
+2026-05-14T12:40:00Z	b0643-repair	START	worker=repair	pre-state=records=1928+records_fts=1924+gap=4+integrity=NOT-OK	disk=corpus-FS-13G-free
+2026-05-14T12:40:00Z	b0643-repair	LOCK_CLEANUP	verdict=ok	removed=~178-stale-locks+3-legacy-locks-via-cowork-permission	then=git-pull-ff-only-Already-up-to-date
+2026-05-14T12:40:00Z	b0643-repair	DISCOVERY	CONDITION_A=0(partial-scan-DB-malformed-at-rowid-810)	CONDITION_B-acts=0/sis=226	CONDITION_C=0	read-errors=1-rowid-window(1101-1150)
+2026-05-14T12:40:00Z	b0643-repair	MANIFEST_CHECK	verdict=stale	v4-manifest-IDs-do-not-exist-in-live-records-table	working-set=live-DB-condition-B-226-SIs
+2026-05-14T12:40:00Z	b0643-repair	FTS_DIFF	records-not-in-FTS=57(headline-gap=4-understates)	FTS-not-in-records=14	unchanged-vs-b038-baseline
+2026-05-14T12:40:00Z	b0643-repair	REPAIR	count=6	all=zambialii-AKN-SI-HTML-via-source.pdf	successes=6	failures=0	body-bytes=898+721+1255+4840+947+1094	pattern=body-only-UPDATE-no-FTS-touch-per-b041/b042
+2026-05-14T12:40:00Z	b0643-repair	IDS	si-zm-1986-032-national-archives-place-of-deposit-declaration-order-1986+si-zm-1987-029-equity-levy-exemption-order-1987+si-zm-1987-036-national-savings-and-credit-appointment-of-members-of-board-order-1987+si-zm-1988-038-emergency-essential-supplies-and-services-regulations-1988+si-zm-1991-035-tender-regulations-commencement-order-1991+si-zm-1992-009-air-passenger-service-charge-charging-order-1992
+2026-05-14T12:40:00Z	b0643-repair	POST_STATE	records=1928	records_fts=1924	gap=4	delta=0	integrity=NOT-OK-unchanged-no-new-corruption-from-body-UPDATEs
+2026-05-14T12:40:00Z	b0643-repair	GIT_POLICY	corpus.sqlite=NOT-staged-per-parity-rule	logs+report+script=staged
+2026-05-14T12:40:00Z	b0643-repair	B2_SYNC	verdict=deferred-to-host-rclone-absent-corpus-mutation-local-only
+2026-05-14T12:40:00Z	b0643-repair	FINAL	verdict=6-bodies-repaired-locally	host-actions-still-required=(a)FTS5-rebuild(b)ocrmypdf-install(c)stale-manifest-removal(d)cleanup-14-orphan-FTS-rows	next=b0644-repair-t+1h
