@@ -6122,3 +6122,6 @@
 2026-05-14T18:07:30Z	b0651-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
 2026-05-14T18:23:30Z	b0652-phase8	fetches=8	productive_fetches=8	retries=0	records_written=0	records_deferred=0	worker=phase-runner-phase8-reverify	cumulative_today=24/2000	phase=phase_8_nightly_reverify	parser_version=phase8-reverify-0.1.0	seed=phase8-reverify-2026-05-14-b0652	verdicts=match:4+drift:4+fetch_error:0	cohort=3-zambialii-AKN-HTML-bare-path-SI+1-zambialii-AKN-HTML-eng@2020-10-26+3-parliament-static-PDF-stable+1-zambialii-source.pdf-stable
 2026-05-14T18:23:30Z	b0652-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-14T18:24:00Z	b0652-repair	BANDWIDTH	parliament.gov.zm-PDF=746031B(5-PDFs:94341+11464+22564+299621+318235+0OCR-pgms)	zambialii-HTML=~150KB(5-akn-pages)	zambialii-source-PDFs=~800KB(5-SIs)	total≈1.7MB-down	tesseract-CPU=~2s-per-page-4-pages=8s	pdfplumber-CPU=trivial
+2026-05-14T18:24:00Z	b0652-repair	WALL_CLOCK	~13min	repair-act=~3min	repair-si=~8min(5x~85s-incl-crawl-delays)	overhead=~2min	well-within-20min-budget
+2026-05-14T18:24:00Z	b0652-repair	NETWORK_FETCHES	parliament.gov.zm=5(act-pass)	zambialii-akn-html=5(si-pass)	zambialii-source-pdf=5(si-pass)	commons.laws.africa=0	total=15
