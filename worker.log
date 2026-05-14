@@ -7837,3 +7837,6 @@ On tree pag
 2026-05-14T18:07:30Z	b0651-jiw	GIT_POLICY	corpus.sqlite=NOT-touched-NOT-staged-no-mutation	logs+report=staged-only(continues-b0626..b0650-jiw-pattern)
 2026-05-14T18:07:30Z	b0651-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
 2026-05-14T18:07:30Z	b0651-jiw	FINAL	verdict=tick-aborted-20th-consecutive-jiw-abort-handoff-to-b0652-jiw	host-actions-still-required=(a)FTS5-rebuild(b)ocrmypdf-install(c)stale-manifest-removal(d)cleanup-14-orphan-FTS-rows(e)rm-orphan-journals+maintenance.lock(f)reinstate-sandbox-root-headroom	next=b0652-jiw-t+60min
+2026-05-14T18:08:30Z	b0651-jiw	GIT_COMMIT	verdict=committed	commit=2de3797	files=3(worker.log+costs.log+reports/batch-0651-jiw.md)	insertions=126	corpus.sqlite=NOT-staged-per-parity-rule+gitignored
+2026-05-14T18:08:30Z	b0651-jiw	GIT_PUSH	verdict=push-ok	remote=origin/main	range=83e6d5a..2de3797
+2026-05-14T18:08:30Z	b0651-jiw	STOP	verdict=tick-complete-abort-20th-consecutive-jiw	wall-clock=~3min	next=b0652-jiw-t+60min
