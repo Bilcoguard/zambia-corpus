@@ -6264,3 +6264,9 @@ b0664,2026-05-15T09:13:53Z,repair,zambialii,8,0,~44
 2026-05-15T15:05:07Z	b0676-phase8	WALL_CLOCK	started=2026-05-15T15:04:35Z	completed=2026-05-15T15:05:07Z	elapsed=32s	budget=20min	headroom~=19m28s
 2026-05-15T15:05:07Z	b0676-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 2026-05-15T15:05:07Z	b0676-phase8	INTEGRITY	all-checks=PASS	check3-pass-reason=seed-did-not-draw-any-of-15-truncated-hash-records-from-b0670	tick-verdict=COMMIT-normal-path
+2026-05-15T15:34:59Z	b0677-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=144/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1928	sample_size=8
+2026-05-15T15:34:59Z	b0677-phase8	NETWORK_FETCHES	count=8	hosts=www.parliament.gov.zm:1,www.zambialii.org:1,zambialii.org:6	all-HTTP-200
+2026-05-15T15:34:59Z	b0677-phase8	BANDWIDTH	total_bytes=1284983	avg_kb=156.9	largest=act-zm-2007-010-biosafety-act-2007(641080B,zambialii-akn-html)
+2026-05-15T15:34:59Z	b0677-phase8	WALL_CLOCK	started=2026-05-15T15:34:25Z	completed=2026-05-15T15:34:59Z	elapsed=34s	budget=20min	headroom=19m26s
+2026-05-15T15:34:59Z	b0677-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-15T15:34:59Z	b0677-phase8	INTEGRITY	all-checks=PASS	check3-pass-reason=seed-did-not-draw-any-of-15-truncated-hash-records-from-b0670	tick-verdict=COMMIT-normal-path

@@ -10573,3 +10573,85 @@ Cumulative stable-PDF supercohort after b0675: parliament.gov.zm + media.zambial
 - cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
 - action: audit-only; nests in established b0641..b0675 cohort
 
+
+
+# Phase 8 batch b0677-phase8 — Nightly re-verification drifts
+
+## drift [act-zm-1974-002-gaming-machines-prohibition-act-1974] — zambialii_akn_html_dynamic_render_drift
+- batch: b0677-phase8
+- detected_at: 2026-05-15T15:34:27Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1974/2/eng@1996-12-31
+- host: zambialii.org
+- stored_sha256: 34d520880474c11890ac00fe25d6bb8612e355bc47ffc36c860dc0fa7f07570c
+- fetched_sha256: 9e4259696d5e6a9b74b4df34025ff550243640be21ae70cd1514863e50d3c858
+- fetched_bytes_len: 43675
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0676 cohort
+
+## drift [act-zm-1922-007-mashona-railway-company-limited-act-1922] — zambialii_akn_html_dynamic_render_drift
+- batch: b0677-phase8
+- detected_at: 2026-05-15T15:34:33Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1922/7/eng@1996-12-31
+- host: zambialii.org
+- stored_sha256: b9e7dfc093659234ff1dd3b2f389457eedd8e033a8c001e3f792bf7902fdc51c
+- fetched_sha256: b5f9f718d0ffd940f562290bdd5fa02ed0bbeec3f6a10b85f6f7702d0ace04f3
+- fetched_bytes_len: 52321
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0676 cohort
+
+## drift [act-zm-1959-028-cattle-slaughter-control-act-1959] — zambialii_akn_html_dynamic_render_drift
+- batch: b0677-phase8
+- detected_at: 2026-05-15T15:34:39Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1959/28/eng@1996-12-31
+- host: zambialii.org
+- stored_sha256: 81ce5829a81b3d4f5537fb39a7d3eab31df9465748540cef58f910785e353898
+- fetched_sha256: 1269e94522da7b76da6918a6b5ad4d2d701884a247349805df1aacef77795a3e
+- fetched_bytes_len: 55004
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0676 cohort
+
+## drift [act-zm-1958-004-minister-of-finance-incorporation-act-1958] — zambialii_akn_html_dynamic_render_drift
+- batch: b0677-phase8
+- detected_at: 2026-05-15T15:34:42Z
+- type: act
+- source_url: https://www.zambialii.org/akn/zm/act/1958/4/eng@1996-12-31
+- host: www.zambialii.org
+- stored_sha256: 718a791b97d4e595383f2fea72f82b448caea940442bd75ea6c896cfae180f57
+- fetched_sha256: 432972cc90fb77f351aad52ab748ac9057497bdb2e225f079160426305c8322d
+- fetched_bytes_len: 45966
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0676 cohort
+
+## drift [act-zm-2007-010-biosafety-act-2007] — zambialii_akn_html_dynamic_render_drift
+- batch: b0677-phase8
+- detected_at: 2026-05-15T15:34:53Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/2007/10/eng@2007-05-03
+- host: zambialii.org
+- stored_sha256: b4e8830ef7f5d1bfddd267e2e9a7f2f799dbf5af0a841a7106858cd4901af1bf
+- fetched_sha256: 020eabd651a20dc4f4ab9b16859151202f2315820496e8b385195733bf67ea91
+- fetched_bytes_len: 641080
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0676 cohort
+
+## drift [act-zm-1964-051-general-loans-guarantee-act-1964] — zambialii_akn_html_dynamic_render_drift
+- batch: b0677-phase8
+- detected_at: 2026-05-15T15:34:59Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1964/51/eng@1996-12-31
+- host: zambialii.org
+- stored_sha256: e07d321d7075bac738e8fdf04dc6d34298c3a1021416548d078a98f1f942501c
+- fetched_sha256: 9edfc87ad4b96a9e72fbbceb574f6f7c4b7756a46d3b1729d91187dda9607d47
+- fetched_bytes_len: 56375
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0676 cohort
+
