@@ -8204,3 +8204,24 @@ remaining_after: 113
 [2026-05-15T09:35:11Z] [b0665-phase8] reports/batch-0665.md WROTE; reports/batch-0665-reverify.json WROTE
 [2026-05-15T09:35:11Z] [b0665-phase8] gaps.md APPEND 6-drift-entries (5x zambialii_akn_html_dynamic_render_drift + 1x judiciaryzambia_html_dynamic_render_drift); provenance.log+costs.log+worker.log APPEND
 [2026-05-15T09:35:11Z] [b0665-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation
+[2026-05-15T09:37:00Z] [b0665-phase8] GIT_COMMIT verdict=committed commit=33e0d81 files=7(scripts/batch_0665_phase8_reverify.py+reports/batch-0665.md+reports/batch-0665-reverify.json+worker.log+gaps.md+costs.log+provenance.log) insertions=528 corpus.sqlite=NOT-staged-gitignored approvals.yaml=NOT-modified records/=NOT-touched via=GIT_INDEX_FILE=/tmp/git_index_b0665_fresh+git-read-tree-HEAD (FUSE-EPERM-on-.git/index.lock+stale-on-disk-warnings-ignorable)
+[2026-05-15T09:37:00Z] [b0665-phase8] GIT_PUSH verdict=push-ok remote=origin/main range=da60438..33e0d81
+[2026-05-15T09:37:00Z] [b0665-phase8] FINAL verdict=tick-complete sampled=8 match=2 drift=6(5x-zambialii-akn-html+1x-judiciaryzambia-dynamic-render) fetch_error=0 integrity=8/8-PASS pool=1928 fetches_today=40/2000 records=NOT-touched corpus.sqlite=NOT-touched approvals.yaml=NOT-modified next=b0666-phase8-or-next-scheduled-task
+[2026-05-15T10:04:39Z] [b0666-phase8] tick START worker=phase8-nightly-reverify parent_commit=33e0d81 scheduled-task=zambia-corpus-tick
+[2026-05-15T10:04:39Z] [b0666-phase8] git pull --ff-only verdict=already-up-to-date
+[2026-05-15T10:04:39Z] [b0666-phase8] approvals.yaml read: phase_0..phase_7 complete; phase_8 approved=true complete=false sample_rate=0.01 -> selected
+[2026-05-15T10:04:39Z] [b0666-phase8] budget OK: fetches_today=40/2000 before tick; daily-budget-headroom=1960
+[2026-05-15T10:04:51Z] [b0666-phase8] script START scripts/batch_0666_phase8_reverify.py
+2026-05-15T10:05:19Z	b0666-phase8	REVERIFY_RESULT	id=act-zm-2022-030-appropriation-act	verdict=drift	bytes=39718
+2026-05-15T10:05:19Z	b0666-phase8	REVERIFY_RESULT	id=act-zm-1997-020-national-assembly-speakers-retirement-benefits-act-1997	verdict=match	bytes=353494
+2026-05-15T10:05:19Z	b0666-phase8	REVERIFY_RESULT	id=act-zm-1994-030-excess-expenditure-appropriation-1991-act-1994	verdict=drift	bytes=38838
+2026-05-15T10:05:19Z	b0666-phase8	REVERIFY_RESULT	id=judgment-zm-2023-zmsc-06-sakala-v-people	verdict=drift	bytes=40380
+2026-05-15T10:05:19Z	b0666-phase8	REVERIFY_RESULT	id=act-zm-2025-008-border-management-trade-facilitation-act2025	verdict=match	bytes=441027
+2026-05-15T10:05:19Z	b0666-phase8	REVERIFY_RESULT	id=si-zm-2021-107-income-tax-transfer-pricing-amendment-regulations-2021	verdict=match	bytes=456472
+2026-05-15T10:05:19Z	b0666-phase8	REVERIFY_RESULT	id=si-zm-2007-019-value-added-tax-taxable-value-regulations-2007	verdict=match	bytes=188063
+2026-05-15T10:05:19Z	b0666-phase8	REVERIFY_RESULT	id=act-zm-2019-003-employment-code-act-2019	verdict=match	bytes=301193
+[2026-05-15T10:05:19Z] [b0666-phase8] script END pool=1928 sample=8 match=5 drift=3 fetch_error=0 fetches=8 elapsed=28s
+[2026-05-15T10:05:19Z] [b0666-phase8] integrity CHECK1-CHECK8 all PASS (sums-balance,unique-ids,64-hex,stored==ondisk,no-record-mutated,corpus.sqlite-untouched,UA-honest,per-host-rate-limits-respected)
+[2026-05-15T10:05:19Z] [b0666-phase8] reports/batch-0666.md WROTE; reports/batch-0666-reverify.json WROTE
+[2026-05-15T10:05:19Z] [b0666-phase8] gaps.md APPEND 3-drift-entries (all zambialii_akn_html_dynamic_render_drift); provenance.log+costs.log+worker.log APPEND
+[2026-05-15T10:05:19Z] [b0666-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation

@@ -10102,3 +10102,21 @@ Drift entries flagged for a future approved remediation pass (not auto-overwritt
 Reason: `zambialii_akn_html_dynamic_render_drift` for the five ZambiaLII entries (same root cause as prior Phase 8 batches); `judiciaryzambia_html_dynamic_render_drift` for the judgment-zm-2026-coa-080 entry (same dynamic-render family, distinct host). Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected records and updates `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to a static `source.pdf` Akoma Ntoso publication PDF on media.zambialii.org where one is available. For judiciaryzambia.com there is no known static-PDF alternative on the same host, so remediation would necessarily be route-(a) re-snapshot. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
 
 Match verdicts (no action needed): si-zm-2000-034 (zambialii AKN source.pdf — confirms PDF-route stability), loz-tobacco-levy-act (parliament.gov.zm static PDF — confirms parliament-route stability).
+
+## Phase 8 b0666 — Nightly re-verification drift (2026-05-15T10:05:19Z)
+
+Sampled 8 of 1928 records (seed `phase8-reverify-2026-05-15-b0666`, sample_rate 0.01). 5 match, 3 drift, 0 fetch_error. Records were NOT mutated by this tick — this gaps.md entry is the audit trail only.
+
+- **act-zm-2022-030-appropriation-act** — `https://zambialii.org/akn/zm/act/2022/30/eng@2022-12-27`
+  - stored sha256: `6dcc92831cedb2a57ca31c86e9abbe2c087fb5a48c0f2b180a9f6f7a1944bf38`
+  - fetched sha256: `a044a72fddd5f45c6d635c3807178cc3874d28e5b0cbedf30fc490b01bad332d` (39718 bytes, HTTP 200)
+- **act-zm-1994-030-excess-expenditure-appropriation-1991-act-1994** — `https://zambialii.org/akn/zm/act/1994/30/eng@1994-10-21`
+  - stored sha256: `ed346708151cbb7bcaafc7e0b1f46977110b8e22fc52e83676cd2690d094576f`
+  - fetched sha256: `70524ee68e4c39dd99b4ccc561ed4703cf37cc16bad1ad9af53f1f4782cd085c` (38838 bytes, HTTP 200)
+- **judgment-zm-2023-zmsc-06-sakala-v-people** — `https://zambialii.org/akn/zm/judgment/zmsc/2023/6/eng@2023-04-13`
+  - stored sha256: `99edecf7d38a08a706f019290d2ed83540118af8a670a13331214fff53fbd0dd`
+  - fetched sha256: `e357234248a693ba8c9b571bc9f28fc60fd98fdbfad4ebb76a395b79ae208258` (40380 bytes, HTTP 200)
+
+Reason: `zambialii_akn_html_dynamic_render_drift` for all three entries (same root cause as prior Phase 8 batches — ZambiaLII AKN-HTML pages render per-request timestamps/footer counters that drift the response sha256 even though the legal content is unchanged). Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected records and updates `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to a static `source.pdf` Akoma Ntoso publication PDF on `zambialii.org`/`www.zambialii.org`/`media.zambialii.org` where one is available. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
+
+Match verdicts (no action needed): act-zm-1997-020 (zambialii AKN source.pdf — confirms PDF-route stability), act-zm-2025-008 (parliament.gov.zm static PDF — confirms parliament-route stability), si-zm-2021-107 (zambialii AKN source.pdf), si-zm-2007-019 (zambialii AKN source.pdf), act-zm-2019-003 (parliament.gov.zm static PDF).
