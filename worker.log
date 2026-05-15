@@ -8186,3 +8186,21 @@ failed: 0
 records=1925, records_fts=1925, quick_check=ok
 elapsed_sec=44
 remaining_after: 113
+[2026-05-15T09:34:39Z] [b0665-phase8] tick START worker=phase8-nightly-reverify parent_commit=da60438 scheduled-task=zambia-corpus-tick
+[2026-05-15T09:34:39Z] [b0665-phase8] git pull --ff-only verdict=already-up-to-date
+[2026-05-15T09:34:39Z] [b0665-phase8] approvals.yaml read: phase_0..phase_7 complete; phase_8 approved=true complete=false sample_rate=0.01 -> selected
+[2026-05-15T09:34:39Z] [b0665-phase8] budget OK: fetches_today=32/2000 before tick; daily-budget-headroom=1968
+[2026-05-15T09:34:39Z] [b0665-phase8] script START scripts/batch_0665_phase8_reverify.py
+2026-05-15T09:35:11Z	b0665-phase8	REVERIFY_RESULT	id=act-zm-1967-001-suicide-act-1967	verdict=drift	bytes=49848
+2026-05-15T09:35:11Z	b0665-phase8	REVERIFY_RESULT	id=judgment-zm-2026-zmcc-08-munir-zulu-v-the-attorney-general-and-or	verdict=drift	bytes=44737
+2026-05-15T09:35:11Z	b0665-phase8	REVERIFY_RESULT	id=act-zm-1975-021-medical-aid-societies-and-nursing-homes--dissolution-and-prohibition--act--1975	verdict=drift	bytes=57493
+2026-05-15T09:35:11Z	b0665-phase8	REVERIFY_RESULT	id=act-zm-1995-034-national-road-safety-council-act-1995	verdict=drift	bytes=38751
+2026-05-15T09:35:11Z	b0665-phase8	REVERIFY_RESULT	id=act-zm-1994-005-appropriation-act-1994	verdict=drift	bytes=40013
+2026-05-15T09:35:11Z	b0665-phase8	REVERIFY_RESULT	id=si-zm-2000-034-national-pension-scheme-transfer-of-employees-order-2000	verdict=match	bytes=650439
+2026-05-15T09:35:11Z	b0665-phase8	REVERIFY_RESULT	id=loz-tobacco-levy-act	verdict=match	bytes=144762
+2026-05-15T09:35:11Z	b0665-phase8	REVERIFY_RESULT	id=judgment-zm-2026-coa-080-gilbert-mofya-vs-the-people	verdict=drift	bytes=166285
+[2026-05-15T09:35:11Z] [b0665-phase8] script END pool=1928 sample=8 match=2 drift=6 fetch_error=0 fetches=8 elapsed=28s
+[2026-05-15T09:35:11Z] [b0665-phase8] integrity CHECK1-CHECK8 all PASS (sums-balance,unique-ids,64-hex,stored==ondisk,no-record-mutated,corpus.sqlite-untouched,UA-honest,per-host-rate-limits-respected)
+[2026-05-15T09:35:11Z] [b0665-phase8] reports/batch-0665.md WROTE; reports/batch-0665-reverify.json WROTE
+[2026-05-15T09:35:11Z] [b0665-phase8] gaps.md APPEND 6-drift-entries (5x zambialii_akn_html_dynamic_render_drift + 1x judiciaryzambia_html_dynamic_render_drift); provenance.log+costs.log+worker.log APPEND
+[2026-05-15T09:35:11Z] [b0665-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation

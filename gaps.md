@@ -10073,3 +10073,32 @@ Drift entries flagged for a future approved remediation pass (not auto-overwritt
 Reason: `zambialii_akn_html_dynamic_render_drift` — same root cause as prior Phase 8 batches. Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected zambialii AKN-HTML records and updates their `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to the static `source.pdf` Akoma Ntoso publication PDF on media.zambialii.org. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
 
 Match verdict (no action needed): act-zm-2006-012 (media.zambialii.org source.pdf — confirms PDF-route stability).
+
+## [2026-05-15T09:35Z] Phase 8 reverify drift log — batch 0665
+
+Phase 8 nightly re-verification (`scripts/batch_0665_phase8_reverify.py`, parser_version `phase8-reverify-0.1.0`) sampled 8 records (seed `phase8-reverify-2026-05-15-b0665`) from a pool of 1928. Verdicts: 2 match, 6 drift, 0 fetch_error. Five of six drift verdicts are on **ZambiaLII AKN-HTML** pages, which dynamically render their HTML (timestamps/footer counters embedded in the response) — same pattern as b0641, b0642, b0652, b0653, b0655, b0660, b0662, b0663. The sixth drift is on **judiciaryzambia.com** — first non-ZambiaLII host to show dynamic_render_drift in this series; same family of dynamic-render HTML, distinct host. None of the on-disk records were mutated by this tick.
+
+Drift entries flagged for a future approved remediation pass (not auto-overwritten per BRIEF.md non-negotiable #4):
+
+- **act-zm-1967-001-suicide-act-1967** — `https://zambialii.org/akn/zm/act/1967/1/eng@1996-12-31`
+  - stored sha256: `64449c497e9f9b2994a4d3894da5d600629a3bd0f432a026f98f4b37b42c7894`
+  - fetched sha256: `a765c68d8f0a2b9e956a78681bc601f0eab6d91c593b6ee4c302cd677c04a7b7` (49848 bytes, HTTP 200)
+- **judgment-zm-2026-zmcc-08-munir-zulu-v-the-attorney-general-and-or** — `https://zambialii.org/akn/zm/judgment/zmcc/2026/8/eng@2026-03-25`
+  - stored sha256: `66f38ba97e507e73f3dfd349a5a9c52dfced48b2382b5bd7e007c0c9c0b5d1f1`
+  - fetched sha256: `7d8728e750b45103d4536011c8d1615e34a6028d3a8751b37bbd76a83d21657a` (44737 bytes, HTTP 200)
+- **act-zm-1975-021-medical-aid-societies-and-nursing-homes--dissolution-and-prohibition--act--1975** — `https://www.zambialii.org/akn/zm/act/1975/21/eng@1996-12-31`
+  - stored sha256: `d615ba5be858100e5b482dfe6c94cc5ab64a478fdc5d29bd4dc1ce4ac758cd50`
+  - fetched sha256: `46c00f36f0f53578d5c7ae89fe07b97261389d56990959336810ec8f5035fda2` (57493 bytes, HTTP 200)
+- **act-zm-1995-034-national-road-safety-council-act-1995** — `https://www.zambialii.org/akn/zm/act/1995/34/eng@1995-12-29`
+  - stored sha256: `d07f59fe12d25b1e204332b0401ed1804d12cde33d67e85f49eb6507bbb0fc02`
+  - fetched sha256: `a28636c4e1d663a5e520bd9b768e1c9db7632de807e55b3e993fb6454345dbaa` (38751 bytes, HTTP 200)
+- **act-zm-1994-005-appropriation-act-1994** — `https://zambialii.org/akn/zm/act/1994/5/eng@1994-03-25`
+  - stored sha256: `8aae8d9322534d2281e9ed40c58efd20b9b9284f30e925df939d38616ebd5c88`
+  - fetched sha256: `60d4a7ede2eaec25e9d091054074287ad77127389ec5a57227d0baa47656ec65` (40013 bytes, HTTP 200)
+- **judgment-zm-2026-coa-080-gilbert-mofya-vs-the-people** — `https://judiciaryzambia.com/app-80-2024-gilbert-mofya-vs-the-people-coram-mchenga-djp-majula-muzenga-jja/`
+  - stored sha256: `8535e593f9a9f64a3029f4e068b0fa59c5228aa082564c593e160d9d02faaf9c`
+  - fetched sha256: `b8b9e46f62e27e18cd22547ef64000ad744d13b449cce5e3ec66b4a6a9a59745` (166285 bytes, HTTP 200)
+
+Reason: `zambialii_akn_html_dynamic_render_drift` for the five ZambiaLII entries (same root cause as prior Phase 8 batches); `judiciaryzambia_html_dynamic_render_drift` for the judgment-zm-2026-coa-080 entry (same dynamic-render family, distinct host). Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected records and updates `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to a static `source.pdf` Akoma Ntoso publication PDF on media.zambialii.org where one is available. For judiciaryzambia.com there is no known static-PDF alternative on the same host, so remediation would necessarily be route-(a) re-snapshot. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
+
+Match verdicts (no action needed): si-zm-2000-034 (zambialii AKN source.pdf — confirms PDF-route stability), loz-tobacco-levy-act (parliament.gov.zm static PDF — confirms parliament-route stability).

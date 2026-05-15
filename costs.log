@@ -6202,3 +6202,8 @@ si-zm-2019-023-electoral-process-local-government-by-elections-election-date-and
 2026-05-15T09:04:45Z	b0663-phase8	WALL_CLOCK	started=2026-05-15T09:04:09Z	completed=2026-05-15T09:04:45Z	elapsed=36s	budget=20min	headroom=19m24s
 2026-05-15T09:04:45Z	b0663-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 b0664,2026-05-15T09:13:53Z,repair,zambialii,8,0,~44
+2026-05-15T09:35:11Z	b0665-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=40/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1928	sample_size=8
+2026-05-15T09:35:11Z	b0665-phase8	NETWORK_FETCHES	count=8	hosts=zambialii.org:4,www.zambialii.org:2,www.parliament.gov.zm:1,judiciaryzambia.com:1	all-HTTP-200
+2026-05-15T09:35:11Z	b0665-phase8	BANDWIDTH	total_bytes=1192388	avg_kb=145.5	largest=si-zm-2000-034(650439B,zambialii-source.pdf)
+2026-05-15T09:35:11Z	b0665-phase8	WALL_CLOCK	started=2026-05-15T09:34:43Z	completed=2026-05-15T09:35:11Z	elapsed=28s	budget=20min	headroom=19m32s
+2026-05-15T09:35:11Z	b0665-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
