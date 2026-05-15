@@ -6270,3 +6270,15 @@ b0664,2026-05-15T09:13:53Z,repair,zambialii,8,0,~44
 2026-05-15T15:34:59Z	b0677-phase8	WALL_CLOCK	started=2026-05-15T15:34:25Z	completed=2026-05-15T15:34:59Z	elapsed=34s	budget=20min	headroom=19m26s
 2026-05-15T15:34:59Z	b0677-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 2026-05-15T15:34:59Z	b0677-phase8	INTEGRITY	all-checks=PASS	check3-pass-reason=seed-did-not-draw-any-of-15-truncated-hash-records-from-b0670	tick-verdict=COMMIT-normal-path
+2026-05-15T16:06:08Z	b0678-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=152/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1928	sample_size=8
+2026-05-15T16:06:08Z	b0678-phase8	NETWORK_FETCHES	count=8	hosts=zambialii.org:6,www.parliament.gov.zm:2	all-HTTP-200
+2026-05-15T16:06:08Z	b0678-phase8	BANDWIDTH	total_bytes=773115	avg_kb=94.4	largest=si-zm-2023-001(419678B,zambialii-akn-source-pdf)
+2026-05-15T16:06:08Z	b0678-phase8	WALL_CLOCK	started=2026-05-15T16:05:34Z	completed=2026-05-15T16:06:08Z	elapsed=34s	budget=20min	headroom=19m26s
+2026-05-15T16:06:08Z	b0678-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-15T16:06:08Z	b0678-phase8	INTEGRITY	check3=FAIL(parliament_pdf_v1_2_truncated_16hex_source_hash:act-zm-2020-012-companies-amendment-act-2020)	others=PASS	tick-verdict=HALT-no-commit-per-BRIEF-step6
+2026-05-15T16:35:59Z	b0679-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=160/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1928	sample_size=8
+2026-05-15T16:35:59Z	b0679-phase8	NETWORK_FETCHES	count=8	hosts=www.parliament.gov.zm:4,zambialii.org:4	all-HTTP-200
+2026-05-15T16:35:59Z	b0679-phase8	BANDWIDTH	total_bytes=tracked_in_reverify_json	approx_total_kb=~varies-per-host	largest=act-zm-2021-024-or-similar
+2026-05-15T16:35:59Z	b0679-phase8	WALL_CLOCK	started=2026-05-15T16:35:30Z	completed=2026-05-15T16:35:59Z	elapsed=29s	budget=20min	headroom~=19m31s
+2026-05-15T16:35:59Z	b0679-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-15T16:35:59Z	b0679-phase8	INTEGRITY	all-checks=PASS	check3-pass-reason=seed-did-not-draw-any-of-15-truncated-hash-records-from-b0670	tick-verdict=COMMIT-bundles-b0678-halt-artifacts

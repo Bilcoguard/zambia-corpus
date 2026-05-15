@@ -10655,3 +10655,108 @@ Cumulative stable-PDF supercohort after b0675: parliament.gov.zm + media.zambial
 - cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
 - action: audit-only; nests in established b0641..b0676 cohort
 
+
+
+# Phase 8 batch b0678-phase8 — Nightly re-verification drifts + CHECK#3 fail
+
+## drift [act-zm-1996-014-judges-conditions-of-service-act-1996] — zambialii_akn_html_dynamic_render_drift
+- batch: b0678-phase8
+- detected_at: 2026-05-15T16:05:42Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1996/14/eng@1996-12-31
+- host: zambialii.org
+- stored_sha256: ead5f06fe153d598fbd0927e6f3c2e0c631943553cab066ccbb9fa20e30d127f
+- fetched_sha256: c1f61cc6972297a3cc0be9b61ebcc0f50ae862131dd0cb432f72ba70cb604219
+- fetched_bytes_len: 85517
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0677 cohort
+
+## drift [si-zm-2021-094-electricity-common-carrier-declaration-revocation-order-2021] — zambialii_akn_html_dynamic_render_drift
+- batch: b0678-phase8
+- detected_at: 2026-05-15T16:05:49Z
+- type: statutory_instrument
+- source_url: https://zambialii.org/akn/zm/act/si/2021/94
+- host: zambialii.org
+- stored_sha256: b89c137ee2096e7060b1d1b8a5423417e867e2f046d62249e1a23f966eaa22a1
+- fetched_sha256: 9e8da5ad04c36d072a88e86efaca5ab7087c3e79a92fd49cc30e972b61e2b5a2
+- fetched_bytes_len: 39139
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0677 cohort
+
+## drift [act-zm-1988-030-excess-expenditure-appropriation-1986-act-1988] — zambialii_akn_html_dynamic_render_drift
+- batch: b0678-phase8
+- detected_at: 2026-05-15T16:05:55Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1988/30/eng@1988-12-30
+- host: zambialii.org
+- stored_sha256: 286f0e7eb908967930cd3444dcb9e2646459076ac282862de9fd2f30fddb6212
+- fetched_sha256: e57a009ddce57b3769032f6aa0a7fd421816982ad0950e6337a61df685d07d9d
+- fetched_bytes_len: 38839
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0677 cohort
+
+## CHECK#3-FAIL [act-zm-2020-012-companies-amendment-act-2020] — parliament_pdf_v1_2_truncated_16hex_source_hash
+- batch: b0678-phase8
+- detected_at: 2026-05-15T16:05:55Z
+- type: act
+- source_url: https://www.parliament.gov.zm/sites/default/files/documents/acts/The%20Companies%20%28Amendment%29%20Act%2012%20of.pdf
+- host: www.parliament.gov.zm
+- stored_sha256: bc5fb904bb25c673  (16-hex truncated — INVALID, only first 16 chars of full digest)
+- fetched_sha256: bc5fb904bb25c673a3d70db38f2a56a8331679cd43e474e5c97a0fe0b8289ec8
+- fetched_bytes_len: 20670
+- prefix_match: YES — fetched first 16 hex chars exactly equal stored 16-hex prefix → body content unchanged
+- parser_baseline_at_ingest: parliament-pdf-v1.2
+- cohort_size_total: 15 (act-zm-2020-009..024, excluding act-zm-2020-010 which is not on disk)
+- cohort_sampled_by_phase8_so_far: 2 of 15 (b0670→act-zm-2020-021; b0678→act-zm-2020-012)
+- verdict: HALT — CHECK#3 FAIL — Phase 8 tick did not commit per BRIEF non-negotiable #7
+- cohort_note: Second observation under the b0670-formalised cohort; corroborates the truncation-only (not content-drift) hypothesis. On-disk record source_hash NOT modified.
+- action: operator triage required per b0670 §D options (re-snapshot path recommended). Worker continues to flag on each draw; ~6.1% per-tick CHECK#3 hazard until cohort is remediated.
+
+## drift [act-zm-2019-017-supplementary-appropriation-2019-no-2-act] — zambialii_akn_html_dynamic_render_drift
+- batch: b0678-phase8
+- detected_at: 2026-05-15T16:06:01Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/2019/17/eng@2019-12-27
+- host: zambialii.org
+- stored_sha256: 5809e70751e76374c87d732d3d9d7a6d0b3452b481c5352e9f5ef87a9d928a46
+- fetched_sha256: 77f097d5c548423e2e45629da49f5047651139a0e3b592d24b43fe4f03cba028
+- fetched_bytes_len: 38542
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0677 cohort
+
+## 2026-05-15T16:35:59Z — b0679-phase8 — zambialii_akn_html_dynamic_render_drift (×3)
+
+- batch: 0679
+- detected_at: 2026-05-15T16:35:38Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1993/37/eng@1996-12-31
+- host: zambialii.org
+- stored_sha256: (see records/acts/1993/act-zm-1993-037-narcotic-drugs-and-psychotropic-substances-act-1993.json)
+- fetched_sha256: 8b73abccf948c3fbcb33e8c9385e8cfad376a2868e1b27cef4cd75814f8cb8c0
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0678 cohort
+
+- batch: 0679
+- detected_at: 2026-05-15T16:35:45Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1926/21/eng@1996-12-31
+- host: zambialii.org
+- fetched_sha256: 22447d980f468827ac66eef0eb94253ce0b65445bf4c25b7c0923220ce8184ac
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render
+- action: audit-only
+
+- batch: 0679
+- detected_at: 2026-05-15T16:35:53Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1972/37/eng@1996-12-31
+- host: zambialii.org
+- fetched_sha256: df4a7bcf77d7f740d3d2184f6a4f99a1adcf0ed01b351693a340bd0d04ccd9be
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render
+- action: audit-only
