@@ -10499,3 +10499,77 @@ Cumulative stable-PDF supercohort after b0674: parliament.gov.zm + media.zambial
 - cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
 - action: audit-only; nests in established b0641..b0674 cohort
 
+
+
+
+# Phase 8 batch b0676-phase8 — Nightly re-verification drifts
+
+Four (4) drift verdicts this tick, all in the established `zambialii_akn_html_dynamic_render_drift` cohort.
+
+No new sub-cohorts or first-observation signals this tick — all drifts nest cleanly in the established b0641..b0675 cohort.
+
+### Match verdicts (no action needed)
+
+- **si-zm-1984-045-income-tax-foreign-organisations-exemption-approval-order-1984** — zambialii.org (AKN /source.pdf, 353,070 B) — record file: `records/sis/1984/si-zm-1984-045-income-tax-foreign-organisations-exemption-approval-order-1984.json`
+- **act-zm-2012-007-the-civil-aviation-authority-act-2012** — www.parliament.gov.zm (parliament.gov.zm PDF, 2,087,708 B) — record file: `records/acts/act-zm-2012-007-the-civil-aviation-authority-act-2012.json`
+- **act-zm-2018-010-the-supplementary-appropriation-2018-act-2018** — www.parliament.gov.zm (parliament.gov.zm PDF, 15,586 B) — record file: `records/acts/act-zm-2018-010-the-supplementary-appropriation-2018-act-2018.json`
+- **act-zm-2015-001-the-tax-appeals-tribunal** — www.parliament.gov.zm (parliament.gov.zm PDF, 272,132 B) — record file: `records/acts/act-zm-2015-001-the-tax-appeals-tribunal.json`
+
+Cumulative stable-PDF supercohort after b0675: parliament.gov.zm + media.zambialii.org + zambialii.org (no-`www`) AKN `/source.pdf` continue to dominate the match column. No new first-observation or cross-cohort signals this tick.
+
+
+## drift [act-zm-1970-043-statutory-functions-act-1970] — zambialii_akn_html_dynamic_render_drift
+- batch: b0676-phase8
+- detected_at: 2026-05-15T15:05:07Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1970/43/eng@1996-12-31
+- host: zambialii.org
+- stored_sha256: 897fcec92d64032577005247950a2a963cf5d6b97181d43ef16a9e363a6ff3dc
+- fetched_sha256: c2bf61f40d6f6420a1f4ca97feba2b1e92e49707ff565f0a2e66bce667e60ccb
+- fetched_bytes_len: 68541
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0675 cohort
+
+
+## drift [act-zm-1986-017-citizenship-of-zambia-amendment-act-1986] — zambialii_akn_html_dynamic_render_drift
+- batch: b0676-phase8
+- detected_at: 2026-05-15T15:05:07Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1986/17/eng@1986-09-11
+- host: zambialii.org
+- stored_sha256: 96bee35149e7ead7e8f3ed1a5ffec29661a38e2d779bf48d21ea008b5ece7c93
+- fetched_sha256: 4560430825b3ff3ea0d3cd5fc522dfbab51da4525575c8d9785fa2b5dece7791
+- fetched_bytes_len: 39107
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0675 cohort
+
+
+## drift [act-zm-1984-005-excess-expenditure-appropriation-1981-act-1984] — zambialii_akn_html_dynamic_render_drift
+- batch: b0676-phase8
+- detected_at: 2026-05-15T15:05:07Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1984/5/eng@1984-03-30
+- host: zambialii.org
+- stored_sha256: 04b5f3b06c570d29453d3af739ce31f98bec9822a3c302ffe6a2a44d5641bb2d
+- fetched_sha256: 9ac78854095395f52dc254cebb90535ee493df49b9cd3f95ad21e189bcc89716
+- fetched_bytes_len: 38805
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0675 cohort
+
+
+## drift [si-zm-2020-004-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2020] — zambialii_akn_html_dynamic_render_drift
+- batch: b0676-phase8
+- detected_at: 2026-05-15T15:05:07Z
+- type: statutory_instrument
+- source_url: https://zambialii.org/akn/zm/act/si/2020/4
+- host: zambialii.org
+- stored_sha256: 6c004f8d5a26a8773d632dccfbd0dc379fb7af6d1ba0e2317daa4ed2556ea1fa
+- fetched_sha256: 9ae1bf0ff4a21b2041fe8611c368810cddf0d5781353cded9365d512dab18be8
+- fetched_bytes_len: 39150
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0675 cohort
+
