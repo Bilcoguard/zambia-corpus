@@ -10041,3 +10041,35 @@ Drift entries flagged for a future approved remediation pass (not auto-overwritt
 Reason: `zambialii_akn_html_dynamic_render_drift` — same root cause as prior Phase 8 batches. Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected zambialii AKN-HTML records and updates their `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to the static `source.pdf` Akoma Ntoso publication PDF on media.zambialii.org. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
 
 Match verdicts (no action needed): si-zm-2013-007 (zambialii AKN source.pdf — confirms PDF-route stability), act-zm-2021-010 (parliament.gov.zm), act-zm-2021-009 (parliament.gov.zm).
+
+## [2026-05-15T09:04Z] Phase 8 reverify drift log — batch 0663
+
+Phase 8 nightly re-verification (`scripts/batch_0663_phase8_reverify.py`, parser_version `phase8-reverify-0.1.0`) sampled 8 records (seed `phase8-reverify-2026-05-15-b0663`) from a pool of 1928. Verdicts: 1 match, 7 drift, 0 fetch_error. All 7 drift verdicts are on **ZambiaLII AKN-HTML** pages, which dynamically render their HTML (timestamps/footer counters embedded in the response) — same pattern as b0641, b0642, b0652, b0653, b0655, b0660, b0662. None of the on-disk records were mutated by this tick.
+
+Drift entries flagged for a future approved remediation pass (not auto-overwritten per BRIEF.md non-negotiable #4):
+
+- **act-zm-2017-007-banking-and-financial-services-act-2017** — `https://zambialii.org/akn/zm/act/2017/7/eng@2017-04-13`
+  - stored sha256: `c599f7a2f71a07f09e5e6f8817c7eb721d5bdf483d10d5da2a604edd8e053723`
+  - fetched sha256: `1be1fb825c38a44f827e3267cf6f9e73fb1a8c3500ac98b10809f15789717455` (45169 bytes, HTTP 200)
+- **act-zm-2025-002-geological-and-minerals-development-act-2025** — `https://www.zambialii.org/akn/zm/act/2025/2/eng@2025-04-15`
+  - stored sha256: `fc710f7d98f2475df36b4a6b9801067fef05b8a669f94f5e1f2e8abe1ac9f7a1`
+  - fetched sha256: `a91c8b4bcd607724e4e51d6e05c4226f24d67ebef6723bdaf25708eb9b2d9f90` (147395 bytes, HTTP 200)
+- **act-zm-1996-008-estate-duty-repeal-act-1996** — `https://zambialii.org/akn/zm/act/1996/8/eng@1996-12-31`
+  - stored sha256: `1e125c83c79b928a142c20239796b91d4ee688dff190eb7c835ade0c27cf3c26`
+  - fetched sha256: `78963fff69f473008c2bc1e72fe60cee69e16828c791bb7bdc06be93a1014a04` (40027 bytes, HTTP 200)
+- **si-zm-2019-006-disaster-management-qualifications-of-national-coordinator-regulations-2019** — `https://zambialii.org/akn/zm/act/si/2019/6`
+  - stored sha256: `d90d9081391a5b6052ead805c20bfb7f848eec710359df484a0e5175e8046f76`
+  - fetched sha256: `985bf3a634edb28f6352e6c4cfa265cc44fa1ac84e9265d84c674e93111fa8b2` (41789 bytes, HTTP 200)
+- **act-zm-1961-032-town-and-country-planning-act-1961** — `https://zambialii.org/akn/zm/act/1961/32`
+  - stored sha256: `2ee7c11f42ce18c2c74ae5d516906652638d8d93fe426079316a69089f118230`
+  - fetched sha256: `f5c553d0dd229e29680ae1efc7a9a9485506be9ac960f262d743f279b54b9ec6` (394253 bytes, HTTP 200)
+- **act-zm-1968-037-therapeutic-substances-act-1968** — `https://zambialii.org/akn/zm/act/1968/37/eng@1996-12-31`
+  - stored sha256: `f643ff58c8cb32c291e4422a6ed9d8641b7c3a7c7b352d696e5afac3efc6e3fb`
+  - fetched sha256: `a97ced6a8281c365c0b58472e68299dea83dcd25790fed2f1669633de42a3725` (89696 bytes, HTTP 200)
+- **act-zm-1929-038-treasury-bills-act-1929** — `https://zambialii.org/akn/zm/act/1929/38/eng@1996-12-31`
+  - stored sha256: `3827f818a6ff325f3e397c008123c42279aa85c31ff04213e53a21e55f1c6326`
+  - fetched sha256: `4635a775207f33f12266835de00275364efedd61f531192592db8766a159fc89` (44861 bytes, HTTP 200)
+
+Reason: `zambialii_akn_html_dynamic_render_drift` — same root cause as prior Phase 8 batches. Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected zambialii AKN-HTML records and updates their `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to the static `source.pdf` Akoma Ntoso publication PDF on media.zambialii.org. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
+
+Match verdict (no action needed): act-zm-2006-012 (media.zambialii.org source.pdf — confirms PDF-route stability).
