@@ -7962,3 +7962,69 @@ On tree pag
 [2026-05-15T04:22:53Z] [repair-b0652] integrity records=1922 records_fts=1922
 [2026-05-15T04:22:53Z] [repair-b0652] tick complete fixed=8 failed=0 elapsed=73.6s
 [2026-05-15T04:23:16Z] [repair-b0652] B2 sync deferred to host (rclone not installed in worker env)
+[2026-05-15T05:13:58Z] [repair-b0657] tick start (max_batch=8, budget=1080s)
+[2026-05-15T05:14:36Z] [repair-b0657] tick start (max_batch=8, budget=1080s)
+[2026-05-15T05:14:36Z] [repair-b0657] discovery total_targets=145
+[2026-05-15T05:14:36Z] [repair-b0657] batch_size=8 first=si-zm-2019-024-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2019 last=si-zm-2019-042-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019
+[2026-05-15T05:14:36Z] [repair-b0657] repair START si-zm-2019-024-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/24
+[2026-05-15T05:14:41Z] [repair-b0657] repair FAIL si-zm-2019-024-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2019: unhandled exception: table records_fts has no column named case_name
+[2026-05-15T05:14:46Z] [repair-b0657] repair START si-zm-2019-028-national-dialogue-forum-extension-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/28
+[2026-05-15T05:14:51Z] [repair-b0657] repair FAIL si-zm-2019-028-national-dialogue-forum-extension-order-2019: unhandled exception: table records_fts has no column named case_name
+[2026-05-15T05:14:56Z] [repair-b0657] repair START si-zm-2019-030-national-dialogue-forum-extension-no-2-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/30
+[2026-05-15T05:15:00Z] [repair-b0657] repair FAIL si-zm-2019-030-national-dialogue-forum-extension-no-2-order-2019: unhandled exception: table records_fts has no column named case_name
+[2026-05-15T05:15:05Z] [repair-b0657] repair START si-zm-2019-031-defence-regular-forces-officers-amendment-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/31
+[2026-05-15T05:15:10Z] [repair-b0657] repair FAIL si-zm-2019-031-defence-regular-forces-officers-amendment-regulations-2019: unhandled exception: table records_fts has no column named case_name
+[2026-05-15T05:15:15Z] [repair-b0657] repair START si-zm-2019-033-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/33
+[2026-05-15T05:15:20Z] [repair-b0657] repair FAIL si-zm-2019-033-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2019: unhandled exception: table records_fts has no column named case_name
+[2026-05-15T05:15:25Z] [repair-b0657] repair START si-zm-2019-038-national-assembly-by-election-katuba-constituency-no-01-election-date-and-time-of-poll-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/38
+[2026-05-15T05:15:30Z] [repair-b0657] repair FAIL si-zm-2019-038-national-assembly-by-election-katuba-constituency-no-01-election-date-and-time-of-poll-order-2019: unhandled exception: table records_fts has no column named case_name
+[2026-05-15T05:15:35Z] [repair-b0657] repair START si-zm-2019-040-corporate-insolvency-insolvency-practitioner-accreditation-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/40
+[2026-05-15T05:15:40Z] [repair-b0657] repair FAIL si-zm-2019-040-corporate-insolvency-insolvency-practitioner-accreditation-regulations-2019: unhandled exception: table records_fts has no column named case_name
+[2026-05-15T05:15:45Z] [repair-b0657] repair START si-zm-2019-042-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/42
+[2026-05-15T05:15:50Z] [repair-b0657] repair FAIL si-zm-2019-042-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019: unhandled exception: table records_fts has no column named case_name
+[2026-05-15T05:15:55Z] [repair-b0657] integrity records=1922 records_fts=1922
+[2026-05-15T05:15:55Z] [repair-b0657] tick complete fixed=0 failed=8 elapsed=79.6s
+[2026-05-15T05:15:55Z] [repair-b0657] report written: repair-batch-0657.md
+[2026-05-15T05:17:05Z] [repair-b0657] tick start (max_batch=8, budget=1080s)
+[2026-05-15T05:17:05Z] [repair-b0657] discovery total_targets=145
+[2026-05-15T05:17:05Z] [repair-b0657] batch_size=8 first=si-zm-2019-024-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2019 last=si-zm-2019-042-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019
+[2026-05-15T05:17:05Z] [repair-b0657] repair START si-zm-2019-024-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/24
+[2026-05-15T05:17:10Z] [repair-b0657] repair FAIL si-zm-2019-024-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2019: unhandled exception: disk I/O error
+[2026-05-15T05:17:15Z] [repair-b0657] repair START si-zm-2019-028-national-dialogue-forum-extension-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/28
+[2026-05-15T05:17:19Z] [repair-b0657] repair FAIL si-zm-2019-028-national-dialogue-forum-extension-order-2019: unhandled exception: disk I/O error
+[2026-05-15T05:17:24Z] [repair-b0657] repair START si-zm-2019-030-national-dialogue-forum-extension-no-2-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/30
+[2026-05-15T05:17:29Z] [repair-b0657] repair FAIL si-zm-2019-030-national-dialogue-forum-extension-no-2-order-2019: unhandled exception: disk I/O error
+[2026-05-15T05:17:34Z] [repair-b0657] repair START si-zm-2019-031-defence-regular-forces-officers-amendment-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/31
+[2026-05-15T05:17:38Z] [repair-b0657] repair FAIL si-zm-2019-031-defence-regular-forces-officers-amendment-regulations-2019: unhandled exception: disk I/O error
+[2026-05-15T05:17:43Z] [repair-b0657] repair START si-zm-2019-033-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/33
+[2026-05-15T05:17:48Z] [repair-b0657] repair FAIL si-zm-2019-033-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2019: unhandled exception: disk I/O error
+[2026-05-15T05:17:53Z] [repair-b0657] repair START si-zm-2019-038-national-assembly-by-election-katuba-constituency-no-01-election-date-and-time-of-poll-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/38
+[2026-05-15T05:17:57Z] [repair-b0657] repair FAIL si-zm-2019-038-national-assembly-by-election-katuba-constituency-no-01-election-date-and-time-of-poll-order-2019: unhandled exception: disk I/O error
+[2026-05-15T05:18:02Z] [repair-b0657] repair START si-zm-2019-040-corporate-insolvency-insolvency-practitioner-accreditation-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/40
+[2026-05-15T05:18:07Z] [repair-b0657] repair FAIL si-zm-2019-040-corporate-insolvency-insolvency-practitioner-accreditation-regulations-2019: unhandled exception: disk I/O error
+[2026-05-15T05:18:12Z] [repair-b0657] repair START si-zm-2019-042-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/42
+[2026-05-15T05:18:17Z] [repair-b0657] repair FAIL si-zm-2019-042-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019: unhandled exception: disk I/O error
+[2026-05-15T05:19:17Z] [repair-b0657] tick start (max_batch=8, budget=1080s)
+[2026-05-15T05:19:17Z] [repair-b0657] staged db to /tmp/corpus_work.sqlite (118898688 bytes)
+[2026-05-15T05:19:17Z] [repair-b0657] discovery total_targets=145
+[2026-05-15T05:19:17Z] [repair-b0657] batch_size=8 first=si-zm-2019-024-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2019 last=si-zm-2019-042-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019
+[2026-05-15T05:19:17Z] [repair-b0657] repair START si-zm-2019-024-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/24
+[2026-05-15T05:19:21Z] [repair-b0657] repair OK si-zm-2019-024-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2019 chars=1882 sha=efdf9249 elapsed=4.6s
+[2026-05-15T05:19:26Z] [repair-b0657] repair START si-zm-2019-028-national-dialogue-forum-extension-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/28
+[2026-05-15T05:19:31Z] [repair-b0657] repair OK si-zm-2019-028-national-dialogue-forum-extension-order-2019 chars=920 sha=fea3197d elapsed=4.2s
+[2026-05-15T05:19:36Z] [repair-b0657] repair START si-zm-2019-030-national-dialogue-forum-extension-no-2-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/30
+[2026-05-15T05:19:40Z] [repair-b0657] repair OK si-zm-2019-030-national-dialogue-forum-extension-no-2-order-2019 chars=991 sha=5daa6dd9 elapsed=4.3s
+[2026-05-15T05:19:45Z] [repair-b0657] repair START si-zm-2019-031-defence-regular-forces-officers-amendment-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/31
+[2026-05-15T05:19:49Z] [repair-b0657] repair OK si-zm-2019-031-defence-regular-forces-officers-amendment-regulations-2019 chars=2167 sha=9dc29107 elapsed=4.4s
+[2026-05-15T05:19:54Z] [repair-b0657] repair START si-zm-2019-033-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/33
+[2026-05-15T05:19:59Z] [repair-b0657] repair OK si-zm-2019-033-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2019 chars=1809 sha=e0453d8f elapsed=4.3s
+[2026-05-15T05:20:04Z] [repair-b0657] repair START si-zm-2019-038-national-assembly-by-election-katuba-constituency-no-01-election-date-and-time-of-poll-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/38
+[2026-05-15T05:20:08Z] [repair-b0657] repair OK si-zm-2019-038-national-assembly-by-election-katuba-constituency-no-01-election-date-and-time-of-poll-order-2019 chars=2066 sha=62eb64ce elapsed=4.3s
+[2026-05-15T05:20:13Z] [repair-b0657] repair START si-zm-2019-040-corporate-insolvency-insolvency-practitioner-accreditation-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/40
+[2026-05-15T05:20:17Z] [repair-b0657] repair OK si-zm-2019-040-corporate-insolvency-insolvency-practitioner-accreditation-regulations-2019 chars=4870 sha=4050463c elapsed=4.4s
+[2026-05-15T05:20:22Z] [repair-b0657] repair START si-zm-2019-042-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/42
+[2026-05-15T05:20:27Z] [repair-b0657] repair OK si-zm-2019-042-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019 chars=1014 sha=980ed99f elapsed=4.6s
+[2026-05-15T05:20:32Z] [repair-b0657] integrity records=1922 records_fts=1922
+[2026-05-15T05:20:34Z] [repair-b0657] promoted tmpfs db -> /sessions/hopeful-modest-babbage/mnt/corpus/corpus.sqlite (118898688 bytes)
+[2026-05-15T05:20:34Z] [repair-b0657] tick complete fixed=8 failed=0 elapsed=77.9s
+[2026-05-15T05:20:34Z] [repair-b0657] report written: repair-batch-0657.md
