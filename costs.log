@@ -6149,3 +6149,13 @@ records_reverted=1
 fts_refreshes=7
 fts_global_rebuild=deferred
 b2_sync=deferred-no-rclone
+
+# repair tick b0652 2026-05-15T04:22:53Z
+local-courts-administration-of-estates-rules-1969 | bytes=4146 | seconds=6.0
+local-courts-rules-1966 | bytes=59714 | seconds=44.1
+si-zm-2018-057-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-4-order-2018 | bytes=3819 | seconds=2.5
+si-zm-2019-015-companies-fees-regulations-2019 | bytes=6163 | seconds=2.5
+si-zm-2019-016-national-assembly-by-election-bahati-constituency-no-062-election-date-and-time-of-poll-order-2019 | bytes=2324 | seconds=2.3
+si-zm-2019-021-companies-prescribed-forms-regulations-2019 | bytes=142745 | seconds=11.2
+si-zm-2019-022-citizens-economic-empowerment-reservation-scheme-regulations-2019 | bytes=2236 | seconds=2.4
+si-zm-2019-023-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2019 | bytes=1901 | seconds=2.4

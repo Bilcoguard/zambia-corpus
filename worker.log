@@ -7927,3 +7927,38 @@ On tree pag
 2026-05-15T03:11:30Z	b0655-phase8	FINAL	verdict=tick-complete	sampled=8	match=4	drift=4(all-zambialii-akn-html)	fetch_error=0	all-8-integrity-checks-PASS	next=b0656-phase8-or-jiw-per-next-scheduled-task-+30min
 
 [2026-05-15T03:15:56Z] b0656 repair-corpus: 7/8 records repaired (1 act + 6 SIs). 1 reverted (si-zm-2018-057 upstream PDF mismatch). FTS per-row refresh OK; global rebuild deferred (FUSE I/O). records=records_fts=1922. quick_check=ok. Bytes: 31675.
+[2026-05-15T04:14:28Z] [repair-b0652] repair candidates total=153 (corrupted=0, no_body=153, stubs=0)
+[2026-05-15T04:14:28Z] [repair-b0652] repair START local-courts-administration-of-estates-rules-1969 <- https://commons.laws.africa/akn/zm/act/si/1969/297/media/publication/zm-act-si-1969-297-publication-document.pdf
+[2026-05-15T04:14:30Z] [repair-b0652] low-text extract (1 chars) — running OCR fallback
+[2026-05-15T04:14:34Z] [repair-b0652] repair START local-courts-rules-1966 <- https://commons.laws.africa/akn/zm/act/si/1966/293/media/publication/zm-act-si-1966-293-publication-document.pdf
+[2026-05-15T04:14:37Z] [repair-b0652] low-text extract (24 chars) — running OCR fallback
+[2026-05-15T04:15:16Z] [repair-b0652] repair START si-zm-2018-057-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-4-order-2018 <- https://zambialii.org/akn/zm/act/si/2018/57
+[2026-05-15T04:15:18Z] [repair-b0652] repair START si-zm-2019-015-companies-fees-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/15
+[2026-05-15T04:15:21Z] [repair-b0652] repair START si-zm-2019-016-national-assembly-by-election-bahati-constituency-no-062-election-date-and-time-of-poll-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/16
+[2026-05-15T04:15:24Z] [repair-b0652] repair START si-zm-2019-021-companies-prescribed-forms-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/21
+[2026-05-15T04:15:35Z] [repair-b0652] repair START si-zm-2019-022-citizens-economic-empowerment-reservation-scheme-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/22
+[2026-05-15T04:15:38Z] [repair-b0652] repair START si-zm-2019-023-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/23
+[2026-05-15T04:15:41Z] [repair-b0652] integrity records=1922 records_fts=1922
+[2026-05-15T04:15:41Z] [repair-b0652] tick complete fixed=0 failed=8 elapsed=73.3s
+[2026-05-15T04:21:39Z] [repair-b0652] repair candidates total=153 (corrupted=0, no_body=153, stubs=0)
+[2026-05-15T04:21:39Z] [repair-b0652] repair START local-courts-administration-of-estates-rules-1969 <- https://commons.laws.africa/akn/zm/act/si/1969/297/media/publication/zm-act-si-1969-297-publication-document.pdf
+[2026-05-15T04:21:42Z] [repair-b0652] low-text extract (1 chars) — running OCR fallback
+[2026-05-15T04:21:45Z] [repair-b0652] repair OK local-courts-administration-of-estates-rules-1969 chars=4146 elapsed=6.0s
+[2026-05-15T04:21:45Z] [repair-b0652] repair START local-courts-rules-1966 <- https://commons.laws.africa/akn/zm/act/si/1966/293/media/publication/zm-act-si-1966-293-publication-document.pdf
+[2026-05-15T04:21:50Z] [repair-b0652] low-text extract (24 chars) — running OCR fallback
+[2026-05-15T04:22:30Z] [repair-b0652] repair OK local-courts-rules-1966 chars=59714 elapsed=44.1s
+[2026-05-15T04:22:30Z] [repair-b0652] repair START si-zm-2018-057-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-4-order-2018 <- https://zambialii.org/akn/zm/act/si/2018/57
+[2026-05-15T04:22:32Z] [repair-b0652] repair OK si-zm-2018-057-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-4-order-2018 chars=3819 elapsed=2.5s
+[2026-05-15T04:22:32Z] [repair-b0652] repair START si-zm-2019-015-companies-fees-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/15
+[2026-05-15T04:22:34Z] [repair-b0652] repair OK si-zm-2019-015-companies-fees-regulations-2019 chars=6163 elapsed=2.5s
+[2026-05-15T04:22:34Z] [repair-b0652] repair START si-zm-2019-016-national-assembly-by-election-bahati-constituency-no-062-election-date-and-time-of-poll-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/16
+[2026-05-15T04:22:37Z] [repair-b0652] repair OK si-zm-2019-016-national-assembly-by-election-bahati-constituency-no-062-election-date-and-time-of-poll-order-2019 chars=2324 elapsed=2.3s
+[2026-05-15T04:22:37Z] [repair-b0652] repair START si-zm-2019-021-companies-prescribed-forms-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/21
+[2026-05-15T04:22:48Z] [repair-b0652] repair OK si-zm-2019-021-companies-prescribed-forms-regulations-2019 chars=142745 elapsed=11.2s
+[2026-05-15T04:22:48Z] [repair-b0652] repair START si-zm-2019-022-citizens-economic-empowerment-reservation-scheme-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/22
+[2026-05-15T04:22:50Z] [repair-b0652] repair OK si-zm-2019-022-citizens-economic-empowerment-reservation-scheme-regulations-2019 chars=2236 elapsed=2.4s
+[2026-05-15T04:22:50Z] [repair-b0652] repair START si-zm-2019-023-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/23
+[2026-05-15T04:22:53Z] [repair-b0652] repair OK si-zm-2019-023-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2019 chars=1901 elapsed=2.4s
+[2026-05-15T04:22:53Z] [repair-b0652] integrity records=1922 records_fts=1922
+[2026-05-15T04:22:53Z] [repair-b0652] tick complete fixed=8 failed=0 elapsed=73.6s
+[2026-05-15T04:23:16Z] [repair-b0652] B2 sync deferred to host (rclone not installed in worker env)

@@ -9894,3 +9894,13 @@ SI 57 of 2018 (Local Government By-Elections, Election Date and Time of Poll
 
 Both are scanned image PDFs; `pdftotext` and `pdfplumber` extract empty
 strings. Defer until a tick can install `ocrmypdf` + `tesseract` and run OCR.
+
+## repair tick b0652 (2026-05-15T04:15:41Z)
+- 2026-05-15T04:14:34Z | local-courts-administration-of-estates-rules-1969 | unhandled exception: table records_fts has no column named case_name
+- 2026-05-15T04:15:16Z | local-courts-rules-1966 | unhandled exception: table records_fts has no column named case_name
+- 2026-05-15T04:15:18Z | si-zm-2018-057-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-4-order-2018 | unhandled exception: table records_fts has no column named case_name
+- 2026-05-15T04:15:21Z | si-zm-2019-015-companies-fees-regulations-2019 | unhandled exception: table records_fts has no column named case_name
+- 2026-05-15T04:15:24Z | si-zm-2019-016-national-assembly-by-election-bahati-constituency-no-062-election-date-and-time-of-poll-order-2019 | unhandled exception: table records_fts has no column named case_name
+- 2026-05-15T04:15:35Z | si-zm-2019-021-companies-prescribed-forms-regulations-2019 | unhandled exception: table records_fts has no column named case_name
+- 2026-05-15T04:15:38Z | si-zm-2019-022-citizens-economic-empowerment-reservation-scheme-regulations-2019 | unhandled exception: table records_fts has no column named case_name
+- 2026-05-15T04:15:41Z | si-zm-2019-023-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2019 | unhandled exception: table records_fts has no column named case_name
