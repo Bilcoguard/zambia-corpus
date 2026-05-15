@@ -8032,3 +8032,59 @@ On tree pag
 2026-05-15T03:13:00Z	b0655-phase8	GIT_PUSH	verdict=push-ok	remote=origin/main	range=534543c..5ef8060
 2026-05-15T03:13:00Z	b0655-phase8	GIT_RECOVERY	verdict=trailer-commit-8d58570-accidentally-reverted-parallel-b0657-repair-worker-files-(costs.log+gaps.md+reports/repair-batch-0657.md+scripts/repair_b0657.py)-due-to-flaky-FUSE-.git/index.lock-leaving-stale-tree-view	root-cause=sandbox-FUSE-EPERM-on-git-lockfiles-during-concurrent-host-pushes	fix=re-staging-the-b0657-files-from-disk-(they-were-never-actually-removed-from-the-filesystem-only-from-git-tree-in-8d58570)-into-a-single-recovery-commit	no-data-loss=verified
 2026-05-15T03:13:00Z	b0655-phase8	FINAL	verdict=tick-complete	sampled=8	match=4	drift=4(all-zambialii-akn-html)	fetch_error=0	all-8-integrity-checks-PASS	next=b0656-phase8-or-jiw-per-next-scheduled-task-+30min
+[2026-05-15T09:27:00Z] [b0658-jiw] tick start (judgment ingestion worker, max_batch=8, budget=1200s)
+[2026-05-15T09:27:00Z] [b0658-jiw] git pull --ff-only: Already up to date
+[2026-05-15T09:27:00Z] [b0658-jiw] today_fetches=5 (cap=500), budget OK
+[2026-05-15T09:27:00Z] [b0658-jiw] priority decision: priority-(c) ZMSC 2024 gap-fill via cached HTML — per b0654-jiw recommendation
+[2026-05-15T09:27:08Z] [b0658-jiw] fetched raw/zambialii/zmsc/2024/zmsc-2024-18-source.pdf bytes=189261 sha=490fbba7
+[2026-05-15T09:27:10Z] [b0658-jiw] fetched raw/zambialii/zmsc/2024/zmsc-2024-22-source.pdf bytes=188004 sha=06e8518d
+[2026-05-15T09:27:11Z] [b0658-jiw] fetched raw/zambialii/zmsc/2024/zmsc-2024-31-source.pdf bytes=965323 sha=5f74e4be
+[2026-05-15T09:28:00Z] [b0658-jiw] parsed PDFs via pdfplumber: zmsc-18 chars=23256 digit_ratio=0.013 ; zmsc-22 chars=23007 digit_ratio=0.015 ; zmsc-31 chars=15324 digit_ratio=0.023 (all pass quality gate)
+[2026-05-15T09:28:30Z] [b0658-jiw] hand-curated metadata records written to records/judgments/zmsc/2024/
+[2026-05-15T09:29:30Z] [b0658-jiw] first direct-insert attempt: disk I/O error on COMMIT (chronic FUSE-bindfs journal-rollback issue, b0652-precedent)
+[2026-05-15T09:30:00Z] [b0658-jiw] retry via tmpfs staging pattern (per scripts/repair_b0657.py) — copy to /tmp, insert+commit, rewrite-in-place
+[2026-05-15T09:30:04Z] [b0658-jiw] staged db to /tmp/corpus_work_b0658.sqlite (118898688 bytes)
+[2026-05-15T09:30:05Z] [b0658-jiw] insert OK judgment-zm-2024-zmsc-18-the-people-v-evelyn-mwansa-and-ors rowid=1929 body_chars=23256
+[2026-05-15T09:30:05Z] [b0658-jiw] insert OK judgment-zm-2024-zmsc-22-george-banda-v-the-people rowid=1930 body_chars=23007
+[2026-05-15T09:30:05Z] [b0658-jiw] insert OK judgment-zm-2024-zmsc-31-konkola-copper-mines-plc-in-liquidation-v-attorney-general-and-ors rowid=1931 body_chars=15324
+[2026-05-15T09:30:06Z] [b0658-jiw] integrity records=1925 records_fts=1925 quick_check=ok
+[2026-05-15T09:30:08Z] [b0658-jiw] promoted tmpfs db -> /sessions/upbeat-great-cray/mnt/corpus/corpus.sqlite (118898688 bytes)
+[2026-05-15T09:30:08Z] [b0658-jiw] moved post-staging stale journal -> corpus.sqlite-journal.b0658-jiw-poststaging.bak
+[2026-05-15T09:30:10Z] [b0658-jiw] FTS sanity search "Evelyn Mwansa" -> matched zmsc-18 OK
+[2026-05-15T09:30:10Z] [b0658-jiw] FTS sanity search "Konkola Copper Mines" -> matched zmsc-31 OK
+[2026-05-15T09:30:12Z] [b0658-jiw] tick complete inserted=3 skipped=0 elapsed=192s
+[2026-05-15T07:33:11Z] [repair-b0659] tick start (max_batch=8, budget=1080s)
+[2026-05-15T07:33:11Z] [repair-b0659] staged db to /tmp/corpus_work_b0659.sqlite (118898688 bytes)
+[2026-05-15T07:33:11Z] [repair-b0659] discovery total_targets=137
+[2026-05-15T07:33:11Z] [repair-b0659] batch_size=8 first=si-zm-2019-043-urban-and-regional-planning-designated-local-planning-authorities-no-2-regulations-2019 last=si-zm-2019-076-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-5-order-2019
+[2026-05-15T07:33:11Z] [repair-b0659] repair START si-zm-2019-043-urban-and-regional-planning-designated-local-planning-authorities-no-2-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/43
+[2026-05-15T07:33:16Z] [repair-b0659] repair OK si-zm-2019-043-urban-and-regional-planning-designated-local-planning-authorities-no-2-regulations-2019 chars=1041 sha=63cf456e elapsed=4.9s
+[2026-05-15T07:33:21Z] [repair-b0659] repair START si-zm-2019-044-local-government-fire-inspectors-and-fire-officers-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/44
+[2026-05-15T07:33:25Z] [repair-b0659] repair OK si-zm-2019-044-local-government-fire-inspectors-and-fire-officers-order-2019 chars=4500 sha=12f32237 elapsed=4.7s
+[2026-05-15T07:33:30Z] [repair-b0659] repair START si-zm-2019-045-urban-and-regional-planning-designated-local-planning-authorities-no-3-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/45
+[2026-05-15T07:33:36Z] [repair-b0659] repair OK si-zm-2019-045-urban-and-regional-planning-designated-local-planning-authorities-no-3-regulations-2019 chars=1025 sha=b254e767 elapsed=5.2s
+[2026-05-15T07:33:41Z] [repair-b0659] repair START si-zm-2019-047-local-government-fire-services-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/47
+[2026-05-15T07:33:45Z] [repair-b0659] repair OK si-zm-2019-047-local-government-fire-services-order-2019 chars=2019 sha=ed1cbe6e elapsed=4.8s
+[2026-05-15T07:33:50Z] [repair-b0659] repair START si-zm-2019-061-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-4-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/61
+[2026-05-15T07:33:55Z] [repair-b0659] repair OK si-zm-2019-061-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-4-order-2019 chars=1698 sha=d5b579fd elapsed=4.6s
+[2026-05-15T07:34:00Z] [repair-b0659] repair START si-zm-2019-064-control-of-goods-import-and-export-agriculture-prohibition-of-export-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/64
+[2026-05-15T07:34:05Z] [repair-b0659] repair OK si-zm-2019-064-control-of-goods-import-and-export-agriculture-prohibition-of-export-order-2019 chars=4926 sha=0c3bbf64 elapsed=4.6s
+[2026-05-15T07:34:10Z] [repair-b0659] repair START si-zm-2019-069-palabana-university-declaration-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/69
+[2026-05-15T07:34:14Z] [repair-b0659] repair OK si-zm-2019-069-palabana-university-declaration-order-2019 chars=739 sha=3fc66220 elapsed=4.7s
+[2026-05-15T07:34:19Z] [repair-b0659] repair START si-zm-2019-076-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-5-order-2019 <- https://zambialii.org/akn/zm/act/si/2019/76
+[2026-05-15T07:34:24Z] [repair-b0659] repair OK si-zm-2019-076-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-5-order-2019 chars=1907 sha=533de937 elapsed=4.8s
+[2026-05-15T07:34:29Z] tick-2026-05-15 ABORT: git pull --ff-only failed.
+  Reason: stuck lock files in .git that cannot be removed on this mount:
+    - .git/ORIG_HEAD.lock (0 bytes, owned by stoic-awesome-bardeen, "Operation not permitted" on rm/unlink/chmod)
+    - .git/objects/maintenance.lock (same)
+  Initial 'find .git -name "*.lock" -delete' did not clear them (silent failure: Operation not permitted).
+  git fetch also emitted: "unable to unlink '.git/objects/maintenance.lock': Operation not permitted".
+  Local state: HEAD=8d585702 (Phase 8 b0655 trailer log), behind origin/main by 2 commits (ff-able).
+  Uncommitted modifications present in: costs.log, gaps.md, provenance.log.
+  Action taken: none. No batch run, no integrity check, no commit, no push. Per spec, halting.
+  Next tick: re-attempt after host clears .git/*.lock files (host-side rm or fresh clone).
+[2026-05-15T07:34:29Z] [repair-b0659] integrity records=1925 records_fts=1925
+[2026-05-15T07:34:32Z] [repair-b0659] promoted tmpfs db -> /sessions/wizardly-tender-thompson/mnt/corpus/corpus.sqlite (118898688 bytes)
+[2026-05-15T07:34:32Z] [repair-b0659] tick complete fixed=8 failed=0 elapsed=81.1s
+[2026-05-15T07:34:32Z] [repair-b0659] report written: repair-batch-b0659.md
+[2026-05-15T07:34:39Z] repair-b0659 B2 sync deferred to host (rclone unavailable in worker env)

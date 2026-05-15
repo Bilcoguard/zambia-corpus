@@ -9920,3 +9920,75 @@ strings. Defer until a tick can install `ocrmypdf` + `tesseract` and run OCR.
 - [2026-05-15T05:17:57Z] repair-b0657 si-zm-2019-038-national-assembly-by-election-katuba-constituency-no-01-election-date-and-time-of-poll-order-2019: unhandled exception: disk I/O error
 - [2026-05-15T05:18:07Z] repair-b0657 si-zm-2019-040-corporate-insolvency-insolvency-practitioner-accreditation-regulations-2019: unhandled exception: disk I/O error
 - [2026-05-15T05:18:17Z] repair-b0657 si-zm-2019-042-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019: unhandled exception: disk I/O error
+
+## b0658-jiw (2026-05-15T09:30:00Z) — ZMSC 2024 gap-fill +3 records
+
+### Outcome
+
+**3 records inserted** (records: 1922 → 1925, records_fts: 1922 → 1925, parity maintained, quick_check ok). First successful JIW write since b0622-jiw (~22 ticks earlier). Followed the b0654-jiw recommended priority: priority-(c) ZMSC 2024 gap-fill from cached HTML + freshly-fetched source PDFs.
+
+### Records inserted
+
+| ID | Citation | Case | Date | Judges | Outcome |
+|---|---|---|---|---|---|
+| `judgment-zm-2024-zmsc-18-the-people-v-evelyn-mwansa-and-ors` | [2024] ZMSC 18 | The People v Evelyn Mwansa and Ors (Appeal No. 12,13,14/2020) | 2024-05-16 | Muyovwe, Hamaundu, Chinyama JJS | allowed (DPP appeal — death sentence substituted for inadequate 6-yr) |
+| `judgment-zm-2024-zmsc-22-george-banda-v-the-people` | [2024] ZMSC 22 | George Banda v The People (Appeal No. 51/2022) | 2024-03-06 | Hamaundu, Mutuna, Chisanga JJS | dismissed (court-martial conviction upheld) |
+| `judgment-zm-2024-zmsc-31-konkola-copper-mines-plc-in-liquidation-v-attorney-general-and-ors` | [2024] ZMSC 31 | Konkola Copper Mines Plc (In Liquidation) v AG and Ors (SCZ/7/20/2024) | 2024-10-23 | Kaoma JS (single judge in chambers) | granted (leave to appeal — Court of Appeal Act s.13(3)(a)(c)(d) threshold met) |
+
+### Source files
+
+- `raw/zambialii/zmsc/2024/zmsc-2024-18-source.pdf` — 189,261 bytes — sha256 `490fbba7730ad2202b3874031d8706d67baab2e5f18feb85820df3c06751b3c7`
+- `raw/zambialii/zmsc/2024/zmsc-2024-22-source.pdf` — 188,004 bytes — sha256 `06e8518d9c50d3e408c197cbd67b12f6228941d2fde00c6bd246bcb133c3024d`
+- `raw/zambialii/zmsc/2024/zmsc-2024-31-source.pdf` — 965,323 bytes — sha256 `5f74e4be2e9380dfece7cafebda5cf1ed1de50ec940662825b974d5944c17dda`
+
+### Fetch cost this tick
+
+3 source.pdf fetches from zambialii.org. Daily budget: 8 / 500 (1.6 % used).
+
+### tmpfs staging required again
+
+First insert attempt against virtiofs DB failed with `disk I/O error` on COMMIT due to the chronic FUSE-bindfs `corpus.sqlite-journal` rollback/unlink permission issue (chronic since b031_repair). Worked around per `scripts/repair_b0657.py` pattern: stage to `/tmp/corpus_work_b0658.sqlite`, insert+commit there, then rewrite-in-place into `corpus.sqlite` (FUSE allows write/truncate but blocks unlink). The post-staging stale journal was renamed to `corpus.sqlite-journal.b0658-jiw-poststaging.bak` to avoid hot-journal rollback on next open. Total ingestion-and-promotion cycle: ~5 seconds, well within budget.
+
+### Judges registry
+
+No new judges added — all 6 panel members (Muyovwe, Hamaundu, Chinyama, Mutuna, Chisanga, Kaoma) already present in `judges_registry.yaml`. CHECK4 PASS.
+
+### Sweep cursors (updated)
+
+- `judiciary-coa-sweep`: page-9 (unchanged — scanned-PDF cliff, still avoid until repair-worker drains backlog)
+- `judiciary-scz-sweep`: page-2 (unchanged)
+- `judiciary-zmcc-sweep`: not yet started (unchanged)
+- `judiciary-hc-sweep`: not yet started (unchanged)
+- **ZambiaLII ZMSC 2024 gap-fill**: 29 / 33 ingested (gaps now only at #4, #26, #28, #29; #11 = publisher-side duplicate of #9, permanently deferred)
+  - **Remaining gaps** for next ticks: #4 (need HTML+PDF fetch); #26 (HTML cached, PDF 1.66 MB — within next-tick budget); #28 (HTML cached, PDF 5.92 MB — large); #29 (HTML cached, PDF 9.03 MB — large)
+
+### Outstanding deferred records (unchanged carry-over)
+
+- `judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people` — truncated source PDF from judiciaryzambia.com; alternate-source retrieval required.
+
+### Integrity checks
+
+| Check | Result | Notes |
+|---|---|---|
+| CHECK1 | PASS | Every new record has ≥1 judge in `judges[]` |
+| CHECK2 | PASS | `issue_tags` non-empty for all 3 |
+| CHECK3 | PASS | All outcomes from allowed enum: `allowed`, `dismissed`, `granted` |
+| CHECK4 | PASS | All judge names resolve in `judges_registry.yaml` |
+| CHECK5 | PASS | No duplicate IDs |
+| CHECK6 | PASS | `raw_sha256` matches on-disk PDFs |
+| CHECK7 | PASS | No duplicate (case_name + court + date_decided) combos |
+| CHECK8 | **PASS** | `records=1925 == records_fts=1925` |
+
+### Host-side actions still required (carry-over from b0654-jiw)
+
+- (a) Stale `/tmp/` cleanup across previous-session UIDs (helpful but worked around via own UID tmp file `/tmp/corpus_work_b0658.sqlite`, cleaned up after promotion).
+- (b) FUSE-bindfs `unlink` permission for `corpus.sqlite-journal` — chronic, unchanged. tmpfs-staging workaround remains the proven pattern for JIW writes.
+- (c) `ocrmypdf` install — not needed for this tick.
+- (d) Orphan journals on disk — unchanged.
+
+### Recommended priority for next JIW tick (b0659-jiw or later)
+
+1. **First**: continue priority-(c) ZMSC 2024 gap-fill — target #26 (PDF cached HTML, 1.66 MB PDF) and #4 (needs HTML+PDF fetch). 2 records.
+2. **Second**: if wall clock allows, start priority-(d) ZMCC 2025 gap survey (12 candidates outstanding per b0621-jiw).
+3. **Defer**: priority-(b) Judiciary CoA sweep page-9+ until repair-worker drains scanned-PDF backlog (10 records).
+4. **Defer**: ZMSC 2024 #28 (5.9 MB) and #29 (9.0 MB) — large PDFs; budget separately.
