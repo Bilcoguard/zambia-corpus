@@ -8265,3 +8265,16 @@ remaining_after: 113
 [2026-05-15T10:34:18Z] [b0668-phase8] reports/batch-0668.md WROTE; reports/batch-0668-reverify.json WROTE
 [2026-05-15T10:34:18Z] [b0668-phase8] gaps.md APPEND 4-drift-entries (all zambialii_akn_html_dynamic_render_drift) + 1-fetch_error-entry (parliament_static_pdf_now_404_upstream_url_changed — NEW reason code, first non-zero fetch_error in Phase 8 series); provenance.log+costs.log+worker.log APPEND
 [2026-05-15T10:34:18Z] [b0668-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation
+[2026-05-15T10:34:30Z] [b0668-phase8] GIT_COMMIT verdict=committed commit=8bfe493 files=7(scripts/batch_0668_phase8_reverify.py+reports/batch-0668.md+reports/batch-0668-reverify.json+worker.log+gaps.md+costs.log+provenance.log) insertions=576 corpus.sqlite=NOT-staged-gitignored approvals.yaml=NOT-modified records/=NOT-touched via=GIT_INDEX_FILE=/tmp/git_index_b0668_fresh+git-read-tree-HEAD (FUSE-EPERM-on-.git/index.lock+tmp_obj-warnings-ignorable)
+[2026-05-15T10:34:30Z] [b0668-phase8] GIT_PUSH verdict=push-ok remote=origin/main range=6ff5906..8bfe493
+[2026-05-15T10:34:30Z] [b0668-phase8] FINAL verdict=tick-complete sampled=8 match=3 drift=4(all-zambialii-akn-html-dynamic-render) fetch_error=1(parliament-2026-NPS-Act-now-HTTP-404-NEW-reason-code) integrity=8/8-PASS+pre-commit-fabrication-self-catch pool=1928 fetches_today=72/2000 records=NOT-touched corpus.sqlite=NOT-touched approvals.yaml=NOT-modified next=b0669-phase8-or-next-scheduled-task
+[2026-05-15T11:04:29Z] [b0669-phase8] tick START worker=phase8-nightly-reverify parent_commit=8bfe493 scheduled-task=zambia-corpus-tick
+[2026-05-15T11:04:29Z] [b0669-phase8] git pull --ff-only verdict=already-up-to-date (warning=unlink-maintenance.lock-EPERM-ignorable)
+[2026-05-15T11:04:29Z] [b0669-phase8] approvals.yaml read: phase_0..phase_7 complete; phase_8 approved=true complete=false sample_rate=0.01 -> selected
+[2026-05-15T11:04:29Z] [b0669-phase8] budget OK: fetches_today=72/2000 before tick (post-b0668); daily-budget-headroom=1928
+[2026-05-15T11:04:29Z] [b0669-phase8] script START scripts/batch_0669_phase8_reverify.py
+[2026-05-15T11:05:07Z] [b0669-phase8] script END pool=1928 sample=8 match=7 drift=1 fetch_error=0 fetches=8 elapsed=38s
+[2026-05-15T11:05:07Z] [b0669-phase8] integrity CHECK1-CHECK8 all PASS (sums-balance,unique-ids,64-hex,stored==ondisk,no-record-mutated,corpus.sqlite-untouched,UA-honest,per-host-rate-limits-respected)
+[2026-05-15T11:05:07Z] [b0669-phase8] reports/batch-0669.md WROTE; reports/batch-0669-reverify.json WROTE
+[2026-05-15T11:05:07Z] [b0669-phase8] gaps.md APPEND 1-drift-entry (zambialii_akn_html_dynamic_render_drift); provenance.log+costs.log+worker.log APPEND
+[2026-05-15T11:05:07Z] [b0669-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation

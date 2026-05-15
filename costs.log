@@ -6222,3 +6222,8 @@ b0664,2026-05-15T09:13:53Z,repair,zambialii,8,0,~44
 2026-05-15T10:34:18Z	b0668-phase8	BANDWIDTH	total_bytes=4066490	avg_kb=496.9	largest=act-zm-1997-026-science-and-technology-act-1997(3122327B,www.zambialii.org-source.pdf)
 2026-05-15T10:34:18Z	b0668-phase8	WALL_CLOCK	started=2026-05-15T10:33:53Z	completed=2026-05-15T10:34:18Z	elapsed=25s	budget=20min	headroom=19m35s
 2026-05-15T10:34:18Z	b0668-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-15T11:05:07Z	b0669-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=80/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1928	sample_size=8
+2026-05-15T11:05:07Z	b0669-phase8	NETWORK_FETCHES	count=8	hosts=zambialii.org:7,www.parliament.gov.zm:1	all-HTTP-200
+2026-05-15T11:05:07Z	b0669-phase8	BANDWIDTH	total_bytes=961293	avg_kb=117.3	largest=si-zm-1987-009(329464B,zambialii-source.pdf)
+2026-05-15T11:05:07Z	b0669-phase8	WALL_CLOCK	started=2026-05-15T11:04:29Z	completed=2026-05-15T11:05:07Z	elapsed=38s	budget=20min	headroom=19m22s
+2026-05-15T11:05:07Z	b0669-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway

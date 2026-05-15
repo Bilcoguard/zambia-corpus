@@ -10159,3 +10159,27 @@ Reason: `parliament_static_pdf_now_404_upstream_url_changed` — first non-zero 
 - **act-zm-2015-009-supplementay-appropriation-2013** — parliament.gov.zm static PDF (confirms parliament-route stability)
 - **loz-dairies-and-dairy-produce-act** — parliament.gov.zm static PDF, Laws of Zambia chapter (confirms parliament-LoZ-route stability)
 - **act-zm-1997-026-science-and-technology-act-1997** — www.zambialii.org AKN source.pdf (confirms zambialii PDF-route stability)
+
+## Phase 8 b0669 — Nightly re-verification drift (2026-05-15T11:05:07Z)
+
+Sampled 8 of 1928 records (seed `phase8-reverify-2026-05-15-b0669`, sample_rate 0.01). 7 match, 1 drift, 0 fetch_error. Records were NOT mutated by this tick — this gaps.md entry is the audit trail only.
+
+### Drift entry (1) — `zambialii_akn_html_dynamic_render_drift`
+
+- **judgment-zm-2021-zmcc-16-sampa-v-mundubile-and-anor** — `https://zambialii.org/akn/zm/judgment/zmcc/2021/16/eng@2021-11-22`
+  - stored sha256: `aeb5c8c21f971e6fd53fc71dd153989640db4502f27b20a187e79e0c28e32f14`
+  - fetched sha256: `41d9d29e106c6d6f0f1d2063434cfb6194fd37250c12dc1a717458e2d7dc90c8` (46963 bytes, HTTP 200)
+
+Reason: `zambialii_akn_html_dynamic_render_drift` — same root cause as prior Phase 8 batches (ZambiaLII AKN-HTML pages render per-request timestamps/footer counters that drift the response sha256 even though the legal content is unchanged). Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected record and updates `source_hash` to the current bytes, or (b) switching the canonical `source_url` for this record to a static `source.pdf` Akoma Ntoso publication PDF on `zambialii.org`/`www.zambialii.org`/`media.zambialii.org` if one is available. Until that approval, the record remains on disk unchanged; this entry is the audit trail.
+
+Both `stored sha256` and `fetched sha256` values above are verbatim from `reports/batch-0669-reverify.json` (which the integrity-check pipeline also confirmed equals the on-disk `source_hash` for every sampled record before this entry was written — CHECK4 PASS).
+
+### Match verdicts (no action needed)
+
+- **si-zm-2022-059-value-added-tax-zero-rating-amendment-no-2-order-2022** — zambialii.org AKN source.pdf (confirms zambialii PDF-route stability)
+- **si-zm-2020-048-employment-code-exemption-regulations-2020** — zambialii.org AKN source.pdf
+- **si-zm-2015-035-property-transfer-tax-exemption-no-2-order-2015** — zambialii.org AKN source.pdf
+- **si-zm-1987-009-income-tax-foreign-organisations-exemption-approval-order-1987** — zambialii.org AKN source.pdf
+- **si-zm-2015-085-education-teacher-training-college-boards-establishment-order-2015** — zambialii.org AKN source.pdf
+- **act-zm-2012-002-the-aviation-amendment-act-2012** — www.parliament.gov.zm static PDF (confirms parliament-route stability)
+- **si-zm-2021-102-customs-and-excise-electronic-machinery-and-equipment-suspension-regulations-2021** — zambialii.org AKN source.pdf
