@@ -8388,3 +8388,24 @@ remaining_after: 113
 [2026-05-15T14:13:47Z] [b0674-phase8] reports/batch-0674.md WROTE; reports/batch-0674-reverify.json WROTE
 [2026-05-15T14:13:47Z] [b0674-phase8] gaps.md APPEND 5-akn-html-drifts (all zambialii_akn_html_dynamic_render_drift); provenance.log+costs.log+worker.log APPEND
 [2026-05-15T14:13:47Z] [b0674-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation
+[2026-05-15T14:14:58Z] [b0674-phase8] GIT_COMMIT verdict=committed commit=1016fe5 files=7(scripts/batch_0674_phase8_reverify.py+reports/batch-0674.md+reports/batch-0674-reverify.json+worker.log+gaps.md+costs.log+provenance.log) insertions=585 corpus.sqlite=NOT-staged-gitignored approvals.yaml=NOT-modified records/=NOT-touched via=GIT_INDEX_FILE=/tmp/git_index_b0674_fresh+git-read-tree-HEAD (FUSE-EPERM-on-.git/index.lock+HEAD.lock+tmp-objects-warnings-ignorable); includes-bundled-b0673-trailer-(b0673-FINAL/GIT_COMMIT/GIT_PUSH-audit-lines-deferred-from-cb81981->1c72de9-chain)
+[2026-05-15T14:14:58Z] [b0674-phase8] GIT_PUSH verdict=push-ok remote=origin/main range=1c72de9..1016fe5
+[2026-05-15T14:14:58Z] [b0674-phase8] FINAL verdict=tick-complete sampled=8 match=3 drift=5(all-zambialii-akn-html-dynamic-render-cohort) fetch_error=0 integrity=8/8-PASS pool=1928 fetches_today=120/2000 records=NOT-touched corpus.sqlite=NOT-touched approvals.yaml=NOT-modified next=b0675-phase8-or-next-scheduled-task pending-peter-triage=15-record-parliament-pdf-v1.2-truncated-16hex-hash-defect-(~6%-per-tick-CHECK#3-hazard-until-resolved)+1-record-zambialii-source-pdf-first-observation-drift-si-zm-2009-042
+[2026-05-15T14:34:29Z] [b0675-phase8] tick START worker=phase8-nightly-reverify parent_commit=1016fe5 scheduled-task=zambia-corpus-tick predecessor=b0674-phase8-COMMIT-1016fe5 pending-peter-triage=15-record-parliament-pdf-v1.2-truncated-16hex-hash-defect-(b0670-discovery)+1-record-zambialii-source-pdf-first-observation-drift-si-zm-2009-042-(b0671-discovery)
+[2026-05-15T14:34:29Z] [b0675-phase8] git pull --ff-only verdict=already-up-to-date (warning=unlink-objects/maintenance.lock-EPERM-ignorable)
+[2026-05-15T14:34:29Z] [b0675-phase8] approvals.yaml read: phase_0..phase_7 complete; phase_8 approved=true complete=false sample_rate=0.01 -> selected
+[2026-05-15T14:34:29Z] [b0675-phase8] budget OK: fetches_today=120/2000 before tick (post-b0674); daily-budget-headroom=1880
+[2026-05-15T14:34:29Z] [b0675-phase8] script START scripts/batch_0675_phase8_reverify.py
+2026-05-15T14:35:22Z	b0675-phase8	REVERIFY_RESULT	id=act-zm-2017-002-agricultural-institute-of-zambia-act-2017	verdict=match	bytes=115659
+2026-05-15T14:35:22Z	b0675-phase8	REVERIFY_RESULT	id=si-zm-2008-015-taxation-provisional-charging-order-2008	verdict=match	bytes=120149
+2026-05-15T14:35:22Z	b0675-phase8	REVERIFY_RESULT	id=act-zm-1967-001-suicide-act-1967	verdict=drift	bytes=49848
+2026-05-15T14:35:22Z	b0675-phase8	REVERIFY_RESULT	id=si-zm-2018-043-urban-and-regional-planning-designated-local-planning-authorities-regulations-2018	verdict=drift	bytes=39382
+2026-05-15T14:35:22Z	b0675-phase8	REVERIFY_RESULT	id=act-zm-2012-001-the-penal-code-amendment-2012	verdict=match	bytes=13513
+2026-05-15T14:35:22Z	b0675-phase8	REVERIFY_RESULT	id=act-zm-2015-023-appropriation-act	verdict=drift	bytes=39738
+2026-05-15T14:35:22Z	b0675-phase8	REVERIFY_RESULT	id=judgment-zm-2025-zmsc-06-zambia-telecommunication-company-v-felix-musonda-a	verdict=drift	bytes=41057
+2026-05-15T14:35:22Z	b0675-phase8	REVERIFY_RESULT	id=si-zm-2020-018-compulsory-standards-potable-spirits-declaration-order-2020	verdict=drift	bytes=39110
+[2026-05-15T14:35:22Z] [b0675-phase8] script END pool=1928 sample=8 match=3 drift=5 fetch_error=0 fetches=8 elapsed=~41s
+[2026-05-15T14:35:22Z] [b0675-phase8] integrity CHECK1-CHECK8 all PASS (sums-balance,unique-ids,64-hex,stored==ondisk,no-tracked-record-mutated,corpus.sqlite-untouched,approvals.yaml-not-modified,UA-honest,per-host-rate-limits-respected); CHECK#3-specifically-PASS-because-seed-did-not-draw-any-of-the-15-truncated-hash-records
+[2026-05-15T14:35:22Z] [b0675-phase8] reports/batch-0675.md WROTE; reports/batch-0675-reverify.json WROTE
+[2026-05-15T14:35:22Z] [b0675-phase8] gaps.md APPEND 5-akn-html-drifts (all zambialii_akn_html_dynamic_render_drift; includes second-this-week judgment-type AKN-HTML drift judgment-zm-2025-zmsc-06); provenance.log+costs.log+worker.log APPEND
+[2026-05-15T14:35:22Z] [b0675-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation

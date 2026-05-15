@@ -10411,3 +10411,91 @@ Cumulative stable-PDF supercohort after b0673: parliament.gov.zm + media.zambial
 - cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
 - action: audit-only; nests in established b0641..b0673 cohort
 
+
+
+
+# Phase 8 batch b0675-phase8 — Nightly re-verification drifts
+
+Five (5) drift verdicts this tick, all in the established `zambialii_akn_html_dynamic_render_drift` cohort.
+
+Notable nesting within established cohort:
+- Second Phase 8 sample this week to draw a judgment-type AKN-HTML drift (`judgment-zm-2025-zmsc-06-zambia-telecommunication-company-v-felix-musonda-a`) — fits cleanly within `zambialii_akn_html_dynamic_render_drift`; follows the first-this-week judgment-type drift (`judgment-zm-2022-zmsc-29`) recorded in b0673.
+
+### Match verdicts (no action needed)
+
+- **act-zm-2017-002-agricultural-institute-of-zambia-act-2017** — zambialii.org (AKN /source.pdf, 115,659 B) — record file: `records/acts/act-zm-2017-002-agricultural-institute-of-zambia-act-2017.json`
+- **si-zm-2008-015-taxation-provisional-charging-order-2008** — zambialii.org (AKN /source.pdf, 120,149 B) — record file: `records/sis/2008/si-zm-2008-015-taxation-provisional-charging-order-2008.json`
+- **act-zm-2012-001-the-penal-code-amendment-2012** — www.parliament.gov.zm (parliament.gov.zm PDF, 13,513 B) — record file: `records/acts/act-zm-2012-001-the-penal-code-amendment-2012.json`
+
+Cumulative stable-PDF supercohort after b0674: parliament.gov.zm + media.zambialii.org + zambialii.org (no-`www`) AKN `/source.pdf` continue to dominate the match column. No new first-observation or cross-cohort signals this tick.
+
+
+## drift [act-zm-1967-001-suicide-act-1967] — zambialii_akn_html_dynamic_render_drift
+- batch: b0675-phase8
+- detected_at: 2026-05-15T14:35:22Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1967/1/eng@1996-12-31
+- host: zambialii.org
+- stored_sha256: 64449c497e9f9b2994a4d3894da5d600629a3bd0f432a026f98f4b37b42c7894
+- fetched_sha256: 23493833a3bc1e11a0f8aacd6c62a1de096059551d97e21ca8e23643a7af6f5e
+- fetched_bytes_len: 49848
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0674 cohort
+
+
+## drift [si-zm-2018-043-urban-and-regional-planning-designated-local-planning-authorities-regulations-2018] — zambialii_akn_html_dynamic_render_drift
+- batch: b0675-phase8
+- detected_at: 2026-05-15T14:35:22Z
+- type: statutory_instrument
+- source_url: https://zambialii.org/akn/zm/act/si/2018/43
+- host: zambialii.org
+- stored_sha256: 00da07ac55b217ac1e51cd5dc0f916733c4c4811327dec0e7eddd7695deb4eb1
+- fetched_sha256: c11030f359155b6fcbbbebb2600329f05c5680e543a91fd9c5a90ae1c1d8a6c9
+- fetched_bytes_len: 39382
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0674 cohort
+
+
+## drift [act-zm-2015-023-appropriation-act] — zambialii_akn_html_dynamic_render_drift
+- batch: b0675-phase8
+- detected_at: 2026-05-15T14:35:22Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/2015/23/eng@2015-12-24
+- host: zambialii.org
+- stored_sha256: 68e388d96937b9d06bfc39c3d574b3ec44f6c00a3fd045bc22eb2ce89908fcbe
+- fetched_sha256: 10d40a2704174cdff6b56c0789d227f1d8dfd8b68bbbb3a8d905f56d66e6a932
+- fetched_bytes_len: 39738
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0674 cohort
+
+
+## drift [judgment-zm-2025-zmsc-06-zambia-telecommunication-company-v-felix-musonda-a] — zambialii_akn_html_dynamic_render_drift
+- batch: b0675-phase8
+- detected_at: 2026-05-15T14:35:22Z
+- type: judgment
+- source_url: https://zambialii.org/akn/zm/judgment/zmsc/2025/6/eng@2025-02-12
+- host: zambialii.org
+- stored_sha256: f61382e846949aaa011f0ecc38d239144e2736580a33d76e34d8bc94c65c27e2
+- fetched_sha256: 59c06c60dfd29c9a4553b286fb52f8d0e6d6e31112932a9db2d97b7fecc5d5cb
+- fetched_bytes_len: 41057
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0674 cohort
+
+
+## drift [si-zm-2020-018-compulsory-standards-potable-spirits-declaration-order-2020] — zambialii_akn_html_dynamic_render_drift
+- batch: b0675-phase8
+- detected_at: 2026-05-15T14:35:22Z
+- type: statutory_instrument
+- source_url: https://zambialii.org/akn/zm/act/si/2020/18
+- host: zambialii.org
+- stored_sha256: 463c4533ca2fee54bdbe2fc1efc8b6349c34330d438e9025746fcc29b686847b
+- fetched_sha256: 8bc26d4590ff26eb23e28caf3125b0404ce3d86c055b6f2ab7d093093d06a1a8
+- fetched_bytes_len: 39110
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0674 cohort
+
