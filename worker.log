@@ -8174,3 +8174,15 @@ On tree pag
 [2026-05-15T09:04:45Z] [b0663-phase8] reports/batch-0663.md WROTE; reports/batch-0663-reverify.json WROTE
 [2026-05-15T09:04:45Z] [b0663-phase8] gaps.md APPEND 7-drift-entries (all zambialii AKN-HTML dynamic_render_drift); provenance.log+costs.log+worker.log APPEND
 [2026-05-15T09:04:45Z] [b0663-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation
+[2026-05-15T09:09:00Z] [b0663-phase8] GIT_COMMIT verdict=committed commit=a4939ff files=7(scripts/batch_0663_phase8_reverify.py+reports/batch-0663.md+reports/batch-0663-reverify.json+worker.log+gaps.md+costs.log+provenance.log) insertions=533 corpus.sqlite=NOT-staged-gitignored approvals.yaml=NOT-modified records/=NOT-touched via=GIT_INDEX_FILE=/tmp/git_index_b0663_fresh+git-read-tree-HEAD (FUSE-EPERM-on-.git/index.lock+stale-on-disk-index-warnings-ignorable)
+[2026-05-15T09:09:00Z] [b0663-phase8] GIT_PUSH verdict=push-ok remote=origin/main range=091423f..a4939ff
+[2026-05-15T09:09:00Z] [b0663-phase8] FINAL verdict=tick-complete sampled=8 match=1 drift=7(all-zambialii-akn-html-dynamic-render) fetch_error=0 integrity=8/8-PASS pool=1928 fetches_today=32/2000 records=NOT-touched corpus.sqlite=NOT-touched approvals.yaml=NOT-modified next=b0664-phase8-or-jiw-or-repair-per-next-scheduled-task
+
+=== repair-corpus tick b0664 @ 2026-05-15T09:13:53Z ===
+discovered: 121 (A=0, B=121, C=0)
+batch: 8
+repaired: 8 (all zambialii AKN PDF source, 2020 cohort)
+failed: 0
+records=1925, records_fts=1925, quick_check=ok
+elapsed_sec=44
+remaining_after: 113
