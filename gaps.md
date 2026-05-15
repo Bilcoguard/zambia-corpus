@@ -10341,3 +10341,73 @@ Notable nesting within established cohort:
 - **si-zm-2019-005-customs-and-excise-nickel-and-particle-board-export-duty-remission-regulations-2019** — zambialii.org (AKN /source.pdf, 132,119 B) — record file: `records/sis/si-zm-2019-005-customs-and-excise-nickel-and-particle-board-export-duty-remission-regulations-2019.json`
 
 Cumulative stable-PDF supercohort after b0673: parliament.gov.zm + media.zambialii.org + zambialii.org (no-`www`) AKN `/source.pdf` continue to dominate the match column. No new first-observation or cross-cohort signals this tick.
+
+## drift [si-zm-2014-024-animal-health-control-and-prevention-of-animal-disease-order-2014] — zambialii_akn_html_dynamic_render_drift
+- batch: b0674-phase8
+- detected_at: 2026-05-15T14:13:47Z
+- type: statutory_instrument
+- source_url: https://zambialii.org/akn/zm/act/si/2014/24
+- host: zambialii.org
+- stored_sha256: 760613624b196e58a2b3f9d6aa23a3fca392470cfadacee01a60929178b65256
+- fetched_sha256: 2c360cc8a5bb1ef07657429fefcaac17b09f5eb64ec4044578eda4458d8e12da
+- fetched_bytes_len: 39260
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0673 cohort
+
+
+## drift [act-zm-1952-005-victoria-memorial-institute-repeal-act-1952] — zambialii_akn_html_dynamic_render_drift
+- batch: b0674-phase8
+- detected_at: 2026-05-15T14:13:47Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1952/5/eng@1996-12-31
+- host: zambialii.org
+- stored_sha256: 8b95a1dd1d0cb54ce18959817860711756645d0a0a7becc81b8b25cc1d23cfd1
+- fetched_sha256: 478d70828c826a29564da361f4099a19252cf9ccd21babb925705f0b0be2800a
+- fetched_bytes_len: 40548
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0673 cohort
+
+
+## drift [si-zm-2014-059-agricultural-credits-appointment-of-authorised-agency-order-2014] — zambialii_akn_html_dynamic_render_drift
+- batch: b0674-phase8
+- detected_at: 2026-05-15T14:13:47Z
+- type: statutory_instrument
+- source_url: https://zambialii.org/akn/zm/act/si/2014/59
+- host: zambialii.org
+- stored_sha256: 9f8fae576e0ca59d76ac13d0255d15a197cf9ef812482b9857a765201c58e01e
+- fetched_sha256: 0772be8dfa6c3e42e7977a372be5e48f78d5ce266d86aeff351b7922d1811a6f
+- fetched_bytes_len: 39292
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0673 cohort
+
+
+## drift [si-zm-2017-077-national-markets-and-bus-stations-development-fund-regulations-2017] — zambialii_akn_html_dynamic_render_drift
+- batch: b0674-phase8
+- detected_at: 2026-05-15T14:13:47Z
+- type: statutory_instrument
+- source_url: https://zambialii.org/akn/zm/act/si/2017/77
+- host: zambialii.org
+- stored_sha256: 2b2196bea4984851c471b5919761d08251e31b465f70a7ea553a02913f856337
+- fetched_sha256: d0dca25fec81fe102d5480cbd26f35bcb446b1d0374d276e886264b74afe1b0b
+- fetched_bytes_len: 39288
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0673 cohort
+
+
+## drift [act-zm-1947-031-printed-publications-act-1947] — zambialii_akn_html_dynamic_render_drift
+- batch: b0674-phase8
+- detected_at: 2026-05-15T14:13:47Z
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1947/31/eng@1996-12-31
+- host: zambialii.org
+- stored_sha256: b50241d0f1089ba557b34b925dec95c008ed9f0a40e4bafd246a7590c045c4e8
+- fetched_sha256: f83ca7053a11355b399ae08a8d78b47146385be2225b986bdfd7f6e40288c205
+- fetched_bytes_len: 58219
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4 (never silently overwrite).
+- action: audit-only; nests in established b0641..b0673 cohort
+

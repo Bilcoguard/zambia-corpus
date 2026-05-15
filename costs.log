@@ -6251,3 +6251,4 @@ b0664,2026-05-15T09:13:53Z,repair,zambialii,8,0,~44
 2026-05-15T14:01:56Z	b0673-phase8	WALL_CLOCK	started=2026-05-15T14:00:50Z	completed=2026-05-15T14:01:56Z	elapsed=66s	budget=20min	headroom=18m54s
 2026-05-15T14:01:56Z	b0673-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 2026-05-15T14:01:56Z	b0673-phase8	INTEGRITY	all-checks=PASS	check3-pass-reason=seed-did-not-draw-any-of-15-truncated-hash-records-from-b0670	tick-verdict=COMMIT-normal-path
+2026-05-15T14:13:47Z	b0674-phase8	fetches=8	tokens=0	bandwidth_bytes=641307
