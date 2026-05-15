@@ -9869,3 +9869,28 @@ Drift entries flagged for a future approved remediation pass (not auto-overwritt
 Reason: `zambialii_akn_html_dynamic_render_drift` — same root cause as prior Phase 8 batches. Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected zambialii AKN-HTML records and updates their `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to the static `source.pdf` Akoma Ntoso publication PDF on media.zambialii.org. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
 
 Match verdicts (no action needed): act-zm-2022-002, act-zm-2010-044, act-zm-1986-022, act-zm-2014-003 (parliament.gov.zm + media.zambialii.org static PDFs).
+
+## b0656 — 2026-05-15
+
+### si-zm-2018-057-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-4-order-2018
+
+Upstream ZambiaLII data-quality issue. The URL
+`https://zambialii.org/akn/zm/act/si/2018/57/eng@2018-08-03/source.pdf`
+returns a PDF byte-identical to the `si/2018/56/...source.pdf` PDF
+(sha256 `d405f9242b908eee52d8a96f84f3fda967f85026e32375cab61cd73e37cf774b`,
+size 21,452 bytes). Both PDFs contain the gazette text of **SI 56 of 2018**
+(National Assembly By-Election, Kasenengwa Constituency No. 41).
+
+Body cleared on record 057. Repair requires alternate canonical source for
+SI 57 of 2018 (Local Government By-Elections, Election Date and Time of Poll
+(No. 4) Order, 2018) — try parliament.gov.zm gazette index or laws.africa.
+
+### Image-PDF SIs requiring OCR (deferred — no ocrmypdf in sandbox)
+
+- local-courts-administration-of-estates-rules-1969
+  (`https://commons.laws.africa/akn/zm/act/si/1969/297/...publication-document.pdf`)
+- local-courts-rules-1966
+  (`https://commons.laws.africa/akn/zm/act/si/1966/293/...publication-document.pdf`)
+
+Both are scanned image PDFs; `pdftotext` and `pdfplumber` extract empty
+strings. Defer until a tick can install `ocrmypdf` + `tesseract` and run OCR.

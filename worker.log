@@ -7922,3 +7922,8 @@ On tree pag
 2026-05-15T03:10:07Z	b0655-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 2026-05-15T03:10:07Z	b0655-phase8	APPROVALS	phase_8_nightly_reverify	approved=true(unchanged)	complete=false(unchanged-continuous-nightly-cycle)	approvals.yaml-NOT-modified
 2026-05-15T03:10:07Z	b0655-phase8	STOP	verdict=tick-complete-8-sampled-4-match-4-drift-0-error	wall-clock=~22s-well-under-20min-budget	next=b0656-phase8-or-jiw-per-next-scheduled-task
+2026-05-15T03:11:30Z	b0655-phase8	GIT_COMMIT	verdict=committed	commit=5ef8060	files=7(scripts/batch_0655_phase8_reverify.py+reports/batch-0655-reverify.json+reports/batch-0655.md+worker.log+costs.log+gaps.md+provenance.log)	insertions=511	corpus.sqlite=NOT-staged-gitignored	records=NOT-touched	approvals.yaml=NOT-modified
+2026-05-15T03:11:30Z	b0655-phase8	GIT_PUSH	verdict=push-ok	remote=origin/main	range=534543c..5ef8060
+2026-05-15T03:11:30Z	b0655-phase8	FINAL	verdict=tick-complete	sampled=8	match=4	drift=4(all-zambialii-akn-html)	fetch_error=0	all-8-integrity-checks-PASS	next=b0656-phase8-or-jiw-per-next-scheduled-task-+30min
+
+[2026-05-15T03:15:56Z] b0656 repair-corpus: 7/8 records repaired (1 act + 6 SIs). 1 reverted (si-zm-2018-057 upstream PDF mismatch). FTS per-row refresh OK; global rebuild deferred (FUSE I/O). records=records_fts=1922. quick_check=ok. Bytes: 31675.

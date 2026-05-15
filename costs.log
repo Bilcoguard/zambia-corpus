@@ -6139,3 +6139,13 @@
 2026-05-15T03:10:07Z	b0655-phase8	BANDWIDTH	zambialii-AKN-HTML-3xrecords=~430KB(136063+150401+143847approx)	www.zambialii-AKN-HTML-1xrecord=46679B	parliament-static-PDF-3xrecords=~700KB(467091+114131+~120KB)	media.zambialii-source-PDF-1xrecord=~150KB	total≈1.43MB-down	llm-tokens=0
 2026-05-15T03:10:07Z	b0655-phase8	WALL_CLOCK	~22s(8-fetches-with-host-rate-limits-honoured)	well-within-20min-budget
 2026-05-15T03:10:07Z	b0655-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+
+# b0656 repair-corpus  2026-05-15T03:15:56Z
+fetch_gets=10
+fetch_kb_html=~700
+fetch_kb_pdf=~600
+records_updated=8
+records_reverted=1
+fts_refreshes=7
+fts_global_rebuild=deferred
+b2_sync=deferred-no-rclone
