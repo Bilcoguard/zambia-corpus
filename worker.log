@@ -8028,3 +8028,7 @@ On tree pag
 [2026-05-15T05:20:34Z] [repair-b0657] promoted tmpfs db -> /sessions/hopeful-modest-babbage/mnt/corpus/corpus.sqlite (118898688 bytes)
 [2026-05-15T05:20:34Z] [repair-b0657] tick complete fixed=8 failed=0 elapsed=77.9s
 [2026-05-15T05:20:34Z] [repair-b0657] report written: repair-batch-0657.md
+2026-05-15T03:13:00Z	b0655-phase8	GIT_COMMIT	verdict=committed	commit=5ef8060	files=7(scripts/batch_0655_phase8_reverify.py+reports/batch-0655-reverify.json+reports/batch-0655.md+worker.log+costs.log+gaps.md+provenance.log)	insertions=511	corpus.sqlite=NOT-staged-gitignored	records=NOT-touched	approvals.yaml=NOT-modified
+2026-05-15T03:13:00Z	b0655-phase8	GIT_PUSH	verdict=push-ok	remote=origin/main	range=534543c..5ef8060
+2026-05-15T03:13:00Z	b0655-phase8	GIT_RECOVERY	verdict=trailer-commit-8d58570-accidentally-reverted-parallel-b0657-repair-worker-files-(costs.log+gaps.md+reports/repair-batch-0657.md+scripts/repair_b0657.py)-due-to-flaky-FUSE-.git/index.lock-leaving-stale-tree-view	root-cause=sandbox-FUSE-EPERM-on-git-lockfiles-during-concurrent-host-pushes	fix=re-staging-the-b0657-files-from-disk-(they-were-never-actually-removed-from-the-filesystem-only-from-git-tree-in-8d58570)-into-a-single-recovery-commit	no-data-loss=verified
+2026-05-15T03:13:00Z	b0655-phase8	FINAL	verdict=tick-complete	sampled=8	match=4	drift=4(all-zambialii-akn-html)	fetch_error=0	all-8-integrity-checks-PASS	next=b0656-phase8-or-jiw-per-next-scheduled-task-+30min
