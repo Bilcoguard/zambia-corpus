@@ -10120,3 +10120,42 @@ Sampled 8 of 1928 records (seed `phase8-reverify-2026-05-15-b0666`, sample_rate 
 Reason: `zambialii_akn_html_dynamic_render_drift` for all three entries (same root cause as prior Phase 8 batches — ZambiaLII AKN-HTML pages render per-request timestamps/footer counters that drift the response sha256 even though the legal content is unchanged). Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected records and updates `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to a static `source.pdf` Akoma Ntoso publication PDF on `zambialii.org`/`www.zambialii.org`/`media.zambialii.org` where one is available. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
 
 Match verdicts (no action needed): act-zm-1997-020 (zambialii AKN source.pdf — confirms PDF-route stability), act-zm-2025-008 (parliament.gov.zm static PDF — confirms parliament-route stability), si-zm-2021-107 (zambialii AKN source.pdf), si-zm-2007-019 (zambialii AKN source.pdf), act-zm-2019-003 (parliament.gov.zm static PDF).
+
+## Phase 8 b0668 — Nightly re-verification drift + first fetch_error (2026-05-15T10:34:18Z)
+
+Sampled 8 of 1928 records (seed `phase8-reverify-2026-05-15-b0668`, sample_rate 0.01). 3 match, 4 drift, 1 fetch_error. Records were NOT mutated by this tick — this gaps.md entry is the audit trail only.
+
+### Drift entries (4) — `zambialii_akn_html_dynamic_render_drift`
+
+- **act-zm-1990-012-environmental-protection-and-pollution-control-act-1990** — `https://zambialii.org/akn/zm/act/1990/12/eng@1996-12-31`
+  - stored sha256: `d4e32592e307fea0f407f0e912398c863db134b9cad732bfcb768cc0b52a6e39`
+  - fetched sha256: `e954ee8e92127bef26494544d76d619ba52ba6bb50bd075e76df29a53c79c5f1` (462894 bytes, HTTP 200)
+- **si-zm-2022-065-public-protector-rules-2022** — `https://zambialii.org/akn/zm/act/si/2022/65`
+  - stored sha256: `f8fe81b415f106da98900b9c825efc0a5a8245c3fac481bd2b4f294013d0d796`
+  - fetched sha256: `8b320462269d6469adae4074d773a25a1162e1aa40e7877821eb27aade205579` (38979 bytes, HTTP 200)
+- **act-zm-1994-031-national-arts-council-of-zambia-act-1994** — `https://www.zambialii.org/akn/zm/act/1994/31/eng@1996-12-31`
+  - stored sha256: `6e1f63f641d67112a16b63824f13cf125f343d75c5053d44433fc27db1b36328`
+  - fetched sha256: `48d8d2c401af796c1ce45462d9d609cb48acf9c2fb4c212af24795c666637c59` (154234 bytes, HTTP 200)
+- **judgment-zm-2024-zmcc-09-hastie-sibanda-v-attorney-general** — `https://zambialii.org/akn/zm/judgment/zmcc/2024/9/eng@2024-04-30`
+  - stored sha256: `3a7767a2cc98a1e1a3da6ff41008eb89d0d3077ab8bc7775a8daa4e8b0d5a4b3`
+  - fetched sha256: `796f1841ad7bb2c8d0344bab1999c43c80388713816c19e5329261a1e6ac5854` (44239 bytes, HTTP 200)
+
+Reason: `zambialii_akn_html_dynamic_render_drift` for all four entries (same root cause as prior Phase 8 batches — ZambiaLII AKN-HTML pages render per-request timestamps/footer counters that drift the response sha256 even though the legal content is unchanged). Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected records and updates `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to a static `source.pdf` Akoma Ntoso publication PDF on `zambialii.org`/`www.zambialii.org`/`media.zambialii.org` where one is available. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
+
+Both `stored sha256` and `fetched sha256` values above are verbatim from `reports/batch-0668-reverify.json` (which the integrity-check pipeline also confirmed equals the on-disk `source_hash` for every sampled record before this entry was written — CHECK4 PASS).
+
+### Fetch_error entry (1) — `parliament_static_pdf_now_404_upstream_url_changed` (NEW)
+
+- **act-zm-2026-005-national-payment-system-act** — `https://www.parliament.gov.zm/sites/default/files/documents/acts/National%20Payment%20System%20Act%20No.%205%20of%202026.pdf`
+  - stored sha256: `dac92c5d4b57373480020a4a6c6b93a8485ca4bee0262db90f8dac2e1b407b7c`
+  - HTTP status on re-fetch: 404 (body 0 bytes, no sha256 computed)
+  - originally fetched: 2026-04-10T22:40:53Z (record parser_version 0.3.0)
+  - title (from on-disk record, not invented): "The National Payment System Act, 2026"
+
+Reason: `parliament_static_pdf_now_404_upstream_url_changed` — first non-zero fetch_error in the Phase 8 series. Static-PDF URLs on `www.parliament.gov.zm` have historically been 100% match in this Phase 8 series; this is the first observation of a previously-200 static PDF returning 404 on the canonical URL. Likely upstream rename/move/removal (parliament.gov.zm has been observed to reorganize Act PDF filenames in prior gap entries — see earlier 2021 Insurance Act and Zambia Correctional Service Act entries). Possible alternative routes include parliament.gov.zm /node/ pages (the canonical Act page rather than the direct-PDF), or ZambiaLII once the 2026 NPS Act is published there. Remediation requires a Peter-approved bounded probe to (a) confirm whether the 404 is permanent or transient, (b) locate the new canonical PDF URL if relocated, and (c) re-fetch and re-snapshot the body with the updated `source_url` + `source_hash`. Until that approval, the record's `source_url` and `source_hash` remain unchanged on disk; this entry is the audit trail.
+
+### Match verdicts (no action needed)
+
+- **act-zm-2015-009-supplementay-appropriation-2013** — parliament.gov.zm static PDF (confirms parliament-route stability)
+- **loz-dairies-and-dairy-produce-act** — parliament.gov.zm static PDF, Laws of Zambia chapter (confirms parliament-LoZ-route stability)
+- **act-zm-1997-026-science-and-technology-act-1997** — www.zambialii.org AKN source.pdf (confirms zambialii PDF-route stability)

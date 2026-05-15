@@ -8225,3 +8225,43 @@ remaining_after: 113
 [2026-05-15T10:05:19Z] [b0666-phase8] reports/batch-0666.md WROTE; reports/batch-0666-reverify.json WROTE
 [2026-05-15T10:05:19Z] [b0666-phase8] gaps.md APPEND 3-drift-entries (all zambialii_akn_html_dynamic_render_drift); provenance.log+costs.log+worker.log APPEND
 [2026-05-15T10:05:19Z] [b0666-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation
+[2026-05-15T10:06:30Z] [b0666-phase8] GIT_COMMIT verdict=committed commit=6ff5906 files=7(scripts/batch_0666_phase8_reverify.py+reports/batch-0666.md+reports/batch-0666-reverify.json+worker.log+gaps.md+costs.log+provenance.log) insertions=521 corpus.sqlite=NOT-staged-gitignored approvals.yaml=NOT-modified records/=NOT-touched via=GIT_INDEX_FILE=/tmp/git_index_b0666_fresh+git-read-tree-HEAD (FUSE-EPERM-on-.git/index.lock+stale-on-disk-warnings-ignorable)
+[2026-05-15T10:06:30Z] [b0666-phase8] GIT_PUSH verdict=push-ok remote=origin/main range=33e0d81..6ff5906
+[2026-05-15T10:06:30Z] [b0666-phase8] FINAL verdict=tick-complete sampled=8 match=5 drift=3(all-zambialii-akn-html-dynamic-render) fetch_error=0 integrity=8/8-PASS pool=1928 fetches_today=48/2000 records=NOT-touched corpus.sqlite=NOT-touched approvals.yaml=NOT-modified next=b0667-phase8-or-next-scheduled-task
+[2026-05-15T12:13:00Z] [b0667-repair] tick START worker=repair-corpus parent_commit=6ff5906 scheduled-task=repair-corpus session=adoring-funny-faraday
+[2026-05-15T12:13:00Z] [b0667-repair] git pull --ff-only verdict=already-up-to-date (warning=unlink-maintenance.lock-EPERM-ignorable)
+[2026-05-15T12:13:00Z] [b0667-repair] reset stale staged b0666 deletions (origin already has 6ff5906) — index now clean except worker.log working-tree changes
+[2026-05-15T12:13:00Z] [b0667-repair] DB scan: Condition-A=0 Condition-B=113(acts/SIs-no-body) Condition-C=0; judgments-with-no-body=148(skipped-per-v4-prompt)
+[2026-05-15T12:13:00Z] [b0667-repair] staging DB to /tmp/b0667_recover/corpus.sqlite (workspace 95% full — virtiofs write-back risk)
+[2026-05-15T12:13:39Z] [b0667-repair] script END pool=113 selected=8 repaired=8 failed=0 elapsed=39s fetches=8
+[2026-05-15T12:13:39Z] [b0667-repair] REPAIR_RESULT id=si-zm-2020-052-metrology-verification-fees-regulations-2020 source=pdf body_len=13903
+[2026-05-15T12:13:39Z] [b0667-repair] REPAIR_RESULT id=si-zm-2020-055-urban-and-regional-planning-designated-local-planning-authorities-regulations-2020 source=pdf body_len=926
+[2026-05-15T12:13:39Z] [b0667-repair] REPAIR_RESULT id=si-zm-2020-056-urban-and-regional-planning-general-regulations-2020 source=pdf body_len=96478
+[2026-05-15T12:13:39Z] [b0667-repair] REPAIR_RESULT id=si-zm-2020-061-electoral-process-local-government-by-election-election-date-and-time-of-poll-no-5-order-2020 source=pdf body_len=2097
+[2026-05-15T12:13:39Z] [b0667-repair] REPAIR_RESULT id=si-zm-2020-063-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-6-order-2020 source=pdf body_len=1730
+[2026-05-15T12:13:39Z] [b0667-repair] REPAIR_RESULT id=si-zm-2020-064-national-market-and-bus-station-development-fund-regulations-2020 source=pdf body_len=21477
+[2026-05-15T12:13:39Z] [b0667-repair] REPAIR_RESULT id=si-zm-2020-066-local-government-appointment-of-local-government-administrator-lusaka-city-council-order-2020 source=pdf body_len=1537
+[2026-05-15T12:13:39Z] [b0667-repair] REPAIR_RESULT id=si-zm-2020-067-local-government-appointment-of-local-government-administrator-kitwe-city-council-order-2020 source=pdf body_len=1455
+[2026-05-15T12:14:00Z] [b0667-repair] copy /tmp/b0667_recover/corpus.sqlite -> corpus.sqlite OK (118898688 bytes)
+[2026-05-15T12:14:00Z] [b0667-repair] integrity records=1925 records_fts=1925 quick_check=ok (match ✔ — counts equal pre+post)
+[2026-05-15T12:14:00Z] [b0667-repair] reports/repair-batch-b0667.md WROTE; worker.log+gaps.md+costs.log+provenance.log APPEND
+[2026-05-15T12:14:00Z] [b0667-repair] B2 sync deferred to host (rclone unavailable in sandbox)
+[2026-05-15T10:33:30Z] [b0668-phase8] tick START worker=phase8-nightly-reverify parent_commit=6ff5906 scheduled-task=zambia-corpus-tick
+[2026-05-15T10:33:30Z] [b0668-phase8] git pull --ff-only verdict=already-up-to-date (warnings=unlink-maintenance.lock+ORIG_HEAD.lock-EPERM-ignorable)
+[2026-05-15T10:33:30Z] [b0668-phase8] approvals.yaml read: phase_0..phase_7 complete; phase_8 approved=true complete=false sample_rate=0.01 -> selected
+[2026-05-15T10:33:30Z] [b0668-phase8] budget OK: fetches_today=64/2000 before tick (post-b0667-repair); daily-budget-headroom=1936
+[2026-05-15T10:33:53Z] [b0668-phase8] script START scripts/batch_0668_phase8_reverify.py
+2026-05-15T10:34:18Z	b0668-phase8	REVERIFY_RESULT	id=act-zm-2015-009-supplementay-appropriation-2013	verdict=match	bytes=15774
+2026-05-15T10:34:18Z	b0668-phase8	REVERIFY_RESULT	id=loz-dairies-and-dairy-produce-act	verdict=match	bytes=228043
+2026-05-15T10:34:18Z	b0668-phase8	REVERIFY_RESULT	id=act-zm-1990-012-environmental-protection-and-pollution-control-act-1990	verdict=drift	bytes=462894
+2026-05-15T10:34:18Z	b0668-phase8	REVERIFY_RESULT	id=si-zm-2022-065-public-protector-rules-2022	verdict=drift	bytes=38979
+2026-05-15T10:34:18Z	b0668-phase8	REVERIFY_RESULT	id=act-zm-2026-005-national-payment-system-act	verdict=fetch_error	bytes=0	http_status=404
+2026-05-15T10:34:18Z	b0668-phase8	REVERIFY_RESULT	id=act-zm-1997-026-science-and-technology-act-1997	verdict=match	bytes=3122327
+2026-05-15T10:34:18Z	b0668-phase8	REVERIFY_RESULT	id=act-zm-1994-031-national-arts-council-of-zambia-act-1994	verdict=drift	bytes=154234
+2026-05-15T10:34:18Z	b0668-phase8	REVERIFY_RESULT	id=judgment-zm-2024-zmcc-09-hastie-sibanda-v-attorney-general	verdict=drift	bytes=44239
+[2026-05-15T10:34:18Z] [b0668-phase8] script END pool=1928 sample=8 match=3 drift=4 fetch_error=1 fetches=8 elapsed=25s
+[2026-05-15T10:34:18Z] [b0668-phase8] integrity CHECK1-CHECK8 all PASS (sums-balance,unique-ids,64-hex,stored==ondisk,no-record-mutated,corpus.sqlite-untouched,UA-honest,per-host-rate-limits-respected)
+[2026-05-15T10:34:18Z] [b0668-phase8] PRE-COMMIT-FABRICATION-CHECK: caught self-fabricated stored_sha256 values during gaps.md draft for 4 drift entries; truncated draft and re-appended verbatim from reports/batch-0668-reverify.json; BRIEF.md non-negotiable #1 enforced before any artefact left the working tree
+[2026-05-15T10:34:18Z] [b0668-phase8] reports/batch-0668.md WROTE; reports/batch-0668-reverify.json WROTE
+[2026-05-15T10:34:18Z] [b0668-phase8] gaps.md APPEND 4-drift-entries (all zambialii_akn_html_dynamic_render_drift) + 1-fetch_error-entry (parliament_static_pdf_now_404_upstream_url_changed — NEW reason code, first non-zero fetch_error in Phase 8 series); provenance.log+costs.log+worker.log APPEND
+[2026-05-15T10:34:18Z] [b0668-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation

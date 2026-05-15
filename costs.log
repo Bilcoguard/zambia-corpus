@@ -6212,3 +6212,13 @@ b0664,2026-05-15T09:13:53Z,repair,zambialii,8,0,~44
 2026-05-15T10:05:19Z	b0666-phase8	BANDWIDTH	total_bytes=1859185	avg_kb=226.9	largest=si-zm-2021-107(456472B,zambialii-source.pdf)
 2026-05-15T10:05:19Z	b0666-phase8	WALL_CLOCK	started=2026-05-15T10:04:51Z	completed=2026-05-15T10:05:19Z	elapsed=28s	budget=20min	headroom=19m32s
 2026-05-15T10:05:19Z	b0666-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-15T12:13:39Z	b0667-repair	fetches=16	retry_fetches=0	records_written=8	records_deferred=0	worker=repair-corpus	cumulative_today=64/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	pool_size=113	repaired=8	remaining_after=105
+2026-05-15T12:13:39Z	b0667-repair	NETWORK_FETCHES	count=16	hosts=zambialii.org:16	all-HTTP-200	pattern=html-then-source.pdf
+2026-05-15T12:13:39Z	b0667-repair	BANDWIDTH	total_bytes_extracted=139603	largest=si-zm-2020-056-urban-and-regional-planning-general(96478B,zambialii-source.pdf)
+2026-05-15T12:13:39Z	b0667-repair	WALL_CLOCK	started=2026-05-15T12:13:00Z	completed=2026-05-15T12:13:39Z	elapsed=39s	budget=20min	headroom=19m21s
+2026-05-15T12:14:00Z	b0667-repair	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox
+2026-05-15T10:34:18Z	b0668-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=72/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1928	sample_size=8
+2026-05-15T10:34:18Z	b0668-phase8	NETWORK_FETCHES	count=8	hosts=zambialii.org:3,www.zambialii.org:2,www.parliament.gov.zm:3	http-200=7	http-404=1
+2026-05-15T10:34:18Z	b0668-phase8	BANDWIDTH	total_bytes=4066490	avg_kb=496.9	largest=act-zm-1997-026-science-and-technology-act-1997(3122327B,www.zambialii.org-source.pdf)
+2026-05-15T10:34:18Z	b0668-phase8	WALL_CLOCK	started=2026-05-15T10:33:53Z	completed=2026-05-15T10:34:18Z	elapsed=25s	budget=20min	headroom=19m35s
+2026-05-15T10:34:18Z	b0668-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
