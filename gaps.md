@@ -10015,3 +10015,29 @@ Drift entries flagged for a future approved remediation pass (not auto-overwritt
 Reason: `zambialii_akn_html_dynamic_render_drift` — same root cause as prior Phase 8 batches. Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected zambialii AKN-HTML records and updates their `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to the static `source.pdf` Akoma Ntoso publication PDF on media.zambialii.org. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
 
 Match verdicts (no action needed): act-zm-2016-016 (parliament.gov.zm), act-zm-2021-016 (parliament.gov.zm), act-zm-2004-014 (media.zambialii.org source.pdf), act-zm-cap-175 (parliament.gov.zm).
+
+## [2026-05-15T08:36Z] Phase 8 reverify drift log — batch 0662
+
+Phase 8 nightly re-verification (`scripts/batch_0662_phase8_reverify.py`, parser_version `phase8-reverify-0.1.0`) sampled 8 records (seed `phase8-reverify-2026-05-15-b0662`) from a pool of 1928. Verdicts: 3 match, 5 drift, 0 fetch_error. All 5 drift verdicts are on **ZambiaLII AKN-HTML** pages, which dynamically render their HTML (timestamps/footer counters embedded in the response) — same pattern as b0641, b0642, b0652, b0653, b0655, b0660. None of the on-disk records were mutated by this tick.
+
+Drift entries flagged for a future approved remediation pass (not auto-overwritten per BRIEF.md non-negotiable #4):
+
+- **si-zm-2020-061-electoral-process-local-government-by-election-election-date-and-time-of-poll-no-5-order-2020** — `https://zambialii.org/akn/zm/act/si/2020/61`
+  - stored sha256: `8d9a4bfb6662b013b082fe4b3c345ca33d91bd0e50bdea0ba37e69372bbd86cb`
+  - fetched sha256: `38ffe436e532d2f18df7ed37d3e35e30c1301cbffb0bc7e29357a8487cfe26e8` (39473 bytes, HTTP 200)
+- **act-zm-1985-016-appropriation-act-1985** — `https://zambialii.org/akn/zm/act/1985/16/eng@1985-04-12`
+  - stored sha256: `4b898f4e47657013239f419d911897bc462fc42e4b048d40d2bf93a16cf114c0`
+  - fetched sha256: `3ee7d3f291d6aa34c1dbb35ebbe8837643f3f2b18c24d55ef7b96e1aef4c3614` (39731 bytes, HTTP 200)
+- **act-zm-2005-008-supplementary-appropriation-2003-act** — `https://zambialii.org/akn/zm/act/2005/8/eng@2005-05-17`
+  - stored sha256: `d3e14946cbe5b0ff27df073eb1dcf045abb392cf49db6d70932e4ccc8c9f423b`
+  - fetched sha256: `0b260f19123255c1de4a98c5522ae9f0a48eca3d08377d43b44d753d7823bdb3` (38761 bytes, HTTP 200)
+- **act-zm-1961-015-bills-of-sale-registration-act-1961** — `https://zambialii.org/akn/zm/act/1961/15/eng@1996-12-31`
+  - stored sha256: `613047a362922535f29939e2a615ad64223afea95f96181d7f812673e13aab34`
+  - fetched sha256: `009e194770c6edfc12f4a04dca5ed18aa44d592c0e2dcd61ee2a7cf03f5b4c28` (40216 bytes, HTTP 200)
+- **si-zm-2020-043-electoral-process-local-government-by-election-election-date-and-time-of-poll-no-4-order-2020** — `https://zambialii.org/akn/zm/act/si/2020/43`
+  - stored sha256: `1c1aa27d735205f9c43ec64f1df2d2cd2ad5a5a441baeed874518b2de45b15cb`
+  - fetched sha256: `20735b3cb6bc73e7290e9f97c5f183aa66c88b7c8c3788a55601541b91b85dce` (39476 bytes, HTTP 200)
+
+Reason: `zambialii_akn_html_dynamic_render_drift` — same root cause as prior Phase 8 batches. Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected zambialii AKN-HTML records and updates their `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to the static `source.pdf` Akoma Ntoso publication PDF on media.zambialii.org. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
+
+Match verdicts (no action needed): si-zm-2013-007 (zambialii AKN source.pdf — confirms PDF-route stability), act-zm-2021-010 (parliament.gov.zm), act-zm-2021-009 (parliament.gov.zm).

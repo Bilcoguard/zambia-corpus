@@ -8132,3 +8132,24 @@ On tree pag
 [2026-05-15T10:17:48Z] [repair-b0661] tick complete fixed=8 failed=0 elapsed=36.0s
 [2026-05-15T10:17:48Z] [repair-b0661] report written: repair-batch-b0661.md
 [2026-05-15T10:17:48Z] repair-b0661 B2 sync deferred to host (rclone unavailable in worker env)
+[2026-05-15T10:18:00Z] [repair-b0661] GIT_COMMIT verdict=committed commit=5f86685 files=9(scripts/repair_b0661.py+reports/repair-batch-b0661.md+scripts/batch_0660_phase8_reverify.py+reports/batch-0660-reverify.json+reports/batch-0660.md+worker.log+gaps.md+costs.log+provenance.log) insertions=838 corpus.sqlite=NOT-staged-gitignored via=GIT_INDEX_FILE=/tmp/git_index_b0661 (FUSE-EPERM-on-.git/index.lock)
+[2026-05-15T10:18:00Z] [repair-b0661] GIT_PUSH verdict=push-ok remote=origin/main range=7c179bf..5f86685
+[2026-05-15T10:18:00Z] [repair-b0661] FINAL verdict=tick-complete fixed=8 failed=0 discovered=129 integrity=OK records=1925 records_fts=1925 next=b0662-repair-or-jiw-per-next-scheduled-task
+[2026-05-15T08:35:00Z] [b0662-phase8] tick START worker=phase8-nightly-reverify parent_commit=5f86685 scheduled-task=zambia-corpus-tick
+[2026-05-15T08:35:00Z] [b0662-phase8] git pull --ff-only verdict=already-up-to-date (FUSE-EPERM warnings on stale .git/*.lock files ignorable; pull succeeded)
+[2026-05-15T08:35:00Z] [b0662-phase8] approvals.yaml read: phase_0..phase_7 complete; phase_8 approved=true complete=false sample_rate=0.01 -> selected
+[2026-05-15T08:35:00Z] [b0662-phase8] budget OK: fetches_today=16/2000 before tick; daily-budget-headroom=1984
+[2026-05-15T08:35:26Z] [b0662-phase8] script START scripts/batch_0662_phase8_reverify.py seed=phase8-reverify-2026-05-15-b0662 pool=1928 sample=8
+2026-05-15T08:36:01Z	b0662-phase8	REVERIFY_RESULT	id=si-zm-2020-061-electoral-process-local-government-by-election-election-date-and-time-of-poll-no-5-order-2020	verdict=drift	bytes=39473
+2026-05-15T08:36:01Z	b0662-phase8	REVERIFY_RESULT	id=act-zm-1985-016-appropriation-act-1985	verdict=drift	bytes=39731
+2026-05-15T08:36:01Z	b0662-phase8	REVERIFY_RESULT	id=si-zm-2013-007-land-tribunal-fees-regulations-2013	verdict=match	bytes=103075
+2026-05-15T08:36:01Z	b0662-phase8	REVERIFY_RESULT	id=act-zm-2005-008-supplementary-appropriation-2003-act	verdict=drift	bytes=38761
+2026-05-15T08:36:01Z	b0662-phase8	REVERIFY_RESULT	id=act-zm-1961-015-bills-of-sale-registration-act-1961	verdict=drift	bytes=40216
+2026-05-15T08:36:01Z	b0662-phase8	REVERIFY_RESULT	id=act-zm-2021-010-the-petroleum-exploration-and-production-amendment-act-2021	verdict=match	bytes=9686
+2026-05-15T08:36:01Z	b0662-phase8	REVERIFY_RESULT	id=si-zm-2020-043-electoral-process-local-government-by-election-election-date-and-time-of-poll-no-4-order-2020	verdict=drift	bytes=39476
+2026-05-15T08:36:01Z	b0662-phase8	REVERIFY_RESULT	id=act-zm-2021-009-the-national-institute-of-public-administration-amendment-act-2021	verdict=match	bytes=107514
+[2026-05-15T08:36:01Z] [b0662-phase8] script END pool=1928 sample=8 match=3 drift=5 fetch_error=0 fetches=8 elapsed=35s
+[2026-05-15T08:36:01Z] [b0662-phase8] integrity CHECK1-CHECK8 all PASS (sums-balance,unique-ids,64-hex,stored==ondisk,no-record-mutated,corpus.sqlite-untouched,UA-honest,rate-limits-respected)
+[2026-05-15T08:36:01Z] [b0662-phase8] reports/batch-0662.md WROTE; reports/batch-0662-reverify.json WROTE
+[2026-05-15T08:36:01Z] [b0662-phase8] gaps.md APPEND 5-drift-entries (all zambialii AKN-HTML dynamic_render_drift); provenance.log+costs.log+worker.log APPEND
+[2026-05-15T08:36:01Z] [b0662-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation
