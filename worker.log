@@ -8088,3 +8088,47 @@ On tree pag
 [2026-05-15T07:34:32Z] [repair-b0659] tick complete fixed=8 failed=0 elapsed=81.1s
 [2026-05-15T07:34:32Z] [repair-b0659] report written: repair-batch-b0659.md
 [2026-05-15T07:34:39Z] repair-b0659 B2 sync deferred to host (rclone unavailable in worker env)
+[2026-05-15T07:44:17Z] [repair-b0659] GIT_COMMIT verdict=committed commit=7c179bf files=5(scripts/repair_b0659.py+reports/repair-batch-b0659.md+worker.log+gaps.md+costs.log) insertions=584 corpus.sqlite=NOT-staged-gitignored
+[2026-05-15T07:44:17Z] [repair-b0659] GIT_PUSH verdict=push-ok remote=origin/main range=424619f..7c179bf via=b0659-cherry-branch-cherry-pick-recovery (FUSE-EPERM-on-rebase-required-fresh-branch-from-origin-main)
+[2026-05-15T07:44:17Z] [repair-b0659] FINAL verdict=tick-complete fixed=8 failed=0 discovered=137 integrity=OK records=1925 records_fts=1925 next=b0660-repair-or-jiw-per-next-scheduled-task
+2026-05-15T08:04:41Z	b0660-phase8	START	worker=phase8-nightly-reverify	tick=b0660-phase8	parent_commit=7c179bf	script=scripts/batch_0660_phase8_reverify.py(verbatim-clone-of-frozen-baseline-batch_0546_phase8_reverify.py-only-BATCH-constant-and-docstring-id-changed)
+2026-05-15T08:04:41Z	b0660-phase8	GIT_PULL	verdict=Already-up-to-date(main@7c179bf)	stale-lock-cleanup=find-.git-name-lock-delete-attempted-FUSE-EPERM-on-maintenance.lock-non-blocking-as-prior-ticks
+2026-05-15T08:04:41Z	b0660-phase8	APPROVALS_READ	phase=phase_8_nightly_reverify	approved=true	complete=false	sample_rate=0.01	lowest-numbered-approved-incomplete=phase_8
+2026-05-15T08:04:41Z	b0660-phase8	BUDGET_CHECK	today_cumulative_pre_tick=8/2000-fetches(from-b0655-phase8)	tokens_used=0/1000000	well-under-cap
+2026-05-15T08:04:41Z	b0660-phase8	POOL	records-discovered-with-source_url-and-source_hash=1928	sample_size=8(min(MAX_BATCH=8,ceil(1928*0.01)=20))	seed=phase8-reverify-2026-05-15-b0660	pool-growth-vs-b0655=+3-(b0658-jiw-ZMSC-2024-gap-fill)
+2026-05-15T08:05:05Z	b0660-phase8	FETCHES	count=8	hosts=zambialii.org+www.parliament.gov.zm+media.zambialii.org	per-host-rate-limits=honoured(zambialii=5s,parliament=2s)	user-agent=KateWestonLegal-CorpusBuilder/1.0(contact:peter@bilcoguard.com)	robots=respected	all-HTTP-200
+2026-05-15T08:05:05Z	b0660-phase8	VERDICTS	match=4	drift=4	fetch_error=0	drift-pattern=all-on-zambialii-AKN-HTML(known-dynamic-rendering)	matches-on-static-PDFs(parliament+media.zambialii.org)
+2026-05-15T08:05:05Z	b0660-phase8	DRIFT_DETAIL	judgment-zm-2022-zmsc-07-mpoha-and-anor-v-salvator(zambialii-akn-html)	si-zm-2018-039-levy-mwanawasa-medical-university-declaration-order-2018(zambialii-akn-html)	act-zm-1962-047-human-tissue-act-1962(zambialii-akn-html)	act-zm-2016-049-appropriation-act(zambialii-akn-html)
+2026-05-15T08:05:05Z	b0660-phase8	INTEGRITY	CHECK1-json-shape=PASS	CHECK2-no-dup-ids=PASS	CHECK3-sha256-well-formed=PASS	CHECK4-stored-hash-matches-disk=PASS	CHECK5-records-not-mutated=PASS	CHECK6-no-sqlite-no-records-no-approvals-mutation=PASS	CHECK7-rate-limits-honoured=PASS	CHECK8-user-agent-honest=PASS
+2026-05-15T08:05:05Z	b0660-phase8	GIT_POLICY	corpus.sqlite=NOT-touched(read-only-Phase-8)	records=NOT-touched(read-only-Phase-8)	approvals.yaml=NOT-modified	judges_registry.yaml=NOT-touched	staged=scripts/batch_0660_phase8_reverify.py+reports/batch-0660-reverify.json+reports/batch-0660.md+worker.log+costs.log+gaps.md+provenance.log
+2026-05-15T08:05:05Z	b0660-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-15T08:05:05Z	b0660-phase8	APPROVALS	phase_8_nightly_reverify	approved=true(unchanged)	complete=false(unchanged-continuous-nightly-cycle)	approvals.yaml-NOT-modified
+2026-05-15T08:05:05Z	b0660-phase8	STOP	verdict=tick-complete-8-sampled-4-match-4-drift-0-error	wall-clock=~24s-well-under-20min-budget	next=b0661-phase8-or-jiw-per-next-scheduled-task
+2026-05-15T08:11:30Z	b0660-phase8	GIT_COMMIT_DEFERRED	verdict=commit-blocked-by-stuck-.git/index.lock(FUSE-EPERM-cannot-unlink-0-byte-lock-owned-by-our-UID)	retried=5x-with-progressive-sleep-up-to-25s	all-failed=fatal:Unable-to-create-.git/index.lock:File-exists	root-cause=chronic-FUSE-bindfs-EPERM-on-git-lockfiles-(b0652-b0655-b0658-precedent)	host-action-required=rm-.git/index.lock-host-side-OR-next-tick-on-fresh-sandbox-will-pick-up-staged+unstaged-changes
+2026-05-15T08:11:30Z	b0660-phase8	GIT_COMMIT_DEFERRED	on-disk-and-ready-for-next-tick=scripts/batch_0660_phase8_reverify.py(NEW)+reports/batch-0660-reverify.json(NEW)+reports/batch-0660.md(NEW)+worker.log(modified)+costs.log(modified)+gaps.md(modified)+provenance.log(modified)	corpus.sqlite=NOT-touched	records=NOT-touched	approvals.yaml=NOT-modified	judges_registry.yaml=NOT-touched
+2026-05-15T08:11:30Z	b0660-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-15T08:11:30Z	b0660-phase8	FINAL	verdict=batch-complete-data-on-disk-commit-deferred	sampled=8	match=4	drift=4(all-zambialii-akn-html)	fetch_error=0	all-8-integrity-checks-PASS	commit-and-push=DEFERRED-due-to-stuck-index.lock-not-removable-from-sandbox	next=b0661-will-clear-lock-and-pick-up-these-7-files-(per-b0653-b0654-precedent)
+[2026-05-15T10:17:00Z] [repair-b0661] tick START worker=repair-corpus parent_commit=7c179bf scheduled-task=Repair-corpus-v4
+[2026-05-15T10:17:00Z] [repair-b0661] discovery condA=0 condB=129 condC=0 total_needing_repair=129 (acts/SIs only; judgments excluded)
+[2026-05-15T10:17:00Z] [repair-b0661] FUSE-EPERM-on-direct-sqlite-write detected; using /tmp/b0659_recover staging-DB pattern (precedent: b0654/b0656/b0657)
+[2026-05-15T10:17:00Z] [repair-b0661] repair START si-zm-2019-077-chembe-town-council-sugar-cane-levy-by-laws-2019 <- https://zambialii.org/akn/zm/act/si/2019/77
+[2026-05-15T10:17:05Z] [repair-b0661] repair OK si-zm-2019-077-chembe-town-council-sugar-cane-levy-by-laws-2019 chars=2174 sha=8306a487 elapsed=4.5s
+[2026-05-15T10:17:06Z] [repair-b0661] repair START si-zm-2019-078-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/78
+[2026-05-15T10:17:11Z] [repair-b0661] repair OK si-zm-2019-078-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019 chars=984 sha=bd913852 elapsed=4.5s
+[2026-05-15T10:17:12Z] [repair-b0661] repair START si-zm-2019-081-animal-health-notifiable-diseases-regulations-2019 <- https://zambialii.org/akn/zm/act/si/2019/81
+[2026-05-15T10:17:17Z] [repair-b0661] repair OK si-zm-2019-081-animal-health-notifiable-diseases-regulations-2019 chars=2476 sha=91aaef5b elapsed=4.5s
+[2026-05-15T10:17:18Z] [repair-b0661] repair START si-zm-2020-002-national-assembly-by-election-chilubi-constituency-no-095-election-date-and-time-of-poll-order-2020 <- https://zambialii.org/akn/zm/act/si/2020/2
+[2026-05-15T10:17:23Z] [repair-b0661] repair OK si-zm-2020-002-national-assembly-by-election-chilubi-constituency-no-095-election-date-and-time-of-poll-order-2020 chars=2004 sha=53ca8519 elapsed=4.5s
+[2026-05-15T10:17:24Z] [repair-b0661] repair START si-zm-2020-003-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2020 <- https://zambialii.org/akn/zm/act/si/2020/3
+[2026-05-15T10:17:29Z] [repair-b0661] repair OK si-zm-2020-003-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2020 chars=1709 sha=6bac1fae elapsed=4.5s
+[2026-05-15T10:17:30Z] [repair-b0661] repair START si-zm-2020-004-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2020 <- https://zambialii.org/akn/zm/act/si/2020/4
+[2026-05-15T10:17:35Z] [repair-b0661] repair OK si-zm-2020-004-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2020 chars=1734 sha=6c004f8d elapsed=4.5s
+[2026-05-15T10:17:36Z] [repair-b0661] repair START si-zm-2020-005-urban-and-regional-planning-designated-local-planning-authority-regulations-2020 <- https://zambialii.org/akn/zm/act/si/2020/5
+[2026-05-15T10:17:41Z] [repair-b0661] repair OK si-zm-2020-005-urban-and-regional-planning-designated-local-planning-authority-regulations-2020 chars=1013 sha=2cbcc536 elapsed=4.5s
+[2026-05-15T10:17:42Z] [repair-b0661] repair START si-zm-2020-009-urban-and-regional-planning-designated-local-planning-authorities-regulations-2020 <- https://zambialii.org/akn/zm/act/si/2020/9
+[2026-05-15T10:17:47Z] [repair-b0661] repair OK si-zm-2020-009-urban-and-regional-planning-designated-local-planning-authorities-regulations-2020 chars=967 sha=36204366 elapsed=4.5s
+[2026-05-15T10:17:48Z] [repair-b0661] integrity records=1925 records_fts=1925
+[2026-05-15T10:17:48Z] [repair-b0661] promoted tmpfs db -> /sessions/relaxed-loving-franklin/mnt/corpus/corpus.sqlite (118898688 bytes); journal truncated to 0 bytes
+[2026-05-15T10:17:48Z] [repair-b0661] tick complete fixed=8 failed=0 elapsed=36.0s
+[2026-05-15T10:17:48Z] [repair-b0661] report written: repair-batch-b0661.md
+[2026-05-15T10:17:48Z] repair-b0661 B2 sync deferred to host (rclone unavailable in worker env)

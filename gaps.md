@@ -9992,3 +9992,26 @@ No new judges added — all 6 panel members (Muyovwe, Hamaundu, Chinyama, Mutuna
 2. **Second**: if wall clock allows, start priority-(d) ZMCC 2025 gap survey (12 candidates outstanding per b0621-jiw).
 3. **Defer**: priority-(b) Judiciary CoA sweep page-9+ until repair-worker drains scanned-PDF backlog (10 records).
 4. **Defer**: ZMSC 2024 #28 (5.9 MB) and #29 (9.0 MB) — large PDFs; budget separately.
+
+## [2026-05-15T08:05Z] Phase 8 reverify drift log — batch 0660
+
+Phase 8 nightly re-verification (`scripts/batch_0660_phase8_reverify.py`, parser_version `phase8-reverify-0.1.0`) sampled 8 records (seed `phase8-reverify-2026-05-15-b0660`) from a pool of 1928. Verdicts: 4 match, 4 drift, 0 fetch_error. All 4 drift verdicts are on **ZambiaLII AKN-HTML** pages, which dynamically render their HTML (timestamps/footer counters embedded in the response) — same pattern as b0641, b0642, b0652, b0653, b0655. None of the on-disk records were mutated by this tick.
+
+Drift entries flagged for a future approved remediation pass (not auto-overwritten per BRIEF.md non-negotiable #4):
+
+- **judgment-zm-2022-zmsc-07-mpoha-and-anor-v-salvator** — `https://zambialii.org/akn/zm/judgment/zmsc/2022/7/eng@2022-02-22`
+  - stored sha256: `1dcc98620f2c95b6c8c5379418f00701c55072b1ee08755dc7afef2dbc824499`
+  - fetched sha256: `fd103a73c3d57f3793264d721f626f0cc8effffab8725ebf1a47b953077bc581` (42217 bytes, HTTP 200)
+- **si-zm-2018-039-levy-mwanawasa-medical-university-declaration-order-2018** — `https://zambialii.org/akn/zm/act/si/2018/39`
+  - stored sha256: `908f9e74f1335fd5f324fd9ab9f03a87d9854471ac4dff2176fa206f4d92f4a4`
+  - fetched sha256: `df53a244de7db515498c978091a85831ba64628657d2cad6171411215033084b` (39216 bytes, HTTP 200)
+- **act-zm-1962-047-human-tissue-act-1962** — `https://zambialii.org/akn/zm/act/1962/47/eng@1996-12-31`
+  - stored sha256: `7a357a3e2363d9656bd8de06693bab964e40cd90c154c7e6d89f351fd1880922`
+  - fetched sha256: `09b2be55306f9c01d1aea41725941ff133b4bddc01b6338a3e8de4d12d3ee7a0` (48911 bytes, HTTP 200)
+- **act-zm-2016-049-appropriation-act** — `https://zambialii.org/akn/zm/act/2016/49/eng@2016-12-27`
+  - stored sha256: `908fd53c140fba509d0730aee7875e61b34cdd1d6c2af6b47f351b1eadae9955`
+  - fetched sha256: `653eb8445fa951c448b13ecb66c5f92dd7133b6a41d91103a54e4c51ba4ea6b2` (38315 bytes, HTTP 200)
+
+Reason: `zambialii_akn_html_dynamic_render_drift` — same root cause as prior Phase 8 batches. Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected zambialii AKN-HTML records and updates their `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to the static `source.pdf` Akoma Ntoso publication PDF on media.zambialii.org. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
+
+Match verdicts (no action needed): act-zm-2016-016 (parliament.gov.zm), act-zm-2021-016 (parliament.gov.zm), act-zm-2004-014 (media.zambialii.org source.pdf), act-zm-cap-175 (parliament.gov.zm).

@@ -6178,3 +6178,16 @@ si-zm-2019-023-electoral-process-local-government-by-elections-election-date-and
 [2026-05-15T07:34:05Z] repair-b0659 si-zm-2019-064-control-of-goods-import-and-export-agriculture-prohibition-of-export-order-2019 bytes_pdf=36074 bytes_body=4926 elapsed=4.6s
 [2026-05-15T07:34:14Z] repair-b0659 si-zm-2019-069-palabana-university-declaration-order-2019 bytes_pdf=75515 bytes_body=739 elapsed=4.7s
 [2026-05-15T07:34:24Z] repair-b0659 si-zm-2019-076-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-5-order-2019 bytes_pdf=16026 bytes_body=1907 elapsed=4.8s
+2026-05-15T08:05:05Z	b0660-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=16/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1928	sample_size=8
+2026-05-15T08:05:05Z	b0660-phase8	NETWORK_FETCHES	zambialii.org=4(AKN-HTML)	www.parliament.gov.zm=3(static-PDF)	media.zambialii.org=1(source-PDF)	total=8	all-HTTP-200	robots=respected
+2026-05-15T08:05:05Z	b0660-phase8	BANDWIDTH	zambialii-AKN-HTML-4xrecords=~168KB(42217+39216+48911+38315)	parliament-static-PDF-3xrecords=~198KB(93095+9834+95004)	media.zambialii-source-PDF-1xrecord=~6.15MB(6154917)	total≈6.5MB-down	llm-tokens=0
+2026-05-15T08:05:05Z	b0660-phase8	WALL_CLOCK	~24s(8-fetches-with-host-rate-limits-honoured)	well-within-20min-budget
+2026-05-15T08:05:05Z	b0660-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+[2026-05-15T10:17:05Z] repair-b0661 si-zm-2019-077-chembe-town-council-sugar-cane-levy-by-laws-2019 bytes_pdf=16719 bytes_body=2174 elapsed=4.5s
+[2026-05-15T10:17:11Z] repair-b0661 si-zm-2019-078-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019 bytes_pdf=14060 bytes_body=984 elapsed=4.5s
+[2026-05-15T10:17:17Z] repair-b0661 si-zm-2019-081-animal-health-notifiable-diseases-regulations-2019 bytes_pdf=154987 bytes_body=2476 elapsed=4.5s
+[2026-05-15T10:17:23Z] repair-b0661 si-zm-2020-002-national-assembly-by-election-chilubi-constituency-no-095-election-date-and-time-of-poll-order-2020 bytes_pdf=11652 bytes_body=2004 elapsed=4.5s
+[2026-05-15T10:17:29Z] repair-b0661 si-zm-2020-003-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2020 bytes_pdf=11272 bytes_body=1709 elapsed=4.5s
+[2026-05-15T10:17:35Z] repair-b0661 si-zm-2020-004-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2020 bytes_pdf=11187 bytes_body=1734 elapsed=4.5s
+[2026-05-15T10:17:41Z] repair-b0661 si-zm-2020-005-urban-and-regional-planning-designated-local-planning-authority-regulations-2020 bytes_pdf=9518 bytes_body=1013 elapsed=4.5s
+[2026-05-15T10:17:47Z] repair-b0661 si-zm-2020-009-urban-and-regional-planning-designated-local-planning-authorities-regulations-2020 bytes_pdf=9429 bytes_body=967 elapsed=4.5s
