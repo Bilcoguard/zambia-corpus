@@ -10262,3 +10262,37 @@ All `stored sha256` and `fetched sha256` values above are verbatim from `reports
 - **si-zm-2011-004-workers-compensation-permanent-disablementcommutation-of-pension-regulation-2011** — zambialii.org (no `www`) AKN `/source.pdf` (109,382 B)
 
 Cumulative stable-PDF supercohort after b0671: parliament.gov.zm + media.zambialii.org + zambialii.org (no-`www`) AKN `/source.pdf` continue to dominate the match column; the single `www.zambialii.org` `/source.pdf` drift on `si-zm-2009-042` is the only signal worth operator attention from this tick.
+
+## 2026-05-15T12:35:07Z — Phase 8 b0672 nightly re-verification — 5 drift entries
+
+Source: `reports/batch-0672.md` + `reports/batch-0672-reverify.json` (verbatim machine output of `scripts/batch_0672_phase8_reverify.py`).
+
+**Five AKN-HTML dynamic-render drifts** (continuation of the established cohort; same root cause as prior Phase 8 batches — ZambiaLII AKN-HTML pages render per-request timestamps/footer counters that drift the response sha256 even though the legal content is unchanged):
+
+- **act-zm-1993-028-zambia-revenue-authority-act-1993** — `https://zambialii.org/akn/zm/act/1993/28/eng@1996-12-31`
+  - stored sha256: `54a183721078389359a06b61735f112a9fa67ecb8724407f7339356cda2a3d7a`
+  - fetched sha256: `9c390aecddcaf6d0f0d5fe3f3b3824040afdbc3427073b81e10c16f8aecd1d9d` (133489 bytes, HTTP 200)
+- **act-zm-cap-88-criminal-procedure-code** — `https://zambialii.org/akn/zm/act/1933/23/eng@1996-12-31`
+  - stored sha256: `d5b006a87e9f5c6b856e5c4c4926a3669999fa5a06700aec09bd1f3308ada86e`
+  - fetched sha256: `75a9e1dd63a09890f8b34ab26961d71dd14d4d5b494ec489c50301af189752b8` (1399976 bytes, HTTP 200)
+- **act-zm-1993-029-supplementary-appropriation-1991-act** — `https://zambialii.org/akn/zm/act/1993/29/eng@1993-09-08`
+  - stored sha256: `405180374ab28eda4a9e6d135795bd17376f25d08e8b8bd04826025d3fe059eb`
+  - fetched sha256: `13903ce38b18a3ba218b296bee23bc452f29f4f5dd5cdc451d9d4c9bdebf0535` (38798 bytes, HTTP 200)
+- **act-zm-2023-029-appropriation-act** — `https://zambialii.org/akn/zm/act/2023/29/eng@2023-12-26`
+  - stored sha256: `ddc377025fc13121ef9591866a6f700af3592056cc5ef7ccd11726cbe73b877d`
+  - fetched sha256: `ad11ffdb699782cd036e72461e8cc3069038551873645d5d287a73048dccbc90` (39752 bytes, HTTP 200)
+- **act-zm-2011-032-appropriation-act** — `https://zambialii.org/akn/zm/act/2011/32/eng@2011-12-29`
+  - stored sha256: `076ad2901f952323bd7c46ae4feabf40650b055ba531f375b36fc2c079b2550b`
+  - fetched sha256: `56d26b279753f930e83471e24858cd670b8c2b029d71413d45499dff213ae978` (38624 bytes, HTTP 200)
+
+Reason: `zambialii_akn_html_dynamic_render_drift` for all five entries. Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected records and updates `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to a static `source.pdf` Akoma Ntoso publication PDF on `zambialii.org`/`www.zambialii.org`/`media.zambialii.org` where one is available. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
+
+All `stored sha256` and `fetched sha256` values above are verbatim from `reports/batch-0672-reverify.json` (the verbatim machine output of `scripts/batch_0672_phase8_reverify.py`). NO values in this gaps.md entry were hand-typed or re-constructed — the same anti-fabrication protocol introduced in b0668 (PRE-COMMIT-FABRICATION-CHECK) was honoured.
+
+### Match verdicts (no action needed)
+
+- **act-zm-1996-021-actions-for-smoke-damage-prohibition-repeal-1996** — zambialii.org (AKN /source.pdf, 149,298 B)
+- **act-zm-2010-037-bretton-woods-agreements-ammendment** — www.parliament.gov.zm (static PDF, 14,258 B)
+- **act-zm-cap-250-cattle-slaughter-control-act** — www.parliament.gov.zm (static PDF, 76,666 B)
+
+Cumulative stable-PDF supercohort after b0672: parliament.gov.zm + media.zambialii.org + zambialii.org (no-`www`) AKN `/source.pdf` continue to dominate the match column. No new first-observation or cross-cohort signals this tick.

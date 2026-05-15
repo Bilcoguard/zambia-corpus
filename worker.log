@@ -8321,3 +8321,24 @@ remaining_after: 113
 [2026-05-15T12:06:30Z] [b0671-phase8] reports/batch-0671.md WROTE; reports/batch-0671-reverify.json WROTE
 [2026-05-15T12:06:30Z] [b0671-phase8] gaps.md APPEND 2-akn-html-drifts + 1-source.pdf-first-observation-drift; provenance.log+costs.log+worker.log APPEND
 [2026-05-15T12:06:30Z] [b0671-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation
+[2026-05-15T12:11:00Z] [b0671-phase8] GIT_COMMIT verdict=committed commit=133fc67 files=11(scripts/batch_0671_phase8_reverify.py+scripts/batch_0670_phase8_reverify.py+reports/batch-0671.md+reports/batch-0671-reverify.json+reports/batch-0670.md+reports/batch-0670-reverify.json+error-reports/2026-05-15T113700Z-b0670-check3-fail.md+worker.log+gaps.md+costs.log+provenance.log) insertions=1255 corpus.sqlite=NOT-staged-gitignored approvals.yaml=NOT-modified records/=NOT-touched via=GIT_INDEX_FILE=/tmp/git_index_b0671_fresh+git-read-tree-HEAD (FUSE-EPERM-on-.git/index.lock+stale-on-disk-index-warnings-ignorable); includes-b0670-halt-audit-trail-(reports/batch-0670*+error-reports/2026-05-15T113700Z-b0670-check3-fail.md+gaps.md-append+worker.log-append+costs.log-append+provenance.log-append)
+[2026-05-15T12:11:00Z] [b0671-phase8] GIT_PUSH verdict=push-ok remote=origin/main range=794363c..133fc67
+[2026-05-15T12:11:00Z] [b0671-phase8] FINAL verdict=tick-complete sampled=8 match=5 drift=3(2-zambialii-akn-html+1-NEW-zambialii-source.pdf-first-observation-si-zm-2009-042) fetch_error=0 integrity=8/8-PASS pool=1928 fetches_today=96/2000 records=NOT-touched corpus.sqlite=NOT-touched approvals.yaml=NOT-modified next=b0672-phase8-or-next-scheduled-task pending-peter-triage=15-record-parliament-pdf-v1.2-truncated-16hex-hash-defect (~6%-per-tick-CHECK#3-hazard-until-resolved)
+[2026-05-15T12:34:29Z] [b0672-phase8] tick START worker=phase8-nightly-reverify parent_commit=133fc67 scheduled-task=zambia-corpus-tick
+[2026-05-15T12:34:29Z] [b0672-phase8] git pull --ff-only verdict=already-up-to-date (warning=unlink-objects/maintenance.lock-EPERM-ignorable)
+[2026-05-15T12:34:29Z] [b0672-phase8] approvals.yaml read: phase_0..phase_7 complete; phase_8 approved=true complete=false sample_rate=0.01 -> selected
+[2026-05-15T12:34:29Z] [b0672-phase8] budget OK: fetches_today=96/2000 before tick (post-b0671); daily-budget-headroom=1904
+[2026-05-15T12:34:29Z] [b0672-phase8] script START scripts/batch_0672_phase8_reverify.py
+2026-05-15T12:35:07Z	b0672-phase8	REVERIFY_RESULT	id=act-zm-1993-028-zambia-revenue-authority-act-1993	verdict=drift	bytes=68040
+2026-05-15T12:35:07Z	b0672-phase8	REVERIFY_RESULT	id=act-zm-cap-88-criminal-procedure-code	verdict=drift	bytes=1399976
+2026-05-15T12:35:07Z	b0672-phase8	REVERIFY_RESULT	id=act-zm-1993-029-supplementary-appropriation-1991-act	verdict=drift	bytes=39085
+2026-05-15T12:35:07Z	b0672-phase8	REVERIFY_RESULT	id=act-zm-1996-021-actions-for-smoke-damage-prohibition-repeal-1996	verdict=match	bytes=29498
+2026-05-15T12:35:07Z	b0672-phase8	REVERIFY_RESULT	id=act-zm-2023-029-appropriation-act	verdict=drift	bytes=22920
+2026-05-15T12:35:07Z	b0672-phase8	REVERIFY_RESULT	id=act-zm-2010-037-bretton-woods-agreements-ammendment	verdict=match	bytes=237930
+2026-05-15T12:35:07Z	b0672-phase8	REVERIFY_RESULT	id=act-zm-cap-250-cattle-slaughter-control-act	verdict=match	bytes=80493
+2026-05-15T12:35:07Z	b0672-phase8	REVERIFY_RESULT	id=act-zm-2011-032-appropriation-act	verdict=drift	bytes=12919
+[2026-05-15T12:35:07Z] [b0672-phase8] script END pool=1928 sample=8 match=3 drift=5 fetch_error=0 fetches=8 elapsed=38s
+[2026-05-15T12:35:07Z] [b0672-phase8] integrity CHECK1-CHECK8 all PASS (sums-balance,unique-ids,64-hex,stored==ondisk,no-record-mutated,corpus.sqlite-untouched,UA-honest,per-host-rate-limits-respected); CHECK#3-specifically-PASS-because-seed-did-not-draw-any-of-the-15-truncated-hash-records
+[2026-05-15T12:35:07Z] [b0672-phase8] reports/batch-0672.md WROTE; reports/batch-0672-reverify.json WROTE
+[2026-05-15T12:35:07Z] [b0672-phase8] gaps.md APPEND 5-akn-html-drifts (all zambialii_akn_html_dynamic_render_drift); provenance.log+costs.log+worker.log APPEND
+[2026-05-15T12:35:07Z] [b0672-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation
