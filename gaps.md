@@ -10183,3 +10183,82 @@ Both `stored sha256` and `fetched sha256` values above are verbatim from `report
 - **si-zm-2015-085-education-teacher-training-college-boards-establishment-order-2015** — zambialii.org AKN source.pdf
 - **act-zm-2012-002-the-aviation-amendment-act-2012** — www.parliament.gov.zm static PDF (confirms parliament-route stability)
 - **si-zm-2021-102-customs-and-excise-electronic-machinery-and-equipment-suspension-regulations-2021** — zambialii.org AKN source.pdf
+
+## Phase 8 b0670 — Nightly re-verification (HALT — CHECK #3 FAIL) (2026-05-15T11:37:00Z)
+
+Sampled 8 of 1928 records (seed `phase8-reverify-2026-05-15-b0670`, sample_rate 0.01). 3 match, 5 drift, 0 fetch_error. **Tick HALTED without committing** per BRIEF.md / tick-protocol step 6 — one of the five "drift" verdicts is an artefact of a CHECK #3 failure (malformed stored `source_hash`), not a real content drift. Records were NOT mutated by this tick — this gaps.md entry is the audit trail only.
+
+### CHECK #3 fail entry (1) — `parliament_pdf_v1_2_truncated_16hex_source_hash` (NEW reason code)
+
+- **act-zm-2020-021-customs-and-excise-amendment-act-2020** — `https://www.parliament.gov.zm/sites/default/files/documents/amendment_act/The%20Customs%20and%20Excise%20%28Amendment%29%20Act%20No.%2021%20of%202020.pdf`
+  - stored source_hash (verbatim on-disk, malformed): `sha256:ca6c004832232876` (16 hex chars after the `sha256:` prefix — violates BRIEF.md non-negotiable #2)
+  - fetched sha256 (verbatim from `reports/batch-0670-reverify.json`): `ca6c004832232876a86f28cfd8b955fa6f119b7844bb2c2759db427006a2dfc2` (46443 bytes, HTTP 200)
+  - parser_version recorded on the record: `parliament-pdf-v1.2`
+  - originally fetched (record `fetched_at`): 2026-04-10T22:24:30.499259+00:00
+  - prefix-match observation: the first 16 hex chars of the fetched 64-hex digest exactly equal the stored 16-hex prefix → strong evidence the file body is unchanged from the original snapshot, but the stored hash is too short to verify formally.
+
+Reason: `parliament_pdf_v1_2_truncated_16hex_source_hash` — first observation of a malformed stored `source_hash` in the Phase 8 series. A read-only scan of `records/**/*.json` done by this tick (no extra fetches consumed) identified **15 records** with the same defect, all `parliament-pdf-v1.2`, all ids `act-zm-2020-009` through `act-zm-2020-024` (with `act-zm-2020-010` absent from the corpus). Full enumeration: `error-reports/2026-05-15T113700Z-b0670-check3-fail.md` (sections A and B; A is the 15 truncated-hash records, B is the orthogonal 14-empty-hash class flagged for operator context only). Remediation requires Peter approval (BRIEF.md non-negotiable #4); two options (re-snapshot the 15 records to capture the full 64-hex digest, or bump parser to `parliament-pdf-v1.3` and re-ingest) are documented in the error-report. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
+
+### Drift entries (4) — `zambialii_akn_html_dynamic_render_drift`
+
+- **act-zm-2017-005-national-technical-regulation-act-2017** — `https://www.zambialii.org/akn/zm/act/2017/5/eng@2017-04-13`
+  - stored sha256: `7baca246bf01eb7620054cb10e9ed632dd78ebf9f380122b3ebfefa057a15268`
+  - fetched sha256: `96afca878ee18d6b7041a5f1da0d88777a6a8a9d2c8c57690c75d306bb80d5d9` (41832 bytes, HTTP 200)
+- **act-zm-1979-022-public-officers-pensions-zambia-agreement-implementation-act** — `https://zambialii.org/akn/zm/act/1979/22/eng@1996-12-31`
+  - stored sha256: `579335178005378d4cf0a07d16a7ff88753dfa61ce4d99937f84be8ab64acc5d`
+  - fetched sha256: `1ab49ee91c5a53dbd1f140d361395fb587aa47566b293b4236ed943e6bc1d456` (78859 bytes, HTTP 200)
+- **si-zm-2021-087-national-assembly-by-election-kabwata-constituency-no-77-election-date-and-time-of-poll-no-3-order-2021** — `https://zambialii.org/akn/zm/act/si/2021/87`
+  - stored sha256: `fa412291573c5f3bb98af3d3806dec572aa9f5dfc46209e64a0309d475d63b79`
+  - fetched sha256: `6ed81b724cea8c212a73705bea59462964c0347c4bd37ccceeabb133b622889c` (39548 bytes, HTTP 200)
+- **act-zm-1984-005-excess-expenditure-appropriation-1981-act-1984** — `https://zambialii.org/akn/zm/act/1984/5/eng@1984-03-30`
+  - stored sha256: `04b5f3b06c570d29453d3af739ce31f98bec9822a3c302ffe6a2a44d5641bb2d`
+  - fetched sha256: `9ac78854095395f52dc254cebb90535ee493df49b9cd3f95ad21e189bcc89716` (38805 bytes, HTTP 200)
+
+Reason: `zambialii_akn_html_dynamic_render_drift` for all four entries (same root cause as prior Phase 8 batches — ZambiaLII AKN-HTML pages render per-request timestamps/footer counters that drift the response sha256 even though the legal content is unchanged). Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected records and updates `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to a static `source.pdf` Akoma Ntoso publication PDF on `zambialii.org`/`www.zambialii.org`/`media.zambialii.org` where one is available. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
+
+All `stored sha256` and `fetched sha256` values above are verbatim from `reports/batch-0670-reverify.json` (the verbatim machine output of `scripts/batch_0670_phase8_reverify.py`). NO values in this gaps.md entry were hand-typed or re-constructed — the same anti-fabrication protocol introduced in b0668 (PRE-COMMIT-FABRICATION-CHECK) was honoured.
+
+### Match verdicts (no action needed)
+
+- **act-zm-2016-022-the-industrial-design** — www.parliament.gov.zm static PDF (confirms parliament-route stability)
+- **act-zm-2022-017-the-zambia-development-agency-act-2022-act-no-17-of-2022** — www.parliament.gov.zm static PDF
+- **act-zm-2024-027-property-transfer-tax-2024** — www.parliament.gov.zm static PDF
+
+## Phase 8 b0671 — Nightly re-verification (PASS) (2026-05-15T12:06:30Z)
+
+Sampled 8 of 1928 records (seed `phase8-reverify-2026-05-15-b0671`, sample_rate 0.01). 5 match, 3 drift, 0 fetch_error. Integrity 8/8 PASS — CHECK#3 PASSED because this tick's seed did not draw any of the 15 `parliament-pdf-v1.2` truncated-16-hex stored-hash records flagged by b0670 (those records remain on disk unchanged; remediation still pending Peter triage). Records were NOT mutated by this tick — this gaps.md entry is the audit trail only.
+
+### Drift entries (3)
+
+**Two AKN-HTML `eng@`-suffixed dynamic-render drifts** (well-known cohort, same root cause as prior batches):
+
+- **act-zm-1968-005-gwembe-district-special-fund-dissolution-act-1968** — `https://zambialii.org/akn/zm/act/1968/5/eng@1996-12-31`
+  - stored sha256: `648db2bfd75a531d741c82e495a39ed2d915f091ca375c7d38c1441c5558b4fe`
+  - fetched sha256: `b85c9b5da160596c55b81bd3c899c4ee530cdd822ba36ebae52b264e0aaab884` (50488 bytes, HTTP 200)
+- **act-zm-2014-006-excess-expenditure-appropriation-2011-act** — `https://zambialii.org/akn/zm/act/2014/6/eng@2014-08-05`
+  - stored sha256: `1f4aaa0d0e0e316154ee1cd7ff58fd22a9e5aa3da2e6994a28697b72086a1ce3`
+  - fetched sha256: `c37fa1a397b18b6c6a837fc88b3ecdaa93a1a31cac04cb14601e5eeb14530429` (38805 bytes, HTTP 200)
+
+Reason: `zambialii_akn_html_dynamic_render_drift` for both entries (same root cause as prior Phase 8 batches — ZambiaLII AKN-HTML pages render per-request timestamps/footer counters that drift the response sha256 even though the legal content is unchanged). Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected records and updates `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to a static `source.pdf` Akoma Ntoso publication PDF on `zambialii.org`/`www.zambialii.org`/`media.zambialii.org` where one is available. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
+
+**One first-observation `/source.pdf` drift** (NEW signal — first real drift in the stable-PDF supercohort across 28 Phase 8 ticks):
+
+- **si-zm-2009-042-chiefs-recognition-no-5-order-2009** — `https://www.zambialii.org/akn/zm/act/si/2009/42/eng@2009-07-17/source.pdf`
+  - stored sha256: `79a26153f28b794fd84c2404afd200301cf35fe539e90d95420d7cb645dd308b`
+  - fetched sha256: `8827704a19168c89f88e0d62ac54b561e6767d196faeca13c07eca3d29ad8a3a` (176712 bytes, HTTP 200)
+  - Both hashes are well-formed 64-hex SHA-256 — this is NOT a CHECK#3 truncation artefact, it is a real byte-level drift.
+  - Note the subdomain: this URL uses **`www.zambialii.org`** (with `www`), while the b0671 matching `si-zm-2011-004` `/source.pdf` record uses **`zambialii.org`** (no `www`). Whether the `www`-prefixed host serves a different (re-typeset / re-published) PDF, or whether the underlying publication itself was updated upstream, is unknown to this read-only tick.
+
+Reason: `zambialii_source_pdf_first_observation_drift` — first real drift observed on a `/source.pdf` AKN endpoint in the 28-tick Phase 8 series. Prior cumulative stable-PDF supercohort tally was 173/177 (zero real drifts). One observation is not a cohort-classification change. Remediation requires Peter-led operator inspection: (a) compare the stored vs current PDF body byte-for-byte (or by visible content); (b) determine whether the upstream publication has genuinely been re-issued (which would be a legal-content change worth re-snapshotting and noting on the record) or whether the drift is a transient / CDN artefact; (c) if confirmed as a real re-publication, schedule a bounded re-snapshot tick to update the record's `source_hash` and `fetched_at` and add a note to the record about the re-publication. Until that approval, the record remains on disk unchanged; this entry is the audit trail.
+
+All `stored sha256` and `fetched sha256` values above are verbatim from `reports/batch-0671-reverify.json` (the verbatim machine output of `scripts/batch_0671_phase8_reverify.py`). NO values in this gaps.md entry were hand-typed or re-constructed — the same anti-fabrication protocol introduced in b0668 (PRE-COMMIT-FABRICATION-CHECK) was honoured.
+
+### Match verdicts (no action needed)
+
+- **act-zm-2025-004-cyber-crime-2025** — www.parliament.gov.zm static PDF (350,455 B)
+- **act-zm-2010-040-lands-and-deeds-registry-amendment** — www.parliament.gov.zm static PDF (22,031 B)
+- **loz-plant-pests-and-diseases-act** — www.parliament.gov.zm static PDF (621,186 B; Laws of Zambia consolidated volume)
+- **act-zm-1991-023-national-assembly-staff-act-1991** — media.zambialii.org publication-document static PDF (227,851 B)
+- **si-zm-2011-004-workers-compensation-permanent-disablementcommutation-of-pension-regulation-2011** — zambialii.org (no `www`) AKN `/source.pdf` (109,382 B)
+
+Cumulative stable-PDF supercohort after b0671: parliament.gov.zm + media.zambialii.org + zambialii.org (no-`www`) AKN `/source.pdf` continue to dominate the match column; the single `www.zambialii.org` `/source.pdf` drift on `si-zm-2009-042` is the only signal worth operator attention from this tick.

@@ -6227,3 +6227,15 @@ b0664,2026-05-15T09:13:53Z,repair,zambialii,8,0,~44
 2026-05-15T11:05:07Z	b0669-phase8	BANDWIDTH	total_bytes=961293	avg_kb=117.3	largest=si-zm-1987-009(329464B,zambialii-source.pdf)
 2026-05-15T11:05:07Z	b0669-phase8	WALL_CLOCK	started=2026-05-15T11:04:29Z	completed=2026-05-15T11:05:07Z	elapsed=38s	budget=20min	headroom=19m22s
 2026-05-15T11:05:07Z	b0669-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-15T11:37:00Z	b0670-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=88/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1928	sample_size=8
+2026-05-15T11:37:00Z	b0670-phase8	NETWORK_FETCHES	count=8	hosts=zambialii.org:3,www.zambialii.org:1,www.parliament.gov.zm:4	all-HTTP-200
+2026-05-15T11:37:00Z	b0670-phase8	BANDWIDTH	total_bytes=720670	avg_kb=88.0	largest=act-zm-2022-017(358947B,parliament.gov.zm-static-pdf)
+2026-05-15T11:37:00Z	b0670-phase8	WALL_CLOCK	started=2026-05-15T11:36:35Z	completed=2026-05-15T11:36:53Z	elapsed=18s	budget=20min	headroom=19m42s
+2026-05-15T11:37:00Z	b0670-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-15T11:37:00Z	b0670-phase8	INTEGRITY	check3=FAIL(parliament_pdf_v1_2_truncated_16hex_source_hash:act-zm-2020-021)	others=PASS	tick-verdict=HALT-no-commit-per-BRIEF-step6
+2026-05-15T12:06:30Z	b0671-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=96/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1928	sample_size=8
+2026-05-15T12:06:30Z	b0671-phase8	NETWORK_FETCHES	count=8	hosts=zambialii.org:2,www.zambialii.org:1,media.zambialii.org:1,www.parliament.gov.zm:3,zambialii.org-source.pdf:1	all-HTTP-200
+2026-05-15T12:06:30Z	b0671-phase8	BANDWIDTH	total_bytes=1596910	avg_kb=194.9	largest=loz-plant-pests-and-diseases-act(621186B,www.parliament.gov.zm-static-pdf)
+2026-05-15T12:06:30Z	b0671-phase8	WALL_CLOCK	started=2026-05-15T12:06:02Z	completed=2026-05-15T12:06:30Z	elapsed=28s	budget=20min	headroom=19m32s
+2026-05-15T12:06:30Z	b0671-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-15T12:06:30Z	b0671-phase8	INTEGRITY	all-checks=PASS	check3-pass-reason=seed-did-not-draw-any-of-15-truncated-hash-records-from-b0670	tick-verdict=COMMIT-normal-path-and-include-b0670-halt-diagnostic-in-this-commit-as-audit-trail

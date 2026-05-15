@@ -8278,3 +8278,46 @@ remaining_after: 113
 [2026-05-15T11:05:07Z] [b0669-phase8] reports/batch-0669.md WROTE; reports/batch-0669-reverify.json WROTE
 [2026-05-15T11:05:07Z] [b0669-phase8] gaps.md APPEND 1-drift-entry (zambialii_akn_html_dynamic_render_drift); provenance.log+costs.log+worker.log APPEND
 [2026-05-15T11:05:07Z] [b0669-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation
+[2026-05-15T13:08:30Z] [b0669-phase8] GIT_COMMIT verdict=committed commit=794363c files=7(scripts/batch_0669_phase8_reverify.py+reports/batch-0669.md+reports/batch-0669-reverify.json+worker.log+gaps.md+costs.log+provenance.log) insertions=516 corpus.sqlite=NOT-staged-gitignored approvals.yaml=NOT-modified records/=NOT-touched via=GIT_INDEX_FILE=/tmp/git_index_b0669_fresh+git-read-tree-HEAD (FUSE-EPERM-on-.git/index.lock+stale-on-disk-index-warnings-ignorable)
+[2026-05-15T13:08:30Z] [b0669-phase8] GIT_PUSH verdict=push-ok remote=origin/main range=8bfe493..794363c
+[2026-05-15T13:08:30Z] [b0669-phase8] FINAL verdict=tick-complete sampled=8 match=7 drift=1(zambialii-akn-html-dynamic-render) fetch_error=0 integrity=8/8-PASS pool=1928 fetches_today=80/2000 records=NOT-touched corpus.sqlite=NOT-touched approvals.yaml=NOT-modified next=b0670-phase8-or-next-scheduled-task
+[2026-05-15T11:36:35Z] [b0670-phase8] tick START worker=phase8-nightly-reverify parent_commit=794363c scheduled-task=zambia-corpus-tick
+[2026-05-15T11:36:35Z] [b0670-phase8] git pull --ff-only verdict=already-up-to-date (warning=unlink-objects/maintenance.lock-EPERM-ignorable)
+[2026-05-15T11:36:35Z] [b0670-phase8] approvals.yaml read: phase_0..phase_7 complete; phase_8 approved=true complete=false sample_rate=0.01 -> selected
+[2026-05-15T11:36:35Z] [b0670-phase8] budget OK: fetches_today=80/2000 before tick (post-b0669); daily-budget-headroom=1920
+[2026-05-15T11:36:35Z] [b0670-phase8] script START scripts/batch_0670_phase8_reverify.py
+2026-05-15T11:36:53Z	b0670-phase8	REVERIFY_RESULT	id=act-zm-2016-022-the-industrial-design	verdict=match	bytes=103002
+2026-05-15T11:36:53Z	b0670-phase8	REVERIFY_RESULT	id=act-zm-2017-005-national-technical-regulation-act-2017	verdict=drift	bytes=41832
+2026-05-15T11:36:53Z	b0670-phase8	REVERIFY_RESULT	id=act-zm-1979-022-public-officers-pensions-zambia-agreement-implementation-act	verdict=drift	bytes=78859
+2026-05-15T11:36:53Z	b0670-phase8	REVERIFY_RESULT	id=act-zm-2022-017-the-zambia-development-agency-act-2022-act-no-17-of-2022	verdict=match	bytes=358947
+2026-05-15T11:36:53Z	b0670-phase8	REVERIFY_RESULT	id=act-zm-2020-021-customs-and-excise-amendment-act-2020	verdict=drift(CHECK#3-artefact-stored-hash-16hex-truncated)	bytes=46443
+2026-05-15T11:36:53Z	b0670-phase8	REVERIFY_RESULT	id=act-zm-2024-027-property-transfer-tax-2024	verdict=match	bytes=13234
+2026-05-15T11:36:53Z	b0670-phase8	REVERIFY_RESULT	id=si-zm-2021-087-national-assembly-by-election-kabwata-constituency-no-77-election-date-and-time-of-poll-no-3-order-2021	verdict=drift	bytes=39548
+2026-05-15T11:36:53Z	b0670-phase8	REVERIFY_RESULT	id=act-zm-1984-005-excess-expenditure-appropriation-1981-act-1984	verdict=drift	bytes=38805
+[2026-05-15T11:36:53Z] [b0670-phase8] script END pool=1928 sample=8 match=3 drift=5 fetch_error=0 fetches=8 elapsed=18s
+[2026-05-15T11:37:00Z] [b0670-phase8] integrity CHECK1=PASS CHECK2=PASS CHECK3=FAIL(parliament_pdf_v1_2_truncated_16hex_source_hash;act-zm-2020-021;stored=sha256:ca6c004832232876;16-hex-not-64) CHECK4=PASS CHECK5=PASS CHECK6=PASS CHECK7=PASS CHECK8=PASS
+[2026-05-15T11:37:00Z] [b0670-phase8] CORPUS_WIDE_SCAN: read-only scan of records/**/*.json found 15 truncated-16hex source_hash records (all parliament-pdf-v1.2, all act-zm-2020-009..024 contiguous run except 010-absent) + orthogonal 14 empty-source_hash records (8 chiefs-order + 6 unknown/legislation index records — pool-filtered, not Phase8 hazards). Full enumeration: error-reports/2026-05-15T113700Z-b0670-check3-fail.md
+[2026-05-15T11:37:00Z] [b0670-phase8] reports/batch-0670.md WROTE; reports/batch-0670-reverify.json WROTE; error-reports/2026-05-15T113700Z-b0670-check3-fail.md WROTE
+[2026-05-15T11:37:00Z] [b0670-phase8] gaps.md APPEND 1-CHECK#3-FAIL-entry (parliament_pdf_v1_2_truncated_16hex_source_hash — NEW reason code, first observation of malformed stored-hash in Phase 8 series) + 4-routine-drift-entries (all zambialii_akn_html_dynamic_render_drift); provenance.log+costs.log+worker.log APPEND
+[2026-05-15T11:37:00Z] [b0670-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation
+[2026-05-15T11:37:00Z] [b0670-phase8] GIT_COMMIT verdict=HALT-NO-COMMIT reason=BRIEF.md-step6-CHECK#3-FAIL-do-not-commit-on-integrity-failure approvals.yaml=NOT-modified records/=NOT-touched corpus.sqlite=NOT-touched diagnostic-artefacts=in-working-tree-only (reports/batch-0670.md+reports/batch-0670-reverify.json+error-reports/2026-05-15T113700Z-b0670-check3-fail.md+gaps.md-append+worker.log-append+costs.log-append+provenance.log-append)
+[2026-05-15T11:37:00Z] [b0670-phase8] GIT_PUSH verdict=SKIPPED no-commit-to-push
+[2026-05-15T11:37:00Z] [b0670-phase8] FINAL verdict=tick-HALT sampled=8 match=3 drift=4(routine-zambialii-akn-html-dynamic-render)+1(CHECK#3-artefact-act-zm-2020-021-truncated-16hex-stored-hash) fetch_error=0 integrity=7/8-PASS-1-FAIL pool=1928 fetches_today=88/2000 records=NOT-touched corpus.sqlite=NOT-touched approvals.yaml=NOT-modified next=peter-triage-parliament-pdf-v1.2-truncated-hash-defect-15-records-before-next-phase8-normal-path-commit
+[2026-05-15T12:06:02Z] [b0671-phase8] tick START worker=phase8-nightly-reverify parent_commit=794363c scheduled-task=zambia-corpus-tick predecessor=b0670-phase8-HALT(CHECK#3-FAIL-act-zm-2020-021-truncated-16hex-hash;15-record-corpus-wide-defect-pending-peter-triage)
+[2026-05-15T12:06:02Z] [b0671-phase8] git pull --ff-only verdict=already-up-to-date (warning=unlink-objects/maintenance.lock-EPERM-ignorable)
+[2026-05-15T12:06:02Z] [b0671-phase8] approvals.yaml read: phase_0..phase_7 complete; phase_8 approved=true complete=false sample_rate=0.01 -> selected
+[2026-05-15T12:06:02Z] [b0671-phase8] budget OK: fetches_today=88/2000 before tick (post-b0670); daily-budget-headroom=1912
+[2026-05-15T12:06:02Z] [b0671-phase8] script START scripts/batch_0671_phase8_reverify.py
+2026-05-15T12:06:30Z	b0671-phase8	REVERIFY_RESULT	id=act-zm-2025-004-cyber-crime-2025	verdict=match	bytes=350455
+2026-05-15T12:06:30Z	b0671-phase8	REVERIFY_RESULT	id=si-zm-2009-042-chiefs-recognition-no-5-order-2009	verdict=drift(FIRST-source.pdf-observation;www.zambialii.org-subdomain)	bytes=176712
+2026-05-15T12:06:30Z	b0671-phase8	REVERIFY_RESULT	id=act-zm-2010-040-lands-and-deeds-registry-amendment	verdict=match	bytes=22031
+2026-05-15T12:06:30Z	b0671-phase8	REVERIFY_RESULT	id=loz-plant-pests-and-diseases-act	verdict=match	bytes=621186
+2026-05-15T12:06:30Z	b0671-phase8	REVERIFY_RESULT	id=act-zm-1968-005-gwembe-district-special-fund-dissolution-act-1968	verdict=drift	bytes=50488
+2026-05-15T12:06:30Z	b0671-phase8	REVERIFY_RESULT	id=act-zm-1991-023-national-assembly-staff-act-1991	verdict=match	bytes=227851
+2026-05-15T12:06:30Z	b0671-phase8	REVERIFY_RESULT	id=act-zm-2014-006-excess-expenditure-appropriation-2011-act	verdict=drift	bytes=38805
+2026-05-15T12:06:30Z	b0671-phase8	REVERIFY_RESULT	id=si-zm-2011-004-workers-compensation-permanent-disablementcommutation-of-pension-regulation-2011	verdict=match	bytes=109382
+[2026-05-15T12:06:30Z] [b0671-phase8] script END pool=1928 sample=8 match=5 drift=3 fetch_error=0 fetches=8 elapsed=28s
+[2026-05-15T12:06:30Z] [b0671-phase8] integrity CHECK1-CHECK8 all PASS (sums-balance,unique-ids,64-hex,stored==ondisk,no-record-mutated,corpus.sqlite-untouched,UA-honest,per-host-rate-limits-respected); CHECK#3-specifically-PASS-because-seed-did-not-draw-any-of-the-15-truncated-hash-records
+[2026-05-15T12:06:30Z] [b0671-phase8] reports/batch-0671.md WROTE; reports/batch-0671-reverify.json WROTE
+[2026-05-15T12:06:30Z] [b0671-phase8] gaps.md APPEND 2-akn-html-drifts + 1-source.pdf-first-observation-drift; provenance.log+costs.log+worker.log APPEND
+[2026-05-15T12:06:30Z] [b0671-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation
