@@ -9846,3 +9846,26 @@ Global FTS rebuild attempt failed with chronic disk-I/O error
 rows (verified body-only search MATCH 'SeshekeDistrict' →
 si-zm-2018-043). The global rebuild is still deferred to host.
 
+
+## [2026-05-15T03:10Z] Phase 8 reverify drift log — batch 0655
+
+Phase 8 nightly re-verification (`scripts/batch_0655_phase8_reverify.py`, parser_version `phase8-reverify-0.1.0`) sampled 8 records (seed `phase8-reverify-2026-05-15-b0655`) from a pool of 1925. Verdicts: 4 match, 4 drift, 0 fetch_error. All 4 drift verdicts are on **ZambiaLII AKN-HTML** pages, which dynamically render their HTML (timestamps/footer counters embedded in the response) — same pattern as b0641, b0642, b0652, b0653. None of the on-disk records were mutated by this tick.
+
+Drift entries flagged for a future approved remediation pass (not auto-overwritten per BRIEF.md non-negotiable #4):
+
+- **act-zm-1995-023-agricultural-credits-act-1995** — `https://zambialii.org/akn/zm/act/1995/23/eng@1996-12-31`
+  - stored sha256: `9ce17cdaa4a3da14e9e3c8676034c6af27c7b2c103ad1ef8dd654bf6509749bf`
+  - fetched sha256: `8bb9d4a36830ec7377ffa77fbe2381e5f5a19b541b5f3a423947b85a57fbabc6` (136063 bytes, HTTP 200)
+- **act-zm-1973-040-national-anthem-act-1973** — `https://www.zambialii.org/akn/zm/act/1973/40/eng@1996-12-31`
+  - stored sha256: `738e253ac702132c95a4f594616369acd2473fdaf8ffd433fd9f30b6ffd5aae4`
+  - fetched sha256: `7e9ce7c8f92b557c383e703c883f400613e449e47238e08d31da94a1ea26e70d` (46679 bytes, HTTP 200)
+- **act-zm-1973-041-supreme-court-of-zambia-act** — `https://zambialii.org/akn/zm/act/1973/41/eng@1996-12-31`
+  - stored sha256: `f4070e0361f07ba9987ced1b5b525439c2a7aceda65c0dc227455554569dfac0`
+  - fetched sha256: `447e443eab5dee2db779d83f397e15ba3bfa9ee2f317470baff3dbbe45a3b8f3` (150401 bytes, HTTP 200)
+- **si-zm-2025-074-zambia-institute-of-secretaries-registration-regulations-2025** — `https://zambialii.org/akn/zm/act/si/2025/74/eng@2025-11-21`
+  - stored sha256 (prefix): `bd2e2359bfd5e309…`
+  - fetched sha256: `96c1d07d23d9bffeec4d7e3819aca1415c66ca5031f723e841c3596689c0e040` (143847 bytes, HTTP 200)
+
+Reason: `zambialii_akn_html_dynamic_render_drift` — same root cause as prior Phase 8 batches. Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected zambialii AKN-HTML records and updates their `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to the static `source.pdf` Akoma Ntoso publication PDF on media.zambialii.org. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
+
+Match verdicts (no action needed): act-zm-2022-002, act-zm-2010-044, act-zm-1986-022, act-zm-2014-003 (parliament.gov.zm + media.zambialii.org static PDFs).

@@ -6134,3 +6134,8 @@
 2026-05-14T19:12:07Z	b0654-jiw	NETWORK_FETCHES	zambialii.org=0	judiciaryzambia.com=0	parliament.gov.zm=0	commons.laws.africa=0	total=0	robots=respected(no-traffic)
 2026-05-14T19:12:07Z	b0654-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
 2026-05-14T19:30:00Z	b0654-repair	fetches=16	html=8	pdfs=8	bytes_in=~3.1MB	bytes_extracted=129953	parser=pdfplumber-0.11.9	cumulative_today=48/2000	tokens_used=~0(repair-no-LLM-only-deterministic-pipeline)
+2026-05-15T03:10:07Z	b0655-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=8/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1925	sample_size=8
+2026-05-15T03:10:07Z	b0655-phase8	NETWORK_FETCHES	zambialii.org=3(AKN-HTML)	www.zambialii.org=1(AKN-HTML)	www.parliament.gov.zm=3(static-PDF)	media.zambialii.org=1(source-PDF)	total=8	all-HTTP-200	robots=respected
+2026-05-15T03:10:07Z	b0655-phase8	BANDWIDTH	zambialii-AKN-HTML-3xrecords=~430KB(136063+150401+143847approx)	www.zambialii-AKN-HTML-1xrecord=46679B	parliament-static-PDF-3xrecords=~700KB(467091+114131+~120KB)	media.zambialii-source-PDF-1xrecord=~150KB	total≈1.43MB-down	llm-tokens=0
+2026-05-15T03:10:07Z	b0655-phase8	WALL_CLOCK	~22s(8-fetches-with-host-rate-limits-honoured)	well-within-20min-budget
+2026-05-15T03:10:07Z	b0655-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
