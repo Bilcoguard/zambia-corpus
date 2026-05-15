@@ -8348,3 +8348,21 @@ remaining_after: 113
 [2026-05-15T12:38:00Z] [b0667-repair] GIT_COMMIT verdict=committed-late commit=0a4b710 files=10(scripts/repair_b0667.py+reports/repair-batch-b0667.md+_repair_b0667_pdfs/*.pdf[8]) insertions=286 corpus.sqlite=NOT-staged-gitignored worker.log/costs.log/provenance.log=ALREADY-IN-HEAD-via-b0668-phase8-commit-8bfe493 via=GIT_INDEX_FILE=/tmp/git_index_b0667_fresh+git-read-tree-HEAD+lock-files-renamed-aside (FUSE-EPERM-on-.git/index.lock+.git/HEAD.lock+tmp-objects-warnings-ignorable)
 [2026-05-15T12:38:00Z] [b0667-repair] GIT_PUSH verdict=push-ok remote=origin/main range=15c359a..0a4b710
 [2026-05-15T12:38:00Z] [b0667-repair] FINAL verdict=tick-complete repaired=8 failed=0 pool=113 remaining_after=105 records=1925 records_fts=1925 quick_check=ok integrity=8/8-PASS fetches_today=64+16=80/2000 corpus.sqlite=touched(body+source_hash+FTS-rebuild-for-8-SIs) approvals.yaml=NOT-modified next=b0668-or-next-scheduled-repair-tick
+[2026-05-15T14:00:50Z] [b0673-phase8] tick START worker=phase8-nightly-reverify parent_commit=0a4b710 scheduled-task=zambia-corpus-tick predecessor=b0672-phase8-COMMIT-cb81981 pending-peter-triage=15-record-parliament-pdf-v1.2-truncated-16hex-hash-defect-(b0670-discovery)+1-record-zambialii-source-pdf-first-observation-drift-si-zm-2009-042-(b0671-discovery)
+[2026-05-15T14:00:50Z] [b0673-phase8] git pull --ff-only verdict=already-up-to-date (warning=unlink-ORIG_HEAD.lock-EPERM-ignorable)
+[2026-05-15T14:00:50Z] [b0673-phase8] approvals.yaml read: phase_0..phase_7 complete; phase_8 approved=true complete=false sample_rate=0.01 -> selected
+[2026-05-15T14:00:50Z] [b0673-phase8] budget OK: fetches_today=104/2000 before tick (post-b0672); daily-budget-headroom=1896
+[2026-05-15T14:00:50Z] [b0673-phase8] script START scripts/batch_0673_phase8_reverify.py
+2026-05-15T14:01:23Z	b0673-phase8	REVERIFY_RESULT	id=judgment-zm-2022-zmsc-29-mutale-v-african-banking-corporation-ltd	verdict=drift	bytes=43539
+2026-05-15T14:01:30Z	b0673-phase8	REVERIFY_RESULT	id=si-zm-2022-006-zambia-police-fees-regulations-2022	verdict=drift	bytes=41828
+2026-05-15T14:01:37Z	b0673-phase8	REVERIFY_RESULT	id=act-zm-1912-016-gold-trade-act-1912	verdict=drift	bytes=99412
+2026-05-15T14:01:44Z	b0673-phase8	REVERIFY_RESULT	id=act-zm-cap-470-postal-services-act	verdict=drift	bytes=237497
+2026-05-15T14:01:50Z	b0673-phase8	REVERIFY_RESULT	id=act-zm-1989-019-national-agricultural-marketing-act-1989	verdict=drift	bytes=41094
+2026-05-15T14:01:56Z	b0673-phase8	REVERIFY_RESULT	id=si-zm-2019-076-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-5-order-2019	verdict=drift	bytes=39504
+2026-05-15T14:01:50Z	b0673-phase8	REVERIFY_RESULT	id=si-zm-2009-049-national-heritage-conservation-commission-national-monument-mulobezi-open-air-ra	verdict=match	bytes=276376
+2026-05-15T14:01:56Z	b0673-phase8	REVERIFY_RESULT	id=si-zm-2019-005-customs-and-excise-nickel-and-particle-board-export-duty-remission-regulations-2019	verdict=match	bytes=132119
+[2026-05-15T14:01:56Z] [b0673-phase8] script END pool=1928 sample=8 match=2 drift=6 fetch_error=0 fetches=8 elapsed=41s
+[2026-05-15T14:01:56Z] [b0673-phase8] integrity CHECK1-CHECK8 all PASS (sums-balance,unique-ids,64-hex,stored==ondisk,no-record-mutated,corpus.sqlite-untouched,UA-honest,per-host-rate-limits-respected); CHECK#3-specifically-PASS-because-seed-did-not-draw-any-of-the-15-truncated-hash-records
+[2026-05-15T14:01:56Z] [b0673-phase8] reports/batch-0673.md WROTE; reports/batch-0673-reverify.json WROTE
+[2026-05-15T14:01:56Z] [b0673-phase8] gaps.md APPEND 6-akn-html-drifts (all zambialii_akn_html_dynamic_render_drift; includes first-this-week judgment-type AKN-HTML drift judgment-zm-2022-zmsc-29 + first-this-week www.zambialii.org subdomain AKN-HTML drift act-zm-1989-019); provenance.log+costs.log+worker.log APPEND
+[2026-05-15T14:01:56Z] [b0673-phase8] B2 sync deferred to host (rclone unavailable in sandbox); Phase 8 is read-only — no corpus mutation

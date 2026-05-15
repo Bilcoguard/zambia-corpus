@@ -10296,3 +10296,48 @@ All `stored sha256` and `fetched sha256` values above are verbatim from `reports
 - **act-zm-cap-250-cattle-slaughter-control-act** — www.parliament.gov.zm (static PDF, 76,666 B)
 
 Cumulative stable-PDF supercohort after b0672: parliament.gov.zm + media.zambialii.org + zambialii.org (no-`www`) AKN `/source.pdf` continue to dominate the match column. No new first-observation or cross-cohort signals this tick.
+
+
+## 2026-05-15T14:01:56Z — Phase 8 batch 0673 drift signals (b0673-phase8)
+
+**Six AKN-HTML dynamic-render drifts** (continuation of the established cohort; same root cause as prior Phase 8 batches — ZambiaLII AKN-HTML pages render per-request timestamps/footer counters that drift the response sha256 even though the legal content is unchanged):
+
+- **judgment-zm-2022-zmsc-29-mutale-v-african-banking-corporation-ltd** — `https://zambialii.org/akn/zm/judgment/zmsc/2022/29/eng@2022-04-01`
+  - record file: `records/judgments/zmsc/2022/judgment-zm-2022-zmsc-29-mutale-v-african-banking-corporation-ltd.json`
+  - stored sha256: `7065cfc88f462ef831300e2fef5e5d7c82992b6dfd2905251370392cbac6fbc9`
+  - fetched sha256: `ba76552a4e8ce5d9b40ac9ce12d78b5ea04c72ef2d9628c21ab5a31dc1c771c4` (43539 bytes, HTTP 200)
+- **si-zm-2022-006-zambia-police-fees-regulations-2022** — `https://zambialii.org/akn/zm/act/si/2022/6`
+  - record file: `records/sis/2022/si-zm-2022-006-zambia-police-fees-regulations-2022.json`
+  - stored sha256: `145673dbe2d6de00420df3166607772fa2d2e9d1b4367b0258b4f26e032ebd94`
+  - fetched sha256: `9bd86e0345ad3f5e8f03eafbcd438d8b4829b7f03645593bdb75992eb4e13eee` (41828 bytes, HTTP 200)
+- **act-zm-1912-016-gold-trade-act-1912** — `https://zambialii.org/akn/zm/act/1912/16/eng@1996-12-31`
+  - record file: `records/acts/1912/act-zm-1912-016-gold-trade-act-1912.json`
+  - stored sha256: `785e5d840231dffbaf4cff3b0d3c8d4089ec3243de961e373c73611dc25564e4`
+  - fetched sha256: `7c2fbf747671be4ed8736abadf0e0c76b7111af56295fe9c8cc7b5e50e57c4eb` (99412 bytes, HTTP 200)
+- **act-zm-cap-470-postal-services-act** — `https://zambialii.org/akn/zm/act/1994/24/eng@1996-12-31`
+  - record file: `records/acts/act-zm-cap-470-postal-services-act.json`
+  - stored sha256: `590fc200d0bac0800125e94399625e65f9278f3b3e8b08ad67ffcac79ec2dc97`
+  - fetched sha256: `300d0e1eab8a7273cefbe4b5ba7ef7c882a5a1a327bfc0df8950d32f96d97185` (237497 bytes, HTTP 200)
+- **act-zm-1989-019-national-agricultural-marketing-act-1989** — `https://www.zambialii.org/akn/zm/act/1989/19/eng@1989-08-18`
+  - record file: `records/acts/1989/act-zm-1989-019-national-agricultural-marketing-act-1989.json`
+  - stored sha256: `b499dddc9e8bb95603318036a7cdbbc2963c21b86ebab642b268dce329a7b837`
+  - fetched sha256: `80967d72e6ed1dfd1bcbc78a0adde4de1403b1e336b9f7399b28d39dc3e83d5e` (41094 bytes, HTTP 200)
+- **si-zm-2019-076-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-5-order-2019** — `https://zambialii.org/akn/zm/act/si/2019/76`
+  - record file: `records/sis/2019/si-zm-2019-076-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-5-order-2019.json`
+  - stored sha256: `533de937614a0f75e4b7733954ac44afcdecccd69f0008024c99c94c741bf619`
+  - fetched sha256: `0ee31e0ceec81d48441c4e44239078ddda30b52adeac04b20da0e6d0135a380d` (39504 bytes, HTTP 200)
+
+Reason: `zambialii_akn_html_dynamic_render_drift` for all six entries. Remediation requires either (a) a Peter-approved bounded re-snapshot tick that re-fetches the affected records and updates `source_hash` to the current bytes, or (b) switching the canonical `source_url` for these records to a static `source.pdf` Akoma Ntoso publication PDF on `zambialii.org`/`www.zambialii.org`/`media.zambialii.org` where one is available. Until that approval, the records remain on disk unchanged; this entry is the audit trail.
+
+All `stored sha256` and `fetched sha256` values above are verbatim from `reports/batch-0673-reverify.json` (the verbatim machine output of `scripts/batch_0673_phase8_reverify.py`). NO values in this gaps.md entry were hand-typed or re-constructed — the anti-fabrication protocol introduced in b0668 (PRE-COMMIT-FABRICATION-CHECK) was honoured.
+
+Notable nesting within established cohort:
+- First Phase 8 sample this week to draw a judgment-type AKN-HTML drift (`judgment-zm-2022-zmsc-29`) — fits cleanly within `zambialii_akn_html_dynamic_render_drift`.
+- First Phase 8 sample this week to draw a `www.`-subdomain AKN-HTML drift (`act-zm-1989-019`) — fits cleanly within the same cohort; the `www.zambialii.org` host is a CNAME of `zambialii.org` and shares the same dynamic-render behaviour.
+
+### Match verdicts (no action needed)
+
+- **si-zm-2009-049-national-heritage-conservation-commission-national-monument-mulobezi-open-air-ra** — zambialii.org (AKN /source.pdf, 276,376 B) — record file: `records/sis/2009/si-zm-2009-049-national-heritage-conservation-commission-national-monument-mulobezi-open-air-ra.json`
+- **si-zm-2019-005-customs-and-excise-nickel-and-particle-board-export-duty-remission-regulations-2019** — zambialii.org (AKN /source.pdf, 132,119 B) — record file: `records/sis/si-zm-2019-005-customs-and-excise-nickel-and-particle-board-export-duty-remission-regulations-2019.json`
+
+Cumulative stable-PDF supercohort after b0673: parliament.gov.zm + media.zambialii.org + zambialii.org (no-`www`) AKN `/source.pdf` continue to dominate the match column. No new first-observation or cross-cohort signals this tick.
