@@ -6288,3 +6288,8 @@ b0664,2026-05-15T09:13:53Z,repair,zambialii,8,0,~44
 2026-05-15T17:05:07Z	b0680-phase8	WALL_CLOCK	started=2026-05-15T17:04:29Z	completed=2026-05-15T17:05:07Z	elapsed=38s	budget=20min	headroom~=19m22s
 2026-05-15T17:05:07Z	b0680-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 2026-05-15T17:05:07Z	b0680-phase8	INTEGRITY	all-checks=PASS	check3-pass-reason=seed-did-not-draw-any-of-15-truncated-hash-records-from-b0670	tick-verdict=COMMIT-normal-path
+2026-05-17T22:44:53Z	b0681-repair	NETWORK_FETCHES	count=16	hosts=zambialii.org:16	all-HTTP-200
+2026-05-17T22:44:53Z	b0681-repair	BANDWIDTH	approx_bytes=~250kb	source=zambialii-akn-source-pdf-per-record
+2026-05-17T22:44:53Z	b0681-repair	WALL_CLOCK	elapsed=33s	budget=20min	headroom~=19m27s
+2026-05-17T22:44:53Z	b0681-repair	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox
+2026-05-17T22:44:53Z	b0681-repair	INTEGRITY	records=1925	records_fts=1925	quick_check=ok	repaired=8	failed=0	remaining_after=97	tick-verdict=COMMIT
