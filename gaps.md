@@ -10827,3 +10827,157 @@ Cumulative stable-PDF supercohort after b0675: parliament.gov.zm + media.zambial
 - verdict: drift
 - cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
 - action: audit-only; nests in established b0641..b0679 cohort
+
+## phase8_reverify_drift
+- batch: 0683
+- detected_at: 2026-05-17T23:04:02Z
+- id: act-zm-2020-010-national-council-for-construction-act-2020
+- type: act
+- source_url: https://www.zambialii.org/akn/zm/act/2020/10/eng@2020-11-26
+- host: www.zambialii.org
+- stored_sha256: 0950754dc1a06517038f217218b7b51bf93307c9df4978adb2319c1c78830ce6
+- fetched_sha256: 0853cc149e95907178a52cd2633189a771d6bb2206c7266905924ba0fe4a5135
+- fetched_bytes_len: 399795
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0680 cohort
+
+## phase8_reverify_drift
+- batch: 0683
+- detected_at: 2026-05-17T23:04:03Z
+- id: act-zm-2007-008-supplementary-appropriation-2005-act
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/2007/8/eng@2007-04-13
+- host: zambialii.org
+- stored_sha256: 7207777c1c5e8dcdac1273902230c6ee04c20fd83e3abbb60c10f42b55e37a19
+- fetched_sha256: 4a3b785852d59f0bc1c72d2ff2d70ce921677c27fe254d03f7c33dc3054ebfcd
+- fetched_bytes_len: 38765
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0680 cohort
+
+## phase8_reverify_drift
+- batch: 0683
+- detected_at: 2026-05-17T23:04:16Z
+- id: judgment-zm-2022-zmsc-48-mbazima-v-tobacco-association-of-zambia
+- type: judgment
+- source_url: https://zambialii.org/akn/zm/judgment/zmsc/2022/48/eng@2022-11-09
+- host: zambialii.org
+- stored_sha256: ac36f7aa07e77670a3df05b0cf187b3f6543f8d63a8fdfdfc81adaf8cf046651
+- fetched_sha256: 952a43763fed84e4e940b7f48a00d7949a09dfd727a53071c7b5564b94d2438a
+- fetched_bytes_len: 45444
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0680 cohort
+
+## phase8_reverify_drift
+- batch: 0683
+- detected_at: 2026-05-17T23:04:23Z
+- id: si-zm-2019-023-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2019
+- type: statutory_instrument
+- source_url: https://zambialii.org/akn/zm/act/si/2019/23
+- host: zambialii.org
+- stored_sha256: f2c29098534d96f4f3f3504df08a827cb8abed72c93b289eedc6cb5bf67fd820
+- fetched_sha256: 084fa37724e902663ffbff47b0ac50421b208ff0cd4c9411518128a5e9f2c253
+- fetched_bytes_len: 39503
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0680 cohort
+
+## phase8_reverify_drift
+- batch: 0683
+- detected_at: 2026-05-17T23:04:29Z
+- id: act-zm-1986-010-excess-expenditure-appropriation-1983-act-1986
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1986/10/eng@1986-04-21
+- host: zambialii.org
+- stored_sha256: 8217cc09f18f7851c0f9b20fdc290583b3a0160d6cd650c4fb17b334c5c2bbfe
+- fetched_sha256: 9b0cfe5835acec608aae7ec166ef5f5756dcffa95774ed86b49ce68c96ee1e34
+- fetched_bytes_len: 38830
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0680 cohort
+
+## phase8_reverify_drift
+- batch: 0684
+- detected_at: 2026-05-17T23:33:39Z
+- id: act-zm-1969-024-finance-control-and-management-act-1969
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1969/24/eng@1996-12-31
+- host: zambialii.org
+- stored_sha256: dd03eb38f5d97780e7d54db486bb02fa215dd84402e25632178c4ea45247934b
+- fetched_sha256: e3b3278d27faa290f1d04f4f89fa9e5631504c976b9fdb332fd4071911153f8b
+- fetched_bytes_len: 142356
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0683 cohort
+
+## phase8_reverify_drift
+- batch: 0684
+- detected_at: 2026-05-17T23:33:49Z
+- id: si-zm-1986-032-national-archives-place-of-deposit-declaration-order-1986
+- type: statutory_instrument
+- source_url: https://zambialii.org/akn/zm/act/si/1986/32
+- host: zambialii.org
+- stored_sha256: f4ca96ff61c3bea7d695cc93fb073d51cfe9e44e09f8c0cdeaf195b075d867e3
+- fetched_sha256: 3f282e71de80220bc6df3051b4886af698489739335feb08715b1b92e3e7e482
+- fetched_bytes_len: 39256
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0683 cohort
+
+## phase8_reverify_drift
+- batch: 0684
+- detected_at: 2026-05-17T23:33:54Z
+- id: act-zm-2005-008-supplementary-appropriation-2003-act
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/2005/8/eng@2005-05-17
+- host: zambialii.org
+- stored_sha256: d3e14946cbe5b0ff27df073eb1dcf045abb392cf49db6d70932e4ccc8c9f423b
+- fetched_sha256: 3c139d827b38b757059e02486dbcf1e6046a57494b74fd2876db0d65f725543c
+- fetched_bytes_len: 38761
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0683 cohort
+
+## phase8_reverify_drift
+- batch: 0684
+- detected_at: 2026-05-17T23:33:59Z
+- id: act-zm-1953-059-noxious-weeds-act
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1953/59/eng@1996-12-31
+- host: zambialii.org
+- stored_sha256: fcaffcf920678b76013aa9cf668261b70b9f12659e500b81ea5955a7a6cc45ed
+- fetched_sha256: 5e9a4db7542f7479c14b9e45d10412f0d8481a148d91d36cd0080100881d4170
+- fetched_bytes_len: 75186
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0683 cohort
+
+## phase8_reverify_drift
+- batch: 0684
+- detected_at: 2026-05-17T23:34:04Z
+- id: act-zm-cap-64-affiliation-and-maintenance-of-children-act
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1995/5/eng@1995-04-28
+- host: zambialii.org
+- stored_sha256: dc59114cb4e9b4bbbd47038ff84d910b69a146076ebd89b1891ccd6f6ff91f21
+- fetched_sha256: b9699de5fd6e024d6fdab5ec9387364c8a62d140fedaf75588d87856285d32d9
+- fetched_bytes_len: 40221
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0683 cohort
+
+## phase8_reverify_drift
+- batch: 0684
+- detected_at: 2026-05-17T23:34:09Z
+- id: act-zm-2022-004-social-workers-association-of-zambia-act-2022
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/2022/4/eng@2022-04-12
+- host: zambialii.org
+- stored_sha256: e8f3d5cd36c06b0bc07ad1e2f4ae1c102163fe6031526fef6446587e2c845b57
+- fetched_sha256: 57fcbfe2277c1545b7dd001789caccde1fe72e3f1c4b1a6b042a19ac99c0d706
+- fetched_bytes_len: 285903
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0683 cohort
