@@ -6293,3 +6293,9 @@ b0664,2026-05-15T09:13:53Z,repair,zambialii,8,0,~44
 2026-05-17T22:44:53Z	b0681-repair	WALL_CLOCK	elapsed=33s	budget=20min	headroom~=19m27s
 2026-05-17T22:44:53Z	b0681-repair	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox
 2026-05-17T22:44:53Z	b0681-repair	INTEGRITY	records=1925	records_fts=1925	quick_check=ok	repaired=8	failed=0	remaining_after=97	tick-verdict=COMMIT
+2026-05-17T23:06:52Z	b0683-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=8/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1928	sample_size=8
+2026-05-17T23:06:52Z	b0683-phase8	NETWORK_FETCHES	count=8	hosts=zambialii.org:6,www.zambialii.org:1,www.parliament.gov.zm:1	all-HTTP-200
+2026-05-17T23:06:52Z	b0683-phase8	BANDWIDTH	total_bytes=1122141	avg_kb=137.0	largest=si-zm-2021-107-income-tax-transfer-pricing-amendment-regulations-2021(456472B,zambialii-akn-source-pdf)
+2026-05-17T23:06:52Z	b0683-phase8	WALL_CLOCK	started=2026-05-17T23:03:59Z	completed=2026-05-17T23:04:35Z	elapsed=36s	budget=20min	headroom=19m24s
+2026-05-17T23:06:52Z	b0683-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-17T23:06:52Z	b0683-phase8	INTEGRITY	all-checks=PASS	check3-pass-reason=seed-did-not-draw-any-of-15-truncated-hash-records-from-b0670	tick-verdict=COMMIT-normal-path-bundles-b0682-recovery-trailer
