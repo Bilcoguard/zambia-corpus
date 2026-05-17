@@ -10981,3 +10981,7 @@ Cumulative stable-PDF supercohort after b0675: parliament.gov.zm + media.zambial
 - verdict: drift
 - cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
 - action: audit-only; nests in established b0641..b0683 cohort
+
+## b0685 — 2026-05-17 — repair worker
+
+No new gaps. All 8 records in this tick passed the quality gate and were committed. 89 zambialii AKN-SI no-body records remain in the pool for subsequent ticks (drainage continuation cohort from b0667/b0681).

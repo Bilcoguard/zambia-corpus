@@ -6305,3 +6305,4 @@ b0664,2026-05-15T09:13:53Z,repair,zambialii,8,0,~44
 2026-05-17T23:34:13Z	b0684-phase8	WALL_CLOCK	started=2026-05-17T23:33:39Z	completed=2026-05-17T23:34:13Z	elapsed=34s	budget=20min	headroom=19m26s
 2026-05-17T23:34:13Z	b0684-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 2026-05-17T23:34:13Z	b0684-phase8	INTEGRITY	all-checks=PASS	check3-pass-reason=seed-did-not-draw-any-of-15-truncated-hash-records-from-b0670	tick-verdict=COMMIT-normal-path-bundles-b0683-recovery-trailer
+2026-05-17T23:46:40Z	b0685	fetches=16 (8 HTML + 8 PDF)	bytes_in≈~250KB	bytes_out=negligible	host=zambialii.org	repaired=8	failed=0	elapsed=35s
