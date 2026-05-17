@@ -10760,3 +10760,70 @@ Cumulative stable-PDF supercohort after b0675: parliament.gov.zm + media.zambial
 - verdict: drift
 - cohort_note: AKN-HTML dynamic-render
 - action: audit-only
+
+## 2026-05-15T17:05:07Z — b0680-phase8 — zambialii_akn_html_dynamic_render_drift (×5)
+
+- batch: 0680
+- detected_at: 2026-05-15T17:04:31Z
+- id: act-zm-1960-059-land-survey-act-1960
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1960/59/eng@1996-12-31
+- host: zambialii.org
+- stored_sha256: d18164952dc3c8abe6aef535c6eb7d5c6f1e79a562f046567a4ae4a5fdbad01a
+- fetched_sha256: bd3eb5428121284ee08b946ae67f9ba1611bc49ba857b0605054fd0ce02e9b82
+- fetched_bytes_len: 283045
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0679 cohort
+
+- batch: 0680
+- detected_at: 2026-05-15T17:04:33Z
+- id: act-zm-1997-001-mineral-royalty-repeal-act-1997
+- type: act
+- source_url: https://www.zambialii.org/akn/zm/act/1997/1/eng@1997-04-18
+- host: www.zambialii.org
+- stored_sha256: ef4a097eee292db0410a929a8848d05e8d7bde04a97e865f2075583de7b67da8
+- fetched_sha256: 61ca1058d63e60355454c74235f3e5c3a3bb8a1c65fceb782adf8a8e83e20b6d
+- fetched_bytes_len: 39162
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0679 cohort
+
+- batch: 0680
+- detected_at: 2026-05-15T17:04:38Z
+- id: si-zm-2022-046-customs-and-excise-machinery-and-equipment-suspension-amendment-regulations-2022
+- type: statutory_instrument
+- source_url: https://zambialii.org/akn/zm/act/si/2022/46
+- host: zambialii.org
+- stored_sha256: 0c44f9d81798e84abff10fe0265c243636eb557736d674e61610e8b47d1a3bea
+- fetched_sha256: b6a01d6d491dcfbe342d3271c3425b8983b8ec16de4bf8ce2a30182f385251fa
+- fetched_bytes_len: 39072
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0679 cohort
+
+- batch: 0680
+- detected_at: 2026-05-15T17:04:44Z
+- id: si-zm-2019-077-chembe-town-council-sugar-cane-levy-by-laws-2019
+- type: statutory_instrument
+- source_url: https://zambialii.org/akn/zm/act/si/2019/77
+- host: zambialii.org
+- stored_sha256: 8306a48755f780af35e0c9f20d142610565bb152dcc0e3c079b95df5a9de7ea8
+- fetched_sha256: c8fb25a688b2385f11adf544cb9888f4d95d572cdadd6b64b582ac4a28bb5018
+- fetched_bytes_len: 39160
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0679 cohort
+
+- batch: 0680
+- detected_at: 2026-05-15T17:04:51Z
+- id: act-zm-1994-035-parliamentary-and-ministerial-code-of-conduct-act
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1994/35/eng@1996-12-31
+- host: zambialii.org
+- stored_sha256: cd93b9b6446d08b75befd6dbc6a3793e556878b0163188b9ebcead2a08970e08
+- fetched_sha256: 022963c905cd1d4913c7faf49956475435fc14e3ab280b5285673f10132b8ae3
+- fetched_bytes_len: 101021
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0679 cohort
