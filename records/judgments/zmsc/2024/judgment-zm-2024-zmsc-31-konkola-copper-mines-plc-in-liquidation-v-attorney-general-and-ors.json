@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2024-zmsc-31-konkola-copper-mines-plc-in-liquidation-v-attorney-general-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Konkola Copper Mines Plc (In Liquidation) v Attorney General and Ors (SCZ/7/20/2024) [2024] ZMSC 31 (23 October 2024)",
+  "citation": "[2024] ZMSC 31",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Konkola Copper Mines Plc (In Liquidation) v Attorney General and Ors",
+  "case_number": "SCZ/7/20/2024",
+  "date_decided": "2024-10-23",
+  "judges": [
+    {
+      "name": "Kaoma",
+      "role": "JS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "mining-law",
+    "leave-to-appeal",
+    "court-of-appeal-act",
+    "mining-cadastre",
+    "judicial-review",
+    "single-judge-in-chambers"
+  ],
+  "outcome": "granted",
+  "outcome_detail": "Single judge in chambers granted the applicant leave to appeal to the Supreme Court. The applicant met the threshold set out in section 13(3)(a)(c) and (d) of the Court of Appeal Act by demonstrating that the appeal has reasonable prospects of success and that there is a compelling reason for the appeal to be heard, in particular the non-communication of the Director of Mining Cadastre's decision granting consent to the 2nd respondent and of the right of appeal. Costs to abide the outcome of the appeal.",
+  "reasoning_tags": [
+    "section-13-3-court-of-appeal-act-threshold-met",
+    "reasonable-prospects-of-success",
+    "compelling-reason",
+    "non-communication-of-cadastre-decision"
+  ],
+  "key_statutes": [
+    "Court of Appeal Act, section 13(3)(a)(c) and (d)",
+    "Mines and Minerals Development Act, section 97(1)"
+  ],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "5f74e4be2e9380dfece7cafebda5cf1ed1de50ec940662825b974d5944c17dda",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/31/eng@2024-10-23",
+  "source_hash": "sha256:5f74e4be2e9380dfece7cafebda5cf1ed1de50ec940662825b974d5944c17dda",
+  "fetched_at": "2026-05-15T09:27:00Z",
+  "parser_version": "0.3.2-jiw-b0658",
+  "body_chars": 15324
+}

@@ -1,0 +1,51 @@
+{
+  "id": "judgment-zm-2024-zmsc-22-george-banda-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "George Banda v The People (APPEAL NO. 51/2022) [2024] ZMSC 22 (6 March 2024)",
+  "citation": "[2024] ZMSC 22",
+  "court": "Supreme Court of Zambia",
+  "case_name": "George Banda v The People",
+  "case_number": "APPEAL NO. 51/2022",
+  "date_decided": "2024-03-06",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-law",
+    "court-martial",
+    "military-law",
+    "evidence",
+    "right-to-summon-witnesses",
+    "convening-order"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Appeal dismissed in its entirety. The Supreme Court found nothing wrong with the court martial's finding of guilt. The appellant was given an opportunity to summon witnesses (at the expense of seeking a further convening order at his instance), other documentary evidence could have rebutted the prosecution case, and no miscarriage of justice occurred.",
+  "reasoning_tags": [
+    "no-miscarriage-of-justice",
+    "appellant-had-opportunity-to-summon-witnesses"
+  ],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "06e8518d9c50d3e408c197cbd67b12f6228941d2fde00c6bd246bcb133c3024d",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/22/eng@2024-03-06",
+  "source_hash": "sha256:06e8518d9c50d3e408c197cbd67b12f6228941d2fde00c6bd246bcb133c3024d",
+  "fetched_at": "2026-05-15T09:27:00Z",
+  "parser_version": "0.3.2-jiw-b0658",
+  "body_chars": 23007
+}

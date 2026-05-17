@@ -1,0 +1,52 @@
+{
+  "id": "judgment-zm-2024-zmsc-18-the-people-v-evelyn-mwansa-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "The People v Evelyn Mwansa and Ors (APPEAL No.12/2020; APPEAL No.13/2020; APPEAL No.14/2020) [2024] ZMSC 18 (16 May 2024)",
+  "citation": "[2024] ZMSC 18",
+  "court": "Supreme Court of Zambia",
+  "case_name": "The People v Evelyn Mwansa and Ors",
+  "case_number": "APPEAL No.12/2020; APPEAL No.13/2020; APPEAL No.14/2020",
+  "date_decided": "2024-05-16",
+  "judges": [
+    {
+      "name": "Muyovwe",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Hamaundu",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-law",
+    "murder",
+    "appeal-against-sentence-by-state",
+    "extenuating-circumstances",
+    "mandatory-death-penalty",
+    "miscarriage-of-justice"
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "DPP's appeal allowed: the finding of extenuating circumstances by the trial court was made without any basis, leading to a totally inadequate six-year sentence and a substantial miscarriage of justice. The Court of Appeal's affirmation of that finding was overturned. The Supreme Court quashed the six-year sentence imposed at first instance and substituted the mandatory sentence of death on each respondent, as required by the law applicable at the time of the offence; the fact that the respondents had since served the inadequate sentence did not bar correction.",
+  "reasoning_tags": [
+    "no-basis-for-extenuating-circumstances",
+    "inadequate-sentence",
+    "mandatory-sentence-must-follow-law-at-time-of-offence"
+  ],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "490fbba7730ad2202b3874031d8706d67baab2e5f18feb85820df3c06751b3c7",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/18/eng@2024-05-16",
+  "source_hash": "sha256:490fbba7730ad2202b3874031d8706d67baab2e5f18feb85820df3c06751b3c7",
+  "fetched_at": "2026-05-15T09:27:00Z",
+  "parser_version": "0.3.2-jiw-b0658",
+  "body_chars": 23256
+}
