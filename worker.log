@@ -9253,3 +9253,6 @@ warning: unable to unlink '.git/
 [2026-05-18T15:09:45Z] [b0706-jiw] INTEGRITY pass=True errors=[]
 [2026-05-18T15:09:45Z] [b0706-jiw] WROTE_REPORT reports/batch-b0706-jiw.md
 [2026-05-18T15:09:45Z] [b0706-jiw] NO_CHANGES_TO_COMMIT
+[2026-05-18T15:14:00Z] [b0706-phase8] GIT_COMMIT sha=5a89521 msg='Phase 8 batch 0706: nightly re-verify 8 records (1 match, 7 drift, 0 fetch_error)'
+[2026-05-18T15:14:00Z] [b0706-phase8] GIT_PUSH_OK 24710f7..5a89521 main -> main
+[2026-05-18T15:14:00Z] [b0706-phase8] TICK_END pool=1961 sample=8 match=1 drift=7 fetch_error=0 records_mutated=0 verdict=COMMIT-normal-path
