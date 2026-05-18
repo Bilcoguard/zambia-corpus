@@ -6313,3 +6313,10 @@ b0664,2026-05-15T09:13:53Z,repair,zambialii,8,0,~44
 2026-05-18T00:03:52Z	b0687-phase8	WALL_CLOCK	started=2026-05-18T00:03:25Z	completed=2026-05-18T00:03:52Z	elapsed=27s	budget=20min	headroom~=1173s
 2026-05-18T00:03:52Z	b0687-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 2026-05-18T00:03:52Z	b0687-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1928	records_fts=1928	dup_ids=0	tick-verdict=COMMIT-normal-path
+2026-05-18T00:14:01Z	b0687-jiw	fetches=0	retry_fetches=0	records_written=8	records_deferred=0	worker=judgment-ingestion-worker	cumulative_today=0/500	cohort=ZMCC-2025-reparse-priority-a-hand-curated-batch-of-8-zmcc-05-06-07-08-09-10-11-12-resolves-batch-0345-and-0346-deferrals-zero-net-fetch-all-raw-on-disk-from-prior-probe-ticks
+2026-05-18T00:14:01Z	b0687-jiw	NETWORK_FETCHES	count=0	zambialii.org=0	judiciaryzambia.com=0	parliament.gov.zm=0	commons.laws.africa=0	robots=respected-no-traffic
+2026-05-18T00:14:01Z	b0687-jiw	BANDWIDTH	total_bytes=0	source=raw-on-disk-from-prior-ticks-no-new-downloads
+2026-05-18T00:14:01Z	b0687-jiw	WALL_CLOCK	started=2026-05-18T00:00Z	completed=2026-05-18T00:14:01Z	elapsed=~11min	budget=20min	headroom=~9min
+2026-05-18T00:14:01Z	b0687-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox
+2026-05-18T00:14:01Z	b0687-jiw	INTEGRITY	records=1936	records_fts=1936	judgments_meta=243	quick_check=ok	integrity_check=ok	check1-pass=8-records-min1max8-judges	check2-pass=8-records-issue-tags-nonempty	check3-pass=outcomes-dismissed-x7-other-x1	check4-pass=8-canonical-judges-resolve	check5-pass=no-dup-ids	check6-pass=raw-sha256-matches-on-disk	check7-pass=no-dup-triplets	check8-pass=records-eq-fts	tick-verdict=COMMIT-normal-path
+2026-05-18T00:15:30Z	b0688	repair-corpus	zambialii_pdf_fetches=8	pdf_bytes_total=~150KB	parliament_pdf_fetches=0	ocr_fallbacks=0	elapsed_sec=32	api_cost_usd=0.00	bandwidth_usd=~0.00

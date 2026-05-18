@@ -8609,3 +8609,33 @@ test append Mon May 18 00:44:14 CAT 2026
 [2026-05-18T00:03:52Z] [b0687-phase8] B2 sync deferred to host (rclone unavailable in sandbox)
 [2026-05-18T00:03:52Z] [b0687-phase8] reports/batch-0687-reverify.json WROTE; gaps.md drift entries appended (4)
 [2026-05-18T00:03:52Z] [b0687-phase8] FINAL verdict=tick-complete batch_size=8 match=4 drift=4 fetch_error=0 records=1928 records_fts=1928 next=continue-phase8-nightly-reverify
+2026-05-18T00:14:01Z	b0687-jiw	BEGIN	tick-type=judgment-ingestion-worker	source=ZambiaLII	mode=priority-a-reparse-hand-curated
+2026-05-18T00:14:01Z	b0687-jiw	PHASE=PRECOND	corpus.sqlite-quick_check=ok	records=1928	records_fts=1928	parity=OK
+2026-05-18T00:14:01Z	b0687-jiw	PHASE=SELECT	candidates=zmcc-2025-05/06/07/08/09/10/11/12	source=raw-on-disk-pdf+html	fetches=0
+2026-05-18T00:14:01Z	b0687-jiw	PHASE=PARSE	method=hand-curated-operative-paragraph-anchoring	parser_version=0.3.2-jiw-b0687-hand-curated
+2026-05-18T00:14:01Z	b0687-jiw	PHASE=STAGE	staged-db=/sessions/wizardly-ecstatic-noether/jiw_b0687_stage/corpus_work.sqlite	staged-size=114MB	staged-quick_check=ok
+2026-05-18T00:14:01Z	b0687-jiw	PHASE=INSERT	records+8	records_fts+8	judgments_meta+8	commit=OK
+2026-05-18T00:14:01Z	b0687-jiw	PHASE=PROMOTE	method=binary-copyfileobj-FUSE-safe	backup=corpus.sqlite.bak.b0687-pre-20260518T001058Z	live-quick_check=ok
+2026-05-18T00:14:01Z	b0687-jiw	PHASE=INTEGRITY	CHECK1-CHECK8-all-PASS
+2026-05-18T00:14:01Z	b0687-jiw	PHASE=COMMIT	report=reports/jiw-batch-b0687.md	gaps.md-updated
+2026-05-18T00:14:01Z	b0687-jiw	END	verdict=COMMIT-normal-path
+[2026-05-18T00:13:00Z] [b0688] start TICK=repair-corpus worker=v4 session=loving-fervent-heisenberg parser=repair-0.6.88
+[2026-05-18T00:13:00Z] [b0688] Step1 git_pull verdict=already-up-to-date (warning: .git/objects/maintenance.lock EPERM, non-fatal)
+[2026-05-18T00:13:00Z] [b0688] Step2 conditionA_corrupted=0 conditionB_no_body_acts_si=89 conditionC_stub=0 (judgments-no-body=148 skipped per v4 SKILL JIW-territory rule)
+[2026-05-18T00:13:00Z] [b0688] Step3 stage src=corpus.sqlite dest=/tmp/b0688_recover/corpus.sqlite size=118898688
+2026-05-18T00:13:30Z	b0688	REPAIR_OK	id=si-zm-2020-122-tourism-and-hospitality-licensing-temporary-disapplication-of-renewal-and-retention-fee-regulations-2020	src=pdf	bytes=1332
+2026-05-18T00:13:30Z	b0688	REPAIR_OK	id=si-zm-2020-123-tourism-and-hospitality-registration-of-hotel-managers-temporary-disapplication-of-registration-fee-regulations-2020	src=pdf	bytes=1305
+2026-05-18T00:13:30Z	b0688	REPAIR_OK	id=si-zm-2021-001-forest-reserve-no-4-maposa-cessation-order-2021	src=pdf	bytes=1977
+2026-05-18T00:13:30Z	b0688	REPAIR_OK	id=si-zm-2021-002-kasama-national-forest-no-p-47-alteration-of-boundaries-order-2021	src=pdf	bytes=3463
+2026-05-18T00:13:30Z	b0688	REPAIR_OK	id=si-zm-2021-003-national-forest-no-f31-kabwe-alteration-of-boundaries-order-2021	src=pdf	bytes=5159
+2026-05-18T00:13:30Z	b0688	REPAIR_OK	id=si-zm-2021-007-electoral-process-local-government-by-elections-election-time-and-time-of-poll-order-2021	src=pdf	bytes=1933
+2026-05-18T00:13:30Z	b0688	REPAIR_OK	id=si-zm-2021-010-kasama-municipal-council-vehicle-loading-and-parking-levy-by-laws-2021	src=pdf	bytes=4112
+2026-05-18T00:13:30Z	b0688	REPAIR_OK	id=si-zm-2021-015-diplomatic-immunities-and-privileges-international-centre-for-tropical-agriculture-order-2021	src=pdf	bytes=10647
+[2026-05-18T00:13:30Z] [b0688] Step4 staged_commit OK records=1936 records_fts=1936 quick_check=ok elapsed_sec=32
+[2026-05-18T00:14:00Z] [b0688] CONCURRENT_JIW_NOTE between Step2 (records=1928) and Step3 stage-copy (records=1936) a concurrent judgment-ingestion worker added 8 judgments (244->252). Staged DB is based on the 1936-record snapshot; post-promote live count matches.
+[2026-05-18T00:15:00Z] [b0688] Step5 promote staged->live FIRST_TRY had stale corpus.sqlite-journal (25136 bytes); first quick_check after promote returned "Main freelist: freelist leaf count too big" (stale-journal interference)
+[2026-05-18T00:15:30Z] [b0688] Step5b parked stale journal via mv corpus.sqlite-journal -> corpus.sqlite-journal.b0688-stale.bak (FUSE-EPERM blocked direct rm; established b0652/b0657/b0658/b0659 pattern). Re-cp staged->live. Re-verify clean.
+[2026-05-18T00:15:30Z] [b0688] integrity records=1936 records_fts=1936 sums-balance=PASS quick_check=ok
+[2026-05-18T00:15:30Z] [b0688] B2 sync deferred to host (rclone unavailable in sandbox)
+[2026-05-18T00:15:30Z] [b0688] reports/repair-batch-b0688.md WROTE; summary: repaired=8 failed=0 remaining=81 elapsed=32s
+[2026-05-18T00:15:30Z] [b0688] FINAL verdict=tick-complete batch_size=8 repaired=8 failed=0 remaining_no_body_acts_si=81 records=1936 records_fts=1936 next=continue-zambialii-AKN-SI-drainage

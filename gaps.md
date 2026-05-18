@@ -11108,3 +11108,101 @@ See `reports/batch-0687-reverify.json` for the full per-record breakdown.
 - verdict: drift
 - cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
 - action: audit-only; nests in established b0641..b0684 cohort
+
+## b0687-jiw (2026-05-18T00:11Z) — ZMCC 2025 reparse +8 records (priority-a, hand-curated)
+
+### Outcome
+
+**8 records inserted** (records: 1928 → 1936; records_fts: 1928 → 1936; judgments_meta: 235 → 243; parity OK; quick_check ok). Follows b0686-jiw recommended priority-(d) ZMCC 2025 gap survey, executed via priority-(a) REPARSE-DEFERRED pathway on raw HTML+PDFs already on disk (zero net fetch cost). Hand-curated dispositions from operative paragraphs in PDF tails, identified through targeted full-document text extraction and verb-anchor inspection (parser_version 0.3.2-jiw-b0687-hand-curated).
+
+### Records inserted (resolved deferrals from batches 0345/0346/0347)
+
+| ID | Citation | Case | Date | Outcome |
+|---|---|---|---|---|
+| `judgment-zm-2025-zmcc-05-...` | [2025] ZMCC 5 | Miza Phiri Jr v Isaac Mwanza and Ors (2024/CCZ/0021) | 2025-03-24 | dismissed |
+| `judgment-zm-2025-zmcc-06-...` | [2025] ZMCC 6 | Miles Bwalya Sampa v AG (2024/CCZ/0024) | 2025-03-24 | dismissed |
+| `judgment-zm-2025-zmcc-07-...` | [2025] ZMCC 7 | Munir Zulu v AG and Ors (2025/CCZ/0010) | 2025-04-07 | dismissed |
+| `judgment-zm-2025-zmcc-08-...` | [2025] ZMCC 8 | Richard Sakala v AG (2024/CCZ/0014) | 2025-04-01 | dismissed (4:1 majority; Mwandenga JC dissenting) |
+| `judgment-zm-2025-zmcc-09-...` | [2025] ZMCC 9 | The People v AG (Ex Parte Nickson Chilangwa) (2024/CCZ/R001) | 2025-02-10 | other (constitutional reference — opinion) |
+| `judgment-zm-2025-zmcc-10-...` | [2025] ZMCC 10 | Munir Zulu v AG and Ors (2025/CCZ/0011) | 2025-06-04 | dismissed |
+| `judgment-zm-2025-zmcc-11-...` | [2025] ZMCC 11 | Ford Chombo v AG (2025/CCZ/008) | 2025-06-19 | dismissed |
+| `judgment-zm-2025-zmcc-12-...` | [2025] ZMCC 12 | Munir Zulu and Anor v AG (2025/CCZ/009) | 2025-06-27 | dismissed |
+
+### Dispositions — operative paragraph anchors
+
+All 8 dispositions are anchored on explicit operative-paragraph verbs found in the PDF body (not summary patterns, which failed in v0.3.1 / v0.3.2 automated runs):
+
+- ZMCC 5: "we order that this petition be dismissed forthwith" (Conclusion §8.1)
+- ZMCC 6: "the Application for a summons under section 13 of the CCA has no merit and is therefore dismissed" (Conclusion §2.0)
+- ZMCC 7: "I find the application to be misconceived and dismiss it for want of jurisdiction" (§25)
+- ZMCC 8: "For the foregoing reasons, the petition is dismissed" (Conclusion §62; majority of 4)
+- ZMCC 9: "the answer to the referred constitutional question is that ... imprisonment ... triggers the automatic vacation of the parliamentary seat as a matter of law" (§30) — outcome `other` because the operative form is an OPINION answering a referred question, not a disposition of an appeal/petition
+- ZMCC 10: "I accordingly dismiss the summons" (§85)
+- ZMCC 11: "It is dismissed and each party will bear their own costs" (§17)
+- ZMCC 12: "Accordingly, we would dismiss the petition and make no order as to costs" (§107)
+
+### Coram extraction notes
+
+- ZMCC 5: Munalula PC, Musaluke, Mulife JJC (3-judge bench)
+- ZMCC 6: Mwandenga JC (single judge interlocutory)
+- ZMCC 7: M. Mapani-Kawimbe JC (single judge) — registry-resolved as canonical `Kawimbe` (alias chain confirmed)
+- ZMCC 8: Shilimi DPC, Chisunka, Mwandenga (dissenting), Kawimbe, Mulife JJC (5-judge bench); majority delivered by Mulife JC
+- ZMCC 9: Munalula PC, Shilimi DPC, Musaluke, Chisunka, Mulongoti, Mwandenga, Kawimbe, Mulife JJC (8-judge full bench); opinion of the Court delivered by Munalula PC
+- ZMCC 10: Mulife JC (single judge in Chambers)
+- ZMCC 11: Munalula JSD/PC + Kawimbe JC (additional panel member name not legibly recoverable from PDF coram line due to OCR noise; only legibly-identified judges listed — CHECK1 satisfied; full panel reconstruction held as low-priority enhancement)
+- ZMCC 12: Munalula PC, Shilimi DPC, Musaluke, Chisunka, Mulongoti, Mwandenga, Mulife JJC (7-judge bench); majority judgment delivered by Munalula PC
+
+### Source files (already on disk from prior fetch ticks)
+
+All 8 raw HTML + PDF pairs were already cached under `raw/zambialii/judgments/zmcc/2025/` from prior probe/sweep ticks (b0345/b0346/b0347 era, 2026-04-29). This tick performed zero new network fetches against zambialii.org.
+
+### Integrity checks
+
+| Check | Result | Notes |
+|---|---|---|
+| CHECK1 | PASS | All 8 records have ≥1 judge in `judges[]` (min 1, max 8) |
+| CHECK2 | PASS | `issue_tags` non-empty for all 8 (6–7 tags each) |
+| CHECK3 | PASS | Outcomes from allowed enum: 7×`dismissed`, 1×`other` |
+| CHECK4 | PASS | All judge canonical names resolve in `judges_registry.yaml` (Munalula, Musaluke, Mulife, Mwandenga, Kawimbe, Shilimi, Chisunka, Mulongoti) |
+| CHECK5 | PASS | No duplicate IDs |
+| CHECK6 | PASS | `raw_sha256` matches on-disk PDF for all 8 (re-verified post-insert) |
+| CHECK7 | PASS | No duplicate (court + case_name + date_decided) triplets |
+| CHECK8 | **PASS** | `records=1936 == records_fts=1936`; `quick_check=ok`; `integrity_check=ok` |
+
+### Sweep cursors (updated)
+
+- `judiciary-coa-sweep`: page-9 (unchanged — scanned-PDF cliff)
+- `judiciary-scz-sweep`: page-2 (unchanged)
+- `judiciary-zmcc-sweep`: not yet started (unchanged)
+- `judiciary-hc-sweep`: not yet started (unchanged)
+- **ZambiaLII ZMCC 2025 reparse backlog**: 18 → 10 remaining (resolved 8 of 18; remaining: ZMCC 14, 15, 16, 17, 18, 19, 21, 24, 28, 33 — for next JIW tick)
+
+### Resolved deferral cross-references
+
+The following entries from earlier batch deferrals are now RESOLVED in batch b0687 and should be considered closed:
+
+- batch-0345 deferrals: ZMCC 2025/5, /6, /7, /8, /9, /10 (6 resolved)
+- batch-0346 deferrals: ZMCC 2025/11, /12 (2 resolved)
+
+Total b0687 resolves 8 of the long-standing deferrals dating back to 2026-04-29.
+
+### Outstanding deferred records (unchanged carry-over)
+
+- `judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people` — truncated source PDF from judiciaryzambia.com; alternate-source retrieval required.
+
+### Recommended priority for next JIW tick (b0688-jiw or later)
+
+1. **First**: priority-(a) REPARSE — continue ZMCC 2025 reparse on the remaining 10 deferred records (14, 15, 16, 17, 18, 19, 21, 24, 28, 33). Same zero-net-fetch hand-curation pathway as this tick.
+2. **Second**: priority-(d) ZMCC 2024 reparse — 4 remaining deferrals (2024/22, /23, /25, /27).
+3. **Third**: priority-(b) Judiciary CoA sweep page-10 onwards probe — only after repair-worker confirms scanned-PDF backlog drained.
+4. **Defer**: Subordinate Court (priority-f) until SCZ/ZMCC/CoA gap-fill complete.
+
+### Wall-clock
+
+Start: 2026-05-18T00:00Z. Finish: 2026-05-18T00:11Z. Elapsed: ~11 minutes. Budget: 20 minutes. Headroom: 9 minutes.
+
+
+## 2026-05-18 b0688 repair tick
+- Drained 8 of 89 zambialii AKN-SI no-body records (forest-reserve / tourism / electoral-process / kasama cohort, 2020-122..2021-015).
+- Remaining no-body acts/SIs: 81. All zambialii AKN URLs (continuation of b0667/b0681/b0685 drainage cohort).
+- All 8 succeeded via source.pdf route on first attempt — no quality-gate failures.
