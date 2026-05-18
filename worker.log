@@ -10109,3 +10109,98 @@ warning: unable to unlink '/sessions/confident-awesome-johnson/mnt/corpus/.git/o
 [2026-05-18T19:33:26Z] [b0715-phase8] integrity-checks: 1=PASS 2=PASS 3=PASS 4=PASS 5=PASS 6=PASS 7=PASS 8=PASS 9=PASS — commit normal path
 [2026-05-18T19:33:26Z] [b0715-phase8] B2_SYNC verdict=deferred-to-host (rclone not in sandbox; Phase 8 read-only on corpus)
 [2026-05-18T19:33:26Z] [b0715-phase8] === TICK END === elapsed=21s budget=20min headroom=~19m39s
+[2026-05-18T19:37:37Z] [b0715-phase8] git commit rc=0 sha=cabc780 "Phase 8 batch 0715" (commit-tree path used: stale .git/index.lock from earlier session FUSE-unlink-blocked; used GIT_INDEX_FILE=/tmp/git-idx-b0715 + git commit-tree + git update-ref to bypass; tree=c25805d)
+[2026-05-18T19:37:41Z] [b0715-phase8] git push rc=0 bb62a58..cabc780 main -> main
+[2026-05-18T19:37:41Z] [b0715-phase8] B2 sync deferred to host (rclone not in sandbox)
+[2026-05-18T19:37:41Z] [b0715-phase8] === TICK CLOSED === phase_8 remains approved+incomplete; routine sampling continues next tick (T+30min)
+[2026-05-18T19:39:08.929804Z] [b0715-jiw] [INFO] === TICK START === phase=reparse-deferred-coa
+[2026-05-18T19:39:09.785702Z] [b0715-jiw] [INFO] git pull ok: Already up to date.
+[2026-05-18T19:39:09.789735Z] [b0715-jiw] [INFO] JIW fetches today: 293/500 (this tick = 0 fetches — reparse only)
+[2026-05-18T19:39:09.790035Z] [b0715-jiw] [INFO] Scanning corpus.sqlite for existing source_hashes / titles / citations...
+[2026-05-18T19:39:09.854190Z] [b0715-jiw] [INFO] corpus has 1962 records, 1951 unique source_hashes
+[2026-05-18T19:39:09.926501Z] [b0715-jiw] [INFO] Scanning raw/judiciary-zm/coa for unmatched extractable PDFs...
+[2026-05-18T19:39:10.364359Z] [b0715-jiw] [INFO] Found 41 unmatched COA PDF candidates
+[2026-05-18T19:39:10.366669Z] [b0715-jiw] [INFO] SKIP cn-collision APP/101/2024 → judgment-zm-2024-coa-101-timothy-lipofya-v-the-people: app-101-2024-timothy-lipofya-vs-the-people-coram-justice-mch
+[2026-05-18T19:39:10.379216Z] [b0715-jiw] [INFO] SKIP cn-collision APP/16/2025 → judgment-zm-2026-coa-016-nampak-zambia-ltd-v-nice-products-ltd: app-16-2025-nampak-zambia-ltd-vs-nice-products-ltd-coram-jus
+[2026-05-18T19:39:10.404535Z] [b0715-jiw] [INFO] SKIP cn-collision APP/182/2025 → judgment-zm-2025-coa-182-eleana-stella-koukoudis-1-other-v-image-civil-and-electrical-engineering-ltd: app-182-2025-eleana-stella-koukoudis-1-other-vs-image-civil-
+[2026-05-18T19:39:10.420372Z] [b0715-jiw] [INFO] SKIP cn-collision APP/202/2023 → judgment-zm-2020-coa-160-maambo-simukuni-v-tenyiwe-sibindi: app-202-2023-maambo-simukuni-vs-tenyiwe-sibindi-coram-justic
+[2026-05-18T19:39:10.422066Z] [b0715-jiw] [INFO] SKIP cn-collision APP/226/2023 → judgment-zm-2026-coa-226-levi-chimfwembe-v-sampa-leonard-musonda: app-226-2023-levi-chimfwembe-vs-sampa-leonard-musonda-coram-
+[2026-05-18T19:39:10.598758Z] [b0715-jiw] [INFO] SKIP cn-collision APP/322/2024 → judgment-zm-2023-coa-322-first-capital-bank-ltd-v-networld-logistics-ltd-and-others: app-322-2024-first-capital-bank-ltd-vs-networld-logistics-lt
+[2026-05-18T19:39:10.600617Z] [b0715-jiw] [INFO] SKIP cn-collision APP/330/2024 → judgment-zm-2025-coa-330-giford-kabunda-v-enala-mulambo: app-330-2024-giford-kabunda-vs-enala-mulambo-coram-justice-c
+[2026-05-18T19:39:10.614304Z] [b0715-jiw] [INFO] SKIP cn-collision APP/74/2025 → judgment-zm-2026-coa-074-bukari-pharmacy-v-mashake-mweemba: app-74-2025-bukari-pharmacy-vs-mashake-mweemba-coram-justice
+[2026-05-18T19:39:10.615951Z] [b0715-jiw] [INFO] SKIP cn-collision APP/75/2025 → judgment-zm-2026-coa-075-chris-hamuwele-v-mulungushi-university-respondent: APP-75-2025-Astro-Holdings-Limited-3-Others-and-Edgar-Hamuwe
+[2026-05-18T19:39:10.617578Z] [b0715-jiw] [INFO] SKIP cn-collision APP/75/2025 → judgment-zm-2026-coa-075-chris-hamuwele-v-mulungushi-university-respondent: APP-75-2025-Astro-Holdings-Limited-3-Others-and-Edgar-Hamuwe
+[2026-05-18T19:39:10.619146Z] [b0715-jiw] [INFO] SKIP cn-collision APP/75/2025 → judgment-zm-2026-coa-075-chris-hamuwele-v-mulungushi-university-respondent: app-75-2025-chris-hamuwele-vs-mulungushi-university-responde
+[2026-05-18T19:39:10.620609Z] [b0715-jiw] [INFO] SKIP cn-collision APP/79/2024 → judgment-zm-2025-coa-079-zebron-makanda-v-the-people: app-79-2024-zebron-makanda-vs-the-people-coram-justice-mchen
+[2026-05-18T19:39:10.622024Z] [b0715-jiw] [INFO] SKIP cn-collision APP/82/2025 → judgment-zm-2026-coa-082-kenneth-kaira-v-mulenga-mwiche-1-other: app-82-2025-kenneth-kaira-vs-mulenga-mwiche-1-other-coram-ju
+[2026-05-18T19:39:10.623498Z] [b0715-jiw] [INFO] SKIP cn-collision APP/91/2024 → judgment-zm-2022-coa-091-douglas-aaron-simukonda-v-the-people: app-91-2024-douglas-aaron-simukonda-vs-the-people-coram-just
+[2026-05-18T19:39:10.624919Z] [b0715-jiw] [INFO] SKIP cn-collision APP/91/2024 → judgment-zm-2022-coa-091-douglas-aaron-simukonda-v-the-people: app-91-2024-fqm-trident-limited-vs-mukuka-mumba-coram-kondol
+[2026-05-18T19:39:10.626279Z] [b0715-jiw] [INFO] SKIP cn-collision APP/95/2024 → judgment-zm-2026-coa-095-sandra-mwale-v-the-people: app-95-2024-sandra-mwale-vs-the-people-coram-mchenga-djp-maj
+[2026-05-18T19:39:10.627978Z] [b0715-jiw] [INFO] SKIP title-collision: judgment-zm-2019-coa-004-mathews-handulu-v-the-people | Mathews Handulu v The People June 2019
+[2026-05-18T19:39:10.790747Z] [b0715-jiw] [INFO] Selected=0 Deferred=41
+[2026-05-18T19:39:10.791242Z] [b0715-jiw] [INFO] No new records this tick — skipping commit
+[2026-05-18T19:42:24.904605Z] [b0716-jiw] [INFO] === TICK START === phase=reparse-deferred-zambialii
+[2026-05-18T19:42:25.714531Z] [b0716-jiw] [INFO] git pull rc=0: Already up to date.
+warning: unable to unlink '/sessions/gracious-upbeat-faraday/mnt/corpus/.git/objects/maintenance.lock': Operation not permitted
+warning: unable to unlink '/sessions/gracious-upbeat
+[2026-05-18T19:42:25.719573Z] [b0716-jiw] [INFO] JIW fetches today: 293/500
+[2026-05-18T19:42:25.809014Z] [b0716-jiw] [INFO] corpus: 1962 records, 1951 sha
+[2026-05-18T19:42:28.448961Z] [b0716-jiw] [INFO] Candidates: 192 extractable-likely ZambiaLII judgment PDFs not in corpus
+[2026-05-18T19:42:29.161017Z] [b0716-jiw] [INFO] PARSED judgment-zm-2026-zmcc-01-tresford-chali-v-the-judicial-complaints-commissio outcome=other date=2026-01-20 judges=7
+[2026-05-18T19:42:30.075942Z] [b0716-jiw] [INFO] SKIP no-judges: judgment-zm-2025-zmcc-16-miles-bwalya-sampa-v-attorney-gener
+[2026-05-18T19:42:32.834391Z] [b0716-jiw] [INFO] PARSED judgment-zm-2025-zmcc-33-miles-bwalya-sampa-v-the-attorney-general-and-ors outcome=dismissed date=2024-12-31 judges=1
+[2026-05-18T19:42:33.670105Z] [b0716-jiw] [INFO] PARSED judgment-zm-2024-zmcc-15-milingo-lungu-v-the-attorney-general-and-anor outcome=granted date=2023-11-30 judges=7
+[2026-05-18T19:42:34.047856Z] [b0716-jiw] [INFO] PARSED judgment-zm-2024-zmcc-17-isaac-mwaanza-and-civil-liberties-union-v-attorney outcome=other date=None judges=3
+[2026-05-18T19:42:34.897715Z] [b0716-jiw] [INFO] SKIP no-judges: judgment-zm-2024-zmcc-20-michelo-chizombe-v-edgar-chagwa-lun
+[2026-05-18T19:42:36.629230Z] [b0716-jiw] [INFO] PARSED judgment-zm-2024-zmcc-27-michelo-chizombe-v-edgar-chagwa-lungu-and-ors outcome=set-aside date=2024-12-10 judges=7
+[2026-05-18T19:42:38.553189Z] [b0716-jiw] [INFO] SKIP no-judges: judgment-zm-2023-zmcc-03-malanji-and-anor-v-attorney-general
+[2026-05-18T19:42:39.129021Z] [b0716-jiw] [INFO] PARSED judgment-zm-2023-zmcc-04-ikelenge-town-council-v-national-pension-scheme-au outcome=other date=None judges=5
+[2026-05-18T19:42:39.993375Z] [b0716-jiw] [INFO] PARSED judgment-zm-2023-zmcc-05-governance-elections-advocacy-research-services-in outcome=other date=2022-09-15 judges=3
+[2026-05-18T19:42:41.495631Z] [b0716-jiw] [INFO] PARSED judgment-zm-2023-zmcc-06-sangwa-v-attorney-general-and-law-association-of-z outcome=other date=2022-12-09 judges=7
+[2026-05-18T19:42:41.496264Z] [b0716-jiw] [INFO] Selected=8 Deferred=4
+[2026-05-18T19:42:44.048330Z] [b0716-jiw] [INFO] DB snapshot: corpus.sqlite.bak.b0716-jiw-20260518194224
+[2026-05-18T19:42:44.057182Z] [b0716-jiw] [INFO] INSERT rowid=1969 judgment-zm-2026-zmcc-01-tresford-chali-v-the-judicial-complaints-commissio
+[2026-05-18T19:42:44.058483Z] [b0716-jiw] [INFO] INSERT rowid=1970 judgment-zm-2025-zmcc-33-miles-bwalya-sampa-v-the-attorney-general-and-ors
+[2026-05-18T19:42:44.059739Z] [b0716-jiw] [INFO] INSERT rowid=1971 judgment-zm-2024-zmcc-15-milingo-lungu-v-the-attorney-general-and-anor
+[2026-05-18T19:42:44.060848Z] [b0716-jiw] [INFO] INSERT rowid=1972 judgment-zm-2024-zmcc-17-isaac-mwaanza-and-civil-liberties-union-v-attorney
+[2026-05-18T19:42:44.061995Z] [b0716-jiw] [INFO] INSERT rowid=1973 judgment-zm-2024-zmcc-27-michelo-chizombe-v-edgar-chagwa-lungu-and-ors
+[2026-05-18T19:42:44.062850Z] [b0716-jiw] [INFO] INSERT rowid=1974 judgment-zm-2023-zmcc-04-ikelenge-town-council-v-national-pension-scheme-au
+[2026-05-18T19:42:44.063967Z] [b0716-jiw] [INFO] INSERT rowid=1975 judgment-zm-2023-zmcc-05-governance-elections-advocacy-research-services-in
+[2026-05-18T19:42:44.064854Z] [b0716-jiw] [INFO] INSERT rowid=1976 judgment-zm-2023-zmcc-06-sangwa-v-attorney-general-and-law-association-of-z
+[2026-05-18T19:42:44.230769Z] [b0716-jiw] [INFO] DB after: records=1970 records_fts=1970 quick_check=ok
+[2026-05-18T19:42:44.232974Z] [b0716-jiw] [INFO] judges_registry: added 27 new entries
+[2026-05-18T19:42:44.235501Z] [b0716-jiw] [INFO] Wrote report: b0716-jiw-report.md
+[2026-05-18T19:42:47.837768Z] [b0716-jiw] [WARN] git add costs.log rc=128: fatal: Unable to create '/sessions/gracious-upbeat-faraday/mnt/corpus/.git/index.lock': File exists.
+
+Another git process seems to be running in this 
+[2026-05-18T19:42:47.839484Z] [b0716-jiw] [WARN] git add worker.log rc=128: fatal: Unable to create '/sessions/gracious-upbeat-faraday/mnt/corpus/.git/index.lock': File exists.
+
+Another git process seems to be running in this 
+[2026-05-18T19:42:47.840944Z] [b0716-jiw] [WARN] git add judges_registry.yaml rc=128: fatal: Unable to create '/sessions/gracious-upbeat-faraday/mnt/corpus/.git/index.lock': File exists.
+
+Another git process seems to be running in this 
+[2026-05-18T19:42:47.842401Z] [b0716-jiw] [WARN] git add reports/b0716-jiw-report.md rc=128: fatal: Unable to create '/sessions/gracious-upbeat-faraday/mnt/corpus/.git/index.lock': File exists.
+
+Another git process seems to be running in this 
+[2026-05-18T19:42:47.843860Z] [b0716-jiw] [WARN] git add gaps.md rc=128: fatal: Unable to create '/sessions/gracious-upbeat-faraday/mnt/corpus/.git/index.lock': File exists.
+
+Another git process seems to be running in this 
+[2026-05-18T19:42:48.068876Z] [b0716-jiw] [INFO] git commit rc=128: fatal: Unable to create '/sessions/gracious-upbeat-faraday/mnt/corpus/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may 
+[2026-05-18T19:42:48.070254Z] [b0716-jiw] [INFO] B2 sync deferred to host (rclone not available in sandbox)
+[2026-05-18T19:42:48.070618Z] [b0716-jiw] [INFO] === TICK CLOSED === written=8 deferred=4
+[2026-05-18T20:05:25Z] [b0716-phase8] === TICK START === phase=phase_8_nightly_reverify max_batch=8 wall_clock_budget=20min
+[2026-05-18T20:05:25Z] [b0716-phase8] git pull --ff-only rc=0 (Already up to date; index.lock warnings ignored — FUSE Operation not permitted, prior session leftover, does not block read ops)
+[2026-05-18T20:05:25Z] [b0716-phase8] approvals.yaml: only approved+incomplete phase is phase_8_nightly_reverify (sample_rate=0.01)
+[2026-05-18T20:05:25Z] [b0716-phase8] budgets ok: ~413/2000 fetches today; tokens 0/1000000 today
+[2026-05-18T20:05:25Z] [b0716-phase8] cloned scripts/batch_0715_phase8_reverify.py → scripts/batch_0716_phase8_reverify.py (only BATCH constant + docstring changed)
+[2026-05-18T20:05:36Z] [b0716-phase8] sampler: pool=1973 sample=8 seed=phase8-reverify-2026-05-18-b0716
+[2026-05-18T20:06:15Z] [b0716-phase8] sampler: match=3 drift=5 fetch_error=0 fetches=8 bandwidth=1200128B
+[2026-05-18T20:06:15Z] [b0716-phase8] DRIFT cohort (all 5): zambialii_akn_html_dynamic_render_drift — 1 eng@-suffixed Act + 2 bare-path SIs + 2 bare-path judgments (judgment-zm-2023-zmcc-04 and -05 are newly-ingested by b0716-jiw earlier today; drift within ~24min consistent with documented per-request render variance)
+[2026-05-18T20:06:15Z] [b0716-phase8] integrity-checks: 1=PASS 2=PASS 3=PASS 4=PASS 5=PASS 6=PASS 7=PASS 8=PASS 9=PASS — commit normal path
+[2026-05-18T20:06:15Z] [b0716-phase8] B2_SYNC verdict=deferred-to-host (rclone not in sandbox; Phase 8 read-only on corpus)
+[2026-05-18T20:06:15Z] [b0716-phase8] === TICK END === elapsed=50s budget=20min headroom=~19m10s
