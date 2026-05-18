@@ -6941,3 +6941,9 @@ b0710-jiw	2026-05-18T18:09:18Z	fetch_html_urllib	bytes=180885	sec=2.42
 2026-05-18T18:28:03Z	b0711-phase8	WALL_CLOCK	started=2026-05-18T18:27:49Z	completed=2026-05-18T18:28:03Z	elapsed=14s	budget=20min	headroom=~19m46s
 2026-05-18T18:28:03Z	b0711-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 2026-05-18T18:28:03Z	b0711-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1961	records_fts=1961	dup_ids=0	tick-verdict=COMMIT-normal-path
+2026-05-18T18:37:51Z	b0712-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=~325/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1964	sample_size=8
+2026-05-18T18:37:51Z	b0712-phase8	NETWORK_FETCHES	count=8	hosts=zambialii.org:6,www.parliament.gov.zm:2	http=200x8
+2026-05-18T18:37:51Z	b0712-phase8	BANDWIDTH	total_bytes=13344253	avg_kb=1628.9	largest=judgment-zm-2025-zmsc-30-sa-v-zambia(11310547B,zambialii-source-pdf)
+2026-05-18T18:37:51Z	b0712-phase8	WALL_CLOCK	started=2026-05-18T18:37:16Z	completed=2026-05-18T18:37:51Z	elapsed=35s	budget=20min	headroom=~19m25s
+2026-05-18T18:37:51Z	b0712-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-18T18:37:51Z	b0712-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1961	records_fts=1961	dup_ids=0	tick-verdict=COMMIT-normal-path

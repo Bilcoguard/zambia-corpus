@@ -9994,3 +9994,11 @@ Another git process seems to
 [2026-05-18T18:31:07Z] [repair] Condition C (stubs): 0
 [2026-05-18T18:31:07Z] [repair] Dedup targets: 0
 [2026-05-18T18:31:07Z] [repair] All repair targets fixed — repair worker idle
+[2026-05-18T18:37:16Z] [b0712-phase8] === TICK START === phase=phase_8_nightly_reverify
+[2026-05-18T18:37:16Z] [b0712-phase8] approvals.yaml read; phase_8 approved=true complete=false; sample_rate=0.01
+[2026-05-18T18:37:16Z] [b0712-phase8] script=scripts/batch_0712_phase8_reverify.py (clone of batch_0546 baseline; BATCH=0712)
+[2026-05-18T18:37:51Z] [b0712-phase8] pool_size=1964 sample_size=8 seed=phase8-reverify-2026-05-18-b0712
+[2026-05-18T18:37:51Z] [b0712-phase8] fetches=8 http200=8 match=6 drift=2 fetch_error=0
+[2026-05-18T18:37:51Z] [b0712-phase8] integrity-checks: 1=PASS 2=PASS 3=PASS 4=PASS 5=PASS 6=PASS 7=PASS 8=PASS 9=PASS — commit normal path
+[2026-05-18T18:37:51Z] [b0712-phase8] B2_SYNC verdict=deferred-to-host (rclone not in sandbox; Phase 8 read-only on corpus)
+[2026-05-18T18:37:51Z] [b0712-phase8] === TICK END === elapsed=35s budget=20min headroom=~19m25s
