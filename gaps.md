@@ -11930,3 +11930,44 @@ See `reports/batch-0706-reverify.json` for the full per-record breakdown and `re
 - `judiciary-hc-sweep`: not yet started
 
 ### Network fetches: 0
+
+
+## b0707-phase8 — Phase 8 nightly re-verification (2026-05-18T15:34Z) — AUDIT-ONLY ENTRY
+
+Tick b0707 sampled 8 of 1964 records (sample_rate 0.01, seed `phase8-reverify-2026-05-18-b0707`). Results: 3 match, 5 drift, 0 fetch_error. 8× HTTP 200. All 9 integrity checks PASS.
+
+### Drifts (5) — pre-existing dynamic-render cohorts
+
+ZambiaLII AKN bare-path sub-variant (×3) — `zambialii_akn_html_dynamic_render_drift` (bare-AKN-path sub-variant):
+
+- `si-zm-2022-050-customs-and-excise-general-amendment-regulations-2022` — host `zambialii.org`, AKN bare-path (`/akn/zm/act/si/2022/50`, no `/eng@` suffix and no `/source.pdf` suffix); stored=`1b1b01f5dbfa12f97c2d30982cb6d342f7248481269b41dca1b7a7e31d102226` fetched=`d831eb93289baecf23f5813e0e72218b95f826bbb01a91a75164c18257020c5d`; bytes=38733; verdict: dynamic-render churn on the 302-redirected English point-in-time HTML rendering, legal content unchanged.
+- `si-zm-1980-049-zambia-national-provident-fund-statutory-contributions-regulations-1980` — host `zambialii.org`, AKN bare-path (`/akn/zm/act/si/1980/49`); stored=`fbf54c964a28b588cc8fe3e7b836b0b35636ddb3e711f46d6aedfe24009e5b79` fetched=`0497f2e26570e81c692bb8b62ad9d3f82c82a7eb4084d8380795870b6a41f763`; bytes=40829; verdict: dynamic-render churn, legal content unchanged.
+- `si-zm-2020-043-electoral-process-local-government-by-election-election-date-and-time-of-poll-no-4-order-2020` — host `zambialii.org`, AKN bare-path (`/akn/zm/act/si/2020/43`); stored=`1c1aa27d735205f9c43ec64f1df2d2cd2ad5a5a441baeed874518b2de45b15cb` fetched=`5137b128c3f75c467cd46988303c6f65f6a767d09fe92c2a01d7d6d85d392f1c`; bytes=39317; verdict: dynamic-render churn, legal content unchanged.
+
+ZambiaLII AKN-HTML `eng@`-suffixed sub-variant (×2) — `zambialii_akn_html_dynamic_render_drift`:
+
+- `act-zm-1984-005-excess-expenditure-appropriation-1981-act-1984` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1984/5/eng@1984-03-30`); stored=`04b5f3b06c570d29453d3af739ce31f98bec9822a3c302ffe6a2a44d5641bb2d` fetched=`55064fe0ee55a9bf223464f01258991d98efc7b0f023630fc1211115b5b66322`; bytes=38646; verdict: dynamic-render churn, legal content unchanged.
+- `judgment-zm-2024-zmcc-21-mildred-luwaile-v-attorney-general` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/judgment/zmcc/2024/21/eng@2024-10-11`); stored=`68580286afdc623c706dcf7bfb45e6f16a8ab662efa76943e765abcad41bf62b` fetched=`f30265807dca4b8f679a505d036737752ebb02a46a79f24854a0f0f8113e05c4`; bytes=45877; verdict: dynamic-render churn, legal content unchanged.
+
+### Match (3) — stable-PDF supercohort
+
+- `act-zm-2001-007-export-processing-zones-act-2001` — host `zambialii.org`, ZambiaLII `source.pdf` sub-variant (`/akn/zm/act/2001/7/eng@2001-11-09/source.pdf`); hash unchanged (`9f2ecf30...`); bytes=2,016,052 — stable-PDF supercohort (ZambiaLII source.pdf branch).
+- `act-zm-2025-022-mobile-money-transaction-levy-act` — host `www.parliament.gov.zm`, Act PDF — hash unchanged (`71eaea33...`); bytes=289,635.
+- `act-zm-cap-215-mineral-royalty-tax-repeal-act` — host `www.parliament.gov.zm`, Act PDF — hash unchanged (`93ed2021...`); bytes=49,680.
+
+### No fetch errors
+
+ZambiaLII and www.parliament.gov.zm both fully available this tick (8/8 HTTP 200).
+
+See `reports/batch-0707-reverify.json` for the full per-record breakdown and `reports/batch-0707.md` for the narrative report.
+
+## phase8_reverify_drift
+- batch: 0707
+- detected_at: 2026-05-18T15:34:55Z
+- cohort: zambialii_akn_html_dynamic_render_drift (×5: ×3 bare-AKN-path sub-variant, ×2 eng@-suffixed sub-variant)
+- pool_size: 1964
+- sample_size: 8
+- match: 3
+- drift: 5
+- fetch_error: 0
+- records_mutated: 0

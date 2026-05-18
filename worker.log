@@ -9297,3 +9297,18 @@ fatal: cannot lock ref 'HEAD': Unable to create
 [2026-05-18T15:16:51Z] [b0706c-jiw] DB_POST records=1961 records_fts=1961
 [2026-05-18T15:16:51Z] [b0706c-jiw] INTEGRITY pass=True errors=[]
 [2026-05-18T15:16:51Z] [b0706c-jiw] WROTE_REPORT reports/batch-b0706c-jiw.md
+[2026-05-18T15:16:52Z] [b0706c-jiw] GIT_STAGED count=14 files=['costs.log', 'gaps.md', 'judges_registry.yaml', 'provenance.log', 'records/judgments/coa/2020/judgment-zm-2020-coa-113-chisumpa-liandisha-appellant-and-the-people-respondent.json', 'records/judgments/coa/2020/judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people.json', 'records/judgments/coa/2024/judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-ltd.json', 'records/judgments/coa/2024/judgment-zm-2024-coa-024-z-kingfred-phiri-l-appellant-civil-rgi5tjy-2-and-0x-5ofl7-life-master-limited-re.json']
+[2026-05-18T15:16:52Z] [b0706c-jiw] GIT_COMMIT sha=be829ce57c41 msg='Judgment batch b0706c-jiw: +3 CoA rollback+reparse v0.4.1 (024/2024,113/2020,211/2022)'
+[2026-05-18T15:16:52Z] [b0706c-jiw] RCLONE not_available — B2 sync deferred to host
+[2026-05-18T15:16:55Z] [b0706c-jiw] GIT_PUSH_OK
+[2026-05-18T15:16:55Z] [b0706c-jiw] TICK_END inserted=3 deferred=0 stubs=3 records=1961 records_fts=1961 elapsed_s=5
+[2026-05-18T15:34:17Z] [b0707-phase8] TICK_START phase=phase_8_nightly_reverify script=scripts/batch_0707_phase8_reverify.py
+[2026-05-18T15:34:17Z] [b0707-phase8] PRE_INTEGRITY quick_check=ok records=1961 records_fts=1961 dup_ids=0
+[2026-05-18T15:34:17Z] [b0707-phase8] POOL_LOAD pool_size=1964 sample_rate=0.01 max_batch=8 seed=phase8-reverify-2026-05-18-b0707
+[2026-05-18T15:34:55Z] [b0707-phase8] REVERIFY_DONE fetches=8 match=3 drift=5 fetch_error=0 bytes=2558769 elapsed_s=38
+[2026-05-18T15:34:55Z] [b0707-phase8] DRIFT_COHORTS zambialii_akn_html_dynamic_render_drift=5
+[2026-05-18T15:34:55Z] [b0707-phase8] WROTE_REPORT reports/batch-0707-reverify.json reports/batch-0707.md
+[2026-05-18T15:34:55Z] [b0707-phase8] GAPS_APPEND gaps.md (audit-only; no record file mutated)
+[2026-05-18T15:34:55Z] [b0707-phase8] POST_INTEGRITY quick_check=ok records=1961 records_fts=1961 dup_ids=0 records_dir_unchanged=true approvals_yaml_unchanged=true
+[2026-05-18T15:34:55Z] [b0707-phase8] INTEGRITY all-checks=PASS verdict=COMMIT-normal-path
+[2026-05-18T15:34:55Z] [b0707-phase8] RCLONE not_available — B2 sync deferred to host

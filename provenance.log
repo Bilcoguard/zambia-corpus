@@ -4686,3 +4686,4 @@ b0699-jiw	2026-05-18T15:35:00Z	RECOVERY	reason=context-compaction-interrupted-co
 2026-05-18T15:16:51Z	b0706c-jiw	DEPRECATE_STUB	judgment-zm-2024-coa-024-z-kingfred-phiri-l-appellant-civil-rgi5tjy-2-and-0x-5ofl7-life-master-limited-re.json	cn=APP/024/2024	reason=poor-slug-from-b0706-jiw
 2026-05-18T15:16:51Z	b0706c-jiw	DEPRECATE_STUB	judgment-zm-2020-coa-113-chisumpa-liandisha-appellant-and-the-people-respondent.json	cn=APP/113/2020	reason=poor-slug-from-b0706-jiw
 2026-05-18T15:16:51Z	b0706c-jiw	DEPRECATE_STUB	judgment-zm-2024-coa-211-rotor-moulder-enterprises-timite-appellant-and-stanley-jordan-1st-respondent-jos.json	cn=APP/211/2022	reason=poor-slug-from-b0706-jiw
+2026-05-18T15:34:55Z	b0707-phase8	REVERIFY	pool=1964	sample=8	match=3	drift=5	fetch_error=0	seed=phase8-reverify-2026-05-18-b0707	report=reports/batch-0707.md	json=reports/batch-0707-reverify.json
