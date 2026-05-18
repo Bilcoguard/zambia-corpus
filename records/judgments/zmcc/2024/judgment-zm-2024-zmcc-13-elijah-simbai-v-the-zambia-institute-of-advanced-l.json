@@ -1,0 +1,48 @@
+{
+  "id": "judgment-zm-2024-zmcc-13-elijah-simbai-v-the-zambia-institute-of-advanced-l",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Elijah Simbai v The Zambia Institute of Advanced Legal Education Council  and Ors (2023/CCZ/0023) [2024] ZMCC 13 (28 June 2024)",
+  "citation": "[2024] ZMCC 13",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Elijah Simbai v The Zambia Institute of Advanced Legal Education Council  and Ors",
+  "case_number": "2023/CCZ/0023",
+  "date_decided": "2024-06-28",
+  "judges": [
+    {
+      "name": "Mulenga JJC",
+      "role": "Justice of the Constitutional Court (JJC)",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke JJC",
+      "role": "Justice of the Constitutional Court (JJC)",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga JJC",
+      "role": "Justice of the Constitutional Court (JJC)",
+      "dissented": false
+    }
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Three-Judge bench (Mulenga, Musaluke and Mwandenga JJC) dismissed the petition at paragraph [4.31] holding that the Petitioner failed to prove his claims of constitutional breaches against ZIALE Council and associated respondents. Specific allegations under Articles 119(2) and 122(2) were found to lack merit and were dismissed at paragraphs [4.28]–[4.29]. Each party to bear own costs.",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/13/eng@2024-06-28",
+  "raw_sha256": "370db118a8fb391b89f817b2ccd070f899b32a0e0ba8063955018a07d3297a6d",
+  "source_hash": "sha256:370db118a8fb391b89f817b2ccd070f899b32a0e0ba8063955018a07d3297a6d",
+  "fetched_at": "2026-05-18T14:05:00Z",
+  "parser_version": "0.3.2-jiw-b0699-hand-curated",
+  "issue_tags": [
+    "Article 119(2) — judicial functions of the courts",
+    "Article 122(2) — non-interference with judicial function",
+    "ZIALE — Zambia Institute of Advanced Legal Education — professional ethics",
+    "judicial review proceedings — High Court parallel litigation",
+    "burden of proof — constitutional breach allegations",
+    "declaratory relief — failure to entitle Petitioner"
+  ],
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "paragraph_count_estimate": 0,
+  "body_length": 42108
+}

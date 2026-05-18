@@ -1,0 +1,48 @@
+{
+  "id": "judgment-zm-2024-zmcc-08-dr-godfrey-hampwaye-and-ors-v-the-council-of-the-u",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Dr. Godfrey Hampwaye and Ors v The Council of the University of Zambia (2023/CCZ/0027) [2024] ZMCC 8 (7 June 2024)",
+  "citation": "[2024] ZMCC 8",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Dr. Godfrey Hampwaye and Ors v The Council of the University of Zambia",
+  "case_number": "2023/CCZ/0027",
+  "date_decided": "2024-06-07",
+  "judges": [
+    {
+      "name": "Sitali JJC",
+      "role": "Justice of the Constitutional Court (JJC)",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka JJC",
+      "role": "Justice of the Constitutional Court (JJC)",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe JJC",
+      "role": "Justice of the Constitutional Court (JJC)",
+      "dissented": false
+    }
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Three-Judge bench (Sitali, Chisunka and Kawimbe JJC) dismissed the Respondent's notice of motion seeking summary determination of the petition under Order 14A of the Rules of the Supreme Court (RSC). The Court held at paragraph [6.1] that the questions raised were not suitable for determination under Order 14A without a trial, and remitted the matter to the single Judge for the continued scheduling of the petition. Each party to bear their own costs.",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/8/eng@2024-06-07",
+  "raw_sha256": "17831cf401f9b46539aab6c1509d618bf786c768336bb8228fd56473799ba846",
+  "source_hash": "sha256:17831cf401f9b46539aab6c1509d618bf786c768336bb8228fd56473799ba846",
+  "fetched_at": "2026-05-18T14:05:00Z",
+  "parser_version": "0.3.2-jiw-b0699-hand-curated",
+  "issue_tags": [
+    "Order 14A RSC — summary determination of points of law",
+    "Article 187 — Constitution (UNZA Council and public-service obligations)",
+    "Article 189(1) and (2) — administrative justice and fair process",
+    "Local Authorities Superannuation Fund Act, Chapter 284 (as amended by Act No. 8 of 2015)",
+    "University of Zambia 'First In First Out' policy — pension entitlements",
+    "interlocutory motion — remittal to single Judge"
+  ],
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "paragraph_count_estimate": 0,
+  "body_length": 19550
+}

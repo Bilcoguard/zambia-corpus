@@ -1,0 +1,39 @@
+{
+  "id": "judgment-zm-2024-zmcc-04-moses-sakala-v-the-attorney-general-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Moses Sakala v The Attorney General and Anor (2023/CCZ/0025) [2024] ZMCC 4 (23 February 2024)",
+  "citation": "[2024] ZMCC 4",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Moses Sakala v The Attorney General and Anor",
+  "case_number": "2023/CCZ/0025",
+  "date_decided": "2024-02-23",
+  "judges": [
+    {
+      "name": "Mulife JJC",
+      "role": "Justice of the Constitutional Court (JJC)",
+      "dissented": false
+    }
+  ],
+  "outcome": "granted",
+  "outcome_detail": "Mulife JC (sitting alone) granted the Intended Party (Brian Mundubile) leave to join Moses Sakala v Attorney General and Anor as 3rd Respondent. The Court applied the test that no order can be made to the detriment of an individual unless he is a party to the proceedings (following Mulenga v Mumbi ex parte Mhango and Stanbic Bank v Micoquip Zambia Ltd). Directions for filing pleadings issued; parties to bear their respective costs.",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/4/eng@2024-02-23",
+  "raw_sha256": "954a89ac04785d569d2b9251f7de4e122e19f897a61d07e60c583afd9e428ac8",
+  "source_hash": "sha256:954a89ac04785d569d2b9251f7de4e122e19f897a61d07e60c583afd9e428ac8",
+  "fetched_at": "2026-05-18T14:05:00Z",
+  "parser_version": "0.3.2-jiw-b0699-hand-curated",
+  "issue_tags": [
+    "joinder — non-party to be heard before adverse order",
+    "Article 60(2)(d) and (e) — political parties and selection of leader of opposition",
+    "Article 74(2) — election of Leader of the Opposition in the National Assembly",
+    "Rule 43 — Parliamentary Standing Orders, 2021",
+    "section 30 Constitutional Court Act and Order XIII rule 1 CCR — costs discretion",
+    "Mulenga v Mumbi ex parte Mhango — followed",
+    "Stanbic Bank v Micoquip Zambia Ltd — followed"
+  ],
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "paragraph_count_estimate": 0,
+  "body_length": 16155
+}

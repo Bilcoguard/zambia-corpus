@@ -1,0 +1,37 @@
+{
+  "id": "judgment-zm-2024-zmcc-02-institute-of-law-policy-research-and-human-rights",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Institute of Law, Policy Research and Human Rights Limited v Attorney General and Anor (2023/CCZ/0024) [2024] ZMCC 2 (17 January 2024)",
+  "citation": "[2024] ZMCC 2",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Institute of Law, Policy Research and Human Rights Limited v Attorney General and Anor",
+  "case_number": "2023/CCZ/0024",
+  "date_decided": "2024-01-17",
+  "judges": [
+    {
+      "name": "Chisunka JJC",
+      "role": "Justice of the Constitutional Court (JJC)",
+      "dissented": false
+    }
+  ],
+  "outcome": "granted",
+  "outcome_detail": "Interlocutory application for joinder under Order IV rule 2(2) of the Constitutional Court Rules, 2016. Chisunka JJC sitting alone granted the Intended Interested Party (Brian Mundubile) leave to join the main originating-summons proceedings as an interested party. Court issued directions for filing of skeleton arguments, status conference, and hearing of the main matter. Each party to bear their own costs.",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/2/eng@2024-01-17",
+  "raw_sha256": "923910e3043b3c351a4a4832f2b68e9462f786380de5bc0baf44694db36db27e",
+  "source_hash": "sha256:923910e3043b3c351a4a4832f2b68e9462f786380de5bc0baf44694db36db27e",
+  "fetched_at": "2026-05-18T14:05:00Z",
+  "parser_version": "0.3.2-jiw-b0699-hand-curated",
+  "issue_tags": [
+    "joinder of interested party — Order IV rule 2(2) Constitutional Court Rules",
+    "Article 74(2) — interpretation (substantive originating summons)",
+    "Articles 1(1), 2 and 128 — constitutional jurisdiction",
+    "interlocutory application — sufficient interest test",
+    "Constitutional Court (Amendment) Act No. 2 of 2016"
+  ],
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "paragraph_count_estimate": 0,
+  "body_length": 11529
+}

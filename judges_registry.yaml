@@ -376,11 +376,15 @@ judges:
   - title: DPC
     first_seen_in: judgment-zm-2023-zmcc-16-institute-of-law-policy-research-and-human-rights
     first_seen_at: '2026-05-03T13:57:35Z'
+  - title: PCC
+    first_seen_in: judgment-zm-2024-zmcc-05-milingo-lungu-v-the-attorney-general-and-anor
+    first_seen_at: '2026-05-18T14:05:00Z'
   aliases:
   - Munalula PC
   - Munalula JCC
   - Munalula JJC
   - Munalula DPC
+  - Munalula PCC
   first_seen: '2026-04-29T13:10:17Z'
 - canonical_name: Musaluke
   titles:

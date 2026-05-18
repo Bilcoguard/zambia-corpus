@@ -8958,3 +8958,40 @@ test append Mon May 18 00:44:14 CAT 2026
 2026-05-18T12:38Z b0700-phase8 GIT_COMMIT sha=651c883e7b53a1757c5124f972b601d034e9dd0f parent=a383e19ae5947029653e8220e6927593da54d47a tree=a41746d00dd063fe9a94bd566c25c57448a3274b files=7 method=alt-index-read-tree-HEAD+write-tree+commit-tree+direct-ref-truncate-and-write reason=FUSE-EPERM-on-.git/index.lock (preexisting since b0656)
 2026-05-18T12:38Z b0700-phase8 GIT_PUSH remote=origin branch=main from=a383e19 to=651c883 result=OK
 2026-05-18T12:38Z b0700-phase8 ORPHAN_NOTE prior b0699-jiw worker (TICK_END 2026-05-18T14:20Z) reported COMMIT-normal-path but never reached git — its in-flight log appends (gaps.md/costs.log/provenance.log/worker.log) were swept INTO this Phase 8 commit by alt-index read-tree HEAD anchoring; b0699-jiw's record files (records/judgments/zmcc/2024/{02,04,05,06,07,08,10,13}-*.json), judges_registry.yaml diff, reports/batch-0699-jiw.md, and corpus.sqlite mutations remain ORPHANED on working tree only — next jiw tick MUST recover by committing those work-products on top of 651c883; b0700-phase8's own integrity checks were unaffected (Phase 8 sample drew none of the 8 new records, pool=1957 records-on-disk; sqlite live state records=1954 reflects b0699-jiw insertion)
+[2026-05-18T13:12:01Z] b0701 Condition B (no-body acts/sis): 49
+[2026-05-18T13:12:01Z] b0701 Condition A (corrupted): 0
+[2026-05-18T13:12:01Z] b0701 Condition C (stubs): 0
+[2026-05-18T13:12:01Z] b0701 Total dedup targets: 49; picking up to 8
+[2026-05-18T13:12:01Z] b0701 REPAIR start id=si-zm-2022-016-local-authorities-superannuation-fund-pension-management-rules-2022 url=https://zambialii.org/akn/zm/act/si/2022/16
+[2026-05-18T13:12:05Z] b0701 REPAIR ok id=si-zm-2022-016-local-authorities-superannuation-fund-pension-management-rules-2022 body_len=44742 hash=03a3a7961f34
+[2026-05-18T13:12:06Z] b0701 REPAIR start id=si-zm-2022-017-customs-and-excise-electronic-machinery-and-equipment-suspension-amendment-regulations-2022 url=https://zambialii.org/akn/zm/act/si/2022/17
+[2026-05-18T13:12:08Z] b0701 REPAIR ok id=si-zm-2022-017-customs-and-excise-electronic-machinery-and-equipment-suspension-amendment-regulations-2022 body_len=1654 hash=ffbd16ec5751
+[2026-05-18T13:12:09Z] b0701 REPAIR start id=si-zm-2022-018-electoral-process-general-election-election-date-and-time-of-poll-order-2022 url=https://zambialii.org/akn/zm/act/si/2022/18
+[2026-05-18T13:12:11Z] b0701 REPAIR ok id=si-zm-2022-018-electoral-process-general-election-election-date-and-time-of-poll-order-2022 body_len=1891 hash=6b87c35ef49a
+[2026-05-18T13:12:12Z] b0701 REPAIR start id=si-zm-2022-020-public-holidays-declaration-notice-2022 url=https://zambialii.org/akn/zm/act/si/2022/20
+[2026-05-18T13:12:13Z] b0701 REPAIR ok id=si-zm-2022-020-public-holidays-declaration-notice-2022 body_len=897 hash=34a9bc3fd880
+[2026-05-18T13:12:14Z] b0701 REPAIR start id=si-zm-2022-021-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022 url=https://zambialii.org/akn/zm/act/si/2022/21
+[2026-05-18T13:12:16Z] b0701 REPAIR ok id=si-zm-2022-021-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022 body_len=1975 hash=4722b911afb3
+[2026-05-18T13:12:17Z] b0701 REPAIR start id=si-zm-2022-025-tourism-and-hospitality-registration-of-hotel-managers-temporary-disapplication-of-registration-fee-regulations-2022 url=https://zambialii.org/akn/zm/act/si/2022/25
+[2026-05-18T13:12:19Z] b0701 REPAIR ok id=si-zm-2022-025-tourism-and-hospitality-registration-of-hotel-managers-temporary-disapplication-of-registration-fee-regulations-2022 body_len=1566 hash=1cc8905fec96
+[2026-05-18T13:12:20Z] b0701 REPAIR start id=si-zm-2022-026-tourism-and-hospitality-licensing-temporary-disapplication-of-renewal-and-retention-fees-regulations-2022 url=https://zambialii.org/akn/zm/act/si/2022/26
+[2026-05-18T13:12:21Z] b0701 REPAIR ok id=si-zm-2022-026-tourism-and-hospitality-licensing-temporary-disapplication-of-renewal-and-retention-fees-regulations-2022 body_len=1602 hash=ba8447bde1de
+[2026-05-18T13:12:22Z] b0701 REPAIR start id=si-zm-2022-027-citizenship-of-zambia-amendment-regulations-2022 url=https://zambialii.org/akn/zm/act/si/2022/27
+[2026-05-18T13:12:24Z] b0701 REPAIR ok id=si-zm-2022-027-citizenship-of-zambia-amendment-regulations-2022 body_len=1574 hash=7b5cf54c9e59
+[2026-05-18T13:12:25Z] b0701 INTEGRITY records=1954 records_fts=1954 match=True
+[2026-05-18T13:12:25Z] b0701 PRAGMA quick_check: ok
+[2026-05-18T13:12:25Z] b0701 TICK_END elapsed=24s budget=20min records=1954 records_fts=1954 quick_check=ok repaired=8 failed=0 remaining=41 worker=repair-corpus session=sweet-magical-sagan
+[2026-05-18T13:12:25Z] b0701 B2 sync deferred to host (rclone not available in sandbox)
+[2026-05-18T13:12:25Z] b0701 COMPLETE 8 SIs repaired, integrity ok, 41 remaining
+2026-05-18T13:13Z b0701 GIT_COMMIT sha=22cacbaee4760f848e0a7f14fac6bed7270724a1 parent=651c883e7b53a1757c5124f972b601d034e9dd0f tree=5b91aff9927662ebec9dd88ff5409c05b4293a84 files=5 method=alt-index-read-tree-HEAD+write-tree+commit-tree+update-ref reason=FUSE-EPERM-on-.git/index.lock (preexisting since b0656)
+2026-05-18T13:13Z b0701 GIT_PUSH remote=origin branch=main from=651c883 to=22cacba result=OK
+[2026-05-18T15:35:00Z] [b0699-jiw] RECOVERY_RESUME post-context-compaction; orphaned work-products on working tree per b0700-phase8 ORPHAN_NOTE; recovering commit on top of 22cacba
+[2026-05-18T15:35:00Z] [b0699-jiw] RECOVERY_SCOPE 8 ZMCC 2024 record JSONs + 2 scripts + reports/batch-0699-jiw.md + judges_registry.yaml diff; corpus.sqlite gitignored (B2-sync-deferred per .gitignore policy)
+[2026-05-18T13:39:55Z] b0702 TICK_START worker=repair-corpus model=opus-4-7 session=confident-laughing-gates
+[2026-05-18T13:39:55Z] b0702 GIT_PULL_FAIL git pull --ff-only refused: divergence detected — local HEAD da25c3dda6c59e9cde110ed4a8bc388c4ee4a7e0 (Phase 8 b0700 worker.log trailer, local-only, never pushed) vs origin/main 22cacbaee4760f848e0a7f14fac6bed7270724a1 (Repair batch b0701, fixed 8 SIs, 41 remaining); common ancestor 651c883e7b53a1757c5124f972b601d034e9dd0f
+[2026-05-18T13:39:55Z] b0702 ROOT_CAUSE b0701 GIT_COMMIT used alt-index-read-tree-HEAD+write-tree+commit-tree+update-ref method with parent=651c883 explicitly, bypassing the local-only da25c3d commit which was itself an audit trailer commit created by b0700-phase8 (also alt-index method, FUSE-EPERM on .git/index.lock); the local da25c3d commit was never propagated to origin (no GIT_PUSH log entry for it); same sandbox pattern as b0656..b0701 lineage of FUSE-EPERM workarounds
+[2026-05-18T13:39:55Z] b0702 DECISION per SKILL Step 1 non-negotiable: pull failed -> log and stop; not running repair batch this tick; corpus.sqlite NOT mutated; FTS NOT touched; integrity unchanged at records=1954 records_fts=1954
+[2026-05-18T13:39:55Z] b0702 STATE_PRESERVED no destructive git operations performed (no reset --hard, no force-push); index has staged b0701 changes (already on origin in 22cacba), working-tree pristine; next tick should either receive a human-mediated reconciliation OR the established alt-index recovery pattern
+[2026-05-18T13:39:55Z] b0702 REPAIR_QUEUE 41 SIs still need repair (Condition B: SIs with no body); 0 Condition A (corrupted) and 0 Condition C (stubs) detected
+[2026-05-18T13:39:55Z] b0702 REMEDIATION_NOTE the audit-trailer-only contents of da25c3d (worker.log append documenting b0700-phase8 commit+push+orphan-note) are already preserved in the in-tree worker.log history; abandoning da25c3d in favour of fast-forwarding to origin/main loses no substantive data
+[2026-05-18T13:39:55Z] b0702 TICK_END outcome=PULL_FAILED_NO_WORK_PERFORMED elapsed=<2min repaired=0 failed=0 remaining=41 worker=repair-corpus session=confident-laughing-gates

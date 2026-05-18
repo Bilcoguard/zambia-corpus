@@ -1,0 +1,88 @@
+{
+  "id": "judgment-zm-2024-zmcc-10-moses-sakala-v-attorney-general-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Moses Sakala v Attorney General and Ors (2023/CCZ/0025) [2024] ZMCC 10 (25 June 2024)",
+  "citation": "[2024] ZMCC 10",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Moses Sakala v Attorney General and Ors",
+  "case_number": "2023/CCZ/0025",
+  "date_decided": "2024-06-25",
+  "judges": [
+    {
+      "name": "Munalula PC",
+      "role": "President of the Constitutional Court (PC)",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi DPC",
+      "role": "Judge",
+      "dissented": false
+    },
+    {
+      "name": "Sitali JC",
+      "role": "Justice of the Constitutional Court (JC)",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda JC",
+      "role": "Justice of the Constitutional Court (JC)",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga JC",
+      "role": "Justice of the Constitutional Court (JC)",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke JC",
+      "role": "Justice of the Constitutional Court (JC)",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka JC",
+      "role": "Justice of the Constitutional Court (JC)",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti JC",
+      "role": "Justice of the Constitutional Court (JC)",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga JC",
+      "role": "Justice of the Constitutional Court (JC)",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe JC",
+      "role": "Justice of the Constitutional Court (JC)",
+      "dissented": false
+    },
+    {
+      "name": "Mulife JC",
+      "role": "Justice of the Constitutional Court (JC)",
+      "dissented": false
+    }
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Full bench of the Constitutional Court (eleven Judges including Munalula PCC, Shilimi DPCC, and JJC Sitali, Mulonda, Mulenga, Musaluke, Chisunka, Mulongoti, Mwandenga, Kawimbe and Mulife) dismissed the petition challenging the appointment/election of the Leader of the Opposition in the National Assembly. Held at paragraph [7.21] that the petition has no merit and is hereby dismissed. Final Order [8.1]: parties to bear their own costs. Key holdings: (i) election of Leader of Opposition is purely an internal political-party affair (caucus / party polls / structures); (ii) the Speaker has no role beyond receiving written notification of the elected leader under Article 74(2) of the Constitution and Rule 43 of the National Assembly Standing Orders, 2021; (iii) the Petitioner failed to prove exclusion of other PF MPs from the selection process.",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/10/eng@2024-06-25",
+  "raw_sha256": "1a48d01598660360193d26d5dc05d4c449803c8accc6bb415df597a2c797bb7d",
+  "source_hash": "sha256:1a48d01598660360193d26d5dc05d4c449803c8accc6bb415df597a2c797bb7d",
+  "fetched_at": "2026-05-18T14:05:00Z",
+  "parser_version": "0.3.2-jiw-b0699-hand-curated",
+  "issue_tags": [
+    "Article 74(2) — Leader of the Opposition election by largest opposition party",
+    "Rule 43 — National Assembly Standing Orders, 2021",
+    "Article 60(2)(d) and (e) — political parties and internal democracy",
+    "Speaker's role — receipt of written notification only",
+    "intra-party political affairs — judicial non-interference",
+    "petition lacks merit — burden of proof on petitioner"
+  ],
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "paragraph_count_estimate": 0,
+  "body_length": 35371
+}

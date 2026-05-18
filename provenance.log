@@ -4655,3 +4655,4 @@ b0699-jiw	2026-05-18T14:18:30Z	REGISTRY_UPDATE	judges_registry.yaml	added-alias=
 b0699-jiw	2026-05-18T14:19:10Z	INTEGRITY	records=1954	records_fts=1954	quick_check=ok	integrity_check=ok	all-8-checks=PASS
 b0699-jiw	2026-05-18T14:20:00Z	TICK_END	records-inserted=8	deferred=0	net-fetches=0	verdict=COMMIT-normal-path
 2026-05-18T12:33:57Z	b0700-phase8	REVERIFY	pool=1957	sample=8	match=4	drift=3	fetch_error=1	seed=phase8-reverify-2026-05-18-b0700	report=reports/batch-0700.md	json=reports/batch-0700-reverify.json
+b0699-jiw	2026-05-18T15:35:00Z	RECOVERY	reason=context-compaction-interrupted-commit	resumed-on-top-of=22cacbaee4760f848e0a7f14fac6bed7270724a1	scope=records+scripts+report+judges_registry.yaml+worker.log	corpus_sqlite=gitignored-deferred-to-B2

@@ -1,0 +1,66 @@
+{
+  "id": "judgment-zm-2024-zmcc-05-milingo-lungu-v-the-attorney-general-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Milingo Lungu v The Attorney General and Anor (2022/CCZ/006) [2024] ZMCC 5 (15 March 2024)",
+  "citation": "[2024] ZMCC 5",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Milingo Lungu v The Attorney General and Anor",
+  "case_number": "2022/CCZ/006",
+  "date_decided": "2024-03-15",
+  "judges": [
+    {
+      "name": "Munalula PCC",
+      "role": "President of the Constitutional Court (PCC)",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi DPC",
+      "role": "Judge",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda JC",
+      "role": "Justice of the Constitutional Court (JC)",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga JC",
+      "role": "Justice of the Constitutional Court (JC)",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka JC",
+      "role": "Justice of the Constitutional Court (JC)",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga JC",
+      "role": "Justice of the Constitutional Court (JC)",
+      "dissented": false
+    },
+    {
+      "name": "Mulife JC",
+      "role": "Justice of the Constitutional Court (JC)",
+      "dissented": false
+    }
+  ],
+  "outcome": "set-aside",
+  "outcome_detail": "Full bench of the Constitutional Court (Munalula PCC; Shilimi DPCC; Mulonda, Mulenga, Chisunka, Mwandenga and Mulife JJC) discharged the single-Judge order that had stayed criminal proceedings against the Petitioner (Milingo Lungu) in the Subordinate Courts. The Court made no order for costs. Outcome coded `set-aside` because the operative order vacated (discharged) the prior single-Judge stay order.",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/5/eng@2024-03-15",
+  "raw_sha256": "211290645569b9a99ca945da81c54e80cb414351c177599c2391b9b4cb4f984f",
+  "source_hash": "sha256:211290645569b9a99ca945da81c54e80cb414351c177599c2391b9b4cb4f984f",
+  "fetched_at": "2026-05-18T14:05:00Z",
+  "parser_version": "0.3.2-jiw-b0699-hand-curated",
+  "issue_tags": [
+    "stay of criminal proceedings — discharge of single-Judge order",
+    "review of single-Judge order by full bench of the Constitutional Court",
+    "Subordinate Court criminal proceedings — petitioner",
+    "constitutional jurisdiction — interlocutory relief"
+  ],
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "paragraph_count_estimate": 0,
+  "body_length": 20167
+}
