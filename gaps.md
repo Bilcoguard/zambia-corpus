@@ -12223,3 +12223,59 @@ See `reports/batch-0714-reverify.json` for the full per-record breakdown and `re
 - drift: 6
 - fetch_error: 0
 - records_mutated: 0
+
+## JIW b0716 — reparse-deferred-zambialii sweep
+- Date: 2026-05-18T19:42:24Z
+- Cohort: ZambiaLII judgment PDFs (raw/zambialii/judgments/*) not yet in corpus
+- Inserted: 8 records
+- Deferred: 4
+- Next tick: continue ZambiaLII reparse-deferred drain (substantial backlog remaining)
+
+## b0717-phase8 — Phase 8 nightly re-verification (2026-05-18T20:33Z) — AUDIT-ONLY ENTRY
+
+Tick b0717 sampled 8 of 1973 records (sample_rate 0.01, seed `phase8-reverify-2026-05-18-b0717`). Results: 2 match, 5 drift, 1 fetch_error. 7× HTTP 200, 1× HTTP 404. All 9 integrity checks PASS.
+
+### Drifts (5) — pre-existing dynamic-render cohorts
+
+ZambiaLII AKN bare-path sub-variant (×1) — `zambialii_akn_html_dynamic_render_drift` (bare-AKN-path sub-variant):
+
+- `si-zm-2019-022-citizens-economic-empowerment-reservation-scheme-regulations-2019` — host `zambialii.org`, AKN bare-path (`/akn/zm/act/si/2019/22`); stored=`(sha256: see record)` fetched=`822cbe7e3dfdeb0999f58d1103b9f4354e400cd19aca4ca5e5a0505dab9e6fd9`; verdict: dynamic-render churn on the 302-redirected English point-in-time HTML rendering, legal content unchanged.
+
+ZambiaLII AKN-HTML `eng@`-suffixed sub-variant (×4) — `zambialii_akn_html_dynamic_render_drift`:
+
+- `act-zm-1995-009-preferential-claims-in-bankruptcy-act-1995` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1995/9/eng@1996-12-31`); fetched=`250665288674212000e75255ffa756049fe4726c83cc2dad5d84fb8f1318b904`; verdict: dynamic-render churn, legal content unchanged.
+- `act-zm-1963-033-occupiers-liability-act-1963` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1963/33/eng@1996-12-31`); fetched=`ae9a04a04aa79e28547f7f30aca625a5495e39ea87cb0eca630cf90138f10484`; verdict: dynamic-render churn, legal content unchanged.
+- `act-zm-1971-032-home-guard-act-1971` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1971/32/eng@1996-12-31`); fetched=`c370b48cd7aa20ab0eaae3153b2115b988144220da531a440fce71b8fa44c14f`; verdict: dynamic-render churn, legal content unchanged.
+- `act-zm-1960-024-development-united-kingdom-government-loan-act-1960` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1960/24/eng@1996-12-31`); fetched=`835b2f26eca9af67963a6aacd46dd951a0342a3f7a278232290ab3d454fd78cd`; verdict: dynamic-render churn, legal content unchanged.
+
+### Match (2) — stable-PDF supercohort
+
+- `si-zm-2019-056-national-heritage-conservation-commission-broken-hill-man-national-monument-decl` — host `zambialii.org`, ZambiaLII `source.pdf` sub-variant (`/akn/zm/act/si/2019/56/eng@2019-09-06/source.pdf`); hash unchanged (`b7ab6eaf...`) — zambialii source.pdf supercohort match.
+- `act-zm-2019-006-mental-health-act-2019` — host `www.parliament.gov.zm`, Act PDF — hash unchanged (`33cc97e7...`) — parliament.gov.zm stable-PDF supercohort match.
+
+### Fetch error (1) — NEW AUDIT-TRAIL ITEM
+
+- `judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-ltd` — host `judiciaryzambia.com`, wp-uploads PDF (`https://judiciaryzambia.com/wp-content/uploads/APP-0024-2024-Kingfred-Phiri-vs-Life-Master-Ltd-10th-December-2024-Coram-...JJA.pdf`); HTTP **404** at the canonical `source_url`. Record ingested 2026-05-18T15:16:51Z (parser_version `0.4.1-inline`); stored_source_hash `sha256:37921802939d394e942d9c498f72642e55b765b95dd92d6f0679b80c7cdb8ee1` (local raw artefact remains on disk and unchanged — Phase 8 reverify never mutates records). First (and so far only) observation of 404 status for this URL. Hypotheses (in order of likelihood): (a) transient judiciaryzambia.com outage / WAF rate-limiting (b) URL re-slug rotation by the publisher (judiciaryzambia.com is known to rename wp-uploads paths occasionally) (c) permanent removal. Recommended next step (operator-triage, no automatic action this tick): wait for ≥ 1 more independent observation in subsequent Phase 8 sweeps (~30-min cadence) before triggering any URL-substitution workflow. No record mutation this tick.
+
+## phase8_reverify_drift
+- batch: 0717
+- detected_at: 2026-05-18T20:33:55Z
+- cohort: zambialii_akn_html_dynamic_render_drift (×5: ×1 bare-AKN-path sub-variant, ×4 eng@-suffixed sub-variant)
+- pool_size: 1973
+- sample_size: 8
+- match: 2
+- drift: 5
+- fetch_error: 1
+- records_mutated: 0
+
+## phase8_reverify_fetch_error
+- batch: 0717
+- detected_at: 2026-05-18T20:33:55Z
+- record_id: judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-ltd
+- source_url: https://judiciaryzambia.com/wp-content/uploads/APP-0024-2024-Kingfred-Phiri-vs-Life-Master-Ltd-10th-December-2024-Coram-Siavwapa-JP-Mchenga-DJPChashi-Kondolo-Makungu-ChishimbaSichingaNgulubeBanda-BoboSharpe-PhiriMuzengaPatel-Chembe-JJA.pdf
+- http_status: 404
+- stored_source_hash: sha256:37921802939d394e942d9c498f72642e55b765b95dd92d6f0679b80c7cdb8ee1
+- record_fetched_at: 2026-05-18T15:16:51Z
+- observations_to_date: 1 (this tick only)
+- action: audit-only (await independent corroboration in subsequent ticks)
+- records_mutated: 0
