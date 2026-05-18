@@ -1,0 +1,41 @@
+{
+  "id": "judgment-zm-2025-zmcc-28-brian-mundubile-and-anor-v-hakainde-hichilema-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Brian Mundubile and Another v Hakainde Hichilema and Another [2025] ZMCC 28 (5 December 2025)",
+  "citation": "[2025] ZMCC 28",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Brian Mundubile and Another v Hakainde Hichilema and Another",
+  "case_number": "2025/CCZ/0026",
+  "date_decided": "2025-12-05",
+  "judges": [
+    {
+      "name": "Mwandenga",
+      "role": "JC (single judge)",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Article 98(1) — presidential immunity from legal proceedings",
+    "misjoinder of the President in his personal capacity",
+    "Articles 1(2), 2, 128 — Constitutional Court jurisdiction",
+    "Articles 8(c) & (e), 9(1)(a), 90, 91(3)(a) and (f), 92",
+    "Section 3 Official Oaths Act, Chapter 5 of the Laws of Zambia",
+    "eligibility of Hakainde Hichilema to contest the next presidential election",
+    "Constitution (Amendment) Bill No. 7 of 2025",
+    "Munir Zulu and Anor v Attorney General [2025] ZMCC 12 (cited)",
+    "costs against counsel in public-interest litigation",
+    "private vs official capacity of the Republican President"
+  ],
+  "outcome": "granted",
+  "outcome_detail": "Application by the 2nd Respondent (Attorney General) to strike out the 1st Respondent (President Hakainde Hichilema) from the petition is by and large granted (paragraph [99]). The Court ordered: (a) the 1st Respondent be removed/misjoined from the petition in respect of anything alleged in his private capacity, pursuant to Article 98(1) of the Constitution; (b) the proceedings continue against the 2nd Respondent (Attorney General) as the sole Respondent; (c) parties bear their own respective costs of and incidental to the application. The Attorney General's prayer for costs against petitioners' counsel was declined as setting a bad precedent for lawyer-litigants (paragraphs [96]–[98]).",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/28/eng@2025-12-05",
+  "raw_sha256": "5a345709e9df8bf4378c11bb84938c86774a61bef0be1bb39efd657a58330b07",
+  "source_hash": "sha256:5a345709e9df8bf4378c11bb84938c86774a61bef0be1bb39efd657a58330b07",
+  "fetched_at": "2026-05-18T11:15:00Z",
+  "parser_version": "0.3.2-jiw-b0696-hand-curated",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "paragraph_count_estimate": 39
+}

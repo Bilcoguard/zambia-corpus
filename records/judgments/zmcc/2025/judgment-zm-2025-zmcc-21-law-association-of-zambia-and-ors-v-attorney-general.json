@@ -1,0 +1,40 @@
+{
+  "id": "judgment-zm-2025-zmcc-21-law-association-of-zambia-and-ors-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "The Law Association of Zambia and Others v The Attorney General [2025] ZMCC 21 (25 November 2025)",
+  "citation": "[2025] ZMCC 21",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "The Law Association of Zambia and Others v The Attorney General",
+  "case_number": null,
+  "date_decided": "2025-11-25",
+  "judges": [
+    {
+      "name": "Kawimbe",
+      "role": "JC (single judge in chambers)",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "conservatory order / interim injunctive relief",
+    "Bill 7 of 2025 (Constitution of Zambia (Amendment) Bill)",
+    "Technical Committee on Constitutional Amendments (Presidential appointment 2 October 2025)",
+    "Articles 1(2), 5, 8, 9, 90, 91(1)(2)(3), 92(2)(f) and (j)",
+    "tripartite test for conservatory orders (prima facie case, irreparable damage, balance of convenience)",
+    "public interest in constitutional litigation",
+    "Munir Zulu and Anor v Attorney General [2025] ZMCC 12",
+    "single-judge interlocutory jurisdiction",
+    "Article 128 jurisdiction (original vs merits)"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Notice of motion for a conservatory order to restrain the Technical Committee on Amendments to the Constitution (appointed by the President of Zambia on 2 October 2025) from continuing its work pending determination of the substantive petition dismissed (paragraphs [92]–[93]). Single-judge Mapani-Kawimbe JC held the petitioners failed to establish a prima facie case, did not demonstrate irreparable damage if the order was refused, and the balance of convenience lay with the public interest in allowing the Technical Committee to continue. Parties bear their own costs (paragraph [94]).",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/21/eng@2025-11-25",
+  "raw_sha256": "060b542e94fc0b406a1dfc49a750eed6830c8a92a2dcefa46be6bee2ea23240a",
+  "source_hash": "sha256:060b542e94fc0b406a1dfc49a750eed6830c8a92a2dcefa46be6bee2ea23240a",
+  "fetched_at": "2026-05-18T11:15:00Z",
+  "parser_version": "0.3.2-jiw-b0696-hand-curated",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "paragraph_count_estimate": 42
+}

@@ -1,0 +1,70 @@
+{
+  "id": "judgment-zm-2025-zmcc-24-the-law-association-of-zambia-v-the-speaker-of-the-national-assembly",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "The Law Association of Zambia v The Speaker of the National Assembly [2025] ZMCC 24 (28 November 2025)",
+  "citation": "[2025] ZMCC 24",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "The Law Association of Zambia v The Speaker of the National Assembly",
+  "case_number": "2025/CCZ/0015",
+  "date_decided": "2025-11-28",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "PC (delivered)",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "DPC",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "JC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "legal representation of the Speaker of the National Assembly",
+    "Article 177 — Attorney General's representation function",
+    "Article 122 — duty of public officers to protect Judiciary",
+    "Articles 1, 2, 5, 79, 128, 267",
+    "separation of powers",
+    "misjoinder/joinder under Order V rule 4 Constitutional Court Rules",
+    "Bill 7 of 2025 (Constitution of Zambia (Amendment) Bill)",
+    "Law Association of Zambia v President [2019] ZMCC 13 — followed",
+    "State Proceedings Act, Chapter 71"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Notice of Motion seeking an order directing independent legal representation for the Speaker of the National Assembly under Article 128 dismissed; the Court affirmed its earlier decision in Law Association of Zambia v President (2019/CCZ/0013) that the Attorney General is the proper legal representative of all arms of Government including the Legislature (paragraph [66]). The Court further ordered joinder of the Attorney General as Respondent in place of the Speaker by misjoinder under Order V rule 4 of the Constitutional Court Rules (paragraph [67]). No order as to costs.",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/24/eng@2025-11-28",
+  "raw_sha256": "6cd8a586c29527a24289493ff6548f8baaf3eabdf02b5551b6149478368170a4",
+  "source_hash": "sha256:6cd8a586c29527a24289493ff6548f8baaf3eabdf02b5551b6149478368170a4",
+  "fetched_at": "2026-05-18T11:15:00Z",
+  "parser_version": "0.3.2-jiw-b0696-hand-curated",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "paragraph_count_estimate": 28
+}

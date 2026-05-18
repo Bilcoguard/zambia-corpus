@@ -11424,3 +11424,76 @@ Recovery (at 10:18Z) read the 7 lost SI body+title+citation+type values from `co
 2. Introduce a `.corpus-mutation.lock` file (with worker class + PID + timestamp) and a precondition that any worker performing a DB mutation must hold the lock.
 3. Enforce worker-class prefixing of batch IDs (e.g., `b0695-jiw` vs `b0695-repair`) at the source so that no two simultaneous workers can collide on file paths.
 4. Update SKILL.md to document this failure mode and add an explicit pre-promote "re-diff live DB against stage" step.
+
+---
+
+## b0696-jiw — ZMCC reparse +7 (2026-05-18T11:08Z–11:20Z)
+
+### Records inserted this tick (7)
+
+1. `judgment-zm-2025-zmcc-18-tc-promotions-limited-and-ors-v-lusaka-city-council` ([2025] ZMCC 18, dismissed)
+2. `judgment-zm-2025-zmcc-21-law-association-of-zambia-and-ors-v-attorney-general` ([2025] ZMCC 21, dismissed)
+3. `judgment-zm-2025-zmcc-24-the-law-association-of-zambia-v-the-speaker-of-the-national-assembly` ([2025] ZMCC 24, 2025/CCZ/0015, dismissed)
+4. `judgment-zm-2025-zmcc-28-brian-mundubile-and-anor-v-hakainde-hichilema-and-anor` ([2025] ZMCC 28, 2025/CCZ/0026, granted)
+5. `judgment-zm-2024-zmcc-22-electoral-commission-of-zambia-v-belemu-sibanze` ([2024] ZMCC 22, 2024/CCZ/0017, other)
+6. `judgment-zm-2024-zmcc-23-peter-sinkamba-v-judicial-complaints-commission-and-attorney-general` ([2024] ZMCC 23, 2024/CCZ/0016, dismissed)
+7. `judgment-zm-2024-zmcc-25-institute-of-law-policy-research-and-human-rights-limited-v-attorney-general` ([2024] ZMCC 25, 2023/CCZ/0024, dismissed)
+
+### Records deferred this tick (3)
+
+| ID candidate | Reason | Cohort |
+|---|---|---|
+| `judgment-zm-2025-zmcc-19-betbio-zambia-ltd-and-anor-v-attorney-general-and-ors` | Scanned PDF; pdfplumber returns 0 chars on all 18 pages; HTML stub | `scanned-pdf-ocr-required` |
+| `judgment-zm-2025-zmcc-33-miles-bwalya-sampa-v-the-attorney-general-and-ors` | case_number `2024/CCZ/0024` collides with ZMCC 6 (b0687-inserted) and ZMCC 16 (b0695-deferred) — three rulings same petition | `case_number-collision-multiple-rulings-same-petition` |
+| `judgment-zm-2024-zmcc-27-michelo-chizombe-v-edgar-chagwa-lungu-and-ors` | case_number `2023/CCZ/0021` collides with ZMCC 14 (in corpus) — two rulings same petition | `case_number-collision-multiple-rulings-same-petition` |
+
+### Integrity checks
+
+| Check | Result | Notes |
+|---|---|---|
+| CHECK1 | PASS | All 7 records have ≥1 judge (cohort sizes 7, 1, 7, 1, 5, 1, 11) |
+| CHECK2 | PASS | `issue_tags` non-empty for all 7 |
+| CHECK3 | PASS | Outcomes from allowed enum: 5×`dismissed`, 1×`granted`, 1×`other` |
+| CHECK4 | PASS | All judge canonical names resolve in `judges_registry.yaml` |
+| CHECK5 | PASS | No duplicate IDs |
+| CHECK6 | PASS | `raw_sha256` matches on-disk PDF for all 7 |
+| CHECK7 | PASS | No duplicate (court + case_name + date_decided) triplets |
+| CHECK8 | **PASS** | `records=1946 == records_fts=1946`; `quick_check=ok`; `integrity_check=ok` |
+
+### Sweep cursors (updated)
+
+- `judiciary-coa-sweep`: page-9 (unchanged)
+- `judiciary-scz-sweep`: page-2 (unchanged)
+- `judiciary-zmcc-sweep`: not yet started (unchanged)
+- `judiciary-hc-sweep`: not yet started (unchanged)
+- **ZambiaLII ZMCC 2025 reparse backlog**: 7 → 3 remaining (resolved: 18, 21, 24, 28; deferred: 16, 19, 33)
+- **ZambiaLII ZMCC 2024 reparse backlog**: 4 → 1 remaining (resolved: 22, 23, 25; deferred: 27)
+- **NEW backlog identified**: 11 ZMCC 2024 PDFs on disk and not yet ingested (02, 04, 05, 06, 07, 08, 10, 13, 15, 17, 20). Candidates for next-tick priority-(a) sweep.
+
+### Outstanding deferred records (cumulative)
+
+- `judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people` — truncated source PDF (carry-over).
+- `judgment-zm-2025-zmcc-16-miles-bwalya-sampa-v-attorney-general-and-4-ors` — case_number-collision (carry-over from b0695).
+- `judgment-zm-2025-zmcc-19-betbio-zambia-ltd-and-anor-v-attorney-general-and-ors` — scanned-PDF-OCR-required.
+- `judgment-zm-2025-zmcc-33-miles-bwalya-sampa-v-the-attorney-general-and-ors` — case_number-collision.
+- `judgment-zm-2024-zmcc-27-michelo-chizombe-v-edgar-chagwa-lungu-and-ors` — case_number-collision.
+
+### Fetch cost
+
+- Network fetches: **0** (zero net-new HTTP requests).
+- JIW daily budget: 0 / 500 used.
+
+### Methodology note: in-place mutation
+
+This tick adopted direct in-place mutation of `corpus.sqlite` (`PRAGMA journal_mode=MEMORY; synchronous=OFF`) rather than stage-and-replace. Rationale: the b0695 post-mortem identified stage-and-replace as inherently unsafe under concurrent-worker mutation. Direct in-place mutation eliminates the race window. Backup snapshot taken at `corpus.sqlite.bak.b0696-jiw-pre-20260518T111532Z` for rollback safety.
+
+### Recommended priority for next JIW tick
+
+1. **Maintainer action**: dedup-policy decision on `case_number-collision-multiple-rulings-same-petition` cohort (now 3 deferred items: ZMCC 16, 27, 33). Recommend using `(case_number, citation)` tuple for dedup.
+2. **OCR pass**: ZMCC 2025/19 (Betbio) requires `ocrmypdf` at host.
+3. **ZMCC 2024 gap-fill**: 11 candidates not yet ingested (02, 04, 05, 06, 07, 08, 10, 13, 15, 17, 20). Hand-curation pathway, zero net fetches.
+4. **CoA NEW from judiciaryzambia.com**: Josias Mtonga (app-110-2024), Skab Merchants (app-344-2023), Tulambo Kumwenda (app-47-2025).
+
+### Wall-clock
+
+Start: 2026-05-18T11:08Z. Finish: 2026-05-18T~11:20Z. Elapsed: ~12 minutes. Budget: 20 minutes. Headroom: ~8 minutes.

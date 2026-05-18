@@ -1,0 +1,42 @@
+{
+  "id": "judgment-zm-2024-zmcc-23-peter-sinkamba-v-judicial-complaints-commission-and-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Peter Sinkamba v Judicial Complaints Commission and Attorney General [2024] ZMCC 23 (29 October 2024)",
+  "citation": "[2024] ZMCC 23",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Peter Sinkamba v Judicial Complaints Commission and Attorney General",
+  "case_number": "2024/CCZ/0016",
+  "date_decided": "2024-10-29",
+  "judges": [
+    {
+      "name": "Mulife",
+      "role": "JC (single judge in chambers)",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "order of stay — already-implemented decision principle",
+    "Articles 1, 2(a)(b), 5, 8(c) and (e), 128, 236(2)",
+    "Judicial (Code of Conduct) Act No. 13 of 1999",
+    "Judicial Complaints Commission jurisdiction (and review of its 11 October 2017 ruling)",
+    "Order X rule 2(1) Constitutional Court Rules — interim orders",
+    "Order IX rule 20(1) CCR — mode of commencement",
+    "Section 4 Constitutional Court Act No. 8 of 2016 — single-judge powers",
+    "Vangelatos v Metro Investments Limited — followed",
+    "Joshua Ndipyola Banda v Attorney General — followed",
+    "Article 2 standing — every person to defend the Constitution",
+    "frivolous and misconceived application"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Summons by the Petitioner (Peter Sinkamba) for an order of stay of implementation of the Judicial Complaints Commission's ruling of 11 October 2017 dismissed (paragraph [42]: \"I accordingly dismiss the summons\"). Mulife JC (single judge in chambers) held the summons was misconceived and frivolous because the impugned decision had already been implemented at the time the summons was launched, and under settled principle an order of stay cannot issue where the decision sought to be stayed has already been implemented (paragraphs [38]–[41], applying Vangelatos v Metro Investments and Joshua Ndipyola Banda v Attorney General). The Judge declined to consider the question of locus standi because its determination was reserved for the full Court under section 4 of the Constitutional Court Act. Parties bear their respective costs (paragraph [43]).",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/23/eng@2024-10-29",
+  "raw_sha256": "dff6cbebd65b0c4da0f3d25ff8eac0c93e46765621bb40346e6d463160b89d36",
+  "source_hash": "sha256:dff6cbebd65b0c4da0f3d25ff8eac0c93e46765621bb40346e6d463160b89d36",
+  "fetched_at": "2026-05-18T11:15:00Z",
+  "parser_version": "0.3.2-jiw-b0696-hand-curated",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "paragraph_count_estimate": 15
+}

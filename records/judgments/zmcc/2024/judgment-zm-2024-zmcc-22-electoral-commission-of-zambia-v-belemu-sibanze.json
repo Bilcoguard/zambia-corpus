@@ -1,0 +1,62 @@
+{
+  "id": "judgment-zm-2024-zmcc-22-electoral-commission-of-zambia-v-belemu-sibanze",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Electoral Commission of Zambia v Belemu Sibanze [2024] ZMCC 22 (14 October 2024)",
+  "citation": "[2024] ZMCC 22",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Electoral Commission of Zambia v Belemu Sibanze",
+  "case_number": "2024/CCZ/0017",
+  "date_decided": "2024-10-14",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "PC (delivered)",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "JC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "electoral law — constitutional timelines",
+    "Article 52(4) — nomination challenge (7 days to file, 21 days to hear)",
+    "Article 155 — Electoral Process Act framework",
+    "Article 157(e) — vacancy and by-election notification",
+    "Article 57 — 90-day by-election deadline",
+    "Articles 45(2)(e), 48, 49 — administration of elections",
+    "Article 1(1) and 1(3) — supremacy of the Constitution",
+    "Electoral Process Act No. 35 of 2016",
+    "Bernard Kanengo v Attorney General — followed",
+    "Originating Summons under Order IV rule 2(2) CCR",
+    "jurisdiction of High Court in nomination challenges"
+  ],
+  "outcome": "other",
+  "outcome_detail": "Originating Summons (Order IV rule 2(2) Constitutional Court Rules) by the Electoral Commission of Zambia for interpretation of the constitutional timelines governing by-elections. The Court (paragraphs [38]–[45]) interpreted: (i) the 90-day by-election timetable in Article 57 is absolute and runs continuously without stopping; (ii) once the Electoral Commission is notified of a vacancy, it is under compulsion to set in motion and conclude the by-election process within 90 days; (iii) the only constitutionally mandated legal challenge that may be mounted during the 90-day process is a nomination challenge under Article 52(4), which must be filed within 7 days of close of nominations and heard within 21 days of lodgment; (iv) once the 21 days expires the High Court is divested of jurisdiction (following Hakainde Hichilema and Bernard Kanengo). Each party bears their own costs. Classified as `other` because this is a pure constitutional interpretation under originating summons — no petition or appeal is disposed of.",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/22/eng@2024-10-14",
+  "raw_sha256": "36e73d19b80b380c5d0a0846efc921d7e8f62be59976de55795e3fd7a61d0874",
+  "source_hash": "sha256:36e73d19b80b380c5d0a0846efc921d7e8f62be59976de55795e3fd7a61d0874",
+  "fetched_at": "2026-05-18T11:15:00Z",
+  "parser_version": "0.3.2-jiw-b0696-hand-curated",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "paragraph_count_estimate": 17
+}

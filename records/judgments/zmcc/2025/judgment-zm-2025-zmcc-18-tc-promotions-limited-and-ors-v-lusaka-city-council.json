@@ -1,0 +1,70 @@
+{
+  "id": "judgment-zm-2025-zmcc-18-tc-promotions-limited-and-ors-v-lusaka-city-council",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "TC Promotions Limited and Others v Lusaka City Council [2025] ZMCC 18 (30 September 2025)",
+  "citation": "[2025] ZMCC 18",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "TC Promotions Limited and Others v Lusaka City Council",
+  "case_number": null,
+  "date_decided": "2025-09-30",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "PC",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "DPC",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "JC (delivered)",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Article 67(2) — gazetting of statutory instruments",
+    "Article 199(2) and (3) — local government revenue authority",
+    "statutory instrument vs council resolution",
+    "planning permission and billboard fees",
+    "Local Government Act No. 2 of 2019",
+    "Urban and Regional Planning Act No. 3 of 2015",
+    "delegated legislation control by Parliament",
+    "private commercial function of local authority"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Petition dismissed (paragraph [89]: \"The petition lacks merit and is hereby dismissed\"). Court held the Lusaka City Council resolution of 27 September 2023 on billboard/planning permission fees was not a statutory instrument requiring gazetting under Article 67(2); Articles 199(2) and (3) were not contravened because the resolution was made in the exercise of the Council's private commercial function and did not create legislative requirements for the public. Parties bear their own costs (paragraph [90]).",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/18/eng@2025-09-30",
+  "raw_sha256": "0203be017c1243779e955824f0e935867263f28468ad3e498f5f5bb12e848b26",
+  "source_hash": "sha256:0203be017c1243779e955824f0e935867263f28468ad3e498f5f5bb12e848b26",
+  "fetched_at": "2026-05-18T11:15:00Z",
+  "parser_version": "0.3.2-jiw-b0696-hand-curated",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "paragraph_count_estimate": 34
+}

@@ -6434,3 +6434,7 @@ b0695-jiw	2026-05-18T10:06:30Z	pdf_extract	files=4	total_pages=153	total_body_ch
 b0695-jiw	2026-05-18T10:13:03Z	db_promote	from=stage to=live	size=118898688	records=1939	records_fts=1939
 b0695-jiw	2026-05-18T10:16:00Z	tick_complete	inserted=3	deferred=1	fetches=0/500-day-budget
 b0695-jiw	2026-05-18T10:18:30Z	concurrent_worker_recovery	7_si_bodies_restored_from_backup	cause=stage-promote-race-with-repair-worker
+b0696-jiw	2026-05-18T11:08:00Z	tick_start	target=ZMCC-2025-reparse-18,19,21,24,28,33+ZMCC-2024-reparse-22,23,25,27	max_batch=8
+b0696-jiw	2026-05-18T11:12:30Z	pdf_extract	files=7	total_pages=199	total_body_chars=265692	no_net_fetch
+b0696-jiw	2026-05-18T11:17:00Z	db_insert	records=1939->1946	records_fts=1939->1946	judgments_meta=246->253	mode=in-place-PRAGMA-MEMORY
+b0696-jiw	2026-05-18T11:19:30Z	tick_complete	inserted=7	deferred=3(zmcc-2025-19-scanned,zmcc-2025-33-collision,zmcc-2024-27-collision)	fetches=0/500-day-budget

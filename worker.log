@@ -8836,3 +8836,15 @@ test append Mon May 18 00:44:14 CAT 2026
 [2026-05-18T10:23:09Z] b0695-jiw GIT_COMMIT sha=9364b51d220f2dd168190980153ceecf87efa38b parent=2f10f7bafc50ee19fea9ed5999d4bb60c73fb371 tree=4d00411d0f2309ded3c27eebad6db090a19ad4cf via=GIT_INDEX_FILE=/tmp/git_index_b0695+git-write-tree+git-commit-tree+direct-write-.git/refs/heads/main (FUSE-EPERM on .git/index.lock + .git/objects/*/tmp_obj_* warnings non-fatal; ref updated via direct write; established pattern continuation of b0676..b0688) files=3+1+1+3(repair-bundle)+2(modified logs)=10
 [2026-05-18T10:23:38Z] b0695-jiw GIT_PUSH ok 2f10f7b..9364b51 main->main remote=Bilcoguard/zambia-corpus
 [2026-05-18T10:23:38Z] b0695-jiw TICK_END elapsed=~23min budget=20min overshoot=~3min (race recovery accounted for ~5min; net JIW work within budget) records=1939 records_fts=1939 judgments_meta=246 quick_check=ok integrity_check=ok next-tick=2026-05-18T11:00Z
+[2026-05-18T11:08:00Z] [b0696-jiw] TICK_START scheduled judgment-ingestion target=ZMCC-2025-reparse-18,19,21,24,28,33+ZMCC-2024-reparse-22,23,25,27 max_batch=8 zero-net-fetch hand-curated
+[2026-05-18T11:10:00Z] [b0696-jiw] PROBE pdfplumber=0.11.9 bs4=ok; pre records=1939 records_fts=1939 judgments_meta=246 quick_check=ok integrity_check=ok
+[2026-05-18T11:12:00Z] [b0696-jiw] CANDIDATE_TRIAGE 10 candidates -> 7 insert, 3 defer. Defer reasons: zmcc-2025-19 scanned-PDF-no-extractable-text-ocr-required; zmcc-2025-33 case_number-collision-2024/CCZ/0024-with-zmcc-2025-06; zmcc-2024-27 case_number-collision-2023/CCZ/0021-with-zmcc-2024-14.
+[2026-05-18T11:13:00Z] [b0696-jiw] DEDUP_CHECK all 7 inserts (id, case_number, court+case_name+date_decided) -> no collisions
+[2026-05-18T11:15:30Z] [b0696-jiw] BACKUP corpus.sqlite.bak.b0696-jiw-pre-20260518T111532Z (118,898,688 bytes)
+[2026-05-18T11:16:00Z] [b0696-jiw] STRATEGY in-place mutation under PRAGMA journal_mode=MEMORY synchronous=OFF (avoid stage-replace race observed in b0695-jiw)
+[2026-05-18T11:16:30Z] [b0696-jiw] INSERTED 7 records into records+records_fts+judgments_meta. body_chars: zmcc-2025-18=43488, zmcc-2025-21=56584, zmcc-2025-24=39508, zmcc-2025-28=52593, zmcc-2024-22=22001, zmcc-2024-23=19468, zmcc-2024-25=32050 (all >200 chars threshold)
+[2026-05-18T11:17:00Z] [b0696-jiw] LIVE_VERIFY records=1946 records_fts=1946 judgments_meta=253 quick_check=ok integrity_check=ok CHECKS=1..8-PASS
+[2026-05-18T11:17:30Z] [b0696-jiw] CHECK6 raw_sha256 match all 7 PDFs on disk
+[2026-05-18T11:18:00Z] [b0696-jiw] CHECK4 judges resolve in registry: Munalula, Shilimi, Sitali, Mulonda, Mulenga, Musaluke, Chisunka, Mulongoti, Mwandenga, Kawimbe, Mulife — all pre-existing canonical names
+[2026-05-18T11:18:30Z] [b0696-jiw] WRITE_RECORDS 7 JSON files under records/judgments/zmcc/{2024,2025}/ (2316-3676 bytes each)
+[2026-05-18T11:19:30Z] [b0696-jiw] B2_SYNC deferred-to-host-rclone-not-in-sandbox
