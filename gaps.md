@@ -12177,3 +12177,49 @@ See `reports/batch-0707-reverify.json` for the full per-record breakdown and `re
 - `APP/024/2024` `App-24-2024-Peter-Mutale-vs-Davies-Mukumbwa-24-Jan-2025-Coram-Siavwapa-JP-Chishimba-Patel-JJA.pdf` reason=`body-too-short:20`
 - `APP/202/2023` `app-202-2023-maambo-simukuni-vs-tenyiwe-sibindi-coram-justice-siavwapa-jp-chishimba-patel-jja.pdf` reason=`duplicate-fingerprint`
 - `APP/123/2023` `App-123-2023-Patson-Kabungo-Sichoni-vs-The-People-Coram-Mchenga-DJP-Muzenga-Chembe-JJA.pdf` reason=`body-too-short:15`
+
+## b0713-jiw-cleanup dedup fix (2026-05-18T18:55:30Z)
+- Removed duplicate `judgment-zm-2024-coa-108-pilatus-engineering-company-limitedjoseph-huiler-v-alfred-kalwani` (case_number `APPLN/108/2024`).
+- Underlying case is already covered by `judgment-zm-2025-coa-108-pilatus-engineering-company-limitedjoseph-huiler-v-alfred-kalwani` (case_number `APPLICATION/108/2024`, date 2025-12-04, dismissed).
+- Root cause: parser b0713 emitted `APPLN/...` prefix for `application-...` filenames; pre-existing record used `APPLICATION/...`. Dedup keyed on case_number string didn't match.
+- Follow-up for next JIW tick: normalize `APPLN/` ↔ `APPLICATION/` in the case_number prefix BEFORE the dedup check.
+
+## b0714-phase8 — Phase 8 nightly re-verification (2026-05-18T19:04Z) — AUDIT-ONLY ENTRY
+
+Tick b0714 sampled 8 of 1965 records (sample_rate 0.01, seed `phase8-reverify-2026-05-18-b0714`). Results: 2 match, 6 drift, 0 fetch_error. 8× HTTP 200. All 9 integrity checks PASS.
+
+### Drifts (6) — pre-existing dynamic-render cohorts
+
+ZambiaLII AKN bare-path sub-variant (×2) — `zambialii_akn_html_dynamic_render_drift` (bare-AKN-path sub-variant):
+
+- `si-zm-2020-087-animal-health-designated-border-inspection-posts-regulations-2020` — host `zambialii.org`, AKN bare-path (`/akn/zm/act/si/2020/87`, no `/eng@` suffix and no `/source.pdf` suffix); stored=`871afdd34b2ccee180eb62f08d08f18d0f6f24a41c26749d3d4f51ca9f1b9c35` fetched=`aa99054c1d9f243eb25f300fb8b192979bd31374e725d5954ca23f781dd490a8`; bytes=38663; verdict: dynamic-render churn on the 302-redirected English point-in-time HTML rendering, legal content unchanged.
+- `si-zm-2022-051-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022` — host `zambialii.org`, AKN bare-path (`/akn/zm/act/si/2022/51`); stored=`6712b86136a36bdd3c81f974e3371565365869f3ae71d7f2b68f83c6ca542de3` fetched=`306906c5d79f23aeab5b8f57c4991bbb72b03ce8484a8dc16498622107bd9985`; bytes=39257; verdict: dynamic-render churn, legal content unchanged.
+
+ZambiaLII AKN-HTML `eng@`-suffixed sub-variant (×4) — `zambialii_akn_html_dynamic_render_drift`:
+
+- `act-zm-1964-036-apprenticeship-act-1964` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1964/36/eng@1996-12-31`); stored=`e1bd5e3ea17d4169cd9a71342b30c5ef0cf4e59ab89e09f83ba07c98dd4df0da` fetched=`e3861b43cd7487938264d24ce9233dadfd7acda3fd2a3a3a3e0a9c97917057ae`; bytes=145018; verdict: dynamic-render churn, legal content unchanged.
+- `judgment-zm-2018-zmcc-01-chilombo-v-hamaleke` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/judgment/zmcc/2018/1/eng@2018-01-18`); stored=`d05fe5709f90cdd5207f44af5ec0489a236378c4a39376f59d189b278ec0f6ba` fetched=`1cc614c59fad25d7165f853447fcc85eed15d66ecb2f01bcab9523fda58a9c8f`; bytes=44150; verdict: dynamic-render churn, legal content unchanged.
+- `act-zm-2002-018-supplementary-appropriation-1999-act` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/2002/18/eng@2002-12-31`); stored=`17d2d41646ee51d0b4f5ac39e7e9759ff537119b524ba8f6917e33e7de46a457` fetched=`97ec27a001b541982d93d986c18b63c69a46109214b920955dd7ebe61025ccd8`; bytes=38324; verdict: dynamic-render churn, legal content unchanged.
+- `act-zm-2000-019-arbitration-act-2000` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/2000/19/eng@2000-12-29`); stored=`83dbb2ca0540fb5218278ffa93351c5eb5224cf1bba7948d3cf645796c3ae2f7` fetched=`2e6e846f432b1b1d67fd4af3cadf53bbae45b6f1e622d2dd54372c3d21c15aeb`; bytes=42266; verdict: dynamic-render churn, legal content unchanged.
+
+### Match (2) — stable-PDF supercohort
+
+- `judgment-zm-2026-zmsc-10-first-v-zubao` — host `zambialii.org`, ZambiaLII `source.pdf` sub-variant (`/akn/zm/judgment/zmsc/2026/10/eng@2026-04-17/source.pdf`); hash unchanged (`8b3057fa...`); bytes=224,515 — stable-PDF supercohort (ZambiaLII source.pdf branch).
+- `act-zm-2019-017-supplementary-appropriation-2019-no-2-act-2019` — host `www.parliament.gov.zm`, Act PDF — hash unchanged (`db4332f9...`); bytes=17,564.
+
+### No fetch errors
+
+ZambiaLII and www.parliament.gov.zm both fully available this tick (8/8 HTTP 200).
+
+See `reports/batch-0714-reverify.json` for the full per-record breakdown and `reports/batch-0714.md` for the narrative report.
+
+## phase8_reverify_drift
+- batch: 0714
+- detected_at: 2026-05-18T19:04:45Z
+- cohort: zambialii_akn_html_dynamic_render_drift (×6: ×2 bare-AKN-path sub-variant, ×4 eng@-suffixed sub-variant)
+- pool_size: 1965
+- sample_size: 8
+- match: 2
+- drift: 6
+- fetch_error: 0
+- records_mutated: 0

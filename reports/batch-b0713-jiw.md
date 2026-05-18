@@ -28,3 +28,14 @@
 ## Notes
 
 Reparse-deferred drain of CoA PDFs already on disk in `raw/judiciary-zm/coa/`. Filename-based case_name + coram extraction (v0.4.4 inline). Multi-tier outcome detection (operative section, tail-4k, tail-12k).
+
+## Cleanup (b0713-jiw-cleanup, 2026-05-18T18:55:30Z)
+
+Discovered post-commit that one of the two inserted records was a duplicate of a pre-existing record:
+
+- Removed: `judgment-zm-2024-coa-108-pilatus-engineering-company-limitedjoseph-huiler-v-alfred-kalwani` (case_number `APPLN/108/2024`)
+- Pre-existing: `judgment-zm-2025-coa-108-pilatus-engineering-company-limitedjoseph-huiler-v-alfred-kalwani` (case_number `APPLICATION/108/2024`, date 2025-12-04)
+
+Dedup keyed on `case_number` string, but the parser emitted `APPLN/` prefix while the existing record used `APPLICATION/` — the two strings didn't match. JSON file overwritten with a deprecation-stub marker. Net inserts this tick: **1** (Deton Engineering v Konkola Copper Mines, APP/203/2023, outcome=other).
+
+Recommended fix for next JIW tick: normalize `APPLN/` ↔ `APPLICATION/` in the case_number prefix BEFORE the dedup check (and add CN prefix synonym map for `App`→`APP`, `Caz`→`CAZ`, etc.).

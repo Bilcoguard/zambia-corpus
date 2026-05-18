@@ -10068,3 +10068,25 @@ error: https://github.com/Bilcoguard/zambia-corpus.git did not send all necessar
 [2026-05-18T18:54:25Z] [b0713-jiw]   wrote records/judgments/coa/2024/judgment-zm-2024-coa-108-pilatus-engineering-company-limitedjoseph-huiler-v-alfred-kalwani.json
 [2026-05-18T18:54:25Z] [b0713-jiw] judges_registry.yaml updated; total judges=58
 [2026-05-18T18:54:25Z] [b0713-jiw] wrote report reports/batch-b0713-jiw.md
+[2026-05-18T18:54:26Z] [b0713-jiw] git add rc=0 err="warning: unable to unlink '.git/objects/01/tmp_obj_MAbFve': Operation not permitted
+warning: unable to unlink '.git/objects/98/tmp_obj_SXLe7h': Operation not permitted
+warning: unable to unlink '.git/"
+[2026-05-18T18:54:26Z] [b0713-jiw] git commit rc=0 out="[main 0eca7fc] Judgment batch b0713-jiw: +2 CoA reparse-deferred (zero-fetch; 6 deferred; without corpus.sqlite -- GH 10" err="warning: unable to unlink '.git/objects/a9/tmp_obj_jBBo3t': Operation not permitted
+warning: unable to unlink '.git/objects/65/tmp_obj_pkrq6s': Operation not permitted
+warning: unable to unlink '.git/"
+[2026-05-18T18:54:29Z] [b0713-jiw] git push rc=0 out="" err="To https://github.com/Bilcoguard/zambia-corpus.git
+   e15a2be..0eca7fc  main -> main"
+[2026-05-18T18:54:29Z] [b0713-jiw] B2 sync deferred to host (rclone not in sandbox)
+[2026-05-18T18:54:29Z] [b0713-jiw] === TICK END inserted=2 deferred=6 fetches=0 elapsed_s=8 ===
+[2026-05-18T18:55:30Z] [b0713-jiw-cleanup] DEDUP-FIX: removed duplicate judgment-zm-2024-coa-108-pilatus-engineering-company-limitedjoseph-huiler-v-alfred-kalwani (APPLN/108/2024) — already covered by judgment-zm-2025-coa-108-pilatus-engineering-company-limitedjoseph-huiler-v-alfred-kalwani (APPLICATION/108/2024, 2025-12-04, dismissed); APPLN was a parser-prefix variant not caught by dedup
+[2026-05-18T18:55:30Z] [b0713-jiw-cleanup] post-cleanup: records=1962 records_fts=1962
+[2026-05-18T19:03:07Z] [b0714-tick] === TICK START cwd=/sessions/gifted-adoring-rubin/mnt/corpus session=gifted-adoring-rubin ===
+[2026-05-18T19:03:07Z] [b0714-tick] local HEAD=0eca7fccd10e793b06cec70929829cc2be3e126f origin/main=0eca7fccd10e793b06cec70929829cc2be3e126f; already in sync (stale lock-refs noise tolerated)
+[2026-05-18T19:04:45Z] [b0714-phase8] === TICK START === phase=phase_8_nightly_reverify
+[2026-05-18T19:04:45Z] [b0714-phase8] approvals.yaml read; phase_8 approved=true complete=false; sample_rate=0.01
+[2026-05-18T19:04:45Z] [b0714-phase8] script=scripts/batch_0714_phase8_reverify.py (clone of batch_0546 baseline; BATCH=0714)
+[2026-05-18T19:04:45Z] [b0714-phase8] pool_size=1965 sample_size=8 seed=phase8-reverify-2026-05-18-b0714
+[2026-05-18T19:04:45Z] [b0714-phase8] fetches=8 http200=8 match=2 drift=6 fetch_error=0
+[2026-05-18T19:04:45Z] [b0714-phase8] integrity-checks: 1=PASS 2=PASS 3=PASS 4=PASS 5=PASS 6=PASS 7=PASS 8=PASS 9=PASS — commit normal path
+[2026-05-18T19:04:45Z] [b0714-phase8] B2_SYNC verdict=deferred-to-host (rclone not in sandbox; Phase 8 read-only on corpus)
+[2026-05-18T19:04:45Z] [b0714-phase8] === TICK END === elapsed=42s budget=20min headroom=~19m18s
