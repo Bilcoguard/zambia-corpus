@@ -11666,3 +11666,68 @@ See `reports/batch-0700-reverify.json` for the full per-record breakdown and `re
 - drift: 3
 - fetch_error: 1
 - records_mutated: 0
+
+## b0702 (2026-05-18T13:40:30Z) — repair tick stopped at SKILL Step 1
+- pull failed (divergence local da25c3d vs origin/main 22cacba)
+- 41 SI repair targets remain in queue (zambialii.org cohort)
+- no DB mutation this tick; see reports/repair-batch-b0702.md
+
+## b0701-jiw — ZMCC 2024 final-3 drain (2026-05-18T13:44:59Z)
+
+### Context — b0699-jiw orphan recovery already merged upstream
+
+When this tick started, origin/main was already at `2fbe34b "Judgment batch b0699-jiw: +8 ZMCC 2024 gap-fill (recovery merge)"` — a concurrent recovery merge had already committed the 8 orphan record JSONs (ZMCC 2024/02, 04, 05, 06, 07, 08, 10, 13) and the b0699 ingestion scripts on top of `da25c3d` + `22cacba`. No orphan recovery was performed by this tick; the local working tree was already in sync. This tick's purpose is the final-3 drain (15/17/20).
+
+### Records inserted this tick (0)
+
+
+### Records deferred this tick
+
+| Slug | Reason | Cohort |
+|---|---|---|
+| `judgment-zm-2024-zmcc-15-milingo-lungu-v-the-attorney-general-and-anor` | case_number `2022/CCZ/006` collides with existing: judgment-zm-2024-zmcc-05-milingo-lungu-v-the-attorney-general-and-anor | `case_number-collision-multiple-rulings-same-petition` |
+| `judgment-zm-2024-zmcc-17-isaac-mwaanza-and-civil-liberties-union-v-attorney` | outcome-pattern-not-matched | `operative-paragraph-undetected` |
+| `judgment-zm-2024-zmcc-20-michelo-chizombe-v-edgar-chagwa-lungu-and-ors` | outcome-pattern-not-matched | `operative-paragraph-undetected` |
+
+### Integrity checks
+
+| Check | Result | Notes |
+|---|---|---|
+| CHECK1 | PASS | All inserted records have ≥1 judge |
+| CHECK2 | PASS | issue_tags non-empty for all inserted |
+| CHECK3 | PASS | outcomes from allowed enum |
+| CHECK6 | PASS | raw_sha256 verified on-disk |
+| CHECK8 | PASS | records=1954 records_fts=1954; quick_check=ok; integrity_check=ok |
+
+### Sweep cursors (updated)
+
+- `judiciary-coa-sweep`: page-9 (unchanged — scanned-PDF cliff)
+- `judiciary-scz-sweep`: page-2 (unchanged)
+- `judiciary-zmcc-sweep`: not yet started (unchanged)
+- `judiciary-hc-sweep`: not yet started (unchanged)
+- **ZambiaLII ZMCC 2024 gap-fill backlog**: 3 → 0 hand-curatable candidates remaining (after b0701 drain — 0 inserted; ZMCC 15 deferred under case_number-collision cohort, ZMCC 17 & 20 deferred under operative-paragraph-undetected cohort; ZMCC 20 also case_number-collision with ZMCC 14). All 3 are policy/parser-blocked, not data-blocked.
+
+### Outstanding deferred records (cumulative)
+
+- `judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people` — truncated source PDF.
+- `judgment-zm-2025-zmcc-16-miles-bwalya-sampa-v-attorney-general-and-4-ors` — case_number-collision.
+- `judgment-zm-2025-zmcc-19-betbio-zambia-ltd-and-anor-v-attorney-general-and-ors` — scanned-PDF-OCR-required.
+- `judgment-zm-2025-zmcc-33-miles-bwalya-sampa-v-the-attorney-general-and-ors` — case_number-collision.
+- `judgment-zm-2024-zmcc-27-michelo-chizombe-v-edgar-chagwa-lungu-and-ors` — case_number-collision.
+- `judgment-zm-2024-zmcc-15-milingo-lungu-v-the-attorney-general-and-anor` — case_number-collision (this tick).
+- `judgment-zm-2024-zmcc-20-michelo-chizombe-v-edgar-chagwa-lungu-and-ors` — case_number-collision (this tick).
+
+### Fetch cost
+
+- Network fetches: **0** (hand-curation from on-disk raw files).
+- JIW daily budget: ~0 / 500 used today.
+
+### Recommended priority for next JIW tick
+
+1. **CoA NEW from judiciaryzambia.com**: Josias Mtonga (app-110-2024), Skab Merchants (app-344-2023), Tulambo Kumwenda (app-47-2025) — 3 records, ~6 fetches. ZambiaLII coverage of CoA judgments is sparse vs the judiciaryzambia.com source.
+2. **Maintainer action**: dedup-policy decision on `case_number-collision-multiple-rulings-same-petition` cohort (now 5 deferred: ZMCC 2024/15, 2024/20, 2024/27, 2025/16, 2025/33). Recommend using `(case_number, citation)` tuple for dedup so multiple ZMCC rulings sharing one underlying petition can coexist.
+3. **OCR pass** (host-only): ZMCC 2025/19 Betbio.
+
+### Wall-clock
+
+Start: 2026-05-18T13:44:59Z. Budget: 20 minutes.

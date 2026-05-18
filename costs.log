@@ -6518,3 +6518,7 @@ b0701	2026-05-18T13:12:21Z	fetch_html	bytes=39705	sec=0.93
 b0701	2026-05-18T13:12:21Z	fetch_pdf	bytes=286641	sec=0.68
 b0701	2026-05-18T13:12:23Z	fetch_html	bytes=40864	sec=1.02
 b0701	2026-05-18T13:12:24Z	fetch_pdf	bytes=293981	sec=0.56
+2026-05-18T13:44:59Z	b0701-jiw	fetches=0	retry_fetches=0	records_written=0	records_deferred=3	worker=jiw	cumulative_today=~0/500	tokens_used=0(deterministic-pipeline)	llm-tokens=0/1000000
+2026-05-18T13:44:59Z	b0701-jiw	NETWORK_FETCHES	count=0	note=hand-curated-from-raw-on-disk-no-network
+2026-05-18T13:44:59Z	b0701-jiw	BANDWIDTH	total_bytes=0
+2026-05-18T13:44:59Z	b0701-jiw	INTEGRITY	all-checks=PASS	quick_check=ok	records=1954	records_fts=1954	tick-verdict=COMMIT-normal-path

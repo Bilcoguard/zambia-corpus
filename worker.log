@@ -8995,3 +8995,11 @@ test append Mon May 18 00:44:14 CAT 2026
 [2026-05-18T13:39:55Z] b0702 REPAIR_QUEUE 41 SIs still need repair (Condition B: SIs with no body); 0 Condition A (corrupted) and 0 Condition C (stubs) detected
 [2026-05-18T13:39:55Z] b0702 REMEDIATION_NOTE the audit-trailer-only contents of da25c3d (worker.log append documenting b0700-phase8 commit+push+orphan-note) are already preserved in the in-tree worker.log history; abandoning da25c3d in favour of fast-forwarding to origin/main loses no substantive data
 [2026-05-18T13:39:55Z] b0702 TICK_END outcome=PULL_FAILED_NO_WORK_PERFORMED elapsed=<2min repaired=0 failed=0 remaining=41 worker=repair-corpus session=confident-laughing-gates
+2026-05-18T15:38Z b0699-jiw GIT_COMMIT sha=2fbe34b79752b578fd6e73a8aa227319880315cf parents=da25c3dda6c59e9cde110ed4a8bc388c4ee4a7e0,22cacbaee4760f848e0a7f14fac6bed7270724a1 tree=0bcd244569ec4343653ab8b024b510700fb8f204 files=18 method=alt-index-read-tree-HEAD+adds+write-tree+commit-tree-two-parents+direct-ref-update reason=FUSE-EPERM-on-.git/index.lock+local-origin-divergence-merge type=recovery-merge resolves=da25c3d-b0700-trailer+22cacba-b0701-repair
+2026-05-18T15:38Z b0699-jiw GIT_PUSH remote=origin branch=main from=22cacba to=2fbe34b result=OK
+2026-05-18T15:38Z b0699-jiw RECOVERY_COMPLETE 8 ZMCC 2024 records committed; divergence resolved; B2-sync-deferred (rclone not in sandbox)
+[2026-05-18T13:44:59Z] [b0701-jiw] TICK_START parser=0.3.2-jiw-b0701-hand-curated candidates=3
+[2026-05-18T13:44:59Z] [b0701-jiw] RECOVERY committing b0699-jiw orphan work-products (8 ZMCC 2024 record JSONs + judges_registry + provenance + worker.log appends)
+[2026-05-18T13:44:59Z] [b0701-jiw] CANDIDATES_RESULT inserted=0 deferred=3
+[2026-05-18T13:44:59Z] [b0701-jiw] INTEGRITY all-checks=PASS records=1954 records_fts=1954 qc=ok ic=ok
+[2026-05-18T13:44:59Z] [b0701-jiw] TICK_END verdict=COMMIT-normal-path inserted=0 deferred=3 next-tick=2026-05-18T15:20Z

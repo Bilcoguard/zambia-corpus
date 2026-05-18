@@ -1,0 +1,48 @@
+{
+  "batch_id": "b0701-jiw",
+  "started_at": "2026-05-18T13:44:59Z",
+  "parser_version": "0.3.2-jiw-b0701-hand-curated",
+  "inserted": [],
+  "deferred": [
+    {
+      "slug": "judgment-zm-2024-zmcc-15-milingo-lungu-v-the-attorney-general-and-anor",
+      "reason": "case_number `2022/CCZ/006` collides with existing: judgment-zm-2024-zmcc-05-milingo-lungu-v-the-attorney-general-and-anor",
+      "cohort": "case_number-collision-multiple-rulings-same-petition",
+      "citation_proposed": "[2024] ZMCC 15"
+    },
+    {
+      "slug": "judgment-zm-2024-zmcc-17-isaac-mwaanza-and-civil-liberties-union-v-attorney",
+      "reason": "outcome-pattern-not-matched",
+      "cohort": "operative-paragraph-undetected"
+    },
+    {
+      "slug": "judgment-zm-2024-zmcc-20-michelo-chizombe-v-edgar-chagwa-lungu-and-ors",
+      "reason": "outcome-pattern-not-matched",
+      "cohort": "operative-paragraph-undetected"
+    }
+  ],
+  "integrity": {
+    "records": 1954,
+    "records_fts": 1954,
+    "quick_check": "ok",
+    "integrity_check": "ok",
+    "pass": true
+  },
+  "orphan_recovery": {
+    "files": [
+      "judgment-zm-2024-zmcc-02-institute-of-law-policy-research-and-human-rights",
+      "judgment-zm-2024-zmcc-04-moses-sakala-v-the-attorney-general-and-anor",
+      "judgment-zm-2024-zmcc-05-milingo-lungu-v-the-attorney-general-and-anor",
+      "judgment-zm-2024-zmcc-06-conservation-advocates-zambia-limited-v-the-attorn",
+      "judgment-zm-2024-zmcc-07-sandras-samakayi-v-attorney-general",
+      "judgment-zm-2024-zmcc-08-dr-godfrey-hampwaye-and-ors-v-the-council-of-the-u",
+      "judgment-zm-2024-zmcc-10-moses-sakala-v-attorney-general-and-ors",
+      "judgment-zm-2024-zmcc-13-elijah-simbai-v-the-zambia-institute-of-advanced-l"
+    ],
+    "scripts": [
+      "batch_0699_jiw_zmcc_2024_gapfill.py",
+      "batch_0699_jiw_insert.py",
+      "_b0699_jiw_parsed.json"
+    ]
+  }
+}
