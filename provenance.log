@@ -4690,3 +4690,4 @@ b0699-jiw	2026-05-18T15:35:00Z	RECOVERY	reason=context-compaction-interrupted-co
 2026-05-18T16:04:22Z	b0708-phase8	phase=phase_8_nightly_reverify	script=scripts/batch_0708_phase8_reverify.py	parser_version=phase8-reverify-0.1.0	seed=phase8-reverify-2026-05-18-b0708	sample=8	match=3	drift=5	fetch_error=0	pool=1964	user_agent=KateWestonLegal-CorpusBuilder/1.0	contact=peter@bilcoguard.com
 
 
+2026-05-18T18:28:03Z	b0711-phase8	phase=phase_8_nightly_reverify	script=scripts/batch_0711_phase8_reverify.py	parser_version=phase8-reverify-0.1.0	seed=phase8-reverify-2026-05-18-b0711	pool_size=1964	sample_size=8	match=6	drift=2	fetch_error=0	fetches=8	bytes=3467440	user_agent=KateWestonLegal-CorpusBuilder/1.0	record_mutation=none	corpus_sqlite_mutation=none	approvals_yaml_mutation=none

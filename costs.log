@@ -6935,3 +6935,9 @@ b0710-jiw	2026-05-18T18:09:18Z	fetch_html_urllib	bytes=180885	sec=2.42
 2026-05-18T18:09:18Z	b0710-jiw	fetches=155	retry_fetches=0	records_written=0	records_deferred=150	worker=judgment-ingestion-worker	cumulative_today=~331/500	cohort=multi-source-zambialii-priority
 2026-05-18T18:09:18Z	b0710-jiw	BANDWIDTH	total_bytes=8197938	source=multi
 2026-05-18T18:09:18Z	b0710-jiw	INTEGRITY	records=1961	records_fts=1961	pass=True
+2026-05-18T18:28:03Z	b0711-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=~317/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1964	sample_size=8
+2026-05-18T18:28:03Z	b0711-phase8	NETWORK_FETCHES	count=8	hosts=www.parliament.gov.zm:5,zambialii.org:2,judiciaryzambia.com:1	http=200x8
+2026-05-18T18:28:03Z	b0711-phase8	BANDWIDTH	total_bytes=3467440	avg_kb=423.3	largest=loz-national-parks-and-wildlife-act(2116963B,parliament-source-pdf)
+2026-05-18T18:28:03Z	b0711-phase8	WALL_CLOCK	started=2026-05-18T18:27:49Z	completed=2026-05-18T18:28:03Z	elapsed=14s	budget=20min	headroom=~19m46s
+2026-05-18T18:28:03Z	b0711-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-18T18:28:03Z	b0711-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1961	records_fts=1961	dup_ids=0	tick-verdict=COMMIT-normal-path

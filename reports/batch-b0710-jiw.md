@@ -1,0 +1,177 @@
+# Batch b0710-jiw — multi-source judgment sweep
+
+- Started: 2026-05-18T18:06:14Z
+- Worker: judgment-ingestion-worker
+- Mode: ZambiaLII (primary, text-based) + JudiciaryZM (fallback)
+- Parser: 0.4.3-jiw-b0710
+- Fetches: 155 (cumulative today: ~331/500)
+- Bandwidth: 8197938 bytes
+- Records inserted: 0
+- Records deferred: 150
+- DB pre/post: records=1961->1961, fts=1961->1961
+- Integrity (CHECK8): True
+
+## Sweep results
+
+- ZambiaLII SCZ: cands=50, inserted=0
+- ZambiaLII ZMCC: cands=50, inserted=0
+- ZambiaLII ZMCA: cands=50, inserted=0
+- JudiciaryZM SCZ page-4: cands=0, inserted=0
+- JudiciaryZM HC page-3: cands=0, inserted=0
+
+## Inserted
+
+
+## Deferred
+
+- https://zambialii.org/akn/zm/judgment/zmsc/2026/10/eng@2026-04-17: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2026/9/eng@2026-04-16: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2026/8/eng@2026-03-31: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2026/7/eng@2026-03-13: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2026/4/eng@2026-03-10: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2026/6/eng@2026-03-10: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2026/3/eng@2026-02-11: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2026/2/eng@2026-02-11: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2026/1/eng@2026-01-29: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/30/eng@2025-12-31: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/29/eng@2025-12-12: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/31/eng@2025-10-28: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/28/eng@2025-10-27: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/27/eng@2025-10-02: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/25/eng@2025-09-19: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/24/eng@2025-09-19: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/26/eng@2025-09-19: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/21/eng@2025-08-20: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/20/eng@2025-08-20: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/22/eng@2025-08-19: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/18/eng@2025-08-14: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/19/eng@2025-08-13: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/17/eng@2025-08-13: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/15/eng@2025-07-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/16/eng@2025-07-24: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/12/eng@2025-05-21: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/13/eng@2025-05-19: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/11/eng@2025-04-29: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/10/eng@2025-04-17: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/9/eng@2025-04-08: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/23/eng@2025-04-03: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/8/eng@2025-03-28: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/32/eng@2025-03-11: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/7/eng@2025-02-21: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/6/eng@2025-02-12: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/2/eng@2025-01-16: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/4/eng@2025-01-15: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/1/eng@2025-01-15: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/5/eng@2025-01-15: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2025/3/eng@2025-01-10: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2024/30/eng@2024-11-08: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2024/31/eng@2024-10-23: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2024/32/eng@2024-10-07: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2024/34/eng@2024-10-04: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2024/29/eng@2024-08-15: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2024/28/eng@2024-08-15: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2024/27/eng@2024-08-07: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2024/25/eng@2024-07-24: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2024/26/eng@2024-07-24: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmsc/2024/33/eng@2024-07-23: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2026/12/eng@2026-05-11: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2026/11/eng@2026-04-27: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2026/9/eng@2026-04-02: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2026/10/eng@2026-03-30: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2026/7/eng@2026-03-25: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2026/8/eng@2026-03-25: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2026/6/eng@2026-03-19: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2026/4/eng@2026-02-24: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2026/5/eng@2026-02-11: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2026/3/eng@2026-02-10: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2026/2/eng@2026-01-28: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2026/1/eng@2026-01-20: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/33/eng@2025-12-18: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/32/eng@2025-12-16: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/30/eng@2025-12-11: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/31/eng@2025-12-10: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/29/eng@2025-12-08: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/28/eng@2025-12-05: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/27/eng@2025-12-05: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/25/eng@2025-12-04: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/24/eng@2025-11-28: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/23/eng@2025-11-27: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/22/eng@2025-11-27: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/21/eng@2025-11-25: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/26/eng@2025-11-18: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/20/eng@2025-10-03: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/19/eng@2025-09-30: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/18/eng@2025-09-30: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/17/eng@2025-08-27: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/16/eng@2025-08-25: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/14/eng@2025-07-28: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/13/eng@2025-07-25: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/15/eng@2025-07-23: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/12/eng@2025-06-27: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/11/eng@2025-06-19: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/10/eng@2025-06-04: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/7/eng@2025-04-07: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/8/eng@2025-04-01: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/6/eng@2025-03-24: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/5/eng@2025-03-24: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/3/eng@2025-03-06: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/4/eng@2025-02-20: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/1/eng@2025-02-13: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/9/eng@2025-02-10: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2025/2/eng@2025-02-06: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2024/27/eng@2024-12-10: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2024/25/eng@2024-11-13: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2024/24/eng@2024-11-11: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2024/26/eng@2024-11-05: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmcc/2024/23/eng@2024-10-29: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/77/eng@2026-05-08: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/79/eng@2026-05-08: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/78/eng@2026-05-08: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/82/eng@2026-05-08: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/80/eng@2026-05-07: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/76/eng@2026-05-07: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/74/eng@2026-05-07: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/81/eng@2026-05-06: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/73/eng@2026-05-06: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/75/eng@2026-05-06: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/72/eng@2026-05-04: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/70/eng@2026-04-30: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/69/eng@2026-04-30: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/71/eng@2026-04-30: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/68/eng@2026-04-22: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/67/eng@2026-04-22: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/66/eng@2026-04-16: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/63/eng@2026-04-15: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/64/eng@2026-04-15: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/62/eng@2026-04-15: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/65/eng@2026-04-14: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/57/eng@2026-04-01: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/61/eng@2026-03-31: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/58/eng@2026-03-31: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/60/eng@2026-03-31: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/59/eng@2026-03-31: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/49/eng@2026-03-26: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/50/eng@2026-03-26: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/47/eng@2026-03-26: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/31/eng@2026-03-26: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/55/eng@2026-03-26: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/48/eng@2026-03-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/33/eng@2026-03-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/34/eng@2026-03-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/51/eng@2026-03-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/52/eng@2026-03-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/36/eng@2026-03-25: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/37/eng@2026-03-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/42/eng@2026-03-25: no-judge-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/41/eng@2026-03-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/39/eng@2026-03-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/40/eng@2026-03-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/45/eng@2026-03-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/44/eng@2026-03-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/53/eng@2026-03-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/38/eng@2026-03-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/46/eng@2026-03-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/56/eng@2026-03-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/54/eng@2026-03-25: no-case-number-extracted
+- https://zambialii.org/akn/zm/judgment/zmca/2026/32/eng@2026-03-25: no-case-number-extracted
+

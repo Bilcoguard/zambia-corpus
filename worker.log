@@ -9970,3 +9970,27 @@ The following paths are ignored
 [2026-05-18T18:14:36Z] repair-20260518T181434Z Condition C (stub bodies): 0
 [2026-05-18T18:14:36Z] repair-20260518T181434Z Total dedup'd targets: 0 (MAX_BATCH=8)
 [2026-05-18T18:14:36Z] repair-20260518T181434Z All repair targets fixed — repair worker idle
+[2026-05-18T18:28:03Z] [b0711-phase8] === TICK START === phase=phase_8_nightly_reverify script=scripts/batch_0711_phase8_reverify.py sample_rate=0.01 max_batch=8
+[2026-05-18T18:28:03Z] [b0711-phase8] git pull --ff-only rc=0 (Already up to date)
+[2026-05-18T18:28:03Z] [b0711-phase8] approvals.yaml read OK; lowest approved+incomplete phase = phase_8_nightly_reverify
+[2026-05-18T18:28:03Z] [b0711-phase8] costs.log today fetches ≈317/2000 pre-tick — within budget; tokens 0/1000000
+[2026-05-18T18:28:03Z] [b0711-phase8] pool_size=1964 sample_size=8 seed=phase8-reverify-2026-05-18-b0711
+[2026-05-18T18:28:03Z] [b0711-phase8] fetches=8 http200=8 match=6 drift=2 fetch_error=0
+[2026-05-18T18:28:03Z] [b0711-phase8] integrity-checks: 1=PASS 2=PASS 3=PASS 4=PASS 5=PASS 6=PASS 7=PASS 8=PASS 9=PASS — commit normal path
+[2026-05-18T18:28:03Z] [b0711-phase8] B2_SYNC verdict=deferred-to-host (rclone not in sandbox; Phase 8 read-only on corpus)
+[2026-05-18T18:28:03Z] [b0711-phase8] === TICK END === elapsed=14s budget=20min headroom=~19m46s
+[2026-05-18T18:30:29Z] [repair] === TICK START cwd=/sessions/lucid-jolly-lovelace/mnt/corpus ===
+[2026-05-18T18:30:30Z] [repair] git fetch rc=0 err=warning: unable to unlink '/sessions/lucid-jolly-lovelace/mnt/corpus/.git/objects/maintenance.lock': Operation not permitted
+[2026-05-18T18:30:31Z] [repair] git pull ok: Already up to date.
+[2026-05-18T18:31:05Z] [repair] === TICK START cwd=/sessions/lucid-jolly-lovelace/mnt/corpus ===
+[2026-05-18T18:31:06Z] [repair] git fetch rc=0 err=
+[2026-05-18T18:31:07Z] [repair] git pull failed rc=128: fatal: update_ref failed for ref 'ORIG_HEAD': cannot lock ref 'ORIG_HEAD': Unable to create '/sessions/lucid-jolly-lovelace/mnt/corpus/.git/ORIG_HEAD.lock': File exists.
+
+Another git process seems to 
+[2026-05-18T18:31:07Z] [repair] local=177567abd7d8 origin=177567abd7d8
+[2026-05-18T18:31:07Z] [repair] Already at origin; no pull needed
+[2026-05-18T18:31:07Z] [repair] Condition B (no-body acts/sis): 0
+[2026-05-18T18:31:07Z] [repair] Condition A (corrupted): 0
+[2026-05-18T18:31:07Z] [repair] Condition C (stubs): 0
+[2026-05-18T18:31:07Z] [repair] Dedup targets: 0
+[2026-05-18T18:31:07Z] [repair] All repair targets fixed — repair worker idle
