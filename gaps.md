@@ -11522,3 +11522,25 @@ Phase 8 nightly re-verification, batch 0697 (`scripts/batch_0697_phase8_reverify
 The b0691/b0692 zambialii.org HTTP 500 outage (started 2026-05-18T01:14:50Z) has resolved by 2026-05-18T11:58Z: 8/8 fetches returned HTTP 200 with no rate-limit or DNS issues. Continue routine Phase 8 sampling; no maintainer escalation required.
 
 See `reports/batch-0697-reverify.json` for the full per-record breakdown.
+
+## b0698-phase8 — Phase 8 nightly re-verification (2026-05-18T12:11Z) — AUDIT-ONLY ENTRY
+
+Tick b0698 sampled 8 of 1949 records (sample_rate 0.01, seed `phase8-reverify-2026-05-18-b0698`). Results: 2 match, 6 drift, 0 fetch_error. All 8 HTTP 200. All 9 integrity checks PASS.
+
+**Drift cohort (6 records — all `zambialii_akn_html_dynamic_render_drift`):**
+- act-zm-1969-036-state-security-act-1969 (zambialii.org AKN-HTML `eng@`-suffixed)
+- si-zm-2022-021-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022 (zambialii.org AKN-HTML bare)
+- act-zm-1982-025-minimum-wages-and-conditions-of-employment--1982 (www.zambialii.org AKN-HTML `eng@`-suffixed)
+- act-zm-2013-003-medicines-and-allied-substances-act-2013 (zambialii.org AKN-HTML `eng@`-suffixed)
+- judgment-zm-2025-zmcc-22-sean-tembo-suing-in-his-capacity-as-spokesperson-o (zambialii.org AKN-HTML `eng@`-suffixed)
+- act-zm-1981-006-excess-expenditure-appropriation-1978-act-1981 (zambialii.org AKN-HTML `eng@`-suffixed)
+
+All 6 drifts are the long-running AKN-HTML dynamic-render cohort (timestamps + footer counters in dynamically-rendered HTML). No new sub-cohort spawned. No record mutation — Phase 8 is read-only.
+
+**Match cohort (2 records — stable-PDF supercohort):**
+- act-zm-2024-020-supplementary-appropriation-2024-no-2-act-2024 (www.parliament.gov.zm Act PDF) — first parliament.gov.zm host appearance in the recent Phase 8 run; behaviour matches the zambialii AKN source.pdf / media.zambialii.org source_file PDF supercohorts (byte-identical hashes across fetches).
+- si-zm-2020-011-income-tax-royal-haskoning-dhv-pty-limited-approval-and-exemption-order-2020 (zambialii.org AKN source.pdf)
+
+No fetch errors this tick. ZambiaLII availability remains stable since the b0691/b0692 outage resolved at b0697. Continue routine Phase 8 sampling; no maintainer escalation required.
+
+See `reports/batch-0698-reverify.json` for the full per-record breakdown.

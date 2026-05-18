@@ -8918,3 +8918,18 @@ test append Mon May 18 00:44:14 CAT 2026
 [2026-05-18T12:12:03Z] b0698 TICK_END elapsed=22s budget=20min records=1946 records_fts=1946 quick_check=ok repaired=8 failed=0 remaining=49 worker=repair-corpus session=gallant-inspiring-pascal
 [2026-05-18T12:12:03Z] b0698 B2 sync deferred to host (rclone not available in sandbox)
 [2026-05-18T12:12:03Z] b0698 COMPLETE 8 SIs repaired, integrity ok, 49 remaining
+2026-05-18T12:13:19Z b0698 GIT_COMMIT sha=bddf718aa3175f550ac3a17bf1f3ee8033dff210 parent=4b5b7f798273b39055cbbf96aacac7506a68701e tree=8f187c974c6c1988e4c32196b8aaaf28b157e6d5 files=5 method=alt-index-write-tree+commit-tree+update-ref reason=FUSE-EPERM-on-.git/index.lock
+2026-05-18T12:13:19Z b0698 GIT_PUSH remote=origin branch=main from=4b5b7f7 to=bddf718 result=OK
+[2026-05-18T12:10:38Z] [b0698-phase8] TICK_START scheduled phase-8-nightly-reverify; lowest-numbered approved+incomplete phase = phase_8_nightly_reverify; sample_rate=0.01; max_batch=8; seed=phase8-reverify-2026-05-18-b0698; pre records=1946 records_fts=1946 judgments_meta=253 quick_check=ok
+[2026-05-18T12:10:38Z] [b0698-phase8] SCRIPT scripts/batch_0698_phase8_reverify.py (verbatim clone of scripts/batch_0697_phase8_reverify.py; only BATCH constant changed 0697->0698)
+[2026-05-18T12:10:38Z] [b0698-phase8] PROBE python3=3.10.12 ssl=ok urllib=ok; certs/ extras loaded; UA="KateWestonLegal-CorpusBuilder/1.0 (contact: peter@bilcoguard.com)"
+[2026-05-18T12:11:12Z] [b0698-phase8] SAMPLE_DRAWN 8 of 1949; cohort breakdown: 6 AKN-HTML, 1 AKN source.pdf, 1 parliament.gov.zm Act PDF (first parliament.gov.zm host in recent Phase 8 run)
+[2026-05-18T12:11:12Z] [b0698-phase8] FETCH_OUTCOMES match=2 drift=6 fetch_error=0; HTTP 200 on all 8; zambialii.org availability remains stable since b0697 recovery
+[2026-05-18T12:11:12Z] [b0698-phase8] DRIFT_COHORT_TAG all 6 drifts classified zambialii_akn_html_dynamic_render_drift (same long-running cohort as b0641..b0697)
+[2026-05-18T12:11:12Z] [b0698-phase8] INTEGRITY_CHECKS 1=PASS 2=PASS 3=PASS 4=PASS 5=PASS 6=PASS 7=PASS 8=PASS 9=PASS; all 9 checks PASS
+[2026-05-18T12:11:12Z] [b0698-phase8] NO_RECORD_MUTATION script is read-only by design; BRIEF non-negotiable #4 honoured
+[2026-05-18T12:11:12Z] [b0698-phase8] GAPS_APPEND b0698-phase8 section appended to gaps.md (drifts:6, matches:2, no fetch errors); audit-only entry
+[2026-05-18T12:11:12Z] [b0698-phase8] REPORT_WRITE reports/batch-0698.md + reports/batch-0698-reverify.json
+[2026-05-18T12:11:12Z] [b0698-phase8] B2_SYNC deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+[2026-05-18T12:11:12Z] [b0698-phase8] PHASE_STATE phase_8_nightly_reverify remains approved:true complete:false (recurring nightly sample; approvals.yaml NOT modified)
+[2026-05-18T12:11:12Z] [b0698-phase8] TICK_END records=1946 records_fts=1946 judgments_meta=253 quick_check=ok integrity_check=ok match=2 drift=6 fetch_error=0 next-tick=2026-05-18T12:41Z

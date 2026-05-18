@@ -6476,3 +6476,9 @@ b0698	2026-05-18T12:11:38Z	fetch_html	bytes=42672	sec=0.97
 b0698	2026-05-18T12:11:38Z	fetch_pdf	bytes=21875	sec=0.31
 b0698	2026-05-18T12:11:40Z	fetch_html	bytes=41669	sec=1.04
 b0698	2026-05-18T12:11:40Z	fetch_pdf	bytes=26646	sec=0.35
+2026-05-18T12:11:12Z	b0698-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=~137/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1949	sample_size=8
+2026-05-18T12:11:12Z	b0698-phase8	NETWORK_FETCHES	count=8	hosts=zambialii.org:5,www.zambialii.org:1,www.parliament.gov.zm:1	all-HTTP-200
+2026-05-18T12:11:12Z	b0698-phase8	BANDWIDTH	total_bytes=645797	avg_kb=78.8	largest=act-zm-2024-020-supplementary-appropriation-2024-no-2-act-2024(297824B,parliament-gov-zm-Act-PDF)
+2026-05-18T12:11:12Z	b0698-phase8	WALL_CLOCK	started=2026-05-18T12:10:38Z	completed=2026-05-18T12:11:12Z	elapsed=34s	budget=20min	headroom=~19m26s
+2026-05-18T12:11:12Z	b0698-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-18T12:11:12Z	b0698-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1946	records_fts=1946	dup_ids=0	tick-verdict=COMMIT-normal-path
