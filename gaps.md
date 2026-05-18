@@ -11544,3 +11544,125 @@ All 6 drifts are the long-running AKN-HTML dynamic-render cohort (timestamps + f
 No fetch errors this tick. ZambiaLII availability remains stable since the b0691/b0692 outage resolved at b0697. Continue routine Phase 8 sampling; no maintainer escalation required.
 
 See `reports/batch-0698-reverify.json` for the full per-record breakdown.
+
+---
+## b0699-jiw — ZMCC 2024 gap-fill +8 (2026-05-18T14:00Z–14:20Z)
+
+### Records inserted this tick (8)
+
+1. `judgment-zm-2024-zmcc-02-institute-of-law-policy-research-and-human-rights` ([2024] ZMCC 2, 2023/CCZ/0024, single-judge Chisunka JJC, joinder of Brian Mundubile as interested party, granted)
+2. `judgment-zm-2024-zmcc-04-moses-sakala-v-the-attorney-general-and-anor` ([2024] ZMCC 4, 2023/CCZ/0025, single-judge Mulife JC, joinder of Brian Mundubile as 3rd respondent, granted)
+3. `judgment-zm-2024-zmcc-05-milingo-lungu-v-the-attorney-general-and-anor` ([2024] ZMCC 5, 2022/CCZ/006, full-bench 7 judges, single-judge stay order discharged, set-aside)
+4. `judgment-zm-2024-zmcc-06-conservation-advocates-zambia-limited-v-the-attorn` ([2024] ZMCC 6, 2023/CCZ/0018, 5-judge bench, DNPW failure to provide environmental information held unconstitutional under Articles 255(l)(m), 256(c), 257(d), allowed — landmark environmental-rights decision)
+5. `judgment-zm-2024-zmcc-07-sandras-samakayi-v-attorney-general` ([2024] ZMCC 7, 2023/CCZ/0015, 3-judge bench, Originating Summons interpreting Article 145(3)(4) — judicial-officer retirement age, classified other)
+6. `judgment-zm-2024-zmcc-08-dr-godfrey-hampwaye-and-ors-v-the-council-of-the-u` ([2024] ZMCC 8, 2023/CCZ/0027, 3-judge bench, notice of motion under Order 14A RSC dismissed and matter remitted to single Judge, dismissed)
+7. `judgment-zm-2024-zmcc-10-moses-sakala-v-attorney-general-and-ors` ([2024] ZMCC 10, 2023/CCZ/0025, full-bench 11 judges, substantive petition on election of Leader of Opposition under Article 74(2) and Rule 43 NA Standing Orders, dismissed)
+8. `judgment-zm-2024-zmcc-13-elijah-simbai-v-the-zambia-institute-of-advanced-l` ([2024] ZMCC 13, 2023/CCZ/0023, 3-judge bench, petition under Articles 119(2), 122(2) against ZIALE Council, dismissed)
+
+### Records deferred this tick
+
+None. All 8 candidates parsed cleanly. Three ZMCC 2024 PDFs still on the
+gap-fill backlog (15, 17, 20) — deferred to next JIW tick as MAX_BATCH_SIZE=8.
+
+### Integrity checks
+
+| Check | Result | Notes |
+|---|---|---|
+| CHECK1 | PASS | All 8 records have ≥1 judge (cohort sizes 1, 1, 7, 5, 3, 3, 11, 3) |
+| CHECK2 | PASS | `issue_tags` non-empty for all 8 (counts 5, 7, 4, 9, 5, 6, 6, 6) |
+| CHECK3 | PASS | Outcomes from allowed enum: 3×`dismissed`, 2×`granted`, 1×`allowed`, 1×`set-aside`, 1×`other` |
+| CHECK4 | PASS | All judge names resolve in `judges_registry.yaml` (Munalula PCC alias added) |
+| CHECK5 | PASS | No duplicate IDs |
+| CHECK6 | PASS | `raw_sha256` matches on-disk PDF for all 8 |
+| CHECK7 | PASS | 0 duplicates among records with all-three-fields-populated triplets (25 pre-existing None-tuple SCZ records are b0696 carry-over, not caused by this tick) |
+| CHECK8 | **PASS** | `records=1954 == records_fts=1954`; `quick_check=ok`; `integrity_check=ok` |
+
+### Parser improvements (v0.3.2-jiw-b0699-hand-curated)
+
+Outcome detection extended for ZMCC-specific operative phrasing:
+- `petition has no merit and it is hereby dismissed` (ZMCC 10)
+- `we hereby dismiss the notice of motion` (ZMCC 08)
+- `is hereby discharged` → `set-aside` (ZMCC 05 — stay order discharged)
+- `prayer for an order for joinder is granted` (ZMCC 04)
+- Three-tier search: operative-section slice → last 4 pages → full body tail.
+- Per-record hand-curated overrides for `outcome` and `issue_tags` (8/8).
+
+### Sweep cursors (updated)
+
+- `judiciary-coa-sweep`: page-9 (unchanged — scanned-PDF cliff)
+- `judiciary-scz-sweep`: page-2 (unchanged)
+- `judiciary-zmcc-sweep`: not yet started (unchanged)
+- `judiciary-hc-sweep`: not yet started (unchanged)
+- **ZambiaLII ZMCC 2024 gap-fill backlog**: 11 → 3 remaining (resolved: 02, 04, 05, 06, 07, 08, 10, 13; still remaining: 15, 17, 20)
+
+### Outstanding deferred records (cumulative, carry-over only)
+
+- `judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people` — truncated source PDF.
+- `judgment-zm-2025-zmcc-16-miles-bwalya-sampa-v-attorney-general-and-4-ors` — case_number-collision (b0695 carry-over).
+- `judgment-zm-2025-zmcc-19-betbio-zambia-ltd-and-anor-v-attorney-general-and-ors` — scanned-PDF-OCR-required.
+- `judgment-zm-2025-zmcc-33-miles-bwalya-sampa-v-the-attorney-general-and-ors` — case_number-collision.
+- `judgment-zm-2024-zmcc-27-michelo-chizombe-v-edgar-chagwa-lungu-and-ors` — case_number-collision.
+
+### Fetch cost
+
+- Network fetches: **0** (zero net-new HTTP requests).
+- JIW daily budget: 48 / 500 used today (separate from main worker's 2000/day).
+- Bandwidth: 0 bytes.
+
+### Methodology note
+
+Direct in-place mutation of `corpus.sqlite` (`PRAGMA journal_mode=MEMORY;
+synchronous=OFF`), same pattern as b0696-jiw. Backup snapshot at
+`corpus.sqlite.bak.b0698-jiw-pre-20260518T121744Z` for rollback safety. (Backup
+filename retains pre-rename tag because snapshot was taken before the
+b0698-jiw → b0699-jiw rename, prompted by namespace conflict with the
+repair-corpus worker's b0698 batch.)
+
+### Recommended priority for next JIW tick
+
+1. **ZMCC 2024 gap-fill (final 3)**: 15, 17, 20 — hand-curation pathway, 0 net fetches.
+2. **CoA NEW from judiciaryzambia.com**: Josias Mtonga (app-110-2024), Skab Merchants (app-344-2023), Tulambo Kumwenda (app-47-2025) — 3 records, ~6 fetches.
+3. **Maintainer action** (human-only): dedup-policy decision on `case_number-collision-multiple-rulings-same-petition` cohort.
+4. **OCR pass** (host-only): ZMCC 2025/19 Betbio requires `ocrmypdf`.
+
+### Wall-clock
+
+Start: 2026-05-18T14:00Z. Finish: 2026-05-18T14:20Z. Elapsed: ~20 minutes. Budget: 20 minutes. Headroom: 0 minutes (used at ceiling).
+
+## b0700-phase8 — Phase 8 nightly re-verification (2026-05-18T12:33Z) — AUDIT-ONLY ENTRY
+
+Tick b0700 sampled 8 of 1957 records (sample_rate 0.01, seed `phase8-reverify-2026-05-18-b0700`). Results: 4 match, 3 drift, 1 fetch_error. 7× HTTP 200, 1× HTTP 404. All 9 integrity checks PASS.
+
+### Drifts (3) — all `zambialii_akn_html_dynamic_render_drift`
+
+- `judgment-zm-2023-zmsc-20-augustine-mwamba-mbuzakosi-and-ors-v-the-people` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/judgment/zmsc/2023/20/eng@2023-11-16`); stored=`dda1b7c55b2f1ef4a70348da9c61e1bf6037b949cc972ee71b5610260085c01f` fetched=`591196f4efc8a28363b440bc50cfccd2bbab53a0460b1b5d2937dff107e1909f`; bytes=41571; verdict: dynamic-render churn (timestamp/footer counter), legal content unchanged.
+- `act-zm-1967-026-law-reform-miscellaneous-provisions-act-1967` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1967/26/eng@1996-12-31`); stored=`7ea6fef26662afe333f7f2d474a6904cfba9a13072b6ace6937ad0b7b24117aa` fetched=`f69df461d0a88f842a020d9617b3ca439cfccbd1eeed539b1442b958cbc6ca7d`; bytes=91551; verdict: dynamic-render churn, legal content unchanged.
+- `act-zm-1960-041-high-court-act` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1960/41/eng@2016-06-10`); stored=`72ab4169c9d40af72fc22ed32ded1e9727104b9326a9df9efdc92f4a6ea2b973` fetched=`dd1b90e75f0821a8b588b19aee9ea8985155c0cf4cb280d73ff2df40476ac8ae`; bytes=224911; verdict: dynamic-render churn, legal content unchanged.
+
+### Matches (4) — stable-PDF supercohort
+
+- `act-zm-2011-029-zambia-development-agency-amendment-act-2011` — host `www.parliament.gov.zm`, Act PDF — hash unchanged (`cd055b8b...`).
+- `act-zm-2007-021-anti-terrorism-act` — host `www.parliament.gov.zm`, Act PDF — hash unchanged (`edc9b28b...`).
+- `act-zm-2000-020-the-penal-code-amendment-act-no-20-of-2000` — host `www.parliament.gov.zm`, Act PDF — hash unchanged (`3e297e22...`).
+- `si-zm-2020-024-national-health-research-bio-banking-regulations-2020` — host `zambialii.org`, AKN `source.pdf` — hash unchanged (`fd2b7aa7...`).
+
+### Fetch error (1) — `zambialii_akn_url_date_variant_404`
+
+- `judgment-zm-2025-zmcc-14-the-people-v-john-sinkamba-and-ors` — host `zambialii.org`; stored `source_url` = `https://zambialii.org/akn/zm/judgment/zmcc/2025/14/eng@2025-07-25` → **HTTP 404 Not Found** (0 bytes; 0.915s). stored_sha256=`2d2e99f95bc0a3c81d2a274f3833798996d7d4dc23c567369dee28cf97eb6dbc`.
+
+  Reason: `zambialii_akn_url_date_variant_404` — the on-disk record's `date_decided` is `2025-07-25` and the stored AKN URL is the matching `…/14/eng@2025-07-25` variant. However, the **prior gaps.md deferral entries** for this same judgment (b0359/2026-04-29 and reconfirmed b0494/2026-05-03 under parser_v0.3.2) both record the canonical URL as `…/14/eng@2025-07-28`. This strongly suggests ZambiaLII has canonicalised the AKN URL to the `eng@2025-07-28` date variant and the `eng@2025-07-25` variant has been retired/removed. Sister record metadata (citation `[2025] ZMCC 14`, case `2025/CCZ/R001`, court CCZ, coram Munalula PC/Shilimi DPC/Musaluke JC + 2 JJC, date_decided `2025-07-25`) is unaffected and remains valid; this is a **canonical-URL date variant drift on ZambiaLII**, not a content takedown.
+
+  Per BRIEF non-negotiable #4 the on-disk record is NOT mutated by this tick. Remediation requires Peter-approved bounded probe to (a) confirm `…/14/eng@2025-07-28` is the new canonical URL (one-shot HTTP HEAD/GET), (b) recompute source_hash if it now matches what the prior gaps entry pinned, (c) update the record's `source_url` and `source_hash` accordingly. Until that approval, the record's `source_url` and `source_hash` remain unchanged on disk; this entry is the audit trail only.
+
+See `reports/batch-0700-reverify.json` for the full per-record breakdown and `reports/batch-0700.md` for the narrative report.
+
+## phase8_reverify_drift
+- batch: 0700
+- detected_at: 2026-05-18T12:33:57Z
+- cohort: zambialii_akn_html_dynamic_render_drift (×3), zambialii_akn_url_date_variant_404 (×1, new sub-cohort name; same root cause family as prior `canonical_url_date_unrecoverable` deferral_reasons_locked code)
+- pool_size: 1957
+- sample_size: 8
+- match: 4
+- drift: 3
+- fetch_error: 1
+- records_mutated: 0

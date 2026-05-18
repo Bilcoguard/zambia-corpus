@@ -8933,3 +8933,25 @@ test append Mon May 18 00:44:14 CAT 2026
 [2026-05-18T12:11:12Z] [b0698-phase8] B2_SYNC deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 [2026-05-18T12:11:12Z] [b0698-phase8] PHASE_STATE phase_8_nightly_reverify remains approved:true complete:false (recurring nightly sample; approvals.yaml NOT modified)
 [2026-05-18T12:11:12Z] [b0698-phase8] TICK_END records=1946 records_fts=1946 judgments_meta=253 quick_check=ok integrity_check=ok match=2 drift=6 fetch_error=0 next-tick=2026-05-18T12:41Z
+2026-05-18T12:15Z b0698-phase8 GIT_COMMIT sha=a383e19ae5947029653e8220e6927593da54d47a parent=bddf718aa3175f550ac3a17bf1f3ee8033dff210 tree=28013c1ba6fa637d706d043b8121b8b0c10be1d9 files=7 method=alt-index-write-tree+commit-tree+direct-ref-truncate-and-write reason=FUSE-EPERM-on-.git/index.lock+HEAD.lock+main.lock
+2026-05-18T12:15Z b0698-phase8 GIT_PUSH remote=origin branch=main from=bddf718 to=a383e19 result=OK
+[2026-05-18T14:08:00Z] [b0699-jiw] TICK_START worker=judgment-ingestion budget=500/day used-today=48 mode=priority-(a)-reparse-deferred
+[2026-05-18T14:08:00Z] [b0699-jiw] CANDIDATES 8 ZMCC 2024 (02,04,05,06,07,08,10,13) from b0696-jiw backlog
+[2026-05-18T14:18:00Z] [b0699-jiw] PARSE_COMPLETE records=8 deferred=0 net-fetches=0
+[2026-05-18T14:18:30Z] [b0699-jiw] REGISTRY_UPDATE Munalula PCC alias added (first_seen in [2024] ZMCC 5)
+[2026-05-18T14:18:45Z] [b0699-jiw] DB_INSERT records=8 records_fts=8 mode=in-place-mutation PRAGMA-journal=MEMORY snapshot=corpus.sqlite.bak.b0698-jiw-pre-20260518T121744Z
+[2026-05-18T14:19:00Z] [b0699-jiw] INTEGRITY_CHECKS 1=PASS 2=PASS 3=PASS 4=PASS 5=PASS 6=PASS 7=PASS* 8=PASS; *CHECK7 None-tuple carry-over from b0696-jiw (25 SCZ records pre-existing)
+[2026-05-18T14:19:10Z] [b0699-jiw] DB_STATE records=1954 records_fts=1954 quick_check=ok integrity_check=ok judgments_meta=261
+[2026-05-18T14:19:30Z] [b0699-jiw] B2_SYNC deferred-to-host-rclone-not-in-sandbox
+[2026-05-18T14:20:00Z] [b0699-jiw] TICK_END outcome=COMMIT-normal-path elapsed=~20min next-tick=2026-05-18T15:20Z worker=judgment-ingestion
+[2026-05-18T12:33:29Z] [b0700-phase8] TICK_START phase=phase_8_nightly_reverify approvals.yaml=approved:true,complete:false sample_rate=0.01 pool=1957 sample=8 seed=phase8-reverify-2026-05-18-b0700
+[2026-05-18T12:33:57Z] [b0700-phase8] FETCH_OUTCOMES match=4 drift=3 fetch_error=1; HTTP 200×7, HTTP 404×1; zambialii.org availability stable
+[2026-05-18T12:33:57Z] [b0700-phase8] DRIFT_COHORT_TAG all 3 drifts classified zambialii_akn_html_dynamic_render_drift (same long-running cohort as b0641..b0698)
+[2026-05-18T12:33:57Z] [b0700-phase8] FETCH_ERROR_COHORT_TAG 1 fetch_error: judgment-zm-2025-zmcc-14 — cohort=zambialii_akn_url_date_variant_404 (stored eng@2025-07-25 returns 404; prior gaps.md entries reference canonical eng@2025-07-28)
+[2026-05-18T12:33:57Z] [b0700-phase8] INTEGRITY_CHECKS 1=PASS 2=PASS 3=PASS 4=PASS 5=PASS 6=PASS 7=PASS 8=PASS 9=PASS; all 9 checks PASS
+[2026-05-18T12:33:57Z] [b0700-phase8] NO_RECORD_MUTATION script is read-only by design; BRIEF non-negotiable #4 honoured
+[2026-05-18T12:33:57Z] [b0700-phase8] GAPS_APPEND b0700-phase8 section appended to gaps.md (drifts:3, matches:4, fetch_error:1); audit-only entry
+[2026-05-18T12:33:57Z] [b0700-phase8] REPORT_WRITE reports/batch-0700.md + reports/batch-0700-reverify.json
+[2026-05-18T12:33:57Z] [b0700-phase8] B2_SYNC deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+[2026-05-18T12:33:57Z] [b0700-phase8] PHASE_STATE phase_8_nightly_reverify remains approved:true complete:false (recurring nightly sample; approvals.yaml NOT modified)
+[2026-05-18T12:33:57Z] [b0700-phase8] TICK_END records=1954 records_fts=1954 quick_check=ok integrity_check=ok match=4 drift=3 fetch_error=1 next-tick=2026-05-18T13:03Z

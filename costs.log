@@ -6482,3 +6482,23 @@ b0698	2026-05-18T12:11:40Z	fetch_pdf	bytes=26646	sec=0.35
 2026-05-18T12:11:12Z	b0698-phase8	WALL_CLOCK	started=2026-05-18T12:10:38Z	completed=2026-05-18T12:11:12Z	elapsed=34s	budget=20min	headroom=~19m26s
 2026-05-18T12:11:12Z	b0698-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 2026-05-18T12:11:12Z	b0698-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1946	records_fts=1946	dup_ids=0	tick-verdict=COMMIT-normal-path
+2026-05-18T14:20:00Z	b0699-jiw	NETWORK_FETCHES	count=0	hosts=none	mode=priority-(a)-reparse-deferred
+2026-05-18T14:20:00Z	b0699-jiw	BANDWIDTH	total_bytes=0	avg_kb=0	largest=none
+2026-05-18T14:20:00Z	b0699-jiw	WALL_CLOCK	started=2026-05-18T14:00:00Z	completed=2026-05-18T14:20:00Z	elapsed=20min	budget=20min	headroom=0min
+2026-05-18T14:20:00Z	b0699-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox
+2026-05-18T14:20:00Z	b0699-jiw	INTEGRITY	all-checks=PASS	quick_check=ok	records=1954	records_fts=1954	judgments_meta=261	dup_ids=0	tick-verdict=COMMIT-normal-path
+2026-05-18T14:20:00Z	b0699-jiw	DAILY_TOTALS	jiw-fetches-today=48	jiw-budget=500	jiw-headroom=452	main-worker-budget-separate
+b0700	2026-05-18T12:33:30Z	fetch_pdf	bytes=13570	sec=0.31
+b0700	2026-05-18T12:33:32Z	fetch_html	bytes=41571	sec=1.17
+b0700	2026-05-18T12:33:34Z	fetch_pdf	bytes=1460166	sec=1.99
+b0700	2026-05-18T12:33:38Z	fetch_html	bytes=91551	sec=1.35
+b0700	2026-05-18T12:33:40Z	fetch_pdf	bytes=738546	sec=1.97
+b0700	2026-05-18T12:33:44Z	fetch_pdf	bytes=155063	sec=1.12
+b0700	2026-05-18T12:33:51Z	fetch_html	bytes=224911	sec=1.84
+b0700	2026-05-18T12:33:57Z	fetch_html	bytes=0	sec=0.92	http=404
+2026-05-18T12:33:57Z	b0700-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=~145/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1957	sample_size=8
+2026-05-18T12:33:57Z	b0700-phase8	NETWORK_FETCHES	count=8	hosts=www.parliament.gov.zm:3,zambialii.org:5	http=200x7,404x1
+2026-05-18T12:33:57Z	b0700-phase8	BANDWIDTH	total_bytes=2725378	avg_kb=332.7	largest=act-zm-2007-021-anti-terrorism-act(1460166B,parliament-gov-zm-Act-PDF)
+2026-05-18T12:33:57Z	b0700-phase8	WALL_CLOCK	started=2026-05-18T12:33:29Z	completed=2026-05-18T12:33:57Z	elapsed=28s	budget=20min	headroom=~19m32s
+2026-05-18T12:33:57Z	b0700-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-18T12:33:57Z	b0700-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1954	records_fts=1954	dup_ids=0	tick-verdict=COMMIT-normal-path
