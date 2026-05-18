@@ -1,0 +1,51 @@
+{
+  "batch": "b0697",
+  "parser": "repair-0.6.97",
+  "identified_no_body": 65,
+  "identified_corrupted": 0,
+  "identified_stub": 0,
+  "dedup_targets": 65,
+  "repaired": 8,
+  "failed": 0,
+  "remaining": 57,
+  "records": 1946,
+  "records_fts": 1946,
+  "integrity_match": true,
+  "quick_check": "ok",
+  "elapsed_sec": 22.2,
+  "repaired_ids": [
+    [
+      "si-zm-2021-068-electoral-process-local-government-elections-election-date-and-time-of-poll-no-2-order-2021",
+      "len=1931"
+    ],
+    [
+      "si-zm-2021-069-public-holidays-declaration-notice-2021",
+      "len=993"
+    ],
+    [
+      "si-zm-2021-071-public-holidays-declaration-no-2-notice-2021",
+      "len=845"
+    ],
+    [
+      "si-zm-2021-072-public-holidays-declaration-no-3-notice-2021",
+      "len=943"
+    ],
+    [
+      "si-zm-2021-073-public-holidays-declaration-no-4-notice-2021",
+      "len=880"
+    ],
+    [
+      "si-zm-2021-074-national-assembly-kaumbwe-constituency-no-50-election-date-and-time-of-poll-order-2021",
+      "len=2143"
+    ],
+    [
+      "si-zm-2021-075-electoral-process-local-government-elections-election-date-and-time-of-poll-order-2021",
+      "len=2040"
+    ],
+    [
+      "si-zm-2021-087-national-assembly-by-election-kabwata-constituency-no-77-election-date-and-time-of-poll-no-3-order-2021",
+      "len=2289"
+    ]
+  ],
+  "failed_ids": []
+}
