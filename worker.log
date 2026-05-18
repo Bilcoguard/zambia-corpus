@@ -9076,3 +9076,39 @@ remote: error: File corpus.sqlite is 1
 [2026-05-18T14:12:00Z] [b0704-phase8] DIAGNOSTIC see error-reports/2026-05-18T141200Z-b0704-phase8-commit-deferred-upstream-118mb-blob.md for full remediation options (Option A: git filter-repo strip blob; Option B: reset + re-apply; Option C: defer)
 [2026-05-18T14:12:00Z] [b0704-phase8] TICK_END verdict=COMMIT-DEFERRED-PENDING-HUMAN-RECONCILIATION work-preserved=yes records_mutated=0 corpus_sqlite_touched=no approvals_yaml_touched=no
 [2026-05-18T14:14:34Z] [b0703-jiw] RECOMMIT origin/main moved forward; rebuilding commit on top of 525d48c to exclude corpus.sqlite (>100MB GH limit)
+[2026-05-18T14:14:37Z] [b0703-jiw] GIT_COMMIT sha=579b1206454254b0681587cd7607c9ab81fb5990 parent=525d48c71f95b525e08c7c4e642e27b62e19ce10 tree=aba783c08a21246238d78de8adc96963facf32eb files=6 method=alt-index-read-tree-origin/main+write-tree+commit-tree+direct-ref-write reason=corpus-sqlite-exceeds-GH-limit+abandon-local-divergent-0b59638-commit
+[2026-05-18T14:14:37Z] [b0703-jiw] GIT_PUSH outcome=OK rc=0
+[2026-05-18T14:36:15Z] r-20260518T143615Z === TICK START r-20260518T143615Z cwd=/sessions/youthful-fervent-lovelace/mnt/corpus ===
+[2026-05-18T14:36:17Z] r-20260518T143615Z git pull rc=0 stdout=Already up to date. stderr=warning: unable to unlink '/sessions/youthful-fervent-lovelace/mnt/corpus/.git/objects/maintenance.lock': Operation not permitted
+warning: unable to unlink '/sessions/youthful-fervent-lovelace/mnt/cor
+[2026-05-18T14:36:17Z] r-20260518T143615Z Condition B (no-body acts/sis): 33
+[2026-05-18T14:36:17Z] r-20260518T143615Z Condition A (corrupted line-numbers-only): 0
+[2026-05-18T14:36:17Z] r-20260518T143615Z Condition C (stub bodies): 0
+[2026-05-18T14:36:17Z] r-20260518T143615Z Total dedup targets: 33; MAX_BATCH=8
+[2026-05-18T14:36:17Z] r-20260518T143615Z REPAIR start id=si-zm-2022-056-zambia-development-agency-kalumbila-multi-facility-economic-zone-declaration-order-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/56
+[2026-05-18T14:36:21Z] r-20260518T143615Z REPAIR ok id=si-zm-2022-056-zambia-development-agency-kalumbila-multi-facility-economic-zone-declaration-order-2022 body_len=5576 hash=6979db112685
+[2026-05-18T14:36:22Z] r-20260518T143615Z REPAIR start id=si-zm-2022-057-urban-and-regional-planning-designated-local-planning-authorities-regulations-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/57
+[2026-05-18T14:36:26Z] r-20260518T143615Z REPAIR ok id=si-zm-2022-057-urban-and-regional-planning-designated-local-planning-authorities-regulations-2022 body_len=1076 hash=a87d2750d89d
+[2026-05-18T14:36:27Z] r-20260518T143615Z REPAIR start id=si-zm-2022-058-zambezi-river-authority-terms-and-conditions-of-service-amendment-by-laws-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/58
+[2026-05-18T14:36:30Z] r-20260518T143615Z REPAIR ok id=si-zm-2022-058-zambezi-river-authority-terms-and-conditions-of-service-amendment-by-laws-2022 body_len=1473 hash=13225e716dc4
+[2026-05-18T14:36:31Z] r-20260518T143615Z REPAIR start id=si-zm-2022-060-urban-and-regional-planning-designated-local-planning-authorities-regulations-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/60
+[2026-05-18T14:36:34Z] r-20260518T143615Z REPAIR ok id=si-zm-2022-060-urban-and-regional-planning-designated-local-planning-authorities-regulations-2022 body_len=1086 hash=d437db05f3e0
+[2026-05-18T14:36:35Z] r-20260518T143615Z REPAIR start id=si-zm-2022-061-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/61
+[2026-05-18T14:36:38Z] r-20260518T143615Z REPAIR ok id=si-zm-2022-061-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2022 body_len=2412 hash=109de1f2b76c
+[2026-05-18T14:36:39Z] r-20260518T143615Z REPAIR start id=si-zm-2022-062-customs-and-excise-suspension-fuel-no-8-regulations-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/62
+[2026-05-18T14:36:43Z] r-20260518T143615Z REPAIR ok id=si-zm-2022-062-customs-and-excise-suspension-fuel-no-8-regulations-2022 body_len=1437 hash=f1e155ea5eac
+[2026-05-18T14:36:44Z] r-20260518T143615Z REPAIR start id=si-zm-2022-063-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/63
+[2026-05-18T14:36:47Z] r-20260518T143615Z REPAIR ok id=si-zm-2022-063-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022 body_len=1909 hash=28f0b2f84933
+[2026-05-18T14:36:48Z] r-20260518T143615Z REPAIR start id=si-zm-2022-064-national-assembly-by-elections-kabushi-constituency-no-36-and-kwacha-constituency-no-22-election-date-and-time-of-poll-n type=si url=https://zambialii.org/akn/zm/act/si/2022/64
+[2026-05-18T14:36:49Z] [b0705-phase8-recover] TICK_START worker=phase8-recover session=blissful-gracious-cannon model=opus-4-7 tick_id=b0705-phase8-recover purpose=commit-stranded-b0704-phase8-work-products
+[2026-05-18T14:36:49Z] [b0705-phase8-recover] GIT_PULL rc=0 out='Already up to date.' note=upstream-block-resolved-by-b0703-jiw-at-579b120
+[2026-05-18T14:36:49Z] [b0705-phase8-recover] PHASE_DETECTED phase=phase_8_nightly_reverify approved=true complete=false sample_rate=0.01
+[2026-05-18T14:36:49Z] [b0705-phase8-recover] BUDGET_CHECK fetches_today=~153/2000 tokens_today=0/1000000 status=OK
+[2026-05-18T14:36:49Z] [b0705-phase8-recover] RECOVERY_PLAN action=commit-stranded-files files=4 list='scripts/batch_0704_phase8_reverify.py,reports/batch-0704.md,reports/batch-0704-reverify.json,error-reports/2026-05-18T141200Z-b0704-phase8-commit-deferred-upstream-118mb-blob.md' note=zero-new-fetches-zero-corpus-mutation
+[2026-05-18T14:36:49Z] [b0705-phase8-recover] INTEGRITY_PRE check1_json_valid=PASS check2_py_compiles=PASS check3_corpus_quickcheck=ok records=1957 records_fts=1957 dup_ids=0 check4_approvals_corpussqlite_clean=PASS check5_records_content_hashes_match_HEAD=PASS check6_b0704_log_entries_already_in_HEAD=PASS
+[2026-05-18T14:36:49Z] [b0705-phase8-recover] COMMIT_METHOD alt-index-read-tree-HEAD+update-index--add-new-files+write-tree+commit-tree+direct-ref-write reason=index.lock-permission-denied-in-sandbox-(same-as-b0703-jiw-recommit-method)
+[2026-05-18T14:36:50Z] r-20260518T143615Z REPAIR ok id=si-zm-2022-064-national-assembly-by-elections-kabushi-constituency-no-36-and-kwacha-constituency-no-22-election-date-and-time-of-poll-n body_len=2134 hash=e7b6fa0db3b6
+[2026-05-18T14:36:51Z] r-20260518T143615Z INTEGRITY records=1957 records_fts=1957 match=True
+[2026-05-18T14:36:52Z] r-20260518T143615Z PRAGMA quick_check: ok
+[2026-05-18T14:36:52Z] r-20260518T143615Z rclone not available — B2 sync deferred to host
+[2026-05-18T14:36:52Z] r-20260518T143615Z COMMIT parent=579b12064542

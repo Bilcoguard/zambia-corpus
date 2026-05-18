@@ -1,0 +1,52 @@
+{
+  "batch": "r-20260518T143615Z",
+  "parser": "repair-0.6.104",
+  "started_utc": "2026-05-18T14:36:15Z",
+  "elapsed_sec": 36.6,
+  "identified_no_body": 33,
+  "identified_corrupted": 0,
+  "identified_stub": 0,
+  "dedup_targets": 33,
+  "repaired_count": 8,
+  "failed_count": 0,
+  "remaining_after_tick": 25,
+  "records": 1957,
+  "records_fts": 1957,
+  "integrity_match": true,
+  "quick_check": "ok",
+  "repaired": [
+    [
+      "si-zm-2022-056-zambia-development-agency-kalumbila-multi-facility-economic-zone-declaration-order-2022",
+      "len=5576"
+    ],
+    [
+      "si-zm-2022-057-urban-and-regional-planning-designated-local-planning-authorities-regulations-2022",
+      "len=1076"
+    ],
+    [
+      "si-zm-2022-058-zambezi-river-authority-terms-and-conditions-of-service-amendment-by-laws-2022",
+      "len=1473"
+    ],
+    [
+      "si-zm-2022-060-urban-and-regional-planning-designated-local-planning-authorities-regulations-2022",
+      "len=1086"
+    ],
+    [
+      "si-zm-2022-061-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2022",
+      "len=2412"
+    ],
+    [
+      "si-zm-2022-062-customs-and-excise-suspension-fuel-no-8-regulations-2022",
+      "len=1437"
+    ],
+    [
+      "si-zm-2022-063-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022",
+      "len=1909"
+    ],
+    [
+      "si-zm-2022-064-national-assembly-by-elections-kabushi-constituency-no-36-and-kwacha-constituency-no-22-election-date-and-time-of-poll-n",
+      "len=2134"
+    ]
+  ],
+  "failed": []
+}
