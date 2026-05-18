@@ -8680,3 +8680,102 @@ test append Mon May 18 00:44:14 CAT 2026
 [2026-05-18T02:13:41Z] [b0692] B2 sync deferred to host (rclone unavailable in sandbox; no corpus mutation anyway)
 [2026-05-18T02:13:41Z] [b0692] reports/repair-batch-b0692.md WROTE; summary: repaired=0 failed=0 deferred=81 remaining=81 elapsed=~30s consecutive-blocked-ticks=2 escalation-threshold=3
 [2026-05-18T02:13:41Z] [b0692] FINAL verdict=tick-complete-no-mutation reason=upstream-zambialii-500-outage-persists records=1936 records_fts=1936 next=retry-next-tick;-if-still-500-trigger-maintainer-escalation
+[2026-05-18T09:28:16Z] b0694 Identified 81 no-body acts/sis (Condition B)
+[2026-05-18T09:28:16Z] b0694 Condition A (corrupted): 0
+[2026-05-18T09:28:16Z] b0694 Condition C (stubs): 0
+[2026-05-18T09:28:16Z] b0694 Total dedup targets: 81; picking up to 8
+[2026-05-18T09:28:16Z] b0694 REPAIR start id=si-zm-2021-024-electricity-common-carrier-declaration-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/24
+[2026-05-18T09:28:18Z] b0694 REPAIR exception id=si-zm-2021-024-electricity-common-carrier-declaration-regulations-2021: table records_fts has no column named case_name
+[2026-05-18T09:28:19Z] b0694 REPAIR start id=si-zm-2021-025-animal-health-destruction-of-pigs-compensation-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/25
+[2026-05-18T09:28:21Z] b0694 REPAIR exception id=si-zm-2021-025-animal-health-destruction-of-pigs-compensation-order-2021: table records_fts has no column named case_name
+[2026-05-18T09:28:22Z] b0694 REPAIR start id=si-zm-2021-035-citizens-economic-empowerment-transportation-of-heavy-and-bulk-commodities-by-road-reservation-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/35
+[2026-05-18T09:28:23Z] b0694 REPAIR exception id=si-zm-2021-035-citizens-economic-empowerment-transportation-of-heavy-and-bulk-commodities-by-road-reservation-regulations-2021: table records_fts has no column named case_name
+[2026-05-18T09:28:24Z] b0694 REPAIR start id=si-zm-2021-037-zambia-medicines-and-medical-supplies-agency-re-engagement-of-staff-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/37
+[2026-05-18T09:28:26Z] b0694 REPAIR exception id=si-zm-2021-037-zambia-medicines-and-medical-supplies-agency-re-engagement-of-staff-regulations-2021: table records_fts has no column named case_name
+[2026-05-18T09:28:27Z] b0694 REPAIR start id=si-zm-2021-040-electoral-process-general-election-election-date-and-time-of-poll-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/40
+[2026-05-18T09:28:29Z] b0694 REPAIR exception id=si-zm-2021-040-electoral-process-general-election-election-date-and-time-of-poll-order-2021: table records_fts has no column named case_name
+[2026-05-18T09:28:30Z] b0694 REPAIR start id=si-zm-2021-049-zambia-institute-of-advanced-legal-education-students-rules-2021 url=https://zambialii.org/akn/zm/act/si/2021/49
+[2026-05-18T09:28:32Z] b0694 REPAIR exception id=si-zm-2021-049-zambia-institute-of-advanced-legal-education-students-rules-2021: table records_fts has no column named case_name
+[2026-05-18T09:28:33Z] b0694 REPAIR start id=si-zm-2021-052-cyber-security-and-cyber-crimes-national-cyber-security-advisory-and-coordination-council-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/52
+[2026-05-18T09:28:35Z] b0694 REPAIR exception id=si-zm-2021-052-cyber-security-and-cyber-crimes-national-cyber-security-advisory-and-coordination-council-regulations-2021: table records_fts has no column named case_name
+[2026-05-18T09:28:36Z] b0694 REPAIR start id=si-zm-2021-055-metrology-measuring-instruments-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/55
+[2026-05-18T09:28:39Z] b0694 REPAIR exception id=si-zm-2021-055-metrology-measuring-instruments-regulations-2021: table records_fts has no column named case_name
+[2026-05-18T09:28:40Z] b0694 INTEGRITY records=1936 records_fts=1936 match=True
+[2026-05-18T09:28:40Z] b0694 PRAGMA quick_check: ok
+[2026-05-18T09:29:22Z] b0694 Identified 81 no-body acts/sis (Condition B)
+[2026-05-18T09:29:22Z] b0694 Condition A (corrupted): 0
+[2026-05-18T09:29:23Z] b0694 Condition C (stubs): 0
+[2026-05-18T09:29:23Z] b0694 Total dedup targets: 81; picking up to 8
+[2026-05-18T09:29:23Z] b0694 REPAIR start id=si-zm-2021-024-electricity-common-carrier-declaration-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/24
+[2026-05-18T09:29:25Z] b0694 REPAIR exception id=si-zm-2021-024-electricity-common-carrier-declaration-regulations-2021: disk I/O error
+[2026-05-18T09:29:26Z] b0694 REPAIR start id=si-zm-2021-025-animal-health-destruction-of-pigs-compensation-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/25
+[2026-05-18T09:29:27Z] b0694 REPAIR exception id=si-zm-2021-025-animal-health-destruction-of-pigs-compensation-order-2021: disk I/O error
+[2026-05-18T09:29:28Z] b0694 REPAIR start id=si-zm-2021-035-citizens-economic-empowerment-transportation-of-heavy-and-bulk-commodities-by-road-reservation-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/35
+[2026-05-18T09:29:30Z] b0694 REPAIR exception id=si-zm-2021-035-citizens-economic-empowerment-transportation-of-heavy-and-bulk-commodities-by-road-reservation-regulations-2021: disk I/O error
+[2026-05-18T09:29:31Z] b0694 REPAIR start id=si-zm-2021-037-zambia-medicines-and-medical-supplies-agency-re-engagement-of-staff-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/37
+[2026-05-18T09:29:32Z] b0694 REPAIR exception id=si-zm-2021-037-zambia-medicines-and-medical-supplies-agency-re-engagement-of-staff-regulations-2021: disk I/O error
+[2026-05-18T09:29:33Z] b0694 REPAIR start id=si-zm-2021-040-electoral-process-general-election-election-date-and-time-of-poll-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/40
+[2026-05-18T09:29:35Z] b0694 REPAIR exception id=si-zm-2021-040-electoral-process-general-election-election-date-and-time-of-poll-order-2021: disk I/O error
+[2026-05-18T09:29:36Z] b0694 REPAIR start id=si-zm-2021-049-zambia-institute-of-advanced-legal-education-students-rules-2021 url=https://zambialii.org/akn/zm/act/si/2021/49
+[2026-05-18T09:29:39Z] b0694 REPAIR exception id=si-zm-2021-049-zambia-institute-of-advanced-legal-education-students-rules-2021: disk I/O error
+[2026-05-18T09:29:40Z] b0694 REPAIR start id=si-zm-2021-052-cyber-security-and-cyber-crimes-national-cyber-security-advisory-and-coordination-council-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/52
+[2026-05-18T09:29:42Z] b0694 REPAIR exception id=si-zm-2021-052-cyber-security-and-cyber-crimes-national-cyber-security-advisory-and-coordination-council-regulations-2021: disk I/O error
+[2026-05-18T09:29:43Z] b0694 REPAIR start id=si-zm-2021-055-metrology-measuring-instruments-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/55
+[2026-05-18T09:29:45Z] b0694 REPAIR exception id=si-zm-2021-055-metrology-measuring-instruments-regulations-2021: disk I/O error
+2026-05-18T04:14:00Z	b0693-jiw	BEGIN	tick-type=judgment-ingestion-worker	mode=probe-only-no-db-mutation	rationale=insufficient-headroom-for-hand-curation-after-state-discovery
+2026-05-18T04:14:30Z	b0693-jiw	PRECOND	git-pull-ff-only=already-up-to-date	corpus.sqlite-quick_check=ok	records=1936	records_fts=1936	parity=OK	costs.log-today=36
+2026-05-18T04:15:00Z	b0693-jiw	UPSTREAM-PROBE	zambialii.org/=200(1.24s)	judiciary-CoA=200(2.58s,179KB)	judiciary-SCZ=200(2.41s,180KB)	judiciary-ZMCC=200(2.51s,183KB)	verdict=all-sources-reachable	zambialii-500-outage-from-b0691/b0692-CLEARED
+2026-05-18T04:18:00Z	b0693-jiw	INVENTORY	CoA-page1-posts=9	already-known=6	NEW=3(josias-mtonga-app-110-2024;skab-merchants-app-344-2023;tulambo-kumwenda-app-47-2025)
+2026-05-18T04:19:00Z	b0693-jiw	INVENTORY	ZMCC-page1-judgment-posts=14	flagged-NEW-by-url=14	expected-dedup-on-case-number=~6	net-genuine-novelty~=7-8
+2026-05-18T04:20:00Z	b0693-jiw	INVENTORY	SCZ-page1-judgment-posts=15	flagged-NEW-by-url=14	one-fuzzy-match(konkola-v-ag)	net-genuine-novelty~=10
+2026-05-18T04:22:00Z	b0693-jiw	REPORT	reports/jiw-batch-b0693.md	WROTE
+2026-05-18T04:23:00Z	b0693-jiw	GAPS	gaps.md	appended-b0693-section-and-updated-sweep-cursors
+2026-05-18T04:23:30Z	b0693-jiw	INTEGRITY	CHECK8=PASS	records=1936==records_fts=1936	quick_check=ok	(no-mutation-this-tick)
+2026-05-18T04:24:00Z	b0693-jiw	B2-SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
+2026-05-18T04:24:00Z	b0693-jiw	FINAL	verdict=PROBE-ONLY-NO-COMMIT-MUTATION	inserted=0	deferred=0	fetches=4/500-day-budget	wall-clock~=10min	next-priority=b0694-resume-ZMCC-2025-reparse-backlog-14/15/16/17
+[2026-05-18T04:31:00Z] [b0693-jiw] GIT_COMMIT_DEFERRED reason=FUSE-EPERM-on-.git/index.lock-prevents-commit-this-session (established sandbox pattern b0676..b0688). Files were successfully `git add`'d (staged: costs.log, gaps.md, worker.log, reports/jiw-batch-b0693.md) but `git commit` blocked by EPERM on stale .git/index.lock that cannot be unlinked from sandbox. Next tick will see uncommitted-but-staged changes and bundle into its own first commit (same recovery pathway as b0687→b0688). No data loss: all artifacts persist in working tree on FUSE-bind-mounted volume.
+[2026-05-18T04:31:30Z] [b0693-jiw] FINAL_TRAILER verdict=tick-complete-no-mutation-no-commit-this-session next-tick-must-bundle-staged-files records=1936 records_fts=1936 fetch-cost=4/500-day-budget
+[2026-05-18T09:32:58Z] b0694 Identified 81 no-body acts/sis (Condition B)
+[2026-05-18T09:32:58Z] b0694 Condition A (corrupted): 0
+[2026-05-18T09:32:58Z] b0694 Condition C (stubs): 0
+[2026-05-18T09:32:58Z] b0694 Total dedup targets: 81; picking up to 8
+[2026-05-18T09:32:58Z] b0694 REPAIR start id=si-zm-2021-024-electricity-common-carrier-declaration-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/24
+[2026-05-18T09:33:00Z] b0694 REPAIR exception id=si-zm-2021-024-electricity-common-carrier-declaration-regulations-2021: disk I/O error
+[2026-05-18T09:33:01Z] b0694 REPAIR start id=si-zm-2021-025-animal-health-destruction-of-pigs-compensation-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/25
+[2026-05-18T09:33:03Z] b0694 REPAIR exception id=si-zm-2021-025-animal-health-destruction-of-pigs-compensation-order-2021: disk I/O error
+[2026-05-18T09:33:04Z] b0694 REPAIR start id=si-zm-2021-035-citizens-economic-empowerment-transportation-of-heavy-and-bulk-commodities-by-road-reservation-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/35
+[2026-05-18T09:33:05Z] b0694 REPAIR exception id=si-zm-2021-035-citizens-economic-empowerment-transportation-of-heavy-and-bulk-commodities-by-road-reservation-regulations-2021: disk I/O error
+[2026-05-18T09:33:06Z] b0694 REPAIR start id=si-zm-2021-037-zambia-medicines-and-medical-supplies-agency-re-engagement-of-staff-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/37
+[2026-05-18T09:33:08Z] b0694 REPAIR exception id=si-zm-2021-037-zambia-medicines-and-medical-supplies-agency-re-engagement-of-staff-regulations-2021: disk I/O error
+[2026-05-18T09:33:09Z] b0694 REPAIR start id=si-zm-2021-040-electoral-process-general-election-election-date-and-time-of-poll-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/40
+[2026-05-18T09:33:10Z] b0694 REPAIR exception id=si-zm-2021-040-electoral-process-general-election-election-date-and-time-of-poll-order-2021: disk I/O error
+[2026-05-18T09:33:11Z] b0694 REPAIR start id=si-zm-2021-049-zambia-institute-of-advanced-legal-education-students-rules-2021 url=https://zambialii.org/akn/zm/act/si/2021/49
+[2026-05-18T09:33:14Z] b0694 REPAIR exception id=si-zm-2021-049-zambia-institute-of-advanced-legal-education-students-rules-2021: disk I/O error
+[2026-05-18T09:33:15Z] b0694 REPAIR start id=si-zm-2021-052-cyber-security-and-cyber-crimes-national-cyber-security-advisory-and-coordination-council-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/52
+[2026-05-18T09:33:17Z] b0694 REPAIR exception id=si-zm-2021-052-cyber-security-and-cyber-crimes-national-cyber-security-advisory-and-coordination-council-regulations-2021: disk I/O error
+[2026-05-18T09:33:18Z] b0694 REPAIR start id=si-zm-2021-055-metrology-measuring-instruments-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/55
+[2026-05-18T09:33:21Z] b0694 REPAIR exception id=si-zm-2021-055-metrology-measuring-instruments-regulations-2021: disk I/O error
+[2026-05-18T09:34:22Z] b0694 Identified 81 no-body acts/sis (Condition B)
+[2026-05-18T09:34:22Z] b0694 Condition A (corrupted): 0
+[2026-05-18T09:34:22Z] b0694 Condition C (stubs): 0
+[2026-05-18T09:34:22Z] b0694 Total dedup targets: 81; picking up to 8
+[2026-05-18T09:34:22Z] b0694 REPAIR start id=si-zm-2021-024-electricity-common-carrier-declaration-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/24
+[2026-05-18T09:34:24Z] b0694 REPAIR ok id=si-zm-2021-024-electricity-common-carrier-declaration-regulations-2021 body_len=4601 hash=30053f230782
+[2026-05-18T09:34:25Z] b0694 REPAIR start id=si-zm-2021-025-animal-health-destruction-of-pigs-compensation-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/25
+[2026-05-18T09:34:27Z] b0694 REPAIR ok id=si-zm-2021-025-animal-health-destruction-of-pigs-compensation-order-2021 body_len=4277 hash=e3fdff410920
+[2026-05-18T09:34:28Z] b0694 REPAIR start id=si-zm-2021-035-citizens-economic-empowerment-transportation-of-heavy-and-bulk-commodities-by-road-reservation-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/35
+[2026-05-18T09:34:29Z] b0694 REPAIR ok id=si-zm-2021-035-citizens-economic-empowerment-transportation-of-heavy-and-bulk-commodities-by-road-reservation-regulations-2021 body_len=4922 hash=bbcce4982b7d
+[2026-05-18T09:34:30Z] b0694 REPAIR start id=si-zm-2021-037-zambia-medicines-and-medical-supplies-agency-re-engagement-of-staff-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/37
+[2026-05-18T09:34:32Z] b0694 REPAIR ok id=si-zm-2021-037-zambia-medicines-and-medical-supplies-agency-re-engagement-of-staff-regulations-2021 body_len=1643 hash=2b48b252e23b
+[2026-05-18T09:34:33Z] b0694 REPAIR start id=si-zm-2021-040-electoral-process-general-election-election-date-and-time-of-poll-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/40
+[2026-05-18T09:34:34Z] b0694 REPAIR ok id=si-zm-2021-040-electoral-process-general-election-election-date-and-time-of-poll-order-2021 body_len=2355 hash=d02edf9ac3ea
+[2026-05-18T09:34:35Z] b0694 REPAIR start id=si-zm-2021-049-zambia-institute-of-advanced-legal-education-students-rules-2021 url=https://zambialii.org/akn/zm/act/si/2021/49
+[2026-05-18T09:34:38Z] b0694 REPAIR ok id=si-zm-2021-049-zambia-institute-of-advanced-legal-education-students-rules-2021 body_len=44932 hash=31391bf6c933
+[2026-05-18T09:34:39Z] b0694 REPAIR start id=si-zm-2021-052-cyber-security-and-cyber-crimes-national-cyber-security-advisory-and-coordination-council-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/52
+[2026-05-18T09:34:41Z] b0694 REPAIR ok id=si-zm-2021-052-cyber-security-and-cyber-crimes-national-cyber-security-advisory-and-coordination-council-regulations-2021 body_len=8737 hash=e85ed2939b63
+[2026-05-18T09:34:42Z] b0694 REPAIR start id=si-zm-2021-055-metrology-measuring-instruments-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/55
+[2026-05-18T09:34:44Z] b0694 REPAIR ok id=si-zm-2021-055-metrology-measuring-instruments-regulations-2021 body_len=68365 hash=3e4f8e219e04
+[2026-05-18T09:34:45Z] b0694 INTEGRITY records=1936 records_fts=1936 match=True
+[2026-05-18T09:34:45Z] b0694 PRAGMA quick_check: ok
+[2026-05-18T09:36:13Z] b0694 B2 sync deferred to host (rclone not available in sandbox)
+[2026-05-18T09:36:13Z] b0694 COMPLETE 8 SIs repaired, integrity ok, 73 remaining

@@ -6343,3 +6343,73 @@ b0664,2026-05-15T09:13:53Z,repair,zambialii,8,0,~44
 2026-05-18T02:13:41Z	b0692	REPAIR	attempted=0	repaired=0	deferred=81	failure_class=upstream_500_outage_continues_from_b0691	consecutive_blocked_ticks=2
 2026-05-18T02:13:41Z	b0692	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
 2026-05-18T02:13:41Z	b0692	INTEGRITY	records=1936	records_fts=1936	quick_check=ok	tick-verdict=NO-MUTATION-COMMIT-logs-only
+b0694	2026-05-18T09:28:17Z	fetch_html	bytes=40502	sec=1.18
+b0694	2026-05-18T09:28:18Z	fetch_pdf	bytes=29041	sec=0.94
+b0694	2026-05-18T09:28:20Z	fetch_html	bytes=38611	sec=0.90
+b0694	2026-05-18T09:28:21Z	fetch_pdf	bytes=23725	sec=0.58
+b0694	2026-05-18T09:28:23Z	fetch_html	bytes=39403	sec=0.98
+b0694	2026-05-18T09:28:23Z	fetch_pdf	bytes=18542	sec=0.51
+b0694	2026-05-18T09:28:25Z	fetch_html	bytes=39244	sec=0.96
+b0694	2026-05-18T09:28:26Z	fetch_pdf	bytes=22784	sec=0.53
+b0694	2026-05-18T09:28:28Z	fetch_html	bytes=39976	sec=1.03
+b0694	2026-05-18T09:28:28Z	fetch_pdf	bytes=24191	sec=0.59
+b0694	2026-05-18T09:28:31Z	fetch_html	bytes=40228	sec=0.95
+b0694	2026-05-18T09:28:31Z	fetch_pdf	bytes=1575778	sec=0.62
+b0694	2026-05-18T09:28:34Z	fetch_html	bytes=39351	sec=0.94
+b0694	2026-05-18T09:28:35Z	fetch_pdf	bytes=368464	sec=0.56
+b0694	2026-05-18T09:28:37Z	fetch_html	bytes=38837	sec=1.02
+b0694	2026-05-18T09:28:37Z	fetch_pdf	bytes=177372	sec=0.31
+b0694	2026-05-18T09:29:24Z	fetch_html	bytes=40502	sec=1.36
+b0694	2026-05-18T09:29:25Z	fetch_pdf	bytes=29041	sec=0.80
+b0694	2026-05-18T09:29:27Z	fetch_html	bytes=38611	sec=0.73
+b0694	2026-05-18T09:29:27Z	fetch_pdf	bytes=23725	sec=0.62
+b0694	2026-05-18T09:29:29Z	fetch_html	bytes=39403	sec=0.72
+b0694	2026-05-18T09:29:30Z	fetch_pdf	bytes=18542	sec=0.59
+b0694	2026-05-18T09:29:31Z	fetch_html	bytes=39244	sec=0.72
+b0694	2026-05-18T09:29:32Z	fetch_pdf	bytes=22784	sec=0.67
+b0694	2026-05-18T09:29:34Z	fetch_html	bytes=39976	sec=0.71
+b0694	2026-05-18T09:29:35Z	fetch_pdf	bytes=24191	sec=0.60
+b0694	2026-05-18T09:29:36Z	fetch_html	bytes=40228	sec=0.74
+b0694	2026-05-18T09:29:38Z	fetch_pdf	bytes=1575778	sec=1.53
+b0694	2026-05-18T09:29:41Z	fetch_html	bytes=39351	sec=0.76
+b0694	2026-05-18T09:29:42Z	fetch_pdf	bytes=368464	sec=0.75
+b0694	2026-05-18T09:29:44Z	fetch_html	bytes=38837	sec=0.71
+b0694	2026-05-18T09:29:44Z	fetch_pdf	bytes=177372	sec=0.67
+2026-05-18T04:14:00Z	b0693-jiw	WALL_CLOCK	started=2026-05-18T04:14:00Z	completed=2026-05-18T04:24:00Z	elapsed~=10min	budget=20min	headroom~=10min
+2026-05-18T04:24:00Z	b0693-jiw	HTTP	requests=4	method=GET	hosts=zambialii.org(1)+judiciaryzambia.com(3)	status=200x4	bytes_received~=545KB	verdict=upstream-recovery-confirmed-probe-only-inventory
+2026-05-18T04:24:00Z	b0693-jiw	INGEST	attempted=0	inserted=0	deferred=0	failure_class=n/a	verdict=probe-only-no-db-mutation
+2026-05-18T04:24:00Z	b0693-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
+2026-05-18T04:24:00Z	b0693-jiw	INTEGRITY	records=1936	records_fts=1936	quick_check=ok	tick-verdict=NO-MUTATION-COMMIT-logs-only
+b0694	2026-05-18T09:32:59Z	fetch_html	bytes=40502	sec=1.26
+b0694	2026-05-18T09:33:00Z	fetch_pdf	bytes=29041	sec=0.79
+b0694	2026-05-18T09:33:02Z	fetch_html	bytes=38611	sec=0.72
+b0694	2026-05-18T09:33:03Z	fetch_pdf	bytes=23725	sec=0.61
+b0694	2026-05-18T09:33:04Z	fetch_html	bytes=39403	sec=0.75
+b0694	2026-05-18T09:33:05Z	fetch_pdf	bytes=18542	sec=0.70
+b0694	2026-05-18T09:33:07Z	fetch_html	bytes=39244	sec=0.73
+b0694	2026-05-18T09:33:08Z	fetch_pdf	bytes=22784	sec=0.57
+b0694	2026-05-18T09:33:09Z	fetch_html	bytes=39976	sec=0.73
+b0694	2026-05-18T09:33:10Z	fetch_pdf	bytes=24191	sec=0.56
+b0694	2026-05-18T09:33:12Z	fetch_html	bytes=40228	sec=0.72
+b0694	2026-05-18T09:33:13Z	fetch_pdf	bytes=1575778	sec=1.31
+b0694	2026-05-18T09:33:16Z	fetch_html	bytes=39351	sec=0.73
+b0694	2026-05-18T09:33:17Z	fetch_pdf	bytes=368464	sec=0.68
+b0694	2026-05-18T09:33:19Z	fetch_html	bytes=38837	sec=0.73
+b0694	2026-05-18T09:33:19Z	fetch_pdf	bytes=177372	sec=0.65
+2026-05-18T04:31:00Z	b0693-jiw	GIT_COMMIT	verdict=DEFERRED-FUSE-EPERM-index.lock-unremovable	staged-files=4(costs.log,gaps.md,worker.log,reports/jiw-batch-b0693.md)	staged-but-post-stage-trailer-appended-to-worker.log+costs.log-is-MM-state	recovery=next-tick-first-commit-bundles-staged+MM-files	pattern-precedent=b0676..b0688
+b0694	2026-05-18T09:34:23Z	fetch_html	bytes=40502	sec=1.30
+b0694	2026-05-18T09:34:24Z	fetch_pdf	bytes=29041	sec=0.85
+b0694	2026-05-18T09:34:26Z	fetch_html	bytes=38611	sec=0.73
+b0694	2026-05-18T09:34:27Z	fetch_pdf	bytes=23725	sec=0.56
+b0694	2026-05-18T09:34:29Z	fetch_html	bytes=39403	sec=0.72
+b0694	2026-05-18T09:34:29Z	fetch_pdf	bytes=18542	sec=0.58
+b0694	2026-05-18T09:34:31Z	fetch_html	bytes=39244	sec=0.72
+b0694	2026-05-18T09:34:32Z	fetch_pdf	bytes=22784	sec=0.59
+b0694	2026-05-18T09:34:33Z	fetch_html	bytes=39976	sec=0.74
+b0694	2026-05-18T09:34:34Z	fetch_pdf	bytes=24191	sec=0.58
+b0694	2026-05-18T09:34:36Z	fetch_html	bytes=40228	sec=0.72
+b0694	2026-05-18T09:34:37Z	fetch_pdf	bytes=1575778	sec=0.83
+b0694	2026-05-18T09:34:40Z	fetch_html	bytes=39351	sec=0.74
+b0694	2026-05-18T09:34:40Z	fetch_pdf	bytes=368464	sec=0.61
+b0694	2026-05-18T09:34:42Z	fetch_html	bytes=38837	sec=0.74
+b0694	2026-05-18T09:34:43Z	fetch_pdf	bytes=177372	sec=0.57

@@ -1,0 +1,50 @@
+{
+  "batch": "b0694",
+  "parser": "repair-0.6.94",
+  "identified_no_body": 81,
+  "identified_corrupted": 0,
+  "identified_stub": 0,
+  "dedup_targets": 81,
+  "repaired": 8,
+  "failed": 0,
+  "records": 1936,
+  "records_fts": 1936,
+  "integrity_match": true,
+  "quick_check": "ok",
+  "elapsed_sec": 23.4,
+  "repaired_ids": [
+    [
+      "si-zm-2021-024-electricity-common-carrier-declaration-regulations-2021",
+      "len=4601"
+    ],
+    [
+      "si-zm-2021-025-animal-health-destruction-of-pigs-compensation-order-2021",
+      "len=4277"
+    ],
+    [
+      "si-zm-2021-035-citizens-economic-empowerment-transportation-of-heavy-and-bulk-commodities-by-road-reservation-regulations-2021",
+      "len=4922"
+    ],
+    [
+      "si-zm-2021-037-zambia-medicines-and-medical-supplies-agency-re-engagement-of-staff-regulations-2021",
+      "len=1643"
+    ],
+    [
+      "si-zm-2021-040-electoral-process-general-election-election-date-and-time-of-poll-order-2021",
+      "len=2355"
+    ],
+    [
+      "si-zm-2021-049-zambia-institute-of-advanced-legal-education-students-rules-2021",
+      "len=44932"
+    ],
+    [
+      "si-zm-2021-052-cyber-security-and-cyber-crimes-national-cyber-security-advisory-and-coordination-council-regulations-2021",
+      "len=8737"
+    ],
+    [
+      "si-zm-2021-055-metrology-measuring-instruments-regulations-2021",
+      "len=68365"
+    ]
+  ],
+  "failed_ids": []
+}

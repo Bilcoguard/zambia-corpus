@@ -11289,3 +11289,67 @@ Second consecutive tick blocked by `zambialii.org` Indigo-Platform application-t
 No records were mutated. All 81 Condition-B SI targets (cohort 2021×30, 2022×30, 2023×13, 2024×4, 2025×2, 2026×2) are deferred to the next tick. Same cohort as b0691 — no record drift.
 
 Per b0691's escalation note, if the next tick still observes 500s, this is ≥3 consecutive blocked ticks and should trigger maintainer escalation (pause the scheduled task, or evaluate `parliament.gov.zm` fallback for any SIs republished there).
+
+## b0693-jiw (2026-05-18T04:14Z–04:24Z) — judiciaryzambia.com page-1 inventory (probe-only, NO DB mutation)
+
+Discovery tick: probed `judiciaryzambia.com` Court-of-Appeal, Supreme-Court, and Constitutional-Court category page-1 listings to validate which judiciaryzambia.com posts are genuinely new vs already covered by prior ZambiaLII ingestion. Also probed zambialii.org homepage: returned 200 OK — the b0691/b0692 site-wide 500 outage has cleared (≥1h45m of recovery). DB not mutated.
+
+### Upstream recovery
+
+- `zambialii.org/`: 200 OK (1.24s) — outage cleared. Repair-worker SI backlog (81 records) unblocked for next repair tick.
+- `judiciaryzambia.com/category/.../court-of-appeal-decisions/`: 200 OK (2.58s, 179,226 bytes)
+- `judiciaryzambia.com/category/.../supreme-court-decisions/`: 200 OK (2.41s, 180,348 bytes)
+- `judiciaryzambia.com/category/.../constitutional-court-decisions/`: 200 OK (2.51s, 183,324 bytes)
+
+### Inventory delta (page-1 only)
+
+- CoA page-1: 9 unique posts → 6 already-known, **3 NEW** (app-110-2024 Josias Mtonga v The People; app-344-2023 Skab Merchants v Emilmark Construction; app-47-2025 Tulambo Kumwenda)
+- ZMCC page-1: 14 judgment posts (3 navigation slugs and 1 announcement filtered out) → **all 14 currently flagged NEW by source_url and fuzzy-slug match**, but several will dedup-skip on case_number (e.g. 2025/CCZ/0011, 2025/CCZ/0029 already in corpus from ZambiaLII via b0687-jiw). Net genuine novelty estimated **~7–8 records** after expected dedup.
+- SCZ page-1: 15 judgment posts → 1 fuzzy-matched (Konkola v AG), 14 currently flagged NEW. Net genuine novelty estimated **~10 records** after expected dedup (cross-listed ZMCC and 1 legacy HC observed; cross-court filtering needed at ingest time).
+
+Full per-row table in `reports/jiw-batch-b0693.md`.
+
+### Sweep cursors (updated)
+
+- `judiciary-coa-sweep`: page-1 probed b0693, 3 new candidates identified; page-9 scanned-PDF cliff unchanged
+- `judiciary-scz-sweep`: page-1 probed b0693, ~10 new candidates identified; page-2 baseline unchanged
+- `judiciary-zmcc-sweep`: page-1 probed b0693, ~7–8 new candidates after expected dedup
+- `judiciary-hc-sweep`: not yet started (unchanged)
+- **ZambiaLII ZMCC 2025 reparse backlog**: 10 remaining (unchanged from b0687) — ZMCC 14, 15, 16, 17, 18, 19, 21, 24, 28, 33
+
+### Fetch cost
+
+- Network fetches: 4 (1× zambialii.org homepage probe + 3× judiciaryzambia.com category page-1)
+- Daily JIW budget: 4 / 500 used; 496 headroom preserved.
+
+### Integrity
+
+records=1936 records_fts=1936 quick_check=ok — unchanged from b0687. CHECK8=PASS (no mutation this tick).
+
+### Outstanding deferred records (unchanged carry-over)
+
+- `judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people` — truncated source PDF from judiciaryzambia.com; alternate-source retrieval required.
+
+### Recommended priority for next JIW tick (b0694-jiw)
+
+1. **First**: priority-(a) REPARSE — ZMCC 2025/14, /15, /16, /17 (4 records, hand-curated, zero-fetch).
+2. **Second**: priority-(a) REPARSE — ZMCC 2025/18, /19, /21, /24 (4 records, hand-curated, zero-fetch).
+3. **Third**: priority-(a) REPARSE — ZMCC 2025/28, /33 + ZMCC 2024 deferrals /22, /23, /25, /27 (6 records, hand-curated, zero-fetch).
+4. **Fourth**: priority-(b) CoA NEW from judiciaryzambia.com — Josias Mtonga (app-110-2024), Skab Merchants (app-344-2023), Tulambo Kumwenda (app-47-2025). 3 records, ~6 fetches.
+
+Wall-clock: ~10 minutes (budget 20). No commit-mutation; logs/report only.
+
+## b0694 sandbox / SKILL.md issues (2026-05-18)
+
+- **records_fts schema drift**: SKILL.md v4 Step 4 sample SQL references columns
+  `case_name` and `outcome_detail` which do not exist on the live `records_fts`
+  table. Actual schema is FTS5 content=records `(id, title, body, citation,
+  type)`. `repair_b0694.py` uses the corrected form. Recommend updating
+  SKILL.md.
+- **virtiofs hot-journal recovery refused**: Stale `corpus.sqlite-journal` left
+  by a prior failed transaction can no longer be unlinked/rolled-back in this
+  sandbox (`Operation not permitted` on `unlink`, `disk I/O error` from SQLite
+  rollback). Workaround in `repair_b0694.py`: rename stale journal to
+  `_stale_b0694_*`, then run with `PRAGMA journal_mode=MEMORY; synchronous=OFF`.
+  Recommend host-side: grant unlink permission on the corpus mount, or pin
+  SQLite to a tmpfs-backed temp dir.
