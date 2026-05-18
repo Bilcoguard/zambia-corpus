@@ -11190,7 +11190,7 @@ Total b0687 resolves 8 of the long-standing deferrals dating back to 2026-04-29.
 
 - `judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people` — truncated source PDF from judiciaryzambia.com; alternate-source retrieval required.
 
-### Recommended priority for next JIW tick (b0688-jiw or later)
+### Recommended priority for next JIW tick (b0689-jiw or later — b0688 used by concurrent repair worker)
 
 1. **First**: priority-(a) REPARSE — continue ZMCC 2025 reparse on the remaining 10 deferred records (14, 15, 16, 17, 18, 19, 21, 24, 28, 33). Same zero-net-fetch hand-curation pathway as this tick.
 2. **Second**: priority-(d) ZMCC 2024 reparse — 4 remaining deferrals (2024/22, /23, /25, /27).
@@ -11206,3 +11206,51 @@ Start: 2026-05-18T00:00Z. Finish: 2026-05-18T00:11Z. Elapsed: ~11 minutes. Budge
 - Drained 8 of 89 zambialii AKN-SI no-body records (forest-reserve / tourism / electoral-process / kasama cohort, 2020-122..2021-015).
 - Remaining no-body acts/SIs: 81. All zambialii AKN URLs (continuation of b0667/b0681/b0685 drainage cohort).
 - All 8 succeeded via source.pdf route on first attempt — no quality-gate failures.
+
+## 2026-05-18T00:34:17Z — b0689-phase8 — zambialii_akn_html_dynamic_render_drift (×3)
+
+Phase 8 nightly re-verification (`scripts/batch_0689_phase8_reverify.py`, parser_version `phase8-reverify-0.1.0`) sampled 8 records (seed `phase8-reverify-2026-05-18-b0689`) from a pool of 1939. Verdicts: 5 match, 3 drift, 0 fetch_error. All 3 drift verdicts are on **ZambiaLII AKN-HTML** pages, which dynamically render their HTML (timestamps/footer counters embedded in the response) — same pattern as b0641..b0687. None of the on-disk records were mutated by this tick. Records were NOT mutated by this tick — this gaps.md entry is the audit trail only.
+
+See `reports/batch-0689-reverify.json` for the full per-record breakdown.
+
+## phase8_reverify_drift
+- batch: 0689
+- detected_at: 2026-05-18T00:34:03Z
+- id: si-zm-2021-072-public-holidays-declaration-no-3-notice-2021
+- type: statutory_instrument
+- source_url: https://zambialii.org/akn/zm/act/si/2021/72
+- host: zambialii.org
+- stored_sha256: 9baac14ae96ae91f214fc954fe43da4d42cce15a517daef2c6bc5262fd00e2e8
+- fetched_sha256: 4bbf6e6329bdc731deb6d86eacd46c7102102cd655f69d5d5123410074e37dad
+- fetched_bytes_len: 39142
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0687 cohort
+
+## phase8_reverify_drift
+- batch: 0689
+- detected_at: 2026-05-18T00:34:09Z
+- id: judgment-zm-2024-zmsc-02-mabvuto-mwale-and-anor-v-the-people
+- type: judgment
+- source_url: https://zambialii.org/akn/zm/judgment/zmsc/2024/2/eng@2024-04-19
+- host: zambialii.org
+- stored_sha256: 54befddc0980f260fdbdff108bdf61033a6bb8607043f063bcf38b8aaca736c4
+- fetched_sha256: a512bf56a8391f700b8c51ecd4bbae44e76b30b2ecedd312544a4d61e0f18c6e
+- fetched_bytes_len: 42894
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0687 cohort
+
+## phase8_reverify_drift
+- batch: 0689
+- detected_at: 2026-05-18T00:34:16Z
+- id: act-zm-1965-023-national-flag-and-armorial-ensigns-act-1965
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1965/23/eng@1996-12-31
+- host: zambialii.org
+- stored_sha256: cf79bb06c53978822c94f9bc0ff72d79af10e16d5c7bd7720c50969a9243ea23
+- fetched_sha256: f9974caa504dd0d099952aca2bd2f1f8fe170e8bba203cb019b14029d27c96a6
+- fetched_bytes_len: 55587
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0687 cohort

@@ -8639,3 +8639,17 @@ test append Mon May 18 00:44:14 CAT 2026
 [2026-05-18T00:15:30Z] [b0688] B2 sync deferred to host (rclone unavailable in sandbox)
 [2026-05-18T00:15:30Z] [b0688] reports/repair-batch-b0688.md WROTE; summary: repaired=8 failed=0 remaining=81 elapsed=32s
 [2026-05-18T00:15:30Z] [b0688] FINAL verdict=tick-complete batch_size=8 repaired=8 failed=0 remaining_no_body_acts_si=81 records=1936 records_fts=1936 next=continue-zambialii-AKN-SI-drainage
+[2026-05-18T00:18:00Z] [b0688] GIT_COMMIT verdict=committed commit=1e52dca parent=d44205f tree=40e371eed1dd66b37ec484ecf6276a16dc5f8d3f via=GIT_INDEX_FILE=/tmp/git_index_b0688+git-read-tree-d44205f+git-write-tree+git-commit-tree+direct-write-.git/refs/heads/main (FUSE-EPERM on .git/index.lock + .git/objects/*/tmp_obj_* warnings non-fatal; ref updated via direct write); files=5 (scripts/repair_b0688.py + reports/repair-batch-b0688.md + worker.log + costs.log + gaps.md); corpus.sqlite NOT committed (gitignored per Phase 6 b0504 rebuild policy)
+[2026-05-18T00:18:00Z] [b0688] GIT_PUSH verdict=push-ok remote=origin/main range=d44205f..1e52dca
+[2026-05-18T00:18:00Z] [b0688] TRAILER_COMMIT_DEFERRED reason=FUSE-EPERM-on-.git/index.lock-prevents-reliable-second-commit-this-session (established pattern b0676..b0685). These GIT_COMMIT/GIT_PUSH audit lines are appended to worker.log in the working tree but NOT yet committed. Next tick will see them as uncommitted-but-tracked worker.log changes and bundle into its own first commit.
+2026-05-18T02:18:00Z	b0687-jiw	POSTRECOVERY	final_quick_check=ok	records=1936	records_fts=1936	parity=PASS	parser_version=0.3.2-jiw-b0687-hand-curated	new_records=8/8	new_fts=8/8	new_meta=8/8
+2026-05-18T02:18:00Z	b0687-jiw	NOTE	concurrent_repair_worker_used_b0688	report_artifact_renamed_back_to_jiw-batch-b0687.md	backup_renamed_to_corpus.sqlite.bak.b0687-pre-20260518T001058Z	parser_version_in_DB_remains_b0687
+2026-05-18T02:18:00Z	b0687-jiw	FINAL	verdict=COMMIT-ready	all-CHECK1-8=PASS
+[2026-05-18T00:34:17Z] [b0689-phase8] start TICK=phase8-nightly-reverify sample_rate=0.01 pool_size=1939 sample_size=8
+[2026-05-18T00:34:17Z] [b0689-phase8] sample seed=phase8-reverify-2026-05-18-b0689 drew 8 records from pool of 1939
+[2026-05-18T00:34:17Z] [b0689-phase8] re-fetch verdicts: match=5 drift=3 fetch_error=0
+[2026-05-18T00:34:17Z] [b0689-phase8] all 3 drift verdicts on ZambiaLII-AKN-HTML hosts (dynamic-render); records NOT mutated per BRIEF non-negotiable #4
+[2026-05-18T00:34:17Z] [b0689-phase8] integrity records=1936 records_fts=1936 quick_check=ok dup_ids=0
+[2026-05-18T00:34:17Z] [b0689-phase8] B2 sync deferred to host (rclone unavailable in sandbox)
+[2026-05-18T00:34:17Z] [b0689-phase8] reports/batch-0689-reverify.json + reports/batch-0689.md WROTE; gaps.md drift entries appended (3)
+[2026-05-18T00:34:17Z] [b0689-phase8] FINAL verdict=tick-complete batch_size=8 match=5 drift=3 fetch_error=0 records=1936 records_fts=1936 next=continue-phase8-nightly-reverify

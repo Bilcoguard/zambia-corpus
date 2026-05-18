@@ -6320,3 +6320,10 @@ b0664,2026-05-15T09:13:53Z,repair,zambialii,8,0,~44
 2026-05-18T00:14:01Z	b0687-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox
 2026-05-18T00:14:01Z	b0687-jiw	INTEGRITY	records=1936	records_fts=1936	judgments_meta=243	quick_check=ok	integrity_check=ok	check1-pass=8-records-min1max8-judges	check2-pass=8-records-issue-tags-nonempty	check3-pass=outcomes-dismissed-x7-other-x1	check4-pass=8-canonical-judges-resolve	check5-pass=no-dup-ids	check6-pass=raw-sha256-matches-on-disk	check7-pass=no-dup-triplets	check8-pass=records-eq-fts	tick-verdict=COMMIT-normal-path
 2026-05-18T00:15:30Z	b0688	repair-corpus	zambialii_pdf_fetches=8	pdf_bytes_total=~150KB	parliament_pdf_fetches=0	ocr_fallbacks=0	elapsed_sec=32	api_cost_usd=0.00	bandwidth_usd=~0.00
+2026-05-18T02:18:00Z	b0687-jiw	fetches=0	daily_jiw_budget_used=0/500	tick_elapsed=~11min+recovery	CHECK1-8=PASS	records=1936
+2026-05-18T00:34:17Z	b0689-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=24/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1939	sample_size=8
+2026-05-18T00:34:17Z	b0689-phase8	NETWORK_FETCHES	count=8	hosts=zambialii.org:4,media.zambialii.org:2,www.parliament.gov.zm:2	all-HTTP-200
+2026-05-18T00:34:17Z	b0689-phase8	BANDWIDTH	total_bytes=6240042	avg_kb=761.7	largest=act-zm-1991-019-investment-act-1991(5268696B,media.zambialii.org-source.pdf)
+2026-05-18T00:34:17Z	b0689-phase8	WALL_CLOCK	started=2026-05-18T00:33:55Z	completed=2026-05-18T00:34:17Z	elapsed=22s	budget=20min	headroom~=1178s
+2026-05-18T00:34:17Z	b0689-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-18T00:34:17Z	b0689-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1936	records_fts=1936	dup_ids=0	tick-verdict=COMMIT-normal-path-bundles-b0688-trailer
