@@ -6327,3 +6327,9 @@ b0664,2026-05-15T09:13:53Z,repair,zambialii,8,0,~44
 2026-05-18T00:34:17Z	b0689-phase8	WALL_CLOCK	started=2026-05-18T00:33:55Z	completed=2026-05-18T00:34:17Z	elapsed=22s	budget=20min	headroom~=1178s
 2026-05-18T00:34:17Z	b0689-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 2026-05-18T00:34:17Z	b0689-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1936	records_fts=1936	dup_ids=0	tick-verdict=COMMIT-normal-path-bundles-b0688-trailer
+2026-05-18T01:03:55Z	b0690-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=32/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1939	sample_size=8
+2026-05-18T01:03:55Z	b0690-phase8	NETWORK_FETCHES	count=8	hosts=zambialii.org:5,www.zambialii.org:1,judiciaryzambia.com:1,www.parliament.gov.zm:2	http_200=4	http_500=4
+2026-05-18T01:03:55Z	b0690-phase8	BANDWIDTH	total_bytes=742111	avg_kb=181.0	largest=loz-brands-act(199583B,www.parliament.gov.zm)	note=4-of-8-fetches-returned-0-byte-error-bodies
+2026-05-18T01:03:55Z	b0690-phase8	WALL_CLOCK	started=2026-05-18T01:03:32Z	completed=2026-05-18T01:03:55Z	elapsed=23s	budget=20min	headroom~=1177s
+2026-05-18T01:03:55Z	b0690-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-18T01:03:55Z	b0690-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1936	records_fts=1936	dup_ids=0	tick-verdict=COMMIT-normal-path

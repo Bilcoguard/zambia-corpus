@@ -8653,3 +8653,13 @@ test append Mon May 18 00:44:14 CAT 2026
 [2026-05-18T00:34:17Z] [b0689-phase8] B2 sync deferred to host (rclone unavailable in sandbox)
 [2026-05-18T00:34:17Z] [b0689-phase8] reports/batch-0689-reverify.json + reports/batch-0689.md WROTE; gaps.md drift entries appended (3)
 [2026-05-18T00:34:17Z] [b0689-phase8] FINAL verdict=tick-complete batch_size=8 match=5 drift=3 fetch_error=0 records=1936 records_fts=1936 next=continue-phase8-nightly-reverify
+[2026-05-18T01:03:55Z] [b0690-phase8] tick start (Phase 8 nightly re-verification) — script scripts/batch_0690_phase8_reverify.py (clone of batch_0689; only BATCH constant changed 0689→0690)
+[2026-05-18T01:03:55Z] [b0690-phase8] git pull --ff-only: Already up to date
+[2026-05-18T01:03:55Z] [b0690-phase8] approvals.yaml read OK; phase_8_nightly_reverify approved=true complete=false sample_rate=0.01
+[2026-05-18T01:03:55Z] [b0690-phase8] today budget pre-tick: 24/2000 fetches, 0/1000000 tokens — within budget
+[2026-05-18T01:03:55Z] [b0690-phase8] pool_size=1939 sample_size=8 seed=phase8-reverify-2026-05-18-b0690
+[2026-05-18T01:03:55Z] [b0690-phase8] fetches=8 match=2 drift=2 fetch_error=4 — elevated fetch_error driven by transient zambialii.org/www.zambialii.org HTTP 500 window 01:03:35Z-01:03:51Z
+[2026-05-18T01:03:55Z] [b0690-phase8] integrity records=1936 records_fts=1936 quick_check=ok dup_ids=0 CHECK1-9=PASS
+[2026-05-18T01:03:55Z] [b0690-phase8] B2 sync deferred to host (rclone unavailable in sandbox; Phase 8 is read-only so no corpus mutation either way)
+[2026-05-18T01:03:55Z] [b0690-phase8] reports/batch-0690-reverify.json + reports/batch-0690.md WROTE; gaps.md appended (2 drifts + 4 transient-500 entries, audit-only, no record mutation)
+[2026-05-18T01:03:55Z] [b0690-phase8] FINAL verdict=tick-complete batch_size=8 match=2 drift=2 fetch_error=4 records=1936 records_fts=1936 next=continue-phase8-nightly-reverify

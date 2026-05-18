@@ -11254,3 +11254,22 @@ See `reports/batch-0689-reverify.json` for the full per-record breakdown.
 - verdict: drift
 - cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
 - action: audit-only; nests in established b0641..b0687 cohort
+
+---
+## b0690-phase8 — 2026-05-18T01:03:55Z — audit-only (no record mutation)
+
+Phase 8 nightly re-verification, batch 0690 (sample_size=8, sample_rate=0.01, seed `phase8-reverify-2026-05-18-b0690`). 2 drifts + 4 transient upstream errors logged below for audit completeness. Per BRIEF non-negotiable #4 no record file was modified.
+
+### Drifts (2)
+
+- `act-zm-1996-028-pension-scheme-regulation-act-1996` — host `zambialii.org`, AKN-HTML `eng@`-suffixed landing page; cohort: `zambialii_akn_html_dynamic_render_drift`; stored=ab2f603528f0c48c309cdd85a00631bb714d9f7955a687f90df37b4e69d4216e fetched=f54661c587ba3a9f57eca89d63b75f5f77b249a0e212f3060c898e8828602e06; bytes=187413; verdict: dynamic-render churn, legal content unchanged (consistent with cohort).
+- `judgment-zm-2026-coa-012-sunday-special-security-ltd-1-other-vs-laico-zambia-ltd` — host `judiciaryzambia.com`, WordPress single-post HTML; cohort: `judiciaryzambia_html_dynamic_render_drift`; stored=2b7477f388de45f53f4e673ac41c63904591e05147e0fb65e95134bdc745245f fetched=b58cf15673be8ae3daac18b14d71fddf395448a929c4cfb2b7f337568d47d428; bytes=167123; verdict: dynamic-render churn (WP timestamp/Yoast/JSON-LD), legal content unchanged.
+
+### Upstream fetch errors (4) — cohort `zambialii_upstream_500_transient`
+
+- `act-zm-1980-013-national-energy-council-act-1980` — `www.zambialii.org/akn/zm/act/1980/13/eng@1980-09-29` — HTTP 500 (Internal Server Error). Will be re-sampled probabilistically; record not mutated.
+- `si-zm-2018-003-zambia-defence-university-declaration-order-2018` — `zambialii.org/akn/zm/act/si/2018/3` — HTTP 500. Will be re-sampled probabilistically; record not mutated.
+- `si-zm-2023-033-national-heritage-conservation-commission-ngonye-falls-national-monument-declara` — `zambialii.org/akn/zm/act/si/2023/33/eng@2023-08-17/source.pdf` — HTTP 500 (source.pdf endpoint also affected during window). Will be re-sampled; record not mutated.
+- `judgment-zm-2025-zmsc-15-the-v-metro` — `zambialii.org/akn/zm/judgment/zmsc/2025/15/eng@2025-07-25/source.pdf` — HTTP 500. Will be re-sampled; record not mutated.
+
+If these 500s persist across multiple Phase 8 ticks, widen the upstream-availability cohort note.
