@@ -9256,3 +9256,44 @@ warning: unable to unlink '.git/
 [2026-05-18T15:14:00Z] [b0706-phase8] GIT_COMMIT sha=5a89521 msg='Phase 8 batch 0706: nightly re-verify 8 records (1 match, 7 drift, 0 fetch_error)'
 [2026-05-18T15:14:00Z] [b0706-phase8] GIT_PUSH_OK 24710f7..5a89521 main -> main
 [2026-05-18T15:14:00Z] [b0706-phase8] TICK_END pool=1961 sample=8 match=1 drift=7 fetch_error=0 records_mutated=0 verdict=COMMIT-normal-path
+[2026-05-18T15:13:00Z] [b0706b-jiw] TICK_START worker=judgment-ingestion-worker mode=recovery+reparse
+[2026-05-18T15:13:01Z] [b0706b-jiw] REMOVE_FAIL records/judgments/coa/2024/judgment-zm-2024-coa-024-z-kingfred-phiri-l-appellant-civil-rgi5tjy-2-and-0x-5ofl7-life-master-limited-re.json err=[Errno 1] Operation not permitted: 'records/judgments/coa/2024/judgment-zm-2024-coa-024-z-kingfred-phiri-l-appellant-civil-rgi5tjy-2-and-0x-5ofl7-life-master-limited-re.json'
+[2026-05-18T15:13:01Z] [b0706b-jiw] DB_DELETE id=judgment-zm-2024-coa-024-z-kingfred-phiri-l-appellant-civil-rgi5tjy-2-and-0x-5ofl7-life-master-limited-re records_removed=1 fts_removed=0
+[2026-05-18T15:13:01Z] [b0706b-jiw] REMOVE_FAIL records/judgments/coa/2020/judgment-zm-2020-coa-113-chisumpa-liandisha-appellant-and-the-people-respondent.json err=[Errno 1] Operation not permitted: 'records/judgments/coa/2020/judgment-zm-2020-coa-113-chisumpa-liandisha-appellant-and-the-people-respondent.json'
+[2026-05-18T15:13:01Z] [b0706b-jiw] DB_DELETE id=judgment-zm-2020-coa-113-chisumpa-liandisha-appellant-and-the-people-respondent records_removed=1 fts_removed=0
+[2026-05-18T15:13:01Z] [b0706b-jiw] REMOVE_FAIL records/judgments/coa/2024/judgment-zm-2024-coa-211-rotor-moulder-enterprises-timite-appellant-and-stanley-jordan-1st-respondent-jos.json err=[Errno 1] Operation not permitted: 'records/judgments/coa/2024/judgment-zm-2024-coa-211-rotor-moulder-enterprises-timite-appellant-and-stanley-jordan-1st-respondent-jos.json'
+[2026-05-18T15:13:01Z] [b0706b-jiw] DB_DELETE id=judgment-zm-2024-coa-211-rotor-moulder-enterprises-timite-appellant-and-stanley-jordan-1st-respondent-jos records_removed=1 fts_removed=0
+[2026-05-18T15:13:01Z] [b0706b-jiw] ROLLBACK done deleted_rows=3
+[2026-05-18T15:13:01Z] [b0706b-jiw] REVERT_JUDGES_YAML rc=255
+[2026-05-18T15:13:01Z] [b0706b-jiw] EXISTING records_on_disk=271 cn_indexed=249
+[2026-05-18T15:13:01Z] [b0706b-jiw] DB_PRE_AFTER_ROLLBACK records=1958 records_fts=1958
+[2026-05-18T15:13:01Z] [b0706b-jiw] CANDIDATES with_text_layer=6 to_ingest=0
+[2026-05-18T15:13:01Z] [b0706b-jiw] PARSED inserted_candidates=0 deferred=0
+[2026-05-18T15:13:01Z] [b0706b-jiw] DB_POST records=1958 records_fts=1958
+[2026-05-18T15:13:01Z] [b0706b-jiw] INTEGRITY pass=True errors=[]
+[2026-05-18T15:13:01Z] [b0706b-jiw] WROTE_REPORT reports/batch-b0706b-jiw.md
+[2026-05-18T15:13:01Z] [b0706b-jiw] GIT_STAGED files=6 sample=['costs.log', 'gaps.md', 'judges_registry.yaml', 'provenance.log', 'reports/batch-b0706b-jiw.md']
+[2026-05-18T15:13:03Z] [b0706b-jiw] GIT_COMMIT_FAIL rc=128 stdout= stderr=warning: unable to unlink '.git/objects/10/tmp_obj_SVLuC2': Operation not permitted
+warning: unable to unlink '.git/objects/83/tmp_obj_GbTip6': Operation not permitted
+warning: unable to unlink '.git/objects/d0/tmp_obj_W1pMz5': Operation not permitted
+fatal: cannot lock ref 'HEAD': Unable to create 
+[2026-05-18T15:16:50Z] [b0706c-jiw] TICK_START worker=judgment-ingestion-worker mode=finalise-rollback+reparse
+[2026-05-18T15:16:50Z] [b0706c-jiw] OVERWROTE_STUB records/judgments/coa/2024/judgment-zm-2024-coa-024-z-kingfred-phiri-l-appellant-civil-rgi5tjy-2-and-0x-5ofl7-life-master-limited-re.json
+[2026-05-18T15:16:50Z] [b0706c-jiw] OVERWROTE_STUB records/judgments/coa/2020/judgment-zm-2020-coa-113-chisumpa-liandisha-appellant-and-the-people-respondent.json
+[2026-05-18T15:16:50Z] [b0706c-jiw] OVERWROTE_STUB records/judgments/coa/2024/judgment-zm-2024-coa-211-rotor-moulder-enterprises-timite-appellant-and-stanley-jordan-1st-respondent-jos.json
+[2026-05-18T15:16:50Z] [b0706c-jiw] EXISTING records_on_disk(non-stub)=268 cn_indexed=246
+[2026-05-18T15:16:50Z] [b0706c-jiw] DB_PRE records=1958 records_fts=1958
+[2026-05-18T15:16:51Z] [b0706c-jiw] PARSE APP-0024-2024-Kingfred-Phiri-vs-Life-Master-Ltd-10th-Decembe body_len=34444 dratio=0.024
+[2026-05-18T15:16:51Z] [b0706c-jiw] PARSED ok id=judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-ltd cn=APP/024/2024 judges=['Siavwapa Mchenga DJPChashi Kondolo Makungu ChishimbaSichingaNgulubeBanda BoboSharpe PhiriMuzengaPatel Chembe/JJA']
+[2026-05-18T15:16:51Z] [b0706c-jiw] PARSE App-113-2020-Chisumpa-Liandisha-v-The-People-ZMCA-Coram-Mche body_len=6704 dratio=0.027
+[2026-05-18T15:16:51Z] [b0706c-jiw] PARSED ok id=judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people cn=APP/113/2020 judges=['Mchenga Chishimba Majula/JJA']
+[2026-05-18T15:16:51Z] [b0706c-jiw] PARSE App-211-2022-Rotor-Moulder-Enterprises-Limited-vs-Stanley-Jo body_len=23019 dratio=0.036
+[2026-05-18T15:16:51Z] [b0706c-jiw] PARSED ok id=judgment-zm-2024-coa-211-rotor-moulder-enterprises-limited-v-stanley-jordan-6-others cn=APP/211/2022 judges=['Makungu Muzenga Chembe/JJA']
+[2026-05-18T15:16:51Z] [b0706c-jiw] PARSED total=3 deferred=0
+[2026-05-18T15:16:51Z] [b0706c-jiw] INSERTED judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-ltd cn=APP/024/2024 outcome=other
+[2026-05-18T15:16:51Z] [b0706c-jiw] INSERTED judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people cn=APP/113/2020 outcome=other
+[2026-05-18T15:16:51Z] [b0706c-jiw] INSERTED judgment-zm-2024-coa-211-rotor-moulder-enterprises-limited-v-stanley-jordan-6-others cn=APP/211/2022 outcome=set-aside
+[2026-05-18T15:16:51Z] [b0706c-jiw] JUDGES_REGISTRY updated entries=3
+[2026-05-18T15:16:51Z] [b0706c-jiw] DB_POST records=1961 records_fts=1961
+[2026-05-18T15:16:51Z] [b0706c-jiw] INTEGRITY pass=True errors=[]
+[2026-05-18T15:16:51Z] [b0706c-jiw] WROTE_REPORT reports/batch-b0706c-jiw.md

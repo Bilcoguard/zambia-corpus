@@ -11858,3 +11858,75 @@ See `reports/batch-0706-reverify.json` for the full per-record breakdown and `re
 - drift: 7
 - fetch_error: 0
 - records_mutated: 0
+
+
+## b0706-jiw — CoA reparse drain (text-layer PDFs) (2026-05-18T15:09:45Z)
+
+### Inserted (3)
+
+- `judgment-zm-2024-coa-024-z-kingfred-phiri-l-appellant-civil-rgi5tjy-2-and-0x-5ofl7-life-master-limited-re` — APP/024/2024 — other
+- `judgment-zm-2020-coa-113-chisumpa-liandisha-appellant-and-the-people-respondent` — APP/113/2020 — other
+- `judgment-zm-2024-coa-211-rotor-moulder-enterprises-timite-appellant-and-stanley-jordan-1st-respondent-jos` — APP/211/2022 — set-aside
+
+### Sweep cursors (unchanged)
+
+- `judiciary-coa-sweep`: page-9 (scanned-PDF cliff)
+- `judiciary-scz-sweep`: page-2
+- `judiciary-zmcc-sweep`: page-1 probed b0693
+- `judiciary-hc-sweep`: not yet started
+
+### Network fetches: 0 (text-layer reparse, zero-fetch tick)
+
+
+## b0706b-jiw — CoA reparse drain (rollback+reparse v0.4.1) (2026-05-18T15:13:01Z)
+
+**Note:** b0706-jiw produced 3 records with corrupted case_name slugs due to a faulty BETWEEN-block parser. This tick rolled those back and re-ingested with filename-based case_name derivation (parser v0.4.1-inline).
+
+### Rolled back (3)
+
+- `judgment-zm-2024-coa-024-z-kingfred-phiri-l-appellant-civil-rgi5tjy-2-and-0x-5ofl7-life-master-limited-re` reason=poor-slug
+- `judgment-zm-2020-coa-113-chisumpa-liandisha-appellant-and-the-people-respondent` reason=poor-slug
+- `judgment-zm-2024-coa-211-rotor-moulder-enterprises-timite-appellant-and-stanley-jordan-1st-respondent-jos` reason=poor-slug
+
+### Re-inserted (0)
+
+
+### Sweep cursors (unchanged)
+
+- `judiciary-coa-sweep`: page-9 (scanned-PDF cliff)
+- `judiciary-scz-sweep`: page-2
+- `judiciary-zmcc-sweep`: page-1 probed b0693
+- `judiciary-hc-sweep`: not yet started
+
+### Network fetches: 0 (rollback+reparse, zero-fetch tick)
+
+
+## b0706c-jiw — finalise b0706-jiw rollback + reparse v0.4.1 (2026-05-18T15:16:51Z)
+
+**Context:** b0706-jiw inserted 3 records with corrupted slugs (faulty BETWEEN parser). b0706b-jiw deleted them from DB but could not unlink the JSON files (bindfs blocks unlink). This tick wrote deprecation stubs over those files and re-ingested the same 3 PDFs with parser v0.4.1 (filename-based case_name).
+
+### Stubs overwritten (3)
+
+- `judgment-zm-2024-coa-024-z-kingfred-phiri-l-appellant-civil-rgi5tjy-2-and-0x-5ofl7-life-master-limited-re.json` (cn=APP/024/2024)
+- `judgment-zm-2020-coa-113-chisumpa-liandisha-appellant-and-the-people-respondent.json` (cn=APP/113/2020)
+- `judgment-zm-2024-coa-211-rotor-moulder-enterprises-timite-appellant-and-stanley-jordan-1st-respondent-jos.json` (cn=APP/211/2022)
+
+### Re-inserted (3)
+
+- `judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-ltd` — APP/024/2024 — other
+- `judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people` — APP/113/2020 — other
+- `judgment-zm-2024-coa-211-rotor-moulder-enterprises-limited-v-stanley-jordan-6-others` — APP/211/2022 — set-aside
+
+### Infrastructure note
+
+- bindfs blocks `unlink(2)` on the mounted workspace, but allows `open(..., 'w')` overwrite. Workers must overwrite orphan files in place rather than delete them.
+- `.git/*.lock` files must be cleared via `os.rename` rather than `unlink`.
+
+### Sweep cursors (unchanged)
+
+- `judiciary-coa-sweep`: page-9 (scanned-PDF cliff)
+- `judiciary-scz-sweep`: page-2
+- `judiciary-zmcc-sweep`: page-1 probed b0693
+- `judiciary-hc-sweep`: not yet started
+
+### Network fetches: 0

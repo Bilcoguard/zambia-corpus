@@ -1,0 +1,8 @@
+{
+  "deprecated": true,
+  "deprecated_by": "b0706c-jiw",
+  "deprecated_at": "2026-05-18T15:16:50Z",
+  "reason": "Superseded \u2014 b0706-jiw produced a corrupted slug from a faulty BETWEEN-block parser. The canonical record for this case_number has been re-ingested with parser v0.4.1-inline (filename-based case_name). This JSON file is retained as a stub because bindfs blocks unlink(2) \u2014 see batch report b0706c for details.",
+  "original_case_number": "APP/113/2020",
+  "type": "deprecated-stub"
+}

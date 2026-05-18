@@ -17,6 +17,15 @@ judges:
   - Chashi JJA
   first_seen: '2026-05-04T09:20:09Z'
   court: Court of Appeal
+- canonical_name: Chashi Ngulube Banda Bobo
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2025-coa-170-mukamunya-homeowners-association-trust-registreed-trustees-v-leslie-szeftel-1-ot
+    first_seen_at: '2026-05-18T14:41:39Z'
+  aliases:
+  - Chashi Ngulube Banda Bobo JJA
+  first_seen: '2026-05-18T14:41:39Z'
+  court: Court of Appeal
 - canonical_name: Chembe
   titles:
   - title: JJA
@@ -237,6 +246,15 @@ judges:
   - Makungu JJA
   first_seen: '2026-05-11T07:37:27Z'
   court: Court of Appeal
+- canonical_name: Makungu Muzenga Chembe
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2024-coa-211-rotor-moulder-enterprises-limited-v-stanley-jordan-6-others
+    first_seen_at: '2026-05-18T15:16:51Z'
+  aliases:
+  - Makungu Muzenga Chembe JJA
+  first_seen: '2026-05-18T15:16:51Z'
+  court: Court of Appeal
 - canonical_name: Malila
   titles:
   - title: CJ
@@ -265,6 +283,15 @@ judges:
   aliases:
   - Mchenga DJP
   first_seen: '2026-05-11T07:37:27Z'
+  court: Court of Appeal
+- canonical_name: Mchenga Chishimba Majula
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people
+    first_seen_at: '2026-05-18T15:16:51Z'
+  aliases:
+  - Mchenga Chishimba Majula JJA
+  first_seen: '2026-05-18T15:16:51Z'
   court: Court of Appeal
 - canonical_name: Mulembe
   titles:
@@ -545,6 +572,17 @@ judges:
   - Siavwapa JP
   first_seen: '2026-05-11T07:37:27Z'
   court: Court of Appeal
+- canonical_name: Siavwapa Mchenga DJPChashi Kondolo Makungu ChishimbaSichingaNgulubeBanda
+    BoboSharpe PhiriMuzengaPatel Chembe
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-ltd
+    first_seen_at: '2026-05-18T15:16:51Z'
+  aliases:
+  - Siavwapa Mchenga DJPChashi Kondolo Makungu ChishimbaSichingaNgulubeBanda BoboSharpe
+    PhiriMuzengaPatel Chembe JJA
+  first_seen: '2026-05-18T15:16:51Z'
+  court: Court of Appeal
 - canonical_name: Sichinga
   titles:
   - title: JJA
@@ -589,12 +627,3 @@ judges:
   aliases:
   - Zulu J
   first_seen: '2026-04-30T03:10:27Z'
-- canonical_name: Chashi Ngulube Banda Bobo
-  titles:
-  - title: JJA
-    first_seen_in: judgment-zm-2025-coa-170-mukamunya-homeowners-association-trust-registreed-trustees-v-leslie-szeftel-1-ot
-    first_seen_at: '2026-05-18T14:41:39Z'
-  aliases:
-  - Chashi Ngulube Banda Bobo JJA
-  first_seen: '2026-05-18T14:41:39Z'
-  court: Court of Appeal

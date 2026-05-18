@@ -6611,3 +6611,11 @@ b0706	2026-05-18T15:04:26Z	fetch_html	bytes=38445	sec=1.065
 2026-05-18T15:09:45Z	b0706-jiw	NETWORK_FETCHES	count=0	note=reparse-only-no-fetches
 2026-05-18T15:09:45Z	b0706-jiw	BANDWIDTH	total_bytes=0	note=no-fetches
 2026-05-18T15:09:45Z	b0706-jiw	INTEGRITY	records=1961	fts=1961	pass=True
+2026-05-18T15:13:01Z b0706b-jiw fetches=0 mode=rollback+reparse-coa-text-layer rollback=3 candidates=0 inserted=0 deferred=0
+2026-05-18T15:13:01Z	b0706b-jiw	NETWORK_FETCHES	count=0	note=reparse-only-no-fetches
+2026-05-18T15:13:01Z	b0706b-jiw	BANDWIDTH	total_bytes=0	note=no-fetches
+2026-05-18T15:13:01Z	b0706b-jiw	INTEGRITY	records=1958	fts=1958	pass=True
+2026-05-18T15:16:51Z b0706c-jiw fetches=0 mode=finalise-rollback+reparse stubs=3 candidates=3 inserted=3 deferred=0
+2026-05-18T15:16:51Z	b0706c-jiw	NETWORK_FETCHES	count=0	note=reparse-only-no-fetches
+2026-05-18T15:16:51Z	b0706c-jiw	BANDWIDTH	total_bytes=0	note=no-fetches
+2026-05-18T15:16:51Z	b0706c-jiw	INTEGRITY	records=1961	fts=1961	pass=True

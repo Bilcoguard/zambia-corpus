@@ -1,0 +1,35 @@
+{
+  "id": "judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Chisumpa Liandisha v The People (APP/113/2020) [2020] ZMCA",
+  "citation": "[2020] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Chisumpa Liandisha v The People",
+  "case_number": "APP/113/2020",
+  "date_decided": "2020-02-18",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Mchenga Chishimba Majula",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "conviction-review",
+    "criminal-appeal"
+  ],
+  "outcome": "other",
+  "outcome_detail": null,
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "105e61d3fa6d4a4eace9ef6e22d35262ae6b382dfb689c53d5f24e917acc13e2",
+  "source_url": "https://judiciaryzambia.com/wp-content/uploads/App-113-2020-Chisumpa-Liandisha-v-The-People-ZMCA-Coram-Mchenga-DJP-Chishimba-Majula-JJA.pdf",
+  "source_pdf_url": "https://judiciaryzambia.com/wp-content/uploads/App-113-2020-Chisumpa-Liandisha-v-The-People-ZMCA-Coram-Mchenga-DJP-Chishimba-Majula-JJA.pdf",
+  "source_hash": "sha256:105e61d3fa6d4a4eace9ef6e22d35262ae6b382dfb689c53d5f24e917acc13e2",
+  "fetched_at": "2026-05-18T15:16:51Z",
+  "parser_version": "0.4.1-inline"
+}

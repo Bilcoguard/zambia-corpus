@@ -1,0 +1,34 @@
+{
+  "id": "judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-ltd",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Kingfred Phiri v Life Master Ltd (APP/024/2024) [2024] ZMCA",
+  "citation": "[2024] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Kingfred Phiri v Life Master Ltd",
+  "case_number": "APP/024/2024",
+  "date_decided": "2024-12-10",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Siavwapa Mchenga DJPChashi Kondolo Makungu ChishimbaSichingaNgulubeBanda BoboSharpe PhiriMuzengaPatel Chembe",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "general-appeal"
+  ],
+  "outcome": "other",
+  "outcome_detail": null,
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "37921802939d394e942d9c498f72642e55b765b95dd92d6f0679b80c7cdb8ee1",
+  "source_url": "https://judiciaryzambia.com/wp-content/uploads/APP-0024-2024-Kingfred-Phiri-vs-Life-Master-Ltd-10th-December-2024-Coram-Siavwapa-JP-Mchenga-DJPChashi-Kondolo-Makungu-ChishimbaSichingaNgulubeBanda-BoboSharpe-PhiriMuzengaPatel-Chembe-JJA.pdf",
+  "source_pdf_url": "https://judiciaryzambia.com/wp-content/uploads/APP-0024-2024-Kingfred-Phiri-vs-Life-Master-Ltd-10th-December-2024-Coram-Siavwapa-JP-Mchenga-DJPChashi-Kondolo-Makungu-ChishimbaSichingaNgulubeBanda-BoboSharpe-PhiriMuzengaPatel-Chembe-JJA.pdf",
+  "source_hash": "sha256:37921802939d394e942d9c498f72642e55b765b95dd92d6f0679b80c7cdb8ee1",
+  "fetched_at": "2026-05-18T15:16:51Z",
+  "parser_version": "0.4.1-inline"
+}
