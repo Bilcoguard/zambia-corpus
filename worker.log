@@ -8848,3 +8848,6 @@ test append Mon May 18 00:44:14 CAT 2026
 [2026-05-18T11:18:00Z] [b0696-jiw] CHECK4 judges resolve in registry: Munalula, Shilimi, Sitali, Mulonda, Mulenga, Musaluke, Chisunka, Mulongoti, Mwandenga, Kawimbe, Mulife — all pre-existing canonical names
 [2026-05-18T11:18:30Z] [b0696-jiw] WRITE_RECORDS 7 JSON files under records/judgments/zmcc/{2024,2025}/ (2316-3676 bytes each)
 [2026-05-18T11:19:30Z] [b0696-jiw] B2_SYNC deferred-to-host-rclone-not-in-sandbox
+2026-05-18T11:22Z b0696-jiw GIT_COMMIT sha=7844678b7c15c906d98d5f36929d2e80dc2e946c parent=3b6c9acdc01df0d5eae8a9b87c0ac8e818901f8a tree=4e3e11fc74aee39ac2e0aa857abf93c883ad2533 files=12 method=alt-index-write-tree+commit-tree+direct-ref-update reason=FUSE-EPERM-on-.git/index.lock
+2026-05-18T11:22Z b0696-jiw GIT_PUSH remote=origin branch=main from=3b6c9ac to=7844678 result=OK
+2026-05-18T11:22Z b0696-jiw TICK_END records=1946 records_fts=1946 judgments_meta=253 quick_check=ok integrity_check=ok inserted=7 deferred=3 next-tick=2026-05-18T12:00Z
