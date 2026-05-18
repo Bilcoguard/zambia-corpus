@@ -10985,3 +10985,64 @@ Cumulative stable-PDF supercohort after b0675: parliament.gov.zm + media.zambial
 ## b0685 — 2026-05-17 — repair worker
 
 No new gaps. All 8 records in this tick passed the quality gate and were committed. 89 zambialii AKN-SI no-body records remain in the pool for subsequent ticks (drainage continuation cohort from b0667/b0681).
+
+## b0686-jiw (2026-05-17T23:51Z) — ZMSC 2024 gap-fill +3 records
+
+### Outcome
+
+**3 records inserted** (records: 1925 → 1928; records_fts: 1925 → 1928; judgments_meta: 232 → 235; parity maintained; quick_check ok). Follows b0658-jiw's recommended priority-(c) ZMSC 2024 gap-fill. Continues the ZMSC 2024 backlog drain — gap-fill now at 32 / 33 effective records (publisher-side: 34 declared but #4 is a numbering skip and #11 is a publisher-dup of #9).
+
+### Records inserted
+
+| ID | Citation | Case | Date | Judges | Outcome |
+|---|---|---|---|---|---|
+| `judgment-zm-2024-zmsc-26-jayesh-shah-v-mwenda-mwimanenwa-nyambe-and-anor` | [2024] ZMSC 26 | Jayesh Shah v Mwenda Mwimanenwa Nyambe and Anor (SCZ/8/05/2023) | 2024-07-24 | Malila CJ; Wood, Kabuka JJS | refused (renewed leave to appeal denied) |
+| `judgment-zm-2024-zmsc-28-lukasu-properties-limited-v-african-banking-corporation-zambia-limited` | [2024] ZMSC 28 | Lukasu Properties Limited v African Banking Corporation Zambia Limited (SCZ/08/10/2023; Appeal No.5/2023) | 2024-08-15 | Wood, Mutuna, Chisanga JJS | allowed (writ set aside for incompetence) |
+| `judgment-zm-2024-zmsc-29-faustin-kabwe-and-bimal-thaker-v-ndola-trust-school-and-attorney-general` | [2024] ZMSC 29 | Faustin Kabwe and Bimal Thaker v Ndola Trust School Ltd and AG (consolidated with OHS Institute v Mataliro) (APPL NO. SCZ/8/11/2022; APPL NO. SCZ/8/14/2022) | 2024-08-15 | Malila CJ; Hamaundu, Kaoma, Mutuna, Chisanga JJS | dismissed (consolidated jurisdictional motion lacks merit) |
+
+### Source files
+
+- `raw/zambialii/zmsc/2024/zmsc-2024-26-source.pdf` — 1,658,203 bytes — sha256 `00e714169b2d692d8db5a593f695e1fd0110220ef45ccc4b5e0742a989d59039`
+- `raw/zambialii/zmsc/2024/zmsc-2024-28-source.pdf` — 5,919,431 bytes — sha256 `75842124d8db3397b8e8813d5dac40f0fe6909569eb11910c32f909c6130ba0c`
+- `raw/zambialii/zmsc/2024/zmsc-2024-29-source.pdf` — 9,027,083 bytes — sha256 `893f2a7b3b9afb1c26f896fed680e466a5781dcaf19a4ebc3fb1ebe9497557e0`
+
+### Publisher-numbering-skip — ZMSC 2024 #4 (closing the b0658 gap-note)
+
+This tick fetched the full ZambiaLII /judgments/ZMSC/2024/ listing (144,883 bytes). The listing contains 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, …, 34 — **no #4**. The b0658 note had treated #4 as "needs HTML+PDF fetch"; b0686 confirms #4 is a publisher-side numbering skip (analogous to #11 being a publisher-dup of #9). **#4 is permanently removed from the gap-fill backlog**. Speculative URL `…/zmsc/2024/4/…` returned HTTP 404, consistent with the listing.
+
+### Dedup note — #29 ↔ #7 case_number overlap
+
+`judgment-zm-2024-zmsc-29` carries case numbers `APPLICATION NO. SCZ/8/11/2022; APPLICATION NO. SCZ/8/14/2022`. The naked `SCZ/8/11/2022` portion overlaps with `judgment-zm-2024-zmsc-07-faustin-kabwe-and-bimal-thaker-v-ndola-trust-schoo` (case_number `SCZ/8/11/2022`, [2024] ZMSC 7, 2024-05-08). This is **not** a publisher-side duplicate — #7 is the substantive appeal judgment, #29 is a consolidated procedural motion (consolidated with OHS Institute v Mataliro from SCZ/8/14/2022) challenging the Supreme Court's jurisdiction to grant leave to appeal. Different citation, different date, different operative orders. CHECK7 (court + case_name + date_decided triplet) passes because the dates differ. Documented here for audit.
+
+### Sweep cursors (updated)
+
+- `judiciary-coa-sweep`: page-9 (unchanged — scanned-PDF cliff, still avoid until repair-worker drains backlog)
+- `judiciary-scz-sweep`: page-2 (unchanged)
+- `judiciary-zmcc-sweep`: not yet started (unchanged)
+- `judiciary-hc-sweep`: not yet started (unchanged)
+- **ZambiaLII ZMSC 2024 gap-fill**: 32 / 32 effective ingested (gap-fill **COMPLETE**). #4 = publisher-skip, #11 = publisher-dup of #9.
+
+### Outstanding deferred records (unchanged carry-over)
+
+- `judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people` — truncated source PDF from judiciaryzambia.com; alternate-source retrieval required.
+
+### Integrity checks
+
+| Check | Result | Notes |
+|---|---|---|
+| CHECK1 | PASS | Every new record has ≥1 judge in `judges[]` |
+| CHECK2 | PASS | `issue_tags` non-empty for all 3 |
+| CHECK3 | PASS | All outcomes from allowed enum: `refused`, `allowed`, `dismissed` |
+| CHECK4 | PASS | All 7 unique judge canonical names resolve in `judges_registry.yaml` |
+| CHECK5 | PASS | No duplicate IDs |
+| CHECK6 | PASS | `raw_sha256` matches on-disk PDFs |
+| CHECK7 | PASS | No duplicate (case_name + court + date_decided) combos |
+| CHECK8 | **PASS** | `records=1928 == records_fts=1928`; `quick_check=ok` |
+
+### Recommended priority for next JIW tick (b0687-jiw or later)
+
+1. **First**: priority-(d) ZMCC 2025 gap survey — the 12-candidate outstanding pool from b0621-jiw. Cheap if HTML already cached.
+2. **Second**: priority-(b) Judiciary CoA sweep page-10 onwards probe — only after repair-worker confirms scanned-PDF backlog drained.
+3. **Third**: ZMSC 2025 gap survey if cached HTML exists without record.
+4. **Defer**: Subordinate Court (priority-f) until SCZ/ZMCC/CoA gap-fill complete.
+

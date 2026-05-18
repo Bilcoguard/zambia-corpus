@@ -8581,3 +8581,23 @@ test append Mon May 18 00:44:14 CAT 2026
 [2026-05-17T23:46:40Z] [b0685] B2 sync deferred to host (rclone unavailable in sandbox)
 [2026-05-17T23:46:40Z] [b0685] reports/repair-batch-b0685.md WROTE; summary: repaired=8 failed=0 remaining=89 elapsed=35s
 [2026-05-17T23:46:40Z] [b0685] FINAL verdict=tick-complete batch_size=8 repaired=8 failed=0 remaining_no_body_acts_si=89 records=1925 records_fts=1925 next=continue-zambialii-AKN-SI-drainage
+[2026-05-17T23:48:30Z] [b0685] GIT_COMMIT verdict=committed commit=33b9b58 parent=026fb02 tree=95ba4dd712f398f16a2f463e2835c20da7a7bad1 via=GIT_INDEX_FILE=/tmp/git_index_b0685+git-read-tree-09cacf3+git-write-tree+git-commit-tree+direct-write-.git/refs/heads/main (FUSE-EPERM on .git/index.lock + .git/objects/*/tmp_obj_* warnings non-fatal; ref updated via direct write); files=5 (scripts/repair_b0685.py + reports/repair-batch-b0685.md + worker.log + costs.log + gaps.md); corpus.sqlite NOT committed (gitignored per Phase 6 b0504 rebuild policy)
+[2026-05-17T23:48:30Z] [b0685] GIT_PUSH verdict=push-ok remote=origin/main range=026fb02..33b9b58
+[2026-05-17T23:48:30Z] [b0685] CONCURRENT_SESSION_NOTE my-tick-built-on-(09cacf3=b0684); during tick, concurrent session advanced origin/main to 026fb02 ("b0658-jiw fixup: restore b0683 audit artifacts"). My commit-tree -p HEAD resolved to 026fb02 (not 09cacf3), so commit chain is linear and b0683 artifacts (restored by 026fb02) remain present in my tree (read-tree of 09cacf3 also contained them).
+[2026-05-17T23:48:30Z] [b0685] TRAILER_COMMIT_DEFERRED reason=FUSE-EPERM-on-.git/index.lock-prevents-reliable-second-commit-this-session (established pattern b0676..b0684). These GIT_COMMIT/GIT_PUSH/CONCURRENT_SESSION_NOTE audit lines are appended to worker.log in the working tree but NOT yet committed. Next tick will see them as uncommitted-but-tracked worker.log changes and bundle into its own first commit.
+[2026-05-17T23:58:54Z] [b0686-jiw] start TICK=judgment-ingestion-worker target=ZMSC-2024-gap-fill-26-28-29
+[2026-05-17T23:58:54Z] [b0686-jiw] fetch zambialii.org/robots.txt (re-verify, unchanged)
+[2026-05-17T23:58:54Z] [b0686-jiw] fetch zambialii.org/akn/zm/judgment/zmsc/2024/26/eng@2024-07-24/source.pdf (1.66 MB, sha256 00e714169b2d…)
+[2026-05-17T23:58:54Z] [b0686-jiw] fetch zambialii.org/judgments/ZMSC/2024/ listing (144,883 bytes — confirms #4 publisher-skip)
+[2026-05-17T23:58:54Z] [b0686-jiw] fetch zambialii.org/akn/zm/judgment/zmsc/2024/28/eng@2024-08-15/source.pdf (5.92 MB, sha256 75842124d8db…)
+[2026-05-17T23:58:54Z] [b0686-jiw] fetch zambialii.org/akn/zm/judgment/zmsc/2024/29/eng@2024-08-15/source.pdf (9.03 MB, sha256 893f2a7b3b9a…)
+[2026-05-17T23:58:54Z] [b0686-jiw] parse OK — bodies 47712/42528/25278 chars; digit_ratio <0.03 for all; quality gate PASS
+[2026-05-17T23:58:54Z] [b0686-jiw] tmpfs-stage insert to /sessions/hopeful-nifty-goldberg/tmp/jiw_b0686/corpus_work.sqlite (b0658 pattern)
+[2026-05-17T23:58:54Z] [b0686-jiw] commit OK on staged DB; CHECK8 records=1928==records_fts=1928; quick_check=ok
+[2026-05-17T23:58:54Z] [b0686-jiw] promote-rewrite staged DB → corpus.sqlite (118898688 bytes); live quick_check=ok
+[2026-05-17T23:58:54Z] [b0686-jiw] INSERT_OK id=judgment-zm-2024-zmsc-26-jayesh-shah-v-mwenda-mwimanenwa-nyambe-and-anor
+[2026-05-17T23:58:54Z] [b0686-jiw] INSERT_OK id=judgment-zm-2024-zmsc-28-lukasu-properties-limited-v-african-banking-corporation-zambia-limited
+[2026-05-17T23:58:54Z] [b0686-jiw] INSERT_OK id=judgment-zm-2024-zmsc-29-faustin-kabwe-and-bimal-thaker-v-ndola-trust-school-and-attorney-general
+[2026-05-17T23:58:54Z] [b0686-jiw] B2 sync deferred to host (rclone unavailable in sandbox)
+[2026-05-17T23:58:54Z] [b0686-jiw] reports/jiw-batch-b0686.md WROTE; ZMSC-2024 gap-fill 32/33 (#4 confirmed publisher-skip; #11 publisher-dup of #9 already permanently-deferred)
+[2026-05-17T23:58:54Z] [b0686-jiw] FINAL verdict=tick-complete batch_size=3 inserted=3 failed=0 records=1928 records_fts=1928 next=continue-ZMCC-2025-gap-survey
