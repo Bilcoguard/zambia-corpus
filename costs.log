@@ -6969,3 +6969,7 @@ b0710-jiw	2026-05-18T18:09:18Z	fetch_html_urllib	bytes=180885	sec=2.42
 2026-05-18T20:33:55Z	b0717-phase8	BANDWIDTH	total_bytes=453700	source=zambialii.org+parliament.gov.zm+judiciaryzambia.com
 2026-05-18T20:33:55Z	b0717-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1970	records_fts=1970	dup_ids=0	tick-verdict=COMMIT-normal-path
 2026-05-18T20:33:55Z	b0717-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-18T21:04:52Z	b0718-phase8	fetches=8	tokens=0	worker=phase8-nightly-reverify	cumulative_today=~437/2000	cohort=phase8-1pct-sample
+2026-05-18T21:04:52Z	b0718-phase8	BANDWIDTH	total_bytes=11862325	source=commons.laws.africa+zambialii.org+parliament.gov.zm
+2026-05-18T21:04:52Z	b0718-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1970	records_fts=1970	dup_ids=0	tick-verdict=COMMIT-normal-path
+2026-05-18T21:04:52Z	b0718-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
