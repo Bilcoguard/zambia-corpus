@@ -9748,3 +9748,44 @@ sqlite3.OperationalError: disk I/O error
 [2026-05-18T17:14:49Z] [br-20260518T171447Z] [INFO] REPAIR start id=si-zm-2026-002-electricity-wayleave-and-clearances-regulations-2026 reason=no-body url=https://zambialii.org/akn/zm/act/si/2026/2
 [2026-05-18T17:14:57Z] [br-20260518T171447Z] [INFO] post-tick: records=1961 records_fts=1961 quick_check=ok
 [2026-05-18T17:14:57Z] [br-20260518T171447Z] [INFO] B2 sync deferred to host (rclone missing)
+[2026-05-18T17:14:58Z] [br-20260518T171447Z] [WARN] git add: warning: unable to unlink '.git/objects/80/tmp_obj_0QRfsU': Operation not permitted
+warning: unable to unlink '.git/objects/21/tmp_obj_0aUrMS': Operation not permitted
+warning: unable to unlink '.git/
+[2026-05-18T17:15:00Z] [br-20260518T171447Z] [INFO] git commit ok: Repair batch r-20260518T171447Z: fixed 0 records (no repairs)
+[2026-05-18T17:15:03Z] [br-20260518T171447Z] [INFO] git push ok
+[2026-05-18T17:15:03Z] [br-20260518T171447Z] [INFO] TICK_END batch=r-20260518T171447Z repaired=0 skipped=1 records=1961 fts=1961 elapsed_s=15
+[2026-05-18T17:15:48Z] [br-20260518T171548Z] [INFO] === Repair tick start batch=r-20260518T171548Z ===
+[2026-05-18T17:15:49Z] [br-20260518T171548Z] [INFO] git pull ok: Already up to date.
+[2026-05-18T17:15:50Z] [br-20260518T171548Z] [INFO] pre-tick: records=1961 records_fts=1961
+[2026-05-18T17:15:50Z] [br-20260518T171548Z] [INFO] identified 1 repair candidates
+[2026-05-18T17:15:50Z] [br-20260518T171548Z] [INFO] batch size = 1 (cap 8)
+[2026-05-18T17:15:50Z] [br-20260518T171548Z] [INFO] REPAIR start id=si-zm-2026-002-electricity-wayleave-and-clearances-regulations-2026 reason=no-body url=https://zambialii.org/akn/zm/act/si/2026/2
+[2026-05-18T17:15:56Z] [br-20260518T171548Z] [ERROR] uncaught: Traceback (most recent call last): |   File "/sessions/eloquent-gracious-johnson/repair_tick.py", line 408, in <module> |     sys.exit(main()) |   File "/sessions/eloquent-gracious-johnson/repair_tick.py", line 312, in main |     post_records = conn.execute("SELECT COUNT(*) FROM records").fetchone()[0] | sqlite3.OperationalError: disk I/O error | 
+[2026-05-18T17:16:50Z] [br-20260518T171650Z] [INFO] === Repair tick start batch=r-20260518T171650Z ===
+[2026-05-18T17:16:51Z] [br-20260518T171650Z] [INFO] git pull ok: Already up to date.
+[2026-05-18T17:16:51Z] [br-20260518T171650Z] [INFO] pre-tick: records=1961 records_fts=1961
+[2026-05-18T17:16:52Z] [br-20260518T171650Z] [INFO] identified 1 repair candidates
+[2026-05-18T17:16:52Z] [br-20260518T171650Z] [INFO] batch size = 1 (cap 8)
+[2026-05-18T17:16:52Z] [br-20260518T171650Z] [INFO] REPAIR start id=si-zm-2026-002-electricity-wayleave-and-clearances-regulations-2026 reason=no-body url=https://zambialii.org/akn/zm/act/si/2026/2
+[2026-05-18T17:16:58Z] [br-20260518T171650Z] [ERROR] uncaught: Traceback (most recent call last): |   File "/sessions/eloquent-gracious-johnson/repair_tick.py", line 408, in <module> |     sys.exit(main()) |   File "/sessions/eloquent-gracious-johnson/repair_tick.py", line 312, in main |     post_records = conn.execute("SELECT COUNT(*) FROM records").fetchone()[0] | sqlite3.OperationalError: disk I/O error | 
+[2026-05-18T17:18:20Z] [br-20260518T171820Z] [INFO] === Repair tick start batch=r-20260518T171820Z ===
+[2026-05-18T17:18:22Z] [br-20260518T171820Z] [ERROR] git pull failed: warning: unable to unlink '/sessions/eloquent-gracious-johnson/mnt/corpus/.git/objects/maintenance.lock': Operation not permitted
+fatal: update_ref failed for ref 'ORIG_HEAD': cannot lock ref 'ORIG_HEAD': Unable to create '/sessions/eloquent-gracious-johnson/mnt/corpus/.git/ORIG_HEAD.lock': File exi
+[2026-05-18T17:18:27Z] [b0710-jiw] [ERROR] git pull failed: fatal: update_ref failed for ref 'ORIG_HEAD': cannot lock ref 'ORIG_HEAD': Unable to create '/sessions/confident-affectionate-goodall/mnt/corpus/.git/ORIG_HEAD.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this 
+[2026-05-18T17:18:27Z] [b0710-jiw] [ERROR] git pull failed — stopping
+[2026-05-18T17:18:34Z] [br-20260518T171834Z] [INFO] === Repair tick start batch=r-20260518T171834Z ===
+[2026-05-18T17:18:36Z] [br-20260518T171834Z] [INFO] git pull ok: Already up to date.
+[2026-05-18T17:18:36Z] [br-20260518T171834Z] [INFO] copied DB to local /sessions/eloquent-gracious-johnson/repair_work/corpus.sqlite (118898688 bytes)
+[2026-05-18T17:18:36Z] [br-20260518T171834Z] [INFO] pre-tick: records=1961 records_fts=1961
+[2026-05-18T17:18:36Z] [br-20260518T171834Z] [INFO] identified 1 repair candidates
+[2026-05-18T17:18:36Z] [br-20260518T171834Z] [INFO] batch size = 1 (cap 8)
+[2026-05-18T17:18:36Z] [br-20260518T171834Z] [INFO] REPAIR start id=si-zm-2026-002-electricity-wayleave-and-clearances-regulations-2026 reason=no-body url=https://zambialii.org/akn/zm/act/si/2026/2
+[2026-05-18T17:18:43Z] [br-20260518T171834Z] [INFO] REPAIR ok id=si-zm-2026-002-electricity-wayleave-and-clearances-regulations-2026 len=85718 sha=6a4d4bdbd2ac
+[2026-05-18T17:18:43Z] [br-20260518T171834Z] [INFO] post-tick: records=1961 records_fts=1961 quick_check=ok
+[2026-05-18T17:18:45Z] [br-20260518T171834Z] [INFO] copied local DB back to canonical /sessions/eloquent-gracious-johnson/mnt/corpus/corpus.sqlite
+[2026-05-18T17:18:45Z] [br-20260518T171834Z] [INFO] B2 sync deferred to host (rclone missing)

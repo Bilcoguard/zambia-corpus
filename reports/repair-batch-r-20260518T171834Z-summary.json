@@ -1,0 +1,13 @@
+{
+  "batch": "r-20260518T171834Z",
+  "candidates": 1,
+  "attempted": 1,
+  "repaired": 1,
+  "skipped": 0,
+  "records_pre": 1961,
+  "records_post": 1961,
+  "fts_pre": 1961,
+  "fts_post": 1961,
+  "quick_check": "ok",
+  "elapsed_s": 10
+}
