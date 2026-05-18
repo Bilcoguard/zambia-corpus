@@ -6413,3 +6413,24 @@ b0694	2026-05-18T09:34:40Z	fetch_html	bytes=39351	sec=0.74
 b0694	2026-05-18T09:34:40Z	fetch_pdf	bytes=368464	sec=0.61
 b0694	2026-05-18T09:34:42Z	fetch_html	bytes=38837	sec=0.74
 b0694	2026-05-18T09:34:43Z	fetch_pdf	bytes=177372	sec=0.57
+b0695	2026-05-18T10:12:25Z	fetch_html	bytes=38861	sec=1.39
+b0695	2026-05-18T10:12:26Z	fetch_pdf	bytes=266000	sec=0.68
+b0695	2026-05-18T10:12:30Z	fetch_html	bytes=38657	sec=0.89
+b0695	2026-05-18T10:12:30Z	fetch_pdf	bytes=107843	sec=0.44
+b0695	2026-05-18T10:12:34Z	fetch_html	bytes=39069	sec=0.90
+b0695	2026-05-18T10:12:34Z	fetch_pdf	bytes=331464	sec=0.72
+b0695	2026-05-18T10:12:37Z	fetch_html	bytes=38885	sec=0.97
+b0695	2026-05-18T10:12:38Z	fetch_pdf	bytes=159638	sec=0.53
+b0695	2026-05-18T10:12:40Z	fetch_html	bytes=39260	sec=0.96
+b0695	2026-05-18T10:12:41Z	fetch_pdf	bytes=197154	sec=0.62
+b0695	2026-05-18T10:12:43Z	fetch_html	bytes=39077	sec=0.96
+b0695	2026-05-18T10:12:44Z	fetch_pdf	bytes=159075	sec=0.60
+b0695	2026-05-18T10:12:46Z	fetch_html	bytes=38961	sec=0.94
+b0695	2026-05-18T10:12:47Z	fetch_pdf	bytes=1227928	sec=0.93
+b0695	2026-05-18T10:12:49Z	fetch_html	bytes=40017	sec=0.92
+b0695	2026-05-18T10:12:50Z	fetch_pdf	bytes=173719	sec=0.60
+b0695-jiw	2026-05-18T10:00:00Z	tick_start	target=ZMCC-2025-reparse-14-17	max_batch=4
+b0695-jiw	2026-05-18T10:06:30Z	pdf_extract	files=4	total_pages=153	total_body_chars=174935	no_net_fetch
+b0695-jiw	2026-05-18T10:13:03Z	db_promote	from=stage to=live	size=118898688	records=1939	records_fts=1939
+b0695-jiw	2026-05-18T10:16:00Z	tick_complete	inserted=3	deferred=1	fetches=0/500-day-budget
+b0695-jiw	2026-05-18T10:18:30Z	concurrent_worker_recovery	7_si_bodies_restored_from_backup	cause=stage-promote-race-with-repair-worker

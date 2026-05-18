@@ -1,0 +1,70 @@
+{
+  "id": "judgment-zm-2025-zmcc-17-isaac-mwanza-v-national-assembly-of-zambia-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Isaac Mwanza v National Assembly of Zambia, Attorney General and Electoral Commission of Zambia (2024/CCZ/0022) [2025] ZMCC 17 (27 August 2025)",
+  "citation": "[2025] ZMCC 17",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Isaac Mwanza v National Assembly of Zambia, Attorney General and Electoral Commission of Zambia",
+  "case_number": "2024/CCZ/0022",
+  "date_decided": "2025-08-27",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "PC (presiding)",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "DPC",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "JC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "Articles 72(2)(c), 72(8) — vacancy in office of Member of Parliament",
+    "Article 79 — additional grounds for vacancy",
+    "Article 5(2), Article 119, Article 134(a)",
+    "section 96(1)(b) Electoral Process Act No. 35 of 2016",
+    "Standing Order 223 — Standing Orders of the National Assembly 2024",
+    "Parliamentary and Ministerial Code of Conduct Act, Chapter 16",
+    "National Assembly (Powers and Privileges) Act, Chapter 12",
+    "Order IV rule 2 CCR — required content of a petition",
+    "Petauke Constituency by-election"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Petition dismissed. The Court held that the Petition is not properly before the Court (failure to comply with Order IV rule 2 of the Constitutional Court Rules — paragraphs 15–33 of the petition were mere surplusage setting out provisions of the law rather than the constitutional provisions allegedly breached; in addition the Petitioner did not plead matters concerning the by-election and so no relief could be granted in respect of relief 'viii'). No order as to costs.",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/17/eng@2025-08-27",
+  "raw_sha256": "2759ceeb701621bce2acaede8d33c3acb56722ab8c5ca59bd5c16e432c925b0c",
+  "source_hash": "sha256:2759ceeb701621bce2acaede8d33c3acb56722ab8c5ca59bd5c16e432c925b0c",
+  "fetched_at": "2026-05-18T10:13:03Z",
+  "parser_version": "0.3.2-jiw-b0695-hand-curated",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": []
+}

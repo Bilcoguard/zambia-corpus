@@ -1,0 +1,67 @@
+{
+  "id": "judgment-zm-2025-zmcc-15-tresford-chali-v-judicial-complaints-commission-and-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Tresford Chali v Judicial Complaints Commission and Attorney General [2025] ZMCC 15 (23 July 2025)",
+  "citation": "[2025] ZMCC 15",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Tresford Chali v Judicial Complaints Commission and Attorney General",
+  "case_number": null,
+  "date_decided": "2025-07-23",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "DPC (presiding)",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "JC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "locus standi — Article 1(5), Article 2, Article 128",
+    "public-interest litigation (s.11(2)(c) Constitutional Court Act)",
+    "preliminary objection on standing",
+    "Judicial Complaints Commission qualifications (Articles 122, 143, 144, 216, 236)",
+    "Judicial Code of Conduct Act No. 13 of 1999 (as amended)",
+    "extended (vs narrow 'own interest') constitutional standing"
+  ],
+  "outcome": "other",
+  "outcome_detail": "Interlocutory ruling on the preliminary issue of locus standi: the Court held that the Petitioner, acting in the public interest, has sufficient standing under Articles 1(5), 2 and 128 of the Constitution as read with section 11(2)(c) of the Constitutional Court Act No. 8 of 2016. The Court ordered that the matter proceed to trial in open Court on 29 July 2025. No order as to costs.",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/15/eng@2025-07-23",
+  "raw_sha256": "66d8f5f48be943ffb18c5d51e12607f7a166373e95c90cf40bf5857332aaf13f",
+  "source_hash": "sha256:66d8f5f48be943ffb18c5d51e12607f7a166373e95c90cf40bf5857332aaf13f",
+  "fetched_at": "2026-05-18T10:13:03Z",
+  "parser_version": "0.3.2-jiw-b0695-hand-curated",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": []
+}

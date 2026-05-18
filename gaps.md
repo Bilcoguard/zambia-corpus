@@ -11353,3 +11353,74 @@ Wall-clock: ~10 minutes (budget 20). No commit-mutation; logs/report only.
   `_stale_b0694_*`, then run with `PRAGMA journal_mode=MEMORY; synchronous=OFF`.
   Recommend host-side: grant unlink permission on the corpus mount, or pin
   SQLite to a tmpfs-backed temp dir.
+
+
+## b0695-jiw (2026-05-18T10:00Z–10:18Z) — ZMCC 2025 reparse +3 records (priority-a, hand-curated)
+
+Continued ZambiaLII ZMCC 2025 reparse backlog drainage following b0687-jiw's methodology. 4 candidates attempted (ZMCC 2025/14, 15, 16, 17), 3 inserted, 1 deferred on case_number collision.
+
+### Records inserted (3)
+
+- `judgment-zm-2025-zmcc-14-the-people-v-john-sinkamba-and-ors` (2025/CCZ/R001, 2025-07-25) — constitutional reference under Article 128(1)(b); opinion on definition of "child" under Article 266 of the Constitution. Outcome `other`. Coram: Munalula PC, Shilimi DPC, Musaluke JC (opinion), Mulife JC + Mwandenga JC (concurring). raw_sha256=`2d2e99f95bc0a3c81d2a274f3833798996d7d4dc23c567369dee28cf97eb6dbc`.
+- `judgment-zm-2025-zmcc-15-tresford-chali-v-judicial-complaints-commission-and-attorney-general` (case_number=NULL, 2025-07-23) — interlocutory Ruling on locus standi. Standing upheld; matter ordered to proceed to trial on 29 July 2025. Outcome `other`. Coram: Shilimi DPC + 6 JJC. raw_sha256=`66d8f5f48be943ffb18c5d51e12607f7a166373e95c90cf40bf5857332aaf13f`.
+- `judgment-zm-2025-zmcc-17-isaac-mwanza-v-national-assembly-of-zambia-and-ors` (2024/CCZ/0022, 2025-08-27) — petition dismissed for non-compliance with Order IV rule 2 of the CCR (surplusage in paragraphs 15–33; failure to plead by-election matters). Outcome `dismissed`. Coram: Munalula PC + 6 JJC. raw_sha256=`2759ceeb701621bce2acaede8d33c3acb56722ab8c5ca59bd5c16e432c925b0c`.
+
+### Records deferred (1)
+
+- `judgment-zm-2025-zmcc-16-miles-bwalya-sampa-v-attorney-general-and-4-ors` — single-judge Chambers ruling (Mwandenga JC) granting LAZ amicus curiae leave to comply out of time, decided 2025-08-25. Source PDF on disk and parses cleanly (raw_sha256=`3872bdea60a246723ef3505b3a62b7844bbc50dad0ec1e8e21d79efda58f5c7a`, 32 pages, body_len=45,724). **Deferred because case_number `2024/CCZ/0024` collides with the existing record `judgment-zm-2025-zmcc-06-miles-bwalya-sampa-v-attorney-general`** (b0687-inserted, [2025] ZMCC 6, decided 2025-03-24). Both rulings are legitimate distinct proceedings in the same petition — ZMCC 6 was the substantive ruling on the merits of the s.13 CCA summons; ZMCC 16 is an interlocutory ruling on the amicus curiae application by LAZ before a single judge. The current SKILL.md dedup rule (case_number match → SKIP) was honoured to avoid the policy risk of inserting an apparent "duplicate", but this rule produces a false-positive in the case of multi-ruling petitions and should be revised. Cohort: `case_number-collision-multiple-rulings-same-petition`.
+
+### Integrity checks
+
+| Check | Result | Notes |
+|---|---|---|
+| CHECK1 | PASS | All 3 records have ≥1 judge in `judges[]` (5, 7, 7) |
+| CHECK2 | PASS | `issue_tags` non-empty for all 3 (6, 7, 10 tags respectively) |
+| CHECK3 | PASS | Outcomes from allowed enum: 2×`other`, 1×`dismissed` |
+| CHECK4 | PASS | All judge canonical names resolve in `judges_registry.yaml` |
+| CHECK5 | PASS | No duplicate IDs |
+| CHECK6 | PASS | `raw_sha256` matches on-disk PDF for all 3 (re-verified post-insert) |
+| CHECK7 | PASS | No duplicate (court + case_name + date_decided) triplets |
+| CHECK8 | **PASS** | `records=1939 == records_fts=1939`; `quick_check=ok`; `integrity_check=ok` |
+
+### Sweep cursors (updated)
+
+- `judiciary-coa-sweep`: page-9 (unchanged — scanned-PDF cliff)
+- `judiciary-scz-sweep`: page-2 (unchanged)
+- `judiciary-zmcc-sweep`: not yet started (unchanged)
+- `judiciary-hc-sweep`: not yet started (unchanged)
+- **ZambiaLII ZMCC 2025 reparse backlog**: 10 → 7 remaining (resolved 3 of 10; remaining: ZMCC 16 [deferred — collision], 18, 19, 21, 24, 28, 33)
+- **ZambiaLII ZMCC 2024 reparse backlog**: 4 remaining unchanged (2024/22, /23, /25, /27)
+
+### Outstanding deferred records (cumulative)
+
+- `judgment-zm-2020-coa-113-chisumpa-liandisha-v-the-people` — truncated source PDF from judiciaryzambia.com (carry-over from prior batches).
+- **NEW** `judgment-zm-2025-zmcc-16-miles-bwalya-sampa-v-attorney-general-and-4-ors` — case_number-collision-multiple-rulings-same-petition (this tick).
+
+### Fetch cost
+
+- Network fetches: **0** (zero net-new HTTP requests; all source files already on disk from prior probe/sweep ticks)
+- JIW daily budget: 0 / 500 used.
+
+### Recommended priority for next JIW tick
+
+1. **First**: priority-(a) REPARSE — ZMCC 2025/18, 19, 21, 24 (4 records, hand-curated, zero-fetch).
+2. **Second**: priority-(a) REPARSE — ZMCC 2025/28, /33 + ZMCC 2024 deferrals 2024/22, /23, /25, /27 (6 records, hand-curated).
+3. **Third**: priority-(b) CoA NEW from judiciaryzambia.com — Josias Mtonga (app-110-2024), Skab Merchants (app-344-2023), Tulambo Kumwenda (app-47-2025). 3 records, ~6 fetches.
+4. **Maintainer action**: ZMCC 16 dedup-policy decision — recommend treating case_number+citation as the dedup tuple, not case_number alone, so that multiple rulings in the same petition can be ingested.
+
+### Wall-clock
+
+Start: 2026-05-18T10:00Z. Finish: 2026-05-18T~10:18Z. Elapsed: ~18 min. Budget: 20 min. Headroom: ~2 min.
+
+### Concurrent-worker race + recovery (post-promote addendum to b0695-jiw)
+
+A concurrent repair-worker session ("amazing-nifty-planck") simultaneously chose batch ID **b0695** for its scheduled-task run, writing `scripts/repair_b0695.py`, `reports/repair-batch-b0695.md`, and `reports/repair-batch-b0695-summary.json`. That repair tick (started ~10:11Z, elapsed 27.7 s) repaired 8 SI bodies in-place. My JIW tick's **stage-copy at ~10:10Z preceded 7 of the 8 SI body writes**, and my **promote at 10:13Z overwrote those 7 SI bodies back to empty strings**. The first SI (`si-zm-2021-056`) survived because its body had been written before my stage-copy.
+
+Recovery (at 10:18Z) read the 7 lost SI body+title+citation+type values from `corpus.sqlite.bak.b0695-jiw-pre-20260518T101303Z` (the pre-promote backup), then applied `UPDATE records` and `DELETE+INSERT records_fts` for each. Post-recovery: records=1939, records_fts=1939, quick_check=ok, integrity_check=ok. Reported repair-worker body lengths (81397/102273/33333/19253/3369/2517/35531/3112) all match the live DB post-recovery. My 3 ZMCC inserts (zmcc-14/15/17) remained preserved throughout.
+
+**Cohort**: `stage-promote-race-with-concurrent-repair-worker`. This is the first observed instance of this failure mode. The stage-and-replace promote pattern is inherently unsafe when other workers are mutating the live DB. Recommended remediations:
+
+1. Adopt direct in-place UPDATE/INSERT on live `corpus.sqlite` under `journal_mode=MEMORY` instead of stage-and-replace file copy.
+2. Introduce a `.corpus-mutation.lock` file (with worker class + PID + timestamp) and a precondition that any worker performing a DB mutation must hold the lock.
+3. Enforce worker-class prefixing of batch IDs (e.g., `b0695-jiw` vs `b0695-repair`) at the source so that no two simultaneous workers can collide on file paths.
+4. Update SKILL.md to document this failure mode and add an explicit pre-promote "re-diff live DB against stage" step.

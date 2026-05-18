@@ -8779,3 +8779,57 @@ test append Mon May 18 00:44:14 CAT 2026
 [2026-05-18T09:34:45Z] b0694 PRAGMA quick_check: ok
 [2026-05-18T09:36:13Z] b0694 B2 sync deferred to host (rclone not available in sandbox)
 [2026-05-18T09:36:13Z] b0694 COMPLETE 8 SIs repaired, integrity ok, 73 remaining
+[2026-05-18T10:12:24Z] b0695 Identified 73 no-body acts/sis (Condition B)
+[2026-05-18T10:12:24Z] b0695 Condition A (corrupted): 0
+[2026-05-18T10:12:24Z] b0695 Condition C (stubs): 0
+[2026-05-18T10:12:24Z] b0695 Total dedup targets: 73; picking up to 8
+[2026-05-18T10:12:24Z] b0695 REPAIR start id=si-zm-2021-056-metrology-pre-packaged-commodities-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/56
+[2026-05-18T10:12:28Z] b0695 REPAIR ok id=si-zm-2021-056-metrology-pre-packaged-commodities-regulations-2021 body_len=81397 hash=7f66375d6809
+[2026-05-18T10:12:29Z] b0695 REPAIR start id=si-zm-2021-057-electoral-process-revision-of-wards-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/57
+[2026-05-18T10:12:32Z] b0695 REPAIR ok id=si-zm-2021-057-electoral-process-revision-of-wards-order-2021 body_len=102273 hash=911c5b0ffb1c
+[2026-05-18T10:12:33Z] b0695 REPAIR start id=si-zm-2021-058-data-protection-registration-and-licensing-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/58
+[2026-05-18T10:12:35Z] b0695 REPAIR ok id=si-zm-2021-058-data-protection-registration-and-licensing-regulations-2021 body_len=33333 hash=7cbe1f0e874b
+[2026-05-18T10:12:36Z] b0695 REPAIR start id=si-zm-2021-059-metrology-certification-of-competence-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/59
+[2026-05-18T10:12:38Z] b0695 REPAIR ok id=si-zm-2021-059-metrology-certification-of-competence-regulations-2021 body_len=19253 hash=8a380fcfc1d5
+[2026-05-18T10:12:39Z] b0695 REPAIR start id=si-zm-2021-060-zambia-development-agency-jiangxi-multi-facility-economic-zone-declaration-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/60
+[2026-05-18T10:12:41Z] b0695 REPAIR ok id=si-zm-2021-060-zambia-development-agency-jiangxi-multi-facility-economic-zone-declaration-order-2021 body_len=3369 hash=4ed4c256fb05
+[2026-05-18T10:12:42Z] b0695 REPAIR start id=si-zm-2021-062-customs-and-excise-ports-of-entry-and-routes-amendment-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/62
+[2026-05-18T10:12:44Z] b0695 REPAIR ok id=si-zm-2021-062-customs-and-excise-ports-of-entry-and-routes-amendment-order-2021 body_len=2517 hash=ca6c203889f4
+[2026-05-18T10:12:45Z] b0695 REPAIR start id=si-zm-2021-066-forest-carbon-stock-management-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/66
+[2026-05-18T10:12:48Z] b0695 REPAIR ok id=si-zm-2021-066-forest-carbon-stock-management-regulations-2021 body_len=35531 hash=fda32d716444
+[2026-05-18T10:12:49Z] b0695 REPAIR start id=si-zm-2021-067-national-assembly-general-elections-mandevu-constituency-no-80-kasenengwa-constituency-no-41-lusaka-central-constituency url=https://zambialii.org/akn/zm/act/si/2021/67
+[2026-05-18T10:12:50Z] b0695 REPAIR ok id=si-zm-2021-067-national-assembly-general-elections-mandevu-constituency-no-80-kasenengwa-constituency-no-41-lusaka-central-constituency body_len=3112 hash=99b4885bf86e
+[2026-05-18T10:12:51Z] b0695 INTEGRITY records=1936 records_fts=1936 match=True
+[2026-05-18T10:12:51Z] b0695 PRAGMA quick_check: ok
+[2026-05-18T10:13:02Z] b0695 B2 sync deferred to host (rclone not available in sandbox)
+[2026-05-18T10:13:02Z] b0695 COMPLETE 8 SIs repaired, integrity ok, 65 remaining
+[2026-05-18T10:00:00Z] [b0695-jiw] start TICK=judgment-ingestion-worker target=ZMCC-2025-reparse-14-17 priority=(a) max_batch=4
+[2026-05-18T10:00:30Z] [b0695-jiw] PRECOND git-pull=already-up-to-date; corpus.sqlite quick_check=ok; records=1936 records_fts=1936; parity=OK; costs.log-today-pre=42
+[2026-05-18T10:01:00Z] [b0695-jiw] TOOLING pdfplumber=0.11.9 pypdf=3.17.4 pdfminer=OK; stale-journals=(_stale_b0521,_stale_b0553,_stale_b0694)-already-renamed; no fresh corpus.sqlite-journal blocking access
+[2026-05-18T10:02:00Z] [b0695-jiw] CANDIDATES ZMCC-2025-14 ZMCC-2025-15 ZMCC-2025-16 ZMCC-2025-17 (all raw HTML+PDF on disk under raw/zambialii/judgments/zmcc/2025/)
+[2026-05-18T10:05:00Z] [b0695-jiw] PDF_EXTRACT zmcc-14 pages=20 body_len=23368 sha256=2d2e99f95bc0a3c81d2a274f3833798996d7d4dc23c567369dee28cf97eb6dbc
+[2026-05-18T10:05:30Z] [b0695-jiw] PDF_EXTRACT zmcc-15 pages=42 body_len=24185 sha256=66d8f5f48be943ffb18c5d51e12607f7a166373e95c90cf40bf5857332aaf13f
+[2026-05-18T10:06:00Z] [b0695-jiw] PDF_EXTRACT zmcc-16 pages=32 body_len=45724 sha256=3872bdea60a246723ef3505b3a62b7844bbc50dad0ec1e8e21d79efda58f5c7a
+[2026-05-18T10:06:30Z] [b0695-jiw] PDF_EXTRACT zmcc-17 pages=59 body_len=81658 sha256=2759ceeb701621bce2acaede8d33c3acb56722ab8c5ca59bd5c16e432c925b0c
+[2026-05-18T10:08:00Z] [b0695-jiw] CURATE zmcc-14 case=2025/CCZ/R001 date=2025-07-25 coram=5(Munalula,Shilimi,Musaluke,Mulife,Mwandenga-concurring) outcome=other(constitutional-reference-Article-266-definition-of-child)
+[2026-05-18T10:08:30Z] [b0695-jiw] CURATE zmcc-15 case=NULL(not-legibly-extractable) date=2025-07-23 coram=7(Shilimi-DPC,Musaluke,Chisunka,Mulongoti,Mwandenga,Kawimbe,Mulife) outcome=other(interlocutory-locus-standi-upheld)
+[2026-05-18T10:09:00Z] [b0695-jiw] CURATE zmcc-16 case=2024/CCZ/0024 date=2025-08-25 coram=1(Mwandenga-single-Chambers) outcome=granted(amicus-leave-out-of-time) — will-check-dedup
+[2026-05-18T10:09:30Z] [b0695-jiw] CURATE zmcc-17 case=2024/CCZ/0022 date=2025-08-27 coram=7(Munalula,Shilimi,Musaluke,Chisunka,Mulongoti,Mwandenga,Mulife) outcome=dismissed(Order-IV-rule-2-non-compliance)
+[2026-05-18T10:10:00Z] [b0695-jiw] STAGE_DB copy /sessions/zen-quirky-brown/jiw_b0695/corpus_work.sqlite 118898688 bytes; PRAGMA journal_mode=MEMORY synchronous=OFF
+[2026-05-18T10:10:30Z] [b0695-jiw] DEDUP_CHECK zmcc-14 ok-no-collision; zmcc-15 ok-no-collision; zmcc-16 SKIP case_number=2024/CCZ/0024 collides-with judgment-zm-2025-zmcc-06-miles-bwalya-sampa-v-attorney-general (b0687-inserted); zmcc-17 ok-no-collision
+[2026-05-18T10:11:00Z] [b0695-jiw] INSERTED zmcc-14 records+records_fts+judgments_meta
+[2026-05-18T10:11:10Z] [b0695-jiw] INSERTED zmcc-15 records+records_fts+judgments_meta
+[2026-05-18T10:11:20Z] [b0695-jiw] INSERTED zmcc-17 records+records_fts+judgments_meta
+[2026-05-18T10:11:30Z] [b0695-jiw] STAGE_VERIFY records=1939 records_fts=1939 judgments_meta=246 quick_check=ok integrity_check=ok per-record-row-verify=PASS(3/3)
+[2026-05-18T10:12:00Z] [b0695-jiw] PROMOTE backup→corpus.sqlite.bak.b0695-jiw-pre-20260518T101303Z then copyfileobj stage→live preserves-inode/FUSE-mount
+[2026-05-18T10:13:03Z] [b0695-jiw] LIVE_VERIFY records=1939 records_fts=1939 judgments_meta=246 quick_check=ok integrity_check=ok all-3-new-records-present-in-all-3-tables CHECKS=1..8-PASS
+[2026-05-18T10:14:00Z] [b0695-jiw] WRITE_RECORDS records/judgments/zmcc/2025/judgment-zm-2025-zmcc-14-the-people-v-john-sinkamba-and-ors.json (2124 bytes)
+[2026-05-18T10:14:10Z] [b0695-jiw] WRITE_RECORDS records/judgments/zmcc/2025/judgment-zm-2025-zmcc-15-tresford-chali-v-judicial-complaints-commission-and-attorney-general.json (2397 bytes)
+[2026-05-18T10:14:20Z] [b0695-jiw] WRITE_RECORDS records/judgments/zmcc/2025/judgment-zm-2025-zmcc-17-isaac-mwanza-v-national-assembly-of-zambia-and-ors.json (2719 bytes)
+[2026-05-18T10:15:00Z] [b0695-jiw] WRITE_REPORT reports/jiw-batch-b0695.md
+[2026-05-18T10:15:30Z] [b0695-jiw] B2_SYNC deferred-to-host-rclone-not-in-sandbox
+[2026-05-18T10:16:00Z] [b0695-jiw] FINAL verdict=tick-complete-3-records-inserted-1-deferred inserted=3 deferred=1(case_number-collision-zmcc-16) records=1939 records_fts=1939 judgments_meta=246 fetches=0/500-day-budget wall-clock~=16min next-priority=continue-ZMCC-2025-reparse-18-19-21-24
+[2026-05-18T10:18:00Z] [b0695-jiw] CONCURRENT_WORKER_RACE_DETECTED post-promote inspection found concurrent repair-worker session "amazing-nifty-planck" had ALSO chosen batch ID b0695 (script: scripts/repair_b0695.py; report: reports/repair-batch-b0695.md). Their tick (started ~10:11Z, finished ~10:12Z, elapsed 27.7s) repaired 8 SI bodies (si-zm-2021-056/057/058/059/060/062/066/067 — lengths 81397/102273/33333/19253/3369/2517/35531/3112). My stage-copy at ~10:10Z captured corpus.sqlite BEFORE 7 of those 8 mutations landed (056 had already been written; 057..067 wrote between 10:10Z and 10:12Z). My promote at 10:13Z therefore OVERWROTE 7 of the 8 SI body+FTS rows back to empty-string state.
+[2026-05-18T10:18:30Z] [b0695-jiw] RECOVERY restored 7 SI bodies from corpus.sqlite.bak.b0695-jiw-pre-20260518T101303Z via SELECT-from-backup → UPDATE-records + DELETE+INSERT-records_fts. 056 left untouched (already at correct len=81397 in live). Post-recovery integrity: records=1939 records_fts=1939 quick_check=ok integrity_check=ok. All 8 SI body lengths now match repair-worker's reported lengths (81397/102273/33333/19253/3369/2517/35531/3112). My 3 ZMCC inserts (zmcc-14/15/17) preserved and verified post-recovery.
+[2026-05-18T10:19:00Z] [b0695-jiw] LESSONS_LEARNED stage-promote pattern + concurrent-writer mutation is INHERENTLY unsafe in this shared sandbox. Future JIW ticks should either (a) use direct in-place UPDATEs/INSERTs on live corpus.sqlite under journal_mode=MEMORY (no stage-and-replace), or (b) re-check live DB state at promote-time and merge only newly-affected rows rather than blind file copy. Recommend adding explicit "concurrent-worker lock" file in repo root (e.g., .corpus-mutation.lock with worker-id and PID) and a require-lock-acquired precondition for any worker that performs file-level DB replacement.
+[2026-05-18T10:19:30Z] [b0695-jiw] BATCH_ID_COLLISION note: scheduled task framework appears to allow simultaneous workers to pick the same numeric batch ID. Recommend prefixing batch IDs by worker-class (e.g., "b0695-jiw" vs "b0695-repair") at the source, and updating SKILL.md guidance to enforce this naming convention.

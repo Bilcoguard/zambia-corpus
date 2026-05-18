@@ -1,0 +1,56 @@
+{
+  "id": "judgment-zm-2025-zmcc-14-the-people-v-john-sinkamba-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "The People v John Sinkamba and Others (2025/CCZ/R001) [2025] ZMCC 14 (25 July 2025)",
+  "citation": "[2025] ZMCC 14",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "The People v John Sinkamba and Others",
+  "case_number": "2025/CCZ/R001",
+  "date_decided": "2025-07-25",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "PC (presiding)",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "DPC",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "JC (opinion of the Court)",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "JC (concurring)",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "constitutional reference from High Court (Family Division)",
+    "Article 128(1)(b) interpretation jurisdiction",
+    "Article 266 — definition of 'child'",
+    "Children's Code Act No. 12 of 2022 section 71",
+    "purposive interpretation of the Constitution"
+  ],
+  "outcome": "other",
+  "outcome_detail": "Constitutional reference answered: under Article 266 of the Constitution, a 'child' is an individual who has reached the age of 18 or is below the age of 18; section 2 of the Children's Code Act incorporates this same definition by reference; the Court declined to interpret section 71(2) of the Children's Code (which refers to persons below 19) as outside the scope of the referred question. Mwandenga JC rendered a concurring opinion.",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/14/eng@2025-07-25",
+  "raw_sha256": "2d2e99f95bc0a3c81d2a274f3833798996d7d4dc23c567369dee28cf97eb6dbc",
+  "source_hash": "sha256:2d2e99f95bc0a3c81d2a274f3833798996d7d4dc23c567369dee28cf97eb6dbc",
+  "fetched_at": "2026-05-18T10:13:03Z",
+  "parser_version": "0.3.2-jiw-b0695-hand-curated",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": []
+}

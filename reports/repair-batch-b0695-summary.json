@@ -1,0 +1,51 @@
+{
+  "batch": "b0695",
+  "parser": "repair-0.6.95",
+  "identified_no_body": 73,
+  "identified_corrupted": 0,
+  "identified_stub": 0,
+  "dedup_targets": 73,
+  "repaired": 8,
+  "failed": 0,
+  "remaining": 65,
+  "records": 1936,
+  "records_fts": 1936,
+  "integrity_match": true,
+  "quick_check": "ok",
+  "elapsed_sec": 27.7,
+  "repaired_ids": [
+    [
+      "si-zm-2021-056-metrology-pre-packaged-commodities-regulations-2021",
+      "len=81397"
+    ],
+    [
+      "si-zm-2021-057-electoral-process-revision-of-wards-order-2021",
+      "len=102273"
+    ],
+    [
+      "si-zm-2021-058-data-protection-registration-and-licensing-regulations-2021",
+      "len=33333"
+    ],
+    [
+      "si-zm-2021-059-metrology-certification-of-competence-regulations-2021",
+      "len=19253"
+    ],
+    [
+      "si-zm-2021-060-zambia-development-agency-jiangxi-multi-facility-economic-zone-declaration-order-2021",
+      "len=3369"
+    ],
+    [
+      "si-zm-2021-062-customs-and-excise-ports-of-entry-and-routes-amendment-order-2021",
+      "len=2517"
+    ],
+    [
+      "si-zm-2021-066-forest-carbon-stock-management-regulations-2021",
+      "len=35531"
+    ],
+    [
+      "si-zm-2021-067-national-assembly-general-elections-mandevu-constituency-no-80-kasenengwa-constituency-no-41-lusaka-central-constituency",
+      "len=3112"
+    ]
+  ],
+  "failed_ids": []
+}
