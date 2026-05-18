@@ -9607,3 +9607,136 @@ remote: error: GH001: Large fil
 [2026-05-18T16:26:06Z] [repair-r-20260518T162540Z] INTEGRITY records=1961 records_fts=1961 qc=ok
 [2026-05-18T16:26:06Z] [repair-r-20260518T162540Z] WROTE_REPORT /sessions/zealous-confident-pascal/mnt/corpus/reports/repair-batch-r-20260518T162540Z.md
 [2026-05-18T16:26:06Z] [repair-r-20260518T162540Z] RCLONE not_available — B2 sync deferred to host
+[2026-05-18T16:26:06Z] [repair-r-20260518T162540Z] GIT_READ_TREE rc=0
+[2026-05-18T16:26:09Z] [repair-r-20260518T162540Z] WRITE_TREE tree=8ccb758b3e66
+[2026-05-18T16:26:09Z] [repair-r-20260518T162540Z] COMMIT_TREE commit=1b3aaf6a48fe parent=4b1f45ffb418
+[2026-05-18T16:26:09Z] [repair-r-20260518T162540Z] REF_WRITE refs/heads/main -> 1b3aaf6a48fe
+[2026-05-18T16:28:09Z] [repair-r-20260518T162540Z] GIT_PUSH attempt=1 rc=1
+[2026-05-18T16:28:09Z] [repair-r-20260518T162540Z] GIT_PUSH_STDERR remote: error: Trace: 7d8201c9b3d6859a275821610a2245a397d907430e8d3aae239be09c5fd22420        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File corpus.sqlite is 113.39 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To htt
+[2026-05-18T16:28:09Z] [repair-r-20260518T162540Z] PUSH rejected for file-size; rebuilding commit without corpus.sqlite
+[2026-05-18T16:28:09Z] [repair-r-20260518T162540Z] COMMIT_TREE_RETRY commit=fb3f9492a4ad
+[2026-05-18T16:28:12Z] [repair-r-20260518T162540Z] GIT_PUSH attempt=2 rc=0
+[2026-05-18T16:28:12Z] [repair-r-20260518T162540Z] GIT_PUSH_OK_RETRY 4b1f45ffb418..fb3f9492a4ad main -> main (without corpus.sqlite)
+[2026-05-18T16:28:12Z] [repair-r-20260518T162540Z] TICK_END pushed=True repaired=8 failed=0 elapsed=151.8s
+[2026-05-18T16:13:50Z] [b0709-jiw] [INFO] git pull ok: Already up to date.
+[2026-05-18T16:13:50Z] [b0709-jiw] [INFO] fetches today (jiw): ~64/500
+[2026-05-18T16:13:50Z] [b0709-jiw] [INFO] pre-tick: records=1961 records_fts=1961
+[2026-05-18T16:13:50Z] [b0709-jiw] [INFO] == Sweep: SCZ page-2 ==
+[2026-05-18T16:13:53Z] [b0709-jiw] [INFO]   16 candidate posts
+[2026-05-18T16:13:55Z] [b0709-jiw] [INFO]   - deferred:no-pdf-url-found: https://judiciaryzambia.com/the-child-justice-forum/
+[2026-05-18T16:13:58Z] [b0709-jiw] [WARN] FETCH FAIL https://judiciaryzambia.com/wp-content/uploads/2026/02/2023HPFD237-Bridget-Chitambala-Banda-Vs-Billy-Banda-2024-–-Matandala-J.pdf: 'ascii' codec can't encode character '\u2013' in position 89: ordinal not in range(128)
+[2026-05-18T16:14:00Z] [b0709-jiw] [WARN] FETCH FAIL https://judiciaryzambia.com/wp-content/uploads/2026/02/2023HPFD237-Bridget-Chitambala-Banda-Vs-Billy-Banda-2024-–-Matandala-J.pdf: 'ascii' codec can't encode character '\u2013' in position 89: ordinal not in range(128)
+[2026-05-18T16:14:00Z] [b0709-jiw] [INFO]   - deferred:pdf-fetch-fail:UnicodeEncodeError: https://judiciaryzambia.com/2023-hpf-d237-bridget-chitambala-banda-vs-billy-band
+[2026-05-18T16:14:02Z] [b0709-jiw] [WARN] FETCH FAIL https://judiciaryzambia.com/wp-content/uploads/2025/09/SCZ-7-32-2024-Kapsch-Trafficcom-South-Africa-Holding-Pty-Ltd-Vs-Intelligent-Mobility-Solutions-Lt-–-Sep-2025-–-Justice-Malila-Kaoma-Chisanga-JJS.pdf: 'ascii' codec can't encode character '\u2013' in position 130: ordinal not in range(128)
+[2026-05-18T16:14:04Z] [b0709-jiw] [WARN] FETCH FAIL https://judiciaryzambia.com/wp-content/uploads/2025/09/SCZ-7-32-2024-Kapsch-Trafficcom-South-Africa-Holding-Pty-Ltd-Vs-Intelligent-Mobility-Solutions-Lt-–-Sep-2025-–-Justice-Malila-Kaoma-Chisanga-JJS.pdf: 'ascii' codec can't encode character '\u2013' in position 130: ordinal not in range(128)
+[2026-05-18T16:14:04Z] [b0709-jiw] [INFO]   - deferred:pdf-fetch-fail:UnicodeEncodeError: https://judiciaryzambia.com/scz-7-32-2024-kapsch-trafficcom-south-africa-holding
+[2026-05-18T16:14:18Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/scz-7-25-2024-emmanuel-tumba-and-6-others-vs-zambia-
+[2026-05-18T16:14:32Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/appeal-no-10-of-2025-ronald-kaoma-chitotela-vs-anti-
+[2026-05-18T16:14:58Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/scz-8-01-2021-attorney-general-and-commission-of-lan
+[2026-05-18T16:15:36Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/appeal-no-4-of-2020-attorney-general-vs-rajan-mahtha
+[2026-05-18T16:16:09Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/app-4-of-2020-the-attorney-general-vs-rajan-mahthani
+[2026-05-18T16:16:22Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/scz-8-011-2022-faustin-kabwe-bimal-thaker-vs-ndola-t
+[2026-05-18T16:16:37Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/app-no-07-2024-star-drilling-and-exploration-ltd-vs-
+[2026-05-18T16:16:55Z] [b0709-jiw] [INFO]   - deferred:duplicate-source-hash-in-batch: https://judiciaryzambia.com/app-no-07-2024-star-drilling-and-exploration-ltd-vs-
+[2026-05-18T16:17:17Z] [b0709-jiw] [ERROR]   EXCEPTION https://judiciaryzambia.com/app-04-2023-zamtel-vs-felix-musonda-and-29-others-feb-2025-justice-musonda-wood-chisanga-jjs/: disk I/O error
+Traceback (most recent call last):
+  File "/tmp/jiw_tick_b0709.py", line 641, in main
+    status, _rec = process_post(post_url, court_name, court_dir, conn, NOW, fetched_hashes)
+  File "/tmp/jiw_tick_b0709.py", line 449, in process_post
+    cur.execute("SELECT id FROM records WHERE source_hash = ? OR source_hash = ? LIMIT 1",
+sqlite3.OperationalError: disk I/O error
+
+[2026-05-18T16:17:17Z] [b0709-jiw] [INFO]   - deferred:exception:OperationalError: https://judiciaryzambia.com/app-04-2023-zamtel-vs-felix-musonda-and-29-others-fe
+[2026-05-18T16:17:30Z] [b0709-jiw] [ERROR]   EXCEPTION https://judiciaryzambia.com/2025-ccz-0019-mputa-ngalande-vs-attorney-general-may-2026-munalula-chisunka-mulongoti-kawimbe-and-mulife-jjc/: disk I/O error
+Traceback (most recent call last):
+  File "/tmp/jiw_tick_b0709.py", line 641, in main
+    status, _rec = process_post(post_url, court_name, court_dir, conn, NOW, fetched_hashes)
+  File "/tmp/jiw_tick_b0709.py", line 449, in process_post
+    cur.execute("SELECT id FROM records WHERE source_hash = ? OR source_hash = ? LIMIT 1",
+sqlite3.OperationalError: disk I/O error
+
+[2026-05-18T16:17:30Z] [b0709-jiw] [INFO]   - deferred:exception:OperationalError: https://judiciaryzambia.com/2025-ccz-0019-mputa-ngalande-vs-attorney-general-may
+[2026-05-18T16:17:35Z] [b0709-jiw] [ERROR]   EXCEPTION https://judiciaryzambia.com/false-social-media-claims-alleging-the-resignation-of-the-chief-justice-of-zambia/: disk I/O error
+Traceback (most recent call last):
+  File "/tmp/jiw_tick_b0709.py", line 641, in main
+    status, _rec = process_post(post_url, court_name, court_dir, conn, NOW, fetched_hashes)
+  File "/tmp/jiw_tick_b0709.py", line 449, in process_post
+    cur.execute("SELECT id FROM records WHERE source_hash = ? OR source_hash = ? LIMIT 1",
+sqlite3.OperationalError: disk I/O error
+
+[2026-05-18T16:17:35Z] [b0709-jiw] [INFO]   - deferred:exception:OperationalError: https://judiciaryzambia.com/false-social-media-claims-alleging-the-resignation-o
+[2026-05-18T16:18:18Z] [b0709-jiw] [ERROR]   EXCEPTION https://judiciaryzambia.com/2023-hpf-640-chambata-banda-1-other-vs-simba-international-school-2-others-april-2026-justice-t-s-musonda/: disk I/O error
+Traceback (most recent call last):
+  File "/tmp/jiw_tick_b0709.py", line 641, in main
+    status, _rec = process_post(post_url, court_name, court_dir, conn, NOW, fetched_hashes)
+  File "/tmp/jiw_tick_b0709.py", line 449, in process_post
+    cur.execute("SELECT id FROM records WHERE source_hash = ? OR source_hash = ? LIMIT 1",
+sqlite3.OperationalError: disk I/O error
+
+[2026-05-18T16:18:18Z] [b0709-jiw] [INFO]   - deferred:exception:OperationalError: https://judiciaryzambia.com/2023-hpf-640-chambata-banda-1-other-vs-simba-interna
+[2026-05-18T16:18:24Z] [b0709-jiw] [ERROR]   EXCEPTION https://judiciaryzambia.com/chief-justice-dr-munba-malila-sc-congratulates-hon-mr-justice-martin-sitwala-mwanwambwa-on-his-election-as-president-of-the-comesa-court-of-justice/: disk I/O error
+Traceback (most recent call last):
+  File "/tmp/jiw_tick_b0709.py", line 641, in main
+    status, _rec = process_post(post_url, court_name, court_dir, conn, NOW, fetched_hashes)
+  File "/tmp/jiw_tick_b0709.py", line 449, in process_post
+    cur.execute("SELECT id FROM records WHERE source_hash = ? OR source_hash = ? LIMIT 1",
+sqlite3.OperationalError: disk I/O error
+
+[2026-05-18T16:18:24Z] [b0709-jiw] [INFO]   - deferred:exception:OperationalError: https://judiciaryzambia.com/chief-justice-dr-munba-malila-sc-congratulates-hon-m
+[2026-05-18T16:18:24Z] [b0709-jiw] [INFO] == Sweep: ZMCC page-1 ==
+[2026-05-18T16:18:28Z] [b0709-jiw] [INFO]   15 candidate posts
+[2026-05-18T16:18:30Z] [b0709-jiw] [INFO]   - deferred:no-pdf-url-found: https://judiciaryzambia.com/the-child-justice-forum/
+[2026-05-18T16:18:32Z] [b0709-jiw] [INFO]   - deferred:no-pdf-url-found: https://judiciaryzambia.com/appeal-no-172-2018-like-silishebo-vs-the-people-jun-
+[2026-05-18T16:18:55Z] [b0709-jiw] [INFO]   - deferred:duplicate-source-hash-in-batch: https://judiciaryzambia.com/2025-ccz-0019-mputa-ngalande-vs-attorney-general-may
+[2026-05-18T16:19:15Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2025-ccz-003-zambia-civil-liberties-union-vs-commiss
+[2026-05-18T16:19:27Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2026-ccz-001-peoples-action-for-the-countrys-transfo
+[2026-05-18T16:19:37Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2025-ccz-0011-munir-zulu-vs-the-attorney-general-2-o
+[2026-05-18T16:19:52Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2025-ccz-0010-munir-zulu-vs-the-attorney-general-2-o
+[2026-05-18T16:20:03Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2025-ccz-0025-climate-action-professionals-zambia-vs
+[2026-05-18T16:20:12Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2025-ccz-0032-makebi-zulu-vs-attorney-general-feb-20
+[2026-05-18T16:20:23Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2025-ccz-0029-law-association-of-zambia-5-others-vs-
+[2026-05-18T16:20:42Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2025-ccz-002-morgan-ngona-vs-attorney-general-and-mi
+[2026-05-18T16:20:58Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2024-ccz-0019-tresford-chali-vs-the-judicial-complai
+[2026-05-18T16:21:04Z] [b0709-jiw] [INFO]   - deferred:duplicate-source-hash-in-batch: https://judiciaryzambia.com/false-social-media-claims-alleging-the-resignation-o
+[2026-05-18T16:22:19Z] [b0709-jiw] [INFO]   - deferred:duplicate-source-hash-in-batch: https://judiciaryzambia.com/2023-hpf-640-chambata-banda-1-other-vs-simba-interna
+[2026-05-18T16:22:24Z] [b0709-jiw] [INFO]   - deferred:duplicate-source-hash-in-batch: https://judiciaryzambia.com/chief-justice-dr-munba-malila-sc-congratulates-hon-m
+[2026-05-18T16:22:24Z] [b0709-jiw] [INFO] == Sweep: SCZ page-3 ==
+[2026-05-18T16:22:26Z] [b0709-jiw] [INFO]   16 candidate posts
+[2026-05-18T16:22:29Z] [b0709-jiw] [INFO]   - deferred:no-pdf-url-found: https://judiciaryzambia.com/the-child-justice-forum/
+[2026-05-18T16:22:31Z] [b0709-jiw] [INFO]   - deferred:no-pdf-url-found: https://judiciaryzambia.com/2017-ccz-004-dr-daniel-pule-3-others-v-attorney-gene
+[2026-05-18T16:22:48Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/app-no-1516-2021-davies-chishala-and-tony-nyembe-vs-
+[2026-05-18T16:22:59Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/scz-8-011-2022-faustin-kabwe-1-other-vs-ndola-trust-
+[2026-05-18T16:23:17Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/app-03-2024-road-development-agency-and-safricas-zam
+[2026-05-18T16:23:53Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/app-011-2022-billis-farm-ltd-1-and-molosoni-chipabwa
+[2026-05-18T16:24:14Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/app-011-2023-finsbury-investments-ltd-and-murray-rob
+[2026-05-18T16:24:23Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/scz-8-05-2023-jayesh-shah-vs-mwenda-mwimanenwa-nyamb
+[2026-05-18T16:24:37Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/app-03-2022-benson-kaunda-vs-the-people-6th-june-202
+[2026-05-18T16:24:46Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/app-010-2024-kalaluka-mushoke-and-the-people-10th-ju
+[2026-05-18T16:24:56Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/app-012-2022-mike-muloba-vs-the-people-6th-june-2024
+[2026-05-18T16:25:04Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/app-021-022-2023-dickson-shamboko-1-other-and-the-pe
+[2026-05-18T16:25:16Z] [b0709-jiw] [INFO]   - deferred:duplicate-source-hash-in-batch: https://judiciaryzambia.com/2025-ccz-0019-mputa-ngalande-vs-attorney-general-may
+[2026-05-18T16:25:21Z] [b0709-jiw] [INFO]   - deferred:duplicate-source-hash-in-batch: https://judiciaryzambia.com/false-social-media-claims-alleging-the-resignation-o
+[2026-05-18T16:26:22Z] [b0709-jiw] [INFO]   - deferred:duplicate-source-hash-in-batch: https://judiciaryzambia.com/2023-hpf-640-chambata-banda-1-other-vs-simba-interna
+[2026-05-18T16:26:28Z] [b0709-jiw] [INFO]   - deferred:duplicate-source-hash-in-batch: https://judiciaryzambia.com/chief-justice-dr-munba-malila-sc-congratulates-hon-m
+[2026-05-18T16:26:28Z] [b0709-jiw] [INFO] == Sweep: HC page-2 ==
+[2026-05-18T16:26:31Z] [b0709-jiw] [INFO]   16 candidate posts
+[2026-05-18T16:26:33Z] [b0709-jiw] [INFO]   - deferred:no-pdf-url-found: https://judiciaryzambia.com/the-child-justice-forum/
+[2026-05-18T16:26:36Z] [b0709-jiw] [INFO]   - deferred:no-pdf-url-found: https://judiciaryzambia.com/appeal-no-20-2018-juldan-motors-ltd-july-danobo-vs-n
+[2026-05-18T16:27:15Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/hp-208-2023-the-people-vs-phillip-zyambo-1-other-feb
+[2026-05-18T16:27:38Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/hpa-20-2025-violet-zulu-vs-the-people-jan-2026-justi
+[2026-05-18T16:27:53Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2023-hpf-531-alex-chibwe-vs-agness-siwale-may-2024-j
+[2026-05-18T16:28:40Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2011-hp-576-mary-zulu-1-other-vs-attorney-general-ju
+[2026-05-18T16:29:24Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2020-hp-0248-edward-chanda-sosala-vs-kingsland-city-
+[2026-05-18T16:29:37Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2020-hp-0537-bearven-mengo-vs-anderson-situmbeko-oth
+[2026-05-18T16:29:54Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2020-hpf-378-administrator-general-vs-jennifer-tembo
+[2026-05-18T16:29:57Z] [b0709-jiw] [WARN] FETCH FAIL https://judiciaryzambia.com/wp-content/uploads/2026/04/2020-HPF-D179-Nchimunya-Nicholas-Nakalonga-Vs-Osiya-Mupatayi-–-May-2024-Justice-Bah-Matandala.pdf: 'ascii' codec can't encode character '\u2013' in position 93: ordinal not in range(128)
+[2026-05-18T16:29:59Z] [b0709-jiw] [WARN] FETCH FAIL https://judiciaryzambia.com/wp-content/uploads/2026/04/2020-HPF-D179-Nchimunya-Nicholas-Nakalonga-Vs-Osiya-Mupatayi-–-May-2024-Justice-Bah-Matandala.pdf: 'ascii' codec can't encode character '\u2013' in position 93: ordinal not in range(128)
+[2026-05-18T16:29:59Z] [b0709-jiw] [INFO]   - deferred:pdf-fetch-fail:UnicodeEncodeError: https://judiciaryzambia.com/2020-hpf-d179-nchimunya-nicholas-nakalonga-vs-osiya-
+[2026-05-18T16:30:10Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2021-hp-0649-kaulmas-investments-ltd-vs-the-commissi
+[2026-05-18T16:30:41Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2018-hp-1780-mwala-martin-mukwaibe-3-other-vs-zesco-
+[2026-05-18T16:30:41Z] [b0709-jiw] [INFO] post-tick: records=1961 records_fts=1961 judgments_meta=256
+[2026-05-18T16:30:41Z] [b0709-jiw] TICK_END inserted=0 deferred=59 fetches=112 elapsed_s=1011 records=1961 records_fts=1961

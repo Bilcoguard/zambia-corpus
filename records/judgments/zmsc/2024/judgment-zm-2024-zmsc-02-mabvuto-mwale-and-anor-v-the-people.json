@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2024-zmsc-02-mabvuto-mwale-and-anor-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mabvuto Mwale and Anor v The People (Appeal No. 27, 28/2020) [2024] ZMSC 2 (19 April 2024)",
+  "citation": "[2024] ZMSC 2",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Mabvuto Mwale and Anor v The People",
+  "case_number": "Appeal No. 27, 28/2020",
+  "date_decided": "2024-04-19",
+  "judges": [
+    {
+      "name": "Musonda",
+      "role": "DCJ",
+      "dissented": false
+    },
+    {
+      "name": "Kabuka",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-law",
+    "appeal-against-conviction",
+    "appeal-against-sentence",
+    "evidence",
+    "conviction-upheld",
+    "sentence-reduced"
+  ],
+  "outcome": "other",
+  "outcome_detail": "Mixed outcome: appeal against sentence succeeds; appeal against conviction has failed and is hereby dismissed. Conviction upheld; sentence adjusted on the sentence appeal.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "dissent_summary": null,
+  "raw_sha256": "ce7259e1bd243b2c56be6f0a5f78810b3cd1c87f6d0db4f454cbae09c0e01f19",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/2/eng@2024-04-19",
+  "source_hash": "sha256:54befddc0980f260fdbdff108bdf61033a6bb8607043f063bcf38b8aaca736c4",
+  "fetched_at": "2026-05-13T05:58:00Z",
+  "parser_version": "0.3.2"
+}

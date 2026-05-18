@@ -1,0 +1,73 @@
+{
+  "id": "judgment-zm-2026-zmcc-11-zambia-civil-liberties-union-v-commissioner-for-refugees",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Zambia Civil Liberties Union v Commissioner for Refugees and Others (2025/CCZ/003) [2026] ZMCC 11 (27 April 2026)",
+  "citation": "[2026] ZMCC 11",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Zambia Civil Liberties Union v Commissioner for Refugees and Others",
+  "case_number": "2025/CCZ/003",
+  "date_decided": "2026-04-27",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-law",
+    "citizenship-act",
+    "ordinarily-resident",
+    "article-266-definition",
+    "supremacy-of-constitution",
+    "statutory-invalidation",
+    "article-79-amendment-procedure",
+    "refugees-immigration"
+  ],
+  "outcome": "granted",
+  "outcome_detail": "Relief (ii) granted: definition of 'ordinarily resident' in s 2 of the Citizenship Act is unconstitutional and invalid to the extent that it qualifies the term by requiring a residence permit issued under the Immigration and Deportation Act; relief (iii) dismissed (no breach of Article 79 amendment procedure proved). Each party to bear own costs.",
+  "reasoning_tags": [],
+  "key_statutes": [
+    "Constitution of Zambia, Article 266",
+    "Constitution of Zambia, Article 79",
+    "Citizenship Act, s 2",
+    "Immigration and Deportation Act"
+  ],
+  "dissent_summary": null,
+  "raw_sha256": "7e8b23e5ad1f10624067b8459ab73ed90c29e3445bfdbe809c644a2d6c74b802",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2026/11/eng@2026-04-27",
+  "source_hash": "sha256:aa442d7a5f4e1ed8a086458bdeb31e38039a994e120b126f914a35b101cd7231",
+  "fetched_at": "2026-05-12T18:30:00Z",
+  "parser_version": "0.3.2"
+}

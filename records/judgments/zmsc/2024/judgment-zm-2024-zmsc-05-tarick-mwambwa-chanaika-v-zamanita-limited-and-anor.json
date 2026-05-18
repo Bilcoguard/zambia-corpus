@@ -1,0 +1,49 @@
+{
+  "id": "judgment-zm-2024-zmsc-05-tarick-mwambwa-chanaika-v-zamanita-limited-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Tarick Mwambwa Chanaika v Zamanita Limited and Anor (APPEAL NO. 018/2013) [2024] ZMSC 5 (6 May 2024)",
+  "citation": "[2024] ZMSC 5",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Tarick Mwambwa Chanaika v Zamanita Limited and Anor",
+  "case_number": "APPEAL NO. 018/2013",
+  "date_decided": "2024-05-06",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "Phiri",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Hamaundu",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "employment-law",
+    "contract-of-employment",
+    "acting-allowance",
+    "salary-increase",
+    "industrial-relations-court-appeal",
+    "amendment-of-contract",
+    "evidence-of-agreement"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Appeal dismissed in its entirety; no merit found in any ground. Trial court's finding that appellant did not act in a higher capacity (no entitlement to acting allowance under clause 24.1 of contract) and that the claim for increased salary was unsubstantiated, upheld. A fundamental term such as salary cannot be varied through e-mail proposals; an express written amendment is required. Each party to bear own costs (matter from Industrial Relations Court).",
+  "reasoning_tags": [],
+  "key_statutes": [
+    "Contract of Employment (clause 24.1)"
+  ],
+  "dissent_summary": null,
+  "raw_sha256": "912818c6bf69b66f5eeaee90597fb8681d4315bf9401312f963e1381d0010651",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/5/eng@2024-05-06",
+  "source_hash": "sha256:39a41cfc1a1cb69a90e54998fcbb4fef846b028678c2b08a61916b481aafe0e9",
+  "fetched_at": "2026-05-13T05:58:00Z",
+  "parser_version": "0.3.2"
+}

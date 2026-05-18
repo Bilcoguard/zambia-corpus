@@ -1,0 +1,39 @@
+{
+  "id": "judgment-zm-2025-zmsc-01-occupational-health-and-safety-institute-v-james-mataliro",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Occupational Health and Safety Institute v James Mataliro (SCZ No.8/ 14/2022) [2025] ZMSC 1 (15 January 2025)",
+  "citation": "[2025] ZMSC 1",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Occupational Health and Safety Institute v James Mataliro",
+  "case_number": "SCZ No.8/14/2022",
+  "date_decided": "2025-01-15",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "JS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "legal-practitioners-practice-rules",
+    "in-house-counsel-private-practice",
+    "leave-to-appeal",
+    "court-of-appeal-act-section-13(3)",
+    "procedural-fairness",
+    "appellate-fact-finding"
+  ],
+  "outcome": "granted",
+  "outcome_detail": "Leave to appeal to the Supreme Court granted; threshold under s 13(3) Court of Appeal Act met \u2014 points of law of public importance on Legal Practitioners' Practice Rules (in-house vs private practice) and reasonable prospect of success on procedural-fairness issue (Court of Appeal resolving contested factual issues without retrial).",
+  "reasoning_tags": [],
+  "key_statutes": [
+    "Court of Appeal Act, s 13(3)",
+    "Legal Practitioners' Practice Rules, Rules 24(2), 27"
+  ],
+  "dissent_summary": null,
+  "raw_sha256": "89a57a4cfccd5a1e6f24d6366913d6d4e6182b94ffb2a15dbee93a19c5c775b3",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/1/eng@2025-01-15",
+  "source_hash": "sha256:202be7a3ef2e6c0fb4feca48dc6415d53acf1ab52f9feb2da3d30dcc193ce553",
+  "fetched_at": "2026-05-12T18:30:00Z",
+  "parser_version": "0.3.2"
+}

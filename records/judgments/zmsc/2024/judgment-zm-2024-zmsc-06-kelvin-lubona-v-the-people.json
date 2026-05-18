@@ -1,0 +1,48 @@
+{
+  "id": "judgment-zm-2024-zmsc-06-kelvin-lubona-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Kelvin Lubona v The People (APPEAL NO. 244/2017) [2024] ZMSC 6 (14 May 2024)",
+  "citation": "[2024] ZMSC 6",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Kelvin Lubona v The People",
+  "case_number": "APPEAL NO. 244/2017",
+  "date_decided": "2024-05-14",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "Hamaundu",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-law",
+    "murder",
+    "appeal-against-conviction",
+    "evidence",
+    "corroboration",
+    "ballistics-evidence",
+    "circumstantial-evidence",
+    "acquittal"
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "Appeal allowed; conviction and sentence quashed; appellant now stands acquitted. The three key pieces of evidence relied on against the appellant did not meet admissibility requirements \u2014 two lacked corroboration and the arresting officer's evidence was wrongly admitted. The ballistic examination did not connect the firearm to the gunshot wounds; possession of the gun by the principal witness undermined his testimony, which required corroboration to implicate the appellant.",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "dissent_summary": null,
+  "raw_sha256": "208dbd20adfa4ab7ccd8cfbb1c98f11733f1302342ea05e142149df4eef9e7c2",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/6/eng@2024-05-14",
+  "source_hash": "sha256:e4fd1fbfe88094ec41c28271857dceffc9b37c5bdfad7e7fa6c900eee0856567",
+  "fetched_at": "2026-05-13T05:58:00Z",
+  "parser_version": "0.3.2"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "judgment-zm-2024-zmsc-01-kausa-mwachindalo-and-anor-v-mathews-musona-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Kausa Mwachindalo and Anor v Mathews Musona and Ors (APPEAL NO. 1/2021) [2024] ZMSC 1 (20 March 2024)",
+  "citation": "[2024] ZMSC 1",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Kausa Mwachindalo and Anor v Mathews Musona and Ors",
+  "case_number": "APPEAL NO. 1/2021",
+  "date_decided": "2024-03-20",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "CJ",
+      "dissented": true
+    },
+    {
+      "name": "Musonda",
+      "role": "DCJ",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "JS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "customary-law",
+    "chieftaincy-succession",
+    "matrilineal-succession",
+    "rotational-chieftaincy",
+    "supreme-court-rules",
+    "joint-report-effect-on-custom",
+    "court-of-appeal-decision-review"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Majority (Musonda DCJ, Wood JS) dismissed the appeal \u2014 the Court of Appeal's decision that the Bundabunda Soli Shamifwi chieftaincy should rotate to the Kashimbi royal family (and in particular to David Musona) is upheld; the clan must draw up a documented family tree and rotational succession plan among the Mulonga, Tubi-Kalifu and Kashimbi royal families; each party bears own costs. Malila CJ delivered a dissenting opinion (would have allowed the appeal \u2014 joint-report cannot supersede matrilineal custom of Soli people).",
+  "reasoning_tags": [],
+  "key_statutes": [
+    "Supreme Court Rules, Chapter 25, Rules 58 and 68"
+  ],
+  "dissent_summary": "Malila CJ: customary practice cannot be changed by agreement among a small number of parties contained in a joint report; matrilineal lineage requirement of the Soli people stands.",
+  "raw_sha256": "99afe6d65f14b574aa3a5d361d99b51f5e86ad0565f9cb4e8e40034ab870858d",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/1/eng@2024-03-20",
+  "source_hash": "sha256:566c49020964124b633cff96f4f0689fd472e32125fe32d31dc0e440c08f0be1",
+  "fetched_at": "2026-05-13T05:58:00Z",
+  "parser_version": "0.3.2"
+}

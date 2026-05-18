@@ -1,0 +1,70 @@
+{
+  "id": "judgment-zm-2026-zmcc-01-tresford-chali-v-the-judicial-complaints-commission-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Tresford Chali v The Judicial Complaints Commission and Ors (2024/CCZ/0019) [2026] ZMCC 1 (20 January 2026)",
+  "citation": "[2026] ZMCC 1",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Tresford Chali v The Judicial Complaints Commission and Ors",
+  "case_number": "2024/CCZ/0019",
+  "date_decided": "2026-01-20",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "presiding",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "concurring",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "concurring",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-jurisdiction",
+    "judicial-complaints-commission",
+    "judicial-review",
+    "article-128-referral",
+    "limits-of-original-jurisdiction",
+    "removal-of-judges"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Petition dismissed for want of jurisdiction \u2014 challenges to the Judicial Complaints Commission Report and resulting recommendations to remove judges must proceed by judicial review in the High Court; constitutional questions arising are to be referred under Article 128(2). Each party to bear own costs.",
+  "reasoning_tags": [],
+  "key_statutes": [
+    "Constitution of Zambia, Article 128(1)(e)",
+    "Constitution of Zambia, Article 128(2)",
+    "Constitution of Zambia, Article 2"
+  ],
+  "dissent_summary": null,
+  "raw_sha256": "af6fd6c8cc20586fb500263f6382fb9aabf2a476a31c27b38071ebd8531e7248",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2026/1/eng@2026-01-20",
+  "source_hash": "sha256:c9a16d706939dfd3a1e333fbf5f570c89c7df5e7f08731f5d0bb85b2401d5d27",
+  "fetched_at": "2026-05-12T18:30:00Z",
+  "parser_version": "0.3.2"
+}

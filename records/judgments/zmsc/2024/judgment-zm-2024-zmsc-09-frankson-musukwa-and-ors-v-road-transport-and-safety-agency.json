@@ -1,0 +1,54 @@
+{
+  "id": "judgment-zm-2024-zmsc-09-frankson-musukwa-and-ors-v-road-transport-and-safety-agency",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Frankson Musukwa and Ors v Road Transport and Safety Agency (Appeal No. 11 of 2021) [2024] ZMSC 9 (16 May 2024)",
+  "citation": "[2024] ZMSC 9",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Frankson Musukwa and Ors v Road Transport and Safety Agency",
+  "case_number": "Appeal No. 11 of 2021",
+  "date_decided": "2024-05-16",
+  "judges": [
+    {
+      "name": "Kaoma",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Kajimanga",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-law",
+    "fundamental-rights",
+    "disability-rights",
+    "freedom-of-movement",
+    "non-discrimination",
+    "road-transport-and-safety-agency-act",
+    "persons-with-disabilities-act",
+    "article-11",
+    "article-22",
+    "article-23"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Appeal dismissed; no infringement of the protection of the law, freedom of movement or non-discrimination by the respondent established. The court made no order as to costs.",
+  "reasoning_tags": [],
+  "key_statutes": [
+    "Constitution of Zambia, Articles 11(a) and (b), 22(1), 23(2)",
+    "Road Transport and Safety Agency Act No. 11 of 2022, s 62",
+    "Persons with Disabilities Act, ss 43 and 44"
+  ],
+  "dissent_summary": null,
+  "raw_sha256": "c3d00816315770dd05036e5fcbfa2b2628b8e87be8ecd89f88a9fa0afd0b1039",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/9/eng@2024-05-16",
+  "source_hash": "sha256:49363a66813198db32c39a6ea4c15a008c3f169f77707772c467424e0d94b995",
+  "fetched_at": "2026-05-13T05:58:00Z",
+  "parser_version": "0.3.2"
+}

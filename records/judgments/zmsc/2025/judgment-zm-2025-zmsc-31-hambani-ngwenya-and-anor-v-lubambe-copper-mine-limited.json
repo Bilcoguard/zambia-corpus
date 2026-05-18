@@ -1,0 +1,40 @@
+{
+  "id": "judgment-zm-2025-zmsc-31-hambani-ngwenya-and-anor-v-lubambe-copper-mine-limited",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Hambani Ngwenya and Anor v Lubambe Copper Mine Limited (SCZ/7/15/2025) [2025] ZMSC 31 (28 October 2025)",
+  "citation": "[2025] ZMSC 31",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Hambani Ngwenya and Anor v Lubambe Copper Mine Limited",
+  "case_number": "SCZ/7/15/2025",
+  "date_decided": "2025-10-28",
+  "judges": [
+    {
+      "name": "Chisanga",
+      "role": "JS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "arbitration",
+    "employment-law",
+    "employment-code-act-section-5",
+    "arbitrability-of-discrimination-claims",
+    "leave-to-appeal",
+    "public-policy",
+    "supreme-court-act"
+  ],
+  "outcome": "granted",
+  "outcome_detail": "Leave to appeal granted; points of law of public importance disclosed \u2014 whether arbitral tribunal may entertain Employment Code Act s 5 claims (unfair discrimination), whether s 5 is confined to criminal law, and whether non-parties' employment contracts may be used as comparators in arbitration.",
+  "reasoning_tags": [],
+  "key_statutes": [
+    "Employment Code Act, s 5",
+    "Supreme Court Act, s 23"
+  ],
+  "dissent_summary": null,
+  "raw_sha256": "9a3222dccd6ed6ca8201cd09c81d3bcea00090ad328c45aebfe862fd65037a0f",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/31/eng@2025-10-28",
+  "source_hash": "sha256:bbc3ded5d8ee71a2d0ff517a833a2a02a2154701c49be8c736fa2395ffa28ebf",
+  "fetched_at": "2026-05-12T18:30:00Z",
+  "parser_version": "0.3.2"
+}

@@ -12019,3 +12019,74 @@ See `reports/batch-0707-reverify.json` for the full per-record breakdown and `re
   source: https://zambialii.org/akn/zm/act/si/2023/50
 - `si-zm-2026-008-fisheries-management-area-declaration-order-2025` — no-body → exception: OperationalError: table records_fts has no column named case_name
   source: https://zambialii.org/akn/zm/act/si/2026/8
+
+
+## b0709-jiw — multi-source sweep (2026-05-18T16:13:49Z)
+
+### Inserted (0)
+
+### Deferred (59)
+- https://judiciaryzambia.com/the-child-justice-forum/: no-pdf-url-found
+- https://judiciaryzambia.com/2023-hpf-d237-bridget-chitambala-banda-vs-billy-banda-2024-matandala-j/: pdf-fetch-fail:UnicodeEncodeError
+- https://judiciaryzambia.com/scz-7-32-2024-kapsch-trafficcom-south-africa-holding-pty-ltd-vs-intelligent-mobility-solutions-lt-sep-2025-justice-malila-kaoma-chisanga-jjs/: pdf-fetch-fail:UnicodeEncodeError
+- https://judiciaryzambia.com/scz-7-25-2024-emmanuel-tumba-and-6-others-vs-zambia-bata-shoe-company-aug-2025-malila-mtuna-chisanga-jjs/: quality-gate-no-text
+- https://judiciaryzambia.com/appeal-no-10-of-2025-ronald-kaoma-chitotela-vs-anti-corruption-commission-and-3-others-aug-2025-malila-kaaoma-chisanga-jjs/: quality-gate-no-text
+- https://judiciaryzambia.com/scz-8-01-2021-attorney-general-and-commission-of-lands-vs-metro-investments-ltd-and-centina-transport-ltd-and-lusaka-city-council-july-2025-justice-musonda-wood-and-mutuna-jjs/: quality-gate-no-text
+- https://judiciaryzambia.com/appeal-no-4-of-2020-attorney-general-vs-rajan-mahthani-july-2025-justice-mutuna-js/: quality-gate-no-text
+- https://judiciaryzambia.com/app-4-of-2020-the-attorney-general-vs-rajan-mahthani-apr-2025-justice-musonda-kabuka-mutuna-jjs/: quality-gate-no-text
+- https://judiciaryzambia.com/scz-8-011-2022-faustin-kabwe-bimal-thaker-vs-ndola-trust-school-ltd-attorney-general-mar-202-justice-musonda-kaoma-and-kabuka-jjs/: quality-gate-no-text
+- https://judiciaryzambia.com/app-no-07-2024-star-drilling-and-exploration-ltd-vs-national-technologies-ltd-and-11-others-feb-2025-justice-mutuna-js/: quality-gate-no-text
+- https://judiciaryzambia.com/app-no-07-2024-star-drilling-and-exploration-ltd-vs-national-technologies-ltd-and-11-others-feb-2025-justice-mutuna-js-2/: duplicate-source-hash-in-batch
+- https://judiciaryzambia.com/app-04-2023-zamtel-vs-felix-musonda-and-29-others-feb-2025-justice-musonda-wood-chisanga-jjs/: exception:OperationalError
+- https://judiciaryzambia.com/2025-ccz-0019-mputa-ngalande-vs-attorney-general-may-2026-munalula-chisunka-mulongoti-kawimbe-and-mulife-jjc/: exception:OperationalError
+- https://judiciaryzambia.com/false-social-media-claims-alleging-the-resignation-of-the-chief-justice-of-zambia/: exception:OperationalError
+- https://judiciaryzambia.com/2023-hpf-640-chambata-banda-1-other-vs-simba-international-school-2-others-april-2026-justice-t-s-musonda/: exception:OperationalError
+- https://judiciaryzambia.com/chief-justice-dr-munba-malila-sc-congratulates-hon-mr-justice-martin-sitwala-mwanwambwa-on-his-election-as-president-of-the-comesa-court-of-justice/: exception:OperationalError
+- https://judiciaryzambia.com/the-child-justice-forum/: no-pdf-url-found
+- https://judiciaryzambia.com/appeal-no-172-2018-like-silishebo-vs-the-people-jun-2019-justice-j-chinyamajs/: no-pdf-url-found
+- https://judiciaryzambia.com/2025-ccz-0019-mputa-ngalande-vs-attorney-general-may-2026-munalula-chisunka-mulongoti-kawimbe-and-mulife-jjc/: duplicate-source-hash-in-batch
+- https://judiciaryzambia.com/2025-ccz-003-zambia-civil-liberties-union-vs-commissioner-for-refuges-and-3-others-feb-2026-coram-munalula-shilimi-musaluke-chisunka-mulongoti-mwandenga-and-mulife-jjc/: quality-gate-no-text
+- https://judiciaryzambia.com/2026-ccz-001-peoples-action-for-the-countrys-transformation-vs-electral-commission-of-zambia-mar-2026-coram-shilimi-musaluke-chisunka-mulongoti-mwandenga-kawimba-and-mulife-jjc/: quality-gate-no-text
+- https://judiciaryzambia.com/2025-ccz-0011-munir-zulu-vs-the-attorney-general-2-others-mar-2026-coram-shilimi-musaluke-mwandenga-kawimbe-and-mulife-jjc/: quality-gate-no-text
+- https://judiciaryzambia.com/2025-ccz-0010-munir-zulu-vs-the-attorney-general-2-others-mar-2026-coram-shilimi-musaluke-mwandenga-kawimbe-and-mulife-jjc/: quality-gate-no-text
+- https://judiciaryzambia.com/2025-ccz-0025-climate-action-professionals-zambia-vs-the-attorney-general-mar-2026-coram-munalula-chisunka-mulongoti-kawimbe-and-mulife-jjc/: quality-gate-no-text
+- https://judiciaryzambia.com/2025-ccz-0032-makebi-zulu-vs-attorney-general-feb-2026-justice-munalula-shilimi-musaluke-chishunka-mulongtoti-mwendenga-and-kawimbe-jjc/: quality-gate-no-text
+- https://judiciaryzambia.com/2025-ccz-0029-law-association-of-zambia-5-others-vs-the-attorney-general-feb-025-coram-munalula-shilimi-musaluke-chisunka-mwandenga-and-mulife-jjs/: quality-gate-no-text
+- https://judiciaryzambia.com/2025-ccz-002-morgan-ngona-vs-attorney-general-and-miles-bwalya-sampa-jan-2026-justice-musaluke-chisunka-mulongoti-mwandenga-kawimbe-and-mulife-jcc/: quality-gate-no-text
+- https://judiciaryzambia.com/2024-ccz-0019-tresford-chali-vs-the-judicial-complaints-commission-and-attorney-general-jan-2026-justice-shilimi-musaluke-chisunka-mulongoti-mwandenga-kawimbe-and-mulife-jcc/: quality-gate-no-text
+- https://judiciaryzambia.com/false-social-media-claims-alleging-the-resignation-of-the-chief-justice-of-zambia/: duplicate-source-hash-in-batch
+- https://judiciaryzambia.com/2023-hpf-640-chambata-banda-1-other-vs-simba-international-school-2-others-april-2026-justice-t-s-musonda/: duplicate-source-hash-in-batch
+- https://judiciaryzambia.com/chief-justice-dr-munba-malila-sc-congratulates-hon-mr-justice-martin-sitwala-mwanwambwa-on-his-election-as-president-of-the-comesa-court-of-justice/: duplicate-source-hash-in-batch
+- https://judiciaryzambia.com/the-child-justice-forum/: no-pdf-url-found
+- https://judiciaryzambia.com/2017-ccz-004-dr-daniel-pule-3-others-v-attorney-general-davies-mwila-oct-2017-justice-mulenga/: no-pdf-url-found
+- https://judiciaryzambia.com/app-no-1516-2021-davies-chishala-and-tony-nyembe-vs-the-people-jan-2025-justice-malila-hamaundu-and-kaoma-jjs/: quality-gate-no-text
+- https://judiciaryzambia.com/scz-8-011-2022-faustin-kabwe-1-other-vs-ndola-trust-school-ltd-aug-2024-justice-malila-hamaundu-kaoma-mutuna-and-chisanga-jjs/: quality-gate-no-text
+- https://judiciaryzambia.com/app-03-2024-road-development-agency-and-safricas-zambia-limited-7th-august-2024-justice-malila-cj-hamaundu-and-mutuna-jjs/: quality-gate-no-text
+- https://judiciaryzambia.com/app-011-2022-billis-farm-ltd-1-and-molosoni-chipabwamba-others-july-2024-justice-malila-hamaundu-chisanga-jjs/: quality-gate-no-text
+- https://judiciaryzambia.com/app-011-2023-finsbury-investments-ltd-and-murray-roberts-construction-1-other-24th-july-2024-justice-malila-cj-kaoma-and-kabuka-jjs/: quality-gate-no-text
+- https://judiciaryzambia.com/scz-8-05-2023-jayesh-shah-vs-mwenda-mwimanenwa-nyambe-1-other-24th-july-2024-justice-malila-cj-wood-and-kabuka-jjs/: quality-gate-no-text
+- https://judiciaryzambia.com/app-03-2022-benson-kaunda-vs-the-people-6th-june-2024-justice-hamaundu-kaoma-and-chinyama-jjs/: quality-gate-no-text
+- https://judiciaryzambia.com/app-010-2024-kalaluka-mushoke-and-the-people-10th-june-2024-justice-malila-cj-hamaundu-nd-chusanga-jjs/: quality-gate-no-text
+- https://judiciaryzambia.com/app-012-2022-mike-muloba-vs-the-people-6th-june-2024-justice-hamaundu-kaoma-and-chinyama-jjs/: quality-gate-no-text
+- https://judiciaryzambia.com/app-021-022-2023-dickson-shamboko-1-other-and-the-people-11th-june-2024-justice-malila-cj-hamahundu-and-chisanga-jjs/: quality-gate-no-text
+- https://judiciaryzambia.com/2025-ccz-0019-mputa-ngalande-vs-attorney-general-may-2026-munalula-chisunka-mulongoti-kawimbe-and-mulife-jjc/: duplicate-source-hash-in-batch
+- https://judiciaryzambia.com/false-social-media-claims-alleging-the-resignation-of-the-chief-justice-of-zambia/: duplicate-source-hash-in-batch
+- https://judiciaryzambia.com/2023-hpf-640-chambata-banda-1-other-vs-simba-international-school-2-others-april-2026-justice-t-s-musonda/: duplicate-source-hash-in-batch
+- https://judiciaryzambia.com/chief-justice-dr-munba-malila-sc-congratulates-hon-mr-justice-martin-sitwala-mwanwambwa-on-his-election-as-president-of-the-comesa-court-of-justice/: duplicate-source-hash-in-batch
+- https://judiciaryzambia.com/the-child-justice-forum/: no-pdf-url-found
+- https://judiciaryzambia.com/appeal-no-20-2018-juldan-motors-ltd-july-danobo-vs-nasser-ibrahim-olypa-sibongile-danobo-feb-2019-justice-mulongotija/: no-pdf-url-found
+- https://judiciaryzambia.com/hp-208-2023-the-people-vs-phillip-zyambo-1-other-feb-2024-justice-siloka/: quality-gate-no-text
+
+### Sweep results
+- SCZ page-2: cands=16, inserted=0
+- ZMCC page-1: cands=15, inserted=0
+- SCZ page-3: cands=16, inserted=0
+- HC page-2: cands=12, inserted=0
+
+### Network fetches: 112
+
+### Sweep cursors (post-tick)
+- judiciary-coa-sweep: page-9 (scanned-PDF cliff) — unchanged
+- judiciary-scz-sweep: pages 2-3 swept (inserted=0) — advance to page 4 next tick
+- judiciary-zmcc-sweep: page-1 swept (inserted=0) — advance to page 2 next tick
+- judiciary-hc-sweep: page-2 swept (inserted=0) — advance to page 3 next tick
