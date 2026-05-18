@@ -6572,3 +6572,7 @@ r-20260518T143615Z	2026-05-18T14:36:45Z	fetch_html_urllib	bytes=40091	sec=1.73
 r-20260518T143615Z	2026-05-18T14:36:46Z	fetch_pdf_urllib	bytes=295682	sec=1.13
 r-20260518T143615Z	2026-05-18T14:36:49Z	fetch_html_urllib	bytes=40697	sec=1.71
 r-20260518T143615Z	2026-05-18T14:36:50Z	fetch_pdf_urllib	bytes=291389	sec=1.08
+2026-05-18T14:36:58Z	b0705-phase8-recover	fetches=0	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-recover	cumulative_today=~153/2000	tokens_used=0(deterministic-recovery-commit-no-LLM-no-fetch)	llm-tokens=0/1000000	note=commit-recovery-of-stranded-b0704-phase8-work-products
+2026-05-18T14:36:58Z	b0705-phase8-recover	NETWORK_FETCHES	count=0	note=recovery-commit-no-network-activity
+2026-05-18T14:36:58Z	b0705-phase8-recover	BANDWIDTH	total_bytes=0	note=no-fetches
+2026-05-18T14:36:58Z	b0705-phase8-recover	INTEGRITY	all-checks=PASS	tick-verdict=COMMIT-recovery-of-stranded-b0704-via-alt-index-method

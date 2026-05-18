@@ -9112,3 +9112,18 @@ warning: unable to unlink '/sessions/youthful-fervent-lovelace/mnt/cor
 [2026-05-18T14:36:52Z] r-20260518T143615Z PRAGMA quick_check: ok
 [2026-05-18T14:36:52Z] r-20260518T143615Z rclone not available — B2 sync deferred to host
 [2026-05-18T14:36:52Z] r-20260518T143615Z COMMIT parent=579b12064542
+[2026-05-18T14:36:52Z] r-20260518T143615Z git add rc=1 stderr=warning: unable to unlink '.git/objects/fc/tmp_obj_ryEknq': Operation not permitted
+warning: unable to unlink '.git/objects/c4/tmp_obj_dBPZqo': Operation not permitted
+The following paths are ignored 
+[2026-05-18T14:36:54Z] r-20260518T143615Z git commit rc=0 stdout=[main 6df6989] Repair batch r-20260518T143615Z: fixed 8 records (no_body=33 corrupted=0 stubs=0, 25 remaining)
+ 9 files changed, 126 insertions(+), 214 deletions(-)
+ delete mode 100644 records/judgmen stderr=warning: unable to unlink '.git/objects/8b/tmp_obj_203Yf0': Operation not permitted
+warning: unable to unlink '.git/objects/49/tmp_obj_qJ0O73': Operation not permitted
+warning: unable to unlink '.git/
+[2026-05-18T14:36:54Z] r-20260518T143615Z HEAD now 6df69896273c; pushing
+[2026-05-18T14:36:57Z] r-20260518T143615Z git push rc=0 stdout= stderr=To https://github.com/Bilcoguard/zambia-corpus.git
+   579b120..6df6989  6df69896273ce633e2730a8a811dadf1a654f4e8 -> main
+[2026-05-18T14:36:57Z] r-20260518T143615Z === TICK END r-20260518T143615Z elapsed=42.4s repaired=8 failed=0 ===
+[2026-05-18T14:39:13Z] [b0705-phase8-recover] CONCURRENT_COMMIT_DETECTED parallel-repair-worker-pushed-6df6989-(Repair-batch-r-20260518T143615Z)-while-this-tick-was-building-commit; refs/heads/main.lock leftover from this tick's failed update-ref at parent=579b120; HEAD has my worker.log b0705 lines but NOT costs.log/provenance.log b0705 lines
+[2026-05-18T14:39:13Z] [b0705-phase8-recover] REBUILD_PLAN rebase-new-commit-on-top-of-current-HEAD=6df6989 (was-579b120); add b0704 work products + disk-side costs.log + disk-side provenance.log; orphan-prior-dangling-commit=93cd8cd1-(harmless-unreferenced)
+[2026-05-18T14:39:13Z] [b0705-phase8-recover] NOTE concurrent-repair-commit-6df6989-removed-3-b0703-jiw-judgment-JSONs-and-reports/batch-b0703-jiw.md-from-tree-(disk-copies-preserved)-and-also-modified-worker.log/costs.log/provenance.log; that-regression-is-outside-this-tick's-scope-and-flagged-here-for-human-triage
