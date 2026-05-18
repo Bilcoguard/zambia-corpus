@@ -6333,3 +6333,8 @@ b0664,2026-05-15T09:13:53Z,repair,zambialii,8,0,~44
 2026-05-18T01:03:55Z	b0690-phase8	WALL_CLOCK	started=2026-05-18T01:03:32Z	completed=2026-05-18T01:03:55Z	elapsed=23s	budget=20min	headroom~=1177s
 2026-05-18T01:03:55Z	b0690-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 2026-05-18T01:03:55Z	b0690-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1936	records_fts=1936	dup_ids=0	tick-verdict=COMMIT-normal-path
+2026-05-18T01:15:30Z	b0691	WALL_CLOCK	started=2026-05-18T01:14:50Z	completed=2026-05-18T01:15:30Z	elapsed=70s	budget=20min	headroom~=1130s
+2026-05-18T01:15:30Z	b0691	HTTP	requests=81	method=GET	host=zambialii.org	status=500	bytes_received~=1.1MB	verdict=upstream-outage
+2026-05-18T01:15:30Z	b0691	REPAIR	attempted=81	repaired=0	failed=81	failure_class=html_fetch_failed/HTTP-500
+2026-05-18T01:15:30Z	b0691	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
+2026-05-18T01:15:30Z	b0691	INTEGRITY	records=1936	records_fts=1936	quick_check=ok	tick-verdict=NO-MUTATION-COMMIT-logs-only

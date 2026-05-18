@@ -11273,3 +11273,11 @@ Phase 8 nightly re-verification, batch 0690 (sample_size=8, sample_rate=0.01, se
 - `judgment-zm-2025-zmsc-15-the-v-metro` — `zambialii.org/akn/zm/judgment/zmsc/2025/15/eng@2025-07-25/source.pdf` — HTTP 500. Will be re-sampled; record not mutated.
 
 If these 500s persist across multiple Phase 8 ticks, widen the upstream-availability cohort note.
+
+## b0691 (2026-05-18) — ZambiaLII site-wide HTTP 500 outage
+
+All 81 Condition-B SI repair targets failed with `html_fetch_failed: HTTP Error 500 Internal Server Error` from `zambialii.org`. Outage is site-wide — direct `curl -I https://zambialii.org/` and the `eng@…/source.pdf` endpoints all returned HTTP/2 500 with identical 13,640-byte error-page payload during the b0691 window (verified 2026-05-18T01:14:59Z – 01:15:15Z). This is an upstream infrastructure problem, not a parser regression. No records were mutated. Targets will be re-attempted next tick.
+
+Affected records: full list in `reports/repair-batch-b0691.md` (81 entries spanning si-zm-2021-024 through si-zm-2026-008). All retain `body IS NULL`.
+
+If 500s persist across multiple consecutive ticks, escalate to maintainer to check whether the source URLs need to be re-derived from ZambiaLII's expression-level routing (e.g. canonical `/eng@DATE` paths) once the site is back up.

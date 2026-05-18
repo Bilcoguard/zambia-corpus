@@ -8663,3 +8663,11 @@ test append Mon May 18 00:44:14 CAT 2026
 [2026-05-18T01:03:55Z] [b0690-phase8] B2 sync deferred to host (rclone unavailable in sandbox; Phase 8 is read-only so no corpus mutation either way)
 [2026-05-18T01:03:55Z] [b0690-phase8] reports/batch-0690-reverify.json + reports/batch-0690.md WROTE; gaps.md appended (2 drifts + 4 transient-500 entries, audit-only, no record mutation)
 [2026-05-18T01:03:55Z] [b0690-phase8] FINAL verdict=tick-complete batch_size=8 match=2 drift=2 fetch_error=4 records=1936 records_fts=1936 next=continue-phase8-nightly-reverify
+[2026-05-18T01:04:30Z] [b0690-phase8] PUSH OK: e8779fb..638fbc5 main -> main; tick exits cleanly. Next Phase 8 tick in ~30min per scheduled-task cadence.
+[2026-05-18T01:15:30Z] [b0691] START repair tick; session=wizardly-trusting-goldberg; git pull --ff-only OK (already up to date)
+[2026-05-18T01:15:30Z] [b0691] identify Condition A=0 Condition B=81 (all SI / zambialii.org AKN-SI) Condition C=0; targets=81
+[2026-05-18T01:15:30Z] [b0691] BLOCKED: zambialii.org-wide HTTP 500 — every endpoint including homepage returns 500 (verified curl Mozilla UA and KateWestonLegal UA); transient upstream outage, not parser regression
+[2026-05-18T01:15:30Z] [b0691] attempted 81/81 SI targets; repaired=0; failed=81 (all html_fetch_failed: HTTP Error 500 Internal Server Error)
+[2026-05-18T01:15:30Z] [b0691] integrity records=1936 records_fts=1936 quick_check=ok (no DB mutation this tick)
+[2026-05-18T01:15:30Z] [b0691] B2 sync deferred to host (rclone unavailable in sandbox; no corpus mutation anyway)
+[2026-05-18T01:15:30Z] [b0691] FINAL verdict=tick-complete-no-mutation reason=upstream-zambialii-500-outage records=1936 records_fts=1936 next=retry-next-tick
