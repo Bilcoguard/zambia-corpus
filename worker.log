@@ -8671,3 +8671,12 @@ test append Mon May 18 00:44:14 CAT 2026
 [2026-05-18T01:15:30Z] [b0691] integrity records=1936 records_fts=1936 quick_check=ok (no DB mutation this tick)
 [2026-05-18T01:15:30Z] [b0691] B2 sync deferred to host (rclone unavailable in sandbox; no corpus mutation anyway)
 [2026-05-18T01:15:30Z] [b0691] FINAL verdict=tick-complete-no-mutation reason=upstream-zambialii-500-outage records=1936 records_fts=1936 next=retry-next-tick
+[2026-05-18T02:13:14Z] [b0692] START repair tick; session=loving-youthful-euler; git pull --ff-only OK (already up to date); lock-cleanup attempted (FUSE-EPERM on maintenance.lock and ORIG_HEAD.lock — non-fatal, matches established sandbox pattern)
+[2026-05-18T02:13:35Z] [b0692] identify Condition A=0 Condition B=81 (all SI / zambialii.org AKN-SI) Condition C=0; targets=81 (judgments-no-body=148 skipped per v4 SKILL JIW-territory rule)
+[2026-05-18T02:13:41Z] [b0692] upstream probe (6 endpoints): zambialii.org dynamic tier 500 across the board (homepage, /akn/zm/act/si/2021/24, www-canonical, eng@source.pdf, /api/v3/works/), static CDN 200 (favicon). Identical 13,640-byte error-page payload — same fingerprint as b0691 ~58min earlier. Same UA that worked in b0688 — not a UA-block.
+[2026-05-18T02:13:41Z] [b0692] BLOCKED: zambialii.org Indigo-Platform application backend still in HTTP 500 outage that began ≤01:14:50Z; second consecutive tick (b0691→b0692) affected. Aborted per-record fetch loop to respect upstream and bandwidth.
+[2026-05-18T02:13:41Z] [b0692] attempted 0/81 SI targets (skipped pre-fetch); repaired=0; deferred=81 (all still html_fetch_failed-class: HTTP 500 on upstream probe)
+[2026-05-18T02:13:41Z] [b0692] integrity records=1936 records_fts=1936 quick_check=ok (no DB mutation this tick)
+[2026-05-18T02:13:41Z] [b0692] B2 sync deferred to host (rclone unavailable in sandbox; no corpus mutation anyway)
+[2026-05-18T02:13:41Z] [b0692] reports/repair-batch-b0692.md WROTE; summary: repaired=0 failed=0 deferred=81 remaining=81 elapsed=~30s consecutive-blocked-ticks=2 escalation-threshold=3
+[2026-05-18T02:13:41Z] [b0692] FINAL verdict=tick-complete-no-mutation reason=upstream-zambialii-500-outage-persists records=1936 records_fts=1936 next=retry-next-tick;-if-still-500-trigger-maintainer-escalation

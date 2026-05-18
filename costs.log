@@ -6338,3 +6338,8 @@ b0664,2026-05-15T09:13:53Z,repair,zambialii,8,0,~44
 2026-05-18T01:15:30Z	b0691	REPAIR	attempted=81	repaired=0	failed=81	failure_class=html_fetch_failed/HTTP-500
 2026-05-18T01:15:30Z	b0691	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
 2026-05-18T01:15:30Z	b0691	INTEGRITY	records=1936	records_fts=1936	quick_check=ok	tick-verdict=NO-MUTATION-COMMIT-logs-only
+2026-05-18T02:13:41Z	b0692	WALL_CLOCK	started=2026-05-18T02:13:14Z	completed=2026-05-18T02:13:41Z	elapsed=27s	budget=20min	headroom~=1173s
+2026-05-18T02:13:41Z	b0692	HTTP	requests=6	method=GET	host=zambialii.org	status=500x5+200x1	bytes_received~=84KB	verdict=upstream-outage-confirmed-probe-only-bulk-fetch-aborted
+2026-05-18T02:13:41Z	b0692	REPAIR	attempted=0	repaired=0	deferred=81	failure_class=upstream_500_outage_continues_from_b0691	consecutive_blocked_ticks=2
+2026-05-18T02:13:41Z	b0692	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-no-corpus-mutation-anyway
+2026-05-18T02:13:41Z	b0692	INTEGRITY	records=1936	records_fts=1936	quick_check=ok	tick-verdict=NO-MUTATION-COMMIT-logs-only

@@ -11281,3 +11281,11 @@ All 81 Condition-B SI repair targets failed with `html_fetch_failed: HTTP Error 
 Affected records: full list in `reports/repair-batch-b0691.md` (81 entries spanning si-zm-2021-024 through si-zm-2026-008). All retain `body IS NULL`.
 
 If 500s persist across multiple consecutive ticks, escalate to maintainer to check whether the source URLs need to be re-derived from ZambiaLII's expression-level routing (e.g. canonical `/eng@DATE` paths) once the site is back up.
+
+## b0692 (2026-05-18) — ZambiaLII site-wide HTTP 500 outage (continues from b0691)
+
+Second consecutive tick blocked by `zambialii.org` Indigo-Platform application-tier outage. Probed 2026-05-18T02:13:35Z–02:13:41Z: every dynamic endpoint (homepage, `/akn/...`, `/akn/.../eng@DATE/source.pdf`, `/api/v3/works/`, and the `www.` canonical) returned HTTP 500 with the identical 13,640-byte error-page payload first observed during b0691 (~58 min earlier). Static-asset CDN (favicon) returned 200, confirming the fault is isolated to the Django/Indigo application tier.
+
+No records were mutated. All 81 Condition-B SI targets (cohort 2021×30, 2022×30, 2023×13, 2024×4, 2025×2, 2026×2) are deferred to the next tick. Same cohort as b0691 — no record drift.
+
+Per b0691's escalation note, if the next tick still observes 500s, this is ≥3 consecutive blocked ticks and should trigger maintainer escalation (pause the scheduled task, or evaluate `parliament.gov.zm` fallback for any SIs republished there).

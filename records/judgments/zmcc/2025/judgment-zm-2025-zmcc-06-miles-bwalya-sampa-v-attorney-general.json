@@ -1,0 +1,36 @@
+{
+  "id": "judgment-zm-2025-zmcc-06-miles-bwalya-sampa-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Miles Bwalya Sampa v Attorney General (2024/CCZ/0024) [2025] ZMCC 6 (24 March 2025)",
+  "citation": "[2025] ZMCC 6",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Miles Bwalya Sampa v Attorney General",
+  "case_number": "2024/CCZ/0024",
+  "date_decided": "2025-03-24",
+  "judges": [
+    {
+      "name": "Mwandenga",
+      "role": "JC (single judge)",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "interlocutory application",
+    "section 13 Constitutional Court Act summons",
+    "relevance test for document production",
+    "confidentiality and third-party interests",
+    "Mopani Copper Mines / IRH transaction"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Application for a summons under section 13 of the Constitutional Court Act dismissed; documentation and information sought not shown to be relevant to crux of the Petition; no order as to costs",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/6/eng@2025-03-24",
+  "raw_sha256": "97ca345d34fa1ca31d3f30e8eca2b1aaa3d29420fd2100f18afc740f412b451d",
+  "source_hash": "sha256:97ca345d34fa1ca31d3f30e8eca2b1aaa3d29420fd2100f18afc740f412b451d",
+  "fetched_at": "2026-05-18T00:10:06Z",
+  "parser_version": "0.3.2-jiw-b0687-hand-curated",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": []
+}

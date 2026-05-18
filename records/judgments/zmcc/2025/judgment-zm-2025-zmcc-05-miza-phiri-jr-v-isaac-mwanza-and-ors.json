@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2025-zmcc-05-miza-phiri-jr-v-isaac-mwanza-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Miza Phiri Jr v Isaac Mwanza and Ors (2024/CCZ/0021) [2025] ZMCC 5 (24 March 2025)",
+  "citation": "[2025] ZMCC 5",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Miza Phiri Jr v Isaac Mwanza and Ors",
+  "case_number": "2024/CCZ/0021",
+  "date_decided": "2025-03-24",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "JSD/President",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "JC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "abuse of court process",
+    "duplicity / multiplicity of actions",
+    "challenge to another pending petition",
+    "Article 128(1)(5) jurisdiction",
+    "discretionary costs under s.30 Constitutional Court Act"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Petition dismissed forthwith as an abuse of court process; no petition can be filed to challenge another petition pending hearing and determination; costs awarded against petitioner under s.30 CCA",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/5/eng@2025-03-24",
+  "raw_sha256": "097bdbaeb2584c71df1e0dcc22d3b0fa35e3e47e85c01b9046584e090253587f",
+  "source_hash": "sha256:097bdbaeb2584c71df1e0dcc22d3b0fa35e3e47e85c01b9046584e090253587f",
+  "fetched_at": "2026-05-18T00:10:06Z",
+  "parser_version": "0.3.2-jiw-b0687-hand-curated",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": []
+}

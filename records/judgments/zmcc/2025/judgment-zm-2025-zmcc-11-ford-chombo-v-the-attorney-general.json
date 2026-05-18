@@ -1,0 +1,42 @@
+{
+  "id": "judgment-zm-2025-zmcc-11-ford-chombo-v-the-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Ford Chombo v The Attorney General (2025/CCZ/008) [2025] ZMCC 11 (19 June 2025)",
+  "citation": "[2025] ZMCC 11",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Ford Chombo v The Attorney General",
+  "case_number": "2025/CCZ/008",
+  "date_decided": "2025-06-19",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "JSD/President (delivered ruling)",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "JC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "jurisdiction of the Constitutional Court",
+    "retired in national interest (1 March 2013)",
+    "non-retrospective application of Article 189(2)",
+    "Constitution of Zambia (Amendment) Act No. 2 of 2016",
+    "labour matter outside Constitutional Court jurisdiction",
+    "Lucas Haamatowe applied"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Petition filed 28 March 2025 dismissed; Article 189(2) does not operate retrospectively (only came into force 5 January 2016); petitioner retired 1 March 2013 — pre-2016 dispute is a labour matter outside the Constitutional Court's jurisdiction; each party to bear own costs",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/11/eng@2025-06-19",
+  "raw_sha256": "02c3d235b0face947f0f0f9bd332648bba1951e902cd97d2b2808af1136a12ba",
+  "source_hash": "sha256:02c3d235b0face947f0f0f9bd332648bba1951e902cd97d2b2808af1136a12ba",
+  "fetched_at": "2026-05-18T00:10:06Z",
+  "parser_version": "0.3.2-jiw-b0687-hand-curated",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": []
+}

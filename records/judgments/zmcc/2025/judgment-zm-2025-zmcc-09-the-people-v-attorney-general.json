@@ -1,0 +1,72 @@
+{
+  "id": "judgment-zm-2025-zmcc-09-the-people-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "The People v Attorney General (Ex Parte Nickson Chilangwa) (2024/CCZ/R001) [2025] ZMCC 9 (10 February 2025)",
+  "citation": "[2025] ZMCC 9",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "The People v Attorney General (Ex Parte Nickson Chilangwa)",
+  "case_number": "2024/CCZ/R001",
+  "date_decided": "2025-02-10",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "PC (presiding)",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "DPC",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "JC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "constitutional reference from High Court",
+    "Article 72(2)(b) read with Article 70(2)(f)",
+    "imprisonment of MP - automatic vacation of parliamentary seat",
+    "by-election triggered by operation of law",
+    "stay of by-election pending appeal",
+    "supremacy of the Constitution (Article 1)"
+  ],
+  "outcome": "other",
+  "outcome_detail": "Constitutional reference answered: imprisonment of a Member of Parliament under Article 72(2)(b) read with Article 70(2)(f) triggers automatic vacation of the parliamentary seat as a matter of law; the vacation then triggers a by-election by operation of law; no provision exists for judicial review process during the by-election other than a nomination challenge; an appeal lodged against the conviction has no effect on the vacation of the seat or the ensuing by-election",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/9/eng@2025-02-10",
+  "raw_sha256": "9d7f4d2d78ae1516aabe2177ab2f65fb3c2c394a742fe226238bc1512967866c",
+  "source_hash": "sha256:9d7f4d2d78ae1516aabe2177ab2f65fb3c2c394a742fe226238bc1512967866c",
+  "fetched_at": "2026-05-18T00:10:06Z",
+  "parser_version": "0.3.2-jiw-b0687-hand-curated",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": []
+}

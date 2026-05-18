@@ -1,0 +1,58 @@
+{
+  "id": "judgment-zm-2025-zmcc-08-richard-sakala-v-the-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Richard Sakala v The Attorney General (2024/CCZ/0014) [2025] ZMCC 8 (1 April 2025)",
+  "citation": "[2025] ZMCC 8",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Richard Sakala v The Attorney General",
+  "case_number": "2024/CCZ/0014",
+  "date_decided": "2025-04-01",
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "DPC (presiding)",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "JC",
+      "dissented": true
+    },
+    {
+      "name": "Kawimbe",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "JC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "delay in commencing constitutional petition",
+    "Article 118(2)(b) - prompt institution",
+    "Limitation Act 1939 - applicability",
+    "Articles 56(3), 56(5), 56(7) and 180(4), 180(7)",
+    "preliminary objection on point of law",
+    "constitutional tort"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Majority (4:1) — petition dismissed; petitioner failed without reasonable explanation to institute petition promptly (slept on rights for over twenty years), contrary to Article 118(2)(b). Mwandenga JC dissenting (would have allowed petition to be heard on merits). Parties to bear own costs",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/8/eng@2025-04-01",
+  "dissent_summary": "Mwandenga JC dissented, finding the motion has no merit and would dismiss it with no order as to costs (would allow petition to be heard on merits); cautioned majority against introducing three additional elements amounting to amending Article 128(3) which would step into Parliament's legislative mandate under Article 62",
+  "raw_sha256": "c9af58398771aa70795df4e82d2e25b9d5741e7a564718f517adbc4c6d0f0319",
+  "source_hash": "sha256:c9af58398771aa70795df4e82d2e25b9d5741e7a564718f517adbc4c6d0f0319",
+  "fetched_at": "2026-05-18T00:10:06Z",
+  "parser_version": "0.3.2-jiw-b0687-hand-curated",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": []
+}

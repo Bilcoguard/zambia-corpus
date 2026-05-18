@@ -1,0 +1,67 @@
+{
+  "id": "judgment-zm-2025-zmcc-12-munir-zulu-and-anor-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Munir Zulu and Anor v Attorney General (2025/CCZ/009) [2025] ZMCC 12 (27 June 2025)",
+  "citation": "[2025] ZMCC 12",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Munir Zulu and Anor v Attorney General",
+  "case_number": "2025/CCZ/009",
+  "date_decided": "2025-06-27",
+  "judges": [
+    {
+      "name": "Munalula",
+      "role": "PC (delivered majority judgment)",
+      "dissented": false
+    },
+    {
+      "name": "Shilimi",
+      "role": "DPC",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "JC",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "JC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "Constitutional law",
+    "constitutional amendment challenge",
+    "Article 79 - principal and governing law for constitutional amendment",
+    "Articles 1(2), 8, 9, 61, 90, 91, 92",
+    "wider public consultations - matter of practice, not requirement",
+    "judicial intervention as recommendation for amendment (Isaac Mwanza/Maurice Makalu)",
+    "Law Association of Zambia v Attorney General applied"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "Petition dismissed; petition should have been handled within ambit of Article 79 (principal and governing law on constitutional amendments); had it been so handled, Article 79 would have been found not contravened; absence of wider public consultations cannot be a basis for nullifying a constitutional amendment process without proof of breach of Article 79; no order as to costs",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/12/eng@2025-06-27",
+  "raw_sha256": "bb49fa22efad0fb70df173d21abcb6ada8474a90fdec1154a0419e7b9386794e",
+  "source_hash": "sha256:bb49fa22efad0fb70df173d21abcb6ada8474a90fdec1154a0419e7b9386794e",
+  "fetched_at": "2026-05-18T00:10:06Z",
+  "parser_version": "0.3.2-jiw-b0687-hand-curated",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": []
+}
