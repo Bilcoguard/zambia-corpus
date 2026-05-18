@@ -11815,3 +11815,46 @@ See `reports/batch-0704-reverify.json` for the full per-record breakdown and `re
 - `judiciary-hc-sweep`: not yet started
 
 ### Network fetches: 0 (reparse-mode, zero-fetch tick)
+
+## b0706-phase8 — Phase 8 nightly re-verification (2026-05-18T15:04Z) — AUDIT-ONLY ENTRY
+
+Tick b0706 sampled 8 of 1961 records (sample_rate 0.01, seed `phase8-reverify-2026-05-18-b0706`). Results: 1 match, 7 drift, 0 fetch_error. 8× HTTP 200. All 9 integrity checks PASS.
+
+### Drifts (7) — pre-existing dynamic-render cohorts
+
+ZambiaLII AKN-HTML `eng@`-suffixed sub-variant (×5) — `zambialii_akn_html_dynamic_render_drift`:
+
+- `judgment-zm-2019-zmcc-20-chama-mutambalilo-v-attorney-general` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/judgment/zmcc/2019/20/eng@2019-12-09`); stored=`27fd96e03187d49aa7853f17f654b36a2c7f6d795b8224f3afc7089a4bfe3d1e` fetched=`7325cbee90929a52bf83fadb64b22013ab0982065e36a81fb8667878ffcb04de`; bytes=93204; verdict: dynamic-render churn, legal content unchanged.
+- `act-zm-1989-031-supplementary-appropriation-1988-act` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1989/31/eng@1989-12-29`); stored=`a9993fe6d52fef9bdfa31fa96b887ababb7a2359ddeeada5b327dc43cf28403e` fetched=`ac9c0cafbb892727146fab75bf242ab18b4a46ae74420cc8fd195e38ab7a7a05`; bytes=38640; verdict: dynamic-render churn, legal content unchanged.
+- `act-zm-1992-013-casino-act-1992` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1992/13/eng@1996-12-31`); stored=`253225f07f813fbc7ab0ade448dd2006c0f21a401a7646f8234c752e291ea8ce` fetched=`41d72601fcd365f75c477ab4a92ff7caf37ab7313628c6c9551118243e25bdfc`; bytes=120387; verdict: dynamic-render churn, legal content unchanged.
+- `act-zm-1967-026-law-reform-miscellaneous-provisions-act-1967` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1967/26/eng@1996-12-31`); stored=`7ea6fef26662afe333f7f2d474a6904cfba9a13072b6ace6937ad0b7b24117aa` fetched=`f69df461d0a88f842a020d9617b3ca439cfccbd1eeed539b1442b958cbc6ca7d`; bytes=91551; verdict: dynamic-render churn, legal content unchanged. **Re-sample: this record was also sampled in b0700; same stored sha, fetched sha matches b0700's fetched value — confirms dynamic-render output is bytewise-reproducible across same-day fetches for this URL.**
+- `act-zm-2021-053-appropriation-act` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/2021/53/eng@2021-12-30`); stored=`de8936d876ff569539ec1cbc146fba0746b6b74f9743732cfe556a7038462c85` fetched=`6ac94c787517d48c89fb566650a38b9063667ed92a98a24c2dc8c2c5522b1044`; bytes=38445; verdict: dynamic-render churn, legal content unchanged.
+
+ZambiaLII AKN bare-path sub-variant (×1) — `zambialii_akn_html_dynamic_render_drift` (bare-AKN-path sub-variant):
+
+- `si-zm-1995-030-national-archives-place-of-deposit-revocation-order-1995` — host `zambialii.org`, AKN bare-path (`/akn/zm/act/si/1995/30`, no `/eng@` suffix and no `/source.pdf` suffix); stored=`26af5910481e2422fad9c6167fae0839a5875518b1d149ec5bf9e99a291d77fc` fetched=`0cf84f45b52b2795e0437455804a8d9620c9cd1944ada2946fc0dc0617ae2178`; bytes=39077; verdict: dynamic-render churn on the 302-redirected English point-in-time HTML rendering, legal content unchanged.
+
+judiciaryzambia.com WordPress single-post (×1) — `judiciaryzambia_html_dynamic_render_drift`:
+
+- `judgment-zm-2026-coa-231-lisboa-casino-limited-v-director-of-public-prosecutions` — host `judiciaryzambia.com`, WordPress single-post HTML (`/appeal-231-2023-…`); stored=`1bd3fdba43e0d4d8915ba9c59fb272f8622f71acc64b2eafe46322b72073273d` fetched=`73ffe1733f099adde31a42878be1c912caec892295443c98fa798cdc4b447791`; bytes=167200; verdict: WordPress dynamic-render churn (Yoast meta / JSON-LD dateModified / share counter), legal content unchanged.
+
+### Match (1) — stable-PDF supercohort
+
+- `act-zm-2026-008-agricultural-marketing-act` — host `www.parliament.gov.zm`, Act PDF — hash unchanged (`27991e63...`).
+
+### No fetch errors
+
+ZambiaLII, judiciaryzambia.com, and www.parliament.gov.zm all fully available this tick (8/8 HTTP 200).
+
+See `reports/batch-0706-reverify.json` for the full per-record breakdown and `reports/batch-0706.md` for the narrative report.
+
+## phase8_reverify_drift
+- batch: 0706
+- detected_at: 2026-05-18T15:04:26Z
+- cohort: zambialii_akn_html_dynamic_render_drift (×6: ×5 eng@-suffixed sub-variant, ×1 bare-AKN-path sub-variant), judiciaryzambia_html_dynamic_render_drift (×1)
+- pool_size: 1961
+- sample_size: 8
+- match: 1
+- drift: 7
+- fetch_error: 0
+- records_mutated: 0

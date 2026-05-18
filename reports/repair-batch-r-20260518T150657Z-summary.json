@@ -1,0 +1,52 @@
+{
+  "batch": "r-20260518T150657Z",
+  "parser": "repair-0.6.105",
+  "started_utc": "2026-05-18T15:06:57Z",
+  "elapsed_sec": 38.2,
+  "identified_no_body": 25,
+  "identified_corrupted": 0,
+  "identified_stub": 0,
+  "dedup_targets": 25,
+  "repaired_count": 8,
+  "failed_count": 0,
+  "remaining_after_tick": 17,
+  "records": 1958,
+  "records_fts": 1958,
+  "integrity_match": true,
+  "quick_check": "ok",
+  "repaired": [
+    [
+      "si-zm-2022-065-public-protector-rules-2022",
+      "len=29950"
+    ],
+    [
+      "si-zm-2022-066-customs-and-excise-suspension-manganese-ores-and-concentrates-regulations-2022",
+      "len=1293"
+    ],
+    [
+      "si-zm-2022-070-defence-force-united-nations-peacekeeping-operations-emoluments-regulations-2022",
+      "len=1836"
+    ],
+    [
+      "si-zm-2022-071-local-government-appointment-of-local-government-administrator-kafue-town-council-order-2022",
+      "len=1380"
+    ],
+    [
+      "si-zm-2023-005-energy-regulation-appeals-tribunal-rules-2023",
+      "len=39812"
+    ],
+    [
+      "si-zm-2023-008-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2023",
+      "len=1858"
+    ],
+    [
+      "si-zm-2023-009-urban-and-regional-planning-designated-local-planning-authority-regulations-2023",
+      "len=1098"
+    ],
+    [
+      "si-zm-2023-014-zambia-medicines-and-medical-supplies-agency-administration-of-fund-regulations-2023",
+      "len=5325"
+    ]
+  ],
+  "failed": []
+}

@@ -9190,3 +9190,32 @@ warning: unable to unlink '.git/
 [2026-05-18T14:48:23Z] [b0705b-jiw] INTEGRITY pass=True errors=[]
 [2026-05-18T14:48:23Z] [b0705b-jiw] DB_COMMIT success records+=1
 [2026-05-18T14:48:23Z] [b0705b-jiw] WROTE_REPORT reports/batch-b0705b-jiw.md
+[2026-05-18T14:48:23Z] [b0705b-jiw] GIT_COMMIT sha=b600e5ef193b msg='Judgment batch b0705b-jiw: +1 CoA reparse-drain+orphan-recovery (APP/170/2025)'
+[2026-05-18T14:48:26Z] [b0705b-jiw] GIT_PUSH_OK
+[2026-05-18T14:48:26Z] [b0705b-jiw] TICK_END inserted=1 deferred=7 records=1958 records_fts=1958 elapsed_s=6
+[2026-05-18T15:06:58Z] r-20260518T150657Z === TICK START r-20260518T150657Z parser=repair-0.6.105 cwd=/sessions/exciting-friendly-darwin/mnt/corpus max_batch=8 ===
+[2026-05-18T15:06:58Z] r-20260518T150657Z git pull rc=0 stdout='Already up to date.' stderr="warning: unable to unlink '/sessions/exciting-friendly-darwin/mnt/corpus/.git/objects/maintenance.lock': Operation not permitted\nwarning: unable to unlink '/sessions/exciting-friendly-darwin/mnt/corpu"
+[2026-05-18T15:06:59Z] r-20260518T150657Z Condition B (no-body acts/sis): 25
+[2026-05-18T15:06:59Z] r-20260518T150657Z Condition A (corrupted line-numbers-only): 0
+[2026-05-18T15:06:59Z] r-20260518T150657Z Condition C (stubs): 0
+[2026-05-18T15:06:59Z] r-20260518T150657Z Total dedup targets: 25; MAX_BATCH=8
+[2026-05-18T15:06:59Z] r-20260518T150657Z REPAIR start id=si-zm-2022-065-public-protector-rules-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/65
+[2026-05-18T15:07:03Z] r-20260518T150657Z REPAIR ok id=si-zm-2022-065-public-protector-rules-2022 body_len=29950 hash=a12cfcc78387
+[2026-05-18T15:07:04Z] r-20260518T150657Z REPAIR start id=si-zm-2022-066-customs-and-excise-suspension-manganese-ores-and-concentrates-regulations-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/66
+[2026-05-18T15:07:07Z] r-20260518T150657Z REPAIR ok id=si-zm-2022-066-customs-and-excise-suspension-manganese-ores-and-concentrates-regulations-2022 body_len=1293 hash=a0fccabb1da9
+[2026-05-18T15:07:08Z] r-20260518T150657Z REPAIR start id=si-zm-2022-070-defence-force-united-nations-peacekeeping-operations-emoluments-regulations-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/70
+[2026-05-18T15:07:11Z] r-20260518T150657Z REPAIR ok id=si-zm-2022-070-defence-force-united-nations-peacekeeping-operations-emoluments-regulations-2022 body_len=1836 hash=a8e14169969e
+[2026-05-18T15:07:12Z] r-20260518T150657Z REPAIR start id=si-zm-2022-071-local-government-appointment-of-local-government-administrator-kafue-town-council-order-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/71
+[2026-05-18T15:07:15Z] r-20260518T150657Z REPAIR ok id=si-zm-2022-071-local-government-appointment-of-local-government-administrator-kafue-town-council-order-2022 body_len=1380 hash=fe7380b5fa81
+[2026-05-18T15:07:16Z] r-20260518T150657Z REPAIR start id=si-zm-2023-005-energy-regulation-appeals-tribunal-rules-2023 type=si url=https://zambialii.org/akn/zm/act/si/2023/5
+[2026-05-18T15:07:20Z] r-20260518T150657Z REPAIR ok id=si-zm-2023-005-energy-regulation-appeals-tribunal-rules-2023 body_len=39812 hash=3f87fad63f56
+[2026-05-18T15:07:21Z] r-20260518T150657Z REPAIR start id=si-zm-2023-008-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2023 type=si url=https://zambialii.org/akn/zm/act/si/2023/8
+[2026-05-18T15:07:24Z] r-20260518T150657Z REPAIR ok id=si-zm-2023-008-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2023 body_len=1858 hash=1c13d90d1072
+[2026-05-18T15:07:25Z] r-20260518T150657Z REPAIR start id=si-zm-2023-009-urban-and-regional-planning-designated-local-planning-authority-regulations-2023 type=si url=https://zambialii.org/akn/zm/act/si/2023/9
+[2026-05-18T15:07:29Z] r-20260518T150657Z REPAIR ok id=si-zm-2023-009-urban-and-regional-planning-designated-local-planning-authority-regulations-2023 body_len=1098 hash=2197ccb47634
+[2026-05-18T15:07:30Z] r-20260518T150657Z REPAIR start id=si-zm-2023-014-zambia-medicines-and-medical-supplies-agency-administration-of-fund-regulations-2023 type=si url=https://zambialii.org/akn/zm/act/si/2023/14
+[2026-05-18T15:07:34Z] r-20260518T150657Z REPAIR ok id=si-zm-2023-014-zambia-medicines-and-medical-supplies-agency-administration-of-fund-regulations-2023 body_len=5325 hash=f294166f34af
+[2026-05-18T15:07:35Z] r-20260518T150657Z INTEGRITY records=1958 records_fts=1958 match=True
+[2026-05-18T15:07:35Z] r-20260518T150657Z PRAGMA quick_check: ok
+[2026-05-18T15:07:35Z] r-20260518T150657Z rclone not available — B2 sync deferred to host
+[2026-05-18T15:07:36Z] r-20260518T150657Z COMMIT parent=b600e5ef193b msg='Repair batch r-20260518T150657Z: fixed 8 records (no_body=25 corrupted=0 stubs=0, 17 remaining)'

@@ -6577,3 +6577,19 @@ r-20260518T143615Z	2026-05-18T14:36:50Z	fetch_pdf_urllib	bytes=291389	sec=1.08
 2026-05-18T14:36:58Z	b0705-phase8-recover	BANDWIDTH	total_bytes=0	note=no-fetches
 2026-05-18T14:36:58Z	b0705-phase8-recover	INTEGRITY	all-checks=PASS	tick-verdict=COMMIT-recovery-of-stranded-b0704-via-alt-index-method
 2026-05-18T14:48:20Z b0705b-jiw fetches=0 mode=reparse-drain+orphan-recovery candidates=7 orphans=1 inserted=1 deferred=7
+r-20260518T150657Z	2026-05-18T15:07:00Z	fetch_html_urllib	bytes=38820	sec=1.79
+r-20260518T150657Z	2026-05-18T15:07:02Z	fetch_pdf_urllib	bytes=870850	sec=1.30
+r-20260518T150657Z	2026-05-18T15:07:05Z	fetch_html_urllib	bytes=39513	sec=1.74
+r-20260518T150657Z	2026-05-18T15:07:07Z	fetch_pdf_urllib	bytes=295394	sec=1.12
+r-20260518T150657Z	2026-05-18T15:07:09Z	fetch_html_urllib	bytes=39238	sec=1.78
+r-20260518T150657Z	2026-05-18T15:07:11Z	fetch_pdf_urllib	bytes=289728	sec=1.23
+r-20260518T150657Z	2026-05-18T15:07:14Z	fetch_html_urllib	bytes=38997	sec=1.90
+r-20260518T150657Z	2026-05-18T15:07:15Z	fetch_pdf_urllib	bytes=287207	sec=1.25
+r-20260518T150657Z	2026-05-18T15:07:18Z	fetch_html_urllib	bytes=38964	sec=1.93
+r-20260518T150657Z	2026-05-18T15:07:19Z	fetch_pdf_urllib	bytes=489214	sec=1.40
+r-20260518T150657Z	2026-05-18T15:07:23Z	fetch_html_urllib	bytes=39257	sec=1.95
+r-20260518T150657Z	2026-05-18T15:07:24Z	fetch_pdf_urllib	bytes=291744	sec=1.25
+r-20260518T150657Z	2026-05-18T15:07:28Z	fetch_html_urllib	bytes=39180	sec=2.22
+r-20260518T150657Z	2026-05-18T15:07:29Z	fetch_pdf_urllib	bytes=284445	sec=1.36
+r-20260518T150657Z	2026-05-18T15:07:33Z	fetch_html_urllib	bytes=39263	sec=2.60
+r-20260518T150657Z	2026-05-18T15:07:34Z	fetch_pdf_urllib	bytes=303683	sec=1.49
