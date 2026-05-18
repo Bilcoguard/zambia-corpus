@@ -6502,3 +6502,19 @@ b0700	2026-05-18T12:33:57Z	fetch_html	bytes=0	sec=0.92	http=404
 2026-05-18T12:33:57Z	b0700-phase8	WALL_CLOCK	started=2026-05-18T12:33:29Z	completed=2026-05-18T12:33:57Z	elapsed=28s	budget=20min	headroom=~19m32s
 2026-05-18T12:33:57Z	b0700-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 2026-05-18T12:33:57Z	b0700-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1954	records_fts=1954	dup_ids=0	tick-verdict=COMMIT-normal-path
+b0701	2026-05-18T13:12:03Z	fetch_html	bytes=39176	sec=1.52
+b0701	2026-05-18T13:12:04Z	fetch_pdf	bytes=549377	sec=1.20
+b0701	2026-05-18T13:12:07Z	fetch_html	bytes=39614	sec=0.93
+b0701	2026-05-18T13:12:08Z	fetch_pdf	bytes=293745	sec=0.86
+b0701	2026-05-18T13:12:10Z	fetch_html	bytes=39164	sec=0.93
+b0701	2026-05-18T13:12:11Z	fetch_pdf	bytes=295208	sec=1.05
+b0701	2026-05-18T13:12:13Z	fetch_html	bytes=39722	sec=0.96
+b0701	2026-05-18T13:12:13Z	fetch_pdf	bytes=283503	sec=0.65
+b0701	2026-05-18T13:12:15Z	fetch_html	bytes=39284	sec=0.99
+b0701	2026-05-18T13:12:16Z	fetch_pdf	bytes=13327	sec=0.52
+b0701	2026-05-18T13:12:18Z	fetch_html	bytes=39755	sec=0.91
+b0701	2026-05-18T13:12:19Z	fetch_pdf	bytes=290255	sec=0.68
+b0701	2026-05-18T13:12:21Z	fetch_html	bytes=39705	sec=0.93
+b0701	2026-05-18T13:12:21Z	fetch_pdf	bytes=286641	sec=0.68
+b0701	2026-05-18T13:12:23Z	fetch_html	bytes=40864	sec=1.02
+b0701	2026-05-18T13:12:24Z	fetch_pdf	bytes=293981	sec=0.56
