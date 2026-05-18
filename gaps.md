@@ -11971,3 +11971,32 @@ See `reports/batch-0707-reverify.json` for the full per-record breakdown and `re
 - drift: 5
 - fetch_error: 0
 - records_mutated: 0
+
+
+## b0707-jiw — HC page-1 sweep (fresh-ground, 2026-05-18T15:48:26Z)
+
+### Inserted (0)
+
+### Deferred (14)
+- https://judiciaryzambia.com/the-child-justice-forum/: no-pdf-url-found
+- https://judiciaryzambia.com/court-of-appeal-2/: duplicate-source-hash
+- https://judiciaryzambia.com/court-of-appeal-fee/: no-pdf-url-found
+- https://judiciaryzambia.com/court-of-appeal/: no-pdf-url-found
+- https://judiciaryzambia.com/service-charters/court-of-appeal-service-charter/: no-case-number-extracted
+- https://judiciaryzambia.com/henry-mbewe-1other-vs-the-people-app-9596-2021-coram-justice-makungu-sichinga-muzenga-jja/: quality-gate-too-short (0)
+- https://judiciaryzambia.com/2023-hpf-640-chambata-banda-1-other-vs-simba-international-school-2-others-april-2026-justice-t-s-musonda/: quality-gate-no-text
+- https://judiciaryzambia.com/2021-hp-1149-robust-railers-bodies-limited-vs-prof-nkandu-luo-feb-2024-justice-charles-zulu/: quality-gate-too-short (0)
+- https://judiciaryzambia.com/2022-hp-0304-given-lubinda-foundation-vs-mainda-simataa-may-2024-justice-s-chocho/: quality-gate-too-short (0)
+- https://judiciaryzambia.com/2022-hp-0724-semmanuel-tradeline-limited-vs-national-housing-empowerment-fund-may-2024-justice-kaunda-newa/: quality-gate-too-short (0)
+- https://judiciaryzambia.com/2022-hp-0925-zambia-community-resources-board-5-others-vs-the-attorney-general-jan-2024-justice-s-kaunda-newa/: quality-gate-too-short (0)
+- https://judiciaryzambia.com/2022-hp-0951-davie-museisei-sililo-vs-zambia-railways-limited-1-other-jan-2024-justice-kaunda-newa/: quality-gate-too-short (0)
+- https://judiciaryzambia.com/2022-hp-1376-john-mukandaasa-chifunda-vs-african-banking-corporation-zambia-limited-may-2024-justice-s-chocho/: quality-gate-too-short (0)
+- https://judiciaryzambia.com/2022-hp-1467-kopana-mufaya-vs-zambia-national-commercial-bank-plc-feb-2024-justice-s-kaunda-newa/: quality-gate-too-short (0)
+
+### Network fetches: 26
+
+### Sweep position update
+- `judiciary-coa-sweep`: page-9 (scanned-PDF cliff) — unchanged
+- `judiciary-scz-sweep`: page-2 — unchanged
+- `judiciary-zmcc-sweep`: page-1 probed b0693 — unchanged
+- `judiciary-hc-sweep`: page-1 swept this tick (cands=14, inserted=0, deferred=14) — advance to page 2 next tick

@@ -6625,3 +6625,23 @@ b0706	2026-05-18T15:04:26Z	fetch_html	bytes=38445	sec=1.065
 2026-05-18T15:34:55Z	b0707-phase8	WALL_CLOCK	started=2026-05-18T15:34:17Z	completed=2026-05-18T15:34:55Z	elapsed=38s	budget=20min	headroom=~19m22s
 2026-05-18T15:34:55Z	b0707-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 2026-05-18T15:34:55Z	b0707-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1961	records_fts=1961	dup_ids=0	tick-verdict=COMMIT-normal-path
+b0704	2026-05-18T15:40:41Z	fetch_html_urllib	bytes=39375	sec=1.85
+b0704	2026-05-18T15:40:42Z	fetch_pdf_urllib	bytes=792703	sec=1.22
+b0704	2026-05-18T15:40:48Z	fetch_html_urllib	bytes=39296	sec=1.77
+b0704	2026-05-18T15:40:49Z	fetch_pdf_urllib	bytes=298008	sec=1.14
+b0704	2026-05-18T15:40:52Z	fetch_html_urllib	bytes=39302	sec=1.80
+b0704	2026-05-18T15:40:53Z	fetch_pdf_urllib	bytes=288440	sec=1.04
+b0704	2026-05-18T15:40:56Z	fetch_html_urllib	bytes=41641	sec=1.78
+b0704	2026-05-18T15:40:57Z	fetch_pdf_urllib	bytes=464778	sec=1.02
+b0704	2026-05-18T15:41:01Z	fetch_html_urllib	bytes=39270	sec=1.76
+b0704	2026-05-18T15:41:02Z	fetch_pdf_urllib	bytes=287219	sec=1.08
+b0704	2026-05-18T15:41:05Z	fetch_html_urllib	bytes=41025	sec=1.79
+b0704	2026-05-18T15:41:06Z	fetch_pdf_urllib	bytes=297117	sec=1.08
+b0704	2026-05-18T15:41:09Z	fetch_html_urllib	bytes=38909	sec=1.70
+b0704	2026-05-18T15:41:10Z	fetch_pdf_urllib	bytes=99160	sec=0.87
+b0704	2026-05-18T15:41:12Z	fetch_html_urllib	bytes=41031	sec=1.73
+b0704	2026-05-18T15:41:13Z	fetch_pdf_urllib	bytes=103114	sec=0.87
+2026-05-18T15:48:26Z	b0707-jiw	fetches=26	retry_fetches=0	records_written=0	records_deferred=14	worker=judgment-ingestion-worker	cumulative_today=26/500	cohort=HC-page-1-sweep-fresh-ground
+2026-05-18T15:48:26Z	b0707-jiw	NETWORK_FETCHES	count=26	judiciaryzambia.com=26	robots=respected
+2026-05-18T15:48:26Z	b0707-jiw	BANDWIDTH	total_bytes=155334596	source=judiciaryzambia.com
+2026-05-18T15:48:26Z	b0707-jiw	INTEGRITY	records=1961	records_fts=1961	pass=True

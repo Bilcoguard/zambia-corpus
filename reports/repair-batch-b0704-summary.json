@@ -1,0 +1,52 @@
+{
+  "batch": "b0704",
+  "parser": "repair-0.6.104",
+  "started_utc": "2026-05-18T15:40:37Z",
+  "elapsed_sec": 37.7,
+  "identified_no_body": 17,
+  "identified_corrupted": 0,
+  "identified_stub": 0,
+  "dedup_targets": 17,
+  "repaired_count": 8,
+  "failed_count": 0,
+  "remaining_after_tick": 9,
+  "records": 1961,
+  "records_fts": 1961,
+  "integrity_match": true,
+  "quick_check": "ok",
+  "repaired": [
+    [
+      "si-zm-2023-021-urban-and-regional-planning-development-plans-guidelines-and-exempted-development-classes-regulations-2023",
+      "len=128983"
+    ],
+    [
+      "si-zm-2023-036-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2023",
+      "len=1714"
+    ],
+    [
+      "si-zm-2023-040-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2023",
+      "len=1779"
+    ],
+    [
+      "si-zm-2023-041-energy-regulation-general-regulations-2023",
+      "len=67988"
+    ],
+    [
+      "si-zm-2023-045-urban-and-regional-planning-designated-local-planning-authority-no-2-regulations-2023",
+      "len=1151"
+    ],
+    [
+      "si-zm-2023-046-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2023",
+      "len=2063"
+    ],
+    [
+      "si-zm-2023-048-employment-code-minimum-wages-and-conditions-of-employment-general-order-2023",
+      "len=3537"
+    ],
+    [
+      "si-zm-2023-049-employment-code-domestic-workers-minimum-wages-and-conditions-of-employment-order-2023",
+      "len=3631"
+    ]
+  ],
+  "failed": []
+}

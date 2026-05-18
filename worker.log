@@ -9315,3 +9315,181 @@ fatal: cannot lock ref 'HEAD': Unable to create
 [2026-05-18T15:35:30Z] [b0707-phase8] GIT_COMMIT sha=01f31be msg='Phase 8 batch 0707: nightly re-verify 8 records (3 match, 5 drift, 0 fetch_error)'
 [2026-05-18T15:35:31Z] [b0707-phase8] GIT_PUSH_OK
 [2026-05-18T15:35:31Z] [b0707-phase8] TICK_END phase=phase_8_nightly_reverify pool=1964 sample=8 match=3 drift=5 fetch_error=0 elapsed_s=38
+[2026-05-18T15:40:37Z] b0704 === TICK START b0704 cwd=/sessions/quirky-magical-edison/mnt/corpus ===
+[2026-05-18T15:40:38Z] b0704 git pull rc=1 stderr=fatal: bad object refs/remotes/origin/main.lock.b0707-final2.bak
+error: https://github.com/Bilcoguard/zambia-corpus.git did not send all necessary objects
+[2026-05-18T15:40:39Z] b0704 git fetch rc=1 stderr=fatal: bad object refs/remotes/origin/main.lock.b0707-final2.bak
+error: https://github.com/Bilcoguard/zambia-corpus.git did not send all necessary objects
+[2026-05-18T15:40:39Z] b0704 local=59e1456b0f63 origin/main=59e1456b0f63
+[2026-05-18T15:40:39Z] b0704 Condition B (no-body acts/sis): 17
+[2026-05-18T15:40:39Z] b0704 Condition A (corrupted): 0
+[2026-05-18T15:40:39Z] b0704 Condition C (stubs): 0
+[2026-05-18T15:40:39Z] b0704 Total dedup targets: 17; MAX_BATCH=8
+[2026-05-18T15:40:39Z] b0704 REPAIR start id=si-zm-2023-021-urban-and-regional-planning-development-plans-guidelines-and-exempted-development-classes-regulations-2023 type=si url=https://zambialii.org/akn/zm/act/si/2023/21
+[2026-05-18T15:40:45Z] b0704 REPAIR ok id=si-zm-2023-021-urban-and-regional-planning-development-plans-guidelines-and-exempted-development-classes-regulations-2023 body_len=128983 hash=22597656495e
+[2026-05-18T15:40:46Z] b0704 REPAIR start id=si-zm-2023-036-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2023 type=si url=https://zambialii.org/akn/zm/act/si/2023/36
+[2026-05-18T15:40:49Z] b0704 REPAIR ok id=si-zm-2023-036-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2023 body_len=1714 hash=b9c33b4ed28f
+[2026-05-18T15:40:50Z] b0704 REPAIR start id=si-zm-2023-040-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2023 type=si url=https://zambialii.org/akn/zm/act/si/2023/40
+[2026-05-18T15:40:53Z] b0704 REPAIR ok id=si-zm-2023-040-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2023 body_len=1779 hash=7f2aa692f09c
+[2026-05-18T15:40:54Z] b0704 REPAIR start id=si-zm-2023-041-energy-regulation-general-regulations-2023 type=si url=https://zambialii.org/akn/zm/act/si/2023/41
+[2026-05-18T15:40:58Z] b0704 REPAIR ok id=si-zm-2023-041-energy-regulation-general-regulations-2023 body_len=67988 hash=c42c39999c81
+[2026-05-18T15:40:59Z] b0704 REPAIR start id=si-zm-2023-045-urban-and-regional-planning-designated-local-planning-authority-no-2-regulations-2023 type=si url=https://zambialii.org/akn/zm/act/si/2023/45
+[2026-05-18T15:41:02Z] b0704 REPAIR ok id=si-zm-2023-045-urban-and-regional-planning-designated-local-planning-authority-no-2-regulations-2023 body_len=1151 hash=3428c7d75c51
+[2026-05-18T15:41:03Z] b0704 REPAIR start id=si-zm-2023-046-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2023 type=si url=https://zambialii.org/akn/zm/act/si/2023/46
+[2026-05-18T15:41:06Z] b0704 REPAIR ok id=si-zm-2023-046-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2023 body_len=2063 hash=d86a7fb961e8
+[2026-05-18T15:41:07Z] b0704 REPAIR start id=si-zm-2023-048-employment-code-minimum-wages-and-conditions-of-employment-general-order-2023 type=si url=https://zambialii.org/akn/zm/act/si/2023/48
+[2026-05-18T15:41:10Z] b0704 REPAIR ok id=si-zm-2023-048-employment-code-minimum-wages-and-conditions-of-employment-general-order-2023 body_len=3537 hash=0b0f8558865e
+[2026-05-18T15:41:11Z] b0704 REPAIR start id=si-zm-2023-049-employment-code-domestic-workers-minimum-wages-and-conditions-of-employment-order-2023 type=si url=https://zambialii.org/akn/zm/act/si/2023/49
+[2026-05-18T15:41:13Z] b0704 REPAIR ok id=si-zm-2023-049-employment-code-domestic-workers-minimum-wages-and-conditions-of-employment-order-2023 body_len=3631 hash=732f1bd7b0d8
+[2026-05-18T15:41:14Z] b0704 INTEGRITY records=1961 records_fts=1961 match=True
+[2026-05-18T15:41:15Z] b0704 PRAGMA quick_check: ok
+[2026-05-18T15:41:15Z] b0704 rclone not available — B2 sync deferred to host
+[2026-05-18T15:41:15Z] b0704 COMMIT parent=59e1456b0f63
+[2026-05-18T15:41:15Z] b0704 git add failed rc=128 stderr=fatal: Unable to create '/sessions/quirky-magical-edison/mnt/corpus/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. P
+[2026-05-18T15:41:15Z] b0704 Falling back to alt-index commit
+[2026-05-18T15:41:18Z] b0704 alt-index commit ok: f725c164817e
+[2026-05-18T15:41:18Z] b0704 HEAD now f725c164817e; pushing
+[2026-05-18T15:41:54Z] b0704 git push rc=1 stdout= stderr=remote: error: Trace: cdb78258b50c3b286dbe0530cdcbbf2775b6d921b37e72dd0933f2a0e5528142        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File corpus.sqlite is 1
+[2026-05-18T15:42:43Z] b0704 git push (plain) rc=1 stderr=remote: error: Trace: 507b0fd1b3a840e609646a2a78f9bfcfb4beb2cbe9abc05703c786bb50e7e829        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File corpus.sqlite is 1
+[2026-05-18T15:42:43Z] b0704 === TICK END b0704 elapsed=125.7s repaired=8 failed=0 ===
+[2026-05-18T15:44:57Z] [b0707-jiw] TICK_START worker=judgment-ingestion-worker mode=priority-e-hc-sweep-page-1 max_batch=8
+[2026-05-18T15:44:58Z] [b0707-jiw] GIT_PULL_FAIL rc=1 stderr=fatal: bad object refs/remotes/origin/main.lock.b0707-final2.bak
+error: https://github.com/Bilcoguard/zambia-corpus.git did not send all necessary objects
+
+warning: unable to unlink '/sessions/bold-happy-pasteur/mnt/corpus/.git/objects/maintenance.lock': Operation not permitted
+[2026-05-18T15:44:58Z] [b0707-jiw] STOP after git pull failure
+[2026-05-18T15:46:42Z] [b0707-jiw] TICK_START worker=judgment-ingestion-worker mode=priority-e-hc-sweep-page-1 max_batch=8
+[2026-05-18T15:46:44Z] [b0707-jiw] GIT_PULL_FAIL rc=128 stderr=fatal: update_ref failed for ref 'ORIG_HEAD': cannot lock ref 'ORIG_HEAD': Unable to create '/sessions/bold-happy-pasteur/mnt/corpus/.git/ORIG_HEAD.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+a
+[2026-05-18T15:46:44Z] [b0707-jiw] STOP after git pull failure
+[2026-05-18T15:47:57Z] [b0707-jiw] TICK_START worker=judgment-ingestion-worker mode=priority-e-hc-sweep-page-1 max_batch=8
+[2026-05-18T15:47:58Z] [b0707-jiw] GIT_PULL_OK Already up to date.
+[2026-05-18T15:47:58Z] [b0707-jiw] BUDGET_CHECK jiw_fetches_today=0/500
+[2026-05-18T15:48:26Z] [b0707-jiw] TICK_START worker=judgment-ingestion-worker mode=priority-e-hc-sweep-page-1 max_batch=8
+[2026-05-18T15:48:27Z] [b0707-jiw] GIT_PULL_OK Already up to date.
+[2026-05-18T15:48:27Z] [b0707-jiw] BUDGET_CHECK jiw_fetches_today=0/500
+[2026-05-18T15:48:27Z] [b0707-jiw] DEDUP_LOAD case_numbers=237 ids=277 hashes=1950 fuzzy=254
+[2026-05-18T15:48:27Z] [b0707-jiw] FETCH listing=https://judiciaryzambia.com/category/resources/decisions/high-court-decisions/
+[2026-05-18T15:48:30Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/category/resources/decisions/high-court-decisions/ bytes=180501 status=200 elapsed=2.6s
+[2026-05-18T15:48:32Z] [b0707-jiw] POST_URLS extracted=19
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/the-child-justice-forum/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/court-of-appeal-2/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/court-of-appeal-fee/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/court-of-appeal/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/service-charters/court-of-appeal-service-charter/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/henry-mbewe-1other-vs-the-people-app-9596-2021-coram-justice-makungu-sichinga-muzenga-jja/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/2023-hpf-640-chambata-banda-1-other-vs-simba-international-school-2-others-april-2026-justice-t-s-musonda/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/2021-hp-1149-robust-railers-bodies-limited-vs-prof-nkandu-luo-feb-2024-justice-charles-zulu/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/2022-hp-0304-given-lubinda-foundation-vs-mainda-simataa-may-2024-justice-s-chocho/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/2022-hp-0724-semmanuel-tradeline-limited-vs-national-housing-empowerment-fund-may-2024-justice-kaunda-newa/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/2022-hp-0925-zambia-community-resources-board-5-others-vs-the-attorney-general-jan-2024-justice-s-kaunda-newa/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/2022-hp-0951-davie-museisei-sililo-vs-zambia-railways-limited-1-other-jan-2024-justice-kaunda-newa/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/2022-hp-1376-john-mukandaasa-chifunda-vs-african-banking-corporation-zambia-limited-may-2024-justice-s-chocho/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/2022-hp-1467-kopana-mufaya-vs-zambia-national-commercial-bank-plc-feb-2024-justice-s-kaunda-newa/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/2023-hp-1547-el-sewedy-ilumination-vs-zambia-electrometer-limited-feb-2024-justice-r-chibbabbuka/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/hp-201-2023-the-people-vs-clifford-choonde-jan-2024-justice-s-v-siloka/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/2025-ccz-0019-mputa-ngalande-vs-attorney-general-may-2026-munalula-chisunka-mulongoti-kawimbe-and-mulife-jjc/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/false-social-media-claims-alleging-the-resignation-of-the-chief-justice-of-zambia/
+[2026-05-18T15:48:32Z] [b0707-jiw]   post: https://judiciaryzambia.com/chief-justice-dr-munba-malila-sc-congratulates-hon-mr-justice-martin-sitwala-mwanwambwa-on-his-election-as-president-of-the-comesa-court-of-justice/
+[2026-05-18T15:48:32Z] [b0707-jiw] CANDIDATES selected=14
+[2026-05-18T15:48:32Z] [b0707-jiw] PROCESS post=https://judiciaryzambia.com/the-child-justice-forum/
+[2026-05-18T15:48:34Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/the-child-justice-forum/ bytes=164807 status=200 elapsed=2.4s
+[2026-05-18T15:48:36Z] [b0707-jiw]   pdf_urls=0 first=none
+[2026-05-18T15:48:36Z] [b0707-jiw] PROCESS post=https://judiciaryzambia.com/court-of-appeal-2/
+[2026-05-18T15:48:38Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/court-of-appeal-2/ bytes=155667 status=200 elapsed=2.3s
+[2026-05-18T15:48:40Z] [b0707-jiw]   pdf_urls=2 first=http://www.judiciaryzambia.com/wp-content/uploads/2020/10/The-Court-of-Appeal-Act-1.pdf
+[2026-05-18T15:48:41Z] [b0707-jiw] HTTP_OK url=http://www.judiciaryzambia.com/wp-content/uploads/2020/10/The-Court-of-Appeal-Act-1.pdf bytes=39888 status=200 elapsed=1.0s
+[2026-05-18T15:48:43Z] [b0707-jiw]   DEDUP_HASH sha=9c9e64120fa1
+[2026-05-18T15:48:43Z] [b0707-jiw] PROCESS post=https://judiciaryzambia.com/court-of-appeal-fee/
+[2026-05-18T15:48:46Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/court-of-appeal-fee/ bytes=160004 status=200 elapsed=2.5s
+[2026-05-18T15:48:48Z] [b0707-jiw]   pdf_urls=0 first=none
+[2026-05-18T15:48:48Z] [b0707-jiw] PROCESS post=https://judiciaryzambia.com/court-of-appeal/
+[2026-05-18T15:48:50Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/court-of-appeal/ bytes=158656 status=200 elapsed=2.4s
+[2026-05-18T15:48:52Z] [b0707-jiw]   pdf_urls=0 first=none
+[2026-05-18T15:48:52Z] [b0707-jiw] PROCESS post=https://judiciaryzambia.com/service-charters/court-of-appeal-service-charter/
+[2026-05-18T15:48:55Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/service-charters/court-of-appeal-service-charter/ bytes=156767 status=200 elapsed=2.4s
+[2026-05-18T15:48:57Z] [b0707-jiw]   pdf_urls=1 first=https://judiciaryzambia.com/wp-content/uploads/2023/07/Court-Of-Appeal-Service-Charter.pdf
+[2026-05-18T15:48:59Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/wp-content/uploads/2023/07/Court-Of-Appeal-Service-Charter.pdf bytes=176280 status=200 elapsed=2.3s
+[2026-05-18T15:49:01Z] [b0707-jiw]   QGATE ok len=18853 dratio=0.013
+[2026-05-18T15:49:01Z] [b0707-jiw] PROCESS post=https://judiciaryzambia.com/henry-mbewe-1other-vs-the-people-app-9596-2021-coram-justice-makungu-sichinga-muzenga-jja/
+[2026-05-18T15:49:04Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/henry-mbewe-1other-vs-the-people-app-9596-2021-coram-justice-makungu-sichinga-muzenga-jja/ bytes=166677 status=200 elapsed=2.4s
+[2026-05-18T15:49:06Z] [b0707-jiw]   pdf_urls=1 first=https://judiciaryzambia.com/wp-content/uploads/2023/02/Henry-Mbewe-1Other-VS-The-People-App-9596-2021-Coram-Justice-Maku
+[2026-05-18T15:49:17Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/wp-content/uploads/2023/02/Henry-Mbewe-1Other-VS-The-People-App-9596-2021-Coram-Justice-Maku bytes=5073384 status=200 elapsed=11.2s
+[2026-05-18T15:49:19Z] [b0707-jiw]   QGATE too-short (0)
+[2026-05-18T15:49:19Z] [b0707-jiw] PROCESS post=https://judiciaryzambia.com/2023-hpf-640-chambata-banda-1-other-vs-simba-international-school-2-others-april-2026-justice-t-s-musonda/
+[2026-05-18T15:49:22Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/2023-hpf-640-chambata-banda-1-other-vs-simba-international-school-2-others-april-2026-justic bytes=167810 status=200 elapsed=2.3s
+[2026-05-18T15:49:24Z] [b0707-jiw]   pdf_urls=1 first=https://judiciaryzambia.com/wp-content/uploads/2026/05/2023-HPF-640-Chambata-Banda-1-Other-Vs-Simba-International-School
+[2026-05-18T15:50:15Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/wp-content/uploads/2026/05/2023-HPF-640-Chambata-Banda-1-Other-Vs-Simba-International-School bytes=40000000 status=200 elapsed=51.7s
+[2026-05-18T15:50:19Z] [b0707-jiw] PDFPLUMBER_FAIL Unexpected EOF
+[2026-05-18T15:50:19Z] [b0707-jiw]   QGATE no-text
+[2026-05-18T15:50:19Z] [b0707-jiw] PROCESS post=https://judiciaryzambia.com/2021-hp-1149-robust-railers-bodies-limited-vs-prof-nkandu-luo-feb-2024-justice-charles-zulu/
+[2026-05-18T15:50:21Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/2021-hp-1149-robust-railers-bodies-limited-vs-prof-nkandu-luo-feb-2024-justice-charles-zulu/ bytes=167470 status=200 elapsed=2.4s
+[2026-05-18T15:50:23Z] [b0707-jiw]   pdf_urls=1 first=https://judiciaryzambia.com/wp-content/uploads/2026/04/2021-HP-1149-Robust-Railers-Bodies-Limited-Vs-Prof-Nkandu-Luo-Feb
+[2026-05-18T15:50:30Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/wp-content/uploads/2026/04/2021-HP-1149-Robust-Railers-Bodies-Limited-Vs-Prof-Nkandu-Luo-Feb bytes=3563735 status=200 elapsed=7.0s
+[2026-05-18T15:50:32Z] [b0707-jiw]   QGATE too-short (0)
+[2026-05-18T15:50:33Z] [b0707-jiw] PROCESS post=https://judiciaryzambia.com/2022-hp-0304-given-lubinda-foundation-vs-mainda-simataa-may-2024-justice-s-chocho/
+[2026-05-18T15:50:35Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/2022-hp-0304-given-lubinda-foundation-vs-mainda-simataa-may-2024-justice-s-chocho/ bytes=167286 status=200 elapsed=2.4s
+[2026-05-18T15:50:37Z] [b0707-jiw]   pdf_urls=1 first=https://judiciaryzambia.com/wp-content/uploads/2026/04/2022-HP-0304-Given-Lubinda-Foundation-Vs-Mainda-Simataa-May-2024-
+[2026-05-18T15:50:52Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/wp-content/uploads/2026/04/2022-HP-0304-Given-Lubinda-Foundation-Vs-Mainda-Simataa-May-2024- bytes=5797936 status=200 elapsed=14.7s
+[2026-05-18T15:50:54Z] [b0707-jiw]   QGATE too-short (0)
+[2026-05-18T15:50:54Z] [b0707-jiw] PROCESS post=https://judiciaryzambia.com/2022-hp-0724-semmanuel-tradeline-limited-vs-national-housing-empowerment-fund-may-2024-justice-kaunda-newa/
+[2026-05-18T15:50:56Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/2022-hp-0724-semmanuel-tradeline-limited-vs-national-housing-empowerment-fund-may-2024-justi bytes=167679 status=200 elapsed=2.5s
+[2026-05-18T15:50:58Z] [b0707-jiw]   pdf_urls=1 first=https://judiciaryzambia.com/wp-content/uploads/2026/04/2022-HP-0724-Semmanuel-Tradeline-Limited-Vs-National-Housing-Empo
+[2026-05-18T15:52:16Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/wp-content/uploads/2026/04/2022-HP-0724-Semmanuel-Tradeline-Limited-Vs-National-Housing-Empo bytes=32580995 status=200 elapsed=77.6s
+[2026-05-18T15:52:19Z] [b0707-jiw]   QGATE too-short (0)
+[2026-05-18T15:52:19Z] [b0707-jiw] PROCESS post=https://judiciaryzambia.com/2022-hp-0925-zambia-community-resources-board-5-others-vs-the-attorney-general-jan-2024-justice-s-kaunda-newa/
+[2026-05-18T15:52:21Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/2022-hp-0925-zambia-community-resources-board-5-others-vs-the-attorney-general-jan-2024-just bytes=167688 status=200 elapsed=2.7s
+[2026-05-18T15:52:23Z] [b0707-jiw]   pdf_urls=1 first=https://judiciaryzambia.com/wp-content/uploads/2026/04/2022-HP-0925-Zambia-Community-Resources-Board-5-Others-Vs-The-Att
+[2026-05-18T15:52:54Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/wp-content/uploads/2026/04/2022-HP-0925-Zambia-Community-Resources-Board-5-Others-Vs-The-Att bytes=16054751 status=200 elapsed=31.1s
+[2026-05-18T15:52:57Z] [b0707-jiw]   QGATE too-short (0)
+[2026-05-18T15:52:57Z] [b0707-jiw] PROCESS post=https://judiciaryzambia.com/2022-hp-0951-davie-museisei-sililo-vs-zambia-railways-limited-1-other-jan-2024-justice-kaunda-newa/
+[2026-05-18T15:53:00Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/2022-hp-0951-davie-museisei-sililo-vs-zambia-railways-limited-1-other-jan-2024-justice-kaund bytes=167433 status=200 elapsed=2.7s
+[2026-05-18T15:53:02Z] [b0707-jiw]   pdf_urls=1 first=https://judiciaryzambia.com/wp-content/uploads/2026/04/2022-HP-0951-Davie-Museisei-Sililo-Vs-Zambia-Railways-Limited-1-O
+[2026-05-18T15:53:28Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/wp-content/uploads/2026/04/2022-HP-0951-Davie-Museisei-Sililo-Vs-Zambia-Railways-Limited-1-O bytes=17497432 status=200 elapsed=26.0s
+[2026-05-18T15:53:30Z] [b0707-jiw]   QGATE too-short (0)
+[2026-05-18T15:53:30Z] [b0707-jiw] PROCESS post=https://judiciaryzambia.com/2022-hp-1376-john-mukandaasa-chifunda-vs-african-banking-corporation-zambia-limited-may-2024-justice-s-chocho/
+[2026-05-18T15:53:32Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/2022-hp-1376-john-mukandaasa-chifunda-vs-african-banking-corporation-zambia-limited-may-2024 bytes=167762 status=200 elapsed=2.4s
+[2026-05-18T15:53:34Z] [b0707-jiw]   pdf_urls=1 first=https://judiciaryzambia.com/wp-content/uploads/2026/04/2022-HP-1376-John-Mukandaasa-Chifunda-Vs-African-Banking-Corporat
+[2026-05-18T15:53:52Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/wp-content/uploads/2026/04/2022-HP-1376-John-Mukandaasa-Chifunda-Vs-African-Banking-Corporat bytes=9729096 status=200 elapsed=17.4s
+[2026-05-18T15:53:54Z] [b0707-jiw]   QGATE too-short (0)
+[2026-05-18T15:53:54Z] [b0707-jiw] PROCESS post=https://judiciaryzambia.com/2022-hp-1467-kopana-mufaya-vs-zambia-national-commercial-bank-plc-feb-2024-justice-s-kaunda-newa/
+[2026-05-18T15:53:57Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/2022-hp-1467-kopana-mufaya-vs-zambia-national-commercial-bank-plc-feb-2024-justice-s-kaunda- bytes=167450 status=200 elapsed=2.8s
+[2026-05-18T15:53:59Z] [b0707-jiw]   pdf_urls=1 first=https://judiciaryzambia.com/wp-content/uploads/2026/04/2022-HP-1467-Kopana-Mufaya-Vs-Zambia-National-Commercial-Bank-Plc
+[2026-05-18T15:54:38Z] [b0707-jiw] HTTP_OK url=https://judiciaryzambia.com/wp-content/uploads/2026/04/2022-HP-1467-Kopana-Mufaya-Vs-Zambia-National-Commercial-Bank-Plc bytes=22337442 status=200 elapsed=38.7s
+[2026-05-18T15:54:40Z] [b0707-jiw]   QGATE too-short (0)
+[2026-05-18T15:54:40Z] [b0707-jiw] PARSED total_to_insert=0 deferred_this_tick=14
+[2026-05-18T15:54:40Z] [b0707-jiw] DB_PRE records=1961 records_fts=1961
+[2026-05-18T15:54:40Z] [b0707-jiw] DB_POST records=1961 records_fts=1961
+[2026-05-18T15:54:40Z] [b0707-jiw] INTEGRITY CHECK8 pass=True records=1961 records_fts=1961
+[2026-05-18T15:54:40Z] [b0707-jiw] WROTE_REPORT /sessions/bold-happy-pasteur/mnt/corpus/reports/batch-b0707-jiw.md
+[2026-05-18T15:54:40Z] [b0707-jiw] RCLONE not_available — B2 sync deferred to host
+[2026-05-18T15:54:41Z] [b0707-jiw] GIT_COMMIT_FAIL attempt=1 rc=128 stderr=fatal: Unable to create '/sessions/bold-happy-pasteur/mnt/corpus/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have 
+[2026-05-18T15:54:41Z] [b0707-jiw] GIT_COMMIT ok sha=884312b8da7b msg='Judgment batch b0707-jiw: +0 HC sweep page-1 (14 deferred, 26 fetches)'
+[2026-05-18T15:55:25Z] [b0707-jiw] GIT_PUSH_FAIL attempt=1 rc=1 stderr=remote: error: Trace: c12e9b42879c38abd089cd912c10282c7e926214393182cbea346b2525bfbe20        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File corpus.sqlite is 113.39 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large fil
+[2026-05-18T15:56:16Z] [b0707-jiw] GIT_PUSH_FAIL attempt=2 rc=1 stderr=remote: error: Trace: 8bbd5070fc8c1f7eb863a29931ed7ab498eb07acd469b3055958e332e514d4d3        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File corpus.sqlite is 113.39 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large fil
+[2026-05-18T15:56:55Z] [b0707-jiw] GIT_PUSH_FAIL attempt=3 rc=1 stderr=remote: error: Trace: 9ea30ee5324f2cca94f6819f326a88d80c75e9d86707646774365b4245bc7f94        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File corpus.sqlite is 113.39 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large fil
+[2026-05-18T15:56:56Z] [b0707-jiw] TICK_END inserted=0 deferred=14 fetches=26 elapsed_s=510 records=1961 records_fts=1961
