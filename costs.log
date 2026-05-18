@@ -6522,3 +6522,37 @@ b0701	2026-05-18T13:12:24Z	fetch_pdf	bytes=293981	sec=0.56
 2026-05-18T13:44:59Z	b0701-jiw	NETWORK_FETCHES	count=0	note=hand-curated-from-raw-on-disk-no-network
 2026-05-18T13:44:59Z	b0701-jiw	BANDWIDTH	total_bytes=0
 2026-05-18T13:44:59Z	b0701-jiw	INTEGRITY	all-checks=PASS	quick_check=ok	records=1954	records_fts=1954	tick-verdict=COMMIT-normal-path
+b0703	2026-05-18T14:07:51Z	fetch_html_urllib	bytes=39154	sec=1.89
+b0703	2026-05-18T14:07:53Z	fetch_pdf_urllib	bytes=286421	sec=1.41
+b0703	2026-05-18T14:07:56Z	fetch_html_urllib	bytes=38771	sec=1.87
+b0703	2026-05-18T14:07:57Z	fetch_pdf_urllib	bytes=287101	sec=1.31
+b0703	2026-05-18T14:08:00Z	fetch_html_urllib	bytes=39332	sec=1.80
+b0703	2026-05-18T14:08:01Z	fetch_pdf_urllib	bytes=292188	sec=1.09
+b0703	2026-05-18T14:08:04Z	fetch_html_urllib	bytes=39164	sec=1.76
+b0703	2026-05-18T14:08:05Z	fetch_pdf_urllib	bytes=280054	sec=1.14
+b0703	2026-05-18T14:08:08Z	fetch_html_urllib	bytes=38913	sec=1.78
+b0703	2026-05-18T14:08:09Z	fetch_pdf_urllib	bytes=284644	sec=0.99
+b0703	2026-05-18T14:08:12Z	fetch_html_urllib	bytes=38733	sec=1.68
+b0703	2026-05-18T14:08:13Z	fetch_pdf_urllib	bytes=295454	sec=1.32
+b0703	2026-05-18T14:08:16Z	fetch_html_urllib	bytes=39257	sec=1.85
+b0703	2026-05-18T14:08:17Z	fetch_pdf_urllib	bytes=293160	sec=1.24
+b0703	2026-05-18T14:08:20Z	fetch_html_urllib	bytes=39679	sec=1.92
+b0703	2026-05-18T14:08:22Z	fetch_pdf_urllib	bytes=306733	sec=2.05
+b0704	2026-05-18T14:06:14Z	fetch_pdf	bytes=289681	sec=1.687
+b0704	2026-05-18T14:06:14Z	fetch_pdf	bytes=282765	sec=0.715
+b0704	2026-05-18T14:06:20Z	fetch_pdf	bytes=82281	sec=1.202
+b0704	2026-05-18T14:06:21Z	fetch_pdf	bytes=230548	sec=1.424
+b0704	2026-05-18T14:06:27Z	fetch_html	bytes=38913	sec=1.894
+b0704	2026-05-18T14:06:27Z	fetch_pdf	bytes=130236	sec=0.431
+b0704	2026-05-18T14:06:30Z	fetch_pdf	bytes=317204	sec=0.566
+b0704	2026-05-18T14:06:32Z	fetch_pdf	bytes=110056	sec=0.65
+2026-05-18T14:06:32Z	b0704-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=~153/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1957	sample_size=8
+2026-05-18T14:06:32Z	b0704-phase8	NETWORK_FETCHES	count=8	hosts=www.parliament.gov.zm:5,zambialii.org:3	http=200x8
+2026-05-18T14:06:32Z	b0704-phase8	BANDWIDTH	total_bytes=1481684	avg_kb=180.9	largest=act-zm-2024-011-the-civil-aviation-amendment-act-2024(317204B,parliament-gov-zm-Act-PDF)
+2026-05-18T14:06:32Z	b0704-phase8	WALL_CLOCK	started=2026-05-18T14:06:11Z	completed=2026-05-18T14:06:32Z	elapsed=21s	budget=20min	headroom=~19m39s
+2026-05-18T14:06:32Z	b0704-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-18T14:06:32Z	b0704-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1954	records_fts=1954	dup_ids=0	tick-verdict=COMMIT-normal-path
+2026-05-18T14:09:42Z	b0703-jiw	fetches=0	retry_fetches=0	records_written=3	records_deferred=0	worker=jiw	cumulative_today=~0/500	tokens_used=0(deterministic-pipeline)	llm-tokens=0/1000000
+2026-05-18T14:09:42Z	b0703-jiw	NETWORK_FETCHES	count=0	note=hand-curated-from-raw-on-disk-no-network
+2026-05-18T14:09:42Z	b0703-jiw	BANDWIDTH	total_bytes=0
+2026-05-18T14:09:42Z	b0703-jiw	INTEGRITY	all-checks=PASS	quick_check=ok	tick-verdict=COMMIT-normal-path

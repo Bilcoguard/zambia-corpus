@@ -11731,3 +11731,53 @@ When this tick started, origin/main was already at `2fbe34b "Judgment batch b069
 ### Wall-clock
 
 Start: 2026-05-18T13:44:59Z. Budget: 20 minutes.
+
+## b0704-phase8 — Phase 8 nightly re-verification (2026-05-18T14:06Z) — AUDIT-ONLY ENTRY
+
+Tick b0704 sampled 8 of 1957 records (sample_rate 0.01, seed `phase8-reverify-2026-05-18-b0704`). Results: 7 match, 1 drift, 0 fetch_error. 8× HTTP 200. All 9 integrity checks PASS.
+
+### Drift (1) — `zambialii_akn_html_dynamic_render_drift` (bare-AKN-path sub-variant)
+
+- `si-zm-1982-049-zambia-airways-corporation-date-of-dissolution-order-1982` — host `zambialii.org`, AKN bare-path (`/akn/zm/act/si/1982/49`, no `/eng@` suffix and no `/source.pdf` suffix); stored=`4f6e216cae3d09c5ac7fb31c07a84fe1bf2f285b0be5a65c258a0c2912a58524` fetched=`d4ab0b8464b8ab884fdab4c1be16565b792868f5832b7b4942ecb927ba25ef75`; bytes=38913; verdict: dynamic-render churn (server timestamp/footer counter on the 302-redirected English point-in-time HTML rendering), legal content unchanged. Same root cause as the AKN-HTML `eng@`-suffixed cohort; slots into the bare-AKN-path sub-variant first documented in b0567.
+
+### Matches (7) — stable-PDF supercohort
+
+- `si-zm-2023-033-national-heritage-conservation-commission-ngonye-falls-national-monument-declara` — host `zambialii.org`, AKN `source.pdf` — hash unchanged (`cc6084ab...`).
+- `act-zm-2023-015-the-zambia-institute-of-marketing-amendment-act-2023` — host `www.parliament.gov.zm`, Act PDF — hash unchanged (`9f5550bc...`).
+- `si-zm-2021-108-income-tax-turnover-tax-amendment-regulations-2021` — host `zambialii.org`, AKN `source.pdf` — hash unchanged (`764eee81...`).
+- `act-zm-2010-020-the-plea-negotiations-and-agreements-2010` — host `www.parliament.gov.zm`, Act PDF — hash unchanged (`143458f5...`).
+- `act-zm-2015-004-the-forest-act` — host `www.parliament.gov.zm`, Act PDF — hash unchanged (`25e88e6e...`).
+- `act-zm-2024-011-the-civil-aviation-amendment-act-2024` — host `www.parliament.gov.zm`, Act PDF — hash unchanged (`e7b4b40e...`).
+- `act-zm-cap-262-ministerial-and-parliamentary-offices-emoluments-act` — host `www.parliament.gov.zm`, Act PDF — hash unchanged (`a3037c8d...`).
+
+### No fetch errors
+
+ZambiaLII and www.parliament.gov.zm both fully available this tick (8/8 HTTP 200).
+
+See `reports/batch-0704-reverify.json` for the full per-record breakdown and `reports/batch-0704.md` for the narrative report.
+
+## phase8_reverify_drift
+- batch: 0704
+- detected_at: 2026-05-18T14:06:32Z
+- cohort: zambialii_akn_html_dynamic_render_drift (×1, bare-AKN-path sub-variant)
+- pool_size: 1957
+- sample_size: 8
+- match: 7
+- drift: 1
+- fetch_error: 0
+- records_mutated: 0
+
+## b0703-jiw — CoA hand-curated drain (2026-05-18T14:09:42Z)
+
+### Inserted (3)
+
+- `judgment-zm-2026-coa-110-josias-mtonga-v-the-people` — APP/110/2024 — allowed
+- `judgment-zm-2026-coa-344-skab-merchants-ltd-v-emilmark-construction` — APP/344/2023 — allowed
+- `judgment-zm-2026-coa-047-tulambo-kumwenda-v-solwezi-dairy-farm-and-ors` — APP/047/2025 — dismissed
+
+### Sweep cursors (unchanged)
+
+- `judiciary-coa-sweep`: page-9 (scanned-PDF cliff)
+- `judiciary-scz-sweep`: page-2
+- `judiciary-zmcc-sweep`: not yet started
+- `judiciary-hc-sweep`: not yet started

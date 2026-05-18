@@ -1,0 +1,52 @@
+{
+  "batch": "b0703",
+  "parser": "repair-0.6.103",
+  "started_utc": "2026-05-18T14:07:48Z",
+  "elapsed_sec": 35.4,
+  "identified_no_body": 41,
+  "identified_corrupted": 0,
+  "identified_stub": 0,
+  "dedup_targets": 41,
+  "repaired_count": 8,
+  "failed_count": 0,
+  "remaining_after_tick": 33,
+  "records": 1954,
+  "records_fts": 1954,
+  "integrity_match": true,
+  "quick_check": "ok",
+  "repaired": [
+    [
+      "si-zm-2022-034-tolls-toll-exemption-order-2022",
+      "len=1362"
+    ],
+    [
+      "si-zm-2022-036-customs-and-excise-ports-of-entry-and-routes-amendment-order-2022",
+      "len=1033"
+    ],
+    [
+      "si-zm-2022-038-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2022",
+      "len=1787"
+    ],
+    [
+      "si-zm-2022-039-education-public-higher-education-institution-declaration-order-2022",
+      "len=997"
+    ],
+    [
+      "si-zm-2022-046-customs-and-excise-machinery-and-equipment-suspension-amendment-regulations-2022",
+      "len=1096"
+    ],
+    [
+      "si-zm-2022-050-customs-and-excise-general-amendment-regulations-2022",
+      "len=3311"
+    ],
+    [
+      "si-zm-2022-051-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022",
+      "len=1740"
+    ],
+    [
+      "si-zm-2022-055-customs-and-excise-public-benefit-organisation-rebate-refund-or-remission-amendment-regulations-2022",
+      "len=4164"
+    ]
+  ],
+  "failed": []
+}

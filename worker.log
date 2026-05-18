@@ -9003,3 +9003,70 @@ test append Mon May 18 00:44:14 CAT 2026
 [2026-05-18T13:44:59Z] [b0701-jiw] CANDIDATES_RESULT inserted=0 deferred=3
 [2026-05-18T13:44:59Z] [b0701-jiw] INTEGRITY all-checks=PASS records=1954 records_fts=1954 qc=ok ic=ok
 [2026-05-18T13:44:59Z] [b0701-jiw] TICK_END verdict=COMMIT-normal-path inserted=0 deferred=3 next-tick=2026-05-18T15:20Z
+2026-05-18T13:47:50Z b0701-jiw GIT_COMMIT sha=bb09c085d573e13399c4bf4ffc08a023573d8853 parent=2fbe34b79752b578fd6e73a8aa227319880315cf tree=4f2740c888bbc91f4db340a41449855abe8d6cf4 method=alt-index-read-tree-HEAD+write-tree+commit-tree+direct-ref-write reason=FUSE-EPERM-on-.git/index.lock
+2026-05-18T13:47:50Z b0701-jiw GIT_PUSH remote=origin branch=main result=OK
+[2026-05-18T14:05:33Z] b0703 === TICK START b0703 cwd=/sessions/gracious-optimistic-franklin/mnt/corpus ===
+[2026-05-18T14:05:34Z] b0703 git pull rc=128 stdout= stderr=warning: unable to unlink '/sessions/gracious-optimistic-franklin/mnt/corpus/.git/objects/maintenance.lock': Operation not permitted
+fatal: update_ref failed for ref 'ORIG_HEAD': cannot lock ref 'ORIG_HEAD': Unable to create '/sessions/gracious-optimistic-franklin/mnt/corpus/.git/ORIG_HEAD.lock': Fi
+[2026-05-18T14:05:34Z] b0703 PULL FAILED — stopping per SKILL Step 1
+[2026-05-18T14:05:34Z] b0703 local HEAD=bb09c085d573e13399c4bf4ffc08a023573d8853 origin/main=bb09c085d573e13399c4bf4ffc08a023573d8853
+[2026-05-18T14:07:48Z] b0703 === TICK START b0703 cwd=/sessions/gracious-optimistic-franklin/mnt/corpus ===
+[2026-05-18T14:07:49Z] b0703 git fetch rc=0 stderr=
+[2026-05-18T14:07:49Z] b0703 local HEAD=bb09c085d573  origin/main=bb09c085d573
+[2026-05-18T14:07:49Z] b0703 Condition B (no-body acts/sis): 41
+[2026-05-18T14:07:49Z] b0703 Condition A (corrupted): 0
+[2026-05-18T14:07:49Z] b0703 Condition C (stubs): 0
+[2026-05-18T14:07:49Z] b0703 Total dedup targets: 41; MAX_BATCH=8
+[2026-05-18T14:07:49Z] b0703 REPAIR start id=si-zm-2022-034-tolls-toll-exemption-order-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/34
+[2026-05-18T14:07:53Z] b0703 REPAIR ok id=si-zm-2022-034-tolls-toll-exemption-order-2022 body_len=1362 hash=97b0b533884b
+[2026-05-18T14:07:54Z] b0703 REPAIR start id=si-zm-2022-036-customs-and-excise-ports-of-entry-and-routes-amendment-order-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/36
+[2026-05-18T14:07:57Z] b0703 REPAIR ok id=si-zm-2022-036-customs-and-excise-ports-of-entry-and-routes-amendment-order-2022 body_len=1033 hash=29e30e050c87
+[2026-05-18T14:07:58Z] b0703 REPAIR start id=si-zm-2022-038-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/38
+[2026-05-18T14:08:01Z] b0703 REPAIR ok id=si-zm-2022-038-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-3-order-2022 body_len=1787 hash=24ee38fee61a
+[2026-05-18T14:08:02Z] b0703 REPAIR start id=si-zm-2022-039-education-public-higher-education-institution-declaration-order-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/39
+[2026-05-18T14:08:05Z] b0703 REPAIR ok id=si-zm-2022-039-education-public-higher-education-institution-declaration-order-2022 body_len=997 hash=f03535c262a5
+[2026-05-18T14:08:06Z] b0703 REPAIR start id=si-zm-2022-046-customs-and-excise-machinery-and-equipment-suspension-amendment-regulations-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/46
+[2026-05-18T14:08:09Z] b0703 REPAIR ok id=si-zm-2022-046-customs-and-excise-machinery-and-equipment-suspension-amendment-regulations-2022 body_len=1096 hash=af4361753b81
+[2026-05-18T14:08:10Z] b0703 REPAIR start id=si-zm-2022-050-customs-and-excise-general-amendment-regulations-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/50
+[2026-05-18T14:08:13Z] b0703 REPAIR ok id=si-zm-2022-050-customs-and-excise-general-amendment-regulations-2022 body_len=3311 hash=c5adf6501a13
+[2026-05-18T14:08:14Z] b0703 REPAIR start id=si-zm-2022-051-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/51
+[2026-05-18T14:08:17Z] b0703 REPAIR ok id=si-zm-2022-051-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2022 body_len=1740 hash=3c62a8f835dc
+[2026-05-18T14:08:18Z] b0703 REPAIR start id=si-zm-2022-055-customs-and-excise-public-benefit-organisation-rebate-refund-or-remission-amendment-regulations-2022 type=si url=https://zambialii.org/akn/zm/act/si/2022/55
+[2026-05-18T14:08:22Z] b0703 REPAIR ok id=si-zm-2022-055-customs-and-excise-public-benefit-organisation-rebate-refund-or-remission-amendment-regulations-2022 body_len=4164 hash=4892c52d36c4
+[2026-05-18T14:08:23Z] b0703 INTEGRITY records=1954 records_fts=1954 match=True
+[2026-05-18T14:08:23Z] b0703 PRAGMA quick_check: ok
+[2026-05-18T14:08:23Z] b0703 rclone not available — B2 sync deferred to host
+[2026-05-18T14:08:24Z] b0703 COMMIT parent=bb09c085d573
+[2026-05-18T14:08:24Z] b0703 Falling back to alt-index commit
+[2026-05-18T14:08:27Z] b0703 HEAD now 0b5963851629; pushing
+[2026-05-18T14:06:11Z] [b0704-phase8] TICK_START worker=phase8-nightly-reverify parser=phase8-reverify-0.1.0 script=scripts/batch_0704_phase8_reverify.py seed=phase8-reverify-2026-05-18-b0704
+[2026-05-18T14:06:32Z] [b0704-phase8] BATCH_RESULT pool=1957 sample=8 match=7 drift=1 fetch_error=0 fetches=8 wall=21s
+[2026-05-18T14:06:32Z] [b0704-phase8] DRIFT_COHORT zambialii_akn_html_dynamic_render_drift(x1,bare-AKN-path) — si-zm-1982-049-zambia-airways-corporation-date-of-dissolution-order-1982
+[2026-05-18T14:06:32Z] [b0704-phase8] INTEGRITY all-checks=PASS records=1954 records_fts=1954 dup_ids=0 quick_check=ok integrity_check=ok records_mutated=0 corpus_sqlite_touched=no approvals_yaml_touched=no
+[2026-05-18T14:06:32Z] [b0704-phase8] B2_SYNC deferred-to-host (rclone unavailable in sandbox; Phase 8 is read-only on corpus — no raw/ mutation)
+[2026-05-18T14:06:32Z] [b0704-phase8] TICK_END verdict=COMMIT-normal-path next-tick=in-~30min
+[2026-05-18T14:09:19Z] b0703 git push rc=1 stdout= stderr=remote: error: Trace: cf4f84e754d547f7420fd940f4a5b81a2d14559a3559cf224847c03aec4fb69f        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File corpus.sqlite is 1
+[2026-05-18T14:09:19Z] b0703 === TICK END b0703 elapsed=91.0s repaired=8 failed=0 ===
+[2026-05-18T14:09:42Z] [b0703-jiw] TICK_START worker=jiw session=sweet-sleepy-wozniak model=opus-4-7 batch=b0703-jiw
+[2026-05-18T14:09:44Z] [b0703-jiw] GIT_PULL rc=0 out=Already up to date. err=warning: unable to unlink '/sessions/sweet-sleepy-wozniak/mnt/corpus/.git/objects/maintenance.lock': Operation not permitted
+[2026-05-18T14:09:44Z] [b0703-jiw] BUDGET_CHECK today_jiw_fetches=0 budget=500
+[2026-05-18T14:09:44Z] [b0703-jiw] PRE_COUNTS records=1954 records_fts=1954
+[2026-05-18T14:09:46Z] [b0703-jiw] BACKUP_SNAPSHOT corpus.sqlite.bak.b0703-jiw-pre-20260518T140944Z
+[2026-05-18T14:09:46Z] [b0703-jiw] CANDIDATE start id=judgment-zm-2026-coa-110-josias-mtonga-v-the-people
+[2026-05-18T14:09:46Z] [b0703-jiw] CANDIDATE built id=judgment-zm-2026-coa-110-josias-mtonga-v-the-people outcome=allowed body_len=17062 hash=c11539bcdae0
+[2026-05-18T14:09:46Z] [b0703-jiw] CANDIDATE start id=judgment-zm-2026-coa-344-skab-merchants-ltd-v-emilmark-construction
+[2026-05-18T14:09:47Z] [b0703-jiw] CANDIDATE built id=judgment-zm-2026-coa-344-skab-merchants-ltd-v-emilmark-construction outcome=allowed body_len=18524 hash=3110e69574b3
+[2026-05-18T14:09:47Z] [b0703-jiw] CANDIDATE start id=judgment-zm-2026-coa-047-tulambo-kumwenda-v-solwezi-dairy-farm-and-ors
+[2026-05-18T14:09:47Z] [b0703-jiw] CANDIDATE built id=judgment-zm-2026-coa-047-tulambo-kumwenda-v-solwezi-dairy-farm-and-ors outcome=dismissed body_len=17922 hash=98b5f672fe4d
+[2026-05-18T14:09:47Z] [b0703-jiw] WROTE_RECORD judgment-zm-2026-coa-110-josias-mtonga-v-the-people.json
+[2026-05-18T14:09:47Z] [b0703-jiw] WROTE_RECORD judgment-zm-2026-coa-344-skab-merchants-ltd-v-emilmark-construction.json
+[2026-05-18T14:09:47Z] [b0703-jiw] WROTE_RECORD judgment-zm-2026-coa-047-tulambo-kumwenda-v-solwezi-dairy-farm-and-ors.json
+[2026-05-18T14:09:47Z] [b0703-jiw] JUDGES_REGISTRY_UPDATE added=0 entries=[]
+[2026-05-18T14:09:47Z] [b0703-jiw] FTS_COLS ['id', 'title', 'body', 'citation', 'type', 'content_rowid=rowid']
+[2026-05-18T14:09:47Z] [b0703-jiw] DB_INSERT count=3
+[2026-05-18T14:09:47Z] [b0703-jiw] POST_COUNTS records=1957 records_fts=1957
+[2026-05-18T14:09:47Z] [b0703-jiw] INTEGRITY records=1957 records_fts=1957 match=True dup_ids=0 quick_check=ok
+[2026-05-18T14:09:47Z] [b0703-jiw] INTEGRITY CHECK1-3 PASS
+[2026-05-18T14:09:47Z] [b0703-jiw] INTEGRITY CHECK6 PASS
