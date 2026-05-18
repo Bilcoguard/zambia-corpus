@@ -11781,3 +11781,37 @@ See `reports/batch-0704-reverify.json` for the full per-record breakdown and `re
 - `judiciary-scz-sweep`: page-2
 - `judiciary-zmcc-sweep`: not yet started
 - `judiciary-hc-sweep`: not yet started
+
+
+## b0705b-jiw — CoA reparse drain + b0705 orphan recovery (2026-05-18T14:48:20Z)
+
+**Note:** b0705-jiw experienced disk I/O error on DB commit (bindfs blocks journal-file delete during sqlite COMMIT). This tick re-runs with `PRAGMA journal_mode=TRUNCATE` and recovers any orphaned record JSONs left on disk by b0705.
+
+### Inserted (1)
+
+- `judgment-zm-2025-coa-170-mukamunya-homeowners-association-trust-registreed-trustees-v-leslie-szeftel-1-ot` — APP/170/2025 — allowed (orphan-recovery)
+
+### Deferred (7)
+
+- case=APP/304/2022 reason=quality-gate:body<200
+- case=APP/165/2024 reason=quality-gate:body<200
+- case=APP/024/2024 reason=quality-gate:body<200
+- case=APP/309/2023 reason=quality-gate:body<200
+- case=APP/127/2025 reason=operative-paragraph-undetected
+- case=APP/331/2024 reason=no-judges-extracted
+- case=APP/202/2023 reason=fuzzy-court-name-year-collision
+
+### Infrastructure note
+
+- bindfs mount blocks file deletion via `unlink()`. SQLite default `journal_mode=DELETE` therefore fails on COMMIT.
+- Mitigation applied this tick: `PRAGMA journal_mode=TRUNCATE` (commit truncates journal to 0 bytes instead of deleting).
+- Recommend persisting this setting across all corpus workers (main worker, repair worker, JIW).
+
+### Sweep cursors (unchanged)
+
+- `judiciary-coa-sweep`: page-9 (scanned-PDF cliff)
+- `judiciary-scz-sweep`: page-2
+- `judiciary-zmcc-sweep`: page-1 probed b0693
+- `judiciary-hc-sweep`: not yet started
+
+### Network fetches: 0 (reparse-mode, zero-fetch tick)

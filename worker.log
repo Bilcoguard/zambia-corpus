@@ -9133,3 +9133,60 @@ warning: unable to unlink '.git/
 [2026-05-18T14:40:28Z] [b0705-phase8-recover] B2_SYNC verdict=deferred-to-host-rclone-not-in-sandbox-recovery-commit-is-zero-fetch-zero-raw-mutation-anyway
 [2026-05-18T14:40:28Z] [b0705-phase8-recover] APPROVALS_YAML_TOUCHED=no phase_8_nightly_reverify-remains-(approved:true,complete:false)-no-flip-by-worker
 [2026-05-18T14:40:28Z] [b0705-phase8-recover] TICK_END verdict=COMMIT-AND-PUSH-OK work-preserved=yes records_mutated=0 corpus_sqlite_touched=no fetches=0 wall_clock_minutes_approx=5
+[2026-05-18T14:41:40Z] [b0705-jiw] TICK_START parser=0.3.6-jiw-b0705-reparse-drain max_batch=8
+[2026-05-18T14:41:43Z] [b0705-jiw] GIT_PULL_OK: Already up to date.
+[2026-05-18T14:41:43Z] [b0705-jiw] BUDGET fetches_today=269/500
+[2026-05-18T14:41:43Z] [b0705-jiw] INDEX existing_case_nums=245 existing_records=267 raw_paths=33
+[2026-05-18T14:41:43Z] [b0705-jiw] CANDIDATES_DISCOVERED count=10
+[2026-05-18T14:41:43Z] [b0705-jiw] BATCH_SELECTED count=8 files=['APP-304-2022-Setrec-Steel-and-Wood-Processing-Limited-vs-Zam', 'App-165-2024-Savenda-Management-Services-Limited-vs-Lumwana-', 'App-170-2025-Mukamunya-Homeowners-Association-Trust-Registre', 'App-24-2024-Peter-Mutale-vs-Davies-Mukumbwa-24-Jan-2025-Cora', 'App-309-2023-Emergency-Response-Zambia-Limited-2-Others-Vs-B', 'Caz-09-127-2025-Philemon-Dyamini-vs-The-People-05-Dec-2025-R', 'Caz-8-331-2024-Jennifer-Tembo-Njovu-vs-Administrator-General', 'app-202-2023-maambo-simukuni-vs-tenyiwe-sibindi-coram-justic']
+[2026-05-18T14:41:43Z] [b0705-jiw] CANDIDATE start case=APP/304/2022 file=APP-304-2022-Setrec-Steel-and-Wood-Processing-Limited-vs-Zambia-National-Commerc
+[2026-05-18T14:41:43Z] [b0705-jiw] CANDIDATE defer APP/304/2022 reason=quality-gate:body<200 body_len=32 pages=33
+[2026-05-18T14:41:43Z] [b0705-jiw] CANDIDATE start case=APP/165/2024 file=App-165-2024-Savenda-Management-Services-Limited-vs-Lumwana-Mining-Company-Limit
+[2026-05-18T14:41:43Z] [b0705-jiw] CANDIDATE defer APP/165/2024 reason=quality-gate:body<200 body_len=19 pages=20
+[2026-05-18T14:41:43Z] [b0705-jiw] CANDIDATE start case=APP/170/2025 file=App-170-2025-Mukamunya-Homeowners-Association-Trust-Registreed-Trustees-vs-Lesli
+[2026-05-18T14:41:44Z] [b0705-jiw] CANDIDATE built id=judgment-zm-2025-coa-170-mukamunya-homeowners-association-trust-registreed-trustees-v-leslie-szeftel-1-ot outcome=allowed body_len=20492 judges=1
+[2026-05-18T14:41:44Z] [b0705-jiw] CANDIDATE start case=APP/024/2024 file=App-24-2024-Peter-Mutale-vs-Davies-Mukumbwa-24-Jan-2025-Coram-Siavwapa-JP-Chishi
+[2026-05-18T14:41:44Z] [b0705-jiw] CANDIDATE defer APP/024/2024 reason=quality-gate:body<200 body_len=20 pages=21
+[2026-05-18T14:41:44Z] [b0705-jiw] CANDIDATE start case=APP/309/2023 file=App-309-2023-Emergency-Response-Zambia-Limited-2-Others-Vs-Betternow-Finance-Com
+[2026-05-18T14:41:44Z] [b0705-jiw] CANDIDATE defer APP/309/2023 reason=quality-gate:body<200 body_len=19 pages=20
+[2026-05-18T14:41:44Z] [b0705-jiw] CANDIDATE start case=APP/127/2025 file=Caz-09-127-2025-Philemon-Dyamini-vs-The-People-05-Dec-2025-Ruling-Justice-Mcheng
+[2026-05-18T14:41:44Z] [b0705-jiw] CANDIDATE defer APP/127/2025 reason=operative-undetected
+[2026-05-18T14:41:44Z] [b0705-jiw] CANDIDATE start case=APP/331/2024 file=Caz-8-331-2024-Jennifer-Tembo-Njovu-vs-Administrator-General-31-Dec-2025-Ruling.
+[2026-05-18T14:41:44Z] [b0705-jiw] CANDIDATE defer APP/331/2024 reason=no-judges-extracted
+[2026-05-18T14:41:44Z] [b0705-jiw] CANDIDATE start case=APP/202/2023 file=app-202-2023-maambo-simukuni-vs-tenyiwe-sibindi-coram-justice-siavwapa-jp-chishi
+[2026-05-18T14:41:44Z] [b0705-jiw] CANDIDATE defer APP/202/2023 reason=fuzzy-collision
+[2026-05-18T14:41:44Z] [b0705-jiw] WROTE_RECORD judgment-zm-2025-coa-170-mukamunya-homeowners-association-trust-registreed-trustees-v-leslie-szeftel-1-ot.json
+[2026-05-18T14:41:44Z] [b0705-jiw] JUDGES_REGISTRY_UPDATE added=1 entries=['Chashi Ngulube Banda Bobo']
+[2026-05-18T14:41:44Z] [b0705-jiw] DB_INSERT count=1
+[2026-05-18T14:41:44Z] [b0705-jiw] POST_COUNTS records=1958 records_fts=1958 delta=1
+[2026-05-18T14:41:44Z] [b0705-jiw] INTEGRITY pass=True errors=[]
+[2026-05-18T14:48:20Z] [b0705b-jiw] TICK_START parser=0.3.6-jiw-b0705b-reparse-drain max_batch=8
+[2026-05-18T14:48:20Z] [b0705b-jiw] PRE_SYNC truncated stale journal
+[2026-05-18T14:48:22Z] [b0705b-jiw] GIT_PULL_OK: Already up to date.
+[2026-05-18T14:48:22Z] [b0705b-jiw] BUDGET fetches_today=269/500
+[2026-05-18T14:48:22Z] [b0705b-jiw] DB_INDEX records_in_db=1957
+[2026-05-18T14:48:22Z] [b0705b-jiw] INDEX existing_case_nums=246 existing_records=268 raw_paths=34 orphans=1
+[2026-05-18T14:48:22Z] [b0705b-jiw] ORPHAN_DETECTED judgment-zm-2025-coa-170-mukamunya-homeowners-association-trust-registreed-trustees-v-leslie-szeftel-1-ot
+[2026-05-18T14:48:22Z] [b0705b-jiw] CANDIDATES_DISCOVERED count=9
+[2026-05-18T14:48:22Z] [b0705b-jiw] BATCH_SELECTED new_candidates=7 orphans=1
+[2026-05-18T14:48:22Z] [b0705b-jiw] ORPHAN_PREP judgment-zm-2025-coa-170-mukamunya-homeowners-association-trust-registreed-trustees-v-leslie-szeftel-1-ot body_len=20492
+[2026-05-18T14:48:22Z] [b0705b-jiw] CANDIDATE start case=APP/304/2022 file=APP-304-2022-Setrec-Steel-and-Wood-Processing-Limited-vs-Zambia-National-Commerc
+[2026-05-18T14:48:22Z] [b0705b-jiw] CANDIDATE defer APP/304/2022 reason=quality-gate:body<200 body_len=32 pages=33
+[2026-05-18T14:48:22Z] [b0705b-jiw] CANDIDATE start case=APP/165/2024 file=App-165-2024-Savenda-Management-Services-Limited-vs-Lumwana-Mining-Company-Limit
+[2026-05-18T14:48:22Z] [b0705b-jiw] CANDIDATE defer APP/165/2024 reason=quality-gate:body<200 body_len=19 pages=20
+[2026-05-18T14:48:22Z] [b0705b-jiw] CANDIDATE start case=APP/024/2024 file=App-24-2024-Peter-Mutale-vs-Davies-Mukumbwa-24-Jan-2025-Coram-Siavwapa-JP-Chishi
+[2026-05-18T14:48:22Z] [b0705b-jiw] CANDIDATE defer APP/024/2024 reason=quality-gate:body<200 body_len=20 pages=21
+[2026-05-18T14:48:22Z] [b0705b-jiw] CANDIDATE start case=APP/309/2023 file=App-309-2023-Emergency-Response-Zambia-Limited-2-Others-Vs-Betternow-Finance-Com
+[2026-05-18T14:48:22Z] [b0705b-jiw] CANDIDATE defer APP/309/2023 reason=quality-gate:body<200 body_len=19 pages=20
+[2026-05-18T14:48:22Z] [b0705b-jiw] CANDIDATE start case=APP/127/2025 file=Caz-09-127-2025-Philemon-Dyamini-vs-The-People-05-Dec-2025-Ruling-Justice-Mcheng
+[2026-05-18T14:48:22Z] [b0705b-jiw] CANDIDATE defer APP/127/2025 reason=operative-undetected
+[2026-05-18T14:48:22Z] [b0705b-jiw] CANDIDATE start case=APP/331/2024 file=Caz-8-331-2024-Jennifer-Tembo-Njovu-vs-Administrator-General-31-Dec-2025-Ruling.
+[2026-05-18T14:48:22Z] [b0705b-jiw] CANDIDATE defer APP/331/2024 reason=no-judges-extracted
+[2026-05-18T14:48:22Z] [b0705b-jiw] CANDIDATE start case=APP/202/2023 file=app-202-2023-maambo-simukuni-vs-tenyiwe-sibindi-coram-justice-siavwapa-jp-chishi
+[2026-05-18T14:48:23Z] [b0705b-jiw] CANDIDATE defer APP/202/2023 reason=fuzzy-collision
+[2026-05-18T14:48:23Z] [b0705b-jiw] JUDGES_REGISTRY_UPDATE added=0 entries=[]
+[2026-05-18T14:48:23Z] [b0705b-jiw] DB_INSERT count=1
+[2026-05-18T14:48:23Z] [b0705b-jiw] POST_COUNTS records=1958 records_fts=1958 delta=1
+[2026-05-18T14:48:23Z] [b0705b-jiw] INTEGRITY pass=True errors=[]
+[2026-05-18T14:48:23Z] [b0705b-jiw] DB_COMMIT success records+=1
+[2026-05-18T14:48:23Z] [b0705b-jiw] WROTE_REPORT reports/batch-b0705b-jiw.md

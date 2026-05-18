@@ -4670,3 +4670,6 @@ b0699-jiw	2026-05-18T15:35:00Z	RECOVERY	reason=context-compaction-interrupted-co
 2026-05-18T14:09:42Z	b0703-jiw	INSERT	id=judgment-zm-2026-coa-344-skab-merchants-ltd-v-emilmark-construction	hash=3110e69574b351e5b24eeefddf5052e666be77a50cc5d4d40c821e017bb2e789	src=https://judiciaryzambia.com/app-344-2023-skab-merchants-ltd-1-other-vs-emilmark-construction-justice-siavwapa-jp-chishimba-patel-jja/
 2026-05-18T14:09:42Z	b0703-jiw	INSERT	id=judgment-zm-2026-coa-047-tulambo-kumwenda-v-solwezi-dairy-farm-and-ors	hash=98b5f672fe4dc7d0de5a605b139a633de6797c45a440b441a3a01fc6f2367b4d	src=https://judiciaryzambia.com/app-47-2025-tulambo-kumwenda-justice-chashi-ngulube-banda-bobo-jja/
 2026-05-18T14:36:58Z	b0705-phase8-recover	COMMIT_RECOVERY	target=b0704-phase8	files=4	method=alt-index-read-tree-HEAD	upstream-block-resolved-at=579b120-by-b0703-jiw
+
+## b0705b-jiw — CoA reparse drain + orphan recovery (2026-05-18T14:48:20Z)
+- INSERT judgment-zm-2025-coa-170-mukamunya-homeowners-association-trust-registreed-trustees-v-leslie-szeftel-1-ot case=APP/170/2025 outcome=allowed sha256=b818ec5a63649f8ed0fb3990cab3d0dcaa7603501a6b03aba18100f18b3e8e70 (orphan-recovery)

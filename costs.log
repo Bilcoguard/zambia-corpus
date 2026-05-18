@@ -6576,3 +6576,4 @@ r-20260518T143615Z	2026-05-18T14:36:50Z	fetch_pdf_urllib	bytes=291389	sec=1.08
 2026-05-18T14:36:58Z	b0705-phase8-recover	NETWORK_FETCHES	count=0	note=recovery-commit-no-network-activity
 2026-05-18T14:36:58Z	b0705-phase8-recover	BANDWIDTH	total_bytes=0	note=no-fetches
 2026-05-18T14:36:58Z	b0705-phase8-recover	INTEGRITY	all-checks=PASS	tick-verdict=COMMIT-recovery-of-stranded-b0704-via-alt-index-method
+2026-05-18T14:48:20Z b0705b-jiw fetches=0 mode=reparse-drain+orphan-recovery candidates=7 orphans=1 inserted=1 deferred=7

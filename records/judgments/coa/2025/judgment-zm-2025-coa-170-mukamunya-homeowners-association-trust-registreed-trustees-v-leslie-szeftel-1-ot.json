@@ -1,0 +1,41 @@
+{
+  "id": "judgment-zm-2025-coa-170-mukamunya-homeowners-association-trust-registreed-trustees-v-leslie-szeftel-1-ot",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mukamunya Homeowners Association Trust Registreed Trustees v Leslie Szeftel 1 Other (APP/170/2025) [2025] ZMCA (2025-04-29)",
+  "citation": "[2025] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Mukamunya Homeowners Association Trust Registreed Trustees v Leslie Szeftel 1 Other",
+  "case_number": "APP/170/2025",
+  "date_decided": "2025-04-29",
+  "judges": [
+    {
+      "name": "Chashi Ngulube Banda Bobo",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "commercial",
+    "property",
+    "employment",
+    "constitutional",
+    "tax",
+    "judicial-review"
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "\n9.1(cid:9) For the reasons stated, the appeal is allowed; the ruling of\nthe High Court is set aside. The leased premises are to be\ntreated as business premises covered by The Act, given the\ncommercial use and parties' c",
+  "outcome_detection_method": "tier=operative pattern=appeal-is-allowed",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "b818ec5a63649f8ed0fb3990cab3d0dcaa7603501a6b03aba18100f18b3e8e70",
+  "source_url": "https://judiciaryzambia.com/app-170-2025-mukamunya-homeowners-association-trust-registreed-trustees-vs-leslie-szeftel-1-other-coram-justice-chashi-ngulube-banda-bobo-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2025/App-170-2025-Mukamunya-Homeowners-Association-Trust-Registreed-Trustees-vs-Leslie-Szeftel-1-Other-Coram-Justice-Chashi-Ngulube-Banda-Bobo-JJA.pdf",
+  "source_hash": "sha256:b818ec5a63649f8ed0fb3990cab3d0dcaa7603501a6b03aba18100f18b3e8e70",
+  "fetched_at": "2026-05-18T14:41:39Z",
+  "parser_version": "0.3.6-jiw-b0705-reparse-drain",
+  "raw_path": "raw/judiciary-zm/coa/App-170-2025-Mukamunya-Homeowners-Association-Trust-Registreed-Trustees-vs-Leslie-Szeftel-1-Other-Coram-Justice-Chashi-Ngulube-Banda-Bobo-JJA.pdf",
+  "body_length": 20492,
+  "page_count": 20,
+  "judges_count": 1
+}
