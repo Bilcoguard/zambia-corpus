@@ -1,0 +1,49 @@
+{
+  "id": "judgment-zm-2024-zmcc-17-isaac-mwaanza-and-civil-liberties-union-v-attorney",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Isaac Mwaanza And Civil Liberties Union v Attorney (2024/CCZ/008) [2024] ZMCC 17",
+  "citation": "[2024] ZMCC 17",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Isaac Mwaanza And Civil Liberties Union v Attorney",
+  "case_number": "2024/CCZ/008",
+  "date_decided": null,
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Shilimi- DPC",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "JJC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "mining",
+    "procedure",
+    "constitutional-law",
+    "public-law"
+  ],
+  "outcome": "other",
+  "outcome_detail": "",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "304cc4213e8f694c405912a1aef9aaf650784eb054cd7115f7d1853b7a6659be",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/17",
+  "source_hash": "sha256:304cc4213e8f694c405912a1aef9aaf650784eb054cd7115f7d1853b7a6659be",
+  "fetched_at": "2026-05-18T19:42:24Z",
+  "parser_version": "0.4.3-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmcc/2024/judgment-zm-2024-zmcc-17-isaac-mwaanza-and-civil-liberties-union-v-attorney.pdf",
+  "body_length": 18606,
+  "judges_count": 3
+}

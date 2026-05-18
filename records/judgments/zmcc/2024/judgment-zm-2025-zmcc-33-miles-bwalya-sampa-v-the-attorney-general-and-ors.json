@@ -1,0 +1,46 @@
+{
+  "id": "judgment-zm-2025-zmcc-33-miles-bwalya-sampa-v-the-attorney-general-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Miles Bwalya Sampa v The Attorney General And Ors (2024/CCZ/0024) [2025] ZMCC 33 (2024-12-31)",
+  "citation": "[2025] ZMCC 33",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Miles Bwalya Sampa v The Attorney General And Ors",
+  "case_number": "2024/CCZ/0024",
+  "date_decided": "2024-12-31",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Mulife",
+      "role": "JJC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "employment",
+    "banking-finance",
+    "property",
+    "contract",
+    "mining",
+    "commercial",
+    "procedure",
+    "constitutional-law",
+    "public-law",
+    "tax",
+    "electoral-law"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "has failed to establish any breach of the Constitution.\n[225} Accordingly, the petition is hereby dismissed for want of merit. Each\nparty shall bear its own costs.\n(\nM.\nCONSTITUTIONAL C URT JUDGE\nJ82\nMunalula, PC and Mulongot",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "40ff8a91fdad0e9ea64b58af2a1d05b0e6728bf4f5cf6bdbfb0e12902b54f5d6",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2025/33",
+  "source_hash": "sha256:40ff8a91fdad0e9ea64b58af2a1d05b0e6728bf4f5cf6bdbfb0e12902b54f5d6",
+  "fetched_at": "2026-05-18T19:42:24Z",
+  "parser_version": "0.4.3-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmcc/2025/judgment-zm-2025-zmcc-33-miles-bwalya-sampa-v-the-attorney-general-and-ors.pdf",
+  "body_length": 134782,
+  "judges_count": 1
+}

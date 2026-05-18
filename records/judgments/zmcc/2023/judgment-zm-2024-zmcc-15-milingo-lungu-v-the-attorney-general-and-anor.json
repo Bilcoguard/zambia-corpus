@@ -1,0 +1,69 @@
+{
+  "id": "judgment-zm-2024-zmcc-15-milingo-lungu-v-the-attorney-general-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Milingo Lungu v The Attorney General And Anor (2021/CCZ/35) [2024] ZMCC 15 (2023-11-30)",
+  "citation": "[2024] ZMCC 15",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Milingo Lungu v The Attorney General And Anor",
+  "case_number": "2021/CCZ/35",
+  "date_decided": "2023-11-30",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "M.M. Munalula",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "A.M. Shilimi",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "DPC",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "A.M. Sitali",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "P. Mulonda",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "M.S. Mulenga",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "M. Musaluke",
+      "role": "JJC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "mining",
+    "procedure",
+    "constitutional-law",
+    "public-law"
+  ],
+  "outcome": "granted",
+  "outcome_detail": "e granted; and\nR9\n(b)Whether the petitioner should be condemned in costs if\nthe application is granted.\n[20.] It is convenient for us to begin our consideration of the\nfirst issue by taking cognizance of the fact that the",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "9146f7e0972ec9f7864d3a1b42061b662f3c0bbf39c54f0e8c3f3314574cec5f",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2024/15",
+  "source_hash": "sha256:9146f7e0972ec9f7864d3a1b42061b662f3c0bbf39c54f0e8c3f3314574cec5f",
+  "fetched_at": "2026-05-18T19:42:24Z",
+  "parser_version": "0.4.3-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmcc/2024/judgment-zm-2024-zmcc-15-milingo-lungu-v-the-attorney-general-and-anor.pdf",
+  "body_length": 33031,
+  "judges_count": 7
+}

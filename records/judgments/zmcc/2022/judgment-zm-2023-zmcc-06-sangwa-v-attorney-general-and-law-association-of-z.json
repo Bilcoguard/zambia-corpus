@@ -1,0 +1,71 @@
+{
+  "id": "judgment-zm-2023-zmcc-06-sangwa-v-attorney-general-and-law-association-of-z",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Sangwa v Attorney General And Law Association Of Z (2018/CCZ/0013) [2023] ZMCC 6 (2022-12-09)",
+  "citation": "[2023] ZMCC 6",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Sangwa v Attorney General And Law Association Of Z",
+  "case_number": "2018/CCZ/0013",
+  "date_decided": "2022-12-09",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "MUNALULA",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "DPC",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "SITALI",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "MULONDA",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "MULENGA",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "MUSALUKE",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "CHISUNKA",
+      "role": "JJC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "banking-finance",
+    "property",
+    "mining",
+    "procedure",
+    "constitutional-law",
+    "public-law"
+  ],
+  "outcome": "other",
+  "outcome_detail": "",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "454a7cc5a8efd8ea3e3ce49ba7acd5e37d2e791bc154229ebb7a037d2a51e8c2",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/6",
+  "source_hash": "sha256:454a7cc5a8efd8ea3e3ce49ba7acd5e37d2e791bc154229ebb7a037d2a51e8c2",
+  "fetched_at": "2026-05-18T19:42:24Z",
+  "parser_version": "0.4.3-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmcc/2023/judgment-zm-2023-zmcc-06-sangwa-v-attorney-general-and-law-association-of-z.pdf",
+  "body_length": 76093,
+  "judges_count": 7
+}

@@ -1,0 +1,61 @@
+{
+  "id": "judgment-zm-2023-zmcc-04-ikelenge-town-council-v-national-pension-scheme-au",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Ikelenge Town Council v National Pension Scheme Au (2022/CCZ/0022) [2023] ZMCC 4",
+  "citation": "[2023] ZMCC 4",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Ikelenge Town Council v National Pension Scheme Au",
+  "case_number": "2022/CCZ/0022",
+  "date_decided": null,
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "SITALI",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "MULONDA",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "MULENGA",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "MUSALUKE",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "CHISUNKA",
+      "role": "JJC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-law",
+    "employment",
+    "commercial",
+    "procedure",
+    "constitutional-law",
+    "public-law"
+  ],
+  "outcome": "other",
+  "outcome_detail": "",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "6e252328350e3916ff76e1e4c8bdf13062c610a62cab37f073d01ab0c7a7740c",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/4",
+  "source_hash": "sha256:6e252328350e3916ff76e1e4c8bdf13062c610a62cab37f073d01ab0c7a7740c",
+  "fetched_at": "2026-05-18T19:42:24Z",
+  "parser_version": "0.4.3-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmcc/2023/judgment-zm-2023-zmcc-04-ikelenge-town-council-v-national-pension-scheme-au.pdf",
+  "body_length": 25434,
+  "judges_count": 5
+}

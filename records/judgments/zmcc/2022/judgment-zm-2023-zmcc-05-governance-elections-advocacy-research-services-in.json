@@ -1,0 +1,51 @@
+{
+  "id": "judgment-zm-2023-zmcc-05-governance-elections-advocacy-research-services-in",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Governance Elections Advocacy Research Services In (2022/CCZ/0020) [2023] ZMCC 5 (2022-09-15)",
+  "citation": "[2023] ZMCC 5",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Governance Elections Advocacy Research Services In",
+  "case_number": "2022/CCZ/0020",
+  "date_decided": "2022-09-15",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "JJC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-law",
+    "banking-finance",
+    "procedure",
+    "constitutional-law",
+    "public-law",
+    "electoral-law"
+  ],
+  "outcome": "other",
+  "outcome_detail": "",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "d10d1256704807f98114f24b2b0537361aec2d9565a7234330ca7c3271e7d6c8",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/5",
+  "source_hash": "sha256:d10d1256704807f98114f24b2b0537361aec2d9565a7234330ca7c3271e7d6c8",
+  "fetched_at": "2026-05-18T19:42:24Z",
+  "parser_version": "0.4.3-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmcc/2023/judgment-zm-2023-zmcc-05-governance-elections-advocacy-research-services-in.pdf",
+  "body_length": 44640,
+  "judges_count": 3
+}

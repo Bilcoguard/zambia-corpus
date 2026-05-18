@@ -1,0 +1,72 @@
+{
+  "id": "judgment-zm-2026-zmcc-01-tresford-chali-v-the-judicial-complaints-commissio",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Tresford Chali v The Judicial Complaints Commissio (2024/CCZ/0019) [2026] ZMCC 1 (2026-01-20)",
+  "citation": "[2026] ZMCC 1",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Tresford Chali v The Judicial Complaints Commissio",
+  "case_number": "2024/CCZ/0019",
+  "date_decided": "2026-01-20",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Shilimi",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "DPC",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Chisunka",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "JJC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "employment",
+    "mining",
+    "tort",
+    "procedure",
+    "constitutional-law",
+    "public-law",
+    "electoral-law"
+  ],
+  "outcome": "other",
+  "outcome_detail": "",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "af6fd6c8cc20586fb500263f6382fb9aabf2a476a31c27b38071ebd8531e7248",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2026/1",
+  "source_hash": "sha256:af6fd6c8cc20586fb500263f6382fb9aabf2a476a31c27b38071ebd8531e7248",
+  "fetched_at": "2026-05-18T19:42:24Z",
+  "parser_version": "0.4.3-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmcc/2026/judgment-zm-2026-zmcc-01-tresford-chali-v-the-judicial-complaints-commissio.pdf",
+  "body_length": 35583,
+  "judges_count": 7
+}

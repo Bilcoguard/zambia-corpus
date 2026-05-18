@@ -10240,3 +10240,11 @@ may
 [2026-05-18T21:04:52Z] [b0718-phase8] PRE-EXISTING-DISK-STATE (carry-forward; NOT a new failure): on-disk records/**/*.json has 11 no-id files + 5 dup-id pairs — predates this tick; sqlite (source of truth) is clean; sample is not affected.
 [2026-05-18T21:04:52Z] [b0718-phase8] B2_SYNC verdict=deferred-to-host (rclone not in sandbox; Phase 8 read-only on corpus)
 [2026-05-18T21:04:52Z] [b0718-phase8] === TICK END === elapsed=55s budget=20min headroom=~19m05s
+[2026-05-18T21:06:00Z] [b0718-phase8] git commit rc=0 sha=8faca3b "Phase 8 batch 0718" (commit-tree path used: stale .git/index leftover from prior FUSE-unlink-blocked sessions; used GIT_INDEX_FILE=/tmp/git-idx-b0718-phase8 + git read-tree HEAD + git add (scoped to 7 Phase 8 deliverables: scripts/batch_0718_phase8_reverify.py + reports/batch-0718.md + reports/batch-0718-reverify.json + costs.log + gaps.md + provenance.log + worker.log) + git commit-tree + git update-ref to bypass; tree=e6d6e29 parent=ef668f5)
+[2026-05-18T21:06:00Z] [b0718-phase8] git push rc=0 ef668f5..8faca3b main -> main
+[2026-05-18T21:06:00Z] [b0718-phase8] B2 sync deferred to host (rclone not in sandbox)
+[2026-05-18T21:06:00Z] [b0718-phase8] === TICK CLOSED === phase_8 remains approved+incomplete; routine sampling continues next tick (T+30min)
+2026-05-18T21:12:27Z [repair] git pull ok: Already up to date.
+2026-05-18T21:12:27Z [repair] scan: cond_a=0 cond_b=0 cond_c=0 unique_targets=0
+2026-05-18T21:12:27Z [repair] All repair targets fixed — repair worker idle
+2026-05-18T21:12:27Z [repair] integrity: records=1970 fts=1970 quick_check=ok
