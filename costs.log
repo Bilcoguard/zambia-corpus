@@ -6460,3 +6460,19 @@ b0697	2026-05-18T12:01:58Z	fetch_pdf	bytes=298945	sec=0.66
 2026-05-18T11:59:14Z	b0697-phase8	WALL_CLOCK	started=2026-05-18T11:58:32Z	completed=2026-05-18T11:59:14Z	elapsed=42s	budget=20min	headroom=~19m18s
 2026-05-18T11:59:14Z	b0697-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 2026-05-18T11:59:14Z	b0697-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1946	records_fts=1946	dup_ids=0	zambialii-500-outage-resolved=yes	tick-verdict=COMMIT-normal-path
+b0698	2026-05-18T12:11:22Z	fetch_html	bytes=39345	sec=1.38
+b0698	2026-05-18T12:11:22Z	fetch_pdf	bytes=290696	sec=0.85
+b0698	2026-05-18T12:11:25Z	fetch_html	bytes=39011	sec=0.91
+b0698	2026-05-18T12:11:25Z	fetch_pdf	bytes=83941	sec=0.59
+b0698	2026-05-18T12:11:27Z	fetch_html	bytes=38980	sec=0.90
+b0698	2026-05-18T12:11:28Z	fetch_pdf	bytes=279343	sec=0.82
+b0698	2026-05-18T12:11:30Z	fetch_html	bytes=39040	sec=0.92
+b0698	2026-05-18T12:11:30Z	fetch_pdf	bytes=16614	sec=0.35
+b0698	2026-05-18T12:11:32Z	fetch_html	bytes=38901	sec=0.93
+b0698	2026-05-18T12:11:33Z	fetch_pdf	bytes=16678	sec=0.56
+b0698	2026-05-18T12:11:35Z	fetch_html	bytes=38905	sec=0.93
+b0698	2026-05-18T12:11:35Z	fetch_pdf	bytes=22416	sec=0.56
+b0698	2026-05-18T12:11:38Z	fetch_html	bytes=42672	sec=0.97
+b0698	2026-05-18T12:11:38Z	fetch_pdf	bytes=21875	sec=0.31
+b0698	2026-05-18T12:11:40Z	fetch_html	bytes=41669	sec=1.04
+b0698	2026-05-18T12:11:40Z	fetch_pdf	bytes=26646	sec=0.35

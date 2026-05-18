@@ -1,0 +1,51 @@
+{
+  "batch": "b0698",
+  "parser": "repair-0.6.98",
+  "identified_no_body": 57,
+  "identified_corrupted": 0,
+  "identified_stub": 0,
+  "dedup_targets": 57,
+  "repaired": 8,
+  "failed": 0,
+  "remaining": 49,
+  "records": 1946,
+  "records_fts": 1946,
+  "integrity_match": true,
+  "quick_check": "ok",
+  "elapsed_sec": 21.7,
+  "repaired_ids": [
+    [
+      "si-zm-2021-088-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-4-order-2021",
+      "len=1841"
+    ],
+    [
+      "si-zm-2021-092-statistics-national-census-declaration-order-2021",
+      "len=1623"
+    ],
+    [
+      "si-zm-2021-094-electricity-common-carrier-declaration-revocation-order-2021",
+      "len=811"
+    ],
+    [
+      "si-zm-2021-109-plant-variety-and-seeds-amendment-regulations-2021",
+      "len=4184"
+    ],
+    [
+      "si-zm-2021-112-road-traffic-fees-regulations-2021",
+      "len=4701"
+    ],
+    [
+      "si-zm-2021-114-provincial-and-district-boundaries-division-amendment-no-2-order-2021",
+      "len=9069"
+    ],
+    [
+      "si-zm-2022-005-economic-and-financial-crimes-division-of-court-order-2022",
+      "len=1300"
+    ],
+    [
+      "si-zm-2022-006-zambia-police-fees-regulations-2022",
+      "len=3105"
+    ]
+  ],
+  "failed_ids": []
+}

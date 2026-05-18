@@ -8893,3 +8893,28 @@ test append Mon May 18 00:44:14 CAT 2026
 [2026-05-18T12:05:00Z] b0697 TICK_END elapsed=22s budget=20min records=1946 records_fts=1946 quick_check=ok repaired=8 failed=0 remaining=57 worker=repair-corpus session=happy-vibrant-turing
 2026-05-18T12:08Z b0697 GIT_COMMIT sha=439656240de27bd54bd198d96710ca5f73f77af0 parent=172464b2df43e70a1b332235dcea1a46a5bfa520 tree=b4cf0e06743a22096b7af225a6c5f8c339587dae files=4 method=alt-index-write-tree+commit-tree+direct-ref-update reason=FUSE-EPERM-on-.git/index.lock-concurrent-worker-contention
 2026-05-18T12:08Z b0697 GIT_PUSH remote=origin branch=main from=172464b to=4396562 result=OK
+[2026-05-18T12:11:20Z] b0698 Condition B (no-body acts/sis): 57
+[2026-05-18T12:11:20Z] b0698 Condition A (corrupted): 0
+[2026-05-18T12:11:20Z] b0698 Condition C (stubs): 0
+[2026-05-18T12:11:20Z] b0698 Total dedup targets: 57; picking up to 8
+[2026-05-18T12:11:20Z] b0698 REPAIR start id=si-zm-2021-088-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-4-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/88
+[2026-05-18T12:11:23Z] b0698 REPAIR ok id=si-zm-2021-088-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-4-order-2021 body_len=1841 hash=48805da1638c
+[2026-05-18T12:11:24Z] b0698 REPAIR start id=si-zm-2021-092-statistics-national-census-declaration-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/92
+[2026-05-18T12:11:25Z] b0698 REPAIR ok id=si-zm-2021-092-statistics-national-census-declaration-order-2021 body_len=1623 hash=87b2b617884d
+[2026-05-18T12:11:26Z] b0698 REPAIR start id=si-zm-2021-094-electricity-common-carrier-declaration-revocation-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/94
+[2026-05-18T12:11:28Z] b0698 REPAIR ok id=si-zm-2021-094-electricity-common-carrier-declaration-revocation-order-2021 body_len=811 hash=efc87da9e4bf
+[2026-05-18T12:11:29Z] b0698 REPAIR start id=si-zm-2021-109-plant-variety-and-seeds-amendment-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/109
+[2026-05-18T12:11:30Z] b0698 REPAIR ok id=si-zm-2021-109-plant-variety-and-seeds-amendment-regulations-2021 body_len=4184 hash=ea1e3fab6486
+[2026-05-18T12:11:31Z] b0698 REPAIR start id=si-zm-2021-112-road-traffic-fees-regulations-2021 url=https://zambialii.org/akn/zm/act/si/2021/112
+[2026-05-18T12:11:33Z] b0698 REPAIR ok id=si-zm-2021-112-road-traffic-fees-regulations-2021 body_len=4701 hash=aef8d1122355
+[2026-05-18T12:11:34Z] b0698 REPAIR start id=si-zm-2021-114-provincial-and-district-boundaries-division-amendment-no-2-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/114
+[2026-05-18T12:11:36Z] b0698 REPAIR ok id=si-zm-2021-114-provincial-and-district-boundaries-division-amendment-no-2-order-2021 body_len=9069 hash=ced4decde2c1
+[2026-05-18T12:11:37Z] b0698 REPAIR start id=si-zm-2022-005-economic-and-financial-crimes-division-of-court-order-2022 url=https://zambialii.org/akn/zm/act/si/2022/5
+[2026-05-18T12:11:38Z] b0698 REPAIR ok id=si-zm-2022-005-economic-and-financial-crimes-division-of-court-order-2022 body_len=1300 hash=9bed41194aba
+[2026-05-18T12:11:39Z] b0698 REPAIR start id=si-zm-2022-006-zambia-police-fees-regulations-2022 url=https://zambialii.org/akn/zm/act/si/2022/6
+[2026-05-18T12:11:41Z] b0698 REPAIR ok id=si-zm-2022-006-zambia-police-fees-regulations-2022 body_len=3105 hash=2167afbceab9
+[2026-05-18T12:11:42Z] b0698 INTEGRITY records=1946 records_fts=1946 match=True
+[2026-05-18T12:11:42Z] b0698 PRAGMA quick_check: ok
+[2026-05-18T12:12:03Z] b0698 TICK_END elapsed=22s budget=20min records=1946 records_fts=1946 quick_check=ok repaired=8 failed=0 remaining=49 worker=repair-corpus session=gallant-inspiring-pascal
+[2026-05-18T12:12:03Z] b0698 B2 sync deferred to host (rclone not available in sandbox)
+[2026-05-18T12:12:03Z] b0698 COMPLETE 8 SIs repaired, integrity ok, 49 remaining
