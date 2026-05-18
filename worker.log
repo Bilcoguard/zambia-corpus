@@ -8601,3 +8601,11 @@ test append Mon May 18 00:44:14 CAT 2026
 [2026-05-17T23:58:54Z] [b0686-jiw] B2 sync deferred to host (rclone unavailable in sandbox)
 [2026-05-17T23:58:54Z] [b0686-jiw] reports/jiw-batch-b0686.md WROTE; ZMSC-2024 gap-fill 32/33 (#4 confirmed publisher-skip; #11 publisher-dup of #9 already permanently-deferred)
 [2026-05-17T23:58:54Z] [b0686-jiw] FINAL verdict=tick-complete batch_size=3 inserted=3 failed=0 records=1928 records_fts=1928 next=continue-ZMCC-2025-gap-survey
+[2026-05-18T00:03:52Z] [b0687-phase8] start TICK=phase8-nightly-reverify sample_rate=0.01 pool_size=1931 sample_size=8
+[2026-05-18T00:03:52Z] [b0687-phase8] sample seed=phase8-reverify-2026-05-18-b0687 drew 8 records from pool of 1931
+[2026-05-18T00:03:52Z] [b0687-phase8] re-fetch verdicts: match=4 drift=4 fetch_error=0
+[2026-05-18T00:03:52Z] [b0687-phase8] all 4 drift verdicts on ZambiaLII-AKN-HTML hosts (dynamic-render); records NOT mutated per BRIEF non-negotiable #4
+[2026-05-18T00:03:52Z] [b0687-phase8] integrity records=1928 records_fts=1928 quick_check=ok dup_ids=0
+[2026-05-18T00:03:52Z] [b0687-phase8] B2 sync deferred to host (rclone unavailable in sandbox)
+[2026-05-18T00:03:52Z] [b0687-phase8] reports/batch-0687-reverify.json WROTE; gaps.md drift entries appended (4)
+[2026-05-18T00:03:52Z] [b0687-phase8] FINAL verdict=tick-complete batch_size=8 match=4 drift=4 fetch_error=0 records=1928 records_fts=1928 next=continue-phase8-nightly-reverify

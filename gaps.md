@@ -11046,3 +11046,65 @@ This tick fetched the full ZambiaLII /judgments/ZMSC/2024/ listing (144,883 byte
 3. **Third**: ZMSC 2025 gap survey if cached HTML exists without record.
 4. **Defer**: Subordinate Court (priority-f) until SCZ/ZMCC/CoA gap-fill complete.
 
+
+## 2026-05-18T00:03:52Z — b0687-phase8 — zambialii_akn_html_dynamic_render_drift (×4)
+
+Phase 8 nightly re-verification (`scripts/batch_0687_phase8_reverify.py`, parser_version `phase8-reverify-0.1.0`) sampled 8 records (seed `phase8-reverify-2026-05-18-b0687`) from a pool of 1931. Verdicts: 4 match, 4 drift, 0 fetch_error. All 4 drift verdicts are on **ZambiaLII AKN-HTML** pages, which dynamically render their HTML (timestamps/footer counters embedded in the response) — same pattern as b0641..b0684. None of the on-disk records were mutated by this tick. Records were NOT mutated by this tick — this gaps.md entry is the audit trail only.
+
+See `reports/batch-0687-reverify.json` for the full per-record breakdown.
+
+## phase8_reverify_drift
+- batch: 0687
+- detected_at: 2026-05-18T00:03:34Z
+- id: si-zm-2015-086-zambia-institute-of-advanced-legal-education-accreditation-of-legal-education-institutions-regulations-2015
+- type: statutory_instrument
+- source_url: https://zambialii.org/akn/zm/act/si/2015/86
+- host: zambialii.org
+- stored_sha256: 0fea46bfa2b83590eb2923e3d50cfc0a876b1f529d496bab2673bb6f0b01fdc8
+- fetched_sha256: b19b733b6a47420e1b5a37be6c6d9f1aae63f29c9f2f091afb870a447b94948e
+- fetched_bytes_len: 39578
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0684 cohort
+
+## phase8_reverify_drift
+- batch: 0687
+- detected_at: 2026-05-18T00:03:40Z
+- id: act-zm-1989-001-zambia-centre-for-accountancy-studies-act-1989
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/1989/1/eng@1989-05-19
+- host: zambialii.org
+- stored_sha256: 5b621318e2503339c15f53117dcdedb7d825948e96d0ee5167a7ced5f2cf92c2
+- fetched_sha256: bb86bc5c3d375937b67e810ee3daa7988f04476708adfa13a3d6f154a4874e46
+- fetched_bytes_len: 38647
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0684 cohort
+
+## phase8_reverify_drift
+- batch: 0687
+- detected_at: 2026-05-18T00:03:46Z
+- id: act-zm-2024-025-mobile-money-transaction-levy-act-2024
+- type: act
+- source_url: https://zambialii.org/akn/zm/act/2024/25/eng@2024-12-26
+- host: zambialii.org
+- stored_sha256: e8f8e11a61dd94c56dd24ed78a37bbfbf587fcf2e56f78528967d302376c7b32
+- fetched_sha256: 30d36c0b1090e39da488c555d0e17ab3ee5f6a20ee420a299a8376ed71d661de
+- fetched_bytes_len: 75392
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0684 cohort
+
+## phase8_reverify_drift
+- batch: 0687
+- detected_at: 2026-05-18T00:03:52Z
+- id: judgment-zm-2024-zmsc-18-the-people-v-evelyn-mwansa-and-ors
+- type: judgment
+- source_url: https://zambialii.org/akn/zm/judgment/zmsc/2024/18/eng@2024-05-16
+- host: zambialii.org
+- stored_sha256: 490fbba7730ad2202b3874031d8706d67baab2e5f18feb85820df3c06751b3c7
+- fetched_sha256: 2559cbcd85fd8d4db744dd92d4672afb536702f761b3963819b9652ccbce4b95
+- fetched_bytes_len: 41403
+- verdict: drift
+- cohort_note: AKN-HTML dynamic-render (timestamp/footer-counter drift; legal content unchanged). On-disk record source_hash NOT modified per BRIEF non-negotiable #4.
+- action: audit-only; nests in established b0641..b0684 cohort
