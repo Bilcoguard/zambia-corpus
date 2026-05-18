@@ -8851,3 +8851,40 @@ test append Mon May 18 00:44:14 CAT 2026
 2026-05-18T11:22Z b0696-jiw GIT_COMMIT sha=7844678b7c15c906d98d5f36929d2e80dc2e946c parent=3b6c9acdc01df0d5eae8a9b87c0ac8e818901f8a tree=4e3e11fc74aee39ac2e0aa857abf93c883ad2533 files=12 method=alt-index-write-tree+commit-tree+direct-ref-update reason=FUSE-EPERM-on-.git/index.lock
 2026-05-18T11:22Z b0696-jiw GIT_PUSH remote=origin branch=main from=3b6c9ac to=7844678 result=OK
 2026-05-18T11:22Z b0696-jiw TICK_END records=1946 records_fts=1946 judgments_meta=253 quick_check=ok integrity_check=ok inserted=7 deferred=3 next-tick=2026-05-18T12:00Z
+[2026-05-18T12:01:37Z] b0697 Condition B (no-body acts/sis): 65
+[2026-05-18T12:01:37Z] b0697 Condition A (corrupted): 0
+[2026-05-18T12:01:37Z] b0697 Condition C (stubs): 0
+[2026-05-18T12:01:37Z] b0697 Total dedup targets: 65; picking up to 8
+[2026-05-18T12:01:37Z] b0697 REPAIR start id=si-zm-2021-068-electoral-process-local-government-elections-election-date-and-time-of-poll-no-2-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/68
+[2026-05-18T12:01:40Z] b0697 REPAIR ok id=si-zm-2021-068-electoral-process-local-government-elections-election-date-and-time-of-poll-no-2-order-2021 body_len=1931 hash=388c846763a4
+[2026-05-18T12:01:41Z] b0697 REPAIR start id=si-zm-2021-069-public-holidays-declaration-notice-2021 url=https://zambialii.org/akn/zm/act/si/2021/69
+[2026-05-18T12:01:42Z] b0697 REPAIR ok id=si-zm-2021-069-public-holidays-declaration-notice-2021 body_len=993 hash=5d5206d05268
+[2026-05-18T12:01:43Z] b0697 REPAIR start id=si-zm-2021-071-public-holidays-declaration-no-2-notice-2021 url=https://zambialii.org/akn/zm/act/si/2021/71
+[2026-05-18T12:01:45Z] b0697 REPAIR ok id=si-zm-2021-071-public-holidays-declaration-no-2-notice-2021 body_len=845 hash=06cc260569b3
+[2026-05-18T12:01:46Z] b0697 REPAIR start id=si-zm-2021-072-public-holidays-declaration-no-3-notice-2021 url=https://zambialii.org/akn/zm/act/si/2021/72
+[2026-05-18T12:01:48Z] b0697 REPAIR ok id=si-zm-2021-072-public-holidays-declaration-no-3-notice-2021 body_len=943 hash=dd1f665bd9b8
+[2026-05-18T12:01:49Z] b0697 REPAIR start id=si-zm-2021-073-public-holidays-declaration-no-4-notice-2021 url=https://zambialii.org/akn/zm/act/si/2021/73
+[2026-05-18T12:01:50Z] b0697 REPAIR ok id=si-zm-2021-073-public-holidays-declaration-no-4-notice-2021 body_len=880 hash=57a407d2dc53
+[2026-05-18T12:01:51Z] b0697 REPAIR start id=si-zm-2021-074-national-assembly-kaumbwe-constituency-no-50-election-date-and-time-of-poll-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/74
+[2026-05-18T12:01:53Z] b0697 REPAIR ok id=si-zm-2021-074-national-assembly-kaumbwe-constituency-no-50-election-date-and-time-of-poll-order-2021 body_len=2143 hash=f26fabddc3b7
+[2026-05-18T12:01:54Z] b0697 REPAIR start id=si-zm-2021-075-electoral-process-local-government-elections-election-date-and-time-of-poll-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/75
+[2026-05-18T12:01:56Z] b0697 REPAIR ok id=si-zm-2021-075-electoral-process-local-government-elections-election-date-and-time-of-poll-order-2021 body_len=2040 hash=0af6624b3072
+[2026-05-18T12:01:57Z] b0697 REPAIR start id=si-zm-2021-087-national-assembly-by-election-kabwata-constituency-no-77-election-date-and-time-of-poll-no-3-order-2021 url=https://zambialii.org/akn/zm/act/si/2021/87
+[2026-05-18T12:01:58Z] b0697 REPAIR ok id=si-zm-2021-087-national-assembly-by-election-kabwata-constituency-no-77-election-date-and-time-of-poll-no-3-order-2021 body_len=2289 hash=2ffa874e5ddc
+[2026-05-18T12:01:59Z] b0697 INTEGRITY records=1946 records_fts=1946 match=True
+[2026-05-18T12:01:59Z] b0697 PRAGMA quick_check: ok
+[2026-05-18T12:02:00Z] b0697 B2 sync deferred to host (rclone not available in sandbox)
+[2026-05-18T12:02:00Z] b0697 COMPLETE 8 SIs repaired, integrity ok, 57 remaining
+[2026-05-18T11:58:32Z] [b0697-phase8] TICK_START scheduled phase-8-nightly-reverify; lowest-numbered approved+incomplete phase = phase_8_nightly_reverify; sample_rate=0.01; max_batch=8; seed=phase8-reverify-2026-05-18-b0697; pre records=1946 records_fts=1946 judgments_meta=253 quick_check=ok
+[2026-05-18T11:58:32Z] [b0697-phase8] SCRIPT scripts/batch_0697_phase8_reverify.py (verbatim clone of scripts/batch_0690_phase8_reverify.py; only BATCH constant changed 0690->0697)
+[2026-05-18T11:58:32Z] [b0697-phase8] PROBE python3=3.x ssl=ok urllib=ok; certs/ extras loaded; UA="KateWestonLegal-CorpusBuilder/1.0 (contact: peter@bilcoguard.com)"
+[2026-05-18T11:59:14Z] [b0697-phase8] SAMPLE_DRAWN 8 of 1949; cohort breakdown: 6 AKN-HTML, 1 AKN source.pdf, 1 media.zambialii.org source_file PDF
+[2026-05-18T11:59:14Z] [b0697-phase8] FETCH_OUTCOMES match=2 drift=6 fetch_error=0; HTTP 200 on all 8; zambialii.org 500 outage from b0691/b0692 has resolved
+[2026-05-18T11:59:14Z] [b0697-phase8] DRIFT_COHORT_TAG all 6 drifts classified zambialii_akn_html_dynamic_render_drift (same long-running cohort as b0641..b0690)
+[2026-05-18T11:59:14Z] [b0697-phase8] INTEGRITY_CHECKS 1=PASS 2=PASS 3=PASS 4=PASS 5=PASS 6=PASS 7=PASS 8=PASS 9=PASS; all 9 checks PASS
+[2026-05-18T11:59:14Z] [b0697-phase8] NO_RECORD_MUTATION script is read-only by design; BRIEF non-negotiable #4 honoured
+[2026-05-18T11:59:14Z] [b0697-phase8] GAPS_APPEND b0697-phase8 section appended to gaps.md (drifts:6, matches:2, no fetch errors); audit-only entry
+[2026-05-18T11:59:14Z] [b0697-phase8] REPORT_WRITE reports/batch-0697.md + reports/batch-0697-reverify.json
+[2026-05-18T11:59:14Z] [b0697-phase8] B2_SYNC deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+[2026-05-18T11:59:14Z] [b0697-phase8] PHASE_STATE phase_8_nightly_reverify remains approved:true complete:false (recurring nightly sample; approvals.yaml NOT modified)
+[2026-05-18T11:59:14Z] [b0697-phase8] TICK_END records=1946 records_fts=1946 judgments_meta=253 quick_check=ok integrity_check=ok match=2 drift=6 fetch_error=0 next-tick=2026-05-18T12:30Z

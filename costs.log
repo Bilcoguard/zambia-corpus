@@ -6438,3 +6438,25 @@ b0696-jiw	2026-05-18T11:08:00Z	tick_start	target=ZMCC-2025-reparse-18,19,21,24,2
 b0696-jiw	2026-05-18T11:12:30Z	pdf_extract	files=7	total_pages=199	total_body_chars=265692	no_net_fetch
 b0696-jiw	2026-05-18T11:17:00Z	db_insert	records=1939->1946	records_fts=1939->1946	judgments_meta=246->253	mode=in-place-PRAGMA-MEMORY
 b0696-jiw	2026-05-18T11:19:30Z	tick_complete	inserted=7	deferred=3(zmcc-2025-19-scanned,zmcc-2025-33-collision,zmcc-2024-27-collision)	fetches=0/500-day-budget
+b0697	2026-05-18T12:01:39Z	fetch_html	bytes=39303	sec=1.44
+b0697	2026-05-18T12:01:40Z	fetch_pdf	bytes=166825	sec=0.78
+b0697	2026-05-18T12:01:42Z	fetch_html	bytes=39225	sec=0.89
+b0697	2026-05-18T12:01:42Z	fetch_pdf	bytes=114664	sec=0.58
+b0697	2026-05-18T12:01:44Z	fetch_html	bytes=38658	sec=0.89
+b0697	2026-05-18T12:01:45Z	fetch_pdf	bytes=8724	sec=0.56
+b0697	2026-05-18T12:01:47Z	fetch_html	bytes=38983	sec=1.02
+b0697	2026-05-18T12:01:47Z	fetch_pdf	bytes=109320	sec=0.60
+b0697	2026-05-18T12:01:49Z	fetch_html	bytes=38983	sec=0.93
+b0697	2026-05-18T12:01:50Z	fetch_pdf	bytes=102672	sec=0.82
+b0697	2026-05-18T12:01:52Z	fetch_html	bytes=39263	sec=0.91
+b0697	2026-05-18T12:01:53Z	fetch_pdf	bytes=24514	sec=0.71
+b0697	2026-05-18T12:01:55Z	fetch_html	bytes=39265	sec=0.89
+b0697	2026-05-18T12:01:56Z	fetch_pdf	bytes=24272	sec=0.58
+b0697	2026-05-18T12:01:57Z	fetch_html	bytes=39389	sec=0.89
+b0697	2026-05-18T12:01:58Z	fetch_pdf	bytes=298945	sec=0.66
+2026-05-18T11:59:14Z	b0697-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=~121/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1949	sample_size=8
+2026-05-18T11:59:14Z	b0697-phase8	NETWORK_FETCHES	count=8	hosts=zambialii.org:7,media.zambialii.org:1	all-HTTP-200
+2026-05-18T11:59:14Z	b0697-phase8	BANDWIDTH	total_bytes=985826	avg_kb=120.3	largest=act-zm-1965-056-prisons-act-1965(619495B,zambialii-akn-html)
+2026-05-18T11:59:14Z	b0697-phase8	WALL_CLOCK	started=2026-05-18T11:58:32Z	completed=2026-05-18T11:59:14Z	elapsed=42s	budget=20min	headroom=~19m18s
+2026-05-18T11:59:14Z	b0697-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-18T11:59:14Z	b0697-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1946	records_fts=1946	dup_ids=0	zambialii-500-outage-resolved=yes	tick-verdict=COMMIT-normal-path

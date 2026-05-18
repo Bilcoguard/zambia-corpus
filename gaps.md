@@ -11497,3 +11497,28 @@ This tick adopted direct in-place mutation of `corpus.sqlite` (`PRAGMA journal_m
 ### Wall-clock
 
 Start: 2026-05-18T11:08Z. Finish: 2026-05-18T~11:20Z. Elapsed: ~12 minutes. Budget: 20 minutes. Headroom: ~8 minutes.
+
+---
+## b0697-phase8 — 2026-05-18T11:59:14Z — audit-only (no record mutation)
+
+Phase 8 nightly re-verification, batch 0697 (`scripts/batch_0697_phase8_reverify.py`, parser_version `phase8-reverify-0.1.0`, sample_size=8, sample_rate=0.01, seed `phase8-reverify-2026-05-18-b0697`, pool_size=1949). Verdicts: 2 match, 6 drift, 0 fetch_error (zambialii.org back online after the b0691/b0692 outage window). Per BRIEF non-negotiable #4 no record file was modified — this entry is the audit trail only.
+
+### Drifts (6) — all `zambialii_akn_html_dynamic_render_drift` cohort
+
+- `judgment-zm-2022-zmcc-05-moyo-v-attorney-general` — host `zambialii.org`, AKN-HTML `eng@`-suffixed landing page (`/akn/zm/judgment/zmcc/2022/5/eng@2022-02-28`); stored=f9aaea4ea9dcedabc04325503e54f1901ba8c9add0a4e44159fb58425751d3a8 fetched=32e58f6bd65407a2ad0d65ead2480d62f1d60b469bc031bb9973c819c23d6744; bytes=57708; verdict: dynamic-render churn (timestamp/footer counter), legal content unchanged.
+- `act-zm-1965-056-prisons-act-1965` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1965/56/eng@1996-12-31`); stored=4ddc9281911c923ec5953615fb95fd4db685f9fb6d7b59024d26de879bb27961 fetched=5c1b3a1158e625a5a3f7c4bdb4078ff2053e4f551749e15aa45ab15e768f7083; bytes=619495; verdict: dynamic-render churn, legal content unchanged.
+- `act-zm-1954-037-african-war-memorial-fund-act-1954` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1954/37/eng@1996-12-31`); stored=69efa39702b8600dabbd6338fad1244551b68b6b07a3b33bbe9fb2c6f5cd4508 fetched=8e19e79699c7d47c493426675bf2855462868cf8ea8e6f52b2a52966a99b74f0; bytes=71988; verdict: dynamic-render churn, legal content unchanged.
+- `act-zm-1968-005-gwembe-district-special-fund-dissolution-act-1968` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1968/5/eng@1996-12-31`); stored=648db2bfd75a531d741c82e495a39ed2d915f091ca375c7d38c1441c5558b4fe fetched=8b618e2b95f748317dca8355104f00518c1c1907c9189e9befee227bec65b08d; bytes=50329; verdict: dynamic-render churn, legal content unchanged.
+- `si-zm-2020-108-urban-and-regional-planning-designated-local-planning-authorities-no-3-regulations-2020` — host `zambialii.org`, AKN-HTML bare (no `eng@`) (`/akn/zm/act/si/2020/108`); stored=7ab47d1b5f58af3f29f8f4af83767c187841d32f546c0c6b8c941ebbf8389951 fetched=ab83757ddf85d0f9dbd23a61a2be47683c09642c90ec1b592200ffe1b5825187; bytes=40401; verdict: dynamic-render churn, legal content unchanged.
+- `si-zm-2019-042-urban-and-regional-planning-designated-local-planning-authorities-regulations-2019` — host `zambialii.org`, AKN-HTML bare (`/akn/zm/act/si/2019/42`); stored=980ed99f76aa6b5f5c6c9e8f203817f8f5f1d3e07c283def396faaaeca3aefbc fetched=ee5db8e62ffa0769237f8987b6240393ad0ee7b132a23e152505b98ab7d59452; bytes=39223; verdict: dynamic-render churn, legal content unchanged.
+
+### Matches (2) — stable-PDF supercohort
+
+- `si-zm-2019-029-employment-code-act-commencement-order-2019` — host `zambialii.org`, AKN source.pdf — hash unchanged (51ee180d...).
+- `act-zm-2021-041-electronic-government-act-2021` — host `media.zambialii.org`, source_file PDF — hash unchanged (9555a0e4...).
+
+### Upstream status
+
+The b0691/b0692 zambialii.org HTTP 500 outage (started 2026-05-18T01:14:50Z) has resolved by 2026-05-18T11:58Z: 8/8 fetches returned HTTP 200 with no rate-limit or DNS issues. Continue routine Phase 8 sampling; no maintainer escalation required.
+
+See `reports/batch-0697-reverify.json` for the full per-record breakdown.
