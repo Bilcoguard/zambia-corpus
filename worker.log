@@ -9219,3 +9219,37 @@ warning: unable to unlink '.git/
 [2026-05-18T15:07:35Z] r-20260518T150657Z PRAGMA quick_check: ok
 [2026-05-18T15:07:35Z] r-20260518T150657Z rclone not available — B2 sync deferred to host
 [2026-05-18T15:07:36Z] r-20260518T150657Z COMMIT parent=b600e5ef193b msg='Repair batch r-20260518T150657Z: fixed 8 records (no_body=25 corrupted=0 stubs=0, 17 remaining)'
+[2026-05-18T15:07:36Z] r-20260518T150657Z git add rc=1 stderr="warning: unable to unlink '.git/objects/2c/tmp_obj_G8lfAd': Operation not permitted\nwarning: unable to unlink '.git/objects/0f/tmp_obj_IFIUFg': Operation not permitted\nwarning: unable to unlink '.git/"
+[2026-05-18T15:03:52Z] [b0706-phase8] TICK_START phase=phase_8_nightly_reverify script=scripts/batch_0706_phase8_reverify.py
+[2026-05-18T15:03:52Z] [b0706-phase8] PRE_INTEGRITY quick_check=ok records=1958 records_fts=1958 dup_ids=0
+[2026-05-18T15:03:52Z] [b0706-phase8] POOL_LOAD pool_size=1961 sample_rate=0.01 max_batch=8 seed=phase8-reverify-2026-05-18-b0706
+[2026-05-18T15:04:26Z] [b0706-phase8] REVERIFY_DONE fetches=8 match=1 drift=7 fetch_error=0 bytes=990335 elapsed_s=34
+[2026-05-18T15:04:26Z] [b0706-phase8] DRIFT_COHORTS zambialii_akn_html_dynamic_render_drift=6 judiciaryzambia_html_dynamic_render_drift=1
+[2026-05-18T15:04:26Z] [b0706-phase8] WROTE_REPORT reports/batch-0706-reverify.json reports/batch-0706.md
+[2026-05-18T15:04:26Z] [b0706-phase8] GAPS_APPEND gaps.md (audit-only; no record file mutated)
+[2026-05-18T15:04:26Z] [b0706-phase8] POST_INTEGRITY quick_check=ok records=1958 records_fts=1958 dup_ids=0 records_dir_unchanged=true approvals_yaml_unchanged=true
+[2026-05-18T15:04:26Z] [b0706-phase8] INTEGRITY all-checks=PASS verdict=COMMIT-normal-path
+[2026-05-18T15:07:38Z] r-20260518T150657Z git commit rc=0 stdout='[main 24710f7] Repair batch r-20260518T150657Z: fixed 8 records (no_body=25 corrupted=0 stubs=0, 17 remaining)\n 5 files changed, 176 insertions(+)\n create mode 100644 reports/repair-batch-r-20260518T150657Z-summary.json\n create mode 100644 reports/repair-batch-r-20260518T150657Z.md' stderr="warning: unable to unlink '.git/objects/e7/tmp_obj_PkRVZz': Operation not permitted\nwarning: unable to unlink '.git/objects/b9/tmp_obj_FXlUwA': Operation not permitted\nwarning: unable to unlink '.git/"
+[2026-05-18T15:07:38Z] r-20260518T150657Z commit succeeded HEAD=24710f7b62b4
+[2026-05-18T15:07:40Z] r-20260518T150657Z git push rc=0 stdout='' stderr='To https://github.com/Bilcoguard/zambia-corpus.git\n   b600e5e..24710f7  24710f7b62b4de3072a023fe2d212a1aeb08eebb -> main'
+[2026-05-18T15:07:40Z] r-20260518T150657Z === TICK END r-20260518T150657Z elapsed=43.3s repaired=8 failed=0 remaining_no_body=17 ===
+[2026-05-18T15:09:42Z] [b0706-jiw] TICK_START worker=judgment-ingestion-worker
+[2026-05-18T15:09:43Z] [b0706-jiw] GIT_PULL_OK Already up to date.
+[2026-05-18T15:09:43Z] [b0706-jiw] BUDGET_CHECK jiw_fetches_today=0/500
+[2026-05-18T15:09:43Z] [b0706-jiw] EXISTING records_on_disk=268 cn_indexed=246
+[2026-05-18T15:09:43Z] [b0706-jiw] PDF_SCAN total_pdfs=28 dir=raw/judiciary-zm/coa/2026
+[2026-05-18T15:09:44Z] [b0706-jiw] CANDIDATES_FOUND with_text_layer=6
+[2026-05-18T15:09:44Z] [b0706-jiw] TO_INGEST count=3 max_batch=8
+[2026-05-18T15:09:44Z] [b0706-jiw] PARSE APP-0024-2024-Kingfred-Phiri-vs-Life-Master-Ltd-10th-Decembe n_pages=27 body_len=34444 dratio=0.024
+[2026-05-18T15:09:44Z] [b0706-jiw] PARSE App-113-2020-Chisumpa-Liandisha-v-The-People-ZMCA-Coram-Mche n_pages=8 body_len=6704 dratio=0.027
+[2026-05-18T15:09:45Z] [b0706-jiw] PARSE App-211-2022-Rotor-Moulder-Enterprises-Limited-vs-Stanley-Jo n_pages=20 body_len=23019 dratio=0.036
+[2026-05-18T15:09:45Z] [b0706-jiw] PARSED inserted_candidates=3 deferred=0
+[2026-05-18T15:09:45Z] [b0706-jiw] DB_PRE records=1958 records_fts=1958
+[2026-05-18T15:09:45Z] [b0706-jiw] INSERTED judgment-zm-2024-coa-024-z-kingfred-phiri-l-appellant-civil-rgi5tjy-2-and-0x-5ofl7-life-master-limited-re cn=APP/024/2024 outcome=other
+[2026-05-18T15:09:45Z] [b0706-jiw] INSERTED judgment-zm-2020-coa-113-chisumpa-liandisha-appellant-and-the-people-respondent cn=APP/113/2020 outcome=other
+[2026-05-18T15:09:45Z] [b0706-jiw] INSERTED judgment-zm-2024-coa-211-rotor-moulder-enterprises-timite-appellant-and-stanley-jordan-1st-respondent-jos cn=APP/211/2022 outcome=set-aside
+[2026-05-18T15:09:45Z] [b0706-jiw] JUDGES_REGISTRY updated entries=14
+[2026-05-18T15:09:45Z] [b0706-jiw] DB_POST records=1961 records_fts=1961
+[2026-05-18T15:09:45Z] [b0706-jiw] INTEGRITY pass=True errors=[]
+[2026-05-18T15:09:45Z] [b0706-jiw] WROTE_REPORT reports/batch-b0706-jiw.md
+[2026-05-18T15:09:45Z] [b0706-jiw] NO_CHANGES_TO_COMMIT

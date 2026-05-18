@@ -6593,3 +6593,21 @@ r-20260518T150657Z	2026-05-18T15:07:28Z	fetch_html_urllib	bytes=39180	sec=2.22
 r-20260518T150657Z	2026-05-18T15:07:29Z	fetch_pdf_urllib	bytes=284445	sec=1.36
 r-20260518T150657Z	2026-05-18T15:07:33Z	fetch_html_urllib	bytes=39263	sec=2.60
 r-20260518T150657Z	2026-05-18T15:07:34Z	fetch_pdf_urllib	bytes=303683	sec=1.49
+b0706	2026-05-18T15:03:54Z	fetch_html	bytes=93204	sec=1.318
+b0706	2026-05-18T15:04:01Z	fetch_html	bytes=38640	sec=1.084
+b0706	2026-05-18T15:04:07Z	fetch_html	bytes=120387	sec=1.577
+b0706	2026-05-18T15:04:13Z	fetch_html	bytes=91551	sec=1.236
+b0706	2026-05-18T15:04:20Z	fetch_html	bytes=39077	sec=1.766
+b0706	2026-05-18T15:04:22Z	fetch_pdf	bytes=401831	sec=1.448
+b0706	2026-05-18T15:04:24Z	fetch_html	bytes=167200	sec=2.488
+b0706	2026-05-18T15:04:26Z	fetch_html	bytes=38445	sec=1.065
+2026-05-18T15:04:26Z	b0706-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=~161/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1961	sample_size=8
+2026-05-18T15:04:26Z	b0706-phase8	NETWORK_FETCHES	count=8	hosts=zambialii.org:6,www.parliament.gov.zm:1,judiciaryzambia.com:1	http=200x8
+2026-05-18T15:04:26Z	b0706-phase8	BANDWIDTH	total_bytes=990335	avg_kb=120.9	largest=act-zm-2026-008-agricultural-marketing-act(401831B,parliament-gov-zm-Act-PDF)
+2026-05-18T15:04:26Z	b0706-phase8	WALL_CLOCK	started=2026-05-18T15:03:52Z	completed=2026-05-18T15:04:26Z	elapsed=34s	budget=20min	headroom=~19m26s
+2026-05-18T15:04:26Z	b0706-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-18T15:04:26Z	b0706-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1958	records_fts=1958	dup_ids=0	tick-verdict=COMMIT-normal-path
+2026-05-18T15:09:45Z b0706-jiw fetches=0 mode=reparse-coa-text-layer candidates=3 inserted=3 deferred=0
+2026-05-18T15:09:45Z	b0706-jiw	NETWORK_FETCHES	count=0	note=reparse-only-no-fetches
+2026-05-18T15:09:45Z	b0706-jiw	BANDWIDTH	total_bytes=0	note=no-fetches
+2026-05-18T15:09:45Z	b0706-jiw	INTEGRITY	records=1961	fts=1961	pass=True
