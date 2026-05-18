@@ -6954,3 +6954,7 @@ b0710-jiw	2026-05-18T18:09:18Z	fetch_html_urllib	bytes=180885	sec=2.42
 2026-05-18T19:04:45Z	b0714-phase8	BANDWIDTH	total_bytes=589757	source=zambialii.org+parliament.gov.zm
 2026-05-18T19:04:45Z	b0714-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1962	records_fts=1962	dup_ids=0	tick-verdict=COMMIT-normal-path
 2026-05-18T19:04:45Z	b0714-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-18T19:33:26Z	b0715-phase8	fetches=8	tokens=0	worker=phase8-nightly-reverify	cumulative_today=~413/2000	cohort=phase8-1pct-sample
+2026-05-18T19:33:26Z	b0715-phase8	BANDWIDTH	total_bytes=2566398	source=parliament.gov.zm+zambialii.org
+2026-05-18T19:33:26Z	b0715-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1962	records_fts=1962	dup_ids=0	tick-verdict=COMMIT-normal-path
+2026-05-18T19:33:26Z	b0715-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway

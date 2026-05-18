@@ -10101,3 +10101,11 @@ warning: unable to unlink '/sessions/confident-awesome-johnson/mnt/corpus/.git/o
 [2026-05-18T19:28:16.495098+00:00] [repair] git pull ok: Already up to date.
 [2026-05-18T19:28:16.741546+00:00] [repair] scan: corrupted=0 missing=0 stub=0 unique=0
 [2026-05-18T19:28:16.742185+00:00] [repair] All repair targets fixed — repair worker idle
+[2026-05-18T19:33:05Z] [b0715-phase8] === TICK START === phase=phase_8_nightly_reverify
+[2026-05-18T19:33:05Z] [b0715-phase8] approvals.yaml read; phase_8 approved=true complete=false; sample_rate=0.01
+[2026-05-18T19:33:05Z] [b0715-phase8] script=scripts/batch_0715_phase8_reverify.py (clone of batch_0546 baseline; BATCH=0715)
+[2026-05-18T19:33:05Z] [b0715-phase8] pool_size=1965 sample_size=8 seed=phase8-reverify-2026-05-18-b0715
+[2026-05-18T19:33:26Z] [b0715-phase8] fetches=8 http200=8 match=5 drift=3 fetch_error=0
+[2026-05-18T19:33:26Z] [b0715-phase8] integrity-checks: 1=PASS 2=PASS 3=PASS 4=PASS 5=PASS 6=PASS 7=PASS 8=PASS 9=PASS — commit normal path
+[2026-05-18T19:33:26Z] [b0715-phase8] B2_SYNC verdict=deferred-to-host (rclone not in sandbox; Phase 8 read-only on corpus)
+[2026-05-18T19:33:26Z] [b0715-phase8] === TICK END === elapsed=21s budget=20min headroom=~19m39s
