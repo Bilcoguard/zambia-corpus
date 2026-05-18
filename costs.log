@@ -6947,3 +6947,6 @@ b0710-jiw	2026-05-18T18:09:18Z	fetch_html_urllib	bytes=180885	sec=2.42
 2026-05-18T18:37:51Z	b0712-phase8	WALL_CLOCK	started=2026-05-18T18:37:16Z	completed=2026-05-18T18:37:51Z	elapsed=35s	budget=20min	headroom=~19m25s
 2026-05-18T18:37:51Z	b0712-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
 2026-05-18T18:37:51Z	b0712-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1961	records_fts=1961	dup_ids=0	tick-verdict=COMMIT-normal-path
+2026-05-18T18:54:22Z	b0713-jiw	fetches=0	retry_fetches=0	records_written=2	records_deferred=6	worker=judgment-ingestion-worker	cumulative_today=~281/500	cohort=reparse-deferred-coa-on-disk
+2026-05-18T18:54:22Z	b0713-jiw	BANDWIDTH	total_bytes=0	source=disk-reparse
+2026-05-18T18:54:22Z	b0713-jiw	INTEGRITY	records=1963	records_fts=1963	pass=True

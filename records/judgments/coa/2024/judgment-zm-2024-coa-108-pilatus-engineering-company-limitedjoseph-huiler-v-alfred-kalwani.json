@@ -1,0 +1,49 @@
+{
+  "id": "judgment-zm-2024-coa-108-pilatus-engineering-company-limitedjoseph-huiler-v-alfred-kalwani",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "pilatus engineering company limitedjoseph huiler v alfred kalwani (APPLN/108/2024) [2024] ZMCA",
+  "citation": "[2024] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "pilatus engineering company limitedjoseph huiler v alfred kalwani",
+  "case_number": "APPLN/108/2024",
+  "date_decided": null,
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "chashi ngulube banda bobo",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "2",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "appeals",
+    "banking",
+    "commercial",
+    "contract",
+    "employment",
+    "mining"
+  ],
+  "outcome": "remitted",
+  "outcome_detail": "e lower\nCourt to determine the matter.\n12.3 The Applicants contend that when we remitted the matter\nfor re-trial before another Court in the High Court, this\nCourt did not determine the Application to vary the\ndecision of a single Judge in its enti",
+  "outcome_detection_method": "tier=tail12k pattern=\\bremitted\\b",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "7054e0b522f42d41644e6cd21ad6f2adcf681f9b282a3e29f02f3bb5002328a6",
+  "source_url": "https://judiciaryzambia.com/wp-content/uploads/application-108-2024-pilatus-engineering-company-limitedjoseph-huiler-vs-alfred-kalwani-coram-justice-chashi-ngulube-banda-bobo-jja-2.pdf",
+  "source_pdf_url": "https://judiciaryzambia.com/wp-content/uploads/application-108-2024-pilatus-engineering-company-limitedjoseph-huiler-vs-alfred-kalwani-coram-justice-chashi-ngulube-banda-bobo-jja-2.pdf",
+  "source_hash": "sha256:7054e0b522f42d41644e6cd21ad6f2adcf681f9b282a3e29f02f3bb5002328a6",
+  "fetched_at": "2026-05-18T18:54:22Z",
+  "parser_version": "0.4.4-jiw-b0713-inline",
+  "raw_path": "raw/judiciary-zm/coa/application-108-2024-pilatus-engineering-company-limitedjoseph-huiler-vs-alfred-kalwani-coram-justice-chashi-ngulube-banda-bobo-jja-2.pdf",
+  "body_length": 33021,
+  "page_count": 31,
+  "judges_count": 2
+}

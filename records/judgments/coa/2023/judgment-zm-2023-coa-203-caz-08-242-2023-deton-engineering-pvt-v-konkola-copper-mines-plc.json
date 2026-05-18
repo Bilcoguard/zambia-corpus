@@ -1,0 +1,43 @@
+{
+  "id": "judgment-zm-2023-coa-203-caz-08-242-2023-deton-engineering-pvt-v-konkola-copper-mines-plc",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "caz 08 242 2023 deton engineering pvt v konkola copper mines plc (APP/203/2023) [2023] ZMCA",
+  "citation": "[2023] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "caz 08 242 2023 deton engineering pvt v konkola copper mines plc",
+  "case_number": "APP/203/2023",
+  "date_decided": null,
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "chashi ngulube banda bobo",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "appeals",
+    "commercial",
+    "contract",
+    "employment",
+    "mining"
+  ],
+  "outcome": "other",
+  "outcome_detail": null,
+  "outcome_detection_method": "tier=fallback no-pattern-matched",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "ce4c3d04cf3d84a03dacd6ed76cccdb3696a6cda8e52f2999f8ff5617c2139e1",
+  "source_url": "https://judiciaryzambia.com/wp-content/uploads/app-203-2023-caz-08-242-2023-deton-engineering-pvt-vs-konkola-copper-mines-plc-coram-justice-chashi-ngulube-banda-bobo-jja.pdf",
+  "source_pdf_url": "https://judiciaryzambia.com/wp-content/uploads/app-203-2023-caz-08-242-2023-deton-engineering-pvt-vs-konkola-copper-mines-plc-coram-justice-chashi-ngulube-banda-bobo-jja.pdf",
+  "source_hash": "sha256:ce4c3d04cf3d84a03dacd6ed76cccdb3696a6cda8e52f2999f8ff5617c2139e1",
+  "fetched_at": "2026-05-18T18:54:22Z",
+  "parser_version": "0.4.4-jiw-b0713-inline",
+  "raw_path": "raw/judiciary-zm/coa/app-203-2023-caz-08-242-2023-deton-engineering-pvt-vs-konkola-copper-mines-plc-coram-justice-chashi-ngulube-banda-bobo-jja.pdf",
+  "body_length": 17357,
+  "page_count": 16,
+  "judges_count": 1
+}

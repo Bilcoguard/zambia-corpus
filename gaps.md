@@ -12169,3 +12169,11 @@ See `reports/batch-0707-reverify.json` for the full per-record breakdown and `re
 - JudiciaryZM HC page-3: cands=0, inserted=0
 
 ### Network fetches: 155
+
+## b0713-jiw reparse deferrals (2026-05-18T18:54:22Z)
+- `APP/304/2022` `APP-304-2022-Setrec-Steel-and-Wood-Processing-Limited-vs-Zambia-National-Commercial-Bank-Plc-31-Jan-2025-Coram-Chashi-Makungu-Sichinga-JJA.pdf` reason=`body-too-short:32`
+- `APP/309/2023` `App-309-2023-Emergency-Response-Zambia-Limited-2-Others-Vs-Betternow-Finance-Company-LimitedInde-Credit-Company-Limited-Coram-Ngulube-Muzenga-And-Chembe-JJA.pdf` reason=`body-too-short:19`
+- `APP/165/2024` `App-165-2024-Savenda-Management-Services-Limited-vs-Lumwana-Mining-Company-Limited-31-Dec-2024-Coram-Mchenga-DJP-Muzenga-Chembe-JJA.pdf` reason=`body-too-short:19`
+- `APP/024/2024` `App-24-2024-Peter-Mutale-vs-Davies-Mukumbwa-24-Jan-2025-Coram-Siavwapa-JP-Chishimba-Patel-JJA.pdf` reason=`body-too-short:20`
+- `APP/202/2023` `app-202-2023-maambo-simukuni-vs-tenyiwe-sibindi-coram-justice-siavwapa-jp-chishimba-patel-jja.pdf` reason=`duplicate-fingerprint`
+- `APP/123/2023` `App-123-2023-Patson-Kabungo-Sichoni-vs-The-People-Coram-Mchenga-DJP-Muzenga-Chembe-JJA.pdf` reason=`body-too-short:15`

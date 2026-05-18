@@ -1,4 +1,13 @@
 judges:
+- canonical_name: '2'
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2024-coa-108-pilatus-engineering-company-limitedjoseph-huiler-v-alfred-kalwani
+    first_seen_at: '2026-05-18T18:54:22Z'
+  aliases:
+  - 2 JJA
+  first_seen: '2026-05-18T18:54:22Z'
+  court: Court of Appeal
 - canonical_name: Banda-Bobo
   titles:
   - title: JJA
@@ -25,6 +34,15 @@ judges:
   aliases:
   - Chashi Ngulube Banda Bobo JJA
   first_seen: '2026-05-18T14:41:39Z'
+  court: Court of Appeal
+- canonical_name: chashi ngulube banda bobo
+  titles:
+  - title: JJA
+    first_seen_in: judgment-zm-2023-coa-203-caz-08-242-2023-deton-engineering-pvt-v-konkola-copper-mines-plc
+    first_seen_at: '2026-05-18T18:54:22Z'
+  aliases:
+  - chashi ngulube banda bobo JJA
+  first_seen: '2026-05-18T18:54:22Z'
   court: Court of Appeal
 - canonical_name: Chembe
   titles:
@@ -219,15 +237,6 @@ judges:
   - Kondolo SC JJA
   first_seen: '2026-05-11T10:18:00Z'
   court: Court of Appeal
-- canonical_name: MAKUNGU
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2019-coa-004-mathews-handulu-v-the-people
-    first_seen_at: '2026-05-11T07:33:47Z'
-  aliases:
-  - MAKUNGU J
-  first_seen: '2026-05-11T07:33:47Z'
-  court: Court of Appeal
 - canonical_name: Majula
   titles:
   - title: JJA
@@ -236,6 +245,15 @@ judges:
   aliases:
   - Majula JJA
   first_seen: '2026-05-11T07:37:27Z'
+  court: Court of Appeal
+- canonical_name: MAKUNGU
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2019-coa-004-mathews-handulu-v-the-people
+    first_seen_at: '2026-05-11T07:33:47Z'
+  aliases:
+  - MAKUNGU J
+  first_seen: '2026-05-11T07:33:47Z'
   court: Court of Appeal
 - canonical_name: Makungu
   titles:
@@ -536,15 +554,6 @@ judges:
   aliases:
   - Sharpe -Phiri JJA
   first_seen: '2026-05-04T09:20:09Z'
-- canonical_name: SICHINGA AND NGULUBE
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2019-coa-004-mathews-handulu-v-the-people
-    first_seen_at: '2026-05-11T07:33:47Z'
-  aliases:
-  - SICHINGA AND NGULUBE J
-  first_seen: '2026-05-11T07:33:47Z'
-  court: Court of Appeal
 - canonical_name: Sharpe-Phiri
   titles:
   - title: JJA
@@ -591,6 +600,15 @@ judges:
   aliases:
   - Sichinga JJA
   first_seen: '2026-05-04T09:20:09Z'
+- canonical_name: SICHINGA AND NGULUBE
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2019-coa-004-mathews-handulu-v-the-people
+    first_seen_at: '2026-05-11T07:33:47Z'
+  aliases:
+  - SICHINGA AND NGULUBE J
+  first_seen: '2026-05-11T07:33:47Z'
+  court: Court of Appeal
 - canonical_name: Sitali
   titles:
   - title: JC

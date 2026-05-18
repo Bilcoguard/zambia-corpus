@@ -10002,3 +10002,69 @@ Another git process seems to
 [2026-05-18T18:37:51Z] [b0712-phase8] integrity-checks: 1=PASS 2=PASS 3=PASS 4=PASS 5=PASS 6=PASS 7=PASS 8=PASS 9=PASS — commit normal path
 [2026-05-18T18:37:51Z] [b0712-phase8] B2_SYNC verdict=deferred-to-host (rclone not in sandbox; Phase 8 read-only on corpus)
 [2026-05-18T18:37:51Z] [b0712-phase8] === TICK END === elapsed=35s budget=20min headroom=~19m25s
+[2026-05-18T18:51:48Z] [b0713-jiw] === TICK START ===
+[2026-05-18T18:51:49Z] [b0713-jiw] cleaned stale .git locks
+[2026-05-18T18:51:50Z] [b0713-jiw] git pull rc=1 out="" err="fatal: bad object refs/heads/main.lock.b0712-bypass.1779129660
+error: https://github.com/Bilcoguard/zambia-corpus.git did not send all necessary objects
+
+warning: unable to unlink '/sessions/funny-sha"
+[2026-05-18T18:51:50Z] [b0713-jiw] continuing despite git pull warning (HEAD reachable)
+[2026-05-18T18:51:50Z] [b0713-jiw] JIW fetches today (approx by log lines): 281/500
+[2026-05-18T18:51:50Z] [b0713-jiw] unrecorded raw CoA PDFs (after dedup): 24
+[2026-05-18T18:51:50Z] [b0713-jiw] selected 8 candidates this tick (MAX_BATCH=8)
+[2026-05-18T18:51:50Z] [b0713-jiw] pre-state: records=1961 records_fts=1961 judgments_meta=256
+[2026-05-18T18:51:50Z] [b0713-jiw] -- processing APP-304-2022-Setrec-Steel-and-Wood-Processing-Limited-vs-Zambia-National-Commercial-Bank-P cn=APP/304/2022
+[2026-05-18T18:51:50Z] [b0713-jiw]   deferred: body-too-short:32
+[2026-05-18T18:51:50Z] [b0713-jiw] -- processing App-309-2023-Emergency-Response-Zambia-Limited-2-Others-Vs-Betternow-Finance-Company-Limit cn=APP/309/2023
+[2026-05-18T18:51:50Z] [b0713-jiw]   deferred: body-too-short:19
+[2026-05-18T18:51:50Z] [b0713-jiw] -- processing app-203-2023-caz-08-242-2023-deton-engineering-pvt-vs-konkola-copper-mines-plc-coram-justi cn=APP/203/2023
+[2026-05-18T18:51:50Z] [b0713-jiw]   OK -> judgment-zm-2023-coa-203-caz-08-242-2023-deton-engineering-pvt-v-konkola-copper-mines-plc outcome=other judges=1 body=17357
+[2026-05-18T18:51:50Z] [b0713-jiw] -- processing application-108-2024-pilatus-engineering-company-limitedjoseph-huiler-vs-alfred-kalwani-co cn=APPLN/108/2024
+[2026-05-18T18:51:50Z] [b0713-jiw]   OK -> judgment-zm-2024-coa-108-pilatus-engineering-company-limitedjoseph-huiler-v-alfred-kalwani outcome=remitted judges=2 body=33021
+[2026-05-18T18:51:50Z] [b0713-jiw] -- processing App-165-2024-Savenda-Management-Services-Limited-vs-Lumwana-Mining-Company-Limited-31-Dec- cn=APP/165/2024
+[2026-05-18T18:51:50Z] [b0713-jiw]   deferred: body-too-short:19
+[2026-05-18T18:51:50Z] [b0713-jiw] -- processing App-24-2024-Peter-Mutale-vs-Davies-Mukumbwa-24-Jan-2025-Coram-Siavwapa-JP-Chishimba-Patel- cn=APP/024/2024
+[2026-05-18T18:51:50Z] [b0713-jiw]   deferred: body-too-short:20
+[2026-05-18T18:51:50Z] [b0713-jiw] -- processing app-202-2023-maambo-simukuni-vs-tenyiwe-sibindi-coram-justice-siavwapa-jp-chishimba-patel- cn=APP/202/2023
+[2026-05-18T18:51:51Z] [b0713-jiw]   deferred: duplicate-fingerprint
+[2026-05-18T18:51:51Z] [b0713-jiw] -- processing App-123-2023-Patson-Kabungo-Sichoni-vs-The-People-Coram-Mchenga-DJP-Muzenga-Chembe-JJA.pdf cn=APP/123/2023
+[2026-05-18T18:51:51Z] [b0713-jiw]   deferred: body-too-short:15
+[2026-05-18T18:51:51Z] [b0713-jiw] parsed: 2 candidate-inserts / 6 deferred
+[2026-05-18T18:51:51Z] [b0713-jiw] post-state (uncommitted): records=1963 records_fts=1963 judgments_meta=258
+[2026-05-18T18:51:51Z] [b0713-jiw] integrity checks: pass=True errors=0
+[2026-05-18T18:54:20Z] [b0713-jiw] === TICK START ===
+[2026-05-18T18:54:20Z] [b0713-jiw] cleaned stale .git locks
+[2026-05-18T18:54:21Z] [b0713-jiw] copied corpus.sqlite -> /sessions/funny-sharp-lamport/tmp/corpus_b0713_work.sqlite for write-safe operations
+[2026-05-18T18:54:22Z] [b0713-jiw] git pull rc=1 out="" err="fatal: bad object refs/heads/main.lock.b0712-bypass.1779129660
+error: https://github.com/Bilcoguard/zambia-corpus.git did not send all necessary objects"
+[2026-05-18T18:54:22Z] [b0713-jiw] continuing despite git pull warning (HEAD reachable)
+[2026-05-18T18:54:22Z] [b0713-jiw] JIW fetches today (approx by log lines): 281/500
+[2026-05-18T18:54:22Z] [b0713-jiw] unrecorded raw CoA PDFs (after dedup): 24
+[2026-05-18T18:54:22Z] [b0713-jiw] selected 8 candidates this tick (MAX_BATCH=8)
+[2026-05-18T18:54:22Z] [b0713-jiw] pre-state: records=1961 records_fts=1961 judgments_meta=256
+[2026-05-18T18:54:22Z] [b0713-jiw] -- processing APP-304-2022-Setrec-Steel-and-Wood-Processing-Limited-vs-Zambia-National-Commercial-Bank-P cn=APP/304/2022
+[2026-05-18T18:54:22Z] [b0713-jiw]   deferred: body-too-short:32
+[2026-05-18T18:54:22Z] [b0713-jiw] -- processing App-309-2023-Emergency-Response-Zambia-Limited-2-Others-Vs-Betternow-Finance-Company-Limit cn=APP/309/2023
+[2026-05-18T18:54:22Z] [b0713-jiw]   deferred: body-too-short:19
+[2026-05-18T18:54:22Z] [b0713-jiw] -- processing app-203-2023-caz-08-242-2023-deton-engineering-pvt-vs-konkola-copper-mines-plc-coram-justi cn=APP/203/2023
+[2026-05-18T18:54:22Z] [b0713-jiw]   OK -> judgment-zm-2023-coa-203-caz-08-242-2023-deton-engineering-pvt-v-konkola-copper-mines-plc outcome=other judges=1 body=17357
+[2026-05-18T18:54:22Z] [b0713-jiw] -- processing application-108-2024-pilatus-engineering-company-limitedjoseph-huiler-vs-alfred-kalwani-co cn=APPLN/108/2024
+[2026-05-18T18:54:23Z] [b0713-jiw]   OK -> judgment-zm-2024-coa-108-pilatus-engineering-company-limitedjoseph-huiler-v-alfred-kalwani outcome=remitted judges=2 body=33021
+[2026-05-18T18:54:23Z] [b0713-jiw] -- processing App-165-2024-Savenda-Management-Services-Limited-vs-Lumwana-Mining-Company-Limited-31-Dec- cn=APP/165/2024
+[2026-05-18T18:54:23Z] [b0713-jiw]   deferred: body-too-short:19
+[2026-05-18T18:54:23Z] [b0713-jiw] -- processing App-24-2024-Peter-Mutale-vs-Davies-Mukumbwa-24-Jan-2025-Coram-Siavwapa-JP-Chishimba-Patel- cn=APP/024/2024
+[2026-05-18T18:54:23Z] [b0713-jiw]   deferred: body-too-short:20
+[2026-05-18T18:54:23Z] [b0713-jiw] -- processing app-202-2023-maambo-simukuni-vs-tenyiwe-sibindi-coram-justice-siavwapa-jp-chishimba-patel- cn=APP/202/2023
+[2026-05-18T18:54:23Z] [b0713-jiw]   deferred: duplicate-fingerprint
+[2026-05-18T18:54:23Z] [b0713-jiw] -- processing App-123-2023-Patson-Kabungo-Sichoni-vs-The-People-Coram-Mchenga-DJP-Muzenga-Chembe-JJA.pdf cn=APP/123/2023
+[2026-05-18T18:54:23Z] [b0713-jiw]   deferred: body-too-short:15
+[2026-05-18T18:54:23Z] [b0713-jiw] parsed: 2 candidate-inserts / 6 deferred
+[2026-05-18T18:54:23Z] [b0713-jiw] post-state (uncommitted): records=1963 records_fts=1963 judgments_meta=258
+[2026-05-18T18:54:23Z] [b0713-jiw] integrity checks: pass=True errors=0
+[2026-05-18T18:54:23Z] [b0713-jiw] LOCAL_DB commit OK
+[2026-05-18T18:54:25Z] [b0713-jiw] copied LOCAL_DB back to /sessions/funny-sharp-lamport/mnt/corpus/corpus.sqlite
+[2026-05-18T18:54:25Z] [b0713-jiw] REMOTE_DB verify: records=1963 records_fts=1963
+[2026-05-18T18:54:25Z] [b0713-jiw]   wrote records/judgments/coa/2023/judgment-zm-2023-coa-203-caz-08-242-2023-deton-engineering-pvt-v-konkola-copper-mines-plc.json
+[2026-05-18T18:54:25Z] [b0713-jiw]   wrote records/judgments/coa/2024/judgment-zm-2024-coa-108-pilatus-engineering-company-limitedjoseph-huiler-v-alfred-kalwani.json
+[2026-05-18T18:54:25Z] [b0713-jiw] judges_registry.yaml updated; total judges=58
+[2026-05-18T18:54:25Z] [b0713-jiw] wrote report reports/batch-b0713-jiw.md
