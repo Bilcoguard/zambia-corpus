@@ -12000,3 +12000,22 @@ See `reports/batch-0707-reverify.json` for the full per-record breakdown and `re
 - `judiciary-scz-sweep`: page-2 — unchanged
 - `judiciary-zmcc-sweep`: page-1 probed b0693 — unchanged
 - `judiciary-hc-sweep`: page-1 swept this tick (cands=14, inserted=0, deferred=14) — advance to page 2 next tick
+
+## Repair batch r-20260518T162058Z (2026-05-18T16:21:27Z)
+
+- `si-zm-2025-016-civil-aviation-designated-provincial-and-strategic-airports-regulations-2025` — no-body → exception: OperationalError: table records_fts has no column named case_name
+  source: https://zambialii.org/akn/zm/act/si/2025/16
+- `si-zm-2025-065-urban-and-regional-planning-administration-of-planning-appeals-tribunal-regulations-2025` — no-body → exception: OperationalError: table records_fts has no column named case_name
+  source: https://zambialii.org/akn/zm/act/si/2025/65
+- `si-zm-2024-006-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024` — no-body → exception: OperationalError: table records_fts has no column named case_name
+  source: https://zambialii.org/akn/zm/act/si/2024/6
+- `si-zm-2024-029-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024` — no-body → exception: OperationalError: table records_fts has no column named case_name
+  source: https://zambialii.org/akn/zm/act/si/2024/29
+- `si-zm-2024-002-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024` — no-body → exception: OperationalError: table records_fts has no column named case_name
+  source: https://zambialii.org/akn/zm/act/si/2024/2
+- `si-zm-2024-015-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024` — no-body → exception: OperationalError: table records_fts has no column named case_name
+  source: https://zambialii.org/akn/zm/act/si/2024/15
+- `si-zm-2023-050-employment-code-shop-workers-minimum-wages-and-conditions-of-employment-order-2023` — no-body → exception: OperationalError: table records_fts has no column named case_name
+  source: https://zambialii.org/akn/zm/act/si/2023/50
+- `si-zm-2026-008-fisheries-management-area-declaration-order-2025` — no-body → exception: OperationalError: table records_fts has no column named case_name
+  source: https://zambialii.org/akn/zm/act/si/2026/8

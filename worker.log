@@ -9493,3 +9493,117 @@ remote: error: See https://gh.io/lfs for more information.
 remote: error: File corpus.sqlite is 113.39 MB; this exceeds GitHub's file size limit of 100.00 MB        
 remote: error: GH001: Large fil
 [2026-05-18T15:56:56Z] [b0707-jiw] TICK_END inserted=0 deferred=14 fetches=26 elapsed_s=510 records=1961 records_fts=1961
+[2026-05-18T15:59:01Z] [b0707-jiw] GIT_PUSH_OK 59e1456..4b1f45f main -> main (without corpus.sqlite — GH 100MB limit)
+[2026-05-18T16:04:22Z] [b0708-phase8] TICK_END phase=phase_8_nightly_reverify batch=0708 pool=1964 sample=8 match=3 drift=5 fetch_error=0 fetches=8 elapsed_s=38 verdict=COMMIT-normal-path
+[2026-05-18T16:15:59Z] [repair-r-20260518T161559Z] TICK_START workspace=/sessions/zealous-confident-pascal/mnt/corpus
+[2026-05-18T16:16:01Z] [repair-r-20260518T161559Z] GIT_PULL rc=128
+[2026-05-18T16:16:01Z] [repair-r-20260518T161559Z] GIT_PULL_STDERR fatal: update_ref failed for ref 'ORIG_HEAD': cannot lock ref 'ORIG_HEAD': Unable to create '/sessions/zealous-confident-pascal/mnt/corpus/.git/ORIG_HEAD.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[2026-05-18T16:20:58Z] [repair-r-20260518T162058Z] TICK_START workspace=/sessions/zealous-confident-pascal/mnt/corpus
+[2026-05-18T16:20:59Z] [repair-r-20260518T162058Z] GIT_FETCH rc=0
+[2026-05-18T16:20:59Z] [repair-r-20260518T162058Z] GIT_HEADS HEAD=4b1f45ffb418 origin/main=4b1f45ffb418
+[2026-05-18T16:20:59Z] [repair-r-20260518T162058Z] TARGETS_FOUND total=9
+[2026-05-18T16:20:59Z] [repair-r-20260518T162058Z]   TARGET id=si-zm-2025-016-civil-aviation-designated-provincial-and-strategic-airports-regulations-2025 reason=no-body
+[2026-05-18T16:20:59Z] [repair-r-20260518T162058Z]   TARGET id=si-zm-2025-065-urban-and-regional-planning-administration-of-planning-appeals-tribunal-regulations-2025 reason=no-body
+[2026-05-18T16:20:59Z] [repair-r-20260518T162058Z]   TARGET id=si-zm-2024-006-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 reason=no-body
+[2026-05-18T16:20:59Z] [repair-r-20260518T162058Z]   TARGET id=si-zm-2024-029-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 reason=no-body
+[2026-05-18T16:20:59Z] [repair-r-20260518T162058Z]   TARGET id=si-zm-2024-002-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 reason=no-body
+[2026-05-18T16:20:59Z] [repair-r-20260518T162058Z]   TARGET id=si-zm-2024-015-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 reason=no-body
+[2026-05-18T16:20:59Z] [repair-r-20260518T162058Z]   TARGET id=si-zm-2023-050-employment-code-shop-workers-minimum-wages-and-conditions-of-employment-order-2023 reason=no-body
+[2026-05-18T16:20:59Z] [repair-r-20260518T162058Z]   TARGET id=si-zm-2026-008-fisheries-management-area-declaration-order-2025 reason=no-body
+[2026-05-18T16:20:59Z] [repair-r-20260518T162058Z]   TARGET id=si-zm-2026-002-electricity-wayleave-and-clearances-regulations-2026 reason=no-body
+[2026-05-18T16:20:59Z] [repair-r-20260518T162058Z] REPAIR (1/8) id=si-zm-2025-016-civil-aviation-designated-provincial-and-strategic-airports-regulations-2025 reason=no-body
+[2026-05-18T16:21:02Z] [repair-r-20260518T162058Z] PDF_OK id=si-zm-2025-016-civil-aviation-designated-provincial-and-strategic-airports-regulations-2025 bytes=168041
+[2026-05-18T16:21:02Z] [repair-r-20260518T162058Z]   -> status=fail msg=exception: OperationalError: table records_fts has no column named case_name body_len=0
+[2026-05-18T16:21:02Z] [repair-r-20260518T162058Z] REPAIR (2/8) id=si-zm-2025-065-urban-and-regional-planning-administration-of-planning-appeals-tribunal-regulations-2025 reason=no-body
+[2026-05-18T16:21:06Z] [repair-r-20260518T162058Z] PDF_OK id=si-zm-2025-065-urban-and-regional-planning-administration-of-planning-appeals-tribunal-regulations-2025 bytes=4006209
+[2026-05-18T16:21:07Z] [repair-r-20260518T162058Z]   -> status=fail msg=exception: OperationalError: table records_fts has no column named case_name body_len=0
+[2026-05-18T16:21:07Z] [repair-r-20260518T162058Z] REPAIR (3/8) id=si-zm-2024-006-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 reason=no-body
+[2026-05-18T16:21:11Z] [repair-r-20260518T162058Z] PDF_OK id=si-zm-2024-006-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 bytes=291797
+[2026-05-18T16:21:11Z] [repair-r-20260518T162058Z]   -> status=fail msg=exception: OperationalError: table records_fts has no column named case_name body_len=0
+[2026-05-18T16:21:11Z] [repair-r-20260518T162058Z] REPAIR (4/8) id=si-zm-2024-029-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 reason=no-body
+[2026-05-18T16:21:14Z] [repair-r-20260518T162058Z] PDF_OK id=si-zm-2024-029-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 bytes=298075
+[2026-05-18T16:21:14Z] [repair-r-20260518T162058Z]   -> status=fail msg=exception: OperationalError: table records_fts has no column named case_name body_len=0
+[2026-05-18T16:21:14Z] [repair-r-20260518T162058Z] REPAIR (5/8) id=si-zm-2024-002-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 reason=no-body
+[2026-05-18T16:21:17Z] [repair-r-20260518T162058Z] PDF_OK id=si-zm-2024-002-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 bytes=291484
+[2026-05-18T16:21:17Z] [repair-r-20260518T162058Z]   -> status=fail msg=exception: OperationalError: table records_fts has no column named case_name body_len=0
+[2026-05-18T16:21:17Z] [repair-r-20260518T162058Z] REPAIR (6/8) id=si-zm-2024-015-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 reason=no-body
+[2026-05-18T16:21:20Z] [repair-r-20260518T162058Z] PDF_OK id=si-zm-2024-015-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 bytes=295462
+[2026-05-18T16:21:20Z] [repair-r-20260518T162058Z]   -> status=fail msg=exception: OperationalError: table records_fts has no column named case_name body_len=0
+[2026-05-18T16:21:20Z] [repair-r-20260518T162058Z] REPAIR (7/8) id=si-zm-2023-050-employment-code-shop-workers-minimum-wages-and-conditions-of-employment-order-2023 reason=no-body
+[2026-05-18T16:21:23Z] [repair-r-20260518T162058Z] PDF_OK id=si-zm-2023-050-employment-code-shop-workers-minimum-wages-and-conditions-of-employment-order-2023 bytes=1931464
+[2026-05-18T16:21:23Z] [repair-r-20260518T162058Z]   -> status=fail msg=exception: OperationalError: table records_fts has no column named case_name body_len=0
+[2026-05-18T16:21:23Z] [repair-r-20260518T162058Z] REPAIR (8/8) id=si-zm-2026-008-fisheries-management-area-declaration-order-2025 reason=no-body
+[2026-05-18T16:21:26Z] [repair-r-20260518T162058Z] PDF_OK id=si-zm-2026-008-fisheries-management-area-declaration-order-2025 bytes=488317
+[2026-05-18T16:21:26Z] [repair-r-20260518T162058Z]   -> status=fail msg=exception: OperationalError: table records_fts has no column named case_name body_len=0
+[2026-05-18T16:21:27Z] [repair-r-20260518T162058Z] INTEGRITY records=1961 records_fts=1961 qc=ok
+[2026-05-18T16:21:27Z] [repair-r-20260518T162058Z] WROTE_REPORT /sessions/zealous-confident-pascal/mnt/corpus/reports/repair-batch-r-20260518T162058Z.md
+[2026-05-18T16:21:27Z] [repair-r-20260518T162058Z] RCLONE not_available — B2 sync deferred to host
+[2026-05-18T16:21:27Z] [repair-r-20260518T162058Z] GIT_READ_TREE rc=0
+[2026-05-18T16:21:30Z] [repair-r-20260518T162058Z] WRITE_TREE tree=16fe4983d685
+[2026-05-18T16:21:30Z] [repair-r-20260518T162058Z] COMMIT_TREE commit=231f7389b4d7 parent=4b1f45ffb418
+[2026-05-18T16:21:30Z] [repair-r-20260518T162058Z] REF_WRITE refs/heads/main -> 231f7389b4d7
+[2026-05-18T16:22:14Z] [repair-r-20260518T162058Z] GIT_PUSH attempt=1 rc=1
+[2026-05-18T16:22:14Z] [repair-r-20260518T162058Z] GIT_PUSH_STDERR remote: error: Trace: dd020b9cf2aea0aac29419e444aa49b4e38e13d2e49f9dc2581b7c56dea3441c        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File corpus.sqlite is 113.39 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To htt
+[2026-05-18T16:22:14Z] [repair-r-20260518T162058Z] PUSH rejected for file-size; rebuilding commit without corpus.sqlite
+[2026-05-18T16:22:14Z] [repair-r-20260518T162058Z] COMMIT_TREE_RETRY commit=01d1b44b61f3
+[2026-05-18T16:23:00Z] [repair-r-20260518T162058Z] GIT_PUSH attempt=2 rc=1
+[2026-05-18T16:23:00Z] [repair-r-20260518T162058Z] GIT_PUSH_RETRY_STDERR remote: error: Trace: a4ef0cf363d8cfe8b0a50614f92d278f472ccadce2a5ace6d2df73e981ae7b8e        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File corpus.sqlite is 113.39 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To htt
+[2026-05-18T16:23:00Z] [repair-r-20260518T162058Z] TICK_END pushed=False repaired=0 failed=8 elapsed=122.8s
+[2026-05-18T16:23:00Z] [repair-r-20260518T162058Z] PUSH_FINAL_ERR remote: error: Trace: a4ef0cf363d8cfe8b0a50614f92d278f472ccadce2a5ace6d2df73e981ae7b8e        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File corpus.sqlite is 113.39 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large fil
+[2026-05-18T16:25:40Z] [repair-r-20260518T162540Z] TICK_START workspace=/sessions/zealous-confident-pascal/mnt/corpus
+[2026-05-18T16:25:41Z] [repair-r-20260518T162540Z] GIT_FETCH rc=0
+[2026-05-18T16:25:41Z] [repair-r-20260518T162540Z] GIT_HEADS HEAD=4b1f45ffb418 origin/main=4b1f45ffb418
+[2026-05-18T16:25:41Z] [repair-r-20260518T162540Z] TARGETS_FOUND total=9
+[2026-05-18T16:25:41Z] [repair-r-20260518T162540Z]   TARGET id=si-zm-2025-016-civil-aviation-designated-provincial-and-strategic-airports-regulations-2025 reason=no-body
+[2026-05-18T16:25:41Z] [repair-r-20260518T162540Z]   TARGET id=si-zm-2025-065-urban-and-regional-planning-administration-of-planning-appeals-tribunal-regulations-2025 reason=no-body
+[2026-05-18T16:25:41Z] [repair-r-20260518T162540Z]   TARGET id=si-zm-2024-006-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 reason=no-body
+[2026-05-18T16:25:41Z] [repair-r-20260518T162540Z]   TARGET id=si-zm-2024-029-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 reason=no-body
+[2026-05-18T16:25:41Z] [repair-r-20260518T162540Z]   TARGET id=si-zm-2024-002-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 reason=no-body
+[2026-05-18T16:25:41Z] [repair-r-20260518T162540Z]   TARGET id=si-zm-2024-015-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 reason=no-body
+[2026-05-18T16:25:41Z] [repair-r-20260518T162540Z]   TARGET id=si-zm-2023-050-employment-code-shop-workers-minimum-wages-and-conditions-of-employment-order-2023 reason=no-body
+[2026-05-18T16:25:41Z] [repair-r-20260518T162540Z]   TARGET id=si-zm-2026-008-fisheries-management-area-declaration-order-2025 reason=no-body
+[2026-05-18T16:25:41Z] [repair-r-20260518T162540Z]   TARGET id=si-zm-2026-002-electricity-wayleave-and-clearances-regulations-2026 reason=no-body
+[2026-05-18T16:25:41Z] [repair-r-20260518T162540Z] REPAIR (1/8) id=si-zm-2025-016-civil-aviation-designated-provincial-and-strategic-airports-regulations-2025 reason=no-body
+[2026-05-18T16:25:44Z] [repair-r-20260518T162540Z] PDF_OK id=si-zm-2025-016-civil-aviation-designated-provincial-and-strategic-airports-regulations-2025 bytes=168041
+[2026-05-18T16:25:44Z] [repair-r-20260518T162540Z]   -> status=ok msg=repaired body_len=1518
+[2026-05-18T16:25:44Z] [repair-r-20260518T162540Z] REPAIR (2/8) id=si-zm-2025-065-urban-and-regional-planning-administration-of-planning-appeals-tribunal-regulations-2025 reason=no-body
+[2026-05-18T16:25:47Z] [repair-r-20260518T162540Z] PDF_OK id=si-zm-2025-065-urban-and-regional-planning-administration-of-planning-appeals-tribunal-regulations-2025 bytes=4006209
+[2026-05-18T16:25:48Z] [repair-r-20260518T162540Z]   -> status=ok msg=repaired body_len=51493
+[2026-05-18T16:25:48Z] [repair-r-20260518T162540Z] REPAIR (3/8) id=si-zm-2024-006-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 reason=no-body
+[2026-05-18T16:25:50Z] [repair-r-20260518T162540Z] PDF_OK id=si-zm-2024-006-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 bytes=291797
+[2026-05-18T16:25:51Z] [repair-r-20260518T162540Z]   -> status=ok msg=repaired body_len=1778
+[2026-05-18T16:25:51Z] [repair-r-20260518T162540Z] REPAIR (4/8) id=si-zm-2024-029-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 reason=no-body
+[2026-05-18T16:25:53Z] [repair-r-20260518T162540Z] PDF_OK id=si-zm-2024-029-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 bytes=298075
+[2026-05-18T16:25:53Z] [repair-r-20260518T162540Z]   -> status=ok msg=repaired body_len=2016
+[2026-05-18T16:25:53Z] [repair-r-20260518T162540Z] REPAIR (5/8) id=si-zm-2024-002-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 reason=no-body
+[2026-05-18T16:25:56Z] [repair-r-20260518T162540Z] PDF_OK id=si-zm-2024-002-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 bytes=291484
+[2026-05-18T16:25:56Z] [repair-r-20260518T162540Z]   -> status=ok msg=repaired body_len=1797
+[2026-05-18T16:25:56Z] [repair-r-20260518T162540Z] REPAIR (6/8) id=si-zm-2024-015-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 reason=no-body
+[2026-05-18T16:25:59Z] [repair-r-20260518T162540Z] PDF_OK id=si-zm-2024-015-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024 bytes=295462
+[2026-05-18T16:25:59Z] [repair-r-20260518T162540Z]   -> status=ok msg=repaired body_len=1855
+[2026-05-18T16:25:59Z] [repair-r-20260518T162540Z] REPAIR (7/8) id=si-zm-2023-050-employment-code-shop-workers-minimum-wages-and-conditions-of-employment-order-2023 reason=no-body
+[2026-05-18T16:26:02Z] [repair-r-20260518T162540Z] PDF_OK id=si-zm-2023-050-employment-code-shop-workers-minimum-wages-and-conditions-of-employment-order-2023 bytes=1931464
+[2026-05-18T16:26:02Z] [repair-r-20260518T162540Z]   -> status=ok msg=repaired body_len=14832
+[2026-05-18T16:26:02Z] [repair-r-20260518T162540Z] REPAIR (8/8) id=si-zm-2026-008-fisheries-management-area-declaration-order-2025 reason=no-body
+[2026-05-18T16:26:05Z] [repair-r-20260518T162540Z] PDF_OK id=si-zm-2026-008-fisheries-management-area-declaration-order-2025 bytes=488317
+[2026-05-18T16:26:05Z] [repair-r-20260518T162540Z]   -> status=ok msg=repaired body_len=10309
+[2026-05-18T16:26:06Z] [repair-r-20260518T162540Z] INTEGRITY records=1961 records_fts=1961 qc=ok
+[2026-05-18T16:26:06Z] [repair-r-20260518T162540Z] WROTE_REPORT /sessions/zealous-confident-pascal/mnt/corpus/reports/repair-batch-r-20260518T162540Z.md
+[2026-05-18T16:26:06Z] [repair-r-20260518T162540Z] RCLONE not_available — B2 sync deferred to host

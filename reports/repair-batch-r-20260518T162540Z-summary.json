@@ -1,0 +1,86 @@
+{
+  "batch_id": "r-20260518T162540Z",
+  "elapsed_s": 25.69706702232361,
+  "repaired": 8,
+  "failed": 0,
+  "skipped": 0,
+  "integrity": {
+    "records": 1961,
+    "records_fts": 1961,
+    "quick_check": "ok"
+  },
+  "results": [
+    {
+      "id": "si-zm-2025-016-civil-aviation-designated-provincial-and-strategic-airports-regulations-2025",
+      "url": "https://zambialii.org/akn/zm/act/si/2025/16",
+      "type": "si",
+      "reason": "no-body",
+      "status": "ok",
+      "message": "repaired",
+      "body_len": 1518
+    },
+    {
+      "id": "si-zm-2025-065-urban-and-regional-planning-administration-of-planning-appeals-tribunal-regulations-2025",
+      "url": "https://zambialii.org/akn/zm/act/si/2025/65",
+      "type": "si",
+      "reason": "no-body",
+      "status": "ok",
+      "message": "repaired",
+      "body_len": 51493
+    },
+    {
+      "id": "si-zm-2024-006-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024",
+      "url": "https://zambialii.org/akn/zm/act/si/2024/6",
+      "type": "si",
+      "reason": "no-body",
+      "status": "ok",
+      "message": "repaired",
+      "body_len": 1778
+    },
+    {
+      "id": "si-zm-2024-029-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024",
+      "url": "https://zambialii.org/akn/zm/act/si/2024/29",
+      "type": "si",
+      "reason": "no-body",
+      "status": "ok",
+      "message": "repaired",
+      "body_len": 2016
+    },
+    {
+      "id": "si-zm-2024-002-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024",
+      "url": "https://zambialii.org/akn/zm/act/si/2024/2",
+      "type": "si",
+      "reason": "no-body",
+      "status": "ok",
+      "message": "repaired",
+      "body_len": 1797
+    },
+    {
+      "id": "si-zm-2024-015-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2024",
+      "url": "https://zambialii.org/akn/zm/act/si/2024/15",
+      "type": "si",
+      "reason": "no-body",
+      "status": "ok",
+      "message": "repaired",
+      "body_len": 1855
+    },
+    {
+      "id": "si-zm-2023-050-employment-code-shop-workers-minimum-wages-and-conditions-of-employment-order-2023",
+      "url": "https://zambialii.org/akn/zm/act/si/2023/50",
+      "type": "si",
+      "reason": "no-body",
+      "status": "ok",
+      "message": "repaired",
+      "body_len": 14832
+    },
+    {
+      "id": "si-zm-2026-008-fisheries-management-area-declaration-order-2025",
+      "url": "https://zambialii.org/akn/zm/act/si/2026/8",
+      "type": "si",
+      "reason": "no-body",
+      "status": "ok",
+      "message": "repaired",
+      "body_len": 10309
+    }
+  ]
+}

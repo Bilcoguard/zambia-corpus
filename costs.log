@@ -6645,3 +6645,12 @@ b0704	2026-05-18T15:41:13Z	fetch_pdf_urllib	bytes=103114	sec=0.87
 2026-05-18T15:48:26Z	b0707-jiw	NETWORK_FETCHES	count=26	judiciaryzambia.com=26	robots=respected
 2026-05-18T15:48:26Z	b0707-jiw	BANDWIDTH	total_bytes=155334596	source=judiciaryzambia.com
 2026-05-18T15:48:26Z	b0707-jiw	INTEGRITY	records=1961	records_fts=1961	pass=True
+2026-05-18T15:59:01Z	b0707-jiw	NOTE	pushed=4b1f45f-without-corpus.sqlite	reason=GH-100MB-limit-corpus.sqlite-is-118MB	defer-to-repair-worker-rclone-sync
+2026-05-18T16:04:22Z	b0708-phase8	fetches=8	retry_fetches=0	records_written=0	records_deferred=0	worker=phase8-nightly-reverify	cumulative_today=~106/2000	tokens_used=0(deterministic-pipeline-no-LLM)	llm-tokens=0/1000000	sample_rate=0.01	pool_size=1964	sample_size=8
+2026-05-18T16:04:22Z	b0708-phase8	NETWORK_FETCHES	count=8	hosts=zambialii.org:6,www.zambialii.org:1,www.parliament.gov.zm:1	http=200x8
+2026-05-18T16:04:22Z	b0708-phase8	BANDWIDTH	total_bytes=6978101	avg_kb=851.8	largest=si-zm-2010-035-information-and-communication-technologies-electronic-communications-licensing-r(4150178B,zambialii-source-pdf)
+2026-05-18T16:04:22Z	b0708-phase8	WALL_CLOCK	started=2026-05-18T16:03:44Z	completed=2026-05-18T16:04:22Z	elapsed=38s	budget=20min	headroom=~19m22s
+2026-05-18T16:04:22Z	b0708-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-18T16:04:22Z	b0708-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1961	records_fts=1961	dup_ids=0	tick-verdict=COMMIT-normal-path
+[2026-05-18T16:21:27Z] [repair-r-20260518T162058Z] elapsed_s=28.8 records_attempted=8 repaired=0
+[2026-05-18T16:26:06Z] [repair-r-20260518T162540Z] elapsed_s=25.7 records_attempted=8 repaired=8
