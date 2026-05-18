@@ -9740,3 +9740,11 @@ sqlite3.OperationalError: disk I/O error
 [2026-05-18T16:30:41Z] [b0709-jiw] [INFO]   - deferred:quality-gate-no-text: https://judiciaryzambia.com/2018-hp-1780-mwala-martin-mukwaibe-3-other-vs-zesco-
 [2026-05-18T16:30:41Z] [b0709-jiw] [INFO] post-tick: records=1961 records_fts=1961 judgments_meta=256
 [2026-05-18T16:30:41Z] [b0709-jiw] TICK_END inserted=0 deferred=59 fetches=112 elapsed_s=1011 records=1961 records_fts=1961
+[2026-05-18T17:14:47Z] [br-20260518T171447Z] [INFO] === Repair tick start batch=r-20260518T171447Z ===
+[2026-05-18T17:14:49Z] [br-20260518T171447Z] [INFO] git pull ok: Already up to date.
+[2026-05-18T17:14:49Z] [br-20260518T171447Z] [INFO] pre-tick: records=1961 records_fts=1961
+[2026-05-18T17:14:49Z] [br-20260518T171447Z] [INFO] identified 1 repair candidates
+[2026-05-18T17:14:49Z] [br-20260518T171447Z] [INFO] batch size = 1 (cap 8)
+[2026-05-18T17:14:49Z] [br-20260518T171447Z] [INFO] REPAIR start id=si-zm-2026-002-electricity-wayleave-and-clearances-regulations-2026 reason=no-body url=https://zambialii.org/akn/zm/act/si/2026/2
+[2026-05-18T17:14:57Z] [br-20260518T171447Z] [INFO] post-tick: records=1961 records_fts=1961 quick_check=ok
+[2026-05-18T17:14:57Z] [br-20260518T171447Z] [INFO] B2 sync deferred to host (rclone missing)

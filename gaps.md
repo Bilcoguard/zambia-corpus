@@ -12090,3 +12090,6 @@ See `reports/batch-0707-reverify.json` for the full per-record breakdown and `re
 - judiciary-scz-sweep: pages 2-3 swept (inserted=0) — advance to page 4 next tick
 - judiciary-zmcc-sweep: page-1 swept (inserted=0) — advance to page 2 next tick
 - judiciary-hc-sweep: page-2 swept (inserted=0) — advance to page 3 next tick
+
+## Repair gaps batch r-20260518T171447Z (2026-05-18T17:14:57Z)
+- `si-zm-2026-002-electricity-wayleave-and-clearances-regulations-2026` — reason `no-body` — outcome: exception:sqlite3.OperationalError: table records_fts has no column named case_name

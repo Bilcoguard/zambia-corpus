@@ -6775,3 +6775,4 @@ b0709-jiw	2026-05-18T16:30:41Z	fetch_pdf_urllib	bytes=10417593	sec=27.89
 2026-05-18T16:30:41Z	b0709-jiw	fetches=112	retry_fetches=3	records_written=0	records_deferred=59	worker=judgment-ingestion-worker	cumulative_today=~176/500	cohort=judiciary-multi-source-sweep-scz-zmcc-hc
 2026-05-18T16:30:41Z	b0709-jiw	BANDWIDTH	total_bytes=550203933	source=judiciaryzambia.com
 2026-05-18T16:30:41Z	b0709-jiw	INTEGRITY	records=1961	records_fts=1961	pass=True
+[2026-05-18T17:14:57Z] [br-20260518T171447Z] repair attempted=1 repaired=0 skipped=1 elapsed_s=9
