@@ -1,0 +1,48 @@
+{
+  "id": "judgment-zm-2026-coa-047-tulambo-kumwenda-v-solwezi-dairy-farm-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Tulambo Kumwenda and Others v Solwezi Dairy Farm Limited and Others (APP/047/2025) [2026] ZMCA (2026-03-25)",
+  "citation": "[2026] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Tulambo Kumwenda and Others v Solwezi Dairy Farm Limited and Others",
+  "case_number": "APP/047/2025",
+  "date_decided": "2026-03-25",
+  "judges": [
+    {
+      "name": "Chashi",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Ngulube",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Banda-Bobo",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "property",
+    "land",
+    "civil"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "ONCLUSION\n10.1 The sole ground of appeal having failed, for lack of merit, this\nappeal is accordingly dismissed with costs to the 1st respondent,\nto be taxed in default of agreeme\nASHI\nCOU T OF APPEAL JUDGE\nP. C. M. NGULUBE M. BAND",
+  "outcome_detection_method": "tier=operative pattern=\\bappeal\\s+is\\s+(?:hereby\\s+)?accordingly\\s+dismis",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "98b5f672fe4dc7d0de5a605b139a633de6797c45a440b441a3a01fc6f2367b4d",
+  "source_url": "https://judiciaryzambia.com/app-47-2025-tulambo-kumwenda-justice-chashi-ngulube-banda-bobo-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2026/03/App-47-2025-Tulambo-Kumwenda-Justice-Chashi-Ngulube-Banda-Bobo-JJA.pdf",
+  "source_hash": "sha256:98b5f672fe4dc7d0de5a605b139a633de6797c45a440b441a3a01fc6f2367b4d",
+  "fetched_at": "2026-05-18T14:09:42Z",
+  "parser_version": "0.3.6-jiw-b0703-hand-curated",
+  "raw_path": "raw/judiciary-zm/coa/app-47-2025-tulambo-kumwenda-justice-chashi-ngulube-banda-bobo-jja.pdf",
+  "body_length": 17922,
+  "page_count": 17,
+  "judges_count": 3
+}

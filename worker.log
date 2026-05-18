@@ -9070,3 +9070,9 @@ remote: error: File corpus.sqlite is 1
 [2026-05-18T14:09:47Z] [b0703-jiw] INTEGRITY records=1957 records_fts=1957 match=True dup_ids=0 quick_check=ok
 [2026-05-18T14:09:47Z] [b0703-jiw] INTEGRITY CHECK1-3 PASS
 [2026-05-18T14:09:47Z] [b0703-jiw] INTEGRITY CHECK6 PASS
+[2026-05-18T14:12:16Z] b0703 GIT_PUSH success: bb09c08..525d48c (main)
+[2026-05-18T14:12:00Z] [b0704-phase8] COMMIT_DEFERRED reason=upstream-0b59638-contains-118MB-corpus.sqlite-blob-rejected-by-github-LFS at-2026-05-18T14:09:19Z-by-sweet-sleepy-wozniak-session; HEAD=bca06bc local-only-ahead-of-origin/main=bb09c08-by-2-commits
+[2026-05-18T14:12:00Z] [b0704-phase8] COMMIT_DEFERRED_DETAIL Phase 8 work products are ON DISK and integrity-checked (script, JSON, MD report, log appends); ALL 9 INTEGRITY CHECKS PASS; not stacking commit on top of unpushable HEAD per BRIEF non-negotiable #7 + fail-loud rule
+[2026-05-18T14:12:00Z] [b0704-phase8] DIAGNOSTIC see error-reports/2026-05-18T141200Z-b0704-phase8-commit-deferred-upstream-118mb-blob.md for full remediation options (Option A: git filter-repo strip blob; Option B: reset + re-apply; Option C: defer)
+[2026-05-18T14:12:00Z] [b0704-phase8] TICK_END verdict=COMMIT-DEFERRED-PENDING-HUMAN-RECONCILIATION work-preserved=yes records_mutated=0 corpus_sqlite_touched=no approvals_yaml_touched=no
+[2026-05-18T14:14:34Z] [b0703-jiw] RECOMMIT origin/main moved forward; rebuilding commit on top of 525d48c to exclude corpus.sqlite (>100MB GH limit)
