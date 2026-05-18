@@ -9312,3 +9312,6 @@ fatal: cannot lock ref 'HEAD': Unable to create
 [2026-05-18T15:34:55Z] [b0707-phase8] POST_INTEGRITY quick_check=ok records=1961 records_fts=1961 dup_ids=0 records_dir_unchanged=true approvals_yaml_unchanged=true
 [2026-05-18T15:34:55Z] [b0707-phase8] INTEGRITY all-checks=PASS verdict=COMMIT-normal-path
 [2026-05-18T15:34:55Z] [b0707-phase8] RCLONE not_available — B2 sync deferred to host
+[2026-05-18T15:35:30Z] [b0707-phase8] GIT_COMMIT sha=01f31be msg='Phase 8 batch 0707: nightly re-verify 8 records (3 match, 5 drift, 0 fetch_error)'
+[2026-05-18T15:35:31Z] [b0707-phase8] GIT_PUSH_OK
+[2026-05-18T15:35:31Z] [b0707-phase8] TICK_END phase=phase_8_nightly_reverify pool=1964 sample=8 match=3 drift=5 fetch_error=0 elapsed_s=38
