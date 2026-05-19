@@ -12523,3 +12523,45 @@ None this tick. Carry-forward audit-trail items `judgment-zm-2024-coa-024-kingfr
 - judiciary-scz-sweep: page-4 next — unchanged this tick
 - judiciary-zmcc-sweep: page-2 next — unchanged this tick
 - judiciary-hc-sweep: page-3 next — unchanged this tick
+
+## b0732-phase8 — Phase 8 nightly re-verification (2026-05-19T16:07Z) — AUDIT-ONLY ENTRY
+
+Tick b0732 sampled 8 of 2022 records (sample_rate 0.01, seed `phase8-reverify-2026-05-19-b0732`). Results: 3 match, 4 drift, 1 fetch_error. 7× HTTP 200, 1× HTTP 404. All 9 integrity checks PASS. No records mutated this tick.
+
+### Drifts (4)
+
+- `act-zm-2006-001-supplementary-appropriation-2004-act` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/2006/1/eng@2006-03-31`); stored=`sha256:672ddf5257a3b72a9224eed24be14f67c10bdcf90c8d5fc78a0aad55f80e4e34` fetched=`364ee27d650e86d804886ffff2f6ed4482147aa22e8b9340085c555c2caf2c61`; bytes=38612; verdict: dynamic-render churn on the English point-in-time HTML rendering, legal content unchanged. (`zambialii_akn_html_dynamic_render_drift` cohort)
+- `act-zm-2020-018-zambia-academy-of-sciences-act-2020` — host `www.parliament.gov.zm`, parliament.gov.zm static-PDF (`The%20Zambia%20Academy%20of%20Science%20Act%20No.%2018%20of%202020pdf.pdf`); stored=`sha256:67a7d56ceb24860f` (16-hex TRUNCATED — pre-existing data-quality artifact) fetched=`67a7d56ceb24860f9df245049320400a1ad58ad9b15d91c73c35f625891778a1`; bytes=51426; verdict: **re-sample of known data-quality issue first observed in earlier ticks (see `gaps.md` §"act-zm-2020-018-zambia-academy-of-sciences-act-2020")** — fetched hash matches the 16-char stored prefix exactly, confirming upstream parliament.gov.zm static-PDF cohort remains byte-stable; the drift is solely the truncated stored hash. Remediation remains out of scope for Phase 8 (read-only); approval-bounded fixup tick still pending.
+- `act-zm-1993-038-securities-act-1993` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1993/38/eng@1996-12-31`); stored=`sha256:ba25373a48b46f707e44b11747f26397d9247a8fa6282095c747bb0ae32c9d05` fetched=`1d77ff4b52e15e3a193762f92e08813a0e082e985762a3ba6e811472f35171ca`; bytes=387205; verdict: dynamic-render churn on the AKN-HTML `eng@1996-12-31` consolidated-snapshot rendering, legal content unchanged. (`zambialii_akn_html_dynamic_render_drift` cohort — `eng@1996-12-31` consolidated-snapshot sub-variant)
+- `act-zm-1967-026-law-reform-miscellaneous-provisions-act-1967` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1967/26/eng@1996-12-31`); stored=`sha256:7ea6fef26662afe333f7f2d474a6904cfba9a13072b6ace6937ad0b7b24117aa` fetched=`811e92184ffe55cbb12edb4df6be69df91f5a4e9a5a5e84e420208f8f6e4b70d`; bytes=91551; verdict: dynamic-render churn, legal content unchanged. **Re-sample (3rd observation) of a record previously logged at b0700-class and again later; fetched bytestream differs from prior fetches confirming non-deterministic server-side rendering across time. (`zambialii_akn_html_dynamic_render_drift` cohort — `eng@1996-12-31` consolidated-snapshot sub-variant)**
+
+### Matches (3) — stable supercohorts
+
+- `si-zm-2021-076-service-commission-zambia-correctional-service-commission-regulations-2021` — host `zambialii.org`, ZambiaLII `source.pdf` sub-variant (`/akn/zm/act/si/2021/76/eng@2021-09-24/source.pdf`); hash unchanged (`600b2221…`) — zambialii source.pdf supercohort match.
+- `si-zm-2009-044-banking-and-financial-services-restriction-on-kwacha-lending-to-non-residents-re` — host `zambialii.org`, ZambiaLII `source.pdf` sub-variant (`/akn/zm/act/si/2009/44/eng@2009-07-17/source.pdf`); hash unchanged (`91fe62c9…`) — zambialii source.pdf supercohort match.
+- `act-zm-2013-002-the-national-health-research` — host `www.parliament.gov.zm`, parliament.gov.zm static-PDF (`Health%20%20Research%20%20Act%202013.pdf`); hash unchanged (`33c48cfb…`) — parliament.gov.zm static-PDF supercohort match.
+
+### Fetch errors (1)
+
+- **NEW AUDIT-TRAIL ITEM** — `judgment-zm-2022-zmsc-53-stella-mumba-chibanda-and-ors-v-the-people` — host `zambialii.org`, non-AKN slug URL (`https://zambialii.org/judgment-zm-2022-zmsc-53-stella-mumba-chibanda-and-ors-v-the-people`) returns HTTP 404; record was ingested today by b0726-jiw (fetched_at 2026-05-19T09:11:54Z) and stored a **malformed source_url** that does not follow the canonical AKN pattern (`/akn/zm/judgment/zmsc/2022/53/...`) used by every other JIW record sampled since b0728. Hypotheses (in order of likelihood): (a) JIW worker URL-construction bug for this single record (canonical AKN URL was unresolvable at ingest time, worker fell back to a slug derived from the record id); (b) ZambiaLII URL alias that worked at ingest time and has since been retired (less likely — slug URLs at root path are not part of the AKN namespace). Recommended next step (operator-triage, no automatic action this tick): rewrite stored `source_url` to canonical `https://zambialii.org/akn/zm/judgment/zmsc/2022/53/eng@<date>` and re-verify hash against current bytes — but this is **out of scope for Phase 8** (read-only). Carry-forward audit-trail items `judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-ltd` (b0717 first-observation 404) and `judgment-zm-2025-zmcc-14` (b0700 canonical-URL-date variant 404) were NOT in this tick's sample; no new observations.
+
+## phase8_reverify_drift
+- batch: 0732
+- detected_at: 2026-05-19T16:07:49Z
+- cohort: zambialii_akn_html_dynamic_render_drift (×3: ×3 eng@-suffixed sub-variant — ×2 eng@1996-12-31 consolidated-snapshot, ×1 eng@2006-03-31) + parliament_gov_zm_acts_pdf_stored_hash_truncated (×1, known carry-forward)
+- pool_size: 2022
+- sample_size: 8
+- match: 3
+- drift: 4
+- fetch_error: 1 (NEW carry-forward audit item: judgment-zm-2022-zmsc-53 stored source_url malformed → 404)
+- records_mutated: 0
+
+## JIW b0732-jiw — judiciary-zm multi-court sweep
+- Date: 2026-05-19T16:12:05Z
+- Cohort: judiciary-zm CoA p10-12 (past scanned-PDF cliff at p9), ZMCC/SCZ/HC fallbacks
+- Inserted: 0 records
+- Deferred this tick: 0
+- judiciary-coa-sweep: page-13 next
+- judiciary-zmcc-sweep: page-3 next
+- judiciary-scz-sweep: page-5 next
+- judiciary-hc-sweep: page-4 next

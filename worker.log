@@ -11037,3 +11037,74 @@ remove the file manually to continue.
 [2026-05-19T15:14:33Z] b0902-repair Condition C (stubs): 0
 [2026-05-19T15:14:33Z] b0902-repair Total dedup targets: 0; MAX_BATCH=8
 [2026-05-19T15:14:33Z] b0902-repair All repair targets fixed — repair worker idle
+[2026-05-19T16:07:49Z] b0732-phase8 === TICK START b0732-phase8 cwd=/sessions/awesome-hopeful-fermi/mnt/corpus ===
+[2026-05-19T16:07:49Z] b0732-phase8 git pull --ff-only rc=0 (already up to date)
+[2026-05-19T16:07:49Z] b0732-phase8 approvals.yaml read OK; lowest approved+incomplete = phase_8_nightly_reverify (sample_rate 0.01)
+[2026-05-19T16:07:49Z] b0732-phase8 budget check: today fetches=16, +8 tick=24/2000 OK
+[2026-05-19T16:07:49Z] b0732-phase8 reverify: pool=2022 sample=8 seed=phase8-reverify-2026-05-19-b0732
+[2026-05-19T16:07:49Z] b0732-phase8 verdicts: match=3 drift=4 fetch_error=1 (HTTP 200×7 + 404×1)
+[2026-05-19T16:07:49Z] b0732-phase8 integrity: 9/9 PASS (records=2023 records_fts=2023 dup_ids=0 no-record-mutation=true)
+[2026-05-19T16:07:49Z] b0732-phase8 audit-only: 0 records mutated; gaps.md and reports/batch-0732*.* written
+[2026-05-19T16:07:49Z] b0732-phase8 B2 sync: deferred-to-host (rclone unavailable in sandbox; Phase 8 mutates no raw artifacts)
+[2026-05-19T16:07:49Z] b0732-phase8 === TICK END b0732-phase8 commit-normal-path ===
+[2026-05-19T16:11:47Z] b0732-jiw === TICK START b0732-jiw cwd=/sessions/festive-nifty-pascal/mnt/corpus ===
+[2026-05-19T16:11:48Z] b0732-jiw git pull ok: Already up to date.
+[2026-05-19T16:11:48Z] b0732-jiw fetches_today=0/500
+[2026-05-19T16:11:48Z] b0732-jiw pre records=2023 fts=2023
+[2026-05-19T16:11:48Z] b0732-jiw SWEEP coa p10: https://judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/page/10/
+[2026-05-19T16:11:51Z] b0732-jiw   0 posts found
+[2026-05-19T16:11:51Z] b0732-jiw SWEEP coa p11: https://judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/page/11/
+[2026-05-19T16:11:54Z] b0732-jiw   0 posts found
+[2026-05-19T16:11:54Z] b0732-jiw SWEEP coa p12: https://judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/page/12/
+[2026-05-19T16:11:57Z] b0732-jiw   0 posts found
+[2026-05-19T16:11:57Z] b0732-jiw SWEEP zmcc p2: https://judiciaryzambia.com/category/resources/decisions/constitutional-court-decisions/page/2/
+[2026-05-19T16:11:59Z] b0732-jiw   0 posts found
+[2026-05-19T16:11:59Z] b0732-jiw SWEEP scz p4: https://judiciaryzambia.com/category/resources/decisions/supreme-court-decisions/page/4/
+[2026-05-19T16:12:02Z] b0732-jiw   0 posts found
+[2026-05-19T16:12:02Z] b0732-jiw SWEEP hc p3: https://judiciaryzambia.com/category/resources/decisions/high-court-decisions/page/3/
+[2026-05-19T16:12:05Z] b0732-jiw   0 posts found
+[2026-05-19T16:12:05Z] b0732-jiw post records=2023 fts=2023 integrity=True
+[2026-05-19T16:12:05Z] b0732-jiw INSERTED=0 DEFERRED=0 BANDWIDTH=1081709 FETCHES=6
+[2026-05-19T16:12:05Z] b0732-jiw nothing changed; skip commit
+[2026-05-19T16:12:55Z] b0732-jiw === TICK START b0732-jiw cwd=/sessions/festive-nifty-pascal/mnt/corpus ===
+[2026-05-19T16:12:56Z] b0732-jiw git pull rc=128 stderr=fatal: update_ref failed for ref 'ORIG_HEAD': cannot lock ref 'ORIG_HEAD': Unable to create '/sessions/festive-nifty-pascal/mnt/corpus/.git/ORIG_HEAD.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+[2026-05-19T16:12:56Z] b0732-jiw fetches_today=6/500
+[2026-05-19T16:12:56Z] b0732-jiw pre records=2023 fts=2023
+[2026-05-19T16:12:56Z] b0732-jiw SWEEP coa p10: https://judiciaryzambia.com/category/resources/decisions/court-of-appeal-decisions/page/10/
+[2026-05-19T16:12:59Z] b0732-jiw   10 posts found
+[2026-05-19T16:13:02Z] b0732-jiw   GET App-102-2022-Zubao-Harry-Juma-vs-First-Quantum-Mining-Operations-Limited-Road-Division-18-
+[2026-05-19T16:13:18Z] b0732-jiw   DEFERRED quality-gate:body-too-short
+[2026-05-19T16:13:21Z] b0732-jiw   GET App-192-2022-Standard-Chartered-Bank-Zambia-Plc-VS-Rodgers-Mbao-12-Others-18-Sept-2024-Cor
+[2026-05-19T16:13:33Z] b0732-jiw   DEFERRED quality-gate:body-too-short
+[2026-05-19T16:13:35Z] b0732-jiw   GET Appeal-204-2022-Richard-Ndonji-vs-Larfage-Zambia-plc-18-sept-2024-Coram-Justice-Kondolo-SC
+[2026-05-19T16:13:45Z] b0732-jiw   DEFERRED quality-gate:body-too-short
+[2026-05-19T16:13:48Z] b0732-jiw   GET App-257-2022-Katongo-Chilufya-Elliot-vs-Jonathan-Hugh-Elliot-04-Sept-2024-Coram-Justice-Ma
+[2026-05-19T16:13:53Z] b0732-jiw   DEFERRED quality-gate:body-too-short
+[2026-05-19T16:13:56Z] b0732-jiw   GET App-248-2022-David-Mufwaya-vs-Dora-Shilute-04-Sept-2024-Coram-Justice-Makungu-Sichinga-Sha
+[2026-05-19T16:14:04Z] b0732-jiw   DEFERRED quality-gate:body-too-short
+[2026-05-19T16:14:07Z] b0732-jiw   GET App-138-2022-Attorney-General-vs-David-Mumba-1-Other-Coram-Justice-Kondolo-SC-Majula-Banda
+[2026-05-19T16:14:37Z] b0732-jiw DB insert ERR judgment-zm-2022-coa-138-attorney-general-v-david-mumba-1-other-c: disk I/O error
+[2026-05-19T16:14:37Z] b0732-jiw   DEFERRED db-insert-err:OperationalError
+[2026-05-19T16:14:40Z] b0732-jiw   GET Application-65-2024-The-Director-of-Public-Prosecutions-vs-Esther-Nwawa-Tembo-Lungu-Coram-
+[2026-05-19T16:16:39Z] b0732-jiw === TICK START b0732-jiw cwd=/sessions/festive-nifty-pascal/mnt/corpus ===
+[2026-05-19T16:16:40Z] b0732-jiw git pull ok: Already up to date.
+[2026-05-19T16:16:40Z] b0732-jiw fetches_today=6/500
+[2026-05-19T16:16:40Z] b0732-jiw pre records=2023 fts=2023
+[2026-05-19T16:16:40Z] b0732-jiw SWEEP zmcc p2: https://judiciaryzambia.com/category/resources/decisions/constitutional-court-decisions/page/2/
+[2026-05-19T16:16:43Z] b0732-jiw   10 posts found
+[2026-05-19T16:16:45Z] b0732-jiw   GET 2015-CCZ-009-Munir-Zulu-Celestine-Mukandila-Vs-The-Attorney-General-Nelly-Mutti-Dec-2025-J
+[2026-05-19T16:16:52Z] b0732-jiw   DEFERRED scanned-pdf:avg-chars-per-page-0
+[2026-05-19T16:16:55Z] b0732-jiw   GET 2025-CCZ-0021-Legal-Resource-Foundation-LTD-Vs-The-Attorney-General-Dec-2025-Justice-Shili
+[2026-05-19T16:17:02Z] b0732-jiw   DEFERRED scanned-pdf:avg-chars-per-page-0
+[2026-05-19T16:17:05Z] b0732-jiw   GET 2025-CCZ-0012-Jayesh-Shah-Vs-Attorney-General-Nov-25-Justice-Munalula-Shilimi-Chisunka-Mwa
+[2026-05-19T16:17:17Z] b0732-jiw   DEFERRED scanned-pdf:avg-chars-per-page-0
+[2026-05-19T16:17:20Z] b0732-jiw   GET 2025-CCZ-007-Sean-Tembo-Vs-The-Attorney-General-Nov-2025-Justice-Shilimi-Musaluke-Chisunka
+[2026-05-19T16:17:31Z] b0732-jiw   DEFERRED scanned-pdf:avg-chars-per-page-0
+[2026-05-19T16:17:33Z] b0732-jiw   GET 2025-CCZ-0015-Law-Association-of-Zambia-Vs-Speaker-of-The-Natioal-Assembly-Nov-2025-Justic
+[2026-05-19T16:17:48Z] b0732-jiw   DEFERRED scanned-pdf:avg-chars-per-page-0
+[2026-05-19T16:17:50Z] b0732-jiw   GET 2025-CCZ-0031-Tresford-Chali-Vs-Attorney-General-Dec-2025-Justice-Musaluke.pdf
+[2026-05-19T16:17:58Z] b0732-jiw   DEFERRED scanned-pdf:avg-chars-per-page-0
+[2026-05-19T16:18:01Z] b0732-jiw   GET 2025-CCZ-005-TC-Promotions-LTD-and-3-Others-Vs-Lusaka-City-Council-Sep-2025-Justice-Munalu
