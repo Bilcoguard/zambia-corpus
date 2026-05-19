@@ -1,0 +1,12 @@
+{
+  "batch": "b0721",
+  "parser": "repair-0.6.104",
+  "started_utc": "2026-05-19T06:14:24Z",
+  "elapsed_sec": 1.7,
+  "outcome": "IDLE_NO_TARGETS",
+  "no_body": 0,
+  "corrupted": 0,
+  "stubs": 0,
+  "records": 1970,
+  "records_fts": 1970
+}

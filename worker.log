@@ -10329,3 +10329,13 @@ warning: unable to unlink '.git/
 [2026-05-19T05:14:27Z] b0720 Condition A (corrupted): 0
 [2026-05-19T05:14:27Z] b0720 Total dedup targets: 0; MAX_BATCH=8
 [2026-05-19T05:14:27Z] b0720 All repair targets fixed — repair worker idle (verified live: B=0 C=0 A=0; records=1970 fts=1970)
+[2026-05-19T05:14:31Z] b0720 push rc=0 stderr=To https://github.com/Bilcoguard/zambia-corpus.git
+   e1c261c..032e912  main -> main
+[2026-05-19T06:14:25Z] b0721 === TICK START b0721 cwd=/sessions/compassionate-brave-cerf/mnt/corpus ===
+[2026-05-19T06:14:26Z] b0721 git pull ok: Already up to date.
+[2026-05-19T06:14:26Z] b0721 Condition B (no-body acts/sis): 0
+[2026-05-19T06:14:26Z] b0721 Condition A (corrupted line-numbers-only): 0
+[2026-05-19T06:14:26Z] b0721 Condition C (stub <200 chars): 0
+[2026-05-19T06:14:26Z] b0721 Dedup targets: 0
+[2026-05-19T06:14:26Z] b0721 baseline: records=1970 records_fts=1970
+[2026-05-19T06:14:26Z] b0721 All repair targets fixed — repair worker idle
