@@ -1,0 +1,40 @@
+{
+  "id": "judgment-zm-2022-coa-138-attorney-general-v-david-mumba-1-other-c",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Attorney General v David Mumba +1 Other Coram; Justice Kondolo SC, Majula, Banda Bobo, JJA \u2013 Judiciary of Zambia (APP-138-2022) [2022] ZMCA (2022-01-01)",
+  "citation": "[2022] ZMCA",
+  "court": "Court of Appeal",
+  "case_name": "Attorney General v David Mumba +1 Other Coram; Justice Kondolo SC, Majula, Banda Bobo, JJA \u2013 Judiciary of Zambia",
+  "case_number": "APP-138-2022",
+  "date_decided": "2022-01-01",
+  "judges": [
+    {
+      "name": "Majula",
+      "role": "JJA",
+      "dissented": false
+    },
+    {
+      "name": "Banda Bobo",
+      "role": "JJA",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "commercial",
+    "constitutional",
+    "employment",
+    "mining",
+    "tort"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "diction to hear this appeal. Counsel prayed that the appeal be dismissed accordingly. 5.12 (cid:9) The appellant, despite having been granted time in which to respond to the application, did not do so. 6.0 (cid:9) Hearing 301h 6.1 (cid:9) The applica",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "5f86959556185b812b1a9bb822d82e6940f9d9846cc11cf49f155d3e93605d29",
+  "source_url": "https://judiciaryzambia.com/app-138-2022-attorney-general-vs-david-mumba-1-other-coram-justice-kondolo-sc-majula-banda-bobo-jja/",
+  "source_url_pdf": "https://judiciaryzambia.com/wp-content/uploads/2024/09/App-138-2022-Attorney-General-vs-David-Mumba-1-Other-Coram-Justice-Kondolo-SC-Majula-Banda-Bobo-JJA.pdf",
+  "source_hash": "sha256:5f86959556185b812b1a9bb822d82e6940f9d9846cc11cf49f155d3e93605d29",
+  "fetched_at": "2026-05-19T16:14:37Z",
+  "parser_version": "0.4.4-jiw-b0732"
+}

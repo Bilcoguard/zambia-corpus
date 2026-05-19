@@ -7026,3 +7026,7 @@ b0710-jiw	2026-05-18T18:09:18Z	fetch_html_urllib	bytes=180885	sec=2.42
 2026-05-19T16:12:05Z	b0732-jiw	BANDWIDTH	total_bytes=1081709	source=judiciary-zm
 2026-05-19T16:12:05Z	b0732-jiw	INTEGRITY	records=2023	records_fts=2023	pass=True
 2026-05-19T16:12:05Z	b0732-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox
+2026-05-19T16:33:55Z	b0732-jiw	fetches=107	records_written=0	records_deferred=53	worker=judgment-ingestion-worker	cumulative_today=~113/500	cohort=judiciary-zm-multi-court-sweep
+2026-05-19T16:33:55Z	b0732-jiw	BANDWIDTH	total_bytes=459211599	source=judiciary-zm
+2026-05-19T16:33:55Z	b0732-jiw	INTEGRITY	records=2023	records_fts=2023	pass=True
+2026-05-19T16:33:55Z	b0732-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox

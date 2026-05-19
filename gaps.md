@@ -12565,3 +12565,14 @@ Tick b0732 sampled 8 of 2022 records (sample_rate 0.01, seed `phase8-reverify-20
 - judiciary-zmcc-sweep: page-3 next
 - judiciary-scz-sweep: page-5 next
 - judiciary-hc-sweep: page-4 next
+
+## JIW b0732-jiw — judiciary-zm multi-court sweep
+- Date: 2026-05-19T16:33:55Z
+- Cohort: judiciary-zm CoA p10-12 (past scanned-PDF cliff at p9), ZMCC/SCZ/HC fallbacks
+- Inserted: 0 records
+- Deferred this tick: 53
+  - `scanned-pdf`: 48
+  - `pdf-fetch-failed-0-0b`: 5
+- judiciary-zmcc-sweep: page-4 next
+- judiciary-scz-sweep: page-6 next
+- judiciary-hc-sweep: page-5 next
