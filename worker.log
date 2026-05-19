@@ -10842,3 +10842,14 @@ warning: unable to unlink '.git/
 2026-05-19T10:15:42Z	b0727-jiw	integrity PASS: records=2005 fts=2005
 2026-05-19T10:15:42Z	b0727-jiw	=== tick end: +4 records, ~169 deferred ===
 2026-05-19T11:11:18Z  b0728-jiw  OK  inserted=8 deferred=16 records=2013 fts=2013
+2026-05-19T11:14:57Z	b0901-repair-msk	=== TICK START cwd=/sessions/magical-stoic-knuth/mnt/corpus ===
+2026-05-19T11:14:58Z	b0901-repair-msk	git pull ok: Already up to date.
+2026-05-19T11:14:58Z	b0901-repair-msk	records columns: ['id', 'type', 'jurisdiction', 'title', 'citation', 'in_force', 'source_url', 'source_hash', 'fetched_at', 'parser_version', 'on_disk_path', 'body']
+2026-05-19T11:14:58Z	b0901-repair-msk	records_fts columns: ['id', 'title', 'body', 'citation', 'type']
+2026-05-19T11:14:58Z	b0901-repair-msk	judgments_meta present: True
+2026-05-19T11:14:59Z	b0901-repair-msk	Condition A (corrupted/digit-only): 0
+2026-05-19T11:14:59Z	b0901-repair-msk	Condition B (no-body acts/sis): 0
+2026-05-19T11:14:59Z	b0901-repair-msk	Condition C (stubs <200): 0
+2026-05-19T11:14:59Z	b0901-repair-msk	Total dedup targets: 0 (cap 8)
+2026-05-19T11:14:59Z	b0901-repair-msk	All repair targets fixed — repair worker idle
+2026-05-19T11:14:59Z	b0901-repair-msk	wrote idle report: reports/repair-idle-20260519T111459Z.json
