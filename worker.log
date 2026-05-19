@@ -10296,3 +10296,36 @@ may
 [2026-05-19T01:16:36Z] b0705 Condition C (stubs): 0
 [2026-05-19T01:16:36Z] b0705 Dedup targets total: 0 (cap=8)
 [2026-05-19T01:16:36Z] b0705 All repair targets fixed — repair worker idle
+[2026-05-19T01:16:39Z] b0705 idle commit rc=0 stderr=warning: unable to unlink '.git/objects/67/tmp_obj_W9q1cw': Operation not permitted
+warning: unable to unlink '.git/objects/6a/tmp_obj_aBTcgv': Operation not permitted
+warning: unable to unlink '.git/
+[2026-05-19T01:16:41Z] b0705 idle push rc=0 stderr=To https://github.com/Bilcoguard/zambia-corpus.git
+   017d9bc..e1c261c  main -> main
+[2026-05-19T01:16:41Z] b0705 === TICK END b0705 idle elapsed=6.9s ===
+[2026-05-19T02:14:24Z] repair-20260519T021424Z === TICK START ===
+[2026-05-19T02:14:26Z] repair-20260519T021424Z git pull rc=0 stdout=Already up to date. stderr=warning: unable to unlink '/sessions/modest-wizardly-dijkstra/mnt/corpus/.git/objects/maintenance.lock': Operation not permitted
+[2026-05-19T02:14:26Z] repair-20260519T021424Z Condition B (no-body acts/sis): 0
+[2026-05-19T02:14:26Z] repair-20260519T021424Z Condition A (corrupted): 0
+[2026-05-19T02:14:26Z] repair-20260519T021424Z Condition C (stubs): 0
+[2026-05-19T02:14:26Z] repair-20260519T021424Z Total dedup targets: 0  (no_body=0 corrupted=0 stubs=0)
+[2026-05-19T02:14:26Z] repair-20260519T021424Z All repair targets fixed — repair worker idle
+[2026-05-19T02:14:26Z] repair-20260519T021424Z All repair targets fixed — repair worker idle
+[2026-05-19T03:14:31Z] b0719 === TICK START b0719 cwd=/sessions/fervent-magical-dirac/mnt/corpus ===
+[2026-05-19T03:14:32Z] b0719 git pull ok: Already up to date.
+[2026-05-19T03:14:32Z] b0719 records columns: ['body', 'citation', 'fetched_at', 'id', 'in_force', 'jurisdiction', 'on_disk_path', 'parser_version', 'source_hash', 'source_url', 'title', 'type']
+[2026-05-19T03:14:32Z] b0719 records_fts columns: ['id', 'title', 'body', 'citation', 'type']
+[2026-05-19T03:14:32Z] b0719 Condition B (no-body acts/sis): 0
+[2026-05-19T03:14:32Z] b0719 Condition A (corrupted): 0
+[2026-05-19T03:14:32Z] b0719 Condition C (stubs): 0
+[2026-05-19T03:14:32Z] b0719 Total dedup targets: 0; MAX_BATCH=8
+[2026-05-19T03:14:32Z] b0719 All repair targets fixed — repair worker idle
+[2026-05-19T03:14:32Z] b0719 All repair targets fixed — repair worker idle
+[2026-05-19T04:13:08Z] [repair] All repair targets fixed — repair worker idle (verified live: B=0 C=0 A=0; records=fts=1970)
+[2026-05-19T05:14:26Z] b0720 === TICK START b0720 cwd=/sessions/great-youthful-wright/mnt/corpus ===
+[2026-05-19T05:14:27Z] b0720 git pull ok: Already up to date.
+[2026-05-19T05:14:27Z] b0720 records_fts columns: ['id', 'title', 'body', 'citation', 'type']; has_extended_fts=False
+[2026-05-19T05:14:27Z] b0720 Condition B (no-body acts/sis): 0
+[2026-05-19T05:14:27Z] b0720 Condition C (stubs): 0
+[2026-05-19T05:14:27Z] b0720 Condition A (corrupted): 0
+[2026-05-19T05:14:27Z] b0720 Total dedup targets: 0; MAX_BATCH=8
+[2026-05-19T05:14:27Z] b0720 All repair targets fixed — repair worker idle (verified live: B=0 C=0 A=0; records=1970 fts=1970)

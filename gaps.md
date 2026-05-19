@@ -12230,3 +12230,128 @@ See `reports/batch-0714-reverify.json` for the full per-record breakdown and `re
 - Inserted: 8 records
 - Deferred: 4
 - Next tick: continue ZambiaLII reparse-deferred drain (substantial backlog remaining)
+
+## b0717-phase8 — Phase 8 nightly re-verification (2026-05-18T20:33Z) — AUDIT-ONLY ENTRY
+
+Tick b0717 sampled 8 of 1973 records (sample_rate 0.01, seed `phase8-reverify-2026-05-18-b0717`). Results: 2 match, 5 drift, 1 fetch_error. 7× HTTP 200, 1× HTTP 404. All 9 integrity checks PASS.
+
+### Drifts (5) — pre-existing dynamic-render cohorts
+
+ZambiaLII AKN bare-path sub-variant (×1) — `zambialii_akn_html_dynamic_render_drift` (bare-AKN-path sub-variant):
+
+- `si-zm-2019-022-citizens-economic-empowerment-reservation-scheme-regulations-2019` — host `zambialii.org`, AKN bare-path (`/akn/zm/act/si/2019/22`); stored=`(sha256: see record)` fetched=`822cbe7e3dfdeb0999f58d1103b9f4354e400cd19aca4ca5e5a0505dab9e6fd9`; verdict: dynamic-render churn on the 302-redirected English point-in-time HTML rendering, legal content unchanged.
+
+ZambiaLII AKN-HTML `eng@`-suffixed sub-variant (×4) — `zambialii_akn_html_dynamic_render_drift`:
+
+- `act-zm-1995-009-preferential-claims-in-bankruptcy-act-1995` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1995/9/eng@1996-12-31`); fetched=`250665288674212000e75255ffa756049fe4726c83cc2dad5d84fb8f1318b904`; verdict: dynamic-render churn, legal content unchanged.
+- `act-zm-1963-033-occupiers-liability-act-1963` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1963/33/eng@1996-12-31`); fetched=`ae9a04a04aa79e28547f7f30aca625a5495e39ea87cb0eca630cf90138f10484`; verdict: dynamic-render churn, legal content unchanged.
+- `act-zm-1971-032-home-guard-act-1971` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1971/32/eng@1996-12-31`); fetched=`c370b48cd7aa20ab0eaae3153b2115b988144220da531a440fce71b8fa44c14f`; verdict: dynamic-render churn, legal content unchanged.
+- `act-zm-1960-024-development-united-kingdom-government-loan-act-1960` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1960/24/eng@1996-12-31`); fetched=`835b2f26eca9af67963a6aacd46dd951a0342a3f7a278232290ab3d454fd78cd`; verdict: dynamic-render churn, legal content unchanged.
+
+### Match (2) — stable-PDF supercohort
+
+- `si-zm-2019-056-national-heritage-conservation-commission-broken-hill-man-national-monument-decl` — host `zambialii.org`, ZambiaLII `source.pdf` sub-variant (`/akn/zm/act/si/2019/56/eng@2019-09-06/source.pdf`); hash unchanged (`b7ab6eaf...`) — zambialii source.pdf supercohort match.
+- `act-zm-2019-006-mental-health-act-2019` — host `www.parliament.gov.zm`, Act PDF — hash unchanged (`33cc97e7...`) — parliament.gov.zm stable-PDF supercohort match.
+
+### Fetch error (1) — NEW AUDIT-TRAIL ITEM
+
+- `judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-ltd` — host `judiciaryzambia.com`, wp-uploads PDF (`https://judiciaryzambia.com/wp-content/uploads/APP-0024-2024-Kingfred-Phiri-vs-Life-Master-Ltd-10th-December-2024-Coram-...JJA.pdf`); HTTP **404** at the canonical `source_url`. Record ingested 2026-05-18T15:16:51Z (parser_version `0.4.1-inline`); stored_source_hash `sha256:37921802939d394e942d9c498f72642e55b765b95dd92d6f0679b80c7cdb8ee1` (local raw artefact remains on disk and unchanged — Phase 8 reverify never mutates records). First (and so far only) observation of 404 status for this URL. Hypotheses (in order of likelihood): (a) transient judiciaryzambia.com outage / WAF rate-limiting (b) URL re-slug rotation by the publisher (judiciaryzambia.com is known to rename wp-uploads paths occasionally) (c) permanent removal. Recommended next step (operator-triage, no automatic action this tick): wait for ≥ 1 more independent observation in subsequent Phase 8 sweeps (~30-min cadence) before triggering any URL-substitution workflow. No record mutation this tick.
+
+## phase8_reverify_drift
+- batch: 0717
+- detected_at: 2026-05-18T20:33:55Z
+- cohort: zambialii_akn_html_dynamic_render_drift (×5: ×1 bare-AKN-path sub-variant, ×4 eng@-suffixed sub-variant)
+- pool_size: 1973
+- sample_size: 8
+- match: 2
+- drift: 5
+- fetch_error: 1
+- records_mutated: 0
+
+## phase8_reverify_fetch_error
+- batch: 0717
+- detected_at: 2026-05-18T20:33:55Z
+- record_id: judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-ltd
+- source_url: https://judiciaryzambia.com/wp-content/uploads/APP-0024-2024-Kingfred-Phiri-vs-Life-Master-Ltd-10th-December-2024-Coram-Siavwapa-JP-Mchenga-DJPChashi-Kondolo-Makungu-ChishimbaSichingaNgulubeBanda-BoboSharpe-PhiriMuzengaPatel-Chembe-JJA.pdf
+- http_status: 404
+- stored_source_hash: sha256:37921802939d394e942d9c498f72642e55b765b95dd92d6f0679b80c7cdb8ee1
+- record_fetched_at: 2026-05-18T15:16:51Z
+- observations_to_date: 1 (this tick only)
+- action: audit-only (await independent corroboration in subsequent ticks)
+- records_mutated: 0
+
+## b0718-phase8 — Phase 8 nightly re-verification (2026-05-18T21:04Z) — AUDIT-ONLY ENTRY
+
+Tick b0718 sampled 8 of 1973 records (sample_rate 0.01, seed `phase8-reverify-2026-05-18-b0718`). Results: 3 match, 5 drift, 0 fetch_error. 8× HTTP 200. All 9 integrity checks PASS.
+
+### Drifts (5) — pre-existing dynamic-render cohorts
+
+ZambiaLII AKN-HTML `eng@`-suffixed sub-variant (×4) — `zambialii_akn_html_dynamic_render_drift`:
+
+- `judgment-zm-2024-zmsc-03-masautso-banda-v-the-people` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/judgment/zmsc/2024/3/eng@2024-04-19`); stored=`sha256:1ddc5bffd03702af…` fetched=`02fdac14408ba72a89097457b07fc83ddbc3e9912162b5f20a466d6aeb9dc2f0`; verdict: dynamic-render churn on the server-rendered AKN HTML page, legal content unchanged.
+- `act-zm-2018-013-statistics-act-2018` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/2018/13/eng@2018-12-26`); stored=`sha256:e1078845252a0f89…` fetched=`8c650e9b6a0c3ca01e83970b628bbb8d1c16a4fe2dd66d47132d9e21785535ad`; verdict: dynamic-render churn, legal content unchanged.
+- `judgment-zm-2025-zmcc-11-ford-chombo-v-the-attorney-general` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/judgment/zmcc/2025/11/eng@2025-06-19`); stored=`sha256:02c3d235b0face94…` fetched=`0fbedfca2c5070a373fee61664a2e196c7051217175766bd4c4254d2cbc1c0d0`; verdict: dynamic-render churn, legal content unchanged.
+- `act-zm-1969-036-state-security-act-1969` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1969/36/eng@1996-12-31`); stored=`sha256:1f2e9ce380a005f7…` fetched=`f3aaef5766f257ec562f4a95399a54d4e4a2502206f8c133d5421bf971791b2b`; verdict: dynamic-render churn, legal content unchanged.
+
+ZambiaLII AKN bare-path sub-variant (×1) — `zambialii_akn_html_dynamic_render_drift` (bare-AKN-path sub-variant):
+
+- `si-zm-2019-040-corporate-insolvency-insolvency-practitioner-accreditation-regulations-2019` — host `zambialii.org`, AKN bare-path (`/akn/zm/act/si/2019/40`); stored=`sha256:4050463c8be687c6…` fetched=`83aee11e645d2fa36aa546384de7528a1c3025db81b04f8a0a7252f73f852af6`; verdict: dynamic-render churn on the 302-redirected English point-in-time HTML rendering, legal content unchanged.
+
+### Matches (3) — stable-PDF supercohorts
+
+- `local-courts-rules-1966` — host `commons.laws.africa`, laws.africa `publication-document.pdf` (`/akn/zm/act/si/1966/293/media/publication/zm-act-si-1966-293-publication-document.pdf`); hash unchanged (`3f9c7ef8…`) — laws.africa publication-document supercohort match (stable PDF; 10,520,091 B).
+- `act-zm-2023-024-access-to-information-act-2023` — host `zambialii.org`, ZambiaLII `source.pdf` sub-variant (`/akn/zm/act/2023/24/eng@2023-12-26/source.pdf`); hash unchanged (`7bb84553…`) — zambialii source.pdf supercohort match.
+- `act-zm-2010-013-disaster-management-2010` — host `www.parliament.gov.zm`, Act PDF — hash unchanged (`08a6a0e9…`) — parliament.gov.zm stable-PDF supercohort match.
+
+### Fetch errors (0)
+
+None this tick. Carry-forward audit-trail item `judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-ltd` (b0717 first-observation 404) was NOT in this tick's sample; no new observation; remains under audit-only watch.
+
+## phase8_reverify_drift
+- batch: 0718
+- detected_at: 2026-05-18T21:04:52Z
+- cohort: zambialii_akn_html_dynamic_render_drift (×5: ×4 eng@-suffixed sub-variant, ×1 bare-AKN-path sub-variant)
+- pool_size: 1973
+- sample_size: 8
+- match: 3
+- drift: 5
+- fetch_error: 0
+- records_mutated: 0
+
+## b0719-phase8 — Phase 8 nightly re-verification (2026-05-18T21:34Z) — AUDIT-ONLY ENTRY
+
+Tick b0719 sampled 8 of 1973 records (sample_rate 0.01, seed `phase8-reverify-2026-05-18-b0719`). Results: 3 match, 5 drift, 0 fetch_error. 8× HTTP 200. All 9 integrity checks PASS.
+
+### Drifts (5) — pre-existing dynamic-render cohorts
+
+ZambiaLII AKN-HTML `eng@`-suffixed sub-variant (×2) — `zambialii_akn_html_dynamic_render_drift`:
+
+- `act-zm-2018-013-statistics-act-2018` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/2018/13/eng@2018-12-26`); stored=`sha256:e1078845252a0f89…` fetched=`8c650e9b6a0c3ca01e83970b628bbb8d1c16a4fe2dd66d47132d9e21785535ad`; verdict: dynamic-render churn on the server-rendered AKN HTML page, legal content unchanged. NOTE: also drifted in b0718 with a different fetched sha — confirms re-renders are not stable across observations (consistent with cohort behaviour).
+- `judgment-zm-2024-zmsc-03-masautso-banda-v-the-people` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/judgment/zmsc/2024/3/eng@2024-04-19`); stored=`sha256:1ddc5bffd03702af…` fetched=`02fdac14408ba72a89097457b07fc83ddbc3e9912162b5f20a466d6aeb9dc2f0`; verdict: dynamic-render churn, legal content unchanged. NOTE: same fetched sha256 as b0718's observation of this record — single-tick render value coincidence; still does not match stored. Carries the cohort interpretation.
+
+ZambiaLII AKN bare-path sub-variant (×3) — `zambialii_akn_html_dynamic_render_drift` (bare-AKN-path sub-variant):
+
+- `si-zm-1985-014-equity-levy-exemption-order-1985` — host `zambialii.org`, AKN bare-path SI (`/akn/zm/act/si/1985/14`); stored=`sha256:c02b628c0acd7d97…` fetched=`e7404f36c8d89192cc6569b8a41e38d523ea6138f88e3b6e691191aa73b003e2`; verdict: dynamic-render churn on the 302-redirected English point-in-time HTML rendering, legal content unchanged.
+- `si-zm-2018-033-electoral-process-local-government-by-elections-election-date-and-time-of-poll-order-2018` — host `zambialii.org`, AKN bare-path SI (`/akn/zm/act/si/2018/33`); stored=`sha256:994fb2fd033b617e…` fetched=`eff300222af18becf3fcb5d3a37cf77e8f7d514cf28fa7094befa23b6b349142`; verdict: dynamic-render churn on the 302-redirected English point-in-time HTML rendering, legal content unchanged.
+- `si-zm-2023-021-urban-and-regional-planning-development-plans-guidelines-and-exempted-development-classes-regulations-2023` — host `zambialii.org`, AKN bare-path SI (`/akn/zm/act/si/2023/21`); stored=`sha256:43b7f54e0908b54e…` fetched=`a067dc5866e94c0761ed08f45295049fbc8ec07fb9ab304e2f5dfe618d956e4e`; verdict: dynamic-render churn on the 302-redirected English point-in-time HTML rendering, legal content unchanged.
+
+### Matches (3) — stable-PDF supercohorts
+
+- `si-zm-2026-011-tolls-tom-mtine-toll-plaza-regulations-2026` — host `zambialii.org`, ZambiaLII `source.pdf` sub-variant (`/akn/zm/act/si/2026/11/eng@2026-02-13/source.pdf`); hash unchanged (`e4783785…`) — zambialii source.pdf supercohort match.
+- `si-zm-1980-029-income-tax-international-organisations-exemption-approval-order-1980` — host `zambialii.org`, ZambiaLII `source.pdf` sub-variant (`/akn/zm/act/si/1980/29/eng@1980-02-15/source.pdf`); hash unchanged (`a0f74d96…`) — zambialii source.pdf supercohort match.
+- `act-zm-2007-018-plant-breeders-rights-act-2007` — host `media.zambialii.org`, laws.africa-style `publication-document.pdf` (`/media/legislation/35257/source_file/.../zm-act-2007-18-publication-document.pdf`); hash unchanged (`c64b2c3f…`) — media.zambialii.org publication-document supercohort match (4,876,293 B stable PDF).
+
+### Fetch errors (0)
+
+None this tick. Carry-forward audit-trail item `judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-ltd` (b0717 first-observation 404) was NOT in this tick's sample; no new observation; remains under audit-only watch.
+
+## phase8_reverify_drift
+- batch: 0719
+- detected_at: 2026-05-18T21:34:24Z
+- cohort: zambialii_akn_html_dynamic_render_drift (×5: ×2 eng@-suffixed sub-variant, ×3 bare-AKN-path sub-variant)
+- pool_size: 1973
+- sample_size: 8
+- match: 3
+- drift: 5
+- fetch_error: 0
+- records_mutated: 0
