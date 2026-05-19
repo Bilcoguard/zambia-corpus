@@ -1,0 +1,125 @@
+{
+  "id": "judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "First Merchant Bank Zambia Limited, 1S™ v Al Shams Building Materials Limited 1St (Appeal number 37 of 2017) [2022] ZMSC 9",
+  "citation": "[2022] ZMSC 9",
+  "court": "Supreme Court of Zambia",
+  "case_name": "First Merchant Bank Zambia Limited, 1S™ v Al Shams Building Materials Limited 1St",
+  "case_number": "Appeal number 37 of 2017",
+  "date_decided": null,
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna JJS On 19t4 January 2022",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "15th March 2022 For the First Appellant: Mr. B. C. Mutale",
+      "role": "SC",
+      "dissented": false
+    },
+    {
+      "name": "M. Mukuka of Messrs Ellis",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "Co",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "S. Kaingu - In- House Counsel for Bank of Zambia For the Second Appellant: Mr. M. M. Lukwasa",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "Deputy Chief State Advocate",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "Attorney-General’s chambers For the First Respondent: Mr. H. H. Ndhlovu SC of Messrs H. H. Ndhlovu",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "Company",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "E. B. Mwansa SC of Messrs E. B. M. Chambers",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "M. B. Mutemwa SC of Messrs Mutemwa Chambers",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "M. Lisimba of Messrs Mambwe Siwila",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "Lisimba Advocates",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "A. Wright of Messrs Wright Chambers",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "J. Madaika of Messrs",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "M Advocates",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "A. Kasolo of Messrs Mulilansolo Chambers For the Second Respondent: In Person",
+      "role": "J",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-law",
+    "land-law",
+    "tax-law",
+    "company-law",
+    "mining-law"
+  ],
+  "outcome": "other",
+  "outcome_detail": "Outcome=other; operative-paragraph detail not extracted",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "bbdce5041828e928fb650271669d15752067ae9c05740375ae55b505e7510296",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/9",
+  "source_hash": "sha256:bbdce5041828e928fb650271669d15752067ae9c05740375ae55b505e7510296",
+  "fetched_at": "2026-05-19T07:53:49Z",
+  "parser_version": "0.4.4-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmsc/2022/judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at.pdf",
+  "body_length": 26792,
+  "judges_count": 18
+}

@@ -1,0 +1,36 @@
+{
+  "id": "judgment-zm-2022-zmsc-02-mulenga-and-anor-v-fundafunda-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Yi’Ifiiary Nelly Mulenga Pellant Wellington Musupila v Boniface Chilambwe Fundafunda 1St (SCZ 8/03/2021) [2022] ZMSC 2",
+  "citation": "[2022] ZMSC 2",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Yi’Ifiiary Nelly Mulenga Pellant Wellington Musupila v Boniface Chilambwe Fundafunda 1St",
+  "case_number": "SCZ 8/03/2021",
+  "date_decided": null,
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "E. M. Hamaundu",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "supreme-court-appeal"
+  ],
+  "outcome": "other",
+  "outcome_detail": "Outcome=other; operative-paragraph detail not extracted",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "126e5f4ccfc4ad8879eeebbf3f926cfd5454978f5ffcd1caf82d67e1b1e1e32d",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/2",
+  "source_hash": "sha256:126e5f4ccfc4ad8879eeebbf3f926cfd5454978f5ffcd1caf82d67e1b1e1e32d",
+  "fetched_at": "2026-05-19T07:53:49Z",
+  "parser_version": "0.4.4-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmsc/2022/judgment-zm-2022-zmsc-02-mulenga-and-anor-v-fundafunda-and-ors.pdf",
+  "body_length": 4440,
+  "judges_count": 1
+}

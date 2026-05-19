@@ -1,0 +1,78 @@
+{
+  "id": "judgment-zm-2022-zmsc-04-m-membe-and-post-newspapers-ltd-in-liquidation-v-m",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Fred M’Membe 1St v Abel Mboozi 1St (Appeal No. 07/2021) [2022] ZMSC 4",
+  "citation": "[2022] ZMSC 4",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Fred M’Membe 1St v Abel Mboozi 1St",
+  "case_number": "Appeal No. 07/2021",
+  "date_decided": null,
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "SC",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "on 10th August",
+      "role": "SC",
+      "dissented": false
+    },
+    {
+      "name": "2021",
+      "role": "SC",
+      "dissented": false
+    },
+    {
+      "name": "17th February 2022. For the 1st Appellant: Mr. Nchima Nchito",
+      "role": "SC",
+      "dissented": false
+    },
+    {
+      "name": "C. Hamwela",
+      "role": "SC",
+      "dissented": false
+    },
+    {
+      "name": "Ms. N. Chibuye of Messrs Nchito & Nchito For the 2nd Appellant: No Appearance",
+      "role": "SC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-law",
+    "contract-law",
+    "tax-law",
+    "company-law",
+    "negligence",
+    "fraud",
+    "banking-finance",
+    "mining-law"
+  ],
+  "outcome": "withdrawn",
+  "outcome_detail": "ocates for the respondents had, a couple of days prior to the hearing, formally withdrawn from representing the respondents. j13 5.2. having seen the affidavit of service filed by the appellants’ advocates on the 9th of august, 2021, we were satisfied that the respondents had indeed been duly served with the notice of hearing. w",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "63e64efe74524bf3ab56ad9ee0fa5630324ac0896bfb024888a6978157502140",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/4",
+  "source_hash": "sha256:63e64efe74524bf3ab56ad9ee0fa5630324ac0896bfb024888a6978157502140",
+  "fetched_at": "2026-05-19T07:53:49Z",
+  "parser_version": "0.4.4-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmsc/2022/judgment-zm-2022-zmsc-04-m-membe-and-post-newspapers-ltd-in-liquidation-v-m.pdf",
+  "body_length": 60561,
+  "judges_count": 8
+}

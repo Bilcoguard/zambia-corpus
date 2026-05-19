@@ -12396,3 +12396,10 @@ None this tick. Carry-forward audit-trail items `judgment-zm-2024-coa-024-kingfr
 - drift: 5
 - fetch_error: 0
 - records_mutated: 0
+
+## JIW b0723-jiw — reparse-deferred-zambialii sweep
+- Date: 2026-05-19T07:53:49Z
+- Cohort: ZambiaLII judgment PDFs (raw/zambialii/judgments/*) not yet in corpus
+- Inserted: 8 records
+- Deferred: 40
+- Remaining unparsed candidates (approx): 203

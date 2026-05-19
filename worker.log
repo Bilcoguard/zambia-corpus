@@ -10415,3 +10415,80 @@ warning: unable to unlink '/sessions/exciting-fervent-johnson/mnt/corpus/.git/OR
 2026-05-19T07:19:59Z	b0723-jiw	  DB ERROR raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-02-chen-den-limited-others-v-ims-financial-services-l.pdf: disk I/O error
 [2026-05-19T06:34:00Z] [b0719-phase8] === TICK CLOSED === phase_8 remains approved+incomplete; deliverables (script + report + reverify.json + provenance + costs + gaps + worker.log appends) absorbed by concurrent workers (b0722-jiw commit 2360b56 + repair b0721 commit 66ea433); routine sampling continues next tick (T+30min). B2 sync deferred to host (rclone not in sandbox; Phase 8 read-only on corpus).
 [2026-05-19T07:39:50Z] [b0724-phase8] Phase 8 nightly re-verification batch 0724 complete: pool=1982 sample=8 match=3 drift=5 fetch_error=0 fetches=8 bandwidth=820714 wall_clock=36s. 5 drifts all in pre-existing `zambialii_akn_html_dynamic_render_drift` cohort (3 eng@-suffixed + 2 bare-AKN-path). 3 matches in stable-PDF supercohorts (parliament.gov.zm acts-PDF ×2 + zambialii.org source.pdf ×1). All 9 integrity checks PASS (records=1978 records_fts=1978 dup_ids=0 quick_check=ok). No records mutated; corpus.sqlite and approvals.yaml untouched. Stale git locks (3) renamed (FUSE EPERM) via documented bypass pattern before pull. B2 sync deferred to host (rclone not in sandbox; Phase 8 is read-only). phase_8 remains approved+incomplete (continues per BRIEF; next tick T+30min).
+[2026-05-19T07:40:30Z] [b0724-phase8] === TICK CLOSED === commit dccc35d pushed to main; +0 records; routine sampling continues. phase_8 remains approved+incomplete per BRIEF (open-ended nightly reverify). B2 sync deferred to host (rclone absent in sandbox; Phase 8 is read-only on corpus — no raw/ mutation).
+2026-05-19T07:53:51Z	b0723-jiw	git pull rc=0: Already up to date.
+2026-05-19T07:53:51Z	b0723-jiw	today JIW fetches so far=0/500
+2026-05-19T07:53:51Z	b0723-jiw	pre-state: records=1978 records_fts=1978
+2026-05-19T07:53:51Z	b0723-jiw	candidates found: 211
+2026-05-19T07:53:51Z	b0723-jiw	  INSERT judgment-zm-2020-zmsc-02-chen-den-limited-others-v-ims-financial-services-l outcome=dismissed judges=5
+2026-05-19T07:53:51Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-03-optima-business-consultants-limited-in-liquidation.pdf: body-too-short:15
+2026-05-19T07:53:51Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-04-richard-musenyesa-v-indo-bank-zambia-limited.pdf: body-too-short:38
+2026-05-19T07:53:51Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-05-alex-njamba-v-the-people.pdf: body-too-short:24
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-06-connie-munalula-v-mwaba.pdf: body-too-short:34
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-07-adam-bweupe-another-v-the-people.pdf: body-too-short:16
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-08-andreas-panagiotis-xirocostas-v-poma.pdf: body-too-short:25
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-09-citi-bank-zambia-limited-v-malenji.pdf: body-too-short:11
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-10-omar-mohammed-hashi-v-the-people.pdf: body-too-short:10
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-100-antonio-ventriglia-another-v-finsbury-investments.pdf: body-too-short:75
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-105-mubanga-kaselo-another-v-the-people.pdf: body-too-short:25
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-11-post-newspaper-limited-v-mulenga.pdf: body-too-short:26
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-110-martin-lukuwa-v-the-people.pdf: body-too-short:10
+2026-05-19T07:53:52Z	b0723-jiw	  INSERT judgment-zm-2020-zmsc-115-stephan-mwaba-v-the-people outcome=set-aside judges=7
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-15-workers-compensation-fund-control-board-v-kapwele.pdf: body-too-short:9
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-20-martin-chiluba-musenga-v-the-people.pdf: body-too-short:9
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-30-julius-chilipamwawo-sinkala-v-simbule-others.pdf: body-too-short:56
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-40-victor-k-sishemo-v-oscar-sikazwe.pdf: body-too-short:10
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-50-ohinga-lumamba-v-the-people.pdf: body-too-short:16
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-55-time-trucking-limited-v-kipimpi.pdf: body-too-short:30
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-70-steven-kalibuka-v-the-people.pdf: body-too-short:15
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-75-michael-singogo-others-v-the-people.pdf: body-too-short:6
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-90-zambia-breweries-plc-v-mwamba.pdf: body-too-short:12
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-95-agness-tembo-phiri-another-v-the-people.pdf: body-too-short:13
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-20-mwiya-zunga-zunga-another-v-the-people.pdf: body-too-short:12
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-21-chancy-mtambalika-another-v-the-people.pdf: body-too-short:10
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-22-peter-sampa-v-the-people.pdf: body-too-short:6
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-23-ronald-musonda-2-others-v-the-people.pdf: body-too-short:16
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-24-james-sichimba-v-the-people.pdf: body-too-short:15
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-25-derrick-mungaila-3-others-v-the-people.pdf: body-too-short:18
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-26-william-mufungulwa-sipalo-v-the-people.pdf: body-too-short:16
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-27-chishimba-chonya-v-the-people.pdf: body-too-short:24
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-28-felix-mwape-mulumba-v-the-people.pdf: body-too-short:23
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-29-siyoto-sikota-v-the-people.pdf: body-too-short:22
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-30-caroline-lwando-nkwabilo-maiga-v-temimu.pdf: body-too-short:21
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-31-jonathan-van-blerk-v-the-attorney-general-5-others.pdf: body-too-short:135
+2026-05-19T07:53:52Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-32-zambia-national-commercial-bank-v-chiwisha.pdf: body-too-short:30
+2026-05-19T07:53:53Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-34-john-sangwa-v-nkonde-sc.pdf: body-too-short:59
+2026-05-19T07:53:53Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-36-esaya-mupasha-2-others-v-the-people.pdf: body-too-short:22
+2026-05-19T07:53:53Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-37-charles-gondwe-v-the-people.pdf: body-too-short:17
+2026-05-19T07:53:53Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-38-nkhoma-v-the-people.pdf: body-too-short:16
+2026-05-19T07:53:53Z	b0723-jiw	  INSERT judgment-zm-2021-zmsc-39-van-blerk-v-the-attorney-general-and-ors outcome=dismissed judges=7
+2026-05-19T07:53:53Z	b0723-jiw	  DEFER raw/zambialii/judgments/zmsc/2022/judgment-zm-2022-zmsc-01-bank-of-zambia-as-liquidator-of-credit-africa-bank.pdf: no judges
+2026-05-19T07:53:53Z	b0723-jiw	  INSERT judgment-zm-2022-zmsc-02-mulenga-and-anor-v-fundafunda-and-ors outcome=other judges=1
+2026-05-19T07:53:55Z	b0723-jiw	  INSERT judgment-zm-2022-zmsc-04-m-membe-and-post-newspapers-ltd-in-liquidation-v-m outcome=withdrawn judges=8
+2026-05-19T07:53:56Z	b0723-jiw	  INSERT judgment-zm-2022-zmsc-05-mazuba-v-people outcome=other judges=6
+2026-05-19T07:53:56Z	b0723-jiw	  INSERT judgment-zm-2022-zmsc-06-abba-and-ors-v-fanamu-mining-ltd-and-anor outcome=other judges=1
+2026-05-19T07:53:57Z	b0723-jiw	  INSERT judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at outcome=other judges=18
+2026-05-19T07:53:57Z	b0723-jiw	reached batch limit 8
+2026-05-19T07:53:57Z	b0723-jiw	post-state: records=1986 records_fts=1986 pass=True
+2026-05-19T07:53:57Z	b0723-jiw	FTS integrity-check OK
+2026-05-19T07:53:57Z	b0723-jiw	judges_registry: +33 new judges
+2026-05-19T07:55:36Z	b0723-jiw	git status: A  .b0644_writetest
+A  .b0659_writetest
+A  .b0670_writetest
+A  .testdb_b0644.sqlite
+A  .testdb_b0644.sqlite-journal
+A  .tmp/fftjj9_g
+A  .tmp_b0628/test
+A  .tmp_b0628/work/b0628_manifest.json
+A  .tmp_b0628/work/pdfs/act-zm-2023-019-the-criminal-procedure-code-amendment-act-2023.pdf
+A  .tmp_b0628/work
+2026-05-19T07:55:48Z	b0723-jiw	git commit rc=0: [main 29db5d8] Judgment batch b0723-jiw: +8 reparsed ZambiaLII judgments (Supreme Court)
+ 842 files changed, 134236 insertions(+), 202 deletions(-)
+ create mode 100644 .b0644_writetest
+ create mode 10
+2026-05-19T07:56:13Z	b0723-jiw	git push rc=1: error: pack-objects died of signal 9
+error: pack-objects died of signal 9
+fatal: the remote end hung up unexpectedly
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote en
+2026-05-19T07:56:13Z	b0723-jiw	B2 sync deferred to host (rclone not in sandbox)

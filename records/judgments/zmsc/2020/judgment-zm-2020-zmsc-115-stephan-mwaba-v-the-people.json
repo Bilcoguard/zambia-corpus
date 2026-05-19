@@ -1,0 +1,68 @@
+{
+  "id": "judgment-zm-2020-zmsc-115-stephan-mwaba-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Judc1Ary Stephen Mwaba v Lg1S The People (APPEAL NO. 184/2020) [2020] ZMSC 115",
+  "citation": "[2020] ZMSC 115",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Judc1Ary Stephen Mwaba v Lg1S The People",
+  "case_number": "APPEAL NO. 184/2020",
+  "date_decided": null,
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Muyovwe",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Hamaundu",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "JJS On 1st December",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "2020",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "8th December",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "2020",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-appeal",
+    "homicide",
+    "sentencing"
+  ],
+  "outcome": "set-aside",
+  "outcome_detail": "is, therefore, allowed. the sentence of 25 years imprisonment with hard labour is hereby set aside. in substitution therefor we impose a sentence of 7 years imprisonment with hard labour, with effect from the appellant's date of arrest. e. n. c. muyovwe supreme court judge e. m. hamaundu supreme court judge j. chinyama supreme",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "70fc7158fe29b21292e5b0d57bfbb3b4b07871b379c39b329130d04a8f1d777c",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2020/115",
+  "source_hash": "sha256:70fc7158fe29b21292e5b0d57bfbb3b4b07871b379c39b329130d04a8f1d777c",
+  "fetched_at": "2026-05-19T07:53:49Z",
+  "parser_version": "0.4.4-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-115-stephan-mwaba-v-the-people.pdf",
+  "body_length": 7846,
+  "judges_count": 7
+}

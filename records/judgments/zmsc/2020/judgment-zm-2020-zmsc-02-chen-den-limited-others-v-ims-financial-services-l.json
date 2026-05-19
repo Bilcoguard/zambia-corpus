@@ -1,0 +1,56 @@
+{
+  "id": "judgment-zm-2020-zmsc-02-chen-den-limited-others-v-ims-financial-services-l",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Chen Den Limited 1St v Ims Financial Services Limited (APPEAL NO. 137/ 2008) [2020] ZMSC 2",
+  "citation": "[2020] ZMSC 2",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Chen Den Limited 1St v Ims Financial Services Limited",
+  "case_number": "APPEAL NO. 137/ 2008",
+  "date_decided": null,
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Wood",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Kajimanaga",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "JJS On 4th February 2020",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "18th March 2020",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "company-law"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "rved the same on the respondent. on 20th april 2018, an application to have the appeal dismissed was heard and the court delivered a ruling dismissing the appeal. according to the appellants, it is not a requirement to have the heads of argument for a matter to be listed and particularly that the appeal was filed in 2008 and mor",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "b8e37a6fe3ba0688bb0113cc5630bfb89f2318ccb5ac4489c6ad48cfe7a16975",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2020/2",
+  "source_hash": "sha256:b8e37a6fe3ba0688bb0113cc5630bfb89f2318ccb5ac4489c6ad48cfe7a16975",
+  "fetched_at": "2026-05-19T07:53:49Z",
+  "parser_version": "0.4.4-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-02-chen-den-limited-others-v-ims-financial-services-l.pdf",
+  "body_length": 18826,
+  "judges_count": 5
+}

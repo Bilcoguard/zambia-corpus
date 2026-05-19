@@ -1,0 +1,65 @@
+{
+  "id": "judgment-zm-2022-zmsc-05-mazuba-v-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mazuba v People (SCZ Appeal No. 116/2021) [2022] ZMSC 5",
+  "citation": "[2022] ZMSC 5",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Mazuba v People",
+  "case_number": "SCZ Appeal No. 116/2021",
+  "date_decided": null,
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "JJS on 13th July 2021",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "1st February",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "2022",
+      "role": "CJ",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-appeal",
+    "homicide",
+    "land-law",
+    "company-law",
+    "sentencing"
+  ],
+  "outcome": "other",
+  "outcome_detail": "Outcome=other; operative-paragraph detail not extracted",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "0185d44d8f84f6057bc41b4e482c73bdc2618ffe1dd5cc2dd91358519f564ee1",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/5",
+  "source_hash": "sha256:0185d44d8f84f6057bc41b4e482c73bdc2618ffe1dd5cc2dd91358519f564ee1",
+  "fetched_at": "2026-05-19T07:53:49Z",
+  "parser_version": "0.4.4-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmsc/2022/judgment-zm-2022-zmsc-05-mazuba-v-people.pdf",
+  "body_length": 32115,
+  "judges_count": 6
+}

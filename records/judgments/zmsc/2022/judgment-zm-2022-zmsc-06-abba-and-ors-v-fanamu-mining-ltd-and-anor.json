@@ -1,0 +1,38 @@
+{
+  "id": "judgment-zm-2022-zmsc-06-abba-and-ors-v-fanamu-mining-ltd-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Razak Ibrahim Ist v Fanamu Mining Limited 1St (Appeal No.56/2017) [2022] ZMSC 6 (2021-11-03)",
+  "citation": "[2022] ZMSC 6",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Razak Ibrahim Ist v Fanamu Mining Limited 1St",
+  "case_number": "Appeal No.56/2017",
+  "date_decided": "2021-11-03",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "E. M. Hamaundu",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-law",
+    "company-law",
+    "mining-law"
+  ],
+  "outcome": "other",
+  "outcome_detail": "Outcome=other; operative-paragraph detail not extracted",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "3e70357fae0e53d0651339f4f763c3bb8231b39730ccac03cc966cd15b59ffd9",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/6",
+  "source_hash": "sha256:3e70357fae0e53d0651339f4f763c3bb8231b39730ccac03cc966cd15b59ffd9",
+  "fetched_at": "2026-05-19T07:53:49Z",
+  "parser_version": "0.4.4-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmsc/2022/judgment-zm-2022-zmsc-06-abba-and-ors-v-fanamu-mining-ltd-and-anor.pdf",
+  "body_length": 8943,
+  "judges_count": 1
+}

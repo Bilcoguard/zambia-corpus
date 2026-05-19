@@ -1,0 +1,70 @@
+{
+  "id": "judgment-zm-2021-zmsc-39-van-blerk-v-the-attorney-general-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Jonathan Van Blerk And The Attorney General The Lusaka City Council 2Nd Respondent Legacy Holdings Limited 3Rd Respondent Kwikbuild Construction Limited 4Th Respondent Bantu Capital Corporation Limited 5Th Respondent National Pension Scheme Authority 6Th Respondent Coram: Wood, Malila And Kabuka, Jjs On 6Th October, 2020 And 27Th October, 2020 For The v The Attorney General The Lusaka City Council 2Nd (APPEAL NO. 7/2020) [2021] ZMSC 39",
+  "citation": "[2021] ZMSC 39",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Jonathan Van Blerk And The Attorney General The Lusaka City Council 2Nd Respondent Legacy Holdings Limited 3Rd Respondent Kwikbuild Construction Limited 4Th Respondent Bantu Capital Corporation Limited 5Th Respondent National Pension Scheme Authority 6Th Respondent Coram: Wood, Malila And Kabuka, Jjs On 6Th October, 2020 And 27Th October, 2020 For The v The Attorney General The Lusaka City Council 2Nd",
+  "case_number": "APPEAL NO. 7/2020",
+  "date_decided": null,
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Wood",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Malila",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Kabuka",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "JJS On 6th October",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "2020",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "27th October",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "2020",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "land-law",
+    "company-law",
+    "fraud",
+    "mining-law",
+    "environmental-law"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "erence to other rules. for instance, a party can under rule 58 apply to have an appeal dismissed for failure to prepare a record of appeal in accordance with rule 58. however, an appellant can apply to cure the defect under rule 68 and this can be done at any time. [16] a respondent can under rule 59 file a supplementary record",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "e6a0f6c4e25c7b08c57e5604987282b2fe9a827d9c53f258e2c4c4cd21868430",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2021/39",
+  "source_hash": "sha256:e6a0f6c4e25c7b08c57e5604987282b2fe9a827d9c53f258e2c4c4cd21868430",
+  "fetched_at": "2026-05-19T07:53:49Z",
+  "parser_version": "0.4.4-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmsc/2021/judgment-zm-2021-zmsc-39-van-blerk-v-the-attorney-general-and-ors.pdf",
+  "body_length": 13313,
+  "judges_count": 7
+}
