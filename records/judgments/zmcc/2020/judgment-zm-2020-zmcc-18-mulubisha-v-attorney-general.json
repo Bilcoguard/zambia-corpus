@@ -1,0 +1,43 @@
+{
+  "id": "judgment-zm-2020-zmcc-18-mulubisha-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "MULUBISHA V ATTORNEY GENERAL (2018/CCZ/0013) [2020] ZMCC 18 (20 September 2020)",
+  "citation": "[2020] ZMCC 18 [2020] ZMCC 18 ' data-confirmation=\"Copied!\"> Copy",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "MULUBISHA V ATTORNEY GENERAL",
+  "case_number": "2018/CCZ/0013",
+  "date_decided": "2020-09-20",
+  "judges": [
+    {
+      "name": "Musaluke",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Chibomba",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional law",
+    "land law",
+    "company law",
+    "civil procedure"
+  ],
+  "outcome": "granted",
+  "outcome_detail": "cause prejudice to the respondent can only be determined in the event that this application is granted. R6 • Counsel submitted that the leave that the single Judge granted in her Ruling was not leave for the Respondent to",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "213de77c5a4c1790018b0eb5e3343e2b2672ec7162fb32820698d2b4efc0ca5d",
+  "source_url": "https://zambialii.org/judgment-zm-2020-zmcc-18-mulubisha-v-attorney-general",
+  "source_hash": "sha256:69510817584c2c28204ad6de6225b1c68ecf85742043a1aed4d00bf3b34e3f84",
+  "fetched_at": "2026-05-19T08:22:27Z",
+  "parser_version": "0.3.2"
+}

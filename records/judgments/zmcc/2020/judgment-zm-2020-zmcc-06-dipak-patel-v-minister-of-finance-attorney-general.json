@@ -1,0 +1,30 @@
+{
+  "id": "judgment-zm-2020-zmcc-06-dipak-patel-v-minister-of-finance-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Dipak Patel v Minister of Finance &amp; Attorney-General (5 of 2020) [2020] ZMCC 6 (16 October 2020)",
+  "citation": "[2020] ZMCC 6 [2020] ZMCC 6 ' data-confirmation=\"Copied!\"> Copy",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Dipak Patel v Minister of Finance &amp; Attorney-General",
+  "case_number": "5 of 2020",
+  "date_decided": "2020-10-16",
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "JCC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional law"
+  ],
+  "outcome": "refused",
+  "outcome_detail": "ntravenes the Constitution or to declare it unconstitutional. Further, that the Court refused to delve into the contents of the Constitution of Zambia (Amendment) Bill No. 10 of 2019 (Bill No. 10 of 2019) because",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "71b67779ce7f040456b9d3ccb8d6432e6769d666919ffb93263b34b12e3a4196",
+  "source_url": "https://zambialii.org/judgment-zm-2020-zmcc-06-dipak-patel-v-minister-of-finance-attorney-general",
+  "source_hash": "sha256:7c5e3bde114a130c42b8a0d7cc086c49797bdcce64183941de8e79574af281df",
+  "fetched_at": "2026-05-19T08:22:25Z",
+  "parser_version": "0.3.2"
+}

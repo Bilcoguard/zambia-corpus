@@ -1,4 +1,40 @@
 judges:
+- canonical_name: '15th March 2022 For the First Appellant: Mr. B. C. Mutale'
+  titles:
+  - title: SC
+    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - '15th March 2022 For the First Appellant: Mr. B. C. Mutale SC'
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: '17th February 2022. For the 1st Appellant: Mr. Nchima Nchito'
+  titles:
+  - title: SC
+    first_seen_in: judgment-zm-2022-zmsc-04-m-membe-and-post-newspapers-ltd-in-liquidation-v-m
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - '17th February 2022. For the 1st Appellant: Mr. Nchima Nchito SC'
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: 18th March 2020
+  titles:
+  - title: JJS
+    first_seen_in: judgment-zm-2020-zmsc-02-chen-den-limited-others-v-ims-financial-services-l
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - 18th March 2020 JJS
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: 1st February
+  titles:
+  - title: CJ
+    first_seen_in: judgment-zm-2022-zmsc-05-mazuba-v-people
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - 1st February CJ
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
 - canonical_name: '2'
   titles:
   - title: JJA
@@ -8,6 +44,82 @@ judges:
   - 2 JJA
   first_seen: '2026-05-18T18:54:22Z'
   court: Court of Appeal
+- canonical_name: '2020'
+  titles:
+  - title: JJS
+    first_seen_in: judgment-zm-2020-zmsc-115-stephan-mwaba-v-the-people
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - 2020 JJS
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: '2021'
+  titles:
+  - title: SC
+    first_seen_in: judgment-zm-2022-zmsc-04-m-membe-and-post-newspapers-ltd-in-liquidation-v-m
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - 2021 SC
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: '2022'
+  titles:
+  - title: CJ
+    first_seen_in: judgment-zm-2022-zmsc-05-mazuba-v-people
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - 2022 CJ
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: 27th October
+  titles:
+  - title: JJS
+    first_seen_in: judgment-zm-2021-zmsc-39-van-blerk-v-the-attorney-general-and-ors
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - 27th October JJS
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: 8th December
+  titles:
+  - title: JJS
+    first_seen_in: judgment-zm-2020-zmsc-115-stephan-mwaba-v-the-people
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - 8th December JJS
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: 'A. Kasolo of Messrs Mulilansolo Chambers For the Second Respondent:
+    In Person'
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - 'A. Kasolo of Messrs Mulilansolo Chambers For the Second Respondent: In Person
+    J'
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: A. Wright of Messrs Wright Chambers
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - A. Wright of Messrs Wright Chambers J
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: 'Attorney-General’s chambers For the First Respondent: Mr. H. H.
+    Ndhlovu SC of Messrs H. H. Ndhlovu'
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - 'Attorney-General’s chambers For the First Respondent: Mr. H. H. Ndhlovu SC of
+    Messrs H. H. Ndhlovu J'
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
 - canonical_name: Banda-Bobo
   titles:
   - title: JJA
@@ -17,6 +129,15 @@ judges:
   - Banda-Bobo JJA
   first_seen: '2026-05-11T07:37:27Z'
   court: Court of Appeal
+- canonical_name: C. Hamwela
+  titles:
+  - title: SC
+    first_seen_in: judgment-zm-2022-zmsc-04-m-membe-and-post-newspapers-ltd-in-liquidation-v-m
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - C. Hamwela SC
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
 - canonical_name: Chashi
   titles:
   - title: JJA
@@ -65,6 +186,24 @@ judges:
   - Chibomba PC
   - Chibomba JJS
   first_seen: '2026-04-30T03:09:01Z'
+- canonical_name: Chibomba PC Mulenga JCC Mulonda
+  titles:
+  - title: JCC
+    first_seen_in: judgment-zm-2020-zmcc-12-levy-mwale-v-zambia-national-broadcasting-corporat
+    first_seen_at: '2026-05-19T08:22:56Z'
+  aliases:
+  - Chibomba PC Mulenga JCC Mulonda JCC
+  first_seen: '2026-05-19T08:22:56Z'
+  court: Constitutional Court of Zambia
+- canonical_name: Chibomba PC Sitali JCC Mulenga JCC Mulonda JCC Musaluke
+  titles:
+  - title: JCC
+    first_seen_in: judgment-zm-2020-zmcc-05-owen-mayapi-others-v-attorney-general
+    first_seen_at: '2026-05-19T08:22:56Z'
+  aliases:
+  - Chibomba PC Sitali JCC Mulenga JCC Mulonda JCC Musaluke JCC
+  first_seen: '2026-05-19T08:22:56Z'
+  court: Constitutional Court of Zambia
 - canonical_name: Chinyama
   titles:
   - title: J
@@ -91,9 +230,13 @@ judges:
   - title: JS
     first_seen_in: judgment-zm-2023-zmsc-09-hamuguyu-v-the-people
     first_seen_at: '2026-05-04T14:57:56Z'
+  - title: J
+    first_seen_in: judgment-zm-2022-zmsc-01-bank-of-zambia-as-liquidator-of-credit-africa-bank
+    first_seen_at: '2026-05-19T08:22:56Z'
   aliases:
   - Chisanga JJS
   - Chisanga JS
+  - Chisanga J
   first_seen: '2026-05-03T18:14:01Z'
 - canonical_name: Chishimba
   titles:
@@ -137,6 +280,51 @@ judges:
   aliases:
   - Chibomba PC Mulenga JC Mulonda JC Musaluke JC Chitambo JC
   first_seen: '2026-04-30T03:10:27Z'
+- canonical_name: Co
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - Co J
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: Company
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - Company J
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: Deputy Chief State Advocate
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - Deputy Chief State Advocate J
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: E. B. Mwansa SC of Messrs E. B. M. Chambers
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - E. B. Mwansa SC of Messrs E. B. M. Chambers J
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: E. M. Hamaundu
+  titles:
+  - title: JJS
+    first_seen_in: judgment-zm-2022-zmsc-02-mulenga-and-anor-v-fundafunda-and-ors
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - E. M. Hamaundu JJS
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
 - canonical_name: Hamaundu
   titles:
   - title: JJS
@@ -152,6 +340,15 @@ judges:
   - E. M. Hamaundu
   - Hamaundu J
   first_seen: '2026-05-03T17:14:01Z'
+- canonical_name: J. Madaika of Messrs
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - J. Madaika of Messrs J
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
 - canonical_name: JJA
   titles:
   - title: J
@@ -161,6 +358,42 @@ judges:
   - JJA J
   first_seen: '2026-05-11T07:33:47Z'
   court: Court of Appeal
+- canonical_name: JJS on 13th July 2021
+  titles:
+  - title: CJ
+    first_seen_in: judgment-zm-2022-zmsc-05-mazuba-v-people
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - JJS on 13th July 2021 CJ
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: JJS On 1st December
+  titles:
+  - title: JJS
+    first_seen_in: judgment-zm-2020-zmsc-115-stephan-mwaba-v-the-people
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - JJS On 1st December JJS
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: JJS On 4th February 2020
+  titles:
+  - title: JJS
+    first_seen_in: judgment-zm-2020-zmsc-02-chen-den-limited-others-v-ims-financial-services-l
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - JJS On 4th February 2020 JJS
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: JJS On 6th October
+  titles:
+  - title: JJS
+    first_seen_in: judgment-zm-2021-zmsc-39-van-blerk-v-the-attorney-general-and-ors
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - JJS On 6th October JJS
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
 - canonical_name: Kabuka
   titles:
   - title: JJS
@@ -174,6 +407,15 @@ judges:
   - Kabuka JS
   - Kabuka
   first_seen: '2026-05-03T17:14:01Z'
+- canonical_name: Kajimanaga
+  titles:
+  - title: JJS
+    first_seen_in: judgment-zm-2020-zmsc-02-chen-den-limited-others-v-ims-financial-services-l
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - Kajimanaga JJS
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
 - canonical_name: Kajimanga
   titles:
   - title: JJS
@@ -240,6 +482,51 @@ judges:
   - Kondolo SC JJA
   first_seen: '2026-05-11T10:18:00Z'
   court: Court of Appeal
+- canonical_name: Lisimba Advocates
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - Lisimba Advocates J
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: M Advocates
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - M Advocates J
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: M. B. Mutemwa SC of Messrs Mutemwa Chambers
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - M. B. Mutemwa SC of Messrs Mutemwa Chambers J
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: M. Lisimba of Messrs Mambwe Siwila
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - M. Lisimba of Messrs Mambwe Siwila J
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
+- canonical_name: M. Mukuka of Messrs Ellis
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - M. Mukuka of Messrs Ellis J
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
 - canonical_name: Majula
   titles:
   - title: JJA
@@ -315,6 +602,17 @@ judges:
   - Mchenga Chishimba Majula JJA
   first_seen: '2026-05-18T15:16:51Z'
   court: Court of Appeal
+- canonical_name: 'Ms. N. Chibuye of Messrs Nchito & Nchito For the 2nd Appellant:
+    No Appearance'
+  titles:
+  - title: SC
+    first_seen_in: judgment-zm-2022-zmsc-04-m-membe-and-post-newspapers-ltd-in-liquidation-v-m
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - 'Ms. N. Chibuye of Messrs Nchito & Nchito For the 2nd Appellant: No Appearance
+    SC'
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
 - canonical_name: Mulembe
   titles:
   - title: JCC
@@ -481,6 +779,15 @@ judges:
   - Hon. Mr. Justice Nigel K. Mutuna
   - Mutuna JS
   first_seen: '2026-05-03T17:14:01Z'
+- canonical_name: Mutuna JJS On 19t4 January 2022
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - Mutuna JJS On 19t4 January 2022 J
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
 - canonical_name: Muyovwe
   titles:
   - title: JS
@@ -533,6 +840,15 @@ judges:
   - Ngulube JJA
   first_seen: '2026-05-11T07:37:27Z'
   court: Court of Appeal
+- canonical_name: on 10th August
+  titles:
+  - title: SC
+    first_seen_in: judgment-zm-2022-zmsc-04-m-membe-and-post-newspapers-ltd-in-liquidation-v-m
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - on 10th August SC
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
 - canonical_name: Pate!
   titles:
   - title: JJA
@@ -559,6 +875,17 @@ judges:
   aliases:
   - Sharpe -Phiri JJA
   first_seen: '2026-05-04T09:20:09Z'
+- canonical_name: 'S. Kaingu - In- House Counsel for Bank of Zambia For the Second
+    Appellant: Mr. M. M. Lukwasa'
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
+    first_seen_at: '2026-05-19T07:53:49Z'
+  aliases:
+  - 'S. Kaingu - In- House Counsel for Bank of Zambia For the Second Appellant: Mr.
+    M. M. Lukwasa J'
+  first_seen: '2026-05-19T07:53:49Z'
+  court: Supreme Court of Zambia
 - canonical_name: Sharpe-Phiri
   titles:
   - title: JJA
@@ -630,6 +957,24 @@ judges:
   - Sitali JJC
   - Sitali JCC
   first_seen: '2026-04-29T16:06:58Z'
+- canonical_name: Sitali JCC Mulenga JCC Mulonda JCC Munalula JCC Mulongoti
+  titles:
+  - title: JCC
+    first_seen_in: judgment-zm-2022-zmcc-14-malanji-v-mulenga-and-anor
+    first_seen_at: '2026-05-19T08:22:56Z'
+  aliases:
+  - Sitali JCC Mulenga JCC Mulonda JCC Munalula JCC Mulongoti JCC
+  first_seen: '2026-05-19T08:22:56Z'
+  court: Constitutional Court of Zambia
+- canonical_name: Unknown
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2018-zmcc-15-subulwa-v-mandandi
+    first_seen_at: '2026-05-19T08:18:09Z'
+  aliases:
+  - Unknown J
+  first_seen: '2026-05-19T08:18:09Z'
+  court: Constitutional Court of Zambia
 - canonical_name: Wood
   titles:
   - title: JJS
@@ -849,308 +1194,3 @@ judges:
     title_history:
     - title: JJC
       from: unknown
-- canonical_name: Kajimanaga
-  titles:
-  - title: JJS
-    first_seen_in: judgment-zm-2020-zmsc-02-chen-den-limited-others-v-ims-financial-services-l
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - Kajimanaga JJS
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: JJS On 4th February 2020
-  titles:
-  - title: JJS
-    first_seen_in: judgment-zm-2020-zmsc-02-chen-den-limited-others-v-ims-financial-services-l
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - JJS On 4th February 2020 JJS
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: 18th March 2020
-  titles:
-  - title: JJS
-    first_seen_in: judgment-zm-2020-zmsc-02-chen-den-limited-others-v-ims-financial-services-l
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - 18th March 2020 JJS
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: JJS On 1st December
-  titles:
-  - title: JJS
-    first_seen_in: judgment-zm-2020-zmsc-115-stephan-mwaba-v-the-people
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - JJS On 1st December JJS
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: '2020'
-  titles:
-  - title: JJS
-    first_seen_in: judgment-zm-2020-zmsc-115-stephan-mwaba-v-the-people
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - 2020 JJS
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: 8th December
-  titles:
-  - title: JJS
-    first_seen_in: judgment-zm-2020-zmsc-115-stephan-mwaba-v-the-people
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - 8th December JJS
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: JJS On 6th October
-  titles:
-  - title: JJS
-    first_seen_in: judgment-zm-2021-zmsc-39-van-blerk-v-the-attorney-general-and-ors
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - JJS On 6th October JJS
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: 27th October
-  titles:
-  - title: JJS
-    first_seen_in: judgment-zm-2021-zmsc-39-van-blerk-v-the-attorney-general-and-ors
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - 27th October JJS
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: E. M. Hamaundu
-  titles:
-  - title: JJS
-    first_seen_in: judgment-zm-2022-zmsc-02-mulenga-and-anor-v-fundafunda-and-ors
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - E. M. Hamaundu JJS
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: on 10th August
-  titles:
-  - title: SC
-    first_seen_in: judgment-zm-2022-zmsc-04-m-membe-and-post-newspapers-ltd-in-liquidation-v-m
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - on 10th August SC
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: '2021'
-  titles:
-  - title: SC
-    first_seen_in: judgment-zm-2022-zmsc-04-m-membe-and-post-newspapers-ltd-in-liquidation-v-m
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - 2021 SC
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: '17th February 2022. For the 1st Appellant: Mr. Nchima Nchito'
-  titles:
-  - title: SC
-    first_seen_in: judgment-zm-2022-zmsc-04-m-membe-and-post-newspapers-ltd-in-liquidation-v-m
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - '17th February 2022. For the 1st Appellant: Mr. Nchima Nchito SC'
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: C. Hamwela
-  titles:
-  - title: SC
-    first_seen_in: judgment-zm-2022-zmsc-04-m-membe-and-post-newspapers-ltd-in-liquidation-v-m
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - C. Hamwela SC
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: 'Ms. N. Chibuye of Messrs Nchito & Nchito For the 2nd Appellant:
-    No Appearance'
-  titles:
-  - title: SC
-    first_seen_in: judgment-zm-2022-zmsc-04-m-membe-and-post-newspapers-ltd-in-liquidation-v-m
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - 'Ms. N. Chibuye of Messrs Nchito & Nchito For the 2nd Appellant: No Appearance
-    SC'
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: JJS on 13th July 2021
-  titles:
-  - title: CJ
-    first_seen_in: judgment-zm-2022-zmsc-05-mazuba-v-people
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - JJS on 13th July 2021 CJ
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: 1st February
-  titles:
-  - title: CJ
-    first_seen_in: judgment-zm-2022-zmsc-05-mazuba-v-people
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - 1st February CJ
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: '2022'
-  titles:
-  - title: CJ
-    first_seen_in: judgment-zm-2022-zmsc-05-mazuba-v-people
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - 2022 CJ
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: Mutuna JJS On 19t4 January 2022
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - Mutuna JJS On 19t4 January 2022 J
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: '15th March 2022 For the First Appellant: Mr. B. C. Mutale'
-  titles:
-  - title: SC
-    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - '15th March 2022 For the First Appellant: Mr. B. C. Mutale SC'
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: M. Mukuka of Messrs Ellis
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - M. Mukuka of Messrs Ellis J
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: Co
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - Co J
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: 'S. Kaingu - In- House Counsel for Bank of Zambia For the Second
-    Appellant: Mr. M. M. Lukwasa'
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - 'S. Kaingu - In- House Counsel for Bank of Zambia For the Second Appellant: Mr.
-    M. M. Lukwasa J'
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: Deputy Chief State Advocate
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - Deputy Chief State Advocate J
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: 'Attorney-General’s chambers For the First Respondent: Mr. H. H.
-    Ndhlovu SC of Messrs H. H. Ndhlovu'
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - 'Attorney-General’s chambers For the First Respondent: Mr. H. H. Ndhlovu SC of
-    Messrs H. H. Ndhlovu J'
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: Company
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - Company J
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: E. B. Mwansa SC of Messrs E. B. M. Chambers
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - E. B. Mwansa SC of Messrs E. B. M. Chambers J
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: M. B. Mutemwa SC of Messrs Mutemwa Chambers
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - M. B. Mutemwa SC of Messrs Mutemwa Chambers J
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: M. Lisimba of Messrs Mambwe Siwila
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - M. Lisimba of Messrs Mambwe Siwila J
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: Lisimba Advocates
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - Lisimba Advocates J
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: A. Wright of Messrs Wright Chambers
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - A. Wright of Messrs Wright Chambers J
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: J. Madaika of Messrs
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - J. Madaika of Messrs J
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: M Advocates
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - M Advocates J
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia
-- canonical_name: 'A. Kasolo of Messrs Mulilansolo Chambers For the Second Respondent:
-    In Person'
-  titles:
-  - title: J
-    first_seen_in: judgment-zm-2022-zmsc-09-first-merchant-bank-zambia-ltd-in-liquidation-v-at
-    first_seen_at: '2026-05-19T07:53:49Z'
-  aliases:
-  - 'A. Kasolo of Messrs Mulilansolo Chambers For the Second Respondent: In Person
-    J'
-  first_seen: '2026-05-19T07:53:49Z'
-  court: Supreme Court of Zambia

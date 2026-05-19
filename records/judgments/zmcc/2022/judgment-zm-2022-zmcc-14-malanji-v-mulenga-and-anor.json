@@ -1,0 +1,32 @@
+{
+  "id": "judgment-zm-2022-zmcc-14-malanji-v-mulenga-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Malanji v Mulenga and Anor (CCZ/A 21 of 2021) [2022] ZMCC 14 (3 August 2022)",
+  "citation": "[2022] ZMCC 14 [2022] ZMCC 14 ' data-confirmation=\"Copied!\"> Copy",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Malanji v Mulenga and Anor",
+  "case_number": "CCZ/A 21 of 2021",
+  "date_decided": "2022-08-03",
+  "judges": [
+    {
+      "name": "Sitali JCC Mulenga JCC Mulonda JCC Munalula JCC Mulongoti",
+      "role": "JCC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional law",
+    "appeal procedure",
+    "land law"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "re and in the Court below. J42 [97 ] All the substantive grounds having failed we dismiss the appeal and uphold the trial Judge’s decision to declare the Kwacha Constituency seat vacant. A. M. SITALI Constitutional Court",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "c0cf103a3d0cf7b0eecbb93738811450b79c27beddaf4603b6b84e1a92846059",
+  "source_url": "https://zambialii.org/judgment-zm-2022-zmcc-14-malanji-v-mulenga-and-anor",
+  "source_hash": "sha256:74d3cfe6a012232305eef342a2636659b399ee3ab63e6bc2027641d963e87be8",
+  "fetched_at": "2026-05-19T08:22:42Z",
+  "parser_version": "0.3.2"
+}

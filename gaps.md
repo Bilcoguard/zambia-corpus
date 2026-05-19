@@ -12403,3 +12403,47 @@ None this tick. Carry-forward audit-trail items `judgment-zm-2024-coa-024-kingfr
 - Inserted: 8 records
 - Deferred: 40
 - Remaining unparsed candidates (approx): 203
+
+## b0725-phase8 — Phase 8 nightly re-verification (2026-05-19T08:03Z) — AUDIT-ONLY ENTRY
+
+Tick b0725 sampled 8 of 1989 records (sample_rate 0.01, seed `phase8-reverify-2026-05-19-b0725`). Results: 1 match, 7 drift, 0 fetch_error. 8× HTTP 200. All 9 integrity checks PASS.
+
+### Drifts (7)
+
+- **NEW AUDIT-TRAIL ITEM** — `act-zm-2008-006-excess-expenditure-appropriation-2005` — host `www.parliament.gov.zm`, parliament.gov.zm `documents/acts/*.pdf` (`https://www.parliament.gov.zm/sites/default/files/documents/acts/Supplementary%20Appropriation%20%282006%29%2C%202008.pdf`); stored=`sha256:a09c5a90ce68adcc9088c07ed52d24ab1322dd820292a5b7e7c948aebcdd4693` fetched=`953f8660db75426d9872082e8ae2d84852642651dc66c99db04cfa54d35ab4dd`; verdict: first observed drift in the `parliament.gov.zm` acts-PDF supercohort within the Phase 8 window. Prior baseline expectation (per b0724 and earlier ticks) was that this cohort matches stably. Hypotheses (in order of likelihood): (a) server-side PDF replacement (re-OCR, re-stamp, or metadata-only re-write yielding new bytes for identical legal text) (b) URL-level redirect / content-negotiation churn returning a slightly different bytestream (c) substantive replacement (least likely for a 2008 Supplementary Appropriation Act). Recommended next step (operator-triage, no automatic action this tick): treat as audit-only; wait for ≥ 1 more independent observation in subsequent Phase 8 sweeps before triggering any remediation. No record mutation this tick.
+- `judgment-zm-2020-zmcc-17-mulubisha-v-attorney-general` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/judgment/zmcc/2020/17/eng@2020-04-24`); stored=`sha256:776c90efde18…` fetched=`2835bf7f89f6d4bd7da3c8f40e96269d2bc43eb24aee5c4c40acfc8db9717947`; verdict: dynamic-render churn on the CC judgment HTML rendering, legal content unchanged. (`zambialii_akn_html_dynamic_render_drift` cohort)
+- `act-zm-2022-005-bank-of-zambia-act-2022` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/2022/5/eng@2022-07-29`); stored=`sha256:87cfc74b11b6…` fetched=`e245b1462933e153e0f09bd5bfba0f1f30bf5584bb682994947f9bf222cb24bd`; verdict: dynamic-render churn on the English point-in-time HTML rendering, legal content unchanged. (`zambialii_akn_html_dynamic_render_drift` cohort)
+- `act-zm-1994-040-supplementary-appropriation-1992-act` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1994/40/eng@1994-12-31`); stored=`sha256:083c92621189…` fetched=`9e26901cb59fa39295c021a274472c7141856935d51fe368527fade961fadae5`; verdict: dynamic-render churn on the English point-in-time HTML rendering, legal content unchanged. (`zambialii_akn_html_dynamic_render_drift` cohort)
+- `act-zm-1965-023-national-flag-and-armorial-ensigns-act-1965` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1965/23/eng@1996-12-31`); stored=`sha256:cf79bb06c539…` fetched=`3a512a889c0673fbe855bc22280ef5389a6416d5a2e292ee22ad017441ede272`; verdict: dynamic-render churn on the English point-in-time HTML rendering, legal content unchanged. (`zambialii_akn_html_dynamic_render_drift` cohort)
+- `si-zm-2016-041-zambia-wildlife-game-animals-order-2016` — host `zambialii.org`, AKN bare-path SI (`/akn/zm/act/si/2016/41`); stored=`sha256:92377a01b046…` fetched=`b3ceee6b3b20e8cb65b2ba23f0cba3f14559a70d956ba10d3530f75a25ae6565`; verdict: dynamic-render churn on the 302-redirected English point-in-time HTML rendering, legal content unchanged. (`zambialii_akn_html_dynamic_render_drift` cohort)
+- `judgment-zm-2025-zmsc-06-zambia-telecommunication-company-v-felix-musonda-a` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/judgment/zmsc/2025/6/eng@2025-02-12`); stored=`sha256:f61382e84694…` fetched=`170c61358941c5db2e59c0353b584b95ddbc4b90b2f5957f4162f416b61def22`; verdict: dynamic-render churn on the ZMSC judgment HTML rendering, legal content unchanged. (`zambialii_akn_html_dynamic_render_drift` cohort)
+
+### Matches (1) — stable-PDF supercohort
+
+- `si-zm-2018-092-national-health-research-material-transfer-regulations-2018` — host `zambialii.org`, ZambiaLII `source.pdf` sub-variant (`/akn/zm/act/si/2018/92/eng@2018-12-07/source.pdf`); hash unchanged (`c1179914…`) — zambialii source.pdf supercohort match.
+
+### Fetch errors (0)
+
+None this tick. Carry-forward audit-trail items `judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-ltd` (b0717 first-observation 404) and `judgment-zm-2025-zmcc-14` (b0700 canonical-URL-date variant 404) were NOT in this tick's sample; no new observations; both remain under audit-only watch.
+
+## phase8_reverify_drift
+- batch: 0725
+- detected_at: 2026-05-19T08:04:34Z
+- cohort: zambialii_akn_html_dynamic_render_drift (×6: ×5 eng@-suffixed sub-variant, ×1 bare-AKN-path sub-variant) + parliament_gov_zm_acts_pdf_first_observed_drift (×1)
+- pool_size: 1989
+- sample_size: 8
+- match: 1
+- drift: 7
+- fetch_error: 0
+- records_mutated: 0
+
+## JIW b0725-jiw — reparse-deferred-zambialii sweep (v3, scratch-DB workaround)
+- Date: 2026-05-19T08:22:59Z
+- Cohort: ZambiaLII judgment PDFs (raw/zambialii/judgments/*) not yet in corpus
+- Inserted: 8 records
+- Deferred this tick: 115
+- Remaining unparsed candidates (approx): 153
+- Note: virtiofs-mounted DB threw `disk I/O error` on every write; recovered by
+  doing all SQL writes against a local-disk scratch copy of corpus.sqlite
+  (/sessions/elegant-gifted-brown/scratch/corpus.sqlite) and atomically
+  copying back to the live DB once integrity checks passed in scratch.

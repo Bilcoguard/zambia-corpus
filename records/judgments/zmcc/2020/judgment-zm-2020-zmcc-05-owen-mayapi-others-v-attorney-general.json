@@ -1,0 +1,33 @@
+{
+  "id": "judgment-zm-2020-zmcc-05-owen-mayapi-others-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Owen Mayapi &amp; Others v Attorney-General (3 of 2019) [2020] ZMCC 5 (20 May 2020)",
+  "citation": "[2020] ZMCC 5 [2020] ZMCC 5 ' data-confirmation=\"Copied!\"> Copy",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Owen Mayapi &amp; Others v Attorney-General",
+  "case_number": "3 of 2019",
+  "date_decided": "2020-05-20",
+  "judges": [
+    {
+      "name": "Chibomba PC Sitali JCC Mulenga JCC Mulonda JCC Musaluke",
+      "role": "JCC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional law",
+    "employment law",
+    "land law",
+    "company law"
+  ],
+  "outcome": "granted",
+  "outcome_detail": "ired personnel retained on the payroll were only to receive their basic salary. We hereby grant the declaration that Circular No. B21 of 2018, to the extent that it limits the payment to be made to the Petitioners t",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "646510a8682f5c263967f28932ae21013155a56580fd665431df85c7693f03b7",
+  "source_url": "https://zambialii.org/judgment-zm-2020-zmcc-05-owen-mayapi-others-v-attorney-general",
+  "source_hash": "sha256:e8fb4df2a55be7604b1e7d9be9eb6eb1777ff2cec375cbbce4b8148f62ea47cb",
+  "fetched_at": "2026-05-19T08:22:24Z",
+  "parser_version": "0.3.2"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "judgment-zm-2020-zmcc-12-levy-mwale-v-zambia-national-broadcasting-corporat",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Levy Mwale v Zambia National Broadcasting Corporation (12 of 2020) [2020] ZMCC 12 (10 December 2020)",
+  "citation": "[2020] ZMCC 12 [2020] ZMCC 12 ' data-confirmation=\"Copied!\"> Copy",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Levy Mwale v Zambia National Broadcasting Corporation",
+  "case_number": "12 of 2020",
+  "date_decided": "2020-12-10",
+  "judges": [
+    {
+      "name": "Chibomba PC Mulenga JCC Mulonda",
+      "role": "JCC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional law",
+    "company law"
+  ],
+  "outcome": "granted",
+  "outcome_detail": "this case. J18 G.(cid:9) ORDERS OF THE COURT [38]F or the reasons given above, we grant the Petitioner's first prayer namely a declaration that the Respondent's conduct of removing him from the payroll befor",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "c636be541c7fc6ccca3f226ed249e14a04ac82dd3b4e67980300851fa9092a15",
+  "source_url": "https://zambialii.org/judgment-zm-2020-zmcc-12-levy-mwale-v-zambia-national-broadcasting-corporat",
+  "source_hash": "sha256:066ab74b69b4b904352cfe7f5525945a6f87e76b239e003183a89e09f17b58b9",
+  "fetched_at": "2026-05-19T08:22:26Z",
+  "parser_version": "0.3.2"
+}

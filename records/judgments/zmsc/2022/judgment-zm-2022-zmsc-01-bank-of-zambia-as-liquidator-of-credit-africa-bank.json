@@ -1,0 +1,32 @@
+{
+  "id": "judgment-zm-2022-zmsc-01-bank-of-zambia-as-liquidator-of-credit-africa-bank",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Bank of Zambia (As Liquidator of Credit Africa Bank Ltd Liquidation) v Al Shams Building Materials Trading Company Ltd (Appeal 16 of 2017) [2022] ZMSC 1 (3 January 2022)",
+  "citation": "[2022] ZMSC 1 [2022] ZMSC 1 ' data-confirmation=\"Copied!\"> Copy",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Bank of Zambia",
+  "case_number": "Appeal 16 of 2017",
+  "date_decided": "2022-01-03",
+  "judges": [
+    {
+      "name": "Chisanga",
+      "role": "J",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "land law",
+    "company law",
+    "tax law"
+  ],
+  "outcome": "set-aside",
+  "outcome_detail": "the notes to the said Order, it is explained, at 42/3/2, that where a judgement is set aside by the Court of Appeal and another judgement ordered to be entered in its place, the practice is to date the second jud",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "27ac7303c94fde50b02dd34f98deabc89f01e5657539d5f85e48bc1e3fd83138",
+  "source_url": "https://zambialii.org/judgment-zm-2022-zmsc-01-bank-of-zambia-as-liquidator-of-credit-africa-bank",
+  "source_hash": "sha256:7a0573abadd5af2f98e3f67acb95ab448cb91f2d4b0e687f566dab8a89bfe5f2",
+  "fetched_at": "2026-05-19T08:22:56Z",
+  "parser_version": "0.3.2"
+}

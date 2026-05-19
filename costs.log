@@ -6987,3 +6987,10 @@ b0710-jiw	2026-05-18T18:09:18Z	fetch_html_urllib	bytes=180885	sec=2.42
 2026-05-19T07:53:49Z	b0723-jiw	fetches=0	retry_fetches=0	records_written=8	records_deferred=40	worker=judgment-ingestion-worker	cumulative_today=~0/500	cohort=reparse-deferred-zambialii-judgments
 2026-05-19T07:53:49Z	b0723-jiw	BANDWIDTH	total_bytes=0	source=disk-reparse-zambialii
 2026-05-19T07:53:49Z	b0723-jiw	INTEGRITY	records=1986	records_fts=1986	pass=True
+2026-05-19T08:04:34Z	b0725-phase8	fetches=8	tokens=0	worker=phase8-nightly-reverify	cumulative_today=~16/2000	cohort=phase8-1pct-sample
+2026-05-19T08:04:34Z	b0725-phase8	BANDWIDTH	total_bytes=1543332	source=parliament.gov.zm+zambialii.org
+2026-05-19T08:04:34Z	b0725-phase8	INTEGRITY	all-checks=PASS	quick_check=ok	records=1986	records_fts=1986	dup_ids=0	tick-verdict=COMMIT-normal-path
+2026-05-19T08:04:34Z	b0725-phase8	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox-Phase-8-is-read-only-no-corpus-mutation-anyway
+2026-05-19T08:22:59Z	b0725-jiw	fetches=0	retry_fetches=0	records_written=8	records_deferred=115	worker=judgment-ingestion-worker	cumulative_today=~0/500	cohort=reparse-deferred-zambialii-judgments
+2026-05-19T08:22:59Z	b0725-jiw	BANDWIDTH	total_bytes=0	source=disk-reparse-zambialii
+2026-05-19T08:22:59Z	b0725-jiw	INTEGRITY	records=1994	records_fts=1994	pass=True
