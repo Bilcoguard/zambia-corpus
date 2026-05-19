@@ -1,0 +1,41 @@
+{
+  "id": "judgment-zm-2023-zmsc-12-chungu-v-chanda-and-ors",
+  "type": "judgment",
+  "court": "Supreme Court of Zambia",
+  "citation": "[2023] ZMSC 12",
+  "case_name": "Chungu v Chanda and Ors",
+  "case_number": "SCZ/8/02/2023",
+  "date_decided": "2023-06-22",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "CJ",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-law",
+    "land-law",
+    "company-law",
+    "banking-finance",
+    "public-law"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "costs through no fault of his own. 7 conclusion 7.1 for the foregoing reasons, we dismiss this appeal for want of jurisdiction. the parties shall bear this respective costs in this court and in the courts below. m. malila chief justice a. m. wo d supreme court judge ./ sup me court judge •",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "b9e841ac077209900676ad5cda6471f40623084f10b5762439dcf78cf8355a83",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2023/12/eng@2023-06-22/source.pdf",
+  "title": "Chungu v Chanda and Ors",
+  "parser_version": "0.3.3",
+  "fetched_at": "2026-05-19T10:13:54Z",
+  "n_pages": 29
+}

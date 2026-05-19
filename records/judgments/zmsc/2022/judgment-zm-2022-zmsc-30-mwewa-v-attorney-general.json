@@ -1,0 +1,34 @@
+{
+  "id": "judgment-zm-2022-zmsc-30-mwewa-v-attorney-general",
+  "type": "judgment",
+  "court": "Supreme Court of Zambia",
+  "citation": "[2022] ZMSC 30",
+  "case_name": "Mwewa v Attorney General",
+  "case_number": "CAZ 8 30 of 2021",
+  "date_decided": "2022-04-12",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Kajimanga",
+      "role": "J",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "employment-law",
+    "company-law",
+    "public-law"
+  ],
+  "outcome": "granted",
+  "outcome_detail": "tion lacks merit. it is accordingly dismissed. this conclusion notwithstanding, it is ordered that each party shall bear their own costs. c. kajimanga supreme court judge",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "0bedc0feb11b2ce7e0272734251327407f25619dbd99ba167bd88307bcba7b06",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/30/eng@2022-04-12/source.pdf",
+  "title": "Mwewa v Attorney General",
+  "parser_version": "0.3.3",
+  "fetched_at": "2026-05-19T10:13:54Z",
+  "n_pages": 13
+}

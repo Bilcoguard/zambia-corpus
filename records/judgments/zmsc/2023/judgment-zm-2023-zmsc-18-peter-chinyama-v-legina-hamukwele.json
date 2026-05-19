@@ -1,0 +1,45 @@
+{
+  "id": "judgment-zm-2023-zmsc-18-peter-chinyama-v-legina-hamukwele",
+  "type": "judgment",
+  "court": "Supreme Court of Zambia",
+  "citation": "[2023] ZMSC 18",
+  "case_name": "Peter Chinyama v Legina Hamukwele (Sued as Administrator of the Estate of the late Davison Chipuba Chiinda)",
+  "case_number": "APPEAL NO. SCZ/10/2021",
+  "date_decided": "2023-12-06",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Musonda",
+      "role": "DCJ",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "DCJ",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "DCJ",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "land-law",
+    "company-law",
+    "banking-finance",
+    "succession"
+  ],
+  "outcome": "set-aside",
+  "outcome_detail": "he preliminary issue raised by the appellant is upheld. for avoidance of doubt, we set aside the proceedings and the purported judgement in the subordinate ~r16 ~ • court, and the subsequent decision in the high court as they are null and void. they amount to nothing. 2.9 on the view we have taken, the issue raised by mrs. tembo­ tindi, falls away. each party will bear own cost",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "25eb851e41f6e87dc93867a4a7e3e16dcce7169c1fd1e8d433e0208a1842d255",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2023/18/eng@2023-12-06/source.pdf",
+  "title": "Peter Chinyama v Legina Hamukwele (Sued as Administrator of the Estate of the late Davison Chipuba Chiinda)",
+  "parser_version": "0.3.3",
+  "fetched_at": "2026-05-19T10:13:54Z",
+  "n_pages": 17
+}

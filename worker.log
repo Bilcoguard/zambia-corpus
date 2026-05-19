@@ -10825,3 +10825,19 @@ Another git process s
 2026-05-19T10:14:59Z	b0900-repair-rif	Total dedup targets: 0 (cap 8)
 2026-05-19T10:14:59Z	b0900-repair-rif	All repair targets fixed — repair worker idle
 2026-05-19T10:14:59Z	b0900-repair-rif	wrote idle report: reports/repair-idle-20260519T101459Z.json
+2026-05-19T10:14:59Z	b0900-repair-rif	idle commit rc=0 stdout=[main aa12e90] Repair tick b0900-repair-rif: idle (no targets)
+ 3 files changed, 42 insertions(+)
+ create mode 100644 reports/repair-idle-20260519T101459Z.json stderr=warning: unable to unlink '.git/objects/65/tmp_obj_NW02B1': Operation not permitted
+warning: unable to unlink '.git/objects/78/tmp_obj_NCylQ1': Operation not permitted
+warning: unable to unlink '.git/
+2026-05-19T10:15:02Z	b0900-repair-rif	git push rc=0 stderr=To https://github.com/Bilcoguard/zambia-corpus.git
+   fd2be97..aa12e90  main -> main
+2026-05-19T10:15:02Z	b0900-repair-rif	=== TICK END elapsed=5.8s outcome=IDLE ===
+2026-05-19T10:15:42Z	b0727-jiw	=== tick start (resumed; main script crashed at registry step) ===
+2026-05-19T10:15:42Z	b0727-jiw	INSERTED judgment-zm-2024-zmsc-09-frankson-musukwa-suing-on-his-behalf-and-as-the-ex: court=Supreme Court of Zambia outcome=dismissed
+2026-05-19T10:15:42Z	b0727-jiw	INSERTED judgment-zm-2023-zmsc-12-chungu-v-chanda-and-ors: court=Supreme Court of Zambia outcome=dismissed
+2026-05-19T10:15:42Z	b0727-jiw	INSERTED judgment-zm-2023-zmsc-18-peter-chinyama-v-legina-hamukwele: court=Supreme Court of Zambia outcome=set-aside
+2026-05-19T10:15:42Z	b0727-jiw	INSERTED judgment-zm-2022-zmsc-30-mwewa-v-attorney-general: court=Supreme Court of Zambia outcome=granted
+2026-05-19T10:15:42Z	b0727-jiw	added 8 new judge alias entries to registry
+2026-05-19T10:15:42Z	b0727-jiw	integrity PASS: records=2005 fts=2005
+2026-05-19T10:15:42Z	b0727-jiw	=== tick end: +4 records, ~169 deferred ===

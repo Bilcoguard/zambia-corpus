@@ -1198,3 +1198,75 @@ judges:
     title_history:
     - title: JJC
       from: unknown
+- canonical_name: Kaoma
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2024-zmsc-09-frankson-musukwa-suing-on-his-behalf-and-as-the-ex
+    first_seen_at: '2026-05-19T10:15:42Z'
+  aliases:
+  - Kaoma J
+  first_seen: '2026-05-19T10:15:42Z'
+  court: Supreme Court of Zambia
+- canonical_name: Kajimanga
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2024-zmsc-09-frankson-musukwa-suing-on-his-behalf-and-as-the-ex
+    first_seen_at: '2026-05-19T10:15:42Z'
+  aliases:
+  - Kajimanga J
+  first_seen: '2026-05-19T10:15:42Z'
+  court: Supreme Court of Zambia
+- canonical_name: Chisanga
+  titles:
+  - title: J
+    first_seen_in: judgment-zm-2024-zmsc-09-frankson-musukwa-suing-on-his-behalf-and-as-the-ex
+    first_seen_at: '2026-05-19T10:15:42Z'
+  aliases:
+  - Chisanga J
+  first_seen: '2026-05-19T10:15:42Z'
+  court: Supreme Court of Zambia
+- canonical_name: Malila
+  titles:
+  - title: CJ
+    first_seen_in: judgment-zm-2023-zmsc-12-chungu-v-chanda-and-ors
+    first_seen_at: '2026-05-19T10:15:42Z'
+  aliases:
+  - Malila CJ
+  first_seen: '2026-05-19T10:15:42Z'
+  court: Supreme Court of Zambia
+- canonical_name: Wood
+  titles:
+  - title: CJ
+    first_seen_in: judgment-zm-2023-zmsc-12-chungu-v-chanda-and-ors
+    first_seen_at: '2026-05-19T10:15:42Z'
+  aliases:
+  - Wood CJ
+  first_seen: '2026-05-19T10:15:42Z'
+  court: Supreme Court of Zambia
+- canonical_name: Musonda
+  titles:
+  - title: DCJ
+    first_seen_in: judgment-zm-2023-zmsc-18-peter-chinyama-v-legina-hamukwele
+    first_seen_at: '2026-05-19T10:15:42Z'
+  aliases:
+  - Musonda DCJ
+  first_seen: '2026-05-19T10:15:42Z'
+  court: Supreme Court of Zambia
+- canonical_name: Kaoma
+  titles:
+  - title: DCJ
+    first_seen_in: judgment-zm-2023-zmsc-18-peter-chinyama-v-legina-hamukwele
+    first_seen_at: '2026-05-19T10:15:42Z'
+  aliases:
+  - Kaoma DCJ
+  first_seen: '2026-05-19T10:15:42Z'
+  court: Supreme Court of Zambia
+- canonical_name: Chisanga
+  titles:
+  - title: DCJ
+    first_seen_in: judgment-zm-2023-zmsc-18-peter-chinyama-v-legina-hamukwele
+    first_seen_at: '2026-05-19T10:15:42Z'
+  aliases:
+  - Chisanga DCJ
+  first_seen: '2026-05-19T10:15:42Z'
+  court: Supreme Court of Zambia

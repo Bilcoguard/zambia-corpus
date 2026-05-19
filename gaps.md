@@ -12458,3 +12458,14 @@ None this tick. Carry-forward audit-trail items `judgment-zm-2024-coa-024-kingfr
 - judiciary-scz-sweep: page-4 next — unchanged this tick
 - judiciary-zmcc-sweep: page-2 next — unchanged this tick
 - judiciary-hc-sweep: page-3 next — unchanged this tick
+
+## JIW b0727-jiw — reparse-deferred-zambialii sweep (priority a)
+- Date: 2026-05-19T10:15:42Z
+- Cohort: ZambiaLII judgment PDFs (raw/zambialii/judgments/*) not yet in corpus
+- Inserted: 4 records
+- Deferred this tick: 169 (estimate from partial-run logs)
+  - `quality-gate`: 88
+  - `no-outcome-detected`: 76
+  - `no-judges-extracted`: 5
+- Remaining unparsed candidates (approx): 184
+- Note: Initial run crashed at judges-registry-update step (wrong dict assumption — judges_registry.yaml uses list-of-dicts schema). DB write+integrity completed before crash; this finish-script appends registry+logs+gaps+commit.

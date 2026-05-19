@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2024-zmsc-09-frankson-musukwa-suing-on-his-behalf-and-as-the-ex",
+  "type": "judgment",
+  "court": "Supreme Court of Zambia",
+  "citation": "[2024] ZMSC 9",
+  "case_name": "Frankson Musukwa (Suing on his behalf and as the executive director of Zambia deaf youth and women) and Ors v Road Transport and Safety Agency",
+  "case_number": "Appeal No.11 of 2021",
+  "date_decided": "2024-05-16",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Kaoma",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "Kajimanga",
+      "role": "J",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga",
+      "role": "J",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-law",
+    "public-law",
+    "election-petition"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "reedom of movement and non-discrimination were not infringed by the respondent, we dismiss this appeal accordingly. we make no orders for costs. r.m.c. kaoma supreme court judge ............... $ ........... f.m. chisanga supreme court judge j44",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "c3d00816315770dd05036e5fcbfa2b2628b8e87be8ecd89f88a9fa0afd0b1039",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2024/9/eng@2024-05-16/source.pdf",
+  "title": "Frankson Musukwa (Suing on his behalf and as the executive director of Zambia deaf youth and women) and Ors v Road Transport and Safety Agency",
+  "parser_version": "0.3.3",
+  "fetched_at": "2026-05-19T10:13:54Z",
+  "n_pages": 44
+}
