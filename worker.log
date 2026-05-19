@@ -10793,3 +10793,35 @@ sqlite3.OperationalError: disk I/O error
 2026-05-19T09:12:09Z	b0726-jiw	integrity PASS: records=2001 fts=2001
 2026-05-19T09:12:12Z	b0726-jiw	scratch DB copied back to live (atomic os.replace)
 2026-05-19T09:12:12Z	b0726-jiw	wrote report: b0726-jiw.md
+2026-05-19T09:12:12Z	b0726-jiw	git commit rc=0: [main fd2be97] Judgment batch b0726-jiw: +7 reparsed ZambiaLII judgments (zero-fetch; scratch-DB workaround for virtiofs disk-IO errors; corpus.sqlite excluded — GH 100MB limit)
+ 13 files changed, 422 insertions(+)
+ create mode 100644 records/judgments/zmsc/2022/judgment-zm-2022-zmsc-38-mubita-and-o
+2026-05-19T09:12:15Z	b0726-jiw	git push rc=0: To https://github.com/Bilcoguard/zambia-corpus.git
+   1e78d89..fd2be97  main -> main
+
+2026-05-19T09:12:15Z	b0726-jiw	git push OK
+2026-05-19T09:12:15Z	b0726-jiw	=== tick end: +7 records, 146 deferred ===
+2026-05-19T09:15:04Z	b0899-repair-glg	=== TICK START cwd=/sessions/great-lucid-goldberg/mnt/corpus ===
+2026-05-19T09:15:05Z	b0899-repair-glg	git pull ok: Already up to date.
+2026-05-19T09:15:05Z	b0899-repair-glg	records columns: ['id', 'type', 'jurisdiction', 'title', 'citation', 'in_force', 'source_url', 'source_hash', 'fetched_at', 'parser_version', 'on_disk_path', 'body']
+2026-05-19T09:15:05Z	b0899-repair-glg	records_fts columns: ['id', 'title', 'body', 'citation', 'type']
+2026-05-19T09:15:05Z	b0899-repair-glg	judgments_meta table present: True
+2026-05-19T09:15:05Z	b0899-repair-glg	Condition B (no-body acts/sis): 0
+2026-05-19T09:15:05Z	b0899-repair-glg	Condition A (corrupted): 0
+2026-05-19T09:15:05Z	b0899-repair-glg	Condition C (stubs): 0
+2026-05-19T09:15:05Z	b0899-repair-glg	Total dedup targets: 0; MAX_BATCH=8
+2026-05-19T09:15:05Z	b0899-repair-glg	All repair targets fixed — repair worker idle
+2026-05-19T10:14:57Z	b0900-repair-rif	=== TICK START cwd=/sessions/relaxed-intelligent-franklin/mnt/corpus ===
+2026-05-19T10:14:58Z	b0900-repair-rif	git pull rc=128 stdout= stderr=fatal: update_ref failed for ref 'ORIG_HEAD': cannot lock ref 'ORIG_HEAD': Unable to create '/sessions/relaxed-intelligent-franklin/mnt/corpus/.git/ORIG_HEAD.lock': File exists.
+
+Another git process s
+2026-05-19T10:14:58Z	b0900-repair-rif	  fetch fallback rc=0 stderr=
+2026-05-19T10:14:58Z	b0900-repair-rif	records columns: ['id', 'type', 'jurisdiction', 'title', 'citation', 'in_force', 'source_url', 'source_hash', 'fetched_at', 'parser_version', 'on_disk_path', 'body']
+2026-05-19T10:14:59Z	b0900-repair-rif	records_fts columns: ['id', 'title', 'body', 'citation', 'type']
+2026-05-19T10:14:59Z	b0900-repair-rif	judgments_meta present: True
+2026-05-19T10:14:59Z	b0900-repair-rif	Condition B (no-body acts/sis): 0
+2026-05-19T10:14:59Z	b0900-repair-rif	Condition A (corrupted/digit-only): 0
+2026-05-19T10:14:59Z	b0900-repair-rif	Condition C (stubs <200): 0
+2026-05-19T10:14:59Z	b0900-repair-rif	Total dedup targets: 0 (cap 8)
+2026-05-19T10:14:59Z	b0900-repair-rif	All repair targets fixed — repair worker idle
+2026-05-19T10:14:59Z	b0900-repair-rif	wrote idle report: reports/repair-idle-20260519T101459Z.json
