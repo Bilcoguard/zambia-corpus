@@ -10278,3 +10278,14 @@ may
 [2026-05-18T23:13:07Z] [repair-worker] [tick r-20260518T231306Z] git pull OK: Already up to date.
 [2026-05-18T23:13:07Z] [repair-worker] [tick r-20260518T231306Z] Repair candidates: cond_a (corrupted)=0, cond_b (missing)=0, cond_c (stub)=0
 [2026-05-18T23:13:07Z] [repair-worker] [tick r-20260518T231306Z] All repair targets fixed — repair worker idle
+[2026-05-18T23:13:10Z] [repair-worker] [tick r-20260518T231306Z] git commit (idle): rc=0
+[2026-05-18T23:13:13Z] [repair-worker] [tick r-20260518T231306Z] git push (idle): rc=0 To https://github.com/Bilcoguard/zambia-corpus.git
+   1fda5b7..5002ba4  main -> main
+[2026-05-19T00:15:21Z] b0708 === TICK START b0708 cwd=/sessions/fervent-stoic-knuth/mnt/corpus ===
+[2026-05-19T00:15:22Z] b0708 git fetch rc=0 stderr=warning: unable to unlink '/sessions/fervent-stoic-knuth/mnt/corpus/.git/objects/maintenance.lock': Operation not permitted
+[2026-05-19T00:15:22Z] b0708 local HEAD=5002ba49b95b origin/main=5002ba49b95b
+[2026-05-19T00:15:22Z] b0708 Condition B (no-body acts/sis): 0
+[2026-05-19T00:15:22Z] b0708 Condition A (corrupted line-numbers-only): 0
+[2026-05-19T00:15:22Z] b0708 Condition C (stubs <200 chars): 0
+[2026-05-19T00:15:22Z] b0708 Total dedup targets: 0; MAX_BATCH=8
+[2026-05-19T00:15:22Z] b0708 All repair targets fixed — repair worker idle
