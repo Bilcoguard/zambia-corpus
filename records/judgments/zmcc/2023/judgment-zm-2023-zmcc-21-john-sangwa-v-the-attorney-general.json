@@ -1,0 +1,61 @@
+{
+  "id": "judgment-zm-2023-zmcc-21-john-sangwa-v-the-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "John Sangwa v The Attorney General (160/2013) [2023] ZMCC 21 (2023-04-17)",
+  "citation": "[2023] ZMCC 21",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "John Sangwa v The Attorney General",
+  "case_number": "160/2013",
+  "date_decided": "2023-04-17",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "MULONDA",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "MULENGA",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "MUSALUKE",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "CHISUNKA",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "MULONGOTI",
+      "role": "JJC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "banking-finance",
+    "property",
+    "procedure",
+    "constitutional-law",
+    "public-law",
+    "electoral-law"
+  ],
+  "outcome": "set-aside",
+  "outcome_detail": "Chief State Advocate\nand Mrs. K. F. Mumba - Phiri, Acting Senior\nState Advocate\nJUDGMENT\nMusaluke, JC, delivered the Judgment of the Court.\nJ1\nJ\nCases referred to:\n1. Ex parte Gauteng Provincial Legislature: In re Dispute Concerning the\nConstitutionality of Certain Provisions of the Gauteng School Education Bill of 1995\n(1996) 3 SA 165 (CC)\n2. British Columbia (Minister of Forests) v Okanagan Indian Food (2003) 3 SCR 371\n(SCC)\n3. Silvermine Valley Coalition v Sybrand Van Der Spuy Boerderye (2002) 1 SA 478\n(CC)\n4. Democratic Alliance and Another v Masondo NO and Another (2003) ZACC 4\n5. Dindi O",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "41088e584d4eb407d30440f81eb339ee135aad4ac9d013a16af55f449175e372",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/21",
+  "source_hash": "sha256:41088e584d4eb407d30440f81eb339ee135aad4ac9d013a16af55f449175e372",
+  "fetched_at": "2026-05-19T06:47:37Z",
+  "parser_version": "0.4.3-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmcc/2023/judgment-zm-2023-zmcc-21-john-sangwa-v-the-attorney-general.pdf",
+  "body_length": 38444,
+  "judges_count": 5
+}

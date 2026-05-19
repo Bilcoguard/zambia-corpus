@@ -809,3 +809,41 @@ judges:
     title_history:
       - title: "JJC"
         from: "unknown"
+
+# Added by b0722-jiw at 2026-05-19T06:47:37Z
+  "MULIFE":
+    canonical: "MULIFE JJC"
+    court: "Constitutional Court of Zambia"
+    title_history:
+      - title: "JJC"
+        from: "unknown"
+  "MULONGOTI":
+    canonical: "MULONGOTI JJC"
+    court: "Constitutional Court of Zambia"
+    title_history:
+      - title: "JJC"
+        from: "unknown"
+  "MUNALULA PC":
+    canonical: "MUNALULA PC JJC"
+    court: "Constitutional Court of Zambia"
+    title_history:
+      - title: "JJC"
+        from: "unknown"
+  "Munalula":
+    canonical: "Munalula JJC"
+    court: "Constitutional Court of Zambia"
+    title_history:
+      - title: "JJC"
+        from: "unknown"
+  "Shilimi - DPC":
+    canonical: "Shilimi - DPC JJC"
+    court: "Constitutional Court of Zambia"
+    title_history:
+      - title: "JJC"
+        from: "unknown"
+  "Shilimi DPC":
+    canonical: "Shilimi DPC JJC"
+    court: "Constitutional Court of Zambia"
+    title_history:
+      - title: "JJC"
+        from: "unknown"

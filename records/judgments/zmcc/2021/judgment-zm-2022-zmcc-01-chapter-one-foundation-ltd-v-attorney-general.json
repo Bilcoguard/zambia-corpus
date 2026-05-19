@@ -1,0 +1,61 @@
+{
+  "id": "judgment-zm-2022-zmcc-01-chapter-one-foundation-ltd-v-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Chapter One Foundation Ltd v Attorney General (2021/CCZ/0022) [2022] ZMCC 1 (2021-02-11)",
+  "citation": "[2022] ZMCC 1",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Chapter One Foundation Ltd v Attorney General",
+  "case_number": "2021/CCZ/0022",
+  "date_decided": "2021-02-11",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "SITALI",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "MULENGA",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "MUSALUKE",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "CHISUNKA",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "MULONGOTI",
+      "role": "JJC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "banking-finance",
+    "contract",
+    "mining",
+    "family-law",
+    "constitutional-law",
+    "public-law"
+  ],
+  "outcome": "other",
+  "outcome_detail": "",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "6b9f0be19e64503c7e234f6218790b8dbcb0b6cdd7dbf7d0f55ecd7a2e0af6c8",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/1",
+  "source_hash": "sha256:6b9f0be19e64503c7e234f6218790b8dbcb0b6cdd7dbf7d0f55ecd7a2e0af6c8",
+  "fetched_at": "2026-05-19T06:47:37Z",
+  "parser_version": "0.4.3-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmcc/2022/judgment-zm-2022-zmcc-01-chapter-one-foundation-ltd-v-attorney-general.pdf",
+  "body_length": 24500,
+  "judges_count": 5
+}

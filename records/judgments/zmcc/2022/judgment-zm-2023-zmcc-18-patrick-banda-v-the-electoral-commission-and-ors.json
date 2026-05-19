@@ -1,0 +1,50 @@
+{
+  "id": "judgment-zm-2023-zmcc-18-patrick-banda-v-the-electoral-commission-and-ors",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Patrick Banda v The Electoral Commission And Ors [2023] ZMCC 18 (2022-10-13)",
+  "citation": "[2023] ZMCC 18",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Patrick Banda v The Electoral Commission And Ors",
+  "case_number": null,
+  "date_decided": "2022-10-13",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "MUNALULA PC",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "MUSALUKE",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "MULIFE",
+      "role": "JJC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "mining",
+    "procedure",
+    "constitutional-law",
+    "public-law",
+    "electoral-law"
+  ],
+  "outcome": "set-aside",
+  "outcome_detail": "Respondent: Mr. Butler Sitali - Messrs. Butler and Company\nLegal Practitioners.\nJUDGMENT\nMu life, JC delivered the Judgment of the Court.\nCASES REFERRED TO:\n1. Akashambatwa Mbikusita Lewanika, Hicuunga Evaristo\nKambaila, Dean Namulya Mungomba, Sebastian Saizi Zulu,\nJennifer Mwaba v Frederick Jacob Titus Chiluba (Constitutional\nJurisdiction) (1998) Z.R.49 (S.C).\n2. Anderson Kambela Mazoka, Lt. General Christon Sifapi Tembo,\nGodfrey Kenneth Miyanda v Levy Patrick Mwanawasa, the\nElectoral Commission of Zambia and Attorney General (2005)\nZ.R. 138 (S.C).\n3. Shamwana and Seven Others v The People (1",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "c21a4cb8c2ba3211f8436a753003f532b250128aeeac96b95172c6c2a2d50f97",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/18",
+  "source_hash": "sha256:c21a4cb8c2ba3211f8436a753003f532b250128aeeac96b95172c6c2a2d50f97",
+  "fetched_at": "2026-05-19T06:47:37Z",
+  "parser_version": "0.4.3-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmcc/2023/judgment-zm-2023-zmcc-18-patrick-banda-v-the-electoral-commission-and-ors.pdf",
+  "body_length": 28038,
+  "judges_count": 3
+}

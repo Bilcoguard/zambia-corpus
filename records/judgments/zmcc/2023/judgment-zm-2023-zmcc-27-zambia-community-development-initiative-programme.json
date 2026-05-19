@@ -1,0 +1,60 @@
+{
+  "id": "judgment-zm-2023-zmcc-27-zambia-community-development-initiative-programme",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Zambia Community Development Initiative Programme (2020/CCZ/05) [2023] ZMCC 27 (2023-02-13)",
+  "citation": "[2023] ZMCC 27",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Zambia Community Development Initiative Programme",
+  "case_number": "2020/CCZ/05",
+  "date_decided": "2023-02-13",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Shilimi DPC",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Kawimbe",
+      "role": "JJC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "banking-finance",
+    "property",
+    "procedure",
+    "constitutional-law",
+    "public-law"
+  ],
+  "outcome": "other",
+  "outcome_detail": "",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "1a8d1d0db8bc0e1f53ad6fd0be1bba58898caa9939d3baa55c44dc2336445da9",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/27",
+  "source_hash": "sha256:1a8d1d0db8bc0e1f53ad6fd0be1bba58898caa9939d3baa55c44dc2336445da9",
+  "fetched_at": "2026-05-19T06:47:37Z",
+  "parser_version": "0.4.3-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmcc/2023/judgment-zm-2023-zmcc-27-zambia-community-development-initiative-programme.pdf",
+  "body_length": 24240,
+  "judges_count": 5
+}

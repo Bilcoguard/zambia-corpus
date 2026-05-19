@@ -12355,3 +12355,11 @@ None this tick. Carry-forward audit-trail item `judgment-zm-2024-coa-024-kingfre
 - drift: 5
 - fetch_error: 0
 - records_mutated: 0
+
+## JIW b0722-jiw — reparse-deferred-zambialii sweep
+- Date: 2026-05-19T06:47:37Z
+- Cohort: ZambiaLII judgment PDFs (raw/zambialii/judgments/*) not yet in corpus
+- Inserted: 8 records
+- Deferred: 3
+- Skip-list applied: 4 PDFs from recent JIW reports
+- Next tick: continue ZambiaLII reparse-deferred drain (substantial backlog remaining)

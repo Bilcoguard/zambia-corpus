@@ -1,0 +1,53 @@
+{
+  "id": "judgment-zm-2023-zmcc-08-mwiinde-v-attorney-general-and-national-pensions-s",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mwiinde v Attorney General And National Pensions S (2021/CCZ/0048) [2023] ZMCC 8 (2023-01-31)",
+  "citation": "[2023] ZMCC 8",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Mwiinde v Attorney General And National Pensions S",
+  "case_number": "2021/CCZ/0048",
+  "date_decided": "2023-01-31",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Mulonda",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Musaluke",
+      "role": "JJC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "employment",
+    "contract",
+    "mining",
+    "family-law",
+    "tort",
+    "procedure",
+    "constitutional-law",
+    "public-law"
+  ],
+  "outcome": "other",
+  "outcome_detail": "",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "5f7bc31e86f761cfa4d5553e62a8fa0ac4f2208aca6252e589ace1b8bd40de4c",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/8",
+  "source_hash": "sha256:5f7bc31e86f761cfa4d5553e62a8fa0ac4f2208aca6252e589ace1b8bd40de4c",
+  "fetched_at": "2026-05-19T06:47:37Z",
+  "parser_version": "0.4.3-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmcc/2023/judgment-zm-2023-zmcc-08-mwiinde-v-attorney-general-and-national-pensions-s.pdf",
+  "body_length": 52261,
+  "judges_count": 3
+}

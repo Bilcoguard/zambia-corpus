@@ -1,0 +1,51 @@
+{
+  "id": "judgment-zm-2023-zmcc-20-leslie-mbula-v-attorney-general-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Leslie Mbula v Attorney General And Anor (2023/CCZ/008) [2023] ZMCC 20 (2023-04-27)",
+  "citation": "[2023] ZMCC 20",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Leslie Mbula v Attorney General And Anor",
+  "case_number": "2023/CCZ/008",
+  "date_decided": "2023-04-27",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "JJC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "mining",
+    "tort",
+    "procedure",
+    "constitutional-law",
+    "public-law",
+    "electoral-law"
+  ],
+  "outcome": "other",
+  "outcome_detail": "",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "c7a06fef2fee73638b5905fd6c7bcd920f213821eb520a2298a0a50ae9a81c75",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/20",
+  "source_hash": "sha256:c7a06fef2fee73638b5905fd6c7bcd920f213821eb520a2298a0a50ae9a81c75",
+  "fetched_at": "2026-05-19T06:47:37Z",
+  "parser_version": "0.4.3-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmcc/2023/judgment-zm-2023-zmcc-20-leslie-mbula-v-attorney-general-and-anor.pdf",
+  "body_length": 44184,
+  "judges_count": 3
+}

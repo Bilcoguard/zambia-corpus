@@ -1,0 +1,60 @@
+{
+  "id": "judgment-zm-2022-zmcc-06-malanji-v-mulenga-and-anor",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Malanji v Mulenga And Anor (2021/CCZ/A0021) [2022] ZMCC 6",
+  "citation": "[2022] ZMCC 6",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Malanji v Mulenga And Anor",
+  "case_number": "2021/CCZ/A0021",
+  "date_decided": null,
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Sitali",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Munalula",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "JJC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "property",
+    "procedure",
+    "constitutional-law",
+    "tax",
+    "electoral-law"
+  ],
+  "outcome": "other",
+  "outcome_detail": "",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "5e7784481b0d1689f42beee87a0e9d8585c6279df37e54fdfbbf61f1c64213b7",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2022/6",
+  "source_hash": "sha256:5e7784481b0d1689f42beee87a0e9d8585c6279df37e54fdfbbf61f1c64213b7",
+  "fetched_at": "2026-05-19T06:47:37Z",
+  "parser_version": "0.4.3-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmcc/2022/judgment-zm-2022-zmcc-06-malanji-v-mulenga-and-anor.pdf",
+  "body_length": 16230,
+  "judges_count": 5
+}

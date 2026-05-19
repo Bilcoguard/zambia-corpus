@@ -1,0 +1,71 @@
+{
+  "id": "judgment-zm-2023-zmcc-25-sean-tembo-v-the-attorney-general",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Sean Tembo v The Attorney General (2023/CCZ/00) [2023] ZMCC 25 (2023-05-17)",
+  "citation": "[2023] ZMCC 25",
+  "court": "Constitutional Court of Zambia",
+  "case_name": "Sean Tembo v The Attorney General",
+  "case_number": "2023/CCZ/00",
+  "date_decided": "2023-05-17",
+  "date_filed": null,
+  "judges": [
+    {
+      "name": "Shilimi - DPC",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Sitali",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulonda",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulenga",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulongoti",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mwandenga",
+      "role": "JJC",
+      "dissented": false
+    },
+    {
+      "name": "Mulife",
+      "role": "JJC",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "property",
+    "family-law",
+    "procedure",
+    "constitutional-law",
+    "public-law",
+    "electoral-law"
+  ],
+  "outcome": "other",
+  "outcome_detail": "",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "key_paragraphs": [],
+  "dissent_summary": null,
+  "raw_sha256": "23f35a0b66d0e882a51728e19b848aac681b351f770e75e4786b06200b7beb44",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmcc/2023/25",
+  "source_hash": "sha256:23f35a0b66d0e882a51728e19b848aac681b351f770e75e4786b06200b7beb44",
+  "fetched_at": "2026-05-19T06:47:37Z",
+  "parser_version": "0.4.3-inline-zambialii",
+  "raw_path": "raw/zambialii/judgments/zmcc/2023/judgment-zm-2023-zmcc-25-sean-tembo-v-the-attorney-general.pdf",
+  "body_length": 37803,
+  "judges_count": 7
+}
