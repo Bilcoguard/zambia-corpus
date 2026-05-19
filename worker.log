@@ -10379,3 +10379,20 @@ warning: unable to unlink '/sessions/dreamy-jolly-tesla/m
 [2026-05-19T06:47:51.948285Z] [b0722-jiw] [INFO] DB after: records=1978 records_fts=1978 quick_check=ok
 [2026-05-19T06:47:51.951650Z] [b0722-jiw] [INFO] judges_registry: added 6 new entries
 [2026-05-19T06:47:51.953688Z] [b0722-jiw] [INFO] Wrote report: b0722-jiw-report.md
+[2026-05-19T06:47:52.881720Z] [b0722-jiw] [INFO] git commit rc=0: [main 2360b56] Judgment batch b0722-jiw: +8 ZambiaLII reparse-deferred (zero-fetch; 3 deferred; without corpus.sqlite -- GH 100MB limit)
+ 15 files changed, 853 insertions(+)
+ create mode 100644 records/judgments/zmcc/2021/judgment-zm-2022-zmcc-01-chapter-one-foundation-ltd-v-attorney-general.json
+ c
+[2026-05-19T06:47:55.284958Z] [b0722-jiw] [INFO] git push rc=0: To https://github.com/Bilcoguard/zambia-corpus.git
+   66ea433..2360b56  main -> main
+[2026-05-19T06:47:55.287939Z] [b0722-jiw] [INFO] B2 sync deferred to host (rclone not available in sandbox)
+[2026-05-19T06:47:55.288674Z] [b0722-jiw] [INFO] === TICK CLOSED === written=8 deferred=3
+[2026-05-19T07:14:45+00:00] r-20260519T071444Z === TICK START cwd=/sessions/hopeful-zealous-lamport/mnt/corpus ===
+[2026-05-19T07:14:46+00:00] r-20260519T071444Z git fetch rc=0 stderr=warning: unable to unlink '/sessions/hopeful-zealous-lamport/mnt/corpus/.git/objects/maintenance.lock': Operation not permitted
+[2026-05-19T07:14:46+00:00] r-20260519T071444Z local=2360b56dfa36 origin/main=2360b56dfa36
+[2026-05-19T07:14:46+00:00] r-20260519T071444Z tables: ['_b0659_test', 'acts_meta', 'citations', 'corpus_meta', 'judgments_meta', 'lost_and_found', 'records', 'records_fts', 'records_fts_config', 'records_fts_data', 'records_fts_docsize', 'records_fts_idx', 'sis_meta']
+[2026-05-19T07:14:46+00:00] r-20260519T071444Z Condition A (corrupted): 0
+[2026-05-19T07:14:46+00:00] r-20260519T071444Z Condition B (no-body acts/sis): 0
+[2026-05-19T07:14:46+00:00] r-20260519T071444Z Condition C (stubs): 0
+[2026-05-19T07:14:46+00:00] r-20260519T071444Z Dedup total targets: 0
+[2026-05-19T07:14:46+00:00] r-20260519T071444Z All repair targets fixed — repair worker idle

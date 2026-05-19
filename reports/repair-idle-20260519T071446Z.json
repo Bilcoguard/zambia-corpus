@@ -1,0 +1,11 @@
+{
+  "tick_id": "r-20260519T071444Z",
+  "outcome": "IDLE_NO_TARGETS",
+  "timestamp": "2026-05-19T07:14:46+00:00",
+  "identified": {
+    "corrupted": 0,
+    "no_body": 0,
+    "stubs": 0
+  },
+  "wall_time_sec": 1.7
+}
