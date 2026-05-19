@@ -7015,3 +7015,6 @@ b0710-jiw	2026-05-18T18:09:18Z	fetch_html_urllib	bytes=180885	sec=2.42
 2026-05-19T14:41:01Z	b0730-jiw	BANDWIDTH	total_bytes=0	source=disk-reparse-zambialii
 2026-05-19T14:41:01Z	b0730-jiw	INTEGRITY	records=2023	records_fts=2023	pass=True
 2026-05-19T14:41:01Z	b0730-jiw	B2_SYNC	verdict=deferred-to-host-rclone-not-in-sandbox
+2026-05-19T15:12:36Z	b0731-jiw	fetches=0	records_written=0	records_deferred=139	worker=judgment-ingestion-worker	cohort=reparse-deferred-zambialii-judgments
+2026-05-19T15:12:36Z	b0731-jiw	BANDWIDTH	total_bytes=0	source=disk-reparse-zambialii
+2026-05-19T15:12:36Z	b0731-jiw	INTEGRITY	records=2023	records_fts=2023	pass=True

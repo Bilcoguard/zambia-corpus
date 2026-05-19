@@ -10872,3 +10872,158 @@ warning: unable to unlink '.git/
 [repair] "All repair targets fixed — repair worker idle"
 
 [2026-05-19T14:41:01Z] b0730-jiw TICK_END inserted=2 deferred=166 records=2023 records_fts=2023
+
+[2026-05-19T14:41:33Z] b0730-jiw GIT_PULL_FAILED: fatal: update_ref failed for ref 'ORIG_HEAD': cannot lock ref 'ORIG_HEAD': Unable to create '/sessions/relaxed-loving-ride/mnt/corpus/.git/ORIG_HEAD.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+2026-05-19T15:11:29Z	b0731-jiw	=== tick start ===
+2026-05-19T15:11:30Z	b0731-jiw	git pull ok: Already up to date.
+2026-05-19T15:11:30Z	b0731-jiw	today's JIW fetches so far: 0/500
+2026-05-19T15:11:30Z	b0731-jiw	existing judgment count: 339
+2026-05-19T15:11:30Z	b0731-jiw	candidate unparsed PDFs: 139
+2026-05-19T15:11:33Z	b0731-jiw	backup created: corpus.sqlite.bak.b0731-jiw-pre-20260519T151130Z
+2026-05-19T15:11:34Z	b0731-jiw	DEFER judgment-zm-2016-zmcc-01-katuka-and-law-association-of-zambia-v-attorney-ge: no-outcome-detected
+2026-05-19T15:11:35Z	b0731-jiw	DEFER judgment-zm-2016-zmcc-02-katuka-v-electoral-commission-of-zambia: no-outcome-detected
+2026-05-19T15:11:35Z	b0731-jiw	DEFER judgment-zm-2016-zmcc-05-hichilema-and-another-v-lungu-and-others: quality-gate:body-too-short
+2026-05-19T15:11:36Z	b0731-jiw	DEFER judgment-zm-2016-zmcc-06-henry-kapoko-v-the-people: no-outcome-detected
+2026-05-19T15:11:36Z	b0731-jiw	DEFER judgment-zm-2016-zmcc-07-mulenga-sata-v-given-lubinda-and-others: quality-gate:body-too-short
+2026-05-19T15:11:36Z	b0731-jiw	DEFER judgment-zm-2016-zmcc-09-hakainde-hichilema-and-anor-v-edgar-chagwa-lungu-a: no-outcome-detected
+2026-05-19T15:11:36Z	b0731-jiw	DEFER judgment-zm-2017-zmcc-02-zulu-v-daka-and-others: quality-gate:body-too-short
+2026-05-19T15:11:36Z	b0731-jiw	DEFER judgment-zm-2017-zmcc-03-miyanda-v-attorney-general: quality-gate:body-too-short
+2026-05-19T15:11:36Z	b0731-jiw	DEFER judgment-zm-2017-zmcc-04-katuka-and-another-v-attorney-general-and-another: quality-gate:body-too-short
+2026-05-19T15:11:36Z	b0731-jiw	DEFER judgment-zm-2017-zmcc-05-mwela-v-attorney-general: quality-gate:body-too-short
+2026-05-19T15:11:36Z	b0731-jiw	DEFER judgment-zm-2017-zmcc-06-mumba-v-nkombo-and-others: quality-gate:body-too-short
+2026-05-19T15:11:36Z	b0731-jiw	DEFER judgment-zm-2017-zmcc-07-katuka-and-another-v-attorney-general-and-others: quality-gate:body-too-short
+2026-05-19T15:11:36Z	b0731-jiw	DEFER judgment-zm-2017-zmcc-08-maluba-v-mwewa-and-another: quality-gate:body-too-short
+2026-05-19T15:11:36Z	b0731-jiw	DEFER judgment-zm-2018-zmcc-02-ngimbu-v-kucheka-and-another: quality-gate:body-too-short
+2026-05-19T15:11:37Z	b0731-jiw	DEFER judgment-zm-2018-zmcc-03-ngala-and-another-v-anti-corruption-commission: quality-gate:body-too-short
+2026-05-19T15:11:37Z	b0731-jiw	DEFER judgment-zm-2018-zmcc-04-kufuka-v-ndalamei: quality-gate:body-too-short
+2026-05-19T15:11:37Z	b0731-jiw	DEFER judgment-zm-2018-zmcc-05-kawangu-v-muchima: quality-gate:body-too-short
+2026-05-19T15:11:37Z	b0731-jiw	DEFER judgment-zm-2018-zmcc-06-siwale-v-attorney-general-and-another: quality-gate:body-too-short
+2026-05-19T15:11:37Z	b0731-jiw	DEFER judgment-zm-2018-zmcc-07-kaingu-v-mutaba: quality-gate:body-too-short
+2026-05-19T15:11:37Z	b0731-jiw	DEFER judgment-zm-2018-zmcc-08-changano-kakoma-v-mulonda: quality-gate:body-too-short
+2026-05-19T15:11:37Z	b0731-jiw	DEFER judgment-zm-2018-zmcc-09-imbuwa-v-mundia: quality-gate:body-too-short
+2026-05-19T15:11:37Z	b0731-jiw	DEFER judgment-zm-2018-zmcc-10-pule-and-others-v-attorney-general-and-others: no-outcome-detected
+2026-05-19T15:11:37Z	b0731-jiw	DEFER judgment-zm-2018-zmcc-11-chisanga-v-chisopa-and-others: quality-gate:body-too-short
+2026-05-19T15:11:38Z	b0731-jiw	DEFER judgment-zm-2018-zmcc-12-zambia-national-commercial-bank-plc-v-musonda-and: no-outcome-detected
+2026-05-19T15:11:38Z	b0731-jiw	DEFER judgment-zm-2018-zmcc-13-zambia-national-commercial-bank-plc-v-musonda-and: no-judges-extracted
+2026-05-19T15:11:39Z	b0731-jiw	DEFER judgment-zm-2018-zmcc-14-zambia-national-commercial-bank-plc-v-musonda-and: no-judges-extracted
+2026-05-19T15:11:40Z	b0731-jiw	DEFER judgment-zm-2018-zmcc-16-shabula-v-monde: no-outcome-detected
+2026-05-19T15:11:41Z	b0731-jiw	DEFER judgment-zm-2018-zmcc-17-shakafuswa-and-another-v-attorney-general-and-anot: no-outcome-detected
+2026-05-19T15:11:43Z	b0731-jiw	DEFER judgment-zm-2019-zmcc-03-benjamin-mwelwa-v-attorney-general: no-outcome-detected
+2026-05-19T15:11:45Z	b0731-jiw	DEFER judgment-zm-2019-zmcc-04-bernard-shajilwa-others-v-attorney-general-others: no-outcome-detected
+2026-05-19T15:11:45Z	b0731-jiw	DEFER judgment-zm-2019-zmcc-05-martin-chitondo-others-v-the-attorney-general: no-outcome-detected
+2026-05-19T15:11:46Z	b0731-jiw	DEFER judgment-zm-2019-zmcc-06-public-protector-for-the-republic-of-zambia-v-inde: no-outcome-detected
+2026-05-19T15:11:47Z	b0731-jiw	DEFER judgment-zm-2019-zmcc-17-mulubisha-v-attorney-general: no-outcome-detected
+2026-05-19T15:11:48Z	b0731-jiw	DEFER judgment-zm-2019-zmcc-18-law-association-of-zambia-another-v-attorney-gener: no-outcome-detected
+2026-05-19T15:11:48Z	b0731-jiw	DEFER judgment-zm-2019-zmcc-19-simutanda-v-siame-another: no-outcome-detected
+2026-05-19T15:11:50Z	b0731-jiw	DEFER judgment-zm-2019-zmcc-23-benjamin-mwelwa-v-attorney-general: no-outcome-detected
+2026-05-19T15:11:51Z	b0731-jiw	DEFER judgment-zm-2019-zmcc-25-likukela-v-attorney-general-and-ors: no-outcome-detected
+2026-05-19T15:11:51Z	b0731-jiw	DEFER judgment-zm-2019-zmcc-26-chansa-v-attorney-general: no-outcome-detected
+2026-05-19T15:11:52Z	b0731-jiw	DEFER judgment-zm-2019-zmcc-27-law-association-of-zambia-another-v-attorney-gener: no-outcome-detected
+2026-05-19T15:11:53Z	b0731-jiw	DEFER judgment-zm-2019-zmcc-28-steven-katuka-suing-as-secretary-general-of-the-un: no-outcome-detected
+2026-05-19T15:11:53Z	b0731-jiw	DEFER judgment-zm-2020-zmcc-01-hichilema-another-v-attorney-general: no-outcome-detected
+2026-05-19T15:11:55Z	b0731-jiw	DEFER judgment-zm-2020-zmcc-04-law-association-of-zambia-chapter-one-foundation-l: no-outcome-detected
+2026-05-19T15:11:55Z	b0731-jiw	DEFER judgment-zm-2020-zmcc-07-mutembo-nchito-v-attorney-general: quality-gate:body-too-short
+2026-05-19T15:11:55Z	b0731-jiw	DEFER judgment-zm-2020-zmcc-08-wang-ying-v-zhuang-4-others: quality-gate:body-too-short
+2026-05-19T15:11:55Z	b0731-jiw	DEFER judgment-zm-2020-zmcc-09-john-mwansa-kalinde-4-others-v-cavmont-bank-zambia: quality-gate:body-too-short
+2026-05-19T15:11:55Z	b0731-jiw	DEFER judgment-zm-2020-zmcc-10-benjamin-mwelwa-v-attorney-general-another: quality-gate:body-too-short
+2026-05-19T15:11:55Z	b0731-jiw	DEFER judgment-zm-2020-zmcc-11-vincent-lilanda-2-others-v-attorney-general: no-outcome-detected
+2026-05-19T15:11:55Z	b0731-jiw	DEFER judgment-zm-2020-zmcc-13-jonathan-kapaipa-v-samakayi: quality-gate:body-too-short
+2026-05-19T15:11:55Z	b0731-jiw	DEFER judgment-zm-2020-zmcc-14-mwelwa-v-the-attorney-general-anor: no-outcome-detected
+2026-05-19T15:11:55Z	b0731-jiw	DEFER judgment-zm-2020-zmcc-16-the-law-association-ofzambia-and-tutwa-ngulube: no-outcome-detected
+2026-05-19T15:11:57Z	b0731-jiw	DEFER judgment-zm-2021-zmcc-12-dipak-patel-v-minister-of-finance-and-attorney-gen: no-outcome-detected
+2026-05-19T15:11:57Z	b0731-jiw	DEFER judgment-zm-2021-zmcc-14-legal-resources-foundation-limited-2-others-v-edga: quality-gate:body-too-short
+2026-05-19T15:11:57Z	b0731-jiw	DEFER judgment-zm-2021-zmcc-15-shunxue-v-the-attorney-general-anor: quality-gate:body-too-short
+2026-05-19T15:11:59Z	b0731-jiw	DEFER judgment-zm-2021-zmcc-18-chapter-one-foundation-limited-and-ors-v-the-attor: no-outcome-detected
+2026-05-19T15:12:01Z	b0731-jiw	DEFER judgment-zm-2022-zmcc-07-law-association-of-zambia-v-attorney-general: no-outcome-detected
+2026-05-19T15:12:02Z	b0731-jiw	DEFER judgment-zm-2022-zmcc-09-tembo-suing-in-his-capacity-as-party-president-of: no-outcome-detected
+2026-05-19T15:12:03Z	b0731-jiw	DEFER judgment-zm-2022-zmcc-10-lungu-v-attorney-general-and-ors: no-outcome-detected
+2026-05-19T15:12:04Z	b0731-jiw	DEFER judgment-zm-2022-zmcc-11-chisanga-and-anor-v-electoral-commission-of-zambia: no-outcome-detected
+2026-05-19T15:12:08Z	b0731-jiw	DEFER judgment-zm-2022-zmcc-13-lusambo-v-kanengo-and-anor: no-outcome-detected
+2026-05-19T15:12:08Z	b0731-jiw	DEFER judgment-zm-2022-zmcc-16-malanji-and-anor-v-attorney-general-and-anor: quality-gate:body-too-short
+2026-05-19T15:12:08Z	b0731-jiw	DEFER judgment-zm-2022-zmcc-17-zimba-v-attorney-general: no-outcome-detected
+2026-05-19T15:12:09Z	b0731-jiw	DEFER judgment-zm-2022-zmcc-18-malanji-and-anor-v-attorney-general-and-anor: no-outcome-detected
+2026-05-19T15:12:09Z	b0731-jiw	DEFER judgment-zm-2022-zmcc-22-kachize-phiri-and-anor-v-electoral-commission-of-z: no-outcome-detected
+2026-05-19T15:12:10Z	b0731-jiw	DEFER judgment-zm-2022-zmcc-23-sinkamba-and-anor-v-electoral-commission-of-zambia: no-outcome-detected
+2026-05-19T15:12:11Z	b0731-jiw	DEFER judgment-zm-2022-zmcc-24-kanengo-v-attorney-general-and-anor: no-outcome-detected
+2026-05-19T15:12:11Z	b0731-jiw	DEFER judgment-zm-2022-zmcc-27-sangwa-v-attorney-general: no-outcome-detected
+2026-05-19T15:12:12Z	b0731-jiw	DEFER judgment-zm-2022-zmcc-30-sikazwe-v-attorney-general-and-anor: no-outcome-detected
+2026-05-19T15:12:13Z	b0731-jiw	DEFER judgment-zm-2022-zmcc-31-mutwena-v-attorney: no-outcome-detected
+2026-05-19T15:12:16Z	b0731-jiw	DEFER judgment-zm-2022-zmcc-33-chewe-v-mucheleka-and-anor: no-outcome-detected
+2026-05-19T15:12:17Z	b0731-jiw	DEFER judgment-zm-2023-zmcc-03-malanji-and-anor-v-attorney-general-and-anor: no-outcome-detected
+2026-05-19T15:12:18Z	b0731-jiw	DEFER judgment-zm-2023-zmcc-12-mutambo-v-the-attorney-general: no-outcome-detected
+2026-05-19T15:12:19Z	b0731-jiw	DEFER judgment-zm-2023-zmcc-23-milingo-lungu-v-the-attorney-general-and-anor: no-outcome-detected
+2026-05-19T15:12:19Z	b0731-jiw	DEFER judgment-zm-2023-zmcc-26-milingo-lungu-v-the-attorney-general-and-anor: no-outcome-detected
+2026-05-19T15:12:20Z	b0731-jiw	DEFER judgment-zm-2024-zmcc-20-michelo-chizombe-v-edgar-chagwa-lungu-and-ors: no-outcome-detected
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2025-zmcc-16-miles-bwalya-sampa-v-attorney-general-and-4-ors: no-outcome-detected
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2025-zmcc-19-betbio-zambia-ltd-and-anor-v-attorney-general-and: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-03-optima-business-consultants-limited-in-liquidation: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-04-richard-musenyesa-v-indo-bank-zambia-limited: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-05-alex-njamba-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-06-connie-munalula-v-mwaba: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-07-adam-bweupe-another-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-08-andreas-panagiotis-xirocostas-v-poma: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-09-citi-bank-zambia-limited-v-malenji: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-10-omar-mohammed-hashi-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-100-antonio-ventriglia-another-v-finsbury-investments: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-105-mubanga-kaselo-another-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-11-post-newspaper-limited-v-mulenga: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-110-martin-lukuwa-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-15-workers-compensation-fund-control-board-v-kapwele: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-20-martin-chiluba-musenga-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-30-julius-chilipamwawo-sinkala-v-simbule-others: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-40-victor-k-sishemo-v-oscar-sikazwe: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-50-ohinga-lumamba-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-55-time-trucking-limited-v-kipimpi: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-70-steven-kalibuka-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-75-michael-singogo-others-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-90-zambia-breweries-plc-v-mwamba: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2020-zmsc-95-agness-tembo-phiri-another-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:21Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-20-mwiya-zunga-zunga-another-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:22Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-21-chancy-mtambalika-another-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:22Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-22-peter-sampa-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:22Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-23-ronald-musonda-2-others-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:22Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-24-james-sichimba-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:22Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-25-derrick-mungaila-3-others-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:22Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-26-william-mufungulwa-sipalo-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:22Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-27-chishimba-chonya-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:22Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-28-felix-mwape-mulumba-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:22Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-29-siyoto-sikota-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:22Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-30-caroline-lwando-nkwabilo-maiga-v-temimu: quality-gate:body-too-short
+2026-05-19T15:12:22Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-31-jonathan-van-blerk-v-the-attorney-general-5-others: quality-gate:body-too-short
+2026-05-19T15:12:22Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-32-zambia-national-commercial-bank-v-chiwisha: quality-gate:body-too-short
+2026-05-19T15:12:22Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-34-john-sangwa-v-nkonde-sc: quality-gate:body-too-short
+2026-05-19T15:12:22Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-36-esaya-mupasha-2-others-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:22Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-37-charles-gondwe-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:22Z	b0731-jiw	DEFER judgment-zm-2021-zmsc-38-nkhoma-v-the-people: quality-gate:body-too-short
+2026-05-19T15:12:23Z	b0731-jiw	DEFER judgment-zm-2022-zmsc-10-zccm-investments-holding-plc-v-vendanta-resources: no-outcome-detected
+2026-05-19T15:12:24Z	b0731-jiw	DEFER judgment-zm-2022-zmsc-12-finance-bank-zambia-ltd-v-official-receiver-as-int: no-outcome-detected
+2026-05-19T15:12:24Z	b0731-jiw	DEFER judgment-zm-2022-zmsc-27-sampa-and-anor-v-patel: no-outcome-detected
+2026-05-19T15:12:25Z	b0731-jiw	DEFER judgment-zm-2022-zmsc-28-zambia-state-insurance-corporation-v-ltd-v-mwanamo: no-judges-extracted
+2026-05-19T15:12:25Z	b0731-jiw	DEFER judgment-zm-2022-zmsc-32-daka-v-people: no-outcome-detected
+2026-05-19T15:12:25Z	b0731-jiw	DEFER judgment-zm-2022-zmsc-33-mbewe-v-people: no-outcome-detected
+2026-05-19T15:12:26Z	b0731-jiw	DEFER judgment-zm-2022-zmsc-35-nakweti-v-zambia-telecommunications-company-ltd: no-outcome-detected
+2026-05-19T15:12:26Z	b0731-jiw	DEFER judgment-zm-2022-zmsc-36-daka-v-people: no-outcome-detected
+2026-05-19T15:12:27Z	b0731-jiw	DEFER judgment-zm-2022-zmsc-37-tembo-v-people: no-outcome-detected
+2026-05-19T15:12:28Z	b0731-jiw	DEFER judgment-zm-2022-zmsc-41-nsangu-v-mumba: no-outcome-detected
+2026-05-19T15:12:28Z	b0731-jiw	DEFER judgment-zm-2022-zmsc-43-kuliwa-v-people: no-outcome-detected
+2026-05-19T15:12:28Z	b0731-jiw	DEFER judgment-zm-2022-zmsc-51-chibanda-and-ors-v-people: quality-gate:body-too-short
+2026-05-19T15:12:28Z	b0731-jiw	DEFER judgment-zm-2022-zmsc-52-richard-kalinda-suing-as-a-beneficiary-of-the-esta: no-outcome-detected
+2026-05-19T15:12:28Z	b0731-jiw	DEFER judgment-zm-2022-zmsc-54-nyambe-namushi-v-people: no-outcome-detected
+2026-05-19T15:12:30Z	b0731-jiw	DEFER judgment-zm-2022-zmsc-56-zccm-investments-holding-plc-v-vedanta-resources-h: no-outcome-detected
+2026-05-19T15:12:31Z	b0731-jiw	DEFER judgment-zm-2023-zmsc-01-citibank-zambia-ltd-v-dudhia: no-outcome-detected
+2026-05-19T15:12:32Z	b0731-jiw	DEFER judgment-zm-2023-zmsc-03-zambia-national-commercial-bank-plc-v-sakala-and-6: no-outcome-detected
+2026-05-19T15:12:33Z	b0731-jiw	DEFER judgment-zm-2023-zmsc-16-katontoka-suing-on-his-own-behalf-and-the-executiv: no-outcome-detected
+2026-05-19T15:12:34Z	b0731-jiw	DEFER judgment-zm-2023-zmsc-19-john-mbita-and-anor-v-ndola-lime-comapany-limited: no-outcome-detected
+2026-05-19T15:12:35Z	b0731-jiw	DEFER judgment-zm-2023-zmsc-21-zambia-national-commercial-bank-plc-v-ernestina-sa: no-outcome-detected
+2026-05-19T15:12:35Z	b0731-jiw	DEFER judgment-zm-2023-zmsc-22-elite-industries-limited-and-4-ors-v-zambia-nation: no-outcome-detected
+2026-05-19T15:12:35Z	b0731-jiw	DEFER judgment-zm-2023-zmsc-23-lusaka-premier-health-limited-and-anor-v-murray-an: no-outcome-detected
+2026-05-19T15:12:36Z	b0731-jiw	DEFER judgment-zm-2024-zmsc-11-frankson-musukwa-suing-on-his-behalf-and-as-the-ex: no-outcome-detected
+2026-05-19T15:12:36Z	b0731-jiw	DEFER judgment-zm-2025-zmsc-05-william-saunders-v-pemba-lapidiaries-limted-and-an: no-outcome-detected
+2026-05-19T15:12:36Z	b0731-jiw	no records built (processed=139, deferred=139)
