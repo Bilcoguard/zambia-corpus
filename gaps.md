@@ -12363,3 +12363,36 @@ None this tick. Carry-forward audit-trail item `judgment-zm-2024-coa-024-kingfre
 - Deferred: 3
 - Skip-list applied: 4 PDFs from recent JIW reports
 - Next tick: continue ZambiaLII reparse-deferred drain (substantial backlog remaining)
+
+## b0724-phase8 — Phase 8 nightly re-verification (2026-05-19T07:39Z) — AUDIT-ONLY ENTRY
+
+Tick b0724 sampled 8 of 1982 records (sample_rate 0.01, seed `phase8-reverify-2026-05-19-b0724`). Results: 3 match, 5 drift, 0 fetch_error. 8× HTTP 200. All 9 integrity checks PASS.
+
+### Drifts (5) — pre-existing dynamic-render cohorts
+
+- `si-zm-2020-004-electoral-process-local-government-by-elections-election-date-and-time-of-poll-no-2-order-2020` — host `zambialii.org`, AKN bare-path SI (`/akn/zm/act/si/2020/4`); stored=`sha256:6c004f8d5a26…` fetched=`f822a290fee4c690a5c6b27303aa1c8cb219f3cb06fa82290ec4ee186c0b9295`; verdict: dynamic-render churn on the 302-redirected English point-in-time HTML rendering, legal content unchanged.
+- `judgment-zm-2022-zmsc-58-luboni-simunga-v-the-people` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/judgment/zmsc/2022/58/eng@2022-08-31`); stored=`sha256:adbccd29a817…` fetched=`f3a6834ef15099572d32db6f5c41ec27707f9b14a46336e7c02f748f98b9ea4e`; verdict: dynamic-render churn on the ZMSC judgment HTML rendering, legal content unchanged.
+- `act-zm-1985-008-excess-expenditure-appropriation-1982-act-1985` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1985/8/eng@1985-04-12`); stored=`sha256:032db50e2933…` fetched=`9161dbeb96a22fa182a99fd5295f4e579c236ee013acdccefd0b88a88341d2e8`; verdict: dynamic-render churn on the English point-in-time HTML rendering, legal content unchanged.
+- `si-zm-2016-043-zambia-wildlife-export-prohibition-order-2016` — host `zambialii.org`, AKN bare-path SI (`/akn/zm/act/si/2016/43`); stored=`sha256:f9c6ea4053e2…` fetched=`9e0d1ee67d76c2f5da747c9a4be2df0046cb2384542863d95391c8c245cc4d7f`; verdict: dynamic-render churn on the 302-redirected English point-in-time HTML rendering, legal content unchanged.
+- `act-zm-1968-034-loans-kafue-gorge-hydro-electric-power-project-act-1968` — host `zambialii.org`, AKN-HTML `eng@`-suffixed (`/akn/zm/act/1968/34/eng@1996-12-31`); stored=`sha256:6ed014017a0a…` fetched=`23d70408d1b3a6e38f4de78db1690a2df71ddf84ba8b04679afcab2cc38591a8`; verdict: dynamic-render churn on the English point-in-time HTML rendering, legal content unchanged.
+
+### Matches (3) — stable-PDF supercohorts
+
+- `act-zm-2011-011-day-nurseries-repeal-act-2011` — host `www.parliament.gov.zm`, parliament.gov.zm `documents/acts/*.pdf`; hash unchanged (`162fffea…`) — parliament.gov.zm acts-PDF supercohort match.
+- `si-zm-1981-049-income-tax-foreign-organisations-exemption-approval-order-1981` — host `zambialii.org`, ZambiaLII `source.pdf` sub-variant (`/akn/zm/act/si/1981/49/eng@1981-03-27/source.pdf`); hash unchanged (`54bbb903…`) — zambialii source.pdf supercohort match.
+- `act-zm-2013-003-the-medicines-and-allied-substances-2013` — host `www.parliament.gov.zm`, parliament.gov.zm `documents/acts/*.pdf`; hash unchanged (`5b0aeb6b…`) — parliament.gov.zm acts-PDF supercohort match.
+
+### Fetch errors (0)
+
+None this tick. Carry-forward audit-trail items `judgment-zm-2024-coa-024-kingfred-phiri-v-life-master-ltd` (b0717 first-observation 404) and `judgment-zm-2025-zmcc-14` (b0700 canonical-URL-date variant 404) were NOT in this tick's sample; no new observations; both remain under audit-only watch.
+
+## phase8_reverify_drift
+- batch: 0724
+- detected_at: 2026-05-19T07:39:50Z
+- cohort: zambialii_akn_html_dynamic_render_drift (×5: ×3 eng@-suffixed sub-variant, ×2 bare-AKN-path sub-variant)
+- pool_size: 1982
+- sample_size: 8
+- match: 3
+- drift: 5
+- fetch_error: 0
+- records_mutated: 0

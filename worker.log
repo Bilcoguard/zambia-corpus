@@ -10396,3 +10396,22 @@ warning: unable to unlink '/sessions/dreamy-jolly-tesla/m
 [2026-05-19T07:14:46+00:00] r-20260519T071444Z Condition C (stubs): 0
 [2026-05-19T07:14:46+00:00] r-20260519T071444Z Dedup total targets: 0
 [2026-05-19T07:14:46+00:00] r-20260519T071444Z All repair targets fixed — repair worker idle
+[2026-05-19T07:14:47+00:00] r-20260519T071444Z idle commit rc=0 stderr=warning: unable to unlink '.git/objects/25/tmp_obj_ahcIzf': Operation not permitted
+warning: unable to unlink '.git/objects/ec/tmp_obj_YiOdPf': Operation not permitted
+warning: unable to unlink '.git/
+[2026-05-19T07:14:49+00:00] r-20260519T071444Z push rc=0 stderr=To https://github.com/Bilcoguard/zambia-corpus.git
+   2360b56..dc5b95f  main -> main
+2026-05-19T07:19:02Z	b0723-jiw	git pull rc=0: Already up to date.
+warning: unable to unlink '/sessions/exciting-fervent-johnson/mnt/corpus/.git/objects/maintenance.lock': Operation not permitted
+2026-05-19T07:19:02Z	b0723-jiw	today JIW fetches so far=0/500
+2026-05-19T07:19:02Z	b0723-jiw	pre-state: records=1978 records_fts=1978
+2026-05-19T07:19:02Z	b0723-jiw	candidates found: 211
+2026-05-19T07:19:03Z	b0723-jiw	  DB ERROR raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-02-chen-den-limited-others-v-ims-financial-services-l.pdf: disk I/O error
+2026-05-19T07:19:58Z	b0723-jiw	git pull rc=0: Already up to date.
+warning: unable to unlink '/sessions/exciting-fervent-johnson/mnt/corpus/.git/ORIG_HEAD.lock': Operation not permitted
+2026-05-19T07:19:58Z	b0723-jiw	today JIW fetches so far=0/500
+2026-05-19T07:19:59Z	b0723-jiw	pre-state: records=1978 records_fts=1978
+2026-05-19T07:19:59Z	b0723-jiw	candidates found: 211
+2026-05-19T07:19:59Z	b0723-jiw	  DB ERROR raw/zambialii/judgments/zmsc/2020/judgment-zm-2020-zmsc-02-chen-den-limited-others-v-ims-financial-services-l.pdf: disk I/O error
+[2026-05-19T06:34:00Z] [b0719-phase8] === TICK CLOSED === phase_8 remains approved+incomplete; deliverables (script + report + reverify.json + provenance + costs + gaps + worker.log appends) absorbed by concurrent workers (b0722-jiw commit 2360b56 + repair b0721 commit 66ea433); routine sampling continues next tick (T+30min). B2 sync deferred to host (rclone not in sandbox; Phase 8 read-only on corpus).
+[2026-05-19T07:39:50Z] [b0724-phase8] Phase 8 nightly re-verification batch 0724 complete: pool=1982 sample=8 match=3 drift=5 fetch_error=0 fetches=8 bandwidth=820714 wall_clock=36s. 5 drifts all in pre-existing `zambialii_akn_html_dynamic_render_drift` cohort (3 eng@-suffixed + 2 bare-AKN-path). 3 matches in stable-PDF supercohorts (parliament.gov.zm acts-PDF ×2 + zambialii.org source.pdf ×1). All 9 integrity checks PASS (records=1978 records_fts=1978 dup_ids=0 quick_check=ok). No records mutated; corpus.sqlite and approvals.yaml untouched. Stale git locks (3) renamed (FUSE EPERM) via documented bypass pattern before pull. B2 sync deferred to host (rclone not in sandbox; Phase 8 is read-only). phase_8 remains approved+incomplete (continues per BRIEF; next tick T+30min).
