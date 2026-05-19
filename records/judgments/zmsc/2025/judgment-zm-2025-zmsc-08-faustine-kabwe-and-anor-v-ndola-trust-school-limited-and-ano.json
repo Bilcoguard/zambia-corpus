@@ -1,0 +1,39 @@
+{
+  "id": "judgment-zm-2025-zmsc-08-faustine-kabwe-and-anor-v-ndola-trust-school-limited-and-ano",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Corpus Legal Practitioners v Mwanandani Holdings Limited (4 of 2019) [2025] ZMSC 8 (28 October 2021)",
+  "citation": "[2025] ZMSC 8",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Corpus Legal Practitioners v Mwanandani Holdings Limited",
+  "case_number": "4 of 2019",
+  "date_decided": "2021-10-28",
+  "judges": [
+    {
+      "name": "Musonda DCJ",
+      "role": "DCJ",
+      "dissented": false
+    },
+    {
+      "name": "Kabuka JJS",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-interpretation",
+    "criminal-law",
+    "mining-law",
+    "procedure"
+  ],
+  "outcome": "granted",
+  "outcome_detail": "r section 13(3) of the Court of Appeal Act\nand we accordingly grant them leave to appeal. Costs shall\nabide the outcome of the proposed appeal .\n.. --Qe\\-1------- ~\n..- .... ·-~ :J. .................... .\nM.MUSONDA R.M.C. KAOMA\nDEPUTY CHIEF JUSTICE SUPREME COURT JUDGE\n~--\n. . . . . . . . . ~G ... ) .. . . . ........",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "9ae17b476fc3cd840084fbeb45d51ca86adb52e3b4af92685ae3f2b055d4ff08",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/8",
+  "source_hash": "sha256:9ae17b476fc3cd840084fbeb45d51ca86adb52e3b4af92685ae3f2b055d4ff08",
+  "fetched_at": "2026-05-19T12:13:57Z",
+  "parser_version": "0.3.3",
+  "body_chars": 26721
+}

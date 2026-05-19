@@ -1,0 +1,34 @@
+{
+  "id": "judgment-zm-2023-zmsc-15-sangwa-v-the-legal-practitioners-committee-of-the",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "New Plast Industries v Commissioner of Lands and the Attorney (No.?) [2023] ZMSC 15 (02 August 2023)",
+  "citation": "[2023] ZMSC 15",
+  "court": "Supreme Court of Zambia",
+  "case_name": "New Plast Industries v Commissioner of Lands and the Attorney",
+  "case_number": "",
+  "date_decided": "2023-08-02",
+  "judges": [
+    {
+      "name": "Mutuna JJS",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-interpretation",
+    "mining-law",
+    "judicial-review",
+    "procedure"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "ing their choice\nof dispute resolution forum. We, accordingly, dismiss\nthe appeal. In doing so, we substitute the decision by\nthe Learned High Court Judge dismissing the action\nwith a decision to stay proceedings before him in\nterms of Section 1 O of the Arbttration Act and refe r\nJ22\nthe parties to arbitration. The co",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "7a3d2f4df9642045da945d44d7a5a912a73dce96c085de6edcdf5b5b55389b58",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2023/15",
+  "source_hash": "sha256:7a3d2f4df9642045da945d44d7a5a912a73dce96c085de6edcdf5b5b55389b58",
+  "fetched_at": "2026-05-19T12:13:57Z",
+  "parser_version": "0.3.3",
+  "body_chars": 27175
+}

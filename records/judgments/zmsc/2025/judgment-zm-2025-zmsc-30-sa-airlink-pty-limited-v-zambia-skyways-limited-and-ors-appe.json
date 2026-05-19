@@ -1,0 +1,41 @@
+{
+  "id": "judgment-zm-2025-zmsc-30-sa-airlink-pty-limited-v-zambia-skyways-limited-and-ors-appe",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "China Henan International Cooperation v G and G Nationwide (3 of 1981) [2025] ZMSC 30 (02 September 2025)",
+  "citation": "[2025] ZMSC 30",
+  "court": "Supreme Court of Zambia",
+  "case_name": "China Henan International Cooperation v G and G Nationwide",
+  "case_number": "3 of 1981",
+  "date_decided": "2025-09-02",
+  "judges": [
+    {
+      "name": "Malila CJ",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna JJS",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-interpretation",
+    "company-law",
+    "contract-law",
+    "tax-law",
+    "mining-law",
+    "procedure"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "und to contravene public policy. Ground 12 of the appeal\nfails and we dismiss it; and,\n131.9) As for issue 10, we hold that 1ts determination has been\nrendered otiose by the holdings we have made in relation to\nthe arbitrator's award of expectation and reliance damages.\nGround 13 of the appeal nonetheless succe",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "59914f96416fd627d48ba3d5d87824abae06391ed214bff6e13f1979d3308257",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/30",
+  "source_hash": "sha256:59914f96416fd627d48ba3d5d87824abae06391ed214bff6e13f1979d3308257",
+  "fetched_at": "2026-05-19T12:13:57Z",
+  "parser_version": "0.3.3",
+  "body_chars": 100540
+}

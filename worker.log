@@ -10853,3 +10853,4 @@ warning: unable to unlink '.git/
 2026-05-19T11:14:59Z	b0901-repair-msk	Total dedup targets: 0 (cap 8)
 2026-05-19T11:14:59Z	b0901-repair-msk	All repair targets fixed — repair worker idle
 2026-05-19T11:14:59Z	b0901-repair-msk	wrote idle report: reports/repair-idle-20260519T111459Z.json
+2026-05-19T12:13:57Z	b0729-jiw	worker=judgment-ingestion-worker	priority=(a)-reparse-deferred-zambialii	inserted=8	deferred=41	quality_gate_skips=1	no_outcome=33	no_judges=7	records_after=2021

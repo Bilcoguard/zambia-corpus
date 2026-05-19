@@ -1,0 +1,89 @@
+{
+  "tick": "b0729-jiw",
+  "timestamp": "2026-05-19T12:13:57Z",
+  "worker": "judgment-ingestion-worker",
+  "priority": "(a) reparse-deferred-zambialii",
+  "candidates_seen": 49,
+  "inserted_count": 8,
+  "deferred_count": 41,
+  "deferred_reason_counts": {
+    "no-judges-extracted": 7,
+    "no-outcome-detected": 33,
+    "quality-gate": 1
+  },
+  "integrity": {
+    "records": 2021,
+    "records_fts": 2021,
+    "quick_check": "ok",
+    "dup_ids": 0
+  },
+  "inserted": [
+    {
+      "id": "judgment-zm-2025-zmsc-30-sa-airlink-pty-limited-v-zambia-skyways-limited-and-ors-appe",
+      "court": "Supreme Court of Zambia",
+      "outcome": "dismissed",
+      "case_number": "3 of 1981",
+      "case_name": "China Henan International Cooperation v G and G Nationwide",
+      "date_decided": "2025-09-02"
+    },
+    {
+      "id": "judgment-zm-2025-zmsc-29-rephidim-institute-limited-v-attorney-general-scz08082025-20",
+      "court": "Supreme Court of Zambia",
+      "outcome": "allowed",
+      "case_number": "",
+      "case_name": "Mwenya and Randee v Kapinga",
+      "date_decided": "2025-10-15"
+    },
+    {
+      "id": "judgment-zm-2025-zmsc-16-the-attorney-general-v-rajan-mahthani-appeal-no-4-of-2020-20",
+      "court": "Supreme Court of Zambia",
+      "outcome": "dismissed",
+      "case_number": "4 of 2020",
+      "case_name": "Finsbury Inve tments Limited v Antonio Ventriglia and Manuela",
+      "date_decided": "2019-01-31"
+    },
+    {
+      "id": "judgment-zm-2025-zmsc-08-faustine-kabwe-and-anor-v-ndola-trust-school-limited-and-ano",
+      "court": "Supreme Court of Zambia",
+      "outcome": "granted",
+      "case_number": "4 of 2019",
+      "case_name": "Corpus Legal Practitioners v Mwanandani Holdings Limited",
+      "date_decided": "2021-10-28"
+    },
+    {
+      "id": "judgment-zm-2024-zmsc-28-lukasu-properties-limited-v-african-banking-corpor",
+      "court": "Supreme Court of Zambia",
+      "outcome": "allowed",
+      "case_number": "94/2015 15. Agro Fuel Investment Limited us ZambiQ. Revenue Authorily 12012",
+      "case_name": "ChUombo v Hameleke",
+      "date_decided": "2019-02-27"
+    },
+    {
+      "id": "judgment-zm-2023-zmsc-15-sangwa-v-the-legal-practitioners-committee-of-the",
+      "court": "Supreme Court of Zambia",
+      "outcome": "dismissed",
+      "case_number": "",
+      "case_name": "New Plast Industries v Commissioner of Lands and the Attorney",
+      "date_decided": "2023-08-02"
+    },
+    {
+      "id": "judgment-zm-2022-zmsc-61-zccm-investments-holding-plc-v-vedanta-resources-h",
+      "court": "Supreme Court of Zambia",
+      "outcome": "dismissed",
+      "case_number": "",
+      "case_name": "Rosemary Nyangu v Pamodzi Hotel Plc",
+      "date_decided": "2021-11-02"
+    },
+    {
+      "id": "judgment-zm-2022-zmsc-31-kaira-deceased-and-ors-v-people",
+      "court": "Supreme Court of Zambia",
+      "outcome": "dismissed",
+      "case_number": "",
+      "case_name": "Nyambe v The People",
+      "date_decided": "2021-07-13"
+    }
+  ],
+  "judges_added": 0,
+  "budget_today": "0/500",
+  "b2_sync": "deferred-to-host-rclone-not-in-sandbox"
+}

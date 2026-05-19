@@ -1,0 +1,34 @@
+{
+  "id": "judgment-zm-2025-zmsc-16-the-attorney-general-v-rajan-mahthani-appeal-no-4-of-2020-20",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Finsbury Inve tments Limited v Antonio Ventriglia and Manuela (4 of 2020) [2025] ZMSC 16 (31 January 2019)",
+  "citation": "[2025] ZMSC 16",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Finsbury Inve tments Limited v Antonio Ventriglia and Manuela",
+  "case_number": "4 of 2020",
+  "date_decided": "2019-01-31",
+  "judges": [
+    {
+      "name": "Mutuna JJS",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-interpretation",
+    "criminal-law",
+    "mining-law",
+    "procedure"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "of costs on the ground that\nlacki in merit and we accordingly dismiss it with costs.\nsts will be taxed in default of agreement.\n'1\n'\\ M. MUSONDA\nDEPUTY CHIEF JUSTICE\nJ.K.KABUKA\nSUPREME COURT JUDGE\nTUNA\nRT JUDGE",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "28e00f2983fe689e65dcc5bba27bb737e12b868cb7eb591edf76974e4677274c",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/16",
+  "source_hash": "sha256:28e00f2983fe689e65dcc5bba27bb737e12b868cb7eb591edf76974e4677274c",
+  "fetched_at": "2026-05-19T12:13:57Z",
+  "parser_version": "0.3.3",
+  "body_chars": 42647
+}

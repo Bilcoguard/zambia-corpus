@@ -1270,68 +1270,66 @@ judges:
   - Chisanga DCJ
   first_seen: '2026-05-19T10:15:42Z'
   court: Supreme Court of Zambia
-
-# === b0728-jiw additions ===
-- canonical_name: 'Musonda DCJ'
+- canonical_name: Musonda DCJ
   titles:
   - title: DCJ
     first_seen_in: judgment-zm-2026-zmsc-07-munir-zulu-v-attorney-general-and-chibwili-appeal-no-232025-
     first_seen_at: '2026-05-19T11:11:18Z'
   aliases:
-  - 'Musonda DCJ'
+  - Musonda DCJ
   first_seen: '2026-05-19T11:11:18Z'
   court: Supreme Court of Zambia
-- canonical_name: 'MUSONDA DCJ'
+- canonical_name: MUSONDA DCJ
   titles:
   - title: DCJ
     first_seen_in: judgment-zm-2026-zmsc-07-munir-zulu-v-attorney-general-and-chibwili-appeal-no-232025-
     first_seen_at: '2026-05-19T11:11:18Z'
   aliases:
-  - 'MUSONDA DCJ'
+  - MUSONDA DCJ
   first_seen: '2026-05-19T11:11:18Z'
   court: Supreme Court of Zambia
-- canonical_name: 'CHISANGA JS'
+- canonical_name: CHISANGA JS
   titles:
   - title: JS
     first_seen_in: judgment-zm-2025-zmsc-10-thelma-maunga-suing-in-her-capacity-as-administrator-of-the-
     first_seen_at: '2026-05-19T11:11:18Z'
   aliases:
-  - 'CHISANGA JS'
+  - CHISANGA JS
   first_seen: '2026-05-19T11:11:18Z'
   court: Supreme Court of Zambia
-- canonical_name: 'Mutuna JS'
+- canonical_name: Mutuna JS
   titles:
   - title: JS
     first_seen_in: judgment-zm-2025-zmsc-11-henry-nyambe-and-9-ors-v-lumwana-mining-company-limited-appl
     first_seen_at: '2026-05-19T11:11:18Z'
   aliases:
-  - 'Mutuna JS'
+  - Mutuna JS
   first_seen: '2026-05-19T11:11:18Z'
   court: Supreme Court of Zambia
-- canonical_name: 'MUSONDA CJ'
+- canonical_name: MUSONDA CJ
   titles:
   - title: CJ
     first_seen_in: judgment-zm-2025-zmsc-15-the-attorney-general-and-anor-v-metro-investments-limited-an
     first_seen_at: '2026-05-19T11:11:18Z'
   aliases:
-  - 'MUSONDA CJ'
+  - MUSONDA CJ
   first_seen: '2026-05-19T11:11:18Z'
   court: Supreme Court of Zambia
-- canonical_name: 'Malila CJ'
+- canonical_name: Malila CJ
   titles:
   - title: CJ
     first_seen_in: judgment-zm-2025-zmsc-18-emmanuel-tumba-and-6-ors-v-zambia-bata-shoe-company-plc-7252
     first_seen_at: '2026-05-19T11:11:18Z'
   aliases:
-  - 'Malila CJ'
+  - Malila CJ
   first_seen: '2026-05-19T11:11:18Z'
   court: Supreme Court of Zambia
-- canonical_name: 'Kabuka JS'
+- canonical_name: Kabuka JS
   titles:
   - title: JS
     first_seen_in: judgment-zm-2025-zmsc-20-zambia-revenue-authority-v-nestl-zambia-limited-appeal-no-03
     first_seen_at: '2026-05-19T11:11:18Z'
   aliases:
-  - 'Kabuka JS'
+  - Kabuka JS
   first_seen: '2026-05-19T11:11:18Z'
   court: Supreme Court of Zambia

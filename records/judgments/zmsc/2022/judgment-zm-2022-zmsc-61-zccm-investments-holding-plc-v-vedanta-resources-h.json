@@ -1,0 +1,36 @@
+{
+  "id": "judgment-zm-2022-zmsc-61-zccm-investments-holding-plc-v-vedanta-resources-h",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Rosemary Nyangu v Pamodzi Hotel Plc (No.?) [2022] ZMSC 61 (02 November 2021)",
+  "citation": "[2022] ZMSC 61",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Rosemary Nyangu v Pamodzi Hotel Plc",
+  "case_number": "",
+  "date_decided": "2021-11-02",
+  "judges": [
+    {
+      "name": "Malila CJ",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "Kajimanga JJS",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "general"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "that a motion that is styled\nR3\nas if it were an appeal fails to conform with its legal prescription for\na motion and is thus liable to suffer dismissal.\nState Counsel Mundashi informed us that out of abundance of\ncaution, and that although the motion did make reference to the\ncorrect statutory provisions rela",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "c6acb5c817c6341f254d20b6e4e8d2aa6244623e324fc6bfc5f31f5145011e42",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/61",
+  "source_hash": "sha256:c6acb5c817c6341f254d20b6e4e8d2aa6244623e324fc6bfc5f31f5145011e42",
+  "fetched_at": "2026-05-19T12:13:57Z",
+  "parser_version": "0.3.3",
+  "body_chars": 11951
+}

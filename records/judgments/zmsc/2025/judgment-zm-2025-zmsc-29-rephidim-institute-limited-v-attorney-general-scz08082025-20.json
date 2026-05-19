@@ -1,0 +1,39 @@
+{
+  "id": "judgment-zm-2025-zmsc-29-rephidim-institute-limited-v-attorney-general-scz08082025-20",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mwenya and Randee v Kapinga (No.?) [2025] ZMSC 29 (15 October 2025)",
+  "citation": "[2025] ZMSC 29",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Mwenya and Randee v Kapinga",
+  "case_number": "",
+  "date_decided": "2025-10-15",
+  "judges": [
+    {
+      "name": "Malila CJ",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "Chisanga JJS",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-interpretation",
+    "land-law",
+    "mining-law",
+    "procedure"
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "legal and constitutional\nrights.\n7.53. The whole appeal succeeds. The Court of Appeal judgment is\nhereby set aside.\n7.54. The appellant has sought numerous reliefs in its action. We\nhave tabulated these at paragraph 2.8. Not all these can be\ngranted. We order and direct:\n•\nJ48\n(i) That the respondent (ZNS) do com",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "cea3ff3c6dccd506d7ef9f355e6d473ff04fc98d9934af811a01dc8e35586fca",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/29",
+  "source_hash": "sha256:cea3ff3c6dccd506d7ef9f355e6d473ff04fc98d9934af811a01dc8e35586fca",
+  "fetched_at": "2026-05-19T12:13:57Z",
+  "parser_version": "0.3.3",
+  "body_chars": 54465
+}

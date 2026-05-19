@@ -1,0 +1,37 @@
+{
+  "id": "judgment-zm-2022-zmsc-31-kaira-deceased-and-ors-v-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Nyambe v The People (No.?) [2022] ZMSC 31 (13 July 2021)",
+  "citation": "[2022] ZMSC 31",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Nyambe v The People",
+  "case_number": "",
+  "date_decided": "2021-07-13",
+  "judges": [
+    {
+      "name": "Malila CJ",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama JJS",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-law",
+    "procedure"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "s with respect to the\noffence in count three. We, accordingly, dismiss the appeals and\nuphold the convictions. For the avoidance of doubt the sentences\nJ22\nmeted out for the convictions which we have upheld will not be\ndisturbed.\nJ23",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "6dcafaf7a863e25fb5d3ad4579701b0c0a9cb8bac746ac5f61b15df38e870cb5",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2022/31",
+  "source_hash": "sha256:6dcafaf7a863e25fb5d3ad4579701b0c0a9cb8bac746ac5f61b15df38e870cb5",
+  "fetched_at": "2026-05-19T12:13:57Z",
+  "parser_version": "0.3.3",
+  "body_chars": 27006
+}
