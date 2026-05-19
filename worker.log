@@ -10768,3 +10768,28 @@ sqlite3.OperationalError: disk I/O error
 2026-05-19T08:22:56Z	b0725-jiw	integrity PASS: records=1994 fts=1994
 2026-05-19T08:22:59Z	b0725-jiw	scratch DB copied back to live (atomic os.replace)
 2026-05-19T08:22:59Z	b0725-jiw	wrote report: b0725-jiw.md
+2026-05-19T08:23:02Z	b0725-jiw	git commit rc=0: [main 1e78d89] Judgment batch b0725-jiw: +8 reparsed ZambiaLII judgments (zero-fetch; scratch-DB workaround for virtiofs disk-IO errors; corpus.sqlite excluded — GH 100MB limit)
+ 14 files changed, 1041 insertions(+), 320 deletions(-)
+ create mode 100644 records/judgments/zmcc/2018/judgment-zm-2018-z
+2026-05-19T08:23:05Z	b0725-jiw	git push rc=0: To https://github.com/Bilcoguard/zambia-corpus.git
+   d95d0e0..1e78d89  main -> main
+
+2026-05-19T08:23:05Z	b0725-jiw	git push OK
+2026-05-19T08:23:05Z	b0725-jiw	=== tick end: +8 records, 115 deferred ===
+2026-05-19T09:10:53Z	b0726-jiw	=== tick start (priority a: reparse-deferred) ===
+2026-05-19T09:10:54Z	b0726-jiw	git pull ok: Already up to date.
+2026-05-19T09:10:54Z	b0726-jiw	budget used today (JIW worker): 0/500 fetches
+2026-05-19T09:10:54Z	b0726-jiw	copied live DB -> scratch (118898688 bytes)
+2026-05-19T09:10:54Z	b0726-jiw	existing judgment count in scratch: 310
+2026-05-19T09:10:54Z	b0726-jiw	candidate unparsed PDFs: 153
+2026-05-19T09:11:49Z	b0726-jiw	INSERTED judgment-zm-2022-zmsc-38-mubita-and-ors-v-people: court=Supreme Court of Zambia outcome=refused
+2026-05-19T09:11:51Z	b0726-jiw	INSERTED judgment-zm-2022-zmsc-44-arnautovic-v-stanbic-bank-zambia-ltd: court=Supreme Court of Zambia outcome=refused
+2026-05-19T09:11:51Z	b0726-jiw	INSERTED judgment-zm-2022-zmsc-46-musonda-v-kasonde: court=Supreme Court of Zambia outcome=upheld
+2026-05-19T09:11:54Z	b0726-jiw	INSERTED judgment-zm-2022-zmsc-53-stella-mumba-chibanda-and-ors-v-the-people: court=Supreme Court of Zambia outcome=refused
+2026-05-19T09:11:56Z	b0726-jiw	INSERTED judgment-zm-2022-zmsc-55-zlatan-zlatkok-arnautovic-v-stanbic-bank-zambia-li: court=Supreme Court of Zambia outcome=refused
+2026-05-19T09:11:59Z	b0726-jiw	INSERTED judgment-zm-2023-zmsc-02-zamesco-ltd-v-nakonde-district-council: court=Supreme Court of Zambia outcome=allowed
+2026-05-19T09:12:05Z	b0726-jiw	INSERTED judgment-zm-2023-zmsc-17-nyambe-and-ors-v-konkola-copper-mines-plc: court=Supreme Court of Zambia outcome=upheld
+2026-05-19T09:12:09Z	b0726-jiw	added 0 new judges to registry
+2026-05-19T09:12:09Z	b0726-jiw	integrity PASS: records=2001 fts=2001
+2026-05-19T09:12:12Z	b0726-jiw	scratch DB copied back to live (atomic os.replace)
+2026-05-19T09:12:12Z	b0726-jiw	wrote report: b0726-jiw.md

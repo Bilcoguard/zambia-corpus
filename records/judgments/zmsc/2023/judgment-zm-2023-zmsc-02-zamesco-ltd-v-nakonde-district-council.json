@@ -1,0 +1,40 @@
+{
+  "id": "judgment-zm-2023-zmsc-02-zamesco-ltd-v-nakonde-district-council",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Zamesco Ltd v Nakonde District Council (Appeal 209 of 2016) [2023] ZMSC 2 (17 February 2023)",
+  "citation": "[2023] ZMSC 2 [2023] ZMSC 2 ' data-confirmation=\"Copied!\"> Copy",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Zamesco Ltd v Nakonde District Council",
+  "case_number": "Appeal 209 of 2016",
+  "date_decided": "2023-02-17",
+  "judges": [
+    {
+      "name": "Kaoma",
+      "role": "JS",
+      "dissented": false
+    },
+    {
+      "name": "Muyovwe",
+      "role": "JS",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "JS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "general"
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "nce, we find the appeal has merit in the second ground as well. Ultimately, the appeal is successful. We accordingly reverse the judgment of the court below and order the respondent to refund the appellant the sum of K2,",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "d6f910aef688af66a989776fa3ac47cd6973ddbe8d6e1169923b985d53fcffca",
+  "source_url": "https://zambialii.org/judgment-zm-2023-zmsc-02-zamesco-ltd-v-nakonde-district-council",
+  "source_hash": "sha256:2fb713fb848bc373da90ce792944ba3cb7a9921c9250bb6edb97a994ae175f0c",
+  "fetched_at": "2026-05-19T09:11:59Z",
+  "parser_version": "0.3.2"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "judgment-zm-2022-zmsc-38-mubita-and-ors-v-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Mubita and Ors v People (Appeal 140 of 2021) [2022] ZMSC 38 (7 June 2022)",
+  "citation": "[2022] ZMSC 38 [2022] ZMSC 38 ' data-confirmation=\"Copied!\"> Copy",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Mubita and Ors v People",
+  "case_number": "Appeal 140 of 2021",
+  "date_decided": "2022-06-07",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "JS",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "JS",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "JS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional law",
+    "criminal law",
+    "appeal procedure",
+    "tax law"
+  ],
+  "outcome": "refused",
+  "outcome_detail": "er granting leave shall be included in the record of appeal. (4) Where leave to appeal is refused by the Court, an application for leave to appeal may be made to the Supreme Court. (5) If in a criminal appeal, the app",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "6e51ac126c4a837da9d579502acc71741d180f537a4b4380ea0ed376f546e036",
+  "source_url": "https://zambialii.org/judgment-zm-2022-zmsc-38-mubita-and-ors-v-people",
+  "source_hash": "sha256:82cf57ccd6ece94e5c1ab209bbea47367e4ad6c36178b98c57af61d22c5e8de4",
+  "fetched_at": "2026-05-19T09:11:49Z",
+  "parser_version": "0.3.2"
+}

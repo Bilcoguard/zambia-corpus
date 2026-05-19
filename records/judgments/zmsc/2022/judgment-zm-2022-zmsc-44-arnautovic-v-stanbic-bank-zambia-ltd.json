@@ -1,0 +1,41 @@
+{
+  "id": "judgment-zm-2022-zmsc-44-arnautovic-v-stanbic-bank-zambia-ltd",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Arnautovic v Stanbic Bank Zambia Ltd (Appeal 5 of 2021) [2022] ZMSC 44 (1 September 2022)",
+  "citation": "[2022] ZMSC 44 [2022] ZMSC 44 ' data-confirmation=\"Copied!\"> Copy",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Arnautovic v Stanbic Bank Zambia Ltd",
+  "case_number": "Appeal 5 of 2021",
+  "date_decided": "2022-09-01",
+  "judges": [
+    {
+      "name": "Kabuka",
+      "role": "JS",
+      "dissented": false
+    },
+    {
+      "name": "Kajimanga",
+      "role": "JS",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "JS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "land law",
+    "civil procedure"
+  ],
+  "outcome": "refused",
+  "outcome_detail": "been raised prior to the appeal. By contrast, in the current case, the Court of Appeal refused to entertain a plea of jurisdiction J17 which had been raised in the court below and was put forward in the appellant’",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "7b9630b93ac15a537316b6135c5cf3d72d92a2ec9cb48db1f1bd346ef3e859be",
+  "source_url": "https://zambialii.org/judgment-zm-2022-zmsc-44-arnautovic-v-stanbic-bank-zambia-ltd",
+  "source_hash": "sha256:1e651a9cce9ece85308e404ab99fe7201c2ff8b57edb48b5de8c389b5c42adb5",
+  "fetched_at": "2026-05-19T09:11:51Z",
+  "parser_version": "0.3.2"
+}

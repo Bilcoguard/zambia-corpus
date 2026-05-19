@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2022-zmsc-53-stella-mumba-chibanda-and-ors-v-the-people",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Stella Mumba Chibanda and Ors v The People (APPEAL No. 418, 419, 420, 421 of 2013) [2022] ZMSC 53 (29 December 2022)",
+  "citation": "[2022] ZMSC 53 [2022] ZMSC 53 ' data-confirmation=\"Copied!\"> Copy",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Stella Mumba Chibanda and Ors v The People",
+  "case_number": "APPEAL No. 418, 419, 420, 421 of 2013",
+  "date_decided": "2022-12-29",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Chinyama",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional law",
+    "company law",
+    "tax law",
+    "mining law",
+    "civil procedure"
+  ],
+  "outcome": "refused",
+  "outcome_detail": "ZAMTROP account, although it was a Government account was being corruptly done. We refuse to accept that the 1st appellant would aggressively push for payments to the ZAMTROP account so that the debts to the t",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "79711c13ec837b7f1912c032ada08b40e10cae2569bc9bf4d2e843a833acaa86",
+  "source_url": "https://zambialii.org/judgment-zm-2022-zmsc-53-stella-mumba-chibanda-and-ors-v-the-people",
+  "source_hash": "sha256:bd3195f2bb0111ddac4a3097f654eeed9b3f15e1c3da6b757e9c56b01f7283c4",
+  "fetched_at": "2026-05-19T09:11:54Z",
+  "parser_version": "0.3.2"
+}

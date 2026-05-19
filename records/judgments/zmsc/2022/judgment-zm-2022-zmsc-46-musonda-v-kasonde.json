@@ -1,0 +1,40 @@
+{
+  "id": "judgment-zm-2022-zmsc-46-musonda-v-kasonde",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Musonda v Kasonde (Appeal 157 of 2009) [2022] ZMSC 46 (31 October 2022)",
+  "citation": "[2022] ZMSC 46 [2022] ZMSC 46 ' data-confirmation=\"Copied!\"> Copy",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Musonda v Kasonde",
+  "case_number": "Appeal 157 of 2009",
+  "date_decided": "2022-10-31",
+  "judges": [
+    {
+      "name": "Hamaundu",
+      "role": "JS",
+      "dissented": false
+    },
+    {
+      "name": "Phiri",
+      "role": "JS",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "JS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "land law"
+  ],
+  "outcome": "upheld",
+  "outcome_detail": "find no merit in the two grounds filed and, consequently, in the whole appeal. We uphold the decisions of the two courts below and dismiss this appeal. The costs of these proceedings are awarded to the respon",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "a7743930d756498db8cf770330616fc7a2f09efd4eaff22a5f1d6a800f5355fe",
+  "source_url": "https://zambialii.org/judgment-zm-2022-zmsc-46-musonda-v-kasonde",
+  "source_hash": "sha256:9fde894c40b3e0be8e2bc2db254fa53970b5f8af73b46b1b5173f670c069e294",
+  "fetched_at": "2026-05-19T09:11:51Z",
+  "parser_version": "0.3.2"
+}

@@ -12447,3 +12447,14 @@ None this tick. Carry-forward audit-trail items `judgment-zm-2024-coa-024-kingfr
   doing all SQL writes against a local-disk scratch copy of corpus.sqlite
   (/sessions/elegant-gifted-brown/scratch/corpus.sqlite) and atomically
   copying back to the live DB once integrity checks passed in scratch.
+
+## b0726-jiw — zero-fetch reparse (priority a) (2026-05-19T09:12:12Z)
+- inserted: 7 reparse-deferred ZambiaLII judgment PDFs
+- deferred this tick: 146 (most common reason codes below)
+  - `no-outcome-detected`: 73
+  - `quality-gate`: 67
+  - `dup-case-number`: 6
+- judiciary-coa-sweep: page-9 (scanned-PDF cliff) — unchanged this tick
+- judiciary-scz-sweep: page-4 next — unchanged this tick
+- judiciary-zmcc-sweep: page-2 next — unchanged this tick
+- judiciary-hc-sweep: page-3 next — unchanged this tick

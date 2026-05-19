@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2023-zmsc-17-nyambe-and-ors-v-konkola-copper-mines-plc",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Nyambe and Ors v Konkola Copper Mines Plc (In Liquidation) (Appeal No. 2 of 2022) [2023] ZMSC 17 (19 October 2023)",
+  "citation": "[2023] ZMSC 17 [2023] ZMSC 17 ' data-confirmation=\"Copied!\"> Copy",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Nyambe and Ors v Konkola Copper Mines Plc",
+  "case_number": "Appeal No. 2 of 2022",
+  "date_decided": "2023-10-19",
+  "judges": [
+    {
+      "name": "Malila",
+      "role": "CJ",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "JJS",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna",
+      "role": "JJS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional law",
+    "employment law",
+    "land law",
+    "company law",
+    "tax law"
+  ],
+  "outcome": "upheld",
+  "outcome_detail": "s' engagement. 89. It is for the reasons highlighted at paragraphs 77- 85, that we uphold the Court of Appeal findings that the appellants were not retired prematurely. That they were wrongly awarded pension b",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "005389441482b9c8e7ec461ee79af8a0569fe8906ac1534665a41ea8cbc8f902",
+  "source_url": "https://zambialii.org/judgment-zm-2023-zmsc-17-nyambe-and-ors-v-konkola-copper-mines-plc",
+  "source_hash": "sha256:45cd9886564813672598829df9fd14e7e8fd8bb9e5d2a3c5b06e8eafbe44b887",
+  "fetched_at": "2026-05-19T09:12:05Z",
+  "parser_version": "0.3.2"
+}
