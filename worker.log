@@ -11027,3 +11027,13 @@ remove the file manually to continue.
 2026-05-19T15:12:36Z	b0731-jiw	DEFER judgment-zm-2024-zmsc-11-frankson-musukwa-suing-on-his-behalf-and-as-the-ex: no-outcome-detected
 2026-05-19T15:12:36Z	b0731-jiw	DEFER judgment-zm-2025-zmsc-05-william-saunders-v-pemba-lapidiaries-limted-and-an: no-outcome-detected
 2026-05-19T15:12:36Z	b0731-jiw	no records built (processed=139, deferred=139)
+[2026-05-19T15:14:32Z] b0902-repair === TICK START b0902-repair cwd=/sessions/zealous-friendly-meitner/mnt/corpus ===
+[2026-05-19T15:14:33Z] b0902-repair git fetch rc=0 stderr=
+[2026-05-19T15:14:33Z] b0902-repair local HEAD=d24a385f8ed0  origin/main=d24a385f8ed0
+[2026-05-19T15:14:33Z] b0902-repair records cols: ['id', 'type', 'jurisdiction', 'title', 'citation', 'in_force', 'source_url', 'source_hash', 'fetched_at', 'parser_version', 'on_disk_path', 'body']
+[2026-05-19T15:14:33Z] b0902-repair records_fts cols: ['id', 'title', 'body', 'citation', 'type']
+[2026-05-19T15:14:33Z] b0902-repair Condition B (no-body acts/sis): 0
+[2026-05-19T15:14:33Z] b0902-repair Condition A (corrupted): 0
+[2026-05-19T15:14:33Z] b0902-repair Condition C (stubs): 0
+[2026-05-19T15:14:33Z] b0902-repair Total dedup targets: 0; MAX_BATCH=8
+[2026-05-19T15:14:33Z] b0902-repair All repair targets fixed — repair worker idle
