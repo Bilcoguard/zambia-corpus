@@ -1,0 +1,35 @@
+{
+  "id": "judgment-zm-2025-zmsc-15-the-attorney-general-and-anor-v-metro-investments-limited-an",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "The Attorney General and Anor v Metro Investments Limited and Ors (APPEAL NO. 9/2021; SCZ/8/01/2021) [2025] ZMSC 15 (25 July 2025)",
+  "citation": "[2025] ZMSC 15",
+  "court": "Supreme Court of Zambia",
+  "case_name": "The Attorney General and Anor v Metro Investments Limited and Ors (APPEAL NO. 9/2021; SCZ/8/01/2021)",
+  "case_number": "APPEAL NO. 9/2021",
+  "date_decided": "2025-07-25",
+  "judges": [
+    {
+      "name": "MUSONDA CJ",
+      "role": "CJ",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "land-law",
+    "company-law",
+    "contract-law",
+    "tax-law",
+    "labour-law",
+    "banking-law"
+  ],
+  "outcome": "set-aside",
+  "outcome_detail": "its judgment of\n2 th April, 2020 condemning the Respondent to costs\n3rd\nst nds set aside. For the removal of any doubt, the costs\na e to be taxed in default of agreement.\nM.MUSONDA\nDEPUTY CHIEF JUSTICE\n...... . .e.: ............. .\n. K\nJUDGE\nJSO",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "45462bd3b68cf97f0633ed095cb2c84c49199c0e832242d7b81ca03f2b514ca1",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/15",
+  "source_hash": "sha256:c038135ac6852a3b423d6264ef4670f23561475f3bb56f3877b8effa7bea944d",
+  "fetched_at": "2026-05-19T11:11:18Z",
+  "parser_version": "0.3.3"
+}

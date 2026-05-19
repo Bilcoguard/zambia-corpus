@@ -1,0 +1,40 @@
+{
+  "id": "judgment-zm-2025-zmsc-11-henry-nyambe-and-9-ors-v-lumwana-mining-company-limited-appl",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Henry Nyambe and 9 Ors v Lumwana Mining Company Limited (APPLICATION NO. SCZ/7/34/2024) [2025] ZMSC 11 (29 April 2025)",
+  "citation": "[2025] ZMSC 11",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Henry Nyambe and 9 Ors v Lumwana Mining Company Limited (APPLICATION NO. SCZ/7/34/2024)",
+  "case_number": "Appeal 206 of\n2015",
+  "date_decided": "2025-04-29",
+  "judges": [
+    {
+      "name": "Musonda DCJ",
+      "role": "DCJ",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna JS",
+      "role": "JS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-interpretation",
+    "company-law",
+    "contract-law",
+    "labour-law",
+    "tort-law",
+    "evidence"
+  ],
+  "outcome": "dismissed",
+  "outcome_detail": "ppeal. The arguments by Mr. Phiri to the\ncontrary are, therefore, untenable and we dismiss them.\n20. Coming to the thrust of this motion which is the three\nquestions posed at sub paragraphs 8.1 to 8.3, we are in\nagreement with the arguments advanced by Mr. Chungu that\nthe Supreme Court has",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "cb01dde5c26f5ac040a744027760fec928debed02f0399a1e65bc7d14b885b17",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/11",
+  "source_hash": "sha256:ae50118dfa4341d869035fef8c42e6bf72aba5c1292d317892bb2c9378a96c7d",
+  "fetched_at": "2026-05-19T11:11:18Z",
+  "parser_version": "0.3.3"
+}

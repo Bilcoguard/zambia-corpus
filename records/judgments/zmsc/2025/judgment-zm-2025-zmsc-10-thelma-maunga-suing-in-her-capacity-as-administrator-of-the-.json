@@ -1,0 +1,35 @@
+{
+  "id": "judgment-zm-2025-zmsc-10-thelma-maunga-suing-in-her-capacity-as-administrator-of-the-",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Thelma Maunga (suing in her capacity as administrator of the estate of the late Suzyo Nyika) v The Anti-Corruption Commission and Anor (APPEAL No.5/2024; SCZ/8/37/2023) [2025] ZMSC 10 (17 April 2025)",
+  "citation": "[2025] ZMSC 10",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Thelma Maunga (suing in her capacity as administrator of the estate of the late Suzyo Nyika) v The Anti-Corruption Commission and Anor (APPEAL No.5/2024; SCZ/8/37/2023)",
+  "case_number": "Appeal No. 4/2019",
+  "date_decided": "2025-04-17",
+  "judges": [
+    {
+      "name": "CHISANGA JS",
+      "role": "JS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-interpretation",
+    "criminal-law",
+    "land-law",
+    "company-law",
+    "tort-law",
+    "banking-law"
+  ],
+  "outcome": "set-aside",
+  "outcome_detail": "ng came out of them.\n67. We therefore quash the judgment of the High Court, and set\naside the proceedings. The matter is remitted to the High Court.\n6 8 • The cause number assigned to the petition at the Principal\nRegistry is reinstated. It will be heard and determined by a High\nCourt jud",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "95ca65dfa9adb96bbcd5cad9a3758a56e00d2a0c32be47f1f80f9ded48649057",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/10",
+  "source_hash": "sha256:d7bd3f88db09310948e29aa0de8c128a795af281cef5beef30f68243dfa773b5",
+  "fetched_at": "2026-05-19T11:11:18Z",
+  "parser_version": "0.3.3"
+}

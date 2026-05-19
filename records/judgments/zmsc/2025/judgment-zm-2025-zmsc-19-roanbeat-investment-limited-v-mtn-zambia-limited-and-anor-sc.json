@@ -1,0 +1,35 @@
+{
+  "id": "judgment-zm-2025-zmsc-19-roanbeat-investment-limited-v-mtn-zambia-limited-and-anor-sc",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Roanbeat Investment Limited v MTN (Zambia) Limited and Anor (SCZ/7/22/2024) [2025] ZMSC 19 (13 August 2025)",
+  "citation": "[2025] ZMSC 19",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Roanbeat Investment Limited v MTN (Zambia) Limited and Anor",
+  "case_number": "Appeal No.\n003/2013",
+  "date_decided": "2025-08-13",
+  "judges": [
+    {
+      "name": "Malila CJ",
+      "role": "CJ",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "criminal-law",
+    "company-law",
+    "contract-law",
+    "tort-law",
+    "banking-law",
+    "evidence"
+  ],
+  "outcome": "upheld",
+  "outcome_detail": "omment\non the prospect of the intended appeal.\n5.18. For the foregoing reasons, we uphold the decision of the single\njudge and dismiss this motion with costs to be truced in default\nof agreement.\n~::=-----\nCHIEF JUSTICE\n····················~ ······\nF. M. Chisanga\nSUPREME COURT JUDGE",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "721ef79ff8b36f1a02860bf4183bc06275fce7f3f713c274e798286d70361581",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/19",
+  "source_hash": "sha256:4a3a6088b016152f09a7458febdb4139679d35ae487091768037482f398628cc",
+  "fetched_at": "2026-05-19T11:11:18Z",
+  "parser_version": "0.3.3"
+}

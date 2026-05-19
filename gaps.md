@@ -12469,3 +12469,16 @@ None this tick. Carry-forward audit-trail items `judgment-zm-2024-coa-024-kingfr
   - `no-judges-extracted`: 5
 - Remaining unparsed candidates (approx): 184
 - Note: Initial run crashed at judges-registry-update step (wrong dict assumption — judges_registry.yaml uses list-of-dicts schema). DB write+integrity completed before crash; this finish-script appends registry+logs+gaps+commit.
+
+## JIW b0728-jiw — reparse-deferred-zambialii sweep (priority a) (2026-05-19T11:11:18Z)
+- Cohort: ZambiaLII judgment PDFs (raw/zambialii/judgments/*) not yet in corpus
+- Inserted: 8 records
+- Deferred this tick: 16
+  - `no-outcome-detected`: 11
+  - `dup-case-number`: 3
+  - `no-judges-extracted`: 2
+- Remaining unparsed candidates (approx): 176
+- judiciary-coa-sweep: page-9 (scanned-PDF cliff) — unchanged this tick
+- judiciary-scz-sweep: page-4 next — unchanged this tick
+- judiciary-zmcc-sweep: page-2 next — unchanged this tick
+- judiciary-hc-sweep: page-3 next — unchanged this tick

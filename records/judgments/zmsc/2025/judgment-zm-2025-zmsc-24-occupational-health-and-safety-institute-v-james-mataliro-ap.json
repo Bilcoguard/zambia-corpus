@@ -1,0 +1,40 @@
+{
+  "id": "judgment-zm-2025-zmsc-24-occupational-health-and-safety-institute-v-james-mataliro-ap",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Occupational Health and Safety Institute v James Mataliro (APPEAL NO. 12/2025) [2025] ZMSC 24 (19 September 2025)",
+  "citation": "[2025] ZMSC 24",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Occupational Health and Safety Institute v James Mataliro (APPEAL NO. 12/2025)",
+  "case_number": "APPEAL NO. 12/2025",
+  "date_decided": "2025-09-19",
+  "judges": [
+    {
+      "name": "Musonda DCJ",
+      "role": "DCJ",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna JS",
+      "role": "JS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "land-law",
+    "company-law",
+    "contract-law",
+    "labour-law",
+    "tort-law",
+    "banking-law"
+  ],
+  "outcome": "upheld",
+  "outcome_detail": "ws:\n87.1 We set aside the decision of the Court of Appeal in its entirety.\n87.2 We uphold the decision of the Learned High Court Judge to\nthe extent only that it held the contract of employment to be\n-J49-\n\n•\n•\na nullity and that the parties could not enforce any of the\nrights or obligati",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "7f58d98ac57c22c103fffcb0c0ea9562c56d57a8690f1fa06f887e6f8c8d9fba",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/24",
+  "source_hash": "sha256:955032b85cef15353a73427400a7991d64340fcebeaa506779a6034870883e05",
+  "fetched_at": "2026-05-19T11:11:18Z",
+  "parser_version": "0.3.3"
+}

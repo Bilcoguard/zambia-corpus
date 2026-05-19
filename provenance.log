@@ -4740,3 +4740,14 @@ b0699-jiw	2026-05-18T15:35:00Z	RECOVERY	reason=context-compaction-interrupted-co
 2026-05-19T10:15:42Z	b0727-jiw	INGEST	judgment-zm-2023-zmsc-12-chungu-v-chanda-and-ors	Supreme Court of Zambia	dismissed	records/judgments/zmsc/2023/judgment-zm-2023-zmsc-12-chungu-v-chanda-and-ors.json
 2026-05-19T10:15:42Z	b0727-jiw	INGEST	judgment-zm-2023-zmsc-18-peter-chinyama-v-legina-hamukwele	Supreme Court of Zambia	set-aside	records/judgments/zmsc/2023/judgment-zm-2023-zmsc-18-peter-chinyama-v-legina-hamukwele.json
 2026-05-19T10:15:42Z	b0727-jiw	INGEST	judgment-zm-2022-zmsc-30-mwewa-v-attorney-general	Supreme Court of Zambia	granted	records/judgments/zmsc/2022/judgment-zm-2022-zmsc-30-mwewa-v-attorney-general.json
+2026-05-19T11:11:18Z	b0728-jiw	judgment-zm-2026-zmsc-07-munir-zulu-v-attorney-general-and-chibwili-appeal-no-232025-	court=Supreme Court of Zambia	outcome=set-aside	case_number=Appeal
+No.173/2003	source=zambialii-reparse
+2026-05-19T11:11:18Z	b0728-jiw	judgment-zm-2025-zmsc-10-thelma-maunga-suing-in-her-capacity-as-administrator-of-the-	court=Supreme Court of Zambia	outcome=set-aside	case_number=Appeal No. 4/2019	source=zambialii-reparse
+2026-05-19T11:11:18Z	b0728-jiw	judgment-zm-2025-zmsc-11-henry-nyambe-and-9-ors-v-lumwana-mining-company-limited-appl	court=Supreme Court of Zambia	outcome=dismissed	case_number=Appeal 206 of
+2015	source=zambialii-reparse
+2026-05-19T11:11:18Z	b0728-jiw	judgment-zm-2025-zmsc-15-the-attorney-general-and-anor-v-metro-investments-limited-an	court=Supreme Court of Zambia	outcome=set-aside	case_number=APPEAL NO. 9/2021	source=zambialii-reparse
+2026-05-19T11:11:18Z	b0728-jiw	judgment-zm-2025-zmsc-18-emmanuel-tumba-and-6-ors-v-zambia-bata-shoe-company-plc-7252	court=Supreme Court of Zambia	outcome=allowed	case_number=Appeal No. 004/2013	source=zambialii-reparse
+2026-05-19T11:11:18Z	b0728-jiw	judgment-zm-2025-zmsc-19-roanbeat-investment-limited-v-mtn-zambia-limited-and-anor-sc	court=Supreme Court of Zambia	outcome=upheld	case_number=Appeal No.
+003/2013	source=zambialii-reparse
+2026-05-19T11:11:18Z	b0728-jiw	judgment-zm-2025-zmsc-20-zambia-revenue-authority-v-nestl-zambia-limited-appeal-no-03	court=Supreme Court of Zambia	outcome=allowed	case_number=APPEAL NO. 03/2021	source=zambialii-reparse
+2026-05-19T11:11:18Z	b0728-jiw	judgment-zm-2025-zmsc-24-occupational-health-and-safety-institute-v-james-mataliro-ap	court=Supreme Court of Zambia	outcome=upheld	case_number=APPEAL NO. 12/2025	source=zambialii-reparse

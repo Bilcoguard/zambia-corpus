@@ -1,0 +1,35 @@
+{
+  "id": "judgment-zm-2025-zmsc-20-zambia-revenue-authority-v-nestl-zambia-limited-appeal-no-03",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Zambia Revenue Authority v Nestlé Zambia Limited (APPEAL NO. 03/2021) [2025] ZMSC 20 (20 August 2025)",
+  "citation": "[2025] ZMSC 20",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Zambia Revenue Authority v Nestlé Zambia Limited (APPEAL NO. 03/2021)",
+  "case_number": "APPEAL NO. 03/2021",
+  "date_decided": "2025-08-20",
+  "judges": [
+    {
+      "name": "Kabuka JS",
+      "role": "JS",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-interpretation",
+    "land-law",
+    "company-law",
+    "contract-law",
+    "tax-law",
+    "labour-law"
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "n four out of its five\ngrounds of appeal, is the successful party. Accordingly, we allow\nthis appeal with costs to the appellant, to be taxed in default of\nagreement.\nAppeal allowed\nJ.K.KABUKA\nSUPREME COURT JUDGE\nF. M. CHISANGA\nSUPREME COURT JUDGE\nJ77",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "7271db291b24a7416945e01d7a9407b61e8b434020666212043e69b6fbecf0d3",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/20",
+  "source_hash": "sha256:b9e179cb32c1813de65fd043a3fac01eea41475f02954e32635020276f79b229",
+  "fetched_at": "2026-05-19T11:11:18Z",
+  "parser_version": "0.3.3"
+}

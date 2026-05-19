@@ -1,0 +1,40 @@
+{
+  "id": "judgment-zm-2026-zmsc-07-munir-zulu-v-attorney-general-and-chibwili-appeal-no-232025-",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Munir Zulu v Attorney General and Chibwili (Appeal No. 23/2025; SCZ/8/11/2025) [2026] ZMSC 7 (13 March 2026)",
+  "citation": "[2026] ZMSC 7",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Munir Zulu v Attorney General and Chibwili",
+  "case_number": "Appeal\nNo.173/2003",
+  "date_decided": "2026-03-13",
+  "judges": [
+    {
+      "name": "Musonda DCJ",
+      "role": "DCJ",
+      "dissented": false
+    },
+    {
+      "name": "MUSONDA DCJ",
+      "role": "DCJ",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-interpretation",
+    "criminal-law",
+    "land-law",
+    "tax-law",
+    "procedure",
+    "mining-law"
+  ],
+  "outcome": "set-aside",
+  "outcome_detail": "light\nof the reasons which have been adumbrated in this judgment.\nAccordingly, we set aside that misapprehended Ruling.\n7. 5 As to the issue of costs, we consider that, having regard to\nthe manner in which this appeal has been resolved, it is only\nfair that each party bears its own costs in",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "462945275b82b23c80c8c05f4ada264891e5be3d361a617d17ee5f0548064e45",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2026/7",
+  "source_hash": "sha256:19a4220d33a80c9a4b8664a4b7e835241cd9515817e9ae25b12d9a47f1bca387",
+  "fetched_at": "2026-05-19T11:11:18Z",
+  "parser_version": "0.3.3"
+}

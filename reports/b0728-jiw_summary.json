@@ -1,0 +1,73 @@
+{
+  "tick": "b0728-jiw",
+  "timestamp": "2026-05-19T11:11:18Z",
+  "worker": "judgment-ingestion-worker",
+  "priority": "(a) reparse-deferred-zambialii",
+  "candidates_seen": 184,
+  "inserted_count": 8,
+  "deferred_count": 16,
+  "deferred_reason_counts": {
+    "no-outcome-detected": 11,
+    "dup-case-number": 3,
+    "no-judges-extracted": 2
+  },
+  "integrity": {
+    "records": 2013,
+    "records_fts": 2013,
+    "dup_ids": 0,
+    "quick_check": "ok"
+  },
+  "inserted": [
+    {
+      "id": "judgment-zm-2026-zmsc-07-munir-zulu-v-attorney-general-and-chibwili-appeal-no-232025-",
+      "court": "Supreme Court of Zambia",
+      "outcome": "set-aside",
+      "case_number": "Appeal\nNo.173/2003"
+    },
+    {
+      "id": "judgment-zm-2025-zmsc-10-thelma-maunga-suing-in-her-capacity-as-administrator-of-the-",
+      "court": "Supreme Court of Zambia",
+      "outcome": "set-aside",
+      "case_number": "Appeal No. 4/2019"
+    },
+    {
+      "id": "judgment-zm-2025-zmsc-11-henry-nyambe-and-9-ors-v-lumwana-mining-company-limited-appl",
+      "court": "Supreme Court of Zambia",
+      "outcome": "dismissed",
+      "case_number": "Appeal 206 of\n2015"
+    },
+    {
+      "id": "judgment-zm-2025-zmsc-15-the-attorney-general-and-anor-v-metro-investments-limited-an",
+      "court": "Supreme Court of Zambia",
+      "outcome": "set-aside",
+      "case_number": "APPEAL NO. 9/2021"
+    },
+    {
+      "id": "judgment-zm-2025-zmsc-18-emmanuel-tumba-and-6-ors-v-zambia-bata-shoe-company-plc-7252",
+      "court": "Supreme Court of Zambia",
+      "outcome": "allowed",
+      "case_number": "Appeal No. 004/2013"
+    },
+    {
+      "id": "judgment-zm-2025-zmsc-19-roanbeat-investment-limited-v-mtn-zambia-limited-and-anor-sc",
+      "court": "Supreme Court of Zambia",
+      "outcome": "upheld",
+      "case_number": "Appeal No.\n003/2013"
+    },
+    {
+      "id": "judgment-zm-2025-zmsc-20-zambia-revenue-authority-v-nestl-zambia-limited-appeal-no-03",
+      "court": "Supreme Court of Zambia",
+      "outcome": "allowed",
+      "case_number": "APPEAL NO. 03/2021"
+    },
+    {
+      "id": "judgment-zm-2025-zmsc-24-occupational-health-and-safety-institute-v-james-mataliro-ap",
+      "court": "Supreme Court of Zambia",
+      "outcome": "upheld",
+      "case_number": "APPEAL NO. 12/2025"
+    }
+  ],
+  "judges_added": 7,
+  "budget_today": "0/500",
+  "b2_sync": "deferred-to-host-rclone-not-in-sandbox"
+}

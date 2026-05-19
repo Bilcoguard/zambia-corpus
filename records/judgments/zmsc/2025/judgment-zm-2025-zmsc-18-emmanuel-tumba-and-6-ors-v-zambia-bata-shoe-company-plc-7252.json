@@ -1,0 +1,35 @@
+{
+  "id": "judgment-zm-2025-zmsc-18-emmanuel-tumba-and-6-ors-v-zambia-bata-shoe-company-plc-7252",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Emmanuel Tumba and 6 Ors v Zambia Bata Shoe Company Plc (7/25/2024) [2025] ZMSC 18 (14 August 2025)",
+  "citation": "[2025] ZMSC 18",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Emmanuel Tumba and 6 Ors v Zambia Bata Shoe Company Plc (7/25/2024)",
+  "case_number": "Appeal No. 004/2013",
+  "date_decided": "2025-08-14",
+  "judges": [
+    {
+      "name": "Malila CJ",
+      "role": "CJ",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "constitutional-interpretation",
+    "land-law",
+    "company-law",
+    "contract-law",
+    "labour-law",
+    "tort-law"
+  ],
+  "outcome": "allowed",
+  "outcome_detail": "endment of section 13 of the Court of Appeal Act.\n5.5. (a) whether the Court of Appeal is allowed to apply the law\nretrospectively.\nThis question raises a fairly common point which has been\nclarified by this court on numerous occasions. The applicants\nthemselves have in their written submissions",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "raw_sha256": "5ad0924a35ce0662752785446a61448c160e7a49613452797684a2256dca51f5",
+  "source_url": "https://zambialii.org/akn/zm/judgment/zmsc/2025/18",
+  "source_hash": "sha256:d04a3beeeb9ef87ecf42cf8ef0f40596c1e70364376b4beef2a37873fecf5016",
+  "fetched_at": "2026-05-19T11:11:18Z",
+  "parser_version": "0.3.3"
+}
