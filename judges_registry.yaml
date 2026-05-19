@@ -1239,8 +1239,12 @@ judges:
   - title: CJ
     first_seen_in: judgment-zm-2023-zmsc-12-chungu-v-chanda-and-ors
     first_seen_at: '2026-05-19T10:15:42Z'
+  - title: Judge
+    first_seen_in: judgment-zm-2023-zmsc-10-mushipe-t-a-mushipe-associates-and-suing-as-execut
+    first_seen_at: '2026-05-19T14:41:01Z'
   aliases:
   - Wood CJ
+  - Wood
   first_seen: '2026-05-19T10:15:42Z'
   court: Supreme Court of Zambia
 - canonical_name: Musonda
@@ -1248,8 +1252,12 @@ judges:
   - title: DCJ
     first_seen_in: judgment-zm-2023-zmsc-18-peter-chinyama-v-legina-hamukwele
     first_seen_at: '2026-05-19T10:15:42Z'
+  - title: Judge
+    first_seen_in: judgment-zm-2026-zmsc-04-ventriglia-and-anor-v-finance-bank-zambia-limited-scz722025-
+    first_seen_at: '2026-05-19T14:41:01Z'
   aliases:
   - Musonda DCJ
+  - Musonda
   first_seen: '2026-05-19T10:15:42Z'
   court: Supreme Court of Zambia
 - canonical_name: Kaoma
@@ -1257,8 +1265,12 @@ judges:
   - title: DCJ
     first_seen_in: judgment-zm-2023-zmsc-18-peter-chinyama-v-legina-hamukwele
     first_seen_at: '2026-05-19T10:15:42Z'
+  - title: Judge
+    first_seen_in: judgment-zm-2026-zmsc-04-ventriglia-and-anor-v-finance-bank-zambia-limited-scz722025-
+    first_seen_at: '2026-05-19T14:41:01Z'
   aliases:
   - Kaoma DCJ
+  - Kaoma
   first_seen: '2026-05-19T10:15:42Z'
   court: Supreme Court of Zambia
 - canonical_name: Chisanga
@@ -1332,4 +1344,13 @@ judges:
   aliases:
   - Kabuka JS
   first_seen: '2026-05-19T11:11:18Z'
+  court: Supreme Court of Zambia
+- canonical_name: Kabuka JJs
+  titles:
+  - title: Judge
+    first_seen_in: judgment-zm-2026-zmsc-04-ventriglia-and-anor-v-finance-bank-zambia-limited-scz722025-
+    first_seen_at: '2026-05-19T14:41:01Z'
+  aliases:
+  - Kabuka JJs
+  first_seen: '2026-05-19T14:41:01Z'
   court: Supreme Court of Zambia

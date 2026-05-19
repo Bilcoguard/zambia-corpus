@@ -1,0 +1,44 @@
+{
+  "id": "judgment-zm-2026-zmsc-04-ventriglia-and-anor-v-finance-bank-zambia-limited-scz722025-",
+  "type": "judgment",
+  "jurisdiction": "ZM",
+  "title": "Ventriglia and Anor v Finance Bank Zambia Limited (SCZ/7/2/2025) [2026] ZMSC 4 (10 March 2026) – ZambiaLII",
+  "citation": "[2026] ZMSC 4",
+  "court": "Supreme Court of Zambia",
+  "case_name": "Ventriglia and Anor v Finance Bank Zambia Limited",
+  "case_number": "Appeal No. 92 of 2009",
+  "date_decided": "2026-03-10",
+  "judges": [
+    {
+      "name": "Musonda",
+      "role": "Judge",
+      "dissented": false
+    },
+    {
+      "name": "Kaoma",
+      "role": "Judge",
+      "dissented": false
+    },
+    {
+      "name": "Kabuka JJs",
+      "role": "Judge",
+      "dissented": false
+    }
+  ],
+  "issue_tags": [
+    "appellate-procedure",
+    "company-law",
+    "costs",
+    "jurisdiction"
+  ],
+  "outcome": "granted",
+  "outcome_detail": ".0 CONCLUSION 6.1 This motion was bound to succeed. It has. We grant the Applicants permission to appeal but defer the issue of costs to the outcome of the proposed or intended appeal . .",
+  "reasoning_tags": [],
+  "key_statutes": [],
+  "dissent_summary": null,
+  "raw_sha256": "f8a3e867b2934ab4a717e5a8f8553003923969f32b345180a44af413fd33d0e7",
+  "source_url": "https://zambialii.org/judgments/zmsc/",
+  "source_hash": "sha256:f8a3e867b2934ab4a717e5a8f8553003923969f32b345180a44af413fd33d0e7",
+  "fetched_at": "2026-05-19T14:41:01Z",
+  "parser_version": "0.3.3"
+}

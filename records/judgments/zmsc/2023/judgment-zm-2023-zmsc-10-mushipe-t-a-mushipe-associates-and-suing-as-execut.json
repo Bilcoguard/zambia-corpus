@@ -2,30 +2,48 @@
   "id": "judgment-zm-2023-zmsc-10-mushipe-t-a-mushipe-associates-and-suing-as-execut",
   "type": "judgment",
   "jurisdiction": "ZM",
-  "title": "Mushipe (T/A Mushipe &amp; Associates and Suing as Executor and Trustee of the Estate of the late Funny Lunga Yolamu) v Rossi ( Suing as Executor and Trustee of the Estate of the Late Funny Lunga Yolamu) (APPEAL NO. 12/2022) [2023] ZMSC 10 (31 May 2023)",
-  "citation": "[2023] ZMSC 10 [2023] ZMSC 10 ' data-confirmation=\"Copied!\"> Copy",
+  "title": "Mushipe (T/A Mushipe & Associates and Suing as Executor and Trustee of the Estate of the late Funny Lunga Yolamu) v Rossi ( Suing as Executor and Trustee of the Estate of the Late Funny Lunga Yolamu) (APPEAL NO. 12/2022) [2023] ZMSC 10 (31 May 2023) – ZambiaLII",
+  "citation": "[2023] ZMSC 10",
   "court": "Supreme Court of Zambia",
-  "case_name": "Mushipe",
-  "case_number": "APPEAL NO. 12/2022",
+  "case_name": "Mushipe (T/A Mushipe & Associates and Suing as Executor and Trustee of the Estate of the late Funny Lunga Yolamu) v Rossi ( Suing as Executor and Trustee of the Estate of the Late Funny Lunga Yolamu) (APPEAL NO. 12/2022)",
+  "case_number": "Appeal No. 17 of 2010",
   "date_decided": "2023-05-31",
   "judges": [
     {
-      "name": "Unknown",
-      "role": "J",
+      "name": "Musonda DCJ",
+      "role": "DCJ",
+      "dissented": false
+    },
+    {
+      "name": "Wood",
+      "role": "Judge",
+      "dissented": false
+    },
+    {
+      "name": "Mutuna JJS",
+      "role": "JJS",
       "dissented": false
     }
   ],
   "issue_tags": [
-    "land law",
-    "company law"
+    "appellate-procedure",
+    "company-law",
+    "costs",
+    "jurisdiction",
+    "land-law",
+    "property-title",
+    "tax-law"
   ],
-  "outcome": "upheld",
-  "outcome_detail": "istration of the estate as the Learned High Court Judge found. 58) The Court of Appeal upheld this finding by the Learned High Court Judge. The appointment of executors was totally separate from the instructions t",
+  "outcome": "remitted",
+  "outcome_detail": "3 and 't JSS 84 of this judgment. The matter is, therefore, remitted to the Deputy Registrar for assessment of those expenses only. We accordingly uphold the decision of the Court of Appeal a",
   "reasoning_tags": [],
-  "key_statutes": [],
+  "key_statutes": [
+    "The Wills and Administration of Testate Estates Act"
+  ],
+  "dissent_summary": null,
   "raw_sha256": "b31e4e718995346195f0c468febf40524555ef29de1481906dbf9ce173a4f6bb",
-  "source_url": "https://zambialii.org/judgment-zm-2023-zmsc-10-mushipe-t-a-mushipe-associates-and-suing-as-execut",
-  "source_hash": "sha256:805978ab23e9a8b90b935ac26f9c38e3f9e0c3b196201813fd312eeac3d65074",
-  "fetched_at": "2026-05-19T08:18:01Z",
-  "parser_version": "0.3.2"
+  "source_url": "https://zambialii.org/judgments/zmsc/",
+  "source_hash": "sha256:b31e4e718995346195f0c468febf40524555ef29de1481906dbf9ce173a4f6bb",
+  "fetched_at": "2026-05-19T14:41:01Z",
+  "parser_version": "0.3.3"
 }

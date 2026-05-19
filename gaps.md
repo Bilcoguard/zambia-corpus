@@ -12495,3 +12495,17 @@ None this tick. Carry-forward audit-trail items `judgment-zm-2024-coa-024-kingfr
 - judiciary-scz-sweep: page-4 next — unchanged this tick
 - judiciary-zmcc-sweep: page-2 next — unchanged this tick
 - judiciary-hc-sweep: page-3 next — unchanged this tick
+
+## JIW b0730-jiw — reparse-deferred-zambialii-judgments (priority a)
+- Date: 2026-05-19T14:41:01Z
+- Cohort: ZambiaLII judgment PDFs (raw/zambialii/judgments/*) not yet in corpus
+- Inserted: 2 records
+- Deferred this tick: 166
+  - `no-outcome-detected`: 96
+  - `quality-gate-body-too-short`: 67
+  - `dup-case-number`: 2
+  - `no-judges-extracted`: 1
+- judiciary-coa-sweep: page-9 (scanned-PDF cliff) — unchanged this tick
+- judiciary-scz-sweep: page-4 next — unchanged this tick
+- judiciary-zmcc-sweep: page-2 next — unchanged this tick
+- judiciary-hc-sweep: page-3 next — unchanged this tick

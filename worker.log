@@ -10854,3 +10854,21 @@ warning: unable to unlink '.git/
 2026-05-19T11:14:59Z	b0901-repair-msk	All repair targets fixed — repair worker idle
 2026-05-19T11:14:59Z	b0901-repair-msk	wrote idle report: reports/repair-idle-20260519T111459Z.json
 2026-05-19T12:13:57Z	b0729-jiw	worker=judgment-ingestion-worker	priority=(a)-reparse-deferred-zambialii	inserted=8	deferred=41	quality_gate_skips=1	no_outcome=33	no_judges=7	records_after=2021
+[2026-05-19T12:15:28Z] b0713 === TICK START b0713 cwd=/sessions/funny-stoic-edison/mnt/corpus ===
+[2026-05-19T12:15:29Z] b0713 git fetch rc=0 stderr=
+[2026-05-19T12:15:29Z] b0713 local HEAD=368116c23d3b  origin/main=368116c23d3b
+[2026-05-19T12:15:29Z] b0713 Condition B (no-body acts/sis): 0
+[2026-05-19T12:15:29Z] b0713 Condition A (corrupted): 0
+[2026-05-19T12:15:29Z] b0713 Condition C (stubs): 0
+[2026-05-19T12:15:29Z] b0713 Total dedup targets: 0; MAX_BATCH=8
+[2026-05-19T12:15:29Z] b0713 All repair targets fixed — repair worker idle
+[2026-05-19T14:40:50Z] [repair] Cleared stale git locks
+[2026-05-19T14:40:51Z] [repair] git pull rc=0
+[2026-05-19T14:40:51Z] [repair] pull.stdout: Already up to date.
+[2026-05-19T14:40:51Z] [repair] pull.stderr: warning: unable to unlink '/sessions/quirky-festive-ptolemy/mnt/corpus/.git/objects/maintenance.lock': Operation not permitted
+[2026-05-19T14:40:51Z] [repair] Tables: ['_b0659_test', '_b0725_iotest2', 'acts_meta', 'citations', 'corpus_meta', 'judgments_meta', 'lost_and_found', 'records', 'records_fts', 'records_fts_config', 'records_fts_data', 'records_fts_docsize', 'records_fts_idx', 'sis_meta']
+[2026-05-19T14:40:51Z] [repair] Total repair candidates: 0
+[2026-05-19T14:40:51Z] [repair] All repair targets fixed — repair worker idle
+[repair] "All repair targets fixed — repair worker idle"
+
+[2026-05-19T14:41:01Z] b0730-jiw TICK_END inserted=2 deferred=166 records=2023 records_fts=2023
